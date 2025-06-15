@@ -4,21 +4,21 @@
 
 Replace _version_ with the complete version and build number of the __msi__ file. For example, 11.0.0.74.
 
-Install only PPE Server: msiexec /i Netwrix\_PPE\_Server\__version_\_x64.msi ADDLOCAL=FeatureServerPPE /q
+Install only PPE Server: msiexec /i Netwrix_PPE_Server__version__x64.msi ADDLOCAL=FeatureServerPPE /q
 
-Install only Console: msiexec /i Netwrix\_PPE\_Server\__version_\_x64.msi ADDLOCAL=FeatureConsole /q
+Install only Console: msiexec /i Netwrix_PPE_Server__version__x64.msi ADDLOCAL=FeatureConsole /q
 
-Install only Mailer Server: msiexec /i Netwrix\_PPE\_Server\__version_\_x64.msi ADDLOCAL=FeaturePPEMailerServer /q
+Install only Mailer Server: msiexec /i Netwrix_PPE_Server__version__x64.msi ADDLOCAL=FeaturePPEMailerServer /q
 
 Install all 3 components:
 
-msiexec /i Netwrix\_PPE\_Server\__version_\_x64.msi ADDLOCAL=FeaturePPEMailerServer,FeatureConsole,FeatureServerPPE /q
+msiexec /i Netwrix_PPE_Server__version__x64.msi ADDLOCAL=FeaturePPEMailerServer,FeatureConsole,FeatureServerPPE /q
 
-By default Console only installed: msiexec /i Netwrix\_PPE\_Server\__version_\_x64.msi /q
+By default Console only installed: msiexec /i Netwrix_PPE_Server__version__x64.msi /q
 
-Uninstall all: msiexec /uninstall Netwrix\_PPE\_Server\__version_\_x64.msi /q
+Uninstall all: msiexec /uninstall Netwrix_PPE_Server__version__x64.msi /q
 
-Uninstall only particular feature: msiexec /i _path\_to\_your\_msi\_file.msi_ REMOVE=_FeatureName_ /qn
+Uninstall only particular feature: msiexec /i _path_to_your_msi_file.msi_ REMOVE=_FeatureName_ /qn
 
 If a reboot was not done, add __/forcerestart__ at the end
 

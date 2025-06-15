@@ -8,7 +8,7 @@ __Step 2 –__ Go to the System Configuration, Client Software and download the 
 
 ![Downloading the Windows Endpoint Protector MSI Package](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/install/agent/intune/msipackagedownload.png)
 
-__CAUTION:__ When deploying the .msi package, delete the information contained in the brackets as well as the underscore that precedes it - EPPClientSetup.5.6.3.1\_x86\_64.msi
+__CAUTION:__ When deploying the .msi package, delete the information contained in the brackets as well as the underscore that precedes it - EPPClientSetup.5.6.3.1_x86_64.msi
 
 ![A black text on a white background
 
@@ -35,7 +35,7 @@ __Step 7 –__ On the App information page, fill in the mandatory fields and the
 - Publisher – add NetwrixLtd.
 - Command-line argument – add the following command line in the text box
 
-  - WSIP="EPP\_server\_IP" WSPORT="443" /q REBOOT=ReallySuppress
+  - WSIP="EPP_server_IP" WSPORT="443" /q REBOOT=ReallySuppress
 
 ![App information page to add information. ](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/install/agent/intune/addapp.png)
 

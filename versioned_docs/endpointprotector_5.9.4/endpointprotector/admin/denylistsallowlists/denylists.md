@@ -28,8 +28,8 @@ You can deﬁne the content by adding the ﬁlename and extension, or just the e
 
 Examples: Matching and Non-Matching for File Names like “example.pdf”:
 
-- Matching – example.pdf, my\_example.pdf
-- Non-Matching – example.txt, myexample.txt, test.pdf, example.pdf.txt, test\_example.pdf\_test.zip
+- Matching – example.pdf, my_example.pdf
+- Non-Matching – example.txt, myexample.txt, test.pdf, example.pdf.txt, test_example.pdf_test.zip
 
 Examples: Matching and Non-Matching for File Extensions like “.epp”:
 
@@ -104,7 +104,7 @@ To create a new denylist, under the list of available denylists, click __Ad__d, 
 
 You can test a regular expression for accuracy using the right-side option. Add the content and then click Test. If the Regular Expression has no errors, then the same content should appear into the Matched content box, as shown below:
 
-- To match an E-mail – [-0-9a-zA-Z.+\_]+@[-0-9a-zA-Z.+\_]+\.[a-zA-Z]{2,4}
+- To match an E-mail – [-0-9a-zA-Z.+_]+@[-0-9a-zA-Z.+_]+\.[a-zA-Z]{2,4}
 - To match an IP – (25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)(\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}
 
 __NOTE:__ This feature is provided “as is” and requires advanced knowledge of the Regular Expression syntax. No direct support is offered and it is the responsibility of the customers to learn and implement regular expressions and to thoroughly test.

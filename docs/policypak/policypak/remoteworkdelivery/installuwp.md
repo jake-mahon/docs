@@ -92,7 +92,7 @@ __Step 4 –__ At the Specify policy target screen select __Apply this policy to
 
 __Step 5 –__ At the Specify the copy source window add the direct download link for the UWP application, then click __Next__.
 
-__NOTE:__ In this example, we are using a temporary link created for Dropbox: https://www.dropbox.com/s/gvzushhyu2qz9i/Microsoft.AzureVpn\_1.1069.25.0\_neutral\_\_\_8wekyb3d8bbwe.Msixbundle?dl=1. Do not use this link, it is provided only as an example and will not work, please create a new link to use.
+__NOTE:__ In this example, we are using a temporary link created for Dropbox: https://www.dropbox.com/s/gvzushhyu2qz9i/Microsoft.AzureVpn_1.1069.25.0_neutral___8wekyb3d8bbwe.Msixbundle?dl=1. Do not use this link, it is provided only as an example and will not work, please create a new link to use.
 
 ![722_15_image-20201105183911-15](/img/product_docs/policypak/policypak/remoteworkdelivery/722_15_image-20201105183911-15.webp)
 

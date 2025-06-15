@@ -19,7 +19,7 @@ There are two users created by default during the installation process of Endpoi
 
 __CAUTION:__ Depending on the OS, additional system users can appear:
 
-- \_mbsetupuser (for macOS, during updates)
+- _mbsetupuser (for macOS, during updates)
 - 65535, 62624, etc. (for Linux, during locked screens)
 
 The Actions column offers multiple options related to user management like Edit, Manage Rights, History, and Delete.

@@ -17,10 +17,10 @@
 | URL Rewrite mod | 2.1 | 2.1 | IIS |
 | ARR | 3.0 | 3.1 | IIS |
 | Websocket Protocol | - | - | IIS |
-| mod\_rewrite module | - | - | Apache |
-| mod\_proxy module | - | - | Apache |
-| mod\_ssl module | - | - | Apache |
-| mod\_proxy\_http module | - | - | Apache |
+| mod_rewrite module | - | - | Apache |
+| mod_proxy module | - | - | Apache |
+| mod_ssl module | - | - | Apache |
+| mod_proxy_http module | - | - | Apache |
 
 #### Required Configuration
 

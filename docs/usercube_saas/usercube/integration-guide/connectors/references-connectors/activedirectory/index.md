@@ -127,13 +127,13 @@ The identifier of the connection and thus the name of the subsection must:
 
 This connector is meant to generate:
 
-- A file named ```<connectionIdentifier>```\_entries.csv, with one column for each property having a ConnectionColumn and each property without it but used in an entity association;
+- A file named ```<connectionIdentifier>```_entries.csv, with one column for each property having a ConnectionColumn and each property without it but used in an entity association;
 
   Any property can be exported in a specific format when specified. See the [
   References: Format for the EntityPropertyMapping
   ](/docs/usercube_saas/usercube/integration-guide/connectors/entitypropertymapping-format/index.md) topic for additional information.
 - An additional file for each related table other than entries;
-- A cookie file named ```<connectionIdentifier>```\_cookie.bin, containing the time of the last export in order to perform incremental exports.
+- A cookie file named ```<connectionIdentifier>```_cookie.bin, containing the time of the last export in order to perform incremental exports.
 
   __NOTE:__ Most exports can be run in complete mode, where the CSV files will contain all entries, or in incremental mode, where CSV files will contain only the entries which have been modified since the last synchronization.
     
@@ -161,7 +161,7 @@ ADExport_entries.csv
             ...
 ```
 
-Also, ADExport\_member as ConnectionTable in a mapping will trigger the generation of the file ```C:/UsercubeContoso/Temp/ExportOutput/ADExport_member.csv``` with member as link attribute:
+Also, ADExport_member as ConnectionTable in a mapping will trigger the generation of the file ```C:/UsercubeContoso/Temp/ExportOutput/ADExport_member.csv``` with member as link attribute:
 
 ```
 ADExport_member.csv  
@@ -209,7 +209,7 @@ Each __BaseDN__ will generate a cookie file, but the entries from all __BaseDN__
 >                 }
 > ```
 >
-> The export creates two cookie files: ADExport\_cookie\_0.bin for the first __BaseDN__, and ADExport\_cookie\_1.bin for the second __BaseDN__, but the entries of both __BaseDN__ properties will be written in ADExport\_entries.csv.
+> The export creates two cookie files: ADExport_cookie_0.bin for the first __BaseDN__, and ADExport_cookie_1.bin for the second __BaseDN__, but the entries of both __BaseDN__ properties will be written in ADExport_entries.csv.
 
 ## Fulfill
 

@@ -40,8 +40,8 @@ The Dropbox Solution offers an overview of an organization’s Dropbox environme
 The following jobs comprise the Dropbox Solution:
 
 - [0.Collection Job Group](/docs/accessanalyzer/enterpriseauditor/solutions/dropbox/collection/overview.md) – Scans the targeted Dropbox site and generates the standard reference tables and views
-- [1.Access > Dropbox\_Access Job](/docs/accessanalyzer/enterpriseauditor/solutions/dropbox/dropbox_access.md) – Reports on effective access to Dropbox resources in the targeted environment
-- [2.Sharing > Dropbox\_Sharing Job](/docs/accessanalyzer/enterpriseauditor/solutions/dropbox/dropbox_sharing.md) – Reports on the sharing of Dropbox resources in the targeted environment
-- [3.Group Membership > Dropbox\_GroupMembership Job](/docs/accessanalyzer/enterpriseauditor/solutions/dropbox/dropbox_groupmembership.md) – Reports on Dropbox group membership in the targeted environment
-- [4.Content > Dropbox\_Content Job](/docs/accessanalyzer/enterpriseauditor/solutions/dropbox/dropbox_content.md) – Reports on Dropbox content by size, type, and owner in the targeted environment
-- [5.Sensitive Data > Dropbox\_SensitiveData Job](/docs/accessanalyzer/enterpriseauditor/solutions/dropbox/dropbox_sensitivedata.md) – Reports on sensitive data in the targeted Dropbox site
+- [1.Access > Dropbox_Access Job](/docs/accessanalyzer/enterpriseauditor/solutions/dropbox/dropbox_access.md) – Reports on effective access to Dropbox resources in the targeted environment
+- [2.Sharing > Dropbox_Sharing Job](/docs/accessanalyzer/enterpriseauditor/solutions/dropbox/dropbox_sharing.md) – Reports on the sharing of Dropbox resources in the targeted environment
+- [3.Group Membership > Dropbox_GroupMembership Job](/docs/accessanalyzer/enterpriseauditor/solutions/dropbox/dropbox_groupmembership.md) – Reports on Dropbox group membership in the targeted environment
+- [4.Content > Dropbox_Content Job](/docs/accessanalyzer/enterpriseauditor/solutions/dropbox/dropbox_content.md) – Reports on Dropbox content by size, type, and owner in the targeted environment
+- [5.Sensitive Data > Dropbox_SensitiveData Job](/docs/accessanalyzer/enterpriseauditor/solutions/dropbox/dropbox_sensitivedata.md) – Reports on sensitive data in the targeted Dropbox site

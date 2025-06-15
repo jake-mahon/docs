@@ -30,7 +30,7 @@ Executes the given command and waits for one of the prompts in the received data
 
 ## FileHashPath
 
-Defines the name and path for the NNT\_FILEHASH binary to use for Agentless FIM. General best practice is to locate the NNT\_FILEHASH binary in the _/usr/bin_ folder with execute permissions set for the user account assigned to Change Tracker e.g. ```FileHashPath,/usr/bin/NNT_FILEHASH_LINUX_X64```
+Defines the name and path for the NNT_FILEHASH binary to use for Agentless FIM. General best practice is to locate the NNT_FILEHASH binary in the _/usr/bin_ folder with execute permissions set for the user account assigned to Change Tracker e.g. ```FileHashPath,/usr/bin/NNT_FILEHASH_LINUX_X64```
 
 ## HashMatchesWithComment
 

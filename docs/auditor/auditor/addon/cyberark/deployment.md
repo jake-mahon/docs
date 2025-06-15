@@ -21,7 +21,7 @@ In Auditor client, go to the Integrations section and verify Integration API set
 
 See the [Prerequisites](/docs/auditor/auditor/api/prerequisites.md) topic for additional information.
 
-By default, activity records are written to _Netwrix\_Auditor\_API_ database which is not associated with a specific monitoring plan.
+By default, activity records are written to _Netwrix_Auditor_API_ database which is not associated with a specific monitoring plan.
 
 Optionally, you can create a dedicated monitoring plan in Auditor. In this case, data will be written to a database linked to this plan. Target it at Netwrix API data source and enable for monitoring. Add a dedicated item of _Integration_ type to the plan for data to be filtered by item name. See the [Integration API](/docs/auditor/auditor/api/overview.md) topic for additional information.
 
@@ -52,7 +52,7 @@ __Step 4 –__ Save the __dbparam.ini__ file.
 
 ## Download the Add-On
 
-__Step 1 –__ Download the distribution package __Netwrix\_Auditor\_Add-on\_for\_CyberArk\_PAS.zip__.
+__Step 1 –__ Download the distribution package __Netwrix_Auditor_Add-on_for_CyberArk_PAS.zip__.
 
 __Step 2 –__ Unpack it to a folder on the computer where you plan to deploy the add-on.
 
@@ -70,7 +70,7 @@ __Step 5 –__ Run the installation package.
 
 __Step 6 –__ Accept the license agreement and follow the instructions of the setup wizard.
 
-__Step 7 –__ On the __Destination Folder__ step, specify the installation folder (_C:\Program Files (x86)\Netwrix Add-ons\<Add-on name>\_ by default).
+__Step 7 –__ On the __Destination Folder__ step, specify the installation folder (_C:\Program Files (x86)\Netwrix Add-ons\<Add-on name>_ by default).
 
 __Step 8 –__ Click __Install__.
 
@@ -94,7 +94,7 @@ Click __Proceed__ and complete the following fields:
 | Username | Provide the name of the account under which the service runs. Unless specified, the service runs under the account currently logged on. |
 | Password | Provide the password for the selected account. |
 | Auditor Monitoring Plan settings |  |
-| Auditor Plan | Unless specified, data is written to __Netwrix\_Auditor\_API__ database and is not associated with a specific monitoring plan.  Specify a name of associated monitoring plan in Auditor. In this case, data will be written to a database linked to this plan.  If you select a plan name in the add- on, make sure a dedicated plan is created in Auditor, the Netwrix __API__ data source is added to the plan and enabled for monitoring. Otherwise, the add- on will not be able to write data to the Audit Database. |
+| Auditor Plan | Unless specified, data is written to __Netwrix_Auditor_API__ database and is not associated with a specific monitoring plan.  Specify a name of associated monitoring plan in Auditor. In this case, data will be written to a database linked to this plan.  If you select a plan name in the add- on, make sure a dedicated plan is created in Auditor, the Netwrix __API__ data source is added to the plan and enabled for monitoring. Otherwise, the add- on will not be able to write data to the Audit Database. |
 | Auditor Plan Item | Unless specified, data is not associated with a specific plan and, thus, cannot be filtered by item name. Specify an item name.  Make sure to create a dedicated item inAuditor in advance. |
 | Accept List |  |
 | Address | Specify a list of IP addresses of syslog events sources. The service will collect and process events from these sources only.  Events collected from any other source will be ignored. |

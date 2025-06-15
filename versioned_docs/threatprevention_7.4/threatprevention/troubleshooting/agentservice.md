@@ -12,7 +12,7 @@ __Step 1 –__ Open the Registry Editor.
 
 __Step 2 –__ In the Computer pane, navigate to the following registry folder:
 
-- HKEY\_LOCAL\_MACHINE > SYSTEM > CurrentControlSet > Control
+- HKEY_LOCAL_MACHINE > SYSTEM > CurrentControlSet > Control
 
 __Step 3 –__ In the right pane, select __ServicesPipeTimeout__.
 

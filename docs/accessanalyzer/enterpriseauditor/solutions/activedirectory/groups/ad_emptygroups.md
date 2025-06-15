@@ -1,10 +1,10 @@
-# AD\_EmptyGroups Job
+# AD_EmptyGroups Job
 
-The AD\_EmptyGroups Job identifies empty and single member groups which are suitable candidates for consolidation or cleanup.
+The AD_EmptyGroups Job identifies empty and single member groups which are suitable candidates for consolidation or cleanup.
 
-## Analysis Tasks for the AD\_EmptyGroups Job
+## Analysis Tasks for the AD_EmptyGroups Job
 
-Navigate to the __Active Directory__ > __1.Groups__ > __AD\_EmptyGroups__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Active Directory__ > __1.Groups__ > __AD_EmptyGroups__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,12 +12,12 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The default analysis tasks are:
 
-- Empty Groups – Creates the SA\_AD\_EmptyGroups\_Empty table accessible under the job’s Results node
-- Single User Groups – Creates the SA\_AD\_EmptyGroups\_SingleUser table accessible under the job’s Results node
-- Summarize Empty Groups – Creates the SA\_AD\_EmptyGroups\_EmptySummary table accessible under the job’s Results node
-- Summarize Single User Groups – Creates the SA\_AD\_EmptyGroups\_SingleUserSummary table accessible under the job’s Results node
+- Empty Groups – Creates the SA_AD_EmptyGroups_Empty table accessible under the job’s Results node
+- Single User Groups – Creates the SA_AD_EmptyGroups_SingleUser table accessible under the job’s Results node
+- Summarize Empty Groups – Creates the SA_AD_EmptyGroups_EmptySummary table accessible under the job’s Results node
+- Summarize Single User Groups – Creates the SA_AD_EmptyGroups_SingleUserSummary table accessible under the job’s Results node
 
-In addition to the tables and views created by the analysis tasks, the AD\_EmptyGroups Job produces the following pre-configured reports:
+In addition to the tables and views created by the analysis tasks, the AD_EmptyGroups Job produces the following pre-configured reports:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

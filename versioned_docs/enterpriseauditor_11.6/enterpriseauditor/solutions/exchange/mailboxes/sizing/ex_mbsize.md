@@ -1,18 +1,18 @@
-# 0.Collection > EX\_MBSize Job
+# 0.Collection > EX_MBSize Job
 
-The EX\_MBSize job collects information from the Exchange environment about the mailbox sizes in the environment.
+The EX_MBSize job collects information from the Exchange environment about the mailbox sizes in the environment.
 
 ![0.Collection > EX_MBSize Job in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/databases/collection/collectionjobstree.png)
 
-The EX\_MBSize job is located in the 0.Collection job group.
+The EX_MBSize job is located in the 0.Collection job group.
 
-## Queries for the EX\_MBSize Job
+## Queries for the EX_MBSize Job
 
-The EX\_MBSize Job uses the ExchangePS Data Collector.
+The EX_MBSize Job uses the ExchangePS Data Collector.
 
 ![Queries for the EX_MBSize Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/mailboxes/sizing/mbsizequery.png)
 
-The following query is included in the EX\_MBSize Job:
+The following query is included in the EX_MBSize Job:
 
 - Mailbox Counts and Sizes – Identifies the Active Directory rights applied to a mailbox
 

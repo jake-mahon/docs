@@ -1,10 +1,10 @@
-# SP\_Deletions Job
+# SP_Deletions Job
 
 This job identifies SharePoint deletion events which have occurred over the past 30 days.
 
-## Analysis Tasks for the SP\_Deletions Job
+## Analysis Tasks for the SP_Deletions Job
 
-Navigate to the __Jobs__ > __SharePoint__ > __7.Activity__ > __Forensics__ > __SP\_Deletions__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Jobs__ > __SharePoint__ > __7.Activity__ > __Forensics__ > __SP_Deletions__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis task is preconfigured for this job.
 
@@ -12,9 +12,9 @@ __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis 
 
 The default analysis task is:
 
-- Analyze SPAC Deletion Events – Creates the SA\_SPAC\_Deletions\_Last30Days table accessible under the job’s Results node
+- Analyze SPAC Deletion Events – Creates the SA_SPAC_Deletions_Last30Days table accessible under the job’s Results node
 
-In addition to the tables and views created by the analysis tasks, the SQL\_Deletions Job produces the following pre-configured report:
+In addition to the tables and views created by the analysis tasks, the SQL_Deletions Job produces the following pre-configured report:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

@@ -1,18 +1,18 @@
-# 0.Collection > EX\_IISLogs Job
+# 0.Collection > EX_IISLogs Job
 
-The 0.Collection > EX\_IISLogs Job provides data collection to be utilized in the ActiveSync, Outlook Web Access, and Outlook Anywhere Reports. This job goes out to each server that contains the IIS Logs and parses the log to return the data to the Access Analyzer database.
+The 0.Collection > EX_IISLogs Job provides data collection to be utilized in the ActiveSync, Outlook Web Access, and Outlook Anywhere Reports. This job goes out to each server that contains the IIS Logs and parses the log to return the data to the Access Analyzer database.
 
 ![0.Collection > EX_IISLogs Job in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/databases/collection/collectionjobstree.webp)
 
-The EX\_IISLogs job is located in the 0.Collection Job Group.
+The EX_IISLogs job is located in the 0.Collection Job Group.
 
-## Queries for the EX\_IISLogs Job
+## Queries for the EX_IISLogs Job
 
-The EX\_IISLogs Job uses the SMARTLog Data Collector.
+The EX_IISLogs Job uses the SMARTLog Data Collector.
 
 ![Queries for the EX_IISLogs Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/casmetrics/iislogsquery.webp)
 
-The following query is included in the EX\_IISLogs Job:
+The following query is included in the EX_IISLogs Job:
 
 - IIS Logs – Collects IIS Logs
 
@@ -21,11 +21,11 @@ The following query is included in the EX\_IISLogs Job:
 
 ### Configure the IIS Logs Query
 
-The EX\_IISLogs Job has been preconfigured to run with the default settings with the Log Type of Internet Information Server Log. However, the time frame for the log files to be processed can be modified on the Target Log page of the SMART Log DC Wizard. See the [SMARTLog Data Collector](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/smartlog/overview.md) topic for additional information.
+The EX_IISLogs Job has been preconfigured to run with the default settings with the Log Type of Internet Information Server Log. However, the time frame for the log files to be processed can be modified on the Target Log page of the SMART Log DC Wizard. See the [SMARTLog Data Collector](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/smartlog/overview.md) topic for additional information.
 
 Follow the steps to modify the query configuration.
 
-__Step 1 –__ Navigate to the __Exchange__ > __2. CAS Metrics__ > __0. Collection__ > __EX\_IISLogs__ > __Configure__ node and select __Queries__.
+__Step 1 –__ Navigate to the __Exchange__ > __2. CAS Metrics__ > __0. Collection__ > __EX_IISLogs__ > __Configure__ node and select __Queries__.
 
 __Step 2 –__ In the Query Selection view, click __Query Properties__. The Query Properties window opens.
 
@@ -41,4 +41,4 @@ _Remember,_  if the date range configuration includes data older than the last s
 
 __Step 5 –__ Navigate to the Summary page. Click __Finish__.
 
-The EX\_IISLogs Job applies the modifications to future job executions.
+The EX_IISLogs Job applies the modifications to future job executions.

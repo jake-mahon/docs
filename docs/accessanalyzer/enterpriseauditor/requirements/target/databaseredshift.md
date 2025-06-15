@@ -39,8 +39,8 @@ For Redshift Data Collection
 
 - Read-access to the following tables:
 
-  - pg\_tables
-  - pg\_user
+  - pg_tables
+  - pg_user
 
 ## Ports
 

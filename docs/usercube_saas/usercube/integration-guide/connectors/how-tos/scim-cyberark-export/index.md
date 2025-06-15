@@ -215,7 +215,7 @@ Create a Working Directory
   - __Identifier__ identifies this connector in the applicative configuration. We recommend using a meaningful name such as ```CyberArk```. If several connections to several CyberArk targets are possible, only one CyberArk Connector per Agent is used. See the [
     Create a Working Directory
     ](/docs/usercube_saas/usercube/installation-guide/production-ready/working-directory/index.md) topic for additional information.
-  - __DisplayName\_Li, i ? [1..16]__ are used in the UI.
+  - __DisplayName_Li, i ? [1..16]__ are used in the UI.
   - __Agent__ is the identifier of the Agent that will run this connector's export task. The Agent's identifier can be found in the agent's [appsettings.agent](/docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) > OpenId > AgentIdentifier.
 - Don't forget the ```<?xml>``` and ```<ConfigurationFile>``` elements (see example below).
 
@@ -257,7 +257,7 @@ The [Entity Model](/docs/usercube_saas/usercube/integration-guide/entity-model/i
 Declaring an Entity Type is achieved with the ```<EntityType>``` tag and the following attributes:
 
 - __Identifier__ is the entity type's name. It must be unique among the entity types. It is strongly recommended to prefix this name with the connector's name. An example for CyberArk is ```CyberArk_User```.
-- __DisplayName\_Li, i ? [1..16]__ are used in the UI to identify this Entity Type for the end-user. __DisplayName\_L1__ is the name of the entity type in _language number one_. If this language is _English_, a good example value would be ```CyberArk - User```. See the [
+- __DisplayName_Li, i ? [1..16]__ are used in the UI to identify this Entity Type for the end-user. __DisplayName_L1__ is the name of the entity type in _language number one_. If this language is _English_, a good example value would be ```CyberArk - User```. See the [
   Assignment Policy
   ](/docs/usercube_saas/usercube/integration-guide/role-model/role-model-rules/index.md) topic for additional information.
 
@@ -283,7 +283,7 @@ Remember that there are several kinds of by (determined by the ```TargetColumnIn
 Finally, the main attributes of the ```<Property>``` tag are the following:
 
 - __Identifier__ identifies the property with a mandatory unique name. It must be unique among the entity properties for this entity type.
-- __DisplayName\_Li, i ? [1..16]__ are used in the UI.
+- __DisplayName_Li, i ? [1..16]__ are used in the UI.
 - __Type__ defines the type of property. A scalar property type can be: ```String```, ```Bytes```, ```Int16```, ```Int32```, ```Int64```, ```DateTime```, ```Bool```, ```Guid```, ```Double```, ```Binary```, ```Byte```, or ```Option```. The navigation property type is ```ForeignKey```.
 - __TargetColumnIndex__ defines in which column of the resource table the property is stored. See the [
   Entity Type
@@ -428,7 +428,7 @@ Entity Association Mapping
 
 Here are a few explanations:
 
-###### Users/_CyberArk\_Group_
+###### Users/_CyberArk_Group_
 
 The ```Users``` property in the ```CyberArk_Group``` entity:
 
@@ -443,7 +443,7 @@ These values identify resources of type ```CyberArk_User``` by their ```CyberArk
 Entity Association Mapping
 ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md) element.
 
-###### Groups/_CyberArk\_User_
+###### Groups/_CyberArk_User_
 
 The ```Groups``` property in the ```CyberArk_User``` entity:
 
@@ -567,7 +567,7 @@ With no custom ```InternalDisplayName```, a default value is used (instead of th
 ```
                 
 
-adds the ```InternalDisplayName``` to the CyberArk\_User entity type to be used by the UI.
+adds the ```InternalDisplayName``` to the CyberArk_User entity type to be used by the UI.
 
 ### Permissions
 
@@ -836,7 +836,7 @@ Deploy Configuration Task
 
 ### Test
 
-The Synchronization job should be found in the UI, under the __Job Execution__ menu, with the name input in the Job's __DisplayName\_Li__ attribute.
+The Synchronization job should be found in the UI, under the __Job Execution__ menu, with the name input in the Job's __DisplayName_Li__ attribute.
 
 From there, it can be launched and debugged (if needed).
 

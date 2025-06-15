@@ -22,7 +22,7 @@ Some more examples:
 
 - \*.238.1.3 – Works
 - \*.1.3 – Works
-- \*.3 – works fine loaded java 7\_80
+- \*.3 – works fine loaded java 7_80
 
 Rules which will not work:
 

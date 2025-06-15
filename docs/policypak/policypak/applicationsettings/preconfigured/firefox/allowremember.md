@@ -24,7 +24,7 @@ However, if the plug in you want is another plug-in and not Java, then you need 
 
 Once this is done, you need to figure out what plug-in was just affected. The way to do this would be to use a tool called SQLLite Browser found here: [www.sqlitebrowser.org](http://sqlitebrowser.org/)
 
-Open the table / file moz\_perms (on FF 42 and newer) or moz\_hosts (on FF 41 and older) which will be in the following file:
+Open the table / file moz_perms (on FF 42 and newer) or moz_hosts (on FF 41 and older) which will be in the following file:
 
 ```
 C:\Users\AppData\Roaming\MozillaFilrefox\Profiles\permissions.sqllite

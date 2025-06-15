@@ -6,5 +6,5 @@ The 8.Domains Job Group reports on all Active Directory permissions applied to d
 
 The jobs in the 8.Domains Job Group are:
 
-- [AD\_DomainPermissions Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/domains/ad_domainpermissions.md) – Reports on all Active Directory permissions applied to domain objects within the targeted domains
-- [AD\_DomainReplication Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/domains/ad_domainreplication.md) – Highlights all Active Directory permissions applied to domain objects within the targeted domains
+- [AD_DomainPermissions Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/domains/ad_domainpermissions.md) – Reports on all Active Directory permissions applied to domain objects within the targeted domains
+- [AD_DomainReplication Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/domains/ad_domainreplication.md) – Highlights all Active Directory permissions applied to domain objects within the targeted domains

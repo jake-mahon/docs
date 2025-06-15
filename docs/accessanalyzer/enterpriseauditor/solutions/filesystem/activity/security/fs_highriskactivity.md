@@ -1,22 +1,22 @@
-# FS\_HighRiskActivity Job
+# FS_HighRiskActivity Job
 
-The FS\_HighRiskActivity job is designed to report on high risk activity event information from targeted file servers.
+The FS_HighRiskActivity job is designed to report on high risk activity event information from targeted file servers.
 
-## Analysis Tasks for the FS\_HighRiskActivity Job
+## Analysis Tasks for the FS_HighRiskActivity Job
 
-View the analysis tasks by navigating to the __FileSystem__ > __5.Activity__ > __Security__ > __FS\_HighRiskActivity__ > __Configure__ node and select __Analysis__.
+View the analysis tasks by navigating to the __FileSystem__ > __5.Activity__ > __Security__ > __FS_HighRiskActivity__ > __Configure__ node and select __Analysis__.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
 ![Analysis Tasks for the FS_HighRiskActivity Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/activity/security/highriskactivityanalysis.webp)
 
 - 0. Drop Tables – Drops tables from previous runs
-- 1. Analyze for High Risk Activity – Creates the SA\_FS\_HighRiskActivity\_HighRiskUserActivity table accessible under the job’s Results node
-- 2. Pivot High Risk Activity – Creates the SA\_FS\_HighRiskActivity\_HighRiskDetails table accessible under the job’s Results node
-- 3. Summarize Share Activity – Creates the SA\_FS\_HighRiskActivity\_ShareSummary table accessible under the job’s Results node
+- 1. Analyze for High Risk Activity – Creates the SA_FS_HighRiskActivity_HighRiskUserActivity table accessible under the job’s Results node
+- 2. Pivot High Risk Activity – Creates the SA_FS_HighRiskActivity_HighRiskDetails table accessible under the job’s Results node
+- 3. Summarize Share Activity – Creates the SA_FS_HighRiskActivity_ShareSummary table accessible under the job’s Results node
 - 4. Global User Activity – Creates an interim processing table in the database for use by downstream analysis and report generation
 
-In addition to the tables and views created by the analysis tasks, the FS\_HighRiskActivity job produces the following pre-configured report:
+In addition to the tables and views created by the analysis tasks, the FS_HighRiskActivity job produces the following pre-configured report:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

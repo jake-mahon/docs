@@ -53,7 +53,7 @@ There are several web service endpoints which provide access to various levels o
 
 The following paths should be considered as part of this process:
 
-- /\_api/\*
+- /_api/\*
 - \*.asmx
 - \*.svc
 

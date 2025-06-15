@@ -39,7 +39,7 @@ Step 3 – Click __Schedules__ under Settings in the left pane.
 
 Step 4 – On the Schedules page, click the plus sign next to Entitlement Temporary Permissions. Then click the ellipsis button for the schedule and select __Edit__.
 
-Step 5 – On the Edit Schedule page, the Schedule Name and Name Preview boxes display the name of the schedule as read-only. The name format is _Entitlement\_`<the name of the machine the schedule is created on>`\_ TemporaryPermission_.
+Step 5 – On the Edit Schedule page, the Schedule Name and Name Preview boxes display the name of the schedule as read-only. The name format is _Entitlement_`<the name of the machine the schedule is created on>`_ TemporaryPermission_.
 
 Step 6 – In the Scheduler Service Name drop-down list, select a Scheduler service that would be responsible for triggering this schedule. The number of services displayed in the list depend on the number of Elasticsearch clusters in the environment, as each cluster has its own Scheduler service. See the [Scheduler Service](/versioned_docs/groupid_11.0/groupid/admincenter/service/schedulerservice.md) topic.
 

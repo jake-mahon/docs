@@ -97,11 +97,11 @@ Using a Synchronize job, users can create and update different object types from
 - Mail-enabled Contact
 
 You can disallow any of these object types for an identity store. When that identity store is used as source or destination in a Synchronize job, role members will not be able to create or update the disallowed objects
-at the destination. For example, if you disallow the user object type for IdentityStore\_A, role members will not be able to provision, update and deprovision user objects in identityStore\_A through a Synchronize job.
+at the destination. For example, if you disallow the user object type for IdentityStore_A, role members will not be able to provision, update and deprovision user objects in identityStore_A through a Synchronize job.
 
 NOTE: If you disallow an object type in an identity store or data source, all Synchronize jobs already using that identity store or data source (either as source or destination) while only provisioning or updating the disallowed object type, will become read-only for role members and they will not be able to run them. If a job provisions or updates multiple objects, where the disallowed object is one of the object types it processes, it will run as usual, except that the disallowed object will not be processed.  
-__Example:__ Suppose you disallow the mailbox object type in IdentityStore\_A, when this identity store is already used as a destination in a Synchronize job that provisions mailbox objects, then the job will become read-only for role members and they will not be able to run it.  
-If IdentityStore\_A is used as a source or destination in a Synchronize job that provisions multiple objects types, then the job will run as usual, except that the mailbox object will not be processed.
+__Example:__ Suppose you disallow the mailbox object type in IdentityStore_A, when this identity store is already used as a destination in a Synchronize job that provisions mailbox objects, then the job will become read-only for role members and they will not be able to run it.  
+If IdentityStore_A is used as a source or destination in a Synchronize job that provisions multiple objects types, then the job will run as usual, except that the mailbox object will not be processed.
 
 For data sources, you can disallow the following to role members as an alternate to object types:
 

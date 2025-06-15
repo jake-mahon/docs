@@ -1,10 +1,10 @@
-# AWS\_ManagedPolicies Job
+# AWS_ManagedPolicies Job
 
-The AWS\_ManagedPolicies job provides details on policies managed by Amazon in the AWS Organization.
+The AWS_ManagedPolicies job provides details on policies managed by Amazon in the AWS Organization.
 
-## Analysis Tasks for the AWS\_ManagedPolicies Job
+## Analysis Tasks for the AWS_ManagedPolicies Job
 
-Navigate to the __AWS__ > __5.Policies__ > __AWS\_ManagedPolicies__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __AWS__ > __5.Policies__ > __AWS_ManagedPolicies__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,12 +12,12 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The following analysis tasks are selected by default:
 
-- Managed Policy Details – Identifies managed policies from AWS and if they are assigned to a user or group. Creates the AWS\_ManagedPolicy\_Details table accessible under the job’s Results node.
-- Managed Policy Usage Summary – Summarizes the managed policy usage by AWS Org. Creates the AWS\_ManagedPolicy\_Summary table accessible under the job’s Results node.
+- Managed Policy Details – Identifies managed policies from AWS and if they are assigned to a user or group. Creates the AWS_ManagedPolicy_Details table accessible under the job’s Results node.
+- Managed Policy Usage Summary – Summarizes the managed policy usage by AWS Org. Creates the AWS_ManagedPolicy_Summary table accessible under the job’s Results node.
 
-## Report for the AWS\_ManagedPolicies Job
+## Report for the AWS_ManagedPolicies Job
 
-In addition to the tables and views created by the analysis task, the AWS\_Accounts job produces the following preconfigured report:
+In addition to the tables and views created by the analysis task, the AWS_Accounts job produces the following preconfigured report:
 
 | Report | Description | Default Tags | Report Element |
 | --- | --- | --- | --- |

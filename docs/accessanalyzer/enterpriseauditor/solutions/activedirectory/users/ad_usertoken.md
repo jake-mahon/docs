@@ -1,10 +1,10 @@
-# AD\_UserToken Job
+# AD_UserToken Job
 
-The AD\_UserToken Job identifies and reports the number of SIDS and estimated token size associated with each user. Token bloat can lead to issues during login and can also cause applications that use Kerberos authentication to fail. See the Microsoft [Problems with Kerberos authentication when a user belongs to many groups](https://learn.microsoft.com/en-US/troubleshoot/windows-server/windows-security/kerberos-authentication-problems-if-user-belongs-to-groups) article for more information about estimated token size.
+The AD_UserToken Job identifies and reports the number of SIDS and estimated token size associated with each user. Token bloat can lead to issues during login and can also cause applications that use Kerberos authentication to fail. See the Microsoft [Problems with Kerberos authentication when a user belongs to many groups](https://learn.microsoft.com/en-US/troubleshoot/windows-server/windows-security/kerberos-authentication-problems-if-user-belongs-to-groups) article for more information about estimated token size.
 
-## Analysis Task for the AD\_UserToken Job
+## Analysis Task for the AD_UserToken Job
 
-Navigate to the __Active Directory__ > __2.Users__ > __AD\_UserToken__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Active Directory__ > __2.Users__ > __AD_UserToken__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis task is preconfigured for this job.
 
@@ -12,9 +12,9 @@ __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis 
 
 The default analysis tasks are:
 
-- Calculate Token Size – Creates the SA\_AD\_UserTokens\_Details table accessible under the job’s Results node
+- Calculate Token Size – Creates the SA_AD_UserTokens_Details table accessible under the job’s Results node
 
-In addition to the tables and views created by the analysis task, the AD\_UserToken Job produces the following pre-configured report:
+In addition to the tables and views created by the analysis task, the AD_UserToken Job produces the following pre-configured report:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

@@ -1,10 +1,10 @@
-# SQL\_Activity Job
+# SQL_Activity Job
 
-The SQL\_Activity Job provides insight into user activity in target SQL server instances and databases based on SQL Server Audit Specification settings.
+The SQL_Activity Job provides insight into user activity in target SQL server instances and databases based on SQL Server Audit Specification settings.
 
-## Analysis Tasks for the SQL\_Activity Job
+## Analysis Tasks for the SQL_Activity Job
 
-Navigate to the __Databases__ > SQL > 2.Activity > SQL\_Activity > Configure node and select Analysis to view the analysis tasks.
+Navigate to the __Databases__ > SQL > 2.Activity > SQL_Activity > Configure node and select Analysis to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis task(s). The analysis task(s) are preconfigured for this job.
 
@@ -12,11 +12,11 @@ __CAUTION:__ Do not modify or deselect the selected analysis task(s). The analys
 
 The default analysis tasks are:
 
-- List SQL User Activity Details – Creates the SA\_SQLServer\_Activity\_Details table accessible under the job’s Results node
-- User Activity Database Summary – Creates the SA\_SQLServer\_Activity\_UserDatabaseSummary table accessible under the job’s Results node
-- User Activity Instance Summary – Creates the SA\_SQLServer\_Activity\_UserInstanceSummary table accessible under the job’s Results node
+- List SQL User Activity Details – Creates the SA_SQLServer_Activity_Details table accessible under the job’s Results node
+- User Activity Database Summary – Creates the SA_SQLServer_Activity_UserDatabaseSummary table accessible under the job’s Results node
+- User Activity Instance Summary – Creates the SA_SQLServer_Activity_UserInstanceSummary table accessible under the job’s Results node
 
-In addition to the tables and views created the analysis task, the SQL\_Activity Job produces the following pre-configured report.
+In addition to the tables and views created the analysis task, the SQL_Activity Job produces the following pre-configured report.
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

@@ -31,7 +31,7 @@ There are a variety of Enterprise Auditor binaries based on the organizational a
 - Enterprise Auditor Reporting Services binary – Installation package for Survey Action Module Reporting Service
 - Netwrix Access Information Center binary – Installation package for the Netwrix Access Information Center
 
-  - Customers who are logged in to the Netwrix Customer Portal can download the latest version of their software products from the My Products page: [https://www.netwrix.com/my\_products.html](https://www.netwrix.com/my_products.html). See the [Customer Portal Access](https://helpcenter.netwrix.com/bundle/NetwrixCustomerPortalAccess/page/Customer_Portal_Access.html) topic for information on how to register for a Customer Portal account.
+  - Customers who are logged in to the Netwrix Customer Portal can download the latest version of their software products from the My Products page: [https://www.netwrix.com/my_products.html](https://www.netwrix.com/my_products.html). See the [Customer Portal Access](https://helpcenter.netwrix.com/bundle/NetwrixCustomerPortalAccess/page/Customer_Portal_Access.html) topic for information on how to register for a Customer Portal account.
   - See the [Netwrix Access Information Center Documentation](https://helpcenter.netwrix.com/category/accessinformationcenter) for additional information.
 
 ## License Key

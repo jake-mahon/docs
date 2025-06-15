@@ -6,7 +6,7 @@ In order to view populated Content reports, it is necessary to enable the __Stor
 
 - File System – Configure this option for the 1-SEEK System Scan job on the SDD Audit Criteria Settings page of the query configuration wizard
 - SharePoint – Solution automatically stores discovered sensitive data
-- SQL – Configure this option for the 3-SQL\_SensitiveDataScan job on the Options page of the query configuration wizard
+- SQL – Configure this option for the 3-SQL_SensitiveDataScan job on the Options page of the query configuration wizard
 
 __NOTE:__ Only Access Information Center users with either the Security Team role or the Console Administrator role will be able to perform Sensitive Data Discovery criteria searches. Reports are blank for Access Information Center users with the Reader role.
 

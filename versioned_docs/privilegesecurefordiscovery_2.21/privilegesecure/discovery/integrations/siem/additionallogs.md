@@ -283,7 +283,7 @@ Change system policy
 
 - policy.scan — boolean, whether the system should be scanned
 - policy.secure — boolean, whether the system is in protect-mode
-- policy.strict\_secure — boolean, if the system is in protect-mode, is true if Privilege Secureshould exclude any newly discovered admins from the system inventory, false if the admin should be added to the inventory
+- policy.strict_secure — boolean, if the system is in protect-mode, is true if Privilege Secureshould exclude any newly discovered admins from the system inventory, false if the admin should be added to the inventory
 - system — string, hostname of the system affected by the policy change
 - targetSystem — properties describing the system affected by the policy change
 - user — properties describing the user who initiated the policy change
@@ -371,7 +371,7 @@ When a JITA session is successfully granted, the following log message is emitte
 - request.request.start — UTC timestamp, when the JITA access was granted
 - request.request.expires — UTC timestamp, when the JITA access session is set to expire
 - request.request.userInfo — properties describing the user who is granted access
-- request.requested\_by\_info — properties describing the user who requested the JITA session; should be the same as the request.request.userInfo
+- request.requested_by_info — properties describing the user who requested the JITA session; should be the same as the request.request.userInfo
 - targetSystem — properties describing the system where the JITA access session was granted
 
 ```
@@ -446,7 +446,7 @@ When a user is denied a JITA session to a system, the following log message is e
 
 - request.request.expires — UTC timestamp, when the JITA access session is set to expire; should be “now”
 - request.request.userInfo — properties describing the user who had been granted the access now set to expire
-- request.requested\_by\_info — properties describing the user who requested the JITA session to expire; should be the same as the request.request.userInfo
+- request.requested_by_info — properties describing the user who requested the JITA session to expire; should be the same as the request.request.userInfo
 - targetSystem — properties describing the system where the JITA access session is set to manually expire
 
 ```

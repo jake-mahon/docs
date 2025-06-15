@@ -171,11 +171,11 @@ Access Risk > Segregation page, one being the"Groups with Access on Multiple Sys
 
 - Groups with Access on Multiple System Types = /api/v1/access-risk/group-access?
 
-  - The full API call URL example is = /api/v1/access-risk/group-access?query\_date=1665363600000&domain=CSTEST (this call will generate the data in the screenshot below, which is from our internal Customer Success test environment for the last 90 days of the CSTEST domain.
+  - The full API call URL example is = /api/v1/access-risk/group-access?query_date=1665363600000&domain=CSTEST (this call will generate the data in the screenshot below, which is from our internal Customer Success test environment for the last 90 days of the CSTEST domain.
 - Users with Access on Multiple System Types = /api/v1/access-risk/direct-access?
 
-  - The full API call URL example is = /api/v1/access-risk/direct-access?query\_date=1665363600000&domain=CSTEST (similarly as above this is from our internal test environment for the last 90 days of a single domain CSTEST)
-- The filtering within the UI and API calls is done via the "domain" and date variables. In the UI those are the dropdown list at the top of this Access Risk > Segregation page (image below). For API calls, that is within the URL as "query\_date" and "domain" fields.
+  - The full API call URL example is = /api/v1/access-risk/direct-access?query_date=1665363600000&domain=CSTEST (similarly as above this is from our internal test environment for the last 90 days of a single domain CSTEST)
+- The filtering within the UI and API calls is done via the "domain" and date variables. In the UI those are the dropdown list at the top of this Access Risk > Segregation page (image below). For API calls, that is within the URL as "query_date" and "domain" fields.
 
 These 2 calls will pull a complete list of user and group data from the specified time period, which is being referenced by the Unix timestamp of "1665363600000", in both URLs which equates to the available filtering by domain and date + range (see image #3 above). This can be converted into a human readable timestamp through a conversion site such as [https://www.epochconverter.com/](https://www.epochconverter.com/). From the screenshots above we can see 5 total group entries in the first image and 64 user entries in the second image, both being the total user and group matches for that filtering criteria applied.
 

@@ -1,10 +1,10 @@
-# SP\_ExternalUsers Job
+# SP_ExternalUsers Job
 
-The SP\_TeamsExternalUsers Job identifies activity of external users on all monitored SharePoint servers.
+The SP_TeamsExternalUsers Job identifies activity of external users on all monitored SharePoint servers.
 
-## Analysis Tasks for the SP\_ExternalUsers Job
+## Analysis Tasks for the SP_ExternalUsers Job
 
-Navigate to the __Jobs__ > __SharePoint__ > __8.M365__ > __SP\_OneDrives__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Jobs__ > __SharePoint__ > __8.M365__ > __SP_OneDrives__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,10 +12,10 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The default analysis task is:
 
-- Analyze External User Activity – Creates the SA\_SPAC\_SharePointOnlineMostActiveExternalUsersSummary table accessible under the job's Results node
-- Summarize External User Activity – Creates the SP\_ExternalUsersDetails table accessible under the job's Results node
+- Analyze External User Activity – Creates the SA_SPAC_SharePointOnlineMostActiveExternalUsersSummary table accessible under the job's Results node
+- Summarize External User Activity – Creates the SP_ExternalUsersDetails table accessible under the job's Results node
 
-In addition to the tables created by the analysis tasks, the SP\_TeamsExternalUsers Job produces the following preconfigured report:
+In addition to the tables created by the analysis tasks, the SP_TeamsExternalUsers Job produces the following preconfigured report:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

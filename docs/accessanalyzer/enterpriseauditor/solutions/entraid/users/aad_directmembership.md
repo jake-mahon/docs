@@ -1,10 +1,10 @@
-# AAD\_DirectMembership Job
+# AAD_DirectMembership Job
 
-The AAD\_DirectMembership Job identifies Microsoft Entra ID users who do not have any group membership. This condition may indicate unnecessary user accounts that are suitable candidates for review and cleanup.
+The AAD_DirectMembership Job identifies Microsoft Entra ID users who do not have any group membership. This condition may indicate unnecessary user accounts that are suitable candidates for review and cleanup.
 
-## Analysis Tasks for the AAD\_DirectMembership Job
+## Analysis Tasks for the AAD_DirectMembership Job
 
-Navigate to the __Jobs__ > __Entra ID__ > __2.Users__ > __AAD\_DirectMembership__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Jobs__ > __Entra ID__ > __2.Users__ > __AAD_DirectMembership__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,10 +12,10 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The default analysis tasks are:
 
-- Get user direct membership details – Creates the AAD\_DirectMembership\_Details table accessible under the job’s Results node
-- Summarize user direct membership details by domain – Creates the AAD\_DirectoryMembership\_DomainSummary table accessible under the job’s Results node
+- Get user direct membership details – Creates the AAD_DirectMembership_Details table accessible under the job’s Results node
+- Summarize user direct membership details by domain – Creates the AAD_DirectoryMembership_DomainSummary table accessible under the job’s Results node
 
-In addition to the tables created by the analysis tasks, the AAD\_DirectMembership Job produces the following pre-configured report.
+In addition to the tables created by the analysis tasks, the AAD_DirectMembership Job produces the following pre-configured report.
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

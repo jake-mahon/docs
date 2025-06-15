@@ -79,14 +79,14 @@ Click __Compare__. The process is run in the background. You receive an email wh
 
 1. Open the __Export Attachments__ tab. Change the Export Attachments from __Recently Viewed__ to __All__ if necessary to see your report. Refer to [Export Object Attachment](/docs/strongpointforsalesforce/tools/export_object_attachment_records.md) for details on adding the tab to your tool bar if needed.
 2. Click on the __Environment Comparison__ report in the list. The Export Attachment __Details__ are displayed, and your Excel report is downloaded by your browser.
-3. Open the _Environment\_Compare\_export.xls_ file. When you open an exported file, this message may be displayed, as the exported file is in XML instead of the Excel format. Click __Yes__ to load the file.  
+3. Open the _Environment_Compare_export.xls_ file. When you open an exported file, this message may be displayed, as the exported file is in XML instead of the Excel format. Click __Yes__ to load the file.  
    ![Excel error message - Click Yes to continue.](/img/product_docs/strongpointforsalesforce/tools/export_excel_error_msg.webp)
 
-### Environment\_Compare\_export.xls
+### Environment_Compare_export.xls
 
 ![The Only In Source tab of the Environment_Compare_Export.xls file](/img/product_docs/strongpointforsalesforce/tools/compare_env_results_excel.webp)
 
-The _Environment\_Compare\_export.xls_ file contains a __Summary__ tab and individual tabs for each comparison type:
+The _Environment_Compare_export.xls_ file contains a __Summary__ tab and individual tabs for each comparison type:
 
 __Summary__: details about this Environment Comparison
 

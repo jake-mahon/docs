@@ -1,10 +1,10 @@
-# AWS\_SensitiveData\_Permissions Job
+# AWS_SensitiveData_Permissions Job
 
-The AWS\_SensitiveData\_Permissions job provides details on the permissions assigned to AWS S3 buckets and the objects in them which contain sensitive data.
+The AWS_SensitiveData_Permissions job provides details on the permissions assigned to AWS S3 buckets and the objects in them which contain sensitive data.
 
-## Analysis Tasks for the AWS\_SensitiveData\_Permissions Job
+## Analysis Tasks for the AWS_SensitiveData_Permissions Job
 
-Navigate to the __AWS__ > __8.S3 Sensitive Data__ > __AWS\_SensitiveData\_Permissions__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __AWS__ > __8.S3 Sensitive Data__ > __AWS_SensitiveData_Permissions__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,12 +12,12 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The following analysis tasks are selected by default:
 
-- AWS Sensitive Data Permissions – Highlights permissions applied to AWS objects containing sensitive data. Creates the AWS\_SDDPermission\_Details table accessible under the job’s Results node.
-- Sensitive Data Permissions Summary – Summarizes permissions on AWS objects containing sensitive data. Creates the AWS\_SDDPermission\_BucketSummary table accessible under the job’s Results node.
+- AWS Sensitive Data Permissions – Highlights permissions applied to AWS objects containing sensitive data. Creates the AWS_SDDPermission_Details table accessible under the job’s Results node.
+- Sensitive Data Permissions Summary – Summarizes permissions on AWS objects containing sensitive data. Creates the AWS_SDDPermission_BucketSummary table accessible under the job’s Results node.
 
-## Report for the AWS\_SensitiveData\_Permissions Job
+## Report for the AWS_SensitiveData_Permissions Job
 
-In addition to the tables and views created by the analysis task, the AWS\_SensitiveData\_Permissions job produces the following preconfigured report:
+In addition to the tables and views created by the analysis task, the AWS_SensitiveData_Permissions job produces the following preconfigured report:
 
 | Report | Description | Default Tags | Report Element |
 | --- | --- | --- | --- |

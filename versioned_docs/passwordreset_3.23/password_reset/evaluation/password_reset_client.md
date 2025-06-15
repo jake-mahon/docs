@@ -32,11 +32,11 @@ You can also install the Password Reset Client on any client computers that are 
 
 The Password Reset Client is normally configured with an Active Directory administrative template. This allows you to centrally configure all computers in the domain. It takes about 15 minutes to set up the Administrative Template, so we will configure the PRC by importing the settings into the registry for the evaluation.
 
-__Step 1 –__ Download the sample configuration from the following link: [http://www.anixis.com/ftp/apr/PRC\_Config.zip](http://www.anixis.com/ftp/apr/PRC_Config.zip)
+__Step 1 –__ Download the sample configuration from the following link: [http://www.anixis.com/ftp/apr/PRC_Config.zip](http://www.anixis.com/ftp/apr/PRC_Config.zip)
 
-__Step 2 –__ Extract __PRC\_Config.reg__ from the .zip file.
+__Step 2 –__ Extract __PRC_Config.reg__ from the .zip file.
 
-__Step 3 –__ Right-click __PRC\_Config.reg__, then click __Edit__.
+__Step 3 –__ Right-click __PRC_Config.reg__, then click __Edit__.
 
 ![the_password_reset_client_1_1](/img/versioned_docs/passwordreset_3.23/password_reset/evaluation/the_password_reset_client_1_1.png)
 
@@ -46,9 +46,9 @@ __NOTE:__ If you are only testing the Password Reset Client on the evaluation se
 
 __Step 5 –__ Press __CTRL__ + __S__ to save your changes, then close __Notepad__.
 
-__Step 6 –__ Double-click __PRC\_Config__ to import the settings into the registry. Click __Yes__ when asked to confirm. Repeat this step on any client computers being used for the evaluation.
+__Step 6 –__ Double-click __PRC_Config__ to import the settings into the registry. Click __Yes__ when asked to confirm. Repeat this step on any client computers being used for the evaluation.
 
-__NOTE:__ You must import the configuration settings into the registry whenever you edit PRC\_Config.reg, otherwise the old settings will remain.
+__NOTE:__ You must import the configuration settings into the registry whenever you edit PRC_Config.reg, otherwise the old settings will remain.
 
 ## Using the PRC
 

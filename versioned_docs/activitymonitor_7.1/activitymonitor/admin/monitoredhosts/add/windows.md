@@ -70,7 +70,7 @@ __Step 6 –__ On the Configure Basic Options page, choose which settings to ena
 
 - Report Account Names – Adds an Account Name column in the generated TSV files
 - Report UNC paths – Adds a UNC Path column and a Rename UNC Path column in the generated TSV files
-  - This option corresponds to the REPORT\_UNC\_PATH parameter in the INI file. It is disabled by default. The UNC Path is in the following format:
+  - This option corresponds to the REPORT_UNC_PATH parameter in the INI file. It is disabled by default. The UNC Path is in the following format:
     - For CIFS activity – \\[HOST]\[SHARE]\[PATH]
     - Example CIFS activity – \\ExampleHost\TestShare\DocTeam\Temp.txt
   - When the option is enabled, the added columns are populated when a file is accessed remotely through the UNC Path. If a file is accessed locally, these columns are empty. These columns have also been added as Syslog macros.

@@ -1,10 +1,10 @@
-# AD\_DeprovisionGroups\_Status Job
+# AD_DeprovisionGroups_Status Job
 
-The AD\_DeprovisionGroups\_Status Job tracks all actions taken by the Deprovisioning workflow.
+The AD_DeprovisionGroups_Status Job tracks all actions taken by the Deprovisioning workflow.
 
-## Analysis Task for the AD\_DeprovisionGroups\_Status Job
+## Analysis Task for the AD_DeprovisionGroups_Status Job
 
-Navigate to the __Active Directory__ > __Cleanup__ > __1.Groups__ > __1. Deprovision Groups__ > __AD\_Deprovision Groups\_Status__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Active Directory__ > __Cleanup__ > __1.Groups__ > __1. Deprovision Groups__ > __AD_Deprovision Groups_Status__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis tasks is preconfigured for this job.
 
@@ -12,9 +12,9 @@ __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis 
 
 The default analysis task is:
 
-- Track Actions – Creates the AD\_DeprovisionGroups\_Log and AD\_DeprovisionGroups\_Notes tables accessible under the job’s Results node
+- Track Actions – Creates the AD_DeprovisionGroups_Log and AD_DeprovisionGroups_Notes tables accessible under the job’s Results node
 
-In addition to the table created by the analysis task, the AD\_DeprovisionGroups\_Status Job produces the following pre-configured report.
+In addition to the table created by the analysis task, the AD_DeprovisionGroups_Status Job produces the following pre-configured report.
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

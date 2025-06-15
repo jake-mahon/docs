@@ -23,7 +23,7 @@ The FSAA Data Collector Query Selection page contains the following query catego
     __NOTE:__ Starting with v8.1, DFS Audits are completed with a streaming method and do not require a bulk import query following the scan query.
 - The Azure options collects Azure Files storage account information, and there is one category:
 
-  - Scan and import – Collects Azure Files storage account information. The instant job preconfigured to use this query category must be used. See the [FS\_AzureTenantScan Job](/docs/accessanalyzer/enterpriseauditor/solutions/filesystem/collection/fs_azuretenantscan.md) topic for additional information.
+  - Scan and import – Collects Azure Files storage account information. The instant job preconfigured to use this query category must be used. See the [FS_AzureTenantScan Job](/docs/accessanalyzer/enterpriseauditor/solutions/filesystem/collection/fs_azuretenantscan.md) topic for additional information.
 - The Maintenance options perform maintenance for the FSAA Data Collector, and there are three categories to choose from:
 
   - Remove scan executables and data – Removes file system access audit scan applet and data from the remote server
@@ -46,7 +46,7 @@ The Maintenance Wizard is opened by clicking the __Maintenance__ button on the Q
 
 The Maintenance Selection page allows you to select the type of maintenance to be performed:
 
-- Reset Hosts – Resets the Access GUID column value in the SA\_FSAA\_Hosts table for the Hosts selected. Allows data to be bulk imported when there is a GUID mismatch.
+- Reset Hosts – Resets the Access GUID column value in the SA_FSAA_Hosts table for the Hosts selected. Allows data to be bulk imported when there is a GUID mismatch.
 - Repair – Resets the MinResourceID and MinTrusteeID column values to 0. Removes duplicate and data consistency issues, including resources with nonexistent parents. Deletes StrucMap database.
 
 Select the required option and click __Next__. The subsequent wizard page is determined by the selection made.

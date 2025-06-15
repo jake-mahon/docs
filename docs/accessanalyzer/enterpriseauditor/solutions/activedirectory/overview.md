@@ -19,7 +19,7 @@ The Active Directory Solution requires a special Access Analyzer license. It can
 
 ![Active Directory Solution](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/solutionoverview.webp)
 
-Each job group works independently from the other job groups. Some job groups run analysis tasks against the analyzed data collected by the .Active Directory Inventory Solution to generate reports, for example the 1.Groups job group. Other job groups run both data collection and analysis to generate reports. The AD\_SecurityAssessment job summarizes security related results from both the Active Directory solution and the Active Directory Permissions Analyzer solution.
+Each job group works independently from the other job groups. Some job groups run analysis tasks against the analyzed data collected by the .Active Directory Inventory Solution to generate reports, for example the 1.Groups job group. Other job groups run both data collection and analysis to generate reports. The AD_SecurityAssessment job summarizes security related results from both the Active Directory solution and the Active Directory Permissions Analyzer solution.
 
 __NOTE:__ The Cleanup job group requires additional licenses to function. See the [Active Directory Job Groups](#active-directory-job-groups) topic for additional information.
 

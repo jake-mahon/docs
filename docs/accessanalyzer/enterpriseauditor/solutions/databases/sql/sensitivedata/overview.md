@@ -6,5 +6,5 @@ The 5.Sensitive Data Job Group provides information on where sensitive data exis
 
 The jobs in the 5.Sensitive Data Job Group are:
 
-- [SQL\_SensitiveData Job](/docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/sensitivedata/sql_sensitivedata.md) – This job is designed to provide information on all the sensitive data that was discovered in the targeted SQL or Azure SQL servers based on the selected scan criteria
-- [SQL\_SensitiveDataPermissions Job](/docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/sensitivedata/sql_sensitivedatapermissions.md) – This job is designed to provide all types of permissions on database objects containing sensitive data across all the targeted SQL or Azure SQL servers
+- [SQL_SensitiveData Job](/docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/sensitivedata/sql_sensitivedata.md) – This job is designed to provide information on all the sensitive data that was discovered in the targeted SQL or Azure SQL servers based on the selected scan criteria
+- [SQL_SensitiveDataPermissions Job](/docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/sensitivedata/sql_sensitivedatapermissions.md) – This job is designed to provide all types of permissions on database objects containing sensitive data across all the targeted SQL or Azure SQL servers

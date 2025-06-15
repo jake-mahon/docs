@@ -1,10 +1,10 @@
-# AWS\_InlinePolicies Job
+# AWS_InlinePolicies Job
 
-The AWS\_InlinePolicies job provides details on customer managed policies that are directly assigned to a user or group.
+The AWS_InlinePolicies job provides details on customer managed policies that are directly assigned to a user or group.
 
-## Analysis Tasks for the AWS\_InlinePolicies Job
+## Analysis Tasks for the AWS_InlinePolicies Job
 
-Navigate to the __AWS__ > __5.Policies__ > __AWS\_InlinePolicies__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __AWS__ > __5.Policies__ > __AWS_InlinePolicies__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,12 +12,12 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The following analysis tasks are selected by default:
 
-- Inline Policy Details – Provides details for AWS Inline Policies. Creates the AWS\_InlinePolicy\_Details table accessible under the job’s Results node.
-- Inline Policy Summary – Summarizes AWS Inline Policies by organization. Creates the AWS\_InlinePolicy\_Summary table accessible under the job’s Results node.
+- Inline Policy Details – Provides details for AWS Inline Policies. Creates the AWS_InlinePolicy_Details table accessible under the job’s Results node.
+- Inline Policy Summary – Summarizes AWS Inline Policies by organization. Creates the AWS_InlinePolicy_Summary table accessible under the job’s Results node.
 
-## Report for the AWS\_InlinePolicies Job
+## Report for the AWS_InlinePolicies Job
 
-In addition to the tables and views created by the analysis task, the AWS\_InlinePolicies job produces the following pre-configured report:
+In addition to the tables and views created by the analysis task, the AWS_InlinePolicies job produces the following pre-configured report:
 
 | Report | Description | Default Tags | Report Element |
 | --- | --- | --- | --- |

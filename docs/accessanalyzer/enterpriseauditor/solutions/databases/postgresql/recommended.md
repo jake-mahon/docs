@@ -30,7 +30,7 @@ ___RECOMMENDED:___ Run the solution at the top level: PostgreSQL Job Group
 
 Query Configuration
 
-This solution is designed to be run with the default query configurations. However, the PostgreSQL\_SensitiveDataScan Job query can be customized as needed. See the [Configure the SensitiveDataScan Query](/docs/accessanalyzer/enterpriseauditor/solutions/databases/postgresql/collection/pgsql_sensitivedatascan.md#configure-the-sensitivedatascan-query) topic for additional information.
+This solution is designed to be run with the default query configurations. However, the PostgreSQL_SensitiveDataScan Job query can be customized as needed. See the [Configure the SensitiveDataScan Query](/docs/accessanalyzer/enterpriseauditor/solutions/databases/postgresql/collection/pgsql_sensitivedatascan.md#configure-the-sensitivedatascan-query) topic for additional information.
 
 Analysis Configuration
 

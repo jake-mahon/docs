@@ -64,7 +64,7 @@ __Step 13 –__ Click __Add optional claim__.
 
 __Step 14 –__ Select __ID__ token type.
 
-__Step 15 –__ In the Claim column, select _onprem\_sid_ check box.
+__Step 15 –__ In the Claim column, select _onprem_sid_ check box.
 
 __Step 16 –__ Click __Add__.
 
@@ -72,7 +72,7 @@ __Step 17 –__ Click __Add optional claim__.
 
 __Step 18 –__ Select __Access__ token type.
 
-__Step 19 –__ Check _onprem\_sid_ field.
+__Step 19 –__ Check _onprem_sid_ field.
 
 __Step 20 –__ Click __Add__.
 
@@ -102,7 +102,7 @@ Follow the steps to configure Microsoft Entra ID OpenID Connect in Threat Manage
 - Client Id – The ID assigned to the registered application in Microsoft Entra ID.
 - Login Type – The login type to use to log into the account. For Microsoft Entra ID, select _Sid_ from the drop-down list.
 - User Source – The source type to use to validate the user from the token. For Microsoft Entra ID, select _Id Token Parse_ from the drop-down list.
-- User Source Field – The field in the token to use for validating the user. For Microsoft Entra ID, select _onprem\_sid_ from the drop-down list.
+- User Source Field – The field in the token to use for validating the user. For Microsoft Entra ID, select _onprem_sid_ from the drop-down list.
 
 ## Users/Group Tab
 

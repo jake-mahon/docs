@@ -74,13 +74,13 @@ To configure a GroupID server with existing database:
 
     ![Service Account Settings page](/img/versioned_docs/groupid_11.0/groupid/install/configure/service_account_settings_w_existing_db.jpg)
 
-    NOTE: If you configure a Group Managed Service Account (gMSA) as an App Pool service account then the GroupID Configuration tool will add this account in the local administrators and IIS\_IUSRS groups.
+    NOTE: If you configure a Group Managed Service Account (gMSA) as an App Pool service account then the GroupID Configuration tool will add this account in the local administrators and IIS_IUSRS groups.
 
-    NOTE: If you configure a normal user account as an App Pool service account and an AD identity store is created with a gMSA service account, then the App Pool service account must have the _PrincipalsAllowedToRetrieveManagedPassword_ property. The App Pool service account also must be a member of Backup Operators and IIS\_IUSRS groups.
+    NOTE: If you configure a normal user account as an App Pool service account and an AD identity store is created with a gMSA service account, then the App Pool service account must have the _PrincipalsAllowedToRetrieveManagedPassword_ property. The App Pool service account also must be a member of Backup Operators and IIS_IUSRS groups.
 14. The __Service Account Settings__ page, specify the service account to use for the GroupID app pool in IIS and Windows services.
 
     - Use a domain account or a Group Managed Service Account (gMSA).
-    - The account must be a member of the Administrators group or both the Backup Operators and IIS\_IUSRS groups.
+    - The account must be a member of the Administrators group or both the Backup Operators and IIS_IUSRS groups.
     - The account you specify will be used to manage the GroupID app pool in IIS. GroupID Data Service, Mobile Service, Security Service, and the portals run under the app pool.
     - By default, a local account, GroupIDSSuser, is set for the GroupID app pool, but you cannot proceed unless you change it to a domain account or gMSA.
     - You can specify a local account (with local administrator rights) in app pool for a machine that is not joined to any domain (this applies to an Microsoft Entra ID identity store only).

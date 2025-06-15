@@ -21,7 +21,7 @@ Knowing that we have for example:
 
 | Property | Details |
 | --- | --- |
-| DisplayName\_L1   required | __Type__    String   __Description__   Display name of the task in language 1 (up to 16). |
+| DisplayName_L1   required | __Type__    String   __Description__   Display name of the task in language 1 (up to 16). |
 | BatchSize   default value: 0 | __Type__    Int32   __Description__   Block size for batch calculation. |
 | Identifier   optional | __Type__    String   __Description__   Unique identifier of the task. |
 

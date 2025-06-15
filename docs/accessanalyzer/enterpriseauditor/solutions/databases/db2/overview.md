@@ -34,7 +34,7 @@ The following comprises the Db2 solution:
 
 - [0.Collection Job Group](/docs/accessanalyzer/enterpriseauditor/solutions/databases/db2/collection/overview.md) — Collects high level summary information from targeted Db2 Servers. This information is used by other jobs in the Db2 Solution Set for further analysis and producing respective report.
 
-- [Configuration > Db2\_DatabaseSizing Job](/docs/accessanalyzer/enterpriseauditor/solutions/databases/db2/db2_databasesizing.md) — Provides insight into Db2 server configuration settings
+- [Configuration > Db2_DatabaseSizing Job](/docs/accessanalyzer/enterpriseauditor/solutions/databases/db2/db2_databasesizing.md) — Provides insight into Db2 server configuration settings
 
 - [Permissions Job Group](/docs/accessanalyzer/enterpriseauditor/solutions/databases/db2/permissions/overview.md)— Provides insight into all types of permissions at the database and object level across all the targeted Db2 database servers
 

@@ -24,7 +24,7 @@ Remove-Schedule
 
 Example 1:
 
-This example removes a schedule named GUS811\_1.
+This example removes a schedule named GUS811_1.
 
 ```
 Remove-Schedule -ScheduleName GUS811_1

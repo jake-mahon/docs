@@ -1,10 +1,10 @@
-# UX\_LocalGroups Job
+# UX_LocalGroups Job
 
-The UX\_LocalGroups job provides an overview of all local groups within the audited Unix and Linux environments.
+The UX_LocalGroups job provides an overview of all local groups within the audited Unix and Linux environments.
 
-## Analysis Tasks for the UX\_LocalGroups Job
+## Analysis Tasks for the UX_LocalGroups Job
 
-Navigate to the __Unix__ > __1.Users and Groups__ > __UX\_LocalGroups__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Unix__ > __1.Users and Groups__ > __UX_LocalGroups__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,10 +12,10 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The default analysis tasks are:
 
-- Creates local groups table – Creates the SA\_UX\_LocalGroups\_Details table accessible under the job’s Results node
+- Creates local groups table – Creates the SA_UX_LocalGroups_Details table accessible under the job’s Results node
 - Creates local groups summary table – Creates an interim processing table in the database for use by downstream analysis and report generation
 
-In addition to the table and views created by the analysis tasks, the UX\_LocalGroups job produces the following pre-configured report:
+In addition to the table and views created by the analysis tasks, the UX_LocalGroups job produces the following pre-configured report:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

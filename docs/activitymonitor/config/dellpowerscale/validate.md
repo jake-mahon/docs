@@ -10,7 +10,7 @@ If the monitoring agent is not registering events, validate that the EndPoint is
 
 __Step 1 –__ Navigate to the following windows registry key:
 
-HKEY\_LOCAL\_MACHINE\SOFTWARE\EMC\CEE\CEPP\Audit\Configuration
+HKEY_LOCAL_MACHINE\SOFTWARE\EMC\CEE\CEPP\Audit\Configuration
 
 ![registryeditorendpoint](/img/product_docs/activitymonitor/config/dellunity/registryeditorendpoint.webp)
 
@@ -32,7 +32,7 @@ For the asynchronous bulk delivery mode with a cadence based on a time period or
 
 __Step 1 –__ Navigate to the following windows registry key:
 
-HKEY\_LOCAL\_MACHINE\SOFTWARE\EMC\CEE\CEPP\VCAPS\Configuration
+HKEY_LOCAL_MACHINE\SOFTWARE\EMC\CEE\CEPP\VCAPS\Configuration
 
 __Step 2 –__ Ensure that the Enabled parameter is set to 1.
 
@@ -79,7 +79,7 @@ __Step 8 –__ Download and install the Debug View tool from Microsoft on the CE
 
 __Step 9 –__ Open the Registry Editor (run regedit). Navigate to following location:
 
-HKEY\_LOCAL\_MACHINE\SOFTWARE\EMC\CEE\Configuration
+HKEY_LOCAL_MACHINE\SOFTWARE\EMC\CEE\Configuration
 
 __Step 10 –__ Right-click on __Debug__ and select Modify. The Edit DWORD Value window opens. In the Value data field, enter the value of 3F. Click OK, and the Edit DWORD Value window closes.
 

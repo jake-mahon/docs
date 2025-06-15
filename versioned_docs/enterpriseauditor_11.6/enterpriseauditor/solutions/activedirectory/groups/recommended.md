@@ -30,7 +30,7 @@ Some analysis tasks have customizable parameters:
 
 - The .Active Directory Inventory Solution defines large groups, deeply nested groups, and stale users. These parameters can be customized.
 
-  - Customize within __.Active Directory Inventory__ > __3-AD\_Exceptions__ Job analysis tasks
+  - Customize within __.Active Directory Inventory__ > __3-AD_Exceptions__ Job analysis tasks
 
     __NOTE:__ Changes to an exception’s definition will affect all jobs dependent upon that exception as well as all Access Information Center Exceptions reports.
 

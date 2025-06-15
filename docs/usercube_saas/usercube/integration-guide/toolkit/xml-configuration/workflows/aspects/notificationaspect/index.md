@@ -25,8 +25,8 @@ The notification will be sent to all email addresses defined by ```Directory_Gue
 | CssFile   optional | __Type__    String   __Description__   Path to the css file that defines the styles for the email.   __Note:__ the path must be relative to the configuration folder, and the file must be inside it. |
 | ExpressionBinding   optional | __Type__    String   __Description__   Binding:   - that defines the variable type used in the potential expressions specified in the aspect;   - whose difference with ```Binding``` defines the property involved in the aspect.   __Note:__ required when handling the property of multi-valued objects, for example records, to make sure to modify the property in all records and not only in one. |
 | Priority   default value: 0 | __Type__    Int32   __Description__   Execution priority among all aspects. At a given activity state, the aspect with the highest priority will be triggered first.   __Note:__ the priority can be a negative value. |
-| RazorFile\_L1   optional | __Type__    String   __Description__   Path to the Razor cshtml file that defines the email's body template in language 1 (up to 16).   __Note:__ the path must be relative to the configuration folder, and the file must be inside it. |
-| SubjectExpression\_L1   optional | __Type__    String   __Description__   C# expression that defines the email's subject in language 1 (up to 16). The expression's variable type is defined in ```ExpressionBinding```. |
+| RazorFile_L1   optional | __Type__    String   __Description__   Path to the Razor cshtml file that defines the email's body template in language 1 (up to 16).   __Note:__ the path must be relative to the configuration folder, and the file must be inside it. |
+| SubjectExpression_L1   optional | __Type__    String   __Description__   C# expression that defines the email's subject in language 1 (up to 16). The expression's variable type is defined in ```ExpressionBinding```. |
 
 ## Child Element: PointCut
 

@@ -39,7 +39,7 @@ If limited provisioning of the service account is not required by the organizati
   - Membership in the local Backup Operators group
 
     - This is required so Enterprise Auditor can read remote registry to identify if the server is part of the farm, what the server’s role is, and to identify the location of the SharePoint configuration database
-  - Membership in the local WSS\_WPG group
+  - Membership in the local WSS_WPG group
 
     - This is required to gain read access to system resources used by Microsoft SharePoint Foundation
   - Log on as a Service in the Local Security Policy
@@ -63,7 +63,7 @@ If limited provisioning of the service account is not required by the organizati
 
     - This permission should be applied on the desired Configuration database and all Content databases for the SharePoint version
     - This version-specific permission is required for Enterprise Auditor to execute read operations directly against the SharePoint databases, gather information from the configuration database regarding the names and locations of the web applications and content databases, and give read access around sites, roles, and users
-- DB\_Owner on Enterprise Auditor database if using Windows Authentication for the Storage Profile
+- DB_Owner on Enterprise Auditor database if using Windows Authentication for the Storage Profile
 - MySites permissions are based on the SharePointAccess Data Collector configuration option:
 
   - Forcing the service account to become a temporary admin of the personal sites either as the service account or as a member of the Company Administrators group requires SharePoint Farm Administrator role or Site Collection Auditor at the web application housing MySites
@@ -79,20 +79,20 @@ If restricted permissions are desired by the organization, then the following pe
 Prior to installation of the SharePoint Agent, the service account to be supplied during installation and later used to run the Access Auditing (SPAA) and Sensitive Data Discovery Auditing scans against the targeted SharePoint environment needs the following permissions:
 
 - Log on as a Service in the Local Security Policy
-- Membership in the local IIS\_IUSRS group
+- Membership in the local IIS_IUSRS group
 - Performance Log Users (for Sensitive Data Discovery only)
 
 After the SharePoint Agent installation, this service account needs the following additional permissions to run the Access Auditing (SPAA) and Sensitive Data Discovery Auditing scans:
 
 - Site Collection Administrator on all Site Collections to be scanned
 - Membership in the local Users group on the server where the SharePoint Agent is installed
-- DB\_Owner on Enterprise Auditor database if using Windows Authentication for the Storage Profile
+- DB_Owner on Enterprise Auditor database if using Windows Authentication for the Storage Profile
 
 If the scans include Web Application scoping, then the following permissions are needed (can be skipped if running full farm scans):
 
 - Membership in the local Backup Operators group
-- Membership in the local WSS\_WPG group
-- WSS\_CONTENT\_APPLICATION\_POOLS on the SharePoint Configuration database
+- Membership in the local WSS_WPG group
+- WSS_CONTENT_APPLICATION_POOLS on the SharePoint Configuration database
 
 After the Enterprise Auditor SharePoint Agent is installed, ensure that the service account has the following permissions:
 
@@ -102,8 +102,8 @@ After the Enterprise Auditor SharePoint Agent is installed, ensure that the serv
 
 The Enterprise Auditor SharePoint Agent utilizes Microsoft APIs. The Microsoft APIs require an account with the following permissions in order to collect all of the data:
 
-- WSS\_CONTENT\_APPLICATION\_POOLS on the SharePoint Content databases
-- WSS\_CONTENT\_APPLICATION\_POOLS on the SharePoint Configuration database
+- WSS_CONTENT_APPLICATION_POOLS on the SharePoint Content databases
+- WSS_CONTENT_APPLICATION_POOLS on the SharePoint Configuration database
 
 __NOTE:__ If scans include Web Application scoping, this last permission requirement is already met.
 
@@ -121,7 +121,7 @@ After the SharePoint Agent installation, this service account needs the followin
 
 - Site Collection Administrator on all Site Collections to be scanned
 - Membership in the local Users group on the server where the SharePoint Agent is installed
-- DB\_Owner on Enterprise Auditor database if using Windows Authentication for the Storage Profile
+- DB_Owner on Enterprise Auditor database if using Windows Authentication for the Storage Profile
 
 If the scans include Web Application scoping, then the following permissions are needed (can be skipped if running full farm scans):
 
@@ -134,7 +134,7 @@ If the scans include Web Application scoping, then the following permissions are
 
     - ```HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Shared Tools\Web Server Extensions\15.0\Secure```
     - ```HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Shared Tools\Web Server Extensions\15.0\Secure\ConfigDB```
-- DB\_DataReader on the SharePoint Configuration database
+- DB_DataReader on the SharePoint Configuration database
 - ```'GRANT EXECUTE'``` permissions on the following stored procedures in the SharePoint Configuration database:
 
   - ```proc_getObject```
@@ -163,7 +163,7 @@ The Enterprise Auditor SharePoint Agent utilizes Microsoft APIs. The Microsoft A
   - ```[dbo].proc_getSiteName```
   - ```[dbo].proc_getSiteMap```
   - ```[dbo].proc_getSiteMapById```
-- DB\_DataReader on the SharePoint Content databases and SharePoint AdminContent database, if applicable
+- DB_DataReader on the SharePoint Content databases and SharePoint AdminContent database, if applicable
 - ```'GRANT EXECUTE'``` permissions on the following stored procedures in the SharePoint Content databases and SharePoint AdminContent database (if applicable):
 
   - ```[dbo].proc_EnumLists```

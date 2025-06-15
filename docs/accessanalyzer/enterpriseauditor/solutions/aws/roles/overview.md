@@ -6,5 +6,5 @@ The 4.Roles job group provides details on roles in the AWS IAM environment.
 
 The 4.Roles job group is comprised of:
 
-- [AWS\_Roles Job](/docs/accessanalyzer/enterpriseauditor/solutions/aws/roles/aws_roles.md) – Provides details on roles in the AWS IAM environment
-- [AWS\_StaleRoles Job](/docs/accessanalyzer/enterpriseauditor/solutions/aws/roles/aws_staleroles.md) – Provides details on roles that are considered stale. Highlighting roles that have not been used in more than 60 days and those that have never been used.
+- [AWS_Roles Job](/docs/accessanalyzer/enterpriseauditor/solutions/aws/roles/aws_roles.md) – Provides details on roles in the AWS IAM environment
+- [AWS_StaleRoles Job](/docs/accessanalyzer/enterpriseauditor/solutions/aws/roles/aws_staleroles.md) – Provides details on roles that are considered stale. Highlighting roles that have not been used in more than 60 days and those that have never been used.

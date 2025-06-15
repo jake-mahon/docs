@@ -20,12 +20,12 @@ application/x-www-form-urlencoded
 
 | Name | Description |
 | --- | --- |
-| grant\_type | Password |
+| grant_type | Password |
 | username | Send the username against this parameter to access APIs |
 | password | Password of the user |
-| client\_Id | Secret of GroupID API from the SVC.Client database table |
-| client\_secret | Secret of GroupID API from the SVC.Client database table |
-| identity\_store\_id | The ID of the identity store in which the user exists.    You can get the identity store ID from the SVC.Identitystore database table. |
+| client_Id | Secret of GroupID API from the SVC.Client database table |
+| client_secret | Secret of GroupID API from the SVC.Client database table |
+| identity_store_id | The ID of the identity store in which the user exists.    You can get the identity store ID from the SVC.Identitystore database table. |
 
 #### Sample Response Syntax
 

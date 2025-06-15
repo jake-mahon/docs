@@ -28,7 +28,7 @@ That’s basically all there is to it. If I were to open a command prompt and ty
 
 For instance, if you were licensed for Least Privilege Manager Complete but we only sent you a license for Least Privilege Manager Standard, there you go. You might also see some other items here where it says you might want to check out these components you don’t have access to. If you’re entitled with your license, you’re welcome to ask for them, and we’ll cheerfully give them to you.
 
-If you have licensing problems at this point, the best thing to do is to open a support ticket https://www.netwrix.com/sign\_in.html?rf=tickets.html#/open-a-ticket and tell us where in the process it didn’t work. Basically, this is the Walk Before You Run video. Now you can go onto the other videos that show you how to use your MDM service like InTune, like VMware Workspace ONE, like Citrix CEM, and then deploy the three things that we just did.
+If you have licensing problems at this point, the best thing to do is to open a support ticket https://www.netwrix.com/sign_in.html?rf=tickets.html#/open-a-ticket and tell us where in the process it didn’t work. Basically, this is the Walk Before You Run video. Now you can go onto the other videos that show you how to use your MDM service like InTune, like VMware Workspace ONE, like Citrix CEM, and then deploy the three things that we just did.
 
 Let’s go one more time, final checkout into control panel. By the time it’s over, you’re going to be delivering the Client-Side Extension using your MDM service. You’re going to be delivering the license file using your MDM service. Finally, the PolicyPak and Group Policy settings wrapped up into an MSI file using your MDM service.
 

@@ -16,7 +16,7 @@ __Step 3 –__ Add a "New Web Policy"
 
 __Step 4 –__ Follow the prompts, setting your options as required
 
-__Step 5 –__ On the "Specify the copy source" page, paste in a working link. If you do not have one, this link below can be used. [https://z\_deleteme.s3.amazonaws.com/7z.msi](https://z_deleteme.s3.amazonaws.com/7z.msi)
+__Step 5 –__ On the "Specify the copy source" page, paste in a working link. If you do not have one, this link below can be used. [https://z_deleteme.s3.amazonaws.com/7z.msi](https://z_deleteme.s3.amazonaws.com/7z.msi)
 
 ![800_2_image-20210602100219-2](/img/product_docs/policypak/policypak/troubleshooting/remoteworkdelivery/800_2_image-20210602100219-2.webp)
 

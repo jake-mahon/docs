@@ -17,7 +17,7 @@ The options in the Customize Activity Log UNC Paths Window are:
 
 - Host name – Host name of the targeted SharePoint On-Premises server or SharePoint Online tenant
 - SBTFileMon.ini UNC path – UNC path to the location of the __SBTFileMon.ini__ file (as configured in __Activity Monitor__ > __Monitored Hosts__)
-- Activity log UNC path – UNC path to the location of the __SBTFileMon\_Logs__ folder containing the Activity Logs (as configured in __Activity Monitor__ > __Monitored Hosts__)
+- Activity log UNC path – UNC path to the location of the __SBTFileMon_Logs__ folder containing the Activity Logs (as configured in __Activity Monitor__ > __Monitored Hosts__)
 
   __NOTE:__ For On-Premises environments you do not need to specify an Activity Log UNC path as the Data Collector will default to finding the log locations via the registry.
 

@@ -1,10 +1,10 @@
-# SQL\_Authentication Job
+# SQL_Authentication Job
 
-The SQL\_Authentication Job identifies authentication settings on targeted SQL and Azure SQL servers that allow SQL server authentication in addition to Windows authentication. Microsoft recommends that SQL and Azure SQL servers should be generally configured to utilize Windows authentication versus SQL server authentication.
+The SQL_Authentication Job identifies authentication settings on targeted SQL and Azure SQL servers that allow SQL server authentication in addition to Windows authentication. Microsoft recommends that SQL and Azure SQL servers should be generally configured to utilize Windows authentication versus SQL server authentication.
 
-## Analysis Tasks for the SQL\_Authentication Job
+## Analysis Tasks for the SQL_Authentication Job
 
-Navigate to the __Databases__ > SQL > 4.Configuration > SQL\_Authentication > Configure node and select Analysis to view the analysis tasks.
+Navigate to the __Databases__ > SQL > 4.Configuration > SQL_Authentication > Configure node and select Analysis to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis task(s). The analysis task(s) are preconfigured for this job.
 
@@ -12,10 +12,10 @@ __CAUTION:__ Do not modify or deselect the selected analysis task(s). The analys
 
 The default analysis tasks are:
 
-- Determine authentication configurations – Creates the SA\_SQLServer\_Authentication\_Details table accessible under the job’s Results node
-- Authentication Summary – Creates the SA\_SQLServer\_Authentication\_Summary table accessible under the job’s Results node. Provides a summary of targeted servers with SQL authentication enabled.
+- Determine authentication configurations – Creates the SA_SQLServer_Authentication_Details table accessible under the job’s Results node
+- Authentication Summary – Creates the SA_SQLServer_Authentication_Summary table accessible under the job’s Results node. Provides a summary of targeted servers with SQL authentication enabled.
 
-In addition to the tables and views created by the analysis task, the SQL\_Authentication Job produces the following pre-configured report.
+In addition to the tables and views created by the analysis task, the SQL_Authentication Job produces the following pre-configured report.
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

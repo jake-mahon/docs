@@ -46,39 +46,39 @@ Create a login for Identity Manager's service account with at least reading acce
 | Table | Usage |
 | --- | --- |
 | USR02 | Users table |
-| AGR\_USERS | Links between Users and Roles |
-| AGR\_TEXTS | Roles labels according to the language |
-| USER\_ADDR |  |
-| AGR\_1016  AGR\_PROF | Links between Profiles and Roles |
+| AGR_USERS | Links between Users and Roles |
+| AGR_TEXTS | Roles labels according to the language |
+| USER_ADDR |  |
+| AGR_1016  AGR_PROF | Links between Profiles and Roles |
 | USR10 | Profiles tables |
 | USR11 | Profiles labels |
-| AGR\_DEFINE | Roles table |
-| AGR\_AGRS | Composition links |
+| AGR_DEFINE | Roles table |
+| AGR_AGRS | Composition links |
 | USGRP | Groups table |
 | USGRPT | Groups labels |
 | UST04 | Links between Users and Profiles |
 | UST10C | Links between Profiles and Sub-profiles |
-| AGR\_TCODES | Links between Roles and Transactions |
+| AGR_TCODES | Links between Roles and Transactions |
 | T002 | Languages codes |
 
 For example:
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
-execute sp\_addlogin ```<login>```, ```<password>```, ```<database (ABA is the default value)>```go
+execute sp_addlogin ```<login>```, ```<password>```, ```<database (ABA is the default value)>```go
 use ABA
 go
-execute sp\_adduser ```<login>```go
+execute sp_adduser ```<login>```go
 grant select on ABA.SAPSR3.USR02 to usercube
-grant select on ABA.SAPSR3.AGR\_USERS to usercube
-grant select on ABA.SAPSR3.USER\_ADDR to usercube
-grant select on ABA.SAPSR3.AGR\_1016 to usercube
+grant select on ABA.SAPSR3.AGR_USERS to usercube
+grant select on ABA.SAPSR3.USER_ADDR to usercube
+grant select on ABA.SAPSR3.AGR_1016 to usercube
 grant select on ABA.SAPSR3.USR10 to usercube
 grant select on ABA.SAPSR3.USR11 to usercube
-grant select on ABA.SAPSR3.AGR\_AGRS to usercube
+grant select on ABA.SAPSR3.AGR_AGRS to usercube
 grant select on ABA.SAPSR3.USGRP to usercube
 grant select on ABA.SAPSR3.UST04 to usercube
-grant select on ABA.SAPSR3.AGR\_TCODES to user
+grant select on ABA.SAPSR3.AGR_TCODES to user
 grant select on ABA.SAPSR3.T002 to usercube
 Go
 
@@ -185,16 +185,16 @@ appsettings.agent.json
 
 This connector is meant to generate to the ExportOutput folder the following files:
 
-- SAPExportFulfillment\_users.csv;
-- SAPExportFulfillment\_roles.csv;
-- SAPExportFulfillment\_usersroles.csv;
-- SAPExportFulfillment\_profiles.csv;
-- SAPExportFulfillment\_profilesprofiles.csv;
-- SAPExportFulfillment\_rolesprofiles.csv;
-- SAPExportFulfillment\_usersprofiles.csv;
-- SAPExportFulfillment\_rolesroles.csv;
-- SAPExportFulfillment\_groups.csv;
-- SAPExportFulfillment\_rolestransactions.csv.
+- SAPExportFulfillment_users.csv;
+- SAPExportFulfillment_roles.csv;
+- SAPExportFulfillment_usersroles.csv;
+- SAPExportFulfillment_profiles.csv;
+- SAPExportFulfillment_profilesprofiles.csv;
+- SAPExportFulfillment_rolesprofiles.csv;
+- SAPExportFulfillment_usersprofiles.csv;
+- SAPExportFulfillment_rolesroles.csv;
+- SAPExportFulfillment_groups.csv;
+- SAPExportFulfillment_rolestransactions.csv.
 
 See the [Application Settings](/docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) topic for additional information.
 

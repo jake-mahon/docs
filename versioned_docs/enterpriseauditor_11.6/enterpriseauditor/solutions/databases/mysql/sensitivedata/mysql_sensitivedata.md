@@ -1,10 +1,10 @@
-# MySQL\_SensitiveData Job
+# MySQL_SensitiveData Job
 
-The MySQL\_SensitiveData Job is designed to provide information on all the sensitive data that was discovered in the targeted MySQL servers based on the selected scan criteria.
+The MySQL_SensitiveData Job is designed to provide information on all the sensitive data that was discovered in the targeted MySQL servers based on the selected scan criteria.
 
-## Analysis Tasks for the MySQL\_SensitiveData Job
+## Analysis Tasks for the MySQL_SensitiveData Job
 
-Navigate to the __Jobs > MySQL > Sensitive Data > MySQL\_SensitiveData > Configure__ node and select Analysis to view the analysis tasks.
+Navigate to the __Jobs > MySQL > Sensitive Data > MySQL_SensitiveData > Configure__ node and select Analysis to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -16,7 +16,7 @@ The default analysis tasks are:
 - Database Summary - Summarizes sensitive data in MySQL by database
 - Enterprise Summary - Summarizes MySQL sensitive data for the organization
 
-In addition to the tables and views created the analysis task, the MySQL\_SensitiveData Job produces the following pre-configured reports.
+In addition to the tables and views created the analysis task, the MySQL_SensitiveData Job produces the following pre-configured reports.
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

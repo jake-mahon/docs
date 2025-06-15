@@ -1,6 +1,6 @@
-# AD\_DeprovisionGroups Job
+# AD_DeprovisionGroups Job
 
-The AD\_DeprovisionGroups Job provides an automated workflow to deprovision stale groups. This workflow is completed by the action tasks.
+The AD_DeprovisionGroups Job provides an automated workflow to deprovision stale groups. This workflow is completed by the action tasks.
 
 __Step 1 –__ Move stale groups to a staging OU for deletion.
 
@@ -16,38 +16,38 @@ __Step 5 –__ After a configurable amount of days in the staging OU, the group 
 
 The Configuration section on a Job's overview page allows you to easily modify any customizable parameters used by analysis tasks in the job. See the [Parameter Configuration](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/overview.md#parameter-configuration) topic for instructions on how to edit parameters on a job overview page.
 
-The AD\_DeprovisionGroups page has the following configurable parameters:
+The AD_DeprovisionGroups page has the following configurable parameters:
 
 - Days in the Staging OU before deletion
 
-See the [Customizable Analysis Parameters for the AD\_DeprovisionGroups Job](#customizable-analysis-parameters-for-the-ad_deprovisiongroups-job) topic for additional information.
+See the [Customizable Analysis Parameters for the AD_DeprovisionGroups Job](#customizable-analysis-parameters-for-the-ad_deprovisiongroups-job) topic for additional information.
 
-## Analysis Tasks for the AD\_DeprovisionGroups Job
+## Analysis Tasks for the AD_DeprovisionGroups Job
 
-Navigate to the __Active Directory__ > __Cleanup__ > __1.Groups__ > __1. Deprovision Groups__ > __AD\_Deprovision Groups__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Active Directory__ > __Cleanup__ > __1.Groups__ > __1. Deprovision Groups__ > __AD_Deprovision Groups__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 ![Analysis Tasks for the AD_DeprovisionGroups Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/cleanup/groups/deprovision/deprovisiongroupsanalysis.png)
 
 The default analysis tasks are:
 
-- Identify Stale Groups – Creates the AD\_DeprovisionGroups\_Details table accessible under the job’s Results node
+- Identify Stale Groups – Creates the AD_DeprovisionGroups_Details table accessible under the job’s Results node
 - Groups to Delete – Identifies groups in the Stale Groups OU that are ready to be deleted
 
-  - This analysis task contains a configurable parameter: ```@days_before_deleting```. See the [Customizable Analysis Parameters for the AD\_DeprovisionGroups Job](#customizable-analysis-parameters-for-the-ad_deprovisiongroups-job) topic for additional information.
+  - This analysis task contains a configurable parameter: ```@days_before_deleting```. See the [Customizable Analysis Parameters for the AD_DeprovisionGroups Job](#customizable-analysis-parameters-for-the-ad_deprovisiongroups-job) topic for additional information.
 
-### Customizable Analysis Parameters for the AD\_DeprovisionGroups Job
+### Customizable Analysis Parameters for the AD_DeprovisionGroups Job
 
 Customizable parameters enable you to set the values used to classify user and group objects during this job’s analysis.
 
 | Analysis Task | Customizable Parameter Name | Default Value | Value Indicates |
 | --- | --- | --- | --- |
-| Groups to Delete | @days\_before\_deleting | 365 | Days in the staging OU before deletion |
+| Groups to Delete | @days_before_deleting | 365 | Days in the staging OU before deletion |
 
 See the [Configure the Customizable Parameters in an Analysis Task](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/configure/analysiscustomizableparameters.md) topic for additional information.
 
-## Action Tasks for the AD\_DepvisionGroups Job
+## Action Tasks for the AD_DepvisionGroups Job
 
-Navigate to the __Active Directory__ > __Cleanup__ > __1.Groups__ > __1. Deprovision Groups__ > __AD\_DeprovisonGroups__ > __Configure__ node and select __Actions__ to view the action tasks.
+Navigate to the __Active Directory__ > __Cleanup__ > __1.Groups__ > __1. Deprovision Groups__ > __AD_DeprovisonGroups__ > __Configure__ node and select __Actions__ to view the action tasks.
 
 __CAUTION:__ Do not enable the actions unless it is required. Disable the actions after execution to prevent making unintended and potentially harmful changes to Active Directory.
 

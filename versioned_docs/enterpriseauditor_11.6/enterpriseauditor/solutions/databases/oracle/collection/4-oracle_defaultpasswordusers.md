@@ -1,20 +1,20 @@
-# 4-Oracle\_DefaultPasswordUsers Job
+# 4-Oracle_DefaultPasswordUsers Job
 
-The 4-Oracle\_DefaultPasswordUsers Job provides a list of users in the database that are configured to use default passwords.
+The 4-Oracle_DefaultPasswordUsers Job provides a list of users in the database that are configured to use default passwords.
 
-## Query for the 4-Oracle\_DefaultPasswordUsers Job
+## Query for the 4-Oracle_DefaultPasswordUsers Job
 
-The 4-Oracle\_DefaultPasswordUsers Job uses the SQL Data Collector for the following query:
+The 4-Oracle_DefaultPasswordUsers Job uses the SQL Data Collector for the following query:
 
 ![Query Selection](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/oracle/collection/jobgroup17.png)
 
 - Users with Default Passwords – Collects usernames of users whose passwords have not been updated since the database creation
 
-### Configure the 4-Oracle\_DefaultPasswordUsers Query
+### Configure the 4-Oracle_DefaultPasswordUsers Query
 
-The 4-Oracle\_DefaultPasswordUsers Job is preconfigured to run using the default settings for the Permissions Collection category in the SQL Data Collector. Follow the steps to customize configurations:
+The 4-Oracle_DefaultPasswordUsers Job is preconfigured to run using the default settings for the Permissions Collection category in the SQL Data Collector. Follow the steps to customize configurations:
 
-__Step 1 –__ Navigate to the __Databases__ > __0.Collection__ > __Oracle__ > __4-Oracle\_DefaultPasswordUsers__ > __Configure__ node and select Queries.
+__Step 1 –__ Navigate to the __Databases__ > __0.Collection__ > __Oracle__ > __4-Oracle_DefaultPasswordUsers__ > __Configure__ node and select Queries.
 
 __Step 2 –__ In the Query Selection view, select the Users with Default Passwords query and click on Query Properties. The Query Properties window opens.
 
@@ -32,4 +32,4 @@ __Step 4 –__ To query for specific databases/instances, navigate to the Filter
 
 __Step 5 –__ Navigate to the Summary page, click Finish to save any setting modifications or click Cancel if no changes were made. Then click OK to close the Query Properties window.
 
-The 4-Oracle\_DefaultPasswordUsers Job is now ready to run with the customized settings.
+The 4-Oracle_DefaultPasswordUsers Job is now ready to run with the customized settings.

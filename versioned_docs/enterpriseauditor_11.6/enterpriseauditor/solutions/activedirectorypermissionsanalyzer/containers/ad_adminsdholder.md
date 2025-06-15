@@ -1,10 +1,10 @@
-# AD\_AdminSDHolder Job
+# AD_AdminSDHolder Job
 
-The AD\_AdminSDHolder Job is comprised of analysis tasks and reports which use the data collected by the 0.Collection Job Group to provide information on permissions applied to the AdminSDHolder Container in Active Directory.
+The AD_AdminSDHolder Job is comprised of analysis tasks and reports which use the data collected by the 0.Collection Job Group to provide information on permissions applied to the AdminSDHolder Container in Active Directory.
 
-## Queries for the AD\_AdminSDHolder Job
+## Queries for the AD_AdminSDHolder Job
 
-The AD\_AdminSDHolder Job uses the PowerShell Data Collector for the following query:
+The AD_AdminSDHolder Job uses the PowerShell Data Collector for the following query:
 
 __CAUTION:__ Do not modify the query. The query is preconfigured for this job.
 
@@ -14,9 +14,9 @@ __CAUTION:__ Do not modify the query. The query is preconfigured for this job.
 
   - See the [PowerShell Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/powershell/overview.md) topic for additional information
 
-## Analysis Tasks for the AD\_AdminSDHolder Job
+## Analysis Tasks for the AD_AdminSDHolder Job
 
-Navigate to the __Active Directory Permissions Analyzer__ > __7.Containers__ > __AD\_AdminSDHolder__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Active Directory Permissions Analyzer__ > __7.Containers__ > __AD_AdminSDHolder__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -24,10 +24,10 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The default analysis tasks are:
 
-- Determine AdminSDHolder permissions – Creates the SA\_AD\_AdminSDHolder\_Details table accessible under the job’s Results node
-- Summarize AdminSDHolder permissions – Creates the SA\_AD\_AdminSDHolder\_DomainSummary table accessible under the job’s Results node
+- Determine AdminSDHolder permissions – Creates the SA_AD_AdminSDHolder_Details table accessible under the job’s Results node
+- Summarize AdminSDHolder permissions – Creates the SA_AD_AdminSDHolder_DomainSummary table accessible under the job’s Results node
 
-In addition to the tables and views created by the analysis tasks, the AD\_AdminSDHolder Job produces the following pre-configured report.
+In addition to the tables and views created by the analysis tasks, the AD_AdminSDHolder Job produces the following pre-configured report.
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

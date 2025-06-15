@@ -6,7 +6,7 @@ The Execute PS script right-click option in the Recent Events tab of a policy op
 
 You can execute Windows PowerShell scripts stored in this folder for the selected event. Select a script to execute it.
 
-An example script has been placed in this folder. The example PowerShell script creates or appends the _si\_eventdata.txt_ file on the C:\ drive. The example script also contains all the parameters needed for working with the selected event data.
+An example script has been placed in this folder. The example PowerShell script creates or appends the _si_eventdata.txt_ file on the C:\ drive. The example script also contains all the parameters needed for working with the selected event data.
 
 __NOTE:__ For a PowerShell script to reference the selected event data, it is necessary to use the _$helper.[class]_ with the data parameter. This is Threat Prevention specific. For example:
 

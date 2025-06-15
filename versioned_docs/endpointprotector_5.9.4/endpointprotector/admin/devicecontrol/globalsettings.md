@@ -179,9 +179,9 @@ In this section, you can manage the following settings:
 
      - Enable this setting, if SSL errors are encountered from the source applications, such as web browsers, like:
 
-       > SSL\_R\_TLSV1\_ALERT\_UNKNOWN\_CA
+       > SSL_R_TLSV1_ALERT_UNKNOWN_CA
        >
-       > SSL\_R\_SSLV3\_ALERT\_CERTIFICATE\_UNKNOWN
+       > SSL_R_SSLV3_ALERT_CERTIFICATE_UNKNOWN
 
        - This signiﬁes that the source application failed to validate the server certiﬁcate, which was issued by Endpoint Protector.
        - The absence of the DPI certiﬁcate in the system keychain may also contribute to this scenario.

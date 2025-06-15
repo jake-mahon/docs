@@ -8,7 +8,7 @@ __Step 2 –__ Create a Role in each target account that will be used to allow a
 
 __Step 3 –__ Create a Managed Policy in the designated scanning account that will be used to allow the service account to assume the configured role in each target account.
 
-__Step 4 –__ Add Role to Enterprise Auditor. The Role created in the scanning account will need to be added to the __1-AWS\_OrgScan__, __2-AWS\_S3Scan__, and __3-AWS\_IAMScan__ job query configurations. See the [AWS: Login Roles](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/aws/loginroles.md) topic for additional information.
+__Step 4 –__ Add Role to Enterprise Auditor. The Role created in the scanning account will need to be added to the __1-AWS_OrgScan__, __2-AWS_S3Scan__, and __3-AWS_IAMScan__ job query configurations. See the [AWS: Login Roles](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/aws/loginroles.md) topic for additional information.
 
 Once these steps are completed, the role must be added to the AWS queries within Enterprise Auditor.
 

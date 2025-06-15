@@ -1,10 +1,10 @@
-# SQL\_DatabaseSizing Job
+# SQL_DatabaseSizing Job
 
-The SQL\_DatabaseSizing Job provides details on database file sizes and overall database sizes.
+The SQL_DatabaseSizing Job provides details on database file sizes and overall database sizes.
 
-## Analysis Tasks for the SQL\_DatabaseSizing Job
+## Analysis Tasks for the SQL_DatabaseSizing Job
 
-Navigate to the __Databases__ > Jobs > SQL > 4.Configuration > SQL\_DatabaseSizing Job >Configure node and select Analysis to view the analysis tasks.
+Navigate to the __Databases__ > Jobs > SQL > 4.Configuration > SQL_DatabaseSizing Job >Configure node and select Analysis to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -15,7 +15,7 @@ The default analysis tasks are:
 - Database Size Details – Provides details on database files and sizes
 - Database Size Summary – Summarizes database file sizes by database
 
-In addition to the tables created by the analysis tasks, the __SQL\_DatabaseSizing Job__ produces the following preconfigured report:
+In addition to the tables created by the analysis tasks, the __SQL_DatabaseSizing Job__ produces the following preconfigured report:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

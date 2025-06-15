@@ -16,8 +16,8 @@ The following example declares a new category called "Shares - Public".
 
 | Property | Details |
 | --- | --- |
-| Description\_L1   optional | __Type__    String   __Description__   Describe this category in detail. |
-| DisplayName\_L1   required | __Type__    String   __Description__   Display name of the category in language 1 (up to 16). |
+| Description_L1   optional | __Type__    String   __Description__   Describe this category in detail. |
+| DisplayName_L1   required | __Type__    String   __Description__   Display name of the category in language 1 (up to 16). |
 | Identifier   required | __Type__    String   __Description__   Unique identifier of the category. |
 | IsCollapsed   default value: false | __Type__    Boolean   __Description__   Defines if the category must be collapsed by default in the permission list of a resource (View Permissions popup and roles basket). |
 | Parent   optional | __Type__    Int64   __Description__   Represents the parent category definition. |

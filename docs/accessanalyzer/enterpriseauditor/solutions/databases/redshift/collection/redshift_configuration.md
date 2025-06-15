@@ -1,10 +1,10 @@
-# Redshift\_Configuration Job
+# Redshift_Configuration Job
 
-The Redshift\_Configuration job returns additional configuration settings from Redshift servers.
+The Redshift_Configuration job returns additional configuration settings from Redshift servers.
 
-## Queries for the Redshift\_Configuration Job
+## Queries for the Redshift_Configuration Job
 
-The Redshift\_Configuration Job uses the SQL Data Collector for queries.
+The Redshift_Configuration Job uses the SQL Data Collector for queries.
 
 __CAUTION:__ Do not modify the query. The query is preconfigured for this job.
 

@@ -410,9 +410,9 @@ Each section is configured with the following settings:
 
 ##### Example
 
-The following example configures an __OAuth__-based authentication provider identified as _OAuthContoso\_Washington_ in the configuration file.
+The following example configures an __OAuth__-based authentication provider identified as _OAuthContoso_Washington_ in the configuration file.
 
-It will be displayed as _Contoso OAuth Washington_ in the UI external login prompt, and uniquely identified within Usercube by the authentication scheme _contoso\_0987_.
+It will be displayed as _Contoso OAuth Washington_ in the UI external login prompt, and uniquely identified within Usercube by the authentication scheme _contoso_0987_.
 
 _Usercube Server_ marks received claims using _[https://accounts.google.com](https://accounts.google.com)_ as a claim issuer identifier.
 
@@ -494,7 +494,7 @@ Each section is configured with the following settings:
 
 #### Example
 
-This example configures a __WS-Federation__-based authentication provider identified as _WsFederationContoso\_LA_ in the configuration file.
+This example configures a __WS-Federation__-based authentication provider identified as _WsFederationContoso_LA_ in the configuration file.
 
 Within Usercube, it will be identified with the authentication scheme _WsFederationAAD_.
 

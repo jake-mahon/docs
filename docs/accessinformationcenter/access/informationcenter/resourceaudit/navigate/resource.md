@@ -30,10 +30,10 @@ The Explicit Permissions, Exception, and Alert icons can shown next a resource i
 - Explicit Permissions – Indicates permissions for the resource are different than the permission of its parent. This is caused by broken inheritance or adding new permissions to a resource.
 - Exception – Indicates the existence of a risk to data governance security on the resource as identified by Access Analyzer. Exceptions include permissions granted to stale, disabled, or high-risk trustees (for example, Everyone, Authenticated Users, and Domain Users). The following Access Analyzer jobs identify the Access Information Center exceptions:
 
-  - __.Active Directory Inventory__ > __3-AD\_Exceptions__
-  - __.Entra ID Inventory__ > __2-AAD\_Exceptions__
+  - __.Active Directory Inventory__ > __3-AD_Exceptions__
+  - __.Entra ID Inventory__ > __2-AAD_Exceptions__
   - __FileSystem__ > __0.Collection__ > __3-FSAA Exceptions__
-  - __SharePoint__ > __0.Collection__ > __7-SPAA\_Exceptions__
+  - __SharePoint__ > __0.Collection__ > __7-SPAA_Exceptions__
 - Alert – Indicates the existence of an activity exception that has been identified by Access Analyzer as a security risk on that resource. Alerts include periods of unusually high volumes of activity events and users accessing shares for the first time. The following Access Analyzer job identifies the Access Information Center alerts:
 
   - __FileSystem__ > __0.Collection__ > __3-FSAC Exceptions__

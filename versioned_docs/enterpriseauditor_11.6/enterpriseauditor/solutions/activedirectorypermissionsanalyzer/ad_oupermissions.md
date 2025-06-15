@@ -1,14 +1,14 @@
-# 3.OUs > AD\_OUPermissions Job
+# 3.OUs > AD_OUPermissions Job
 
-The AD\_OUPermissions Job reports on all Active Directory permissions applied to organizational unit objects within the targeted domains.
+The AD_OUPermissions Job reports on all Active Directory permissions applied to organizational unit objects within the targeted domains.
 
 ![3.OUs Job Group in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/ousjobstree.png)
 
-The AD\_OUPermissions Job is located in the 3.OUs Job Group.
+The AD_OUPermissions Job is located in the 3.OUs Job Group.
 
-## Analysis Tasks for the AD\_OUPermissions Job
+## Analysis Tasks for the AD_OUPermissions Job
 
-Navigate to the __Active Directory Permissions Analyzer__ > __3.OUs__ > __AD\_OUPermissions__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Active Directory Permissions Analyzer__ > __3.OUs__ > __AD_OUPermissions__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -16,10 +16,10 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The default analysis tasks are:
 
-- List OU permissions – Creates the SA\_AD\_OUPermissions\_Details table accessible under the job’s Results node
+- List OU permissions – Creates the SA_AD_OUPermissions_Details table accessible under the job’s Results node
 - Summarize OU permissions – Creates an interim processing table in the database for use by downstream analysis and report generation
 
-In addition to the tables and views created by the analysis tasks, the AD\_OUPermissions Job produces the following pre-configured report.
+In addition to the tables and views created by the analysis tasks, the AD_OUPermissions Job produces the following pre-configured report.
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

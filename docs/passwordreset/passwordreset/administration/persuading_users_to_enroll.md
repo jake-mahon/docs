@@ -16,7 +16,7 @@ Follow the steps below to enable the API.
 
 __Step 1 –__ Start the Registry Editor (regedit.exe).
 
-__Step 2 –__ Expand the __HKEY\_LOCAL\_MACHINE__, __SOFTWARE__, __ANIXIS__, __ANIXIS Password Reset__, and __3.0__ registry keys.
+__Step 2 –__ Expand the __HKEY_LOCAL_MACHINE__, __SOFTWARE__, __ANIXIS__, __ANIXIS Password Reset__, and __3.0__ registry keys.
 
 __Step 3 –__ Create a new __DWORD__ value called __WebAPIState__, and set it to 1.
 

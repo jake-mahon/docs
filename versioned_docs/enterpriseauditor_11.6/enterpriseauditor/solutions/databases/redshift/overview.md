@@ -39,13 +39,13 @@ The following job groups comprise the Redshift Job Group:
 
 - [0.Collection Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/redshift/collection/overview.md) — Collects high level summary information from targeted Redshift Servers. Other jobs in the Redshift Solution Set use this information for further analysis and producing respective report. This Job Group is comprised of the following jobs(s)
 
-  - [Redshift\_Configuration Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/redshift/collection/redshift_configuration.md)
-  - [Redshift\_SensitiveDataScan Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/redshift/collection/redshift_sensitivedatascan.md)
-  - [Redshift\_TablePrivileges Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/redshift/collection/redshift_tableprivileges.md)
+  - [Redshift_Configuration Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/redshift/collection/redshift_configuration.md)
+  - [Redshift_SensitiveDataScan Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/redshift/collection/redshift_sensitivedatascan.md)
+  - [Redshift_TablePrivileges Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/redshift/collection/redshift_tableprivileges.md)
 
-- [Configuration > Redshift\_DatabaseSizing Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/redshift/redshift_databasesizing.md) — Provides insight into details about the Redshift environment and potential vulnerabilities relating to instance configuration settings.
+- [Configuration > Redshift_DatabaseSizing Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/redshift/redshift_databasesizing.md) — Provides insight into details about the Redshift environment and potential vulnerabilities relating to instance configuration settings.
 
 - [Sensitive Data Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/redshift/sensitive_data/overview.md) — Provides insight into where sensitive data exists and who has access to it across all the targeted Redshift databases.This Job Group is comprised of the following job(s):
 
-  - [Redshift\_SensitiveData Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/redshift/sensitive_data/redshift_sensitivedata.md)
-  - [Redshift\_SensitiveDataPermissions Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/redshift/sensitive_data/redshift_sensitivedatapermissions.md)
+  - [Redshift_SensitiveData Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/redshift/sensitive_data/redshift_sensitivedata.md)
+  - [Redshift_SensitiveDataPermissions Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/redshift/sensitive_data/redshift_sensitivedatapermissions.md)

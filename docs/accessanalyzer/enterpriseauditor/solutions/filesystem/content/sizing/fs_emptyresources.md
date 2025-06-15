@@ -1,10 +1,10 @@
-# FS\_EmptyResources Job
+# FS_EmptyResources Job
 
-The FS\_EmptyResources job is designed to report on empty resources from targeted file servers.
+The FS_EmptyResources job is designed to report on empty resources from targeted file servers.
 
-## Analysis Tasks for the FS\_EmptyResources Job
+## Analysis Tasks for the FS_EmptyResources Job
 
-View the analysis tasks by navigating to the __FileSystem__ > __4.Content__ > __Sizing__ > __FS\_EmptyResources__ > __Configure__ node and select __Analysis__.
+View the analysis tasks by navigating to the __FileSystem__ > __4.Content__ > __Sizing__ > __FS_EmptyResources__ > __Configure__ node and select __Analysis__.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,12 +12,12 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The following analysis tasks are selected by default:
 
-- 1. Folder Size View – Creates the SA\_ENG\_FSAA\_FolderSizeView view accessible under the job’s Results node
-- 2. Empty Folders – Creates the SA\_FS\_EmptyResources\_EmptyFolders table accessible under the job’s Results node
-- 3. Empty Shares – Creates the SA\_FS\_EmptyResources\_EmptyShares table accessible under the job’s Results node
-- 4. Summarize by Host – Creates the SA\_FS\_EmptyResources\_HostSummary table accessible under the job’s Results node
+- 1. Folder Size View – Creates the SA_ENG_FSAA_FolderSizeView view accessible under the job’s Results node
+- 2. Empty Folders – Creates the SA_FS_EmptyResources_EmptyFolders table accessible under the job’s Results node
+- 3. Empty Shares – Creates the SA_FS_EmptyResources_EmptyShares table accessible under the job’s Results node
+- 4. Summarize by Host – Creates the SA_FS_EmptyResources_HostSummary table accessible under the job’s Results node
 
-In addition to the tables and views created by the analysis tasks, the FS\_EmptyResources job produces the following pre-configured reports:
+In addition to the tables and views created by the analysis tasks, the FS_EmptyResources job produces the following pre-configured reports:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

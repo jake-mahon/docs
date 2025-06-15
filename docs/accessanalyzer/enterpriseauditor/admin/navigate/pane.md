@@ -108,7 +108,7 @@ Menu items include:
 
   __CAUTION:__ Rename Group/Job will rename all tables that match the job’s naming convention within the database.
 - Rename Group/Job – Opens a textbox over the selected job group or job to rename
-- Export – Zips the selected job group or job. Options allow for including the job, the reports, and/or the job log and SA\_Debug log.
+- Export – Zips the selected job group or job. Options allow for including the job, the reports, and/or the job log and SA_Debug log.
   - Save the ZIP file to a desired location, and optionally attach it to an email to [Netwrix Support](https://www.netwrix.com/support.html).
   - Email option requires [Notification](/docs/accessanalyzer/enterpriseauditor/admin/settings/notification.md) settings to be configured.
 - Create Job (Ctrl+Alt+A) – Creates a new job at the same location as the selected job group or job. See the [Create a New Job](/docs/accessanalyzer/enterpriseauditor/admin/jobs/job/create.md) topic for additional information.

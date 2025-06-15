@@ -48,7 +48,7 @@ If I go to "Preferences" here and I go to "Windows Settings" "Shortcuts" here, I
 
 I've got "Item-level targeting," and you can click on "Targeting" here. There's a special query. I'll go ahead and delete that just to get started. There's a special query. There's no way to look at the environment variable. You can see there is a thing called "Environment Variable" here, but there's no way to pull out information from that environment variable. It's sort of a bummer. I'd love to use that, but I can't.
 
-So instead, you're going to use this other guy called "WMI Query." The thing is you're going to actually nuke this "Namespace item." I don't know why. You just do. Nuke that first. Then take what I have in the text file and jam that into  "Query." Let's look at it again: "select \* from win32\_environment where Name='AzureADUserGroups'"—that's the name of the environment variable that's now on the machine—has the thing I'm looking for.
+So instead, you're going to use this other guy called "WMI Query." The thing is you're going to actually nuke this "Namespace item." I don't know why. You just do. Nuke that first. Then take what I have in the text file and jam that into  "Query." Let's look at it again: "select \* from win32_environment where Name='AzureADUserGroups'"—that's the name of the environment variable that's now on the machine—has the thing I'm looking for.
 
 Let's go back to the machine. Let's see. How about "EastSalesUsers"? Let's see if he's a member of "EastSalesUsers." Okay, great. So we'll go back over here and type that in. So not "LIKE %Support%" but let's look for "EastSalesUsers." Okay, so this shortcut for a user is now only going to fire off when the guy is a member of the "EastSalesUsers" user group in Azure AD.
 

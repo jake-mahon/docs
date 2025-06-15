@@ -93,9 +93,9 @@ And set the following values:
 
 | Registry | Values | Type |
 | --- | --- | --- |
-| AppName | REG\_SZ | Icacls.exe |
-| AppPath | REG\_SZ | ```C:\Windows\SysWOW64``` |
-| Policy | REG\_DWord | 3 |
+| AppName | REG_SZ | Icacls.exe |
+| AppPath | REG_SZ | ```C:\Windows\SysWOW64``` |
+| Policy | REG_DWord | 3 |
 
 Like this:
 
@@ -128,9 +128,9 @@ And set the following values:
 
 | Registry Values | Type | Description | Notes |
 | --- | --- | --- | --- |
-| AppName | REG\_SZ | jp2launcher.exe |  |
-| AppPath | REG\_SZ | ```C:\Program Files (x86)\Java\jre1.8.0_111\bin``` | Or whatever the path to the latest version of Java is |
-| Policy | REG\_DWord | 3 |  |
+| AppName | REG_SZ | jp2launcher.exe |  |
+| AppPath | REG_SZ | ```C:\Program Files (x86)\Java\jre1.8.0_111\bin``` | Or whatever the path to the latest version of Java is |
+| Policy | REG_DWord | 3 |  |
 
 Like this:
 

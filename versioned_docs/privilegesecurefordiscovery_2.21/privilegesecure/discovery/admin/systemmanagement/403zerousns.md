@@ -17,7 +17,7 @@ The script detailed in this article can be used to zero the USN for an impacted 
 ### Script Flow
 
 - Script generate a menu list of domains by NETBIOS
-- User selects the number for the domain will zero the __highest\_usn__ and __previous\_usn__ db values
+- User selects the number for the domain will zero the __highest_usn__ and __previous_usn__ db values
 - For selected domain, script will:
 
 - Display pre-zero USN counts

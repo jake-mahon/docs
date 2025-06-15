@@ -12,7 +12,7 @@ By way of example, let's say I was noodling around with this mouse properties Pa
 
 All I have to do inside the design studio is "Enable predefined item-Level Targeting" and then "View and Edit ILT Conditions." The "Targeting Editor" shows up, and you can use any conditions you want. The popular ones might be you may want to say that this Pak only works when the "Operating System" is whichever version you want. That is a perfectly normal thing to want to do here.
 
-You may also want to do things like only make sure that this Pak will operate when a particular "Registry Match" is true to see if a particular key, like in this particular case it's got a fictitious example, "HKEY\_CURRENT\_USER/Control Panel/Mouse/Beep" even exists. If it doesn't exist, then there's no mouse installed. Does that make sense? I know I'm using mouse as a fictitious example. You could use this for any application.
+You may also want to do things like only make sure that this Pak will operate when a particular "Registry Match" is true to see if a particular key, like in this particular case it's got a fictitious example, "HKEY_CURRENT_USER/Control Panel/Mouse/Beep" even exists. If it doesn't exist, then there's no mouse installed. Does that make sense? I know I'm using mouse as a fictitious example. You could use this for any application.
 
 You may also want to do it based on "MSI Query" or "File Match." The idea is that you can see, is a particular product installed? If you were creating a Pak for Dog Food Maker 12, you could ensure that the Pak will only ever, ever deliver settings with these preconfigured item-level targets when the product code of whatever exists.
 
@@ -30,7 +30,7 @@ Let's go ahead and click on this guy, go to "Properties." Again, there is no ite
 
 Now that we've done that, we'll go over to our client machine. I'm logged on as "eastsalesuser1." Let's look at what build number we have. If we look at "ppupdate" just to look at the build, "545" so we should be OK.
 
-We'll run "gpupdate" to get the latest, greatest Group Policy settings that this guy should get now for eastsalesuser1. There we go. Now let's go ahead and run "Mouse" on this machine, and there we go. We can see that it actually did its thing. If we go to "regedit," let's take a look at "HKEY\_CURRENT\_USER/Control Panel/Mouse." Yep, there it is, "768."
+We'll run "gpupdate" to get the latest, greatest Group Policy settings that this guy should get now for eastsalesuser1. There we go. Now let's go ahead and run "Mouse" on this machine, and there we go. We can see that it actually did its thing. If we go to "regedit," let's take a look at "HKEY_CURRENT_USER/Control Panel/Mouse." Yep, there it is, "768."
 
 Now the important part is, let's look at the logs. If we go to "cd AppData" "cd Local" "cd PolicyPak" "dir" and we look at the "ppUser.log," let's go to the end. We can see inside of our logs here. What we're looking for is "Evaluating."
 

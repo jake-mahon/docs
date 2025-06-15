@@ -1,21 +1,21 @@
-# 1-AAD\_Scan Job
+# 1-AAD_Scan Job
 
-The __1-AAD\_Scan__ Job is responsible for collecting data from Microsoft Entra ID. This job requires no additional customizations before being used, but can be scoped to disable collecting sign-in activity with the scan.
+The __1-AAD_Scan__ Job is responsible for collecting data from Microsoft Entra ID. This job requires no additional customizations before being used, but can be scoped to disable collecting sign-in activity with the scan.
 
-## Queries for the 1-AAD\_Scan Job
+## Queries for the 1-AAD_Scan Job
 
-The 1-AAD\_Scan job uses the AzureADInventory Data Collector for the following query:
+The 1-AAD_Scan job uses the AzureADInventory Data Collector for the following query:
 
 ![Query Selection page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/entraidinventory/scanqueryselection.png)
 
 - AAD Inventory – Targets Microsoft Entra tenants to collect inventory data for user group objects
-  - _(Optional)_ This query can be modified to specify scan options and to collect custom attributes. See the [Configure the 1-AAD\_Scan Query](#configure-the-1-aad_scan-query) topic for additional information.
+  - _(Optional)_ This query can be modified to specify scan options and to collect custom attributes. See the [Configure the 1-AAD_Scan Query](#configure-the-1-aad_scan-query) topic for additional information.
 
-### Configure the 1-AAD\_Scan Query
+### Configure the 1-AAD_Scan Query
 
-The 1-AAD\_Scan Job is configured to run with the default settings with the category of Scan Entra ID. Follow the steps to customize configurations.
+The 1-AAD_Scan Job is configured to run with the default settings with the category of Scan Entra ID. Follow the steps to customize configurations.
 
-__Step 1 –__ Navigate to the __.Entra ID Inventory__ > __1-AAD\_Scan__ > __Configure__ node and select __Queries__.
+__Step 1 –__ Navigate to the __.Entra ID Inventory__ > __1-AAD_Scan__ > __Configure__ node and select __Queries__.
 
 ![Query Properties button on Query Selection page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/entraidinventory/scanqueryselectionproperties.png)
 
@@ -46,11 +46,11 @@ __Step 5 –__ On the Custom Attributes page, click __Add__ or __Import__ to add
 
 __Step 6 –__ Navigate to the Summary page. Click __Finish__ to save changes or click __Cancel__ to exit without saving. Then click __OK__ to close the Query Properties window.
 
-The 1-AAD\_Scan Job is now ready to run with the customized settings.
+The 1-AAD_Scan Job is now ready to run with the customized settings.
 
-## Analysis Tasks for the 1-AAD\_Scan Job
+## Analysis Tasks for the 1-AAD_Scan Job
 
-Navigate to the __.Entra ID Inventory__ > __1-AAD\_Scan__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __.Entra ID Inventory__ > __1-AAD_Scan__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -59,13 +59,13 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 The default analysis tasks are:
 
 - Import functions – Imports effective group membership function into the database
-- Bring Users View to Console – Enables the SA\_AzureADInventory\_UsersView to be accessible under the job’s Results node
-- Bring Groups View to Console – Enables the SA\_AzureADInventory\_GroupsView to be accessible under the job’s Results node
-- Bring Group Members View to Console – Enables the SA\_AzureADInventory\_GroupMemberssView to be accessible under the job’s Results node
+- Bring Users View to Console – Enables the SA_AzureADInventory_UsersView to be accessible under the job’s Results node
+- Bring Groups View to Console – Enables the SA_AzureADInventory_GroupsView to be accessible under the job’s Results node
+- Bring Group Members View to Console – Enables the SA_AzureADInventory_GroupMemberssView to be accessible under the job’s Results node
 - Summarize Domains – Creates interim processing tables in the database for use by downstream analysis and report generation
 - Summarize Stats – Creates interim processing tables in the database for use by downstream analysis and report generation
 
-In addition to the tables and views listed in the [Standard Reference Tables & Views for the AzureADInventory Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/azureadinventory/standardtables.md) section, the 1-AAD\_Scan Job produces the following preconfigured report.
+In addition to the tables and views listed in the [Standard Reference Tables & Views for the AzureADInventory Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/azureadinventory/standardtables.md) section, the 1-AAD_Scan Job produces the following preconfigured report.
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

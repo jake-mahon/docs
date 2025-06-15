@@ -16,6 +16,6 @@ Microsoft maintains a single version of the MS Visual C++ Redistributable for VS
 
 To avoid seeing this message on VMs during the CSE installation process you can download and install the required redistributable using the links below before installing the Endpoint Policy Manager Client Side Extensions (CSE).
 
-[https://aka.ms/vs/16/release/vc\_redist.x64.exe](https://aka.ms/vs/16/release/vc_redist.x64.exe)
+[https://aka.ms/vs/16/release/vc_redist.x64.exe](https://aka.ms/vs/16/release/vc_redist.x64.exe)
   
-[https://aka.ms/vs/16/release/vc\_redist.x86.exe](https://aka.ms/vs/16/release/vc_redist.x86.exe)
+[https://aka.ms/vs/16/release/vc_redist.x86.exe](https://aka.ms/vs/16/release/vc_redist.x86.exe)

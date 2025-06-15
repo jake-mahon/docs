@@ -57,7 +57,7 @@ The Directory Manager Configuration Tool enables you to specify the service acco
 
 | Services | Service Account Description |
 | --- | --- |
-| Directory Manager App Pool in IIS | Use a domain account or a Group Managed Service Account (gMSA).  The account must be a member of the Administrators group or both the Backup Operators and IIS\_IUSRS groups.  The account is used to manage the Directory Manager app pool in IIS. Data service, Security service, and the portals run under the app pool.  For a Microsoft Entra ID identity store, you can specify a local account (with local administrator rights) in app pool for a machine that is not joined to any domain. |
+| Directory Manager App Pool in IIS | Use a domain account or a Group Managed Service Account (gMSA).  The account must be a member of the Administrators group or both the Backup Operators and IIS_IUSRS groups.  The account is used to manage the Directory Manager app pool in IIS. Data service, Security service, and the portals run under the app pool.  For a Microsoft Entra ID identity store, you can specify a local account (with local administrator rights) in app pool for a machine that is not joined to any domain. |
 | Windows services | Use a domain account, system user account, or gMSA.  The account must be a member of the Backup Operators group.  The account is used to run the Windows services for Directory Manager, as discussed in the Third-party Services topic. |
 
 ## Elasticsearch Clusters, Nodes, and Directory Manager

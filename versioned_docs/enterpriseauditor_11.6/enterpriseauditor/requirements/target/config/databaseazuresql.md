@@ -6,7 +6,7 @@ ___RECOMMENDED:___ It is recommended to create a new user when leveraging a leas
 
 The following role and permission are required for the Least Privilege Model:
 
-- db\_datareader role
+- db_datareader role
 - View Database Performance State permission
 - Control permission on target database(s)
 
@@ -26,9 +26,9 @@ CREATE USER LPAUser FROM LOGIN LPAUser
 
 Once complete, confirm that the newly created user exists in the instance of the master database and the target database before proceeding to the next step.
 
-__Step 3 –__ Run the following script against the target database to apply the db\_datareader role:
+__Step 3 –__ Run the following script against the target database to apply the db_datareader role:
 
-EXEC sp\_addrolemember N’db\_datareader’, N’LPAUser’
+EXEC sp_addrolemember N’db_datareader’, N’LPAUser’
 
 __Step 4 –__ Apply the View Database State Permission against the target database with the following script:
 

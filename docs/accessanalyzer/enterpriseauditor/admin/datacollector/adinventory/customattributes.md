@@ -2,7 +2,7 @@
 
 The Custom Attributes page provides ability to add Active Directory attributes that are unique to the environment or not collected by default to be gathered. It is a wizard page for the category of Scan Active Directory.
 
-The [Standard Reference Tables & Views for the ADInventory Data Collector](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/standardtables.md) topic provides information on what is collected by default. Custom attributes added on this page are stored in the __SA\_ADInventory\_ExtendedAttributes__ table.
+The [Standard Reference Tables & Views for the ADInventory Data Collector](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/standardtables.md) topic provides information on what is collected by default. Custom attributes added on this page are stored in the __SA_ADInventory_ExtendedAttributes__ table.
 
 ![Active Directory Inventory DC Wizard Custom Attributes page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/customattributes.webp)
 

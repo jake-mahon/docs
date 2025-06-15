@@ -12,7 +12,7 @@ __Step 1 –__ Change the timezone to UTC like what is shown here:
 
 ![20_1_sdgdfhfgnfjfghjfghjfghjfghj](/img/product_docs/policypak/policypak/troubleshooting/error/20_1_sdgdfhfgnfjfghjfghjfghjfghj.webp)
 
-__Step 2 –__ Verify the time on the computer is now the same as what is seen [http://www.worldtimeserver.com/current\_time\_in\_UTC.aspx](http://www.worldtimeserver.com/current_time_in_UTC.aspx)
+__Step 2 –__ Verify the time on the computer is now the same as what is seen [http://www.worldtimeserver.com/current_time_in_UTC.aspx](http://www.worldtimeserver.com/current_time_in_UTC.aspx)
 
 __Step 3 –__ If the computer's time is "off", change it so it matches UTC time.
 

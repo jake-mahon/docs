@@ -1,10 +1,10 @@
-# AWS\_SensitivePolicies Job
+# AWS_SensitivePolicies Job
 
-The AWS\_SensitivePolicies job provides details on users, groups, and roles as well as the policies granting them sensitive permissions.
+The AWS_SensitivePolicies job provides details on users, groups, and roles as well as the policies granting them sensitive permissions.
 
-## Analysis Tasks for the AWS\_SensitivePolicies Job
+## Analysis Tasks for the AWS_SensitivePolicies Job
 
-Navigate to the __AWS__ > __5.Policies__ > __AWS\_SensitivePolicies__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __AWS__ > __5.Policies__ > __AWS_SensitivePolicies__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,14 +12,14 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The following analysis tasks are selected by default:
 
-- Sensitive Managed Policy Details – Provides details on AWS Sensitive Managed Policies. Creates the AWS\_SensitiveManagedPolicies\_Details table accessible under the job’s Results node.
-- Sensitive Inline Policy Details – Provides details on AWS Sensitive Inline Policies. Creates the AWS\_SensitiveInlinePolicies\_Details table accessible under the job’s Results node.
-- Sensitive Managed Policy Summary – Summarizes AWS Sensitive Managed Policies by organization. Creates the AWS\_SensitiveManagedPolicies\_Summary table accessible under the job’s Results node.
-- Sensitive Inline Policy Summary – Summarizes AWS Sensitive Inlin Policies by organization. Creates the AWS\_SensitiveInlinePolicies\_Summary table accessible under the job’s Results node.
+- Sensitive Managed Policy Details – Provides details on AWS Sensitive Managed Policies. Creates the AWS_SensitiveManagedPolicies_Details table accessible under the job’s Results node.
+- Sensitive Inline Policy Details – Provides details on AWS Sensitive Inline Policies. Creates the AWS_SensitiveInlinePolicies_Details table accessible under the job’s Results node.
+- Sensitive Managed Policy Summary – Summarizes AWS Sensitive Managed Policies by organization. Creates the AWS_SensitiveManagedPolicies_Summary table accessible under the job’s Results node.
+- Sensitive Inline Policy Summary – Summarizes AWS Sensitive Inlin Policies by organization. Creates the AWS_SensitiveInlinePolicies_Summary table accessible under the job’s Results node.
 
-## Reports for the AWS\_SensitivePolicies Job
+## Reports for the AWS_SensitivePolicies Job
 
-In addition to the tables and views created by the analysis task, the AWS\_SensitivePolicies job produces the following preconfigured report:
+In addition to the tables and views created by the analysis task, the AWS_SensitivePolicies job produces the following preconfigured report:
 
 | Report | Description | Default Tags | Report Element |
 | --- | --- | --- | --- |

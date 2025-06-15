@@ -1,8 +1,8 @@
-# 4-SQL\_ServerLogons Job
+# 4-SQL_ServerLogons Job
 
-The 4-SQL\_ServerLogons Job captures SQL server logon activity, which includes successful or failed logons.
+The 4-SQL_ServerLogons Job captures SQL server logon activity, which includes successful or failed logons.
 
-## Queries for the 4-SQL\_ServerLogons Job
+## Queries for the 4-SQL_ServerLogons Job
 
 The AppnLogSQL Query uses the SMARTLog Data Collector and has been preconfigured to process the Windows Event Log Type.
 

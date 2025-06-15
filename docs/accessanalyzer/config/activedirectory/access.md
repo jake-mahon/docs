@@ -84,18 +84,18 @@ For Registry Data Collector
 
 A least privilege model can be configured based on your auditing needs and the data collection jobs you will be using. The following jobs and their corresponding data collectors can be run with a least privilege permissions model.
 
-1-AD\_Scan Job Permissions
+1-AD_Scan Job Permissions
 
-The ADInventory Data Collector in the .Active Directory Inventory > 1-AD\_Scan Job has the following minimum requirements, which must be configured at the Domain level in Active Directory:
+The ADInventory Data Collector in the .Active Directory Inventory > 1-AD_Scan Job has the following minimum requirements, which must be configured at the Domain level in Active Directory:
 
 - Read access to directory tree
 - List Contents & Read Property on the Deleted Objects Container
 
   __NOTE:__ See the Microsoft [Searching for Deleted Objects](https://technet.microsoft.com/en-us/library/cc978013.aspx) article and the Microsoft [Dsacls](https://technet.microsoft.com/en-us/library/cc771151(v=ws.11).aspx) article for additional information.
 
-AD\_WeakPasswords Job Permissions
+AD_WeakPasswords Job Permissions
 
-The PasswordSecurity Data Collector in the 2.Users > AD\_WeakPasswords Job has the following minimum requirements:
+The PasswordSecurity Data Collector in the 2.Users > AD_WeakPasswords Job has the following minimum requirements:
 
 - At the domain level:
 
@@ -105,27 +105,27 @@ The PasswordSecurity Data Collector in the 2.Users > AD\_WeakPasswords Job has t
   - Replicating Directory Changes in a Filtered Set
   - Replication Synchronization
 
-AD\_CPassword Job Permissions
+AD_CPassword Job Permissions
 
-While the PowerShell Data Collector typically requires Domain Administrator permissions when targeting a domain controller, that level of access is not required to run the 4.Group Policy > AD\_CPasswords job. The minimum requirements for running this job are:
+While the PowerShell Data Collector typically requires Domain Administrator permissions when targeting a domain controller, that level of access is not required to run the 4.Group Policy > AD_CPasswords job. The minimum requirements for running this job are:
 
 - Read access to SYSVOL on the targeted Domain Controller(s) and all of its children
 
-AD\_GroupPolicy Job Permissions
+AD_GroupPolicy Job Permissions
 
-While the GroupPolicy Data Collector typically requires Domain Administrator permissions when targeting a domain controller, that level of access is not required to run the 4.Group Policy > AD\_GroupPolicy Job. The minimum requirements for running this job are:
+While the GroupPolicy Data Collector typically requires Domain Administrator permissions when targeting a domain controller, that level of access is not required to run the 4.Group Policy > AD_GroupPolicy Job. The minimum requirements for running this job are:
 
 - Requires Read permissions on Group Policy Objects
 
-AD\_PasswordPolicies Job Permissions
+AD_PasswordPolicies Job Permissions
 
-While the LDAP Data Collector typically requires Domain Administrator permissions when targeting a domain controller, that level of access is not required to run the 4.Group Policy > AD\_PasswordPolicies Job. The minimum requirements for running this job are:
+While the LDAP Data Collector typically requires Domain Administrator permissions when targeting a domain controller, that level of access is not required to run the 4.Group Policy > AD_PasswordPolicies Job. The minimum requirements for running this job are:
 
 - Requires Read permissions on the Password Settings Container
 
-AD\_DomainControllers Job Permissions
+AD_DomainControllers Job Permissions
 
-While the LDAP Data Collector and Active Directory Data Collector typically requires Domain Administrator permissions when targeting a domain controller, that level of access is not required to run the 5.Domains > 0.Collection > AD\_DomainControllers Job. The minimum requirements for running this job are:
+While the LDAP Data Collector and Active Directory Data Collector typically requires Domain Administrator permissions when targeting a domain controller, that level of access is not required to run the 5.Domains > 0.Collection > AD_DomainControllers Job. The minimum requirements for running this job are:
 
 - Read access to CN=Servers,%SITEDN% and its children
 - Read access to: %PARTITIONDNS% and its children
@@ -134,22 +134,22 @@ While the LDAP Data Collector and Active Directory Data Collector typically requ
 
 See the [Variable Definitions](#variable-definitions) for variable definitions.
 
-AD\_DSRM Job Permissions
+AD_DSRM Job Permissions
 
-While the Registry Data Collector typically requires Domain Administrator permissions when targeting a domain controller, that level of access is not required to run the 5.Domains > 0.Collection > AD\_DSRM Job. The minimum requirements for running this job are:
+While the Registry Data Collector typically requires Domain Administrator permissions when targeting a domain controller, that level of access is not required to run the 5.Domains > 0.Collection > AD_DSRM Job. The minimum requirements for running this job are:
 
 - Requires read access to the following Registry key and its children:  
-  HKEY\_LOCAL\_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa
+  HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa
 
-AD\_TimeSync Job Permissions
+AD_TimeSync Job Permissions
 
-While the Registry Data Collector typically requires Domain Administrator permissions when targeting a domain controller, that level of access is not required to run the 5.Domains > 0.Collection > AD\_TimeSync Job. The minimum requirements for running this job are:
+While the Registry Data Collector typically requires Domain Administrator permissions when targeting a domain controller, that level of access is not required to run the 5.Domains > 0.Collection > AD_TimeSync Job. The minimum requirements for running this job are:
 
-- Requires Read access to the following Registry keys and its children: HKEY\_LOCAL\_MACHINE\SYSTEM\CurrentControlSet\Services\W32Time
+- Requires Read access to the following Registry keys and its children: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\W32Time
 
-AD\_DomainInfo Job Permissions
+AD_DomainInfo Job Permissions
 
-While the LDAP Data Collector and Active Directory Data Collector typically requires Domain Administrator permissions when targeting a domain controller, that level of access is not required to run the 5.Domains > AD\_DomainInfo Job. The minimum requirements for running this job, which must be configured at the Domain level in Active Directory, are:
+While the LDAP Data Collector and Active Directory Data Collector typically requires Domain Administrator permissions when targeting a domain controller, that level of access is not required to run the 5.Domains > AD_DomainInfo Job. The minimum requirements for running this job, which must be configured at the Domain level in Active Directory, are:
 
 - Read access to: %DOMAINDN% and its children
 - Read access to: CN=System,%DOMAINDN% and its children
@@ -158,9 +158,9 @@ While the LDAP Data Collector and Active Directory Data Collector typically requ
 
 See the [Variable Definitions](#variable-definitions) for variable definitions.
 
-AD\_ActivityCollection Job Permission
+AD_ActivityCollection Job Permission
 
-The ADActivity Data Collector in the 6.Activity > 0.Collection > AD\_ActivityCollection Job has the following minimum requirements:
+The ADActivity Data Collector in the 6.Activity > 0.Collection > AD_ActivityCollection Job has the following minimum requirements:
 
 - Netwrix Activity Monitor API Access activity data
 - Netwrix Activity Monitor API Read

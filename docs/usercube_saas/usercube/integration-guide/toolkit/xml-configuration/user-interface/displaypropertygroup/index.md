@@ -24,5 +24,5 @@ Any property without a value is not displayed.
 
 | Property | Details |
 | --- | --- |
-| DisplayName\_L1   optional | __Type__    String   __Description__   Display name of the fieldset in language 1 (up to 16). |
+| DisplayName_L1   optional | __Type__    String   __Description__   Display name of the fieldset in language 1 (up to 16). |
 | Identifier   required | __Type__    String   __Description__   Unique identifier of the property group. |

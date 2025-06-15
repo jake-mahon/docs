@@ -54,7 +54,7 @@ See the following Knowledge Base articles for Application Manager.
 - [Firefox: What versions of the Endpoint Policy Manager CSE support managing certificates in what versions of Firefox?](/docs/policypak/policypak/requirements/support/applicationsettings/firefox/version.md)
 - [Firefox: Can I enable / disable add-ons for Firefox?](/docs/policypak/policypak/applicationsettings/preconfigured/firefox/addons.md)
 - [Firefox: Can I deliver, manage and/or revoke certificates directly to Firefox?](/docs/policypak/policypak/applicationsettings/preconfigured/firefox/certificate/certificates.md)
-- [Can I use Security.enterprise\_roots.enabled as an alternate method for FF + Certificates?](/docs/policypak/policypak/applicationsettings/preconfigured/firefox/securityenterpriseroots.md)
+- [Can I use Security.enterprise_roots.enabled as an alternate method for FF + Certificates?](/docs/policypak/policypak/applicationsettings/preconfigured/firefox/securityenterpriseroots.md)
 - [Firefox (and Java and Thunderbird): Why can't I seem to find (or perform) UI lockdown for Firefox, Java or Thunderbird ?](/docs/policypak/policypak/applicationsettings/preconfigured/firefox/javathunderbird.md)
 - [Firefox: Is Endpoint Policy Manager compatible with the Frontmotion packaged MSI version of Firefox?](/docs/policypak/policypak/requirements/support/applicationsettings/firefox/frontmotion.md)
 - [Firefox: Is Endpoint Policy Manager compatible with Firefox when installed to non-standard (and portable) locations?](/docs/policypak/policypak/requirements/support/applicationsettings/firefox/nonstandardlocation.md)

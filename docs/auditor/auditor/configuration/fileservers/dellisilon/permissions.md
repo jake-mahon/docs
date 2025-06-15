@@ -21,14 +21,14 @@ __Step 2 –__ The account requires Read permissions on the audited shared folde
 
 __Step 3 –__ The account requires Read permissions on the folder where audit events are logged (_/ifs/.ifsvar/audit/_)
 
-__Step 4 –__ To connect to Dell Isilon/PowerScale storage cluster, an account must be assigned a custom role (e.g., _netwrix\_audit_) that has the following privileges:
+__Step 4 –__ To connect to Dell Isilon/PowerScale storage cluster, an account must be assigned a custom role (e.g., _netwrix_audit_) that has the following privileges:
 
 |  |  |
 | --- | --- |
-| Platform API (ISI\_PRIV\_LOGIN\_PAPI) | readonly |
-| Auth (ISI\_PRIV\_AUTH) | readonly |
-| Audit (ISI\_PRIV\_AUDIT) | readonly |
-| Backup (ISI\_PRIV\_IFS\_BACKUP) | readonly |
+| Platform API (ISI_PRIV_LOGIN_PAPI) | readonly |
+| Auth (ISI_PRIV_AUTH) | readonly |
+| Audit (ISI_PRIV_AUDIT) | readonly |
+| Backup (ISI_PRIV_IFS_BACKUP) | readonly |
 
 __NOTE:__ If you plan to connect to a cluster that works in the compliance mode, the account must meet additional requirements.
 

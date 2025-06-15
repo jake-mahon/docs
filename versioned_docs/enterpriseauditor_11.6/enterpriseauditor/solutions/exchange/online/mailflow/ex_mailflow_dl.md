@@ -1,10 +1,10 @@
-# EX\_Mailflow\_DL Job
+# EX_Mailflow_DL Job
 
-The EX\_Mailflow\_DL job provides information around distribution list usage.
+The EX_Mailflow_DL job provides information around distribution list usage.
 
-## Analysis Tasks for the EX\_Mailflow\_DL Job
+## Analysis Tasks for the EX_Mailflow_DL Job
 
-View the analysis tasks by navigating to the __Exchange__ > __8. Exchange Online__ > __EX\_Mailflow\_DL__ > __Configure__ node and select __Analysis__.
+View the analysis tasks by navigating to the __Exchange__ > __8. Exchange Online__ > __EX_Mailflow_DL__ > __Configure__ node and select __Analysis__.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,10 +12,10 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The following analysis tasks are selected by default:
 
-- Azure Groups Direct Member Count – Creates the EX\_ MailFlow\_DL\_AzureMemberCount table, accessible under the job’s Results node. Provides a direct member count for distribution lists from Azure groups.
-- DLs by Count – Creates the EX\_ Mailflow\_DLsByCount table, accessible under the job’s Results node. Lists of all distribution lists and how much mail-flow they have received.
+- Azure Groups Direct Member Count – Creates the EX_ MailFlow_DL_AzureMemberCount table, accessible under the job’s Results node. Provides a direct member count for distribution lists from Azure groups.
+- DLs by Count – Creates the EX_ Mailflow_DLsByCount table, accessible under the job’s Results node. Lists of all distribution lists and how much mail-flow they have received.
 
-In addition to the tables and views created by the analysis tasks, the EX\_Mailflow\_DL Jjb produces the following pre-configured report:
+In addition to the tables and views created by the analysis tasks, the EX_Mailflow_DL Jjb produces the following pre-configured report:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

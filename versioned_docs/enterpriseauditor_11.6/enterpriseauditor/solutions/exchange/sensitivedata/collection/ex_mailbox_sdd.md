@@ -1,6 +1,6 @@
-# EX\_Mailbox\_SDD Job
+# EX_Mailbox_SDD Job
 
-The EX\_Mailbox\_SDD job locates sensitive data found in mailboxes in the Exchange environment.
+The EX_Mailbox_SDD job locates sensitive data found in mailboxes in the Exchange environment.
 
 Special Dependency
 
@@ -10,13 +10,13 @@ Special Dependency
 
   __NOTE:__ Though the job is visible within the console, it requires an additional installer package before data collection occurs.
 
-## Queries for the EX\_Mailbox\_SDD Job
+## Queries for the EX_Mailbox_SDD Job
 
-The EX\_Mailbox\_SDD job uses the EWSMailbox Data Collector.
+The EX_Mailbox_SDD job uses the EWSMailbox Data Collector.
 
 ![Queries for the EX_Mailbox_SDD Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/sensitivedata/collection/mailboxsddquery.png)
 
-The following query is included in the EX\_Mailbox\_SDD job:
+The following query is included in the EX_Mailbox_SDD job:
 
 - Exchange Sensitive Data Discovery – Collects potentially-sensitive data from mailboxes
 
@@ -28,15 +28,15 @@ The following query is included in the EX\_Mailbox\_SDD job:
     - Passwords
     - Tax Forms
     - US SSN
-- See the [Configure the EWSMailbox Data Collector for the EX\_Mailbox\_SDD Job](#configure-the-ewsmailbox-data-collector-for-the-ex_mailbox_sdd-job) topic for additional information
+- See the [Configure the EWSMailbox Data Collector for the EX_Mailbox_SDD Job](#configure-the-ewsmailbox-data-collector-for-the-ex_mailbox_sdd-job) topic for additional information
 
-### Configure the EWSMailbox Data Collector for the EX\_Mailbox\_SDD Job
+### Configure the EWSMailbox Data Collector for the EX_Mailbox_SDD Job
 
 The Exchange Sensitive Data Discovery query has been preconfigured to run with the EWSMailbox Data Collector to scan for sensitive data.
 
 Follow the steps to configure the scope of the EWSMailbox Data Collector:
 
-__Step 1 –__ Navigate to the __Exchange__ > __7. Sensitive Data__ > __0. Collection__ > __EX\_Mailbox\_SDD__ > __Configure__ node and select __Queries__.
+__Step 1 –__ Navigate to the __Exchange__ > __7. Sensitive Data__ > __0. Collection__ > __EX_Mailbox_SDD__ > __Configure__ node and select __Queries__.
 
 __Step 2 –__ In the Query Selection view, select the __Exchange Sensitive Data Discovery__ query and click__Query Properties__. The Query Properties window opens.
 
@@ -81,9 +81,9 @@ __Step 10 –__ Navigate to the Summary page, click __Finish__ to save any setti
 
 The job now applies the modification to future job executions.
 
-## Analysis Tasks for the EX\_Mailbox\_SDD Job
+## Analysis Tasks for the EX_Mailbox_SDD Job
 
-View the analysis task by navigating to the __Exchange__ > __7.Sensitive Data__ > __EX\_Mailbox\_SDD__ > __Configure__ node and select __Analysis__.
+View the analysis task by navigating to the __Exchange__ > __7.Sensitive Data__ > __EX_Mailbox_SDD__ > __Configure__ node and select __Analysis__.
 
 __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis task is preconfigured for this job.
 

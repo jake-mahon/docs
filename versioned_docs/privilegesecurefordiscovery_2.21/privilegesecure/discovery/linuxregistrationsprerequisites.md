@@ -55,7 +55,7 @@ Below are some specific distributions and pre-check items have be confirmed so f
 | Debian | - v7+ - Default Python installed (2.7+ or 3.5+) |
 | RHEL   CentOS | - SELinux disabled - v7 and below: Default Python installed (2.7+ or 3.5+) - v8+: Install Python 2.7+ or 3.5+ Installed     - [https://www.python.org/download/releases/2.7/](https://www.python.org/download/releases/2.7/)     - [https://www.python.org/downloads/release/python-368/](https://www.python.org/downloads/release/python-368/) |
 | SUSE | - Default Python installed (2.7+ or 3.5+) - sudo commands should request registration user password, not root.  Or provide registration account no password sudo for all commands. - /tmp directory exists with open permissions |
-| Ubuntu | - Default Python installed (2.7+ or 3.5+) - SSH installed on the endpoint - For Ubuntu 22.04+, add the following line:```   PubkeyAcceptedKeyTypes +ssh-rsa   ```   - To the bottom of:  /etc/ssh/sshd\_config   - Restart sshd: ```sudo systemctl restart sshd``` |
+| Ubuntu | - Default Python installed (2.7+ or 3.5+) - SSH installed on the endpoint - For Ubuntu 22.04+, add the following line:```   PubkeyAcceptedKeyTypes +ssh-rsa   ```   - To the bottom of:  /etc/ssh/sshd_config   - Restart sshd: ```sudo systemctl restart sshd``` |
 
 Guide on registering linux system with Postman (using API)
 

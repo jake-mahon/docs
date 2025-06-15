@@ -18,7 +18,7 @@ What do you want to do?
 3. Click __Schedules__ under __Settings__ in the left pane.
 4. On the __Schedules__ page, click __Add Schedule__ and select __User Life Cycle Job__. The __Create Schedule__ page is displayed.
 5. In the __Schedule Name__ box, enter a name for the schedule.
-6. The __Name Preview__ box displays the schedule name prefixed with _UserLifeCycle\__; the schedule is displayed with this name in email notifications.
+6. The __Name Preview__ box displays the schedule name prefixed with _UserLifeCycle__; the schedule is displayed with this name in email notifications.
 7. Select a GroupID portal URL in the __Portal URL__ drop-down list to include it in notifications generated for the schedule. Users are redirected to this portal to perform any necessary action.
 8. In the __Scheduler Service Name__ drop-down list, select a Scheduler service that would be responsible for triggering this schedule. The number of services displayed in the list depend on the number of Elasticsearch clusters in the environment, as each cluster has its own Scheduler service. See the [Scheduler Service](/versioned_docs/groupid_11.0/groupid/admincenter/service/schedulerservice.md) topic.
 9. Click __Add Triggers__ in the __Triggers__ area to specify a triggering criterion for the schedule, that, when met, starts the execution of the schedule. Follow step 11 in the [Create a Group Usage Service Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/groupusageservice.md#create-a-group-usage-service-schedule) topic to add triggers.

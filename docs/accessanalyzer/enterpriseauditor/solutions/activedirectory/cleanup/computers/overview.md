@@ -6,16 +6,16 @@ The 3.Computers Job Group identifies stale computer accounts, providing a workfl
 
 The jobs in the 3.Computers Job Group are:
 
-- [AD\_DeprovisionComputers Job](/docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/cleanup/computers/ad_deprovisioncomputers.md) – Provides a simple, automated workflow to deprovision stale and unused user accounts
-- [AD\_DeprovisionComputers\_Status Job](/docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/cleanup/computers/ad_deprovisioncomputers_status.md) – Tracks all actions taken by the included deprovisioning workflow
+- [AD_DeprovisionComputers Job](/docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/cleanup/computers/ad_deprovisioncomputers.md) – Provides a simple, automated workflow to deprovision stale and unused user accounts
+- [AD_DeprovisionComputers_Status Job](/docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/cleanup/computers/ad_deprovisioncomputers_status.md) – Tracks all actions taken by the included deprovisioning workflow
 
 Workflow
 
 __Step 1 –__ Ensure the following prerequisites are met:
 
 - The .Active Directory Inventory Job Group needs to be successfully run
-- For the AD\_DeprovisionComputers Job, the target OU needs to be manually set in the Move Computers Action Task prior to executing the actions. See the [Action Tasks for the AD\_DeprovisionComputers Job](/docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/cleanup/computers/ad_deprovisioncomputers.md#action-tasks-for-the-ad_deprovisioncomputers-job) topic for additional information.
-- The AD\_DeprovisionComputers Job needs to be run prior to running the AD\_DeprovisionComputers\_Status Job
+- For the AD_DeprovisionComputers Job, the target OU needs to be manually set in the Move Computers Action Task prior to executing the actions. See the [Action Tasks for the AD_DeprovisionComputers Job](/docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/cleanup/computers/ad_deprovisioncomputers.md#action-tasks-for-the-ad_deprovisioncomputers-job) topic for additional information.
+- The AD_DeprovisionComputers Job needs to be run prior to running the AD_DeprovisionComputers_Status Job
 
 __Step 2 –__ Schedule the 3.Computers Job Group to run as desired after the prerequisites have been satisfied.
 

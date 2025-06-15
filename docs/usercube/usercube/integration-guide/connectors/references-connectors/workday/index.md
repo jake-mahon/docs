@@ -49,7 +49,7 @@ The identifier of the connection and thus the name of the subsection must:
   
 - not contain ```<```, ```>```, ```:```, ```"```, ```/```, ```\```, ```|```, ```?```, ```*``` and ```_```.
 
-> The following example connects Identity Manager to Workday and exports ```Worker_ID``` and ```User_ID``` from the entity Workers returned in [Get\_Workers\_Response](https://community.workday.com/sites/default/files/file-hosting/productionapi/Human_Resources/v34.2/samples/Get_Workers_Response.xml):
+> The following example connects Identity Manager to Workday and exports ```Worker_ID``` and ```User_ID``` from the entity Workers returned in [Get_Workers_Response](https://community.workday.com/sites/default/files/file-hosting/productionapi/Human_Resources/v34.2/samples/Get_Workers_Response.xml):
 >
 > ```
 > appsettings.agent.json

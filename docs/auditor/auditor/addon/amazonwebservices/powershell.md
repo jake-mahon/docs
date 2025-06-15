@@ -12,7 +12,7 @@ Windows PowerShell
 
 Copyright (C) 2014 Microsoft Corporation. All rights reserved.
 
-PS C:\Users\AddOnUser> C:\Add-ons\Netwrix\_Auditor\_Add-on\_for\_Amazon\_Web\_Services.ps1 - NetwrixAuditorHost 172.28.6.15
+PS C:\Users\AddOnUser> C:\Add-ons\Netwrix_Auditor_Add-on_for_Amazon_Web_Services.ps1 - NetwrixAuditorHost 172.28.6.15
 
 __NOTE:__ If the script path contains spaces (e.g., ```C:\Netwrix Add-ons\```), embrace it in double quotes and insert the ampersand (&) symbol in front (e.g., & "```C:\Netwrix Add-ons\```").
 

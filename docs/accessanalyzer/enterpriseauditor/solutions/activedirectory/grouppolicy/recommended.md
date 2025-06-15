@@ -8,9 +8,9 @@ This job group does not have dependencies.
 
 Targeted Hosts
 
-The AD\_GroupPolicy Job has been configured to inherit its host from the __4.Group Policy__ > __Settings__ > __Host List Assignment__ node. It is set to target the __Default domain controller__ host list, which is the domain in which the Access Analyzer Console server resides.
+The AD_GroupPolicy Job has been configured to inherit its host from the __4.Group Policy__ > __Settings__ > __Host List Assignment__ node. It is set to target the __Default domain controller__ host list, which is the domain in which the Access Analyzer Console server resides.
 
-The host list assignment for the __AD\_CPassword__ and __AD\_PasswordPolicies__ jobs have been configured at the job’s > __Configure__ > __Hosts__ node. They are set to run against the __ONE DOMAIN CONTROLLER PER DOMAIN__ host list.
+The host list assignment for the __AD_CPassword__ and __AD_PasswordPolicies__ jobs have been configured at the job’s > __Configure__ > __Hosts__ node. They are set to run against the __ONE DOMAIN CONTROLLER PER DOMAIN__ host list.
 
 The __Default domain controller__ and __ONE DOMAIN CONTROLLER PER DOMAIN__ host lists are dynamic host lists based on the host inventory value in the __isDomainController__ field in the Host Master Table.
 
@@ -24,7 +24,7 @@ This job group can be scheduled to run as desired.
 
 Run at the Job Group Level
 
-___RECOMMENDED:___ Run the jobs in the 4.Group Policy Job Group together and in order by running the entire job group, instead of the individual jobs. However, these jobs can be run independently, with the exception of the AD\_OverlappingGPOs Job, which is dependent upon the AD\_GroupPolicy Job for data collection.
+___RECOMMENDED:___ Run the jobs in the 4.Group Policy Job Group together and in order by running the entire job group, instead of the individual jobs. However, these jobs can be run independently, with the exception of the AD_OverlappingGPOs Job, which is dependent upon the AD_GroupPolicy Job for data collection.
 
 Workflow
 

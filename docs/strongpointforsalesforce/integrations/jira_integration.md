@@ -61,7 +61,7 @@ Configure the connected app:
 4. Set the __Callback URL__ to __https://spjira.my.salesforce-sites.com/SpHandleJiraAuth__
 5. These __Oauth Scopes__ must be selected:  
    __Full access (full)__  
-   __Perform requests at any time (refresh\_token, offline\_access)__
+   __Perform requests at any time (refresh_token, offline_access)__
 6. Click __Save__.
 
    Your connected app requires 2-10 minutes after you save before it is available.

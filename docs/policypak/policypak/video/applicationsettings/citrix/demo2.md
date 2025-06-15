@@ -292,7 +292,7 @@ The next rule I'm going to make, I'll "Add/New Policy" here. I'll call this "rul
 
 That's it. We've made our two rules. I'm ready to go. Let me close this out for a second here. I'll then run GP Update ("gpupdate /force") to get the latest settings here. Now instead of having to spin up a whole new server just to tell people to use their timecard or a specialty app, you can get out of that business. You're allowed to install multiple versions of Java on the endpoint for this reason, and it works perfectly.
 
-You have the old version of Java for compatibility, and you have the new version for security because we're making maps. If we go to "java.com" here, "Do I have Java?" before it told us we had the latest version of Java. But now if all goes well, what do we see? "Version 7 Update 51." We married it to the right version for the application. This one threw an error before. Now what do we get? We get hopefully no error, and we get "Java Version 1.8.0\_25" just like that.
+You have the old version of Java for compatibility, and you have the new version for security because we're making maps. If we go to "java.com" here, "Do I have Java?" before it told us we had the latest version of Java. But now if all goes well, what do we see? "Version 7 Update 51." We married it to the right version for the application. This one threw an error before. Now what do we get? We get hopefully no error, and we get "Java Version 1.8.0_25" just like that.
 
 So on the desktop or on Citrix, this is a huge benefit for you, guaranteeing and marrying a particular website to a particular version of Java. How many times have you seen this?
 

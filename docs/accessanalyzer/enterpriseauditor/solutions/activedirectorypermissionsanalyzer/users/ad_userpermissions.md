@@ -1,10 +1,10 @@
-# AD\_UserPermissions Job
+# AD_UserPermissions Job
 
-The AD\_UserPermissions job is comprised of analysis tasks and reports which use the data collected by the 0.Collection job group to provide information on permissions and ownership applied to user objects in Active Directory.
+The AD_UserPermissions job is comprised of analysis tasks and reports which use the data collected by the 0.Collection job group to provide information on permissions and ownership applied to user objects in Active Directory.
 
-## Analysis Tasks for the AD\_UserPermissions Job
+## Analysis Tasks for the AD_UserPermissions Job
 
-Navigate to the __Active Directory Permissions Analyzer__ > __1.Users__ > __AD\_UserPermissions__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Active Directory Permissions Analyzer__ > __1.Users__ > __AD_UserPermissions__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,12 +12,12 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The default analysis tasks are:
 
-- List user object permissions – Creates the SA\_AD\_UserPermissions\_Details table accessible under the job’s Results node
+- List user object permissions – Creates the SA_AD_UserPermissions_Details table accessible under the job’s Results node
 - Summarize user object permissions – Creates an interim processing table in the database for use by downstream analysis and report generation
-- User Ownership – Lists the owners of each user object and determines if they are a non-standard owner. Principals that are not administrators are considered non-standard owners of user objects. Creates the SA\_AD\_UserOwnership\_Details table accessible under the job’s Results node.
+- User Ownership – Lists the owners of each user object and determines if they are a non-standard owner. Principals that are not administrators are considered non-standard owners of user objects. Creates the SA_AD_UserOwnership_Details table accessible under the job’s Results node.
 - User Ownership Summary – Summarizes the owner type by domain
 
-In addition to the tables and views created by the analysis tasks, the AD\_UserPermissions job produces the following pre-configured reports.
+In addition to the tables and views created by the analysis tasks, the AD_UserPermissions job produces the following pre-configured reports.
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

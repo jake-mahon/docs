@@ -1,10 +1,10 @@
-# AD\_NestedGroups Job
+# AD_NestedGroups Job
 
-The AD\_NestedGroups Job identifies nested groups within Active Directory and provides details such as the levels of nesting. While Active Directory provides the ability to nest certain types of groups within other groups, Microsoft recommends nesting does not go beyond two levels in order to avoid difficulties in understanding effective membership and access.
+The AD_NestedGroups Job identifies nested groups within Active Directory and provides details such as the levels of nesting. While Active Directory provides the ability to nest certain types of groups within other groups, Microsoft recommends nesting does not go beyond two levels in order to avoid difficulties in understanding effective membership and access.
 
-## Analysis Tasks for the AD\_NestedGroups Job
+## Analysis Tasks for the AD_NestedGroups Job
 
-Navigate to the __Active Directory__ > __1.Groups__ > __AD\_NestedGroups__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Active Directory__ > __1.Groups__ > __AD_NestedGroups__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,10 +12,10 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The default analysis tasks are:
 
-- Details – Creates the SA\_AD\_NestedGroups\_Details table accessible under the job’s Results node
-- Summarize by Domain – Creates the SA\_AD\_NestedGroups\_DomainSummary table accessible under the job’s Results node
+- Details – Creates the SA_AD_NestedGroups_Details table accessible under the job’s Results node
+- Summarize by Domain – Creates the SA_AD_NestedGroups_DomainSummary table accessible under the job’s Results node
 
-In addition to the tables and views created by the analysis tasks, the AD\_NestedGroups Job produces the following pre-configured report:
+In addition to the tables and views created by the analysis tasks, the AD_NestedGroups Job produces the following pre-configured report:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

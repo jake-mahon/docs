@@ -40,14 +40,14 @@ The jobs in the .Active Directory Inventory Job Group should be run together and
 
 Query Configuration
 
-The solution is best run with the default query configuration. However, a possible modification might be to include configurations of the scan options or additional custom attributes within the [1-AD\_Scan Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectoryinventory/1-ad_scan.md).
+The solution is best run with the default query configuration. However, a possible modification might be to include configurations of the scan options or additional custom attributes within the [1-AD_Scan Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectoryinventory/1-ad_scan.md).
 
 Analysis Configuration
 
 The solution is best run with the default analysis configuration. However, possible modifications might be to:
 
-- Enable notification analysis tasks within the [2-AD\_Changes Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectoryinventory/2-ad_changes.md)
-- Customize exception analysis parameters within the [3-AD\_Exceptions Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectoryinventory/3-ad_exceptions.md)
+- Enable notification analysis tasks within the [2-AD_Changes Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectoryinventory/2-ad_changes.md)
+- Customize exception analysis parameters within the [3-AD_Exceptions Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectoryinventory/3-ad_exceptions.md)
 
 Workflow
 

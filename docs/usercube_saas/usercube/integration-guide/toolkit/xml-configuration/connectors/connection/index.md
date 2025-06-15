@@ -48,7 +48,7 @@ Details about these settings can be found in Identity Manager's [References: Con
 | --- | --- |
 | Connector   required | __Type__    Int64   __Description__   Identifier of the linked connector.   __Note:__ a connection can be used by one and only one connector. |
 | DeactivationExportFulfill   default value: 0 | __Type__    DeactivationExportFulfill   __Description__   For a connection having a package which implements both export and fulfill, this option can deactivate either the export or the fulfill part.   ```0``` - __None__: keeps both parts.   ```1``` - __Export__: deactivates export.   ```2``` - __Fulfill__: deactivates fulfill. |
-| DisplayName\_L1   required | __Type__    String   __Description__   Display name of the connection in language 1 (up to 16). |
+| DisplayName_L1   required | __Type__    String   __Description__   Display name of the connection in language 1 (up to 16). |
 | Identifier   required | __Type__    String   __Description__   Unique identifier of the connection. It must start with a letter followed by up to 441 characters, chosen from the following set: point, dash, letter, or number.   __Warning:__ identifiers are case insensitive, for example the identifiers ```adexport``` and ```ADEXPORT``` cannot exist simultaneously. |
 | Package   required | __Type__    Enumeration   __Description__   Identifier of the linked connection package which defines the connection's capabilities and technologies to export and/or fulfill data. |
 

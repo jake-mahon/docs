@@ -14,7 +14,7 @@ A menu item displays grouped navigation actions.
 
 | Property | Details |
 | --- | --- |
-| DisplayName\_L1   optional | __Type__    String   __Description__   Display name of the menu item in language 1 (up to 16). |
+| DisplayName_L1   optional | __Type__    String   __Description__   Display name of the menu item in language 1 (up to 16). |
 | EntityType   optional | __Type__    Int64   __Description__   Represents the linked entity type. |
 | IconCode   optional | __Type__    String   __Description__   Code of one of [Microsoft's fabric icons](https://uifabricicons.azurewebsites.net/) to be displayed with the menu item.   __Note:__ on Microsoft page, see the icons' codes by moving the mouse over the icons, or using the detailed view. |
 | Identifier   required | __Type__    String   __Description__   Unique identifier of the item. |

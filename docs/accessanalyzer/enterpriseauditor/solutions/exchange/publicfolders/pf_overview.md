@@ -1,10 +1,10 @@
-# PF\_Overview Job
+# PF_Overview Job
 
-The PF\_Overview job is comprised of analyses and reports that provide a top level summary of each parent public folder and correlates information from the message tracking logs to identify the last time a public folder received mail.
+The PF_Overview job is comprised of analyses and reports that provide a top level summary of each parent public folder and correlates information from the message tracking logs to identify the last time a public folder received mail.
 
-## Analysis Tasks for the PF\_Overview Job
+## Analysis Tasks for the PF_Overview Job
 
-View the analysis tasks by navigating to the __Exchange__ > __5. Public Folders__ > __PF\_Overview__ > __Configure__ node and select __Analysis__.
+View the analysis tasks by navigating to the __Exchange__ > __5. Public Folders__ > __PF_Overview__ > __Configure__ node and select __Analysis__.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,10 +12,10 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The following analysis tasks are selected by default:
 
-- 00.Top Level Folder Summary – Creates the SA\_PF\_Overview\_TopLevelRollup table, accessible under the job’s Results node
-- 01.Public Folders Message Traffic – Creates the SA\_PF\_Overview\_ExchangeTraffic table, accessible under the job’s Results node
+- 00.Top Level Folder Summary – Creates the SA_PF_Overview_TopLevelRollup table, accessible under the job’s Results node
+- 01.Public Folders Message Traffic – Creates the SA_PF_Overview_ExchangeTraffic table, accessible under the job’s Results node
 
-In addition to the tables and views created by the analysis tasks, the PF\_Overview job produces the following pre-configured reports:
+In addition to the tables and views created by the analysis tasks, the PF_Overview job produces the following pre-configured reports:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

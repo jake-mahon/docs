@@ -57,7 +57,7 @@ __Step 6 –__ On the Configure Basic Operations page, choose which settings to 
   - Display example if checked – C:\Folder\file.txt
   - Display example if unchecked – /Folder/file.text
 - Report UNC paths – Adds a UNC Path column and a Rename UNC Path column in the generated TSV files
-  - This option corresponds to the REPORT\_UNC\_PATH parameter in the INI file. It is disabled by default. The UNC Path is in the following format:
+  - This option corresponds to the REPORT_UNC_PATH parameter in the INI file. It is disabled by default. The UNC Path is in the following format:
     - For CIFS activity – ```\\[HOST]\[SHARE]\[PATH]```
     - Example CIFS activity – ```\\ExampleHost\TestShare\DocTeam\Temp.txt```
     - For NFS activity – ```[HOST]:/[VOLUME]/[PATH]```

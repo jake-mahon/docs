@@ -25,7 +25,7 @@ Any changes to the selected table’s data are recognized by an active policy wh
 When using a dynamic Domains & Servers collection, the table to be referenced must meet the following requirements:
 
 - Table Location – Must be in the NVMonitorConfig database
-- Table Naming Convention – Must have a prefix of ‘dc\_domain\_server\_’
+- Table Naming Convention – Must have a prefix of ‘dc_domain_server_’
 - Table Schema – Must have the following column:
 
 | Column Name | Column Type | Column Description |
@@ -47,7 +47,7 @@ __NOTE:__ Threat Prevention creates an empty table with the required prefix and 
 When using a dynamic Object collection, the table to be referenced must meet the following requirements:
 
 - Table Location – Must be in the NVMonitorConfig database
-- Table Naming Convention – Must have a prefix of ‘dc\_ad\_objects\_’
+- Table Naming Convention – Must have a prefix of ‘dc_ad_objects_’
 - Table Schema – Must have the following column:
 
 | Column Name | Column Type | Column Description |
@@ -65,14 +65,14 @@ __NOTE:__ Threat Prevention creates an empty table with the required prefix and 
 When using a dynamic Perpetrators or Lockdown Perpetrators collection, the table to be referenced must meet the following requirements:
 
 - Table Location – Must be in the NVMonitorConfig database
-- Table Naming Convention – Must have a prefix of ‘dc\_perpetrators\_’
+- Table Naming Convention – Must have a prefix of ‘dc_perpetrators_’
 - Table Schema – Must have the following columns:
 
 | Column Name | Column Type | Column Description |
 | --- | --- | --- |
 | AccountName | NVARCHAR (1024) | Distinguished name of the account. Cannot be null. |
 | AccountSid | NVARCHAR (184) | SDDL form of the account Security ID. Cannot be null. |
-| AccountType | INT | Account type using the following values:   - 0 = none - 1 = user - 2 = group - 3 = context - 4 = orgRole - 5 = sidtype - 6 = other - 7 = dynamic - 8 = dynamic\_group   Cannot be null. |
+| AccountType | INT | Account type using the following values:   - 0 = none - 1 = user - 2 = group - 3 = context - 4 = orgRole - 5 = sidtype - 6 = other - 7 = dynamic - 8 = dynamic_group   Cannot be null. |
 | IncludeSubtree | INT | Indicates if child containers should be used:   - 0 = Child containers NOT included - 1 = Child containers included   Cannot be null. |
 
 Example table entry:
@@ -86,7 +86,7 @@ __NOTE:__ Threat Prevention creates an empty table with the required prefix and 
 When using a dynamic IP Addresses collection, the table to be referenced must meet the following requirements:
 
 - Table Location – Must be in the NVMonitorConfig database
-- Table Naming Convention – Must have a prefix of 'dc\_ip\_addresses\_'
+- Table Naming Convention – Must have a prefix of 'dc_ip_addresses_'
 - Table Schema – Must have the following column:
 
 | Column Name | Column Type | Column Description |
@@ -104,7 +104,7 @@ __NOTE:__ Threat Prevention creates an empty table with the required prefix and 
 When using a dynamic Hosts collection, the table to be referenced must meet the following requirements:
 
 - Table Location – Must be in the NVMonitorConfig database
-- Table Naming Convention – Must have a prefix of ‘dc\_hosts\_’
+- Table Naming Convention – Must have a prefix of ‘dc_hosts_’
 - Table Schema – Must have the following columns:
 
 | Column Name | Column Type | Column Description |
@@ -135,7 +135,7 @@ __NOTE:__ Threat Prevention creates an empty table with the required prefix and 
 When using a dynamic File Paths collection, the table to be referenced must meet the following requirements:
 
 - Table Location – Must be in the NVMonitorConfig database
-- Table Naming Convention – Must have a prefix of 'dc\_file\_path\_'
+- Table Naming Convention – Must have a prefix of 'dc_file_path_'
 - Table Schema – Must have the following columns:
 
 | Column Name | Column Type | Column Description |
@@ -152,5 +152,5 @@ __NOTE:__ Threat Prevention creates an empty table with the required prefix and 
 
 Two tables are created during the installation/upgrade process for the File Path collections:
 
-- Folders with Sensitive Data Collection – dc\_file\_path\_SensitiveDataFolders table
-- Open Shares Collection – dc\_file\_path\_OpenShares table
+- Folders with Sensitive Data Collection – dc_file_path_SensitiveDataFolders table
+- Open Shares Collection – dc_file_path_OpenShares table

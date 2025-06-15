@@ -8,7 +8,7 @@ Select the __Repetition__ check box to enable the repetition rule.
 
 Select the __Reject repetition__ option and set the maximum number of consecutive repeating characters that passwords can contain.
 
-Select the __Reject repetition like "wordword" or "p@$s\_p@$s"__ option to enable pattern repetition.
+Select the __Reject repetition like "wordword" or "p@$s_p@$s"__ option to enable pattern repetition.
 
 Select __Detect character substitution__ if Password Policy Enforcer should reject passwords that rely on character substitution to comply with this rule.
 

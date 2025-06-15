@@ -10,7 +10,7 @@ Although custom ports can be set in the agent's configuration files, the followi
 ## Change Tracker Agents – Windows & Linux
 
 - Port: 443 OR Custom
-- HTTPS Communication between Change Tracker and the agent is controlled by the agent's HUBURL, defined during installation. The HUBURL will resemble https://MY\_CT\_SERVER/api/. The communication is one-way and will always be initiated by the agent.
+- HTTPS Communication between Change Tracker and the agent is controlled by the agent's HUBURL, defined during installation. The HUBURL will resemble https://MY_CT_SERVER/api/. The communication is one-way and will always be initiated by the agent.
 
 ## Change Tracker - Agentless Linux
 

@@ -18,7 +18,7 @@ __Step 5 –__ On the __Actions__ tab, click __New__ and specify action details.
 | --- | --- |
 | Action | Set to "_Start a program_". |
 | Program/script | Input "_Powershell.exe_". |
-| Add arguments (optional) | Add a path to the add-on in double quotes and specify add-on parameters. For example:  -file "C:\Add-ons\Netwrix\_Auditor\_Add-on\_for\_HPE\_ ArcSight.ps1" -ArcSightHost 172.28.6.24 - NetwrixAuditorHost 172.28.6.15 |
+| Add arguments (optional) | Add a path to the add-on in double quotes and specify add-on parameters. For example:  -file "C:\Add-ons\Netwrix_Auditor_Add-on_for_HPE_ ArcSight.ps1" -ArcSightHost 172.28.6.24 - NetwrixAuditorHost 172.28.6.15 |
 
 __Step 6 –__ Save the task.
 

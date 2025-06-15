@@ -12,7 +12,7 @@ __NOTE:__ The account used to create the NDC SQL database must be granted the d
 
 1. On the computer where SQL Server instance with the NDC SQL database resides, navigate to Start → All Programs → Microsoft SQL Server → SQL Server Management Studio.
 2. Connect to the server.
-3. Locate the NDC\_Database, right-click it and select Properties.
+3. Locate the NDC_Database, right-click it and select Properties.
 4. Select the Files page and set the Initial Size (MB) parameter for PRIMARY file group to 512 MB.
 5. Click Expand next to PRIMARY file group and set Autogrowth / Maxsize as follows:
 

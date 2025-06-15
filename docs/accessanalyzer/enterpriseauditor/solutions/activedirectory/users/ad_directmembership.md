@@ -1,10 +1,10 @@
-# AD\_DirectMembership Job
+# AD_DirectMembership Job
 
-The AD\_DirectMembership Job identifies users who do not have any group membership. This condition may indicate unnecessary user accounts that are suitable candidates for review and cleanup.
+The AD_DirectMembership Job identifies users who do not have any group membership. This condition may indicate unnecessary user accounts that are suitable candidates for review and cleanup.
 
-## Analysis Tasks for the AD\_DirectMembership Job
+## Analysis Tasks for the AD_DirectMembership Job
 
-Navigate to the __Active Directory__ > __2.Users__ > __AD\_DirectMembership__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Active Directory__ > __2.Users__ > __AD_DirectMembership__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,10 +12,10 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The default analysis tasks are:
 
-- User Details – Creates the SA\_AD\_DirectMembership\_Details table accessible under the job’s Results node
-- Domain Summary – Creates the SA\_AD\_DirectMembership\_DomainSummary table accessible under the job’s Results node
+- User Details – Creates the SA_AD_DirectMembership_Details table accessible under the job’s Results node
+- Domain Summary – Creates the SA_AD_DirectMembership_DomainSummary table accessible under the job’s Results node
 
-In addition to the tables and views created by the analysis tasks, the AD\_DirectMembership Job produces the following pre-configured report:
+In addition to the tables and views created by the analysis tasks, the AD_DirectMembership Job produces the following pre-configured report:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

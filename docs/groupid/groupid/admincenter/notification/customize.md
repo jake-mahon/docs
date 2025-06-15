@@ -67,8 +67,8 @@ To aid you in content management, the Source Code view uses the same editor that
 
 ### Replace the Tags
 
-In a notification template, variables are appended with an attribute name and enclosed in percentage signs, to display that attribute’s value in the notification. For example, %TARGETOBJECT\_DisplayName% will resolve to the display name of the targetobject;
-%REQUESTER\_mail% will show the email address of the requester, and so on.
+In a notification template, variables are appended with an attribute name and enclosed in percentage signs, to display that attribute’s value in the notification. For example, %TARGETOBJECT_DisplayName% will resolve to the display name of the targetobject;
+%REQUESTER_mail% will show the email address of the requester, and so on.
 
 __To replace a tag:__
 
@@ -89,7 +89,7 @@ Here is a complete list of tags for object attributes. Using tags other than the
 | 1. | TARGETOBJECT | Can be any object (user/group/contact) that is under consideration in a notification |
 | 2. | REQUESTER | The user object who makes a workflow request |
 | 3. | APPROVER | The approver in workflow notifications |
-| 4. | ANOTHER\_APPROVER | An approver, other than the ‘approver’ above, who performs an action on the workflow request (as there can be multiple approvers) |
+| 4. | ANOTHER_APPROVER | An approver, other than the ‘approver’ above, who performs an action on the workflow request (as there can be multiple approvers) |
 | 5. | BEHALFEDPERSON | The user on whose behalf join/leave requests are made by their manager |
 | 6. | RECEIVER | The receiver of a notification |
 | 7. | AUTHOR | A user who creates/modifies/deletes an object |
@@ -125,6 +125,6 @@ Following is a list of all attributes that can be used with tags in the notifica
 | GroupClassName | ComputerClassName | ContactClassName | UserClassName |
 | DatabaseMoniker | GroupTypeUniversalSecurity | GroupTypeGlobalSecurity | PublicFolderClassName |
 | AccountExpires | GroupTypeUniversalDistribution | GroupTypeLocalDistribution | GroupTypeLocalSecurity |
-| IsDeleted | GroupTypeLocalSecurity\_Builtin | GroupTypeGlobalDistribution | AccountDisabled |
+| IsDeleted | GroupTypeLocalSecurity_Builtin | GroupTypeGlobalDistribution | AccountDisabled |
 | LastLogon | PrimaryGroupToken | PrimaryGroupId | SubscribeByMail |
 | AdPublicDelgateRights | UserPrincipleName |  |  |

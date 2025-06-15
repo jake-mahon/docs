@@ -102,7 +102,7 @@ __Step 1 –__ Click Generate next to Generate report on inactive users to view 
 
 Review the basic registry keys that you may need to configure for monitoring inactive users within your Active Directory domain with Netwrix Auditor. Navigate to Start > Run and type _"regedit"_.
 
-| Registry key (REG\_DWORD type) | Description / Value |
+| Registry key (REG_DWORD type) | Description / Value |
 | --- | --- |
 | ```HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Netwrix Auditor\Inactive Users Tracker``` |  |
 | HideEmailAdditionalInfo | Defines whether to show or hide the header and footer in emails sent to managers (emails sent to administrators always have default header and footer):   - 0—Show - Any other number—Hide |

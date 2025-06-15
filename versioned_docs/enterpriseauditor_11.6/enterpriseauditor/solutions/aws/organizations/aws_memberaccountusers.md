@@ -1,10 +1,10 @@
-# AWS\_MemberAccountUsers Job
+# AWS_MemberAccountUsers Job
 
-The AWS\_MemberAccountUsers job highlights users that are not located in the primary AWS Identity Source, which is generally the Master AWS Account for the Organization.
+The AWS_MemberAccountUsers job highlights users that are not located in the primary AWS Identity Source, which is generally the Master AWS Account for the Organization.
 
-## Analysis Tasks for the AWS\_MemberAccountUsers Job
+## Analysis Tasks for the AWS_MemberAccountUsers Job
 
-Navigate to the __AWS__ > __1.Organizations__ > __AWS\_MemberAccountUsers__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __AWS__ > __1.Organizations__ > __AWS_MemberAccountUsers__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,12 +12,12 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The following analysis tasks are selected by default:
 
-- Member Account User Details – Provides details on users that exist outside the master AWS account. Creates the AWS\_MemberAccountUsers\_Details table accessible under the job’s Results node.
-- Member Account Users Summary – Summarizes AWS member account users by organization. Creates the AWS\_MemberAccountUsers\_Summary table accessible under the job’s Results node.
+- Member Account User Details – Provides details on users that exist outside the master AWS account. Creates the AWS_MemberAccountUsers_Details table accessible under the job’s Results node.
+- Member Account Users Summary – Summarizes AWS member account users by organization. Creates the AWS_MemberAccountUsers_Summary table accessible under the job’s Results node.
 
-## Report for the AWS\_MemberAccoutUsers Job
+## Report for the AWS_MemberAccoutUsers Job
 
-In addition to the tables and views created by the analysis task, the AWS\_MemberAccountUsers job produces the following preconfigured report:
+In addition to the tables and views created by the analysis task, the AWS_MemberAccountUsers job produces the following preconfigured report:
 
 | Report | Description | Default Tags | Report Element |
 | --- | --- | --- | --- |

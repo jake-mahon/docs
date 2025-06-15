@@ -1,10 +1,10 @@
-# 1-AzureSQL\_PermissionScan Job
+# 1-AzureSQL_PermissionScan Job
 
-The 1–AzureSQL\_PermissionScan Job is designed to collect Azure SQL instance and database level permissions from all the targeted instances.
+The 1–AzureSQL_PermissionScan Job is designed to collect Azure SQL instance and database level permissions from all the targeted instances.
 
-## Queries for the 1–AzureSQL\_PermissionsScan Job
+## Queries for the 1–AzureSQL_PermissionsScan Job
 
-The 1–AzureSQL\_PermissionsScan Job uses the SQL Data Collector for the following query:
+The 1–AzureSQL_PermissionsScan Job uses the SQL Data Collector for the following query:
 
 ![Query Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/azuresql/collection/permissionjob.webp)
 
@@ -12,9 +12,9 @@ The 1–AzureSQL\_PermissionsScan Job uses the SQL Data Collector for the follow
 
 ### Configure the PermissionsScan Query
 
-The 1-AzureSQL\_PermissionScan Job is preconfigured to run using the default settings within the Permissions Collection category. Follow the steps to customize configurations.
+The 1-AzureSQL_PermissionScan Job is preconfigured to run using the default settings within the Permissions Collection category. Follow the steps to customize configurations.
 
-__Step 1 –__ Navigate to the __Databases__ > 0.Collection > AzureSQL > 1-AzureSQL\_PermissionsScan > Configure node and select __Queries__.
+__Step 1 –__ Navigate to the __Databases__ > 0.Collection > AzureSQL > 1-AzureSQL_PermissionsScan > Configure node and select __Queries__.
 
 __Step 2 –__ In the Query Selection view, select the PermissionsScan query and click on Query Properties. The Query Properties window appears.
 
@@ -32,7 +32,7 @@ __Step 4 –__ To query for specific databases/instances, navigate to the [SQL D
 
 ![Managed Connection Window](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/azuresql/collection/managedconnections.webp)
 
-__Step 5 –__ To view all managed connections discovered during the 1-AzureSQL\_PermissionScan Job run, click Connections within the Filter page. This screen will list the following items retrieved during the job run:
+__Step 5 –__ To view all managed connections discovered during the 1-AzureSQL_PermissionScan Job run, click Connections within the Filter page. This screen will list the following items retrieved during the job run:
 
 - All databases discovered
 - Any configurations made before the job run
@@ -41,11 +41,11 @@ Select any of the discovered databases and click Test Connection to ensure the d
 
 __Step 6 –__ Navigate to the Summary page, click Finish to save any setting modifications or click Cancel if no changes were made. Then click OK to close the Query Properties window.
 
-The 1-AzureSQL\_PermissionsScan Job is now ready to run with the customized settings.
+The 1-AzureSQL_PermissionsScan Job is now ready to run with the customized settings.
 
-## Analysis Tasks for the 1–AzureSQL\_PermissionsScan Job
+## Analysis Tasks for the 1–AzureSQL_PermissionsScan Job
 
-Navigate to the Databases > 0.Collection > __AzureSQL__ > 1-AzureSQL\_PermissionsScan > Configure node and select Analysis to view the analysis tasks.
+Navigate to the Databases > 0.Collection > __AzureSQL__ > 1-AzureSQL_PermissionsScan > Configure node and select Analysis to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 

@@ -1,10 +1,10 @@
 # Create Custom Report
 
-To speed up data review process and help you find the latest logons faster, Netwrix created an additional script, __Netwrix\_Auditor\_Saved\_Search\_for\_RADIUS\_Server\_Logons.ps1__. It is shipped with the add-on and creates the RADIUS server logons since yesterday custom search-based report in the Auditor client.
+To speed up data review process and help you find the latest logons faster, Netwrix created an additional script, __Netwrix_Auditor_Saved_Search_for_RADIUS_Server_Logons.ps1__. It is shipped with the add-on and creates the RADIUS server logons since yesterday custom search-based report in the Auditor client.
 
 Follow the steps to create a custom report with the script.
 
-__Step 1 –__ Copy the __Netwrix\_Auditor\_Saved\_Search\_for\_RADIUS\_Server\_Logons.ps1__ script to the Auditor Server.
+__Step 1 –__ Copy the __Netwrix_Auditor_Saved_Search_for_RADIUS_Server_Logons.ps1__ script to the Auditor Server.
 
 __Step 2 –__ Start __Windows PowerShell__ and specify a path to the script.
 

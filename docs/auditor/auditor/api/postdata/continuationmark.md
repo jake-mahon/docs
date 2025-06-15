@@ -11,8 +11,8 @@ Send a POST request containing Continuation mark to the following endpoints:
 
 | Method | Endpoint | Description |
 | --- | --- | --- |
-| POST | [/netwrix/api/v1/activity\_records/enum ](/docs/auditor/auditor/api/retrieveactivityrecords.md) | Returns next Activity Records. |
-| POST | [/netwrix/api/v1/activity\_records/search](/docs/auditor/auditor/api/searchactivityrecords.md) | Returns next Activity Records matching a filter criteria. |
+| POST | [/netwrix/api/v1/activity_records/enum ](/docs/auditor/auditor/api/retrieveactivityrecords.md) | Returns next Activity Records. |
+| POST | [/netwrix/api/v1/activity_records/search](/docs/auditor/auditor/api/searchactivityrecords.md) | Returns next Activity Records matching a filter criteria. |
 
 Ensure to pass information about transferred data, including ```Content-Type:application/xml``` or ```application/json ```and encoding. The syntax greatly depends on the tool you use.
 
@@ -24,7 +24,7 @@ Copy the contents of ```ContinuationMark``` to a separate XML or JSON file (e.g.
 
 | Format | Schema description |
 | --- | --- |
-| XML | The file must be compatible with the XML schema. On the computer where Auditor Server resides, you can find XSD file under _Netwrix\_Auditor\_installation\_folder\Audit Core\API Schemas_.  The ```ContinuationMark``` root element contains a value previously returned by Netwrix Auditor Integration API. |
+| XML | The file must be compatible with the XML schema. On the computer where Auditor Server resides, you can find XSD file under _Netwrix_Auditor_installation_folder\Audit Core\API Schemas_.  The ```ContinuationMark``` root element contains a value previously returned by Netwrix Auditor Integration API. |
 | JSON | JSON-formatted Continuation mark includes the field value in quotes. |
 
 If you want to retrieve next Activity Records for your search, include the Continuation mark to your Search parameters file. [Search Parameters](/docs/auditor/auditor/api/postdata/searchparameters.md)

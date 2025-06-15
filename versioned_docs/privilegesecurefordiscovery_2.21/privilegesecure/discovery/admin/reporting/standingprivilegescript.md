@@ -6,9 +6,9 @@ Standing Privilege Reduction Metric Script
 
 As machines are enrolled into protect mode standing privilege is reduced. The attached script is able to show the reduction in standing privilege for a group of systems that are included in a given rollout wave.
 
-There is a script file and wave\_specs parameter file attached.  The wave\_spec file is also detailed below.  Both should be copied to Privilege Secure primary node directory: ```/discovery/data/db/queries/```.
+There is a script file and wave_specs parameter file attached.  The wave_spec file is also detailed below.  Both should be copied to Privilege Secure primary node directory: ```/discovery/data/db/queries/```.
 
-__wave\_spec.csv file__
+__wave_spec.csv file__
 
 Replace or delete the wave and system examples given.
 

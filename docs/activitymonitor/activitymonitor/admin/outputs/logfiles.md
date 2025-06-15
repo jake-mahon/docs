@@ -42,7 +42,7 @@ The tab contains the following settings:
 - Add header to Log files – Indicates if headers are added in the activity log filesAdd header to Log files – Indicates if headers are added in the activity log files
 
   __NOTE:__ This is needed to feed data into Splunk in a Syslog output. However, Netwrix Access Analyzer (formerly Enterprise Auditor) does not support log files with headers. Therefore, do not select this option for a File output designed for Netwrix Access Analyzer (formerly Enterprise Auditor).
-- Report UNC paths – Indicates if a UNC Path column and a Rename UNC Path column are added in the activity log files. This option corresponds to the REPORT\_UNC\_PATH parameter in the INI file. When the option is enabled, the added columns are populated when a file is accessed remotely through the UNC Path. If a file is accessed locally, these columns are empty.
+- Report UNC paths – Indicates if a UNC Path column and a Rename UNC Path column are added in the activity log files. This option corresponds to the REPORT_UNC_PATH parameter in the INI file. When the option is enabled, the added columns are populated when a file is accessed remotely through the UNC Path. If a file is accessed locally, these columns are empty.
 
   - The UNC Path is in the following format:
 
@@ -73,7 +73,7 @@ The tab contains the following settings:
 
   __NOTE:__ This is needed to feed data into Splunk in a Syslog output. However, Netwrix Access Analyzer (formerly Enterprise Auditor) does not support log files with headers. Therefore, do not select this option for a File output designed for Netwrix Access Analyzer (formerly Enterprise Auditor).
 - Add C:\ to the beginning of the reported file paths – Adds C:\ to the beginning of the reported file paths in the activity log file
-- Report UNC paths – Indicates if a UNC Path column and a Rename UNC Path column are added in the activity log files. This option corresponds to the REPORT\_UNC\_PATH parameter in the INI file. When the option is enabled, the added columns are populated when a file is accessed remotely through the UNC Path. If a file is accessed locally, these columns are empty.
+- Report UNC paths – Indicates if a UNC Path column and a Rename UNC Path column are added in the activity log files. This option corresponds to the REPORT_UNC_PATH parameter in the INI file. When the option is enabled, the added columns are populated when a file is accessed remotely through the UNC Path. If a file is accessed locally, these columns are empty.
 - Report operations with millisecond precision – Indicates the timestamps of events being recorded in the activity log file has been changed for better ordering of events if multiple events occur within the same second
 - This log file is for Netwrix Access Analyzer (formerly Enterprise Auditor) (StealthAUDIT) – Indicates whether Netwrix Access Analyzer (formerly Enterprise Auditor) collect the data from this configured output
 

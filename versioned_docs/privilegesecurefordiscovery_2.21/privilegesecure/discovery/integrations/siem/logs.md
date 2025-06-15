@@ -48,7 +48,7 @@ This sections describes log formats in Privilege Secure.
 
 Most log messages emitted by the API will include the following fields:
 
-- req\_id — Unique identifier for an incoming request. All API events that are generated as part of this request will have the same value.
+- req_id — Unique identifier for an incoming request. All API events that are generated as part of this request will have the same value.
 - access.user — Properties about the authenticated user making the request
 - client
 

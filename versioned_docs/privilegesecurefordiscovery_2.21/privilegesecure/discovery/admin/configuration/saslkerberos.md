@@ -33,11 +33,11 @@ Notes
       - nslookup `<IP from first nslookup>`
   - ```systemd-resolve --status ens160``` will show the DNS configured
 - LDAP record referrals are not supported
-- If you switch a domain from Kerberos to NTLM, the first scan that happens after the switch will not update the last scanned timestamps. The next scan after that will update the last\_scanned timestamps.
+- If you switch a domain from Kerberos to NTLM, the first scan that happens after the switch will not update the last scanned timestamps. The next scan after that will update the last_scanned timestamps.
 
 References
 
-- [https://web.mit.edu/kerberos/krb5-latest/doc/admin/install\_kdc.html](https://web.mit.edu/kerberos/krb5-latest/doc/admin/install_kdc.html)
+- [https://web.mit.edu/kerberos/krb5-latest/doc/admin/install_kdc.html](https://web.mit.edu/kerberos/krb5-latest/doc/admin/install_kdc.html)
 - [https://learn.microsoft.com/en-us/troubleshoot/windows-server/windows-security/kerberos-protocol-registry-kdc-configuration-keys](https://learn.microsoft.com/en-us/troubleshoot/windows-server/windows-security/kerberos-protocol-registry-kdc-configuration-keys)
 
 ## Unsupported Windows Versions
@@ -66,7 +66,7 @@ Microsoft Windows Kerberos vulnerabilities:
 
 __NOTE:__ Please work with CS to troubleshoot any issues with enabling this.
 
-- Logs are running under the s1\_internal\_api. A SSH session to the corresponding node is required.
+- Logs are running under the s1_internal_api. A SSH session to the corresponding node is required.
 
   - ```s1 logs | grep s1_internal_api```
   - Attempt to test connection - should present logs

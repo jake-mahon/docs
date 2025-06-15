@@ -84,7 +84,7 @@ __Step 14 –__ On the Test Logout page, enter the following information:
 - Signout URI – The Signout URI must be the simple logout address (not a SAML SLO endpoint) which takes a parameter for the post logout redirection.
   - Examples for Microsoft Entra ID:
 
-    https://login.microsoftonline.com/common/oauth2/logout?post\_logout\_redirect\_uri
+    https://login.microsoftonline.com/common/oauth2/logout?post_logout_redirect_uri
   - Example for Auth0:
 
     https://privilegesecure-dev.auth0.com/v2/logout?returnTo

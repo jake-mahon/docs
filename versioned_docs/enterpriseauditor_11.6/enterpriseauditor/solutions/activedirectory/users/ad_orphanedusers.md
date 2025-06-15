@@ -1,10 +1,10 @@
-# AD\_OrphanedUsers Job
+# AD_OrphanedUsers Job
 
-The AD\_OrphanedUsers Job identifies users whose managers are stale or disabled. These user accounts should be reviewed and appropriate management should be assigned.
+The AD_OrphanedUsers Job identifies users whose managers are stale or disabled. These user accounts should be reviewed and appropriate management should be assigned.
 
-## Analysis Tasks for the AD\_OrphanedUsers Job
+## Analysis Tasks for the AD_OrphanedUsers Job
 
-Navigate to the __Active Directory__ > __2.Users__ > __AD\_OrphanedUsers__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Active Directory__ > __2.Users__ > __AD_OrphanedUsers__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,10 +12,10 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The default analysis tasks are:
 
-- Details – Creates the SA\_AD\_OrphanedUsers\_Details table accessible under the job’s Results node
-- Domain Summary – Creates the SA\_AD\_OrphanedUsers\_DomainSummary table accessible under the job’s Results node
+- Details – Creates the SA_AD_OrphanedUsers_Details table accessible under the job’s Results node
+- Domain Summary – Creates the SA_AD_OrphanedUsers_DomainSummary table accessible under the job’s Results node
 
-In addition to the tables and views created by the analysis tasks, the AD\_OrphanedUsers Job produces the following pre-configured report:
+In addition to the tables and views created by the analysis tasks, the AD_OrphanedUsers Job produces the following pre-configured report:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

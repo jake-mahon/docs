@@ -114,7 +114,7 @@ Here is a list of child elements:
 
 - CompositeProfile (optional) – Defines the users profiles
 - EmailGeneration (optional) – Defines the email generation policy
-- HomonymEntityLinkOptions (optional) – Updates/Modifies the HomonymEntityLink of the Directory\_UserRecord entity of the workforce configuration
+- HomonymEntityLinkOptions (optional) – Updates/Modifies the HomonymEntityLink of the Directory_UserRecord entity of the workforce configuration
 - LoginGeneration (optional) – Defines the login generation policy
 - ModelUsage (optional) – Defines the entity types/properties that must be ignored from the model and customize the pickers for the kept ones
 - NewExternalWorkflow (optional) – Enable/disable the review step for the new external workflow

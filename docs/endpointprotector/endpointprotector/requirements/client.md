@@ -78,11 +78,11 @@ Process Level Exclusions
 
 Registry Level Exclusions
 
-- HKEY\_LOCAL\_MACHINE\SYSTEM\ControlSet001\Services\CssDcFlt
-- HKEY\_LOCAL\_MACHINE\SYSTEM\ControlSet001\Services\cssdlp20
-- HKEY\_LOCAL\_MACHINE\SYSTEM\ControlSet001\Services\cssguard
-- HKEY\_LOCAL\_MACHINE\SYSTEM\ControlSet001\Services\cssnwtap
-- HKEY\_LOCAL\_MACHINE\SYSTEM\ControlSet001\Services\cssredir
+- HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\CssDcFlt
+- HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\cssdlp20
+- HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\cssguard
+- HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\cssnwtap
+- HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\cssredir
 
 #### Recommended Exclusions for macOS
 
@@ -96,7 +96,7 @@ File Level Exclusions
 
 - /Applications/EndpointProtectorClient.app/Contents/MacOS/EppClient
 - /Applications/EndpointProtectorClient.app/Contents/MacOS/sslsplit
-- /Applications/EndpointProtectorClient.app/Contents/MacOS/netdlp\_setup
+- /Applications/EndpointProtectorClient.app/Contents/MacOS/netdlp_setup
 - /Applications/EndpointProtectorClient.app/Contents/Applications/EppNotifier.app/Contents
 - /MacOS/EppNotifier
 - /var/log/eppclient.log
@@ -106,7 +106,7 @@ Process Level Exclusions
 
 - EppClient
 - sslsplit
-- netdlp\_setup
+- netdlp_setup
 - EppNotifier
 
 #### Recommended Exclusions for Linux
@@ -119,19 +119,19 @@ Folder Level Exclusions
 File Level Exclusions
 
 - /opt/cososys/sbin/epp-client-daemon
-- /opt/cososys/sbin/epp\_sslsplit
-- /opt/cososys/sbin/epp\_netdlp\_setup
-- /opt/cososys/sbin/netdlp\_scripts/linux\_install\_certicates.sh
+- /opt/cososys/sbin/epp_sslsplit
+- /opt/cososys/sbin/epp_netdlp_setup
+- /opt/cososys/sbin/netdlp_scripts/linux_install_certicates.sh
 - /opt/cososys/bin/epp-client
-- /var/log/epp-client/epp\_client\_daemon.log
+- /var/log/epp-client/epp_client_daemon.log
 - /var/log/epp-client/eppsslsplit.log
 
 Process Level Exclusions
 
 - epp-client-daemon
 - epp-client
-- epp\_sslsplit
-- epp\_netdlp\_setup
-- linux\_install\_certicates.sh
+- epp_sslsplit
+- epp_netdlp_setup
+- linux_install_certicates.sh
 
 By applying these exclusions, you will allow the Endpoint Protector Client to operate smoothly alongside other security products, ensuring both functionality and protection across endpoints.

@@ -1,10 +1,10 @@
-# FS\_QuarantineData\_Status Job
+# FS_QuarantineData_Status Job
 
-The FS\_QuarantineData\_Status job is designed to report on the FS\_QuarantineData job. See the [FS\_QuarantineData Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/cleanup/quarantine/fs_quarantinedata.md) topic for additional information.
+The FS_QuarantineData_Status job is designed to report on the FS_QuarantineData job. See the [FS_QuarantineData Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/cleanup/quarantine/fs_quarantinedata.md) topic for additional information.
 
-## Analysis Tasks for the FS\_QuarantineData\_Status Job
+## Analysis Tasks for the FS_QuarantineData_Status Job
 
-Navigate to the __FileSystem__ > __Cleanup__ > __3. Quarantine__ > __FS\_QuarantineData\_Status__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __FileSystem__ > __Cleanup__ > __3. Quarantine__ > __FS_QuarantineData_Status__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis task is preconfigured for this job.
 
@@ -12,9 +12,9 @@ __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis 
 
 The following analysis task is selected by default:
 
-- Summarize quarantine actions – Creates the SA\_FS\_Quarantine\_Status\_Summary table accessible under the job’s Results node
+- Summarize quarantine actions – Creates the SA_FS_Quarantine_Status_Summary table accessible under the job’s Results node
 
-In addition to the tables and views created by the analysis tasks, the FS\_QuarantineData\_Status job produces the following pre-configured report.
+In addition to the tables and views created by the analysis tasks, the FS_QuarantineData_Status job produces the following pre-configured report.
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

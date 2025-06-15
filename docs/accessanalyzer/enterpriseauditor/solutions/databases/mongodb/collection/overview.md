@@ -6,5 +6,5 @@ The MongoDB Solution Collection group is designed to collect high level summary
 
 The jobs in the 0.Collection Job Group are:
 
-- [MongoDB\_Configuration Job](/docs/accessanalyzer/enterpriseauditor/solutions/databases/mongodb/collection/mongodb_configuration.md) — Collects MongoDB server instance and database configuration settings for use in the following analysis jobs and respective reports.
-- [MongoDB\_SensitiveDataScan Job](/docs/accessanalyzer/enterpriseauditor/solutions/databases/mongodb/collection/mongodb_sensitivedatascan.md) — Discovers sensitive data in MongoDB databases based on pre-defined or user-defined search criteria
+- [MongoDB_Configuration Job](/docs/accessanalyzer/enterpriseauditor/solutions/databases/mongodb/collection/mongodb_configuration.md) — Collects MongoDB server instance and database configuration settings for use in the following analysis jobs and respective reports.
+- [MongoDB_SensitiveDataScan Job](/docs/accessanalyzer/enterpriseauditor/solutions/databases/mongodb/collection/mongodb_sensitivedatascan.md) — Discovers sensitive data in MongoDB databases based on pre-defined or user-defined search criteria

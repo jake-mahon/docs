@@ -139,7 +139,7 @@ __Note:__ when not specified, certification items are defined by ```ResourcesSta
 | Property | Details |
 | --- | --- |
 | B0   optional | __Type__    Int64   __Description__   Binding of the dimension 0 (up to 3V in [base32hex](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/parameter-names/index.md)). The dimension can then be used in rules to filter the rules' targets. |
-| DisplayName\_L1   required | __Type__    String   __Description__   Display name of the context rule in language 1 (up to 16). |
+| DisplayName_L1   required | __Type__    String   __Description__   Display name of the context rule in language 1 (up to 16). |
 | ExcludeExpression   optional | __Type__    String   __Description__   C# expression that defines the resources to exclude from context generation, because they should not be part of the role model and provisioning calculations. [See more details on C# expressions](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/expressions/index.md). |
 | Identifier   required | __Type__    String   __Description__   Unique identifier of the context rule. |
 | MinIdentitiesCount   default value: 0 | __Type__    Int32   __Description__   Minimum number of identities to take into account to generate a rule by the role mining engine. |

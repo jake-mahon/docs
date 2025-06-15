@@ -1,10 +1,10 @@
-# Box\_PermissionChanges Job
+# Box_PermissionChanges Job
 
-The Box\_PermissionChannges Job provides details on permission changes that have occurred over the past 30 days.
+The Box_PermissionChannges Job provides details on permission changes that have occurred over the past 30 days.
 
-## Analysis Tasks for the Box\_PermissionChanges Job
+## Analysis Tasks for the Box_PermissionChanges Job
 
-Navigate to __Box__ > __1.Activity__ > __Forensics__ > __Box\_PermissionChanges__ > __Configure__ node and select __Analysis__.
+Navigate to __Box__ > __1.Activity__ > __Forensics__ > __Box_PermissionChanges__ > __Configure__ node and select __Analysis__.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,10 +12,10 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The following analysis tasks are selected by default:
 
-- Permission Change Details – Creates the Box\_PermissionChange\_Details table accessible under the job’s Results node
+- Permission Change Details – Creates the Box_PermissionChange_Details table accessible under the job’s Results node
 - Permission Changes (Last 30 Days) – Creates an interim processing table in the database for use by downstream analysis and report generation
 
-In addition to the tables created by the analysis tasks, the Box\_PermissionChanges Job produces the following pre-configured report:
+In addition to the tables created by the analysis tasks, the Box_PermissionChanges Job produces the following pre-configured report:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

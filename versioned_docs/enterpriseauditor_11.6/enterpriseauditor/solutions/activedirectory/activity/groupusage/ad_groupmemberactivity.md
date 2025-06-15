@@ -1,18 +1,18 @@
-# AD\_GroupMemberActivity Job
+# AD_GroupMemberActivity Job
 
-The AD\_GroupMemberActivity Job analyzes the AD actions taken by the effective members of a group. Monitoring authentication can provide a more accurate method of determining staleness than last logons.
+The AD_GroupMemberActivity Job analyzes the AD actions taken by the effective members of a group. Monitoring authentication can provide a more accurate method of determining staleness than last logons.
 
-## Analysis Tasks for the AD\_GroupMemberActivity Job
+## Analysis Tasks for the AD_GroupMemberActivity Job
 
-Navigate to the __Jobs__ > __Active Directory__ > __6.Activity__ > __Group Usage__ > __AD\_GroupMemberActivity__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Jobs__ > __Active Directory__ > __6.Activity__ > __Group Usage__ > __AD_GroupMemberActivity__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 ![Analysis Tasks for the AD_GroupMemberActivity Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/activity/groupusage/groupmemberactivityanalysis.png)
 
 The default analysis task is:
 
-- Group Member Activity – Creates the SA\_AD\_GroupMemberActivity\_GroupSummary table accessible under the job’s Results node
+- Group Member Activity – Creates the SA_AD_GroupMemberActivity_GroupSummary table accessible under the job’s Results node
 
-In addition to the tables created by the analysis tasks, the AD\_GroupMemberActivity Job produces the follow pre-configured report:
+In addition to the tables created by the analysis tasks, the AD_GroupMemberActivity Job produces the follow pre-configured report:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |
@@ -22,7 +22,7 @@ In addition to the tables created by the analysis tasks, the AD\_GroupMemberActi
 
 Customizable parameters enable you to set the values used to include the SIDs for admin groups during this job’s analysis. The parameters can be customized and are listed in a section at the bottom of the SQL Script Editor. Follow the steps to customize an analysis task’s parameters.
 
-__Step 1 –__ Navigate to the __Active Directory__ > __6.Activity__ > __Group Usage__ > __AD\_GroupMemberActivity__ > __Configure__ node and select __Analysis__.
+__Step 1 –__ Navigate to the __Active Directory__ > __6.Activity__ > __Group Usage__ > __AD_GroupMemberActivity__ > __Configure__ node and select __Analysis__.
 
 ![Group Member Activity analysis task configuration](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/activity/groupusage/groupmemberactivityanalysisconfiguration.png)
 

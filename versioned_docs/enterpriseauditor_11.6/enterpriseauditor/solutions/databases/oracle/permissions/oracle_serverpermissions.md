@@ -1,10 +1,10 @@
-# Oracle\_ServerPermissions Job
+# Oracle_ServerPermissions Job
 
-The Oracle\_ServerPermissions Job analyzes permissions granted at the database level and reports on effective database level permissions across all audited Oracle database servers.
+The Oracle_ServerPermissions Job analyzes permissions granted at the database level and reports on effective database level permissions across all audited Oracle database servers.
 
-## Analysis Tasks for the Oracle\_ServerPermissions Job
+## Analysis Tasks for the Oracle_ServerPermissions Job
 
-Navigate to the __Oracle__ > __3.Permissions__ > __Oracle\_ServerPermissions__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Oracle__ > __3.Permissions__ > __Oracle_ServerPermissions__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,10 +12,10 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The default analysis tasks are:
 
-- Determine Server Permissions – Highlights Oracle permissions on the Server. Creates the SA\_Oracle\_ServerPermission\_Details table accessible under the job’s Results node.
-- Server Permissions Instance Summary – Summarizes server permissions by Instance. Creates the SA\_Oracle\_ServerPermission\_InstanceSummary table accessible under the job’s Results node.
+- Determine Server Permissions – Highlights Oracle permissions on the Server. Creates the SA_Oracle_ServerPermission_Details table accessible under the job’s Results node.
+- Server Permissions Instance Summary – Summarizes server permissions by Instance. Creates the SA_Oracle_ServerPermission_InstanceSummary table accessible under the job’s Results node.
 
-In addition to the tables and views created by the analysis task, the Oracle\_ServerPermissions Job produces the following pre-configured report.
+In addition to the tables and views created by the analysis task, the Oracle_ServerPermissions Job produces the following pre-configured report.
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

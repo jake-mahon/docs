@@ -16,7 +16,7 @@ __Step 4 –__ Click Create Key.
 
 __Step 5 –__ In the Successfully Generated API Key window, copy the Key Passcode.
 
-Both the Key Name and the Key Passcode are required for each Nasuni Edge Appliance and cloud filer. They are used as the credentials in the Enterprise Auditor Connection Profile for 0-FS\_Nasuni Job.
+Both the Key Name and the Key Passcode are required for each Nasuni Edge Appliance and cloud filer. They are used as the credentials in the Enterprise Auditor Connection Profile for 0-FS_Nasuni Job.
 
 __NOTE:__ Nasuni API key names are case sensitive. When providing them, ensure they are entered in the exact same case as generated.
 
@@ -36,7 +36,7 @@ __Step 4 –__ Click Add API Key.
 
 __Step 5 –__ A message appears which includes the Key Passcode; copy the Key Passcode.
 
-Both the Key Name and the Key Passcode are required for each Nasuni Edge Appliance and cloud filer. They are used as the credentials in the Enterprise Auditor Connection Profile for 0-FS\_Nasuni Job.
+Both the Key Name and the Key Passcode are required for each Nasuni Edge Appliance and cloud filer. They are used as the credentials in the Enterprise Auditor Connection Profile for 0-FS_Nasuni Job.
 
 __NOTE:__ Nasuni API key names are case sensitive. When providing them, ensure they are entered in the exact same case as generated.
 

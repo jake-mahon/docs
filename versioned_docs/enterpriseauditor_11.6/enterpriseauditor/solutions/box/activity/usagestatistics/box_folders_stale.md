@@ -1,10 +1,10 @@
-# Box\_Folders\_Stale Job
+# Box_Folders_Stale Job
 
-The Box\_Folders\_Stale Job identifies the last time activity occurred for each folder in the Box environment, highlighting stale folders which have not had activity in the last 30 days. These folders can be subject to cleanup or consolidation.
+The Box_Folders_Stale Job identifies the last time activity occurred for each folder in the Box environment, highlighting stale folders which have not had activity in the last 30 days. These folders can be subject to cleanup or consolidation.
 
-## Analysis Tasks for the Box\_Folders\_Stale Job
+## Analysis Tasks for the Box_Folders_Stale Job
 
-Navigate to __Box__ > __1.Activity__ > __Usage Statistics__ > __Box\_Folders\_Stale__ > __Configure__ node and select __Analysis__ to view analysis tasks.
+Navigate to __Box__ > __1.Activity__ > __Usage Statistics__ > __Box_Folders_Stale__ > __Configure__ node and select __Analysis__ to view analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,10 +12,10 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The following analysis tasks are selected by default:
 
-- Stale Folder Details – Creates the Box\_Folders\_Stale table accessible under the job’s Results node
-- No Activity – Creates the Box\_Folders\_NoActivity table accessible under the job’s Results node
+- Stale Folder Details – Creates the Box_Folders_Stale table accessible under the job’s Results node
+- No Activity – Creates the Box_Folders_NoActivity table accessible under the job’s Results node
 
-In addition to the tables created by the analysis tasks, the Box\_Folders\_Stale Job produces the following pre-configured report:
+In addition to the tables created by the analysis tasks, the Box_Folders_Stale Job produces the following pre-configured report:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

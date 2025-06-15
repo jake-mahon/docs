@@ -22,9 +22,9 @@ The ```User```__Entity Type__ is defined as follows:
 
 The two new resources are inserted in the database using the ```<Resource>``` tag.
 
-They are assigned the ids ```300``` and ```301```, they are positive integers (since User type resources are resource-identity) and not yet used in the __UR\_Resource__ table.
+They are assigned the ids ```300``` and ```301```, they are positive integers (since User type resources are resource-identity) and not yet used in the __UR_Resource__ table.
 
-The ```User``` resource properties (FirstName, LastName and Manager) are matched to a __UR\_Resource__ table column, such as ```C4```, ```C5``` or ```I40``` according to their data column index, in the above __Entity Type__ definition.
+The ```User``` resource properties (FirstName, LastName and Manager) are matched to a __UR_Resource__ table column, such as ```C4```, ```C5``` or ```I40``` according to their data column index, in the above __Entity Type__ definition.
 
 - FirstName: index 4 => column C4
 - LastName: index 5 => column C5
@@ -44,6 +44,6 @@ Most encountered use cases in real life is populating very tiny datasets like em
 | --- | --- |
 | C0   optional | __Type__    String   __Description__   A column of storage. Going from 0 to 127. |
 | Dirty   default value: false | __Type__    Boolean   __Description__   Flag set by the Identity Manager-Set-RecentlyModifiedFlag task. |
-| DisplayName\_L1   optional | __Type__    String   __Description__   Display name of the resource in language 1 (up to 16). |
+| DisplayName_L1   optional | __Type__    String   __Description__   Display name of the resource in language 1 (up to 16). |
 | I40   optional | __Type__    Int64   __Description__   This columns are used to store the id of an linked entity. When an entity type has a mono-valued association we usually use this columns to store the information. By default there are 10 columns for the storage of the mono-valued associations. |
 | Type   required | __Type__    Int64   __Description__   The type of the resource. References the internal id of an EntityType. |

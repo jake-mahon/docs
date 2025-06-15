@@ -12,7 +12,7 @@ See the [SMARTLog: Target Log for Windows Event Log Type](/versioned_docs/enter
 The configurable options are:
 
 - Path – Enter or browse to the path to the log
-- File mask – Enter file names to limit the file names to return from the path entered. Asterisks can be used for wildcards. For example, ```u_ex*.log``` would match __u\_ex170530.log__. When no mask is set, all files from the listed path are returned.
+- File mask – Enter file names to limit the file names to return from the path entered. Asterisks can be used for wildcards. For example, ```u_ex*.log``` would match __u_ex170530.log__. When no mask is set, all files from the listed path are returned.
 - Log files to be processed – Select from the following options:
 
   - All

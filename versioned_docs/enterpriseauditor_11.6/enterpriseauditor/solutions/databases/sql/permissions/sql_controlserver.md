@@ -1,10 +1,10 @@
-# SQL\_ControlServer Job
+# SQL_ControlServer Job
 
-The SQL\_ControlServer Job provides information on control server permissions. Users with control server permissions can command full control of a SQL and Azure SQL server instance.
+The SQL_ControlServer Job provides information on control server permissions. Users with control server permissions can command full control of a SQL and Azure SQL server instance.
 
-## Analysis Tasks for the SQL\_ControlServer Job
+## Analysis Tasks for the SQL_ControlServer Job
 
-Navigate to the __Databases__ > SQL > 3.Permissions > SQL\_ControlServer > Configure node and select Analysis to view the analysis tasks.
+Navigate to the __Databases__ > SQL > 3.Permissions > SQL_ControlServer > Configure node and select Analysis to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis task(s). The analysis task(s) are preconfigured for this job.
 
@@ -12,11 +12,11 @@ __CAUTION:__ Do not modify or deselect the selected analysis task(s). The analys
 
 The default analysis tasks are:
 
-- Determine Control Server Rights – Creates the SA\_SQL\_ControlServer\_Details table accessible under the job’s Results node
-- Control Server Domain Users – Creates the SA\_SQLServer\_ControlServer\_DomainUsers table accessible under the job’s Results node
-- Control Server Instance Summary – Creates the SA\_SQLServer\_ControlServer\_InstanceSummary table accessible under the job’s Results node
+- Determine Control Server Rights – Creates the SA_SQL_ControlServer_Details table accessible under the job’s Results node
+- Control Server Domain Users – Creates the SA_SQLServer_ControlServer_DomainUsers table accessible under the job’s Results node
+- Control Server Instance Summary – Creates the SA_SQLServer_ControlServer_InstanceSummary table accessible under the job’s Results node
 
-In addition to the tables and views created by the analysis task, the SQL\_ControlServer Job produces the following pre-configured report.
+In addition to the tables and views created by the analysis task, the SQL_ControlServer Job produces the following pre-configured report.
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

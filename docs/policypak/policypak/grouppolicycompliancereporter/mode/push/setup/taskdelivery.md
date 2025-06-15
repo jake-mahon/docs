@@ -6,7 +6,7 @@ __Step 1 –__ At this point, you're ready to create the scheduled task. The eas
 
 Figure 51. Creating a new GPO to deliver a Group Policy Preference scheduled task item.
 
-__Step 2 –__ Click "Next," then provide a new name for the new GPO. When you do, a new GPO is created in the Group Policy Objects node within the GPMC, as shown in Figure 52. In this example, the GPO is called "\_PPGPCR Auditor Scheduled Task."
+__Step 2 –__ Click "Next," then provide a new name for the new GPO. When you do, a new GPO is created in the Group Policy Objects node within the GPMC, as shown in Figure 52. In this example, the GPO is called "_PPGPCR Auditor Scheduled Task."
 
 ![gpcr_server_with_push_mode_16](/img/product_docs/policypak/policypak/grouppolicycompliancereporter/mode/push/setup/gpcr_server_with_push_mode_16.webp)
 

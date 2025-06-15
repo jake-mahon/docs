@@ -96,7 +96,7 @@ Click Generate next to Generate report on users with expired account or password
 
 Review the basic registry keys that you may need to configure for monitoring expiring passwords within your Active Directory domain with Netwrix Auditor. Navigate to __Start > Run__ and type _"regedit"_.
 
-| Registry key (REG\_DWORD type) | Description / Value |
+| Registry key (REG_DWORD type) | Description / Value |
 | --- | --- |
-| HKEY\_LOCAL\_MACHINE\SOFTWARE\WOW6432Node\Netwrix Auditor\Password Expiration Notifier |  |
+| HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Netwrix Auditor\Password Expiration Notifier |  |
 | HideEmailAdditionalInfo | Defines whether to show or hide the header and footer in emails sent to users and their managers (emails sent to administrators always have default header and footer):   - 0—Show - Any other number—Hide |

@@ -275,10 +275,10 @@ Entity Association Mapping
 
 The _Synchronization_ step involves four tables from Identity Manager's database.
 
-- UR\_Resources contains the actual resources.
-- Mono-valued associations ( target column index 128 to 137 included ) are stored in UR\_Resources as well,
-- Multi-valued associations ( target column index null or -1 or 0 to 127 included ) are stored in the UR\_ResourceLinks table.
-- UR\_ResourcesChanges and UR\_ResourceLinkChanges are intermediary tables, used by the complete mode as an extra step before committing changes to the UR\_Resources and UR\_ResourceLinks in the context of a safeguard mechanism.
+- UR_Resources contains the actual resources.
+- Mono-valued associations ( target column index 128 to 137 included ) are stored in UR_Resources as well,
+- Multi-valued associations ( target column index null or -1 or 0 to 127 included ) are stored in the UR_ResourceLinks table.
+- UR_ResourcesChanges and UR_ResourceLinkChanges are intermediary tables, used by the complete mode as an extra step before committing changes to the UR_Resources and UR_ResourceLinks in the context of a safeguard mechanism.
 
 ### Complete
 
@@ -300,7 +300,7 @@ Before actually updating the database, the number of changes to be applied to th
 
 The threshold is a percentage of the total number of stored resources. If the number of changes goes over the threshold, the synchronization is blocked. This safeguard aims at detecting human or system errors that could corrupt Identity Manager's database. For example, a number of _delete_ commands greater than the threshold could be caused by an accidental empty _CSV source file_ being fed to the _synchronization_.
 
-For this purpose, changes are applied to an intermediary safeguard set of tables, UR\_ResourcesChanges and UR\_ResourceLinkChanges. The threshold is checked, and if validated, changes are applied to the UR\_Resources and UR\_ResourceLinks tables.
+For this purpose, changes are applied to an intermediary safeguard set of tables, UR_ResourcesChanges and UR_ResourceLinkChanges. The threshold is checked, and if validated, changes are applied to the UR_Resources and UR_ResourceLinks tables.
 
 ### Initial
 
@@ -310,9 +310,9 @@ _Initial_ synchronization loads the translated resources directly into the datab
 
 The incremental mode uses a ```.sorted.delta``` file that contains changes.
 
-Thresholds are checked just as with the _complete_, using intermediary UR\_ResourcesChanges and UR\_ResourceLinkChanges. tables.
+Thresholds are checked just as with the _complete_, using intermediary UR_ResourcesChanges and UR_ResourceLinkChanges. tables.
 
-Then, changes according to the _command_ column are applied to UR\_Resources and UR\_ResourceLinks.
+Then, changes according to the _command_ column are applied to UR_Resources and UR_ResourceLinks.
 
 ### Synchronization tasks
 

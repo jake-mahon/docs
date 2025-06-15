@@ -58,8 +58,8 @@ For Redshift:
 
 - Read-access to the following tables:
 
-  - pg\_tables
-  - pg\_user
+  - pg_tables
+  - pg_user
 
 For SQL:
 

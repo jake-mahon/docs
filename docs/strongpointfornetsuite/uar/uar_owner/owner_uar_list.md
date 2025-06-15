@@ -27,7 +27,7 @@ Use __Clear__ to reset the Filters.
 
 ## UAR List
 
-- __Export__ exports the list of selected reviews as either a __CSV__ or __PDF__ file. There is an option to __Export All Reviews__. The exported file is named _User\_Access\_Reviews\_List_.
+- __Export__ exports the list of selected reviews as either a __CSV__ or __PDF__ file. There is an option to __Export All Reviews__. The exported file is named _User_Access_Reviews_List_.
 - __Name__ is a link. For a __global__ review, the link opens the Review list showing all of the associated reviews. For a __single__ review the [Membership](/docs/strongpointfornetsuite/uar/uar_owner/owner_membership_reviews.md) or [Permission ](/docs/strongpointfornetsuite/uar/uar_owner/owner_permission_reviews.md)__Review__ tab is opened. Reviews can also be opened via links in dashboard or email __Notifications__.
 - __Number of Reviews__ (global) is the number of single reviews in the global review.
 - __Review Type__ is the type of review. Global can be __Both__, __Membership__, or __Permission__. Single is __Membership__ or __Permission__. The review type is set when the review is created.
@@ -55,9 +55,9 @@ When you open a global review using the __Name__ link in the UAR list, the Revi
 
 ![Review list of associated single reviews under a global review](/img/product_docs/strongpointfornetsuite/uar/uar_owner/review_list.webp)
 
-- __Export__ exports the list of selected reviews as either a __CSV__ or __PDF__ file. The exported file is named _Reviews\_Group\_List_.
-- __Extract Membership Detail__ creates a CSV file (_Membership\_Report.csv_) of the membership details for the reviews.
-- __Extract Permission Detail__creates a CSV file (_Permission\_Report.csv_) of the permission details for the reviews.
+- __Export__ exports the list of selected reviews as either a __CSV__ or __PDF__ file. The exported file is named _Reviews_Group_List_.
+- __Extract Membership Detail__ creates a CSV file (_Membership_Report.csv_) of the membership details for the reviews.
+- __Extract Permission Detail__creates a CSV file (_Permission_Report.csv_) of the permission details for the reviews.
 - __Review Name__ is a link to the [Membership](/docs/strongpointfornetsuite/uar/uar_owner/owner_membership_reviews.md) or [Permission ](/docs/strongpointfornetsuite/uar/uar_owner/owner_permission_reviews.md)__Review__ tab. Reviews can also be opened via links in dashboard or email __Notifications__.
 - __Role Name__ the role being reviewed.
 - __Review Type__ is the type of review: __Membership__ or __Permission__. The review type is set when the review is created.

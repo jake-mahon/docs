@@ -4,19 +4,19 @@
 
 Check file permissions, especially execute permissions for the user account to be used by the Netwrix Change Tracker Proxy Agent.
 
-[root@IP141-Oracle-Linux-7 ~]# NNT\_FILEHASH\_LINUX\_X64
+[root@IP141-Oracle-Linux-7 ~]# NNT_FILEHASH_LINUX_X64
 
--bash: /usr/bin/NNT\_FILEHASH\_LINUX\_X64: Permission denied
+-bash: /usr/bin/NNT_FILEHASH_LINUX_X64: Permission denied
 
 [root@IP141-Oracle-Linux-7 ~]#
 
 ## No File or Directory
 
-Check that the NNT\_Filehash has been placed on a path for the user account being used. Use $PATH to show the path variable settings for the user account. You can modify the user path by creating a custom.sh shell script in /etc/profile.d/ or by modifying /etc/bashrc or /etc/profile but reference the appropriate guidance for your platform OS.
+Check that the NNT_Filehash has been placed on a path for the user account being used. Use $PATH to show the path variable settings for the user account. You can modify the user path by creating a custom.sh shell script in /etc/profile.d/ or by modifying /etc/bashrc or /etc/profile but reference the appropriate guidance for your platform OS.
 
-[root@IP141-Oracle-Linux-7 ~]# NNT\_FILEHASH\_LINUX\_X64
+[root@IP141-Oracle-Linux-7 ~]# NNT_FILEHASH_LINUX_X64
 
--bash: /usr/bin/NNT\_FILEHASH\_LINUX\_X64: No such file or directory
+-bash: /usr/bin/NNT_FILEHASH_LINUX_X64: No such file or directory
 
 [root@IP141-Oracle-Linux-7 ~]#
 
@@ -24,15 +24,15 @@ Check that the NNT\_Filehash has been placed on a path for the user account bein
 
 Suggests there may be missing dependencies or required libs are not on an executable path for the user account being used.
 
-[[root@IP141-Oracle-Linux-7 ~]# NNT\_FILEHASH\_LINUX\_X64
+[[root@IP141-Oracle-Linux-7 ~]# NNT_FILEHASH_LINUX_X64
 
-NNT\_FILEHASH\_LINUX\_X64: error while loading shared libraries: libstdc++.so.6: cannot open shared object file: No such file or directory
+NNT_FILEHASH_LINUX_X64: error while loading shared libraries: libstdc++.so.6: cannot open shared object file: No such file or directory
 
 [root@IP141-Oracle-Linux-7 ~]#
 
-Check dependencies of NNT Filehash using a ldd NNT\_FILEHASH\_LINUX\_X64
+Check dependencies of NNT Filehash using a ldd NNT_FILEHASH_LINUX_X64
 
-[root@IP141-Oracle-Linux-7 bin]# ldd NNT\_FILEHASH\_LINUX\_X64
+[root@IP141-Oracle-Linux-7 bin]# ldd NNT_FILEHASH_LINUX_X64
 
 linux-vdso.so.1 => (0x00007ffdca7f1000)
 
@@ -40,7 +40,7 @@ libstdc++.so.6 => not found
 
 libm.so.6 => /lib64/libm.so.6 (0x00007ff4efd3a000)
 
-libgcc\_s.so.1 => /lib64/libgcc\_s.so.1 (0x00007ff4efb24000)
+libgcc_s.so.1 => /lib64/libgcc_s.so.1 (0x00007ff4efb24000)
 
 libc.so.6 => /lib64/libc.so.6 (0x00007ff4ef762000)
 

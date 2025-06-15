@@ -1,10 +1,10 @@
-# AD\_DomainControllerTraffic Job
+# AD_DomainControllerTraffic Job
 
-The AD\_DomainControllerTraffic Job provides a summary of the amount of traffic for Changes, Authentication, Replication, and LDAP Queries for each domain controller which can be used to identify issues with load balancing. If the AD\_DCSummary job has been run, the roles for each domain controller will be provided.
+The AD_DomainControllerTraffic Job provides a summary of the amount of traffic for Changes, Authentication, Replication, and LDAP Queries for each domain controller which can be used to identify issues with load balancing. If the AD_DCSummary job has been run, the roles for each domain controller will be provided.
 
-## Analysis Tasks for the AD\_DomainControllerTraffic Job
+## Analysis Tasks for the AD_DomainControllerTraffic Job
 
-Navigate to the __Active Directory__ > __6.Activity__ > __Operations__ > __AD\_DomainControllerTraffic__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Active Directory__ > __6.Activity__ > __Operations__ > __AD_DomainControllerTraffic__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,9 +12,9 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The default analysis task is:
 
-- Summarize Protocol Usage – Creates the SA\_AD\_DomainControllerTraffic\_Details table accessible under the job’s Results node
+- Summarize Protocol Usage – Creates the SA_AD_DomainControllerTraffic_Details table accessible under the job’s Results node
 
-In addition to the tables created by the analysis tasks, the AD\_DomainControllerTraffic Job produces the follow pre-configured report:
+In addition to the tables created by the analysis tasks, the AD_DomainControllerTraffic Job produces the follow pre-configured report:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

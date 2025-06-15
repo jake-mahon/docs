@@ -1,10 +1,10 @@
-# AD\_GroupPolicy Job
+# AD_GroupPolicy Job
 
-The AD\_GroupPolicy Job audits all Group Policies that are present on the Domain Controller, and provides details on the containers they are linked to, and the settings that are configured.
+The AD_GroupPolicy Job audits all Group Policies that are present on the Domain Controller, and provides details on the containers they are linked to, and the settings that are configured.
 
-## Queries for the AD\_GroupPolicy Job
+## Queries for the AD_GroupPolicy Job
 
-The AD\_GroupPolicy Job uses the GroupPolicy Data Collector for the following query:
+The AD_GroupPolicy Job uses the GroupPolicy Data Collector for the following query:
 
 __CAUTION:__ Do not modify the queries. The queries are preconfigured for this job.
 
@@ -15,9 +15,9 @@ The queries for this job are:
 - Link Status – Targets the default domain controller known to Access Analyzer to retrieve a GPO's list for the domain
 - Settings – Targets the default domain controller known to Access Analyzer to return the state for domain policies for all GPOs. See the [GroupPolicy Data Collector](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/grouppolicy/overview.md) topic for additional information.
 
-## Analysis Tasks for the AD\_GroupPolicy Job
+## Analysis Tasks for the AD_GroupPolicy Job
 
-Navigate to the __Active Directory__ > __4.GroupPolicy__ > __AD\_GroupPolicy__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Active Directory__ > __4.GroupPolicy__ > __AD_GroupPolicy__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -26,9 +26,9 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 The default analysis tasks are:
 
 - 1. Group Policy Analysis – Creates an interim processing table in the database for use by downstream analysis and report generation
-- 2. Combined User and Computer Settings – Creates the SA\_AD\_GroupPolicy\_SettingList table accessible under the job’s Results node
+- 2. Combined User and Computer Settings – Creates the SA_AD_GroupPolicy_SettingList table accessible under the job’s Results node
 
-In addition to the tables and views created by the analysis tasks, the AD\_GroupPolicy Job produces the following pre-configured reports:
+In addition to the tables and views created by the analysis tasks, the AD_GroupPolicy Job produces the following pre-configured reports:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

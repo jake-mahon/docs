@@ -43,7 +43,7 @@ __Step 3 –__ Configure the following:
 
 - Configure the desired number of days for the __Period to keep Log files__. This is the number of days the log files are kept on the API server configured in the sections above. This needs to be set to a greater value than the days between Enterprise Auditor scans.
 
-  - For example, if Enterprise Auditor runs the __AD\_ActivityCollection__ Job once a week (every 7 days), then the Activity Monitor output should be configured to retain at least 10 days of log files.
+  - For example, if Enterprise Auditor runs the __AD_ActivityCollection__ Job once a week (every 7 days), then the Activity Monitor output should be configured to retain at least 10 days of log files.
 - Check the __This log file is for StealthAUDIT__ box.
 - Optionally select the __Enable periodic AD Status Check event reporting__ checkbox. When enabled, the agent will send out status messages every five minutes to verify whether the connection is still active.
 
@@ -81,13 +81,13 @@ __Step 8 –__ Click __Save__ and then __OK__ to confirm the changes to the job 
 
 The Connection Profile will now be used for AD Activity collection.
 
-## Configure the AD\_ActivityCollection Job
+## Configure the AD_ActivityCollection Job
 
-The Enterprise Auditor requires additional configurations in order to collect domain activity data. Follow the steps to configure the __AD\_ActivityCollection__ Job.
+The Enterprise Auditor requires additional configurations in order to collect domain activity data. Follow the steps to configure the __AD_ActivityCollection__ Job.
 
 __NOTE:__ Ensure that the .Active Directory Inventory Job Group has been successfully run against the target domain.
 
-__Step 1 –__ Navigate to the __Jobs__ > __Active Directory__ > __6.Activity__ > __0.Collection__ > __AD\_ActivityCollection__ Job. Select the __Configure__ > __Queries__ node.
+__Step 1 –__ Navigate to the __Jobs__ > __Active Directory__ > __6.Activity__ > __0.Collection__ > __AD_ActivityCollection__ Job. Select the __Configure__ > __Queries__ node.
 
 __Step 2 –__ Click __Query Properties__. The Query Properties window displays.
 
@@ -108,7 +108,7 @@ __Step 6 –__ On the Scope page, set the Timespan as desired. There are two opt
 - Relative Timespan – Set the number of days of activity logs to collect when the scan is run
 - Absolute Timespan – Set the date range for activity logs to collect when the scan is run
 
-___RECOMMENDED:___ The threshold should be set to ensure the logs are collected before the Activity Monitor domain output log retention expires. For example, if Enterprise Auditor runs the __AD\_ActivityCollection__ Job once a week (every 7 days), then the Activity Monitor output should be configured to retain at least 10 days of log files.
+___RECOMMENDED:___ The threshold should be set to ensure the logs are collected before the Activity Monitor domain output log retention expires. For example, if Enterprise Auditor runs the __AD_ActivityCollection__ Job once a week (every 7 days), then the Activity Monitor output should be configured to retain at least 10 days of log files.
 
 __Step 7 –__ Set the Retention period as desired. This is the number of days Enterprise Auditor keeps the collected data in the SQL Server database.
 

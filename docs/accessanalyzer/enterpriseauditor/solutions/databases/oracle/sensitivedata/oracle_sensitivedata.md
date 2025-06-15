@@ -1,10 +1,10 @@
-# Oracle\_SensitiveData Job
+# Oracle_SensitiveData Job
 
-The Oracle\_SensitveData Job is designed to provide information on all sensitive data that was discovered in targeted Oracle database servers based on selected scan criteria.
+The Oracle_SensitveData Job is designed to provide information on all sensitive data that was discovered in targeted Oracle database servers based on selected scan criteria.
 
-## Analysis Tasks for the Oracle\_SensitiveData Job
+## Analysis Tasks for the Oracle_SensitiveData Job
 
-Navigate to the __Oracle > 5.Sensitve Data > Oracle\_SensitveData > Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Oracle > 5.Sensitve Data > Oracle_SensitveData > Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,11 +12,11 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The default analysis tasks are:
 
-- Determine sensitive data details – Creates the SA\_Oracle\_SensitiveData\_Details table accessible under the job’s Results node
-- Instance Summary – Creates the SA\_Oracle\_SensitiveData\_InstanceSummary table accessible under the job’s Results node
-- Enterprise Summary – Creates the SA\_Oracle\_SensitiveData\_EnterpriseSummary table accessible under the job’s Results node
+- Determine sensitive data details – Creates the SA_Oracle_SensitiveData_Details table accessible under the job’s Results node
+- Instance Summary – Creates the SA_Oracle_SensitiveData_InstanceSummary table accessible under the job’s Results node
+- Enterprise Summary – Creates the SA_Oracle_SensitiveData_EnterpriseSummary table accessible under the job’s Results node
 
-In addition to the tables and views created by the analysis tasks, the __Oracle\_SensitveData Job__ produces the following pre-configured reports.
+In addition to the tables and views created by the analysis tasks, the __Oracle_SensitveData Job__ produces the following pre-configured reports.
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

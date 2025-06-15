@@ -77,7 +77,7 @@ You need to know the IDs of the configuration items to set conditions. Ask your 
      
    To open the Application Explorer, open __System Applications__ > __Studio__ and select __Strongpoint NetSuite Integration__
 2. Set the __Condition__ field to restrict display based on specific configuration items. If your company uses a different solution to identify changes for the NetSuite platform, contact your ServiceNow administrator to help determine the conditions to be set. In this example, we set the condition to be:   
-   __current.cmdb\_ci == 'configuration\_item\_sys\_id'__
+   __current.cmdb_ci == 'configuration_item_sys_id'__
 
    ![servicenowinstall9](/img/product_docs/strongpointfornetsuite/integrations/servicenowinstall9.webp)
 3. Click __Update__.
@@ -98,7 +98,7 @@ You can set any other stage (standard or custom) depending on your approval proc
    ![servicenowinstall10](/img/product_docs/strongpointfornetsuite/integrations/servicenowinstall10.webp)
      
     If you set action button conditions in the Display Action Buttons Only for Specific Conditions procedure, add this condition to the existing ones. For example,  
-   __current.cmdb\_ci == 'configuration\_item\_sys\_id' && current.state > -3__
+   __current.cmdb_ci == 'configuration_item_sys_id' && current.state > -3__
 5. Click __Update__.
 
 #### Display Strongpoint NetSuite Tab for Selected Users
@@ -115,7 +115,7 @@ By default, all user can see the Strongpoint NetSuite tab in ServiceNow Change R
 
       ![Open the ServiceNow Configuration items](/img/product_docs/strongpointfornetsuite/integrations/servicenow_tab1.webp)
    3. Select the system for the user to grant access to the tab.
-   4. Select __Copy sys\_id__ from the drop down menu.
+   4. Select __Copy sys_id__ from the drop down menu.
 
       ![Select Copy sys_id from the drop down menu](/img/product_docs/strongpointfornetsuite/integrations/servicenow_tab2.webp)
    5. Paste the identifier in a file where you can access it to add to the script when you are finished locating the system identifiers. An example identifer is _b4fd7c8437201000deeabfc8bcbe5dc1_

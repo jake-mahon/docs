@@ -1,10 +1,10 @@
-# FS\_AdminActvity Job
+# FS_AdminActvity Job
 
-The FS\_AdminActivity job is designed to report on administrator related activity event information from targeted file servers.
+The FS_AdminActivity job is designed to report on administrator related activity event information from targeted file servers.
 
-## Analysis Tasks for the FS\_AdminActivity Job
+## Analysis Tasks for the FS_AdminActivity Job
 
-View the analysis tasks by navigating to the __FileSystem__ > __5.Activity__ > __Security__ > __FS\_AdminActivity__ > __Configure__ node and select Analysis.
+View the analysis tasks by navigating to the __FileSystem__ > __5.Activity__ > __Security__ > __FS_AdminActivity__ > __Configure__ node and select Analysis.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -14,12 +14,12 @@ The following analysis tasks are selected by default:
 
 - 1. Create Admin Activity View – Creates an interim processing view in the database for use by downstream analysis and report generation
 - 2. Effective Access to Locations with Admin Activity – Creates an interim processing table in the database for use by downstream analysis and report generation
-- 3. Suspicious Admin Activity – Creates the SA\_FS\_AdminActivity\_SuspiciousActivity table accessible under the job’s Results node
+- 3. Suspicious Admin Activity – Creates the SA_FS_AdminActivity_SuspiciousActivity table accessible under the job’s Results node
 - 4. Operations Overview – Creates an interim processing table in the database for use by downstream analysis and report generation
 - 5. Rank admins by activity – Creates an interim processing table in the database for use by downstream analysis and report generation
 - 6. Pivot Admin Activity for Details Report – Creates an interim processing table in the database for use by downstream analysis and report generation
 
-In addition to the tables and views created by the analysis tasks, the FS\_AdminActivity job produces the following pre-configured reports:
+In addition to the tables and views created by the analysis tasks, the FS_AdminActivity job produces the following pre-configured reports:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

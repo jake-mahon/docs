@@ -10,7 +10,7 @@ The host list assignment should be assigned under the __Dropbox__ > __0.Collecti
 
 Connection Profile
 
-The DropboxAccess Data Collector requires a specific set of permissions to generate an access token which is used to configure the Connection Profile for Dropbox. The access token is generated in the Dropbox Access Auditor Data Collector Wizard on the Scan Options page (accessed through the __1-Dropbox\_Permissions Scan__ job’s __Queries__ node). The access token only needs to be generated once, prior to running the job group for the first time. Then it is used as the credential in the Connection Profile. See the [DropboxAccess: Scan Options](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/dropboxaccess/scanoptions.md) topic for additional information.
+The DropboxAccess Data Collector requires a specific set of permissions to generate an access token which is used to configure the Connection Profile for Dropbox. The access token is generated in the Dropbox Access Auditor Data Collector Wizard on the Scan Options page (accessed through the __1-Dropbox_Permissions Scan__ job’s __Queries__ node). The access token only needs to be generated once, prior to running the job group for the first time. Then it is used as the credential in the Connection Profile. See the [DropboxAccess: Scan Options](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/dropboxaccess/scanoptions.md) topic for additional information.
 
 The Dropbox solution has been configured to inherit the Connection Profile from the collection job group level. The Connection Profile should be assigned under the __Dropbox__ > __0.Collection__ > __Settings__ > __Connection__ node. It is set to __Use the Default Profile__, as configured at the global settings level. However, since this may not be the Connection Profile with the necessary permissions for Dropbox, select the __Select one of the following user defined profiles__ option and select the appropriate Connection Profile from the drop-down menu. See the [Custom Dropbox Connection Profile & Host List](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/dropboxaccess/configurejob.md) topic for additional information on configuring the Dropbox credential. The Dropbox bulk import jobs requires the same connection profile as used in the corresponding Dropbox scan jobs
 
@@ -30,7 +30,7 @@ Not supported.
 
 Run Order
 
-The 0.Collection jobs must be run first and in order. Run the __1-Dropbox\_Permissions Scan__ job and then the __2-Dropbox\_Permissions Bulk Import__ job. For the sensitive data jobs, run the __1-Dropbox\_SDD Scan__ job and then the __2-Dropbox\_SDD Bulk Import__ job.
+The 0.Collection jobs must be run first and in order. Run the __1-Dropbox_Permissions Scan__ job and then the __2-Dropbox_Permissions Bulk Import__ job. For the sensitive data jobs, run the __1-Dropbox_SDD Scan__ job and then the __2-Dropbox_SDD Bulk Import__ job.
 
 ___RECOMMENDED:___ When running the sensitive data jobs, disable the permissions jobs, and vice versa.
 
@@ -50,9 +50,9 @@ Though the analysis tasks should not be deselected the time frame used to define
 
 - Stale content set to default of 365 days
 
-  - Configured within the __4.Content__ > __Dropbox\_Content__ job
+  - Configured within the __4.Content__ > __Dropbox_Content__ job
   - __Determines stale data by owner__ analysis task
-  - See the [4.Content > Dropbox\_Content Job](/docs/accessanalyzer/enterpriseauditor/solutions/dropbox/dropbox_content.md) topic for additional information
+  - See the [4.Content > Dropbox_Content Job](/docs/accessanalyzer/enterpriseauditor/solutions/dropbox/dropbox_content.md) topic for additional information
 
 Additional Consideration
 
@@ -62,9 +62,9 @@ Workflow
 
 The following is the recommended workflow:
 
-__Step 1 –__ Run the __1-Dropbox\_Permissions Scan__ job (for sensitive data, run the __1-Dropbox\_SDD Scan__ job).
+__Step 1 –__ Run the __1-Dropbox_Permissions Scan__ job (for sensitive data, run the __1-Dropbox_SDD Scan__ job).
 
-__Step 2 –__ Run the __2-Dropbox\_Permissions Bulk Import__ job (for sensitive data, run the __2-Dropbox\_SDD Bulk Import__ job).
+__Step 2 –__ Run the __2-Dropbox_Permissions Bulk Import__ job (for sensitive data, run the __2-Dropbox_SDD Bulk Import__ job).
 
 __Step 3 –__ Run the desired corresponding analysis and reporting sub-job groups.
 

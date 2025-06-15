@@ -135,7 +135,7 @@ This guide will show you how to perform these operations using SQL Server Manage
 8. Go to the __Server Roles__ page on the left.
 9. Make sure __public__ is checked.
 10. Go to __User Mapping__.
-11. Make sure ```Usercube/<Organization/>``` is checked (top panel), as well as __db\_owner__ and __public__ (bottom panel).
+11. Make sure ```Usercube/<Organization/>``` is checked (top panel), as well as __db_owner__ and __public__ (bottom panel).
 12. Right-click the __Server__ root node and select __Properties__.
 13. In the __Permissions__ tab, select the service account or group name set up or found in Step __6__ or __7__.
 14. Grant the __Administer bulk operations__ permission.

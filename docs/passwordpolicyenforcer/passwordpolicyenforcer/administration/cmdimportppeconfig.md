@@ -16,10 +16,10 @@ Name of the configuration file. Can also use __-F__ or __-f__.
 
 `<_CommonParameters_>`
 
-This cmdlet supports the common parameters: __Verbose__, __Debug__, __ErrorAction__, __ErrorVariable__, __WarningAction__, __WarningVariable__, __OutBuffer__, __PipelineVariable__, and __OutVariable__. For more information, see about\_CommonParameters [https:/go.microsoft.com/fwlink/?LinkID=113216](https:/go.microsoft.com/fwlink?linkid=113216).
+This cmdlet supports the common parameters: __Verbose__, __Debug__, __ErrorAction__, __ErrorVariable__, __WarningAction__, __WarningVariable__, __OutBuffer__, __PipelineVariable__, and __OutVariable__. For more information, see about_CommonParameters [https:/go.microsoft.com/fwlink/?LinkID=113216](https:/go.microsoft.com/fwlink?linkid=113216).
 
 EXAMPLE
 
-PS C:\> Import-PPEConfig -File C:\PPE\ppe\_config
+PS C:\> Import-PPEConfig -File C:\PPE\ppe_config
 
 Config import successful.

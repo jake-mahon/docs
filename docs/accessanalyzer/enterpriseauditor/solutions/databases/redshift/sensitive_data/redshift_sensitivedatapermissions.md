@@ -1,10 +1,10 @@
-# Redshift\_SensitiveDataPermissions Job
+# Redshift_SensitiveDataPermissions Job
 
-The Redshift\_SensitiveDataPermissions Job is designed to provide information on all types of permissions on database objects containing sensitive data across all the targeted Redshift servers based on the selected scan criteria.
+The Redshift_SensitiveDataPermissions Job is designed to provide information on all types of permissions on database objects containing sensitive data across all the targeted Redshift servers based on the selected scan criteria.
 
-## Analysis Tasks for the Redshift\_SensitiveData Job
+## Analysis Tasks for the Redshift_SensitiveData Job
 
-Navigate to the __Jobs > Databases > Redshift > Sensitive Data > Redshift\_SensitiveDataPermissions > Configure__ node and select Analysis to view the analysis tasks.
+Navigate to the __Jobs > Databases > Redshift > Sensitive Data > Redshift_SensitiveDataPermissions > Configure__ node and select Analysis to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,10 +12,10 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The default analysis tasks are:
 
-- Sensitive Data Permission Details – Creates the Redshift\_SensitiveDataPermissions\_Details table accessible under the job’s Results node
-- Sensitive Data Permissions Database Summary – Creates the Redshift\_SensitiveDataPermissions\_DatabaseSummary table accessible under the job’s Results node
+- Sensitive Data Permission Details – Creates the Redshift_SensitiveDataPermissions_Details table accessible under the job’s Results node
+- Sensitive Data Permissions Database Summary – Creates the Redshift_SensitiveDataPermissions_DatabaseSummary table accessible under the job’s Results node
 
-In addition to the tables and views created by the analysis tasks, the Redshift\_SensitiveDataPermissions Job produces the following pre-configured report.
+In addition to the tables and views created by the analysis tasks, the Redshift_SensitiveDataPermissions Job produces the following pre-configured report.
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

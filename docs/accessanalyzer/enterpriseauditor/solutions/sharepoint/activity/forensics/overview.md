@@ -6,6 +6,6 @@ This group will highlight deletions, group membership changes, permission change
 
 The jobs in the Forensics Job Group are:
 
-- [SP\_Deletions Job](/docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/activity/forensics/sp_deletions.md) – Identifies SharePoint deletion events which have occurred over the past 30 days
-- [SP\_PermissionChanges Job](/docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/activity/forensics/sp_permissionchanges.md) – Identifies permission changes which have been performed on all monitored SharePoint sites over the past 30 days
-- [SP\_SensitiveDataActivity Job](/docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/activity/forensics/sp_sensitivedataactivity.md) – Highlights user activity involving sensitive data and provides details on who is interacting with your environments sensitive content
+- [SP_Deletions Job](/docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/activity/forensics/sp_deletions.md) – Identifies SharePoint deletion events which have occurred over the past 30 days
+- [SP_PermissionChanges Job](/docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/activity/forensics/sp_permissionchanges.md) – Identifies permission changes which have been performed on all monitored SharePoint sites over the past 30 days
+- [SP_SensitiveDataActivity Job](/docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/activity/forensics/sp_sensitivedataactivity.md) – Highlights user activity involving sensitive data and provides details on who is interacting with your environments sensitive content

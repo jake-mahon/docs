@@ -1,14 +1,14 @@
-# Lockouts > AD\_Lockouts Job
+# Lockouts > AD_Lockouts Job
 
-The __Lockouts__ > __AD\_Lockouts__ Job provides a listing of all account lockouts. For any lockout occurring in the past 30 days, failed authentications and host information is provided to aid troubleshooting.
+The __Lockouts__ > __AD_Lockouts__ Job provides a listing of all account lockouts. For any lockout occurring in the past 30 days, failed authentications and host information is provided to aid troubleshooting.
 
 ![AD_Lockouts Job in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/activity/lockoutsjobstree.webp)
 
 ___RECOMMENDED:___ Schedule this job to run with the 0.Collection job group.
 
-## Analysis Tasks for the AD\_Lockouts Job
+## Analysis Tasks for the AD_Lockouts Job
 
-Navigate to the __Active Directory__ > __6.Activity__ > __Lockouts__ > __AD\_Lockouts__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Active Directory__ > __6.Activity__ > __Lockouts__ > __AD_Lockouts__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -16,10 +16,10 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The default analysis tasks are:
 
-- Account Lockouts – Creates the SA\_AD\_AccountLockouts\_Details view accessible under the job’s Results node
-- Failed Authentications – Creates the SA\_AD\_AccountLockouts\_FailedAutnentications table accessible under the job’s Results node
+- Account Lockouts – Creates the SA_AD_AccountLockouts_Details view accessible under the job’s Results node
+- Failed Authentications – Creates the SA_AD_AccountLockouts_FailedAutnentications table accessible under the job’s Results node
 
-In addition to the tables created by the analysis tasks, the AD\_Lockouts Job produces the follow pre-configured reports:
+In addition to the tables created by the analysis tasks, the AD_Lockouts Job produces the follow pre-configured reports:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

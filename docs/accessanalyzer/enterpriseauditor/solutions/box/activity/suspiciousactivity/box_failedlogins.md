@@ -1,10 +1,10 @@
-# Box\_FailedLogins Job
+# Box_FailedLogins Job
 
-The Box\_FailedLogins Job identifies failed logon events that have occurred over the last 30 days. A failed logon can be an indication of security issues such as an attempt to access unauthorized content, or operational issues such as a misconfigured service account.
+The Box_FailedLogins Job identifies failed logon events that have occurred over the last 30 days. A failed logon can be an indication of security issues such as an attempt to access unauthorized content, or operational issues such as a misconfigured service account.
 
-## Analysis Tasks for the Box\_FailedLogins Job
+## Analysis Tasks for the Box_FailedLogins Job
 
-Navigate to __Box__ > __1.Activity__ > __Suspicious Activity__ > __Box\_FailedLogins__ > __Configure__ node and select __Analysis__.
+Navigate to __Box__ > __1.Activity__ > __Suspicious Activity__ > __Box_FailedLogins__ > __Configure__ node and select __Analysis__.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,11 +12,11 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The following analysis tasks are selected by default:
 
-- Failed Logins – Creates the Box\_FailedLogin\_Details table accessible under the job’s Results node
+- Failed Logins – Creates the Box_FailedLogin_Details table accessible under the job’s Results node
 - Failed Login User Summary – Creates an interim processing table in the database for use by downstream analysis and report generation
 - Failed Login Summary – Creates an interim processing table in the database for use by downstream analysis and report generation
 
-In addition to the tables created by the analysis tasks, the Box\_FailedLogins Job produces the following pre-configured report:
+In addition to the tables created by the analysis tasks, the Box_FailedLogins Job produces the following pre-configured report:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

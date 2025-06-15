@@ -72,7 +72,7 @@ Depending on the event, the strings in the description may vary. The first eight
 | String | Description |
 | --- | --- |
 | String1 | The event type: info or warning |
-| String2 | The event date and time in the following format: YYYY\_MM\_DD\_hh\_mm\_ss\_000 |
+| String2 | The event date and time in the following format: YYYY_MM_DD_hh_mm_ss_000 |
 | String3 | The name of the user accessing mailbox |
 | String4 | The SID of the user accessing mailbox |
 | String5 | The GUID of the mailbox being accessed |

@@ -48,9 +48,9 @@ __CAUTION:__ Most of these analysis tasks are preconfigured and should not be mo
 
 The following analysis tasks are selected by default:
 
-- Users – Enables the SA\_NIS\_Users table to be accessible under the job’s Results node
-- Groups – Enables the SA\_NIS\_Groups table to be accessible under the job’s Results node
-- Members – Enables the SA\_NIS\_GroupMembersView to be accessible under the job’s Results node
+- Users – Enables the SA_NIS_Users table to be accessible under the job’s Results node
+- Groups – Enables the SA_NIS_Groups table to be accessible under the job’s Results node
+- Members – Enables the SA_NIS_GroupMembersView to be accessible under the job’s Results node
 
 The following analysis task only needs to be selected when there is a need to remove the tables from the database:
 

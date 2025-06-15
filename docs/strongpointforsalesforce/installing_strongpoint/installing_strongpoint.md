@@ -22,7 +22,7 @@ The following items are needed:
 4. Under __Basic Information__ enter the required fields:
 
 - __Connected App Name__: __Netwrix Platform Governance__
-- __API Name__: __Netwrix\_Platform\_Governance__
+- __API Name__: __Netwrix_Platform_Governance__
 - __Contact E-mail__
 
 5. Click __API (Enable OAuth Settings)__ to expand the section.

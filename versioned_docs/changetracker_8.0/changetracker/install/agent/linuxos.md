@@ -62,7 +62,7 @@ __NOTE:__ Remove ```rpm -evv nnt-changetracker-gen7agentcore-7.0.1.9-252.noarch`
 
 Netwrix provides packages for __Debian__ distributions so please download the relevant Gen 7 Agent package then install using:
 
-# dpkg -i nnt-changetracker-gen7agentcore\_7.0.1.8-261\_all.deb
+# dpkg -i nnt-changetracker-gen7agentcore_7.0.1.8-261_all.deb
 
 You can then use the same steps for configuring your __HubDetails.xml__ file as in the previous section.
 

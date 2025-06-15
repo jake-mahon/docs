@@ -1,6 +1,6 @@
-# 3-Oracle\_ActivityScan Job
+# 3-Oracle_ActivityScan Job
 
-The 3-Oracle\_ActivityScan Job captures user activity from all the targeted Oracle database servers.
+The 3-Oracle_ActivityScan Job captures user activity from all the targeted Oracle database servers.
 
 Special Dependency
 
@@ -8,7 +8,7 @@ Special Dependency
   - Audit destination must be a binary file
   - See the Microsoft [Create a Server Audit and Database Audit Specification](https://docs.microsoft.com/en-us/sql/relational-databases/security/auditing/create-a-server-audit-and-database-audit-specification) article for additional information.
 
-## Query for the 3-Oracle\_ActivityScan Job
+## Query for the 3-Oracle_ActivityScan Job
 
 The ActivityScan Query uses the SQL Data Collector for the following query:
 
@@ -16,11 +16,11 @@ The ActivityScan Query uses the SQL Data Collector for the following query:
 
 - ActivityScan – Collects activity from targeted instances
 
-### Configure the 3-Oracle\_ActivityScan Query
+### Configure the 3-Oracle_ActivityScan Query
 
-The 3-Oracle\_ActivityScan Job is preconfigured to run using the default settings for the Server Audit Events Collection category in the SQL Data Collector. Follow the steps to customize configurations:
+The 3-Oracle_ActivityScan Job is preconfigured to run using the default settings for the Server Audit Events Collection category in the SQL Data Collector. Follow the steps to customize configurations:
 
-__Step 1 –__ Navigate to the __Databases__ > __0.Collection__ > __Oracle__ > __3-Oracle\_ActivityScan__ > __Configure__ node and select Queries.
+__Step 1 –__ Navigate to the __Databases__ > __0.Collection__ > __Oracle__ > __3-Oracle_ActivityScan__ > __Configure__ node and select Queries.
 
 __Step 2 –__ In the Query Selection view, select the ActivityScan query and click on Query Properties. The Query Properties window opens.
 
@@ -42,11 +42,11 @@ __Step 5 –__ To query for specific databases/instances, navigate to the Filter
 
 __Step 6 –__ Navigate to the Summary page, click Finish to save any setting modifications or click Cancel if no changes were made. Then click OK to close the Query Properties window.
 
-The 3-Oracle\_ActivityScan Job is now ready to run with the customized settings.
+The 3-Oracle_ActivityScan Job is now ready to run with the customized settings.
 
-## Analysis Tasks for the 3-Oracle\_ActivityScan Job
+## Analysis Tasks for the 3-Oracle_ActivityScan Job
 
-Navigate to the __Databases__ > __0.Collection__ > __Oracle__ > __3-Oracle\_ActivityScan__ > __Configure__ node and select Analysis to view the analysis tasks.
+Navigate to the __Databases__ > __0.Collection__ > __Oracle__ > __3-Oracle_ActivityScan__ > __Configure__ node and select Analysis to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -54,5 +54,5 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The default analysis tasks are:
 
-- Oracle Activity Import – Creates the SA\_AIC\_ActivityEventsImport table accessible under the job’s Results node
+- Oracle Activity Import – Creates the SA_AIC_ActivityEventsImport table accessible under the job’s Results node
 - Delete Activity Older than 30 Days – Drops Activity from the AIC tables older than 30 days

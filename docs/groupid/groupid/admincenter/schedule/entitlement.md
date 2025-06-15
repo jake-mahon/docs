@@ -10,9 +10,9 @@ An Entitlement schedule is automatically created for an identity store when:
 By default, the schedule runs weekly to compute permissions on shared files and folders residing on the specified servers (for Active Directory), and the document libraries present in the specified sites (for SharePoint). It then replicates these permissions
 to Elasticsearch, enabling users to view, manage and update these permissions in the Directory Manager portal.
 
-On the very first run of the Entitlement schedule, it computes all permissions from scratch and performs a complete replication. On each next run, it will create a parallel index for that specific server/SharePoint site index with the suffix \_replication which computes all permissions from scratch. In the meantime, user can perform actions on Directory Manager Entitlement. The actions performed during this parallel replication are committed directly at the provider and stored in the database. These changes are then immediately committed to elastic after the replication is complete.
+On the very first run of the Entitlement schedule, it computes all permissions from scratch and performs a complete replication. On each next run, it will create a parallel index for that specific server/SharePoint site index with the suffix _replication which computes all permissions from scratch. In the meantime, user can perform actions on Directory Manager Entitlement. The actions performed during this parallel replication are committed directly at the provider and stored in the database. These changes are then immediately committed to elastic after the replication is complete.
 
-The scope schedule changes are replicated after the new index is done replicating permissions from the server/SharePoint. When this parallel index gets completely replicated, it becomes the new primary index for this server/SharePoint site and the \_replication index is deleted from indices.
+The scope schedule changes are replicated after the new index is done replicating permissions from the server/SharePoint. When this parallel index gets completely replicated, it becomes the new primary index for this server/SharePoint site and the _replication index is deleted from indices.
 
 The GroupID Entitlement schedule runs in the context of the following accounts:
 

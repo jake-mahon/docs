@@ -12,9 +12,9 @@ The following settings are needed from your tenant once you have registered the 
 - Tenant name – This is the primary domain name of the Microsoft Entra tenant
 - Certificate Thumbprint – This is thumbprint value of the certificate uploaded to the Microsoft Entra ID application
 
-Configure Modern Authentication for Exchange Online using EX\_RegisterAzureAppAuth Instant Job
+Configure Modern Authentication for Exchange Online using EX_RegisterAzureAppAuth Instant Job
 
-Registering a Microsoft Entra ID application and provisioning it to grant permissions to Exchange Online can be automated using the EX\_RegisterAzureAppAuth job from the Enterprise Auditor Instant Job Library. The EX\_RegisterAzureAppAuth job uses the PowerShell Data Collector to automatically configure modern authentication for Exchange Online. It requires:
+Registering a Microsoft Entra ID application and provisioning it to grant permissions to Exchange Online can be automated using the EX_RegisterAzureAppAuth job from the Enterprise Auditor Instant Job Library. The EX_RegisterAzureAppAuth job uses the PowerShell Data Collector to automatically configure modern authentication for Exchange Online. It requires:
 
 - A Connection Profile containing a Microsoft Entra ID Global Admin credential with an Account Type of __Task (Local)__
 - Exchange Online Management v3.4.0
@@ -46,7 +46,7 @@ Registering a Microsoft Entra ID application and provisioning it to grant permis
     Install-Module Microsoft.Graph
     ```
 
-See the [EX\_RegisterAzureAppAuth Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/instantjobs/ex_registerazureappauth.md) topic for additional information.
+See the [EX_RegisterAzureAppAuth Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/instantjobs/ex_registerazureappauth.md) topic for additional information.
 
 ## Prerequisites
 
@@ -70,7 +70,7 @@ Permissions for Office 365 Exchange Online
 - Application Permissions:
 
   - Exchange.ManageAsApp – Manage Exchange As Application
-  - full\_access\_as\_app – Use Exchange Web Services with full access to all mailboxes
+  - full_access_as_app – Use Exchange Web Services with full access to all mailboxes
 - Exchange Administrator role assigned to the registered application's service principal
 
 ## Create Self–Signed Certificate
@@ -174,7 +174,7 @@ __Step 4 –__ On the Request API permissions blade, use the search bar on the A
 - Application Permissions:
 
   - Exchange.ManageAsApp – Manage Exchange As Application
-  - full\_access\_as\_app – Use Exchange Web Services with full access to all mailboxes
+  - full_access_as_app – Use Exchange Web Services with full access to all mailboxes
 - Exchange Administrator role assigned to the registered application's service principal
 
 __Step 5 –__ At the bottom of the page, click __Add Permissions__.

@@ -25,7 +25,7 @@ Use __Clear__ to reset the Filters.
 ## UAR List
 
 - __Undo__: undoes all actions that have not been submitted.
-- __Export__ exports the list of selected reviews as either a __CSV__ or __PDF__ file. There is an option to __Export All Reviews__. The exported file is named _User\_Access\_Reviews\_List_.
+- __Export__ exports the list of selected reviews as either a __CSV__ or __PDF__ file. There is an option to __Export All Reviews__. The exported file is named _User_Access_Reviews_List_.
 - __Create Review__ creates a new Global review or adds a Single review to an existing Global review.
 - __Send Reminders__ send email reminders to the owners of the selected reviews.
 - __Cancel Review__ cancels one or more selected reviews. Any associated open Change Requests are also canceled.
@@ -115,11 +115,11 @@ Use __Clear__ to reset the Filters.
 
 There are various actions you can perform from this list:
 
-- __Export__ exports the list of selected reviews as either a __CSV__ or __PDF__ file. The exported file is named _Reviews\_Group\_List_.
+- __Export__ exports the list of selected reviews as either a __CSV__ or __PDF__ file. The exported file is named _Reviews_Group_List_.
 - __Send Reminders__ send email reminders to the owners of the selected reviews.
 - __Cancel Review__ cancels one or more selected reviews. Any associated open Change Requests are also canceled.
-- __Extract Membership Detail__ creates a CSV file (_Membership\_Report.csv_) of the membership details for the reviews.
-- __Extract Permission Detail__creates a CSV file (_Permission\_Report.csv_) of the permission details for the reviews.
+- __Extract Membership Detail__ creates a CSV file (_Membership_Report.csv_) of the membership details for the reviews.
+- __Extract Permission Detail__creates a CSV file (_Permission_Report.csv_) of the permission details for the reviews.
 - __Review Name__ is a link to the [Membership](/docs/strongpointfornetsuite/uar/uar_owner/owner_membership_reviews.md) or [Permission ](/docs/strongpointfornetsuite/uar/uar_owner/owner_permission_reviews.md)__Review__ tab. Reviews can also be opened via links in dashboard or email __Notifications__. The Review tab and Review notes tab is the
 - __Role Name__ the role being reviewed.
 - __Review Type__ is the type of review: __Membership__ or __Permission__. The review type is set when the review is created.

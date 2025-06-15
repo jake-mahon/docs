@@ -6,10 +6,10 @@ The 3. Quarantine job group is designed to report on and quarantine files that a
 
 This job group includes the following jobs:
 
-- [FS\_QuarantineData Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/cleanup/quarantine/fs_quarantinedata.md) – Designed to quarantine files subject to be cleaned up
-- [FS\_QuarantineData\_Status Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/cleanup/quarantine/fs_quarantinedata_status.md) – Designed to report on the FS\_QuarantineData job
-- [FS\_RestoreInheritance Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/cleanup/quarantine/fs_restoreinheritance.md) – Designed to restore inheritance to previously quarantined files
-- [FS\_RestoreInheritance\_Status Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/cleanup/quarantine/fs_restoreinheritance_status.md) – Designed to report on inheritance that was restored to previously quarantined files
+- [FS_QuarantineData Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/cleanup/quarantine/fs_quarantinedata.md) – Designed to quarantine files subject to be cleaned up
+- [FS_QuarantineData_Status Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/cleanup/quarantine/fs_quarantinedata_status.md) – Designed to report on the FS_QuarantineData job
+- [FS_RestoreInheritance Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/cleanup/quarantine/fs_restoreinheritance.md) – Designed to restore inheritance to previously quarantined files
+- [FS_RestoreInheritance_Status Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/cleanup/quarantine/fs_restoreinheritance_status.md) – Designed to report on inheritance that was restored to previously quarantined files
 
 Workflow
 

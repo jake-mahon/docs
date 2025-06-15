@@ -52,7 +52,7 @@ PolicyPak is always working so if a user does change one of your preference sett
 
 We can also right click and "Perform ACL Lockdown." When you run ACL Lockdown, what this does is that it literally locks down the setting itself in the registry so a registry-savvy user can't even work around the application setting even if they knew what they were doing.
 
-I'm going to run "gpupdate" here just to refresh Group Policy here. Let's look at this from two angles. I'm going to run "regedit" as a standard user. Let's go over here, and we'll go to "HKEY\_CURRENT\_USER/Software/Nico Mak Computing/WinZip/Policies" here. I'll go ahead and run "WinZip" here.
+I'm going to run "gpupdate" here just to refresh Group Policy here. Let's look at this from two angles. I'm going to run "regedit" as a standard user. Let's go over here, and we'll go to "HKEY_CURRENT_USER/Software/Nico Mak Computing/WinZip/Policies" here. I'll go ahead and run "WinZip" here.
 
 Just to prove a point, user settings that VMWare View Persona Management is handling, those are fine. Over here, the settings that PolicyPak is dictating are over here. We're literally dictating the settings, and users can't work around it. Even if they're super smart and they try to go to "passwordlength" and change it to "2," they are locked out and thwarted. They are not allowed to do that.
 

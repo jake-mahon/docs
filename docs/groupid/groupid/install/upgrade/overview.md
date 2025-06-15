@@ -39,6 +39,6 @@ Two log files are created on upgrade:
 - File name: UpgradeLog  
   Path:``` X:\Imanami\GroupID 11.0\GroupIDUpgradeTool\```  
   (X represents the Directory Manager installation drive)
-- File name: GroupID11\_Upgrade.log  
+- File name: GroupID11_Upgrade.log  
   Path: ```C:\ProgramData\Imanami\GroupID 11.0\Upgrade Tool\```  
   (This file contains debug logs.)

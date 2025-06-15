@@ -4,7 +4,7 @@ A composite role rule assigns a composite role to users who match given criteria
 
 ## Examples
 
-The following example declares a new rule to give the composite role "HR\_Accounting" to all the "FCT0008" users.
+The following example declares a new rule to give the composite role "HR_Accounting" to all the "FCT0008" users.
 
 ```
 

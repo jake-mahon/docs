@@ -1,10 +1,10 @@
-# FS\_LargestResources Job
+# FS_LargestResources Job
 
-The FS\_LargestResources job is designed to report on the largest resources from targeted file servers.
+The FS_LargestResources job is designed to report on the largest resources from targeted file servers.
 
-## Analysis Tasks for the FS\_LargestResources Job
+## Analysis Tasks for the FS_LargestResources Job
 
-View the analysis tasks by navigating to the __FileSystem__ > __4.Content__ > __Sizing__ > __FS\_LargestResources__ > __Configure__ node and select __Analysis__.
+View the analysis tasks by navigating to the __FileSystem__ > __4.Content__ > __Sizing__ > __FS_LargestResources__ > __Configure__ node and select __Analysis__.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,10 +12,10 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The following analysis tasks are selected by default:
 
-- 1. Largest Folders Ranked – Creates the SA\_FS\_LargestResources\_Ranked table accessible under the job’s Results node
-- 2. Largest Shares – Creates the SA\_FS\_LargestResources\_SharesRanked table accessible under the job’s Results node
+- 1. Largest Folders Ranked – Creates the SA_FS_LargestResources_Ranked table accessible under the job’s Results node
+- 2. Largest Shares – Creates the SA_FS_LargestResources_SharesRanked table accessible under the job’s Results node
 
-In addition to the tables and views created by the analysis tasks, the FS\_LargestResources job produces the following pre-configured reports:
+In addition to the tables and views created by the analysis tasks, the FS_LargestResources job produces the following pre-configured reports:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

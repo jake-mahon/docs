@@ -1,6 +1,6 @@
-# 0.Collection > AD\_ActivityCollection Job
+# 0.Collection > AD_ActivityCollection Job
 
-The AD\_ActivityCollection Job located in the 0.Collection Job Group, imports data from the Netwrix Activity Monitor logs into the Access Analyzer Database. Retention can be modified in the query (120 days default).
+The AD_ActivityCollection Job located in the 0.Collection Job Group, imports data from the Netwrix Activity Monitor logs into the Access Analyzer Database. Retention can be modified in the query (120 days default).
 
 ![AD_ActivityCollection Job in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.webp)
 
@@ -9,7 +9,7 @@ There are two ways AD Activity data can be retrieved by Access Analyzer:
 - Network share containing the archive logs
 - API Server connected to the archive logs
 
-This is configured in the query. See the [Queries for the AD\_ActivityCollection Job](#queries-for-the-ad_activitycollection-job) topic for additional information.
+This is configured in the query. See the [Queries for the AD_ActivityCollection Job](#queries-for-the-ad_activitycollection-job) topic for additional information.
 
 ## Parameter Configuration
 
@@ -17,7 +17,7 @@ The Configuration section on a Job's overview page allows you to easily modify a
 
 ![Configuration section on the AD_ActivityCollection job Overview page](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/activity/overviewconfiguration.webp)
 
-The AD\_ActivityCollection page has the following configurable parameters:
+The AD_ActivityCollection page has the following configurable parameters:
 
 - Enable to import AD events into the AIC
 - Enable to import authentication events into the AIC
@@ -26,9 +26,9 @@ The AD\_ActivityCollection page has the following configurable parameters:
 - List of attributes to track for Object Modified changes
 - Number of days to retain activity data in the AIC
 
-See the [Customize Analysis Parameters for the AD\_ActivityCollection Job](#customize-analysis-parameters-for-the-ad_activitycollection-job) topic for additional information.
+See the [Customize Analysis Parameters for the AD_ActivityCollection Job](#customize-analysis-parameters-for-the-ad_activitycollection-job) topic for additional information.
 
-## Queries for the AD\_ActivityCollection Job
+## Queries for the AD_ActivityCollection Job
 
 The AD Activity Collection query uses the ADActivity Data Collector to target the Activity Monitor archive logs for AD Activity.
 
@@ -36,17 +36,17 @@ __NOTE:__ The query can be configured to connect directly to the network share w
 
 ![Queries for the AD_ActivityCollection Job](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostdiscovery/queries.webp)
 
-The AD\_ActivityCollection Job uses the ADActivity Data Collector for the following query:
+The AD_ActivityCollection Job uses the ADActivity Data Collector for the following query:
 
 - AD Activity Collection – Targets Netwrix Activity Monitor archives to collect AD Activity
 
 ### Configure the Query to Import from the Activity Monitor
 
-The AD\_ActivityCollection Job requires configuration to collect data. Follow the steps to modify the query configuration when Netwrix Activity Monitor is configured to host domain activity logs on an API server.
+The AD_ActivityCollection Job requires configuration to collect data. Follow the steps to modify the query configuration when Netwrix Activity Monitor is configured to host domain activity logs on an API server.
 
 __NOTE:__ Ensure the Activity Monitor API Server and the required Connection Profile are successfully set up. See the [Active Directory Activity Auditing Configuration](/docs/accessanalyzer/config/activedirectory/activity.md) topic for additional information.
 
-__Step 1 –__ Navigate to the __Jobs__ > __Active Directory__ > __6.Activity__ > __0.Collection__ > __AD\_ActivityCollection__ Job. Select the __Configure__ > __Queries__ node.
+__Step 1 –__ Navigate to the __Jobs__ > __Active Directory__ > __6.Activity__ > __0.Collection__ > __AD_ActivityCollection__ Job. Select the __Configure__ > __Queries__ node.
 
 __Step 2 –__ Click __Query Properties__. The Query Properties window displays.
 
@@ -73,7 +73,7 @@ __Step 9 –__ On the Scope page, set the Timespan as desired. There are two opt
 - Relative Timespan – Set the number of days of activity logs to collect when the scan is run
 - Absolute Timespan – Set the date range for activity logs to collect when the scan is run
 
-___RECOMMENDED:___ The threshold should be set to ensure the logs are collected before the Activity Monitor domain output log retention expires. For example, if Access Analyzer runs the __AD\_ActivityCollection__ Job once a week (every 7 days), then the Activity Monitor output should be configured to retain at least 10 days of log files.
+___RECOMMENDED:___ The threshold should be set to ensure the logs are collected before the Activity Monitor domain output log retention expires. For example, if Access Analyzer runs the __AD_ActivityCollection__ Job once a week (every 7 days), then the Activity Monitor output should be configured to retain at least 10 days of log files.
 
 __Step 10 –__ Set the Retention period as desired. This is the number of days Access Analyzer keeps the collected data in the SQL Server database.
 
@@ -93,11 +93,11 @@ The query is now configured to target the Activity Monitor API Server to collect
 
 ### Configure the Query to Import from a Share
 
-The AD\_ActivityCollection Job requires configuration to collect data. Follow the steps to modify the query configuration when Netwrix Activity Monitor is configured to store activity logs on a network share.
+The AD_ActivityCollection Job requires configuration to collect data. Follow the steps to modify the query configuration when Netwrix Activity Monitor is configured to store activity logs on a network share.
 
 __NOTE:__ Ensure the Activity Monitor domain output and the required Connection Profile are successfully set up. See the [File Archive Repository Option](/docs/accessanalyzer/config/activedirectory/filearchive.md) topic for additional information.
 
-__Step 1 –__ Navigate to the __Jobs__ > __Active Directory__ > __6.Activity__ > __0.Collection__ > __AD\_ActivityCollection__ Job. Select the __Configure__ > __Queries__ node.
+__Step 1 –__ Navigate to the __Jobs__ > __Active Directory__ > __6.Activity__ > __0.Collection__ > __AD_ActivityCollection__ Job. Select the __Configure__ > __Queries__ node.
 
 __Step 2 –__ Click __Query Properties__. The Query Properties window displays.
 
@@ -118,7 +118,7 @@ __Step 6 –__ On the Scope page, set the Timespan as desired. There are two opt
 - Relative Timespan – Set the number of days of activity logs to collect when the scan is run
 - Absolute Timespan – Set the date range for activity logs to collect when the scan is run
 
-___RECOMMENDED:___ The threshold should be set to ensure the logs are collected before the Activity Monitor domain output log retention expires. For example, if Access Analyzer runs the __AD\_ActivityCollection__ Job once a week (every 7 days), then the Activity Monitor output should be configured to retain at least 10 days of log files.
+___RECOMMENDED:___ The threshold should be set to ensure the logs are collected before the Activity Monitor domain output log retention expires. For example, if Access Analyzer runs the __AD_ActivityCollection__ Job once a week (every 7 days), then the Activity Monitor output should be configured to retain at least 10 days of log files.
 
 __Step 7 –__ Set the Retention period as desired. This is the number of days Access Analyzer keeps the collected data in the SQL Server database.
 
@@ -128,9 +128,9 @@ __Step 9 –__ Click __OK__ to save the changes and close the Query Properties p
 
 The query is now configured to target the network share where the Activity Monitor domain activity logs are archived.
 
-## Analysis Tasks for the AD\_ActivityCollection Job
+## Analysis Tasks for the AD_ActivityCollection Job
 
-Navigate to the __Jobs__ > __Active Directory__ > __6.Activity__ > __0.Collection__ > __AD\_ActivityCollection__ Job. Select the __Configure__ > __Analysis__ node.
+Navigate to the __Jobs__ > __Active Directory__ > __6.Activity__ > __0.Collection__ > __AD_ActivityCollection__ Job. Select the __Configure__ > __Analysis__ node.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -147,7 +147,7 @@ The following analysis tasks are selected by default:
 
   - By default, data is retained for 120 days. This is customizable by the ```@Days``` parameter.
 
-### Customize Analysis Parameters for the AD\_ActivityCollection Job
+### Customize Analysis Parameters for the AD_ActivityCollection Job
 
 The customizable parameters for this job allow you to configure importing of AD activity data into the Netwrix Access Information Center.
 

@@ -101,9 +101,9 @@ __Step 1 –__ Connect to the Enterprise Auditor database through SQL Management
 
 __Step 2 –__ Validate that the roles have been properly created by navigating to __Security__ > __Roles__ > __Database Roles__. The three new roles should be visible:
 
-- SMP\_Admin
-- SMP\_Builder
-- SMP\_Viewer
+- SMP_Admin
+- SMP_Builder
+- SMP_Viewer
 
 |  |  |
 | --- | --- |

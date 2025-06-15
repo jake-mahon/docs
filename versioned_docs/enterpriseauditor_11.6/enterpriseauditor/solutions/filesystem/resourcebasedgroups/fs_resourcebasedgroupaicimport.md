@@ -1,13 +1,13 @@
-# FS\_ResourceBasedGroupAICImport Job
+# FS_ResourceBasedGroupAICImport Job
 
-The FS\_ResorceBasedGroupsAICImport Job imports resources and access groups from the FS\_ResoureBasedGroup Job into the Netwrix Access Information Center. This job assigns ownership in the Access Information Center and then assigns resource groups. This step is required if it is desired to change access through entitlement reviews, self-service, or for publishing resources to IAM.
+The FS_ResorceBasedGroupsAICImport Job imports resources and access groups from the FS_ResoureBasedGroup Job into the Netwrix Access Information Center. This job assigns ownership in the Access Information Center and then assigns resource groups. This step is required if it is desired to change access through entitlement reviews, self-service, or for publishing resources to IAM.
 
-## Recommended Configurations for the FS\_ResourceBasedGroupsAICImport Job
+## Recommended Configurations for the FS_ResourceBasedGroupsAICImport Job
 
 Dependencies
 
-- The __FS\_ResourceBasedGroups__ job must be successfully run prior to running this job
-- The __.Active Directory Inventory__ > __1-AD\_Scan__ job must be successfully run prior to running this job
+- The __FS_ResourceBasedGroups__ job must be successfully run prior to running this job
+- The __.Active Directory Inventory__ > __1-AD_Scan__ job must be successfully run prior to running this job
 - The __File System__ > __0.Collection__ > __1-FSAA System Scans__ job must be successfully run prior to running this job
 - The __File System__ > __0.Collection__ > __2-FSAA Bulk Import__ job must be successfully run prior to running this job
 
@@ -27,20 +27,20 @@ Workflow
 
 __Step 1 –__ Run the following jobs:
 
-- FS\_ResourceBasedGroups
-- .Active Directory Inventory > 1-AD\_Scan
+- FS_ResourceBasedGroups
+- .Active Directory Inventory > 1-AD_Scan
 - File System > 0.Collection > 1-FSAA System Scans
 - File System > 0.Collection > 2-FSAA Bulk Import
 
-__Step 2 –__ Run the FS\_ResourceBasedGroupsAICImport job.
+__Step 2 –__ Run the FS_ResourceBasedGroupsAICImport job.
 
-- See the [Run the FS\_ResourceBasedGroupsAICImportJob](#run-the-fs_resourcebasedgroupsaicimportjob) topic for additional information
+- See the [Run the FS_ResourceBasedGroupsAICImportJob](#run-the-fs_resourcebasedgroupsaicimportjob) topic for additional information
 
 __Step 3 –__ Review the newly-created resource based groups in the AIC.
 
 - See the [Review the New Resource Based Groups in the AIC](#review-the-new-resource-based-groups-in-the-aic) topic for additional information
 
-## Run the FS\_ResourceBasedGroupsAICImportJob
+## Run the FS_ResourceBasedGroupsAICImportJob
 
 Now that the target environment follows a Resource Based Groups model, the new resources can be imported into the Access Information Center. Follow the steps to import the new resources into the AIC Ownership Workflow.
 
@@ -48,7 +48,7 @@ __CAUTION:__ It is important to run the .Active Directory Inventory Job Group an
 
 __Step 1 –__ Run the __.Active Directory Inventory__ Job Group and __FileSystem__ > __0.Collection__ Job Group again.
 
-__Step 2 –__ Right click the __FS\_ResourceBasedGroupsAICImport__ job and select __Run Job__.
+__Step 2 –__ Right click the __FS_ResourceBasedGroupsAICImport__ job and select __Run Job__.
 
 The newly created resource based groups are imported to the AIC. The Owner and Access Groups have been assigned to the resources by the import process. The AIC can now be used to manage these resources through Entitlement Reviews, Ad hoc owner changes, and the Self Service access portal.
 

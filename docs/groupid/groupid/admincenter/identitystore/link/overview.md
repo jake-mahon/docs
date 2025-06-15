@@ -14,15 +14,15 @@ NOTE: (1) Two identity stores built on the same domain cannot be linked.
 
 ## Linked Identity Stores and the Directory Manager Portal
 
-Linking, in itself, is not effective until the identity stores joined via linking are associated with a Directory Manager portal, say Portal\_A. Consider the following:
+Linking, in itself, is not effective until the identity stores joined via linking are associated with a Directory Manager portal, say Portal_A. Consider the following:
 
 - The administrator links IdentityStoreA and identityStoreB.
-- The administrator creates a portal, Portal\_A, and associates both the linked identity stores with it.
+- The administrator creates a portal, Portal_A, and associates both the linked identity stores with it.
 - This enables portal users to view data from IdentityStoreA and identityStoreB at the same time, rather than having to switch identity stores. Users can also filter data for identical objects in both the identity stores.  
   Users can choose to
   view data for a single identity store or switch to the ‘linked’’ mode to view data simultaneously from both the linked identity stores.
 
-When only IdentityStoreA or IdentityStoreB is associated with Portal\_A, the linking between the two identity stores serves no purpose.
+When only IdentityStoreA or IdentityStoreB is associated with Portal_A, the linking between the two identity stores serves no purpose.
 
 ### Benefits of Running the Portal Under the ‘Linked’ Mode
 

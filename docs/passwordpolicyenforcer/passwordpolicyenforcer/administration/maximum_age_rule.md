@@ -42,17 +42,17 @@ The email's subject and body can contain various macros. Use these macros to per
 
 | Macro | Replaced with |
 | --- | --- |
-| [LOGON\_NAME] | User's logon name |
-| [FIRST\_NAME] | User's first name |
-| [LAST\_NAME] | User's last name |
-| [DAYS\_TO\_EXPIRY] | Days until password expires |
-| [EXPIRY\_DATE] | Expiry date in short format |
-| [EXPIRY\_DATE\_LONG] | Expiry date in long format |
-| [EXPIRY\_DAY] | Expiry day (1 to 31) |
-| [EXPIRY\_DAY\_NAME] | Expiry day (Monday, Tuesday, ...) |
-| [EXPIRY\_MONTH] | Expiry month (1 to 12) |
-| [EXPIRY\_MONTH\_NAME] | Expiry month (January, February, ...) |
-| [EXPIRY\_YEAR] | Expiry year (2021, 2022, ...) |
+| [LOGON_NAME] | User's logon name |
+| [FIRST_NAME] | User's first name |
+| [LAST_NAME] | User's last name |
+| [DAYS_TO_EXPIRY] | Days until password expires |
+| [EXPIRY_DATE] | Expiry date in short format |
+| [EXPIRY_DATE_LONG] | Expiry date in long format |
+| [EXPIRY_DAY] | Expiry day (1 to 31) |
+| [EXPIRY_DAY_NAME] | Expiry day (Monday, Tuesday, ...) |
+| [EXPIRY_MONTH] | Expiry month (1 to 12) |
+| [EXPIRY_MONTH_NAME] | Expiry month (January, February, ...) |
+| [EXPIRY_YEAR] | Expiry year (2021, 2022, ...) |
 
 ### Set up SMTP
 

@@ -19,7 +19,7 @@ Collection must be done by the [PrepareSynchronizationTask](/versioned_docs/user
 | Property | Details |
 | --- | --- |
 | Connector   required | __Type__    String   __Description__   Identifier of the connector involved in the task. |
-| DisplayName\_L1   required | __Type__    String   __Description__   Display name of the task in language 1 (up to 16). |
+| DisplayName_L1   required | __Type__    String   __Description__   Display name of the task in language 1 (up to 16). |
 | DoNotDeleteChanges   default value: false | __Type__    Boolean   __Description__   Do not delete change in the change tables. |
 | ForceSynchronization   default value: false | __Type__    Boolean   __Description__   Force the synchronization |
 | Identifier   optional | __Type__    String   __Description__   Unique identifier of the task. |

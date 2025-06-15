@@ -163,6 +163,6 @@ __Step 8 –__ Click __Add ARNs__.
 
 ![Review and Save Policy Changes](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/requirements/reviewandsavepolicychanges.png)
 
-__Step 9 –__ Review configuration and click __Save changes__ to the NPS\_KMS\_Policy.
+__Step 9 –__ Review configuration and click __Save changes__ to the NPS_KMS_Policy.
 
 The policy will now be limited to only the specified KMS key. The KMS is ready to be roated in Privilege Secure. See the [AWS KMS Key Rotation](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/requirements/awskeyrotation.md) topic for additional information.

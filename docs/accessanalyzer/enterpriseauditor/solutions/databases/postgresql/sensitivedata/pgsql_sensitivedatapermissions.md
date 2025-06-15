@@ -1,10 +1,10 @@
-# PgSQL\_SensitiveDataPermissions Job
+# PgSQL_SensitiveDataPermissions Job
 
-The PgSQL\_SensitiveDataPermissions Job is designed to provide information on all types of permissions on database objects containing sensitive data across all the targeted PostgreSQL servers based on the selected scan criteria.
+The PgSQL_SensitiveDataPermissions Job is designed to provide information on all types of permissions on database objects containing sensitive data across all the targeted PostgreSQL servers based on the selected scan criteria.
 
-## Analysis Tasks for the PgSQL\_SensitiveData Job
+## Analysis Tasks for the PgSQL_SensitiveData Job
 
-Navigate to the __Jobs > Databases > PostgreSQL > Sensitive Data > PgSQL\_SensitiveDataPermissions > Configure__ node and select Analysis to view the analysis tasks.
+Navigate to the __Jobs > Databases > PostgreSQL > Sensitive Data > PgSQL_SensitiveDataPermissions > Configure__ node and select Analysis to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,10 +12,10 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The default analysis tasks are:
 
-- Sensitive Data Permission Details – Creates the PgSQL\_SensitiveDataPermissions\_Details table accessible under the job’s Results node
-- Sensitive Data Permissions Database Summary – Creates the PgSQL\_SensitiveDataPermissions\_DatabaseSummary table accessible under the job’s Results node
+- Sensitive Data Permission Details – Creates the PgSQL_SensitiveDataPermissions_Details table accessible under the job’s Results node
+- Sensitive Data Permissions Database Summary – Creates the PgSQL_SensitiveDataPermissions_DatabaseSummary table accessible under the job’s Results node
 
-In addition to the tables and views created by the analysis tasks, the PgSQL\_SensitiveDataPermissions Job produces the following pre-configured report.
+In addition to the tables and views created by the analysis tasks, the PgSQL_SensitiveDataPermissions Job produces the following pre-configured report.
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

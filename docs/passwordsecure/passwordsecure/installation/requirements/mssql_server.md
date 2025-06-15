@@ -17,5 +17,5 @@ __CAUTION:__ If you plan to install the MS SQL Server on the machine with the Ne
 
 1. Service User: dbCreator (only required if the Netwrix Password Secure is used to create databases (recommended)), dbOwner  
    __a__. (Optional) Sysadmin (only when using the Netwrix Password Secure Backup Service)
-2. Collation: Latin1\_General\_CI\_AS (if the MS SQL Server is using a different collasion, the database needs to be created manually with the right collation and then be linked to/in Netwrix Password Secure)
+2. Collation: Latin1_General_CI_AS (if the MS SQL Server is using a different collasion, the database needs to be created manually with the right collation and then be linked to/in Netwrix Password Secure)
 3. Port/firewall rule: Port 1433 TCP for communication with application server (incoming)

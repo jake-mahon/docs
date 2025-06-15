@@ -127,10 +127,10 @@ The script defines several custom keywords. As the element locators may not be e
 | Add Group To User | Selects the group that should be added, and clicks the __Save__ button. This keyword also verifies that the web browser has the expected title. The ```Click Element At Coordinates``` keyword is used to reset the state of the page, as selecting the group hides the __Save__ button. |
 | Search User And Add Group | Goes to the page to add groups to the right user, and calls ```Add Group To User```. This keyword also verifies that the web page has the expected title. |
 | Add Groups | Calls ```Search User And Add Group``` for each group in the provisioning order. |
-| Add All Groups | Computes the number of groups to add, and if there is at least one, calls ```Add Groups```. The only way to find the number of groups to add is in the __Changes__ > __groups\_add__ section of the provisioning order. This section does not exist if there are no groups to add, so the ```Run Keyword And Ignore Error``` is called to avoid propagating the error. |
+| Add All Groups | Computes the number of groups to add, and if there is at least one, calls ```Add Groups```. The only way to find the number of groups to add is in the __Changes__ > __groups_add__ section of the provisioning order. This section does not exist if there are no groups to add, so the ```Run Keyword And Ignore Error``` is called to avoid propagating the error. |
 | Remove Group From User | Goes to the URL corresponding to the API call to remove the group from the user. |
 | Remove Groups | Calls ```Remove Group From User``` for each group in the provisioning order. |
-| Remove All Groups | Computes the number of groups to remove, and if there is at least one, calls ```Remove Groups```. The only way to find the number of groups to remove is in the __Changes__ > __groups\_remove__ section of the provisioning order. This section does not exist if there are no groups to remove, so the ```Run Keyword And Ignore Error``` is called to avoid propagating the error. |
+| Remove All Groups | Computes the number of groups to remove, and if there is at least one, calls ```Remove Groups```. The only way to find the number of groups to remove is in the __Changes__ > __groups_remove__ section of the provisioning order. This section does not exist if there are no groups to remove, so the ```Run Keyword And Ignore Error``` is called to avoid propagating the error. |
 ```
 
 *** Keywords ***

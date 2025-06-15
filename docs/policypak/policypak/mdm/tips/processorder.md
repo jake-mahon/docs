@@ -23,4 +23,4 @@ __NOTE:__ XML data files processed on a certain computer affect all users on tha
 
 Lastly, if there's a conflict between Endpoint Policy Manager XML data files and Endpoint Policy Manager Active Directory Group Policy directives, the Active Directory Group Policy directives are written last; therefore, they win.
 
-__NOTE:__  Log files for the automatic application of XML data settings are found in ```%appdata%\local\PolicyPak``` in a file called ppUser\_onXMLdata.log.
+__NOTE:__  Log files for the automatic application of XML data settings are found in ```%appdata%\local\PolicyPak``` in a file called ppUser_onXMLdata.log.

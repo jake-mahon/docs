@@ -1,10 +1,10 @@
-# AD\_GroupMembershipPermissions Job
+# AD_GroupMembershipPermissions Job
 
-The AD\_GroupMembershipPermissions Job highlights all Active Directory users that are capable of modifying group membership within the targeted domains.
+The AD_GroupMembershipPermissions Job highlights all Active Directory users that are capable of modifying group membership within the targeted domains.
 
-## Analysis Tasks for the AD\_GroupMembershipPermissions Job
+## Analysis Tasks for the AD_GroupMembershipPermissions Job
 
-Navigate to the __Active Directory Permissions Analyzer__ > __2.Groups__ > __AD\_GroupMembershipPermissions__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Active Directory Permissions Analyzer__ > __2.Groups__ > __AD_GroupMembershipPermissions__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,10 +12,10 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The default analysis tasks are:
 
-- List group object permissions – Creates the SA\_AD\_GroupMembershipPermissions\_Details table accessible under the job’s Results node
+- List group object permissions – Creates the SA_AD_GroupMembershipPermissions_Details table accessible under the job’s Results node
 - Summarize group object permissions – Creates an interim processing table in the database for use by downstream analysis and report generation
 
-In addition to the tables and views created by the analysis tasks, the AD\_GroupMembershipPermissions Job produces the following pre-configured report.
+In addition to the tables and views created by the analysis tasks, the AD_GroupMembershipPermissions Job produces the following pre-configured report.
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

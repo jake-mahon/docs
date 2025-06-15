@@ -24,9 +24,9 @@ where ``{GUID}`` is `{GUID}` for @the latest version of Java on your machine. Th
 
 | Registry Values | Type | Description | Notes |
 | --- | --- | --- | --- |
-| AppName | REG\_SZ | jp2launcher.exe |  |
-| AppPath | REG\_SZ | C:\Program Files (x86)\Java\jre1.8.0\_111\bin | Or the path to the latest version of Java |
-| Policy | REG\_DWord | 3 |  |
+| AppName | REG_SZ | jp2launcher.exe |  |
+| AppPath | REG_SZ | C:\Program Files (x86)\Java\jre1.8.0_111\bin | Or the path to the latest version of Java |
+| Policy | REG_DWord | 3 |  |
 
 ![overcoming_java_prompts_13](/img/product_docs/policypak/policypak/javaenterpriserules/prompts/internetexplorer/overcoming_java_prompts_13.webp)
 

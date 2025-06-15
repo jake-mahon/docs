@@ -1,10 +1,10 @@
-# UX\_LocalUsers Job
+# UX_LocalUsers Job
 
-The UX\_LocalUsers job provides an overview of all local users within the audited Unix and Linux environments.
+The UX_LocalUsers job provides an overview of all local users within the audited Unix and Linux environments.
 
-## Analysis Tasks for the UX\_LocalUsers Job
+## Analysis Tasks for the UX_LocalUsers Job
 
-Navigate to the __Unix__ > __1.Users and Groups__ > __UX\_LocalUsers__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Unix__ > __1.Users and Groups__ > __UX_LocalUsers__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,10 +12,10 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The default analysis tasks are:
 
-- Creates local users table – Creates the SA\_UX\_LocalUsers\_Details table accessible under the job’s Results node
+- Creates local users table – Creates the SA_UX_LocalUsers_Details table accessible under the job’s Results node
 - Creates local users summary table – Creates an interim processing table in the database for use by downstream analysis and report generation
 
-In addition to the table and views created by the analysis tasks, the UX\_LocalUsers job produces the following pre-configured report:
+In addition to the table and views created by the analysis tasks, the UX_LocalUsers job produces the following pre-configured report:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

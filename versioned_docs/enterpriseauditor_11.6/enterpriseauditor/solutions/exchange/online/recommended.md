@@ -18,7 +18,7 @@ The Mailflow job group uses Remote PowerShell through the ExchangePS Data Collec
 
 Connection Profile
 
-See the [Exchange PowerShell Permissions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/exchange/powershell.md) topic for the EX\_Mailflow job requirements.
+See the [Exchange PowerShell Permissions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/exchange/powershell.md) topic for the EX_Mailflow job requirements.
 
 Additionally, the Exchange Online job group needs access to the following Exchange Online URLs to perform collection:
 
@@ -38,8 +38,8 @@ Query Configuration
 
 The 8. Exchange Online job group is designed to be run with the default query configurations. However, the following queries can be modified:
 
-- __Mailflow__ > __0. Collection__ > __EX\_Mailflow__ Job – __MailFlow__ Query
-- __EX\_ASPolicies__ Job – __Exchange Settings__ Query
+- __Mailflow__ > __0. Collection__ > __EX_Mailflow__ Job – __MailFlow__ Query
+- __EX_ASPolicies__ Job – __Exchange Settings__ Query
 
 No other queries should be modified.
 
@@ -49,17 +49,17 @@ The 8. Exchange Online job group should be run with the default analysis configu
 
 The following analysis tasks should not be deselected, but their parameters can be modified:
 
-- __Mailflow__ > __0. Collection__ > __EX\_Mailflow__ Job – __03. SET HISTORY RETENTION__ Analysis Task
-- __Mailflow__ > __EX\_Mailflow\_Domain__ Job – __Mailflow Domain__ Analysis Task
-- __Mailflow__ > __EX\_Mailflow\_Mailbox__ Job – __User Mailboxes By Message Count__ Analysis Task
-- __Mailflow__ > __EX\_Mailflow\_Mailbox__ Job – __User Mailboxes by Message Size__ Analysis Task
-- __Mailflow__ > __EX\_Mailflow\_OrgOverview__ Job – __Organization Overview__ Analysis Task
+- __Mailflow__ > __0. Collection__ > __EX_Mailflow__ Job – __03. SET HISTORY RETENTION__ Analysis Task
+- __Mailflow__ > __EX_Mailflow_Domain__ Job – __Mailflow Domain__ Analysis Task
+- __Mailflow__ > __EX_Mailflow_Mailbox__ Job – __User Mailboxes By Message Count__ Analysis Task
+- __Mailflow__ > __EX_Mailflow_Mailbox__ Job – __User Mailboxes by Message Size__ Analysis Task
+- __Mailflow__ > __EX_Mailflow_OrgOverview__ Job – __Organization Overview__ Analysis Task
 
 Workflow
 
-__Step 1 –__ Set the host on the EX\_Mailflow job.
+__Step 1 –__ Set the host on the EX_Mailflow job.
 
-- The __Mailflow__ > __0. Collection__ > __EX\_Mailflow__ job needs to be set to run against one of the following:
+- The __Mailflow__ > __0. Collection__ > __EX_Mailflow__ job needs to be set to run against one of the following:
 
   - Local Host
   - Custom Host List

@@ -23,7 +23,7 @@ June 16, 2023
 - __Autospider__, __Manual Spider__ and __ReSpider Now__ now support French (both France and Canada) for Strongpoint customers using French in NetSuite.
 - __Changed By No HTML__ and __Diff No HTML__ result options are available for customizing your Searches. Specifying these options enable you to export the Change Management Reports with the fields in plain text, removing the HTML tags to improve readability.
 
-  - Open __Strongpoint__ > __Change Management Reports__ > _report\_name_ > __Customize__.
+  - Open __Strongpoint__ > __Change Management Reports__ > _report_name_ > __Customize__.
   - Click __Edit this Search__.
   - Open the __Results__ tab.
   - Click __Add Multiple__.

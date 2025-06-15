@@ -7,7 +7,7 @@ __NOTE:__ This interface does not change the password; it only validates it agai
 When you install the EPE Rest Site, the following happens:
 
 - The installer copies the EPE Rest Site files to the Threat Prevention file system on the physical machine
-- It creates the "EPE\_REST" site in IIS
+- It creates the "EPE_REST" site in IIS
 
 Follow the steps to install the EPE Rest Site.
 

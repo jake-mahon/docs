@@ -44,7 +44,7 @@ __Step 1 –__ Change the time zone to UTC, as shown in Figure 160.
 
 Figure 160. Selecting UTC as the time zone.
 
-__Step 2 –__ Verify the time on the computer is now the same as what is shown at the following website: [https://www.worldtimeserver.com/current\_time\_in\_UTC.aspx](http://www.worldtimeserver.com/current_time_in_UTC.aspx).
+__Step 2 –__ Verify the time on the computer is now the same as what is shown at the following website: [https://www.worldtimeserver.com/current_time_in_UTC.aspx](http://www.worldtimeserver.com/current_time_in_UTC.aspx).
 
 __Step 3 –__ If the computer's time is off, change it so it matches the UTC time.
 

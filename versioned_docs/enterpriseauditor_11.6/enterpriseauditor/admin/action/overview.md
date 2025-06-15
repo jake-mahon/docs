@@ -73,7 +73,7 @@ All Enterprise Auditor actions require a source data table. The source table mus
 | Required Columns | Description |
 | --- | --- |
 | Host | Name of the target server |
-| SA\_HOST | This column determines the Enterprise Auditor server to which the data belongs in the event multiple Enterprise Auditor consoles are connected to a single database |
+| SA_HOST | This column determines the Enterprise Auditor server to which the data belongs in the event multiple Enterprise Auditor consoles are connected to a single database |
 | JobRunTimeKey | Contains the run time and date for the job. If history is active, Enterprise Auditor can identify data collected during a specific collection execution. |
 | rowGUID | Identifies each data row as unique. The datatype in the table is uniqueidentifier (GUID). |
 | RowKey | Identifies each data row as unique. Sometimes the value is a GUID, but the datatype in the table is a varchar (text string). |

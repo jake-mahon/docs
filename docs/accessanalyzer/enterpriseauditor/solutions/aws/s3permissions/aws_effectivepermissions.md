@@ -1,10 +1,10 @@
-# AWS\_EffectivePermissions Job
+# AWS_EffectivePermissions Job
 
-The AWS\_EffectivePermissions job identifies and summarizes effective permissions on AWS S3 buckets and bucket objects.
+The AWS_EffectivePermissions job identifies and summarizes effective permissions on AWS S3 buckets and bucket objects.
 
-## Analysis Tasks for the AWS\_Accounts Job
+## Analysis Tasks for the AWS_Accounts Job
 
-Navigate to the __AWS__ > __6.S3 Permissions__ > __AWS\_EffectivePermissions__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __AWS__ > __6.S3 Permissions__ > __AWS_EffectivePermissions__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,12 +12,12 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The following analysis tasks are selected by default:
 
-- S3 Bucket Effective Permissions – AWS S3 Bucket effective permissions for each identity. Creates the AWS\_EffectiveBucketPermissions\_Details table accessible under the job’s Results node.
-- S3 Bucket Effective Permission Summary – Summarizes permission counts across AWS S3 Buckets. Creates the AWS\_EffectiveBucketPermissions\_Summary table accessible under the job’s Results node.
+- S3 Bucket Effective Permissions – AWS S3 Bucket effective permissions for each identity. Creates the AWS_EffectiveBucketPermissions_Details table accessible under the job’s Results node.
+- S3 Bucket Effective Permission Summary – Summarizes permission counts across AWS S3 Buckets. Creates the AWS_EffectiveBucketPermissions_Summary table accessible under the job’s Results node.
 
-## Report for the AWS\_EffectivePermissions Job
+## Report for the AWS_EffectivePermissions Job
 
-In addition to the tables and views created by the analysis task, the AWS\_EffectivePermissions job produces the following preconfigured report:
+In addition to the tables and views created by the analysis task, the AWS_EffectivePermissions job produces the following preconfigured report:
 
 | Report | Description | Default Tags | Report Element |
 | --- | --- | --- | --- |

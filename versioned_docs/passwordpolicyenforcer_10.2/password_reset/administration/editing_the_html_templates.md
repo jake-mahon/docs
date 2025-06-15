@@ -25,7 +25,7 @@ Web browsers display pages differently, so test your changes with several versio
 
 ```en_default.htm``` contains static HTML, but the other .htm files contain special comment tags that are used to prepare the pages. Some of these comments define ranges. A range looks like this:
 
-<!--RANGE\_NAME-->Some text or HTML<!--/RANGE\_NAME-->
+<!--RANGE_NAME-->Some text or HTML<!--/RANGE_NAME-->
 
 The Web Interface deletes ranges (and the text inside them) when they are not needed. Some ranges span only one word, while others span several lines. The other type of comment tag is called a field.
 
@@ -37,17 +37,17 @@ Fields are replaced by some other information. For example, the field above is r
 
 Each template ends with a resource string section.
 
-<!--RESOURCE\_STRINGS--><!--
+<!--RESOURCE_STRINGS--><!--
 
-@RES\_EMPTY\_FIELD\_USERNAME: Enter your username in the Username box. @RES\_EMPTY\_FIELD\_DOMAIN: Enter your domain name in the Domain box.
+@RES_EMPTY_FIELD_USERNAME: Enter your username in the Username box. @RES_EMPTY_FIELD_DOMAIN: Enter your domain name in the Domain box.
 
---><!--/RESOURCE\_STRINGS-->
+--><!--/RESOURCE_STRINGS-->
 
-Resource strings are mostly validation error messages, but they can contain any text Password Reset may need to build the page. Do not modify the identifiers on the left, only edit the text on the right. Resource strings are always inside a range called RESOURCE\_STRINGS. Password Reset deletes this range before sending the page to the user's web browser. See the [Error Messages](/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/using_password_reset.md#error-messages) topic for additional information.
+Resource strings are mostly validation error messages, but they can contain any text Password Reset may need to build the page. Do not modify the identifiers on the left, only edit the text on the right. Resource strings are always inside a range called RESOURCE_STRINGS. Password Reset deletes this range before sending the page to the user's web browser. See the [Error Messages](/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/using_password_reset.md#error-messages) topic for additional information.
 
 ### Responsive Content
 
-Password Reset's templates are responsive. The page layout and content changes to suit the user's screen size. The layout is defined in the CSS file, and the content in the HTML files. The text\_short and text\_long classes are used to display different content depending on the screen size. text\_short elements are shown on small screens (up to 420 pixels wide). text\_long elements are shown on larger screens.
+Password Reset's templates are responsive. The page layout and content changes to suit the user's screen size. The layout is defined in the CSS file, and the content in the HTML files. The text_short and text_long classes are used to display different content depending on the screen size. text_short elements are shown on small screens (up to 420 pixels wide). text_long elements are shown on larger screens.
 
 __CAUTION:__ You may rebrand the Password Reset user interface, but it is a violation of the License Agreement to modify, remove or obscure any copyright notice.
 
@@ -69,7 +69,7 @@ You will also need to edit the HTML files if your logo is not in SVG format, or 
 
 Instructions appear at the top of each page. You can edit the instructions by opening the relevant .htm file and searching for the text you wish to modify.
 
-Instructions are often inside a range called SECTION\_A, SECTION\_B, SECTION\_C, or SECTION\_D. Each section contains instructions for the different pages in the template. Make sure you edit the instructions in the correct section, or they may be displayed on the wrong page. The text\_long and text\_short classes are used in page instructions to tailor content to the screen size.
+Instructions are often inside a range called SECTION_A, SECTION_B, SECTION_C, or SECTION_D. Each section contains instructions for the different pages in the template. Make sure you edit the instructions in the correct section, or they may be displayed on the wrong page. The text_long and text_short classes are used in page instructions to tailor content to the screen size.
 
 ```html
 <!--SECTION_A-->
@@ -91,7 +91,7 @@ Validation error messages are shown in a red box below the page instructions. Va
 
 ![using_npr_12](/img/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/using_npr_12.png)
 
-Validation error messages are defined in the relevant template (en\_enroll.htm, en\_reset.htm, en\_unlock.htm, or en\_change.htm). The error messages are in the resource strings section near the end of the file. Some messages are defined in more than one file, so you may need to edit several files to change all instances of a message. See the [Resource Strings](#resource-strings) topic for more information.
+Validation error messages are defined in the relevant template (en_enroll.htm, en_reset.htm, en_unlock.htm, or en_change.htm). The error messages are in the resource strings section near the end of the file. Some messages are defined in more than one file, so you may need to edit several files to change all instances of a message. See the [Resource Strings](#resource-strings) topic for more information.
 
 You may see placeholders like %1 and %2 in some error messages. These are replaced with more information about the error. You should keep these, but you can delete them if you do not want them.
 
@@ -103,7 +103,7 @@ You may see placeholders like %1 and %2 in some error messages. These are replac
 
 ### Edit Critical Error Messages
 
-All the critical error messages are defined in en\_error.htm. The messages are in the resource strings section near the end of the file. See the [Resource Strings](#resource-strings) topic for more information.
+All the critical error messages are defined in en_error.htm. The messages are in the resource strings section near the end of the file. See the [Resource Strings](#resource-strings) topic for more information.
 
 ![using_npr_13](/img/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/using_npr_13.png)
 
@@ -126,19 +126,19 @@ Finished messages are shown after users successfully complete an enroll, reset, 
 
 ![using_npr_9](/img/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/using_npr_9.png)
 
-```en_finished.htm``` has two resource strings for password changes (RES\_FINISHED\_CHANGE and RES\_FINISHED\_CHANGE\_INVITE). The first is shown when a user who has enrolled into NPR changes their password. The second is shown when a user who has not enrolled changes their password. The second message invites the user to enroll so they can also use the reset and unlock features in future.
+```en_finished.htm``` has two resource strings for password changes (RES_FINISHED_CHANGE and RES_FINISHED_CHANGE_INVITE). The first is shown when a user who has enrolled into NPR changes their password. The second is shown when a user who has not enrolled changes their password. The second message invites the user to enroll so they can also use the reset and unlock features in future.
 
 ### Replace Enroll Question Lists with Text Boxes
 
 When users enroll into Password Reset, they choose their questions from the Question List. You can replace some or all of the question lists with text boxes so users can enter their own questions. See the [Question List](/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/enroll_tab.md#question-list) topic for additional information.
 
-The lines you need to edit in en\_enroll.htm look like this:
+The lines you need to edit in en_enroll.htm look like this:
 
 ```html
 <select class="field_question_list" name="q1" id="q1"><!--QL1--></select>
 ```
 
-There are ten of these lines in en\_enroll.htm, each with their own question number (the number after the q). You do not have to edit all ten lines. If users will be allowed to enter two questions, then only edit the q1 and q2 lines. Replace these lines with a line like this:
+There are ten of these lines in en_enroll.htm, each with their own question number (the number after the q). You do not have to edit all ten lines. If users will be allowed to enter two questions, then only edit the q1 and q2 lines. Replace these lines with a line like this:
 
 ```html
 <input class="field_question" name="q1" id="q1" value="<!--Q1-->" maxlength="64">
@@ -170,6 +170,6 @@ The Web Interface icons are in Scalable Vector Graphics (SVG) format. Vector gra
 
 fill="#FF7F00"
 
-Replace the hexadecimal color code with your desired color code. You can use a color picker like this one to generate the color code: [https://www.w3schools.com/colors/colors\_picker.asp](https://www.w3schools.com/colors/colors_picker.asp)
+Replace the hexadecimal color code with your desired color code. You can use a color picker like this one to generate the color code: [https://www.w3schools.com/colors/colors_picker.asp](https://www.w3schools.com/colors/colors_picker.asp)
 
 __NOTE:__ Some old web browsers with basic HTML5 support cannot display SVG images. Password Reset works with these browsers, but the SVG images are not shown. You can convert the icons to GIF or PNG format if you want them shown on these older browsers.

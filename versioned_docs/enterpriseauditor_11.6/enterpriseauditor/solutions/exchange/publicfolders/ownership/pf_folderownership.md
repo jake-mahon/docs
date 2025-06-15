@@ -1,34 +1,34 @@
-# Collection > PF\_FolderOwnership Job
+# Collection > PF_FolderOwnership Job
 
-The PF\_FolderOwnership job is comprised of data collection that focuses on collecting each public folder’s owner and identifying the Most Probable Owner. The Most Probable Owner is a unique algorithm built into the public folder data collector that is determined based on folder ownership, content posted, and size of content posted. Modifications can be made to the data collector to change the way the Most Probable Owner is determined.
+The PF_FolderOwnership job is comprised of data collection that focuses on collecting each public folder’s owner and identifying the Most Probable Owner. The Most Probable Owner is a unique algorithm built into the public folder data collector that is determined based on folder ownership, content posted, and size of content posted. Modifications can be made to the data collector to change the way the Most Probable Owner is determined.
 
 ![Collection > PF_FolderOwnership Job in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/databases/collection/collectionjobstree.png)
 
-The PF\_FolderOwnership job is located in the Collection job group.
+The PF_FolderOwnership job is located in the Collection job group.
 
-## Queries for the PF\_FolderOwnership Job
+## Queries for the PF_FolderOwnership Job
 
-The PF\_FolderOwnership job uses the ExchangePublicFolder Data Collector.
+The PF_FolderOwnership job uses the ExchangePublicFolder Data Collector.
 
 ![Queries for the PF_FolderOwnership Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/publicfolders/ownership/folderownershipquery.png)
 
-The following queries are included in the PF\_FolderOwnership job:
+The following queries are included in the PF_FolderOwnership job:
 
 - Probable Ownership – Collects and calculates probable owners
 
   - By default set to search all public folders. It can be scoped.
-  - See the [Scope the ExchangePublicFolder Data Collector for the PF\_FolderOwnership Job](#scope-the-exchangepublicfolder-data-collector-for-the-pf_folderownership-job) topic for additional information
+  - See the [Scope the ExchangePublicFolder Data Collector for the PF_FolderOwnership Job](#scope-the-exchangepublicfolder-data-collector-for-the-pf_folderownership-job) topic for additional information
 - Assigned Ownership – Collects assigned owners
 
   - By default set to search all public folders. It can be scoped.
   - Probable Owner Calculation can be modified
-  - See the [Scope the ExchangePublicFolder Data Collector for the PF\_FolderOwnership Job](#scope-the-exchangepublicfolder-data-collector-for-the-pf_folderownership-job) topic for additional information
+  - See the [Scope the ExchangePublicFolder Data Collector for the PF_FolderOwnership Job](#scope-the-exchangepublicfolder-data-collector-for-the-pf_folderownership-job) topic for additional information
 
-### Scope the ExchangePublicFolder Data Collector for the PF\_FolderOwnership Job
+### Scope the ExchangePublicFolder Data Collector for the PF_FolderOwnership Job
 
 The ExchangePublicFolder Data Collector can be scoped if desired. Follow the steps to modify the query configuration.
 
-__NOTE:__ These instructions include information on modifying the calculation used to determine probable ownership. Step 5 is only applicable to the Probable Ownership Query in the PF\_FolderOwnership Job.
+__NOTE:__ These instructions include information on modifying the calculation used to determine probable ownership. Step 5 is only applicable to the Probable Ownership Query in the PF_FolderOwnership Job.
 
 __Step 1 –__ Navigate to job’s __Configure__ node and select __Queries__.
 
@@ -70,9 +70,9 @@ __Step 6 –__ Navigate to the Summary page. Click __Finish__.
 
 The job applies the modification to future job executions.
 
-## Analysis Tasks for the PF\_FolderOwnership Job
+## Analysis Tasks for the PF_FolderOwnership Job
 
-View the analysis task by navigating to the __Exchange__ > __5. Public Folders__ > __Ownership__ > __Collection__ > __PF\_FolderOwnership__ > __Configure__ node and select __Analysis__.
+View the analysis task by navigating to the __Exchange__ > __5. Public Folders__ > __Ownership__ > __Collection__ > __PF_FolderOwnership__ > __Configure__ node and select __Analysis__.
 
 __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis task is preconfigured for this job.
 

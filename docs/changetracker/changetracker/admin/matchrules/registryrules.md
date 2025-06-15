@@ -19,7 +19,7 @@ __Step 2 –__ __KeyMatchExpression__. Available options are:
 
 - If using '__All__', then use "";
 - If using '__Exact__', then specify an exact "keyname";
-- If using '__Wildcards__', then specify a separated wildcards list eg "key\_abc\*|key\_def\*";
+- If using '__Wildcards__', then specify a separated wildcards list eg "key_abc\*|key_def\*";
 - If using '__Regex__', then specify a regular expression eg `"^S-1-5-21-[0-9]+-[0-9]+-[0-9]+-[0-9]{4,}\\Software\\Policies\\Microsoft\\Windows\\Control Panel\\Desktop"`.
 
 __Step 3 –__ ValueMatchType. oAvailable options are:ptions the same as for the 'foldermatchtype' (All|Exact|Wildcards|Regex).

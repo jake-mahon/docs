@@ -20,7 +20,7 @@ What do you want to do?
 3. Click __Schedules__ under __Settings__ in the left pane.
 4. On the __Schedules__ page, click __Add Schedule__ and select __Smart Group Update Job__. The __Create Schedule__ page is displayed.
 5. In the __Schedule Name__ box, enter a name for the schedule.
-6. The __Name Preview__ box displays the schedule name prefixed with _SmartGroup\__; the schedule is displayed with this name in email notifications.
+6. The __Name Preview__ box displays the schedule name prefixed with _SmartGroup__; the schedule is displayed with this name in email notifications.
 7. Select a GroupID portal URL in the __Portal URL__ drop-down list to include it in notifications generated for the schedule. Users are redirected to this portal to perform any necessary action.
 8. In the __Scheduler Service Name__ drop-down list, select a Scheduler service that would be responsible for triggering this schedule. The number of services displayed in the list depend on the number of Elasticsearch clusters in the environment, as each cluster has its own Scheduler service. See the [Scheduler Service](/versioned_docs/groupid_11.0/groupid/admincenter/service/schedulerservice.md) topic.
 9. You can specify containers and groups as targets for the schedule. or a container, the schedule processes all groups in it and its sub-containers. In the case of groups, the schedule processes the added groups only (i.e., it does not process nested

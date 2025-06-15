@@ -22,7 +22,7 @@ __NOTE:__ Default dynamic host lists are populated from hosts in the Host Master
 
 Connection Profile
 
-A Connection Profile must be set directly on the EX\_DBInfo Job and the EX\_PFInfo Job. See the [Exchange PowerShell Permissions](/docs/accessanalyzer/enterpriseauditor/requirements/solutions/exchange/powershell.md) topic for the Ex\_DBInfo Job required permissions. See the [MAPI-Based Data Collector Permissions](/docs/accessanalyzer/enterpriseauditor/requirements/solutions/exchange/mapi.md) topic for the EX\_PFInfo Job requirements.
+A Connection Profile must be set directly on the EX_DBInfo Job and the EX_PFInfo Job. See the [Exchange PowerShell Permissions](/docs/accessanalyzer/enterpriseauditor/requirements/solutions/exchange/powershell.md) topic for the Ex_DBInfo Job required permissions. See the [MAPI-Based Data Collector Permissions](/docs/accessanalyzer/enterpriseauditor/requirements/solutions/exchange/mapi.md) topic for the EX_PFInfo Job requirements.
 
 See the [Connection](/docs/accessanalyzer/enterpriseauditor/admin/settings/connection/overview.md) topic for additional information.
 
@@ -38,13 +38,13 @@ History retention should not be enabled on this job group. History is kept throu
 
 | Job Name | Analysis Task Name | Default History |
 | --- | --- | --- |
-| EX\_DBSizing | SET HISTORY RETENTION | 6 Months |
+| EX_DBSizing | SET HISTORY RETENTION | 6 Months |
 
 Query Configuration
 
 The 3. Databases Job Group is designed to be run with the default query configurations. However, the following query can be modified:
 
-- __0.Collection__ > __1. Local__ > __EX\_DBInfo__ Job – __Exchange 2010 Store Size__ Query
+- __0.Collection__ > __1. Local__ > __EX_DBInfo__ Job – __Exchange 2010 Store Size__ Query
 
 No other queries should be modified.
 
@@ -56,7 +56,7 @@ __CAUTION:__ Most of the analysis tasks are preconfigured and should never be mo
 
 The following analysis task should not be deselected, but the parameters can be modified:
 
-- __EX\_DBSizing__ Job – __SET HISTORY RETENTION__ Analysis Task
+- __EX_DBSizing__ Job – __SET HISTORY RETENTION__ Analysis Task
 
 Workflow
 

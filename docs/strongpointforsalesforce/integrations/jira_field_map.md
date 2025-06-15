@@ -34,7 +34,7 @@ If your fields are not in the list, use the __New__ button to add them.
 
 For this example, the __Strongpoint Version__ and __SF Version Number__ fields have been added.
 
-__NOTE:__ You need the Salesforce API names when you create the mapping record. For this example, __Strongpoint Version__ is __Strongpoint\_Version\_\_c__ and __SF Version Number__ is __Salesforce\_Version\_Number\_\_c__.
+__NOTE:__ You need the Salesforce API names when you create the mapping record. For this example, __Strongpoint Version__ is __Strongpoint_Version__c__ and __SF Version Number__ is __Salesforce_Version_Number__c__.
 
 ![Verify fields exist](/img/product_docs/strongpointforsalesforce/integrations/field_map_verify_fields.webp)
 
@@ -60,7 +60,7 @@ In Jira, update the details for the fields. This example sets the __Strongpoint 
 
 ### Access Mapping Configuration
 
-__NOTE:__ Make sure your custom fields have values before you start the mapping. The Jira API names are in the format _customfield\_#####_. You need to know the value to locate the Jira API name in the list.
+__NOTE:__ Make sure your custom fields have values before you start the mapping. The Jira API names are in the format _customfield_#####_. You need to know the value to locate the Jira API name in the list.
 
 Open the Field Mapping tool:
 
@@ -71,7 +71,7 @@ Open the Field Mapping tool:
 5. Click __Get Fields__.
 
    ![Get Fields for mapping](/img/product_docs/strongpointforsalesforce/integrations/field_map_get_fields.webp)
-6. Review values in each field to locate the Jira API names. In this example, __Salesforce Version Number__ is __6.1__, corresponding to __customfield\_10071__. __Strongpoint Version__ is __2.2800__ corresponding to __customfield\_10052__.
+6. Review values in each field to locate the Jira API names. In this example, __Salesforce Version Number__ is __6.1__, corresponding to __customfield_10071__. __Strongpoint Version__ is __2.2800__ corresponding to __customfield_10052__.
 
 The Jira API names are required to create the mapping record.
 
@@ -85,8 +85,8 @@ The Jira API names are required to create the mapping record.
 
    ![Create a new mapping record](/img/product_docs/strongpointforsalesforce/integrations/field_map_new_record.webp)
 4. Enter a name for __CR CustomField Mapping Name__. __Strongpoint Version__ is used in this example.
-5. Enter the __CR External Field APIName__. This is the Jira API name obtained from the Field Mapping tab for the Jira Configuration tool. Refer to the Verify Field Creation section for details. __customfield\_10052__ is used in this example.
-6. Enter the __CR SF Field APIName__. This is the Salesforce API name obtained from __Salesforce Setup__ > __Object Manager__ > __Change Request__ > __Fields & Relationships__. Refer to the Verify Field Creation section for details. __Strongpoint\_Version\_\_c__ is used in this example.
+5. Enter the __CR External Field APIName__. This is the Jira API name obtained from the Field Mapping tab for the Jira Configuration tool. Refer to the Verify Field Creation section for details. __customfield_10052__ is used in this example.
+6. Enter the __CR SF Field APIName__. This is the Salesforce API name obtained from __Salesforce Setup__ > __Object Manager__ > __Change Request__ > __Fields & Relationships__. Refer to the Verify Field Creation section for details. __Strongpoint_Version__c__ is used in this example.
 7. Click __Save__ or __Save & New__ if you have additional mappings.
 
 The mapping is now complete. In the next update, the information is populated in the fields and shows in the Netwrix Change Request.

@@ -14,7 +14,7 @@ Following are the SharePoint On-Premise user requirements:
     - SPDataAccess
   - SharePoint 2010
 
-    - db\_owner
+    - db_owner
 
 ## Enable Event Auditing
 

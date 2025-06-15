@@ -24,7 +24,7 @@ The __File System__ > __Resource Based Groups__ Job Group is a separately licens
 
 Once it has been installed into the Jobs tree, navigate to the solution: __Jobs__ > __FileSystem__ > __Resource Based Groups__.
 
-The FS\_TraverseGroups Job and the FS\_ResourceBasedGroupsAICImport Job must be installed from the Instant Job library. See the [Instant Job Wizard](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/instantjobs/overview.md) topic for additional information.
+The FS_TraverseGroups Job and the FS_ResourceBasedGroupsAICImport Job must be installed from the Instant Job library. See the [Instant Job Wizard](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/instantjobs/overview.md) topic for additional information.
 
 ## Jobs
 
@@ -34,9 +34,9 @@ The Resource Based Groups Job Group will transform permissions on specified fold
 
 The following jobs comprise the Resource Based Groups Job Group:
 
-- [FS\_ResourceBasedGroups Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/resourcebasedgroups/fs_resourcebasedgroups.md) – This job will transform permission on specified folders to a resource based groups model
-- [FS\_TraverseGroups Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/resourcebasedgroups/fs_traversegroups.md) – (Optional) This job can be used to create and apply permissions for traverse groups based on previous resource based groups. The FS\_TraverseGroupsJob must be added from the Instant Job Library in order to be used.
-- [FS\_ResourceBasedGroupAICImport Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/resourcebasedgroups/fs_resourcebasedgroupaicimport.md) – (Optional) This job imports resources and access groups from the FS\_ResoureBasedGroup Job into the Netwrix Access Information Center. The FS\_ResourceBasedGroupsAICImport Job must be added from the Instant Job Library to be used.
+- [FS_ResourceBasedGroups Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/resourcebasedgroups/fs_resourcebasedgroups.md) – This job will transform permission on specified folders to a resource based groups model
+- [FS_TraverseGroups Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/resourcebasedgroups/fs_traversegroups.md) – (Optional) This job can be used to create and apply permissions for traverse groups based on previous resource based groups. The FS_TraverseGroupsJob must be added from the Instant Job Library in order to be used.
+- [FS_ResourceBasedGroupAICImport Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/resourcebasedgroups/fs_resourcebasedgroupaicimport.md) – (Optional) This job imports resources and access groups from the FS_ResoureBasedGroup Job into the Netwrix Access Information Center. The FS_ResourceBasedGroupsAICImport Job must be added from the Instant Job Library to be used.
 
 ## Recommended Configurations for the Resource Based Groups Job Group
 

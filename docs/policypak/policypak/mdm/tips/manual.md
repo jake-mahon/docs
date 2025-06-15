@@ -12,7 +12,7 @@ Within the Users subdirectory, you will see a subdirectory with the name SID for
 
 To license (or extend the license) of an existing machine that is domain-joined, place the license file you received from Endpoint Policy Manager in the computer folder. To make the client computer use the XML data file, place the file you created in the previous step in one of these folders: the Computer folder (which affects all users on the machine), the ```Groups\<sid> folder```, or the ```Users\<sid> folder```.
 
-If you are unsure which SID is meant for which user (or which group your users belong to), you can use a variety of tools to perform a SID-to-user lookup. A very easy way to look up a user is to use``` OBJ::SID```, which can be downloaded for free at [https://petri.com/obj\_sid](https://petri.com/obj_sid). Once you've downloaded the ```OBJ::SID``` file, copy and paste the SID folder name into the OBJ::SID tool, which is automatically generated. The output will reveal the name:
+If you are unsure which SID is meant for which user (or which group your users belong to), you can use a variety of tools to perform a SID-to-user lookup. A very easy way to look up a user is to use``` OBJ::SID```, which can be downloaded for free at [https://petri.com/obj_sid](https://petri.com/obj_sid). Once you've downloaded the ```OBJ::SID``` file, copy and paste the SID folder name into the OBJ::SID tool, which is automatically generated. The output will reveal the name:
 
 ![policypak_exporter_tips_tricks_9](/img/product_docs/policypak/policypak/mdm/tips/policypak_exporter_tips_tricks_9.webp)
 

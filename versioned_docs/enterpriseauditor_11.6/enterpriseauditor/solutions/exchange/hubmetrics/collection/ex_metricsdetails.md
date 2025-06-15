@@ -1,14 +1,14 @@
-# EX\_MetricsDetails Job
+# EX_MetricsDetails Job
 
-The EX\_MetricsDetails Job collects daily user-to-user Traffic. Walk through this jobs query to configure the internal domains to collect the sender to recipient traffic from. By default, the query is configured to collect the previous 1 day of Message Tracking Logs and has @netwrix.com configured as the domain. If the domains are not configured in the query, then most likely data collection does not return.
+The EX_MetricsDetails Job collects daily user-to-user Traffic. Walk through this jobs query to configure the internal domains to collect the sender to recipient traffic from. By default, the query is configured to collect the previous 1 day of Message Tracking Logs and has @netwrix.com configured as the domain. If the domains are not configured in the query, then most likely data collection does not return.
 
-## Queries for the EX\_MetricsDetails Job
+## Queries for the EX_MetricsDetails Job
 
-The EX\_MetricsDetails Job uses the ExchangeMetrics Data Collector.
+The EX_MetricsDetails Job uses the ExchangeMetrics Data Collector.
 
 ![Queries for the EX_MetricsDetails Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/hubmetrics/collection/metricsdetailsquery.png)
 
-The following query is included in the EX\_MetricsDetails Job:
+The following query is included in the EX_MetricsDetails Job:
 
 - Activity metrics – Collects user to user traffic per day
 
@@ -21,7 +21,7 @@ The Activity Metrics Query has been preconfigured to run with the ExchangeMetric
 
 Follow the steps to configure the Activity Metrics Query.
 
-__Step 1 –__ Navigate to the __Exchange__ > __1. HUB Metrics__ > __0. Collection__ > __EX\_MetricsDetails__ > __Configure__ node and select __Queries__.
+__Step 1 –__ Navigate to the __Exchange__ > __1. HUB Metrics__ > __0. Collection__ > __EX_MetricsDetails__ > __Configure__ node and select __Queries__.
 
 __Step 2 –__ In the Query Selection view, select the Activity metrics Query and click __Query Properties__. The Query Properties window opens.
 
@@ -35,11 +35,11 @@ __Step 4 –__ Navigate to the [ExchangeMetrics: Message Activity Filter](/versi
 
 __Step 5 –__ Navigate to the Summary page and click __Finish__.
 
-The EX\_MetricsDetails Job returns data for the identified sender and recipient domains.
+The EX_MetricsDetails Job returns data for the identified sender and recipient domains.
 
-## Analysis Tasks for the EX\_MetricsDetails Job
+## Analysis Tasks for the EX_MetricsDetails Job
 
-View the analysis tasks by navigating to the __Exchange__ > __1. HUB Metrics__ > __0. Collection__ > __EX\_MetricsDetails__ > __Configure__ node and selecting __Analysis__.
+View the analysis tasks by navigating to the __Exchange__ > __1. HUB Metrics__ > __0. Collection__ > __EX_MetricsDetails__ > __Configure__ node and selecting __Analysis__.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -47,7 +47,7 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The following analysis tasks are selected by default:
 
-- 01. User to User Traffic History – Creates the SA\_EX\_ExhangeMetrics\_MessageTraffic table accessible under the job’s Results node
+- 01. User to User Traffic History – Creates the SA_EX_ExhangeMetrics_MessageTraffic table accessible under the job’s Results node
 - 02. SET HISTORY RETENTION – Sets retention period in months
 
   - By default set to retain __6 months__

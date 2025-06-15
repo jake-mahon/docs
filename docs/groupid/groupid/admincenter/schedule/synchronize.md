@@ -18,7 +18,7 @@ is displayed.
 
 Step 5 – In the Schedule Name box, enter a name for the schedule.
 
-Step 6 – The Name Preview displays the schedule name prefixed with _SynchronizeJobPortal\__; the schedule is displayed with this name in email notifications.
+Step 6 – The Name Preview displays the schedule name prefixed with _SynchronizeJobPortal__; the schedule is displayed with this name in email notifications.
 
 Step 7 – In the Scheduler Service Name drop-down list, select a Scheduler service that would be responsible for triggering this schedule. The number of services displayed in the list depend on the number of nodes in all Elasticsearch clusters in the environment, as each node has its own Scheduler service. See the [Scheduler Service](/docs/groupid/groupid/admincenter/service/schedulerservice.md) topic for additional information.
 

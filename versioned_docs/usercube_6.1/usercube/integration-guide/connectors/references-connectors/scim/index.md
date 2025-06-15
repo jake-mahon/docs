@@ -217,7 +217,7 @@ Code attributes enclosed with `< >` need to be replaced with a custom value befo
 <EntityTypeMapping Identifier="Salesforce_User" Connector="Salesforce" ConnectionTable="SCIMExport_Users">  <Property Identifier="SF_id" ConnectionColumn="id" IsPrimaryKey="true" />  <Property Identifier="givenName" ConnectionColumn="name:givenName" />  <Property Identifier="emails" ConnectionColumn="emails:value" /></EntityTypeMapping><EntityTypeMapping Identifier="Salesforce_Group" Connector="Salesforce" ConnectionTable="SCIMExport_Groups">  <Property Identifier="SF_id" ConnectionColumn="id" IsPrimaryKey="true" />  <Property Identifier="display" ConnectionColumn="displayName" /></EntityTypeMapping><EntityAssociationMapping Identifier="Salesforce_Group_Members" Column1="value" EntityPropertyMapping1="Salesforce_Group:SF_id" Column2="MemberId" EntityPropertyMapping2="Salesforce_User:SF_id" Connector="Salesforce" ConnectionTable="SCIMExport_members_Groups" />
 ```
 
-We would have SCIMExport\_Users.csv with the column headers id, ```name:givenName``` and ```emails:value```, ```SCIMExport_Groups.csv``` with the column headers id and ```displayName```, and ```SCIMExport_members_Groups.csv``` with the column headers value and ```MemberId```.
+We would have SCIMExport_Users.csv with the column headers id, ```name:givenName``` and ```emails:value```, ```SCIMExport_Groups.csv``` with the column headers id and ```displayName```, and ```SCIMExport_members_Groups.csv``` with the column headers value and ```MemberId```.
 
 Each column contains the value of the corresponding attribute. SCIM attributes are described in the [RFC document](https://tools.ietf.org/html/rfc7643).
 

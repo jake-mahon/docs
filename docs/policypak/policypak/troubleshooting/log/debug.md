@@ -6,7 +6,7 @@ To turn on Debug logging:
 
 __Step 1 –__ Please add a registry key in
 
-```HKLMSoftwarePoliciesPolicyPakConfigLogs``` as REG\_DWORD called DefaultVerbose and set it to 0xFFFFFFFF as seen in this screenshot.
+```HKLMSoftwarePoliciesPolicyPakConfigLogs``` as REG_DWORD called DefaultVerbose and set it to 0xFFFFFFFF as seen in this screenshot.
 
 ![385_1_image0021](/img/product_docs/policypak/policypak/troubleshooting/log/385_1_image0021.webp)
 

@@ -40,7 +40,7 @@ The activity agent periodically checks for and re-enables any StealthAUDIT filte
 
 __Step 1 –__ Using Regedt32 navigate to:
 
-HKEY\_LOCAL\_MACHINE\SYSTEM\CurrentCotrolSet\Services\FPolicyServerSvc\Parameters
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentCotrolSet\Services\FPolicyServerSvc\Parameters
 
 __Step 2 –__ Right-click on TimeInterval and select Modify.
 

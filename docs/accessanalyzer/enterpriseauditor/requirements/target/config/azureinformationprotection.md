@@ -63,7 +63,7 @@ __Step 4 –__ Once successfully connected to Azure, create a service principal 
 New-MsolServicePrincipal
 ```
 
-> Enter the __DisplayName__ of the new service principal name. (For example, AIP\_EnterpriseAuditor)
+> Enter the __DisplayName__ of the new service principal name. (For example, AIP_EnterpriseAuditor)
 
 __Step 5 –__ Take note and save the __Symmetric Key__ and __AppPrincipalID__ to be used in later steps.
 

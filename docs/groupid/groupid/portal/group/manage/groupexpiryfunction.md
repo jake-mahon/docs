@@ -23,7 +23,7 @@ NOTE: Note the following:
 
 If expired groups are not renewed within a specific period (set by the Directory Manager administrator in the Group Lifecycle policy for the identity store), they are logically deleted when the period ends. See Group life cycle job.
 
-Logically deleted groups are moved to the [My Deleted Groups](/docs/groupid/groupid/portal/group/mydeletedgroups.md) page with the “Deleted\_” prefix added to their names.
+Logically deleted groups are moved to the [My Deleted Groups](/docs/groupid/groupid/portal/group/mydeletedgroups.md) page with the “Deleted_” prefix added to their names.
 
 ## Change the expiry policy for a group
 

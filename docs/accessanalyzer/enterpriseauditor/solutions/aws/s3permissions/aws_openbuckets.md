@@ -1,10 +1,10 @@
-# AWS\_OpenBuckets Job
+# AWS_OpenBuckets Job
 
-The AWS\_OpenBuckets job identifies buckets that have permissions assigned to everyone at the top level of the AWS S3 bucket.
+The AWS_OpenBuckets job identifies buckets that have permissions assigned to everyone at the top level of the AWS S3 bucket.
 
-## Analysis Task for the AWS\_OpenBuckets Job
+## Analysis Task for the AWS_OpenBuckets Job
 
-Navigate to the __AWS__ > __6.S3 Permissions__ > __AWS\_OpenBuckets__ > __Configure__ node and select __Analysis__ to view the analysis task.
+Navigate to the __AWS__ > __6.S3 Permissions__ > __AWS_OpenBuckets__ > __Configure__ node and select __Analysis__ to view the analysis task.
 
 __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis task is preconfigured for this job.
 
@@ -12,11 +12,11 @@ __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis 
 
 The following analysis task is selected by default:
 
-- Open Bucket Permissions – Permissions applied to AWS S3 buckets across all users. Creates the AWS\_OpenBucket\_Details table accessible under the job’s Results node.
+- Open Bucket Permissions – Permissions applied to AWS S3 buckets across all users. Creates the AWS_OpenBucket_Details table accessible under the job’s Results node.
 
-## Report for the AWS\_OpenBuckets Job
+## Report for the AWS_OpenBuckets Job
 
-In addition to the tables and views created by the analysis task, the AWS\_OpenBuckets job produces the following preconfigured report:
+In addition to the tables and views created by the analysis task, the AWS_OpenBuckets job produces the following preconfigured report:
 
 | Report | Description | Default Tags | Report Element |
 | --- | --- | --- | --- |

@@ -93,13 +93,13 @@ When the next cmdlet is run, you can see if the license file you got from Endpoi
 ```
 ># Test-PPlicense>Import-Module PolicyPak  
 >Test-PPlicense   
->"C:\Users\server\Desktop\_licenses\license_1.xml" -verbose  
+>"C:\Users\server\Desktop_licenses\license_1.xml" -verbose  
 >Test-PPlicense   
->"C:\Users\server\Desktop\_licenses\license1.xml" -verbose  
+>"C:\Users\server\Desktop_licenses\license1.xml" -verbose  
 >Test-PPlicense   
->"C:\Users\server\Desktop\_licenses\license2.xml" -verbose  
+>"C:\Users\server\Desktop_licenses\license2.xml" -verbose  
 >Test-PPlicense   
->"C:\Users\server\Desktop\_licenses\FIRSTLicense-Request-Key.xml" -verbose  
+>"C:\Users\server\Desktop_licenses\FIRSTLicense-Request-Key.xml" -verbose  
 >#---
 ```
 
@@ -112,7 +112,7 @@ When the next cmdlet is run, you can create a new GPO and link it to the scope.
 ```
 ># Register-PPlicense>Import-Module PolicyPak  
 >Register-PPlicense   
->"C:\Users\server\Desktop\_licenses\license1.xml" -e $True -verbose 
+>"C:\Users\server\Desktop_licenses\license1.xml" -e $True -verbose 
 ```
 
 You can then see the successful installation:
@@ -122,7 +122,7 @@ You can then see the successful installation:
 The next cmdlet will specify a GPO by GUID.
 
 ```
->#Register-PPlicense >"C:\Users\server\Desktop\_licenses\license1.xml" -e $True -mgpo "96A61654-8363-444B-97AC-47D466FE12EE" -verbose   
+>#Register-PPlicense >"C:\Users\server\Desktop_licenses\license1.xml" -e $True -mgpo "96A61654-8363-444B-97AC-47D466FE12EE" -verbose   
 >#---  
 ># Get-PPlicenses  
 >Import-Module PolicyPak  

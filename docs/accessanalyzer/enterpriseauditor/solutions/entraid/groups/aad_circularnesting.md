@@ -1,10 +1,10 @@
-# AAD\_CircularNesting Job
+# AAD_CircularNesting Job
 
-The AAD\_CircularNesting Job identifies circularly nested groups within Microsoft Entra ID which can pose administrative and operational challenges with identifying effective access to resources.
+The AAD_CircularNesting Job identifies circularly nested groups within Microsoft Entra ID which can pose administrative and operational challenges with identifying effective access to resources.
 
-## Analysis Tasks for the AAD\_CircularNesting Job
+## Analysis Tasks for the AAD_CircularNesting Job
 
-Navigate to the __Jobs__ > __Entra ID__ > __1.Groups__ > __AAD\_CircularNesting__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Jobs__ > __Entra ID__ > __1.Groups__ > __AAD_CircularNesting__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,10 +12,10 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The default analysis tasks are:
 
-- Provide detail on instances of circular nesting – Creates the SA\_AAD\_CircularNesting\_Details table accessible under the job’s Results node
-- Summarize circular nesting by domain – Creates the SA\_AAD\_Circularnesting\_DomainSummary table accessible under the job’s Results node
+- Provide detail on instances of circular nesting – Creates the SA_AAD_CircularNesting_Details table accessible under the job’s Results node
+- Summarize circular nesting by domain – Creates the SA_AAD_Circularnesting_DomainSummary table accessible under the job’s Results node
 
-In addition to the tables created by the analysis tasks, the AAD\_CircularNesting Job produces the following pre-configured report.
+In addition to the tables created by the analysis tasks, the AAD_CircularNesting Job produces the following pre-configured report.
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

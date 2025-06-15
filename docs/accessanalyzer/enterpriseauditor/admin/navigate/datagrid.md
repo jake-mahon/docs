@@ -124,7 +124,7 @@ The Custom Filter window options are:
   - AND/OR radio buttons – Select logical relationship between the first and second custom filter criteria
   - Second Comparison Operator – Select from a list of different logical operators that will apply to the second custom filter criteria.
 - Two wildcard options:
-  - The underscore (\_) can be used to represent any single character
+  - The underscore (_) can be used to represent any single character
   - The asterisk (\*) can be used to represent any series of characters
 
 #### Creating a Custom Filter

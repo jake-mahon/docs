@@ -82,14 +82,14 @@ To configure GroupID server on the machine where the Configuration Tool is bein
 
     ![Service Account Setting page](/img/versioned_docs/groupid_11.0/groupid/install/configure/serviceaccount.jpg)
 
-    NOTE: If you configure a Group Managed Service Account (gMSA) as an App Pool service account then the GroupID Configuration tool will add this account in the local administrators and IIS\_IUSRS groups.
+    NOTE: If you configure a Group Managed Service Account (gMSA) as an App Pool service account then the GroupID Configuration tool will add this account in the local administrators and IIS_IUSRS groups.
 
-    NOTE: If you configure a normal user account as an App Pool service account and an AD identity store is created with a gMSA service account, then the App Pool service account must have the _PrincipalsAllowedToRetrieveManagedPassword_ property. The App Pool service account also must be a member of Backup Operators and IIS\_IUSRS groups.
+    NOTE: If you configure a normal user account as an App Pool service account and an AD identity store is created with a gMSA service account, then the App Pool service account must have the _PrincipalsAllowedToRetrieveManagedPassword_ property. The App Pool service account also must be a member of Backup Operators and IIS_IUSRS groups.
 15. GroupID enables you to specify the service accounts to use for the GroupID App Pool and a default Administrative account for GroupID Admin Center.
 
     | Service | Service Account Description |
     | --- | --- |
-    | GroupID App Pool | Use a domain account or a Group Managed Service Account (gMSA).  The account must be a member of the Administrators group or both the Backup Operators and IIS\_IUSRS groups.  The account you specify will be used to manage the GroupID app pool in IIS. GroupID Data Service, Mobile Service, Security Service, and the portals run under the app pool.  By default, a local account, GroupIDSSuser, is set for the GroupID app pool, but you cannot proceed unless you change it to a domain account or gMSA.  NOTE: You can specify a local account (with local administrator rights) in app pool for a machine that is not joined to any domain (this applies to an Microsoft Entra ID identity store only). |
+    | GroupID App Pool | Use a domain account or a Group Managed Service Account (gMSA).  The account must be a member of the Administrators group or both the Backup Operators and IIS_IUSRS groups.  The account you specify will be used to manage the GroupID app pool in IIS. GroupID Data Service, Mobile Service, Security Service, and the portals run under the app pool.  By default, a local account, GroupIDSSuser, is set for the GroupID app pool, but you cannot proceed unless you change it to a domain account or gMSA.  NOTE: You can specify a local account (with local administrator rights) in app pool for a machine that is not joined to any domain (this applies to an Microsoft Entra ID identity store only). |
     | GroupID Administrator | Use this account as default Administrative account for first time login to GroupID Admin Center.  This account is not associated with any identity store, but one that is specific to GroupID.  This account works as an Admin of all Admin accounts of defined identity stores in Admin Center. |
 
     NOTE: For GroupID App Pool, a domain account can be used for a machine joined to a domain.

@@ -1,27 +1,27 @@
-# 3.Broken Inheritance > FS\_BrokenInheritance Job
+# 3.Broken Inheritance > FS_BrokenInheritance Job
 
-The FS\_BrokenInheritance job is designed to report on resources with Broken Inheritance from targeted file servers.
+The FS_BrokenInheritance job is designed to report on resources with Broken Inheritance from targeted file servers.
 
 ![3.Broken Inheritance > FS_BrokenInheritance Job in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/brokeninheritancejobstree.png)
 
-The FS\_BrokenInheritance job is located in the 3.Broken Inheritance job group.
+The FS_BrokenInheritance job is located in the 3.Broken Inheritance job group.
 
 ## Parameter Configuration
 
 The Configuration section on a Job's overview page allows you to easily modify any customizable parameters used by analysis tasks in the job. See the [Parameter Configuration](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/overview.md#parameter-configuration) topic for instructions on how to edit parameters on a job overview page.
 
-The FS\_BrokenInheritance job has the following configurable parameter:
+The FS_BrokenInheritance job has the following configurable parameter:
 
 - Only analyze folders with changed permissions – Set a value of ```1``` or ```2``` to select if only folders with modified permissions are analyzed:
 
   - 1 – Only analyze resources with changed permissions from parent
   - 2 – Analyze all resources regardless of permission changes between parent and child
 
-See the [Analysis Tasks for the FS\_BrokenInheritance Job](#analysis-tasks-for-the-fs_brokeninheritance-job) topic for additional information.
+See the [Analysis Tasks for the FS_BrokenInheritance Job](#analysis-tasks-for-the-fs_brokeninheritance-job) topic for additional information.
 
-## Analysis Tasks for the FS\_BrokenInheritance Job
+## Analysis Tasks for the FS_BrokenInheritance Job
 
-View the analysis tasks by navigating to the __FileSystem__ > __3.Broken Inheritance__ > __FS\_BrokenInheritance__ > __Configure__ node and select __Analysis__.
+View the analysis tasks by navigating to the __FileSystem__ > __3.Broken Inheritance__ > __FS_BrokenInheritance__ > __Configure__ node and select __Analysis__.
 
 __CAUTION:__ Most of these analysis tasks are preconfigured and should not be modified and or deselected. There are some that are deselected by default, as they are for troubleshooting purposes.
 
@@ -32,8 +32,8 @@ The following analysis tasks are selected by default:
 - 1. Analyze Broken Inheritance
 
   - Creates an interim processing table in the database for use by downstream analysis and report generation
-  - Creates the SA\_FS\_BrokenInheritance\_UniqueTrustees table accessible under the job's Results node
-  - Creates the SA\_FS\_BrokenInheritance\_UniqueTrusteesPivot table accessible under the job's Results node
+  - Creates the SA_FS_BrokenInheritance_UniqueTrustees table accessible under the job's Results node
+  - Creates the SA_FS_BrokenInheritance_UniqueTrusteesPivot table accessible under the job's Results node
 - 2. Choose to analyze only folders with modified permissions – Creates an interim processing table in the database for use by downstream analysis and report generation
 
   - By default set to only analyze resources with changed permissions from parent
@@ -46,10 +46,10 @@ The following analysis tasks are selected by default:
 
 The following analysis tasks are deselected by default:
 
-- 7. Bring Table to Console - Unique trustees – Restores the SA\_FS\_BrokenInheritance\_UniqueTrustees table to be visible under the job's Results node
-- 8. Bring Table to Console - Trustees pivot – Restores the SA\_FS\_BrokenInheritance\_UniqueTrusteesPivot table to be visible under the job's Results node
+- 7. Bring Table to Console - Unique trustees – Restores the SA_FS_BrokenInheritance_UniqueTrustees table to be visible under the job's Results node
+- 8. Bring Table to Console - Trustees pivot – Restores the SA_FS_BrokenInheritance_UniqueTrusteesPivot table to be visible under the job's Results node
 
-In addition to the tables and views created by the analysis tasks, the FS\_BrokenInheritance job produces the following pre-configured reports:
+In addition to the tables and views created by the analysis tasks, the FS_BrokenInheritance job produces the following pre-configured reports:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

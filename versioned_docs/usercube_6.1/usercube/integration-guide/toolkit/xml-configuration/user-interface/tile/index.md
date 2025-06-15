@@ -14,7 +14,7 @@ A tile displays customizable data in one block. This block is displayed in displ
 
 | Property | Details |
 | --- | --- |
-| DisplayName\_L1   required | __Type__    String   __Description__   Display name of the tile in language 1 (up to 16). |
+| DisplayName_L1   required | __Type__    String   __Description__   Display name of the tile in language 1 (up to 16). |
 | EntityType   required | __Type__    Int64   __Description__   Identifier of the entity type. |
 | Identifier   required | __Type__    String   __Description__   Unique identifier of the tile. |
 | TileDesignElement   required | __Type__    Enumeration   __Description__   Defines the design element ("inline data-icon" or "picture-text"). |

@@ -2,7 +2,7 @@
 
 On any endpoint, details about what USB and other devices have temporary or permanent access are stored here:
 
-HKEY\_LOCAL\_MACHINE\SOFTWARE\PolicyPak\Client-Side Extensions\{7FA1BDCB-818A-4EF6-A1B7-EF5F85C2D702}\Admin Approval\ApprovedDevicesStorage
+HKEY_LOCAL_MACHINE\SOFTWARE\PolicyPak\Client-Side Extensions\{7FA1BDCB-818A-4EF6-A1B7-EF5F85C2D702}\Admin Approval\ApprovedDevicesStorage
 
 Here is an example of a device which was approved via the Admin Approval tool.
 
@@ -44,7 +44,7 @@ __Step 2 –__ Run CMD as administator
 
 __Step 3 –__ Execute psexec.exe -i -s regedit
 
-__Step 4 –__ As SYSTEM open Regedit. Find HKEY\_LOCAL\_MACHINE\SOFTWARE\PolicyPak\Client-Side Extensions\{7FA1BDCB-818A-4EF6-A1B7-EF5F85C2D702}\Admin Approval\ApprovedDevicesStorage
+__Step 4 –__ As SYSTEM open Regedit. Find HKEY_LOCAL_MACHINE\SOFTWARE\PolicyPak\Client-Side Extensions\{7FA1BDCB-818A-4EF6-A1B7-EF5F85C2D702}\Admin Approval\ApprovedDevicesStorage
 
 __Step 5 –__ Delete the whole key __ApprovedDevicesStorage__ to reset AA approvals for all devices, or chose a specific one and delete it.
 

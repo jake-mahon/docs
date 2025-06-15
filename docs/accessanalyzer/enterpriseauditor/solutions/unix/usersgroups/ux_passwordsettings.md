@@ -1,10 +1,10 @@
-# UX\_PasswordSettings Job
+# UX_PasswordSettings Job
 
-The UX\_PasswordSettings job provides visibility into user passwords and system password configurations within audited Unix and Linux environments.
+The UX_PasswordSettings job provides visibility into user passwords and system password configurations within audited Unix and Linux environments.
 
-## Analysis Tasks for the UX\_PasswordSettings Job
+## Analysis Tasks for the UX_PasswordSettings Job
 
-Navigate to the __Unix__ > __1.Users and Groups__ > __UX\_PasswordSettings__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Unix__ > __1.Users and Groups__ > __UX_PasswordSettings__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,10 +12,10 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The default analysis tasks are:
 
-- Gives information about local user passwords – Creates SA\_UX\_PasswordSettings\_UserDetails table accessible under the job’s Results node
-- Gives information about system password settings – Creates SA\_UX\_PasswordSettings\_SystemDetails table accessible under the job’s Results node
+- Gives information about local user passwords – Creates SA_UX_PasswordSettings_UserDetails table accessible under the job’s Results node
+- Gives information about system password settings – Creates SA_UX_PasswordSettings_SystemDetails table accessible under the job’s Results node
 
-In addition to the table and views created by the analysis tasks, the UX\_PasswordSettings job produces the following pre-configured reports:
+In addition to the table and views created by the analysis tasks, the UX_PasswordSettings job produces the following pre-configured reports:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

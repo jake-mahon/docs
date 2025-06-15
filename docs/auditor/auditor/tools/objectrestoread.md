@@ -28,7 +28,7 @@ __Step 1 –__ Navigate to Start > Windows Administrative Tools > ADSI Edit.
 
 __Step 2 –__ Right-click the __ADSI Edit__ node and select __Connect To__. In the __Connection Settings__ dialog, enable __Select a well-known Naming Context__ and select __Schema__ from the drop-down list.
 
-__Step 3 –__ Expand the Schema your\_Root\_Domain\_name node. Right-click the CN=Unicode-Pwd attribute and select Properties.
+__Step 3 –__ Expand the Schema your_Root_Domain_name node. Right-click the CN=Unicode-Pwd attribute and select Properties.
 
 ![ad_object_restore_1](/img/product_docs/auditor/auditor/tools/ad_object_restore_1.webp)
 

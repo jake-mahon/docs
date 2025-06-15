@@ -48,7 +48,7 @@ __Step 8 –__ Next, you'll specify the data root for your project, as shown in 
 
 Figure 10. Selecting "Simon Tatham" as the data root.
 
-__NOTE:__  Finding the data root for your project can take some amount of trial and error. Most applications store their information in HKCU\_Software or HKLM\_Software. Then under the manufacturer, you'll find the product. Other applications use INI files, XML files, or other types of files to store their data.
+__NOTE:__  Finding the data root for your project can take some amount of trial and error. Most applications store their information in HKCU_Software or HKLM_Software. Then under the manufacturer, you'll find the product. Other applications use INI files, XML files, or other types of files to store their data.
 
 __Step 9 –__ At this point, the Endpoint Policy Manager Capture Wizard will bring the first tab of settings into DesignStudio, as shown in Figure 11. While there are no tabs within the PuTTY interface, the term tab refers to the current category of visible settings. Each time you capture a new category of settings, a new tab will be created. Note that Endpoint Policy Manager DesignStudio will usually bring in all the existing defaults for your application. For instance, Endpoint Policy Manager DesignStudio can determine the checked status of the checkboxes, the content of the dropdown boxes, and the status of radio buttons. Since DesignStudio is large, instead of showing you everything now, we'll focus on what's most important during your project creation.
 

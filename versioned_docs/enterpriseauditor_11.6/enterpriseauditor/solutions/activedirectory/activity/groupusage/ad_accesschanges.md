@@ -1,10 +1,10 @@
-# AD\_AccessChanges Job
+# AD_AccessChanges Job
 
-The AD\_AccessChanges Job highlights the type and number of resources across the environment where access has been affected. Groups which have historically been the cause of most access changes are highlighted, to show potential issues in access sprawl and provisioning.
+The AD_AccessChanges Job highlights the type and number of resources across the environment where access has been affected. Groups which have historically been the cause of most access changes are highlighted, to show potential issues in access sprawl and provisioning.
 
-## Analysis Tasks for the AD\_AccessChanges Job
+## Analysis Tasks for the AD_AccessChanges Job
 
-Navigate to the __Jobs__ > __Active Directory__ > __6.Activity__ > __Group Usage__ > __AD\_AccessChanges__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Jobs__ > __Active Directory__ > __6.Activity__ > __Group Usage__ > __AD_AccessChanges__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,11 +12,11 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The following non-configurable analysis tasks are selected by default:
 
-- Find Access Changes – Creates the SA\_AD\_AccessChanges\_Details table accessible under the job’s Results node
-- Group Summary – Creates the SA\_AD\_AccessChanges\_GroupSummary table accessible under the job’s Results node
-- Access Type Summary – Creates the SA\_AD\_AccessChanges\_TypeSummary table accessible under the job’s Results node
+- Find Access Changes – Creates the SA_AD_AccessChanges_Details table accessible under the job’s Results node
+- Group Summary – Creates the SA_AD_AccessChanges_GroupSummary table accessible under the job’s Results node
+- Access Type Summary – Creates the SA_AD_AccessChanges_TypeSummary table accessible under the job’s Results node
 
-In addition to the tables created by the analysis tasks, the AD\_AccessChanges Job produces the following pre-configured reports:
+In addition to the tables created by the analysis tasks, the AD_AccessChanges Job produces the following pre-configured reports:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

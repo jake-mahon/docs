@@ -1,10 +1,10 @@
-# EX\_StaleMailboxes Job
+# EX_StaleMailboxes Job
 
-The EX\_StaleMailboxes job provides analysis and reporting around orphaned and stale mailboxes.
+The EX_StaleMailboxes job provides analysis and reporting around orphaned and stale mailboxes.
 
-## Analysis Tasks for the EX\_StaleMailboxes Job
+## Analysis Tasks for the EX_StaleMailboxes Job
 
-View the analysis tasks by navigating to the __Exchange__ > __4. Mailboxes__ > __Sizing__ > __EX\_StaleMailboxes__ > __Configure__ node and select __Analysis__.
+View the analysis tasks by navigating to the __Exchange__ > __4. Mailboxes__ > __Sizing__ > __EX_StaleMailboxes__ > __Configure__ node and select __Analysis__.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,11 +12,11 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The following analysis tasks are selected by default:
 
-- 01. Mailbox Orphans – Creates the SA\_EX\_StaleMailboxes\_Orphans table, accessible under the job’s Results node
-- 02. Stale User Mailboxes – Creates the SA\_EX\_StaleMailboxes\_Details table, accessible under the job’s Results node
-- 03. Organization Summary – Creates the SA\_EX\_StaleMailboxes\_OrgSummary table, accessible under the job’s Results node
+- 01. Mailbox Orphans – Creates the SA_EX_StaleMailboxes_Orphans table, accessible under the job’s Results node
+- 02. Stale User Mailboxes – Creates the SA_EX_StaleMailboxes_Details table, accessible under the job’s Results node
+- 03. Organization Summary – Creates the SA_EX_StaleMailboxes_OrgSummary table, accessible under the job’s Results node
 
-In addition to the tables and views created by the analysis tasks, the EX\_StaleMailboxes Job produces the following pre-configured reports:
+In addition to the tables and views created by the analysis tasks, the EX_StaleMailboxes Job produces the following pre-configured reports:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

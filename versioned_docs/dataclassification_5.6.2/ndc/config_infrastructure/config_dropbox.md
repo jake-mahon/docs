@@ -26,16 +26,16 @@ To authorize your app
 1. Once your App has been created, navigate to the Permissions tab.
 2. Select the following permissions and click submit.
 
-   - account\_info.read
+   - account_info.read
    - files.metadata.write
    - files.metadata.read
    - files.content.write
    - files.content.read
    - sharing.read
-   - team\_info.read
-   - team\_data.member
-   - team\_data.team\_space
-   - files.team\_metadata.write
+   - team_info.read
+   - team_data.member
+   - team_data.team_space
+   - files.team_metadata.write
    - members.read
 3. Navigate to the Settings tab then scroll down to OAuth2 option and set the members.read Access token expiration to _‘No expiration’_ then click Generate under Generated access token.
 

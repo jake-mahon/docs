@@ -82,7 +82,7 @@ To get plugin short names, you need to use a SQLLite browser, like http://sqlite
 
 __Step 1 –__ Open the firefox permissions.sqllite database, as shown in Figure 14.
 
-__Step 2 –__ Select the table "moz\_perms."
+__Step 2 –__ Select the table "moz_perms."
 
 __Step 3 –__ Locate the website and the type, as shown in Figure 14, to discover the short name.
 

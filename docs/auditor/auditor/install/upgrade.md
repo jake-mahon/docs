@@ -64,7 +64,7 @@ During the seamless upgrade from previous versions, Netwrix Auditor preserves it
 
 You can upgrade Netwrix Auditor to 10.7 by running the installation package.
 
-Customers who are logged in to the Netwrix Customer Portal can download the latest version of their software products from the My Products page: [https://www.netwrix.com/my\_products.html](https://www.netwrix.com/my_products.html). See the [Customer Portal Access](https://helpcenter.netwrix.com/bundle/NetwrixCustomerPortalAccess/page/Customer_Portal_Access.html) topic for information on how to register for a Customer Portal account.
+Customers who are logged in to the Netwrix Customer Portal can download the latest version of their software products from the My Products page: [https://www.netwrix.com/my_products.html](https://www.netwrix.com/my_products.html). See the [Customer Portal Access](https://helpcenter.netwrix.com/bundle/NetwrixCustomerPortalAccess/page/Customer_Portal_Access.html) topic for information on how to register for a Customer Portal account.
 
 Partners and MSPs who are logged into the Netwrix Partner Portal can download the latest version of their software products from the My Product page: [https://www.netwrix.com/par/site/products](https://www.netwrix.com/my_products.html). To receive an invitation to the Partner Portal, please contact [netwrix.msp@netwrix.com](http://netwrix.msp@netwrix.com/).
 

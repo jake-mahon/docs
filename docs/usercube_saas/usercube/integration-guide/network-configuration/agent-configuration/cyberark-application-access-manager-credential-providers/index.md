@@ -105,7 +105,7 @@ In order to assign the permissions to access the application, follow CyberArk's 
 
 The aim here is to give the right permissions to:
 
-- the AAM user, by default named ```Prov\_{Credential Provider machine name}```, meant to enable the Credential Provider to authenticate to the vault and retrieve passwords;
+- the AAM user, by default named ```Prov_{Credential Provider machine name}```, meant to enable the Credential Provider to authenticate to the vault and retrieve passwords;
 - the application, via its AppID.
 
 ## Configure Usercube

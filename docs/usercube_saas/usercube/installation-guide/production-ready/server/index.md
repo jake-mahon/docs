@@ -137,7 +137,7 @@ __Step 4 –__ Choose either__Windows authentication__ if you chose to connect t
 
 __Step 5 –__ From the __Login__ node, right-click the newly created login and select __Properties__ then go to the __Server Roles__ page on the left and make sure __public__ is checked.
 
-__Step 6 –__ Go to __User Mapping__and make sure ```Usercube/<Organization/>``` is checked (top panel), as well as __db\_owner__ and __public__ (bottom panel).
+__Step 6 –__ Go to __User Mapping__and make sure ```Usercube/<Organization/>``` is checked (top panel), as well as __db_owner__ and __public__ (bottom panel).
 
 ![Bulk](/img/product_docs/usercube/usercube/installation-guide/production-ready/server/bulk.webp)
 

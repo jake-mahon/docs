@@ -1,6 +1,6 @@
 # Plugins for Additional Actions
 
-In addition to the common workflow actions provided out-of-the-box, you can set up additional actions using the plugins. Either use sample plugins from the vendor, or create your own custom plugins. Plugins should be stored in the dedicated folder, under _C:\Program Files\ConceptSearching\Plugins\_.
+In addition to the common workflow actions provided out-of-the-box, you can set up additional actions using the plugins. Either use sample plugins from the vendor, or create your own custom plugins. Plugins should be stored in the dedicated folder, under _C:\Program Files\ConceptSearching\Plugins_.
 
 The following sample plugins (implemented as DLLs) can be provided upon request:
 

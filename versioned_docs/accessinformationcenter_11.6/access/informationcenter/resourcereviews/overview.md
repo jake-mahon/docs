@@ -37,7 +37,7 @@ See the [Resource Reviews Interface](/versioned_docs/accessinformationcenter_11.
 
 Ignored Trustees
 
-Trustees added to the SA\_AIC\_ResourceReviewIgnoredTrustees database table are excluded from Access, Membership, and Permissions reviews. For Membership and Permissions reviews, trustees must be directly excluded on an individual basis. Any members of excluded groups not directly referenced will still show in these reviews.
+Trustees added to the SA_AIC_ResourceReviewIgnoredTrustees database table are excluded from Access, Membership, and Permissions reviews. For Membership and Permissions reviews, trustees must be directly excluded on an individual basis. Any members of excluded groups not directly referenced will still show in these reviews.
 
 ## Workflow of Resource Reviews
 

@@ -34,16 +34,16 @@ The 0.Collection jobs that comprise this auditing component are:
 
 The following job groups and jobs in the File System solution depend on data collected by these jobs to generate reports:
 
-- [1.Open Access > FS\_OpenAccess Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/fs_openaccess.md)
+- [1.Open Access > FS_OpenAccess Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/fs_openaccess.md)
 - [2.Direct Permissions Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/directpermissions/overview.md)
-- [3.Broken Inheritance > FS\_BrokenInheritance Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/fs_brokeninheritance.md)
+- [3.Broken Inheritance > FS_BrokenInheritance Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/fs_brokeninheritance.md)
 - [4.Content Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/content/overview.md)
 - [5.Activity Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/activity/overview.md) (also requires Activity Auditing)
-- [6.Probable Owner > FS\_ProbableOwner Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/fs_probableowner.md) (also requires Activity Auditing)
-- [7.Sensitive Data > FS\_DLPResults Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/fs_dlpresults.md) (also requires Activity Auditing and Sensitive Data Discovery Auditing)
+- [6.Probable Owner > FS_ProbableOwner Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/fs_probableowner.md) (also requires Activity Auditing)
+- [7.Sensitive Data > FS_DLPResults Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/fs_dlpresults.md) (also requires Activity Auditing and Sensitive Data Discovery Auditing)
 - [Ad Hoc Audits Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/adhocaudits/overview.md)
 - [FileSystemOverview Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/filesystemoverview.md)
-- [FS\_SecurityAssessment Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/fs_securityassessment.md)
+- [FS_SecurityAssessment Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/fs_securityassessment.md)
 
 The File System Access Reports in the Access Information Center are also populated by this data. See the File System Reports topics in the [Netwrix Access Information Center Documentation](https://helpcenter.netwrix.com/category/accessinformationcenter) for additional information.
 
@@ -194,10 +194,10 @@ The __0.Collection__ jobs that comprise this auditing component are:
 The following job groups and jobs in the File System solution depend on data collected by these jobs to generate reports:
 
 - [5.Activity Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/activity/overview.md) (also requires Access Auditing)
-- [6.Probable Owner > FS\_ProbableOwner Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/fs_probableowner.md) (also requires Access Auditing)
-- [7.Sensitive Data > FS\_DLPResults Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/fs_dlpresults.md) (also requires Access Auditing and Sensitive Data Discovery Auditing)
+- [6.Probable Owner > FS_ProbableOwner Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/fs_probableowner.md) (also requires Access Auditing)
+- [7.Sensitive Data > FS_DLPResults Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/fs_dlpresults.md) (also requires Access Auditing and Sensitive Data Discovery Auditing)
 - [FileSystemOverview Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/filesystemoverview.md)
-- [FS\_SecurityAssessment Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/fs_securityassessment.md)
+- [FS_SecurityAssessment Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/fs_securityassessment.md)
 
 The File System Activity Reports in the Access Information Center are also populated by this data. See the [Netwrix Access Information Center Documentation](https://helpcenter.netwrix.com/category/accessinformationcenter) for additional information.
 
@@ -357,9 +357,9 @@ The 0.Collection jobs that comprise this auditing component are:
 
 The following job group and jobs in the File System solution depend on data collected by these jobs to generate reports:
 
-- [7.Sensitive Data > FS\_DLPResults Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/fs_dlpresults.md) (also requires Access Auditing and Activity Auditing)
+- [7.Sensitive Data > FS_DLPResults Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/fs_dlpresults.md) (also requires Access Auditing and Activity Auditing)
 - [FileSystemOverview Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/filesystemoverview.md)
-- [FS\_SecurityAssessment Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/fs_securityassessment.md)
+- [FS_SecurityAssessment Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/fs_securityassessment.md)
 
 The File System Sensitive Data Discovery Reports in the Access Information Center are also populated by this data. See the [Netwrix Access Information Center Documentation](https://helpcenter.netwrix.com/category/accessinformationcenter) for additional information.
 

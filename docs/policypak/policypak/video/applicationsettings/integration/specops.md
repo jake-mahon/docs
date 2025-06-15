@@ -62,7 +62,7 @@ Even if a user tries to work around it, the very next time the application is la
 
 Let's do a more complex example. Over here on this other machine here, I'm logged on as a guy called "westsalesuser1," but I don't want to deploy a regular application. This time, I want to deploy an App-V package. In order to do that, let's go over to my "West Sales Users" and "Create a GPO in this domain, and Link it here…" and we'll call this "Deploy WinZip using Specops Deploy (AppV)." This one's a little bit different.
 
-What I'm going to do now is I'm going to go over to my user side, "Policies/Software Settings/Specops Deploy/Deployments" and pick a "New deployment." This time my package is going to be an "App-V package," a virtualized package. I'll go over to my "dcsoftwareWinZip-AppVWinZip14\_manifest" file. It tells me how much it's going to download, and I'm ready to go.
+What I'm going to do now is I'm going to go over to my user side, "Policies/Software Settings/Specops Deploy/Deployments" and pick a "New deployment." This time my package is going to be an "App-V package," a virtualized package. I'll go over to my "dcsoftwareWinZip-AppVWinZip14_manifest" file. It tells me how much it's going to download, and I'm ready to go.
 
 I'll go ahead and pick my package here, pick my "Target" as "All Users" again. Now that Specops Deploy is deploying the App-V version, here's the best part. You already have the PolicyPak directive that will manage WinZip using Group Policy. What we're going to do is just simply "Link an Existing GPO." We'll pick it, which is the "Manage WinZip using PolicyPak." Make sure the order is right. We want to make sure that the Specops Deploy goes first and managing goes second. That's it.
 

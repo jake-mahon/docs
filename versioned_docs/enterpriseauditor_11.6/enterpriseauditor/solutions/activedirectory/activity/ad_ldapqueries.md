@@ -1,14 +1,14 @@
-# LDAP > AD\_LDAPQueries Job
+# LDAP > AD_LDAPQueries Job
 
-The __LDAP__ > __AD\_LDAPQueries__ Job analyzes LDAP traffic to determine trends such as most expensive queries, most active servers and users, successful/failed and signing status. This data can be used to troubleshoot performance issues, load balancing, and poorly configured services.
+The __LDAP__ > __AD_LDAPQueries__ Job analyzes LDAP traffic to determine trends such as most expensive queries, most active servers and users, successful/failed and signing status. This data can be used to troubleshoot performance issues, load balancing, and poorly configured services.
 
 ![AD_LDAPQueries Job in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/activity/ldapjobstree.png)
 
 ___RECOMMENDED:___ Schedule this job to run with the 0.Collection job group.
 
-## Analysis Tasks for the AD\_LDAPQueries Job
+## Analysis Tasks for the AD_LDAPQueries Job
 
-Navigate to the __Active Directory__ > __6.Activity__ > __LDAP__ > __AD\_LDAPQueries__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Active Directory__ > __6.Activity__ > __LDAP__ > __AD_LDAPQueries__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Except for the __Largest Queries__ task, do not modify or deselect the remaining selected analysis tasks. The remaining analysis tasks are preconfigured for this job.
 
@@ -16,15 +16,15 @@ __CAUTION:__ Except for the __Largest Queries__ task, do not modify or deselect 
 
 The following non-configurable analysis tasks are selected by default:
 
-- SSL – Creates the SA\_AD\_LDAPQueries\_SSLStatus table accessible under the job’s Results node
-- Host Summary – Creates the SA\_AD\_LDAPQueries\_HostSummary table accessible under the job’s Results node
-- User Summary – Creates the SA\_AD\_LDAPQueries\_UserSummary table accessible under the job’s Results node
+- SSL – Creates the SA_AD_LDAPQueries_SSLStatus table accessible under the job’s Results node
+- Host Summary – Creates the SA_AD_LDAPQueries_HostSummary table accessible under the job’s Results node
+- User Summary – Creates the SA_AD_LDAPQueries_UserSummary table accessible under the job’s Results node
 
 The following configurable analysis task can be optionally enabled:
 
-- Largest Queries – Creates the SA\_AD\_LDAPQueries\_ExpensiveQueries table accessible under the job’s Results node
+- Largest Queries – Creates the SA_AD_LDAPQueries_ExpensiveQueries table accessible under the job’s Results node
 
-In addition to the tables created by the analysis tasks, the AD\_LDAPQueries Job produces the follow pre-configured reports:
+In addition to the tables created by the analysis tasks, the AD_LDAPQueries Job produces the follow pre-configured reports:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |
@@ -35,7 +35,7 @@ In addition to the tables created by the analysis tasks, the AD\_LDAPQueries Job
 
 Customizable parameters enable you to set the values used to control the minimum objects returned and the days of traffic to analyze during this job’s analysis. The parameters can be customized and are listed in a section at the bottom of the SQL Script Editor. Follow the steps to customize an analysis task’s parameters.
 
-__Step 1 –__ Navigate to the __Active Directory__ > __6.Activity__ > __LDAP__ > __AD\_LDAPQueries__ > __Configure__ node and select __Analysis__.
+__Step 1 –__ Navigate to the __Active Directory__ > __6.Activity__ > __LDAP__ > __AD_LDAPQueries__ > __Configure__ node and select __Analysis__.
 
 ![Largest Queries analysis task configuration](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/activity/ldapqueriesanalysisconfiguration.png)
 
@@ -47,7 +47,7 @@ __CAUTION:__ Do not change any parameters where the Value states ```Created duri
 
 __Step 3 –__ In the parameters section at the bottom of the editor, find the Value column. There are two integer variables that can be modified. Double-click on the current __value__ and change as desired:
 
-- @objects\_returned – Controls the minimum number of objects returned for the queries to be considered large. This value is set to 100 by default.
+- @objects_returned – Controls the minimum number of objects returned for the queries to be considered large. This value is set to 100 by default.
 - @timeframe – Controls the number of days to analyze traffic for. This value is set to 30 days by default.
 
 __Step 4 –__ Click __Save and Close__ to finalize the customization and close the SQL Script Editor window.

@@ -66,7 +66,7 @@ OU=ReportTEST,DC=rtest,DC=comOU=NonExistantSubOU1,OU=ReportTEST,DC=rtest,DC=comO
 
 Instead of OUs, a file supplying a list of systems containing DOMAIN\Computer can be specified with the --input-file flag.
 
-Example using target\_computers.txt:
+Example using target_computers.txt:
 
 ```
 RTEST\BulkComp1012RTEST\BulkComp1013RTEST\BulkComp1014RTEST\BulkComp1015RTEST\BulkComp1016RTEST\BulkComp1017RTEST\BulkComp1018RTEST\HORIZONRTEST\LINKEDCLONEVM3RTEST\SRV-0RTEST\SRV-24RTEST\VMTEMP1RTEST\VMTEMP2
@@ -104,7 +104,7 @@ The following policy options will be displayed for the computer's OAM Policy if 
 | --- | --- |
 | OAM (Offline Access Management) Enabled | TRUE,FALSE |
 | OAM Strategy | OS-BEST-PRACTICE, MANAGED-BUILT-IN, CUSTOM |
-| OAM Name Template | an alpha-numeric with ? wildcards (ex: S1\_ALT\_??????) |
+| OAM Name Template | an alpha-numeric with ? wildcards (ex: S1_ALT_??????) |
 | OAM JITA User Can Access PW | TRUE,FALSE |
 | OAM Use Alt Admin | TRUE,FALSE |
 | OAM Manage Built-in PW | TRUE,FALSE |
@@ -114,7 +114,7 @@ If you wish to change any of this policy's options, set the Set OAM Enabled to T
 
 The Strategy may be entered with any of following values: OS-BEST-PRACTICE, MANAGED-BUILT-IN, CUSTOM. If left blank it will default to the current value, or to OS-BEST-PRACTICE if no previous policy was set.
 
-The OAM Name Template accepts a string with wildcards expressed by question marks (?). If left blank it will default to the currentvalue, or to "S1\_ALT\_??????".
+The OAM Name Template accepts a string with wildcards expressed by question marks (?). If left blank it will default to the currentvalue, or to "S1_ALT_??????".
 
 The remaining options may be included, but must not conflict with the defined strategy.
 
@@ -167,7 +167,7 @@ Troubleshooting Linux Registration:
 
 You can also specify a an excel file containing a list of linux systems and credentials to register with Privilege Secure.
 
-Example [linux\_register.xlsx](/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/attachments/360042878654_linux_register.xlsx):
+Example [linux_register.xlsx](/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/attachments/360042878654_linux_register.xlsx):
 
 | System | Username | Password | Admins[0] | Scan | Persistent | Secure | Nondomain |
 | --- | --- | --- | --- | --- | --- | --- | --- |

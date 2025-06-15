@@ -25,7 +25,7 @@ The following permissions are required for the account on the target server:
   - Read permission on the audit logs folder and its content.
   - Delete permission on the audit log folder content.
 
-- To connect to NetApp Clustered Data ONTAP 8 or ONTAP 9, an account must be assigned a custom role (e.g., fsa\_role) on SVM that has the following capabilities with access query levels:
+- To connect to NetApp Clustered Data ONTAP 8 or ONTAP 9, an account must be assigned a custom role (e.g., fsa_role) on SVM that has the following capabilities with access query levels:
 
   |  |  |
   | --- | --- |
@@ -45,7 +45,7 @@ __NOTE:__ This article applies to NetApp 8.3.2 and later. You must be a __cluste
 
 Follow the steps to create a role for enabling AD user access:
 
-__Step 1 –__ Create a new role (e.g., netwrix\_role for ONTAPI and netwrix\_rest\_role for RESTAPI) on your SVM (e.g., svm1). For example:
+__Step 1 –__ Create a new role (e.g., netwrix_role for ONTAPI and netwrix_rest_role for RESTAPI) on your SVM (e.g., svm1). For example:
 
 Create ONTAPI role:
 
@@ -94,7 +94,7 @@ security login rest-role show -vserver svm1 -role netwrix_rest_role
 
 __Step 3 –__ Create a login for the account that is going to authenticate and collect data from NetApp. If you want to use an AD account for collecting data, enable it to access SVM through ONTAPI. For example:
 
-__NOTE:__ In ONTAP 9.10 and higher, it is not possible to assign ONTAPI role (e.g. netwrix\_role) and RESTAPI role (e.g. netwrix\_rest\_role) to one AD user. To allow a user access to both the ONTAPI and RESTAPI, you can use different AD groups by assigning roles to them and including the user in these groups.
+__NOTE:__ In ONTAP 9.10 and higher, it is not possible to assign ONTAPI role (e.g. netwrix_role) and RESTAPI role (e.g. netwrix_rest_role) to one AD user. To allow a user access to both the ONTAPI and RESTAPI, you can use different AD groups by assigning roles to them and including the user in these groups.
 
 Create login for ONTAPI role:
 
@@ -120,7 +120,7 @@ _Remember,_ that to be able to add event policy for NetApp, the role you set up 
 
 The role you set up for working with RESTAPI must have the following attributes:
 
-- /api/svm/svms read\_create\_modify
-- /api/protocols/audit read\_create\_modify
+- /api/svm/svms read_create_modify
+- /api/protocols/audit read_create_modify
 - /api/storage/volumes readonly
 - /api/protocols/cifs/shares readonly

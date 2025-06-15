@@ -49,7 +49,7 @@ Use the __Connected App__ tab if you set up the connected app using the procedur
 
 If the configuration fails, an error message is displayed. For example,
 
-> __error=redirect\_uri\_mismatch__
+> __error=redirect_uri_mismatch__
 >
 > - The 10 minutes timing slot from Salesforce is not completed yet. Please wait
 > - If the error persists, check the [Callback URL](/docs/strongpointforsalesforce/integrations/jira_integration.md).

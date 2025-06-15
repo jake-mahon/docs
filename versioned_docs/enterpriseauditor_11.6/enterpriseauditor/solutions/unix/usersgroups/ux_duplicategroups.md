@@ -1,10 +1,10 @@
-# UX\_DuplicateGroups Job
+# UX_DuplicateGroups Job
 
-The UX\_DuplicateGroups job identifies duplicate groups within the audited Unix or Linux environment. Duplicate groups contain the same group membership as one another and are suitable candidates for cleanup.
+The UX_DuplicateGroups job identifies duplicate groups within the audited Unix or Linux environment. Duplicate groups contain the same group membership as one another and are suitable candidates for cleanup.
 
-## Analysis Tasks for the UX\_DuplicateGroups Job
+## Analysis Tasks for the UX_DuplicateGroups Job
 
-Navigate to the __Unix__ > __1.Users and Groups__ > __UX\_DuplicateGroups__ > __Configure__ node and select Analysis to view the analysis tasks.
+Navigate to the __Unix__ > __1.Users and Groups__ > __UX_DuplicateGroups__ > __Configure__ node and select Analysis to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,10 +12,10 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The default analysis tasks are:
 
-- Finds duplicate groups – Creates the SA\_UX\_DuplicateGroups\_Details table accessible under the job’s Results node
+- Finds duplicate groups – Creates the SA_UX_DuplicateGroups_Details table accessible under the job’s Results node
 - Summarizes duplicate groups – Creates an interim processing table in the database for use by downstream analysis and report generation
 
-In addition to the table and views created by the analysis tasks, the UX\_DuplicateGroups job produces the following pre-configured report:
+In addition to the table and views created by the analysis tasks, the UX_DuplicateGroups job produces the following pre-configured report:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

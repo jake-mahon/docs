@@ -16,7 +16,7 @@ Identity Manager natively sends notifications for:
 Concerning the notifications sent via permissions:  
 In order to receive the notifications, a profile must have the full permission path. Having a (great-)parent permission will not enable notifications for all child entities.
   
-For example, the permission /ProvisioningPolicy/PerformManualProvisioning/Directory\_User allows a profile to perform manual provisioning with Directory\_User as the source entity type, and receive the corresponding notifications. On the contrary, the permission ```/ProvisioningPolicy/PerformManualProvisioning/``` allows a profile to perform manual provisioning for all entity types, but not receive the corresponding notifications.
+For example, the permission /ProvisioningPolicy/PerformManualProvisioning/Directory_User allows a profile to perform manual provisioning with Directory_User as the source entity type, and receive the corresponding notifications. On the contrary, the permission ```/ProvisioningPolicy/PerformManualProvisioning/``` allows a profile to perform manual provisioning for all entity types, but not receive the corresponding notifications.
 
 See the [References: Permissions](/docs/usercube_saas/usercube/integration-guide/profiles-permissions/permissions/index.md) topic for additional information.
   

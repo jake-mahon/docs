@@ -1,26 +1,26 @@
-# 5.Sensitive Data > Dropbox\_SensitiveData Job
+# 5.Sensitive Data > Dropbox_SensitiveData Job
 
-The Dropbox\_SensitiveData job identifies locations within Dropbox where sensitive data is present. It analyzes sensitive data collected and imported by the 0.Collection job group, specifically data discovered by the Dropbox SDD jobs. The generated reports give visibility into the types of sensitive data found, where it exists, who has access to it, and the sharing policies configured on it.
+The Dropbox_SensitiveData job identifies locations within Dropbox where sensitive data is present. It analyzes sensitive data collected and imported by the 0.Collection job group, specifically data discovered by the Dropbox SDD jobs. The generated reports give visibility into the types of sensitive data found, where it exists, who has access to it, and the sharing policies configured on it.
 
 ![5.Sensitive Data > Dropbox_SensitiveData Job in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/db2/sensitivedata/sensitivedatajobstree.webp)
 
-The Dropbox\_SensitiveData job is located in the 5.Sensitive Data job group.
+The Dropbox_SensitiveData job is located in the 5.Sensitive Data job group.
 
-## Analysis Tasks for the Dropbox\_SensitiveData Job
+## Analysis Tasks for the Dropbox_SensitiveData Job
 
-View the analysis tasks by navigating to the __Jobs__ > __Dropbox__ > __5.Sensitive Data__ > __Dropbox\_SensitiveData__ > __Configure__ node and select __Analysis__.
+View the analysis tasks by navigating to the __Jobs__ > __Dropbox__ > __5.Sensitive Data__ > __Dropbox_SensitiveData__ > __Configure__ node and select __Analysis__.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
 ![Analysis Tasks for the Dropbox_SensitiveData Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/postgresql/collection/sensitivedataanalysis.webp)
 
-- 1. Enterprise Summary – Creates the SA\_Dropbox\_SensitiveData\_EnterpriseSummary table accessible under the job’s Results node
-- 2. Folder Details – Creates the SA\_Dropbox\_ SensitiveData\_FolderDetails table accessible under the job’s Results node
-- 3. Folder Summary – Creates the SA\_Dropbox\_ SensitiveData\_FolderSummary table accessible under the job’s Results node
-- 4. Permission Details – Creates the SA\_Dropbox\_ SensitiveData\_PermissionDetails table accessible under the job’s Results node
-- 5. Permission Summary – Creates the SA\_Dropbox\_ SensitiveData\_PermissionSummary table accessible under the job’s Results node
+- 1. Enterprise Summary – Creates the SA_Dropbox_SensitiveData_EnterpriseSummary table accessible under the job’s Results node
+- 2. Folder Details – Creates the SA_Dropbox_ SensitiveData_FolderDetails table accessible under the job’s Results node
+- 3. Folder Summary – Creates the SA_Dropbox_ SensitiveData_FolderSummary table accessible under the job’s Results node
+- 4. Permission Details – Creates the SA_Dropbox_ SensitiveData_PermissionDetails table accessible under the job’s Results node
+- 5. Permission Summary – Creates the SA_Dropbox_ SensitiveData_PermissionSummary table accessible under the job’s Results node
 
-In addition to the tables created by the analysis tasks which display effective access to resources, the Dropbox\_SensitiveData job produces the following pre-configured reports.
+In addition to the tables created by the analysis tasks which display effective access to resources, the Dropbox_SensitiveData job produces the following pre-configured reports.
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

@@ -2,8 +2,8 @@
 
 Dependencies
 
-- SG\_AccountPrivileges – To populate the Local Administrator column, which is hidden by default, the SG\_LocalAdmins job must be run prior to running this job
-- The __Logon Rights__ > __Collection__ job group must be run prior to running the SG\_LocalPolicies job
+- SG_AccountPrivileges – To populate the Local Administrator column, which is hidden by default, the SG_LocalAdmins job must be run prior to running this job
+- The __Logon Rights__ > __Collection__ job group must be run prior to running the SG_LocalPolicies job
 
 Targeted Hosts
 

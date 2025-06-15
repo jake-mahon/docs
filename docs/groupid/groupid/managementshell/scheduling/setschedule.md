@@ -71,7 +71,7 @@ Set-Schedule -ScheduleName smm4_ -TargetOperation Remove -Targets 'OU=ArslanAhma
 
 Example 4:
 
-This example modifies smm4\_ schedule by removing its targets.
+This example modifies smm4_ schedule by removing its targets.
 
 ```
 Set-Schedule -ScheduleName smm4_ -TargetOperation Remove -Targets 'CN=STest1Group,OU=ArslanAhmadOU,OU=WorkingOU,DC=pucit,DC=local', 'OU=CustomRole2,OU=WorkingOU,DC=pucit,DC=local'
@@ -103,7 +103,7 @@ Set-Schedule -ScheduleName smm4_ -TriggerOperation Add -TriggerType Monthly -Sta
 
 Example 8:
 
-This example adds a monthly repeating trigger for smm4\_ schedule and has an end date. It stops if it runs at the duration end.
+This example adds a monthly repeating trigger for smm4_ schedule and has an end date. It stops if it runs at the duration end.
 
 ```
 Set-Schedule -ScheduleName smm4_ -TriggerOperation Add -TriggerType Monthly -StartTime '16:56' -MonthDate 23 -YearMonths 'March,August,September' -Repeat -RepeatInterval 10 -RepeatDuration 60 -EndDate '2020/03/29' –KillAtDurationEnd

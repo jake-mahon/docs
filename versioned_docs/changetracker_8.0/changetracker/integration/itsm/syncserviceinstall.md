@@ -40,7 +40,7 @@ Enter the require configuration values:
 ![servicenowconnection](/img/versioned_docs/changetracker_8.0/changetracker/integration/itsm/servicenowconnection.png)
 
 - In the “ServiceNow ITSM Server URL” field, specify the URL for your ServiceNow REST API endpoint, e.g. https://service-now-server/api
-- In the “ServiceNow OAuth2 Token URL” field (not applicable if using Basic Authentication), specify the URL for your OAuth2 token endpoint, e.g. https://service-now-server/ oauth\_token.do
+- In the “ServiceNow OAuth2 Token URL” field (not applicable if using Basic Authentication), specify the URL for your OAuth2 token endpoint, e.g. https://service-now-server/ oauth_token.do
 
 ## ITSM Account
 

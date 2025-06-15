@@ -26,13 +26,13 @@ March 18, 2024
 - Updated library to SuiteScript 2.x to support customization audit tags.
 - Updated Strongpoint bundle component changes to be flagged as Managed Bundle instead of nonmaterial SP Bundle Change.
 - Updated the Search results link for __Strongpoint__ > __Change Management Reports__ > __Policy Changes__ to open __Strongpoint Policy Changes__. This is the same report as the one available in the __Reminders__ portlet.
-- Updated the Strongpoint _customscript\_flo\_create\_error\_proc\_issue_ script to be a maximum of 4000 characters to avoid a field length error.
+- Updated the Strongpoint _customscript_flo_create_error_proc_issue_ script to be a maximum of 4000 characters to avoid a field length error.
 
 ## Core 7.3.0.1
 
 March 1, 2024
 
-- Added a saved search __Strongpoint Config Value Changes__ (_customsearch\_cofgstat\_jira\_value\_changes_) to view fields updated by users.
+- Added a saved search __Strongpoint Config Value Changes__ (_customsearch_cofgstat_jira_value_changes_) to view fields updated by users.
 
 ## Core 7.3
 

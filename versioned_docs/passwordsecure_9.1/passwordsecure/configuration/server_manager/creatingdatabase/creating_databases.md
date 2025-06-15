@@ -2,7 +2,7 @@
 
 ![installation_with_parameters_216](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/server_manager/creatingdatabase/installation_with_parameters_216.png)
 
-[https://www.youtube.com/embed/md7\_VEdVuWM?rel=0](https://www.youtube.com/embed/md7_VEdVuWM?rel=0)[https://www.youtube.com/embed/md7\_VEdVuWM?rel=0](https://www.youtube.com/embed/md7_VEdVuWM?rel=0)
+[https://www.youtube.com/embed/md7_VEdVuWM?rel=0](https://www.youtube.com/embed/md7_VEdVuWM?rel=0)[https://www.youtube.com/embed/md7_VEdVuWM?rel=0](https://www.youtube.com/embed/md7_VEdVuWM?rel=0)
 
 ## What are databases?
 

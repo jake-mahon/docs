@@ -24,7 +24,7 @@ __NOTE:__ Prior to upgrading Privilege Secure, the installer will scan for the c
 
 __CAUTION:__ During an upgrade, the process updates both the application and the database. This process can take a significant amount of time, depending on the volume of data stored in the database. Canceling, exiting, or otherwise halting the installer during this step may result in irreparable damage to the Privilege Secure database and loss of data.
 
-__Step 1 –__ Install the new version of Privilege Secure by running the NPS\_Setup.exe as an administrator.
+__Step 1 –__ Install the new version of Privilege Secure by running the NPS_Setup.exe as an administrator.
 
 __NOTE:__ A server restart will be required after the installer in complete. A notification in the installer will display after the upgrade procedure is complete.
 

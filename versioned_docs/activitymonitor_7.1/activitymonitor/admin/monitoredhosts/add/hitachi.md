@@ -48,7 +48,7 @@ __Step 5 –__ On the Configure Operations page, select the __File Operations__ 
 __Step 6 –__ On the Configure Basic Options page, choose which settings to enable. The “Log files” are the activity logs created by the activity agent on the proxy host. Select the desired options:
 
 - Report UNC paths – Adds a UNC Path column and a Rename UNC Path column in the generated TSV files
-  - This option corresponds to the REPORT\_UNC\_PATH parameter in the INI file. It is disabled by default. The UNC Path is in the following format:
+  - This option corresponds to the REPORT_UNC_PATH parameter in the INI file. It is disabled by default. The UNC Path is in the following format:
     - For CIFS activity – \\[HOST]\[SHARE]\[PATH]
     - Example CIFS activity – \\ExampleHost\TestShare\DocTeam\Temp.txt
     - For NFS activity – [HOST]:/[VOLUME]/[PATH]

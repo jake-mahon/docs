@@ -32,7 +32,7 @@ __Step 2 –__ After downloading the dictionary file manually do one the followi
 - If no internet connection exists on the Enterprise Auditor server:
 
   - Copy the file to the Enterprise Auditor server and put it in a location of your choosing. The default location is ```%sainstalldir%\Jobs\SA_CommonData\PasswordSecurity\Dictionaries```
-  - Open the PasswordSecurity data collector configuration for the __AD\_WeakPasswords__ job
+  - Open the PasswordSecurity data collector configuration for the __AD_WeakPasswords__ job
   - On the Dictionaries page, deselect the __Use STEALTHbits dictionary__ checkbox
   - On the Dictionaries page, click __Add...__ and select the previously downloaded ```dictionary.dat``` file
 

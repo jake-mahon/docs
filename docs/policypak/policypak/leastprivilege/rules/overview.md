@@ -53,7 +53,7 @@ The final example is downloading a portable app. A portable app is an applicatio
 
 - [VLC Media Player Portable](https://portableapps.com/apps/music_video/vlc_portable)
 - [Sudoku Portable](https://portableapps.com/apps/games/sudoku_portable)
-- [Notepad2 Portable](https://portableapps.com/apps/development/notepad2_portable)[https://portableapps.com/apps/games/sudoku\_portable](https://portableapps.com/apps/games/sudoku_portable)
+- [Notepad2 Portable](https://portableapps.com/apps/development/notepad2_portable)[https://portableapps.com/apps/games/sudoku_portable](https://portableapps.com/apps/games/sudoku_portable)
 
 In this example, Notepad2 has been downloaded and unpacked to the user’s desktop in a folder called Notepad2.
 

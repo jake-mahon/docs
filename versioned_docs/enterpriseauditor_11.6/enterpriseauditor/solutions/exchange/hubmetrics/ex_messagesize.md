@@ -1,10 +1,10 @@
-# EX\_MessageSize Job
+# EX_MessageSize Job
 
-The EX\_MessageSize Job provides information around the size of sent and received messages.
+The EX_MessageSize Job provides information around the size of sent and received messages.
 
-## Analysis Tasks for the EX\_MessageSize Job
+## Analysis Tasks for the EX_MessageSize Job
 
-View the analysis task by navigating to the __Exchange__ > __1. HUB Metrics__ > __EX\_MessageSize__ > __Configure__ node and select __Analysis__.
+View the analysis task by navigating to the __Exchange__ > __1. HUB Metrics__ > __EX_MessageSize__ > __Configure__ node and select __Analysis__.
 
 __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis task is preconfigured for this job.
 
@@ -12,9 +12,9 @@ __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis 
 
 The following analysis task is selected by default:
 
-- 01. Message Size by Server – Creates the SA\_EX\_MessageSize\_HostSummary table accessible under the job’s Results node
+- 01. Message Size by Server – Creates the SA_EX_MessageSize_HostSummary table accessible under the job’s Results node
 
-In addition to the tables and views created by the analysis task, the EX\_MessageSize Job produces the following pre-configured report:
+In addition to the tables and views created by the analysis task, the EX_MessageSize Job produces the following pre-configured report:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

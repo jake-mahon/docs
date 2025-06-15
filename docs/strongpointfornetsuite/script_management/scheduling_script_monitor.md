@@ -16,9 +16,9 @@ To schedule the script:
 
 1. Open __Customization__ > __Scripting__ > __Scripts__.
 2. Expand __Filters__ and select __Scheduled__ for __Type__.
-3. Locate the __Strongpoint Script Monitor ResultData SS__ (id customscript\_flo\_script\_result\_data\_ss) script.
+3. Locate the __Strongpoint Script Monitor ResultData SS__ (id customscript_flo_script_result_data_ss) script.
 4. Click __Deployments__ link.
-5. Click __Edit__ link for __customdeploy\_flo\_script\_utilisation\_data__
+5. Click __Edit__ link for __customdeploy_flo_script_utilisation_data__
 6. Set __Status__ to __Scheduled__.
 7. Set __Start Date__ to the current date. You can modify the schedule as needed.
 8. Click __Save__

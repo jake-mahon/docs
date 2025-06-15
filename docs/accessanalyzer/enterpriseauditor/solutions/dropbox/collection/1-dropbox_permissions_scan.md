@@ -1,16 +1,16 @@
-# 1-Dropbox\_Permissions Scan Job
+# 1-Dropbox_Permissions Scan Job
 
-The 1-Dropbox\_Permissions Scan job collects data from the Dropbox environment on access rights, sharing policies, configurations, and content.
+The 1-Dropbox_Permissions Scan job collects data from the Dropbox environment on access rights, sharing policies, configurations, and content.
 
 __CAUTION:__ This job should not be run if running sensitive data scans against the Dropbox Business environment.
 
-## Queries for the 1-Dropbox\_Permissions Scan Job
+## Queries for the 1-Dropbox_Permissions Scan Job
 
-The 1-Dropbox\_Permissions Scan job has been preconfigured to run with the default settings with the category of Dropbox Access.
+The 1-Dropbox_Permissions Scan job has been preconfigured to run with the default settings with the category of Dropbox Access.
 
 ![Queries for the 1-Dropbox_Permissions Scan Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/db2/collection/permissionsscanquery.webp)
 
-The query for the 1-Dropbox\_Permissions Scan job is:
+The query for the 1-Dropbox_Permissions Scan job is:
 
 - Dropbox Access – Collects the data on access rights, sharing policies, configurations, and content
 
@@ -18,7 +18,7 @@ The query for the 1-Dropbox\_Permissions Scan job is:
 
 Follow the steps to either generate the access token needed for the Connection Profile (only done prior to first execution) or to set any desired customizations.
 
-__Step 1 –__ Navigate to the __Jobs__ > __Dropbox__ > __0.Collection__ > __1-Dropbox\_Permissions Scan__ > __Configure__ node and select __Queries__.
+__Step 1 –__ Navigate to the __Jobs__ > __Dropbox__ > __0.Collection__ > __1-Dropbox_Permissions Scan__ > __Configure__ node and select __Queries__.
 
 __Step 2 –__ In the Query Selection view, click __Query Properties__ to open the Query Properties window.
 
@@ -39,4 +39,4 @@ __Step 6 –__ On the Scoping page, select whether to scan __All Users__ or __Li
 
 __Step 7 –__ On the Summary page, click __Finish__ to save any setting modifications or click __Cancel__ if no changes were made. Then click __OK__ to close the Query Properties window.
 
-If changes were made, the 1-Dropbox\_Permissions Scan job has now been customized.
+If changes were made, the 1-Dropbox_Permissions Scan job has now been customized.

@@ -1,10 +1,10 @@
-# SQL\_DirectPermissions Job
+# SQL_DirectPermissions Job
 
-The SQL\_DirectPermissions Job provides information on permissions granted to users at the schema, database, and server level.
+The SQL_DirectPermissions Job provides information on permissions granted to users at the schema, database, and server level.
 
-## Analysis Tasks for the SQL\_DirectPermissions Job
+## Analysis Tasks for the SQL_DirectPermissions Job
 
-Navigate to the __Databases__ > SQL > 3.Permissions > SQL\_DirectPermissions > Configure node and select Analysis to view the analysis tasks.
+Navigate to the __Databases__ > SQL > 3.Permissions > SQL_DirectPermissions > Configure node and select Analysis to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis task(s). The analysis task(s) are preconfigured for this job.
 
@@ -12,11 +12,11 @@ __CAUTION:__ Do not modify or deselect the selected analysis task(s). The analys
 
 The default analysis tasks are:
 
-- Determine database permissions – Creates the SA\_SQLServer\_DirectPermissions\_DatabaseDetails table accessible under the job’s Results node
-- Determine schema permissions – Creates the SA\_SQLServer\_DirectPermissions\_SchemaDetails table accessible under the job’s Results node
-- Determine server permissions – Creates the SA\_SQLServer\_DirectPermissions\_ServerDetails table accessible under the job’s Results node
+- Determine database permissions – Creates the SA_SQLServer_DirectPermissions_DatabaseDetails table accessible under the job’s Results node
+- Determine schema permissions – Creates the SA_SQLServer_DirectPermissions_SchemaDetails table accessible under the job’s Results node
+- Determine server permissions – Creates the SA_SQLServer_DirectPermissions_ServerDetails table accessible under the job’s Results node
 
-In addition to the tables and views created by the analysis tasks, the SQL\_DirectPermissions Job produces the following pre-configured reports.
+In addition to the tables and views created by the analysis tasks, the SQL_DirectPermissions Job produces the following pre-configured reports.
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

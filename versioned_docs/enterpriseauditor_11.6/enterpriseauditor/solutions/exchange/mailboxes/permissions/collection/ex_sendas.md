@@ -1,14 +1,14 @@
-# EX\_SendAs Job
+# EX_SendAs Job
 
-The EX\_SendAs job collects data from Active Directory to identify the Active Directory rights applied to a mailbox.
+The EX_SendAs job collects data from Active Directory to identify the Active Directory rights applied to a mailbox.
 
-## Queries for the EX\_SendAs Job
+## Queries for the EX_SendAs Job
 
-The EX\_SendAs job uses the ExchangePS Data Collector.
+The EX_SendAs job uses the ExchangePS Data Collector.
 
 ![Queries for the EX_SendAs Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/mailboxes/permissions/collection/sendasquery.png)
 
-The following query is included in the EX\_SendAs Job:
+The following query is included in the EX_SendAs Job:
 
 - Send AS - Rights – Collects Exchange mailbox folder permissions
 
@@ -17,9 +17,9 @@ The following query is included in the EX\_SendAs Job:
 
   __NOTE:__ The ExchangePS Data Collector is capable of targeting Exchange Online as well as Exchange on-premises environments. See the [Exchange PowerShell Permissions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/exchange/powershell.md) topic for credential requirements.
 
-## Analysis Tasks for the EX\_SendAs Job
+## Analysis Tasks for the EX_SendAs Job
 
-View the analysis task by navigating to the __Exchange__ > __4. Mailboxes__ > __Permissions__ > __0.Collection__ > __EX\_SendAs__ > __Configure__ node and select __Analysis__.
+View the analysis task by navigating to the __Exchange__ > __4. Mailboxes__ > __Permissions__ > __0.Collection__ > __EX_SendAs__ > __Configure__ node and select __Analysis__.
 
 __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis task is preconfigured for this job.
 

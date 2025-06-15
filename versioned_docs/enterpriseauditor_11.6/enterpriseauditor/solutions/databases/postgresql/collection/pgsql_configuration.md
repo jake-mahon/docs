@@ -1,10 +1,10 @@
-# PgSQL\_Configuration Job
+# PgSQL_Configuration Job
 
-The PgSQL\_Configuration Job is designed to return additional configuration settings from PostgreSQL servers.
+The PgSQL_Configuration Job is designed to return additional configuration settings from PostgreSQL servers.
 
-## Queries for the PgSQL\_Configuration Job
+## Queries for the PgSQL_Configuration Job
 
-The PgSQL\_Configuration Job uses the SQL Data Collector.
+The PgSQL_Configuration Job uses the SQL Data Collector.
 
 __CAUTION:__ Do not modify the query. The query is preconfigured for this job.
 

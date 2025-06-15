@@ -51,12 +51,12 @@ You can also apply manual proxy settings using CLI commands:
 
 Example:
 
-msiexec.exe /i "C:\Work\Tools\EPPClientSetup.5.7.1.5\_x86\_64.msi" /q REBOOT=ReallySuppress RUNNOTIFIER=0 /log "C:\Windows\TEMP\epp-upgrade.log" WSIP="192.168.18.125"  WSPORT="8080"  DEPT\_CODE="defdep"  PROXYIP="127.0.0.1" PROXYPORT="80" AUTHUSR="user\_name" AUTHPASS="password"
+msiexec.exe /i "C:\Work\Tools\EPPClientSetup.5.7.1.5_x86_64.msi" /q REBOOT=ReallySuppress RUNNOTIFIER=0 /log "C:\Windows\TEMP\epp-upgrade.log" WSIP="192.168.18.125"  WSPORT="8080"  DEPT_CODE="defdep"  PROXYIP="127.0.0.1" PROXYPORT="80" AUTHUSR="user_name" AUTHPASS="password"
 
 Where:
 
-- PROXY\_IP – IP of the proxy
-- PROXY\_PORT – Port of the proxy
+- PROXY_IP – IP of the proxy
+- PROXY_PORT – Port of the proxy
 - AUTHUSR – Username (if authentication for proxy is needed)
 - AUTHPASS – Password (if authentication for proxy is needed)
 
@@ -64,7 +64,7 @@ You can also use CLI Commands below to install Endpoint Protector Client in spec
 
 - WSIP – server address
 - WSPORT – server port number
-- DEPT\_CODE – department code
+- DEPT_CODE – department code
 - IPV6MAPPING – IPV6 Mapping IPv4 addresses
 - SUPPRESSRD – suppress FileRead/FileDelete events for NS and Removable devices
 - DISABLECAP – disabling loading of CAP drivers (CAP will not work)
@@ -89,15 +89,15 @@ __Step 3 –__ Open the options.sh conﬁguration ﬁle with the following comma
 
 __Step 4 –__ In the conﬁguration ﬁle, you will view the following ﬁelds for the proxy setup:
 
-#EPPCLIENT\_HTTPS\_PROXY=
+#EPPCLIENT_HTTPS_PROXY=
 
-#export EPPCLIENT\_HTTPS\_PROXY
+#export EPPCLIENT_HTTPS_PROXY
 
 __Step 5 –__ Remove the # before each entry to apply the proxy setups.
 
-__Step 6 –__ For the ﬁrst proxy setup, EPPCLIENT\_HTTPS\_PROXY, add the proxy server information in the address:port:user:password format.
+__Step 6 –__ For the ﬁrst proxy setup, EPPCLIENT_HTTPS_PROXY, add the proxy server information in the address:port:user:password format.
 
-Example: EPPCLIENT\_HTTPS\_PROXY=address:port:user:password
+Example: EPPCLIENT_HTTPS_PROXY=address:port:user:password
 
 __Step 7 –__ Save the changes, and then run the installation without having a VPN connection:
 
@@ -105,8 +105,8 @@ __Step 7 –__ Save the changes, and then run the installation without having a 
 
 Additional CLI commands for Linux in speciﬁc mode:
 
-- #EPPCLIENT\_SUPRESSRW - suppress FileRead/FileDelete events for NS and Removable devices
-- #EPPCLIENT\_DISABLECAP - disabling loading of CAP drivers (CAP will not work)
+- #EPPCLIENT_SUPRESSRW - suppress FileRead/FileDelete events for NS and Removable devices
+- #EPPCLIENT_DISABLECAP - disabling loading of CAP drivers (CAP will not work)
 
 ## Client Software Upgrade
 

@@ -1,12 +1,12 @@
-# 2-AD\_Changes Job
+# 2-AD_Changes Job
 
-The 2-AD\_Changes Job tracks changes within all scanned domains. Reports in the job highlight Active Directory changes which have occurred since the last time the .Active Directory Inventory Job Group was run. It is dependent on the running of the 1-AD\_Scan Job, also located in the .Active Directory Inventory Job Group.
+The 2-AD_Changes Job tracks changes within all scanned domains. Reports in the job highlight Active Directory changes which have occurred since the last time the .Active Directory Inventory Job Group was run. It is dependent on the running of the 1-AD_Scan Job, also located in the .Active Directory Inventory Job Group.
 
-The 1-AD\_Scan Job must have the Query Option to __Track changes into Change tracking tables__ selected in order for the Analysis Tasks in the 2-AD\_Changes Job to work. See Step 4 of the [Customize the 1-AD\_Scan Query](/docs/accessanalyzer/enterpriseauditor/solutions/activedirectoryinventory/1-ad_scan.md#customize-the-1-ad_scan-query) topic for additional information.
+The 1-AD_Scan Job must have the Query Option to __Track changes into Change tracking tables__ selected in order for the Analysis Tasks in the 2-AD_Changes Job to work. See Step 4 of the [Customize the 1-AD_Scan Query](/docs/accessanalyzer/enterpriseauditor/solutions/activedirectoryinventory/1-ad_scan.md#customize-the-1-ad_scan-query) topic for additional information.
 
-## Analysis Tasks for the 2-AD\_Changes Job
+## Analysis Tasks for the 2-AD_Changes Job
 
-View the analysis tasks by navigating to the __.Active Directory Inventory__ > __2-AD\_Changes__ > __Configure__ node and select __Analysis__.
+View the analysis tasks by navigating to the __.Active Directory Inventory__ > __2-AD_Changes__ > __Configure__ node and select __Analysis__.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -16,29 +16,29 @@ The following analysis tasks are selected by default:
 
 - Org Changes
 
-  - Creates the SA\_AD\_Changes\_OrganizationalChanges table accessible under the job’s Results node
+  - Creates the SA_AD_Changes_OrganizationalChanges table accessible under the job’s Results node
   - Creates interim processing tables in the database for use by downstream analysis and report generation
-- Analyze Group Changes – Creates the SA\_AD\_Changes\_GroupAnalysis table accessible under the job’s Results node
+- Analyze Group Changes – Creates the SA_AD_Changes_GroupAnalysis table accessible under the job’s Results node
 - Attribute Changes
 
-  - Creates the SA\_AD\_Changes\_AttributeChangeDetails table accessible under the job’s Results node
+  - Creates the SA_AD_Changes_AttributeChangeDetails table accessible under the job’s Results node
   - Creates interim processing tables in the database for use by downstream analysis and report generation
 - User Account Status
 
-  - Creates the SA\_AD\_Changes\_UserAccountStatus table accessible under the job’s Results node
+  - Creates the SA_AD_Changes_UserAccountStatus table accessible under the job’s Results node
   - Creates interim processing tables in the database for use by downstream analysis and report generation
 - Group Membership Changes
 
-  - Creates the SA\_AD\_Changes\_GroupMembershipChanges table accessible under the job’s Results node
+  - Creates the SA_AD_Changes_GroupMembershipChanges table accessible under the job’s Results node
   - Creates interim processing tables in the database for use by downstream analysis and report generation
 - Object Moves
 
-  - Creates the SA\_AD\_Changes\_ObjectMoves table accessible under the job’s Results node
+  - Creates the SA_AD_Changes_ObjectMoves table accessible under the job’s Results node
   - Creates interim processing tables in the database for use by downstream analysis and report generation
 - New Principals – Creates interim processing tables in the database for use by downstream analysis and report generation
 - Deleted Principals
 
-  - Creates the SA\_AD\_Changes\_DeletedPrincipals table accessible under the job’s Results node
+  - Creates the SA_AD_Changes_DeletedPrincipals table accessible under the job’s Results node
   - Creates interim processing tables in the database for use by downstream analysis and report generation
 
 The Notification analysis tasks are optional and require configuration before enabling them. The following analysis tasks are deselected by default:
@@ -71,9 +71,9 @@ The Notification analysis tasks are optional and require configuration before en
 
   - Importance – Security  and Employee Productivity
 
-Notification must have recipients configured for the analysis task. Optionally, the email subject and body can be modified. See the [Notification Analysis Tasks for the 2-AD\_Changes Job](#notification-analysis-tasks-for-the-2-ad_changes-job) topic for additional information.
+Notification must have recipients configured for the analysis task. Optionally, the email subject and body can be modified. See the [Notification Analysis Tasks for the 2-AD_Changes Job](#notification-analysis-tasks-for-the-2-ad_changes-job) topic for additional information.
 
-In addition to the tables and views created by the analysis tasks, the 2-AD\_Changes Job produces the following pre-configured reports:
+In addition to the tables and views created by the analysis tasks, the 2-AD_Changes Job produces the following pre-configured reports:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |
@@ -85,11 +85,11 @@ In addition to the tables and views created by the analysis tasks, the 2-AD\_Cha
 | Principal Deletions (A.K.A. Past 24 Hours) | This report identifies when principals have been deleted from the targeted domains. | None | This report is comprised of three elements:   - Bar graph – Displays Deleted Principals by Domain (Past 24 Hours)  - Table – Provides details on deleted principals by domain (Past 24 Hours)  - Table – Provides details on the principals by domain |
 | User Account Status Changes | This report tracks user account status changes. | None | This report is comprised of three elements:   - Bar graph – Displays User Account Control Changes (Past 24 Hours)  - Table – Provides details on user account control changes (Past 24 Hours)  - Table – Provides details on the user account control changes |
 
-### Notification Analysis Tasks for the 2-AD\_Changes Job
+### Notification Analysis Tasks for the 2-AD_Changes Job
 
 In order for Access Analyzer to send email notifications, it is necessary for the __Settings__ > __Notification__ node to be properly configured. See the [Notification](/docs/accessanalyzer/enterpriseauditor/admin/settings/notification.md) topic for instructions on enabling the Access Analyzer Console to send email notifications. Once email notifications have been enabled, the individual notification analysis tasks can be configured and enabled. Follow the steps to configure a notification analysis task.
 
-__Step 1 –__ Navigate to the __.Active Directory Inventory__ > __2-AD\_Changes__ > __Configure__ node and select __Analysis__.
+__Step 1 –__ Navigate to the __.Active Directory Inventory__ > __2-AD_Changes__ > __Configure__ node and select __Analysis__.
 
 ![Notification Analysis Tasks for the 2-AD_Changes Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectoryinventory/changesanalysisnotification.webp)
 
@@ -119,4 +119,4 @@ __Step 7 –__ This notification analysis task is now configured to send emails.
 
 __Step 8 –__ Repeat this process for each desired notification analysis task.
 
-Configured and enabled notifications now send alerts automatically during the execution of the 2-AD\_Changes Job.
+Configured and enabled notifications now send alerts automatically during the execution of the 2-AD_Changes Job.

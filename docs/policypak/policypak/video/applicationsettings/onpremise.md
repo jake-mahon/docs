@@ -50,7 +50,7 @@ Let's take a look at our results. If I take a look at "WinZip" here and go to "O
 
 Remember, PolicyPak has a bunch of superpowers. One of them is that if a user tries to be naughty and tries to work around your IT configuration changes, at the next time that application is launched those are put back in.
 
-I also showed you that if you set up PolicyPak ACL Lockdown – so if I go to "HKEY\_CURRENT\_USER/Software/Nico Mak Computing/WinZip/Policies" here – you can see PolicyPak has taken ownership of this portion of the registry so a standard user now cannot work around and be naughty and try to do things that are outside the scope of your IT directives.
+I also showed you that if you set up PolicyPak ACL Lockdown – so if I go to "HKEY_CURRENT_USER/Software/Nico Mak Computing/WinZip/Policies" here – you can see PolicyPak has taken ownership of this portion of the registry so a standard user now cannot work around and be naughty and try to do things that are outside the scope of your IT directives.
 
 The very last thing I want to show you is reverting settings when they no longer apply. The only thing we specified to revert back was "Minimum password length" was going to go back from "11" to "8."
 

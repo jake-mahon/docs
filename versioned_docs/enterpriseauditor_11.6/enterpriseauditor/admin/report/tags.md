@@ -28,62 +28,62 @@ The following sections list out of the box reports that contain each tag. The ta
 
 The Open Access tag is included in the following reports:
 
-- Active Directory Permissions Analyzer > 5.Open Access > AD\_OpenAccess > Open Access by Domain
-- Exchange > 4. Mailboxes > Permissions > EX\_MailboxAccess > Incorrect Default and Anon Permissions
+- Active Directory Permissions Analyzer > 5.Open Access > AD_OpenAccess > Open Access by Domain
+- Exchange > 4. Mailboxes > Permissions > EX_MailboxAccess > Incorrect Default and Anon Permissions
 - SharePoint > 2.High Risk Sites >ALL REPORTS
-- FileSystem > 1.Open Access > FS\_OpenAccess > ALL REPORTS
-- SQL > 5.Permissions > SQL\_PublicPermissions > Public Permissions
-- Oracle > 5.Permissions > Oracle\_PublicPermissions > Public Permissions
+- FileSystem > 1.Open Access > FS_OpenAccess > ALL REPORTS
+- SQL > 5.Permissions > SQL_PublicPermissions > Public Permissions
+- Oracle > 5.Permissions > Oracle_PublicPermissions > Public Permissions
 
 ### Sensitive Data
 
 The Sensitive Data tag is included in the following reports:
 
 - Dropbox > 5.Sensitive Data > Dropbox SensitiveData > ALL REPORTS
-- Exchange > 7. Sensitive Data > EX\_SDDResults > ALL REPORTS
-- FileSystem > 7.Sensitive Data > FS\_DLPResults > ALL REPORTS
-- Oracle > 7.Sensitive Data > Oracle\_SensitiveData > ALL REPORTS
-- SharePoint > 7.Sensitive Data Discovery > SP\_SensitiveData > ALL REPORTS
-- SQL > 7.Sensitive Data > SQL\_SensitiveData > ALL REPORTS
+- Exchange > 7. Sensitive Data > EX_SDDResults > ALL REPORTS
+- FileSystem > 7.Sensitive Data > FS_DLPResults > ALL REPORTS
+- Oracle > 7.Sensitive Data > Oracle_SensitiveData > ALL REPORTS
+- SharePoint > 7.Sensitive Data Discovery > SP_SensitiveData > ALL REPORTS
+- SQL > 7.Sensitive Data > SQL_SensitiveData > ALL REPORTS
 
 ### Stale Data
 
 The Stale Data tag is included in the following reports:
 
-- Dropbox > 4.Content >Dropbox\_Content > Stale Data
-- Exchange > 4. Mailboxes > Sizing >EX\_StaleMailboxes > Stale Users
-- FileSystem > 4.Content > Stale > FS\_StaleContent > Shares with Stale Content
-- SharePoint > 4.Content > SP\_StaleFiles > Stale Files
-- Box > 2.Content > Box\_FileMetrics > Files by User
-- Box > 2.Content > Box\_FileMetrics > Files by Extension
+- Dropbox > 4.Content >Dropbox_Content > Stale Data
+- Exchange > 4. Mailboxes > Sizing >EX_StaleMailboxes > Stale Users
+- FileSystem > 4.Content > Stale > FS_StaleContent > Shares with Stale Content
+- SharePoint > 4.Content > SP_StaleFiles > Stale Files
+- Box > 2.Content > Box_FileMetrics > Files by User
+- Box > 2.Content > Box_FileMetrics > Files by Extension
 
 ### Stale Principals
 
 The Stale Principals tag is included in the following reports:
 
-- Active Directory > 2.Users > AD\_StaleUsers > Stale Users
-- Active Directory > 1.Groups > AD\_StaleGroups > Stale Effective Membership
-- Entra ID > 1.Groups > AAD\_StaleGroups
-- Entra ID > 2.Users > AAD\_StaleUsers
-- Oracle > 3.Users and Roles >Oracle\_Users
-- SQL > 3.Users and Roles > SQL\_DatabasePrincipals
+- Active Directory > 2.Users > AD_StaleUsers > Stale Users
+- Active Directory > 1.Groups > AD_StaleGroups > Stale Effective Membership
+- Entra ID > 1.Groups > AAD_StaleGroups
+- Entra ID > 2.Users > AAD_StaleUsers
+- Oracle > 3.Users and Roles >Oracle_Users
+- SQL > 3.Users and Roles > SQL_DatabasePrincipals
 
 ### Security Assessment
 
 The Security Assessment tag is included in the following reports:
 
-- Active Directory > AD\_SecurityAssessment > AD Security Assessment
-- FileSystem > FS\_SecurityAssessment > Security Assessment
-- Windows > SG\_SecurityAssessment > Systems Security Assessment
-- SQL > SQL\_SecurityAssessment > SQL Security Assessment
-- Oracle > Oracle\_SecurityAssessment > Oracle Security Assessment
+- Active Directory > AD_SecurityAssessment > AD Security Assessment
+- FileSystem > FS_SecurityAssessment > Security Assessment
+- Windows > SG_SecurityAssessment > Systems Security Assessment
+- SQL > SQL_SecurityAssessment > SQL Security Assessment
+- Oracle > Oracle_SecurityAssessment > Oracle Security Assessment
 
 ### Privileged Access
 
 The Privileged Access tag is included in the following reports:
 
-- Active Directory > 2.Users > AD\_ServiceAccounts > Service Accounts
-- Windows > Privileged Accounts > Local Administrators > SG\_LocalAdmins > Local Administrators
-- Unix > 2.Privileged Access > Sudoers > UX\_Sudoers > Sudo Rights by Host
-- Active Directory > 1.Groups > AD\_SensitiveSecurityGroups > Sensitive Security Group Membership
+- Active Directory > 2.Users > AD_ServiceAccounts > Service Accounts
+- Windows > Privileged Accounts > Local Administrators > SG_LocalAdmins > Local Administrators
+- Unix > 2.Privileged Access > Sudoers > UX_Sudoers > Sudo Rights by Host
+- Active Directory > 1.Groups > AD_SensitiveSecurityGroups > Sensitive Security Group Membership
 - Shadow Access (when added)

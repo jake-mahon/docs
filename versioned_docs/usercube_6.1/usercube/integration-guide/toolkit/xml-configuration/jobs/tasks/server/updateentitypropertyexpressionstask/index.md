@@ -14,7 +14,7 @@ Calculates either for all entities or for a list of entities the expressions and
 
 | Property | Details |
 | --- | --- |
-| DisplayName\_L1   required | __Type__    String   __Description__   Display name of the task in language 1 (up to 16). |
+| DisplayName_L1   required | __Type__    String   __Description__   Display name of the task in language 1 (up to 16). |
 | AllEntityType   default value: false | __Type__    Boolean   __Description__   Launch to all entityTypes for the expression task.   _Alternative definition_: If _TaskType_ is:   - TreeDimensionsRefreshTask: Refresh all dimensions. |
 | BatchSelectSize   default value: 0 | __Type__    Int32   __Description__   Defines the batch select size. |
 | BatchUpdateSize   default value: 0 | __Type__    Int32   __Description__   Defines the batch update size. |

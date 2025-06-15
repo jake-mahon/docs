@@ -74,7 +74,7 @@ It is recommended to include the date and what the purpose of the excel file is 
 
 Tips
 
-If Excel is unwieldly slow rows can be deleted for machines that have not been scanned. But, instead of filtering and deleting, sort based on the last\_scanned column and then delete the unwanted rows. Sorting and deleting is many times faster for Excel. This can also resolve issues with Excel crashing. Another benefit is the upload back to Privilege Secure will be faster with fewer rows.
+If Excel is unwieldly slow rows can be deleted for machines that have not been scanned. But, instead of filtering and deleting, sort based on the last_scanned column and then delete the unwanted rows. Sorting and deleting is many times faster for Excel. This can also resolve issues with Excel crashing. Another benefit is the upload back to Privilege Secure will be faster with fewer rows.
 
 Excel Tips
 
@@ -89,9 +89,9 @@ Creating the upload file:
 
 - To apply service accounts add the formula to the Provision Account column (column AD) on the Computer Data tab:
 
-=IF(ISNA(INDEX('Admin List'!D:D,MATCH(1,(B2= 'Admin List'!$B$1:$B$40000)\*("TARGET\_GROUP"='Admin List'!$D$1:$D$40000),0))),"","Service Account;true,Service Account2;true")
+=IF(ISNA(INDEX('Admin List'!D:D,MATCH(1,(B2= 'Admin List'!$B$1:$B$40000)\*("TARGET_GROUP"='Admin List'!$D$1:$D$40000),0))),"","Service Account;true,Service Account2;true")
 
-- Change TARGET\_GROUP to the group that contains the service accounts.
+- Change TARGET_GROUP to the group that contains the service accounts.
 - Update the formula to the specific service accounts that need to be applied.
 - Change the amount of rows (40,000 here) to cover the amount of rows in the Admin List tab
 - Press `<CTRL>` `<SHIFT>` and `<ENTER>` to apply the formula (this will add curly braces, {}, to the formula, before copying to the bottom of the Computer Data tab.

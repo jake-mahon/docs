@@ -14,7 +14,7 @@ Name of the cmdlet for help. Can also use __-C__ or __-c__.
 
 `<CommonParameters>`
 
-This cmdlet supports the common parameters: __Verbose__, __Debug__, __ErrorAction__, __ErrorVariable__, __WarningAction__, __WarningVariable__, __OutBuffer__, __PipelineVariable__, and __OutVariable__. For more information, see about\_CommonParameters [https:/go.microsoft.com/fwlink/?LinkID=113216](https:/go.microsoft.com/fwlink?linkid=113216).
+This cmdlet supports the common parameters: __Verbose__, __Debug__, __ErrorAction__, __ErrorVariable__, __WarningAction__, __WarningVariable__, __OutBuffer__, __PipelineVariable__, and __OutVariable__. For more information, see about_CommonParameters [https:/go.microsoft.com/fwlink/?LinkID=113216](https:/go.microsoft.com/fwlink?linkid=113216).
 
 EXAMPLE
 
@@ -38,7 +38,7 @@ Get a list of the PPE Cmdlet
 
 RELATED LINKS
 
-https://www.netwrix.com/password\_policy\_enforcer.html
+https://www.netwrix.com/password_policy_enforcer.html
 
 REMARKS
 

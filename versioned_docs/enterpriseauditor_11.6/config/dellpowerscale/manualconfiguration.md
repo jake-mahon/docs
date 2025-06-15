@@ -22,7 +22,7 @@ For each monitored access zone:
   isi audit settings modify --zone ZONENAME --clear-audit-failure --clear-syslog-audit-events
 - Set the success audit events with:
 
-  isi audit settings modify --zone ZONENAME --audit-success=close\_file\_modified,close\_file\_unmodified,create\_file,create\_directory,delete\_file,delete\_directory,rename\_file,rename\_directory,set\_security\_file,set\_security\_directory
+  isi audit settings modify --zone ZONENAME --audit-success=close_file_modified,close_file_unmodified,create_file,create_directory,delete_file,delete_directory,rename_file,rename_directory,set_security_file,set_security_directory
 
 ![eventforwarding](/img/versioned_docs/activitymonitor_7.1/config/dellpowerscale/eventforwarding.png)
 

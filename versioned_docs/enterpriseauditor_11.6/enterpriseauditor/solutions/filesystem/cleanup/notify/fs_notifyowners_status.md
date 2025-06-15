@@ -1,10 +1,10 @@
-# FS\_NotifyOwners\_Status Job
+# FS_NotifyOwners_Status Job
 
-The FS\_NotifyOwners\_Status job is comprised of analysis and reports that summarize the actions performed by the FS\_NotifyOwners job. See the [FS\_NotifyOwners Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/cleanup/notify/fs_notifyowners.md) topic for additional information.
+The FS_NotifyOwners_Status job is comprised of analysis and reports that summarize the actions performed by the FS_NotifyOwners job. See the [FS_NotifyOwners Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/cleanup/notify/fs_notifyowners.md) topic for additional information.
 
-## Analysis Tasks for the FS\_NotifyOwners\_Status Job
+## Analysis Tasks for the FS_NotifyOwners_Status Job
 
-Navigate to the __FileSystem__ > __Cleanup__ > __2. Notify__ > __FS\_NotifyOwners\_Status__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __FileSystem__ > __Cleanup__ > __2. Notify__ > __FS_NotifyOwners_Status__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis task is preconfigured for this job.
 
@@ -12,9 +12,9 @@ __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis 
 
 The following analysis tasks are selected by default:
 
-- Summarize notifications – Creates the SA\_FS\_CleanupAssessment\_ShareDetails\_NotifySummary table accessible under the job’s Results node
+- Summarize notifications – Creates the SA_FS_CleanupAssessment_ShareDetails_NotifySummary table accessible under the job’s Results node
 
-In addition to the tables and views created by the analysis tasks, the FS\_NotifyOwners\_Status job produces the following pre-configured report.
+In addition to the tables and views created by the analysis tasks, the FS_NotifyOwners_Status job produces the following pre-configured report.
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

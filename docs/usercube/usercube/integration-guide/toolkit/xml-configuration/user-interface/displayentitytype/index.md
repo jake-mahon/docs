@@ -56,15 +56,15 @@ Example
 
 Let's take the following organizational model:
 
-- A Directory\_User entity type for employee
-- A Directory\_Guest entity type for contractors and the like
+- A Directory_User entity type for employee
+- A Directory_Guest entity type for contractors and the like
 
 When workflows are defined to handle resources for these entity types, the following workflow-entity types are created too:
 
-- Workflow\_Directory\_User
-- Workflow\_Directory\_Guest
+- Workflow_Directory_User
+- Workflow_Directory_Guest
 
-The order in which Directory\_User and Directory\_Guest appear in the role review dropdown is configured like this:
+The order in which Directory_User and Directory_Guest appear in the role review dropdown is configured like this:
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
@@ -74,7 +74,7 @@ dashboard.xml
 
 ```
 
-But the order in which "Workflow for Directory\_User" and "Workflow for Directory\_Guest" appear in the My Tasks screen is configured like this:
+But the order in which "Workflow for Directory_User" and "Workflow for Directory_Guest" appear in the My Tasks screen is configured like this:
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
@@ -95,7 +95,7 @@ dashboard.xml
 | IconCode   optional | String | Defines the icode code ("People", "MapPin", "Suitcase"...). |
 | IsHierarchical   default value: false | Boolean | Is hierarchical entity type. |
 | MinSearchLength   optional | Int32 | Defines the minimum number of characters from which the search in the auto complete picker starts - 4 if it is not defined (the AutocompleteBinding must be defined). |
-| PluralDisplayName\_L1   optional | String | Display name of the entity type in plural in language 1 (up to 16). |
+| PluralDisplayName_L1   optional | String | Display name of the entity type in plural in language 1 (up to 16). |
 | Priority   default value: 2147483647 | Int32 | Sets the display priority of the Entity Type in the administration screens dropdown and the dashboard. A priority is an integer value, positive or negative. The highest priority is assigned to the lowest number. See the Priority section above. |
 
 ## Child Element: Property
@@ -120,6 +120,6 @@ Entity referencing the Entity properties (with which it share the same ID) that 
 | MinSearchLength   optional | Int32 | Defines the minimum number of characters from which the search in the auto complete picker starts - 4 if it is not defined (the input type of the display property must be a picker and the AutocompleteBinding must be defined). |
 | NavigationBinding   optional | Int64 | Defines the binding of the resource on which the user will be redirected when he clicks on an element of a BasicCollection. |
 | OutputType   default value: Auto | Enumeration | Identifier of the output type. |
-| PlaceHolderText\_L1   optional | String | Property place holder text. |
+| PlaceHolderText_L1   optional | String | Property place holder text. |
 | Tile   optional | Int64 | Identifier of the tile. |
-| ToolTipText\_L1   optional | String | Property tool tip text. |
+| ToolTipText_L1   optional | String | Property tool tip text. |

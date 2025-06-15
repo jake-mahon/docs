@@ -1,10 +1,10 @@
-# FS\_Deletions Job
+# FS_Deletions Job
 
-The FS\_Deletions job is designed to report on deletion activity event information from targeted file servers.
+The FS_Deletions job is designed to report on deletion activity event information from targeted file servers.
 
-## Analysis Tasks for the FS\_Deletions Job
+## Analysis Tasks for the FS_Deletions Job
 
-View the analysis tasks by navigating to the __FileSystem__ > __5.Activity__ > __Forensics__ > __FS\_Deletions__ > __Configure__ node and select __Analysis__.
+View the analysis tasks by navigating to the __FileSystem__ > __5.Activity__ > __Forensics__ > __FS_Deletions__ > __Configure__ node and select __Analysis__.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,11 +12,11 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The following analysis tasks are selected by default:
 
-- 1. Create deletions view – Creates the SA\_FSAC\_DeletesView view accessible under the job’s Results node
-- 2. Last 30 Days – Creates the SA\_FS\_Deletions\_Last30Days table accessible under the job’s Results node
-- 3. Trend – Creates the SA\_FS\_Deletions\_TrendOverTime table accessible under the job’s Results node
-- 4. Create view to alert - Past 24 hours – Creates the SA\_FS\_Deletions\_Notification\_NOTIFICATION table accessible under the job’s Results node
-- 6. Raw Details – Creates the SA\_FS\_Deletions\_Details view accessible under the job’s Results node
+- 1. Create deletions view – Creates the SA_FSAC_DeletesView view accessible under the job’s Results node
+- 2. Last 30 Days – Creates the SA_FS_Deletions_Last30Days table accessible under the job’s Results node
+- 3. Trend – Creates the SA_FS_Deletions_TrendOverTime table accessible under the job’s Results node
+- 4. Create view to alert - Past 24 hours – Creates the SA_FS_Deletions_Notification_NOTIFICATION table accessible under the job’s Results node
+- 6. Raw Details – Creates the SA_FS_Deletions_Details view accessible under the job’s Results node
 
 The Notification analysis task is an optional analysis task which requires configuration before enabling it. The following analysis task is deselected by default:
 
@@ -25,7 +25,7 @@ The Notification analysis task is an optional analysis task which requires confi
   - Add recipients, notification subject, and email content
   - See the [Configure the Notification Analysis Task](#configure-the-notification-analysis-task) topic for additional information
 
-In addition to the tables and views created by the analysis tasks, the FS\_Deletions job produces the following pre-configured report:
+In addition to the tables and views created by the analysis tasks, the FS_Deletions job produces the following pre-configured report:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

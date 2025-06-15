@@ -6,5 +6,5 @@ This job group provides insight into where sensitive data exists and who has acc
 
 The jobs in the Sensitive Data job group are:
 
-- [Db2\_SensitiveData Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/db2/sensitivedata/db2_sensitivedata.md) – Provides information on all the sensitive data that was discovered in the targeted Db2 database servers based on the selection scan criteria
-- [Db2\_SensitiveDataPermissions Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/db2/sensitivedata/db2_sensitivedatapermissions.md) – Provides all types of permissions on database objects containing sensitive data across all the targeted Db2 database servers
+- [Db2_SensitiveData Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/db2/sensitivedata/db2_sensitivedata.md) – Provides information on all the sensitive data that was discovered in the targeted Db2 database servers based on the selection scan criteria
+- [Db2_SensitiveDataPermissions Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/db2/sensitivedata/db2_sensitivedatapermissions.md) – Provides all types of permissions on database objects containing sensitive data across all the targeted Db2 database servers

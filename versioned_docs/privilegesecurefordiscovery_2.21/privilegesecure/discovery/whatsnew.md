@@ -13,7 +13,7 @@ The following new features were released in v2.21.0.
 SSSDv2 Support
 
 - The major feature introduced in this release is the support for SSSD Linux Bridging Version 2. There was an extensive refactor of all the Linux Code to support the way that SSSD Version 2 handles Case Sensitivity for users and groups (both Domain and Local).
-- In addition to the default configuration of SSSD Version 2, we also support the alternate case sensitivity option in the /etc/sssd/sssd.conf configuration file where “case\_sensitivity” is set to “preserving”.
+- In addition to the default configuration of SSSD Version 2, we also support the alternate case sensitivity option in the /etc/sssd/sssd.conf configuration file where “case_sensitivity” is set to “preserving”.
 
 New DB Index of Queue Documents
 

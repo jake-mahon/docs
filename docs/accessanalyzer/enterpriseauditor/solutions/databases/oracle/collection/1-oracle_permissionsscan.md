@@ -1,8 +1,8 @@
-# 1-Oracle\_PermissionsScan Job
+# 1-Oracle_PermissionsScan Job
 
-The 1-Oracle\_PermissionsScan Job is designed to collect Oracle database level permissions from all targeted Oracle database servers.
+The 1-Oracle_PermissionsScan Job is designed to collect Oracle database level permissions from all targeted Oracle database servers.
 
-## Query for the 1-Oracle\_PermissionsScan Job
+## Query for the 1-Oracle_PermissionsScan Job
 
 The PermissionsScan query uses the SQL Data Collector for the following query:
 
@@ -10,11 +10,11 @@ The PermissionsScan query uses the SQL Data Collector for the following query:
 
 - PermissionsScan – Collects permissions from targeted instances
 
-### Configure the 1-Oracle\_PermissionsScan Query
+### Configure the 1-Oracle_PermissionsScan Query
 
-The 1-Oracle\_PermissionsScan Job is preconfigured to run using the default settings for the Permissions Collection category in the SQL Data Collector. Follow the steps to customize configurations:
+The 1-Oracle_PermissionsScan Job is preconfigured to run using the default settings for the Permissions Collection category in the SQL Data Collector. Follow the steps to customize configurations:
 
-__Step 1 –__ Navigate to the __Databases__ > __0.Collection__ > __Oracle__ > __1-Oracle\_PermissionsScan__ > __Configure__ node and select Queries.
+__Step 1 –__ Navigate to the __Databases__ > __0.Collection__ > __Oracle__ > __1-Oracle_PermissionsScan__ > __Configure__ node and select Queries.
 
 __Step 2 –__ In the Query Selection view, select the PermissionScan query and click on Query Properties. The Query Properties window opens.
 
@@ -32,11 +32,11 @@ __Step 4 –__ To query for specific databases/instances, navigate to the Filter
 
 __Step 5 –__ Navigate to the Summary page, click Finish to save any setting modifications or click Cancel if no changes were made. Then click OK to close the Query Properties window.
 
-The 1-Oracle\_PermissionsScan Job is now ready to run with the customized settings.
+The 1-Oracle_PermissionsScan Job is now ready to run with the customized settings.
 
-## Analysis Tasks for the 1-Oracle\_PermissionsScan Job
+## Analysis Tasks for the 1-Oracle_PermissionsScan Job
 
-Navigate to the __Databases__ > __0.Collection__ > __Oracle__ > __1-Oracle\_PermissionsScan__ > __Configure__ node and select Analysis to view the analysis tasks.
+Navigate to the __Databases__ > __0.Collection__ > __Oracle__ > __1-Oracle_PermissionsScan__ > __Configure__ node and select Analysis to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -46,4 +46,4 @@ The default analysis tasks are:
 
 - Oracle Setup – Sets up functions and tables for the Oracle Solution Set
 - Oracle Permissions Import – Imports Oracle permissions into the AIC
-- Oracle Local Groups Import – Creates the SA\_AIC\_LocalGroupsImport table accessible under the job’s Results node
+- Oracle Local Groups Import – Creates the SA_AIC_LocalGroupsImport table accessible under the job’s Results node

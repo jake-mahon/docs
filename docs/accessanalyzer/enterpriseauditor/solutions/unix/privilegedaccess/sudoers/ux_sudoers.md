@@ -1,10 +1,10 @@
-# UX\_Sudoers Job
+# UX_Sudoers Job
 
-The UX\_Sudoers job provides visibility into all rights granted via sudoers within audited Unix and Linux environments.
+The UX_Sudoers job provides visibility into all rights granted via sudoers within audited Unix and Linux environments.
 
-## Analysis Tasks for the UX\_Sudoers Job
+## Analysis Tasks for the UX_Sudoers Job
 
-Navigate to the __Unix__ > __2.Privileged Access__ > __Sudoers__ > __UX\_Sudoers__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Unix__ > __2.Privileged Access__ > __Sudoers__ > __UX_Sudoers__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -14,9 +14,9 @@ The default analysis tasks are:
 
 - Summarize number of provisioned users by host – Creates an interim processing table in the database for use by downstream analysis and report generation
 - Determine highly provisioned users – Creates an interim processing table in the database for use by downstream analysis and report generation
-- List sudoers entries across the environment – Creates the SA\_UX\_Sudoers\_Details table accessible under the job’s Results node
+- List sudoers entries across the environment – Creates the SA_UX_Sudoers_Details table accessible under the job’s Results node
 
-In addition to the table and views created by the analysis tasks, the UX\_Sudoers job produces the following pre-configured report:
+In addition to the table and views created by the analysis tasks, the UX_Sudoers job produces the following pre-configured report:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

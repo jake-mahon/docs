@@ -4,7 +4,7 @@ You can fine-tune Netwrix Auditor by specifying data that you want to exclude fr
 
 Follow the steps to exclude data from the SharePoint monitoring scope:
 
-__Step 1 –__ Navigate to the _%working folder%\Netwrix Auditor for SharePoint\Configuration\GUID\_ folder, where omit lists are located.
+__Step 1 –__ Navigate to the _%working folder%\Netwrix Auditor for SharePoint\Configuration\GUID_ folder, where omit lists are located.
 
 If you have several monitoring plans for monitoring SharePoint farms, configure omit lists for each monitoring plan separately.
 

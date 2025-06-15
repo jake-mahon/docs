@@ -10,7 +10,7 @@ In this example, you can see I've got my "Local Group Policy Editor" up here. I'
 
 If I go over to PolicyPak Cloud land, it's pretty easy to do. All you need to do is to "Create and link a new Policy" here. I'm doing this to the "All" group or you could do it to a specific group. I'm going to pick the "Security Settings Manager." This is easy, "PP SEC DEMO 123," give it a "Policy name." You just point and click. Couldn't be easier.
 
-We're going to go down first to "Local Policies/Security Options," and let's go ahead and select "Accounts: Rename guest account." Let's "Select" that guy. We'll go ahead and go to "Configured." We'll call this "PPGUEST\_Demo." There we go.
+We're going to go down first to "Local Policies/Security Options," and let's go ahead and select "Accounts: Rename guest account." Let's "Select" that guy. We'll go ahead and go to "Configured." We'll call this "PPGUEST_Demo." There we go.
 
 By the way, if you couldn't find the setting you were looking for, all you have to do is type in the "Keyword" here like "guest." It shows you all the interesting things that you might find that are interesting for you, which is pretty awesome. So if, for instance, we're looking for "password" settings, all the password settings are going to show up right here which makes it pretty easy.
 

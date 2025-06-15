@@ -10,7 +10,7 @@ C# utility functions
 
 ### Examples
 
-The following example shows two predefined functions. The first function normalizes the HR\_Person FirstName. The other one converts the end date into a UTC date and adds 1440 minutes.
+The following example shows two predefined functions. The first function normalizes the HR_Person FirstName. The other one converts the end date into a UTC date and adds 1440 minutes.
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 

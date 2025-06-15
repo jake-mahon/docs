@@ -20,10 +20,10 @@ Get an access token by proceeding as follows:
    - __Method__: POST
    - __URL__: `<URL Usercube>`/connect/token
    - __Body__:
-     - __client\_id__: `<OpenIdClient id>`@`<FQDN Usercube>`
-     - __client\_secret__: `<OpenIdClient secret>`
-     - __scope__: usercube\_api
-     - __grant\_type__: client\_credentials
+     - __client_id__: `<OpenIdClient id>`@`<FQDN Usercube>`
+     - __client_secret__: `<OpenIdClient secret>`
+     - __scope__: usercube_api
+     - __grant_type__: client_credentials
 5. Click on __Send__ and get the access token from the response body.
 
    ![Postman: Access Token](/img/versioned_docs/usercube_6.1/usercube/integration-guide/api/how-tos/request-postman/postman_accesstoken.png)
@@ -71,7 +71,7 @@ Create a combined request by proceeding as follows:
 
      Do not replace ```@``` with its encoding.
    - __Client Secret__: `<OpenIdClient secret>`
-   - __Scope__: usercube\_api
+   - __Scope__: usercube_api
    - __Client Authentication__: Send client credentials in body
 4. Click on __Request Token__ to get the token.
 

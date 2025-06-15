@@ -62,6 +62,6 @@ If I go back over to our management station for the Compliance Reporter, if I cl
 
 That gets auditing up and running. At this point now, you’d be able to create your “Tests.” You’d be to manipulate “Results” and go from there. But in order to set up auditing, what I did was again I clicked on “Settings.” I went through “Audit Setup,” and you saw me do all the steps to get the “Audit Setup Wizard” ready to go, and now data starts trickling in from our target machines.
 
-I hope this helps. If you have questions about getting the Compliance Reporter set up, please open a support ticket https://www.netwrix.com/sign\_in.html?rf=tickets.html#/open-a-ticket
+I hope this helps. If you have questions about getting the Compliance Reporter set up, please open a support ticket https://www.netwrix.com/sign_in.html?rf=tickets.html#/open-a-ticket
 
 Thanks so much, and we’ll talk to you soon.

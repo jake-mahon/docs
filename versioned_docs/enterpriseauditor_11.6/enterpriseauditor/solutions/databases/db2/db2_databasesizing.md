@@ -1,14 +1,14 @@
-# Configuration > Db2\_DatabaseSizing Job
+# Configuration > Db2_DatabaseSizing Job
 
-The Db2\_DatabaseSizing job provides details on overall database sizes.
+The Db2_DatabaseSizing job provides details on overall database sizes.
 
 ![Configuration > Db2_DatabaseSizing Job in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/db2/configurationjobstree.png)
 
 This job is located in the Configuration job group.
 
-## Analysis Tasks for the Db2\_DatabaseSizing Job
+## Analysis Tasks for the Db2_DatabaseSizing Job
 
-Navigate to the __Jobs__ > __Databases__ > __Db2__ > __Configuration__ > __Db2\_DatabaseSizing__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Jobs__ > __Databases__ > __Db2__ > __Configuration__ > __Db2_DatabaseSizing__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -19,9 +19,9 @@ The default analysis tasks are:
 - Database Sizing – Returns size details for Db2 databases
 - Database Summary – Summarizes Db2 database size by host
 
-## Report for the Db2\_DatabaseSizing Job
+## Report for the Db2_DatabaseSizing Job
 
-In addition to the tables and views created the analysis task, the Db2\_DatabaseSizing job produces the following preconfigured report.
+In addition to the tables and views created the analysis task, the Db2_DatabaseSizing job produces the following preconfigured report.
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

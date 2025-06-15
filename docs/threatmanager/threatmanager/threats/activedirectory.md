@@ -81,7 +81,7 @@ __NOTE:__ The domain monitoring policy must be configured to exclude domain cont
 
 | Insecure UAC Change |  |
 | --- | --- |
-| Definition | Some changes to User Account Control Flags on Active Directory Objects can potentially expose security risks."PASSWD\_CANT\_CHANGE", "TRUSTED\_FOR\_DELEGATION", "USE\_DES\_KEY\_ONLY", and "DONT\_REQ\_PREAUTH" are particularly risky. |
+| Definition | Some changes to User Account Control Flags on Active Directory Objects can potentially expose security risks."PASSWD_CANT_CHANGE", "TRUSTED_FOR_DELEGATION", "USE_DES_KEY_ONLY", and "DONT_REQ_PREAUTH" are particularly risky. |
 
 ## Kerberoasting
 

@@ -1,10 +1,10 @@
-# AWS\_AccessKeys Job
+# AWS_AccessKeys Job
 
-The AWS\_AccessKeys job provides details on the last time an access key was rotated or used, highlighting keys that were last rotated over a year ago.
+The AWS_AccessKeys job provides details on the last time an access key was rotated or used, highlighting keys that were last rotated over a year ago.
 
-## Analysis Tasks for the AWS\_AccessKeys Job
+## Analysis Tasks for the AWS_AccessKeys Job
 
-Navigate to the __AWS__ > __2.Users__ > __AWS\_AccessKeys__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __AWS__ > __2.Users__ > __AWS_AccessKeys__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,13 +12,13 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The following analysis tasks are selected by default:
 
-- Access Keys – Analyzes access key rotation age and last use. Creates the AWS\_AccessKey\_Details table accessible under the job’s Results node.
-- High Risk Access Keys – Highlights high risk access keys. Creates the AWS\_AccessKey\_HighRisk table accessible under the job’s Results node.
-- Access Keys summary – Summarizes access key rotation by age. Creates the AWS\_AccessKey\_Summary table accessible under the job’s Results node.
+- Access Keys – Analyzes access key rotation age and last use. Creates the AWS_AccessKey_Details table accessible under the job’s Results node.
+- High Risk Access Keys – Highlights high risk access keys. Creates the AWS_AccessKey_HighRisk table accessible under the job’s Results node.
+- Access Keys summary – Summarizes access key rotation by age. Creates the AWS_AccessKey_Summary table accessible under the job’s Results node.
 
-## Report for the AWS\_AccessKeys Job
+## Report for the AWS_AccessKeys Job
 
-In addition to the tables and views created by the analysis task, the AWS\_AccessKeys job produces the following preconfigured report:
+In addition to the tables and views created by the analysis task, the AWS_AccessKeys job produces the following preconfigured report:
 
 | Report | Description | Default Tags | Report Element |
 | --- | --- | --- | --- |

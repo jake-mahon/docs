@@ -1,10 +1,10 @@
-# EX\_DBSizing Job
+# EX_DBSizing Job
 
-The EX\_DBSizing Job provides visibility into current database sizes, growth statistics, and historical sizing information.
+The EX_DBSizing Job provides visibility into current database sizes, growth statistics, and historical sizing information.
 
-## Analysis Tasks for the EX\_DBSizing Job
+## Analysis Tasks for the EX_DBSizing Job
 
-View the analysis tasks by navigating to the __Exchange__ > __3. Databases__ > __EX\_DBSizing__ > __Configure__ node and select __Analysis__.
+View the analysis tasks by navigating to the __Exchange__ > __3. Databases__ > __EX_DBSizing__ > __Configure__ node and select __Analysis__.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,14 +12,14 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The following analysis tasks are selected by default:
 
-- 02. Database Size History – Creates the SA\_EX\_DBSizing\_SizeHist table, accessible under the job’s Results node
+- 02. Database Size History – Creates the SA_EX_DBSizing_SizeHist table, accessible under the job’s Results node
 - SET HISTORY RETENTION – Sets retention period in months
 
   - The default is 6 months. It can be modified.
   - See the [Exchange History Retention](/docs/accessanalyzer/enterpriseauditor/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#exchange-history-retention) topic for additional information
-- 03. Database details table – Creates the SA\_EX\_DBSizing\_StoreDetails table, accessible under the job’s Results node
-- 04. 30 day Database growth table – Creates the SA\_EX\_DBSizing\_30DayGrowth table, accessible under the job’s Results node
-- 05. 7 day Database growth table – Creates the SA\_EX\_DBSizing\_7DayGrowth table, accessible under the job’s Results node
+- 03. Database details table – Creates the SA_EX_DBSizing_StoreDetails table, accessible under the job’s Results node
+- 04. 30 day Database growth table – Creates the SA_EX_DBSizing_30DayGrowth table, accessible under the job’s Results node
+- 05. 7 day Database growth table – Creates the SA_EX_DBSizing_7DayGrowth table, accessible under the job’s Results node
 
 The following analysis task deletes table data from data collection and analysis jobs. This analysis task should remain cleared unless specifically needed:
 
@@ -29,7 +29,7 @@ __CAUTION:__ Do not select the __00. Deletes all Stored Data__ option. This anal
 
   - See the [Troubleshooting Data Collection](/docs/accessanalyzer/enterpriseauditor/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#troubleshooting-data-collection) topic for additional information
 
-In addition to the tables and views created by the analysis tasks, the EX\_DBSizing Job produces the following pre-configured reports:
+In addition to the tables and views created by the analysis tasks, the EX_DBSizing Job produces the following pre-configured reports:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

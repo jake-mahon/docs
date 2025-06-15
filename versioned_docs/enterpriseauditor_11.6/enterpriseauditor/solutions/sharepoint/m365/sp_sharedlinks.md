@@ -1,10 +1,10 @@
-# SP\_SharedLinks Job
+# SP_SharedLinks Job
 
-The SP\_SharedLinks Job provides an overview of the shared links configured with SharePoint Online, with visibility into Anonymous Sharing, External User Sharing, and activity pertaining to Shared Links.
+The SP_SharedLinks Job provides an overview of the shared links configured with SharePoint Online, with visibility into Anonymous Sharing, External User Sharing, and activity pertaining to Shared Links.
 
 ## Analysis Tasks for the SharedLinks Job
 
-Navigate to the __Jobs__ > __SharePoint__ > __8.M365__ > __SP\_SharedLinks__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Jobs__ > __SharePoint__ > __8.M365__ > __SP_SharedLinks__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,13 +12,13 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The default analysis tasks are:
 
-- Calculate anonymous sharing – Creates the SA\_SP\_AnonynomousSharing\_Details table accessible under the job's Results node
-- Summarize anonymous sharing – Creates the SA\_SP\_AnonynomousSharing\_Summary table accessible under the job's Results node
-- Calculate shared links – Creates the SA\_SP\_SharingLinks\_Details table accessible under the job's Results node
-- Summarize shared links – Creates the SA\_SP\_SharingLinks\_SiteCollection and SA\_SP\_SharingLinks\_Tenant\_Summary tables accessible under the job's Results node
-- Calculate Shared Links Activity – Creates the SA\_SP\_SharingLinks\_Activity\_Details, SA\_SP\_SharingLinks\_Creation\_Detail\_Last\_7\_Days, and SA\_SP\_SharingLinks\_Creation\_Summary\_Last\_7\_Days tables accessible under the job's Results node
+- Calculate anonymous sharing – Creates the SA_SP_AnonynomousSharing_Details table accessible under the job's Results node
+- Summarize anonymous sharing – Creates the SA_SP_AnonynomousSharing_Summary table accessible under the job's Results node
+- Calculate shared links – Creates the SA_SP_SharingLinks_Details table accessible under the job's Results node
+- Summarize shared links – Creates the SA_SP_SharingLinks_SiteCollection and SA_SP_SharingLinks_Tenant_Summary tables accessible under the job's Results node
+- Calculate Shared Links Activity – Creates the SA_SP_SharingLinks_Activity_Details, SA_SP_SharingLinks_Creation_Detail_Last_7_Days, and SA_SP_SharingLinks_Creation_Summary_Last_7_Days tables accessible under the job's Results node
 
-In addition to the tables created by the analysis tasks, the SP\_Shared Links Job produces the following preconfigured reports:
+In addition to the tables created by the analysis tasks, the SP_Shared Links Job produces the following preconfigured reports:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

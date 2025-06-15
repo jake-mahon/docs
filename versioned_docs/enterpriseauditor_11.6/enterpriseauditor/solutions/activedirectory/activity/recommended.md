@@ -16,11 +16,11 @@ Netwrix Activity Monitor API Server or the host with the network share housing a
 
 Connection Profile
 
-Connection Profiles must be set directly on the [0.Collection > AD\_ActivityCollection Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/activity/ad_activitycollection.md) in order to connect to either the SAM API Server or the host with the network share housing the archived log files.
+Connection Profiles must be set directly on the [0.Collection > AD_ActivityCollection Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/activity/ad_activitycollection.md) in order to connect to either the SAM API Server or the host with the network share housing the archived log files.
 
 Access Token
 
-Required for SAM API Server integration for the [0.Collection > AD\_ActivityCollection Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/activity/ad_activitycollection.md).
+Required for SAM API Server integration for the [0.Collection > AD_ActivityCollection Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/activity/ad_activitycollection.md).
 
 Scheduling Frequency
 
@@ -46,7 +46,7 @@ __Step 3 –__ Ensure Activity Monitor logs are archived.
 
 __Step 4 –__ Configure the Connection Profiles to connect successfully to the Netwrix Activity Monitor API Server or the host with the network share housing the archived log files.
 
-__Step 5 –__ Configure the __AD\_ActivityCollection__ Job Query.
+__Step 5 –__ Configure the __AD_ActivityCollection__ Job Query.
 
 __Step 6 –__ Run the jobs as desired.
 

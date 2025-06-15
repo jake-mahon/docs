@@ -36,7 +36,7 @@ __Step 1 –__ Expand "Security", right-click "Logins" and select "New Login"
 
 __Step 2 –__ On General tab
 
-1. Set Login name, e.g. "GPCR\_DBAdmin"
+1. Set Login name, e.g. "GPCR_DBAdmin"
 2. Select radio button "SQL Server authentication" and set password
 3. Uncheck "Enforce password policy"
 
@@ -58,7 +58,7 @@ __Step 1 –__ In Microsoft SSMS, right-click on "Databases" and select "New Dat
 
 __Step 2 –__ Enter name for database (e.g. GPCR)
 
-__Step 3 –__ Set Owner as DB admin created earlier (GPCR\_DBAdmin in example)
+__Step 3 –__ Set Owner as DB admin created earlier (GPCR_DBAdmin in example)
 
 __Step 4 –__ Place DB and log files where desired, if different from default
 

@@ -36,9 +36,9 @@ The jobs in this job group can be scheduled to run as desired.
 
 Run Order
 
-The 0.Collection Jobs must be run first and in order. RunSystem Scans jobs and then the Bulk Import jobs according to the desired workflow. The other SharePoint Solution sub-job groups can be run in any order, together or individually, after running the 0.Collection Job Group. It is recommended to run at the sub-job group level. The SP\_Overview Job pulls information from both the 0.Collection Job Group and the other sub-job groups, and the report may contain blank sections if only select sub-job groups are run.
+The 0.Collection Jobs must be run first and in order. RunSystem Scans jobs and then the Bulk Import jobs according to the desired workflow. The other SharePoint Solution sub-job groups can be run in any order, together or individually, after running the 0.Collection Job Group. It is recommended to run at the sub-job group level. The SP_Overview Job pulls information from both the 0.Collection Job Group and the other sub-job groups, and the report may contain blank sections if only select sub-job groups are run.
 
-The Access Information Center requires the execution of the 2-SPAA\_BulkImport Job default analysis tasks in order for permission/access reports to be accessible. For activity reports, the Access Information Center requires the execution of both the 2-SPAA Bulk Import Job default analysis tasks and the 2-SPAC Bulk Import Job default analysis tasks.
+The Access Information Center requires the execution of the 2-SPAA_BulkImport Job default analysis tasks in order for permission/access reports to be accessible. For activity reports, the Access Information Center requires the execution of both the 2-SPAA Bulk Import Job default analysis tasks and the 2-SPAC Bulk Import Job default analysis tasks.
 
 ___RECOMMENDED:___ If only conducting one or two types of auditing, scope the solution by disabling the undesired collection jobs. Disabling them allows the solution to run more efficiently. It is not recommended to delete any jobs. See the [Disable or Enable a Job](/docs/accessanalyzer/enterpriseauditor/admin/jobs/job/disableenable.md) topic for additional information.
 
@@ -50,8 +50,8 @@ This solution can be run with the default query configuration. However, the most
 
   - Agent Settings page, enable agent service scans:
 
-    - Set on the __0.Collection__ > __1-SPAA\_SystemScans__ Job for Access Auditing
-    - Set on the __0.Collection__ > __1-SPSEEK\_SystemScans__ Job for Sensitive Data Discovery Auditing
+    - Set on the __0.Collection__ > __1-SPAA_SystemScans__ Job for Access Auditing
+    - Set on the __0.Collection__ > __1-SPSEEK_SystemScans__ Job for Sensitive Data Discovery Auditing
 - SharePoint Access Auditor Data Collector Wizard pages:
 
   - SharePoint Data Collection Settings page, configure probable owner scanning:
@@ -59,36 +59,36 @@ This solution can be run with the default query configuration. However, the most
     - Enable __Scan for Document Metadata__ for probable owners calculations
     - Set on the:
 
-      - __0.Collection__ > __1-SPAA\_SystemScans__ Job for Access Auditing
-      - __0.Collection__ > __1-SPSEEK\_SystemScans__ Job for Sensitive Data Discovery Auditing
+      - __0.Collection__ > __1-SPAA_SystemScans__ Job for Access Auditing
+      - __0.Collection__ > __1-SPSEEK_SystemScans__ Job for Sensitive Data Discovery Auditing
   - Scan Scoping Options page (optional):
 
     - Limit scans to specific Web Applications and site collections
     - Set on the:
 
-      - __0.Collection__ > __1-SPAA\_SystemScans__ Job for Access Auditing
-      - __0.Collection__ > __1-SPSEEK\_SystemScans__ Job for Sensitive Data Discovery Auditing
+      - __0.Collection__ > __1-SPAA_SystemScans__ Job for Access Auditing
+      - __0.Collection__ > __1-SPSEEK_SystemScans__ Job for Sensitive Data Discovery Auditing
   - Additional Scoping page (optional):
 
     - Limit scan depth
     - Set on the:
 
-      - __0.Collection__ > __1-SPAA\_SystemScans__ Job for Access Auditing
-      - __0.Collection__ > __1-SPSEEK\_SystemScans__ Job for Sensitive Data Discovery Auditing
+      - __0.Collection__ > __1-SPAA_SystemScans__ Job for Access Auditing
+      - __0.Collection__ > __1-SPSEEK_SystemScans__ Job for Sensitive Data Discovery Auditing
   - DLP Audit Settings page, scope to not scan files larger than a specific size for Sensitive Data Discovery Auditing:
 
-    - Set on the __0.Collection__ > __1-SPSEEK\_SystemScans__ Job
+    - Set on the __0.Collection__ > __1-SPSEEK_SystemScans__ Job
   - Select DLP Criteria page, scope to scan for specific criteria or customizing criteria for Sensitive Data Discovery Auditing:
 
-    - Set on the __0.Collection__ > __1-SPSEEK\_SystemScans__ Job
+    - Set on the __0.Collection__ > __1-SPSEEK_SystemScans__ Job
   - Activity Data Scope page:
 
     - Customize date ranges for activity to be collected
-    - Set on the __0.Collection__ > __1-SPAC\_SystemScans__ Job for Activity Auditing
+    - Set on the __0.Collection__ > __1-SPAC_SystemScans__ Job for Activity Auditing
   - Activity Log Locations page (optional):
 
     - Specify the log locations to avoid requiring remote registry access to locate the activity event log files
-    - Set on the __0.Collection__ > __1-SPAC\_SystemScans__ Job for Activity Auditing
+    - Set on the __0.Collection__ > __1-SPAC_SystemScans__ Job for Activity Auditing
 
 Analysis Configuration
 
@@ -98,14 +98,14 @@ Though the analysis tasks should not be deselected, the following parameters can
 
 - Stale File is defined by default to 365 days
 
-  - Customize within the __4.Content__ > __SP\_StaleFiles__ Job
+  - Customize within the __4.Content__ > __SP_StaleFiles__ Job
 - Stale Teams is defined by default to 30 days
 
-  - Customize within the __8.M365__ > __SP\_StaleTeamSites__ Job
+  - Customize within the __8.M365__ > __SP_StaleTeamSites__ Job
 
 The .Active Directory Inventory Solution defines large groups, deeply nested groups, stale users, and users with large tokens. These parameters can be customized and are applicable to any solution, including SharePoint, which incorporate this analyzed data into further analysis.
 
-- Customize within .Active Directory Inventory > 3-AD\_Exceptions Job analysis tasks
+- Customize within .Active Directory Inventory > 3-AD_Exceptions Job analysis tasks
 
 Additional Considerations
 

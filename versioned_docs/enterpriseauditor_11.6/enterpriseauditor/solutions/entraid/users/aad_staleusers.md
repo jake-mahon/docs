@@ -1,10 +1,10 @@
-# AAD\_StaleUsers Job
+# AAD_StaleUsers Job
 
-The AAD\_StaleUsers Job identifies potentially stale users based on a variety of factors. These accounts should be reviewed and cleaned up in order to increase security and reduce complexity.
+The AAD_StaleUsers Job identifies potentially stale users based on a variety of factors. These accounts should be reviewed and cleaned up in order to increase security and reduce complexity.
 
-## Analysis Tasks for the AAD\_StaleUsers Job
+## Analysis Tasks for the AAD_StaleUsers Job
 
-Navigate to the __Jobs__ > __Entra ID__ > __2.Users__ > __AAD\_StaleUsers__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Jobs__ > __Entra ID__ > __2.Users__ > __AAD_StaleUsers__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,10 +12,10 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The default analysis tasks are:
 
-- Stale User Details – Creates the AAD\_StaleUsers\_Details table accessible under the job’s Results node
-- Summarize by Domain – Creates the AAD\_StaleUsers\_DomainSummary table accessible under the job’s Results node
+- Stale User Details – Creates the AAD_StaleUsers_Details table accessible under the job’s Results node
+- Summarize by Domain – Creates the AAD_StaleUsers_DomainSummary table accessible under the job’s Results node
 
-In addition to the tables created by the analysis tasks, the AAD\_StaleUsers Job produces the following pre-configured report.
+In addition to the tables created by the analysis tasks, the AAD_StaleUsers Job produces the following pre-configured report.
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

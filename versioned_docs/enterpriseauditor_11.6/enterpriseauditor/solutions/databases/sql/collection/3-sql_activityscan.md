@@ -1,6 +1,6 @@
-# 3-SQL\_ActivityScan Job
+# 3-SQL_ActivityScan Job
 
-The 3-SQL\_ActivityScan Job captures user activity from targeted SQL server instances and databases.
+The 3-SQL_ActivityScan Job captures user activity from targeted SQL server instances and databases.
 
 Special Dependency
 
@@ -8,7 +8,7 @@ Special Dependency
   - Audit destination must be a binary file
   - See the Microsoft [Create a Server Audit and Database Audit Specification](https://docs.microsoft.com/en-us/sql/relational-databases/security/auditing/create-a-server-audit-and-database-audit-specification) article for additional information.
 
-## Queries for the 3-SQL\_ActivityScan Job
+## Queries for the 3-SQL_ActivityScan Job
 
 The ActivityScan Job uses the SQL Data Collector for the following query:
 
@@ -19,9 +19,9 @@ The ActivityScan Job uses the SQL Data Collector for the following query:
 
 ### Configure the ActivityScan Query
 
-The 3-SQL\_ActivityScan Job is preconfigured to run using the default settings within the Server Audits Events Collection category. Follow the steps to customize configurations.
+The 3-SQL_ActivityScan Job is preconfigured to run using the default settings within the Server Audits Events Collection category. Follow the steps to customize configurations.
 
-__Step 1 –__ Navigate to the __Databases__ > 0.Collection > SQL > 3-SQL\_ActivityScan > Configure node and select Queries.
+__Step 1 –__ Navigate to the __Databases__ > 0.Collection > SQL > 3-SQL_ActivityScan > Configure node and select Queries.
 
 __Step 2 –__ In the Query Selection view, click on Query Properties. The Query Properties window appears.
 
@@ -50,11 +50,11 @@ Optionally use the Add Custom Filter button to create and apply a custom filter.
 
 __Step 6 –__ Navigate to the Summary page, click Finish to save any setting modifications or click Cancel if no changes were made. Then click OK to close the Query Properties window.
 
-The 3-SQL\_ActivityScan Job is now ready to run with the customized settings.
+The 3-SQL_ActivityScan Job is now ready to run with the customized settings.
 
-## Analysis Tasks for the 3-SQL\_ActivityScan Job
+## Analysis Tasks for the 3-SQL_ActivityScan Job
 
-Navigate to the __Databases__ > 0.Collection > SQL > 3-SQL\_ActivityScan > Configure node and select Analysis to view the analysis tasks.
+Navigate to the __Databases__ > 0.Collection > SQL > 3-SQL_ActivityScan > Configure node and select Analysis to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis task(s). The analysis task(s) are preconfigured for this job.
 
@@ -62,4 +62,4 @@ __CAUTION:__ Do not modify or deselect the selected analysis task(s). The analys
 
 The default analysis tasks are:
 
-- AIC Import – Activity– Creates the SA\_AIC\_ActivityEventsImport table accessible under the job’s Results node.
+- AIC Import – Activity– Creates the SA_AIC_ActivityEventsImport table accessible under the job’s Results node.

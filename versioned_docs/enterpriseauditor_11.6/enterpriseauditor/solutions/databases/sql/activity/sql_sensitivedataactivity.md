@@ -1,10 +1,10 @@
-# SQL\_SensitiveDataActivity Job
+# SQL_SensitiveDataActivity Job
 
-The SQL\_SensitiveDataActivity Job provides detailed information on DML (UPDATE, INSERT, DELETE, TRUNCATE) used against objects containing sensitive data.
+The SQL_SensitiveDataActivity Job provides detailed information on DML (UPDATE, INSERT, DELETE, TRUNCATE) used against objects containing sensitive data.
 
-## Analysis Tasks for the SQL\_SensitiveDataActivity Job
+## Analysis Tasks for the SQL_SensitiveDataActivity Job
 
-Navigate to the __Databases__ > SQL > 2.Activity > SQL\_SensitiveDataActivity > Configure node and select Analysis to view the analysis tasks.
+Navigate to the __Databases__ > SQL > 2.Activity > SQL_SensitiveDataActivity > Configure node and select Analysis to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis task(s). The analysis task(s) are preconfigured for this job.
 
@@ -12,10 +12,10 @@ __CAUTION:__ Do not modify or deselect the selected analysis task(s). The analys
 
 The default analysis tasks are:
 
-- SDD Activity Details – Creates the SA\_SQLServer\_SensitiveDataActivity\_Details table accessible under the job’s Results node
-- SDD Activity Instance Summary – Creates the SA\_SQLServer\_SensitiveDataActivity\_UserSummary table accessible under the job’s Results node
+- SDD Activity Details – Creates the SA_SQLServer_SensitiveDataActivity_Details table accessible under the job’s Results node
+- SDD Activity Instance Summary – Creates the SA_SQLServer_SensitiveDataActivity_UserSummary table accessible under the job’s Results node
 
-In addition to the tables and views created by the analysis tasks, the SQL\_SensitiveDataActivity Job produces the following pre-configured report.
+In addition to the tables and views created by the analysis tasks, the SQL_SensitiveDataActivity Job produces the following pre-configured report.
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

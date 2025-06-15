@@ -17,7 +17,7 @@ Common errors that occur are:
 - Implicit conversion of VARCHAR value to VARCHAR cannot be performed because the collation of the value is unresolved due to a collation conflict.
   - Could not find stored procedure ```#SA_ImportObject```
   - Cannot drop the procedure ```#SA_ImportObject```, because it does not exist or lack of permission
-- Cannot resolve the collation conflict between __SQL\_Latin1\_General\_CP1\_CI\_AS__ and __French\_CI\_AS__ in the equal to operation.
+- Cannot resolve the collation conflict between __SQL_Latin1_General_CP1_CI_AS__ and __French_CI_AS__ in the equal to operation.
 
 Cause
 
@@ -67,7 +67,7 @@ Now that the collations match, proceed with Access Analyzer installation.
 
 ### Case Sensitive Collation
 
-Access Analyzer does not support case sensitive collation settings. Case insensitive collations are notated by having __CI__ in the collation, for example __Latin1\_General\_CI\_AS__.
+Access Analyzer does not support case sensitive collation settings. Case insensitive collations are notated by having __CI__ in the collation, for example __Latin1_General_CI_AS__.
 
 Cause
 
@@ -95,14 +95,14 @@ INSERT INTO TestTab VALUES (1, 'abc', 'abc') 
 SELECT * FROM TestTab WHERE CharCol = CharCol2
 ```
 
-- Error Returned – Cannot resolve the collation conflict between __Greek\_CI\_AS__ and __French\_CI\_AS__ in the equal to operation.
+- Error Returned – Cannot resolve the collation conflict between __Greek_CI_AS__ and __French_CI_AS__ in the equal to operation.
 - Resolution – If the select statement is changed as below, then it would run successfully.
 
   ```
   SELECT * FROM TestTab WHERE CharCol = CharCol2 COLLATE Albanian_CI_AI
   ```
 
-__NOTE:__ Explicit collation (Albanian\_CI\_AI) is not one of any column, but after that it will complete successfully. The collation of two columns have not been matched, instead the third rule of collation precedence was implemented. See the Microsoft [Collation Precedence](https://learn.microsoft.com/en-us/sql/t-sql/statements/collation-precedence-transact-sql) article for additional information.
+__NOTE:__ Explicit collation (Albanian_CI_AI) is not one of any column, but after that it will complete successfully. The collation of two columns have not been matched, instead the third rule of collation precedence was implemented. See the Microsoft [Collation Precedence](https://learn.microsoft.com/en-us/sql/t-sql/statements/collation-precedence-transact-sql) article for additional information.
 
 ### Resources
 

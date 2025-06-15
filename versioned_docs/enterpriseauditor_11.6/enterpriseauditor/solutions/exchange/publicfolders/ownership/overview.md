@@ -6,5 +6,5 @@ The Ownership job group is comprised of analysis and reports that focus on publi
 
 The obs in the Ownership job group are:
 
-- [Collection > PF\_FolderOwnership Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/publicfolders/ownership/pf_folderownership.md) – Focuses on public folder sizing, content aging, entitlement, ownership, and most importantly the identification of each public folder's Most Probable Owner
-- [PF\_Owners Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/publicfolders/ownership/pf_owners.md) – Comprised of analysis and reports that focus on public folder ownership, and most importantly the identification of each public folder's Most Probable Owner
+- [Collection > PF_FolderOwnership Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/publicfolders/ownership/pf_folderownership.md) – Focuses on public folder sizing, content aging, entitlement, ownership, and most importantly the identification of each public folder's Most Probable Owner
+- [PF_Owners Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/publicfolders/ownership/pf_owners.md) – Comprised of analysis and reports that focus on public folder ownership, and most importantly the identification of each public folder's Most Probable Owner

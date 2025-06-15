@@ -18,7 +18,7 @@ The following example declares a simple workflow called ```Directory_User_StartI
 
 | Property | Details |
 | --- | --- |
-| DisplayName\_L1   required | __Type__    String   __Description__   Workflow' name displayed in the UI. This column is used for the first language. |
+| DisplayName_L1   required | __Type__    String   __Description__   Workflow' name displayed in the UI. This column is used for the first language. |
 | Identifier   required | __Type__    String   __Description__   Unique identifier of the workflow. |
 | IdentifierPrefix   optional | __Type__    String   __Description__   Workflow's identifier prefix, used to prefix the workflow's activity instances. |
 | VariablesType   required | __Type__    Int64   __Description__   Entity type of the resources involved by the workflow. Must follow the naming convention ```Workflow_<EntityType>```. |
@@ -47,7 +47,7 @@ The following workflow is made of four activities to add a new worker in the sys
 | --- | --- |
 | ArgumentBlockProvisioning   default value: false | __Type__    Boolean   __Description__   ```true``` to block provisioning orders (argument used only for an activity following the template ```Persist``` or ```PersistOnlyResources```). |
 | ArgumentCalledWorkflow   optional | __Type__    Int64   __Description__   Workflow to call (argument used only for an activity following the template ```ContinueWith```). |
-| DisplayName\_L1   required | __Type__    String   __Description__   Activity's name to display in the UI. This column is used for the first language. |
+| DisplayName_L1   required | __Type__    String   __Description__   Activity's name to display in the UI. This column is used for the first language. |
 | Identifier   required | __Type__    String   __Description__   Unique identifier of the activity. |
 | Template   required | __Type__    Enumeration   __Description__   Identifier of the activity template. All possible values:   - ```Action```: awaits user modifications without another user's intervention.   - ```ActionWithRefine```: awaits user modifications with the possibility to delegate the action to another user.   - ```Review```: awaits user approval without another user's intervention.   - ```ReviewWithFeedback```: awaits user approval with the possibility of getting feedback from another user before taking the action.   - ```Persist```: saves the workflow's collected data to the repository and triggers dependant processes (i.e. provisioning).   - ```PersistOnlyResources```: saves the workflow's collected data to the repository and without triggering dependant processes (i.e. provisioning).   - ```ContinueWith```: Gets the previous activities of the workflow and continues starting from a given activity of another workflow. |
 | WorkflowOverviewDisable   default value: false | __Type__    Boolean   __Description__   ```true``` to disable the activity's appearance on the __Workflow Overview__ screen. |

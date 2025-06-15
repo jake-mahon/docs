@@ -20,7 +20,7 @@ Directory Manager enables you to use a Group Managed Service Account (gMSA) to c
 
 - The gMSA must have full permissions on the Directory Manager installation folder.
 - It must be a member of the local administrator group (Administrators) on the Directory Manager server.
-- It must be a member of the local IIS group (IIS\_IUSRS) on the Directory Manager server.
+- It must be a member of the local IIS group (IIS_IUSRS) on the Directory Manager server.
 
 ## Allowed Principals
 

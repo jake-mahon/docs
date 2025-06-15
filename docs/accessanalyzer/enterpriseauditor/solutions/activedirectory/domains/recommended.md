@@ -8,13 +8,13 @@ This job group does not have dependencies.
 
 Targeted Hosts
 
-The __AD\_DomainControllers__ job has been configured to inherit its host from the __5.Domains > 0.Collection > Settings > Host List Assignment__ node. It is set to target the ONE DOMAIN CONTROLLER PER DOMAIN host list.
+The __AD_DomainControllers__ job has been configured to inherit its host from the __5.Domains > 0.Collection > Settings > Host List Assignment__ node. It is set to target the ONE DOMAIN CONTROLLER PER DOMAIN host list.
 
-The host list assignment for the __0.Collection > AD\_TimeSync__ and the __0.Collection__ > __AD\_DSRM__ jobs have been configured at the job’s __Configure__ > __Hosts__ node. They are set to run against the ALL DOMAIN CONTROLLERS host list.
+The host list assignment for the __0.Collection > AD_TimeSync__ and the __0.Collection__ > __AD_DSRM__ jobs have been configured at the job’s __Configure__ > __Hosts__ node. They are set to run against the ALL DOMAIN CONTROLLERS host list.
 
 The ONE DOMAIN CONTROLLER PER DOMAIN and ALL DOMAIN CONTROLLERS host lists are dynamic host lists based on the host inventory value in the isDomainController field in the Host Master Table.
 
-The __5.Domains > AD\_DomainInfo__ job needs to be set to run against the following:
+The __5.Domains > AD_DomainInfo__ job needs to be set to run against the following:
 
 - Custom host list with one domain controller per forest
 
@@ -32,7 +32,7 @@ ___RECOMMENDED:___ Run the jobs in the __5.Domains__ job group together and in o
 
 Query Configuration
 
-The 5.Domains > 0.Collection > AD\_DomainControllers job should be run with the default query configurations. Most of these queries are preconfigured for this Job Group and should not be modified.
+The 5.Domains > 0.Collection > AD_DomainControllers job should be run with the default query configurations. Most of these queries are preconfigured for this Job Group and should not be modified.
 
 The following query can be modified to use a secure connection with TLS/SSL:
 
@@ -40,7 +40,7 @@ The following query can be modified to use a secure connection with TLS/SSL:
 
 Workflow
 
-__Step 1 –__ Set the host on the AD\_DomainInfo job.
+__Step 1 –__ Set the host on the AD_DomainInfo job.
 
 __Step 2 –__ Run a host discovery query to discover domain controllers.
 

@@ -76,7 +76,7 @@ __Step 3 –__ Click on __Download Excel__ to download a dedicated XLSX report w
 
 ![Redundant Assignments - Report Example](/img/product_docs/usercube/usercube/user-guide/optimize/assignment-automation/remove-redundant-assignments/redundantassignments_reportexample_v602.webp)
 
-The example states that in the entity type Directory\_User, the user Nicholas Acosta had the single role Banking/Sales/Eunomia/Administrator starting from February 28th 2023 (dateA) until May 16th (dateD). A new single role rule assigns him this role from April 14th (dateB) until 25th 2023 (dateC).
+The example states that in the entity type Directory_User, the user Nicholas Acosta had the single role Banking/Sales/Eunomia/Administrator starting from February 28th 2023 (dateA) until May 16th (dateD). A new single role rule assigns him this role from April 14th (dateB) until 25th 2023 (dateC).
 
 It means that Nicholas Acosta will have the role in the __Calculated__ state from dateB to dateC, and he will keep the role in the __Approved__ state from dateA to dateB and from dateC to dateD.
 

@@ -19,7 +19,7 @@ The following table details all properties that can be specified to the Agent in
 
 | Property Name | Description | Default Value |
 | --- | --- | --- |
-| CUSTOM\_CA | If this property is set to True, then the custom-managed certificate mode is enabled. This mode uses certificates that are signed by the customer's external certificate authority. In this mode, the installer will not generate certificates and will not start the Agent Service at the end of the installation. | FALSE |
+| CUSTOM_CA | If this property is set to True, then the custom-managed certificate mode is enabled. This mode uses certificates that are signed by the customer's external certificate authority. In this mode, the installer will not generate certificates and will not start the Agent Service at the end of the installation. | FALSE |
 | EMCERTIFICATE | Enterprise Manager Certificate Thumbprint | This value can be found in the [Agents Interface](/docs/threatprevention/threatprevention/admin/agents/overview.md) by clicking the Agent Enrollment Secret icon to open the [Enrollment Secret Configuration Window](/docs/threatprevention/threatprevention/admin/agents/window/enrollmentsecretconfiguration.md). This value is not used for high security mode. |
 | ENROLLMENTSECRET  __Required for enrolling new Agent__ | Agent Enrollment Secret | This value can be found in the [Agents Interface](/docs/threatprevention/threatprevention/admin/agents/overview.md) by clicking the Agent Enrollment Secret icon to open the [Enrollment Secret Configuration Window](/docs/threatprevention/threatprevention/admin/agents/window/enrollmentsecretconfiguration.md). This is a required field if using auto security mode. It is not used for high security mode. |
 | SAFEMODE | Start Agent Service in safe mode | FALSE |
@@ -27,10 +27,10 @@ The following table details all properties that can be specified to the Agent in
 | ADDFWRULES | Create firewall rules for the Agent Service | TRUE |
 | INSTALLFOLDER | Agent installation path | …\Program Files \Netwrix\Netwrix Threat Prevention\SIWindowsAgent |
 | PORTNUMBER | Enterprise Manager port value | 3741 |
-| ENTMGR\_IPADDRESS  Required | Enterprise Manager IP address | 127.0.0.1 |
-| FILE\_MONITOR\_INSTALL | Windows File System feature | FALSE |
-| AD\_MONITOR\_INSTALL | Windows Active Directory Events feature | FALSE |
-| EXCHANGE\_MONITOR\_INSTALL | Exchange Server Monitoring feature | FALSE |
+| ENTMGR_IPADDRESS  Required | Enterprise Manager IP address | 127.0.0.1 |
+| FILE_MONITOR_INSTALL | Windows File System feature | FALSE |
+| AD_MONITOR_INSTALL | Windows Active Directory Events feature | FALSE |
+| EXCHANGE_MONITOR_INSTALL | Exchange Server Monitoring feature | FALSE |
 | DNSLOOKUPS | ‘dnsLookups’ in the SIWindowsAgent.exe file | TRUE |
 | CONFIGPARAMS | Key value pairs used in SIWindowsAgent.exe.config  Example Value:  Key=value&SDEventFormat=PROTOBUF |  |
 | LOCALPWNEDDB | HaveIBeenPwned (HIBP) hash Database mode for Agent or Enterprise Manager | FALSE |

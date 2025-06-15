@@ -80,9 +80,9 @@ The InputType represents the type of research property, attribute which supports
 | --- | --- | --- |
 | Activity   optional | Int64 | Defines the linked activity template. |
 | ActivityState   optional | Enumeration | Defines the linked activity state template. |
-| AddRowLabel\_L1   optional | String | Defines the "add row" button label when using WorkflowUpdateSeveralRecordsEntityForm. |
+| AddRowLabel_L1   optional | String | Defines the "add row" button label when using WorkflowUpdateSeveralRecordsEntityForm. |
 | EntityType   required | Int64 | Represents the linked entity type. |
-| FormTitle\_L1   optional | String | Title of the form in language 1 (up to 16). |
+| FormTitle_L1   optional | String | Title of the form in language 1 (up to 16). |
 | FormType   default value: Auto | FormType | Represents the linked form type. |
 | HideRecordAddButton   default value: false | Boolean | True to hide the button used to add a new record. |
 | HideRecordRemoveButton   default value: false | Boolean | True to hide the button used to remove an existing record. |
@@ -92,7 +92,7 @@ The InputType represents the type of research property, attribute which supports
 | IsDefaultViewForm   default value: false | Boolean | Entity type default view form. |
 | IsDeleteForm   default value: false | Boolean | Is a delete form. |
 | MainProperty   optional | Int64 | Represents the form main property. |
-| MainPropertyLabel\_L1   optional | String | Defines the main property label text. |
+| MainPropertyLabel_L1   optional | String | Defines the main property label text. |
 | Menu   optional | Int64 | Defines the linked menu item. |
 | RecordEndProperty   optional | Int64 | Defines the workflow end date property. If not specified, the property EndDate of the record entity type is considered as RecordEndProperty. |
 | RecordFilter   default value: CurrentAndFuture | RecordFilter | Defines the record display option.   0 - Current: shows current positions.   1 - CurrentAndFuture: shows current and future positions. Recommended.   2 - All: shows past, present and future positions. Not recommended for clarity issues. |
@@ -100,8 +100,8 @@ The InputType represents the type of research property, attribute which supports
 | RecordSortProperty   optional | Int64 | Defines the workflow sort property. |
 | RecordStartProperty   optional | Int64 | Defines the workflow start date property. If not specified, the property StartDate of the record entity type is considered as RecordStartProperty. |
 | RecordTable   optional | Int64 | Identifier of the display table to be used to display resources' records in a workflow. |
-| RemoveRowLabel\_L1   optional | String | Defines the "remove row" button label when using WorkflowUpdateSeveralRecordsEntityForm. |
-| TableTitle\_L1   optional | String | Defines the table title when using WorkflowUpdateSeveralRecordsEntityForm. |
+| RemoveRowLabel_L1   optional | String | Defines the "remove row" button label when using WorkflowUpdateSeveralRecordsEntityForm. |
+| TableTitle_L1   optional | String | Defines the table title when using WorkflowUpdateSeveralRecordsEntityForm. |
 | WorkflowRequestType   default value: 0 | WorkflowRequestType | Type of the request of the related workflow.   0 - None.   1 - Self.   2 - Helpdesk.   3 - Administration. |
 
 ## Child Element: Control
@@ -130,7 +130,7 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 | Binding3   optional | Int64 | Identifier of the binding property used to represent the third manager level (N+3) in the organization chart. It must be a mono-valued navigation. Cannot be used when Binding2 is not defined. |
 | ColumnSize   optional | Int32 | Defines the control column size. |
 | DefaultValueBinding   optional | Int64 | Automatically sets the value in the control depending on this binding and the selected value in another corresponding picker.   It's only available for controls with picker.  For example:   ```<Control Binding="Location" DefaultValueBinding="Organization.Manager.MainLocation" />```   After a selection of an organization in another picker in the form, the field location will be automatically set by the main location of the manager of the selected organization. |
-| DisplayName\_L1   optional | String | Display name of the control in language 1 (up to 16). |
+| DisplayName_L1   optional | String | Display name of the control in language 1 (up to 16). |
 | DisplayTable   optional | Int64 | Identifier of the table. |
 | EmbeddedForm   optional | Int64 | Identifier of the form to insert in the control. With this method, one form can be imported to several forms.  _Remember,_ it can be used only with ```OutputType``` set to ```TransformImport```. |
 | EntityType   optional | Int64 | Represents the linked entity type. |
@@ -147,5 +147,5 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 | NavigationBinding   optional | Int64 | Defines the binding of the resource on which the user will be redirected when he clicks on an element of a BasicCollection. If not defined, the one defined in DisplayEntityProperty is used. |
 | OutputType   default value: Inherited | Enumeration | Output type of the control. |
 | ParentControl   optional | Int64 | Defines the parent form control. |
-| PlaceHolderText\_L1   optional | String | Defines the place holder text. |
+| PlaceHolderText_L1   optional | String | Defines the place holder text. |
 | Tile   optional | Int64 | Identifier of the tile. |

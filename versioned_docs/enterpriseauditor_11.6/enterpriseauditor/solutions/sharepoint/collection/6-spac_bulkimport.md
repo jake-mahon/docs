@@ -1,22 +1,22 @@
-# 6-SPAC\_BulkImport Job
+# 6-SPAC_BulkImport Job
 
 This job is responsible for retrieving the SPAC Tier 2 database information and import it to the Enterprise Auditor SQL database.
 
-## Queries for the 6-SPAC\_BulkImport Job
+## Queries for the 6-SPAC_BulkImport Job
 
-The 6-SPAC\_BulkImport Job uses the SharePoint Access Data Collector for the following query:
+The 6-SPAC_BulkImport Job uses the SharePoint Access Data Collector for the following query:
 
 ![Query Selection](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/sharepoint/collection/spacbulkimportquery.png)
 
-The query for the 6-SPAC\_BulkImport Job is:
+The query for the 6-SPAC_BulkImport Job is:
 
 - Bulk Import – Imports scan data into the SQL Server
 
-### Configure the Query for the 6-SPAC\_BulkImport Job
+### Configure the Query for the 6-SPAC_BulkImport Job
 
-The 6-SPAC\_BulkImport Job has been preconfigured to run with the default settings with the category of Bulk Import SharePoint Activity Scan Results, which is not visible within the SharePoint Access Auditor Data Collector Wizard when opened from within this job. Follow the steps to set any desired customizations.
+The 6-SPAC_BulkImport Job has been preconfigured to run with the default settings with the category of Bulk Import SharePoint Activity Scan Results, which is not visible within the SharePoint Access Auditor Data Collector Wizard when opened from within this job. Follow the steps to set any desired customizations.
 
-__Step 1 –__ Navigate to the __Jobs__ > __SharePoint__ > __0.Collection__ > __2-SPAC\_BulkImport__ > __Configure__ node and select __Queries__.
+__Step 1 –__ Navigate to the __Jobs__ > __SharePoint__ > __0.Collection__ > __2-SPAC_BulkImport__ > __Configure__ node and select __Queries__.
 
 __Step 2 –__ In the Query Selection view, click __Query Properties__. The Query Properties window displays.
 
@@ -34,11 +34,11 @@ __Step 5 –__ On the Results page, all Available Properties are selected by def
 
 __Step 6 –__ On the Summary page, click __Finish__ to save any setting modifications or click __Cancel__ if no changes were made. Then click __OK__ to close the Query Properties window.
 
-If changes were made, the 6-SPAC\_BulkImport Job has now been customized.
+If changes were made, the 6-SPAC_BulkImport Job has now been customized.
 
-## Analysis Tasks for 2-SPAC\_BulkImport Job
+## Analysis Tasks for 2-SPAC_BulkImport Job
 
-Navigate to the __Jobs__ > __SharePoint__ > __0.Collection__ > __6-SPAC\_BulkImport__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Jobs__ > __SharePoint__ > __0.Collection__ > __6-SPAC_BulkImport__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ The analysis tasks are preconfigured for this job. Never modify or deselect the selected analysis tasks.
 
@@ -46,5 +46,5 @@ __CAUTION:__ The analysis tasks are preconfigured for this job. Never modify or 
 
 The default analysis tasks are:
 
-- 1. Create Event Name Table – Creates the SA\_SPAC\_EventNames table associated with SPAC
+- 1. Create Event Name Table – Creates the SA_SPAC_EventNames table associated with SPAC
 - 2. Create Views – Creates the views associated with SPAC

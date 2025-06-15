@@ -15,7 +15,7 @@ __Step 2 –__ On the default General section, enter the following information:
 
 __Step 3 –__ On the Scripts section, click __Configure__ and then enter the following information:
 
-- Add the epp\_change\_ip.sh script.
+- Add the epp_change_ip.sh script.
 - Priority – set priority to Before, as the script needs to be installed before the next step.
 
 ![Configuring Script under Policies](/img/product_docs/endpointprotector/endpointprotector/install/agent/jamf/scripts.png)

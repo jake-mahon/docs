@@ -20,10 +20,10 @@ An installation of the Agent on a 64-bit system where .NET Framework 4.7.2 or hi
 
 Open the Registry Editor (regedit) to enable Windows Installer logging, and then create or modify the following:
 
-| System Key: | [HKEY\_LOCAL\_MACHINE\Software\Policies\Microsoft\Windows\Installer] |
+| System Key: | [HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\Installer] |
 | --- | --- |
 | Subkey Name: | Logging |
-| Subkey Type: | REG\_SZ (string value) |
+| Subkey Type: | REG_SZ (string value) |
 | Subkey Value: | voicewarmupx |
 
 After this registry edit, Windows Installer will track the progress of the installation and post it to a log in the ```%TEMP%``` folder. Although the new log's file name will be randomized, its first three letters will be "MSI" and it will have the “.log” extension. Type the following line at a command prompt to locate the Temp folder:

@@ -29,7 +29,7 @@ Set-IdentityStoreRole
 
 Example 1:
 
-This example modifies properties of the DemoRole1 role in AdStore9 identity store. It renames the role to DemoRole1\_Renamed and sets its priority to 45.
+This example modifies properties of the DemoRole1 role in AdStore9 identity store. It renames the role to DemoRole1_Renamed and sets its priority to 45.
 
 ```
 Set-IdentityStoreRole -RoleName DemoRole1 -IdentityStoreName AdStore9 -NewName DemoRole1_Renamed -Priority 45 -Enabled $True

@@ -1,10 +1,10 @@
-# PF\_Entitlements Job
+# PF_Entitlements Job
 
-The PF\_Entitlements job is comprised of analyses and reports that provide visibility into permissions applied to each public folder within the Exchange environment.
+The PF_Entitlements job is comprised of analyses and reports that provide visibility into permissions applied to each public folder within the Exchange environment.
 
-## Analysis Tasks for the PF\_Entitlements Job
+## Analysis Tasks for the PF_Entitlements Job
 
-View the analysis tasks by navigating to the __Exchange__ > __5. Public Folders__ > __Permissions__ > __PF\_Entitlements__ > __Configure__ node and select __Analysis__.
+View the analysis tasks by navigating to the __Exchange__ > __5. Public Folders__ > __Permissions__ > __PF_Entitlements__ > __Configure__ node and select __Analysis__.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,14 +12,14 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The following analysis tasks are selected by default:
 
-- 00.Default + Anonymous ACLs – Creates the SA\_PF\_Entitlements\_DefaultAnonymous table accessible under the job’s Results node
+- 00.Default + Anonymous ACLs – Creates the SA_PF_Entitlements_DefaultAnonymous table accessible under the job’s Results node
 - 01.No Explicit Permissions – Creates an interim processing table in the database for use by downstream analysis and report generation
-- 02.Stale User Entitlements – Creates the SA\_PF\_Entitlements\_StaleUserEntitlements table, accessible under the job’s Results node
-- 03.Unresolved SID Summary – Creates the SA\_PF\_Entitlements\_UnresolvedSIDSummary table, accessible under the job’s Results node
-- 04.Unresolved SIDs – Creates the SA\_PF\_Entitlements\_UnresolvedSIDDetails table, accessible under the job’s Results node
+- 02.Stale User Entitlements – Creates the SA_PF_Entitlements_StaleUserEntitlements table, accessible under the job’s Results node
+- 03.Unresolved SID Summary – Creates the SA_PF_Entitlements_UnresolvedSIDSummary table, accessible under the job’s Results node
+- 04.Unresolved SIDs – Creates the SA_PF_Entitlements_UnresolvedSIDDetails table, accessible under the job’s Results node
 - AIC Import - PF Entitlements – Imports public folder entitlements to the Access Information Center
 
-In addition to the tables and views created by the analysis tasks, the PF\_Entitlements job produces the following pre-configured reports:
+In addition to the tables and views created by the analysis tasks, the PF_Entitlements job produces the following pre-configured reports:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

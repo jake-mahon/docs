@@ -77,7 +77,7 @@ Contains all the display table columns.
 | ColumnSize   default value: 1 | __Type__    Int32   __Description__   Defines the column size. |
 | DefaultSortPriority   optional | __Type__    Int32   __Description__   Defines the default sort priority. |
 | DisplayBinding   optional | __Type__    Int64   __Description__   Represents the linked binding path to a scalar property. |
-| DisplayName\_L1   optional | __Type__    String   __Description__   Display name of the column in language 1 (up to 16). |
+| DisplayName_L1   optional | __Type__    String   __Description__   Display name of the column in language 1 (up to 16). |
 | IsDisplayInDropDownList   default value: false | __Type__    Boolean   __Description__   Is a drop down list column. |
 | IsDisplayInSummaryView   default value: false | __Type__    Boolean   __Description__   Is a summary view column. |
 | IsResizable   default value: false | __Type__    Boolean   __Description__   Is resizable column. |

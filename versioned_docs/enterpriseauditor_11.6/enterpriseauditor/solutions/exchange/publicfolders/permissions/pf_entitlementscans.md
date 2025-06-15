@@ -1,27 +1,27 @@
-# Collection > PF\_EntitlementScans Job
+# Collection > PF_EntitlementScans Job
 
-The PF\_EntitlementScans job is comprised of data collection that focuses on public folder permissions.
+The PF_EntitlementScans job is comprised of data collection that focuses on public folder permissions.
 
 ![Collection > PF_EntitlementScans Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/databases/collection/collectionjobstree.png)
 
-The PF\_EntitlementScans job is located in the Collection job group.
+The PF_EntitlementScans job is located in the Collection job group.
 
-## Queries for the PF\_EntitlementScans Job
+## Queries for the PF_EntitlementScans Job
 
-The PF\_EntitlementScans job uses the ExchangePS Data Collector.
+The PF_EntitlementScans job uses the ExchangePS Data Collector.
 
 ![Queries for the PF_EntitlementScans Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/publicfolders/permissions/entitlementscansquery.png)
 
-The following query is included in the PF\_EntitlementScans job:
+The following query is included in the PF_EntitlementScans job:
 
 - Public Folder Permissions – Collects public folder permissions
 
   - By default set to search all public folders. It can be scoped.
   - See the [Scope the ExchangePS Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/casmetrics/ex_aspolicies.md#scope-the-exchangeps-data-collector) topic for additional information
 
-## Analysis Tasks for the PF\_EntitlementScans Job
+## Analysis Tasks for the PF_EntitlementScans Job
 
-View the analysis tasks by navigating to the __Exchange__ > __5. Public Folders__ > __Permissions__ > __Collection__ > __PF\_EntitlementScans__ > __Configure__ node and select __Analysis__.
+View the analysis tasks by navigating to the __Exchange__ > __5. Public Folders__ > __Permissions__ > __Collection__ > __PF_EntitlementScans__ > __Configure__ node and select __Analysis__.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 

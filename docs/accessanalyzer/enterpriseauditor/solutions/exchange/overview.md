@@ -27,7 +27,7 @@ Location
 
 The Exchange Solution requires a special Access Analyzer license. It can be installed from the Access Analyzer Instant Job Wizard. Once it has been installed into the Jobs tree, navigate to the solution: __Jobs__ > __Exchange__.
 
-Each job group within the solution collects data, analyzes the data, and reports on the target Exchange environment, with the exception of the 6. Distribution Lists job group that only analyzes data and generates reports. The EX\_UserOverview job runs analysis on the collected data and generates reports.
+Each job group within the solution collects data, analyzes the data, and reports on the target Exchange environment, with the exception of the 6. Distribution Lists job group that only analyzes data and generates reports. The EX_UserOverview job runs analysis on the collected data and generates reports.
 
 ## Job Groups
 
@@ -49,6 +49,6 @@ The following job groups comprise the Exchange Solution:
 - [6. Distribution Lists Job Group](/docs/accessanalyzer/enterpriseauditor/solutions/exchange/distributionlists/overview.md) – Lists the direct and effective membership to distribution lists in addition to providing context around potentially stale distribution lists
 - [7.Sensitive Data Job Group](/docs/accessanalyzer/enterpriseauditor/solutions/exchange/sensitivedata/overview.md) – Comprised of jobs which locate sensitive data found in mailboxes and public folders in the Exchange environment
 - [8.Exchange Online Job Group](/docs/accessanalyzer/enterpriseauditor/solutions/exchange/online/overview.md) – Comprised of jobs that locate sensitive data found in mailboxes and public folders in the Exchange environment
-- [EX\_UserOverview Job](/docs/accessanalyzer/enterpriseauditor/solutions/exchange/ex_useroverview.md) – provides correlation from multiple data collection points to show information for each user about their mailbox size, mailbox access rights, mail-flow metrics and remote connectivity to the Exchange environment. These reports provide user impact analysis on the environment. This job depends upon multiple job groups.
+- [EX_UserOverview Job](/docs/accessanalyzer/enterpriseauditor/solutions/exchange/ex_useroverview.md) – provides correlation from multiple data collection points to show information for each user about their mailbox size, mailbox access rights, mail-flow metrics and remote connectivity to the Exchange environment. These reports provide user impact analysis on the environment. This job depends upon multiple job groups.
 
 The MAPI-based data collectors require both Access Analyzer MAPI CDO and Microsoft Exchange MAPI CDO to be installed on the Access Analyzer Console server. Once these have been installed, configure the __Settings__ > __Exchange__ node for proper connection to the Exchange server. See the [Exchange](/docs/accessanalyzer/enterpriseauditor/admin/settings/exchange.md) topic for additional information.

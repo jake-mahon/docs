@@ -1,10 +1,10 @@
-# AD\_HardcodedDCs Job
+# AD_HardcodedDCs Job
 
-The AD\_HardcodedDCs Job highlights machines that have communicated with only one domain controller.
+The AD_HardcodedDCs Job highlights machines that have communicated with only one domain controller.
 
-## Analysis Tasks for the AD\_HardcodedDCs Job
+## Analysis Tasks for the AD_HardcodedDCs Job
 
-Navigate to the __Active Directory__ > __6.Activity__ > __Operations__ > __AD\_HardcodedDCs__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Active Directory__ > __6.Activity__ > __Operations__ > __AD_HardcodedDCs__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,10 +12,10 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The default analysis tasks are:
 
-- Hardcoded DCs – Creates the SA\_AD\_Hardcoded\_DCs table accessible under the job’s Results node
-- Summarizes Hardcoded DC Information – Creates the SA\_AD\_Hardcoded\_Summary table accessible under the job’s Results node
+- Hardcoded DCs – Creates the SA_AD_Hardcoded_DCs table accessible under the job’s Results node
+- Summarizes Hardcoded DC Information – Creates the SA_AD_Hardcoded_Summary table accessible under the job’s Results node
 
-In addition to the tables created by the analysis tasks, the AD\_Hardcoded DCs Job produces the follow pre-configured reports:
+In addition to the tables created by the analysis tasks, the AD_Hardcoded DCs Job produces the follow pre-configured reports:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

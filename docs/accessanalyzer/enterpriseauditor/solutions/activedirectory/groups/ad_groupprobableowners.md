@@ -1,10 +1,10 @@
-# AD\_GroupProbableOwners Job
+# AD_GroupProbableOwners Job
 
-The AD\_GroupProbableOwners Job determines potential owners for Active Directory Groups which can be used to perform automated membership reviews and enable self-service group management and membership requests.
+The AD_GroupProbableOwners Job determines potential owners for Active Directory Groups which can be used to perform automated membership reviews and enable self-service group management and membership requests.
 
-## Analysis Tasks for the AD\_GroupProbableOwners Job
+## Analysis Tasks for the AD_GroupProbableOwners Job
 
-Navigate to the __Active Directory__ > __1.Groups__ > __AD\_GroupProbableOwners__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Active Directory__ > __1.Groups__ > __AD_GroupProbableOwners__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,10 +12,10 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The default analysis tasks are:
 
-- Determine Ownership – Creates the SA\_AD\_GroupProbableOwner\_Owners table accessible under the job’s Results node
+- Determine Ownership – Creates the SA_AD_GroupProbableOwner_Owners table accessible under the job’s Results node
 - Domain Summary – Creates an interim processing table in the database for use by downstream analysis and report generation
 
-In addition to the tables and views created by the analysis tasks, the AD\_GroupProbableOwner Job produces the following pre-configured report:
+In addition to the tables and views created by the analysis tasks, the AD_GroupProbableOwner Job produces the following pre-configured report:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

@@ -1,20 +1,20 @@
-# AWS\_StaleRoles Job
+# AWS_StaleRoles Job
 
-The AWS\_StaleRoles job provides details on roles that are considered stale. Highlighting roles that have not been used in more than 60 days and those that have never been used. The 60 day parameter is configurable.
+The AWS_StaleRoles job provides details on roles that are considered stale. Highlighting roles that have not been used in more than 60 days and those that have never been used. The 60 day parameter is configurable.
 
 ## Parameter Configuration
 
 The Configuration section on a Job's overview page allows you to easily modify any customizable parameters used by analysis tasks in the job. See the [Parameter Configuration](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/overview.md#parameter-configuration) topic for instructions on how to edit parameters on a job overview page.
 
-The AWS\_StaleRoles job has the following configurable parameter:
+The AWS_StaleRoles job has the following configurable parameter:
 
 - Days without login to consider an account stale
 
-See the [Customizable Analysis Tasks for the AWS\_StaleRoles Job](#customizable-analysis-tasks-for-the-aws_staleroles-job) topic for additional information.
+See the [Customizable Analysis Tasks for the AWS_StaleRoles Job](#customizable-analysis-tasks-for-the-aws_staleroles-job) topic for additional information.
 
-## Analysis Tasks for the AWS\_StaleRoles Job
+## Analysis Tasks for the AWS_StaleRoles Job
 
-Navigate to the __AWS__ > __4.Roles__ > __AWS\_StaleRoles__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __AWS__ > __4.Roles__ > __AWS_StaleRoles__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not deselect the selected analysis tasks. The analysis tasks are preconfigured for this job. Only modify the analysis tasks listed in the customizable analysis tasks section.
 
@@ -22,12 +22,12 @@ __CAUTION:__ Do not deselect the selected analysis tasks. The analysis tasks are
 
 The following analysis tasks are selected by default:
 
-- Stale Role Details – Highlights the roles in AWS that are considered stale. Creates the AWS\_StaleRole\_Details table accessible under the job’s Results node.
+- Stale Role Details – Highlights the roles in AWS that are considered stale. Creates the AWS_StaleRole_Details table accessible under the job’s Results node.
 
-  - The number of days without login to consider an account stale can be customized. By default it is set to 60. See the [Customizable Analysis Tasks for the AWS\_StaleRoles Job](#customizable-analysis-tasks-for-the-aws_staleroles-job) topic for additional information.
-- Stale Role Summary – Summarizes stale roles by AWS Account. Creates the AWS\_StaleRole\_Summary table accessible under the job’s Results node.
+  - The number of days without login to consider an account stale can be customized. By default it is set to 60. See the [Customizable Analysis Tasks for the AWS_StaleRoles Job](#customizable-analysis-tasks-for-the-aws_staleroles-job) topic for additional information.
+- Stale Role Summary – Summarizes stale roles by AWS Account. Creates the AWS_StaleRole_Summary table accessible under the job’s Results node.
 
-### Customizable Analysis Tasks for the AWS\_StaleRoles Job
+### Customizable Analysis Tasks for the AWS_StaleRoles Job
 
 The default values for parameters that can be customized are:
 
@@ -37,9 +37,9 @@ The default values for parameters that can be customized are:
 
 See the [Configure the Customizable Parameters in an Analysis Task](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/configure/analysiscustomizableparameters.md) topic for instructions on how to modify parameters.
 
-## Report for the AWS\_StaleRoles Job
+## Report for the AWS_StaleRoles Job
 
-In addition to the tables and views created by the analysis task, the AWS\_StaleRoles job produces the following preconfigured report:
+In addition to the tables and views created by the analysis task, the AWS_StaleRoles job produces the following preconfigured report:
 
 | Report | Description | Default Tags | Report Element |
 | --- | --- | --- | --- |

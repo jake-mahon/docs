@@ -17,7 +17,7 @@ The Data Source tab is used to select the data collector to be used. The configu
 
   __CAUTION:__ Setting this value manually to an incorrect data type may render your results invalid and inaccessible by Access Analyzer.
 
-  - For example: Querying the registry for a value stored as __REG\_SZ__ returns a string, as __REG\_SZ__ is a string type in the registry. However, sometimes numbers are recorded in __REG\_SZ__ entries. If you determine that the content returned could always be interpreted as numeric, you could override the default ```STRING``` value and set it to ```NUMERIC```. This provides proper sorting and charting ability.
+  - For example: Querying the registry for a value stored as __REG_SZ__ returns a string, as __REG_SZ__ is a string type in the registry. However, sometimes numbers are recorded in __REG_SZ__ entries. If you determine that the content returned could always be interpreted as numeric, you could override the default ```STRING``` value and set it to ```NUMERIC```. This provides proper sorting and charting ability.
 - Size – Used to determine the width of the field used to hold String data. Setting the size smaller than the actual returned data will cause Access Analyzer to truncate the data in the view. However, the actual stored data in the result table will contain the full result.
 - Value – Reserved for internal use
 - Key – Used to identify a key property. A key property is used to identify the property that contains a unique value for enumerated tasks. A Key value is required for Change Detection and Conformance Management on enumerated tasks. To identify a property that uniquely identifies each row, set the Key attribute to ```YES```.

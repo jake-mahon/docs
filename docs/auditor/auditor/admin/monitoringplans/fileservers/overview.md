@@ -117,9 +117,9 @@ Complete the following fields:
 | --- | --- |
 | General |  |
 | Specify Dell Isilon storage array | Provide the IP address or the host name of the name server used to connect to your access zone. For example, _account.corp.lab_ |
-| Access Zone | Enter the name of access zone partition within your EMC Isilon cluster. For example, _zone\_account_ |
+| Access Zone | Enter the name of access zone partition within your EMC Isilon cluster. For example, _zone_account_ |
 | OneFS web administration interface URL | Enter Dell Isilon web administration URL (e.g., _https://isiloncluster.corp.lab:8080_). This URL is used to get configuration details about your Isilon cluster via OneFS API. |
-| File Share UNC path to audit logs | Path to the file share located on a Dell Isilon with event log files (e.g., _\\srv\netwrix\_audit$\logs\_). |
+| File Share UNC path to audit logs | Path to the file share located on a Dell Isilon with event log files (e.g., _\\srv\netwrix_audit$\logs_). |
 | Specify the account for collecting data | Select the account that will be used to collect data for this item. If you want to use a specific account (other than the one you specified during monitoring plan creation), select __Custom account__ and enter credentials. The credentials are case sensitive.  A custom account must be granted the same permissions and access rights as the default account used for data collection. See the [Data Collecting Account](/docs/auditor/auditor/admin/monitoringplans/dataaccounts.md) topic for additional information. |
 | Scope |  |
 | Specify monitoring restrictions | Specify restriction filters to narrow your monitoring scope (search results, reports and Activity Summaries). All filters are applied using AND logic.  See the Fine-tune Monitoring ScopeFine-tune Monitoring Scopetopic for additional information about how to narrow your monitoring scope.  In addition to the restrictions for a monitoring plan, you can use the \*.txt files to collect more granular audit data. Note that the new monitoring scope restrictions apply together with previous exclusion settings configured in the \*.txt files. See the [Monitoring Plans](/docs/auditor/auditor/admin/monitoringplans/overview.md)topic for additional information. |
@@ -185,7 +185,7 @@ Complete the following fields:
 | --- | --- |
 | General |  |
 | Specify NetApp file server | Provide a server name by entering its FQDN, NETBIOS or IPv4 address. You can click Browse to select a computer from the list of computers in your network. |
-| File share UNC path to audit logs | Select one of the following:   - Detect automatically—If selected, a shared resource will be detected automatically. - Use this path—UNC path to the file share located on a NetApp Filer with event log files (e.g., _\\CORP\ETC$\log\_). |
+| File share UNC path to audit logs | Select one of the following:   - Detect automatically—If selected, a shared resource will be detected automatically. - Use this path—UNC path to the file share located on a NetApp Filer with event log files (e.g., _\\CORP\ETC$\log_). |
 | Specify the account for collecting data | Select the account that will be used to collect data for this item. If you want to use a specific account (other than the one you specified during monitoring plan creation), select __Custom account__ and enter credentials. The credentials are case sensitive.  A custom account must be granted the same permissions and access rights as the default account used for data collection. See the [Data Collecting Account](/docs/auditor/auditor/admin/monitoringplans/dataaccounts.md) topic for additional information. |
 | ONTAPI/ONTAP REST API |  |
 | Specify protocol for accessing ONTAPI/ONTAP REST API | Select one of the following:   - Detect automatically—If selected, a connection protocol will be detected automatically. - HTTP - HTTPS  Refer to [Netwrix Auditor Installation and Configuration Guide](https://www.netwrix.com/download/documents/Netwrix_Auditor_Installation_Configuration_Guide.pdf) for detailed instructions on how to enable HTTP or HTTPS admin access. NOTE: ONTAP REST API works only over HTTPS protocol |

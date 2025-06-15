@@ -16,7 +16,7 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 
 | Property | Type | Description |
 | --- | --- | --- |
-| DisplayName\_L1   required | String | Display name of the task in language 1 (up to 16). |
+| DisplayName_L1   required | String | Display name of the task in language 1 (up to 16). |
 | BatchInsertSize   default value: 0 | Int32 | Specifies the number of orders by file. |
 | BatchSelectSize   default value: 0 | Int32 | Defines the batch select size. |
 | Connector   optional | String | Identifier of the connector involved in the task. |

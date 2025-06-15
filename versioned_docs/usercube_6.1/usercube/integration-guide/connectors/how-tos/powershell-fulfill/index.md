@@ -494,7 +494,7 @@ To update or delete an existing mailbox, the Active Directory part can be skippe
 
 #### Interface display
 
-The Synchronization job should be found in the UI, under the __Job Execution__ menu, with the name input in the Job's __DisplayName\_Li__ attribute.
+The Synchronization job should be found in the UI, under the __Job Execution__ menu, with the name input in the Job's __DisplayName_Li__ attribute.
 
 ![Microsoft Exchange Jobs](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/how-tos/powershell-fulfill/microsoftexchange_jobs_5.1.7.png)
 

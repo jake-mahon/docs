@@ -16,7 +16,7 @@ Please see the Privilege Secure User Guide - First Time Logging In for setting n
 
 ## Reset MFA Inherited by AD Group
 
-Many organizations will create a "Privilege Secure\_Users" group in Active Directory which will grant their users the ability to log into the Privilege Secure UI to request administrative access to resources in the domain(s).  When customers are using this approach alongside either the default Google Authenticator or other TOTP solutions, if a user loses or becomes locked out of their device the token is stored on, the MFA token must be reset.  In this example, resetting the 2-Factor token for the configured group would force all users inheriting their access from this group to reset their token, therefore it is necessary to reset a single user's token.
+Many organizations will create a "Privilege Secure_Users" group in Active Directory which will grant their users the ability to log into the Privilege Secure UI to request administrative access to resources in the domain(s).  When customers are using this approach alongside either the default Google Authenticator or other TOTP solutions, if a user loses or becomes locked out of their device the token is stored on, the MFA token must be reset.  In this example, resetting the 2-Factor token for the configured group would force all users inheriting their access from this group to reset their token, therefore it is necessary to reset a single user's token.
 
 Solution
 

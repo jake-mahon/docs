@@ -1,14 +1,14 @@
-# 5.Open Access > AD\_OpenAccess Job
+# 5.Open Access > AD_OpenAccess Job
 
-The AD\_OpenAccess Job reports on all Active Directory permissions granting open access within the targeted domains. Open Access can be defined as access granted to security principals such as: Domain Users, Authenticated Users, and Everyone.
+The AD_OpenAccess Job reports on all Active Directory permissions granting open access within the targeted domains. Open Access can be defined as access granted to security principals such as: Domain Users, Authenticated Users, and Everyone.
 
 ![5.Open Access Job Group in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/openaccessjobstree.png)
 
-The AD\_OpenAccess Job is located in the 5.Open Access Job Group.
+The AD_OpenAccess Job is located in the 5.Open Access Job Group.
 
-## Analysis Tasks for the AD\_OpenAccess Job
+## Analysis Tasks for the AD_OpenAccess Job
 
-Navigate to the __Active Directory Permissions Analyzer__ > __5.Open Access__ > __AD\_OpenAccess__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Active Directory Permissions Analyzer__ > __5.Open Access__ > __AD_OpenAccess__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -16,10 +16,10 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The default analysis tasks are:
 
-- Determine open access – Creates the SA\_AD\_OpenAccess\_Details table accessible under the job’s Results node
+- Determine open access – Creates the SA_AD_OpenAccess_Details table accessible under the job’s Results node
 - Summarize open access by domain – Creates an interim processing table in the database for use by downstream analysis and report generation
 
-In addition to the tables and views created by the analysis tasks, the AD\_OpenAccess Job produces the following pre-configured report.
+In addition to the tables and views created by the analysis tasks, the AD_OpenAccess Job produces the following pre-configured report.
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

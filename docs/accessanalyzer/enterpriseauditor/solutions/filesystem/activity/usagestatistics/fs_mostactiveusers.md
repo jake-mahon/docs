@@ -1,10 +1,10 @@
-# FS\_MostActiveUsers Job
+# FS_MostActiveUsers Job
 
-The FS\_MostActiveUsers job is designed to report on the most active users within an environment.
+The FS_MostActiveUsers job is designed to report on the most active users within an environment.
 
-## Analysis Tasks for the FS\_MostActiveUsers Job
+## Analysis Tasks for the FS_MostActiveUsers Job
 
-View the analysis tasks by navigating to the __FileSystem__ > __5.Activity__ > __Usage Statistics__ > __FS\_MostActiveUsers__ > __Configure__ node and select __Analysis__.
+View the analysis tasks by navigating to the __FileSystem__ > __5.Activity__ > __Usage Statistics__ > __FS_MostActiveUsers__ > __Configure__ node and select __Analysis__.
 
 __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis task is preconfigured for this job.
 
@@ -12,9 +12,9 @@ __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis 
 
 The following analysis task is selected by default:
 
-- Last 30 Days – Creates the SA\_FS\_MostActiveUsers\_Last30Days table accessible under the job’s Results node
+- Last 30 Days – Creates the SA_FS_MostActiveUsers_Last30Days table accessible under the job’s Results node
 
-In addition to the tables and views created by the analysis task, the FS\_MostActiveUsers job produces the following pre-configured report:
+In addition to the tables and views created by the analysis task, the FS_MostActiveUsers job produces the following pre-configured report:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

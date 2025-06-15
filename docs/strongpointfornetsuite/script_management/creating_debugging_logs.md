@@ -7,7 +7,7 @@ To generate debugging logs for a script:
    This example generates logs for an Agent scheduled run:
 
    1. Filter __Type__ to __Workflow Action__ scripts
-   2. Search for Name __Strongpoint Agent Control__ and ScriptID __customscript\_flo\_send\_email\_cust\_search__
+   2. Search for Name __Strongpoint Agent Control__ and ScriptID __customscript_flo_send_email_cust_search__
 3. Set the deployment log of the script to __DEBUG__
 
 When the error occurs, you can view or download the debugging log:

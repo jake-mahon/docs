@@ -11,7 +11,7 @@ For AWS IAM Auditing:
   - See the [Configure AWS for Scans](/docs/accessanalyzer/enterpriseauditor/requirements/target/config/aws.md) topic for information on configuring Roles within AWS and obtaining an Access Key
   - See the [Target Amazon Web Service Requirements, Permissions, and Ports](/docs/accessanalyzer/enterpriseauditor/requirements/target/aws.md) topic for additional information on permissions
 
-Some of the 0.Collection job group queries can be scoped to target specific S3 Objects. However, it is necessary for the SA\_AWS\_Instances table to be populated before attempting to scope the queries. Therefore, the AWS\_S3Scan job must be manually executed before attempting to scope the S3 queries.
+Some of the 0.Collection job group queries can be scoped to target specific S3 Objects. However, it is necessary for the SA_AWS_Instances table to be populated before attempting to scope the queries. Therefore, the AWS_S3Scan job must be manually executed before attempting to scope the S3 queries.
 
 Target Host
 
@@ -53,20 +53,20 @@ The jobs in the AWS job group should be run together and in order by running the
 
 Run at the Job Group Level
 
-For environments with a large amount of S3 data, it may be desirable to run the 3.AWS\_S3Scan job and the 4.AWS\_S3SDDScan job less frequently than the other jobs in the 0.Collection job group.
+For environments with a large amount of S3 data, it may be desirable to run the 3.AWS_S3Scan job and the 4.AWS_S3SDDScan job less frequently than the other jobs in the 0.Collection job group.
 
 Query Configuration
 
 The following queries in the 0.Collection job group require the created AWS Roles to be added to the Login Roles page:
 
-- [1.AWS\_OrgScan Job](/docs/accessanalyzer/enterpriseauditor/solutions/aws/collection/1.aws_orgscan.md)
-- [2.AWS\_S3Scan Job](/docs/accessanalyzer/enterpriseauditor/solutions/aws/collection/2.aws_s3scan.md)
-- [3.AWS\_IAMScan Job](/docs/accessanalyzer/enterpriseauditor/solutions/aws/collection/3.aws_iamscan.md)
+- [1.AWS_OrgScan Job](/docs/accessanalyzer/enterpriseauditor/solutions/aws/collection/1.aws_orgscan.md)
+- [2.AWS_S3Scan Job](/docs/accessanalyzer/enterpriseauditor/solutions/aws/collection/2.aws_s3scan.md)
+- [3.AWS_IAMScan Job](/docs/accessanalyzer/enterpriseauditor/solutions/aws/collection/3.aws_iamscan.md)
 
 The following queries in the 0.Collection job group can be modified to limit the depth of the scan:
 
-- [2.AWS\_S3Scan Job](/docs/accessanalyzer/enterpriseauditor/solutions/aws/collection/2.aws_s3scan.md)
-- [4.AWS\_S3SDDScan Job](/docs/accessanalyzer/enterpriseauditor/solutions/aws/collection/4.aws_s3sddscan.md)
+- [2.AWS_S3Scan Job](/docs/accessanalyzer/enterpriseauditor/solutions/aws/collection/2.aws_s3scan.md)
+- [4.AWS_S3SDDScan Job](/docs/accessanalyzer/enterpriseauditor/solutions/aws/collection/4.aws_s3sddscan.md)
 
 Analysis Configuration
 
@@ -74,9 +74,9 @@ This solution can be run with the default analysis configuration. However, the f
 
 - The ```@STALETHRESHOLD``` parameter determines the number of days after which content is considered stale. It is set to default of 60 days. The ```@STALETHRESHOLD``` parameter can be customized in the following analysis tasks:
 
-  - __2. Users__ > __AWS\_StaleUsers__ > __Stale Users__ Analysis Task
-  - __3.Groups__ > __AWS\_StaleGroups__ > __Stale Groups Details__ Analysis Task
-  - __4.Roles__ > __AWS\_StaleRoles__ > __Stale Roles Details__ Analysis Task
+  - __2. Users__ > __AWS_StaleUsers__ > __Stale Users__ Analysis Task
+  - __3.Groups__ > __AWS_StaleGroups__ > __Stale Groups Details__ Analysis Task
+  - __4.Roles__ > __AWS_StaleRoles__ > __Stale Roles Details__ Analysis Task
 
 Workflow
 

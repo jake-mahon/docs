@@ -1,23 +1,23 @@
-# SG\_LSASettings Job
+# SG_LSASettings Job
 
-The SG\_LASettings job lists settings on all targeted hosts. In particular, the RunAsPPL, RestrictAnonymous, and ValidateKdcPacSignature keys are examined. If these keys are not set to 1, a host is vulnerable to mimikatz and other exploitation tools. See the Microsoft [Configuring Additional LSA Protection](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn408187(v=ws.11)) article for additional information.
+The SG_LASettings job lists settings on all targeted hosts. In particular, the RunAsPPL, RestrictAnonymous, and ValidateKdcPacSignature keys are examined. If these keys are not set to 1, a host is vulnerable to mimikatz and other exploitation tools. See the Microsoft [Configuring Additional LSA Protection](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn408187(v=ws.11)) article for additional information.
 
-## Queries for the SG\_LSASettings Job
+## Queries for the SG_LSASettings Job
 
-The SG\_LSASettings job uses the Registry Data Collector for the following queries:
+The SG_LSASettings job uses the Registry Data Collector for the following queries:
 
 __CAUTION:__ The queries are preconfigured for this job. Never modify the queries.
 
 ![Queries for the SG_LSASettings Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/windows/authentication/lsasettingsqueries.png)
 
-The queries for the SG\_LSASettings Job are:
+The queries for the SG_LSASettings Job are:
 
 - Check LSA registry keys – Checks LSA registry keys
 - PAC Validation – Provides PAC Validation
 
-## Analysis Tasks for the SG\_LSASettings Job
+## Analysis Tasks for the SG_LSASettings Job
 
-Navigate to the __Windows__ > __Authentication__ > __SG\_LSASettings__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Windows__ > __Authentication__ > __SG_LSASettings__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -25,15 +25,15 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The default analysis tasks are:
 
-- TrackRunAsPPL changes – Creates the SG\_LSASettings\_RunAsPPLChangeTracking table accessible under the job’s Results node
-- List RunAsPPL setting details – Creates the SG\_LSASettings\_RunAsPPLDetails table accessible under the job’s Results node
+- TrackRunAsPPL changes – Creates the SG_LSASettings_RunAsPPLChangeTracking table accessible under the job’s Results node
+- List RunAsPPL setting details – Creates the SG_LSASettings_RunAsPPLDetails table accessible under the job’s Results node
 - Summarize RunAsPPL settings – Creates an interim processing table in the database for use by downstream analysis and report generation
-- Track RestrictAnonymous changes – Creates the SG\_LSASettings\_RestrictAnonymousChangeTracking table accessible under the job’s Results node
-- List RestrictAnonymous setting details – Creates the SG\_LSASettings\_RestrictAnonymousDetails table accessible under the job’s Results node
+- Track RestrictAnonymous changes – Creates the SG_LSASettings_RestrictAnonymousChangeTracking table accessible under the job’s Results node
+- List RestrictAnonymous setting details – Creates the SG_LSASettings_RestrictAnonymousDetails table accessible under the job’s Results node
 - Summarize RestrictAnonymous settings – Creates an interim processing table in the database for use by downstream analysis and report generation
-- PAC – Creates the SG\_LSASettings\_PACStatus table accessible under the job’s Results node
+- PAC – Creates the SG_LSASettings_PACStatus table accessible under the job’s Results node
 
-In addition to the tables created by the data collector, the SG\_LSASettings job produces the following pre-configured reports.
+In addition to the tables created by the data collector, the SG_LSASettings job produces the following pre-configured reports.
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

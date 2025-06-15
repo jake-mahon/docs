@@ -85,7 +85,7 @@ There is an options menu available for each added customization. Options include
 4. Click __Add Selected Customizations__. The selected Customization is added to the __Existing Customizations__ list.
 
    ![New Opportunities Created (Search) added to Existing Customizations](/img/product_docs/strongpointfornetsuite/integrations/jira_example_new_opp.webp)
-5. Enter the Script ID __custentity\_fmt\_cust\_credit\_on\_hold__ in __Add Customizations__ and click __+__.
+5. Enter the Script ID __custentity_fmt_cust_credit_on_hold__ in __Add Customizations__ and click __+__.
 6. The __Set Customer Credit on Hold (Entity Field)__ is displayed. Select it, and click __Add Selected Customizations__. The selected Customization is added to the __Existing Customizations__ list. Notice that the __Change Level Required__ has changed from __Log Changes Only__ to __Full Software Development Lifecycle__, which is the policy for the __Set Customer Credit on Hold__ field.
 
    ![Add a Customization by Script ID](/img/product_docs/strongpointfornetsuite/integrations/jira_example_scriptid.webp)

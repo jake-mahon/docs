@@ -31,7 +31,7 @@ __Step 1 –__ Open the Registry Editor (run regedit).
 
 __Step 2 –__ Navigate to following location:
 
-HKEY\_LOCAL\_MACHINE\SOFTWARE\EMC\CEE\CEPP\AUDIT\Configuration
+HKEY_LOCAL_MACHINE\SOFTWARE\EMC\CEE\CEPP\AUDIT\Configuration
 
 __Step 3 –__ Right-click on __Enabled__ and select Modify. The Edit DWORD Value window opens.
 
@@ -71,7 +71,7 @@ $ vi cepp.conf
 
 > If a ```cepp.conf``` file already exists, it can be retrieved from the Data Movers for modification with the following command:
 
-$ server\_file [DATA\_MOVER\_NAME] -get cepp.conf cepp.conf
+$ server_file [DATA_MOVER_NAME] -get cepp.conf cepp.conf
 
 __Step 3 –__ Configure the ```cepp.conf``` file. For information on the ```cepp.conf``` file, see the Dell [Using the Common Event Enabler for Windows Platforms](https://www.dellemc.com/en-us/collaterals/unauth/technical-guides-support-information/products/storage-3/docu48055.pdf) guide instructions on how to add parameters or edit the values or existing parameters.
 
@@ -95,9 +95,9 @@ The Activity Monitor requires the following parameters to be set in the ```cepp.
 
   msrpcuser=[DOMAIN\DOMAINUSER]
 
-  pool name=[POOL\_NAME] \
+  pool name=[POOL_NAME] \
 
-  servers=[IP\_ADDRESS1]|[IP\_ADDRESS2]|... \
+  servers=[IP_ADDRESS1]|[IP_ADDRESS2]|... \
 
   postevents=[EVENT1]|[EVENT2]|...
 
@@ -105,9 +105,9 @@ The Activity Monitor requires the following parameters to be set in the ```cepp.
 
   msrpcuser=[DOMAIN\DOMAINUSER running CEE services]
 
-  pool name=[POOL\_NAME for configuration container] \
+  pool name=[POOL_NAME for configuration container] \
 
-  servers=[IP\_ADDRESS where CEE is installed]|... \
+  servers=[IP_ADDRESS where CEE is installed]|... \
 
   postevents=[EVENT1]|[EVENT2]|...
 
@@ -123,20 +123,20 @@ The Activity Monitor requires the following parameters to be set in the ```cepp.
 
 __Step 4 –__ Move the ```cepp.conf``` file to the Data Mover(s) root file system. Run the following command:
 
-$ server\_file [DATA\_MOVER\_NAME]‑put cepp.conf cepp.conf
+$ server_file [DATA_MOVER_NAME]‑put cepp.conf cepp.conf
 
 __NOTE:__ Each Data Mover which runs Celerra Event Publishing Agent (CEPA) must have a ```cepp.conf``` file, but each configuration file can specify different events.
 
 __Step 5 –__ (This step is required only if using the ```msrpcuser``` parameter) Register the MSRPC user (see Step 3 for additional information on this parameter). Before starting CEPA for the first time, the administrator must issue the following command from the Control Station and follow the prompts for entering information:
 
-/nas/sbin/server\_user server\_2 -add -md5 -passwd [DOMAIN\DOMAINUSER for msrpcuser]
+/nas/sbin/server_user server_2 -add -md5 -passwd [DOMAIN\DOMAINUSER for msrpcuser]
 
 __Step 6 –__ Start the CEPA facility on the Data Mover. Use the following command:
 
-server\_cepp [DATA\_MOVER\_NAME] -service –start
+server_cepp [DATA_MOVER_NAME] -service –start
 
 Then verify the CEPA status using the following command:
 
-server\_cepp [DATA\_MOVER\_NAME] -service –status
+server_cepp [DATA_MOVER_NAME] -service –status
 
 Once the ```cepp.config``` file has been configured, it is time to configure and enable monitoring with the Activity Monitor. See the [Netwrix Activity Monitor Documentation](https://helpcenter.netwrix.com/category/activitymonitor) for additional information.

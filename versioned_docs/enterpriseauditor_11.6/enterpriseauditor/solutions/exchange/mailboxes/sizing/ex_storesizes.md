@@ -1,10 +1,10 @@
-# EX\_StoreSizes Job
+# EX_StoreSizes Job
 
-The EX\_StoreSizes job provides analysis and reporting around database sizing based on mailbox sizes.
+The EX_StoreSizes job provides analysis and reporting around database sizing based on mailbox sizes.
 
-## Analysis Tasks for the EX\_StoreSizes Job
+## Analysis Tasks for the EX_StoreSizes Job
 
-View the analysis tasks by navigating to the __Exchange__ > __4. Mailboxes__ > __Sizing__ > __EX\_StoreSizes__ > __Configure__ node and select __Analysis__.
+View the analysis tasks by navigating to the __Exchange__ > __4. Mailboxes__ > __Sizing__ > __EX_StoreSizes__ > __Configure__ node and select __Analysis__.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,11 +12,11 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The following analysis tasks are selected by default:
 
-- 00.Users Ranked by Store – Creates the SA\_EX\_StoreSize\_UsersByStore table, accessible under the job’s Results node
-- 01.Rank Stores – Creates the SA\_EX\_StoreSize\_Ranked table, accessible under the job’s Results node
-- 02.30 Day Growth – Creates the SA\_EX\_StaleMailboxes\_30DayChange table, accessible under the job’s Results node
+- 00.Users Ranked by Store – Creates the SA_EX_StoreSize_UsersByStore table, accessible under the job’s Results node
+- 01.Rank Stores – Creates the SA_EX_StoreSize_Ranked table, accessible under the job’s Results node
+- 02.30 Day Growth – Creates the SA_EX_StaleMailboxes_30DayChange table, accessible under the job’s Results node
 
-In addition to the tables and views created by the analysis tasks, the EX\_StoreSizes Job produces the following pre-configured reports:
+In addition to the tables and views created by the analysis tasks, the EX_StoreSizes Job produces the following pre-configured reports:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

@@ -1,14 +1,14 @@
-# 1-Dropbox\_SDD Scan Job
+# 1-Dropbox_SDD Scan Job
 
-The 1-Dropbox\_SDD Scan job collects data from the Dropbox environment on access rights, sharing policies, configurations, content and sensitive data.
+The 1-Dropbox_SDD Scan job collects data from the Dropbox environment on access rights, sharing policies, configurations, content and sensitive data.
 
-## Queries for the 1-Dropbox\_SDD Scan Job
+## Queries for the 1-Dropbox_SDD Scan Job
 
-The 1-Dropbox\_SDD Scan job has been preconfigured to run under the default settings within the category of Scan for Sensitive Content.
+The 1-Dropbox_SDD Scan job has been preconfigured to run under the default settings within the category of Scan for Sensitive Content.
 
 ![Queries for the 1-Dropbox_SDD Scan Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/dropbox/collection/sddscanquery.png)
 
-The query for the 1-Dropbox\_SDD Scan job is:
+The query for the 1-Dropbox_SDD Scan job is:
 
 - Sensitive Data Scan – Scans Dropbox for sensitive data
 
@@ -16,7 +16,7 @@ The query for the 1-Dropbox\_SDD Scan job is:
 
 Follow the steps to either generate the access token needed for the Connection Profile (only done prior to first execution) or to set any desired customizations.
 
-__Step 1 –__ Navigate to the __Jobs__ > __Dropbox__ > __0.Collection__ > __1-Dropbox\_SDD Scan__ > __Configure__ node and select __Queries__.
+__Step 1 –__ Navigate to the __Jobs__ > __Dropbox__ > __0.Collection__ > __1-Dropbox_SDD Scan__ > __Configure__ node and select __Queries__.
 
 __Step 2 –__ In the Query Selection view, click __Query Properties__ to open the Query Properties window.
 
@@ -47,4 +47,4 @@ See the [DropboxAccess: Select DLP Criteria](/versioned_docs/enterpriseauditor_
 
 __Step 7 –__ On the Completion Page, click __Finish__ to save any setting modifications or click __Cancel__ if no changes were made. Then click __OK__ to close the Query Properties window.
 
-If changes were made, the 1-Dropbox\_SDD Scan job has now been customized.
+If changes were made, the 1-Dropbox_SDD Scan job has now been customized.

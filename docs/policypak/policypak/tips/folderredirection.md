@@ -14,31 +14,31 @@ For Folder Redirection, use Group Policy Preferences to deliver the following se
 
 Name: AppData
 
-Type: REG\_EXPAND\_SZ
+Type: REG_EXPAND_SZ
 
 Data: ```%USERPROFILE%\Application Data```
 
 Name: Desktop
 
-Type: REG\_EXPAND\_SZ
+Type: REG_EXPAND_SZ
 
 Data: ```%USERPROFILE%\Desktop```
 
 Name: Personal
 
-Type: REG\_EXPAND\_SZ
+Type: REG_EXPAND_SZ
 
 Data: ``` %USERPROFILE%\My Documents```
 
 Name: My Pictures
 
-Type: REG\_EXPAND\_SZ
+Type: REG_EXPAND_SZ
 
 Data: ``` %USERPROFILE%\My Documents\My Pictures```
 
 Name: Start Menu
 
-Type: REG\_EXPAND\_SZ
+Type: REG_EXPAND_SZ
 
 Data: ``` %USERPROFILE%\Start Menu```
 

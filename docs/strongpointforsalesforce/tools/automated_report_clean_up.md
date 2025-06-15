@@ -36,7 +36,7 @@ __Basic Filters__
 - __Report Name__ filters reports to clean-up by name. Filter operator is _startswith_ and the wildcard _%_ may be used. Default is blank.  
    Example: _Custom % Report%_ returns all reports with a name starting with '_Custom_ ' followed by any character and the name must contain '_Report_' such as _Custom Inventory Detail Report_.
 - __Report API Name__ filters reports to clean-up by API Name. Filter operator is _startswith_ and the wildcard _%_ may be used. Default is blank.  
-   Example: _%testing_ returns all reports with an API Name containing the word '_testing_' such as _customreport\_testing\_1_.
+   Example: _%testing_ returns all reports with an API Name containing the word '_testing_' such as _customreport_testing_1_.
 - __Months Since Date Last Used, Retained/Restored__ filters reports by the last run date of the report or the restore/retain date, whichever is the most recent. Reports that have been used, restored, or retained within the specified timeframe are excluded from the report. Default is __6__ months.
 - __Exclude Private Reports__ excludes reports set as __Private__ by report owners. Default is checked.
 - __Exclude Reports Less Than A Month Old__ excludes new reports that have not been run. Default is checked.

@@ -5,8 +5,8 @@ When updating the gold .wim file used for OS imaging, you may encounter the foll
 Problem:
 
 The SYSPREP output may display an error similar to the following:
-Expected image state is IMAGE\_STATE\_GENERALIZE\_RESEAL\_TO\_OOBE.
-Actual image state is IMAGE\_STATE\_Complete.
+Expected image state is IMAGE_STATE_GENERALIZE_RESEAL_TO_OOBE.
+Actual image state is IMAGE_STATE_Complete.
 
 In setupcat.log you’ll find the following error:
 
@@ -25,7 +25,7 @@ Error SYSPRP Exit code of RemoveAllApps thread was 0x3cf2. 
 
 Cause:
 
-PPLPMSparsePackage\_1.0.0.0\_neutral\_\_gd0ndz5rvp7t0 is a UWP appx package recently added to support the Windows 11 context menu. However, it cannot be provisioned due to SYSPREP demands. If this package is absent, the Windows 11 modern menu will not contain Endpoint Policy Manager commands. However, the classic context menu works as expected.
+PPLPMSparsePackage_1.0.0.0_neutral__gd0ndz5rvp7t0 is a UWP appx package recently added to support the Windows 11 context menu. However, it cannot be provisioned due to SYSPREP demands. If this package is absent, the Windows 11 modern menu will not contain Endpoint Policy Manager commands. However, the classic context menu works as expected.
 
 Resolution:
 

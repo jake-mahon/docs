@@ -41,7 +41,7 @@ __Step 6 –__ From Logical Disk, you want to add the following items (only ONE 
 2. Current Disk Queue Length and
 3. Split IO/Sec
 
-__NOTE:__ Ensure \_Total selected in the bottom list.
+__NOTE:__ Ensure _Total selected in the bottom list.
 
 ![369_5_faq-913-05](/img/product_docs/policypak/policypak/troubleshooting/369_5_faq-913-05.jpg)
 

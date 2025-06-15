@@ -1,10 +1,10 @@
-# AD\_GroupHosts Job
+# AD_GroupHosts Job
 
-The AD\_GroupHosts Job attempts to identify where groups may be used to provide access.
+The AD_GroupHosts Job attempts to identify where groups may be used to provide access.
 
-## Analysis Tasks for the AD\_GroupHosts Job
+## Analysis Tasks for the AD_GroupHosts Job
 
-Navigate to the __Jobs__ > __Active Directory__ > __6.Activity__ > __GroupUsage__ > __AD\_GroupHosts__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Jobs__ > __Active Directory__ > __6.Activity__ > __GroupUsage__ > __AD_GroupHosts__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,11 +12,11 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The default analysis tasks are:
 
-- Group Authentication Details – Creates the SA\_AD\_GroupHosts\_Details table accessible under the job’s Results node
-- Summarize Authentication Events by Group – Creates the SA\_AD\_GroupHosts\_GroupSummary table accessible under the job’s Results node
-- Summarize Authentication Events by Host – Creates the SA\_AD\_GroupHosts\_HostSummary table accessible under the job’s Results node
+- Group Authentication Details – Creates the SA_AD_GroupHosts_Details table accessible under the job’s Results node
+- Summarize Authentication Events by Group – Creates the SA_AD_GroupHosts_GroupSummary table accessible under the job’s Results node
+- Summarize Authentication Events by Host – Creates the SA_AD_GroupHosts_HostSummary table accessible under the job’s Results node
 
-In addition to the tables created by the analysis tasks, the AD\_GroupHosts Job produces the following pre-configured reports:
+In addition to the tables created by the analysis tasks, the AD_GroupHosts Job produces the following pre-configured reports:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

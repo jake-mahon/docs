@@ -2,13 +2,13 @@
 
 Let us jump to the end of the story and take a look at what the License Tool (LT) generates when you are making a license request.
 
-There are always two items: Scope and SOM\_name (Scope of Management). There is always just one scope but here could be several SOM\_Names.
+There are always two items: Scope and SOM_name (Scope of Management). There is always just one scope but here could be several SOM_Names.
 
 Scope is where you might ever possibly use Netwrix Endpoint Policy Manager (formerly PolicyPak). Typically, this is (and should be) the whole domain. This doesn't mean you will be using Endpoint Policy Manager anywhere/everywhere in the whole domain. You select the Scope in this window:
 
 ![317_1_licfaq1](/img/product_docs/policypak/policypak/license/activedirectory/317_1_licfaq1.webp)
 
-SOM\_Name is the specific places you will be licensing Endpoint Policy Manager. This is what you are selecting here:
+SOM_Name is the specific places you will be licensing Endpoint Policy Manager. This is what you are selecting here:
 
 ![317_2_licfaq2](/img/product_docs/policypak/policypak/license/activedirectory/317_2_licfaq2.webp)
 

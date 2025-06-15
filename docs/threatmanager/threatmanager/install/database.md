@@ -47,19 +47,19 @@ The table displays ```Postgres.conf``` settings and their suggested values.
 
 | Setting | Suggested Value | Notes |
 | --- | --- | --- |
-| effective\_cache\_size | Total Server Memory (MBs) \* .75 |  |
-| shared\_buffers | totalMemory / 4 | shared\_buffers on windows needs to be limited to 512MB |
-| wal\_buffers | 3% of shared\_buffers with a min of 32kB and a max of 16MB |  |
-| checkpoint\_timeout | checkpoint\_timeout = 30min |  |
-| max\_wal\_size | 2048MB |  |
-| min\_wal\_size | 1024MB |  |
-| checkpoint\_completion\_target | 0.7 |  |
-| work\_mem | work\_mem = ((totalMemory - shared\_buffers) / (max\_connections \* 3) / max\_parallel\_workers\_per\_gather) | Limit to 64kB |
-| max\_connections | 100 |  |
-| maintenance\_work\_mem | maintenance\_work\_mem = totalMemory / 16 | cap maintenance memory at 2GB on servers with lots of memory |
-| default\_statistics\_target | 100 |  |
-| random\_page\_cost | if ( disk\_is\_hdd ) `{ random\_page\_cost = 4 }` else `{ random\_page\_cost = 1.1 }` |  |
-| max\_parallel\_workers | max\_parallel\_workers = cpuNum |  |
-| max\_worker\_processes | 8 |  |
-| max\_parallel\_workers\_per\_gather | 2 |  |
-| max\_locks\_per\_transaction | 300 |  |
+| effective_cache_size | Total Server Memory (MBs) \* .75 |  |
+| shared_buffers | totalMemory / 4 | shared_buffers on windows needs to be limited to 512MB |
+| wal_buffers | 3% of shared_buffers with a min of 32kB and a max of 16MB |  |
+| checkpoint_timeout | checkpoint_timeout = 30min |  |
+| max_wal_size | 2048MB |  |
+| min_wal_size | 1024MB |  |
+| checkpoint_completion_target | 0.7 |  |
+| work_mem | work_mem = ((totalMemory - shared_buffers) / (max_connections \* 3) / max_parallel_workers_per_gather) | Limit to 64kB |
+| max_connections | 100 |  |
+| maintenance_work_mem | maintenance_work_mem = totalMemory / 16 | cap maintenance memory at 2GB on servers with lots of memory |
+| default_statistics_target | 100 |  |
+| random_page_cost | if ( disk_is_hdd ) `{ random_page_cost = 4 }` else `{ random_page_cost = 1.1 }` |  |
+| max_parallel_workers | max_parallel_workers = cpuNum |  |
+| max_worker_processes | 8 |  |
+| max_parallel_workers_per_gather | 2 |  |
+| max_locks_per_transaction | 300 |  |

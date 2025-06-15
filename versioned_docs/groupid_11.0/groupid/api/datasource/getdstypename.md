@@ -4,7 +4,7 @@ Using this API you can retrieve information of specific type data source, let's
 
 ## Endpoint
 
-https://demomachine:4443/GroupIDDataService/api/DataSource/Get?type=4&name=Text/CSV\_API
+https://demomachine:4443/GroupIDDataService/api/DataSource/Get?type=4&name=Text/CSV_API
 
 ## HTTP Method
 

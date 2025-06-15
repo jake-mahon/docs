@@ -1,6 +1,6 @@
-# EX\_PublicFolder\_SDD Job
+# EX_PublicFolder_SDD Job
 
-The EX\_PublicFolder\_SDD job locates sensitive data found in public folders in the Exchange environment.
+The EX_PublicFolder_SDD job locates sensitive data found in public folders in the Exchange environment.
 
 Special Dependency
 
@@ -10,13 +10,13 @@ Special Dependency
 
   __NOTE:__ Though the job is visible within the console, it requires an additional installer package before data collection occurs.
 
-## Queries for the EX\_PublicFolder\_SDD Job
+## Queries for the EX_PublicFolder_SDD Job
 
-The EX\_PublicFolder\_SDD job uses the EWSPublicFolder Data Collector.
+The EX_PublicFolder_SDD job uses the EWSPublicFolder Data Collector.
 
 ![Queries for the EX_PublicFolder_SDD Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/sensitivedata/collection/publicfoldersddquery.png)
 
-The following query is included in the EX\_PublicFolder\_SDD job:
+The following query is included in the EX_PublicFolder_SDD job:
 
 - Exchange Sensitive Data Discovery – Scans Exchange public folders for specified sensitive data
 
@@ -28,13 +28,13 @@ The following query is included in the EX\_PublicFolder\_SDD job:
     - Passwords
     - Tax Forms
     - US SSN
-  - See the [Configure the EX\_PublicFolder\_SDD Query](#configure-the-ex_publicfolder_sdd-query) topic for additional information
+  - See the [Configure the EX_PublicFolder_SDD Query](#configure-the-ex_publicfolder_sdd-query) topic for additional information
 
-### Configure the EX\_PublicFolder\_SDD Query
+### Configure the EX_PublicFolder_SDD Query
 
 The Exchange Sensitive Data Discovery query has been preconfigured to run with the EWSPublicFolder Data Collector to scan for sensitive data.
 
-__Step 1 –__ Navigate to the __Exchange__ > __7. Sensitive Data__ > __0. Collection__ > __EX\_EWSPublicFolder\_SDD__ > __Configure__ node and select __Queries__.
+__Step 1 –__ Navigate to the __Exchange__ > __7. Sensitive Data__ > __0. Collection__ > __EX_EWSPublicFolder_SDD__ > __Configure__ node and select __Queries__.
 
 __Step 2 –__ In the Query Selection view, select __Exchange Sensitive Data Discovery__ and click __Query Properties__. The Query Properties window opens.
 

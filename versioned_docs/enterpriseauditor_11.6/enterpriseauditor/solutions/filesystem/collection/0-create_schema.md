@@ -14,19 +14,19 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The following analysis tasks are selected by default:
 
-- 1. Create Tables – Creates all tables prefaced with SA\_FSAA\_
-- 2. Create DFS Tables – Creates all tables prefaced with SA\_FSDFS\_
-- 3. Create DLP Tables – Creates all tables prefaced with SA\_FSDLP\_
-- 4. Create FSAC Tables – Creates all tables prefaced with SA\_FSAC\_
-- 5. Create Rename Targets – Creates the SA\_FSAC\_Rename Targets tables
-- 6. Create Paths View – Creates the SA\_FSAA\_Paths view
+- 1. Create Tables – Creates all tables prefaced with SA_FSAA_
+- 2. Create DFS Tables – Creates all tables prefaced with SA_FSDFS_
+- 3. Create DLP Tables – Creates all tables prefaced with SA_FSDLP_
+- 4. Create FSAC Tables – Creates all tables prefaced with SA_FSAC_
+- 5. Create Rename Targets – Creates the SA_FSAC_Rename Targets tables
+- 6. Create Paths View – Creates the SA_FSAA_Paths view
 - 7. Update data types – Enterprise Auditor uses custom SQL data types to render data. This analysis creates updates to those data types.
 - 8. Import new functions – Creates functions used in the File System Solution that only reference the .Active Directory Inventory job group data
 - 9. Import new functions – Creates the FSAA functions used in the File System Solution that reference the 0.Collection job group data
-- 10. Create exception types – Creates the SA\_FSAA\_ExceptionTypes table
-- 11. Create views – Creates the SA\_FSAA\_DirectPermissionsView
-- 12. Create Exceptions Schema – Creates the SA\_FSAC\_Exception table and the SA\_FSAC\_ExceptionTypes table
-- 13. Create FSAC Views – Creates all views prefaced with SA\_FSAC\_
+- 10. Create exception types – Creates the SA_FSAA_ExceptionTypes table
+- 11. Create views – Creates the SA_FSAA_DirectPermissionsView
+- 12. Create Exceptions Schema – Creates the SA_FSAC_Exception table and the SA_FSAC_ExceptionTypes table
+- 13. Create FSAC Views – Creates all views prefaced with SA_FSAC_
 - 14. Create Functions – Creates the FSAC functions used in the File System Solution that reference the 0.Collection job group data
-- 15. Create FSDLP Views – Creates all views prefaced with SA\_FSDLP\_
+- 15. Create FSDLP Views – Creates all views prefaced with SA_FSDLP_
 - 16. Create DFS Functions – Creates the FSDFS functions used in the File System Solution that reference the 0.Collection job group data

@@ -1,10 +1,10 @@
-# AD\_PasswordStatus Job
+# AD_PasswordStatus Job
 
-The AD\_PasswordStatus Job highlights potential issues with user password settings that may exploited or compromised if not addressed.
+The AD_PasswordStatus Job highlights potential issues with user password settings that may exploited or compromised if not addressed.
 
-## Analysis Tasks for the AD\_PasswordStatus Job
+## Analysis Tasks for the AD_PasswordStatus Job
 
-Navigate to the __Active Directory__ > __2.Users__ > __AD\_PasswordStatus__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Active Directory__ > __2.Users__ > __AD_PasswordStatus__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigure for this job.
 
@@ -12,10 +12,10 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The default analysis tasks are:
 
-- Password Status Details – Creates the SA\_AD\_PasswordStatus\_Details table accessible under the job’s Results node
+- Password Status Details – Creates the SA_AD_PasswordStatus_Details table accessible under the job’s Results node
 - Domain Summary – Creates an interim processing table in the database for use by downstream analysis and report generation
 
-In addition to the tables and views created by the analysis tasks, the AD\_PasswordStatus Job produces the following pre-configured report:
+In addition to the tables and views created by the analysis tasks, the AD_PasswordStatus Job produces the following pre-configured report:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

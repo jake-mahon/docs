@@ -1,10 +1,10 @@
-# AD\_DomainPermissions Job
+# AD_DomainPermissions Job
 
-The AD\_DomainPermissions Job reports on all Active Directory permissions applied to domain objects within the targeted domains.
+The AD_DomainPermissions Job reports on all Active Directory permissions applied to domain objects within the targeted domains.
 
-#### Analysis Tasks for the AD\_DomainPermissions Job
+#### Analysis Tasks for the AD_DomainPermissions Job
 
-Navigate to the __Active Directory Permissions Analyzer__ > __8.Domains__ > __AD\_DomainPermissions__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Active Directory Permissions Analyzer__ > __8.Domains__ > __AD_DomainPermissions__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,10 +12,10 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The default analysis tasks are:
 
-- List domain object permissions – Creates the SA\_AD\_DomainPermissions\_Details table accessible under the job’s Results node
+- List domain object permissions – Creates the SA_AD_DomainPermissions_Details table accessible under the job’s Results node
 - Summarize domain permissions – Creates an interim processing table in the database for use by downstream analysis and report generation
 
-In addition to the tables and views created by the analysis tasks, the AD\_DomainPermissions Job produces the following pre-configured report.
+In addition to the tables and views created by the analysis tasks, the AD_DomainPermissions Job produces the following pre-configured report.
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

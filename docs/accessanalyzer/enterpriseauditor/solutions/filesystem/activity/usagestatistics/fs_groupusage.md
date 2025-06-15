@@ -1,10 +1,10 @@
-# FS\_GroupUsage Job
+# FS_GroupUsage Job
 
-The FS\_GroupUsage job is designed to report on group usage from targeted file servers.
+The FS_GroupUsage job is designed to report on group usage from targeted file servers.
 
-## Analysis Tasks for the FS\_GroupUsage Job
+## Analysis Tasks for the FS_GroupUsage Job
 
-View the analysis tasks by navigating to the __FileSystem__ > __5.Activity__ > __Usage Statistics__ > __FS\_GroupUsage__ > __Configure__ node and select __Analysis__.
+View the analysis tasks by navigating to the __FileSystem__ > __5.Activity__ > __Usage Statistics__ > __FS_GroupUsage__ > __Configure__ node and select __Analysis__.
 
 __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis task is preconfigured for this job.
 
@@ -15,9 +15,9 @@ The following analysis task is selected by default:
 - 1. Identify Last Time a Group was used for Access
 
   - Creates an interim processing table in the database for use by downstream analysis and report generation
-  - Creates the SA\_FS\_GroupUsage\_DaysSinceUse view accessible under the job’s Results node
+  - Creates the SA_FS_GroupUsage_DaysSinceUse view accessible under the job’s Results node
 
-In addition to the tables and views created by the analysis task, the FS\_GroupUsage job produces the following pre-configured report:
+In addition to the tables and views created by the analysis task, the FS_GroupUsage job produces the following pre-configured report:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

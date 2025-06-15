@@ -1,10 +1,10 @@
-# SQL\_DomainUserPermissions Job
+# SQL_DomainUserPermissions Job
 
-The SQL\_DomainUserPermissions Job provides insight into Microsoft Active Directory domain users’ access to SQL and Azure SQL server objects at both the instance and database level.
+The SQL_DomainUserPermissions Job provides insight into Microsoft Active Directory domain users’ access to SQL and Azure SQL server objects at both the instance and database level.
 
-## Analysis Tasks for the SQL\_DomainUserPermissions Job
+## Analysis Tasks for the SQL_DomainUserPermissions Job
 
-Navigate to the __Databases__ > SQL > 3.Permissions > SQL\_DomainUserPermissions > Configure node and select Analysis to view the analysis tasks.
+Navigate to the __Databases__ > SQL > 3.Permissions > SQL_DomainUserPermissions > Configure node and select Analysis to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis task(s). The analysis task(s) are preconfigured for this job.
 
@@ -12,10 +12,10 @@ __CAUTION:__ Do not modify or deselect the selected analysis task(s). The analys
 
 The default analysis tasks are:
 
-- Domain User Permissions Details – Creates the SA\_SQLServer\_DomainUserPermissions\_Details table accessible under the job’s Results node
-- Domain User Permissions Summary – Creates the SA\_SQLServer\_DomainUserPermissions\_Summary table accessible under the job’s Results node
+- Domain User Permissions Details – Creates the SA_SQLServer_DomainUserPermissions_Details table accessible under the job’s Results node
+- Domain User Permissions Summary – Creates the SA_SQLServer_DomainUserPermissions_Summary table accessible under the job’s Results node
 
-In addition to the tables and views created by the analysis tasks, the SQL\_DomainUserPermissions Job produces the following pre-configured report.
+In addition to the tables and views created by the analysis tasks, the SQL_DomainUserPermissions Job produces the following pre-configured report.
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

@@ -30,7 +30,7 @@ __Step 9 –__ Double-click the __Dictionary__ rule.
 
 __Step 10 –__ Select the __Enabled__ check box.
 
-__Step 11 –__ Click __Browse__, select __Dict.txt__ from the __\Program File (x86)\Password Policy Enforcer\__ folder.
+__Step 11 –__ Click __Browse__, select __Dict.txt__ from the __\Program File (x86)\Password Policy Enforcer__ folder.
 
 __Step 12 –__ Click __Open__, then click __OK__.
 

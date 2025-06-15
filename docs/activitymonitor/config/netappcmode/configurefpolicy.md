@@ -94,13 +94,13 @@ __NOTE:__ For the Persistent Store to automatically create a volume, the SVM mus
 
 To check that the SVM has assigned local tiers, use the following command:
 
-vserver show -vserver [SVM\_NAME] -fields aggr-list
+vserver show -vserver [SVM_NAME] -fields aggr-list
 
 The command shows currently local tiers. If no tiers are assigned, "-" is displayed.
 
 To assign local tiers to the SVM use the following command:
 
-vserver add-aggregates -vserver [SVM\_NAME] -aggregates [AGGREGATE\_LIST]
+vserver add-aggregates -vserver [SVM_NAME] -aggregates [AGGREGATE_LIST]
 
 Example:
 
@@ -421,26 +421,26 @@ __CAUTION:__ All parameters are case sensitive.
 
 Use the following command to create the Persistent Store:
 
-vserver fpolicy persistent-store create -vserver [SVM\_NAME] -persistent-store [STORE\_NAME] -volume [VOLUME\_NAME] -size [SIZE] -autosize-mode [AUTOSIZE]
+vserver fpolicy persistent-store create -vserver [SVM_NAME] -persistent-store [STORE_NAME] -volume [VOLUME_NAME] -size [SIZE] -autosize-mode [AUTOSIZE]
 
 Example:
 
-vserver fpolicy persistent-store create -vserver testserver -persistent-store StealthAUDITPersistentStore -volume testserver\_ps\_vol -size 5GB -autosize-mode grow\_shrink
+vserver fpolicy persistent-store create -vserver testserver -persistent-store StealthAUDITPersistentStore -volume testserver_ps_vol -size 5GB -autosize-mode grow_shrink
 
 #### Validate Part 4: Create Persistent Store
 
 Run the following command to validate the creation of the Persistent Store:
 
-vserver fpolicy persistent-store show -vserver [SVM\_NAME] -persistent-store StealthAUDITPersistentStore -instance
+vserver fpolicy persistent-store show -vserver [SVM_NAME] -persistent-store StealthAUDITPersistentStore -instance
 
 Ensure that the output is displayed as follows:
 
 cluster1::> vserver fpolicy persistent-store show -vserver testserver -persistent-store StealthAUDITPersistentStore -instance  
  Vserver: testserver  
  Persistent Store Name: StealthAUDITPersistentStore   
- Volume name of the Persistent store: testserver\_ps\_vol  
+ Volume name of the Persistent store: testserver_ps_vol  
  Size of the Persistent Store: 5GB  
- Autosize Mode for the Volume: grow\_shrink
+ Autosize Mode for the Volume: grow_shrink
 
 Visit the NetApp website and see the [vserver fpolicy persistent store create](https://docs.netapp.com/us-en/ontap-cli/vserver-fpolicy-persistent-store-create.html) article for additional information about creating a Persistent Store.
 
@@ -536,7 +536,7 @@ Relevant NetApp Documentation: To learn more about creating a policy, please vis
 
 ### Part 6: Create FPolicy Scope
 
-The FPolicy scope creates the filters necessary to perform scans on specific shares or volumes. It is possible to set the scope to monitor all volumes or all shares by replacing the volume/share name variable [SVM\_NAME] in the command with an asterisk (\*).
+The FPolicy scope creates the filters necessary to perform scans on specific shares or volumes. It is possible to set the scope to monitor all volumes or all shares by replacing the volume/share name variable [SVM_NAME] in the command with an asterisk (\*).
 
 IMPORTANT:
 

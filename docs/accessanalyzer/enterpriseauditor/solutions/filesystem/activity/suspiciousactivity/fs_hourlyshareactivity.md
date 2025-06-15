@@ -1,10 +1,10 @@
-# FS\_HourlyShareActivity Job
+# FS_HourlyShareActivity Job
 
-The FS\_HourlyShareActivity job is designed to report on the highest hourly activity event information from targeted file servers broken down by share.
+The FS_HourlyShareActivity job is designed to report on the highest hourly activity event information from targeted file servers broken down by share.
 
-## Analysis Tasks for the FS\_HourlyShareActivity Job
+## Analysis Tasks for the FS_HourlyShareActivity Job
 
-View the analysis tasks by navigating to the __FileSystem__ > __5.Activity__ > __Suspicious Activity__ > __FS\_HourlyShareActivity__ > __Configure__ node and select __Analysis__.
+View the analysis tasks by navigating to the __FileSystem__ > __5.Activity__ > __Suspicious Activity__ > __FS_HourlyShareActivity__ > __Configure__ node and select __Analysis__.
 
 __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis task is preconfigured for this job.
 
@@ -12,9 +12,9 @@ __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis 
 
 The following analysis task is selected by default:
 
-- Summarize hourly norms and deviations – Creates the SA\_FS\_HourlyShareActivity\_Deviations table accessible under the job’s Results node
+- Summarize hourly norms and deviations – Creates the SA_FS_HourlyShareActivity_Deviations table accessible under the job’s Results node
 
-In addition to the tables and views created by the analysis task, the FS\_HourlyShareActivity job produces the following pre-configured report:
+In addition to the tables and views created by the analysis task, the FS_HourlyShareActivity job produces the following pre-configured report:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

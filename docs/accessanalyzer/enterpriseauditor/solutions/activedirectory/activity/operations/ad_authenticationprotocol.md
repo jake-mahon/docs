@@ -1,10 +1,10 @@
-# AD\_AuthenticationProtocol Job
+# AD_AuthenticationProtocol Job
 
-The AD\_Authentication Job shows what protocols are being used to authenticate across the environment and will help to identify what services and computers may be affected when disabling NTLM.
+The AD_Authentication Job shows what protocols are being used to authenticate across the environment and will help to identify what services and computers may be affected when disabling NTLM.
 
-## Analysis Tasks for the AD\_AuthenticationProtocol Job
+## Analysis Tasks for the AD_AuthenticationProtocol Job
 
-Navigate to the __Active Directory__ > __6.Activity__ > __Operations__ > __AD\_AuthenticationProtocol__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Active Directory__ > __6.Activity__ > __Operations__ > __AD_AuthenticationProtocol__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,10 +12,10 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The default analysis tasks are:
 
-- Summarize Protocol Usage – Creates the SA\_AD\_AuthenticationProtocol\_Summary table accessible under the job’s Results node
-- Summarize Host Protocol Usage – Creates the SA\_AD\_AuthenticationProtocol\_Hosts table accessible under the job’s Results node
+- Summarize Protocol Usage – Creates the SA_AD_AuthenticationProtocol_Summary table accessible under the job’s Results node
+- Summarize Host Protocol Usage – Creates the SA_AD_AuthenticationProtocol_Hosts table accessible under the job’s Results node
 
-In addition to the tables created by the analysis tasks, the AD\_AuthenticationProtocol Job produces the follow pre-configured reports:
+In addition to the tables created by the analysis tasks, the AD_AuthenticationProtocol Job produces the follow pre-configured reports:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

@@ -33,5 +33,5 @@ Here, the Administrator profile is given access to all the properties. The Manag
 
 | Property | Details |
 | --- | --- |
-| DisplayName\_L1   required | __Type__    String   __Description__   Display name of the group in language 1 (up to 16). |
+| DisplayName_L1   required | __Type__    String   __Description__   Display name of the group in language 1 (up to 16). |
 | Identifier   required | __Type__    String   __Description__   Identifier of the group. |

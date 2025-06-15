@@ -25,8 +25,8 @@ The Open Process Flags section is where monitoring can be scoped for requested h
 
 Check the box to select the process flag(s) to be monitored:
 
-- PROCESS\_VM\_WRITE – Writes to memory in a process
-- PROCESS\_CREATE\_THREAD – Creates a thread
+- PROCESS_VM_WRITE – Writes to memory in a process
+- PROCESS_CREATE_THREAD – Creates a thread
 
 ## Processes
 

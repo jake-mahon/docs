@@ -79,36 +79,36 @@ that the selected domain controller is always available with minimum downtime.
 To understand how the DC priority function works, let’s assume the following:
 
 - gene.local is your parent domain with two child domains.
-- You have four domain controllers in the parent domain: DC\_N, DC\_S, DC\_E, and DC\_W.
+- You have four domain controllers in the parent domain: DC_N, DC_S, DC_E, and DC_W.
 - You also have two domain controllers in each of the two child domains.
 
 You can set a separate DC priority list for the parent domain and each of the child domains.
 
 To create a DC priority list for a domain, list the domain controllers in the order of priority. Let’s say you set priority for the parent domain as:
 
-Priority 1:     DC\_E  
-Priority 2:    DC\_S  
-DC\_N and DC\_W are not included in your priority list.
+Priority 1:     DC_E  
+Priority 2:    DC_S  
+DC_N and DC_W are not included in your priority list.
 
 When the Data service restarts for reasons such as IIS restart, it does the following:
 
-- The Data service attempts to connect to the first domain controller in the priority list, i.e., DC\_E.
-- If DC\_E is not available, the Data service attempts to connect to the second domain controller in the priority list, i.e., DC\_S.
-- If DC\_S is not available either, the Data service will resort to the normal lookup process.
+- The Data service attempts to connect to the first domain controller in the priority list, i.e., DC_E.
+- If DC_E is not available, the Data service attempts to connect to the second domain controller in the priority list, i.e., DC_S.
+- If DC_S is not available either, the Data service will resort to the normal lookup process.
 
 Normal lookup process for Data service
 
 Data service makes a connection with a domain controller through the System.DirectoryServices API. It sends a request to the API, which, in turn, connects to any domain controller in the domain. In this way, Data Service communicates
 with the domain controller to perform the required function.
 
-System.DirectoryServices does not evaluate the domain controller in the DC priority list for creating a connection. Hence, in the above example, the API will connect to DC\_N or DC\_W.
+System.DirectoryServices does not evaluate the domain controller in the DC priority list for creating a connection. Hence, in the above example, the API will connect to DC_N or DC_W.
 
 “Server Not Operational” error
 
-When Data service connects to a domain controller (say DC\_E), it caches the domain logon information and uses it to create all subsequent sessions with the domain controller. Hence it does not iterate on the DC priority list every time it has to
+When Data service connects to a domain controller (say DC_E), it caches the domain logon information and uses it to create all subsequent sessions with the domain controller. Hence it does not iterate on the DC priority list every time it has to
 create a session.
 
-In case DC\_E is down, the ‘Server Not Operational” error will be displayed in GroupID. It indicates that Data service has lost connection with the domain and needs to re-establish a connection.
+In case DC_E is down, the ‘Server Not Operational” error will be displayed in GroupID. It indicates that Data service has lost connection with the domain and needs to re-establish a connection.
 
 To resolve the error, restart IIS. In this way, Data service will make a connection again using the process discussed above. It will connect to a different domain controller and cache the domain logon information (and continue to make a session with
 this domain controller unless Data service is restarted).

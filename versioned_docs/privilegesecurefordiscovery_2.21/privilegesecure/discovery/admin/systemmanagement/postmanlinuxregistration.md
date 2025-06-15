@@ -35,11 +35,11 @@ Select the “Body” option beneath the URL field, and create the keys pictured
 - nondomain – Set as ‘true’ by default.
 
 Once all values are in place, click the blue “Send” button in the top right corner, and verify that it updates successfully in Postman. This initial registration process may take up to 30 seconds per machine.  
-__directory\_bridging__:  Will default to "Privilege Secure".  Add to POST if using a Directory Bridging solution other than Privilege Secure.  Valid entries are:  centrify, powerbroker, sssd
+__directory_bridging__:  Will default to "Privilege Secure".  Add to POST if using a Directory Bridging solution other than Privilege Secure.  Valid entries are:  centrify, powerbroker, sssd
 
 ## Locating a Linux System in the UI
 
-In the Privilege Secure browser, navigate to the "Grant Access" page and search for the system that was just added to confirm that is has been registered with Privilege Secure successfully. The Domain will be: `NONE\<system\_name>`
+In the Privilege Secure browser, navigate to the "Grant Access" page and search for the system that was just added to confirm that is has been registered with Privilege Secure successfully. The Domain will be: `NONE\<system_name>`
 
 Once it has been verified that this account was added successfully, the template that was created above can be used as a baseline to create additional systems to add.
 

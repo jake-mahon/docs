@@ -14,7 +14,7 @@ Navigate to [https://www.postman.com](https://www.postman.com/) and install the 
 
 ![blobid0.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/360046209633_blobid0.png)
 
-Next, select the “Import” option in the top left corner. Locate the API.postman\_collection.json file which will be supplied by a Sales Engineer or a Customer Success Team contact, and select this file to import.
+Next, select the “Import” option in the top left corner. Locate the API.postman_collection.json file which will be supplied by a Sales Engineer or a Customer Success Team contact, and select this file to import.
 
 ![blobid1.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/360046209633_blobid1_423x423.png)
 
@@ -28,7 +28,7 @@ Prior to attempting to run any GET/POST requests, open the Postman Preferences a
 
 ### Setting the Base URL Environment Variable
 
-To set the base\_url variable needs to be set. Click the “eyeball” symbol:
+To set the base_url variable needs to be set. Click the “eyeball” symbol:
 
 ![blobid5.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/360046209633_blobid5_96x82.png)
 
@@ -38,7 +38,7 @@ The following screen will display. Click the Edit button:
 
 Enter the __baseUrl__ variable for your specific environment:
 
-Note:  Older collections use __base\_url__.
+Note:  Older collections use __base_url__.
 
 ![mceclip1.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/360046209633_mceclip1.png)
 
@@ -70,7 +70,7 @@ This is now set as a global variable called __accessToken__ inside of Postman in
 
 Copy and paste the JWT captured from the login session into the ‘Initial Value’ and ‘Current Value’ fields for the __accessToken__:
 
-Note:  Older collections use __current\_jwt__ instead of accessToken.
+Note:  Older collections use __current_jwt__ instead of accessToken.
 
 ![mceclip3.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/360046209633_mceclip3.png)
 
@@ -89,7 +89,7 @@ The result should be a list of users in a format similar to below:
 ![blobid17.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/360046209633_blobid17.png)
 
 Note the “id” of the user that will be running Quickstart. Additional user ids can be obtained by sending different display names. All the user ids for Quickstart users should be noted.   
-An error of a “malformed key” is usually from only part of the key being saved as the “current\_jwt” variable in postman.
+An error of a “malformed key” is usually from only part of the key being saved as the “current_jwt” variable in postman.
 
 ## Creating the API Key
 

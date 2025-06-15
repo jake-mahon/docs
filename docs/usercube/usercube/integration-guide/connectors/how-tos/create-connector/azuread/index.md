@@ -65,7 +65,7 @@ The entity model should match as closely as possible the structure of the releva
 
 For example, Microsoft Entra ID's Users and Groups can be described by entity types, and group memberships by entity associations.
 
-The following example defines an entity type named AzureAD\_DirectoryObject to match the attributes selected for extraction from the Microsoft Entra ID instance:
+The following example defines an entity type named AzureAD_DirectoryObject to match the attributes selected for extraction from the Microsoft Entra ID instance:
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
@@ -125,11 +125,11 @@ Conf/AzureAD/AzureAD Connector.xml
 
 Notice the omitted TargetColumnIndex attribute for the members and memberOf properties. This means that these properties are navigation properties.
 
-The following example declares an n-n association between two AzureAD\_DirectoryObjects, where:
+The following example declares an n-n association between two AzureAD_DirectoryObjects, where:
   
-- memberOf is a collection of Groups IDs of which this AzureAD\_DirectoryObject is a member;
+- memberOf is a collection of Groups IDs of which this AzureAD_DirectoryObject is a member;
   
-- members from a Group is a collection of AzureAD\_DirectoryObjects IDs which are members of this Group.
+- members from a Group is a collection of AzureAD_DirectoryObjects IDs which are members of this Group.
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
@@ -205,12 +205,12 @@ Conf/AzureAD/AzureAD Connector.xml
 ...
 ```
 
-As a result, synchronization updates Identity Manager's UR\_Resource table based on the data of the exported CSV files.
-Considering that AzureAD\_DirectoryObject has never been synchronized, the UR\_Resource table receives a new line for which the 47th column (City) is filled in with the city column from the ```C:/UsercubeDemo/Temp/ExportOutput/AzureADContosoNYExport_directoryobjects.csv``` file.
+As a result, synchronization updates Identity Manager's UR_Resource table based on the data of the exported CSV files.
+Considering that AzureAD_DirectoryObject has never been synchronized, the UR_Resource table receives a new line for which the 47th column (City) is filled in with the city column from the ```C:/UsercubeDemo/Temp/ExportOutput/AzureADContosoNYExport_directoryobjects.csv``` file.
 
 An association mapping is the equivalent of an entity type mapping, but for the properties of an entity association instead of an entity type.
 
-The following example describes the "actual group/member" associations between AzureAD\_DirectoryObjects.
+The following example describes the "actual group/member" associations between AzureAD_DirectoryObjects.
 
 These associations are exported from the Microsoft Entra ID system into the ```C:/UsercubeDemo/Temp/ExportOutput/AzureADContosoNYExport_members_group.csv``` file, containing, for each group, a list of members in the following format, with id being the id of an Microsoft Entra ID object and groupId the matching Group's id to which the object belongs:
 
@@ -222,7 +222,7 @@ These associations are exported from the Microsoft Entra ID system into the ```C
 | 5 | 333 |
 | 2 | 333 |
 
-The following entity association mapping maps the properties from the AzureAD\_DirectoryObject\_members entity association:
+The following entity association mapping maps the properties from the AzureAD_DirectoryObject_members entity association:
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
@@ -235,9 +235,9 @@ Conf/AzureAD/AzureAD Connector.xml
 
 ```
 
-Here the members property of the AzureAD\_DirectoryObject entity (written to the Property1 attribute of the AzureAD\_DirectoryObject\_members entity association) is filled in by values from the groupId column (written to the Column1 attribute of the AzureAD\_DirectoryObject\_members entity association mapping) of the CSV file.
+Here the members property of the AzureAD_DirectoryObject entity (written to the Property1 attribute of the AzureAD_DirectoryObject_members entity association) is filled in by values from the groupId column (written to the Column1 attribute of the AzureAD_DirectoryObject_members entity association mapping) of the CSV file.
 
-And the membersOf property of the AzureAD\_DirectoryObject entity (written to the Property2 attribute of the AzureAD\_DirectoryObject\_members entity association) is filled in by values from the Id column (written to the Column2 attribute of the AzureAD\_DirectoryObject\_members entity association mapping) of the CSV file.
+And the membersOf property of the AzureAD_DirectoryObject entity (written to the Property2 attribute of the AzureAD_DirectoryObject_members entity association) is filled in by values from the Id column (written to the Column2 attribute of the AzureAD_DirectoryObject_members entity association mapping) of the CSV file.
 
 ## Display the Connector in the UI
 

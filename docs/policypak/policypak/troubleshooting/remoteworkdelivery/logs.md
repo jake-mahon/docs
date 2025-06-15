@@ -23,7 +23,7 @@ Figure 55 is an example of a Endpoint Policy Manager Remote Work Delivery Manage
 
 Figure 55. An example of a Endpoint Policy Manager Remote Work Delivery Manager log.
 
-Then, to see details of what Endpoint Policy Manager Remote Work Delivery Manager is trying to do, you can open up the PP\_Operational.log. There will be two PP\_Operational logs for Endpoint Policy Manager Remote Work Delivery Manager (see Figure 56):
+Then, to see details of what Endpoint Policy Manager Remote Work Delivery Manager is trying to do, you can open up the PP_Operational.log. There will be two PP_Operational logs for Endpoint Policy Manager Remote Work Delivery Manager (see Figure 56):
 
 - One for the User side (and switched mode) in ```\appdata\<user>\PolicyPak\PolicyPak Remote Work Delivery Manager```
 - One for the Computer side in ```Programdata\PolicyPak\PolicyPak Remote Work Delivery Manager```

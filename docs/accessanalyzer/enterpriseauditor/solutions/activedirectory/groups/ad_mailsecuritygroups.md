@@ -1,10 +1,10 @@
-# AD\_MailSecurityGroups Job
+# AD_MailSecurityGroups Job
 
-The AD\_MailSecurityGroups Job identifies mail-enabled security groups within Active Directory.
+The AD_MailSecurityGroups Job identifies mail-enabled security groups within Active Directory.
 
-## Analysis Tasks for the AD\_MailSecurityGroups Job
+## Analysis Tasks for the AD_MailSecurityGroups Job
 
-Navigate to the __Active Directory__ > __1.Groups__ > __AD\_MailSecurityGroups__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Active Directory__ > __1.Groups__ > __AD_MailSecurityGroups__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,11 +12,11 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The default analysis tasks are:
 
-- Calculate Effective Membership – Creates the SA\_AD\_MailSecurityGroups\_Membership table accessible under the job’s Results node
-- Mail Enabled Domain Summary – Creates the SA\_AD\_MailSecurityGroups\_DomainSummary table accessible under the job’s Results node
-- Membership Summary – Creates the SA\_AD\_MailSecurityGroups\_Summary table accessible under the job’s Results node
+- Calculate Effective Membership – Creates the SA_AD_MailSecurityGroups_Membership table accessible under the job’s Results node
+- Mail Enabled Domain Summary – Creates the SA_AD_MailSecurityGroups_DomainSummary table accessible under the job’s Results node
+- Membership Summary – Creates the SA_AD_MailSecurityGroups_Summary table accessible under the job’s Results node
 
-In addition to the tables and views created by the analysis tasks, the AD\_MailSecurityGroups Job produces the following pre-configured report:
+In addition to the tables and views created by the analysis tasks, the AD_MailSecurityGroups Job produces the following pre-configured report:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

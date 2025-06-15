@@ -1,6 +1,6 @@
 # How to use ProcMon to track changes over time to specific registry keys
 
-More info: [https://docs.microsoft.com/en-us/archive/blogs/aaron\_margosis/the-case-of-the-reverting-office-theme-resolved-with-a-long-running-procmon-trace](https://docs.microsoft.com/en-us/archive/blogs/aaron_margosis/the-case-of-the-reverting-office-theme-resolved-with-a-long-running-procmon-trace)
+More info: [https://docs.microsoft.com/en-us/archive/blogs/aaron_margosis/the-case-of-the-reverting-office-theme-resolved-with-a-long-running-procmon-trace](https://docs.microsoft.com/en-us/archive/blogs/aaron_margosis/the-case-of-the-reverting-office-theme-resolved-with-a-long-running-procmon-trace)
 
 For this example, we will be monitoring the following Registry Key and values.
 

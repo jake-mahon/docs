@@ -1,15 +1,15 @@
-# UX\_ParseSudeors Job
+# UX_ParseSudeors Job
 
-The UX\_ParseSudoers job parses all rights granted via sudoers in the audited environments.
+The UX_ParseSudoers job parses all rights granted via sudoers in the audited environments.
 
-## Queries for the UX\_ParseSudoers Job
+## Queries for the UX_ParseSudoers Job
 
-The UX\_ParseSudoers job uses the Unix Data Collector for the following query:
+The UX_ParseSudoers job uses the Unix Data Collector for the following query:
 
 __CAUTION:__ The query is preconfigured for this job. Never modify the query.
 
 ![Queries for the UX_ParseSudoers Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/unix/privilegedaccess/sudoers/collection/parsesudoersquery.png)
 
-The query for the UX\_ParseSudoers job is:
+The query for the UX_ParseSudoers job is:
 
 - ParseSudoers – Parses the sudoers file on the target host

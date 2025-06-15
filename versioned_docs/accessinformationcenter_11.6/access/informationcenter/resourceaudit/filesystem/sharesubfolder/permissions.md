@@ -63,4 +63,4 @@ The Activity Statisticsreport indicates that the trustee Jazmina has performed w
 
 ![Effective Access report](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/filesystem/sharesubfolder/stalepermissionsaccess.png)
 
-The Effective Access report shows that Jazmina has access to the resource through the Group\_Manage group, and the access is directly applied. See the [Effective Access Report](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/filesystem/sharesubfolder/effectiveaccess.md) topic for additional information.
+The Effective Access report shows that Jazmina has access to the resource through the Group_Manage group, and the access is directly applied. See the [Effective Access Report](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/filesystem/sharesubfolder/effectiveaccess.md) topic for additional information.

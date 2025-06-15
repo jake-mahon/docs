@@ -31,7 +31,7 @@ The attribute ```ParentProperty``` specifies the navigational property defining 
 | Property | Details |
 | --- | --- |
 | ColumnMapping   required | __Type__    Int32   __Description__   Specifies the corresponding column in the role model rules. |
-| DisplayName\_L1   optional | __Type__    String   __Description__   Display name of the dimension in language 1 (up to 16). |
+| DisplayName_L1   optional | __Type__    String   __Description__   Display name of the dimension in language 1 (up to 16). |
 | EntityType   required | __Type__    Int64   __Description__   References the linked entity type. |
 | Identifier   required | __Type__    String   __Description__   Unique identifier of the dimension. |
 | IsExcludedFromRoleMining   default value: false | __Type__    Boolean   __Description__   ```true``` to exclude the dimension from role mining. It means that the dimension is not used as a criteria in the generated rules. |

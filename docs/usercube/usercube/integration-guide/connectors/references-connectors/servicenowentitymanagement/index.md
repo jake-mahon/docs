@@ -20,7 +20,7 @@ ServiceNow Ticket
 Implementing this connector requires:
 
 - reading first the appsettings documentation;
-- a service account with the __snc\_platform\_rest\_api\_access__ role, as well as reading and writing permissions on the target ServiceNow instance;
+- a service account with the __snc_platform_rest_api_access__ role, as well as reading and writing permissions on the target ServiceNow instance;
 - the version ServiceNow London or later;
 - the appropriate configuration in ServiceNow of authentication, Basic or OAuth.
 

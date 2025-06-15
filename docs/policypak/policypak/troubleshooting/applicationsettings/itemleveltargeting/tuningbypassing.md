@@ -2,7 +2,7 @@
 
 Endpoint Policy Manager Application Settings Manager will process both internal Item-Level Targeting (ILT; i.e., the filters already built into the Pak) as well as normal Item-Level Targeting (those on the Pak entry you create in the MMC).
 
-You can however, configure an individual client machine for the following three parameters. All the following values live in ```HKLM\Software\PolicyPak\Config\CSE\ILT ```and are REG\_DWORD values.
+You can however, configure an individual client machine for the following three parameters. All the following values live in ```HKLM\Software\PolicyPak\Config\CSE\ILT ```and are REG_DWORD values.
 
 - ```BypassAllILT```. When this value is set to 1, all``` ILTs``` (both preconfigured and Pak-entry ILTs) are bypassed and ignored (essentially evaluating each one as True).
 - Timeout. Sometimes processing ```ILT ```operations can take longer than desired. If the ```ILT ```evaluation (as a batch) takes longer than the Timeout value then the operation is aborted. If the timeout occurs, and the value was never determined before, then the entire ILT operation is assumed to be True. If the value was previously determined, Endpoint Policy Manager Application Settings Manager will reuse the last known value, provided the Lifetime has not yet expired (see next entry).

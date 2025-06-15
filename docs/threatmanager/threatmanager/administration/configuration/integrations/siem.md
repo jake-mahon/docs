@@ -29,18 +29,18 @@ __Step 2 –__ Enter the following information:
 
 - Template Format – Selecting Custom template from the Template drop-down list enables this box. It displays the variables in Threat Manager that can be used to create a custom SIEM template:
 
-  - %SYSLOG\_DATE% – UTC timestamp of the SIEM message
-  - %SYSLOG\_DATE\_ISO% – ISO-formatted UTC timestamp of the SIEM message
+  - %SYSLOG_DATE% – UTC timestamp of the SIEM message
+  - %SYSLOG_DATE_ISO% – ISO-formatted UTC timestamp of the SIEM message
   - %HOST% – Threat Manager server hostname
   - %COMPANY% – Netwrix
   - %PRODUCT% – Threat Manager
-  - %PRODUCT\_VERSION% – Threat Manager version
-  - %THREAT\_TIME% – The date and time of the primary event associated with the threat
+  - %PRODUCT_VERSION% – Threat Manager version
+  - %THREAT_TIME% – The date and time of the primary event associated with the threat
   - %THREATTYPE% – Threat type
   - %USERS% – Threat perpetrator(s)
   - %COMPUTERS% – Threat host (typically domain controller or file server)
   - %FILENAME% – File or share name for file events
-  - %NEW\_FILENAME% – New file name (for rename events)
+  - %NEW_FILENAME% – New file name (for rename events)
   - %PROCESS% – Process name
   - %THREATID% – Threat ID
   - %THREATSUMMARY% – Summary of the threat

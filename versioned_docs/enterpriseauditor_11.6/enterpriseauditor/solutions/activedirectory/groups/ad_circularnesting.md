@@ -1,10 +1,10 @@
-# AD\_CircularNesting Job
+# AD_CircularNesting Job
 
-The AD\_CircularNesting Job identifies circularly nested groups within Active Directory which can pose administrative and operational challenges with identifying effective access to resources.
+The AD_CircularNesting Job identifies circularly nested groups within Active Directory which can pose administrative and operational challenges with identifying effective access to resources.
 
-## Analysis Tasks for the AD\_CircularNesting Job
+## Analysis Tasks for the AD_CircularNesting Job
 
-Navigate to the __Active Directory__ > __1.Groups__ > __AD\_CircularNesting__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Active Directory__ > __1.Groups__ > __AD_CircularNesting__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,10 +12,10 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The default analysis tasks are :
 
-- Circular Nesting Details – Creates the SA\_AD\_CircularNesting\_Details table accessible under the job’s Results node
-- Domain Summary – Creates the SA\_AD\_CircularNesting\_DomainSummary table accessible under the job’s Results node
+- Circular Nesting Details – Creates the SA_AD_CircularNesting_Details table accessible under the job’s Results node
+- Domain Summary – Creates the SA_AD_CircularNesting_DomainSummary table accessible under the job’s Results node
 
-In addition to the tables and views created by the analysis tasks, the AD\_CircularNesting Job produces the following pre-configured report:
+In addition to the tables and views created by the analysis tasks, the AD_CircularNesting Job produces the following pre-configured report:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

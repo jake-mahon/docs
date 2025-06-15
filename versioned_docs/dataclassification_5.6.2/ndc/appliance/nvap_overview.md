@@ -14,7 +14,7 @@ __NOTE:__ Consider Microsoft limits for evaluation versions of Windows Server. Y
 
 Furthermore, you can register your license by phone. See [Microsoft Licensing Activation Centers worldwide telephone numbers](https://www.microsoft.com/en-us/licensing/existing-customer/activation-centers) for more information.
 
-Navigate to the Netwrix website at [https://www.netwrix.com/virtual\_appliances.html](https://www.netwrix.com/virtual_appliances.html) and start the Virtual Appliance Download Manager.
+Navigate to the Netwrix website at [https://www.netwrix.com/virtual_appliances.html](https://www.netwrix.com/virtual_appliances.html) and start the Virtual Appliance Download Manager.
 
 Review the following for additional information:
 

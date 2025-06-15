@@ -107,8 +107,8 @@ This connector is meant to generate to the Export Output folder the following CS
 
 - __command__;
 - __Collection__;
-- __Group\_Id__: Identifier of the group;
-- __Entity\_Id__: Identifier of the entity related to the group member;
+- __Group_Id__: Identifier of the group;
+- __Entity_Id__: Identifier of the entity related to the group member;
 
 ```<connectionIdentifier>_GroupMemberScanFail.csv```, with the following columns:
 
@@ -133,10 +133,10 @@ This connector is meant to generate to the Export Output folder the following CS
 - __command__;
 - __Collection__;
 - __Key__— concatenation (with ```-```) of the ```Role_Id```, the ```Entity_Id``` and the ```SecurableObject_Key```;
-- __Role\_Id__— Identifier of the role;
-- __Entity\_Id__— Identifier of the entity related to the role;
-- __Entity\_Name__— name of the group member;
-- __SecurableObject\_Key__— concatenation (with ```|```) of the ```Collection``` and the relative URLs where the object was found;
+- __Role_Id__— Identifier of the role;
+- __Entity_Id__— Identifier of the entity related to the role;
+- __Entity_Name__— name of the group member;
+- __SecurableObject_Key__— concatenation (with ```|```) of the ```Collection``` and the relative URLs where the object was found;
 
 ```<connectionIdentifier>_SecurableObject.csv```, with the following columns:
 
@@ -153,8 +153,8 @@ This connector is meant to generate to the Export Output folder the following CS
 
 - __command__;
 - __Collection__;
-- __SecurableObject\_Key__;
-- __Inheritance\_Key__— key of the ancestor object that the securable object gets its inherited rights from;
+- __SecurableObject_Key__;
+- __Inheritance_Key__— key of the ancestor object that the securable object gets its inherited rights from;
 
 ```<connectionIdentifier>_SecurableObjectScanFail.csv```, with the following columns:
 

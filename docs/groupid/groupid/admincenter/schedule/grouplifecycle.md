@@ -25,7 +25,7 @@ The Create Schedule page is displayed.
 
 Step 5 – In the Schedule Name box, enter a name for the schedule.
 
-Step 6 – The Name Preview box displays the schedule name prefixed with _Glm\__; the schedule is displayed with this name in email notifications.
+Step 6 – The Name Preview box displays the schedule name prefixed with _Glm__; the schedule is displayed with this name in email notifications.
 
 Step 7 – Select a Directory Manager portal URL in the Portal URL drop-down list to include it in notifications generated for this schedule. Users are redirected to this portal to perform any necessary action.
 

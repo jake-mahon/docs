@@ -5,19 +5,19 @@ The jobs that run analysis tasks in the Box Solution requires the host list to b
 Dependencies
 
 - The .Active Directory Inventory Job Group must be successfully run prior to running this Job Group
-- 2-Box\_Import Job – Imports data collected by the 1-Box\_Access Scans Job and 1-Box\_Activity Scans Job
+- 2-Box_Import Job – Imports data collected by the 1-Box_Access Scans Job and 1-Box_Activity Scans Job
 
 Targeted Hosts
 
-- Enterprise\_ID for the target Box environment
+- Enterprise_ID for the target Box environment
 
 Within host inventory, the Box hosts will return a HostStatus of __Offline__.
 
-If multiple Enterprise\_IDs are to be scanned, it is necessary to duplicate the jobs within the 0.Collection Job Group for each target host. Since the 2-Box\_Import Job must always be run after the 1-Box\_Access Scans Job and 1-Box\_Activity Scans Job, it is a best practice to set up sub-job groups for each target named to identify the target, for example EMEA Box. Copying the jobs will append a number to the job’s name. Once authorization codes have been generated for each 1-Box\_Access Scans Job and 1-Box\_Activity Scans Job, then the solution can be scheduled to run as desired.
+If multiple Enterprise_IDs are to be scanned, it is necessary to duplicate the jobs within the 0.Collection Job Group for each target host. Since the 2-Box_Import Job must always be run after the 1-Box_Access Scans Job and 1-Box_Activity Scans Job, it is a best practice to set up sub-job groups for each target named to identify the target, for example EMEA Box. Copying the jobs will append a number to the job’s name. Once authorization codes have been generated for each 1-Box_Access Scans Job and 1-Box_Activity Scans Job, then the solution can be scheduled to run as desired.
 
 Connection Profile
 
-The Box Solution requires a specific credential for the Connection Profile which has access to the SA Installer location. It is also necessary to authenticate to the target Box environment, which is done through the Box Data Collector query configuration. An Enterprise Admin account (or Co-Admin account with permission to __Run new reports and access existing reports__ enabled) credential is needed to generate an authorization code in the form of an Access Token. This can be done through the query configuration either in the 1-Box\_Access Scans Job’ Authentication wizard page or the 1-Box\_Activity Scans Job’s Authentication wizard page of the Box Data Collector Wizard. See the [Box Data Collector](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/box/overview.md) topic for additional information.
+The Box Solution requires a specific credential for the Connection Profile which has access to the SA Installer location. It is also necessary to authenticate to the target Box environment, which is done through the Box Data Collector query configuration. An Enterprise Admin account (or Co-Admin account with permission to __Run new reports and access existing reports__ enabled) credential is needed to generate an authorization code in the form of an Access Token. This can be done through the query configuration either in the 1-Box_Access Scans Job’ Authentication wizard page or the 1-Box_Activity Scans Job’s Authentication wizard page of the Box Data Collector Wizard. See the [Box Data Collector](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/box/overview.md) topic for additional information.
 
 Access Token
 
@@ -31,18 +31,18 @@ Query Configuration
 
 This solution can be run with the default query configuration. However, the following queries in the 0.Collection Job Group can be modified to limit the depth of the scan:
 
-- 1-Box\_Access Scans Scan query
-- 1-Box\_Activity Scans Activity Scan query
+- 1-Box_Access Scans Scan query
+- 1-Box_Activity Scans Activity Scan query
 
-The Box\_Import Job's Import query is preconfigured to run a full import and should not be modified.
+The Box_Import Job's Import query is preconfigured to run a full import and should not be modified.
 
 Analysis Configuration
 
 This solution can be run with the default analysis configuration. However, the following parameters can be modified:
 
 - The @STALETHRESHOLD parameter determines the number of days after which content is considered stale. It is set to default of 30 days. The @STALETHRESHOLD parameter can be customized in the following analysis tasks:
-  - 2.Content > Box\_FileMetrics in the File Metrics Details analysis task
-  - 2.Content > Box\_FolderMetrics Folder in the Metrics Details analysis task
+  - 2.Content > Box_FileMetrics in the File Metrics Details analysis task
+  - 2.Content > Box_FolderMetrics Folder in the Metrics Details analysis task
 
 Workflow
 
@@ -50,12 +50,12 @@ __Step 1 –__ Prerequisite: Run the .Active Directory Inventory Job Group.
 
 __Step 2 –__ (Optional) Modify query configurations for the 0.Collection Job Group to limit the scan depth.
 
-__Step 3 –__ In the 1-Box\_Access Scans Job, configure the Scan query to generate an authentication code to authenticate to the targeted Box environment. This step only needs to be run prior to the first scan.
+__Step 3 –__ In the 1-Box_Access Scans Job, configure the Scan query to generate an authentication code to authenticate to the targeted Box environment. This step only needs to be run prior to the first scan.
 
 __Step 4 –__ (Optional) Modify analysis task parameters for the reporting jobs.
 
 __Step 5 –__ Schedule the Box Job Group to run as desired.
 
-__NOTE:__ The 0.Collection > 2-Box\_Import Job must be run after the 1-Box\_Access Scans Job and 1-Box\_Activity Scans Job because it imports the data collected by the scan jobs.
+__NOTE:__ The 0.Collection > 2-Box_Import Job must be run after the 1-Box_Access Scans Job and 1-Box_Activity Scans Job because it imports the data collected by the scan jobs.
 
 __Step 6 –__ Review the reports generated by the jobs.

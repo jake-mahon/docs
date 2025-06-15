@@ -63,7 +63,7 @@ Select one of the following options:
   | --- | --- |
   | SQL Server instance | Specify the name of the SQL Server instance to store audit data.  If you have more than one Auditor Server running in your network, make sure to configure them to use different SQL Server instances. The same SQL Server instance cannot be used to store audit data collected by several Auditor  Servers. |
   | Authentication | Select the authentication type you want to use to connect to the SQL Server instance:  - Windows authentication - SQL Server authentication |
-  | User name | Specify the account to be used to connect to the SQL Server instance.  This account must be granted the __database owner (db\_owner)__ role and the dbcreator server role. |
+  | User name | Specify the account to be used to connect to the SQL Server instance.  This account must be granted the __database owner (db_owner)__ role and the dbcreator server role. |
   | Password | Enter a password. |
 
   __NOTE:__ If you want to use Group Managed Service Account (gMSA) to access the SQL Server instance hosting the database, consider that in this case Netwrix Auditor will not be able to generate SSRS-based reports (due to the following Microsoft article: [Configure the Unattended Execution Account (Report Server Configuration Manager)](https://docs.microsoft.com/en-us/sql/reporting-services/install-windows/configure-the-unattended-execution-account-ssrs-configuration-manager?view=sql-server-ver15).
@@ -83,7 +83,7 @@ Configure the following:
 | Setting | Description |
 | --- | --- |
 | Disable security intelligence ... | Only select this option if you do not want your data to be stored in the database. In this case, you will only be able to receive activity summaries. Reporting and alerting capabilities will not be provided.  To store data to the database, leave this check box cleared. |
-| Database | Default database name is _Netwrix\_Auditor\_`<monitoring_plan_name>`_.  It is recommended that you enter a meaningful name for the database here. It may include the data source type (e.g. _Exchange\_Audit\_Data_ or _OracleSrv02\_Audit\_Data_), or so.  If you decided to use the existing SQL Server instance instead of dedicated, you may want to use _Netwrix\_Auditor_ prefix to distinguish Netwrix Auditor databases from others. |
+| Database | Default database name is _Netwrix_Auditor_`<monitoring_plan_name>`_.  It is recommended that you enter a meaningful name for the database here. It may include the data source type (e.g. _Exchange_Audit_Data_ or _OracleSrv02_Audit_Data_), or so.  If you decided to use the existing SQL Server instance instead of dedicated, you may want to use _Netwrix_Auditor_ prefix to distinguish Netwrix Auditor databases from others. |
 | Use default SQL Server settings | Select this option if you want Auditor to connect to the SQL Server instance using the default settings you specified at the Default SQL Server Instance  step. |
 | Specify custom connection parameters | Select this option to use custom credentials when connecting to SQL Server. Specify authentication method and the account that Auditor will use.  Make sure this account has sufficient rights to connect to SQL Server and work with the databases. |
 

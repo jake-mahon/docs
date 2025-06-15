@@ -77,9 +77,9 @@ __Step 2 –__ Create an SQL Server login for the Password Reset service account
 
 __Step 3 –__ Create an SQL Server user, and map it to the service account login.
 
-__Step 4 –__ Add the SQL Server user to the db\_datareader, db\_datawriter, and db\_ddladmin server roles for the database.
+__Step 4 –__ Add the SQL Server user to the db_datareader, db_datawriter, and db_ddladmin server roles for the database.
 
-Your database administrator also needs to grant access to the users that will use the Data Console. These users only need to be added to the db\_datareader server role, and they can be denied access to the VerificationCode and EnrollRecord columns in the Usr table. The user running the Data Copy wizard also needs to be added to the db\_datawriter and db\_ddladmin server roles.
+Your database administrator also needs to grant access to the users that will use the Data Console. These users only need to be added to the db_datareader server role, and they can be denied access to the VerificationCode and EnrollRecord columns in the Usr table. The user running the Data Copy wizard also needs to be added to the db_datawriter and db_ddladmin server roles.
 
 Additional permissions can be set for users of the Data Console after the tables are created. Grant the DELETE privilege on the Usr table to users who are allowed to delete user records. Deny all privileges on the VerificationCode and EnrollRecord columns in the User table as they are not used by the Data Console.
 
@@ -101,7 +101,7 @@ __Step 5 –__ Check the path to the SQL Server Compact database files. If the d
 
 __Step 6 –__ Click __Next__.
 
-__Step 7 –__ Set the SQL Server connection settings for the Data Copy wizard. You can set different connection settings for the service account later. The __Username__ and __Password__ are only needed if __SQL Server Authentication__ is selected. The user must be in the db\_datareader, db\_datawriter, and db\_ddladmin SQL Server roles. __Encrypt connection__ should be selected to protect user information, and __Trust server certificate__ must be selected if SQL Server is using a self-signed certificate. SQL Server uses a self-signed certificate if a trusted certificate is not installed. The SQL Server Native Client must be installed if __Trust server certificate__ is selected.
+__Step 7 –__ Set the SQL Server connection settings for the Data Copy wizard. You can set different connection settings for the service account later. The __Username__ and __Password__ are only needed if __SQL Server Authentication__ is selected. The user must be in the db_datareader, db_datawriter, and db_ddladmin SQL Server roles. __Encrypt connection__ should be selected to protect user information, and __Trust server certificate__ must be selected if SQL Server is using a self-signed certificate. SQL Server uses a self-signed certificate if a trusted certificate is not installed. The SQL Server Native Client must be installed if __Trust server certificate__ is selected.
 
 ![working_with_the_database_1](/img/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/working_with_the_database_1.png)
 

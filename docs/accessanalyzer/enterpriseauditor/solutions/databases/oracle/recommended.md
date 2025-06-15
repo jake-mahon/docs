@@ -7,7 +7,7 @@ Dependencies
 - .Active Directory Inventory Job Group run successfully
 - For Activity Auditing – Oracle Server audit specifications to be configured on the target databases
 
-Some of the queries in the __Jobs__ > __Databases__ > __0.Collection__ > __Oracle Job Group__ can be scoped to target specific databases and/or instances. However, it is necessary for the SA\_SQL\_Instances table to be populated before attempting to scope the queries. Therefore, the 0-Oracle\_Servers job must be executed before attempting to scope the rest of the 0.Collection Job Group queries.
+Some of the queries in the __Jobs__ > __Databases__ > __0.Collection__ > __Oracle Job Group__ can be scoped to target specific databases and/or instances. However, it is necessary for the SA_SQL_Instances table to be populated before attempting to scope the queries. Therefore, the 0-Oracle_Servers job must be executed before attempting to scope the rest of the 0.Collection Job Group queries.
 
 Targeted Host(s)
 
@@ -30,13 +30,13 @@ Alternatively, create a connection profile with both the Oracle database credent
 A Connection Profile with the applicable permissions should be assigned under each jobs Connection node as follows:
 
 - Both the Oracle database credentials and the Server credentials for the targeted host (or the previously provisioned AD credentials) for:
-  - 0-Oracle\_Servers Job
+  - 0-Oracle_Servers Job
 - Oracle Database credentials only for:
-  - 1-Oracle\_PermissionsScan Job
-  - 2-Oracle\_SensitiveDataScan Job
-  - 3-Oracle\_ActivityScan Job
-  - 4-Oracle\_DefaultPasswordUsers Job
-  - 5-Oracle\_Configuration Job
+  - 1-Oracle_PermissionsScan Job
+  - 2-Oracle_SensitiveDataScan Job
+  - 3-Oracle_ActivityScan Job
+  - 4-Oracle_DefaultPasswordUsers Job
+  - 5-Oracle_Configuration Job
 
 The Connection Profile is set to Use the Default Profile, as configured at the global settings level. However, since this may not be the Connection Profile with the necessary permissions for the assigned hosts, click the radio button for the Select one of the following user defined profiles option and select the appropriate Connection Profile drop-down menu.
 
@@ -48,7 +48,7 @@ One of the most important decisions to make is how frequently to collect this da
 
 Run Order
 
-The 0-Oracle\_Servers Job within the Oracle 0.Collection Job Group must be run first, before running the rest of the jobs.
+The 0-Oracle_Servers Job within the Oracle 0.Collection Job Group must be run first, before running the rest of the jobs.
 
 ___RECOMMENDED:___ Run the solution at the top level: Oracle Job Group
 
@@ -59,19 +59,19 @@ Query Configuration
 This solution is designed to be run with the default query configurations. However, the following SQL Data Collector configurations can be modified if desired:
 
 - Options page – Customize scan options and/or sensitive data (DLP) options in the following jobs:
-  - 2-Oracle\_SensitiveDataScan Job
-  - 1-Oracle\_ActivityScan Job
+  - 2-Oracle_SensitiveDataScan Job
+  - 1-Oracle_ActivityScan Job
 - Criteria page – Customize the criteria used to define sensitive data in the following job:
-  - 2-Oracle\_SensitiveDataScan Job
+  - 2-Oracle_SensitiveDataScan Job
 - Filter page – Scope the query to target specific databases/instances in the following jobs:
 
-  Remember, it is necessary for the [0-Oracle\_Servers Job](/docs/accessanalyzer/enterpriseauditor/solutions/databases/oracle/collection/0-oracle_servers.md) to run at least once before attempting to scope any of the following queries:
+  Remember, it is necessary for the [0-Oracle_Servers Job](/docs/accessanalyzer/enterpriseauditor/solutions/databases/oracle/collection/0-oracle_servers.md) to run at least once before attempting to scope any of the following queries:
 
-  - 1-Oracle\_PermissionsScan Job
-  - 2-Oracle\_SensitiveDataScan Job
-  - 3-Oracle\_ActivityScan Job
-  - 4-Oracle\_DefaultPasswordUsers Job
-  - 5-Oracle\_Configuration Job
+  - 1-Oracle_PermissionsScan Job
+  - 2-Oracle_SensitiveDataScan Job
+  - 3-Oracle_ActivityScan Job
+  - 4-Oracle_DefaultPasswordUsers Job
+  - 5-Oracle_Configuration Job
 
   ___RECOMMENDED:___ For reporting purposes, scope all queries to target the same databases/instances if applying a scope.
 

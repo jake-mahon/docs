@@ -16,4 +16,4 @@ Java 8 AppSet technique:
 
 ![158_3_13-8](/img/product_docs/policypak/policypak/applicationsettings/preconfigured/java/158_3_13-8.webp)
 
-More information from Oracle on the underlying issue can be found at this web page:  [http://java.com/en/download/help/error\_mixedcode.xml](http://java.com/en/download/help/error_mixedcode.xml)
+More information from Oracle on the underlying issue can be found at this web page:  [http://java.com/en/download/help/error_mixedcode.xml](http://java.com/en/download/help/error_mixedcode.xml)

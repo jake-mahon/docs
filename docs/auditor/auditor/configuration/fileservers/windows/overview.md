@@ -173,7 +173,7 @@ Otherwise, significant delays and performance issues may occur while collecting 
 
 This happens because these executables access a large number of file server objects (files, folders), fetching audit data — and your antivirus may treat this as a suspicious behavior.
 
-For some antiviruses (for example, Trend Micro) you may need to specify the folders to exclude, that is, __C:\Windows\SysWOW64\NwxExeSvc\__. Refer to your antivirus documentation for details.
+For some antiviruses (for example, Trend Micro) you may need to specify the folders to exclude, that is, __C:\Windows\SysWOW64\NwxExeSvc__. Refer to your antivirus documentation for details.
 
 ## Monitored Objects
 

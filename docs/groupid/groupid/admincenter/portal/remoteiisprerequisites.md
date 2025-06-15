@@ -46,7 +46,7 @@ __To create a site in remote IIS:__
 
 The next step is to assign permissions on the physical folder that binds to your site in remote IIS.
 
-1. Go to the physical path of your IIS site folder and provide the full control to a local group IIS\_IUSRS on this folder.   
+1. Go to the physical path of your IIS site folder and provide the full control to a local group IIS_IUSRS on this folder.   
    To assign these permissions:
 
    1. Right click the group you created and select __Properties__.
@@ -55,13 +55,13 @@ The next step is to assign permissions on the physical folder that binds to your
    4. Click __Add__.
    5. Click __Locations__.
    6. Select your machine name from the list in the __Locations__ box. Click __OK__.
-   7. In the __Enter the object names__ box type _IIS\_IUSRS_ and click the __Check Names__ button. The group name should appear as follows:
+   7. In the __Enter the object names__ box type _IIS_IUSRS_ and click the __Check Names__ button. The group name should appear as follows:
 
       ```
       `<your machine name>`\IIS_IUSRS
       ```
    8. Click __OK__.
-   9. Allow Full Control to _IIS\_IUSRS_ group.
+   9. Allow Full Control to _IIS_IUSRS_ group.
    10. Click __Apply__ and then click __OK__.
    11. Click __OK__ to close the __Permissions for `<folder name>`__ dialog box.
    12. Click __OK__ to close the __`<folder name>` Properties__ dialog box.

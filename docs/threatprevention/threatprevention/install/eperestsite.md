@@ -94,6 +94,6 @@ __Step 10 –__ Click __Finish__.
 EPE Rest Site components have been installed. You will notice that:
 
 - The installer has copied the EPE Rest Site files to the Threat Prevention file system on the physical machine
-- It has created the "EPE\_REST" site in IIS
+- It has created the "EPE_REST" site in IIS
 
 See the [EPE Rest Site](/docs/threatprevention/threatprevention/eperestsite/overview.md) topic for additional information.

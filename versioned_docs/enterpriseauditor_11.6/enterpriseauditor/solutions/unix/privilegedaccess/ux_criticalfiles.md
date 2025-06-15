@@ -1,22 +1,22 @@
-# UX\_CriticalFiles Job
+# UX_CriticalFiles Job
 
-The UX\_CriticalFiles job provides visibility into owners of critical files within audited Unix and Linux environments such as passwd, shadow, sudoers, hosts.deny, and more.
+The UX_CriticalFiles job provides visibility into owners of critical files within audited Unix and Linux environments such as passwd, shadow, sudoers, hosts.deny, and more.
 
-## Queries for the UX\_CriticalFiles Job
+## Queries for the UX_CriticalFiles Job
 
-The UX\_CriticalFIles job uses the Unix Data Collector for the following query:
+The UX_CriticalFIles job uses the Unix Data Collector for the following query:
 
 __CAUTION:__ The query is preconfigured for this job. Never modify the query.
 
 ![Queries for the UX_CriticalFiles Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/unix/privilegedaccess/criticalfilesquery.png)
 
-The query for the UX\_CriticalFiles job is:
+The query for the UX_CriticalFiles job is:
 
 - Critical File Owners – Finds critical file ownership
 
-## Analysis Tasks for the UX\_CriticalFiles Job
+## Analysis Tasks for the UX_CriticalFiles Job
 
-Navigate to the __Unix__ > __2.Privileged Access__ > __UX\_CriticalFiles__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Unix__ > __2.Privileged Access__ > __UX_CriticalFiles__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -26,10 +26,10 @@ The default analysis task is:
 
 - Details critical file ownership, highlights top users
 
-  - Creates SA\_UX\_PrivilegedAccess\_CriticalFileOwnership table accessible under the job’s Results node
-  - Creates SA\_UX\_PrivilegedAccess\_CriticalFileOwners table accessible under the job’s Results node
+  - Creates SA_UX_PrivilegedAccess_CriticalFileOwnership table accessible under the job’s Results node
+  - Creates SA_UX_PrivilegedAccess_CriticalFileOwners table accessible under the job’s Results node
 
-In addition to the tables and views created by the analysis task, the UX\_CriticalFiles job produces the following preconfigured report:
+In addition to the tables and views created by the analysis task, the UX_CriticalFiles job produces the following preconfigured report:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

@@ -145,7 +145,7 @@ __Step 9 –__ Wait for the Web Interface to install, and then click __Finish__.
 
 __Step 10 –__ Start the Registry Editor (regedit.exe).
 
-__Step 11 –__ Expand the __HKEY\_LOCAL\_MACHINE__, __SOFTWARE__, __ANIXIS__, __ANIXIS Password Reset__, and __3.0__ registry keys.
+__Step 11 –__ Expand the __HKEY_LOCAL_MACHINE__, __SOFTWARE__, __ANIXIS__, __ANIXIS Password Reset__, and __3.0__ registry keys.
 
 __Step 12 –__ Set the __ServerIP__ registry value to the IP address of the computer that you installed the Password Reset Server onto.
 
@@ -157,15 +157,15 @@ Follow the steps below to configure the Web Interfaces to communicate with diffe
 
 __Step 1 –__ Start the Registry Editor (regedit.exe).
 
-__Step 2 –__ Expand the __HKEY\_LOCAL\_MACHINE__, __SOFTWARE__, __ANIXIS__, __ANIXIS Password Reset__, and __3.0__ registry keys.
+__Step 2 –__ Expand the __HKEY_LOCAL_MACHINE__, __SOFTWARE__, __ANIXIS__, __ANIXIS Password Reset__, and __3.0__ registry keys.
 
 __Step 3 –__ Clear the data in the __ServerIP__ registry value.
 
-__Step 4 –__ Create a REG\_SZ value for each Web Interface called ServerIP\_VDIR where VDIR is the name of the virtual directory.
+__Step 4 –__ Create a REG_SZ value for each Web Interface called ServerIP_VDIR where VDIR is the name of the virtual directory.
 
-For example, if the virtual directory is called Finance, then the registry value should be called ServerIP\_Finance.
+For example, if the virtual directory is called Finance, then the registry value should be called ServerIP_Finance.
 
-__Step 5 –__ Set each ServerIP\_VDIR value to the IP address of the Password Reset Server.
+__Step 5 –__ Set each ServerIP_VDIR value to the IP address of the Password Reset Server.
 
 ## Upgrading From NPR V3.x
 
@@ -254,7 +254,7 @@ Follow the steps below to configure the Password Reset Client to use IE 11 mode.
 
 __Step 1 –__ Start the Registry Editor (regedit.exe).
 
-__Step 2 –__ Expand the __HKEY\_LOCAL\_MACHINE__, __SOFTWARE__, __Microsoft__, __Internet Explorer__, __MAIN__, __FeatureControl__, and __FEATURE\_BROWSER\_EMULATION__ registry keys.
+__Step 2 –__ Expand the __HKEY_LOCAL_MACHINE__, __SOFTWARE__, __Microsoft__, __Internet Explorer__, __MAIN__, __FeatureControl__, and __FEATURE_BROWSER_EMULATION__ registry keys.
 
 __Step 3 –__ Create a new DWORD value called __LogonUI.exe__, and set it to 2AF8 (hex).
 

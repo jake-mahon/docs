@@ -1,10 +1,10 @@
-# FS\_FileTags Job
+# FS_FileTags Job
 
-The FS\_FileTags job is designed to report on resources classified with metadata file tags from targeted file servers.
+The FS_FileTags job is designed to report on resources classified with metadata file tags from targeted file servers.
 
-## Analysis Tasks for the FS\_FileTags Job
+## Analysis Tasks for the FS_FileTags Job
 
-View the analysis tasks by navigating to the __FileSystem__ > __4.Content__ > __Tags__ > __FS\_FileTags__ > __Configure__ node and select __Analysis__.
+View the analysis tasks by navigating to the __FileSystem__ > __4.Content__ > __Tags__ > __FS_FileTags__ > __Configure__ node and select __Analysis__.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,9 +12,9 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The following analysis task is selected by default:
 
-- List file tag details – Creates the SA\_FS\_FileTags\_Details table accessible under the job’s Results node
+- List file tag details – Creates the SA_FS_FileTags_Details table accessible under the job’s Results node
 
-In addition to the tables and views created by the analysis task, the FS\_FileTags job produces the following pre-configured report:
+In addition to the tables and views created by the analysis task, the FS_FileTags job produces the following pre-configured report:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

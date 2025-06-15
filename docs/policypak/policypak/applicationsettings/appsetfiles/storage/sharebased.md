@@ -34,7 +34,7 @@ Once you specify the share, you will see the AppSets added. When any Share-Based
 
 Any Share-Based Pak will show up in the Extension Location.
 
-Note that the specific shares you are using are preserved only on your administrative machine. However, you can mass-deliver Share-Based Storage locations to other Endpoint Policy Manager Application Settings Manager administrators quickly and automatically using the Group Policy Preferences Registry Extension. Simply specify the locations as REG\_MULTI\_SZ in the Paths value to``` HKEY_CURRENT_USER\Software\ PolicyPak\Config\MMC\CentralStores```.
+Note that the specific shares you are using are preserved only on your administrative machine. However, you can mass-deliver Share-Based Storage locations to other Endpoint Policy Manager Application Settings Manager administrators quickly and automatically using the Group Policy Preferences Registry Extension. Simply specify the locations as REG_MULTI_SZ in the Paths value to``` HKEY_CURRENT_USER\Software\ PolicyPak\Config\MMC\CentralStores```.
 
 ![policypak_application_settings_3_15](/img/product_docs/policypak/policypak/applicationsettings/appsetfiles/storage/policypak_application_settings_3_15.webp)
 

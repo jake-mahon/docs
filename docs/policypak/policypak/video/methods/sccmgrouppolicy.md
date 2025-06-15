@@ -32,7 +32,7 @@ All right, so we have our XML that we've just created. So we have our kill the C
 
 This actually does a few different things, but right now we want to "Create a new MSI installer." We'll click "Next," and we're going to "Add Existing Files" here so let's do that. Just let me get back to the "Desktop" here.
 
-I can do all of these at once actually. So I can choose "Shortcuts\_PolicyPak," "Rename Guest" and "No Control Panel" all at once. There we go. The "No Control Panel" is currently "Install For" "Users & Groups." I actually just want to put all three of them on the "Computer" side. And the "Target," of course, will be "All Users." I will click "Next."
+I can do all of these at once actually. So I can choose "Shortcuts_PolicyPak," "Rename Guest" and "No Control Panel" all at once. There we go. The "No Control Panel" is currently "Install For" "Users & Groups." I actually just want to put all three of them on the "Computer" side. And the "Target," of course, will be "All Users." I will click "Next."
 
 We can change the "Product Name," which is what shows up in Uninstall a Program or something like that. I'll just call it "GP Settings" and "Next," "Next." Keep with that convention: "GP Settings." Throw it right on the "Desktop." There we go, and we "Finish" up.
 

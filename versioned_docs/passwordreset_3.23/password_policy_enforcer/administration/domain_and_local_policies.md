@@ -43,7 +43,7 @@ __Step 5 –__ Right-click the __Registry__ item, and then select __New__ > __Re
 
 __Step 6 –__ Select the computer that contains the Password Policy Enforcer local configuration that you want to distribute, and then click __Next__.
 
-__Step 7 –__ Expand the __HKEY\_LOCAL\_MACHINE__, __SOFTWARE__, and __ANIXIS__ items.
+__Step 7 –__ Expand the __HKEY_LOCAL_MACHINE__, __SOFTWARE__, and __ANIXIS__ items.
 
 __Step 8 –__ Click the __Password Policy Enforcer 9.0__ item, and then select the check boxes beside each item in the bottom pane of the window.
 

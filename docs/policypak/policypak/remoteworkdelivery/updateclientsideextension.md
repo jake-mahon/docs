@@ -61,7 +61,7 @@ __Step 14 –__ Enable __Item Level Targeting__ and click __Edit__.
 ![778_8_image-20210113000713-8](/img/product_docs/policypak/policypak/remoteworkdelivery/778_8_image-20210113000713-8.webp)
 
 - Click on __New Item__ and select __Environment Variable__
-- Name = Processor\_Architecture
+- Name = Processor_Architecture
 - Value = AMD64 (for 64-bit) OR x86 (for 32-bit)
 - Click __OK__ to close
 

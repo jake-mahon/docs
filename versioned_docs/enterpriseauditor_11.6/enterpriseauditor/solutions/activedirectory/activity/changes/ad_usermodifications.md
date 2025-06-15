@@ -1,10 +1,10 @@
-# AD\_UserModifications Job
+# AD_UserModifications Job
 
-The AD\_UserModifications Job provides a report of all changes to user objects.
+The AD_UserModifications Job provides a report of all changes to user objects.
 
-## Analysis Tasks for the AD\_UserModifications Job
+## Analysis Tasks for the AD_UserModifications Job
 
-Navigate to the __Jobs__ > __Active Directory__ > __6.Activity__ > __Changes__ > __AD\_UserModifications__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Jobs__ > __Active Directory__ > __6.Activity__ > __Changes__ > __AD_UserModifications__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,10 +12,10 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The following non-configurable analysis tasks are selected by default:
 
-- All User Account Changes – Creates the SA\_AD\_UserModifications\_Details view accessible under the job’s Results node
-- Summary of Changes – Creates the SA\_AD\_userModifications\_userSummary table accessible under the job’s Results node
+- All User Account Changes – Creates the SA_AD_UserModifications_Details view accessible under the job’s Results node
+- Summary of Changes – Creates the SA_AD_userModifications_userSummary table accessible under the job’s Results node
 
-In addition to the tables created by the analysis tasks, the AD\_UserModifications Job produces the following pre-configured reports:
+In addition to the tables created by the analysis tasks, the AD_UserModifications Job produces the following pre-configured reports:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

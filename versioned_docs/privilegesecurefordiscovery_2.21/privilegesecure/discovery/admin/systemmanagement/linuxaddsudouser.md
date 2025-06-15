@@ -8,7 +8,7 @@ Linux: Add Sudo User to Ubuntu System
 
 __Step 1 –__ SSH into node. This will have to be done for each node.
 
-__Step 2 –__ Add  user, we’ll use ___example\_user___ and an example user: ```sudo adduser example_user```
+__Step 2 –__ Add  user, we’ll use ___example_user___ and an example user: ```sudo adduser example_user```
 
 __Step 3 –__ Set user password.
 
@@ -54,7 +54,7 @@ __Step 8 –__ Test that sudo still works: ```sudo date```
 
 __Step 9 –__ Exit to root with:  ```exit```
 
-__Step 10 –__ Switch to example\_user: ```sudo su - example_user```
+__Step 10 –__ Switch to example_user: ```sudo su - example_user```
 
 __Step 11 –__ Test that sudo works without password: ```sudo date```
 

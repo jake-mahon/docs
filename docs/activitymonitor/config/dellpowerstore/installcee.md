@@ -27,7 +27,7 @@ __Step 1 –__ Open the Registry Editor (run regedit).
 
 __Step 2 –__ Navigate to following location:
 
-HKEY\_LOCAL\_MACHINE\SOFTWARE\EMC\CEE\CEPP\AUDIT\Configuration
+HKEY_LOCAL_MACHINE\SOFTWARE\EMC\CEE\CEPP\AUDIT\Configuration
 
 __Step 3 –__ Right-click on __Enabled__ and select Modify. The Edit DWORD Value window opens.
 

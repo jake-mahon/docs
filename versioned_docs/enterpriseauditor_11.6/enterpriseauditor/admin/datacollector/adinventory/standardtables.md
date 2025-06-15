@@ -6,22 +6,22 @@ These tables and their associated views are outlined below:
 
 | Table | Details | AD Object Reference Article |
 | --- | --- | --- |
-| SA\_ADInventory\_AttributeChanges | Contains a list of principal identifiers and their corresponding attribute changes for each differential scan that is performed against a domain. | [Active Directory Schema](https://learn.microsoft.com/en-gb/windows/win32/adschema/active-directory-schema) |
-| SA\_ADInventory\_Computers | Contains extended information about computers, operating systems, service packs, etc. | [Computer class](https://learn.microsoft.com/en-gb/windows/win32/adschema/c-computer) |
-| SA\_ADInventory\_DistinguishedNames | Contains every distinguished name collected from principals and group membership. | [Attribute distinguishedName](https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-ada1/56da5a9b-485d-4d7c-a226-1a54a43d9013) |
-| SA\_ADInventory\_Domains | Contains information about the domain such as its naming context and when it was last scanned. | [Domain class](https://learn.microsoft.com/en-gb/windows/win32/adschema/c-domain) |
-| SA\_ADInventory\_EffectiveGroupMembers | Contains expanded group membership which includes a flattened representation of members. |  |
-| SA\_ADInventory\_Exceptions | Contains information about security issues and concerns.  __NOTE:__ See the [AD Exception Types Translated](#ad-exception-types-translated) topic for an explanation of Exception Types. |  |
-| SA\_ADInventory\_ExceptionTypes | Identifies how many instances of exceptions exist on the audited domain.  __NOTE:__ See the [AD Exception Types Translated](#ad-exception-types-translated) topic for an explanation of Exception Types. |  |
-| SA\_ADInventory\_Exchange | Contains information about the Exchange Server, each database and storage group, and the HomeMDB property. | [ms-Exch-Home-MDB Attribute](https://learn.microsoft.com/en-us/previous-versions/office/developer/exchange-server-2003/ms980583(v=exchg.65)) |
-| SA\_ADInventory\_ExtendedAttributes | Contains information gathered by the custom attributes component of the query configuration. | [Active Directory Schema](https://learn.microsoft.com/en-gb/windows/win32/adschema/active-directory-schema) |
-| SA\_ADInventory\_GroupMemberChanges | Contains a list of group principal identifiers and their corresponding membership changes for each differential scan that is performed against a domain. | [Member attribute](https://learn.microsoft.com/en-gb/windows/win32/adschema/a-member) |
-| SA\_ADInventory\_GroupMembers | Contains a map of groups to member distinguished names. | [Member attribute](https://learn.microsoft.com/en-gb/windows/win32/adschema/a-member) |
-| SA\_ADInventory\_Groups | Contains extended information about groups, group type, managed by, etc. | [Group class](https://learn.microsoft.com/en-gb/windows/win32/adschema/c-group) |
-| SA\_ADInventory\_ImportHistory | Contains a list of all imports performed against a particular domain along with when the import happened and the GUID of the domain controller that was scanned. |  |
-| SA\_ADInventory\_Principals | Contains common attributes for users, groups, and computers as well as references to their primary distinguished name and security identifiers. | [Security-Principal class](https://learn.microsoft.com/en-gb/windows/win32/adschema/c-securityprincipal) |
-| SA\_ADInventory\_SecurityIdentifiers | Contains every SID collected from the principals, including historical identifiers. | [Security-Identifier attribute](https://learn.microsoft.com/en-gb/windows/win32/adschema/a-securityidentifier) |
-| SA\_ADInventory\_Users | Contains extended information about users, department, title, etc. | [User class](https://learn.microsoft.com/en-gb/windows/win32/adschema/c-user) |
+| SA_ADInventory_AttributeChanges | Contains a list of principal identifiers and their corresponding attribute changes for each differential scan that is performed against a domain. | [Active Directory Schema](https://learn.microsoft.com/en-gb/windows/win32/adschema/active-directory-schema) |
+| SA_ADInventory_Computers | Contains extended information about computers, operating systems, service packs, etc. | [Computer class](https://learn.microsoft.com/en-gb/windows/win32/adschema/c-computer) |
+| SA_ADInventory_DistinguishedNames | Contains every distinguished name collected from principals and group membership. | [Attribute distinguishedName](https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-ada1/56da5a9b-485d-4d7c-a226-1a54a43d9013) |
+| SA_ADInventory_Domains | Contains information about the domain such as its naming context and when it was last scanned. | [Domain class](https://learn.microsoft.com/en-gb/windows/win32/adschema/c-domain) |
+| SA_ADInventory_EffectiveGroupMembers | Contains expanded group membership which includes a flattened representation of members. |  |
+| SA_ADInventory_Exceptions | Contains information about security issues and concerns.  __NOTE:__ See the [AD Exception Types Translated](#ad-exception-types-translated) topic for an explanation of Exception Types. |  |
+| SA_ADInventory_ExceptionTypes | Identifies how many instances of exceptions exist on the audited domain.  __NOTE:__ See the [AD Exception Types Translated](#ad-exception-types-translated) topic for an explanation of Exception Types. |  |
+| SA_ADInventory_Exchange | Contains information about the Exchange Server, each database and storage group, and the HomeMDB property. | [ms-Exch-Home-MDB Attribute](https://learn.microsoft.com/en-us/previous-versions/office/developer/exchange-server-2003/ms980583(v=exchg.65)) |
+| SA_ADInventory_ExtendedAttributes | Contains information gathered by the custom attributes component of the query configuration. | [Active Directory Schema](https://learn.microsoft.com/en-gb/windows/win32/adschema/active-directory-schema) |
+| SA_ADInventory_GroupMemberChanges | Contains a list of group principal identifiers and their corresponding membership changes for each differential scan that is performed against a domain. | [Member attribute](https://learn.microsoft.com/en-gb/windows/win32/adschema/a-member) |
+| SA_ADInventory_GroupMembers | Contains a map of groups to member distinguished names. | [Member attribute](https://learn.microsoft.com/en-gb/windows/win32/adschema/a-member) |
+| SA_ADInventory_Groups | Contains extended information about groups, group type, managed by, etc. | [Group class](https://learn.microsoft.com/en-gb/windows/win32/adschema/c-group) |
+| SA_ADInventory_ImportHistory | Contains a list of all imports performed against a particular domain along with when the import happened and the GUID of the domain controller that was scanned. |  |
+| SA_ADInventory_Principals | Contains common attributes for users, groups, and computers as well as references to their primary distinguished name and security identifiers. | [Security-Principal class](https://learn.microsoft.com/en-gb/windows/win32/adschema/c-securityprincipal) |
+| SA_ADInventory_SecurityIdentifiers | Contains every SID collected from the principals, including historical identifiers. | [Security-Identifier attribute](https://learn.microsoft.com/en-gb/windows/win32/adschema/a-securityidentifier) |
+| SA_ADInventory_Users | Contains extended information about users, department, title, etc. | [User class](https://learn.microsoft.com/en-gb/windows/win32/adschema/c-user) |
 
 Views are the recommended way for you to obtain the information gathered by the ADInventory Data Collector. They contain additional information for building queries easily.
 
@@ -29,15 +29,15 @@ The following is an explanation of the corresponding views created for some of t
 
 | Views | Details |
 | --- | --- |
-| SA\_ADInventory\_AttributeChangesView | Contains attribute change information |
-| SA\_ADInventory\_ComputersView | Contains computer information |
-| SA\_ADInventory\_EffectiveGroupMembersView | Contains effective group membership information |
-| SA\_ADInventory\_ExceptionsView | Contains principals that are identified to have security concerns |
-| SA\_ADInventory\_GroupMemberChangesView | Contains group membership change information |
-| SA\_ADInventory\_GroupMembersView | Contains group membership information |
-| SA\_ADInventory\_GroupsView | Contains group level information |
-| SA\_ADInventory\_PrincipalsView | Contains common attributes from the principals table including additional domain details |
-| SA\_ADInventory\_UsersView | Contains user information |
+| SA_ADInventory_AttributeChangesView | Contains attribute change information |
+| SA_ADInventory_ComputersView | Contains computer information |
+| SA_ADInventory_EffectiveGroupMembersView | Contains effective group membership information |
+| SA_ADInventory_ExceptionsView | Contains principals that are identified to have security concerns |
+| SA_ADInventory_GroupMemberChangesView | Contains group membership change information |
+| SA_ADInventory_GroupMembersView | Contains group membership information |
+| SA_ADInventory_GroupsView | Contains group level information |
+| SA_ADInventory_PrincipalsView | Contains common attributes from the principals table including additional domain details |
+| SA_ADInventory_UsersView | Contains user information |
 
 ### AD Exception Types Translated
 

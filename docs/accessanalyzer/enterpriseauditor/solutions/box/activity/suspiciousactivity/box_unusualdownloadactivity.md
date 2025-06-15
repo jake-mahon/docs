@@ -1,10 +1,10 @@
-# Box\_UnusualDownloadActivity Job
+# Box_UnusualDownloadActivity Job
 
-The Box\_UnusualDownloadActivity Job highlights unusual download activity for a user on a specific day by analyzing the download activity for a given user and looking for outliers. Unusual download activity could indicate a compromised account or a malicious insider.
+The Box_UnusualDownloadActivity Job highlights unusual download activity for a user on a specific day by analyzing the download activity for a given user and looking for outliers. Unusual download activity could indicate a compromised account or a malicious insider.
 
-## Analysis Task for the Box\_UnusualDownloadActivity Job
+## Analysis Task for the Box_UnusualDownloadActivity Job
 
-Navigate to __Box__ > __1.Activity__ > __Suspicious Activity__ > __Box\_UnusualDownloadActivity__ > __Configure__ node and select __Analysis__ to view analysis tasks.
+Navigate to __Box__ > __1.Activity__ > __Suspicious Activity__ > __Box_UnusualDownloadActivity__ > __Configure__ node and select __Analysis__ to view analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,9 +12,9 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The following analysis task is selected by default:
 
-- Unusual Download Activity – Creates the Box\_UnusualDownload\_Details table accessible under the job’s Results node
+- Unusual Download Activity – Creates the Box_UnusualDownload_Details table accessible under the job’s Results node
 
-In addition to the tables created by the analysis tasks, the Box\_UnusualDownloadActivity Job produces the following pre-configured report:
+In addition to the tables created by the analysis tasks, the Box_UnusualDownloadActivity Job produces the following pre-configured report:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

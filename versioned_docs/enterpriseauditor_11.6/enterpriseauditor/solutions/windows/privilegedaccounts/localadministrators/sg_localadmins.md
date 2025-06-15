@@ -1,22 +1,22 @@
-# SG\_LocalAdmins Job
+# SG_LocalAdmins Job
 
-The SG\_LocalAdmins job identifies the effective membership for all local administrator groups. The purpose of this job is to gain an understanding of what accounts within the environment are privileged and should be monitored closely.
+The SG_LocalAdmins job identifies the effective membership for all local administrator groups. The purpose of this job is to gain an understanding of what accounts within the environment are privileged and should be monitored closely.
 
-## Queries for the SG\_LocalAdmins Job
+## Queries for the SG_LocalAdmins Job
 
-The SG\_LocalAdmins job uses the UsersGroups Data Collector for the following query:
+The SG_LocalAdmins job uses the UsersGroups Data Collector for the following query:
 
 __CAUTION:__ The query is preconfigured for this job. Never modify the query.
 
 ![Queries for the SG_LocalAdmins Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/windows/privilegedaccounts/localadministrators/localadminsquery.png)
 
-The query for the SG\_LocalAdmins job is:
+The query for the SG_LocalAdmins job is:
 
 - Direct Membership – Returns direct membership from targeted hosts
 
-## Analysis Tasks for the SG\_LocalAdmins Job
+## Analysis Tasks for the SG_LocalAdmins Job
 
-Navigate to the __Windows__ > __Privileged Accounts__ > __Local Administrators__ > __SG\_LocalAdmins__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Windows__ > __Privileged Accounts__ > __Local Administrators__ > __SG_LocalAdmins__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -24,12 +24,12 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The default analysis tasks are:
 
-- Expand Effective Membership – Creates the SA\_SG\_LocalAdmins\_Details table accessible under the job’s Results node
-- Membership Summary – Creates the SA\_SG\_LocalAdmins\_MembershipSummary table accessible under the job’s Results node
-- Privileged Accounts – Creates the SA\_SG\_LocalAdmins\_PrivilegedAccounts table accessible under the job’s Results node
-- Track Changes – Creates the SA\_SG\_LocalAdmins\_Changes table accessible under the job’s Results node
+- Expand Effective Membership – Creates the SA_SG_LocalAdmins_Details table accessible under the job’s Results node
+- Membership Summary – Creates the SA_SG_LocalAdmins_MembershipSummary table accessible under the job’s Results node
+- Privileged Accounts – Creates the SA_SG_LocalAdmins_PrivilegedAccounts table accessible under the job’s Results node
+- Track Changes – Creates the SA_SG_LocalAdmins_Changes table accessible under the job’s Results node
 
-In addition to the tables created by the analysis tasks, the SG\_LocalAdmins job produces the following pre-configured reports.
+In addition to the tables created by the analysis tasks, the SG_LocalAdmins job produces the following pre-configured reports.
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |
@@ -39,6 +39,6 @@ In addition to the tables created by the analysis tasks, the SG\_LocalAdmins job
 
 ## Least Privilege Model
 
-The SG\_LocalAdmins job typically uses an account that is a member of the Local Administrators group on the target host. However if a less-privileged option is required, you can instead use a regular domain user that has been added to the __Network access: Restrict clients allowed to make remote calls to SAM__ Local Security Policy.
+The SG_LocalAdmins job typically uses an account that is a member of the Local Administrators group on the target host. However if a less-privileged option is required, you can instead use a regular domain user that has been added to the __Network access: Restrict clients allowed to make remote calls to SAM__ Local Security Policy.
 
 ![User added to the Local Securtiy Policy](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/windows/privilegedaccounts/localadministrators/leastprivilegemodel.png)

@@ -1,10 +1,10 @@
-# Redshift\_SensitiveDataScan Job
+# Redshift_SensitiveDataScan Job
 
 This job discovers sensitive data in PostgreSQL databases on pre-defined or user-defined criteria.
 
-## Queries for the Redshift\_SensitiveData Scan Job
+## Queries for the Redshift_SensitiveData Scan Job
 
-The Redshift\_SensitiveDataScan Job uses the SQL Data Collector for queries.
+The Redshift_SensitiveDataScan Job uses the SQL Data Collector for queries.
 
 ![Query Selection](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/redshift/collection/collectionsensitivedataquery.png)
 
@@ -14,9 +14,9 @@ The query is:
 
 ## Recommended Configuration for the SensitiveDataScan Query
 
-The Redshift\_SensitiveDataScan Job is preconfigured to run using the default settings for the Sensitive Data Collection category. It is necessary only to set up the connection for the Redshift- SensitiveDataScan Job. Once the connection is established, it applies to any other 0.Collection job query. Follow the steps to customize configurations.
+The Redshift_SensitiveDataScan Job is preconfigured to run using the default settings for the Sensitive Data Collection category. It is necessary only to set up the connection for the Redshift- SensitiveDataScan Job. Once the connection is established, it applies to any other 0.Collection job query. Follow the steps to customize configurations.
 
-__Step 1 –__ Navigate to the __Databases__ > __0.Collection__ > __Redshift__ > __Redshift\_SensitiveDataScan__ > __Configure__ node and select Queries.
+__Step 1 –__ Navigate to the __Databases__ > __0.Collection__ > __Redshift__ > __Redshift_SensitiveDataScan__ > __Configure__ node and select Queries.
 
 __Step 2 –__ In the Query Selection view, select the Redshift Sensitive Data Scan query click on Query Properties. The Query Properties window appears.
 
@@ -83,11 +83,11 @@ The selected database objects to be audited display.
 
 __Step 15 –__ Click __Next__ and navigate to the Summary page, click Finish to save any setting modifications or click Cancel if no changes were made. Then click OK to close the Query Properties window.
 
-The 1-Db2\_SensitsveDataScan Job is now ready to run with the customized settings.
+The 1-Db2_SensitsveDataScan Job is now ready to run with the customized settings.
 
-## Analysis Tasks for the Redshift\_SensitiveDataScan
+## Analysis Tasks for the Redshift_SensitiveDataScan
 
-Navigate to the ____Databases > 0.Collection >__Redshift >__ __Redshift\_SensitiveDataScan__ > __Configure__ node and select __Analysis__ to view the Analysis Tasks. The Analysis tasks do not require any configuration as they just populate the reports with the collected information and do not collect data themselves.
+Navigate to the ____Databases > 0.Collection >__Redshift >__ __Redshift_SensitiveDataScan__ > __Configure__ node and select __Analysis__ to view the Analysis Tasks. The Analysis tasks do not require any configuration as they just populate the reports with the collected information and do not collect data themselves.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -95,7 +95,7 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The default analysis tasks are:
 
-- Bring SA\_SQL\_Instances to View — Displays the SA\_SQL\_Instances table
+- Bring SA_SQL_Instances to View — Displays the SA_SQL_Instances table
 - Redshift SDD Matches View — Brings the Redshift SDD Matches View to the Enterprise Auditor console
-- Redshift SDD Matches Hits View — Brings the SA\_SQL Match Hits View to the Enterprise Auditor console
+- Redshift SDD Matches Hits View — Brings the SA_SQL Match Hits View to the Enterprise Auditor console
 - Redshift ADD AIC Import —Imports Redshift SDD into the AIC

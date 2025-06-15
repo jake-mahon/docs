@@ -123,7 +123,7 @@ Additional Considerations
 
 The scoping options listed above can be used to scope for SMB shares and NFS exports but NFS exports are enumerated differently. The include/exclude logic outlined above should be the same for both, but when scoping for NFS exports the Resource Name should be the full path to the export.
 
-For example, in the scenario below, the NFS export named NFS\_Export is included. All other exports are excluded. Within the NFS\_Export export, folder path \ifs\NFS\_Export\Test\_Folder is included. All other folder paths are excluded.
+For example, in the scenario below, the NFS export named NFS_Export is included. All other exports are excluded. Within the NFS_Export export, folder path \ifs\NFS_Export\Test_Folder is included. All other folder paths are excluded.
 
 ![FSAA Scoping Options NFS export example](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/commonscopingoptionsnfsexports.webp)
 

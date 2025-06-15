@@ -6,5 +6,5 @@ This job group provides insight into all types of permissions at the database an
 
 The jobs in the Permission job group are:
 
-- [Db2\_DirectPermissions Job](/docs/accessanalyzer/enterpriseauditor/solutions/databases/db2/permissions/db2_directpermissions.md) – Provides insight into direct user and role permissions to all the database objects in the targeted Db2 database servers
-- [Db2\_EffectivePermissions Job](/docs/accessanalyzer/enterpriseauditor/solutions/databases/db2/permissions/db2_effectivepermissions.md) – Provides insight into effective user and role permissions to all the database objects in the targeted Db2 database servers
+- [Db2_DirectPermissions Job](/docs/accessanalyzer/enterpriseauditor/solutions/databases/db2/permissions/db2_directpermissions.md) – Provides insight into direct user and role permissions to all the database objects in the targeted Db2 database servers
+- [Db2_EffectivePermissions Job](/docs/accessanalyzer/enterpriseauditor/solutions/databases/db2/permissions/db2_effectivepermissions.md) – Provides insight into effective user and role permissions to all the database objects in the targeted Db2 database servers

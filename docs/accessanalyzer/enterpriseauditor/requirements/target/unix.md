@@ -88,9 +88,9 @@ perl [script]
 rm -f [script]
 ```
 
-#### UX\_UsersAndGroups Job Requirements
+#### UX_UsersAndGroups Job Requirements
 
-The 1.Users and Groups > 0.Collection > UX\_UsersAndGroups Job requires permissions in the Unix environment to run the following commands:
+The 1.Users and Groups > 0.Collection > UX_UsersAndGroups Job requires permissions in the Unix environment to run the following commands:
 
 Commands Used
 
@@ -118,17 +118,17 @@ SA_UX_AIX_User.pl
 SA_UX_AIX_UserLastUpdate.pl
 ```
 
-#### UX\_MakeDirectory Job Requirements
+#### UX_MakeDirectory Job Requirements
 
-The 2.PrivilegedAccess > Sudoers > 0.Collection > UX\_MakeDirectory Job requires permissions in the Unix environment to run the following commands:
+The 2.PrivilegedAccess > Sudoers > 0.Collection > UX_MakeDirectory Job requires permissions in the Unix environment to run the following commands:
 
 Commands Used
 
 - ```mkdir /tmp/Stealthbits/```
 
-#### UX\_ParseSudoers Job Requires
+#### UX_ParseSudoers Job Requires
 
-The 2.PrivilegedAccess > Sudoers > 0.Collection > UX\_ParseSudoers Job requires permissions in the Unix environment to run the following commands:
+The 2.PrivilegedAccess > Sudoers > 0.Collection > UX_ParseSudoers Job requires permissions in the Unix environment to run the following commands:
 
 __NOTE:__ To parse sudoers we either need root or an account that has access to use sudo without password prompt (:NOPASSWD)
 
@@ -147,9 +147,9 @@ SA_UX_ParseSudoers.pl
 
 This grants read access to  ```/etc/sudoers```
 
-#### UX\_CriticalFiles Job Requires
+#### UX_CriticalFiles Job Requires
 
-The 2.PrivilegedAccess > UX\_Critical Files Job requires permissions in the Unix environment to run the following commands:
+The 2.PrivilegedAccess > UX_Critical Files Job requires permissions in the Unix environment to run the following commands:
 
 Commands Used
 
@@ -157,9 +157,9 @@ Commands Used
 - ```ls -al /etc/samba/```
 - ```ls -al /etc/sysconfig```
 
-#### UX\_NFSConfiguration Job Requires
+#### UX_NFSConfiguration Job Requires
 
-The 3.Sharing > 0.Collection > UX\_NFSConfiguration Job requires permissions in the Unix environment to run the following commands:
+The 3.Sharing > 0.Collection > UX_NFSConfiguration Job requires permissions in the Unix environment to run the following commands:
 
 Perl Scripts Used
 
@@ -172,9 +172,9 @@ This grants:
 - read access to ```/etc/exports```
 - read access to ```/etc/dfs/dfstab```
 
-#### UX\_SambaConfiguration Job Requires
+#### UX_SambaConfiguration Job Requires
 
-The 3.Sharing > 0.Collection > UX\_SambaConfiguration Job requires permissions in the Unix environment to run the following commands:
+The 3.Sharing > 0.Collection > UX_SambaConfiguration Job requires permissions in the Unix environment to run the following commands:
 
 Perl Scripts Used
 

@@ -141,7 +141,7 @@ A good starting point for the Entity Model is to mirror the shape of the Microso
 
 ##### Example
 
-This example defines the entity types named MicrosoftExchange\_Database and MicrosoftExchange\_Mailbox.
+This example defines the entity types named MicrosoftExchange_Database and MicrosoftExchange_Mailbox.
 
 Notice the omitted __TargetColumnIndex__ attribute and the presence of Type="ForeignKey" for the Mailboxes and Database properties. If omitted, this attribute indicates that the properties are navigation properties.
 
@@ -160,7 +160,7 @@ Entity Type Mapping
 
 ##### Example
 
-In this example, the CSV source files are microsoftexchange\_databases.csv and microsoftexchange\_mailboxes.csv located in the [Application Settings](/docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) folder.
+In this example, the CSV source files are microsoftexchange_databases.csv and microsoftexchange_mailboxes.csv located in the [Application Settings](/docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) folder.
 
 ```
 Conf/MicrosoftExchange/MicrosoftExchange Connector.xml
@@ -196,8 +196,8 @@ Entity Association Mapping
 
 ##### Example
 
-This example describes the mailbox/database associations between MicrosoftExchange\_Mailbox and MicrosoftExchange\_Database.
-Thanks to the __Export__ Microsoft Exchange job, the file microsoftexchange\_mailboxes.csv is generated.
+This example describes the mailbox/database associations between MicrosoftExchange_Mailbox and MicrosoftExchange_Database.
+Thanks to the __Export__ Microsoft Exchange job, the file microsoftexchange_mailboxes.csv is generated.
 This file looks like:
 
 ```
@@ -222,7 +222,7 @@ The following table can be extracted from the CSV file:
 | aab57e15-847b-4e16-96f1-82ebc54c01e2 | DB1 |
 | ea513604-3758-463f-9b72-6c42ea949260 | DB2 |
 
-It means that the MicrosoftExchange\_Mailbox with Guid ? 4ecbdba7-e984-409a-a9ac-6027ac81fa42 is contained in the MicrosoftExchange\_Database with Name ? Mailbox Database 1882404652. This association is created for every line in the CSV file, and therefore also for every line in the table above.
+It means that the MicrosoftExchange_Mailbox with Guid ? 4ecbdba7-e984-409a-a9ac-6027ac81fa42 is contained in the MicrosoftExchange_Database with Name ? Mailbox Database 1882404652. This association is created for every line in the CSV file, and therefore also for every line in the table above.
 
 This can be enabled with an __EntityAssociationMapping__ like in the following XML:
 
@@ -265,11 +265,11 @@ Conf/MicrosoftExchange/Directory User Role Model MicrosoftExchange.xml"
 
 ```
 
-The TargetEntityType is MicrosoftExchange\_Mailbox and the SourceEntityType is Directory\_User.
+The TargetEntityType is MicrosoftExchange_Mailbox and the SourceEntityType is Directory_User.
 
 This Resource Type allows Identity Manager to compute the values used when fulfilling the external system.
 
-Finally, the Navigation Rule sets the property Database of the entity MicrosoftExchange\_Mailbox. See the 
+Finally, the Navigation Rule sets the property Database of the entity MicrosoftExchange_Mailbox. See the 
 Fulfill Microsoft Exchange via PowerShell
  topic for additional information.
 
@@ -550,7 +550,7 @@ To update or delete an existing mailbox, the Active Directory part can be skippe
 
 #### Interface display
 
-The Synchronization job should be found in the UI, under the __Job Execution__ menu, with the name input in the Job's __DisplayName\_Li__ attribute.
+The Synchronization job should be found in the UI, under the __Job Execution__ menu, with the name input in the Job's __DisplayName_Li__ attribute.
 
 ![Microsoft Exchange Jobs](/img/product_docs/usercube/usercube/integration-guide/connectors/how-tos/powershell-fulfill/microsoftexchange_jobs_5.1.7.webp)
 

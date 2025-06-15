@@ -18,7 +18,7 @@ Figure 8. Using the Group Policy Editor to make a new Endpoint Policy Manager Sc
 
 __Step 3 –__ When you do this, the Endpoint Policy Manager Scripts & Triggers Manager Wizard appears. Click "Next" to continue.
 
-__Step 4 –__ At the "On apply action" page, select "PowerShell script," then paste in the contents from the PS\Create\_PolicyPak\_Shortcut.ps1 file from the PS folder included in the downloaded examples. The result can be seen in Figure 9.
+__Step 4 –__ At the "On apply action" page, select "PowerShell script," then paste in the contents from the PS\Create_PolicyPak_Shortcut.ps1 file from the PS folder included in the downloaded examples. The result can be seen in Figure 9.
 
 ![getting_to_know_scripts_triggers_5](/img/product_docs/policypak/policypak/scriptstriggers/gettoknow/getting_to_know_scripts_triggers_5.webp)
 
@@ -28,7 +28,7 @@ It should be noted that "Run interactively" is not checked in this example. This
 
 __NOTE:__ The "Run interactively" option is not available when the policy specifies that a script is meant for computers.
 
-__Step 5 –__ On the "On revert action" page, select "PowerShell script," then copy in the Remove\_PolicyPak\_Shortcut.ps1 script contents, as seen in Figure 10.
+__Step 5 –__ On the "On revert action" page, select "PowerShell script," then copy in the Remove_PolicyPak_Shortcut.ps1 script contents, as seen in Figure 10.
 
 ![getting_to_know_scripts_triggers_6](/img/product_docs/policypak/policypak/scriptstriggers/gettoknow/getting_to_know_scripts_triggers_6.webp)
 

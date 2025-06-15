@@ -125,7 +125,7 @@ The _InternalDisplayName_ property will be used as a default label of the entity
 
 #### Database mapping
 
-Resources from the __resource repository__ are stored in the generic UR\_Resources table.
+Resources from the __resource repository__ are stored in the generic UR_Resources table.
 
 This table has:
 
@@ -133,9 +133,9 @@ This table has:
 
 - 25 columns to store mono-valued navigational properties values (index 128 to 152). These columns are named ```I0``` to ```I4N``` following a base-32 convention for naming.
 
-_Multi-valued navigation property_ values are stored in the UR\_ResourceLinks junction table.
+_Multi-valued navigation property_ values are stored in the UR_ResourceLinks junction table.
 
-Binary property values (such as pictures or files) are stored in the UR\_ResourceFiles table.
+Binary property values (such as pictures or files) are stored in the UR_ResourceFiles table.
 
 ### Mapping
 

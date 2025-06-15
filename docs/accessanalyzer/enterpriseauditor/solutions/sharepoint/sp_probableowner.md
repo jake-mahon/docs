@@ -1,14 +1,14 @@
-# 5.Probable Owner > SP\_ProbableOwner Job
+# 5.Probable Owner > SP_ProbableOwner Job
 
-The SP\_ProbableOwner Job aids in the identification of probable owners for Site Collections and Sites, which can be used for entitlement reviews. Probably Owner calculation is based on file ownership, management structure, and file activity. The goal of this report is to help you identify who most likely owns the SharePoint resource or at least someone who can tell you who does.
+The SP_ProbableOwner Job aids in the identification of probable owners for Site Collections and Sites, which can be used for entitlement reviews. Probably Owner calculation is based on file ownership, management structure, and file activity. The goal of this report is to help you identify who most likely owns the SharePoint resource or at least someone who can tell you who does.
 
 ![5.Probable Owner > SP_ProbableOwner Job in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/probableownerjobstree.webp)
 
-The SP\_ProbableOwner Job is located in the 5.Probable Owner Job Group.
+The SP_ProbableOwner Job is located in the 5.Probable Owner Job Group.
 
-## Analysis Tasks for the SP\_ProbableOwner Job
+## Analysis Tasks for the SP_ProbableOwner Job
 
-Navigate to the __Jobs__ > __SharePoint__ > __5.Probable Owner__ > __SP\_ProbableOwner__ >__Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Jobs__ > __SharePoint__ > __5.Probable Owner__ > __SP_ProbableOwner__ >__Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis task is preconfigured for this job.
 
@@ -16,9 +16,9 @@ __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis 
 
 The default analysis tasks are:
 
-- Identify Probable Owners – Creates the SA\_SP\_SiteProbablyOwners\_Details table accessible under the job’s Results node
+- Identify Probable Owners – Creates the SA_SP_SiteProbablyOwners_Details table accessible under the job’s Results node
 
-In addition to the table created by the analysis task which displays probable ownership, the SP\_ProbableOwner Job produces the following pre-configured report:
+In addition to the table created by the analysis task which displays probable ownership, the SP_ProbableOwner Job produces the following pre-configured report:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

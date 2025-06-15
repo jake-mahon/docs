@@ -15,14 +15,14 @@ To run the Netwrix Auditor installation, you must be a member of the local Admin
     ```Netwrix_Auditor.exe -d%Temp%```
 
    where %Temp% can be replaced with any folder you want to extract the file to.
-4. Navigate to this directory and locate Netwrix\_Auditor\_client.msi.
+4. Navigate to this directory and locate Netwrix_Auditor_client.msi.
 
 ## Create and Distribute Installation Package
 
 1. Create a shared folder that will be used for distributing the installation package.
 
    Make sure that the folder is accessible from computers where the Netwrix Auditor clients are going to be deployed. You must grant the Read permissions on this folder to these computer accounts.
-2. Copy Netwrix\_Auditor\_client.msi to the shared folder.
+2. Copy Netwrix_Auditor_client.msi to the shared folder.
 
 ## Create a Group Policy to Deploy Netwrix Auditor
 
@@ -42,7 +42,7 @@ __Step 4 –__ In the Group Policy Management Editor dialog, expand the __Comput
 
 __Step 5 –__ In the right page, right-click and select New → Package.
 
-__Step 6 –__ In the dialog that opens, locate Netwrix\_Auditor\_client.msi and click Open.
+__Step 6 –__ In the dialog that opens, locate Netwrix_Auditor_client.msi and click Open.
 
 __Step 7 –__ In the Deploy Software dialog, select Advanced.
 

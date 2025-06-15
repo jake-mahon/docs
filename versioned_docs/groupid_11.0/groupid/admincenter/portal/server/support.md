@@ -29,7 +29,7 @@ What do you want to do?
 3. Click __GroupID Support__ under __Server Settings__; the __GroupID Support__ page is displayed.
 4. In the __Help URL__ box, update the URL of the portal help pages, where portal users can find support content or report their problems. This URL is mapped to the __Help__ icon in the portal.
 5. Enable the __Netwrix Help__ toggle button if the help URL points to the portal help published by Netwrix. For GroupID 11, this URL is as:  
-   https://helpcenter.netwrix.com/bundle/GroupID\_11.0/page  
+   https://helpcenter.netwrix.com/bundle/GroupID_11.0/page  
    Disable the __Netwrix Help__ toggle button if the help URL points to help pages other than Netwrix help, such as when it points to your company’s internal help pages.
 6. Click __Save__.
 

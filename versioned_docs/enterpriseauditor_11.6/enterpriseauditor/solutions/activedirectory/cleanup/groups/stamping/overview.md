@@ -6,5 +6,5 @@ The 2. Group Stamping Job Group updates the Notes attribute for all security gro
 
 The jobs in the 2. Group Stamping Job Group are:
 
-- [AD\_GroupCleanup\_Permissions Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/cleanup/groups/stamping/ad_groupcleanup_permissions.md) – Reports on where security groups are being used to assign permissions
-- [AD\_GroupStamping Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/cleanup/groups/stamping/ad_groupstamping.md) – Updates the Note attribute for all security groups to show where the group is provisioned inside of the environment
+- [AD_GroupCleanup_Permissions Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/cleanup/groups/stamping/ad_groupcleanup_permissions.md) – Reports on where security groups are being used to assign permissions
+- [AD_GroupStamping Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/cleanup/groups/stamping/ad_groupstamping.md) – Updates the Note attribute for all security groups to show where the group is provisioned inside of the environment

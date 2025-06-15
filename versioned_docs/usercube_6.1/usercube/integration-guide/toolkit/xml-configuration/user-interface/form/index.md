@@ -44,9 +44,9 @@ When ```WorkflowRequestType``` is set to ```Helpdesk```, then the finalization s
 | --- | --- |
 | Activity   optional | __Type__    Int64   __Description__   Defines the linked activity template. |
 | ActivityState   optional | __Type__    Enumeration   __Description__   Defines the linked activity state template. |
-| AddRowLabel\_L1   optional | __Type__    String   __Description__   Defines the "add row" button label when using WorkflowUpdateSeveralRecordsEntityForm. |
+| AddRowLabel_L1   optional | __Type__    String   __Description__   Defines the "add row" button label when using WorkflowUpdateSeveralRecordsEntityForm. |
 | EntityType   required | __Type__    Int64   __Description__   Represents the linked entity type. |
-| FormTitle\_L1   optional | __Type__    String   __Description__   Title of the form in language 1 (up to 16). |
+| FormTitle_L1   optional | __Type__    String   __Description__   Title of the form in language 1 (up to 16). |
 | FormType   default value: Auto | __Type__    FormType   __Description__   Represents the linked form type. |
 | HideRecordAddButton   default value: false | __Type__    Boolean   __Description__   ```true``` to hide the button used to add a new record. |
 | HideRecordRemoveButton   default value: false | __Type__    Boolean   __Description__   ```true``` to hide the button used to remove an existing record. |
@@ -56,7 +56,7 @@ When ```WorkflowRequestType``` is set to ```Helpdesk```, then the finalization s
 | IsDefaultViewForm   default value: false | __Type__    Boolean   __Description__   Entity type default view form. |
 | IsDeleteForm   default value: false | __Type__    Boolean   __Description__   Is a delete form. |
 | MainProperty   optional | __Type__    Int64   __Description__   Represents the form main property. |
-| MainPropertyLabel\_L1   optional | __Type__    String   __Description__   Defines the main property label text. |
+| MainPropertyLabel_L1   optional | __Type__    String   __Description__   Defines the main property label text. |
 | Menu   optional | __Type__    Int64   __Description__   Defines the linked menu item. |
 | RecordEndProperty   optional | __Type__    Int64   __Description__   Defines the workflow end date property. If not specified, the property �EndDate' of the record entity type is considered as RecordEndProperty. |
 | RecordFilter   default value: CurrentAndFuture | __Type__    RecordFilter   __Description__   Defines the record display option.   ```0``` - Current: shows current positions.   ```1``` - CurrentAndFuture: shows current and future positions. Recommended.   ```2``` - All: shows past, present and future positions. Not recommended for clarity issues. |
@@ -64,8 +64,8 @@ When ```WorkflowRequestType``` is set to ```Helpdesk```, then the finalization s
 | RecordSortProperty   optional | __Type__    Int64   __Description__   Defines the workflow sort property. |
 | RecordStartProperty   optional | __Type__    Int64   __Description__   Defines the workflow start date property. If not specified, the property �StartDate' of the record entity type is considered as RecordStartProperty. |
 | RecordTable   optional | __Type__    Int64   __Description__   Identifier of the display table to be used to display resources' records in a workflow. |
-| RemoveRowLabel\_L1   optional | __Type__    String   __Description__   Defines the "remove row" button label when using WorkflowUpdateSeveralRecordsEntityForm. |
-| TableTitle\_L1   optional | __Type__    String   __Description__   Defines the table title when using WorkflowUpdateSeveralRecordsEntityForm. |
+| RemoveRowLabel_L1   optional | __Type__    String   __Description__   Defines the "remove row" button label when using WorkflowUpdateSeveralRecordsEntityForm. |
+| TableTitle_L1   optional | __Type__    String   __Description__   Defines the table title when using WorkflowUpdateSeveralRecordsEntityForm. |
 | WorkflowRequestType   default value: 0 | __Type__    WorkflowRequestType   __Description__   Type of the request of the related workflow.   ```0``` - None.   ```1``` - Self.   ```2``` - Helpdesk.   ```3``` - Administration. |
 
 ## Child Element: Control
@@ -94,7 +94,7 @@ In this example is a tree control which defines the relationships between a work
 | Binding3   optional | __Type__    Int64   __Description__   Identifier of the binding property used to represent the third manager level (N+3) in the organization chart. It must be a mono-valued navigation. Cannot be used when ```Binding2``` is not defined. |
 | ColumnSize   optional | __Type__    Int32   __Description__   Defines the control column size. |
 | DefaultValueBinding   optional | __Type__    Int64   __Description__   Automatically sets the value in the control depending on this binding and the selected value in another corresponding picker.   It's only available for controls with picker.   _For example:   ```<Control Binding="Location" DefaultValueBinding="Organization.Manager.MainLocation" />```   After a selection of an organization in another picker in the form, the field location will be automatically set by the main location of the manager of the selected organization._ |
-| DisplayName\_L1   optional | __Type__    String   __Description__   Display name of the control in language 1 (up to 16). |
+| DisplayName_L1   optional | __Type__    String   __Description__   Display name of the control in language 1 (up to 16). |
 | DisplayTable   optional | __Type__    Int64   __Description__   Identifier of the table. |
 | EmbeddedForm   optional | __Type__    Int64   __Description__   Identifier of the form to insert in the control. With this method, one form can be imported to several forms.   __Warning:__ can be used only with ```OutputType``` set to ```TransformImport```. |
 | EntityType   optional | __Type__    Int64   __Description__   Represents the linked entity type. |
@@ -111,5 +111,5 @@ In this example is a tree control which defines the relationships between a work
 | NavigationBinding   optional | __Type__    Int64   __Description__   Defines the binding of the resource on which the user will be redirected when he clicks on an element of a BasicCollection. If not defined, the one defined in DisplayEntityProperty is used. |
 | OutputType   default value: Inherited | __Type__    Enumeration   __Description__   Output type of the control. |
 | ParentControl   optional | __Type__    Int64   __Description__   Defines the parent form control. |
-| PlaceHolderText\_L1   optional | __Type__    String   __Description__   Defines the place holder text. |
+| PlaceHolderText_L1   optional | __Type__    String   __Description__   Defines the place holder text. |
 | Tile   optional | __Type__    Int64   __Description__   Identifier of the tile. |

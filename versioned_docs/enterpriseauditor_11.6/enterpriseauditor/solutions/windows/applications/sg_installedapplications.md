@@ -1,22 +1,22 @@
-# SG\_InstalledApplications Job
+# SG_InstalledApplications Job
 
-The SG\_InstalledApplications job identifies installed applications on all targeted hosts.
+The SG_InstalledApplications job identifies installed applications on all targeted hosts.
 
-## Queries for the SG\_InstalledApplications Job
+## Queries for the SG_InstalledApplications Job
 
-The SG\_InstalledApplications job uses the WMICollector Data Collector for the following query:
+The SG_InstalledApplications job uses the WMICollector Data Collector for the following query:
 
 __CAUTION:__ The query is preconfigured for this job. Never modify the query.
 
 ![Queries for the SG_InstalledApplications Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/windows/applications/installedapplicationsquery.png)
 
-The query for the SG\_InstalledApplications job are:
+The query for the SG_InstalledApplications job are:
 
 - Installed Applications – Targets all Windows servers known to Enterprise Auditor to determine installed applications
 
-## Analysis Tasks for the SG\_InstalledApplications Job
+## Analysis Tasks for the SG_InstalledApplications Job
 
-Navigate to the __Windows__ > __Applications__ > __SG\_InstalledApplications__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Windows__ > __Applications__ > __SG_InstalledApplications__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -24,11 +24,11 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The default analysis tasks are:
 
-- All Installed Applications - Change Tracking – Creates the SA\_SG\_InstalledApplications\_ChangeTracking table accessible under the job’s Results node
-- All Installed Applications - Details – Creates the SA\_SG\_InstalledApplications\_Details table accessible under the job’s Results node
-- MS Applications - Details – Creates the SA\_SG\_InstalledApplications\_MSDetails table accessible under the job’s Results node
+- All Installed Applications - Change Tracking – Creates the SA_SG_InstalledApplications_ChangeTracking table accessible under the job’s Results node
+- All Installed Applications - Details – Creates the SA_SG_InstalledApplications_Details table accessible under the job’s Results node
+- MS Applications - Details – Creates the SA_SG_InstalledApplications_MSDetails table accessible under the job’s Results node
 
-In addition to the tables and views created by the analysis tasks, the SG\_InstalledApplications job produces the following pre-configured reports.
+In addition to the tables and views created by the analysis tasks, the SG_InstalledApplications job produces the following pre-configured reports.
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

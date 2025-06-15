@@ -1,10 +1,10 @@
-# AWS\_RootAccounts Job
+# AWS_RootAccounts Job
 
-The AWS\_RootAccounts job provides details on AWS root accounts and how they conform to recommended security practices.
+The AWS_RootAccounts job provides details on AWS root accounts and how they conform to recommended security practices.
 
-## Analysis Tasks for the AWS\_RootAccounts Job
+## Analysis Tasks for the AWS_RootAccounts Job
 
-Navigate to the __AWS__ > __2.Users__ > __AWS\_RootAccounts__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __AWS__ > __2.Users__ > __AWS_RootAccounts__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,13 +12,13 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The following analysis tasks are selected by default:
 
-- Root Account Security Details – Provides details on the credentials and their usage for the AWS root account in each account. Creates the AWS\_RootAccountSecurity\_Details table accessible under the job’s Results node.
-- Root Account Risk Assessment – Highlights security risks on AWS root accounts. Creates the AWS\_RootAccountSecurity\_RiskAssessment table accessible under the job’s Results node.
-- Root Account Security Summary – Summarizes risks on the root account. Creates the AWS\_RootAccountSecurity\_Summary table accessible under the job’s Results node.
+- Root Account Security Details – Provides details on the credentials and their usage for the AWS root account in each account. Creates the AWS_RootAccountSecurity_Details table accessible under the job’s Results node.
+- Root Account Risk Assessment – Highlights security risks on AWS root accounts. Creates the AWS_RootAccountSecurity_RiskAssessment table accessible under the job’s Results node.
+- Root Account Security Summary – Summarizes risks on the root account. Creates the AWS_RootAccountSecurity_Summary table accessible under the job’s Results node.
 
-## Report for the AWS\_RootAccounts Job
+## Report for the AWS_RootAccounts Job
 
-In addition to the tables and views created by the analysis task, the AWS\_RootAccounts job produces the following preconfigured report:
+In addition to the tables and views created by the analysis task, the AWS_RootAccounts job produces the following preconfigured report:
 
 | Report | Description | Default Tags | Report Element |
 | --- | --- | --- | --- |

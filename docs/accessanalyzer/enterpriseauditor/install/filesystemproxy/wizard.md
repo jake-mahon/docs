@@ -49,7 +49,7 @@ Once the File System Proxy Service has been installed on any proxy server, it is
 
 The port and priority parameters can be modified for the File System Proxy Service on the registry key:
 
-HKEY\_LOCAL\_MACHINE\SYSTEM\CurrentControlSet\services\StealthAUDITFSAA\ImagePath
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\StealthAUDITFSAA\ImagePath
 
 - Port parameter – Only needs to be added to the registry key value if a custom port is used. The default port of 8766 does not need to be set as a parameter
   - Append ```-e [PORT NUMBER]``` to the ImagePath key value
@@ -70,7 +70,7 @@ __Step 1 –__ After installing the File System Proxy Service, open Services Man
 
 __Step 2 –__ Open Registry Editor (```regedit```) and navigate to the following registry key:
 
-HKEY\_LOCAL\_MACHINE\SYSTEM\CurrentControlSet\services\StealthAUDITFSAA\ImagePath
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\StealthAUDITFSAA\ImagePath
 
 __Step 3 –__ Right-click on the __ImagePath__ key and select __Modify__. The Value data was set during installation according to the installation directory location selected.
 

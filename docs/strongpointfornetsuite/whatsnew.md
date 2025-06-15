@@ -12,7 +12,7 @@ Netwrix is pleased to announce the general availability of Netwrix Strongpoint f
 
 __Enhancement: Code Update to Support NetSuite 2025.1 Removal of the Ext JS Library.__
 
-Strongpoint for NetSuite updates all of the scripts and bundles to be compatible with the NetSuite 2025.1 release. The NetSuite release removes the unsupported Ext JS Library. Refer to [https://suiteanswers.custhelp.com/app/answers/detail/a\_id/31709#subsect\_0529105001](https://suiteanswers.custhelp.com/app/answers/detail/a_id/31709#httpssuiteanswerscusthelpcomappanswersdetaila_id31709subsect_0529105001) for more information about the 2025.1 release.
+Strongpoint for NetSuite updates all of the scripts and bundles to be compatible with the NetSuite 2025.1 release. The NetSuite release removes the unsupported Ext JS Library. Refer to [https://suiteanswers.custhelp.com/app/answers/detail/a_id/31709#subsect_0529105001](https://suiteanswers.custhelp.com/app/answers/detail/a_id/31709#httpssuiteanswerscusthelpcomappanswersdetaila_id31709subsect_0529105001) for more information about the 2025.1 release.
 
 ## SoD 1.7
 

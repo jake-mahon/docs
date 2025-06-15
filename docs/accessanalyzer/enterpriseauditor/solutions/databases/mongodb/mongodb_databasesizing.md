@@ -1,6 +1,6 @@
-### Analysis Tasks for the MongoDB\_Database\_Sizing Job
+### Analysis Tasks for the MongoDB_Database_Sizing Job
 
-Navigate to the __Jobs > Databases > MongoDB > Configuration > MongoDB\_DatabaseSizing > Configure__ node and select Analysis to view the Analysis Tasks.
+Navigate to the __Jobs > Databases > MongoDB > Configuration > MongoDB_DatabaseSizing > Configure__ node and select Analysis to view the Analysis Tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -11,9 +11,9 @@ The default analysis tasks are:
 - MongoDB Database Sizing Details — Provides details about MongoDB databases and sizing
 - MongoDB Database Sizing Summary — Summarizes MongoDB database sizing by node or cluster
 
-### Report for the MongoDB\_Database\_Sizing Job
+### Report for the MongoDB_Database_Sizing Job
 
-In addition to the tables and views created the analysis task, the MongoDB\_DatabaseSizing Job produces the following pre-configured reports.
+In addition to the tables and views created the analysis task, the MongoDB_DatabaseSizing Job produces the following pre-configured reports.
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

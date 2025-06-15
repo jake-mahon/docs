@@ -1,10 +1,10 @@
-# AD\_DCSummary Job
+# AD_DCSummary Job
 
-The AD\_DCSummary Job provides operational reporting related to the details collected for each domain controller. For each domain controller, the report identifies the FSMO role, whether it is a bridgehead server, whether it is a global catalog, and the time server it syncs to.
+The AD_DCSummary Job provides operational reporting related to the details collected for each domain controller. For each domain controller, the report identifies the FSMO role, whether it is a bridgehead server, whether it is a global catalog, and the time server it syncs to.
 
-## Analysis Task for the AD\_DCSummary Job
+## Analysis Task for the AD_DCSummary Job
 
-Navigate to the __Active Directory > 5.Domains > AD\_DCSummary > Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Active Directory > 5.Domains > AD_DCSummary > Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis task(s). The analysis task(s) are preconfigured for this job.
 
@@ -13,10 +13,10 @@ __CAUTION:__ Do not modify or deselect the selected analysis task(s). The analys
 The default analysis tasks are:
 
 - 1. List DCs
-  - Creates the AD\_DCSummary\_List table accessible under the job’s Results node
+  - Creates the AD_DCSummary_List table accessible under the job’s Results node
   - Creates an interim processing table in the database for use by downstream analysis and report generation
 
-In addition to the tables and views created by the analysis task, the AD\_DCSummary Job produces the following pre-configured report:
+In addition to the tables and views created by the analysis task, the AD_DCSummary Job produces the following pre-configured report:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

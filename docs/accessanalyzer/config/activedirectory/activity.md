@@ -90,7 +90,7 @@ __Step 3 –__ Configure the following:
 
 - Configure the desired number of days for the __Period to keep Log files__. This is the number of days the log files are kept on the API server configured in the sections above. This needs to be set to a greater value than the days between Access Analyzer scans.
 
-  - For example, if Access Analyzer runs the __AD\_ActivityCollection__ Job once a week (every 7 days), then the Activity Monitor output should be configured to retain at least 10 days of log files.
+  - For example, if Access Analyzer runs the __AD_ActivityCollection__ Job once a week (every 7 days), then the Activity Monitor output should be configured to retain at least 10 days of log files.
 - Check the __This log file is for StealthAUDIT__ box.
 - Optionally select the __Enable periodic AD Status Check event reporting__ checkbox. When enabled, the agent will send out status messages every five minutes to verify whether the connection is still active.
 
@@ -126,13 +126,13 @@ __Step 8 –__ Click __Save__ and then __OK__ to confirm the changes to the job 
 
 The Connection Profile will now be used for AD Activity collection.
 
-## Configure the AD\_ActivityCollection Job
+## Configure the AD_ActivityCollection Job
 
-The Access Analyzer requires additional configurations in order to collect domain activity data. Follow the steps to configure the __AD\_ActivityCollection__ Job.
+The Access Analyzer requires additional configurations in order to collect domain activity data. Follow the steps to configure the __AD_ActivityCollection__ Job.
 
 __NOTE:__ Ensure that the __.Active Directory Inventory__ Job Group has been successfully run against the target domain.
 
-__Step 1 –__ Navigate to the __Jobs__ > __Active Directory__ > __6.Activity__ > __0.Collection__ > __AD\_ActivityCollection__ Job. Select the __Configure__ > __Queries__ node.
+__Step 1 –__ Navigate to the __Jobs__ > __Active Directory__ > __6.Activity__ > __0.Collection__ > __AD_ActivityCollection__ Job. Select the __Configure__ > __Queries__ node.
 
 __Step 2 –__ Click __Query Properties__. The Query Properties window displays.
 
@@ -159,7 +159,7 @@ __Step 9 –__ On the Scope page, set the Timespan as desired. There are two opt
 - Relative Timespan – Set the number of days of activity logs to collect when the scan is run
 - Absolute Timespan – Set the date range for activity logs to collect when the scan is run
 
-___RECOMMENDED:___ The threshold should be set to ensure the logs are collected before the Activity Monitor domain output log retention expires. For example, if Access Analyzer runs the __AD\_ActivityCollection__ Job once a week (every 7 days), then the Activity Monitor output should be configured to retain at least 10 days of log files.
+___RECOMMENDED:___ The threshold should be set to ensure the logs are collected before the Activity Monitor domain output log retention expires. For example, if Access Analyzer runs the __AD_ActivityCollection__ Job once a week (every 7 days), then the Activity Monitor output should be configured to retain at least 10 days of log files.
 
 __Step 10 –__ Set the Retention period as desired. This is the number of days Access Analyzer keeps the collected data in the SQL Server database.
 
@@ -179,9 +179,9 @@ The query is now configured to target the Activity Monitor API Server to collect
 
 ### (Optional) Configure Import of AD Activity into Netwrix Access Information Center
 
-AD Activity data can be imported into Netwrix Access Information Center by the __AD\_ActivityCollection__ Job. However, this is disabled by default. Follow the steps to enable the importing of AD activity data into the Access Information Center.
+AD Activity data can be imported into Netwrix Access Information Center by the __AD_ActivityCollection__ Job. However, this is disabled by default. Follow the steps to enable the importing of AD activity data into the Access Information Center.
 
-__Step 1 –__ Navigate to the __Jobs__ > __Active Directory__ > __6.Activity__ > __0.Collection__ > __AD\_ActivityCollection__ Job.
+__Step 1 –__ Navigate to the __Jobs__ > __Active Directory__ > __6.Activity__ > __0.Collection__ > __AD_ActivityCollection__ Job.
 
 __Step 2 –__ On the job's Overview page, enable the import of AD Events.
 
@@ -195,4 +195,4 @@ __Step 3 –__ On the job's Overview page, enable the import of authentication E
 
 __Step 4 –__ Optionally, modify the __List of attributes to track for Object Modified changes__ and __Number of days to retain activity data in the AIC__ parameters.
 
-The __AD\_ActivityCollection__ Job is now configured to import both AD events and authentication events into the Netwrix Access Information Center.
+The __AD_ActivityCollection__ Job is now configured to import both AD events and authentication events into the Netwrix Access Information Center.

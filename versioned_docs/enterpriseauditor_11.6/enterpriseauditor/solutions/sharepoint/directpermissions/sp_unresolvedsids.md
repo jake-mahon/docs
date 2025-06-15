@@ -1,10 +1,10 @@
-# SP\_UnresolvedSIDs Job
+# SP_UnresolvedSIDs Job
 
 This job identifies Unresolved SIDs that have permissions to any SharePoint resources. Unresolved SIDs can be safely cleaned up without affecting user access.
 
-## Analysis Tasks for the SP\_UnresolvedSIDs Job
+## Analysis Tasks for the SP_UnresolvedSIDs Job
 
-Navigate to the __Jobs__ > __SharePoint__ > __1.Direct Permissions__ > __SP\_UnresolvedSIDs__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Jobs__ > __SharePoint__ > __1.Direct Permissions__ > __SP_UnresolvedSIDs__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -13,11 +13,11 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 They need to remain in the default order:
 
 - 1. Create Function – Creates an interim processing table in the database for use by downstream analysis and report generation
-- 2. Find Unresolved SID ACLs – Creates the SA\_SP\_UnresolvedSIDs\_DirectPermissions table accessible under the job’s Results node
-- 3. Find Affected Resource Count per SID – Creates the SA\_SP\_UnresolvedSIDs\_ResourceCount table accessible under the job’s Results node
-- 4. Rank Resources by SID Count – Creates the SA\_SP\_UnresolvedSIDs\_DirectPermissions table accessible under the job’s Results node
+- 2. Find Unresolved SID ACLs – Creates the SA_SP_UnresolvedSIDs_DirectPermissions table accessible under the job’s Results node
+- 3. Find Affected Resource Count per SID – Creates the SA_SP_UnresolvedSIDs_ResourceCount table accessible under the job’s Results node
+- 4. Rank Resources by SID Count – Creates the SA_SP_UnresolvedSIDs_DirectPermissions table accessible under the job’s Results node
 
-In addition to the tables created by the analysis tasks which display direct permissions for unresolved SIDs, the SP\_UnresolvedSIDs Job produces the following pre-configured report:
+In addition to the tables created by the analysis tasks which display direct permissions for unresolved SIDs, the SP_UnresolvedSIDs Job produces the following pre-configured report:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

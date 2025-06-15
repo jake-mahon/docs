@@ -10,7 +10,7 @@ Let me show you this problem. You've used RDP and connected as some standard use
 
 It turns out there's a garden-variety pack of ways you can solve this. One way is you can walk up to the machine, or you could use Group Policy. For this demonstration, I'm going to just walk up to the machine and show you the registry punch you would need to do to make this problem go away.
 
-Let me reconnect to my to my computer here. I'm going to log on as an admin here. That's "trixie." Now that I'm logged on, you see the session is still there. Let's just run "regedit" here. I'm the local admin. I need to find this setting. This is "HKEY\_LOCAL\_MACHINE" under "SYSTEM," and we dive down under "CurrentControlSet."
+Let me reconnect to my to my computer here. I'm going to log on as an admin here. That's "trixie." Now that I'm logged on, you see the session is still there. Let's just run "regedit" here. I'm the local admin. I need to find this setting. This is "HKEY_LOCAL_MACHINE" under "SYSTEM," and we dive down under "CurrentControlSet."
 
 Once we're on "CurrentControlSet," we're going to just "Find" the value. The value we're looking for is kind of weird. It's called fDenyTSConnections. If we just search for "fDeny" here, there it is. You're looking for "fDenyTSConnections."
 

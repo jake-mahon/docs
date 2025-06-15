@@ -18,7 +18,7 @@ The tasks created in the Scaffoldings are sorted by level. The levels are visibl
 | Property | Details |
 | --- | --- |
 | Connector   required | __Type__    String   __Description__   Identifier of the connector involved in the job to be generated. |
-| DisplayName\_L1   optional | __Type__    String   __Description__   Display name of the scaffolding in language 1 (up to 16). |
+| DisplayName_L1   optional | __Type__    String   __Description__   Display name of the scaffolding in language 1 (up to 16). |
 | JobIdentifier   optional | __Type__    String   __Description__   For job scaffoldings, identifier of the job to be generated. If not defined, the job identifier is calculated. |
 | OldAlgorithm   optional | __Type__    Boolean   __Description__   Internal use. |
 

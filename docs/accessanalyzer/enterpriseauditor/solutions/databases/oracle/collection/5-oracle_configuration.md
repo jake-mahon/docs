@@ -1,10 +1,10 @@
-# 5-Oracle\_Configuration Job
+# 5-Oracle_Configuration Job
 
-The 5-Oracle\_Configuration Job is designed to return additional configuration settings from Oracle servers.
+The 5-Oracle_Configuration Job is designed to return additional configuration settings from Oracle servers.
 
-## Queries for the 5-Oracle\_Configuration Job
+## Queries for the 5-Oracle_Configuration Job
 
-The queries for the 5-Oracle\_Configuration Job query uses the SQL Data Collector.
+The queries for the 5-Oracle_Configuration Job query uses the SQL Data Collector.
 
 ![5oracleconfigurationqueries](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/oracle/collection/5oracleconfigurationqueries.webp)
 
@@ -13,11 +13,11 @@ The queries are:
 - Database Sizing – Returns database size data
 - Database Links – Returns details about Oracle database links
 
-### Configure the 5-Oracle\_Configuration Queries
+### Configure the 5-Oracle_Configuration Queries
 
-The 5-Oracle\_Configuration Job is preconfigured to run using the default settings for the Custom Oracle Query category in the SQL Data Collector. Follow the steps to customize configurations:
+The 5-Oracle_Configuration Job is preconfigured to run using the default settings for the Custom Oracle Query category in the SQL Data Collector. Follow the steps to customize configurations:
 
-__Step 1 –__ Navigate to the __Databases__ > __0.Collection__ > __Oracle__ > __5-Oracle\_Configuration Job__ > __Configure__ node and select Queries.
+__Step 1 –__ Navigate to the __Databases__ > __0.Collection__ > __Oracle__ > __5-Oracle_Configuration Job__ > __Configure__ node and select Queries.
 
 __Step 2 –__ In the Query Selection view, select one of the queries and click on Query Properties. The Query Properties window opens.
 
@@ -35,4 +35,4 @@ __Step 4 –__ To query for specific databases/instances, navigate to the Filter
 
 __Step 5 –__ Navigate to the Summary page, click Finish to save any setting modifications or click Cancel if no changes were made. Then click OK to close the Query Properties window.
 
-The 5-Oracle\_Configuration Job is now ready to run with the customized settings.
+The 5-Oracle_Configuration Job is now ready to run with the customized settings.

@@ -22,7 +22,7 @@ Schedule the Entra ID Job Group to run on a preferred schedule.
 
 Optional Configuration
 
-The Entra ID Solution receives user and group membership information from the .Entra ID Inventory Solution. Information received includes manager, email addresses, and direct membership. Customize within the __.Entra ID Inventory__ > __2-AAD\_Exceptions__ Job's Deeply Nested Groups and Large Groups analysis tasks.
+The Entra ID Solution receives user and group membership information from the .Entra ID Inventory Solution. Information received includes manager, email addresses, and direct membership. Customize within the __.Entra ID Inventory__ > __2-AAD_Exceptions__ Job's Deeply Nested Groups and Large Groups analysis tasks.
 
 See the [.Entra ID Inventory Solution](/docs/accessanalyzer/enterpriseauditor/solutions/entraidinventory/overview.md) topic for additional information.
 

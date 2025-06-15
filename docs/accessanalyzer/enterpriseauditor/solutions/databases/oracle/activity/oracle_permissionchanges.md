@@ -1,10 +1,10 @@
-# Oracle\_PermissionChanges Job
+# Oracle_PermissionChanges Job
 
-The Oracle\_PermissionsChanges Job is designed to provide detailed information about changes in permissions across all database objects. Audited activities include granting, altering, and revoking permissions on database objects.
+The Oracle_PermissionsChanges Job is designed to provide detailed information about changes in permissions across all database objects. Audited activities include granting, altering, and revoking permissions on database objects.
 
-## Analysis Tasks for the Oracle\_PermissionsChanges Job
+## Analysis Tasks for the Oracle_PermissionsChanges Job
 
-Navigate to the __Oracle__ > __2.Activity__ > __Oracle\_PermissionChanges__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Oracle__ > __2.Activity__ > __Oracle_PermissionChanges__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,10 +12,10 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The default analysis tasks are:
 
-- Oracle Permission Changes – Highlights activity involving permission changes on audited Oracle Instances. Creates the SA\_Oracle\_PermissionChange\_Details table accessible under the job’s Results node.
-- Oracle Permission Changes Instance Summary – Summarizes Permission Changes per Instance. Creates the SA\_Oracle\_PermissionChange\_Summary table accessible under the job’s Results node.
+- Oracle Permission Changes – Highlights activity involving permission changes on audited Oracle Instances. Creates the SA_Oracle_PermissionChange_Details table accessible under the job’s Results node.
+- Oracle Permission Changes Instance Summary – Summarizes Permission Changes per Instance. Creates the SA_Oracle_PermissionChange_Summary table accessible under the job’s Results node.
 
-In addition to the tables and views created by the analysis task, the Oracle\_PermissionsChanges Job produces the following pre-configured report.
+In addition to the tables and views created by the analysis task, the Oracle_PermissionsChanges Job produces the following pre-configured report.
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

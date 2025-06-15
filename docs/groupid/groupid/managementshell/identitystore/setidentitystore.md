@@ -112,7 +112,7 @@ NOTE: You can use the __Set-IdentityStore__ commandlet in a secure way by using 
 
 Example 1:
 
-This example changes name of AdStore9 identity store to AdStore9\_renamed.
+This example changes name of AdStore9 identity store to AdStore9_renamed.
 
 ```
 Set-IdentityStore -IdentityStoreName AdStore9 -NewName 'AdStore9_renamed' -Credential $creds -Domain pucit.local

@@ -1,10 +1,10 @@
-# SQL\_SensitiveData Job
+# SQL_SensitiveData Job
 
-The SQL\_SensitiveData Job designed to provide information on all the sensitive data that was discovered in the targeted SQL or Azure SQL servers based on the selected scan criteria.
+The SQL_SensitiveData Job designed to provide information on all the sensitive data that was discovered in the targeted SQL or Azure SQL servers based on the selected scan criteria.
 
-## Analysis Tasks for the SQL\_SensitiveData Job
+## Analysis Tasks for the SQL_SensitiveData Job
 
-Navigate to the __Databases__ > SQL > 5.Sensitve Data > SQL\_SensitiveData > Configure node and select Analysis to view the analysis tasks.
+Navigate to the __Databases__ > SQL > 5.Sensitve Data > SQL_SensitiveData > Configure node and select Analysis to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis task(s). The analysis task(s) are preconfigured for this job.
 
@@ -12,11 +12,11 @@ __CAUTION:__ Do not modify or deselect the selected analysis task(s). The analys
 
 The default analysis tasks are:
 
-- Determine sensitive data details – Creates the SA\_SQLServer\_SensitiveData\_Details table accessible under the job’s Results node
-- Database summary – Creates the SA\_SQLServer\_SensitiveData\_DatabaseSummary table accessible under the job’s Results node
-- Enterprise summary – Creates the SA\_SQLServer\_SensitiveData\_EnterpriseSummary table accessible under the job’s Results node
+- Determine sensitive data details – Creates the SA_SQLServer_SensitiveData_Details table accessible under the job’s Results node
+- Database summary – Creates the SA_SQLServer_SensitiveData_DatabaseSummary table accessible under the job’s Results node
+- Enterprise summary – Creates the SA_SQLServer_SensitiveData_EnterpriseSummary table accessible under the job’s Results node
 
-In addition to the tables and views created by the analysis tasks, the SQL\_SensitiveData Job produces the following pre-configured reports.
+In addition to the tables and views created by the analysis tasks, the SQL_SensitiveData Job produces the following pre-configured reports.
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

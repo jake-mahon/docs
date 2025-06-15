@@ -24,12 +24,12 @@ __Step 6 –__ To update the group policies, execute the following command:
 
 - For Dell Unity:
 
-  svc\_cifssupport `<NAS Server Name>` -gpo -update
+  svc_cifssupport `<NAS Server Name>` -gpo -update
 
   where `<NAS Server Name>` is the name of the target Unity\VNX server.
 - For Dell VNX:
 
-  server\_security `<NAS Server Name>` -update -policy gpo
+  server_security `<NAS Server Name>` -update -policy gpo
 
   where `<NAS Server Name>` is the name of the target Unity\VNX server.
 

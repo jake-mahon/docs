@@ -1,6 +1,6 @@
 # Install Netwrix Data Classification
 
-1. Run Netwrix\_Data\_Classification.exe.
+1. Run Netwrix_Data_Classification.exe.
 2. Review minimum system requirements and then read the License Agreement. Click Next.
 3. Follow the instructions of the setup wizard. When prompted, accept the license agreement.
 4. On the Product Settings step, specify path to install Netwrix Data Classification. For example, _D:\Data\NDC\Index._
@@ -15,7 +15,7 @@
    | Authentication Method | Select Windows or SQL Server authentication method. |
    | Username | Specify the account name. |
    | Password | Provide your password. |
-   | Database Name | Enter the name of the SQL Server database. Netwrix recommends using NDC\_database name. |
+   | Database Name | Enter the name of the SQL Server database. Netwrix recommends using NDC_database name. |
 
    __NOTE:__ The database is created automatically in basic configuration mode. For recommended configuration (required for crawling optimization in large and extra-large environments), refer to [Configure NDC SQL database](/versioned_docs/dataclassification_5.6.2/ndc/deployment/ndc_database.md) section.
 7. On the Licensing step, add license. You can add license as follows:

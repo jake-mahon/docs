@@ -62,7 +62,7 @@ __To create a portal:__
    ![portal_card](/img/product_docs/groupid/groupid/admincenter/portal/portal_card.webp)
 7. In the __IIS Application Name__ box, enter an IIS deployment name for the portal. This name should be unique for each portal deployed in IIS.
 
-   - The IIS application name is used to name the portal's directory in IIS and its physical directory under __X:\Program Files\Imanami\GroupID 11.0\GroupIDPortal\Inetpub\__ on the Directory Manager server.  
+   - The IIS application name is used to name the portal's directory in IIS and its physical directory under __X:\Program Files\Imanami\GroupID 11.0\GroupIDPortal\Inetpub__ on the Directory Manager server.  
      (X represents
      the Directory Manager installation drive)
    - This IIS application name is also appended to the web server address to construct the URL that users click to access this deployment instance of the portal. For example:  

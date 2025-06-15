@@ -98,7 +98,7 @@ You will also need to provide a path for storing the SQL Server databases - it i
 
 - If you plan to have more than one Netwrix Auditor Servers in your network, make sure to configure them to use different SQL Server instances. The same SQL Server instance cannot be used to store audit data collected by several Netwrix Auditor Servers.
 - Consider that sufficient access rights will be required for the account that will write data to the audit databases hosted on the default SQL Server. This account should be assigned the following roles:
-  1. __Database owner (db\_owner)__ database-level role
+  1. __Database owner (db_owner)__ database-level role
   2. dbcreator server-level role
 
   This account can be specified when you configure the [Audit Database](/docs/auditor/auditor/admin/settings/auditdatabase.md) settings.

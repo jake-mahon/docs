@@ -6,7 +6,7 @@ The Repetition rule rejects passwords that contain excessive character or patter
 
 - Reject repetition `<_character_>` and more consecutive characters like "aaaA" – Select the option and set the maximum number of consecutive repeating characters that passwords can contain.
 
-- Reject repetition like "wordword" or "p@$s\_p@$s" – Select the option to enable pattern repetition.
+- Reject repetition like "wordword" or "p@$s_p@$s" – Select the option to enable pattern repetition.
 
 - Detect character substitution – Select if Password Policy Enforcer should reject passwords that rely on character substitution to comply with this rule.
 

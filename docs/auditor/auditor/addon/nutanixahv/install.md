@@ -23,7 +23,7 @@ In Auditor client, go to the Integrations section and verify Integration API set
 
 See the [Prerequisites](/docs/auditor/auditor/api/prerequisites.md) topic for additional information.
 
-By default, activity records are written to _Netwrix\_Auditor\_API_ database which is not associated with a specific monitoring plan.
+By default, activity records are written to _Netwrix_Auditor_API_ database which is not associated with a specific monitoring plan.
 
 Optionally, you can create a dedicated monitoring plan in Auditor. In this case, data will be written to a database linked to this plan. Target it at Netwrix API data source and enable for monitoring. Add a dedicated item of _Integration_ type to the plan for data to be filtered by item name. See the [Integration API](/docs/auditor/auditor/api/overview.md) topic for additional information.
 
@@ -108,7 +108,7 @@ __Step 3 –__ Finally, click __Save__.
 
 Download the distribution package from the Netwrix website and unpack it to a folder on the computer where you plan to deploy the add-on.
 
-Customers who are logged in to the Netwrix Customer Portal can download the latest version of their software products from the My Products page: [https://www.netwrix.com/my\_products.html](https://www.netwrix.com/my_products.html). See the [Customer Portal Access](https://helpcenter.netwrix.com/bundle/NetwrixCustomerPortalAccess/page/Customer_Portal_Access.html) topic for information on how to register for a Customer Portal account.
+Customers who are logged in to the Netwrix Customer Portal can download the latest version of their software products from the My Products page: [https://www.netwrix.com/my_products.html](https://www.netwrix.com/my_products.html). See the [Customer Portal Access](https://helpcenter.netwrix.com/bundle/NetwrixCustomerPortalAccess/page/Customer_Portal_Access.html) topic for information on how to register for a Customer Portal account.
 
 Partners and MSPs who are logged into the Netwrix Partner Portal can download the latest version of their software products from the My Product page: [https://www.netwrix.com/par/site/products](https://www.netwrix.com/my_products.html). To receive an invitation to the Partner Portal, please contact [netwrix.msp@netwrix.com](http://netwrix.msp@netwrix.com/).
 
@@ -119,10 +119,10 @@ Open the add-on folder and edit the __settings.xml__ file to configure the add-o
 | Parameter | Default value | Description |
 | --- | --- | --- |
 | NetwrixAuditorIntegration |  |  |
-| NetwrixAuditorEndpoint | https://localhost:   9699/netwrix/api/   v1/activity\_records | Auditor server IP address and port number followed by endpoint for posting Activity Records.  Assumes that the add-on runs on the computer hosting Auditor Server and uses default port __9699__.  If you want to run the add-on on another machine, provide a name of the computer where Auditor Server resides (e.g., _172.28.6.15, EnterpriseNAServer, WKS.enterprise.local_).  To specify a non-default port, provide a server name followed by the port number (e.g., _WKS.enterprise.local:9999_).  Do not modify the endpoint part (/netwrix/api . . . . ) |
+| NetwrixAuditorEndpoint | https://localhost:   9699/netwrix/api/   v1/activity_records | Auditor server IP address and port number followed by endpoint for posting Activity Records.  Assumes that the add-on runs on the computer hosting Auditor Server and uses default port __9699__.  If you want to run the add-on on another machine, provide a name of the computer where Auditor Server resides (e.g., _172.28.6.15, EnterpriseNAServer, WKS.enterprise.local_).  To specify a non-default port, provide a server name followed by the port number (e.g., _WKS.enterprise.local:9999_).  Do not modify the endpoint part (/netwrix/api . . . . ) |
 | CertificateThumbprint | NOCHECK | Auditor Certificate Thumbprint Property. Possible values:   - ```Empty```—Check Netwrix Auditor certificate via Windows Certificate Store. - ```AB:BB:CC.```—Check Netwrix Auditor Server certificate thumbprint identifier. - ```NOCHECK```—Do not check Netwrix Auditor certificate. Make sure to select this parameter if you plan to specify servers by their IP. |
 | DateTimeFormat | yyyy-MM-ddTHH:mm:ssZ | Auditor time format. By default, set to zero offset. |
-| MonitoringPlan | — | Unless specified, data is written to Netwrix\_Auditor\_API database and is not associated with a specific monitoring plan.  Specify a name of associated monitoring plan in Auditor. In this case, data will be written to a database linked to this plan.  If you select a plan name in the add-on, make sure a dedicated plan is created in Auditor, the Netwrix API data source is added to the plan and enabled for monitoring. Otherwise, the add-on will not be able to write data to the Audit Database. |
+| MonitoringPlan | — | Unless specified, data is written to Netwrix_Auditor_API database and is not associated with a specific monitoring plan.  Specify a name of associated monitoring plan in Auditor. In this case, data will be written to a database linked to this plan.  If you select a plan name in the add-on, make sure a dedicated plan is created in Auditor, the Netwrix API data source is added to the plan and enabled for monitoring. Otherwise, the add-on will not be able to write data to the Audit Database. |
 | MonitoringPlanItem | — | Unless specified, data is not associated with a specific plan and, thus, cannot be filtered by item name.  Specify an item name.  Make sure to create a dedicated item in Auditor in advance. |
 | UserName | Current user credentials | Credentials to access Auditor server.  Unless specified, the add-on runs with the current user credentials.  If you want the add-on to use another account to connect to Auditor server, specify the account name in the _DOMAIN\username_ format. |
 | Password | Current user credentials | Unless specified, the service runs with the current user credentials. Provide a different password if necessary. |

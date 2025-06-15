@@ -1,4 +1,4 @@
-# PPBRAgentExeIE\_01.DLL error message occurs about Internet Explorer enhanced security. What should I do?
+# PPBRAgentExeIE_01.DLL error message occurs about Internet Explorer enhanced security. What should I do?
 
 When running IE and Netwrix Endpoint Policy Manager (formerly PolicyPak) Browser Router, the following error could occur:
 

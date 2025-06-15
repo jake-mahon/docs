@@ -19,7 +19,7 @@ Use __Clear__ to reset the Filters.
 ## Pending Assignments List
 
 - __Undo__ undoes all actions that have not been submitted.
-- __Export__ exports the list of selected reviews as either a __CSV__ or __PDF__ file. The exported file is named _Pending\_Role\_Assignments_.
+- __Export__ exports the list of selected reviews as either a __CSV__ or __PDF__ file. The exported file is named _Pending_Role_Assignments_.
 - __Save__ saves your changes.
 - __Role__ is the role to be reviewed.
 - __From Bundle__ the bundle number if applicable.

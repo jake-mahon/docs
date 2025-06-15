@@ -16,7 +16,7 @@ Here's "PP-ATM-EXPORT2." We'll "Open with" "Notepad." Let's take a look at the i
 
 The other part is that, by default, the XML will not be looking for a local group ("localGroup=‘0'"). You have to say, "I want to look for a local group ("localGroup=‘0'")." You have to specify the XML to say, "I'm looking for a local group."
 
-The other part is, how do you get the "sid"? The way to get the SID is – and I've pre-staged this to make sure I can demonstrate it very quickly – there's a "PowerShell" command called "get-ciminstance win32\_group." There are going to be a couple of types of groups that are listed here. Let's take a look.
+The other part is, how do you get the "sid"? The way to get the SID is – and I've pre-staged this to make sure I can demonstrate it very quickly – there's a "PowerShell" command called "get-ciminstance win32_group." There are going to be a couple of types of groups that are listed here. Let's take a look.
 
 The first kinds are the built-in what's called well-known groups: "Administrators," "Guests," and so on. Those are going to be the same SID across all of your systems. But if you have any created groups yourself – like I've created one called "LOCALGROUP1" – that's going to have its own SID. So you can either copy this SID, or in this case, I'm going to copy the local "Administrators" SID.
 
@@ -31,7 +31,7 @@ The other thing you could do with this is upload it to PolicyPak Cloud. I've alr
 
 The same thing goes for just about everything else we do. For instance, if you have an item-level targeting for "Application Settings Manager," "Browser Router," "Least Privilege Manager" ([https://www.policypak.com/products/policypak-least-privilege-manager.html](https://www.policypak.com/products/policypak-least-privilege-manager.html)) or anything, this all looks exactly the same. You can use the same exact technique if you want to find the SID.
 
-Also, by the way, the other command is to get the local users, which is "get-ciminstance win32\_useraccount" and there you go. If you wanted to say when not the local "Administrator," the person, you would do "select name,sid." There we go.
+Also, by the way, the other command is to get the local users, which is "get-ciminstance win32_useraccount" and there you go. If you wanted to say when not the local "Administrator," the person, you would do "select name,sid." There we go.
 
 Now this is the local "Administrator."
 

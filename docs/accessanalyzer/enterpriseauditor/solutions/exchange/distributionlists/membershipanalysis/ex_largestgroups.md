@@ -1,10 +1,10 @@
-# EX\_LargestGroups Job
+# EX_LargestGroups Job
 
-The EX\_LargestGroups job identifies distribution groups with a high member count.
+The EX_LargestGroups job identifies distribution groups with a high member count.
 
-## Analysis Tasks for the EX\_LargestGroups Job
+## Analysis Tasks for the EX_LargestGroups Job
 
-View the analysis task by navigating to the __Exchange__ > __6. Distribution Lists__ > __Membership Analysis__ > __EX\_LargestGroups__ > __Configure__ node and select __Analysis__.
+View the analysis task by navigating to the __Exchange__ > __6. Distribution Lists__ > __Membership Analysis__ > __EX_LargestGroups__ > __Configure__ node and select __Analysis__.
 
 __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis task is preconfigured for this job.
 
@@ -12,4 +12,4 @@ __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis 
 
 The following analysis task is selected by default:
 
-- 1. Group Details – Creates the SA\_EX\_LargestGroups\_Details table, accessible under the job’s Results node
+- 1. Group Details – Creates the SA_EX_LargestGroups_Details table, accessible under the job’s Results node

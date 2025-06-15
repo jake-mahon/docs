@@ -35,10 +35,10 @@ Opening the “Group Policy Management Editor” and create or open a policy for
 
 Enter the following data into the corresponding fields highlighted in the photo below to set the GPO:
 
-- Hive: HKEY\_LOCAL\_MACHINE
+- Hive: HKEY_LOCAL_MACHINE
 - Key path: SYSTEM\CurrentControlSet\Control\Lsa
 - Value name: RestrictRemoteSam
-- Value type: REG\_SZ
+- Value type: REG_SZ
 - Value data: O:BAG:BAD:(A;;RC;;;BA)(A;;RC;;;S-1-5-21-1366766991-2637077591-3940904154-205982)
 
 The SID in the “Value data” field above will need to be updated with SID of the SecureONE domain service account being used for scanning.

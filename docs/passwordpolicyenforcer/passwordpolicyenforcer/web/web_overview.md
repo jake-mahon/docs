@@ -4,7 +4,7 @@ Password Policy Enforcer Web enables users to change their Windows domain passwo
 
 Download Password Policy Enforcer Web:
 
-[Password\_Policy\_Enforcer\_WEB\_7.11.zip](https://www.netwrix.com/download/commercial/Password_Policy_Enforcer_WEB_7.11.zip)
+[Password_Policy_Enforcer_WEB_7.11.zip](https://www.netwrix.com/download/commercial/Password_Policy_Enforcer_WEB_7.11.zip)
 
 ![introduction_4](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/web/introduction_4.webp)
 

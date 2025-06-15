@@ -1,10 +1,10 @@
-# AD\_DomainInfo Job
+# AD_DomainInfo Job
 
-The AD\_DomainInfo Job provides operational reporting related to the collected domains, sites, and trusts, providing details such as high level object counts by domain or site, domain and forest functional levels, and types and directions of trusts.
+The AD_DomainInfo Job provides operational reporting related to the collected domains, sites, and trusts, providing details such as high level object counts by domain or site, domain and forest functional levels, and types and directions of trusts.
 
-## Queries for the AD\_DomainInfo Job
+## Queries for the AD_DomainInfo Job
 
-The AD\_DomainInfo Job uses the ActiveDirectory Data Collector and the LDAP Data Collector for the following queries:
+The AD_DomainInfo Job uses the ActiveDirectory Data Collector and the LDAP Data Collector for the following queries:
 
 __CAUTION:__ Do not modify the queries. The queries are preconfigured for this job.
 
@@ -20,9 +20,9 @@ The queries for this job are:
 
 __NOTE:__ See the Active Directory Data Collector and LDAP Data Collector sections for additional information
 
-## Analysis Tasks for the AD\_DomainInfo Job
+## Analysis Tasks for the AD_DomainInfo Job
 
-Navigate to the __Active Directory > 5.Domains > AD\_DomainInfo > Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Active Directory > 5.Domains > AD_DomainInfo > Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -35,7 +35,7 @@ The default analysis tasks are:
 - Trust Details – Creates an interim processing table in the database for use by downstream analysis and report generation
 - dSHeuristics Details – Creates an interim processing table in the database for use by downstream analysis and report generation
 
-In addition to the tables and views created by the analysis tasks, the AD\_DomainInfo Job produces the following pre-configured reports:
+In addition to the tables and views created by the analysis tasks, the AD_DomainInfo Job produces the following pre-configured reports:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

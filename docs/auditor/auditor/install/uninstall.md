@@ -102,7 +102,7 @@ Follow the steps to delete the Netwrix Auditor Application Deployment Service.
 
 __Step 1 –__ On the target server, navigate to __Start > Registry Editor > Programs and Features__.
 
-__Step 2 –__ Delete the __HKEY\_LOCAL\_MACHINE\SYSTEM\CurrentControlSet\Services\NwxExecSvc__ registry key.
+__Step 2 –__ Delete the __HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\NwxExecSvc__ registry key.
 
 __Step 3 –__ Restart your machine and the service will be removed.
 

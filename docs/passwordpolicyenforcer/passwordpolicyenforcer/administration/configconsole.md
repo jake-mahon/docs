@@ -47,7 +47,7 @@ Sets the configuration for __Domain__ (default) or __Local__. Password Policy En
 
 Domain configurations are stored in the __CN=Password Policy Enforcer__ _version___,CN=System object__.
 
-Local configurations are stored in the __HKLM\SOFTWARE\__ANIXIS__\Password Policy Enforcer__ _version___\ registry key__.
+Local configurations are stored in the __HKLM\SOFTWARE__ANIXIS__\Password Policy Enforcer__ _version___\ registry key__.
 
 __NOTE:__ Users with write permission to these objects can configure Password Policy Enforcer.
 

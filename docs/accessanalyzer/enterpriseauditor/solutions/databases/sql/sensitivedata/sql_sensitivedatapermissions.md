@@ -1,10 +1,10 @@
-# SQL\_SensitiveDataPermissions Job
+# SQL_SensitiveDataPermissions Job
 
-The SQL\_SensitiveDataPermissions Job is designed to provide all types of permissions on database objects containing sensitive data across all the targeted SQL or Azure SQL servers.
+The SQL_SensitiveDataPermissions Job is designed to provide all types of permissions on database objects containing sensitive data across all the targeted SQL or Azure SQL servers.
 
-## Analysis Tasks for the SQL\_SensitiveDataPermissions Job
+## Analysis Tasks for the SQL_SensitiveDataPermissions Job
 
-Navigate to the __Databases__ > SQL > 5.Sensitve Data > SQL\_SensitiveDataPermissions > Configure node and select Analysis to view the analysis tasks.
+Navigate to the __Databases__ > SQL > 5.Sensitve Data > SQL_SensitiveDataPermissions > Configure node and select Analysis to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis task(s). The analysis task(s) are preconfigured for this job.
 
@@ -12,10 +12,10 @@ __CAUTION:__ Do not modify or deselect the selected analysis task(s). The analys
 
 The default analysis tasks are:
 
-- List sensitive data permission details – Creates the SA\_SQL\_SensitiveDataPermissions\_Details table accessible under the job’s Results node
-- Sensitive Data Permissions Database Summary – Creates the SA\_SQL\_SensitiveDataPermissions\_DatabaseSummary table accessible under the job’s Results node
+- List sensitive data permission details – Creates the SA_SQL_SensitiveDataPermissions_Details table accessible under the job’s Results node
+- Sensitive Data Permissions Database Summary – Creates the SA_SQL_SensitiveDataPermissions_DatabaseSummary table accessible under the job’s Results node
 
-In addition to the tables and views created by the analysis tasks, the SQL\_SensitiveDataPermissions Job produces the following pre-configured report.
+In addition to the tables and views created by the analysis tasks, the SQL_SensitiveDataPermissions Job produces the following pre-configured report.
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

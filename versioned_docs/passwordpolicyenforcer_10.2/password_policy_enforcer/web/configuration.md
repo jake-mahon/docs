@@ -44,7 +44,7 @@ Password Policy Enforcer/Web displays the Password Policy Enforcer password poli
 
 You can also set the Port, Timeout, and number of Retries for the Password Policy Protocol if the defaults are not suitable.
 
-__NOTE:__ A Password Policy Enforcer/Web license does not include a Password Policy Enforcer license. Go to [netwrix.com/password\_policy\_enforcer](https://www.netwrix.com/password_policy_enforcer.html) to learn more about Password Policy Enforcer.
+__NOTE:__ A Password Policy Enforcer/Web license does not include a Password Policy Enforcer license. Go to [netwrix.com/password_policy_enforcer](https://www.netwrix.com/password_policy_enforcer.html) to learn more about Password Policy Enforcer.
 
 ## About Tab
 

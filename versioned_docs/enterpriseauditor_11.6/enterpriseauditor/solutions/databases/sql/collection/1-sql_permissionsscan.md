@@ -1,10 +1,10 @@
-# 1-SQL\_PermissionsScan
+# 1-SQL_PermissionsScan
 
-The 1-SQL\_PermissionsScan Job collects SQL server instance and database level permissions from targeted servers.
+The 1-SQL_PermissionsScan Job collects SQL server instance and database level permissions from targeted servers.
 
-## Queries for the 1-SQL\_PermissionsScan Job
+## Queries for the 1-SQL_PermissionsScan Job
 
-The 1-SQL\_PermissionsScan Job uses the SQL Data Collector for the following query:
+The 1-SQL_PermissionsScan Job uses the SQL Data Collector for the following query:
 
 ![Query Selection](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/sql/collection/sqljobgroup6.png)
 
@@ -13,9 +13,9 @@ The 1-SQL\_PermissionsScan Job uses the SQL Data Collector for the following que
 
 ### Configure the PermissionsScan Query
 
-The 1-SQL\_PermissionScan Job is preconfigured to run using the default settings within the Permissions Collection category. Follow the steps to customize configurations.
+The 1-SQL_PermissionScan Job is preconfigured to run using the default settings within the Permissions Collection category. Follow the steps to customize configurations.
 
-__Step 1 –__ Navigate to the __Databases__ > 0.Collection > SQL > 1-SQL\_PermissionsScan > Configure node and select Queries.
+__Step 1 –__ Navigate to the __Databases__ > 0.Collection > SQL > 1-SQL_PermissionsScan > Configure node and select Queries.
 
 __Step 2 –__ In the Query Selection view, select the PermissionsScan query and click on Query Properties. The Query Properties window appears.
 
@@ -33,11 +33,11 @@ __Step 4 –__ To query for specific databases/instances, navigate to the [SQL D
 
 __Step 5 –__ Navigate to the Summary page, click Finish to save any setting modifications or click Cancel if no changes were made. Then click OK to close the Query Properties window.
 
-The 1-SQL\_PermissionsScan Job is now ready to run with the customized settings.
+The 1-SQL_PermissionsScan Job is now ready to run with the customized settings.
 
-## Analysis Tasks for the 1-SQL\_PermissionScan Job
+## Analysis Tasks for the 1-SQL_PermissionScan Job
 
-Navigate to the __Databases__ > 0.Collection > SQL > 1-SQL\_PermissionsScan > Configure node and select Analysis to view the analysis tasks.
+Navigate to the __Databases__ > 0.Collection > SQL > 1-SQL_PermissionsScan > Configure node and select Analysis to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis task(s). The analysis task(s) are preconfigured for this job.
 

@@ -61,7 +61,7 @@ __Step 2 –__ Provision the service account to have:
 - SPDataAccess Database role membership
 - This database role membership needs to be configured on:
 
-  - SharePoint Configuration database (ShaerPoint\_Config)
-  - All SharePoint Content databases housing web application data (by default the content databases begin with WSS\_Content\_, but they can be customized)
+  - SharePoint Configuration database (ShaerPoint_Config)
+  - All SharePoint Content databases housing web application data (by default the content databases begin with WSS_Content_, but they can be customized)
 
 The service account is provisioned with SharePoint database permissions.

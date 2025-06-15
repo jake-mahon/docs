@@ -15,15 +15,15 @@ After modifying the authentication mode via ```SelectUserByIdentityQueryHandlerS
 
 ## Examples
 
-The following example links the authentication credentials of an end-user to its matching resource of EntityType __Directory\_User__.
+The following example links the authentication credentials of an end-user to its matching resource of EntityType __Directory_User__.
 
 In this example, authentication has been set up using [Integrated Windows Authentication](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/end-users-authentication/index.md). In that case, the login used by the end-user is in the form ```DOMAIN/userName```.
 
 The __AfterToken__ attribute parses the ```DOMAIN/userName``` string into ```userName```.
 
-The parsed result ```userName``` is compared with ```AD_Entry:sAMAccountName``` property value of __Directory\_User__ resources.
+The parsed result ```userName``` is compared with ```AD_Entry:sAMAccountName``` property value of __Directory_User__ resources.
 
-The matching __Directory\_User__ resource is the resource that stands for the end-user identity within Usercube.
+The matching __Directory_User__ resource is the resource that stands for the end-user identity within Usercube.
 
 ```
 

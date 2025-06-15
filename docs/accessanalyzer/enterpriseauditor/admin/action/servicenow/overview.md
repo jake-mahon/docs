@@ -20,7 +20,7 @@ The ServiceNow Action Module requires an active ServiceNow account with:
 The following permissions are required to utilize Access Analyzer’s ServiceNow Action Module:
 
 - ServiceNow admin account – An Administrator Role by an organization’s ServiceNow administrator
-- The __Settings__ > __ServiceNow__ node at the global level can be configured with a credential provisioned to create incidents as Callers in the __Assigned to__ field, and any other ServiceNow incident field that references the sys\_user table.
+- The __Settings__ > __ServiceNow__ node at the global level can be configured with a credential provisioned to create incidents as Callers in the __Assigned to__ field, and any other ServiceNow incident field that references the sys_user table.
 
 ## Connecting ServiceNow
 

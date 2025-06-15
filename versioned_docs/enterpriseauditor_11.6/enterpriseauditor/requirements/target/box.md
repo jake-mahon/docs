@@ -8,7 +8,7 @@ Box Requirements
 
 The following are requirements from the target environment:
 
-- Enterprise\_ID of the target Box environment
+- Enterprise_ID of the target Box environment
 
 Data Collectors
 

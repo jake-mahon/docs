@@ -115,8 +115,8 @@ While configuring an SMTP server for an identity store, you can choose to provid
 
 To use a gMSA as service account for GroupID services and app pool, do the following:
 
-1. Add the gMSA account to the membership of the _IIS\_IUSRS_ group on the GroupID server.
-2. Then, add the _IIS\_IUSRS_ group in the ‘Manage Private Keys’ permission for the certificate that GroupID uses for modern authentication.
+1. Add the gMSA account to the membership of the _IIS_IUSRS_ group on the GroupID server.
+2. Then, add the _IIS_IUSRS_ group in the ‘Manage Private Keys’ permission for the certificate that GroupID uses for modern authentication.
 
 See Also
 

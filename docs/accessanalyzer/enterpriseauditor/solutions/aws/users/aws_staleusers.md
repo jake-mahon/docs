@@ -1,20 +1,20 @@
-# AWS\_StaleUsers Job
+# AWS_StaleUsers Job
 
-The AWS\_StaleUsers job provides details on the last time each user logged in or their access key was used, highlighting those over specified number of days (default 60) or that have never logged in.
+The AWS_StaleUsers job provides details on the last time each user logged in or their access key was used, highlighting those over specified number of days (default 60) or that have never logged in.
 
 ## Parameter Configuration
 
 The Configuration section on a Job's overview page allows you to easily modify any customizable parameters used by analysis tasks in the job. See the [Parameter Configuration](/docs/accessanalyzer/enterpriseauditor/admin/jobs/job/overview.md#parameter-configuration) topic for instructions on how to edit parameters on a job overview page.
 
-The AWS\_StaleUsers job has the following configurable parameter:
+The AWS_StaleUsers job has the following configurable parameter:
 
 - Number of days before considering a user stale
 
-See the [Customizable Analysis Tasks for the AWS\_StaleUsers Job](#customizable-analysis-tasks-for-the-aws_staleusers-job) topic for additional information.
+See the [Customizable Analysis Tasks for the AWS_StaleUsers Job](#customizable-analysis-tasks-for-the-aws_staleusers-job) topic for additional information.
 
-## Analysis Tasks for the AWS\_StaleUsers Job
+## Analysis Tasks for the AWS_StaleUsers Job
 
-Navigate to the __AWS__ > __2.Users__ > __AWS\_StaleUsers__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __AWS__ > __2.Users__ > __AWS_StaleUsers__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not deselect the selected analysis tasks. The analysis tasks are preconfigured for this job. Only modify the analysis tasks listed in the customizable analysis tasks section.
 
@@ -22,12 +22,12 @@ __CAUTION:__ Do not deselect the selected analysis tasks. The analysis tasks are
 
 The following analysis tasks are selected by default:
 
-- Stale Users – Identifies user accounts that have not been logged in to in the last 60 days. Creates the AWS\_StaleUser\_Details table accessible under the job’s Results node.
+- Stale Users – Identifies user accounts that have not been logged in to in the last 60 days. Creates the AWS_StaleUser_Details table accessible under the job’s Results node.
 
-  - The number of days can be customized from the default value of 60. See the [Customizable Analysis Tasks for the AWS\_StaleUsers Job](#customizable-analysis-tasks-for-the-aws_staleusers-job) topic for additional information.
-- Stale User Summary – Summarizes stale users in AWS. Creates the AWS\_StaleUser\_Summary table accessible under the job’s Results node.
+  - The number of days can be customized from the default value of 60. See the [Customizable Analysis Tasks for the AWS_StaleUsers Job](#customizable-analysis-tasks-for-the-aws_staleusers-job) topic for additional information.
+- Stale User Summary – Summarizes stale users in AWS. Creates the AWS_StaleUser_Summary table accessible under the job’s Results node.
 
-### Customizable Analysis Tasks for the AWS\_StaleUsers Job
+### Customizable Analysis Tasks for the AWS_StaleUsers Job
 
 The default values for parameters that can be customized are:
 
@@ -37,9 +37,9 @@ The default values for parameters that can be customized are:
 
 See the [Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/analysiscustomizableparameters.md) topic for instructions on how to modify parameters.
 
-## Report for the AWS\_StaleUsers Job
+## Report for the AWS_StaleUsers Job
 
-In addition to the tables and views created by the analysis task, the AWS\_StaleUsers job produces the following preconfigured report:
+In addition to the tables and views created by the analysis task, the AWS_StaleUsers job produces the following preconfigured report:
 
 | Report | Description | Default Tags | Report Element |
 | --- | --- | --- | --- |

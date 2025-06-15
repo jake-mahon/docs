@@ -1,10 +1,10 @@
-# FS\_NotifyOwners Job
+# FS_NotifyOwners Job
 
-The FS\_NotifyOwners job is comprised of the SendMail action module that uses the data collected by the __FileSystem__ > __Cleanup__ > __1. Cleanup Assessment__ > __FS\_CleanupAssessment__ job to contact owners of shares containing data for which cleanup is pending.
+The FS_NotifyOwners job is comprised of the SendMail action module that uses the data collected by the __FileSystem__ > __Cleanup__ > __1. Cleanup Assessment__ > __FS_CleanupAssessment__ job to contact owners of shares containing data for which cleanup is pending.
 
-## Action Tasks for the FS\_NotifyOwners Job
+## Action Tasks for the FS_NotifyOwners Job
 
-Navigate to the __FileSystem__ > __Cleanup__ > __2. Notify__ > __FS\_NotifyOwners__ > __Configure__ node and select __Actions__ to view the action tasks.
+Navigate to the __FileSystem__ > __Cleanup__ > __2. Notify__ > __FS_NotifyOwners__ > __Configure__ node and select __Actions__ to view the action tasks.
 
 __CAUTION:__ Do not enable the action unless it is required. Disable the action after execution to prevent making unintended and potentially harmful changes to Active Directory.
 
@@ -14,11 +14,11 @@ The following action task is deselected by default.
 
 - Notify Owners – Notifies share owners using SendMail module
 
-Prior to running the FS\_NotifyOwners job, it is necessary to select the __Notify Owners__ task and configure the properties for the SendMail action module. See the [Configure the FS\_NotifyOwners Action](#configure-the-fs_notifyowners-action) topic for additional information.
+Prior to running the FS_NotifyOwners job, it is necessary to select the __Notify Owners__ task and configure the properties for the SendMail action module. See the [Configure the FS_NotifyOwners Action](#configure-the-fs_notifyowners-action) topic for additional information.
 
-### Configure the FS\_NotifyOwners Action
+### Configure the FS_NotifyOwners Action
 
-The recipients and the text of the email can be customized on the Properties page within the Send Mail Action Module Wizard. The [1. Cleanup Assessment > FS\_CleanupAssessment Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/cleanup/fs_cleanupassessment.md) must be run before the Send Mail Action Module Wizard can be opened. Follow these steps to customize the Notify Owners action task.
+The recipients and the text of the email can be customized on the Properties page within the Send Mail Action Module Wizard. The [1. Cleanup Assessment > FS_CleanupAssessment Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/cleanup/fs_cleanupassessment.md) must be run before the Send Mail Action Module Wizard can be opened. Follow these steps to customize the Notify Owners action task.
 
 __Step 1 –__ Navigate to the job’s __Configure__ node and select __Actions__.
 
@@ -26,7 +26,7 @@ __Step 2 –__ In the Action Selection view, select the desired action task and 
 
 __Step 3 –__ Click __Configure Action__ to open the Send Mail Action Module Wizard.
 
-_Remember,_ the FS\_CleanupAssessment job must be run before the Send Mail Action Module Wizard can be opened.
+_Remember,_ the FS_CleanupAssessment job must be run before the Send Mail Action Module Wizard can be opened.
 
 ![Send Mail Action Module Wizard Properties page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/cleanup/notify/sendmailwizardproperties.png)
 
@@ -45,4 +45,4 @@ __Step 5 –__ On the Message page, customize the following fields:
 
 __Step 6 –__ Navigate to the Summary page, click __Finish__ to save any setting modifications or click __Cancel__ if no changes were made. Then click __OK__ to close the Send Mail Action Module Wizard.
 
-The action task has been customized. It can now be selected and run as part of the FS\_NotifyOwners job.
+The action task has been customized. It can now be selected and run as part of the FS_NotifyOwners job.

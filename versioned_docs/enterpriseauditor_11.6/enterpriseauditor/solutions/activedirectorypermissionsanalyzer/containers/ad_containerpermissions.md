@@ -1,10 +1,10 @@
-# AD\_ContainerPermissions Job
+# AD_ContainerPermissions Job
 
-The AD\_ContainerPermissions Job is responsible for reporting on all Active Directory permissions applied to container objects within the targeted domains.
+The AD_ContainerPermissions Job is responsible for reporting on all Active Directory permissions applied to container objects within the targeted domains.
 
-## Analysis Tasks for the AD\_ContainerPermissions Job
+## Analysis Tasks for the AD_ContainerPermissions Job
 
-Navigate to the __Active Directory Permissions Analyzer__ > __7.Containers__ > __AD\_ContainerPermissions__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Active Directory Permissions Analyzer__ > __7.Containers__ > __AD_ContainerPermissions__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,10 +12,10 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The default analysis tasks are:
 
-- List container object permissions – Creates the SA\_AD\_ContainerPermissions\_Details table accessible under the job’s Results node
-- Summarize container object permissions – Creates the SA\_AD\_ContainerPermissions\_DomainSummary table accessible under the job’s Results node
+- List container object permissions – Creates the SA_AD_ContainerPermissions_Details table accessible under the job’s Results node
+- Summarize container object permissions – Creates the SA_AD_ContainerPermissions_DomainSummary table accessible under the job’s Results node
 
-In addition to the tables and views created by the analysis tasks, the AD\_ContainerPermissions Job produces the following pre-configured report.
+In addition to the tables and views created by the analysis tasks, the AD_ContainerPermissions Job produces the following pre-configured report.
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

@@ -6,6 +6,6 @@ The Usage Statistics job group identifies long term trends of activity across yo
 
 The jobs in the Usage Statistics Job Group are:
 
-- [SP\_InactiveSites Job](/docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/activity/usagestatistics/sp_inactivesites.md) – Highlights your environments least active Sites or Site Collections
-- [SP\_MostActiveSites Job](/docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/activity/usagestatistics/sp_mostactivesites.md) – Identifies the top five most active sites monitored by Access Analyzer
-- [SP\_MostActiveUsers Job](/docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/activity/usagestatistics/sp_mostactiveusers.md) – Identifies the most active users from the last 30 days on all monitored SharePoint servers with a view of Reads, Updates, Deletes, and Permission changes performed by a user
+- [SP_InactiveSites Job](/docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/activity/usagestatistics/sp_inactivesites.md) – Highlights your environments least active Sites or Site Collections
+- [SP_MostActiveSites Job](/docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/activity/usagestatistics/sp_mostactivesites.md) – Identifies the top five most active sites monitored by Access Analyzer
+- [SP_MostActiveUsers Job](/docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/activity/usagestatistics/sp_mostactiveusers.md) – Identifies the most active users from the last 30 days on all monitored SharePoint servers with a view of Reads, Updates, Deletes, and Permission changes performed by a user

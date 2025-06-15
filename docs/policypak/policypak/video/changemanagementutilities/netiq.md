@@ -32,6 +32,6 @@ Now that’s the life cycle of how you would edit a Group Policy Object with Net
 
 There we can see the “GPO DIFFERENCE REPORT.” I’ll go ahead and I’ll allow the little scripting thing to run. We can now see the difference between these two values. The old value is “www.web1.com,” and the new value is “www.web2.com.” So PolicyPak reports work both in the live Group Policy Object and also perfectly within NetIQ GPA.
 
-There’s a lot more that you can do with GPA. This just scratches the surface between the two connection points between PolicyPak and also NetIQGroup Policy Administrator. If you have any other questions, please open a support ticket https://www.netwrix.com/sign\_in.html?rf=tickets.html#/open-a-ticket. Or if you have any questions, particularly on NetIQ’s GPA, their support team is awesome and they’d love to help you.
+There’s a lot more that you can do with GPA. This just scratches the surface between the two connection points between PolicyPak and also NetIQGroup Policy Administrator. If you have any other questions, please open a support ticket https://www.netwrix.com/sign_in.html?rf=tickets.html#/open-a-ticket. Or if you have any questions, particularly on NetIQ’s GPA, their support team is awesome and they’d love to help you.
 
 Thanks so very much. We look forward to seeing you soon.

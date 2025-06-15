@@ -112,7 +112,7 @@ Once the file has been updated for upload, remove any filters and save the file 
 
 From the Privilege Secure Quickstart reporting folder, run the following to in a terminal window to upload the file:
 
-python reports\_2.9.py --insecure --protect-mode-file Freeze\_Mode\_Upload.xlsx --dry-run
+python reports_2.9.py --insecure --protect-mode-file Freeze_Mode_Upload.xlsx --dry-run
 
 Use the –dry-run option to check what is going to be uploaded
 
@@ -129,7 +129,7 @@ python reports_2.9.py --insecure --protect-mode-file Freeze_Mode_Upload.xlsx
 A further pull of all machines should be done from Quickstart to ensure that all the target   
 machines are in protect mode.
 
-reports\_2.9.py –insecure
+reports_2.9.py –insecure
 
 ## Removing Persistence
 
@@ -137,7 +137,7 @@ Removing users or groups from persistence forces users to go through Privilege S
 
 With this implementation approach, persistence should be removed on a group by group basis. This should be an iterative process, notifying and training members of the targeted AD group while progressing.
 
-(__Project Management__) Notifications should now be sent to the members of the AD group that is being targeted. The example we will use in this case is the group DBA\_Admins. The notification should also include the relevant training resources (cheat sheets, videos, URL for access to Privilege Secure), the date of change and any contact info in case of issues.
+(__Project Management__) Notifications should now be sent to the members of the AD group that is being targeted. The example we will use in this case is the group DBA_Admins. The notification should also include the relevant training resources (cheat sheets, videos, URL for access to Privilege Secure), the date of change and any contact info in case of issues.
 
 ![Screenshot_2022-03-30_211410.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/4412001676439_screenshot_2022-03-30_211410.png)
 
@@ -145,29 +145,29 @@ We can update to remove persistence on a single machine through the UI by using 
 
 ![Screenshot_2022-03-30_211436.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/4412001676439_screenshot_2022-03-30_211436_199x110.png)
 
-This only forces the users of the DBA group to go through Privilege Secure on this ONE server. This would leave this group (the DBA administrators) in a mix of using Privilege Secure for some server and not others. It is better to remove persistence for ALL machines that have the DBA\_Admins group. This can easily be achieved using Quickstart. Once this is done all the DBA Administrators will go through Privilege Secure for the servers that they need access to. Optionally a review and approval of the users who exist in the targeted group can also be carried out in conjunction with the owner of the group (machines that this group applies to can be shared with group and machine owners as required)
+This only forces the users of the DBA group to go through Privilege Secure on this ONE server. This would leave this group (the DBA administrators) in a mix of using Privilege Secure for some server and not others. It is better to remove persistence for ALL machines that have the DBA_Admins group. This can easily be achieved using Quickstart. Once this is done all the DBA Administrators will go through Privilege Secure for the servers that they need access to. Optionally a review and approval of the users who exist in the targeted group can also be carried out in conjunction with the owner of the group (machines that this group applies to can be shared with group and machine owners as required)
 
 The updates to the Quickstart spreadsheet would be as follows:
 
 ![Screenshot_2022-03-30_211501.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/4412001676439_screenshot_2022-03-30_211501.png)
 
-Here we have filtered on the DBA\_Admins group. We the return the persistence to FALSE. This should be for ALL machines that have DBA\_Admins.
+Here we have filtered on the DBA_Admins group. We the return the persistence to FALSE. This should be for ALL machines that have DBA_Admins.
 
 Again store the upload spreadsheet file with a suitable name, in the Privilege Secure reporting folder. Run the command below to apply the change to Privilege Secure (dry run first).
 
-reports\_2.9.py --insecure --protect-mode-file DBA\_Admins\_COMPLETED.xlsx --dry-run
+reports_2.9.py --insecure --protect-mode-file DBA_Admins_COMPLETED.xlsx --dry-run
 
 ![Screenshot_2022-03-30_211527.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/4412001676439_screenshot_2022-03-30_211527.png)
 
-reports\_2.9.py --insecure --protect-mode-file DBA\_Admins\_COMPLETED.xlsx
+reports_2.9.py --insecure --protect-mode-file DBA_Admins_COMPLETED.xlsx
 
 ![Screenshot_2022-03-30_211553.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/4412001676439_screenshot_2022-03-30_211553.png)
 
-(__Project Management__) Users within the DBA\_Admins group should now be informed of the change, along with the training and issue resolution information again. Through the UI we can see the effect on one of the machines, WINCOMP1 in this case.
+(__Project Management__) Users within the DBA_Admins group should now be informed of the change, along with the training and issue resolution information again. Through the UI we can see the effect on one of the machines, WINCOMP1 in this case.
 
 ![Screenshot_2022-03-30_211625.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/4412001676439_screenshot_2022-03-30_211625.png)
 
-The DBA\_Admins users are now forced to request elevated access through Privilege Secure. This would be the case for ALL machines that the group has access to. In this case it was a single machine.
+The DBA_Admins users are now forced to request elevated access through Privilege Secure. This would be the case for ALL machines that the group has access to. In this case it was a single machine.
 
 ## Rinse and Repeat
 
@@ -183,4 +183,4 @@ New machines, server and workstations, are constantly being built within the org
 
 ## Tips and Tricks
 
-When uploading an Excel file it can be good to delete rows that are not needed (e.g. machines that have not been scanned). The amount of lines to be deleted can be considerable (depending on how many outdated AD entries). This can cause Excel to run slow or even crash. To avoid this sort the spreadsheet by the column that the deletion will be based upon (e.g. last\_scanned) and then delete.
+When uploading an Excel file it can be good to delete rows that are not needed (e.g. machines that have not been scanned). The amount of lines to be deleted can be considerable (depending on how many outdated AD entries). This can cause Excel to run slow or even crash. To avoid this sort the spreadsheet by the column that the deletion will be based upon (e.g. last_scanned) and then delete.

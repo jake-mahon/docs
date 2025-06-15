@@ -17,7 +17,7 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 | Property | Type | Description |
 | --- | --- | --- |
 | Connector   required | String | Identifier of the connector involved in the job to be generated. |
-| DisplayName\_L1   optional | String | Display name of the scaffolding in language 1 (up to 16). |
+| DisplayName_L1   optional | String | Display name of the scaffolding in language 1 (up to 16). |
 | JobIdentifier   optional | String | For job scaffoldings, identifier of the job to be generated. If not defined, the job identifier is calculated. |
 | OldAlgorithm   optional | Boolean | Internal use. |
 

@@ -112,7 +112,7 @@ __NOTE:__ Set the __Default Database__ as Access Analyzer (or the desired Access
 
 __Step 5 –__ Navigate to the __User Mapping__ menu, select the Access Analyzer (or the desired Access Analyzer database) database, and set the __Default Schema__ to __DBO__.
 
-__Step 6 –__ In the __Database role membership__ section, set the role to __db\_owner__. Click __OK__ to save new user configuration information and continue on to configure the Access Analyzer Console.
+__Step 6 –__ In the __Database role membership__ section, set the role to __db_owner__. Click __OK__ to save new user configuration information and continue on to configure the Access Analyzer Console.
 
 __Step 7 –__ Configure the Access Analyzer Console to access the assigned database using the newly secured login account.
 

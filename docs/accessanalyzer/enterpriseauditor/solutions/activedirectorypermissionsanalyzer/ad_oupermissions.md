@@ -1,14 +1,14 @@
-# 3.OUs > AD\_OUPermissions Job
+# 3.OUs > AD_OUPermissions Job
 
-The AD\_OUPermissions job reports on all Active Directory permissions and ownership applied to organizational unit (OU) objects within the targeted domains.
+The AD_OUPermissions job reports on all Active Directory permissions and ownership applied to organizational unit (OU) objects within the targeted domains.
 
 ![3.OUs Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/ousjobstree.webp)
 
-The AD\_OUPermissions job is located in the 3.OUs job group.
+The AD_OUPermissions job is located in the 3.OUs job group.
 
-## Analysis Tasks for the AD\_OUPermissions Job
+## Analysis Tasks for the AD_OUPermissions Job
 
-Navigate to the __Active Directory Permissions Analyzer__ > __3.OUs__ > __AD\_OUPermissions__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Active Directory Permissions Analyzer__ > __3.OUs__ > __AD_OUPermissions__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -16,13 +16,13 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The default analysis tasks are:
 
-- List OU permissions – Creates the SA\_AD\_OUPermissions\_Details table accessible under the job’s Results node
+- List OU permissions – Creates the SA_AD_OUPermissions_Details table accessible under the job’s Results node
 - Summarize OU permissions – Creates an interim processing table in the database for use by downstream analysis and report generation
 - Shadow Access OU Paths – Calculates the object location and permissions for shadow access
-- OU Ownership – Lists the owners of each OU and determines if they are a non-standard owner. Principals that are not administrators are considered non-standard owners of OU objects. Creates the SA\_AD\_OUOwnership\_Details table accessible under the job’s Results node.
+- OU Ownership – Lists the owners of each OU and determines if they are a non-standard owner. Principals that are not administrators are considered non-standard owners of OU objects. Creates the SA_AD_OUOwnership_Details table accessible under the job’s Results node.
 - OU Ownership Summary – Summarizes owner type by domain
 
-In addition to the tables and views created by the analysis tasks, the AD\_OUPermissions job produces the following pre-configured reports.
+In addition to the tables and views created by the analysis tasks, the AD_OUPermissions job produces the following pre-configured reports.
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

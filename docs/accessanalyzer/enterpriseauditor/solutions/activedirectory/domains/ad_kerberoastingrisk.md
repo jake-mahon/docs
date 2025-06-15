@@ -1,6 +1,6 @@
-# AD\_KerberoastingRisk Job
+# AD_KerberoastingRisk Job
 
-The AD\_KerberoastingRisk job identifies accounts vulnerable to kerberoasting. Kerberoasting is a threat where attackers target service accounts in Active Directory to steal their passwords.
+The AD_KerberoastingRisk job identifies accounts vulnerable to kerberoasting. Kerberoasting is a threat where attackers target service accounts in Active Directory to steal their passwords.
 
 In a kerberoasting attack, attackers request service tickets (TGS) for service accounts from the Key Distribution Center (KDC). These tickets are encrypted with the service account's password hash. Attackers attempt to crack these hashes offline to reveal the passwords for the service accounts.
 
@@ -12,7 +12,7 @@ See the Netwrix [Kerberoasting Attack](https://www.netwrix.com/cracking_kerberos
 
 The Configuration section on a Job's overview page allows you to easily modify any customizable parameters used by analysis tasks in the job. See the [Parameter Configuration](/docs/accessanalyzer/enterpriseauditor/admin/jobs/job/overview.md#parameter-configuration) topic for instructions on how to edit parameters on a job overview page.
 
-The AD\_KerberoastingRisk job has the following configurable parameters:
+The AD_KerberoastingRisk job has the following configurable parameters:
 
 - Consider AES 128 as weak encryption (DES and RC4 always considered weak) – Enable to include AES-128 as a weak encryption type
 - Consider "Password Never Expires" as an easily crackable password – Enable to include accounts having the Password Never Expires policy as a password exception
@@ -20,9 +20,9 @@ The AD\_KerberoastingRisk job has the following configurable parameters:
 
 All of these parameters are disabled by default.
 
-## Analysis Tasks for the AD\_KerberoastingRisk Job
+## Analysis Tasks for the AD_KerberoastingRisk Job
 
-Navigate to the __Active Directory__ > __5.Domains__ > __AD\_KerberoastingRisk__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Active Directory__ > __5.Domains__ > __AD_KerberoastingRisk__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -35,7 +35,7 @@ The default analysis tasks are:
   - This task uses three customizable parameters. These allow you to optionally consider AES-128 as a weak encryption type, consider Password Never Expires as being easily crackable, and include disabled user accounts. See the [Parameter Configuration](#parameter-configuration) topic for additional information.
 - Kerberoasting Summary – Summarizes accounts by domain with counts for multiple vulnerabilities
 
-In addition to the tables and views created by the analysis tasks, the AD\_KerberoastingRisk job produces the following pre-configured report:
+In addition to the tables and views created by the analysis tasks, the AD_KerberoastingRisk job produces the following pre-configured report:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

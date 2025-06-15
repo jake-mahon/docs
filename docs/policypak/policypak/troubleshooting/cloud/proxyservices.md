@@ -2,7 +2,7 @@
 
 The Netwrix Endpoint Policy Manager (formerly PolicyPak) cloud service is running as Local Service. That service might need to be instructed to be used to specify a proxy for the LocalService Account.
 
-The keys you can manipulate are: HKEY\_USERS.DEFAULTSoftwareMicrosoftWindowsCurrentVersionInternet SettingsConnectionsDefaultConnectionSettings and SavedLegacySettings.
+The keys you can manipulate are: HKEY_USERS.DEFAULTSoftwareMicrosoftWindowsCurrentVersionInternet SettingsConnectionsDefaultConnectionSettings and SavedLegacySettings.
 
 The ideal way to do this is as follows:
 

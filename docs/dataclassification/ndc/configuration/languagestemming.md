@@ -30,7 +30,7 @@ By default, the NDC database will index words containing the following character
 
 - "-" (hyphen)
 - "="
-- "\_" (underscore)
+- "_" (underscore)
 
 Indexing of these characters can be stopped by removing the relevant entries from the CustomTermCharacters table:
 
@@ -42,7 +42,7 @@ Indexing of these characters can be stopped by removing the relevant entries fro
 - "&"
 - "-" (hyphen)
 - "="
-- "\_" (underscore)
+- "_" (underscore)
 
 Any of the following characters can be included in the list of indexed characters by adding them to the CustomTermCharacters table:
 

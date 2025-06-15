@@ -11,7 +11,7 @@ Directory Manager provides two ways to expire a group:
 The following events take place when a group expires:
 
 - The group becomes inactive and is locked for all activities.
-- "EXPIRED\_" is added as a prefix to the group name.
+- "EXPIRED_" is added as a prefix to the group name.
 - A mail-enabled group is mail-disabled, which means that any emails sent to the group and are bounced back with an expiration message.
 - For a security group, its member list is cleared and any permissions set for that group no longer apply. However Directory Manager keeps a backup of its membership in the database.
 
@@ -24,13 +24,13 @@ __In case of an Active Directory identity store with Office 365 as messaging pro
 In case of an Active Directory identity store with Office 365 as the messaging provider, the following happens when a distribution group is expired manually or via the Group Lifecycle job:
 
 - The group’s email address is removed in Active Directory.
-- "EXPIRED\_" is added as a prefix to the group name.
+- "EXPIRED_" is added as a prefix to the group name.
 - The group is removed from Office 365 when the AAD Sync schedule runs.
 
 On renewing an expired distribution group, the following happens:
 
 - The group’s email address is added in Active Directory.
-- The "EXPIRED\_" prefix is removed from the group’s name.
+- The "EXPIRED_" prefix is removed from the group’s name.
 - The group is created with members in Office 365 when the AAD Sync schedule runs.
 
 In case of a Microsoft Entra ID identity store with Office 365 as messaging provider:

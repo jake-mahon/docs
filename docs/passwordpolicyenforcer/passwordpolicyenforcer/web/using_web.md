@@ -6,7 +6,7 @@ Where [server] is the name or IP address of the server hosting Password Policy E
 
 ![Web Welcome page](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/web/webwelcome.webp)
 
-The default page is called the Welcome page. You can customize the information on this page by editing __en\_default.htm__, or you can bypass this page and send users directly to the Password Change page:
+The default page is called the Welcome page. You can customize the information on this page by editing __en_default.htm__, or you can bypass this page and send users directly to the Password Change page:
 
 ```http://[server]/ppeweb/ppeweb.dll```
 

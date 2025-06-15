@@ -58,7 +58,7 @@ __Step 6 –__ On the Configure Basic Options page, choose which settings to ena
   - Display example if checked – C:\Folder\file.txt
   - Display example if unchecked – /Folder/file.text
 - Resolve UNC paths – Adds a __UNC Path__ column and a __Rename UNC Path__ column in the generated TSV files
-  - This option corresponds to the REPORT\_UNC\_PATH parameter in the INI file. It is disabled by default. The UNC Path is in the following format:
+  - This option corresponds to the REPORT_UNC_PATH parameter in the INI file. It is disabled by default. The UNC Path is in the following format:
     - For CIFS activity – \\[HOST]\[SHARE]\[PATH]
     - Example CIFS activity – \\ExampleHost\TestShare\DocTeam\Temp.txt
     - For NFS activity – [HOST]:/[VOLUME]/[PATH]
@@ -116,7 +116,7 @@ __Step 9 –__ If Syslog Server is selected on the __Where To Log The Activity__
   - Display example if checked – C:\Folder\file.txt
   - Display example if unchecked – /Folder/file.text
 - Resolve UNC paths – Adds a __UNC Path__ column and a __Rename UNC Path__ column in the generated TSV files
-  - This option corresponds to the REPORT\_UNC\_PATH parameter in the INI file. It is disabled by default. The UNC Path is in the following format:
+  - This option corresponds to the REPORT_UNC_PATH parameter in the INI file. It is disabled by default. The UNC Path is in the following format:
     - For CIFS activity – \\[HOST]\[SHARE]\[PATH]
     - Example CIFS activity – \\ExampleHost\TestShare\DocTeam\Temp.txt
     - For NFS activity – [HOST]:/[VOLUME]/[PATH]

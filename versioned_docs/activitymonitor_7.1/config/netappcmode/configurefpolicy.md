@@ -385,7 +385,7 @@ Relevant NetApp Documentation: To learn more about creating a policy, please vis
 
 ### Part 5: Create FPolicy Scope
 
-The FPolicy scope creates the filters necessary to perform scans on specific shares or volumes. It is possible to set the scope to monitor all volumes or all shares by replacing the volume/share name variable [SVM\_NAME] in the command with an asterisk (\*).
+The FPolicy scope creates the filters necessary to perform scans on specific shares or volumes. It is possible to set the scope to monitor all volumes or all shares by replacing the volume/share name variable [SVM_NAME] in the command with an asterisk (\*).
 
 IMPORTANT:
 

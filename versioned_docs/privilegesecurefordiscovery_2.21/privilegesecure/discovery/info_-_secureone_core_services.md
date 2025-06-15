@@ -6,14 +6,14 @@ Core Services
 
 Privilege Secure is comprised of the following Docker containers, which each perform a unique task:
 
-- s1\_api
-- s1\_db (single node) OR s1\_mongo1, s1\_mongo2, s1\_mongo3, etc (cluster setup)
-- s1\_expire
-- s1\_fluentd
-- s1\_ldapsync
-- s1\_mq
-- s1\_scanner
-- s1\_worker
+- s1_api
+- s1_db (single node) OR s1_mongo1, s1_mongo2, s1_mongo3, etc (cluster setup)
+- s1_expire
+- s1_fluentd
+- s1_ldapsync
+- s1_mq
+- s1_scanner
+- s1_worker
 
 Below is the sample output of running `sudo docker service ls | awk -F" " '{print $2,$3,$4}' in a single-node environment.  Run `sudo docker service ls` for the complete output:
 
@@ -25,7 +25,7 @@ Privilege Secure is built from the ground up on a REST based API.  This service
 
 How to check the status of the service from the command line:
 
-- `sudo docker service ps s1\_api`
+- `sudo docker service ps s1_api`
 
 ## DB/Mongo Service Description
 
@@ -33,17 +33,17 @@ Privilege Secure runs MongoDB as its database service.  Everything pertinent to
 
 How to check the status of the service from the command line:
 
-- `sudo docker service ps s1\_db` (single node)
+- `sudo docker service ps s1_db` (single node)
 
   OR
-- `sudo docker service ps s1\_mongo1` (cluster, incrementing `mongo1` by 1 for every node in the cluster)
+- `sudo docker service ps s1_mongo1` (cluster, incrementing `mongo1` by 1 for every node in the cluster)
 
 ## Expire Service Description
 
 There are a number of reasons why Privilege Secure may not be able to contact a specific node on the network at any given time - laptops coming on and off the network, firewall rules changing, network outages, etc.  When this happens and Privilege Secure is waiting to execute a command for this machine such as expiring an active JITA session, but cannot connect to a resource at the time required, the event passes into the expire queue where it is periodically attempted again until either successful, or times out as an error.  The expire container is responsible for managing expiration requests, both active and pending.  
 How to check the status of the expire service from the command line:
 
-- `sudo docker service ps s1\_expire`
+- `sudo docker service ps s1_expire`
 
 ## Fluentd Service Descirption
 
@@ -51,7 +51,7 @@ Fluentd is the log aggregation tool Privilege Secure uses.  It gathers all of t
 
 How to check the status of the fluentd service from the command line:
 
-- `sudo docker service ps s1\_fluentd`
+- `sudo docker service ps s1_fluentd`
 
 ## LDAPSync Service Description
 
@@ -67,21 +67,21 @@ Once these initial sync messages have taken place, the ldapsync checks again wit
 
 How to check the status of the ldapsync service from the command line:
 
-- `sudo docker service ps s1\_ldapsync`
+- `sudo docker service ps s1_ldapsync`
 
 ## MQ Service Description
 
 MQ stands for "Messaging Queue" and it is the container which handles intra-container communications and prioritization of messages.  
 How to check the status of the service from the command line:
 
-- `sudo docker service ps s1\_mq`
+- `sudo docker service ps s1_mq`
 
 ## Scanner Service Description
 
 Privilege Secure is a continuous scanning solution for Privileged Access Management, and the scanner container is the service responsible for carrying that out.  It is its own independent container, solely responsible for scanning the network and updating all database records according to what it discovers.  
 How to check the status of the scanner service from the command line:
 
-- `sudo docker service ps s1\_scanner`
+- `sudo docker service ps s1_scanner`
 
 ## Worker Service Description
 
@@ -89,4 +89,4 @@ The worker service is responsible for carrying out active requests.  Some of wh
 
 How to check the status of the worker service from the command line:
 
-- `sudo docker service ps s1\_worker`
+- `sudo docker service ps s1_worker`

@@ -1,14 +1,14 @@
-# 7.Sensitive Data > FS\_DLPResults Job
+# 7.Sensitive Data > FS_DLPResults Job
 
-The FS\_DLPResults job is designed to report on resources that have been identified to contain sensitive data from targeted file servers. It is comprised of analysis and reports which use the data collected by the __0.Collection__ job group to provide information on where sensitive data is being shared. Best practices often dictate moving files with sensitive data out of open shares.
+The FS_DLPResults job is designed to report on resources that have been identified to contain sensitive data from targeted file servers. It is comprised of analysis and reports which use the data collected by the __0.Collection__ job group to provide information on where sensitive data is being shared. Best practices often dictate moving files with sensitive data out of open shares.
 
 ![7.Sensitive Data > FS_DLPResults Job in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/db2/sensitivedata/sensitivedatajobstree.png)
 
-The FS\_DLPResults job is located in the 7.Sensitive Data job group.
+The FS_DLPResults job is located in the 7.Sensitive Data job group.
 
-## Analysis Tasks for the FS\_DLPResults Job
+## Analysis Tasks for the FS_DLPResults Job
 
-View the analysis tasks by navigating to the __FileSystem__ > __7.Sensitive Data__ > __FS\_DLPResults__ > __Configure__ node and select __Analysis__.
+View the analysis tasks by navigating to the __FileSystem__ > __7.Sensitive Data__ > __FS_DLPResults__ > __Configure__ node and select __Analysis__.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -16,15 +16,15 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The following analysis tasks are selected by default:
 
-- Share Details – Creates the SA\_FS\_DLPResults\_ShareDetails table accessible under the job’s Results node
-- Share Summary – Creates the SA\_FS\_DLPResults\_ShareSummary table accessible under the job’s Results node
+- Share Details – Creates the SA_FS_DLPResults_ShareDetails table accessible under the job’s Results node
+- Share Summary – Creates the SA_FS_DLPResults_ShareSummary table accessible under the job’s Results node
 - Enterprise Summary – Creates an interim processing table in the database for use by downstream analysis and report generation
-- Sensitive Security Groups – Creates the SA\_FS\_DLPResults\_GroupDetails table accessible under the job’s Results node
-- Identify Probable Owners – Creates the SA\_FS\_DLPResults\_ProbableOwners table accessible under the job’s Results node
-- Activity Details – Creates the SA\_FS\_DLPResults\_ActivityDetails table accessible under the job’s Results node
+- Sensitive Security Groups – Creates the SA_FS_DLPResults_GroupDetails table accessible under the job’s Results node
+- Identify Probable Owners – Creates the SA_FS_DLPResults_ProbableOwners table accessible under the job’s Results node
+- Activity Details – Creates the SA_FS_DLPResults_ActivityDetails table accessible under the job’s Results node
 - Top Trustees by Activity – Creates an interim processing table in the database for use by downstream analysis and report generation
 
-In addition to the tables and views created by the analysis tasks, the FS\_DLPResults job produces the following pre-configured reports:
+In addition to the tables and views created by the analysis tasks, the FS_DLPResults job produces the following pre-configured reports:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

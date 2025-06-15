@@ -21,7 +21,7 @@ The following job groups need to be successfully run:
 
 Targeted Hosts
 
-The __Features__ > __EX\_Features__ job, __Logons__ > __0.Collection__ job group, __Permissions__ > __0.Collection__ job group, and __Sizing__ > __0.Collection__ job group have been set for Exchange on-premises to run against:
+The __Features__ > __EX_Features__ job, __Logons__ > __0.Collection__ job group, __Permissions__ > __0.Collection__ job group, and __Sizing__ > __0.Collection__ job group have been set for Exchange on-premises to run against:
 
 - Local host
 
@@ -31,15 +31,15 @@ Connection Profile
 
 A Connection Profile must be set directly on the collection jobs within each sub-job group:
 
-- __Features__ > __EX\_Features__ Job
-- __Logons__ > __0.Collection__ > __EX\_MailboxActivity__ Job
+- __Features__ > __EX_Features__ Job
+- __Logons__ > __0.Collection__ > __EX_MailboxActivity__ Job
 - __Permissions__ > __0. Collection__:
 
-  - EX\_Delegates Job
-  - EX\_MBRights Job
-  - EX\_Perms Job
-  - EX\_SendAs Job
-- __Sizing__ > __0. Collection__ > __EX\_MBSize__ Job
+  - EX_Delegates Job
+  - EX_MBRights Job
+  - EX_Perms Job
+  - EX_SendAs Job
+- __Sizing__ > __0. Collection__ > __EX_MBSize__ Job
 
 See the [Exchange PowerShell Permissions](/docs/accessanalyzer/enterpriseauditor/requirements/solutions/exchange/powershell.md) topic for the required permissions. See the [Exchange Custom Connection Profile & Host List](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/configurejob.md) topic for additional information.
 
@@ -60,20 +60,20 @@ History retention should not be enabled on this job group. History is kept throu
 
 | Job Name | Analysis Task Name | Default History |
 | --- | --- | --- |
-| EX\_DMailboxLogons | SET HISTORY RETENTION | 6 Months |
-| EX\_MailboxSizes | SET HISTORY RETENTION | 6 Months |
+| EX_DMailboxLogons | SET HISTORY RETENTION | 6 Months |
+| EX_MailboxSizes | SET HISTORY RETENTION | 6 Months |
 
 Query Configuration
 
 The 4. Mailboxes job group is designed to be run with the default query configurations. However, the following queries can be modified:
 
-- __Features__ > __EX\_Features__ Job – __User Mailbox Settings__ Query
-- __Logons__ > __0.Collection__ > __EX\_MailboxActivity__ Job – __Exchange Mailbox Logons__ Query
-- __Permissions__ > __0. Collection__ > __EX\_Delegates__ Job – __Delegates__ Query
-- __Permissions__ > __0. Collection__ > __EX\_MBRights__ Job – __Mailbox Rights__ Query
-- __Permissions__ > __0. Collection__ > __EX\_Perms__ Job – __Exchange Mailbox Permissions__ Query
-- __Permissions__ > __0. Collection__ > __EX\_SendAs__ Job – __Send AS - Rights__ Query
-- __Sizing__ > __0. Collection__ > __EX\_MBSize__ Job – __Mailbox Counts and Sizes__ Query
+- __Features__ > __EX_Features__ Job – __User Mailbox Settings__ Query
+- __Logons__ > __0.Collection__ > __EX_MailboxActivity__ Job – __Exchange Mailbox Logons__ Query
+- __Permissions__ > __0. Collection__ > __EX_Delegates__ Job – __Delegates__ Query
+- __Permissions__ > __0. Collection__ > __EX_MBRights__ Job – __Mailbox Rights__ Query
+- __Permissions__ > __0. Collection__ > __EX_Perms__ Job – __Exchange Mailbox Permissions__ Query
+- __Permissions__ > __0. Collection__ > __EX_SendAs__ Job – __Send AS - Rights__ Query
+- __Sizing__ > __0. Collection__ > __EX_MBSize__ Job – __Mailbox Counts and Sizes__ Query
 
 No other queries should be modified.
 
@@ -85,13 +85,13 @@ __CAUTION:__ Most of these analysis tasks are preconfigured and should not be mo
 
 The following analysis tasks should not be deselected, but their parameters can be modified:
 
-- __Logons__ > __EX\_MailboxLogons__ Job – __03.SET HISTORY RETENTION__ Analysis Task
-- __Sizing__ > __EX\_MailboxSizes__ Job – __02.SET HISTORY RETENTION__ Analysis Task
+- __Logons__ > __EX_MailboxLogons__ Job – __03.SET HISTORY RETENTION__ Analysis Task
+- __Sizing__ > __EX_MailboxSizes__ Job – __02.SET HISTORY RETENTION__ Analysis Task
 
 The following analysis tasks is enabled to send Exchange mailbox permission data to the   
 Netwrix Access Information Center:
 
-- __Permissions__ > __EX\_MailboxAccess__ Job – __13.AIC Import - Export Exchange Permissions__ Analysis Task
+- __Permissions__ > __EX_MailboxAccess__ Job – __13.AIC Import - Export Exchange Permissions__ Analysis Task
 
 Workflow
 

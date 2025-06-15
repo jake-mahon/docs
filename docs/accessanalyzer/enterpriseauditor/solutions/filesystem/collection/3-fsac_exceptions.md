@@ -30,8 +30,8 @@ The following analysis tasks are selected by default:
 
 While it is possible to deselect particular tasks as specified, it is not recommended. The following analysis tasks are deselected by default:
 
-- Show view – Displays the SA\_FSAC\_ExceptionsView within the Results node of the Access Analyzer Console
-- Show users view – Displays the SA\_FSAC\_UserExceptionsView within the Results node of the Access Analyzer Console
+- Show view – Displays the SA_FSAC_ExceptionsView within the Results node of the Access Analyzer Console
+- Show users view – Displays the SA_FSAC_UserExceptionsView within the Results node of the Access Analyzer Console
 
 ### Customizable Analysis Tasks for the 3-FSAC Exceptions Job
 
@@ -58,7 +58,7 @@ Customizable parameters enable users to set the values used for classification d
 | Unusual peer group share activity | @DAYS | 7 | Amount of days to generate exceptions for from today |
 | Unusual peer group share activity | @EVENTSTDDEVS | 3 | Multiples of standard deviation required to be an operation count exception |
 | Unusual peer group share activity | @FILESTDDEVS | 3 | Multiples of standard deviation required to be a file activity volume exception |
-| Unusual binaries activity | @DATE\_CUTOFF | 7 | From the current time, how many days to look back when considering exceptions |
+| Unusual binaries activity | @DATE_CUTOFF | 7 | From the current time, how many days to look back when considering exceptions |
 | Unusual user activity | @WEEKS | 3 | Minimum data points required for analysis |
 | Unusual user activity | @THROWAWAY | 1 | When calculating averages throw away the top N% |
 | Unusual user activity | @EVENTS | 10 | Minimum amount of events for operations exception |

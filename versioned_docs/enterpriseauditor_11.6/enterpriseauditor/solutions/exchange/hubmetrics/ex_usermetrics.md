@@ -1,10 +1,10 @@
-# EX\_UserMetrics Job
+# EX_UserMetrics Job
 
-The EX\_UserMetrics Job provides information around each users mail-flow in the organization.
+The EX_UserMetrics Job provides information around each users mail-flow in the organization.
 
-## Analysis Tasks for the EX\_UserMetrics Job
+## Analysis Tasks for the EX_UserMetrics Job
 
-View the analysis tasks by navigating to the __Exchange__ > __1. HUB Metrics__ > __EX\_UserMetrics__ > __Configure__ node and select __Analysis__.
+View the analysis tasks by navigating to the __Exchange__ > __1. HUB Metrics__ > __EX_UserMetrics__ > __Configure__ node and select __Analysis__.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,10 +12,10 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The following analysis tasks are selected by default:
 
-- 01. User Metrics - Volume – Creates the SA\_EX\_UserMetrics\_Volume table, accessible under the job’s Results node
-- 02. User Metrics - Count – Creates the SA\_EX\_UserMetrics\_Count table, accessible under the job’s Results node
+- 01. User Metrics - Volume – Creates the SA_EX_UserMetrics_Volume table, accessible under the job’s Results node
+- 02. User Metrics - Count – Creates the SA_EX_UserMetrics_Count table, accessible under the job’s Results node
 
-In addition to the tables and views created by the analysis tasks, the EX\_UserMetrics Job produces the following pre-configured reports:
+In addition to the tables and views created by the analysis tasks, the EX_UserMetrics Job produces the following pre-configured reports:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

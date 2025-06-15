@@ -16,7 +16,7 @@ By design, Google Drive supports custom properties with the following limitation
 
 __NOTE:__ See [this article](https://developers.google.com/drive/api/v3/properties) for details.
 
-To overcome these limitations, Google Drive tagging implemented in the solution supports appending a counter to the field name. So, it is possible to split classifications across multiple fields if a text limit is hit within the source system. For example, you may have classifications written to the fields “_Agriculture_” and “_Agriculture\_1_”.
+To overcome these limitations, Google Drive tagging implemented in the solution supports appending a counter to the field name. So, it is possible to split classifications across multiple fields if a text limit is hit within the source system. For example, you may have classifications written to the fields “_Agriculture_” and “_Agriculture_1_”.
 
 __NOTE:__ Due to the way Google Drive manages document audit information, writing classifications to a document (i.e. tagging) in this source will affect additional document metadata such as modified date and/or modified user:
 
@@ -36,7 +36,7 @@ To configure tagging on a global level
 | __Enabled__ | Use to enable / disables the writing of classifications for the selected taxonomy. | Cleared by default |
 | __Field Name__ | Defines the attribute name to be used when persisting the classifications (metadata property name). |  |
 | __Single Value Field__ | If selected, this option will cause only the highest scoring classification to be written to the field. |  |
-| __Maximum Field__ | Specifies the maximum number of properties which can be used to write classifications. Property names will be in the format 'FieldName\_X' | This allows more classifications to be written for sources where there is a limit on field length, by writing classifications across multiple properties. |
+| __Maximum Field__ | Specifies the maximum number of properties which can be used to write classifications. Property names will be in the format 'FieldName_X' | This allows more classifications to be written for sources where there is a limit on field length, by writing classifications across multiple properties. |
 | __Format__ | How the classifications should be formatted. | You can create a custom delimited combination of the labels / GUIDs. |
 | __Name/ID__ or __Class__ | Depending on the format, take the term labels, IDs or a combination of both | The corresponding Delimiter must be a string or array type with a maximum length of 3. |
 | __Prefix/__  __Suffix__ | Will be appended to the formatted string of classifications. |  |

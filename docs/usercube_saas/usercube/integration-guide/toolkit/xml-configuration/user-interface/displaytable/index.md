@@ -85,7 +85,7 @@ Here is a list of properties of column child element.
 | ColumnSize   default value: 1 | Int32 | Defines the column size. |
 | DefaultSortPriority   optional | Int32 | Defines the default sort priority. |
 | DisplayBinding   optional | Int64 | Represents the linked binding path to a scalar property. |
-| DisplayName\_L1   optional | String | Display name of the column in language 1 (up to 16). |
+| DisplayName_L1   optional | String | Display name of the column in language 1 (up to 16). |
 | IsDisplayInDropDownList   default value: false | Boolean | Is a drop down list column. |
 | IsDisplayInSummaryView   default value: false | Boolean | Is a summary view column. |
 | IsResizable   default value: false | Boolean | Is resizable column. |

@@ -1,10 +1,10 @@
-# AD\_AdminAccounts Job
+# AD_AdminAccounts Job
 
-The AD\_AdminAccounts Job shows all actions taken by domain administrators within the environment.
+The AD_AdminAccounts Job shows all actions taken by domain administrators within the environment.
 
-## Analysis Tasks for the AD\_AdminAccounts Job
+## Analysis Tasks for the AD_AdminAccounts Job
 
-Navigate to the __Jobs__ > __Active Directory__ > __6.Activity__ > __Privileged Accounts__ > __AD\_AdminAccounts__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Jobs__ > __Active Directory__ > __6.Activity__ > __Privileged Accounts__ > __AD_AdminAccounts__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,11 +12,11 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The default analysis tasks are:
 
-- Summarizes Administrative Account Activity – Creates the SA\_AD\_AdminAccounts\_ActivitySummary table accessible under the job’s Results node
-- Identifies Administrative Accounts Last Activity Event – Creates the SA\_AD\_AdminAccounts\_LastActivity table accessible under the job’s Results node
-- Identifies Administrative Group List Activity Event – Creates the SA\_AD\_AdminAccounts\_LastActivityByGroup table accessible under the job’s Results node
+- Summarizes Administrative Account Activity – Creates the SA_AD_AdminAccounts_ActivitySummary table accessible under the job’s Results node
+- Identifies Administrative Accounts Last Activity Event – Creates the SA_AD_AdminAccounts_LastActivity table accessible under the job’s Results node
+- Identifies Administrative Group List Activity Event – Creates the SA_AD_AdminAccounts_LastActivityByGroup table accessible under the job’s Results node
 
-In addition to the tables created by the analysis tasks, the AD\_AdminAccounts Job produces the follow pre-configured reports:
+In addition to the tables created by the analysis tasks, the AD_AdminAccounts Job produces the follow pre-configured reports:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |
@@ -27,7 +27,7 @@ In addition to the tables created by the analysis tasks, the AD\_AdminAccounts J
 
 Customizable parameters enable you to set the values used to include the NT Account name for admin groups during this job’s analysis. The parameters can be customized and are listed in a section at the bottom of the SQL Script Editor. Follow the steps to customize an analysis task’s parameters.
 
-__Step 1 –__ Navigate to the __Active Directory__ > __6.Activity__ > __Privileged Accounts__ > __AD\_AdminAccounts__ > __Configure__ node and select __Analysis__.
+__Step 1 –__ Navigate to the __Active Directory__ > __6.Activity__ > __Privileged Accounts__ > __AD_AdminAccounts__ > __Configure__ node and select __Analysis__.
 
 ![Summarizes Administrative Account Activity analysis task configuration](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/activity/privilegedaccounts/adminaccountsanalysisconfiguration.webp)
 

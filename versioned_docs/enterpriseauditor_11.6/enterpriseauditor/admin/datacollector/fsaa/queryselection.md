@@ -38,7 +38,7 @@ The Maintenance Wizard is opened by clicking the __Maintenance__ button on the Q
 
 The Maintenance Selection page allows you to select the type of maintenance to be performed:
 
-- Reset Hosts – Resets the Access GUID column value in the SA\_FSAA\_Hosts table for the Hosts selected. Allows data to be bulk imported when there is a GUID mismatch.
+- Reset Hosts – Resets the Access GUID column value in the SA_FSAA_Hosts table for the Hosts selected. Allows data to be bulk imported when there is a GUID mismatch.
 - Repair – Resets the MinResourceID and MinTrusteeID column values to 0. Removes duplicate and data consistency issues, including resources with nonexistent parents. Deletes StrucMap database.
 
 Select the required option and click __Next__. The subsequent wizard page is determined by the selection made.

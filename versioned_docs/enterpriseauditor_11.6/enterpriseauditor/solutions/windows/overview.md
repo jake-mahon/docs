@@ -17,7 +17,7 @@ The Windows Solution requires a special Enterprise Auditor license. It can be in
 
 ![Windows Solution in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/jobstree.png)
 
-Each job group works independently from the other job groups. All of the job groups have their own collections that are used to analyze and report on data specific to the groups function. The SG\_SecurityAssessment job summarizes security related results from the Windows solution.
+Each job group works independently from the other job groups. All of the job groups have their own collections that are used to analyze and report on data specific to the groups function. The SG_SecurityAssessment job summarizes security related results from the Windows solution.
 
 ## Job Groups
 
@@ -32,4 +32,4 @@ The jobs and job groups in the Windows Solution are:
 - [Open Access Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/windows/openaccess/overview.md) – This group highlights instances of open access across the audited environment
 - [Privileged Accounts Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/windows/privilegedaccounts/overview.md) – Vital to security is the ability to accurately assess who has administrative privileges to each system and how. This group provides the collection and correlation capabilities needed to unravel complex access assignments, including local administrator membership, users with remote logon rights, and service accounts.
 - [Security Utilities Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/windows/securityutilities/overview.md) – This group provides a series of security element checks across the audited environment
-- [SG\_SecurityAssessment Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/windows/sg_securityassessment.md) – This job performs checks against Windows security best practices in order to proactively identify critical security configurations that leave the environment vulnerable to attack. The result is a report which provides a listing of findings by severity and category with corresponding details that can be used to prioritize and remediate security issues.
+- [SG_SecurityAssessment Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/windows/sg_securityassessment.md) – This job performs checks against Windows security best practices in order to proactively identify critical security configurations that leave the environment vulnerable to attack. The result is a report which provides a listing of findings by severity and category with corresponding details that can be used to prioritize and remediate security issues.

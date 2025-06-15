@@ -35,6 +35,6 @@ This Job Group is comprised of three jobs that collect, analyze, and report on d
 
 The .Active Directory Inventory Solution has the following jobs:
 
-- [1-AD\_Scan Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectoryinventory/1-ad_scan.md) – Collects data and generates the standard reference tables and views
-- [2-AD\_Changes Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectoryinventory/2-ad_changes.md) – Analyzes the collected data to track and alert on changes within all scanned domains that occurred since the last scan
-- [3-AD\_Exceptions Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectoryinventory/3-ad_exceptions.md) – Analyzes the collected data to identify security and provisioning concerns, such as circular nesting and stale membership
+- [1-AD_Scan Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectoryinventory/1-ad_scan.md) – Collects data and generates the standard reference tables and views
+- [2-AD_Changes Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectoryinventory/2-ad_changes.md) – Analyzes the collected data to track and alert on changes within all scanned domains that occurred since the last scan
+- [3-AD_Exceptions Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectoryinventory/3-ad_exceptions.md) – Analyzes the collected data to identify security and provisioning concerns, such as circular nesting and stale membership

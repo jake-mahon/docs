@@ -12,7 +12,7 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 
 ### Multiple default object classes
 
-The following example configures a whole set of settings for the LDAP\_Entry\_NominativeUser resource type, including several default object classes.
+The following example configures a whole set of settings for the LDAP_Entry_NominativeUser resource type, including several default object classes.
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 

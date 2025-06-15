@@ -22,7 +22,7 @@ To be able to filter with the dimensions previously created, it is necessary to 
 Single Role
 ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md) which will serve as a restriction to the assignment of ResourceTypes for a given source.
 
-The example below creates a SingleRole for the EntityType Directory\_User (source of the ResourceTypes you want to restrict).
+The example below creates a SingleRole for the EntityType Directory_User (source of the ResourceTypes you want to restrict).
 
 ```
 

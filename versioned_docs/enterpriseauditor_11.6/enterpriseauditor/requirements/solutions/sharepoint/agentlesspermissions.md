@@ -9,7 +9,7 @@ The SharePoint agent-less scan architecture requires permissions to be configure
   - Membership in the local Backup Operators group
 
     - This is required so Enterprise Auditor can read remote registry to identify if the server is part of the farm, what the server’s role is, and to identify the location of the SharePoint configuration database.
-  - Membership in the local WSS\_WPG group
+  - Membership in the local WSS_WPG group
 
     - This is required to gain read access to system resources used by Microsoft SharePoint Foundation.
 - SharePoint Farm permissions:

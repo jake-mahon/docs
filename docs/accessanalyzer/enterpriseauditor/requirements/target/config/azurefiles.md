@@ -12,7 +12,7 @@ Before the File System solution can perform scans for Azure Files, the following
 
 A host list containing the desired target Azure hosts must be created and assigned to the collection jobs. You can create the host list with either of the following two methods:
 
-- Use the FS\_AzureTenantScan instant job to create the host list automatically. See the [FS\_AzureTenantScan Job](/docs/accessanalyzer/enterpriseauditor/solutions/filesystem/collection/fs_azuretenantscan.md) topic for additional information.
+- Use the FS_AzureTenantScan instant job to create the host list automatically. See the [FS_AzureTenantScan Job](/docs/accessanalyzer/enterpriseauditor/solutions/filesystem/collection/fs_azuretenantscan.md) topic for additional information.
 - Manually add hosts to a host list in the following format:
 
   ```<storageaccountname>.file.core.windows.net```

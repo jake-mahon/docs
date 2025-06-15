@@ -1,14 +1,14 @@
-# EX\_Delegates Job
+# EX_Delegates Job
 
-The EX\_Delegates job collects data from Active Directory to identify the delegates applied to a mailbox.
+The EX_Delegates job collects data from Active Directory to identify the delegates applied to a mailbox.
 
-## Queries for the EX\_Delegates Job
+## Queries for the EX_Delegates Job
 
-The EX\_Delegates job uses the ExchangePS Data Collector.
+The EX_Delegates job uses the ExchangePS Data Collector.
 
 ![Queries for the EX_Delegates Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/mailboxes/permissions/collection/delegatesquery.webp)
 
-The following query is included with the EX\_Delegates job:
+The following query is included with the EX_Delegates job:
 
 - Delegates – Collects delegates applied to each mailbox
 

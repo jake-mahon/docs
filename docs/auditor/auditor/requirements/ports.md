@@ -27,7 +27,7 @@ __Step 5 –__ Click New Rule. In the New Inbound Rule wizard, complete the foll
 - On the Protocol and Ports step, select TCP or UDP. In the Specific local ports field specify the port number.
 - On the Action step, select the Allow the connection action.
 - On the Profile step, make sure that the rule applies to all profiles (Domain, Private, Public).
-- On the Name step, specify the rule's name, for example Netwrix Auditor TCP port\_number Access.
+- On the Name step, specify the rule's name, for example Netwrix Auditor TCP port_number Access.
 
 In most cases, this configuration is enough to ensure successful data collection and processing. If your organization policy requires you to provide a justification for each particular port, review the following for a full list of ports to be opened on the computer where Auditor Server is going to be installed and on your target servers.
 

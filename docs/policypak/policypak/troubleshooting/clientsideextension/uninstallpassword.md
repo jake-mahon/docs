@@ -86,7 +86,7 @@ The password is encrypted and stored in the Windows Registry at:
 
 Registry value details
 
-- Type — REG\_BINARY
+- Type — REG_BINARY
 - Name — UninstallPassword
 
 The password is encrypted with the Windows Data Protection API (DAPI) and not in plain text.

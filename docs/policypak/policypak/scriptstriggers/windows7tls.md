@@ -15,7 +15,7 @@ quick version goes like this:
 
 - Have Service Pack 1 installed (on Windows 7).
 - Have the Windows Update KB3140245 installed. (Download from [https://www.catalog.update.microsoft.com/search.aspx?q=kb3140245](https://www.catalog.update.microsoft.com/search.aspx?q=kb3140245).)
-- Update the registry. (Download the Microsoft [https://support.microsoft.com/en-us/topic/update-to-enable-tls-1-1-and-tls-1-2-as-default-secure-protocols-in-winhttp-in-windows-c4bd73d2-31d7-761e-0178-11268bb10392#bkmk\_easy](https://support.microsoft.com/en-us/topic/update-to-enable-tls-1-1-and-tls-1-2-as-default-secure-protocols-in-winhttp-in-windows-c4bd73d2-31d7-761e-0178-11268bb10392#httpssupportmicrosoftcomen-ustopicupdate-to-enable-tls-1-1-and-tls-1-2-as-default-secure-protocols-in-winhttp-in-windows-c4bd73d2-31d7-761e-0178-11268bb10392bkmk_easy) which is downloadable as a .MSI for easy deliver.)
+- Update the registry. (Download the Microsoft [https://support.microsoft.com/en-us/topic/update-to-enable-tls-1-1-and-tls-1-2-as-default-secure-protocols-in-winhttp-in-windows-c4bd73d2-31d7-761e-0178-11268bb10392#bkmk_easy](https://support.microsoft.com/en-us/topic/update-to-enable-tls-1-1-and-tls-1-2-as-default-secure-protocols-in-winhttp-in-windows-c4bd73d2-31d7-761e-0178-11268bb10392#httpssupportmicrosoftcomen-ustopicupdate-to-enable-tls-1-1-and-tls-1-2-as-default-secure-protocols-in-winhttp-in-windows-c4bd73d2-31d7-761e-0178-11268bb10392bkmk_easy) which is downloadable as a .MSI for easy deliver.)
 
 Note that Endpoint Policy Manager Support cannot be engaged for you to update these machines on your behalf. And we cannot
 automatically validate or report that you have performed the steps correctly.

@@ -1,10 +1,10 @@
-# AD\_ServiceAccountAuth Job
+# AD_ServiceAccountAuth Job
 
-The AD\_ServiceAccountAuth Job shows the last time a service account, identified by the presence of a servicePrincipalName, was active within the environment.
+The AD_ServiceAccountAuth Job shows the last time a service account, identified by the presence of a servicePrincipalName, was active within the environment.
 
-## Analysis Task for the AD\_ServiceAccountAuth Job
+## Analysis Task for the AD_ServiceAccountAuth Job
 
-Navigate to the __Jobs__ > __Active Directory__ > __6.Activity__ > __Operations__ > __AD\_ServiceAccountAuth__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Jobs__ > __Active Directory__ > __6.Activity__ > __Operations__ > __AD_ServiceAccountAuth__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,9 +12,9 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The following non-configurable analysis task is selected by default:
 
-- Creates the SA\_AD\_ServiceAccountAuth\_Details table accessible under the job’s Results node.
+- Creates the SA_AD_ServiceAccountAuth_Details table accessible under the job’s Results node.
 
-In addition to the tables created by the analysis tasks, the AD\_ServiceAccountAuth Job produces the follow pre-configured report:
+In addition to the tables created by the analysis tasks, the AD_ServiceAccountAuth Job produces the follow pre-configured report:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

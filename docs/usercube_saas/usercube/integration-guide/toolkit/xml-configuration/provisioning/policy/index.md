@@ -31,7 +31,7 @@ Category
 | CommentActivationOnDeleteGapInReconciliation   default value: Optional | CommentActivation | Indicates if a comment is enabled when reviewing a non-conforming role assignment associated with the policy, and deciding to delete it.  0 - Disabled.   1 - Optional.   2 - Required. |
 | CommentActivationOnKeepGapInReconciliation   default value: Required | CommentActivation | Indicates if a comment is enabled when reviewing a non-conforming role assignment associated with the policy, and deciding to keep it.  0 - Disabled.   1 - Optional.   2 - Required. |
 | D0   optional | Int64 | Value of the dimension 0 (up to 127) that filters the access to the policy and its roles. |
-| DisplayName\_L1   required | String | Display name of the policy in language 1 (up to 16). |
+| DisplayName_L1   required | String | Display name of the policy in language 1 (up to 16). |
 | GracePeriod   default value: 0 | Int32 | Duration (in minutes) for which a lost automatic entitlement associated with this policy is prolonged.  The grace period is only applied if the loss of the entitlement is due to a change in the rules (rule deletion or criteria changes).  A review will be required to validate or decline the entitlement prolongation. Inferred entitlements won't be lost unless the end of the grace period is reached or the prolongation is declined.  This value can be overwritten for each composite role and single role. |
 | HasImplicitApproval   default value: false | Boolean | True to skip the approval circuit when the requester has the appropriate review permissions.  This value can be overwritten for each policy object (composite role, single role, resource type). |
 | Identifier   required | String | Unique identifier of the policy. |

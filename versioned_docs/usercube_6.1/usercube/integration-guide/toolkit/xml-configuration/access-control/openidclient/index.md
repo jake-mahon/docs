@@ -35,7 +35,7 @@ The following code example declares a clientId with the RoleOfficerByCategory pr
 | Property | Details |
 | --- | --- |
 | Context   optional | __Type__    Int64   __Description__   Id of the ProfileContext used to further restrict the client scope of responsibility |
-| DisplayName\_L1   required | __Type__    String   __Description__   Name that will be Displayed on the screen |
+| DisplayName_L1   required | __Type__    String   __Description__   Name that will be Displayed on the screen |
 | ExpirationDate   optional | __Type__    DateTime   __Description__   After this date, the client is no longer usable |
 | HashedSecret   required | __Type__    String   __Description__   HashedPassword of client |
 | Identifier   required | __Type__    String   __Description__   Client login name and name |

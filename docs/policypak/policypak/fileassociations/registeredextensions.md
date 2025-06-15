@@ -14,7 +14,7 @@ In these cases, you would choose the Custom Application action type. Custom Appl
 
 If you want to follow along with a Custom Application example, follow these steps:
 
-__Step 1 –__ Download Notepad++ Portable edition from [https://portableapps.com/apps/development/notepadpp\_portable](https://portableapps.com/apps/development/notepadpp_portable), and unpack it at ```c:\Notepad++ Portable``` on your machine (with the GPMC) and on the example endpoint.
+__Step 1 –__ Download Notepad++ Portable edition from [https://portableapps.com/apps/development/notepadpp_portable](https://portableapps.com/apps/development/notepadpp_portable), and unpack it at ```c:\Notepad++ Portable``` on your machine (with the GPMC) and on the example endpoint.
 
 __Step 2 –__ Create a policy in Endpoint Policy Manager File Associations Manager to map the XML file extension to this custom application.
 

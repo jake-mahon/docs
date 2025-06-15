@@ -16,7 +16,7 @@ The proxy configuration is based on a set of standard dotnet environment variabl
 The dotnet environment does not rely on the OS-wide proxy configuration.
 It is mandatory to use the above-mentioned environment variables to configure the proxy.
 
-### HTTPS\_PROXY
+### HTTPS_PROXY
 
 The ```HTTPS_PROXY``` environment variable may be the hostname or IP address, optionally followed by a colon and port number, or it may be an http URL, optionally including a username and password for 
 Proxy Server
@@ -72,7 +72,7 @@ $env:HTTPS_PROXY="http://mylogin:mypassword@proxy.contoso.com:6060"
 
 ```
 
-### NO\_PROXY
+### NO_PROXY
 
 The ```NO_PROXY``` environment variable is a comma-separated list of hostnames that should be excluded from proxying.
 To exclude all subdomains ("wildcard" exclusion), domains in the ```NO_PROXY``` list need to be prefixed with a dot (```.```), which is standard, but not particularly well documented. __Do not use the star (```*```) prefix !!!__
@@ -202,4 +202,4 @@ Review the ```HTTPS_PROXY``` value, check that it does not:
 ## Reference Documentation
 
 - [HttpClient.DefaultProxy](https://learn.microsoft.com/en-us/dotnet/api/system.net.http.httpclient.defaultproxy?view=net-8.0&viewFallbackFrom=netcore-8.0#httpclientdefaultproxy): reference for environment variables.
-- NO\_PROXY: [unofficial documentation](https://stackoverflow.com/a/62663469) for wildcard domain exclusion
+- NO_PROXY: [unofficial documentation](https://stackoverflow.com/a/62663469) for wildcard domain exclusion

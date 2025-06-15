@@ -51,7 +51,7 @@ Example
 
 This API is used to login under a specified account.
 
-This operation returns an access\_token value in the body of the response, that can be used for api/Epe/CheckPassword requests. To use this value in an api/Epe/CheckPassword request, provide it in the header of the request.
+This operation returns an access_token value in the body of the response, that can be used for api/Epe/CheckPassword requests. To use this value in an api/Epe/CheckPassword request, provide it in the header of the request.
 
 Authentication required – Bearer
 

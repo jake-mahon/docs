@@ -31,9 +31,9 @@ The jobs within this group create and add to the secure IdentityIndex™ contain
 
 The jobs in the AnyID Connectors Solution are:
 
-- [AnyID\_CSV Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/anyid/anyid_csv.md) – Imports a list of identities and attributes from a CSV file. Use this when a native integration may not be available, or an export is the best option.
-- [AnyID\_EpicClarity Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/anyid/anyid_epicclarity.md) – Collects patient information from Epic including MRNs, SSNs, Subscriber IDs, and Account IDs. An account with read access to the underlying Clarity Oracle database is required in order to run queries.
-- [AnyID\_Paycom Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/anyid/anyid_paycom.md) – Pulls employee information from Paycom including Name, Address, Date of Birth, and SSN. Contact your Paycom administrator in order to generate the CSV export required for this job.
-- [AnyID\_Salesforce Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/anyid/anyid_salesforce.md) – Collects Salesforce Contact details including Phone, Address, Email, and Date of birth. This job requires API access to Salesforce in order to collect this information.
+- [AnyID_CSV Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/anyid/anyid_csv.md) – Imports a list of identities and attributes from a CSV file. Use this when a native integration may not be available, or an export is the best option.
+- [AnyID_EpicClarity Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/anyid/anyid_epicclarity.md) – Collects patient information from Epic including MRNs, SSNs, Subscriber IDs, and Account IDs. An account with read access to the underlying Clarity Oracle database is required in order to run queries.
+- [AnyID_Paycom Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/anyid/anyid_paycom.md) – Pulls employee information from Paycom including Name, Address, Date of Birth, and SSN. Contact your Paycom administrator in order to generate the CSV export required for this job.
+- [AnyID_Salesforce Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/anyid/anyid_salesforce.md) – Collects Salesforce Contact details including Phone, Address, Email, and Date of birth. This job requires API access to Salesforce in order to collect this information.
 
 __NOTE:__ See the individual job topics for information on recommended configurations.

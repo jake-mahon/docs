@@ -1,10 +1,10 @@
-# SG\_LocalPolicies Job
+# SG_LocalPolicies Job
 
-The SG\_LocalPolicies job identifies privileged accounts with high levels of server access.
+The SG_LocalPolicies job identifies privileged accounts with high levels of server access.
 
-## Analysis Tasks for the SG\_LocalPolicies Job
+## Analysis Tasks for the SG_LocalPolicies Job
 
-Navigate to the __Windows__ > __Privileged Accounts__ > __Logon Rights__ > __SG\_LocalPolicies__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Windows__ > __Privileged Accounts__ > __Logon Rights__ > __SG_LocalPolicies__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,12 +12,12 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The default analysis tasks are:
 
-- Local Policies Summary – Creates the SA\_SG\_LocalPolicies\_Details table accessible under the job’s Results node
-- Policy User Rank – Creates the SA\_SG\_LocalPolicies\_PolicyUserRank table accessible under the job’s Results node. Also creates an interim processing table in the database for use by downstream analysis and report generation.
-- Trustee Rank – Creates the SA\_SG\_LocalPolicies\_TrusteeRank table accessible under the job’s Results node. Also creates an interim processing table in the database for use by downstream analysis and report generation.
+- Local Policies Summary – Creates the SA_SG_LocalPolicies_Details table accessible under the job’s Results node
+- Policy User Rank – Creates the SA_SG_LocalPolicies_PolicyUserRank table accessible under the job’s Results node. Also creates an interim processing table in the database for use by downstream analysis and report generation.
+- Trustee Rank – Creates the SA_SG_LocalPolicies_TrusteeRank table accessible under the job’s Results node. Also creates an interim processing table in the database for use by downstream analysis and report generation.
 - Calculate local amount policy details – Creates an interim processing table in the database for use by downstream analysis and report generation
 
-In addition to the tables created by the analysis tasks, the SG\_LocalPolicies job produces the following pre-configured reports.
+In addition to the tables created by the analysis tasks, the SG_LocalPolicies job produces the following pre-configured reports.
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

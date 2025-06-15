@@ -16,7 +16,7 @@ __Step 4 –__ On the __Actions__ tab, click __New__ and specify action details.
 | --- | --- |
 | Action | Set to "_Start a program_". |
 | Program/script | Input "_Powershell.exe_". |
-| Add arguments (optional) | Add a path to the add-on in double quotes and specify add-on parameters.  For example:  -file "C:\Add-ons\Netwrix\_Auditor\_Event\_Log\_Export\_Add-on.ps1" -NetwrixAuditorHost 172.28.6.15 |
+| Add arguments (optional) | Add a path to the add-on in double quotes and specify add-on parameters.  For example:  -file "C:\Add-ons\Netwrix_Auditor_Event_Log_Export_Add-on.ps1" -NetwrixAuditorHost 172.28.6.15 |
 
 __Step 5 –__ Save the task.
 

@@ -84,7 +84,7 @@ The following permissions are required:
     cifs users-and-groups local-group add-members ‑group-name "BUILTIN\Backup Operators" ‑member-names [DOMAIN_USER] ‑vserver [SVM_NAME]
     ```
 
-If an ACE does not already exist for a specific user/group on an SVM's c$ share, then it needs to be added with the desired rights (No\_access, Read, Change, or Full\_Control). To check the current ACE for a user or group on each SVM's c$ share, the following ONTAP CLI command should be used at the cluster management level.
+If an ACE does not already exist for a specific user/group on an SVM's c$ share, then it needs to be added with the desired rights (No_access, Read, Change, or Full_Control). To check the current ACE for a user or group on each SVM's c$ share, the following ONTAP CLI command should be used at the cluster management level.
 
 ```
 vserver cifs share access-control show -share c$
@@ -102,7 +102,7 @@ vserver cifs share access-control create -share c$ -user-or-group [USER_OR_GROUP
 
 If an existing ACE needs to be modified, the following command should be used:
 
-__CAUTION:__ The following command will overwrite an existing ACE. For example, it is possible to downgrade a user with Full\_Control to Read, or vice versa.
+__CAUTION:__ The following command will overwrite an existing ACE. For example, it is possible to downgrade a user with Full_Control to Read, or vice versa.
 
 ```
 vserver cifs share access-control modify -share c$ -user-or-group [USER_OR_GROUP_NAME] -permission Read -vserver [SVM_NAME]
@@ -172,7 +172,7 @@ Example:
 vserver export-policy create ‑vserver testserver ‑policyname testNFS
 ```
 
-Use the following command to add a rule to the previous export policy, using the nfsv3, auth\_sys (aka auth\_unix), and superuser properties:
+Use the following command to add a rule to the previous export policy, using the nfsv3, auth_sys (aka auth_unix), and superuser properties:
 
 ```
 vserver export-policy rule create ‑vserver [SVM_NAME] ‑policyname [EXPORT_POLICY_NAME] ‑clientmatch [IP_CIDR_NOTATION] ‑rorule sys ‑rwrule sys ‑superuser sys -protocol nfs3

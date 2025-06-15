@@ -45,7 +45,7 @@ Select one or more permission sets in the list. Selected options are shown below
 
 Download XLS
 
-Click __Download XLS__ to export your selections. An email is sent with a link to the file _Object\_Export.xls_.
+Click __Download XLS__ to export your selections. An email is sent with a link to the file _Object_Export.xls_.
 
 Download Files
 

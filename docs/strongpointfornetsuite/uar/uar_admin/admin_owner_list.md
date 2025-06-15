@@ -23,7 +23,7 @@ Use __Clear__ to reset the Filters.
 ## Owner List
 
 - __Undo__ undoes all actions that have not been submitted.
-- __Export__ exports the list of selected reviews as either a __CSV__ or __PDF__ file. The exported file is named _Owner\_List_.
+- __Export__ exports the list of selected reviews as either a __CSV__ or __PDF__ file. The exported file is named _Owner_List_.
 - __Remove Owner__ removes the owner from the selected roles.
 - __Add Owner__ add owners to the selected roles.
 - __Save__ saves your changes.
@@ -73,7 +73,7 @@ The __Owner Notes__ tab displays the details for each change in the Owner List. 
 
 1. Open __Owner List__ from your menu bar.
 2. Open the __Owner Notes__ tab.
-3. You can export the list as a CSV or PDF file. The file is named _Owner\_Notes_.
+3. You can export the list as a CSV or PDF file. The file is named _Owner_Notes_.
 
 The notes have the following fields:
 

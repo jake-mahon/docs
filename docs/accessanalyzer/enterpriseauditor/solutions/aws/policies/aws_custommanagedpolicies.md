@@ -1,10 +1,10 @@
-# AWS\_CustomManagedPolicies Job
+# AWS_CustomManagedPolicies Job
 
-The AWS\_CustomManagedPolicies job provides details on customer managed policies created in the AWS Organization.
+The AWS_CustomManagedPolicies job provides details on customer managed policies created in the AWS Organization.
 
-## Analysis Tasks for the AWS\_CustomManagedPolicies Job
+## Analysis Tasks for the AWS_CustomManagedPolicies Job
 
-Navigate to the __AWS__ > __5.Policies__ > __AWS\_CustomManagedPolicies__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __AWS__ > __5.Policies__ > __AWS_CustomManagedPolicies__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,12 +12,12 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The following analysis tasks are selected by default:
 
-- Custom Managed Policy Details – Provides detailed information on AWS custom managed policies. Creates the AWS\_CustomManagedPolicy\_Details table accessible under the job’s Results node.
-- Custom Managed Policy Usage Summary – Summarizes the custom managed policy usage by AWS Organization. Creates the AWS\_CustomManagedPolicy\_Summary table accessible under the job’s Results node.
+- Custom Managed Policy Details – Provides detailed information on AWS custom managed policies. Creates the AWS_CustomManagedPolicy_Details table accessible under the job’s Results node.
+- Custom Managed Policy Usage Summary – Summarizes the custom managed policy usage by AWS Organization. Creates the AWS_CustomManagedPolicy_Summary table accessible under the job’s Results node.
 
-## Report for the AWS\_CustomManagedPolicies Job
+## Report for the AWS_CustomManagedPolicies Job
 
-In addition to the tables and views created by the analysis task, the AWS\_CustomManagedPolicies job produces the following preconfigured report:
+In addition to the tables and views created by the analysis task, the AWS_CustomManagedPolicies job produces the following preconfigured report:
 
 | Report | Description | Default Tags | Report Element |
 | --- | --- | --- | --- |

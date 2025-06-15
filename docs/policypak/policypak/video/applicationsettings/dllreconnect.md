@@ -16,7 +16,7 @@ That's the easy case. Let's go ahead and review the slightly harder case. Let me
 
 Here's where it gets a little harder. Let's say somebody has gone through and they've deleted the Pak locally and also in the Central Store. Then somebody goes and in the Design Studio they change the inner name, the "Project name." We'll call this "WinZip 14 and 15 and Newer" or something like that. We're changing the internal project name, and we go ahead and we "Save pXML and Compile" it even if it's the same DLL name, just by changing the inner project name.
 
-That's done now. By doing so, that will show up by default in "```C:Program FilesPolicyPakExtensions```." There it is. That's the newly compiled one. You think all is well and good, so you go over here and you click on "\_UAT – WinZip Test" again, click "Edit…," dive down under "PolicyPak/Applications" and it still says "DLL not found."
+That's done now. By doing so, that will show up by default in "```C:Program FilesPolicyPakExtensions```." There it is. That's the newly compiled one. You think all is well and good, so you go over here and you click on "_UAT – WinZip Test" again, click "Edit…," dive down under "PolicyPak/Applications" and it still says "DLL not found."
 
 The reason why is that you can see here the name doesn't match up with what is in either the local store or the Central Store, so the inner project name of the PolicyPak is reallyimportant. This was a problem because, and this is the way it is, up until this point there was no way to reconnect to that DLL, but there is now.
 

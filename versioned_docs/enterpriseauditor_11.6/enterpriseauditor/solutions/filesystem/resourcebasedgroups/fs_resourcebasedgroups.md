@@ -1,6 +1,6 @@
-# FS\_ResourceBasedGroups Job
+# FS_ResourceBasedGroups Job
 
-The FS\_ResourceBasedGroups Job is designed to report on and take action against resources from targeted file servers that can have their permissions structure transformed to a resource-based group implementation.
+The FS_ResourceBasedGroups Job is designed to report on and take action against resources from targeted file servers that can have their permissions structure transformed to a resource-based group implementation.
 
 ## Workflow
 
@@ -44,9 +44,9 @@ __Step 7 –__ Analyze and report on action history:
 
 Additional Options
 
-__Step 8 –__ (Optional) Create and apply permissions for traverse groups based on previous resource based groups. See the [FS\_TraverseGroups Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/resourcebasedgroups/fs_traversegroups.md) topic for additional information.
+__Step 8 –__ (Optional) Create and apply permissions for traverse groups based on previous resource based groups. See the [FS_TraverseGroups Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/resourcebasedgroups/fs_traversegroups.md) topic for additional information.
 
-__Step 9 –__ (Optional) Import resources and access groups from the FS\_ResoureBasedGroup Job into the Netwrix Access Information Center. See the [FS\_ResourceBasedGroupAICImport Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/resourcebasedgroups/fs_resourcebasedgroupaicimport.md) topic for additional information.
+__Step 9 –__ (Optional) Import resources and access groups from the FS_ResoureBasedGroup Job into the Netwrix Access Information Center. See the [FS_ResourceBasedGroupAICImport Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/resourcebasedgroups/fs_resourcebasedgroupaicimport.md) topic for additional information.
 
 ## Model Intended Changes
 
@@ -54,25 +54,25 @@ Prior to executing the actions to apply changes, the proposed changes can be mod
 
 ### Configure the Analyze Group Permissions Analysis Task
 
-The Analyze Group Permissions analysis task in the FS\_ResourceBasedGroups Job contains parameters for group permissions that should be configured and then reviewed in the Change Modeling report. View the analysis tasks by navigating to the __Jobs__ > __FileSystem__ > __ResourceBasedGroups__ > __FS\_ResourceBasedGroups__ > __Configure__ node and select __Analysis__.
+The Analyze Group Permissions analysis task in the FS_ResourceBasedGroups Job contains parameters for group permissions that should be configured and then reviewed in the Change Modeling report. View the analysis tasks by navigating to the __Jobs__ > __FileSystem__ > __ResourceBasedGroups__ > __FS_ResourceBasedGroups__ > __Configure__ node and select __Analysis__.
 
 ![Analyze Group Permissions analysis task in the FS_ResourceBasedGroups Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/resourcebasedgroups/rbganalysis.png)
 
-- Analyze Group Permissions – Creates the FS\_ResourceBasedGroups\_NewACLs table accessible under the job’s Results node.
+- Analyze Group Permissions – Creates the FS_ResourceBasedGroups_NewACLs table accessible under the job’s Results node.
 
-  - This analysis task contains configurable parameters: #SA\_Job\_Hosts, @levels\_down, @naming\_convention, @add\_admin\_groups, #folders, @activity\_filter.
+  - This analysis task contains configurable parameters: #SA_Job_Hosts, @levels_down, @naming_convention, @add_admin_groups, #folders, @activity_filter.
 
 Configure the following parameters. See the [SQLscripting Analysis Module](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/analysis/sqlscripting.md) topic for additional information.
 
 | Analysis Task | Customizable Parameter Name | Default Value | Value Indicates |
 | --- | --- | --- | --- |
-| Analyze Group Permissions | #SA\_Job\_Hosts |  | List of hosts that are associated with the job. The job acts against these hosts. Review the host list. If the host list requires updating, update the host list at the job level |
-| Analyze Group Permissions | @levels\_down | 0 | Number of levels down from share to root to assign permissions |
-| Analyze Group Permissions | @naming\_convention | FS\_[HostName]\_[ShareName]\_[FolderName]\_[Permissions] | Naming convention for resource based groups |
-| Analyze Group Permissions | @add\_admin\_groups | 1 | Add full control admin groups. 1=true. 0=false. |
-| Analyze Group Permissions | @admin\_groups |  | ObjectSIDs of admin groups to add to every share if @add\_admin\_groups = 1 |
-| Analyze Group Permissions | #folders |  | List of folders to assign RBG to. Overrides @levels\_down. |
-| Analyze Group Permissions | @activity\_filter | 1000 | Filter out users with last activity older than X days ago. Will filter out users who have not accessed the folder within the specified threshold. If activity records show the user has never accessed the folder, users will still be included in resource based groups. |
+| Analyze Group Permissions | #SA_Job_Hosts |  | List of hosts that are associated with the job. The job acts against these hosts. Review the host list. If the host list requires updating, update the host list at the job level |
+| Analyze Group Permissions | @levels_down | 0 | Number of levels down from share to root to assign permissions |
+| Analyze Group Permissions | @naming_convention | FS_[HostName]_[ShareName]_[FolderName]_[Permissions] | Naming convention for resource based groups |
+| Analyze Group Permissions | @add_admin_groups | 1 | Add full control admin groups. 1=true. 0=false. |
+| Analyze Group Permissions | @admin_groups |  | ObjectSIDs of admin groups to add to every share if @add_admin_groups = 1 |
+| Analyze Group Permissions | #folders |  | List of folders to assign RBG to. Overrides @levels_down. |
+| Analyze Group Permissions | @activity_filter | 1000 | Filter out users with last activity older than X days ago. Will filter out users who have not accessed the folder within the specified threshold. If activity records show the user has never accessed the folder, users will still be included in resource based groups. |
 
 ### Execute the Analysis Tasks
 
@@ -105,7 +105,7 @@ __Step 3 –__ Right click on the __Resource Based Groups__ folder and select __
 
 - Wait for the queued jobs to execute.
 
-__Step 4 –__ In the __FS\_ResourceBasedGroups__ node, navigate to __Results__ > __Change Modeling__ to review the proposed changes prior to executing the actions to apply the changes.
+__Step 4 –__ In the __FS_ResourceBasedGroups__ node, navigate to __Results__ > __Change Modeling__ to review the proposed changes prior to executing the actions to apply the changes.
 
 The Change Modeling report has been created for review. Ensure the modeled changes are approved before continuing with implementing them.
 
@@ -115,7 +115,7 @@ __CAUTION:__ Do not modify the analysis tasks after the Change Modeling report h
 
 The Active Directory action tasks create and populate resource based groups. The Create Groups and Update Members action tasks must be updated to specify a Target OU for group creation prior to enabling and executing the actions. It should also be verified that these action tasks are targeting the same domain controller.
 
-View the action tasks by navigating to the __Jobs__ > __FileSystem__ > __Resourced Based Groups__ > __FS\_ResourceBasedGroups__ > __Configure__ node and select __Actions__.
+View the action tasks by navigating to the __Jobs__ > __FileSystem__ > __Resourced Based Groups__ > __FS_ResourceBasedGroups__ > __Configure__ node and select __Actions__.
 
 ![Active Directory Action Tasks](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/resourcebasedgroups/rbgactivedirectoryactions.png)
 
@@ -126,10 +126,10 @@ There are the following two Active Directory action tasks:
 
 It is recommended to review the tables used by the actions prior to executing the actions. The actions act upon the data within the following tables:
 
-- FS\_ResourceBasedGroups\_GroupsToCreate
-- FS\_ResourceBasedGroups\_NewACLs
+- FS_ResourceBasedGroups_GroupsToCreate
+- FS_ResourceBasedGroups_NewACLs
 
-The actions populate the Create Groups and Update Members tables, which can be viewed under the job’s Results node. The FS\_ResourceBasedGroups Job will run analysis tasks against these tables.
+The actions populate the Create Groups and Update Members tables, which can be viewed under the job’s Results node. The FS_ResourceBasedGroups Job will run analysis tasks against these tables.
 
 ### Configure & Enable the Create Groups Action Task
 
@@ -201,7 +201,7 @@ __CAUTION:__ Prior to executing the File System action tasks, allow a grace peri
 
 The File System actions modify folder permissions and break inheritance. The Modify Permissions and Break Inheritance actions modules do not require any configuration.
 
-View the action tasks by navigating to the __Jobs__ > __FileSystem__ > __Resourced Based Groups__ > __FS\_ResourceBasedGroups__ > __Configure__ node and select __Actions__.
+View the action tasks by navigating to the __Jobs__ > __FileSystem__ > __Resourced Based Groups__ > __FS_ResourceBasedGroups__ > __Configure__ node and select __Actions__.
 
 ![File System action tasks](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/resourcebasedgroups/rbgfilesystemactions.png)
 
@@ -212,9 +212,9 @@ There are the following two File System action tasks:
 
 It is recommended to review the tables used by the actions prior to executing the actions. The actions act upon the data within the following table:
 
-- FS\_ResourceBasedGroups\_GroupsToCreate
+- FS_ResourceBasedGroups_GroupsToCreate
 
-The actions populate the Modify Permissions and Break Inheritance tables, which can viewed under the job’s Results node. The FS\_ResourceBasedGroups Job will run analysis tasks against these tables.
+The actions populate the Modify Permissions and Break Inheritance tables, which can viewed under the job’s Results node. The FS_ResourceBasedGroups Job will run analysis tasks against these tables.
 
 Follow the steps to execute the FS actions.
 

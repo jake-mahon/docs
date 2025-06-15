@@ -26,24 +26,24 @@ __Step 4 –__ The new filters will be displayed in the WMI Filters folder.
 
 Selecting the 32-bit and 64-bit operating systems:
 
-- 32-bit Operating System: Select \* from Win32\_Processor where AddressWidth = '32'
-- 64-bit Operating System: Select \* from Win32\_Processor where AddressWidth = '64'
+- 32-bit Operating System: Select \* from Win32_Processor where AddressWidth = '32'
+- 64-bit Operating System: Select \* from Win32_Processor where AddressWidth = '64'
 
 You can add the following queries to target certain oeprating systems and/or type of computers:
 
-- Workstation: Select \* from WIN32\_OperatingSystem where ProductType=1
-- Domain Controller: Select \* from WIN32\_OperatingSystem where ProductType=2
-- Server: Select \* from WIN32\_OperatingSystem where ProductType=3
-- Windows XP: Select \* from WIN32\_OperatingSystem where Version='5.1.2600' and ProductType=1
-- Windows Vista: Select \* from WIN32\_OperatingSystem where Version='6.0.6002' and ProductType=1
-- Windows 7: Select \* from WIN32\_OperatingSystem where Version='6.1.7600' and ProductType=1
-- Windows 8: SELECT \* FROM Win32\_OperatingSystem WHERE Version LIKE "6.2%" AND ProductType="1"
-- Windows 8.1: SELECT \* FROM Win32\_OperatingSystem WHERE Version LIKE "6.3%" AND ProductType="1"
-- Windows 10: SELECT \* FROM Win32\_OperatingSystem WHERE Version LIKE "10%" AND ProductType="1"
-- Windows Server 2003: Select \* from WIN32\_OperatingSystem where Version='5.2.3790' and ProductType>1
-- Windows Server 2008: Select \* from WIN32\_OperatingSystem where Version='6.0.6002' and ProductType>1
-- Windows 2008 R2: Select \* from WIN32\_OperatingSystem where Version='6.1.7600' and ProductType>1
-- Window Server 2012: SELECT \* FROM Win32\_OperatingSystem WHERE Version LIKE "6.2%" AND ProductType="2"
-- Windows Server 2012R2: SELECT \* FROM Win32\_OperatingSystem WHERE Version LIKE "6.3%" AND ProductType="2"
-- Windows Server 2016: SELECT \* FROM Win32\_OperatingSystem WHERE Version LIKE "10.0%" AND ProductType="2"
-- Windows Server 2019: SELECT \* FROM Win32\_OperatingSystem WHERE BuildNumber >= 17763 AND (ProductType="3" OR ProductType="2")
+- Workstation: Select \* from WIN32_OperatingSystem where ProductType=1
+- Domain Controller: Select \* from WIN32_OperatingSystem where ProductType=2
+- Server: Select \* from WIN32_OperatingSystem where ProductType=3
+- Windows XP: Select \* from WIN32_OperatingSystem where Version='5.1.2600' and ProductType=1
+- Windows Vista: Select \* from WIN32_OperatingSystem where Version='6.0.6002' and ProductType=1
+- Windows 7: Select \* from WIN32_OperatingSystem where Version='6.1.7600' and ProductType=1
+- Windows 8: SELECT \* FROM Win32_OperatingSystem WHERE Version LIKE "6.2%" AND ProductType="1"
+- Windows 8.1: SELECT \* FROM Win32_OperatingSystem WHERE Version LIKE "6.3%" AND ProductType="1"
+- Windows 10: SELECT \* FROM Win32_OperatingSystem WHERE Version LIKE "10%" AND ProductType="1"
+- Windows Server 2003: Select \* from WIN32_OperatingSystem where Version='5.2.3790' and ProductType>1
+- Windows Server 2008: Select \* from WIN32_OperatingSystem where Version='6.0.6002' and ProductType>1
+- Windows 2008 R2: Select \* from WIN32_OperatingSystem where Version='6.1.7600' and ProductType>1
+- Window Server 2012: SELECT \* FROM Win32_OperatingSystem WHERE Version LIKE "6.2%" AND ProductType="2"
+- Windows Server 2012R2: SELECT \* FROM Win32_OperatingSystem WHERE Version LIKE "6.3%" AND ProductType="2"
+- Windows Server 2016: SELECT \* FROM Win32_OperatingSystem WHERE Version LIKE "10.0%" AND ProductType="2"
+- Windows Server 2019: SELECT \* FROM Win32_OperatingSystem WHERE BuildNumber >= 17763 AND (ProductType="3" OR ProductType="2")

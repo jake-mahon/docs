@@ -51,9 +51,9 @@ In addition to the Activity Monitor performance counters, it is recommended to u
 
 | Counter | Notes |
 | --- | --- |
-| Processor(\_Total)\% Processor Time | The percentage of elapsed time that the processor spends to execute a non-Idle thread. |
+| Processor(_Total)\% Processor Time | The percentage of elapsed time that the processor spends to execute a non-Idle thread. |
 | Memory\Available MBytes | The amount of physical memory, in Megabytes, immediately available for allocation to a process or for system use. |
-| Paging File(\_Total)\% Usage | The percentage of the paging file that is currently in use. |
+| Paging File(_Total)\% Usage | The percentage of the paging file that is currently in use. |
 | TCPv4\Connections Reset | The rate of reset TCPv4 connections |
 | TCPv4\Segments Received/sec | The quantity of segments received via TCPv4 per second. |
 | TCPv4\Segments Retransmitted/Sec | Quantity of segments retransmitted via TCPv4 per second. |
@@ -164,17 +164,17 @@ $sampleInterval = 1
 
 $maxSamples = 0
 
-$outputFile = "perfcounters\_$($env:COMPUTERNAME)\_$(Get-Date -Format "yyyy\_MM\_dd\_HH\_mm\_ss").csv"
+$outputFile = "perfcounters_$($env:COMPUTERNAME)_$(Get-Date -Format "yyyy_MM_dd_HH_mm_ss").csv"
 
 $counters =
 
 @(`
 
-"\Processor(\_Total)\% Processor Time" `
+"\Processor(_Total)\% Processor Time" `
 
 ,"\Memory\Available MBytes" `
 
-,"\Paging File(\_Total)\% Usage" `
+,"\Paging File(_Total)\% Usage" `
 
 ,"\TCPv4\Connections Reset" `
 

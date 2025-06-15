@@ -65,7 +65,7 @@ __Step 4 –__ Specify retention settings for the log; usually it is Overwrite a
 Follow the steps to configure settings for other logs.
 
 __Step 1 –__ Open the registry editor and go to
-HKEY\_LOCAL\_MACHINE\SYSTEM\CurrentControlSet\Services\EventLog\<log\_name>. For example: HKEY\_LOCAL\_MACHINE\SYSTEM\CurrentControlSet\Services\EventLog\Directory Service
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\EventLog\<log_name>. For example: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\EventLog\Directory Service
 
 __Step 2 –__ Set the MaxSize to the required decimal value (in bytes).
 
@@ -80,12 +80,12 @@ __Step 2 –__ Right-click Registry and select __New > Registry Item__.
 __Step 3 –__ In the Properties window on the General tab select the following:
 
 - Action > Create
-- Hive > HKEY\_LOCAL\_MACHINE
+- Hive > HKEY_LOCAL_MACHINE
 - Key Path – browse to MaxSize value at the
   SYSTEM\CurrentControlSet\Services\EventLog\Directory Service  
   ![gpo_eventlog_gpmc_thumb_0_0](/img/product_docs/auditor/auditor/configuration/windowsserver/gpo_eventlog_gpmc_thumb_0_0.webp)
 
-__Step 4 –__ Change the MaxSize REG\_DWORD to the required decimal value (in bytes).
+__Step 4 –__ Change the MaxSize REG_DWORD to the required decimal value (in bytes).
 
 __Step 5 –__ Save the preferences and link them to the necessary servers (OUs).
 

@@ -16,7 +16,7 @@ Here is the xml configuration to create the user onboarding Workflow in Usercube
 
 ```
 
-The _"User\_Onboarding"_ Workflow is composed of the following activities:
+The _"User_Onboarding"_ Workflow is composed of the following activities:
 
 - _"Request"_ to initialize the creation of an user in Usercube.
 - _"PersistDraft"_ to save a preliminary version of the user object.

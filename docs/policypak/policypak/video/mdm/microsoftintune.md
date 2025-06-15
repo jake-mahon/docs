@@ -58,7 +58,7 @@ We can see lots and lots of icons. Remember, when this is over, we're going to b
 
 We said that the guest account, we're going to have that renamed. We run gpedit.msc here. Let's go ahead and take a look at what it is beforehand, Windows. We go ahead and take a look at Security Settings under Local Policies. We can see the guest account not renamed yet. We'll go ahead and leave this window open over here.
 
-Let's also create another Command Prompt here. Whoops, just a regular Command Prompt. Let's do a regedit. I said I wanted to have an arbitrary registry setting. Go for HKEY\_CURRENT\_USER, Control Panel, Mouse. I wanted to set this value of DoubleClickSpeed from 500 to 604.
+Let's also create another Command Prompt here. Whoops, just a regular Command Prompt. Let's do a regedit. I said I wanted to have an arbitrary registry setting. Go for HKEY_CURRENT_USER, Control Panel, Mouse. I wanted to set this value of DoubleClickSpeed from 500 to 604.
 
 We also said we didn't want any evil CD-ROMs, so let's make sure we don't – oh, we can see our evil CD-ROMs. That's fine right now. After the fact, that should go away. Lastly, we said that when we open up a PDF, maybe we don't want it to open up in Edge, although I think Edge is a perfectly find PDF reader. If you don't want to open it up in Edge, we told earlier that we want to open it up in Acrobat Reader.
 

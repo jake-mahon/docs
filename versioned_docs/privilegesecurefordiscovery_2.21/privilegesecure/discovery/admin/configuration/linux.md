@@ -20,7 +20,7 @@ Similar to registering Windows systems, there is some prep work that is needed t
 - A service account will be required to register/enroll the system within Privilege Secure. This account will need to have sudo permissions on the Linux endpoint(s).
 - Adding a sudo user:
 
-  - For users experienced with Linux, add line to /etc/sudoers file with the permissions for user, ‘example\_user’ show here: ```example_user ALL=(ALL) NOPASSWD: ALL```
+  - For users experienced with Linux, add line to /etc/sudoers file with the permissions for user, ‘example_user’ show here: ```example_user ALL=(ALL) NOPASSWD: ALL```
   - [Linux: Add Sudo User to Ubuntu System](/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/systemmanagement/linuxaddsudouser.md)
 
 ### Linux Registration - (pre 2.18.0)
@@ -41,7 +41,7 @@ Linux JITA Session Behavior
 - User requests JITA for a Linux system.
 - If it is the first time a user is requesting access to Linux system, Privilege Secure creates a local account on the Linux machine, using AD credentials.
 
-  - Example entry into /etc/passwd for user ‘s1\_user’: ```s1_user:x:1005:1005:PrivilegeSecure AD Bridged Account:/home/s1_user:/bin/sh```
+  - Example entry into /etc/passwd for user ‘s1_user’: ```s1_user:x:1005:1005:PrivilegeSecure AD Bridged Account:/home/s1_user:/bin/sh```
   - User can then SSH to the linux box with just username (case sensitive), no domain required.
 - Privilege Secure also create an entry for that account in the ```/etc/sudoers/``` providing sudo capabilities.
 - Once the JITA session expires:

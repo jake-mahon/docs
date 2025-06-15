@@ -14,7 +14,7 @@ Launches on agent side a powershell script given as input.
 
 | Property | Details |
 | --- | --- |
-| DisplayName\_L1   required | __Type__    String   __Description__   Display name of the task in language 1 (up to 16). |
+| DisplayName_L1   required | __Type__    String   __Description__   Display name of the task in language 1 (up to 16). |
 | Agent   optional | __Type__    String   __Description__   Identifier of the agent on which the job will be launched.   __Note:__ when not specified, the task is to be launched on the server.   __Warning:__ all jobs containing the task must be launched on the same agent or on the server. |
 | ContinueOnError   default value: false | __Type__    Boolean   __Description__   ```true``` if the execution of the Task returning an error should not stop the job machine state. |
 | Identifier   optional | __Type__    String   __Description__   Unique identifier of the task. |

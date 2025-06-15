@@ -1,10 +1,10 @@
-# AWS\_UserPolicies Job
+# AWS_UserPolicies Job
 
-The AWS\_UserPolicies job provides details outlining user policy assignment. This includes where the policy is assigned, directly or at a group level, and if the policy assignment has been duplicated.
+The AWS_UserPolicies job provides details outlining user policy assignment. This includes where the policy is assigned, directly or at a group level, and if the policy assignment has been duplicated.
 
-## Analysis Tasks for the AWS\_UserPolicies Job
+## Analysis Tasks for the AWS_UserPolicies Job
 
-Navigate to the __AWS__ > __5.Policies__ > __AWS\_UserPolicies__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __AWS__ > __5.Policies__ > __AWS_UserPolicies__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,13 +12,13 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The following analysis tasks are selected by default:
 
-- User Policies View – Details policies assigned to users directly and through group membership. Creates the AWS\_IamUserPolicyView table accessible under the job’s Results node.
-- Duplicated Policies – User policies that have been inherited and directly assigned. Creates the AWS\_DuplicatedPolicy\_Details table accessible under the job’s Results node.
-- User Policy Summary – Summarizes policies assigned to users by Account. Creates the AWS\_UserPolicy\_Summary table accessible under the job’s Results node.
+- User Policies View – Details policies assigned to users directly and through group membership. Creates the AWS_IamUserPolicyView table accessible under the job’s Results node.
+- Duplicated Policies – User policies that have been inherited and directly assigned. Creates the AWS_DuplicatedPolicy_Details table accessible under the job’s Results node.
+- User Policy Summary – Summarizes policies assigned to users by Account. Creates the AWS_UserPolicy_Summary table accessible under the job’s Results node.
 
-## Reports for the AWS\_UserPolicies Job
+## Reports for the AWS_UserPolicies Job
 
-In addition to the tables and views created by the analysis task, the AWS\_UserPolicies job produces the following preconfigured report:
+In addition to the tables and views created by the analysis task, the AWS_UserPolicies job produces the following preconfigured report:
 
 | Report | Description | Default Tags | Report Element |
 | --- | --- | --- | --- |

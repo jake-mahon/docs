@@ -1,10 +1,10 @@
-# FS\_PermissionChanges Job
+# FS_PermissionChanges Job
 
-The FS\_PermissionChanges job is designed to report on permission change activity event information from targeted file servers.
+The FS_PermissionChanges job is designed to report on permission change activity event information from targeted file servers.
 
-## Analysis Tasks for the FS\_PermissionChanges Job
+## Analysis Tasks for the FS_PermissionChanges Job
 
-View the analysis tasks by navigating to the __FileSystem__ > __5.Activity__ > __Forensics__ > __FS\_PermissionChanges__ > __Configure__ node and select __Analysis__.
+View the analysis tasks by navigating to the __FileSystem__ > __5.Activity__ > __Forensics__ > __FS_PermissionChanges__ > __Configure__ node and select __Analysis__.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -13,13 +13,13 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 The following analysis tasks are selected by default:
 
 - 0. Create Permission Change Events Table – Creates an interim processing table in the database for use by downstream analysis and report generation
-- 1. Create Permission Changes Table and View – Creates the SA\_ENG\_PermissionChangesView view accessible under the job’s Results node
-- 2. Last 30 Days – Creates the SA\_FS\_PermissionChanges\_Last30Days table accessible under the job’s Results node
-- 3. Trend – Creates the SA\_FS\_PermissionChanges\_TrendOverTime table accessible under the job’s Results node
-- 4. Create view to notify on - By user, per share, for the past 24 hours – Creates the SA\_FS\_PermissionChanges\_Notification\_NOTIFICATION table accessible under the job’s Results node
-- 6. Raw Details – Creates the SA\_FS\_PermissionChanges\_Details view accessible under the job’s Results node
-- 7. High risk permission changes – Creates the SA\_FS\_PermissionChanges\_HighRisk table accessible under the job’s Results node
-- 8. High risk permission changes summary – Creates the SA\_FS\_PermissionChanges\_HighRiskSummary table accessible under the job’s Results node
+- 1. Create Permission Changes Table and View – Creates the SA_ENG_PermissionChangesView view accessible under the job’s Results node
+- 2. Last 30 Days – Creates the SA_FS_PermissionChanges_Last30Days table accessible under the job’s Results node
+- 3. Trend – Creates the SA_FS_PermissionChanges_TrendOverTime table accessible under the job’s Results node
+- 4. Create view to notify on - By user, per share, for the past 24 hours – Creates the SA_FS_PermissionChanges_Notification_NOTIFICATION table accessible under the job’s Results node
+- 6. Raw Details – Creates the SA_FS_PermissionChanges_Details view accessible under the job’s Results node
+- 7. High risk permission changes – Creates the SA_FS_PermissionChanges_HighRisk table accessible under the job’s Results node
+- 8. High risk permission changes summary – Creates the SA_FS_PermissionChanges_HighRiskSummary table accessible under the job’s Results node
 
 The Notification analysis task is an optional analysis task which requires configuration before enabling it. The following analysis task is deselected by default:
 
@@ -28,7 +28,7 @@ The Notification analysis task is an optional analysis task which requires confi
   - Add recipients, notification subject, and email content
   - See the [Configure the Notification Analysis Task](/docs/accessanalyzer/enterpriseauditor/solutions/filesystem/activity/forensics/fs_deletions.md#configure-the-notification-analysis-task) topic for additional information
 
-In addition to the tables and views created by the analysis tasks, the FS\_PermissionChanges job produces the following pre-configured reports:
+In addition to the tables and views created by the analysis tasks, the FS_PermissionChanges job produces the following pre-configured reports:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

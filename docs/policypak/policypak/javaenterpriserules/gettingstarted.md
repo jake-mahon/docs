@@ -56,7 +56,7 @@ __NOTE:__ Logging in as a test user will not work in this case since these Endpo
 __Step 8 –__ Now try out Endpoint Policy Manager Java Rules Manager by doing the following:
 
 - Open Internet Explorer and visit [java.com](http://www.java.com/). Next, click __Do I have Java?__ Instead of showing the latest version of Java installed on your machine, you should see that you have Java 7 U 51.
-- Open Firefox and visit [www.javatester.org](http://www.javatester.org/). Then click __Test this version of Java__. You should see Java 1.8.0\_25, that is, Java 8 U 25.
+- Open Firefox and visit [www.javatester.org](http://www.javatester.org/). Then click __Test this version of Java__. You should see Java 1.8.0_25, that is, Java 8 U 25.
 
 ![quickstart_policypak_java_8](/img/product_docs/policypak/policypak/javaenterpriserules/quickstart_policypak_java_8.webp)
 

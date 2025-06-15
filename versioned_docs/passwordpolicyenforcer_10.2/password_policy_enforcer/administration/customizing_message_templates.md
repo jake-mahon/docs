@@ -52,6 +52,6 @@ Password Policy Client messages can be configured to display live feedback to en
 
 __NOTE:__  The password client needs to be at version 10.2+ to support this capability.
 
-To support password live messages the password policy message must include the [Live\_Policy] declaration in the Password Policy Message.
+To support password live messages the password policy message must include the [Live_Policy] declaration in the Password Policy Message.
 
 ![policypropertieswindow](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/policypropertieswindow.png)

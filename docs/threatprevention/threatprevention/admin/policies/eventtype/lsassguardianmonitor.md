@@ -72,9 +72,9 @@ Use the Open Process Flags filter to set the scope of the policy for requested h
 
 Check the box to select the process flag(s) to be monitored. This will trigger an event if the request for an LSASS handle contains one or more of the selected process flags.
 
-- PROCESS\_VM\_WRITE – Select this checkbox to write to memory in a process
-- PROCESS\_CREATE\_THREAD – Select this checkbox to create a thread
-- PROCESS\_VM\_READ – Select this checkbox to report if the calling process, such as an application, wants to read LSASS memory  
+- PROCESS_VM_WRITE – Select this checkbox to write to memory in a process
+- PROCESS_CREATE_THREAD – Select this checkbox to create a thread
+- PROCESS_VM_READ – Select this checkbox to report if the calling process, such as an application, wants to read LSASS memory  
   - A typical use case for this is the creation of an LSASS dump file, since read rights are required to create a dump file of the process.
   - Uncheck this checkbox to not generate an event if the calling process, such as an application, requests LSASS memory read access.
 

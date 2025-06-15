@@ -22,5 +22,5 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The following analysis tasks are selected by default:
 
-- Create Hosts View – Creates the 0-FSDFS\_System\_HostView visible through the Results node that contains the dynamic host list
-- Create Views – Creates the FSDFS\_NamespacesTraversalView visible through the Results node that contains expansion of all the scanned namespaces
+- Create Hosts View – Creates the 0-FSDFS_System_HostView visible through the Results node that contains the dynamic host list
+- Create Views – Creates the FSDFS_NamespacesTraversalView visible through the Results node that contains expansion of all the scanned namespaces

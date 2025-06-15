@@ -20,10 +20,10 @@ __Step 3 –__ Right-click on Registry and choose New > Registry Item
 
 __Step 4 –__ Create the Registry policy item using the values below as a guide.
 
-Hive: HKEY\_LOCAL\_MACHINE  
+Hive: HKEY_LOCAL_MACHINE  
 Key Path: SOFTWARE\Policies\Microsoft\Windows\Explorer  
 Value name: NoNewAppAlert  
-Value type: REG\_DWORD  
+Value type: REG_DWORD  
 Value data: 00000001
 
 ![76_7_image-20200728223134-4](/img/product_docs/policypak/policypak/troubleshooting/startscreentaskbar/76_7_image-20200728223134-4.webp)

@@ -111,7 +111,7 @@ November 30, 2023
 
 September 27, 2023
 
-- Improved handling of the Jira Token field. It is now stored as an API Secret in NetSuite. Refer to [https://suiteanswers.custhelp.com/app/answers/detail/a\_id/98285](https://suiteanswers.custhelp.com/app/answers/detail/a_id/98285) for more information.
+- Improved handling of the Jira Token field. It is now stored as an API Secret in NetSuite. Refer to [https://suiteanswers.custhelp.com/app/answers/detail/a_id/98285](https://suiteanswers.custhelp.com/app/answers/detail/a_id/98285) for more information.
 - Improved handling of the Change Request owner assignment. __Owner__ is now the person who pushed the ticket into NetSuite.
 
 ## Jira 1.2.15

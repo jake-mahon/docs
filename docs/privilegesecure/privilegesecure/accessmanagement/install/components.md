@@ -4,7 +4,7 @@ The ```NPS.zip``` file that can be downloaded from the Netwrix Customer portal c
 
 ![Contents of the NPS.zip file download](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/install/npszip.webp)
 
-- NPS\_Setup.exe – Opens the Netwrix Setup Launcher to install the Privilege Secure components:
+- NPS_Setup.exe – Opens the Netwrix Setup Launcher to install the Privilege Secure components:
 
   - Prerequisites Setup – Checks for prerequisites. If any are missing it downloads and installs the missing components.
   - PostgreSQL Setup – Installs the PostgreSQL database on the application server.

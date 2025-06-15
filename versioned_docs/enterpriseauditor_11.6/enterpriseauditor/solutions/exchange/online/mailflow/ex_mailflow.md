@@ -1,28 +1,28 @@
-# 0. Collection > EX\_Mailflow Job
+# 0. Collection > EX_Mailflow Job
 
-The EX\_Mailflow job collects message trace data from Office 365.
+The EX_Mailflow job collects message trace data from Office 365.
 
 ![0. Collection > EX_Mailflow Job in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/databases/collection/collectionjobstree.png)
 
-The EX\_Mailflow job is located in the __Mailflow__ > __0. Collection__ job group.
+The EX_Mailflow job is located in the __Mailflow__ > __0. Collection__ job group.
 
 ## Parameter Configuration
 
 The Configuration section on a Job's overview page allows you to easily modify any customizable parameters used by analysis tasks in the job. See the [Parameter Configuration](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/overview.md#parameter-configuration) topic for instructions on how to edit parameters on a job overview page.
 
-The EX\_Mailflow job has the following configurable parameter:
+The EX_Mailflow job has the following configurable parameter:
 
 - Number of months to keep
 
-See the [Analysis Tasks for the EX\_Mailflow Job](#analysis-tasks-for-the-ex_mailflow-job) topic for additional information.
+See the [Analysis Tasks for the EX_Mailflow Job](#analysis-tasks-for-the-ex_mailflow-job) topic for additional information.
 
-## Queries for the EX\_Mailflow Job
+## Queries for the EX_Mailflow Job
 
-The EX\_Mailflow job uses the ExchangePS Data Collector.
+The EX_Mailflow job uses the ExchangePS Data Collector.
 
 ![Queries for the EX_Mailflow Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/online/mailflow/mailflowqueries.png)
 
-The following queries are included in the EX\_Mailflow job:
+The following queries are included in the EX_Mailflow job:
 
 - MailFlow – Collects Message Tracking data
 
@@ -40,7 +40,7 @@ The ExchangePS Data Collector configured with the Mail Flow Metrics category can
 
 Follow the steps to modify the query configuration:
 
-__Step 1 –__ Navigate to the __Exchange__ > __8. Exchange Online__ > __0. Collection__ > __EX\_Mailflow__ > __Configure__ node and select __Queries__.
+__Step 1 –__ Navigate to the __Exchange__ > __8. Exchange Online__ > __0. Collection__ > __EX_Mailflow__ > __Configure__ node and select __Queries__.
 
 __Step 2 –__ In the Query Selection view, select the query and click __Query Properties__. The Query Properties window opens.
 
@@ -58,9 +58,9 @@ __Step 5 –__ Navigate to the Summary page. Click __Finish__.
 
 The job applies the modification to future job executions.
 
-## Analysis Tasks for the EX\_Mailflow Job
+## Analysis Tasks for the EX_Mailflow Job
 
-View the analysis tasks by navigating to the __Exchange__ > __8. Exchange Online__ > __0. Collection__ > __EX\_Mailflow__ > __Configure__ node and selecting __Analysis__.
+View the analysis tasks by navigating to the __Exchange__ > __8. Exchange Online__ > __0. Collection__ > __EX_Mailflow__ > __Configure__ node and selecting __Analysis__.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -68,8 +68,8 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The following analysis tasks are selected by default:
 
-- 01.EX\_Mailflow\_History – Creates the SA\_EX\_Mailflow\_History table, accessible under the job's Results node
-- 02.Update History Table – Updates the SA\_EX\_Mailflow\_History table, with data from the .Active Directory Inventory and .Entra ID Inventory solutions to determine local users and distribution lists
+- 01.EX_Mailflow_History – Creates the SA_EX_Mailflow_History table, accessible under the job's Results node
+- 02.Update History Table – Updates the SA_EX_Mailflow_History table, with data from the .Active Directory Inventory and .Entra ID Inventory solutions to determine local users and distribution lists
 - 03. SET HISTORY RETENTION – Sets retention period in months
 
   - By default, retention is set to 6 months. This period can be modified. See the [Parameter Configuration](#parameter-configuration) topic for additional information.

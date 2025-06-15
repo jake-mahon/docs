@@ -45,6 +45,6 @@ When the checklist items do not resolve the issue, contact support with as much 
 | What is the Operating System and Version of the Target Host?  For example: Windows Server 2012 R2 Standard, Server 2016 R2 |
 | What is the Application Version (if applicable) i.e. Exchange, SharePoint, etc |
 | Did it ever work? Has anything changed?  For example” OS Updates, Console Updates, Permission Changes, etc. |
-| Use the Export function within Enterprise Auditor to send the job or job group, which includes the Job log and SA\_Debug log to the support engineer working the case  See the Export Job to Zip Archive Window section for additional instruction. |
+| Use the Export function within Enterprise Auditor to send the job or job group, which includes the Job log and SA_Debug log to the support engineer working the case  See the Export Job to Zip Archive Window section for additional instruction. |
 | Are there any errors in the Messages Table?  Jobs > [Solution] > [Job Group and/or Job] > Status > Messages table |
 | Are there any messages in the ConnectStatus Table?  Jobs > [Solution] > [Job Group and/or Job] > Status > ConnectStatus table |

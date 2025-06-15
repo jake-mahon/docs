@@ -585,7 +585,7 @@ Release date 29-Nov-2021
   - When an existing navigation value is different from the one suggested by the role model, the assigned resource navigation is now marked as "Non-conforming". Previously, the state was incorrectly indicated as "Cancellation".
 - Connectors and Integrations
 
-  - To prevent password constraint errors, a new configuration setting, "PasswordGenerationSetting", permits a whitelist of allowed symbol characters for password generation called "AllowedSymbolChars". When provided, the white list will override the default symbol character list: "!;.,?()[]-\_&%$+{}@". More information is provided in the documentation's [�References' section](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/settings/index.md).
+  - To prevent password constraint errors, a new configuration setting, "PasswordGenerationSetting", permits a whitelist of allowed symbol characters for password generation called "AllowedSymbolChars". When provided, the white list will override the default symbol character list: "!;.,?()[]-_&%$+{}@". More information is provided in the documentation's [�References' section](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/settings/index.md).
 
 ## Version 5.1.7.13
 
@@ -775,7 +775,7 @@ Release date 24-Sep-2021
   - Custom email notifications with filters used in the ```QueryFilterExpression``` could sometimes have an "Index was outside the bounds of the array" exception that prevented emails from being sent. This has been corrected.
 - Other
 
-  - For OpenId Connect authentication, the response\_mode and response\_type settings can now be switched from code flow with PKCE to implicit flow.
+  - For OpenId Connect authentication, the response_mode and response_type settings can now be switched from code flow with PKCE to implicit flow.
 
 ## Version 5.2.0.6
 
@@ -815,7 +815,7 @@ There is no migration to be done from version 5.2.0.2.
   - FulfillDatabase connectors now properly migrate to FulfillWorkflow.
   - Various additional improvements to the migration tool.
 - Other
-  - For OpenId Connect authentication, the response\_mode and response\_type settings can now be switched from code flow with PKCE to implicit flow.
+  - For OpenId Connect authentication, the response_mode and response_type settings can now be switched from code flow with PKCE to implicit flow.
   - For clustered server installations, the appSettings.json now has a new DataProtection section to configure a shared certificate for generating anti-forgery tokens and protecting authentication cookies.
   - The generate configuration tool now also generates CSV Connections.
 - UI
@@ -942,7 +942,7 @@ The migration steps in the documentation's [Migration](/versioned_docs/usercube_
   - "SubClaimType"
   - Azure AD can now export any entity.
   - LDAP has been refactored, and one connection will now export the entries and the links.
-  - Output files name are changed for all connectors that were using prefixes. Now, instead of the prefix, we have: export\_name + "\_" + connection\_identifier. For example, for an AD where the connection identifier is ADExportFulfillment, the entry file will be named "ad\_ADExportFulfillment\_entries.csv".
+  - Output files name are changed for all connectors that were using prefixes. Now, instead of the prefix, we have: export_name + "_" + connection_identifier. For example, for an AD where the connection identifier is ADExportFulfillment, the entry file will be named "ad_ADExportFulfillment_entries.csv".
   - PowerBI plugin to retrieve data from Usercube.
 - Certifications and Risks
 
@@ -971,7 +971,7 @@ The migration steps in the documentation's [Migration](/versioned_docs/usercube_
   - Parsing errors related to json files now indicate the name of the errored file.
   - TempFolderPath and WorkFolderPath are two new settings defined in the appsettings.json. They allow the definition of the Temp path, whose default location is ```../Temp```and whose content can be deleted, before restarting the server, without altering the behavior of Usercube and the Work path, whose content shouldn't be removed or altered.
   - The cookies used for incremental exports are now stored in /ExportCookies
-  - The SQL zz\_\* views for reading and updating custom entities have been enhanced. There are no longer views for the optimized associations as their values were already available in the mono-valued side entity type's view. Furthermore, the SQL views for non-optimized associations now have the ```_type``` column, allowing the direct insertion of rows with SQL statements.
+  - The SQL zz_\* views for reading and updating custom entities have been enhanced. There are no longer views for the optimized associations as their values were already available in the mono-valued side entity type's view. Furthermore, the SQL views for non-optimized associations now have the ```_type``` column, allowing the direct insertion of rows with SQL statements.
 - Other
 
   - All the CSV files stored in the Temp folder now use a comma "," as column separator instead of semicolumn ";". These files are therefore fully CSV compliant.
@@ -1067,7 +1067,7 @@ The migration steps in the documentation's [Migration](/versioned_docs/usercube_
 - Workflows and Access Control
 
   - Correction for the generic email reminder calculation so that no empty emails are sent and each email contains one reminder.
-  - On an Entity with records workflow, changes were wrong when a field in the record section tried to update a property of the main entity. Now, there is no error and an updated field in the record section will correctly update the main entity property. For example: a Photo field in the record section updates the property Photo of Directory\_User.
+  - On an Entity with records workflow, changes were wrong when a field in the record section tried to update a property of the main entity. Now, there is no error and an updated field in the record section will correctly update the main entity property. For example: a Photo field in the record section updates the property Photo of Directory_User.
   - On notification aspects with recipients as a specific profile, a filter on ValueId is now correctly handled.
   - Roles can now be correctly reviewed when the configuration contains a Profile targeting both Roles and Categories at the same time.
   - Rules of type "Automatic, with validation" are now only given automatically during new user workflows. This prevents a situation where all future permission modifications would continually generate validation requests.
@@ -1173,7 +1173,7 @@ Release date: 18-May-2021
 - Logs/Performance/Security
   - Logging out now functions correctly when an external login has been used.
   - Corrected the logout problem for Okta authentication with Open ID Connect
-  - Added new Option for OpenID section to save the ID\_Token
+  - Added new Option for OpenID section to save the ID_Token
   - When the certificate password contains an ```@```, and the password is unencrypted in the appsettings file, it is now interpreted correctly as long as the ```P@ssword``` is introduced with an ```@```. Example: ```"Password": "@P@ssword"```
   - Added a home page for Usercube-Agent, to verify the correct setup.
 - UI
@@ -1239,7 +1239,7 @@ Whenever the value of this property changes for a resource used in the defined n
   - Mark source scalar/navigation properties as "Manual" when the target is updated from workflows.
 - Logs/Performance/Security
   - Logging out now functions correctly when an external login has been used.
-  - Correction made to the quantity of historical data that was being saved in the UP\_Assigned\* tables.
+  - Correction made to the quantity of historical data that was being saved in the UP_Assigned\* tables.
 - UI
   - On the "View Permissions" workflow page, in simplified view, declined permissions are now hidden.
   - When selecting permissions, previously declined permissions are now indicated with an "X" and the tool tip message has changed to indicate that the role has been previously declined.
@@ -1625,7 +1625,7 @@ To continue to use the Usercube certificate in non-production environments, add 
 - Connectors and Integrations
 
   - New Workday connector for exports. The two modes, incremental and complete, take into account all entities (workers, locations ,job positions etc�).
-  - The SCIM connector can now do a partial incremental synchronization. With this new functionality comes a new optional attribute, SyncCookiesFile. SyncCookiesFile specifies the path of the cookie file used for incremental synchronization. Example: "C:/UsercubeDemo/Sources/example\_cookie.bin" See more information in the documentation: Home Page > Integration Guide > Connectors > SCIM
+  - The SCIM connector can now do a partial incremental synchronization. With this new functionality comes a new optional attribute, SyncCookiesFile. SyncCookiesFile specifies the path of the cookie file used for incremental synchronization. Example: "C:/UsercubeDemo/Sources/example_cookie.bin" See more information in the documentation: Home Page > Integration Guide > Connectors > SCIM
   - Password Reset Improvements
     - Added the ability to set a static CC recipient email address for password reset notifications (per resource type).
     - In password reset notification emails, the resource type name is now displayed.
@@ -1764,7 +1764,7 @@ Release date 2020-10-05
 - Correction for a case where, in an installation scenario with a remote agent, the agent attempted to query the database directly instead of querying the Usercube server's APIs.
 - Correction so that the agent-side task, ActivityInstanceActor, updates the workflow instances in a job.
 - The incremental synchronization now correctly ignores changes made to attributes that are not specified in the configuration.
-- Correction to correct the quantity of historical data being saved in the UP\_Assigned\* tables.
+- Correction to correct the quantity of historical data being saved in the UP_Assigned\* tables.
 - To prevent synchronization errors, attributes that are too long are now truncated at the size of the column.
 - Correction for incorrectly interpreted empty values when, under certain conditions, the Review tasks for the WorkflowUpdateSeveralRecordsEntityForm with no PersistDraft Activity, was giving a blank page.
 - For a ResourceType, the ArgumentsExpression now evaluates the correct target entity type.
@@ -1782,7 +1782,7 @@ The migration steps in the following section must therefore be followed IN THE O
 
 1. Stop server
 2. Rename the existing Runtime folder to �RuntimeOld'
-3. Install the new runtime from �Runtime\_XXXX.zip'
+3. Install the new runtime from �Runtime_XXXX.zip'
 4. Migrate the database:
 
     ```Usercube-Upgrade-DatabaseVersion --connection-string "database connection string"```
@@ -1863,7 +1863,7 @@ Other new items
 - All of Usercube's API are now versioned. The new required parameter "api-version", facilitates the choice of the API version, allowing scripts, tools and agents to be backwards-compatible with the newer versions of Usercube.
 - Added missing error notifications after failed API requests.
 - Enhancement of role parameter reconciliation based on fine-grained permissions.
-- Dependences have now been created between computed expressions allowing, on a given EntityType, the use of the result of a first computed property to compute a second one. For example, on a Directory\_User, the MainRecord can now be used in Bindings/Expressions of other Directory\_User properties. This is managed with a Priority setting.
+- Dependences have now been created between computed expressions allowing, on a given EntityType, the use of the result of a first computed property to compute a second one. For example, on a Directory_User, the MainRecord can now be used in Bindings/Expressions of other Directory_User properties. This is managed with a Priority setting.
 - The scheduler has a new parameter allowing it to be based either on Universal Time (UMT - Greenwich Meridian) or the server's local time zone.
 
 #### Fixed bugs:
@@ -1993,7 +1993,7 @@ The migration steps in the following section must therefore be followed.
 
 1. Stop server
 2. Rename the existing Runtime folder to �RuntimeOld'
-3. Install the new runtime from �Runtime\_XXXX.zip'
+3. Install the new runtime from �Runtime_XXXX.zip'
 4. Migrate the database:
 
     ```Usercube-Upgrade-DatabaseVersion -s "database connection string"```
@@ -2161,7 +2161,7 @@ The migration steps in the following section must therefore be followed.
 #### Migration steps:
 
 1. Stop server
-2. Install the new runtime �Runtime\_XXXX.zip'
+2. Install the new runtime �Runtime_XXXX.zip'
 3. Migrate the database:
 
     ```Usercube-Upgrade-DatabaseVersion -s "database connection string"```
@@ -2332,7 +2332,7 @@ The migration steps in the following section must therefore be followed.
 #### Migration steps:
 
 1. Stop server
-2. Install the new runtime �Runtime\_XXXX.zip'
+2. Install the new runtime �Runtime_XXXX.zip'
 3. Migrate the database:
 
     ```Usercube-Upgrade-DatabaseVersion -s "database connection string"```
@@ -2479,7 +2479,7 @@ The migration steps in the following section must therefore be followed.
 #### Migration steps:
 
 1. Stop server
-2. Install the new runtime �Runtime\_XXXX.zip'
+2. Install the new runtime �Runtime_XXXX.zip'
 3. Migrate the database:
 
     ```Usercube-Upgrade-DatabaseVersion -s "database connection string"```
@@ -2568,7 +2568,7 @@ This is a major upgrade. The migration steps below must be followed.
     ![Campaigns](/img/versioned_docs/usercube_6.1/usercube/whatsnew/olderversions/5.1.0.campaigns.png)
 - Jobs: Jobs can now be executed on the server as well as the agent, with detail of each job step including direct access to execution logs.
   ![Jobs](/img/versioned_docs/usercube_6.1/usercube/whatsnew/olderversions/5.1.0.jobs.png)
-- Historisation: Historisation is now active for the metadata tables, resoure tables et most provisioning tables (tables UM\_, UR\_ et UP\_). For optimal performance, the SQL server needs table partitioning capabilities.
+- Historisation: Historisation is now active for the metadata tables, resoure tables et most provisioning tables (tables UM_, UR_ et UP_). For optimal performance, the SQL server needs table partitioning capabilities.
 - The permissions page now displays access rights in a tree layout.
 - Suggested roles are now possible. They can be defined with access rules where the type is �Suggested'.
   ![SuggestedRoles](/img/versioned_docs/usercube_6.1/usercube/whatsnew/olderversions/5.1.0.suggestedroles.png)

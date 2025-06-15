@@ -16,7 +16,7 @@ __NOTE:__ The database Identifier attribute has a specific location where the co
 
 | Property | Type | Description |
 | --- | --- | --- |
-| DisplayName\_L1   required | String | Display name of the task in language 1 (up to 16). |
+| DisplayName_L1   required | String | Display name of the task in language 1 (up to 16). |
 | Agent   optional | String | Identifier of the agent on which the job will be launched.  __NOTE:__ When not specified, the task is to be launched on the server.  _Remember,_  all jobs containing the task must be launched on the same agent or on the server. |
 | ContinueOnError   default value: false | Boolean | True if the execution of the Task returning an error should not stop the job machine state. |
 | DatabaseIdentifier   optional | String | Identifier of the Database to connect to |

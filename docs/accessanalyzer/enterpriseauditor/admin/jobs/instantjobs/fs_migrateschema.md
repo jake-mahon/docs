@@ -1,6 +1,6 @@
-# FS\_MigrateSchema Job
+# FS_MigrateSchema Job
 
-The FS\_Migrate\_Schema Job migrates the schema in order to support the use of 64-bit ResourceID's without affecting data. It is available through the Instant Job Library under the File System library. See the [Instant Job Wizard](/docs/accessanalyzer/enterpriseauditor/admin/jobs/instantjobs/overview.md) topic for instructions to add this instant job into the Jobs tree.
+The FS_Migrate_Schema Job migrates the schema in order to support the use of 64-bit ResourceID's without affecting data. It is available through the Instant Job Library under the File System library. See the [Instant Job Wizard](/docs/accessanalyzer/enterpriseauditor/admin/jobs/instantjobs/overview.md) topic for instructions to add this instant job into the Jobs tree.
 
 For installing the job, select __Local host__ on the Hosts page of the Instant Job Wizard.
 
@@ -15,11 +15,11 @@ Runtime Details:
 - Multi-console Support – Not supported
 - Additional Notes – None
 
-The FS\_Migrate Schema Job migrates the schema in order to support the use of 64-bit ResourceID's without affecting data.
+The FS_Migrate Schema Job migrates the schema in order to support the use of 64-bit ResourceID's without affecting data.
 
-## Analysis Tasks for the FS\_MigrateSchema Job
+## Analysis Tasks for the FS_MigrateSchema Job
 
-Navigate to the __Jobs__ > __FS\_MigrateSchema__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Jobs__ > __FS_MigrateSchema__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -27,22 +27,22 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The default analysis tasks are:
 
-- 1.Migrate Resources – Migrates the SA\_FSAA\_Resources table to leverage 64-bit IDs
-- 2.Migrate UnixRights – Migrates the SA\_FSAA\_UnixRights table to leverage 64-bit IDs
-- 3.Migrate Gates – Migrates the SA\_Gates table to leverage 64-bit IDs
-- 4.Migrate GatesProxy – Migrates the SA\_FSAA\_GatesProxy table to leverage 64-bit IDs
-- 5.Migrate Exceptions – Migrates the SA\_FSAA\_Exceptions table to leverage 64-bit IDs
-- 6.Migrate ProbableOwners – Migrates the SA\_FSAA\_ProbableOwners table to leverage 64-bit IDs
-- 7.Migrate FileSizes – Migrates the SA\_FSAA\_FileSizes table to leverage 64-bit IDs
-- 8.Migrate FileTypes – Migrates the SA\_FSAA\_FileTypes table to leverage 64-bit IDs
-- 9.Migrate FileAges – Migrates the SA\_FSAA\_FileAges table to leverage 64-bit IDs
-- 10.Migrate FileTags – Migrates the SA\_FSAA\_FileTags table to leverage 64-bit IDs
-- 11.Migrate DFS Links – Migrates the SA\_FSDFS\_Links table to leverage 64-bit IDs
-- 12.Migrate DLP Matches – Migrates the SA\_FSDLP\_Matches table to leverage 64-bit IDs
-- 13.Migrate DLP MatchHits – Migrates the SA\_FSDLP\_MatchHits table to leverage 64-bit IDs
-- 14.Migrate DLP MatchHits Subject Profile – Migrates the SA\_FSDLP\_MatchHits\_SubjectProfile table to leverage 64-bit IDs
-- 15.Migrate FSAC ActivityEvents – Migrates the SA\_FSAC\_ActivityEvents table to leverage 64-bit IDs
-- 16.Migrate DailyActivity – Migrates the SA\_FSAC\_DailyActivity table to leverage 64-bit IDs
-- 17.Migrate FSAC RenameTargets – Migrates the SA\_FSAC\_RenameTargets table to leverage 64-bit IDs
-- 18.Migrate FSAC Exceptions – Migrates the SA\_FSAC\_Exceptions table to leverage 64-bit IDs
+- 1.Migrate Resources – Migrates the SA_FSAA_Resources table to leverage 64-bit IDs
+- 2.Migrate UnixRights – Migrates the SA_FSAA_UnixRights table to leverage 64-bit IDs
+- 3.Migrate Gates – Migrates the SA_Gates table to leverage 64-bit IDs
+- 4.Migrate GatesProxy – Migrates the SA_FSAA_GatesProxy table to leverage 64-bit IDs
+- 5.Migrate Exceptions – Migrates the SA_FSAA_Exceptions table to leverage 64-bit IDs
+- 6.Migrate ProbableOwners – Migrates the SA_FSAA_ProbableOwners table to leverage 64-bit IDs
+- 7.Migrate FileSizes – Migrates the SA_FSAA_FileSizes table to leverage 64-bit IDs
+- 8.Migrate FileTypes – Migrates the SA_FSAA_FileTypes table to leverage 64-bit IDs
+- 9.Migrate FileAges – Migrates the SA_FSAA_FileAges table to leverage 64-bit IDs
+- 10.Migrate FileTags – Migrates the SA_FSAA_FileTags table to leverage 64-bit IDs
+- 11.Migrate DFS Links – Migrates the SA_FSDFS_Links table to leverage 64-bit IDs
+- 12.Migrate DLP Matches – Migrates the SA_FSDLP_Matches table to leverage 64-bit IDs
+- 13.Migrate DLP MatchHits – Migrates the SA_FSDLP_MatchHits table to leverage 64-bit IDs
+- 14.Migrate DLP MatchHits Subject Profile – Migrates the SA_FSDLP_MatchHits_SubjectProfile table to leverage 64-bit IDs
+- 15.Migrate FSAC ActivityEvents – Migrates the SA_FSAC_ActivityEvents table to leverage 64-bit IDs
+- 16.Migrate DailyActivity – Migrates the SA_FSAC_DailyActivity table to leverage 64-bit IDs
+- 17.Migrate FSAC RenameTargets – Migrates the SA_FSAC_RenameTargets table to leverage 64-bit IDs
+- 18.Migrate FSAC Exceptions – Migrates the SA_FSAC_Exceptions table to leverage 64-bit IDs
 - 19.Refresh Views – Updates viewable metadata

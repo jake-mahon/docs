@@ -1,10 +1,10 @@
-# Oracle\_ObjectPermissions Job
+# Oracle_ObjectPermissions Job
 
-The Oracle\_ObjectPermissions Job provides insight into user and role permissions to database objects in targeted Oracle database servers.
+The Oracle_ObjectPermissions Job provides insight into user and role permissions to database objects in targeted Oracle database servers.
 
-## Analysis Tasks for the Oracle\_ObjectPermissions Job
+## Analysis Tasks for the Oracle_ObjectPermissions Job
 
-Navigate to the __Oracle__ > __3.Permissions__ > __Oracle\_ObjectPermissions__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Oracle__ > __3.Permissions__ > __Oracle_ObjectPermissions__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,10 +12,10 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The default analysis tasks are:
 
-- Oracle Object Permissions – Highlights permissions on Oracle Objects. Creates the SA\_Oracle\_ObjectPermission\_Details table accessible under the job’s Results node.
-- Object Permissions Instance Summary – Summarizes Object Permissions by Instance. Creates the SA\_Oracle\_ObjectPermission\_InstanceSummary table accessible under the job’s Results node.
+- Oracle Object Permissions – Highlights permissions on Oracle Objects. Creates the SA_Oracle_ObjectPermission_Details table accessible under the job’s Results node.
+- Object Permissions Instance Summary – Summarizes Object Permissions by Instance. Creates the SA_Oracle_ObjectPermission_InstanceSummary table accessible under the job’s Results node.
 
-In addition to the tables and views created by the analysis task, the Oracle\_ObjectPermissions Job produces the following pre-configured report.
+In addition to the tables and views created by the analysis task, the Oracle_ObjectPermissions Job produces the following pre-configured report.
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

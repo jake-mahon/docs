@@ -1,14 +1,14 @@
-# ActiveSync > EX\_ActiveSync Job
+# ActiveSync > EX_ActiveSync Job
 
-The EX\_ActiveSync job provides visibility into ActiveSync Traffic in the Organization.
+The EX_ActiveSync job provides visibility into ActiveSync Traffic in the Organization.
 
 ![ActiveSync > EX_ActiveSync Job in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/casmetrics/activesyncjobstree.webp)
 
-The EX\_ActiveSync job is located in the ActiveSync job group.
+The EX_ActiveSync job is located in the ActiveSync job group.
 
-## Analysis Tasks for the EX\_ActiveSync Job
+## Analysis Tasks for the EX_ActiveSync Job
 
-View the analysis tasks by navigating to the __Exchange__ > __2. CAS Metrics__ > __ActiveSync__ > __EX\_ActiveSync__ > __Configure__ node and select __Analysis__.
+View the analysis tasks by navigating to the __Exchange__ > __2. CAS Metrics__ > __ActiveSync__ > __EX_ActiveSync__ > __Configure__ node and select __Analysis__.
 
 __CAUTION:__ Most of these analysis tasks are preconfigured and should not be modified or deselected. There are some that are deselected by default, as they are for troubleshooting purposes.
 
@@ -16,12 +16,12 @@ __CAUTION:__ Most of these analysis tasks are preconfigured and should not be mo
 
 The following analysis tasks are selected by default:
 
-- 01b. Active Sync Data – Creates the SA\_EX\_ActiveSync\_Details table, accessible under the job’s Results node
+- 01b. Active Sync Data – Creates the SA_EX_ActiveSync_Details table, accessible under the job’s Results node
 - 02. Last Week Summary – Creates an interim processing table in the database for use by downstream analysis and report generation
-- 03. User Device History – Creates the SA\_EX\_ActiveSync\_UserDeviceHistory table, accessible under the job’s Results node
-- 04. Device Population – Creates the SA\_EX\_ActiveSync\_DevicePopulation table, accessible under the job’s Results node
-- 05. Users Ranked – Creates the SA\_EX\_ActiveSync\_UsersRanked table accessible, under the job’s Results node
-- 06. Servers Ranked – Creates the SA\_EX\_ActiveSync\_ServersRanked table accessible, under the job’s Results node
+- 03. User Device History – Creates the SA_EX_ActiveSync_UserDeviceHistory table, accessible under the job’s Results node
+- 04. Device Population – Creates the SA_EX_ActiveSync_DevicePopulation table, accessible under the job’s Results node
+- 05. Users Ranked – Creates the SA_EX_ActiveSync_UsersRanked table accessible, under the job’s Results node
+- 06. Servers Ranked – Creates the SA_EX_ActiveSync_ServersRanked table accessible, under the job’s Results node
 - 07. SET HISTORY RETENTION – Sets retention period in months
 
   - The default is __6 months__. It can be modified.
@@ -39,7 +39,7 @@ The following analysis task updates the table to clean the data so that any User
 
 - 01a. Clean NULL UserAgent – Updates UserAgent information which was returned as NULL based on existing data
 
-In addition to the tables and views created by the analysis tasks, the EX\_ActiveSync Job produces the following pre-configured reports:
+In addition to the tables and views created by the analysis tasks, the EX_ActiveSync Job produces the following pre-configured reports:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

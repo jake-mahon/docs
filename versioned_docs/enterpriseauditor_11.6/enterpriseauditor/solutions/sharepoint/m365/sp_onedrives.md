@@ -1,10 +1,10 @@
-# SP\_OneDrives Job
+# SP_OneDrives Job
 
-The SP\_OneDrives Job collects the activity, sensitive data, summary level information across OneDrives.
+The SP_OneDrives Job collects the activity, sensitive data, summary level information across OneDrives.
 
 ## Analysis Tasks for the OneDrives Job
 
-Navigate to the __Jobs__ > __SharePoint__ > __8.M365__ > __SP\_OneDrives__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Jobs__ > __SharePoint__ > __8.M365__ > __SP_OneDrives__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,15 +12,15 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The default analysis tasks are:
 
-- OneDrive Details – Creates the SA\_SP\_OneDriveDetails table accessible under the job's Results node
-- OneDrive Summary – Creates the SA\_SP\_OneDriveSummary table accessible under the job's Results node
-- Top OneDrive by GB Summary – Creates the SA\_SP\_TopOneDrivesGB table accessible under the job's Results node
-- OneDrive Sensitive Data File Details – Creates the SA\_SP\_OneDriveFileDetails table accessible under the job's Results node
-- OneDrive Sensitive Data Summary – Creates the SA\_SP\_OneDriveSensitiveDataSummary table accessible under the job's Results node
-- OneDrive Activity Details – Creates the SA\_SP\_OneDriveActivityDetails table accessible under the job's Results node
-- OneDrive Activity Summary – Creates the SA\_SP\_OneDriveActivitySummary table accessible under the job's Results node
+- OneDrive Details – Creates the SA_SP_OneDriveDetails table accessible under the job's Results node
+- OneDrive Summary – Creates the SA_SP_OneDriveSummary table accessible under the job's Results node
+- Top OneDrive by GB Summary – Creates the SA_SP_TopOneDrivesGB table accessible under the job's Results node
+- OneDrive Sensitive Data File Details – Creates the SA_SP_OneDriveFileDetails table accessible under the job's Results node
+- OneDrive Sensitive Data Summary – Creates the SA_SP_OneDriveSensitiveDataSummary table accessible under the job's Results node
+- OneDrive Activity Details – Creates the SA_SP_OneDriveActivityDetails table accessible under the job's Results node
+- OneDrive Activity Summary – Creates the SA_SP_OneDriveActivitySummary table accessible under the job's Results node
 
-In addition to the tables created by the analysis tasks, the SP\_OneDrives Job produces the following preconfigured reports:
+In addition to the tables created by the analysis tasks, the SP_OneDrives Job produces the following preconfigured reports:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

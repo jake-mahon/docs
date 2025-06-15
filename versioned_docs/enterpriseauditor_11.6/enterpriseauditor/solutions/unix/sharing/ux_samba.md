@@ -1,10 +1,10 @@
-# UX\_Samba Job
+# UX_Samba Job
 
-The UX\_Samba job identifies potentially insecure Samba share configurations which are categorized by their risk level.
+The UX_Samba job identifies potentially insecure Samba share configurations which are categorized by their risk level.
 
-## Analysis Tasks for the UX\_Samba Job
+## Analysis Tasks for the UX_Samba Job
 
-View the analysis tasks by navigating to the __Unix__ > __3.Sharing__ > __UX\_Samba__ > __Configure__ node and select __Analysis__.
+View the analysis tasks by navigating to the __Unix__ > __3.Sharing__ > __UX_Samba__ > __Configure__ node and select __Analysis__.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,10 +12,10 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The default analysis tasks are:
 
-- Lists high risk Samba share configurations – Creates the SA\_UX\_Samba\_HighRiskSambaShares table accessible under the job’s Results node
+- Lists high risk Samba share configurations – Creates the SA_UX_Samba_HighRiskSambaShares table accessible under the job’s Results node
 - Highlights hosts with a large number of risky shares – Creates an interim processing table in the database for use by downstream analysis and report generation
 
-In addition to the tables and views created by the analysis task, the UX\_NFS job produces the following pre-configured report:
+In addition to the tables and views created by the analysis task, the UX_NFS job produces the following pre-configured report:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

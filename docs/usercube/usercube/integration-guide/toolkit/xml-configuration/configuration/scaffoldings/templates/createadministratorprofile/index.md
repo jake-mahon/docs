@@ -33,7 +33,7 @@ The scaffolding generates the following scaffoldings:
   ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/userinterfaces/manageaccounts/index.md):
 - [
   Manage Setting Access Control Rule
-  ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/queries/managesettingaccesscontrolrule/index.md): Generates the access control rule which gives to a profile the permission to query, create, update and delete settings from the UM\_Settings table.
+  ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/queries/managesettingaccesscontrolrule/index.md): Generates the access control rule which gives to a profile the permission to query, create, update and delete settings from the UM_Settings table.
 - [
   Monitoring Administration Access Control Rules
   ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/monitoring/monitoringadministrationaccesscontrolrules/index.md): Generates the access control rule which gives to a profile the permission to query the monitoring screen.

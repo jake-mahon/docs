@@ -6,5 +6,5 @@ The 0.Collection job group locates sensitive data found in mailboxes and public 
 
 The jobs in the 0.Collection job group are:
 
-- [EX\_Mailbox\_SDD Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/sensitivedata/collection/ex_mailbox_sdd.md) – Collects potentially sensitive data in mailboxes
-- [EX\_PublicFolder\_SDD Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/sensitivedata/collection/ex_publicfolder_sdd.md) – Collects potentially sensitive data in public folders
+- [EX_Mailbox_SDD Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/sensitivedata/collection/ex_mailbox_sdd.md) – Collects potentially sensitive data in mailboxes
+- [EX_PublicFolder_SDD Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/sensitivedata/collection/ex_publicfolder_sdd.md) – Collects potentially sensitive data in public folders

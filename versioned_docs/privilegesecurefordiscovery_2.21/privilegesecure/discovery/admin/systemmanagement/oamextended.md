@@ -42,7 +42,7 @@ To simplify getting setup, several preset bundles of configuration settings have
 
 - This strategy will collectively implement:
 
-- The creation of an alternate administrator account (default name “S1\_ALT\_ADMIN” unless previously set).
+- The creation of an alternate administrator account (default name “S1_ALT_ADMIN” unless previously set).
 - The rotation and management of the alternate administrator account’s password.
 - The rotation and management of the built-in Administrator account’s password.
 - The disabling of the built-in Administrator account.
@@ -125,14 +125,14 @@ The following policy options will be displayed for the computer's OAM Policy if 
 | --- | --- |
 | OAM (Offline Access Management) Enabled | TRUE,FALSE |
 | OAM Strategy | OS-BEST-PRACTICE, MANAGED-BUILT-IN, CUSTOM |
-| OAM Name Template | Template an alpha-numeric with ? wildcards (ex: S1\_ALT\_???) |
+| OAM Name Template | Template an alpha-numeric with ? wildcards (ex: S1_ALT_???) |
 | OAM JITA User Can Access PW | TRUE,FALSE |
 | OAM Use Alt Admin | TRUE,FALSE |
 | OAM Manage Built-in PW | TRUE,FALSE |
 | OAM Disable Built-in Admin | TRUE,FALSE |
 
 If you wish to change any of this policy's options, set the Set OAM Enabled to TRUE/FALSE as appropriate. The Strategy may be entered with any of following values: OS-BEST-PRACTICE, MANAGED-BUILT-IN, CUSTOM. If left blank it will default to the current value, or to OS-BEST-PRACTICE if no previous policy was set.  
-The OAM Name Template accepts a string with wildcards expressed by question marks (?). If left blank it will default to the current value, or to S1\_ALT\_ADMIN.
+The OAM Name Template accepts a string with wildcards expressed by question marks (?). If left blank it will default to the current value, or to S1_ALT_ADMIN.
 
 The remaining options may be included, but must not conflict with the defined strategy.  
 Default Settings by Strategy
@@ -236,38 +236,38 @@ If a database entry is not specified for any value, then the following environme
 
 | Environment Variable Nam | Default Value | Notes |
 | --- | --- | --- |
-| EXPIRY\_MINUTES\_AFTER\_ACCESS | 60 |  |
-| RID\_500\_ROTATION\_DAYS | 30 |  |
-| RID\_500\_RETENTION\_DAYS | 90 |  |
-| RID\_500\_PW\_MIN\_LENGTH | 12 |  |
-| RID\_500\_PW\_MIN\_DIGITS | 3 |  |
-| RID\_500\_PW\_MIN\_UPPERCASE | 3 |  |
-| RID\_500\_PW\_MIN\_SPECIAL\_CHARS | 3 | Punctuation chars (note single quote is excluded): `!"#$%&()*+-:;<=>?@[\]^_{},` \| `.` `/"~'`     Need to comment out these characters: `( ) [ ] { } " '`  Example, to comment out a `[` you would use:  `\]` |
-| RID\_500\_PW\_EXCLUDE\_CHARS | "" |  |
+| EXPIRY_MINUTES_AFTER_ACCESS | 60 |  |
+| RID_500_ROTATION_DAYS | 30 |  |
+| RID_500_RETENTION_DAYS | 90 |  |
+| RID_500_PW_MIN_LENGTH | 12 |  |
+| RID_500_PW_MIN_DIGITS | 3 |  |
+| RID_500_PW_MIN_UPPERCASE | 3 |  |
+| RID_500_PW_MIN_SPECIAL_CHARS | 3 | Punctuation chars (note single quote is excluded): `!"#$%&()*+-:;<=>?@[\]^_{},` \| `.` `/"~'`     Need to comment out these characters: `( ) [ ] { } " '`  Example, to comment out a `[` you would use:  `\]` |
+| RID_500_PW_EXCLUDE_CHARS | "" |  |
 
 Note that some of these settings are minimum values, not maximum values. It can have any number greater than or equal to setting. Keep in mind it that other criteria must be maintained too.  
 For example:
 
-- If I set RID\_500\_PW\_MIN\_LENGTH=10,
-- and set RID\_500\_PW\_MIN\_UPPERCASE=10,
+- If I set RID_500_PW_MIN_LENGTH=10,
+- and set RID_500_PW_MIN_UPPERCASE=10,
 - and all the other MINs to 0, then I'll end up with a purely uppercase password 10 characters long.
-- But If I also set RID\_500\_PW\_MIN\_DIGITS=1, then I'll end up with a password of length 11. That being 10 to satisfy the min uppercase and 1 to satisfy the min digits.
+- But If I also set RID_500_PW_MIN_DIGITS=1, then I'll end up with a password of length 11. That being 10 to satisfy the min uppercase and 1 to satisfy the min digits.
 
-If in the case above we had set RID\_500\_PW\_MIN\_LENGTH=20, then 11 chars would be restricted to the uppercase and digits requirement shown, and the remaining 9 could be any alphanumeric plus punctuation minus the excluded characters.  
+If in the case above we had set RID_500_PW_MIN_LENGTH=20, then 11 chars would be restricted to the uppercase and digits requirement shown, and the remaining 9 could be any alphanumeric plus punctuation minus the excluded characters.  
 The resulting password length will be the greater of:
 
-- RID\_500\_PW\_MIN\_LENGTH,
-- or (RID\_500\_PW\_MIN\_DIGITS + RID\_500\_PW\_MIN\_UPPERCASE + RID\_500\_PW\_MIN\_SPECIAL\_CHARS)
+- RID_500_PW_MIN_LENGTH,
+- or (RID_500_PW_MIN_DIGITS + RID_500_PW_MIN_UPPERCASE + RID_500_PW_MIN_SPECIAL_CHARS)
 
-An error would occur if the configuration settings are not able to meet the specified requirements. For example, if RID\_500\_PW\_EXCLUDE\_CHARS=“0123456789” and RID\_500\_PW\_MIN\_DIGITS=2, then the exception “Cannot meet minimum requirements of 2 digit characters” would be raised.
+An error would occur if the configuration settings are not able to meet the specified requirements. For example, if RID_500_PW_EXCLUDE_CHARS=“0123456789” and RID_500_PW_MIN_DIGITS=2, then the exception “Cannot meet minimum requirements of 2 digit characters” would be raised.
 
 ## Password Rotation Schedule
 
 There are several mechanisms that can trigger a password rotation:
 
 - when password management for an administrator is enabled for the first time
-- n number of days after its previous rotation as configured above (RID\_500\_ROTATION\_DAYS)
-- n number of minutes after the password has been reveal to a user (EXPIRY\_MINUTES\_AFTER\_ACCESS)
+- n number of days after its previous rotation as configured above (RID_500_ROTATION_DAYS)
+- n number of minutes after the password has been reveal to a user (EXPIRY_MINUTES_AFTER_ACCESS)
 - or, on demand via the Grant Access page as shown below. This requires a Rescan to perform the process right away.
 
 ![S1-911_rotate_password_menu_item.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/systemmanagement/360043745553_s1-911_rotate_password_menu_item.png)

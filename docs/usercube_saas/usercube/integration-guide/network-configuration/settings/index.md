@@ -53,7 +53,7 @@ The example below defines two custom links accessible through the URLs "_your-Id
 ```
 
 - __Url___(required)_ defines the url address from which to access the custom page.
-- __Path\_L1___(required)_ defines the path (from the configuration root) to the HTML file to be rendered depending on the currently selected language in the user interface (```Path_L1``` to ```Path_L16``` are available). Only ```Path_L1``` is required. While navigating to a custom link, if no HTML path was defined for the current language, then ```Path_L1``` is taken as default.
+- __Path_L1___(required)_ defines the path (from the configuration root) to the HTML file to be rendered depending on the currently selected language in the user interface (```Path_L1``` to ```Path_L16``` are available). Only ```Path_L1``` is required. While navigating to a custom link, if no HTML path was defined for the current language, then ```Path_L1``` is taken as default.
 
 To be displayed correctly, images should be embedded in the HTML files as Base64 images using the ```src``` attribute like this :
 ```<img src="data:image/png;base64,iVBORw0...=" />```.
@@ -124,16 +124,16 @@ __Attributes__
 
 __Example__
 
-The following example links the authentication credentials of an end-user to its matching resource of EntityType __Directory\_User__.
+The following example links the authentication credentials of an end-user to its matching resource of EntityType __Directory_User__.
 
 In this example, authentication has been set up using [
 End-User Authentication](/docs/usercube_saas/usercube/integration-guide/network-configuration/server-configuration/end-users-authentication/index.md). In that case, the login used by the end-user is in the form ```DOMAIN/userName```.
 
 The __AfterToken__ attribute parses the ```DOMAIN/userName``` string into ```userName```.
 
-The parsed result ```userName``` is compared with ```AD_Entry:sAMAccountName``` property value of __Directory\_User__ resources.
+The parsed result ```userName``` is compared with ```AD_Entry:sAMAccountName``` property value of __Directory_User__ resources.
 
-The matching __Directory\_User__ resource is the resource that stands for the end-user identity within Identity Manager.
+The matching __Directory_User__ resource is the resource that stands for the end-user identity within Identity Manager.
 
 ```
 

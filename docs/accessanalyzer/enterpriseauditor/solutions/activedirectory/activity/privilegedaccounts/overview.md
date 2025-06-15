@@ -8,5 +8,5 @@ The following Jobs make up the Privileged Accounts Job Group:
 
 ___RECOMMENDED:___ Schedule these jobs to run with the 0.Collection job group.
 
-- [AD\_AdminAccounts Job](/docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/activity/privilegedaccounts/ad_adminaccounts.md) – Shows all actions taken by domain administrators within the environment being compromised
-- [AD\_ServiceAccountAuth Job](/docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/activity/privilegedaccounts/ad_serviceaccountauth.md) – Shows the last time a service account, identified by the presence of a servicePrincipalName, was active within the environment
+- [AD_AdminAccounts Job](/docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/activity/privilegedaccounts/ad_adminaccounts.md) – Shows all actions taken by domain administrators within the environment being compromised
+- [AD_ServiceAccountAuth Job](/docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/activity/privilegedaccounts/ad_serviceaccountauth.md) – Shows the last time a service account, identified by the presence of a servicePrincipalName, was active within the environment

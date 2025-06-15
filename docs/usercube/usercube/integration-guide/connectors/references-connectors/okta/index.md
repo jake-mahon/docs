@@ -61,7 +61,7 @@ The identifier of the connection and thus the name of the subsection must:
 
 - Be unique
 - Not begin with a digit
-- Not contain \<, \>, :, ", /, \, |, ?, \* and \_.
+- Not contain \<, \>, :, ", /, \, |, ?, \* and _.
 
 For example:
 
@@ -92,11 +92,11 @@ appsettings.agent.json
 
 This connector can create, delete and update users, groups and applications, and is meant to generate the following to the ExportOutput folder :
 
-- A CSV file, named \<connectionIdentifier\>\_users.csv, with one column for each property either having a ConnectionColumn or which is used in an entity association;
-- A CSV file, named \<connectionIdentifier\>\_groups.csv, with one column for each property either having a ConnectionColumn or which is used in an entity association;
-- A CSV file, named \<connectionIdentifier\>\_apps.csv, with one column for each property either having a ConnectionColumn or which is used in an entity association;
-- A CSV file, named \<connectionIdentifier\>\_groupsapps.csv, with one column for each property either having a ConnectionColumn or which is used in an entity association;
-- A CSV file, named \<connectionIdentifier\>\_groupsusers.csv, with one column for each property either having a ConnectionColumn or which is used in an entity association;
+- A CSV file, named \<connectionIdentifier\>_users.csv, with one column for each property either having a ConnectionColumn or which is used in an entity association;
+- A CSV file, named \<connectionIdentifier\>_groups.csv, with one column for each property either having a ConnectionColumn or which is used in an entity association;
+- A CSV file, named \<connectionIdentifier\>_apps.csv, with one column for each property either having a ConnectionColumn or which is used in an entity association;
+- A CSV file, named \<connectionIdentifier\>_groupsapps.csv, with one column for each property either having a ConnectionColumn or which is used in an entity association;
+- A CSV file, named \<connectionIdentifier\>_groupsusers.csv, with one column for each property either having a ConnectionColumn or which is used in an entity association;
 
 For example, with the following entity type mapping for users:
 

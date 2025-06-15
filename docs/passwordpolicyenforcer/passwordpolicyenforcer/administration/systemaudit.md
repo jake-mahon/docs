@@ -20,7 +20,7 @@ __NOTE:__ If you do not see the __Configuration Timestamp__, contact your networ
 
 ![System Audit results](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/systemauditversion.webp)
 
-You can click the export icon to download your results. The file name is __Audit\____timestamp___.xlxs__, it is downloaded into the default __Downloads__ folder. For large domains, you can apply filters or use the Search feature to make it easier to navigate your list.
+You can click the export icon to download your results. The file name is __Audit____timestamp___.xlxs__, it is downloaded into the default __Downloads__ folder. For large domains, you can apply filters or use the Search feature to make it easier to navigate your list.
 
 __NOTE:__ __Debug logging__ should only be enabled when you are actively debugging your system. Leaving it enabled impacts Password Policy Enforcer performance and uses free disk space to create the logs.
 

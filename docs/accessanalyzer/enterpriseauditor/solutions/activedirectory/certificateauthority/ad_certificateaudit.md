@@ -1,10 +1,10 @@
-# AD\_CertificateAudit Job
+# AD_CertificateAudit Job
 
-The AD\_CertificateAudit job provides details on access rights to the Certificate Authority.
+The AD_CertificateAudit job provides details on access rights to the Certificate Authority.
 
-## Analysis Tasks for the AD\_CertificateAudit Job
+## Analysis Tasks for the AD_CertificateAudit Job
 
-Navigate to the __Active Directory__ > __7.Certificate Authority__ > __AD\_CertificateAudit__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Active Directory__ > __7.Certificate Authority__ > __AD_CertificateAudit__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,10 +12,10 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The default analysis tasks are:
 
-- Certificate Authorities – Summarizes the Certificate Authority configuration. Creates the SA\_AD\_CertificateAudit\_Authorites view accessible under the job’s Results node.
-- Certificate Authority Rights – Provides permissions on the Certificate Authority. Creates the SA\_AD\_CertificateAudit\_CARights table accessible under the job’s Results node.
+- Certificate Authorities – Summarizes the Certificate Authority configuration. Creates the SA_AD_CertificateAudit_Authorites view accessible under the job’s Results node.
+- Certificate Authority Rights – Provides permissions on the Certificate Authority. Creates the SA_AD_CertificateAudit_CARights table accessible under the job’s Results node.
 
-In addition to the tables and views created by the analysis tasks, the AD\_CertificateAudit job produces the following pre-configured report:
+In addition to the tables and views created by the analysis tasks, the AD_CertificateAudit job produces the following pre-configured report:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

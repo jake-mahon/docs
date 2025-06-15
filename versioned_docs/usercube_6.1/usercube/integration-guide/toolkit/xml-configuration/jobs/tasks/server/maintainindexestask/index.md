@@ -14,7 +14,7 @@ Maintain indexes and update statistics for all database tables. Also cleans up d
 
 | Property | Details |
 | --- | --- |
-| DisplayName\_L1   required | __Type__    String   __Description__   Display name of the task in language 1 (up to 16). |
+| DisplayName_L1   required | __Type__    String   __Description__   Display name of the task in language 1 (up to 16). |
 | AllIndexes   default value: false | __Type__    Boolean   __Description__   Defines whether all indexes should be rebuilt without checking average fragmentation percent. |
 | ContinueOnError   default value: false | __Type__    Boolean   __Description__   ```true``` if the execution of the Task returning an error should not stop the job machine state. |
 | Identifier   optional | __Type__    String   __Description__   Unique identifier of the task. |

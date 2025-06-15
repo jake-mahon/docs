@@ -2,7 +2,7 @@
 
 Generates entity model SQL views in the Usercube database. All views are prefixed by ```zz_```. This tool deletes all views starting by ```zz_``` and creates views from the entity model described in the running configuration.
 
-For every __EntityType__, a matching SQL view is created from the UR\_Resource table.
+For every __EntityType__, a matching SQL view is created from the UR_Resource table.
 
 ## Example
 

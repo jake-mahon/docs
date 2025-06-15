@@ -54,7 +54,7 @@ Figure 43. Select or unselect the "Always re-apply settings when application run
 
 Remember that the applications' settings will still reapply during periodic Group Policy background processing, or if you manually run ```GPupdate ```and have that setting enabled.
 
-The reapplication is provided by a kernel-mode driver, which is actively looking for applications that Endpoint Policy Manager Application Settings Manager is managing. If you wish to fully disable the kernel-mode driver (and, hence, the automatic reapplication of settings), you need to manually configure a Registry setting on the client at ```HKLM\Software\PolicyPak\Config\Driver```, and then set Enabled (REG\_DWORD) to 0. This is demonstrated in Figure 44.
+The reapplication is provided by a kernel-mode driver, which is actively looking for applications that Endpoint Policy Manager Application Settings Manager is managing. If you wish to fully disable the kernel-mode driver (and, hence, the automatic reapplication of settings), you need to manually configure a Registry setting on the client at ```HKLM\Software\PolicyPak\Config\Driver```, and then set Enabled (REG_DWORD) to 0. This is demonstrated in Figure 44.
 
 Note that you also should either reboot the machine to disable or re-enable the driver.
 
@@ -62,7 +62,7 @@ Note that you also should either reboot the machine to disable or re-enable the 
 
 Figure 44. Use the following Registry location to fully disable the Endpoint Policy Manager driver, which performs reapplication of settings for applications.
 
-__NOTE:__  Log files for the automatic reapplication of settings at launch are found in``` %appdata%\local\PolicyPak``` in a file called ppUser\_onLaunch.log.
+__NOTE:__  Log files for the automatic reapplication of settings at launch are found in``` %appdata%\local\PolicyPak``` in a file called ppUser_onLaunch.log.
 
 ## Automatic Reapplication of Settings with the Reinforcement Timer
 
@@ -70,7 +70,7 @@ As previously stated, when the client is online and able to make contact with a 
 
 Endpoint Policy Manager Application Settings Manager has an optional switch, which must be manually turned on in the client's Registry, that will reapply applications' settings based on a timer. In essence, this runs ```ppupdate``` on a prescribed timeline. You might want to use this feature if the app is run infrequently or if you suspect that another application is modifying the application's settings.
 
-Again, the reinforcement timer is not enabled by default on the target machine. If you want to turn it on, edit ```HKLM\Software\PolicyPak\Config\Scheduler``` for everyone on the whole computer or ```HKCU\Software\PolicyPak\Config\Scheduler``` for a specific user on the machine and set ReapplyPeriod (as a REG\_DWORD) to the desired interval in seconds. The allowed range is 30 seconds to 24 hours (86400 seconds). If you'd like to utilize the feature, the recommended reinforcement time is 30 minutes (1800 seconds) to 60 minutes (3600 seconds).
+Again, the reinforcement timer is not enabled by default on the target machine. If you want to turn it on, edit ```HKLM\Software\PolicyPak\Config\Scheduler``` for everyone on the whole computer or ```HKCU\Software\PolicyPak\Config\Scheduler``` for a specific user on the machine and set ReapplyPeriod (as a REG_DWORD) to the desired interval in seconds. The allowed range is 30 seconds to 24 hours (86400 seconds). If you'd like to utilize the feature, the recommended reinforcement time is 30 minutes (1800 seconds) to 60 minutes (3600 seconds).
 
 However, note that if you enable the "Do not re-apply settings with Reinforcement Timer," as seen in Figure 45 (which is at the AppSet level), then the specific AppSet will NOT be reapplied when the timer is supposed to apply it. In short, by setting this option, you bypass reapplication of the settings even when the enforcement timer is set.
 
@@ -78,4 +78,4 @@ However, note that if you enable the "Do not re-apply settings with Reinforcemen
 
 Figure 45. Enabling the "Do not re-apply settings with Reinforcement Timer" setting.
 
-__NOTE:__  Log files for the "Automatic reapplication of settings using the timer" can be found in``` %appdata%\local\PolicyPak``` in a file called ppUser\_onSchedule.log.
+__NOTE:__  Log files for the "Automatic reapplication of settings using the timer" can be found in``` %appdata%\local\PolicyPak``` in a file called ppUser_onSchedule.log.

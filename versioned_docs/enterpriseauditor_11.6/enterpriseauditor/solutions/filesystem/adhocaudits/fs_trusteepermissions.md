@@ -1,10 +1,10 @@
-# FS\_TrusteePermissions Job
+# FS_TrusteePermissions Job
 
-The FS\_TrusteePermissions Job is designed to report on trustees from targeted file servers based on user input.
+The FS_TrusteePermissions Job is designed to report on trustees from targeted file servers based on user input.
 
-## Analysis Tasks for the FS\_TrusteePermissions Job
+## Analysis Tasks for the FS_TrusteePermissions Job
 
-View the analysis tasks by navigating to the FileSystem > Ad Hoc Audits > FS\_TrusteePermissions > Configure node and select Analysis.
+View the analysis tasks by navigating to the FileSystem > Ad Hoc Audits > FS_TrusteePermissions > Configure node and select Analysis.
 
 __CAUTION:__ Do not modify or deselect the second selected analysis task. The analysis task is preconfigured for this job.
 
@@ -12,14 +12,14 @@ __CAUTION:__ Do not modify or deselect the second selected analysis task. The an
 
 The following analysis tasks are selected by default:
 
-- 1. Find Trustee Information – Creates the SA\_FS\_TrusteePermissions\_TrusteeSummary table accessible under the job’s Results node.
+- 1. Find Trustee Information – Creates the SA_FS_TrusteePermissions_TrusteeSummary table accessible under the job’s Results node.
   - Parameter is blank by default.
   - ```#Trustees``` parameter must be configured using the Edit Table option.
   - List one trustee per row, using the format: DOMAIN\Name.
   - See the Customize Analysis Parameters topic for additional information.
-- 2. Find Permission Source – Creates the SA\_FS\_ShareAudit\_TrusteePermissions table accessible under the job’s Results node.
+- 2. Find Permission Source – Creates the SA_FS_ShareAudit_TrusteePermissions table accessible under the job’s Results node.
 
-In addition to the tables and views created by the analysis tasks, the FS\_TrusteePermissions Job produces the following pre-configured report:
+In addition to the tables and views created by the analysis tasks, the FS_TrusteePermissions Job produces the following pre-configured report:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

@@ -155,7 +155,7 @@ Remember that these exported files are meant for viewing and understanding purpo
   Manage Setting Access Control Rule
   ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/queries/managesettingaccesscontrolrule/index.md)
 
-  Generates the access control rule which gives to a profile the permission to query, create, update and delete settings from the UM\_Settings table.
+  Generates the access control rule which gives to a profile the permission to query, create, update and delete settings from the UM_Settings table.
 - [
   Report Access Control Rules
   ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/queries/reportaccesscontrolrules/index.md)

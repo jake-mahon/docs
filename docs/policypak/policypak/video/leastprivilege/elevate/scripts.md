@@ -8,7 +8,7 @@ Hi. This is Jeremy Moskowitz. In this video, I'm going to show you how you can m
 
 Here's the example. Let's pretend you are the IT administrator here and you've deployed a couple of scripts that you want, but these scripts are a little special. When you double click them as a standard user, you can see "This file is clean from the IT department."
 
-But when they try to run the stuff inside, they can't manage stuff in HKEY\_LOCAL\_MACHINE. They're a standard user, so access is denied. They're not allowed to do these things. It doesn't work. You can see "Access is denied," "Access is denied," "Access is denied." Same thing with the command batch files that are trying to do things like start and stop services. A standard user can't do that.
+But when they try to run the stuff inside, they can't manage stuff in HKEY_LOCAL_MACHINE. They're a standard user, so access is denied. They're not allowed to do these things. It doesn't work. You can see "Access is denied," "Access is denied," "Access is denied." Same thing with the command batch files that are trying to do things like start and stop services. A standard user can't do that.
 
 Well, what if they could? What if you could have the ability to elevate scripts that you want from a certain location? Let's go ahead and do that right now. We're going to do some other demos too, but let's just go ahead and get started here.
 
@@ -22,7 +22,7 @@ You can see both of these files are coming through the server and the share. If 
 
 We'll go to "Command Prompt" here, we'll run GP Update ("```gpupdate```"). We'll give this a second to bake in. Okay, now that that's done, ten seconds ago the script didn't run because it needed admin rights to work but now we've elevated this location. Let's see what happens. "Let's try to modify an HKLM key." "The operation completed successfully." Then if we want to unset the key, we can do that successfully as well.
 
-These operations that we would be using inside HKEY\_LOCAL\_MACHINE work now because this script is elevated. Let's see if we can start and stop services from this second script as well. Yes, sure enough. We're able to stop a particular service and start a particular service, and it works just the way we expect.
+These operations that we would be using inside HKEY_LOCAL_MACHINE work now because this script is elevated. Let's see if we can start and stop services from this second script as well. Yes, sure enough. We're able to stop a particular service and start a particular service, and it works just the way we expect.
 
 I know what you're thinking. What if a user were to take this file and copy it to someplace like the desktop? Does it work here? Well, the script itself runs, but does it actually perform the work? The answer is no. "Access is denied" because, again, we're saying that the location, the path, must be dictated from the server. So that's the first thing.
 

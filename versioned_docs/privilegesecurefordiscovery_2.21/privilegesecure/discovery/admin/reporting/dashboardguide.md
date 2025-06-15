@@ -11,7 +11,7 @@ The queries made to the API are listed here along with which parts of the Dashbo
 
 - __Summary | Total Systems Scanned__ (the total part, after the slash, aka denominator)
 
-- The total number of Computer objects that we have in ldap\_store
+- The total number of Computer objects that we have in ldap_store
 - contrast this number with Summary | Scan Mode Enabled, which is the number of system that we would attempt to scan.
 
 - __Summary | Total Systems Scanned__ (the scanned part, before the slash, aka numerator)

@@ -8,7 +8,7 @@ Additional Reviewers see completed reviews where they were assigned.
 
 ![Open UAR History](/img/product_docs/strongpointfornetsuite/uar/uar_history.webp)
 
-Click on a __Review Name__ to access details about the review, __Q1 2022\_Membership\_Buyer__ in this example. The Review is opened, displaying the __Review__ tab.
+Click on a __Review Name__ to access details about the review, __Q1 2022_Membership_Buyer__ in this example. The Review is opened, displaying the __Review__ tab.
 
 ![UAR History Review tab](/img/product_docs/strongpointfornetsuite/uar/uar_history_review.webp)
 

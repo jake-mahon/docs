@@ -1,10 +1,10 @@
-# FS\_DeleteFiles\_Status Job
+# FS_DeleteFiles_Status Job
 
-The FS\_DeleteFiles\_Status job is designed to report on deleted resources from targeted file servers that were deleted from the FS\_DeleteFiles job. See the [FS\_DeleteFiles Job](/docs/accessanalyzer/enterpriseauditor/solutions/filesystem/cleanup/delete/fs_deletefiles.md) topic for additional information.
+The FS_DeleteFiles_Status job is designed to report on deleted resources from targeted file servers that were deleted from the FS_DeleteFiles job. See the [FS_DeleteFiles Job](/docs/accessanalyzer/enterpriseauditor/solutions/filesystem/cleanup/delete/fs_deletefiles.md) topic for additional information.
 
-## Analysis Tasks for the FS\_DeleteFiles\_Status Job
+## Analysis Tasks for the FS_DeleteFiles_Status Job
 
-Navigate to the __FileSystem__ > __Cleanup__ > __4. Delete__ > __FS\_DeleteFiles\_Status__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __FileSystem__ > __Cleanup__ > __4. Delete__ > __FS_DeleteFiles_Status__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis task is preconfigured for this job.
 
@@ -12,9 +12,9 @@ __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis 
 
 The following analysis task is selected by default:
 
-- Summarize file deletion actions – Creates the SA\_FS\_Delete\_Status\_Summary table accessible under the job’s Results node
+- Summarize file deletion actions – Creates the SA_FS_Delete_Status_Summary table accessible under the job’s Results node
 
-In addition to the tables and views created by the analysis tasks, the FS\_DeleteFiles\_Status job produces the following pre-configured report.
+In addition to the tables and views created by the analysis tasks, the FS_DeleteFiles_Status job produces the following pre-configured report.
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

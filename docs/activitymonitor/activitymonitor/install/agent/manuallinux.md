@@ -6,7 +6,7 @@ __Step 1 –__ Transfer the rpm package to the Linux server.
 
 For example, following is a pscp command:
 
-pscp.exe -P 22 -p -v "C:\Program Files\Netwrix\Activity Monitor\Console\Agents\activity-monitor-agentd-7.0.0-1234.rhel.x86\_64.rpm" root@123.456.789.123:/tmp/
+pscp.exe -P 22 -p -v "C:\Program Files\Netwrix\Activity Monitor\Console\Agents\activity-monitor-agentd-7.0.0-1234.rhel.x86_64.rpm" root@123.456.789.123:/tmp/
 
 ![pscp Command](/img/product_docs/activitymonitor/activitymonitor/install/agent/screen1.webp)
 
@@ -14,7 +14,7 @@ __Step 2 –__ Install the Activity Monitor Linux Agent RPM Package on the Linux
 
 For example, the following command can be used:
 
-sudo yum localinstall activity-monitor-agentd-7.0.0-1234.rhel.x86\_64.rpm
+sudo yum localinstall activity-monitor-agentd-7.0.0-1234.rhel.x86_64.rpm
 
 ![Install Linux Agent RPM Package on the Linux server](/img/product_docs/activitymonitor/activitymonitor/install/agent/screen2.webp)
 

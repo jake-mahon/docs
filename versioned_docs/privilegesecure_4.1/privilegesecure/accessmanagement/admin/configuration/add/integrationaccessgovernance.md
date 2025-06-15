@@ -21,12 +21,12 @@ __Step 4 –__ Select the following Objects:
 
 - Tables:
 
-  - SA\_ADInventory\_Domains
-  - SA\_SG\_LocalAdmins\_Details
+  - SA_ADInventory_Domains
+  - SA_SG_LocalAdmins_Details
 - Views:
 
-  - SA\_ADInventory\_ComputersView
-  - SA ADInventory\_UsersView
+  - SA_ADInventory_ComputersView
+  - SA ADInventory_UsersView
 
   __NOTE:__ Type in the Filter Objects by Name box to filter the list of objects by the characters entered.
 

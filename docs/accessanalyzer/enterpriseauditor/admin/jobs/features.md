@@ -34,7 +34,7 @@ Select __Export__ from the right-click menu to open the Export Group to Zip Arch
 
 ![Export Group to Zip Archive window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/exportgrouptoziparchive.webp)
 
-The __Include all job components__ option will zip the job’s directory, the reports, the job log, and the SA\_Debug log. The __Select specific components to export__ option allows Access Analyzer users to select which components to include in the ZIP file.
+The __Include all job components__ option will zip the job’s directory, the reports, the job log, and the SA_Debug log. The __Select specific components to export__ option allows Access Analyzer users to select which components to include in the ZIP file.
 
 There are two options for where to save the ZIP file:
 

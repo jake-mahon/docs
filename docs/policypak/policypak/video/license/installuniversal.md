@@ -44,7 +44,7 @@ Then it tells you when you're license for, start and expiry date. It tells you t
 
 The second part is what components are you licensed for. You can see if you're an Enterprise customer you get all the things. Now, remember, from time to time we come up with new things. As an Enterprise customer, you get to have those new things. If you're a Professional customer, you have to buy into those new things.
 
-This enterprise customer is not licensed for PolicyPak Software Package Manager. No problem, just open a support ticket https://www.netwrix.com/sign\_in.html?rf=tickets.html#/open-a-ticket, and we'll turn around a new license for you as an enterprise customer. If you're a professional customer and you love this thing, that's not a problem either. You can certainly just buy into it. This is one method, the group policy method.
+This enterprise customer is not licensed for PolicyPak Software Package Manager. No problem, just open a support ticket https://www.netwrix.com/sign_in.html?rf=tickets.html#/open-a-ticket, and we'll turn around a new license for you as an enterprise customer. If you're a professional customer and you love this thing, that's not a problem either. You can certainly just buy into it. This is one method, the group policy method.
 
 The next method is through SCCM, or KACE, or LANDesk, or whatever you use to deploy MSI files. Remember, you've got the license as an MSI. What, you don't have a license as an MSI? That's okay. Again, at the end of this video, I'm going to show you how to take that XML and make it into an MSI. That's fine.
 

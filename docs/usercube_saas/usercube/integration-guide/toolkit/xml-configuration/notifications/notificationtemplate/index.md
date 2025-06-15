@@ -33,6 +33,6 @@ Review Roles - @(@Model.AssignedCompositeRoles.Any() ? @Model.AssignedCompositeR
 
 | Property | Type | Description |
 | --- | --- | --- |
-| BodyTemplate\_L1   optional | String | Path to the Razor cshtml file that defines the email's body template in language 1 (up to 16).  __NOTE:__ The path must be relative to the configuration folder, and the file must be inside it. |
+| BodyTemplate_L1   optional | String | Path to the Razor cshtml file that defines the email's body template in language 1 (up to 16).  __NOTE:__ The path must be relative to the configuration folder, and the file must be inside it. |
 | Identifier   required | String | Identifier of the native notification to adjust, among:   - ```BlockedProvisioningInformations``` - ```OneWayPasswordReset``` - ```PendingAccessCertificationModel``` - ```PerformManualProvisioningSummary``` - ```RolePolicySummary``` - ```RunJobNotification``` - ```TwoWayPasswordReset``` - ```WorkflowReviewProvisioningSummary``` - ```WorkflowReviewRolesSummary``` |
-| SubjectTemplate\_L1   optional | String | Path to the Razor cshtml file that defines the email's subject template in language 1 (up to 16).  __NOTE:__ The path must be relative to the configuration folder, and the file must be inside it. |
+| SubjectTemplate_L1   optional | String | Path to the Razor cshtml file that defines the email's subject template in language 1 (up to 16).  __NOTE:__ The path must be relative to the configuration folder, and the file must be inside it. |

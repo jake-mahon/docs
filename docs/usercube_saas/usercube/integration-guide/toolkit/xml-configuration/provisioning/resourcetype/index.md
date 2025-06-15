@@ -88,7 +88,7 @@ This option is used to configure a property as prerequisite for the resource typ
 
 Consider an Active Directory administrator account which should be able to perform manual provisioning to ServiceNow. Then it requires the random identifier computed by ServiceNow.
 
-In this case, we want to configure the AD\_Entry\_AdministrationUser resource type so that a user cannot own an AD administrator account when they do not have an identifier in ServiceNow.
+In this case, we want to configure the AD_Entry_AdministrationUser resource type so that a user cannot own an AD administrator account when they do not have an identifier in ServiceNow.
 
 __NOTE:__ The DependsOnOwnerProperty of a resource type should only refer to scalar values that are part of the properties of the SourceEntityType.
 
@@ -104,7 +104,7 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 
 This option is used to set Identity Manager as authoritative following a manual change in a managed system.
 
-Suppose a resource type managing the provisioning of Active Directory nominative accounts based on users data in Identity Manager (Directory\_User). Suppose a scalar rule that provisions the AD's sn property based on users' last names.
+Suppose a resource type managing the provisioning of Active Directory nominative accounts based on users data in Identity Manager (Directory_User). Suppose a scalar rule that provisions the AD's sn property based on users' last names.
 
 The following scenario is about a user named Cedric Blanc, whose AD's sn property is set by the scalar rule to Blanc.
 
@@ -189,9 +189,9 @@ Below, we illustrate the different scenarios that are possible, taking into cons
 | CorrelateMultipleResources   default value: false | Boolean | True to extend the QueryRule/CorrelationRule to match as many target resources as possible (no blocking like this is normally the case). |
 | DependsOn   optional | Int64 | Identifier of another resource type that must be provisioned for a given identity before the current resource type can be provisioned for said identity. |
 | DependsOnOwnerProperty   optional | Int64 | Identifier of one of the owner properties that must be filled before the current resource type can be provisioned for said identity. |
-| Description\_L1   optional | String | Describe this resource type in detail. |
+| Description_L1   optional | String | Describe this resource type in detail. |
 | DiscardManualAssignments   default value: false | Boolean | True to always allow the provisioning of a new property value, i.e. re-computed by a provisioning rule after a change in the source data, no matter the property's current workflow state.   Set to false, any manual change of a property's value made directly in the target system will be "protected" (only after the change is approved in Identity Manager in Resource Reconciliation). It means that a future change in the source data will not trigger the provisioning of the new value to the target system. Instead, Identity Manager will keep the value of the manual change, and state the value as __Questioned__.   This option should be set to true when:   \* using multiple authoritative sources and the latest value should be provisioned;   \* a source system is not often synchronized to Identity Manager but should stay the authoritative source. |
-| DisplayName\_L1   required | String | Display name of the resource type in language 1 (up to 16). |
+| DisplayName_L1   required | String | Display name of the resource type in language 1 (up to 16). |
 | FulfillHoursAheadOfTime   default value: 0 | Int32 | Anticipate resource fulfill order hours ahead of they start time. It is helpful for manual fulfillment and/or long fulfillment process. It differs from TimeOffset because the start date of the resource to fulfill is not impacted. |
 | HideOnSimplifiedView   default value: false | Boolean | True to hide this resource type in the basket simplified view. This flag is applied only on automatic assignments. |
 | Identifier   required | String | Unique identifier of the resource type. |
@@ -254,7 +254,7 @@ Compute a Navigation Property
 
 Computation based on other properties
 
-The following example declares a new rule to give the SG\_APP\_SharePoint\_HR\_Owner group to all users who had the SharePoint\_HR\_Owner role.
+The following example declares a new rule to give the SG_APP_SharePoint_HR_Owner group to all users who had the SharePoint_HR_Owner role.
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
@@ -262,7 +262,7 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 <NavigationRule Property="memberOf" Resource="SG_APP_SharePoint_HR_Owner" SingleRole="SharePoint_HR_Owner" Policy="Default" />
 ```
 
-The following rule will set users' Active Directory nominative account in the CN=SG\_APP\_DL-INTERNET-Restricted,OU=Applications,DC=acme,DC=internal group for people having the DL-INTERNET-Restricted role.
+The following rule will set users' Active Directory nominative account in the CN=SG_APP_DL-INTERNET-Restricted,OU=Applications,DC=acme,DC=internal group for people having the DL-INTERNET-Restricted role.
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
@@ -278,7 +278,7 @@ The role catalog can be optimized by reducing the number of roles, by configurin
 
 This optimization will simplify the functional understanding of the role catalog, and speed up Identity Manager's calculations.
 
-Supposing that the 10th dimension (dimension A following the base32hex convention) is created for time slots, the following example creates a single role Access/A\_Brune\_HR for all time slots. Each time-slot-related entitlement will be assigned to users by configuring one navigation rule per entitlement, using the dimension as a required parameter. See the [
+Supposing that the 10th dimension (dimension A following the base32hex convention) is created for time slots, the following example creates a single role Access/A_Brune_HR for all time slots. Each time-slot-related entitlement will be assigned to users by configuring one navigation rule per entitlement, using the dimension as a required parameter. See the [
 Dimension
 ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/metadata/dimension/index.md) and [
 Base32 Parameter Names
@@ -369,7 +369,7 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 </ResourceType>
 ```
 
-The next example computes the firstName property of a App1\_Account from the resource type App1\_Standard\_Account, indicating that it must be equal to the firstName of the source resource.
+The next example computes the firstName property of a App1_Account from the resource type App1_Standard_Account, indicating that it must be equal to the firstName of the source resource.
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
@@ -381,7 +381,7 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 
 Computation via a literal expression
 
-The following example translates to "the userAccountControl property of a App1\_Account of resource type App1\_Standard\_Account must be equal to 66048. It uses a literal expression. See the [Expressions](/docs/usercube_saas/usercube/integration-guide/toolkit/expressions/index.md) topic for additional information.
+The following example translates to "the userAccountControl property of a App1_Account of resource type App1_Standard_Account must be equal to 66048. It uses a literal expression. See the [Expressions](/docs/usercube_saas/usercube/integration-guide/toolkit/expressions/index.md) topic for additional information.
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
@@ -480,7 +480,7 @@ __NOTE:__ The specification of several resource type rules for one resource type
 
 With a dimension criterion
 
-The following rule will assign an App1\_Standard\_Account resource (resource of type App1\_Account) to any User whose organization dimension (dimension binded to column 0) identifier is Marketing.
+The following rule will assign an App1_Standard_Account resource (resource of type App1_Account) to any User whose organization dimension (dimension binded to column 0) identifier is Marketing.
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
@@ -495,7 +495,7 @@ With a single role criterion
 
 In addition to dimensions, a single role can be used as a criterion for a rule.
 
-The following rule will assign an App1\_Standard\_Account resource to all User whose organization dimension identifier is Marketing and having the single role Multimedia\_Designer.
+The following rule will assign an App1_Standard_Account resource to all User whose organization dimension identifier is Marketing and having the single role Multimedia_Designer.
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
@@ -510,7 +510,7 @@ Without any criterion
 
 Di and SingleRole conditions are not mandatory. A type rule with no condition entails the creation of an AssignedResourceType, and hence of a target resource (from the target entity type), for every source resource (from the source entity type). See the AssignedResourceType topic for additional information.
 
-The following example declares a new rule to give the resource type "AD\_Entry\_NominativeUser" to all users.
+The following example declares a new rule to give the resource type "AD_Entry_NominativeUser" to all users.
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 

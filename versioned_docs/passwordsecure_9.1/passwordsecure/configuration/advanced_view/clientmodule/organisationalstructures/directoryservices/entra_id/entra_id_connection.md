@@ -100,7 +100,7 @@ To enable the Azure login for your users, a few more steps are required:
 
 | Client | URI |
 | --- | --- |
-| Web Application | ```https://```Web Application\_URL```/authentication/login-via-oidc``` |
+| Web Application | ```https://```Web Application_URL```/authentication/login-via-oidc``` |
 | Advanced view & Autofill | ```https://login.microsoftonline.com/common/oauth2/nativeclient``` |
 | Google Chrome Extension | ```https://bpjfchmapbmjeklgmlkabfepflgfckip.chromiumapp.org``` |
 | Microsoft Edge Extension | ```https://ahdfobpkkckhdhbmnpjehdkepaddfhek.chromiumapp.org``` |
@@ -136,4 +136,4 @@ Finally, the API permissions for the Azure API have to be set, so the login to c
 2. Select "Microsoft Graph" and then "Delegated permissions"
 3. Set the checkboxes for "openid" and "profile" just under "OpenId permissions"
 4. Click on "Add permissions"
-5. Click on "Grant admin consent for YOUR\_AD\_NAME"
+5. Click on "Grant admin consent for YOUR_AD_NAME"

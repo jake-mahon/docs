@@ -1,10 +1,10 @@
-# FS\_AIPLabels Job
+# FS_AIPLabels Job
 
-The FS\_AIPLabels job is designed to report on resources classified by AIP labels from targeted file servers.
+The FS_AIPLabels job is designed to report on resources classified by AIP labels from targeted file servers.
 
-## Analysis Tasks for the FS\_AIPLabels Job
+## Analysis Tasks for the FS_AIPLabels Job
 
-View the analysis tasks by navigating to the __FileSystem__ > __4.Content__ > __Tags__ > __FS\_AIPLabels__ > __Configure__ node and select __Analysis__.
+View the analysis tasks by navigating to the __FileSystem__ > __4.Content__ > __Tags__ > __FS_AIPLabels__ > __Configure__ node and select __Analysis__.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,9 +12,9 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The following analysis task is selected by default:
 
-- AIP Label Details – Creates the SA\_FS\_FileLabel\_Details table accessible under the job’s Results node
+- AIP Label Details – Creates the SA_FS_FileLabel_Details table accessible under the job’s Results node
 
-In addition to the tables and views created by the analysis task, the FS\_AIPLabels job produces the following pre-configured report:
+In addition to the tables and views created by the analysis task, the FS_AIPLabels job produces the following pre-configured report:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

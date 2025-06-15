@@ -78,9 +78,9 @@ For a list of such string methods, see [.NET String Methods](https://msdn.micros
 
 ## Line Continuation
 
-With extensive string manipulation, statement lines frequently become quite long. In order to break a statement into two or more lines, insert a space followed by an underline (”\_”) just prior to each line break.
+With extensive string manipulation, statement lines frequently become quite long. In order to break a statement into two or more lines, insert a space followed by an underline (”_”) just prior to each line break.
 
-NOTE: Be sure to insert the line break characters ("\_") outside of a string literal.
+NOTE: Be sure to insert the line break characters ("_") outside of a string literal.
 
 Example:
 

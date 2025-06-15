@@ -12,7 +12,7 @@ First, to download the preconfigured XMLs, log onto the PolicyPak Portal, and cl
 
 Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/preconfigured_xmls.webp)
 
-Once these files are downloaded and unpacked, you’ll see a folder named \_PolicyPak Least Privilege Manager XMLs.
+Once these files are downloaded and unpacked, you’ll see a folder named _PolicyPak Least Privilege Manager XMLs.
 
 ![A screenshot of a computer
 

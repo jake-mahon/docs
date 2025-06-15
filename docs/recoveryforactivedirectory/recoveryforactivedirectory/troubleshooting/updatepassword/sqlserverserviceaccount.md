@@ -2,7 +2,7 @@
 
 Follow the steps to update the password for the SQL Server service account.
 
-__Step 1 –__ To launch the Recovery Configuration Utility, double-click the Recovery\_Config.exe executable at the following location in the Recovery for Active Directory installation directory: ```...Netwrix\Recovery for Active Directory\Recovery_Config.exe```
+__Step 1 –__ To launch the Recovery Configuration Utility, double-click the Recovery_Config.exe executable at the following location in the Recovery for Active Directory installation directory: ```...Netwrix\Recovery for Active Directory\Recovery_Config.exe```
 
 ![  Recovery Configuration Utility](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/install/configurationutility.webp)
 

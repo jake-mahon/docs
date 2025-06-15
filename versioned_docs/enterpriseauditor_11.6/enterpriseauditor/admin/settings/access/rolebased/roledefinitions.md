@@ -153,7 +153,7 @@ This table describes the roles that will be created within the SQL Server databa
 
 | Database Role(s) | Enterprise Auditor Role | Rights | Role Description |
 | --- | --- | --- | --- |
-| SMP Administrator  db\_datareader  db\_datawriter | Administrator  Job Initiator  Job Initiator (No Actions) | On the dbo schema: ALTER, EXECUTE, INSERT, UPDATE, REFERENCES  On the Enterprise Auditor database: CREATE TABLE, CREATE VIEW, CREATE PROCEDURE, CREATE FUNCTION, CREATE TYPE | This role is used by full Administrators and Job Initiators who must run the 2-FSAA Bulk Import Job which requires manipulation of the Enterprise Auditor database |
+| SMP Administrator  db_datareader  db_datawriter | Administrator  Job Initiator  Job Initiator (No Actions) | On the dbo schema: ALTER, EXECUTE, INSERT, UPDATE, REFERENCES  On the Enterprise Auditor database: CREATE TABLE, CREATE VIEW, CREATE PROCEDURE, CREATE FUNCTION, CREATE TYPE | This role is used by full Administrators and Job Initiators who must run the 2-FSAA Bulk Import Job which requires manipulation of the Enterprise Auditor database |
 | SMP Builder | Job Builder  Host Management Administrator | On the dbo schema: ELECT, INSERT, DELETE  On the Enterprise Auditor database: CREATE TABLE | This role is used by the Job Builder who must be able to create/delete tables, view data, and insert and delete hosts from the Enterprise Auditor Console |
 | SMP Viewer | Job Viewer  Access Administrator  Job Approver  All other roles | On the dbo schema: SELECT | This role is used by all roles who do not require anything more than just reading data and information from the database |
 

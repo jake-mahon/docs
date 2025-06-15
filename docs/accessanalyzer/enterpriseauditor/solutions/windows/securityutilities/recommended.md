@@ -7,7 +7,7 @@ The RemoteOpenPort job must be must be successfully run prior to running the Ret
 Targeted Hosts
 
 - OpenPortScan Job Group – There is no assigned host list for this job group. Configure a host list with any desired systems to be audited prior to running this job group. Both jobs in the OpenPortScan job group need to be assigned the same target host list.
-- SG\_PowerShellCommands – All Windows Servers (No DCs)
+- SG_PowerShellCommands – All Windows Servers (No DCs)
 
 Schedule Frequency
 
@@ -15,7 +15,7 @@ This job group can be scheduled to run as desired.
 
 History Retention
 
-- SG\_PowerShellCommands job – History is required and is turned on by default
+- SG_PowerShellCommands job – History is required and is turned on by default
 
 Workflow
 

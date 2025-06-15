@@ -1,6 +1,6 @@
 # BulkResourceReconciliationAccessControlRules
 
-The following example assigns to the Administrator profile the rights to reconcile simultaneously several resources from the Directory\_User entity type.
+The following example assigns to the Administrator profile the rights to reconcile simultaneously several resources from the Directory_User entity type.
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 

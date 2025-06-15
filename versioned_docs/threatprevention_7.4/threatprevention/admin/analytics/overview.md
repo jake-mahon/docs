@@ -41,5 +41,5 @@ Directly under the Analytics node are the individual analytics nodes for accessi
 - [Impersonation Logins Analytic Type](/versioned_docs/threatprevention_7.4/threatprevention/admin/analytics/impersonationlogins.md) – Reports on multiple authenticated accounts from a single system within a specified time frame
 - [Golden Ticket Analytic Type](/versioned_docs/threatprevention_7.4/threatprevention/admin/analytics/goldenticket.md) – Reports on Kerberos tickets that exceed the specified maximum lifetimes for a user ticket or maximum lifetimes for a user ticket renewal
 - [File System Attacks (by User) Analytic Type](/versioned_docs/threatprevention_7.4/threatprevention/admin/analytics/filesystemattacksuser.md) – Reports on significant number of file changes made by an account in a short time period
-- [Kerberos Weak Encryption Analytic Type](/versioned_docs/threatprevention_7.4/threatprevention/admin/analytics/kerberosweakencryption.md) – Reports on Kerberos tickets with RC4\_HMAC\_MD5 encryption
+- [Kerberos Weak Encryption Analytic Type](/versioned_docs/threatprevention_7.4/threatprevention/admin/analytics/kerberosweakencryption.md) – Reports on Kerberos tickets with RC4_HMAC_MD5 encryption
 - [Forged PAC Analytic Type](/versioned_docs/threatprevention_7.4/threatprevention/admin/analytics/forgedpac.md) – Reports on Kerberos tickets with modified PAC

@@ -73,7 +73,7 @@ Password Reset locates and queries a domain controller in the user's domain when
 Users are more likely to see the Password Policy Enforcer Generic Rejection message rather than the more detailed Rejection message when this registry value is set. Users may also have the wrong policy, or no policy enforced if the queried server is not a domain controller in the user's domain.  
 Queries to the Password Policy Server are sent to UDP port 1333 by default. You may need to create firewall rules to open this port. See the [Creating Firewall Rules for the PPC](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/password_policy_client.md#creating-firewall-rules-for-the-ppc) topic for more information.
 
-__NOTE:__ Password Policy Enforcer is not included with Password Reset. Go to [www.netwrix.com/password\_policy\_enforcer](https://www.netwrix.com/password_policy_enforcer.html) to learn more about Password Policy Enforcer.
+__NOTE:__ Password Policy Enforcer is not included with Password Reset. Go to [www.netwrix.com/password_policy_enforcer](https://www.netwrix.com/password_policy_enforcer.html) to learn more about Password Policy Enforcer.
 
 ## Enroll Tab
 
@@ -145,12 +145,12 @@ Type the recipient's e-mail address in the __To__ text box. The correct format i
 
 | Macro | Replace with |
 | --- | --- |
-| [AD\_EMAIL] | The e-mail address in Active Directory |
-| [APR\_EMAIL] | The e-mail address in Password Reset's database |
-| [AD\_OR\_APR\_EMAIL] | The e-mail address in AD, or the e-mail address in Password Resetif the AD address is blank |
-| [APR\_OR\_AD\_EMAIL] | The e-mail address in APR, or the e-mail address in AD if the Password Reset address is blank |
+| [AD_EMAIL] | The e-mail address in Active Directory |
+| [APR_EMAIL] | The e-mail address in Password Reset's database |
+| [AD_OR_APR_EMAIL] | The e-mail address in AD, or the e-mail address in Password Resetif the AD address is blank |
+| [APR_OR_AD_EMAIL] | The e-mail address in APR, or the e-mail address in AD if the Password Reset address is blank |
 
-__NOTE:__ Use [APR\_OR\_AD\_EMAIL] with caution as Password Reset does not check the validity of e-mail addresses. If the e-mail address in Password Reset's database is no longer valid, then the alert is only sent to the invalid address.
+__NOTE:__ Use [APR_OR_AD_EMAIL] with caution as Password Reset does not check the validity of e-mail addresses. If the e-mail address in Password Reset's database is no longer valid, then the alert is only sent to the invalid address.
 
 Type additional recipient e-mail addresses in the __Bcc__ text box if you want to send any blind carbon copies. Separate multiple recipients with a semicolon.
 
@@ -160,8 +160,8 @@ Type the e-mail's body in the large text box. The e-mail is sent as plain text u
 
 | Macro | Replaced with |
 | --- | --- |
-| [AD\_DOMAIN] | The user's Active Directory domain name |
-| [AD\_USER] | The user's Active Directory logon name |
+| [AD_DOMAIN] | The user's Active Directory domain name |
+| [AD_USER] | The user's Active Directory logon name |
 
 Password Reset stores the user's preferred language every time they successfully complete an Enroll, Reset, Unlock, or Change. E-mail alerts are sent in the user's preferred language, or in the current Web Interface language if the user's preferred language is not known. If an e-mail template is not defined for the user's preferred language, then the alert is sent in English.
 

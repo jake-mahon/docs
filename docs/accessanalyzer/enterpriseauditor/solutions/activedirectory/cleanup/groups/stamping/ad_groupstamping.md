@@ -1,10 +1,10 @@
-# AD\_GroupStamping Job
+# AD_GroupStamping Job
 
-The AD\_GroupStamping Job updates the Notes attribute for all security groups to show where the group is provisioned inside the environment. This overwrites the notes field with data from Access Analyzer.
+The AD_GroupStamping Job updates the Notes attribute for all security groups to show where the group is provisioned inside the environment. This overwrites the notes field with data from Access Analyzer.
 
-## Analysis Tasks for the AD\_GroupStamping Job
+## Analysis Tasks for the AD_GroupStamping Job
 
-Navigate to the __Active Directory__ > __Cleanup__ > __1.Groups__ > __2. Group Stamping AD\_GroupStamping__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Active Directory__ > __Cleanup__ > __1.Groups__ > __2. Group Stamping AD_GroupStamping__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,18 +12,18 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The default analysis tasks are:
 
-- Identify Stale Groups – Creates the AD\_DeprovisionGroups\_Details table accessible under the job’s Results node
+- Identify Stale Groups – Creates the AD_DeprovisionGroups_Details table accessible under the job’s Results node
 - Groups to Delete – Identifies groups in the Stale Groups OU ready to be deleted
 
-In addition to the tables and views created by the analysis tasks, the AD\_GroupStamping Job produces the following pre-configured reports.
+In addition to the tables and views created by the analysis tasks, the AD_GroupStamping Job produces the following pre-configured reports.
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |
 | Group Stamping | This report tracks all actions taken with the included group stamping workflow. | None | This report is comprised of three elements:   - Line Chart – Displays daily actions - Table – Provides details on daily actions - Table – Provides action details |
 
-## Action Tasks for the AD\_GroupStamping Job
+## Action Tasks for the AD_GroupStamping Job
 
-View the action tasks by navigating to the __Active Directory__ > __Cleanup__ >  __1.Groups__ > __2. Group Stamping AD\_GroupStamping__ > __Configure__ node and select __Actions__.
+View the action tasks by navigating to the __Active Directory__ > __Cleanup__ >  __1.Groups__ > __2. Group Stamping AD_GroupStamping__ > __Configure__ node and select __Actions__.
 
 ![Action Tasks for the AD_GroupStamping Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/cleanup/groups/stamping/groupstampingaction.webp)
 

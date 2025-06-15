@@ -16,8 +16,8 @@ The source version file system is required for the following:
 - In the source version, you specified a list of attributes to replicate for an identity store. These attributes are saved to a file on the file system.  
   To upgrade on a different box, the file containing the selected attributes for each identity store must be present on the Directory Manager 11 server. If the wizard does not find it, Directory Manager 11 will display the default attributes for identity store replication (rather than your selected attributes).
 
-  File name: `<name of the domain the identity store is created on>`\_`<identity store ID>`.xml  
-  Example: techinfo.local\_4.xml, techinfo.onmicrosoft.com\_6.xml  
+  File name: `<name of the domain the identity store is created on>`_`<identity store ID>`.xml  
+  Example: techinfo.local_4.xml, techinfo.onmicrosoft.com_6.xml  
   A separate file exists for each identity store.
 
   File Path on the Directory Manager 11 server: ```C:\Program Files\Imanami\GroupID `<source version>`\Replication\IdentityStoresReplicationAttributes\```
@@ -46,11 +46,11 @@ Step 6 – An identity store created for G Suite will not be upgraded.
 Step 7 – In case of upgrade on a different box, the DC Priority settings for an Active Directory domain are not upgraded to Directory Manager version 11.0.23315.04.
 
 Step 8 – In the source version, the debug logs for upgrade were created in a temporary folder for the logged-on user, that could be accessed using the %TEMP% environment variable.  
-File name: ~GroupID10\_Upgrade
+File name: ~GroupID10_Upgrade
 
 In Directory Manager 11, these debug logs will be created at the following location on the Directory Manager 11 server:  
 ```C:\ProgramData\Imanami\GroupID 11.0\Upgrade Tool\```  
-File name: GroupID11\_Upgrade.log
+File name: GroupID11_Upgrade.log
 
 Step 9 – In the source version, Replication service logs were captured under the _debug_ mode, with no user interface to change this setting. On upgrade to Directory Manager 11, the file logging and Windows logging mode is set to default, i.e., ‘Error’. After upgrade, it is recommended that you go to Replication service settings and change file logging to the ‘Debug’ mode (if required). See the [Specify Log Settings for a Service](/docs/groupid/groupid/admincenter/service/dataservice/manage.md#specify-log-settings-for-a-service) topic.
 

@@ -2,10 +2,10 @@
 
 | Method | Endpoint | POST Data | Description |
 | --- | --- | --- | --- |
-| GET | /netwrix/api/v1/activity\_records/enum | — | Returns Activity Records.  [Retrieve Activity Records](/docs/auditor/auditor/api/retrieveactivityrecords.md) |
-| POST | /netwrix/api/v1/activity\_records/enum | [Continuation Mark](/docs/auditor/auditor/api/postdata/continuationmark.md) | Returns next 1,000 Activity Records.  [Continuation Mark](/docs/auditor/auditor/api/postdata/continuationmark.md) |
-| POST | /netwrix/api/v1/activity\_records/search | [Search Parameters](/docs/auditor/auditor/api/postdata/searchparameters.md) | Returns Activity Records matching a criteria defined in search parameters.  [Search Activity Records](/docs/auditor/auditor/api/searchactivityrecords.md) |
-| POST | /netwrix/api/v1/activity\_records/ | [Activity Records](/docs/auditor/auditor/api/postdata/activityrecords.md) | Writes data to the Audit Database.  [Write Activity Records](/docs/auditor/auditor/api/writeactivityrecords.md) |
+| GET | /netwrix/api/v1/activity_records/enum | — | Returns Activity Records.  [Retrieve Activity Records](/docs/auditor/auditor/api/retrieveactivityrecords.md) |
+| POST | /netwrix/api/v1/activity_records/enum | [Continuation Mark](/docs/auditor/auditor/api/postdata/continuationmark.md) | Returns next 1,000 Activity Records.  [Continuation Mark](/docs/auditor/auditor/api/postdata/continuationmark.md) |
+| POST | /netwrix/api/v1/activity_records/search | [Search Parameters](/docs/auditor/auditor/api/postdata/searchparameters.md) | Returns Activity Records matching a criteria defined in search parameters.  [Search Activity Records](/docs/auditor/auditor/api/searchactivityrecords.md) |
+| POST | /netwrix/api/v1/activity_records/ | [Activity Records](/docs/auditor/auditor/api/postdata/activityrecords.md) | Writes data to the Audit Database.  [Write Activity Records](/docs/auditor/auditor/api/writeactivityrecords.md) |
 
 ### Authentication
 

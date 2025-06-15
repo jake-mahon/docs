@@ -19,7 +19,7 @@ In Auditor client, go to the Integrations section and verify Integration API set
 
 See the [Prerequisites](/docs/auditor/auditor/api/prerequisites.md) topic for additional information.
 
-By default, activity records are written to _Netwrix\_Auditor\_API_ database which is not associated with a specific monitoring plan.
+By default, activity records are written to _Netwrix_Auditor_API_ database which is not associated with a specific monitoring plan.
 
 Optionally, you can create a dedicated monitoring plan in Auditor. In this case, data will be written to a database linked to this plan. Target it at Netwrix API data source and enable for monitoring. Add a dedicated item of _Integration_ type to the plan for data to be filtered by item name. See the [Integration API](/docs/auditor/auditor/api/overview.md) topic for additional information.
 
@@ -27,7 +27,7 @@ In such scenario, you will need to specify this monitoring plan in the _NetwrixA
 
 ## Download the Add-On
 
-1. Download the distribution package __Netwrix\_Auditor\_Add-on\_for\_Microsoft\_SCVMM.zip__.
+1. Download the distribution package __Netwrix_Auditor_Add-on_for_Microsoft_SCVMM.zip__.
 2. Unpack it to a folder on the computer where you plan to deploy the add-on.
 
 ## Configure Parameters for Data Collection

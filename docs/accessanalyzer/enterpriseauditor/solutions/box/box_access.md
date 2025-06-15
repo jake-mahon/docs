@@ -1,10 +1,10 @@
-# Box\_Access Job
+# Box_Access Job
 
-The Box\_Access Job analyzes access granted to users and groups in an organization's Box environment in order to report on effective access rights, file-level permissions, and inactive access rights that can be revoked.
+The Box_Access Job analyzes access granted to users and groups in an organization's Box environment in order to report on effective access rights, file-level permissions, and inactive access rights that can be revoked.
 
-## Analysis Tasks for the Box\_Access Job
+## Analysis Tasks for the Box_Access Job
 
-Navigate to __Box__ > __Box\_Access__ > __Configure__ node and select __Analysis__ to view analysis tasks.
+Navigate to __Box__ > __Box_Access__ > __Configure__ node and select __Analysis__ to view analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,11 +12,11 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The following analysis tasks are selected by default:
 
-- Calculate Access Details – Creates the Box\_Access\_Details table accessible under the job’s Results node
+- Calculate Access Details – Creates the Box_Access_Details table accessible under the job’s Results node
 - Summarize Access by User – Creates an interim processing table in the database for use by downstream analysis and report generation
 - Summarize Access by Group – Creates an interim processing table in the database for use by downstream analysis and report generation
 
-In addition to the tables and views created by the analysis tasks, the Box\_Access Job produces the following pre-configured reports.
+In addition to the tables and views created by the analysis tasks, the Box_Access Job produces the following pre-configured reports.
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

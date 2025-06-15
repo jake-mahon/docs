@@ -70,8 +70,8 @@ __Step 2 –__ Enter the search command:
 
 | datamodel Change search
 
-| search sourcetype=netwrix All\_Changes.action=”deleted”
+| search sourcetype=netwrix All_Changes.action=”deleted”
 
-| table All\_Changes.vendor\_product All\_Changes.action All\_Changes.src All\_Changes.dest All\_Changes.user All\_Changes.object All\_Changes.object\_attrs
+| table All_Changes.vendor_product All_Changes.action All_Changes.src All_Changes.dest All_Changes.user All_Changes.object All_Changes.object_attrs
 
 __Step 3 –__ Press the Last 24 hours button and choose All time time range.

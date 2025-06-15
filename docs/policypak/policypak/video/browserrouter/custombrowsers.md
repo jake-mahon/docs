@@ -2,7 +2,7 @@
 
 If you have App-V, ThinApp, or Citrix or RDS published applications, use this trick to route from a real built-in browser to your virtual / published browser.
 
-### Endpoint Policy Manager \_ Browser Router with Custom Browsers
+### Endpoint Policy Manager _ Browser Router with Custom Browsers
 
 Hi. In this video I'm going to show you how you can use custom browser router routes to ensure that the right browser opens for the right time. So, the scenario might be a user might be using the built-in version of; say; Internet Explorer and they go to a website like PolicyPak.com. You always want this to fire off, not here in the built-in browser but either in an Appv4 or 5 browsers or a thin app browser or a Citrix browser. For instance, this browser is hanging out over there on the Citrix server, so it's connecting to my Citrix server over here. It's real easy to do this. We'll just create a custom route. There's really only one thing you need to know, which is how to launch from the command line and once you know that you can create a custom browser router route so I'll just wait for this to finish here.
 

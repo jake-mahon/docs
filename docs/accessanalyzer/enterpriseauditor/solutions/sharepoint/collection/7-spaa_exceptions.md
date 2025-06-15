@@ -1,4 +1,4 @@
-# 7-SPAA\_Exceptions Job
+# 7-SPAA_Exceptions Job
 
 This job searches scanned data for resources that match high risk conditions and retrieving a summary of SharePoint exceptions per host.
 
@@ -6,17 +6,17 @@ This job searches scanned data for resources that match high risk conditions and
 
 The Configuration section on a Job's overview page allows you to easily modify any customizable parameters used by analysis tasks in the job. See the [Parameter Configuration](/docs/accessanalyzer/enterpriseauditor/admin/jobs/job/overview.md#parameter-configuration) topic for instructions on how to edit parameters on a job overview page.
 
-The 7-SPAA\_Exceptions page has the following configurable parameters:
+The 7-SPAA_Exceptions page has the following configurable parameters:
 
 - #opengroups – High-risk groups such as those known to be sensitive or open can be added
 
-  __NOTE:__ Groups must be entered exactly as they are listed in SA\_SPAA\_Trustees. Copy and paste the Group name as it appears in the Name Column.
+  __NOTE:__ Groups must be entered exactly as they are listed in SA_SPAA_Trustees. Copy and paste the Group name as it appears in the Name Column.
 
-See the [Customizable Analysis Tasks for the 7-SPAA\_Exceptions Job](#customizable-analysis-tasks-for-the-7-spaa_exceptions-job) for additional information.
+See the [Customizable Analysis Tasks for the 7-SPAA_Exceptions Job](#customizable-analysis-tasks-for-the-7-spaa_exceptions-job) for additional information.
 
-## Analysis Tasks 7-SPAA\_Exceptions Job
+## Analysis Tasks 7-SPAA_Exceptions Job
 
-The 3-SPAA\_Exceptions Job does not use the SPAA Data Collector. Instead it runs analysis on the data returned by the 2-SPAA\_BulkImport Job. View the analysis tasks by navigating to the __Jobs__ > __SharePoint__ > __0.Collection__ > __3-SPAA\_Exceptions__ > __Configure__ node and select __Analysis__.
+The 3-SPAA_Exceptions Job does not use the SPAA Data Collector. Instead it runs analysis on the data returned by the 2-SPAA_BulkImport Job. View the analysis tasks by navigating to the __Jobs__ > __SharePoint__ > __0.Collection__ > __3-SPAA_Exceptions__ > __Configure__ node and select __Analysis__.
 
 __CAUTION:__ The analysis tasks are preconfigured for this job. Never modify or deselect the selected analysis tasks.
 
@@ -32,12 +32,12 @@ The default analysis tasks are:
 - Unresolved SID – Matches SIDs to .Active Directory Inventory Job Group data to resolve for those users using legacy SIDS or deleted users.
 - Show view – Displays views within the Results node of the Access Analyzer Console.
 
-### Customizable Analysis Tasks for the 7-SPAA\_Exceptions Job
+### Customizable Analysis Tasks for the 7-SPAA_Exceptions Job
 
 The default values for customizable parameters are:
 
 | Analysis Task | Customizable Parameter Name | Default Value | Instruction |
 | --- | --- | --- | --- |
-| Open resources | #opengroups | Empty | Groups must be entered exactly as they are listed in SA\_SPAA\_Trustees. Copy and paste the Group name as it appears in the Name Column. |
+| Open resources | #opengroups | Empty | Groups must be entered exactly as they are listed in SA_SPAA_Trustees. Copy and paste the Group name as it appears in the Name Column. |
 
 See the [Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/analysiscustomizableparameters.md) for additional information.

@@ -21,20 +21,20 @@ __NOTE:__ For the "examples" provide the key fields/data have been show and all 
 ## Slow JITA access
 
 index="remediant" "queue.request.activity\{\}.message"="Successfully added user:\*"  
-| eval start\_time = strptime(tostring('queue.request.created') , "%Y-%m-%dT%H:%M:%S.%6N")  
-| eval completed\_time = strptime(tostring('queue.processed') , "%Y-%m-%dT%H:%M:%S.%6N")  
-| eval diff = completed\_time - start\_time  
-| eval accessDate = strftime(start\_time, "%Y-%m-%d")  
-| sort \_time  
+| eval start_time = strptime(tostring('queue.request.created') , "%Y-%m-%dT%H:%M:%S.%6N")  
+| eval completed_time = strptime(tostring('queue.processed') , "%Y-%m-%dT%H:%M:%S.%6N")  
+| eval diff = completed_time - start_time  
+| eval accessDate = strftime(start_time, "%Y-%m-%d")  
+| sort _time  
 | table accessDate, queue.request.type, queue.request.created, diff message queue.request.activity\{\}.message
 
 ## Time it takes for JITA access
 
 index="remediant" "request.request.type"=access "request.request.activity.message"="Successfully added user\*"  
-| eval start\_time = strptime(tostring('request.request.created') , "%Y-%m-%dT%H:%M:%S.%6N")   
-| eval completed\_time = strptime(tostring('request.processed') , "%Y-%m-%dT%H:%M:%S.%6N")   
-| eval diff = completed\_time - start\_time   
-| eval accessDate = strftime(start\_time, "%Y-%m-%d")   
+| eval start_time = strptime(tostring('request.request.created') , "%Y-%m-%dT%H:%M:%S.%6N")   
+| eval completed_time = strptime(tostring('request.processed') , "%Y-%m-%dT%H:%M:%S.%6N")   
+| eval diff = completed_time - start_time   
+| eval accessDate = strftime(start_time, "%Y-%m-%d")   
 | table accessDate, request.request.type, request.request.created, diff   
 | chart avg(diff) as average by accessDate  
 | eval average = round(average,2)
@@ -42,31 +42,31 @@ index="remediant" "request.request.type"=access "request.request.activity.messag
 ## HOURLY (similar to above)
 
 index="remediant" "request.request.type"=access "request.request.activity.message"="Successfully added user\*"  
-| eval start\_time = strptime(tostring('request.request.created') , "%Y-%m-%dT%H:%M:%S.%6N")  
-| eval completed\_time = strptime(tostring('request.processed') , "%Y-%m-%dT%H:%M:%S.%6N")  
-| eval diff = completed\_time - start\_time  
-| eval accessDate = strftime(start\_time, "%Y-%m-%d")  
+| eval start_time = strptime(tostring('request.request.created') , "%Y-%m-%dT%H:%M:%S.%6N")  
+| eval completed_time = strptime(tostring('request.processed') , "%Y-%m-%dT%H:%M:%S.%6N")  
+| eval diff = completed_time - start_time  
+| eval accessDate = strftime(start_time, "%Y-%m-%d")  
 | table accessDate, request.request.type, request.request.created, diff
 
 ## CHANGE SYSTEM POLICY
 
 - policy.scan — boolean, whether the system should be scanned
-  - index="remediant\_stg" "message" "Updated policy for system"| spath "policy.scan" | search "policy.scan"=true
-  - index="remediant\_stg" "message" "Updated policy for system"| spath "policy.scan" | search "policy.scan"=false
+  - index="remediant_stg" "message" "Updated policy for system"| spath "policy.scan" | search "policy.scan"=true
+  - index="remediant_stg" "message" "Updated policy for system"| spath "policy.scan" | search "policy.scan"=false
 
 - When Scan Mode is set to “Enabled” / “true”
 - When Scan Mode is set to “Disabled” / false
 
 - policy.secure — boolean, whether the system is in protect-mode
-  - index="remediant\_stg" "message" "Updated policy for system"| spath "policy.secure" | search "policy.secure"=true
-  - index="remediant\_stg" "message" "Updated policy for system"| spath "policy.secure" | search "policy.secure"=true
+  - index="remediant_stg" "message" "Updated policy for system"| spath "policy.secure" | search "policy.secure"=true
+  - index="remediant_stg" "message" "Updated policy for system"| spath "policy.secure" | search "policy.secure"=true
 
 - When Protect Mode is “Enabled” / True:
 - When Protect Mode is “Disabled” / false:
 
-- policy.strict\_secure — boolean, if the system is in protect-mode, is true if SecureONE should exclude any newly discovered admins from the system inventory, false if the admin should be added to the inventory
+- policy.strict_secure — boolean, if the system is in protect-mode, is true if SecureONE should exclude any newly discovered admins from the system inventory, false if the admin should be added to the inventory
   - ```index="remediant_stg" "message":"Updated policy for system"| spath "policy.strict_secure" | search "policy.strict_secure"=true```
-  - index="remediant\_stg" "message" "Updated policy for system"| spath "policy.strict\_secure" | search "policy.strict\_secure"=true
+  - index="remediant_stg" "message" "Updated policy for system"| spath "policy.strict_secure" | search "policy.strict_secure"=true
   - ```index="remediant_stg" "message":"Updated policy for system"| spath "policy.strict_secure" | search "policy.strict_secure"=false```
   - When Protect Mode is set to “New Accounts JITA” (true) and is being excluded:
 
@@ -88,28 +88,28 @@ Base search for changes to system policy = index=```"remediant_stg" "message":"U
 
 - authInfo[].success — boolean;
   - __NOTE__ the syntax for this command shows the results using {} and not [] brackets
-  - index="remediant\_stg" name=api "authInfo\{\}.success"=false
-  - index="remediant\_stg" name=api "authInfo\{\}.success"=true message="Successful authentication by:\*“
+  - index="remediant_stg" name=api "authInfo\{\}.success"=false
+  - index="remediant_stg" name=api "authInfo\{\}.success"=true message="Successful authentication by:\*“
 
 - false — unsuccessful authentication
 - true — successful authentication
 
 - authInfo[].type — string; type of authentication; LDAP or SSO
-  - index="remediant\_stg" name=api "authInfo\{\}.type"=saml\*
-  - index="remediant\_stg" name=api "authInfo\{\}.type"=refreshToken\*
+  - index="remediant_stg" name=api "authInfo\{\}.type"=saml\*
+  - index="remediant_stg" name=api "authInfo\{\}.type"=refreshToken\*
 
 - SAML
 - SSO+2FA
 
-Base search for login activity = index="remediant\_stg"
+Base search for login activity = index="remediant_stg"
 
 ## TOKEN ISSUANCE
 
 Upon successful login, a JWT token is issued and used to authenticate further requests.
 
 - authData.access.role — string, “user” or “admin”, role of the user who’s being issued a token
-  - index="remediant\_stg" name=api "authData.access.role"=user
-  - index="remediant\_stg" name=api "authData.access.role"=admin
+  - index="remediant_stg" name=api "authData.access.role"=user
+  - index="remediant_stg" name=api "authData.access.role"=admin
 
 - Updated as of 11.7.19
 - Updated as of 11.7.19
@@ -117,21 +117,21 @@ Upon successful login, a JWT token is issued and used to authenticate further re
 NOTE: The below queries are set through the “admin” role. This can be updated to “user” by changing ```"authData.access.role"=admin to "authData.access.role"=user```
 
 - authData.issuedAt — UTC timestamp, when this token was issued
-  - index="remediant\_stg" name=api "authData.access.role"=admin "authData.issuedAt"="\*"
+  - index="remediant_stg" name=api "authData.access.role"=admin "authData.issuedAt"="\*"
 
 - Updated:
 
 - authData.iat — UNIX epoch, when this token was issued
 
-- index="remediant\_stg" name=api "authData.access.role"=admin "authData.iat"="\*"
+- index="remediant_stg" name=api "authData.access.role"=admin "authData.iat"="\*"
 
 - authData.expires — UTC timestamp, when this token will expire
 
-- index="remediant\_stg" name=api "authData.access.role"=admin "authData.expires"="\*"
+- index="remediant_stg" name=api "authData.access.role"=admin "authData.expires"="\*"
 
 - authData.exp — UNIX epoch, when this token will expire
 
-- index="remediant\_stg" name=api "authData.access.role"=admin "authData.exp"="\*"
+- index="remediant_stg" name=api "authData.access.role"=admin "authData.exp"="\*"
 
 Log message example:
 
@@ -139,8 +139,8 @@ Log message example:
 11    2019-10-25T15:02:12+00:00    docker.s1_api.1.kmqbf6iejjt8g4p6r0mt6xfw8    \{"source":"stdout","log":"\{\"name\":\"api\",\"hostname\":\"642e0dc7b14f\",\"pid\":74,\"req_id\":\"6c96eb50-f738-11e9-8b07-8f26a349cfdf\",\"level\":30,\"action\":\"create\",\"authData\":\{\"distinguishedName\":\"CN=Craig Harper,CN=Users,DC=rtest,DC=com\",\"domain_netbios\":\"RTEST\",\"objectSid\":\"S-1-5-21-1366766991-2637077591-3940904154-210953\",\"sAMAccountName\":\"charper2\",\"access\":\{\"date_added\":\"2019-08-18T23:47:28.288Z\",\"role\":\"admin\",\"ga_enabled\":true\},\"id\":\"5d56e36b85e2c7db0e589b02\",\"type\":\"access\",\"iat\":1572015732,\"exp\":1572044532,\"jti\":\"5addf00d-38b6-4ba5-b806-872299ddb7dc\",\"expires\":\"2019-10-25T23:02:12.000Z\",\"issuedAt\":\"2019-10-25T15:02:12.000Z\"\},\"tokenType\":\"access\",\"type\":\"token\",\"message\":\"token create\",\"access\":\{\"type\":\"other\",\"_source\":\"cache\",\"user\":\{\"_id\":\"5d56e36b85e2c7db0e589b02\",\"domain_netbios\":\"RTEST\",\"objectSid\":\"S-1-5-21-1366766991-2637077591-3940904154-210953\",\"sAMAccountName\":\"charper2\"\}\},\"client\":\{\"requestIP\":\"::ffff:10.255.0.2\",\"forwardedForIps\":[],\"userAgent\":\{\"browser\":\"Chrome\",\"os\":\"macOS Mojave\",\"platform\":\"Apple Mac\",\"version\":\"77.0.3865.120\"\}\},\"req\":\{\"method\":\"POST\",\"url\":\"/api/v1/login/\",\"headers\":\{\"host\":\"10.30.1.124\",\"connection\":\"keep-alive\",\"content-length\":\"78\",\"accept\":\"application/json, text/plain, */*\",\"origin\":\"https://10.30.1.124\",\"user-agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36\",\"dnt\":\"1\",\"sec-fetch-mode\":\"cors\",\"content-type\":\"application/json\",\"sec-fetch-site\":\"same-origin\",\"referer\":\"https://10.30.1.124/\",\"accept-encoding\":\"gzip, deflate, br\",\"accept-language\":\"en-US,en;q=0.9\",\"x-access-token\":null,\"authorization\":null\},\"query\":\{\"page\":1,\"limit\":100\},\"remoteAddress\":\"::ffff:10.255.0.2\",\"remotePort\":51081,\"params\":\{\}\},\"authInfo\":[\{\"username\":\"charper2\",\"domain\":\"rtest\",\"type\":\"username\"\},\{\"user\":\{\"objectSid\":\"\\u0001\\u0005\\u0000\\u0000\\u0000\\u0000\\u0000\\u0005\\u0015\\u0000\\u0000\\u00005wQW.l\\t8\\u0003\\u0000\",\"sAMAccountName\":\"charper2\"\},\"success\":true,\"type\":\"ldap\"\}],\"msg\":\"\",\"time\":\"2019-10-25T15:02:12.501Z\",\"v\":0\}","container_id":"642e0dc7b14fcb23b27ead94f7d6dc5d325ac50497e99e9839cd1eefab36248d","container_name":"/s1_api.1.kmqbf6iejjt8g4p6r0mt6xfw8"\}
 ```
 
-For token creation is index="remediant\_stg" name=api "access.type"=token message="\*"  
-For token expiration, index="remediant\_stg" name=api "access.type"=token message="Expiring request"
+For token creation is index="remediant_stg" name=api "access.type"=token message="\*"  
+For token expiration, index="remediant_stg" name=api "access.type"=token message="Expiring request"
 
 ## JITA ACCESS — GRANTED
 
@@ -150,26 +150,26 @@ When a JITA session is successfully granted, the following log message is emitte
   - The message for this activity can be found with the below query
   - index="remediant" name=api "request.request.activity.message"="Successfully added user: \*“
 
-- index="remediant\_stg" name=api "request.request.start"="\*"
+- index="remediant_stg" name=api "request.request.start"="\*"
 
 - request.request.expires — UTC timestamp, when the JITA access session is set to expire request.request.userInfo — properties describing the user who is granted access
 
-- index="remediant\_stg" name=api "request.request.expires"="\*"| spath "request.request.status" | search "request.request.status"=completed
+- index="remediant_stg" name=api "request.request.expires"="\*"| spath "request.request.status" | search "request.request.status"=completed
 
-- request.requested\_by\_info — properties describing the user who requested the JITA session; should be the same as the request.request.userInfo
-  - index="remediant\_stg" name=api "request.request.activity.message"="Successfully added user:_"| spath "request.requested\_by\_info.sAMAccountName" | search "request.requested\_by\_info.sAMAccountName"=_
+- request.requested_by_info — properties describing the user who requested the JITA session; should be the same as the request.request.userInfo
+  - index="remediant_stg" name=api "request.request.activity.message"="Successfully added user:_"| spath "request.requested_by_info.sAMAccountName" | search "request.requested_by_info.sAMAccountName"=_
 - targetSystem — properties describing the system where the JITA access session was granted
 
-- index="remediant\_stg" name=api "request.request.activity.message"="Successfully added user:_" | spath "request.system.cn"_ _| search "request.system.cn"=_
+- index="remediant_stg" name=api "request.request.activity.message"="Successfully added user:_" | spath "request.system.cn"_ _| search "request.system.cn"=_
 
 Example message log
 
-"log": "\{\"name\":\"api\",\"hostname\":\"f29055b8bc5c\",\"pid\":85,\"req\_id\":\  
+"log": "\{\"name\":\"api\",\"hostname\":\"f29055b8bc5c\",\"pid\":85,\"req_id\":\  
 "7e5be320-f77b-11e9-8cab-45c72e721028\",\"level\":30,\"message\":\"Queue ID Lookup\"  
-,\"request\":\{\"requested\_by\":\"5c192e747d629e76ab4c0baa\",\"requested\_by\_info\  
+,\"request\":\{\"requested_by\":\"5c192e747d629e76ab4c0baa\",\"requested_by_info\  
 ":\{\"distinguishedName\":\"CN=Craig Harper,OU=Remediant,DC=demo,DC=remediant,DC=io\"  
-,\"sAMAccountName\":\"craig\",\"domain\_netbios\":\"DEMO\",\"domain\_fqdn\":\  
-"demo.remediant.io\"\},\"\_\_v\":0,\"processed\":\"2019-10-25T23:02:17.436Z\",\"stale\"  
+,\"sAMAccountName\":\"craig\",\"domain_netbios\":\"DEMO\",\"domain_fqdn\":\  
+"demo.remediant.io\"\},\"__v\":0,\"processed\":\"2019-10-25T23:02:17.436Z\",\"stale\"  
 :false,\"comment\":\"\",\"request\":\{\"user\":\"5c192e747d629e76ab4c0baa\",\  
 "userInfo\":\{\"distinguishedName\":\  
 "CN=Craig Harper,OU=Remediant,DC=demo,DC=remediant,DC=io\"\},\"inProgress\":false,\  
@@ -185,36 +185,36 @@ Example message log
 ## JITA ACCESS — EXPIRE
 
 - request.request.expires — UTC timestamp, when the JITA access session is set to expire; should be “now”
-  - index="remediant\_stg" name=api "request.request.activity.message"="Successfully removed user:\*“
+  - index="remediant_stg" name=api "request.request.activity.message"="Successfully removed user:\*“
 
-- index="remediant\_stg" name=api "request.request.expires"="\*"
+- index="remediant_stg" name=api "request.request.expires"="\*"
 - A direct “message“ for this activity can be found with the below query
 
 - request.request.userInfo — properties describing the user who had been granted the access now set to expire
 
-- index="remediant\_stg" name=api "request.request.userInfo.distinguishedName"="\*"
+- index="remediant_stg" name=api "request.request.userInfo.distinguishedName"="\*"
 
-- request.requested\_by\_info — properties describing the user who requested the JITA session to expire; should be the same as the request.request.userInfo
+- request.requested_by_info — properties describing the user who requested the JITA session to expire; should be the same as the request.request.userInfo
 
-- index="remediant\_stg" name=api "request.requested\_by"=\*
+- index="remediant_stg" name=api "request.requested_by"=\*
 
 - targetSystem — properties describing the system where the JITA access session is set to manually expire
 
-- index="remediant\_stg" name=api "targetSystem.\_id"=\*
+- index="remediant_stg" name=api "targetSystem._id"=\*
 
-## Access Error: STATUS\_ACCESS\_DENIED for a specific OU:
+## Access Error: STATUS_ACCESS_DENIED for a specific OU:
 
 Original Query
 
-index=”remediant" source=s1\_worker\* "queue.system.cn"=\* "queue.request.activity\{\}.message"="Access Error: STATUS\_ACCESS\_DENIED -  
+index=”remediant" source=s1_worker\* "queue.system.cn"=\* "queue.request.activity\{\}.message"="Access Error: STATUS_ACCESS_DENIED -  
 \{Access Denied\} A process has requested access to an object but has not been  
 granted those access rights." | table  
-asctime,queue.request.activity\{\}.message,queue.requested\_by\_info.distinguishe  
-dName, queue.system\_info.distinguishedName  
+asctime,queue.request.activity\{\}.message,queue.requested_by_info.distinguishe  
+dName, queue.system_info.distinguishedName  
 | rename "asctime" as  
-Request\_Timestamp(UTC),"queue.request.activity\{\}.message" as Action\_Taken,  
-"queue.requested\_by\_info.distinguishedName" as member,  
-queue.system\_info.distinguishedName as ComputerDN  
+Request_Timestamp(UTC),"queue.request.activity\{\}.message" as Action_Taken,  
+"queue.requested_by_info.distinguishedName" as member,  
+queue.system_info.distinguishedName as ComputerDN  
 | lookup `<>` distinguishedName as ComputerDN OUTPUT dNSHostName| where  
 ComputerDN LIKE "%,OU=`<>`%"
 
@@ -276,8 +276,8 @@ Example:
 "access": \{  
 "type": "other",  
 "user": \{  
-"\_id": "5e562a67dea345d0a59e74fb",  
-"domain\_netbios": "CSTEST",  
+"_id": "5e562a67dea345d0a59e74fb",  
+"domain_netbios": "CSTEST",  
 "objectSid": "S-1-5-21-4099641008-4128879968-2022382535-1118",  
 "sAMAccountName": "thadmin"
 
@@ -304,7 +304,7 @@ __UI Error____:__ User not found.
 "forwardedForIps": [  
 "authInfo": [  
 \{  
-"username": "bad\_user",  
+"username": "bad_user",  
 "domain": "cstest",  
 "type": "username"  
 }  
@@ -337,8 +337,8 @@ __UI Error____:__ User not found.
 "access": \{  
 "type": "other",  
 "user": \{  
-"\_id": "5e562a67dea345d0a59e74fb",  
-"domain\_netbios": "CSTEST",  
+"_id": "5e562a67dea345d0a59e74fb",  
+"domain_netbios": "CSTEST",  
 "objectSid": "S-1-5-21-4099641008-4128879968-2022382535-1118",  
 "sAMAccountName": "thadmin"  
 }  

@@ -1,20 +1,20 @@
-# AWS\_UnusedManagedPolicies Job
+# AWS_UnusedManagedPolicies Job
 
-The AWS\_UnusedManagedPolicies job provides details on customer managed policies that exist in the AWS Organization. Optionally, AWS managed policies can be included by changing the parameter for the analysis task.
+The AWS_UnusedManagedPolicies job provides details on customer managed policies that exist in the AWS Organization. Optionally, AWS managed policies can be included by changing the parameter for the analysis task.
 
 ## Parameter Configuration
 
 The Configuration section on a Job's overview page allows you to easily modify any customizable parameters used by analysis tasks in the job. See the [Parameter Configuration](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/overview.md#parameter-configuration) topic for instructions on how to edit parameters on a job overview page.
 
-The AWS\_UnusedManagedPolicies job has the following configurable parameter:
+The AWS_UnusedManagedPolicies job has the following configurable parameter:
 
 - True or False value to include policies managed by AWS
 
-See the [Customizable Analysis Tasks for the AWS\_UnusedManagedPolicies Job](#customizable-analysis-tasks-for-the-aws_unusedmanagedpolicies-job) topic for additional information.
+See the [Customizable Analysis Tasks for the AWS_UnusedManagedPolicies Job](#customizable-analysis-tasks-for-the-aws_unusedmanagedpolicies-job) topic for additional information.
 
-## Analysis Tasks for the AWS\_UnusedManagedPolicies Job
+## Analysis Tasks for the AWS_UnusedManagedPolicies Job
 
-Navigate to the __AWS__ > __5.Policies__ > __AWS\_UnusedManagedPolicies__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __AWS__ > __5.Policies__ > __AWS_UnusedManagedPolicies__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not deselect the selected analysis tasks. The analysis tasks are preconfigured for this job. Only modify the analysis tasks listed in the customizable analysis tasks section.
 
@@ -22,12 +22,12 @@ __CAUTION:__ Do not deselect the selected analysis tasks. The analysis tasks are
 
 The following analysis tasks are selected by default:
 
-- Unused Managed Policies – Policies not assigned to any group or user. Creates the AWS\_UnusedPolicies\_Details table accessible under the job’s Results node.
+- Unused Managed Policies – Policies not assigned to any group or user. Creates the AWS_UnusedPolicies_Details table accessible under the job’s Results node.
 
-  - Optionally, AWS managed policies can be included by setting the parameter to True. See the [Customizable Analysis Tasks for the AWS\_UnusedManagedPolicies Job](#customizable-analysis-tasks-for-the-aws_unusedmanagedpolicies-job) topic for additional information.
-- Unused Managed Policy Summary – Summary by AWS Organization of unused managed policies. Creates the AWS\_UnusedPolicies\_Summary table accessible under the job’s Results node.
+  - Optionally, AWS managed policies can be included by setting the parameter to True. See the [Customizable Analysis Tasks for the AWS_UnusedManagedPolicies Job](#customizable-analysis-tasks-for-the-aws_unusedmanagedpolicies-job) topic for additional information.
+- Unused Managed Policy Summary – Summary by AWS Organization of unused managed policies. Creates the AWS_UnusedPolicies_Summary table accessible under the job’s Results node.
 
-### Customizable Analysis Tasks for the AWS\_UnusedManagedPolicies Job
+### Customizable Analysis Tasks for the AWS_UnusedManagedPolicies Job
 
 The default values for parameters that can be customized are:
 
@@ -37,9 +37,9 @@ The default values for parameters that can be customized are:
 
 See the [Configure the Customizable Parameters in an Analysis Task](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/configure/analysiscustomizableparameters.md) topic for instructions on how to modify parameters.
 
-## Report for the AWS\_UnusedManagedPolicies Job
+## Report for the AWS_UnusedManagedPolicies Job
 
-In addition to the tables and views created by the analysis task, the AWS\_UnusedManagedPolicies job produces the following preconfigured report:
+In addition to the tables and views created by the analysis task, the AWS_UnusedManagedPolicies job produces the following preconfigured report:
 
 | Report | Description | Default Tags | Report Element |
 | --- | --- | --- | --- |

@@ -27,6 +27,6 @@ A job can be triggered:
 
 ## Monitoring
 
-Any job execution is logged into the UJ\_JobInstances table.
+Any job execution is logged into the UJ_JobInstances table.
 
 They can be monitored through the UI, via the __Job Execution__ page.

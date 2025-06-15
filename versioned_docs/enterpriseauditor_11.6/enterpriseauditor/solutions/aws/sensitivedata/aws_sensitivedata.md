@@ -1,10 +1,10 @@
-# AWS\_SensitiveData Job
+# AWS_SensitiveData Job
 
-The AWS\_SensitiveData job provides details on AWS S3 buckets and the objects in them which contain sensitive data.
+The AWS_SensitiveData job provides details on AWS S3 buckets and the objects in them which contain sensitive data.
 
-## Analysis Tasks for the AWS\_SensitiveData Job
+## Analysis Tasks for the AWS_SensitiveData Job
 
-Navigate to the __AWS__ > __8.S3 Sensitive Data__ > __AWS\_SensitiveData__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __AWS__ > __8.S3 Sensitive Data__ > __AWS_SensitiveData__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,13 +12,13 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The following analysis tasks are selected by default:
 
-- Sensitive Data Details – Provides detailed information for S3 objects with Sensitive Data. Creates the AWS\_SDD\_Details table accessible under the job’s Results node.
-- Sensitive Data Summary – Summarizes Sensitive Data by AWS Account. Creates the AWS\_SDD\_Summary table accessible under the job’s Results node.
-- Enterprise Summary – Summarizes AWS sensitive data by criteria. Creates the AWS\_SDD\_EnterpriseSummary table accessible under the job’s Results node.
+- Sensitive Data Details – Provides detailed information for S3 objects with Sensitive Data. Creates the AWS_SDD_Details table accessible under the job’s Results node.
+- Sensitive Data Summary – Summarizes Sensitive Data by AWS Account. Creates the AWS_SDD_Summary table accessible under the job’s Results node.
+- Enterprise Summary – Summarizes AWS sensitive data by criteria. Creates the AWS_SDD_EnterpriseSummary table accessible under the job’s Results node.
 
-## Report for the AWS\_Sensitive Data Job
+## Report for the AWS_Sensitive Data Job
 
-In addition to the tables and views created by the analysis task, the AWS\_SensitiveData job produces the following preconfigured reports:
+In addition to the tables and views created by the analysis task, the AWS_SensitiveData job produces the following preconfigured reports:
 
 | Report | Description | Default Tags | Report Element |
 | --- | --- | --- | --- |

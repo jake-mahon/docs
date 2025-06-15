@@ -28,7 +28,7 @@ There are two ways to determine which product and command line are triggering th
 
 ## Using Endpoint Policy Manager Operational Logs to Find and Overcome Unwanted Pop-ups
 
-The first way to see which applications are causing unwanted pop-ups is via Endpoint Policy Manager operational logs, as seen here. To find this log, go to ```Users\<username>\AppData\Local\PolicyPak``` Least Privilege Manager, and open ppUser\_operational.log.
+The first way to see which applications are causing unwanted pop-ups is via Endpoint Policy Manager operational logs, as seen here. To find this log, go to ```Users\<username>\AppData\Local\PolicyPak``` Least Privilege Manager, and open ppUser_operational.log.
 
 ![A screenshot of a computer program
 

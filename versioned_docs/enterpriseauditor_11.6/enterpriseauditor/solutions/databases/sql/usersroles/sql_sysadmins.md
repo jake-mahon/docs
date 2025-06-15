@@ -1,10 +1,10 @@
-# SQL\_SysAdmins Job
+# SQL_SysAdmins Job
 
-The SQL\_SysAdmins Job provides insight into users who have SQL server administration roles across all targeted SQL or Azure SQL servers.
+The SQL_SysAdmins Job provides insight into users who have SQL server administration roles across all targeted SQL or Azure SQL servers.
 
-## Analysis Tasks for the SQL\_SysAdmins Job
+## Analysis Tasks for the SQL_SysAdmins Job
 
-Navigate to the __Databases__ > SQL > 3.Users and Roles > SQL\_SysAdmins > Configure node and select Analysis to view the analysis tasks.
+Navigate to the __Databases__ > SQL > 3.Users and Roles > SQL_SysAdmins > Configure node and select Analysis to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis task(s). The analysis task(s) are preconfigured for this job.
 
@@ -12,11 +12,11 @@ __CAUTION:__ Do not modify or deselect the selected analysis task(s). The analys
 
 The default analysis tasks are:
 
-- Calculate admin details – Creates the SA\_SQL\_SysAdmins\_Details table accessible under the job’s Results node
-- Summarize SysAdmins – Creates the SA\_SQL\_SysAdmins\_InstanceSummary table accessible under the job’s Results node
-- Sys Admin Domain Users - Creates the SA\_SQL\_SysAdmins\_DomainUsers table accessible under the job’s Results node
+- Calculate admin details – Creates the SA_SQL_SysAdmins_Details table accessible under the job’s Results node
+- Summarize SysAdmins – Creates the SA_SQL_SysAdmins_InstanceSummary table accessible under the job’s Results node
+- Sys Admin Domain Users - Creates the SA_SQL_SysAdmins_DomainUsers table accessible under the job’s Results node
 
-In addition to the tables and views created by the analysis task, the __SQL\_SysAdmins Job__ produces the following pre-configured report.
+In addition to the tables and views created by the analysis task, the __SQL_SysAdmins Job__ produces the following pre-configured report.
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

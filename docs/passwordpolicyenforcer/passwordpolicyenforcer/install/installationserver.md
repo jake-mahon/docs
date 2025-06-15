@@ -21,7 +21,7 @@ __Step 2 –__ Extract the installers from the compressed file. If you are going
 
 __NOTE:__ Continue with these steps to install one or more features on your current server or domain controller. You must repeat these steps for each server where the features are installed.
 
-__Step 3 –__ Click on the __Netwrix\_PPE\_Server\__version_\_x64.msi__ installation package. The installer is launched.
+__Step 3 –__ Click on the __Netwrix_PPE_Server__version__x64.msi__ installation package. The installer is launched.
 
 ![Server Setup](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/install/serversetup1.webp)
 

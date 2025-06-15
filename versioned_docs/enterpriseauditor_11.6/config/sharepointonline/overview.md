@@ -8,7 +8,7 @@ Netwrix Enterprise Auditor can execute Access Auditing (SPAA) and Sensitive Data
 
 See the [SharePoint Online Access & Sensitive Data Auditing Configuration](/versioned_docs/enterpriseauditor_11.6/config/sharepointonline/access.md) topic for instructions.
 
-__NOTE:__ You can use the __SP\_RegisterAzureAppAuth__ instant job to make the configuration for SharePoint Online easier. This job registers the necessary Microsoft Entra ID application and provisions it with the required permissions. See the [SP\_RegisterAzureAppAuth Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/instantjobs/sp_registerazureappauth.md) topic for additional information.
+__NOTE:__ You can use the __SP_RegisterAzureAppAuth__ instant job to make the configuration for SharePoint Online easier. This job registers the necessary Microsoft Entra ID application and provisions it with the required permissions. See the [SP_RegisterAzureAppAuth Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/instantjobs/sp_registerazureappauth.md) topic for additional information.
 
 ## Access & Sensitive Data Auditing Port Requirements
 

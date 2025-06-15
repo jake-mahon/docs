@@ -6,6 +6,6 @@ The 3.Groups job group provides details on AWS IAM group membership, orphaned gr
 
 The 3.Groups job group is comprised of:
 
-- [AWS\_GroupMembers Job](/docs/accessanalyzer/enterpriseauditor/solutions/aws/groups/aws_groupmembers.md) – Provides details about group members and the policies assigned to those groups
-- [AWS\_NoPolicyGroups Job](/docs/accessanalyzer/enterpriseauditor/solutions/aws/groups/aws_nopolicygroups.md) – Provides details on groups that have no policies assigned to them
-- [AWS\_StaleGroups Job](/docs/accessanalyzer/enterpriseauditor/solutions/aws/groups/aws_stalegroups.md) – Highlights groups that have members that are considered stale
+- [AWS_GroupMembers Job](/docs/accessanalyzer/enterpriseauditor/solutions/aws/groups/aws_groupmembers.md) – Provides details about group members and the policies assigned to those groups
+- [AWS_NoPolicyGroups Job](/docs/accessanalyzer/enterpriseauditor/solutions/aws/groups/aws_nopolicygroups.md) – Provides details on groups that have no policies assigned to them
+- [AWS_StaleGroups Job](/docs/accessanalyzer/enterpriseauditor/solutions/aws/groups/aws_stalegroups.md) – Highlights groups that have members that are considered stale

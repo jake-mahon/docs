@@ -63,7 +63,7 @@ You can see in Power BI queries that Usercube must be specified as a source via 
 
 Integrators may need to customize the model to make it more understandable and easily usable by end-users.
 
-For example, the following M query removes the column Company Id from the table Directory\_User\_Records, considering that we do not need it for future reports.
+For example, the following M query removes the column Company Id from the table Directory_User_Records, considering that we do not need it for future reports.
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 

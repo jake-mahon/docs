@@ -1,10 +1,10 @@
-# AD\_ComputerModifications Job
+# AD_ComputerModifications Job
 
-The AD\_ComputerModifications Job provides a report of all changes to computer objects.
+The AD_ComputerModifications Job provides a report of all changes to computer objects.
 
-## Analysis Tasks for the AD\_ComputerModifications Job
+## Analysis Tasks for the AD_ComputerModifications Job
 
-Navigate to the __Active Directory__ > __6.Activity__ > __Changes__ > __AD\_ComputerModifications__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Active Directory__ > __6.Activity__ > __Changes__ > __AD_ComputerModifications__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,10 +12,10 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The following non-configurable analysis tasks are selected by default:
 
-- All Computer Object Changes – Creates the SA\_AD\_ComputerChanges\_ComputerSummary table accessible under the job’s Results node
-- Summarize by Computer – Creates the SA\_AD\_ComputerChanges\_ComputerSummary table accessible under the job’s Results node
+- All Computer Object Changes – Creates the SA_AD_ComputerChanges_ComputerSummary table accessible under the job’s Results node
+- Summarize by Computer – Creates the SA_AD_ComputerChanges_ComputerSummary table accessible under the job’s Results node
 
-In addition to the tables created by the analysis tasks, the AD\_ComputerModifications Job produces the following pre-configured report:
+In addition to the tables created by the analysis tasks, the AD_ComputerModifications Job produces the following pre-configured report:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

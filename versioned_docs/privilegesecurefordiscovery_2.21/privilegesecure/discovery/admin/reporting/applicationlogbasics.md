@@ -90,7 +90,7 @@ secureone@ip-10-100-11-20:~$ tail /secureone/data/logs/svc-scan.log | nl
 
 ## Fluentd(stdout) Log viewing
 
-As mentioned the Fluentd service is the log parser for all services. Because of this, all services (API, Scanner, Worker, Expire, Fluentd, analytics\_engine, ) are accessible via the stdout (standard out) where all the services/processes are written to.
+As mentioned the Fluentd service is the log parser for all services. Because of this, all services (API, Scanner, Worker, Expire, Fluentd, analytics_engine, ) are accessible via the stdout (standard out) where all the services/processes are written to.
 
 To view all of the service’s events directly from the appliance, in real time, run the below command. This command shows the events within a “real time frame” which has a general 3-5 minute window from the actual action/event occurring. Since this is a “real time” view of events there is no availability to review the logs historically with this method, which is why there is the local logging files mentioned above.
 

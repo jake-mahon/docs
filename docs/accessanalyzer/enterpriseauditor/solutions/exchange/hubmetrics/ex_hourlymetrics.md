@@ -1,10 +1,10 @@
-# EX\_HourlyMetrics Job
+# EX_HourlyMetrics Job
 
-The EX\_HourlyMetrics Job provides visibility into how much mail-flow the organization sends and receives each hour.
+The EX_HourlyMetrics Job provides visibility into how much mail-flow the organization sends and receives each hour.
 
-## Analysis Tasks for the EX\_HourlyMetrics Job
+## Analysis Tasks for the EX_HourlyMetrics Job
 
-View the analysis tasks by navigating to the __Exchange__ > __1. HUB Metrics__ > __EX\_HourlyMetrics__ > __Configure__ node and select __Analysis__.
+View the analysis tasks by navigating to the __Exchange__ > __1. HUB Metrics__ > __EX_HourlyMetrics__ > __Configure__ node and select __Analysis__.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -14,10 +14,10 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The following analysis tasks are selected by default:
 
-- 01. Server Averages – Creates the SA\_EX\_HourlyMetrics\_ServerAverages table, accessible under the job’s Results node
-- 02. Org Averages – Creates the SA\_EX\_HourlyMetrics\_OrgAverages table, accessible under the job’s Results node
+- 01. Server Averages – Creates the SA_EX_HourlyMetrics_ServerAverages table, accessible under the job’s Results node
+- 02. Org Averages – Creates the SA_EX_HourlyMetrics_OrgAverages table, accessible under the job’s Results node
 
-In addition to the tables and views created by the analysis tasks, the EX\_HourlyMetrics Job produces the following pre-configured reports:
+In addition to the tables and views created by the analysis tasks, the EX_HourlyMetrics Job produces the following pre-configured reports:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

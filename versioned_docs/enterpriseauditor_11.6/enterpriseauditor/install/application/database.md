@@ -111,7 +111,7 @@ __NOTE:__ Set the __Default Database__ as Enterprise Auditor (or the desired Ent
 
 __Step 5 –__ Navigate to the __User Mapping__ menu, select the Enterprise Auditor (or the desired Enterprise Auditor database) database, and set the __Default Schema__ to __DBO__.
 
-__Step 6 –__ In the __Database role membership__ section, set the role to __db\_owner__. Click __OK__ to save new user configuration information and continue on to configure the Enterprise Auditor Console.
+__Step 6 –__ In the __Database role membership__ section, set the role to __db_owner__. Click __OK__ to save new user configuration information and continue on to configure the Enterprise Auditor Console.
 
 __Step 7 –__ Configure the Enterprise Auditor Console to access the assigned database using the newly secured login account.
 

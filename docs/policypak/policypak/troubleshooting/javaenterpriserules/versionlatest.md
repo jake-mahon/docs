@@ -10,7 +10,7 @@ There is a Java Rules Manager (JRM) policy specified for a site to use a specifi
 
 Cause:
 
-The URL address specified in Internet Explorer must match exactly the location URL specified for the RIA rule in Netwrix Endpoint Policy Manager (formerly PolicyPak) Java Rules Manager, the path is case sensitive. This is not a Endpoint Policy Manager requirement but a Java one, please see the following link for details. [https://docs.oracle.com/javase/8/docs/technotes/guides/deploy/ria\_development.html](https://docs.oracle.com/javase/8/docs/technotes/guides/deploy/ria_development.html)
+The URL address specified in Internet Explorer must match exactly the location URL specified for the RIA rule in Netwrix Endpoint Policy Manager (formerly PolicyPak) Java Rules Manager, the path is case sensitive. This is not a Endpoint Policy Manager requirement but a Java one, please see the following link for details. [https://docs.oracle.com/javase/8/docs/technotes/guides/deploy/ria_development.html](https://docs.oracle.com/javase/8/docs/technotes/guides/deploy/ria_development.html)
 
 __NOTE:__ If the URLs do not match (case as well) then the PPJRM rule will be ignored and the latest version of java installed on the endpoint will be used instead.
 

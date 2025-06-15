@@ -22,4 +22,4 @@ The last thing which I want to do now, on the “Options-Shared Folders” tab, 
 
 Now time to go on to your target machine and run “GP Update.” Once that’s done, I will “Open” it. Now we can see our changes right in here as well. “Memory” is “1 GB,” and we delivered these three checkboxes. If we go into the “CD/DVD” drive, you can see that option is now disabled. If we go into the “Options” tab, “Shared Folders” is now delivered and it is grayed out as well.
 
-I hope it helps. If you have any questions, you can put those questions on our support forum or you can open a support ticket here https://www.netwrix.com/sign\_in.html?rf=tickets.html#/open-a-ticket. Thanks.
+I hope it helps. If you have any questions, you can put those questions on our support forum or you can open a support ticket here https://www.netwrix.com/sign_in.html?rf=tickets.html#/open-a-ticket. Thanks.

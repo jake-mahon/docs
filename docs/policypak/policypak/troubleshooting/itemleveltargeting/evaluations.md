@@ -33,13 +33,13 @@ ADMX Computer Configuration | Policies | Administrative Templates | PolicyPak AD
 
 Additionally, when the PP ILT engine is enabled the registry key below will be present and set to "1" for Enabled.
 
-Registry Hive HKEY\_LOCAL\_MACHINE
+Registry Hive HKEY_LOCAL_MACHINE
 
 Registry Path ``` SOFTWARE\Policies\PolicyPak\Criteria Engine```
 
 Value Name Enabled
 
-Value Type REG\_DWORD
+Value Type REG_DWORD
 
 Enabled Value 1 (when opted in BEFORE build 3068) or ABSENT when used as default in build 3068 and later.
 

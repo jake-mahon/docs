@@ -32,16 +32,16 @@ Configure the following settings for a RADIUS provider on the Configuration tab
 
   - Active Directory Attribute: `{attributename}`
 
-    - Example – `{firstname}\_{lastname}`
+    - Example – `{firstname}_{lastname}`
   - First Character(s) of an Active Directory Attribute: `{3:AttributeName}` – Where "3" is the number of characters to select
 
-    - Example – `{1:firstname}\_{lastname}`
+    - Example – `{1:firstname}_{lastname}`
   - Last Character(s) of an Active Directory Attribute: `{AttributeName:3}` – Where "3" is the number of characters to select
 
-    - Example – `{firstname}\_{telephoneNumber:4}`
+    - Example – `{firstname}_{telephoneNumber:4}`
   - Text values can be hard coded to send a static text value for each user:
 
-    - Example – `MyCompany\_{lastname}`
+    - Example – `MyCompany_{lastname}`
 - Max Retries – The maximum number of times to attempt reconnecting to the RADIUS proxy if unable to connect
 - Timeouts (in seconds) – The default timeout value for RADIUS connection and authentication requests. The default value is 60 seconds.
 

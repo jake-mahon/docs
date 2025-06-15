@@ -20,8 +20,8 @@ The .Entra ID Inventory Solution is a core component of all Enterprise Auditor 
 
 The jobs in the .Entra ID Inventory Solution are:
 
-- [1-AAD\_Scan Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/entraidinventory/1-aad_scan.md) – Provides essential Microsoft Entra ID User and Group membership details to several Enterprise Auditor built-in solution sets. Key information includes user status, user attributes, and group membership.
-- [2-AAD\_Exceptions Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/entraidinventory/2-aad_exceptions.md) – Runs analysis on the collected data and identifies toxic conditions that exist within Microsoft Entra ID which may leave your environment at risk or add unnecessary administrative overhead
+- [1-AAD_Scan Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/entraidinventory/1-aad_scan.md) – Provides essential Microsoft Entra ID User and Group membership details to several Enterprise Auditor built-in solution sets. Key information includes user status, user attributes, and group membership.
+- [2-AAD_Exceptions Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/entraidinventory/2-aad_exceptions.md) – Runs analysis on the collected data and identifies toxic conditions that exist within Microsoft Entra ID which may leave your environment at risk or add unnecessary administrative overhead
 
 The data collection is conducted by the AzureADInventory Data Collector. See the [Standard Reference Tables & Views for the AzureADInventory Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/azureadinventory/standardtables.md) topic for database table information.
 

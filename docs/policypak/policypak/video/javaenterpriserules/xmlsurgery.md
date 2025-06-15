@@ -22,7 +22,7 @@ Now we're going to do delve in here. We're going to open that up. This is a mach
 
 I'm going to right-click and choose Edit or you could choose to Open with Notepad. Now we see some XML here. You can word wrap this if you want to, although I can see what I'm looking for right now.
 
-We are looking for the Java version, and it's going to look something like 8.0.202 or 8.0\_202, something like that. We can look. Here we go. This is the Java version that we were specifically telling it to run. We see we have that 8.202, which we know doesn't exist, certainly not on the machine.
+We are looking for the Java version, and it's going to look something like 8.0.202 or 8.0_202, something like that. We can look. Here we go. This is the Java version that we were specifically telling it to run. We see we have that 8.202, which we know doesn't exist, certainly not on the machine.
 
 We're just going to change that to the version that we want to see, which is 8.221. There we go. We fixed that. Let's save it. Close everything out.
 

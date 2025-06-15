@@ -36,11 +36,11 @@ So that's how you can go about deploying a printer to your cloud-joined endpoint
 
 In this section of the video, we are going to look at delivering registry settings using the Group Policy Preferences editor inside of the cloud portal. We are going to be looking at something pretty basic today, but you can use this of course for anything you want. Let's go ahead and look at our registry settings in the endpoint here. We're going to just look at mouse "DoubleClickSpeed." Right now it is "500." We're just going to deliver a different setting to that. We're going to make it 604.
 
-We can see that we're in "HKEY\_CURRENT\_USER\Control Panel\Mouse" and we're going to be working with "DoubleClickSpeed." Let's come over to our management station. Once again, I am logged in. I'm in my "Computer Groups" area, and I'm on the "West Sales" under "Company Groups" which is where my computer lives.
+We can see that we're in "HKEY_CURRENT_USER\Control Panel\Mouse" and we're going to be working with "DoubleClickSpeed." Let's come over to our management station. Once again, I am logged in. I'm in my "Computer Groups" area, and I'm on the "West Sales" under "Company Groups" which is where my computer lives.
 
 I'm going to "Create and link a new Policy" here. I'm going to choose "Preferences," "Registry," and I'm going to choose "Registry" right here. In this case, I want my "Action" to be "Update" because the value already exists. I just need to update it to something else.
 
-So we are "HKEY\_CURRENT\_USER." "Key Path" is going to be "Control Panel\Mouse." We can just double check that if we want to. There we go: "Control Panel\Mouse." The "Value name" is "DoubleClickSpeed." The "Value type," I already know it's the "REG\_SZ" there. But if we want to check, there we go. Now we know that. We can come back here, and I'm going to make this value "604." I will tell it "OK," "OK," and that's great.
+So we are "HKEY_CURRENT_USER." "Key Path" is going to be "Control Panel\Mouse." We can just double check that if we want to. There we go: "Control Panel\Mouse." The "Value name" is "DoubleClickSpeed." The "Value type," I already know it's the "REG_SZ" there. But if we want to check, there we go. Now we know that. We can come back here, and I'm going to make this value "604." I will tell it "OK," "OK," and that's great.
 
 Now I'm going to close this out. We're going to come over here. We'll run our "ppcloud /sync." Let it get synced up with the cloud, and we'll check in on those registry values in just a minute. All right, here we go. You see we have that "New Registry" right there. Great. Now let's go ahead and get back into the registry. There we go: "DoubleClickSpeed" is "604."
 

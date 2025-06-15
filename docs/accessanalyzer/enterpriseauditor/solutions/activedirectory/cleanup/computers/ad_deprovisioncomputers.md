@@ -1,6 +1,6 @@
-# AD\_DeprovisionComputers Job
+# AD_DeprovisionComputers Job
 
-The AD\_DeprovisionComputers Job provides a simple automated workflow deprovision stale computers.
+The AD_DeprovisionComputers Job provides a simple automated workflow deprovision stale computers.
 
 __Step 1 –__ Move stale computers to a staging OU for deletion.
 
@@ -14,38 +14,38 @@ __Step 4 –__ After a configurable amount of days in the staging OU, deletes co
 
 The Configuration section on a Job's overview page allows you to easily modify any customizable parameters used by analysis tasks in the job. See the [Parameter Configuration](/docs/accessanalyzer/enterpriseauditor/admin/jobs/job/overview.md#parameter-configuration) topic for instructions on how to edit parameters on a job overview page.
 
-The AD\_DeprovisionComputers page has the following configurable parameters:
+The AD_DeprovisionComputers page has the following configurable parameters:
 
 - Days in the Staging OU before Deleting Account
 
-See the [Customizable Analysis Parameters for the AD\_DeprovisionComputers Job](#customizable-analysis-parameters-for-the-ad_deprovisioncomputers-job) topic for additional information.
+See the [Customizable Analysis Parameters for the AD_DeprovisionComputers Job](#customizable-analysis-parameters-for-the-ad_deprovisioncomputers-job) topic for additional information.
 
-## Analysis Tasks for the AD\_DeprovisionComputers Job
+## Analysis Tasks for the AD_DeprovisionComputers Job
 
-Navigate to the __Active Directory__ > __Cleanup__ > __3.Computers__ > __AD\_Deprovision Computers__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Active Directory__ > __Cleanup__ > __3.Computers__ > __AD_Deprovision Computers__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 ![Analysis Tasks for the AD_DeprovisionComputers Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/cleanup/computers/deprovisioncomputersanalysis.webp)
 
 The default analysis tasks are:
 
-- Identify Stale Computers – Creates the AD\_DeprovisionComputers\_Details table accessible under the job’s Results node
-- Computer Accounts to Delete – Creates the AD\_DeprovisionComputers\_ToBeDeleted table accessible under the job’s Results node
+- Identify Stale Computers – Creates the AD_DeprovisionComputers_Details table accessible under the job’s Results node
+- Computer Accounts to Delete – Creates the AD_DeprovisionComputers_ToBeDeleted table accessible under the job’s Results node
 
-  - This analysis task contains a configurable parameter: ```@days_before_deleting```. See the [Customizable Analysis Parameters for the AD\_DeprovisionComputers Job](#customizable-analysis-parameters-for-the-ad_deprovisioncomputers-job) topic for additional information.
+  - This analysis task contains a configurable parameter: ```@days_before_deleting```. See the [Customizable Analysis Parameters for the AD_DeprovisionComputers Job](#customizable-analysis-parameters-for-the-ad_deprovisioncomputers-job) topic for additional information.
 
-### Customizable Analysis Parameters for the AD\_DeprovisionComputers Job
+### Customizable Analysis Parameters for the AD_DeprovisionComputers Job
 
 Customizable parameters enable you to set the values used to classify user and group objects during this job’s analysis.
 
 | Analysis Task | Customizable Parameter Name | Default Value | Value Indicates |
 | --- | --- | --- | --- |
-| Computer Accounts to Delete | @days\_before\_deleting | 365 | Days in the staging OU before deleting account |
+| Computer Accounts to Delete | @days_before_deleting | 365 | Days in the staging OU before deleting account |
 
 See the [Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/analysiscustomizableparameters.md) topic for additional information.
 
-## Action Tasks for the AD\_DeprovisionComputers Job
+## Action Tasks for the AD_DeprovisionComputers Job
 
-Navigate to the __Active Directory__ > __Cleanup__ > __3.Computers__ > __AD\_DeprovisionComputers__ > __Configure__ node and select __Actions__ to view the actions.
+Navigate to the __Active Directory__ > __Cleanup__ > __3.Computers__ > __AD_DeprovisionComputers__ > __Configure__ node and select __Actions__ to view the actions.
 
 __CAUTION:__ Do not enable the actions unless it is required. Disable the actions after execution to prevent making unintended and potentially harmful changes to Active Directory.
 

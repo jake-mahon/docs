@@ -32,7 +32,7 @@ One of them is going to be Java, and the second one is going to be OneDrive. I'm
 
 What you need is a little map to enable these programs to keep on working anyway. You're going to have to make a rule for these applications, and I'm going to show you how to do it. The way you're going to do this is either use the Event Viewer or the PolicyPak logs.
 
-I'm going to use the PolicyPak logs to do it. In "AppData," "Local," "PolicyPak," if we go to "PolicyPak [https://www.policypak.com/products/policypak-least-privilege-manager.html](https://www.policypak.com/products/policypak-least-privilege-manager.html)" here, what you're looking for is the file "ppUser\_operational.log." You're going to see what thing triggered that prompt.
+I'm going to use the PolicyPak logs to do it. In "AppData," "Local," "PolicyPak," if we go to "PolicyPak [https://www.policypak.com/products/policypak-least-privilege-manager.html](https://www.policypak.com/products/policypak-least-privilege-manager.html)" here, what you're looking for is the file "ppUser_operational.log." You're going to see what thing triggered that prompt.
 
 If we go to the bottom of this log here, we'll work backward. Here is "Java." You have a couple choices. You could use PolicyPak Application Manager and turn off the prompts for Java altogether. That's a choice, or you can make a rule. I'll go ahead and make the rule here. What I'm going to say is any time this "Command Line" is attempted to run, then go ahead and just let it run. That's okay. Not elevating it. Not doing anything special. I'm just going to go ahead and let it run.
 

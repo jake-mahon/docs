@@ -1,6 +1,6 @@
 # Presentation Dependencies
 
-In the following subsections, each slide is aligned to the jobs that supply its data. The slide number is specific to the __Netwrix\_CDSA\_Presentation.pptx__ file, as there are slight various in page numbering with the files designed to be saved as PDFs. Many jobs contribute to multiple slides, so jobs are highlighted in bold text the first time they are listed.
+In the following subsections, each slide is aligned to the jobs that supply its data. The slide number is specific to the __Netwrix_CDSA_Presentation.pptx__ file, as there are slight various in page numbering with the files designed to be saved as PDFs. Many jobs contribute to multiple slides, so jobs are highlighted in bold text the first time they are listed.
 
 ## Executive Summary Slide
 
@@ -16,7 +16,7 @@ The Data Security slide (Slide 3) has the following primary job dependencies:
 
 - .Active Directory Inventory
 
-  - __1-AD\_Scan__
+  - __1-AD_Scan__
 - FileSystem
 
   - __0.Collection > 1-FSAA System Scans__
@@ -26,30 +26,30 @@ Data is also supplied by the following jobs when they have been executed:
 
 - AWS
 
-  - __0.Collection > 1.AWS\_OrgScan__
-  - __0.Collection > 2.AWS\_S3Scan__
+  - __0.Collection > 1.AWS_OrgScan__
+  - __0.Collection > 2.AWS_S3Scan__
 - Box
 
-  - __0.Collection > 1-Box\_Access Scans__
-  - __0.Collection > 2-Box\_Import__
+  - __0.Collection > 1-Box_Access Scans__
+  - __0.Collection > 2-Box_Import__
 - Databases
 
-  - __0.Collection > Oracle > 0-Oracle\_Servers__
-  - __0.Collection > Oracle > 1-Oracle\_PermissionsScan__
-  - __0.Collection > SQL > 0-SQL\_InstanceDiscovery__
-  - __0.Collection > SQL > 1-SQL\_PermissionsScan__
+  - __0.Collection > Oracle > 0-Oracle_Servers__
+  - __0.Collection > Oracle > 1-Oracle_PermissionsScan__
+  - __0.Collection > SQL > 0-SQL_InstanceDiscovery__
+  - __0.Collection > SQL > 1-SQL_PermissionsScan__
 - Dropbox
 
-  - __0.Collection > 1-Dropbox\_Permissions Scan__
-  - __0.Collection > 2-Dropbox\_Permissions Bulk Import__
+  - __0.Collection > 1-Dropbox_Permissions Scan__
+  - __0.Collection > 2-Dropbox_Permissions Bulk Import__
 - Exchange
 
-  - __4. Mailboxes > Sizing > 0. Collection > EX\_MBSize__
-  - __5. Public Folders > Growth and Size > Collection > PF\_FolderScans__
+  - __4. Mailboxes > Sizing > 0. Collection > EX_MBSize__
+  - __5. Public Folders > Growth and Size > Collection > PF_FolderScans__
 - SharePoint
 
-  - __0.Collection > 2-SPAA\_SystemScans__
-  - __0.Collection > 5-SPAA\_BulkImport__
+  - __0.Collection > 2-SPAA_SystemScans__
+  - __0.Collection > 5-SPAA_BulkImport__
 
 ## Condition: Open Access Slide
 
@@ -57,51 +57,51 @@ The Condition: Open Access slide (Slide 4) has the following primary job depende
 
 - .Active Directory Inventory
 
-  - 1-AD\_Scan
+  - 1-AD_Scan
 - FileSystem
 
   - 0.Collection > 1-FSAA System Scans
   - 0.Collection > 2-FSAA Bulk Import
-  - __1.Open Access >FS\_OpenAccess__
+  - __1.Open Access >FS_OpenAccess__
 
 Data is also supplied by the following jobs when they have been executed:
 
 - AWS
 
-  - 0.Collection > 1.AWS\_OrgScan
-  - 0.Collection > 2.AWS\_S3Scan
-  - __6.S3 Permissions > AWS\_OpenBuckets__
+  - 0.Collection > 1.AWS_OrgScan
+  - 0.Collection > 2.AWS_S3Scan
+  - __6.S3 Permissions > AWS_OpenBuckets__
 - Box
 
-  - 0.Collection > 1-Box\_Access Scans
-  - 0.Collection > 2-Box\_Import
+  - 0.Collection > 1-Box_Access Scans
+  - 0.Collection > 2-Box_Import
 - Databases
 
-  - 0.Collection > Oracle > 0-Oracle\_Servers
-  - 0.Collection > Oracle > 1-Oracle\_PermissionsScan
-  - 0.Collection > SQL > 0-SQL\_InstanceDiscovery
-  - 0.Collection > SQL > 1-SQL\_PermissionsScan
-  - __Oracle > 3.Permissions > Oracle\_PublicPermissions__
-  - __SQL > 3.Permissions > SQL\_PublicPermissions__
+  - 0.Collection > Oracle > 0-Oracle_Servers
+  - 0.Collection > Oracle > 1-Oracle_PermissionsScan
+  - 0.Collection > SQL > 0-SQL_InstanceDiscovery
+  - 0.Collection > SQL > 1-SQL_PermissionsScan
+  - __Oracle > 3.Permissions > Oracle_PublicPermissions__
+  - __SQL > 3.Permissions > SQL_PublicPermissions__
 - Dropbox
 
-  - 0.Collection > 1-Dropbox\_Permissions Scan
-  - 0.Collection > 2-Dropbox\_Permissions Bulk Import
+  - 0.Collection > 1-Dropbox_Permissions Scan
+  - 0.Collection > 2-Dropbox_Permissions Bulk Import
 - Exchange
 
-  - __4. Mailboxes > Permissions > 0. Collection > EX\_Delegates__
-  - __4. Mailboxes > Permissions > 0. Collection > EX\_MBRights__
-  - __4. Mailboxes > Permissions > 0. Collection > EX\_Perms__
-  - __4. Mailboxes > Permissions > 0. Collection > EX\_SendAs__
-  - __4. Mailboxes > Permissions > EX\_MailboxAccess__
-  - 4. Mailboxes > Sizing > 0. Collection > EX\_MBSize
-  - 5. Public Folders > Growth and Size > Collection > PF\_FolderScans
-  - __5. Public Folders > Permissions > Collection > PF\_EntitlementScans__
+  - __4. Mailboxes > Permissions > 0. Collection > EX_Delegates__
+  - __4. Mailboxes > Permissions > 0. Collection > EX_MBRights__
+  - __4. Mailboxes > Permissions > 0. Collection > EX_Perms__
+  - __4. Mailboxes > Permissions > 0. Collection > EX_SendAs__
+  - __4. Mailboxes > Permissions > EX_MailboxAccess__
+  - 4. Mailboxes > Sizing > 0. Collection > EX_MBSize
+  - 5. Public Folders > Growth and Size > Collection > PF_FolderScans
+  - __5. Public Folders > Permissions > Collection > PF_EntitlementScans__
 - SharePoint
 
-  - 0.Collection > 2-SPAA\_SystemScans
-  - 0.Collection > 5-SPAA\_BulkImport
-  - __2.High Risk Sites > SP\_OpenAccess__
+  - 0.Collection > 2-SPAA_SystemScans
+  - 0.Collection > 5-SPAA_BulkImport
+  - __2.High Risk Sites > SP_OpenAccess__
 
 ## Sensitive Data Slide
 
@@ -109,45 +109,45 @@ The Sensitive Data slide (Slide 5) has the following primary job dependencies:
 
 - .Active Directory Inventory
 
-  - 1-AD\_Scan
+  - 1-AD_Scan
 - FileSystem
 
   - __0.Collection > 1-SEEK System Scans__
   - __0.Collection > 2-SEEK Bulk Import__
-  - __7.Sensitive Data > FS\_DLPResults__
+  - __7.Sensitive Data > FS_DLPResults__
 
 Data is also supplied by the following jobs when they have been executed:
 
 - AWS
 
-  - 0.Collection > 1.AWS\_OrgScan
-  - __0.Collection > 4.AWS\_S3SDDScan__
-  - __8.S3 Sensitive Data > AWS\_SensitiveData__
+  - 0.Collection > 1.AWS_OrgScan
+  - __0.Collection > 4.AWS_S3SDDScan__
+  - __8.S3 Sensitive Data > AWS_SensitiveData__
 - Databases
 
-  - 0.Collection > Oracle > 0-Oracle\_Servers
-  - 0.Collection > Oracle > 1-Oracle\_PermissionsScan
-  - __0.Collection > Oracle > 2-Oracle\_SensitiveDataScan__
-  - 0.Collection > SQL > 0-SQL\_InstanceDiscovery
-  - 0.Collection > SQL > 1-SQL\_PermissionsScan
-  - __0.Collection > SQL > 2-SQL\_SensitiveDataScan__
-  - __Oracle > 5.Sensitive Data > Oracle\_SensitiveData__
-  - __SQL > 5.Sensitive Data > SQL\_SensitiveData__
+  - 0.Collection > Oracle > 0-Oracle_Servers
+  - 0.Collection > Oracle > 1-Oracle_PermissionsScan
+  - __0.Collection > Oracle > 2-Oracle_SensitiveDataScan__
+  - 0.Collection > SQL > 0-SQL_InstanceDiscovery
+  - 0.Collection > SQL > 1-SQL_PermissionsScan
+  - __0.Collection > SQL > 2-SQL_SensitiveDataScan__
+  - __Oracle > 5.Sensitive Data > Oracle_SensitiveData__
+  - __SQL > 5.Sensitive Data > SQL_SensitiveData__
 - Dropbox
 
-  - __0.Collection > 1-Dropbox\_SDD Scan__
-  - __0.Collection > 2-Dropbox\_SDD Bulk Import__
+  - __0.Collection > 1-Dropbox_SDD Scan__
+  - __0.Collection > 2-Dropbox_SDD Bulk Import__
   - __5.Sensitive Data > Dropbox SensitiveData__
 - Exchange
 
-  - __7. Sensitive Data > 0.Collection > EX\_Mailbox\_SDD__
-  - __7. Sensitive Data > 0.Collection > EX\_PublicFolder\_SDD__
-  - __7. Sensitive Data > EX\_SDDResults__
+  - __7. Sensitive Data > 0.Collection > EX_Mailbox_SDD__
+  - __7. Sensitive Data > 0.Collection > EX_PublicFolder_SDD__
+  - __7. Sensitive Data > EX_SDDResults__
 - SharePoint
 
-  - __0.Collection > 1-SPSEEK\_SystemScans__
-  - __0.Collection > 4-SPSEEK\_BulkImport__
-  - __6.Sensitive Data > SP\_SensitiveData__
+  - __0.Collection > 1-SPSEEK_SystemScans__
+  - __0.Collection > 4-SPSEEK_BulkImport__
+  - __6.Sensitive Data > SP_SensitiveData__
 
 ## Stale Data Slide
 
@@ -155,37 +155,37 @@ The Stale Data slide (Slide 6) has the following primary job dependencies:
 
 - .Active Directory Inventory
 
-  - 1-AD\_Scan
+  - 1-AD_Scan
 - FileSystem
 
   - 0.Collection > 1-FSAA System Scans
   - 0.Collection > 2-FSAA Bulk Import
-  - __4.Content > Stale > FS\_StaleContent__
+  - __4.Content > Stale > FS_StaleContent__
 
 Data is also supplied by the following jobs when they have been executed:
 
 - Box
 
-  - 0.Collection > 1-Box\_Access Scans
-  - 0.Collection > 2-Box\_Import
+  - 0.Collection > 1-Box_Access Scans
+  - 0.Collection > 2-Box_Import
 - Databases
 
-  - 0.Collection > Oracle > 0-Oracle\_Servers
-  - 0.Collection > Oracle > 1-Oracle\_PermissionsScan
-  - 0.Collection > SQL > 0-SQL\_InstanceDiscovery
-  - 0.Collection > SQL > 1-SQL\_PermissionsScan
+  - 0.Collection > Oracle > 0-Oracle_Servers
+  - 0.Collection > Oracle > 1-Oracle_PermissionsScan
+  - 0.Collection > SQL > 0-SQL_InstanceDiscovery
+  - 0.Collection > SQL > 1-SQL_PermissionsScan
 - Dropbox
 
-  - 0.Collection > 1-Dropbox\_Permissions Scan
-  - 0.Collection > 2-Dropbox\_Permissions Bulk Import
+  - 0.Collection > 1-Dropbox_Permissions Scan
+  - 0.Collection > 2-Dropbox_Permissions Bulk Import
 - Exchange
 
-  - __5. Public Folders > Content > Collection > PF\_ContentScans__
+  - __5. Public Folders > Content > Collection > PF_ContentScans__
 - SharePoint
 
-  - 0.Collection > 2-SPAA\_SystemScans
-  - 0.Collection > 5-SPAA\_BulkImport
-  - __4.Content > SP\_StaleFiles__
+  - 0.Collection > 2-SPAA_SystemScans
+  - 0.Collection > 5-SPAA_BulkImport
+  - __4.Content > SP_StaleFiles__
 
 ## Active Directory Security Slide
 
@@ -193,22 +193,22 @@ The Active Directory Security slide (Slide 7) has the following primary job depe
 
 - .Active Directory Inventory
 
-  - 1-AD\_Scan
+  - 1-AD_Scan
 - Active Directory Permissions Analyzer
 
-  - __0.Collection > AD\_ComputerRights__
-  - __0.Collection > AD\_ContainerRights__
-  - __0.Collection > AD\_DomainRights__
-  - __0.Collection > AD\_GroupRights__
-  - __0.Collection > AD\_OURights__
-  - __0.Collection > AD\_SiteRights__
-  - __0.Collection > AD\_UserRights__
+  - __0.Collection > AD_ComputerRights__
+  - __0.Collection > AD_ContainerRights__
+  - __0.Collection > AD_DomainRights__
+  - __0.Collection > AD_GroupRights__
+  - __0.Collection > AD_OURights__
+  - __0.Collection > AD_SiteRights__
+  - __0.Collection > AD_UserRights__
 
 Data is also supplied by the following jobs when they have been executed:
 
 - .Entra ID Inventory
 
-  - __1-AAD\_Scan__
+  - __1-AAD_Scan__
 
 ## Password Issues Slide
 
@@ -216,12 +216,12 @@ The Password Issues slide (Slide 8) has the following primary job dependencies:
 
 - .Active Directory Inventory
 
-  - 1-AD\_Scan
+  - 1-AD_Scan
 - Active Directory
 
-  - __2.Users > AD\_WeakPasswords__
-  - __2.Users > AD\_PasswordStatus__
-  - __4.Group Policy > AD\_CPassword__
+  - __2.Users > AD_WeakPasswords__
+  - __2.Users > AD_PasswordStatus__
+  - __4.Group Policy > AD_CPassword__
 
 ## Toxic Active Directory Conditions Slide
 
@@ -229,16 +229,16 @@ The Toxic Active Directory Conditions slide (Slide 9) has the following primary 
 
 - .Active Directory Inventory
 
-  - 1-AD\_Scan
-  - __3-AD\_Exceptions__
+  - 1-AD_Scan
+  - __3-AD_Exceptions__
 - Active Directory
 
-  - __1.Groups > AD\_CircularNesting__
-  - __1.Groups > AD\_EmptyGroups__
-  - __1.Groups > AD\_SensitiveSecurityGroups__
-  - __1.Groups > AD\_StaleGroups__
-  - __2.Users > AD\_SIDHistory__
-  - __2.Users > AD\_StaleUsers__
+  - __1.Groups > AD_CircularNesting__
+  - __1.Groups > AD_EmptyGroups__
+  - __1.Groups > AD_SensitiveSecurityGroups__
+  - __1.Groups > AD_StaleGroups__
+  - __2.Users > AD_SIDHistory__
+  - __2.Users > AD_StaleUsers__
 
 ## Non-Administrators that can Perform Sensitive AD Actions Slide
 
@@ -246,19 +246,19 @@ The Non-Administrators that can Perform Sensitive AD Actions slide (Slide 10) ha
 
 - .Active Directory Inventory
 
-  - 1-AD\_Scan
+  - 1-AD_Scan
 - Active Directory Permissions Analyzer
 
-  - 0.Collection > AD\_ComputerRights
-  - 0.Collection > AD\_ContainerRights
-  - 0.Collection > AD\_DomainRights
-  - 0.Collection > AD\_GroupRights
-  - 0.Collection > AD\_OURights
-  - 0.Collection > AD\_SiteRights
-  - 0.Collection > AD\_UserRights
-  - __1.Users > AD\_ResetPasswordPermissions__
-  - __2.Groups > AD\_GroupMembershipPermissions__
-  - __8.Domains > AD\_DomainReplication__
+  - 0.Collection > AD_ComputerRights
+  - 0.Collection > AD_ContainerRights
+  - 0.Collection > AD_DomainRights
+  - 0.Collection > AD_GroupRights
+  - 0.Collection > AD_OURights
+  - 0.Collection > AD_SiteRights
+  - 0.Collection > AD_UserRights
+  - __1.Users > AD_ResetPasswordPermissions__
+  - __2.Groups > AD_GroupMembershipPermissions__
+  - __8.Domains > AD_DomainReplication__
 
 ## Active Directory Sensitive Security Groups Slide
 
@@ -266,7 +266,7 @@ The Active Directory Sensitive Security Groups slide (Slide 11) has the followin
 
 - .Active Directory Inventory
 
-  - 1-AD\_Scan
+  - 1-AD_Scan
 
 ## Windows: Assessment Summary Slide
 
@@ -274,18 +274,18 @@ The Windows: Assessment Summary slide (Slide 12) has the following primary job d
 
 - .Active Directory Inventory
 
-  - 1-AD\_Scan
+  - 1-AD_Scan
 - Windows
 
-  - __Authentication > SG\_LSASettings__
-  - __Authentication > SG\_SecuritySupportProviders__
-  - __Authentication > SG\_WDigestSettings__
-  - __Open Access > SG\_OpenFolders__
-  - __Privileged Accounts > Local Administrators > SG\_LocalAdmins__
-  - __Privileged Accounts > Local Administrators > SG\_MicrosoftLAPS__
-  - __Privileged Accounts > Logon Rights > SG\_LocalPolicies__
-  - __Privileged Accounts > Service Accounts > SG\_ServiceAccounts__
-  - __Security Utilities > SG\_PowerShellCommands__
+  - __Authentication > SG_LSASettings__
+  - __Authentication > SG_SecuritySupportProviders__
+  - __Authentication > SG_WDigestSettings__
+  - __Open Access > SG_OpenFolders__
+  - __Privileged Accounts > Local Administrators > SG_LocalAdmins__
+  - __Privileged Accounts > Local Administrators > SG_MicrosoftLAPS__
+  - __Privileged Accounts > Logon Rights > SG_LocalPolicies__
+  - __Privileged Accounts > Service Accounts > SG_ServiceAccounts__
+  - __Security Utilities > SG_PowerShellCommands__
 
 ## Local Administrators Slide
 
@@ -293,11 +293,11 @@ The Local Administrators slide (Slide 13) has the following primary job dependen
 
 - .Active Directory Inventory
 
-  - 1-AD\_Scan
+  - 1-AD_Scan
 - Windows
 
-  - Privileged Accounts > Local Administrators > SG\_LocalAdmins
-  - Privileged Accounts > Logon Rights > SG\_LocalPolicies
+  - Privileged Accounts > Local Administrators > SG_LocalAdmins
+  - Privileged Accounts > Logon Rights > SG_LocalPolicies
 
 ## Service Accounts Slide
 
@@ -305,13 +305,13 @@ The Service Accounts slide (Slide 14) has the following primary job dependencies
 
 - .Active Directory Inventory
 
-  - 1-AD\_Scan
+  - 1-AD_Scan
 - Windows
 
-  - Authentication > SG\_LSASettings
-  - Authentication > SG\_WDigestSettings
-  - Privileged Accounts > Service Accounts > SG\_ServiceAccounts
-  - Security Utilities > SG\_PowerShellCommands
+  - Authentication > SG_LSASettings
+  - Authentication > SG_WDigestSettings
+  - Privileged Accounts > Service Accounts > SG_ServiceAccounts
+  - Security Utilities > SG_PowerShellCommands
 
 ## Ticket and Credential Management Slide
 
@@ -319,12 +319,12 @@ The Ticket and Credential Management slide (Slide 15) has the following primary 
 
 - .Active Directory Inventory
 
-  - 1-AD\_Scan
+  - 1-AD_Scan
 - Windows
 
-  - Authentication > SG\_LSASettings
-  - Authentication > SG\_WDigestSettings
-  - Security Utilities > SG\_PowerShellCommands
+  - Authentication > SG_LSASettings
+  - Authentication > SG_WDigestSettings
+  - Security Utilities > SG_PowerShellCommands
 
 ## Shadow Access Rights Slide
 
@@ -332,75 +332,75 @@ The Shadow Access Rights slide (Slide 16) has the following primary job dependen
 
 - .Active Directory Inventory
 
-  - 1-AD\_Scan
+  - 1-AD_Scan
 - Active Directory
 
-  - 1.Groups > AD\_SensitiveSecurityGroups
-  - 2.Users > AD\_WeakPasswords
+  - 1.Groups > AD_SensitiveSecurityGroups
+  - 2.Users > AD_WeakPasswords
 - Active Directory Permissions Analyzer
 
-  - 0.Collection > AD\_ComputerRights
-  - 0.Collection > AD\_ContainerRights
-  - 0.Collection > AD\_DomainRights
-  - 0.Collection > AD\_GroupRights
-  - 0.Collection > AD\_OURights
-  - 0.Collection > AD\_SiteRights
-  - 0.Collection > AD\_UserRights
-  - 1.Users > AD\_ResetPasswordPermissions
-  - 2.Groups > AD\_GroupMembershipPermissions
-  - __7.Containers > AD\_AdminSDHolder__
-  - 8.Domains > AD\_DomainReplication
+  - 0.Collection > AD_ComputerRights
+  - 0.Collection > AD_ContainerRights
+  - 0.Collection > AD_DomainRights
+  - 0.Collection > AD_GroupRights
+  - 0.Collection > AD_OURights
+  - 0.Collection > AD_SiteRights
+  - 0.Collection > AD_UserRights
+  - 1.Users > AD_ResetPasswordPermissions
+  - 2.Groups > AD_GroupMembershipPermissions
+  - __7.Containers > AD_AdminSDHolder__
+  - 8.Domains > AD_DomainReplication
 - FileSystem
 
   - 0.Collection > 1-SEEK System Scans
   - 0.Collection > 2-SEEK Bulk Import
-  - 7.Sensitive Data > FS\_DLPResults
+  - 7.Sensitive Data > FS_DLPResults
 - Windows
 
-  - Privileged Accounts > Local Administrators > SG\_LocalAdmins
-  - __Privileged Accounts > Local Administrators > SG\_Sessions__
+  - Privileged Accounts > Local Administrators > SG_LocalAdmins
+  - __Privileged Accounts > Local Administrators > SG_Sessions__
 
 Data is also supplied by the following jobs when they have been executed:
 
 - Databases
 
-  - 0.Collection > SQL > 0-SQL\_InstanceDiscovery
-  - 0.Collection > SQL > 1-SQL\_PermissionsScan
-  - 0.Collection > SQL > 2-SQL\_SensitiveDataScan
-  - SQL > 5.Sensitive Data > SQL\_SensitiveData
+  - 0.Collection > SQL > 0-SQL_InstanceDiscovery
+  - 0.Collection > SQL > 1-SQL_PermissionsScan
+  - 0.Collection > SQL > 2-SQL_SensitiveDataScan
+  - SQL > 5.Sensitive Data > SQL_SensitiveData
 
 ## Additional Findings (FS, AD, Windows OS) Slide
 
-Slide 17 in the __Netwrix\_CDSA\_Presentation.pptx__ file is hidden by default. It is recommended to use Slides 18-20 instead, even when the primary jobs are the only ones supplying data. Slide 17 is an alternative to slides 18-20. It has the following primary job dependencies:
+Slide 17 in the __Netwrix_CDSA_Presentation.pptx__ file is hidden by default. It is recommended to use Slides 18-20 instead, even when the primary jobs are the only ones supplying data. Slide 17 is an alternative to slides 18-20. It has the following primary job dependencies:
 
 - .Active Directory Inventory
 
-  - 1-AD\_Scan
+  - 1-AD_Scan
 - Active Directory
 
-  - 1.Groups > AD\_StaleGroups
-  - __2.Users > AD\_ServiceAccounts__
-  - 2.Users > AD\_StaleUsers
-  - __2.Users > AD\_UserToken__
-  - __3.Computers > AD\_StaleComputers__
-  - 4.Group Policy > AD\_CPassword
-  - 8.Domains > AD\_DomainReplication
+  - 1.Groups > AD_StaleGroups
+  - __2.Users > AD_ServiceAccounts__
+  - 2.Users > AD_StaleUsers
+  - __2.Users > AD_UserToken__
+  - __3.Computers > AD_StaleComputers__
+  - 4.Group Policy > AD_CPassword
+  - 8.Domains > AD_DomainReplication
 - FileSystem
 
   - 0.Collection > 1-FSAA System Scans
   - 0.Collection > 1-SEEK System Scans
   - 0.Collection > 2-FSAA Bulk Import
   - 0.Collection > 2-SEEK Bulk Import
-  - __2.Direct Permissions > FS\_DomainUserACLs__
-  - __3.Broken Inheritance > FS\_BrokenInheritance__
-  - 4.Content > Stale > FS\_StaleContent
-  - 7.Sensitive Data > FS\_DLPResults
+  - __2.Direct Permissions > FS_DomainUserACLs__
+  - __3.Broken Inheritance > FS_BrokenInheritance__
+  - 4.Content > Stale > FS_StaleContent
+  - 7.Sensitive Data > FS_DLPResults
 - Windows
 
-  - Authentication > SG\_LSASettings
-  - Authentication > SG\_WDigestSettings
-  - Privileged Accounts > Local Administrators > SG\_LocalAdmins
-  - Privileged Accounts > Service Accounts > SG\_ServiceAccounts
+  - Authentication > SG_LSASettings
+  - Authentication > SG_WDigestSettings
+  - Privileged Accounts > Local Administrators > SG_LocalAdmins
+  - Privileged Accounts > Service Accounts > SG_ServiceAccounts
 
 ## Additional Findings (FS, SharePoint, Box, Dropbox) Slide
 
@@ -408,38 +408,38 @@ The Additional Findings (FS, SharePoint, Box, Dropbox) slide (Slide 18) has the 
 
 - .Active Directory Inventory
 
-  - 1-AD\_Scan
+  - 1-AD_Scan
 - FileSystem
 
   - 0.Collection > 1-FSAA System Scans
   - 0.Collection > 1-SEEK System Scans
   - 0.Collection > 2-FSAA Bulk Import
   - 0.Collection > 2-SEEK Bulk Import
-  - __2.Direct Permissions > FS\_DomainUserACLs__
-  - __3.Broken Inheritance > FS\_BrokenInheritance__
-  - 4.Content > Stale > FS\_StaleContent
-  - 7.Sensitive Data > FS\_DLPResults
+  - __2.Direct Permissions > FS_DomainUserACLs__
+  - __3.Broken Inheritance > FS_BrokenInheritance__
+  - 4.Content > Stale > FS_StaleContent
+  - 7.Sensitive Data > FS_DLPResults
 
 Data is also supplied by the following jobs when they have been executed:
 
 - Box
 
-  - 0.Collection > 1-Box\_Access Scans
-  - 0.Collection > 2-Box\_Import
+  - 0.Collection > 1-Box_Access Scans
+  - 0.Collection > 2-Box_Import
 - Dropbox
 
-  - 0.Collection > 1-Dropbox\_SDD Scan
-  - 0.Collection > 2-Dropbox\_SDD Bulk Import
-  - __1.Access > Dropbox\_Access__
+  - 0.Collection > 1-Dropbox_SDD Scan
+  - 0.Collection > 2-Dropbox_SDD Bulk Import
+  - __1.Access > Dropbox_Access__
 - SharePoint
 
-  - 0.Collection > 2-SPAA\_SystemScans
-  - 0.Collection > 5-SPAA\_BulkImport
-  - __2.High Risk Sites > SP\_AnonymousSharing__
-  - 2.High Risk Sites > SP\_OpenAccess
-  - __3.Broken Inheritance > SP\_BrokenInheritance__
-  - 4.Content > SP\_StaleFiles
-  - 7.Sensitive Data > SP\_SensitiveData
+  - 0.Collection > 2-SPAA_SystemScans
+  - 0.Collection > 5-SPAA_BulkImport
+  - __2.High Risk Sites > SP_AnonymousSharing__
+  - 2.High Risk Sites > SP_OpenAccess
+  - __3.Broken Inheritance > SP_BrokenInheritance__
+  - 4.Content > SP_StaleFiles
+  - 7.Sensitive Data > SP_SensitiveData
 
 ## Additional Findings (Exchange, Databases) Slide
 
@@ -447,44 +447,44 @@ The Additional Findings (Exchange, Databases) slide (Slide 19) has the following
 
 - .Active Directory Inventory
 
-  - 1-AD\_Scan
+  - 1-AD_Scan
 
 Data is also supplied by the following jobs when they have been executed:
 
 - Databases
 
-  - 0.Collection > Oracle > 0-Oracle\_Servers
-  - 0.Collection > Oracle > 1-Oracle\_PermissionsScan
-  - 0.Collection > Oracle > 2-Oracle\_SensitiveDataScan
-  - 0.Collection > SQL > 0-SQL\_InstanceDiscovery
-  - 0.Collection > SQL > 1-SQL\_PermissionsScan
-  - 0.Collection > SQL > 2-SQL\_SensitiveDataScan
-  - __Oracle > 1. Users and Roles > Oracle\_PasswordIssues__
-  - Oracle > 3.Permissions > Oracle\_PublicPermissions
-  - __Oracle > 4. Configuration > Oracle\_DataDictionaryProtection__
-  - __Oracle > 4. Configuration > Oracle\_InstanceNameIssues__
-  - __Oracle > 4. Configuration > Oracle\_RemoteOSAuthentication__
-  - Oracle > 5.Sensitive Data > Oracle\_SensitiveData
-  - __SQL > 1. Users and Roles > SQL\_PasswordIssues__
-  - SQL > 3.Permissions > SQL\_PublicPermissions
-  - __SQL > 4.Configuration > SQL\_Authentication__
-  - __SQL > 4. Configuration > SQL\_BestPractices__
-  - __SQL > 4.Configuration > SQL\_CMDShell__
-  - SQL > 5.Sensitive Data > SQL\_SensitiveData
+  - 0.Collection > Oracle > 0-Oracle_Servers
+  - 0.Collection > Oracle > 1-Oracle_PermissionsScan
+  - 0.Collection > Oracle > 2-Oracle_SensitiveDataScan
+  - 0.Collection > SQL > 0-SQL_InstanceDiscovery
+  - 0.Collection > SQL > 1-SQL_PermissionsScan
+  - 0.Collection > SQL > 2-SQL_SensitiveDataScan
+  - __Oracle > 1. Users and Roles > Oracle_PasswordIssues__
+  - Oracle > 3.Permissions > Oracle_PublicPermissions
+  - __Oracle > 4. Configuration > Oracle_DataDictionaryProtection__
+  - __Oracle > 4. Configuration > Oracle_InstanceNameIssues__
+  - __Oracle > 4. Configuration > Oracle_RemoteOSAuthentication__
+  - Oracle > 5.Sensitive Data > Oracle_SensitiveData
+  - __SQL > 1. Users and Roles > SQL_PasswordIssues__
+  - SQL > 3.Permissions > SQL_PublicPermissions
+  - __SQL > 4.Configuration > SQL_Authentication__
+  - __SQL > 4. Configuration > SQL_BestPractices__
+  - __SQL > 4.Configuration > SQL_CMDShell__
+  - SQL > 5.Sensitive Data > SQL_SensitiveData
 - Exchange
 
-  - 4. Mailboxes > Permissions > 0. Collection > EX\_Delegates
-  - 4. Mailboxes > Permissions > 0. Collection > EX\_MBRights
-  - 4. Mailboxes > Permissions > 0. Collection > EX\_Perms
-  - 4. Mailboxes > Permissions > 0. Collection > EX\_SendAs
-  - __4. Mailboxes > Permissions > EX\_AdminGroups__
-  - 4. Mailboxes > Permissions > EX\_MailboxAccess
-  - __4. Mailboxes > Sizing > EX\_StaleMailboxes__
-  - 5. Public Folders > Content > Collection > PF\_ContentScans
-  - 5. Public Folders > Permissions > Collection > PF\_EntitlementScans
-  - 7. Sensitive Data > 0.Collection > EX\_Mailbox\_SDD
-  - 7. Sensitive Data > 0.Collection > EX\_PublicFolder\_SDD
-  - 7. Sensitive Data > EX\_SDDResults
+  - 4. Mailboxes > Permissions > 0. Collection > EX_Delegates
+  - 4. Mailboxes > Permissions > 0. Collection > EX_MBRights
+  - 4. Mailboxes > Permissions > 0. Collection > EX_Perms
+  - 4. Mailboxes > Permissions > 0. Collection > EX_SendAs
+  - __4. Mailboxes > Permissions > EX_AdminGroups__
+  - 4. Mailboxes > Permissions > EX_MailboxAccess
+  - __4. Mailboxes > Sizing > EX_StaleMailboxes__
+  - 5. Public Folders > Content > Collection > PF_ContentScans
+  - 5. Public Folders > Permissions > Collection > PF_EntitlementScans
+  - 7. Sensitive Data > 0.Collection > EX_Mailbox_SDD
+  - 7. Sensitive Data > 0.Collection > EX_PublicFolder_SDD
+  - 7. Sensitive Data > EX_SDDResults
 
 ## Additional Findings (AD, Windows OS) Slide
 
@@ -492,21 +492,21 @@ The Additional Findings (AD, Windows OS) slide (Slide 20) has the following prim
 
 - .Active Directory Inventory
 
-  - 1-AD\_Scan
+  - 1-AD_Scan
 - Active Directory
 
-  - 1.Groups > AD\_StaleGroups
-  - __2.Users > AD\_ServiceAccounts__
-  - 2.Users > AD\_StaleUsers
-  - __2.Users > AD\_UserToken__
-  - __3.Computers > AD\_StaleComputers__
-  - 4.Group Policy > AD\_CPassword
-  - 8.Domains > AD\_DomainReplication
+  - 1.Groups > AD_StaleGroups
+  - __2.Users > AD_ServiceAccounts__
+  - 2.Users > AD_StaleUsers
+  - __2.Users > AD_UserToken__
+  - __3.Computers > AD_StaleComputers__
+  - 4.Group Policy > AD_CPassword
+  - 8.Domains > AD_DomainReplication
 - Windows
 
-  - Authentication > SG\_LSASettings
-  - Authentication > SG\_WDigestSettings
-  - Privileged Accounts > Local Administrators > SG\_LocalAdmins
+  - Authentication > SG_LSASettings
+  - Authentication > SG_WDigestSettings
+  - Privileged Accounts > Local Administrators > SG_LocalAdmins
 
 ## Product Portfolio Slide
 
@@ -538,58 +538,58 @@ The ePHI Data slide (Slide 27) has the following primary job dependencies:
 
 - .Active Directory Inventory
 
-  - 1-AD\_Scan
+  - 1-AD_Scan
 - FileSystem
 
   - 0.Collection > 1-SEEK System Scans
   - 0.Collection > 2-SEEK Bulk Import
   - __0.Collection > 3-FSAA-Exceptions__
-  - 7.Sensitive Data > FS\_DLPResults
+  - 7.Sensitive Data > FS_DLPResults
 
 Data is also supplied by the following jobs when they have been executed:
 
 - AWS
 
-  - 0.Collection > 1.AWS\_OrgScan
-  - 0.Collection > 4.AWS\_S3SDDScan
-  - 8.S3 Sensitive Data > AWS\_SensitiveData
+  - 0.Collection > 1.AWS_OrgScan
+  - 0.Collection > 4.AWS_S3SDDScan
+  - 8.S3 Sensitive Data > AWS_SensitiveData
 - Box
 
-  - 0.Collection > 1-Box\_Access Scans
-  - 0.Collection > 2-Box\_Import
+  - 0.Collection > 1-Box_Access Scans
+  - 0.Collection > 2-Box_Import
 - Databases
 
-  - 0.Collection > Oracle > 0-Oracle\_Servers
-  - 0.Collection > Oracle > 1-Oracle\_PermissionsScan
-  - 0.Collection > Oracle > 2-Oracle\_SensitiveDataScan
-  - 0.Collection > SQL > 0-SQL\_InstanceDiscovery
-  - 0.Collection > SQL > 1-SQL\_PermissionsScan
-  - 0.Collection > SQL > 2-SQL\_SensitiveDataScan
-  - Oracle > 3.Permissions > Oracle\_PublicPermissions
-  - Oracle > 5.Sensitive Data > Oracle\_SensitiveData
-  - SQL > 3.Permissions > SQL\_PublicPermissions
-  - SQL > 5.Sensitive Data > SQL\_SensitiveData
+  - 0.Collection > Oracle > 0-Oracle_Servers
+  - 0.Collection > Oracle > 1-Oracle_PermissionsScan
+  - 0.Collection > Oracle > 2-Oracle_SensitiveDataScan
+  - 0.Collection > SQL > 0-SQL_InstanceDiscovery
+  - 0.Collection > SQL > 1-SQL_PermissionsScan
+  - 0.Collection > SQL > 2-SQL_SensitiveDataScan
+  - Oracle > 3.Permissions > Oracle_PublicPermissions
+  - Oracle > 5.Sensitive Data > Oracle_SensitiveData
+  - SQL > 3.Permissions > SQL_PublicPermissions
+  - SQL > 5.Sensitive Data > SQL_SensitiveData
 - Dropbox
 
-  - 0.Collection > 1-Dropbox\_SDD Scan
-  - 0.Collection > 2-Dropbox\_SDD Bulk Import
-  - 5.Sensitive Data > Dropbox\_SensitiveData
+  - 0.Collection > 1-Dropbox_SDD Scan
+  - 0.Collection > 2-Dropbox_SDD Bulk Import
+  - 5.Sensitive Data > Dropbox_SensitiveData
 - Exchange
 
-  - 7. Sensitive Data > 0.Collection > EX\_Mailbox\_SDD
-  - 7. Sensitive Data > 0.Collection > EX\_PublicFolder\_SDD
+  - 7. Sensitive Data > 0.Collection > EX_Mailbox_SDD
+  - 7. Sensitive Data > 0.Collection > EX_PublicFolder_SDD
   - 7. Sensitive Data > SDDResults
-  - 4. Mailboxes > Permissions > 0. Collection > EX\_Delegates
-  - 4. Mailboxes > Permissions > 0. Collection > EX\_MBRights
-  - 4. Mailboxes > Permissions > 0. Collection > EX\_Perms
-  - 4. Mailboxes > Permissions > 0. Collection > EX\_SendAs
-  - 4. Mailboxes > Permissions > EX\_MailboxAccess
+  - 4. Mailboxes > Permissions > 0. Collection > EX_Delegates
+  - 4. Mailboxes > Permissions > 0. Collection > EX_MBRights
+  - 4. Mailboxes > Permissions > 0. Collection > EX_Perms
+  - 4. Mailboxes > Permissions > 0. Collection > EX_SendAs
+  - 4. Mailboxes > Permissions > EX_MailboxAccess
 - SharePoint
 
-  - 0.Collection > 1-SPSEEK\_SystemScans
-  - 0.Collection > 4-SPSEEK\_BulkImport
-  - __0.Collection > 7-SPAA\_Exceptions__
-  - 6.Sensitive Data > SP\_SensitiveData
+  - 0.Collection > 1-SPSEEK_SystemScans
+  - 0.Collection > 4-SPSEEK_BulkImport
+  - __0.Collection > 7-SPAA_Exceptions__
+  - 6.Sensitive Data > SP_SensitiveData
 
 ## Condition: Stale Data Slide
 
@@ -597,25 +597,25 @@ The Condition: Stale Data slide (Slide 28) has the following primary job depende
 
 - .Active Directory Inventory
 
-  - 1-AD\_Scan
+  - 1-AD_Scan
 - FileSystem
 
   - 0.Collection > 1-SEEK System Scans
   - 0.Collection > 2-SEEK Bulk Import
-  - 7.Sensitive Data > FS\_DLPResults
+  - 7.Sensitive Data > FS_DLPResults
 
 Data is also supplied by the following jobs when they have been executed:
 
 - Dropbox
 
-  - 0.Collection > 1-Dropbox\_SDD Scan
-  - 0.Collection > 2-Dropbox\_SDD Bulk Import
-  - 5.Sensitive Data > Dropbox\_SensitiveData
+  - 0.Collection > 1-Dropbox_SDD Scan
+  - 0.Collection > 2-Dropbox_SDD Bulk Import
+  - 5.Sensitive Data > Dropbox_SensitiveData
 - SharePoint
 
-  - 0.Collection > 1-SPSEEK\_SystemScans
-  - 0.Collection > 4-SPSEEK\_BulkImport
-  - 6.Sensitive Data > SP\_SensitiveData
+  - 0.Collection > 1-SPSEEK_SystemScans
+  - 0.Collection > 4-SPSEEK_BulkImport
+  - 6.Sensitive Data > SP_SensitiveData
 
 ## AD Security Assessment Slide
 
@@ -623,19 +623,19 @@ The AD Security Assessment slide (Slide 29) has the following primary job depend
 
 - .Active Directory Inventory
 
-  - 1-AD\_Scan
-  - 3-AD\_Exceptions
+  - 1-AD_Scan
+  - 3-AD_Exceptions
 - Active Directory
 
-  - 1.Groups > AD\_SensitiveSecurityGroups
-  - 2.Users > AD\_WeakPasswords
-  - 2.Users > AD\_PasswordStatus
-  - 4.Group Policy > AD\_CPassword
+  - 1.Groups > AD_SensitiveSecurityGroups
+  - 2.Users > AD_WeakPasswords
+  - 2.Users > AD_PasswordStatus
+  - 4.Group Policy > AD_CPassword
 - Active Directory Permissions Analyzer
 
-  - 1.Users > AD\_ResetPasswordPermissions
-  - 2.Groups > AD\_GroupMembershipPermissions
-  - 8.Domains > AD\_DomainReplication
+  - 1.Users > AD_ResetPasswordPermissions
+  - 2.Groups > AD_GroupMembershipPermissions
+  - 8.Domains > AD_DomainReplication
 
 ## Windows: Security Assessment Slide
 
@@ -643,13 +643,13 @@ The Windows: Security Assessment slide (Slide 30) has the following primary job 
 
 - .Active Directory Inventory
 
-  - 1-AD\_Scan
+  - 1-AD_Scan
 - Windows
 
-  - Authentication > SG\_LSASettings
-  - Authentication > SG\_WDigestSettings
-  - Privileged Accounts > Local Administrators > SG\_LocalAdmins
-  - Privileged Accounts > Service Accounts > SG\_ServiceAccounts
+  - Authentication > SG_LSASettings
+  - Authentication > SG_WDigestSettings
+  - Privileged Accounts > Local Administrators > SG_LocalAdmins
+  - Privileged Accounts > Service Accounts > SG_ServiceAccounts
 
 ## Shadow Access Rights to ePHI Data Slide
 
@@ -657,39 +657,39 @@ The Shadow Access Rights to ePHI Data slide (Slide 31) has the following primary
 
 - .Active Directory Inventory
 
-  - 1-AD\_Scan
+  - 1-AD_Scan
 - Active Directory
 
-  - 1.Groups > AD\_SensitiveSecurityGroups
-  - 2.Users > AD\_WeakPasswords
+  - 1.Groups > AD_SensitiveSecurityGroups
+  - 2.Users > AD_WeakPasswords
 - Active Directory Permissions Analyzer
 
-  - 0.Collection > AD\_ComputerRights
-  - 0.Collection > AD\_ContainerRights
-  - 0.Collection > AD\_DomainRights
-  - 0.Collection > AD\_GroupRights
-  - 0.Collection > AD\_OURights
-  - 0.Collection > AD\_SiteRights
-  - 0.Collection > AD\_UserRights
-  - 1.Users > AD\_ResetPasswordPermissions
-  - 2.Groups > AD\_GroupMembershipPermissions
-  - 7.Containers > AD\_AdminSDHolder
-  - 8.Domains > AD\_DomainReplication
+  - 0.Collection > AD_ComputerRights
+  - 0.Collection > AD_ContainerRights
+  - 0.Collection > AD_DomainRights
+  - 0.Collection > AD_GroupRights
+  - 0.Collection > AD_OURights
+  - 0.Collection > AD_SiteRights
+  - 0.Collection > AD_UserRights
+  - 1.Users > AD_ResetPasswordPermissions
+  - 2.Groups > AD_GroupMembershipPermissions
+  - 7.Containers > AD_AdminSDHolder
+  - 8.Domains > AD_DomainReplication
 - FileSystem
 
   - 0.Collection > 1-SEEK System Scans
   - 0.Collection > 2-SEEK Bulk Import
-  - 7.Sensitive Data > FS\_DLPResults
+  - 7.Sensitive Data > FS_DLPResults
 - Windows
 
-  - Privileged Accounts > Local Administrators > SG\_LocalAdmins
-  - Privileged Accounts > Local Administrators > SG\_Sessions
+  - Privileged Accounts > Local Administrators > SG_LocalAdmins
+  - Privileged Accounts > Local Administrators > SG_Sessions
 
 Data is also supplied by the following jobs when they have been executed:
 
 - Databases
 
-  - 0.Collection > SQL > 0-SQL\_InstanceDiscovery
-  - 0.Collection > SQL > 1-SQL\_PermissionsScan
-  - 0.Collection > SQL > 2-SQL\_SensitiveDataScan
-  - SQL > 5.Sensitive Data > SQL\_SensitiveData
+  - 0.Collection > SQL > 0-SQL_InstanceDiscovery
+  - 0.Collection > SQL > 1-SQL_PermissionsScan
+  - 0.Collection > SQL > 2-SQL_SensitiveDataScan
+  - SQL > 5.Sensitive Data > SQL_SensitiveData

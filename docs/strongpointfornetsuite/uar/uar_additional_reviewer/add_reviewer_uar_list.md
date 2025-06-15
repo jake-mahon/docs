@@ -46,9 +46,9 @@ When you open a global review using the __Name__ link in the UAR list, the Revi
 
 ![Review list of associated single reviews under a global review](/img/product_docs/strongpointfornetsuite/uar/uar_owner/review_list.webp)
 
-- __Export__ exports the list of selected reviews as either a __CSV__ or __PDF__ file. The exported file is named _Reviews\_Group\_List_.
-- __Extract Membership Detail__ creates a CSV file (_Membership\_Report.csv_) of the membership details for the reviews.
-- __Extract Permission Detail__creates a CSV file (_Permission\_Report.csv_) of the permission details for the reviews.
+- __Export__ exports the list of selected reviews as either a __CSV__ or __PDF__ file. The exported file is named _Reviews_Group_List_.
+- __Extract Membership Detail__ creates a CSV file (_Membership_Report.csv_) of the membership details for the reviews.
+- __Extract Permission Detail__creates a CSV file (_Permission_Report.csv_) of the permission details for the reviews.
 - __Review Name__ is a link to the [Membership](/docs/strongpointfornetsuite/uar/uar_additional_reviewer/add_reviewer_membership_reviews.md) __Review__ tab. Reviews can also be opened via links in dashboard or email __Notifications__.
 - __Role Name__ the role being reviewed.
 - __Review Type__ is the type of review: __Membership__ or __Permission__. The review type is set when the review is created.

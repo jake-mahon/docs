@@ -18,7 +18,7 @@ This issue can also occur if the following registry location is edited manually.
 
 Resolution:
 
-To resolve the issue regardless of either cause above, delete the ppBRsitelist\_v2.xml file located in the User's Local app data directory ```%LocalAppData%\PolicyPak\PolicyPak Browser Router\ppBRsitelist_v2.xml```.
+To resolve the issue regardless of either cause above, delete the ppBRsitelist_v2.xml file located in the User's Local app data directory ```%LocalAppData%\PolicyPak\PolicyPak Browser Router\ppBRsitelist_v2.xml```.
 
 Then run ```GPUPDATE``` or ```GPUPDATE /FORCE``` to restore PPBR functionality and ensure proper redirection of websites to Edge in IE-tab mode.
 

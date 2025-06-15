@@ -1,4 +1,4 @@
-# AD\_ShadowAccess Job
+# AD_ShadowAccess Job
 
 This job finds shadow access that leads to compromise of a domain or sensitive data. Attackers can chain vulnerabilities to escalate privileges from a non-privileged user to administrator with only a few steps. This job will generate the shortest path between every non-privileged user to a domain administrative group, total domain compromise, or access to sensitive data.
 
@@ -14,11 +14,11 @@ This job will analyze the following links between resources and privileges in yo
 - Local administrators that can dump hashes from user sessions
 - Administrative rights on SQL Servers that hold sensitive data
 
-The AD\_ShadowAccess Job has special dependencies. See the [Recommended Configurations for AD Permissions Analyzer Solution](/docs/accessanalyzer/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/recommended.md) topic for additional information.
+The AD_ShadowAccess Job has special dependencies. See the [Recommended Configurations for AD Permissions Analyzer Solution](/docs/accessanalyzer/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/recommended.md) topic for additional information.
 
-## Analysis Tasks for the AD\_ShadowAccess Job
+## Analysis Tasks for the AD_ShadowAccess Job
 
-Navigate to the __Active Directory Permissions Analyzer__ > __AD\_ShadowAccess__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Active Directory Permissions Analyzer__ > __AD_ShadowAccess__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks, with the exception of the __Calculate Shadow Access__ analysis tasks. The analysis tasks are preconfigured for this job. The __Calculate Shadow Access__ analysis task is the only analysis task that has customizable parameters.
 
@@ -30,41 +30,41 @@ The default analysis tasks are:
 - Dijkstra – Creates an interim processing table in the database for use by downstream analysis and report generation
 - Path Formatting – Creates an interim processing table in the database for use by downstream analysis and report generation
 - String Split – Creates an interim processing table in the database for use by downstream analysis and report generation
-- Calculate Shadow Access – Creates the SA\_ShadowAccess\_Details table accessible under the job’s Results node
+- Calculate Shadow Access – Creates the SA_ShadowAccess_Details table accessible under the job’s Results node
 
-  - This Analysis Task has configurable parameters. See the [Configure the Analysis Tasks for the AD\_ShadowAccess Job](#configure-the-analysis-tasks-for-the-ad_shadowaccess-job) topic for additional information.
+  - This Analysis Task has configurable parameters. See the [Configure the Analysis Tasks for the AD_ShadowAccess Job](#configure-the-analysis-tasks-for-the-ad_shadowaccess-job) topic for additional information.
 - Shadow Access Paths Cleanup – Removes calculated rows that are no longer used
 
-In addition to the tables and views created by the analysis tasks, the AD\_ShadowAccess Job produces the following pre-configured reports.
+In addition to the tables and views created by the analysis tasks, the AD_ShadowAccess Job produces the following pre-configured reports.
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |
 | Domain Shadow Access | This report will calculate the shortest path between highly sensitive privileges and non-privileged users. | None | This report is comprised of five elements:   - Bar Chart – Displays summary information on targeted domain - Table – Provides details on targeted domain in table form - Table – Provides details on exploited permissions - Table – Provides details on vulnerabilities - Table – Provides details on domain users and attack paths that can be used against those domain users |
 | Sensitive Data Shadow Access | This report will calculate the shortest path between highly sensitive data and non-privileged users. | None | This report is comprised of five elements:   - Bar Chart – Displays summary information on sensitive data - Table – Provides details on sensitive data in table form - Table – Provides details on exploited permissions - Table – Provides details on vulnerabilities - Table – Provides details on domain users and attack paths that can be used against those domain users |
 
-See the [Report Functions for the AD\_ShadowAccess Job](#report-functions-for-the-ad_shadowaccess-job) topic for additional information.
+See the [Report Functions for the AD_ShadowAccess Job](#report-functions-for-the-ad_shadowaccess-job) topic for additional information.
 
-### Customizable Analysis Tasks for the AD\_ShadowAccess Job
+### Customizable Analysis Tasks for the AD_ShadowAccess Job
 
 The default values for customizable parameters are:
 
 | Analysis Task | Customizable Parameter Name | Default Value | Instruction |
 | --- | --- | --- | --- |
 | Calculate Shadow Access | @session | 1 | Set to 0 to turn off Session Analysis |
-| @shared\_password | 0 | Set to 0 to turn of Shared Password Analysis |  |
-| @modify\_group\_membership | 1 | Set to 0 to turn off Modify Group Membership analysis |  |
-| @sensitive\_data | 1 | Set to 0 to ignore sensitive data attacks |  |
+| @shared_password | 0 | Set to 0 to turn of Shared Password Analysis |  |
+| @modify_group_membership | 1 | Set to 0 to turn off Modify Group Membership analysis |  |
+| @sensitive_data | 1 | Set to 0 to ignore sensitive data attacks |  |
 | @dcsync | 1 | Set to 0 to ignore dcsync rights |  |
 | @sdholder | 1 | Set to 0 to ignore sdadminholder |  |
 | @disabled | 0 | Set to 0 to ignore disabled users |  |
 
-See the [Configure the Analysis Tasks for the AD\_ShadowAccess Job](#configure-the-analysis-tasks-for-the-ad_shadowaccess-job) topic for additional information.
+See the [Configure the Analysis Tasks for the AD_ShadowAccess Job](#configure-the-analysis-tasks-for-the-ad_shadowaccess-job) topic for additional information.
 
-### Configure the Analysis Tasks for the AD\_ShadowAccess Job
+### Configure the Analysis Tasks for the AD_ShadowAccess Job
 
 Customizable parameters enable Access Analyzer users to set the values used to classify user and group objects during this job’s analysis. The parameters can be customized and are listed in a section at the bottom of the SQL Script Editor. Follow the steps to customize an analysis task’s parameters.
 
-__Step 1 –__  Navigate to the __Active Directory Permissions Analyzer__ > __AD\_ShadowAccess__ > __Configure__ node and select __Analysis__ to view analysis tasks.
+__Step 1 –__  Navigate to the __Active Directory Permissions Analyzer__ > __AD_ShadowAccess__ > __Configure__ node and select __Analysis__ to view analysis tasks.
 
 ![Configure Calculate Shadow Access task from Analysis Selection view](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/shadowaccessanalysisconfigure.webp)
 
@@ -82,13 +82,13 @@ __Step 4 –__  Click __Save and Close__ to finalize the customization and close
 
 The customizable analysis task parameters are now configured and ready to run.
 
-### Report Functions for the AD\_ShadowAccess Job
+### Report Functions for the AD_ShadowAccess Job
 
-The reports generated by the AD\_ShadowAccess Job presents users with an overview of vulnerabilities and attack paths within the targeted environments.
+The reports generated by the AD_ShadowAccess Job presents users with an overview of vulnerabilities and attack paths within the targeted environments.
 
 ![Shadow Access reports in the job's Results node](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/shadowaccessreports.webp)
 
-Navigate to the __Active Directory Permissions Analyzer__ > __AD\_ShadowAccess__ > __Results__ node to view the AD\_ShadowAccess job reports.
+Navigate to the __Active Directory Permissions Analyzer__ > __AD_ShadowAccess__ > __Results__ node to view the AD_ShadowAccess job reports.
 
 __NOTE:__ These reports can also be accessed through the Web Console. See the [Viewing Generated Reports](/docs/accessanalyzer/enterpriseauditor/admin/report/view.md) topic for additional information.
 

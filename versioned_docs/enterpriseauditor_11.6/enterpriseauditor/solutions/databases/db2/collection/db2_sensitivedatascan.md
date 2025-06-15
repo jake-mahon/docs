@@ -1,8 +1,8 @@
-# 1-Db2\_SensitiveDataScan
+# 1-Db2_SensitiveDataScan
 
 This job discovers sensitive data in the Db2 databases across all the targeted Db2 database servers based on pre-defined or user-defined criteria.
 
-## Queries for the 1-Db2\_Sensitive Data Scan Job
+## Queries for the 1-Db2_Sensitive Data Scan Job
 
 The 1-Db2 Sensitive Data Job uses the SQL Data Collector for the following queries.
 
@@ -16,7 +16,7 @@ The query is:
 
 It is only necessary to set up the connection for the 1-Db2 SensitiveDataScan Job. Once the connection is established, custom configurations apply to all other job queries within the 0.Collection job group. Follow the steps to customize configurations.
 
-__Step 1 –__ Navigate to the Databases > 0.Collection > Db2 > 1-Db2\_SensitiveDataScan > Configure node and select Queries.
+__Step 1 –__ Navigate to the Databases > 0.Collection > Db2 > 1-Db2_SensitiveDataScan > Configure node and select Queries.
 
 __Step 2 –__ In the Query Selection view, select the SensitiveDataScan query click on Query Properties. The Query Properties window appears.
 
@@ -77,11 +77,11 @@ Selected database objects to be audited will display.
 
 __Step 15 –__ Click __Next__ and navigate to the Summary page, click Finish to save any setting modifications or click Cancel if no changes were made. Then click OK to close the Query Properties window.
 
-The 1-Db2\_SensitsveDataScan Job is now ready to run with the customized settings.
+The 1-Db2_SensitsveDataScan Job is now ready to run with the customized settings.
 
-## Analysis Tasks for the 1-Db2\_SensitiveDataScan Job
+## Analysis Tasks for the 1-Db2_SensitiveDataScan Job
 
-Navigate to the __Databases__ > __0.Collection__ > __Db2__ > __1-Db2\_SensitiveDataScan__ > __Configure__ node and select __Analysis__ to view the Analysis Tasks.
+Navigate to the __Databases__ > __0.Collection__ > __Db2__ > __1-Db2_SensitiveDataScan__ > __Configure__ node and select __Analysis__ to view the Analysis Tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 

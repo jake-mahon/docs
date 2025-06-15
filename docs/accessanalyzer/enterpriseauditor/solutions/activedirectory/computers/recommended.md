@@ -28,7 +28,7 @@ The 3.Computers Job Group should be run with the default analysis configurations
 
 Some analysis tasks have customizable parameters:
 
-- The __Active Directory__ > __3.Computers__ > __AD\_StaleComputers__ Job defines stale users. The parameters can be customized.
+- The __Active Directory__ > __3.Computers__ > __AD_StaleComputers__ Job defines stale users. The parameters can be customized.
 
 Workflow
 

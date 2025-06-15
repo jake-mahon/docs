@@ -1,4 +1,4 @@
-# Configuration > MySQL\_DatabaseSizing Job
+# Configuration > MySQL_DatabaseSizing Job
 
 The Configuration Job Group is designed to provide insight into MySQL server configuration settings.
 
@@ -6,11 +6,11 @@ The Configuration Job Group is designed to provide insight into MySQL server co
 
 The job in the Configuration Job Group is:
 
-- MySQL\_DatabaseSizing Job - Provides details on database table sizes and overall database size
+- MySQL_DatabaseSizing Job - Provides details on database table sizes and overall database size
 
-### Analysis Tasks for the MySQL\_DatabaseSizing Job
+### Analysis Tasks for the MySQL_DatabaseSizing Job
 
-Navigate to the __Jobs > Databases > MySQL > Configuration > MySQL\_DatabaseSizing > Configure__ node and select Analysis to view the Analysis Tasks.
+Navigate to the __Jobs > Databases > MySQL > Configuration > MySQL_DatabaseSizing > Configure__ node and select Analysis to view the Analysis Tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -21,7 +21,7 @@ The default analysis tasks are:
 - Database Details - Returns size details for MySQL databases
 - Database Summary - Summarizes database sizes by host
 
-In addition to the tables and views created the analysis task, the MySQL\_DatabaseSizing Job produces the following pre-configured reports.
+In addition to the tables and views created the analysis task, the MySQL_DatabaseSizing Job produces the following pre-configured reports.
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

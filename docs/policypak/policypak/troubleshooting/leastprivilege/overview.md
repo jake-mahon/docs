@@ -10,10 +10,10 @@ In all cases, you can see detailed information about the occurrence within the E
 
 First, you need to open the correct log file, based on the activity that has occurred, to see which Endpoint Policy Manager Least Privilege Manager policies you have. There are several files to check:
 
-- ppUser\_OnLogon.log. This log gets new data when Group Policy applies at logon, and items are set for the User side, not the Computer side.
-- ppUser\_Switched.log. This log file is updated when Group Policy applies at logon, but items are set for the Computer side.
-- ppUser\_OnGroupPolicy.log. This log gets new data when Group Policy applies in the background when GPupdate is run, or when Group Policy applies in the background.
-- ppUser\_onPolicyChanged.log. This log file is updated when Group Policy applies in the background, or when a non-Group Policy method is used (e.g., Microsoft Endpoint Manager (SCCM and Intune) or Endpoint Policy Manager Cloud).
+- ppUser_OnLogon.log. This log gets new data when Group Policy applies at logon, and items are set for the User side, not the Computer side.
+- ppUser_Switched.log. This log file is updated when Group Policy applies at logon, but items are set for the Computer side.
+- ppUser_OnGroupPolicy.log. This log gets new data when Group Policy applies in the background when GPupdate is run, or when Group Policy applies in the background.
+- ppUser_onPolicyChanged.log. This log file is updated when Group Policy applies in the background, or when a non-Group Policy method is used (e.g., Microsoft Endpoint Manager (SCCM and Intune) or Endpoint Policy Manager Cloud).
 
 Start troubleshooting by verifying that the following conditions (seen here) are true:
 
@@ -25,7 +25,7 @@ Start troubleshooting by verifying that the following conditions (seen here) are
 
 Description automatically generated](/img/product_docs/policypak/policypak/troubleshooting/preferences/troubleshooting_1.webp)
 
-The final log to check is the ppUser\_Operational.log, which can indicate why something is denied (blocked), allowed, or elevated. It shows what was trying to run and which GPO, collection, and policy performed the action, along with the ultimate result. For example, this log shows a Deny result.
+The final log to check is the ppUser_Operational.log, which can indicate why something is denied (blocked), allowed, or elevated. It shows what was trying to run and which GPO, collection, and policy performed the action, along with the ultimate result. For example, this log shows a Deny result.
 
 ![A screenshot of a computer code
 
@@ -49,7 +49,7 @@ Additionally, as expressed earlier, you can also see when Admin Approval dialogs
 
 Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/adminapproval/avoid_pop_ups_with_admin_approval_1.webp)
 
-Additionally, Admin Approval is logged in the ppUser\_Operational.log file as well, which shows when applications require Admin privileges and when the user successfully enters in a response code from an Admin when he or she uses the Endpoint Policy Manager Admin Approval Tool.
+Additionally, Admin Approval is logged in the ppUser_Operational.log file as well, which shows when applications require Admin privileges and when the user successfully enters in a response code from an Admin when he or she uses the Endpoint Policy Manager Admin Approval Tool.
 
 __NOTE:__ The Reason Code is also stored here and is a fixed list from within the Endpoint Policy Manager Admin Approval Tool.
 

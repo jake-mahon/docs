@@ -9,7 +9,7 @@ This report lists the properties of databases and database snapshots hosted on t
 For each database, the following information is reported:
 
 - __Database name__
-- __Restrict access__ mode— as set in the database properties __>Options>State__. Possible values are: _Multi\_user_ (for _Multiple_), _Restricted_, _Single_. See [this Microsoft article](https://docs.microsoft.com/en-us/sql/relational-databases/databases/database-properties-options-page?view=sql-server-ver15) for details.
+- __Restrict access__ mode— as set in the database properties __>Options>State__. Possible values are: _Multi_user_ (for _Multiple_), _Restricted_, _Single_. See [this Microsoft article](https://docs.microsoft.com/en-us/sql/relational-databases/databases/database-properties-options-page?view=sql-server-ver15) for details.
 - __State__— as set in the database properties__>Options>State__. See [this Microsoft article](https://docs.microsoft.com/en-us/sql/relational-databases/databases/database-states?view=sql-server-ver15) for details
 - __Size (MB)__
 - __Shrink enabled__— as set in the database properties __>Options>Automatic>Auto Shrink__. See [this Microsoft article](https://docs.microsoft.com/en-us/sql/relational-databases/databases/database-properties-options-page?view=sql-server-ver15) for details.

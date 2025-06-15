@@ -1,10 +1,10 @@
-# Oracle\_DomainUserPermissions Job
+# Oracle_DomainUserPermissions Job
 
-The Oracle\_DomainUserPermissions Job provides insight into Microsoft Active Directory domain user accesses to Oracle database objects both at the instance and object level.
+The Oracle_DomainUserPermissions Job provides insight into Microsoft Active Directory domain user accesses to Oracle database objects both at the instance and object level.
 
-## Analysis Tasks for the Oracle\_DomainUserPermissions Job
+## Analysis Tasks for the Oracle_DomainUserPermissions Job
 
-Navigate to the __Oracle__ > __3.Permissions__ > __Oracle\_DomainUserPermissions__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Oracle__ > __3.Permissions__ > __Oracle_DomainUserPermissions__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,10 +12,10 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The default analysis tasks are:
 
-- Calculate domain user permissions details – Creates the SA\_ORACLE\_DomainUserPermissions\_Details table accessible under the job’s Results node
-- Summarize domain user permissions – Creates the SA\_ORACLE\_DomainUserPermissions\_Summary table accessible under the job’s Results node
+- Calculate domain user permissions details – Creates the SA_ORACLE_DomainUserPermissions_Details table accessible under the job’s Results node
+- Summarize domain user permissions – Creates the SA_ORACLE_DomainUserPermissions_Summary table accessible under the job’s Results node
 
-In addition to the tables and views created by the analysis tasks, the Oracle\_DomainUserPermissions Job produces the following pre-configured report.
+In addition to the tables and views created by the analysis tasks, the Oracle_DomainUserPermissions Job produces the following pre-configured report.
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

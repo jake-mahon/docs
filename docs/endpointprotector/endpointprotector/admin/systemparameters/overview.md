@@ -45,7 +45,7 @@ __Step 5 –__ Click __Save__ to finalize your custom notification.
 
 ![Custom Content Aware Protection Notiﬁcations](/img/product_docs/endpointprotector/endpointprotector/admin/systemparameters/capnotifications.png)
 
-For example, the file named 'financial\_report.xlsx' (`\{fileName\}`) was classified as 'Confidential' (`\{type\}`) because it contains confidential data.
+For example, the file named 'financial_report.xlsx' (`\{fileName\}`) was classified as 'Confidential' (`\{type\}`) because it contains confidential data.
 
 Once created, you can associate the custom notification with a specific Content Aware Policy using the Notification Template drop-down menu.
 
@@ -319,9 +319,9 @@ In this section, you can customize the User Remediation notiﬁcation, manage se
 
   __NOTE:__ The following credential formats are accepted for login:
 
-  - Local user - computer\_name\username (John-PC\John)
+  - Local user - computer_name\username (John-PC\John)
   - LDAP/AD user
-  - domain\_name\username (epp.com\John)
+  - domain_name\username (epp.com\John)
   - ip\username (192.168.14.140\John)
 - Time Interval – enter the time interval in which the end-user can remediate a Block and Remediated threat or a restricted-access device
 - Maximum Time Interval – enter the maximum time interval in which the end-user can remediate a Block and Remediated threat or restricted-access device

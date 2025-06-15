@@ -1,10 +1,10 @@
-# AD\_DCShadowPermissions Job
+# AD_DCShadowPermissions Job
 
-The AD\_DCShadowPermissions Job highlights all Active Directory users that are capable of potentially performing a DCShadow attack within the targeted domains.
+The AD_DCShadowPermissions Job highlights all Active Directory users that are capable of potentially performing a DCShadow attack within the targeted domains.
 
-## Analysis Tasks for the AD\_DCShadowPermissions Job
+## Analysis Tasks for the AD_DCShadowPermissions Job
 
-Navigate to the __Active Directory Permissions Analyzer__ > __9.Sites__ > __AD\_DCShadowPermissions__ > __Configure__ node and select __Analysis__ to view analysis tasks.
+Navigate to the __Active Directory Permissions Analyzer__ > __9.Sites__ > __AD_DCShadowPermissions__ > __Configure__ node and select __Analysis__ to view analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,10 +12,10 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The default analysis tasks are:
 
-- DCShadow Permissions – Creates the SA\_AD\_DCShadowPermissions\_Details table accessible under the job’s Results node
-- DCShadow Summary – Creates the SA\_AD\_DCShadowPermission\_Summary table accessible under the job’s Results node
+- DCShadow Permissions – Creates the SA_AD_DCShadowPermissions_Details table accessible under the job’s Results node
+- DCShadow Summary – Creates the SA_AD_DCShadowPermission_Summary table accessible under the job’s Results node
 
-In addition to the tables and views created by the analysis tasks, the AD\_DCShadowPermisssions Job produces the following pre-configured report.
+In addition to the tables and views created by the analysis tasks, the AD_DCShadowPermisssions Job produces the following pre-configured report.
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

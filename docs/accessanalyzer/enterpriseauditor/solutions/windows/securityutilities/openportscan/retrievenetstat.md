@@ -24,9 +24,9 @@ __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis 
 
 The default analysis tasks are:
 
-- 1. NETSTAT Result – Creates the SA\_RetrieveNetstat\_NETSTAT table accessible under the job’s Results node
+- 1. NETSTAT Result – Creates the SA_RetrieveNetstat_NETSTAT table accessible under the job’s Results node
 
-In addition to the tables and views created by the analysis tasks, the EX\_DeliveryTimes job produces the following pre-configured report.
+In addition to the tables and views created by the analysis tasks, the EX_DeliveryTimes job produces the following pre-configured report.
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

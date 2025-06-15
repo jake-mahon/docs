@@ -11,9 +11,9 @@ The following settings are needed from your tenant once you have registered the 
 - Client ID – This is the Application (client) ID for the registered application
 - Key – The comma delimited string containing the path to the certificate PFX file, certificate password, and the Microsoft Entra ID environment identifier ( ```CertPath,CertPassword,AzureEnvironment```)
 
-Configure Modern Authentication for SharePoint Online using SP\_RegisterAzureAppAuth Instant Job
+Configure Modern Authentication for SharePoint Online using SP_RegisterAzureAppAuth Instant Job
 
-Registering a Microsoft Entra ID application and provisioning it to grant permissions to SharePoint Online can be automated using the SP\_RegisterAzureAppAuth job from the Access Analyzer Instant Job Library. The SP\_RegisterAzureAppAuth job uses the PowerShell Data Collector to automatically configure modern authentication for SharePoint Online. It requires:
+Registering a Microsoft Entra ID application and provisioning it to grant permissions to SharePoint Online can be automated using the SP_RegisterAzureAppAuth job from the Access Analyzer Instant Job Library. The SP_RegisterAzureAppAuth job uses the PowerShell Data Collector to automatically configure modern authentication for SharePoint Online. It requires:
 
 - A Connection Profile containing the following two user credentials, both with an Account Type of __Task (Local)__:
 
@@ -21,7 +21,7 @@ Registering a Microsoft Entra ID application and provisioning it to grant permis
   - A credential with the username ```newapp``` that contains the password for the new application
 - Microsoft Graph API PowerShell module to be installed on targeted hosts
 
-See the [SP\_RegisterAzureAppAuth Job](/docs/accessanalyzer/enterpriseauditor/admin/jobs/instantjobs/sp_registerazureappauth.md) topic for additional information.
+See the [SP_RegisterAzureAppAuth Job](/docs/accessanalyzer/enterpriseauditor/admin/jobs/instantjobs/sp_registerazureappauth.md) topic for additional information.
 
 ## Permissions
 

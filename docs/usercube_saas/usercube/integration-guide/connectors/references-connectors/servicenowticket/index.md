@@ -20,7 +20,7 @@ ServiceNow
 Implementing this connector requires:
 
 - reading first the [appsettings.agent](/docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)documentation;
-- a service account with the __snc\_platform\_rest\_api\_access__ role, as well as reading and writing permissions on the target ServiceNow instance;
+- a service account with the __snc_platform_rest_api_access__ role, as well as reading and writing permissions on the target ServiceNow instance;
 - the version ServiceNow London or later;
 - the appropriate configuration in ServiceNow of authentication, Basic or OAuth.
 
@@ -65,7 +65,7 @@ ServiceNow
 
 See the [appsettings.agent](/docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) topic to learn more on how to configure password reset settings.
 
-When setting a password for a ServiceNow user, the password attribute is set to the chosen value and the user's __password\_needs\_reset__ attribute is set to ```true```.
+When setting a password for a ServiceNow user, the password attribute is set to the chosen value and the user's __password_needs_reset__ attribute is set to ```true```.
 
 ### Credential protection
 

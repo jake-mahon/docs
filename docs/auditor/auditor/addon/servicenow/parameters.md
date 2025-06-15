@@ -62,20 +62,20 @@ __NOTE:__ The template remains the same for all alerts and cannot be adjusted pe
 
 | Name | Value | Description |
 | --- | --- | --- |
-| short\_description | [Netwrix Auditor] %AlertName% | Sets __Short__ description to alert title (e.g., _[Netwrix Auditor] ITSM Add-On: User Account Locked Out)_. |
+| short_description | [Netwrix Auditor] %AlertName% | Sets __Short__ description to alert title (e.g., _[Netwrix Auditor] ITSM Add-On: User Account Locked Out)_. |
 | category | software | Sets the incident __Category__ to "_Software_". |
 | impact | 1 | Sets __Impact__ to "_1 – High_". |
 | urgency | 1 | Sets __Urgency__ to "_1 – High_". |
 | severity | 1 | Sets __Severity__ to "_1 – High_". |
-| assignment\_ group | d625dccec0a8016700a22a0  f7900d06 | Sets __Assignment__ group to "_Service Desk_".  __NOTE:__ You cannot use a group name as a value. Provide its guid instead. |
+| assignment_ group | d625dccec0a8016700a22a0  f7900d06 | Sets __Assignment__ group to "_Service Desk_".  __NOTE:__ You cannot use a group name as a value. Provide its guid instead. |
 | description | %AlertDescription%  %PreviousTicketReference% | Provides an alert description and references to related tickets in __Description__. |
-| work\_notes | Alert Details:  ... | Adds the full alert text to Work notes, including data source, who, what, where, etc.  To find out what is included in the alert details, see the __ServiceNowSettings.xml__ file.  __NOTE:__ You can write alert details in the __Additional comments__ field instead of Work notes. To do this, rename ```<Name>work_notes</Name> ```into ```<Name>comments</Name>```.  If you want to write alert details into both fields, create a copy of ```<TicketParameter>``` entry containing work\_notes and ```<Name>work_notes</Name>``` into ```<Name>comments</Name```.  To skip alert details, remove entries for work\_notes or comments. |
+| work_notes | Alert Details:  ... | Adds the full alert text to Work notes, including data source, who, what, where, etc.  To find out what is included in the alert details, see the __ServiceNowSettings.xml__ file.  __NOTE:__ You can write alert details in the __Additional comments__ field instead of Work notes. To do this, rename ```<Name>work_notes</Name> ```into ```<Name>comments</Name>```.  If you want to write alert details into both fields, create a copy of ```<TicketParameter>``` entry containing work_notes and ```<Name>work_notes</Name>``` into ```<Name>comments</Name```.  To skip alert details, remove entries for work_notes or comments. |
 
 __Step 5 –__ Review the ```<CorrelationTicketFormat>``` section. It shows what information about related tickets will be included in your current ticket. Update the template if necessary.
 
 | CorrelationTicketFormat | Description |
 | --- | --- |
-| Previous incident for the same alert type:  Number: %number%  Opened: %opened\_at%  Assigned to: %assigned\_to%  Assignment group: %assignment\_group%  State: %state% | Each``` %parameter%``` corresponds to a ServiceNow ticket field. The service will automatically substitute these parameters with values from a related ticket.  Rearrange fields or add more if necessary. To find out a field name in ServiceNow, switch to XML view (on the ticket header, navigate to __Show XML__). |
+| Previous incident for the same alert type:  Number: %number%  Opened: %opened_at%  Assigned to: %assigned_to%  Assignment group: %assignment_group%  State: %state% | Each``` %parameter%``` corresponds to a ServiceNow ticket field. The service will automatically substitute these parameters with values from a related ticket.  Rearrange fields or add more if necessary. To find out a field name in ServiceNow, switch to XML view (on the ticket header, navigate to __Show XML__). |
 
 __Step 6 –__ Review the ```<ReopenTicketOptions>``` section. It defines the tickets the add- on can reopen automatically.
 

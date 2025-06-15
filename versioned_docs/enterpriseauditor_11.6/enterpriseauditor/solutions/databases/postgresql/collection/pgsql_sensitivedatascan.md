@@ -1,10 +1,10 @@
-# PgSQL\_SensitiveDataScan Job
+# PgSQL_SensitiveDataScan Job
 
-The PgSQL\_SensitiveDataScan Job is designed to discover sensitive data in PostgreSQL databases based on pre-defined or user-defined search criteria.
+The PgSQL_SensitiveDataScan Job is designed to discover sensitive data in PostgreSQL databases based on pre-defined or user-defined search criteria.
 
-## Queries for the PgSQL\_SensitiveDataScan Job
+## Queries for the PgSQL_SensitiveDataScan Job
 
-The PgSQL\_SensitiveDataScan Job uses the SQL Data Collector.
+The PgSQL_SensitiveDataScan Job uses the SQL Data Collector.
 
 ![Query Selection](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/postgresql/collection/sensitivedataquery.png)
 
@@ -14,9 +14,9 @@ The query is:
 
 ### Configure the SensitiveDataScan Query
 
-The PgSQL\_SensitiveDataScan Job is preconfigured to run using the default settings for the Sensitive Data Collection category. Follow the steps to customize configurations.
+The PgSQL_SensitiveDataScan Job is preconfigured to run using the default settings for the Sensitive Data Collection category. Follow the steps to customize configurations.
 
-__Step 1 –__ Navigate to the __Databases__ > __0.Collection__ > __PostgreSQL__ > __PgSQL\_SensitiveDataScan__ > __Configure__ node and select Queries.
+__Step 1 –__ Navigate to the __Databases__ > __0.Collection__ > __PostgreSQL__ > __PgSQL_SensitiveDataScan__ > __Configure__ node and select Queries.
 
 __Step 2 –__ In the Query Selection view, select the __PostgreSQL__ query click on Query Properties. The Query Properties window appears.
 
@@ -58,11 +58,11 @@ __Step 8 –__ On the Filter page, the query is configured by default to target 
 
 __Step 9 –__ Navigate to the Summary page, click Finish to save any setting modifications or click Cancel if no changes were made. Then click OK to close the Query Properties window.
 
-The PgSQL\_SensitiveDataScan Job is now ready to run with the customized settings.
+The PgSQL_SensitiveDataScan Job is now ready to run with the customized settings.
 
-## Anaylsis Tasks for the PsgSQL\_SensitiveDataScan Job
+## Anaylsis Tasks for the PsgSQL_SensitiveDataScan Job
 
-Navigate to the __Databases__ > __0.Collection__ > __PostgreSQL__ > __PgSQL\_SensitiveDataScan__ > __Configure__ node and select Analysis to view the analysis tasks.
+Navigate to the __Databases__ > __0.Collection__ > __PostgreSQL__ > __PgSQL_SensitiveDataScan__ > __Configure__ node and select Analysis to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -70,7 +70,7 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The default analysis tasks are:
 
-- Bring SA\_SQL\_Instances to View — Displays the SA\_SQL\_Instances table
+- Bring SA_SQL_Instances to View — Displays the SA_SQL_Instances table
 - PostgreSQL SDD Matches View — Bring the PostgreSQL SDD Matches View to the SA console
 - PostgreSQL SDD Match Hits View — Bring the PostgreSQL SDD Match Hits View to the SA console
 - PostgreSQL SDD AIC Import — Imports PostgreSQL SDD into the AIC

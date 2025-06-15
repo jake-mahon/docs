@@ -58,7 +58,7 @@ The GroupID Configuration Tool enables you to specify the service accounts to us
 
 | Services | Service Account Description |
 | --- | --- |
-| GroupID App Pool in IIS | Use a domain account or a Group Managed Service Account (gMSA).  The account must be a member of the Administrators group or both the Backup Operators and IIS\_IUSRS groups.  The account is used to manage the GroupID app pool in IIS. Data service, Mobile service, Security service, and the portals run under the app pool.  For a Microsoft Entra ID identity store, you can specify a local account (with local administrator rights) in app pool for a machine that is not joined to any domain. |
+| GroupID App Pool in IIS | Use a domain account or a Group Managed Service Account (gMSA).  The account must be a member of the Administrators group or both the Backup Operators and IIS_IUSRS groups.  The account is used to manage the GroupID app pool in IIS. Data service, Mobile service, Security service, and the portals run under the app pool.  For a Microsoft Entra ID identity store, you can specify a local account (with local administrator rights) in app pool for a machine that is not joined to any domain. |
 | Windows services | Use a domain account, system user account, or gMSA.  The account must be a member of the Backup Operators group.  The account is used to run the Windows services for GroupID, as discussed in the [Third-party Services](#third-party-services) topic. |
 
 ## Elasticsearch Clusters, Nodes, and GroupID

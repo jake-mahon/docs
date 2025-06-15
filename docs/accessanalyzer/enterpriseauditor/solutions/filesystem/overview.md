@@ -50,14 +50,14 @@ The File System Solution is available with the File System Reports license featu
 
 - [0.Collection Job Group](/docs/accessanalyzer/enterpriseauditor/solutions/filesystem/collection/overview.md) – Designed to collect information from targeted file servers. Information collected includes access control information, activity events, and sensitive data.
   - This job group is available with the File System license feature.
-- [1.Open Access > FS\_OpenAccess Job](/docs/accessanalyzer/enterpriseauditor/solutions/filesystem/fs_openaccess.md) – Designed to report on Open Access information from targeted file servers
+- [1.Open Access > FS_OpenAccess Job](/docs/accessanalyzer/enterpriseauditor/solutions/filesystem/fs_openaccess.md) – Designed to report on Open Access information from targeted file servers
 - [2.Direct Permissions Job Group](/docs/accessanalyzer/enterpriseauditor/solutions/filesystem/directpermissions/overview.md) – Designed to report on Direct Permissions information from targeted file servers
-- [3.Broken Inheritance > FS\_BrokenInheritance Job](/docs/accessanalyzer/enterpriseauditor/solutions/filesystem/fs_brokeninheritance.md) – Designed to report on Broken Inheritance information from targeted file servers
+- [3.Broken Inheritance > FS_BrokenInheritance Job](/docs/accessanalyzer/enterpriseauditor/solutions/filesystem/fs_brokeninheritance.md) – Designed to report on Broken Inheritance information from targeted file servers
 - [4.Content Job Group](/docs/accessanalyzer/enterpriseauditor/solutions/filesystem/content/overview.md) – Designed to report on content information from targeted file servers. Key information reported on in this group is: File Types, File Sizing, Stale Content, and File Tags.
 - [5.Activity Job Group](/docs/accessanalyzer/enterpriseauditor/solutions/filesystem/activity/overview.md) – Designed to report on activity event information from targeted file servers
   - Requires the Activity Monitor
-- [6.Probable Owner > FS\_ProbableOwner Job](/docs/accessanalyzer/enterpriseauditor/solutions/filesystem/fs_probableowner.md) – Designed to report on probable owners of resources from targeted file servers
-- [7.Sensitive Data > FS\_DLPResults Job](/docs/accessanalyzer/enterpriseauditor/solutions/filesystem/fs_dlpresults.md) – Designed to report on resources that have been identified to contain sensitive data from targeted file servers
+- [6.Probable Owner > FS_ProbableOwner Job](/docs/accessanalyzer/enterpriseauditor/solutions/filesystem/fs_probableowner.md) – Designed to report on probable owners of resources from targeted file servers
+- [7.Sensitive Data > FS_DLPResults Job](/docs/accessanalyzer/enterpriseauditor/solutions/filesystem/fs_dlpresults.md) – Designed to report on resources that have been identified to contain sensitive data from targeted file servers
   - Requires Sensitive Data Discovery
 - [Ad Hoc Audits Job Group](/docs/accessanalyzer/enterpriseauditor/solutions/filesystem/adhocaudits/overview.md) – Designed to report on resources and trustees that have been provided by the user from targeted file servers
   - Typically, this is run independently from the rest of the solution
@@ -68,6 +68,6 @@ The File System Solution is available with the File System Reports license featu
   - Requires the File System Actions and Active Directory Actions license features to function
   - This job group is run independently from the rest of the solution
 - [FileSystemOverview Job](/docs/accessanalyzer/enterpriseauditor/solutions/filesystem/filesystemoverview.md) – Designed to provide an overview of all relevant information from targeted file servers
-- [FS\_SecurityAssessment Job](/docs/accessanalyzer/enterpriseauditor/solutions/filesystem/fs_securityassessment.md) – Designed to provide a security assessment of all relevant information from targeted file servers
+- [FS_SecurityAssessment Job](/docs/accessanalyzer/enterpriseauditor/solutions/filesystem/fs_securityassessment.md) – Designed to provide a security assessment of all relevant information from targeted file servers
 
-When targeting Nasuni Edge Appliances, it is necessary to add a job from the Instant Job Library (FS\_Nasuni Job) which uses the PowerShell Data collector to gather system information, volume data, and share data from the Nasuni environment. This job should be added to the 0.Collection Job Group and should be renamed (0-FS\_Nasuni) to run immediately after the 0-Create Schema Job. See the [0-FS\_Nasuni Job](/docs/accessanalyzer/enterpriseauditor/solutions/filesystem/collection/0-fs_nasuni.md) topic for additional information.
+When targeting Nasuni Edge Appliances, it is necessary to add a job from the Instant Job Library (FS_Nasuni Job) which uses the PowerShell Data collector to gather system information, volume data, and share data from the Nasuni environment. This job should be added to the 0.Collection Job Group and should be renamed (0-FS_Nasuni) to run immediately after the 0-Create Schema Job. See the [0-FS_Nasuni Job](/docs/accessanalyzer/enterpriseauditor/solutions/filesystem/collection/0-fs_nasuni.md) topic for additional information.

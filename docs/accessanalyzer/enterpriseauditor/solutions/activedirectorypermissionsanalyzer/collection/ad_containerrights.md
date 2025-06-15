@@ -1,10 +1,10 @@
-# AD\_ContainerRights Job
+# AD_ContainerRights Job
 
-The AD\_ContainerRights Job provides data collection to identify permissions applied to Containers in Active Directory.
+The AD_ContainerRights Job provides data collection to identify permissions applied to Containers in Active Directory.
 
-## Query for the AD\_ContainerRights Job
+## Query for the AD_ContainerRights Job
 
-The AD\_ContainerRights Job uses the ADPermissions Data Collector for the following query:
+The AD_ContainerRights Job uses the ADPermissions Data Collector for the following query:
 
 __CAUTION:__ Do not modify the query. The query is preconfigured for this job.
 
@@ -14,9 +14,9 @@ __CAUTION:__ Do not modify the query. The query is preconfigured for this job.
 
   - See the [ADPermissions Data Collector](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/adpermissions/overview.md) topic for additional information
 
-## Analysis Tasks for the AD\_ContainerRights Job
+## Analysis Tasks for the AD_ContainerRights Job
 
-Navigate to the __Active Directory Permissions Analyzer__ > __0.Collection__ > __AD\_ContainerRights__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Active Directory Permissions Analyzer__ > __0.Collection__ > __AD_ContainerRights__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -24,5 +24,5 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The default analysis tasks are:
 
-- Container Rights View – Creates the SA\_AD\_ContainerRights\_Details\_PermissionsView visible under the job’s Results node
+- Container Rights View – Creates the SA_AD_ContainerRights_Details_PermissionsView visible under the job’s Results node
 - AIC container permissions import – Creates an interim processing table in the database for use by downstream analysis and report generation

@@ -126,10 +126,10 @@ You can test for the presence or absence of Endpoint Policy Manager CSE version 
 
 - Match type: Match value data
 - Value data match type: Version match
-- Hive: HKEY\_Local\_Machine
+- Hive: HKEY_Local_Machine
 - Key Path: ```SOFTWARE\PolicyPak\ClientSide Extensions\{F8357AE4-F4E0-49EC-AE9D-61078938E7CD}```
 - Value Name: Version
-- Value Type: REG\_SZ
+- Value Type: REG_SZ
 - Version Range: GREATER THAN 0.0.0.0 and LESS THAN 23.9.0.0
 
 ![939_6_image-20231101213809-6_950x743](/img/product_docs/policypak/policypak/applicationsettings/preconfigured/firefox/939_6_image-20231101213809-6_950x743.webp)
@@ -194,10 +194,10 @@ FF AppSet 115 should be applied only to machines with Endpoint Policy Manager CS
 
 - Match type: Match value data
 - Value data match type: Version match
-- Hive: HKEY\_Local\_Machine
+- Hive: HKEY_Local_Machine
 - Key Path: ```SOFTWARE\PolicyPak\ClientSide Extensions\{F8357AE4-F4E0-49EC-AE9D-61078938E7CD}```
 - Value Name: Version
-- Value Type: REG\_SZ
+- Value Type: REG_SZ
 - Version Range: GREATER THAN OR EQUAL TO 23.10.0.0 and LESS THAN 99.0.0.0
 
 ![939_15_image-20231101213809-15_950x815](/img/product_docs/policypak/policypak/applicationsettings/preconfigured/firefox/939_15_image-20231101213809-15_950x815.webp)

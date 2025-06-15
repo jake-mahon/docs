@@ -1,6 +1,6 @@
-# FS\_DEFEND\_SDD Job
+# FS_DEFEND_SDD Job
 
-The FS\_DEFEND\_SDD Job exports sensitive data matches collected by the File System Solution Sensitive Data Discovery Auditing jobs to Threat Manager. It is available through the Instant Job Library under the File System library. See the [Instant Job Wizard](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/instantjobs/overview.md) topic for instructions to add this instant job into the Jobs tree.
+The FS_DEFEND_SDD Job exports sensitive data matches collected by the File System Solution Sensitive Data Discovery Auditing jobs to Threat Manager. It is available through the Instant Job Library under the File System library. See the [Instant Job Wizard](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/instantjobs/overview.md) topic for instructions to add this instant job into the Jobs tree.
 
 For installing the job, select __Local host__ on the Hosts page of the Instant Job Wizard. Then set the host list according to the following information.
 
@@ -13,7 +13,7 @@ Runtime Details:
   - __FileSystem__ > __7.Sensitive Data__ Job Group
 - Special Instructions
   - A Connection Profile must be created using the Web Services (JWT) credential account type with the specified Threat Manager App Token and assigned to this job
-    - See the [Custom Connection Profile for FS\_DEFEND\_SDD Job](#custom-connection-profile-for-fs_defend_sdd-job) topic for additional information
+    - See the [Custom Connection Profile for FS_DEFEND_SDD Job](#custom-connection-profile-for-fs_defend_sdd-job) topic for additional information
     - Assign the Connection Profile on the Connection tab of the job’s Properties
   - The Threat Manager host name with port, [HOST]:8080, and App Token are generated within Threat Manager:
     - Navigate to the __Configuration__ > __App Tokens__ page
@@ -23,26 +23,26 @@ Runtime Details:
 - Target Hosts – Custom Host List
   - Threat Manager target host is the Threat Manager host name with port, [HOST]:8080
   - Format – [HOST]:8080
-  - Assign host list at the __FS\_DEFEND\_SDD__ > __Configure__ > __Hosts__ (see the [Hosts Node](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/configure/hosts.md) topic for additional information)
+  - Assign host list at the __FS_DEFEND_SDD__ > __Configure__ > __Hosts__ (see the [Hosts Node](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/configure/hosts.md) topic for additional information)
 - Scheduling – This job should be scheduled to run as desired
 - History Retention – Not supported and should be turned off
 - Multi-console Support – Not supported
 
-The FS\_DEFEND\_SDD Job runs an analysis task that generates the SA\_FSAA\_SDD\_RESULTS table, which places the data in a compatible format for Threat Manager. It then runs an action task using the Web Request Action Module to send the data to Threat Manager.
+The FS_DEFEND_SDD Job runs an analysis task that generates the SA_FSAA_SDD_RESULTS table, which places the data in a compatible format for Threat Manager. It then runs an action task using the Web Request Action Module to send the data to Threat Manager.
 
-## Analysis Tasks for the FS\_DEFEND\_SDD Job
+## Analysis Tasks for the FS_DEFEND_SDD Job
 
-Navigate to the __Jobs__ > __FS\_DEFEND\_SDD__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Jobs__ > __FS_DEFEND_SDD__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 ![Default Analysis tasks for the job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/instantjobs/analysistasks.png)
 
 The default analysis tasks are:
 
-- Create FSAA DEFEND table – Creates the FSAA\_SDD\_RESULTS table accessible under the job’s Results node
+- Create FSAA DEFEND table – Creates the FSAA_SDD_RESULTS table accessible under the job’s Results node
 
-## Actions for the FS\_DEFEND\_SDD Job
+## Actions for the FS_DEFEND_SDD Job
 
-Navigate to the __Jobs__ > __FS\_DEFEND\_SDD__ > __Configure__ node and select __Actions__ to view the actions.
+Navigate to the __Jobs__ > __FS_DEFEND_SDD__ > __Configure__ node and select __Actions__ to view the actions.
 
 __CAUTION:__ This action is enabled by default.
 
@@ -52,9 +52,9 @@ The default action is:
 
 - Integrate – Uses the Web Request Action Module to send data to Threat Manager
 
-## Custom Connection Profile for FS\_DEFEND\_SDD Job
+## Custom Connection Profile for FS_DEFEND_SDD Job
 
-The FS\_DEFEND\_SDD Job requires a custom Connection Profile to authenticate to Threat Manager. The credential for the Connection Profile must be created with the Web Services (JWT) account type. Remember, the Threat Manager App Token is generated within Threat Manager.
+The FS_DEFEND_SDD Job requires a custom Connection Profile to authenticate to Threat Manager. The credential for the Connection Profile must be created with the Web Services (JWT) account type. Remember, the Threat Manager App Token is generated within Threat Manager.
 
 Create a Connection Profile and set the following information on the User Credentials window:
 

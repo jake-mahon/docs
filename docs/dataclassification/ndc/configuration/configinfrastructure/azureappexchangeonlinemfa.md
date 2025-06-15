@@ -53,13 +53,13 @@ __NOTE:__ By default, a new application is granted one delegated permission for 
 
 Do the following:
 
-When found, click on the entry and proceed with adding the necessary permissions. The steps from here on remain the same, you would need the Application permissions entry, and the relevant set of permissions therein (such as full\_access\_as\_app for EWS OAuth, Exchange.ManageAsApp for CBA). Select the relevant entries, hit the Add permissions
+When found, click on the entry and proceed with adding the necessary permissions. The steps from here on remain the same, you would need the Application permissions entry, and the relevant set of permissions therein (such as full_access_as_app for EWS OAuth, Exchange.ManageAsApp for CBA). Select the relevant entries, hit the Add permissions
 
 1. At the top of the __Request API permissions__ pane, click the __APIs my organization uses__ tab and search for _Office 365 Exchange Online_.
 2. Go to APIs my organization uses and search for "office" in the search bar.
 3. Select Office 365 Exchange Online.
 4. Click on the _Office 365 Exchange Online_ entry in the list of apps found.
-5. Proceed with adding the permissions for this app: select __Application permissions__ and then select __full\_access\_as\_app__.
+5. Proceed with adding the permissions for this app: select __Application permissions__ and then select __full_access_as_app__.
 6. Click __Add a permission__.
 
 Finally, you need to grant admin consent to the tenant (that is, for Exchange organization whose audit data will be collected by the newly registered app).

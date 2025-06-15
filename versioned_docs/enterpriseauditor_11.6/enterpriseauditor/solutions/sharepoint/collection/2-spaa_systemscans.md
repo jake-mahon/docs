@@ -1,26 +1,26 @@
-# 2-SPAA\_SystemScans Job
+# 2-SPAA_SystemScans Job
 
 The job collects information on permissions, users, and groups to determine who has access to each structural level in the SharePoint farm.
 
-## Queries for the 2-SPAA\_SystemScans Job
+## Queries for the 2-SPAA_SystemScans Job
 
-The 2-SPAA\_SystemScans Job uses the SharePoint Access Data Collector for the following query:
+The 2-SPAA_SystemScans Job uses the SharePoint Access Data Collector for the following query:
 
 ![Query Selection](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/sharepoint/collection/spaasystemscansquery.png)
 
-The query for the 2-SPAA\_SystemScans Job is:
+The query for the 2-SPAA_SystemScans Job is:
 
 - Scan SharePoint – Scans SharePoint systems
 
-### Configure 2-SPAA\_SystemScans Job
+### Configure 2-SPAA_SystemScans Job
 
-The 2-SPAA\_SystemScans Job has been preconfigured to run with the default settings using the SPAA Data Collector category of Scan SharePoint Access, which is not visible within the SharePoint Access Auditor Data Collector Wizard when opened from within this job.
+The 2-SPAA_SystemScans Job has been preconfigured to run with the default settings using the SPAA Data Collector category of Scan SharePoint Access, which is not visible within the SharePoint Access Auditor Data Collector Wizard when opened from within this job.
 
 __CAUTION:__ Users should not change scans in a way that would result in less data being returned on a subsequent scan (i.e. scanning fewer web applications, scanning fewer site collections, or a shallower depth scan). Those resources not included in a subsequent scan are marked as deleted in the Tier 2 database and subsequently removed from the Tier 1 database.
 
 Follow the steps to set any desired customizations.
 
-__Step 1 –__ Navigate to the __Jobs__ > __SharePoint__ > __0.Collection__ > __1-SPAA\_SystemScans__ > __Configure__ node and select the __Queries__ node.
+__Step 1 –__ Navigate to the __Jobs__ > __SharePoint__ > __0.Collection__ > __1-SPAA_SystemScans__ > __Configure__ node and select the __Queries__ node.
 
 __Step 2 –__ In the Query Selection view, click __Query Properties__. The Query Properties window displays.
 
@@ -48,4 +48,4 @@ __Step 8 –__ On the Results page, all Available Properties are selected by def
 
 __Step 9 –__ On the Summary page, click __Finish__ to save any setting modifications or click __Cancel__ if no changes were made. Then click __OK__ to close the Query Properties window.
 
-If changes were made, the 1-SPAA\_SystemScans Job has now been customized.
+If changes were made, the 1-SPAA_SystemScans Job has now been customized.

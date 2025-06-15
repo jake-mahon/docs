@@ -4,7 +4,7 @@ This procedure is used to install the client on your current workstation. See th
 
 __Step 1 –__ Navigate to the folder where you extracted the installers downloaded from Netwrix.
 
-__Step 2 –__ Click on the __Netwrix\_PPE\_Client\__version_\_x64.msi__ (64 bit OS) or __Netwrix\_PPE\_Client\__version_\_x86.msi__ (32 bit OS) installation package. The installer is launched.
+__Step 2 –__ Click on the __Netwrix_PPE_Client__version__x64.msi__ (64 bit OS) or __Netwrix_PPE_Client__version__x86.msi__ (32 bit OS) installation package. The installer is launched.
 
 ![Client Setup](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/install/clientsetup1.webp)
 

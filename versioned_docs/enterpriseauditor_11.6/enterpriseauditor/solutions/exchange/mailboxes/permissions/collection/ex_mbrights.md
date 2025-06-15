@@ -1,14 +1,14 @@
-# EX\_MBRights Job
+# EX_MBRights Job
 
-The EX\_MBRights job collects data from Active Directory to identify the mailbox rights applied to a mailbox.
+The EX_MBRights job collects data from Active Directory to identify the mailbox rights applied to a mailbox.
 
-## Queries for the EX\_MBRights Job
+## Queries for the EX_MBRights Job
 
-The EX\_MBRights job uses the ExchangePS Data Collector.
+The EX_MBRights job uses the ExchangePS Data Collector.
 
 ![Queries for the EX_MBRights Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/mailboxes/permissions/collection/mbrightsquery.png)
 
-The following query is included in the EX\_MBRights Job:
+The following query is included in the EX_MBRights Job:
 
 - Mailbox Rights – Collects mailbox rights
 

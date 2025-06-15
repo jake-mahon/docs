@@ -94,7 +94,7 @@ We'll go ahead and we'll do some things you've seen me probably do in some other
 
 Now for Firefox, we're just going to right click, "New/Application" and we'll pick "PolicyPak for Mozilla Firefox" as well. We'll go ahead and also pick the local storage one. We're just going to go ahead and set up the "Home Page." We'll just do "www.policypak.com." We'll go ahead and just set that up. We can set "Security" options the way we want to. We can guarantee various security options if that's important to us. We'll go ahead and click "OK." That's it.
 
-The next thing I want to do is simply link this GPO over to where my XenDesktop users or computers are. I'm going to go ahead and do that. I'm going to right click over my "XEN\_Desktop\_POC." I'm going to "Link an Existing GPO" here. This one, we called it "Lock down Xendesktops." There we go. That's it. We can see we've got "Lock down Xendesktops." That's it.
+The next thing I want to do is simply link this GPO over to where my XenDesktop users or computers are. I'm going to go ahead and do that. I'm going to right click over my "XEN_Desktop_POC." I'm going to "Link an Existing GPO" here. This one, we called it "Lock down Xendesktops." There we go. That's it. We can see we've got "Lock down Xendesktops." That's it.
 
 Let me go ahead. I'm done here. I'll go ahead and disconnect from my own machine here, and we'll head on over to the client now, back to the client machine. OK, we'll go back to our client machine here. We'll launch his XenDesktop session here.
 

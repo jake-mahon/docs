@@ -1,10 +1,10 @@
-# AD\_UserAttributeCompletion Job
+# AD_UserAttributeCompletion Job
 
-The AD\_UserAttributeCompletion Job identifies which attributes are present within User fields in Active Directory, and which ones are blank for a majority of objects. This may indicate accounts within Active Directory which are lacking appropriate information.
+The AD_UserAttributeCompletion Job identifies which attributes are present within User fields in Active Directory, and which ones are blank for a majority of objects. This may indicate accounts within Active Directory which are lacking appropriate information.
 
-## Analysis Tasks for the AD\_UserAttributeCompletion Job
+## Analysis Tasks for the AD_UserAttributeCompletion Job
 
-Navigate to the __Active Directory__ > __2.Users__ > __AD\_UserAttributeCompletion__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Active Directory__ > __2.Users__ > __AD_UserAttributeCompletion__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -15,7 +15,7 @@ The default analysis tasks are:
 - Details – Creates an interim processing table in the database for use by downstream analysis and report generation
 - User Details – Creates an interim processing table in the database for use by downstream analysis and report generation
 
-In addition to the tables and views created by the analysis tasks, the AD\_UserAttributeCompletion Job produces the following pre-configured report:
+In addition to the tables and views created by the analysis tasks, the AD_UserAttributeCompletion Job produces the following pre-configured report:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

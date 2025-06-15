@@ -1,4 +1,4 @@
-# Configuration > PgSQL\_DatabaseSizing Job
+# Configuration > PgSQL_DatabaseSizing Job
 
 The Configuration Job Group is designed to provide insight into details about the PostgreSQL environment and potential vulnerabilities related to instance configuration settings.
 
@@ -6,11 +6,11 @@ The Configuration Job Group is designed to provide insight into details about th
 
 The job in the Configuration Job Groups is:
 
-- PgSQL\_DatabaseSizing Job - Provides details about PostgreSQL databases and overall database size
+- PgSQL_DatabaseSizing Job - Provides details about PostgreSQL databases and overall database size
 
-## Analysis Tasks for the PgSQL\_DatabaseSizing Job
+## Analysis Tasks for the PgSQL_DatabaseSizing Job
 
-Navigate to the __Jobs > Databases > PostgreSQL > Configuration > PgSQL\_DatabaseSizing > Configure__ node and select Analysis to view the analysis tasks.
+Navigate to the __Jobs > Databases > PostgreSQL > Configuration > PgSQL_DatabaseSizing > Configure__ node and select Analysis to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -21,7 +21,7 @@ The default analysis tasks are:
 - Database Sizing Details - Provides details about PostgreSQL databases and sizing
 - Database Sizing Summary - Summarizes PostgreSQL database sizing by host
 
-In addition to the tables and views created the analysis task, the PgSQL\_DatabaseSizing Job produces the following pre-configured report.
+In addition to the tables and views created the analysis task, the PgSQL_DatabaseSizing Job produces the following pre-configured report.
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

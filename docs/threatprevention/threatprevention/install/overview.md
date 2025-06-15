@@ -75,7 +75,7 @@ Client Machines
 
 If you are using Threat Prevention's Enterprise Password Enforcer (EPE) User Feedback module for client machines, the following file should be excluded:
 
-- SI\_CredentailProvider.dll
+- SI_CredentailProvider.dll
 
 If this file is blocked by antivirus software, the reasons for rejecting a candidate password will not be displayed to the end-user, but all EPE rules will be fully enforced.
 

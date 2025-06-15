@@ -9,7 +9,7 @@ The Access Analyzer for Databases Solution provides the ability to audit and mon
 
 Target MongoDB Requirements for Sensitive Data Discovery Scans
 
-- .NET Framework 4.8 is required to run the MongoDB\_SensitiveDataScan Job
+- .NET Framework 4.8 is required to run the MongoDB_SensitiveDataScan Job
 - MongoDB Cluster on Windows Only – Domain Administrator or Local Administrator privilege
 
 Data Collectors

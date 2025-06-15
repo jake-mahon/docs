@@ -6,6 +6,6 @@ After entering SMTP and/or Syslog Host details, test that emails/messages are be
 
 ![SystemSettings](/img/product_docs/changetracker/changetracker/admin/settings/systemsettings.webp)
 
-Clicking __Advanced Options__ presents other System Settings, including a library of NNT\_FILEHASH binaries to use in conjunction with any Agentless FIM.
+Clicking __Advanced Options__ presents other System Settings, including a library of NNT_FILEHASH binaries to use in conjunction with any Agentless FIM.
 
 ![SystemSettingsAdvanced](/img/product_docs/changetracker/changetracker/admin/settings/systemsettingsadvanced.webp)

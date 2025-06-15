@@ -1,14 +1,14 @@
-# EX\_ASPolicies Job
+# EX_ASPolicies Job
 
-The EX\_ASPolicies Job provides insight into what policies are enabled for which users.
+The EX_ASPolicies Job provides insight into what policies are enabled for which users.
 
-## Queries for the EX\_ASPolicies Job
+## Queries for the EX_ASPolicies Job
 
-The EX\_ASPolicies Job uses the ExchangePS Data Collector.
+The EX_ASPolicies Job uses the ExchangePS Data Collector.
 
 ![Queries for the EX_ASPolicies Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/casmetrics/aspoliciesquery.webp)
 
-The following query is included in the EX\_ASPolicies Job.
+The following query is included in the EX_ASPolicies Job.
 
 - Exchange Settings – Collects user policy information
 
@@ -43,9 +43,9 @@ __Step 5 –__ Navigate to the Summary page. Click __Finish__.
 
 The job applies the modification to future job executions.
 
-## Analysis Tasks for the EX\_ASPolicies Job
+## Analysis Tasks for the EX_ASPolicies Job
 
-View the analysis tasks by navigating to the __Exchange__ > __2. CAS Metrics__ > __EX\_ASPolicies__ > __Configure__ node and select __Analysis__.
+View the analysis tasks by navigating to the __Exchange__ > __2. CAS Metrics__ > __EX_ASPolicies__ > __Configure__ node and select __Analysis__.
 
 __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis task is preconfigured for this job.
 
@@ -55,7 +55,7 @@ The following analysis task is selected by default:
 
 - 01. Update Nulls – Updates the NULLs in the table to show information
 
-In addition to the tables and views created by the analysis task, the EX\_ASPolicies Job produces the following pre-configured report:
+In addition to the tables and views created by the analysis task, the EX_ASPolicies Job produces the following pre-configured report:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

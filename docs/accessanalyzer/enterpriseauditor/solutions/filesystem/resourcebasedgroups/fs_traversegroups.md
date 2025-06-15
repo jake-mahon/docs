@@ -1,12 +1,12 @@
-# FS\_TraverseGroups Job
+# FS_TraverseGroups Job
 
-The __FS\_TraverseGroups__ Job can be used to create and apply permissions for traverse groups based on previous resource based groups. This job would be used in the case where the folder to which resource based groups permissions are applied is not the root share folder, or at the root of the share. This job prevents users from losing the ability to navigate through the directory structure if the folder is nested. The FS\_TraverseGroups Job must be installed from the Instant Job library. See the [Instant Job Wizard](/docs/accessanalyzer/enterpriseauditor/admin/jobs/instantjobs/overview.md) topic for additional information.
+The __FS_TraverseGroups__ Job can be used to create and apply permissions for traverse groups based on previous resource based groups. This job would be used in the case where the folder to which resource based groups permissions are applied is not the root share folder, or at the root of the share. This job prevents users from losing the ability to navigate through the directory structure if the folder is nested. The FS_TraverseGroups Job must be installed from the Instant Job library. See the [Instant Job Wizard](/docs/accessanalyzer/enterpriseauditor/admin/jobs/instantjobs/overview.md) topic for additional information.
 
-## Recommended Configurations for the FS\_TraverseGroups Job
+## Recommended Configurations for the FS_TraverseGroups Job
 
 Dependencies
 
-- The __FS\_ResourceBasedGroups__ job must be successfully run prior to running this job
+- The __FS_ResourceBasedGroups__ job must be successfully run prior to running this job
 
 Targeted Hosts
 
@@ -23,7 +23,7 @@ Not supported
 
 Workflow
 
-__Step 1 –__ Run the __FS\_ResourceBasedGroups__ job.
+__Step 1 –__ Run the __FS_ResourceBasedGroups__ job.
 
 __Step 2 –__ Configure a Host List for the job at the job level.
 
@@ -59,21 +59,21 @@ Prior to executing the action tasks, configure and execute the analysis tasks.
 
 ### Configure the Create Groups Analysis Task
 
-View the analysis tasks by navigating to the place in the Jobs tree where the Traverse Groups job was installed from the Instant Jobs library. Then go to the __FS\_TraverseGroups__ > __Configure__ node and select __Analysis__. The Create Groups analysis task contains an analysis parameter that should be configured to set the naming convention for list groups.
+View the analysis tasks by navigating to the place in the Jobs tree where the Traverse Groups job was installed from the Instant Jobs library. Then go to the __FS_TraverseGroups__ > __Configure__ node and select __Analysis__. The Create Groups analysis task contains an analysis parameter that should be configured to set the naming convention for list groups.
 
 ![FS_TraverseGroups analysis tasks](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/resourcebasedgroups/traverseanalysis.webp)
 
 The job has the following analysis tasks:
 
-- Create Groups – Creates the FS\_ListTraverseGroups\_NewGroups table accessible under the job’s Results node
+- Create Groups – Creates the FS_ListTraverseGroups_NewGroups table accessible under the job’s Results node
 
-  - This analysis task contains a configurable parameter: @naming\_convention
-- Show Table – Displays the FS\_ListTraverseGroups\_NewPermissions table accessible under the job’s Results node
-- Show Table – Displays the FS\_ListTraverseGroups\_NewGroups table accessible under the job’s Results node
+  - This analysis task contains a configurable parameter: @naming_convention
+- Show Table – Displays the FS_ListTraverseGroups_NewPermissions table accessible under the job’s Results node
+- Show Table – Displays the FS_ListTraverseGroups_NewGroups table accessible under the job’s Results node
 
 | Analysis Task | Customizable Parameter Name | Default Value | Value Indicates |
 | --- | --- | --- | --- |
-| Create Groups | @naming\_convention | FS\_[HostName]\_[ShareName]\_[FolderName]\_List | Naming convention for list groups |
+| Create Groups | @naming_convention | FS_[HostName]_[ShareName]_[FolderName]_List | Naming convention for list groups |
 
 For instructions on configuring analysis parameters, see the [SQLscripting Analysis Module](/docs/accessanalyzer/enterpriseauditor/admin/analysis/sqlscripting.md) topic.
 
@@ -87,7 +87,7 @@ __CAUTION:__ Prior to executing the analysis tasks, make sure that all action ta
 
 __Step 2 –__ In the Configure node, select __Actions__ and make sure that all of the action tasks are disabled.
 
-__Step 3 –__ Right click on the __FS\_TraverseGroups__ job and select __Run Job__. This will generate the Change Modeling report.
+__Step 3 –__ Right click on the __FS_TraverseGroups__ job and select __Run Job__. This will generate the Change Modeling report.
 
 - Wait for the queued jobs to execute.
 
@@ -95,7 +95,7 @@ The analysis tasks create the required traversal tables accessible under the job
 
 ## Configure & Execute Active Directory Action Task
 
-The Active Directory action tasks create and populate resource based groups. The Create Groups action tasks must be updated to specify a Target OU for group creation prior to enabling and executing the actions. It should also be verified that the action tasks are targeting the same domain controller. View the actions by navigating to the place in the Jobs tree where the Traverse Groups job was installed from the Instant Jobs library. Then go to the __FS\_TraverseGroups__ > __Configure__ node and select __Actions__. The Create Groups action task must be configured to specify the OU for group creation.
+The Active Directory action tasks create and populate resource based groups. The Create Groups action tasks must be updated to specify a Target OU for group creation prior to enabling and executing the actions. It should also be verified that the action tasks are targeting the same domain controller. View the actions by navigating to the place in the Jobs tree where the Traverse Groups job was installed from the Instant Jobs library. Then go to the __FS_TraverseGroups__ > __Configure__ node and select __Actions__. The Create Groups action task must be configured to specify the OU for group creation.
 
 ___RECOMMENDED:___ It is recommended to execute the actions one at a time and in order as opposed to running the entire job group with the actions enabled.
 
@@ -108,10 +108,10 @@ There are the following action tasks:
 
 It is recommended to review the tables used by the actions prior to executing the actions. For instructions on configuring action tables, see the [Configure & Enable the Create Groups Action Task](#configure--enable-the-create-groups-action-task) topic. The actions act upon the data within the following tables:
 
-- FS\_ListTraverseGroups\_NewGroups
-- FS\_ListTraverseGroups\_NewPermissions
+- FS_ListTraverseGroups_NewGroups
+- FS_ListTraverseGroups_NewPermissions
 
-These tables can be viewed under the job’s Results node. The FS\_TraverseGroups Job will run analysis tasks against these tables.
+These tables can be viewed under the job’s Results node. The FS_TraverseGroups Job will run analysis tasks against these tables.
 
 ### Configure & Enable the Create Groups Action Task
 
@@ -137,7 +137,7 @@ The Create Groups action creates the resource based groups. Enabled action tasks
 
 __Step 1 –__ On the Action Selection page, enable the __Create Groups__ action task.
 
-__Step 2 –__ Right-click on the __FS\_TraverseGroups__ job and select __Run Job__.
+__Step 2 –__ Right-click on the __FS_TraverseGroups__ job and select __Run Job__.
 
 - Wait for the queued job to execute
 
@@ -153,7 +153,7 @@ __Step 1 –__ On the Action Selection page, disable the __Create Groups__ actio
 
 __Step 2 –__ Enable the __Modify Permissions__ action task.
 
-__Step 3 –__ Right-click on the __FS\_TraverseGroups__ job and select Run Job.
+__Step 3 –__ Right-click on the __FS_TraverseGroups__ job and select Run Job.
 
 - Wait for the queued job to execute.
 

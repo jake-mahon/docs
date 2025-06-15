@@ -78,7 +78,7 @@ __Step 2 –__ Click the __Dictionary__ checkbox to enable the rule.
 
 __Step 3 –__ Click __Browse__.
 
-__Step 4 –__ Navigate to __\Program Files\Password Policy Enforcer\__ folder and select__Dict.txt__.
+__Step 4 –__ Navigate to __\Program Files\Password Policy Enforcer__ folder and select__Dict.txt__.
 
 ![Enable the sample dictionary](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/evaluation/evaldict.webp)
 

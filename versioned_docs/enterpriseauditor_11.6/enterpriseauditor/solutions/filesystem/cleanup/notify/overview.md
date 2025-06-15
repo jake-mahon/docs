@@ -8,8 +8,8 @@ __NOTE:__ The SendMail action module requires configuration of the Notification 
 
 This job group includes the following jobs:
 
-- [FS\_NotifyOwners Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/cleanup/notify/fs_notifyowners.md) – Designed to notify share owners that there is data within their share pending cleanup
-- [FS\_NotifyOwners\_Status Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/cleanup/notify/fs_notifyowners_status.md) – Designed to summarize the actions taken by the NotifyOwners job
+- [FS_NotifyOwners Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/cleanup/notify/fs_notifyowners.md) – Designed to notify share owners that there is data within their share pending cleanup
+- [FS_NotifyOwners_Status Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/cleanup/notify/fs_notifyowners_status.md) – Designed to summarize the actions taken by the NotifyOwners job
 
 Workflow
 

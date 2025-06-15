@@ -61,7 +61,7 @@ Installing Credential Provider is a two-step process:
 Before Credential Provider’s installation via GPO, Orca software is to be installed:
 
 1. Browse to the folder where you have copied the Credential Provider package.
-2. Go to the MST Guide folder and run the _Orca-x86\_en-us.msi_ application. The Orca console opens:
+2. Go to the MST Guide folder and run the _Orca-x86_en-us.msi_ application. The Orca console opens:
 
    ![Orca console](/img/product_docs/groupid/groupid/portal/user/manage/orca_console.webp)
 3. In Orca, click __File__ > __Open__. Browse to the Credential Provider folder and load the _NetwrixGroupIDCredentialprovider.msi_ in Orca.

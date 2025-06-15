@@ -16,7 +16,7 @@ The following example sends a notification to all users who have pending roles t
 
 | Property | Details |
 | --- | --- |
-| DisplayName\_L1   required | __Type__    String   __Description__   Display name of the task in language 1 (up to 16). |
+| DisplayName_L1   required | __Type__    String   __Description__   Display name of the task in language 1 (up to 16). |
 | Identifier   optional | __Type__    String   __Description__   Unique identifier of the task. |
 
 ## Child Element: TaskEntityType

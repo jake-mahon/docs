@@ -1,22 +1,22 @@
-# SG\_ScheduledTasks Job
+# SG_ScheduledTasks Job
 
-The SG\_ScheduledTasks job lists scheduled task details on all targeted hosts.
+The SG_ScheduledTasks job lists scheduled task details on all targeted hosts.
 
-## Queries for the SG\_ScheduledTasks Job
+## Queries for the SG_ScheduledTasks Job
 
-The SG\_ScheduledTasks job uses the SystemInfo Data Collector for the following query:
+The SG_ScheduledTasks job uses the SystemInfo Data Collector for the following query:
 
 __CAUTION:__ The query is preconfigured for this job. Never modify the query.
 
 ![Queries for the SG_ScheduledTasks Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/windows/applications/scheduledtasksquery.webp)
 
-The query for the SG\_ScheduledTasks job is:
+The query for the SG_ScheduledTasks job is:
 
 - Scheduled tasks – Targets all Windows servers known to Access Analyzer to determine scheduled tasks
 
-## Analysis Tasks for the SG\_ScheduledTasks Job
+## Analysis Tasks for the SG_ScheduledTasks Job
 
-Navigate to the __Windows__ > __Applications__ > __SG\_ScheduledTasks__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Windows__ > __Applications__ > __SG_ScheduledTasks__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -24,12 +24,12 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The default analysis tasks are:
 
-- Track Changes – Creates the SA\_SG\_ScheduledTasks\_ChangeTracking table accessible under the job’s Results node
-- List scheduled task details – Creates the SA\_SG\_ScheduledTasks\_Details table accessible under the job’s Results node
-- Domain user summary – Creates the SA\_SG\_ScheduledTasks\_DomainUsers table accessible under the job’s Results node
-- Host summary – Creates the SA\_SG\_ScheduledTasks\_HostSummary table accessible under the job’s Results node
+- Track Changes – Creates the SA_SG_ScheduledTasks_ChangeTracking table accessible under the job’s Results node
+- List scheduled task details – Creates the SA_SG_ScheduledTasks_Details table accessible under the job’s Results node
+- Domain user summary – Creates the SA_SG_ScheduledTasks_DomainUsers table accessible under the job’s Results node
+- Host summary – Creates the SA_SG_ScheduledTasks_HostSummary table accessible under the job’s Results node
 
-In addition to the tables and views created by the analysis tasks, the SG\_ScheduledTasks job produces the following pre-configured reports.
+In addition to the tables and views created by the analysis tasks, the SG_ScheduledTasks job produces the following pre-configured reports.
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

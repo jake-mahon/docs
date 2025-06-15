@@ -24,7 +24,7 @@ This section describes how to manually configure FPolicy. Manual configuration o
 
 If using vFilers the FPolicy must be created on the vFiler, and the Activity Monitor must target the vFiler. This is because FPolicy operates on the affected vFiler. Therefore, when executing these commands on a vFiler, the commands must be run from a vFiler context (e.g. via the vFiler run command).
 
-Relevant NetApp Documentation: To learn more about configuring file policies, please visit the NetApp website and read [na\_fpolicy – configure file policies](https://library.netapp.com/ecmdocs/ECMP1196890/html/man1/na_fpolicy.1.html) article.
+Relevant NetApp Documentation: To learn more about configuring file policies, please visit the NetApp website and read [na_fpolicy – configure file policies](https://library.netapp.com/ecmdocs/ECMP1196890/html/man1/na_fpolicy.1.html) article.
 
 ### Part 1: Create FPolicy
 
@@ -57,7 +57,7 @@ fpolicy options StealthAUDIT required off
 
 ### Part 3: Set FPolicy to Collect Permission Changes
 
-The cifs\_setattr value must be set to on in order for CIFS requests to change file security descriptors to be screened by the policy.
+The cifs_setattr value must be set to on in order for CIFS requests to change file security descriptors to be screened by the policy.
 
 IMPORTANT:
 
@@ -71,7 +71,7 @@ fpolicy options StealthAUDIT cifs_setattr on
 
 ### Part 4: Set FPolicy to Monitor Alternate Data Streams
 
-The monitor\_ads value must be set to on in order for CIFS requests for alternate data streams (ADS) to be monitored by the policy.
+The monitor_ads value must be set to on in order for CIFS requests for alternate data streams (ADS) to be monitored by the policy.
 
 IMPORTANT:
 
@@ -85,7 +85,7 @@ fpolicy options StealthAUDIT monitor_ads on
 
 ### Part 5: Set FPolicy to Monitor Disconnected Sessions
 
-The cifs\_disconnect\_check value must be set to on in order for CIFS requests associated with disconnected sessions to be monitored by the policy.
+The cifs_disconnect_check value must be set to on in order for CIFS requests associated with disconnected sessions to be monitored by the policy.
 
 IMPORTANT:
 

@@ -170,7 +170,7 @@ It is strongly recommended that the applicative configuration be stored in the [
 - Use the [```<Connector>```](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connector/index.md) element to declare the connector with the following attributes:
 
   - __Identifier__ identifies this connector in the [applicative configuration](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/index.md). It is strongly recommended to use a meaningful name such as ```SharePoint```. If several connections to several SharePoint targets are possible, only one SharePoint Connector per Agent is used.
-  - __DisplayName\_Li, i ? [1..16]__ are used in the UI.
+  - __DisplayName_Li, i ? [1..16]__ are used in the UI.
   - __Agent__ is the identifier of the Agent that runs this connector's export task. The Agent's identifier can be found in the agent's [```appsettings.agent``` configuration set > OpenId > AgentIdentifier setting attribute](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md).
 - Don't forget the ```<?xml>``` and ```<ConfigurationFile>``` elements (see example below).
 
@@ -205,7 +205,7 @@ It is strongly recommended to write the connector to the newly created ```Conf/S
 Declaring an [Entity Type](/versioned_docs/usercube_6.1/usercube/integration-guide/entity-model/index.md) is achieved with the ```<EntityType>``` tag and the following attributes:
 
 - __Identifier__ is the entity type's name. It must be unique among the entity types. It is strongly recommended to prefix this name with the connector's name. An example for SharePoint is ```SharePoint_directoryObject```.
-- __DisplayName\_Li, i ? [1..16]__ are used in the UI to identify this [Entity Type](/versioned_docs/usercube_6.1/usercube/integration-guide/entity-model/index.md) for the end-user. __DisplayName\_L1__ is the name of the entity type in _language number one_. If this language is _English_, a good example of value is ```SharePoint - Object```.
+- __DisplayName_Li, i ? [1..16]__ are used in the UI to identify this [Entity Type](/versioned_docs/usercube_6.1/usercube/integration-guide/entity-model/index.md) for the end-user. __DisplayName_L1__ is the name of the entity type in _language number one_. If this language is _English_, a good example of value is ```SharePoint - Object```.
 
 ##### Example
 
@@ -225,7 +225,7 @@ Remember that there are [several kinds of properties](/versioned_docs/usercube_6
 The main attributes of the ```<Property>``` tag are the following:
 
 - __Identifier__ identifies the property with a mandatory unique name. It must be unique among the entity properties for this entity type.
-- __DisplayName\_Li, i ? [1..16]__ are used in the UI.
+- __DisplayName_Li, i ? [1..16]__ are used in the UI.
 - __Type__ defines the type of the property. A [Scalar property](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) type is chosen among ```String```, ```Bytes```, ```Int16```, ```Int32```, ```Int64```, ```DateTime```, ```Bool```, ```Guid```, ```Double```, ```Binary```, ```Byte```, and ```Option```. The navigation property type is ```ForeignKey```.
 - __TargetColumnIndex__ defines in which column of the resource table the property is stored. See more details about [```TargetColumnIndex```](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md).
 
@@ -669,7 +669,7 @@ The configuration is written to the database using the [Deploy Configuration too
 
 ### Test
 
-The Synchronization job should be found in the UI, under the __Job Execution__ menu, with the name input in the Job's __DisplayName\_Li__ attribute.
+The Synchronization job should be found in the UI, under the __Job Execution__ menu, with the name input in the Job's __DisplayName_Li__ attribute.
 
 From there, it can be launched and debugged (if needed).
 

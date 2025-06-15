@@ -96,7 +96,7 @@ the file name. Use the --dry-run flag to check that file will make the intended 
 
 Tips
 
-- If Excel is unwieldly slow rows can be deleted for machines that have not been scanned. But, instead of filtering and deleting, sort based on the last\_scanned column and then delete the unwanted rows. Sorting and deleting is many times faster for Excel. This can also resolve issues with Excel crashing. Another benefit is the upload back to Privilege Secure will be faster with fewer rows.
+- If Excel is unwieldly slow rows can be deleted for machines that have not been scanned. But, instead of filtering and deleting, sort based on the last_scanned column and then delete the unwanted rows. Sorting and deleting is many times faster for Excel. This can also resolve issues with Excel crashing. Another benefit is the upload back to Privilege Secure will be faster with fewer rows.
 - Ensure that you remove ALL groups from persistence that have interactive accounts. However, ensure that any service accounts that exist in these groups (including nested groups) are applied directly to the machine or added to a new group and applied directly to the machine.
 - Service accounts do not need to be removed from interactive groups (as long as they are applied and persisted separately). However this can be good cleanup.
 - Reviewing service accounts to ensure that they are not set to be able to be used interactively during the review is time well spent as these can also convey lateral movement.

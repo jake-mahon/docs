@@ -1,10 +1,10 @@
-# FS\_DeniedActivity Job
+# FS_DeniedActivity Job
 
-The FS\_DeniedActivity job is designed to report on denied activity event information from targeted file servers.
+The FS_DeniedActivity job is designed to report on denied activity event information from targeted file servers.
 
-## Analysis Tasks for the FS\_DeniedActivity Job
+## Analysis Tasks for the FS_DeniedActivity Job
 
-View the analysis tasks by navigating to the __FileSystem__ > __5.Activity__ > __Suspicious Activity__ > __FS\_DeniedActivity__ > __Configure__ node and select __Analysis__.
+View the analysis tasks by navigating to the __FileSystem__ > __5.Activity__ > __Suspicious Activity__ > __FS_DeniedActivity__ > __Configure__ node and select __Analysis__.
 
 __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis task is preconfigured for this job.
 
@@ -12,9 +12,9 @@ __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis 
 
 The following analysis tasks are selected by default:
 
-- Denied Activity Hourly Summary – Creates the SA\_FS\_DeniedActivity\_HourlySummary table accessible under the job’s Results node
+- Denied Activity Hourly Summary – Creates the SA_FS_DeniedActivity_HourlySummary table accessible under the job’s Results node
 
-In addition to the tables and views created by the analysis task, the FS\_DeniedActivity job produces the following pre-configured report:
+In addition to the tables and views created by the analysis task, the FS_DeniedActivity job produces the following pre-configured report:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

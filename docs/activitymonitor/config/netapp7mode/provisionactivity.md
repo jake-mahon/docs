@@ -8,7 +8,7 @@ Provisioning this account is a three part process:
 - Part 2: Create a Group & Assign Role
 - Part 3: Add User to Group
 
-Relevant NetApp Documentation: To learn more about node access controls, please visit the NetApp website and read the [na\_useradmin – Administers node access controls](https://library.netapp.com/ecmdocs/ECMP1511537/html/man1/na_useradmin.1.html) article.
+Relevant NetApp Documentation: To learn more about node access controls, please visit the NetApp website and read the [na_useradmin – Administers node access controls](https://library.netapp.com/ecmdocs/ECMP1511537/html/man1/na_useradmin.1.html) article.
 
 ## Part 1: Create Role with API/CLI Access
 

@@ -1,10 +1,10 @@
-# SP\_MostActiveUsers Job
+# SP_MostActiveUsers Job
 
 This job identifies the most active users from the last 30 days on all monitored SharePoint servers with a view of Reads, Updates, Deletes, and Permission changes performed by a user.
 
-## Analysis Tasks for the SP\_MostActiveUsers Job
+## Analysis Tasks for the SP_MostActiveUsers Job
 
-Navigate to the __Jobs__ > __SharePoint__ > __7.Activity__ > __Usage Statistics__ > __SP\_MostActiveUsers__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Jobs__ > __SharePoint__ > __7.Activity__ > __Usage Statistics__ > __SP_MostActiveUsers__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis task is preconfigured for this job.
 
@@ -12,9 +12,9 @@ __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis 
 
 The default analysis task is:
 
-- Most Active Users Last 30 Days – SA\_SPAC\_MostActiveUsers\_Last30Days table accessible under the job’s Results node
+- Most Active Users Last 30 Days – SA_SPAC_MostActiveUsers_Last30Days table accessible under the job’s Results node
 
-In addition to the tables and views created by the analysis tasks, the SQL\_MostActiveUsers Job produces the following pre-configured report:
+In addition to the tables and views created by the analysis tasks, the SQL_MostActiveUsers Job produces the following pre-configured report:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

@@ -1,20 +1,20 @@
-# EX\_Mailflow\_Mailbox Job
+# EX_Mailflow_Mailbox Job
 
-The EX\_Mailflow\_Mailbox job provides information around each user’s mail flow in the organization. This job is set to analyze the last 30 days.
+The EX_Mailflow_Mailbox job provides information around each user’s mail flow in the organization. This job is set to analyze the last 30 days.
 
 ## Parameter Configuration
 
 The Configuration section on a Job's overview page allows you to easily modify any customizable parameters used by analysis tasks in the job. See the [Parameter Configuration](/docs/accessanalyzer/enterpriseauditor/admin/jobs/job/overview.md#parameter-configuration) topic for instructions on how to edit parameters on a job overview page.
 
-The EX\_Mailflow\_Mailbox job has the following configurable parameter:
+The EX_Mailflow_Mailbox job has the following configurable parameter:
 
 - Number of days to collect counts for – Sets the number of days for the __User Mailboxes By Message Count__ and __User Mailboxes by Message Size__ analysis tasks. The default is __30__ days.
 
-See the [Analysis Tasks for the EX\_Mailflow\_Mailbox Job](#analysis-tasks-for-the-ex_mailflow_mailbox-job) topic for additional information.
+See the [Analysis Tasks for the EX_Mailflow_Mailbox Job](#analysis-tasks-for-the-ex_mailflow_mailbox-job) topic for additional information.
 
-## Analysis Tasks for the EX\_Mailflow\_Mailbox Job
+## Analysis Tasks for the EX_Mailflow_Mailbox Job
 
-View the analysis tasks by navigating to the __Exchange__ > __8. Exchange Online__ > __EX\_Mailflow\_Mailbox__ > __Configure__ node and select __Analysis__.
+View the analysis tasks by navigating to the __Exchange__ > __8. Exchange Online__ > __EX_Mailflow_Mailbox__ > __Configure__ node and select __Analysis__.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -22,17 +22,17 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The following analysis tasks are selected by default:
 
-- User Message Metrics By Day – Creates the EX\_MailFlow\_UserByDay table, accessible under the job’s Results node
-- User Mailboxes By Message Count – Creates the EX\_MailFlow\_UserByCount table, accessible under the job’s Results node
+- User Message Metrics By Day – Creates the EX_MailFlow_UserByDay table, accessible under the job’s Results node
+- User Mailboxes By Message Count – Creates the EX_MailFlow_UserByCount table, accessible under the job’s Results node
 
   - By default, counts are collected for the last 30 days. The number of days can be modified with the ```@Days``` parameter.
   - See the [Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/analysiscustomizableparameters.md) topic for additional information
-- User Mailboxes by Message Size – Creates the EX\_MailFlow\_UserBySize table, accessible under the job’s Results node
+- User Mailboxes by Message Size – Creates the EX_MailFlow_UserBySize table, accessible under the job’s Results node
 
   - By default, sizes are selected for the last 30 days. The number of days can be modified with the ```@Days``` parameter.
   - See the [Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/analysiscustomizableparameters.md) topic for additional information
 
-In addition to the tables and views created by the analysis tasks, the EX\_Mailflow\_Mailbox job produces the following pre-configured reports.
+In addition to the tables and views created by the analysis tasks, the EX_Mailflow_Mailbox job produces the following pre-configured reports.
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

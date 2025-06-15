@@ -1,10 +1,10 @@
-# PgSQL\_SensitiveData Job
+# PgSQL_SensitiveData Job
 
-The PsSQL\_SensitiveData Job is designed to provide information on all the sensitive data that was discovered in the targeted PostgreSQL servers based on the selected scan criteria.
+The PsSQL_SensitiveData Job is designed to provide information on all the sensitive data that was discovered in the targeted PostgreSQL servers based on the selected scan criteria.
 
-## Analysis Tasks for the PgSQL\_SensitiveData Job
+## Analysis Tasks for the PgSQL_SensitiveData Job
 
-Navigate to the __Jobs > Databases > PostgreSQL > Sensitive Data > PgSQL\_SensitiveData > Configure__ node and select Analysis to view the analysis tasks.
+Navigate to the __Jobs > Databases > PostgreSQL > Sensitive Data > PgSQL_SensitiveData > Configure__ node and select Analysis to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -16,7 +16,7 @@ The default analysis tasks are:
 - Database Summary - Summarizes sensitive data in PostgreSQL by database
 - Enterprise Summary - Summarizes PostgreSQL sensitive data for the organization
 
-In addition to the tables and views created the analysis task, the PgSQL\_SensitiveData Job produces the following pre-configured report.
+In addition to the tables and views created the analysis task, the PgSQL_SensitiveData Job produces the following pre-configured report.
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

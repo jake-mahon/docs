@@ -6,6 +6,6 @@ The Collection job group collects group policy settings, local users, and local 
 
 The jobs in the Collection job group are:
 
-- [SG\_GroupPolicy Job](/docs/accessanalyzer/enterpriseauditor/solutions/windows/privilegedaccounts/logonrights/collection/sg_grouppolicy.md) – This job collects policy assignments from all targeted servers. In particular, __Allow log on locally__, __Log on as a batch job__, __Allow log on through Remote Desktop Services__, and __Log on as a service__ are audited.
-- [SG\_LocalMembership Job](/docs/accessanalyzer/enterpriseauditor/solutions/windows/privilegedaccounts/logonrights/collection/sg_localmembership.md) – This job collects local group membership details from all targeted servers
-- [SG\_LocalUsers Job](/docs/accessanalyzer/enterpriseauditor/solutions/windows/privilegedaccounts/logonrights/collection/sg_localusers.md) – This job collects local user accounts from all targeted servers
+- [SG_GroupPolicy Job](/docs/accessanalyzer/enterpriseauditor/solutions/windows/privilegedaccounts/logonrights/collection/sg_grouppolicy.md) – This job collects policy assignments from all targeted servers. In particular, __Allow log on locally__, __Log on as a batch job__, __Allow log on through Remote Desktop Services__, and __Log on as a service__ are audited.
+- [SG_LocalMembership Job](/docs/accessanalyzer/enterpriseauditor/solutions/windows/privilegedaccounts/logonrights/collection/sg_localmembership.md) – This job collects local group membership details from all targeted servers
+- [SG_LocalUsers Job](/docs/accessanalyzer/enterpriseauditor/solutions/windows/privilegedaccounts/logonrights/collection/sg_localusers.md) – This job collects local user accounts from all targeted servers

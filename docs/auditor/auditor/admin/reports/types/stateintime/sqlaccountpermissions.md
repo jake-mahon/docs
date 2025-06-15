@@ -20,7 +20,7 @@ The summary section shows:
 
 The detailed information under summary includes:
 
-- __Object path__ — monitored object path as formatted by Netwrix Auditor in the activity records (see '_What_' field in the reports, search results and activity summaries). For example, if reporting on the database hosted on selected SQL Server, the path will be as follows: _Databases\database\_name_.
+- __Object path__ — monitored object path as formatted by Netwrix Auditor in the activity records (see '_What_' field in the reports, search results and activity summaries). For example, if reporting on the database hosted on selected SQL Server, the path will be as follows: _Databases\database_name_.
 - __Object type__ — monitored object type; for the full list of supported object types, refer to [SQL Server](/docs/auditor/auditor/configuration/sqlserver/overview.md) topic.
 - __Means granted__ —how access permissions were granted to this account, e.g., _Direct permissions_ or _Server role permissions_.
 - __Effective grant__ —the effective set of permissions granted to this account on the selected object.
@@ -33,7 +33,7 @@ This report has the following filters:
 - __Time zone__ — time zone where Netwrix Auditor server is located, for example, UTC-08:00. This value is filled in automatically.
 - __Snapshot date__ —select the date of state-in-time snapshot you want to report on. By default, the report includes data obtained during the latest data collection session (_Current Session_). To report on other snapshots, make sure they are available through import. For details, see __Manage historical snapshots__ option description in [SQL Server](/docs/auditor/auditor/admin/monitoringplans/sqlserver/overview.md)
 - __Item__— name of the SQL Server instance monitored with selected monitoring plan.
-- __Object path__ — path to the monitored object, as formatted by Netwrix Auditor in the activity records (see '_What_' field in the reports, search results and activity summaries). Wildcard (\*) is supported. For example, to report on the database hosted on selected SQL Server, specify the path as follows: _Databases\database\_name_.
+- __Object path__ — path to the monitored object, as formatted by Netwrix Auditor in the activity records (see '_What_' field in the reports, search results and activity summaries). Wildcard (\*) is supported. For example, to report on the database hosted on selected SQL Server, specify the path as follows: _Databases\database_name_.
 - __Object type__— type of the monitored object that provided data for this report. Possible values: _Database_, _Server Instance_.
 - __Permissions__ —access permissions whose assignment you want to be reported for selected account.
 - __Means granted__ —how access permissions were granted to this account. You can select _Directly_, _Inherited_, or both (default setting).
@@ -43,7 +43,7 @@ This report has the following filters:
 ## Considerations and limitations
 
 - Reporting for case-sensitive SQL Servers and databases is not supported.
-- Permissions for INFORMATION\_SCHEMA granted via _master db_ will not be reported.
+- Permissions for INFORMATION_SCHEMA granted via _master db_ will not be reported.
 - The report will not show the RESTORE capability for the database owner.
 
 - When calculating effective rights and permissions, the following will not be considered:

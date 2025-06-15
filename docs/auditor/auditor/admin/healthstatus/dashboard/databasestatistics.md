@@ -11,12 +11,12 @@ After you click View details, the following information will be displayed for th
 The Database name column contains the list of Netwrix Auditor databases hosted by the specified instance of the SQL Server:
 
 - Special databases are created automatically on the default SQL Server instance to store:
-  - alerts—_Netwrix\_AlertsDB_ database
-  - activity records collected using Integration API—_Netwrix\_Auditor\_API_ database
-  - internal event records—_Netwrix\_Auditor\_EventLog_ database
-  - data collected by Netwrix Auditor self-audit—_Netwrix\_Self\_Audit_ database
-  - data needed for overview reports generation—_Netwrix\_OverviewReportsDB_
-- To store data from the data sources included in the monitoring plan, dedicated Audit databases are created and named by user (default name format is _Netwrix\_Auditor\_`<monitoring_plan_name>`_)
+  - alerts—_Netwrix_AlertsDB_ database
+  - activity records collected using Integration API—_Netwrix_Auditor_API_ database
+  - internal event records—_Netwrix_Auditor_EventLog_ database
+  - data collected by Netwrix Auditor self-audit—_Netwrix_Self_Audit_ database
+  - data needed for overview reports generation—_Netwrix_OverviewReportsDB_
+- To store data from the data sources included in the monitoring plan, dedicated Audit databases are created and named by user (default name format is _Netwrix_Auditor_`<monitoring_plan_name>`_)
 
 The following capacity metrics are displayed for each database:
 

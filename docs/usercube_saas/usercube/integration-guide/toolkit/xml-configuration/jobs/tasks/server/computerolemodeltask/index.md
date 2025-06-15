@@ -49,7 +49,7 @@ The following example is similar to the previous one, except that the values pri
 
 | Property | Details |
 | --- | --- |
-| DisplayName\_L1   required | __Type__    String   __Description__   Display name of the task in language 1 (up to 16). |
+| DisplayName_L1   required | __Type__    String   __Description__   Display name of the task in language 1 (up to 16). |
 | BatchInsertSize   default value: 0 | __Type__    Int32   __Description__   Defines the batch insert size. |
 | BatchSelectSize   default value: 0 | __Type__    Int32   __Description__   Defines the batch select size. |
 | BlockAllResourceTypeProvisioning   default value: false | __Type__    Boolean   __Description__   ```true``` to force an additional mandatory review (on the __Provisioning Review__ screen) of all provisioning orders for all resource types, no matter whether the resource types' ```BlockProvisioning``` boolean is set to ```true``` or ```false```. |

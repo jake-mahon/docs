@@ -16,7 +16,7 @@ __Notes__
      To upgrade on a different box, the file containing the selected attributes for each identity store must be present on the GroupID 11 server. If the wizard does not find it, GroupID 11 will display the default attributes for identity store replication (rather than your selected attributes).
 
      File name: `<name of the domain the identity store is created on>_<identity store ID>.xml`  
-     Example: techinfo.local\_4.xml, techinfo.onmicrosoft.com\_6.xml  
+     Example: techinfo.local_4.xml, techinfo.onmicrosoft.com_6.xml  
      A separate file exists for each identity store.
 
      File Path on the GroupID 11 server: `C:\Program Files\Imanami\GroupID <source version>\Replication\IdentityStoresReplicationAttributes\`
@@ -27,7 +27,7 @@ __Notes__
      For example: DisallowedPasswords.txt
 
      File Path on the GroupID 11 server: `C:\Program Files\Imanami\GroupID <source version>\GroupIDDataService\PasswordCenter\PasswordExceptionLists\<identity store name>_<identity store ID>\`  
-     Example: C:\Program Files\Imanami\GroupID 10.0\GroupIDDataService\PasswordCenter\PasswordExceptionLists\ADStore\_4\
+     Example: C:\Program Files\Imanami\GroupID 10.0\GroupIDDataService\PasswordCenter\PasswordExceptionLists\ADStore_4\
 3. When importing design settings of a Self-Service portal on the same box or on a different box, remember the following:
 
    - Design settings for the toolbars and navigation bars will not be imported due to architectural changes in GroupID 11.
@@ -39,11 +39,11 @@ __Notes__
 6. An identity store created for G Suite will not be upgraded.
 7. In case of upgrade on a different box, the DC Priority settings for an Active Directory domain are not upgraded to GroupID version 11.0.23315.04.
 8. In the source version, the debug logs for upgrade were created in a temporary folder for the logged-on user, that could be accessed using the %TEMP% environment variable.  
-   File name: ~GroupID10\_Upgrade
+   File name: ~GroupID10_Upgrade
 
    In GroupID 11, these debug logs will be created at the following location on the GroupID 11 server:  
    C:\ProgramData\Imanami\GroupID 11.0\Upgrade Tool\  
-   File name: GroupID11\_Upgrade.log
+   File name: GroupID11_Upgrade.log
 9. In the GroupID source version, Replication service logs were captured under the _debug_ mode, with no user interface to change this setting. On upgrade to GroupID 11, the file logging and Windows logging mode is set to default, i.e., ‘Error’. After upgrade, it is recommended that you go to Replication service settings and change file logging to the ‘Debug’ mode (if required). See the [Specify Log Settings for a Service](/versioned_docs/groupid_11.0/groupid/admincenter/service/dataservice/manage.md#specify-log-settings-for-a-service) topic.
 10. In the GroupID source version, log settings for an identity store inherently applied to Date service logs. On upgrade to GroupID 11, these log settings are moved to the Data service, with the file logging mode set to default, i.e., ‘Error’. To change the mode in GroupID 11, go to Data service settings and change it as required. See the [Specify Log Settings for a Service](/versioned_docs/groupid_11.0/groupid/admincenter/service/dataservice/manage.md#specify-log-settings-for-a-service) topic.
 11. The following applies in case of upgrade from GroupID 10 SR1.  

@@ -20,11 +20,11 @@ Connection String Example:
 
 Netwrix\JonSmith+Local Admin+SQL1.netwrix.com
 
-JonSmith@netwrix.com+Local\_Admin+SQL1.netwrix.com
+JonSmith@netwrix.com+Local_Admin+SQL1.netwrix.com
 
-Note that some clients require you to use the _“\_”_ (underscore) character as a replacement for a space in Activity names that are made up of multiple words, for example:
+Note that some clients require you to use the _“_”_ (underscore) character as a replacement for a space in Activity names that are made up of multiple words, for example:
 
-Netwrix\JonSmith+Add\_to\_Local\_Administrators+SQL1
+Netwrix\JonSmith+Add_to_Local_Administrators+SQL1
 
 If you wish to add notes, make sure to add the appropriate number of “+” delimiters if you are not defining an access policy:
 
@@ -147,7 +147,7 @@ User Name Format:
 
 `\<connection string>`
 
-__NOTE:__ The user name starts with _\_ (back slash).
+__NOTE:__ The user name starts with __ (back slash).
 
 User Name Example:
 

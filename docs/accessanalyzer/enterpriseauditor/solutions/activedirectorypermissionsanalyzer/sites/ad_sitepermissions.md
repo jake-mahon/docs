@@ -1,10 +1,10 @@
-# AD\_SitePermissions Job
+# AD_SitePermissions Job
 
-The AD\_SitePermissions Job reports on all Active Directory permissions applied to site objects within the targeted domains.
+The AD_SitePermissions Job reports on all Active Directory permissions applied to site objects within the targeted domains.
 
-## Analysis Tasks for the AD\_SitePermissions Job
+## Analysis Tasks for the AD_SitePermissions Job
 
-Navigate to the __Active Directory Permissions Analyzer__ > __9.Sites__ > __AD\_SitePermissions__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Active Directory Permissions Analyzer__ > __9.Sites__ > __AD_SitePermissions__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,10 +12,10 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The default analysis tasks are:
 
-- Site Permissions – Creates the SA\_AD\_SitePermissions\_Details table accessible under the job’s Results node
-- Summarize Site Permissions – Creates the SA\_AD\_SitePermissions\_DomainSummary table accessible under the job’s Results node
+- Site Permissions – Creates the SA_AD_SitePermissions_Details table accessible under the job’s Results node
+- Summarize Site Permissions – Creates the SA_AD_SitePermissions_DomainSummary table accessible under the job’s Results node
 
-In addition to the tables and views created by the analysis tasks, the AD\_SitePermissions Job produces the following pre-configured report.
+In addition to the tables and views created by the analysis tasks, the AD_SitePermissions Job produces the following pre-configured report.
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

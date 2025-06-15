@@ -10,11 +10,11 @@ There are also a few simple checks that can be done to aid troubleshooting. Chec
 
 /usr/lib/libc.a(shr.o)
 
-/usr/lib/libpthread.a(shr\_xpg5.o)
+/usr/lib/libpthread.a(shr_xpg5.o)
 
 /opt/freeware/lib/gcc/powerpc-ibm-aix6.1.0.0/4.8.5/../../../libcrypto.a(libcrypto.so.1.0.2)
 
-/usr/lib/libpthread.a(shr\_comm.o)
+/usr/lib/libpthread.a(shr_comm.o)
 
 /opt/freeware/lib/gcc/powerpc-ibm-aix6.1.0.0/4.8.5/../../../libssl.a(libssl.so.1.0.2)
 
@@ -22,7 +22,7 @@ There are also a few simple checks that can be done to aid troubleshooting. Chec
 
 /usr/lib/libcrypt.a(shr.o)
 
-/usr/lib/libpthreads.a(shr\_comm.o)
+/usr/lib/libpthreads.a(shr_comm.o)
 
 If the details of the user account who made caused a FIM change are not included in the change information, check that AIX® Event Infrastructure is installed and the aha folder mounted correctly.
 

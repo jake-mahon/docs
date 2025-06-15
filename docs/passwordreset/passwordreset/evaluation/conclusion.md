@@ -14,7 +14,7 @@ Congratulations! You have successfully installed, configured, and used Netwrix P
 - Creating complex filters in the Data Console.
 - Modifying the user interface and error messages.
 
-You can learn more about Password Reset and Password Policy Enforcer at [www.netwrix.com/password\_policy\_enforcer](https://www.netwrix.com/password_policy_enforcer.html).
+You can learn more about Password Reset and Password Policy Enforcer at [www.netwrix.com/password_policy_enforcer](https://www.netwrix.com/password_policy_enforcer.html).
 
 Please [contact Netwrix support](mailto:support@netwrix.com) if you have any questions.
 

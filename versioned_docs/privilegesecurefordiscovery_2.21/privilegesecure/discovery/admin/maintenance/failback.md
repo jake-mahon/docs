@@ -14,7 +14,7 @@ he above image illustrates Privilege Secure's standard 3 node PROD to 3 node DR 
 
 ### Step #1: PRE-failover Backup Check
 
-A check of the stored MongoDB backups on both PROD and DR nodes , in the /secureone/data/db/backups directory On PROD) and /secureone/data/db/restore directory (on DR), with the below commands. There should be 3 backups listed in the folder, all with the prefix “mongo\_backup\_” and ending with a date\_time stamp (example below). The newest mongo backup should have a timestamp that is within the last 24 hours.
+A check of the stored MongoDB backups on both PROD and DR nodes , in the /secureone/data/db/backups directory On PROD) and /secureone/data/db/restore directory (on DR), with the below commands. There should be 3 backups listed in the folder, all with the prefix “mongo_backup_” and ending with a date_time stamp (example below). The newest mongo backup should have a timestamp that is within the last 24 hours.
 
 ls -alht /secureone/data/db/backup
 
@@ -87,9 +87,9 @@ Run ```sudo docker service ls``` to confirm all services are now showing a repli
 
 __Service Status Check__: The ```sudo docker service ls``` command only shows the replicas status. To see if a service is “running”, execute the command ```sudo docker service ps s1_<SERVICE>```. The `<SERVICE>` variable in the command will need to be replaced with the service that you want to check the status for. Example to check the running status of the API service, the command would be ```sudo docker service ps s1_api```.
 
-### Step #6: (failback\_restore.sh)
+### Step #6: (failback_restore.sh)
 
-Due to the process of the failback being intentionally manual, you will need to run the [failback\_restore.sh](https://remediant.quip.com/RAD4AZfebK9M#failback_restoresh) script on PROD, which will restore the database that was just backed up and SCP’d over to PROD in the above step #3. First confirm the backup created on -DR has been SCP'd over to PROD, in the /secureone/data/db/failback directory. The top file will be the newest file created with the below command.
+Due to the process of the failback being intentionally manual, you will need to run the [failback_restore.sh](https://remediant.quip.com/RAD4AZfebK9M#failback_restoresh) script on PROD, which will restore the database that was just backed up and SCP’d over to PROD in the above step #3. First confirm the backup created on -DR has been SCP'd over to PROD, in the /secureone/data/db/failback directory. The top file will be the newest file created with the below command.
 
 ```
 ls -alht /secureone/data/db/failback

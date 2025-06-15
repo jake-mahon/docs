@@ -6,8 +6,8 @@ In this section you will learn about two main things: the theory of operation an
 
 Endpoint Policy Manager Java Rules Manager automates Oracle's own built-in Java Deployment Rule Set feature. To find more information on the Java Deployment Rule Set feature, visit the following websites:
 
-- Older but more readable: [http://docs.oracle.com/javase/7/docs/technotes/guides/jweb/security/deployment\_rules.html](http://docs.oracle.com/javase/7/docs/technotes/guides/jweb/security/deployment_rules.html).
-- Newer but less readable: [https://docs.oracle.com/javase/8/docs/technotes/guides/deploy/deployment\_rules.html](https://docs.oracle.com/javase/8/docs/technotes/guides/deploy/deployment_rules.html).
+- Older but more readable: [http://docs.oracle.com/javase/7/docs/technotes/guides/jweb/security/deployment_rules.html](http://docs.oracle.com/javase/7/docs/technotes/guides/jweb/security/deployment_rules.html).
+- Newer but less readable: [https://docs.oracle.com/javase/8/docs/technotes/guides/deploy/deployment_rules.html](https://docs.oracle.com/javase/8/docs/technotes/guides/deploy/deployment_rules.html).
 
 The Deployment Rule Set feature is useful but can be difficult to set up and keep updated enterprise-wide. The essence of the feature is a rule set, which must be created in XML. Then, a package must be digitally signed and deployed to endpoints. When the rule set is executed correctly (manually), the result looks similar to what is shown below.
 

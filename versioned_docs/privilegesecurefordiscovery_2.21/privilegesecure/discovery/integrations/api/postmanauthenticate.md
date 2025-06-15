@@ -16,9 +16,9 @@ __Step 2 –__ Then click __Edit__ to the left, on the ‘Globals’ line:
 
 ![blobid1.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/integrations/api/360047844814_blobid1_760x393.png)
 
-__Step 3 –__ Enter the ‘api\_key’ variable and copy-and-paste the API key for the user in the ‘Initial Value’ and ‘Current Value’ fields.
+__Step 3 –__ Enter the ‘api_key’ variable and copy-and-paste the API key for the user in the ‘Initial Value’ and ‘Current Value’ fields.
 
-\*If required, enter the ‘base\_url’ variable and the URL for the Privilege Secure environment you are connecting to.
+\*If required, enter the ‘base_url’ variable and the URL for the Privilege Secure environment you are connecting to.
 
 ![blobid2.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/integrations/api/360047844814_blobid2.png)
 
@@ -32,7 +32,7 @@ __Step 6 –__ Click on __Body__ and copy-and-paste the userId that is authorize
 
 ![blobid4.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/integrations/api/360047844814_blobid4.png)
 
-__NOTE:__ The \{\{api\_key\}\} will pull the value from the global variable.
+__NOTE:__ The \{\{api_key\}\} will pull the value from the global variable.
 
 __Step 7 –__ Click on __Tests__.
 

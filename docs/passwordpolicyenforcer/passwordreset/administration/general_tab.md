@@ -77,4 +77,4 @@ __NOTE:__ Due to a protocol upgrade, it is now recommended to enable protocol en
 
 Please do not enable this option if you are using Netwrix Password Reset v3.3 with Netwrix Password Policy Enforcer v8.x or earlier versions, or with Netwrix Password Policy Enforcer/Web. If you are using Netwrix Password Reset v3.3 with any of those older versions of Netwrix Password Policy Enforcer, please consider upgrading first to a current and supported version.
 
-__NOTE:__ Password Policy Enforcer is not included with Password Reset. Go to [www.netwrix.com/password\_policy\_enforcer](https://www.netwrix.com/password_policy_enforcer.html) to learn more about Password Policy Enforcer.
+__NOTE:__ Password Policy Enforcer is not included with Password Reset. Go to [www.netwrix.com/password_policy_enforcer](https://www.netwrix.com/password_policy_enforcer.html) to learn more about Password Policy Enforcer.

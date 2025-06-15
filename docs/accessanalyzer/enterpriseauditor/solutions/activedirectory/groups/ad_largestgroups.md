@@ -1,10 +1,10 @@
-# AD\_LargestGroups Job
+# AD_LargestGroups Job
 
-The AD\_LargestGroups Job identifies groups with large effective member counts. These types of groups may cause administrative overhead and burden in being able to easily understand who is getting access to resources, or how much access is being granted to resources through these groups.
+The AD_LargestGroups Job identifies groups with large effective member counts. These types of groups may cause administrative overhead and burden in being able to easily understand who is getting access to resources, or how much access is being granted to resources through these groups.
 
-## Analysis Task for the AD\_LargestGroups Job
+## Analysis Task for the AD_LargestGroups Job
 
-Navigate to the __Active Directory__ > __1.Groups__ > __AD\_LargestGroups__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Active Directory__ > __1.Groups__ > __AD_LargestGroups__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis task is preconfigured for this job.
 
@@ -12,9 +12,9 @@ __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis 
 
 The default analysis tasks are:
 
-- Group Details – Creates the SA\_AD\_LargestGroups\_Details table accessible under the job’s Results node
+- Group Details – Creates the SA_AD_LargestGroups_Details table accessible under the job’s Results node
 
-In addition to the tables and views created by the analysis task, the AD\_LargestGroups Job produces the following pre-configured report:
+In addition to the tables and views created by the analysis task, the AD_LargestGroups Job produces the following pre-configured report:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

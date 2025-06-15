@@ -38,7 +38,7 @@ This section describes the process to configure the Connection Profile and custo
 
 ### SharePoint Online Credential for a Connection Profile using Modern Authentication
 
-The provisioned credential should be an Microsoft Entra ID Application. See the [SharePoint Online Access & Sensitive Data Auditing Configuration](/versioned_docs/enterpriseauditor_11.6/config/sharepointonline/access.md) topic for instructions on registering and provisioning the Microsoft Entra ID Application manually or via the SP\_RegisterAzureAppAuth Instant Job.
+The provisioned credential should be an Microsoft Entra ID Application. See the [SharePoint Online Access & Sensitive Data Auditing Configuration](/versioned_docs/enterpriseauditor_11.6/config/sharepointonline/access.md) topic for instructions on registering and provisioning the Microsoft Entra ID Application manually or via the SP_RegisterAzureAppAuth Instant Job.
 
 Create a Connection Profile and set the following information on the User Credentials window:
 
@@ -58,9 +58,9 @@ Create a Connection Profile and set the following information on the User Creden
 
   An example string matching the configuration from above is:
 
-  C:\Program Files (x86)\STEALTHbits\StealthAUDIT\PrivateAssemblies\spaa\_cert\_myorg.pfx,PasswordGoesHere,0
+  C:\Program Files (x86)\STEALTHbits\StealthAUDIT\PrivateAssemblies\spaa_cert_myorg.pfx,PasswordGoesHere,0
 
-  __NOTE:__ ```PasswordGoesHere``` should be replaced with the password used when generating the self-signed X.509 certificate if the Microsoft Entra ID Application was Registered and Provisioned manually or the $appPassword parameter used in the SP\_RegisterAzureAppAuth Instant Job if that method was used.
+  __NOTE:__ ```PasswordGoesHere``` should be replaced with the password used when generating the self-signed X.509 certificate if the Microsoft Entra ID Application was Registered and Provisioned manually or the $appPassword parameter used in the SP_RegisterAzureAppAuth Instant Job if that method was used.
 
 Once the Connection Profile is created, it is time to create the custom host list. See the [Connection](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/overview.md) topic for additional information.
 

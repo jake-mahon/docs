@@ -6,7 +6,7 @@ The query you want is:
 
 __Step 1 –__ The Operating System is Windows 10
 
-__Step 2 –__ and the WMI Query:select \* from Win32\_OperatingSystem, where OperatingSystemSKU = 175
+__Step 2 –__ and the WMI Query:select \* from Win32_OperatingSystem, where OperatingSystemSKU = 175
 
 The result will look like this:
 

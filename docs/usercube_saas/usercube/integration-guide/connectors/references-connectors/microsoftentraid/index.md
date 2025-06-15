@@ -119,7 +119,7 @@ This connector is meant to generate the following files:
   ...
   ```
 
-  _Remember,_ attributes described as "Supported only on the Get ```<entity\_name>``` API" in the [Microsoft Graph API](https://docs.microsoft.com/en-us/graph/overview?view=graph-rest-1.0) documentation cannot be retrieved through this connector. The export task will raise an error if these attributes are used in your EntityTypeMapping.
+  _Remember,_ attributes described as "Supported only on the Get ```<entity_name>``` API" in the [Microsoft Graph API](https://docs.microsoft.com/en-us/graph/overview?view=graph-rest-1.0) documentation cannot be retrieved through this connector. The export task will raise an error if these attributes are used in your EntityTypeMapping.
     
   This connector supports [Microsoft Entra ID Schema Extensions](https://docs.microsoft.com/en-us/previous-versions/azure/ad/graph/howto/azure-ad-graph-api-directory-schema-extensions) but does not support [Microsoft Graph Schema Extensions](https://docs.microsoft.com/en-us/graph/extensibility-schema-groups).
 - ```<connectionIdentifier>_<navigationProperty>_<entity>.csv``` describing the navigation property from one entity to another.

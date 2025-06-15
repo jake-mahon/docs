@@ -14,7 +14,7 @@ Perform the following steps according to official Oracle documentation:
 
 To migrate to Unified Auditing for Oracle Database
 
-The procedure contains basic migration steps. Refer to [Oracle\_Database\_Upgrade\_Guide](https://docs.oracle.com/database/121/UPGRD/toc.htm) for more detailed upgrade scenario.
+The procedure contains basic migration steps. Refer to [Oracle_Database_Upgrade_Guide](https://docs.oracle.com/database/121/UPGRD/toc.htm) for more detailed upgrade scenario.
 
 1. On the computer where your database is deployed, run the sqlplus tool.
 2. Connect to your Oracle Database—use Oracle account with the ```SYSDBA``` privilege. For example:
@@ -36,11 +36,11 @@ The procedure contains basic migration steps. Refer to [Oracle\_Database\_Upgrad
    | For... | Do... |
    | --- | --- |
    | Single-instance environments | In sqlplus tool, execute the following command:  SQL> SHUTDOWN IMMEDIATE  SQL> EXIT |
-   | Windows systems | Stop the Oracle service:  net stop OracleService%ORACLE\_SID% |
-   | Oracle RAC installations | Shut down each database instance as follows:  srvctl stop database -db db\_name |
+   | Windows systems | Stop the Oracle service:  net stop OracleService%ORACLE_SID% |
+   | Oracle RAC installations | Shut down each database instance as follows:  srvctl stop database -db db_name |
 5. Stop the listener. Stopping the listener is not necessary for Oracle RAC and Grid Infrastructure listeners.
 
-   lsnrctl stop listener\_name
+   lsnrctl stop listener_name
 
    To find your listener name, execute the following command:
 
@@ -53,17 +53,17 @@ The procedure contains basic migration steps. Refer to [Oracle\_Database\_Upgrad
    | For... | Do... |
    | --- | --- |
    | Windows systems | Rename the ```%ORACLE_HOME%/bin/orauniaud12.dll.dbl``` file to ```%ORACLE_HOME%/bin/orauniaud12.dll.``` |
-   | UNIX-based systems | Execute the following command:  make -f ins\_rdbms.mk uniaud\_on ioracle ORACLE\_HOME=$ORACLE\_HOME |
+   | UNIX-based systems | Execute the following command:  make -f ins_rdbms.mk uniaud_on ioracle ORACLE_HOME=$ORACLE_HOME |
 8. Restart the listener.
 
-   lsnrctl start listener\_name
+   lsnrctl start listener_name
 9. Restart the database. Do the following, depending on your environment:
 
    | For... | Do... |
    | --- | --- |
    | Single-instance environments | In sqlplus tool, execute the following command:  sqlplus sys as sysoper  Enter password: password  SQL> STARTUP |
-   | Windows systems | Start the Oracle service:  net start OracleService%ORACLE\_SID% |
-   | Oracle RAC installations | Start each database instance as follows:  srvctl start database -db db\_name |
+   | Windows systems | Start the Oracle service:  net start OracleService%ORACLE_SID% |
+   | Oracle RAC installations | Start each database instance as follows:  srvctl start database -db db_name |
 
 See also:
 

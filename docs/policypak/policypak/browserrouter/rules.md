@@ -51,7 +51,7 @@ Matching examples:
 - http://www.policypak.com
 - https://www.policypak.com
 - http://www.policypak.com:1234/
-- http://www.policypak.com:5678/any\_other\_path
+- http://www.policypak.com:5678/any_other_path
 
 Example 2:  Criteria matching all hosts and a wildcard path
 
@@ -61,9 +61,9 @@ Description: Matches any host and port with a path containing the word "Create" 
 
 Matching examples:
 
-- http://appsvr/app/Create\_user.aspx
-- https://appsvr/app/Create\_item.aspx
-- http://appsvr:99/app/Create\_prd.aspx
+- http://appsvr/app/Create_user.aspx
+- https://appsvr/app/Create_item.aspx
+- http://appsvr:99/app/Create_prd.aspx
 - http://appsvr/app/Create/newrec.aspx
 
 Example 3: Criteria matching a host, wildcard path, and specific port

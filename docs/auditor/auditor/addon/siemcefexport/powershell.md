@@ -14,9 +14,9 @@ Windows PowerShell
 
 Copyright (C) 2014 Microsoft Corporation. All rights reserved.
 
-PS C:\Users\AddOnUser> C:\Add-ons\Netwrix\_Auditor\_CEF\_Export\_Add-on.ps1 -OutputFolder C:\CEF\_Export -NetwrixAuditorHost 172.28.6.15
+PS C:\Users\AddOnUser> C:\Add-ons\Netwrix_Auditor_CEF_Export_Add-on.ps1 -OutputFolder C:\CEF_Export -NetwrixAuditorHost 172.28.6.15
 
-__NOTE:__ If the script path contains spaces (e.g., _C:\Netwrix Add-ons\_), embrace it in double quotes and insert the ampersand (__&__) symbol in front (e.g., & "_C:\Netwrix Add-ons\_").
+__NOTE:__ If the script path contains spaces (e.g., _C:\Netwrix Add-ons_), embrace it in double quotes and insert the ampersand (__&__) symbol in front (e.g., & "_C:\Netwrix Add-ons_").
 
 __Step 4 –__ Hit __Enter__.
 

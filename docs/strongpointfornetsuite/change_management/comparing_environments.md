@@ -20,7 +20,7 @@ Your TBA Credentials only need to be set up once. These are the credentials you
 3. Enter the information for the environment:
 
    - __Name__ enter the environment name.
-   - __Account ID__ enter the account ID. If it is a Sandbox account, make sure __\_SB1__ is appended. Do not use -sb1.
+   - __Account ID__ enter the account ID. If it is a Sandbox account, make sure ___SB1__ is appended. Do not use -sb1.
    - __Consumer Key__ enter the consumer key.
    - __Consumer Secret__ enter the consumer secret.
    - __Token ID__ enter your token ID.

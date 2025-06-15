@@ -1,8 +1,8 @@
-# 2-Oracle\_SensitiveDataScan Job
+# 2-Oracle_SensitiveDataScan Job
 
-The 2-Oracle\_SensitiveDataScan job discovers sensitive data in Oracle databases across all targeted Oracle database servers based on pre-defined or user-defined search criteria. See the [Sensitive Data Discovery](/docs/accessanalyzer/enterpriseauditor/sensitivedatadiscovery/overview.md) topic for additional information.
+The 2-Oracle_SensitiveDataScan job discovers sensitive data in Oracle databases across all targeted Oracle database servers based on pre-defined or user-defined search criteria. See the [Sensitive Data Discovery](/docs/accessanalyzer/enterpriseauditor/sensitivedatadiscovery/overview.md) topic for additional information.
 
-## Query for the 2-Oracle\_SensitiveDataScan Job
+## Query for the 2-Oracle_SensitiveDataScan Job
 
 The SensitiveDataScan Query uses the SQL Data Collector for the following query:
 
@@ -10,11 +10,11 @@ The SensitiveDataScan Query uses the SQL Data Collector for the following query:
 
 - SensitiveDataScan – Collects Sensitive Data from targeted instances
 
-### Configure the 2-Oracle\_SensitiveDataScan Query
+### Configure the 2-Oracle_SensitiveDataScan Query
 
-The 2-Oracle\_SensitiveDataScan job is preconfigured to run using the default settings for the Sensitive Data Collection category in the SQL Data Collector. Follow the steps to customize configurations:
+The 2-Oracle_SensitiveDataScan job is preconfigured to run using the default settings for the Sensitive Data Collection category in the SQL Data Collector. Follow the steps to customize configurations:
 
-__Step 1 –__ Navigate to the __Databases__ > __0.Collection__ > __Oracle__ > __2-Oracle\_SensitiveDataScan__ > __Configure__ node and select __Queries__.
+__Step 1 –__ Navigate to the __Databases__ > __0.Collection__ > __Oracle__ > __2-Oracle_SensitiveDataScan__ > __Configure__ node and select __Queries__.
 
 __Step 2 –__ In the Query Selection view, select the SensitiveDataScan query and click __Query Properties__. The Query Properties window opens.
 
@@ -40,11 +40,11 @@ __Step 6 –__ To query for specific databases/instances, navigate to the Filter
 
 __Step 7 –__ Navigate to the Summary page, click __Finish__ to save any setting modifications or click __Cancel__ if no changes were made. Then click __OK__ to close the Query Properties window.
 
-The 2-Oracle\_SensitiveDataScan job is now ready to run with the customized settings.
+The 2-Oracle_SensitiveDataScan job is now ready to run with the customized settings.
 
-## Analysis Tasks for the 2-Oracle\_SensitiveDataScan Job
+## Analysis Tasks for the 2-Oracle_SensitiveDataScan Job
 
-Navigate to the __Databases__ > __0.Collection__ > __Oracle__ > __2-Oracle\_SensitiveDataScan__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Databases__ > __0.Collection__ > __Oracle__ > __2-Oracle_SensitiveDataScan__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -54,4 +54,4 @@ The default analysis tasks are:
 
 - Oracle SDD Permission View – Creates a view of all permissions on sensitive data
 - Oracle Effective SDD Perms – Creates a view of effective permissions on Oracle SDD data
-- Oracle SDD Import – Creates the SA\_AIC\_SddMatchesImport table accessible under the job’s Results node
+- Oracle SDD Import – Creates the SA_AIC_SddMatchesImport table accessible under the job’s Results node

@@ -32,11 +32,11 @@ The following features are also highly recommended:
 
   | ```UP_Assigned*``` Tables |
   | --- |
-  | UP\_AssignedResourceTypes |
-  | UP\_AssignedSingleRoles |
-  | UP\_AssignedCompositeRoles |
-  | UP\_AssignedNavigationRules |
-  | UP\_AssignedScalarRules |
+  | UP_AssignedResourceTypes |
+  | UP_AssignedSingleRoles |
+  | UP_AssignedCompositeRoles |
+  | UP_AssignedNavigationRules |
+  | UP_AssignedScalarRules |
 
   This feature is available and enabled by default in SQL Server 2016 or later.
 

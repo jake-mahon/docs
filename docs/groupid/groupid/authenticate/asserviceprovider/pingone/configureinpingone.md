@@ -23,7 +23,7 @@ To configure Directory Manager in PingOne, follow these steps:
     Click the __Select File__ button next to __Upload Metadata__. Simply select the metadata file and it will be uploaded, thereby bringing in the required settings to configure the Directory Manager client _Wizard_ within PingOne. For example, the __Entity ID__ box is populated with the required URL.
 11. In the __Application URL__ box, copy the same URL as displayed in the __Assertion Consumer Service (ACS)__ box.
 12. Select the _Post_ option button for __Single Logout Binding Type__.
-13. In the __Signing Algorithm__ drop-down list, select _RSA\_SHA256_.
+13. In the __Signing Algorithm__ drop-down list, select _RSA_SHA256_.
 14. Click the __Download__ link next to __SAML Metadata__ to download the metadata file from the PingOne identity provider.   
     While creating the PingOne provider in Directory Manager, you can import this file to bring in all the configurations for PingOne.
 15. No further configurations are required on this page. Scroll down and click the __Continue to Next Step__ button. The __SSO Attribute Mapping__ area is displayed.

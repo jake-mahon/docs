@@ -12,6 +12,6 @@ __Step 4 –__ On the computer where Auditor Server is installed, open __Registr
 
 __Step 5 –__ Navigate to __File → Connect Network Registry__ and specify the file server name.
 
-__Step 6 –__ Navigate to __HKEY\_LOCAL\_MACHINE\SYSTEM\CurrentControlSet\Services\EventLog\Security__ and set the __File__ value to _"C:\events\security.evt"_.
+__Step 6 –__ Navigate to __HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\EventLog\Security__ and set the __File__ value to _"C:\events\security.evt"_.
 
 __Step 7 –__  Set the __MaxSize__ value to _"4 000 000 000 (decimal)"_.

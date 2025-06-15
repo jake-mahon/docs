@@ -1,10 +1,10 @@
-# 2-AAD\_Exceptions Job
+# 2-AAD_Exceptions Job
 
-The 2-AAD\_Exceptions Job identifies toxic conditions that exist within Microsoft Entra ID which may leave environments at risk or add unnecessary administrative overhead.
+The 2-AAD_Exceptions Job identifies toxic conditions that exist within Microsoft Entra ID which may leave environments at risk or add unnecessary administrative overhead.
 
-## Analysis Tasks for the 2-AAD\_Exceptions Job
+## Analysis Tasks for the 2-AAD_Exceptions Job
 
-Navigate to the __.Entra ID Inventory__ > __2-AAD\_Exceptions__ > __Configure__ node and select __Analysis__. Analysis tasks with configuration parameters that define security concerns can be modified.
+Navigate to the __.Entra ID Inventory__ > __2-AAD_Exceptions__ > __Configure__ node and select __Analysis__. Analysis tasks with configuration parameters that define security concerns can be modified.
 
 __CAUTION:__ Most of these analysis tasks are preconfigured and should not be modified and not be deselected. There are a few which are deselected by default, as they are for troubleshooting purposes.
 
@@ -42,29 +42,29 @@ The default analysis tasks are:
   - Populates processing tables in the database for use by downstream analysis and report generation
   - This analysis task has configurable parameters
     - Definition of a stale membership can be customized
-- Display Exceptions View – Creates the SA\_AzureADInventory\_ExceptionsView accessible under the job’s Results node
+- Display Exceptions View – Creates the SA_AzureADInventory_ExceptionsView accessible under the job’s Results node
 
-### Customize Analysis Parameters for the 2-AAD\_Exceptions Job
+### Customize Analysis Parameters for the 2-AAD_Exceptions Job
 
 The default values for parameters that can be customized are:
 
 | Analysis Task | Customizable Parameter Name | Default Value | Value Indicates |
 | --- | --- | --- | --- |
-| Large Groups | @LARGE\_THRESHOLD | 1000 | A group object with 1000 members or more |
-| Deeply Nested Groups | @NESTING\_THRESHOLD | 10 | A group object nested 10 levels or deeper within another group object |
-| Stale Users | @STALE\_THRESHOLD | 30 | A user object that has been inactive for 30 days or more |
-|  | @INCLUDE\_DISABLED | True | A user object that has been disabled |
-| Stale Membership | @STALE\_THRESHOLD | 10 | A group where 10% of its effective members are stale users |
+| Large Groups | @LARGE_THRESHOLD | 1000 | A group object with 1000 members or more |
+| Deeply Nested Groups | @NESTING_THRESHOLD | 10 | A group object nested 10 levels or deeper within another group object |
+| Stale Users | @STALE_THRESHOLD | 30 | A user object that has been inactive for 30 days or more |
+|  | @INCLUDE_DISABLED | True | A user object that has been disabled |
+| Stale Membership | @STALE_THRESHOLD | 10 | A group where 10% of its effective members are stale users |
 
-See the [Configure the Analysis Tasks for the 2-AAD\_Exceptions Job](#configure-the-analysis-tasks-for-the-2-aad_exceptions-job) section for instructions to modify parameters. See the [AzureADInventory Exception Types Translated](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/azureadinventory/standardtables.md#azureadinventory-exception-types-translated) topic for an explanation of Exception Types.
+See the [Configure the Analysis Tasks for the 2-AAD_Exceptions Job](#configure-the-analysis-tasks-for-the-2-aad_exceptions-job) section for instructions to modify parameters. See the [AzureADInventory Exception Types Translated](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/azureadinventory/standardtables.md#azureadinventory-exception-types-translated) topic for an explanation of Exception Types.
 
-### Configure the Analysis Tasks for the 2-AAD\_Exceptions Job
+### Configure the Analysis Tasks for the 2-AAD_Exceptions Job
 
 Customizable parameters enable Enterprise Auditor users to set the values used to classify user and group objects during this job’s analysis. The parameters can be customized and are listed in a section at the bottom of the SQL Script Editor. Follow the steps to customize an analysis task’s parameters.
 
 __CAUTION:__ Modifying these parameters affects solutions with .Entra ID Inventory Job Group dependency.
 
-__Step 1 –__ Navigate to the __.Entra ID Inventory__ > __2-AAD\_Exceptions__ > __Configure__ node and select __Analysis__.
+__Step 1 –__ Navigate to the __.Entra ID Inventory__ > __2-AAD_Exceptions__ > __Configure__ node and select __Analysis__.
 
 ![Analysis Configuration option on Analysis Selection page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/entraidinventory/exceptionsanalysisconfiguration.png)
 

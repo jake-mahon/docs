@@ -28,7 +28,7 @@ We'll click "Next" and it's going to capture that window. This is a registry-bas
 
 Notice how there are other project types. We'll go over other project types in other videos, but for now WinZip "Project type: Registry" is what we're after. Actually, I'm also going to give this a different name. I'll call this "Project name: WinZip Live Demo." The reason why is that because we also ship with a preconfigured WinZip, I don't want to get confused in case there's another WinZip PolicyPak on my machine, like there could be on yours if you followed my other videos.
 
-Here we'll pick "WinZip Live Demo," and we'll click "Next." The next thing we need to do is to describe where in the registry this application lives. We default to the most likely place for you to get started, which is "HKEY\_CURRENT\_USERSoftware." But it turns out we can actually get closer to the source.
+Here we'll pick "WinZip Live Demo," and we'll click "Next." The next thing we need to do is to describe where in the registry this application lives. We default to the most likely place for you to get started, which is "HKEY_CURRENT_USERSoftware." But it turns out we can actually get closer to the source.
 
 All of WinZip's stuff happens to live under "Nico Mak Computing." You notice how there's also a "WinZip Computing" one here? It turns out it doesn't store hardly any settings there. So what we're going to do is we're going to focus in on the place that most of the settings are stored, which is "Nico Mak Computing," and we'll click "Finish" here.
 

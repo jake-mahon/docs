@@ -14,7 +14,7 @@ Creates the AccessCertification Job.
 
 | Property | Details |
 | --- | --- |
-| DisplayName\_L1   optional | __Type__    String   __Description__   Display name of the scaffolding in language 1 (up to 16). |
+| DisplayName_L1   optional | __Type__    String   __Description__   Display name of the scaffolding in language 1 (up to 16). |
 | JobIdentifier   optional | __Type__    String   __Description__   For job scaffoldings, identifier of the job to be generated. If not defined, the job identifier is calculated. |
 
 ## Child Elements

@@ -1,6 +1,6 @@
-# AD\_WeakPasswords Job
+# AD_WeakPasswords Job
 
-The AD\_WeakPasswords Job analyzes user account password hashes to determine how easily each could be compromised or the likelihood their passwords are known through comparison with compromised password dictionaries and other exceptions. Exceptions include:
+The AD_WeakPasswords Job analyzes user account password hashes to determine how easily each could be compromised or the likelihood their passwords are known through comparison with compromised password dictionaries and other exceptions. Exceptions include:
 
 - AES Key Missing – Account is set up using older functional AD levels, so has no AES key. These accounts use weaker encryption methods susceptible to brute force attacks.
 - Clear Text Password – Account has passwords stored with reversible encryption. See the Microsoft [Store passwords using reversible encryption](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh994559(v=ws.11)) article for additional information.
@@ -16,9 +16,9 @@ The AD\_WeakPasswords Job analyzes user account password hashes to determine how
 - Weak Password – Account has a password that was found in the dictionary
 - Shares Common Password – Account shares a password with another account
 
-## Queries for the AD\_WeakPasswords Job
+## Queries for the AD_WeakPasswords Job
 
-The AD\_WeakPasswords Job uses the PasswordSecurity Data Collector.
+The AD_WeakPasswords Job uses the PasswordSecurity Data Collector.
 
 ![Query for the AD_WeakPasswords Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/users/weakpasswordsquery.png)
 
@@ -54,9 +54,9 @@ __Step 6 –__ Navigate to the Summary page, click __Finish__ to save any settin
 
 The Weak Passwords query is now configured.
 
-## Analysis Tasks for the AD\_WeakPasswords Job
+## Analysis Tasks for the AD_WeakPasswords Job
 
-Navigate to the __Active Directory__ > __2.Users__ > __AD\_WeakPasswords__ > __Configure__ node and select __Analysis__.
+Navigate to the __Active Directory__ > __2.Users__ > __AD_WeakPasswords__ > __Configure__ node and select __Analysis__.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -64,12 +64,12 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The default analysis tasks are:
 
-- Count of Shared Passwords – Creates the SA\_AD\_WeakPasswords\_Count table accessible under the job's Results node
-- Join Active Directory Stats – Creates the SA\_AD\_WeakPasswords\_Details table accessible under the job’s Results node
-- Summarize Password Issues – Creates the SA\_SA\_AD\_WeakPasswords\_Summary table accessible under the job's Results node
-- Add to AD Exceptions – Creates the SA\_AD\_UserDelegation\_Details table accessible under the job’s Results node
+- Count of Shared Passwords – Creates the SA_AD_WeakPasswords_Count table accessible under the job's Results node
+- Join Active Directory Stats – Creates the SA_AD_WeakPasswords_Details table accessible under the job’s Results node
+- Summarize Password Issues – Creates the SA_SA_AD_WeakPasswords_Summary table accessible under the job's Results node
+- Add to AD Exceptions – Creates the SA_AD_UserDelegation_Details table accessible under the job’s Results node
 
-In addition to the tables and views created by the analysis tasks, the AD\_UserDelegation Job produces the following pre-configured report:
+In addition to the tables and views created by the analysis tasks, the AD_UserDelegation Job produces the following pre-configured report:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

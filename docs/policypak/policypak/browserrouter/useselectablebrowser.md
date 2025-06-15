@@ -21,7 +21,7 @@ The values a particular user chose are stored for both HTTP and HTTPS. They are 
 
 The first path is default browser for HTTP schema and the second one is HTTPS.
 
-Those two keys hold a REG\_SZ called ProgID which specifies the user's chosen (or perceived) default browser.
+Those two keys hold a REG_SZ called ProgID which specifies the user's chosen (or perceived) default browser.
 
 For instance, in this example, after the Admin has chosen User Selectable, the User chooses Edge (UWP version), with the following results:
 
@@ -61,10 +61,10 @@ __NOTE:__  The GPO must be linked to where USERS are, not COMPUTERS, because the
 
 __Step 1 –__ Set the value:
 
-- Hive: HKEY\_CURRENT\_USER
+- Hive: HKEY_CURRENT_USER
 - ```Key Path: SOFTWARE\PolicyPak\Client-Side Extensions\{1659C456-08FC-4359-B125-BB70EE34DD55}\PPBRAgent\SavedOldValues\Software/Microsoft/Windows/Shell/Associations/UrlAssociations/http/UserChoice```
 - Value Name: ProgID
-- Value Type: REG\_SZ
+- Value Type: REG_SZ
 ![507_3_image-20201229224350-3](/img/product_docs/policypak/policypak/browserrouter/507_3_image-20201229224350-3.webp)- ValueData: ChromeHTML
 
 __Step 2 –__  (But only if the value below is absent...:
@@ -87,6 +87,6 @@ _Remember,_  You need two entries. One for HTTP and one for HTTPS.
 
 __NOTE:__ If Chrome is not installed, PPBR will fail back to Internet Explorer. Also, for first time logins, Chrome will not become the default browser until the 2nd processing of gpupdate.For convenience the required User side Group Policy Preference XMLS are attached below:
 
-HTTP: [https://www.policypak.com/pp-files/2020-12-29\_no-default-or-default-edge- then-set-to-chrome-http.xml](https://www.policypak.com/pp-files/2020-12-29_no-default-or-default-edge- then-set-to-chrome-http.xml)
+HTTP: [https://www.policypak.com/pp-files/2020-12-29_no-default-or-default-edge- then-set-to-chrome-http.xml](https://www.policypak.com/pp-files/2020-12-29_no-default-or-default-edge- then-set-to-chrome-http.xml)
 
-HTTPS: [https://www.policypak.com/pp-files/2020-12-29\_no-default-or-default-edge- then-set-to-chrome-https.xml](https://www.policypak.com/pp-files/2020-12-29_no-default-or-default-edge- then-set-to-chrome-https.xml)
+HTTPS: [https://www.policypak.com/pp-files/2020-12-29_no-default-or-default-edge- then-set-to-chrome-https.xml](https://www.policypak.com/pp-files/2020-12-29_no-default-or-default-edge- then-set-to-chrome-https.xml)

@@ -1,10 +1,10 @@
-# Oracle\_DatabaseLinks Job
+# Oracle_DatabaseLinks Job
 
-The Oracle\_DatabaseLinks Job contains a report that provides information on Database Links where the listed Oracle Server is able to execute remote commands.
+The Oracle_DatabaseLinks Job contains a report that provides information on Database Links where the listed Oracle Server is able to execute remote commands.
 
-## Analysis Tasks for the Oracle\_DatabaseLinks Job
+## Analysis Tasks for the Oracle_DatabaseLinks Job
 
-Navigate to the __Jobs >  Databases > Oracle > 4.Configuration > Oracle\_DatabaseLinks Job >Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Jobs >  Databases > Oracle > 4.Configuration > Oracle_DatabaseLinks Job >Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -15,7 +15,7 @@ The default analysis tasks are:
 - Database Link Details – Provides details about Oracle Database links
 - Oracle Database Link Summary – Summarizes Oracle Database links by instance
 
-In addition to the tables created by the analysis tasks, the __Oracle\_DatabaseLinks Job__ produces the following preconfigured report:
+In addition to the tables created by the analysis tasks, the __Oracle_DatabaseLinks Job__ produces the following preconfigured report:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

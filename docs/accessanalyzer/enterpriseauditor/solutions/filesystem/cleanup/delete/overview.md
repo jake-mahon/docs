@@ -6,8 +6,8 @@ The 4. Delete job group is designed to report on and take action against resourc
 
 This job group includes the following jobs:
 
-- [FS\_DeleteFiles Job](/docs/accessanalyzer/enterpriseauditor/solutions/filesystem/cleanup/delete/fs_deletefiles.md) – Designed to delete resources from targeted file servers that were previously quarantined and can be deleted
-- [FS\_DeleteFiles\_Status Job](/docs/accessanalyzer/enterpriseauditor/solutions/filesystem/cleanup/delete/fs_deletefiles_status.md) – Designed to report on deleted resources from targeted file servers that were deleted from the DeleteFiles job
+- [FS_DeleteFiles Job](/docs/accessanalyzer/enterpriseauditor/solutions/filesystem/cleanup/delete/fs_deletefiles.md) – Designed to delete resources from targeted file servers that were previously quarantined and can be deleted
+- [FS_DeleteFiles_Status Job](/docs/accessanalyzer/enterpriseauditor/solutions/filesystem/cleanup/delete/fs_deletefiles_status.md) – Designed to report on deleted resources from targeted file servers that were deleted from the DeleteFiles job
 
 Workflow
 

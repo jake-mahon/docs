@@ -16,7 +16,7 @@ See the [Splunk and SIEM Queries](/versioned_docs/privilegesecurefordiscovery_2
 
 ## Prerequisites
 
-- Netwrix Privilege Secure for Discovery 2.8+ or s1\_fluentd service using fluentd version 1+
+- Netwrix Privilege Secure for Discovery 2.8+ or s1_fluentd service using fluentd version 1+
 - Syslog collector, either syslog server or SIEM
 
 __NOTE:__  Privilege Secure versions prior to 2.8 will require the fluentd service to be upgraded to version 1.  The default fluentd included with Privilege Secure prior to 2.8 use a version of fluentd that truncates logs at 1kB.
@@ -104,13 +104,13 @@ Command to check fluent.conf running on current fluentd service:
 
 ## Results in SIEM
 
-Once log forwarding is setup, the activity for each Privilege Secure's services (api, worker, scanner, ldapsync, analytics\_engine, internal\_api, health\_reporter, and expire) will be forwarded based off of the match stanza that includes all Docker services "docker.\*\*" generated.
+Once log forwarding is setup, the activity for each Privilege Secure's services (api, worker, scanner, ldapsync, analytics_engine, internal_api, health_reporter, and expire) will be forwarded based off of the match stanza that includes all Docker services "docker.\*\*" generated.
 
-Example of the services (aka "container\_name"), being forward, from different SIEMs:
+Example of the services (aka "container_name"), being forward, from different SIEMs:
 
 ### Splunk
 
-__NOTE:__ This view sort by top 10 values based on event count per "container\_name", which is why all the SecureONE listed services are not displaying.
+__NOTE:__ This view sort by top 10 values based on event count per "container_name", which is why all the SecureONE listed services are not displaying.
 
 ![360063180233_mceclip0](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/integrations/siem/360063180233_mceclip0.png)
 

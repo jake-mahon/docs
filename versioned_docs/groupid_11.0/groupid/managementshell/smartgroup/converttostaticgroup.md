@@ -18,7 +18,7 @@ ConvertTo-StaticGroup
 
 Example 1:
 
-The following commandlets converts a Smart Group in AdStore9 identity store Smart\_Training to a static group.
+The following commandlets converts a Smart Group in AdStore9 identity store Smart_Training to a static group.
 
 ```
 ConvertTo-StaticGroup -IdentityStoreName AdStore9 -GroupName "Smart_Training" -SearchContainers "OU=Recruiting,OU=HR,DC=Imanami,DC=US","OU=Outsourcing,OU=HR,DC=Imanami,DC=US"

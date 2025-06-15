@@ -83,7 +83,7 @@ For example,
 
 Some property values must be available in several languages. In this case, we define a __neutral property__ and as many corresponding properties as languages.
 
-The built-in _InternalDisplayName_ property is a neutral property. Its associated properties are named _InternalDisplayName\_L`{Index}`_ where _Index_ reference the [languages list](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/languages/index.md).
+The built-in _InternalDisplayName_ property is a neutral property. Its associated properties are named _InternalDisplayName_L`{Index}`_ where _Index_ reference the [languages list](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/languages/index.md).
 
 #### Computed property
 
@@ -103,7 +103,7 @@ The _InternalDisplayName_ property will be used as a default label of the entity
 
 #### Database mapping
 
-Resources from the __resource repository__ are stored in the generic UR\_Resources table.
+Resources from the __resource repository__ are stored in the generic UR_Resources table.
 
 This table has:
 
@@ -111,9 +111,9 @@ This table has:
 
 - 25 columns to store mono-valued navigational properties values (index 128 to 152). These columns are named ```I0``` to ```I4N``` following a base-32 convention for naming.
 
-_Multi-valued navigation property_ values are stored in the UR\_ResourceLinks junction table.
+_Multi-valued navigation property_ values are stored in the UR_ResourceLinks junction table.
 
-Binary property values (such as pictures or files) are stored in the UR\_ResourceFiles table.
+Binary property values (such as pictures or files) are stored in the UR_ResourceFiles table.
 
 ### Mapping
 

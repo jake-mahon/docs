@@ -58,7 +58,7 @@ __NOTE:__  ```\{\{base_url\}\}```= URL used to reach Privilege Secure internally
   - Use -PROD and -DEV or -STG to differential environments
   - Can be selected by client, must match entry in Privilege Secure
   - Use different Entity IDs for PROD and non-PROD
-  - Example: \{\{base\_url\}\}-PROD
+  - Example: \{\{base_url\}\}-PROD
 
 - __Service provider name:__ Privilege Secure-PROD
 - __Entity ID:__```\{\{base_url\}\}```

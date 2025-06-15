@@ -45,5 +45,5 @@ The Access Analyzer PosgreSQL Solution Set is a set of pre-configured audit jo
 The job groups in the PostgreSQL Solution are:
 
 - [0.Collection Job Group](/docs/accessanalyzer/enterpriseauditor/solutions/databases/postgresql/collection/overview.md) - Designed to collect high level summary information from targeted PostgreSQL Servers. This information is used by other jobs in the PostgreSQL Solution Set for further analysis and producing respective reports
-- [Configuration > PgSQL\_DatabaseSizing Job](/docs/accessanalyzer/enterpriseauditor/solutions/databases/postgresql/pgsql_databasesizing.md) - Designed to provide insight into details about the PostgreSQL environment and potential vulnerabilities related to instance configuration settings
+- [Configuration > PgSQL_DatabaseSizing Job](/docs/accessanalyzer/enterpriseauditor/solutions/databases/postgresql/pgsql_databasesizing.md) - Designed to provide insight into details about the PostgreSQL environment and potential vulnerabilities related to instance configuration settings
 - [Sensitive Data Job Group](/docs/accessanalyzer/enterpriseauditor/solutions/databases/postgresql/sensitivedata/overview.md) - Designed to provide insight into where sensitive data exists and who has access to it across all the targeted PostgreSQL databases

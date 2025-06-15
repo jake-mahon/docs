@@ -1,10 +1,10 @@
-# AD\_LAPSPermissions Job
+# AD_LAPSPermissions Job
 
-The AD\_LAPSPermissions Job identifies Active Directory objects that have access to LAPS attributes and access to computer objects that may lead to unintended access to LAPS attributes.
+The AD_LAPSPermissions Job identifies Active Directory objects that have access to LAPS attributes and access to computer objects that may lead to unintended access to LAPS attributes.
 
-## Analysis Tasks for the AD\_LAPSPermissions Job
+## Analysis Tasks for the AD_LAPSPermissions Job
 
-Navigate to the __Active Directory Permissions Analyzer__ > __4.Computers__ > __AD\_LAPSPermissions__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Active Directory Permissions Analyzer__ > __4.Computers__ > __AD_LAPSPermissions__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,10 +12,10 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The default analysis tasks are:
 
-- LAPS Permissions – Identifies potential indirect LAPS permissions. Creates the SA\_AD\_LAPSPermissions\_Results table accessible under the job’s Results node.
-- LAPS Attribute Permissions – Identifies permissions on the LAPS attributes in Active Directory for each computer. Creates the SA\_AD\_LAPSPermissions\_Attributes table accessible under the job’s Results node.
+- LAPS Permissions – Identifies potential indirect LAPS permissions. Creates the SA_AD_LAPSPermissions_Results table accessible under the job’s Results node.
+- LAPS Attribute Permissions – Identifies permissions on the LAPS attributes in Active Directory for each computer. Creates the SA_AD_LAPSPermissions_Attributes table accessible under the job’s Results node.
 
-In addition to the tables and views created by the analysis tasks, the AD\_LAPSPermissions Job produces the following pre-configured reports.
+In addition to the tables and views created by the analysis tasks, the AD_LAPSPermissions Job produces the following pre-configured reports.
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

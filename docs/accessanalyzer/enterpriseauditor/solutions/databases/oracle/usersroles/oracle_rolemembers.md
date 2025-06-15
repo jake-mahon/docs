@@ -1,10 +1,10 @@
-# Oracle\_RoleMembers Job
+# Oracle_RoleMembers Job
 
-The Oracle\_RoleMembers Job is designed to analyze and provide information about role members across all targeted Oracle database servers.
+The Oracle_RoleMembers Job is designed to analyze and provide information about role members across all targeted Oracle database servers.
 
-## Analysis Tasks for the Oracle\_RoleMembers Job
+## Analysis Tasks for the Oracle_RoleMembers Job
 
-Navigate to the __Oracle__ > __1.Users and Roles__ > __Oracle\_RoleMembers__ > Configure node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Oracle__ > __1.Users and Roles__ > __Oracle_RoleMembers__ > Configure node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,10 +12,10 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The default analysis tasks are:
 
-- Role Member Details – Creates the SA\_Oracle\_RoleMember\_Details table accessible under the job’s Results node
-- Role Membership Instances Summary – Creates the SA\_ Oracle\_RoleMember\_Summary table accessible under the job’s Results node
+- Role Member Details – Creates the SA_Oracle_RoleMember_Details table accessible under the job’s Results node
+- Role Membership Instances Summary – Creates the SA_ Oracle_RoleMember_Summary table accessible under the job’s Results node
 
-In addition to the tables and views created by the analysis tasks, the Oracle\_RoleMembers Job produces the following pre-configured report.
+In addition to the tables and views created by the analysis tasks, the Oracle_RoleMembers Job produces the following pre-configured report.
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

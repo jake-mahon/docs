@@ -6,9 +6,9 @@ The 5.Policies job group provides details on AWS IAM policies including the vari
 
 The 5.Policies job group is comprised of:
 
-- [AWS\_CustomManagedPolicies Job](/docs/accessanalyzer/enterpriseauditor/solutions/aws/policies/aws_custommanagedpolicies.md) – Provides details on customer managed policies created in the AWS Organization
-- [AWS\_InlinePolicies Job](/docs/accessanalyzer/enterpriseauditor/solutions/aws/policies/aws_inlinepolicies.md) – Provides details on customer managed policies that are directly assigned to a user or group
-- [AWS\_ManagedPolicies Job](/docs/accessanalyzer/enterpriseauditor/solutions/aws/policies/aws_managedpolicies.md) – Provides details on policies managed by Amazon in the AWS Organization
-- [AWS\_SensitivePolicies Job](/docs/accessanalyzer/enterpriseauditor/solutions/aws/policies/aws_sensitivepolicies.md) – Provides details on users, groups, and roles as well as the policies granting them sensitive permissions
-- [AWS\_UnusedManagedPolicies Job](/docs/accessanalyzer/enterpriseauditor/solutions/aws/policies/aws_unusedmanagedpolicies.md) – Provides details on customer managed policies that exist in the AWS Organization. Optionally, AWS managed policies can be included by changing the @IncludeAWSManaged parameter on the analysis task.
-- [AWS\_UserPolicies Job](/docs/accessanalyzer/enterpriseauditor/solutions/aws/policies/aws_userpolicies.md) – Provides details outlining user policy assignment. This includes where the policy is assigned, directly or at a group level, and if the policy assignment has been duplicated.
+- [AWS_CustomManagedPolicies Job](/docs/accessanalyzer/enterpriseauditor/solutions/aws/policies/aws_custommanagedpolicies.md) – Provides details on customer managed policies created in the AWS Organization
+- [AWS_InlinePolicies Job](/docs/accessanalyzer/enterpriseauditor/solutions/aws/policies/aws_inlinepolicies.md) – Provides details on customer managed policies that are directly assigned to a user or group
+- [AWS_ManagedPolicies Job](/docs/accessanalyzer/enterpriseauditor/solutions/aws/policies/aws_managedpolicies.md) – Provides details on policies managed by Amazon in the AWS Organization
+- [AWS_SensitivePolicies Job](/docs/accessanalyzer/enterpriseauditor/solutions/aws/policies/aws_sensitivepolicies.md) – Provides details on users, groups, and roles as well as the policies granting them sensitive permissions
+- [AWS_UnusedManagedPolicies Job](/docs/accessanalyzer/enterpriseauditor/solutions/aws/policies/aws_unusedmanagedpolicies.md) – Provides details on customer managed policies that exist in the AWS Organization. Optionally, AWS managed policies can be included by changing the @IncludeAWSManaged parameter on the analysis task.
+- [AWS_UserPolicies Job](/docs/accessanalyzer/enterpriseauditor/solutions/aws/policies/aws_userpolicies.md) – Provides details outlining user policy assignment. This includes where the policy is assigned, directly or at a group level, and if the policy assignment has been duplicated.

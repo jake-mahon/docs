@@ -14,9 +14,9 @@ Windows PowerShell
 
 Copyright (C) 2014 Microsoft Corporation. All rights reserved.
 
-PS C:\Users\AddOnUser> C:\Add-ons\Netwrix\_Auditor\_Add-on\_for\_IBM\_QRadar.ps1 - NetwrixAuditorHost 172.28.6.15
+PS C:\Users\AddOnUser> C:\Add-ons\Netwrix_Auditor_Add-on_for_IBM_QRadar.ps1 - NetwrixAuditorHost 172.28.6.15
 
-__NOTE:__ If the script path contains spaces (e.g., _C:\Netwrix Add-ons\_), embrace it in double quotes and insert the ampersand (__&__) symbol in front (e.g., & "_C:\Netwrix Add-ons\_").
+__NOTE:__ If the script path contains spaces (e.g., _C:\Netwrix Add-ons_), embrace it in double quotes and insert the ampersand (__&__) symbol in front (e.g., & "_C:\Netwrix Add-ons_").
 
 __Step 4 –__ Hit __Enter__.
 
@@ -26,9 +26,9 @@ By default, the Netwrix Auditor __Integration__ event log size is set to __1GB__
 
 __NOTE:__ Event records with more than 30,000 characters length will be trimmed.
 
-At the end of each run, the script creates the __Netwrix\_Auditor\_Event\_Log\_Export\_Add-on\_EventIDs.txt__ file. It defines mapping between the Activity Records and related Event IDs . You can use this file to track possible duplicates of Event IDs created at each script execution. Duplicates, if any, are written to the __Netwrix\_Auditor\_Event\_Log\_Export\_Add-on\_EventIDsDuplicates.txt__ file.
+At the end of each run, the script creates the __Netwrix_Auditor_Event_Log_Export_Add-on_EventIDs.txt__ file. It defines mapping between the Activity Records and related Event IDs . You can use this file to track possible duplicates of Event IDs created at each script execution. Duplicates, if any, are written to the __Netwrix_Auditor_Event_Log_Export_Add-on_EventIDsDuplicates.txt__ file.
 
-Similarly, the add-on also creates the __Netwrix\_Auditor\_Event\_Log\_Export\_Add-on\_CategoriesIDs.txt__ file that defines mapping between the Data Source and related Category ID.
+Similarly, the add-on also creates the __Netwrix_Auditor_Event_Log_Export_Add-on_CategoriesIDs.txt__ file that defines mapping between the Data Source and related Category ID.
 
 ## Applying Filters
 

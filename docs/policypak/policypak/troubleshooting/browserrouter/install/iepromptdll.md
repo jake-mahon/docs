@@ -1,4 +1,4 @@
-# I launched IE and saw "PPBRAGENTIExIE\_01.dll" or "PPBRExplorerExtension.dll" prompted for the user. What should I do?
+# I launched IE and saw "PPBRAGENTIExIE_01.dll" or "PPBRExplorerExtension.dll" prompted for the user. What should I do?
 
 This scenario is common when:
 

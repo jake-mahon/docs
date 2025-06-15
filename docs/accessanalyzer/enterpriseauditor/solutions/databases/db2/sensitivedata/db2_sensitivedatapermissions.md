@@ -1,10 +1,10 @@
-# Db2\_SensitiveDataPermissions Job
+# Db2_SensitiveDataPermissions Job
 
 This job provides all types of permissions on database objects containing sensitive data across all the targeted Db2 database servers.
 
-## Analysis Tasks for the Db2\_SensitiveDataPermissions Job
+## Analysis Tasks for the Db2_SensitiveDataPermissions Job
 
-Navigate to the __Jobs__ > __Databases__ > __Db2__ > __Sensitive Data__ >  __Db2\_SensitiveDataPermissions__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Jobs__ > __Databases__ > __Db2__ > __Sensitive Data__ >  __Db2_SensitiveDataPermissions__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -15,9 +15,9 @@ The default analysis tasks are:
 - Sensitive Data Permissions – Provides details on which users have permissions on discovered Db2 Sensitive Data
 - Sensitive Data Permissions Database Summary – Summarizes sensitive data permissions by database
 
-## Report for the Db2\_SensitiveDataPermissions Job
+## Report for the Db2_SensitiveDataPermissions Job
 
-In addition to the tables and views created the analysis task, the Db2\_SensitiveDataPermissions job has the following preconfigured report.
+In addition to the tables and views created the analysis task, the Db2_SensitiveDataPermissions job has the following preconfigured report.
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

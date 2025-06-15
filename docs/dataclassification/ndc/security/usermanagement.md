@@ -67,7 +67,7 @@ Additional Windows users can be validated using Integrated Windows Authenticatio
 
 If the only user defined is a Super User and that user is deleted then all security is removed and usage of the QS administrative functions reverts to unrestricted.
 
-User accounts granted access to the REST APIs will still be restricted by their specific user permissions. A Superuser with REST API access will be able to run any API method, any normal user will be restricted by the same rules that govern the UI. Further API samples and documentation can be found at: /conceptQS/\_api
+User accounts granted access to the REST APIs will still be restricted by their specific user permissions. A Superuser with REST API access will be able to run any API method, any normal user will be restricted by the same rules that govern the UI. Further API samples and documentation can be found at: /conceptQS/_api
 
 ## Permission Management
 

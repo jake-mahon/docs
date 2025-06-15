@@ -14,7 +14,7 @@ Dependencies
 - For Activity Auditing – SQL Server Audit Specifications to be configured on the target databases
   - Audit destination must be a binary file
   - See the Microsoft [Create a Server Audit and Database Audit Specification](https://docs.microsoft.com/en-us/sql/relational-databases/security/auditing/create-a-server-audit-and-database-audit-specification) article for additional information.
-- For the SQL\_SecurityAssessment Job – One or more of the following jobs or job groups must be run to produce results:
+- For the SQL_SecurityAssessment Job – One or more of the following jobs or job groups must be run to produce results:
   - [0.Collection > SQL Job Group](/docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/collection/overview.md)
   - [1.Users and Roles Job Group](/docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/usersroles/overview.md)
   - [3.Permissions Job Group](/docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/permissions/overview.md)
@@ -22,7 +22,7 @@ Dependencies
   - [Privileged Accounts Job Group](/docs/accessanalyzer/enterpriseauditor/solutions/windows/privilegedaccounts/overview.md)
   - [Privileged Accounts Job Group](/docs/accessanalyzer/enterpriseauditor/solutions/windows/privilegedaccounts/overview.md)
 
-Some of the 0.Collection Job Group queries can be scoped to target specific databases/instances. However, it is necessary for the SA\_SQL\_Instances table to be populated before attempting to scope the queries. Therefore, the [0-SQL\_InstanceDiscovery Job](/docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/collection/0-sql_instancediscovery.md) must be manually executed before attempting to scope the 0.Collection Job Group queries.
+Some of the 0.Collection Job Group queries can be scoped to target specific databases/instances. However, it is necessary for the SA_SQL_Instances table to be populated before attempting to scope the queries. Therefore, the [0-SQL_InstanceDiscovery Job](/docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/collection/0-sql_instancediscovery.md) must be manually executed before attempting to scope the 0.Collection Job Group queries.
 
 Targeted Host(s)
 
@@ -55,8 +55,8 @@ Workflow
 Prerequisites:
 
 - Successful execution of the .Active Directory Inventory Job Group
-- For the 3-SQL\_ActivityScan, configure SQL Server Audit and SQL Server Audit Specifications on target SQL Server Databases. Audit destination for the configured server or database audit must be a binary file.
-- The 5-SQL\_ServerSettings Job contains the Orphaned Users query which returns users that are orphaned for each database. The query uses the sp\_Change\_users\_login procedure which requires the db\_owner fixed database to be assigned to the Access Analyzer User. See the [sp\_change\_users\_login (Transact-SQL)](https://docs.microsoft.com/en-us/sql/relational-databases/system-stored-procedures/sp-change-users-login-transact-sql?view=sql-server-ver15) Microsoft article for additional information.
+- For the 3-SQL_ActivityScan, configure SQL Server Audit and SQL Server Audit Specifications on target SQL Server Databases. Audit destination for the configured server or database audit must be a binary file.
+- The 5-SQL_ServerSettings Job contains the Orphaned Users query which returns users that are orphaned for each database. The query uses the sp_Change_users_login procedure which requires the db_owner fixed database to be assigned to the Access Analyzer User. See the [sp_change_users_login (Transact-SQL)](https://docs.microsoft.com/en-us/sql/relational-databases/system-stored-procedures/sp-change-users-login-transact-sql?view=sql-server-ver15) Microsoft article for additional information.
 
 1. (Optional) Configure the queries for the jobs in the 0.Collection Job Group
 2. Schedule the 0.Collection Job Group to run daily or as desired
@@ -80,7 +80,7 @@ Dependencies
 
   ___RECOMMENDED:___ To avoid functional issues with Access Analyzer, create multiple connection profiles to accommodate multiple credentials.
 - Define and validate connection information in the Connection screen
-- [0-AzureSQL\_InstanceDiscovery Job](/docs/accessanalyzer/enterpriseauditor/solutions/databases/azuresql/collection/0-azuresql_instancediscovery.md) run successfully
+- [0-AzureSQL_InstanceDiscovery Job](/docs/accessanalyzer/enterpriseauditor/solutions/databases/azuresql/collection/0-azuresql_instancediscovery.md) run successfully
 
 Targeted Host(s)
 

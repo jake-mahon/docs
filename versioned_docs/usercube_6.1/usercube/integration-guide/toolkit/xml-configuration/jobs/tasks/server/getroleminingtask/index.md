@@ -16,7 +16,7 @@ The xml file contains 2 sql requests to link roles, dimensions and Owners to ext
 
 | Property | Details |
 | --- | --- |
-| DisplayName\_L1   required | __Type__    String   __Description__   Display name of the task in language 1 (up to 16). |
+| DisplayName_L1   required | __Type__    String   __Description__   Display name of the task in language 1 (up to 16). |
 | AllEntities   default value: false | __Type__    Boolean   __Description__   Apply role mining on all entities (otherwise list the entity types with the TaskEntityType) |
 | Identifier   optional | __Type__    String   __Description__   Unique identifier of the task. |
 | IsSimulated   default value: false | __Type__    Boolean   __Description__   Apply results of role mining in simulation or not |

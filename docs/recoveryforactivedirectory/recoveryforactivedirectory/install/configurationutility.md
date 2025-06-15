@@ -2,7 +2,7 @@
 
 On installing Recovery for Active Directory, the Recovery Configuration Utility is installed on the same server. This utility is used to register the RSAT Extension on the Recovery Application Server.
 
-To launch the Recovery Configuration Utility, double-click the Recovery\_Config.exe executable at the following location in the Recovery for Active Directory installation directory: ```...Netwrix\Recovery for Active Directory\Recovery_Config.exe```
+To launch the Recovery Configuration Utility, double-click the Recovery_Config.exe executable at the following location in the Recovery for Active Directory installation directory: ```...Netwrix\Recovery for Active Directory\Recovery_Config.exe```
 
 ![  Recovery Configuration Utility](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/install/configurationutility.webp)
 

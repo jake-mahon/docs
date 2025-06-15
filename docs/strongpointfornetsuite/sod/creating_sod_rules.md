@@ -45,9 +45,9 @@ The following are general definitions of access levels for permissions in NetSui
 
      1. Select __One-Sided Rule__ (only Base Permissions/Levels) or __Two-Sided Rule__ (both Base and Conflicting Permissions/Levels).
      2. Select one or more __Base Permissions__ and one or more __Base Permission Levels__. For __Base Permission__, you can enter part of the name to see a matching list, or use the drop down to view all of the permissions.
-     3. Optionally add a __Base Permission Text Match__ to filter for conflicts matching the base permission string. For example: __ADMI\___ matches all __ADMI__ permissions. Can use __startswith__ search operator.
+     3. Optionally add a __Base Permission Text Match__ to filter for conflicts matching the base permission string. For example: __ADMI___ matches all __ADMI__ permissions. Can use __startswith__ search operator.
      4. For Two-Sided Rules, select one or more __Conflicting Permissions__ and one or more __Conflicting Permission Levels__. For __Conflict Permission__, you can enter part of the name to see a matching list, or use the drop down to view all of the permissions.
-     5. Optionally add a __Conflict Permission Text Match__ to filter for conflicts matching the conflicting permission string. For example: __ADMI\___ matches all __ADMI__ permissions. Can use __startswith__ search operator.
+     5. Optionally add a __Conflict Permission Text Match__ to filter for conflicts matching the conflicting permission string. For example: __ADMI___ matches all __ADMI__ permissions. Can use __startswith__ search operator.
    - __Permission vs Role__ provides you additional control to fine tune access to sensitive custom records. Requires all of the fields for both __Role-based__ and __Permission-based__.
 10. Add Restrictions to limit the SoD rule to employees associated in one or more of the categories: __Subsidiaries__, __Departments__, __Classes__, and __Locations__.
 

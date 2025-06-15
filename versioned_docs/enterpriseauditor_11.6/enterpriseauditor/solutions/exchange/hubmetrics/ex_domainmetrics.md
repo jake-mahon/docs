@@ -1,10 +1,10 @@
-# EX\_DomainMetrics Job
+# EX_DomainMetrics Job
 
-The EX\_DomainMetrics Job provides information about where the domain’s mail flow is going to and coming from.
+The EX_DomainMetrics Job provides information about where the domain’s mail flow is going to and coming from.
 
-## Analysis Tasks for the EX\_DomainMetrics Job
+## Analysis Tasks for the EX_DomainMetrics Job
 
-View the analysis tasks by navigating to the __Exchange__ > __1. HUB Metrics__ > __EX\_DomainMetrics__ > __Configure__ node and select __Analysis__.
+View the analysis tasks by navigating to the __Exchange__ > __1. HUB Metrics__ > __EX_DomainMetrics__ > __Configure__ node and select __Analysis__.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,10 +12,10 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The following analysis tasks are selected by default:
 
-- 01. External Domain Traffic - Count – Creates the SA\_EX\_DomainMetrics\_Count table, accessible under the job’s Results node
-- 02. External Domain Traffic - Volume – Creates the SA\_EX\_DomainMetrics\_Volume table, accessible under the job’s Results node
+- 01. External Domain Traffic - Count – Creates the SA_EX_DomainMetrics_Count table, accessible under the job’s Results node
+- 02. External Domain Traffic - Volume – Creates the SA_EX_DomainMetrics_Volume table, accessible under the job’s Results node
 
-In addition to the tables and views by the analysis tasks, the EX\_DomainMetrics Job produces the following pre-configured reports:
+In addition to the tables and views by the analysis tasks, the EX_DomainMetrics Job produces the following pre-configured reports:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

@@ -1,6 +1,6 @@
-# 2-SQL\_SensitiveDataScan Job
+# 2-SQL_SensitiveDataScan Job
 
-The 2-SQL\_SensitiveDataScan Job discovers sensitive data in the database SQL server instances and databases based on a pre-defined or user defined search criteria.
+The 2-SQL_SensitiveDataScan Job discovers sensitive data in the database SQL server instances and databases based on a pre-defined or user defined search criteria.
 
 Special Dependency
 
@@ -10,7 +10,7 @@ Special Dependency
 
 Though the job is visible within the console, it requires an additional installer package before data collection occurs.
 
-## Queries for the 2-SQL\_SensitiveDataScan Job
+## Queries for the 2-SQL_SensitiveDataScan Job
 
 The SensitiveDataScan Job uses the SQL Data Collector for the following query:
 
@@ -21,9 +21,9 @@ The SensitiveDataScan Job uses the SQL Data Collector for the following query:
 
 ### Configure the SensitiveDataScan Query
 
-The 2-SQL\_SensitiveDataScan Job is preconfigured to run using the default settings for the Sensitive Data Collection category. Follow the steps to customize configurations.
+The 2-SQL_SensitiveDataScan Job is preconfigured to run using the default settings for the Sensitive Data Collection category. Follow the steps to customize configurations.
 
-__Step 1 –__ Navigate to the __Databases__ > 0.Collection > SQL > 2-SQL\_SensitiveDataScan > Configure node and select Queries.
+__Step 1 –__ Navigate to the __Databases__ > 0.Collection > SQL > 2-SQL_SensitiveDataScan > Configure node and select Queries.
 
 __Step 2 –__ In the Query Selection view, select the SensitiveDataScan query click on Query Properties. The Query Properties window appears.
 
@@ -59,11 +59,11 @@ __Step 6 –__ To query for specific database/instance, navigate to the [SQL: F
 
 __Step 7 –__ Navigate to the Summary page, click Finish to save any setting modifications or click Cancel if no changes were made. Then click OK to close the Query Properties window.
 
-The 2-SQL\_SensitsveDataScan Job is now ready to run with the customized settings.
+The 2-SQL_SensitsveDataScan Job is now ready to run with the customized settings.
 
-## Analysis Tasks for the 2-SQL\_SensitiveDataScan Job
+## Analysis Tasks for the 2-SQL_SensitiveDataScan Job
 
-Navigate to the __Databases__ > 0.Collection > SQL > 2-SQL\_SensitiveDataScan > Configure node and select Analysis to view the analysis task.
+Navigate to the __Databases__ > 0.Collection > SQL > 2-SQL_SensitiveDataScan > Configure node and select Analysis to view the analysis task.
 
 __CAUTION:__ Do not modify or deselect the selected analysis task(s). The analysis task(s) are preconfigured for this job.
 
@@ -73,4 +73,4 @@ The default analysis task is:
 
 - SQL Server SDD Matches View — Brings the SQL Server SDD Matches View to the SA console
 - SQL Server SDD Match Hits View — Brings the SQL Server SDD Match Hits View to the SA console
-- AIC Import — Creates the SA\_AIC\_SddMatchesImport
+- AIC Import — Creates the SA_AIC_SddMatchesImport

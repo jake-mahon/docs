@@ -22,7 +22,7 @@ Loaded during initialization, this data has the automatic flag and is all with p
 
 | Property | Details |
 | --- | --- |
-| DisplayName\_L1   required | __Type__    String   __Description__   Display name of the task in language 1 (up to 16). |
+| DisplayName_L1   required | __Type__    String   __Description__   Display name of the task in language 1 (up to 16). |
 | AssignedResourceNavigationSQL   optional | __Type__    String   __Description__   The sql to find all AssignedResourceNavigation for update.   _Alternative definition_: If _TaskType_ is:   - SqlCmdTask: Database provider |
 | AssignedResourceScalarSQL   optional | __Type__    String   __Description__   The sql to find all AssignedResourceScalar for update.   _Alternative definition_: If _TaskType_ is:   - SqlCmdTask: SQL Command to execute |
 | AssignedResourceTypeSQL   optional | __Type__    String   __Description__   The sql to find all AssignedResourceType for update.   _Alternative definition_: If _TaskType_ is:   - SqlCmdTask: Database provider assembly qualified name |

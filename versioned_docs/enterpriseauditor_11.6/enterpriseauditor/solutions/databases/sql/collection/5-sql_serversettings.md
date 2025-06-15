@@ -1,10 +1,10 @@
-# 5-SQL\_ServerSettings Job
+# 5-SQL_ServerSettings Job
 
-The 5-SQL\_ServerSettings Job collects SQL server instance and database configuration settings for evaluation against recommended best practices.
+The 5-SQL_ServerSettings Job collects SQL server instance and database configuration settings for evaluation against recommended best practices.
 
-## Queries for the 5-SQL\_ServerSettings Job
+## Queries for the 5-SQL_ServerSettings Job
 
-The 5-SQL\_ServerSettings Job uses the SQL Data Collector for the following queries:
+The 5-SQL_ServerSettings Job uses the SQL Data Collector for the following queries:
 
 ![Query Selection](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/sql/collection/sqljobgroup19.png)
 
@@ -24,9 +24,9 @@ The 5-SQL\_ServerSettings Job uses the SQL Data Collector for the following quer
 
 ### Configure the Configuration Query
 
-The 5-SQL\_ServerSettings Job’s Configuration Query is configured to run with the default settings with the Configuration Properties category. Follow the steps to customize configurations.
+The 5-SQL_ServerSettings Job’s Configuration Query is configured to run with the default settings with the Configuration Properties category. Follow the steps to customize configurations.
 
-__Step 1 –__ Navigate to the __Databases__ > 0.Collection > SQL > 5-SQL\_ServerSettings > Configure node and select Queries.
+__Step 1 –__ Navigate to the __Databases__ > 0.Collection > SQL > 5-SQL_ServerSettings > Configure node and select Queries.
 
 __Step 2 –__ In the Query Selection view, select the Configuration Query and click on Query Properties. The Query Properties window will appear.
 
@@ -44,13 +44,13 @@ __Step 4 –__ To scope the query for specific database/instance, navigate to th
 
 __Step 5 –__ On the Summary page, click Finish to save any setting modifications or click Cancel if no changes were made. Then click OK to close the Query Properties window.
 
-The 5-SQL\_ServerSettings Job is now ready to run with the customized settings.
+The 5-SQL_ServerSettings Job is now ready to run with the customized settings.
 
 ### Configure the Server Query
 
-The 5-SQL\_ServerSettingsJob > Server Query has been preconfigured to run with the default settings with the category of Server Properties. However, the query can be scoped to target specific databases/instances on the Filters page of the SQL Data Collector Wizard. Follow these steps to modify the query configuration.
+The 5-SQL_ServerSettingsJob > Server Query has been preconfigured to run with the default settings with the category of Server Properties. However, the query can be scoped to target specific databases/instances on the Filters page of the SQL Data Collector Wizard. Follow these steps to modify the query configuration.
 
-__Step 1 –__ Navigate to the __Databases__ > 0.Collection > SQL > 5-SQL\_ServerSettings > Configure node and select Queries.
+__Step 1 –__ Navigate to the __Databases__ > 0.Collection > SQL > 5-SQL_ServerSettings > Configure node and select Queries.
 
 __Step 2 –__ In the Query Selection view, select the Server query click on Query Properties. The Query Properties window will appear.
 
@@ -66,8 +66,8 @@ __Step 4 –__ To scope the query for specific database/instance, navigate to th
 - Use the Import CSV button to import a list from a CSV file.
 - Optionally use the Add Custom Filter button to create and apply a custom filter.
 
-  Remember, it is necessary for the [0-SQL\_InstanceDiscovery Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/sql/collection/0-sql_instancediscovery.md) to run before attempting to scope this query.
+  Remember, it is necessary for the [0-SQL_InstanceDiscovery Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/sql/collection/0-sql_instancediscovery.md) to run before attempting to scope this query.
 
 __Step 5 –__ On the Summary page, click Finish to save any setting modifications or click Cancel if no changes were made. Then click OK to close the Query Properties window.
 
-The 5-SQL\_ServerSettings Job is now ready to run with the customized settings.
+The 5-SQL_ServerSettings Job is now ready to run with the customized settings.

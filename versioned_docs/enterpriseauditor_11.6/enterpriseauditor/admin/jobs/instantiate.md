@@ -21,7 +21,7 @@ There is no need to close the Enterprise Auditor application to instantiate a ne
 __Step 1 –__ Obtain the job or job group to be instantiated. If it has been sent by Netwrix, a colleague, or other entity, it is most likely in one of two formats:
 
 - Archive (.zip, .rar, and so on)
-- Folder containing the job content (JOB\_[name of job] or GROUP\_[name of job group])
+- Folder containing the job content (JOB_[name of job] or GROUP_[name of job group])
 
 __Step 2 –__ Open the Jobs directory. The default location is:
 

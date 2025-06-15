@@ -94,4 +94,4 @@ The following parameter is required:
 
 Example of adding an import xml file:
 
-Set-SIPwnedDB -FileName "c:\pwned\_db.txt"
+Set-SIPwnedDB -FileName "c:\pwned_db.txt"

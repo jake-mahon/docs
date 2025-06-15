@@ -1,10 +1,10 @@
-# AD\_DomainControllers Job
+# AD_DomainControllers Job
 
-The 0.Collection > AD\_DomainControllers Job collects domain controller details which will be further analyzed in order to provide information on domains, sites, and trusts.
+The 0.Collection > AD_DomainControllers Job collects domain controller details which will be further analyzed in order to provide information on domains, sites, and trusts.
 
-## Queries for the AD\_DomainControllers Job
+## Queries for the AD_DomainControllers Job
 
-The AD\_DomainControllers Job uses the LDAP Data Collector and the ActiveDirectory Data Collector for the following queries:
+The AD_DomainControllers Job uses the LDAP Data Collector and the ActiveDirectory Data Collector for the following queries:
 
 __CAUTION:__ Except the first query, do not modify the remaining queries. The remaining queries are preconfigured for this job.
 
@@ -24,7 +24,7 @@ The queries for this job are:
 
 ### Connect Securely with TLS/SSL
 
-The Domain Controller Listing Query in the AD\_DomainControllers Job is configured to use the LDAP Data Collector. This query can be optionally configured to connect securely with TLS/SSL.
+The Domain Controller Listing Query in the AD_DomainControllers Job is configured to use the LDAP Data Collector. This query can be optionally configured to connect securely with TLS/SSL.
 
 __CAUTION:__ Do not modify any other settings in this query.
 

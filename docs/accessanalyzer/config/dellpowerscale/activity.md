@@ -69,14 +69,14 @@ For automatic configuration, an account needs to be provisioned with the followi
 
 Read-only Privileges
 
-- ISI\_PRIV\_LOGIN\_PAPI
-- ISI\_PRIV\_AUTH
-- ISI\_PRIV\_SMB
-- ISI\_PRIV\_NFS
+- ISI_PRIV_LOGIN_PAPI
+- ISI_PRIV_AUTH
+- ISI_PRIV_SMB
+- ISI_PRIV_NFS
 
 Read-Write Privilege
 
-- ISI\_PRIV\_AUDIT
+- ISI_PRIV_AUDIT
 
 Privileges can be added to a role and then the role can be assigned to an account. Use the following commands to create a role, add privileges, and assign the role to an account:
 

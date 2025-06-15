@@ -8,13 +8,13 @@ Hi, everybody. This is Jeremy Moskowitz, former Group Policy MVP and Founder of 
 
 Instead of using a real application, I'm just going to use good old Control Panel "mouse." It's just the application I want to use to hang our hat on. It makes things a little easier. Let's pretend this was a very important application, and in your very important application you needed to set some very important registry setting, and you wanted to use the Group Policy Preferences to do it.
 
-"Double-click speed" here, let's take a look at "regedit." We go to regedit, and there we go. "ComputerHKEY\_CURRENT\_USERControl PanelMouse" "DoubleClickSpeed" is set to "500." If I move the user's slider to the left and I refresh, you can see that it goes up to "900." That's almost a full second. If I go to the "Fast" here, that would be "200" or click-click really fast.
+"Double-click speed" here, let's take a look at "regedit." We go to regedit, and there we go. "ComputerHKEY_CURRENT_USERControl PanelMouse" "DoubleClickSpeed" is set to "500." If I move the user's slider to the left and I refresh, you can see that it goes up to "900." That's almost a full second. If I go to the "Fast" here, that would be "200" or click-click really fast.
 
 Under no circumstances can this slider get to a particular value that I want it to be. Again, we're using Mouse. We could be talking about anything. Let's pretend that we want to make this value 604. It's not possible to do it in the slider, but we can use the Group Policy Preferences to do it.
 
 Let's go ahead and go to our management station. These are my "East Sales Users." I'm in the GPMC here. Let me "Create a GPO in this domain, and Link it here…" and we'll call this "Prefs: Mouse DCS = 604."
 
-We'll right click over this guy, we'll click on "Edit" and we'll dive down under "User Configuration/Preferences/Registry/New/Registry Item." We're going to use this machine as our example. We go to "HKEY\_CURRENT\_USER/Control Panel/Mouse" and "DoubleClickSpeed" on this machine is "500." We don't want it be "500," which is the default. We want it to be "604."
+We'll right click over this guy, we'll click on "Edit" and we'll dive down under "User Configuration/Preferences/Registry/New/Registry Item." We're going to use this machine as our example. We go to "HKEY_CURRENT_USER/Control Panel/Mouse" and "DoubleClickSpeed" on this machine is "500." We don't want it be "500," which is the default. We want it to be "604."
 
 While we're here, we'll also set this value up to "Remove this item when it is no longer applied." We'll talk about what you probably think it means and what it actually does in just a moment. Now we're setting the value "DoubleClickSpeed" equals "604."
 
@@ -44,7 +44,7 @@ Again, we're not really talking about Mouse, are we? We're talking about your im
 
 Did you notice problem numbers two and three? Did you notice that at no time did the preferences lock out the UI here? Not to mention, the preferences don't lock out the registry punch. If a user puts in some value that they shouldn't put in here or a script does it or something else malicious, you are in trouble here.
 
-Again, I'm just a regular user, no admin rights. The regular user – you can try this yourself – can manipulate stuff under "ComputerHKEY\_CURRENT\_USERControl PanelMouse" just as they see fit. That is the big problem with the Group Policy Preferences with regards to application management.
+Again, I'm just a regular user, no admin rights. The regular user – you can try this yourself – can manipulate stuff under "ComputerHKEY_CURRENT_USERControl PanelMouse" just as they see fit. That is the big problem with the Group Policy Preferences with regards to application management.
 
 Let's switch gears. Let's talk about PolicyPak would do this for this application. Again, I just happen to be using Mouse, but you could be doing whatever you want here. PolicyPak ships with over 100 preconfigured applications ready to rock out of the box, things that are really big and important like Firefox, Flash, Java, Office and a whole bunch of stuff.
 

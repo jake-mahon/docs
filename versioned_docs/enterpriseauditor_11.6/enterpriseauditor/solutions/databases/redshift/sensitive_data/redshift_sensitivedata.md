@@ -1,10 +1,10 @@
-# Redshift\_SensitiveData Job
+# Redshift_SensitiveData Job
 
 This job provides information on all the sensitive data discovered in the targeted Redshift servers based on the selected scan criteria.
 
-## Analysis Tasks for the Redshift\_SensitiveData Job
+## Analysis Tasks for the Redshift_SensitiveData Job
 
-Navigate to the __Jobs__ > __Databases__ >  __Redshift__ >  __Sensitive Data__ > __Redshift\_SensitiveData__ > __Configure__ node and select __Analysis__ to view the Analysis Tasks.
+Navigate to the __Jobs__ > __Databases__ >  __Redshift__ >  __Sensitive Data__ > __Redshift_SensitiveData__ > __Configure__ node and select __Analysis__ to view the Analysis Tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -16,9 +16,9 @@ The default analysis tasks are:
 - Database Summary — Summarizes Redshift sensitive data by database
 - Enterprise Summary — Summarizes Redshift  sensitive data for the organization
 
-## Reports for the for the Redshift\_SensitiveData Job
+## Reports for the for the Redshift_SensitiveData Job
 
-In addition to the tables and views created the analysis task, the Redshift\_SensitiveData Job produces the following preconfigured reports.
+In addition to the tables and views created the analysis task, the Redshift_SensitiveData Job produces the following preconfigured reports.
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

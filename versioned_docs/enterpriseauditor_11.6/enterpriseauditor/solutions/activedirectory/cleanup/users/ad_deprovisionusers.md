@@ -1,6 +1,6 @@
-# AD\_DeprovisionUsers Job
+# AD_DeprovisionUsers Job
 
-The AD\_DeprovisionUsers Job provides an automated workflow deprovision stale and unused user accounts.
+The AD_DeprovisionUsers Job provides an automated workflow deprovision stale and unused user accounts.
 
 __Step 1 –__ Move stale users to a staging OU for deletion.
 
@@ -18,15 +18,15 @@ __Step 6 –__ Remove stale users from all groups.
 
 The Configuration section on a Job's overview page allows you to easily modify any customizable parameters used by analysis tasks in the job. See the [Parameter Configuration](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/overview.md#parameter-configuration) topic for instructions on how to edit parameters on a job overview page.
 
-The AD\_DeprovisionUsers page has the following configurable parameters:
+The AD_DeprovisionUsers page has the following configurable parameters:
 
 - Days in the Stale Users OU before being deleted
 
-See the [Customizable Analysis Parameters for the AD\_DeprovisionUsers Job](#customizable-analysis-parameters-for-the-ad_deprovisionusers-job) topic for additional information.
+See the [Customizable Analysis Parameters for the AD_DeprovisionUsers Job](#customizable-analysis-parameters-for-the-ad_deprovisionusers-job) topic for additional information.
 
-## Analysis Tasks for the AD\_DeprovisionUsers Job
+## Analysis Tasks for the AD_DeprovisionUsers Job
 
-Navigate to the __Active Directory__ > __Cleanup__ > __2.Users__ > __AD\_DeprovisionUsers__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Active Directory__ > __Cleanup__ > __2.Users__ > __AD_DeprovisionUsers__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 ![Analysis Tasks for the AD_DeprovisionUsers Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/cleanup/users/deprovisionusersanalysis.png)
 
@@ -35,22 +35,22 @@ The default analysis tasks are:
 - Identify Users to be Deleted – Imports data from stale users
 - User Accounts to Delete – Identifies accounts in the Stale Accounts OU that are ready to be deleted
 
-  - This analysis task contains a configurable parameter: ```@days_before_deleting```. See the [Customizable Analysis Parameters for the AD\_DeprovisionUsers Job](#customizable-analysis-parameters-for-the-ad_deprovisionusers-job) topic for additional information.
+  - This analysis task contains a configurable parameter: ```@days_before_deleting```. See the [Customizable Analysis Parameters for the AD_DeprovisionUsers Job](#customizable-analysis-parameters-for-the-ad_deprovisionusers-job) topic for additional information.
 - Identify Group Membership – Identifies stale user membership to remove
 
-### Customizable Analysis Parameters for the AD\_DeprovisionUsers Job
+### Customizable Analysis Parameters for the AD_DeprovisionUsers Job
 
 Customizable parameters enable you to set the values used to classify user and group objects during this job’s analysis.
 
 | Analysis Task | Customizable Parameter Name | Default Value | Value Indicates |
 | --- | --- | --- | --- |
-| User Accounts to Delete | @days\_before\_deleting | 365 | Days in the Stale Users OU before being deleted |
+| User Accounts to Delete | @days_before_deleting | 365 | Days in the Stale Users OU before being deleted |
 
 See the [Configure the Customizable Parameters in an Analysis Task](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/configure/analysiscustomizableparameters.md) topic for additional information.
 
-## Action Tasks for the AD\_DeprovisionUsers Job
+## Action Tasks for the AD_DeprovisionUsers Job
 
-Navigate to the __Active Directory__ > __Cleanup__ > __2.Users__ > __AD\_DeprovisionUsers__ > __Configure__ node and select __Actions__ to view the actions.
+Navigate to the __Active Directory__ > __Cleanup__ > __2.Users__ > __AD_DeprovisionUsers__ > __Configure__ node and select __Actions__ to view the actions.
 
 __CAUTION:__ Do not enable the actions unless it is required. Disable the actions after execution to prevent making unintended and potentially harmful changes to Active Directory.
 

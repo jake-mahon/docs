@@ -108,7 +108,7 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 
 Alternatively, settings can be stored as environment variables on Identity Manager's host system.
 
-Each setting value is stored as the value of an environment variable whose name is the concatenation of all the ancestor sections and the setting name separated by __\_\___ (two underscores).
+Each setting value is stored as the value of an environment variable whose name is the concatenation of all the ancestor sections and the setting name separated by ______ (two underscores).
 
 Here is an example showing how to construct a setting environment variable name from its matching ```json``` file.
 
@@ -126,7 +126,7 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 }
 ```
 
-The name becomes Scheduler\_\_Enabled, Scheduler\_\_LockFilePath and Swagger\_\_Enabled.
+The name becomes Scheduler__Enabled, Scheduler__LockFilePath and Swagger__Enabled.
 
 ## Manage Several Environments
 
@@ -136,11 +136,11 @@ How to manage several network environments.
 
 Every setting value can be overwritten to fit a specific environment.
 
-The environment within which Identity Manager runs is set by the system environment variable ASPNETCORE\_ENVIRONMENT. The default value is Production. Usual examples include Development, Staging, and Production.
+The environment within which Identity Manager runs is set by the system environment variable ASPNETCORE_ENVIRONMENT. The default value is Production. Usual examples include Development, Staging, and Production.
 
 To overwrite setting values for a specific environment, one can write environment-specific configuration files.
 
-For every appsettings.```<xxx>```.json file, an appsettings.```<xxx>```.```<environment>```.json can be created where ```<environment>``` is the name of the relevant environment matching the ASPNETCORE\_ENVIRONMENT value.
+For every appsettings.```<xxx>```.json file, an appsettings.```<xxx>```.```<environment>```.json can be created where ```<environment>``` is the name of the relevant environment matching the ASPNETCORE_ENVIRONMENT value.
 
 The appsettings.```<xxx>```.```<environment>```.json file has the exact same section/attribute/subsection shape as the main appsettings file.
 

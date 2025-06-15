@@ -1,10 +1,10 @@
-# Oracle\_Activity Job
+# Oracle_Activity Job
 
-The Oracle\_Activity Job is designed to provide insight into user activity in target Oracle database servers and instances based on Oracle Unified Audit settings.
+The Oracle_Activity Job is designed to provide insight into user activity in target Oracle database servers and instances based on Oracle Unified Audit settings.
 
-## Analysis Tasks for the Oracle\_Activity Job
+## Analysis Tasks for the Oracle_Activity Job
 
-Navigate to the __Oracle__ > __2.Activity__ > __Oracle\_Activity__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Oracle__ > __2.Activity__ > __Oracle_Activity__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,11 +12,11 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The default analysis tasks are:
 
-- Oracle Activity Details – Creates the SA\_Oracle\_Activity\_Details table accessible under the job’s Results node
-- Activity Database Summary – Summarizes all activity by database. Creates the SA\_Oracle\_Activity\_UserDatabaseSummary table accessible under the job’s Results node.
-- Activity Instance Summary – Summarizes Oracle activity by Instance. Creates the SA\_Oracle\_Activity\_UserInstanceSummary table accessible under the job’s Results node.
+- Oracle Activity Details – Creates the SA_Oracle_Activity_Details table accessible under the job’s Results node
+- Activity Database Summary – Summarizes all activity by database. Creates the SA_Oracle_Activity_UserDatabaseSummary table accessible under the job’s Results node.
+- Activity Instance Summary – Summarizes Oracle activity by Instance. Creates the SA_Oracle_Activity_UserInstanceSummary table accessible under the job’s Results node.
 
-In addition to the tables and views created the analysis task, the Oracle\_Activity Job produces the following pre-configured report.
+In addition to the tables and views created the analysis task, the Oracle_Activity Job produces the following pre-configured report.
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

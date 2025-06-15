@@ -1,22 +1,22 @@
-# 1-AD\_Scan Job
+# 1-AD_Scan Job
 
-The 1-AD\_Scan Job collects data from Active Directory. In most environments, this job requires no additional customizations before running it. Optionally, the job can be configured to scope scan options and to collect custom attributes. For enable SSL encryption for communication with Active Directory, see the [Enable SSL Option](#enable-ssloption) topic for additional information.
+The 1-AD_Scan Job collects data from Active Directory. In most environments, this job requires no additional customizations before running it. Optionally, the job can be configured to scope scan options and to collect custom attributes. For enable SSL encryption for communication with Active Directory, see the [Enable SSL Option](#enable-ssloption) topic for additional information.
 
 ## Queries for the 1-AD Scan Job
 
-The 1-AD\_Scan Job uses the ADInventory Data Collector for the following query:
+The 1-AD_Scan Job uses the ADInventory Data Collector for the following query:
 
 ![Queries for the 1-AD Scan Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectoryinventory/scanqueries.png)
 
 - AD Inventory – Targets a domain controller to collect inventory data for user, group, and computer objects
 
-  - This query can be modified. See the [Customize the 1-AD\_Scan Query](#customize-the-1-ad_scan-query) topic for additional information.
+  - This query can be modified. See the [Customize the 1-AD_Scan Query](#customize-the-1-ad_scan-query) topic for additional information.
 
-### Customize the 1-AD\_Scan Query
+### Customize the 1-AD_Scan Query
 
-The 1-AD\_Scan Job has been preconfigured to run with the default settings with the category of Scan Active Directory. Follow the steps to set any desired customizations to scan options or to collect custom attributes.
+The 1-AD_Scan Job has been preconfigured to run with the default settings with the category of Scan Active Directory. Follow the steps to set any desired customizations to scan options or to collect custom attributes.
 
-__Step 1 –__ Navigate to the __.Active Directory Inventory__ > __1-AD\_Scan__ > __Configure__ node and select __Queries__.
+__Step 1 –__ Navigate to the __.Active Directory Inventory__ > __1-AD_Scan__ > __Configure__ node and select __Queries__.
 
 __Step 2 –__ In the Query Selection view, click __Query Properties__. The Query Properties window opens.
 
@@ -41,11 +41,11 @@ __Step 6 –__ Navigate to the Summary page. Click __Finish__ to save any settin
 
 __NOTE:__ In order for the Access Information Center to populate NFS permissions within File System reports, the .Active Directory Inventory Job Group must be configured to collect the __uid__ and __uidNumber__ attributes for Users. See the [NFS Permissions for the AIC ](#nfs-permissions-for-the-aic) topic for additional information.
 
-The 1-AD\_Scan Job is now ready to run with the customized settings. If any custom attributes are added to the data collection, the __Create Extended Attributes View__ analysis task can be enabled in order to have visibility into the collected data.
+The 1-AD_Scan Job is now ready to run with the customized settings. If any custom attributes are added to the data collection, the __Create Extended Attributes View__ analysis task can be enabled in order to have visibility into the collected data.
 
-## Analysis Tasks for the 1-AD\_Scan Job
+## Analysis Tasks for the 1-AD_Scan Job
 
-View the analysis tasks by navigating to the __.Active Directory Inventory__ > __1-AD\_Scan__ > __Configure__ node and select __Analysis__.
+View the analysis tasks by navigating to the __.Active Directory Inventory__ > __1-AD_Scan__ > __Configure__ node and select __Analysis__.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -54,19 +54,19 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 The following analysis tasks are selected by default:
 
 - Import functions – Imports effective group membership function into the database
-- Create Extended Attributes View – Creates the SA\_ADInventory\_ExtendedAttributesView for Custom Attributes that have been added to the query
-- Summarize Domains – Creates the SA\_ADInventory\_Report\_DomainSummary table
-- Summarize Stats – Creates the SA\_ADInventory\_Summary table
+- Create Extended Attributes View – Creates the SA_ADInventory_ExtendedAttributesView for Custom Attributes that have been added to the query
+- Summarize Domains – Creates the SA_ADInventory_Report_DomainSummary table
+- Summarize Stats – Creates the SA_ADInventory_Summary table
 
 The following analysis tasks never need to be selected as they are only needed to restore views that have been accidentally hidden:
 
-- Bring User View To Console – Restores the SA\_ADInventory\_UsersView to be visible within the Enterprise Auditor Console if it is hidden
-- Bring Group Members View To Console – Restores the SA\_ADInventory\_GroupMembersView to be visible within the Enterprise Auditor Console if it is hidden
-- Bring Group View To Console – Restores the SA\_ADInventory\_GroupsView to be visible within the Enterprise Auditor Console if it is hidden
-- Bring Computers View to Console – Restores the SA\_ADInventory\_ComputersView to be visible within the Enterprise Auditor Console if it is hidden
+- Bring User View To Console – Restores the SA_ADInventory_UsersView to be visible within the Enterprise Auditor Console if it is hidden
+- Bring Group Members View To Console – Restores the SA_ADInventory_GroupMembersView to be visible within the Enterprise Auditor Console if it is hidden
+- Bring Group View To Console – Restores the SA_ADInventory_GroupsView to be visible within the Enterprise Auditor Console if it is hidden
+- Bring Computers View to Console – Restores the SA_ADInventory_ComputersView to be visible within the Enterprise Auditor Console if it is hidden
 - Remove ADI Stored Procedures – Removes the built-in ADI stored procedures
 
-In addition to the tables and views explained in the [Standard Reference Tables & Views for the ADInventory Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/adinventory/standardtables.md) topic, the 1-AD\_Scan Job produces the following pre-configured report:
+In addition to the tables and views explained in the [Standard Reference Tables & Views for the ADInventory Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/adinventory/standardtables.md) topic, the 1-AD_Scan Job produces the following pre-configured report:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |
@@ -81,7 +81,7 @@ In order for the Access Information Center to populate NFS resources within all 
 
 Follow the steps to add the custom attributes.
 
-__Step 1 –__ Navigate to the Active Directory Inventory DC Wizard for the AD Inventory Query within the 1-AD\_Scan Job.
+__Step 1 –__ Navigate to the Active Directory Inventory DC Wizard for the AD Inventory Query within the 1-AD_Scan Job.
 
 ![Active Directory Inventory DC Wizard Options page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectoryinventory/scandcwizardoptionsnfs.png)
 
@@ -118,7 +118,7 @@ See the Resource Audit topics in the [Netwrix Access Information Center Document
 
 Follow the steps to enable SSL encryption for communications with Active Directory:
 
-__Step 1 –__ Navigate to the __1-AD\_Scan > Configure__ node and select __Queries__.
+__Step 1 –__ Navigate to the __1-AD_Scan > Configure__ node and select __Queries__.
 
 __Step 2 –__ In the Query Selection view, select the query and click __Query Properties__. The Query Properties window opens.
 

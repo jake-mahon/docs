@@ -1,8 +1,8 @@
-# 1-SPSEEK\_SystemScans Job
+# 1-SPSEEK_SystemScans Job
 
 This job is responsible for building the Tier2 SPDLP database repositories, which contain information regarding sensitive content that exists within SharePoint.
 
-## Queries for the 1-SPSEEK\_SystemScans Job
+## Queries for the 1-SPSEEK_SystemScans Job
 
 The 1-SPSEEK SystemScans Job uses the SharePoint Access Data Collector for the following query:
 
@@ -12,15 +12,15 @@ The query for the 1-SPSEEK SystemScans Job is:
 
 - SharePoint Scan – Scans SharePoint for sensitive content
 
-### Configure the Query for the 1-SPSEEK\_SystemScans Job
+### Configure the Query for the 1-SPSEEK_SystemScans Job
 
-The 1-SPSEEK\_SystemScans Job has been preconfigured to run with the default settings using the SPAA Data Collector category of Scan for Sensitive Content, which is not visible within the SharePoint Access Auditor Data Collector Wizard when opened from within this job.
+The 1-SPSEEK_SystemScans Job has been preconfigured to run with the default settings using the SPAA Data Collector category of Scan for Sensitive Content, which is not visible within the SharePoint Access Auditor Data Collector Wizard when opened from within this job.
 
 __CAUTION:__ Users should not change scans in a way that would result in less data being returned on a subsequent scan (i.e. scanning fewer web applications, scanning fewer site collections, or a shallower depth scan). Those resources not included in a subsequent scan are marked as deleted in the Tier 2 database and subsequently removed from the Tier 1 database.
 
 Follow the steps to set any desired customizations.
 
-__Step 1 –__ Navigate to the __Jobs__ > __SharePoint__ > __0.Collection__ > __1-SPSEEK\_SystemScans__ > __Configure__ node and select __Queries__.
+__Step 1 –__ Navigate to the __Jobs__ > __SharePoint__ > __0.Collection__ > __1-SPSEEK_SystemScans__ > __Configure__ node and select __Queries__.
 
 __Step 2 –__ In the Query Selection view, click __Query Properties__. The Query Properties window displays.
 
@@ -58,4 +58,4 @@ __Step 10 –__ On the Results page, all Available Properties are selected by de
 
 __Step 11 –__ On the Summary page, click __Finish__ to save any setting modifications or click __Cancel__ if no changes were made. Then click __OK__ to close the Query Properties window.
 
-If changes were made, the 1-SPSEEK\_SystemScans Job has now been customized.
+If changes were made, the 1-SPSEEK_SystemScans Job has now been customized.

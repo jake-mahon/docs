@@ -25,12 +25,12 @@ Please note the following rebranding limitations and requirements to the logo fi
 3. Only PNG images can be used as logo files.
 4. Endure that image file is located in the default directory or custom folder. Consider the following:
 
-   - For subscription emails, just put the logo file to _%ALLUSERSPROFILE%\Netwrix Auditor\Branding\_ and run the script to update email look and feel.
-   - For exported pdf files, make sure that the logo file is located in the default directory for each user that is going to work with exported search results, Risk Assessment and Overview dashboards. Otherwise, specify custom path to logo file. Default path to logo for exported files is _%LOCALAPPDATA%\Netwrix Auditor\Audit Intelligence\Resources\_.
+   - For subscription emails, just put the logo file to _%ALLUSERSPROFILE%\Netwrix Auditor\Branding_ and run the script to update email look and feel.
+   - For exported pdf files, make sure that the logo file is located in the default directory for each user that is going to work with exported search results, Risk Assessment and Overview dashboards. Otherwise, specify custom path to logo file. Default path to logo for exported files is _%LOCALAPPDATA%\Netwrix Auditor\Audit Intelligence\Resources_.
 
 Follow the steps t o customize branding
 
-__Step 1 –__ On the computer where the Netwrix Auditor Server is installed, navigate to _%ALLUSERSPROFILE%\Netwrix Auditor\_ and locate the Rebranding.zip package.
+__Step 1 –__ On the computer where the Netwrix Auditor Server is installed, navigate to _%ALLUSERSPROFILE%\Netwrix Auditor_ and locate the Rebranding.zip package.
 
 __Step 2 –__ Unzip the package to any folder on the computer where Netwrix Auditor Server is installed.
 
@@ -67,13 +67,13 @@ __Step 3 –__ Review the script and provide parameters.
 | UserName | Defines a username used to connect to SQL Server instance in case of SQL Server Authentication. Leave blank if you use Windows Authentication. |
 | Password | Defines a password used to connect to SQL Server instance in case of SQL Server Authentication. Leave blank if you use Windows Authentication. |
 | SQLServerInstance | Defines a SQL Server instance where your Audit Database resides. By default, local unnamed instance is selected. |
-| DBName | By default, the database responsible for Netwrix Auditor look and feel is Netwrix\_CommonDB. If you renamed this database, provide a new name. |
+| DBName | By default, the database responsible for Netwrix Auditor look and feel is Netwrix_CommonDB. If you renamed this database, provide a new name. |
 | HeaderImageFullPath | Defines a full path to the png image with the new report header (product logo). Supported size: 21x21px (WxH). |
 | FooterImageFullPath | Defines a full path to the png image with the new report footer (logo). Supported size: 105x22px (WxH). |
 | HeaderText | Defines text in the report header. Max length: 21 characters. |
 | FooterURL | Defines URL that opens on clicking the report logo in the footer. |
 
-__Step 4 –__ Click the arrow button to run the script. The user who runs the script is granted the db\_owner role on the Netwrix\_CommonDB database.
+__Step 4 –__ Click the arrow button to run the script. The user who runs the script is granted the db_owner role on the Netwrix_CommonDB database.
 
 After running the script, start the Netwrix Auditor client and generate a report. The branding will be updated.
 
@@ -85,4 +85,4 @@ __Step 1 –__ On the computer where Auditor Server resides, navigate to the scr
 
 __Step 2 –__ Right-click a script and select Edit. Windows PowerShell ISE will start.
 
-__Step 3 –__ Run the script as it is. The user who runs the script must be granted the db\_owner role on the Common\_DB database in a local unnamed SQL Server configured as default for Netwrix Auditor.
+__Step 3 –__ Run the script as it is. The user who runs the script must be granted the db_owner role on the Common_DB database in a local unnamed SQL Server configured as default for Netwrix Auditor.

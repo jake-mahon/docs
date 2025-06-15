@@ -15,7 +15,7 @@ See the following topics for the SharePoint Agent and the target environment req
 - [SharePoint Scan Options](/docs/accessanalyzer/enterpriseauditor/requirements/solutions/sharepoint/scanoptions.md)
 - [SharePoint Support](/docs/accessanalyzer/enterpriseauditor/requirements/target/sharepoint.md)
 
-__NOTE:__ You can use the __SP\_RegisterAzureAppAuth__ instant job to make the configuration for SharePoint Online easier. This job registers the necessary Microsoft Entra ID application and provisions it with the required permissions. See the [SP\_RegisterAzureAppAuth Job](/docs/accessanalyzer/enterpriseauditor/admin/jobs/instantjobs/sp_registerazureappauth.md) topic for additional information.
+__NOTE:__ You can use the __SP_RegisterAzureAppAuth__ instant job to make the configuration for SharePoint Online easier. This job registers the necessary Microsoft Entra ID application and provisions it with the required permissions. See the [SP_RegisterAzureAppAuth Job](/docs/accessanalyzer/enterpriseauditor/admin/jobs/instantjobs/sp_registerazureappauth.md) topic for additional information.
 
 ## SharePoint Solution Requirements on the Access Analyzer Console
 

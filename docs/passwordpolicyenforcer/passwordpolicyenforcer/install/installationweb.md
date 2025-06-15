@@ -4,7 +4,7 @@ Password Policy Enforcer Web V7.11 is a web server enabling users to change thei
 
 Click the following link to download Password Policy Enforcer Web:
 
-[Password\_Policy\_Enforcer\_WEB\_7.11.zip](https://www.netwrix.com/download/commercial/Password_Policy_Enforcer_WEB_7.11.zip)
+[Password_Policy_Enforcer_WEB_7.11.zip](https://www.netwrix.com/download/commercial/Password_Policy_Enforcer_WEB_7.11.zip)
 
 ## The PPE Web Setup Wizard
 

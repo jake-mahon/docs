@@ -6,7 +6,7 @@ The following is a list of Knowledge Base articles for Browser Router.
 
 - [Why does Windows 8 and 10 ask me "How do you want to open this?" and how do I make it go away?](/docs/policypak/policypak/troubleshooting/browserrouter/install/windowsopenprompt.md)
 - [I'm using SCCM to deploy the PP CSE. I want to ensure that Internet Explorer is closed during the installation of PPBR to prevent IE questions of users if they are logged in. What should I do?](/docs/policypak/policypak/troubleshooting/browserrouter/install/preventiequestions.md)
-- [I launched IE and saw "PPBRAGENTIExIE\_01.dll" or "PPBRExplorerExtension.dll" prompted for the user. What should I do?](/docs/policypak/policypak/troubleshooting/browserrouter/install/iepromptdll.md)
+- [I launched IE and saw "PPBRAGENTIExIE_01.dll" or "PPBRExplorerExtension.dll" prompted for the user. What should I do?](/docs/policypak/policypak/troubleshooting/browserrouter/install/iepromptdll.md)
 - [When I unlicense or remove Endpoint Policy ManagerBrowser Router from scope,Endpoint Policy Manager Browser Router Agent still shows as OS "default browser". Why is that and is there a workaround?](/docs/policypak/policypak/troubleshooting/browserrouter/install/defaultbrowser.md)
 - [Why doesn't Endpoint Policy Manager Browser Router routes take effect the first time I log on to Windows 8.1 or Windows 10?](/docs/policypak/policypak/troubleshooting/browserrouter/install/twologons.md)
 - [How-to manually install and enable Endpoint Policy Manager Browser Router (PPBR) extension for Google Chrome?](/docs/policypak/policypak/browserrouter/install/chromemanual.md)
@@ -16,7 +16,7 @@ The following is a list of Knowledge Base articles for Browser Router.
 - [Troubleshooting routing between browsers.](/docs/policypak/policypak/troubleshooting/browserrouter/betweenbrowsers.md)
 - [I'm having a "Browser Router Emergency" or some kind of critical website incompatibility. What can I do?](/docs/policypak/policypak/troubleshooting/browserrouter/criticalwebsiteincompatibility.md)
 - [When does Endpoint Policy Manager Browser Router write v1 or v2 Enterprise Mode site lists?](/docs/policypak/policypak/troubleshooting/browserrouter/versions.md)
-- [PPBRAgentExeIE\_01.DLL error message occurs about Internet Explorer enhanced security. What should I do?](/docs/policypak/policypak/troubleshooting/error/browserrouter/dllcompatible.md)
+- [PPBRAgentExeIE_01.DLL error message occurs about Internet Explorer enhanced security. What should I do?](/docs/policypak/policypak/troubleshooting/error/browserrouter/dllcompatible.md)
 - [Endpoint Policy Manager Browser Router removes other Chrome ‘force installed' extensions. How can I work around this?](/docs/policypak/policypak/troubleshooting/browserrouter/chrome/forceinstall.md)
 - [Why don't routes work from Firefox to other browsers (in Firefox 49+) ?](/docs/policypak/policypak/troubleshooting/browserrouter/firefox.md)
 - [Why don't routes work from IE to other browsers?](/docs/policypak/policypak/troubleshooting/browserrouter/internetexplorer/fromtootherbrowsers.md)

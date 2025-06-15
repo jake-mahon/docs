@@ -1,14 +1,14 @@
-# Stale > FS\_StaleContent Job
+# Stale > FS_StaleContent Job
 
-The FS\_StaleContent job is designed to report on stale content information from targeted file servers.
+The FS_StaleContent job is designed to report on stale content information from targeted file servers.
 
 ![Stale > FS_StaleContent Job in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/content/stalejobstree.png)
 
-The FS\_StaleContent job is located in the Stale job group.
+The FS_StaleContent job is located in the Stale job group.
 
-## Analysis Tasks for the FS\_StaleContent Job
+## Analysis Tasks for the FS_StaleContent Job
 
-View the analysis tasks by navigating to the __FileSystem__ > __4.Content__ > __Stale__ > __FS\_StaleContent__ > __Configure__ node and select __Analysis__.
+View the analysis tasks by navigating to the __FileSystem__ > __4.Content__ > __Stale__ > __FS_StaleContent__ > __Configure__ node and select __Analysis__.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -16,12 +16,12 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The following analysis tasks are selected by default:
 
-- 1. Create Aging View – Creates the SA\_ENG\_FSAA\_FolderAging table accessible under the job’s Results node
-- 2. Enterprise Summary – Creates the SA\_FS\_StaleContent\_EnterpriseSummary table accessible under the job’s Results node
-- 3. Share Summary – Creates the SA\_FS\_StaleContent\_ShareSummary table accessible under the job’s Results node
-- 4. Host Summary – Creates the SA\_FS\_StaleContent\_HostSummary table accessible under the job’s Results node
+- 1. Create Aging View – Creates the SA_ENG_FSAA_FolderAging table accessible under the job’s Results node
+- 2. Enterprise Summary – Creates the SA_FS_StaleContent_EnterpriseSummary table accessible under the job’s Results node
+- 3. Share Summary – Creates the SA_FS_StaleContent_ShareSummary table accessible under the job’s Results node
+- 4. Host Summary – Creates the SA_FS_StaleContent_HostSummary table accessible under the job’s Results node
 
-In addition to the tables created by the analysis tasks, the FS\_StaleContent job produces the following pre-configured reports:
+In addition to the tables created by the analysis tasks, the FS_StaleContent job produces the following pre-configured reports:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

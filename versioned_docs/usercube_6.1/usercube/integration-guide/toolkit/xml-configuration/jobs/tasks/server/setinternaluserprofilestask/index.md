@@ -16,7 +16,7 @@ It is necessary to set up [ProfileRuleContext](/versioned_docs/usercube_6.1/user
 
 | Property | Details |
 | --- | --- |
-| DisplayName\_L1   required | __Type__    String   __Description__   Display name of the task in language 1 (up to 16). |
+| DisplayName_L1   required | __Type__    String   __Description__   Display name of the task in language 1 (up to 16). |
 | BatchInsertSize   default value: 0 | __Type__    Int32   __Description__   Defines the batch insert size. |
 | BatchSelectSize   default value: 0 | __Type__    Int32   __Description__   Defines the batch select size. |
 | Identifier   optional | __Type__    String   __Description__   Unique identifier of the task. |

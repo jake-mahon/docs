@@ -1,27 +1,27 @@
-# Collection > PF\_ContentScans Job
+# Collection > PF_ContentScans Job
 
-The PF\_ContentScans job is comprised of data collection that focuses on public folder content aging within each public folder.
+The PF_ContentScans job is comprised of data collection that focuses on public folder content aging within each public folder.
 
 ![Collection > PF_ContentScans Job in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/databases/collection/collectionjobstree.webp)
 
-The PF\_ContentScans job is located in the 0.Collection job group.
+The PF_ContentScans job is located in the 0.Collection job group.
 
-## Queries for the PF\_ContentScans Job
+## Queries for the PF_ContentScans Job
 
-The PF\_ContentScans job uses the ExchangePS Data Collector.
+The PF_ContentScans job uses the ExchangePS Data Collector.
 
 ![Queries for the PF_ContentScans Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/publicfolders/content/contentscansquery.webp)
 
-The following query is included in the PF\_ContentScans job:
+The following query is included in the PF_ContentScans job:
 
 - PF Contents – Collects content aging information
 
   - By default set to search all public folders. It can be scoped.
   - See the [Scope the ExchangePS Data Collector](/docs/accessanalyzer/enterpriseauditor/solutions/exchange/casmetrics/ex_aspolicies.md#scope-the-exchangeps-data-collector) topic for additional information
 
-## Analysis Tasks for the PF\_ContentScans Job
+## Analysis Tasks for the PF_ContentScans Job
 
-View the analysis task by navigating to the __Exchange__ > __5. Public Folders__ > __Content__ > __Collection__ > __PF\_ContentScans__ > __Configure__ node and select __Analysis__.
+View the analysis task by navigating to the __Exchange__ > __5. Public Folders__ > __Content__ > __Collection__ > __PF_ContentScans__ > __Configure__ node and select __Analysis__.
 
 __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis task is preconfigured for this job.
 

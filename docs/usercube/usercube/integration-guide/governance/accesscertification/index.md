@@ -79,7 +79,7 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 </AccessControlRule>
 ```
 
-The filter indicates that a review with the __Manager__ profile can only access items for which the binding Owner.Directory\_User:MainRecord.Organization.Id matches their dimension organization's value.
+The filter indicates that a review with the __Manager__ profile can only access items for which the binding Owner.Directory_User:MainRecord.Organization.Id matches their dimension organization's value.
 
 This example needs to be completed with either automatic assignment or manual assignment capabilities.
 
@@ -125,7 +125,7 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 <AccessControlRule Identifier="Manager_AccessCertificationItem_Custom_AccessCertification_ManualAssign_Directory_User" DisplayName_L1="User - Access certification manual assign" EntityType="AccessCertificationItem" Profile="Manager">    <Entry CanExecute="true" Permission="/Custom/AccessCertification/ManualAssigned/Directory_User" />  </AccessControlRule>
 ```
 
-There is no filter so the Manager profile can certify all forwarded certification orders for the Directory\_User entity type, regardless of his previously configured scope of responsibility.
+There is no filter so the Manager profile can certify all forwarded certification orders for the Directory_User entity type, regardless of his previously configured scope of responsibility.
 
 It is recommended to have a larger scope for forwarded certification orders than for automatically assigned ones.
 

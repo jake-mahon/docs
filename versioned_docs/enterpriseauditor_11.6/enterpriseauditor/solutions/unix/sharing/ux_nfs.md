@@ -1,10 +1,10 @@
-# UX\_NFS Job
+# UX_NFS Job
 
-The UX\_NFS job identifies potentially insecure NFS share options which are categorized by their risk level. Separate lists of options are checked based on target operating system.
+The UX_NFS job identifies potentially insecure NFS share options which are categorized by their risk level. Separate lists of options are checked based on target operating system.
 
-## Analysis Tasks for the UX\_NFS Job
+## Analysis Tasks for the UX_NFS Job
 
-Navigate to the __Unix__ > __3.Sharing__ > __UX\_NFS__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Unix__ > __3.Sharing__ > __UX_NFS__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -15,7 +15,7 @@ The default analysis tasks are:
 - Lists high risk NFS share options – Creates an interim processing table in the database for use by downstream analysis and report generation
 - Highlights hosts with a large number of risky shares – Creates an interim processing table in the database for use by downstream analysis and report generation
 
-In addition to the tables and views created by the analysis task, the UX\_NFS job produces the following pre-configured report:
+In addition to the tables and views created by the analysis task, the UX_NFS job produces the following pre-configured report:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

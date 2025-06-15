@@ -10,9 +10,9 @@ An Entitlement schedule is automatically created for an identity store when:
 By default, the schedule runs weekly to compute permissions on shared files and folders residing on the specified servers (for Active Directory), and the document libraries present in the specified sites (for SharePoint). It then replicates these permissions
 to Elasticsearch, enabling users to view, manage and update these permissions in the GroupID portal.
 
-On the very first run of the Entitlement schedule, it computes all permissions from scratch and performs a complete replication. On each next run, it will create a parallel index for that specific server/SharePoint site index with the suffix \_replication which computes all permissions from scratch. In the meantime, user can perform actions on GroupID Entitlement. The actions performed during this parallel replication are committed directly at the provider and stored in the database. These changes are then immediately committed to elastic after the replication is complete.
+On the very first run of the Entitlement schedule, it computes all permissions from scratch and performs a complete replication. On each next run, it will create a parallel index for that specific server/SharePoint site index with the suffix _replication which computes all permissions from scratch. In the meantime, user can perform actions on GroupID Entitlement. The actions performed during this parallel replication are committed directly at the provider and stored in the database. These changes are then immediately committed to elastic after the replication is complete.
 
-The scope schedule changes are replicated after the new index is done replicating permissions from the server/SharePoint. When this parallel index gets completely replicated, it becomes the new primary index for this server/SharePoint site and the \_replication index is deleted from indices.
+The scope schedule changes are replicated after the new index is done replicating permissions from the server/SharePoint. When this parallel index gets completely replicated, it becomes the new primary index for this server/SharePoint site and the _replication index is deleted from indices.
 
 The GroupID Entitlement schedule runs in the context of the following accounts:
 
@@ -37,7 +37,7 @@ Step 3 – Click __Schedules__ under __Settings__ in the left pane.
 
 Step 4 – On the __Schedules__ page, click the plus sign next to __GroupID Entitlement__. Then click the ellipsis button for the schedule and select __Edit__.
 
-Step 5 – On the __Edit Schedule__ page, the __Schedule Name__ and __Name Preview__ boxes display the name of the schedule as read-only. The name format is _Entitlement\_`<the name of the machine the schedule is created on>`_.
+Step 5 – On the __Edit Schedule__ page, the __Schedule Name__ and __Name Preview__ boxes display the name of the schedule as read-only. The name format is _Entitlement_`<the name of the machine the schedule is created on>`_.
 
 Step 6 – In the __Scheduler Service Name__ drop-down list, select a Scheduler service that would be responsible for triggering this schedule. The number of services displayed in the list depend on the number of Elasticsearch clusters in the environment, as each cluster has its own Scheduler service. See the [Scheduler Service](/versioned_docs/groupid_11.0/groupid/admincenter/service/schedulerservice.md) topic.
 

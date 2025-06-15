@@ -59,5 +59,5 @@ Defines the banner to be displayed informations. See Indicator for more details.
 | Property | Details |
 | --- | --- |
 | Color   required | __Type__    String   __Description__   Defines the color of the item. |
-| DisplayName\_L1   optional | __Type__    String   __Description__   Display name of the banner in language 1 (up to 16). |
+| DisplayName_L1   optional | __Type__    String   __Description__   Display name of the banner in language 1 (up to 16). |
 | Value   optional | __Type__    String   __Description__   Defines the value with which the indicator binding will be compared to. |

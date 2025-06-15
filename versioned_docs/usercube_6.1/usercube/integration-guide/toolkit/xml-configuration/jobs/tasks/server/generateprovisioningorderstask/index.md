@@ -22,7 +22,7 @@ Then changes the provisioningState of the resources concerned to 2.
 
 | Property | Details |
 | --- | --- |
-| DisplayName\_L1   required | __Type__    String   __Description__   Display name of the task in language 1 (up to 16). |
+| DisplayName_L1   required | __Type__    String   __Description__   Display name of the task in language 1 (up to 16). |
 | BatchInsertSize   default value: 0 | __Type__    Int32   __Description__   Specifies the number of orders by file. |
 | BatchSelectSize   default value: 0 | __Type__    Int32   __Description__   Defines the batch select size. |
 | Connector   optional | __Type__    String   __Description__   Identifier of the connector involved in the task. |

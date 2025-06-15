@@ -29,7 +29,7 @@ The parameters are simply attached to the URL for the Web Application and separa
 
 Example
 
-You want to call up the Web Application under __https://psr\_Web Application.firma.com.__ In the process, you want the login mask to be directly filled with the database __Passwords__ and the user name __Anderson__. The following URL is then used: __https://psr\_Web Application.firma.com/authentication/ login?database=Passwords&username=Anderson__
+You want to call up the Web Application under __https://psr_Web Application.firma.com.__ In the process, you want the login mask to be directly filled with the database __Passwords__ and the user name __Anderson__. The following URL is then used: __https://psr_Web Application.firma.com/authentication/ login?database=Passwords&username=Anderson__
 
 NOTE: It is possible to only transfer the database. The user name is not absolutely necessary.
 

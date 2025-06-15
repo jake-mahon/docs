@@ -1,18 +1,18 @@
-# EX\_MetricsCollection Job
+# EX_MetricsCollection Job
 
-The EX\_MetricsCollection Job is comprised of multiple queries that utilize the ExchangeMetrics Data Collector to process and collect the message tracking logs on the Exchange servers in the environment. These queries collect server, domain, user, and distribution list traffic including but not limited to: sent, received, journal, NDRs, and transports messages. These queries are configured to process and collect that previous 7 days of Message Tracking Logs the first time this job is run, after that it only collects the previous day unless the __Enable Persistent Log State__ option has been enabled in the query.
+The EX_MetricsCollection Job is comprised of multiple queries that utilize the ExchangeMetrics Data Collector to process and collect the message tracking logs on the Exchange servers in the environment. These queries collect server, domain, user, and distribution list traffic including but not limited to: sent, received, journal, NDRs, and transports messages. These queries are configured to process and collect that previous 7 days of Message Tracking Logs the first time this job is run, after that it only collects the previous day unless the __Enable Persistent Log State__ option has been enabled in the query.
 
 ___RECOMMENDED:___ Run this job with the default configuration settings for all queries.
 
 See the [ExchangeMetrics Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchangemetrics/overview.md) topic for additional information.
 
-## Queries for the EX\_MetricsCollection Job
+## Queries for the EX_MetricsCollection Job
 
-The EX\_MetricsCollection Job uses the ExchangeMetrics Data Collector.
+The EX_MetricsCollection Job uses the ExchangeMetrics Data Collector.
 
 ![Queries for the EX_MetricsCollection Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/hubmetrics/collection/metricscollectionqueries.png)
 
-The following queries are included in the EX\_MetricsCollection Job:
+The following queries are included in the EX_MetricsCollection Job:
 
 - Server Metrics – Collects server metrics
 - User Metrics – Collects user metrics
@@ -22,9 +22,9 @@ The following queries are included in the EX\_MetricsCollection Job:
 - Delivery Time – Collects delivery times metrics
 - Hourly Statistics – Collects server metrics
 
-## Analysis Tasks for the EX\_MetrixCollection Job
+## Analysis Tasks for the EX_MetrixCollection Job
 
-View the analysis tasks by navigating to the __Exchange__ > __1. HUB Metrics__ > __0. Collection__ > __EX\_MetricsCollection__ > __Configure__ node and selecting __Analysis__.
+View the analysis tasks by navigating to the __Exchange__ > __1. HUB Metrics__ > __0. Collection__ > __EX_MetricsCollection__ > __Configure__ node and selecting __Analysis__.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -32,13 +32,13 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The following analysis tasks are selected by default:
 
-- 01. Delivery Times History – Creates the SA\_ExhangeMetrics\_DeliveryTimes table, accessible under the job’s Results node
-- 02. DL History – Creates the SA\_EX\_ ExhangeMetrics\_DistributionLists table, accessible under the job’s Results node
-- 03. Internet Traffic History – Creates the SA\_EX\_ExhangeMetrics\_InternetTraffic table, accessible under the job’s Results node
-- 04. Hourly Traffic History – Creates the SA\_EX\_ExhangeMetrics\_HourlyTraffic table, accessible under the job’s Results node
-- 05. User Traffic History – Creates the SA\_EX\_ExhangeMetrics\_UserTraffic table, accessible under the job’s Results node
-- 06. Message Size History – Creates the SA\_EX\_ExhangeMetrics\_MessageSize table, accessible under the job’s Results node
-- 07. Server Traffic History – Creates the SA\_EX\_ExhangeMetrics\_ServerTraffic table, accessible under the job’s Results node
+- 01. Delivery Times History – Creates the SA_ExhangeMetrics_DeliveryTimes table, accessible under the job’s Results node
+- 02. DL History – Creates the SA_EX_ ExhangeMetrics_DistributionLists table, accessible under the job’s Results node
+- 03. Internet Traffic History – Creates the SA_EX_ExhangeMetrics_InternetTraffic table, accessible under the job’s Results node
+- 04. Hourly Traffic History – Creates the SA_EX_ExhangeMetrics_HourlyTraffic table, accessible under the job’s Results node
+- 05. User Traffic History – Creates the SA_EX_ExhangeMetrics_UserTraffic table, accessible under the job’s Results node
+- 06. Message Size History – Creates the SA_EX_ExhangeMetrics_MessageSize table, accessible under the job’s Results node
+- 07. Server Traffic History – Creates the SA_EX_ExhangeMetrics_ServerTraffic table, accessible under the job’s Results node
 - 08. SET HISTORY RETENTION – Sets retention period in months
 
   - By default set to retain __6 months__

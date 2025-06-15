@@ -78,7 +78,7 @@ To configure logs retention period
 __NOTE:__ This instruction is only effective for NetApp versions older than 8.2.1.
 
 1. On the computer where Auditor Server resides, open Registry Editor: navigate to __Start__ __→ Run__ and type _"regedit"_.
-2. Navigate to __HKEY\_LOCAL\_MACHINE → SOFTWARE → Wow6432Node → Netwrix Auditor → File Server Change Reporter__.
+2. Navigate to __HKEY_LOCAL_MACHINE → SOFTWARE → Wow6432Node → Netwrix Auditor → File Server Change Reporter__.
 3. In the right-pane, right-click and select New → DWORD (32-bit Value).
 
    For the backup logs retention functionality to work properly, you need to specify the CleanAutoBackupLogs name for the newly created registry value.

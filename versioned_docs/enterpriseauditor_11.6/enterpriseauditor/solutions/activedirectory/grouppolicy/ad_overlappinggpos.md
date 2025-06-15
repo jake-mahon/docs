@@ -1,10 +1,10 @@
-# AD\_OverlappingGPOs Job
+# AD_OverlappingGPOs Job
 
-The AD\_OverlappingGPOs Job identifies conflicting and redundant GPO settings based on link location. These GPO settings should be cleaned up or consolidated.
+The AD_OverlappingGPOs Job identifies conflicting and redundant GPO settings based on link location. These GPO settings should be cleaned up or consolidated.
 
-## Analysis Tasks for the AD\_OverlappingGPOs Job
+## Analysis Tasks for the AD_OverlappingGPOs Job
 
-Navigate to the __Active Directory__ > __4. Group Policy__ > __AD\_OverlappingGPOs__ > __Configure__ node and select Analysis to view the analysis tasks.
+Navigate to the __Active Directory__ > __4. Group Policy__ > __AD_OverlappingGPOs__ > __Configure__ node and select Analysis to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected first analysis task. The first analysis task is preconfigured for this job.
 
@@ -12,19 +12,19 @@ __CAUTION:__ Do not modify or deselect the selected first analysis task. The fir
 
 The default analysis tasks are:
 
-- Conflicting – Creates the SA\_AD\_OverlappingGPOs\_Conflicts table accessible under the job’s Results node
+- Conflicting – Creates the SA_AD_OverlappingGPOs_Conflicts table accessible under the job’s Results node
 
 The following analysis tasks are deselected by default:
 
 __NOTE:__ Deselect the __Conflicting__ analysis task before selecting the analysis tasks below.
 
-- Redundant – Restores the SA\_AD\_OverlappingGPOs\_Redundant table to be visible under the job’s Results node
-- Redundant GPOs by OU – Restores the SA\_AD\_OverlappingGPOs\_RedundantGPOsbyOU table to be visible under the job’s Results node
-- Redundant GPOs – Restores the SA\_AD\_OverlappingGPOs\_RedundantGPOs table to be visible under the job’s Results node
-- Conflicts by OU – Restores the SA\_AD\_OverlappingGPOs\_ConflictsByOU table to be visible under the job’s Results node
-- Conflicts by GPO – Restores the SA\_AD\_OverlappingGPOs\_ConflictsByGPO table to be visible under the job’s Results node
+- Redundant – Restores the SA_AD_OverlappingGPOs_Redundant table to be visible under the job’s Results node
+- Redundant GPOs by OU – Restores the SA_AD_OverlappingGPOs_RedundantGPOsbyOU table to be visible under the job’s Results node
+- Redundant GPOs – Restores the SA_AD_OverlappingGPOs_RedundantGPOs table to be visible under the job’s Results node
+- Conflicts by OU – Restores the SA_AD_OverlappingGPOs_ConflictsByOU table to be visible under the job’s Results node
+- Conflicts by GPO – Restores the SA_AD_OverlappingGPOs_ConflictsByGPO table to be visible under the job’s Results node
 
-In addition to the tables and views created by the analysis tasks, the AD\_OverlappingGPOs Job produces the following pre-configured reports:
+In addition to the tables and views created by the analysis tasks, the AD_OverlappingGPOs Job produces the following pre-configured reports:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

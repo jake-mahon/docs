@@ -21,7 +21,7 @@ Get-GroupMember
 
 Example 1:
 
-The following command retrieves all members of the __Password\_Expiry__ group using the credentials set in the __$Credentials__ environment variable. See the [Set the $Credentials Environment Variable](/versioned_docs/groupid_11.0/groupid/managementshell/parameters/setthecredential.md) topic for setting credentials in an environment variable.
+The following command retrieves all members of the __Password_Expiry__ group using the credentials set in the __$Credentials__ environment variable. See the [Set the $Credentials Environment Variable](/versioned_docs/groupid_11.0/groupid/managementshell/parameters/setthecredential.md) topic for setting credentials in an environment variable.
 
 ```
 Get-GroupMember -Identity "CN=Password_Expiry,OU=Recruiting,DC=HR,DC=Imanami,DC=US" -Credential $Cred

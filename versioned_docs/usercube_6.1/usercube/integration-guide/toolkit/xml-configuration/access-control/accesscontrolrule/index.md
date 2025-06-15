@@ -18,7 +18,7 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 
 | Property | Type | Description |
 | --- | --- | --- |
-| DisplayName\_L1   required | String | Display name of the access control rule in language 1 (up to 16). |
+| DisplayName_L1   required | String | Display name of the access control rule in language 1 (up to 16). |
 | EntityType   required | Int64 | Identifier of the entity type that forms the data set on which the rule's permissions are applied.  __NOTE:__ The entity type can be part of the custom entity model, e.g. ```Directory_User``` or ```AD_Entry```, or part of the built-in entity model, e.g. ```AssignedSingleRole``` or ```Workflows``` or ```AccessCertificationItem```. |
 | Identifier   required | String | Unique identifier of the access control. |
 | Profile   required | Int64 | The id of the profile to which the permissions will be given. |
@@ -46,7 +46,7 @@ __NOTE:__ If your configuration contains an access control entry with ```Permiss
 
 An access control filter restricts the application of the access control rule to a given subset of the data set. The rule will give the specified permissions to the profile only on the parts of the rule's data set for which the filter's condition is met.
 
-_Remember,_ the ViewHistory permission (/Custom/Resources/Entity\_Type/ViewHistory) does not work if a filter is added.
+_Remember,_ the ViewHistory permission (/Custom/Resources/Entity_Type/ViewHistory) does not work if a filter is added.
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 

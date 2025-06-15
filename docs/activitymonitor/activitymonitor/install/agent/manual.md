@@ -40,21 +40,21 @@ __Step 9 –__ When installation is complete, click Finish.
 
 If needed, the following command line options can be used with extra logging and install options. The Activity Monitor Agent command line has the following parameters:
 
-- AGENT\_PORT
+- AGENT_PORT
 
   - To specify Activity Monitor Agent port.
   - Default value: “4498”
-  - AGENT\_PORT=1234
+  - AGENT_PORT=1234
 - AGENTINSTALLLOCATION
 
   - To specify the Activity Monitor Agent installation path.
   - Default value: “C:\Program Files\Netwrix\Activity Monitor\Agent”
   - AGENTINSTALLLOCATION=“D:\AMAgent”
-- MANAGEMENT\_GROUP
+- MANAGEMENT_GROUP
 
   - To specify the Activity Monitor Agent Management Group (This allows user to limit users in the specified group to manage agents, but does not allow users in specified group to install, upgrade, or uninstall agents).
   - Default value: “BUILTIN\Administrators”
-  - MANAGEMENT\_GROUP=AMDOMAIN\AMGROUP
+  - MANAGEMENT_GROUP=AMDOMAIN\AMGROUP
 - /l\*v
 
   - To include verbose install logging.

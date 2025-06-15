@@ -18,7 +18,7 @@ The host list assignment should be assigned under the __FileSystem__ > __0.Colle
 
 The 0-FSDFS System Scans Job is an exception and is set to the Default domain controller. For standalone namespaces, modify this host list to target the desired File Systems or Storage Controllers.
 
-If targeting Nasuni Edge Appliances, the 0-FS\_Nasuni Job needs to be assigned a custom host list containing all on-premise Nasuni Edge Appliances and cloud filers.
+If targeting Nasuni Edge Appliances, the 0-FS_Nasuni Job needs to be assigned a custom host list containing all on-premise Nasuni Edge Appliances and cloud filers.
 
 If using multiple proxy servers, these should also be configured within a different custom-created host list. Then assign the proxy servers host list on the [FSAA: Applet Settings](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/appletsettings.md) page of the File System Access Auditor Data Collector Wizard within the following jobs in the 0.Collection Job Group according to the type of auditing being conducted:
 
@@ -48,7 +48,7 @@ The FSAA Data Collector requires permissions based on the platform being targete
 
 The Connection Profile should be assigned under the __FileSystem__ > __0.Collection__ job’s Properties window on the __Connection__ tab. It is set to Use the Default Profile, as configured at the global settings level. However, since this may not be the Connection Profile with the necessary permissions for the assigned hosts, click the radio button for the __Select one of the following user defined profiles__ option and select the appropriate Connection Profile drop-down menu.
 
-_Remember,_ if targeting Nasuni Edge Appliances, the 0-FS\_Nasuni Job needs to be assigned a custom Connection Profile containing the __API Access Key__ and __Passcode__ for each on-premise Nasuni Edge Appliance and cloud filer in the target environment. Nasuni API key names are case sensitive. When providing them, ensure they are entered in the exact same case as generated.
+_Remember,_ if targeting Nasuni Edge Appliances, the 0-FS_Nasuni Job needs to be assigned a custom Connection Profile containing the __API Access Key__ and __Passcode__ for each on-premise Nasuni Edge Appliance and cloud filer in the target environment. Nasuni API key names are case sensitive. When providing them, ensure they are entered in the exact same case as generated.
 
 See the [Connection](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/overview.md) topic for additional information.
 
@@ -66,7 +66,7 @@ The other File System Solution sub-job groups can be run in any order, together 
 
 ___RECOMMENDED:___ If only conducting one or two types of auditing, scope the solution by disabling the undesired collection jobs. Disabling them allows the solution to run more efficiently. It is not recommended to delete any jobs. See the [Disable or Enable a Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/disableenable.md) topic for additional information.
 
-__NOTE:__ If targeting Nasuni Edge Appliances, it is necessary to add the [0-FS\_Nasuni Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/collection/0-fs_nasuni.md) to the __0.Collection__ Job Group.
+__NOTE:__ If targeting Nasuni Edge Appliances, it is necessary to add the [0-FS_Nasuni Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/collection/0-fs_nasuni.md) to the __0.Collection__ Job Group.
 
 Query Configuration
 
@@ -140,24 +140,24 @@ Though the analysis tasks should not be deselected, the following parameters can
 
 - The .Active Directory Inventory Solution defines large groups, deeply nested groups, stale users, and users with large tokens. These parameters can be customized and are applicable to any solution, including File System, which incorporate this analyzed data into further analysis.
 
-  - Customize within __.Active Directory Inventory__ > __3-AD\_Exceptions__ Job analysis tasks
+  - Customize within __.Active Directory Inventory__ > __3-AD_Exceptions__ Job analysis tasks
 - Activity Exception parameters which identify potential security concerns
 
   - Customize within __0.Collection__ > __3-FSAC Exceptions__ Job analysis tasks
 - Broken inheritance is defined by default to only analyze resources with changed permissions from parent
 
-  - Customize within __3.Broken Inheritance__ > __FS\_BrokenInheritance__ Job analysis task
+  - Customize within __3.Broken Inheritance__ > __FS_BrokenInheritance__ Job analysis task
 - Probable owner calculations include folder depth parameters
 
-  - Customize within __6.Probable Owner__ > __FS\_ProbableOwner__ Job analysis task
+  - Customize within __6.Probable Owner__ > __FS_ProbableOwner__ Job analysis task
 
     __NOTE:__ Changes to an exception’s definition will impact all jobs dependent upon that exception as well as all AIC Active Directory Exceptions reports.
 
 There are also a few Notification analysis tasks which can be configured and then enabled in the following jobs:
 
-- __5.Activity__ > __Forensics__ > __FS\_Deletions__ Job
-- __5.Activity__ > __Forensics__ > __FS\_PermissionChanges__ Job
-- __5.Activity__ > __Suspicious Activity__ > __FS\_HighestHourlyActivity__ Job
+- __5.Activity__ > __Forensics__ > __FS_Deletions__ Job
+- __5.Activity__ > __Forensics__ > __FS_PermissionChanges__ Job
+- __5.Activity__ > __Suspicious Activity__ > __FS_HighestHourlyActivity__ Job
 
 Please see the appropriate topics for details on these tasks.
 

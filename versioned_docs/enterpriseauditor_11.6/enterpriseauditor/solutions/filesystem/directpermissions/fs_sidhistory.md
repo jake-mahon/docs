@@ -1,10 +1,10 @@
-# FS\_SIDHistory Job
+# FS_SIDHistory Job
 
-The __2.Direct Permissions__ > __FS\_SIDHistory__ job is designed to report on trustees that have a historical SID that has been granted direct permissions on resources from targeted file servers.
+The __2.Direct Permissions__ > __FS_SIDHistory__ job is designed to report on trustees that have a historical SID that has been granted direct permissions on resources from targeted file servers.
 
-## Analysis Tasks for the FS\_SIDHistory Job
+## Analysis Tasks for the FS_SIDHistory Job
 
-View the analysis tasks by navigating to the __FileSystem__ > __2.Direct Permissions__ > __FS\_SIDHistory__ > __Configure__ node and select __Analysis__.
+View the analysis tasks by navigating to the __FileSystem__ > __2.Direct Permissions__ > __FS_SIDHistory__ > __Configure__ node and select __Analysis__.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -14,12 +14,12 @@ The following analysis tasks are selected by default:
 
 - 1. Find ACEs Through SID History
 
-  - Creates the SA\_FS\_SIDHistory\_Details table accessible under the job’s Results node
-  - Creates the SA\_FS\_SIDHistory\_TrusteeDetails table accessible under the job’s Results node
-- 2. Host Rollups – Creates the SA\_FS\_SIDHistory\_HostSummary table accessible under the job’s Results node
-- 3. Expose SID Details View – Makes the SA\_FS\_SIDHistory\_TrusteeDetails table visible under the job’s Results node
+  - Creates the SA_FS_SIDHistory_Details table accessible under the job’s Results node
+  - Creates the SA_FS_SIDHistory_TrusteeDetails table accessible under the job’s Results node
+- 2. Host Rollups – Creates the SA_FS_SIDHistory_HostSummary table accessible under the job’s Results node
+- 3. Expose SID Details View – Makes the SA_FS_SIDHistory_TrusteeDetails table visible under the job’s Results node
 
-In addition to the tables and views created by the analysis tasks, the FS\_SIDHistory job produces the following pre-configured report:
+In addition to the tables and views created by the analysis tasks, the FS_SIDHistory job produces the following pre-configured report:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

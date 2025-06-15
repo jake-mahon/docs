@@ -8,11 +8,11 @@ The CDSA job generates three PowerPoint files:
 
 - For the Presenter
 
-  - The __Netwrix\_CDSA\_Presentation.pptx__ file is designed to be presented live to the customer
+  - The __Netwrix_CDSA_Presentation.pptx__ file is designed to be presented live to the customer
 - For the Customer as printable assets
 
-  - The __Netwrix\_CDSA\_8.5x11\_Presentation.pptx__ file is designed to be given to the customer for self-review as a PDF file
-  - The __Netwrix\_CDSA\_A4\_Presentation.pptx__ file is designed to be given to the customer for self-review as a PDF file
+  - The __Netwrix_CDSA_8.5x11_Presentation.pptx__ file is designed to be given to the customer for self-review as a PDF file
+  - The __Netwrix_CDSA_A4_Presentation.pptx__ file is designed to be given to the customer for self-review as a PDF file
 
 __CAUTION:__ Do not send any these presentations to a customer in PowerPoint format.
 
@@ -24,7 +24,7 @@ The presentation files contain slides for both a classic CDSA presentation appli
 
 ## Delivering a CDSA Presentation Slide Show
 
-The __Netwrix\_CDSA\_Presentation.pptx__ file is designed to be presented live to the customer. There are two presentation options for the live slide show:
+The __Netwrix_CDSA_Presentation.pptx__ file is designed to be presented live to the customer. There are two presentation options for the live slide show:
 
 - The __CDSA - Classic__ slide show contains the first 24 slides and is applicable for most organizations
 - The __ePHI Security Assessment__ slide show contains the ending slides with select summary slides from the Classic slide show and is applicable to the healthcare industry
@@ -60,7 +60,7 @@ __NOTE:__ Slide 16 is hidden by default as same information is available on Slid
 
 ## Custom Slide Show Alignment
 
-The table lists each slide as it is listed in the __Netwrix\_CDSA\_Presentation.pptx__ file. It indicates which slides are included in each custom slide show. There are slight variations in page numbering with the files designed to be saved as PDFs.
+The table lists each slide as it is listed in the __Netwrix_CDSA_Presentation.pptx__ file. It indicates which slides are included in each custom slide show. There are slight variations in page numbering with the files designed to be saved as PDFs.
 
 | # | Slide Title | CDSA Classic | ePHI Security Assessment |
 | --- | --- | --- | --- |

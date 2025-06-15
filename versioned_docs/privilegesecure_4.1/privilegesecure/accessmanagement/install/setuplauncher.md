@@ -8,7 +8,7 @@ The Netwrix Setup Launcher checks for and installs missing prerequisites in addi
 
 ___RECOMMENDED:___ Antivirus software should be disabled on this computer during the installation.
 
-Right-click on the NPS\_Setup.exe file and select Run as administrator. The Netwrix Setup Launcher will open. The launcher runs a prerequisites setup check. The green checkmark indicates the prerequisites have been met and you are ready to install the database.
+Right-click on the NPS_Setup.exe file and select Run as administrator. The Netwrix Setup Launcher will open. The launcher runs a prerequisites setup check. The green checkmark indicates the prerequisites have been met and you are ready to install the database.
 
 __CAUTION:__ The Advanced checkbox provides the option to switch databases to Microsoft SQLServer. This is not a recommended configuration and requires additional support from Netwrix.
 

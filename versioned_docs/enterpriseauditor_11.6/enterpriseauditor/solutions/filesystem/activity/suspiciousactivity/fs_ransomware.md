@@ -1,10 +1,10 @@
-# FS\_Ransomware Job
+# FS_Ransomware Job
 
-The FS\_Ransomware job is comprised of analysis and reports which use the data collected by the __0.Collection__ job group to provide information on periods of time in which users are responsible for an abnormally high number of updates. This can be indicative of ransomware. Additionally, activity involving files which are known as ransomware artifacts is highlighted.
+The FS_Ransomware job is comprised of analysis and reports which use the data collected by the __0.Collection__ job group to provide information on periods of time in which users are responsible for an abnormally high number of updates. This can be indicative of ransomware. Additionally, activity involving files which are known as ransomware artifacts is highlighted.
 
-## Analysis Tasks for the FS\_Ransomeware Job
+## Analysis Tasks for the FS_Ransomeware Job
 
-View the analysis tasks by navigating to the __FileSystem__ > __5.Activity__ > __Suspicious Activity__ > __FS\_Ransomware__ > __Configure__ node and select __Analysis__.
+View the analysis tasks by navigating to the __FileSystem__ > __5.Activity__ > __Suspicious Activity__ > __FS_Ransomware__ > __Configure__ node and select __Analysis__.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,13 +12,13 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The following analysis tasks are selected by default:
 
-- Summarize Hourly Norms and Deviations – Creates the SA\_FS\_Ransomware\_Details table accessible under the job’s Results node
+- Summarize Hourly Norms and Deviations – Creates the SA_FS_Ransomware_Details table accessible under the job’s Results node
 - Summarize activity on known ransomware artifacts
 
-  - Creates the SA\_FS\_Ransomware\_Artifacts table accessible under the job’s Results node
+  - Creates the SA_FS_Ransomware_Artifacts table accessible under the job’s Results node
   - Creates an interim processing table in the database for use by downstream analysis and report generation
 
-In addition to the tables and views created by the analysis tasks, the FS\_Ransomware job produces the following pre-configured reports:
+In addition to the tables and views created by the analysis tasks, the FS_Ransomware job produces the following pre-configured reports:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

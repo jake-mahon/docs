@@ -1,10 +1,10 @@
-# AAD\_DisabledUsers Job
+# AAD_DisabledUsers Job
 
-The AAD\_DisabledUsers Job identifies disabled user accounts within Microsoft Entra ID. These accounts should be reviewed and cleaned up in order to increase security and reduce complexity.
+The AAD_DisabledUsers Job identifies disabled user accounts within Microsoft Entra ID. These accounts should be reviewed and cleaned up in order to increase security and reduce complexity.
 
-## Analysis Tasks for the AAD\_DisabledUsers Job
+## Analysis Tasks for the AAD_DisabledUsers Job
 
-Navigate to the __Jobs__ > __Entra ID__ > __2.Users__ > __AAD\_DisabledUsers__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Jobs__ > __Entra ID__ > __2.Users__ > __AAD_DisabledUsers__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,10 +12,10 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The default analysis tasks are:
 
-- Get disabled user account information – Creates the AAD\_DisabledUsers\_Details table accessible under the job’s Results node
-- Summarize disabled user information – Creates the AAD\_DisabledUsers\_Summary table accessible under the job’s Results node
+- Get disabled user account information – Creates the AAD_DisabledUsers_Details table accessible under the job’s Results node
+- Summarize disabled user information – Creates the AAD_DisabledUsers_Summary table accessible under the job’s Results node
 
-In addition to the tables created by the analysis tasks, the AAD\_DisabledUsers Job produces the following pre-configured report.
+In addition to the tables created by the analysis tasks, the AAD_DisabledUsers Job produces the following pre-configured report.
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

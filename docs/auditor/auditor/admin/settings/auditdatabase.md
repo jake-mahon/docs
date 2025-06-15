@@ -34,7 +34,7 @@ On the __Settings__ > __Audit Database__ tab, review settings and click Modify u
 | --- | --- |
 | SQL Server instance | Specify the name of the SQL Server instance to store audit data.  If you have more than one Auditor Server running in your network, make sure to configure them to use different SQL Server instances. The same SQL Server instance cannot be used to store audit data collected by several Auditor  Servers. |
 | Authentication | Select the authentication type you want to use to connect to the SQL Server instance:   - Windows authentication - SQL Server authentication |
-| User name | Specify the account to be used to connect to the SQL Server instance.  This account must be granted the __database owner (db\_owner)__ role and the dbcreator server role. |
+| User name | Specify the account to be used to connect to the SQL Server instance.  This account must be granted the __database owner (db_owner)__ role and the dbcreator server role. |
 | Password | Enter a password. |
 
 __NOTE:__ If you want to use Group Managed Service Account (gMSA) to access the SQL Server instance hosting the database, consider that in this case Netwrix Auditor will not be able to generate SSRS-based reports (due to the following Microsoft article: [Configure the Unattended Execution Account (Report Server Configuration Manager)](https://docs.microsoft.com/en-us/sql/reporting-services/install-windows/configure-the-unattended-execution-account-ssrs-configuration-manager?view=sql-server-ver15).

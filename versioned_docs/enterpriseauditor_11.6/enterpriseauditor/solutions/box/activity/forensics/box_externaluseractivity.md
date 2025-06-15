@@ -1,10 +1,10 @@
-# Box\_ExternalUserActivity Job
+# Box_ExternalUserActivity Job
 
-The Box\_ExternalUserActivity Job identifies and analyzes activity events performed by external users over the last 30 days. External Users are collaborators from outside your organization. They can be granted the same collaborator access and sharing rights as Managed Users, but there is limited control over the content they own and their security settings.
+The Box_ExternalUserActivity Job identifies and analyzes activity events performed by external users over the last 30 days. External Users are collaborators from outside your organization. They can be granted the same collaborator access and sharing rights as Managed Users, but there is limited control over the content they own and their security settings.
 
-## Analysis for the Box\_ExternalUserActivity Job
+## Analysis for the Box_ExternalUserActivity Job
 
-Navigate to __Box__ > __1.Activity__ > __Forensics__ > __Box\_ExternalUserActivity__ > __Configure__ node and select __Analysis__.
+Navigate to __Box__ > __1.Activity__ > __Forensics__ > __Box_ExternalUserActivity__ > __Configure__ node and select __Analysis__.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,10 +12,10 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The following analysis tasks are selected by default:
 
-- External User Activity Details – Creates the Box\_ExternalUserActivity\_Details table accessible under the job’s Results node
+- External User Activity Details – Creates the Box_ExternalUserActivity_Details table accessible under the job’s Results node
 - External User Summary – Creates an interim processing table in the database for use by downstream analysis and report generation
 
-In addition to the tables created by the analysis tasks, the Box\_ExternalUserActivity Job produces the following pre-configured report:
+In addition to the tables created by the analysis tasks, the Box_ExternalUserActivity Job produces the following pre-configured report:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

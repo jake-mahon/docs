@@ -1,10 +1,10 @@
-# Oracle\_SensitiveDataPermissions Job
+# Oracle_SensitiveDataPermissions Job
 
-The Oracle\_SensitiveDataPermissions Job is designed to provide information on permissions on database objects containing sensitive data across all targeted Oracle database servers.
+The Oracle_SensitiveDataPermissions Job is designed to provide information on permissions on database objects containing sensitive data across all targeted Oracle database servers.
 
-## Analysis Tasks for the Oracle\_SensitiveDataPermissions Job
+## Analysis Tasks for the Oracle_SensitiveDataPermissions Job
 
-Navigate to the __Oracle > 5.Sensitive Data > Oracle\_SensitiveDataPermissions > Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Oracle > 5.Sensitive Data > Oracle_SensitiveDataPermissions > Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,10 +12,10 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The default analysis tasks are:
 
-- Detail Oracle SDD Permissions – Creates the SA\_Oracle\_SensitiveDataPermissions\_Details table accessible under the job’s Results node
-- SDD Perms Instance Summary – Creates the SA\_Oracle\_SensitiveDataPermissions\_InstanceSummary table accessible under the job’s Results node
+- Detail Oracle SDD Permissions – Creates the SA_Oracle_SensitiveDataPermissions_Details table accessible under the job’s Results node
+- SDD Perms Instance Summary – Creates the SA_Oracle_SensitiveDataPermissions_InstanceSummary table accessible under the job’s Results node
 
-In addition to the tables and views created by the analysis task, the __Oracle\_SensitiveDataPermissions Job__ produces the following pre-configured report.
+In addition to the tables and views created by the analysis task, the __Oracle_SensitiveDataPermissions Job__ produces the following pre-configured report.
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

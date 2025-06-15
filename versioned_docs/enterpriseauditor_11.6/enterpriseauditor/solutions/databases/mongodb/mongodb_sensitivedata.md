@@ -1,4 +1,4 @@
-# Sensitive Data > MongoDB\_SensitiveData Job
+# Sensitive Data > MongoDB_SensitiveData Job
 
 The Sensitive Data Job Group is designed to provide insight into where sensitive data exists and who has access to it across all the targeted MongoDB databases.
 
@@ -6,11 +6,11 @@ The Sensitive Data Job Group is designed to provide insight into where sensitive
 
 The job in the Sensitive Data Job Group is:
 
-- MongoDB\_SensitiveData Job - Provides details on all the sensitive data that was discovered in the targeted MongoDB databases based on the selected scan criteria
+- MongoDB_SensitiveData Job - Provides details on all the sensitive data that was discovered in the targeted MongoDB databases based on the selected scan criteria
 
-### Analysis Tasks for the MongoDB\_SensitiveData Job
+### Analysis Tasks for the MongoDB_SensitiveData Job
 
-Navigate to the MongoDB > __Databases__ > __Sensitive Data__> MongoDB\_SensitiveData > Configure node and select Analysis to view the analysis tasks.
+Navigate to the MongoDB > __Databases__ > __Sensitive Data__> MongoDB_SensitiveData > Configure node and select Analysis to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -22,9 +22,9 @@ The default analysis tasks are:
 - Database Summary — Summarizes MongoDB sensitive data by database
 - Enterprise Summary — Summarizes MongoDB sensitive data across the enterprise
 
-### Reports for the for the MongoDB\_SensitiveData Job
+### Reports for the for the MongoDB_SensitiveData Job
 
-In addition to the tables and views created the analysis task, the MongoDB\_SensitiveData Job produces the following preconfigured reports.
+In addition to the tables and views created the analysis task, the MongoDB_SensitiveData Job produces the following preconfigured reports.
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

@@ -6,22 +6,22 @@ The following Enterprise Auditor job groups need to be successfully run:
 
 - .Active Directory Inventory Job Group
 
-The following jobs need to be run prior to running the [AD\_ShadowAccess Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/ad_shadowaccess.md):
+The following jobs need to be run prior to running the [AD_ShadowAccess Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/ad_shadowaccess.md):
 
-- .Active Directory Inventory >1-AD\_Scan > ADInventory
-- Active Directory > 1.Groups > AD\_SensitiveSecurityGroups
-- Active Directory Permissions Analyzer > 7.Containers > AD\_AdminSDHolder
-- Active Directory Permissions Analyzer > 8.Domains > AD\_DomainReplication
-- Active Directory Permissions Analyzer > 1.Users > AD\_ResetPasswordPermissions
-- Active Directory Permissions Analyzer > 2.Groups > AD\_GroupMembershipPermissions
+- .Active Directory Inventory >1-AD_Scan > ADInventory
+- Active Directory > 1.Groups > AD_SensitiveSecurityGroups
+- Active Directory Permissions Analyzer > 7.Containers > AD_AdminSDHolder
+- Active Directory Permissions Analyzer > 8.Domains > AD_DomainReplication
+- Active Directory Permissions Analyzer > 1.Users > AD_ResetPasswordPermissions
+- Active Directory Permissions Analyzer > 2.Groups > AD_GroupMembershipPermissions
 
-The following jobs can be optionally run to enhance reporting in the [AD\_ShadowAccess Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/ad_shadowaccess.md):
+The following jobs can be optionally run to enhance reporting in the [AD_ShadowAccess Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/ad_shadowaccess.md):
 
-- Active Directory > 2.Users > AD\_WeakPasswords
-- FileSystem > 7.Sensitive Data > FS\_DLPResults > FS\_DLPResults
-- Databases > 0.Collection >SQL > 2-SQL\_SensitiveDataScan > SQLServer\_SDD
-- Windows > Privileged Accounts > Local Administrators > SG\_Sessions
-- Windows > Privileged Accounts > Local Administrators > SG\_LocalAdmins
+- Active Directory > 2.Users > AD_WeakPasswords
+- FileSystem > 7.Sensitive Data > FS_DLPResults > FS_DLPResults
+- Databases > 0.Collection >SQL > 2-SQL_SensitiveDataScan > SQLServer_SDD
+- Windows > Privileged Accounts > Local Administrators > SG_Sessions
+- Windows > Privileged Accounts > Local Administrators > SG_LocalAdmins
 
 Targeted Hosts
 

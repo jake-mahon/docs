@@ -2,14 +2,14 @@
 
 You can configure your cluster for monitoring in one of the following ways:
 
-- Using the configure\_ifs.sh shell script that comes with Netwrix Auditor. See the Configure Dell Isilon/PowerScale Cluster in Normal or Enterprise Mode via Shell Script topic for additional information.
+- Using the configure_ifs.sh shell script that comes with Netwrix Auditor. See the Configure Dell Isilon/PowerScale Cluster in Normal or Enterprise Mode via Shell Script topic for additional information.
 - Manual configuration. See the Configure Dell Isilon/PowerScale Cluster in Normal or Enterprise Mode Manually topic for additional information.
 
 ## Configure Dell Isilon/PowerScale Cluster in Normal or Enterprise Mode via Shell Script
 
 Follow the steps to configure Dell Isilon/PowerScale cluster in Normal or Enterprise mode using shell script:
 
-__Step 1 –__ On the computer where Auditor Server resides, navigate to _C:\Program Files (x86)\Netwrix Auditor\File Server Auditing_ and copy the configure\_ifs.sh shell script to _/ifs/data_ catalog on your cluster.
+__Step 1 –__ On the computer where Auditor Server resides, navigate to _C:\Program Files (x86)\Netwrix Auditor\File Server Auditing_ and copy the configure_ifs.sh shell script to _/ifs/data_ catalog on your cluster.
 
 __Step 2 –__ Navigate to your cluster command prompt through the SSH connection.
 
@@ -52,7 +52,7 @@ chmod +a group "BUILTIN\Administrators" allow dir_gen_all,object_inherit,contain
 chmod +a user root allow dir_gen_read /ifs/.ifsvar/audit/
 ```
 
-__Step 4 –__ Create a shared folder named netwrix\_audit$ on a system zone. This folder points to _/ifs/.ifsvar/audit/_:
+__Step 4 –__ Create a shared folder named netwrix_audit$ on a system zone. This folder points to _/ifs/.ifsvar/audit/_:
 
 ```
 /usr/likewise/bin/lwnet share add "netwrix_audit$"="c:\\ifs\\.ifsvar\\audit\\"  
@@ -69,7 +69,7 @@ See `isi smb --help` for more information.
 
 This command is required to create a shared folder pointed to _/ifs/.ifsvar/audit/_. Please ignore the warning.
 
-__Step 5 –__ Add the BUILTIN\Administrators group in the share permissions for the netwrix\_audit$ folder with _"full access"_ rights:
+__Step 5 –__ Add the BUILTIN\Administrators group in the share permissions for the netwrix_audit$ folder with _"full access"_ rights:
 
 ```
 isi smb shares permission create --share=netwrix_audit$ --group="BUILTIN\Administrators"   
@@ -103,7 +103,7 @@ Enable filters for auditing protocol operations that succeeded / failed for audi
 | Failed read attempts |  |
 | ``` isi zone zones modify zone1    --audit-failure= create,read ``` | ``` isi audit settings modify --zone=zone1    --audit-failure=create,read, open ``` |
 
-__Step 7 –__ Create the _"netwrix\_audit"_ role in your access zone (for example, "zone1") and add the required privileges to this role:
+__Step 7 –__ Create the _"netwrix_audit"_ role in your access zone (for example, "zone1") and add the required privileges to this role:
 
 ```
 isi auth roles create --name=netwrix_audit --zone=zone1  
@@ -115,7 +115,7 @@ isi auth roles modify netwrix_audit --add-group="BUILTIN\Administrators" --zone=
 
 When preparing to audit your Dell Isilon/PowerScale storage system, consider the following:
 
-- If you plan to configure audit settings for Dell Isilon/PowerScale storage below the version 8.2 manually (without using the__configure\_ifs.sh__ script), make sure that auditing of the ```success create``` events is __disabled__.
+- If you plan to configure audit settings for Dell Isilon/PowerScale storage below the version 8.2 manually (without using the__configure_ifs.sh__ script), make sure that auditing of the ```success create``` events is __disabled__.
 
   For Dell Isilon/PowerScale storage below the version 8.2, the storage system logging will become too verbose, which may lead to data collector overload with excessive events, decrease its performance and result in data collection errors with the "_Timeout expired_" message issued.
 

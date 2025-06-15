@@ -64,7 +64,7 @@ __Step 10 –__ Click __Datasets__.
 
 ![976_5_5](/img/product_docs/policypak/policypak/cloud/eventcollection/976_5_5.webp)
 
-__Step 11 –__  Click __raw\_data__.
+__Step 11 –__  Click __raw_data__.
 
 ![976_6_6](/img/product_docs/policypak/policypak/cloud/eventcollection/976_6_6.webp)
 

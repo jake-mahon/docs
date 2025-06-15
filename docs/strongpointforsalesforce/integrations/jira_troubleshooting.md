@@ -40,7 +40,7 @@ Check the user's information in Salesforce.
 
 Error message:
 
-error=invalid\_client\_id&error\_description=client%20identifier%20invalid
+error=invalid_client_id&error_description=client%20identifier%20invalid
 
 Refer to [Access Data with API Integration](/docs/strongpointforsalesforce/integrations/jira_integration.md#access-data-with-apiintegration) for more information on setting up the connected app.
 
@@ -58,7 +58,7 @@ Refer to [Credentials](/docs/strongpointforsalesforce/installing_strongpoint/con
 
 Error message:
 
-error=redirect\_uri\_mismatch
+error=redirect_uri_mismatch
 
 Solution:
 

@@ -13,7 +13,7 @@ The database user must have the following rights to run Database Maintenance:
 - Query SQL Agent status
 - Create/Delete/Modify SQL Agent job
 - Query Database size information
-- Execute sp\_updatestats for the NVMonitorData database
+- Execute sp_updatestats for the NVMonitorData database
 - Create Server Link
 
 Database Permissions
@@ -31,8 +31,8 @@ The following rights are required to run database maintenance:
   - Permission to select from msdb.dbo.sysjobs
 - In the NVMonitorConfig database:
 
-  - db\_datareader role
-  - db\_datawriter role
+  - db_datareader role
+  - db_datawriter role
 - In the NVMonitorData database:
 
   - Be owner of this database
@@ -51,12 +51,12 @@ If the __Move__ option is selected on the [Archive Data](/docs/threatprevention/
 
 ## Less Privilege Model for NVMonitorData Database Permission
 
-__NOTE:__ If this less privileged model is used, then the last step in the Database Maintenance process, executing sp\_updatestats, will fail. However, all other steps in the process will complete successfully and all data will be deleted/moved as configured.
+__NOTE:__ If this less privileged model is used, then the last step in the Database Maintenance process, executing sp_updatestats, will fail. However, all other steps in the process will complete successfully and all data will be deleted/moved as configured.
 
 If it is not possible to grant the ‘user’ owner rights to the NVMonitorData database, grant the following instead:
 
-- db\_datareader role
-- db\_datawriter role
+- db_datareader role
+- db_datawriter role
 - ALTER ON SCHEMA :: dbo
 - Execute
 

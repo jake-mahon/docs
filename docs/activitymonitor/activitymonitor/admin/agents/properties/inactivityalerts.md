@@ -81,15 +81,15 @@ Macros are text strings that are replaced with actual values at run time. The fo
 
 | Macro | Definition |
 | --- | --- |
-| %SYSLOG\_DATE% | Date/Time of the alert (local time, Syslog format) |
-| %TIME\_STAMP% | Date/Time of the alert (local time) |
-| %TIME\_STAMP\_UTC% | Date/Time of the alert (UTC) |
+| %SYSLOG_DATE% | Date/Time of the alert (local time, Syslog format) |
+| %TIME_STAMP% | Date/Time of the alert (local time) |
+| %TIME_STAMP_UTC% | Date/Time of the alert (UTC) |
 | %AGENT% | Agent host name |
 | %PRODUCT% | Product name |
-| %PRODUCT\_VERSION% | Product Version |
-| %INACTIVE\_SERVER% | Host name of the monitored host which stopped sending events |
-| %INACTIVE\_SERVER\_IP% | IP address of the monitored host which stopped sending events |
-| %LAST\_EVENT\_TIME\_STAMP% | Date/Time of the last received call (local time) |
-| %LAST\_EVENT\_TIME\_STAMP\_UTC% | Date/Time of the last received event (UTC) |
-| %INACTIVITY\_PERIOD\_MINUTES% | Period of inactivity in minutes |
-| %INACTIVITY\_PERIOD\_HOURS% | Period of inactivity in hours |
+| %PRODUCT_VERSION% | Product Version |
+| %INACTIVE_SERVER% | Host name of the monitored host which stopped sending events |
+| %INACTIVE_SERVER_IP% | IP address of the monitored host which stopped sending events |
+| %LAST_EVENT_TIME_STAMP% | Date/Time of the last received call (local time) |
+| %LAST_EVENT_TIME_STAMP_UTC% | Date/Time of the last received event (UTC) |
+| %INACTIVITY_PERIOD_MINUTES% | Period of inactivity in minutes |
+| %INACTIVITY_PERIOD_HOURS% | Period of inactivity in hours |

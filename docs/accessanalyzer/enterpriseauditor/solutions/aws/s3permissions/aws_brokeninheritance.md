@@ -1,10 +1,10 @@
-# AWS\_BrokenInheritance Job
+# AWS_BrokenInheritance Job
 
-The AWS\_BrokenInheritance job highlights permissions in an AWS S3 bucket that differ from those assigned at the bucket level, those assigned directly on objects within the bucket.
+The AWS_BrokenInheritance job highlights permissions in an AWS S3 bucket that differ from those assigned at the bucket level, those assigned directly on objects within the bucket.
 
-## Analysis Tasks for the AWS\_BrokenInheritance Job
+## Analysis Tasks for the AWS_BrokenInheritance Job
 
-Navigate to the __AWS__ > __6.S3 Permissions__ > __AWS\_BrokenInheritance__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __AWS__ > __6.S3 Permissions__ > __AWS_BrokenInheritance__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,12 +12,12 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The following analysis tasks are selected by default:
 
-- Broken Inheritance – Permissions applied directly to AWS S3 Bucket Objects. Creates the AWS\_BrokenInheritance\_Details table accessible under the job’s Results node.
-- Broken Inheritance Summary – Summarizes permissions applied directly to AWS S3 Bucket Objects. Creates the AWS\_BrokenInheritance\_Summary table accessible under the job’s Results node.
+- Broken Inheritance – Permissions applied directly to AWS S3 Bucket Objects. Creates the AWS_BrokenInheritance_Details table accessible under the job’s Results node.
+- Broken Inheritance Summary – Summarizes permissions applied directly to AWS S3 Bucket Objects. Creates the AWS_BrokenInheritance_Summary table accessible under the job’s Results node.
 
-## Report for the AWS\_BrokenInheritance Job
+## Report for the AWS_BrokenInheritance Job
 
-In addition to the tables and views created by the analysis task, the AWS\_BrokenInheritance job produces the following preconfigured report:
+In addition to the tables and views created by the analysis task, the AWS_BrokenInheritance job produces the following preconfigured report:
 
 | Report | Description | Default Tags | Report Element |
 | --- | --- | --- | --- |

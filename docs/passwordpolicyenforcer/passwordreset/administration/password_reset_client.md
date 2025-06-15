@@ -153,7 +153,7 @@ __Step 1 –__ Open the __Configuration Console__ and install your license key.
 
 __Step 2 –__ Start the __Registry Editor__ (regedit.exe).
 
-__Step 3 –__ Expand the __HKEY\_LOCAL\_MACHINE__, __SOFTWARE__, __ANIXIS__, __ANIXIS Password Reset__, and __3.0__ registry keys.
+__Step 3 –__ Expand the __HKEY_LOCAL_MACHINE__, __SOFTWARE__, __ANIXIS__, __ANIXIS Password Reset__, and __3.0__ registry keys.
 
 __NOTE:__ The LicenseKey registry value should be located on the Password Reset Server. This is the machine where you have installed the Password Reset server component, not the client machines.
 

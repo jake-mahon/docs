@@ -112,12 +112,12 @@ An IT administrators wants to find all user accounts from the OU named _Finance_
 - Attribute 3: Account locked | Value: Yes
 - All other filter values can be left default.
 
-A security manager wants to find administrators of the _corp.local_ domain with incorrect password settings (password not required). Service accounts (_svc\_%_) must be skipped in the report. This domain is included in the monitoring plan named _Active Directory Monitoring_. He or she needs to set report filters as follows:
+A security manager wants to find administrators of the _corp.local_ domain with incorrect password settings (password not required). Service accounts (_svc_%_) must be skipped in the report. This domain is included in the monitoring plan named _Active Directory Monitoring_. He or she needs to set report filters as follows:
 
 - Monitoring plan: Active Directory Monitoring
 - Item: corp.local
 - In the "Account details to show" filter, select Member of, Password not required.
 - Attribute 1: Member of - equals | Value: Domain Admins
 - Attribute 2: Password not required| Value: Yes
-- Attribute 3: Logon name (sAMAccountName) - not equal to | Value: svc\_%
+- Attribute 3: Logon name (sAMAccountName) - not equal to | Value: svc_%
 - All other filter values can be left default.

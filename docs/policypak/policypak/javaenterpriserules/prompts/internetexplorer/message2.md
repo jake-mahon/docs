@@ -24,9 +24,9 @@ To do this, set the following registry values to the specific types and descript
 
 | Registry Values | Type | Description |
 | --- | --- | --- |
-| AppName | REG\_SZ | Icacls.exe |
-| AppPath | REG\_SZ | C:\Windows\SysWOW64 |
-| Policy | REG\_DWord | 3 |
+| AppName | REG_SZ | Icacls.exe |
+| AppPath | REG_SZ | C:\Windows\SysWOW64 |
+| Policy | REG_DWord | 3 |
 
 By creating these registry values, you can make the Java messages automatically never pop-up again.
 

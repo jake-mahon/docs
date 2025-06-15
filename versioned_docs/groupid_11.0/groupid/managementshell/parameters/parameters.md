@@ -49,7 +49,7 @@ The following table lists the GroupID Management Shell commandlet parameters in 
 | BypassOwnersPolicy | This parameter bypasses the values set in GroupID configurations both for primary owner and required minimum additional owners at group creation or modification. If the value is 0 (zero) then this parameter has no affect. |
 | __C__ |  |
 | CarbonCopy | Email address for carbon copy (CC) of notification to be sent other than the main email addresses. |
-| ChangeTrackerActions | The list of GroupID actions to track for history records. The possible values are:   - None - AdditionalOwnerChange - Enrollment - ExpirationPolicyChange - GroupExpire\_Renew - OobChange - SecurityTypeChange - WorkflowApprovalDenial - OwnershipChange - QueryChange - AllOthers - All - UpgradeSmartGroupChange   To track multiple actions, separate each action with a hash (#) sign and set the complete string as a value of this setting. For example, to track changes in additional owners, enrollment details and security types, specify the value as "AdditionalOwnerChange#Enrollment#SecurityTypeChange". |
+| ChangeTrackerActions | The list of GroupID actions to track for history records. The possible values are:   - None - AdditionalOwnerChange - Enrollment - ExpirationPolicyChange - GroupExpire_Renew - OobChange - SecurityTypeChange - WorkflowApprovalDenial - OwnershipChange - QueryChange - AllOthers - All - UpgradeSmartGroupChange   To track multiple actions, separate each action with a hash (#) sign and set the complete string as a value of this setting. For example, to track changes in additional owners, enrollment details and security types, specify the value as "AdditionalOwnerChange#Enrollment#SecurityTypeChange". |
 | ChildContainer | The distinguished name (DN) or globally unique identifier (GUID) of the container where you want to create the child groups. If you have selected multiple group-by attributes, you can specify a different child container for every attribute in the same sequence as the group-by attributes are specified, separating each with a comma (,). For Managerial Dynasty, passing a blank value creates child groups in the container where the top manager resides. |
 | City | The city of a user, contact or mailbox. |
 | Clear | __Set-User, Set-Contact, Set-Mailbox__  It will clear the values of multi-value and single-value attributes. |
@@ -188,9 +188,9 @@ The following table lists the GroupID Management Shell commandlet parameters in 
 | HideMembership | Setting its value to True hides group membership in the Outlook address book. The default value is False. |
 | HideMembershipFromAddressListEnabled | A True value prevents the group membership from appearing in the Outlook address book. The default value is False. |
 | HistoryActionsOperation | The operation on actions that the history will keep track of. Possible values are:   - Add  - Remove  - Remove all |
-| HistoryRetention | Specifies the interval for which the history is tracked. Possible values are:   - All - Last\_30\_Days - Last\_60\_Days  - Last\_90\_Days  - Last\_120\_Days  - Last\_6\_Months  - Last\_1\_Year  - Last\_2\_Years  - Last\_5\_Years |
+| HistoryRetention | Specifies the interval for which the history is tracked. Possible values are:   - All - Last_30_Days - Last_60_Days  - Last_90_Days  - Last_120_Days  - Last_6_Months  - Last_1_Year  - Last_2_Years  - Last_5_Years |
 | HistorySelectedActions | The actions that the history will keep track of. Possible values are:   - OwnershipChange  - AdditionalOwnerChange  - ExpirationPolicyChange  - GroupExpireRenew  - QueryChange  - SecurityTypeChange  - ObjectCreated  - ObjectDeleted  - IdentityStoreHistory  - SecurityRolesHistory  - WorkflowsHist |
-| HistoryTrackingOption | Specifies what the history will keep track of. Possible values are:   - Nothing  - All\_Actions  - Selected\_Actions |
+| HistoryTrackingOption | Specifies what the history will keep track of. Possible values are:   - Nothing  - All_Actions  - Selected_Actions |
 | Home | First home phone number of a user, contact or mailbox. |
 | Home2 | Second home phone number of a user, contact or mailbox. |
 | HomePage | The link of a user, contact, group or mailbox’s profile or home page. |
@@ -357,7 +357,7 @@ The following table lists the GroupID Management Shell commandlet parameters in 
 | SearchContainersScopeList | This setting works in conjunction with the SearchContainer setting and sets the scope for the object search. Following are the possible values for this parameter:   - 1 (Limits search to the container specified in the SearchContainer parameter and ignores the sub-containers.)  - 2 (Searches the whole sub-tree, including the base container specified in the SearchContainer parameter and all its sub-containers. This is also the default setting for this parameter; therefore, if the search scope is not explicitly specified, this value is used.)   Although the values are numerical, you must enclose them in double-quotes. For example: "1", "2". |
 | SecurityQuestions | Adds a security question in an identity store. |
 | SecurityToken | When you the Get-Token command, you get a value against Claims. Provide that value to this parameter. |
-| SecurityType | The access level of the group: Private, Semi\_Private and Public. If this parameter is not given, the group is created as Private. |
+| SecurityType | The access level of the group: Private, Semi_Private and Public. If this parameter is not given, the group is created as Private. |
 | SendEmail | Specify this parameter to send the password expiry e-mail notifications. The group must have an e-mail address and notifications must be configured.  (Applies to Password Expiry group) |
 | SendOofMessageToOriginatorEnabled | Specify True to enable the group to send Out-of-Office messages to e-mail senders. The default value is False. |
 | SendToOwners | Sends job completion notifications to group owners and additional owners as well as to the other specified recipients. |
@@ -384,7 +384,7 @@ The following table lists the GroupID Management Shell commandlet parameters in 
 | StoreDescription | Description of an identity store. |
 | StoreEnabled | Enables or disables an identity store. |
 | Subject | The subject of the e-mail notification. |
-| Sun\_Container | Specify distinguished name (DN) of a container in an external datasource (specifically Sun ONE iPlanet datasource) in Query Designer of a smart group. |
+| Sun_Container | Specify distinguished name (DN) of a container in an external datasource (specifically Sun ONE iPlanet datasource) in Query Designer of a smart group. |
 | SupportEmail | The e-mail address of the group or contact providing support to users of Password Center and Self-Service portals. This support e-mail address is set by default for all new portals created using Password Center and Self-Service. |
 | SupportURL | The default URL of the online help for Self-Service portals. This URL is set by default for all new portals created using Self-Service. |
 | SWAMobileAttribute | The name of the attribute used by Second Way Authentication via mobile. |
@@ -448,7 +448,7 @@ GroupID Management Shell does not support common parameters of PowerShell in its
 - WhatIf
 - Write-Information
 
-See [about\_CommonParameters](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_commonparameters?view=powershell-7.3&viewFallbackFrom=powershell-6) for details on these parameters.
+See [about_CommonParameters](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_commonparameters?view=powershell-7.3&viewFallbackFrom=powershell-6) for details on these parameters.
 
 See Also
 

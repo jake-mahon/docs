@@ -1,23 +1,23 @@
-# SG\_RunAtBoot Job
+# SG_RunAtBoot Job
 
-The SG\_RunAtBoot job lists applications which are set to __Run__ or __Run Once__ on all targeted hosts.
+The SG_RunAtBoot job lists applications which are set to __Run__ or __Run Once__ on all targeted hosts.
 
-## Queries for the SG\_RunAtBoot Job
+## Queries for the SG_RunAtBoot Job
 
-The SG\_RunAtBoot job uses the Registry Data Collector for the following queries:
+The SG_RunAtBoot job uses the Registry Data Collector for the following queries:
 
 __CAUTION:__ The queries are preconfigured for this job. Never modify the queries.
 
 ![Queries for the SG_RunAtBoot Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/windows/applications/runatbootqueries.png)
 
-The queries for the SG\_RunAtBoot job are:
+The queries for the SG_RunAtBoot job are:
 
 - Run – Targets all Windows servers known to Enterprise Auditor to run at boot applications
 - Run Once – Targets all Windows servers known to Enterprise Auditor to run once at boot applications
 
-## Analysis Tasks for the SG\_RunAtBoot Job
+## Analysis Tasks for the SG_RunAtBoot Job
 
-Navigate to the __Windows__ > __Applications__ > __SG\_RunAtBoot__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Windows__ > __Applications__ > __SG_RunAtBoot__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -25,12 +25,12 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The default analysis tasks are:
 
-- Track Changes – Creates the SA\_SG\_RunAtBoot\_ChangeTracking table accessible under the job’s Results node
-- List application details – Creates the SA\_SG\_RunAtBoot\_Details table accessible under the job’s Results node
-- Summarize details by host – Creates the SA\_SG\_RunAtBoot\_HostSummary table accessible under the job’s Results node
-- Summarize details by application – Creates the SA\_SG\_RunAtBoot\_AppSummary table accessible under the job’s Results node
+- Track Changes – Creates the SA_SG_RunAtBoot_ChangeTracking table accessible under the job’s Results node
+- List application details – Creates the SA_SG_RunAtBoot_Details table accessible under the job’s Results node
+- Summarize details by host – Creates the SA_SG_RunAtBoot_HostSummary table accessible under the job’s Results node
+- Summarize details by application – Creates the SA_SG_RunAtBoot_AppSummary table accessible under the job’s Results node
 
-In addition to the tables and views created by the analysis tasks, the SG\_RunAtBoot job produces the following pre-configured reports.
+In addition to the tables and views created by the analysis tasks, the SG_RunAtBoot job produces the following pre-configured reports.
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

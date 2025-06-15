@@ -30,6 +30,6 @@ We’re now saying no matter what the user already has, just leave it in place a
 
 Let’s go ahead and take a look and see if that does what it’s supposed to do. We’ll run “gpupdate” here. Because we had already put some stuff in there, it should stay behind. Now we’re simply saying to merge what we’ve done in “Local intranet.” Here we go. You can see that it added “https://www.policypak.com/” but left behind what the user has already established.
 
-That is how that works. If you have any other questions, then please post them to the forums or open a support ticket https://www.netwrix.com/sign\_in.html?rf=tickets.html#/open-a-ticket. Please continue on and watch more of those videos.
+That is how that works. If you have any other questions, then please post them to the forums or open a support ticket https://www.netwrix.com/sign_in.html?rf=tickets.html#/open-a-ticket. Please continue on and watch more of those videos.
 
 Thanks. Bye-bye.

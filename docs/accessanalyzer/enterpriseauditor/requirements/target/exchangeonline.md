@@ -45,7 +45,7 @@ Permissions for the Registered Microsoft Entra ID Application: Office 365 Excha
 - Application Permissions:
 
   - Exchange.ManageAsApp – Manage Exchange As Application
-  - full\_access\_as\_app – Use Exchange Web Services with full access to all mailboxes
+  - full_access_as_app – Use Exchange Web Services with full access to all mailboxes
 - Exchange Administrator role assigned to the registered application's service principal
 
 See the [Exchange Online Auditing Configuration](/docs/accessanalyzer/config/exchangeonline/access.md) topic for additional information.

@@ -71,7 +71,7 @@ The following special metadata fields can be used:
 
   A clue based on a right truncated path would look like this:
 
-  _CSE-FOLDERS=c:\myfolder\subfolder\_ or _CSE-FOLDERS=http://www.abc.com/jobs/_
+  _CSE-FOLDERS=c:\myfolder\subfolder_ or _CSE-FOLDERS=http://www.abc.com/jobs/_
 
   Note that when using cse-Folders with a right-truncated path the path must always end with a slash character. A clue based on selected folders within the path would look like this: _CSE-FOLDERS=myfolder/myfolder2_
 

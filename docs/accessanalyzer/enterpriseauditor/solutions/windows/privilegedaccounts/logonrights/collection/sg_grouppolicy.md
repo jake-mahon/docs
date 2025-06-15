@@ -1,20 +1,20 @@
-# SG\_GroupPolicy Job
+# SG_GroupPolicy Job
 
-The SG\_GroupPolicy job collects policy assignments from all targeted servers. The following policy assignments are audited:
+The SG_GroupPolicy job collects policy assignments from all targeted servers. The following policy assignments are audited:
 
 - Allow log on locally
 - Log on as a batch job
 - Allow log on through Remote Desktop Services
 - Log on as a service
 
-## Queries for the SG\_GroupPolicy Job
+## Queries for the SG_GroupPolicy Job
 
-The SG\_GroupPolicy job uses the GroupPolicy Data Collector for the following query:
+The SG_GroupPolicy job uses the GroupPolicy Data Collector for the following query:
 
 __CAUTION:__ The query is preconfigured for this job. Never modify the query.
 
 ![Queries for the SG_GroupPolicy Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/grouppolicy/grouppolicyquery.webp)
 
-The query for the SG\_GroupPolicy job is:
+The query for the SG_GroupPolicy job is:
 
 - GroupPolicy – Collects group policy information

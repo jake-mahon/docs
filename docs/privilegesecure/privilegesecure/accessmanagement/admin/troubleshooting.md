@@ -145,7 +145,7 @@ __Step 7 –__ Click __Apply__ > __OK__.
 
 The RDP file has been certified and will be trusted by Windows computers that are part of this policy.
 
-__NOTE:__ IIS\_IUSRS account must have read permissions to the certificate used by Privilege Secure in certlm.msc. Otherwise, in the PAM-WebService log the "Could not sign RDP file with certificate for RDP Session: Keyset does not exist" error will appear and the RDP file won't be signed.
+__NOTE:__ IIS_IUSRS account must have read permissions to the certificate used by Privilege Secure in certlm.msc. Otherwise, in the PAM-WebService log the "Could not sign RDP file with certificate for RDP Session: Keyset does not exist" error will appear and the RDP file won't be signed.
 
 ## Update InsecureSkipVerify and RestURL
 

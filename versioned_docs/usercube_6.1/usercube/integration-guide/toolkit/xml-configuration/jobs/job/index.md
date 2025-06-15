@@ -70,7 +70,7 @@ The following example shows a typical configuration of the complete job.
 | Agent   optional | __Type__    Int64   __Description__   Identifier of the agent on which the job will be launched.   __Note:__ when not specified, the job is to be launched on the server.    __Warning:__ all tasks in the job must be launched on the same agent or on the server. |
 | CronTabExpression   optional | __Type__    String   __Description__   Scheduling expressed using the [crontab syntax](https://docs.microsoft.com/azure/azure-functions/functions-bindings-timer?tabs=csharp#crontab-syntax). |
 | CronTimeZone   default value: 0 | __Type__    CronTimeZone   __Description__   Time zone used to compute the next occurrences according to the given cron expression.   ```0``` - UTC   ```1``` - ServerTime |
-| DisplayName\_L1   required | __Type__    String   __Description__   Display name of the job in language 1 (up to 16). |
+| DisplayName_L1   required | __Type__    String   __Description__   Display name of the job in language 1 (up to 16). |
 | Identifier   required | __Type__    String   __Description__   Unique identifier of the job. |
 | IsConnectorJob   default value: false | __Type__    Boolean   __Description__   Indicates that the job is specific to the connector configuration screen. |
 | IsIncremental   default value: false | __Type__    Boolean   __Description__   Defines if a job is in incremental mode. |

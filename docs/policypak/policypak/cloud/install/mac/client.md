@@ -32,7 +32,7 @@ __Step 6 –__ Using the SUDO command, register the machine in Endpoint Policy M
    Where:  
    ``` /path/to/certificate.pfx``` - the folder in which the certificate was downloaded.
 
-   "certificate\_password" - the password that was added when exporting the certificate. Export from step 3.
+   "certificate_password" - the password that was added when exporting the certificate. Export from step 3.
 
 __Step 7 –__ After completing the operation, the message "```Registered: YES``` " should appear in the terminal window.
 

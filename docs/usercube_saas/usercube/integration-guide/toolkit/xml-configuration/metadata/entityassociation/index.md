@@ -29,7 +29,7 @@ The following example associates SAB users with groups, with the possibility to 
 
 | Property | Details |
 | --- | --- |
-| DisplayName\_L1   optional | __Type__    String   __Description__   Display name of the association in language 1 (up to 16). |
+| DisplayName_L1   optional | __Type__    String   __Description__   Display name of the association in language 1 (up to 16). |
 | Identifier   required | __Type__    String   __Description__   Unique identifier of the association. It must be unique to the entity model scope. |
 | IsProperty1Collection   default value: false | __Type__    Boolean   __Description__   ```true``` to define a many-to-one association. |
 | IsProperty2Collection   default value: false | __Type__    Boolean   __Description__   ```true``` to define a one-to-many association. |

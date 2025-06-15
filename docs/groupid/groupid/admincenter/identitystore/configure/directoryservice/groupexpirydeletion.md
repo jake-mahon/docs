@@ -17,7 +17,7 @@ The following events take place when a group expires:
 __In case of an Active Directory identity store with Microsoft Exchange as messaging provider:__
 
 - The group becomes inactive and is locked for all activities.
-- "EXPIRED\_" is added as a prefix to the group name.
+- "EXPIRED_" is added as a prefix to the group name.
 - A mail-enabled distribution group is mail-disabled.
 - For a security group, its member list is cleared. However, Directory Manager keeps a backup of its membership in the database.
 
@@ -26,13 +26,13 @@ __In case of an Active Directory identity store with Office 365 as messaging pro
 The following happens when a distribution group is expired manually or via the Group Lifecycle job:
 
 - The group’s email address is removed in Active Directory.
-- "EXPIRED\_" is added as a prefix to the group name.
+- "EXPIRED_" is added as a prefix to the group name.
 - The group is removed from Office 365 when the AAD Sync schedule runs.
 
 On renewing an expired distribution group, the following happens:
 
 - The group’s email address is added in Active Directory.
-- The "EXPIRED\_" prefix is removed from the group’s name.
+- The "EXPIRED_" prefix is removed from the group’s name.
 - The group is created with members in Office 365 when the AAD Sync schedule runs.
 
 __In case of a Microsoft Entra ID identity store with Office 365 as messaging provider:__
@@ -57,7 +57,7 @@ If you want an expired group back, you can renew it. On renewal, the group becom
 Using Directory Manager, groups can be deleted physically or logically. Deleted groups can be viewed in the Directory Manager portal. You can distinguish physically deleted groups from logically deleted groups as:
 
 - Physically deleted groups are listed under _Tombstone Groups_.
-- Logically deleted groups are listed under _Logically Deleted Groups_. They also have Deleted\_ prefixed to their display names. However, groups in the Recycle Bin are displayed by their names, not their display
+- Logically deleted groups are listed under _Logically Deleted Groups_. They also have Deleted_ prefixed to their display names. However, groups in the Recycle Bin are displayed by their names, not their display
   names.
 
 Both types are locked for further operations until restored.

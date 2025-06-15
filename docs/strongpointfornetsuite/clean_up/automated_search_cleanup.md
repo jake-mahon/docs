@@ -67,7 +67,7 @@ __Basic Filters__
 - __Search Name__ filters searches to clean-up by name. Filter operator is _startswith_ and the wildcard _%_ may be used. Default is blank.  
    Example: _Custom % Search%_ returns all searches with a name starting with '_Custom_ ' followed by any character and the name must contain '_Search_' such as _Custom Inventory Detail Search_.
 - __Search ScriptID__ filters searches to clean-up by ID. Filter operator is _startswith_ and the wildcard _%_ may be used. Default is blank.  
-   Example: _%testing_ returns all searches with an ID containing the word '_testing_' such as _customsearch\_testing\_1_.
+   Example: _%testing_ returns all searches with an ID containing the word '_testing_' such as _customsearch_testing_1_.
 - __Months Since Date Last Used, Retained/Restored__ filters searches by the last run date of the search or the restore/retain date, whichever is the most recent. Searches that have been used, restored, or retained within the specified timeframe are excluded from the search. Default is __6__ months.
 - __Exclude Private Searches__ excludes searches set as __Private__ by search owners. Default is checked.
 - __Exclude Scheduled Searches__ excludes searches set to run on a schedule. Default is checked.

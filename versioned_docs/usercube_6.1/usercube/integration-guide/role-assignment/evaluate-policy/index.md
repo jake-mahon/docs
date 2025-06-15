@@ -130,7 +130,7 @@ Enforcing single role rules
 
 Then, single role rules are enforced. That means assigning a specific single role to the input resource based on its context and existing assigned composite roles, i.e. the composite roles currently assigned to the resource. Both assigned composite roles freshly created by enforcing composite role rules and those already in the database are taken into account. In the former case, single roles created are said to be inferred.
 
-This is materialized into a new object called an assigned single role, stored in the UP\_AssignedSingleRoles table. The resource becomes the owner of the assigned single role.
+This is materialized into a new object called an assigned single role, stored in the UP_AssignedSingleRoles table. The resource becomes the owner of the assigned single role.
 
 Manual and derogatory assignments found in the database of single roles are also added to the expected assignments list.
 
@@ -162,7 +162,7 @@ Finally, navigation rules are enforced. They aim to complete the information abo
 
 For every assigned resource type, associated navigation rules are enforced.
 
-Navigation rules are conditioned on the resource's assigned single roles. If a specific single role is found as assigned to the owner resource of the assigned resource type (i.e. the input resource of the algorithm), an assigned resource navigation is created in the UP\_AssignedResourceNavigation table, with the resource as its owner. The assigned resource navigation will eventually translate into a provisioning order.
+Navigation rules are conditioned on the resource's assigned single roles. If a specific single role is found as assigned to the owner resource of the assigned resource type (i.e. the input resource of the algorithm), an assigned resource navigation is created in the UP_AssignedResourceNavigation table, with the resource as its owner. The assigned resource navigation will eventually translate into a provisioning order.
 
 The assigned resource navigation is hence the consequence, in the form of a provisioning-order-to-be, of assigning a role to a resource.
 
@@ -197,7 +197,7 @@ __Step 4 –__ __Assignments cleansing / purge__
 
 Some assignments are given an expiration date at creation (see the first step, context rules enforcement). This is the step where expired assignments are removed from the expected assignments list.
 
-They will not be deleted, but historized. The validTo column of the UP\_Assigned\* is updated.
+They will not be deleted, but historized. The validTo column of the UP_Assigned\* is updated.
 
 Others have been manually denied via the provisioning review screen, or must be canceled because of rules or resource value changes. Those are deleted too.
 

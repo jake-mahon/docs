@@ -1,10 +1,10 @@
-# Db2\_SensitiveData Job
+# Db2_SensitiveData Job
 
 This job provides information on all the sensitive data that was discovered in the targeted Db2 database servers based on the selection scan criteria.
 
-## Analysis Tasks for the Db2 \_SensitiveData Job
+## Analysis Tasks for the Db2 _SensitiveData Job
 
-Navigate to the __Jobs__ > __Databases__ > __Db2__ > __Sensitive Data__ > __Db2\_Sensitive Data__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Jobs__ > __Databases__ > __Db2__ > __Sensitive Data__ > __Db2_Sensitive Data__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -16,9 +16,9 @@ The default analysis tasks are:
 - Database Summary – Summarizes Db2 sensitive data by database
 - Enterprise Summary – Summarizes all discovered sensitive data by category
 
-## Reports for the Db2\_SensitiveData Job
+## Reports for the Db2_SensitiveData Job
 
-In addition to the tables and views created the analysis task, the Db2\_SensitiveData job produces the following preconfigured reports.
+In addition to the tables and views created the analysis task, the Db2_SensitiveData job produces the following preconfigured reports.
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

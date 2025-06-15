@@ -1,10 +1,10 @@
-# AD\_ComputerPermissions Job
+# AD_ComputerPermissions Job
 
-The AD\_ComputerPermissions job reports on all Active Directory permissions and ownership applied to computer objects within the targeted domains.
+The AD_ComputerPermissions job reports on all Active Directory permissions and ownership applied to computer objects within the targeted domains.
 
-## Analysis Tasks for the AD\_ComputerPermissions Job
+## Analysis Tasks for the AD_ComputerPermissions Job
 
-Navigate to the __Active Directory Permissions Analyzer__ > __4.Computers__ > __AD\_ComputerPermissions__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Active Directory Permissions Analyzer__ > __4.Computers__ > __AD_ComputerPermissions__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,12 +12,12 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The default analysis tasks are:
 
-- List computer object permissions – Creates the SA\_AD\_ComputerPermissions\_Details table accessible under the job’s Results node
+- List computer object permissions – Creates the SA_AD_ComputerPermissions_Details table accessible under the job’s Results node
 - Summarize computer object permissions – Creates an interim processing table in the database for use by downstream analysis and report generation
-- Computer Ownership – Lists the owners of each computer object and determines if they are a non-standard owner. Users that are not administrators are considered non-standard owners of computer objects. Creates the SA\_AD\_ComputerOwnership\_Details table accessible under the job’s Results node.
+- Computer Ownership – Lists the owners of each computer object and determines if they are a non-standard owner. Users that are not administrators are considered non-standard owners of computer objects. Creates the SA_AD_ComputerOwnership_Details table accessible under the job’s Results node.
 - Computer Ownership Summary – Summarizes owner type by domain
 
-In addition to the tables and views created by the analysis tasks, the AD\_ComputerPermissions job produces the following pre-configured reports.
+In addition to the tables and views created by the analysis tasks, the AD_ComputerPermissions job produces the following pre-configured reports.
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

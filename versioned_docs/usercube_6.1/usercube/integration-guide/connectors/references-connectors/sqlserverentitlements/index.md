@@ -45,7 +45,7 @@ Implementing this connector requires:
 - a ```ConnectionString``` with a ```Login``` to connect to the SQL Server, where either the login has the __sysadmin__ role, or:
 
   - the login has the __securityadmin__ role, in order to export server principals;
-  - each database to export has a database user attached to the login with at least one role among __db\_accessadmin__, __db\_owner__ and __db\_securityadmin__, in order to export database principals.
+  - each database to export has a database user attached to the login with at least one role among __db_accessadmin__, __db_owner__ and __db_securityadmin__, in order to export database principals.
 
   [Securables](https://docs.microsoft.com/en-us/sql/relational-databases/security/securables?view=sql-server-2017) can also be defined manually for both the server and database principals, but this is more complicated and hence not recommended.
 

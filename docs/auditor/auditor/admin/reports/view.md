@@ -44,7 +44,7 @@ Wildcards are supported. For example, type _%corp\administrator%_ in the in the 
 
 Do not use % in the exclusive filters (e.g., Who (Exclude domain\user)). Otherwise, you will receive an empty report.
 
-_escape\_characters_ are not supported.
+_escape_characters_ are not supported.
 
 The example below applies to the All Changes by Server report and shows the before and after views of the report. The filters may vary slightly depending on the audited system and report type.
 

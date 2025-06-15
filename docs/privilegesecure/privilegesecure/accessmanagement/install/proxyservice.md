@@ -164,7 +164,7 @@ __Step 2 –__ Change the directory path to the ProxyService folder in the NPS P
 
 ```C:\Program Files\Netwrix\Netwrix Privilege Secure Proxy Service\ProxyService```
 
-__Step 3 –__ Run the following command to automatically generate the "sbpam\_ssh" file:
+__Step 3 –__ Run the following command to automatically generate the "sbpam_ssh" file:
 
 ``` .\sbpam-proxy.exe cfg -c sbpam_ssh```
 
@@ -172,7 +172,7 @@ __Step 4 –__ Browse to the location of the newly created file in "ProgramData"
 
 ```C:\ProgramData\``````Stealthbits``````\PAM\ProxyService```
 
-__Step 5 –__ Copy and paste the following into the "nps\_ssh.json" file.
+__Step 5 –__ Copy and paste the following into the "nps_ssh.json" file.
 
 ```
 {  

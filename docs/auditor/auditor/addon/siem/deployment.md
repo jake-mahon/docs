@@ -8,10 +8,10 @@ Netwrix suggests the following execution scenarios:
 
 | Scenario | Example |
 | --- | --- |
-| The add-on runs on the Auditor Server with the current user credentials. Activity Records are exported to a local event log. | C:\Add-ons\Netwrix\_Auditor\_Activity\_Records\_to\_Event\_Log\_Add-on.ps1 |
-| The add-on runs on the Auditor Server with explicitly defined credentials. Activity Records are exported to a local event log. | C:\Add-ons\Netwrix\_Auditor\_Activity\_Records\_to\_Event\_Log\_Add-on.ps1 -NetwrixAuditorUserName enterprise\NAuser -NetwrixAuditorPassword NetwrixIsCool |
-| The add-on exports Activity Records from a remote Auditor Server using current user credentials and writes data to a local event log. | C:\Add-ons\Netwrix\_Auditor\_Activity\_Records\_to\_Event\_Log\_Add-on.ps1 Netwrix Auditor add-on for SIEM |
-| The add-on exports Activity Records from a remote Auditor server using explicitly defined credentials and writes data to a local event log. | C:\Add-ons\Netwrix\_Auditor\_Activity\_Records\_to\_Event\_Log\_Add-on.ps1 Netwrix Auditor add-on for SIEM-NetwrixAuditorUserName enterprise\NAuser -NetwrixAuditorPassword NetwrixIsCool |
+| The add-on runs on the Auditor Server with the current user credentials. Activity Records are exported to a local event log. | C:\Add-ons\Netwrix_Auditor_Activity_Records_to_Event_Log_Add-on.ps1 |
+| The add-on runs on the Auditor Server with explicitly defined credentials. Activity Records are exported to a local event log. | C:\Add-ons\Netwrix_Auditor_Activity_Records_to_Event_Log_Add-on.ps1 -NetwrixAuditorUserName enterprise\NAuser -NetwrixAuditorPassword NetwrixIsCool |
+| The add-on exports Activity Records from a remote Auditor Server using current user credentials and writes data to a local event log. | C:\Add-ons\Netwrix_Auditor_Activity_Records_to_Event_Log_Add-on.ps1 Netwrix Auditor add-on for SIEM |
+| The add-on exports Activity Records from a remote Auditor server using explicitly defined credentials and writes data to a local event log. | C:\Add-ons\Netwrix_Auditor_Activity_Records_to_Event_Log_Add-on.ps1 Netwrix Auditor add-on for SIEM-NetwrixAuditorUserName enterprise\NAuser -NetwrixAuditorPassword NetwrixIsCool |
 
 For security reasons, Netwrix recommends running the script with current user credentials (skipping user credentials). Create a special user account with permissions to both Auditor data and event log and use it for running the script.
 

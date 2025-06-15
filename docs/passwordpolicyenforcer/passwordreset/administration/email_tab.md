@@ -24,12 +24,12 @@ Type the recipient's e-mail address in the __To__ text box. The correct format i
 
 | Macro | Replace with |
 | --- | --- |
-| [AD\_EMAIL] | The e-mail address in Active Directory |
-| [NPR\_EMAIL] | The e-mail address in Password Reset's database |
-| [AD\_OR\_NPR\_EMAIL] | The e-mail address in AD, or the e-mail address in Password Resetif the AD address is blank |
-| [NPR\_OR\_AD\_EMAIL] | The e-mail address in NPR, or the e-mail address in AD if the Password Reset address is blank |
+| [AD_EMAIL] | The e-mail address in Active Directory |
+| [NPR_EMAIL] | The e-mail address in Password Reset's database |
+| [AD_OR_NPR_EMAIL] | The e-mail address in AD, or the e-mail address in Password Resetif the AD address is blank |
+| [NPR_OR_AD_EMAIL] | The e-mail address in NPR, or the e-mail address in AD if the Password Reset address is blank |
 
-__NOTE:__ Use [NPR\_OR\_AD\_EMAIL] with caution as Password Reset does not check the validity of e-mail addresses. If the e-mail address in Password Reset's database is no longer valid, then the alert is only sent to the invalid address.
+__NOTE:__ Use [NPR_OR_AD_EMAIL] with caution as Password Reset does not check the validity of e-mail addresses. If the e-mail address in Password Reset's database is no longer valid, then the alert is only sent to the invalid address.
 
 Type additional recipient e-mail addresses in the __Bcc__ text box if you want to send any blind carbon copies. Separate multiple recipients with a semicolon.
 
@@ -39,8 +39,8 @@ Type the e-mail's body in the large text box. The e-mail is sent as plain text u
 
 | Macro | Replaced with |
 | --- | --- |
-| [AD\_DOMAIN] | The user's Active Directory domain name |
-| [AD\_USER] | The user's Active Directory logon name |
+| [AD_DOMAIN] | The user's Active Directory domain name |
+| [AD_USER] | The user's Active Directory logon name |
 
 Password Reset stores the user's preferred language every time they successfully complete an Enroll, Reset, Unlock, or Change. E-mail alerts are sent in the user's preferred language, or in the current Web Interface language if the user's preferred language is not known. If an e-mail template is not defined for the user's preferred language, then the alert is sent in English.
 

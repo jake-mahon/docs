@@ -39,7 +39,7 @@ expresses just before the report name.
 
 ![970_5_image-20231016154007-12_950x839](/img/product_docs/policypak/policypak/integration/auditor/970_5_image-20231016154007-12_950x839.webp)
 
-As an example, the string should look like this: http://NetwrixAuditorServer/Reports\_SQLEXPRESS/report/PolicyPak
+As an example, the string should look like this: http://NetwrixAuditorServer/Reports_SQLEXPRESS/report/PolicyPak
 
 __Step 7 –__ Keep this
 string handy in Notepad or similar for thenext

@@ -54,15 +54,15 @@ __Example__
 
 Let's take the following organizational model:
 
-- a Directory\_User entity type for employee
-- a Directory\_Guest entity type for contractors and the like
+- a Directory_User entity type for employee
+- a Directory_Guest entity type for contractors and the like
 
 When workflows are defined to handle resources for these entity types, the following workflow-entity types are created too:
 
-- Workflow\_Directory\_User
-- Workflow\_Directory\_Guest
+- Workflow_Directory_User
+- Workflow_Directory_Guest
 
-The order in which Directory\_User and Directory\_Guest appear in the role review dropdown is configured like this
+The order in which Directory_User and Directory_Guest appear in the role review dropdown is configured like this
 
 ```
 dashboard.xml
@@ -70,7 +70,7 @@ dashboard.xml
 
 ```
 
-But the order in which "Workflow for Directory\_User" and "Workflow for Directory\_Guest" appear in the My Tasks screen is configured like this.
+But the order in which "Workflow for Directory_User" and "Workflow for Directory_Guest" appear in the My Tasks screen is configured like this.
 
 ```
 dashboard.xml
@@ -89,7 +89,7 @@ dashboard.xml
 | IconCode   optional | __Type__    String   __Description__   Defines the icode code ("People", "MapPin", "Suitcase"�). |
 | IsHierarchical   default value: false | __Type__    Boolean   __Description__   Is hierarchical entity type. |
 | MinSearchLength   optional | __Type__    Int32   __Description__   Defines the minimum number of characters from which the search in the auto complete picker starts - 4 if it is not defined (the AutocompleteBinding must be defined). |
-| PluralDisplayName\_L1   optional | __Type__    String   __Description__   Display name of the entity type in plural in language 1 (up to 16). |
+| PluralDisplayName_L1   optional | __Type__    String   __Description__   Display name of the entity type in plural in language 1 (up to 16). |
 | Priority   default value: 2147483647 | __Type__    Int32   __Description__   Sets the display priority of the Entity Type in the administration screens dropdown and the dashboard. A priority is an integer value, positive or negative. The highest priority is assigned to the lowest number. See the Priority section above. |
 
 ## Child Element: Property
@@ -114,6 +114,6 @@ Entity referencing the Entity properties (with which it share the same ID) that 
 | MinSearchLength   optional | __Type__    Int32   __Description__   Defines the minimum number of characters from which the search in the auto complete picker starts - 4 if it is not defined (the input type of the display property must be a picker and the AutocompleteBinding must be defined). |
 | NavigationBinding   optional | __Type__    Int64   __Description__   Defines the binding of the resource on which the user will be redirected when he clicks on an element of a BasicCollection. |
 | OutputType   default value: Auto | __Type__    Enumeration   __Description__   Identifier of the output type. |
-| PlaceHolderText\_L1   optional | __Type__    String   __Description__   Property place holder text. |
+| PlaceHolderText_L1   optional | __Type__    String   __Description__   Property place holder text. |
 | Tile   optional | __Type__    Int64   __Description__   Identifier of the tile. |
-| ToolTipText\_L1   optional | __Type__    String   __Description__   Property tool tip text. |
+| ToolTipText_L1   optional | __Type__    String   __Description__   Property tool tip text. |

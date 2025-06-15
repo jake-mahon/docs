@@ -1,10 +1,10 @@
-# AD\_ComputerDelegation Job
+# AD_ComputerDelegation Job
 
-The AD\_ComputerDelegation Job provides details on computer accounts that have been enabled for unconstrained delegation. Once this configuration is enabled for a computer, any time an account connects to the computer for any reason, their ticket-granting ticket (TGT) is stored in memory so it can be used later by the computer for impersonation, which exposes a significant security risk in cases where privileged accounts access the computer.  See the [What Is Kerberos Delegation?](https://blog.netwrix.com/2021/11/30/what-is-kerberos-delegation-an-overview-of-kerberos-delegation/) Netwrix blog article for more information about this configuration and the related security risks.
+The AD_ComputerDelegation Job provides details on computer accounts that have been enabled for unconstrained delegation. Once this configuration is enabled for a computer, any time an account connects to the computer for any reason, their ticket-granting ticket (TGT) is stored in memory so it can be used later by the computer for impersonation, which exposes a significant security risk in cases where privileged accounts access the computer.  See the [What Is Kerberos Delegation?](https://blog.netwrix.com/2021/11/30/what-is-kerberos-delegation-an-overview-of-kerberos-delegation/) Netwrix blog article for more information about this configuration and the related security risks.
 
-## Analysis Task for the AD\_ComputerDelegation Job
+## Analysis Task for the AD_ComputerDelegation Job
 
-Navigate to the __Active Directory__ > __3.Computers__ > __AD\_ComputerDelegation__ > Configure node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Active Directory__ > __3.Computers__ > __AD_ComputerDelegation__ > Configure node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the analysis task. The analysis task is preconfigured for this job.
 
@@ -12,9 +12,9 @@ __CAUTION:__ Do not modify or deselect the analysis task. The analysis task is p
 
 The default analysis tasks are:
 
-- Determine computers trusted for delegation – Creates the SA\_AD\_ComputerDelegation\_Details table accessible under the job’s Results node
+- Determine computers trusted for delegation – Creates the SA_AD_ComputerDelegation_Details table accessible under the job’s Results node
 
-In addition to the tables and views created by the analysis task, the AD\_ComputerDelegation Job produces the following pre-configured report:
+In addition to the tables and views created by the analysis task, the AD_ComputerDelegation Job produces the following pre-configured report:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

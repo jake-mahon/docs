@@ -1,10 +1,10 @@
-# FS\_UnresolvedSIDs Job
+# FS_UnresolvedSIDs Job
 
-The FS\_UnresolvedSIDs job is designed to report on unresolved SIDs that have been granted direct permissions on resources from targeted file servers.
+The FS_UnresolvedSIDs job is designed to report on unresolved SIDs that have been granted direct permissions on resources from targeted file servers.
 
-## Analysis Tasks for the FS\_UnresolvedSIDs Job
+## Analysis Tasks for the FS_UnresolvedSIDs Job
 
-View the analysis tasks by navigating to the __FileSystem__ > __2.Direct Permissions__ > __FS\_UnresolvedSIDs__ > __Configure__ node and select __Analysis__.
+View the analysis tasks by navigating to the __FileSystem__ > __2.Direct Permissions__ > __FS_UnresolvedSIDs__ > __Configure__ node and select __Analysis__.
 
 __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis task is preconfigured for this job.
 
@@ -12,9 +12,9 @@ __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis 
 
 The following analysis task is selected by default:
 
-- Unresolved SIDs – Creates the SA\_FS\_UnresolvedSIDs\_SIDsByResourcePath table accessible under the job's Results node
+- Unresolved SIDs – Creates the SA_FS_UnresolvedSIDs_SIDsByResourcePath table accessible under the job's Results node
 
-In addition to the tables and views created by the analysis task, the FS\_UnresolvedSIDs job produces the following pre-configured report:
+In addition to the tables and views created by the analysis task, the FS_UnresolvedSIDs job produces the following pre-configured report:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

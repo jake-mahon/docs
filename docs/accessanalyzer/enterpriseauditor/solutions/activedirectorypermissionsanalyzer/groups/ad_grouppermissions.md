@@ -1,10 +1,10 @@
-# AD\_GroupPermissions Job
+# AD_GroupPermissions Job
 
-The AD\_Permissions job reports on all Active Directory permissions and ownership applied to group objects within the targeted domains.
+The AD_Permissions job reports on all Active Directory permissions and ownership applied to group objects within the targeted domains.
 
-## Analysis Tasks for the AD\_GroupPermissions Job
+## Analysis Tasks for the AD_GroupPermissions Job
 
-Navigate to the __Active Directory Permissions Analyzer__ > __2.Groups__ > __AD\_GroupPermissions__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Active Directory Permissions Analyzer__ > __2.Groups__ > __AD_GroupPermissions__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,12 +12,12 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The default analysis tasks are:
 
-- List group object permissions – Creates the SA\_AD\_GroupPermissions\_Details table accessible under the job’s Results node
+- List group object permissions – Creates the SA_AD_GroupPermissions_Details table accessible under the job’s Results node
 - Summarize group object permissions – Creates an interim processing table in the database for use by downstream analysis and report generation
 - Group Ownership – Lists the owners of each group object and determines if they are a non-standard owner. Principals that are not administrators are considered non-standard owners of group objects.
 - Group Ownership Summary – Summarizes owner type by domain
 
-In addition to the tables and views created by the analysis tasks, the AD\_GroupPermissions job produces the following pre-configured reports.
+In addition to the tables and views created by the analysis tasks, the AD_GroupPermissions job produces the following pre-configured reports.
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

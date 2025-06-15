@@ -23,9 +23,9 @@ A few text box display types used in the default portal template are:
 |  | Display Type Name | Default Value | Regular Expression | Regex Example |
 | --- | --- | --- | --- | --- |
 | 1. | maskPhoneUSwithExt | None | ^\(\d\d\d\) \d\d\d-\d\d\d\d x\d\d\d$ | (555) 123-4567 x890 |
-| 2. | SmtpEmail | None | ^([a-zA-Z0-9\_\-\.]+)@((\[[0-9]+\.[0-9]+\.[0-9]+\.) | (([a-zA-Z0-9\-]+\.)+))([a-zA-Z]+ | [0-9]+)(\]?)$ | someone@netwrix.com |
+| 2. | SmtpEmail | None | ^([a-zA-Z0-9_\-\.]+)@((\[[0-9]+\.[0-9]+\.[0-9]+\.) | (([a-zA-Z0-9\-]+\.)+))([a-zA-Z]+ | [0-9]+)(\]?)$ | someone@netwrix.com |
 | 3. | maskPhoneUS | None | ^\(\d\d\d\) \d\d\d-\d\d\d\d$ | (555) 123-4567 |
-| 4. | maskEmailAddress | None | ^([a-zA-Z0-9\_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.) | (([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4} | [0-9]{1,3})(\]?)$ | user@domain.com |
+| 4. | maskEmailAddress | None | ^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.) | (([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4} | [0-9]{1,3})(\]?)$ | user@domain.com |
 | 5. | maskZipCode | None | \d{5}(-\d{4})? | NNNNN-NNNN |
 
 ## Define a Text Box Display Type

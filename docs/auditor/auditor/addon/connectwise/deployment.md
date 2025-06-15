@@ -17,7 +17,7 @@ __Step 5 –__ Run the ConfigureConnection.exe and follow the steps of the wizar
 
 __Step 6 –__ (optional) To adjust the add-on operation and data flow settings, edit the ITSMSettings.xml file. See the [Operational Settings](/docs/auditor/auditor/addon/connectwise/operationalsettings.md) topic for additional information.
 
-__Step 7 –__ In Auditor, go to Alerts, select the required alerts, click Edit, and in the Response Action section of the alert properties specify the full path to Netwrix.ITSM.AlertResponseAction.exe file (the add-on component responsible for alert handling), for example, _C:\Addon\ITSM\_CW\Netwrix.ITSM.AlertResponseAction.exe_.
+__Step 7 –__ In Auditor, go to Alerts, select the required alerts, click Edit, and in the Response Action section of the alert properties specify the full path to Netwrix.ITSM.AlertResponseAction.exe file (the add-on component responsible for alert handling), for example, _C:\Addon\ITSM_CW\Netwrix.ITSM.AlertResponseAction.exe_.
 
 ## Enabling TLS 1.2 Usage
 

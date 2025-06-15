@@ -1,10 +1,10 @@
-# AWS\_Accounts Job
+# AWS_Accounts Job
 
-The AWS\_Accounts job provides detailed information about the accounts that exist in each AWS Organization. This job also determines the AWS Master Account for each Organization. The AWS Master Account can be set manually by adding a line for each Organization in the temporary table #IdentitySourceAccount in the analysis task parameters for this job.
+The AWS_Accounts job provides detailed information about the accounts that exist in each AWS Organization. This job also determines the AWS Master Account for each Organization. The AWS Master Account can be set manually by adding a line for each Organization in the temporary table #IdentitySourceAccount in the analysis task parameters for this job.
 
-## Analysis Tasks for the AWS\_Accounts Job
+## Analysis Tasks for the AWS_Accounts Job
 
-Navigate to the __AWS__ > __1.Organizations__ > __AWS\_Accounts__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __AWS__ > __1.Organizations__ > __AWS_Accounts__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,12 +12,12 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The following analysis tasks are selected by default:
 
-- AWS Account Details – Provides details for the AWS IAM accounts in the organization. Creates the AWS\_Account\_Details table accessible under the job’s Results node.
-- AWS Account Summary – Summarizes AWS Accounts by organization. Creates the AWS\_Account\_Summary table accessible under the job’s Results node.
+- AWS Account Details – Provides details for the AWS IAM accounts in the organization. Creates the AWS_Account_Details table accessible under the job’s Results node.
+- AWS Account Summary – Summarizes AWS Accounts by organization. Creates the AWS_Account_Summary table accessible under the job’s Results node.
 
-## Report for the AWS\_Accounts Job
+## Report for the AWS_Accounts Job
 
-In addition to the tables and views created by the analysis task, the AWS\_Accounts job produces the following preconfigured report:
+In addition to the tables and views created by the analysis task, the AWS_Accounts job produces the following preconfigured report:
 
 | Report | Description | Default Tags | Report Element |
 | --- | --- | --- | --- |

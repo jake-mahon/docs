@@ -1,10 +1,10 @@
-# AWS\_S3Buckets Job
+# AWS_S3Buckets Job
 
-The AWS\_S3Buckets job provides a summary of AWS S3 buckets including total object size and counts.
+The AWS_S3Buckets job provides a summary of AWS S3 buckets including total object size and counts.
 
-## Analysis Task for the AWS\_S3Buckets Job
+## Analysis Task for the AWS_S3Buckets Job
 
-Navigate to the __AWS__ > __7.S3 Content__ > __AWS\_S3Buckets__ > __Configure__ node and select __Analysis__ to view the analysis task.
+Navigate to the __AWS__ > __7.S3 Content__ > __AWS_S3Buckets__ > __Configure__ node and select __Analysis__ to view the analysis task.
 
 __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis task is preconfigured for this job.
 
@@ -12,11 +12,11 @@ __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis 
 
 The following analysis task is selected by default:
 
-- S3 Buckets – S3 Bucket details. Creates the AWS\_Bucket\_Details table accessible under the job’s Results node.
+- S3 Buckets – S3 Bucket details. Creates the AWS_Bucket_Details table accessible under the job’s Results node.
 
-## Report for the AWS\_S3Buckets Job
+## Report for the AWS_S3Buckets Job
 
-In addition to the tables and views created by the analysis task, the AWS\_S3Buckets job produces the following preconfigured report:
+In addition to the tables and views created by the analysis task, the AWS_S3Buckets job produces the following preconfigured report:
 
 | Report | Description | Default Tags | Report Element |
 | --- | --- | --- | --- |

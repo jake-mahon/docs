@@ -8,7 +8,7 @@ ___RECOMMENDED:___ Schedule the Sizing job group to run daily at 4 AM.
 
 The jobs in the Sizing job group are:
 
-- [0.Collection > EX\_MBSize Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/mailboxes/sizing/ex_mbsize.md) – Collects information from the environment about the mailbox sizes in the environment
-- [EX\_MailboxSizes Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/mailboxes/sizing/ex_mailboxsizes.md) – Provides analysis and reporting around Mailbox sizing and growth
-- [EX\_StaleMailboxes Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/mailboxes/sizing/ex_stalemailboxes.md) – Provides analysis and reporting around orphaned and Stale Mailboxes
-- [EX\_StoreSizes Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/mailboxes/sizing/ex_storesizes.md) – Provides analysis and reporting around Database Sizing based on Mailbox Sizes
+- [0.Collection > EX_MBSize Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/mailboxes/sizing/ex_mbsize.md) – Collects information from the environment about the mailbox sizes in the environment
+- [EX_MailboxSizes Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/mailboxes/sizing/ex_mailboxsizes.md) – Provides analysis and reporting around Mailbox sizing and growth
+- [EX_StaleMailboxes Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/mailboxes/sizing/ex_stalemailboxes.md) – Provides analysis and reporting around orphaned and Stale Mailboxes
+- [EX_StoreSizes Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/mailboxes/sizing/ex_storesizes.md) – Provides analysis and reporting around Database Sizing based on Mailbox Sizes

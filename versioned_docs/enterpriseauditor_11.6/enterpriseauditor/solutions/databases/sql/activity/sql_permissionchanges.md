@@ -1,10 +1,10 @@
-# SQL\_PermissionChanges Job
+# SQL_PermissionChanges Job
 
-The SQL\_PermissionChanges Job provides detailed information on permission changes for all database objects, specifically objects containing sensitive data.
+The SQL_PermissionChanges Job provides detailed information on permission changes for all database objects, specifically objects containing sensitive data.
 
-## Analysis Tasks for the SQL\_PermissionChanges Job
+## Analysis Tasks for the SQL_PermissionChanges Job
 
-Navigate to the __Databases__ > SQL > 2.Activity > SQL\_PermissionChanges > Configure node and select Analysis to view the analysis tasks.
+Navigate to the __Databases__ > SQL > 2.Activity > SQL_PermissionChanges > Configure node and select Analysis to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis task(s). The analysis task(s) are preconfigured for this job.
 
@@ -12,10 +12,10 @@ __CAUTION:__ Do not modify or deselect the selected analysis task(s). The analys
 
 The default analysis tasks are:
 
-- SQLServer Permission Changes – Creates the SA\_SQLServer\_PermissionChanges\_Details table accessible under the job’s Results node
-- Permission Changes Instance Summary – Creates the SA\_SQLServer\_PermissionChanges\_InstanceSummary table accessible under the job’s Results node. This analysis task summarizes permission change activity per instance.
+- SQLServer Permission Changes – Creates the SA_SQLServer_PermissionChanges_Details table accessible under the job’s Results node
+- Permission Changes Instance Summary – Creates the SA_SQLServer_PermissionChanges_InstanceSummary table accessible under the job’s Results node. This analysis task summarizes permission change activity per instance.
 
-In addition to the tables and views created by the analysis tasks, the SQL\_SensitiveDataActivity Job produces the following pre-configured report.
+In addition to the tables and views created by the analysis tasks, the SQL_SensitiveDataActivity Job produces the following pre-configured report.
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

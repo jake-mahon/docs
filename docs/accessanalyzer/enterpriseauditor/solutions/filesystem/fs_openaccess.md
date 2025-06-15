@@ -1,14 +1,14 @@
-# 1.Open Access > FS\_OpenAccess Job
+# 1.Open Access > FS_OpenAccess Job
 
-The FS\_OpenAccess job is designed to report on Open Access information from targeted file servers. The definition of Open Access is when a security principal, such as Everyone, Authenticated Users, or Domain Users, have permissions on a resource.
+The FS_OpenAccess job is designed to report on Open Access information from targeted file servers. The definition of Open Access is when a security principal, such as Everyone, Authenticated Users, or Domain Users, have permissions on a resource.
 
 ![1.Open Access > FS_OpenAccess Job in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/openaccessjobstree.webp)
 
-The FS\_OpenAccess job is located in the 1.Open Access job group.
+The FS_OpenAccess job is located in the 1.Open Access job group.
 
-## Analysis Tasks for the FS\_OpenAccess Job
+## Analysis Tasks for the FS_OpenAccess Job
 
-View the analysis tasks by navigating to the __FileSystem__ > __1.Open Access__ > __FS\_OpenAccess__ > __Configure__ node and select __Analysis__.
+View the analysis tasks by navigating to the __FileSystem__ > __1.Open Access__ > __FS_OpenAccess__ > __Configure__ node and select __Analysis__.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -16,19 +16,19 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The following analysis tasks are selected by default:
 
-- 1. Find Open Access – Creates the SA\_FS\_OpenAccess\_OpenResources table accessible under the job’s Results node
-- 2. Sum by Host - Summarized Access Sprawl – Creates the SA\_FS\_OpenAccess\_HostsRanked table accessible under the job’s Results node
-- 3. Sum by Share – Creates the SA\_FS\_OpenAccess\_SharesRanked table accessible under the job’s Results node
+- 1. Find Open Access – Creates the SA_FS_OpenAccess_OpenResources table accessible under the job’s Results node
+- 2. Sum by Host - Summarized Access Sprawl – Creates the SA_FS_OpenAccess_HostsRanked table accessible under the job’s Results node
+- 3. Sum by Share – Creates the SA_FS_OpenAccess_SharesRanked table accessible under the job’s Results node
 - 4. Content Type in Share - Categorizes shared content:
 
   - Creates an interim processing view in the database for use by downstream analysis and report generation
-  - Creates the SA\_FS\_OpenAccess\_ShareContent view accessible under the job’s Results node
-- 5. Content by Host – Updates the SA\_FS\_OpenAccess\_HostsRanked table accessible under the job’s Results node
+  - Creates the SA_FS_OpenAccess_ShareContent view accessible under the job’s Results node
+- 5. Content by Host – Updates the SA_FS_OpenAccess_HostsRanked table accessible under the job’s Results node
 - 6. Remediation Tracking - Track Status of Shares Throughout Time – Creates an interim processing view in the database for use by downstream analysis and report generation
 - 7. Track Remediation by Months - Track Status of Shares Throughout Time – Creates an interim processing view in the database for use by downstream analysis and report generation
-- 8. Assign Risk Ratings to Hosts and Shares – Updates the SA\_FS\_OpenAccess\_HostsRanked and the SA\_FS\_OpenAccess\_SharesRanked tables accessible under the job’s Results node
+- 8. Assign Risk Ratings to Hosts and Shares – Updates the SA_FS_OpenAccess_HostsRanked and the SA_FS_OpenAccess_SharesRanked tables accessible under the job’s Results node
 
-In addition to the tables and views created by the analysis tasks, the FS\_OpenAccess job produces the following pre-configured reports:
+In addition to the tables and views created by the analysis tasks, the FS_OpenAccess job produces the following pre-configured reports:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

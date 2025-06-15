@@ -1,26 +1,26 @@
-# SG\_AccountPrivileges Job
+# SG_AccountPrivileges Job
 
-The SG\_AccountPrivileges job identifies accounts privileges on hosts in the targeted environment.
+The SG_AccountPrivileges job identifies accounts privileges on hosts in the targeted environment.
 
 Targeted Hosts
 
 All Windows Hosts
 
-## Queries for the SG\_AccountPrivileges Job
+## Queries for the SG_AccountPrivileges Job
 
-The SG\_AccountPrivileges job uses the PowerShell Data Collector for the following query:
+The SG_AccountPrivileges job uses the PowerShell Data Collector for the following query:
 
 __CAUTION:__ The query is preconfigured for this job. Never modify the query.
 
 ![Queries for the SG_AccountPrivileges Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/windows/privilegedaccounts/logonrights/accountprivilegesquery.png)
 
-The query for the SG\_AccountPrivileges job is:
+The query for the SG_AccountPrivileges job is:
 
 - Account Privilege Check – Determines account privileges on local hosts
 
-## Analysis Tasks for the SG\_AccountPrivileges Job
+## Analysis Tasks for the SG_AccountPrivileges Job
 
-Navigate to the __Windows__ > __Privileged Accounts__ > __Logon Rights__ > __SG\_AccountPrivileges__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Windows__ > __Privileged Accounts__ > __Logon Rights__ > __SG_AccountPrivileges__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis task is preconfigured for this job.
 
@@ -28,9 +28,9 @@ __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis 
 
 The default analysis task is:
 
-- List all assigned privileges – Creates the SA\_SG\_AccountPrivileges\_Details table accessible under the job’s Results node
+- List all assigned privileges – Creates the SA_SG_AccountPrivileges_Details table accessible under the job’s Results node
 
-In addition to the tables created by the analysis tasks, the SG\_AccountPrivileges job produces the following pre-configured report.
+In addition to the tables created by the analysis tasks, the SG_AccountPrivileges job produces the following pre-configured report.
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

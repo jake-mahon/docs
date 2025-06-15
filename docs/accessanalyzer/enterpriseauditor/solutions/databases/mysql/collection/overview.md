@@ -6,9 +6,9 @@ The MySQL Solution Collection group is designed to collect high level summary in
 
 The jobs in the 0.Collection Job Group are:
 
-- [MySQL\_Configuration Job](/docs/accessanalyzer/enterpriseauditor/solutions/databases/mysql/collection/mysql_configuration.md) – Designed to collect MySQL server instance and database configuration settings for use in the following analysis jobs and respective reports
-- [MySQL\_SensitiveDataScan Job](/docs/accessanalyzer/enterpriseauditor/solutions/databases/mysql/collection/mysql_sensitivedatascan.md) – Designed to discover sensitive data in MySQL databases based on pre-defined or user-defined search criteria
-- [MySQL\_TablePrivileges Job](/docs/accessanalyzer/enterpriseauditor/solutions/databases/mysql/collection/mysql_tableprivileges.md) – Designed to collect MySQL table privileges from all the targeted servers.
+- [MySQL_Configuration Job](/docs/accessanalyzer/enterpriseauditor/solutions/databases/mysql/collection/mysql_configuration.md) – Designed to collect MySQL server instance and database configuration settings for use in the following analysis jobs and respective reports
+- [MySQL_SensitiveDataScan Job](/docs/accessanalyzer/enterpriseauditor/solutions/databases/mysql/collection/mysql_sensitivedatascan.md) – Designed to discover sensitive data in MySQL databases based on pre-defined or user-defined search criteria
+- [MySQL_TablePrivileges Job](/docs/accessanalyzer/enterpriseauditor/solutions/databases/mysql/collection/mysql_tableprivileges.md) – Designed to collect MySQL table privileges from all the targeted servers.
 
 Workflow
 

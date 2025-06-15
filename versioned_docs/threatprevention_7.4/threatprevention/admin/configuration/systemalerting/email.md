@@ -91,43 +91,43 @@ __Step 7 –__ In the Subject box, keep the default subject line for the email o
 __Step 8 –__ The Body box contains the default message, which includes all event data types available for notification. To customize it for the specific alerts, simply remove the Event Data Fields not desired. Customization can also include reformatting the message as desired. The default message is:
 
 - Plain Text – An event has occurred in which you are on the notification list.
-- HTML – The following Event has occurred at %TIME\_STAMP% for which you requested notification
+- HTML – The following Event has occurred at %TIME_STAMP% for which you requested notification
 
 The available Event Data Fields and their associated tokens are:
 
 | Event Data Field | Token |
 | --- | --- |
-| Time Stamp | %TIME\_STAMP% |
-| Event Source Type | %EVENT\_SOURCE\_TYPE% |
-| Domain Name | %EVENT\_SOURCE\_NAME% |
-| Policy Name | %SETTING\_NAME% |
-| Event Name | %EVENT\_NAME% |
+| Time Stamp | %TIME_STAMP% |
+| Event Source Type | %EVENT_SOURCE_TYPE% |
+| Domain Name | %EVENT_SOURCE_NAME% |
+| Policy Name | %SETTING_NAME% |
+| Event Name | %EVENT_NAME% |
 | Event Name Translated | %EVENTNAMETRANSLATED% |
-| Originating Server | % ORIGINATING\_SERVER% |
-| Originating Server IP | %ORIGINATING\_SERVERIP% |
+| Originating Server | % ORIGINATING_SERVER% |
+| Originating Server IP | %ORIGINATING_SERVERIP% |
 | Target Host | %TARGETHOST% |
 | Target Host IP | %TARGETHOSTIP% |
-| Class Name | %CLASS\_NAME% |
+| Class Name | %CLASS_NAME% |
 | DN | %DN% |
-| Affected Object SID | %AFFECTED\_OBJECT\_SID% |
-| Affected Object Account Name | %AFFECTED\_OBJECT\_ACCOUNT\_NAME% |
+| Affected Object SID | %AFFECTED_OBJECT_SID% |
+| Affected Object Account Name | %AFFECTED_OBJECT_ACCOUNT_NAME% |
 | Operation Successful | %SUCCESS% |
 | Operation Status | %STATUS% |
-| Blocked Event | %BLOCKED\_EVENT% |
+| Blocked Event | %BLOCKED_EVENT% |
 | Perpetrator | %PERPETRATOR% |
-| Perpetrator Name | %PERPETRATOR\_NAME% |
-| Perpetrator Sid | %PERPETRATOR\_SID% |
-| Originating Client | %ORIGINATING\_CLIENT% |
+| Perpetrator Name | %PERPETRATOR_NAME% |
+| Perpetrator Sid | %PERPETRATOR_SID% |
+| Originating Client | %ORIGINATING_CLIENT% |
 | Originating Client Host | %ORIGINATINGCLIENTHOST% |
 | Originating Client IP | %ORIGINATINGCLIENTIP% |
 | Originating Client Protocol | %ORIGINATINGCLIENTPROTOCOL% |
 | Originating Client MAC | %ORIGINATINGCLIENTMAC% |
-| Events Count | %EVENTS\_COUNT% |
-| Attribute Values | %ATTRIBUTE\_VALUE% |
-| Old Attribute Values | %OLD\_ATTRIBUTE\_VALUE% |
+| Events Count | %EVENTS_COUNT% |
+| Attribute Values | %ATTRIBUTE_VALUE% |
+| Old Attribute Values | %OLD_ATTRIBUTE_VALUE% |
 | Attribute Operations | %OPERATION% |
 
-__CAUTION:__ The tokens used within the message Body, the information between and including the % symbols (e.g. %TIME\_STAMP%), must be present to retrieve that event data from the database. Tokens can be removed, but partial tokens do not retrieve data from the database.
+__CAUTION:__ The tokens used within the message Body, the information between and including the % symbols (e.g. %TIME_STAMP%), must be present to retrieve that event data from the database. Tokens can be removed, but partial tokens do not retrieve data from the database.
 
 __Step 9 –__ Click __OK__ to save the settings.
 

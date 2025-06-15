@@ -1,14 +1,14 @@
-# Least Privileged Access > FS\_LeastPrivilegedAccess Job
+# Least Privileged Access > FS_LeastPrivilegedAccess Job
 
-The FS\_LeastPrivilegedAccess job is designed to report on activity event information that can assist in identifying least privilege from targeted file servers. It identifies where trustees are not leveraging their permissions to resources from targeted file servers. Requires __Access Auditing__ component data collection.
+The FS_LeastPrivilegedAccess job is designed to report on activity event information that can assist in identifying least privilege from targeted file servers. It identifies where trustees are not leveraging their permissions to resources from targeted file servers. Requires __Access Auditing__ component data collection.
 
 ![Least Privileged Access > FS_LeastPrivilegedAccess Job in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/activity/leastprivilegedaccessjobstree.png)
 
-The FS\_LeastPrivilegedAccess job is located in the Least Privileged Access job group.
+The FS_LeastPrivilegedAccess job is located in the Least Privileged Access job group.
 
-## Analysis Tasks for the FS\_LeastPrivilegedAccess Job
+## Analysis Tasks for the FS_LeastPrivilegedAccess Job
 
-View the analysis tasks by navigating to the __FileSystem__ > __5.Activity__ > __Least Privileged Access__ > __FS\_LeastPrivilegedAccess__ > __Configure__ node and select __Analysis__.
+View the analysis tasks by navigating to the __FileSystem__ > __5.Activity__ > __Least Privileged Access__ > __FS_LeastPrivilegedAccess__ > __Configure__ node and select __Analysis__.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -16,16 +16,16 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The following analysis tasks are selected by default:
 
-- 1. Join Activity Data to Share – Creates the SA\_FS\_LeastPrivilegedAccess\_ActivityByShare table accessible under the job’s Results node
-- 2. Get Effective Share Access for all Shares with Activity – Creates the SA\_FS\_LeastPrivilegedAccess\_EffectiveShareAccess table accessible under the job’s Results node
-- 3. Compare Users activity to access – Creates the SA\_FS\_LeastPrivilegedAccess\_Comparision table accessible under the job’s Results node
+- 1. Join Activity Data to Share – Creates the SA_FS_LeastPrivilegedAccess_ActivityByShare table accessible under the job’s Results node
+- 2. Get Effective Share Access for all Shares with Activity – Creates the SA_FS_LeastPrivilegedAccess_EffectiveShareAccess table accessible under the job’s Results node
+- 3. Compare Users activity to access – Creates the SA_FS_LeastPrivilegedAccess_Comparision table accessible under the job’s Results node
 - 4. Summarize Comparison by Share – Creates an interim processing table in the database for use by downstream analysis and report generation
 - 5. Rollup by Share - Pie Chart – Creates an interim processing table in the database for use by downstream analysis and report generation
 - 6. Summarize Entitlement Usage - Enterprise Wide – Creates interim processing tables in the database for use by downstream analysis and report generation
-- 7. Recommend Changes to Group ACLs – Creates the SA\_FS\_LeastPrivilegedAccess\_RecommendedChanges table accessible under the job’s Results node
-- 8. Resource Based Groups – Creates the SA\_FS\_LeastPrivilegedAccess\_ResourceGroups table accessible under the job’s Results node
+- 7. Recommend Changes to Group ACLs – Creates the SA_FS_LeastPrivilegedAccess_RecommendedChanges table accessible under the job’s Results node
+- 8. Resource Based Groups – Creates the SA_FS_LeastPrivilegedAccess_ResourceGroups table accessible under the job’s Results node
 
-In addition to the tables and views created by the analysis tasks, the FS\_LeastPrivilegedAccess job produces the following pre-configured reports:
+In addition to the tables and views created by the analysis tasks, the FS_LeastPrivilegedAccess job produces the following pre-configured reports:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

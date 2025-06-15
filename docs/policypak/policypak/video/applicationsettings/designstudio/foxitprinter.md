@@ -10,7 +10,7 @@ Here's the general idea. First, you're going to go load – for me, what I did w
 
 The items that we want to capture are one, two, three, four, five. Some of the other ones probably aren't available to capture and train, but most of the items here you can at least gray out and lockdown. We're going to configure one, two, three, four, five items, and then we'll demonstrate how the thing will be locked down.
 
-I'm going to use the "PolicyPak Design Studio" and "Start a new project (using Capture Wizard)" here. I'm going to pick "FoxIT Reader" print dialogue. I'll call this "FoxIT Reader 6 Print." Now I happen to know that this thing lives in the "Registry." I can actually show you where. It didn't take me very long to find it. Let me go ahead and show you where it lives: "HKEY\_CURRENT\_USER/Software/FoxIT Software/FoxIT Reader 6.0/printer."
+I'm going to use the "PolicyPak Design Studio" and "Start a new project (using Capture Wizard)" here. I'm going to pick "FoxIT Reader" print dialogue. I'll call this "FoxIT Reader 6 Print." Now I happen to know that this thing lives in the "Registry." I can actually show you where. It didn't take me very long to find it. Let me go ahead and show you where it lives: "HKEY_CURRENT_USER/Software/FoxIT Software/FoxIT Reader 6.0/printer."
 
 Here are the items that are configurable right there. I'm going to pick "Registry" here, then I want to go find that same location – "FoxIT Reader 6.0/printer" – and click "Finish." There we go. The first thing it's doing is asking us to save the file. I'm going to go ahead and save it to the "Desktop" here. Actually, I'll save it to "C:FOXIT 6." I'll call this "foxit6-print."
 

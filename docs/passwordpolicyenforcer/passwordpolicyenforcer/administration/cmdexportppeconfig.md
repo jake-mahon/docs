@@ -14,10 +14,10 @@ Name of the file to create.
 
 `<_CommonParameters_>`
 
-This cmdlet supports the common parameters: __Verbose__, __Debug__, __ErrorAction__, __ErrorVariable__, __WarningAction__, __WarningVariable__, __OutBuffer__, __PipelineVariable__, and __OutVariable__. For more information, see about\_CommonParameters [https:/go.microsoft.com/fwlink/?LinkID=113216](https:/go.microsoft.com/fwlink?linkid=113216).
+This cmdlet supports the common parameters: __Verbose__, __Debug__, __ErrorAction__, __ErrorVariable__, __WarningAction__, __WarningVariable__, __OutBuffer__, __PipelineVariable__, and __OutVariable__. For more information, see about_CommonParameters [https:/go.microsoft.com/fwlink/?LinkID=113216](https:/go.microsoft.com/fwlink?linkid=113216).
 
 EXAMPLE
 
-PS C:\> Export-PPEConfig -file c:\ppe\ppe\_config
+PS C:\> Export-PPEConfig -file c:\ppe\ppe_config
 
-Configuration export has been successfully completed. The file "c:\ppe\ppe\_config" has been created.
+Configuration export has been successfully completed. The file "c:\ppe\ppe_config" has been created.

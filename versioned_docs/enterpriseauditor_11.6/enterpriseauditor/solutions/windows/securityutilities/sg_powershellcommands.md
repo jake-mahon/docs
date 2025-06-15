@@ -1,16 +1,16 @@
-# SG\_PowerShellCommands Job
+# SG_PowerShellCommands Job
 
-The SG\_PowerShellCommands job lists suspicious PowerShell commands on all targeted hosts. The list of commands considered can be customized by configuring the Check PowerShell Log query.
+The SG_PowerShellCommands job lists suspicious PowerShell commands on all targeted hosts. The list of commands considered can be customized by configuring the Check PowerShell Log query.
 
-## Queries for the SG\_PowerShellCommands Job
+## Queries for the SG_PowerShellCommands Job
 
-The SG\_PowerShellCommands job uses the SmartLog Data Collector for the following queries:
+The SG_PowerShellCommands job uses the SmartLog Data Collector for the following queries:
 
 __CAUTION:__ The Check PowerShell Operations log query is preconfigured for this job. Never modify the query.
 
 ![Queries for the SG_PowerShellCommands Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/windows/securityutilities/powershellcommandsqueries.png)
 
-The queries for the SG\_PowerShellCommands job are:
+The queries for the SG_PowerShellCommands job are:
 
 - Check PowerShell log – Checks the PowerShell log
 
@@ -21,7 +21,7 @@ The queries for the SG\_PowerShellCommands job are:
 
 The Check PowerShell log query has been preconfigured to run with the default settings. However, the new criteria can optionally be added on the Criteria page in the Smart Log Data Collector Wizard.
 
-__Step 1 –__ Navigate to the __Jobs__ > __Windows__ > __Security Utilities__ > __SG\_PowerShellCommands__ > __Configure__ node and select __Queries__. Select the __Check PowerShell log__ query.
+__Step 1 –__ Navigate to the __Jobs__ > __Windows__ > __Security Utilities__ > __SG_PowerShellCommands__ > __Configure__ node and select __Queries__. Select the __Check PowerShell log__ query.
 
 __Step 2 –__ In the Query Selection view, click __Query Properties__. The Query Properties window opens.
 
@@ -39,9 +39,9 @@ __Step 7 –__ Click __Next__ to navigate to the Summary page and click __Finish
 
 The Check PowerShell log query has now been saved with the new conditions.
 
-## Analysis Tasks for the SG\_PowerShellCommands Job
+## Analysis Tasks for the SG_PowerShellCommands Job
 
-View the analysis tasks by navigating to the __Windows__ > __Security Utilities__ > __SG\_PowerShellCommands__ > __Configure__ node and selecting __Analysis__.
+View the analysis tasks by navigating to the __Windows__ > __Security Utilities__ > __SG_PowerShellCommands__ > __Configure__ node and selecting __Analysis__.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -50,13 +50,13 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 The default analysis tasks are:
 
 - List PowerShell command details – Creates an interim processing table in the database for use by downstream analysis and report generation
-- Summarize PowerShell commands – Creates the SA\_PowerShellCommands\_HostSummary table accessible under the job’s Results node
+- Summarize PowerShell commands – Creates the SA_PowerShellCommands_HostSummary table accessible under the job’s Results node
 
 The optional analysis tasks is:
 
 - Notify on suspicious commands – Enable this analysis task and the select Analysis Configuration to open the Notification Data Analysis Module Wizard to configure it to send notifications on suspicious commands. See the [Configure the Notify on Suspicious Commands Analysis Task](#configure-the-notify-on-suspicious-commands-analysis-task) topic for additional information.
 
-In addition to the tables and views created by the analysis tasks, the EX\_DeliveryTimes job produces the following pre-configured report.
+In addition to the tables and views created by the analysis tasks, the EX_DeliveryTimes job produces the following pre-configured report.
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |
@@ -66,7 +66,7 @@ In addition to the tables and views created by the analysis tasks, the EX\_Deliv
 
 Follow these steps to configure the notification analysis task.
 
-__Step 1 –__ Navigate to the __Jobs__ > __Windows__ > __Security Utilities__ > __SG\_PowerShellCommands__ > __Configure__ node and select __Analysis__.
+__Step 1 –__ Navigate to the __Jobs__ > __Windows__ > __Security Utilities__ > __SG_PowerShellCommands__ > __Configure__ node and select __Analysis__.
 
 __Step 2 –__ In the Analysis Selection view, select the __Notify on suspicious commands__ analysis task and click __Analysis Configuration__. The Notification Data Analysis Module opens.
 
@@ -88,6 +88,6 @@ __Step 5 –__ In the Message section, edit the __Subject__. It is not recommend
 
 __Step 6 –__ To save these configuration changes, use the __Next__ to navigate to the Summary page. Do not make changes to any other pages. Click __Finish__. The Notification Data Analysis Module window closes.
 
-__Step 7 –__ This notification analysis task is now configured to send emails. In the Analysis Selection view, select this task so that notifications can be sent automatically during the execution of the SG\_PowerShellCommands job.
+__Step 7 –__ This notification analysis task is now configured to send emails. In the Analysis Selection view, select this task so that notifications can be sent automatically during the execution of the SG_PowerShellCommands job.
 
 The Notify on suspicious commands analysis task is now configured to send notifications.

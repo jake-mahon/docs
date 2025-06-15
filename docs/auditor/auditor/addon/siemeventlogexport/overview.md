@@ -10,7 +10,7 @@ On a high level, the add-on works as follows:
 
 1. The add-on connects to the Auditor Server and retrieves audit data using the Integration API.
 2. The add-on processes Netwrix Auditor-compatible data (Activity Records) into log events that work as input for SIEM. Each event contains the user account, action, time, and other details.
-3. The add-on creates a special Windows event log (Netwrix\_Auditor\_Integration) and stores events there. These events are structured and ready for integration with SIEM.
+3. The add-on creates a special Windows event log (Netwrix_Auditor_Integration) and stores events there. These events are structured and ready for integration with SIEM.
 
 For more information on the structure of the Activity Record and the capabilities of the Integration API, refer to the [Integration API](/docs/auditor/auditor/api/overview.md) topic.
 

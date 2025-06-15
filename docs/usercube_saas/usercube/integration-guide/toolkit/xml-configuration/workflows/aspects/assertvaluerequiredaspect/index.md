@@ -21,7 +21,7 @@ The following example makes sure that the contract start date is specified for a
 | Identifier   required | __Type__    String   __Description__   Unique identifier of the aspect. |
 | ExpressionBinding   optional | __Type__    String   __Description__   Binding:   - that defines the variable type used in the potential expressions specified in the aspect;   - whose difference with ```Binding``` defines the property involved in the aspect.   __Note:__ required when handling the property of multi-valued objects, for example records, to make sure to modify the property in all records and not only in one. |
 | IfExpression   optional | __Type__    String   __Description__   Expression that conditions the aspect execution. See the [Expressions](/docs/usercube_saas/usercube/integration-guide/toolkit/expressions/index.md) topic for additional information. |
-| Message\_L1   optional | __Type__    String   __Description__   Message in language 1 (up to 16) to be displayed when the property is empty. |
+| Message_L1   optional | __Type__    String   __Description__   Message in language 1 (up to 16) to be displayed when the property is empty. |
 | Priority   default value: 0 | __Type__    Int32   __Description__   Execution priority among all aspects. At a given activity state, the aspect with the highest priority will be triggered first.   __Note:__ the priority can be a negative value. |
 
 ## Child Element: PointCut

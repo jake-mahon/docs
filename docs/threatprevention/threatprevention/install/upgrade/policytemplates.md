@@ -12,7 +12,7 @@ __Step 2 –__ In the Select Import File field, use the ellipsis (…) to browse
 
 …\Netwrix\Netwrix Threat Prevention\SIWinConsole
 
-__Step 3 –__ To import all new templates, select the __SI\_Template\_All__ XML file. Click __Open__.
+__Step 3 –__ To import all new templates, select the __SI_Template_All__ XML file. Click __Open__.
 
 __Step 4 –__ The Import window displays information for the template(s). Click __Import__.
 

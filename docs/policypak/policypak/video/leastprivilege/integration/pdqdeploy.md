@@ -44,7 +44,7 @@ It looks like two versions. It's really two ways to get into TreeSizeFree. One i
 
 That's the thing. There's nothing wrong with running TreeSizeFree. What we're going to do is make sure that the entirety of the application, or any application that throws a UAC prompt in your face, is elevated and just those applications. So you're not running with the scissors full-time. You're giving the person who needs the scissors the process elevation with least privilege.
 
-We'll go ahead and go over to our management station over here. Then we'll go ahead and create a new Group Policy Object for our "WEB\_Engineers." We'll go ahead and call this "PP Least Priv demo." "OK." We'll right click and click "Edit" here.
+We'll go ahead and go over to our management station over here. Then we'll go ahead and create a new Group Policy Object for our "WEB_Engineers." We'll go ahead and call this "PP Least Priv demo." "OK." We'll right click and click "Edit" here.
 
 You can do this for a gaggle of computers or a gaggle of users. I just happen to be doing this for my gaggle of users here. I like to think about the user. So we go to user side, "PolicyPak." This is under "Least Privilege Manager" here. I'll conquer all three problems in one fell swoop.
 

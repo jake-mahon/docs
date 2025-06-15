@@ -1,10 +1,10 @@
-# EX\_MailboxSizes Job
+# EX_MailboxSizes Job
 
-The EX\_MailboxSizes job provides analysis and reporting around mailbox sizing and growth.
+The EX_MailboxSizes job provides analysis and reporting around mailbox sizing and growth.
 
-#### Analysis Tasks for the EX\_Mailbox Sizes Job
+#### Analysis Tasks for the EX_Mailbox Sizes Job
 
-View the analysis tasks by navigating to the __Exchange__ > __4. Mailboxes__ > __Sizing__ > __EX\_MailboxSizes__ > __Configure__ node and select __Analysis__.
+View the analysis tasks by navigating to the __Exchange__ > __4. Mailboxes__ > __Sizing__ > __EX_MailboxSizes__ > __Configure__ node and select __Analysis__.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -18,10 +18,10 @@ The following analysis tasks are selected by default:
 
   - The default is 6 months. It can be modified.
   - See the [Exchange History Retention](/docs/accessanalyzer/enterpriseauditor/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#exchange-history-retention) topic for additional information
-- 04.Store History – Creates the SA\_EX\_MailboxSizes\_StoreHistory table, accessible under the job’s Results node
-- 05.Current Sizes – Creates the SA\_EX\_MailboxSizes\_CurrentSnapshot table, accessible under the job’s Results node
-- 06.Dumpster Sizes – Creates the SA\_EX\_MailboxSizes\_DumpstersByStore table, accessible under the job’s Results node
-- 07.Current Store Size – Creates the SA\_EX\_MailboxSizes\_CurrentStoreSize table, accessible under the job’s Results node
+- 04.Store History – Creates the SA_EX_MailboxSizes_StoreHistory table, accessible under the job’s Results node
+- 05.Current Sizes – Creates the SA_EX_MailboxSizes_CurrentSnapshot table, accessible under the job’s Results node
+- 06.Dumpster Sizes – Creates the SA_EX_MailboxSizes_DumpstersByStore table, accessible under the job’s Results node
+- 07.Current Store Size – Creates the SA_EX_MailboxSizes_CurrentStoreSize table, accessible under the job’s Results node
 
 The following analysis task deletes table data from data collection and analysis jobs. This analysis task should remain cleared unless specifically needed:
 
@@ -31,7 +31,7 @@ __CAUTION:__ Do not select the __00.Delete All Data__ option. This analysis task
 
   - See the [Troubleshooting Data Collection](/docs/accessanalyzer/enterpriseauditor/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#troubleshooting-data-collection) topic for additional information
 
-In addition to the tables and views created by the analysis tasks, the EX\_MailboxAccess Job produces the following pre-configured reports:
+In addition to the tables and views created by the analysis tasks, the EX_MailboxAccess Job produces the following pre-configured reports:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

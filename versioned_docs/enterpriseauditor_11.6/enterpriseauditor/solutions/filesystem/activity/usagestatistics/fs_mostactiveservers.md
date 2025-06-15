@@ -1,10 +1,10 @@
-# FS\_MostActiveServers Job
+# FS_MostActiveServers Job
 
-The FS\_MostActiveServers job is designed to report on the most active servers within an environment.
+The FS_MostActiveServers job is designed to report on the most active servers within an environment.
 
-## Analysis Task for the FS\_MostActiveServers Job
+## Analysis Task for the FS_MostActiveServers Job
 
-View the analysis tasks by navigating to the __FileSystem__ > __5.Activity__ > __Usage Statistics__ > __FS\_MostActiveServers__ > __Configure__ node and select __Analysis__.
+View the analysis tasks by navigating to the __FileSystem__ > __5.Activity__ > __Usage Statistics__ > __FS_MostActiveServers__ > __Configure__ node and select __Analysis__.
 
 __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis task is preconfigured for this job.
 
@@ -12,9 +12,9 @@ __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis 
 
 The following analysis task is selected by default:
 
-- Last 30 Days – Creates the SA\_FS\_MostActiveServers\_Last30Days table accessible under the job’s Results node
+- Last 30 Days – Creates the SA_FS_MostActiveServers_Last30Days table accessible under the job’s Results node
 
-In addition to the table and views created by the analysis task, the FS\_MostActiveServers job produces the following pre-configured report:
+In addition to the table and views created by the analysis task, the FS_MostActiveServers job produces the following pre-configured report:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

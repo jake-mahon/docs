@@ -8,7 +8,7 @@ This is a good USB stick, one that I am sanctioning and allowing. For instance, 
 
 First things first is that you may want to get that USB stick in hand, and then you can see in Device Manager if you were to go to Properties here, what you'll do is you'll go to details and go to the device instance path. Device instance path has the vendor and the particular model and also the serial number embedded into it. What we'll do is we'll copy this. Let's go over to our MMC management station. This is my Azure and my Intune, which I'll get to in just a moment.
 
-Here is where I'm going to take that string and paste it in. Here's where I need the vendor ID, that's after the VEN\_. I need that guy. Then I need the product ID, which is after PROD\_. I'll go ahead and take that right there. There's the revision also. I'm not going to worry about that. I'm going to say any revision because I know that this particular USB stick is always encrypted.
+Here is where I'm going to take that string and paste it in. Here's where I need the vendor ID, that's after the VEN_. I need that guy. Then I need the product ID, which is after PROD_. I'll go ahead and take that right there. There's the revision also. I'm not going to worry about that. I'm going to say any revision because I know that this particular USB stick is always encrypted.
 
 What I'll do is then I'll go into my management station here. Using a group policy object just for the sake of editing purposes, let me go ahead and create a new global settings policy here. I like raising the number of impressions for bad USB sticks, so I'm going to raise that up pretty high. Then I'm going to leave the rest the same, show notifications for new devices and policy changes and so on.
 
@@ -16,7 +16,7 @@ If you want to change the default messages with customized messages, you can do 
 
 Then I'm going to set a policy to open it up to something specific. I want to allow users to use specific devices. What am I going to do? I'm going to take that vendor ID that I got earlier; that's JETFLASH. I'll go ahead and copy and paste that in.
 
-The product ID that we got earlier, that's TRANSCEND\_32GB, this always encrypted drive by way of example. Then I'm going to keep the product revision just like this. If you wanted to also use serial numbers, that's fine. You would paste that entire string in. I'm not going to demo that here.
+The product ID that we got earlier, that's TRANSCEND_32GB, this always encrypted drive by way of example. Then I'm going to keep the product revision just like this. If you wanted to also use serial numbers, that's fine. You would paste that entire string in. I'm not going to demo that here.
 
 Then here is where you need to add a member by SID. How do you get the SID of a guy in Azure Active Directory? Well, we have an article on that. For instance, here is the article, which is called _How Do I Get Azure SIDs and Use Them with Item Level Targeting?_ This only works for individual users. This will not work at a group level.
 

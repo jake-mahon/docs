@@ -1,10 +1,10 @@
-# SQL\_LinkedServers Job
+# SQL_LinkedServers Job
 
-The SQL\_LinkedServers Job identifies Linked Servers or remote database servers on which the identified SQL and Azure SQL servers can execute commands. Some of the common remote OLE DB providers include IBM DB2, Oracle, Access and Excel. Typically, linked servers are used to handle distributed queries in SQL and Azure SQL server .
+The SQL_LinkedServers Job identifies Linked Servers or remote database servers on which the identified SQL and Azure SQL servers can execute commands. Some of the common remote OLE DB providers include IBM DB2, Oracle, Access and Excel. Typically, linked servers are used to handle distributed queries in SQL and Azure SQL server .
 
-## Analysis Tasks for the SQL\_LinkedServers Job
+## Analysis Tasks for the SQL_LinkedServers Job
 
-Navigate to the __Databases__ > Jobs > SQL > 4.Configuration > SQL\_LinkedServers Job >Configure node and select Analysis to view the analysis tasks.
+Navigate to the __Databases__ > Jobs > SQL > 4.Configuration > SQL_LinkedServers Job >Configure node and select Analysis to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are pre-configured for this job.
 
@@ -15,7 +15,7 @@ The default analysis tasks are:
 - Linked Server Details – Provides details on SQL Linked Servers
 - Linked Server Summary – Summarizes Linked Servers by instance
 
-In addition to the tables created by the analysis tasks, the __SQL\_DatabaseSizing Job__ produces the following preconfigured report:
+In addition to the tables created by the analysis tasks, the __SQL_DatabaseSizing Job__ produces the following preconfigured report:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

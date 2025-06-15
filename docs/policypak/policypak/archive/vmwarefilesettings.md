@@ -26,4 +26,4 @@ What you need to do is you just need to right click on it and “Perform ACL Loc
 
 Once it’s set, I will click “OK.” I will quickly go into my target machine and run “GP Update” to refresh the policy. Once it’s done, I will open “VMware Workstation” again. Let’s open that, and you will see that now your users cannot change that. If I go into the “Processors” tab, these options are also disabled. If I go into the “Options” tab and look under the “Shared Folders,” that option is also disabled.
 
-If you have any questions, please open a support ticket https://www.netwrix.com/sign\_in.html?rf=tickets.html#/open-a-ticket
+If you have any questions, please open a support ticket https://www.netwrix.com/sign_in.html?rf=tickets.html#/open-a-ticket

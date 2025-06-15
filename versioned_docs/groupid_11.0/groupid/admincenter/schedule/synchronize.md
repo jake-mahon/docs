@@ -15,7 +15,7 @@ What do you want to do?
 4. On the __Schedules__ page, click __Add Schedule__ and select __Synchronize Job__. The __Create Schedule__ page
    is displayed.
 5. In the __Schedule Name__ box, enter a name for the schedule.
-6. The __Name Preview__ displays the schedule name prefixed with _SynchronizeJobPortal\__; the schedule is displayed with this name in email notifications.
+6. The __Name Preview__ displays the schedule name prefixed with _SynchronizeJobPortal__; the schedule is displayed with this name in email notifications.
 7. In the __Scheduler Service Name__ drop-down list, select a Scheduler service that would be responsible for triggering this schedule. The number of services displayed in the list depend on the number of Elasticsearch clusters in the environment, as each cluster has its own Scheduler service. See the [Scheduler Service](/versioned_docs/groupid_11.0/groupid/admincenter/service/schedulerservice.md) topic.
 8. Add a Synchronize job or a job collection or both to this schedule.
 

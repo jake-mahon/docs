@@ -1,10 +1,10 @@
-# SP\_EmptyDomainGroupPerms Job
+# SP_EmptyDomainGroupPerms Job
 
-The SP\_EmptyDomainGroupPerms Job identifies empty security groups with directly assigned permissions to resources, these groups should be deleted from SharePoint farms, where found. Inadvertent changes to group membership may open up unwanted access.
+The SP_EmptyDomainGroupPerms Job identifies empty security groups with directly assigned permissions to resources, these groups should be deleted from SharePoint farms, where found. Inadvertent changes to group membership may open up unwanted access.
 
-## Analysis Tasks for the SP\_EmptyDomainGroupPerms Job
+## Analysis Tasks for the SP_EmptyDomainGroupPerms Job
 
-Navigate to the __Jobs__ > __SharePoint__ > __1.Direct Permissions__ > __SP\_EmptyDomainGroupPerms__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __Jobs__ > __SharePoint__ > __1.Direct Permissions__ > __SP_EmptyDomainGroupPerms__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,10 +12,10 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The default analysis tasks are:
 
-- 1. Find Empty Group Permission – Creates the SA\_SP\_EmptyDomainGroupPerms\_DirectPermissions table accessible under the job’s Results node
-- 2. Find Affected Resource Count per Group – Creates the SA\_SP\_EmptyDomainGroupPerms\_ResourceCount table accessible under the job’s Results node
+- 1. Find Empty Group Permission – Creates the SA_SP_EmptyDomainGroupPerms_DirectPermissions table accessible under the job’s Results node
+- 2. Find Affected Resource Count per Group – Creates the SA_SP_EmptyDomainGroupPerms_ResourceCount table accessible under the job’s Results node
 
-In addition to the tables created by the analysis tasks which display direct permissions and resource counts for empty groups, the SP\_EmptyDomainGroupPerms Job produces the following pre-configured report:
+In addition to the tables created by the analysis tasks which display direct permissions and resource counts for empty groups, the SP_EmptyDomainGroupPerms Job produces the following pre-configured report:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

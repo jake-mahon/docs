@@ -42,7 +42,7 @@ __Step 3 –__ Right-click the __Software installation__ item, and then select _
 
 __Step 4 –__ Enter the full __UNC path__ to your __msi__ files.
 
-__NOTE:__ You must enter a UNC path so that other computers can access this file over the network. For example: \\file server\distribution point share\Netwrix\_PPE\__version_.msi
+__NOTE:__ You must enter a UNC path so that other computers can access this file over the network. For example: \\file server\distribution point share\Netwrix_PPE__version_.msi
 
 __Step 5 –__ Click __Open__.
 

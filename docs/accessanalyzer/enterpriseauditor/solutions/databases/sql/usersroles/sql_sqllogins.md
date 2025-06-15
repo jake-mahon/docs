@@ -1,10 +1,10 @@
-# SQL\_SQLLogins Job
+# SQL_SQLLogins Job
 
-The SQL\_SQLLogins Job provides information on successful and failed SQL server logins across all targeted SQL or Azure SQL servers.
+The SQL_SQLLogins Job provides information on successful and failed SQL server logins across all targeted SQL or Azure SQL servers.
 
-## Analysis Tasks for the SQL\_SQLLogins Job
+## Analysis Tasks for the SQL_SQLLogins Job
 
-Navigate to the __Databases__ > SQL > 3.Users and Roles > SQL\_SQLLogins > Configure node and select Analysis to view the analysis tasks.
+Navigate to the __Databases__ > SQL > 3.Users and Roles > SQL_SQLLogins > Configure node and select Analysis to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis task(s). The analysis task(s) are preconfigured for this job.
 
@@ -12,10 +12,10 @@ __CAUTION:__ Do not modify or deselect the selected analysis task(s). The analys
 
 The default analysis tasks are:
 
-- Calculate user login details – Creates the SA\_SQL\_UserLogin\_Details table accessible under the job’s Results node
-- User Logins Instance Summary – Creates the SA\_SQLServer\_UserLogins\_Summary table accessible under the job's Results node
+- Calculate user login details – Creates the SA_SQL_UserLogin_Details table accessible under the job’s Results node
+- User Logins Instance Summary – Creates the SA_SQLServer_UserLogins_Summary table accessible under the job's Results node
 
-In addition to the tables and views created by the analysis task, the SQL\_SQLLogins Job produces the following pre-configured report.
+In addition to the tables and views created by the analysis task, the SQL_SQLLogins Job produces the following pre-configured report.
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

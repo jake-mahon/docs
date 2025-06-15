@@ -1,10 +1,10 @@
-# AWS\_Roles Job
+# AWS_Roles Job
 
-The AWS\_Roles job provides details on roles in the AWS IAM environment.
+The AWS_Roles job provides details on roles in the AWS IAM environment.
 
-## Analysis Tasks for the AWS\_Roles Job
+## Analysis Tasks for the AWS_Roles Job
 
-Navigate to the __AWS__ > __4.Roles__ > __AWS\_Roles__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __AWS__ > __4.Roles__ > __AWS_Roles__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,12 +12,12 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The following analysis tasks are selected by default:
 
-- Role Details – Provides detailed information on AWS Roles. Creates the AWS\_Role\_Details table accessible under the job’s Results node.
-- Role Summary – Summarizes roles by AWS account. Creates the AWS\_Role\_Summary table accessible under the job’s Results node.
+- Role Details – Provides detailed information on AWS Roles. Creates the AWS_Role_Details table accessible under the job’s Results node.
+- Role Summary – Summarizes roles by AWS account. Creates the AWS_Role_Summary table accessible under the job’s Results node.
 
-## Report for the AWS\_Roles Job
+## Report for the AWS_Roles Job
 
-In addition to the tables and views created by the analysis task, the AWS\_Roles job produces the following preconfigured report:
+In addition to the tables and views created by the analysis task, the AWS_Roles job produces the following preconfigured report:
 
 | Report | Description | Default Tags | Report Element |
 | --- | --- | --- | --- |

@@ -4,7 +4,7 @@ Each Password Policy Enforcer password policy has multiple message templates, on
 
 - Password Policy – Displays the password policy guidelines on that have the Netwrix Password Policy Enforcer installed.
 - [POLICY] – Customize the text for the active rules.
-- [LIVE\_POLICY] – Password Policy messages can be configured to display live feedback for the active rules to users as they reset or change their passwords. This feature enables users to see if their passwords meet the requirements of the policy set by the organization.
+- [LIVE_POLICY] – Password Policy messages can be configured to display live feedback for the active rules to users as they reset or change their passwords. This feature enables users to see if their passwords meet the requirements of the policy set by the organization.
 - Rejection Reason – Displays why an intended password was rejected.
 - Generic Rejection – Displays if Password Policy Enforcer does not have a specific reason for the rejection, generally because the password does not comply with the Windows password policy
 
@@ -27,4 +27,4 @@ Step 5 – Open the __Messages__ tab.
 
 Step 6 – Select the message language from the drop-down list. You can set messages for multiple languages.
 
-Step 7 – Edit the message templates in the Password policy, [POLICY], [LIVE\_POLICY], Rejection Reason, and Generic rejection messages.
+Step 7 – Edit the message templates in the Password policy, [POLICY], [LIVE_POLICY], Rejection Reason, and Generic rejection messages.

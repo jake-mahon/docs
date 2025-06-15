@@ -1,20 +1,20 @@
-# FS\_UserShareActivity Job
+# FS_UserShareActivity Job
 
-The FS\_UserShareActivity job is designed to report on normal user activity within a share from targeted file servers.
+The FS_UserShareActivity job is designed to report on normal user activity within a share from targeted file servers.
 
-## Analysis Tasks for the FS\_UserShareActivity Job
+## Analysis Tasks for the FS_UserShareActivity Job
 
-View the analysis tasks by navigating to the __FileSystem__ > __5.Activity__ > __Suspicious Activity__ > __FS\_UserShareActivity__ > __Configure__ node and select __Analysis__.
+View the analysis tasks by navigating to the __FileSystem__ > __5.Activity__ > __Suspicious Activity__ > __FS_UserShareActivity__ > __Configure__ node and select __Analysis__.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
 ![Analysis Tasks for the FS_UserShareActivity Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/activity/suspiciousactivity/usershareactivityanalysis.png)
 
-- Track Latest Activity Per User Per Share – Creates the SA\_FS\_UserShareActivity\_LatestActivity table accessible under the job’s Results node
-- Average days since last Access – Creates the SA\_FS\_UserShareActivity\_ShareSummary table accessible under the job’s Results node
+- Track Latest Activity Per User Per Share – Creates the SA_FS_UserShareActivity_LatestActivity table accessible under the job’s Results node
+- Average days since last Access – Creates the SA_FS_UserShareActivity_ShareSummary table accessible under the job’s Results node
 - New Access Last Week – Creates an interim processing table in the database for use by downstream analysis and report generation
 
-In addition to the tables and views created by the analysis tasks, the FS\_UserShareActivity job produces the following pre-configured reports:
+In addition to the tables and views created by the analysis tasks, the FS_UserShareActivity job produces the following pre-configured reports:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

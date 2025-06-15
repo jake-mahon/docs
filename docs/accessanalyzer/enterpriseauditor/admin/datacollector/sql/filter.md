@@ -34,7 +34,7 @@ The Filter page is where the query can be scoped to target specific databases or
   - Db2LUW Permissions Scan
 - Utilities – Remove Storage Data
 
-It is necessary for the SA\_SQL\_Instances table to be populated before available databases/instances can populate the Available Server audits list. For Oracle and SQL, the SA\_SQL\_Instances table is populated through an instance discovery query. See the [0-SQL\_InstanceDiscovery Job](/docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/collection/0-sql_instancediscovery.md) topic for additional information. For PostgreSQL and MySQL Scans, the SA\_SQL\_Instances table is populated manually in the Manage Connections window. See the [Manage Connections Window](#manage-connections-window) topic for additional information. Once the table has been populated, a query can be scoped.
+It is necessary for the SA_SQL_Instances table to be populated before available databases/instances can populate the Available Server audits list. For Oracle and SQL, the SA_SQL_Instances table is populated through an instance discovery query. See the [0-SQL_InstanceDiscovery Job](/docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/collection/0-sql_instancediscovery.md) topic for additional information. For PostgreSQL and MySQL Scans, the SA_SQL_Instances table is populated manually in the Manage Connections window. See the [Manage Connections Window](#manage-connections-window) topic for additional information. Once the table has been populated, a query can be scoped.
 
 ![SQL Data Collector Wizard Filter page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/filter.webp)
 

@@ -1,10 +1,10 @@
-# EX\_DLMetrics Job
+# EX_DLMetrics Job
 
-The EX\_DLMetrics Job provides information around distribution list usage.
+The EX_DLMetrics Job provides information around distribution list usage.
 
-## Analysis Tasks for the EX\_DLMetrics Job
+## Analysis Tasks for the EX_DLMetrics Job
 
-View the analysis tasks by navigating to the __Exchange__ > __1. HUB Metrics__ > __EX\_DLMetrics__ > __Configure__ node and select __Analysis__.
+View the analysis tasks by navigating to the __Exchange__ > __1. HUB Metrics__ > __EX_DLMetrics__ > __Configure__ node and select __Analysis__.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,10 +12,10 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The following analysis tasks are selected by default:
 
-- 01. DL Metrics – Creates the SA\_EX\_DLMetrics\_Details table, accessible under the job’s Results node
-- 02. Historical Metrics – Creates the SA\_EX\_DLMetrics\_HistoricalStatistics table, accessible under the job’s Results node
+- 01. DL Metrics – Creates the SA_EX_DLMetrics_Details table, accessible under the job’s Results node
+- 02. Historical Metrics – Creates the SA_EX_DLMetrics_HistoricalStatistics table, accessible under the job’s Results node
 
-In addition to the tables and views created by the analysis tasks, the EX\_DLMetrics Job produces the following pre-configured reports:
+In addition to the tables and views created by the analysis tasks, the EX_DLMetrics Job produces the following pre-configured reports:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

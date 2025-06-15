@@ -2,7 +2,7 @@
 
 The RSAT Extension is installed automatically on the machine where the Recovery Application Server and web console are installed. To use the RSAT Extension on a remote machine where Active Directory Users and Computers (ADUC) is installed, you have to manually install it using the RSAT installer. The installer is located in the following installation directory on the Recovery Application Server:
 
-...Netwrix\Recovery for Active Directory\RSAT Extension\NetwrixRecovery\_RSAT\_Extension.msi
+...Netwrix\Recovery for Active Directory\RSAT Extension\NetwrixRecovery_RSAT_Extension.msi
 
 Follow the steps to install the RSAT Extension.
 

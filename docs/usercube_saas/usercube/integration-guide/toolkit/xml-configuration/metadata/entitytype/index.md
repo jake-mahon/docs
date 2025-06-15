@@ -8,7 +8,7 @@ Connector
 
 | Property | Details |
 | --- | --- |
-| DisplayName\_L1   optional | __Type__    String   __Description__   Display name of the entity type in language 1 (up to 16). |
+| DisplayName_L1   optional | __Type__    String   __Description__   Display name of the entity type in language 1 (up to 16). |
 | Identifier   required | __Type__    String   __Description__   Unique identifier of the entity type. It must is be unique to the _entity model_ scope. Cannot be [ Reserved identifiers ](/docs/usercube_saas/usercube/integration-guide/toolkit/reservedidentifiers/index.md). |
 | LicenseTag   optional | __Type__    String   __Description__   Value of the ```Tag``` parameter of the license key (in ```appsettings.json```) linked to the entity type. All the features allowed by the license key are enabled for this entity type, otherwise only default features are available. |
 | TableName   optional | __Type__    String   __Description__   Represents the table name of hard coded entity types. Exclusively reserved to Identity Manager connector for Power BI. |
@@ -52,14 +52,14 @@ For example, the below ```Dimension1``` attribute references a _Title_ entity by
 #### Changing the multiplicity of a property
 
 It is sometimes necessary to change the multiplicity of a property (Scalar property to Navigation property or vice-versa).
-As long as the property was not used in any workflow, this can be properly handled by ```Deploy-Configuration.exe```. If it _was_ used in one or more workflows, foreign key conflicts (in UW\_Changes database table) may occur, preventing the configuration from being deployed.
+As long as the property was not used in any workflow, this can be properly handled by ```Deploy-Configuration.exe```. If it _was_ used in one or more workflows, foreign key conflicts (in UW_Changes database table) may occur, preventing the configuration from being deployed.
 To solve this problem, references to this property must be manually cleaned up with SQL queries directly in the database before deploying the configuration.
 
 ### Properties
 
 | Property | Details |
 | --- | --- |
-| DisplayName\_L1   optional | __Type__    String   __Description__   Display name of the property in language 1 (up to 16).   __Note:__ cannot be "Id". |
+| DisplayName_L1   optional | __Type__    String   __Description__   Display name of the property in language 1 (up to 16).   __Note:__ cannot be "Id". |
 | FlexibleComparisonExpression   optional | __Type__    String   __Description__   Expression used to transform the query input value for comparison using a flexible operator. |
 | GroupByProperty   optional | __Type__    Int64   __Description__   Property used to regroup navigation resources (resources used in navigation rules) by value. When defined, the Evaluate policy will enforce that one and only one item of a group can be assigned to an identity on a given date range.   __Warning:__ whenever the value of this property changes for a resource used in the defined navigation rules, the server needs to be restarted in order for the changes to be taken into account. |
 | HistoryPrecision   default value: 0 | __Type__    Int32   __Description__   Defines the number of minutes to wait, after a property change, before triggering the record history mechanism. |

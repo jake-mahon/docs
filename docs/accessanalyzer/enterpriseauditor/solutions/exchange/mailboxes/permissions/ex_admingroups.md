@@ -1,10 +1,10 @@
-# EX\_AdminGroups Job
+# EX_AdminGroups Job
 
-The EX\_AdminGroups job provides visibility into the direct and effective membership of Exchange Administrative groups.
+The EX_AdminGroups job provides visibility into the direct and effective membership of Exchange Administrative groups.
 
-## Analysis Tasks for the EX\_AdminGroups Job
+## Analysis Tasks for the EX_AdminGroups Job
 
-View the analysis tasks by navigating to the __Exchange__ > __4. Mailboxes__ > __Permissions__ > __EX\_AdminGroups__ > __Configure__ node and select __Analysis__.
+View the analysis tasks by navigating to the __Exchange__ > __4. Mailboxes__ > __Permissions__ > __EX_AdminGroups__ > __Configure__ node and select __Analysis__.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,10 +12,10 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The following analysis tasks are selected by default:
 
-- 00.Calculate Effective Membership – Creates the SA\_EX\_AdminGroups\_Membership table accessible under the job’s Results node
-- 01.Rank groups by Size – Creates the SA\_EX\_AdminGroups\_Ranked table accessible under the job’s Results node
+- 00.Calculate Effective Membership – Creates the SA_EX_AdminGroups_Membership table accessible under the job’s Results node
+- 01.Rank groups by Size – Creates the SA_EX_AdminGroups_Ranked table accessible under the job’s Results node
 
-In addition to the tables and views created by the analysis tasks, the EX\_AdminGroups Job produces the following pre-configured report:
+In addition to the tables and views created by the analysis tasks, the EX_AdminGroups Job produces the following pre-configured report:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

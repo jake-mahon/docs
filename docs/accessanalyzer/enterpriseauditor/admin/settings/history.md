@@ -18,14 +18,14 @@ The Diagnostics Retention Period settings determine how long this data is retain
 
 - Logs and Messages
 
-  - Retain previous application logs, job logs, and messages for [number] [time period] – Controls how long the messages for previous job executions are stored in the SA\_Messages table for each job. Older job execution messages are cleared.
+  - Retain previous application logs, job logs, and messages for [number] [time period] – Controls how long the messages for previous job executions are stored in the SA_Messages table for each job. Older job execution messages are cleared.
   - The default value is 7 Times. With this setting, the messages are stored for the previous seven job executions.
 - Job Statistics
 
   - Retain job statistics in database for [number] [time period] – Controls how long job statistics history is stored within the Access Analyzer database in the following two tables:
 
-    - SA\_JobStatsTbl
-    - SA\_JobTaskStatsTbl
+    - SA_JobStatsTbl
+    - SA_JobTaskStatsTbl
   - This setting is only available at the global settings level. The default value is 100 days. This directly affects each job’s __Status__ node. See the [Status Node](/docs/accessanalyzer/enterpriseauditor/admin/jobs/job/status.md) topic for additional information.
 
 For both the __Logs and Messages__ and __Job Statistics__ options above:

@@ -78,7 +78,7 @@ When found, click on the entry and proceed with adding the necessary permissions
 
    __NOTE:__ For taxonomy manager to full operate you must also make the user “app@sharepoint” a taxonomy admin (or group admin).
 
-   You need to add app@sharepoint identity as a Term Store Administrator, by going to the term store on the website https://xxxx-admin.sharepoint.com/\_layouts/15/termstoremanager.aspx (where "xxxx" is your tenant).
+   You need to add app@sharepoint identity as a Term Store Administrator, by going to the term store on the website https://xxxx-admin.sharepoint.com/_layouts/15/termstoremanager.aspx (where "xxxx" is your tenant).
 5. Click ____Add permissions____.
 
 ## Step 4: Configure Certificates & Secrets

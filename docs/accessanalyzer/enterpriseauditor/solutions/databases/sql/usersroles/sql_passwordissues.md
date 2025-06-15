@@ -1,8 +1,8 @@
-# SQL\_PasswordIssues Job
+# SQL_PasswordIssues Job
 
-The SQL\_PasswordIssues Job analyzes SQL or Azure SQL login passwords and evaluates SQL login password compliance against prescribed password policies. The SQL\_PasswordIssues Job also checks for weak passwords.
+The SQL_PasswordIssues Job analyzes SQL or Azure SQL login passwords and evaluates SQL login password compliance against prescribed password policies. The SQL_PasswordIssues Job also checks for weak passwords.
 
-## Queries for the SQL\_Passwords Job
+## Queries for the SQL_Passwords Job
 
 The Collect Weak Passwords Job uses the PowerShell Data Collector for the following query:
 
@@ -13,9 +13,9 @@ __CAUTION:__ Do not modify the query. The query is preconfigured for this job.
 - Collect Weak Passwords – Locate the dictionary file containing the weak passwords and import the passwords
   - See [PowerShell Data Collector](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/powershell/overview.md) for additional information.
 
-## Analysis Tasks for the SQL\_PasswordIssues Job
+## Analysis Tasks for the SQL_PasswordIssues Job
 
-Navigate to the Jobs > __Databases__ > SQL > 3.Users and Roles > SQL\_PasswordIssues > Configure node and select Analysis to view the analysis tasks.
+Navigate to the Jobs > __Databases__ > SQL > 3.Users and Roles > SQL_PasswordIssues > Configure node and select Analysis to view the analysis tasks.
 
 __CAUTION:__ Most of these analysis tasks are preconfigured and should not be modified and or deselected unless otherwise specified.
 
@@ -33,10 +33,10 @@ The default analysis tasks are:
 
 The following analysis task is deselected by default:
 
-- Drop SQL Login Password Hashes – Nulls the SQL password hashes for the SQLServer\_SqlLogins table.
-  - Enable this analysis task only if needed. This analysis task nulls the password\_hash column in the SA\_SqlServer\_SqlLogins table.
+- Drop SQL Login Password Hashes – Nulls the SQL password hashes for the SQLServer_SqlLogins table.
+  - Enable this analysis task only if needed. This analysis task nulls the password_hash column in the SA_SqlServer_SqlLogins table.
 
-In addition to the tables and views created by the analysis tasks, the SQL\_PasswordIssues Job produces the following pre-configured reports.
+In addition to the tables and views created by the analysis tasks, the SQL_PasswordIssues Job produces the following pre-configured reports.
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

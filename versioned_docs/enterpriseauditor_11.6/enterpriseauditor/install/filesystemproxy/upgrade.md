@@ -9,7 +9,7 @@ __CAUTION:__ When upgrading the Proxy Service to 11.6 from a previous version fo
 
 ## Automatic Upgrade
 
-The __FS\_UpdateProxy__ Job is available through the Instant Job Wizard. This job updates the File System Proxy Service on all servers in the assigned host list. Follow the steps to instantiate this job.
+The __FS_UpdateProxy__ Job is available through the Instant Job Wizard. This job updates the File System Proxy Service on all servers in the assigned host list. Follow the steps to instantiate this job.
 
 __Step 1 –__ Within the __Jobs__ tree, right-click and select __Add Instant Job__. The Instant Job Wizard window opens.
 
@@ -17,7 +17,7 @@ __Step 2 –__ On the Welcome page, click __Next__.
 
 ![FS_UpdateProxy Job in the Instant Job Wizard](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/filesystemproxy/updateproxyinstantjob.png)
 
-__Step 3 –__ On the Instant Job page, locate the __Library Name: File System__ category group. Expand the category and select the __FS\_UpgradeProxy__ Job. Click __Next__.
+__Step 3 –__ On the Instant Job page, locate the __Library Name: File System__ category group. Expand the category and select the __FS_UpgradeProxy__ Job. Click __Next__.
 
 __Step 4 –__ On the Host Assignment page, select the __Specify individual hosts or host lists__ option and click __Next__.
 

@@ -52,7 +52,7 @@ This Job requires local administrator rights on the target hosts in order to rea
 
 ## Oracle Instance Discovery
 
-This Job verifies Oracle SID, IP Address, and Port combinations and inserts them into the SA\_SQL\_Instances table.
+This Job verifies Oracle SID, IP Address, and Port combinations and inserts them into the SA_SQL_Instances table.
 
 This Job requires read rights on the Oracle table DUAL, all users with any read right on an Oracle server should be able to validate this query.
 
@@ -82,32 +82,32 @@ The Oracle Permissions Scan job is responsible for collecting all permissions fr
 
 In order to collect permissions from Oracle Database 19c series, the user credential requires at least the following ```SELECT``` privilege on the targeted database for the following views and tables:
 
-- CDB\_COL\_PRIVS view
-- CDB\_TAB\_COLS view
-- CDB\_OBJECTS view
-- CDB\_PROFILES view
-- CDB\_ROLE\_PRIVS view
-- CDB\_ROLES view
-- CDB\_SYS\_PRIVS view
-- CDB\_TABLESPACES view
-- CDB\_TAB\_PRIVS view.
-- CDB\_USERS view.
-- V\_$DATABASE view.
-- V\_$RSRC\_CONSUMER\_GROUP view.
-- V\_$CONTAINERS view.
-- V\_$PARAMETER view.
-- V\_$PDBS view.
-- V\_$INSTANCE view.
+- CDB_COL_PRIVS view
+- CDB_TAB_COLS view
+- CDB_OBJECTS view
+- CDB_PROFILES view
+- CDB_ROLE_PRIVS view
+- CDB_ROLES view
+- CDB_SYS_PRIVS view
+- CDB_TABLESPACES view
+- CDB_TAB_PRIVS view.
+- CDB_USERS view.
+- V_$DATABASE view.
+- V_$RSRC_CONSUMER_GROUP view.
+- V_$CONTAINERS view.
+- V_$PARAMETER view.
+- V_$PDBS view.
+- V_$INSTANCE view.
 - SYS.USER$ table.
-- DBA\_TABLESPACES view
-- DBA\_ROLES view
-- DBA\_USERS view
-- DBA\_OBJECTS view
-- DBA\_COL\_PRIVS view
-- DBA\_TAB\_COLS view
-- DBA\_ROLE\_PRIVS view
-- DBA\_SYS\_PRIVS view
-- DBA\_TAB\_PRIVS view
+- DBA_TABLESPACES view
+- DBA_ROLES view
+- DBA_USERS view
+- DBA_OBJECTS view
+- DBA_COL_PRIVS view
+- DBA_TAB_COLS view
+- DBA_ROLE_PRIVS view
+- DBA_SYS_PRIVS view
+- DBA_TAB_PRIVS view
 
 For example, to grant all of the above privileges, run the following set of commands in SQL Developer or SQL\*Plus:
 
@@ -147,21 +147,21 @@ GRANT SELECT ON DBA_TAB_PRIVS TO %USERNAME%;
 
 In order to collect permissions from Oracle Database 12c series, the user credential requires at least the following ```SELECT``` privilege on the targeted database for the following views and tables:
 
-- CDB\_COL\_PRIVS view
-- CDB\_TAB\_COLS view
-- CDB\_OBJECTS view
-- CDB\_PROFILES view
-- CDB\_ROLE\_PRIVS view
-- CDB\_ROLES view
-- CDB\_SYS\_PRIVS view
-- CDB\_TABLESPACES view
-- CDB\_TAB\_PRIVS view.
-- CDB\_USERS view.
-- V\_$RSRC\_CONSUMER\_GROUP view.
-- V\_$DATABASE view.
-- V\_$PARAMETER view.
-- V\_$PDBS view.
-- V\_$CONTAINERS view.
+- CDB_COL_PRIVS view
+- CDB_TAB_COLS view
+- CDB_OBJECTS view
+- CDB_PROFILES view
+- CDB_ROLE_PRIVS view
+- CDB_ROLES view
+- CDB_SYS_PRIVS view
+- CDB_TABLESPACES view
+- CDB_TAB_PRIVS view.
+- CDB_USERS view.
+- V_$RSRC_CONSUMER_GROUP view.
+- V_$DATABASE view.
+- V_$PARAMETER view.
+- V_$PDBS view.
+- V_$CONTAINERS view.
 - SYS.USER$ table.
 
 For example, to grant all of the above privileges, run the following set of commands in SQL Developer or SQL\*Plus:
@@ -189,19 +189,19 @@ GRANT SELECT ON SYS.USER$ TO %USERNAME%;
 
 In order to collect permissions from Oracle Database 11g series, the user credential requires at least the following ```SELECT``` privileges on the targeted database for the following views and tables:
 
-- DBA\_COL\_PRIVS view
-- DBA\_TAB\_COLS view
-- DBA\_OBJECTS view
-- DBA\_PROFILES view
-- DBA\_ROLES view
-- DBA\_ROLE\_PRIVS view
-- DBA\_SYS\_PRIVS view
-- DBA\_TABLESPACES view
-- DBA\_TAB\_PRIVS view
-- DBA\_USERS view
-- V\_$RSRC\_CONSUMER\_GROUP view
-- V\_$DATABASE view
-- V\_$PARAMETER view
+- DBA_COL_PRIVS view
+- DBA_TAB_COLS view
+- DBA_OBJECTS view
+- DBA_PROFILES view
+- DBA_ROLES view
+- DBA_ROLE_PRIVS view
+- DBA_SYS_PRIVS view
+- DBA_TABLESPACES view
+- DBA_TAB_PRIVS view
+- DBA_USERS view
+- V_$RSRC_CONSUMER_GROUP view
+- V_$DATABASE view
+- V_$PARAMETER view
 - SYS.USER$ table
 
 For example, to grant all of the above privileges, run the following set of commands in Oracle SQL Developer or SQL\*Plus:
@@ -238,10 +238,10 @@ EXEC DBMS_STATS.GATHER_TABLE_STATS('%SCHEMA_NAME%', ‘%TABLE_NAME%’);
 
 In order to perform a sensitive data scan on Oracle database 12c series, the user credential requires at least the following ```SELECT``` privileges on the targeted database for the following views:
 
-- V\_$CONTAINERS view
-- V\_$DATABASE view
-- CDB\_TAB\_COLS view
-- CDB\_OBJECTS view
+- V_$CONTAINERS view
+- V_$DATABASE view
+- CDB_TAB_COLS view
+- CDB_OBJECTS view
 
 For example, to grant the above privileges, run the following set of commands in SQL Developer or SQL\*Plus:
 
@@ -256,9 +256,9 @@ GRANT SELECT ON CDB_OBJECTS TO %USERNAME%;
 
 In order to perform a sensitive data scan on Oracle database 11g series, the user credential requires at least the following ```SELECT``` privileges on the targeted database for the following views:
 
-- V\_$DATABASE view
-- DBA\_TAB\_COLS view
-- DBA\_OBJECTS view
+- V_$DATABASE view
+- DBA_TAB_COLS view
+- DBA_OBJECTS view
 
 For example, to grant the above privileges, run the following set of commands in SQL Developer or SQL\*Plus:
 
@@ -288,9 +288,9 @@ This job is responsible for collecting audit data from configured database serve
 
 In order to perform an activity data scan on Oracle database 12c series, the user credential requires at least the following ```SELECT``` privileges on the targeted database for the following views:
 
-- V\_$DATABASE view
-- CDB\_COMMON\_AUDIT\_TRAIL view
-- UNIFIED\_AUDIT\_TRAIL view
+- V_$DATABASE view
+- CDB_COMMON_AUDIT_TRAIL view
+- UNIFIED_AUDIT_TRAIL view
 
 For example, to grant the above privileges, run the following set of commands in SQL Developer or SQL\*Plus:
 
@@ -310,8 +310,8 @@ EXEC SYS.DBMS_AUDIT_MGMT.FLUSH_UNIFIED_AUDIT_TRAIL;
 
 In order to perform an activity data scan on Oracle database 11g series, the user credential required at least the following ```SELECT``` privileges on the targeted database for the following views:
 
-- V\_$DATABASE view
-- DBA\_COMMON\_AUDIT\_TRAIL view
+- V_$DATABASE view
+- DBA_COMMON_AUDIT_TRAIL view
 
 For example, to grant the above privileges, run the following set of commands in SQL Developer or SQL\*Plus:
 
@@ -322,7 +322,7 @@ GRANT SELECT ON DBA_COMMON_AUDIT_TRAIL TO %USERNAME%;
 
 ## Oracle Users with Default Passwords Job
 
-The 4-Oracle\_DefaultPasswordUsers job is responsible for collecting usernames of users whose passwords have not been updated since the database creation.
+The 4-Oracle_DefaultPasswordUsers job is responsible for collecting usernames of users whose passwords have not been updated since the database creation.
 
 The user needs to have a ```SELECT``` privilege on ```CDB_USERS_WITH_DEFPWD``` table for Oracle container databases (version 12c and higher) or ```DBA_USERS_WITH_DEFPWD``` for the non-container database (any version below 12c).
 

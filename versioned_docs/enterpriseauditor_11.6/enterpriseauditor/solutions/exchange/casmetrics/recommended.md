@@ -13,19 +13,19 @@ The 0. Collection Job Group has been set to run against the following default dy
 
 - Exchange CAS Servers
 
-The EX\_ASPolicies Job has been set to run against the following default dynamic host list:
+The EX_ASPolicies Job has been set to run against the following default dynamic host list:
 
 - Exchange MB Servers
 
 __NOTE:__ Default dynamic host lists are populated from hosts in the Host Master Table which meet the host inventory criteria for the list. Ensure the appropriate host lists have been populated through host inventory results.
 
-___RECOMMENDED:___ Modify hosts lists only in the 0. Collection Job Group or EX\_ASPolicies Job.
+___RECOMMENDED:___ Modify hosts lists only in the 0. Collection Job Group or EX_ASPolicies Job.
 
 Connection Profile
 
-A Connection Profile must be set directly on the EX\_IISLogs Job and the EX\_ASPolicies Job.
+A Connection Profile must be set directly on the EX_IISLogs Job and the EX_ASPolicies Job.
 
-See the [Exchange Remote Connections Permissions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/exchange/remoteconnections.md) topic for the EX\_IISLogs Job required permissions. See the [Exchange PowerShell Permissions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/exchange/powershell.md) topic for the EX\_ASPolicies Job requirements.
+See the [Exchange Remote Connections Permissions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/exchange/remoteconnections.md) topic for the EX_IISLogs Job required permissions. See the [Exchange PowerShell Permissions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/exchange/powershell.md) topic for the EX_ASPolicies Job requirements.
 
 See the [Connection](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/overview.md) topic for additional information.
 
@@ -41,16 +41,16 @@ History retention should not be enabled on this job group. History is kept throu
 
 | Job Name | Analysis Task Name | Default History |
 | --- | --- | --- |
-| EX\_ActiveSync | SET HISTORY RETENTION | 6 Months |
-| EX\_RPCTraffic | SET HISTORY RETENTION | 6 Months |
-| EX\_OWATraffic | SET HISTORY RETENTION | 6 Months |
+| EX_ActiveSync | SET HISTORY RETENTION | 6 Months |
+| EX_RPCTraffic | SET HISTORY RETENTION | 6 Months |
+| EX_OWATraffic | SET HISTORY RETENTION | 6 Months |
 
 Query Configuration
 
 The 2. CAS Metrics Job Group is designed to be run with the default query configurations. However, the following queries can be modified:
 
-- __0. Collection__ > __EX\_IISLogs__ Job – __IIS Logs__ Query
-- __EX\_ASPolicies__ Job – __Exchange Settings__ Query
+- __0. Collection__ > __EX_IISLogs__ Job – __IIS Logs__ Query
+- __EX_ASPolicies__ Job – __Exchange Settings__ Query
 
 No other queries should be modified.
 
@@ -62,8 +62,8 @@ __CAUTION:__ Most of these analysis tasks are preconfigured and should not be mo
 
 The following analysis tasks should not be deselected, but their parameters can be modified:
 
-- __ActiveSync__ > __EX\_ActiveSync__ Job – __07. SET HISTORY RETENTION__ Analysis Task
-- __Outlook Anywhere__ > __EX\_RPCTraffic__ Job – __05. SET HISTORY RETENTION__ Analysis Task
+- __ActiveSync__ > __EX_ActiveSync__ Job – __07. SET HISTORY RETENTION__ Analysis Task
+- __Outlook Anywhere__ > __EX_RPCTraffic__ Job – __05. SET HISTORY RETENTION__ Analysis Task
 - __Outlook Web Access__ > __OWATraffic__ Job – __05. SET HISTORY RETENTION__ Analysis Task
 
 Workflow

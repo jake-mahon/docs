@@ -43,7 +43,7 @@ When getting Identity Manager data in [Connect Power BI to Identity Manager](/do
 | Property | Details |
 | --- | --- |
 | ColumnNamesMode   default value: DisplayName | __Type__    UniverseColumnNamesMode   __Description__   Type of label to be displayed as the column names in Power BI, for this universe.   ```0``` - DisplayName: display name of entity instances.   ```1``` - Identifier: identifier of entity instances. |
-| DisplayName\_L1   optional | __Type__    String   __Description__   Display name of the universe in language 1 (up to 16). |
+| DisplayName_L1   optional | __Type__    String   __Description__   Display name of the universe in language 1 (up to 16). |
 | Identifier   required | __Type__    String   __Description__   Identifier of the universe. |
 
 ## Child Element: Association Instance
@@ -75,7 +75,7 @@ Entity Association
 
 | Property | Details |
 | --- | --- |
-| DisplayName\_L1   optional | __Type__    String   __Description__   Display name of the entity instance in language 1 (up to 16). |
+| DisplayName_L1   optional | __Type__    String   __Description__   Display name of the entity instance in language 1 (up to 16). |
 | EntityType   required | __Type__    Int64   __Description__   Identifier of the entity type, in Identity Manager's entity model, that corresponds to the entity instance. |
 | FilterEntityProperty   optional | __Type__    Int64   __Description__   Entity property used as filter (FilterProperty must be a navigation property to EntityProperty) |
 | FilterEntityType   optional | __Type__    Int64   __Description__   Entity type used as filter (FilterProperty must be a navigation property to EntityType) |

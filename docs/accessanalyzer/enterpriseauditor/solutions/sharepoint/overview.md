@@ -18,7 +18,7 @@ Requirements, Permissions, and Ports
 
 - Ports vary based on the Scan Mode selected and target environment. See the [SharePoint Scan Options](/docs/accessanalyzer/enterpriseauditor/requirements/solutions/sharepoint/scanoptions.md) topic for additional information.
 
-__NOTE:__ You can use the __SP\_RegisterAzureAppAuth__ instant job to make the configuration for SharePoint Online easier. This job registers the necessary Microsoft Entra ID application and provisions it with the required permissions. See the [SP\_RegisterAzureAppAuth Job](/docs/accessanalyzer/enterpriseauditor/admin/jobs/instantjobs/sp_registerazureappauth.md) topic for additional information.
+__NOTE:__ You can use the __SP_RegisterAzureAppAuth__ instant job to make the configuration for SharePoint Online easier. This job registers the necessary Microsoft Entra ID application and provisions it with the required permissions. See the [SP_RegisterAzureAppAuth Job](/docs/accessanalyzer/enterpriseauditor/admin/jobs/instantjobs/sp_registerazureappauth.md) topic for additional information.
 
 Sensitive Data Discovery Considerations
 
@@ -30,7 +30,7 @@ Location
 
 The SharePoint Solution requires a special Access Analyzer license. It can be installed from the Access Analyzer Instant Job Wizard. Once it has been installed into the Jobs tree, navigate to the solution: __Jobs__ > __SharePoint__.
 
-The 0.Collection Job Group collects the data. The other job groups and the SP\_Overview Job run analysis on the collected data and generate reports.
+The 0.Collection Job Group collects the data. The other job groups and the SP_Overview Job run analysis on the collected data and generate reports.
 
 ## SharePoint Job Groups
 
@@ -56,11 +56,11 @@ The SharePoint Solution is available with the SharePoint Reports license feature
 
   - This job group is available with the SharePoint license feature
 - [1.Direct Permissions Job Group](/docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/directpermissions/overview.md) – Provides insight into how directly applied permissions are configured within the SharePoint environment. The group contains surface-level configuration settings that can quickly assess the SharePoint permission structure.
-- [2.High Risk Sites > SP\_OpenAccess Job](/docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/sp_openaccess.md) – Provides insight into any high-risk repositories and high-risk data that may exist within an organization’s SharePoint environment. High risk data is effectively open to the entire organization through modification of SharePoint permissions to apply well known security principles such as NT AUTHORITY\Authenticated Users, Everyone, and Everyone Except External Users. This data must be monitored closely because of its exposure.
-- [3.Broken Inheritance > SP\_BrokenInheritance Job](/docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/sp_brokeninheritance.md) – Keeping track of directly applied permissions at mass is not realistic, this job is responsible for performing data analysis and generating SharePoint broken inheritance reports at the site level. This includes looking at site broken inheritance and the trustees who are assigned to those sites where inheritance is broken so that you can remove that access in favor of providing access via group membership.
+- [2.High Risk Sites > SP_OpenAccess Job](/docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/sp_openaccess.md) – Provides insight into any high-risk repositories and high-risk data that may exist within an organization’s SharePoint environment. High risk data is effectively open to the entire organization through modification of SharePoint permissions to apply well known security principles such as NT AUTHORITY\Authenticated Users, Everyone, and Everyone Except External Users. This data must be monitored closely because of its exposure.
+- [3.Broken Inheritance > SP_BrokenInheritance Job](/docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/sp_brokeninheritance.md) – Keeping track of directly applied permissions at mass is not realistic, this job is responsible for performing data analysis and generating SharePoint broken inheritance reports at the site level. This includes looking at site broken inheritance and the trustees who are assigned to those sites where inheritance is broken so that you can remove that access in favor of providing access via group membership.
 - [4.Content Job Group](/docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/content/overview.md) – Provides insight into content stored across SharePoint farms in order to help more efficiently manage that content. It will provide information on the content taking up the most space, the content that has not been accessed for extended periods of time, and additional data describing SharePoint content and the configuration of the repositories such as lists and libraries which store that content.
-- [5.Probable Owner > SP\_ProbableOwner Job](/docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/sp_probableowner.md) – Provides reports about probable ownership. The goal of this report is to help you either identify who most likely owns the SharePoint resource or at least someone who can tell you who does.
-- [6.Sensitive Data > SP\_SensitiveData Job](/docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/sp_sensitivedata.md) – Highlights sensitive data identified across targeted SharePoint farms
+- [5.Probable Owner > SP_ProbableOwner Job](/docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/sp_probableowner.md) – Provides reports about probable ownership. The goal of this report is to help you either identify who most likely owns the SharePoint resource or at least someone who can tell you who does.
+- [6.Sensitive Data > SP_SensitiveData Job](/docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/sp_sensitivedata.md) – Highlights sensitive data identified across targeted SharePoint farms
 
   - Requires Sensitive Data Discovery
 - [7.Activity Job Group](/docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/activity/overview.md)– Generates summary and detail reports of SharePoint activity on the specified sites. These reports can be used for identifying file, folder, and user related activity across your SharePoint environment.
@@ -68,4 +68,4 @@ The SharePoint Solution is available with the SharePoint Reports license feature
 - [Effective Access Audits Job Group](/docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/effectiveaccessaudits/overview.md) – Returns reports identifying specific trustees’ effective access across the entire SharePoint environment
 
   - Typically, this is run independently from the rest of the solution
-- [SP\_Overview Job](/docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/sp_overview.md) – Provides an overview of the SharePoint environment, providing a high level view into what makes up your SharePoint environment and the types of security risks and toxic permissions found during scans
+- [SP_Overview Job](/docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/sp_overview.md) – Provides an overview of the SharePoint environment, providing a high level view into what makes up your SharePoint environment and the types of security risks and toxic permissions found during scans

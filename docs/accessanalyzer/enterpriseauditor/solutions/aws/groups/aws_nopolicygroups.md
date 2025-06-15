@@ -1,10 +1,10 @@
-# AWS\_NoPolicyGroups Job
+# AWS_NoPolicyGroups Job
 
-The AWS\_NoPolicyGroups job provides details on groups that have no policies assigned to them.
+The AWS_NoPolicyGroups job provides details on groups that have no policies assigned to them.
 
-## Analysis Tasks for the AWS\_NoPolicyGroups Job
+## Analysis Tasks for the AWS_NoPolicyGroups Job
 
-Navigate to the __AWS__ > __3.Groups__ > __AWS\_NoPolicyGroups__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the __AWS__ > __3.Groups__ > __AWS_NoPolicyGroups__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
@@ -12,12 +12,12 @@ __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis
 
 The following analysis tasks are selected by default:
 
-- No Policy Groups – Identifies groups that have no policies applied. Creates the AWS\_NoPolicyGroup\_Details table accessible under the job’s Results node.
-- No Policy Groups Summary – Summarizes no policy groups across AWS Organizations. Creates the AWS\_NoPolicyGroup\_Summary table accessible under the job’s Results node.
+- No Policy Groups – Identifies groups that have no policies applied. Creates the AWS_NoPolicyGroup_Details table accessible under the job’s Results node.
+- No Policy Groups Summary – Summarizes no policy groups across AWS Organizations. Creates the AWS_NoPolicyGroup_Summary table accessible under the job’s Results node.
 
-## Report for the AWS\_NoPolicyGroups Job
+## Report for the AWS_NoPolicyGroups Job
 
-In addition to the tables and views created by the analysis task, the AWS\_NoPolicyGroups job produces the following preconfigured report:
+In addition to the tables and views created by the analysis task, the AWS_NoPolicyGroups job produces the following preconfigured report:
 
 | Report | Description | Default Tags | Report Element |
 | --- | --- | --- | --- |

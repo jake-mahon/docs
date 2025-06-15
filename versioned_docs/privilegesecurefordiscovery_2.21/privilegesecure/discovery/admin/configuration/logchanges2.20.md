@@ -110,7 +110,7 @@ Removed various low level Windows log messages (use new “connector action” l
 - See migration table: [2.20.0 Windows Logging Changes: Old to New Mapping](https://remediant.quip.com/account/login?next=https%3A%2F%2Fremediant.quip.com%2FgpdpAcMLBAFZ&permalink=EFDAAAtQ1nb&secret_path=gpdpAcMLBAFZ).
 - Partially removed log messages:
 
-  - __NOTE:__ Kerberos auth type does not use the discovered IP and does not retry if multiple IPs are found. However, we still save the first discovered pingable IP as last\_ip in the database, even if it wasn’t the IP used to establish the connection.
+  - __NOTE:__ Kerberos auth type does not use the discovered IP and does not retry if multiple IPs are found. However, we still save the first discovered pingable IP as last_ip in the database, even if it wasn’t the IP used to establish the connection.
   - "Connecting with IP address: ((ip))" - now logged only if using NTLM auth (i.e. not logged with Kerberos auth)
 - Removed log messages (use new “connector action” logs):
 
@@ -128,15 +128,15 @@ Removed various low level Windows log messages (use new “connector action” l
   - "Changing password for user: ((username))"
   - "Successfully changed password for user: ((username))"
   - "Creating new user: ((username))"
-  - "Successfully created user: ((user\_info))"
+  - "Successfully created user: ((user_info))"
   - "Deleting user: ((username)), sid: ((sid))"
   - "User: ((username)) does not exist on system"
   - "Successfully deleted user: ((username)), sid: ((sid))"
   - "Adding user to local admin group: ((user))"
   - "Successfully added user to local admin group: ((user))"
   - "Successfully removed user from local admin group: ((user))"
-  - "User already removed from admins (((e.type\_name))): ((e)), user=((user))"
-  - "User does not exist to remove from admins (((e.type\_name))): ((e)), user=((user))"
+  - "User already removed from admins (((e.type_name))): ((e)), user=((user))"
+  - "User does not exist to remove from admins (((e.type_name))): ((e)), user=((user))"
 - Added "debugging": true flag and possibly changed other fields in the following log messages (use new “connector action” logs).
 
   - __NOTE:__ Log messages that have the "debugging": true flag may be removed or modified in future releases without notice in the change log. They should not be relied on for any purpose other than temporary troubleshooting/ debugging.
@@ -148,12 +148,12 @@ Removed various low level Windows log messages (use new “connector action” l
   - "Getting domain handle for ((domainName))"
   - "Getting handle of alias group ((aliasId))"
   - "Getting server handle"
-  - "Sending server name ((server\_name)). Do not use in production!"
+  - "Sending server name ((server_name)). Do not use in production!"
   - "Getting list of SIDS for alias group"
   - "Looking up user information: ((username))"
   - "Looking up user information by RID: ((rid))"
   - "Looking up user information: ((username))"
-  - "No sids could be found: STATUS\_SOME\_NOT\_MAPPED"
+  - "No sids could be found: STATUS_SOME_NOT_MAPPED"
   - "Unknown error occurred looking up sids: ((error))"
   - "User info for SIDS: ((users))"
   - "Adding SID: ((sid))"

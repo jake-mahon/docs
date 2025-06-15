@@ -36,7 +36,7 @@ The following example reads all provisioning orders concerning the ```InternalRe
 
 | Property | Details |
 | --- | --- |
-| DisplayName\_L1   required | __Type__    String   __Description__   Display name of the task in language 1 (up to 16). |
+| DisplayName_L1   required | __Type__    String   __Description__   Display name of the task in language 1 (up to 16). |
 | Agent   optional | __Type__    String   __Description__   Identifier of the agent on which the job will be launched.   __Note:__ when not specified, the task is to be launched on the server.   __Warning:__ all jobs containing the task must be launched on the same agent or on the server. |
 | BatchSize   default value: 0 | __Type__    Int32   __Description__   Block size for batch calculation. |
 | Connection   optional | __Type__    String   __Description__   Identifier of the Connection in the appsettings.agent.json. |

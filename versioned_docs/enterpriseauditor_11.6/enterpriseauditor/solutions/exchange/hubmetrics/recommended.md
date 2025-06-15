@@ -20,7 +20,7 @@ ___RECOMMENDED:___ Only modify host lists in the 0. Collection Job Group.
 
 Connection Profile
 
-A Connection Profile must be set directly on the EX\_MetricsCollection Job and the EX\_MetricsDetails Job. See the [Exchange Mail-Flow Permissions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/exchange/mailflow.md) topic for required permissions.
+A Connection Profile must be set directly on the EX_MetricsCollection Job and the EX_MetricsDetails Job. See the [Exchange Mail-Flow Permissions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/exchange/mailflow.md) topic for required permissions.
 
 See the [Connection](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/overview.md) topic for additional information.
 
@@ -36,8 +36,8 @@ History retention should not be enabled on this job group. History is kept throu
 
 | Job Name | Analysis Task Name | Default History |
 | --- | --- | --- |
-| EX\_MetricsCollection | SET HISTORY RETENTION | 6 Months |
-| EX\_MetricsDetails | SET HISTORY RETENTION | 6 Months |
+| EX_MetricsCollection | SET HISTORY RETENTION | 6 Months |
+| EX_MetricsDetails | SET HISTORY RETENTION | 6 Months |
 
 See the [Exchange History Retention](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#exchange-history-retention) topic for additional information.
 
@@ -45,7 +45,7 @@ Query Configuration
 
 The 1. HUB Metrics Job Group is designed to be run with the default query configurations with the following exceptions:
 
-- EX\_MetricsDetails Job – The __Activity Metrics__ Query requires domains to be configured
+- EX_MetricsDetails Job – The __Activity Metrics__ Query requires domains to be configured
 - All queries in the 1.HUB Metrics Job Group that use the ExchangeMetrics Data Collector – (Optional) The __Enable Persistent Log State__ option can be enabled on the Options page of the Exchange Metrics Data Collector Wizard to search the log from where the previous search left off. See the [ExchangeMetrics: Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchangemetrics/options.md) topic for additional information.
 
 Analysis Configuration
@@ -56,8 +56,8 @@ __CAUTION:__ Most of these analysis tasks are preconfigured and should not be mo
 
 The following analysis tasks should not be deselected, but their parameters can be modified:
 
-- __0. Collection__ > __EX\_MetricsCollection__ Job – __08. SET HISTORY RETENTION__ Analysis Task
-- __0. Collection__ > __EX\_MetricsDetails__ Job – __02. SET HISTORY RETENTION__ Analysis Task
+- __0. Collection__ > __EX_MetricsCollection__ Job – __08. SET HISTORY RETENTION__ Analysis Task
+- __0. Collection__ > __EX_MetricsDetails__ Job – __02. SET HISTORY RETENTION__ Analysis Task
 
 Workflow
 

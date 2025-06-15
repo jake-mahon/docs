@@ -1,10 +1,10 @@
-# SQL\_BestPractices Job
+# SQL_BestPractices Job
 
-The SQL\_BestPractices Job analyzes SQL and Azure SQL server configuration settings and reports any findings that deviate from recommended Microsoft Best Practices when it comes to creating, maintaining, and securing SQL and Azure SQL servers.
+The SQL_BestPractices Job analyzes SQL and Azure SQL server configuration settings and reports any findings that deviate from recommended Microsoft Best Practices when it comes to creating, maintaining, and securing SQL and Azure SQL servers.
 
-### Analysis Tasks for the SQL\_BestPractices Job
+### Analysis Tasks for the SQL_BestPractices Job
 
-Navigate to the __Databases__ > SQL > 4.Configuration > SQL\_BestPractices > Configure node and select Analysis to view the analysis tasks.
+Navigate to the __Databases__ > SQL > 4.Configuration > SQL_BestPractices > Configure node and select Analysis to view the analysis tasks.
 
 __CAUTION:__ Do not modify or deselect the selected analysis task(s). The analysis task(s) are preconfigured for this job.
 
@@ -12,10 +12,10 @@ __CAUTION:__ Do not modify or deselect the selected analysis task(s). The analys
 
 The default analysis tasks are:
 
-- SQL Best Practices – Creates the SA\_SQL\_BestPractices table accessible under the job’s Results node
-- SQL Best Practices Instance Summary – Creates the SA\_SQL\_BestPractices\_Summary table accessible under the job’s Results node
+- SQL Best Practices – Creates the SA_SQL_BestPractices table accessible under the job’s Results node
+- SQL Best Practices Instance Summary – Creates the SA_SQL_BestPractices_Summary table accessible under the job’s Results node
 
-In addition to the tables and views created by the analysis tasks, the SQL\_BestPractices Job produces the following pre-configured report:
+In addition to the tables and views created by the analysis tasks, the SQL_BestPractices Job produces the following pre-configured report:
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

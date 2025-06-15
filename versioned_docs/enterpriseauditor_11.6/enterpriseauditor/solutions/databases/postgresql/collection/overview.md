@@ -6,9 +6,9 @@ The PostgreSQL Solution Collection Job Group is designed to collect high level 
 
 The jobs in the 0.Collection Job Group are:
 
-- [PgSQL\_Configuration Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/postgresql/collection/pgsql_configuration.md) - Designed to return additional configuration settings from PostgreSQL servers
-- [PgSQL\_SensitiveDataScan Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/postgresql/collection/pgsql_sensitivedatascan.md) - Designed to discover sensitive data in PostgreSQL databases based on pre-defined or user-defined search criteria
-- [PgSQL\_TablePrivileges Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/postgresql/collection/pgsql_tableprivileges.md) - Designed to collect PostgreSQL table privileges from all the targeted servers.
+- [PgSQL_Configuration Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/postgresql/collection/pgsql_configuration.md) - Designed to return additional configuration settings from PostgreSQL servers
+- [PgSQL_SensitiveDataScan Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/postgresql/collection/pgsql_sensitivedatascan.md) - Designed to discover sensitive data in PostgreSQL databases based on pre-defined or user-defined search criteria
+- [PgSQL_TablePrivileges Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/postgresql/collection/pgsql_tableprivileges.md) - Designed to collect PostgreSQL table privileges from all the targeted servers.
 
 Workflow
 

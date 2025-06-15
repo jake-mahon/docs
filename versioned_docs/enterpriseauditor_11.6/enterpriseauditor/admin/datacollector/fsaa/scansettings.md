@@ -89,6 +89,6 @@ If employing remote applet mode or proxy servers, then the certificate (```cacer
 
 …\STEALTHbits\StealthAUDIT\FSAA
 
-___RECOMMENDED:___ Do not overwrite this certificate. It is fully trusted by Netwrix. Instead, add an underscore (\_) character to the start of the file name. Then copy the organization's self-signed certificate to this location with the name ```cacert.pem```.
+___RECOMMENDED:___ Do not overwrite this certificate. It is fully trusted by Netwrix. Instead, add an underscore (_) character to the start of the file name. Then copy the organization's self-signed certificate to this location with the name ```cacert.pem```.
 
 There is another ```cacert.perm``` file within the Enterprise Auditor installation directory used by the Notification SSL encryption options. While these files have the same name, they serve different purposes and are stored in different locations.

@@ -12,9 +12,9 @@ __Step 2 –__ From the Computer Management section, select __Scripts__ and then
 
 __Step 3 –__ On the General section, add a name for the profile, and then select the __Script tab__ and add the ```epp_change_ip.sh``` script.
 
-__Step 4 –__ Add your Server IP to the EPP\_SERVER\_ADDRESS field.
+__Step 4 –__ Add your Server IP to the EPP_SERVER_ADDRESS field.
 
-__NOTE:__ You can edit the EPP\_DEPARTMET CODE and EPP\_SERVER\_PORT fields to deploy the Endpoint Protector Client on specific departments or custom ports.
+__NOTE:__ You can edit the EPP_DEPARTMET CODE and EPP_SERVER_PORT fields to deploy the Endpoint Protector Client on specific departments or custom ports.
 
 ![Uploading the new Script.](/img/product_docs/endpointprotector/endpointprotector/install/agent/jamf/newscript.png)
 

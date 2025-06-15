@@ -18,52 +18,52 @@ Below are the different displays of the same Worker service's JIT access granted
 
 Here's the command line "raw" event log for this JIT access granted event, directly from the Privilege Secure application.
 
-2022-08-02 19:08:54 +0000 docker.s1\_worker.1.r4fivzgzb6tbc4jqn9o5j4kpb: \{  
-"container\_id": "f7ca06d64ed806ab1b8ff2e2afaf4ff5ae99613fa6e33bb99fa6922224894bf8",  
-"container\_name": "/s1\_worker.1.r4fivzgzb6tbc4jqn9o5j4kpb",  
+2022-08-02 19:08:54 +0000 docker.s1_worker.1.r4fivzgzb6tbc4jqn9o5j4kpb: \{  
+"container_id": "f7ca06d64ed806ab1b8ff2e2afaf4ff5ae99613fa6e33bb99fa6922224894bf8",  
+"container_name": "/s1_worker.1.r4fivzgzb6tbc4jqn9o5j4kpb",  
 "source": "stderr",  
-"log": "REMOVED\_FOR\_DISPLAY\_PURPOSES",  
+"log": "REMOVED_FOR_DISPLAY_PURPOSES",  
 "jobId": "a0448212-c3d0-4b0c-91df-e33d7dc9eb48",  
 "levelname": "INFO",  
 "message": "WINCOMP-CH.cstest.test - Adding admin privileges: CSTEST\\chadmin",  
 "name": "remediant",  
 "queue": \{  
-"\_id": "62e9764602c5350045aaebd7",  
+"_id": "62e9764602c5350045aaebd7",  
 "request": \{  
 "status": "pending",  
 "type": "access"  
 \},  
-"requested\_by": "5e5623b8dea345d0a59e6af9",  
-"requested\_by\_info": \{  
+"requested_by": "5e5623b8dea345d0a59e6af9",  
+"requested_by_info": \{  
 "distinguishedName": "CN=chadmin,CN=Users,DC=cstest,DC=test",  
-"domain\_fqdn": "cstest.test",  
-"domain\_netbios": "CSTEST",  
+"domain_fqdn": "cstest.test",  
+"domain_netbios": "CSTEST",  
 "sAMAccountName": "chadmin"  
 \}  
 \},  
 "requestedByUser": \{  
-"\_id": "5e5623b8dea345d0a59e6af9",  
-"domain\_netbios": "CSTEST",  
+"_id": "5e5623b8dea345d0a59e6af9",  
+"domain_netbios": "CSTEST",  
 "objectSid": "S-1-5-21-4099641008-4128879968-2022382535-1115",  
 "sAMAccountName": "chadmin"  
 \},  
 "service": "svc-worker",  
 "system": "Main",  
 "targetSystem": \{  
-"\_id": "61171f0792416d1dd3a9eac7",  
+"_id": "61171f0792416d1dd3a9eac7",  
 "cn": "WINCOMP-CH",  
 "distinguishedName": "CN=WINCOMP-CH,OU=Servers,DC=cstest,DC=test",  
-"domain\_netbios": "CSTEST",  
+"domain_netbios": "CSTEST",  
 "policy": \{  
-"manage\_local\_sids": true,  
+"manage_local_sids": true,  
 "scan": false,  
 "secure": true,  
-"strict\_secure": false  
+"strict_secure": false  
 \}  
 \},  
 "targetUser": \{  
-"\_id": "5e5623b8dea345d0a59e6af9",  
-"domain\_netbios": "CSTEST",  
+"_id": "5e5623b8dea345d0a59e6af9",  
+"domain_netbios": "CSTEST",  
 "objectSid": "S-1-5-21-4099641008-4128879968-2022382535-1115",  
 "sAMAccountName": "chadmin"  
 \},  
@@ -78,7 +78,7 @@ Lastly, here's what the event log for the same JIT access granted action looks l
 
 ![blobid1.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/integrations/siem/7742334174999_blobid1.png)
 
-For Splunk parsing, the use of the "\_json" Source Type selection is located under the Settings > Data Inputs > HTTP Event collector > "SecureONE" token > Source Type drop down list.
+For Splunk parsing, the use of the "_json" Source Type selection is located under the Settings > Data Inputs > HTTP Event collector > "SecureONE" token > Source Type drop down list.
 
 __NOTE:__ The Token name in the below image is "secureone" but this can be named anything to reference the Privilege Secureapplication within Splunk.
 

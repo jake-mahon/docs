@@ -66,7 +66,7 @@ Netwrix Activity Monitor requires to generate ECDSA Key with a blank passphrase
 cat ~/.ssh/id_ecdsa.pub >> ~/.ssh/authorized_keys
 ```
 
-__NOTE:__ It is required to add public key to authorized keys for Activity Monitor. By default, a private key is generated at ~/.ssh/id\_ecdsa location along with the public key (.pub file). A user can use a different file location. Copy the following command into a command prompt to generate a private key for Activity Monitorto use:
+__NOTE:__ It is required to add public key to authorized keys for Activity Monitor. By default, a private key is generated at ~/.ssh/id_ecdsa location along with the public key (.pub file). A user can use a different file location. Copy the following command into a command prompt to generate a private key for Activity Monitorto use:
 
 ```
 cat ~/.ssh/id_ecdsa

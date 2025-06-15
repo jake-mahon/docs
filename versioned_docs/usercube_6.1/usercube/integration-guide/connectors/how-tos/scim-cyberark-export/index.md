@@ -198,7 +198,7 @@ It is strongly recommended that the applicative configuration be stored in the [
 - Use the [```<Connector>```](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connector/index.md) element to declare the connector with the following attributes:
 
   - __Identifier__ identifies this connector in the [applicative configuration](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/index.md). We recommend using a meaningful name such as ```CyberArk```. If several connections to several CyberArk targets are possible, only one CyberArk Connector per Agent is used.
-  - __DisplayName\_Li, i ? [1..16]__ are used in the UI.
+  - __DisplayName_Li, i ? [1..16]__ are used in the UI.
   - __Agent__ is the identifier of the Agent that will run this connector's export task. The Agent's identifier can be found in the agent's [```appsettings.agent``` > OpenId > AgentIdentifier](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md).
 - Don't forget the ```<?xml>``` and ```<ConfigurationFile>``` elements (see example below).
 
@@ -229,7 +229,7 @@ The [Entity Model](/versioned_docs/usercube_6.1/usercube/integration-guide/entit
 Declaring an [Entity Type](/versioned_docs/usercube_6.1/usercube/integration-guide/entity-model/index.md) is achieved with the ```<EntityType>``` tag and the following attributes:
 
 - __Identifier__ is the entity type's name. It must be unique among the entity types. It is strongly recommended to prefix this name with the connector's name. An example for CyberArk is ```CyberArk_User```.
-- __DisplayName\_Li, i ? [1..16]__ are used in the UI to identify this [Entity Type](/versioned_docs/usercube_6.1/usercube/integration-guide/entity-model/index.md) for the end-user. __DisplayName\_L1__ is the name of the entity type in _language number one_. If this language is _English_, a good example value would be ```CyberArk - User```.
+- __DisplayName_Li, i ? [1..16]__ are used in the UI to identify this [Entity Type](/versioned_docs/usercube_6.1/usercube/integration-guide/entity-model/index.md) for the end-user. __DisplayName_L1__ is the name of the entity type in _language number one_. If this language is _English_, a good example value would be ```CyberArk - User```.
 
 ##### Example
 
@@ -251,7 +251,7 @@ Remember that there are several kinds of [properties](/versioned_docs/usercube_6
 Finally, the main attributes of the ```<Property>``` tag are the following:
 
 - __Identifier__ identifies the property with a mandatory unique name. It must be unique among the entity properties for this entity type.
-- __DisplayName\_Li, i ? [1..16]__ are used in the UI.
+- __DisplayName_Li, i ? [1..16]__ are used in the UI.
 - __Type__ defines the type of property. A scalar property type can be: ```String```, ```Bytes```, ```Int16```, ```Int32```, ```Int64```, ```DateTime```, ```Bool```, ```Guid```, ```Double```, ```Binary```, ```Byte```, or ```Option```. The navigation property type is ```ForeignKey```.
 - __TargetColumnIndex__ defines in which column of the resource table the property is stored. See more details at [```TargetColumnIndex```](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md).
 
@@ -356,7 +356,7 @@ Conf/SCIMCyberArk/CyberArk Connector.xml
 
 Here are a few explanations:
 
-###### Users/_CyberArk\_Group_
+###### Users/_CyberArk_Group_
 
 The ```Users``` property in the ```CyberArk_Group``` entity:
 
@@ -365,7 +365,7 @@ The ```Users``` property in the ```CyberArk_Group``` entity:
 
 These values identify resources of type ```CyberArk_User``` by their ```CyberArk_id``` property (written to the __EntityPropertyMapping2__ attribute of the [EntityAssociationMapping](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md) element.
 
-###### Groups/_CyberArk\_User_
+###### Groups/_CyberArk_User_
 
 The ```Groups``` property in the ```CyberArk_User``` entity:
 
@@ -469,7 +469,7 @@ Conf/SCIMCyberArk/CyberArk UI.xml
 
 ```
 
-adds the ```InternalDisplayName``` to the CyberArk\_User entity type to be used by the UI.
+adds the ```InternalDisplayName``` to the CyberArk_User entity type to be used by the UI.
 
 ### Permissions
 
@@ -694,7 +694,7 @@ The configuration is written to the database using the [Deploy Configuration too
 
 ### Test
 
-The Synchronization job should be found in the UI, under the __Job Execution__ menu, with the name input in the Job's __DisplayName\_Li__ attribute.
+The Synchronization job should be found in the UI, under the __Job Execution__ menu, with the name input in the Job's __DisplayName_Li__ attribute.
 
 From there, it can be launched and debugged (if needed).
 

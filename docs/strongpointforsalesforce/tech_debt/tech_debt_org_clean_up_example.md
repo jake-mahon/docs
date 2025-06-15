@@ -14,9 +14,9 @@ We are going to use the out-of-the-box Default Clean Up List View with these fil
 ![Filters](/img/product_docs/strongpointforsalesforce/tech_debt/tech_debt_9.webp)
 
 - Filter on the single Record Type __Objects & Fields__ to enable editing the Customizations directly from the List View. This filter selects all Objects and their related Fields.
-- Filter for API Names starting with __Account__ (for example, __Account.___my\_custom\_field_) limits results to the __Account__ object. We could use a similar technique to focus on a specific App.
+- Filter for API Names starting with __Account__ (for example, __Account.___my_custom_field_) limits results to the __Account__ object. We could use a similar technique to focus on a specific App.
 - Filter on __Salesforce CustomField__ to return all Custom Fields.
-- Filter to exclude __Standard__ fields. The Salesforce metadata type for all fields is CustomField. Platform Governance for Salesforce identifies standard fields and appends __Standard: object\_name__ to the Customization Name so they can be filtered out of your results.
+- Filter to exclude __Standard__ fields. The Salesforce metadata type for all fields is CustomField. Platform Governance for Salesforce identifies standard fields and appends __Standard: object_name__ to the Customization Name so they can be filtered out of your results.
 - In our example, __unused__ means _not used within the last six months_, so we finish up with a Date Last Used filter.
 
 Specify the fields to show:

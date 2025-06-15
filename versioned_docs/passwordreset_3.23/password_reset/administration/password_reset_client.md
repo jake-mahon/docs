@@ -147,7 +147,7 @@ __Step 1 –__ Open the __Configuration Console__ and install your license key.
 
 __Step 2 –__ Start the __Registry Editor__ (regedit.exe).
 
-__Step 3 –__ Expand the __HKEY\_LOCAL\_MACHINE__, __SOFTWARE__, __ANIXIS__, __ANIXIS Password Reset__, and __3.0__ registry keys.
+__Step 3 –__ Expand the __HKEY_LOCAL_MACHINE__, __SOFTWARE__, __ANIXIS__, __ANIXIS Password Reset__, and __3.0__ registry keys.
 
 __Step 4 –__ Double-click the __LicenseKey__ value, and then copy the entire license key to the clipboard.
 

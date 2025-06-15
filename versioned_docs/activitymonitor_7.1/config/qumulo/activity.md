@@ -30,12 +30,12 @@ The command will ask for the password.
 
 __Step 3 –__ Execute the following command to check current format:
 
-qq audit\_get\_syslog\_config
+qq audit_get_syslog_config
 
 The format will be shown in the __format__ field. The old format is __csv__; the new format is __json__.
 
 __Step 4 –__ Execute the following command to change the format, if needed:
 
-qq audit\_set\_syslog\_config --json
+qq audit_set_syslog_config --json
 
 The change willshould be reflected in the __format__ field.

@@ -6,5 +6,5 @@ The 9.Sites Job Group reports on all Active Directory permissions applied to sit
 
 The jobs in the 9.Sites Job Group are:
 
-- [AD\_DCShadowPermissions Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/sites/ad_dcshadowpermissions.md) – Highlights all Active Directory users that are capable of potentially performing a DCShadow attack within the targeted domains
-- [AD\_SitePermissions Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/sites/ad_sitepermissions.md) – Reports on all Active Directory permissions applied to site objects within the targeted domains
+- [AD_DCShadowPermissions Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/sites/ad_dcshadowpermissions.md) – Highlights all Active Directory users that are capable of potentially performing a DCShadow attack within the targeted domains
+- [AD_SitePermissions Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/sites/ad_sitepermissions.md) – Reports on all Active Directory permissions applied to site objects within the targeted domains

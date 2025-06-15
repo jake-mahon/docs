@@ -1,18 +1,18 @@
-# 1-Box\_Activity Scans Job
+# 1-Box_Activity Scans Job
 
-The 1-Box\_Activity Scans Job collects the data which will be further analyzed in order to provide visibility into user activity events within Box.
+The 1-Box_Activity Scans Job collects the data which will be further analyzed in order to provide visibility into user activity events within Box.
 
-## Queries for the 1-Box\_Activity Scans Job
+## Queries for the 1-Box_Activity Scans Job
 
 The Scan Query uses the Box Data Collector to target all Box hosts and has been preconfigured to use the Scan Box Permissions Category.
 
 ![Queries for the 1-Box_Activity Scans Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/box/collection/activityqueries.png)
 
-The 1-Box\_Activity Scans Job has the following queries:
+The 1-Box_Activity Scans Job has the following queries:
 
 - Activity Scan – Collects activity data which will be further analyzed in order to provide visibility into user activity events within Box.
 
-Prior to the first execution, it is necessary to authenticate to the targeted Box environment if this has not already been done when configuring the 1-Box\_Access Scans Job. This is done on the Authenticate page of the Activity Scan query. Additionally, the following default configurations are commonly customized:
+Prior to the first execution, it is necessary to authenticate to the targeted Box environment if this has not already been done when configuring the 1-Box_Access Scans Job. This is done on the Authenticate page of the Activity Scan query. Additionally, the following default configurations are commonly customized:
 
 - Exclusions page:
 
@@ -21,13 +21,13 @@ Prior to the first execution, it is necessary to authenticate to the targeted Bo
 
   - Not scoped
 
-See the [Configure the 1-Box\_Activity Scans Job](#configure-the-1-box_activity-scans-job) section for instructions.
+See the [Configure the 1-Box_Activity Scans Job](#configure-the-1-box_activity-scans-job) section for instructions.
 
-### Configure the 1-Box\_Activity Scans Job
+### Configure the 1-Box_Activity Scans Job
 
-The 1-Box\_Activity Scans Job contains the Activity Scan Query. Follow the steps to configure the query.
+The 1-Box_Activity Scans Job contains the Activity Scan Query. Follow the steps to configure the query.
 
-__Step 1 –__ Navigate to the __Box__ > __0.Collection__ > __1-Box\_Activity Scans__ > __Configure__ node and select __Queries__.
+__Step 1 –__ Navigate to the __Box__ > __0.Collection__ > __1-Box_Activity Scans__ > __Configure__ node and select __Queries__.
 
 __Step 2 –__ In the Query Selection view, select the Scan Query and click __Query Properties__. The Query Properties window displays.
 
@@ -73,4 +73,4 @@ __NOTE:__  Authentication to the target Box environment only needs to be complet
 
 __Step 10 –__ Navigate to the Summary page, click __Finish__ to save any setting modifications or click __Cancel__ if no changes were made. Then click __OK__ to close the Query Properties window.
 
-The 1-Box\_Activity Scans Job will execute according to the connection settings configuration.
+The 1-Box_Activity Scans Job will execute according to the connection settings configuration.

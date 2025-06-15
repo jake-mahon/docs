@@ -23,7 +23,7 @@ None
 
 Schedule Frequency
 
-Most of the jobs in this job group can be scheduled to run as desired. The AD\_Cleanup Progress Job should be scheduled to run every day.
+Most of the jobs in this job group can be scheduled to run as desired. The AD_Cleanup Progress Job should be scheduled to run every day.
 
 History Retention
 

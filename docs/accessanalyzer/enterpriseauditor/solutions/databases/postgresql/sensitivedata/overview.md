@@ -6,5 +6,5 @@ The Sensitive Data Job Group is designed to provide insight into where sensitive
 
 The job in the Sensitive Data Job Group is:
 
-- [PgSQL\_SensitiveData Job](/docs/accessanalyzer/enterpriseauditor/solutions/databases/postgresql/sensitivedata/pgsql_sensitivedata.md) - Designed to provide information on all the sensitive data that was discovered in the targeted PostgreSQL servers based on the selected scan criteria
-- [PgSQL\_SensitiveDataPermissions Job](/docs/accessanalyzer/enterpriseauditor/solutions/databases/postgresql/sensitivedata/pgsql_sensitivedatapermissions.md) - Designed to provide information on all types of permissions on database objects containing sensitive data across all the targeted PostgreSQL servers based on the selected scan criteria.
+- [PgSQL_SensitiveData Job](/docs/accessanalyzer/enterpriseauditor/solutions/databases/postgresql/sensitivedata/pgsql_sensitivedata.md) - Designed to provide information on all the sensitive data that was discovered in the targeted PostgreSQL servers based on the selected scan criteria
+- [PgSQL_SensitiveDataPermissions Job](/docs/accessanalyzer/enterpriseauditor/solutions/databases/postgresql/sensitivedata/pgsql_sensitivedatapermissions.md) - Designed to provide information on all types of permissions on database objects containing sensitive data across all the targeted PostgreSQL servers based on the selected scan criteria.

@@ -47,7 +47,7 @@ __Workflows__:
 
 - DLU is captured nightly for workflows if __Keep Instance and History__ is set to __Always__ (default is __Only When Testing__) and __Enable Logging__ is selected (default is __Off__) for each workflow.
 
-The Saved Search __Strongpoint Unused Workflow Customizations__ (customsearch\_flo\_unused\_wf) finds workflows and displays the __Keep Instance and History__ value, enabling you to quickly see which workflows can track the DLU. To edit the value, open the Customization record and change the value.
+The Saved Search __Strongpoint Unused Workflow Customizations__ (customsearch_flo_unused_wf) finds workflows and displays the __Keep Instance and History__ value, enabling you to quickly see which workflows can track the DLU. To edit the value, open the Customization record and change the value.
 
 Key columns in the search results:
 

@@ -44,7 +44,7 @@ __NOTE:__ If you are using the Samba V1 protocol for File Shadows on Mac, make s
 The "Test" button facilitates the veriﬁcation process for FTP and S3 bucket repositories (Indirect artifact retrieval). This functionality enables you to authenticate and execute a dummy ﬁle upload using the provided credentials.
 
 - FTP Repository – The "Test" button veriﬁes authentication and ﬁle upload.
-- S3 Bucket Repository (Indirect Artefact Retrieval) – The "Test" button checks key, secret\_key, and validates bucket region and name if authentication response was successful.
+- S3 Bucket Repository (Indirect Artefact Retrieval) – The "Test" button checks key, secret_key, and validates bucket region and name if authentication response was successful.
 
 __NOTE:__ The Test Connection for S3 Bucket (Direct Artefact Retrieval), Samba v1, Samba v2, and Azure File Storage Repository is not supported due to additional 3rd Party requirements, such as IP Whitelisting, smbclient, etc.
 
@@ -72,7 +72,7 @@ Indirect Artefact Retrieval
 
 This is the recommended and most secure option to retrieve artifacts via the Endpoint Protector Server.
 
-In this approach, when the download button is pressed, a request is sent to AWS to verify the ﬁle's presence in the bucket. If the ﬁle is not found, the Endpoint Protector server responds with a message: "The object object\_name does not exist in the S3 Bucket Repository." In the case of the ﬁle's existence, a subsequent request to AWS is made to obtain a pre-assigned URL for the shadow, which is then used to initiate the shadow download.
+In this approach, when the download button is pressed, a request is sent to AWS to verify the ﬁle's presence in the bucket. If the ﬁle is not found, the Endpoint Protector server responds with a message: "The object object_name does not exist in the S3 Bucket Repository." In the case of the ﬁle's existence, a subsequent request to AWS is made to obtain a pre-assigned URL for the shadow, which is then used to initiate the shadow download.
 
 __NOTE:__ The Endpoint Protector server does not acquire a copy of the shadow at any point during this transaction. It only receives conﬁrmation that the shadow exists in the S3 Bucket repository. Users then download the shadows directly from the S3 bucket using a preassigned URL provided by AWS.
 
@@ -210,7 +210,7 @@ canada_&$@=;/+ ,?{^}%`]>[~<#|_山人é口ŏ刀ā木ù日ì月è女ǚ子ĭ馬/马
 
 File name displayed in AWS S3 Bucket
 
-ln4w7yuqax-dev-client-bucket/2022-11-23/ComputerName/canada\_%26%24%40%3D%3B%3 A%2B%20%2C%3F%5C%7B%5E%7D%25%60%5D%3E%5B~%3C%23%7C\_%E5%B1%B1%E4%B A%BAe%CC%81%E5%8F%A3o%CC%86%E5%88%80a%CC%84%E6%9C%A8u%CC%80%E6%9 7%A5i%CC%80%E6%9C%88e%CC%80%E5%A5%B3u%CC%88%CC%8C%E5%AD%90i%CC%86
+ln4w7yuqax-dev-client-bucket/2022-11-23/ComputerName/canada_%26%24%40%3D%3B%3 A%2B%20%2C%3F%5C%7B%5E%7D%25%60%5D%3E%5B~%3C%23%7C_%E5%B1%B1%E4%B A%BAe%CC%81%E5%8F%A3o%CC%86%E5%88%80a%CC%84%E6%9C%A8u%CC%80%E6%9 7%A5i%CC%80%E6%9C%88e%CC%80%E5%A5%B3u%CC%88%CC%8C%E5%AD%90i%CC%86
 
 %E9%A6%AC%3A%E9%A9%AC%E9%B3%A5%3A%E9%B8%9Fnia%CC%8C%E7%9B%AEu%CC
 
