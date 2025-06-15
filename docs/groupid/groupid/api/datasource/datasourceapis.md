@@ -4,12 +4,13 @@ Directory Manager provides the following APIs to perform functions related to da
 
 - [Create a Data Source](createds.md)
 
-  - [Create a Data Source for a Text/CSV File](dstext.md)
-  - [Create a Data Source for MS Access](dsaccess.md)
-  - [Create a Data Source for MS Excel](dsexcel.md)
-  - [Create a Data Source for ODBC](dsodbc.md)
-  - [Create a Data Source for Oracle](dsoracle.md)
-  - [Create a Data Source for SQL Server](dssql.md)
+    - [Create a Data Source for a Text/CSV File](dstext.md)
+    - [Create a Data Source for MS Access](dsaccess.md)
+    - [Create a Data Source for MS Excel](dsexcel.md)
+    - [Create a Data Source for ODBC](dsodbc.md)
+    - [Create a Data Source for Oracle](dsoracle.md)
+    - [Create a Data Source for SQL Server](dssql.md)
+
 - [Delete a Data Source](deleteds.md)
 - [Get a Data Source](getds.md)
 - [Get a Data Source by Type and Name](getdstypename.md)
@@ -27,4 +28,5 @@ Directory Manager provides the following APIs to perform functions related to da
 - [Update a Data Source](updateds.md)
 - [Validate Data Connectivity of a Data Source](validatedc.md)
 
-See the[ Data Sources](../../admincenter/datasource/overview.md) topic for additional information on data sources.
+See the[ Data Sources](../../admincenter/datasource/overview.md) topic for additional information on
+data sources.

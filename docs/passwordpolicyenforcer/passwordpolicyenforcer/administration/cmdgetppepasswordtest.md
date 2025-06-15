@@ -1,28 +1,32 @@
 # Get-PPEPasswordTest
 
-The __Get-PPEPasswordTest__ cmdlet runs the Password Policy Enforcer password test for a user.
+The **Get-PPEPasswordTest** cmdlet runs the Password Policy Enforcer password test for a user.
 
 SYNTAX
 
-__Get-PPEPasswordTest__ __-Password__ `<_string_>` __-Username__ `<_string_>` [__-OldPassword__ `<_string_>`] [`<_CommonParameters_>`]
+**Get-PPEPasswordTest** **-Password** `<_string_>` **-Username** `<_string_>` [__-OldPassword__
+`<_string_>`] [`<_CommonParameters_>`]
 
 PARAMETERS
 
-__-Password__ `<_string_>`
+**-Password** `<_string_>`
 
 The password to test.
 
-__-User__ `<_string_>`
+**-User** `<_string_>`
 
-The username to test. Can also use __-U__ or __-u__.
+The username to test. Can also use **-U** or **-u**.
 
-__-OldPassword__ `<_string_>`
+**-OldPassword** `<_string_>`
 
 The old password to test.
 
 `<_CommonParameters_>`
 
-This cmdlet supports the common parameters: __Verbose__, __Debug__, __ErrorAction__, __ErrorVariable__, __WarningAction__, __WarningVariable__, __OutBuffer__, __PipelineVariable__, and __OutVariable__. For more information, see about_CommonParameters [https:/go.microsoft.com/fwlink/?LinkID=113216](https:/go.microsoft.com/fwlink?linkid=113216).
+This cmdlet supports the common parameters: **Verbose**, **Debug**, **ErrorAction**,
+**ErrorVariable**, **WarningAction**, **WarningVariable**, **OutBuffer**, **PipelineVariable**, and
+**OutVariable**. For more information, see about_CommonParameters
+[https:/go.microsoft.com/fwlink/?LinkID=113216](https:/go.microsoft.com/fwlink?linkid=113216).
 
 EXAMPLE
 

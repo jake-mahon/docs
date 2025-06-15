@@ -2,7 +2,8 @@
 
 ## Sessions
 
-Via the menu item __Sessions__, all users connected to the database can be displayed. This page is purely informative in character and thus no configurations can be made here.
+Via the menu item **Sessions**, all users connected to the database can be displayed. This page is
+purely informative in character and thus no configurations can be made here.
 
 ![installation_with_parameters_120](../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/administration/installation_with_parameters_120.webp)
 
@@ -15,13 +16,16 @@ All currently locked users can also be retrieved. There are two scenarios here:
 1. User name correct, password incorrect: The user name is displayed
 2. User name incorrect: The client is displayed
 
-In addition, the number of attempted logins and the length of time that the user was locked in each case can be seen.
+In addition, the number of attempted logins and the length of time that the user was locked in each
+case can be seen.
 
 ![installation_with_parameters_121](../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/administration/installation_with_parameters_121.webp)
 
 #### Default password rules
 
-Password rules can be defined for both user passwords and also for WebViewer exports that then need to be fulfilled. In the following example, a user password must correspond to the “default password” rule in order to be valid
+Password rules can be defined for both user passwords and also for WebViewer exports that then need
+to be fulfilled. In the following example, a user password must correspond to the “default password”
+rule in order to be valid
 
 ![Standard password rule](../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/administration/installation_with_parameters_122-en_677x129.webp)
 
@@ -29,6 +33,6 @@ Password rules can be defined for both user passwords and also for WebViewer exp
 
 There is a separate option for defining the password rules for named passwords.
 
-__User right__
+**User right**
 
 - Can configure standard password rules

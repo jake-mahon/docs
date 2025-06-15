@@ -1,17 +1,27 @@
 # Complexity Rule
 
-The Complexity rule rejects passwords that do not contain characters from a variety of character sets. Using several character types can make passwords more difficult to crack.
+The Complexity rule rejects passwords that do not contain characters from a variety of character
+sets. Using several character types can make passwords more difficult to crack.
 
 ![ppe_rules_4](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/ppe_rules_4.png)
 
-Select the __Enabled__ check box to enable the Complexity rule.
+Select the **Enabled** check box to enable the Complexity rule.
 
-Choose the number of required character sets from the drop-down list. Passwords will be rejected if they do not contain characters from at least the specified number of character sets.
+Choose the number of required character sets from the drop-down list. Passwords will be rejected if
+they do not contain characters from at least the specified number of character sets.
 
-Choose the available character sets by selecting the check boxes beside the character set names. The number of available character sets must be equal to or greater than the number of required character sets.
+Choose the available character sets by selecting the check boxes beside the character set names. The
+number of available character sets must be equal to or greater than the number of required character
+sets.
 
-Select the __Passwords must always comply with this rule__ check box to make the Complexity rule mandatory. Password Policy Enforcer rules are mandatory by default, but can be made optional by changing the Reject passwords that do not comply with value in the Policy Properties page. A mandatory rule can still be disabled when a passphrase is used. See the [Passphrases](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/passphrases.md) topic for additional information.
+Select the **Passwords must always comply with this rule** check box to make the Complexity rule
+mandatory. Password Policy Enforcer rules are mandatory by default, but can be made optional by
+changing the Reject passwords that do not comply with value in the Policy Properties page. A
+mandatory rule can still be disabled when a passphrase is used. See the
+[Passphrases](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/passphrases.md)
+topic for additional information.
 
 Click the Messages tab to customize the Password Policy Client rule inserts.
 
-__NOTE:__ The Complexity rule uses custom character set definitions from the Character rules, even if the Character rules are disabled.
+**NOTE:** The Complexity rule uses custom character set definitions from the Character rules, even
+if the Character rules are disabled.

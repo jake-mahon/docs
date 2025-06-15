@@ -5,11 +5,11 @@ Use the Remove-Mailbox commandlet to delete mailbox from the connected identifty
 ## Syntax
 
 ```
-Remove-MailBox  
--Identity <string[]>  
-[-IdentityStoreId <int>]  
-[-SecurityToken <CustomClaimsPrincipal>]  
-[-Credential <pscredential>]  
+Remove-MailBox
+-Identity <string[]>
+[-IdentityStoreId <int>]
+[-SecurityToken <CustomClaimsPrincipal>]
+[-Credential <pscredential>]
 [<CommonParameters>]
 ```
 

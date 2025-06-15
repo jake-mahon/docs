@@ -1,6 +1,7 @@
 # ExchangePS: Mail Flow
 
-The Mail Flow page returns permissions information for the public folder environment. It is a wizard page for the category of:
+The Mail Flow page returns permissions information for the public folder environment. It is a wizard
+page for the category of:
 
 - Office 365 > Mail Flow Metrics
 
@@ -8,7 +9,8 @@ The Mail Flow page returns permissions information for the public folder environ
 
 Select and configure a date range from the following options:
 
-__NOTE:__ Date range must be 7 days or less.
+**NOTE:** Date range must be 7 days or less.
 
 - Last – Select the number of days
-- Between (Date) – Use the drop-down menus to open the calendar selection view to choose the start and end dates
+- Between (Date) – Use the drop-down menus to open the calendar selection view to choose the start
+  and end dates

@@ -1,14 +1,19 @@
 # Output Types
 
-Once a domain or a host is being monitored the event stream can be sent to multiple outputs. There are three types of outputs:
+Once a domain or a host is being monitored the event stream can be sent to multiple outputs. There
+are three types of outputs:
 
 - File – Creates an activity log as a TSV or JSON file for every day of activity
-- Syslog – Sends activity events to the configured SIEM server For Monitored Hosts, this options is also used to send activity events to Netwrix Threat Manager, where supported
-- Netwrix Threat Manager (StealthDEFEND) – Sends activity events to Netwrix Threat Manager or receives Active Directory monitoring events from Netwrix Threat Prevention for integration with Netwrix Access Analyzer (formerly Enterprise Auditor)
+- Syslog – Sends activity events to the configured SIEM server For Monitored Hosts, this options is
+  also used to send activity events to Netwrix Threat Manager, where supported
+- Netwrix Threat Manager (StealthDEFEND) – Sends activity events to Netwrix Threat Manager or
+  receives Active Directory monitoring events from Netwrix Threat Prevention for integration with
+  Netwrix Access Analyzer (formerly Enterprise Auditor)
 
-  __NOTE:__ This output is only available for Monitored Domains
+    **NOTE:** This output is only available for Monitored Domains
 
-See the [Output for Monitored Domains](../monitoreddomains/output.md) topic and the [Output for Monitored Hosts](../monitoredhosts/output.md) topic for information on adding an output.
+See the [Output for Monitored Domains](../monitoreddomains/output.md) topic and the
+[Output for Monitored Hosts](../monitoredhosts/output.md) topic for information on adding an output.
 
 Output configurations vary based on the type of domain/host selected.
 

@@ -8,7 +8,10 @@ This action deletes the file associated with the threat.
 
 ![deletefile](../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/playbooks/action/deletefile.webp)
 
-- Credential – Select a credential profile that contains valid Active Directory credentials. Credential profiles are configured on the [Integrations Interface](../../configuration/integrations/overview.md). If not specified, the action will be run as the credentials of the Action Service.
+- Credential – Select a credential profile that contains valid Active Directory credentials.
+  Credential profiles are configured on the
+  [Integrations Interface](../../configuration/integrations/overview.md). If not specified, the
+  action will be run as the credentials of the Action Service.
 
 ## Revert Permission Change
 
@@ -16,9 +19,12 @@ The Revert Permission Change action reverts a permission change on an Active Dir
 
 ![revertpermissionchange](../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/playbooks/action/revertpermissionchange.webp)
 
-- Credential – Select a credential profile that contains valid Active Directory credentials. Credential profiles are configured on the Integrations Interface. If not specified, the action will be run as the credentials of the Action Service.
+- Credential – Select a credential profile that contains valid Active Directory credentials.
+  Credential profiles are configured on the Integrations Interface. If not specified, the action
+  will be run as the credentials of the Action Service.
 
-See the [Integrations Interface](../../configuration/integrations/overview.md) topic for additional information.
+See the [Integrations Interface](../../configuration/integrations/overview.md) topic for additional
+information.
 
 ## Save File Hash
 
@@ -26,4 +32,7 @@ This action saves the file hash to the properties of the threat.
 
 ![savefilehash](../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/playbooks/action/savefilehash.webp)
 
-- Credential – Select a credential profile that contains valid Active Directory credentials. Credential profiles are configured on the [Integrations Interface](../../configuration/integrations/overview.md). If not specified, the action will be run as the credentials of the Action Service.
+- Credential – Select a credential profile that contains valid Active Directory credentials.
+  Credential profiles are configured on the
+  [Integrations Interface](../../configuration/integrations/overview.md). If not specified, the
+  action will be run as the credentials of the Action Service.

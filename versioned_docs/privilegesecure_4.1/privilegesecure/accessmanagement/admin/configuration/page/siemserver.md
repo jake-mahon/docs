@@ -1,14 +1,18 @@
 # SIEM Server Page
 
-The SIEM Server page is accessible from the Navigation pane under Configuration > SIEM. Privilege Secure can output events to third-party SIEM solutions for reporting, correlation, and notification. The SIEM Servers page define the SIEM endpoint, the method of connection, and the SIEM template to be used.
+The SIEM Server page is accessible from the Navigation pane under Configuration > SIEM. Privilege
+Secure can output events to third-party SIEM solutions for reporting, correlation, and notification.
+The SIEM Servers page define the SIEM endpoint, the method of connection, and the SIEM template to
+be used.
 
-SIEM Servers define where to send the event data, how the connection should be established, and the template to define the format/data to be sent.
+SIEM Servers define where to send the event data, how the connection should be established, and the
+template to define the format/data to be sent.
 
-__Step 1 –__ Navigate to the __Configuration__ > __SIEM__ > __SIEM Templates__ page.
+**Step 1 –** Navigate to the **Configuration** > **SIEM** > **SIEM Templates** page.
 
 ![siemservers](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/page/siemservers.png)
 
-__Step 2 –__ Enter the following information:
+**Step 2 –** Enter the following information:
 
 - SIEM Host – Enter the address of the SIEM Server
 - Server Type – Select TCP or UDP protocol for the connection
@@ -20,7 +24,9 @@ __Step 2 –__ Enter the following information:
 
 ### SIEM Service
 
-Events destined for SIEM Servers are sent to a queue. The SIEM service is responsible for pulling events out the queue and processing them. Multiple SIEM services may be used to process high volumes of events.
+Events destined for SIEM Servers are sent to a queue. The SIEM service is responsible for pulling
+events out the queue and processing them. Multiple SIEM services may be used to process high volumes
+of events.
 
 ![SIEM Serivce Page](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/page/siemservice.png)
 

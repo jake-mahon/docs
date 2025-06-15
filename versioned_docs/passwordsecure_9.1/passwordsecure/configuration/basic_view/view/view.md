@@ -2,7 +2,9 @@
 
 ## The view of the Basic view
 
-The Basic view interface is arranged in tiles. If a logo/icon has been stored for a password in the image management, this can optionally be displayed with the associated data record. If the logo of the password is not available, a reduced Outlook view is displayed.
+The Basic view interface is arranged in tiles. If a logo/icon has been stored for a password in the
+image management, this can optionally be displayed with the associated data record. If the logo of
+the password is not available, a reduced Outlook view is displayed.
 
 1. view of a Basic view button with stored logo
 
@@ -26,7 +28,8 @@ The tiles can be dragged and dropped to the desired position
 
 ## Mouseover
 
-As with add-ons, the control button is displayed as soon as you hover the mouse over the corresponding elements. This process is known as "mouseover".
+As with add-ons, the control button is displayed as soon as you hover the mouse over the
+corresponding elements. This process is known as "mouseover".
 
 ![View LightClient](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/basic_view/view/view-lc-en.png)
 
@@ -41,10 +44,15 @@ When you click the button, the following options become visible:
 - Typing assistance (Use this view to easily type out passwords)
 - -Refresh (The record will be updated.)
 
-You can only perform the above operations if you are sufficiently authorized. Please point this out to your in-house administrator if this is not the case for you.
+You can only perform the above operations if you are sufficiently authorized. Please point this out
+to your in-house administrator if this is not the case for you.
 
-__CAUTION:__ You can only execute the mentioned operations if you are sufficiently authorized. Please point this out to your in-house administrator if this is not the case for you.
+**CAUTION:** You can only execute the mentioned operations if you are sufficiently authorized.
+Please point this out to your in-house administrator if this is not the case for you.
 
 ## Image management
 
-Usually, the setup of logos/icons in the i__mage management__ is done by the in-house administration. You can learn more about this in the FullClient [Image management](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/mainmenu/extras/image_management/image_manager.md) documentation.
+Usually, the setup of logos/icons in the i**mage management** is done by the in-house
+administration. You can learn more about this in the FullClient
+[Image management](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/mainmenu/extras/image_management/image_manager.md)
+documentation.

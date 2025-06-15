@@ -2,29 +2,37 @@
 
 ## Create a pre-approved Change Request
 
-1. Open __SoD__ > __SoD Change Management__ > __New SoD Approval__
+1. Open **SoD** > **SoD Change Management** > **New SoD Approval**
 
-   ![sod_new_change_request](../../../static/img/product_docs/strongpointfornetsuite/sod/sod_new_change_request.webp)
-2. __Enter information in the following fields:__
+    ![sod_new_change_request](../../../static/img/product_docs/strongpointfornetsuite/sod/sod_new_change_request.webp)
 
-   - __Name__: Enter a name for the request.
-   - __Priority Level__: Select the priority level for the request. Select __New__ to add a custom level.
-   - __Reason for Role or Permission Change__ Enter the information supporting the approval request.
-   - Select one or more of the __Affected Employee(s)__, __Customization (User Role)__, __Proposed User Role(s)__, __Proposed Global Permission(s)__, and __Affected Rule(s)__.
-3. Click __In Progress__ in the status bar to indicate you are working on the request.
-4. Click __Preview SoD Violations__ to see what violations may occur.
-5. __Save__ the Change Request.
-6. The Approval section is now available. Click __Edit__ to add __Additional Approvers__ or __Approver Notes__. Click __Save__ if you make changes. Refer to [Create a Change Request](../change_management/creating_change_request.md) for more details about the status bar.
-7. Click __Pending Approval__ on the status bar.
+2. **Enter information in the following fields:**
 
-   ![sod_new_change_request_pending](../../../static/img/product_docs/strongpointfornetsuite/sod/sod_new_change_request_pending.webp)
+    - **Name**: Enter a name for the request.
+    - **Priority Level**: Select the priority level for the request. Select **New** to add a custom
+      level.
+    - **Reason for Role or Permission Change** Enter the information supporting the approval
+      request.
+    - Select one or more of the **Affected Employee(s)**, **Customization (User Role)**, **Proposed
+      User Role(s)**, **Proposed Global Permission(s)**, and **Affected Rule(s)**.
+
+3. Click **In Progress** in the status bar to indicate you are working on the request.
+4. Click **Preview SoD Violations** to see what violations may occur.
+5. **Save** the Change Request.
+6. The Approval section is now available. Click **Edit** to add **Additional Approvers** or
+   **Approver Notes**. Click **Save** if you make changes. Refer to
+   [Create a Change Request](../change_management/creating_change_request.md) for more details about
+   the status bar.
+7. Click **Pending Approval** on the status bar.
+
+    ![sod_new_change_request_pending](../../../static/img/product_docs/strongpointfornetsuite/sod/sod_new_change_request_pending.webp)
 
 ## Assign a Non-Compliant Role to an Employee
 
-1. Open __Lists__ > __Employees__ > __Employees__
-2. Select __Edit__ by the Affected Employee Name.
-3. Open the __Access__ tab.
-4. Check __Give Access__.
-5. On the __Roles__ tab, select the __Role__.
-6. Click __Add__.
-7. Click __Save__.
+1. Open **Lists** > **Employees** > **Employees**
+2. Select **Edit** by the Affected Employee Name.
+3. Open the **Access** tab.
+4. Check **Give Access**.
+5. On the **Roles** tab, select the **Role**.
+6. Click **Add**.
+7. Click **Save**.

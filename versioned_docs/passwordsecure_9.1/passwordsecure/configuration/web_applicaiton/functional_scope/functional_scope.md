@@ -1,6 +1,8 @@
 # Functional scope
 
-The __Web Application__ will act as the basis for a constant enhancement. The current functional scope will be explained at this point. For the purposes of clarity, the relevant modules will be described in their own subsections.
+The **Web Application** will act as the basis for a constant enhancement. The current functional
+scope will be explained at this point. For the purposes of clarity, the relevant modules will be
+described in their own subsections.
 
 #### General functions
 

@@ -7,7 +7,9 @@ Privilege Secure supports a variety of RDP/SSH clients, including:
 - MS Remote Desktop Connection Manager
 - MS Terminal Services Client (Remote Desktop)
 
-On all Privilege Secure servers, it is recommended to exclude the following directories from antivirus and endpoint protection software. Please note a drive letter is not specified in each path, as that can be customized during each Privilege Secure and service installation.
+On all Privilege Secure servers, it is recommended to exclude the following directories from
+antivirus and endpoint protection software. Please note a drive letter is not specified in each
+path, as that can be customized during each Privilege Secure and service installation.
 
 - \Program Files\Stealthbits\PAM\ActionService
 - \Program Files\Stealthbits\PAM\ActionServiceWorker
@@ -19,16 +21,18 @@ Exclusions for Remote Services:
 
 - Action Service:
 
-  - \Program Files\Stealthbits\PAM\ActionService
-  - \Program Files\Stealthbits\PAM\ActionServiceWorker
-  - \Stealthbits\PAM\ProxyService\
+    - \Program Files\Stealthbits\PAM\ActionService
+    - \Program Files\Stealthbits\PAM\ActionServiceWorker
+    - \Stealthbits\PAM\ProxyService\
+
 - Proxy Service:
 
-  - \Stealthbits\PAM\ProxyService\
+    - \Stealthbits\PAM\ProxyService\
+
 - Scheduler Service:
 
-  - \Stealthbits\PAM\SbPAM.SchedulerService\
-  - \Stealthbits\PAM\ProxyService\
+    - \Stealthbits\PAM\SbPAM.SchedulerService\
+    - \Stealthbits\PAM\ProxyService\
 
 See the following topics for specific installation instructions for remote services:
 

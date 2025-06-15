@@ -13,31 +13,31 @@ GET
 #### Sample Response Syntax
 
 ```
-[  
-    {  
-        "name": "Move and Disable Objects In Active Directory",  
-        "type": "3"  
-    },  
-    {  
-        "name": "Linked Mailbox Creation In Active Directory",  
-        "type": "3"  
-    },  
-    {  
-        "name": "Move Objects in Active Directory",  
-        "type": "3"  
-    },  
-    {  
-        "name": "Sync GAL In Active Directory",  
-        "type": "3"  
-    },  
-    {  
-        "name": "NewJob",  
-        "type": "1"  
-    },  
-    {  
-        "name": "Sync_API",  
-        "type": "1"  
-    }  
+[
+    {
+        "name": "Move and Disable Objects In Active Directory",
+        "type": "3"
+    },
+    {
+        "name": "Linked Mailbox Creation In Active Directory",
+        "type": "3"
+    },
+    {
+        "name": "Move Objects in Active Directory",
+        "type": "3"
+    },
+    {
+        "name": "Sync GAL In Active Directory",
+        "type": "3"
+    },
+    {
+        "name": "NewJob",
+        "type": "1"
+    },
+    {
+        "name": "Sync_API",
+        "type": "1"
+    }
 ]
 ```
 

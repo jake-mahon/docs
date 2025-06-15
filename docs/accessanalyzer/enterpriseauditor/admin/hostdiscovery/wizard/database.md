@@ -1,93 +1,138 @@
 # Import From a Database
 
-Follow the steps to create a Host Discovery query using the __Import from a database__ source option.
+Follow the steps to create a Host Discovery query using the **Import from a database** source
+option.
 
-__CAUTION:__ Each time a query refresh occurs for a query with an import option set as the source, it re-imports the host list. Therefore, deleting, renaming, or moving the import source file causes the query to fail.
+**CAUTION:** Each time a query refresh occurs for a query with an import option set as the source,
+it re-imports the host list. Therefore, deleting, renaming, or moving the import source file causes
+the query to fail.
 
 ![Host Discovery Wizard Source page for database import](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostdiscovery/wizard/source.webp)
 
-__Step 1 –__ Open the Host Discovery Wizard. On the Source page, select the __Import from a database__ option. Click __Next__.
+**Step 1 –** Open the Host Discovery Wizard. On the Source page, select the **Import from a
+database** option. Click **Next**.
 
 ![Host Discovery Wizard Query page for database import](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/nis/query.webp)
 
-__Step 2 –__ On the Query page, name the query and select the credentials used to access the source.
+**Step 2 –** On the Query page, name the query and select the credentials used to access the source.
 
-- Query Name – Provide a unique descriptive name for this query by typing over the ```NEWQUERY``` default name. Two queries cannot have the same name. If you use an existing name, a number is automatically appended to the query name, for example ```NEWQUERY``` becomes ```NEWQUERY1```.
-- Credentials – Select a Connection Profile. These credentials require the appropriate permissions for querying the source:
+- Query Name – Provide a unique descriptive name for this query by typing over the `NEWQUERY`
+  default name. Two queries cannot have the same name. If you use an existing name, a number is
+  automatically appended to the query name, for example `NEWQUERY` becomes `NEWQUERY1`.
+- Credentials – Select a Connection Profile. These credentials require the appropriate permissions
+  for querying the source:
 
-  - Default credentials (credentials the application is run with) – Applies the credentials used to launch the Access Analyzer application
-  - Credentials in my default connection profile – Applies the default Connection Profile configured at the global level (__Settings__ > __Connection__)
-  - Credentials in this connection profile – Use the dropdown list to select a Connection Profile from those preconfigured at the global level (__Settings__ > __Connection__)
+    - Default credentials (credentials the application is run with) – Applies the credentials used
+      to launch the Access Analyzer application
+    - Credentials in my default connection profile – Applies the default Connection Profile
+      configured at the global level (**Settings** > **Connection**)
+    - Credentials in this connection profile – Use the dropdown list to select a Connection Profile
+      from those preconfigured at the global level (**Settings** > **Connection**)
 
-  See the [Connection](../../settings/connection/overview.md) topic for additional information on Connection Profiles.
+    See the [Connection](../../settings/connection/overview.md) topic for additional information on
+    Connection Profiles.
 
-Click __Next__ to continue.
+Click **Next** to continue.
 
 ![Host Discovery Wizard Database Import page](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostdiscovery/wizard/databaseimport.webp)
 
-__Step 3 –__ On the Database Import page, identify the database, table, and column where the host names are located:
+**Step 3 –** On the Database Import page, identify the database, table, and column where the host
+names are located:
 
-- Data source – Identify the database. Click the ellipsis (__…__) to open the Data Link Properties window. Then provide the required information on the Connection tab.
+- Data source – Identify the database. Click the ellipsis (**…**) to open the Data Link Properties
+  window. Then provide the required information on the Connection tab.
 
-  ![Data Link Properties window Connection tab](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostdiscovery/wizard/datalinkproperties.webp)
+    ![Data Link Properties window Connection tab](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostdiscovery/wizard/datalinkproperties.webp)
 
-  - Server name – Use the drop-down menu to select the server. The __Refresh__ button refreshes the list of available servers.
-  - Credentials – Select the credentials to use to log on to the server:
+    - Server name – Use the drop-down menu to select the server. The **Refresh** button refreshes
+      the list of available servers.
+    - Credentials – Select the credentials to use to log on to the server:
 
-    - Use Windows NT Integrated security – This option applies the credentials used to run the Access Analyzer application
-    - Use a specific user name and password – Provide the user name and password and select the __Allow saving password__ option
-    - If selected, the __Blank password__ option indicates that no password is required
+        - Use Windows NT Integrated security – This option applies the credentials used to run the
+          Access Analyzer application
+        - Use a specific user name and password – Provide the user name and password and select the
+          **Allow saving password** option
+        - If selected, the **Blank password** option indicates that no password is required
 
-    ![Test connection succeeded confirmation window](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostdiscovery/wizard/datalinkpropertiestestconnection.webp)
-  - Click __Test Connection__ to confirm a connection has been established. Click __OK__ on the confirmation window.
-  - Database – Select the __Select the database on the server__ option and use the drop-down menu to select the database
-  - The other tabs in the Data Link Properties window should not be modified
+        ![Test connection succeeded confirmation window](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostdiscovery/wizard/datalinkpropertiestestconnection.webp)
 
-    - Provider tab – The database connector, dictated by the source of the data and the data sources that are available on the Access Analyzer Console server. This is set by default to the __Microsoft OLE DB Provider for SQL Server__.
-    - Advanced tab – Allows modifications of the connection timeout to the database server in case the server is slow or far away
-    - All tab – Do not modify this tab
-  - Click __OK__ to close the Data Link Properties window
+    - Click **Test Connection** to confirm a connection has been established. Click **OK** on the
+      confirmation window.
+    - Database – Select the **Select the database on the server** option and use the drop-down menu
+      to select the database
+    - The other tabs in the Data Link Properties window should not be modified
+
+        - Provider tab – The database connector, dictated by the source of the data and the data
+          sources that are available on the Access Analyzer Console server. This is set by default
+          to the **Microsoft OLE DB Provider for SQL Server**.
+        - Advanced tab – Allows modifications of the connection timeout to the database server in
+          case the server is slow or far away
+        - All tab – Do not modify this tab
+
+    - Click **OK** to close the Data Link Properties window
+
 - Table – Use the drop-down menu to select a table from the database
-- Column – Use the drop-down menu to select the column where the host names are located. The selection is highlighted in the Sample data box.
+- Column – Use the drop-down menu to select the column where the host names are located. The
+  selection is highlighted in the Sample data box.
 - Sample data Box – Displays a preview of the selected database table
 
-Click __Next__ to continue.
+Click **Next** to continue.
 
 ![Host Discovery Wizard Options page for database import](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/install/application/options.webp)
 
-__Step 4 –__ On the Options page, configure the query options as required.
+**Step 4 –** On the Options page, configure the query options as required.
 
-- Run the query when jobs that reference it are run – Select this option to automatically execute the Host Discovery query prior to executing a job that has the host list generated by this query assigned. This ensures any new hosts have been discovered and are available for auditing.
+- Run the query when jobs that reference it are run – Select this option to automatically execute
+  the Host Discovery query prior to executing a job that has the host list generated by this query
+  assigned. This ensures any new hosts have been discovered and are available for auditing.
 
-  ___RECOMMENDED:___ Use this setting only for host lists tied to specific jobs that require up-to-date host lists.
+    **_RECOMMENDED:_** Use this setting only for host lists tied to specific jobs that require
+    up-to-date host lists.
+
 - Query Result Retention – Select how to maintain the host list generated by this discovery query:
 
-  - Yes, grow the host list by appending newly discovered hosts – The host list includes every host the query has ever discovered
-  - No, only show hosts that were found during the most recent run – The host list generated by this query includes only hosts found in the most recent query execution. This option removes hosts from the generated host list, but does not remove hosts from the Host Master Table.
+    - Yes, grow the host list by appending newly discovered hosts – The host list includes every
+      host the query has ever discovered
+    - No, only show hosts that were found during the most recent run – The host list generated by
+      this query includes only hosts found in the most recent query execution. This option removes
+      hosts from the generated host list, but does not remove hosts from the Host Master Table.
 
-Click __Next__ to continue.
+Click **Next** to continue.
 
 ![Host Discovery Wizard Inventory page for database import](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostdiscovery/wizard/inventory.webp)
 
-__Step 5 –__ On the Inventory page, the host inventory process can be automatically included with the discovery query.
+**Step 5 –** On the Inventory page, the host inventory process can be automatically included with
+the discovery query.
 
-- Refresh inventory every time when the host discovery query completes – Automates the host inventory process and is dependent on the __Settings__ > __Host Inventory__ node configuration for the age of previously inventoried records. Leaving this option deselected applies the global settings for host inventory.
-- Credentials – Select a Connection Profile. These credentials require the appropriate permissions for gathering inventory information from the discovered hosts:
+- Refresh inventory every time when the host discovery query completes – Automates the host
+  inventory process and is dependent on the **Settings** > **Host Inventory** node configuration for
+  the age of previously inventoried records. Leaving this option deselected applies the global
+  settings for host inventory.
+- Credentials – Select a Connection Profile. These credentials require the appropriate permissions
+  for gathering inventory information from the discovered hosts:
 
-  - Default credentials (credentials the application is run with) – Applies the credentials used to launch the Access Analyzer application
-  - Credentials in my default connection profile – Applies the default Connection Profile configured at the global level (__Settings__ > __Connection__)
-  - Credentials in this connection profile – Use the dropdown list to select a Connection Profile from those preconfigured at the global level (__Settings__ > __Connection__)
+    - Default credentials (credentials the application is run with) – Applies the credentials used
+      to launch the Access Analyzer application
+    - Credentials in my default connection profile – Applies the default Connection Profile
+      configured at the global level (**Settings** > **Connection**)
+    - Credentials in this connection profile – Use the dropdown list to select a Connection Profile
+      from those preconfigured at the global level (**Settings** > **Connection**)
 
-  See the [Connection](../../settings/connection/overview.md) topic for additional information on Connection Profiles.
+    See the [Connection](../../settings/connection/overview.md) topic for additional information on
+    Connection Profiles.
 
-Click __Next__ to continue.
+Click **Next** to continue.
 
 ![Host Discovery Wizard Summary page for database import](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/summary.webp)
 
-__Step 6 –__ The Summary page displays all the selected query configuration settings. To make changes, click __Back__ to navigate to the relevant wizard page. Click Finish to complete the configuration process.
+**Step 6 –** The Summary page displays all the selected query configuration settings. To make
+changes, click **Back** to navigate to the relevant wizard page. Click Finish to complete the
+configuration process.
 
 ![Confirm dialog box](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostdiscovery/wizard/wizardconfirmdialog.webp)
 
-__Step 7 –__ A Confirm dialog box opens. Click __Yes__ to run the query now or __No__ to run the query at another time.
+**Step 7 –** A Confirm dialog box opens. Click **Yes** to run the query now or **No** to run the
+query at another time.
 
-Both options close the Host Discovery Wizard and return to the Host Discovery Queries view on the Host Discovery node. If __Yes__ is selected, the __Query State__ indicates the running query.
+Both options close the Host Discovery Wizard and return to the Host Discovery Queries view on the
+Host Discovery node. If **Yes** is selected, the **Query State** indicates the running query.

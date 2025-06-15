@@ -1,6 +1,7 @@
 # ConnectorResourceTypeAccessControl
 
-Generates the access control rules which give to a profile the permission to create and update resource types, and launch generate provisioning orders and fulfillment from the connector screen.
+Generates the access control rules which give to a profile the permission to create and update
+resource types, and launch generate provisioning orders and fulfillment from the connector screen.
 
 ## Examples
 
@@ -12,9 +13,9 @@ Generates the access control rules which give to a profile the permission to cre
 
 ## Properties
 
-| Property | Details |
-| --- | --- |
-| Profile   required | __Type__    String   __Description__   Identifier of the profile involved in the scaffolding. |
+| Property         | Details                                                                                |
+| ---------------- | -------------------------------------------------------------------------------------- |
+| Profile required | **Type** String **Description** Identifier of the profile involved in the scaffolding. |
 
 ## Generated XML
 

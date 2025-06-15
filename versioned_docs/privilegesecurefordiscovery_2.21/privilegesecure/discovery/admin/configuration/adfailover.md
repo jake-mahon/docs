@@ -4,23 +4,31 @@ AD Failover
 
 # AD Failover
 
-Prior to 2.12, should an LDAP Sync fail (for any reason) the Privilege Secure LDAP Sync Service would not perform any retry logic, or attempt to use an alternate server.
+Prior to 2.12, should an LDAP Sync fail (for any reason) the Privilege Secure LDAP Sync Service
+would not perform any retry logic, or attempt to use an alternate server.
 
-With the LDAP Sync Directory Server Failover feature, the LDAP Sync service can be configured to attempt synchronization with other servers automatically when the server being used becomes unavailable.
+With the LDAP Sync Directory Server Failover feature, the LDAP Sync service can be configured to
+attempt synchronization with other servers automatically when the server being used becomes
+unavailable.
 
-This document will go over that logic, as well as the database schema needed to support it, as well as the logs that are introduced.
+This document will go over that logic, as well as the database schema needed to support it, as well
+as the logs that are introduced.
 
 ## Feature Functionality
 
 ### Standard / Shared LDAP Sync Behavior
 
-This refers to the general behavior / flow of LDAP sync in general, regardless of DC failover or errors encountered
+This refers to the general behavior / flow of LDAP sync in general, regardless of DC failover or
+errors encountered
 
 - When LDAP Sync runs
 
-  - Get the list of all ```ldap_config``` documents in the Privilege Secure database, each of which corresponds to a configured AD domain
+    - Get the list of all `ldap_config` documents in the Privilege Secure database, each of which
+      corresponds to a configured AD domain
 
-    - Attempt to sync with every domain serially, moving onto the next domain after the domain sync has finished by completing or failing.
+        - Attempt to sync with every domain serially, moving onto the next domain after the domain
+          sync has finished by completing or failing.
+
 - Wait for the configured “Run Interval Minutes”, then repeat this cycle
 
 ### LDAP Sync Behavior (Failover: Disabled)
@@ -33,85 +41,116 @@ With LDAP Sync Directory Server Failover disabled, the LDAP Sync cycle occurs as
 
 ### LDAP Sync Behavior (Failover: Enabled)
 
-With DC Failover enabled, we maintain the same general flow - attempt to sync with one domain at a time, moving onto the next one after one has finished (error or not) - however we handle failures for each domain differently.
+With DC Failover enabled, we maintain the same general flow - attempt to sync with one domain at a
+time, moving onto the next one after one has finished (error or not) - however we handle failures
+for each domain differently.
 
-When a _connection_ error (```SERVER_DOWN``` or ```TIMEOUT```) is first encountered during a sync for a domain
+When a _connection_ error (`SERVER_DOWN` or `TIMEOUT`) is first encountered during a sync for a
+domain
 
-- See if the criteria has been met for considering a DC failed or not. In 2.12, the only criteria is the number of attempts made against a particular DC
-- If the __failure criteria has not been met__, retry the current DC, waiting a (configurable) period of time in between connection attempts, until the sync succeeds or the criteria is met
-- The number of retry attempts per DC is configurable in the UI in the Server page, under the settings for each domain. The wait between retry attempts is 1s (this is not configurable in the UI).
-- If the __failure criteria has been met__ for a single DC:
+- See if the criteria has been met for considering a DC failed or not. In 2.12, the only criteria is
+  the number of attempts made against a particular DC
+- If the **failure criteria has not been met**, retry the current DC, waiting a (configurable)
+  period of time in between connection attempts, until the sync succeeds or the criteria is met
+- The number of retry attempts per DC is configurable in the UI in the Server page, under the
+  settings for each domain. The wait between retry attempts is 1s (this is not configurable in the
+  UI).
+- If the **failure criteria has been met** for a single DC:
 
-  - A list of DC’s is acquired from DNS MSDCS SRV records and is sorted by the ```priority```property. This is also how the ```Directory Connection Settings > Detect``` function in the UI chooses a domain when configuring a domain.
-    - Right now, there’s only one strategy for sourcing - ```dns_priority``` - but in the future, we can support additional options like a customer-defined list.
-    - Command to check the DNS MSDCS SRV record from any system, replace "domain.com" at end with name of domain checking:  
-      ```nslookup -type=SRV _ldap._tcp.dc._msdcs.domain.com```
-- The next DC in the prioritized list is attempted to be used until a viable DC is found or the list is exhausted.
+    - A list of DC’s is acquired from DNS MSDCS SRV records and is sorted by the `priority`property.
+      This is also how the `Directory Connection Settings > Detect` function in the UI chooses a
+      domain when configuring a domain.
+        - Right now, there’s only one strategy for sourcing - `dns_priority` - but in the future, we
+          can support additional options like a customer-defined list.
+        - Command to check the DNS MSDCS SRV record from any system, replace "domain.com" at end
+          with name of domain checking:  
+          `nslookup -type=SRV _ldap._tcp.dc._msdcs.domain.com`
+
+- The next DC in the prioritized list is attempted to be used until a viable DC is found or the list
+  is exhausted.
 - If the failover process results in using a different DC rather than the “initial DC”:
-  - All attempted syncs will be ```init``` syncs
+    - All attempted syncs will be `init` syncs
 
-__CAUTION:__ This is not a ```full_sync```!
+**CAUTION:** This is not a `full_sync`!
 
-- ```init_sync``` will do a group flattening process, but __will not move stale objects__
-- ```full_sync```__will not do a group flattening process,__ but _will_ move stale objects
-- We have decided to do an ```init_sync``` as this mimics what Customer Success currently does to recover from an AD failure. This feature “automates” this approach within the product.
+- `init_sync` will do a group flattening process, but **will not move stale objects**
+- `full_sync`**will not do a group flattening process,** but _will_ move stale objects
+- We have decided to do an `init_sync` as this mimics what Customer Success currently does to
+  recover from an AD failure. This feature “automates” this approach within the product.
 
-  - The manual failover process is to update the ```ldap_config``` with a new DC, and set the the USN values to 0.
-  - According to ldap_sync behavior, when a sync is started with a ```highest_usn``` value of 0, it will switch the sync into ```init_sync``` mode.
-- Any successful connection / ldap bind to an alternate DC will immediately update the ```ldap_config``` with this new DCs info
+    - The manual failover process is to update the `ldap_config` with a new DC, and set the the USN
+      values to 0.
+    - According to ldap_sync behavior, when a sync is started with a `highest_usn` value of 0, it
+      will switch the sync into `init_sync` mode.
 
-  - The intent is to optimistically update the config ASAP to restore AD user authentication ASAP. A successful connection is a strong positive signal the new DC is viable.
-  - The ```previous_usn``` and ```highest_usn``` values are set to 0
+- Any successful connection / ldap bind to an alternate DC will immediately update the `ldap_config`
+  with this new DCs info
 
-    - This will ensure that if an unexpected error occurs after a successful connection connection, the next ldap sync cycle, will initiate an ```init_sync```, rather than starting from USN values misaligned with the recently-set DC
+    - The intent is to optimistically update the config ASAP to restore AD user authentication ASAP.
+      A successful connection is a strong positive signal the new DC is viable.
+    - The `previous_usn` and `highest_usn` values are set to 0
 
-__CAUTION:__ There can still be an ldap connection error after this point, which could occur during the search for ldap entries or authentication. It’s worth noting that we get ldap data (for any type) as paged results, so every time we request a new page is an opportunity for a connection to go bad.
+        - This will ensure that if an unexpected error occurs after a successful connection
+          connection, the next ldap sync cycle, will initiate an `init_sync`, rather than starting
+          from USN values misaligned with the recently-set DC
 
-- Any "Ldap Sync Activity" (what shows up in the UI as the "status" for the domain) will be prepended with ```Failover DC Attempt:```
+**CAUTION:** There can still be an ldap connection error after this point, which could occur during
+the search for ldap entries or authentication. It’s worth noting that we get ldap data (for any
+type) as paged results, so every time we request a new page is an opportunity for a connection to go
+bad.
 
-  - This will prepend all activity messages for this domain __until the next ldap sync cycle__
-- The result of the _domain_ failover attempt (regardless of success or fail) will be saved in the database
+- Any "Ldap Sync Activity" (what shows up in the UI as the "status" for the domain) will be
+  prepended with `Failover DC Attempt:`
 
-  - There is currently no ui view into this, it is primarily there to help answer questions should the need arise, and to support a UI later if needed
-  - This will record the initial DC, any attempted DCs, whether the failover routine succeeded or failed on the whole, and the new DC, as applicable
+    - This will prepend all activity messages for this domain **until the next ldap sync cycle**
+
+- The result of the _domain_ failover attempt (regardless of success or fail) will be saved in the
+  database
+
+    - There is currently no ui view into this, it is primarily there to help answer questions should
+      the need arise, and to support a UI later if needed
+    - This will record the initial DC, any attempted DCs, whether the failover routine succeeded or
+      failed on the whole, and the new DC, as applicable
 
 ## Database
 
-__CAUTION:__ There is an associated migration which must be run in order for this feature to work properly!
+**CAUTION:** There is an associated migration which must be run in order for this feature to work
+properly!
 
-The DC Failover feature’s configuration lives on an ```ldap_config``` db document in the ```secureone_config``` collection.
+The DC Failover feature’s configuration lives on an `ldap_config` db document in the
+`secureone_config` collection.
 
-Assuming all existing ```ldap_config``` fields are not shown, the schema will be the following:
+Assuming all existing `ldap_config` fields are not shown, the schema will be the following:
 
 ```
-ldapConfig = {  
-failover_config: {  
-enabled: Boolean,  
- failover_dc_source: 'dns_priority', // currently the only option  
- dc_fail_criteria: {  
-// There is another strategy which is based on total duration (regardless of number of attempts)  
-// however it is advised we do not use that now as it introduces complexity strategy: 'retry_attempts',  
- // This field is for the alternate strategy mentioned above, safe to ignore for now  
-// total_duration_seconds: Number  
- retry_attempts_max: Number, // Default of 5. Is configurable via the UI as of 2.12  
-wait_between_attempts_seconds: Number, // Default of 1. is NOT configurable via the UI as of 2.12  },  
-failover_history: [{  
- initial_dc: {  
-server: String,  
-port: Number,  
-},  
- attempted_dcs: [{  
-server: String,  
- port: Number,  
-}],  
- failover_dc: { // Or null, if failover did not succeed  
-server: String,  
- port: Number,  
-  },  
- failover_success: Boolean,  
-sync_start: Date, // Start of the sync process for the domain  
-sync_end: Date, // end of the sync process for the domain. IOW will account for the time spent attempting all DCs    
-}]  
+ldapConfig = {
+failover_config: {
+enabled: Boolean,
+ failover_dc_source: 'dns_priority', // currently the only option
+ dc_fail_criteria: {
+// There is another strategy which is based on total duration (regardless of number of attempts)
+// however it is advised we do not use that now as it introduces complexity strategy: 'retry_attempts',
+ // This field is for the alternate strategy mentioned above, safe to ignore for now
+// total_duration_seconds: Number
+ retry_attempts_max: Number, // Default of 5. Is configurable via the UI as of 2.12
+wait_between_attempts_seconds: Number, // Default of 1. is NOT configurable via the UI as of 2.12  },
+failover_history: [{
+ initial_dc: {
+server: String,
+port: Number,
+},
+ attempted_dcs: [{
+server: String,
+ port: Number,
+}],
+ failover_dc: { // Or null, if failover did not succeed
+server: String,
+ port: Number,
+  },
+ failover_success: Boolean,
+sync_start: Date, // Start of the sync process for the domain
+sync_end: Date, // end of the sync process for the domain. IOW will account for the time spent attempting all DCs  
+}]
 }
 ```
 
@@ -121,23 +160,24 @@ In addition to the failover history being updated, we have implemented logs for 
 
 Existing logging in ldap sync should remain unchanged (additions only).
 
-The following logs are roughly in order one might encounter them, and do not include otherwise-present log fields that are in all ldap logs.
+The following logs are roughly in order one might encounter them, and do not include
+otherwise-present log fields that are in all ldap logs.
 
-| Log Entry Trigger | Log Level | Message field | Details (key:value pairs in the log “details”) |
-| --- | --- | --- | --- |
-| Starting the initial ldap sync for a DC (failover not enabled) | info | "Attemping LDAP Sync" | __dc_failover_enabled__: false   __current_dc__: server, port of current dc |
-| Starting an LDAP sync for a DC, on any attempt after the first (failover enabled) | warning | "Domain Controller (DC) Failover: Attempting LDAP Sync" | __dc_failover_enabled__: t/f   __is_initial_dc__: t/f   __current_dc:__ server, port of current dc   __current_dc_connection_attempts__: Number of connection attempts per this DC   __attempted_dcs_count__: Total number of attempted DCs |
-| After any error has occurred during ldap sync, failover disabled | error | "Error encountered during LDAP Sync" | __dc_failover_enabled__: t/f   __current_dc__: server, port of current dc   __error__: dict containing error details |
-| After any error has occurred during ldap sync, failover enabled | error | "Domain Controller (DC) Failover: Error encountered during LDAP Sync" | __dc_failover_enabled__: t/f   __current_dc__: server, port of current dc   __current_dc_try_count__: number of connection attempts per this dc   __current_dc_try_duration_sec__: total eslapsed time attempting connection to this dc, in seconds   __error__: dict containing error details |
-| Connection has failed, failure criteria for current dc not yet met (retry attempts) | warning | "Domain Controller (DC) Failover: LDAP Sync failed - Retrying current DC | __current_dc__: server, port of current dc   __fail_strategy__: "retry_attempts"   __attempts_max__: Max number of retry attempts before trying the next pto a different DC   __attempts_current__: number of attempts already completed |
-| Connection has failed, failure criteria for current dc has been met and we are movig onto the next DC | warning | "Domain Controller (DC) Failover: LDAP Sync failed - Using next DC" | __next_dc__: server, port   __attempted_dcs__: server, port of attempted (and failed) dcs   __remaining_additional_dcs__: server, port of additional DCs to try |
-| Connection has failed, failure criteria for current dc not yet met, waiting to retry | info | "Domain Controller (DC) Failover: Waiting to retry current DC" | __server__: hostname of current dc   __wait_for_sec__: number of seconds waiting in between retry attempts |
-| Initial DC has failed, failover enabled, was able to look up additional DCs via DNS | warning | "Domain Controller (DC) Failover: Found additional DCs" | __additional_dcs:__ list of alternate DCs that will be attempted (ordered by priority), comprised of server, port   __additional_dc_source__: source of additional dcs, currently should just be "dns_priority" |
-|  | warning | "Domain Controller (DC) Failover: Unable to find any additional DCs" | __additional_dc_source__: source of additional dcs, currently should just be "dns_priority" |
-| Initial DC success | \* No new log added, it is already logged by svc_ldap \* |  |  |
-| Initial DC failed and failover DC has successfully synced | info | "Domain Controller (DC) Failover: LDAP Sync failover succeeded" | __initial_dc__: server, port of initial DC   __attempted_dcs__: List of attempted (and failed) dcs, comprised of server, port   __failover_dc__: The fail-overed dc hostname   __sync_start_ts__: timestamp of sync start   __sync_end_ts__: timestamp of sync end, including all faiilover attempts |
-| Initial DC failed and failover not enabled | error | "LDAP Sync failed" | __dc_failover_enabled__: false   __error:__ dict of error details   __sync_start_ts__: start time of sync   __sync_end_ts__: end of sync incuding all time spent in failover routine |
-| Initial DC failed and failover is enabled and unsuccessful | error | "Domain Controller (DC) Failover: LDAP Sync failed for all available DCs" | __dc_failover_enabled__: true   __initial_dc server__: server, port of the initial dc   __attempted_dcs__: list of attempted (and failed) dcs, comprised of server, port   __sync_start_ts__: start time of sync   __sync_end_ts__: end of sync incuding all time spent in failover routine |
+| Log Entry Trigger                                                                                     | Log Level                                                | Message field                                                             | Details (key:value pairs in the log “details”)                                                                                                                                                                                                                                               |
+| ----------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | ------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Starting the initial ldap sync for a DC (failover not enabled)                                        | info                                                     | "Attemping LDAP Sync"                                                     | **dc_failover_enabled**: false **current_dc**: server, port of current dc                                                                                                                                                                                                                    |
+| Starting an LDAP sync for a DC, on any attempt after the first (failover enabled)                     | warning                                                  | "Domain Controller (DC) Failover: Attempting LDAP Sync"                   | **dc_failover_enabled**: t/f **is_initial_dc**: t/f **current_dc:** server, port of current dc **current_dc_connection_attempts**: Number of connection attempts per this DC **attempted_dcs_count**: Total number of attempted DCs                                                          |
+| After any error has occurred during ldap sync, failover disabled                                      | error                                                    | "Error encountered during LDAP Sync"                                      | **dc_failover_enabled**: t/f **current_dc**: server, port of current dc **error**: dict containing error details                                                                                                                                                                             |
+| After any error has occurred during ldap sync, failover enabled                                       | error                                                    | "Domain Controller (DC) Failover: Error encountered during LDAP Sync"     | **dc_failover_enabled**: t/f **current_dc**: server, port of current dc **current_dc_try_count**: number of connection attempts per this dc **current_dc_try_duration_sec**: total eslapsed time attempting connection to this dc, in seconds **error**: dict containing error details       |
+| Connection has failed, failure criteria for current dc not yet met (retry attempts)                   | warning                                                  | "Domain Controller (DC) Failover: LDAP Sync failed - Retrying current DC  | **current_dc**: server, port of current dc **fail_strategy**: "retry_attempts" **attempts_max**: Max number of retry attempts before trying the next pto a different DC **attempts_current**: number of attempts already completed                                                           |
+| Connection has failed, failure criteria for current dc has been met and we are movig onto the next DC | warning                                                  | "Domain Controller (DC) Failover: LDAP Sync failed - Using next DC"       | **next_dc**: server, port **attempted_dcs**: server, port of attempted (and failed) dcs **remaining_additional_dcs**: server, port of additional DCs to try                                                                                                                                  |
+| Connection has failed, failure criteria for current dc not yet met, waiting to retry                  | info                                                     | "Domain Controller (DC) Failover: Waiting to retry current DC"            | **server**: hostname of current dc **wait_for_sec**: number of seconds waiting in between retry attempts                                                                                                                                                                                     |
+| Initial DC has failed, failover enabled, was able to look up additional DCs via DNS                   | warning                                                  | "Domain Controller (DC) Failover: Found additional DCs"                   | **additional_dcs:** list of alternate DCs that will be attempted (ordered by priority), comprised of server, port **additional_dc_source**: source of additional dcs, currently should just be "dns_priority"                                                                                |
+|                                                                                                       | warning                                                  | "Domain Controller (DC) Failover: Unable to find any additional DCs"      | **additional_dc_source**: source of additional dcs, currently should just be "dns_priority"                                                                                                                                                                                                  |
+| Initial DC success                                                                                    | \* No new log added, it is already logged by svc_ldap \* |                                                                           |                                                                                                                                                                                                                                                                                              |
+| Initial DC failed and failover DC has successfully synced                                             | info                                                     | "Domain Controller (DC) Failover: LDAP Sync failover succeeded"           | **initial_dc**: server, port of initial DC **attempted_dcs**: List of attempted (and failed) dcs, comprised of server, port **failover_dc**: The fail-overed dc hostname **sync_start_ts**: timestamp of sync start **sync_end_ts**: timestamp of sync end, including all faiilover attempts |
+| Initial DC failed and failover not enabled                                                            | error                                                    | "LDAP Sync failed"                                                        | **dc_failover_enabled**: false **error:** dict of error details **sync_start_ts**: start time of sync **sync_end_ts**: end of sync incuding all time spent in failover routine                                                                                                               |
+| Initial DC failed and failover is enabled and unsuccessful                                            | error                                                    | "Domain Controller (DC) Failover: LDAP Sync failed for all available DCs" | **dc_failover_enabled**: true **initial_dc server**: server, port of the initial dc **attempted_dcs**: list of attempted (and failed) dcs, comprised of server, port **sync_start_ts**: start time of sync **sync_end_ts**: end of sync incuding all time spent in failover routine          |
 
 ### Example Logs
 

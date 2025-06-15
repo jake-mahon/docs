@@ -1,6 +1,7 @@
 # SMARTLog: Event Log Options
 
-The Event Log Options page is used to configure additional options. It is a wizard page for all log types.
+The Event Log Options page is used to configure additional options. It is a wizard page for all log
+types.
 
 ![SMART Log DC Wizard Event Log Options page](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/smartlog/eventlogoptions.webp)
 

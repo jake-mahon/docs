@@ -1,6 +1,8 @@
 # Synchronize Jobs APIs
 
-Directory Manager Synchronize is used for transferring data from one data source to another. The data sources may include directory servers, databases or files. The following APIs can be used for performing Synchronize jobs-specific functions:
+Directory Manager Synchronize is used for transferring data from one data source to another. The
+data sources may include directory servers, databases or files. The following APIs can be used for
+performing Synchronize jobs-specific functions:
 
 - [Create a New Job](createjob.md)
 - [Create a New Job Collection](createnewjobcollection.md)

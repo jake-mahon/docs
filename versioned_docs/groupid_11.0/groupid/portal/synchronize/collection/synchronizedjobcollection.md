@@ -1,24 +1,30 @@
 # Synchronized Job Collection
 
-On the Synchronize Job Collection page, you view the list of jobs that you have added to the collection and their information. You can add exisitng jobs or new jobs to the collections. You can also rename, change the order, and remove jobs from the job
-collection.
+On the Synchronize Job Collection page, you view the list of jobs that you have added to the
+collection and their information. You can add exisitng jobs or new jobs to the collections. You can
+also rename, change the order, and remove jobs from the job collection.
 
-1. On the __Synchronized Jobs Collection__ page, add jobs to the collection.
+1. On the **Synchronized Jobs Collection** page, add jobs to the collection.
 
-   - To add an existing job to the collection, select __Add Existing Job(s)__ dialog box. Select the check box next to the name of each job to be
-     added and click __Add in Collection__.
-   - To add a new job to the collection, select __Add New Job__ dialog box. Follow the steps from [Create a Job](/versioned_docs/groupid_11.0/groupid/portal/synchronize/job/create.md).
-2. Rename the jobs in the job collection by clicking the __three vertical dots__ button and click __Rename__.
-3. Set the run order of an individual job by clicking the __three vertical dots__ button and then selecting __Move Up__ or
-   __Move Down.__
-4. Set the action to take on the failure of a job by clicking its cell in the __On Failure__ column and then selecting one of the following:
+    - To add an existing job to the collection, select **Add Existing Job(s)** dialog box. Select
+      the check box next to the name of each job to be added and click **Add in Collection**.
+    - To add a new job to the collection, select **Add New Job** dialog box. Follow the steps from
+      [Create a Job](/versioned_docs/groupid_11.0/groupid/portal/synchronize/job/create.md).
 
-   - __Abort__, to stop the execution of the remaining jobs in the collection.
-   - __Continue__, to continue the execution of next job in the collection.
-5. If you want to remove a job from the job collection, select the required job and click __Remove__.
-6. Click __Next Step__ to continue.
+2. Rename the jobs in the job collection by clicking the **three vertical dots** button and click
+   **Rename**.
+3. Set the run order of an individual job by clicking the **three vertical dots** button and then
+   selecting **Move Up** or **Move Down.**
+4. Set the action to take on the failure of a job by clicking its cell in the **On Failure** column
+   and then selecting one of the following:
 
-__See Also__
+    - **Abort**, to stop the execution of the remaining jobs in the collection.
+    - **Continue**, to continue the execution of next job in the collection.
 
-- [Create a Job Collection
-  ](/versioned_docs/groupid_11.0/groupid/portal/synchronize/collection/create.md)
+5. If you want to remove a job from the job collection, select the required job and click
+   **Remove**.
+6. Click **Next Step** to continue.
+
+**See Also**
+
+- [Create a Job Collection ](/versioned_docs/groupid_11.0/groupid/portal/synchronize/collection/create.md)

@@ -1,20 +1,26 @@
 # JobViewAccessControlRules
 
-Scaffolding to generate a set of rights to view all JobInstances, TaskInstances and logs.
-This Scaffolding performs a set of scaffolding rights for Jobs and Tasks.
+Scaffolding to generate a set of rights to view all JobInstances, TaskInstances and logs. This
+Scaffolding performs a set of scaffolding rights for Jobs and Tasks.
 
 The scaffolding generates the following scaffoldings:
 
-- [GetJobLogAdministrationAccessControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/getjoblogadministrationaccesscontrolrules/index.md): Generates the permissions to read task and job instances logs in UI for a given profile.
-- [JobAdministrationAccessControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/jobadministrationaccesscontrolrules/index.md): Scaffolding to access the job administration page.
-- [PendingAssignedResourceTypesAccessControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/pendingassignedresourcetypesaccesscontrolrules/index.md): Generates the access control rules which give to a profile the permissions to call the API Pending AssignedResourceTypes.
-- [ResourceChangesViewAccessControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/resourcechangesviewaccesscontrolrules/index.md): Generates the access control rules which gives to a profile the permissions to call the API ResourceChange, ResourceFileChange and ResourceLinkChange.
+- [GetJobLogAdministrationAccessControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/getjoblogadministrationaccesscontrolrules/index.md):
+  Generates the permissions to read task and job instances logs in UI for a given profile.
+- [JobAdministrationAccessControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/jobadministrationaccesscontrolrules/index.md):
+  Scaffolding to access the job administration page.
+- [PendingAssignedResourceTypesAccessControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/pendingassignedresourcetypesaccesscontrolrules/index.md):
+  Generates the access control rules which give to a profile the permissions to call the API Pending
+  AssignedResourceTypes.
+- [ResourceChangesViewAccessControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/resourcechangesviewaccesscontrolrules/index.md):
+  Generates the access control rules which gives to a profile the permissions to call the API
+  ResourceChange, ResourceFileChange and ResourceLinkChange.
 
 ## Properties
 
-| Property | Details |
-| --- | --- |
-| Profile   required | __Type__    String   __Description__   Identifier of the profile involved in the scaffolding. |
+| Property         | Details                                                                                |
+| ---------------- | -------------------------------------------------------------------------------------- |
+| Profile required | **Type** String **Description** Identifier of the profile involved in the scaffolding. |
 
 ## Generated XML
 

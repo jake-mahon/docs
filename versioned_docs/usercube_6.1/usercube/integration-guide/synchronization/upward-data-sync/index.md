@@ -1,10 +1,13 @@
 # Upward Data Synchronization
 
-Upward Data Synchronization (Sync Up) is the process that copies relevant managed systems data into [Usercube's resource repository](/versioned_docs/usercube_6.1/usercube/integration-guide/entity-model/index.md) and translates them into resources that match the configured Entity Model.
+Upward Data Synchronization (Sync Up) is the process that copies relevant managed systems data into
+[Usercube's resource repository](/versioned_docs/usercube_6.1/usercube/integration-guide/entity-model/index.md)
+and translates them into resources that match the configured Entity Model.
 
 Performing a _Sync Up_ allows the user to:
 
-- integrate the managed systems state with Usercube. The copied data serves as the basis for the assignment computation;
+- integrate the managed systems state with Usercube. The copied data serves as the basis for the
+  assignment computation;
 - check that previously edited provisioning orders have been accurately executed;
 - ascertains differences between the real managed system state and the theoretical state.
 
@@ -12,11 +15,13 @@ Performing a _Sync Up_ allows the user to:
 
 ### A scheduled sync up per managed system
 
-_Sync Up_ is performed regularly, at least every day, as a [set of Tasks](/versioned_docs/usercube_6.1/usercube/integration-guide/tasks-jobs/index.md).
+_Sync Up_ is performed regularly, at least every day, as a
+[set of Tasks](/versioned_docs/usercube_6.1/usercube/integration-guide/tasks-jobs/index.md).
 
 A _Sync Up_ is planned for every managed system that interact with Usercube.
 
-A _Sync Up_ is associated with a [__Connector__](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/index.md).
+A _Sync Up_ is associated with a
+[**Connector**](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/index.md).
 
 ### Three sync up mode
 
@@ -26,102 +31,184 @@ Usercube provides three distinct synchronization algorithms:
 - _complete_
 - _initial_
 
-_Complete_ is most straightforward one. A _complete__Sync Up_ loads the managed systems' data into Usercube as-is, replacing entirely the currently held data.
+_Complete_ is most straightforward one. A _complete\_\_Sync Up_ loads the managed systems' data into
+Usercube as-is, replacing entirely the currently held data.
 
-As it involves sending large amounts of data over HTTP between _Agent_ and _Server_, _complete_ execution time can be quite large.
+As it involves sending large amounts of data over HTTP between _Agent_ and _Server_, _complete_
+execution time can be quite large.
 
-To improve the _Sync Up_ execution time, Usercube provides the _incremental_ mode. This mode only considers changes made to the managed systems since the last _Sync Up_. Those are applied to the Usercube's database. Only changes are sent through the network, instead of whole data files, which allows the _Sync Up_ execution time to be greatly reduced.
+To improve the _Sync Up_ execution time, Usercube provides the _incremental_ mode. This mode only
+considers changes made to the managed systems since the last _Sync Up_. Those are applied to the
+Usercube's database. Only changes are sent through the network, instead of whole data files, which
+allows the _Sync Up_ execution time to be greatly reduced.
 
-Changes are computed either by the managed system itself, given such capabilities are available, or by a Usercube's _Agent_.
+Changes are computed either by the managed system itself, given such capabilities are available, or
+by a Usercube's _Agent_.
 
 However, the _incremental_ mode cannot be 100% reliable for two reasons.
 
-First, it relies on external inputs that are not directly controlled by Usercube. Second, it only exports changes based on the managed system state, not on Usercube's database state.
+First, it relies on external inputs that are not directly controlled by Usercube. Second, it only
+exports changes based on the managed system state, not on Usercube's database state.
 
-External perturbations could cause slight differences between the database's state and the managed systems'. Order can be restored by running a _complete_ Sync Up regularly. A _complete_ Sync Up ensures the database is in a stable state, faithfully reflecting the managed system state, before resuming the _incremental Sync Up_ iterations.
+External perturbations could cause slight differences between the database's state and the managed
+systems'. Order can be restored by running a _complete_ Sync Up regularly. A _complete_ Sync Up
+ensures the database is in a stable state, faithfully reflecting the managed system state, before
+resuming the _incremental Sync Up_ iterations.
 
-Safeguards are also implemented to avoid accidental overwrites, that would be caused by an empty or incomplete input.
+Safeguards are also implemented to avoid accidental overwrites, that would be caused by an empty or
+incomplete input.
 
-Finally, the _initial__Sync Up_ is designed to be used the first time a managed system connects to Usercube. Just as the _complete_, it loads the data as a whole. But, unlike the _complete_, it does not overwrites the currently held data and does not provide any safeguard. The _initial_ mode provides a quick way to perform the first _Sync Up_. The trade-off is security: _initial__Sync Up_ should only be used the first time a managed system connected to Usercube and the database is empty, as far as this connector is concerned. Launching the Initial _Sync Up_ twice would actually load the same data twice whereas launching the _complete_ twice would have the same effect as launching the _complete_ once.
+Finally, the _initial\_\_Sync Up_ is designed to be used the first time a managed system connects to
+Usercube. Just as the _complete_, it loads the data as a whole. But, unlike the _complete_, it does
+not overwrites the currently held data and does not provide any safeguard. The _initial_ mode
+provides a quick way to perform the first _Sync Up_. The trade-off is security: _initial\_\_Sync Up_
+should only be used the first time a managed system connected to Usercube and the database is empty,
+as far as this connector is concerned. Launching the Initial _Sync Up_ twice would actually load the
+same data twice whereas launching the _complete_ twice would have the same effect as launching the
+_complete_ once.
 
 ### An ETL process
 
-_Sync Up_ is organized as an [Extract, Transform, Load](https://en.wikipedia.org/wiki/Extract,_transform,_load) process. It's composed of three steps: _export_, _prepare-synchronization_, and _synchronization_.
+_Sync Up_ is organized as an
+[Extract, Transform, Load](https://en.wikipedia.org/wiki/Extract,_transform,_load) process. It's
+composed of three steps: _export_, _prepare-synchronization_, and _synchronization_.
 
 ## Export
 
 The _Export_ is the first step of the _Sync Up_.
 
-During this step, data is extracted from the managed system and generates _CSV files_ containing the managed system's raw data. The __output__ of this process is called the ___CSV source files___. They are written to the [export directory](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) waiting to be used by the next-in-line _prepare-synchronization task_.
+During this step, data is extracted from the managed system and generates _CSV files_ containing the
+managed system's raw data. The **output** of this process is called the **_CSV source files_**. They
+are written to the
+[export directory](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
+waiting to be used by the next-in-line _prepare-synchronization task_.
 
 The _Export_ occurs _Agent_-side.
 
 ### Native support or custom process
 
-Depending on the managed systems capabilities, an _Export_ step can be performed by one of Usercube's native tasks or by custom scripts.
+Depending on the managed systems capabilities, an _Export_ step can be performed by one of
+Usercube's native tasks or by custom scripts.
 
 #### Using Usercube's native process
 
-Usercube's [__Connectors__](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/index.md) provide native _Export_ tasks for the most common managed systems. _Active Directory_, _SAP_, or _SharePoint_ are examples of natively supported managed systems. The output _CSV source files_ format is described in the [__Connectors__](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/index.md) section together with an exhaustive list of supported source managed systems.
+Usercube's
+[**Connectors**](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/index.md)
+provide native _Export_ tasks for the most common managed systems. _Active Directory_, _SAP_, or
+_SharePoint_ are examples of natively supported managed systems. The output _CSV source files_
+format is described in the
+[**Connectors**](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/index.md)
+section together with an exhaustive list of supported source managed systems.
 
-[Connectors](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/index.md) are Usercube's link to the managed system. They provide configurable export and fulfill capabilities that can be used by Usercube _as-is_ without any further development.
+[Connectors](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/index.md) are
+Usercube's link to the managed system. They provide configurable export and fulfill capabilities
+that can be used by Usercube _as-is_ without any further development.
 
 #### Using a custom process
 
-Exporting data from a managed system without a native Usercube process is still possible by writing a custom _Export_ process.
+Exporting data from a managed system without a native Usercube process is still possible by writing
+a custom _Export_ process.
 
-If the managed system has built-in export capabilities, Usercube can simply rely on exports scheduled by the source managed system. Regularly, the managed system generates reports, in whatever format. A custom task, such as a [PowerShell script](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/invokeexpressiontask/index.md), can then be used to retrieve the generated exports, adapt them to the _CSV source files_ format expected by Usercube and copy them to the [_export directory_](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md). The whole can be scheduled and orchestrated by a [Job](/versioned_docs/usercube_6.1/usercube/integration-guide/tasks-jobs/jobs/index.md).
+If the managed system has built-in export capabilities, Usercube can simply rely on exports
+scheduled by the source managed system. Regularly, the managed system generates reports, in whatever
+format. A custom task, such as a
+[PowerShell script](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/invokeexpressiontask/index.md),
+can then be used to retrieve the generated exports, adapt them to the _CSV source files_ format
+expected by Usercube and copy them to the
+[_export directory_](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md).
+The whole can be scheduled and orchestrated by a
+[Job](/versioned_docs/usercube_6.1/usercube/integration-guide/tasks-jobs/jobs/index.md).
 
-__For example__, a common scenario is to configure an HR management system to perform daily extracts of its data to CSV files for the _Agent_ to find. This usually can be set up without any Usercube's task, just by using the managed system and the organization's network capabilities.
+**For example**, a common scenario is to configure an HR management system to perform daily extracts
+of its data to CSV files for the _Agent_ to find. This usually can be set up without any Usercube's
+task, just by using the managed system and the organization's network capabilities.
 
-If the managed system does not provide built-in export features but provides an API or an exposed database, it's possible to write a custom _export_ process based on that API or direct requests to the managed system's database. This process can then be used as an _export task_ wrapped in a [PowerShell script](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/invokeexpressiontask/index.md) or a [SQL command](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/invokesqlcommandtask/index.md). Any Windows process that can be called from a PowerShell script and generate a CSV file can serve as an export process.
+If the managed system does not provide built-in export features but provides an API or an exposed
+database, it's possible to write a custom _export_ process based on that API or direct requests to
+the managed system's database. This process can then be used as an _export task_ wrapped in a
+[PowerShell script](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/invokeexpressiontask/index.md)
+or a
+[SQL command](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/invokesqlcommandtask/index.md).
+Any Windows process that can be called from a PowerShell script and generate a CSV file can serve as
+an export process.
 
-__How to choose the custom CSV source file format ?__ It's best to keep it simple and stick as closely as possible to the managed system data model. Data cleansing and translation to the resource repository's Entity Model is handled later in the _Sync Up_ process. There is no need to try and optimize the CSV source file format in a custom script. It's best to keep it close to the managed system to be able to spot early _export_ errors.
+**How to choose the custom CSV source file format ?** It's best to keep it simple and stick as
+closely as possible to the managed system data model. Data cleansing and translation to the resource
+repository's Entity Model is handled later in the _Sync Up_ process. There is no need to try and
+optimize the CSV source file format in a custom script. It's best to keep it close to the managed
+system to be able to spot early _export_ errors.
 
 ### Export tasks output
 
-The format of the exported _CSV Source files_ depends on the chosen _Sync Up_ mode and on the used _export task_. Nonetheless, there are a few criteria that _prepare-synchronization_ expects to find in those files.
+The format of the exported _CSV Source files_ depends on the chosen _Sync Up_ mode and on the used
+_export task_. Nonetheless, there are a few criteria that _prepare-synchronization_ expects to find
+in those files.
 
 First, it must be a CSV format. One line per entry, and every attribute as a column.
 
 Then, there is a slight difference between _Complete/Initial_ and _Incremental_ export.
 
-With the _Complete_ and _Initial_ modes, _CSV source files_ contain an exact extract of the managed system's data as a list of entries. At this point, the Entity Model is not yet involved. Every line of the _CSV source file_ mirrors a line in the source managed system database.
+With the _Complete_ and _Initial_ modes, _CSV source files_ contain an exact extract of the managed
+system's data as a list of entries. At this point, the Entity Model is not yet involved. Every line
+of the _CSV source file_ mirrors a line in the source managed system database.
 
-With _Incremental_ mode, if the source managed system is able, one more column is added. It contains a ADD, UPDATE, or DELETE instruction. _Incremental_ export generates a list of changes made on the managed system since the last export, instead of an exact mirror of the data. Active Directory and Microsoft Entra ID (formerly Microsoft Azure AD), for example, are able to produce such exports, as LDIF files, that the Active Directory connector translates into _resources_ changes. Usercube's native support for ServiceNow and SCIM also provides such capabilities.
+With _Incremental_ mode, if the source managed system is able, one more column is added. It contains
+a ADD, UPDATE, or DELETE instruction. _Incremental_ export generates a list of changes made on the
+managed system since the last export, instead of an exact mirror of the data. Active Directory and
+Microsoft Entra ID (formerly Microsoft Azure AD), for example, are able to produce such exports, as
+LDIF files, that the Active Directory connector translates into _resources_ changes. Usercube's
+native support for ServiceNow and SCIM also provides such capabilities.
 
-In case the source managed system does not possess _incremental_ export capabilities, the changes computation is performed during the _prepare-synchronization_ step.
+In case the source managed system does not possess _incremental_ export capabilities, the changes
+computation is performed during the _prepare-synchronization_ step.
 
-Inside those constraints, every natively supported _export task_ generates its own _CSV source file format_, described in the [connectors section](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/index.md). Usually, two kinds of files are generated: _entries_, describing plain entries, and _associations_, describing associations between entries.
+Inside those constraints, every natively supported _export task_ generates its own _CSV source file
+format_, described in the
+[connectors section](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/index.md).
+Usually, two kinds of files are generated: _entries_, describing plain entries, and _associations_,
+describing associations between entries.
 
 All _CSV source files_ are written to the _export directory_.
 
-At the end of the _export_ step, the [_export directory_](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) contains several files per connectors, that will be translated into _resources_ during _prepare-synchronization_ and _synchronization_ steps thanks to Entity Mapping (see below).
+At the end of the _export_ step, the
+[_export directory_](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
+contains several files per connectors, that will be translated into _resources_ during
+_prepare-synchronization_ and _synchronization_ steps thanks to Entity Mapping (see below).
 
-The [_export directory_](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) can also contain opaque [cookie files](https://ldapwiki.com/wiki/DirSync) used for incremental export of a few systems such as Active Directory, Microsoft Entra ID, ServiceNow, and SCIM.
+The
+[_export directory_](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
+can also contain opaque [cookie files](https://ldapwiki.com/wiki/DirSync) used for incremental
+export of a few systems such as Active Directory, Microsoft Entra ID, ServiceNow, and SCIM.
 
-The reader might now understand how, as laid out in the overview, the input data could be unreliable given the volatile nature of the managed system export methods. _Complete_ and _incremental_ modes work together to find the best compromise between reliability and execution time.
+The reader might now understand how, as laid out in the overview, the input data could be unreliable
+given the volatile nature of the managed system export methods. _Complete_ and _incremental_ modes
+work together to find the best compromise between reliability and execution time.
 
 ### Example
 
 The following example demonstrates the native Active Directory export process.
 
-Exporting data from an Active Directory can be achieved by using the [Usercube-Export-ActiveDirectory task](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/exporttask/index.md) within a Job.
+Exporting data from an Active Directory can be achieved by using the
+[Usercube-Export-ActiveDirectory task](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/exporttask/index.md)
+within a Job.
 
-The Tasks requests from the source Active Directory all entries that match a configured filter. It outputs a set of _CSV source files_, containing raw AD Entries data (```ad_entries.csv```), information about group membership (```ad_members.csv```) and about the hierarchical organization (```ad_managers.csv```).
+The Tasks requests from the source Active Directory all entries that match a configured filter. It
+outputs a set of _CSV source files_, containing raw AD Entries data (`ad_entries.csv`), information
+about group membership (`ad_members.csv`) and about the hierarchical organization
+(`ad_managers.csv`).
 
 ![Active Directory Export Example](/img/versioned_docs/usercube_6.1/usercube/integration-guide/synchronization/upward-data-sync/ad_export_example.png)
 
-```ad_entries.csv``` contains raw AD entry data.
+`ad_entries.csv` contains raw AD entry data.
 
                     ```
+
 employeeID;businessCategory;extensionAttribute15;objectCategory;sAMAccountName;userPrincipalName;parentdn
-00001;fames;ac;turpis;egestas;integer;eget
-00002;ullamcorper;eget;nulla;facilisi;etiam
+00001;fames;ac;turpis;egestas;integer;eget 00002;ullamcorper;eget;nulla;facilisi;etiam
 00003;integer;eget;aliquet;nibh;praesent
 
-```
-                
+````
+
 
 ```ad_managers.csv``` contains a list of associations, representing the link between an employee (```employeeId``` column) and their manager (```manager``` column).
 
@@ -131,20 +218,19 @@ employeeID;manager
 00002,99812
 00003,99812
 
-```
-                
+````
 
-```ad_members.csv``` contains also a list of associations, representing the link between a group (identified by its ```dn```) and its members (the ```member``` column).
+`ad_members.csv` contains also a list of associations, representing the link between a group
+(identified by its `dn`) and its members (the `member` column).
 
                     ```
-dn;member
-CN=SG_APP_AG002,DC=internal;CN=U34811,DC=internal
-CN=SG_APP_AG002,DC=internal;CN=U18184,DC=internal
-CN=SG_APP_AG002,DC=internal;CN=U43405,DC=internal
+
+dn;member CN=SG_APP_AG002,DC=internal;CN=U34811,DC=internal
+CN=SG_APP_AG002,DC=internal;CN=U18184,DC=internal CN=SG_APP_AG002,DC=internal;CN=U43405,DC=internal
 CN=SG_APP_AG002,DC=internal;CN=U51630,DC=internal
 
-```
-                
+````
+
 
 ## Entity Mapping
 
@@ -319,3 +405,4 @@ The task's argument ```-force``` can be used to ignore thresholds.
 ---
 
 Next, a word about the assignment policy.
+````

@@ -2,7 +2,8 @@
 
 ## Overview
 
-The XML configuration schema shows some similarities with the database schema but they are not the same.
+The XML configuration schema shows some similarities with the database schema but they are not the
+same.
 
 ## Family Entity Listing
 

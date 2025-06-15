@@ -8,7 +8,9 @@ NETWRIX recommends the following architecture:
 
 ![On-Premises Recommended Architecture](/img/versioned_docs/usercube_6.1/usercube/integration-guide/architecture/on-prem/architecture_onprem.png)
 
-Most situations do not need Usercube so much that they need a fail-over system, i.e. installing several Usercube instances in order to prevent breakdowns. In most situations, a single Usercube instance is enough.
+Most situations do not need Usercube so much that they need a fail-over system, i.e. installing
+several Usercube instances in order to prevent breakdowns. In most situations, a single Usercube
+instance is enough.
 
 ### Server
 
@@ -16,10 +18,12 @@ The server should be stateless, i.e. it should store only temporary files.
 
 ### Agent(s)
 
-One or several additional agents can be needed only when using a sensitive network, for example an administration network separated from the main network.
+One or several additional agents can be needed only when using a sensitive network, for example an
+administration network separated from the main network.
 
 ### Database
 
-The database is a critical item, and thus should be set up with a mirror. The database mirror can have lower CPU and RAM and be on a different location.
+The database is a critical item, and thus should be set up with a mirror. The database mirror can
+have lower CPU and RAM and be on a different location.
 
 NETWRIX recommends using an incremental backup.

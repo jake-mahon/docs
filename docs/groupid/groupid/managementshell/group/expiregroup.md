@@ -1,17 +1,19 @@
 # Expire-Group
 
-The Expire-Group commandlet expires a group temporarily. All notifications to the expired group will be stopped.
+The Expire-Group commandlet expires a group temporarily. All notifications to the expired group will
+be stopped.
 
-You can view events related to this commandlet in Directory Manager portal, against the History node in the left panel.
+You can view events related to this commandlet in Directory Manager portal, against the History node
+in the left panel.
 
 ## Syntax
 
 ```
-Expire-Group  
--Identity <string[]>  
-[-IdentityStoreId <int>]  
-[-SecurityToken <CustomClaimsPrincipal>]  
-[-Credential <pscredential>]  
+Expire-Group
+-Identity <string[]>
+[-IdentityStoreId <int>]
+[-SecurityToken <CustomClaimsPrincipal>]
+[-Credential <pscredential>]
 [<CommonParameters>]
 ```
 

@@ -2,7 +2,8 @@
 
 ## Is it possible to migrate from LDAP to Entra ID?
 
-Currently, an automated migration from LDAP users (E2E as well as MasterKey) to Entra ID users is not possible!
+Currently, an automated migration from LDAP users (E2E as well as MasterKey) to Entra ID users is
+not possible!
 
 ## Which port is used for the SCIM endpoint for provisioning users/groups from Entra ID to the Application Server?
 
@@ -14,14 +15,21 @@ Due to Azure based technical limitations, Netwrix Password Secure does not suppo
 
 ## Does Entra ID work on servers that are only available internally?
 
-An integration on servers, that are not accessible from external sources, the integration of Entra ID is also possible. For this, you can use the [Entra ID on-premises application provisioning to SCIM-enabled apps](https://learn.microsoft.com/en-us/azure/active-directory/app-provisioning/on-premises-scim-provisioning). This can be installed on all or only one application server. It must be noted that the IP or DNS name of the "Tenent URL" specified in the subsequently created enterprise application is present in the alternative application names in the server certificate.
-Tip: ```https://127.0.0.1:11015/scim``` can also be specified as the "Tenent URL", in which case 127.0.0.1 must again be present in the alternative application names in the server certificate.
+An integration on servers, that are not accessible from external sources, the integration of Entra
+ID is also possible. For this, you can use the
+[Entra ID on-premises application provisioning to SCIM-enabled apps](https://learn.microsoft.com/en-us/azure/active-directory/app-provisioning/on-premises-scim-provisioning).
+This can be installed on all or only one application server. It must be noted that the IP or DNS
+name of the "Tenent URL" specified in the subsequently created enterprise application is present in
+the alternative application names in the server certificate. Tip: `https://127.0.0.1:11015/scim` can
+also be specified as the "Tenent URL", in which case 127.0.0.1 must again be present in the
+alternative application names in the server certificate.
 
 - Download the Provisioning Agent
 - Install the Provisioning Agent on the server with the Netwrix Password Secure Server
 - Start "AAD Connect Provisioning Agent Wizard"
 - Select "On-premises application provisioning Entra ID to application", click next
-- Click "Authenticate" and authenticate with a user.This user should be a Hybrid administrator or a global administrator.
+- Click "Authenticate" and authenticate with a user.This user should be a Hybrid administrator or a
+  global administrator.
 - Click "Confirm"
 - Wait for the application to finish the registration in Azure
 - Switch to the Azure Portal
@@ -39,4 +47,5 @@ Tip: ```https://127.0.0.1:11015/scim``` can also be specified as the "Tenent URL
 - Set provisioning mode "Automatic"
 - Unhide "On-Premises Connectivity"
 - Assign the just installed agent to this application by selecting it and click "Assign Agent(s)"
-- It takes about 20 minutes until the agent is correctly connected to your application and you can proceed.
+- It takes about 20 minutes until the agent is correctly connected to your application and you can
+  proceed.

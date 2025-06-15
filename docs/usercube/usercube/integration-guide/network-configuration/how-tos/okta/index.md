@@ -8,66 +8,74 @@ On the Okta dashboard:
 
 ![Add Application](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/network-configuration/how-tos/okta/okta_addapplication.webp)
 
-__Step 1 –__  Select the __Applications__ section and click on the __Add Application__ button.
+**Step 1 –** Select the **Applications** section and click on the **Add Application** button.
 
 ![Create New App](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/network-configuration/how-tos/okta/okta_createnewapp.webp)
 
-__Step 2 –__ Then click on the __Create New App__ button.
+**Step 2 –** Then click on the **Create New App** button.
 
 ![Create Native App](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/network-configuration/how-tos/okta/okta_createnativeapp.webp)
 
-__Step 3 –__ Select the platform __Native app__. The only sign-on method is the OpenID Connect.
-Click on __Create__.
+**Step 3 –** Select the platform **Native app**. The only sign-on method is the OpenID Connect.
+Click on **Create**.
 
-__Step 4 –__ In __General Settings__, name your Application.
-You can also add a logo.
+**Step 4 –** In **General Settings**, name your Application. You can also add a logo.
 
-__Step 5 –__ In the __Configure OpenID Connect__ section, enter the connection redirection URL in the part: __Login redirect URLs__. To find out this URL, just take the URL of the Identity Manager application and add ```/signin-oidc```.
-The Identity Manager disconnection redirection URL is also necessary. To construct it, take Identity Manager's URL again and, at the end, add ```/signout-callback-oidc```.
+**Step 5 –** In the **Configure OpenID Connect** section, enter the connection redirection URL in
+the part: **Login redirect URLs**. To find out this URL, just take the URL of the Identity Manager
+application and add `/signin-oidc`. The Identity Manager disconnection redirection URL is also
+necessary. To construct it, take Identity Manager's URL again and, at the end, add
+`/signout-callback-oidc`.
 
-__NOTE:__ The __Logout redirect URLs__ section is marked as optional but it is mandatory for Identity Manager.
+**NOTE:** The **Logout redirect URLs** section is marked as optional but it is mandatory for
+Identity Manager.
 
 ![Save Application](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/network-configuration/how-tos/okta/okta_saveapplication.webp)
 
 ## Configure the Client Credentials
 
-The client secret in Identity Manager is required for the OIDC connection. You must therefore configure this OIDC connection option in the application.
-In the Application Dashboard, click on __Edit__ in the __Client Credentials__ section.
-Select the option __Use Client Authentication__ and save the changes.
+The client secret in Identity Manager is required for the OIDC connection. You must therefore
+configure this OIDC connection option in the application. In the Application Dashboard, click on
+**Edit** in the **Client Credentials** section. Select the option **Use Client Authentication** and
+save the changes.
 
 ![Client Credentials](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/network-configuration/how-tos/okta/okta_clientcredentials.webp)
 
 ## Configure the Application Settings
 
-In the __Application__ section, check the box __Implicit (Hybrid)__ so that the connection with Identity Manager can operate correctly. __Allow ID Token with implicit grant type__ is optional.
+In the **Application** section, check the box **Implicit (Hybrid)** so that the connection with
+Identity Manager can operate correctly. **Allow ID Token with implicit grant type** is optional.
 
 ![Application Section](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/network-configuration/how-tos/okta/okta_applicationsection.webp)
 
 ## Configure the appsettings.json
 
-To successfully configure the OpenId protocol, you can refer to the dedicated section in the detailed guide. See the [
-End-User Authentication](../../server-configuration/end-users-authentication/index.md) for additional information.
+To successfully configure the OpenId protocol, you can refer to the dedicated section in the
+detailed guide. See the
+[ End-User Authentication](../../server-configuration/end-users-authentication/index.md) for
+additional information.
 
 Below is an illustrative example of how to set up your `appsettings.json` file.
 
-Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the
+script in the command line.
 
 ```
-appsettings.json  
-                {  
-                ...  
-                "OpenId": {  
-                "Enabled": true,  
-                "Okta": {  
-                "AuthenticationScheme": "Okta Authentication",  
-                "Authority": "https://your-domain.okta.com/oauth2/default",  
-                "ClientId": "Your Client ID",  
-                "ClientSecret": "Your Client Secret",  
-                "DisplayName": "Okta Display Name",  
-                "NameClaimType": "https://schemas.xmlsoap.org/ws/2005/05/identity/claims/upn",  
-                "SaveToken": true  
-                }  
-                }  
-                }  
+appsettings.json
+                {
+                ...
+                "OpenId": {
+                "Enabled": true,
+                "Okta": {
+                "AuthenticationScheme": "Okta Authentication",
+                "Authority": "https://your-domain.okta.com/oauth2/default",
+                "ClientId": "Your Client ID",
+                "ClientSecret": "Your Client Secret",
+                "DisplayName": "Okta Display Name",
+                "NameClaimType": "https://schemas.xmlsoap.org/ws/2005/05/identity/claims/upn",
+                "SaveToken": true
+                }
+                }
+                }
             
 ```

@@ -1,18 +1,24 @@
 # Export Data
 
-Use the __Export Data__ option to export all information available in the current grid view for the selected host list to a HTML, XML , or CSV file. Follow the steps to export data.
+Use the **Export Data** option to export all information available in the current grid view for the
+selected host list to a HTML, XML , or CSV file. Follow the steps to export data.
 
-__Step 1 –__ Select the Host Management or individual host list node to export data from, and configure the data grid to contain all the columns you want to export. See the [Host Inventory Data Grid](../datagrid.md) topic for additional information.
+**Step 1 –** Select the Host Management or individual host list node to export data from, and
+configure the data grid to contain all the columns you want to export. See the
+[Host Inventory Data Grid](../datagrid.md) topic for additional information.
 
 ![Export Data option on the Activities pane](../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/navigation/export.webp)
 
-__Step 2 –__ When the data grid contains all columns desired for export, click __Export Data__. A Save As window opens.
+**Step 2 –** When the data grid contains all columns desired for export, click **Export Data**. A
+Save As window opens.
 
 ![Save As window](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/actions/exportsaveas.webp)
 
-__Step 3 –__ On the Save As window, select the required format (HTML Files, XML Files, or CSV Files) and provide a name and location for the export file.
+**Step 3 –** On the Save As window, select the required format (HTML Files, XML Files, or CSV Files)
+and provide a name and location for the export file.
 
-This export is now shareable. Unlike the [View/Edit Host](viewhost.md) export option, this file will be in the same format as the data grid.
+This export is now shareable. Unlike the [View/Edit Host](viewhost.md) export option, this file will
+be in the same format as the data grid.
 
 ## Export Examples
 

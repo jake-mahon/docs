@@ -4,7 +4,8 @@
 
 #### Server & Server Manager
 
-- You can now assign an alias for each database for login purposes, eliminating the need to disclose the real database name.
+- You can now assign an alias for each database for login purposes, eliminating the need to disclose
+  the real database name.
 - Individual databases can now be set to read-only mode.
 
 #### Web App
@@ -41,7 +42,8 @@
 
 #### Server Manager
 
-- The version of the nginx web server is no longer returned in the header in the standard configuration.
+- The version of the nginx web server is no longer returned in the header in the standard
+  configuration.
 
 #### Browser extension
 

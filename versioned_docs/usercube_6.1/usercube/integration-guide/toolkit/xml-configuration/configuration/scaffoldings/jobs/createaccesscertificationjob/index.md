@@ -12,10 +12,10 @@ Creates the AccessCertification Job.
 
 ## Properties
 
-| Property | Details |
-| --- | --- |
-| DisplayName_L1   optional | __Type__    String   __Description__   Display name of the scaffolding in language 1 (up to 16). |
-| JobIdentifier   optional | __Type__    String   __Description__   For job scaffoldings, identifier of the job to be generated. If not defined, the job identifier is calculated. |
+| Property                | Details                                                                                                                                        |
+| ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| DisplayName_L1 optional | **Type** String **Description** Display name of the scaffolding in language 1 (up to 16).                                                      |
+| JobIdentifier optional  | **Type** String **Description** For job scaffoldings, identifier of the job to be generated. If not defined, the job identifier is calculated. |
 
 ## Child Elements
 
@@ -25,21 +25,21 @@ Creates the AccessCertification Job.
 
 ### AddTask
 
-| Property | Details |
-| --- | --- |
-| Task   required | __Type__    String   __Description__   Identifier of the task to add |
-| TaskToCompareWith   required | __Type__    String   __Description__   The identifier of the task before or after which the new task will be inserted |
-| After   default value: false | __Type__    Boolean   __Description__   For the Argument AddTask the property after define the place of the task to add with the TaskCompareWith. |
-| Before   default value: false | __Type__    Boolean   __Description__   For the Argument AddTask the property before define the place of the task to add with the TaskCompareWith. |
-| CopyOccurence   default value: 0 | __Type__    Int32   __Description__   For Argument AddTask, Specify the Occurence to copy and add the Task in a specify Job. |
-| Occurence   default value: 0 | __Type__    Int32   __Description__   Occurence of the TaskToCompare after or before which the task will be added |
+| Property                       | Details                                                                                                                                     |
+| ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| Task required                  | **Type** String **Description** Identifier of the task to add                                                                               |
+| TaskToCompareWith required     | **Type** String **Description** The identifier of the task before or after which the new task will be inserted                              |
+| After default value: false     | **Type** Boolean **Description** For the Argument AddTask the property after define the place of the task to add with the TaskCompareWith.  |
+| Before default value: false    | **Type** Boolean **Description** For the Argument AddTask the property before define the place of the task to add with the TaskCompareWith. |
+| CopyOccurence default value: 0 | **Type** Int32 **Description** For Argument AddTask, Specify the Occurence to copy and add the Task in a specify Job.                       |
+| Occurence default value: 0     | **Type** Int32 **Description** Occurence of the TaskToCompare after or before which the task will be added                                  |
 
 ### CronTabExpression
 
-| Property | Details |
-| --- | --- |
-| CronTab   required | __Type__    String   __Description__   Represents the argument value. |
-| CronTimeZone   optional | __Type__    CronTimeZone   __Description__   For Argument AddTask, Occurence of the TaskToCompare after or before which the task will be added. |
+| Property              | Details                                                                                                                                  |
+| --------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| CronTab required      | **Type** String **Description** Represents the argument value.                                                                           |
+| CronTimeZone optional | **Type** CronTimeZone **Description** For Argument AddTask, Occurence of the TaskToCompare after or before which the task will be added. |
 
 ### DoNotCreateJob
 

@@ -1,18 +1,19 @@
 # SendSmsMessageResult.Success
 
-Returns a boolean value indicating whether the text message is successfully sent to the target mobile phone numbers.
+Returns a boolean value indicating whether the text message is successfully sent to the target
+mobile phone numbers.
 
-__Namespace:__ Imanami.GroupID.DataTransferObjects.DataContracts.SMS
+**Namespace:** Imanami.GroupID.DataTransferObjects.DataContracts.SMS
 
-__Assembly:__ Imanami.GroupID.DataTransferObjects.dll
+**Assembly:** Imanami.GroupID.DataTransferObjects.dll
 
-__Syntax__
+**Syntax**
 
 ```
 public bool Success;
 ```
 
-__Return Value__
+**Return Value**
 
 Type: [System.Boolean](http://msdn.microsoft.com/en-us/library/system.boolean.aspx)
 

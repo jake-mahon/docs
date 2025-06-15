@@ -1,38 +1,58 @@
 # Reverse Proxy
 
-Usercube can be installed behind a [reverse proxy](https://en.wikipedia.org/wiki/Reverse_proxy) that acts as an intermediate server between users and Usercube's server, in order to process users' requests and redirect them to the right server(s), for performance and security purposes.
+Usercube can be installed behind a [reverse proxy](https://en.wikipedia.org/wiki/Reverse_proxy) that
+acts as an intermediate server between users and Usercube's server, in order to process users'
+requests and redirect them to the right server(s), for performance and security purposes.
 
 ## Overview
 
 A reverse proxy is usually used when:
 
-- needing to encrypt the requests from/to end-users on the one hand, and on the other hand to be able to monitor plain text requests from/to Usercube's server;
+- needing to encrypt the requests from/to end-users on the one hand, and on the other hand to be
+  able to monitor plain text requests from/to Usercube's server;
 
-  ![Proxy Purposes: Encryption](/img/versioned_docs/usercube_6.1/usercube/installation-guide/reverse-proxy/proxy_purpose_encryption.png)
-- installing Usercube with an integrated agent on a network isolated from the users' browsers, in order to be able to access sensitive systems which are protected by being set up on a network isolated from the Internet;
+    ![Proxy Purposes: Encryption](/img/versioned_docs/usercube_6.1/usercube/installation-guide/reverse-proxy/proxy_purpose_encryption.png)
 
-  ![Proxy Installation Example](/img/versioned_docs/usercube_6.1/usercube/installation-guide/reverse-proxy/proxy_example.png)
+- installing Usercube with an integrated agent on a network isolated from the users' browsers, in
+  order to be able to access sensitive systems which are protected by being set up on a network
+  isolated from the Internet;
 
-  This installation will be used for the configuration examples below.
+    ![Proxy Installation Example](/img/versioned_docs/usercube_6.1/usercube/installation-guide/reverse-proxy/proxy_example.png)
+
+    This installation will be used for the configuration examples below.
+
 - using several Usercube's server instances for load-balancing purposes.
 
-  ![Proxy Purposes: Load Balancing](/img/versioned_docs/usercube_6.1/usercube/installation-guide/reverse-proxy/proxy_purpose_loadbalancing.png)
+    ![Proxy Purposes: Load Balancing](/img/versioned_docs/usercube_6.1/usercube/installation-guide/reverse-proxy/proxy_purpose_loadbalancing.png)
 
-As Usercube is session-less, working with several servers does not imply the need to synchronize sessions between servers, nor the need to guarantee that a particular IP will be processed by a particular server.
+As Usercube is session-less, working with several servers does not imply the need to synchronize
+sessions between servers, nor the need to guarantee that a particular IP will be processed by a
+particular server.
 
 ### Nginx
 
-For these tasks, [nginx](https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/#nginx) is a relevant choice of reverse proxy. There are several versions of nginx available, suitable for several Linux-based environments. [Installation instructions](https://docs.nginx.com/nginx/admin-guide/installing-nginx/) can be found directly on the nginx website.
+For these tasks, [nginx](https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/#nginx)
+is a relevant choice of reverse proxy. There are several versions of nginx available, suitable for
+several Linux-based environments.
+[Installation instructions](https://docs.nginx.com/nginx/admin-guide/installing-nginx/) can be found
+directly on the nginx website.
 
-At its core, Usercube is an ASP.Net application with a Kestrel server. We can configure a nginx reverse proxy accordingly by following [Microsoft's guidelines](https://learn.microsoft.com/en-us/aspnet/core/host-and-deploy/linux-nginx?view=aspnetcore-8.0&tabs=linux-ubuntu#microsofts-guidelines).
+At its core, Usercube is an ASP.Net application with a Kestrel server. We can configure a nginx
+reverse proxy accordingly by following
+[Microsoft's guidelines](https://learn.microsoft.com/en-us/aspnet/core/host-and-deploy/linux-nginx?view=aspnetcore-8.0&tabs=linux-ubuntu#microsofts-guidelines).
 
-Nginx [configuration files](https://docs.nginx.com/nginx/admin-guide/basic-functionality/managing-configuration-files/) are usually located in ```/etc/nginx```.
+Nginx
+[configuration files](https://docs.nginx.com/nginx/admin-guide/basic-functionality/managing-configuration-files/)
+are usually located in `/etc/nginx`.
 
 ### Load balancing
 
-Nginx offers several [load balancing methods](https://docs.nginx.com/nginx/admin-guide/load-balancer/http-load-balancer/#load-balancing-methods) which are all compatible with Usercube.
+Nginx offers several
+[load balancing methods](https://docs.nginx.com/nginx/admin-guide/load-balancer/http-load-balancer/#load-balancing-methods)
+which are all compatible with Usercube.
 
-Then, in order for servers to be able to properly schedule and coordinate synchronization and provisioning, the following file locations must be shared by all Usercube servers:
+Then, in order for servers to be able to properly schedule and coordinate synchronization and
+provisioning, the following file locations must be shared by all Usercube servers:
 
 - [TempFolderPath](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
 - [WorkFolderPath](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
@@ -41,7 +61,9 @@ All Usercube servers also share a database.
 
 ## Basic Configuration
 
-The following is a basic configuration, in the ```nginx.conf``` file, with one virtual host, that directs incoming requests on ```<listening-port>``` from network 1 to a Usercube server instance at ```<Usercube-server-url>``` on network 2.
+The following is a basic configuration, in the `nginx.conf` file, with one virtual host, that
+directs incoming requests on `<listening-port>` from network 1 to a Usercube server instance at
+`<Usercube-server-url>` on network 2.
 
                     ```
 
@@ -51,61 +73,62 @@ worker_processes auto;
 
 http {
 
-	##
-	# Basic Settings
-	##
+    ##
+    # Basic Settings
+    ##
 
-	sendfile on;
-	tcp_nopush on;
-	tcp_nodelay on;
-	keepalive_timeout 65;
-	types_hash_max_size 2048;
-	default_type application/octet-stream;
+    sendfile on;
+    tcp_nopush on;
+    tcp_nodelay on;
+    keepalive_timeout 65;
+    types_hash_max_size 2048;
+    default_type application/octet-stream;
 
-	##
-	# SSL Settings
-	##
+    ##
+    # SSL Settings
+    ##
 
-	ssl_protocols TLSv1 TLSv1.1 TLSv1.2; # Dropping SSLv3, ref: POODLE
-	ssl_prefer_server_ciphers on;
+    ssl_protocols TLSv1 TLSv1.1 TLSv1.2; # Dropping SSLv3, ref: POODLE
+    ssl_prefer_server_ciphers on;
 
-	##
-	# Logging Settings
-	##
+    ##
+    # Logging Settings
+    ##
 
-	access_log /nginx-1.19.7/logs/access.log;
-	error_log /nginx-1.19.7/logs/error.log;
+    access_log /nginx-1.19.7/logs/access.log;
+    error_log /nginx-1.19.7/logs/error.log;
 
-	##
-	# Gzip Settings
-	##
+    ##
+    # Gzip Settings
+    ##
 
-	gzip on;
+    gzip on;
 
-	##
-	# Virtual Host Configs
-	##
+    ##
+    # Virtual Host Configs
+    ##
 
-	server {
-		listen       <listening-port> default_server;
-		server_name  <server-name>;
+    server {
+    	listen       <listening-port> default_server;
+    	server_name  <server-name>;
 
-		location / {
-			proxy_pass         http://<Usercube-server-url>;
-			proxy_http_version 1.1;
-			proxy_set_header   Upgrade $http_upgrade;
-			proxy_set_header   Connection keep-alive;
-			proxy_set_header   Host $host;
-			proxy_cache_bypass $http_upgrade;
-			proxy_set_header   X-Forwarded-For $proxy_add_x_forwarded_for;
-			proxy_set_header   X-Forwarded-Proto $scheme;
-			proxy_set_header   X-Real-IP $remote_addr;
-		}
-	}
+    	location / {
+    		proxy_pass         http://<Usercube-server-url>;
+    		proxy_http_version 1.1;
+    		proxy_set_header   Upgrade $http_upgrade;
+    		proxy_set_header   Connection keep-alive;
+    		proxy_set_header   Host $host;
+    		proxy_cache_bypass $http_upgrade;
+    		proxy_set_header   X-Forwarded-For $proxy_add_x_forwarded_for;
+    		proxy_set_header   X-Forwarded-Proto $scheme;
+    		proxy_set_header   X-Real-IP $remote_addr;
+    	}
+    }
+
 }
 
-```
-                
+````
+
 
 Where:
 
@@ -139,29 +162,29 @@ http {
 }
 ...
 
-```
-                
+````
 
-Then, the name of the group takes the place of ```<Usercube-server-url>``` in the virtual host definition:
+Then, the name of the group takes the place of `<Usercube-server-url>` in the virtual host
+definition:
 
                     ```
 
-server {
-        listen       <listening-port> default_server;
-        server_name  <server-name>;
+server { listen <listening-port> default_server; server_name <server-name>;
 
-		location / {
-	        proxy_pass         http://usercubegroup;
-	        proxy_http_version 1.1;
-	        proxy_set_header   Upgrade $http_upgrade;
-	        proxy_set_header   Connection keep-alive;
-	        proxy_set_header   Host $host;
-	        proxy_cache_bypass $http_upgrade;
-	        proxy_set_header   X-Forwarded-For $proxy_add_x_forwarded_for;
-	        proxy_set_header   X-Forwarded-Proto $scheme;
-		    proxy_set_header   X-Real-IP $remote_addr;
-	   }
+    	location / {
+            proxy_pass         http://usercubegroup;
+            proxy_http_version 1.1;
+            proxy_set_header   Upgrade $http_upgrade;
+            proxy_set_header   Connection keep-alive;
+            proxy_set_header   Host $host;
+            proxy_cache_bypass $http_upgrade;
+            proxy_set_header   X-Forwarded-For $proxy_add_x_forwarded_for;
+            proxy_set_header   X-Forwarded-Proto $scheme;
+    	    proxy_set_header   X-Real-IP $remote_addr;
+       }
 
-	}
+    }
+
+```
 
 ```

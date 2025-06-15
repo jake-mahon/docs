@@ -1,22 +1,29 @@
 # Queries Node
 
-The Queries node uses a Enterprise Auditor data collector to run scans against the targeted hosts. Different data collectors are designed for different types of collection. It is necessary for the Connection Profile associated with the target hosts to have a sufficient level of rights for the selected data collector. See the [Permissions by Data Collector (Matrix)](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/permissionmatrix.md) topic for a chart with recommended permissions per data collector.
+The Queries node uses a Enterprise Auditor data collector to run scans against the targeted hosts.
+Different data collectors are designed for different types of collection. It is necessary for the
+Connection Profile associated with the target hosts to have a sufficient level of rights for the
+selected data collector. See the
+[Permissions by Data Collector (Matrix)](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/permissionmatrix.md)
+topic for a chart with recommended permissions per data collector.
 
 ![Query Selection page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/queryselection.png)
 
-The Query Selection view lists all queries for the selected job. Though it is possible to have multiple queries in a single job, it is not usually recommended. The listed information includes:
+The Query Selection view lists all queries for the selected job. Though it is possible to have
+multiple queries in a single job, it is not usually recommended. The listed information includes:
 
 - Name – Name of the query (as provided by the creator of the query)
 - Source – Name of the Enterprise Auditor data collector
 - Table – Name of the Native Data table
-- Enumerates – Whether or not the data collector will return enumerated data, or multiple lines of data per target host
-  - If __Yes__, only one query can write to a single table
-  - If __No__, then multiple related queries can write to a single table
+- Enumerates – Whether or not the data collector will return enumerated data, or multiple lines of
+  data per target host
+    - If **Yes**, only one query can write to a single table
+    - If **No**, then multiple related queries can write to a single table
 - Properties – Number of the properties to be returned
 - Filters – Number of in-line filters applied to the data being returned by the query
 - Script – Whether or not a VB Script was added to the query
-  - If __Yes__, a VB Script was added to query execution
-  - If __No__, a VB Script was not added to query execution
+    - If **Yes**, a VB Script was added to query execution
+    - If **No**, a VB Script was not added to query execution
 - Description – Description of the query (as provided by the creator of the query)
 
 ## Tables
@@ -29,29 +36,40 @@ The Tables section at the top has three options:
 
 - Add Table – Adds an additional native data table and associated query to the selected job
 - Rename Table – Opens the Rename Table window for changing the native data table name
-- Delete Table – Deletes the selected table from the list, all associated query tasks, and the database table if it has already been created. This action does require confirmation.
+- Delete Table – Deletes the selected table from the list, all associated query tasks, and the
+  database table if it has already been created. This action does require confirmation.
 
-  __CAUTION:__ Do not delete the last table in a job’s Query Selection view. Doing so will also delete the Messages table. In order to delete the last table, it is necessary to delete the job.
+    **CAUTION:** Do not delete the last table in a job’s Query Selection view. Doing so will also
+    delete the Messages table. In order to delete the last table, it is necessary to delete the job.
 
 ## Queries
 
-The Queries section is where the job’s preconfigured queries can be edited and where new queries can be added.
+The Queries section is where the job’s preconfigured queries can be edited and where new queries can
+be added.
 
 ![Queries section of Query Selection page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/configure/queryselectionqueries.png)
 
 The Queries section has four options and includes the list of queries for the selected job:
 
-- Add from Library – Opens the Libraries window to select preconfigured data collection queries. See the [Add Query from Library](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/overview.md#add-query-from-library) topic for additional information.
+- Add from Library – Opens the Libraries window to select preconfigured data collection queries. See
+  the
+  [Add Query from Library](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/overview.md#add-query-from-library)
+  topic for additional information.
 - Create Query – Opens the Query Properties window for creating and configuring queries
 - Delete Query – Deletes the selected query from the list. This action does require confirmation.
 - Query Properties – Opens the Query Properties window for the selected query
-  - This option is used for query modifications
-  - See the [Create or Modify a Query](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/overview.md#create-or-modify-a-query) topic for additional information
-  - See the topics for the individual [Data Collectors](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/overview.md) for additional information
+    - This option is used for query modifications
+    - See the
+      [Create or Modify a Query](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/overview.md#create-or-modify-a-query)
+      topic for additional information
+    - See the topics for the individual
+      [Data Collectors](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/overview.md)
+      for additional information
 
 ## Right-click Menu
 
-The Query Selection view also has its own right-click menu for taking action on the queries, tables, or the job.
+The Query Selection view also has its own right-click menu for taking action on the queries, tables,
+or the job.
 
 ![Right-click menu on the Query Selection page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/configure/queryrightclickmenu.png)
 
@@ -69,16 +87,29 @@ The options in the Queries node right-click menu are:
 - Delete Table – Deletes the selected table
 - Rename Table – Opens the Rename Table window
 - Run Job – Starts job execution for the selected job
-- Add Instant Job – Opens the [Instant Job Wizard](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/instantjobs/overview.md)
-- Create Job (__Ctrl + Alt + A__) – Creates a new job at the same location as the selected job
+- Add Instant Job – Opens the
+  [Instant Job Wizard](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/instantjobs/overview.md)
+- Create Job (**Ctrl + Alt + A**) – Creates a new job at the same location as the selected job
 
 ## Host List
 
-Jobs with configured queries require a host list to be assigned. This can be done at either the Job Group or Job level. Whichever location is used to set the host list for query execution should also be the location where the Connection Profile is assigned. See the [Job Properties](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/properties/overview.md) topic for additional information.
+Jobs with configured queries require a host list to be assigned. This can be done at either the Job
+Group or Job level. Whichever location is used to set the host list for query execution should also
+be the location where the Connection Profile is assigned. See the
+[Job Properties](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/properties/overview.md)
+topic for additional information.
 
 - Job Groups
-  - Host List Assigned – __[Job Group]__ > __Settings__ > __Host Lists Assignment__. See the [Host Lists Assignment](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/group/hostlistsassignment.md) topic for additional information.
-  - Connection Profile Selected –  __[Job Group]__ > __Settings__ > __Connection__. See the [Connection Node](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/group/connection.md) topic for additional information.
+    - Host List Assigned – **[Job Group]** > **Settings** > **Host Lists Assignment**. See the
+      [Host Lists Assignment](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/group/hostlistsassignment.md)
+      topic for additional information.
+    - Connection Profile Selected – **[Job Group]** > **Settings** > **Connection**. See the
+      [Connection Node](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/group/connection.md)
+      topic for additional information.
 - Job Level
-  - Host List Assigned – __[Job]__ > __Configure__ > __Hosts__. See the [Hosts Node](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/configure/hosts.md) topic for additional information.
-  - Connection Profile Selected – Connection tab of the Job’s Properties Window. See the [Connection Tab](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/properties/connection.md) topic for additional information.
+    - Host List Assigned – **[Job]** > **Configure** > **Hosts**. See the
+      [Hosts Node](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/configure/hosts.md)
+      topic for additional information.
+    - Connection Profile Selected – Connection tab of the Job’s Properties Window. See the
+      [Connection Tab](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/properties/connection.md)
+      topic for additional information.

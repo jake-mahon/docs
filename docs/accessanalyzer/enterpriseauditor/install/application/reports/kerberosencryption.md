@@ -1,79 +1,102 @@
 # Manage Kerberos Encryption Warning for the Web Console
 
-If a computer's Local Security Policy, or applicable Group Policy, enforces certain encryption methods for Kerberos authentication, then the service account running the Access Analyzer Web Server must support the same encryption methods.
+If a computer's Local Security Policy, or applicable Group Policy, enforces certain encryption
+methods for Kerberos authentication, then the service account running the Access Analyzer Web Server
+must support the same encryption methods.
 
-If encryption methods have been configured for Kerberos on the Access Analyzer server but not on the service account running the Access Analyzer Web Server service, then users will not be able to log-in to the Web Console and will receive the below error message.
+If encryption methods have been configured for Kerberos on the Access Analyzer server but not on the
+service account running the Access Analyzer Web Server service, then users will not be able to
+log-in to the Web Console and will receive the below error message.
 
 ![Kerberos Error Message](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/install/application/reports/kerberoserrormessage.webp)
 
 When this occurs, the following error will be logged:
 
-_ERROR - Unhandled server error: Nancy.RequestExecutionException: Oh noes! ---> System.Security.SecurityException: The encryption type requested is not supported by the KDC_.
+_ERROR - Unhandled server error: Nancy.RequestExecutionException: Oh noes! --->
+System.Security.SecurityException: The encryption type requested is not supported by the KDC_.
 
 This error will be logged in the following location:
 
 %SAINSTALLDIR%\SADatabase\Logs\Web\service.log
 
-While it is not required to configure these settings, this section provides the locations and steps necessary to configure encryption methods in Local and Group policies to allow Kerberos for the Report Index if an error does occur.
+While it is not required to configure these settings, this section provides the locations and steps
+necessary to configure encryption methods in Local and Group policies to allow Kerberos for the
+Report Index if an error does occur.
 
 ## Local Security Policies
 
 Follow the steps to configure a Local Security Policy to allow Kerberos.
 
-__Step 1 –__ Open the Local Security Policy window.
+**Step 1 –** Open the Local Security Policy window.
 
 ![Local Security Policy Window](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/install/application/reports/localsecuritypolicywindow.webp)
 
-__Step 2 –__ From the Security Settings list, navigate to __Local Policies__ > __Security Options__.
+**Step 2 –** From the Security Settings list, navigate to **Local Policies** > **Security Options**.
 
-__Step 3 –__ Right-click the __Network Security: Configure encryption types allows for Kerberos__ policy > click __Properties__.
+**Step 3 –** Right-click the **Network Security: Configure encryption types allows for Kerberos**
+policy > click **Properties**.
 
 ![Configure Local Security Setting Window](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/install/application/reports/configurelocalsecuritysettingwindow.webp)
 
-__Step 4 –__ Configure necessary settings by checking each applicable box.
+**Step 4 –** Configure necessary settings by checking each applicable box.
 
-__Step 5 –__ Click __Apply__, then click __OK__.
+**Step 5 –** Click **Apply**, then click **OK**.
 
-A Local Security Policy has been configured to allow encryption methods for Kerberos. Proceed to the [Configure Active Directory Users and Computers Settings to allow Kerberos](#configure-active-directory-users-and-computers-settings-to-allow-kerberos) section of this topic to ensure Active Directory Users and Computer settings are configured to allow the encryption methods for Kerberos.
+A Local Security Policy has been configured to allow encryption methods for Kerberos. Proceed to the
+[Configure Active Directory Users and Computers Settings to allow Kerberos](#configure-active-directory-users-and-computers-settings-to-allow-kerberos)
+section of this topic to ensure Active Directory Users and Computer settings are configured to allow
+the encryption methods for Kerberos.
 
 ## Group Security Policy
 
 Follow the steps to configure a Local Group Security Policy to allow Kerberos.
 
-__Step 1 –__ Open the Local Group Policy Editor window.
+**Step 1 –** Open the Local Group Policy Editor window.
 
 ![Local Group Policy Editor window](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/install/application/reports/localgrouppolicywindow.webp)
 
-__Step 2 –__ From the Local Computer Policy list, navigate to __Computer Configuration__ > __Windows Settings__ > __Security Settings__ > __Local Policies__ > __Security Options__ folder .
+**Step 2 –** From the Local Computer Policy list, navigate to **Computer Configuration** > **Windows
+Settings** > **Security Settings** > **Local Policies** > **Security Options** folder .
 
-__Step 3 –__ Right-click the __Network Security: Configure encryption types allows for Kerberos__ policy, then click __Properties__.
+**Step 3 –** Right-click the **Network Security: Configure encryption types allows for Kerberos**
+policy, then click **Properties**.
 
 ![Configure Local Security Setting Window](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/install/application/reports/configurelocalsecuritysettingwindow.webp)
 
-__Step 4 –__ Configure necessary settings by checking each applicable box.
+**Step 4 –** Configure necessary settings by checking each applicable box.
 
-__Step 5 –__ Click __Apply__, then click __OK__.
+**Step 5 –** Click **Apply**, then click **OK**.
 
-A Local Group Security Policy has been configured to allow encryption methods for Kerberos. Proceed to the [Configure Active Directory Users and Computers Settings to allow Kerberos](#configure-active-directory-users-and-computers-settings-to-allow-kerberos) section of this topic to ensure Active Directory Users and Computer settings are configured to allow the encryption methods for Kerberos.
+A Local Group Security Policy has been configured to allow encryption methods for Kerberos. Proceed
+to the
+[Configure Active Directory Users and Computers Settings to allow Kerberos](#configure-active-directory-users-and-computers-settings-to-allow-kerberos)
+section of this topic to ensure Active Directory Users and Computer settings are configured to allow
+the encryption methods for Kerberos.
 
 ## Configure Active Directory Users and Computers Settings to allow Kerberos
 
-Follow the steps to ensure the settings for Active Directory Users and Computers are configured to allow the encryption methods to allow Kerberos. Configurations selected in this section should reflect the configuration options selected in the two sections above. See the [Local Security Policies](#local-security-policies) and [Group Security Policy](#group-security-policy) topics for additional information.
+Follow the steps to ensure the settings for Active Directory Users and Computers are configured to
+allow the encryption methods to allow Kerberos. Configurations selected in this section should
+reflect the configuration options selected in the two sections above. See the
+[Local Security Policies](#local-security-policies) and
+[Group Security Policy](#group-security-policy) topics for additional information.
 
-__Step 1 –__ Open the Active Directory Users and Computers window.
+**Step 1 –** Open the Active Directory Users and Computers window.
 
 ![Active Directory Users and Computers Window](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/install/application/reports/activedirectoryusersandcomputerswindows.webp)
 
-__Step 2 –__ Click and expand the Domain from the left-hand menu and click __Users__.
+**Step 2 –** Click and expand the Domain from the left-hand menu and click **Users**.
 
-__Step 3 –__ Right-click a __User__ from the list of available users, then click __Properties__.
+**Step 3 –** Right-click a **User** from the list of available users, then click **Properties**.
 
 ![User Properties Window](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/install/application/reports/userproperteswindow.webp)
 
-__Step 4 –__ Click the __Account__ tab.
+**Step 4 –** Click the **Account** tab.
 
-__Step 5 –__ Locate the appropriate Account options and check the corresponding boxes.
+**Step 5 –** Locate the appropriate Account options and check the corresponding boxes.
 
-__Step 6 –__ Click __Apply__, then click __OK__.
+**Step 6 –** Click **Apply**, then click **OK**.
 
-Active Directory Users and Computer settings have been configured to allow the encryption methods for Kerberos. These settings should match the configuration options for Local Security Policies and Local Group Policies.
+Active Directory Users and Computer settings have been configured to allow the encryption methods
+for Kerberos. These settings should match the configuration options for Local Security Policies and
+Local Group Policies.

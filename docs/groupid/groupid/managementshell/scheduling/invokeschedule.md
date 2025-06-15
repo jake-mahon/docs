@@ -5,17 +5,17 @@ The commandlet Invoke-Schedule executes the specified schedule job.
 ## Syntax
 
 ```
-Invoke-Schedule  
-[-ScheduleName <String>]  
-[-JobId <Int32>]  
-[-PassThru]  
-[-IdentityStoreId <Int32>]  
-[-SecurityToken <CustomClaimsPrincipal>]  
-[-WarningAction <ActionPreference>]  
-[-InformationAction <ActionPreference>]  
-[-WarningVariable <String>]  
-[-InformationVariable <String>]  
-[-PipelineVariable <String>]  
+Invoke-Schedule
+[-ScheduleName <String>]
+[-JobId <Int32>]
+[-PassThru]
+[-IdentityStoreId <Int32>]
+[-SecurityToken <CustomClaimsPrincipal>]
+[-WarningAction <ActionPreference>]
+[-InformationAction <ActionPreference>]
+[-WarningVariable <String>]
+[-InformationVariable <String>]
+[-PipelineVariable <String>]
 [<CommonParameters>]
 ```
 
@@ -25,7 +25,7 @@ Invoke-Schedule
 
 Example 1:
 
-This example executes a schedule with name starting smm4_.
+This example executes a schedule with name starting smm4\_.
 
 ```
 Invoke-Schedule -ScheduleName smm4_

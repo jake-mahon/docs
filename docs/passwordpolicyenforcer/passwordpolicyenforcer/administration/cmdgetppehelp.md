@@ -1,20 +1,24 @@
 # Get-PPEHelp
 
-The __Get-PPEHelp__ cmdlet lists the available Password Policy Enforcer cmdlets. If a cmdlet is specified, returns help for the cmdlet.
+The **Get-PPEHelp** cmdlet lists the available Password Policy Enforcer cmdlets. If a cmdlet is
+specified, returns help for the cmdlet.
 
 SYNTAX
 
-__Get-PPEHelp__ [[__-Cmdlet__] `<_string_>`]
+**Get-PPEHelp** [[__-Cmdlet__] `<_string_>`]
 
 PARAMETERS
 
-__-Cmdlet__ `<_string_>`
+**-Cmdlet** `<_string_>`
 
-Name of the cmdlet for help. Can also use __-C__ or __-c__.
+Name of the cmdlet for help. Can also use **-C** or **-c**.
 
 `<CommonParameters>`
 
-This cmdlet supports the common parameters: __Verbose__, __Debug__, __ErrorAction__, __ErrorVariable__, __WarningAction__, __WarningVariable__, __OutBuffer__, __PipelineVariable__, and __OutVariable__. For more information, see about_CommonParameters [https:/go.microsoft.com/fwlink/?LinkID=113216](https:/go.microsoft.com/fwlink?linkid=113216).
+This cmdlet supports the common parameters: **Verbose**, **Debug**, **ErrorAction**,
+**ErrorVariable**, **WarningAction**, **WarningVariable**, **OutBuffer**, **PipelineVariable**, and
+**OutVariable**. For more information, see about_CommonParameters
+[https:/go.microsoft.com/fwlink/?LinkID=113216](https:/go.microsoft.com/fwlink?linkid=113216).
 
 EXAMPLE
 

@@ -6,4 +6,4 @@ The Edit Script page allows the script to be customized.
 
 Edit the shell script in the textbox if desired.
 
-Click __Next__ to continue the setup, or __Back__ to return to the previous page.
+Click **Next** to continue the setup, or **Back** to return to the previous page.

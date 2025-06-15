@@ -1,6 +1,7 @@
 # Update Classification Task
 
-Classifies a list of resources that are part of the resourceType data targets as an argument to this job.
+Classifies a list of resources that are part of the resourceType data targets as an argument to this
+job.
 
 You must set up the ResourceClassificationRule on resourceTypes to be able to use this job.
 
@@ -14,17 +15,17 @@ You must set up the ResourceClassificationRule on resourceTypes to be able to us
 
 ## Properties
 
-| Property | Details |
-| --- | --- |
-| DisplayName_L1   required | __Type__    String   __Description__   Display name of the task in language 1 (up to 16). |
-| BatchSize   default value: 0 | __Type__    Int32   __Description__   Block size for batch calculation. |
-| Dirty   default value: false | __Type__    Boolean   __Description__   Initiate use only dirty resources. |
-| Identifier   optional | __Type__    String   __Description__   Unique identifier of the task. |
+| Property                   | Details                                                                            |
+| -------------------------- | ---------------------------------------------------------------------------------- |
+| DisplayName_L1 required    | **Type** String **Description** Display name of the task in language 1 (up to 16). |
+| BatchSize default value: 0 | **Type** Int32 **Description** Block size for batch calculation.                   |
+| Dirty default value: false | **Type** Boolean **Description** Initiate use only dirty resources.                |
+| Identifier optional        | **Type** String **Description** Unique identifier of the task.                     |
 
 ## Child Element: TaskEntityType
 
 A task entity type defines the entity type on which the task is applied.
 
-| Property | Details |
-| --- | --- |
-| EntityType   required | __Type__    Int64   __Description__   Identifier of the entity type that the task is to be applied on. |
+| Property            | Details                                                                                         |
+| ------------------- | ----------------------------------------------------------------------------------------------- |
+| EntityType required | **Type** Int64 **Description** Identifier of the entity type that the task is to be applied on. |

@@ -5,7 +5,7 @@ The Get-GroupIdInformation commandlet retrieves general information about Direct
 ## Syntax
 
 ```
-Get-GroupIdInformation  
+Get-GroupIdInformation
 [<CommonParameters>]
 ```
 
@@ -15,7 +15,8 @@ Get-GroupIdInformation
 
 Example 1:
 
-This example displays the name of the database and name of the SQL server being used by Directory Manager, Directory Manager version and the installation path of Directory Manager.
+This example displays the name of the database and name of the SQL server being used by Directory
+Manager, Directory Manager version and the installation path of Directory Manager.
 
 ```
 Get-GroupIdInformation

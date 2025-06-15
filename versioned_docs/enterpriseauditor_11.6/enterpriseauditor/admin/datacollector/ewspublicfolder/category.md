@@ -8,14 +8,17 @@ Select which type of EWS public folder information to retrieve from the followin
 
 - Public Folder contents
 
-  - PublicFolderContent – Scan contents of public folders
+    - PublicFolderContent – Scan contents of public folders
+
 - Public Folder permissions
 
-  - PublicFolderPermissions – Scan permissions of public folders
+    - PublicFolderPermissions – Scan permissions of public folders
+
 - Sensitive Data
 
-  - SDDScan – Scan public folders for sensitive data
+    - SDDScan – Scan public folders for sensitive data
+
 - Public folder search
 
-  - PublicFolderSearchFolders – Search for folders containing messages
-  - PublicFolderSearchMessages – Search for messages
+    - PublicFolderSearchFolders – Search for folders containing messages
+    - PublicFolderSearchMessages – Search for messages

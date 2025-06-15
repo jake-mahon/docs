@@ -4,7 +4,8 @@ Displays a form to create, update or delete one or several records.
 
 ## Examples
 
-The following example is a form to create, update and/or delete one or several positions for a given user.
+The following example is a form to create, update and/or delete one or several positions for a given
+user.
 
 ```
 
@@ -29,52 +30,60 @@ And with the following form for the data that groups records together:
 
 ```
 
-The contents of ```MainControl```, ```RecordControl```, ```RecordSlaveUniqueItemControl``` and ```RecordSlaveControl``` are visible during the workflow's execution:
+The contents of `MainControl`, `RecordControl`, `RecordSlaveUniqueItemControl` and
+`RecordSlaveControl` are visible during the workflow's execution:
 
 ![Form Example - Manage a User's Positions](/img/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/workflows/forms/workflowupdateseveralrecordsentityform/formexample_workflowupdateseveralrecordsentityform_v603.png)
 
-When adding a new position, we decide to make ```Title``` available, in addition to the fields used to update existing records:
+When adding a new position, we decide to make `Title` available, in addition to the fields used to
+update existing records:
 
 ![Form Example - Manage a User's Positions - New Record](/img/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/workflows/forms/workflowupdateseveralrecordsentityform/formexample_workflowupdateseveralrecordsentityform_newrecord_v603.png)
 
-The content of ```RecordUniqueItemControl``` is not visible. The user's records that have the same values for all the properties in ```RecordUniqueItemControl``` will be displayed, and potentially modified, as one.
+The content of `RecordUniqueItemControl` is not visible. The user's records that have the same
+values for all the properties in `RecordUniqueItemControl` will be displayed, and potentially
+modified, as one.
 
 ## Properties
 
 | Property | Details |
-| --- | --- |
+| -------- | ------- |
 
 ## Child Element: MainControl
 
 Set of fields to collect data about the main resource.
 
 | Property | Details |
-| --- | --- |
+| -------- | ------- |
 
 ## Child Element: RecordControl
 
 Set of fields to collect data when adding new records.
 
 | Property | Details |
-| --- | --- |
+| -------- | ------- |
 
 ## Child Element: RecordUniqueItemControl
 
-Set of fields that group records together. All records with the same data in ```RecordUniqueItemControl``` are displayed in the workflow as only one record, and they will potentially be modified together. When not specified, records will be grouped by the data from ```RecordControl```.
+Set of fields that group records together. All records with the same data in
+`RecordUniqueItemControl` are displayed in the workflow as only one record, and they will
+potentially be modified together. When not specified, records will be grouped by the data from
+`RecordControl`.
 
 | Property | Details |
-| --- | --- |
+| -------- | ------- |
 
 ## Child Element: RecordSlaveUniqueItemControl
 
-Set of fields to collect the data shared with all the resource's records, for example contract information when managing positions.
+Set of fields to collect the data shared with all the resource's records, for example contract
+information when managing positions.
 
 | Property | Details |
-| --- | --- |
+| -------- | ------- |
 
 ## Child Element: RecordSlaveControl
 
 Set of fields to collect data when updating existing records.
 
 | Property | Details |
-| --- | --- |
+| -------- | ------- |

@@ -1,26 +1,33 @@
 # Role Model
 
-The role model, with its computation and enforcement, is at the heart of Identity Manager's engine. It is composed mainly of roles, representing entitlements, and rules, enforcing the company assignment policies.
+The role model, with its computation and enforcement, is at the heart of Identity Manager's engine.
+It is composed mainly of roles, representing entitlements, and rules, enforcing the company
+assignment policies.
 
-Make sure to read the introduction on entitlement management first. See the [
-Entitlement Management
-](../../introduction-guide/overview/entitlement-management/index.md) topic for additional information.
+Make sure to read the introduction on entitlement management first. See the
+[ Entitlement Management ](../../introduction-guide/overview/entitlement-management/index.md) topic
+for additional information.
 
 ## Roles
 
-Roles represent entitlements from the managed systems, but expressed in a language understandable by non-technical people.
+Roles represent entitlements from the managed systems, but expressed in a language understandable by
+non-technical people.
 
-A single role is meant to represent one entitlement from a managed system, by acting as a label, thus allowing better organization and readability.
+A single role is meant to represent one entitlement from a managed system, by acting as a label,
+thus allowing better organization and readability.
 
-A composite role is meant to group several single roles into a meaningful, business-themed entitlement package.
+A composite role is meant to group several single roles into a meaningful, business-themed
+entitlement package.
 
-In this way, the role model can be seen as a [Role-Based Access Control](https://en.wikipedia.org/wiki/Role-based_access_control) (RBAC).
+In this way, the role model can be seen as a
+[Role-Based Access Control](https://en.wikipedia.org/wiki/Role-based_access_control) (RBAC).
 
 ## Assignment Rules
 
-An [
-Automate Role Assignments
-](../../user-guide/optimize/assignment-automation/automate-role-assignment/index.md) gives an entitlement to a user, usually based on (at least) one criterion from the user's data. Assignment rules are:
+An
+[ Automate Role Assignments ](../../user-guide/optimize/assignment-automation/automate-role-assignment/index.md)
+gives an entitlement to a user, usually based on (at least) one criterion from the user's data.
+Assignment rules are:
 
 - single role rules which assign single roles;
 - composite role rules which assign composite roles;
@@ -28,28 +35,28 @@ Automate Role Assignments
 
 The identity criteria that trigger the rules are named dimensions.
 
-In this way, the role model can also be seen as an [Attribute-Based Access Control](https://en.wikipedia.org/wiki/Attribute-based_access_control) (ABAC) model.
+In this way, the role model can also be seen as an
+[Attribute-Based Access Control](https://en.wikipedia.org/wiki/Attribute-based_access_control)
+(ABAC) model.
 
-Identity Manager gives users access to given resources in the managed systems, based on roles and rules, but it does not override the managed systems' authorization mechanisms.
+Identity Manager gives users access to given resources in the managed systems, based on roles and
+rules, but it does not override the managed systems' authorization mechanisms.
 
 ## Enforcement of the Assignment Policy
 
-The company's policy for entitlement assignment is enforced by Identity Manager with the computation of the role model, through the [
-Compute Role Model Task
-](../toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md) It applies all the configured rules, thus:
+The company's policy for entitlement assignment is enforced by Identity Manager with the computation
+of the role model, through the
+[ Compute Role Model Task ](../toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md)
+It applies all the configured rules, thus:
 
-- helping build a catalog of all available entitlements in the managed systems, see [
-  Create Roles in Bulk
-  ](../../user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/index.md);
-- helping build the rules that define the assignment policy, i.e. the expected entitlement assignments for all users, see the[
-  Perform Role Mining
-  ](../../user-guide/optimize/assignment-automation/role-mining/index.md);
-- automating entitlement assignment, see [
-  Automate Role Assignments
-  ](../../user-guide/optimize/assignment-automation/automate-role-assignment/index.md);
-- generating the provisioning orders that enable writing to the managed systems, see [
-  Create a Provisioning Rule
-  ](../../user-guide/set-up/provisioning-rule-creation/index.md);
-- detecting assignments in the managed systems that do not comply with the policy, see the [
-  Review Non-conforming Assignments
-  ](../../user-guide/administrate/non-conforming-assignment-review/index.md).
+- helping build a catalog of all available entitlements in the managed systems, see
+  [ Create Roles in Bulk ](../../user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/index.md);
+- helping build the rules that define the assignment policy, i.e. the expected entitlement
+  assignments for all users, see
+  the[ Perform Role Mining ](../../user-guide/optimize/assignment-automation/role-mining/index.md);
+- automating entitlement assignment, see
+  [ Automate Role Assignments ](../../user-guide/optimize/assignment-automation/automate-role-assignment/index.md);
+- generating the provisioning orders that enable writing to the managed systems, see
+  [ Create a Provisioning Rule ](../../user-guide/set-up/provisioning-rule-creation/index.md);
+- detecting assignments in the managed systems that do not comply with the policy, see the
+  [ Review Non-conforming Assignments ](../../user-guide/administrate/non-conforming-assignment-review/index.md).

@@ -6,27 +6,32 @@ Jira Integration errors
 
 Error message:
 
-_Please verify your Jira Credentials. Go to_ __Netwrix Dashboard__ _>_ __Configurations and Stats__ _>_ __Jira Configuration__ _>_ __Credentials__
+_Please verify your Jira Credentials. Go to_ **Netwrix Dashboard** _>_ **Configurations and Stats**
+_>_ **Jira Configuration** _>_ **Credentials**
 
 Solution:
 
-Refer to [Credentials](../installing_strongpoint/config_and_stats.md#credentials) for more information on entering your credentials.
+Refer to [Credentials](../installing_strongpoint/config_and_stats.md#credentials) for more
+information on entering your credentials.
 
 ## Error with Mapping Jira Statuses
 
 Error message:
 
-_Please verify your Jira Credentials. Go to_ __Netwrix Dashboard__ _>_ __Configurations and Stats__ _>_ __Jira Configuration__ _->_ __Status Mapping__
+_Please verify your Jira Credentials. Go to_ **Netwrix Dashboard** _>_ **Configurations and Stats**
+_>_ **Jira Configuration** _->_ **Status Mapping**
 
 Solution:
 
-Refer to [Status Mapping](../installing_strongpoint/config_and_stats.md#status-mapping) for more information on mapping your statuses.
+Refer to [Status Mapping](../installing_strongpoint/config_and_stats.md#status-mapping) for more
+information on mapping your statuses.
 
 ## Error with Salesforce Credentials
 
 Error message:
 
-Please verify Your User Credentials: It may be an Invalid username, wrong password, or invalid security token.
+Please verify Your User Credentials: It may be an Invalid username, wrong password, or invalid
+security token.
 
 If you are using Salesforce Authenticator, please update it to the most recent Six-digit code.
 
@@ -42,7 +47,8 @@ Error message:
 
 error=invalid_client_id&error_description=client%20identifier%20invalid
 
-Refer to [Access Data with API Integration](jira_integration.md#access-data-with-apiintegration) for more information on setting up the connected app.
+Refer to [Access Data with API Integration](jira_integration.md#access-data-with-apiintegration) for
+more information on setting up the connected app.
 
 ## Error with Consumer Secret
 
@@ -52,7 +58,8 @@ Please verify the Consumers Secret from the Connected App.
 
 Solution:
 
-Refer to [Credentials](../installing_strongpoint/config_and_stats.md#credentials) for more information on entering your credentials
+Refer to [Credentials](../installing_strongpoint/config_and_stats.md#credentials) for more
+information on entering your credentials
 
 ## URL Errors
 
@@ -62,4 +69,5 @@ error=redirect_uri_mismatch
 
 Solution:
 
-Refer to [Connected App](jira_walkthrough_example.md#connected-app) Connected App for more information on setting up the connected app.
+Refer to [Connected App](jira_walkthrough_example.md#connected-app) Connected App for more
+information on setting up the connected app.

@@ -1,12 +1,14 @@
 # Perform Manual Provisioning Access Control Rules
 
-Generates the rights to access the access manual provisioning pages for a given entity type and profile.
+Generates the rights to access the access manual provisioning pages for a given entity type and
+profile.
 
 Gives access to a shortcut on the dashboard to access this page.
 
 ![Manual Provisioning](../../../../../../../../../../../static/img/product_docs/usercube/usercube/user-guide/administrate/provisioning/manual-provisioning/home_manualprovisioning_v523.webp)
 
-The connector connected to the entity type must have the manual type as the provisioning type, otherwise the information of the entity type cannot be displayed on this screen.
+The connector connected to the entity type must have the manual type as the provisioning type,
+otherwise the information of the entity type cannot be displayed on this screen.
 
 ## Examples
 
@@ -18,10 +20,10 @@ The connector connected to the entity type must have the manual type as the prov
 
 ## Properties
 
-| Property | Details |
-| --- | --- |
-| EntityType   required | __Type__    String   __Description__   Identifier of the entity type involved in the scaffolding. |
-| Profile   required | __Type__    String   __Description__   Identifier of the profile involved in the scaffolding. |
+| Property            | Details                                                                                    |
+| ------------------- | ------------------------------------------------------------------------------------------ |
+| EntityType required | **Type** String **Description** Identifier of the entity type involved in the scaffolding. |
+| Profile required    | **Type** String **Description** Identifier of the profile involved in the scaffolding.     |
 
 ## Generated XML
 

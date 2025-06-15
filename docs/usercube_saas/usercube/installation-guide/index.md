@@ -4,7 +4,7 @@ This guide is designed to help you install Identity Manager in a production env
 
 ## Target Audience
 
-This guide is intended for __system administrators__ and __system architects__.
+This guide is intended for **system administrators** and **system architects**.
 
 Required knowledge includes:
 
@@ -14,6 +14,6 @@ Required knowledge includes:
 
 ## Overview
 
-The installation of Identity Manager requires architectural decisions to be made. An [
-Overview
-](overview/index.md) of the architecture and available configurations will help you make informed decisions.
+The installation of Identity Manager requires architectural decisions to be made. An
+[ Overview ](overview/index.md) of the architecture and available configurations will help you make
+informed decisions.

@@ -1,60 +1,79 @@
 # Authenticate Your Identity Store Account
 
-With second factor authentication enabled, users must authenticate the identity store account they use for logging into the portal.
+With second factor authentication enabled, users must authenticate the identity store account they
+use for logging into the portal.
 
-This means that a user must prove his or her identity using the Authentication Types they used to enroll his or her identity store account with.
+This means that a user must prove his or her identity using the Authentication Types they used to
+enroll his or her identity store account with.
 
 ## Authenticate your identity store account
 
-1. On the login page of the portal, select an identity store and then provide your user name and password to connect the portal to it.
-2. Click __Sign In__.
-3. You are directed to the __Authenticate Account__ page.
+1. On the login page of the portal, select an identity store and then provide your user name and
+   password to connect the portal to it.
+2. Click **Sign In**.
+3. You are directed to the **Authenticate Account** page.
 
-   This page displays the authentication type(s) you enrolled this account with. You must authenticate using one authentication type.
+    This page displays the authentication type(s) you enrolled this account with. You must
+    authenticate using one authentication type.
 
-   - __Authenticate using Security Questions__
+    - **Authenticate using Security Questions**
 
-     1. On the __Authenticate Account__ page, select __Security Questions__ and click __Continue__.
-     2. Provide answers to the security questions you enrolled your account with.
-     3. Click __Verify and Continue__.
-   - Authenticate using SMS
+        1. On the **Authenticate Account** page, select **Security Questions** and click
+           **Continue**.
+        2. Provide answers to the security questions you enrolled your account with.
+        3. Click **Verify and Continue**.
 
-     1. On the __Authenticate Account__ page, select __Security Questions__ and click __Continue__.
-     2. Type the last four digits of your mobile number and click __Send Code__.
-     3. In the _access code_ box, type the 5 digit access code sent on your mobile phone by SMS.
-     4. __Verify and Continue__.
+    - Authenticate using SMS
 
-     If you do not receive a code, click __Send Again__ and then enter the received code in the box.
-   - Authenticate using Email
+        1. On the **Authenticate Account** page, select **Security Questions** and click
+           **Continue**.
+        2. Type the last four digits of your mobile number and click **Send Code**.
+        3. In the _access code_ box, type the 5 digit access code sent on your mobile phone by SMS.
+        4. **Verify and Continue**.
 
-     1. On the __Authenticate Account__ page, select __Email Verification__ and click __Continue__.
-     2. Complete your email address and click __Send Code__.
-     3. In the _access code_ box, type the 5 digit access code sent to the provided email address.
-     4. Click __Verify and Continue__.
+        If you do not receive a code, click **Send Again** and then enter the received code in the
+        box.
 
-     If you do not receive a code, click __Send Again__ and then enter the received code in the box.
-   - Authenticator using Authenticator
+    - Authenticate using Email
 
-     1. On the __Authenticate Account__ page, select __Authenticator__ and click __Continue__.
-     2. Launch the Google Authenticator or Microsoft Authenticator app on your smartphone. The app generates a verification code and displays it on your phone’s screen.
-     3. Enter the code in the __Security code__ box and click __Verify and Continue__.
+        1. On the **Authenticate Account** page, select **Email Verification** and click
+           **Continue**.
+        2. Complete your email address and click **Send Code**.
+        3. In the _access code_ box, type the 5 digit access code sent to the provided email
+           address.
+        4. Click **Verify and Continue**.
 
-     Authenticator apps generate a new code every 30 seconds, with each code expiring after 30 seconds.
-   - Authenticate using YubiKey
+        If you do not receive a code, click **Send Again** and then enter the received code in the
+        box.
 
-     1. Insert the YubiKey device in the USB slot of your computer.
-     2. On the __Authenticate Account__ page, select __YubiKey Verification__ and click __Continue__.
-     3. Click your YubiKey device name.
+    - Authenticator using Authenticator
 
-        The portal directs you to tap on the device.
-     4. On tapping, you are authenticated on the portal.
-   - Authenticate using Windows Hello
+        1. On the **Authenticate Account** page, select **Authenticator** and click **Continue**.
+        2. Launch the Google Authenticator or Microsoft Authenticator app on your smartphone. The
+           app generates a verification code and displays it on your phone’s screen.
+        3. Enter the code in the **Security code** box and click **Verify and Continue**.
 
-     1. On the __Authenticate Account__ page, select __Windows Hello__ and click __Continue__.
-     2. Click __Authenticate and Continue__.
-     3. Provide the biometric information you enrolled your account with.
+        Authenticator apps generate a new code every 30 seconds, with each code expiring after 30
+        seconds.
 
-__See Also__
+    - Authenticate using YubiKey
+
+        1. Insert the YubiKey device in the USB slot of your computer.
+        2. On the **Authenticate Account** page, select **YubiKey Verification** and click
+           **Continue**.
+        3. Click your YubiKey device name.
+
+            The portal directs you to tap on the device.
+
+        4. On tapping, you are authenticated on the portal.
+
+    - Authenticate using Windows Hello
+
+        1. On the **Authenticate Account** page, select **Windows Hello** and click **Continue**.
+        2. Click **Authenticate and Continue**.
+        3. Provide the biometric information you enrolled your account with.
+
+**See Also**
 
 - [Second Factor Authentication](/versioned_docs/groupid_11.0/groupid/portal/user/authentication/secondfactorauthentication.md)
 - [Enroll Your Identity Store Account](/versioned_docs/groupid_11.0/groupid/portal/user/authentication/enrollaccount.md)

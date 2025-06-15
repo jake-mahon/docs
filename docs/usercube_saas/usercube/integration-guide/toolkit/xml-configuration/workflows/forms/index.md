@@ -1,33 +1,45 @@
 # Forms
 
-Workflows use forms to collect input data through the UI. A form is a set of fields, configured with controls. A control can define a field to fill, a fields set, call an existing form, etc. depending on its output type.
+Workflows use forms to collect input data through the UI. A form is a set of fields, configured with
+controls. A control can define a field to fill, a fields set, call an existing form, etc. depending
+on its output type.
 
 Here is a list of forms:
 
 - [WorkflowAddandEndRecordEntityForm](workflowaddandendrecordentityform/index.md)
 
-  Displays a form to define the end date of an existing record, and replace it with a new record at said date, by duplicating and adjusting the old record.
+    Displays a form to define the end date of an existing record, and replace it with a new record
+    at said date, by duplicating and adjusting the old record.
+
 - [WorkflowAddRecordEntityForm](workflowaddrecordentityform/index.md)
 
-  Displays a form to add a new record for an existing resource, by duplicating and adjusting an existing record.
+    Displays a form to add a new record for an existing resource, by duplicating and adjusting an
+    existing record.
+
 - [WorkflowCreateEntityForm](workflowcreateentityform/index.md)
 
-  Displays a form to create a new resource, without a record.
+    Displays a form to create a new resource, without a record.
+
 - [WorkflowCreateRecordEntityForm](workflowcreaterecordentityform/index.md)
 
-  Displays a form to create a new resource with a record.
+    Displays a form to create a new resource with a record.
+
 - [WorkflowCreateSeveralRecordsEntityForm](workflowcreateseveralrecordsentityform/index.md)
 
-  Displays a form to create a new resource with one or several records.
+    Displays a form to create a new resource with one or several records.
+
 - [WorkflowEditEntityForm](workfloweditentityform/index.md)
 
-  Displays a form to update or delete an existing resource, without a record.
+    Displays a form to update or delete an existing resource, without a record.
+
 - [WorkflowUpdateRecordEntitiesForm](workflowupdaterecordentitiesform/index.md)
 
-  Displays a form to update data for several resources simultaneously.
+    Displays a form to update data for several resources simultaneously.
+
 - [WorkflowUpdateRecordEntityForm](workflowupdaterecordentityform/index.md)
 
-  Displays a form to select an existing record and update it.
+    Displays a form to select an existing record and update it.
+
 - [WorkflowUpdateSeveralRecordsEntityForm](workflowupdateseveralrecordsentityform/index.md)
 
-  Displays a form to create, update or delete one or several records.
+    Displays a form to create, update or delete one or several records.

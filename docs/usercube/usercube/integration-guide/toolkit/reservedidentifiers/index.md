@@ -1,10 +1,8 @@
 # Reserved identifiers
 
-Identifiers of [
-Entity Type
-](../xml-configuration/metadata/entitytype/index.md) and [
-Entity Type
-](../xml-configuration/metadata/entitytype/index.md)cannot be one of the following words:
+Identifiers of [ Entity Type ](../xml-configuration/metadata/entitytype/index.md) and
+[ Entity Type ](../xml-configuration/metadata/entitytype/index.md)cannot be one of the following
+words:
 
 These words can't be written in any case, example: id, Id, iD and ID are forbidden.
 

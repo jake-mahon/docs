@@ -1,6 +1,7 @@
 # Installation
 
-This chapter provides step-by-step instructions on how to install Netwrix Auditor and its Compression Services. Refer to the following sections for detailed information:
+This chapter provides step-by-step instructions on how to install Netwrix Auditor and its
+Compression Services. Refer to the following sections for detailed information:
 
 - Install Netwrix Auditor
 - Installing Core Services
@@ -14,42 +15,65 @@ It also includes advanced scenarios such as:
 
 For instructions on upgrade procedures, refer to [Upgrade to the Latest Version](upgrade.md).
 
-__CAUTION:__ To keep your systems safe, Netwrix Auditor should not be exposed to inbound access from the internet.
+**CAUTION:** To keep your systems safe, Netwrix Auditor should not be exposed to inbound access from
+the internet.
 
 Follow these steps to install Netwrix Auditor
 
-__Step 1 –__ Download Netwrix Auditor 10.7 from [Netwrix website](https://www.netwrix.com/auditor.html).
+**Step 1 –** Download Netwrix Auditor 10.7 from
+[Netwrix website](https://www.netwrix.com/auditor.html).
 
-NOTE: Before installing Netwrix Auditor, make sure that the Windows Firewall service is started. If you use a third-party firewall, see [Protocols and Ports Required](../requirements/ports.md). Also, you must be a member of the local Administrators group to run the Netwrix Auditor installation.
+NOTE: Before installing Netwrix Auditor, make sure that the Windows Firewall service is started. If
+you use a third-party firewall, see [Protocols and Ports Required](../requirements/ports.md). Also,
+you must be a member of the local Administrators group to run the Netwrix Auditor installation.
 
-__Step 2 –__ Unpack the installation package. The following window will be displayed on successful operation completion:
+**Step 2 –** Unpack the installation package. The following window will be displayed on successful
+operation completion:
 
 ![installationscreen](../../../../static/img/product_docs/auditor/auditor/install/installationscreen.webp)
 
-__Step 3 –__ Follow the instructions of the setup wizard. When prompted, accept the license agreement.
+**Step 3 –** Follow the instructions of the setup wizard. When prompted, accept the license
+agreement.
 
-__Step 4 –__ On the Select Installation Type step, you will be prompted to select the installation type:
+**Step 4 –** On the Select Installation Type step, you will be prompted to select the installation
+type:
 
-- Full installation—Select if you are going to install Netwrix Auditor server and client on the same machine. In this case the main component called Auditor Server and the Auditor Client will be installed.
-- Client installation—Select if you want to install a UI client to provide access to configuration and audit data.
+- Full installation—Select if you are going to install Netwrix Auditor server and client on the same
+  machine. In this case the main component called Auditor Server and the Auditor Client will be
+  installed.
+- Client installation—Select if you want to install a UI client to provide access to configuration
+  and audit data.
 
-__Step 5 –__ On the Destination Folder step, specify the installation folder.
+**Step 5 –** On the Destination Folder step, specify the installation folder.
 
-__Step 6 –__ On the Netwrix Customer Experience Program step, you are invited to take part in the Netwrix Customer Experience Program. It is optional on your part to help Netwrix improve the quality, reliability, and performance of Netwrix products and services. If you accept, Netwrix collects statistical information on how the Licensee uses the product in accordance with applicable law. Select Skip if you do not want to participate in the program.
+**Step 6 –** On the Netwrix Customer Experience Program step, you are invited to take part in the
+Netwrix Customer Experience Program. It is optional on your part to help Netwrix improve the
+quality, reliability, and performance of Netwrix products and services. If you accept, Netwrix
+collects statistical information on how the Licensee uses the product in accordance with applicable
+law. Select Skip if you do not want to participate in the program.
 
-You can always opt-out of the Netwrix Customer Experience Program later. See the [About Netwrix Auditor](../admin/settings/about.md) topic for additional information.
+You can always opt-out of the Netwrix Customer Experience Program later. See the
+[About Netwrix Auditor](../admin/settings/about.md) topic for additional information.
 
-__Step 7 –__ Click Install.
+**Step 7 –** Click Install.
 
-After a successful installation, Auditor shortcut will be added to the __Start__ menu and screen and the product will start. See the [First Launch](firstlaunch.md) topic for additional information on the product navigation.
+After a successful installation, Auditor shortcut will be added to the **Start** menu and screen and
+the product will start. See the [First Launch](firstlaunch.md) topic for additional information on
+the product navigation.
 
 ![welcome_screen](../../../../static/img/product_docs/auditor/auditor/install/welcome_screen.webp)
 
-Netwrix looks beyond the traditional on-premises installation and provides Auditor for cloud and virtual environments. For example, you can deploy Auditor on a pre-configured Microsoft Azure virtual machine or install it as a virtual appliance on your VMware vSphere or Hyper-V virtualization server. For more information on additional deployment options, visit [Virtual Appliance page](https://www.netwrix.com/virtual_appliances.html).
+Netwrix looks beyond the traditional on-premises installation and provides Auditor for cloud and
+virtual environments. For example, you can deploy Auditor on a pre-configured Microsoft Azure
+virtual machine or install it as a virtual appliance on your VMware vSphere or Hyper-V
+virtualization server. For more information on additional deployment options, visit
+[Virtual Appliance page](https://www.netwrix.com/virtual_appliances.html).
 
 ## Installing Core Services
 
-To audit SharePoint farms and user activity, Netwrix Auditor provides Core Services that must be installed in the audited environment to collect audit data. Both Core Services can be installed either automatically when setting up auditing in Netwrix Auditor, or manually.
+To audit SharePoint farms and user activity, Netwrix Auditor provides Core Services that must be
+installed in the audited environment to collect audit data. Both Core Services can be installed
+either automatically when setting up auditing in Netwrix Auditor, or manually.
 
 Refer to the following sections below for manual installation instructions:
 

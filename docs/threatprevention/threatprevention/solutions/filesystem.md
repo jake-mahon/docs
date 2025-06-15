@@ -1,9 +1,15 @@
 # File System
 
-Threat Prevention for File System provides organizations with real-time visibility into and control over changes and access activities occurring within Windows file systems. It also provides real-time visibility into file access and change activities occurring on NAS devices.
+Threat Prevention for File System provides organizations with real-time visibility into and control
+over changes and access activities occurring within Windows file systems. It also provides real-time
+visibility into file access and change activities occurring on NAS devices.
 
-- Threat Prevention authoritatively records a complete audit trail of events for security, compliance, and forensic investigation, and alerts on critical activities in real-time without reliance on native logging facilities or impacting system performance.
-- Threat Prevention also optionally blocks change and access events from occurring at the share, folder, or file level on Windows file systems, enabling complete control over critical data regardless of natively supplied access rights.
+- Threat Prevention authoritatively records a complete audit trail of events for security,
+  compliance, and forensic investigation, and alerts on critical activities in real-time without
+  reliance on native logging facilities or impacting system performance.
+- Threat Prevention also optionally blocks change and access events from occurring at the share,
+  folder, or file level on Windows file systems, enabling complete control over critical data
+  regardless of natively supplied access rights.
 
 Some important events Threat Prevention captures within a Windows file system are:
 
@@ -20,7 +26,7 @@ Some important events Threat Prevention captures within a NAS file system are:
 - File Access Events (Create, Copy, Delete, Rename, Read, Update)
 - Permission Changes
 
-__NOTE:__ For NAS monitoring, Threat Prevention employs the Netwrix Activity Monitor component.
+**NOTE:** For NAS monitoring, Threat Prevention employs the Netwrix Activity Monitor component.
 
 ## File System Event Types
 

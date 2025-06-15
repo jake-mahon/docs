@@ -1,13 +1,17 @@
 # Use a Template to Create a Policy
 
-You can use a policy template to create a policy. All settings in the template are copied to the policy. You can customize the settings as required.
+You can use a policy template to create a policy. All settings in the template are copied to the
+policy. You can customize the settings as required.
 
 ## Create a Policy From a Template
 
-Click the Templates or Tags node in the Navigation pane and move the desired template to the Policies node.
+Click the Templates or Tags node in the Navigation pane and move the desired template to the
+Policies node.
 
-- From under the Templates node, templates can be moved to the Policies node via drag-and-drop or with the right-click __Copy__ and __Paste__ options.
-- From under the Tags node, templates can be moved to the Policies node via the right-click __Copy__ and __Paste__ options.
+- From under the Templates node, templates can be moved to the Policies node via drag-and-drop or
+  with the right-click **Copy** and **Paste** options.
+- From under the Tags node, templates can be moved to the Policies node via the right-click **Copy**
+  and **Paste** options.
 
 The policy will be disabled but will contain all of the preconfigured settings.
 
@@ -15,18 +19,25 @@ The policy will be disabled but will contain all of the preconfigured settings.
 
 Follow the steps to customize a policy that was created from a template.
 
-__Step 1 –__ Click Policies in the Navigation pane and open the policy you created from a template.
+**Step 1 –** Click Policies in the Navigation pane and open the policy you created from a template.
 
-__Step 2 –__ If desired, on the [General Tab](../policies/general.md) select the Active At Specified Times option and then set the schedule.
+**Step 2 –** If desired, on the [General Tab](../policies/general.md) select the Active At Specified
+Times option and then set the schedule.
 
-__CAUTION:__ Use cation with _all Lockdown/Blocking Templates_! Blank filters result in _everything_ being locked down or blocked.
+**CAUTION:** Use cation with _all Lockdown/Blocking Templates_! Blank filters result in _everything_
+being locked down or blocked.
 
-__Step 3 –__ On the [Event Type Tab](../policies/eventtype/overview.md), configure the Event Filters that are specific to each environment.
+**Step 3 –** On the [Event Type Tab](../policies/eventtype/overview.md), configure the Event Filters
+that are specific to each environment.
 
-_Remember,_ Each filter tab acts like an "AND" statement for the filter. Any filter tab left blank is treated like an "ALL" for that filter set.
+_Remember,_ Each filter tab acts like an "AND" statement for the filter. Any filter tab left blank
+is treated like an "ALL" for that filter set.
 
-__Step 4 –__ If desired, on the [Actions Tab](../policies/actions/overview.md) assign any actions to be a part of this policy.
+**Step 4 –** If desired, on the [Actions Tab](../policies/actions/overview.md) assign any actions to
+be a part of this policy.
 
-__Step 5 –__ Return to the [General Tab](../policies/general.md) and check the __Enabled__ box to activate the policy. Click __Save__.
+**Step 5 –** Return to the [General Tab](../policies/general.md) and check the **Enabled** box to
+activate the policy. Click **Save**.
 
-When the last step is completed, this policy is sent, real-time, to the individual Agents and becomes active.
+When the last step is completed, this policy is sent, real-time, to the individual Agents and
+becomes active.

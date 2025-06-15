@@ -1,64 +1,91 @@
 # Recommended Configurations for the 2.Users Job Group
 
-The __Active Directory__ > __2.Users__ Job Group has been configured by default to run with the out-of-the-box settings. It can be run directly or scheduled.
+The **Active Directory** > **2.Users** Job Group has been configured by default to run with the
+out-of-the-box settings. It can be run directly or scheduled.
 
 Dependencies
 
-- The __.Active Directory Inventory__ Job Group needs to be successfully executed prior to running this job group
+- The **.Active Directory Inventory** Job Group needs to be successfully executed prior to running
+  this job group
 
-  - For the __AD_ServiceAccounts__ Job, the __.Active Directory Inventory__ > __1-AD_Scan__ Job needs to be configured to collect __servicePrincipalName__ as a Custom Attribute
-- For the __AD_WeakPassword__ Job:
+    - For the **AD_ServiceAccounts** Job, the **.Active Directory Inventory** > **1-AD_Scan** Job
+      needs to be configured to collect **servicePrincipalName** as a Custom Attribute
 
-  - Requires the DSInternals PowerShell Module, which is a third-party package. See the [AD_WeakPasswords Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/users/ad_weakpasswords.md) topic for additional information.
-  - The AD_WeakPasswords Job depends on a dictionary file. See the [PasswordSecurity: Dictionaries](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/passwordsecurity/dictionaries.md) topic for additional information.
+- For the **AD_WeakPassword** Job:
 
-  ___RECOMMENDED:___ If this job is not to be used, disable the job to prevent execution when the job group is executed.
+    - Requires the DSInternals PowerShell Module, which is a third-party package. See the
+      [AD_WeakPasswords Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/users/ad_weakpasswords.md)
+      topic for additional information.
+    - The AD_WeakPasswords Job depends on a dictionary file. See the
+      [PasswordSecurity: Dictionaries](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/passwordsecurity/dictionaries.md)
+      topic for additional information.
+
+    **_RECOMMENDED:_** If this job is not to be used, disable the job to prevent execution when the
+    job group is executed.
 
 Targeted Host(s)
 
-Only the __AD_WeakPasswords__ Job requires a host list. The host list assignment has been configured under the __2. Users__ > __AD_WeakPasswords__ > __Configure__ > __Hosts__ node. It is set to target the __ONE DOMAIN CONTROLLER PER DOMAIN__ host list. This host list is a dynamic host list based on the host inventory value in the __isDomainController__ field in the Host Master Table.
+Only the **AD_WeakPasswords** Job requires a host list. The host list assignment has been configured
+under the **2. Users** > **AD_WeakPasswords** > **Configure** > **Hosts** node. It is set to target
+the **ONE DOMAIN CONTROLLER PER DOMAIN** host list. This host list is a dynamic host list based on
+the host inventory value in the **isDomainController** field in the Host Master Table.
 
 Connection Profile
 
-Only the __AD_WeakPasswords__ Job requires a Connection Profile. It must be set directly on the __AD_WeakPasswords__ Job (through the Job Properties window) with Domain Administrator privileges.
+Only the **AD_WeakPasswords** Job requires a Connection Profile. It must be set directly on the
+**AD_WeakPasswords** Job (through the Job Properties window) with Domain Administrator privileges.
 
-__NOTE:__ The __AD_WeakPassword__ Job can be executed with a least privilege credential. See the [Active Directory Auditing Configuration](/versioned_docs/enterpriseauditor_11.6/config/activedirectory/access.md) topic for additional information.
+**NOTE:** The **AD_WeakPassword** Job can be executed with a least privilege credential. See the
+[Active Directory Auditing Configuration](/versioned_docs/enterpriseauditor_11.6/config/activedirectory/access.md)
+topic for additional information.
 
 Schedule Frequency
 
-The data analyzed by the __2.Users__ Job Group jobs is collected by the __.Active Directory Inventory__ Job Group. Therefore, it is recommended to schedule these jobs to run after the __.Active Directory Inventory__ job group collection has completed. These jobs can be scheduled to run as desired.
+The data analyzed by the **2.Users** Job Group jobs is collected by the **.Active Directory
+Inventory** Job Group. Therefore, it is recommended to schedule these jobs to run after the
+**.Active Directory Inventory** job group collection has completed. These jobs can be scheduled to
+run as desired.
 
 Run at the Job Group Level
 
-Run the jobs in the __2.Users__ Job Group together and in order by running the entire job group, instead of the individual jobs.
+Run the jobs in the **2.Users** Job Group together and in order by running the entire job group,
+instead of the individual jobs.
 
-_Remember,_  if the __AD_WeakPassword__ Job is not to be executed, it can be disabled.
+_Remember,_ if the **AD_WeakPassword** Job is not to be executed, it can be disabled.
 
 Analysis Configuration
 
-The __2.Users__ Job Group should be run with the default analysis configurations. Most of the analysis tasks are preconfigured for this Job Group.
+The **2.Users** Job Group should be run with the default analysis configurations. Most of the
+analysis tasks are preconfigured for this Job Group.
 
 Some analysis tasks have customizable parameters:
 
-- The __.Active Directory Inventory__ Solution defines stale users. These parameters can be customized.
-  - Customize within __.Active Directory Inventory__ > __3-AD_Exceptions__ Job analysis tasks
+- The **.Active Directory Inventory** Solution defines stale users. These parameters can be
+  customized.
 
-    __NOTE:__ Changes to an exception’s definition will affect all jobs dependent upon that exception as well as all Access Information Center Exceptions reports.
+    - Customize within **.Active Directory Inventory** > **3-AD_Exceptions** Job analysis tasks
+
+        **NOTE:** Changes to an exception’s definition will affect all jobs dependent upon that
+        exception as well as all Access Information Center Exceptions reports.
 
 Workflow
 
-__Step 1 –__ Prerequisite: Ensure the __.Active Directory Inventory__ Job Group has been successfully run.
+**Step 1 –** Prerequisite: Ensure the **.Active Directory Inventory** Job Group has been
+successfully run.
 
-__Step 2 –__ For AD_WeakPassword Job: Run a host discovery query to discover domain controllers.
+**Step 2 –** For AD_WeakPassword Job: Run a host discovery query to discover domain controllers.
 
-- The __AD_WeakPasswords__ Job has been set to run against the following default dynamic host list:
+- The **AD_WeakPasswords** Job has been set to run against the following default dynamic host list:
 
-  - ONE DOMAIN CONTROLLER PER DOMAIN
+    - ONE DOMAIN CONTROLLER PER DOMAIN
 
-  __NOTE:__ Default dynamic host lists are populated from hosts in the Host Master Table that meet the host inventory criteria for the list. Ensure the appropriate host lists have been populated through host inventory results.
+    **NOTE:** Default dynamic host lists are populated from hosts in the Host Master Table that meet
+    the host inventory criteria for the list. Ensure the appropriate host lists have been populated
+    through host inventory results.
 
-__Step 3 –__ Set a Connection Profile on the job that runs the data collection.
+**Step 3 –** Set a Connection Profile on the job that runs the data collection.
 
-__Step 4 –__ Schedule the __2.Users__ Job Group to run as desired after the prerequisite job has completed.
+**Step 4 –** Schedule the **2.Users** Job Group to run as desired after the prerequisite job has
+completed.
 
-__Step 5 –__ Review the reports generated by the __2.Users__ Job Group.
+**Step 5 –** Review the reports generated by the **2.Users** Job Group.

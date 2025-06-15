@@ -5,7 +5,7 @@ slug: /api/plugins/@docusaurus/plugin-css-cascade-layers
 
 # 📦 plugin-css-cascade-layers
 
-import APITable from '@site/src/components/APITable';
+import APITable from '@site/src/components/APITable'
 
 :::caution Experimental
 
@@ -46,8 +46,8 @@ Accepted fields:
 <APITable>
 ```
 
-| Name | Type | Default | Description |
-| --- | --- | --- | --- |
+| Name     | Type     | Default             | Description                                                                                                                                                    |
+| -------- | -------- | ------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `layers` | `Layers` | **Built-in layers** | An object representing all the CSS cascade layers you want to use, and whether the layer should be applied to a given file path. See examples and types below. |
 
 ```mdx-code-block
@@ -62,7 +62,7 @@ Accepted fields:
 type Layers = Record<
   string, // layer name
   (filePath: string) => boolean // layer matcher
->;
+>
 ```
 
 The `layers` object is defined by:
@@ -86,10 +86,9 @@ You can configure this plugin through plugin options.
 ```js
 const options = {
   layers: {
-    'docusaurus.infima': (filePath) =>
-      filePath.includes('/node_modules/infima/dist'),
+    'docusaurus.infima': (filePath) => filePath.includes('/node_modules/infima/dist'),
     'docusaurus.theme-classic': (filePath) =>
       filePath.includes('/node_modules/@docusaurus/theme-classic/lib'),
   },
-};
+}
 ```

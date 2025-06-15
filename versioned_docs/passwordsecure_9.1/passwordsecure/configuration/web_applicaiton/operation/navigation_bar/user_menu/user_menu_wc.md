@@ -1,6 +1,7 @@
 # User menu
 
-The user menu can be found in the upper right corner of the Web Application. A right click on the logged in user opens it.
+The user menu can be found in the upper right corner of the Web Application. A right click on the
+logged in user opens it.
 
 #### Options in the user menu
 
@@ -24,7 +25,8 @@ What the Basic view is able to do in the web view can be inspected here.
 
 Lock
 
-This locks the user who is currently logged in and only needs to enter his password to use the web client again.
+This locks the user who is currently logged in and only needs to enter his password to use the web
+client again.
 
 Log out
 

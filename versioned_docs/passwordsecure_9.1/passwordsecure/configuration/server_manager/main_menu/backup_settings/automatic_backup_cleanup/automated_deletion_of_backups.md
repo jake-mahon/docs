@@ -1,12 +1,14 @@
 # Automatic backup cleanup
 
-It is possible to delete backups automatically after a certain period of time. This can be useful if you append date and time to the backups and thus generate new files daily.
+It is possible to delete backups automatically after a certain period of time. This can be useful if
+you append date and time to the backups and thus generate new files daily.
 
 ![automatic cleanup](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/server_manager/main_menu/backup_settings/automatic_backup_cleanup/automated-deletion-of-backups-en.png)
 
 ###### Requirement
 
-__CAUTION:__ It must be ensured that the user who sets up the automated deletion has sysadmin privileges on the SQL server.
+**CAUTION:** It must be ensured that the user who sets up the automated deletion has sysadmin
+privileges on the SQL server.
 
 ###### Furnishing
 

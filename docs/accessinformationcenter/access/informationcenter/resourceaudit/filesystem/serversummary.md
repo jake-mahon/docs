@@ -1,6 +1,7 @@
 # Server Summary Report
 
-The Server Summary report at the __File System__ node provides a top-level view of servers that have been scanned.
+The Server Summary report at the **File System** node provides a top-level view of servers that have
+been scanned.
 
 ![Server Summary report at the File System node](../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/filesystem/serversummary.webp)
 
@@ -13,4 +14,5 @@ This report is comprised of the following columns:
 - Exceptions – Count of exceptions on the server
 - Last Scanned – Date and timestamp of the last Access Analyzer scan
 
-Also, the Group Membership pane displays Local Administrator and Local Group membership on the selected server.
+Also, the Group Membership pane displays Local Administrator and Local Group membership on the
+selected server.

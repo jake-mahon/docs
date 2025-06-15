@@ -1,23 +1,33 @@
 # Java Enterprise Rules Manager
 
-__NOTE:__ Before reading this section, please ensure you have read Book 2: [Installation Quick Start](../gettingstarted/quickstart/overviewinstall.md), which will help you learn to do the following:
+**NOTE:** Before reading this section, please ensure you have read Book 2:
+[Installation Quick Start](../gettingstarted/quickstart/overviewinstall.md), which will help you
+learn to do the following:
 
 - Install the Admin MSI on your GPMC machine
 - Install the CSE on a test Windows machine
 - Set up a computer in Trial mode or Licensed mode
 - Set up a common OU structure
 
-Optionally, if you don't want to use Group Policy, read the section in Appendix A: [Using Endpoint Policy Manager with MDM and UEM Tools](../mdm/uemtools.md) to deploy your directives.
+Optionally, if you don't want to use Group Policy, read the section in Appendix A:
+[Using Endpoint Policy Manager with MDM and UEM Tools](../mdm/uemtools.md) to deploy your
+directives.
 
 The goals of Netwrix Endpoint Policy Manager (formerly PolicyPak) Java Rules Manager are as follows:
 
-- Dictate specific versions of Java that should be utilized by specific Java applets (usually housed within specific webpages).
+- Dictate specific versions of Java that should be utilized by specific Java applets (usually housed
+  within specific webpages).
 - Reduce or eliminate prompts to end users about Java.
 - Continue to run unknown or unnamed Java applets with the most secure version of Java.
 
-Java Rules Manager enables you to map the version of Java you want to use in individual circumstances. It is the fastest way to implement Oracle's Java Deployment Rule Set feature (which will be explained later). PolicyPak is not reinventing the wheel or tricking Java. Instead, it works alongside Oracle's sanctioned method for the mapping of Java versions to Java applets.
+Java Rules Manager enables you to map the version of Java you want to use in individual
+circumstances. It is the fastest way to implement Oracle's Java Deployment Rule Set feature (which
+will be explained later). PolicyPak is not reinventing the wheel or tricking Java. Instead, it works
+alongside Oracle's sanctioned method for the mapping of Java versions to Java applets.
 
-__NOTE:__ See this video [Use Endpoint Policy Manager Cloud to choose which version of Java for what website](../video/javaenterpriserules/cloud.md) for an overview of Endpoint Policy Manager Java Rules Manager.
+**NOTE:** See this video
+[Use Endpoint Policy Manager Cloud to choose which version of Java for what website](../video/javaenterpriserules/cloud.md) for
+an overview of Endpoint Policy Manager Java Rules Manager.
 
 For instance, you might want to ensure that the following policies are running on your machine:
 
@@ -32,10 +42,12 @@ PolicyPak Java Rules Manager enables you to perform the following functions:
 - Set Item-Level Targeting on policies and collections.
 - Deliver policies to the Computer side (without Group Policy Loopback mode).
 - Create exact criteria for when specific Java versions should open in a browser.
-- Export policies or collections as XML files for use with PolicyPak Exporter and PolicyPak Cloud. See [Exporting Collections](exportcollections.md) for additional information.
+- Export policies or collections as XML files for use with PolicyPak Exporter and PolicyPak Cloud.
+  See [Exporting Collections](exportcollections.md) for additional information.
 - Set custom messages when blocking a Java applet.
 
-To use the Quickstart for PolicyPak Java Rules Manager, we recommend you have one endpoint (Windows 7 or later) configured with the following browsers and Java versions:
+To use the Quickstart for PolicyPak Java Rules Manager, we recommend you have one endpoint (Windows
+7 or later) configured with the following browsers and Java versions:
 
 - Internet Explorer 11
 - Firefox (latest ESR version still supports Java)
@@ -44,7 +56,8 @@ To use the Quickstart for PolicyPak Java Rules Manager, we recommend you have on
 - Java 8 (our examples will use Java 8 U 25)
 - The latest version of Java (Java 8 U 111 as of this manual's publication)
 
-It is recommended that you test the endpoint (Windows 7 or later) with all these versions of Java, as well as Internet Explorer, Firefox, and Chrome.
+It is recommended that you test the endpoint (Windows 7 or later) with all these versions of Java,
+as well as Internet Explorer, Firefox, and Chrome.
 
 ![about_policypak_java_rules](../../../../static/img/product_docs/policypak/policypak/javaenterpriserules/about_policypak_java_rules.webp)
 
@@ -52,12 +65,15 @@ Even though there are more advanced scenarios, this will get you going quickly.
 
 There are a few basic ways you can use PolicyPak Java Rules Manager.
 
-- First, create a Microsoft Group Policy Object (GPO) using PolicyPak Java Rules Manager. If you use Group Policy as the delivery mechanism, then that directive is deployed to client machines.
-- Alternatively, export the PolicyPak Java Rules Manager rules and deliver them via the following applications:
+- First, create a Microsoft Group Policy Object (GPO) using PolicyPak Java Rules Manager. If you use
+  Group Policy as the delivery mechanism, then that directive is deployed to client machines.
+- Alternatively, export the PolicyPak Java Rules Manager rules and deliver them via the following
+  applications:
 
-  - Microsoft Endpoint Manager (SCCM and Intune)
-  - Your own systems management software
-  - PolicyPak Cloud service
-  - The client machine with the PolicyPak client-side extension (CSE)
+    - Microsoft Endpoint Manager (SCCM and Intune)
+    - Your own systems management software
+    - PolicyPak Cloud service
+    - The client machine with the PolicyPak client-side extension (CSE)
 
-__NOTE:__ If you use the PolicyPak Cloud service, you can deliver Group Policy settings even to non-domain-joined machines over the Internet.
+**NOTE:** If you use the PolicyPak Cloud service, you can deliver Group Policy settings even to
+non-domain-joined machines over the Internet.

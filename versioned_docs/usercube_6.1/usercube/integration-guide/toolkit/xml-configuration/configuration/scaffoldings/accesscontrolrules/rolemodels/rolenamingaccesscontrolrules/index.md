@@ -1,6 +1,7 @@
 # RoleNamingAccessControlRules
 
-Generates the permissions to configure and launch the automatic creation of roles and rules based on naming conventions.
+Generates the permissions to configure and launch the automatic creation of roles and rules based on
+naming conventions.
 
 ## Examples
 
@@ -12,9 +13,9 @@ Generates the permissions to configure and launch the automatic creation of role
 
 ## Properties
 
-| Property | Details |
-| --- | --- |
-| Profile   required | __Type__    String   __Description__   Identifier of the profile involved in the scaffolding. |
+| Property         | Details                                                                                |
+| ---------------- | -------------------------------------------------------------------------------------- |
+| Profile required | **Type** String **Description** Identifier of the profile involved in the scaffolding. |
 
 ## Generated XML
 

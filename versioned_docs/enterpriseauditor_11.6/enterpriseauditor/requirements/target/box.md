@@ -24,20 +24,30 @@ For .Active Directory Inventory Prerequisite
 - Read access to directory tree
 - List Contents & Read Property on the Deleted Objects Container
 
-  __NOTE:__ See the Microsoft [Searching for Deleted Objects](https://technet.microsoft.com/en-us/library/cc978013.aspx) article and the Microsoft [Dsacls](https://technet.microsoft.com/en-us/library/cc771151(v=ws.11).aspx) article for additional information.
+    **NOTE:** See the Microsoft
+    [Searching for Deleted Objects](https://technet.microsoft.com/en-us/library/cc978013.aspx)
+    article and the Microsoft
+    [Dsacls](<https://technet.microsoft.com/en-us/library/cc771151(v=ws.11).aspx>) article for
+    additional information.
 
 For Box Data Collection
 
-Box scans require the Enterprise Admin or Co-Admin account credentials to generate an authorization code. The following can be used as a least privilege model:
+Box scans require the Enterprise Admin or Co-Admin account credentials to generate an authorization
+code. The following can be used as a least privilege model:
 
 - Enterprise Admin account
-- Co-Admin account with the permission to __Run new reports and access existing reports__ enabled
+- Co-Admin account with the permission to **Run new reports and access existing reports** enabled
 
-  - See the Box [Co-Admin Permissions Required to Run Reports](https://support.box.com/hc/en-us/articles/15518640907283-Co-Admin-Permissions-Required-to-Run-Reports) article for details on enabling this permission
+    - See the Box
+      [Co-Admin Permissions Required to Run Reports](https://support.box.com/hc/en-us/articles/15518640907283-Co-Admin-Permissions-Required-to-Run-Reports)
+      article for details on enabling this permission
 
-__NOTE:__ Scans run with Co-Admin account credentials will complete. However, the data returned from the scan might not include content owned by the Enterprise Admin account.
+**NOTE:** Scans run with Co-Admin account credentials will complete. However, the data returned from
+the scan might not include content owned by the Enterprise Admin account.
 
-See the [Recommended Configurations for the Box Solution](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/box/recommended.md) topic for additional information.
+See the
+[Recommended Configurations for the Box Solution](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/box/recommended.md)
+topic for additional information.
 
 ## Ports
 

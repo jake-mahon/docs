@@ -1,18 +1,22 @@
 # PPE cmdlets
 
-The PPE Cmdlets are available to manage Password Policy Enforcer from a Windows PowerShell. The cmdlets are not case-sensitive.
+The PPE Cmdlets are available to manage Password Policy Enforcer from a Windows PowerShell. The
+cmdlets are not case-sensitive.
 
 To establish the connection:
 
-__Step 1 –__ Open a Windows PowerShell. Some cmdlets require administrative permissions. You can use the __Run as Administrator__ option.
+**Step 1 –** Open a Windows PowerShell. Some cmdlets require administrative permissions. You can use
+the **Run as Administrator** option.
 
-__Step 2 –__ Import the PPE cmdlets module:  
-__Import-Module "C:\Program Files\Password Policy Enforcer\PS\PPEConf.PowerShell.dll"__
+**Step 2 –** Import the PPE cmdlets module:  
+**Import-Module "C:\Program Files\Password Policy Enforcer\PS\PPEConf.PowerShell.dll"**
 
-__Step 3 –__ Connect to your domain:  
-__Connect-PPE -d "_domain_"__ where _domain_ is the full name of your domain controller. __NT-DC03.NWXTECH.COM__ in this example.
+**Step 3 –** Connect to your domain:  
+**Connect-PPE -d "_domain_"** where _domain_ is the full name of your domain controller.
+**NT-DC03.NWXTECH.COM** in this example.
 
-__Get-PPEHelp__ with no parameters, displays a list of available cmdlets. Use the PowerShell __get-help__ _Cmdlet_ for information about the cmdlet.
+**Get-PPEHelp** with no parameters, displays a list of available cmdlets. Use the PowerShell
+**get-help** _Cmdlet_ for information about the cmdlet.
 
 ![PPE cmdlets Connect](../../../../static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/cmdletconnect.webp)
 

@@ -8,52 +8,81 @@ Log Parsing & Reporting: Top 5 End-User Activity Log Data
 
 Every log message emitted by the API will include the following fields:
 
-- ```req_id``` — unique identifier for an incoming request. All API events that are generated as part of this request will have the same value.
-- ```request.requested_by``` — properties about the user making the request
-- ```req```
+- `req_id` — unique identifier for an incoming request. All API events that are generated as part of
+  this request will have the same value.
+- `request.requested_by` — properties about the user making the request
+- `req`
 
-- ```headers``` — HTTP request headers
-- ```method``` — HTTP method
-- ```url``` — request URL
-- ```params``` — params, if any from the body or the URL
-- ```query``` — pagination information, if any
-- ```remoteAddress``` / ```remotePort``` — requestor IP information
+- `headers` — HTTP request headers
+- `method` — HTTP method
+- `url` — request URL
+- `params` — params, if any from the body or the URL
+- `query` — pagination information, if any
+- `remoteAddress` / `remotePort` — requestor IP information
 
-- ```res```
+- `res`
 
-- ```statusCode``` — HTTP response status code
-- ```header``` — HTTP response headers
-- ```body``` — response body
+- `statusCode` — HTTP response status code
+- `header` — HTTP response headers
+- `body` — response body
 
 ## Examples
 
-NOTE: For these examples, the log details provide is one of many event lines that are included in a single action by a user. Here are a few things to be aware of when reviewing these messages
+NOTE: For these examples, the log details provide is one of many event lines that are included in a
+single action by a user. Here are a few things to be aware of when reviewing these messages
 
-- These logs were taken straight from Fluentd’s stdout (standard out), which is the central log location that all of Privilege Secure activities are sent to prior to the data being forwarded to a SIEM.
-- For brevity, the additional lines for each set of actions have been excluded and only the “core” action’s event has been listed below. In general there can be between 3 and 30+ lines/events per action/process taken within Privilege Secure.
+- These logs were taken straight from Fluentd’s stdout (standard out), which is the central log
+  location that all of Privilege Secure activities are sent to prior to the data being forwarded to
+  a SIEM.
+- For brevity, the additional lines for each set of actions have been excluded and only the “core”
+  action’s event has been listed below. In general there can be between 3 and 30+ lines/events per
+  action/process taken within Privilege Secure.
 - These log details are for Privilege Secure version 1.13.63 and higher.
-- For all of the user activity below, the user that is initiating the 5 different actions/events is “chuser”. These actions are being taken towards the system “WINCOMP2”. This user and system information is provided to help in reference to the log data below for what user is taking action to what system.
-- This list of five end user activities is a small portion of the total end user log activities to be generated and even smaller of total Privilege Secure logs events created. Any questions  or request for additional  log data on a specific action can be sent to NetwrixSupport and our Customer Success Engineers will be happy to assist.
+- For all of the user activity below, the user that is initiating the 5 different actions/events is
+  “chuser”. These actions are being taken towards the system “WINCOMP2”. This user and system
+  information is provided to help in reference to the log data below for what user is taking action
+  to what system.
+- This list of five end user activities is a small portion of the total end user log activities to
+  be generated and even smaller of total Privilege Secure logs events created. Any questions  or
+  request for additional  log data on a specific action can be sent to NetwrixSupport and our
+  Customer Success Engineers will be happy to assist.
 
-UPDATE: For purposes of accessing the on-prem logs of these end-user activities there are 2 methods used (stdout vs local logging).
+UPDATE: For purposes of accessing the on-prem logs of these end-user activities there are 2 methods
+used (stdout vs local logging).
 
-- The stdout method is the default logging that is accessible automatically from a new deployment of Netwrix Privilege Secure. This method of logging is not best for historical view/access. The stdout stream only has a limited, by default, amount of output that can be accessed. This is the downside of relying on stdout for log access and viewing. NOTE: This method of log viewing is only useful when an event is replicable live. In general, the provided command for stdout needs to be executed __BEFORE__ the activity happens.
-- The local logging, which is setup by default for all services __but__ the API by default. This local logging method is one that has to be configured by our Customer Success team. The API log, by default. is not logged locally due to this service having the largest accumulated number of events and total log file size. Because of this, access to the API Iog is through Fluentd's standard out (stdout). The biggest benefit for local logging, outside of a SIEM, is having logger access lengths for viewing these logs. To access the local logs for API the below steps will need to be followed:
-  1. Locate the node running the fluentd service. This can be done through the UI on the Configure > Services page or on the command line with the command "s1 status".
-  2. Next, SSH into the node that fluentd is running from.
-  3. Finally, run the below commands based off of the end-user activity being looked for.
+- The stdout method is the default logging that is accessible automatically from a new deployment of
+  Netwrix Privilege Secure. This method of logging is not best for historical view/access. The
+  stdout stream only has a limited, by default, amount of output that can be accessed. This is the
+  downside of relying on stdout for log access and viewing. NOTE: This method of log viewing is only
+  useful when an event is replicable live. In general, the provided command for stdout needs to be
+  executed **BEFORE** the activity happens.
+- The local logging, which is setup by default for all services **but** the API by default. This
+  local logging method is one that has to be configured by our Customer Success team. The API log,
+  by default. is not logged locally due to this service having the largest accumulated number of
+  events and total log file size. Because of this, access to the API Iog is through Fluentd's
+  standard out (stdout). The biggest benefit for local logging, outside of a SIEM, is having logger
+  access lengths for viewing these logs. To access the local logs for API the below steps will need
+  to be followed:
+    1. Locate the node running the fluentd service. This can be done through the UI on the
+       Configure > Services page or on the command line with the command "s1 status".
+    2. Next, SSH into the node that fluentd is running from.
+    3. Finally, run the below commands based off of the end-user activity being looked for.
 
 ### 1. Successful login to Privilege Secure’s front-door
 
 Here are the two methods to view these event details for this action.
 
-- __stdout:__ The display of the below API activity will be through the standard terminal, below is command. (This command can be run from any node within a Netwrix Privilege Secure swarm)
+- **stdout:** The display of the below API activity will be through the standard terminal, below is
+  command. (This command can be run from any node within a Netwrix Privilege Secure swarm)
 
 ```
 s1 logs --tail 50 | grep "Successful authentication by"
 ```
 
-- __local logging__: The below command can show this end-user activity that is logged locally. The file name "svc-api.20201221.log" will need to be updated to the local file that has the log data to review. In the below examples the file "svc-api.20201221.log" is the file being used to pulled the data, which is located in the /discovery/data/logs/api/ directory on the appliance.
+- **local logging**: The below command can show this end-user activity that is logged locally. The
+  file name "svc-api.20201221.log" will need to be updated to the local file that has the log data
+  to review. In the below examples the file "svc-api.20201221.log" is the file being used to pulled
+  the data, which is located in the /discovery/data/logs/api/ directory on the appliance.
 
 ```
 tail -f svc-api.20201221.log | grep -i "Successful authentication by"
@@ -73,13 +102,17 @@ Error generated/seen by end-user for this activity:
 
 Here are the two methods to view these event details for this action.
 
-- __stdout:__ The display of the below API activity will be through the standard terminal, below is command. (This command can be run from any node within a Netwrix Privilege Secure swarm)
+- **stdout:** The display of the below API activity will be through the standard terminal, below is
+  command. (This command can be run from any node within a Netwrix Privilege Secure swarm)
 
 ```
 s1 logs --tail 50 | grep -i "Invalid username/password"
 ```
 
-- __local logging__: The below command can show this end-user activity that is logged locally. The file name "svc-api.20201221.log" will need to be updated to the local file that has the log data to review. In the below examples the file "svc-api.20201221.log" is the file being used to pulled the data, which is located in the /discovery/data/logs/api/ directory on the appliance.
+- **local logging**: The below command can show this end-user activity that is logged locally. The
+  file name "svc-api.20201221.log" will need to be updated to the local file that has the log data
+  to review. In the below examples the file "svc-api.20201221.log" is the file being used to pulled
+  the data, which is located in the /discovery/data/logs/api/ directory on the appliance.
 
 ```
 tail -f svc-api.20201221.log | grep -i "Invalid username/password"
@@ -95,13 +128,17 @@ Highlighted log event details:
 
 Here are the two methods to view these event details for this action.
 
-- __stdout:__ The display of the below API activity will be through the standard terminal, below is command. (This command can be run from any node within a Netwrix Privilege Secure swarm)
+- **stdout:** The display of the below API activity will be through the standard terminal, below is
+  command. (This command can be run from any node within a Netwrix Privilege Secure swarm)
 
 ```
 s1 logs --tail 50 | grep -i "Admin list lookup"
 ```
 
-- __local logging__: The below command can show this end-user activity that is logged locally. The file name "svc-api.20201221.log" will need to be updated to the local file that has the log data to review. In the below examples the file "svc-api.20201221.log" is the file being used to pulled the data, which is located in the /discovery/data/logs/api/ directory on the appliance.
+- **local logging**: The below command can show this end-user activity that is logged locally. The
+  file name "svc-api.20201221.log" will need to be updated to the local file that has the log data
+  to review. In the below examples the file "svc-api.20201221.log" is the file being used to pulled
+  the data, which is located in the /discovery/data/logs/api/ directory on the appliance.
 
 ```
 tail -f svc-api.20201221.log | grep -i "Admin list lookup"
@@ -115,19 +152,24 @@ Highlighted log event details:
 
 ### 4. Successfully granted access to a System, through Privilege Secure
 
-Message end-users will see during this activity. The domain/username will be specific to the organization and environment:
+Message end-users will see during this activity. The domain/username will be specific to the
+organization and environment:
 
 ![mceclip1.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/reporting/1500000515721_mceclip1.png)
 
 Here are the two methods to view these event details for this action.
 
-- __stdout:__ The display of the below API activity will be through the standard terminal, below is command. (This command can be run from any node within a Netwrix Privilege Secure swarm)
+- **stdout:** The display of the below API activity will be through the standard terminal, below is
+  command. (This command can be run from any node within a Netwrix Privilege Secure swarm)
 
 ```
 s1 logs --tail 50 | grep -i "Successfully added user"
 ```
 
-- __local logging__: The below command can show this end-user activity that is logged locally. The file name "svc-api.20201221.log" will need to be updated to the local file that has the log data to review. In the below examples the file "svc-api.20201221.log" is the file being used to pulled the data, which is located in the /discovery/data/logs/api/ directory on the appliance.
+- **local logging**: The below command can show this end-user activity that is logged locally. The
+  file name "svc-api.20201221.log" will need to be updated to the local file that has the log data
+  to review. In the below examples the file "svc-api.20201221.log" is the file being used to pulled
+  the data, which is located in the /discovery/data/logs/api/ directory on the appliance.
 
 ```
 tail -f svc-api.20201221.log | grep -i "Successfully added user"
@@ -145,15 +187,21 @@ Error generated/seen by end-user for this activity:
 
 ![mceclip2.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/reporting/1500000515721_mceclip2.png)
 
-Note: This error can be referenced by the work "Forbidden" and the phrase "User does not have access to this resource". For the below log parsing, the phrase is used, but that can be replaced with the word.
+Note: This error can be referenced by the work "Forbidden" and the phrase "User does not have access
+to this resource". For the below log parsing, the phrase is used, but that can be replaced with the
+word.
 
-- __stdout:__ The display of the below API activity will be through the standard terminal, below is command. (This command can be run from any node within a Netwrix Privilege Secure swarm)
+- **stdout:** The display of the below API activity will be through the standard terminal, below is
+  command. (This command can be run from any node within a Netwrix Privilege Secure swarm)
 
 ```
 s1 logs --tail 50 | grep -i "User does not have access to this resource."
 ```
 
-- __local logging__:  The below command can show this end-user activity that is logged locally. The file name "svc-api.20201221.log" will need to be updated to the local file that has the log data to review. In the below examples the file "svc-api.20201221.log" is the file being used to pulled the data, which is located in the /discovery/data/logs/api/ directory on the appliance.
+- **local logging**:  The below command can show this end-user activity that is logged locally. The
+  file name "svc-api.20201221.log" will need to be updated to the local file that has the log data
+  to review. In the below examples the file "svc-api.20201221.log" is the file being used to pulled
+  the data, which is located in the /discovery/data/logs/api/ directory on the appliance.
 
 ```
 tail -f svc-api.20201221.log | grep -i "User does not have access to this resource"

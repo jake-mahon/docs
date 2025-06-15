@@ -13,16 +13,16 @@ GET
 #### Sample Request Syntax
 
 ```
-{  
-  "includeAdditionalOwnershipGroups": true,  
-  "includeNestedOwnershipGroups": true  
+{
+  "includeAdditionalOwnershipGroups": true,
+  "includeNestedOwnershipGroups": true
 }
 ```
 
 #### Sample Response Syntax
 
 ```
-{  
-  "count": 1  
+{
+  "count": 1
 }
 ```

@@ -1,6 +1,9 @@
 # Configuring Password Reset
 
-In the previous section, you used Password Reset with a default configuration. You can use the Configuration Console to edit the configuration settings. Click __Start__ > __Netwrix Password Reset__ > __NPR Configuration Console__on the Password Reset Server computer to open the Configuration Console.
+In the previous section, you used Password Reset with a default configuration. You can use the
+Configuration Console to edit the configuration settings. Click **Start** > **Netwrix Password
+Reset** > **NPR Configuration Console**on the Password Reset Server computer to open the
+Configuration Console.
 
 ![configuring_npr](/img/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/configuring_npr.png)
 

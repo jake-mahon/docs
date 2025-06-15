@@ -13,20 +13,20 @@ POST
 #### Sample Request Syntax
 
 ```
-{  
-    "connectionString": "Data Source='MSSQL';Initial Catalog=ExternalDB;Password='password123';User ID='sa';Integrated Security=false;",  
-    "dataSourceType": 3  
+{
+    "connectionString": "Data Source='MSSQL';Initial Catalog=ExternalDB;Password='password123';User ID='sa';Integrated Security=false;",
+    "dataSourceType": 3
 }
 ```
 
 #### Sample Response Syntax
 
 ```
-{  
-    "ConnectionString": "'MSSQL'",  
-    "Database": "ExternalDB",  
-    "Password": "'password123'",  
-    "UserName": "'sa'",  
-    "WindowsAuthentication": "true"  
+{
+    "ConnectionString": "'MSSQL'",
+    "Database": "ExternalDB",
+    "Password": "'password123'",
+    "UserName": "'sa'",
+    "WindowsAuthentication": "true"
 }
 ```

@@ -1,6 +1,7 @@
 # ActiveDirectory: Directory Scope
 
-The Directory Scope page provides configuration settings for the directory connection and the scope for the query. It is a wizard page for the category of __Directory Objects by Domain__.
+The Directory Scope page provides configuration settings for the directory connection and the scope
+for the query. It is a wizard page for the category of **Directory Objects by Domain**.
 
 ![Active Directory Data Collector Wizard Directory Scope page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/activedirectory/directoryscope.png)
 
@@ -8,8 +9,9 @@ The Directory Scope page has the following options:
 
 - Connect to – Identifies the target domain
 
-  - Default domain – Domain in which the Enterprise Auditor Console server resides
-  - This domain – Domain specified in the textbox
+    - Default domain – Domain in which the Enterprise Auditor Console server resides
+    - This domain – Domain specified in the textbox
+
 - Connect – Connects to the target domain to provide a list of directories
 - Add – Add an OU to the query scope
 - Remove – Removes an OU from the query scope

@@ -1,12 +1,21 @@
 # Schedules
 
-The Enterprise Auditor Console can only run one task at a time. However, with the Schedule Service Account, the Enterprise Auditor application can run multiple tasks simultaneously. See the [Schedule](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/schedule.md) topic for information on configuring the Schedule Service Account.
+The Enterprise Auditor Console can only run one task at a time. However, with the Schedule Service
+Account, the Enterprise Auditor application can run multiple tasks simultaneously. See the
+[Schedule](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/schedule.md)
+topic for information on configuring the Schedule Service Account.
 
 The following tasks can be scheduled:
 
-- Job or Job Group – Schedule jobs to run at the job or job group level. See the [Schedule Jobs](#schedule-jobs) topic for additional information.
-- Host Discovery Query – Schedule Host Discovery queries from the Host Discovery node. See the [Host Discovery Queries Activities Pane](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostdiscovery/activities.md) topic for additional information.
-- Host Inventory Query – Schedule Host Inventory queries from within the Host Management node. See the [Schedule (Activities Pane Option)](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/actions/schedule.md) topic for additional information.
+- Job or Job Group – Schedule jobs to run at the job or job group level. See the
+  [Schedule Jobs](#schedule-jobs) topic for additional information.
+- Host Discovery Query – Schedule Host Discovery queries from the Host Discovery node. See the
+  [Host Discovery Queries Activities Pane](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostdiscovery/activities.md)
+  topic for additional information.
+- Host Inventory Query – Schedule Host Inventory queries from within the Host Management node. See
+  the
+  [Schedule (Activities Pane Option)](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/actions/schedule.md)
+  topic for additional information.
 
 ## Schedule Jobs
 
@@ -14,7 +23,8 @@ Jobs can be scheduled at the job group or job level.
 
 ![Schedule option from Job Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/schedule/jobtree.png)
 
-Select the desired job group or job. Right-click on the node and select __Schedule__ to open the Schedule wizard.
+Select the desired job group or job. Right-click on the node and select **Schedule** to open the
+Schedule wizard.
 
 ![Schedule Job wizard](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/schedule.png)
 
@@ -26,4 +36,6 @@ The Schedule wizard has five pages with options for setting up the schedule task
 - Run as
 - Options
 
-See the [Schedule Wizard](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/schedule/wizard.md) topic for additional information.
+See the
+[Schedule Wizard](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/schedule/wizard.md)
+topic for additional information.

@@ -1,12 +1,23 @@
 # Usercube-Protect-X509JsonValue
 
-This tool is used to encrypt sensitive connection data, for example data from the ```appsettings.agent.json``` file, with [RSA encryption](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md). The encryption is based on the information given in your ```appsettings.json``` file about either a PFX file or the location of the [encryption certificate](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#encryption-certificate) in the Microsoft store.
+This tool is used to encrypt sensitive connection data, for example data from the
+`appsettings.agent.json` file, with
+[RSA encryption](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md).
+The encryption is based on the information given in your `appsettings.json` file about either a PFX
+file or the location of the
+[encryption certificate](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#encryption-certificate)
+in the Microsoft store.
 
-This tool ```Usercube-Protect-X509JsonValue``` is used to encrypt only given values, in comparison to the [```Usercube-Protect-X509JsonFile```](/versioned_docs/usercube_6.1/usercube/integration-guide/executables/references/protect-x509jsonfile/index.md) tool that encrypts a whole file. This tool is more appropriate than ```Usercube-Protect-X509JsonFile``` when you have only a few lines to encrypt.
+This tool `Usercube-Protect-X509JsonValue` is used to encrypt only given values, in comparison to
+the
+[`Usercube-Protect-X509JsonFile`](/versioned_docs/usercube_6.1/usercube/integration-guide/executables/references/protect-x509jsonfile/index.md)
+tool that encrypts a whole file. This tool is more appropriate than `Usercube-Protect-X509JsonFile`
+when you have only a few lines to encrypt.
 
 ## Examples
 
-The command below encrypts the task agent configuration ```0``` and the OpenId Client ```secret``` used in the ```appsettings.agent.json``` file.
+The command below encrypts the task agent configuration `0` and the OpenId Client `secret` used in
+the `appsettings.agent.json` file.
 
 ```
 
@@ -26,9 +37,10 @@ kxABAJT+2u1C1r0JI8criUz15QkI71x6/BPeNMlPWEL5ZHkTvZWVnMLG/zNJz9PvnjfecROC4fkxPRI5
 
 Then you just need to copy and paste them.
 
-The following example shows how to update the OpenId ClientSecret matching the "ContosoCharlotte" OpenId ClientId in the ```appsettings.encrypted.agent.json``` file.
+The following example shows how to update the OpenId ClientSecret matching the "ContosoCharlotte"
+OpenId ClientId in the `appsettings.encrypted.agent.json` file.
 
-The initial ```appsettings.encrypted.agent.json``` file resembles the following:
+The initial `appsettings.encrypted.agent.json` file resembles the following:
 
 ```
 appsettings.encrypted.agent.json before update
@@ -44,13 +56,13 @@ appsettings.encrypted.agent.json before update
 
 The new ClientSecret to encrypt is _charlotte2028_.
 
-Using the ```Usercube-Protect-X509JsonValue.exe```:
+Using the `Usercube-Protect-X509JsonValue.exe`:
 
 ```
 ./Usercube-Protect-X509JsonValue.exe --values charlotte2028
 ```
 
-The ```--values``` parameter also accepts multiple white-space-separated values for encryption.
+The `--values` parameter also accepts multiple white-space-separated values for encryption.
 
 The output, in the console, shows the encrypted value for the _charlotte2028_ string.
 
@@ -60,7 +72,8 @@ kxABABJR7wYaQIqNjHT/rhYVMp5Vmsao7/eBLb7JCIiHMOKbi2sC0dY0SAJgj50NQ0kEH5LS3Y3TYso9
 
 ```
 
-The last step is to update the ```appsettings.encrypted.agent.json``` file by copy/pasting this new encrypted value to replace the old one. It results in:
+The last step is to update the `appsettings.encrypted.agent.json` file by copy/pasting this new
+encrypted value to replace the old one. It results in:
 
 ```
 appsettings.encrypted.agent.json after update
@@ -75,6 +88,6 @@ appsettings.encrypted.agent.json after update
 
 ## Arguments
 
-| Name | Details |
-| --- | --- |
-| --values   required | __Type__    String   __Description__ List of values to encrypt. |
+| Name              | Details                                                    |
+| ----------------- | ---------------------------------------------------------- |
+| --values required | **Type** String **Description** List of values to encrypt. |

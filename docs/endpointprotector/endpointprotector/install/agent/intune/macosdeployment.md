@@ -2,27 +2,32 @@
 
 To deploy the Endpoint Protector package for macOS using Intune, follow these steps:
 
-__Step 1 –__ Open and log in to Endpoint Protector.
+**Step 1 –** Open and log in to Endpoint Protector.
 
-__Step 2 –__ Go to the System Configuration, Client Software and download the macOS Endpoint Protector package.
+**Step 2 –** Go to the System Configuration, Client Software and download the macOS Endpoint
+Protector package.
 
 ![Downloading the macOS Endpoint Protector package](../../../../../../static/img/product_docs/endpointprotector/endpointprotector/install/agent/intune/packagedownload.png)
 
-__Step 3 –__ Convert the Endpoint Protector client to an .intunemac file – for more information and procedure, visit the Microsoft Docs portal;
+**Step 3 –** Convert the Endpoint Protector client to an .intunemac file – for more information and
+procedure, visit the Microsoft Docs portal;
 
-__Step 4 –__ Go to the Microsoft Endpoint Manager admin center and sign in
+**Step 4 –** Go to the Microsoft Endpoint Manager admin center and sign in
 
-__Step 5 –__ Go to Apps from the left-hand side menu, and on the Apps Overview page, select the macOS platform;
+**Step 5 –** Go to Apps from the left-hand side menu, and on the Apps Overview page, select the
+macOS platform;
 
-__Step 6 –__ On the macOS apps page, click Add, select the Line of business app type, and then click __Select__.
+**Step 6 –** On the macOS apps page, click Add, select the Line of business app type, and then click
+**Select**.
 
 ![macOS configurations on the Apps Overview page](../../../../../../static/img/product_docs/endpointprotector/endpointprotector/install/agent/intune/macappsoverview.png)
 
-__Step 7 –__ Click Select app package file and from the right-hand side, select the Endpoint Protector intunemac file, Upload and click __OK.__
+**Step 7 –** Click Select app package file and from the right-hand side, select the Endpoint
+Protector intunemac file, Upload and click **OK.**
 
 ![Information about the app package file](../../../../../../static/img/product_docs/endpointprotector/endpointprotector/install/agent/intune/macaddapp.png)
 
-__Step 8 –__ On the App information page, fill in the mandatory fields and then click __Next__.
+**Step 8 –** On the App information page, fill in the mandatory fields and then click **Next**.
 
 - Name – add Endpoint Protector Client
 - Description – add Endpoint Protector Client
@@ -30,38 +35,42 @@ __Step 8 –__ On the App information page, fill in the mandatory fields and the
 
 ![Completing Mandatory Fileds under App inforamtion page](../../../../../../static/img/product_docs/endpointprotector/endpointprotector/install/agent/intune/appinformation.png)
 
-__Step 9 –__ On the Assignments page, in the Required section, select the group for which you want to deploy the Endpoint Protector client and then click __Next__.
+**Step 9 –** On the Assignments page, in the Required section, select the group for which you want
+to deploy the Endpoint Protector client and then click **Next**.
 
 ![Selecting the group for which you want to deploy the Endpoint Protector client](../../../../../../static/img/product_docs/endpointprotector/endpointprotector/install/agent/intune/macassignments.png)
 
-__Step 10 –__ On the Review + create page, click Create - this will start the Endpoint Protector package upload.
+**Step 10 –** On the Review + create page, click Create - this will start the Endpoint Protector
+package upload.
 
 ![Inititating the Endpoint Protector package Download](../../../../../../static/img/product_docs/endpointprotector/endpointprotector/install/agent/intune/macreviewpage.png)
 
-__Step 11 –__ Go to Devices from the left-hand menu, select macOS, Shell scripts and then click __Add__.
+**Step 11 –** Go to Devices from the left-hand menu, select macOS, Shell scripts and then click
+**Add**.
 
-__NOTE:__ Please contact the Customer Support department to provide the script.
+**NOTE:** Please contact the Customer Support department to provide the script.
 
 ![Adding scripts on shell scripts page](../../../../../../static/img/product_docs/endpointprotector/endpointprotector/install/agent/intune/shellscripts.png)
 
-__Step 12 –__ On the Add script page, fill in the mandatory information and then click __Next__.
+**Step 12 –** On the Add script page, fill in the mandatory information and then click **Next**.
 
 - Name (mandatory) – add a name for the script (Post install script)
 - Description – add a description for the script
 
 ![Completing mandatory inforamtion for Shell Scripts](../../../../../../static/img/product_docs/endpointprotector/endpointprotector/install/agent/intune/addscript.png)
 
-__Step 13 –__ On the Script settings tab, add the following information and then click Next:
+**Step 13 –** On the Script settings tab, add the following information and then click Next:
 
 - Upload and select the New Jamf PostInstall script from your computer
 - Set the Run script as sign-in user setting to No
 
 ![Adding inforamtion on the script settings page](../../../../../../static/img/product_docs/endpointprotector/endpointprotector/install/agent/intune/scriptsettings.png)
 
-__Step 14 –__ On the Assignments tab, include the groups you prefer (Add groups, all users, or all devices) and then click __Next__.
+**Step 14 –** On the Assignments tab, include the groups you prefer (Add groups, all users, or all
+devices) and then click **Next**.
 
 ![Including the groups you prefer](../../../../../../static/img/product_docs/endpointprotector/endpointprotector/install/agent/intune/includegroups.png)
 
-__Step 15 –__ On the Review + add tab, you can view the script information and click __Add__.
+**Step 15 –** On the Review + add tab, you can view the script information and click **Add**.
 
 ![Viewing the script information](../../../../../../static/img/product_docs/endpointprotector/endpointprotector/install/agent/intune/scriptinformation.png)

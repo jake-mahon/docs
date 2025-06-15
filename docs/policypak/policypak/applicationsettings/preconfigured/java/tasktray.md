@@ -1,12 +1,14 @@
 # Java: How to disable Task tray notification balloon events?
 
-In most cases when you are using an older version of Java you may see the Java icon in the system tray.
+In most cases when you are using an older version of Java you may see the Java icon in the system
+tray.
 
 ![225_1_image010](../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/preconfigured/java/225_1_image010.webp)
 
 ## Solution:
 
-To get rid of the icon which may interrupt the user with subsequent prompts, set following option in pre-configuring PAK for Java. Check/Un-check "Check for Updates Automatically".
+To get rid of the icon which may interrupt the user with subsequent prompts, set following option in
+pre-configuring PAK for Java. Check/Un-check "Check for Updates Automatically".
 
 Java 7 Pak technique:
 

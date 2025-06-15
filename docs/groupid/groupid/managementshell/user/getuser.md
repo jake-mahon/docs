@@ -1,24 +1,25 @@
 # Get-User
 
-Use the Get-User commandlet to retrieve basic information about a user that match your given criteria.
+Use the Get-User commandlet to retrieve basic information about a user that match your given
+criteria.
 
 ## Syntax
 
 ```
-Get-User  
-[[-Identity] <string[]>]  
-[-SearchContainer <string[]>]  
-[-SearchContainersScopeList <string>]  
-[-ShouldReturnCollection]  
-[-MaxItemsToDisplay <int>]  
-[-ObjectType <string[]>]  
-[-LdapFilter <string>]  
-[-SmartFilter <string>]  
-[-ServerFilter <string>]  
-[-AttributesToLoad <string[]>]  
-[-IdentityStoreId <int>]  
-[-SecurityToken <CustomClaimsPrincipal>]  
-[-Credential <pscredential>]  
+Get-User
+[[-Identity] <string[]>]
+[-SearchContainer <string[]>]
+[-SearchContainersScopeList <string>]
+[-ShouldReturnCollection]
+[-MaxItemsToDisplay <int>]
+[-ObjectType <string[]>]
+[-LdapFilter <string>]
+[-SmartFilter <string>]
+[-ServerFilter <string>]
+[-AttributesToLoad <string[]>]
+[-IdentityStoreId <int>]
+[-SecurityToken <CustomClaimsPrincipal>]
+[-Credential <pscredential>]
 [<CommonParameters>]
 ```
 

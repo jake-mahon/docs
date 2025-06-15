@@ -1,17 +1,18 @@
 # Update Authentication Credentials in a Storage Profile
 
-Follow the steps to update authentication credentials for a Storage Profile in the Enterprise Auditor Console.
+Follow the steps to update authentication credentials for a Storage Profile in the Enterprise
+Auditor Console.
 
-__Step 1 –__ Navigate to the __Settings__ > __Storage__ page.
+**Step 1 –** Navigate to the **Settings** > **Storage** page.
 
-__Step 2 –__ Locate and select a __Storage Profile__ to update.
+**Step 2 –** Locate and select a **Storage Profile** to update.
 
 ![Specify a new password below option on Storage page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/storage/updateauth.png)
 
-__Step 3 –__ In the Authentication section, click the __Specify a new password below__ radio button.
+**Step 3 –** In the Authentication section, click the **Specify a new password below** radio button.
 
-__Step 4 –__ Enter a new __Password__.
+**Step 4 –** Enter a new **Password**.
 
-__Step 5 –__ Click __Apply__.
+**Step 5 –** Click **Apply**.
 
 A new password has been added to a Storage profile.

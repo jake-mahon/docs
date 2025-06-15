@@ -1,6 +1,7 @@
 # Reinstate-User
 
-Use the __Reinstate-User__ command to activate or disable a user. Users can be disabled for any of the following reasons:
+Use the **Reinstate-User** command to activate or disable a user. Users can be disabled for any of
+the following reasons:
 
 - Users that have been disabled for not validating their profiles within the required period.
 - Users that have been terminated or disabled by their respective managers.
@@ -11,11 +12,11 @@ An administrator or member of Helpdesk role can reinstate a disabled user.
 ## Syntax
 
 ```
-Reinstate-User  
--Identity <string>  
-[-IdentityStoreId <int>]  
-[-SecurityToken <CustomClaimsPrincipal>]  
-[-Credential <pscredential>]  
+Reinstate-User
+-Identity <string>
+[-IdentityStoreId <int>]
+[-SecurityToken <CustomClaimsPrincipal>]
+[-Credential <pscredential>]
 [<CommonParameters>]
 ```
 

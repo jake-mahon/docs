@@ -433,7 +433,7 @@ Use the regular code block syntax instead of indentation:
 
 ````md title="example.md"
 ```js
-console.log('hello');
+console.log('hello')
 ```
 ````
 
@@ -525,23 +525,23 @@ In practice this means that you can't do `require("remark-plugin")` anymore.
 Docusaurus v3 now supports [**ES Modules**](https://flaviocopes.com/es-modules/) configuration files. We recommend that you migrate your config file to ES module, that enables you to import the Remark plugins easily:
 
 ```js title="docusaurus.config.js"
-import remarkPlugin from 'remark-plugin';
+import remarkPlugin from 'remark-plugin'
 
 export default {
   title: 'Docusaurus',
   /* site config using remark plugins here */
-};
+}
 ```
 
 If you want to keep using CommonJS modules, you can use dynamic imports as a workaround that enables you to import ES modules inside a CommonJS module. Fortunately, the [Docusaurus config supports the usage of an async function](/docs/configuration#syntax-to-declare-docusaurus-config) to let you do so.
 
 ```js title="docusaurus.config.js"
 module.exports = async function () {
-  const myPlugin = (await import('remark-plugin')).default;
+  const myPlugin = (await import('remark-plugin')).default
   return {
     // site config...
-  };
-};
+  }
+}
 ```
 
 :::
@@ -663,7 +663,7 @@ const siteConfig = {
       additionalLanguages: ['bash', 'diff', 'json'],
     },
   },
-};
+}
 ```
 
 :::
@@ -804,10 +804,7 @@ When creating version `v1.0.0`, the sidebar file contained a prefix `version-v1.
 
 ```json title="versioned_sidebars/version-v1.0.0-sidebars.json"
 {
-  "version-v1.0.0/docs": [
-    "version-v1.0.0/introduction",
-    "version-v1.0.0/prerequisites"
-  ]
+  "version-v1.0.0/docs": ["version-v1.0.0/introduction", "version-v1.0.0/prerequisites"]
 }
 ```
 
@@ -837,7 +834,7 @@ const blogOptions = {
     // highlight-next-line
     limit: false,
   },
-};
+}
 ```
 
 :::
@@ -883,12 +880,12 @@ export default {
   title: 'Docusaurus',
   url: 'https://docusaurus.io',
   // your site config ...
-};
+}
 ```
 
 ```ts title="docusaurus.config.ts"
-import type {Config} from '@docusaurus/types';
-import type * as Preset from '@docusaurus/preset-classic';
+import type { Config } from '@docusaurus/types'
+import type * as Preset from '@docusaurus/preset-classic'
 
 const config: Config = {
   title: 'My Site',
@@ -905,9 +902,9 @@ const config: Config = {
   themeConfig: {
     /* Your theme config here */
   } satisfies Preset.ThemeConfig,
-};
+}
 
-export default config;
+export default config
 ```
 
 ### Using the `.mdx` extension
@@ -946,7 +943,7 @@ export default {
       headingIds: true,
     },
   },
-};
+}
 ```
 
 #### `comments` option

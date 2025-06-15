@@ -1,6 +1,8 @@
 # Data Service Logs
 
-Use this API to get Directory Manager Data service log. See the [Data Service](../../admincenter/service/dataservice/overview.md) for additional information on Data service.
+Use this API to get Directory Manager Data service log. See the
+[Data Service](../../admincenter/service/dataservice/overview.md) for additional information on Data
+service.
 
 ## Endpoint
 

@@ -1,8 +1,8 @@
 // @ts-check
 // Modular Docusaurus configuration for testing individual products
 
-import {themes as prismThemes} from 'prism-react-renderer';
-const { getEnabledPlugins, getEnabledNavItems } = require('./docusaurus.config.products');
+import { themes as prismThemes } from 'prism-react-renderer'
+const { getEnabledPlugins, getEnabledNavItems } = require('./docusaurus.config.products')
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -79,6 +79,6 @@ const config = {
   stylesheets: [
     'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap',
   ],
-};
+}
 
-export default config;
+export default config

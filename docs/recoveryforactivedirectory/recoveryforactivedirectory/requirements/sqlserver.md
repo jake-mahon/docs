@@ -1,6 +1,7 @@
 # SQL Server Requirements
 
-The Windows server can be physical or virtual. The following Windows server operating systems are supported:
+The Windows server can be physical or virtual. The following Windows server operating systems are
+supported:
 
 - Windows Server 2022
 - Windows Server 2019
@@ -21,12 +22,12 @@ RAM, CPU, and Disk Space
 
 These depend on the size of the target environment.
 
-| Environment | Large | Medium | Small |
-| --- | --- | --- | --- |
-| Definition | 15,000 - 1 million+ AD objects | 2,000 - 15,000 AD objects | Up to 2,000 AD objects |
-| RAM | 64+ GB | 32 GB | 16 GB |
-| Cores | 4+ CPU | 4 CPU | 2 CPU |
-| Disk Space | 256 GB | 64 GB | 16 GB |
+| Environment | Large                          | Medium                    | Small                  |
+| ----------- | ------------------------------ | ------------------------- | ---------------------- |
+| Definition  | 15,000 - 1 million+ AD objects | 2,000 - 15,000 AD objects | Up to 2,000 AD objects |
+| RAM         | 64+ GB                         | 32 GB                     | 16 GB                  |
+| Cores       | 4+ CPU                         | 4 CPU                     | 2 CPU                  |
+| Disk Space  | 256 GB                         | 64 GB                     | 16 GB                  |
 
 Additional Server Requirements
 
@@ -36,7 +37,8 @@ The following are additional requirements for the SQL Server:
 
 Database Permissions
 
-The following permissions are required on the databases for the accounts used to run Recovery for Active Directory:
+The following permissions are required on the databases for the accounts used to run Recovery for
+Active Directory:
 
 - Create a database
 - Create Tables
@@ -46,5 +48,6 @@ Additional Considerations
 
 The following additional considerations are recommended for the SQL Server:
 
-- Microsoft SQL Server supports TLS 1.2, which requires the Recovery for Active Directory server to have either SQL Server Native Client 11 or Microsoft Ole DB 18 installed.
+- Microsoft SQL Server supports TLS 1.2, which requires the Recovery for Active Directory server to
+  have either SQL Server Native Client 11 or Microsoft Ole DB 18 installed.
 - _Optional_: SQL Server Management Studio installed on the Recovery for Active Directory server

@@ -1,21 +1,26 @@
 # Diagnostics Page
 
-Download logs and enable debug log level for troubleshooting with Netwrix Support on the Diagnostics page of the Configuration interface.
+Download logs and enable debug log level for troubleshooting with Netwrix Support on the Diagnostics
+page of the Configuration interface.
 
 ![Configuration interface showing the Diagnostics page](/img/versioned_docs/auditor_10.6/access/reviews/admin/configuration/diagnostics.png)
 
-When requested by [Netwrix Support](https://www.netwrix.com/support.html), click Download Logs to download the archive of all application logs.
+When requested by [Netwrix Support](https://www.netwrix.com/support.html), click Download Logs to
+download the archive of all application logs.
 
 ## Debug Logs
 
-When requested by [Netwrix Support](https://www.netwrix.com/support.html) , follow the steps to provide debug logs.
+When requested by [Netwrix Support](https://www.netwrix.com/support.html) , follow the steps to
+provide debug logs.
 
-__Step 1 –__ On the Diagnostics page, check the Enable debug logging box.
+**Step 1 –** On the Diagnostics page, check the Enable debug logging box.
 
-__Step 2 –__ Click __Save__.
+**Step 2 –** Click **Save**.
 
-__Step 3 –__ Reproduce the issue you are having.
+**Step 3 –** Reproduce the issue you are having.
 
-__Step 4 –__ On the Diagnostics page, click __Download Logs__.
+**Step 4 –** On the Diagnostics page, click **Download Logs**.
 
-The downloaded logs have the debug logging information and can be sent to [Netwrix Support](https://www.netwrix.com/support.html). When your issue is resolved, do not forget to turn off Debug logs.
+The downloaded logs have the debug logging information and can be sent to
+[Netwrix Support](https://www.netwrix.com/support.html). When your issue is resolved, do not forget
+to turn off Debug logs.

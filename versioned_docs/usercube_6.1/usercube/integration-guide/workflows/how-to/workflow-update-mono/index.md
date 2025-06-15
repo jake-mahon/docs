@@ -1,13 +1,18 @@
 # For Resource Update (Mono Record)
 
-This section guides you through the procedure for the creation of a workflow to schedule the replacement of the unique record of an existing resource with a new one.
+This section guides you through the procedure for the creation of a workflow to schedule the
+replacement of the unique record of an existing resource with a new one.
 
 ## Declare a Workflow
 
-This [workflow](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/workflows/workflow/index.md) is made of two activities:
+This
+[workflow](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/workflows/workflow/index.md)
+is made of two activities:
 
-1. [```ActionWithRefine```](/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/activity-templates/index.md#actionwithrefine): sends the resource's record update request with a possibility of delegation.
-2. [```Persist```](/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/activity-templates/index.md#persist): saves the collected data and triggers provisioning.
+1. [`ActionWithRefine`](/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/activity-templates/index.md#actionwithrefine):
+   sends the resource's record update request with a possibility of delegation.
+2. [`Persist`](/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/activity-templates/index.md#persist):
+   saves the collected data and triggers provisioning.
 
 The example below creates a workflow to update only the user's name.
 
@@ -21,7 +26,9 @@ For now, our workflow works with an immediate validation and an immediate effect
 
 ## Create Forms
 
-The XML configuration below represents the creation of a [form](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/form/index.md) that defines the elements to display in the workflow.
+The XML configuration below represents the creation of a
+[form](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/form/index.md)
+that defines the elements to display in the workflow.
 
 Here we just have the full name field to update the corresponding attributes for a given user:
 
@@ -33,7 +40,11 @@ Here we just have the full name field to update the corresponding attributes for
 
 ## Link the Forms to the Workflow
 
-After creating a workflow with given activities, it is necessary to create the form to be displayed when launching the workflow. It has the type corresponding to a (unique) record's replacement, i.e. ```WorkflowAddAndEndRecordEntityForm``` and it must specify the workflow's context (the entity type of the involved resources, the main property, the activity when the form is called, etc. [see more details](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/form/index.md)):
+After creating a workflow with given activities, it is necessary to create the form to be displayed
+when launching the workflow. It has the type corresponding to a (unique) record's replacement, i.e.
+`WorkflowAddAndEndRecordEntityForm` and it must specify the workflow's context (the entity type of
+the involved resources, the main property, the activity when the form is called, etc.
+[see more details](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/form/index.md)):
 
 ```
 
@@ -41,9 +52,9 @@ After creating a workflow with given activities, it is necessary to create the f
 
 ```
 
-A ```WorkflowAddAndEndRecordEntityForm``` requires the following child elements:
+A `WorkflowAddAndEndRecordEntityForm` requires the following child elements:
 
-- ```MainControl``` that defines user's data;
+- `MainControl` that defines user's data;
 
 ```
 
@@ -53,9 +64,10 @@ A ```WorkflowAddAndEndRecordEntityForm``` requires the following child elements:
 
 ```
 
-The ```MainControl``` attribute is here an empty container, because it is a mandatory attribute that is not involved in the changes of this workflow.
+The `MainControl` attribute is here an empty container, because it is a mandatory attribute that is
+not involved in the changes of this workflow.
 
-- ```RecordControl``` that defines record data, and call the form created previously.
+- `RecordControl` that defines record data, and call the form created previously.
 
 ```
 
@@ -67,14 +79,16 @@ The ```MainControl``` attribute is here an empty container, because it is a mand
 
 ![UI Form](/img/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/how-to/workflow-update-mono/howto_resourceupdatemono_form_v603.png)
 
-```End of transition``` sets the date for the change of records scheduled by this form.
+`End of transition` sets the date for the change of records scheduled by this form.
 
 ## Assign the Right Permissions
 
-Some profiles must get specific permissions so that the workflow is visible and usable by the right users.
-Read about [workflows' permissions](/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/index.md).
+Some profiles must get specific permissions so that the workflow is visible and usable by the right
+users. Read about
+[workflows' permissions](/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/index.md).
 
-Below is an example of an access control rule where the ```Administrator``` profile gets the permissions for the whole update request from the previously created workflow:
+Below is an example of an access control rule where the `Administrator` profile gets the permissions
+for the whole update request from the previously created workflow:
 
 ```
 
@@ -84,13 +98,17 @@ Below is an example of an access control rule where the ```Administrator``` prof
 
 ## Create Menu Items in the UI
 
-[Menu items](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/menuitem/index.md) must be defined to make the workflow accessible in the UI.
+[Menu items](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/menuitem/index.md)
+must be defined to make the workflow accessible in the UI.
 
-Updating an existing resource, this workflow manages one given resource at a time. Hence an interesting location for this workflow could be the individual view page of users.
+Updating an existing resource, this workflow manages one given resource at a time. Hence an
+interesting location for this workflow could be the individual view page of users.
 
 ![Workflow Menu Items - User's Page](/img/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/how-to/workflow-update-mono/menuitems_userview_v603.png)
 
-To create a menu item here for the new workflow, you can add the following XML configuration to the existing [menu items list](/versioned_docs/usercube_6.1/usercube/integration-guide/ui/how-tos/create-menu-items/index.md):
+To create a menu item here for the new workflow, you can add the following XML configuration to the
+existing
+[menu items list](/versioned_docs/usercube_6.1/usercube/integration-guide/ui/how-tos/create-menu-items/index.md):
 
 ```
 
@@ -102,14 +120,19 @@ To create a menu item here for the new workflow, you can add the following XML c
 
 ## Add Aspects
 
-For each workflow, it is possible to add [aspects](/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/index.md#aspects) according to the workflow's purpose.
+For each workflow, it is possible to add
+[aspects](/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/index.md#aspects)
+according to the workflow's purpose.
 
 ## Homonym Detection (Optional)
 
-To perform a homonymy check on a workflow and thus prevent user duplicates, read [how to configure a homonym detection](/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/how-to/configure-homonym-test/index.md).
+To perform a homonymy check on a workflow and thus prevent user duplicates, read
+[how to configure a homonym detection](/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/how-to/configure-homonym-test/index.md).
 
-When using records, the homonym detection displays the list of records and not just the list of users.
+When using records, the homonym detection displays the list of records and not just the list of
+users.
 
 ## Customize the Display Table (Optional)
 
-To configure a display table different from the default one provided by Usercube, read [how to configure a display table](/versioned_docs/usercube_6.1/usercube/integration-guide/ui/how-tos/custom-display-table/index.md).
+To configure a display table different from the default one provided by Usercube, read
+[how to configure a display table](/versioned_docs/usercube_6.1/usercube/integration-guide/ui/how-tos/custom-display-table/index.md).

@@ -2,7 +2,8 @@
 
 ## Definition
 
-This section provides descriptions for logs which are meant to be sent to other systems like SIEMs, for example QRadar.
+This section provides descriptions for logs which are meant to be sent to other systems like SIEMs,
+for example QRadar.
 
 The description will use this template for each log:
 
@@ -18,9 +19,8 @@ Arguments:
 - argument2 (string): description2 (string)
 - argument3 (string): description3 (string)
 
-The EventId id must be unique so we could use it to filter the logs we send. See the [
-Monitoring
-](../index.md) topic for additional information.
+The EventId id must be unique so we could use it to filter the logs we send. See the
+[ Monitoring ](../index.md) topic for additional information.
 
 #### 500
 

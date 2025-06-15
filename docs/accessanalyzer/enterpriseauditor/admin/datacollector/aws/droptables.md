@@ -1,21 +1,24 @@
 # Drop AWS Tables
 
-Sometimes when troubleshooting an AWS issue, it becomes necessary to clear the AWS DC data and tables from the Access Analyzer database. Follow the steps to configure a job to remove tables.
+Sometimes when troubleshooting an AWS issue, it becomes necessary to clear the AWS DC data and
+tables from the Access Analyzer database. Follow the steps to configure a job to remove tables.
 
-__Step 1 –__ Create a new job.
+**Step 1 –** Create a new job.
 
-__Step 2 –__ Configure the target host as __Local host__.
+**Step 2 –** Configure the target host as **Local host**.
 
-__Step 3 –__ Assign a query using the __AWS__ Data Collector.
+**Step 3 –** Assign a query using the **AWS** Data Collector.
 
 ![Drop AWS DC Tables option on Amazon Web Services Data Collector Wizard Category page](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/droptables.webp)
 
-__Step 4 –__ In the Amazon Web Services Data Collector Wizard on the Category page, select the __Drop AWS DC Tables__ category task. Click __Next__.
+**Step 4 –** In the Amazon Web Services Data Collector Wizard on the Category page, select the
+**Drop AWS DC Tables** category task. Click **Next**.
 
-__Step 5 –__ Click __Next__ and then click __Finish__ to close the Amazon Web Services Data Collector Wizard. Click __OK__ to close the Query Properties window.
+**Step 5 –** Click **Next** and then click **Finish** to close the Amazon Web Services Data
+Collector Wizard. Click **OK** to close the Query Properties window.
 
-__CAUTION:__ When the job is run, all of the AWS DC data and tables are removed from the database.
+**CAUTION:** When the job is run, all of the AWS DC data and tables are removed from the database.
 
 The job is now configured and ready to run.
 
-__NOTE:__ An AWS connection profile is not required for the Drop AWS DC Tables task.
+**NOTE:** An AWS connection profile is not required for the Drop AWS DC Tables task.

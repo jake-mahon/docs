@@ -1,12 +1,15 @@
 # Actions Node
 
-The Actions node uses Access Analyzer action modules to take action on collected and analyzed data. Action can be taken on objects leveraging collected data or analyzed data, for example from a listing of locked-out accounts, an action can be executed to unlock those accounts.
+The Actions node uses Access Analyzer action modules to take action on collected and analyzed data.
+Action can be taken on objects leveraging collected data or analyzed data, for example from a
+listing of locked-out accounts, an action can be executed to unlock those accounts.
 
-__NOTE:__ Action modules are available with a special Access Analyzer license.
+**NOTE:** Action modules are available with a special Access Analyzer license.
 
 ![Action Selection page](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/actionselection.webp)
 
-The Action Selection view lists all action tasks for the selected job. The listed information includes:
+The Action Selection view lists all action tasks for the selected job. The listed information
+includes:
 
 - Name – Name of the action task (as provided by the creator of the task)
 - Description – Description of the action task (as provided by the creator of the task)
@@ -21,26 +24,33 @@ The Actions section at the top has five options:
 - Create Action – Opens the Action Properties window for creating and configuring action tasks
 - Delete Action – Deletes the selected action task from the list
 
-  - This action does require confirmation
+    - This action does require confirmation
+
 - Action Properties – Opens the Action Properties window for the selected action task
 
-  - See the [Action Properties Page](../../../action/overview.md#action-properties-page) topic for additional information
-  - See the [Action Modules](../../../action/overview.md) topic for additional information
+    - See the [Action Properties Page](../../../action/overview.md#action-properties-page) topic for
+      additional information
+    - See the [Action Modules](../../../action/overview.md) topic for additional information
 
-  __NOTE:__ The AutoAction task appears in the Analysis Selection view, not in the Action Selection view.
+    **NOTE:** The AutoAction task appears in the Analysis Selection view, not in the Action
+    Selection view.
+
 - Execute Action – Opens the Action Execution window and starts executing the selected action
 
-  - Does not require an action task to be checked, only selected
+    - Does not require an action task to be checked, only selected
 
 ![Buttons at the bottom of Action Selection page](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/actionselectiontablebuttons.webp)
 
 At the bottom of the Action Selection view, there are action buttons that apply to the table:
 
-- Move Up – Moves the selected action task up the list, which is important since action tasks are executed in the order listed in the table
-- Move Down – Moves the selected action task down the list, which is important since action tasks are executed in the order listed in the table
+- Move Up – Moves the selected action task up the list, which is important since action tasks are
+  executed in the order listed in the table
+- Move Down – Moves the selected action task down the list, which is important since action tasks
+  are executed in the order listed in the table
 - Select All – Selects all action tasks in the table for execution
 
-The Action Selection view also has its own right-click menu for taking action on the action task or the job.
+The Action Selection view also has its own right-click menu for taking action on the action task or
+the job.
 
 ![Actions Right-Click Menu](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/actionsrightclickmenu.webp)
 

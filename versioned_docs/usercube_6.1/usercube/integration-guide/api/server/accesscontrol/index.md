@@ -10,21 +10,21 @@ Returns all the accessControlEntrys according to the provided query.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| squery | Query compliant to the API query grammar. | False |  |  |
-| Path | Represents the permission path. | False |  |  |
-| QueryRootEntityType | Defines the query root entity type. | False |  |  |
-| QueryBinding | Defines the query binding. | False |  |  |
-| PageSize | Page size. | False |  |  |
-| ContinuationToken | ContinuationToken returned by previous page request. | False |  |  |
-| api-version | The requested API version | True |  |  |
+| Name                | Description                                          | Required | Type | Reference |
+| ------------------- | ---------------------------------------------------- | -------- | ---- | --------- |
+| squery              | Query compliant to the API query grammar.            | False    |      |           |
+| Path                | Represents the permission path.                      | False    |      |           |
+| QueryRootEntityType | Defines the query root entity type.                  | False    |      |           |
+| QueryBinding        | Defines the query binding.                           | False    |      |           |
+| PageSize            | Page size.                                           | False    |      |           |
+| ContinuationToken   | ContinuationToken returned by previous page request. | False    |      |           |
+| api-version         | The requested API version                            | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The accessControlEntry list. |  |
+| Code | Description                  | Reference |
+| ---- | ---------------------------- | --------- |
+| 200  | The accessControlEntry list. |           |
 
 #### Post
 
@@ -34,15 +34,15 @@ Creates a accessControlEntry.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| api-version | The requested API version | True |  |  |
+| Name        | Description               | Required | Type | Reference |
+| ----------- | ------------------------- | -------- | ---- | --------- |
+| api-version | The requested API version | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The result of the accessControlEntry creation. |  |
+| Code | Description                                    | Reference |
+| ---- | ---------------------------------------------- | --------- |
+| 200  | The result of the accessControlEntry creation. |           |
 
 ### /api/AccessControl/AccessControlEntry/`{id}`
 
@@ -50,24 +50,25 @@ Creates a accessControlEntry.
 
 ##### Summary:
 
-Returns a accessControlEntry corresponding to the provided identifier and its information according to the provided query.
+Returns a accessControlEntry corresponding to the provided identifier and its information according
+to the provided query.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id | Identifier of the accessControlEntry. | True |  |  |
-| squery | Query compliant to the API query grammar. | False |  |  |
-| Path | Represents the permission path. | False |  |  |
-| QueryRootEntityType | Defines the query root entity type. | False |  |  |
-| QueryBinding | Defines the query binding. | False |  |  |
-| api-version | The requested API version | True |  |  |
+| Name                | Description                               | Required | Type | Reference |
+| ------------------- | ----------------------------------------- | -------- | ---- | --------- |
+| id                  | Identifier of the accessControlEntry.     | True     |      |           |
+| squery              | Query compliant to the API query grammar. | False    |      |           |
+| Path                | Represents the permission path.           | False    |      |           |
+| QueryRootEntityType | Defines the query root entity type.       | False    |      |           |
+| QueryBinding        | Defines the query binding.                | False    |      |           |
+| api-version         | The requested API version                 | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The accessControlEntry. |  |
+| Code | Description             | Reference |
+| ---- | ----------------------- | --------- |
+| 200  | The accessControlEntry. |           |
 
 #### Put
 
@@ -77,16 +78,16 @@ Updates a accessControlEntry.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id | Identifier of the accessControlEntry to update. | True |  |  |
-| api-version | The requested API version | True |  |  |
+| Name        | Description                                     | Required | Type | Reference |
+| ----------- | ----------------------------------------------- | -------- | ---- | --------- |
+| id          | Identifier of the accessControlEntry to update. | True     |      |           |
+| api-version | The requested API version                       | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The result of the accessControlEntry update. |  |
+| Code | Description                                  | Reference |
+| ---- | -------------------------------------------- | --------- |
+| 200  | The result of the accessControlEntry update. |           |
 
 #### Delete
 
@@ -96,16 +97,16 @@ Deletes a accessControlEntry.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id | Identifier of the accessControlEntry to delete. | True |  |  |
-| api-version | The requested API version | True |  |  |
+| Name        | Description                                     | Required | Type | Reference |
+| ----------- | ----------------------------------------------- | -------- | ---- | --------- |
+| id          | Identifier of the accessControlEntry to delete. | True     |      |           |
+| api-version | The requested API version                       | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The result of the accessControlEntry delete. |  |
+| Code | Description                                  | Reference |
+| ---- | -------------------------------------------- | --------- |
+| 200  | The result of the accessControlEntry delete. |           |
 
 ### /api/AccessControl/AccessControlFilter
 
@@ -117,21 +118,21 @@ Returns all the accessControlFilters according to the provided query.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| squery | Query compliant to the API query grammar. | False |  |  |
-| Path | Represents the permission path. | False |  |  |
-| QueryRootEntityType | Defines the query root entity type. | False |  |  |
-| QueryBinding | Defines the query binding. | False |  |  |
-| PageSize | Page size. | False |  |  |
-| ContinuationToken | ContinuationToken returned by previous page request. | False |  |  |
-| api-version | The requested API version | True |  |  |
+| Name                | Description                                          | Required | Type | Reference |
+| ------------------- | ---------------------------------------------------- | -------- | ---- | --------- |
+| squery              | Query compliant to the API query grammar.            | False    |      |           |
+| Path                | Represents the permission path.                      | False    |      |           |
+| QueryRootEntityType | Defines the query root entity type.                  | False    |      |           |
+| QueryBinding        | Defines the query binding.                           | False    |      |           |
+| PageSize            | Page size.                                           | False    |      |           |
+| ContinuationToken   | ContinuationToken returned by previous page request. | False    |      |           |
+| api-version         | The requested API version                            | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The accessControlFilter list. |  |
+| Code | Description                   | Reference |
+| ---- | ----------------------------- | --------- |
+| 200  | The accessControlFilter list. |           |
 
 #### Post
 
@@ -141,15 +142,15 @@ Creates a accessControlFilter.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| api-version | The requested API version | True |  |  |
+| Name        | Description               | Required | Type | Reference |
+| ----------- | ------------------------- | -------- | ---- | --------- |
+| api-version | The requested API version | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The result of the accessControlFilter creation. |  |
+| Code | Description                                     | Reference |
+| ---- | ----------------------------------------------- | --------- |
+| 200  | The result of the accessControlFilter creation. |           |
 
 ### /api/AccessControl/AccessControlFilter/`{id}`
 
@@ -157,24 +158,25 @@ Creates a accessControlFilter.
 
 ##### Summary:
 
-Returns a accessControlFilter corresponding to the provided identifier and its information according to the provided query.
+Returns a accessControlFilter corresponding to the provided identifier and its information according
+to the provided query.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id | Identifier of the accessControlFilter. | True |  |  |
-| squery | Query compliant to the API query grammar. | False |  |  |
-| Path | Represents the permission path. | False |  |  |
-| QueryRootEntityType | Defines the query root entity type. | False |  |  |
-| QueryBinding | Defines the query binding. | False |  |  |
-| api-version | The requested API version | True |  |  |
+| Name                | Description                               | Required | Type | Reference |
+| ------------------- | ----------------------------------------- | -------- | ---- | --------- |
+| id                  | Identifier of the accessControlFilter.    | True     |      |           |
+| squery              | Query compliant to the API query grammar. | False    |      |           |
+| Path                | Represents the permission path.           | False    |      |           |
+| QueryRootEntityType | Defines the query root entity type.       | False    |      |           |
+| QueryBinding        | Defines the query binding.                | False    |      |           |
+| api-version         | The requested API version                 | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The accessControlFilter. |  |
+| Code | Description              | Reference |
+| ---- | ------------------------ | --------- |
+| 200  | The accessControlFilter. |           |
 
 #### Put
 
@@ -184,16 +186,16 @@ Updates a accessControlFilter.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id | Identifier of the accessControlFilter to update. | True |  |  |
-| api-version | The requested API version | True |  |  |
+| Name        | Description                                      | Required | Type | Reference |
+| ----------- | ------------------------------------------------ | -------- | ---- | --------- |
+| id          | Identifier of the accessControlFilter to update. | True     |      |           |
+| api-version | The requested API version                        | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The result of the accessControlFilter update. |  |
+| Code | Description                                   | Reference |
+| ---- | --------------------------------------------- | --------- |
+| 200  | The result of the accessControlFilter update. |           |
 
 #### Delete
 
@@ -203,16 +205,16 @@ Deletes a accessControlFilter.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id | Identifier of the accessControlFilter to delete. | True |  |  |
-| api-version | The requested API version | True |  |  |
+| Name        | Description                                      | Required | Type | Reference |
+| ----------- | ------------------------------------------------ | -------- | ---- | --------- |
+| id          | Identifier of the accessControlFilter to delete. | True     |      |           |
+| api-version | The requested API version                        | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The result of the accessControlFilter delete. |  |
+| Code | Description                                   | Reference |
+| ---- | --------------------------------------------- | --------- |
+| 200  | The result of the accessControlFilter delete. |           |
 
 ### /api/AccessControl/AccessControlPermission
 
@@ -224,21 +226,21 @@ Returns all the accessControlPermissions according to the provided query.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| squery | Query compliant to the API query grammar. | False |  |  |
-| Path | Represents the permission path. | False |  |  |
-| QueryRootEntityType | Defines the query root entity type. | False |  |  |
-| QueryBinding | Defines the query binding. | False |  |  |
-| PageSize | Page size. | False |  |  |
-| ContinuationToken | ContinuationToken returned by previous page request. | False |  |  |
-| api-version | The requested API version | True |  |  |
+| Name                | Description                                          | Required | Type | Reference |
+| ------------------- | ---------------------------------------------------- | -------- | ---- | --------- |
+| squery              | Query compliant to the API query grammar.            | False    |      |           |
+| Path                | Represents the permission path.                      | False    |      |           |
+| QueryRootEntityType | Defines the query root entity type.                  | False    |      |           |
+| QueryBinding        | Defines the query binding.                           | False    |      |           |
+| PageSize            | Page size.                                           | False    |      |           |
+| ContinuationToken   | ContinuationToken returned by previous page request. | False    |      |           |
+| api-version         | The requested API version                            | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The accessControlPermission list. |  |
+| Code | Description                       | Reference |
+| ---- | --------------------------------- | --------- |
+| 200  | The accessControlPermission list. |           |
 
 ### /api/AccessControl/AccessControlPermission/`{id}`
 
@@ -246,24 +248,25 @@ Returns all the accessControlPermissions according to the provided query.
 
 ##### Summary:
 
-Returns a accessControlPermission corresponding to the provided identifier and its information according to the provided query.
+Returns a accessControlPermission corresponding to the provided identifier and its information
+according to the provided query.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id | Identifier of the accessControlPermission. | True |  |  |
-| squery | Query compliant to the API query grammar. | False |  |  |
-| Path | Represents the permission path. | False |  |  |
-| QueryRootEntityType | Defines the query root entity type. | False |  |  |
-| QueryBinding | Defines the query binding. | False |  |  |
-| api-version | The requested API version | True |  |  |
+| Name                | Description                                | Required | Type | Reference |
+| ------------------- | ------------------------------------------ | -------- | ---- | --------- |
+| id                  | Identifier of the accessControlPermission. | True     |      |           |
+| squery              | Query compliant to the API query grammar.  | False    |      |           |
+| Path                | Represents the permission path.            | False    |      |           |
+| QueryRootEntityType | Defines the query root entity type.        | False    |      |           |
+| QueryBinding        | Defines the query binding.                 | False    |      |           |
+| api-version         | The requested API version                  | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The accessControlPermission. |  |
+| Code | Description                  | Reference |
+| ---- | ---------------------------- | --------- |
+| 200  | The accessControlPermission. |           |
 
 ### /api/AccessControl/AccessControlRule
 
@@ -275,21 +278,21 @@ Returns all the accessControlRules according to the provided query.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| squery | Query compliant to the API query grammar. | False |  |  |
-| Path | Represents the permission path. | False |  |  |
-| QueryRootEntityType | Defines the query root entity type. | False |  |  |
-| QueryBinding | Defines the query binding. | False |  |  |
-| PageSize | Page size. | False |  |  |
-| ContinuationToken | ContinuationToken returned by previous page request. | False |  |  |
-| api-version | The requested API version | True |  |  |
+| Name                | Description                                          | Required | Type | Reference |
+| ------------------- | ---------------------------------------------------- | -------- | ---- | --------- |
+| squery              | Query compliant to the API query grammar.            | False    |      |           |
+| Path                | Represents the permission path.                      | False    |      |           |
+| QueryRootEntityType | Defines the query root entity type.                  | False    |      |           |
+| QueryBinding        | Defines the query binding.                           | False    |      |           |
+| PageSize            | Page size.                                           | False    |      |           |
+| ContinuationToken   | ContinuationToken returned by previous page request. | False    |      |           |
+| api-version         | The requested API version                            | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The accessControlRule list. |  |
+| Code | Description                 | Reference |
+| ---- | --------------------------- | --------- |
+| 200  | The accessControlRule list. |           |
 
 #### Post
 
@@ -299,15 +302,15 @@ Creates a accessControlRule.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| api-version | The requested API version | True |  |  |
+| Name        | Description               | Required | Type | Reference |
+| ----------- | ------------------------- | -------- | ---- | --------- |
+| api-version | The requested API version | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The result of the accessControlRule creation. |  |
+| Code | Description                                   | Reference |
+| ---- | --------------------------------------------- | --------- |
+| 200  | The result of the accessControlRule creation. |           |
 
 ### /api/AccessControl/AccessControlRule/`{id}`
 
@@ -315,24 +318,25 @@ Creates a accessControlRule.
 
 ##### Summary:
 
-Returns a accessControlRule corresponding to the provided identifier and its information according to the provided query.
+Returns a accessControlRule corresponding to the provided identifier and its information according
+to the provided query.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id | Identifier of the accessControlRule. | True |  |  |
-| squery | Query compliant to the API query grammar. | False |  |  |
-| Path | Represents the permission path. | False |  |  |
-| QueryRootEntityType | Defines the query root entity type. | False |  |  |
-| QueryBinding | Defines the query binding. | False |  |  |
-| api-version | The requested API version | True |  |  |
+| Name                | Description                               | Required | Type | Reference |
+| ------------------- | ----------------------------------------- | -------- | ---- | --------- |
+| id                  | Identifier of the accessControlRule.      | True     |      |           |
+| squery              | Query compliant to the API query grammar. | False    |      |           |
+| Path                | Represents the permission path.           | False    |      |           |
+| QueryRootEntityType | Defines the query root entity type.       | False    |      |           |
+| QueryBinding        | Defines the query binding.                | False    |      |           |
+| api-version         | The requested API version                 | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The accessControlRule. |  |
+| Code | Description            | Reference |
+| ---- | ---------------------- | --------- |
+| 200  | The accessControlRule. |           |
 
 #### Put
 
@@ -342,16 +346,16 @@ Updates a accessControlRule.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id | Identifier of the accessControlRule to update. | True |  |  |
-| api-version | The requested API version | True |  |  |
+| Name        | Description                                    | Required | Type | Reference |
+| ----------- | ---------------------------------------------- | -------- | ---- | --------- |
+| id          | Identifier of the accessControlRule to update. | True     |      |           |
+| api-version | The requested API version                      | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The result of the accessControlRule update. |  |
+| Code | Description                                 | Reference |
+| ---- | ------------------------------------------- | --------- |
+| 200  | The result of the accessControlRule update. |           |
 
 #### Delete
 
@@ -361,16 +365,16 @@ Deletes a accessControlRule.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id | Identifier of the accessControlRule to delete. | True |  |  |
-| api-version | The requested API version | True |  |  |
+| Name        | Description                                    | Required | Type | Reference |
+| ----------- | ---------------------------------------------- | -------- | ---- | --------- |
+| id          | Identifier of the accessControlRule to delete. | True     |      |           |
+| api-version | The requested API version                      | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The result of the accessControlRule delete. |  |
+| Code | Description                                 | Reference |
+| ---- | ------------------------------------------- | --------- |
+| 200  | The result of the accessControlRule delete. |           |
 
 ### /api/AccessControl/AssignedProfile
 
@@ -382,21 +386,21 @@ Returns all the assigned profiles according to the provided query.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| squery | Query compliant to the API query grammar. | False |  |  |
-| PageSize | Page size. | False |  |  |
-| ContinuationToken | ContinuationToken returned by previous page request. | False |  |  |
-| Path | Represents the permission path. | False |  |  |
-| QueryRootEntityType | Defines the query root entity type. | False |  |  |
-| QueryBinding | Defines the query binding. | False |  |  |
-| api-version | The requested API version | True |  |  |
+| Name                | Description                                          | Required | Type | Reference |
+| ------------------- | ---------------------------------------------------- | -------- | ---- | --------- |
+| squery              | Query compliant to the API query grammar.            | False    |      |           |
+| PageSize            | Page size.                                           | False    |      |           |
+| ContinuationToken   | ContinuationToken returned by previous page request. | False    |      |           |
+| Path                | Represents the permission path.                      | False    |      |           |
+| QueryRootEntityType | Defines the query root entity type.                  | False    |      |           |
+| QueryBinding        | Defines the query binding.                           | False    |      |           |
+| api-version         | The requested API version                            | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The assigned profile list. |  |
+| Code | Description                | Reference |
+| ---- | -------------------------- | --------- |
+| 200  | The assigned profile list. |           |
 
 #### Post
 
@@ -406,15 +410,15 @@ Creates an assigned profile.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| api-version | The requested API version | True |  |  |
+| Name        | Description               | Required | Type | Reference |
+| ----------- | ------------------------- | -------- | ---- | --------- |
+| api-version | The requested API version | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The result of the assigned profile creation. |  |
+| Code | Description                                  | Reference |
+| ---- | -------------------------------------------- | --------- |
+| 200  | The result of the assigned profile creation. |           |
 
 ### /api/AccessControl/AssignedProfile/`{id}`
 
@@ -422,24 +426,25 @@ Creates an assigned profile.
 
 ##### Summary:
 
-Returns an assigned profile corresponding to the provided identifier and its information according to the provided query.
+Returns an assigned profile corresponding to the provided identifier and its information according
+to the provided query.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id | Identifier of the assigned profile. | True |  |  |
-| squery | Query compliant to the API query grammar. | False |  |  |
-| Path | Represents the permission path. | False |  |  |
-| QueryRootEntityType | Defines the query root entity type. | False |  |  |
-| QueryBinding | Defines the query binding. | False |  |  |
-| api-version | The requested API version | True |  |  |
+| Name                | Description                               | Required | Type | Reference |
+| ------------------- | ----------------------------------------- | -------- | ---- | --------- |
+| id                  | Identifier of the assigned profile.       | True     |      |           |
+| squery              | Query compliant to the API query grammar. | False    |      |           |
+| Path                | Represents the permission path.           | False    |      |           |
+| QueryRootEntityType | Defines the query root entity type.       | False    |      |           |
+| QueryBinding        | Defines the query binding.                | False    |      |           |
+| api-version         | The requested API version                 | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The assigned profile. |  |
+| Code | Description           | Reference |
+| ---- | --------------------- | --------- |
+| 200  | The assigned profile. |           |
 
 #### Put
 
@@ -449,16 +454,16 @@ Updates an assigned profile.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id | Identifier of the assigned profile to update. | True |  |  |
-| api-version | The requested API version | True |  |  |
+| Name        | Description                                   | Required | Type | Reference |
+| ----------- | --------------------------------------------- | -------- | ---- | --------- |
+| id          | Identifier of the assigned profile to update. | True     |      |           |
+| api-version | The requested API version                     | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The result of the assigned profile update. |  |
+| Code | Description                                | Reference |
+| ---- | ------------------------------------------ | --------- |
+| 200  | The result of the assigned profile update. |           |
 
 #### Delete
 
@@ -468,16 +473,16 @@ Deletes an assigned profile.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id | Identifier of the assigned profile to delete. | True |  |  |
-| api-version | The requested API version | True |  |  |
+| Name        | Description                                   | Required | Type | Reference |
+| ----------- | --------------------------------------------- | -------- | ---- | --------- |
+| id          | Identifier of the assigned profile to delete. | True     |      |           |
+| api-version | The requested API version                     | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The result of the assigned profile delete. |  |
+| Code | Description                                | Reference |
+| ---- | ------------------------------------------ | --------- |
+| 200  | The result of the assigned profile delete. |           |
 
 ### /api/AccessControl/OpenIdClient
 
@@ -489,21 +494,21 @@ Returns all the openId clients according to the provided query.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| squery | Query compliant to the API query grammar. | False |  |  |
-| Path | Represents the permission path. | False |  |  |
-| QueryRootEntityType | Defines the query root entity type. | False |  |  |
-| QueryBinding | Defines the query binding. | False |  |  |
-| PageSize | Page size. | False |  |  |
-| ContinuationToken | ContinuationToken returned by previous page request. | False |  |  |
-| api-version | The requested API version | True |  |  |
+| Name                | Description                                          | Required | Type | Reference |
+| ------------------- | ---------------------------------------------------- | -------- | ---- | --------- |
+| squery              | Query compliant to the API query grammar.            | False    |      |           |
+| Path                | Represents the permission path.                      | False    |      |           |
+| QueryRootEntityType | Defines the query root entity type.                  | False    |      |           |
+| QueryBinding        | Defines the query binding.                           | False    |      |           |
+| PageSize            | Page size.                                           | False    |      |           |
+| ContinuationToken   | ContinuationToken returned by previous page request. | False    |      |           |
+| api-version         | The requested API version                            | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The clients list. |  |
+| Code | Description       | Reference |
+| ---- | ----------------- | --------- |
+| 200  | The clients list. |           |
 
 #### Post
 
@@ -513,15 +518,15 @@ Creates an openId client.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| api-version | The requested API version | True |  |  |
+| Name        | Description               | Required | Type | Reference |
+| ----------- | ------------------------- | -------- | ---- | --------- |
+| api-version | The requested API version | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The result of the openId client creation. |  |
+| Code | Description                               | Reference |
+| ---- | ----------------------------------------- | --------- |
+| 200  | The result of the openId client creation. |           |
 
 ### /api/AccessControl/OpenIdClient/`{id}`
 
@@ -529,24 +534,25 @@ Creates an openId client.
 
 ##### Summary:
 
-Returns an openId client corresponding to the provided identifier and its information according to the provided query.
+Returns an openId client corresponding to the provided identifier and its information according to
+the provided query.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id | Identifier of the openId client. | True |  |  |
-| squery | Query compliant to the API query grammar. | False |  |  |
-| Path | Represents the permission path. | False |  |  |
-| QueryRootEntityType | Defines the query root entity type. | False |  |  |
-| QueryBinding | Defines the query binding. | False |  |  |
-| api-version | The requested API version | True |  |  |
+| Name                | Description                               | Required | Type | Reference |
+| ------------------- | ----------------------------------------- | -------- | ---- | --------- |
+| id                  | Identifier of the openId client.          | True     |      |           |
+| squery              | Query compliant to the API query grammar. | False    |      |           |
+| Path                | Represents the permission path.           | False    |      |           |
+| QueryRootEntityType | Defines the query root entity type.       | False    |      |           |
+| QueryBinding        | Defines the query binding.                | False    |      |           |
+| api-version         | The requested API version                 | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The open id client. |  |
+| Code | Description         | Reference |
+| ---- | ------------------- | --------- |
+| 200  | The open id client. |           |
 
 #### Put
 
@@ -556,16 +562,16 @@ Updates an openId client.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id | Identifier of the openId client to update. | True |  |  |
-| api-version | The requested API version | True |  |  |
+| Name        | Description                                | Required | Type | Reference |
+| ----------- | ------------------------------------------ | -------- | ---- | --------- |
+| id          | Identifier of the openId client to update. | True     |      |           |
+| api-version | The requested API version                  | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The result of the openId client update. |  |
+| Code | Description                             | Reference |
+| ---- | --------------------------------------- | --------- |
+| 200  | The result of the openId client update. |           |
 
 #### Delete
 
@@ -575,16 +581,16 @@ Deletes an openId client.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id | Identifier of the openId client to delete. | True |  |  |
-| api-version | The requested API version | True |  |  |
+| Name        | Description                                | Required | Type | Reference |
+| ----------- | ------------------------------------------ | -------- | ---- | --------- |
+| id          | Identifier of the openId client to delete. | True     |      |           |
+| api-version | The requested API version                  | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The result of the openId client delete. |  |
+| Code | Description                             | Reference |
+| ---- | --------------------------------------- | --------- |
+| 200  | The result of the openId client delete. |           |
 
 ### /api/AccessControl/Profile
 
@@ -596,21 +602,21 @@ Returns all the profiles according to the provided query.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| squery | Query compliant to the API query grammar. | False |  |  |
-| Path | Represents the permission path. | False |  |  |
-| QueryRootEntityType | Defines the query root entity type. | False |  |  |
-| QueryBinding | Defines the query binding. | False |  |  |
-| PageSize | Page size. | False |  |  |
-| ContinuationToken | ContinuationToken returned by previous page request. | False |  |  |
-| api-version | The requested API version | True |  |  |
+| Name                | Description                                          | Required | Type | Reference |
+| ------------------- | ---------------------------------------------------- | -------- | ---- | --------- |
+| squery              | Query compliant to the API query grammar.            | False    |      |           |
+| Path                | Represents the permission path.                      | False    |      |           |
+| QueryRootEntityType | Defines the query root entity type.                  | False    |      |           |
+| QueryBinding        | Defines the query binding.                           | False    |      |           |
+| PageSize            | Page size.                                           | False    |      |           |
+| ContinuationToken   | ContinuationToken returned by previous page request. | False    |      |           |
+| api-version         | The requested API version                            | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The profile list. |  |
+| Code | Description       | Reference |
+| ---- | ----------------- | --------- |
+| 200  | The profile list. |           |
 
 #### Post
 
@@ -620,15 +626,15 @@ Creates a profile.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| api-version | The requested API version | True |  |  |
+| Name        | Description               | Required | Type | Reference |
+| ----------- | ------------------------- | -------- | ---- | --------- |
+| api-version | The requested API version | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The result of the profile creation. |  |
+| Code | Description                         | Reference |
+| ---- | ----------------------------------- | --------- |
+| 200  | The result of the profile creation. |           |
 
 ### /api/AccessControl/Profile/`{id}`
 
@@ -636,24 +642,25 @@ Creates a profile.
 
 ##### Summary:
 
-Returns a profile corresponding to the provided identifier and its information according to the provided query.
+Returns a profile corresponding to the provided identifier and its information according to the
+provided query.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id | Identifier of the profile. | True |  |  |
-| squery | Query compliant to the API query grammar. | False |  |  |
-| Path | Represents the permission path. | False |  |  |
-| QueryRootEntityType | Defines the query root entity type. | False |  |  |
-| QueryBinding | Defines the query binding. | False |  |  |
-| api-version | The requested API version | True |  |  |
+| Name                | Description                               | Required | Type | Reference |
+| ------------------- | ----------------------------------------- | -------- | ---- | --------- |
+| id                  | Identifier of the profile.                | True     |      |           |
+| squery              | Query compliant to the API query grammar. | False    |      |           |
+| Path                | Represents the permission path.           | False    |      |           |
+| QueryRootEntityType | Defines the query root entity type.       | False    |      |           |
+| QueryBinding        | Defines the query binding.                | False    |      |           |
+| api-version         | The requested API version                 | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The profile. |  |
+| Code | Description  | Reference |
+| ---- | ------------ | --------- |
+| 200  | The profile. |           |
 
 #### Put
 
@@ -663,16 +670,16 @@ Updates a profile.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id | Identifier of the profile to update. | True |  |  |
-| api-version | The requested API version | True |  |  |
+| Name        | Description                          | Required | Type | Reference |
+| ----------- | ------------------------------------ | -------- | ---- | --------- |
+| id          | Identifier of the profile to update. | True     |      |           |
+| api-version | The requested API version            | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The result of the profile update. |  |
+| Code | Description                       | Reference |
+| ---- | --------------------------------- | --------- |
+| 200  | The result of the profile update. |           |
 
 #### Delete
 
@@ -682,13 +689,13 @@ Deletes a profile.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id | Identifier of the profile to delete. | True |  |  |
-| api-version | The requested API version | True |  |  |
+| Name        | Description                          | Required | Type | Reference |
+| ----------- | ------------------------------------ | -------- | ---- | --------- |
+| id          | Identifier of the profile to delete. | True     |      |           |
+| api-version | The requested API version            | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The result of the profile delete. |  |
+| Code | Description                       | Reference |
+| ---- | --------------------------------- | --------- |
+| 200  | The result of the profile delete. |           |

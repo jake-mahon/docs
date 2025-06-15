@@ -1,10 +1,12 @@
 # ResourceApiAdministration
 
-Generates the permissions to create/update/delete/query resources from a given entity type, for a given profile.
+Generates the permissions to create/update/delete/query resources from a given entity type, for a
+given profile.
 
 ## Examples
 
-The following example gives the ```Administrator``` profile the rights to create, update, delete and query resources from ```Directory_User```.
+The following example gives the `Administrator` profile the rights to create, update, delete and
+query resources from `Directory_User`.
 
 ```
 
@@ -14,10 +16,10 @@ The following example gives the ```Administrator``` profile the rights to create
 
 ## Properties
 
-| Property | Details |
-| --- | --- |
-| EntityType   required | __Type__    String   __Description__   Identifier of the entity type involved in the scaffolding. |
-| Profile   required | __Type__    String   __Description__   Identifier of the profile involved in the scaffolding. |
+| Property            | Details                                                                                    |
+| ------------------- | ------------------------------------------------------------------------------------------ |
+| EntityType required | **Type** String **Description** Identifier of the entity type involved in the scaffolding. |
+| Profile required    | **Type** String **Description** Identifier of the profile involved in the scaffolding.     |
 
 ## Generated XML
 

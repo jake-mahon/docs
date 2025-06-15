@@ -20,7 +20,7 @@ If distinguishedName attribute is already configured for Okta users, skip this s
 - Login to the Okta Admin page
 - Go to Directory > Profile Editor
 
-  - Click on Okta > User (default)
+    - Click on Okta > User (default)
 
 ![mceclip2.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip2.png)
 
@@ -54,8 +54,7 @@ Save and apply mappings.
 
 ## Okta: Import AD Users to Retrieve distinguishedName Attribute
 
-Navigate to directory to import
-.
+Navigate to directory to import .
 
 - ![mceclip7.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip7.png)
 
@@ -79,7 +78,7 @@ Assign any new users appropriately and confirm, example:
 
 ## Okta (Optional): Test Authentication with AD Credentials
 
-__![mceclip14.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip14.png)__
+**![mceclip14.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip14.png)**
 
 Scroll down to bottom
 
@@ -102,11 +101,11 @@ Note in the example below
 
 ![mceclip23.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip23.png)
 
-__NOTE:__ An ‘Application username’ may be required by the Okta environment.
+**NOTE:** An ‘Application username’ may be required by the Okta environment.
 
 - ![mceclip26.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip26.png)
 
-__NOTE:__ user.dn may not appear in drop down list, it can be manually entered.
+**NOTE:** user.dn may not appear in drop down list, it can be manually entered.
 
 - Click Next button to continue.
 - Provide answer to Feedback question and Finish.
@@ -124,15 +123,15 @@ User authentication policy  Examples uses "Any two factors" ploicy.
 
 ## Okta: Assign Okta People/Groups to Privilege Secure Application
 
-__![mceclip31.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip31.png)__
+**![mceclip31.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip31.png)**
 
 ![mceclip32.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip32.png)
 
 ## Okta: Retrieve SAML/SSO Information for Privilege Secure
 
-__![mceclip33.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip33.png)__
+**![mceclip33.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip33.png)**
 
-__![mceclip34.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip34.png)__
+**![mceclip34.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip34.png)**
 
 ## Privilege Secure: Enter SAML/SSO Information
 
@@ -142,9 +141,11 @@ __![mceclip34.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privileg
 
 ## Enable SSO in Privilege Secure and Login Example
 
-At the bottom of the Configure → Server -> SAML Configuration Panel, enable or disable SSO when appropriate:
+At the bottom of the Configure → Server -> SAML Configuration Panel, enable or disable SSO when
+appropriate:
 
-- When logging into Privilege Secure, you will either be automatically directed to Okta for authentication, or presented with a Privilege Secure SSO Login Screen Example:
+- When logging into Privilege Secure, you will either be automatically directed to Okta for
+  authentication, or presented with a Privilege Secure SSO Login Screen Example:
 
 ![mceclip36.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip36.png)
 

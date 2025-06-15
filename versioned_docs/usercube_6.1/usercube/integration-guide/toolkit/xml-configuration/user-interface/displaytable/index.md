@@ -46,15 +46,15 @@ The following example displays AD entries as a table, with an "Owner/Type" colum
 
 ## Properties
 
-| Property | Details |
-| --- | --- |
-| DisplayTableDesignElement   required | __Type__    Enumeration   __Description__   Design of the display table.   ```-1``` - __table__: resources are displayed in a table.   ```-2``` - __list__: resources are displayed in a list.   ```-3``` - __resourcetable__: resources are displayed in a table containing an "Owner/Type" column.   ```-4``` - __adaptable__: resources are displayed in a table with an "Owner/Type" column only if the entity type is the target of a resource type, otherwise the table is without said column. |
-| EntityType   required | __Type__    Int64   __Description__   Represents the linked entity type. |
-| HomonymEntityLink   optional | __Type__    Int64   __Description__   Defines the homonym display table. |
-| Identifier   required | __Type__    String   __Description__   Unique identifier of the table. |
-| IsEntityTypeDefault   default value: false | __Type__    Boolean   __Description__   Default display table used in the application. |
-| LinesPerPage   default value: 15 | __Type__    Int32   __Description__   Defines the maximum lines per page. |
-| ParentProperty   optional | __Type__    Int64   __Description__   Property to navigate to the parent level when the table displays a tree of values (for example ```Organization.ParentOrganization```). |
+| Property                                 | Details                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| ---------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| DisplayTableDesignElement required       | **Type** Enumeration **Description** Design of the display table. `-1` - **table**: resources are displayed in a table. `-2` - **list**: resources are displayed in a list. `-3` - **resourcetable**: resources are displayed in a table containing an "Owner/Type" column. `-4` - **adaptable**: resources are displayed in a table with an "Owner/Type" column only if the entity type is the target of a resource type, otherwise the table is without said column. |
+| EntityType required                      | **Type** Int64 **Description** Represents the linked entity type.                                                                                                                                                                                                                                                                                                                                                                                                      |
+| HomonymEntityLink optional               | **Type** Int64 **Description** Defines the homonym display table.                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Identifier required                      | **Type** String **Description** Unique identifier of the table.                                                                                                                                                                                                                                                                                                                                                                                                        |
+| IsEntityTypeDefault default value: false | **Type** Boolean **Description** Default display table used in the application.                                                                                                                                                                                                                                                                                                                                                                                        |
+| LinesPerPage default value: 15           | **Type** Int32 **Description** Defines the maximum lines per page.                                                                                                                                                                                                                                                                                                                                                                                                     |
+| ParentProperty optional                  | **Type** Int64 **Description** Property to navigate to the parent level when the table displays a tree of values (for example `Organization.ParentOrganization`).                                                                                                                                                                                                                                                                                                      |
 
 ## Child Element: Column
 
@@ -70,20 +70,20 @@ Contains all the display table columns.
 
 ### Properties
 
-| Property | Details |
-| --- | --- |
-| AddedMinutes   optional | __Type__    Int32   __Description__   Add minutes to the date field with this property.   If the value is not defined, the default value is the one defined for the associated display entity property. |
-| CanBeFiltered   default value: false | __Type__    Boolean   __Description__   Can filter the column data. |
-| ColumnSize   default value: 1 | __Type__    Int32   __Description__   Defines the column size. |
-| DefaultSortPriority   optional | __Type__    Int32   __Description__   Defines the default sort priority. |
-| DisplayBinding   optional | __Type__    Int64   __Description__   Represents the linked binding path to a scalar property. |
-| DisplayName_L1   optional | __Type__    String   __Description__   Display name of the column in language 1 (up to 16). |
-| IsDisplayInDropDownList   default value: false | __Type__    Boolean   __Description__   Is a drop down list column. |
-| IsDisplayInSummaryView   default value: false | __Type__    Boolean   __Description__   Is a summary view column. |
-| IsResizable   default value: false | __Type__    Boolean   __Description__   Is resizable column. |
-| IsSortable   default value: false | __Type__    Boolean   __Description__   Is sortable column. |
-| OptimizedDisplayBinding   optional | __Type__    Int64   __Description__   Optimized Binding allows DisplayTables to be faster displayed.   If it is filled in, it takes priority over the DisplayBinding located in the DisplayTableColumn. |
-| OptimizedSortBinding   optional | __Type__    Int64   __Description__   An optimized sort binding allows display tables to be faster displayed. If it is filled in, it takes priority over the sort binding located in the display table column. |
-| SearchOperator   default value: 0 | __Type__    QueryComparisonOperator   __Description__   Defines the search operator (Equal, NotEqual, Contain, StartWith�). |
-| SortBinding   optional | __Type__    Int64   __Description__   Represents the sort binding path to a scalar property. |
-| Tile   optional | __Type__    Int64   __Description__   Identifier of the tile. |
+| Property                                     | Details                                                                                                                                                                                                 |
+| -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| AddedMinutes optional                        | **Type** Int32 **Description** Add minutes to the date field with this property. If the value is not defined, the default value is the one defined for the associated display entity property.          |
+| CanBeFiltered default value: false           | **Type** Boolean **Description** Can filter the column data.                                                                                                                                            |
+| ColumnSize default value: 1                  | **Type** Int32 **Description** Defines the column size.                                                                                                                                                 |
+| DefaultSortPriority optional                 | **Type** Int32 **Description** Defines the default sort priority.                                                                                                                                       |
+| DisplayBinding optional                      | **Type** Int64 **Description** Represents the linked binding path to a scalar property.                                                                                                                 |
+| DisplayName_L1 optional                      | **Type** String **Description** Display name of the column in language 1 (up to 16).                                                                                                                    |
+| IsDisplayInDropDownList default value: false | **Type** Boolean **Description** Is a drop down list column.                                                                                                                                            |
+| IsDisplayInSummaryView default value: false  | **Type** Boolean **Description** Is a summary view column.                                                                                                                                              |
+| IsResizable default value: false             | **Type** Boolean **Description** Is resizable column.                                                                                                                                                   |
+| IsSortable default value: false              | **Type** Boolean **Description** Is sortable column.                                                                                                                                                    |
+| OptimizedDisplayBinding optional             | **Type** Int64 **Description** Optimized Binding allows DisplayTables to be faster displayed. If it is filled in, it takes priority over the DisplayBinding located in the DisplayTableColumn.          |
+| OptimizedSortBinding optional                | **Type** Int64 **Description** An optimized sort binding allows display tables to be faster displayed. If it is filled in, it takes priority over the sort binding located in the display table column. |
+| SearchOperator default value: 0              | **Type** QueryComparisonOperator **Description** Defines the search operator (Equal, NotEqual, Contain, StartWith�).                                                                                    |
+| SortBinding optional                         | **Type** Int64 **Description** Represents the sort binding path to a scalar property.                                                                                                                   |
+| Tile optional                                | **Type** Int64 **Description** Identifier of the tile.                                                                                                                                                  |

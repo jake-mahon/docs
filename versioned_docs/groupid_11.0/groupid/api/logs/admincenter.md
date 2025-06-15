@@ -1,6 +1,8 @@
 # Admin Center Logs
 
-Use this API to get Admin Center logs. See the [Admin Center History](/versioned_docs/groupid_11.0/groupid/admincenter/general/history.md) topic for additional information.
+Use this API to get Admin Center logs. See the
+[Admin Center History](/versioned_docs/groupid_11.0/groupid/admincenter/general/history.md) topic
+for additional information.
 
 ## Endpoint
 

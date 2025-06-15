@@ -25,12 +25,12 @@ The plugin module's default export is a constructor function with the signature 
 
 ```ts
 type LoadContext = {
-  siteDir: string;
-  generatedFilesDir: string;
-  siteConfig: DocusaurusConfig;
-  outDir: string;
-  baseUrl: string;
-};
+  siteDir: string
+  generatedFilesDir: string
+  siteConfig: DocusaurusConfig
+  outDir: string
+  baseUrl: string
+}
 ```
 
 ### `options` {#options}
@@ -61,7 +61,7 @@ export default async function myPlugin(context, opts) {
       // You can return a JavaScript object that will be passed to contentLoaded hook.
     },
 
-    async contentLoaded({content, actions}) {
+    async contentLoaded({ content, actions }) {
       // The contentLoaded hook is done after loadContent hook is done.
       // `actions` are set of functional API provided by Docusaurus (e.g. addRoute)
     },
@@ -110,35 +110,35 @@ export default async function myPlugin(context, opts) {
       // Register an extra command to enhance the CLI of Docusaurus
     },
 
-    injectHtmlTags({content}) {
+    injectHtmlTags({ content }) {
       // Inject head and/or body HTML tags.
     },
 
-    async getTranslationFiles({content}) {
+    async getTranslationFiles({ content }) {
       // Return translation files
     },
 
-    translateContent({content, translationFiles}) {
+    translateContent({ content, translationFiles }) {
       // translate the plugin content here
     },
 
-    translateThemeConfig({themeConfig, translationFiles}) {
+    translateThemeConfig({ themeConfig, translationFiles }) {
       // translate the site themeConfig here
     },
 
     async getDefaultCodeTranslationMessages() {
       // return default theme translations here
     },
-  };
+  }
 }
 
-export function validateOptions({options, validate}) {
-  const validatedOptions = validate(myValidationSchema, options);
-  return validatedOptions;
+export function validateOptions({ options, validate }) {
+  const validatedOptions = validate(myValidationSchema, options)
+  return validatedOptions
 }
 
-export function validateThemeConfig({themeConfig, validate}) {
-  const validatedThemeConfig = validate(myValidationSchema, options);
-  return validatedThemeConfig;
+export function validateThemeConfig({ themeConfig, validate }) {
+  const validatedThemeConfig = validate(myValidationSchema, options)
+  return validatedThemeConfig
 }
 ```

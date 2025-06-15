@@ -1,31 +1,43 @@
 # Secure Console Access
 
-Enable Secure Sockets Layer (SSL) for secure, remote connections to the application web server. In order to enable SSL, you need to create a certificate and then bind it to the secure port.
+Enable Secure Sockets Layer (SSL) for secure, remote connections to the application web server. In
+order to enable SSL, you need to create a certificate and then bind it to the secure port.
 
-__NOTE:__ Organizations typically have one or more system administrators responsible for Public Key Infrastructure (PKI) and certificates. To continue with this configuration, it will first be necessary to confer with the PKI administrator to determine which certificate method will conform to the organization’s security policies.
+**NOTE:** Organizations typically have one or more system administrators responsible for Public Key
+Infrastructure (PKI) and certificates. To continue with this configuration, it will first be
+necessary to confer with the PKI administrator to determine which certificate method will conform to
+the organization’s security policies.
 
 Follow the steps to enable SSL.
 
-__Step 1 –__ [Create an SSL Binding](#create-an-ssl-binding).
+**Step 1 –** [Create an SSL Binding](#create-an-ssl-binding).
 
-__Step 2 –__ [Modify the AccessInformationCenter.Service.exe.Config File](#modify-the-accessinformationcenterserviceexeconfig-file).
+**Step 2 –**
+[Modify the AccessInformationCenter.Service.exe.Config File](#modify-the-accessinformationcenterserviceexeconfig-file).
 
 The Access Reviews application is now configured to use SSL for secure, remote connections.
 
 ## Create an SSL Binding
 
-You run a PowerShell command to create an SSL binding. The binding command has several environmental variables:
+You run a PowerShell command to create an SSL binding. The binding command has several environmental
+variables:
 
-- The ```$certHash``` value is the ```Thumbprint``` value.
-- The ```$ip``` value of the IP addresses. In the example script below, the value [0.0.0.0] is set for all IP addresses.
-- The ```$port``` value must be accurate for your environment. The HTTP default port is 81. The HTTPS default is 481. However, it can be customized during installation.
-- The ```$guid``` value is required for specifying a valid GUID value to identify the owning application for a binding purpose. It obtained from any valid GUID.
+- The `$certHash` value is the `Thumbprint` value.
+- The `$ip` value of the IP addresses. In the example script below, the value [0.0.0.0] is set for
+  all IP addresses.
+- The `$port` value must be accurate for your environment. The HTTP default port is 81. The HTTPS
+  default is 481. However, it can be customized during installation.
+- The `$guid` value is required for specifying a valid GUID value to identify the owning application
+  for a binding purpose. It obtained from any valid GUID.
 
-If you need to find the ```$certHash``` value of a certificate that was already created, run the PowerShell ```dir``` command below on the certificate's drive. This will output the Thumbprint (Hash) value and the certificate name:
+If you need to find the `$certHash` value of a certificate that was already created, run the
+PowerShell `dir` command below on the certificate's drive. This will output the Thumbprint (Hash)
+value and the certificate name:
 
 dir cert:\localmachine\my
 
-Replace the environmental variables in the example script below. Then Run the PowerShell command to create an SSL binding:
+Replace the environmental variables in the example script below. Then Run the PowerShell command to
+create an SSL binding:
 
 ```powershell
 $guid = "1be32670-7644-4dce-9a5d-01643022074e"
@@ -39,22 +51,28 @@ $port = "481"
 "http add sslcert ipport=$($ip):$port certhash=$certHash appid={$guid}" | netsh
 ```
 
-The next step is to modify the ```AccessInformationCenter.Service.exe.Config``` file.
+The next step is to modify the `AccessInformationCenter.Service.exe.Config` file.
 
 ## Modify the AccessInformationCenter.Service.exe.Config File
 
-Follow the steps to modify the Modify the ```AccessInformationCenter.Service.exe.Config``` file for HTTPS.
+Follow the steps to modify the Modify the `AccessInformationCenter.Service.exe.Config` file for
+HTTPS.
 
-__Step 1 –__ Open the ```AccessInformationCenter.Service.exe.Config``` file in a text editor, e.g. Notepad. It is located in the installation directory:
+**Step 1 –** Open the `AccessInformationCenter.Service.exe.Config` file in a text editor, e.g.
+Notepad. It is located in the installation directory:
 
 ...\Netwrix\Access Reviews
 
 ![AccessInformationCenter.Service.exe.Config file showing the BindingUrl key](/img/versioned_docs/auditor_10.6/access/reviews/installation/securebindingurlparameter.png)
 
-__Step 2 –__ Change the ```BindingUrl``` key value to ```"https://+:481"``` (ensure the port number matches the port number used in the PowerShell command run to create the SSL Binding.
+**Step 2 –** Change the `BindingUrl` key value to `"https://+:481"` (ensure the port number matches
+the port number used in the PowerShell command run to create the SSL Binding.
 
-__Step 3 –__ Save and close the file.
+**Step 3 –** Save and close the file.
 
-__Step 4 –__ Restart the Netwrix Auditor Access Reviews service in Services Manager ```(services.msc```).
+**Step 4 –** Restart the Netwrix Auditor Access Reviews service in Services Manager
+`(services.msc`).
 
-The URL for the Access Reviews Console is now accessible ```https://[Fully Qualified Domain Name for the Machine]:481``` (if port 481 was used when creating the binding). For example, https://NEWYORKSRV10.NWXTech.com:481.
+The URL for the Access Reviews Console is now accessible
+`https://[Fully Qualified Domain Name for the Machine]:481` (if port 481 was used when creating the
+binding). For example, https://NEWYORKSRV10.NWXTech.com:481.

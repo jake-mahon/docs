@@ -2,15 +2,20 @@
 
 ## Guide
 
-The MSI installation files and the associated [Client configuration](/versioned_docs/passwordsecure_9.1/passwordsecure/installation/requirements/client_configuration.md) can be found in the corresponding sections. The following step-by-step guide will accompany you through the wizards.
+The MSI installation files and the associated
+[Client configuration](/versioned_docs/passwordsecure_9.1/passwordsecure/installation/requirements/client_configuration.md)
+can be found in the corresponding sections. The following step-by-step guide will accompany you
+through the wizards.
 
 ![installation wizard page 1](/img/versioned_docs/passwordsecure_9.1/passwordsecure/installation/installation_client/installation-client-1-en.png)
 
 You are required to read and accept the terms of service. These can also be printed.
 
-The next step is to define the location of the client. The suggested location can be retained.You can also define whether additional components should be installed.
+The next step is to define the location of the client. The suggested location can be retained.You
+can also define whether additional components should be installed.
 
-__CAUTION:__ Please only install the Terminal Server Service (for Autofill Add-on) if terminal server operation is intended!
+**CAUTION:** Please only install the Terminal Server Service (for Autofill Add-on) if terminal
+server operation is intended!
 
 ![installation wizard page 2](/img/versioned_docs/passwordsecure_9.1/passwordsecure/installation/installation_client/installation-client-3-en.png)
 
@@ -40,7 +45,8 @@ The Autofill Add-on is used for SSO applications.
 
 ## Integrating a database
 
-For connection to the database, the creation of a database profile is obligatory. The following information is required:
+For connection to the database, the creation of a database profile is obligatory. The following
+information is required:
 
 - Profile name: The name of the profile. This will be displayed on the client in the future
 - IP address: The IP address of the Netwrix Password Secure V8 server is stored here
@@ -48,13 +54,15 @@ For connection to the database, the creation of a database profile is obligatory
 
 ## Distributing database profiles via the registry
 
-There is also an option to distribute database profiles. The profiles are specified via a corresponding registry entry. The next time Netwrix Password Secure is started, the profiles will be saved in the local configuration file. The database connection can be made with the following keys:
+There is also an option to distribute database profiles. The profiles are specified via a
+corresponding registry entry. The next time Netwrix Password Secure is started, the profiles will be
+saved in the local configuration file. The database connection can be made with the following keys:
 
-[Copy](javascript:void(0);)
+[Copy](<javascript:void(0);>)
 
 ```
-HKEY_CURRENT_USER\SOFTWARE\MATESO\Password Safe and Repository 8\DatabaseProfiles  
-HKEY_LOCAL_MACHINE\SOFTWARE\MATESO\Password Safe and Repository 8\DatabaseProfiles  
+HKEY_CURRENT_USER\SOFTWARE\MATESO\Password Safe and Repository 8\DatabaseProfiles
+HKEY_LOCAL_MACHINE\SOFTWARE\MATESO\Password Safe and Repository 8\DatabaseProfiles
 
 ```
 
@@ -68,20 +76,23 @@ These keys are structured like this:
 
 Is the profile set with the following entries?
 
-[Copy](javascript:void(0);)
+[Copy](<javascript:void(0);>)
 
 ```
-HKEY_LOCAL_MACHINE\SOFTWARE\MATESO\Password Safe and Repository 8\DatabaseProfiles  
-
-```
-
-Then the last used date base as well as the last registered user are created with the following ID, when you log in for the first time:
-
-[Copy](javascript:void(0);)
-
-```
-HKEY_CURRENT_USER\SOFTWARE\MATESO\Password Safe and Repository 8\DatabaseProfiles  
+HKEY_LOCAL_MACHINE\SOFTWARE\MATESO\Password Safe and Repository 8\DatabaseProfiles
 
 ```
 
-NOTE: When the corresponding registry entry is set and no related database profile exists, the profile will be created at the next start-up. Please note that profiles created like this cannot be edited or deleted in the client.
+Then the last used date base as well as the last registered user are created with the following ID,
+when you log in for the first time:
+
+[Copy](<javascript:void(0);>)
+
+```
+HKEY_CURRENT_USER\SOFTWARE\MATESO\Password Safe and Repository 8\DatabaseProfiles
+
+```
+
+NOTE: When the corresponding registry entry is set and no related database profile exists, the
+profile will be created at the next start-up. Please note that profiles created like this cannot be
+edited or deleted in the client.

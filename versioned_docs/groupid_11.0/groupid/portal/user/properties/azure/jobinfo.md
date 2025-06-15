@@ -1,12 +1,14 @@
 # User properties - Job Info tab
 
-The __Job Info__ tab is similar to the [Object properties - Organization tab](/versioned_docs/groupid_11.0/groupid/portal/user/properties/activedirectory/organization.md) in user properties, with the addition of two fields: __Title__ and __Department__.
+The **Job Info** tab is similar to the
+[Object properties - Organization tab](/versioned_docs/groupid_11.0/groupid/portal/user/properties/activedirectory/organization.md)
+in user properties, with the addition of two fields: **Title** and **Department**.
 
-__Title__
+**Title**
 
 The job title of the user/mailbox.
 
-__Department__
+**Department**
 
 The department in the organization that the user/mailbox works in.
 

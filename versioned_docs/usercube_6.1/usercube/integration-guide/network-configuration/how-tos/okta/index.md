@@ -4,51 +4,54 @@ This guide shows how to configure the OIDC to set up the authentication to Userc
 
 ## Create the Application
 
-On the Okta dashboard, select the __Applications__ section.
-Click on the __Add Application__ button.
+On the Okta dashboard, select the **Applications** section. Click on the **Add Application** button.
 
 ![Add Application](/img/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/how-tos/okta/okta_addapplication.png)
 
-Then click on the __Create New App__ button.
+Then click on the **Create New App** button.
 
 ![Create New App](/img/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/how-tos/okta/okta_createnewapp.png)
 
-Select the platform "Native app". The only sign-on method is the OpenID Connect.
-Click on __Create__.
+Select the platform "Native app". The only sign-on method is the OpenID Connect. Click on
+**Create**.
 
 ![Create Native App](/img/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/how-tos/okta/okta_createnativeapp.png)
 
-In __General Settings__, name your Application.
-You can also add a logo.
+In **General Settings**, name your Application. You can also add a logo.
 
-In the __Configure OpenID Connect__ section, enter the connection redirection URL in the part: __Login redirect URLs__. To find out this URL, just take the URL of the Usercube application and add: "/signin-oidc".
-The Usercube disconnection redirection URL is also necessary. To construct it, take Usercube's URL again and, at the end, add: "/signout-callback-oidc".
+In the **Configure OpenID Connect** section, enter the connection redirection URL in the part:
+**Login redirect URLs**. To find out this URL, just take the URL of the Usercube application and
+add: "/signin-oidc". The Usercube disconnection redirection URL is also necessary. To construct it,
+take Usercube's URL again and, at the end, add: "/signout-callback-oidc".
 
-The __Logout redirect URLs__ section is marked as optional but it is mandatory for Usercube.
+The **Logout redirect URLs** section is marked as optional but it is mandatory for Usercube.
 
 ![Save Application](/img/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/how-tos/okta/okta_saveapplication.png)
 
 ## Configure the Client Credentials
 
-The client secret in Usercube is required for the OIDC connection. You must therefore configure this OIDC connection option in the application.
-In the Application Dashboard, click on __Edit__ in the __Client Credentials__ section.
-Select the option __Use Client Authentication__ and save the changes.
+The client secret in Usercube is required for the OIDC connection. You must therefore configure this
+OIDC connection option in the application. In the Application Dashboard, click on **Edit** in the
+**Client Credentials** section. Select the option **Use Client Authentication** and save the
+changes.
 
 ![Client Credentials](/img/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/how-tos/okta/okta_clientcredentials.png)
 
 ## Configure the Application Settings
 
-In the __Application__ section, check the box __Implicit (Hybrid)__ so that the connection with Usercube can operate correctly. __Allow ID Token with implicit grant type__ is optional.
+In the **Application** section, check the box **Implicit (Hybrid)** so that the connection with
+Usercube can operate correctly. **Allow ID Token with implicit grant type** is optional.
 
 ![Application Section](/img/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/how-tos/okta/okta_applicationsection.png)
 
 ## Configure the appsettings.json
 
-In the __authentication__ section of your appsettings file, the __OpenId__ section must be configured with the following information:
+In the **authentication** section of your appsettings file, the **OpenId** section must be
+configured with the following information:
 
-- ClientId: __Client ID__ found in the Okta __Client Credentials__ section
-- ClientSecret: __Client secret__ found in the Okta __Client Credentials__ section
-- Authority: __Okta Domain__ found in the Okta __General Settings__ section
+- ClientId: **Client ID** found in the Okta **Client Credentials** section
+- ClientSecret: **Client secret** found in the Okta **Client Credentials** section
+- Authority: **Okta Domain** found in the Okta **General Settings** section
 - SaveToken: True
 
 ```

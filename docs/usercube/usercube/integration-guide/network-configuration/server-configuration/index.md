@@ -1,14 +1,15 @@
 # Server Configuration
 
-Identity Manager Server's technical configuration includes settings on end-user authentication, database connection and some general-purpose settings.
+Identity Manager Server's technical configuration includes settings on end-user authentication,
+database connection and some general-purpose settings.
 
 ## Configuration Files
 
 The Server configuration is included in the Server's appsettings set.
 
-The appsettings set content can be written to appsettings.json in the Server's working directory or to environment variables. See the [
-Architecture
-](../../architecture/index.md) topic for additional information.
+The appsettings set content can be written to appsettings.json in the Server's working directory or
+to environment variables. See the [ Architecture ](../../architecture/index.md) topic for additional
+information.
 
 The server appsettings supported attributes and sections are described in the following sections:
 
@@ -16,40 +17,41 @@ The server appsettings supported attributes and sections are described in the fo
 - End-User Authentication
 - General-Purpose Settings
 
-See the[
-Connection to the Database
-](database-connection/index.md), [
-End-User Authentication](end-users-authentication/index.md) and [Application Settings](general-purpose/index.md) topics for additional information.
+See the[ Connection to the Database ](database-connection/index.md),
+[ End-User Authentication](end-users-authentication/index.md) and
+[Application Settings](general-purpose/index.md) topics for additional information.
 
 ## Secret and Certificate Management
 
 All the certificates and secrets present in the settings can be loaded with an Azure Key Vault.
 
-See the [Azure Key Vault](../agent-configuration/azure-key-vault/index.md) topic for additional information.
+See the [Azure Key Vault](../agent-configuration/azure-key-vault/index.md) topic for additional
+information.
 
 ## Default Configuration
 
 The default behavior of the server configuration is outlined through an example.
 
-Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
+Code attributes enclosed with `<>` need to be replaced with a custom value before entering the
+script in the command line.
 
 ```
-  
-{  
-    "IdentityServer": {  
-        // Token signing certificate stored in a file  
-        "X509KeyFilePath": "<./UsercubeContoso.pfx>",  
-        // Optional certificate password  
-        "X509KeyFilePassword": "<secret>"  
-    },  
-    "Authentication": {  
-        "RequireHttpsMetadata": false,  
-        "TestUserStore": {  
-            "Enabled": "<true>",  
-            "Password": "<secret>"  
-        },  
-        "AllowLocalLogin": true  
-    }  
-}  
+
+{
+    "IdentityServer": {
+        // Token signing certificate stored in a file
+        "X509KeyFilePath": "<./UsercubeContoso.pfx>",
+        // Optional certificate password
+        "X509KeyFilePassword": "<secret>"
+    },
+    "Authentication": {
+        "RequireHttpsMetadata": false,
+        "TestUserStore": {
+            "Enabled": "<true>",
+            "Password": "<secret>"
+        },
+        "AllowLocalLogin": true
+    }
+}
 
 ```

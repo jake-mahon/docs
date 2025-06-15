@@ -4,11 +4,11 @@ Follow the steps to edit a playbook step.
 
 ![playbookstep](../../../../../static/img/product_docs/threatmanager/threatmanager/administration/playbooks/playbookstep.webp)
 
-__Step 1 –__ Click the step in the playbook to expand it.
+**Step 1 –** Click the step in the playbook to expand it.
 
-__Step 2 –__ Make any desired changes to the step.
+**Step 2 –** Make any desired changes to the step.
 
-__Step 3 –__ Click Save.
+**Step 3 –** Click Save.
 
 The playbook step is now updated.
 
@@ -16,8 +16,8 @@ The playbook step is now updated.
 
 Follow the steps to delete a playbook step.
 
-__Step 1 –__ Click the step in the playbook to expand it.
+**Step 1 –** Click the step in the playbook to expand it.
 
-__Step 2 –__ Click Delete.
+**Step 2 –** Click Delete.
 
 The playbook step is deleted.

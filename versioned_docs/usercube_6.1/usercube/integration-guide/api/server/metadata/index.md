@@ -10,21 +10,21 @@ Returns all the bindings according to the provided query.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| squery | Query compliant to the API query grammar. | False |  |  |
-| Path | Represents the permission path. | False |  |  |
-| QueryRootEntityType | Defines the query root entity type. | False |  |  |
-| QueryBinding | Defines the query binding. | False |  |  |
-| PageSize | Page size. | False |  |  |
-| ContinuationToken | ContinuationToken returned by previous page request. | False |  |  |
-| api-version | The requested API version | True |  |  |
+| Name                | Description                                          | Required | Type | Reference |
+| ------------------- | ---------------------------------------------------- | -------- | ---- | --------- |
+| squery              | Query compliant to the API query grammar.            | False    |      |           |
+| Path                | Represents the permission path.                      | False    |      |           |
+| QueryRootEntityType | Defines the query root entity type.                  | False    |      |           |
+| QueryBinding        | Defines the query binding.                           | False    |      |           |
+| PageSize            | Page size.                                           | False    |      |           |
+| ContinuationToken   | ContinuationToken returned by previous page request. | False    |      |           |
+| api-version         | The requested API version                            | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The binding list. |  |
+| Code | Description       | Reference |
+| ---- | ----------------- | --------- |
+| 200  | The binding list. |           |
 
 #### Post
 
@@ -34,15 +34,15 @@ Creates a Binding.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| api-version | The requested API version | True |  |  |
+| Name        | Description               | Required | Type | Reference |
+| ----------- | ------------------------- | -------- | ---- | --------- |
+| api-version | The requested API version | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The result of the binding creation. |  |
+| Code | Description                         | Reference |
+| ---- | ----------------------------------- | --------- |
+| 200  | The result of the binding creation. |           |
 
 ### /api/Metadata/Binding/`{id}`
 
@@ -50,24 +50,25 @@ Creates a Binding.
 
 ##### Summary:
 
-Returns a binding corresponding to the provided identifier and its information according to the provided query.
+Returns a binding corresponding to the provided identifier and its information according to the
+provided query.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id | Identifier of the binding. | True |  |  |
-| squery | Query compliant to the API query grammar. | False |  |  |
-| Path | Represents the permission path. | False |  |  |
-| QueryRootEntityType | Defines the query root entity type. | False |  |  |
-| QueryBinding | Defines the query binding. | False |  |  |
-| api-version | The requested API version | True |  |  |
+| Name                | Description                               | Required | Type | Reference |
+| ------------------- | ----------------------------------------- | -------- | ---- | --------- |
+| id                  | Identifier of the binding.                | True     |      |           |
+| squery              | Query compliant to the API query grammar. | False    |      |           |
+| Path                | Represents the permission path.           | False    |      |           |
+| QueryRootEntityType | Defines the query root entity type.       | False    |      |           |
+| QueryBinding        | Defines the query binding.                | False    |      |           |
+| api-version         | The requested API version                 | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The binding. |  |
+| Code | Description  | Reference |
+| ---- | ------------ | --------- |
+| 200  | The binding. |           |
 
 #### Put
 
@@ -77,16 +78,16 @@ Updates a binding.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id | Identifier of the binding to update. | True |  |  |
-| api-version | The requested API version | True |  |  |
+| Name        | Description                          | Required | Type | Reference |
+| ----------- | ------------------------------------ | -------- | ---- | --------- |
+| id          | Identifier of the binding to update. | True     |      |           |
+| api-version | The requested API version            | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The result of the binding update. |  |
+| Code | Description                       | Reference |
+| ---- | --------------------------------- | --------- |
+| 200  | The result of the binding update. |           |
 
 #### Delete
 
@@ -96,16 +97,16 @@ Deletes a binding.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id | Identifier of the binding to delete. | True |  |  |
-| api-version | The requested API version | True |  |  |
+| Name        | Description                          | Required | Type | Reference |
+| ----------- | ------------------------------------ | -------- | ---- | --------- |
+| id          | Identifier of the binding to delete. | True     |      |           |
+| api-version | The requested API version            | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The result of the binding delete. |  |
+| Code | Description                       | Reference |
+| ---- | --------------------------------- | --------- |
+| 200  | The result of the binding delete. |           |
 
 ### /api/Metadata/BindingItem
 
@@ -117,21 +118,21 @@ Returns all the binding items according to the provided query.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| squery | Query compliant to the API query grammar. | False |  |  |
-| Path | Represents the permission path. | False |  |  |
-| QueryRootEntityType | Defines the query root entity type. | False |  |  |
-| QueryBinding | Defines the query binding. | False |  |  |
-| PageSize | Page size. | False |  |  |
-| ContinuationToken | ContinuationToken returned by previous page request. | False |  |  |
-| api-version | The requested API version | True |  |  |
+| Name                | Description                                          | Required | Type | Reference |
+| ------------------- | ---------------------------------------------------- | -------- | ---- | --------- |
+| squery              | Query compliant to the API query grammar.            | False    |      |           |
+| Path                | Represents the permission path.                      | False    |      |           |
+| QueryRootEntityType | Defines the query root entity type.                  | False    |      |           |
+| QueryBinding        | Defines the query binding.                           | False    |      |           |
+| PageSize            | Page size.                                           | False    |      |           |
+| ContinuationToken   | ContinuationToken returned by previous page request. | False    |      |           |
+| api-version         | The requested API version                            | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The binding item list. |  |
+| Code | Description            | Reference |
+| ---- | ---------------------- | --------- |
+| 200  | The binding item list. |           |
 
 ### /api/Metadata/BindingItem/`{id}`
 
@@ -139,24 +140,25 @@ Returns all the binding items according to the provided query.
 
 ##### Summary:
 
-Returns a binding item corresponding to the provided identifier and its information according to the provided query.
+Returns a binding item corresponding to the provided identifier and its information according to the
+provided query.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id | Identifier of the binding item. | True |  |  |
-| squery | Query compliant to the API query grammar. | False |  |  |
-| Path | Represents the permission path. | False |  |  |
-| QueryRootEntityType | Defines the query root entity type. | False |  |  |
-| QueryBinding | Defines the query binding. | False |  |  |
-| api-version | The requested API version | True |  |  |
+| Name                | Description                               | Required | Type | Reference |
+| ------------------- | ----------------------------------------- | -------- | ---- | --------- |
+| id                  | Identifier of the binding item.           | True     |      |           |
+| squery              | Query compliant to the API query grammar. | False    |      |           |
+| Path                | Represents the permission path.           | False    |      |           |
+| QueryRootEntityType | Defines the query root entity type.       | False    |      |           |
+| QueryBinding        | Defines the query binding.                | False    |      |           |
+| api-version         | The requested API version                 | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The binding item. |  |
+| Code | Description       | Reference |
+| ---- | ----------------- | --------- |
+| 200  | The binding item. |           |
 
 ### /api/Metadata/Dimension
 
@@ -168,21 +170,21 @@ Returns all the dimensions according to the provided query.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| squery | Query compliant to the API query grammar. | False |  |  |
-| Path | Represents the permission path. | False |  |  |
-| QueryRootEntityType | Defines the query root entity type. | False |  |  |
-| QueryBinding | Defines the query binding. | False |  |  |
-| PageSize | Page size. | False |  |  |
-| ContinuationToken | ContinuationToken returned by previous page request. | False |  |  |
-| api-version | The requested API version | True |  |  |
+| Name                | Description                                          | Required | Type | Reference |
+| ------------------- | ---------------------------------------------------- | -------- | ---- | --------- |
+| squery              | Query compliant to the API query grammar.            | False    |      |           |
+| Path                | Represents the permission path.                      | False    |      |           |
+| QueryRootEntityType | Defines the query root entity type.                  | False    |      |           |
+| QueryBinding        | Defines the query binding.                           | False    |      |           |
+| PageSize            | Page size.                                           | False    |      |           |
+| ContinuationToken   | ContinuationToken returned by previous page request. | False    |      |           |
+| api-version         | The requested API version                            | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The dimension list. |  |
+| Code | Description         | Reference |
+| ---- | ------------------- | --------- |
+| 200  | The dimension list. |           |
 
 #### Post
 
@@ -192,15 +194,15 @@ Creates a dimension.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| api-version | The requested API version | True |  |  |
+| Name        | Description               | Required | Type | Reference |
+| ----------- | ------------------------- | -------- | ---- | --------- |
+| api-version | The requested API version | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The result of the dimension creation. |  |
+| Code | Description                           | Reference |
+| ---- | ------------------------------------- | --------- |
+| 200  | The result of the dimension creation. |           |
 
 ### /api/Metadata/Dimension/`{id}`
 
@@ -208,24 +210,25 @@ Creates a dimension.
 
 ##### Summary:
 
-Returns a dimension corresponding to the provided identifier and its information according to the provided query.
+Returns a dimension corresponding to the provided identifier and its information according to the
+provided query.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id | Identifier of the dimension. | True |  |  |
-| squery | Query compliant to the API query grammar. | False |  |  |
-| Path | Represents the permission path. | False |  |  |
-| QueryRootEntityType | Defines the query root entity type. | False |  |  |
-| QueryBinding | Defines the query binding. | False |  |  |
-| api-version | The requested API version | True |  |  |
+| Name                | Description                               | Required | Type | Reference |
+| ------------------- | ----------------------------------------- | -------- | ---- | --------- |
+| id                  | Identifier of the dimension.              | True     |      |           |
+| squery              | Query compliant to the API query grammar. | False    |      |           |
+| Path                | Represents the permission path.           | False    |      |           |
+| QueryRootEntityType | Defines the query root entity type.       | False    |      |           |
+| QueryBinding        | Defines the query binding.                | False    |      |           |
+| api-version         | The requested API version                 | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The dimension. |  |
+| Code | Description    | Reference |
+| ---- | -------------- | --------- |
+| 200  | The dimension. |           |
 
 #### Put
 
@@ -235,16 +238,16 @@ Updates a dimension.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id | Identifier of the dimension to update. | True |  |  |
-| api-version | The requested API version | True |  |  |
+| Name        | Description                            | Required | Type | Reference |
+| ----------- | -------------------------------------- | -------- | ---- | --------- |
+| id          | Identifier of the dimension to update. | True     |      |           |
+| api-version | The requested API version              | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The result of the dimension update. |  |
+| Code | Description                         | Reference |
+| ---- | ----------------------------------- | --------- |
+| 200  | The result of the dimension update. |           |
 
 #### Delete
 
@@ -254,16 +257,16 @@ Deletes a dimension.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id | Identifier of the dimension to delete. | True |  |  |
-| api-version | The requested API version | True |  |  |
+| Name        | Description                            | Required | Type | Reference |
+| ----------- | -------------------------------------- | -------- | ---- | --------- |
+| id          | Identifier of the dimension to delete. | True     |      |           |
+| api-version | The requested API version              | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The result of the dimension delete. |  |
+| Code | Description                         | Reference |
+| ---- | ----------------------------------- | --------- |
+| 200  | The result of the dimension delete. |           |
 
 ### /api/Metadata/EntityAssociation
 
@@ -275,21 +278,21 @@ Returns all the entity associations according to the provided query.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| squery | Query compliant to the API query grammar. | False |  |  |
-| Path | Represents the permission path. | False |  |  |
-| QueryRootEntityType | Defines the query root entity type. | False |  |  |
-| QueryBinding | Defines the query binding. | False |  |  |
-| PageSize | Page size. | False |  |  |
-| ContinuationToken | ContinuationToken returned by previous page request. | False |  |  |
-| api-version | The requested API version | True |  |  |
+| Name                | Description                                          | Required | Type | Reference |
+| ------------------- | ---------------------------------------------------- | -------- | ---- | --------- |
+| squery              | Query compliant to the API query grammar.            | False    |      |           |
+| Path                | Represents the permission path.                      | False    |      |           |
+| QueryRootEntityType | Defines the query root entity type.                  | False    |      |           |
+| QueryBinding        | Defines the query binding.                           | False    |      |           |
+| PageSize            | Page size.                                           | False    |      |           |
+| ContinuationToken   | ContinuationToken returned by previous page request. | False    |      |           |
+| api-version         | The requested API version                            | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The entity association list. |  |
+| Code | Description                  | Reference |
+| ---- | ---------------------------- | --------- |
+| 200  | The entity association list. |           |
 
 #### Post
 
@@ -299,15 +302,15 @@ Creates a entity association.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| api-version | The requested API version | True |  |  |
+| Name        | Description               | Required | Type | Reference |
+| ----------- | ------------------------- | -------- | ---- | --------- |
+| api-version | The requested API version | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The result of the entity association creation. |  |
+| Code | Description                                    | Reference |
+| ---- | ---------------------------------------------- | --------- |
+| 200  | The result of the entity association creation. |           |
 
 ### /api/Metadata/EntityAssociation/`{id}`
 
@@ -315,24 +318,25 @@ Creates a entity association.
 
 ##### Summary:
 
-Returns a entity association corresponding to the provided identifier and its information according to the provided query.
+Returns a entity association corresponding to the provided identifier and its information according
+to the provided query.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id | Identifier of the entity association. | True |  |  |
-| squery | Query compliant to the API query grammar. | False |  |  |
-| Path | Represents the permission path. | False |  |  |
-| QueryRootEntityType | Defines the query root entity type. | False |  |  |
-| QueryBinding | Defines the query binding. | False |  |  |
-| api-version | The requested API version | True |  |  |
+| Name                | Description                               | Required | Type | Reference |
+| ------------------- | ----------------------------------------- | -------- | ---- | --------- |
+| id                  | Identifier of the entity association.     | True     |      |           |
+| squery              | Query compliant to the API query grammar. | False    |      |           |
+| Path                | Represents the permission path.           | False    |      |           |
+| QueryRootEntityType | Defines the query root entity type.       | False    |      |           |
+| QueryBinding        | Defines the query binding.                | False    |      |           |
+| api-version         | The requested API version                 | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The entity association. |  |
+| Code | Description             | Reference |
+| ---- | ----------------------- | --------- |
+| 200  | The entity association. |           |
 
 #### Put
 
@@ -342,16 +346,16 @@ Updates a entity association.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id | Identifier of the entity association to update. | True |  |  |
-| api-version | The requested API version | True |  |  |
+| Name        | Description                                     | Required | Type | Reference |
+| ----------- | ----------------------------------------------- | -------- | ---- | --------- |
+| id          | Identifier of the entity association to update. | True     |      |           |
+| api-version | The requested API version                       | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The result of the entity association update. |  |
+| Code | Description                                  | Reference |
+| ---- | -------------------------------------------- | --------- |
+| 200  | The result of the entity association update. |           |
 
 #### Delete
 
@@ -361,16 +365,16 @@ Deletes a entity association.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id | Identifier of the entity association to delete. | True |  |  |
-| api-version | The requested API version | True |  |  |
+| Name        | Description                                     | Required | Type | Reference |
+| ----------- | ----------------------------------------------- | -------- | ---- | --------- |
+| id          | Identifier of the entity association to delete. | True     |      |           |
+| api-version | The requested API version                       | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The result of the entity association delete. |  |
+| Code | Description                                  | Reference |
+| ---- | -------------------------------------------- | --------- |
+| 200  | The result of the entity association delete. |           |
 
 ### /api/Metadata/EntityProperty
 
@@ -382,21 +386,21 @@ Returns all the entity properties according to the provided query.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| squery | Query compliant to the API query grammar. | False |  |  |
-| Path | Represents the permission path. | False |  |  |
-| QueryRootEntityType | Defines the query root entity type. | False |  |  |
-| QueryBinding | Defines the query binding. | False |  |  |
-| PageSize | Page size. | False |  |  |
-| ContinuationToken | ContinuationToken returned by previous page request. | False |  |  |
-| api-version | The requested API version | True |  |  |
+| Name                | Description                                          | Required | Type | Reference |
+| ------------------- | ---------------------------------------------------- | -------- | ---- | --------- |
+| squery              | Query compliant to the API query grammar.            | False    |      |           |
+| Path                | Represents the permission path.                      | False    |      |           |
+| QueryRootEntityType | Defines the query root entity type.                  | False    |      |           |
+| QueryBinding        | Defines the query binding.                           | False    |      |           |
+| PageSize            | Page size.                                           | False    |      |           |
+| ContinuationToken   | ContinuationToken returned by previous page request. | False    |      |           |
+| api-version         | The requested API version                            | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The entity property list. |  |
+| Code | Description               | Reference |
+| ---- | ------------------------- | --------- |
+| 200  | The entity property list. |           |
 
 #### Post
 
@@ -406,15 +410,15 @@ Creates a entity property.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| api-version | The requested API version | True |  |  |
+| Name        | Description               | Required | Type | Reference |
+| ----------- | ------------------------- | -------- | ---- | --------- |
+| api-version | The requested API version | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The result of the entity property creation. |  |
+| Code | Description                                 | Reference |
+| ---- | ------------------------------------------- | --------- |
+| 200  | The result of the entity property creation. |           |
 
 ### /api/Metadata/EntityProperty/`{id}`
 
@@ -422,24 +426,25 @@ Creates a entity property.
 
 ##### Summary:
 
-Returns a entity property corresponding to the provided identifier and its information according to the provided query.
+Returns a entity property corresponding to the provided identifier and its information according to
+the provided query.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id | Identifier of the entity property. | True |  |  |
-| squery | Query compliant to the API query grammar. | False |  |  |
-| Path | Represents the permission path. | False |  |  |
-| QueryRootEntityType | Defines the query root entity type. | False |  |  |
-| QueryBinding | Defines the query binding. | False |  |  |
-| api-version | The requested API version | True |  |  |
+| Name                | Description                               | Required | Type | Reference |
+| ------------------- | ----------------------------------------- | -------- | ---- | --------- |
+| id                  | Identifier of the entity property.        | True     |      |           |
+| squery              | Query compliant to the API query grammar. | False    |      |           |
+| Path                | Represents the permission path.           | False    |      |           |
+| QueryRootEntityType | Defines the query root entity type.       | False    |      |           |
+| QueryBinding        | Defines the query binding.                | False    |      |           |
+| api-version         | The requested API version                 | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The entity property. |  |
+| Code | Description          | Reference |
+| ---- | -------------------- | --------- |
+| 200  | The entity property. |           |
 
 #### Put
 
@@ -449,16 +454,16 @@ Updates a entity property.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id | Identifier of the entity property to update. | True |  |  |
-| api-version | The requested API version | True |  |  |
+| Name        | Description                                  | Required | Type | Reference |
+| ----------- | -------------------------------------------- | -------- | ---- | --------- |
+| id          | Identifier of the entity property to update. | True     |      |           |
+| api-version | The requested API version                    | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The result of the entity property update. |  |
+| Code | Description                               | Reference |
+| ---- | ----------------------------------------- | --------- |
+| 200  | The result of the entity property update. |           |
 
 #### Delete
 
@@ -468,17 +473,17 @@ Deletes a entity property.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id | Identifier of the entity property to delete. | True |  |  |
-| force |  | False |  |  |
-| api-version | The requested API version | True |  |  |
+| Name        | Description                                  | Required | Type | Reference |
+| ----------- | -------------------------------------------- | -------- | ---- | --------- |
+| id          | Identifier of the entity property to delete. | True     |      |           |
+| force       |                                              | False    |      |           |
+| api-version | The requested API version                    | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The result of the entity property delete. |  |
+| Code | Description                               | Reference |
+| ---- | ----------------------------------------- | --------- |
+| 200  | The result of the entity property delete. |           |
 
 ### /api/Metadata/EntityType
 
@@ -490,21 +495,21 @@ Returns all the entity types according to the provided query.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| squery | Query compliant to the API query grammar. | False |  |  |
-| Path | Represents the permission path. | False |  |  |
-| QueryRootEntityType | Defines the query root entity type. | False |  |  |
-| QueryBinding | Defines the query binding. | False |  |  |
-| PageSize | Page size. | False |  |  |
-| ContinuationToken | ContinuationToken returned by previous page request. | False |  |  |
-| api-version | The requested API version | True |  |  |
+| Name                | Description                                          | Required | Type | Reference |
+| ------------------- | ---------------------------------------------------- | -------- | ---- | --------- |
+| squery              | Query compliant to the API query grammar.            | False    |      |           |
+| Path                | Represents the permission path.                      | False    |      |           |
+| QueryRootEntityType | Defines the query root entity type.                  | False    |      |           |
+| QueryBinding        | Defines the query binding.                           | False    |      |           |
+| PageSize            | Page size.                                           | False    |      |           |
+| ContinuationToken   | ContinuationToken returned by previous page request. | False    |      |           |
+| api-version         | The requested API version                            | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The entity type list. |  |
+| Code | Description           | Reference |
+| ---- | --------------------- | --------- |
+| 200  | The entity type list. |           |
 
 #### Post
 
@@ -514,15 +519,15 @@ Creates a entity type.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| api-version | The requested API version | True |  |  |
+| Name        | Description               | Required | Type | Reference |
+| ----------- | ------------------------- | -------- | ---- | --------- |
+| api-version | The requested API version | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The result of the entity type creation. |  |
+| Code | Description                             | Reference |
+| ---- | --------------------------------------- | --------- |
+| 200  | The result of the entity type creation. |           |
 
 ### /api/Metadata/EntityType/`{id}`
 
@@ -530,24 +535,25 @@ Creates a entity type.
 
 ##### Summary:
 
-Returns a entity type corresponding to the provided identifier and its information according to the provided query.
+Returns a entity type corresponding to the provided identifier and its information according to the
+provided query.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id | Identifier of the entity type. | True |  |  |
-| squery | Query compliant to the API query grammar. | False |  |  |
-| Path | Represents the permission path. | False |  |  |
-| QueryRootEntityType | Defines the query root entity type. | False |  |  |
-| QueryBinding | Defines the query binding. | False |  |  |
-| api-version | The requested API version | True |  |  |
+| Name                | Description                               | Required | Type | Reference |
+| ------------------- | ----------------------------------------- | -------- | ---- | --------- |
+| id                  | Identifier of the entity type.            | True     |      |           |
+| squery              | Query compliant to the API query grammar. | False    |      |           |
+| Path                | Represents the permission path.           | False    |      |           |
+| QueryRootEntityType | Defines the query root entity type.       | False    |      |           |
+| QueryBinding        | Defines the query binding.                | False    |      |           |
+| api-version         | The requested API version                 | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The entity type. |  |
+| Code | Description      | Reference |
+| ---- | ---------------- | --------- |
+| 200  | The entity type. |           |
 
 #### Put
 
@@ -557,16 +563,16 @@ Updates a entity type.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id | Identifier of the entity type to update. | True |  |  |
-| api-version | The requested API version | True |  |  |
+| Name        | Description                              | Required | Type | Reference |
+| ----------- | ---------------------------------------- | -------- | ---- | --------- |
+| id          | Identifier of the entity type to update. | True     |      |           |
+| api-version | The requested API version                | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The result of the entity type update. |  |
+| Code | Description                           | Reference |
+| ---- | ------------------------------------- | --------- |
+| 200  | The result of the entity type update. |           |
 
 #### Delete
 
@@ -576,17 +582,17 @@ Deletes a entity type.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id | Identifier of the entity type to delete. | True |  |  |
-| force |  | False |  |  |
-| api-version | The requested API version | True |  |  |
+| Name        | Description                              | Required | Type | Reference |
+| ----------- | ---------------------------------------- | -------- | ---- | --------- |
+| id          | Identifier of the entity type to delete. | True     |      |           |
+| force       |                                          | False    |      |           |
+| api-version | The requested API version                | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The result of the entity type delete. |  |
+| Code | Description                           | Reference |
+| ---- | ------------------------------------- | --------- |
+| 200  | The result of the entity type delete. |           |
 
 ### /api/Metadata/Language
 
@@ -598,15 +604,15 @@ Returns all the languages.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| api-version | The requested API version | True |  |  |
+| Name        | Description               | Required | Type | Reference |
+| ----------- | ------------------------- | -------- | ---- | --------- |
+| api-version | The requested API version | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The single role list. |  |
+| Code | Description           | Reference |
+| ---- | --------------------- | --------- |
+| 200  | The single role list. |           |
 
 ### /api/Metadata/Setting
 
@@ -618,21 +624,21 @@ Returns all the settings according to the provided query.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| squery | Query compliant to the API query grammar. | False |  |  |
-| Path | Represents the permission path. | False |  |  |
-| QueryRootEntityType | Defines the query root entity type. | False |  |  |
-| QueryBinding | Defines the query binding. | False |  |  |
-| PageSize | Page size. | False |  |  |
-| ContinuationToken | ContinuationToken returned by previous page request. | False |  |  |
-| api-version | The requested API version | True |  |  |
+| Name                | Description                                          | Required | Type | Reference |
+| ------------------- | ---------------------------------------------------- | -------- | ---- | --------- |
+| squery              | Query compliant to the API query grammar.            | False    |      |           |
+| Path                | Represents the permission path.                      | False    |      |           |
+| QueryRootEntityType | Defines the query root entity type.                  | False    |      |           |
+| QueryBinding        | Defines the query binding.                           | False    |      |           |
+| PageSize            | Page size.                                           | False    |      |           |
+| ContinuationToken   | ContinuationToken returned by previous page request. | False    |      |           |
+| api-version         | The requested API version                            | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The single role list. |  |
+| Code | Description           | Reference |
+| ---- | --------------------- | --------- |
+| 200  | The single role list. |           |
 
 #### Post
 
@@ -642,15 +648,15 @@ Creates a single role.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| api-version | The requested API version | True |  |  |
+| Name        | Description               | Required | Type | Reference |
+| ----------- | ------------------------- | -------- | ---- | --------- |
+| api-version | The requested API version | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The result of the single role creation. |  |
+| Code | Description                             | Reference |
+| ---- | --------------------------------------- | --------- |
+| 200  | The result of the single role creation. |           |
 
 ### /api/Metadata/Setting/`{id}`
 
@@ -658,24 +664,25 @@ Creates a single role.
 
 ##### Summary:
 
-Returns a setting corresponding to the provided identifier and its information according to the provided query.
+Returns a setting corresponding to the provided identifier and its information according to the
+provided query.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id | Identifier of the setting. | True |  |  |
-| squery | Query compliant to the API query grammar. | False |  |  |
-| Path | Represents the permission path. | False |  |  |
-| QueryRootEntityType | Defines the query root entity type. | False |  |  |
-| QueryBinding | Defines the query binding. | False |  |  |
-| api-version | The requested API version | True |  |  |
+| Name                | Description                               | Required | Type | Reference |
+| ------------------- | ----------------------------------------- | -------- | ---- | --------- |
+| id                  | Identifier of the setting.                | True     |      |           |
+| squery              | Query compliant to the API query grammar. | False    |      |           |
+| Path                | Represents the permission path.           | False    |      |           |
+| QueryRootEntityType | Defines the query root entity type.       | False    |      |           |
+| QueryBinding        | Defines the query binding.                | False    |      |           |
+| api-version         | The requested API version                 | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The single role. |  |
+| Code | Description      | Reference |
+| ---- | ---------------- | --------- |
+| 200  | The single role. |           |
 
 #### Put
 
@@ -685,16 +692,16 @@ Updates a setting.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id | Identifier of the setting to update. | True |  |  |
-| api-version | The requested API version | True |  |  |
+| Name        | Description                          | Required | Type | Reference |
+| ----------- | ------------------------------------ | -------- | ---- | --------- |
+| id          | Identifier of the setting to update. | True     |      |           |
+| api-version | The requested API version            | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The result of the setting update. |  |
+| Code | Description                       | Reference |
+| ---- | --------------------------------- | --------- |
+| 200  | The result of the setting update. |           |
 
 #### Delete
 
@@ -704,13 +711,13 @@ Deletes a setting.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id | Identifier of the setting to delete. | True |  |  |
-| api-version | The requested API version | True |  |  |
+| Name        | Description                          | Required | Type | Reference |
+| ----------- | ------------------------------------ | -------- | ---- | --------- |
+| id          | Identifier of the setting to delete. | True     |      |           |
+| api-version | The requested API version            | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The result of the setting delete. |  |
+| Code | Description                       | Reference |
+| ---- | --------------------------------- | --------- |
+| 200  | The result of the setting delete. |           |

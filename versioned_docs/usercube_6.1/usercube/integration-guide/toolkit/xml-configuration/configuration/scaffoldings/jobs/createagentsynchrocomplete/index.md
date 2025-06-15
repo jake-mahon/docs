@@ -2,7 +2,8 @@
 
 This Scaffolding generates a synchronization job (in complete mode) for all connectors.
 
-The tasks created in the Scaffoldings are sorted by level. The levels are visible via the tools: Usercube-Get-JobSteps.exe
+The tasks created in the Scaffoldings are sorted by level. The levels are visible via the tools:
+Usercube-Get-JobSteps.exe
 
 ## Examples
 
@@ -14,63 +15,65 @@ The tasks created in the Scaffoldings are sorted by level. The levels are visibl
 
 ## Properties
 
-| Property | Details |
-| --- | --- |
-| Agent   optional | __Type__    String   __Description__   For job scaffoldings, identifier of the agent on which the job to be generated will be launched. |
-| DisplayName_L1   optional | __Type__    String   __Description__   Display name of the scaffolding in language 1 (up to 16). |
-| JobIdentifier   optional | __Type__    String   __Description__   For job scaffoldings, identifier of the job to be generated. If not defined, the job identifier is calculated. |
-| OldAlgorithm   optional | __Type__    Boolean   __Description__   Internal use. |
+| Property                | Details                                                                                                                                        |
+| ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| Agent optional          | **Type** String **Description** For job scaffoldings, identifier of the agent on which the job to be generated will be launched.               |
+| DisplayName_L1 optional | **Type** String **Description** Display name of the scaffolding in language 1 (up to 16).                                                      |
+| JobIdentifier optional  | **Type** String **Description** For job scaffoldings, identifier of the job to be generated. If not defined, the job identifier is calculated. |
+| OldAlgorithm optional   | **Type** Boolean **Description** Internal use.                                                                                                 |
 
 ## Child Elements
 
 - [AddTask](#addtask) (optional) Add a task before or after another in the job
 - [CronTabExpression](#crontabexpression) (optional) Schedule the job
 - [DoNotCreateJob](#donotcreatejob) (optional) Create only the tasks without the job
-- [FulfillInternalWorkflowsPath](#fulfillinternalworkflowspath) (optional) Add the path of the json configuration for a connector with IsWorkflowProvisioning set to true
-- [LinkDependTask](#linkdependtask) (optional) Link a child Task with a parent to not launch the child if the parent has finish with state warning
+- [FulfillInternalWorkflowsPath](#fulfillinternalworkflowspath) (optional) Add the path of the json
+  configuration for a connector with IsWorkflowProvisioning set to true
+- [LinkDependTask](#linkdependtask) (optional) Link a child Task with a parent to not launch the
+  child if the parent has finish with state warning
 - [OpenIdIdentifier](#openididentifier) (optional) Add a Open Id to the job and the tasks
 
 ### AddTask
 
-| Property | Details |
-| --- | --- |
-| Task   required | __Type__    String   __Description__   Identifier of the task to add |
-| TaskToCompareWith   required | __Type__    String   __Description__   The identifier of the task before or after which the new task will be inserted |
-| After   default value: false | __Type__    Boolean   __Description__   For the Argument AddTask the property after define the place of the task to add with the TaskCompareWith. |
-| Before   default value: false | __Type__    Boolean   __Description__   For the Argument AddTask the property before define the place of the task to add with the TaskCompareWith. |
-| CopyOccurence   default value: 0 | __Type__    Int32   __Description__   For Argument AddTask, Specify the Occurence to copy and add the Task in a specify Job. |
-| Occurence   default value: 0 | __Type__    Int32   __Description__   Occurence of the TaskToCompare after or before which the task will be added |
+| Property                       | Details                                                                                                                                     |
+| ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| Task required                  | **Type** String **Description** Identifier of the task to add                                                                               |
+| TaskToCompareWith required     | **Type** String **Description** The identifier of the task before or after which the new task will be inserted                              |
+| After default value: false     | **Type** Boolean **Description** For the Argument AddTask the property after define the place of the task to add with the TaskCompareWith.  |
+| Before default value: false    | **Type** Boolean **Description** For the Argument AddTask the property before define the place of the task to add with the TaskCompareWith. |
+| CopyOccurence default value: 0 | **Type** Int32 **Description** For Argument AddTask, Specify the Occurence to copy and add the Task in a specify Job.                       |
+| Occurence default value: 0     | **Type** Int32 **Description** Occurence of the TaskToCompare after or before which the task will be added                                  |
 
 ### CronTabExpression
 
-| Property | Details |
-| --- | --- |
-| CronTab   required | __Type__    String   __Description__   Represents the argument value. |
-| CronTimeZone   optional | __Type__    CronTimeZone   __Description__   For Argument AddTask, Occurence of the TaskToCompare after or before which the task will be added. |
+| Property              | Details                                                                                                                                  |
+| --------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| CronTab required      | **Type** String **Description** Represents the argument value.                                                                           |
+| CronTimeZone optional | **Type** CronTimeZone **Description** For Argument AddTask, Occurence of the TaskToCompare after or before which the task will be added. |
 
 ### DoNotCreateJob
 
 ### FulfillInternalWorkflowsPath
 
-| Property | Details |
-| --- | --- |
-| ConnectorIdentifier   required | __Type__    String   __Description__   Identifier of the connector involved in the following arguments: ```NoConnectorSynchronization```; ```NoConnectorProvisioning```; ```NotUsed```; ```FulfillInternalWorkflowsPath```; ```PrincipalDataConnector```. |
-| Path   required | __Type__    String   __Description__   Represents the argument value. |
+| Property                     | Details                                                                                                                                                                                                                        |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ConnectorIdentifier required | **Type** String **Description** Identifier of the connector involved in the following arguments: `NoConnectorSynchronization`; `NoConnectorProvisioning`; `NotUsed`; `FulfillInternalWorkflowsPath`; `PrincipalDataConnector`. |
+| Path required                | **Type** String **Description** Represents the argument value.                                                                                                                                                                 |
 
 ### LinkDependTask
 
-| Property | Details |
-| --- | --- |
-| DependOn   required | __Type__    String   __Description__   identifier of parent Task |
-| Task   required | __Type__    String   __Description__   Identifier of child Task |
-| ChildOccurence   default value: 0 | __Type__    Int32   __Description__   search the occurence x to link with the parent. |
-| ParentOccurence   default value: 0 | __Type__    Int32   __Description__   Occurence of the parentTask which the task will be linked |
+| Property                         | Details                                                                                  |
+| -------------------------------- | ---------------------------------------------------------------------------------------- |
+| DependOn required                | **Type** String **Description** identifier of parent Task                                |
+| Task required                    | **Type** String **Description** Identifier of child Task                                 |
+| ChildOccurence default value: 0  | **Type** Int32 **Description** search the occurence x to link with the parent.           |
+| ParentOccurence default value: 0 | **Type** Int32 **Description** Occurence of the parentTask which the task will be linked |
 
 ### OpenIdIdentifier
 
-| Property | Details |
-| --- | --- |
-| Identifier   required | __Type__    String   __Description__   Identifier of the OpenId |
+| Property            | Details                                                  |
+| ------------------- | -------------------------------------------------------- |
+| Identifier required | **Type** String **Description** Identifier of the OpenId |
 
 ## Generated XML
 

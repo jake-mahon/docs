@@ -1,8 +1,10 @@
 # Logs APIs
 
-GroupID generates logs for its services, clients, and Windows events. Using the following APIs, you can collect and dump your required logs to a desired location.
+GroupID generates logs for its services, clients, and Windows events. Using the following APIs, you
+can collect and dump your required logs to a desired location.
 
-See the [Get Logs](/versioned_docs/groupid_11.0/groupid/admincenter/general/logs.md) topic for additional information on logs.
+See the [Get Logs](/versioned_docs/groupid_11.0/groupid/admincenter/general/logs.md) topic for
+additional information on logs.
 
 - [Admin Center Logs](/versioned_docs/groupid_11.0/groupid/api/logs/admincenter.md)
 - [Data Service Logs](/versioned_docs/groupid_11.0/groupid/api/logs/dataservice.md)

@@ -1,31 +1,36 @@
 # Group properties - Delivery Restrictions tab
 
-Use this tab to apply email restrictions to this group. You can manage the list of objects (users, contacts, groups) from whom this group can and cannot receive emails.
+Use this tab to apply email restrictions to this group. You can manage the list of objects (users,
+contacts, groups) from whom this group can and cannot receive emails.
 
-By default, no object is added to the __Accept from__ and __Reject from__ lists, which indicates that the group can receive emails from any object. However, when you specify an object in the __Accept from__ list,
-the group will receive emails from that object only.
+By default, no object is added to the **Accept from** and **Reject from** lists, which indicates
+that the group can receive emails from any object. However, when you specify an object in the
+**Accept from** list, the group will receive emails from that object only.
 
-__A scenario can be as:__
+**A scenario can be as:**
 
-If you want the group to receive emails from all except one member (Member A) of a group (Group A), add Group A to the Accept from list and then add Member A to the Reject from list.
+If you want the group to receive emails from all except one member (Member A) of a group (Group A),
+add Group A to the Accept from list and then add Member A to the Reject from list.
 
-__Accept from__
+**Accept from**
 
 Shows the objects that can send emails to the group.
 
-__Reject from__
+**Reject from**
 
 Shows the objects whose emails will not be delivered to the group.
 
-__Add__
+**Add**
 
-To add an object to a list, click __Add__ in the respective area. Enter a search string to locate the required object, or click __Advance__ to use the [Find Dialog Box](/versioned_docs/groupid_11.0/groupid/portal/search/find.md) for
-performing a search.
+To add an object to a list, click **Add** in the respective area. Enter a search string to locate
+the required object, or click **Advance** to use the
+[Find Dialog Box](/versioned_docs/groupid_11.0/groupid/portal/search/find.md) for performing a
+search.
 
-__Remove__
+**Remove**
 
-To remove an object from a list, select it and click __Remove__ in the respective area.
+To remove an object from a list, select it and click **Remove** in the respective area.
 
-__See Also__
+**See Also**
 
 - [Group Properties](/versioned_docs/groupid_11.0/groupid/portal/group/properties/overview.md)

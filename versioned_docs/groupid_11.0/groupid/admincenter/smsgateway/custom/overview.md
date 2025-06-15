@@ -17,19 +17,22 @@ To define a custom gateway, a list of ISMSGateway members that you must implemen
 - [ISmsGateway.Url](/versioned_docs/groupid_11.0/groupid/admincenter/smsgateway/custom/url.md)
 - [ISmsGateway.UserId](/versioned_docs/groupid_11.0/groupid/admincenter/smsgateway/custom/userid.md)
 
-- ShortMessage ([ShortMessage class](/versioned_docs/groupid_11.0/groupid/admincenter/smsgateway/custom/shortmessage/class.md))
+- ShortMessage
+  ([ShortMessage class](/versioned_docs/groupid_11.0/groupid/admincenter/smsgateway/custom/shortmessage/class.md))
 
-  - [ShortMessage.AccessCode](/versioned_docs/groupid_11.0/groupid/admincenter/smsgateway/custom/shortmessage/accesscode.md)
-  - [ShortMessage.MaxLength](/versioned_docs/groupid_11.0/groupid/admincenter/smsgateway/custom/shortmessage/maxlength.md)
-  - [ShortMessage.Message](/versioned_docs/groupid_11.0/groupid/admincenter/smsgateway/custom/shortmessage/message.md)
-  - [ShortMessage.PhoneNumbers](/versioned_docs/groupid_11.0/groupid/admincenter/smsgateway/custom/shortmessage/phonenumbers.md)
-  - [ShortMessage.ReferenceId](/versioned_docs/groupid_11.0/groupid/admincenter/smsgateway/custom/shortmessage/referenceid.md)
-  - [ShortMessage.Validate](/versioned_docs/groupid_11.0/groupid/admincenter/smsgateway/custom/shortmessage/validate.md)
-- SendSmsMessageResult ([SendSmsMessageResult class](/versioned_docs/groupid_11.0/groupid/admincenter/smsgateway/custom/sendsmsmessageresult/class.md))
-  - [SendSmsMessageResult.ExceptionMessage](/versioned_docs/groupid_11.0/groupid/admincenter/smsgateway/custom/sendsmsmessageresult/exceptionmessage.md)
-  - [SendSmsMessageResult.Message](/versioned_docs/groupid_11.0/groupid/admincenter/smsgateway/custom/sendsmsmessageresult/message.md)
-  - [SendSmsMessageResult.Success](/versioned_docs/groupid_11.0/groupid/admincenter/smsgateway/custom/sendsmsmessageresult/success.md)
+    - [ShortMessage.AccessCode](/versioned_docs/groupid_11.0/groupid/admincenter/smsgateway/custom/shortmessage/accesscode.md)
+    - [ShortMessage.MaxLength](/versioned_docs/groupid_11.0/groupid/admincenter/smsgateway/custom/shortmessage/maxlength.md)
+    - [ShortMessage.Message](/versioned_docs/groupid_11.0/groupid/admincenter/smsgateway/custom/shortmessage/message.md)
+    - [ShortMessage.PhoneNumbers](/versioned_docs/groupid_11.0/groupid/admincenter/smsgateway/custom/shortmessage/phonenumbers.md)
+    - [ShortMessage.ReferenceId](/versioned_docs/groupid_11.0/groupid/admincenter/smsgateway/custom/shortmessage/referenceid.md)
+    - [ShortMessage.Validate](/versioned_docs/groupid_11.0/groupid/admincenter/smsgateway/custom/shortmessage/validate.md)
 
-__See Also__
+- SendSmsMessageResult
+  ([SendSmsMessageResult class](/versioned_docs/groupid_11.0/groupid/admincenter/smsgateway/custom/sendsmsmessageresult/class.md))
+    - [SendSmsMessageResult.ExceptionMessage](/versioned_docs/groupid_11.0/groupid/admincenter/smsgateway/custom/sendsmsmessageresult/exceptionmessage.md)
+    - [SendSmsMessageResult.Message](/versioned_docs/groupid_11.0/groupid/admincenter/smsgateway/custom/sendsmsmessageresult/message.md)
+    - [SendSmsMessageResult.Success](/versioned_docs/groupid_11.0/groupid/admincenter/smsgateway/custom/sendsmsmessageresult/success.md)
+
+**See Also**
 
 - [Implement and Deploy a Custom SMS Gateway](/versioned_docs/groupid_11.0/groupid/admincenter/smsgateway/implementcustom.md)

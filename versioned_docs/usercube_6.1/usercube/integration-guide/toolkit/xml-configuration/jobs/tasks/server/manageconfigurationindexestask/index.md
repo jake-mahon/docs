@@ -1,6 +1,7 @@
 # ManageConfigurationIndexesTask
 
-Manage indexes for configuration items with the tool[Usercube-Manage-ConfigurationDependantIndexes](/versioned_docs/usercube_6.1/usercube/integration-guide/executables/references/manage-configurationdependantindexes/index.md).
+Manage indexes for configuration items with the
+tool[Usercube-Manage-ConfigurationDependantIndexes](/versioned_docs/usercube_6.1/usercube/integration-guide/executables/references/manage-configurationdependantindexes/index.md).
 
 ## Examples
 
@@ -10,7 +11,7 @@ Manage indexes for configuration items with the tool[Usercube-Manage-Configurati
 
 ## Properties
 
-| Property | Details |
-| --- | --- |
-| DisplayName_L1   required | __Type__    String   __Description__   Display name of the task in language 1 (up to 16). |
-| Identifier   optional | __Type__    String   __Description__   Unique identifier of the task. |
+| Property                | Details                                                                            |
+| ----------------------- | ---------------------------------------------------------------------------------- |
+| DisplayName_L1 required | **Type** String **Description** Display name of the task in language 1 (up to 16). |
+| Identifier optional     | **Type** String **Description** Unique identifier of the task.                     |

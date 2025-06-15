@@ -4,19 +4,21 @@ Splunk and SIEM Queries
 
 # Splunk and SIEM Queries
 
-The purpose of this document is to outline helpful queries from different SIEM's, Splunk being a main platform, in relation to the Privilege Secure application and any logs being forwarded.
+The purpose of this document is to outline helpful queries from different SIEM's, Splunk being a
+main platform, in relation to the Privilege Secure application and any logs being forwarded.
 
-__NOTE:__ For the "examples" provide the key fields/data have been show and all other information in the event has been excluded for condensed context of the log information.
+**NOTE:** For the "examples" provide the key fields/data have been show and all other information in
+the event has been excluded for condensed context of the log information.
 
 ## Splunk Queries
 
-```index = "remediant" "APL-Remediant_Endusers"| spath "req.url" | search "req.url"!="/api/login"```
-  
-```index = "remediant" "access - remove"```
+`index = "remediant" "APL-Remediant_Endusers"| spath "req.url" | search "req.url"!="/api/login"`
+
+`index = "remediant" "access - remove"`
 
 ## OAM Usage:
 
-```index="remediant" | search "Accessed most recent local account password"| table _time, _id, "user.username", target.admin.admin_account_``````name, target.system_name | timechart count by _id | rename "NULL" as "Passwords Accessed"```
+`index="remediant" | search "Accessed most recent local account password"| table _time, _id, "user.username", target.admin.admin_account_``````name, target.system_name | timechart count by _id | rename "NULL" as "Passwords Accessed"`
 
 ## Slow JITA access
 
@@ -25,23 +27,26 @@ index="remediant" "queue.request.activity\{\}.message"="Successfully added user:
 | eval completed_time = strptime(tostring('queue.processed') , "%Y-%m-%dT%H:%M:%S.%6N")  
 | eval diff = completed_time - start_time  
 | eval accessDate = strftime(start_time, "%Y-%m-%d")  
-| sort _time  
-| table accessDate, queue.request.type, queue.request.created, diff message queue.request.activity\{\}.message
+| sort \_time  
+| table accessDate, queue.request.type, queue.request.created, diff message
+queue.request.activity\{\}.message
 
 ## Time it takes for JITA access
 
-index="remediant" "request.request.type"=access "request.request.activity.message"="Successfully added user\*"  
-| eval start_time = strptime(tostring('request.request.created') , "%Y-%m-%dT%H:%M:%S.%6N")   
-| eval completed_time = strptime(tostring('request.processed') , "%Y-%m-%dT%H:%M:%S.%6N")   
-| eval diff = completed_time - start_time   
-| eval accessDate = strftime(start_time, "%Y-%m-%d")   
-| table accessDate, request.request.type, request.request.created, diff   
+index="remediant" "request.request.type"=access "request.request.activity.message"="Successfully
+added user\*"  
+| eval start_time = strptime(tostring('request.request.created') , "%Y-%m-%dT%H:%M:%S.%6N")  
+| eval completed_time = strptime(tostring('request.processed') , "%Y-%m-%dT%H:%M:%S.%6N")  
+| eval diff = completed_time - start_time  
+| eval accessDate = strftime(start_time, "%Y-%m-%d")  
+| table accessDate, request.request.type, request.request.created, diff  
 | chart avg(diff) as average by accessDate  
 | eval average = round(average,2)
 
 ## HOURLY (similar to above)
 
-index="remediant" "request.request.type"=access "request.request.activity.message"="Successfully added user\*"  
+index="remediant" "request.request.type"=access "request.request.activity.message"="Successfully
+added user\*"  
 | eval start_time = strptime(tostring('request.request.created') , "%Y-%m-%dT%H:%M:%S.%6N")  
 | eval completed_time = strptime(tostring('request.processed') , "%Y-%m-%dT%H:%M:%S.%6N")  
 | eval diff = completed_time - start_time  
@@ -51,52 +56,66 @@ index="remediant" "request.request.type"=access "request.request.activity.messag
 ## CHANGE SYSTEM POLICY
 
 - policy.scan — boolean, whether the system should be scanned
-  - index="remediant_stg" "message" "Updated policy for system"| spath "policy.scan" | search "policy.scan"=true
-  - index="remediant_stg" "message" "Updated policy for system"| spath "policy.scan" | search "policy.scan"=false
+
+    - index="remediant_stg" "message" "Updated policy for system"| spath "policy.scan" | search
+      "policy.scan"=true
+    - index="remediant_stg" "message" "Updated policy for system"| spath "policy.scan" | search
+      "policy.scan"=false
 
 - When Scan Mode is set to “Enabled” / “true”
 - When Scan Mode is set to “Disabled” / false
 
 - policy.secure — boolean, whether the system is in protect-mode
-  - index="remediant_stg" "message" "Updated policy for system"| spath "policy.secure" | search "policy.secure"=true
-  - index="remediant_stg" "message" "Updated policy for system"| spath "policy.secure" | search "policy.secure"=true
+
+    - index="remediant_stg" "message" "Updated policy for system"| spath "policy.secure" | search
+      "policy.secure"=true
+    - index="remediant_stg" "message" "Updated policy for system"| spath "policy.secure" | search
+      "policy.secure"=true
 
 - When Protect Mode is “Enabled” / True:
 - When Protect Mode is “Disabled” / false:
 
-- policy.strict_secure — boolean, if the system is in protect-mode, is true if SecureONE should exclude any newly discovered admins from the system inventory, false if the admin should be added to the inventory
-  - ```index="remediant_stg" "message":"Updated policy for system"| spath "policy.strict_secure" | search "policy.strict_secure"=true```
-  - index="remediant_stg" "message" "Updated policy for system"| spath "policy.strict_secure" | search "policy.strict_secure"=true
-  - ```index="remediant_stg" "message":"Updated policy for system"| spath "policy.strict_secure" | search "policy.strict_secure"=false```
-  - When Protect Mode is set to “New Accounts JITA” (true) and is being excluded:
+- policy.strict_secure — boolean, if the system is in protect-mode, is true if SecureONE should
+  exclude any newly discovered admins from the system inventory, false if the admin should be added
+  to the inventory
+
+    - `index="remediant_stg" "message":"Updated policy for system"| spath "policy.strict_secure" | search "policy.strict_secure"=true`
+    - index="remediant_stg" "message" "Updated policy for system"| spath "policy.strict_secure" |
+      search "policy.strict_secure"=true
+    - `index="remediant_stg" "message":"Updated policy for system"| spath "policy.strict_secure" | search "policy.strict_secure"=false`
+    - When Protect Mode is set to “New Accounts JITA” (true) and is being excluded:
 
 - ... (false) if the admin should be added to the inventory
 
 - system — string, hostname of the system affected by the policy change
-  - ```index="remediant_stg" "message":"Updated policy for system"| spath "targetSystem.cn" | search "targetSystem.cn"="*"```
+    - `index="remediant_stg" "message":"Updated policy for system"| spath "targetSystem.cn" | search "targetSystem.cn"="*"`
 - targetSystem — properties describing the system affected by the policy change
 
-- ```index="remediant_stg" "message":"Updated policy for system"| spath "targetSystem.cn" | search "targetSystem.cn"="*"```
+- `index="remediant_stg" "message":"Updated policy for system"| spath "targetSystem.cn" | search "targetSystem.cn"="*"`
 
 - user — properties describing the user who initiated the policy change
 
-- ```index="remediant_stg" "message":"Updated policy for system"| spath "user.distinguishedName" | search "user.distinguishedName"="*"```
+- `index="remediant_stg" "message":"Updated policy for system"| spath "user.distinguishedName" | search "user.distinguishedName"="*"`
 
-Base search for changes to system policy = index=```"remediant_stg" "message":"Updated policy for system“```
+Base search for changes to system policy =
+index=`"remediant_stg" "message":"Updated policy for system“`
 
 ## Authentication - LOGIN
 
 - authInfo[].success — boolean;
-  - __NOTE__ the syntax for this command shows the results using {} and not [] brackets
-  - index="remediant_stg" name=api "authInfo\{\}.success"=false
-  - index="remediant_stg" name=api "authInfo\{\}.success"=true message="Successful authentication by:\*“
+
+    - **NOTE** the syntax for this command shows the results using {} and not [] brackets
+    - index="remediant_stg" name=api "authInfo\{\}.success"=false
+    - index="remediant_stg" name=api "authInfo\{\}.success"=true message="Successful authentication
+      by:\*“
 
 - false — unsuccessful authentication
 - true — successful authentication
 
 - authInfo[].type — string; type of authentication; LDAP or SSO
-  - index="remediant_stg" name=api "authInfo\{\}.type"=saml\*
-  - index="remediant_stg" name=api "authInfo\{\}.type"=refreshToken\*
+
+    - index="remediant_stg" name=api "authInfo\{\}.type"=saml\*
+    - index="remediant_stg" name=api "authInfo\{\}.type"=refreshToken\*
 
 - SAML
 - SSO+2FA
@@ -108,16 +127,19 @@ Base search for login activity = index="remediant_stg"
 Upon successful login, a JWT token is issued and used to authenticate further requests.
 
 - authData.access.role — string, “user” or “admin”, role of the user who’s being issued a token
-  - index="remediant_stg" name=api "authData.access.role"=user
-  - index="remediant_stg" name=api "authData.access.role"=admin
+
+    - index="remediant_stg" name=api "authData.access.role"=user
+    - index="remediant_stg" name=api "authData.access.role"=admin
 
 - Updated as of 11.7.19
 - Updated as of 11.7.19
 
-NOTE: The below queries are set through the “admin” role. This can be updated to “user” by changing ```"authData.access.role"=admin to "authData.access.role"=user```
+NOTE: The below queries are set through the “admin” role. This can be updated to “user” by changing
+`"authData.access.role"=admin to "authData.access.role"=user`
 
 - authData.issuedAt — UTC timestamp, when this token was issued
-  - index="remediant_stg" name=api "authData.access.role"=admin "authData.issuedAt"="\*"
+
+    - index="remediant_stg" name=api "authData.access.role"=admin "authData.issuedAt"="\*"
 
 - Updated:
 
@@ -147,20 +169,27 @@ For token expiration, index="remediant_stg" name=api "access.type"=token message
 When a JITA session is successfully granted, the following log message is emitted:
 
 - request.request.start — UTC timestamp, when the JITA access was granted
-  - The message for this activity can be found with the below query
-  - index="remediant" name=api "request.request.activity.message"="Successfully added user: \*“
+
+    - The message for this activity can be found with the below query
+    - index="remediant" name=api "request.request.activity.message"="Successfully added user: \*“
 
 - index="remediant_stg" name=api "request.request.start"="\*"
 
-- request.request.expires — UTC timestamp, when the JITA access session is set to expire request.request.userInfo — properties describing the user who is granted access
+- request.request.expires — UTC timestamp, when the JITA access session is set to expire
+  request.request.userInfo — properties describing the user who is granted access
 
-- index="remediant_stg" name=api "request.request.expires"="\*"| spath "request.request.status" | search "request.request.status"=completed
+- index="remediant_stg" name=api "request.request.expires"="\*"| spath "request.request.status" |
+  search "request.request.status"=completed
 
-- request.requested_by_info — properties describing the user who requested the JITA session; should be the same as the request.request.userInfo
-  - index="remediant_stg" name=api "request.request.activity.message"="Successfully added user:_"| spath "request.requested_by_info.sAMAccountName" | search "request.requested_by_info.sAMAccountName"=_
+- request.requested_by_info — properties describing the user who requested the JITA session; should
+  be the same as the request.request.userInfo
+    - index="remediant*stg" name=api "request.request.activity.message"="Successfully added user:*"|
+      spath "request.requested*by_info.sAMAccountName" | search
+      "request.requested_by_info.sAMAccountName"=*
 - targetSystem — properties describing the system where the JITA access session was granted
 
-- index="remediant_stg" name=api "request.request.activity.message"="Successfully added user:_" | spath "request.system.cn"_ _| search "request.system.cn"=_
+- index="remediant*stg" name=api "request.request.activity.message"="Successfully added user:*" |
+  spath "request.system.cn"\_ _| search "request.system.cn"=_
 
 Example message log
 
@@ -169,7 +198,7 @@ Example message log
 ,\"request\":\{\"requested_by\":\"5c192e747d629e76ab4c0baa\",\"requested_by_info\  
 ":\{\"distinguishedName\":\"CN=Craig Harper,OU=Remediant,DC=demo,DC=remediant,DC=io\"  
 ,\"sAMAccountName\":\"craig\",\"domain_netbios\":\"DEMO\",\"domain_fqdn\":\  
-"demo.remediant.io\"\},\"__v\":0,\"processed\":\"2019-10-25T23:02:17.436Z\",\"stale\"  
+"demo.remediant.io\"\},\"\_\_v\":0,\"processed\":\"2019-10-25T23:02:17.436Z\",\"stale\"  
 :false,\"comment\":\"\",\"request\":\{\"user\":\"5c192e747d629e76ab4c0baa\",\  
 "userInfo\":\{\"distinguishedName\":\  
 "CN=Craig Harper,OU=Remediant,DC=demo,DC=remediant,DC=io\"\},\"inProgress\":false,\  
@@ -184,29 +213,36 @@ Example message log
 
 ## JITA ACCESS — EXPIRE
 
-- request.request.expires — UTC timestamp, when the JITA access session is set to expire; should be “now”
-  - index="remediant_stg" name=api "request.request.activity.message"="Successfully removed user:\*“
+- request.request.expires — UTC timestamp, when the JITA access session is set to expire; should be
+  “now”
+
+    - index="remediant_stg" name=api "request.request.activity.message"="Successfully removed
+      user:\*“
 
 - index="remediant_stg" name=api "request.request.expires"="\*"
 - A direct “message“ for this activity can be found with the below query
 
-- request.request.userInfo — properties describing the user who had been granted the access now set to expire
+- request.request.userInfo — properties describing the user who had been granted the access now set
+  to expire
 
 - index="remediant_stg" name=api "request.request.userInfo.distinguishedName"="\*"
 
-- request.requested_by_info — properties describing the user who requested the JITA session to expire; should be the same as the request.request.userInfo
+- request.requested_by_info — properties describing the user who requested the JITA session to
+  expire; should be the same as the request.request.userInfo
 
 - index="remediant_stg" name=api "request.requested_by"=\*
 
-- targetSystem — properties describing the system where the JITA access session is set to manually expire
+- targetSystem — properties describing the system where the JITA access session is set to manually
+  expire
 
-- index="remediant_stg" name=api "targetSystem._id"=\*
+- index="remediant_stg" name=api "targetSystem.\_id"=\*
 
 ## Access Error: STATUS_ACCESS_DENIED for a specific OU:
 
 Original Query
 
-index=”remediant" source=s1_worker\* "queue.system.cn"=\* "queue.request.activity\{\}.message"="Access Error: STATUS_ACCESS_DENIED -  
+index=”remediant" source=s1_worker\* "queue.system.cn"=\*
+"queue.request.activity\{\}.message"="Access Error: STATUS_ACCESS_DENIED -  
 \{Access Denied\} A process has requested access to an object but has not been  
 granted those access rights." | table  
 asctime,queue.request.activity\{\}.message,queue.requested_by_info.distinguishe  
@@ -220,40 +256,49 @@ ComputerDN LIKE "%,OU=`<>`%"
 
 ## API Status Codes
 
-Status codes and there meaning [https://restfulapi.net/http-status-codes/](https://restfulapi.net/http-status-codes/)  
-HTTP defines these standard status codes that can be used to convey the results of a client’s request. The status codes are divided into five categories.
+Status codes and there meaning
+[https://restfulapi.net/http-status-codes/](https://restfulapi.net/http-status-codes/)  
+HTTP defines these standard status codes that can be used to convey the results of a client’s
+request. The status codes are divided into five categories.
 
-- [1xx: Informational](https://restfulapi.net/http-status-codes/#1xx-informational) – Communicates transfer protocol-level information.
-- [2xx: Success](https://restfulapi.net/http-status-codes/#2xx-success) – Indicates that the client’s request was accepted successfully.
-- [3xx: Redirection](https://restfulapi.net/http-status-codes/#3xx-redirection) – Indicates that the client must take some additional action in order to complete their request.
-- [4xx: Client Error](https://restfulapi.net/http-status-codes/#4xx-client-error) – This category of error status codes points the finger at clients.
-- [5xx: Server Error](https://restfulapi.net/http-status-codes/#5xx-server-error) – The server takes responsibility for these error status codes.
+- [1xx: Informational](https://restfulapi.net/http-status-codes/#1xx-informational) – Communicates
+  transfer protocol-level information.
+- [2xx: Success](https://restfulapi.net/http-status-codes/#2xx-success) – Indicates that the
+  client’s request was accepted successfully.
+- [3xx: Redirection](https://restfulapi.net/http-status-codes/#3xx-redirection) – Indicates that the
+  client must take some additional action in order to complete their request.
+- [4xx: Client Error](https://restfulapi.net/http-status-codes/#4xx-client-error) – This category of
+  error status codes points the finger at clients.
+- [5xx: Server Error](https://restfulapi.net/http-status-codes/#5xx-server-error) – The server takes
+  responsibility for these error status codes.
 
-Running list of known returned HTTP status codes (200, 201, 202, 204, 301, 304, 400, 401, 403, 404, 405, 409, 410, 422, 500)  
-__Key log field:__ res.statusCode  
-__Log containing code:__ API  
-__Command line log search command:__
+Running list of known returned HTTP status codes (200, 201, 202, 204, 301, 304, 400, 401, 403, 404,
+405, 409, 410, 422, 500)  
+**Key log field:** res.statusCode  
+**Log containing code:** API  
+**Command line log search command:**
 
 ```
 s1 logs --tail 50 | grep -i "statusCode"
 ```
 
-- This command is to be used to view "live" log details via stdout (standard output) of the terminal from the Fluentd service events.
+- This command is to be used to view "live" log details via stdout (standard output) of the terminal
+  from the Fluentd service events.
 
-__Splunk Query:__
+**Splunk Query:**
 
 - Base (raw) query to show all  
-  ```index=<SECUREONE_INDEX> container_name="/s1_api*"```
+  `index=<SECUREONE_INDEX> container_name="/s1_api*"`
 - Tabular data to display count of distinct status codes (res.statusCode) field
 
-```index=<SECUREONE_INDEX> container_name="/s1_api*"```
-  
-```| table res.statusCode```
-  
-```| rename "res.statusCode" as Status_Code,"req.method" as API_Method,"req.url" as URL```
-  
-```| stats count(Status_Code) BY Status_Code```
-  
+`index=<SECUREONE_INDEX> container_name="/s1_api*"`
+
+`| table res.statusCode`
+
+`| rename "res.statusCode" as Status_Code,"req.method" as API_Method,"req.url" as URL`
+
+`| stats count(Status_Code) BY Status_Code`
+
 Example:
 
 ![blobid0.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/integrations/siem/360048705953_blobid0.png)
@@ -262,38 +307,38 @@ Example:
 
 ### Successful Login to PrivilegeSecure UI
 
-1. __Key string:__
+1. **Key string:**
 
-    ```message="Successful authentication by: *"```
+    `message="Successful authentication by: *"`
 
-2. __Command Line Use/Syntax:__
+2. **Command Line Use/Syntax:**
 
-    ```sudo docker service logs --raw --no-trunc --since 30s --tail 50 --follow=True s1_fluentd | awk '/Successful authentication by/,/time/'```
+    `sudo docker service logs --raw --no-trunc --since 30s --tail 50 --follow=True s1_fluentd | awk '/Successful authentication by/,/time/'`
 
-3. __Log Details Example:__
+3. **Log Details Example:**
 
 "message": "Successful authentication by: thadmin",  
 "access": \{  
 "type": "other",  
 "user": \{  
-"_id": "5e562a67dea345d0a59e74fb",  
+"\_id": "5e562a67dea345d0a59e74fb",  
 "domain_netbios": "CSTEST",  
 "objectSid": "S-1-5-21-4099641008-4128879968-2022382535-1118",  
 "sAMAccountName": "thadmin"
 
 ## Failed UI Login - Bad Username
 
-__UI Error____:__ User not found.
+**UI Error\_\_**:\_\_ User not found.
 
 ![blobid1.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/integrations/siem/360048705953_blobid0.png)
 
-1. __Key String:__  User not found
-2. __Command line use/syntax:__
+1. **Key String:** User not found
+2. **Command line use/syntax:**
 
-    ```sudo docker service logs --raw --no-trunc --since 30s --tail 50 --follow=True s1_fluentd | awk '/User not found/,/time/'```
+    `sudo docker service logs --raw --no-trunc --since 30s --tail 50 --follow=True s1_fluentd | awk '/User not found/,/time/'`
 
-3. __Log Detail Example:__
-   1. Fluentd
+3. **Log Detail Example:**
+    1. Fluentd
 
 "message": "User not found."  
 },  
@@ -302,13 +347,7 @@ __UI Error____:__ User not found.
 "client": \{  
 "requestIP": "::ffff:10.255.0.2",  
 "forwardedForIps": [  
-"authInfo": [  
-\{  
-"username": "bad_user",  
-"domain": "cstest",  
-"type": "username"  
-}  
-],  
+"authInfo": [ \{ "username": "bad_user", "domain": "cstest", "type": "username" } ],  
 "msg": "",  
 "time": "2020-03-05T17:06:13.412Z",  
 ...  
@@ -321,23 +360,23 @@ __UI Error____:__ User not found.
 
 ## Failed UI Login - Bad Password
 
-1. __UI Error____:__ Invalid username/password
+1. **UI Error\_\_**:\_\_ Invalid username/password
 
 ![blobid2.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/integrations/siem/360048705953_blobid2.png)
 
-1. __Key String:__ Password failed for
-2. __Command Line Use/Syntax:__
+1. **Key String:** Password failed for
+2. **Command Line Use/Syntax:**
 
-    ```sudo docker service logs --raw --no-trunc --since 30s --tail 50 --follow=True s1_fluentd | awk '/Password failed for/,/time/'```
+    `sudo docker service logs --raw --no-trunc --since 30s --tail 50 --follow=True s1_fluentd | awk '/Password failed for/,/time/'`
 
-3. __Log Details Example:__
-   1. Fluentd
+3. **Log Details Example:**
+    1. Fluentd
 
 "message": "Password failed for: thadmin",  
 "access": \{  
 "type": "other",  
 "user": \{  
-"_id": "5e562a67dea345d0a59e74fb",  
+"\_id": "5e562a67dea345d0a59e74fb",  
 "domain_netbios": "CSTEST",  
 "objectSid": "S-1-5-21-4099641008-4128879968-2022382535-1118",  
 "sAMAccountName": "thadmin"  
@@ -346,17 +385,17 @@ __UI Error____:__ User not found.
 
 ## Failed UI Login - Bad Token
 
-1. __UI Error____:__ Invalid token.
+1. **UI Error\_\_**:\_\_ Invalid token.
 
 ![blobid3.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/integrations/siem/360048705953_blobid3.png)
 
-1. __Key String____:__ Invalid token
-2. __Command Line Use/Syntax:__
+1. **Key String\_\_**:\_\_ Invalid token
+2. **Command Line Use/Syntax:**
 
-    ```sudo docker service logs --raw --no-trunc --since 30s --tail 50 --follow=True s1_fluentd | awk '/Invalid token/,/time/'```
+    `sudo docker service logs --raw --no-trunc --since 30s --tail 50 --follow=True s1_fluentd | awk '/Invalid token/,/time/'`
 
-3. __Log Details Example:__
-   1. Fluentd
+3. **Log Details Example:**
+    1. Fluentd
 
 "body": "\{\"message\":\"Invalid token.\"\}"  
 },  

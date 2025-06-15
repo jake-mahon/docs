@@ -5,9 +5,9 @@ The commandlet Get-UserEnrollment retrieves enrollment information of a user.
 ## Syntax
 
 ```
-Get-UserEnrollment  
--Identity <string>  
-[-EnrollmentTypes {None | Mobile | SecurityQuestions | Email | Authenticator | LinkAccount | Yubikey | WindowsHello | All | Any}]  
+Get-UserEnrollment
+-Identity <string>
+[-EnrollmentTypes {None | Mobile | SecurityQuestions | Email | Authenticator | LinkAccount | Yubikey | WindowsHello | All | Any}]
 [<CommonParameters>]
 ```
 

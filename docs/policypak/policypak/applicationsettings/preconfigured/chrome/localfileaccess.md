@@ -1,6 +1,7 @@
 # Chrome: How do I block Local File access to Google Chrome with Endpoint Policy Manager?
 
-Use the Netwrix Endpoint Policy Manager (formerly PolicyPak) Pak for Chrome. Then in the Extras, specify a URL to block as
+Use the Netwrix Endpoint Policy Manager (formerly PolicyPak) Pak for Chrome. Then in the Extras,
+specify a URL to block as
 
 three slashes after file like this.
 

@@ -1,10 +1,12 @@
 # Principal Attribute Changes Report
 
-The Principal Attribute Changes report at the domain level provides change event information by trustee on the selected domain during the specified date range.
+The Principal Attribute Changes report at the domain level provides change event information by
+trustee on the selected domain during the specified date range.
 
 ![Principal Attribute Changes report](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/activedirectory/domain/principalattributechanges.png)
 
-This table is blank if no changes occurred during the specified date range. This report is comprised of the following columns:
+This table is blank if no changes occurred during the specified date range. This report is comprised
+of the following columns:
 
 - Trustee Name – Owner of the trustee account
 - Trustee Account – Active Directory account associated with the trustee

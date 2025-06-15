@@ -1,21 +1,23 @@
 # Get-IdentityStoreRoles
 
-The commandlet __Get-IdentityStoreRoles__ retrieves information about the security roles associated with an identity store. The information includes role name, role priority, role criteria and role permissions.
+The commandlet **Get-IdentityStoreRoles** retrieves information about the security roles associated
+with an identity store. The information includes role name, role priority, role criteria and role
+permissions.
 
 ## Syntax
 
 ```
-Get-IdentityStoreRoles  
-[-IdentityStoreName] <String> [[-RoleName] <String>]  
-[[-Subset] <String>]  
-[-IdentityStoreId <Int32>]  
-[-SecurityToken <CustomClaimsPrincipal>]  
-[-Credential <PSCredential>]  
-[-WarningAction <ActionPreference>]  
-[-InformationAction <ActionPreference>]  
-[-WarningVariable <String>]  
-[-InformationVariable <String>]  
-[-PipelineVariable <String>]  
+Get-IdentityStoreRoles
+[-IdentityStoreName] <String> [[-RoleName] <String>]
+[[-Subset] <String>]
+[-IdentityStoreId <Int32>]
+[-SecurityToken <CustomClaimsPrincipal>]
+[-Credential <PSCredential>]
+[-WarningAction <ActionPreference>]
+[-InformationAction <ActionPreference>]
+[-WarningVariable <String>]
+[-InformationVariable <String>]
+[-PipelineVariable <String>]
 [<CommonParameters>]
 ```
 
@@ -41,7 +43,8 @@ Get-IdentityStoreRoles -IdentityStoreName adstore1
 
 Example 3:
 
-This example retrieves information about two security roles – customrole1 and customrole2 – in AdStore1 identity store through the pipeline operator.
+This example retrieves information about two security roles – customrole1 and customrole2 – in
+AdStore1 identity store through the pipeline operator.
 
 ```
 'customrole1', 'customrole2' | Get-IdentityStoreRoles -IdentityStoreName AdStore1

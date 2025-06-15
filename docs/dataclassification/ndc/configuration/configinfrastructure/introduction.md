@@ -1,6 +1,8 @@
 # Configure IT Infrastructure
 
-With NDC, you can crawl such sources, as GDrive, Microsoft Exchange, SharePoint, Dropbox, GSuite, Google Drive, Box, NFS File Share. The topics of this section shall guide you through configuration of infrastructure for crawling these sources.
+With NDC, you can crawl such sources, as GDrive, Microsoft Exchange, SharePoint, Dropbox, GSuite,
+Google Drive, Box, NFS File Share. The topics of this section shall guide you through configuration
+of infrastructure for crawling these sources.
 
 See the following topics for additional information:
 

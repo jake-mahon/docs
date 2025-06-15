@@ -1,6 +1,7 @@
 # RunJobAdministrationAccessControlRules
 
-Generates the rights to launch from UI jobs that are in state blocked after a Provisioning or a synchronization for a given profile.
+Generates the rights to launch from UI jobs that are in state blocked after a Provisioning or a
+synchronization for a given profile.
 
 ## Examples
 
@@ -12,9 +13,9 @@ Generates the rights to launch from UI jobs that are in state blocked after a Pr
 
 ## Properties
 
-| Property | Details |
-| --- | --- |
-| Profile   required | __Type__    String   __Description__   Identifier of the profile involved in the scaffolding. |
+| Property         | Details                                                                                |
+| ---------------- | -------------------------------------------------------------------------------------- |
+| Profile required | **Type** String **Description** Identifier of the profile involved in the scaffolding. |
 
 ## Generated XML
 

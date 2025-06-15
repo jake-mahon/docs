@@ -2,11 +2,17 @@
 
 Netwrix Password Policy Enforcer 11 can be installed for both domain and local user accounts.
 
-Domain user accounts exist in Active Directory. Information about these accounts is kept on the domain controllers, and changes to the accounts are replicated amongst the domain controllers.
+Domain user accounts exist in Active Directory. Information about these accounts is kept on the
+domain controllers, and changes to the accounts are replicated amongst the domain controllers.
 
-Local user accounts exist in the SAM database of workstations and servers. The workstations and servers may be standalone, or domain members. Information about these accounts is only kept on the host computer, and does not replicate to any other computers.
+Local user accounts exist in the SAM database of workstations and servers. The workstations and
+servers may be standalone, or domain members. Information about these accounts is only kept on the
+host computer, and does not replicate to any other computers.
 
-A typical Windows network has both domain and local user accounts, but you may not want to enforce Password Policy Enforcer password policies for both account types. If your users normally logon with a domain account, then you will most likely only use Password Policy Enforcer to enforce password policies for the domain accounts.
+A typical Windows network has both domain and local user accounts, but you may not want to enforce
+Password Policy Enforcer password policies for both account types. If your users normally logon with
+a domain account, then you will most likely only use Password Policy Enforcer to enforce password
+policies for the domain accounts.
 
 Password Policy/Web is installed on a Windows server and accessed via user browsers.
 
@@ -59,11 +65,13 @@ Here are the requirements for both the full and evaluation Password Policy Enfor
 
 ## Password Policy Enforcer Web
 
-Here are the requirements for the Password Policy Enforcer Web. Password Policy Enforcer Web can share server resources with other applications. It can be installed on an existing, well secured web server.
+Here are the requirements for the Password Policy Enforcer Web. Password Policy Enforcer Web can
+share server resources with other applications. It can be installed on an existing, well secured web
+server.
 
 - Windows Server Versions:
 
-  - 2016
-  - 2019
-  - 2022
-  - Microsoft IIS
+    - 2016
+    - 2019
+    - 2022
+    - Microsoft IIS

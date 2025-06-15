@@ -1,8 +1,12 @@
 # System Health Interface
 
-The System Health interface has one page, Services, that displays the services associated with the application server. See the [Reporting Module Installation](/versioned_docs/threatprevention_7.4/threatprevention/install/reportingmodule/overview.md) topic for a complete list of application services.
+The System Health interface has one page, Services, that displays the services associated with the
+application server. See the
+[Reporting Module Installation](/versioned_docs/threatprevention_7.4/threatprevention/install/reportingmodule/overview.md)
+topic for a complete list of application services.
 
-Use the gear icon in the upper right corner of the console to open the Configuration menu. Then select __System Health__ to open the System Health interface.
+Use the gear icon in the upper right corner of the console to open the Configuration menu. Then
+select **System Health** to open the System Health interface.
 
 ![System Health interface showing the Services page](/img/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/configuration/servicespage.png)
 
@@ -10,7 +14,8 @@ The table displays the following information:
 
 - Name – The name of the host where the service is running
 - Type – The type of service
-- Status – The icon indicates the status of the service. A green circle indicates the service is online. A red circle indicates the service is offline.
+- Status – The icon indicates the status of the service. A green circle indicates the service is
+  online. A red circle indicates the service is offline.
 
 ## Service Details Page
 

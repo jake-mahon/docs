@@ -13,25 +13,25 @@ GET
 #### Sample Response Syntax
 
 ```
-[  
-    {  
-        "identityStoreId": 2,  
-        "connectionString": "Data Source='SQL\\MSSQL';Initial Catalog=External;Password='password123';User ID='sa';Integrated Security=false;",  
-        "commandString": "SELECT * FROM []",  
-        "columnNames": [  
-            "EmployeeID",  
-            "FirstName",  
-            "LastName",  
-            "DepartmentID"  
-        ],  
-        "tableNames": [  
-            "[dbo].[Employee]",  
-            "[dbo].[Department]",  
-            "[dbo].[EmployeeDepartmentView]"  
-        ],  
-        "selectedTable": "[dbo].[Employee]",  
-        "name": "SQLView",  
-        "provideTypeName": "MSSQL"  
-    }  
+[
+    {
+        "identityStoreId": 2,
+        "connectionString": "Data Source='SQL\\MSSQL';Initial Catalog=External;Password='password123';User ID='sa';Integrated Security=false;",
+        "commandString": "SELECT * FROM []",
+        "columnNames": [
+            "EmployeeID",
+            "FirstName",
+            "LastName",
+            "DepartmentID"
+        ],
+        "tableNames": [
+            "[dbo].[Employee]",
+            "[dbo].[Department]",
+            "[dbo].[EmployeeDepartmentView]"
+        ],
+        "selectedTable": "[dbo].[Employee]",
+        "name": "SQLView",
+        "provideTypeName": "MSSQL"
+    }
 ]
 ```

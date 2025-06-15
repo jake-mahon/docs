@@ -1,6 +1,7 @@
 # ExchangeMetrics: Options
 
-The Options page provides additional configuration options for the query. Options vary depending on the category selected. It is a wizard page for the categories of:
+The Options page provides additional configuration options for the query. Options vary depending on
+the category selected. It is a wizard page for the categories of:
 
 - Server Volume
 - Internal Traffic Summary
@@ -21,29 +22,36 @@ The Options page provides additional configuration options for the query. Option
 
 Select the checkbox of any of the following options to configure the query:
 
-__NOTE:__ Available options vary depending on Category selected.
+**NOTE:** Available options vary depending on Category selected.
 
 - Host-side Cleanup
 
-  - Remove applet after task is completed
-  - Remove all summary data after task is completed (Not recommended)
-  - Remove summary data older than [number] days
-  - Remove AD database after task is completed
+    - Remove applet after task is completed
+    - Remove all summary data after task is completed (Not recommended)
+    - Remove summary data older than [number] days
+    - Remove AD database after task is completed
+
 - Applet Logging
 
-  - Enable Logging – Enables the applet to log
-  - Applet log level – Select the desired log level using the dropdown list:
+    - Enable Logging – Enables the applet to log
+    - Applet log level – Select the desired log level using the dropdown list:
 
-    - None
-    - Debug
-    - Information
-    - Warning
-    - Error
-  - Set Default – Returns the Applet log level to the default of __Error__
+        - None
+        - Debug
+        - Information
+        - Warning
+        - Error
+
+    - Set Default – Returns the Applet log level to the default of **Error**
+
 - Applet History
 
-  - Enable Persistent Log State – Search the log from where the previous search left off. A state file is created for each host configured in the query. State files can be viewed within Access Analyzer and are named by the query GUID. State files display the record the previous search left off on, the event log, and the date of the last entry.
+    - Enable Persistent Log State – Search the log from where the previous search left off. A state
+      file is created for each host configured in the query. State files can be viewed within Access
+      Analyzer and are named by the query GUID. State files display the record the previous search
+      left off on, the event log, and the date of the last entry.
+
 - AD Database Creation
 
-  - Recreate AD DB if existing DB is older than [number] days
-  - Create AD DB locally
+    - Recreate AD DB if existing DB is older than [number] days
+    - Create AD DB locally

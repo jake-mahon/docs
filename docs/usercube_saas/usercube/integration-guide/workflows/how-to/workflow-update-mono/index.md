@@ -1,19 +1,18 @@
 # For Resource Update (Mono Record)
 
-This section guides you through the procedure for the creation of a workflow to schedule the replacement of the unique record of an existing resource with a new one.
+This section guides you through the procedure for the creation of a workflow to schedule the
+replacement of the unique record of an existing resource with a new one.
 
 ## Declare a Workflow
 
-This [
-Workflow
-](../../../toolkit/xml-configuration/workflows/workflow/index.md) is made of two activities:
+This [ Workflow ](../../../toolkit/xml-configuration/workflows/workflow/index.md) is made of two
+activities:
 
-1. ```Action With Refine```: sends the resource's record update request with a possibility of delegation.
-2. ```Persist```: saves the collected data and triggers provisioning.
+1. `Action With Refine`: sends the resource's record update request with a possibility of
+   delegation.
+2. `Persist`: saves the collected data and triggers provisioning.
 
-See the [
-Activity Templates
-](../../activity-templates/index.md) topic for additional information.
+See the [ Activity Templates ](../../activity-templates/index.md) topic for additional information.
 
 The example below creates a workflow to update only the user's name.
 
@@ -27,7 +26,9 @@ For now, our workflow works with an immediate validation and an immediate effect
 
 ## Create Forms
 
-The XML configuration below represents the creation of a [Form](../../../toolkit/xml-configuration/user-interface/form/index.md) that defines the elements to display in the workflow.
+The XML configuration below represents the creation of a
+[Form](../../../toolkit/xml-configuration/user-interface/form/index.md) that defines the elements to
+display in the workflow.
 
 Here we just have the full name field to update the corresponding attributes for a given user:
 
@@ -39,7 +40,10 @@ Here we just have the full name field to update the corresponding attributes for
 
 ## Link the Forms to the Workflow
 
-After creating a workflow with given activities, it is necessary to create the form to be displayed when launching the workflow. It has the type corresponding to a (unique) record's replacement, i.e. ```WorkflowAddAndEndRecordEntityForm``` and it must specify the workflow's context (the entity type of the involved resources, the main property, the activity when the form is called, etc):
+After creating a workflow with given activities, it is necessary to create the form to be displayed
+when launching the workflow. It has the type corresponding to a (unique) record's replacement, i.e.
+`WorkflowAddAndEndRecordEntityForm` and it must specify the workflow's context (the entity type of
+the involved resources, the main property, the activity when the form is called, etc):
 
 ```
 
@@ -47,9 +51,9 @@ After creating a workflow with given activities, it is necessary to create the f
 
 ```
 
-A ```WorkflowAddAndEndRecordEntityForm``` requires the following child elements:
+A `WorkflowAddAndEndRecordEntityForm` requires the following child elements:
 
-- ```MainControl``` that defines user's data;
+- `MainControl` that defines user's data;
 
 ```
 
@@ -59,9 +63,10 @@ A ```WorkflowAddAndEndRecordEntityForm``` requires the following child elements:
 
 ```
 
-The ```MainControl``` attribute is here an empty container, because it is a mandatory attribute that is not involved in the changes of this workflow.
+The `MainControl` attribute is here an empty container, because it is a mandatory attribute that is
+not involved in the changes of this workflow.
 
-- ```RecordControl``` that defines record data, and call the form created previously.
+- `RecordControl` that defines record data, and call the form created previously.
 
 ```
 
@@ -73,16 +78,16 @@ The ```MainControl``` attribute is here an empty container, because it is a mand
 
 ![UI Form](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/workflows/how-to/workflow-update-mono/howto_resourceupdatemono_form_v603.webp)
 
-```End of transition``` sets the date for the change of records scheduled by this form.
+`End of transition` sets the date for the change of records scheduled by this form.
 
 ## Assign the Right Permissions
 
-Some profiles must get specific permissions so that the workflow is visible and usable by the right users.
-Read about [
-Workflow
-](../../../toolkit/xml-configuration/workflows/workflow/index.md)s permissions.
+Some profiles must get specific permissions so that the workflow is visible and usable by the right
+users. Read about [ Workflow ](../../../toolkit/xml-configuration/workflows/workflow/index.md)s
+permissions.
 
-Below is an example of an access control rule where the ```Administrator``` profile gets the permissions for the whole update request from the previously created workflow:
+Below is an example of an access control rule where the `Administrator` profile gets the permissions
+for the whole update request from the previously created workflow:
 
 ```
 
@@ -92,15 +97,16 @@ Below is an example of an access control rule where the ```Administrator``` prof
 
 ## Create Menu Items in the UI
 
-[
-Menu Item
-](../../../toolkit/xml-configuration/user-interface/menuitem/index.md) must be defined to make the workflow accessible in the UI.
+[ Menu Item ](../../../toolkit/xml-configuration/user-interface/menuitem/index.md) must be defined
+to make the workflow accessible in the UI.
 
-Updating an existing resource, this workflow manages one given resource at a time. Hence an interesting location for this workflow could be the individual view page of users.
+Updating an existing resource, this workflow manages one given resource at a time. Hence an
+interesting location for this workflow could be the individual view page of users.
 
 ![Workflow Menu Items - User's Page](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/workflows/how-to/workflow-update-mono/menuitems_userview_v603.webp)
 
-To create a menu item here for the new workflow, you can add the following XML configuration to the existing menu items list:
+To create a menu item here for the new workflow, you can add the following XML configuration to the
+existing menu items list:
 
 ```
 
@@ -116,12 +122,15 @@ For each workflow, it is possible to add aspects according to the workflow's pur
 
 ## Homonym Detection (Optional)
 
-To perform a homonymy check on a workflow and thus prevent user duplicates, see the [
-Configure a Homonym Detection
-](../configure-homonym-test/index.md) topic for additional information.
+To perform a homonymy check on a workflow and thus prevent user duplicates, see the
+[ Configure a Homonym Detection ](../configure-homonym-test/index.md) topic for additional
+information.
 
-When using records, the homonym detection displays the list of records and not just the list of users.
+When using records, the homonym detection displays the list of records and not just the list of
+users.
 
 ## Customize the Display Table (Optional)
 
-To configure a display table different from the default one provided by Identity Manager, see the [Customize Display Tables](../../../ui/how-tos/custom-display-table/index.md) topic for additional information.
+To configure a display table different from the default one provided by Identity Manager, see the
+[Customize Display Tables](../../../ui/how-tos/custom-display-table/index.md) topic for additional
+information.

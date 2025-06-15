@@ -1,11 +1,21 @@
 # Exporting Policies and Collections
 
-The [MDM & UEM Tools](../mdm/overview.md) topics explain how to use the Endpoint Policy Manager Exporter to wrap up any Endpoint Policy Manager directives and deliver them using Microsoft Endpoint Manager (SCCM and Intune), KACE, your own MDM service, or Endpoint Policy Manager Cloud. To export a policy for later use using Endpoint Policy Manager Exporter or Endpoint Policy Manager Cloud, right-click the collection or the policy and select __Export to XML__. This will enable you to save an XML file, which you can use later.
+The [MDM & UEM Tools](../mdm/overview.md) topics explain how to use the Endpoint Policy Manager
+Exporter to wrap up any Endpoint Policy Manager directives and deliver them using Microsoft Endpoint
+Manager (SCCM and Intune), KACE, your own MDM service, or Endpoint Policy Manager Cloud. To export a
+policy for later use using Endpoint Policy Manager Exporter or Endpoint Policy Manager Cloud,
+right-click the collection or the policy and select **Export to XML**. This will enable you to save
+an XML file, which you can use later.
 
-__NOTE:__ For more information on how to use Endpoint Policy Manager Least Privilege Manager and Endpoint Policy Manager Cloud, please see the [Use Endpoint Policy Manager Cloud to deploy PP Least Privilege Manager rules](../video/leastprivilege/cloudrules.md) and the [Using Least Privilege Manager with your MDM service](../video/leastprivilege/mdm.md) videos,
+**NOTE:** For more information on how to use Endpoint Policy Manager Least Privilege Manager and
+Endpoint Policy Manager Cloud, please see the
+[Use Endpoint Policy Manager Cloud to deploy PP Least Privilege Manager rules](../video/leastprivilege/cloudrules.md)
+and the [Using Least Privilege Manager with your MDM service](../video/leastprivilege/mdm.md)
+videos,
 
 ![A screenshot of a computer
 
-Description automatically generated](../../../../static/img/product_docs/policypak/policypak/leastprivilege/exporting_policies_and_collections.webp)
+Description automatically
+generated](../../../../static/img/product_docs/policypak/policypak/leastprivilege/exporting_policies_and_collections.webp)
 
-__NOTE:__ Exported collections or policies maintain any Item-Level Targeting set within them.
+**NOTE:** Exported collections or policies maintain any Item-Level Targeting set within them.

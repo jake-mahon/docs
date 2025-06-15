@@ -1,6 +1,7 @@
 # SQL: Settings
 
-The Settings page configures the removal of data from the Access Analyzer database for specific instances. It is a wizard page for the category of Utilities.
+The Settings page configures the removal of data from the Access Analyzer database for specific
+instances. It is a wizard page for the category of Utilities.
 
 ![SQL Data Collector Wizard Data removal settings Page](../../../../../../static/img/product_docs/activitymonitor/config/dellpowerscale/settings.webp)
 

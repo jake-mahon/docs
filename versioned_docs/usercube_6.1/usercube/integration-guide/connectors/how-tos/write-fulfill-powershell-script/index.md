@@ -1,12 +1,13 @@
 # Write a PowerShell Script for Provisioning
 
-This guide shows how to write a PowerShell script used by the [PowerShellProv connector](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/powershellprov/index.md).
+This guide shows how to write a PowerShell script used by the
+[PowerShellProv connector](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/powershellprov/index.md).
 
 ## Structure of a PowerShell Script
 
 The goal of the script is to append, for each provisioning order, a line in a CSV file.
 
-Let's consider the following ```ResourceType```:
+Let's consider the following `ResourceType`:
 
 ```
 
@@ -41,12 +42,16 @@ param(
 
 ```
 
-- ```resultsFilePath``` is the agent-side path of the result file containing the summary of the executed and errored orders.
-- ```ordersPath``` is the agent-side folder path containing the JSON provisioning orders.
+- `resultsFilePath` is the agent-side path of the result file containing the summary of the executed
+  and errored orders.
+- `ordersPath` is the agent-side folder path containing the JSON provisioning orders.
 
-It is important for these settings to be defined at the top of the script and keep these names because they are filled by the ```Fulfill-PowerShell``` connector.
+It is important for these settings to be defined at the top of the script and keep these names
+because they are filled by the `Fulfill-PowerShell` connector.
 
-The ```Fulfill-CSV.ps1``` script must be placed in the script folder of Usercube containing the ```Environment.ps1``` script. Thanks to this, environment variables (such as ```$runtimePath```) are loaded and can be used in the script:
+The `Fulfill-CSV.ps1` script must be placed in the script folder of Usercube containing the
+`Environment.ps1` script. Thanks to this, environment variables (such as `$runtimePath`) are loaded
+and can be used in the script:
 
 ```
 
@@ -70,7 +75,8 @@ function Fulfill-CSV {
 
 ```
 
-The previous parameter ```$order``` is an object corresponding to the following provisioning order (JSON):
+The previous parameter `$order` is an object corresponding to the following provisioning order
+(JSON):
 
 ```
 
@@ -116,9 +122,11 @@ There can be more sections and attributes.
 
 #### Define mandatory parameters
 
-The ```ChangeType``` parameter (```Added```, ```Deleted``` or ```Modified```) is always mandatory and must be checked.
+The `ChangeType` parameter (`Added`, `Deleted` or `Modified`) is always mandatory and must be
+checked.
 
-Depending on the function requirements, other parameters should be checked. For example, the function below always needs an identifier to work properly, therefore you should check its presence.
+Depending on the function requirements, other parameters should be checked. For example, the
+function below always needs an identifier to work properly, therefore you should check its presence.
 
 ```
 
@@ -146,7 +154,7 @@ Depending on the function requirements, other parameters should be checked. For 
 This is the last part of the function:
 
 - Parameters from the provisioning order are stored in variables.
-- A specific treatment is applied if ```ChangeType``` is ```Added```, ```Deleted``` or ```Modified```.
+- A specific treatment is applied if `ChangeType` is `Added`, `Deleted` or `Modified`.
 
 ```
 
@@ -175,17 +183,21 @@ This is the last part of the function:
 
 The three methods to log in Usercube are:
 
-- __Write-Host__: writes Information in the log.
-- __Throw__: raises an exception (which stops the script), and writes the Error in the log (the provisioning order will be errored too).
-- __Write-Error__: writes Error in the log (the provisioning order will be errored too). It is not recommended because the script continues its execution.
+- **Write-Host**: writes Information in the log.
+- **Throw**: raises an exception (which stops the script), and writes the Error in the log (the
+  provisioning order will be errored too).
+- **Write-Error**: writes Error in the log (the provisioning order will be errored too). It is not
+  recommended because the script continues its execution.
 
 Now that the function has been defined, the main code of the script can be written.
 
 ### Write the main code of the script
 
-#### Read the ```options``` parameter from the standard input
+#### Read the `options` parameter from the standard input
 
-The [```options``` parameter](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/powershellprov/index.md) isn't mandatory in the JSON file. If it isn't provided, don't perform this step.
+The
+[`options` parameter](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/powershellprov/index.md)
+isn't mandatory in the JSON file. If it isn't provided, don't perform this step.
 
 ```
 
@@ -198,7 +210,8 @@ $options.Message # -> Hello
 
 #### Rest of the main script
 
-In general, this part contains the code to connect to the external system and executes the ```Usercube-Visit-Orders``` script.
+In general, this part contains the code to connect to the external system and executes the
+`Usercube-Visit-Orders` script.
 
 ```
 
@@ -219,7 +232,7 @@ if ($powershellResults.Length -gt 0){
 
 ```
 
-Never modify ```Usercube-Visit-Orders.ps1```.
+Never modify `Usercube-Visit-Orders.ps1`.
 
 ## Synthesis
 

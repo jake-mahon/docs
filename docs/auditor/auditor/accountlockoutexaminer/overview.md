@@ -2,7 +2,9 @@
 
 ## Overview
 
-__Netwrix Account Lockout Examiner__ helps IT administrators to discover why an Active Directory account keeps locking out, so they can quickly identify the lockout reason and restore normal operations.
+**Netwrix Account Lockout Examiner** helps IT administrators to discover why an Active Directory
+account keeps locking out, so they can quickly identify the lockout reason and restore normal
+operations.
 
 You can investigate lockouts originating from the following sources:
 
@@ -17,36 +19,46 @@ You can investigate lockouts originating from the following sources:
 
 ## Upgrade recommendations
 
-Since the functionality of older and newer versions does not match one-to-one (see Feature comparison of Netwrix Account Lockout Examiner 4.1 and 5.x), there is no upgrade path for __Netwrix Account Lockout Examiner 4.1__.
+Since the functionality of older and newer versions does not match one-to-one (see Feature
+comparison of Netwrix Account Lockout Examiner 4.1 and 5.x), there is no upgrade path for **Netwrix
+Account Lockout Examiner 4.1**.
 
-Though its users can continue working with that older version, we recommend to use the latest Netwrix Account Lockout Examiner to benefit from the variety of its new features and enhanced usability.
+Though its users can continue working with that older version, we recommend to use the latest
+Netwrix Account Lockout Examiner to benefit from the variety of its new features and enhanced
+usability.
 
 ## Feature comparison of Netwrix Account Lockout Examiner 4.1 and 5.x
 
-Netwrix Account Lockout Examiner 5.1 and later is not an evolutionary update, but rather a total revamp of version 4.1. Hence, the functionality of the older and newer versions does not match one-to-one. Feature comparison is provided in the table below.
+Netwrix Account Lockout Examiner 5.1 and later is not an evolutionary update, but rather a total
+revamp of version 4.1. Hence, the functionality of the older and newer versions does not match
+one-to-one. Feature comparison is provided in the table below.
 
-| Feature | Version 4.1 | Version 5.x |
-| --- | --- | --- |
-| __Network/domain configuration__ |  |  |
-| Support for multi-domain (Root-Child) configurations | No | Yes |
-| __Lockout sources__ |  |  |
-| Applications running on workstations | No | Yes |
-| Microsoft Exchange ActiveSync devices | No | Yes |
-| Microsoft Outlook Web Access (incl. mobile devices) | No | Yes |
-| Mistyped credentials (interactive logons with incorrect password) | Yes | Yes |
-| Terminal Server Sessions | Yes | Yes |
-| Windows Credential Manager | No | Yes |
-| Windows Task Scheduler | Yes | Yes |
-| Windows Services | Yes | Yes |
-| __User experience__ |  |  |
-| Easy to install | - | Yes |
-| Ease of troubleshooting | - | Yes |
-| __Workflow__ |  |  |
-| Ability to unlock account & reset password | Yes | No |
-| Web-based helpdesk portal | Yes (paid version only) | No |
-| Email alerts | Yes | No – check [Netwrix Auditor](https://www.netwrix.com/auditor.html) for monitoring and alerting capabilities |
-| Online monitor on critical account status | Yes | No – check [Netwrix Auditor](https://www.netwrix.com/auditor.html) for monitoring and alerting capabilities |
+| Feature                                                           | Version 4.1             | Version 5.x                                                                                                 |
+| ----------------------------------------------------------------- | ----------------------- | ----------------------------------------------------------------------------------------------------------- |
+| **Network/domain configuration**                                  |                         |                                                                                                             |
+| Support for multi-domain (Root-Child) configurations              | No                      | Yes                                                                                                         |
+| **Lockout sources**                                               |                         |                                                                                                             |
+| Applications running on workstations                              | No                      | Yes                                                                                                         |
+| Microsoft Exchange ActiveSync devices                             | No                      | Yes                                                                                                         |
+| Microsoft Outlook Web Access (incl. mobile devices)               | No                      | Yes                                                                                                         |
+| Mistyped credentials (interactive logons with incorrect password) | Yes                     | Yes                                                                                                         |
+| Terminal Server Sessions                                          | Yes                     | Yes                                                                                                         |
+| Windows Credential Manager                                        | No                      | Yes                                                                                                         |
+| Windows Task Scheduler                                            | Yes                     | Yes                                                                                                         |
+| Windows Services                                                  | Yes                     | Yes                                                                                                         |
+| **User experience**                                               |                         |                                                                                                             |
+| Easy to install                                                   | -                       | Yes                                                                                                         |
+| Ease of troubleshooting                                           | -                       | Yes                                                                                                         |
+| **Workflow**                                                      |                         |                                                                                                             |
+| Ability to unlock account & reset password                        | Yes                     | No                                                                                                          |
+| Web-based helpdesk portal                                         | Yes (paid version only) | No                                                                                                          |
+| Email alerts                                                      | Yes                     | No – check [Netwrix Auditor](https://www.netwrix.com/auditor.html) for monitoring and alerting capabilities |
+| Online monitor on critical account status                         | Yes                     | No – check [Netwrix Auditor](https://www.netwrix.com/auditor.html) for monitoring and alerting capabilities |
 
-Users of Account Lockout Examiner 4.1 can continue using that older version, as there is no upgrade path, just a new installation of the latest version.
+Users of Account Lockout Examiner 4.1 can continue using that older version, as there is no upgrade
+path, just a new installation of the latest version.
 
-We welcome any feedback and ideas you might have. You can check in on [Netwrix page at Spiceworks](https://community.spiceworks.com/pages/NetWrix?tab=353) or submit direct feedback via [this link](https://community.spiceworks.com/products/47099-netwrix-account-lockout-examiner).
+We welcome any feedback and ideas you might have. You can check in on
+[Netwrix page at Spiceworks](https://community.spiceworks.com/pages/NetWrix?tab=353) or submit
+direct feedback via
+[this link](https://community.spiceworks.com/products/47099-netwrix-account-lockout-examiner).

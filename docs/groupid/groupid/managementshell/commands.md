@@ -1,6 +1,7 @@
 # All Commands
 
-You can get a list of all Directory Manager Management Shell cmdlets using the _Get-ImanamiCommand_ cmdlet.
+You can get a list of all Directory Manager Management Shell cmdlets using the _Get-ImanamiCommand_
+cmdlet.
 
 ## Contact Cmdlets
 

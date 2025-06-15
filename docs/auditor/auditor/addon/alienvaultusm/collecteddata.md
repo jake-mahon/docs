@@ -1,10 +1,12 @@
 # Work with Collected Data
 
-__Step 1 –__ On the computer where you executed the add-on, navigate to __Start__ > __All Programs__ > __Event Viewer__.
+**Step 1 –** On the computer where you executed the add-on, navigate to **Start** > **All
+Programs** > **Event Viewer**.
 
-__Step 2 –__ In the Event Viewer dialog, navigate to __Event Viewer (local)__ > __Applications and Services Logs__ >Netwrix Auditor Integration log.
+**Step 2 –** In the Event Viewer dialog, navigate to **Event Viewer (local)** > **Applications and
+Services Logs** >Netwrix Auditor Integration log.
 
-__Step 3 –__ Review events.
+**Step 3 –** Review events.
 
 ![EventLog_Export_Example](../../../../../static/img/product_docs/auditor/auditor/addon/solarwinds/eventlogexportexample_thumb_0_0.webp)
 

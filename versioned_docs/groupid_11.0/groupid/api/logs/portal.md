@@ -1,6 +1,8 @@
 # Portal Logs
 
-Use this API to get GroupID portal logs. See the [History](/versioned_docs/groupid_11.0/groupid/portal/history/overview.md) topic for additional information on Portal history.
+Use this API to get GroupID portal logs. See the
+[History](/versioned_docs/groupid_11.0/groupid/portal/history/overview.md) topic for additional
+information on Portal history.
 
 ## Endpoint
 

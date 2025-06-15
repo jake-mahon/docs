@@ -1,35 +1,47 @@
 # EasyVista Ticket
 
-This connector opens tickets in [EasyVista](https://wiki.easyvista.com/xwiki/bin/view/Documentation/?language=en) for manual provisioning.
+This connector opens tickets in
+[EasyVista](https://wiki.easyvista.com/xwiki/bin/view/Documentation/?language=en) for manual
+provisioning.
 
-This page is about [Ticket/EasyVista](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/easyvistaticket/index.md).
+This page is about
+[Ticket/EasyVista](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/easyvistaticket/index.md).
 
 ![Package: Ticket/EasyVista](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/easyvistaticket/packages_easyvistaticket_v603.png)
 
 ## Overview
 
-EasyVista is an IT Service Manager that provides a service to organize IT resources in a company by using tickets. This allows users to manage projects, materials and teams through a customizable interface.
+EasyVista is an IT Service Manager that provides a service to organize IT resources in a company by
+using tickets. This allows users to manage projects, materials and teams through a customizable
+interface.
 
-This connector focuses on the creation of EasyVista tickets for editing manually EasyVista resources.
+This connector focuses on the creation of EasyVista tickets for editing manually EasyVista
+resources.
 
 ## Prerequisites
 
 Implementing this connector requires:
 
-- reading first the [appsettings documentation](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md);
+- reading first the
+  [appsettings documentation](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md);
 - an EasyVista account with reading/writing permissions on the target instance.
 
 ## Export
 
-This connector exports some of EasyVista entities, [see the export capabilities of the EasyVista connector](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/easyvista/index.md). Some entities cannot be exported.
+This connector exports some of EasyVista entities,
+[see the export capabilities of the EasyVista connector](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/easyvista/index.md).
+Some entities cannot be exported.
 
 ## Fulfill
 
-This connector writes to EasyVista to create incident and request tickets containing information to create, update or delete a resource. It does not create a resource directly.
+This connector writes to EasyVista to create incident and request tickets containing information to
+create, update or delete a resource. It does not create a resource directly.
 
 Once created, the ticket is managed in EasyVista, not in Usercube.
 
-When the ticket is closed or canceled, Usercube updates the [provisioning state](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/assignments-of-entitlements/index.md) of the resource accordingly.
+When the ticket is closed or canceled, Usercube updates the
+[provisioning state](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/assignments-of-entitlements/index.md)
+of the resource accordingly.
 
 [See the fulfill capabilities of the EasyVista connector](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/easyvista/index.md).
 
@@ -56,7 +68,12 @@ When the ticket is closed or canceled, Usercube updates the [provisioning state]
 
 Data protection can be ensured through:
 
-- [RSA encryption](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md), configured in the ```appsettings.encrypted.agent.json``` file;
-- an [Azure Key Vault](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md) safe;
+- [RSA encryption](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md),
+  configured in the `appsettings.encrypted.agent.json` file;
+- an
+  [Azure Key Vault](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md)
+  safe;
 
-- a [CyberArk Vault](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md) able to store EasyVista's ```Login```, ```Password```, ```Account``` and ```Server```.
+- a
+  [CyberArk Vault](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)
+  able to store EasyVista's `Login`, `Password`, `Account` and `Server`.

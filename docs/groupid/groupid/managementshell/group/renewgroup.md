@@ -2,16 +2,17 @@
 
 The Renew-Group re-activates an expired group.
 
-You can view events related to this commandlet in Directory Manager portal, against the History node in the left panel.
+You can view events related to this commandlet in Directory Manager portal, against the History node
+in the left panel.
 
 ## Syntax
 
 ```
-Renew-Group  
--Identity <string[]>  
-[-IdentityStoreId <int>]  
-[-SecurityToken <CustomClaimsPrincipal>]  
-[-Credential <pscredential>]  
+Renew-Group
+-Identity <string[]>
+[-IdentityStoreId <int>]
+[-SecurityToken <CustomClaimsPrincipal>]
+[-Credential <pscredential>]
 [<CommonParameters>]
 ```
 

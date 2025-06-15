@@ -1,16 +1,19 @@
 # Usercube-Agent
 
-This tool runs the Agent on a seperate server instance. The Agent is able to communicate with the [Usercube-Server](/versioned_docs/usercube_6.1/usercube/integration-guide/executables/references/server/index.md).
+This tool runs the Agent on a seperate server instance. The Agent is able to communicate with the
+[Usercube-Server](/versioned_docs/usercube_6.1/usercube/integration-guide/executables/references/server/index.md).
 
 ## Examples
 
-With a properly configured environment, the following command runs the agent. It listens on two different ports:
+With a properly configured environment, the following command runs the agent. It listens on two
+different ports:
 
 ```
 ./Usercube-Agent.exe --urls "http://localhost:6001;http://localhost:6002"
 ```
 
-When the Agent starts, the following log should be displayed (if the log level is set to _Information_):
+When the Agent starts, the following log should be displayed (if the log level is set to
+_Information_):
 
 ```
 [xx:xx:xx INF] Now listening on: http://localhost:6001
@@ -20,6 +23,6 @@ When the Agent starts, the following log should be displayed (if the log level i
 
 ## Arguments
 
-| Argument Name | Details |
-| --- | --- |
-| --urls   required | __Type__    String   __Description__ URL(s) that the agent is listening to. |
+| Argument Name   | Details                                                                |
+| --------------- | ---------------------------------------------------------------------- |
+| --urls required | **Type** String **Description** URL(s) that the agent is listening to. |

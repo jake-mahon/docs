@@ -1,18 +1,24 @@
 # Permissions Tab
 
-Use the __Permissions__ tab to control which users can use Password Reset.
+Use the **Permissions** tab to control which users can use Password Reset.
 
 ![configuring_npr_9](/img/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/configuring_npr_9.png)
 
 ### Enroll
 
-Select the __Allow all users to enroll__ option if all users are permitted to enroll. Only enrolled users can reset passwords and unlock accounts.
+Select the **Allow all users to enroll** option if all users are permitted to enroll. Only enrolled
+users can reset passwords and unlock accounts.
 
-Select the __Allow only members of these groups to enroll__ option if users are permitted to enroll only if they belong to a specified group. Click __Add...__ to choose which groups are permitted to enroll.
+Select the **Allow only members of these groups to enroll** option if users are permitted to enroll
+only if they belong to a specified group. Click **Add...** to choose which groups are permitted to
+enroll.
 
-Select the __Allow all users except members of these groups to enroll__ option if users are permitted to enroll unless they belong to a specified group. Click __Add...__ to choose which groups are not permitted to enroll.
+Select the **Allow all users except members of these groups to enroll** option if users are
+permitted to enroll unless they belong to a specified group. Click **Add...** to choose which groups
+are not permitted to enroll.
 
-To remove a group from the list, select it and then click __Remove__. Enrolled users can continue to reset their passwords and unlock their accounts even if they are no longer allowed to enroll.
+To remove a group from the list, select it and then click **Remove**. Enrolled users can continue to
+reset their passwords and unlock their accounts even if they are no longer allowed to enroll.
 
 ### Change
 

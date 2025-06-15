@@ -1,6 +1,7 @@
 # Directory services
 
-It is possible to use existing user and group structures from external directories with Netwrix Password Secure.
+It is possible to use existing user and group structures from external directories with Netwrix
+Password Secure.
 
 Choose your preferred integration method:
 

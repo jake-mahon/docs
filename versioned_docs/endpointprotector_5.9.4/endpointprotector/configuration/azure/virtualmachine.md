@@ -2,34 +2,38 @@
 
 To start the Endpoint Protector Virtual Machine in Azure, follow these steps:
 
-__Step 1 –__ Go to the All resources page, select the newly created disks and then click Create VM
+**Step 1 –** Go to the All resources page, select the newly created disks and then click Create VM
 
 ![Creating the Virtual Machine ](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/configuration/azure/createvm.png)
 
-__Step 2 –__ To create the Virtual Machine, provide the following information:
+**Step 2 –** To create the Virtual Machine, provide the following information:
 
 - On the Basics tab, fill in the following:
 
-  - Subscription – select Pay-As-You-Go
-  - Resource group – select the group used when creating the disk
-  - Virtual Machine Name – enter a name for the Virtual Machine
-  - Size - select a virtual machine profile based closest to the recommended requirements for the disk file used
+    - Subscription – select Pay-As-You-Go
+    - Resource group – select the group used when creating the disk
+    - Virtual Machine Name – enter a name for the Virtual Machine
+    - Size - select a virtual machine profile based closest to the recommended requirements for the
+      disk file used
 
 ![Information tab for creating a new Virtual Machine. ](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/configuration/azure/newvm.png)
 
 - On the Networking tab, fill in the following:
 
-  - Public IP - click Create new and select Basic SKU and Static Assignment.
-  - Select inbound ports – add HTTP (80) and HTTPS (443)
+    - Public IP - click Create new and select Basic SKU and Static Assignment.
+    - Select inbound ports – add HTTP (80) and HTTPS (443)
 
-__Step 3 –__ Click Review + create and then Create.
+**Step 3 –** Click Review + create and then Create.
 
-__NOTE:__ For Additional Features, we recommend selecting HDD instead of SSD to avoid unnecessary payments for an unused SSD attached to the Virtual Machine.
+**NOTE:** For Additional Features, we recommend selecting HDD instead of SSD to avoid unnecessary
+payments for an unused SSD attached to the Virtual Machine.
 
 ![Information tab for creating a public IP](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/configuration/azure/publicip.png)
 
-__Step 4 –__ Once the deployment has finished, go to Virtual Machines on the right side and select the Endpoint Protector image.
+**Step 4 –** Once the deployment has finished, go to Virtual Machines on the right side and select
+the Endpoint Protector image.
 
 ![Connecting the IP to the Endpoint Protector Image](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/configuration/azure/connetctip.png)
 
-__Step 5 –__ Open a web browser and connect to the Public IP address assigned to the Endpoint Protector image.
+**Step 5 –** Open a web browser and connect to the Public IP address assigned to the Endpoint
+Protector image.

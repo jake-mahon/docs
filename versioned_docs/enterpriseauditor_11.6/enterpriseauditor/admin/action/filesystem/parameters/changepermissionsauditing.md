@@ -1,17 +1,19 @@
 # Change Permissions and Auditing
 
-Use the Change Permissions and Auditing Parameters page to specify the permissions and auditing settings the action changes.
+Use the Change Permissions and Auditing Parameters page to specify the permissions and auditing
+settings the action changes.
 
 ![File System Action Module Wizard Change Permissions and Auditing Parameters page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/filesystem/parameters/changepermissionsauditing.png)
 
 Use the following options to enter the Permissions:
 
-- Insert field – Use the drop-down list to select a field (column) from the source table, then click the blue arrow
+- Insert field – Use the drop-down list to select a field (column) from the source table, then click
+  the blue arrow
 - Group or user names:
 
-  - Click __Add__ to select a user or group object
-  - Click __Remove__ to remove a user or group object
-  - Dynamic – Uses the host id to retrieve the applicable permissions
+    - Click **Add** to select a user or group object
+    - Click **Remove** to remove a user or group object
+    - Dynamic – Uses the host id to retrieve the applicable permissions
 
 In the table, select from the following options:
 

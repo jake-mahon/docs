@@ -1,26 +1,29 @@
 # ServiceNow
 
-This connector exports and fulfills any data, including users and roles, from/to a [ServiceNow CMDB](https://www.servicenow.com/products/servicenow-platform/configuration-management-database.html).
+This connector exports and fulfills any data, including users and roles, from/to a
+[ServiceNow CMDB](https://www.servicenow.com/products/servicenow-platform/configuration-management-database.html).
 
-This page is about [
-ServiceNow
-](../../references-packages/servicenow/index.md).
+This page is about [ ServiceNow ](../../references-packages/servicenow/index.md).
 
 ![Package: ITSM/ServiceNow](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/servicenowentitymanagement/packages_servicenow_v603.webp)
 
 ## Overview
 
-ServiceNow is a cloud-based company that provides software as a service (SaaS) for technical management support. The company specializes in IT service management (ITSM), IT operations management (ITOM) and IT business management (ITBM), allowing users to manage projects, teams and customer interactions via a variety of apps and plugins.  
-This section focuses on ServiceNow Entity Management. To learn about how to use this connector to create tickets for other resources, see [
-ServiceNow Ticket
-](../../references-packages/servicenow-ticket/index.md).
+ServiceNow is a cloud-based company that provides software as a service (SaaS) for technical
+management support. The company specializes in IT service management (ITSM), IT operations
+management (ITOM) and IT business management (ITBM), allowing users to manage projects, teams and
+customer interactions via a variety of apps and plugins.  
+This section focuses on ServiceNow Entity Management. To learn about how to use this connector to
+create tickets for other resources, see
+[ ServiceNow Ticket ](../../references-packages/servicenow-ticket/index.md).
 
 ## Prerequisites
 
 Implementing this connector requires:
 
 - reading first the appsettings documentation;
-- a service account with the __snc_platform_rest_api_access__ role, as well as reading and writing permissions on the target ServiceNow instance;
+- a service account with the **snc_platform_rest_api_access** role, as well as reading and writing
+  permissions on the target ServiceNow instance;
 - the version ServiceNow London or later;
 - the appropriate configuration in ServiceNow of authentication, Basic or OAuth.
 
@@ -28,13 +31,14 @@ Implementing this connector requires:
 
 This connector exports to CSV files ServiceNow's tables (Users, Groups, Group Memberships).
 
-An incremental search is possible to retrieve added and updated records but a full delta (including deleted items) can't be performed.
+An incremental search is possible to retrieve added and updated records but a full delta (including
+deleted items) can't be performed.
 
 ### Configuration
 
-This process is configured through a [
-Connection
-](../../../toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or the XML configuration, and in the ```appsettings.agent.json > Connections``` section:
+This process is configured through a
+[ Connection ](../../../toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or
+the XML configuration, and in the `appsettings.agent.json > Connections` section:
 
 ```
 appsettings.agent.json
@@ -50,14 +54,14 @@ appsettings.agent.json
 ```
 
 The identifier of the connection and thus the name of the subsection must:
-  
-- be unique.
-  
-- not begin with a digit.
-  
-- not contain ```<```, ```>```, ```:```, ```"```, ```/```, ```\```, ```|```, ```?```, ```*``` and ```_```.
 
-> The following example retrieves from users only those that are active, and no filter is applied to the other tables. A single request can retrieve up to 5,000 entries, no more. This means that if there are 6,000 ```sys_user``` to retrieve, then all of them will be retrieved but with two requests.
+- be unique.
+- not begin with a digit.
+- not contain `<`, `>`, `:`, `"`, `/`, `\`, `|`, `?`, `*` and `_`.
+
+> The following example retrieves from users only those that are active, and no filter is applied to
+> the other tables. A single request can retrieve up to 5,000 entries, no more. This means that if
+> there are 6,000 `sys_user` to retrieve, then all of them will be retrieved but with two requests.
 >
 > ```
 > appsettings.agent.json
@@ -100,34 +104,37 @@ The identifier of the connection and thus the name of the subsection must:
 
 #### Setting attributes
 
-| Name | Details |
-| --- | --- |
-| Server   required | __Type__    String   __Description__ URL of the ServiceNow Server Table API endpoint. [See ServiceNow Official API Reference](https://developer.servicenow.com/dev.do#see-servicenow-official-api-reference).   __Info:__ the URL must start with ```https```. |
-| Login   required | __Type__    String   __Description__ Username of the service account used to connect to the server. |
-| Password   required | __Type__    String   __Description__ Password of the service account used to connect to the server. |
-| ClientId   optional | __Type__    String   __Description__ Client Id used (and required) with [OAuth](https://docs.servicenow.com/bundle/latest-platform-administration/page/administer/security/concept/c_OAuthApplications.html). |
-| ClientSecret   optional | __Type__    String   __Description__ Client Secret used (and required) with [OAuth](https://docs.servicenow.com/bundle/latest-platform-administration/page/administer/security/concept/c_OAuthApplications.html). |
-| OAuth2Url   optional | __Type__    String   __Description__ Application endpoint used (and required) with [OAuth](https://docs.servicenow.com/bundle/latest-platform-administration/page/administer/security/concept/c_OAuthApplications.html). |
-|  |  |
-| --- | --- |
-| Server   required | __Type__    String   __Description__ URL of the ServiceNow Server Table API endpoint. [See ServiceNow Official API Reference](https://developer.servicenow.com/dev.do#see-servicenow-official-api-reference).   __Info:__ the URL must start with ```https```. |
-| Login   required | __Type__    String   __Description__ Username of the service account used to connect to the server. |
-| Password   required | __Type__    String   __Description__ Password of the service account used to connect to the server. |
-| ClientId   optional | __Type__    String   __Description__ Client Id used (and required) with [OAuth](https://docs.servicenow.com/bundle/latest-platform-administration/page/administer/security/concept/c_OAuthApplications.html). |
-| ClientSecret   optional | __Type__    String   __Description__ Client Secret used (and required) with [OAuth](https://docs.servicenow.com/bundle/latest-platform-administration/page/administer/security/concept/c_OAuthApplications.html). |
-| OAuth2Url   optional | __Type__    String   __Description__ Application endpoint used (and required) with [OAuth](https://docs.servicenow.com/bundle/latest-platform-administration/page/administer/security/concept/c_OAuthApplications.html). |
+| Name                  | Details                                                                                                                                                                                                                                             |
+| --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Server required       | **Type** String **Description** URL of the ServiceNow Server Table API endpoint. [See ServiceNow Official API Reference](https://developer.servicenow.com/dev.do#see-servicenow-official-api-reference). **Info:** the URL must start with `https`. |
+| Login required        | **Type** String **Description** Username of the service account used to connect to the server.                                                                                                                                                      |
+| Password required     | **Type** String **Description** Password of the service account used to connect to the server.                                                                                                                                                      |
+| ClientId optional     | **Type** String **Description** Client Id used (and required) with [OAuth](https://docs.servicenow.com/bundle/latest-platform-administration/page/administer/security/concept/c_OAuthApplications.html).                                            |
+| ClientSecret optional | **Type** String **Description** Client Secret used (and required) with [OAuth](https://docs.servicenow.com/bundle/latest-platform-administration/page/administer/security/concept/c_OAuthApplications.html).                                        |
+| OAuth2Url optional    | **Type** String **Description** Application endpoint used (and required) with [OAuth](https://docs.servicenow.com/bundle/latest-platform-administration/page/administer/security/concept/c_OAuthApplications.html).                                 |
+|                       |                                                                                                                                                                                                                                                     |
+| ---                   | ---                                                                                                                                                                                                                                                 |
+| Server required       | **Type** String **Description** URL of the ServiceNow Server Table API endpoint. [See ServiceNow Official API Reference](https://developer.servicenow.com/dev.do#see-servicenow-official-api-reference). **Info:** the URL must start with `https`. |
+| Login required        | **Type** String **Description** Username of the service account used to connect to the server.                                                                                                                                                      |
+| Password required     | **Type** String **Description** Password of the service account used to connect to the server.                                                                                                                                                      |
+| ClientId optional     | **Type** String **Description** Client Id used (and required) with [OAuth](https://docs.servicenow.com/bundle/latest-platform-administration/page/administer/security/concept/c_OAuthApplications.html).                                            |
+| ClientSecret optional | **Type** String **Description** Client Secret used (and required) with [OAuth](https://docs.servicenow.com/bundle/latest-platform-administration/page/administer/security/concept/c_OAuthApplications.html).                                        |
+| OAuth2Url optional    | **Type** String **Description** Application endpoint used (and required) with [OAuth](https://docs.servicenow.com/bundle/latest-platform-administration/page/administer/security/concept/c_OAuthApplications.html).                                 |
 
 ### Output details
 
-This connector is meant to generate to the [Application Settings](../../../network-configuration/agent-configuration/appsettings/index.md)Export Output folder one CSV file for each table, named ```<connectionIdentifier>_<tableName>.csv```.
+This connector is meant to generate to the
+[Application Settings](../../../network-configuration/agent-configuration/appsettings/index.md)Export
+Output folder one CSV file for each table, named `<connectionIdentifier>_<tableName>.csv`.
 
-Identity Manager lists the tables to retrieve based on [
-Entity Type Mapping
-](../../../toolkit/xml-configuration/connectors/entitytypemapping/index.md)'s and [
-Entity Association Mapping
-](../../../toolkit/xml-configuration/connectors/entityassociationmapping/index.md)'s connection tables.
+Identity Manager lists the tables to retrieve based on
+[ Entity Type Mapping ](../../../toolkit/xml-configuration/connectors/entitytypemapping/index.md)'s
+and
+[ Entity Association Mapping ](../../../toolkit/xml-configuration/connectors/entityassociationmapping/index.md)'s
+connection tables.
 
-For the connector to work properly, the connection tables must follow the naming convention too: ```<connectionIdentifier>_<tableName>```.
+For the connector to work properly, the connection tables must follow the naming convention too:
+`<connectionIdentifier>_<tableName>`.
 
 > For example, with the following configuration:
 >
@@ -146,9 +153,8 @@ For the connector to work properly, the connection tables must follow the naming
 > ...
 >
 > ```
-> ServiceNowExportFulfillment_sys_group.csv
-> sys_id,name,description
-> ...
+>
+> ServiceNowExportFulfillment_sys_group.csv sys_id,name,description ...
 >
 > ```
 > ServiceNowExportFulfillment_sys_user_grmember.csv
@@ -204,50 +210,51 @@ Same as for export, fulfill is configured through connections.
 
 #### Setting attributes
 
-| Name | Details |
-| --- | --- |
-| Server   required | __Type__    String   __Description__ URL of the ServiceNow Server Table API endpoint. [See ServiceNow Official API Reference](https://developer.servicenow.com/dev.do#see-servicenow-official-api-reference).   __Info:__ the URL must start with ```https```. |
-| Login   required | __Type__    String   __Description__ Username of the service account used to connect to the server. |
-| Password   required | __Type__    String   __Description__ Password of the service account used to connect to the server. |
-| ClientId   optional | __Type__    String   __Description__ Client Id used (and required) with [OAuth](https://docs.servicenow.com/bundle/latest-platform-administration/page/administer/security/concept/c_OAuthApplications.html). |
-| ClientSecret   optional | __Type__    String   __Description__ Client Secret used (and required) with [OAuth](https://docs.servicenow.com/bundle/latest-platform-administration/page/administer/security/concept/c_OAuthApplications.html). |
-| OAuth2Url   optional | __Type__    String   __Description__ Application endpoint used (and required) with [OAuth](https://docs.servicenow.com/bundle/latest-platform-administration/page/administer/security/concept/c_OAuthApplications.html). |
+| Name                  | Details                                                                                                                                                                                                                                             |
+| --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Server required       | **Type** String **Description** URL of the ServiceNow Server Table API endpoint. [See ServiceNow Official API Reference](https://developer.servicenow.com/dev.do#see-servicenow-official-api-reference). **Info:** the URL must start with `https`. |
+| Login required        | **Type** String **Description** Username of the service account used to connect to the server.                                                                                                                                                      |
+| Password required     | **Type** String **Description** Password of the service account used to connect to the server.                                                                                                                                                      |
+| ClientId optional     | **Type** String **Description** Client Id used (and required) with [OAuth](https://docs.servicenow.com/bundle/latest-platform-administration/page/administer/security/concept/c_OAuthApplications.html).                                            |
+| ClientSecret optional | **Type** String **Description** Client Secret used (and required) with [OAuth](https://docs.servicenow.com/bundle/latest-platform-administration/page/administer/security/concept/c_OAuthApplications.html).                                        |
+| OAuth2Url optional    | **Type** String **Description** Application endpoint used (and required) with [OAuth](https://docs.servicenow.com/bundle/latest-platform-administration/page/administer/security/concept/c_OAuthApplications.html).                                 |
 
 ## Authentication
 
 ### Password reset
 
-See the [appsettings.agent](../../../network-configuration/agent-configuration/appsettings-agent/index.md) topic to learn more on how to configure password reset settings.
+See the
+[appsettings.agent](../../../network-configuration/agent-configuration/appsettings-agent/index.md)
+topic to learn more on how to configure password reset settings.
 
-When setting a password for an ServiceNow user, the password attribute is defined by the password specified in the corresponding [Resource Type Mappings](../../../toolkit/xml-configuration/connectors/resourcetypemappings/index.md).
+When setting a password for an ServiceNow user, the password attribute is defined by the password
+specified in the corresponding
+[Resource Type Mappings](../../../toolkit/xml-configuration/connectors/resourcetypemappings/index.md).
 
 ### Credentials protection
 
 Data protection can be ensured through:
 
-- [
-  Connection
-  ](../../../toolkit/xml-configuration/connectors/connection/index.md), configured in the ```appsettings.encrypted.agent.json``` file;
-- An [
-  Connection
-  ](../../../toolkit/xml-configuration/connectors/connection/index.md) safe;
+- [ Connection ](../../../toolkit/xml-configuration/connectors/connection/index.md), configured in
+  the `appsettings.encrypted.agent.json` file;
+- An [ Connection ](../../../toolkit/xml-configuration/connectors/connection/index.md) safe;
 
-| Attribute | Naming Convention for the Key in Azure Key Vault |
-| --- | --- |
-| Server | ```Connections--<identifier>--Server``` |
-| Login | ```Connections--<identifier>--Login``` |
-| Password | ```Connections--<identifier>--Password``` |
-| ClientId | ```Connections--<identifier>--ClientId``` |
-| ClientSecret | ```Connections--<identifier>--ClientSecret``` |
-| OAuth2Url | ```Connections--<identifier>--OAuth2Url``` |
-| Filter | ```Connections--<identifier>--Filter``` |
-| ResponseSizeLimit | ```Connections--<identifier>--ResponseSizeLimit``` |
+| Attribute         | Naming Convention for the Key in Azure Key Vault |
+| ----------------- | ------------------------------------------------ |
+| Server            | `Connections--<identifier>--Server`              |
+| Login             | `Connections--<identifier>--Login`               |
+| Password          | `Connections--<identifier>--Password`            |
+| ClientId          | `Connections--<identifier>--ClientId`            |
+| ClientSecret      | `Connections--<identifier>--ClientSecret`        |
+| OAuth2Url         | `Connections--<identifier>--OAuth2Url`           |
+| Filter            | `Connections--<identifier>--Filter`              |
+| ResponseSizeLimit | `Connections--<identifier>--ResponseSizeLimit`   |
 
-- A [
-  Connection
-  ](../../../toolkit/xml-configuration/connectors/connection/index.md) able to store Active Directory's ```Login```, ```Password```, ```Server```, ```ClientId``` and ```ClientSecret```.
+- A [ Connection ](../../../toolkit/xml-configuration/connectors/connection/index.md) able to store
+  Active Directory's `Login`, `Password`, `Server`, `ClientId` and `ClientSecret`.
 
-Protected attributes are stored inside a safe in CyberArk, into an account whose identifier can be retrieved by Identity Manager from ```appsettings.cyberark.agent.json```.
+Protected attributes are stored inside a safe in CyberArk, into an account whose identifier can be
+retrieved by Identity Manager from `appsettings.cyberark.agent.json`.
 
 > For example:
 >

@@ -7,11 +7,15 @@ In GroupID, property validation applies to:
 
 #### Profile Validation for Users
 
-See the [Profile Validation for Users](/versioned_docs/groupid_11.0/groupid/admincenter/portal/design/propertyvalidation.md#profile-validation-for-users) topic.
+See the
+[Profile Validation for Users](/versioned_docs/groupid_11.0/groupid/admincenter/portal/design/propertyvalidation.md#profile-validation-for-users)
+topic.
 
 #### Property Validation for Groups
 
-See the [Property Validation for Groups](/versioned_docs/groupid_11.0/groupid/admincenter/portal/design/propertyvalidation.md#property-validation-for-groups) topic.
+See the
+[Property Validation for Groups](/versioned_docs/groupid_11.0/groupid/admincenter/portal/design/propertyvalidation.md#property-validation-for-groups)
+topic.
 
 What do you want to do?
 
@@ -21,38 +25,49 @@ What do you want to do?
 
 ## Add a Property Validation Field
 
-1. In Admin Center, select __Applications__ in the left pane.
-2. On the __Mobile Service__ tab, click the ellipsis button for a service and select __Settings__.
-3. Select an identity store under __Design Settings__ to customize the app design for it.  
-   All identity stores associated with the Mobile service are listed under __Design Settings__. You can design a different app for each of these.
-4. Click __Property Validation__ in the left pane.
-5. In the __Select Directory Object__ drop-down list on the __Property Validation__ page, select:
+1. In Admin Center, select **Applications** in the left pane.
+2. On the **Mobile Service** tab, click the ellipsis button for a service and select **Settings**.
+3. Select an identity store under **Design Settings** to customize the app design for it.  
+   All identity stores associated with the Mobile service are listed under **Design Settings**. You
+   can design a different app for each of these.
+4. Click **Property Validation** in the left pane.
+5. In the **Select Directory Object** drop-down list on the **Property Validation** page, select:
 
-   - __Group:__ to add, edit, or remove attributes for group attestation.
-   - __User:__ to add, edit, or remove attributes for user profile validation.
+    - **Group:** to add, edit, or remove attributes for group attestation.
+    - **User:** to add, edit, or remove attributes for user profile validation.
 
-   On selecting an option, the fields available for group attestation or profile validation in the app are listed under __Name__.
-6. Click __Add__ to add a new field.
-   The __Add Profile Validation Attribute__ pane is displayed.
-7. Select an attribute from the __Field__ drop-down list.
-8. In the __Display Name__ box, specify a name to use as the field’s label on the Attest Group/Validate Profile page of the app.
-9. In the __Display Type__ drop-down list, select a display type for rendering the attribute (field) in the app.
-10. In the __Visibility Level__ drop-down list, select a security role. The field would be visible to users of this role and roles with a priority value higher than this role. See [Priority](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/manage.md).  
+    On selecting an option, the fields available for group attestation or profile validation in the
+    app are listed under **Name**.
+
+6. Click **Add** to add a new field. The **Add Profile Validation Attribute** pane is displayed.
+7. Select an attribute from the **Field** drop-down list.
+8. In the **Display Name** box, specify a name to use as the field’s label on the Attest
+   Group/Validate Profile page of the app.
+9. In the **Display Type** drop-down list, select a display type for rendering the attribute (field)
+   in the app.
+10. In the **Visibility Level** drop-down list, select a security role. The field would be visible
+    to users of this role and roles with a priority value higher than this role. See
+    [Priority](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/manage.md).  
     Select _Never_ to hide the field from all users.
-11. Click __Advanced options__ to enter further details for the field.
-12. As mentioned for visibility level, the field is visible to members of the selected role and roles with a priority value higher than the selected role.  
-    In the __Exclude Roles__ area, select the check boxes for the higher priority roles you want to hide the field from.
-13. In the __ToolTip Text__ box, enter the help text to appear when a user hovers the mouse over the field.
-14. In the __Max Length__ box, enter a number that represents the maximum number of characters that users can enter as value for the field. Entering _0_ indicates it can accept an unlimited number
+11. Click **Advanced options** to enter further details for the field.
+12. As mentioned for visibility level, the field is visible to members of the selected role and
+    roles with a priority value higher than the selected role.  
+    In the **Exclude Roles** area, select the check boxes for the higher priority roles you want to
+    hide the field from.
+13. In the **ToolTip Text** box, enter the help text to appear when a user hovers the mouse over the
+    field.
+14. In the **Max Length** box, enter a number that represents the maximum number of characters that
+    users can enter as value for the field. Entering _0_ indicates it can accept an unlimited number
     of characters as value.
-15. Select the __Is Required__ check box to force users to provide a value for the field.
-16. Select the __Is Read Only__ check box to make the field read-only.
-17. Click __OK__.
-18. Click __Save__.
+15. Select the **Is Required** check box to force users to provide a value for the field.
+16. Select the **Is Read Only** check box to make the field read-only.
+17. Click **OK**.
+18. Click **Save**.
 
 ## Edit a Field
 
-You can change the following for a field available in the app for group attestation or user profile validation:
+You can change the following for a field available in the app for group attestation or user profile
+validation:
 
 - The attribute associated with the field
 - The display name (the field is displayed with this label in the app)
@@ -63,37 +78,41 @@ You can change the following for a field available in the app for group attestat
 - Make the field editable or read–only
 - Make it optional or mandatory for users to provide a value for the field
 
-__To update a field:__
+**To update a field:**
 
-1. In Admin Center, select __Applications__ in the left pane.
-2. On the __Mobile Service__ tab, click the ellipsis button for a service and select __Settings__.
-3. Select an identity store under __Design Settings__ to customize the app design for it.  
-   All identity stores associated with the Mobile service are listed under __Design Settings__. You can design a different app for each of these.
-4. Click __Property Validation__ in the left pane.
-5. In the __Select Directory Object__ drop-down list on the __Property Validation__ page, select:
+1. In Admin Center, select **Applications** in the left pane.
+2. On the **Mobile Service** tab, click the ellipsis button for a service and select **Settings**.
+3. Select an identity store under **Design Settings** to customize the app design for it.  
+   All identity stores associated with the Mobile service are listed under **Design Settings**. You
+   can design a different app for each of these.
+4. Click **Property Validation** in the left pane.
+5. In the **Select Directory Object** drop-down list on the **Property Validation** page, select:
 
-   - __Group:__ to update a group attestation field.
-   - __User:__ to update a user profile validation field.
-6. In the __Name__ area, click __Edit__ for a field.
-7. Modify the required info on the __Edit Profile Validation Attribute__ pane.
-   Follow the steps in the
-   [Add a Property Validation Field](#add-a-property-validation-field) topic, beginning at step 7.
+    - **Group:** to update a group attestation field.
+    - **User:** to update a user profile validation field.
+
+6. In the **Name** area, click **Edit** for a field.
+7. Modify the required info on the **Edit Profile Validation Attribute** pane. Follow the steps in
+   the [Add a Property Validation Field](#add-a-property-validation-field) topic, beginning at
+   step 7.
 
 ## Remove a Field
 
-1. In Admin Center, select __Applications__ in the left pane.
-2. On the __Mobile Service__ tab, click the ellipsis button for a service and select __Settings__.
-3. Select an identity store under __Design Settings__ to customize the app design for it.  
-   All identity stores associated with the Mobile service are listed under __Design Settings__. You can design a different app for each of these.
-4. Click __Property Validation__ in the left pane.
-5. In the __Select Directory Object__ drop-down list on the __Property Validation__ page, select:
+1. In Admin Center, select **Applications** in the left pane.
+2. On the **Mobile Service** tab, click the ellipsis button for a service and select **Settings**.
+3. Select an identity store under **Design Settings** to customize the app design for it.  
+   All identity stores associated with the Mobile service are listed under **Design Settings**. You
+   can design a different app for each of these.
+4. Click **Property Validation** in the left pane.
+5. In the **Select Directory Object** drop-down list on the **Property Validation** page, select:
 
-   - __Group:__ to remove a field from the Attest Group page in the app.
-   - __User:__ to remove a field from the Validate Profile page in the app.
-6. In the __Name__ area, click __Remove__ for a field to remove it.
-7. Click __Save__.
+    - **Group:** to remove a field from the Attest Group page in the app.
+    - **User:** to remove a field from the Validate Profile page in the app.
 
-__See Also__
+6. In the **Name** area, click **Remove** for a field to remove it.
+7. Click **Save**.
+
+**See Also**
 
 - [Mobile Service](/versioned_docs/groupid_11.0/groupid/admincenter/mobileservice/overview.md)
 - [Design Settings](/versioned_docs/groupid_11.0/groupid/admincenter/mobileservice/design/overview.md)

@@ -1,5 +1,3 @@
 # Business Intelligence
 
-- [
-  Universe
-  ](universe/index.md)
+- [ Universe ](universe/index.md)

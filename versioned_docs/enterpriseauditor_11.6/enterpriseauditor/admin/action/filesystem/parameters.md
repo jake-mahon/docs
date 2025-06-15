@@ -1,6 +1,8 @@
 # File System Action: Parameters
 
-The Parameters page is available for some of the selections on the Operation page. The list of operations below provides access to the operation-specific versions of the Parameters page for this wizard. Click on an operation to view its associated Parameters page.
+The Parameters page is available for some of the selections on the Operation page. The list of
+operations below provides access to the operation-specific versions of the Parameters page for this
+wizard. Click on an operation to view its associated Parameters page.
 
 - [Change Attributes](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/filesystem/parameters/changeattributes.md)
 - [Change Permissions and Auditing](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/filesystem/parameters/changepermissionsauditing.md)
@@ -14,4 +16,5 @@ The Parameters page is available for some of the selections on the Operation pag
 
 ![File System Action Module Wizard Change File Attributes Parameters page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/filesystem/changeattributes.png)
 
-The Navigation pane will list this as the Parameters page, but the title for each version indicates the type of parameter to be configured.
+The Navigation pane will list this as the Parameters page, but the title for each version indicates
+the type of parameter to be configured.

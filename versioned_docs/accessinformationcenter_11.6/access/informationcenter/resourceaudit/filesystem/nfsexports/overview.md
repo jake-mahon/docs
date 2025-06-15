@@ -1,6 +1,8 @@
 # NFS Exports Reports
 
-NFS share data can be imported into the Access Information Center through configuration of Enterprise Auditor File System Sensitive Data Discovery Auditing collection jobs. The following report is available at the __NFS Exports__ node:
+NFS share data can be imported into the Access Information Center through configuration of
+Enterprise Auditor File System Sensitive Data Discovery Auditing collection jobs. The following
+report is available at the **NFS Exports** node:
 
 - [Scan Summary Report](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/filesystem/nfsexports/scansummary.md)
 

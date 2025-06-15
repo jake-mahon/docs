@@ -1,6 +1,7 @@
 # Keyword Criteria
 
-Keyword criteria consists of a list of comma-separated words. If any word in the list is found in the file, it is considered a hit.
+Keyword criteria consists of a list of comma-separated words. If any word in the list is found in
+the file, it is considered a hit.
 
 ![Keywords window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/criteriatype/keywordswindow.png)
 
@@ -11,15 +12,20 @@ The options on the Keywords window are:
 - Remove Keyword – Remove a selected keyword from the Value list
 - Import Keyword File – Import keywords from a file
 - Export Keyword File – Export keywords as a file
-- Match Type – Choose whether keyword matches for the Keyword criteria __Must match__ or __Must not match__
+- Match Type – Choose whether keyword matches for the Keyword criteria **Must match** or **Must not
+  match**
 - Case Sensitive Keywords – If enabled, checks letter case when matching keywords
-- Count only distinct occurrences – Select the checkbox to enable only distinct occurrences to be counted during scan jobs
-- Apply these keywords to these file components – Select which file components the keywords apply to:
+- Count only distinct occurrences – Select the checkbox to enable only distinct occurrences to be
+  counted during scan jobs
+- Apply these keywords to these file components – Select which file components the keywords apply
+  to:
 
-  - Name
-  - Contents
-  - Metadata
-- Look for at least this many occurrences – Adjust the slider to configure how many occurrences are required for keyword criteria to match
+    - Name
+    - Contents
+    - Metadata
 
-  - The minimum value is 1
-  - The maximum value is 10
+- Look for at least this many occurrences – Adjust the slider to configure how many occurrences are
+  required for keyword criteria to match
+
+    - The minimum value is 1
+    - The maximum value is 10

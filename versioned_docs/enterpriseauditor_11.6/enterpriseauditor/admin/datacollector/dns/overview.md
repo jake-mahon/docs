@@ -1,6 +1,8 @@
 # DNS Data Collector
 
-The DNS Data Collector provides information regarding DNS configuration and records. It is available with the Active Directory Solution. Both this data collector and the solution are available with a special Enterprise Auditor license.
+The DNS Data Collector provides information regarding DNS configuration and records. It is available
+with the Active Directory Solution. Both this data collector and the solution are available with a
+special Enterprise Auditor license.
 
 Protocols
 
@@ -17,7 +19,8 @@ Permissions
 
 ## DNS Query Configuration
 
-The DNS Data Collector is configured through the Domain Name System Data Collector Wizard, which contains the following wizard pages:
+The DNS Data Collector is configured through the Domain Name System Data Collector Wizard, which
+contains the following wizard pages:
 
 - Welcome
 - [DNS: Category](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/dns/category.md)
@@ -26,4 +29,5 @@ The DNS Data Collector is configured through the Domain Name System Data Collect
 
 ![Domain Name System Data Collector Wizard Welcome page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/welcome.png)
 
-The Welcome page can be hidden by selecting the Do not display this page the next time checkbox when the wizard is open and configuration settings are saved.
+The Welcome page can be hidden by selecting the Do not display this page the next time checkbox when
+the wizard is open and configuration settings are saved.

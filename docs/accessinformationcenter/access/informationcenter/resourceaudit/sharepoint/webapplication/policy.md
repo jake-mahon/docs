@@ -1,6 +1,7 @@
 # Policy Report
 
-The Policy report at the web application and web application URL levels provides a list of web application policies assigned for the selected SharePoint on-premise farm web application.
+The Policy report at the web application and web application URL levels provides a list of web
+application policies assigned for the selected SharePoint on-premise farm web application.
 
 ![Policy report at the web application and web application URL levels](../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/sharepoint/webapplication/webapppolicy.webp)
 
@@ -18,14 +19,17 @@ This report is comprised of the following columns:
 - DistinguishedName – Distinguished name for the trustee account
 - ObjectSid – Security ID of the object
 - Disabled – True or False if trustee account is disabled
-- Stale – True or False if trustee account is stale (according to the length of inactive time used by the Access Analyzer data collection and analysis configuration to identify stale accounts)
+- Stale – True or False if trustee account is stale (according to the length of inactive time used
+  by the Access Analyzer data collection and analysis configuration to identify stale accounts)
 - Deleted – True or False if trustee account is deleted
 
-The following rights are a normalized representation of web application policy permission granted to the trustee:
+The following rights are a normalized representation of web application policy permission granted to
+the trustee:
 
 - Read – Right to view/read resources
 - Write – Right to add or modify SharePoint resources
 - Delete – Right to delete SharePoint resources
 - Manage – Equivalent to full control over SharePoint resources
 
-If the selected trustee in the top section of the report is a group, the Group Membership pane displays the group membership, including nested groups.
+If the selected trustee in the top section of the report is a group, the Group Membership pane
+displays the group membership, including nested groups.

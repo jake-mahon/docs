@@ -19,19 +19,24 @@ This page is about:
 
 ## Overview
 
-The Lightweight Directory Access Protocol (LDAP) is a flexible and well supported standards-based mechanism for interacting with directory servers.
+The Lightweight Directory Access Protocol (LDAP) is a flexible and well supported standards-based
+mechanism for interacting with directory servers.
 
 ## Prerequisites
 
-Implementing this connector requires reading first the [appsettings documentation](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md).
+Implementing this connector requires reading first the
+[appsettings documentation](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md).
 
 ## Export
 
-For a configured set of LDAP entries, this connector exports the list of all attributes from the connector's configuration.
+For a configured set of LDAP entries, this connector exports the list of all attributes from the
+connector's configuration.
 
 ### Configuration
 
-This process is configured through a [connection](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or the XML configuration, and in the ```appsettings.agent.json > Connections``` section:
+This process is configured through a
+[connection](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
+in the UI and/or the XML configuration, and in the `appsettings.agent.json > Connections` section:
 
 ```
 appsettings.agent.json
@@ -47,12 +52,10 @@ appsettings.agent.json
 ```
 
 The identifier of the connection and thus the name of the subsection must:
-  
+
 - be unique.
-  
 - not begin with a digit.
-  
-- not contain ```<```, ```>```, ```:```, ```"```, ```/```, ```\```, ```|```, ```?```, ```*``` and ```_```.
+- not contain `<`, `>`, `:`, `"`, `/`, `\`, `|`, `?`, `*` and `_`.
 
 > For example:
 >
@@ -100,46 +103,51 @@ The identifier of the connection and thus the name of the subsection must:
 
 #### Setting attributes
 
-| Name | Details |
-| --- | --- |
-| Servers   required | __Type__    Server List   __Description__ List of servers to connect to. |
-| Tables   required | __Type__    Table List   __Description__ List of specific setting attributes to retrieve entries and links.   __Note:__ having a table named ```entries``` is mandatory. |
-| SizeLimit   optional | __Type__    Int32   __Description__ Maximum number of objects returned in the search request.   __Note:__ ignored when using ```Servers```:```Controls```. |
-| TimeLimit   optional | __Type__    Int32   __Description__ Maximum duration (in seconds) of the request. |
-| TimeOut   optional | __Type__    Int32   __Description__ Time period (in seconds) before the connection to the LDAP is closed. |
+| Name               | Details                                                                                                                                                       |
+| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Servers required   | **Type** Server List **Description** List of servers to connect to.                                                                                           |
+| Tables required    | **Type** Table List **Description** List of specific setting attributes to retrieve entries and links. **Note:** having a table named `entries` is mandatory. |
+| SizeLimit optional | **Type** Int32 **Description** Maximum number of objects returned in the search request. **Note:** ignored when using `Servers`:`Controls`.                   |
+| TimeLimit optional | **Type** Int32 **Description** Maximum duration (in seconds) of the request.                                                                                  |
+| TimeOut optional   | **Type** Int32 **Description** Time period (in seconds) before the connection to the LDAP is closed.                                                          |
 
 ##### Servers
 
-| Name | Details |
-| --- | --- |
-| Server   required | __Type__    String   __Description__ URL of the target domain controller. |
-| Controls   optional | __Type__    String List   __Description__ List of the controls that will be applied to the request. Possible values are:   ```PagedResult``` to limit the number of returned queries. Results will be returned in smaller and limited packets.   ```DomainScope``` to enable domain control, i.e. the LDAP server won't generate any referrals when completing a request, and the search is restricted to a single name context.   __Note:__```PagedResult``` is required when using ```DomainScope```. [See more details in Microsoft's documentation](https://docs.microsoft.com/en-us/previous-versions/windows/desktop/ldap/ldap-server-domain-scope-oid). |
-|  |  |
-| --- | --- |
-| EnableSSL   optional | __Type__    Boolean   __Description__ ```True``` to enable SSL protocol for authentication requests.   __Note:__ recommended when using ```AuthType``` set to ```Basic``` because basic authentication packets are not encrypted by default.   __Info:__ SSL is not available on Linux. |
-| NoSigning   optional | __Type__    Boolean   __Description__ ```True``` to disable Kerberos encryption. |
-|  |  |
-| --- | --- |
-| AuthType   default value: Negotiate | __Type__    String   __Description__ Authentication method used by Usercube to authenticate to the server. Access is granted to the target domain controller:   ```Anonymous``` - without any login/password;   ```Basic``` - via the ```BaseDN```, ```Login``` and ```Password``` attributes;   ```Negotiate``` - via GSS-API negotiations with the Kerberos mechanism used for authentication. |
-| Login   optional | __Type__    String   __Description__ Login used by Usercube for basic authentication.   __Note:__ required when ```AuthType``` is set to ```Basic```. |
-| Password   optional | __Type__    String   __Description__ Password used by Usercube for basic authentication.   __Note:__ required when ```AuthType``` is set to ```Basic```. |
+| Name                              | Details                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| --------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Server required                   | **Type** String **Description** URL of the target domain controller.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| Controls optional                 | **Type** String List **Description** List of the controls that will be applied to the request. Possible values are: `PagedResult` to limit the number of returned queries. Results will be returned in smaller and limited packets. `DomainScope` to enable domain control, i.e. the LDAP server won't generate any referrals when completing a request, and the search is restricted to a single name context. **Note:**`PagedResult` is required when using `DomainScope`. [See more details in Microsoft's documentation](https://docs.microsoft.com/en-us/previous-versions/windows/desktop/ldap/ldap-server-domain-scope-oid). |
+|                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| ---                               | ---                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| EnableSSL optional                | **Type** Boolean **Description** `True` to enable SSL protocol for authentication requests. **Note:** recommended when using `AuthType` set to `Basic` because basic authentication packets are not encrypted by default. **Info:** SSL is not available on Linux.                                                                                                                                                                                                                                                                                                                                                                  |
+| NoSigning optional                | **Type** Boolean **Description** `True` to disable Kerberos encryption.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+|                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| ---                               | ---                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| AuthType default value: Negotiate | **Type** String **Description** Authentication method used by Usercube to authenticate to the server. Access is granted to the target domain controller: `Anonymous` - without any login/password; `Basic` - via the `BaseDN`, `Login` and `Password` attributes; `Negotiate` - via GSS-API negotiations with the Kerberos mechanism used for authentication.                                                                                                                                                                                                                                                                       |
+| Login optional                    | **Type** String **Description** Login used by Usercube for basic authentication. **Note:** required when `AuthType` is set to `Basic`.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Password optional                 | **Type** String **Description** Password used by Usercube for basic authentication. **Note:** required when `AuthType` is set to `Basic`.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 
 ##### Tables
 
-| Name | Details |
-| --- | --- |
-| BaseDN   required | __Type__    String   __Description__ Base Distinguished Name to be used to connect to the server. |
-| Table   required | __Type__    String   __Description__ Name of the table: it should be ```entries``` for the main entries, and the name of the LDAP's link attribute otherwise. |
-|  |  |
-| --- | --- |
-| Filter   required | __Type__    String   __Description__ Entries to be excluded from export among all entries from the LDAP instance. Only non-filtered entries are exported. The filter must use [Microsoft's search filter syntax](https://docs.microsoft.com/en-us/windows/win32/adsi/search-filter-syntax). |
-| Scope   optional | __Type__    String   __Description__ Search scope to be applied to the request. The result will be limited to:   ```Base``` - the base of the object;   ```OneLevel``` - the immediate children of the object;   ```Subtree``` - the entire subtree from the base object down. |
+| Name            | Details                                                                                                                                                                                                                                                                                |
+| --------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| BaseDN required | **Type** String **Description** Base Distinguished Name to be used to connect to the server.                                                                                                                                                                                           |
+| Table required  | **Type** String **Description** Name of the table: it should be `entries` for the main entries, and the name of the LDAP's link attribute otherwise.                                                                                                                                   |
+|                 |                                                                                                                                                                                                                                                                                        |
+| ---             | ---                                                                                                                                                                                                                                                                                    |
+| Filter required | **Type** String **Description** Entries to be excluded from export among all entries from the LDAP instance. Only non-filtered entries are exported. The filter must use [Microsoft's search filter syntax](https://docs.microsoft.com/en-us/windows/win32/adsi/search-filter-syntax). |
+| Scope optional  | **Type** String **Description** Search scope to be applied to the request. The result will be limited to: `Base` - the base of the object; `OneLevel` - the immediate children of the object; `Subtree` - the entire subtree from the base object down.                                |
 
 ### Output details
 
-This connector is meant to generate to the [ExportOutput](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) folder one file per element in __Tables__, named ```<connectionIdentifier>_<tableName>.csv```, with one column for each property having a ```ConnectionColumn``` and each property without it but used in an entity association.
+This connector is meant to generate to the
+[ExportOutput](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
+folder one file per element in **Tables**, named `<connectionIdentifier>_<tableName>.csv`, with one
+column for each property having a `ConnectionColumn` and each property without it but used in an
+entity association.
 
-Any property can be exported in a specific format when specified. [See more details](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/entitypropertymapping-format/index.md).
+Any property can be exported in a specific format when specified.
+[See more details](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/entitypropertymapping-format/index.md).
 
 > With the previous example and the following entity type mapping:
 >
@@ -149,7 +157,7 @@ Any property can be exported in a specific format when specified. [See more deta
 >
 > ```
 >
-> We would have ```C:/UsercubeContoso/Temp/ExportOutput/LDAPExport_entries.csv``` like:
+> We would have `C:/UsercubeContoso/Temp/ExportOutput/LDAPExport_entries.csv` like:
 >
 > ```
 > LDAPExport_entries.csv
@@ -158,7 +166,7 @@ Any property can be exported in a specific format when specified. [See more deta
 >
 > ```
 >
-> And we would also have ```C:/UsercubeContoso/Temp/ExportOutput/LDAPExport_member.csv``` like:
+> And we would also have `C:/UsercubeContoso/Temp/ExportOutput/LDAPExport_member.csv` like:
 >
 > ```
 > LDAPExport_member.csv
@@ -169,7 +177,9 @@ Any property can be exported in a specific format when specified. [See more deta
 
 ## Fulfill
 
-The LDAP connector fulfills the creation, deletion and update of LDAP entries, initiated through the Usercube UI or by [assignment policy enforcement](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/evaluate-policy/index.md).
+The LDAP connector fulfills the creation, deletion and update of LDAP entries, initiated through the
+Usercube UI or by
+[assignment policy enforcement](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/evaluate-policy/index.md).
 
 ### Configuration
 
@@ -207,26 +217,31 @@ Same as for export, fulfill is configured through connections.
 
 #### Setting attributes
 
-| Name | Details |
-| --- | --- |
-| Servers   required | __Type__    Server List   __Description__ List of servers to connect to. |
-| Tables   required | __Type__    Table List   __Description__ List of specific setting attributes to retrieve the entries and the links.   __Note:__ having a table named ```entries``` is mandatory. |
-| AsAdLds   required | __Type__    Boolean   __Description__ ```True``` to state the managed system as an AD LDS. |
-| IsLdapPasswordReset   optional | __Type__    Boolean   __Description__ ```True``` to state the managed system as an LDAP-compliant system supporting password reset. |
+| Name                         | Details                                                                                                                                                               |
+| ---------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Servers required             | **Type** Server List **Description** List of servers to connect to.                                                                                                   |
+| Tables required              | **Type** Table List **Description** List of specific setting attributes to retrieve the entries and the links. **Note:** having a table named `entries` is mandatory. |
+| AsAdLds required             | **Type** Boolean **Description** `True` to state the managed system as an AD LDS.                                                                                     |
+| IsLdapPasswordReset optional | **Type** Boolean **Description** `True` to state the managed system as an LDAP-compliant system supporting password reset.                                            |
 
 ### Output details
 
 This connector can create a new resource, and update and delete an existing resource via the UI.
 
-A new resource is created with the state ```disabled```, corresponding to the __useraccountcontrol__ value ```514```. When it is approved, its ```disabled``` state is removed and the __useraccountcontrol__ value becomes ```512```.
+A new resource is created with the state `disabled`, corresponding to the **useraccountcontrol**
+value `514`. When it is approved, its `disabled` state is removed and the **useraccountcontrol**
+value becomes `512`.
 
 ### Add attributes to the requests
 
-Some systems using the LDAP protocol require additional attributes in the creation and/or update requests.
+Some systems using the LDAP protocol require additional attributes in the creation and/or update
+requests.
 
-If these attributes are not synchronized in Usercube, then they cannot be computed and provided by scalar rules or navigation rules. In this case, they can be given as arguments in the provisioning order, through the ```ResourceType```'s ```ArgumentsExpression```.
+If these attributes are not synchronized in Usercube, then they cannot be computed and provided by
+scalar rules or navigation rules. In this case, they can be given as arguments in the provisioning
+order, through the `ResourceType`'s `ArgumentsExpression`.
 
-> The following example adds the attribute ```description``` with a value depending on what is modified:
+> The following example adds the attribute `description` with a value depending on what is modified:
 >
 > ```
 >
@@ -260,7 +275,12 @@ If these attributes are not synchronized in Usercube, then they cannot be comput
 
 Data protection can be ensured through:
 
-- [RSA encryption](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md), configured in the ```appsettings.encrypted.agent.json``` file;
-- an [Azure Key Vault](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md) safe;
+- [RSA encryption](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md),
+  configured in the `appsettings.encrypted.agent.json` file;
+- an
+  [Azure Key Vault](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md)
+  safe;
 
-- a [CyberArk Vault](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md) able to store LDAP's ```Login```, ```Password``` and ```Server```.
+- a
+  [CyberArk Vault](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)
+  able to store LDAP's `Login`, `Password` and `Server`.

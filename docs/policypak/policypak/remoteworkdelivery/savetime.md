@@ -1,11 +1,13 @@
 # Save Time and Effort with Endpoint Policy Manager File Delivery Manager
 
-With Endpoint Policy Manager Remote Work Delivery Manager, you get different benefits based on the policy method you already employ.
+With Endpoint Policy Manager Remote Work Delivery Manager, you get different benefits based on the
+policy method you already employ.
 
 For those using Group Policy:
 
 - You can deploy one file or many files, with filters for Users or Computers.
-- You can use Item-Level Targeting to determine whether files should be copied based on specified criteria.
+- You can use Item-Level Targeting to determine whether files should be copied based on specified
+  criteria.
 - Stopped transfers are automatically restarted.
 - You can deploy files via SMB or via HTTP(S) services like Amazon S3.
 - You can run a script to manipulate or install files that you transfer.
@@ -19,4 +21,6 @@ For those using Endpoint Policy Manager Cloud:
 
 For those using an MDM solution:
 
-- Your MDM service can only deploy MSI-wrapped files. With Endpoint Policy Manager Remote Work Delivery Manager, you can keep files updated and automatically deploy them to endpoints, without having to repeatedly update the MSI files.
+- Your MDM service can only deploy MSI-wrapped files. With Endpoint Policy Manager Remote Work
+  Delivery Manager, you can keep files updated and automatically deploy them to endpoints, without
+  having to repeatedly update the MSI files.

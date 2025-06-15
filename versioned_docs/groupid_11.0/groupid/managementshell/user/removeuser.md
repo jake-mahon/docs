@@ -1,15 +1,15 @@
 # Remove-User
 
-Use the __Remove-User__ commandlet to delete a user from directory.
+Use the **Remove-User** commandlet to delete a user from directory.
 
 ## Syntax
 
 ```
-Remove-User  
--Identity <string[]>  
-[-IdentityStoreId <int>]  
-[-SecurityToken <CustomClaimsPrincipal>]  
-[-Credential <pscredential>]  
+Remove-User
+-Identity <string[]>
+[-IdentityStoreId <int>]
+[-SecurityToken <CustomClaimsPrincipal>]
+[-Credential <pscredential>]
 [<CommonParameters>]
 ```
 

@@ -1,6 +1,13 @@
 # Microsoft Entra ID Search Results
 
-When a search has been started, the Search Status table at the bottom displays the percentage complete according to the size and quantity of the activity log files being searched per activity agent. You can [Filter](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/overview.md#filter) and [Sort](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/overview.md#sort) the results using the column headers. Below the Search button is the [Export](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/overview.md#export) option.
+When a search has been started, the Search Status table at the bottom displays the percentage
+complete according to the size and quantity of the activity log files being searched per activity
+agent. You can
+[Filter](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/overview.md#filter) and
+[Sort](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/overview.md#sort) the
+results using the column headers. Below the Search button is the
+[Export](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/overview.md#export)
+option.
 
 ![Azure Active Directory - Search Results](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/results/searchresults.png)
 
@@ -10,14 +17,18 @@ The results data grid columns display the following information for each event:
 - Agent – Agent which monitored the event
 - Source – Indicates the source of the activity event
 - Result – Indicates whether the event resulted in a Success or Failure
-- Result Reason – If an event resulted in a Failure, the reason for it will be listed in the Result Reason column
+- Result Reason – If an event resulted in a Failure, the reason for it will be listed in the Result
+  Reason column
 - User – Indicates user account associated with the event
 - IP Address – Indicates the IP Address associated with the event
 - Application – Indicates the Application associated with the event
 - Service – Indicates the Service associated with the event
-- Category – Indicates the Category associated with the event. Categories returned from search queries can be configured using the Category filter drop-down.
-- Operation - Indicates the Operation associated with the event. Operations returned from search queries can be configured using the Operation filter drop-down.
-- Type – Indicates the Type associated with the event. Types returned from search queries can be configured using the Type filter drop-down.
+- Category – Indicates the Category associated with the event. Categories returned from search
+  queries can be configured using the Category filter drop-down.
+- Operation - Indicates the Operation associated with the event. Operations returned from search
+  queries can be configured using the Operation filter drop-down.
+- Type – Indicates the Type associated with the event. Types returned from search queries can be
+  configured using the Type filter drop-down.
 - Target(s) – Indicates the Target(s) of the event
 - Modified – Indicates modifications associated with the event
 - Client App – Indicates the Client App associated with the event
@@ -31,6 +42,9 @@ The results data grid columns display the following information for each event:
 - Risk – Indicates the level of Risk associated with events
 - Conditional Access – Indicates whether Conditional Access was applied to the event
 - Conditional Policy – Indicates whether a Conditional Policy was applied to the event
-- Details – If applicable, provides additional information associated with the event that is not provided by the other Results columns
+- Details – If applicable, provides additional information associated with the event that is not
+  provided by the other Results columns
 
-At the bottom of the search interface, additional information is displayed for selected events in the data grid. The Attribute Name, Operation, Old Value, and New Value for the logged event (as applicable to the event) are displayed.
+At the bottom of the search interface, additional information is displayed for selected events in
+the data grid. The Attribute Name, Operation, Old Value, and New Value for the logged event (as
+applicable to the event) are displayed.

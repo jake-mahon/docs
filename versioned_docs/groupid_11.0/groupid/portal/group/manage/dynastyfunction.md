@@ -1,6 +1,7 @@
 # Dynasties Functions
 
-In GroupID portal, you can manage Dynasty structure and its membership using the following functions.
+In GroupID portal, you can manage Dynasty structure and its membership using the following
+functions.
 
 What do you want to do?
 
@@ -11,74 +12,118 @@ What do you want to do?
 
 ## Manage attributes for an Organizational/Geographical/Custom Dynasty
 
-Dynasties are built on attributes. For example, if the Country, State, and City attributes are specified for a Geographical Dynasty, GroupID creates a Smart Group for every distinct country, then for each state within a country, and finally for each
-city within a state.
+Dynasties are built on attributes. For example, if the Country, State, and City attributes are
+specified for a Geographical Dynasty, GroupID creates a Smart Group for every distinct country, then
+for each state within a country, and finally for each city within a state.
 
-1. On the left navigation bar, click __Groups__ and then select the __My Groups__ tab.
+1. On the left navigation bar, click **Groups** and then select the **My Groups** tab.
 
-   You can also [Directory Search](/versioned_docs/groupid_11.0/groupid/portal/search/search.md) the Organizational, Organizational, or custom Dynasty you want to change the attributes for.
-2. Select the required Dynasty and click __Properties__ on the toolbar.
+    You can also [Directory Search](/versioned_docs/groupid_11.0/groupid/portal/search/search.md)
+    the Organizational, Organizational, or custom Dynasty you want to change the attributes for.
 
-   The Dynasty's [Group Properties](/versioned_docs/groupid_11.0/groupid/portal/group/properties/overview.md) page is displayed with the __General__ tab in view.
-3. On the __Dynasty Options__ tab, update the attributes in the __Attributes__ area.
+2. Select the required Dynasty and click **Properties** on the toolbar.
 
-   Refer to the [Dynasty Options page](/versioned_docs/groupid_11.0/groupid/portal/group/dynasty/dynastyoptionsorggeocus.md) for details.
-4. Click __Save__.
+    The Dynasty's
+    [Group Properties](/versioned_docs/groupid_11.0/groupid/portal/group/properties/overview.md)
+    page is displayed with the **General** tab in view.
+
+3. On the **Dynasty Options** tab, update the attributes in the **Attributes** area.
+
+    Refer to the
+    [Dynasty Options page](/versioned_docs/groupid_11.0/groupid/portal/group/dynasty/dynastyoptionsorggeocus.md)
+    for details.
+
+4. Click **Save**.
 
 ## Manage Managerial Dynasty structure
 
-1. On the left navigation bar, click __Groups__ and then select the __My Groups__ tab.
+1. On the left navigation bar, click **Groups** and then select the **My Groups** tab.
 
-   You can also [Directory Search](/versioned_docs/groupid_11.0/groupid/portal/search/search.md) the Managerial Dynasty you want to restructure.
-2. Select the required Dynasty and click __Properties__ on the toolbar.
+    You can also [Directory Search](/versioned_docs/groupid_11.0/groupid/portal/search/search.md)
+    the Managerial Dynasty you want to restructure.
 
-   The Dynasty's [Group Properties](/versioned_docs/groupid_11.0/groupid/portal/group/properties/overview.md) page is displayed with the __General__ tab in view.
-3. On the __Dynasty Options__ tab, modify the options related to the Dynasty structure.
+2. Select the required Dynasty and click **Properties** on the toolbar.
 
-   Refer to the [Dynasty Options page (Managerial Dynasty)](/versioned_docs/groupid_11.0/groupid/portal/group/dynasty/dynastyoptionsmanagerial.md) for details.
-4. Click __Save__.
+    The Dynasty's
+    [Group Properties](/versioned_docs/groupid_11.0/groupid/portal/group/properties/overview.md)
+    page is displayed with the **General** tab in view.
+
+3. On the **Dynasty Options** tab, modify the options related to the Dynasty structure.
+
+    Refer to the
+    [Dynasty Options page (Managerial Dynasty)](/versioned_docs/groupid_11.0/groupid/portal/group/dynasty/dynastyoptionsmanagerial.md)
+    for details.
+
+4. Click **Save**.
 
 ## Set attribute inheritance
 
-1. On the left navigation bar, click __Groups__ and then select the __My Groups__ tab.
+1. On the left navigation bar, click **Groups** and then select the **My Groups** tab.
 
-   You can also [Directory Search](/versioned_docs/groupid_11.0/groupid/portal/search/search.md) the Dynasty you want to change the inheritance option for.
-2. Select the required Dynasty and click __Properties__ on the toolbar.
+    You can also [Directory Search](/versioned_docs/groupid_11.0/groupid/portal/search/search.md)
+    the Dynasty you want to change the inheritance option for.
 
-   The Dynasty's [Group Properties](/versioned_docs/groupid_11.0/groupid/portal/group/properties/overview.md) page is displayed with the __General__ tab in view.
-3. On the __Dynasty Options__ tab, select the required option from the __Inheritance__ drop-down list.
+2. Select the required Dynasty and click **Properties** on the toolbar.
 
-   See the Inheritance section in [Dynasty Options](/versioned_docs/groupid_11.0/groupid/portal/group/properties/dynastyoptions.md).
-4. Click __Save__.
+    The Dynasty's
+    [Group Properties](/versioned_docs/groupid_11.0/groupid/portal/group/properties/overview.md)
+    page is displayed with the **General** tab in view.
+
+3. On the **Dynasty Options** tab, select the required option from the **Inheritance** drop-down
+   list.
+
+    See the Inheritance section in
+    [Dynasty Options](/versioned_docs/groupid_11.0/groupid/portal/group/properties/dynastyoptions.md).
+
+4. Click **Save**.
 
 ## Modify alias and display name templates
 
-__For an Organizational/Geographical/Custom Dynasty__
+**For an Organizational/Geographical/Custom Dynasty**
 
-1. On the left navigation bar, click __Groups__ and then select the __My Groups__ tab.
+1. On the left navigation bar, click **Groups** and then select the **My Groups** tab.
 
-   You can also [Directory Search](/versioned_docs/groupid_11.0/groupid/portal/search/search.md) the Dynasty you want to change the alias or display name template for.
-2. Select the required Organizational/Geographical/Custom Dynasty and click __Properties__ on the toolbar.
+    You can also [Directory Search](/versioned_docs/groupid_11.0/groupid/portal/search/search.md)
+    the Dynasty you want to change the alias or display name template for.
 
-   The Dynasty's [Group Properties](/versioned_docs/groupid_11.0/groupid/portal/group/properties/overview.md) page is displayed with the __General__ tab in view.
-3. On the __Dynasty Options__ tab, use the __Alias Template__ and __Display Name Template__ boxes to modify the respective templates.
+2. Select the required Organizational/Geographical/Custom Dynasty and click **Properties** on the
+   toolbar.
 
-   For details, see the Alias Template and Display Name Template sections in [Dynasty Options](/versioned_docs/groupid_11.0/groupid/portal/group/properties/dynastyoptions.md) for an Organizational/Geographical/Custom Dynasty.
-4. Click __Save__.
+    The Dynasty's
+    [Group Properties](/versioned_docs/groupid_11.0/groupid/portal/group/properties/overview.md)
+    page is displayed with the **General** tab in view.
 
-__For a Managerial Dynasty__
+3. On the **Dynasty Options** tab, use the **Alias Template** and **Display Name Template** boxes to
+   modify the respective templates.
 
-1. On the left navigation bar, click __Groups__ and then select the __My Groups__ tab.
+    For details, see the Alias Template and Display Name Template sections in
+    [Dynasty Options](/versioned_docs/groupid_11.0/groupid/portal/group/properties/dynastyoptions.md)
+    for an Organizational/Geographical/Custom Dynasty.
 
-   You can also [Directory Search](/versioned_docs/groupid_11.0/groupid/portal/search/search.md) the Dynasty you want to change the alias or display name template for.
-2. Select the required Managerial Dynasty and click __Properties__ on the toolbar.
+4. Click **Save**.
 
-   The Dynasty's [Group Properties](/versioned_docs/groupid_11.0/groupid/portal/group/properties/overview.md) page is displayed with the __General__ tab in view.
-3. On the __Dynasty Options__ tab, use the __Alias Template__ and __Display Name Template__ boxes to modify the respective templates.
+**For a Managerial Dynasty**
 
-   For details, see the Alias Template and Display Name Template sections in [Dynasty Options](/versioned_docs/groupid_11.0/groupid/portal/group/properties/dynastyoptions.md) for a Managerial Dynasty.
-4. Click __Save__.
+1. On the left navigation bar, click **Groups** and then select the **My Groups** tab.
 
-__See Also__
+    You can also [Directory Search](/versioned_docs/groupid_11.0/groupid/portal/search/search.md)
+    the Dynasty you want to change the alias or display name template for.
+
+2. Select the required Managerial Dynasty and click **Properties** on the toolbar.
+
+    The Dynasty's
+    [Group Properties](/versioned_docs/groupid_11.0/groupid/portal/group/properties/overview.md)
+    page is displayed with the **General** tab in view.
+
+3. On the **Dynasty Options** tab, use the **Alias Template** and **Display Name Template** boxes to
+   modify the respective templates.
+
+    For details, see the Alias Template and Display Name Template sections in
+    [Dynasty Options](/versioned_docs/groupid_11.0/groupid/portal/group/properties/dynastyoptions.md)
+    for a Managerial Dynasty.
+
+4. Click **Save**.
+
+**See Also**
 
 - [Working with Groups](/versioned_docs/groupid_11.0/groupid/portal/group/manage/workingwithgroups.md)

@@ -10,9 +10,9 @@
 
 ## Properties
 
-| Property | Details |
-| --- | --- |
-| Workflow   optional | __Type__    String   __Description__   Identifier of the workflow involved in the scaffolding. |
+| Property          | Details                                                                                 |
+| ----------------- | --------------------------------------------------------------------------------------- |
+| Workflow optional | **Type** String **Description** Identifier of the workflow involved in the scaffolding. |
 
 ## Generated XML
 

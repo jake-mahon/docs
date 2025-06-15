@@ -1,6 +1,8 @@
 # Synchronize Jobs APIs
 
-GroupID Synchronize is used for transferring data from one data source to another. The data sources may include directory servers, databases or files. The following APIs can be used for performing Synchronize jobs-specific functions:
+GroupID Synchronize is used for transferring data from one data source to another. The data sources
+may include directory servers, databases or files. The following APIs can be used for performing
+Synchronize jobs-specific functions:
 
 - [Create a New Job](/versioned_docs/groupid_11.0/groupid/api/syncjobs/createjob.md)
 - [Create a New Job Collection](/versioned_docs/groupid_11.0/groupid/api/syncjobs/createnewjobcollection.md)

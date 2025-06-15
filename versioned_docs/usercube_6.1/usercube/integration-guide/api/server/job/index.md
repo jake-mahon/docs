@@ -10,17 +10,17 @@ Runs Job.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id | Identifier of the Job to run automaton. | True |  |  |
-| jobLogLevel | Override the serilog LogLevel. | False |  | [LogLevel](/versioned_docs/usercube_6.1/usercube/integration-guide/api/server/index.md) |
-| api-version | The requested API version | True |  |  |
+| Name        | Description                             | Required | Type | Reference                                                                               |
+| ----------- | --------------------------------------- | -------- | ---- | --------------------------------------------------------------------------------------- |
+| id          | Identifier of the Job to run automaton. | True     |      |                                                                                         |
+| jobLogLevel | Override the serilog LogLevel.          | False    |      | [LogLevel](/versioned_docs/usercube_6.1/usercube/integration-guide/api/server/index.md) |
+| api-version | The requested API version               | True     |      |                                                                                         |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The result of the job to run automaton. |  |
+| Code | Description                             | Reference |
+| ---- | --------------------------------------- | --------- |
+| 200  | The result of the job to run automaton. |           |
 
 ### /api/Job/Job
 
@@ -28,35 +28,35 @@ Runs Job.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| squery |  | False |  |  |
-| Path | Represents the permission path. | False |  |  |
-| QueryRootEntityType | Defines the query root entity type. | False |  |  |
-| QueryBinding | Defines the query binding. | False |  |  |
-| PageSize | Page size. | False |  |  |
-| ContinuationToken | ContinuationToken returned by previous page request. | False |  |  |
-| api-version | The requested API version | True |  |  |
+| Name                | Description                                          | Required | Type | Reference |
+| ------------------- | ---------------------------------------------------- | -------- | ---- | --------- |
+| squery              |                                                      | False    |      |           |
+| Path                | Represents the permission path.                      | False    |      |           |
+| QueryRootEntityType | Defines the query root entity type.                  | False    |      |           |
+| QueryBinding        | Defines the query binding.                           | False    |      |           |
+| PageSize            | Page size.                                           | False    |      |           |
+| ContinuationToken   | ContinuationToken returned by previous page request. | False    |      |           |
+| api-version         | The requested API version                            | True     |      |           |
 
 ##### Responses:
 
 | Code | Description | Reference |
-| --- | --- | --- |
-| 200 | Success |  |
+| ---- | ----------- | --------- |
+| 200  | Success     |           |
 
 #### Post
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| api-version | The requested API version | True |  |  |
+| Name        | Description               | Required | Type | Reference |
+| ----------- | ------------------------- | -------- | ---- | --------- |
+| api-version | The requested API version | True     |      |           |
 
 ##### Responses:
 
 | Code | Description | Reference |
-| --- | --- | --- |
-| 200 | Success |  |
+| ---- | ----------- | --------- |
+| 200  | Success     |           |
 
 ### /api/Job/Job/`{id}`
 
@@ -64,50 +64,50 @@ Runs Job.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id |  | True |  |  |
-| squery |  | False |  |  |
-| Path | Represents the permission path. | False |  |  |
-| QueryRootEntityType | Defines the query root entity type. | False |  |  |
-| QueryBinding | Defines the query binding. | False |  |  |
-| api-version | The requested API version | True |  |  |
+| Name                | Description                         | Required | Type | Reference |
+| ------------------- | ----------------------------------- | -------- | ---- | --------- |
+| id                  |                                     | True     |      |           |
+| squery              |                                     | False    |      |           |
+| Path                | Represents the permission path.     | False    |      |           |
+| QueryRootEntityType | Defines the query root entity type. | False    |      |           |
+| QueryBinding        | Defines the query binding.          | False    |      |           |
+| api-version         | The requested API version           | True     |      |           |
 
 ##### Responses:
 
 | Code | Description | Reference |
-| --- | --- | --- |
-| 200 | Success |  |
+| ---- | ----------- | --------- |
+| 200  | Success     |           |
 
 #### Put
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id |  | True |  |  |
-| api-version | The requested API version | True |  |  |
+| Name        | Description               | Required | Type | Reference |
+| ----------- | ------------------------- | -------- | ---- | --------- |
+| id          |                           | True     |      |           |
+| api-version | The requested API version | True     |      |           |
 
 ##### Responses:
 
 | Code | Description | Reference |
-| --- | --- | --- |
-| 200 | Success |  |
+| ---- | ----------- | --------- |
+| 200  | Success     |           |
 
 #### Delete
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id |  | True |  |  |
-| api-version | The requested API version | True |  |  |
+| Name        | Description               | Required | Type | Reference |
+| ----------- | ------------------------- | -------- | ---- | --------- |
+| id          |                           | True     |      |           |
+| api-version | The requested API version | True     |      |           |
 
 ##### Responses:
 
 | Code | Description | Reference |
-| --- | --- | --- |
-| 200 | Success |  |
+| ---- | ----------- | --------- |
+| 200  | Success     |           |
 
 ### /api/Job/Job/Notification
 
@@ -115,15 +115,15 @@ Runs Job.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| api-version | The requested API version | True |  |  |
+| Name        | Description               | Required | Type | Reference |
+| ----------- | ------------------------- | -------- | ---- | --------- |
+| api-version | The requested API version | True     |      |           |
 
 ##### Responses:
 
 | Code | Description | Reference |
-| --- | --- | --- |
-| 200 | Success |  |
+| ---- | ----------- | --------- |
+| 200  | Success     |           |
 
 ### /api/Job/JobInstance
 
@@ -131,35 +131,35 @@ Runs Job.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| squery |  | False |  |  |
-| Path | Represents the permission path. | False |  |  |
-| QueryRootEntityType | Defines the query root entity type. | False |  |  |
-| QueryBinding | Defines the query binding. | False |  |  |
-| PageSize | Page size. | False |  |  |
-| ContinuationToken | ContinuationToken returned by previous page request. | False |  |  |
-| api-version | The requested API version | True |  |  |
+| Name                | Description                                          | Required | Type | Reference |
+| ------------------- | ---------------------------------------------------- | -------- | ---- | --------- |
+| squery              |                                                      | False    |      |           |
+| Path                | Represents the permission path.                      | False    |      |           |
+| QueryRootEntityType | Defines the query root entity type.                  | False    |      |           |
+| QueryBinding        | Defines the query binding.                           | False    |      |           |
+| PageSize            | Page size.                                           | False    |      |           |
+| ContinuationToken   | ContinuationToken returned by previous page request. | False    |      |           |
+| api-version         | The requested API version                            | True     |      |           |
 
 ##### Responses:
 
 | Code | Description | Reference |
-| --- | --- | --- |
-| 200 | Success |  |
+| ---- | ----------- | --------- |
+| 200  | Success     |           |
 
 #### Post
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| api-version | The requested API version | True |  |  |
+| Name        | Description               | Required | Type | Reference |
+| ----------- | ------------------------- | -------- | ---- | --------- |
+| api-version | The requested API version | True     |      |           |
 
 ##### Responses:
 
 | Code | Description | Reference |
-| --- | --- | --- |
-| 200 | Success |  |
+| ---- | ----------- | --------- |
+| 200  | Success     |           |
 
 ### /api/Job/JobInstance/`{id}`
 
@@ -167,50 +167,50 @@ Runs Job.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id |  | True |  |  |
-| squery |  | False |  |  |
-| Path | Represents the permission path. | False |  |  |
-| QueryRootEntityType | Defines the query root entity type. | False |  |  |
-| QueryBinding | Defines the query binding. | False |  |  |
-| api-version | The requested API version | True |  |  |
+| Name                | Description                         | Required | Type | Reference |
+| ------------------- | ----------------------------------- | -------- | ---- | --------- |
+| id                  |                                     | True     |      |           |
+| squery              |                                     | False    |      |           |
+| Path                | Represents the permission path.     | False    |      |           |
+| QueryRootEntityType | Defines the query root entity type. | False    |      |           |
+| QueryBinding        | Defines the query binding.          | False    |      |           |
+| api-version         | The requested API version           | True     |      |           |
 
 ##### Responses:
 
 | Code | Description | Reference |
-| --- | --- | --- |
-| 200 | Success |  |
+| ---- | ----------- | --------- |
+| 200  | Success     |           |
 
 #### Put
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id |  | True |  |  |
-| api-version | The requested API version | True |  |  |
+| Name        | Description               | Required | Type | Reference |
+| ----------- | ------------------------- | -------- | ---- | --------- |
+| id          |                           | True     |      |           |
+| api-version | The requested API version | True     |      |           |
 
 ##### Responses:
 
 | Code | Description | Reference |
-| --- | --- | --- |
-| 200 | Success |  |
+| ---- | ----------- | --------- |
+| 200  | Success     |           |
 
 #### Delete
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id |  | True |  |  |
-| api-version | The requested API version | True |  |  |
+| Name        | Description               | Required | Type | Reference |
+| ----------- | ------------------------- | -------- | ---- | --------- |
+| id          |                           | True     |      |           |
+| api-version | The requested API version | True     |      |           |
 
 ##### Responses:
 
 | Code | Description | Reference |
-| --- | --- | --- |
-| 200 | Success |  |
+| ---- | ----------- | --------- |
+| 200  | Success     |           |
 
 ### /api/Job/JobStep
 
@@ -218,35 +218,35 @@ Runs Job.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| squery |  | False |  |  |
-| Path | Represents the permission path. | False |  |  |
-| QueryRootEntityType | Defines the query root entity type. | False |  |  |
-| QueryBinding | Defines the query binding. | False |  |  |
-| PageSize | Page size. | False |  |  |
-| ContinuationToken | ContinuationToken returned by previous page request. | False |  |  |
-| api-version | The requested API version | True |  |  |
+| Name                | Description                                          | Required | Type | Reference |
+| ------------------- | ---------------------------------------------------- | -------- | ---- | --------- |
+| squery              |                                                      | False    |      |           |
+| Path                | Represents the permission path.                      | False    |      |           |
+| QueryRootEntityType | Defines the query root entity type.                  | False    |      |           |
+| QueryBinding        | Defines the query binding.                           | False    |      |           |
+| PageSize            | Page size.                                           | False    |      |           |
+| ContinuationToken   | ContinuationToken returned by previous page request. | False    |      |           |
+| api-version         | The requested API version                            | True     |      |           |
 
 ##### Responses:
 
 | Code | Description | Reference |
-| --- | --- | --- |
-| 200 | Success |  |
+| ---- | ----------- | --------- |
+| 200  | Success     |           |
 
 #### Post
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| api-version | The requested API version | True |  |  |
+| Name        | Description               | Required | Type | Reference |
+| ----------- | ------------------------- | -------- | ---- | --------- |
+| api-version | The requested API version | True     |      |           |
 
 ##### Responses:
 
 | Code | Description | Reference |
-| --- | --- | --- |
-| 200 | Success |  |
+| ---- | ----------- | --------- |
+| 200  | Success     |           |
 
 ### /api/Job/JobStep/`{id}`
 
@@ -254,50 +254,50 @@ Runs Job.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id |  | True |  |  |
-| squery |  | False |  |  |
-| Path | Represents the permission path. | False |  |  |
-| QueryRootEntityType | Defines the query root entity type. | False |  |  |
-| QueryBinding | Defines the query binding. | False |  |  |
-| api-version | The requested API version | True |  |  |
+| Name                | Description                         | Required | Type | Reference |
+| ------------------- | ----------------------------------- | -------- | ---- | --------- |
+| id                  |                                     | True     |      |           |
+| squery              |                                     | False    |      |           |
+| Path                | Represents the permission path.     | False    |      |           |
+| QueryRootEntityType | Defines the query root entity type. | False    |      |           |
+| QueryBinding        | Defines the query binding.          | False    |      |           |
+| api-version         | The requested API version           | True     |      |           |
 
 ##### Responses:
 
 | Code | Description | Reference |
-| --- | --- | --- |
-| 200 | Success |  |
+| ---- | ----------- | --------- |
+| 200  | Success     |           |
 
 #### Put
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id |  | True |  |  |
-| api-version | The requested API version | True |  |  |
+| Name        | Description               | Required | Type | Reference |
+| ----------- | ------------------------- | -------- | ---- | --------- |
+| id          |                           | True     |      |           |
+| api-version | The requested API version | True     |      |           |
 
 ##### Responses:
 
 | Code | Description | Reference |
-| --- | --- | --- |
-| 200 | Success |  |
+| ---- | ----------- | --------- |
+| 200  | Success     |           |
 
 #### Delete
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id |  | True |  |  |
-| api-version | The requested API version | True |  |  |
+| Name        | Description               | Required | Type | Reference |
+| ----------- | ------------------------- | -------- | ---- | --------- |
+| id          |                           | True     |      |           |
+| api-version | The requested API version | True     |      |           |
 
 ##### Responses:
 
 | Code | Description | Reference |
-| --- | --- | --- |
-| 200 | Success |  |
+| ---- | ----------- | --------- |
+| 200  | Success     |           |
 
 ### /api/Job/Task
 
@@ -305,35 +305,35 @@ Runs Job.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| squery |  | False |  |  |
-| Path | Represents the permission path. | False |  |  |
-| QueryRootEntityType | Defines the query root entity type. | False |  |  |
-| QueryBinding | Defines the query binding. | False |  |  |
-| PageSize | Page size. | False |  |  |
-| ContinuationToken | ContinuationToken returned by previous page request. | False |  |  |
-| api-version | The requested API version | True |  |  |
+| Name                | Description                                          | Required | Type | Reference |
+| ------------------- | ---------------------------------------------------- | -------- | ---- | --------- |
+| squery              |                                                      | False    |      |           |
+| Path                | Represents the permission path.                      | False    |      |           |
+| QueryRootEntityType | Defines the query root entity type.                  | False    |      |           |
+| QueryBinding        | Defines the query binding.                           | False    |      |           |
+| PageSize            | Page size.                                           | False    |      |           |
+| ContinuationToken   | ContinuationToken returned by previous page request. | False    |      |           |
+| api-version         | The requested API version                            | True     |      |           |
 
 ##### Responses:
 
 | Code | Description | Reference |
-| --- | --- | --- |
-| 200 | Success |  |
+| ---- | ----------- | --------- |
+| 200  | Success     |           |
 
 #### Post
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| api-version | The requested API version | True |  |  |
+| Name        | Description               | Required | Type | Reference |
+| ----------- | ------------------------- | -------- | ---- | --------- |
+| api-version | The requested API version | True     |      |           |
 
 ##### Responses:
 
 | Code | Description | Reference |
-| --- | --- | --- |
-| 200 | Success |  |
+| ---- | ----------- | --------- |
+| 200  | Success     |           |
 
 ### /api/Job/Task/`{id}`
 
@@ -341,50 +341,50 @@ Runs Job.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id |  | True |  |  |
-| squery |  | False |  |  |
-| Path | Represents the permission path. | False |  |  |
-| QueryRootEntityType | Defines the query root entity type. | False |  |  |
-| QueryBinding | Defines the query binding. | False |  |  |
-| api-version | The requested API version | True |  |  |
+| Name                | Description                         | Required | Type | Reference |
+| ------------------- | ----------------------------------- | -------- | ---- | --------- |
+| id                  |                                     | True     |      |           |
+| squery              |                                     | False    |      |           |
+| Path                | Represents the permission path.     | False    |      |           |
+| QueryRootEntityType | Defines the query root entity type. | False    |      |           |
+| QueryBinding        | Defines the query binding.          | False    |      |           |
+| api-version         | The requested API version           | True     |      |           |
 
 ##### Responses:
 
 | Code | Description | Reference |
-| --- | --- | --- |
-| 200 | Success |  |
+| ---- | ----------- | --------- |
+| 200  | Success     |           |
 
 #### Put
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id |  | True |  |  |
-| api-version | The requested API version | True |  |  |
+| Name        | Description               | Required | Type | Reference |
+| ----------- | ------------------------- | -------- | ---- | --------- |
+| id          |                           | True     |      |           |
+| api-version | The requested API version | True     |      |           |
 
 ##### Responses:
 
 | Code | Description | Reference |
-| --- | --- | --- |
-| 200 | Success |  |
+| ---- | ----------- | --------- |
+| 200  | Success     |           |
 
 #### Delete
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id |  | True |  |  |
-| api-version | The requested API version | True |  |  |
+| Name        | Description               | Required | Type | Reference |
+| ----------- | ------------------------- | -------- | ---- | --------- |
+| id          |                           | True     |      |           |
+| api-version | The requested API version | True     |      |           |
 
 ##### Responses:
 
 | Code | Description | Reference |
-| --- | --- | --- |
-| 200 | Success |  |
+| ---- | ----------- | --------- |
+| 200  | Success     |           |
 
 ### /api/Job/TaskDependOnTask
 
@@ -392,35 +392,35 @@ Runs Job.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| squery |  | False |  |  |
-| Path | Represents the permission path. | False |  |  |
-| QueryRootEntityType | Defines the query root entity type. | False |  |  |
-| QueryBinding | Defines the query binding. | False |  |  |
-| PageSize | Page size. | False |  |  |
-| ContinuationToken | ContinuationToken returned by previous page request. | False |  |  |
-| api-version | The requested API version | True |  |  |
+| Name                | Description                                          | Required | Type | Reference |
+| ------------------- | ---------------------------------------------------- | -------- | ---- | --------- |
+| squery              |                                                      | False    |      |           |
+| Path                | Represents the permission path.                      | False    |      |           |
+| QueryRootEntityType | Defines the query root entity type.                  | False    |      |           |
+| QueryBinding        | Defines the query binding.                           | False    |      |           |
+| PageSize            | Page size.                                           | False    |      |           |
+| ContinuationToken   | ContinuationToken returned by previous page request. | False    |      |           |
+| api-version         | The requested API version                            | True     |      |           |
 
 ##### Responses:
 
 | Code | Description | Reference |
-| --- | --- | --- |
-| 200 | Success |  |
+| ---- | ----------- | --------- |
+| 200  | Success     |           |
 
 #### Post
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| api-version | The requested API version | True |  |  |
+| Name        | Description               | Required | Type | Reference |
+| ----------- | ------------------------- | -------- | ---- | --------- |
+| api-version | The requested API version | True     |      |           |
 
 ##### Responses:
 
 | Code | Description | Reference |
-| --- | --- | --- |
-| 200 | Success |  |
+| ---- | ----------- | --------- |
+| 200  | Success     |           |
 
 ### /api/Job/TaskDependOnTask/`{id}`
 
@@ -428,50 +428,50 @@ Runs Job.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id |  | True |  |  |
-| squery |  | False |  |  |
-| Path | Represents the permission path. | False |  |  |
-| QueryRootEntityType | Defines the query root entity type. | False |  |  |
-| QueryBinding | Defines the query binding. | False |  |  |
-| api-version | The requested API version | True |  |  |
+| Name                | Description                         | Required | Type | Reference |
+| ------------------- | ----------------------------------- | -------- | ---- | --------- |
+| id                  |                                     | True     |      |           |
+| squery              |                                     | False    |      |           |
+| Path                | Represents the permission path.     | False    |      |           |
+| QueryRootEntityType | Defines the query root entity type. | False    |      |           |
+| QueryBinding        | Defines the query binding.          | False    |      |           |
+| api-version         | The requested API version           | True     |      |           |
 
 ##### Responses:
 
 | Code | Description | Reference |
-| --- | --- | --- |
-| 200 | Success |  |
+| ---- | ----------- | --------- |
+| 200  | Success     |           |
 
 #### Put
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id |  | True |  |  |
-| api-version | The requested API version | True |  |  |
+| Name        | Description               | Required | Type | Reference |
+| ----------- | ------------------------- | -------- | ---- | --------- |
+| id          |                           | True     |      |           |
+| api-version | The requested API version | True     |      |           |
 
 ##### Responses:
 
 | Code | Description | Reference |
-| --- | --- | --- |
-| 200 | Success |  |
+| ---- | ----------- | --------- |
+| 200  | Success     |           |
 
 #### Delete
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id |  | True |  |  |
-| api-version | The requested API version | True |  |  |
+| Name        | Description               | Required | Type | Reference |
+| ----------- | ------------------------- | -------- | ---- | --------- |
+| id          |                           | True     |      |           |
+| api-version | The requested API version | True     |      |           |
 
 ##### Responses:
 
 | Code | Description | Reference |
-| --- | --- | --- |
-| 200 | Success |  |
+| ---- | ----------- | --------- |
+| 200  | Success     |           |
 
 ### /api/Job/TaskDimension
 
@@ -479,35 +479,35 @@ Runs Job.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| squery |  | False |  |  |
-| Path | Represents the permission path. | False |  |  |
-| QueryRootEntityType | Defines the query root entity type. | False |  |  |
-| QueryBinding | Defines the query binding. | False |  |  |
-| PageSize | Page size. | False |  |  |
-| ContinuationToken | ContinuationToken returned by previous page request. | False |  |  |
-| api-version | The requested API version | True |  |  |
+| Name                | Description                                          | Required | Type | Reference |
+| ------------------- | ---------------------------------------------------- | -------- | ---- | --------- |
+| squery              |                                                      | False    |      |           |
+| Path                | Represents the permission path.                      | False    |      |           |
+| QueryRootEntityType | Defines the query root entity type.                  | False    |      |           |
+| QueryBinding        | Defines the query binding.                           | False    |      |           |
+| PageSize            | Page size.                                           | False    |      |           |
+| ContinuationToken   | ContinuationToken returned by previous page request. | False    |      |           |
+| api-version         | The requested API version                            | True     |      |           |
 
 ##### Responses:
 
 | Code | Description | Reference |
-| --- | --- | --- |
-| 200 | Success |  |
+| ---- | ----------- | --------- |
+| 200  | Success     |           |
 
 #### Post
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| api-version | The requested API version | True |  |  |
+| Name        | Description               | Required | Type | Reference |
+| ----------- | ------------------------- | -------- | ---- | --------- |
+| api-version | The requested API version | True     |      |           |
 
 ##### Responses:
 
 | Code | Description | Reference |
-| --- | --- | --- |
-| 200 | Success |  |
+| ---- | ----------- | --------- |
+| 200  | Success     |           |
 
 ### /api/Job/TaskDimension/`{id}`
 
@@ -515,50 +515,50 @@ Runs Job.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id |  | True |  |  |
-| squery |  | False |  |  |
-| Path | Represents the permission path. | False |  |  |
-| QueryRootEntityType | Defines the query root entity type. | False |  |  |
-| QueryBinding | Defines the query binding. | False |  |  |
-| api-version | The requested API version | True |  |  |
+| Name                | Description                         | Required | Type | Reference |
+| ------------------- | ----------------------------------- | -------- | ---- | --------- |
+| id                  |                                     | True     |      |           |
+| squery              |                                     | False    |      |           |
+| Path                | Represents the permission path.     | False    |      |           |
+| QueryRootEntityType | Defines the query root entity type. | False    |      |           |
+| QueryBinding        | Defines the query binding.          | False    |      |           |
+| api-version         | The requested API version           | True     |      |           |
 
 ##### Responses:
 
 | Code | Description | Reference |
-| --- | --- | --- |
-| 200 | Success |  |
+| ---- | ----------- | --------- |
+| 200  | Success     |           |
 
 #### Put
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id |  | True |  |  |
-| api-version | The requested API version | True |  |  |
+| Name        | Description               | Required | Type | Reference |
+| ----------- | ------------------------- | -------- | ---- | --------- |
+| id          |                           | True     |      |           |
+| api-version | The requested API version | True     |      |           |
 
 ##### Responses:
 
 | Code | Description | Reference |
-| --- | --- | --- |
-| 200 | Success |  |
+| ---- | ----------- | --------- |
+| 200  | Success     |           |
 
 #### Delete
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id |  | True |  |  |
-| api-version | The requested API version | True |  |  |
+| Name        | Description               | Required | Type | Reference |
+| ----------- | ------------------------- | -------- | ---- | --------- |
+| id          |                           | True     |      |           |
+| api-version | The requested API version | True     |      |           |
 
 ##### Responses:
 
 | Code | Description | Reference |
-| --- | --- | --- |
-| 200 | Success |  |
+| ---- | ----------- | --------- |
+| 200  | Success     |           |
 
 ### /api/Job/TaskEntityType
 
@@ -566,35 +566,35 @@ Runs Job.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| squery |  | False |  |  |
-| Path | Represents the permission path. | False |  |  |
-| QueryRootEntityType | Defines the query root entity type. | False |  |  |
-| QueryBinding | Defines the query binding. | False |  |  |
-| PageSize | Page size. | False |  |  |
-| ContinuationToken | ContinuationToken returned by previous page request. | False |  |  |
-| api-version | The requested API version | True |  |  |
+| Name                | Description                                          | Required | Type | Reference |
+| ------------------- | ---------------------------------------------------- | -------- | ---- | --------- |
+| squery              |                                                      | False    |      |           |
+| Path                | Represents the permission path.                      | False    |      |           |
+| QueryRootEntityType | Defines the query root entity type.                  | False    |      |           |
+| QueryBinding        | Defines the query binding.                           | False    |      |           |
+| PageSize            | Page size.                                           | False    |      |           |
+| ContinuationToken   | ContinuationToken returned by previous page request. | False    |      |           |
+| api-version         | The requested API version                            | True     |      |           |
 
 ##### Responses:
 
 | Code | Description | Reference |
-| --- | --- | --- |
-| 200 | Success |  |
+| ---- | ----------- | --------- |
+| 200  | Success     |           |
 
 #### Post
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| api-version | The requested API version | True |  |  |
+| Name        | Description               | Required | Type | Reference |
+| ----------- | ------------------------- | -------- | ---- | --------- |
+| api-version | The requested API version | True     |      |           |
 
 ##### Responses:
 
 | Code | Description | Reference |
-| --- | --- | --- |
-| 200 | Success |  |
+| ---- | ----------- | --------- |
+| 200  | Success     |           |
 
 ### /api/Job/TaskEntityType/`{id}`
 
@@ -602,50 +602,50 @@ Runs Job.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id |  | True |  |  |
-| squery |  | False |  |  |
-| Path | Represents the permission path. | False |  |  |
-| QueryRootEntityType | Defines the query root entity type. | False |  |  |
-| QueryBinding | Defines the query binding. | False |  |  |
-| api-version | The requested API version | True |  |  |
+| Name                | Description                         | Required | Type | Reference |
+| ------------------- | ----------------------------------- | -------- | ---- | --------- |
+| id                  |                                     | True     |      |           |
+| squery              |                                     | False    |      |           |
+| Path                | Represents the permission path.     | False    |      |           |
+| QueryRootEntityType | Defines the query root entity type. | False    |      |           |
+| QueryBinding        | Defines the query binding.          | False    |      |           |
+| api-version         | The requested API version           | True     |      |           |
 
 ##### Responses:
 
 | Code | Description | Reference |
-| --- | --- | --- |
-| 200 | Success |  |
+| ---- | ----------- | --------- |
+| 200  | Success     |           |
 
 #### Put
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id |  | True |  |  |
-| api-version | The requested API version | True |  |  |
+| Name        | Description               | Required | Type | Reference |
+| ----------- | ------------------------- | -------- | ---- | --------- |
+| id          |                           | True     |      |           |
+| api-version | The requested API version | True     |      |           |
 
 ##### Responses:
 
 | Code | Description | Reference |
-| --- | --- | --- |
-| 200 | Success |  |
+| ---- | ----------- | --------- |
+| 200  | Success     |           |
 
 #### Delete
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id |  | True |  |  |
-| api-version | The requested API version | True |  |  |
+| Name        | Description               | Required | Type | Reference |
+| ----------- | ------------------------- | -------- | ---- | --------- |
+| id          |                           | True     |      |           |
+| api-version | The requested API version | True     |      |           |
 
 ##### Responses:
 
 | Code | Description | Reference |
-| --- | --- | --- |
-| 200 | Success |  |
+| ---- | ----------- | --------- |
+| 200  | Success     |           |
 
 ### /api/Job/TaskInstance
 
@@ -653,35 +653,35 @@ Runs Job.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| squery |  | False |  |  |
-| Path | Represents the permission path. | False |  |  |
-| QueryRootEntityType | Defines the query root entity type. | False |  |  |
-| QueryBinding | Defines the query binding. | False |  |  |
-| PageSize | Page size. | False |  |  |
-| ContinuationToken | ContinuationToken returned by previous page request. | False |  |  |
-| api-version | The requested API version | True |  |  |
+| Name                | Description                                          | Required | Type | Reference |
+| ------------------- | ---------------------------------------------------- | -------- | ---- | --------- |
+| squery              |                                                      | False    |      |           |
+| Path                | Represents the permission path.                      | False    |      |           |
+| QueryRootEntityType | Defines the query root entity type.                  | False    |      |           |
+| QueryBinding        | Defines the query binding.                           | False    |      |           |
+| PageSize            | Page size.                                           | False    |      |           |
+| ContinuationToken   | ContinuationToken returned by previous page request. | False    |      |           |
+| api-version         | The requested API version                            | True     |      |           |
 
 ##### Responses:
 
 | Code | Description | Reference |
-| --- | --- | --- |
-| 200 | Success |  |
+| ---- | ----------- | --------- |
+| 200  | Success     |           |
 
 #### Post
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| api-version | The requested API version | True |  |  |
+| Name        | Description               | Required | Type | Reference |
+| ----------- | ------------------------- | -------- | ---- | --------- |
+| api-version | The requested API version | True     |      |           |
 
 ##### Responses:
 
 | Code | Description | Reference |
-| --- | --- | --- |
-| 200 | Success |  |
+| ---- | ----------- | --------- |
+| 200  | Success     |           |
 
 ### /api/Job/TaskInstance/`{id}`
 
@@ -689,50 +689,50 @@ Runs Job.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id |  | True |  |  |
-| squery |  | False |  |  |
-| Path | Represents the permission path. | False |  |  |
-| QueryRootEntityType | Defines the query root entity type. | False |  |  |
-| QueryBinding | Defines the query binding. | False |  |  |
-| api-version | The requested API version | True |  |  |
+| Name                | Description                         | Required | Type | Reference |
+| ------------------- | ----------------------------------- | -------- | ---- | --------- |
+| id                  |                                     | True     |      |           |
+| squery              |                                     | False    |      |           |
+| Path                | Represents the permission path.     | False    |      |           |
+| QueryRootEntityType | Defines the query root entity type. | False    |      |           |
+| QueryBinding        | Defines the query binding.          | False    |      |           |
+| api-version         | The requested API version           | True     |      |           |
 
 ##### Responses:
 
 | Code | Description | Reference |
-| --- | --- | --- |
-| 200 | Success |  |
+| ---- | ----------- | --------- |
+| 200  | Success     |           |
 
 #### Put
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id |  | True |  |  |
-| api-version | The requested API version | True |  |  |
+| Name        | Description               | Required | Type | Reference |
+| ----------- | ------------------------- | -------- | ---- | --------- |
+| id          |                           | True     |      |           |
+| api-version | The requested API version | True     |      |           |
 
 ##### Responses:
 
 | Code | Description | Reference |
-| --- | --- | --- |
-| 200 | Success |  |
+| ---- | ----------- | --------- |
+| 200  | Success     |           |
 
 #### Delete
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id |  | True |  |  |
-| api-version | The requested API version | True |  |  |
+| Name        | Description               | Required | Type | Reference |
+| ----------- | ------------------------- | -------- | ---- | --------- |
+| id          |                           | True     |      |           |
+| api-version | The requested API version | True     |      |           |
 
 ##### Responses:
 
 | Code | Description | Reference |
-| --- | --- | --- |
-| 200 | Success |  |
+| ---- | ----------- | --------- |
+| 200  | Success     |           |
 
 ### /api/Job/TaskResourceType
 
@@ -740,35 +740,35 @@ Runs Job.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| squery |  | False |  |  |
-| Path | Represents the permission path. | False |  |  |
-| QueryRootEntityType | Defines the query root entity type. | False |  |  |
-| QueryBinding | Defines the query binding. | False |  |  |
-| PageSize | Page size. | False |  |  |
-| ContinuationToken | ContinuationToken returned by previous page request. | False |  |  |
-| api-version | The requested API version | True |  |  |
+| Name                | Description                                          | Required | Type | Reference |
+| ------------------- | ---------------------------------------------------- | -------- | ---- | --------- |
+| squery              |                                                      | False    |      |           |
+| Path                | Represents the permission path.                      | False    |      |           |
+| QueryRootEntityType | Defines the query root entity type.                  | False    |      |           |
+| QueryBinding        | Defines the query binding.                           | False    |      |           |
+| PageSize            | Page size.                                           | False    |      |           |
+| ContinuationToken   | ContinuationToken returned by previous page request. | False    |      |           |
+| api-version         | The requested API version                            | True     |      |           |
 
 ##### Responses:
 
 | Code | Description | Reference |
-| --- | --- | --- |
-| 200 | Success |  |
+| ---- | ----------- | --------- |
+| 200  | Success     |           |
 
 #### Post
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| api-version | The requested API version | True |  |  |
+| Name        | Description               | Required | Type | Reference |
+| ----------- | ------------------------- | -------- | ---- | --------- |
+| api-version | The requested API version | True     |      |           |
 
 ##### Responses:
 
 | Code | Description | Reference |
-| --- | --- | --- |
-| 200 | Success |  |
+| ---- | ----------- | --------- |
+| 200  | Success     |           |
 
 ### /api/Job/TaskResourceType/`{id}`
 
@@ -776,47 +776,47 @@ Runs Job.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id |  | True |  |  |
-| squery |  | False |  |  |
-| Path | Represents the permission path. | False |  |  |
-| QueryRootEntityType | Defines the query root entity type. | False |  |  |
-| QueryBinding | Defines the query binding. | False |  |  |
-| api-version | The requested API version | True |  |  |
+| Name                | Description                         | Required | Type | Reference |
+| ------------------- | ----------------------------------- | -------- | ---- | --------- |
+| id                  |                                     | True     |      |           |
+| squery              |                                     | False    |      |           |
+| Path                | Represents the permission path.     | False    |      |           |
+| QueryRootEntityType | Defines the query root entity type. | False    |      |           |
+| QueryBinding        | Defines the query binding.          | False    |      |           |
+| api-version         | The requested API version           | True     |      |           |
 
 ##### Responses:
 
 | Code | Description | Reference |
-| --- | --- | --- |
-| 200 | Success |  |
+| ---- | ----------- | --------- |
+| 200  | Success     |           |
 
 #### Put
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id |  | True |  |  |
-| api-version | The requested API version | True |  |  |
+| Name        | Description               | Required | Type | Reference |
+| ----------- | ------------------------- | -------- | ---- | --------- |
+| id          |                           | True     |      |           |
+| api-version | The requested API version | True     |      |           |
 
 ##### Responses:
 
 | Code | Description | Reference |
-| --- | --- | --- |
-| 200 | Success |  |
+| ---- | ----------- | --------- |
+| 200  | Success     |           |
 
 #### Delete
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id |  | True |  |  |
-| api-version | The requested API version | True |  |  |
+| Name        | Description               | Required | Type | Reference |
+| ----------- | ------------------------- | -------- | ---- | --------- |
+| id          |                           | True     |      |           |
+| api-version | The requested API version | True     |      |           |
 
 ##### Responses:
 
 | Code | Description | Reference |
-| --- | --- | --- |
-| 200 | Success |  |
+| ---- | ----------- | --------- |
+| 200  | Success     |           |

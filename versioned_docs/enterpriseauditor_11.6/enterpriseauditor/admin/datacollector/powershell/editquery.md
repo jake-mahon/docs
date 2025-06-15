@@ -1,6 +1,7 @@
 # PowerShell: Edit Query
 
-The Edit Query page provides a screen to edit the query to execute. Users can import PowerShell script as well as use an input table to create and edit the PowerShell script.
+The Edit Query page provides a screen to edit the query to execute. Users can import PowerShell
+script as well as use an input table to create and edit the PowerShell script.
 
 ![PowerShell Data Collector Wizard Edit Query page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/powershell/editquery.png)
 
@@ -8,8 +9,11 @@ The options on the Edit Query page are:
 
 - Open – Click to import and open a PowerShell script
 - Script Editor – Input PowerShell script to use for the configured job
-- Parameters – The Parameters tab located on the right-hand side of the Edit Query page is used to bring up the Parameters window. See the [Parameters](#parameters) topic for additional information.
-- Use table input for PowerShell script – select the checkbox to bring up the Input options for the PowerShell script. See the [Input Options](#input-options) topic for additional information.
+- Parameters – The Parameters tab located on the right-hand side of the Edit Query page is used to
+  bring up the Parameters window. See the [Parameters](#parameters) topic for additional
+  information.
+- Use table input for PowerShell script – select the checkbox to bring up the Input options for the
+  PowerShell script. See the [Input Options](#input-options) topic for additional information.
 
 ## Parameters
 
@@ -19,11 +23,14 @@ Add, edit, and delete parameters for the PowerShell data collector using the Par
 
 The options in the Parameters Window are:
 
-- Add – Add a parameter by opening the Add/Edit Variable Window. See the [Add/Edit Variable Window](#addedit-variable-window) topic for additional information.
-- Edit – Edit the selected parameter by opening the Add/Edit Variable Window. See the [Add/Edit Variable Window](#addedit-variable-window) topic for additional information.
+- Add – Add a parameter by opening the Add/Edit Variable Window. See the
+  [Add/Edit Variable Window](#addedit-variable-window) topic for additional information.
+- Edit – Edit the selected parameter by opening the Add/Edit Variable Window. See the
+  [Add/Edit Variable Window](#addedit-variable-window) topic for additional information.
 - Delete – Delete a parameter
 
-__NOTE:__ Only user created parameters can be edited or deleted. Pre-configured parameters cannot be edited or deleted.
+**NOTE:** Only user created parameters can be edited or deleted. Pre-configured parameters cannot be
+edited or deleted.
 
 ### Add/Edit Variable Window
 
@@ -37,17 +44,19 @@ The options in the Add/Edit Variable window are:
 - Description – (Optional) Enter or edit the description for the custom parameter
 - Type – Select the Type from the dropdown list. The options are:
 
-  - String
-  - List
-  - Filepath
-  - Boolean
-  - Long
-  - Double
+    - String
+    - List
+    - Filepath
+    - Boolean
+    - Long
+    - Double
+
 - Value – Enter or edit the value for the custom parameter
 
 ## Input Options
 
-When the Use table input for PowerShell script option is selected on the Edit Query page, additional options display to define the source for input data.
+When the Use table input for PowerShell script option is selected on the Edit Query page, additional
+options display to define the source for input data.
 
 ![Edit Query page input options](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/powershell/editqueryinput.png)
 
@@ -57,9 +66,11 @@ The input options are:
 - Filter nulls – Excludes values that are null from input
 - Filter duplicates – Excludes any values that are duplicate from input
 - Text Box – Displays an example of how the input can be used in a PowerShell script
-- Columns – Displays the columns in the selected input table. If applicable, select the checkbox to include the column in the input.
+- Columns – Displays the columns in the selected input table. If applicable, select the checkbox to
+  include the column in the input.
 - Input Data – Preview how the input data will look in the Input Data tab
 
 ![Text Box and the Columns tab populated with information](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/powershell/editqueryinputtable.png)
 
-Selecting an input table in the __Please select name__ dropdown populates the Text Box and the Columns tab with information.
+Selecting an input table in the **Please select name** dropdown populates the Text Box and the
+Columns tab with information.

@@ -1,6 +1,7 @@
 # How can I uninstall the Least Privilege Manager client for MacOS?
 
-If you need to uninstall the Least Privilege Manager client for Mac open a Terminal session and type in the following command.
+If you need to uninstall the Least Privilege Manager client for Mac open a Terminal session and type
+in the following command.
 
 ```
 sudo policypak uninstall

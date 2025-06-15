@@ -1,6 +1,7 @@
 # Member Changes Report
 
-The Member Changes report for a group object provides specific details for any membership changes to the audited group during the selected date range.
+The Member Changes report for a group object provides specific details for any membership changes to
+the audited group during the selected date range.
 
 ![Member Changes report](../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/group/memberchanges.webp)
 
@@ -20,4 +21,5 @@ This report is comprised of the following columns:
 - Change Type – Type of change that occurred: Added to group or Removed from group
 - Scan Time – Date and timestamp of the Access Analyzer scan that identified the change
 
-If the selected trustee is a group, the Group Membership pane displays the group membership, including nested groups.
+If the selected trustee is a group, the Group Membership pane displays the group membership,
+including nested groups.

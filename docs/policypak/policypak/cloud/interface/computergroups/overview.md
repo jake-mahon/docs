@@ -1,15 +1,17 @@
 # Computer Groups
 
-You are likely to spend most of your time working onthe __Computer Groups__ tab. In this tab covers the following features
+You are likely to spend most of your time working onthe **Computer Groups** tab. In this tab covers
+the following features
 
 - Groups. There are two types of groups:
 
-  - Built-in groups (created by the system)
-  - Company groups (created by you)
+    - Built-in groups (created by the system)
+    - Company groups (created by you)
+
 - Create policies using the XML data files tab or the in-cloud editors
 - Link XML data files to the computer group of your choice
 
-__NOTE:__ The actions that appear on the right when you click on a group are context sensitive.
+**NOTE:** The actions that appear on the right when you click on a group are context sensitive.
 
 ![web_interface_and_controls_50_593x200](../../../../../../static/img/product_docs/policypak/policypak/cloud/interface/computergroups/web_interface_and_controls_50_593x200.webp)
 
@@ -22,27 +24,36 @@ In the next sections, we cover the following:
 - Creating policies with the in-cloud editors
 - Working with groups
 
-  - Built-in groups
-  - Company groups
-  - Policy forecast/modeling report
-  - Policy link order
-  - Block inheritance and enforce
-  - Search box
+    - Built-in groups
+    - Company groups
+    - Policy forecast/modeling report
+    - Policy link order
+    - Block inheritance and enforce
+    - Search box
 
 ## Creating Policies with In-Cloud Editors
 
 After you click on a group, you can create a policy to link to the group using the in-cloud editor.
 
-__NOTE:__  If you want to create a policy but not link it yet, then use the XML Data Files tab. By creating the policy there, it will not be linked anywhere until you come back to the __Computer Groups__ tab and perform the link.
+**NOTE:** If you want to create a policy but not link it yet, then use the XML Data Files tab. By
+creating the policy there, it will not be linked anywhere until you come back to the **Computer
+Groups** tab and perform the link.
 
-In the example below, we clicked on the __All__ group, then selected __Create and link a new Policy....__ When you do this, the __Create policy__ dialog appears, and you can select the in-cloud editor of your choice.
+In the example below, we clicked on the **All** group, then selected **Create and link a new
+Policy....** When you do this, the **Create policy** dialog appears, and you can select the in-cloud
+editor of your choice.
 
 ![web_interface_and_controls_52_624x291](../../../../../../static/img/product_docs/policypak/policypak/cloud/interface/computergroups/web_interface_and_controls_52_624x291.webp)
 
-For details and guidance on using the in-cloud editors, refer back to the previous section on creating policies.
+For details and guidance on using the in-cloud editors, refer back to the previous section on
+creating policies.
 
-__NOTE:__ Not all Endpoint Policy Manager nor all Group Policy Preferences types have in-cloud editors. As such, you need to use your on-prem test lab to create and test the policy first. For more information, refer to the __Creating a Endpoint Policy Manager Cloud On-Prem Test Lab__ and __Upload XML Data File__ sections.
+**NOTE:** Not all Endpoint Policy Manager nor all Group Policy Preferences types have in-cloud
+editors. As such, you need to use your on-prem test lab to create and test the policy first. For
+more information, refer to the **Creating a Endpoint Policy Manager Cloud On-Prem Test Lab** and
+**Upload XML Data File** sections.
 
-Once you have your exported policy XML data file, you can select the group, then select Upload and link a new XML here and then, paste the XML data.
+Once you have your exported policy XML data file, you can select the group, then select Upload and
+link a new XML here and then, paste the XML data.
 
 ![web_interface_and_controls_53_623x265](../../../../../../static/img/product_docs/policypak/policypak/cloud/interface/computergroups/web_interface_and_controls_53_623x265.webp)

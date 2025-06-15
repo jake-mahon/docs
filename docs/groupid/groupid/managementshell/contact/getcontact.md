@@ -5,20 +5,20 @@ Use the Get-Contact cmdlet to retrieve basic information about a contact.
 ## Syntax
 
 ```
-Get-Contact  
-[[-Identity] <string[]>]  
-[-SearchContainer <string[]>]  
-[-SearchContainersScopeList <string>]  
-[-ShouldReturnCollection]  
-[-MaxItemsToDisplay <int>]  
-[-ObjectType <string[]>]  
-[-LdapFilter <string>]  
-[-SmartFilter <string>]  
-[-ServerFilter <string>]  
-[-AttributesToLoad <string[]>]  
-[-IdentityStoreId <int>]  
-[-SecurityToken <CustomClaimsPrincipal>]  
-[-Credential <pscredential>]  
+Get-Contact
+[[-Identity] <string[]>]
+[-SearchContainer <string[]>]
+[-SearchContainersScopeList <string>]
+[-ShouldReturnCollection]
+[-MaxItemsToDisplay <int>]
+[-ObjectType <string[]>]
+[-LdapFilter <string>]
+[-SmartFilter <string>]
+[-ServerFilter <string>]
+[-AttributesToLoad <string[]>]
+[-IdentityStoreId <int>]
+[-SecurityToken <CustomClaimsPrincipal>]
+[-Credential <pscredential>]
 [<CommonParameters>]
 ```
 

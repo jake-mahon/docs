@@ -1,6 +1,7 @@
 # Mac Policy Candidates Admin Tool
 
-The Endpoint Policy Manager Mac Policy Candidates Admin tool allows admins to analyze applications, logs, or a whole machine and decide how to quickly create rules.
+The Endpoint Policy Manager Mac Policy Candidates Admin tool allows admins to analyze applications,
+logs, or a whole machine and decide how to quickly create rules.
 
 It allows Mac admins to:
 

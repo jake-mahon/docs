@@ -18,7 +18,8 @@ This report is comprised of the following columns:
 - ObjectSid – Security ID of the object
 - Disabled – True or False if trustee account is disabled
 - Deleted – True or False if trustee account is deleted
-- Stale – True or False if trustee account is stale (according to the length of inactive time used by the Enterprise Auditor data collection and analysis configuration to identify stale accounts)
+- Stale – True or False if trustee account is stale (according to the length of inactive time used
+  by the Enterprise Auditor data collection and analysis configuration to identify stale accounts)
 - Source – Direct or Inherited permission type
 - Type – Type of resource where the permission is set
 
@@ -32,7 +33,10 @@ The following rights are a normalized representation of the permissions granted 
 
 The following columns display the combined direct and inherited rights:
 
-- Allow Mask – Bitmask corresponding to Windows ACE permission bits for combined direct and inherited allow rights
-- Deny Mask – Bitmask corresponding to Windows ACE permission bits for combined direct inherited deny rights
+- Allow Mask – Bitmask corresponding to Windows ACE permission bits for combined direct and
+  inherited allow rights
+- Deny Mask – Bitmask corresponding to Windows ACE permission bits for combined direct inherited
+  deny rights
 
-If the selected trustee is a group, the Group Membership pane displays the Active Directory and local group membership, including nested groups.
+If the selected trustee is a group, the Group Membership pane displays the Active Directory and
+local group membership, including nested groups.

@@ -1,6 +1,7 @@
 # Extras
 
-Netwrix Endpoint Policy Manager (formerly PolicyPak) Application Settings Manager has some extra management capabilities. In this section, we'll discuss the following features:
+Netwrix Endpoint Policy Manager (formerly PolicyPak) Application Settings Manager has some extra
+management capabilities. In this section, we'll discuss the following features:
 
 - Item-Level Targeting for an AppSet entry
 - Internal Item-Level Targeting for the AppSet itself

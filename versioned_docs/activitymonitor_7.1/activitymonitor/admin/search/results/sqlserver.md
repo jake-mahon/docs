@@ -1,6 +1,13 @@
 # SQL Server Search Results
 
-When a search has been started, the Search Status table at the bottom displays the percentage complete according to the size and quantity of the activity log files being searched per activity agent. You can [Filter](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/overview.md#filter) and [Sort](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/overview.md#sort) the results using the column headers. Below the Search button is the [Export](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/overview.md#export) option.
+When a search has been started, the Search Status table at the bottom displays the percentage
+complete according to the size and quantity of the activity log files being searched per activity
+agent. You can
+[Filter](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/overview.md#filter) and
+[Sort](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/overview.md#sort) the
+results using the column headers. Below the Search button is the
+[Export](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/overview.md#export)
+option.
 
 ![SQL Server Search Results](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/results/sqlsearchresults.png)
 
@@ -20,4 +27,6 @@ The results data grid columns display the following information for each event:
 - Message – Description of the error associated with the event
 - Category – Category of the error associated with the event
 
-At the bottom of the search interface, additional information is displayed for selected events in the data grid. The Attribute Name, Operation, Old Value, and New Value for the logged event (as applicable to the event) are displayed.
+At the bottom of the search interface, additional information is displayed for selected events in
+the data grid. The Attribute Name, Operation, Old Value, and New Value for the logged event (as
+applicable to the event) are displayed.

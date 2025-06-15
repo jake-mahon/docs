@@ -12,10 +12,11 @@ Step 2 – The Alias box displays an alias for the user.
 
 Step 3 – The Email Type displays drop-down list of all the types of email you want to create.
 
-Step 4 – In the Email Address box, type an email address for the user. Directory Manager uses this email address to send email notifications to the user.
+Step 4 – In the Email Address box, type an email address for the user. Directory Manager uses this
+email address to send email notifications to the user.
 
-Step 5 – Click __Next__.
+Step 5 – Click **Next**.
 
-NOTE: To create a mail-enabled user, a messaging provider (such as Microsoft Exchange) must be configured for the identity store.  
- If it is
-not configured, the Messaging page is disabled.
+NOTE: To create a mail-enabled user, a messaging provider (such as Microsoft Exchange) must be
+configured for the identity store.  
+ If it is not configured, the Messaging page is disabled.

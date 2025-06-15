@@ -1,10 +1,13 @@
 # VMWare
 
-vSphere is VMWare's virtualization platform. Change Tracker includes CIS certified compliance tracking templates to ensure secure configuration of vSphere clusters and their ESXi nodes.
+vSphere is VMWare's virtualization platform. Change Tracker includes CIS certified compliance
+tracking templates to ensure secure configuration of vSphere clusters and their ESXi nodes.
 
 ## vSphere/ESXi
 
-Compliance reports for vSphere clusters and their ESXi nodes are executed in an agentless manor with the use of a proxy agent that has vSphere clusters (or individual ESXi servers) configured as proxied devices.
+Compliance reports for vSphere clusters and their ESXi nodes are executed in an agentless manor with
+the use of a proxy agent that has vSphere clusters (or individual ESXi servers) configured as
+proxied devices.
 
 ## Requirements for the Proxy Agent's Device
 
@@ -15,7 +18,8 @@ Compliance reports for vSphere clusters and their ESXi nodes are executed in an 
 
 ## Installation
 
-After installing .NET 6 and the Gen 7 Agent, following the instructions below will ensure the proxy agent's device is able to communicate with vSphere and ESXi devices.
+After installing .NET 6 and the Gen 7 Agent, following the instructions below will ensure the proxy
+agent's device is able to communicate with vSphere and ESXi devices.
 
 Open a PowerShell console as Administrator to run the following command:
 
@@ -25,7 +29,8 @@ Check installation with:
 
 Get-PowerCLIVersion
 
-If self-signed certificates are in use with vCenter, the following command will ignore the errors this usually raises:
+If self-signed certificates are in use with vCenter, the following command will ignore the errors
+this usually raises:
 
 Set-PowerCLIConfiguration -InvalidCertificateAction:Ignore -Scope AllUsers
 
@@ -37,31 +42,45 @@ Set-PowerCLIConfiguration -Scope AllUsers -ParticipateInCEIP $false
 
 Follow the steps to configure ESXi/vCenter credentials:
 
-__Step 1 –__ From the Settings menu, select Credentials and scroll down to the ESXi / vCenter Credentials section.
+**Step 1 –** From the Settings menu, select Credentials and scroll down to the ESXi / vCenter
+Credentials section.
 
 ![esxicredentials](../../../../../static/img/product_docs/changetracker/changetracker/integration/vmware/esxicredentials.webp)
 
-__Step 2 –__ Click the Add button and enter the credential information. For vCenter / ESXi monitoring, it is recommended to use vCenter as the Host Type as it allows for ESXi node discovery, The ESXi Host Type option enables connections to stand alone ESXi servers.
+**Step 2 –** Click the Add button and enter the credential information. For vCenter / ESXi
+monitoring, it is recommended to use vCenter as the Host Type as it allows for ESXi node discovery,
+The ESXi Host Type option enables connections to stand alone ESXi servers.
 
 ![esxicredentialform](../../../../../static/img/product_docs/changetracker/changetracker/integration/vmware/esxicredentialform.webp)
 
 ## Device Discovery
 
-A vSphere cluster is made up of ESXi nodes. In the past, each ESXi node had to be manually added as a proxied device. It is now possible to add the vSphere service as a proxied device and automatically discover all of it's ESXi nodes and add them as proxied devices. This allows for faster configuration and the ability to keep up with fast changing environments where ESXi nodes are frequently created, removed or even migrated between clusters.
+A vSphere cluster is made up of ESXi nodes. In the past, each ESXi node had to be manually added as
+a proxied device. It is now possible to add the vSphere service as a proxied device and
+automatically discover all of it's ESXi nodes and add them as proxied devices. This allows for
+faster configuration and the ability to keep up with fast changing environments where ESXi nodes are
+frequently created, removed or even migrated between clusters.
 
-From the Settings menu, select Device Discovery. Select ESXi / vCenter Discovery from the drop down to configure the discovery job.
+From the Settings menu, select Device Discovery. Select ESXi / vCenter Discovery from the drop down
+to configure the discovery job.
 
 ![devicediscoverygrid](../../../../../static/img/product_docs/changetracker/changetracker/integration/vmware/devicediscoverygrid.webp)
 
-Discovery Device is the device running the agent that will execute the commands to discover the ESXi nodes.
+Discovery Device is the device running the agent that will execute the commands to discover the ESXi
+nodes.
 
-Parent Device in Hub is the proxy device that the proxied devices (that represents the ESXi nodes) will be registered under. Usually Discovery Device and Parent Device in Hub use the same agent, but different discovery jobs executed by different proxy agents could be configured to register all of their discovered nodes under one proxy agent.
+Parent Device in Hub is the proxy device that the proxied devices (that represents the ESXi nodes)
+will be registered under. Usually Discovery Device and Parent Device in Hub use the same agent, but
+different discovery jobs executed by different proxy agents could be configured to register all of
+their discovered nodes under one proxy agent.
 
-The "Assign to Group" drop down is the group the discovered ESXi nodes will be assigned to. There is no automatic registration so a group must be chosen.
+The "Assign to Group" drop down is the group the discovered ESXi nodes will be assigned to. There is
+no automatic registration so a group must be chosen.
 
 ![devicediscoveryform](../../../../../static/img/product_docs/changetracker/changetracker/integration/vmware/devicediscoveryform.webp)
 
-Once configured a discovery job will automatically run and if successful, the devices will be visible in the grid.
+Once configured a discovery job will automatically run and if successful, the devices will be
+visible in the grid.
 
 ![devicediscoverystarted](../../../../../static/img/product_docs/changetracker/changetracker/integration/vmware/devicediscoverystarted.webp)
 
@@ -71,6 +90,7 @@ Once configured a discovery job will automatically run and if successful, the de
 
 ## Compliance Reporting
 
-Under the Reports tab, it is now possible to configure and run the appropriate compliance report against the group that contains the ESXi devices.
+Under the Reports tab, it is now possible to configure and run the appropriate compliance report
+against the group that contains the ESXi devices.
 
 ![esxicompliancereport](../../../../../static/img/product_docs/changetracker/changetracker/integration/vmware/esxicompliancereport.webp)

@@ -10,53 +10,69 @@ By default, access is granted to the following roles:
 
 Access to the Strongpoint tab must be granted to other users or roles:
 
-1. Open __Customization__ > __Centers and Tabs__ > __Center Tabs__
-2. Click __Edit__ by Strongpoint   
-   The __Label__ should be __Strongpoint__.
-3. Click the __Audience__ tab.
-4. Grant access to the appropriate users and roles. Refer to NetSuite’s Help for more details on __Role and Tab Access__.
-5. Click __Save__ > __Save a Copy__
+1. Open **Customization** > **Centers and Tabs** > **Center Tabs**
+2. Click **Edit** by Strongpoint  
+   The **Label** should be **Strongpoint**.
+3. Click the **Audience** tab.
+4. Grant access to the appropriate users and roles. Refer to NetSuite’s Help for more details on
+   **Role and Tab Access**.
+5. Click **Save** > **Save a Copy**
 
 There are two options where to set permissions:
 
-- If the user role is under the __Classic Center__ tab, you can grant access within the __Audience__ tab. However, the access is removed and must be reset after every bundle update. If you choose this option, skip to Setting the Audience
-- If you want to avoid granting access after every bundle update, continue with the __Creating a Copy of Strongpoint Classic Center__ steps before __Setting Permissions__.
+- If the user role is under the **Classic Center** tab, you can grant access within the **Audience**
+  tab. However, the access is removed and must be reset after every bundle update. If you choose
+  this option, skip to Setting the Audience
+- If you want to avoid granting access after every bundle update, continue with the **Creating a
+  Copy of Strongpoint Classic Center** steps before **Setting Permissions**.
 
 ## Creating a Copy of Classic Center
 
-This procedure makes a copy of the Strongpoint Classic Center tab that is preserved through bundle updates. After you create the copy, you must add all of the appropriate category links prior to __Setting Permissions__.
+This procedure makes a copy of the Strongpoint Classic Center tab that is preserved through bundle
+updates. After you create the copy, you must add all of the appropriate category links prior to
+**Setting Permissions**.
 
-1. Open __Customization__ > __Centers and Tabs__ > __Center Tabs__
-2. Click __Edit__ by Strongpoint
-3. Select a different __Center__
-4. Click __Save a Copy__  
+1. Open **Customization** > **Centers and Tabs** > **Center Tabs**
+2. Click **Edit** by Strongpoint
+3. Select a different **Center**
+4. Click **Save a Copy**  
    Leave this window open so you can see all of the categories.  
-   This example shows __Engineering__ as the new __Center__
+   This example shows **Engineering** as the new **Center**
 
-   ![Saving to Engineering Center.](../../../static/img/product_docs/strongpointfornetsuite/installing_strongpoint/engineeringexample.webp)
+    ![Saving to Engineering Center.](../../../static/img/product_docs/strongpointfornetsuite/installing_strongpoint/engineeringexample.webp)
+
 5. Create the Category links:
 
-   1. Open __Customization__ > __Centers and Tabs__ > __Center Categories__ in a new window.  
-      Click __Edit__ by the Label of your first category __(Strongpoint Support__ in the example) and your selected __Center Type__ (__Engineering__ in the example).
+    1. Open **Customization** > **Centers and Tabs** > **Center Categories** in a new window.  
+       Click **Edit** by the Label of your first category **(Strongpoint Support** in the example)
+       and your selected **Center Type** (**Engineering** in the example).
 
-      ![Select Category for New Center.](../../../static/img/product_docs/strongpointfornetsuite/installing_strongpoint/copy_categories.webp)
-   2. Open __Customization__ > __Centers and Tabs__ > __Center Categories__ in a second new window.  
-      Click __Edit__ by the Label of the same category and the __Classic Center__ version.
-   3. Add each __Link__ and __Label__ in your new __Center__, using the __Classic Center__ version as a guide. A drop down completion list is shown as you type. Click __Add__ after each addition.
+        ![Select Category for New Center.](../../../static/img/product_docs/strongpointfornetsuite/installing_strongpoint/copy_categories.webp)
 
-      ![Two category windows open to copy links to your new Center.](../../../static/img/product_docs/strongpointfornetsuite/installing_strongpoint/copy_categories2.webp)
-   4. When complete, click __Save__ in your new __Center__ and __Cancel__ in the __Classic Center__.
-   5. Click __Edit__ by the next __Category__ in your new __Center__ and the corresponding Category in the __Classic Center__ and continue adding the links.
-   6. When you are done with all Categories and associated links, continue with __Setting Permissions__.
+    2. Open **Customization** > **Centers and Tabs** > **Center Categories** in a second new
+       window.  
+       Click **Edit** by the Label of the same category and the **Classic Center** version.
+    3. Add each **Link** and **Label** in your new **Center**, using the **Classic Center** version
+       as a guide. A drop down completion list is shown as you type. Click **Add** after each
+       addition.
+
+        ![Two category windows open to copy links to your new Center.](../../../static/img/product_docs/strongpointfornetsuite/installing_strongpoint/copy_categories2.webp)
+
+    4. When complete, click **Save** in your new **Center** and **Cancel** in the **Classic
+       Center**.
+    5. Click **Edit** by the next **Category** in your new **Center** and the corresponding Category
+       in the **Classic Center** and continue adding the links.
+    6. When you are done with all Categories and associated links, continue with **Setting
+       Permissions**.
 
 ## Setting the Audience
 
-1. Open __Customization__ > __Centers and Tabs__ > __Center Tabs__
-2. Click __Edit__ by Strongpoint and the correct __Center Type__ (__Engineering__ in this example).
-3. Open the __Audience__ tab.
+1. Open **Customization** > **Centers and Tabs** > **Center Tabs**
+2. Click **Edit** by Strongpoint and the correct **Center Type** (**Engineering** in this example).
+3. Open the **Audience** tab.
 4. Assign the audience. This can be role(s) or specific employees.
-5. Click __Save__
+5. Click **Save**
 
-   ![Assigning permissions.](../../../static/img/product_docs/strongpointfornetsuite/installing_strongpoint/engineeringexample2.webp)
+    ![Assigning permissions.](../../../static/img/product_docs/strongpointfornetsuite/installing_strongpoint/engineeringexample2.webp)
 
-__Next Step:__ [ Setting Role Permissions](setting_permissions.md)
+**Next Step:** [ Setting Role Permissions](setting_permissions.md)

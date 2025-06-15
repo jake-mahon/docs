@@ -1,31 +1,33 @@
 # Configure Indirect Permissions
 
-The following how-to assumes that you have already read the topic on [
-Indirect Permissions
-](../../indirectpermissions/index.md).
+The following how-to assumes that you have already read the topic on
+[ Indirect Permissions ](../../indirectpermissions/index.md).
 
 ## Configure Indirect Permissions in an Active Directory
 
 ### Configure an indirect resource rule
 
-Configuring an Indirect Resource Rule in the Identity Manager Configuration is the only step needed to set up Indirect Permissions and can be done by answering the following questions:
+Configuring an Indirect Resource Rule in the Identity Manager Configuration is the only step needed
+to set up Indirect Permissions and can be done by answering the following questions:
 
-- What is the target Entity Type?
-  There are multiple multiple Entity Types but for this example we will choose ```AD User (nominative)```. Another rule can be written if you want to handle Indirect Permissions for ```AD User (administration)```.
-- Which permissions can be obtained transitively in the Active Directory?
-  Users get permissions by being members of a group. The property is ```memberOf```.
-- Do we want to look for correspondences in another system?
-  Here, we do not want to. This also means that ```Correspondence```, ```CorrespondenceMembershipProperty```, and ```Entitlement``` will remain blank.
+- What is the target Entity Type? There are multiple multiple Entity Types but for this example we
+  will choose `AD User (nominative)`. Another rule can be written if you want to handle Indirect
+  Permissions for `AD User (administration)`.
+- Which permissions can be obtained transitively in the Active Directory? Users get permissions by
+  being members of a group. The property is `memberOf`.
+- Do we want to look for correspondences in another system? Here, we do not want to. This also means
+  that `Correspondence`, `CorrespondenceMembershipProperty`, and `Entitlement` will remain blank.
 
-Finally, if we compile all this information and using the naming of the standard Identity Manager Demo, we get the following Indirect Resource Rule:
+Finally, if we compile all this information and using the naming of the standard Identity
+Manager Demo, we get the following Indirect Resource Rule:
 
                     ```
 
 <IndirectResourceRule
     ResourceType="AD_Entry_NominativeUser"    Property="memberOf"    />
 
-```
-                
+````
+
 
 After adding this rule to the Configuration, do not forget to deploy the configuration.
 
@@ -101,25 +103,29 @@ Finally, if we compile all this information and using the naming of the standard
 <IndirectResourceRule
     ResourceType="MicrosoftEntraID_DirectoryObject_NominativeUser"    Property="memberOf"    />
 
-```
-                
+````
 
 ## Configure Indirect Permissions in SharePoint using Correspondences from an Microsoft Entra ID
 
-We can follow the same steps to configure this new rule, but this time we will showcase the correspondence feature:
+We can follow the same steps to configure this new rule, but this time we will showcase the
+correspondence feature:
 
-- What is the target Entity Type?
-  We first start in the Microsoft Entra ID. Once again, we will configure a rule for nominative users. The Entity Type is ```MicrosoftEntraID_DirectoryObject_NominativeUser```.
-- Which permissions can be obtained transitively in the Microsoft Entra ID?
-  Users get permissions by being members of a group. The property is ```memberOf```.
-- Do we want to look for correspondences in another system?
-  Yes, we want to find correspondences in SharePoint. A correspondence can be found using the ```SharePointObject``` property.
-- Which permissions can be obtained transitively in SharePoint?
-  Once again, users get permissions based on which groups they are a member of. The property capturing this notion for SharePoint entities is ```Group```
-- Is being member of a group in SharePoint the type of permissions that we want to capture?
-  While this can be computed, we are rather interested in compiling which SharePoint objects a user can view/change/etc. We obtain this information using the ```Entitlement``` property.
+- What is the target Entity Type? We first start in the Microsoft Entra ID. Once again, we will
+  configure a rule for nominative users. The Entity Type is
+  `MicrosoftEntraID_DirectoryObject_NominativeUser`.
+- Which permissions can be obtained transitively in the Microsoft Entra ID? Users get permissions by
+  being members of a group. The property is `memberOf`.
+- Do we want to look for correspondences in another system? Yes, we want to find correspondences in
+  SharePoint. A correspondence can be found using the `SharePointObject` property.
+- Which permissions can be obtained transitively in SharePoint? Once again, users get permissions
+  based on which groups they are a member of. The property capturing this notion for SharePoint
+  entities is `Group`
+- Is being member of a group in SharePoint the type of permissions that we want to capture? While
+  this can be computed, we are rather interested in compiling which SharePoint objects a user can
+  view/change/etc. We obtain this information using the `Entitlement` property.
 
-Finally, if we compile all this information and use the naming convention of the standard Identity Manager Demo, we get the following Indirect Resource Rule:
+Finally, if we compile all this information and use the naming convention of the standard Identity
+Manager Demo, we get the following Indirect Resource Rule:
 
                     ```
 
@@ -127,6 +133,7 @@ Finally, if we compile all this information and use the naming convention of the
     ResourceType="MicrosoftEntraID_DirectoryObject_NominativeUser"    Property="memberOf"    Correspondence="SharePointObject"    CorrespondenceMembershipProperty="Group"    Entitlement="Entitlement"    />
 
 ```
-                
+
 
 This rule will also compute indirect permissions for the Microsoft Entra ID.
+```

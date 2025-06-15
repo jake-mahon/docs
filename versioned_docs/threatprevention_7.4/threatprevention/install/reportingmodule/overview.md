@@ -1,18 +1,25 @@
 # Reporting Module Installation
 
-Prior to installing Netwrix Threat Manager Reporting Module 3.0, make sure that all the prerequisites have been met in accordance with the [Reporting Module Server Requirements](/versioned_docs/threatprevention_7.4/threatprevention/requirements/reportingserver.md) topic.
+Prior to installing Netwrix Threat Manager Reporting Module 3.0, make sure that all the
+prerequisites have been met in accordance with the
+[Reporting Module Server Requirements](/versioned_docs/threatprevention_7.4/threatprevention/requirements/reportingserver.md)
+topic.
 
 The Netwrix Threat Manager Reporting Module installer is packaged with three executable files.
 
-__CAUTION:__ The PostgreSQL database must be installed before installing Netwrix Threat Manager Reporting Module.
+**CAUTION:** The PostgreSQL database must be installed before installing Netwrix Threat Manager
+Reporting Module.
 
 Netwrix_Setup.exe
 
-This executable starts a setup launcher containing buttons to install the PostgreSQL database and the application. The launcher installs these components on the same server. See the installation details for each components below.
+This executable starts a setup launcher containing buttons to install the PostgreSQL database and
+the application. The launcher installs these components on the same server. See the installation
+details for each components below.
 
 NetwrixPostgreSQL14.exe
 
-This executable is for installing the PostgreSQL database on a different server from the application.
+This executable is for installing the PostgreSQL database on a different server from the
+application.
 
 NetwrixThreatManagerReporting.exe
 
@@ -34,7 +41,10 @@ The following prerequisites will be installed if they are not present:
 
 ## Software Download
 
-Current customers can log in to the Netwrix Customer Portal to download software binaries and license keys for purchased products. See the [Customer Portal Access](https://helpcenter.netwrix.com/bundle/NetwrixCustomerPortalAccess/page/Customer_Portal_Access.html) topic for information on how to register for a Customer Portal account.
+Current customers can log in to the Netwrix Customer Portal to download software binaries and
+license keys for purchased products. See the
+[Customer Portal Access](https://helpcenter.netwrix.com/bundle/NetwrixCustomerPortalAccess/page/Customer_Portal_Access.html)
+topic for information on how to register for a Customer Portal account.
 
 ## Antivirus Exclusions for PostgreSQL
 
@@ -43,23 +53,39 @@ If you have any antivirus software installed, you must do the following:
 - Exclude all scanning of the PostgreSQL Data Directories
 - Exclude the postgres.exe process from all scans
 
-Antivirus software can interfere with PostgreSQL's operation because PostgreSQL requires file access commands in Windows to behave exactly as documented by Microsoft, and many antivirus programs contain errors or accidental behavior changes that cause these commands to misbehave subtly.
+Antivirus software can interfere with PostgreSQL's operation because PostgreSQL requires file access
+commands in Windows to behave exactly as documented by Microsoft, and many antivirus programs
+contain errors or accidental behavior changes that cause these commands to misbehave subtly.
 
-This is not a problem for most programs because they access files in fairly simple ways. Because PostgreSQL is continuously reading from and writing to the same set of files from multiple processes, it tends to trigger programming and design mistakes in antivirus software, particularly problems related to concurrency. Such problems can cause random and unpredictable errors, or even data corruption.
+This is not a problem for most programs because they access files in fairly simple ways. Because
+PostgreSQL is continuously reading from and writing to the same set of files from multiple
+processes, it tends to trigger programming and design mistakes in antivirus software, particularly
+problems related to concurrency. Such problems can cause random and unpredictable errors, or even
+data corruption.
 
-Antivirus software is also likely to dramatically slow down PostgreSQL's operation. For that reason, you should at least exclude postgres.exe and the data directories so the scanner ignores them.
+Antivirus software is also likely to dramatically slow down PostgreSQL's operation. For that reason,
+you should at least exclude postgres.exe and the data directories so the scanner ignores them.
 
 ## Installation Process
 
 Follow the steps to install the Netwrix Threat Manager Reporting Module application.
 
-__Step 1 –__ Right-click on ```Netwrix_Setup.exe``` and select Run as administrator. The Netwrix Setup launcher opens. You can now install the following components on the same server:
+**Step 1 –** Right-click on `Netwrix_Setup.exe` and select Run as administrator. The Netwrix Setup
+launcher opens. You can now install the following components on the same server:
 
 ![Stealthbits Setup Launcher for StealthINTERCEPT Reporting Powered by StealthDEFEND](/img/versioned_docs/threatprevention_7.4/threatprevention/install/reportingmodule/setuplauncher.png)
 
-- Click PostgreSQL Setup to install the database. See the [Install the PostgreSQL Database Application](/versioned_docs/threatprevention_7.4/threatprevention/install/reportingmodule/database.md) topic for additional information.
-- Click Netwrix Threat Manager Reporting to install the application. See the [Install the Netwrix Threat Manager Reporting Module](/versioned_docs/threatprevention_7.4/threatprevention/install/reportingmodule/application.md) topic for additional information.
+- Click PostgreSQL Setup to install the database. See the
+  [Install the PostgreSQL Database Application](/versioned_docs/threatprevention_7.4/threatprevention/install/reportingmodule/database.md)
+  topic for additional information.
+- Click Netwrix Threat Manager Reporting to install the application. See the
+  [Install the Netwrix Threat Manager Reporting Module](/versioned_docs/threatprevention_7.4/threatprevention/install/reportingmodule/application.md)
+  topic for additional information.
 
-__Step 2 –__ Log into the console for the first time. See the [First Launch](/versioned_docs/threatprevention_7.4/threatprevention/install/reportingmodule/firstlaunch.md) topic for additional information.
+**Step 2 –** Log into the console for the first time. See the
+[First Launch](/versioned_docs/threatprevention_7.4/threatprevention/install/reportingmodule/firstlaunch.md)
+topic for additional information.
 
-After completing the first launch, it is time to complete the initial configuration. See the [Set Up the Threat Manager Reporting Module](/versioned_docs/threatprevention_7.4/threatprevention/gettingstarted.md#set-up-the-threat-manager-reporting-module) topic for additional information.
+After completing the first launch, it is time to complete the initial configuration. See the
+[Set Up the Threat Manager Reporting Module](/versioned_docs/threatprevention_7.4/threatprevention/gettingstarted.md#set-up-the-threat-manager-reporting-module)
+topic for additional information.

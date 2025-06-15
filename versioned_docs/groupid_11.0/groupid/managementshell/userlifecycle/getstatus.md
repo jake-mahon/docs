@@ -1,15 +1,16 @@
 # Get-Status
 
-Use the __Get-Status__ command to know the status of a specified user as per the profile validation criteria defined for the identity store.
+Use the **Get-Status** command to know the status of a specified user as per the profile validation
+criteria defined for the identity store.
 
 ## Syntax
 
 ```
-Get-Status  
--Manager <string>  
-[-IdentityStoreId <int>]  
-[-SecurityToken <CustomClaimsPrincipal>]  
-[-Credential <pscredential>]  
+Get-Status
+-Manager <string>
+[-IdentityStoreId <int>]
+[-SecurityToken <CustomClaimsPrincipal>]
+[-Credential <pscredential>]
 [<CommonParameters>]
 ```
 
@@ -19,7 +20,9 @@ Get-Status
 
 Example:
 
-The following command provides information about the status of the specified user as per the criteria defined for user lifecycle for the connected identity store. It also provides information on the number of days left to validate the profile again.
+The following command provides information about the status of the specified user as per the
+criteria defined for user lifecycle for the connected identity store. It also provides information
+on the number of days left to validate the profile again.
 
 ```
 Get-Status –Manager "Richard"

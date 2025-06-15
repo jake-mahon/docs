@@ -1,6 +1,7 @@
 # Portal Logs
 
-Use this API to get Directory Manager portal logs. See the [History](../../portal/history/overview.md) topic for additional information on Portal history.
+Use this API to get Directory Manager portal logs. See the
+[History](../../portal/history/overview.md) topic for additional information on Portal history.
 
 ## Endpoint
 

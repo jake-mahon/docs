@@ -10,4 +10,5 @@ NETWRIX recommends the following architecture:
 
 ### Agent(s)
 
-One or several additional agents can be needed only when using a sensitive network, for example an administration network separated from the main network.
+One or several additional agents can be needed only when using a sensitive network, for example an
+administration network separated from the main network.

@@ -8,4 +8,8 @@ How to keep the workforce directory up to date.
 
 ## Process Details
 
-Be aware that the integration of an IGA tool is an iterative process. Thus, after [following the starting process](/versioned_docs/usercube_6.1/usercube/user-guide/global-process/howto-start/index.md) and creating the workforce directory, you can come back at any time and complete the directory that you started, [updating identity data](/versioned_docs/usercube_6.1/usercube/user-guide/maintain/identity-data-modification/index.md).
+Be aware that the integration of an IGA tool is an iterative process. Thus, after
+[following the starting process](/versioned_docs/usercube_6.1/usercube/user-guide/global-process/howto-start/index.md)
+and creating the workforce directory, you can come back at any time and complete the directory that
+you started,
+[updating identity data](/versioned_docs/usercube_6.1/usercube/user-guide/maintain/identity-data-modification/index.md).

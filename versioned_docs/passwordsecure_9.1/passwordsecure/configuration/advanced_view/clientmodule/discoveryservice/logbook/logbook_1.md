@@ -1,12 +1,19 @@
 # Logbook
 
-The logbook in the footer of the __Discovery Service Task__ is extremely helpful for checking the __Discovery Service Task__. Information about the progress of the __Discovery Service Task__ is displayed here. The data is displayed both in the __footer__ and also in the __logbook module__ (although in more detail here). To display the footer, the user requires the __user right__: Global settings in the [User settings](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/mainmenu/user_settings/user_settings.md) in the category: "Footer area" - "Show logbook in the footer area (activated)"
+The logbook in the footer of the **Discovery Service Task** is extremely helpful for checking the
+**Discovery Service Task**. Information about the progress of the **Discovery Service Task** is
+displayed here. The data is displayed both in the **footer** and also in the **logbook module**
+(although in more detail here). To display the footer, the user requires the **user right**: Global
+settings in the
+[User settings](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/mainmenu/user_settings/user_settings.md)
+in the category: "Footer area" - "Show logbook in the footer area (activated)"
 
 ## Show in footer
 
 ![logbook in footer](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/logbook/logbook_ds-1-en.png)
 
-The following __events__ are displayed in the __logbook for the footer__ and in the __logbook module__:
+The following **events** are displayed in the **logbook for the footer** and in the **logbook
+module**:
 
 1. New
 2. Change
@@ -14,14 +21,20 @@ The following __events__ are displayed in the __logbook for the footer__ and in 
 4. Execution completed
 5. Error during execution
 
-If an error occurs during the execution of the __Discovery Service Task__, this is also shown n the __logbook for the footer__ with __additional information__ about the error.
+If an error occurs during the execution of the **Discovery Service Task**, this is also shown n the
+**logbook for the footer** with **additional information** about the error.
 
 ![ logbook for the footer](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/logbook/logbook_ds-2-en.png)
 
 ## Display in the logbook
 
-In general, the __logbook module__ displays more detailed information about the __Discovery Service Task__. The [Filter](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/operation_and_setup/filter/filter.md) can be used to select which data is displayed. The same __events__ as for the footer for the __Discovery Service Task__ are also used here.
+In general, the **logbook module** displays more detailed information about the **Discovery Service
+Task**. The
+[Filter](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/operation_and_setup/filter/filter.md)
+can be used to select which data is displayed. The same **events** as for the footer for the
+**Discovery Service Task** are also used here.
 
 ![logbook entries](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/logbook/logbook_ds-3-en.png)
 
-The column editor can be used to arrange and display the data in the table according to their importance.
+The column editor can be used to arrange and display the data in the table according to their
+importance.

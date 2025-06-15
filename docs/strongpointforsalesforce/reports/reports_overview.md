@@ -1,6 +1,6 @@
 # Reports
 
-The Netwrix Dashboard __Reports__ tab has links to all of the predefined reports and log files.
+The Netwrix Dashboard **Reports** tab has links to all of the predefined reports and log files.
 
 - Access Reports
 - Security Reports
@@ -13,84 +13,114 @@ The Netwrix Dashboard __Reports__ tab has links to all of the predefined reports
 
 You can define and save your own reports.
 
-- Customization objects have additional data to enable searching with complex queries. For example, search for _all objects with script dependencies that have not been used for six months_, _or all objects used by workflows_.
-- You can filter test scripts from regular scripts. Test scripts can be queried to review test coverage and determine if they being used.
+- Customization objects have additional data to enable searching with complex queries. For example,
+  search for _all objects with script dependencies that have not been used for six months_, _or all
+  objects used by workflows_.
+- You can filter test scripts from regular scripts. Test scripts can be queried to review test
+  coverage and determine if they being used.
 
 To access all reports, the following setting must be enabled:  
-Open __Strongpoint__ > __Scanner__ > __Scheduler__  
- __PermissionSet Assignment__ and __System Permission__ must be __Enabled__, and the __Frequency__ set to __Daily__.   
+Open **Strongpoint** > **Scanner** > **Scheduler**  
+ **PermissionSet Assignment** and **System Permission** must be **Enabled**, and the **Frequency**
+set to **Daily**.  
 If you have questions, contact your CSM or Salesforce Specialist.
 
 ![Enabling reports](../../../static/img/product_docs/strongpointforsalesforce/reports/access_reports_enabled.webp)
 
 ## Access Reports
 
-These reports are available from __Netwrix Dashboard__ > __Reports__ > __Access Reports__.
+These reports are available from **Netwrix Dashboard** > **Reports** > **Access Reports**.
 
-Filters can be used on this report. Use __Save As__ for a new version following your company naming conventions. An elevated access example is to filter __Permissionset/Profile__ by the name of the elevated access profile or permission set, such as __Admin__.
+Filters can be used on this report. Use **Save As** for a new version following your company naming
+conventions. An elevated access example is to filter **Permissionset/Profile** by the name of the
+elevated access profile or permission set, such as **Admin**.
 
-You can focus on sensitive objects by filtering by object name and adding the names of the objects in the filter using the __contains__ keyword plus the name of the object as it appears in object name. Separate each name with a comma.
+You can focus on sensitive objects by filtering by object name and adding the names of the objects
+in the filter using the **contains** keyword plus the name of the object as it appears in object
+name. Separate each name with a comma.
 
-> __Permissions by Object__: Displays the permissions on each object for all Permission Sets and Profiles.
+> **Permissions by Object**: Displays the permissions on each object for all Permission Sets and
+> Profiles.
 >
 > ![Permission by object](../../../static/img/product_docs/strongpointforsalesforce/reports/access_reports_permission_by_object.webp)
 >
-> __Object Permission by Profile/PermSet__: Displays the object permissions organized by Permission Set and Profile.
+> **Object Permission by Profile/PermSet**: Displays the object permissions organized by Permission
+> Set and Profile.
 >
 > ![Access report by PermissionSet/Profile](../../../static/img/product_docs/strongpointforsalesforce/reports/access_reports_permission_by_permset.webp)
 >
-> __Users to Profiles/PermissionSets__: Displays the Profile, PermissionSet and PermissionSet Group assigned to each user. You can filter the report information. For example, if you want a list of users that have Admin profiles, you can set two filters:
+> **Users to Profiles/PermissionSets**: Displays the Profile, PermissionSet and PermissionSet Group
+> assigned to each user. You can filter the report information. For example, if you want a list of
+> users that have Admin profiles, you can set two filters:
 >
-> - Customization Name Contains __Admin__
+> - Customization Name Contains **Admin**
 > - Salesforce type Equals Profile
 >
-> __Date Assigned__ and __Expires on__ are only relevant for PermissionSets. They are blank for Profiles. If your org does not use the __Expires on__ feature, you can remove the column from the report.
+> **Date Assigned** and **Expires on** are only relevant for PermissionSets. They are blank for
+> Profiles. If your org does not use the **Expires on** feature, you can remove the column from the
+> report.
 >
 > ![Users to Profile/PermissionSets](../../../static/img/product_docs/strongpointforsalesforce/reports/access_reports_users_to_profile.webp)
 >
-> __Profiles to PermissionsSets Changes__: Displays the changes made to your Profiles, PermissionSets,and PermissionSet Groups. If there is an active policy, the __Compliance__ column displays whether the change was Compliant or Non-Compliant. If no policy, all changes are Compliant.
+> **Profiles to PermissionsSets Changes**: Displays the changes made to your Profiles,
+> PermissionSets,and PermissionSet Groups. If there is an active policy, the **Compliance** column
+> displays whether the change was Compliant or Non-Compliant. If no policy, all changes are
+> Compliant.
 >
 > ![Access Report Profile Permissions Changes](../../../static/img/product_docs/strongpointforsalesforce/reports/access_reports_profile_changes.webp)
 >
-> __Changes to Users__: Displays the changes to tracked user data fields. Refer to [Enhanced CPQ Support](../change_management/enhanced_cpq_support.md) for more information on setting up tracking.
+> **Changes to Users**: Displays the changes to tracked user data fields. Refer to
+> [Enhanced CPQ Support](../change_management/enhanced_cpq_support.md) for more information on
+> setting up tracking.
 >
-> If you see the message: _--String too long - Skipped lines due to CPU limit reached--_ it simply means the governor limits have been reached. Profiles and PermissionSets are very data heavy. Platform Governance for Salesforcet skips the record and continues the scan the next day to ensure there is no impact to your org.
+> If you see the message: _--String too long - Skipped lines due to CPU limit reached--_ it simply
+> means the governor limits have been reached. Profiles and PermissionSets are very data heavy.
+> Platform Governance for Salesforcet skips the record and continues the scan the next day to ensure
+> there is no impact to your org.
 >
 > ![Changes to Users](../../../static/img/product_docs/strongpointforsalesforce/reports/accses_reports_user_changes.webp)
 >
-> __Record Types and Page Layout Assignments__: Displays the objects, record types and assigned layouts organized by profile.
+> **Record Types and Page Layout Assignments**: Displays the objects, record types and assigned
+> layouts organized by profile.
 >
 > ![Access Reports Record Types and Layouts](../../../static/img/product_docs/strongpointforsalesforce/reports/access_reports_record_types.webp)
 >
-> __System Permissions__: displays the list of System Permissions, the Profile or Permission set that has access to it and the list of Users that have this system permission enabled.
+> **System Permissions**: displays the list of System Permissions, the Profile or Permission set
+> that has access to it and the list of Users that have this system permission enabled.
 >
 > ![System Permissions](../../../static/img/product_docs/strongpointforsalesforce/reports/report_systems_permissions.webp)
 >
-> __Field Permissions__: Displays the related objects, shows if there is a Read / Edit permission, the Profile or Permission set that give that field level access and the users related to those Profiles and permission sets.
+> **Field Permissions**: Displays the related objects, shows if there is a Read / Edit permission,
+> the Profile or Permission set that give that field level access and the users related to those
+> Profiles and permission sets.
 >
 > ![Field Permissions report](../../../static/img/product_docs/strongpointforsalesforce/reports/report_field_permissions.webp)
 >
 > To generate this report:
 >
-> 1. Open __Strongpoint Lightning__ > __Tools__ > __Field-Level security Scanner__.
+> 1. Open **Strongpoint Lightning** > **Tools** > **Field-Level security Scanner**.
 > 2. Select the Salesforce object for the fields to add to the report.
-> 3. Click __Search Fields__.
-> 4. Change the checkbox to __True__ next to the fields to add. You can add up to 50 fields.
-> 5. Click __Scan__.
+> 3. Click **Search Fields**.
+> 4. Change the checkbox to **True** next to the fields to add. You can add up to 50 fields.
+> 5. Click **Scan**.
 >
-> This pushes the new list of fields to the report. If you select other fields and repeat the process, the previous report is overwritten. Export any reports you want to keep.
+> This pushes the new list of fields to the report. If you select other fields and repeat the
+> process, the previous report is overwritten. Export any reports you want to keep.
 
 ## Security Reports
 
-These reports are related to the Salesforce Health Check. It tracks if this feature of the health check is __Enabled__ or __Disabled__ for your Salesforce Organization. For full detail compare the report to the health check section in Salesforce Setup.
+These reports are related to the Salesforce Health Check. It tracks if this feature of the health
+check is **Enabled** or **Disabled** for your Salesforce Organization. For full detail compare the
+report to the health check section in Salesforce Setup.
 
-These reports are available from __Netwrix Dashboard__ > __Reports__ > __Security Reports__.
+These reports are available from **Netwrix Dashboard** > **Reports** > **Security Reports**.
 
-> __Health Check Remote Site Settings__: displays any remote sites with the __Disable Protocol__ security option selected.
+> **Health Check Remote Site Settings**: displays any remote sites with the **Disable Protocol**
+> security option selected.
 >
-> __Health Check Password Policies__: displays password related Health check security settings.
+> **Health Check Password Policies**: displays password related Health check security settings.
 >
-> __Health Check Session Settings__: displays session settings, including:
+> **Health Check Session Settings**: displays session settings, including:
 >
 > - Require HttpOnly attribute.
 > - Lock sessions to the domain in which they were first used.
@@ -112,17 +142,19 @@ These reports are available from __Netwrix Dashboard__ > __Reports__ > __Securit
 > - Require identity verification during multi-factor authentication (MFA) registration
 > - Allow redirections to untrusted external URLs without warning
 >
-> __Health Check Certificates__: tracks CKM Certificate name, Expiration date, expiration status, CKM Key Size and related Policy if applicable.
+> **Health Check Certificates**: tracks CKM Certificate name, Expiration date, expiration status,
+> CKM Key Size and related Policy if applicable.
 >
-> __Health Check Changes__: tracks the changes to the items related to the health check settings.
+> **Health Check Changes**: tracks the changes to the items related to the health check settings.
 
 ## Data Classification
 
-These reports are available from __Strongpoint__ > __Reports__ > __Data Classification__.
+These reports are available from **Strongpoint** > **Reports** > **Data Classification**.
 
-> __Changes related to Data Classification__: displays any changes that have occured.
+> **Changes related to Data Classification**: displays any changes that have occured.
 >
-> __Fields with Data Classification__: displays fields with data classification attributes, including:
+> **Fields with Data Classification**: displays fields with data classification attributes,
+> including:
 >
 > - GDPR
 > - PII
@@ -132,15 +164,16 @@ These reports are available from __Strongpoint__ > __Reports__ > __Data Classifi
 
 ## Customizations
 
-These reports are available from __Netwrix Dashboard__ > __Reports__ > __Customizations__.
+These reports are available from **Netwrix Dashboard** > **Reports** > **Customizations**.
 
-> __All Customizations__: This enables you to use Salesforce functionality to filter searches quickly for specific customizations.
+> **All Customizations**: This enables you to use Salesforce functionality to filter searches
+> quickly for specific customizations.
 >
-> __Customization Impact__: This report shows your customizations and how they impact other objects.
+> **Customization Impact**: This report shows your customizations and how they impact other objects.
 
 ## Clean Up
 
-These reports are available from __Netwrix Dashboard__ > __Reports__ > __Clean Up__.
+These reports are available from **Netwrix Dashboard** > **Reports** > **Clean Up**.
 
 > [Default Clean Up List View](../clean_up/cleanup_reports.md#default-clean-up-list-view)
 >
@@ -166,33 +199,42 @@ These reports are available from __Netwrix Dashboard__ > __Reports__ > __Clean U
 
 ## Change Enablement
 
-These reports are available from __Netwrix Dashboard__ > __Reports__ > __Change Enablement__.
+These reports are available from **Netwrix Dashboard** > **Reports** > **Change Enablement**.
 
-> __Approval Override__: shows all changes approved with an approval override.
+> **Approval Override**: shows all changes approved with an approval override.
 >
-> __What Changed?__: shows all changes that have occurred.
+> **What Changed?**: shows all changes that have occurred.
 >
-> __Unresolved Non-Compliant Changes__: displays open non-compliant changes. A non-compliant change indicates something was changed without the required approvals. By looking at this report, you can investigate changes and get an understanding of what the impacts are and see if any additional changes need to be made. This report is used to track changes that require action.
+> **Unresolved Non-Compliant Changes**: displays open non-compliant changes. A non-compliant change
+> indicates something was changed without the required approvals. By looking at this report, you can
+> investigate changes and get an understanding of what the impacts are and see if any additional
+> changes need to be made. This report is used to track changes that require action.
 >
-> __Managed Package Updates__: displays managed package update details for auditing.
+> **Managed Package Updates**: displays managed package update details for auditing.
 >
-> __Resolved Non-Compliant Changes__: displays resolved non-compliant changes with the change overview and the difference summary.
+> **Resolved Non-Compliant Changes**: displays resolved non-compliant changes with the change
+> overview and the difference summary.
 >
-> __Compliant Changes__: displays all compliant changes. Compliant changes are automatically marked as closed. This report is used to review changes that have been automatically cleared.
+> **Compliant Changes**: displays all compliant changes. Compliant changes are automatically marked
+> as closed. This report is used to review changes that have been automatically cleared.
 >
-> __Consolidated Change By Type__: displays changes summarized and grouped by Salesforce Type.
+> **Consolidated Change By Type**: displays changes summarized and grouped by Salesforce Type.
 >
-> __Deployed Changes__: displays an end to end summary of deployed changes to enable tracking and reporting of changes to the system.
+> **Deployed Changes**: displays an end to end summary of deployed changes to enable tracking and
+> reporting of changes to the system.
 >
-> __Data Tracking Change Logs__: displays changes on objects set for data tracking.
+> **Data Tracking Change Logs**: displays changes on objects set for data tracking.
 >
-> __Change/Approval Policy Changes__: this report is based on Field History Tracking. You can track up to 20 fields from the Policy Record. Salesforce starts tracking field history from the date and time you turn it on a field.
+> **Change/Approval Policy Changes**: this report is based on Field History Tracking. You can track
+> up to 20 fields from the Policy Record. Salesforce starts tracking field history from the date and
+> time you turn it on a field.
 >
-> __Fast Scan for Permissions Changes__: displays all changes detected in PermissionSet, PermissionSetGroup, and Profiles by the Fast Scan.
+> **Fast Scan for Permissions Changes**: displays all changes detected in PermissionSet,
+> PermissionSetGroup, and Profiles by the Fast Scan.
 
 ## Release and Deployment
 
-These reports are available from __Netwrix Dashboard__ > __Reports__ > __Release and Deployment__.
+These reports are available from **Netwrix Dashboard** > **Reports** > **Release and Deployment**.
 
 > [Success Deployments](deployment_logs_success.md)
 >
@@ -204,22 +246,27 @@ These reports are available from __Netwrix Dashboard__ > __Reports__ > __Release
 
 ## Audit Reports
 
-__Unresolved Non-Compliant Changes__: displays open non-compliant changes. A non-compliant change indicates something was changed without the required approvals. By looking at this report, you can investigate changes and get an understanding of what the impacts are and see if any additional changes need to be made. This report is used to track changes that require action.
+**Unresolved Non-Compliant Changes**: displays open non-compliant changes. A non-compliant change
+indicates something was changed without the required approvals. By looking at this report, you can
+investigate changes and get an understanding of what the impacts are and see if any additional
+changes need to be made. This report is used to track changes that require action.
 
-__Managed Package Updates__: displays managed package update details for auditing.
+**Managed Package Updates**: displays managed package update details for auditing.
 
-__Resolved Non-Compliant Changes__: displays managed package update details for auditing.
+**Resolved Non-Compliant Changes**: displays managed package update details for auditing.
 
-__Compliant Changes__: displays all compliant changes. Compliant changes are automatically marked as closed. This report is used to review changes that have been automatically cleared.
+**Compliant Changes**: displays all compliant changes. Compliant changes are automatically marked as
+closed. This report is used to review changes that have been automatically cleared.
 
-__Platform Changes__: displays any platform changes that have occured.
+**Platform Changes**: displays any platform changes that have occured.
 
-__Consolidated Changes By Type__: displays changes summarized and grouped by Salesforce Type.
+**Consolidated Changes By Type**: displays changes summarized and grouped by Salesforce Type.
 
-__Deployed Changes__: displays an end to end summary of deployed changes to enable tracking and reporting of changes to the system.
+**Deployed Changes**: displays an end to end summary of deployed changes to enable tracking and
+reporting of changes to the system.
 
-__Unresolved Control Incidents__: Deprecated item
+**Unresolved Control Incidents**: Deprecated item
 
-__Resolved Control Incidents__: Deprecated item
+**Resolved Control Incidents**: Deprecated item
 
-__Pre-Approved Control Incidents__: Deprecated item
+**Pre-Approved Control Incidents**: Deprecated item

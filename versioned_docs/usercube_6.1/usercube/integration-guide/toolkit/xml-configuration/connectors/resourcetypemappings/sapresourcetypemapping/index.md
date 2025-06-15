@@ -12,8 +12,8 @@ Any resource type mapping must be configured with the same identifier as the rel
 
 ## Properties
 
-| Property | Details |
-| --- | --- |
-| Connection   required | __Type__    String   __Description__   Identifier of the corresponding connection. |
-| DefaultObjectClass   optional | __Type__    String   __Description__   Default object class used by the provisioner, for example ```person```, ```organizationalPerson```, ```user```, etc.   __Note:__ multiple default object classes are separated with ```<br/>```. |
-| PasswordResetSetting   optional | __Type__    String   __Description__   Identifier of the corresponding password reset setting. |
+| Property                      | Details                                                                                                                                                                                                        |
+| ----------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Connection required           | **Type** String **Description** Identifier of the corresponding connection.                                                                                                                                    |
+| DefaultObjectClass optional   | **Type** String **Description** Default object class used by the provisioner, for example `person`, `organizationalPerson`, `user`, etc. **Note:** multiple default object classes are separated with `<br/>`. |
+| PasswordResetSetting optional | **Type** String **Description** Identifier of the corresponding password reset setting.                                                                                                                        |

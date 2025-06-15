@@ -1,14 +1,20 @@
 # LDIF
 
-This connector exports entries from an [LDIF](https://en.wikipedia.org/wiki/LDAP_Data_Interchange_Format) file.
+This connector exports entries from an
+[LDIF](https://en.wikipedia.org/wiki/LDAP_Data_Interchange_Format) file.
 
-This page is about [Directory/LDIF](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/ldif/index.md).
+This page is about
+[Directory/LDIF](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/ldif/index.md).
 
 ![Package: Directory/LDIF](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/ldif/packages_ldif_v603.png)
 
 ## Overview
 
-The LDAP Data Interchange Format (LDIF) is a standard plain text data interchange format for representing LDAP (Lightweight Directory Access Protocol) directory content and update requests. LDIF conveys directory content as a set of records, one record for each object (or entry). It also represents update requests, such as Add, Modify, Delete, and Rename, as a set of records, one record for each update request.
+The LDAP Data Interchange Format (LDIF) is a standard plain text data interchange format for
+representing LDAP (Lightweight Directory Access Protocol) directory content and update requests.
+LDIF conveys directory content as a set of records, one record for each object (or entry). It also
+represents update requests, such as Add, Modify, Delete, and Rename, as a set of records, one record
+for each update request.
 
 ## Prerequisites
 
@@ -20,7 +26,9 @@ This connector generates a CSV file from an input LDIF file containing entries t
 
 ### Configuration
 
-This process is configured through a [connection](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or the XML configuration, and in the ```appsettings.agent.json > Connections``` section:
+This process is configured through a
+[connection](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
+in the UI and/or the XML configuration, and in the `appsettings.agent.json > Connections` section:
 
 ```
 appsettings.agent.json
@@ -36,12 +44,10 @@ appsettings.agent.json
 ```
 
 The identifier of the connection and thus the name of the subsection must:
-  
+
 - be unique.
-  
 - not begin with a digit.
-  
-- not contain ```<```, ```>```, ```:```, ```"```, ```/```, ```\```, ```|```, ```?```, ```*``` and ```_```.
+- not contain `<`, `>`, `:`, `"`, `/`, `\`, `|`, `?`, `*` and `_`.
 
 > For example:
 >
@@ -64,17 +70,19 @@ The identifier of the connection and thus the name of the subsection must:
 
 #### Setting attributes
 
-| Name | Details |
-| --- | --- |
-| LDIFFile   required | __Type__    String   __Description__ Path of the LDIF input file. |
-| FilterAttribute   required | __Type__    String   __Description__ Property from the connector's configuration whose value is to be compared with the values from ```FilterValues```, in order to filter the entries to export. |
-| FilterValues   required | __Type__    String   __Description__ List of values to be compared with the value of ```FilterAttribute```, in order to filter the entries to export. Usercube will export only the entries matching the filter.   __Note:__ multiple values must be separated by white spaces. |
-| Attributes   required | __Type__    String List   __Description__ List of properties from the connector's configuration to be exported. |
-| LdifEncoding   default value: UTF-8 | Encoding of the file. [See the list of available encodings](https://learn.microsoft.com/en-us/dotnet/api/system.text.encoding#see-the-list-of-available-encodings). |
+| Name                              | Details                                                                                                                                                                                                                                                              |
+| --------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| LDIFFile required                 | **Type** String **Description** Path of the LDIF input file.                                                                                                                                                                                                         |
+| FilterAttribute required          | **Type** String **Description** Property from the connector's configuration whose value is to be compared with the values from `FilterValues`, in order to filter the entries to export.                                                                             |
+| FilterValues required             | **Type** String **Description** List of values to be compared with the value of `FilterAttribute`, in order to filter the entries to export. Usercube will export only the entries matching the filter. **Note:** multiple values must be separated by white spaces. |
+| Attributes required               | **Type** String List **Description** List of properties from the connector's configuration to be exported.                                                                                                                                                           |
+| LdifEncoding default value: UTF-8 | Encoding of the file. [See the list of available encodings](https://learn.microsoft.com/en-us/dotnet/api/system.text.encoding#see-the-list-of-available-encodings).                                                                                                  |
 
 ### Output details
 
-This connector is meant to generate to the [ExportOutput](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) folder a CSV file named ```LdifExport.csv```, with the following columns:
+This connector is meant to generate to the
+[ExportOutput](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
+folder a CSV file named `LdifExport.csv`, with the following columns:
 
 ```
 LdifExport.csv
@@ -90,6 +98,11 @@ There are no fulfill capabilities for this connector.
 
 ### Credential protection
 
-This connector has no credential attributes, and therefore does not use [RSA encryption](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md), nor a [CyberArk Vault](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md).
+This connector has no credential attributes, and therefore does not use
+[RSA encryption](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md),
+nor a
+[CyberArk Vault](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md).
 
-Still, data protection can be ensured through an [Azure Key Vault](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md) safe.
+Still, data protection can be ensured through an
+[Azure Key Vault](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md)
+safe.

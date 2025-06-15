@@ -231,17 +231,17 @@ On the client side, we offer `@docusaurus/router` to access the page's route. `@
 This API is **SSR safe**, as opposed to the browser-only `window.location`.
 
 ```jsx title="myComponent.js"
-import React from 'react';
-import {useLocation} from '@docusaurus/router';
+import React from 'react'
+import { useLocation } from '@docusaurus/router'
 
 export function PageRoute() {
   // React router provides the current component's route, even in SSR
-  const location = useLocation();
+  const location = useLocation()
   return (
     <span>
       We are currently on <code>{location.pathname}</code>
     </span>
-  );
+  )
 }
 ```
 

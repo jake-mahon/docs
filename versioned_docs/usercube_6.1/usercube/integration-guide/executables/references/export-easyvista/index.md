@@ -2,7 +2,9 @@
 
 This tool is made to export entities from an EasyVista instance to CSV files.
 
-The hardcoded entities named ```Employees``` can be fetched directly using the URL of the EasyVista instance. To export other entities, you have to create a view of your data on EasyVista to be able to fetch an ```internalquery```.
+The hardcoded entities named `Employees` can be fetched directly using the URL of the EasyVista
+instance. To export other entities, you have to create a view of your data on EasyVista to be able
+to fetch an `internalquery`.
 
 ## Examples
 
@@ -18,7 +20,8 @@ It is possible to export data by specifying the attribute names to fetch, for ea
 
 ### Exporting entities using entities defined in configuration
 
-It is also possible to export data by specifying the Usercube's server URL, so the export tool automatically fetches the entity type mapping property names linked to the specified connection:
+It is also possible to export data by specifying the Usercube's server URL, so the export tool
+automatically fetches the entity type mapping property names linked to the specified connection:
 
 ```
 
@@ -32,14 +35,14 @@ The server has to be running.
 
 ## Arguments
 
-| Argument Name | Details |
-| --- | --- |
-| --attributes   optional | __Type__    String list   __Description__   List of attributes to enrich the research. Format is: ```-at "Table1=[last_name, begin_of_contract, department_id, location_id] | Table2=[profile_id, e_mail]"``` |
-| --fetching-urls   required __if__ --entity-names is set | __Type__    String list   __Description__ The specific URLs to fetch data, corresponding to entity names. It must be the same length and have the same order as ```--entity-names```. |
-| --entity-names   required __if__ --fetching-urls is set | __Type__    String list   __Description__ The corresponding table names to fetch data, corresponding to fetching URLs. It must be the same length and have the same order as ```--fetching-urls```. |
-|  |  |
-| --- | --- |
-| --url   required | __Type__    String   __Description__ EasyVista API Endpoint URL. |
-| --account   required | __Type__    String   __Description__ EasyVista account. |
-| --login   required | __Type__    String   __Description__ Path of the file used for complete synchronization. |
-| --password   required | __Type__    String   __Description__ EasyVista server password. |
+| Argument Name                                         | Details                                                                                                                                                                                    |
+| ----------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------- |
+| --attributes optional                                 | **Type** String list **Description** List of attributes to enrich the research. Format is: ```-at "Table1=[last_name, begin_of_contract, department_id, location_id]                       | Table2=[profile_id, e_mail]"``` |
+| --fetching-urls required **if** --entity-names is set | **Type** String list **Description** The specific URLs to fetch data, corresponding to entity names. It must be the same length and have the same order as `--entity-names`.               |
+| --entity-names required **if** --fetching-urls is set | **Type** String list **Description** The corresponding table names to fetch data, corresponding to fetching URLs. It must be the same length and have the same order as `--fetching-urls`. |
+|                                                       |                                                                                                                                                                                            |
+| ---                                                   | ---                                                                                                                                                                                        |
+| --url required                                        | **Type** String **Description** EasyVista API Endpoint URL.                                                                                                                                |
+| --account required                                    | **Type** String **Description** EasyVista account.                                                                                                                                         |
+| --login required                                      | **Type** String **Description** Path of the file used for complete synchronization.                                                                                                        |
+| --password required                                   | **Type** String **Description** EasyVista server password.                                                                                                                                 |

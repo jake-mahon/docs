@@ -2,7 +2,8 @@
 
 ## What is a rollback?
 
-If an error occurs while running a script, a rollback is initiated. This ensures that the original password is restored.
+If an error occurs while running a script, a rollback is initiated. This ensures that the original
+password is restored.
 
 ## When does a rollback run?
 
@@ -12,9 +13,11 @@ The following diagram shows when and according to which criteria a rollback is i
 
 ## Procedure
 
-If a rollback needs to be run, all scripts for the Password Reset are executed once again. The last password in the history is used for this process.
-No new historical entry is created after the rollback.
+If a rollback needs to be run, all scripts for the Password Reset are executed once again. The last
+password in the history is used for this process. No new historical entry is created after the
+rollback.
 
 ## Logbook
 
-The logbook can be used to see if a rollback has been run and if it was successful. After a rollback, the password should be checked once again as a precaution.
+The logbook can be used to see if a rollback has been run and if it was successful. After a
+rollback, the password should be checked once again as a precaution.

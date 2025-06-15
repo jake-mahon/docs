@@ -1,50 +1,71 @@
 # How has Endpoint Policy Manager Evolved over the years?
 
-Every year Netwrix Endpoint Policy Manager (formerly PolicyPak) continues to add new features for customers. Here is a list of new functions and milestones along with their release years.
+Every year Netwrix Endpoint Policy Manager (formerly PolicyPak) continues to add new features for
+customers. Here is a list of new functions and milestones along with their release years.
 
 Before 2017
 
-- Endpoint Policy Manager Application Settings Manager: Manage 500+ applications and keep them secure
+- Endpoint Policy Manager Application Settings Manager: Manage 500+ applications and keep them
+  secure
 - Endpoint Policy Manager Browser Router: Open the right browser for the right website
 - Endpoint Policy Manager Java Rules Manager: Map the right version of Java for the right website
 
 2017
 
 - New Component: File Associations Manager: Quickly map PDF, MAILTO:, and others to the right apps.
-- Reduce GPOs and convert them to use for MDM: [Reduce GPOs (and/or export them for use with Endpoint Policy Manager Cloud or with MDM)](../video/administrativetemplates/reducegpos.md)
-- Least Privilege Manager: SecureRun(TM) blocks Ransomware [Events](../video/leastprivilege/events.md)
-- New Component: New Endpoint Policy Manager Start Screen & Taskbar Manager: Manage Windows 10 tile layouts perfectly.
+- Reduce GPOs and convert them to use for MDM:
+  [Reduce GPOs (and/or export them for use with Endpoint Policy Manager Cloud or with MDM)](../video/administrativetemplates/reducegpos.md)
+- Least Privilege Manager: SecureRun(TM) blocks Ransomware
+  [Events](../video/leastprivilege/events.md)
+- New Component: New Endpoint Policy Manager Start Screen & Taskbar Manager: Manage Windows 10 tile
+  layouts perfectly.
 
 2018
 
-- New Component: Endpoint Policy Manager Scripts Manager: Perform any function via BAT, .JS or PowerShell
-- Least Privilege Manager Helper Tools: Enable Standard users to update Network Card and Printer settings, plus uninstall applications [Overcome Network Card, Printer, and Remove Programs UAC prompts](../video/leastprivilege/uacprompts.md)
+- New Component: Endpoint Policy Manager Scripts Manager: Perform any function via BAT, .JS or
+  PowerShell
+- Least Privilege Manager Helper Tools: Enable Standard users to update Network Card and Printer
+  settings, plus uninstall applications
+  [Overcome Network Card, Printer, and Remove Programs UAC prompts](../video/leastprivilege/uacprompts.md)
 
 2019
 
-- Least Privlege Discovery Auditing, Block & Allow UWP applications, Manage Security of Child Processes
+- Least Privlege Discovery Auditing, Block & Allow UWP applications, Manage Security of Child
+  Processes
 - IE Sitelist to Browser Router import
-- Least Privilege Manager Block PowerShell Malware attacks:[Block PowerShell in General, Open up for specific items](../video/leastprivilege/bestpractices/powershellblock.md)
-- New Component — Endpoint Policy Manager Feature Manager for Windows. Quickly add / remove features from Windows 10 & Windows Server.
+- Least Privilege Manager Block PowerShell Malware
+  attacks:[Block PowerShell in General, Open up for specific items](../video/leastprivilege/bestpractices/powershellblock.md)
+- New Component — Endpoint Policy Manager Feature Manager for Windows. Quickly add / remove features
+  from Windows 10 & Windows Server.
 
 2020
 
-- New Component — Endpoint Policy Manager RDP Manager: Enable remote work users to have .RDP files to connect to your resources.
-- Browser Router - New Edge Support / IE In Edge Mode [Manage Internet Explorer 11 and Edge Compatibility, Enterprise Modes and IE-in-Edge Mode](../video/browserrouter/ie.md)
-- Browser Router Apply Once then Drift [Endpoint Policy Manager Browser Router: Set the Windows 10 Default Browser (once) then drift](../video/browserrouter/defaultwindows10.md)
-- File Associations Manager Apply Once then Drift [Endpoint Policy Manager File Associations Manager: Apply once (and drift)](../video/fileassociations/applyonce.md)
+- New Component — Endpoint Policy Manager RDP Manager: Enable remote work users to have .RDP files
+  to connect to your resources.
+- Browser Router - New Edge Support / IE In Edge Mode
+  [Manage Internet Explorer 11 and Edge Compatibility, Enterprise Modes and IE-in-Edge Mode](../video/browserrouter/ie.md)
+- Browser Router Apply Once then Drift
+  [Endpoint Policy Manager Browser Router: Set the Windows 10 Default Browser (once) then drift](../video/browserrouter/defaultwindows10.md)
+- File Associations Manager Apply Once then Drift
+  [Endpoint Policy Manager File Associations Manager: Apply once (and drift)](../video/fileassociations/applyonce.md)
 - File Associations Manager Apply settings on USER side
-- Added Triggers to Endpoint Policy Manager Scripts & Triggers: Run a script at VPN launch or many other events
-- Added Email method for PPLPM Admin Approval [Using Email / Long Codes](../video/leastprivilege/longcodes.md)
-- New Component — Remote Work Delivery Manager: Deliver software to Windows 10 via SMB share, Amazon S3 or other cloud services
-- Least Privlege Manager: Automatically block unsigned Applications [Least Privilege Manager: Block All Unsigned with SecureRun](../video/leastprivilege/securerun/preventunsigned.md)
+- Added Triggers to Endpoint Policy Manager Scripts & Triggers: Run a script at VPN launch or many
+  other events
+- Added Email method for PPLPM Admin Approval
+  [Using Email / Long Codes](../video/leastprivilege/longcodes.md)
+- New Component — Remote Work Delivery Manager: Deliver software to Windows 10 via SMB share, Amazon
+  S3 or other cloud services
+- Least Privlege Manager: Automatically block unsigned Applications
+  [Least Privilege Manager: Block All Unsigned with SecureRun](../video/leastprivilege/securerun/preventunsigned.md)
 - Compliance Reporter now 10x faster
 
 2021
 
-- New Component: Endpoint Policy Manager VPN Manager: Enable remote work users to have Always On and standard VPN connections.
+- New Component: Endpoint Policy Manager VPN Manager: Enable remote work users to have Always On and
+  standard VPN connections.
 - CSE and MMC are now Multi-Domain compatible
-- Updated licensing where Professional and Enterprise customers can use Endpoint Policy Manager with Active Directory, with SCCM, with MDM and/or Endpoint Policy Manager Cloud
+- Updated licensing where Professional and Enterprise customers can use Endpoint Policy Manager with
+  Active Directory, with SCCM, with MDM and/or Endpoint Policy Manager Cloud
 
 2022
 
@@ -77,7 +98,8 @@ Before 2017
 - PP Device Manager: BitLocker volume ID and Serial ID can be set in Device Manager policy
 - MMC: Endpoint Policy Manager and Netwrix Auditor Integration
 - MMC: Reporting History of Endpoint Policy Manager items
-- Endpoint Policy Manager and Netwrix Privilege Secure: UI Updates, Lite licenses for Netwrix Privilege Secure customers and Netwrix Privilege Secure to Endpoint Policy Manager upgrade path
+- Endpoint Policy Manager and Netwrix Privilege Secure: UI Updates, Lite licenses for Netwrix
+  Privilege Secure customers and Netwrix Privilege Secure to Endpoint Policy Manager upgrade path
 - Update: Improved clarity of when you're licensed and what for
 - Cloud: Azure Group Integration
 - Cloud: Improved PP Cloud Sync Method
@@ -95,10 +117,12 @@ Before 2017
 - Least Privilege Manager: Windows 11 Style Menus
 - Least Privilege Manager Admin Approval: Automatic Rule Creation from Admin Approval Tool
 - Least Privilege Manager: Automatic Rule Creation from Audit Event (improvements)
-- Least Privilege Manager: Process Interception (aka Double-click behavior) changeable to Natural, Admin Approval, or Self Elevate
+- Least Privilege Manager: Process Interception (aka Double-click behavior) changeable to Natural,
+  Admin Approval, or Self Elevate
 - Least Privilege Manager: DFS Paths resolution on client
 - Least Privilege Manager: Elevate UWP and Windows Store Apps
-- Least Privilege Manager: Least Privilege Manager + Netwrix Privilege Secure Self Elevate working together
+- Least Privilege Manager: Least Privilege Manager + Netwrix Privilege Secure Self Elevate working
+  together
 - Network Security Manager DNS name Support
 - Grace Period Pop-Ups removal (Licensing Notices now in Event Logs)
 - Device Manager Automatic Rules Creation from Device Manager Admin Approval tool

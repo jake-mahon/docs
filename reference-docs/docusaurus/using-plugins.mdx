@@ -23,7 +23,7 @@ export default {
   // ...
   // highlight-next-line
   plugins: ['@docusaurus/plugin-content-pages'],
-};
+}
 ```
 
 Docusaurus can also load plugins from your local directory, with something like the following:
@@ -33,7 +33,7 @@ export default {
   // ...
   // highlight-next-line
   plugins: ['./src/plugins/docusaurus-local-plugin'],
-};
+}
 ```
 
 Paths should be absolute or relative to the config file.
@@ -57,7 +57,7 @@ export default {
     ],
     // highlight-end
   ],
-};
+}
 ```
 
 Example:
@@ -76,7 +76,7 @@ export default {
       },
     ],
   ],
-};
+}
 ```
 
 ## Multi-instance plugins and plugin IDs {#multi-instance-plugins-and-plugin-ids}
@@ -103,7 +103,7 @@ export default {
       },
     ],
   ],
-};
+}
 ```
 
 :::note
@@ -127,7 +127,7 @@ export default {
   // ...
   // highlight-next-line
   themes: ['@docusaurus/theme-classic', '@docusaurus/theme-live-codeblock'],
-};
+}
 ```
 
 ## Using presets {#using-presets}
@@ -183,7 +183,7 @@ export default {
       },
     ],
   ],
-};
+}
 ```
 
 ### Installing presets {#installing-presets}
@@ -201,7 +201,7 @@ export default {
   // ...
   // highlight-next-line
   presets: ['@docusaurus/preset-classic'],
-};
+}
 ```
 
 Preset paths can be relative to the config file:
@@ -211,7 +211,7 @@ export default {
   // ...
   // highlight-next-line
   presets: ['./src/presets/docusaurus-local-preset'],
-};
+}
 ```
 
 ### Creating presets {#creating-presets}
@@ -225,11 +225,11 @@ export default function preset(context, opts = {}) {
     plugins: [
       // Using three docs plugins at the same time!
       // Assigning a unique ID for each without asking the user to do it
-      ['@docusaurus/plugin-content-docs', {...opts.docs1, id: 'docs1'}],
-      ['@docusaurus/plugin-content-docs', {...opts.docs2, id: 'docs2'}],
-      ['@docusaurus/plugin-content-docs', {...opts.docs3, id: 'docs3'}],
+      ['@docusaurus/plugin-content-docs', { ...opts.docs1, id: 'docs1' }],
+      ['@docusaurus/plugin-content-docs', { ...opts.docs2, id: 'docs2' }],
+      ['@docusaurus/plugin-content-docs', { ...opts.docs3, id: 'docs3' }],
     ],
-  };
+  }
 }
 ```
 
@@ -242,28 +242,28 @@ export default {
     [
       './src/presets/docusaurus-preset-multi-docs.js',
       {
-        theme: {hello: 'world'},
-        docs1: {path: '/docs'},
-        docs2: {path: '/community'},
-        docs3: {path: '/api'},
+        theme: { hello: 'world' },
+        docs1: { path: '/docs' },
+        docs2: { path: '/community' },
+        docs3: { path: '/api' },
       },
     ],
     // highlight-end
   ],
-};
+}
 ```
 
 This is equivalent of doing:
 
 ```js title="docusaurus.config.js"
 export default {
-  themes: [['docusaurus-theme-awesome', {hello: 'world'}]],
+  themes: [['docusaurus-theme-awesome', { hello: 'world' }]],
   plugins: [
-    ['@docusaurus/plugin-content-docs', {id: 'docs1', path: '/docs'}],
-    ['@docusaurus/plugin-content-docs', {id: 'docs2', path: '/community'}],
-    ['@docusaurus/plugin-content-docs', {id: 'docs3', path: '/api'}],
+    ['@docusaurus/plugin-content-docs', { id: 'docs1', path: '/docs' }],
+    ['@docusaurus/plugin-content-docs', { id: 'docs2', path: '/community' }],
+    ['@docusaurus/plugin-content-docs', { id: 'docs3', path: '/api' }],
   ],
-};
+}
 ```
 
 This is especially useful when some plugins and themes are intended to be used together. You can even link their options together, e.g. pass one option to multiple plugins.
@@ -301,10 +301,10 @@ If there is no name (like `@jquery`), `[scope]/docusaurus-[moduleType]` (i.e. `@
 
 Below are some examples, for a plugin registered in the `plugins` field. Note that unlike [ESLint](https://eslint.org/docs/user-guide/configuring/plugins#configuring-plugins) or [Babel](https://babeljs.io/docs/en/options#name-normalization) where a consistent naming convention for plugins is mandated, Docusaurus permits greater naming freedom, so the resolutions are not certain, but follows the priority defined above.
 
-| Declaration | May be resolved as |
-| --- | --- |
-| `awesome` | `docusaurus-plugin-awesome` |
-| `sitemap` | [`@docusaurus/plugin-sitemap`](./api/plugins/plugin-sitemap.mdx) |
-| `@my-company` | `@my-company/docusaurus-plugin` (the only possible resolution!) |
-| `@my-company/awesome` | `@my-company/docusaurus-plugin-awesome` |
-| `@my-company/awesome/web` | `@my-company/docusaurus-plugin-awesome/web` |
+| Declaration               | May be resolved as                                               |
+| ------------------------- | ---------------------------------------------------------------- |
+| `awesome`                 | `docusaurus-plugin-awesome`                                      |
+| `sitemap`                 | [`@docusaurus/plugin-sitemap`](./api/plugins/plugin-sitemap.mdx) |
+| `@my-company`             | `@my-company/docusaurus-plugin` (the only possible resolution!)  |
+| `@my-company/awesome`     | `@my-company/docusaurus-plugin-awesome`                          |
+| `@my-company/awesome/web` | `@my-company/docusaurus-plugin-awesome/web`                      |

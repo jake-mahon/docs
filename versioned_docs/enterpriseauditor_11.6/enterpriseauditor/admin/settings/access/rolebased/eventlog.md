@@ -1,14 +1,17 @@
 # Roles and the Event Log
 
-The Enterprise Auditor Event Log includes a list of the following activities related to Role Based Access. The logged activities include information regarding the user who initiated the activity and their corresponding role:
+The Enterprise Auditor Event Log includes a list of the following activities related to Role Based
+Access. The logged activities include information regarding the user who initiated the activity and
+their corresponding role:
 
 - Job Query Modifications
 - Host List Modifications
 - All Global Settings Modifications
 
-  - Connection Profiles
-  - Role Based Access
-  - All other settings found in Settings node
+    - Connection Profiles
+    - Role Based Access
+    - All other settings found in Settings node
+
 - Job and Group Properties/Settings
 - Job Schedules
 - Job Deletions
@@ -17,4 +20,6 @@ The Enterprise Auditor Event Log includes a list of the following activities rel
 - Job/Group Executions
 - Enterprise Auditor Console launches and exits
 
-See the [Application Maintenance and Best Practices](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/maintenance/overview.md) topic for additional information.
+See the
+[Application Maintenance and Best Practices](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/maintenance/overview.md)
+topic for additional information.

@@ -2,7 +2,8 @@
 
 On the page that looks like this, simply change the settings inside the CUSTOM SETTINGS frame.
 
-However, DO NOT set the dropdown to custom. That is, but leave the "Security Level for Trusted Sites" dropdown (for instance) set to nothing.
+However, DO NOT set the dropdown to custom. That is, but leave the "Security Level for Trusted
+Sites" dropdown (for instance) set to nothing.
 
 This formula will deliver the specific custom settings you choose.
 

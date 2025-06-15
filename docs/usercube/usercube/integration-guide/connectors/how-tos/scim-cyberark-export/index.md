@@ -1,59 +1,81 @@
 # Export CyberArk Data via SCIM
 
-This guide shows how to set up a [SCIM](../../references-connectors/scim/index.md) connector to extract data from your CyberArk instance into CSV source files that will in turn be fed to the [
-Upward Data Synchronization
-](../../../synchronization/upward-data-sync/index.md) task and to your Identity Manager resource repository. It will focus on registering Identity Manager within the target CyberArk instance, configuring the connector, and building the job to perform regularly scheduled synchronization.
+This guide shows how to set up a [SCIM](../../references-connectors/scim/index.md) connector to
+extract data from your CyberArk instance into CSV source files that will in turn be fed to the
+[ Upward Data Synchronization ](../../../synchronization/upward-data-sync/index.md) task and to your
+Identity Manager resource repository. It will focus on registering Identity Manager within the
+target CyberArk instance, configuring the connector, and building the job to perform regularly
+scheduled synchronization.
 
 ## Prerequisites
 
 ### External system configuration
 
-Usually CyberArk provides the environment to use AAM (_Application Access Manager_) and SCIM (_System for Cross-domain Identity Management_). For example, PrivateArk Server, PrivateArk and other tools can be found on a VM-based environment.
+Usually CyberArk provides the environment to use AAM (_Application Access Manager_) and SCIM
+(_System for Cross-domain Identity Management_). For example, PrivateArk Server, PrivateArk and
+other tools can be found on a VM-based environment.
 
-It is strongly recommended that you follow the official __CyberArk SCIM Server Implementation Guide__ (the CyberArk team can provide this document) in order to set up the environment. When you've completed the installation or if CyberArk has already installed it, you can verify the installation:
+It is strongly recommended that you follow the official **CyberArk SCIM Server Implementation
+Guide** (the CyberArk team can provide this document) in order to set up the environment. When
+you've completed the installation or if CyberArk has already installed it, you can verify the
+installation:
 
-1. Log into __PrivateArk Client__, locate and open the __SCIM Config__ safe.
+1. Log into **PrivateArk Client**, locate and open the **SCIM Config** safe.
 2. Check the presence of the following objects:
 
-   - ```Encryption-key```: The SCIM Server uses a local cache to store objects retrieved from the Vault. Although no credentials (other than the ones in the SCIM Config safe, which are not stored on the cache) are retrieved, we encrypt the cache with this encryption key. The key is randomly generated, and not exposed by the installer, but can be changed if desired.
-   - ```GlobalConfig.yml```: This is the configuration file for the overall SCIM server settings. It is responsible for the setting of performance parameters and additional added features.
-   - ```Usercube-account```: This is a privileged account to allow Identity Manager to authenticate its REST API requests to the SCIM Server. The password for this account must be the same as the Identity Manager-user (Identity Manager can be replaced by any other name like Client).
-   - ```SCIM-account```: This is a privileged account, managed by the Central Policy Manager (CPM is the module of the PAM tool that is responsible for managing the passwords and any policies/exceptions configured), which allows the SCIM server to retrieve the password for SCIM-user through an Application Identity Manager (AIM) Credential Provider call.
-3. Verify that the following __Users__ were created in the PrivateArk Client:
+    - `Encryption-key`: The SCIM Server uses a local cache to store objects retrieved from the
+      Vault. Although no credentials (other than the ones in the SCIM Config safe, which are not
+      stored on the cache) are retrieved, we encrypt the cache with this encryption key. The key is
+      randomly generated, and not exposed by the installer, but can be changed if desired.
+    - `GlobalConfig.yml`: This is the configuration file for the overall SCIM server settings. It is
+      responsible for the setting of performance parameters and additional added features.
+    - `Usercube-account`: This is a privileged account to allow Identity Manager to authenticate its
+      REST API requests to the SCIM Server. The password for this account must be the same as the
+      Identity Manager-user (Identity Manager can be replaced by any other name like Client).
+    - `SCIM-account`: This is a privileged account, managed by the Central Policy Manager (CPM is
+      the module of the PAM tool that is responsible for managing the passwords and any
+      policies/exceptions configured), which allows the SCIM server to retrieve the password for
+      SCIM-user through an Application Identity Manager (AIM) Credential Provider call.
 
-   - Go to __Tools__ > __Administrative Tools__.
-   - Select __Users and Groups__.
-   - Ensure the following users have been created:
+3. Verify that the following **Users** were created in the PrivateArk Client:
 
-     - ```SCIM-user```: This is a CyberArk user with full privileges for creating and managing Safes, Accounts, Permissions, and Users. This user is required by the CyberArk's Command Line Interface (PACLI, used to perform quick Vault-level functions without logging in to the PrivateArk client) on the SCIM server for logging into the Vault and managing objects on behalf of client applications such as Identity Manager.
-     - ```Client-user```: This is a CyberArk user for authenticating requests made to the SCIM server using the REST API. (The name Client-user' can change and be replaced by Identity Manager-user' for example.)
+    - Go to **Tools** > **Administrative Tools**.
+    - Select **Users and Groups**.
+    - Ensure the following users have been created:
 
-   Now we can consider that the installation is correct, the login is ```Usercube-user``` and the password ```CyberArk1```.
+        - `SCIM-user`: This is a CyberArk user with full privileges for creating and managing Safes,
+          Accounts, Permissions, and Users. This user is required by the CyberArk's Command Line
+          Interface (PACLI, used to perform quick Vault-level functions without logging in to the
+          PrivateArk client) on the SCIM server for logging into the Vault and managing objects on
+          behalf of client applications such as Identity Manager.
+        - `Client-user`: This is a CyberArk user for authenticating requests made to the SCIM server
+          using the REST API. (The name Client-user' can change and be replaced by Identity
+          Manager-user' for example.)
+
+    Now we can consider that the installation is correct, the login is `Usercube-user` and the
+    password `CyberArk1`.
 
 ### Identity Manager configuration
 
 This step sets up the Identity Manager Agent to use the SCIM connector and access the CyberArk data.
 
-The settings must be entered in the appsettings.agent > Connections section. See the [SCIM](../../references-connectors/scim/index.md) topic for additional information.
+The settings must be entered in the appsettings.agent > Connections section. See the
+[SCIM](../../references-connectors/scim/index.md) topic for additional information.
 
 #### Connect to the target CyberArk instance
 
-In the ```Connections``` section, add one new subsection that will contain the credentials for the target CyberArk. Use a meaningful name to remember which CyberArk is accessed via this section.
+In the `Connections` section, add one new subsection that will contain the credentials for the
+target CyberArk. Use a meaningful name to remember which CyberArk is accessed via this section.
 
-> This example connects via the ```SCIMCyberArkExport``` connection to the CyberArk system:
+> This example connects via the `SCIMCyberArkExport` connection to the CyberArk system:
 >
 >                         ```
 >
 >                             appsettings.agent.json
-> {
->   ...
->   "Connections": {
->     ...
->     "SCIMCyberArkExport": {
->       ...
->     }
->   }
-> }
+>
+> { ... "Connections": { ... "SCIMCyberArkExport": { ... } } }
+>
+> ```
 >
 > ```
 
@@ -61,90 +83,91 @@ In the ```Connections``` section, add one new subsection that will contain the c
 
 In the newly created subsection, fill in:
 
-- The __Server__ attribute with the CyberArk's address. It has the form: ```https://host:port/CyberArk/scim```.
-- The __Login__ attribute with the User's login value (in our example, ```Usercube-user```).
-- The __Password__ attribute with the User's login value (in our example, ```Cyberark1```).
+- The **Server** attribute with the CyberArk's address. It has the form:
+  `https://host:port/CyberArk/scim`.
+- The **Login** attribute with the User's login value (in our example, `Usercube-user`).
+- The **Password** attribute with the User's login value (in our example, `Cyberark1`).
 
 > For example:
 >
 >                         ```
 >
 >                             appsettings.agent.json
-> {
->   ...
->   "Connections": {
->     ...
->     "SCIMCyberArkExport": {
->       "Server": "https://host:port/CyberArk/scim",
->       "Login": "Usercube-user",
->       "Password": "Cyberark1"
->     }
->   }
-> }
+>
+> { ... "Connections": { ... "SCIMCyberArkExport": { "Server": "https://host:port/CyberArk/scim",
+> "Login": "Usercube-user", "Password": "Cyberark1" } } }
+>
+> ```
+>
 > ```
 
-For pedagogical reasons, this guide focuses on the simplest way to set up the export, but it's not the most secure. Hence it is strongly recommended that you protect credentials using Azure Key Vault or CyberArk in a production environment.  
-Netwrix Identity Manager (formerly Usercube)recommends completing this guide once, testing the configuration, and only then, switching to a more secure way of storing credentials.
+For pedagogical reasons, this guide focuses on the simplest way to set up the export, but it's not
+the most secure. Hence it is strongly recommended that you protect credentials using Azure Key Vault
+or CyberArk in a production environment.  
+Netwrix Identity Manager (formerly Usercube)recommends completing this guide once, testing the
+configuration, and only then, switching to a more secure way of storing credentials.
 
 #### Set exported objects, exported attributes and export files
 
 This step focuses on choosing and setting up the list of SCIM objects and attributes to be exported.
 
-The __Filter__ attribute defines what is exported. It is located in the ```appsettings.agent > Connections > SCIMCyberArkExport``` subsection previously created.
+The **Filter** attribute defines what is exported. It is located in the
+`appsettings.agent > Connections > SCIMCyberArkExport` subsection previously created.
 
 ##### Choose objects to export
 
-The list of objects to export depends on the Role Model requirements. The list will evolve iteratively as the project's needs become clearer.
+The list of objects to export depends on the Role Model requirements. The list will evolve
+iteratively as the project's needs become clearer.
 
 The SCIM entities available in a CyberArk implementation are:
 
-- __Users__: CyberArk Users.
-- __Containers__: Containers/CyberArk Safes.
-- __ContainerPermissions__: Permissions on CyberArk Safes.
-- __Privileged Data__: Privileged Data/CyberArk Accounts.
-- __Groups__: CyberArk Groups.
+- **Users**: CyberArk Users.
+- **Containers**: Containers/CyberArk Safes.
+- **ContainerPermissions**: Permissions on CyberArk Safes.
+- **Privileged Data**: Privileged Data/CyberArk Accounts.
+- **Groups**: CyberArk Groups.
 
 Filters are defined in the next part.
 
 ##### Filtering
 
-An exhaustive list of entities and attributes provided by CyberArk is available in their [technical documentation](https://docs.cyberark.com/Product-Doc/OnlineHelp/Idaptive/Latest/en/Content/Applications/AppsOvw/SCIM-Provisioning.htm) or the SCIM ```Swagger UI```.
+An exhaustive list of entities and attributes provided by CyberArk is available in their
+[technical documentation](https://docs.cyberark.com/Product-Doc/OnlineHelp/Idaptive/Latest/en/Content/Applications/AppsOvw/SCIM-Provisioning.htm)
+or the SCIM `Swagger UI`.
 
-The ```Filter``` and ```FilterGroup``` setting syntax is detailed in the [SCIM](../../references-connectors/scim/index.md) optional attributes.
+The `Filter` and `FilterGroup` setting syntax is detailed in the
+[SCIM](../../references-connectors/scim/index.md) optional attributes.
 
-```SCIMSyntax``` must also be set to ```CyberArk``` because the CyberArk system doesn't strictly follow all the SCIM rules at the moment.
+`SCIMSyntax` must also be set to `CyberArk` because the CyberArk system doesn't strictly follow all
+the SCIM rules at the moment.
 
 ##### Example
 
-The following example sets up the __Users__, __ContainerPermissions__, __Containers__ and __Groups__ for export.
+The following example sets up the **Users**, **ContainerPermissions**, **Containers** and **Groups**
+for export.
 
-For __Users__, we give an example for each type of attribute:
+For **Users**, we give an example for each type of attribute:
 
-- __userName__ is an attribute of the base schema.
-- __ldapFullDN__ is an attribute of the ```urn:ietf:params:scim:schemas:cyberark:1.0:User``` schema because it is separated by ```:```.
-- __givenName__ is a sub-attribute of the attribute ```name``` because it is separated by ```:```.
+- **userName** is an attribute of the base schema.
+- **ldapFullDN** is an attribute of the `urn:ietf:params:scim:schemas:cyberark:1.0:User` schema
+  because it is separated by `:`.
+- **givenName** is a sub-attribute of the attribute `name` because it is separated by `:`.
 
-Notice the ```*``` that separates the entities.
+Notice the `*` that separates the entities.
 
                     ```
 
                         appsettings.agent.json
-{
-  ...
-  "Connections": {
-    ...
-    "SCIMCyberArkExport": {
-      "Server": "https://host:port/CyberArk/scim",
-      "Login": "Usercube-user",
-      "Password": "Cyberark1",
-      "Filter": "Users;urn:ietf:params:scim:schemas:cyberark:1.0:User:ldapFullDN|ldapDirectory id userName active name:givenName|middleName|familyName emails:value phoneNumbers:value title profileUrl source nativeIdentifier*ContainerPermissions;id user:value group:value container:value rights*Containers;id displayName type name",
-      "FilterGroup": "Groups;id displayName",
-      "SCIMSyntax": "CyberArk"
-    }
-  }
-}
-```
-                
+
+{ ... "Connections": { ... "SCIMCyberArkExport": { "Server": "https://host:port/CyberArk/scim",
+"Login": "Usercube-user", "Password": "Cyberark1", "Filter":
+"Users;urn:ietf:params:scim:schemas:cyberark:1.0:User:ldapFullDN|ldapDirectory id userName active
+name:givenName|middleName|familyName emails:value phoneNumbers:value title profileUrl source
+nativeIdentifier*ContainerPermissions;id user:value group:value container:value rights*Containers;id
+displayName type name", "FilterGroup": "Groups;id displayName", "SCIMSyntax": "CyberArk" } } }
+
+````
+
 
 ##### Set up export files
 
@@ -171,26 +194,19 @@ With the following example, the resulting files are:
 - ```C:/UsercubeDemo/Temp/ExportOutput/CyberArk_Containers.csv```
 - ```C:/UsercubeDemo/Temp/ExportOutput/CyberArk_members_Groups.csv```
 
-```
-appsettings.agent.json
-{
-  ...
-  "Connections": {
-    ...
-    "SCIMCyberArkExport": {
-      "Server": "https://host:port/CyberArk/scim",
-      "Login": "Usercube-user",
-      "Password": "Cyberark1",
-      "Filter": "Users;urn:ietf:params:scim:schemas:cyberark:1.0:User:ldapFullDN|ldapDirectory id userName active name:givenName|middleName|familyName emails:value phoneNumbers:value title profileUrl source nativeIdentifier*ContainerPermissions;id user:value group:value container:value rights*Containers;id displayName type name",
-      "FilterGroup": "Groups;id displayName",
-      "EntryFile": "C:/UsercubeDemo/Temp/ExportOutput/CyberArk",
-      "MembersFile": "C:/UsercubeDemo/Temp/ExportOutput/CyberArk_members",
-      "SCIMSyntax": "CyberArk"
-    }
-  }
-}
-```
-                
+````
+
+appsettings.agent.json { ... "Connections": { ... "SCIMCyberArkExport": { "Server":
+"https://host:port/CyberArk/scim", "Login": "Usercube-user", "Password": "Cyberark1", "Filter":
+"Users;urn:ietf:params:scim:schemas:cyberark:1.0:User:ldapFullDN|ldapDirectory id userName active
+name:givenName|middleName|familyName emails:value phoneNumbers:value title profileUrl source
+nativeIdentifier*ContainerPermissions;id user:value group:value container:value rights*Containers;id
+displayName type name", "FilterGroup": "Groups;id displayName", "EntryFile":
+"C:/UsercubeDemo/Temp/ExportOutput/CyberArk", "MembersFile":
+"C:/UsercubeDemo/Temp/ExportOutput/CyberArk_members", "SCIMSyntax": "CyberArk" } } }
+
+````
+
 
 Every file contains the data as CSV, with one column per attribute.
 
@@ -247,13 +263,13 @@ Declaring an [Assignment Policy](../../../role-model/role-model-rules/index.md) 
 
 ##### Example
 
-```
-Conf/SCIMCyberArk/CyberArk Connector.xml
-...
-<EntityType Identifier="CyberArk_User" DisplayName_L1="CyberArk - User">  ...
-</EntityType>...
-```
-                
+````
+
+Conf/SCIMCyberArk/CyberArk Connector.xml ...
+<EntityType Identifier="CyberArk_User" DisplayName_L1="CyberArk - User"> ... </EntityType>...
+
+````
+
 
 The CyberArk SCIM objects attributes are modeled by [Assignment Policy](../../../role-model/role-model-rules/index.md)properties, with the ```<Property>``` tags declared as children of the ```<EntityType>```.
 
@@ -275,13 +291,29 @@ This example defines an entity type named ```CyberArk_User``` to match the attri
 
 Notice the omitted __TargetColumnIndex__ attribute and the presence of ```Type="ForeignKey"``` for the ```groups``` and ```containers``` properties. If omitted, this attribute indicates that the properties are navigation properties.
 
-```
- Conf/SCIMCyberArk/CyberArk Connector.xml
-...
-<EntityType Identifier="CyberArk_User" DisplayName_L1="CyberArk User" DisplayName_L2="Compte CyberArk">    <Property Identifier="CyberArk_id" DisplayName_L1="Id" IsKey="true" TargetColumnIndex="0" Type="String" />    <Property Identifier="userName" DisplayName_L1="User Name" TargetColumnIndex="6" Type="String" />    <Property Identifier="active" DisplayName_L1="Active" TargetColumnIndex="7" Type="String" />    <Property Identifier="givenName" DisplayName_L1="First Name" TargetColumnIndex="8" Type="String" />    <Property Identifier="middleName" DisplayName_L1="Middle Name" TargetColumnIndex="9" Type="String" />    <Property Identifier="familyName" DisplayName_L1="Last Name" TargetColumnIndex="10" Type="String" />    <Property Identifier="emails" DisplayName_L1="Emails" TargetColumnIndex="11" Type="String" />    <Property Identifier="phoneNumbers" DisplayName_L1="Phone Numbers" TargetColumnIndex="12" Type="String" />    <Property Identifier="title" DisplayName_L1="Title" TargetColumnIndex="13" Type="String" />    <Property Identifier="profileUrl" DisplayName_L1="Profile Url" TargetColumnIndex="14" Type="String" />    <Property Identifier="dn" DisplayName_L1="DN" TargetColumnIndex="15" Type="String" />    <Property Identifier="source" DisplayName_L1="Source" TargetColumnIndex="16" Type="String" />    <Property Identifier="ldapFullDN" DisplayName_L1="LdapFullDN" TargetColumnIndex="17" Type="String" />    <Property Identifier="ldapDirectory" DisplayName_L1="LdapDirectory" TargetColumnIndex="18" Type="String" />    <Property Identifier="groups" DisplayName_L1="Groups" Type="ForeignKey" />    <Property Identifier="containers" DisplayName_L1="containers" Type="ForeignKey" /></EntityType>...
+````
 
-```
-                
+Conf/SCIMCyberArk/CyberArk Connector.xml ...
+<EntityType Identifier="CyberArk_User" DisplayName_L1="CyberArk User" DisplayName_L2="Compte CyberArk">
+<Property Identifier="CyberArk_id" DisplayName_L1="Id" IsKey="true" TargetColumnIndex="0" Type="String" />
+<Property Identifier="userName" DisplayName_L1="User Name" TargetColumnIndex="6" Type="String" />
+<Property Identifier="active" DisplayName_L1="Active" TargetColumnIndex="7" Type="String" />
+<Property Identifier="givenName" DisplayName_L1="First Name" TargetColumnIndex="8" Type="String" />
+<Property Identifier="middleName" DisplayName_L1="Middle Name" TargetColumnIndex="9" Type="String" />
+<Property Identifier="familyName" DisplayName_L1="Last Name" TargetColumnIndex="10" Type="String" />
+<Property Identifier="emails" DisplayName_L1="Emails" TargetColumnIndex="11" Type="String" />
+<Property Identifier="phoneNumbers" DisplayName_L1="Phone Numbers" TargetColumnIndex="12" Type="String" />
+<Property Identifier="title" DisplayName_L1="Title" TargetColumnIndex="13" Type="String" />
+<Property Identifier="profileUrl" DisplayName_L1="Profile Url" TargetColumnIndex="14" Type="String" />
+<Property Identifier="dn" DisplayName_L1="DN" TargetColumnIndex="15" Type="String" />
+<Property Identifier="source" DisplayName_L1="Source" TargetColumnIndex="16" Type="String" />
+<Property Identifier="ldapFullDN" DisplayName_L1="LdapFullDN" TargetColumnIndex="17" Type="String" />
+<Property Identifier="ldapDirectory" DisplayName_L1="LdapDirectory" TargetColumnIndex="18" Type="String" />
+<Property Identifier="groups" DisplayName_L1="Groups" Type="ForeignKey" />
+<Property Identifier="containers" DisplayName_L1="containers" Type="ForeignKey" /></EntityType>...
+
+````
+
 
 #### Write entity associations
 
@@ -295,13 +327,13 @@ The ```groups``` property of a ```CyberArk_User``` is a collection of __Group__ 
 
 The ```Users``` property of a ```CyberArk_Group``` is a collection of ```CyberArk_User```IDs which are members of this __Group__.
 
-```
-Conf/SCIMCyberArk/CyberArk Connector.xml
-...
+````
+
+Conf/SCIMCyberArk/CyberArk Connector.xml ...
 <EntityAssociation Identifier="CyberArk_Group_Members" DisplayName_L1="Group Members" IsProperty1Collection="true" Property1="CyberArk_Group:Users" IsProperty2Collection="true" Property2="CyberArk_User:groups" />...
 
-```
-                
+````
+
 
 The exact nature of the IDs are described by the associated [Entity Association Mapping](../../../toolkit/xml-configuration/connectors/entityassociationmapping/index.md).
 
@@ -319,26 +351,41 @@ The [Entity Type Mapping](../../../toolkit/xml-configuration/connectors/entityty
 
 The CSV source file path is written to the __ConnectionTable__ xml attribute. The target entity type name is written to the __Identifier__ xml attribute.
 
-```
-Conf/SCIMCyberArk/CyberArk Connector.xml
-...
-<EntityTypeMapping Identifier="CyberArk_User" Connector="CyberArk" ConnectionTable="SCIMCyberArkExport_Users" >  ...
-</EntityTypeMapping>...
+````
 
-```
-                
+Conf/SCIMCyberArk/CyberArk Connector.xml ...
+<EntityTypeMapping Identifier="CyberArk_User" Connector="CyberArk" ConnectionTable="SCIMCyberArkExport_Users" >
+... </EntityTypeMapping>...
+
+````
+
 
 To do so, the entity type mapping uses the [Entity Type Mapping](../../../toolkit/xml-configuration/connectors/entitytypemapping/index.md) element with the ```<Property>``` tag. This maps the CSV column from ```ConnectionColumn``` to the target EntityType property which is written to the __Identifier__ attribute.
 
 ##### Example
 
-```
-Conf/SCIMCyberArk/CyberArk Connector.xml
-...
-<EntityTypeMapping Identifier="CyberArk_User" Connector="CyberArk" ConnectionTable="SCIMCyberArkExport_Users" >  <Property Identifier="CyberArk_id" ConnectionColumn="id" IsPrimaryKey="true" />  <Property Identifier="userName" ConnectionColumn="userName" />  <Property Identifier="active" ConnectionColumn="active" />  <Property Identifier="givenName" ConnectionColumn="name:givenName" />  <Property Identifier="middleName" ConnectionColumn="name:middleName" />  <Property Identifier="familyName" ConnectionColumn="name:familyName" />  <Property Identifier="emails" ConnectionColumn="emails:value" IsMultiValuedProperty="true" />  <Property Identifier="phoneNumbers" ConnectionColumn="phoneNumbers:value" IsMultiValuedProperty="true" />  <Property Identifier="title" ConnectionColumn="title" />  <Property Identifier="profileUrl" ConnectionColumn="profileUrl" />  <Property Identifier="ldapDirectory" ConnectionColumn="ldapDirectory" />  <Property Identifier="ldapFullDN" ConnectionColumn="ldapFullDN" />  <Property Identifier="source" ConnectionColumn="source" ScimSchema="urn:ietf:params:scim:schemas:pam:1.0:LinkedObject"/>  <Property Identifier="dn" ConnectionColumn="nativeIdentifier" ScimSchema="urn:ietf:params:scim:schemas:pam:1.0:LinkedObject" /> </EntityTypeMapping>...
+````
 
-```
-                
+Conf/SCIMCyberArk/CyberArk Connector.xml ...
+<EntityTypeMapping Identifier="CyberArk_User" Connector="CyberArk" ConnectionTable="SCIMCyberArkExport_Users" >
+<Property Identifier="CyberArk_id" ConnectionColumn="id" IsPrimaryKey="true" />
+<Property Identifier="userName" ConnectionColumn="userName" />
+<Property Identifier="active" ConnectionColumn="active" />
+<Property Identifier="givenName" ConnectionColumn="name:givenName" />
+<Property Identifier="middleName" ConnectionColumn="name:middleName" />
+<Property Identifier="familyName" ConnectionColumn="name:familyName" />
+<Property Identifier="emails" ConnectionColumn="emails:value" IsMultiValuedProperty="true" />
+<Property Identifier="phoneNumbers" ConnectionColumn="phoneNumbers:value" IsMultiValuedProperty="true" />
+<Property Identifier="title" ConnectionColumn="title" />
+<Property Identifier="profileUrl" ConnectionColumn="profileUrl" />
+<Property Identifier="ldapDirectory" ConnectionColumn="ldapDirectory" />
+<Property Identifier="ldapFullDN" ConnectionColumn="ldapFullDN" />
+<Property Identifier="source" ConnectionColumn="source" ScimSchema="urn:ietf:params:scim:schemas:pam:1.0:LinkedObject"/>
+<Property Identifier="dn" ConnectionColumn="nativeIdentifier" ScimSchema="urn:ietf:params:scim:schemas:pam:1.0:LinkedObject" />
+</EntityTypeMapping>...
+
+````
+
 
 As a result, after synchronization, the ```UR_Resource``` table will be updated from the CSV source files data.
 
@@ -365,13 +412,13 @@ These associations are exported from the CyberArk system into the ```C:/Usercube
 
 The following [](../../../toolkit/xml-configuration/connectors/entityassociationmapping/index.md)[Entity Association Mapping](../../../toolkit/xml-configuration/connectors/entityassociationmapping/index.md) describes the mapping for the ```CyberArk_Group_Members``` EntityAssociation:
 
-```
-Conf/SCIMCyberArk/CyberArk Connector.xml
-...
+````
+
+Conf/SCIMCyberArk/CyberArk Connector.xml ...
 <EntityAssociation Identifier="CyberArk_Group_Members" DisplayName_L1="Group Members" IsProperty1Collection="true" Property1="CyberArk_Group:Users" IsProperty2Collection="true" Property2="CyberArk_User:groups" /><EntityAssociationMapping Identifier="CyberArk_Group_Members" Column1="value" EntityPropertyMapping1="CyberArk_Group:CyberArk_id" Column2="MemberId" EntityPropertyMapping2="CyberArk_User:CyberArk_id" Connector="CyberArk" ConnectionTable="SCIMCyberArkExport_members_Groups" />...
 
-```
-                
+````
+
 
 Here are a few explanations:
 
@@ -407,13 +454,14 @@ It strongly recommended to gather synchronized resources menu items under parent
 
 ##### Example
 
-```
-Conf/Nav.xml
-...
+````
+
+Conf/Nav.xml ...
+
 <MenuItem Identifier="Nav_Connectors" DisplayName_L1="Connectors" DisplayName_L2="Connecteurs" ParentMenuItem="Nav" />...
 
-```
-                
+````
+
 
 #### Child menu item
 
@@ -421,13 +469,14 @@ It is strongly recommended to use a new ```CyberArk Nav.xml``` file in the ```SC
 
 ##### Example
 
-```
-Conf/SCIMCyberArk/CyberArk Nav.xml
-...
+````
+
+Conf/SCIMCyberArk/CyberArk Nav.xml ...
+
 <MenuItem Identifier="Nav_Connectors_CyberArk" DisplayName_L1="CyberArk" DisplayName_L2="CyberArk" ParentMenuItem="Nav_Connectors">  <MenuItem Identifier="Nav_Connectors_CyberArk_User" DisplayName_L1="CyberArk Users" DisplayName_L2="Comptes CyberArk" EntityType="CyberArk_User" />  <MenuItem Identifier="Nav_Connectors_CyberArk_Group" DisplayName_L1="CyberArk Groups" DisplayName_L2="Groupes CyberArk" EntityType="CyberArk_Group" />  <MenuItem Identifier="Nav_Connectors_CyberArk_Container" DisplayName_L1="CyberArk Safes" DisplayName_L2="Safes CyberArk" EntityType="CyberArk_Container" /></MenuItem>...
 
-```
-                
+````
+
 
 Adds a new menu item under the ```Nav_Connectors``` menu item declared in the root ```Nav.xml``` file. This new menu item gives access to the list of synchronized CyberArk SCIM objects.
 
@@ -443,13 +492,14 @@ The [Display EntityType](../../../toolkit/xml-configuration/user-interface/displ
 
 ##### Example
 
-```
-Conf/SCIMCyberArk/CyberArk UI.xml
-...
-<DisplayEntityType Identifier="CyberArk_User">  <Property OutputType="BasicCollection" Identifier="groups" />  <Property OutputType="BasicCollection" Identifier="containers" /></DisplayEntityType>...
+````
 
-```
-                
+Conf/SCIMCyberArk/CyberArk UI.xml ... <DisplayEntityType Identifier="CyberArk_User">
+<Property OutputType="BasicCollection" Identifier="groups" />
+<Property OutputType="BasicCollection" Identifier="containers" /></DisplayEntityType>...
+
+````
+
 
 This configuration configures that display for [christian.adam@acme.com](mailto:christian.adam@acme.com):
 
@@ -465,13 +515,20 @@ The [DisplayTable](../../../toolkit/xml-configuration/user-interface/displaytabl
 
 ##### Example
 
-```
-Conf/SCIMCyberArk/CyberArk UI.xml
-...
-<DisplayTable Identifier="CyberArk_User" EntityType="CyberArk_User" DisplayTableDesignElement="resourcetable" IsEntityTypeDefault="true">  <Column DefaultSortPriority="1" DisplayBinding="userName" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" />  <Column DisplayBinding="givenName" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" />  <Column DisplayBinding="familyName" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" />  <Column DisplayBinding="ldapDirectory" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" />  <Column DisplayBinding="ldapFullDN" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" />  <Column DisplayBinding="title" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" />  <Column DisplayBinding="active" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" /></DisplayTable>...
+````
 
-```
-                
+Conf/SCIMCyberArk/CyberArk UI.xml ...
+<DisplayTable Identifier="CyberArk_User" EntityType="CyberArk_User" DisplayTableDesignElement="resourcetable" IsEntityTypeDefault="true">
+<Column DefaultSortPriority="1" DisplayBinding="userName" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" />
+<Column DisplayBinding="givenName" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" />
+<Column DisplayBinding="familyName" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" />
+<Column DisplayBinding="ldapDirectory" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" />
+<Column DisplayBinding="ldapFullDN" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" />
+<Column DisplayBinding="title" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" />
+<Column DisplayBinding="active" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" /></DisplayTable>...
+
+````
+
 
 configures the following list display:
 
@@ -487,13 +544,13 @@ With no custom ```InternalDisplayName```, a default value is used (instead of th
 
 ##### Example
 
-```
-Conf/SCIMCyberArk/CyberArk UI.xml
-...
+````
+
+Conf/SCIMCyberArk/CyberArk UI.xml ...
 <EntityPropertyExpression Identifier="CyberArk_User_InternalDisplayName" Expression="C#:resource:return resource.userPrincipalName ?? resource.mail ?? resource.displayName ?? resource.Id.ToString();" EntityType="CyberArk_User" Property="InternalDisplayName" />...
 
-```
-                
+````
+
 
 adds the ```InternalDisplayName``` to the CyberArk_User entity type to be used by the UI.
 
@@ -511,13 +568,19 @@ The following example sets permissions for the ```Administrator``` profile.
 
 It entitles an administrator to display ```CyberArk SCIM``` resource and role categories from the UI.
 
-```
-Conf/AzureAD/AzureAD Profile Administrator.xml
-...
-<AccessControlRule Profile="Administrator" EntityType="ResourceType" Identifier="Administrator_ResourceTypeSelector_resourceType_CyberArk" DisplayName_L1="Administrator_ResourceTypeSelector_resourceType_CyberArk">  <Entry Permission="/Custom/Resources/CyberArk_User/View" CanExecute="true" />  <Entry Permission="/Custom/Resources/CyberArk_Group/View" CanExecute="true" />  <Entry Permission="/Custom/Resources/CyberArk_Container/View" CanExecute="true" /></AccessControlRule><AccessControlRule Profile="Administrator" EntityType="Category" Identifier="Administrator_ResourceTypeSelector_category_CyberArk" DisplayName_L1="Administrator_ResourceTypeSelector_category_CyberArk">  <Entry Permission="/Custom/Resources/CyberArk_User/View" CanExecute="true" />  <Entry Permission="/Custom/Resources/CyberArk_Group/View" CanExecute="true" />  <Entry Permission="/Custom/Resources/CyberArk_Container/View" CanExecute="true" /></AccessControlRule>...
+````
 
-```
-                
+Conf/AzureAD/AzureAD Profile Administrator.xml ...
+<AccessControlRule Profile="Administrator" EntityType="ResourceType" Identifier="Administrator_ResourceTypeSelector_resourceType_CyberArk" DisplayName_L1="Administrator_ResourceTypeSelector_resourceType_CyberArk">
+<Entry Permission="/Custom/Resources/CyberArk_User/View" CanExecute="true" />
+<Entry Permission="/Custom/Resources/CyberArk_Group/View" CanExecute="true" />
+<Entry Permission="/Custom/Resources/CyberArk_Container/View" CanExecute="true" /></AccessControlRule><AccessControlRule Profile="Administrator" EntityType="Category" Identifier="Administrator_ResourceTypeSelector_category_CyberArk" DisplayName_L1="Administrator_ResourceTypeSelector_category_CyberArk">
+<Entry Permission="/Custom/Resources/CyberArk_User/View" CanExecute="true" />
+<Entry Permission="/Custom/Resources/CyberArk_Group/View" CanExecute="true" />
+<Entry Permission="/Custom/Resources/CyberArk_Container/View" CanExecute="true" /></AccessControlRule>...
+
+````
+
 
 ## Jobs
 
@@ -533,13 +596,14 @@ All the job steps can be found in the [Create Connector Synchro Complete](../../
 
 #### Example
 
-```
-Conf/SCIMCyberArk/SCIM CyberArk Jobs.xml
-...
-<CreateConnectorSynchroComplete Connector="CyberArk" DisplayName_L1="01: CyberArk - Synchronization Complete (scaffolding)" JobIdentifier="CyberArk_Synchronize_Complete_Scaffolding">  <OpenIdIdentifier Identifier="Job"/></CreateConnectorSynchroComplete>...
+````
 
-```
-                
+Conf/SCIMCyberArk/SCIM CyberArk Jobs.xml ...
+<CreateConnectorSynchroComplete Connector="CyberArk" DisplayName_L1="01: CyberArk - Synchronization Complete (scaffolding)" JobIdentifier="CyberArk_Synchronize_Complete_Scaffolding">
+<OpenIdIdentifier Identifier="Job"/></CreateConnectorSynchroComplete>...
+
+````
+
 
 This job will be executed on CyberArk's connector agent.
 
@@ -566,13 +630,13 @@ Every request from Agent to Server within the execution of a Job needs to be aut
 
 Here, we focus on creating one profile, used by the Job and every Task of the Job.
 
-```
-Conf/Profile AgentJob.xml
-...
+````
+
+Conf/Profile AgentJob.xml ...
 <Profile Identifier="AgentSynchro" DisplayName_L1="Agent Synchro" />...
 
-```
-                
+````
+
 
 As the Principle of Least Privilege states, Netwrix Identity Manager (formerly Usercube)strongly recommends that you create a [Profile](../../../toolkit/xml-configuration/access-control/profile/index.md) to be used during the Synchronization jobs which will be different from the one used during the Provisioning job. This contributes to separating access rights. The same principle applied even more rigorously would make Identity Manager create one profile per Task. It isn't necessary as most Synchronization tasks require the same permissions.
 
@@ -627,13 +691,13 @@ This can be done via the[Job Execution Access Control Rules](../../../toolkit/xm
 
 ##### Example
 
-```
-Conf/Profile AgentSychro.xml
-...
+````
+
+Conf/Profile AgentSychro.xml ...
 <JobExecutionAccessControlRules Profile="AgentProfileForSynchro"/>...
 
-```
-                
+````
+
 
 #### Declare usable ClientId/Secret pairs in the configuration
 
@@ -651,14 +715,14 @@ The following example creates a ```ClientId/Secret``` pair to be used by the Age
 Usercube-New-OpenIDSecret
 ](../../../executables/references/new-openidsecret/index.md) tool.
 
-```
-Conf/OpenIdClients.xml
-...
+````
+
+Conf/OpenIdClients.xml ...
 <OpenIdClient Identifier="Job" HashedSecret="K7gNU3sdo+Op8wNhqoVWhr5v6s1xYv72ol/pe/Unols=" DisplayName_L1="ClientId for Jobs" DisplayName_L2="ClientId pour les jobs" Profile="Administrator" />
 ...
 
-```
-                
+````
+
 
 #### Set up the Agent to use ClientId/Secret pairs
 
@@ -713,11 +777,13 @@ An external scheduler would rely on the [Usercube-Invoke-Job](../../../executabl
 
 The following command can be scheduled. It executes the ```CyberArk_Synchronize_Complete_Manually``` using the "Job/secret" authentication pair to connect to the Identity Manager Server at ```http://usercube.contoso.com```.
 
-```
-./Usercube-Invoke-Job.exe -j "CyberArk_Synchronize_Complete_Manually" --api-secret secret --api-client-id Job --api-url "http://usercube.contoso.com"
+````
 
-```
-                
+./Usercube-Invoke-Job.exe -j "CyberArk_Synchronize_Complete_Manually" --api-secret secret
+--api-client-id Job --api-url "http://usercube.contoso.com"
+
+````
+
 
 ## Validation
 
@@ -732,3 +798,4 @@ The Synchronization job should be found in the UI, under the __Job Execution__ m
 From there, it can be launched and debugged (if needed).
 
 After execution, CyberArk SCIM Objects resources should be in the ```UR_Resources``` table of the SQL Server database.
+````

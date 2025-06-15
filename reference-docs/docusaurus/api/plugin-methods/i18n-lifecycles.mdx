@@ -24,7 +24,7 @@ export default function (context, options) {
   return {
     name: 'my-plugin',
     // highlight-start
-    async getTranslationFiles({content}) {
+    async getTranslationFiles({ content }) {
       return [
         {
           path: 'sidebar-labels',
@@ -36,10 +36,10 @@ export default function (context, options) {
             someLabelFromContent: content.myLabel,
           },
         },
-      ];
+      ]
     },
     // highlight-end
-  };
+  }
 }
 ```
 
@@ -58,17 +58,15 @@ export default function (context, options) {
   return {
     name: 'my-plugin',
     // highlight-start
-    translateContent({content, translationFiles}) {
-      const myTranslationFile = translationFiles.find(
-        (f) => f.path === 'myTranslationFile',
-      );
+    translateContent({ content, translationFiles }) {
+      const myTranslationFile = translationFiles.find((f) => f.path === 'myTranslationFile')
       return {
         ...content,
         someContentLabel: myTranslationFile.someContentLabel.message,
-      };
+      }
     },
     // highlight-end
-  };
+  }
 }
 ```
 
@@ -85,17 +83,15 @@ export default function (context, options) {
   return {
     name: 'my-theme',
     // highlight-start
-    translateThemeConfig({themeConfig, translationFiles}) {
-      const myTranslationFile = translationFiles.find(
-        (f) => f.path === 'myTranslationFile',
-      );
+    translateThemeConfig({ themeConfig, translationFiles }) {
+      const myTranslationFile = translationFiles.find((f) => f.path === 'myTranslationFile')
       return {
         ...themeConfig,
         someThemeConfigLabel: myTranslationFile.someThemeConfigLabel.message,
-      };
+      }
     },
     // highlight-end
-  };
+  }
 }
 ```
 
@@ -113,9 +109,9 @@ export default function (context, options) {
     name: 'my-theme',
     // highlight-start
     async getDefaultCodeTranslationMessages() {
-      return readJsonFile(`${context.i18n.currentLocale}.json`);
+      return readJsonFile(`${context.i18n.currentLocale}.json`)
     },
     // highlight-end
-  };
+  }
 }
 ```

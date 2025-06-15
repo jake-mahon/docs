@@ -4,7 +4,8 @@ The Access Analyzer for Exchange Solution provides the ability to audit Exchange
 
 - Exchange Online (Limited)
 
-See the [Exchange Support and Permissions Explained](../solutions/exchange/support.md) topic for details on the type of auditing supported by data collector and by job group.
+See the [Exchange Support and Permissions Explained](../solutions/exchange/support.md) topic for
+details on the type of auditing supported by data collector and by job group.
 
 Data Collectors
 
@@ -21,34 +22,39 @@ For .Entra ID Inventory Prerequisite with the AzureADInventory Data Collector
 
 - Microsoft Graph API
 
-  - Application Permissions:
+    - Application Permissions:
 
-    - AuditLog.Read.All – Read all audit log data
-    - Directory.Read.All – Read directory data
-  - Delegated Permissions:
+        - AuditLog.Read.All – Read all audit log data
+        - Directory.Read.All – Read directory data
 
-    - Group.Read.All – Read all groups
-    - User.Read.All – Read all users' full profiles
+    - Delegated Permissions:
+
+        - Group.Read.All – Read all groups
+        - User.Read.All – Read all users' full profiles
+
 - Access URLs
 
-  - https://login.windows.net
-  - https://graph.windows.net
-  - https://login.microsoftonline.com
-  - https://graph.microsoft.com
+    - https://login.windows.net
+    - https://graph.windows.net
+    - https://login.microsoftonline.com
+    - https://graph.microsoft.com
 
-    - All sub-directories of the access URLs listed
+        - All sub-directories of the access URLs listed
 
-See the [Microsoft Entra ID Auditing Configuration](../../../config/entraid/access.md) topic for additional information.
+See the [Microsoft Entra ID Auditing Configuration](../../../config/entraid/access.md) topic for
+additional information.
 
 Permissions for the Registered Microsoft Entra ID Application: Office 365 Exchange Online
 
 - Application Permissions:
 
-  - Exchange.ManageAsApp – Manage Exchange As Application
-  - full_access_as_app – Use Exchange Web Services with full access to all mailboxes
+    - Exchange.ManageAsApp – Manage Exchange As Application
+    - full_access_as_app – Use Exchange Web Services with full access to all mailboxes
+
 - Exchange Administrator role assigned to the registered application's service principal
 
-See the [Exchange Online Auditing Configuration](../../../config/exchangeonline/access.md) topic for additional information.
+See the [Exchange Online Auditing Configuration](../../../config/exchangeonline/access.md) topic for
+additional information.
 
 For Exchange Web Services API Permissions with the EWSMailbox Data Collector
 
@@ -56,7 +62,8 @@ For Exchange Web Services API Permissions with the EWSMailbox Data Collector
 - Discovery Management Role
 - Exchange Online License
 
-See the [Exchange Web Services API Permissions](../solutions/exchange/webservicesapi.md) topic for additional information.
+See the [Exchange Web Services API Permissions](../solutions/exchange/webservicesapi.md) topic for
+additional information.
 
 For Exchange Web Services API Permissions with the EWSPublicFolder Data Collector
 
@@ -64,14 +71,16 @@ For Exchange Web Services API Permissions with the EWSPublicFolder Data Collecto
 - Discovery Management Role
 - Exchange Online License with a mailbox
 
-See the [Exchange Web Services API Permissions](../solutions/exchange/webservicesapi.md) topic for additional information.
+See the [Exchange Web Services API Permissions](../solutions/exchange/webservicesapi.md) topic for
+additional information.
 
 For Exchange PowerShell with ExchangePS Data Collector
 
 - Discovery Management Role
 - Organization Management Role
 
-See the [Exchange PowerShell Permissions](../solutions/exchange/powershell.md) topic for additional information.
+See the [Exchange PowerShell Permissions](../solutions/exchange/powershell.md) topic for additional
+information.
 
 ## Ports
 

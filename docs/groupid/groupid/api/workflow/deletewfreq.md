@@ -1,6 +1,7 @@
 # Delete a Workflow Request
 
-Delete a workflow request from a specified identity store ID of which is specified in the endpoint URL.
+Delete a workflow request from a specified identity store ID of which is specified in the endpoint
+URL.
 
 ## Endpoint
 

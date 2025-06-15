@@ -6,7 +6,8 @@ Visiting a website with Java enabled application you may see the warning as show
 
 ## Solution:
 
-Select option "Enable – hide warning and run with protection" under "Sandbox vs. Trusted Security verification". The setting placement may vary depending on the version of Java Pak you are using.
+Select option "Enable – hide warning and run with protection" under "Sandbox vs. Trusted Security
+verification". The setting placement may vary depending on the version of Java Pak you are using.
 
 Java 7 Pak technique:
 

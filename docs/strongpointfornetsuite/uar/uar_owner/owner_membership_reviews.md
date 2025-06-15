@@ -1,8 +1,12 @@
 # Membership Reviews
 
-This type of review is used to keep your roles up to date. When you click on a membership review, the list of users with the role is displayed. The links open the appropriate record in NetSuite, for example the __User__ link opens the __User__ record. Access membership reviews from __UAR List__ in your menu bar, or one of the review shortcuts.
+This type of review is used to keep your roles up to date. When you click on a membership review,
+the list of users with the role is displayed. The links open the appropriate record in NetSuite, for
+example the **User** link opens the **User** record. Access membership reviews from **UAR List** in
+your menu bar, or one of the review shortcuts.
 
-Reviews open on the __Review__ tab. The __Review Notes__ tab lists the review details for the review.
+Reviews open on the **Review** tab. The **Review Notes** tab lists the review details for the
+review.
 
 ![Membership review](../../../../static/img/product_docs/strongpointfornetsuite/uar/uar_owner/membership_review.webp)
 
@@ -15,33 +19,41 @@ You can perform these actions as part of your review:
 - Assign an Additional Reviewer
 - Complete the Membership Review
 
-Once an action is taken, the Membership review changes to __In Progress__.
+Once an action is taken, the Membership review changes to **In Progress**.
 
 Other available actions:
 
-- __Undo__: undoes all actions that have not been submitted.
-- __Export__: exports the UAR list as a CSV or PDF file.
-- __Submit__: submits the current changes.
-- __Complete Review__: marks the review complete. All rows must be completed (__Complete__ or __CR Complete__ status) before the __Complete Review__ action is available. The complete review is displayed in the UAR History. No further actions can be taken.
-- __Back__: returns you to the UAR list.
+- **Undo**: undoes all actions that have not been submitted.
+- **Export**: exports the UAR list as a CSV or PDF file.
+- **Submit**: submits the current changes.
+- **Complete Review**: marks the review complete. All rows must be completed (**Complete** or
+  **CR Complete** status) before the **Complete Review** action is available. The complete review is
+  displayed in the UAR History. No further actions can be taken.
+- **Back**: returns you to the UAR list.
 
 ### Review and Complete Role Membership Review
 
 This display provides a global view of the user's access.
 
-- __User__: the person assigned the role.
-- __Supervisor__: the User's supervisor.
-- __Global Permissions__: any global permissions assigned to this user.
-- __Other Roles__: all roles assigned to this user.
-- __SoD Violations__: any existing SoD violations for this user. Only applicable if your organization uses SoD.
-- __Status__: the current review status. Can be __Not Started__, __Completed__, __Change Request__, __CR Approved__, __CR Rejected__, __CR Cancelled__, __CR Complete__, or __Additional Reviewer__.
-- __Change Request ID__: if a change request is created, the linked number is added.
-- __Reason for Change__: brief description of why the change is submitted.
-- __Change Request Comments__: comments entered on the change request.
-- __Additional Reviewer__: you can add an additional reviewer to approve the access. For example, you are the role owner, but the user reports to a different manager. You can specify that manager as an Additional Reviewer to verify the role.
+- **User**: the person assigned the role.
+- **Supervisor**: the User's supervisor.
+- **Global Permissions**: any global permissions assigned to this user.
+- **Other Roles**: all roles assigned to this user.
+- **SoD Violations**: any existing SoD violations for this user. Only applicable if your
+  organization uses SoD.
+- **Status**: the current review status. Can be **Not Started**, **Completed**, **Change Request**,
+  **CR Approved**, **CR Rejected**, **CR Cancelled**, **CR Complete**, or **Additional Reviewer**.
+- **Change Request ID**: if a change request is created, the linked number is added.
+- **Reason for Change**: brief description of why the change is submitted.
+- **Change Request Comments**: comments entered on the change request.
+- **Additional Reviewer**: you can add an additional reviewer to approve the access. For example,
+  you are the role owner, but the user reports to a different manager. You can specify that manager
+  as an Additional Reviewer to verify the role.
 
 1. Select the user.
-2. Review their Global Permissions, Other Roles, and SoD Violations. The links all open the specific records for further review. If the user should retain the role, click __Mark Completed__. The status is updated. You cannot undo this action.  
+2. Review their Global Permissions, Other Roles, and SoD Violations. The links all open the specific
+   records for further review. If the user should retain the role, click **Mark Completed**. The
+   status is updated. You cannot undo this action.  
    ![Mark user as reviewed](../../../../static/img/product_docs/strongpointfornetsuite/uar/uar_owner/mark_complete.webp)
 
 ### Remove Users from the Role
@@ -49,52 +61,67 @@ This display provides a global view of the user's access.
 To remove one or more users from the role:
 
 1. Select the user.
-2. Review their Global Permissions, Other Roles, and SoD Violations. The links all open the specific records for further review. If the user should be removed from the role, click __Remove Role Membership__. The user line is highlighted. Click __Undo__ to cancel changes that have not be submitted.
-3. Click __Submit__.
-4. Enter a brief description of why the change is requested when prompted for the __Reason for Change__. Click __Accept__ when complete.
+2. Review their Global Permissions, Other Roles, and SoD Violations. The links all open the specific
+   records for further review. If the user should be removed from the role, click **Remove Role
+   Membership**. The user line is highlighted. Click **Undo** to cancel changes that have not be
+   submitted.
+3. Click **Submit**.
+4. Enter a brief description of why the change is requested when prompted for the **Reason for
+   Change**. Click **Accept** when complete.
 
-   ![Reason for change](../../../../static/img/product_docs/strongpointfornetsuite/uar/uar_owner/change_request_reason.webp)
+    ![Reason for change](../../../../static/img/product_docs/strongpointfornetsuite/uar/uar_owner/change_request_reason.webp)
 
-   A Change Request is generated for each user removed from the role. Status is changed to either __Change Request__ and the __Change Request ID__ added, or __Waiting for CR__ if there is an existing change request in progress as part of another review. Click the __Change Request ID__ to open the Change Request.
+    A Change Request is generated for each user removed from the role. Status is changed to either
+    **Change Request** and the **Change Request ID** added, or **Waiting for CR** if there is an
+    existing change request in progress as part of another review. Click the **Change Request ID**
+    to open the Change Request.
 
-   ![Remove a user from a role](../../../../static/img/product_docs/strongpointfornetsuite/uar/uar_owner/remove_user_from_role.webp)
+    ![Remove a user from a role](../../../../static/img/product_docs/strongpointfornetsuite/uar/uar_owner/remove_user_from_role.webp)
 
-   If the Change Request is rejected (__CR Rejected status__) or canceled (__CR Cancelled__), the user row is returned to a pending state and can then be reviewed again. Use the Change Request ID link to open the Change Request and review the __Approver Comments__ for more information.
+    If the Change Request is rejected (**CR Rejected status**) or canceled (**CR Cancelled**), the
+    user row is returned to a pending state and can then be reviewed again. Use the Change Request
+    ID link to open the Change Request and review the **Approver Comments** for more information.
 
 ### Assign an Additional Reviewer
 
 You can add additional reviewers to the review:
 
 1. Select the user.
-2. Select an additional reviewer from the drop down list.   
+2. Select an additional reviewer from the drop down list.  
    ![Assign an additional reviewer](../../../../static/img/product_docs/strongpointfornetsuite/uar/uar_owner/additional_user_assign.webp)  
-   The user line is highlighted. You can click __Undo__ to cancel the addition before you click __Submit__.
-3. Click __Submit__ or make additional changes.   
+   The user line is highlighted. You can click **Undo** to cancel the addition before you click
+   **Submit**.
+3. Click **Submit** or make additional changes.  
    ![Assigning an additional user](../../../../static/img/product_docs/strongpointfornetsuite/uar/uar_owner/additional_user_assign2.webp)  
-   The line is highlighted, the status updated, and the email notification is sent to the reviewer. You can no longer undo this action.
+   The line is highlighted, the status updated, and the email notification is sent to the reviewer.
+   You can no longer undo this action.
 
 ### Complete the Membership Review
 
-Each row must be in the __Complete__ or __CR Complete status__, with all change requests finished before you can click __Complete Review__. Once a review is complete, no further changes can be made.
+Each row must be in the **Complete** or **CR Complete status**, with all change requests finished
+before you can click **Complete Review**. Once a review is complete, no further changes can be made.
 
 ## Review Notes
 
-Every record has review notes with details about the changes. Only submitted changes are captured. The UAR list opens on the __Review__ tab. Click __Review Notes__ to open the notes tab. You can __Export__ the notes as a CSV or PDF file.
+Every record has review notes with details about the changes. Only submitted changes are captured.
+The UAR list opens on the **Review** tab. Click **Review Notes** to open the notes tab. You can
+**Export** the notes as a CSV or PDF file.
 
 ![Open the Review Notes tab](../../../../static/img/product_docs/strongpointfornetsuite/uar/uar_owner/review_notes_tab.webp)
 
 The notes have the following fields:
 
-- __Date__: the creation or update date for the record.
-- __Set By__: the user that created or updated the record.
-- __Type__: the change performed.
+- **Date**: the creation or update date for the record.
+- **Set By**: the user that created or updated the record.
+- **Type**: the change performed.
 
-  - __Set__: field was assigned a value.
-  - __Change__: field was updated from a value to another value.
-  - __Edit Permission__: when the permission was changed.
-  - __Mark Complete__: when permission is marked complete.
-  - __Remove__: when the permission was removed.
-- __Field__: the field that was set or updated.
-- __Old Value__: the previous field value.
-- __New Value__: the new field value.
-- __Role__: the affected role.
+    - **Set**: field was assigned a value.
+    - **Change**: field was updated from a value to another value.
+    - **Edit Permission**: when the permission was changed.
+    - **Mark Complete**: when permission is marked complete.
+    - **Remove**: when the permission was removed.
+
+- **Field**: the field that was set or updated.
+- **Old Value**: the previous field value.
+- **New Value**: the new field value.
+- **Role**: the affected role.

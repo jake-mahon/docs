@@ -2,11 +2,14 @@
 
 The Host Details page displays the groups that a host is a member of.
 
-In an investigation report, host names appear as links under the Target column in the Event Details and Top Resources sections (see the [Investigation Reports](reports.md) topic). Click a link to land on the Host Details page.
+In an investigation report, host names appear as links under the Target column in the Event Details
+and Top Resources sections (see the [Investigation Reports](reports.md) topic). Click a link to land
+on the Host Details page.
 
 ![Host Details page](../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/hostdetails.webp)
 
-The top of the page displays a host profile card which may contain the following information about the host:
+The top of the page displays a host profile card which may contain the following information about
+the host:
 
 - Host Name
 - Distinguished Name (DN)
@@ -28,6 +31,7 @@ The Group Membership tab displays the groups the host is a member of. It has the
 
 Each sub-tab displays a table with the following columns:
 
-- Group – The name of the group. Click the link to view group details. See the [Group Details Page](group.md) topic for additional information.
+- Group – The name of the group. Click the link to view group details. See the
+  [Group Details Page](group.md) topic for additional information.
 - Domain – Name of the domain. This may be either the domain DNS name or domain controller hostname.
 - Tags – The tag present on the perpetrator, file, or host associated with the event

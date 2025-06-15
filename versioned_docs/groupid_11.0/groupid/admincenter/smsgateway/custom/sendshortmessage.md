@@ -2,11 +2,11 @@
 
 Sends text messages to the target mobile phone numbers.
 
-__Namespace:__ Imanami.PublicInterfaces
+**Namespace:** Imanami.PublicInterfaces
 
-__Assembly:__ Imanami.PublicInterfaces.dll
+**Assembly:** Imanami.PublicInterfaces.dll
 
-__Syntax__
+**Syntax**
 
 ```
 SendSmsMessageResult SendShortMessage(ShortMessage shortMessage);
@@ -14,13 +14,13 @@ SendSmsMessageResult SendShortMessage(ShortMessage shortMessage);
 
 Parameters
 
-__ShortMessage__
+**ShortMessage**
 
 Type: Imanami.GroupID.DataTransferObjects.DataContracts.SMS.ShortMessage
 
 The object defining the message elements including the target mobile phone numbers.
 
-__Return Value__
+**Return Value**
 
 Type: Imanami.GroupID.DataTransferObjects.DataContracts.SMS.SendSmsMessageResult
 

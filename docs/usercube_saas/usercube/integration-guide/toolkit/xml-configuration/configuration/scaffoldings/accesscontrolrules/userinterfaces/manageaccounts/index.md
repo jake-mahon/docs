@@ -1,14 +1,16 @@
 # Manage Accounts
 
-Gives access to the __Manage Accounts__ buttons for the users of a given entity type.
+Gives access to the **Manage Accounts** buttons for the users of a given entity type.
 
 ![ManageAccounts Button](../../../../../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/userinterfaces/manageaccounts/accesscontrol_manageaccounts_v603.webp)
 
-The scaffolding gives access to the button, but you need to get the permissions on said accounts in order to see anything once you click on the button.
+The scaffolding gives access to the button, but you need to get the permissions on said accounts in
+order to see anything once you click on the button.
 
 ## Examples
 
-The following example gives the ```Administrator``` profile access to the __Manage Accounts__ button for users from ```Directory_User```.
+The following example gives the `Administrator` profile access to the **Manage Accounts** button for
+users from `Directory_User`.
 
 ```
 
@@ -21,10 +23,10 @@ In order to see AD accounts once clicking on the button:
 
 ## Properties
 
-| Property | Details |
-| --- | --- |
-| EntityType   required | __Type__    String   __Description__   Identifier of the entity type involved in the scaffolding. |
-| Profile   required | __Type__    String   __Description__   Identifier of the profile involved in the scaffolding. |
+| Property            | Details                                                                                    |
+| ------------------- | ------------------------------------------------------------------------------------------ |
+| EntityType required | **Type** String **Description** Identifier of the entity type involved in the scaffolding. |
+| Profile required    | **Type** String **Description** Identifier of the profile involved in the scaffolding.     |
 
 ## Generated XML
 

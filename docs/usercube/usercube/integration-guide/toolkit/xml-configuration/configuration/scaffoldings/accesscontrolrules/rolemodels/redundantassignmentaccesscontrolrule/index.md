@@ -1,6 +1,7 @@
 # Redundant Assignment Access Control Rule
 
-Generates the permissions to access the __Redundant Assignment__ page, to analyze and remove redundant assignments.
+Generates the permissions to access the **Redundant Assignment** page, to analyze and remove
+redundant assignments.
 
 Gives access to a shortcut on the dashboard to access this page.
 
@@ -8,7 +9,8 @@ Gives access to a shortcut on the dashboard to access this page.
 
 ## Examples
 
-The following example gives to the ```Administrator``` profile the permissions to access the __Redundant Assignment__ page and perform redundant-assignment related actions.
+The following example gives to the `Administrator` profile the permissions to access the **Redundant
+Assignment** page and perform redundant-assignment related actions.
 
 ```
 
@@ -18,9 +20,9 @@ The following example gives to the ```Administrator``` profile the permissions t
 
 ## Properties
 
-| Property | Details |
-| --- | --- |
-| Profile   required | __Type__    String   __Description__   Identifier of the profile involved in the scaffolding. |
+| Property         | Details                                                                                |
+| ---------------- | -------------------------------------------------------------------------------------- |
+| Profile required | **Type** String **Description** Identifier of the profile involved in the scaffolding. |
 
 ## Generated XML
 

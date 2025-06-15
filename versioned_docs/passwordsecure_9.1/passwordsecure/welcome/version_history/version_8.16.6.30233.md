@@ -14,4 +14,5 @@
 
 #### Server
 
-- Passwords can now be created in an organizational unit again if the right "Can share passwords stored in the user's organisational unit" is deactivated for the user.
+- Passwords can now be created in an organizational unit again if the right "Can share passwords
+  stored in the user's organisational unit" is deactivated for the user.

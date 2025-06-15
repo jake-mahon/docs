@@ -4,71 +4,94 @@ The AD Module, powered by Threat Prevention, can only be installed on domain con
 
 Follow the steps to manually deploy the AD Module.
 
-__Step 1 –__ From the Threat Prevention server, copy the Agent executable ( ```...\Netwrix\Netwrix Threat Prevention\SIEnterpriseManager\Setup\SI Agent.exe```) to the machine where you want to install the Agent. Then run the executable. The Netwrix Threat Prevention Windows Agent Setup wizard opens.
+**Step 1 –** From the Threat Prevention server, copy the Agent executable (
+`...\Netwrix\Netwrix Threat Prevention\SIEnterpriseManager\Setup\SI Agent.exe`) to the machine where
+you want to install the Agent. Then run the executable. The Netwrix Threat Prevention Windows Agent
+Setup wizard opens.
 
 ![StealthINTERCEPT Windows Agent Setup wizard on the Welcome page](../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
 
-__Step 2 –__ On the Welcome page, click __Install__. The Setup Progress page is displayed, followed by another Welcome page.
+**Step 2 –** On the Welcome page, click **Install**. The Setup Progress page is displayed, followed
+by another Welcome page.
 
 ![Threat Prevention Windows Agent - Welcome Page](../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/agent/welcome2.webp)
 
-__Step 3 –__ Click __Next__.
+**Step 3 –** Click **Next**.
 
 ![End-User License Agreement Page](../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/agent/license.webp)
 
-__Step 4 –__ On the End-User License Agreement page, check the __I accept the terms in the License Agreement__ box and click __Next__.
+**Step 4 –** On the End-User License Agreement page, check the **I accept the terms in the License
+Agreement** box and click **Next**.
 
 ![Destination Folder Page](../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/destinationfolder.webp)
 
-__Step 5 –__ _(Optional)_ On the Destination Folder page, change the installation directory location.
+**Step 5 –** _(Optional)_ On the Destination Folder page, change the installation directory
+location.
 
-- To change the default installation directory location, click __Change…__.
+- To change the default installation directory location, click **Change…**.
 
 ![Change Destination Folder Page](../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/agent/changedestination.webp)
 
 > > - Use the Look In field to select the desired installation folder.
-> > - When the Folder name is as desired, click __OK__. The wizard returns to the Destination Folder page.
-> > - Click __Next__.
+> > - When the Folder name is as desired, click **OK**. The wizard returns to the Destination Folder
+> >   page.
+> > - Click **Next**.
 
-> To use the default installation directory location, skip the previous step and click __Next__ on the Destination Folder page.
+> To use the default installation directory location, skip the previous step and click **Next** on
+> the Destination Folder page.
 
 ![CA Certificate Configiration Page](../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/agent/cacertconfig.webp)
 
-__Step 6 –__ Keep the default radio button selection, Managed by Threat Prevention.
+**Step 6 –** Keep the default radio button selection, Managed by Threat Prevention.
 
-__NOTE:__ The CA Certificate Configuration page is not applicable to the Activity Monitor.
+**NOTE:** The CA Certificate Configuration page is not applicable to the Activity Monitor.
 
 ![Enterprise Manager Location Information Page](../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/agent/enterprisemanageram.webp)
 
-__Step 7 –__ On the Enterprise Manager Location Information page, select the __Option__ button for a product to enable communication with it.
+**Step 7 –** On the Enterprise Manager Location Information page, select the **Option** button for a
+product to enable communication with it.
 
-- Select the __SAM configuration file__ radio button.
-- In the __Address or Path__ field, enter the path to the activity agent configuration file for this host. Remember, the Activity Monitor activity agent must already be deployed on the domain controller and enabled before installing the AD Agent. The default path is: ```…\STEALTHbits\StealthINTERCEPT\SIWindowsAgent\SAMConfig.xml```
+- Select the **SAM configuration file** radio button.
+- In the **Address or Path** field, enter the path to the activity agent configuration file for this
+  host. Remember, the Activity Monitor activity agent must already be deployed on the domain
+  controller and enabled before installing the AD Agent. The default path is:
+  `…\STEALTHbits\StealthINTERCEPT\SIWindowsAgent\SAMConfig.xml`
 - The port configuration only applies to the Enterprise Manager Host option.
 - Configure additional Agent options as desired:
 
-  - Safe Mode
+    - Safe Mode
 
-    - The Safe Mode option prevents the __Windows AD Events__ monitoring module from loading if the LSASS DLL versions has been modified since the last time the Threat Prevention Windows Agent service was started.
-  - Start Agent Service
+        - The Safe Mode option prevents the **Windows AD Events** monitoring module from loading if
+          the LSASS DLL versions has been modified since the last time the Threat Prevention Windows
+          Agent service was started.
 
-    - The __Start Agent Service__ option starts the Threat Prevention Windows Agent service after the installation is complete. If the Threat Prevention Windows Agent service is not started at the time of installation, the Activity Monitor Agent will start as needed.
-  - Create Windows Firewall Rules
+    - Start Agent Service
 
-    - The __Create Windows Firewall Rules__ option creates the rules needed to open this port during the installation process. If using a third party firewall, uncheck this option and manually create the necessary firewall rules.
-- When the settings are configured, click __Next__.
+        - The **Start Agent Service** option starts the Threat Prevention Windows Agent service
+          after the installation is complete. If the Threat Prevention Windows Agent service is not
+          started at the time of installation, the Activity Monitor Agent will start as needed.
+
+    - Create Windows Firewall Rules
+
+        - The **Create Windows Firewall Rules** option creates the rules needed to open this port
+          during the installation process. If using a third party firewall, uncheck this option and
+          manually create the necessary firewall rules.
+
+- When the settings are configured, click **Next**.
 
 ![Select Event Sources Page](../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/agent/eventsourcesad.webp)
 
-__Step 8 –__ On the Select Event Sources page, select __Windows Active Directory Events__ as needed by the Activity Monitor for the Active Directory solution. Click __Next__.
+**Step 8 –** On the Select Event Sources page, select **Windows Active Directory Events** as needed
+by the Activity Monitor for the Active Directory solution. Click **Next**.
 
 ![Windows Agent Setup wizard on the Ready page](../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/agent/readytoinstall.webp)
 
-__Step 9 –__ On the Ready to install Threat Prevention Windows Agent page, click __Install__. The Setup wizard displays the installation status.
+**Step 9 –** On the Ready to install Threat Prevention Windows Agent page, click **Install**. The
+Setup wizard displays the installation status.
 
 ![Windows Agent Setup wizard on the Operation successful page](../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/agent/success.webp)
 
-__Step 10 –__ When installation is complete, click __Close__.
+**Step 10 –** When installation is complete, click **Close**.
 
 The AD Module (SI Agent) is now installed on the server.
 
@@ -76,45 +99,52 @@ The AD Module (SI Agent) is now installed on the server.
 
 Follow the steps to add the Activity Monitor Windows Agent (with the AD Module) to the Console:
 
-__Step 1 –__ Open the Activity Monitor Console.
+**Step 1 –** Open the Activity Monitor Console.
 
-__Step 2 –__ On the Agents tab, click __Add Agent__. The Add New Agent(s) window opens.
+**Step 2 –** On the Agents tab, click **Add Agent**. The Add New Agent(s) window opens.
 
 ![Install New Agent](../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/agent/installnew.webp)
 
-__Step 3 –__ Click the __install agents on Active Directory domain controllers__ link.
+**Step 3 –** Click the **install agents on Active Directory domain controllers** link.
 
 ![Specify Agent Port](../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/agent/specifyport.webp)
 
-__Step 4 –__ Specify the port for the Activity Monitor Agent. Click __Next__.
+**Step 4 –** Specify the port for the Activity Monitor Agent. Click **Next**.
 
 ![Agent Install Location](../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/agent/installlocation.webp)
 
-__Step 5 –__ Specify the path of the Activity Monitor Agent, that has already been installed. Click __Next__.
+**Step 5 –** Specify the path of the Activity Monitor Agent, that has already been installed. Click
+**Next**.
 
 ![Active Directory Connection](../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/agent/adconnection.webp)
 
-__Step 6 –__ On the Active Directory Connection page, specify the credentials for the domain or domain controller(s) where the agent is installed. Click __Connect__ to verify connection to the domain. Click __Next__.
+**Step 6 –** On the Active Directory Connection page, specify the credentials for the domain or
+domain controller(s) where the agent is installed. Click **Connect** to verify connection to the
+domain. Click **Next**.
 
 ![Domains to Monitor](../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/agent/domains.webp)
 
-__Step 7 –__ Select the domain of the domain controller(s) where the agent is installed. Click __Next__.
+**Step 7 –** Select the domain of the domain controller(s) where the agent is installed. Click
+**Next**.
 
 ![Domain Controllers to Deploy Agent](../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/agent/domaincontroller.webp)
 
-__Step 8 –__ Select the domain controller(s) where the agent is installed. Click __Test__.
+**Step 8 –** Select the domain controller(s) where the agent is installed. Click **Test**.
 
-__NOTE:__ 
-When clicking Test while adding the Agent to the Console, the connection may fail. When clicking Test, the Activity Monitor verifies not only its ability to manage the agent but the console's ability to deploy the agent as well. Errors can be ignored if the agent was manually installed.
+**NOTE:** When clicking Test while adding the Agent to the Console, the connection may fail. When
+clicking Test, the Activity Monitor verifies not only its ability to manage the agent but the
+console's ability to deploy the agent as well. Errors can be ignored if the agent was manually
+installed.
 
-__Step 9 –__ Ignore the warning messages that the agent cannot be installed or upgraded and click __Next__.
+**Step 9 –** Ignore the warning messages that the agent cannot be installed or upgraded and click
+**Next**.
 
 ![Windows Agent Settings](../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/agent/windowsagent.webp)
 
-__Step 10 –__ Specify the Activity Monitor Agent Management Group (if desired). Click __Finish__.
+**Step 10 –** Specify the Activity Monitor Agent Management Group (if desired). Click **Finish**.
 
-__NOTE:__ 
-The Activity Monitor Agent Management Group allows users in the specified group to manage agents, but does not allow users in specified group to install, upgrade, or uninstall agents.
+**NOTE:** The Activity Monitor Agent Management Group allows users in the specified group to manage
+agents, but does not allow users in specified group to install, upgrade, or uninstall agents.
 
 The console will automatically detect the agent as it is already installed.
 

@@ -8,38 +8,51 @@ Customize folder search conditions using the following options:
 
 - Select template – Select any of the following template options:
 
-  - Blank
-  - All non-archived items over 90 days ago
-  - All calendar items that contains attachment that occurred over 90 days ago
-- Edit Conditions – Click an underlined value, if present, in the Edit Conditions box to modify any of the template conditions
+    - Blank
+    - All non-archived items over 90 days ago
+    - All calendar items that contains attachment that occurred over 90 days ago
 
-  __NOTE:__ The values present depends on the selections made in the Select conditions box.
+- Edit Conditions – Click an underlined value, if present, in the Edit Conditions box to modify any
+  of the template conditions
 
-  - Click either __IPM.Note__ or __IPM.Appointment__, to open the MessageClasses Window with IPM.Note or IPM.Appointment class populated, respectively. See the [MessageClasses Window ](#messageclasses-window) topic for additional information.
-  - Click __over 90 Day ago__ to open the Date Range Selection Window. See the [Date Range Selection Window](#date-range-selection-window) topic for additional information.
-  - Click __has attachment(s)__ to convert the condition to __has no attachment(s)__ and vice versa
+    **NOTE:** The values present depends on the selections made in the Select conditions box.
+
+    - Click either **IPM.Note** or **IPM.Appointment**, to open the MessageClasses Window with
+      IPM.Note or IPM.Appointment class populated, respectively. See the
+      [MessageClasses Window ](#messageclasses-window) topic for additional information.
+    - Click **over 90 Day ago** to open the Date Range Selection Window. See the
+      [Date Range Selection Window](#date-range-selection-window) topic for additional information.
+    - Click **has attachment(s)** to convert the condition to **has no attachment(s)** and vice
+      versa
 
 ## MessageClasses Window
 
-Use the MessageClasses window to alter criteria related to message class. The Message Classes window opens if __Ipm.Note__ or __Ipm.Appointment__ is clicked in the Edit Conditions box on the Search Filter page.
+Use the MessageClasses window to alter criteria related to message class. The Message Classes window
+opens if **Ipm.Note** or **Ipm.Appointment** is clicked in the Edit Conditions box on the Search
+Filter page.
 
 ![MessagesClasses window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/ewsmailbox/filterwizard/messageclassessearchfilter.png)
 
 Determine MessageClass-related criteria using the following options:
 
-- To add a class, click __Add__
+- To add a class, click **Add**
 - Enter the desired Message Class in the corresponding textbox
-- Click __Exact Match__ to reveal a dropdown menu of other search criteria under Matching Strategy and select the preferred option:
+- Click **Exact Match** to reveal a dropdown menu of other search criteria under Matching Strategy
+  and select the preferred option:
 
-  - Exact Match
-  - Starts With
-  - Contains
-- To remove a message class, select it and click __Remove__
-- Click __Import CSV__ to open a file explorer window to select an appropriate CSV file containing search terms
+    - Exact Match
+    - Starts With
+    - Contains
+
+- To remove a message class, select it and click **Remove**
+- Click **Import CSV** to open a file explorer window to select an appropriate CSV file containing
+  search terms
 
 ## Date Range Selection Window
 
-Use the Date Range Selection window to select a time period or range for the search. The Date Range Selection window opens if __over 90 Day ago__ is clicked in the Edit Conditions box on the Search Filter page.
+Use the Date Range Selection window to select a time period or range for the search. The Date Range
+Selection window opens if **over 90 Day ago** is clicked in the Edit Conditions box on the Search
+Filter page.
 
 ![Date Range Selection window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/ewsmailbox/filterwizard/daterangeselectionsearchfilter.png)
 

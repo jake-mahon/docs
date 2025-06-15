@@ -2,7 +2,8 @@
 
 Use this tab to configure advanced settings for a user.
 
-The Server box helps differentiate between a user and a mailbox object. If it displays the name of a messaging server, the object is a mailbox. If it is empty, the object is a user.
+The Server box helps differentiate between a user and a mailbox object. If it displays the name of a
+messaging server, the object is a mailbox. If it is empty, the object is a user.
 
 Home Page
 
@@ -14,7 +15,8 @@ The employee ID of the user.
 
 Hide from address book
 
-Indicates whether to hide the user in the messaging provider's address book (such as the Outlook address book).
+Indicates whether to hide the user in the messaging provider's address book (such as the Outlook
+address book).
 
 If selected, the user will not be visible in the address book.
 
@@ -22,9 +24,10 @@ Recipient
 
 Specify an alternate recipient to receive the emails sent to this user.
 
-Click the ellipsis button to launch the [Find Dialog Box](../../../../search/find.md), where you can search and select the required recipient.
+Click the ellipsis button to launch the [Find Dialog Box](../../../../search/find.md), where you can
+search and select the required recipient.
 
-To remove the alternate recipient, click the __Remove__ button.
+To remove the alternate recipient, click the **Remove** button.
 
 Server
 

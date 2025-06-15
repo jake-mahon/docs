@@ -1,8 +1,10 @@
 # System Settings Interface
 
-The System Settings interface provides access to system logs, user access controls, licensing, and more.
+The System Settings interface provides access to system logs, user access controls, licensing, and
+more.
 
-Use the gear icon in the upper right corner of the console to open the Configuration menu. Then select __System Settings__ to open the System Settings interface.
+Use the gear icon in the upper right corner of the console to open the Configuration menu. Then
+select **System Settings** to open the System Settings interface.
 
 ![System Settings interface](/img/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/interface.png)
 

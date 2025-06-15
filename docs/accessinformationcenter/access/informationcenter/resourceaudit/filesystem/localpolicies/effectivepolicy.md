@@ -1,6 +1,7 @@
 # Effective Policy Report
 
-The Effective Policy report at the local policy level provides a list of users and groups who are effectively granted or denied access through the selected policy.
+The Effective Policy report at the local policy level provides a list of users and groups who are
+effectively granted or denied access through the selected policy.
 
 ![Effective Policy report](../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/filesystem/localpolicies/effectivepolicy.webp)
 
@@ -11,4 +12,5 @@ This report is comprised of the following columns:
 - ObjectSid – Security ID of the object
 - Policy – Allow or Deny access
 
-If the selected trustee is a group, the Group Membership pane will display the group membership, including nested groups.
+If the selected trustee is a group, the Group Membership pane will display the group membership,
+including nested groups.

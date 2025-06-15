@@ -1,6 +1,7 @@
 # Narrow Data Collection Scope
 
-Inclusions and exclusions provide a granular way of limiting collection scope to a specific set of documents within a content source.
+Inclusions and exclusions provide a granular way of limiting collection scope to a specific set of
+documents within a content source.
 
 This functionality is currently supported for the following source types:
 

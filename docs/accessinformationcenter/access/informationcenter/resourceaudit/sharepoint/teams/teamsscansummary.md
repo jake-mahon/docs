@@ -1,6 +1,6 @@
 # Teams Scan Summary
 
-The Teams Scan Summary report at the __Teams__ node provides an overview of scanned Teams servers.
+The Teams Scan Summary report at the **Teams** node provides an overview of scanned Teams servers.
 
 ![Teams Scan Summary report](../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/sharepoint/teams/teamsscansummary.webp)
 

@@ -1,17 +1,27 @@
 # Policy Templates: Registry
 
-__NOTE:__ This template applicable to Windows OS only.
+**NOTE:** This template applicable to Windows OS only.
 
-The Windows Registry was designed as the core repository for configuration settings. Monitoring of Registry Keys and Values is another way to ‘fingerprint’ an application or device configuration state.
+The Windows Registry was designed as the core repository for configuration settings. Monitoring of
+Registry Keys and Values is another way to ‘fingerprint’ an application or device configuration
+state.
 
-__NOTE:__ To select a Registry Key to monitor, the best way is to use the Microsoft ‘regedit’ program (start -> run -> regedit). You can then browse all Registry Keys for the device and at any point use a ‘right click’ to access the tools menu which includes an option to ‘copy key name’. You can then paste the key name into the __Compliance Hub__ field.
+**NOTE:** To select a Registry Key to monitor, the best way is to use the Microsoft ‘regedit’
+program (start -> run -> regedit). You can then browse all Registry Keys for the device and at any
+point use a ‘right click’ to access the tools menu which includes an option to ‘copy key name’. You
+can then paste the key name into the **Compliance Hub** field.
 
-Click __Add new registry key__ and type or paste the Key into monitor. Once you have added a Key to monitor, click __Insert__ then __Save Settings to Device__.
+Click **Add new registry key** and type or paste the Key into monitor. Once you have added a Key to
+monitor, click **Insert** then **Save Settings to Device**.
 
 ![PolicyTemplateRegistry](../../../../../../static/img/product_docs/changetracker/changetracker/admin/settings/policytemplates/policytemplateregistry.webp)
 
-Like the __File Integrity__ settings covered earlier, exclusion rules can be used, and Registry Trackers can also be filtered using a __Registry Key/Value Match Rule__ and a __Tracked Attributes__ dimension.
+Like the **File Integrity** settings covered earlier, exclusion rules can be used, and Registry
+Trackers can also be filtered using a **Registry Key/Value Match Rule** and a **Tracked Attributes**
+dimension.
 
-Use the __Advanced Options__ to create and edit new Definitions. See the[Registry Inclusion/Exclusion Match Rules ](../../matchrules/registryrules.md) topic for additional information.
+Use the **Advanced Options** to create and edit new Definitions. See
+the[Registry Inclusion/Exclusion Match Rules ](../../matchrules/registryrules.md) topic for
+additional information.
 
 ![PolicyTemplateRegistryExclude](../../../../../../static/img/product_docs/changetracker/changetracker/admin/settings/policytemplates/policytemplateregistryexclude.webp)

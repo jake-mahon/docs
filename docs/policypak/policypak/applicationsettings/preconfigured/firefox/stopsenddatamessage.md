@@ -1,6 +1,8 @@
 # Firefox: How do I stop the "Firefox automatically sends some data to Mozilla so that we can improve your experience" message?
 
-Netwrix Endpoint Policy Manager (formerly PolicyPak) Application Manager can remove the message "Firefox automatically sends some data to Mozilla so that we can improve your experience" as seen below.
+Netwrix Endpoint Policy Manager (formerly PolicyPak) Application Manager can remove the message
+"Firefox automatically sends some data to Mozilla so that we can improve your experience" as seen
+below.
 
 ![177_1_image001](../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/preconfigured/firefox/177_1_image001.jpg)
 

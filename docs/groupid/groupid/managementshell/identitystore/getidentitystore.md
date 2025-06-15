@@ -1,78 +1,81 @@
 # Get-IdentityStore
 
-The commandlet Get-IdentityStore retrieves information about the specified identity store or retrieves information of identity store(s) as per the given switches such as _All_, _Connected_, _Enabled_ or _Disabled_.
+The commandlet Get-IdentityStore retrieves information about the specified identity store or
+retrieves information of identity store(s) as per the given switches such as _All_, _Connected_,
+_Enabled_ or _Disabled_.
 
-The information includes identity store name, description, connection string, notification status, roles in identity store, and so on.
+The information includes identity store name, description, connection string, notification status,
+roles in identity store, and so on.
 
 ## Syntax
 
 ```
-Get-IdentityStore  
-  -IdentityStoreName <String>  
-  [-IdentityStoreId <Int32>]  
-  [-SecurityToken <CustomClaimsPrincipal>]  
-  [-Credential <PSCredential>]  
-  [-WarningAction <ActionPreference>]  
-  [-InformationAction <ActionPreference>]  
-  [-WarningVariable <String>]  
-  [-InformationVariable <String>]  
-  [-PipelineVariable <String>]  
+Get-IdentityStore
+  -IdentityStoreName <String>
+  [-IdentityStoreId <Int32>]
+  [-SecurityToken <CustomClaimsPrincipal>]
+  [-Credential <PSCredential>]
+  [-WarningAction <ActionPreference>]
+  [-InformationAction <ActionPreference>]
+  [-WarningVariable <String>]
+  [-InformationVariable <String>]
+  [-PipelineVariable <String>]
   [<CommonParameters>]
 ```
 
 ```
-Get-IdentityStore  
-  -All  
-  [-IdentityStoreId <Int32>]  
-  [-SecurityToken <CustomClaimsPrincipal>]  
-  [-Credential <PSCredential>]  
-  [-WarningAction <ActionPreference>]  
-  [-InformationAction <ActionPreference>]  
-  [-WarningVariable <String>]  
-  [-InformationVariable <String>]  
-  [-PipelineVariable <String>]  
+Get-IdentityStore
+  -All
+  [-IdentityStoreId <Int32>]
+  [-SecurityToken <CustomClaimsPrincipal>]
+  [-Credential <PSCredential>]
+  [-WarningAction <ActionPreference>]
+  [-InformationAction <ActionPreference>]
+  [-WarningVariable <String>]
+  [-InformationVariable <String>]
+  [-PipelineVariable <String>]
   [<CommonParameters>]
 ```
 
 ```
-Get-IdentityStore  
-  -Connected  
-  [-IdentityStoreId <Int32>]  
-  [-SecurityToken <CustomClaimsPrincipal>]  
-  [-Credential <PSCredential>]  
-  [-WarningAction <ActionPreference>]  
-  [-InformationAction <ActionPreference>]  
-  [-WarningVariable <String>]  
-  [-InformationVariable <String>]  
-  [-PipelineVariable <String>]  
+Get-IdentityStore
+  -Connected
+  [-IdentityStoreId <Int32>]
+  [-SecurityToken <CustomClaimsPrincipal>]
+  [-Credential <PSCredential>]
+  [-WarningAction <ActionPreference>]
+  [-InformationAction <ActionPreference>]
+  [-WarningVariable <String>]
+  [-InformationVariable <String>]
+  [-PipelineVariable <String>]
   [<CommonParameters>]
 ```
 
 ```
-Get-IdentityStore  
-  -Enabled  
-  [-IdentityStoreId <Int32>]  
-  [-SecurityToken <CustomClaimsPrincipal>]  
-  [-Credential <PSCredential>]  
-  [-WarningAction <ActionPreference>]  
-  [-InformationAction <ActionPreference>]  
-  [-WarningVariable <String>]  
-  [-InformationVariable <String>]  
-  [-PipelineVariable <String>]  
+Get-IdentityStore
+  -Enabled
+  [-IdentityStoreId <Int32>]
+  [-SecurityToken <CustomClaimsPrincipal>]
+  [-Credential <PSCredential>]
+  [-WarningAction <ActionPreference>]
+  [-InformationAction <ActionPreference>]
+  [-WarningVariable <String>]
+  [-InformationVariable <String>]
+  [-PipelineVariable <String>]
   [<CommonParameters>]
 ```
 
 ```
-Get-IdentityStore  
-  -Disabled  
-  [-IdentityStoreId <Int32>]  
-  [-SecurityToken <CustomClaimsPrincipal>]  
-  [-Credential <PSCredential>]  
-  [-WarningAction <ActionPreference>]  
-  [-InformationAction <ActionPreference>]  
-  [-WarningVariable <String>]  
-  [-InformationVariable <String>]  
-  [-PipelineVariable <String>]  
+Get-IdentityStore
+  -Disabled
+  [-IdentityStoreId <Int32>]
+  [-SecurityToken <CustomClaimsPrincipal>]
+  [-Credential <PSCredential>]
+  [-WarningAction <ActionPreference>]
+  [-InformationAction <ActionPreference>]
+  [-WarningVariable <String>]
+  [-InformationVariable <String>]
+  [-PipelineVariable <String>]
   [<CommonParameters>]
 ```
 
@@ -90,7 +93,8 @@ Get-IdentityStore -IdentityStoreName AdStore1
 
 Example 2:
 
-This example retrieves information of two identity stores – AdStore1 and AdStore2 – through the pipeline operator.
+This example retrieves information of two identity stores – AdStore1 and AdStore2 – through the
+pipeline operator.
 
 ```
 'AdStore1','AdStore2' | Get-IdentityStore
@@ -98,7 +102,8 @@ This example retrieves information of two identity stores – AdStore1 and AdSto
 
 Example 3:
 
-This example retrieves information of all identity stores available on the Directory Manager machine.
+This example retrieves information of all identity stores available on the Directory Manager
+machine.
 
 ```
 Get-IdentityStore -All
@@ -106,7 +111,8 @@ Get-IdentityStore -All
 
 Example 4:
 
-This example retrieves information of identity store connected to the current instance of the Directory Manager Management Shell.
+This example retrieves information of identity store connected to the current instance of the
+Directory Manager Management Shell.
 
 ```
 Get-IdentityStore -Connected

@@ -2,16 +2,16 @@
 
 There are two methods to Elevate, Block or Allow&Log multiple files and folders.
 
-__Method 1: Using FILE TYPE__.  
+**Method 1: Using FILE TYPE**.  
 For FILE target type, you have to specify a file path. For instance:
 
 %programfiles%\Contoso\App.exe
 
-%programfiles%\Contoso\\*.exe
+%programfiles%\Contoso\\\*.exe
 
-%programfiles%\\*\DogFood.exe
+%programfiles%\\\*\DogFood.exe
 
-__Method 2: Using FOLDER and/or Folder+ Recurse type__.
+**Method 2: Using FOLDER and/or Folder+ Recurse type**.
 
 ![478_1_2018-10-11_1352](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/elevate/478_1_2018-10-11_1352.webp)
 
@@ -19,11 +19,11 @@ you should specify a folder path, such as
 
 %programfiles%\Contoso
 
-%programfiles%\\*
+%programfiles%\\\*
 
-%programfiles%\\*\DogFoodFolder
+%programfiles%\\\*\DogFoodFolder
 
 The difference between these two types is that
 
-- The __Folder__ path condition only applies to all files in the specified folder.
+- The **Folder** path condition only applies to all files in the specified folder.
 - The Folder (recursive) path condition applies to all Descendant files.

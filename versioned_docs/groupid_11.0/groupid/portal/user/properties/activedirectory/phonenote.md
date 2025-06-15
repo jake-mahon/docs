@@ -2,39 +2,39 @@
 
 Use this tab to view or update the contact information of the user or contact.
 
-__Business__
+**Business**
 
 The primary business phone number of the user or contact.
 
-__Business 2__
+**Business 2**
 
 The secondary business phone number of the user or contact.
 
-__Home__
+**Home**
 
 The primary home phone number of the user or contact.
 
-__Home 2__
+**Home 2**
 
 The secondary home phone number of the user or contact.
 
-__Fax__
+**Fax**
 
 The fax number of the user or contact.
 
-__Mobile__
+**Mobile**
 
 The cell phone number of the user or contact.
 
-__Telephone Assistant__
+**Telephone Assistant**
 
 The contact number of the assistant of the user or contact, if any.
 
-__Notes__
+**Notes**
 
 Any additional information about the user or contact.
 
-__Pager__
+**Pager**
 
 The pager number of the user or contact.
 

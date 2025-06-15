@@ -1,6 +1,7 @@
 # Scan Summary Report
 
-The Scan Summary report at the server level provides a summary view of all shares on the selected server.
+The Scan Summary report at the server level provides a summary view of all shares on the selected
+server.
 
 ![Scan Summary report at the server level](../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/filesystem/server/serverscansummary.webp)
 

@@ -1,37 +1,43 @@
 # Start-PPEHibpUpdater
 
-The __Start-PPEHibpUpdater__ cmdlet starts an update of the Hibp database.
+The **Start-PPEHibpUpdater** cmdlet starts an update of the Hibp database.
 
 SYNTAX
 
-__Start-PPEHibpUpdater__ [[__-Web__] `<_SwitchParameter_>`] __-Folder__ `<_string_>` [__-File__ `<_string_>`] __[-Inc__ `<_SwitchParameter_>`]
+**Start-PPEHibpUpdater** [[__-Web__] `<_SwitchParameter_>`] **-Folder** `<_string_>` [__-File__
+`<_string_>`] **[-Inc** `<_SwitchParameter_>`]
 
 [`<_CommonParameters_>`]
 
 PARAMETERS
 
-__-Web__ `<_SwitchParameter_>`
+**-Web** `<_SwitchParameter_>`
 
 Specify the update uses the NTLM Hashes file from the netwrix website.
 
-__-Folder__ `<_string_>`
+**-Folder** `<_string_>`
 
-Folder with the HIBP database. Can also use __-D__ or __-d__.
+Folder with the HIBP database. Can also use **-D** or **-d**.
 
-__-Inc__ `<_SwitchParameter_>`
+**-Inc** `<_SwitchParameter_>`
 
-Type of update. Specify __full__ to update the entire database or __incremental__to add new entries to the existing database. Can also use __-I__ or __-i__.
+Type of update. Specify **full** to update the entire database or **incremental**to add new entries
+to the existing database. Can also use **-I** or **-i**.
 
-__-File__ `<_string_>`
+**-File** `<_string_>`
 
-File with list of NTLM hashes. Can also use __-S__ or __-s__.
+File with list of NTLM hashes. Can also use **-S** or **-s**.
 
 `<_CommonParameters_>`
 
-This cmdlet supports the common parameters: __Verbose__, __Debug__, __ErrorAction__, __ErrorVariable__, __WarningAction__, __WarningVariable__, __OutBuffer__, __PipelineVariable__, and __OutVariable__. For more information, see about_CommonParameters [https:/go.microsoft.com/fwlink/?LinkID=113216](https:/go.microsoft.com/fwlink?linkid=113216).
+This cmdlet supports the common parameters: **Verbose**, **Debug**, **ErrorAction**,
+**ErrorVariable**, **WarningAction**, **WarningVariable**, **OutBuffer**, **PipelineVariable**, and
+**OutVariable**. For more information, see about_CommonParameters
+[https:/go.microsoft.com/fwlink/?LinkID=113216](https:/go.microsoft.com/fwlink?linkid=113216).
 
 EXAMPLE
 
-PS C:\> Start-PPEHibpUpdater -Folder "C:\HIBP\DB" -File "C:\Users\Administrator\Desktop\db for HIBP Updater not real small\stealthintercept-hibp-database-1.0.0.zip
+PS C:\> Start-PPEHibpUpdater -Folder "C:\HIBP\DB" -File "C:\Users\Administrator\Desktop\db for HIBP
+Updater not real small\stealthintercept-hibp-database-1.0.0.zip
 
 ![HIBP Update](../../../../static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/cmdletstartppehibpupdater.webp)

@@ -2,17 +2,17 @@
 
 Gets or sets the reference ID for the text message.
 
-__Namespace:__ Imanami.GroupID.DataTransferObjects.DataContracts.SMS
+**Namespace:** Imanami.GroupID.DataTransferObjects.DataContracts.SMS
 
-__Assembly:__ Imanami.GroupID.DataTransferObjects.dll
+**Assembly:** Imanami.GroupID.DataTransferObjects.dll
 
-__Syntax__
+**Syntax**
 
 ```
 public string ReferenceId { get; set; }
 ```
 
-__Return Value__
+**Return Value**
 
 Type: [System.String](http://msdn.microsoft.com/en-us/library/system.string.aspx)
 

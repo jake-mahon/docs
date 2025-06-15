@@ -1,12 +1,17 @@
 # Live Session Viewer Window
 
-The Live Session Viewer window allows a user with the Administrator role to watch a live activity session. Activity sessions are monitored when the Record Proxy Sessions checkbox is selected in the connection profile assigned to the access policy. All SSH and RDP keystrokes and local commands are recorded using a granular metadata search that works across both live and recorded sessions.
+The Live Session Viewer window allows a user with the Administrator role to watch a live activity
+session. Activity sessions are monitored when the Record Proxy Sessions checkbox is selected in the
+connection profile assigned to the access policy. All SSH and RDP keystrokes and local commands are
+recorded using a granular metadata search that works across both live and recorded sessions.
 
 Click the expand icon for an active session on the [Active Dashboard](../active.md).
 
 ![Active Session expanded](../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/window/activesessionexpand.webp)
 
-If the user has logged into the activity session more than once, multiple session recordings will display. Only the current session can be viewed live. See the [Replay Viewer Window](replayviewer.md) topic for additional information on recorded sessions.
+If the user has logged into the activity session more than once, multiple session recordings will
+display. Only the current session can be viewed live. See the
+[Replay Viewer Window](replayviewer.md) topic for additional information on recorded sessions.
 
 There are two types of Live Session Viewer windows:
 
@@ -25,23 +30,33 @@ The Live Session Viewer for RDP Sessions window has the following features:
 
 Action options
 
-- Terminate Session icon – Click the icon to disconnect the user and end the session. A confirmation window will appear. See the [Terminate Proxy Session Window](terminateproxysession.md) topic for additional information.
-- Lock icon – Opens the Lock Session window to prevent the user from interacting with the host but keeps the session active. See the [Lock Session](locksession.md) topic for additional information.
+- Terminate Session icon – Click the icon to disconnect the user and end the session. A confirmation
+  window will appear. See the [Terminate Proxy Session Window](terminateproxysession.md) topic for
+  additional information.
+- Lock icon – Opens the Lock Session window to prevent the user from interacting with the host but
+  keeps the session active. See the [Lock Session](locksession.md) topic for additional information.
 
 Session Details
 
 - User— Displays the account used to log onto the resource
 
-  - logged on to — Displays the name of the resource
-  - using — Displays the name of the resource the RDP session connects from
+    - logged on to — Displays the name of the resource
+    - using — Displays the name of the resource the RDP session connects from
+
 - Activity — Displays the name of the activity
-- Proxy Session Started — Indicates when the activity started. This refers to when the activity’s actions were executed and not when the user was logged on to the resource.
+- Proxy Session Started — Indicates when the activity started. This refers to when the activity’s
+  actions were executed and not when the user was logged on to the resource.
 
 Activity Details
 
-- Time line — Displays activity as it occurs in real-time during the session in the pane to the left of the player. By default this time line will include keystroke activity.
+- Time line — Displays activity as it occurs in real-time during the session in the pane to the left
+  of the player. By default this time line will include keystroke activity.
 
-  __NOTE:__ If RDP Session Monitoring is enabled, then it will also include Windows metadata activity in the time line. This monitoring requires the Netwrix Privilege Secure Remote Desktop Monitor service to be installed on the target host. See the [Install Remote Desktop Monitor Service on Target RDP Hosts](../../../install/rdpmonitor.md) topic for additional information.
+    **NOTE:** If RDP Session Monitoring is enabled, then it will also include Windows metadata
+    activity in the time line. This monitoring requires the Netwrix Privilege Secure Remote Desktop
+    Monitor service to be installed on the target host. See the
+    [Install Remote Desktop Monitor Service on Target RDP Hosts](../../../install/rdpmonitor.md)
+    topic for additional information.
 
 ## Live Session Viewer for SSH Sessions
 
@@ -53,21 +68,27 @@ The Live Session Viewer for SSH Sessions window has the following features:
 
 Action options
 
-- Terminate Session icon – Click the icon to disconnect the user and end the session. A confirmation window will appear. See the [Terminate Proxy Session Window](terminateproxysession.md) topic for additional information.
-- Lock icon – Opens the Lock Session window to prevent the user from interacting with the host but keeps the session active. See the [Lock Session](locksession.md) topic for additional information.
+- Terminate Session icon – Click the icon to disconnect the user and end the session. A confirmation
+  window will appear. See the [Terminate Proxy Session Window](terminateproxysession.md) topic for
+  additional information.
+- Lock icon – Opens the Lock Session window to prevent the user from interacting with the host but
+  keeps the session active. See the [Lock Session](locksession.md) topic for additional information.
 
 Session Details
 
 - User— Displays the account used to log onto the resource
 
-  - logged on to — Displays the name of the resource
-  - using — Displays the name of the resource the RDP session connects from
+    - logged on to — Displays the name of the resource
+    - using — Displays the name of the resource the RDP session connects from
+
 - Activity — Displays the name of the activity
-- Proxy Session Started — Indicates when the activity started. This refers to when the activity’s actions were executed and not when the user was logged on to the resource.
+- Proxy Session Started — Indicates when the activity started. This refers to when the activity’s
+  actions were executed and not when the user was logged on to the resource.
 
 Activity Details
 
-- Time line — Displays activity as it occurs in real-time during the session in the pane to the left of the player. By default this time line will include keystroke activity.
+- Time line — Displays activity as it occurs in real-time during the session in the pane to the left
+  of the player. By default this time line will include keystroke activity.
 
 Other Details
 
@@ -77,7 +98,8 @@ Other Details
 
 ## Recording Session Viewer for Website Host Sessions
 
-The Recording Session Viewer window for Website host sessions is applicable only to Website hosts and Microsoft Entra ID.
+The Recording Session Viewer window for Website host sessions is applicable only to Website hosts
+and Microsoft Entra ID.
 
 ![recordingsessionviewer](../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/window/recordingsessionviewer.webp)
 
@@ -85,14 +107,19 @@ The Live Session Viewer for Recording Sessions window has the following features
 
 Action options
 
-- Terminate Session icon – Click the icon to disconnect the user and end the session. A confirmation window will appear. See the [Terminate Proxy Session Window](terminateproxysession.md) topic for additional information.
-- Lock icon – Opens the Lock Session window to prevent the user from interacting with the host but keeps the session active. See the [Lock Session](locksession.md) topic for additional information.
+- Terminate Session icon – Click the icon to disconnect the user and end the session. A confirmation
+  window will appear. See the [Terminate Proxy Session Window](terminateproxysession.md) topic for
+  additional information.
+- Lock icon – Opens the Lock Session window to prevent the user from interacting with the host but
+  keeps the session active. See the [Lock Session](locksession.md) topic for additional information.
 
 Recording Details
 
 - User— Displays the account used to log onto the resource
 
-  - logged on to — Displays the name of the resource
-  - using — Displays the name of the resource the session connects from
+    - logged on to — Displays the name of the resource
+    - using — Displays the name of the resource the session connects from
+
 - Activity — Displays the name of the activity
-- Proxy Session Started — Indicates when the activity started. This refers to when the activity’s actions were executed and not when the user was logged on to the resource.
+- Proxy Session Started — Indicates when the activity started. This refers to when the activity’s
+  actions were executed and not when the user was logged on to the resource.

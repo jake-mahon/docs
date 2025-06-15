@@ -1,6 +1,9 @@
 # Rollback
 
-When deploying changes in a single Salesforce environment, you may find instances where you need to rollback to a previous state after a deployment. Platform Governance for Salesforce's rollback tool gives you the flexibility of rolling back all or selected components of your deployment,enabling you to take action on a specific problem. There are two steps:
+When deploying changes in a single Salesforce environment, you may find instances where you need to
+rollback to a previous state after a deployment. Platform Governance for Salesforce's rollback tool
+gives you the flexibility of rolling back all or selected components of your deployment,enabling you
+to take action on a specific problem. There are two steps:
 
 > Create the Rollback Record
 >
@@ -8,37 +11,50 @@ When deploying changes in a single Salesforce environment, you may find instance
 
 ## Create the Rollback Record
 
-The Deployment Record status must be __Completed__ to be eligible for Rollback.
+The Deployment Record status must be **Completed** to be eligible for Rollback.
 
-1. Open the Deployment Record to rollback. To locate the record, click __Change Requests__ and change the view to __Deployments__.
-2. Click __Rollback__
+1. Open the Deployment Record to rollback. To locate the record, click **Change Requests** and
+   change the view to **Deployments**.
+2. Click **Rollback**
 
-   ![Rollback button is only available for Completed Deployment Records](../../../static/img/product_docs/strongpointforsalesforce/release_management/rollback_button.webp)
-3. Click __Test Connection__ to ensure your credentials are working. If your credentials are not correct, you can click on __Save Credentials__ and edit.
+    ![Rollback button is only available for Completed Deployment Records](../../../static/img/product_docs/strongpointforsalesforce/release_management/rollback_button.webp)
 
-   ![Rollback selected customizations](../../../static/img/product_docs/strongpointforsalesforce/release_management/rollback_selected.webp)
-4. By default, all of the customizations are selected for rollback. Deselect any customizations to keep. The __Rollback Type__ specifies the effect of the rollback:
+3. Click **Test Connection** to ensure your credentials are working. If your credentials are not
+   correct, you can click on **Save Credentials** and edit.
 
-   - __Delete__: If a customization was created during the deployment, it is deleted during the rollback.
-   - __Override__: If a customization existed in the target environment and was changed during deployment, it is reset to the previous version.
-5. Click __Rollback Selected Customizations__. The __Rollback Confirmation__ is displayed.
+    ![Rollback selected customizations](../../../static/img/product_docs/strongpointforsalesforce/release_management/rollback_selected.webp)
 
-   ![Rollback confirmation](../../../static/img/product_docs/strongpointforsalesforce/release_management/rollback_confirmation.webp)
-6. Click __Yes__ to continue. A Rollback Record is created.
-7. Click __Submit for Approval__ on the Rollback Record.
+4. By default, all of the customizations are selected for rollback. Deselect any customizations to
+   keep. The **Rollback Type** specifies the effect of the rollback:
+
+    - **Delete**: If a customization was created during the deployment, it is deleted during the
+      rollback.
+    - **Override**: If a customization existed in the target environment and was changed during
+      deployment, it is reset to the previous version.
+
+5. Click **Rollback Selected Customizations**. The **Rollback Confirmation** is displayed.
+
+    ![Rollback confirmation](../../../static/img/product_docs/strongpointforsalesforce/release_management/rollback_confirmation.webp)
+
+6. Click **Yes** to continue. A Rollback Record is created.
+7. Click **Submit for Approval** on the Rollback Record.
 
 ## Execute and Validate the Rollback
 
 The Rollback Record must be approved before it can be executed.
 
-1. Open the Rollback Record. To locate the record, click __Change Requests__ and change the view to __Deployments__.
-2. Click __Test Connection__ to ensure your credentials are working.
-3. Click __Execute Rollback__. A Confirmation is displayed. Click __Yes__ to continue.
-4. When the rollback is complete, click __Validate Rollback__.
+1. Open the Rollback Record. To locate the record, click **Change Requests** and change the view to
+   **Deployments**.
+2. Click **Test Connection** to ensure your credentials are working.
+3. Click **Execute Rollback**. A Confirmation is displayed. Click **Yes** to continue.
+4. When the rollback is complete, click **Validate Rollback**.
 
-   ![Validate the Rollback](../../../static/img/product_docs/strongpointforsalesforce/release_management/rollback_validation.webp)
-5. Open __Netwrix Dashboard__ > __Reports__ > __Release and Deployment__ > __Rollback Logs__  
-   You can use __Customize__ to add the __Status__ column to your report. Here is an example of a failed rollback [deployment log](deployment_logs.md).
+    ![Validate the Rollback](../../../static/img/product_docs/strongpointforsalesforce/release_management/rollback_validation.webp)
 
-   ![Review the Rollback log](../../../static/img/product_docs/strongpointforsalesforce/release_management/rollback_log.webp)
-6. Click on the report to open it. Check the __Notes & Attachments__ for a rollback validation file.
+5. Open **Netwrix Dashboard** > **Reports** > **Release and Deployment** > **Rollback Logs**  
+   You can use **Customize** to add the **Status** column to your report. Here is an example of a
+   failed rollback [deployment log](deployment_logs.md).
+
+    ![Review the Rollback log](../../../static/img/product_docs/strongpointforsalesforce/release_management/rollback_log.webp)
+
+6. Click on the report to open it. Check the **Notes & Attachments** for a rollback validation file.

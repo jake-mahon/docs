@@ -1,13 +1,16 @@
 # Target Exchange Servers Requirements, Permissions, and Ports
 
-The Enterprise Auditor for Exchange Solution is compatible with the following Exchange Server versions as targets:
+The Enterprise Auditor for Exchange Solution is compatible with the following Exchange Server
+versions as targets:
 
 - Exchange 2019 (Limited)
 - Exchange 2016 (Limited)
 - Exchange 2013
 - Exchange 2010 (Limited)
 
-See the [Exchange Support and Permissions Explained](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/exchange/support.md) topic for details on the type of auditing supported by data collector and by job group.
+See the
+[Exchange Support and Permissions Explained](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/exchange/support.md)
+topic for details on the type of auditing supported by data collector and by job group.
 
 Domain Controller Requirements
 
@@ -16,10 +19,17 @@ The following are requirements for the Exchange servers to be scanned:
 - Enable Remote PowerShell on one Client Access Server (CAS)
 - Enable Windows Authentication for the PowerShell Virtual Directory on the same CAS
 - .NET Framework 4.5+ installed on all Exchange servers to be targeted
-- WINRM Service installed on all Exchange servers to be targeted as a back up in the event of a remote PowerShell failure
-- Within the Enterprise Auditor Console, the global __Settings > Exchange__ node must be configured
+- WINRM Service installed on all Exchange servers to be targeted as a back up in the event of a
+  remote PowerShell failure
+- Within the Enterprise Auditor Console, the global **Settings > Exchange** node must be configured
 
-  __NOTE:__ For Exchange 2013, 2016, and 2019 – If the global Settings have been configured for "MAPI over HTTP," then an actual CAS server name was supplied and will be used by the ExchangePS Data Collector. If the global Settings have been configured for "MAPI over HTTPS," then the global Settings will have a web address instead of an actual server. Therefore, each ExchangePS query requires the CAS server to be set as the specific server on the Category page. See the [ExchangePS Data Collector & Client Access Server](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/recommended.md) topic for a list of queries for which this would apply.
+    **NOTE:** For Exchange 2013, 2016, and 2019 – If the global Settings have been configured for
+    "MAPI over HTTP," then an actual CAS server name was supplied and will be used by the ExchangePS
+    Data Collector. If the global Settings have been configured for "MAPI over HTTPS," then the
+    global Settings will have a web address instead of an actual server. Therefore, each ExchangePS
+    query requires the CAS server to be set as the specific server on the Category page. See the
+    [ExchangePS Data Collector & Client Access Server](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/recommended.md)
+    topic for a list of queries for which this would apply.
 
 Data Collectors
 
@@ -42,7 +52,11 @@ For .Active Directory Inventory Prerequisite
 - Read access to directory tree
 - List Contents & Read Property on the Deleted Objects Container
 
-  __NOTE:__ See the Microsoft [Searching for Deleted Objects](https://technet.microsoft.com/en-us/library/cc978013.aspx) article and the Microsoft [Dsacls](https://technet.microsoft.com/en-us/library/cc771151(v=ws.11).aspx) article for additional information.
+    **NOTE:** See the Microsoft
+    [Searching for Deleted Objects](https://technet.microsoft.com/en-us/library/cc978013.aspx)
+    article and the Microsoft
+    [Dsacls](<https://technet.microsoft.com/en-us/library/cc771151(v=ws.11).aspx>) article for
+    additional information.
 
 For Exchange Web Services API Permissions with the EWSMailbox Data Collector
 
@@ -51,7 +65,9 @@ For Exchange Web Services API Permissions with the EWSMailbox Data Collector
 - Application Impersonation Role
 - Exchange Online License
 
-See the [Exchange Web Services API Permissions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/exchange/webservicesapi.md) topic for additional information.
+See the
+[Exchange Web Services API Permissions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/exchange/webservicesapi.md)
+topic for additional information.
 
 For Exchange Web Services API Permissions with the EWSPublicFolder Data Collector
 
@@ -60,7 +76,9 @@ For Exchange Web Services API Permissions with the EWSPublicFolder Data Collecto
 - Application Impersonation Role
 - Exchange Online License with a mailbox
 
-See the [Exchange Web Services API Permissions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/exchange/webservicesapi.md) topic for additional information.
+See the
+[Exchange Web Services API Permissions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/exchange/webservicesapi.md)
+topic for additional information.
 
 For Exchange2K Data Collector
 
@@ -78,24 +96,31 @@ For Exchange Mail Flow with ExchangeMetrics Data Collector
 
 - Member of the local Administrator group on the targeted Exchange server(s)
 
-See the [Exchange Mail-Flow Permissions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/exchange/mailflow.md) topic for additional information.
+See the
+[Exchange Mail-Flow Permissions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/exchange/mailflow.md)
+topic for additional information.
 
 For Exchange Remote Connection with SMARTLog Data Collector
 
 - Member of the local Administrators group
 
-See the [Exchange Remote Connections Permissions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/exchange/remoteconnections.md) topic for additional information.
+See the
+[Exchange Remote Connections Permissions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/exchange/remoteconnections.md)
+topic for additional information.
 
 For Exchange PowerShell with ExchangePS Data Collector
 
 - Remote PowerShell enabled on a single Exchange server
-- Windows Authentication enabled for the PowerShell Virtual Directory on the same Exchange server where Remote PowerShell has been enabled
+- Windows Authentication enabled for the PowerShell Virtual Directory on the same Exchange server
+  where Remote PowerShell has been enabled
 - View-Only Organization Management Role Group
 - Discovery Search Management Role Group
 - Public Folder Management Role Group
 - Mailbox Search Role
 
-See the [Exchange PowerShell Permissions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/exchange/powershell.md) topic for additional information.
+See the
+[Exchange PowerShell Permissions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/exchange/powershell.md)
+topic for additional information.
 
 For ExchangePublicFolders Data Collector
 

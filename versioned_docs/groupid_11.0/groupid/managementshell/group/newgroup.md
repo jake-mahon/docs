@@ -1,30 +1,32 @@
 # New-Group
 
-Use the __New-Group__ commandlet to create a new unmanaged group in a particular container in directory.
+Use the **New-Group** commandlet to create a new unmanaged group in a particular container in
+directory.
 
-You can view events related to this commandlet in GroupID portal, against the __History__ node in the left panel.
+You can view events related to this commandlet in GroupID portal, against the **History** node in
+the left panel.
 
 ## Syntax
 
 ```
-New-Group  
--SamAccountName <string>  
--Name <string>  
--OrganizationalUnit <string>  
--GroupScope <string>  
--Type <string>  
--SecurityType <string>  
-[-GroupAlias <string>]  
-[-ManagedBy <string[]>]  
-[-DisplayName <string>]  
-[-MailEnabled <string>]  
-[-Description <string>]  
-[-AdditionalOwners <string[]>]  
-[-NotifyOptOutAdditionalOwners <string[]>]  
-[-Members <string[]>]  
-[-IdentityStoreId <int>]  
-[-SecurityToken <CustomClaimsPrincipal>]  
-[-Credential <pscredential>]  
+New-Group
+-SamAccountName <string>
+-Name <string>
+-OrganizationalUnit <string>
+-GroupScope <string>
+-Type <string>
+-SecurityType <string>
+[-GroupAlias <string>]
+[-ManagedBy <string[]>]
+[-DisplayName <string>]
+[-MailEnabled <string>]
+[-Description <string>]
+[-AdditionalOwners <string[]>]
+[-NotifyOptOutAdditionalOwners <string[]>]
+[-Members <string[]>]
+[-IdentityStoreId <int>]
+[-SecurityToken <CustomClaimsPrincipal>]
+[-Credential <pscredential>]
 [<CommonParameters>]
 ```
 
@@ -39,7 +41,9 @@ New-Group
 
 Example 1:
 
-The following command creates a new unmanaged, mail-disabled, global, distribution group in the container specified by the __OrganizationalUnit__ parameter, using the credentials of current user logged-on to the identity store.
+The following command creates a new unmanaged, mail-disabled, global, distribution group in the
+container specified by the **OrganizationalUnit** parameter, using the credentials of current user
+logged-on to the identity store.
 
 ```
 New-Group -Name "Event Management" -OrganizationalUnit "OU=Local Recruiting,OU=Recruiting,DC=HR,DC=Imanami,DC=US" -GroupAlias "EventManagement" -SamAccountName "Event Management" -GroupScope "Global Group" -Type "Distribution"
@@ -47,7 +51,11 @@ New-Group -Name "Event Management" -OrganizationalUnit "OU=Local Recruiting,OU=R
 
 Example 2:
 
-The command below creates a new mail-enabled, domain-local, semi-private, security group in the container specified by the __OrganizationalUnit__ parameter, using the credentials set in the __$Credentials__ environment variable. See the [Set the $Credentials Environment Variable](/versioned_docs/groupid_11.0/groupid/managementshell/parameters/setthecredential.md) topic for setting credentials in an environment variable.
+The command below creates a new mail-enabled, domain-local, semi-private, security group in the
+container specified by the **OrganizationalUnit** parameter, using the credentials set in the
+**$Credentials** environment variable. See the
+[Set the $Credentials Environment Variable](/versioned_docs/groupid_11.0/groupid/managementshell/parameters/setthecredential.md)
+topic for setting credentials in an environment variable.
 
 ```
 New-Group -Name "Enrollment" -OrganizationalUnit "OU=Local Recruiting,OU=Recruiting,DC=HR,DC=Imanami,DC=US" -GroupAlias "Enrollment" -MailEnable True -SamAccountName "Enrollment" -GroupScope "Domain Local" -Type "Security" -SecurityType "Semi_Private"

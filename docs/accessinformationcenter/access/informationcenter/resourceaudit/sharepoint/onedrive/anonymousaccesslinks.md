@@ -1,6 +1,8 @@
 # Anonymous Access Links Report
 
-The Anonymous Access Links report at the __OneDrive for Business__ level displays personal sites that have access links generated to be shared with people outside of the organization (guest/anonymous users).
+The Anonymous Access Links report at the **OneDrive for Business** level displays personal sites
+that have access links generated to be shared with people outside of the organization
+(guest/anonymous users).
 
 ![Anonymous Access Links report at the OneDrive for Business level](../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/sharepoint/onedrive/onedriveanonymousaccesslinks.webp)
 

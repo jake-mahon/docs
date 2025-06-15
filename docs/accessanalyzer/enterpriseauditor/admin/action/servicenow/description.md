@@ -1,6 +1,8 @@
 # ServiceNow Action: Description
 
-The Description page provides details on the incidents entered into a field on the Incident Creation page. A description of the incident and related comments are included with the incident’s report to provide additional feedback to the system administrator, and may be saved to a template.
+The Description page provides details on the incidents entered into a field on the Incident Creation
+page. A description of the incident and related comments are included with the incident’s report to
+provide additional feedback to the system administrator, and may be saved to a template.
 
 ![ServiceNow Action Module wizard Description page](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/servicenow/description.webp)
 
@@ -9,18 +11,22 @@ Create a report using the following options:
 - Short Description – Displays entered words or phrases used to summarize the incident
 - Insert Field – Use the drop-down menu to select a field (column) from the source table
 
-  - Click the __blue down arrow__ to insert the item into the Short Description section
-  - Click the __blue up arrow__ to insert the item in to the Comments section
-  - Click the file icon with the magnifying glass to preview the sourced table for values. The default is 1000 rows.
+    - Click the **blue down arrow** to insert the item into the Short Description section
+    - Click the **blue up arrow** to insert the item in to the Comments section
+    - Click the file icon with the magnifying glass to preview the sourced table for values. The
+      default is 1000 rows.
 
-    ![Sample Source Data window](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/servicenow/samplesourcedata.webp)
+        ![Sample Source Data window](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/servicenow/samplesourcedata.webp)
 
-- Click the __Clear Template__ button to remove content from the Short Description section and Comments section
+- Click the **Clear Template** button to remove content from the Short Description section and
+  Comments section
 - Comments – Displays entered information that may be helpful to resolve an incident
-- Load from Template – Displays preconfigured Short Description and Comments section by name of template
+- Load from Template – Displays preconfigured Short Description and Comments section by name of
+  template
 
-  - Click the __Save to Template__ link to preserve the Short Description and Comments sections for later use under a template name.
+    - Click the **Save to Template** link to preserve the Short Description and Comments sections
+      for later use under a template name.
 
-    ![Save ServiceNow Template window](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/servicenow/savetemplate.webp)
+        ![Save ServiceNow Template window](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/servicenow/savetemplate.webp)
 
-    Enter a name for the template, and click __OK__.
+        Enter a name for the template, and click **OK**.

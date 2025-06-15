@@ -1,18 +1,19 @@
 # Transfer-DirectReports
 
-Use the Transfer-DirectReports commandlet to transfer direct report(s) in the connected identity store. Specify manager who will approve this transfer.
+Use the Transfer-DirectReports commandlet to transfer direct report(s) in the connected identity
+store. Specify manager who will approve this transfer.
 
 NOTE: You can perform this function in directory as per your role and permissions.
 
 ## Syntax
 
 ```
-Transfer-DirectReports  
--DirectReports <string[]>  
--Manager <string>  
-[-IdentityStoreId <int>]  
-[-SecurityToken <CustomClaimsPrincipal>]  
-[-Credential <pscredential>]  
+Transfer-DirectReports
+-DirectReports <string[]>
+-Manager <string>
+[-IdentityStoreId <int>]
+[-SecurityToken <CustomClaimsPrincipal>]
+[-Credential <pscredential>]
 [<CommonParameters>]
 ```
 

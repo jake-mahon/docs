@@ -19,10 +19,10 @@ export default function (context, options) {
     name: 'docusaurus-plugin',
     // highlight-start
     async loadContent() {
-      return 1 + Math.floor(Math.random() * 10);
+      return 1 + Math.floor(Math.random() * 10)
     },
     // highlight-end
-  };
+  }
 }
 ```
 
@@ -47,49 +47,49 @@ export type RouteConfig = {
   /**
    * With leading slash. Trailing slash will be normalized by config.
    */
-  path: string;
+  path: string
   /**
    * Component used to render this route, a path that the bundler can `require`.
    */
-  component: string;
+  component: string
   /**
    * Props. Each entry should be `[propName]: pathToPropModule` (created with
    * `createData`)
    */
-  modules?: RouteModules;
+  modules?: RouteModules
   /**
    * The route context will wrap the `component`. Use `useRouteContext` to
    * retrieve what's declared here. Note that all custom route context declared
    * here will be namespaced under {@link RouteContext.data}.
    */
-  context?: RouteModules;
+  context?: RouteModules
   /**
    * Nested routes config, useful for "layout routes" having subroutes.
    */
-  routes?: RouteConfig[];
+  routes?: RouteConfig[]
   /**
    * React router config option: `exact` routes would not match subroutes.
    */
-  exact?: boolean;
+  exact?: boolean
   /**
    * React router config option: `strict` routes are sensitive to the presence
    * of a trailing slash.
    */
-  strict?: boolean;
+  strict?: boolean
   /**
    * Used to sort routes.
    * Higher-priority routes will be matched first.
    */
-  priority?: number;
+  priority?: number
   /**
    * Optional route metadata
    */
-  metadata?: RouteMetadata;
+  metadata?: RouteMetadata
   /**
    * Extra props; will be available on the client side.
    */
-  [propName: string]: unknown;
-};
+  [propName: string]: unknown
+}
 
 /**
  * Plugin authors can assign extra metadata to the created routes
@@ -106,7 +106,7 @@ export type RouteMetadata = {
    * In official content plugins, this is usually a Markdown or React file
    * This path is expected to be relative to the site directory
    */
-  sourceFilePath?: string;
+  sourceFilePath?: string
   /**
    * The last updated date of this route
    * This is generally read from the Git history of the sourceFilePath
@@ -115,20 +115,20 @@ export type RouteMetadata = {
    * This has notably been introduced for adding "lastmod" support to the
    * sitemap plugin, see https://github.com/facebook/docusaurus/pull/9954
    */
-  lastUpdatedAt?: number;
-};
+  lastUpdatedAt?: number
+}
 
 type RouteModules = {
-  [module: string]: Module | RouteModules | RouteModules[];
-};
+  [module: string]: Module | RouteModules | RouteModules[]
+}
 
 type Module =
   | {
-      path: string;
-      __import?: boolean;
-      query?: ParsedUrlQueryInput;
+      path: string
+      __import?: boolean
+      query?: ParsedUrlQueryInput
     }
-  | string;
+  | string
 ```
 
 #### `createData(name: string, data: any): Promise<string>` {#createData}
@@ -138,10 +138,10 @@ A declarative callback to create static data (generally JSON or string) which ca
 For example, this plugin below creates a `/friends` page which displays `Your friends are: Yangshun, Sebastien`:
 
 ```jsx title="website/src/components/Friends.js"
-import React from 'react';
+import React from 'react'
 
-export default function FriendsComponent({friends}) {
-  return <div>Your friends are {friends.join(',')}</div>;
+export default function FriendsComponent({ friends }) {
+  return <div>Your friends are {friends.join(',')}</div>
 }
 ```
 
@@ -150,14 +150,11 @@ export default function friendsPlugin(context, options) {
   return {
     name: 'docusaurus-friends-plugin',
     // highlight-start
-    async contentLoaded({content, actions}) {
-      const {createData, addRoute} = actions;
+    async contentLoaded({ content, actions }) {
+      const { createData, addRoute } = actions
       // Create friends.json
-      const friends = ['Yangshun', 'Sebastien'];
-      const friendsJsonPath = await createData(
-        'friends.json',
-        JSON.stringify(friends),
-      );
+      const friends = ['Yangshun', 'Sebastien']
+      const friendsJsonPath = await createData('friends.json', JSON.stringify(friends))
 
       // Add the '/friends' routes, and ensure it receives the friends props
       addRoute({
@@ -168,10 +165,10 @@ export default function friendsPlugin(context, options) {
           friends: friendsJsonPath,
         },
         exact: true,
-      });
+      })
     },
     // highlight-end
-  };
+  }
 }
 ```
 
@@ -190,12 +187,12 @@ Global data is... global: its size affects the loading time of all pages of your
 For example, this plugin below creates a `/friends` page which displays `Your friends are: Yangshun, Sebastien`:
 
 ```jsx title="website/src/components/Friends.js"
-import React from 'react';
-import {usePluginData} from '@docusaurus/useGlobalData';
+import React from 'react'
+import { usePluginData } from '@docusaurus/useGlobalData'
 
 export default function FriendsComponent() {
-  const {friends} = usePluginData('docusaurus-friends-plugin');
-  return <div>Your friends are {friends.join(',')}</div>;
+  const { friends } = usePluginData('docusaurus-friends-plugin')
+  return <div>Your friends are {friends.join(',')}</div>
 }
 ```
 
@@ -204,20 +201,20 @@ export default function friendsPlugin(context, options) {
   return {
     name: 'docusaurus-friends-plugin',
     // highlight-start
-    async contentLoaded({content, actions}) {
-      const {setGlobalData, addRoute} = actions;
+    async contentLoaded({ content, actions }) {
+      const { setGlobalData, addRoute } = actions
       // Create friends global data
-      setGlobalData({friends: ['Yangshun', 'Sebastien']});
+      setGlobalData({ friends: ['Yangshun', 'Sebastien'] })
 
       // Add the '/friends' routes
       addRoute({
         path: '/friends',
         component: '@site/src/components/Friends.js',
         exact: true,
-      });
+      })
     },
     // highlight-end
-  };
+  }
 }
 ```
 
@@ -256,7 +253,7 @@ export default function (context, options) {
     name: 'custom-docusaurus-plugin',
     // highlight-start
     configureWebpack(config, isServer, utils) {
-      const {getJSLoader} = utils;
+      const { getJSLoader } = utils
       return {
         module: {
           rules: [
@@ -266,10 +263,10 @@ export default function (context, options) {
             },
           ],
         },
-      };
+      }
     },
     // highlight-end
-  };
+  }
 }
 ```
 
@@ -290,12 +287,12 @@ export default function (context, options) {
     configureWebpack(config, isServer, utils) {
       return {
         // highlight-start
-        mergeStrategy: {'module.rules': 'prepend'},
-        module: {rules: [myRuleToPrepend]},
+        mergeStrategy: { 'module.rules': 'prepend' },
+        module: { rules: [myRuleToPrepend] },
         // highlight-end
-      };
+      }
     },
-  };
+  }
 }
 ```
 
@@ -316,9 +313,9 @@ export default function (context, options) {
           open: '/docs', // Opens localhost:3000/docs instead of localhost:3000/
         },
         // highlight-end
-      };
+      }
     },
-  };
+  }
 }
 ```
 
@@ -334,7 +331,7 @@ By default, `postcssOptions` looks like this:
 const postcssOptions = {
   ident: 'postcss',
   plugins: [require('autoprefixer')],
-};
+}
 ```
 
 Example:
@@ -346,11 +343,11 @@ export default function (context, options) {
     // highlight-start
     configurePostCss(postcssOptions) {
       // Appends new PostCSS plugin.
-      postcssOptions.plugins.push(require('postcss-import'));
-      return postcssOptions;
+      postcssOptions.plugins.push(require('postcss-import'))
+      return postcssOptions
     },
     // highlight-end
-  };
+  }
 }
 ```
 
@@ -360,18 +357,18 @@ Called when a (production) build finishes.
 
 ```ts
 interface Props {
-  siteDir: string;
-  generatedFilesDir: string;
-  siteConfig: DocusaurusConfig;
-  outDir: string;
-  baseUrl: string;
-  headTags: string;
-  preBodyTags: string;
-  postBodyTags: string;
-  routesPaths: string[];
-  routesBuildMetadata: {[location: string]: {noIndex: boolean}};
-  plugins: Plugin<any>[];
-  content: Content;
+  siteDir: string
+  generatedFilesDir: string
+  siteConfig: DocusaurusConfig
+  outDir: string
+  baseUrl: string
+  headTags: string
+  preBodyTags: string
+  postBodyTags: string
+  routesPaths: string[]
+  routesBuildMetadata: { [location: string]: { noIndex: boolean } }
+  plugins: Plugin<any>[]
+  content: Content
 }
 ```
 
@@ -382,14 +379,14 @@ export default function (context, options) {
   return {
     name: 'docusaurus-plugin',
     // highlight-start
-    async postBuild({siteConfig = {}, routesPaths = [], outDir}) {
+    async postBuild({ siteConfig = {}, routesPaths = [], outDir }) {
       // Print out to console all the rendered routes.
       routesPaths.map((route) => {
-        console.log(route);
-      });
+        console.log(route)
+      })
     },
     // highlight-end
-  };
+  }
 }
 ```
 
@@ -401,12 +398,12 @@ Inject head and/or body HTML tags to Docusaurus generated HTML.
 
 ```ts
 function injectHtmlTags(): {
-  headTags?: HtmlTags;
-  preBodyTags?: HtmlTags;
-  postBodyTags?: HtmlTags;
-};
+  headTags?: HtmlTags
+  preBodyTags?: HtmlTags
+  postBodyTags?: HtmlTags
+}
 
-type HtmlTags = string | HtmlTagObject | (string | HtmlTagObject)[];
+type HtmlTags = string | HtmlTagObject | (string | HtmlTagObject)[]
 
 type HtmlTagObject = {
   /**
@@ -414,17 +411,17 @@ type HtmlTagObject = {
    * E.g. `{'disabled': true, 'value': 'demo', 'rel': 'preconnect'}`
    */
   attributes?: {
-    [attributeName: string]: string | boolean;
-  };
+    [attributeName: string]: string | boolean
+  }
   /**
    * The tag name e.g. `div`, `script`, `link`, `meta`
    */
-  tagName: string;
+  tagName: string
   /**
    * The inner HTML
    */
-  innerHTML?: string;
-};
+  innerHTML?: string
+}
 ```
 
 Example:
@@ -434,10 +431,10 @@ export default function (context, options) {
   return {
     name: 'docusaurus-plugin',
     loadContent: async () => {
-      return {remoteHeadTags: await fetchHeadTagsFromAPI()};
+      return { remoteHeadTags: await fetchHeadTagsFromAPI() }
     },
     // highlight-start
-    injectHtmlTags({content}) {
+    injectHtmlTags({ content }) {
       return {
         headTags: [
           {
@@ -459,10 +456,10 @@ export default function (context, options) {
           },
         ],
         postBodyTags: [`<div> This is post body </div>`],
-      };
+      }
     },
     // highlight-end
-  };
+  }
 }
 ```
 
@@ -480,14 +477,14 @@ As an example, to make your theme load a `customCss` or `customJs` file path fro
 
 ```js title="my-theme/src/index.js"
 export default function (context, options) {
-  const {customCss, customJs} = options || {};
+  const { customCss, customJs } = options || {}
   return {
     name: 'name-of-my-theme',
     // highlight-start
     getClientModules() {
-      return [customCss, customJs];
+      return [customCss, customJs]
     },
     // highlight-end
-  };
+  }
 }
 ```

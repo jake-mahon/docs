@@ -1,6 +1,6 @@
 # Roles module
 
-The following functions are currently available in the __roles module:__
+The following functions are currently available in the **roles module:**
 
 - Add
 - Delete
@@ -11,4 +11,5 @@ The following functions are currently available in the __roles module:__
 - User rights
 - Print
 
-The Web Application module __roles__ is based on the client module of the same name. Both modules have a different scope and design but are almost identical to use.
+The Web Application module **roles** is based on the client module of the same name. Both modules
+have a different scope and design but are almost identical to use.

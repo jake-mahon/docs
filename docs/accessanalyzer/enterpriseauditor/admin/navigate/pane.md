@@ -1,23 +1,39 @@
 # Navigation Pane
 
-The Navigation Pane, located on the left-hand side of the Access Analyzer Console, lists all the major functions of Access Analyzer in a collapsible list format. Clicking on any node with an arrow will open a collapsible list that shows more navigation, configuration, and use options.
+The Navigation Pane, located on the left-hand side of the Access Analyzer Console, lists all the
+major functions of Access Analyzer in a collapsible list format. Clicking on any node with an arrow
+will open a collapsible list that shows more navigation, configuration, and use options.
 
 ![Configuration Settings](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/navigate/navigationmenu.webp)
 
 The items in the Navigation Pane are:
 
-- Settings – Opens the Global Settings section for configurations which affect the running of Access Analyzer jobs. See the [Global Settings](../settings/overview.md) topic for additional information.
-- Host Management – Opens the Host Management section for inventorying and managing hosts to be targeted by Access Analyzer jobs. See the [Host Management](../hostmanagement/overview.md) topic for additional information.
-- Host Discovery - Opens the Host Discovery section for discovering hosts to be targeted by the Access Analyzer jobs. See the Host Discovery topic for additional information.
-- Running Instances – Displays progress for all running jobs. This includes jobs that are run by a scheduled task, interactively within the open Access Analyzer instance, or interactively in any other running instance of Access Analyzer See the [Running Instances Node](../runninginstances/overview.md) topic for additional information.
-- Schedules – Opens the Scheduled Actions view which displays information on all scheduled tasks. See the [Schedules](../schedule/overview.md) topic for additional information.
-- Jobs – Lists all solutions, job groups, and jobs within a folder structure. See the [Jobs Tree](../jobs/overview.md) topic for additional information.
+- Settings – Opens the Global Settings section for configurations which affect the running of Access
+  Analyzer jobs. See the [Global Settings](../settings/overview.md) topic for additional
+  information.
+- Host Management – Opens the Host Management section for inventorying and managing hosts to be
+  targeted by Access Analyzer jobs. See the [Host Management](../hostmanagement/overview.md) topic
+  for additional information.
+- Host Discovery - Opens the Host Discovery section for discovering hosts to be targeted by the
+  Access Analyzer jobs. See the Host Discovery topic for additional information.
+- Running Instances – Displays progress for all running jobs. This includes jobs that are run by a
+  scheduled task, interactively within the open Access Analyzer instance, or interactively in any
+  other running instance of Access Analyzer See the
+  [Running Instances Node](../runninginstances/overview.md) topic for additional information.
+- Schedules – Opens the Scheduled Actions view which displays information on all scheduled tasks.
+  See the [Schedules](../schedule/overview.md) topic for additional information.
+- Jobs – Lists all solutions, job groups, and jobs within a folder structure. See the
+  [Jobs Tree](../jobs/overview.md) topic for additional information.
 
-The title above the Navigation Pane will change depending on what is selected. There are also several right-click or context menus available throughout the console. See the [Navigation Pane Right-click Menus](#navigation-pane-right-click-menus) topic for additional information.
+The title above the Navigation Pane will change depending on what is selected. There are also
+several right-click or context menus available throughout the console. See the
+[Navigation Pane Right-click Menus](#navigation-pane-right-click-menus) topic for additional
+information.
 
 ## Navigation Pane Right-click Menus
 
-There are several contextual right-click menus that are accessed by right-clicking on individual nodes or sub-nodes in the Navigation Pane. The different right-click menus are:
+There are several contextual right-click menus that are accessed by right-clicking on individual
+nodes or sub-nodes in the Navigation Pane. The different right-click menus are:
 
 - Host Management Right-click Menus
 - Jobs Tree Right-click Menus
@@ -26,11 +42,13 @@ There are several contextual right-click menus that are accessed by right-clicki
 
 The following right-click menus are available within the Host Management node.
 
-See the [Host Management](../hostmanagement/overview.md) topic for additional information on these actions.
+See the [Host Management](../hostmanagement/overview.md) topic for additional information on these
+actions.
 
 #### Discovery Node
 
-The Discovery node right click-menu can be accessed in the Host Management node in the Navigation Pane.
+The Discovery node right click-menu can be accessed in the Host Management node in the Navigation
+Pane.
 
 ![Discovery Node options](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/navigate/navigationpane1.webp)
 
@@ -41,7 +59,8 @@ The Discovery node right-click menu options are:
 
 #### All Hosts Node
 
-The All Hosts node right-click menu can be accessed in the Host Management node in the Navigation Pane.
+The All Hosts node right-click menu can be accessed in the Host Management node in the Navigation
+Pane.
 
 ![All Hosts Node options](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/navigate/navigationpane2.webp)
 
@@ -50,14 +69,17 @@ The All Hosts right-click menu options are:
 - Add Hosts – Opens the [Add Hosts](../hostmanagement/actions/add.md) window
 - Refresh Lists – Refreshes host list
 - Refresh Hosts – Executes the host inventory query
-- Save Selected to Lists – Opens the [Add Hosts](../hostmanagement/actions/add.md) window with the selected hosts already added to a new list
-- Schedule – Opens the [Schedule (Activities Pane Option)](../hostmanagement/actions/schedule.md) window to schedule a host inventory query
+- Save Selected to Lists – Opens the [Add Hosts](../hostmanagement/actions/add.md) window with the
+  selected hosts already added to a new list
+- Schedule – Opens the [Schedule (Activities Pane Option)](../hostmanagement/actions/schedule.md)
+  window to schedule a host inventory query
 - Export Data – Export the current data grid to an HTML file, an XML file, or a CSV file
 - Suspend/Resume Host Inventory – Pauses or resumes a host inventory query
 
 #### All Hosts > [Host List] Node
 
-The All Hosts > [Host List] right-click menu can be accessed in the Host Management node in the Navigation Pane.
+The All Hosts > [Host List] right-click menu can be accessed in the Host Management node in the
+Navigation Pane.
 
 ![Host List Node options](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/navigate/navigationpane3.webp)
 
@@ -68,8 +90,10 @@ The All Hosts > [Host List] node right-click menu options are:
 - Delete List – Delete the selected host list
 - Refresh List – Refreshes host list
 - Refresh Hosts – Executes the host inventory query
-- Save Selected to List – Opens the [Add Hosts](../hostmanagement/actions/add.md) window with the selected hosts already added to a new list
-- Schedule – Opens the [Schedule (Activities Pane Option)](../hostmanagement/actions/schedule.md) window to schedule a host inventory query
+- Save Selected to List – Opens the [Add Hosts](../hostmanagement/actions/add.md) window with the
+  selected hosts already added to a new list
+- Schedule – Opens the [Schedule (Activities Pane Option)](../hostmanagement/actions/schedule.md)
+  window to schedule a host inventory query
 - Export Data – Export the current data grid to an HTML file, an XML file, or a CSV file
 - Suspend Host Inventory – Pauses or resumes a host inventory query
 
@@ -83,35 +107,55 @@ See the [Jobs Tree](../jobs/overview.md) topic for additional information on the
 
 The Job tree primary nodes have the following right-click menu items:
 
-__NOTE:__ These menu items apply to a Jobs Tree, Job Group, and a Job. Depending on the chosen selection, some menu items are grayed out.
+**NOTE:** These menu items apply to a Jobs Tree, Job Group, and a Job. Depending on the chosen
+selection, some menu items are grayed out.
 
 | ![Jobs Tree Primary Nodes](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/navigate/navigationpane4.webp) | ![Jobs Tree Primary Nodes](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/navigate/navigationpane5.webp) | ![Jobs Tree Primary Nodes](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/navigate/navigationpane6.webp) |
-| --- | --- | --- |
-| Jobs Tree Node | A Job Group Node | A Job Node |
+| --------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| Jobs Tree Node                                                                                                                          | A Job Group Node                                                                                                                        | A Job Node                                                                                                                              |
 
 Menu items include:
 
 - Run Group/Jobs – Executes the selected job group or job
-- Publish – Publishes the reports from the selected job group or job without regenerating the report. See the [Reporting](../report/overview.md) topic for additional information.
-- Lock Group/Job – Locks job group or job, indicating configuration has been approved and the job group or job is ready to be scheduled/run. This option only applies to Role Based Access. See the [Role Based Access](../settings/access/rolebased/overview.md) topic for additional information.
-- Unlock Group/Job – Unlocks job group or job, indicating the configuration has not been approved or needs to be modified. Unlocking a job will prevent Job Initiators from scheduling or running the job. This option only applies to Role Based Access. See the [Role Based Access](../settings/access/rolebased/overview.md) for additional information.
-- Enable/Disable Job(s) – Disables the selected job or job group and skips them during scan execution. When a job group is disabled, all existing jobs within the job group are disabled. See the [Disable or Enable a Job](../jobs/job/disableenable.md) topic for more information.
-- Schedules – Opens the [Schedule Jobs](../schedule/overview.md#schedule-jobs) to schedule job group or job execution
+- Publish – Publishes the reports from the selected job group or job without regenerating the
+  report. See the [Reporting](../report/overview.md) topic for additional information.
+- Lock Group/Job – Locks job group or job, indicating configuration has been approved and the job
+  group or job is ready to be scheduled/run. This option only applies to Role Based Access. See the
+  [Role Based Access](../settings/access/rolebased/overview.md) topic for additional information.
+- Unlock Group/Job – Unlocks job group or job, indicating the configuration has not been approved or
+  needs to be modified. Unlocking a job will prevent Job Initiators from scheduling or running the
+  job. This option only applies to Role Based Access. See the
+  [Role Based Access](../settings/access/rolebased/overview.md) for additional information.
+- Enable/Disable Job(s) – Disables the selected job or job group and skips them during scan
+  execution. When a job group is disabled, all existing jobs within the job group are disabled. See
+  the [Disable or Enable a Job](../jobs/job/disableenable.md) topic for more information.
+- Schedules – Opens the [Schedule Jobs](../schedule/overview.md#schedule-jobs) to schedule job group
+  or job execution
 - Refresh Tree – Refreshes the Jobs tree
-- Changes – Opens the [Changes Window](../jobs/overview.md#changes-window) to track changes to job configuration in a change log
+- Changes – Opens the [Changes Window](../jobs/overview.md#changes-window) to track changes to job
+  configuration in a change log
 - Cut – Cuts the selected job group or job (Ctrl+X)
 - Copy – Copies the selected job group or job (Ctrl+C)
 - Paste – Pastes a copied/cut job group or job to the selected location (Ctrl+V)
 
-  __CAUTION:__ Delete Group/Job will also delete all tables that match the job’s naming convention from the database.
-- Delete Group/Job – Deletes the selected job group or job. See the [Report Cleanup when Deleting a Job or Job Group](../report/cleanup.md) topic for additional information.
+    **CAUTION:** Delete Group/Job will also delete all tables that match the job’s naming convention
+    from the database.
 
-  __CAUTION:__ Rename Group/Job will rename all tables that match the job’s naming convention within the database.
+- Delete Group/Job – Deletes the selected job group or job. See the
+  [Report Cleanup when Deleting a Job or Job Group](../report/cleanup.md) topic for additional
+  information.
+
+    **CAUTION:** Rename Group/Job will rename all tables that match the job’s naming convention
+    within the database.
+
 - Rename Group/Job – Opens a textbox over the selected job group or job to rename
-- Export – Zips the selected job group or job. Options allow for including the job, the reports, and/or the job log and SA_Debug log.
-  - Save the ZIP file to a desired location, and optionally attach it to an email to [Netwrix Support](https://www.netwrix.com/support.html).
-  - Email option requires [Notification](../settings/notification.md) settings to be configured.
-- Create Job (Ctrl+Alt+A) – Creates a new job at the same location as the selected job group or job. See the [Create a New Job](../jobs/job/create.md) topic for additional information.
+- Export – Zips the selected job group or job. Options allow for including the job, the reports,
+  and/or the job log and SA_Debug log.
+    - Save the ZIP file to a desired location, and optionally attach it to an email to
+      [Netwrix Support](https://www.netwrix.com/support.html).
+    - Email option requires [Notification](../settings/notification.md) settings to be configured.
+- Create Job (Ctrl+Alt+A) – Creates a new job at the same location as the selected job group or job.
+  See the [Create a New Job](../jobs/job/create.md) topic for additional information.
 - Add Instant Job – Opens the [Instant Job Wizard](../jobs/instantjobs/overview.md).
 - Create Group – Creates a new job group within the selected location
 - Explore Folder – Opens the Windows Explorer folder for the select object
@@ -134,10 +178,12 @@ The Status node right-click menu items are:
 The [Job] > Status > [Table/View] nodes have the following right-click menu items:
 
 | ![Table/View Nodes](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/navigate/navigationpane8.webp) | ![Table/View Nodes](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/navigate/navigationpane9.webp) | ![Table/View Nodes](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/navigate/navigationpane10.webp) |
-| --- | --- | --- |
-| ConnectStatus Table | Job Stats & Task Stats Tables | Messages Table |
+| -------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| ConnectStatus Table                                                                                                              | Job Stats & Task Stats Tables                                                                                                    | Messages Table                                                                                                                    |
 
-These menu items apply to the ConnectStatus Tables, Job Stats and Task Stats Tables, and the Messages Table. Depending on the chosen selection, some menu items are grayed out. The menu items are:
+These menu items apply to the ConnectStatus Tables, Job Stats and Task Stats Tables, and the
+Messages Table. Depending on the chosen selection, some menu items are grayed out. The menu items
+are:
 
 - Create Hostlist From Data – Opens the New host list from job results window
 - Edit Host List – Opens the Edit Dynamic Job Host Lists window
@@ -167,8 +213,10 @@ The [Job] > Results > [Table/View] nodes have the following right-click menu ite
 
 The menu items are:
 
-- Create Hostlist From Data – Opens the New host list from job results window. See the [Host Management](../hostmanagement/overview.md) topic for additional information.
-- Edit Host List – Opens the Edit Dynamic Job Host Lists window. See the [Host Management](../hostmanagement/overview.md) topic for additional information.
+- Create Hostlist From Data – Opens the New host list from job results window. See the
+  [Host Management](../hostmanagement/overview.md) topic for additional information.
+- Edit Host List – Opens the Edit Dynamic Job Host Lists window. See the
+  [Host Management](../hostmanagement/overview.md) topic for additional information.
 - Export Data – Export the current data grid to an HTML file, an XML file, or a CSV file
 - Actions – Opens the selected [Action Modules](../action/overview.md) for the selected table/view
 - Run Job – Executes the selected job
@@ -199,21 +247,25 @@ The [Job] > Configure node right-click menu items are:
 - Add Instant Job – Opens the [Instant Job Wizard](../jobs/instantjobs/overview.md)
 - Create Job – Creates a new job at the same location as the selected job group or job (Ctrl+Alt+A)
 
-  __NOTE:__ This right-click menu is also opened at the Configure > Hosts node.
+    **NOTE:** This right-click menu is also opened at the Configure > Hosts node.
 
 #### [Job] > Configure > [Configuration] Nodes
 
-The right-click menu items for the [Job] > Configure > [Configuration] node are the same right-click menus as those available within the job’s individual configuration views:
+The right-click menu items for the [Job] > Configure > [Configuration] node are the same right-click
+menus as those available within the job’s individual configuration views:
 
 | ![Configure-Configuration Nodes](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/navigate/navigationpane14.webp) | ![Configure-Configuration Nodes](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/navigate/navigationpane15.webp) | ![Configure-Configuration Nodes](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/navigate/navigationpane16.webp) |
-| --- | --- | --- |
-| Queries Node | Analysis Node | Actions Node |
+| ---------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| Queries Node                                                                                                                                   | Analysis Node                                                                                                                                  | Actions Node                                                                                                                                   |
 
 Each configuration node has a different right-click menu. For additional information on each:
 
-- For the Queries node, see the [Jobs](../jobs/job/overview.md) section for information on these options
-- For the Analysis node, see the [Jobs](../jobs/job/overview.md) section for information on these options
-- For the Actions node, see the [Jobs](../jobs/job/overview.md) section for information on these options
+- For the Queries node, see the [Jobs](../jobs/job/overview.md) section for information on these
+  options
+- For the Analysis node, see the [Jobs](../jobs/job/overview.md) section for information on these
+  options
+- For the Actions node, see the [Jobs](../jobs/job/overview.md) section for information on these
+  options
 
 #### [Job] > Configure > Reports Node
 
@@ -223,7 +275,7 @@ The [Job] >Configure > Reports node has the following right-click menu items:
 
 The [Job] > Configure > Reports node right-click menu items are:
 
-- Create Report – Opens a new report Configuration under the job’s __Configure > Reports Node__
+- Create Report – Opens a new report Configuration under the job’s **Configure > Reports Node**
 - Paste Report – Paste a copied report from a different job into this job’s Reports node
 - Run Job – Executes the selected job
 - Add Instant Job – Opens the [Instant Job Wizard](../jobs/instantjobs/overview.md)
@@ -231,7 +283,8 @@ The [Job] > Configure > Reports node right-click menu items are:
 
 #### [Job] > Configure > Reports > [Report Configuration] Node
 
-The [Job] >Configure > Reports > [Report Configuration] node has the following right-click menu items:
+The [Job] >Configure > Reports > [Report Configuration] node has the following right-click menu
+items:
 
 ![Reports Configuration Node](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/navigate/navigationpane18.webp)
 
@@ -240,7 +293,8 @@ The [Job] > Configure > Reports > [Report Configuration] node right-click menu i
 - Generate Report – Generates the selected report
 - Rename Report – Opens a textbox over the selected report to rename
 - Delete Report – Deletes the selected report
-- Copy Report – Copies the report configuration to clipboard. The copied report will have only the roles inherited from the parent job when pasted.
+- Copy Report – Copies the report configuration to clipboard. The copied report will have only the
+  roles inherited from the parent job when pasted.
 - Run Job – Executes the selected job
 - Add Instant Job – Opens the [Instant Job Wizard](../jobs/instantjobs/overview.md)
 - Create Job – Creates a new job at the same location as the selected job group or job (Ctrl+Alt+A)

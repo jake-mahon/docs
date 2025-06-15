@@ -1,6 +1,8 @@
 # Resource Type Mapping Control Rules
 
-Scaffolding to create the right for a profile to start the Fulfillment to an external system (LDAP, MicrosoftEntraID...). This right corresponds to the permission to use ResourceTypeMapping elements (```/Connectors/FulfillLDAP```).
+Scaffolding to create the right for a profile to start the Fulfillment to an external system (LDAP,
+MicrosoftEntraID...). This right corresponds to the permission to use ResourceTypeMapping elements
+(`/Connectors/FulfillLDAP`).
 
 ## Examples
 
@@ -12,9 +14,9 @@ Scaffolding to create the right for a profile to start the Fulfillment to an ext
 
 ## Properties
 
-| Property | Details |
-| --- | --- |
-| Profile   required | __Type__    String   __Description__   Identifier of the profile involved in the scaffolding. |
+| Property         | Details                                                                                |
+| ---------------- | -------------------------------------------------------------------------------------- |
+| Profile required | **Type** String **Description** Identifier of the profile involved in the scaffolding. |
 
 ## Generated XML
 

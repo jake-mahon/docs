@@ -1,10 +1,12 @@
 # Add New Host Window
 
-Once an agent has been deployed, you can configure a host to be monitored by clicking the Add Host button on the Monitored Hosts tab.
+Once an agent has been deployed, you can configure a host to be monitored by clicking the Add Host
+button on the Monitored Hosts tab.
 
 ![Add New Host window](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/addnewhost.webp)
 
-The window opens for all types of hosts that can be monitored with an Activity Agent. See the following topics for additional information:
+The window opens for all types of hosts that can be monitored with an Activity Agent. See the
+following topics for additional information:
 
 - [CTERA Activity Auditing Configuration](../../../../config/ctera/Activity.md)
 - [Dell Celerra or VNX](dellcelerravnx.md)

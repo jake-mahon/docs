@@ -1,10 +1,13 @@
 # Host Properties Window
 
-Once a host has been added to the Monitored Hosts list, the configuration settings can be modified through the host’s Properties window.
+Once a host has been added to the Monitored Hosts list, the configuration settings can be modified
+through the host’s Properties window.
 
 ![Activity Monitor with Edit button identified ](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/properties/hostpropertiesoverview.webp)
 
-On the Monitored Hosts tab, select the host and click Edit, or right-click on a host and select __Edit Host__ from the right-click menu, to open the host’s Properties window. The tabs vary based on the type of host selected:
+On the Monitored Hosts tab, select the host and click Edit, or right-click on a host and select
+**Edit Host** from the right-click menu, to open the host’s Properties window. The tabs vary based
+on the type of host selected:
 
 - [Auditing Tab](auditing.md) — Dell Isilon/PowerScale devices only
 - [Connection Tab](connection.md) — Microsoft Entra ID, Exchange Online, and SharePoint Online only

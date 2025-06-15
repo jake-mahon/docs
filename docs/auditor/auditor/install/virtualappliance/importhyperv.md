@@ -2,18 +2,20 @@
 
 Perform the following steps to import a virtual machine:
 
-__Step 1 –__ On your Hyper-V server, unzip the virtual appliance package to the specified location.
+**Step 1 –** On your Hyper-V server, unzip the virtual appliance package to the specified location.
 
-__Step 2 –__ Navigate to __Start__ → __All Apps__ → __Hyper-V Manager__.
+**Step 2 –** Navigate to **Start** → **All Apps** → **Hyper-V Manager**.
 
-__Step 3 –__ In the  Hyper-V Manager, navigate to __Actions__ → __Import virtual machine__ and follow the instructions of the wizard. Review the table below for more information.
+**Step 3 –** In the Hyper-V Manager, navigate to **Actions** → **Import virtual machine** and follow
+the instructions of the wizard. Review the table below for more information.
 
-| Step | Description |
-| --- | --- |
-| Locate Folder | Browse for the folder that contains extracted virtual appliance. |
-| Select Virtual Machine | Select Netwrix Auditor. |
-| Choose Import Type | Choose the import type that best suits your needs. |
-| Choose Network Type | Select a virtual switch. |
-| Summary | Review your virtual machine settings. Click Finish to exit the wizard. |
+| Step                   | Description                                                            |
+| ---------------------- | ---------------------------------------------------------------------- |
+| Locate Folder          | Browse for the folder that contains extracted virtual appliance.       |
+| Select Virtual Machine | Select Netwrix Auditor.                                                |
+| Choose Import Type     | Choose the import type that best suits your needs.                     |
+| Choose Network Type    | Select a virtual switch.                                               |
+| Summary                | Review your virtual machine settings. Click Finish to exit the wizard. |
 
-The newly created virtual machine named Netwrix Auditor will appear in the list of virtual machines. Right-click and select Start.
+The newly created virtual machine named Netwrix Auditor will appear in the list of virtual machines.
+Right-click and select Start.

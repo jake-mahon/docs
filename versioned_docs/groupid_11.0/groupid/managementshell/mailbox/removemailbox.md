@@ -1,15 +1,15 @@
 # Remove-Mailbox
 
-Use the __Remove-Mailbox__ commandlet to delete mailbox from the connected identifty store.
+Use the **Remove-Mailbox** commandlet to delete mailbox from the connected identifty store.
 
 ## Syntax
 
 ```
-Remove-MailBox  
--Identity <string[]>  
-[-IdentityStoreId <int>]  
-[-SecurityToken <CustomClaimsPrincipal>]  
-[-Credential <pscredential>]  
+Remove-MailBox
+-Identity <string[]>
+[-IdentityStoreId <int>]
+[-SecurityToken <CustomClaimsPrincipal>]
+[-Credential <pscredential>]
 [<CommonParameters>]
 ```
 

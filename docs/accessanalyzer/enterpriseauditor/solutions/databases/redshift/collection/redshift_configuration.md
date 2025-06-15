@@ -6,7 +6,7 @@ The Redshift_Configuration job returns additional configuration settings from Re
 
 The Redshift_Configuration Job uses the SQL Data Collector for queries.
 
-__CAUTION:__ Do not modify the query. The query is preconfigured for this job.
+**CAUTION:** Do not modify the query. The query is preconfigured for this job.
 
 ![0](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/redshift/collection/0.collectionconfiguration.webp)
 

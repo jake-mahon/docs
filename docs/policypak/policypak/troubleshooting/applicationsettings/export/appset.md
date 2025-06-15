@@ -4,7 +4,8 @@ There are two ways to export AppSet settings.
 
 ## Way #1 use when:
 
-- Asked by Netwrix Endpoint Policy Manager (formerly PolicyPak) Tech support to troubleshoot when AppSet settings aren't working via Group Policy, or
+- Asked by Netwrix Endpoint Policy Manager (formerly PolicyPak) Tech support to troubleshoot when
+  AppSet settings aren't working via Group Policy, or
 - Sharing AppSet settings with other colleagues (also to be used and deployed within Group Policy.
 
 Here is what to do:

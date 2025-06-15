@@ -1,6 +1,6 @@
 # General Info
 
-On the __General Info__ tab, you have a few actions to select from.
+On the **General Info** tab, you have a few actions to select from.
 
 ![web_interface_and_controls_75_624x208](../../../../../../../../static/img/product_docs/policypak/policypak/cloud/interface/companydetails/companyadministrators/generalinfo/web_interface_and_controls_75_624x208.webp)
 

@@ -1,8 +1,11 @@
 # Connections Tab
 
-Video: For a quick overview of how to manage the Connections tab using Endpoint Policy Manager Application Settings Manager see the following video: [http://www.policypak.com/video/policypak-manage-ie-connections-tab.html](http://www.policypak.com/video/policypak-manage-ie-connections-tab.html).
+Video: For a quick overview of how to manage the Connections tab using Endpoint Policy Manager
+Application Settings Manager see the following video:
+[http://www.policypak.com/video/policypak-manage-ie-connections-tab.html](http://www.policypak.com/video/policypak-manage-ie-connections-tab.html).
 
-The "LAN settings" button on Internet Explorer's Connections tab is configurable, as shown in Figure 18.
+The "LAN settings" button on Internet Explorer's Connections tab is configurable, as shown in
+Figure 18.
 
 ![ie_appset_tab_by_tab_14](../../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/preconfigured/internetexplorer/tab/ie_appset_tab_by_tab_14.webp)
 
@@ -14,4 +17,5 @@ The same dialog can be managed using the IE AppSet, as shown in Figure 19.
 
 Figure 19. Configuring the local LAN settings for IE.
 
-Note the way the address needs to be specified using Endpoint Policy Manager, which is Address:Port in the Address box. The Port box is not used.
+Note the way the address needs to be specified using Endpoint Policy Manager, which is Address:Port
+in the Address box. The Port box is not used.

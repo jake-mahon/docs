@@ -1,15 +1,16 @@
 # Which security settings can be exported by GPO Export Manager?
 
-Over thirteen types of security settings can be managed with Netwrix Endpoint Policy Manager (formerly PolicyPak) Security Settings Manager, including:
+Over thirteen types of security settings can be managed with Netwrix Endpoint Policy Manager
+(formerly PolicyPak) Security Settings Manager, including:
 
 - Account Policies
-  - Password Policy
-  - Account Lockout Policy
-  - Kerberos Policy
+    - Password Policy
+    - Account Lockout Policy
+    - Kerberos Policy
 - Local Policies
-  - Audit Policy
-  - User Rights Assignment
-  - Security Options
+    - Audit Policy
+    - User Rights Assignment
+    - Security Options
 - Event Log Settings
 - Restricted Groups
 - System Services
@@ -21,7 +22,8 @@ Over thirteen types of security settings can be managed with Netwrix Endpoint Po
 - Network Access Protection
 - Applocker (Application Control Policies)
 
-__NOTE:__ The following items are NOT supported by Endpoint Policy Manager Security Settings Manager:
+**NOTE:** The following items are NOT supported by Endpoint Policy Manager Security Settings
+Manager:
 
 - IP Security
 - Wired Network (IEEE 802.3) Policies

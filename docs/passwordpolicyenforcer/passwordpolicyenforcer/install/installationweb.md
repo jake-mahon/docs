@@ -1,6 +1,8 @@
 # Install Password Policy Enforcer Web
 
-Password Policy Enforcer Web V7.11 is a web server enabling users to change their Windows domain password from a web browser. Review the [Requirements](../requirements.md) prior to running the installation.
+Password Policy Enforcer Web V7.11 is a web server enabling users to change their Windows domain
+password from a web browser. Review the [Requirements](../requirements.md) prior to running the
+installation.
 
 Click the following link to download Password Policy Enforcer Web:
 
@@ -8,42 +10,57 @@ Click the following link to download Password Policy Enforcer Web:
 
 ## The PPE Web Setup Wizard
 
-The Setup Wizard copies the required files onto the server and configures IIS to run the Password Policy Enforcer Web application.
+The Setup Wizard copies the required files onto the server and configures IIS to run the Password
+Policy Enforcer Web application.
 
 Follow the steps below to install PPE Web.
 
-__Step 1 –__ Start the Password Policy Enforcer Web Setup Wizard (PPEWeb711.exe).
+**Step 1 –** Start the Password Policy Enforcer Web Setup Wizard (PPEWeb711.exe).
 
-__Step 2 –__ If another version of Password Policy Enforcer Web is detected, the Setup Wizard may required older files to be backed up. Back up these files if the original files have been modified. Click __Next__.
+**Step 2 –** If another version of Password Policy Enforcer Web is detected, the Setup Wizard may
+required older files to be backed up. Back up these files if the original files have been modified.
+Click **Next**.
 
-__Step 3 –__ Click __Next__.
+**Step 3 –** Click **Next**.
 
-__Step 4 –__ Read the License Agreement. Click __I accept the terms of the license agreement__, then click __Next__ if you accept all the terms.
+**Step 4 –** Read the License Agreement. Click **I accept the terms of the license agreement**, then
+click **Next** if you accept all the terms.
 
-__Step 5 –__ Click __Browse...__ if you want to choose a different folder for the Password Policy Enforcer Web documentation and tools, then click __Next__.
+**Step 5 –** Click **Browse...** if you want to choose a different folder for the Password Policy
+Enforcer Web documentation and tools, then click **Next**.
 
-__Step 6 –__ Select an __IIS Web Site__ from the dropdown. Change the default Virtual Directory, if needed.
+**Step 6 –** Select an **IIS Web Site** from the dropdown. Change the default Virtual Directory, if
+needed.
 
-__NOTE:__ Password Policy Enforcer Web should be installed in its own virtual directory.
+**NOTE:** Password Policy Enforcer Web should be installed in its own virtual directory.
 
-__Step 7 –__ Click __Next__ twice.
+**Step 7 –** Click **Next** twice.
 
-__Step 8 –__ Wait for Password Policy Enforcer Web to install, then click __Finish__.
+**Step 8 –** Wait for Password Policy Enforcer Web to install, then click **Finish**.
 
 #### Upgrading from PPE Web V7.x
 
-Some planning is needed to ensure a smooth upgrade from PPE Web V7.x. A trial run on a lab network is recommended.
+Some planning is needed to ensure a smooth upgrade from PPE Web V7.x. A trial run on a lab network
+is recommended.
 
 #### Before You Begin
 
-The HTML templates and associated images are overwritten during an upgrade. You must back up and customized HTML templates and images before upgrading. The HTML templates and images are installed in the ```\Inetpub\wwwroot\ppeweb\``` folder by default.
+The HTML templates and associated images are overwritten during an upgrade. You must back up and
+customized HTML templates and images before upgrading. The HTML templates and images are installed
+in the `\Inetpub\wwwroot\ppeweb\` folder by default.
 
-__NOTE:__ A full backup of the PPE Web server is recommended. This allows you to roll back to the previous version if the upgrade cannot be completed. You may need to restart Windows after upgrading.
+**NOTE:** A full backup of the PPE Web server is recommended. This allows you to roll back to the
+previous version if the upgrade cannot be completed. You may need to restart Windows after
+upgrading.
 
-__CAUTION:__ PPE Web V7.11 is only compatible with Password Policy Enforcer V7.0 and later. Upgrade Password Policy Enforcer to a compatible version if you have enabled Password Policy Enforcer integration.
+**CAUTION:** PPE Web V7.11 is only compatible with Password Policy Enforcer V7.0 and later. Upgrade
+Password Policy Enforcer to a compatible version if you have enabled Password Policy Enforcer
+integration.
 
 #### Upgrading to V7.11
 
-__Step 1 –__ Start the PPE Web Setup Wizard and follow the prompts. The Setup Wizard uninstalls the previous version. There is no need to manually uninstall previous versions.
+**Step 1 –** Start the PPE Web Setup Wizard and follow the prompts. The Setup Wizard uninstalls the
+previous version. There is no need to manually uninstall previous versions.
 
-__Step 2 –__ Restore any customized HTML templates and images after upgrading. Do not restore PPEWeb.dll from the backup as it belongs to the previous version.
+**Step 2 –** Restore any customized HTML templates and images after upgrading. Do not restore
+PPEWeb.dll from the backup as it belongs to the previous version.

@@ -1,6 +1,7 @@
 # Certificate for Modern Authentication
 
-While configuring GroupID application in Microsoft Entra ID you must provide a certificate. You can generate this certificate using GroupID PowerShell or any other third-party application.
+While configuring GroupID application in Microsoft Entra ID you must provide a certificate. You can
+generate this certificate using GroupID PowerShell or any other third-party application.
 
 To generate a certificate using GroupID PowerShell:
 
@@ -8,36 +9,43 @@ To generate a certificate using GroupID PowerShell:
 2. Run the following command:
 
     ```
-       $mycert = New-SelfSignedCertificate -DnsName "contoso.org" -CertStoreLocation "cert:\LocalMachine\My" -NotAfter (Get-Date).AddYears(1) -KeySpec KeyExchange  
+       $mycert = New-SelfSignedCertificate -DnsName "contoso.org" -CertStoreLocation "cert:\LocalMachine\My" -NotAfter (Get-Date).AddYears(1) -KeySpec KeyExchange
        $mycert | Export-Certificate -FilePath c:\mycert.cer
     ```
 
-   ![GroupID PowerShell Command ](/img/versioned_docs/groupid_11.0/groupid/configureentraid/register/modern_auth_command.jpg)
+    ![GroupID PowerShell Command ](/img/versioned_docs/groupid_11.0/groupid/configureentraid/register/modern_auth_command.jpg)
 
-   The generated certificate will be saved at the root level of Drive C:.
+    The generated certificate will be saved at the root level of Drive C:.
 
-   In Microsoft Entra Admin Center portal, while configuring the GroupID application, upload this certificate using the Certificate & secrets node.
+    In Microsoft Entra Admin Center portal, while configuring the GroupID application, upload this
+    certificate using the Certificate & secrets node.
 
-   ![certificates_n_secrets](/img/versioned_docs/groupid_11.0/groupid/configureentraid/register/certificates_n_secrets.png)
+    ![certificates_n_secrets](/img/versioned_docs/groupid_11.0/groupid/configureentraid/register/certificates_n_secrets.png)
 
-   On the __Upload certificate__ page:
+    On the **Upload certificate** page:
 
-   1. Click browse to select the generated certificate, mycert.cer, from Drive C.
-   2. Provide a brief description for the certificate in the __Description__ box.
-   3. Click __Add__.
-3. After uploading the certificate successfully, Certificate Thumbprint is displayed. Copy it and keep it safe.
+    1. Click browse to select the generated certificate, mycert.cer, from Drive C.
+    2. Provide a brief description for the certificate in the **Description** box.
+    3. Click **Add**.
 
-   ![Generated Thumbprint ](/img/versioned_docs/groupid_11.0/groupid/configureentraid/register/thumbprint.png)
+3. After uploading the certificate successfully, Certificate Thumbprint is displayed. Copy it and
+   keep it safe.
 
-   The certificate Thumbprint will be used:
+    ![Generated Thumbprint ](/img/versioned_docs/groupid_11.0/groupid/configureentraid/register/thumbprint.png)
 
-   - While creating a Microsoft Entra ID identity store (on the Identity Store Details page of new identity store creation wizard).
-   - On the Messaging System page in identity store properties when Exchange Online/Office 365 is set as a messaging provider.
-   - In Synchronize, in a Synchronize job, when you select AD as destination, and Office 365 as a messaging provider on the Sync Object page, you must provide the certificate Thumbprint.
+    The certificate Thumbprint will be used:
+
+    - While creating a Microsoft Entra ID identity store (on the Identity Store Details page of new
+      identity store creation wizard).
+    - On the Messaging System page in identity store properties when Exchange Online/Office 365 is
+      set as a messaging provider.
+    - In Synchronize, in a Synchronize job, when you select AD as destination, and Office 365 as a
+      messaging provider on the Sync Object page, you must provide the certificate Thumbprint.
 
 ## Verify Modern Authentication
 
-You can test Modern Authentication from GroupID Powershell in your tenant. First, verify that Exchange Online module is installed on your GroupID server using the following cmdlet:
+You can test Modern Authentication from GroupID Powershell in your tenant. First, verify that
+Exchange Online module is installed on your GroupID server using the following cmdlet:
 
 ```
 Get-InstallModule -name exchangeonlinemanagement

@@ -1,21 +1,30 @@
 # Configure the Manage Auditing and Security Log Policy
 
-Perform this procedure only if the account selected for data collection is not a member of the Domain Admins group.
+Perform this procedure only if the account selected for data collection is not a member of the
+Domain Admins group.
 
-__Step 1 –__ Open the __Group Policy Management__ console on any domain controller in the target domain: navigate to Start > Windows Administrative Tools__→ Group Policy Management.__
+**Step 1 –** Open the **Group Policy Management** console on any domain controller in the target
+domain: navigate to Start > Windows Administrative Tools**→ Group Policy Management.**
 
-__Step 2 –__ In the left pane, navigate to __Forest: `<forest_name>` → Domains → `<domain_name>` → Domain Controllers__. Right-click the effective domain controllers policy (by default, it is the __Default Domain Controllers Policy__), and select __Edit__ from the pop-up menu.
+**Step 2 –** In the left pane, navigate to **Forest: `<forest_name>` → Domains → `<domain_name>` →
+Domain Controllers**. Right-click the effective domain controllers policy (by default, it is the
+**Default Domain Controllers Policy**), and select **Edit** from the pop-up menu.
 
-__Step 3 –__ In the __Group Policy Management Editor__ dialog, expand the __Computer Configuration__ node on the left and navigate to __Policies → Windows Settings → Security Settings → Local Policies.__
+**Step 3 –** In the **Group Policy Management Editor** dialog, expand the **Computer Configuration**
+node on the left and navigate to **Policies → Windows Settings → Security Settings → Local
+Policies.**
 
-__Step 4 –__ On the right, double-click the __User Rights Assignment__ policy.
+**Step 4 –** On the right, double-click the **User Rights Assignment** policy.
 
-__Step 5 –__ Locate the __Manage auditing and security log__ policy and double-click it.
+**Step 5 –** Locate the **Manage auditing and security log** policy and double-click it.
 
-__Step 6 –__ In the __Manage auditing and security log Properties__ dialog, click __Add User or Group__, specify the user that you want to define this policy for.
+**Step 6 –** In the **Manage auditing and security log Properties** dialog, click **Add User or
+Group**, specify the user that you want to define this policy for.
 
-__Step 7 –__ Navigate to __Start → Run__ and type _"cmd"_. Input the ```gpupdate /force``` command and press __Enter__. The group policy will be updated.
+**Step 7 –** Navigate to **Start → Run** and type _"cmd"_. Input the `gpupdate /force` command and
+press **Enter**. The group policy will be updated.
 
-__Step 8 –__ Type ```repadmin /syncall``` command and press Enter for replicate GPO changes to other domain controllers.
+**Step 8 –** Type `repadmin /syncall` command and press Enter for replicate GPO changes to other
+domain controllers.
 
-__Step 9 –__ Ensure that new GPO settings applied on any audited domain controller.
+**Step 9 –** Ensure that new GPO settings applied on any audited domain controller.

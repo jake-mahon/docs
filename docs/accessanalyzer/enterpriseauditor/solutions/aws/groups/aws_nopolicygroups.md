@@ -4,21 +4,26 @@ The AWS_NoPolicyGroups job provides details on groups that have no policies assi
 
 ## Analysis Tasks for the AWS_NoPolicyGroups Job
 
-Navigate to the __AWS__ > __3.Groups__ > __AWS_NoPolicyGroups__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the **AWS** > **3.Groups** > **AWS_NoPolicyGroups** > **Configure** node and select
+**Analysis** to view the analysis tasks.
 
-__CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
+**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+preconfigured for this job.
 
 ![Analysis Tasks for the AWS_NoPolicyGroups Job](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/aws/groups/nopolicygroupsanalysis.webp)
 
 The following analysis tasks are selected by default:
 
-- No Policy Groups – Identifies groups that have no policies applied. Creates the AWS_NoPolicyGroup_Details table accessible under the job’s Results node.
-- No Policy Groups Summary – Summarizes no policy groups across AWS Organizations. Creates the AWS_NoPolicyGroup_Summary table accessible under the job’s Results node.
+- No Policy Groups – Identifies groups that have no policies applied. Creates the
+  AWS_NoPolicyGroup_Details table accessible under the job’s Results node.
+- No Policy Groups Summary – Summarizes no policy groups across AWS Organizations. Creates the
+  AWS_NoPolicyGroup_Summary table accessible under the job’s Results node.
 
 ## Report for the AWS_NoPolicyGroups Job
 
-In addition to the tables and views created by the analysis task, the AWS_NoPolicyGroups job produces the following preconfigured report:
+In addition to the tables and views created by the analysis task, the AWS_NoPolicyGroups job
+produces the following preconfigured report:
 
-| Report | Description | Default Tags | Report Element |
-| --- | --- | --- | --- |
-| Groups With No Policies | This report identifies groups that do not have a policy assigned. | None | This report is comprised of the following elements:   - Stacked Bar Chart – Displays top accounts by no policy group counts - Table – Shows no policy groups by accounts - Table – Provides details on no policy groups |
+| Report                  | Description                                                       | Default Tags | Report Element                                                                                                                                                                                                        |
+| ----------------------- | ----------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Groups With No Policies | This report identifies groups that do not have a policy assigned. | None         | This report is comprised of the following elements: - Stacked Bar Chart – Displays top accounts by no policy group counts - Table – Shows no policy groups by accounts - Table – Provides details on no policy groups |

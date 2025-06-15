@@ -8,4 +8,5 @@ Endpoint Policy Manager has three parts:
 - Data which resides within GPOs.
 - CSE on target systems.
 
-So, there's nothing to "move" or do if you decommission a DC or upgrade a server. If you were using the Endpoint Policy Manager Central Store, that simply replicates when the next DC comes online.
+So, there's nothing to "move" or do if you decommission a DC or upgrade a server. If you were using
+the Endpoint Policy Manager Central Store, that simply replicates when the next DC comes online.

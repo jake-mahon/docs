@@ -1,6 +1,10 @@
 # Exchange2K: MAPI Settings
 
-The MAPI Settings page is used to enter configurations to connect to target Exchange servers. By default, Enterprise Auditor connects to Exchange using System Attendant. For Exchange 2010 and 2013, a mailbox and a client access server need to be entered in order to make a MAPI connection. These settings only need to be configured if not configured at the Global Settings level. It is a wizard page for the categories of:
+The MAPI Settings page is used to enter configurations to connect to target Exchange servers. By
+default, Enterprise Auditor connects to Exchange using System Attendant. For Exchange 2010 and 2013,
+a mailbox and a client access server need to be entered in order to make a MAPI connection. These
+settings only need to be configured if not configured at the Global Settings level. It is a wizard
+page for the categories of:
 
 - Exchange Organization > Users
 - Mailbox Stores
@@ -20,7 +24,8 @@ Configure the Connection Setting by selecting from the following:
 
 Enter a server to Test Connection Setting:
 
-- Exchange Server – Enter the Exchange Mailbox Server to use to test the connection setting to make sure that there is access to the server entered
+- Exchange Server – Enter the Exchange Mailbox Server to use to test the connection setting to make
+  sure that there is access to the server entered
 - Test connection setting – Click to test the connection to the Exchange server
 
 The box at the bottom of the page displays information regarding the test connection in progress.

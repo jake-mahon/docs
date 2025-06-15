@@ -1,12 +1,13 @@
 # Redshift_TablePrivileges Job
 
-The Redshift_TablePrivileges job is designed to collect Redshift table privileges from all the targeted servers.
+The Redshift_TablePrivileges job is designed to collect Redshift table privileges from all the
+targeted servers.
 
 ## Queries for the Redshift_TablePrivileges Job
 
 The Redshift_TablePrivileges Job uses the SQL Data Collector for queries.
 
-__CAUTION:__ Do not modify the query. The query is preconfigured for this job.
+**CAUTION:** Do not modify the query. The query is preconfigured for this job.
 
 ![Query Selection](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/redshift/collection/tableprivilegesquery.png)
 
@@ -16,9 +17,11 @@ The query is:
 
 ## Analysis Task for the Redshift_TablePrivileges Job
 
-Navigate to the __Databases__ > __0.Collection__ > __Redshift__ > __Redshift_TablePrivileges__ > __Configure__ node and select Analysis to view the analysis tasks.
+Navigate to the **Databases** > **0.Collection** > **Redshift** > **Redshift_TablePrivileges** >
+**Configure** node and select Analysis to view the analysis tasks.
 
-__CAUTION:__ Do not modify or deselect the selected analysis task. The analysis task is preconfigured for this job.
+**CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
+preconfigured for this job.
 
 ![Analysis Selection](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/redshift/collection/tableprivilegesanalysis.png)
 

@@ -4,4 +4,5 @@ The Results page is where the properties from Microsoft Entra ID to be gathered
 
 ![Results page of the Entra Data Collector Wizard](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/results.webp)
 
-Properties can be selected individually or the __Select All__ and __Clear All__ buttons can be used. All selected properties are collected.
+Properties can be selected individually or the **Select All** and **Clear All** buttons can be used.
+All selected properties are collected.

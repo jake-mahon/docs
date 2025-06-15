@@ -1,6 +1,7 @@
 # Pending Assigned Resource Types Access Control Rules
 
-Generates the access control rules which give to a profile the permissions to call the API Pending AssignedResourceTypes.
+Generates the access control rules which give to a profile the permissions to call the API Pending
+AssignedResourceTypes.
 
 ## Examples
 
@@ -12,9 +13,9 @@ Generates the access control rules which give to a profile the permissions to ca
 
 ## Properties
 
-| Property | Details |
-| --- | --- |
-| Profile   required | __Type__    String   __Description__   Identifier of the profile involved in the scaffolding. |
+| Property         | Details                                                                                |
+| ---------------- | -------------------------------------------------------------------------------------- |
+| Profile required | **Type** String **Description** Identifier of the profile involved in the scaffolding. |
 
 ## Generated XML
 

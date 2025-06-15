@@ -4,10 +4,12 @@ This tool anonymizes data based on a certain knowledge of the database and the d
 
 ## Overview
 
-Anonymizing data helps unlock situations where it is necessary to send data to varied teams while guaranteeing the privacy of the data owners.
+Anonymizing data helps unlock situations where it is necessary to send data to varied teams while
+guaranteeing the privacy of the data owners.
 
-> For example, it can be necessary to transmit data to an integration team that needs to set up tests or a development environment to work on the applicative configuration.
-> For example, users sometimes need to send data to Usercube's support team to reproduce a bug and get it corrected.
+> For example, it can be necessary to transmit data to an integration team that needs to set up
+> tests or a development environment to work on the applicative configuration. For example, users
+> sometimes need to send data to Usercube's support team to reproduce a bug and get it corrected.
 
 ## Technical Principles
 
@@ -16,30 +18,36 @@ Anonymizing can be performed on data:
 - from a CSV file, with the output written to a new CSV file;
 - directly inside a SQL database, overwriting existing data with the anonymized data.
 
-  In this case, the plain data is lost. So make sure to work on a copy of the original database.
+    In this case, the plain data is lost. So make sure to work on a copy of the original database.
 
-Several types of data can be anonymized, according to distinct substitution methods that are deterministic and non-reversible:
+Several types of data can be anonymized, according to distinct substitution methods that are
+deterministic and non-reversible:
 
 - strings have each alphabetical character substituted for another alphabetical character;
 
-  > For example, ```John Doe``` becomes ```Xert Okl```.
+    > For example, `John Doe` becomes `Xert Okl`.
 
-  Diacritical characters are replaced by a non-diacritical equivalent.
+    Diacritical characters are replaced by a non-diacritical equivalent.
+
 - numbers have each digit substituted for another digit;
 
-  > For example, ```54689``` becomes ```32016```.
+    > For example, `54689` becomes `32016`.
+
 - emails have the username anonymized, while leaving the domain name as is;
 
-  > For example, ```johndoe@contoso.com``` becomes ```xertoekl@contoso.com```.
-- Active Directory's RDN properties (Relative Distinguished Names), in the _attribute=value_ format, are anonymized via the string method on the value, leaving the attribute as is.
+    > For example, `johndoe@contoso.com` becomes `xertoekl@contoso.com`.
 
-  > For example, ```CN=John Doe``` becomes ```CN=Xert Okl```.
+- Active Directory's RDN properties (Relative Distinguished Names), in the _attribute=value_ format,
+  are anonymized via the string method on the value, leaving the attribute as is.
+
+    > For example, `CN=John Doe` becomes `CN=Xert Okl`.
 
 ## Examples
 
 ### Anonymizing a CSV file
 
-The following example anonymizes the ```first_name```, ```last_name```, ```email``` and ```phone``` column of the following CSV file:
+The following example anonymizes the `first_name`, `last_name`, `email` and `phone` column of the
+following CSV file:
 
 ```
 
@@ -85,7 +93,8 @@ id,first_name,last_name,email,gender,phone
 
 ### Anonymizing a SQL Server table
 
-The following example overwrites the ```UR_Resources``` table of Usercube's database with anonymized data for the ```C3```, ```C8```, ```CA```, ```CB```, ```CC``` and ```CD``` columns for all resources whose ```Type``` is ```17```.
+The following example overwrites the `UR_Resources` table of Usercube's database with anonymized
+data for the `C3`, `C8`, `CA`, `CB`, `CC` and `CD` columns for all resources whose `Type` is `17`.
 
 ```
 
@@ -95,13 +104,13 @@ The following example overwrites the ```UR_Resources``` table of Usercube's data
 
 ## Arguments
 
-| Argument Name | Details |
-| --- | --- |
-| --columns   required | __Type__    Strings   __Description__ Columns from the CSV or SQL database that need anonymizing. __Usage__ The value is a string sequence in the form ```type:columname```, separated by a coma ```,```, where ```type``` is used to choose the anonymize algorithm from among the following formats: ```string``` (default value); ```mail```; ```number```; ```rdn```, and where ```columnname``` is the actual name, not case-sensitive, of the column to anonymize. See more details on formats in the previous section. |
-| --connection-string   optional | __Type__    String   __Description__ Connection string to the SQL Server database to be anonymized.   __Note:__ required when anonymizing a database. |
-| --csv-separator (-s)   default value: ; | __Type__    String   __Description__ Separator of the input CSV file, provided between simple quotes.   __Note:__ used only when anonymizing a CSV file. |
-| --entry-file (-n)   optional | __Type__    String   __Description__ Path to the input CSV file to anonymize.   __Note:__ required when anonymizing a CSV file. |
-| --no-transaction   optional | __Type__    No Value   __Description__ Disables the SQL transaction for the request made by the anonymizing tool to the target SQL Server database.   __Warning:__ NETWRIX recommends using this option only when using transactions leads to a failure (exceeded RAM usage, exceeded CPU usage), because it could corrupt the data from the database. Make sure to prepare a backup of the database before using this option.   __Note:__ used only when anonymizing a database. |
-| --output (-o)   default value: STDOUT | __Type__    String   __Description__ Path of the output CSV file to write the anonymized data.   __Note:__ used only when anonymizing a CSV file. |
-| --select-query (-q)   optional | __Type__    String   __Description__ SQL query to filter the rows to be anonymized.   __Note:__ used only when anonymizing a database, and useful only when the query includes a "WHERE" condition, otherwise the ```--table``` and ```--columns``` arguments are enough. __Usage__ The table targeted by the query must be on the table specified in ```--table```. __Examples__ ```SELECT Id, name, firstName FROM Resources WHERE resourceType = 'Person'``` is a query with a simple condition.   ```SELECT * FROM Persons WHERE resourceType = 'Person' AND specialFlag = 'TopSecret'``` selects all columns, and adds a specific condition. |
-| --table (-t)   optional | __Type__    String   __Description__ Name of the table from the SQL Server database to be anonymized.   __Note:__ required when anonymizing a database. |
+| Argument Name                         | Details                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| ------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| --columns required                    | **Type** Strings **Description** Columns from the CSV or SQL database that need anonymizing. **Usage** The value is a string sequence in the form `type:columname`, separated by a coma `,`, where `type` is used to choose the anonymize algorithm from among the following formats: `string` (default value); `mail`; `number`; `rdn`, and where `columnname` is the actual name, not case-sensitive, of the column to anonymize. See more details on formats in the previous section.                                                                                                                             |
+| --connection-string optional          | **Type** String **Description** Connection string to the SQL Server database to be anonymized. **Note:** required when anonymizing a database.                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| --csv-separator (-s) default value: ; | **Type** String **Description** Separator of the input CSV file, provided between simple quotes. **Note:** used only when anonymizing a CSV file.                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| --entry-file (-n) optional            | **Type** String **Description** Path to the input CSV file to anonymize. **Note:** required when anonymizing a CSV file.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| --no-transaction optional             | **Type** No Value **Description** Disables the SQL transaction for the request made by the anonymizing tool to the target SQL Server database. **Warning:** NETWRIX recommends using this option only when using transactions leads to a failure (exceeded RAM usage, exceeded CPU usage), because it could corrupt the data from the database. Make sure to prepare a backup of the database before using this option. **Note:** used only when anonymizing a database.                                                                                                                                             |
+| --output (-o) default value: STDOUT   | **Type** String **Description** Path of the output CSV file to write the anonymized data. **Note:** used only when anonymizing a CSV file.                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| --select-query (-q) optional          | **Type** String **Description** SQL query to filter the rows to be anonymized. **Note:** used only when anonymizing a database, and useful only when the query includes a "WHERE" condition, otherwise the `--table` and `--columns` arguments are enough. **Usage** The table targeted by the query must be on the table specified in `--table`. **Examples** `SELECT Id, name, firstName FROM Resources WHERE resourceType = 'Person'` is a query with a simple condition. `SELECT * FROM Persons WHERE resourceType = 'Person' AND specialFlag = 'TopSecret'` selects all columns, and adds a specific condition. |
+| --table (-t) optional                 | **Type** String **Description** Name of the table from the SQL Server database to be anonymized. **Note:** required when anonymizing a database.                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |

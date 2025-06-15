@@ -2,7 +2,9 @@
 
 ## What are Extras?
 
-Netwrix Password Secure provides a diverse range of supporting features that do not directly provide added value but mostly build on existing approaches and expand their functionalities. They are work-saving features that in total simplify the process of working with Netwrix Password Secure.
+Netwrix Password Secure provides a diverse range of supporting features that do not directly provide
+added value but mostly build on existing approaches and expand their functionalities. They are
+work-saving features that in total simplify the process of working with Netwrix Password Secure.
 
 ![installation_with_parameters_77_517x414](../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/extras/installation_with_parameters_77_517x414.webp)
 

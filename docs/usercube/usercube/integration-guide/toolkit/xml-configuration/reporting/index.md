@@ -1,5 +1,3 @@
 # Reporting
 
-- [
-  Report Query
-  ](reportquery/index.md)
+- [ Report Query ](reportquery/index.md)

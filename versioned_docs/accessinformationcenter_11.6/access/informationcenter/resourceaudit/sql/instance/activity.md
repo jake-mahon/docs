@@ -1,6 +1,7 @@
 # Activity Report
 
-The Activity report at the instance level displays activity across the entire instance logged during the selected date range.
+The Activity report at the instance level displays activity across the entire instance logged during
+the selected date range.
 
 ![Activity report at the instance level](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/sql/instance/instanceactivity.png)
 
@@ -20,7 +21,8 @@ This report is comprised of the following columns:
 - Deleted – True or False if trustee account is deleted
 - Resource – Type of resource
 - Operation – Type of operation performed
-- Access – Whether the trustee was granted access to execute the operation: __Allowed__ or __Denied__
+- Access – Whether the trustee was granted access to execute the operation: **Allowed** or
+  **Denied**
 - Path – Database object that was acted upon
 - Target Path – Query that triggered the activity event to be stored
 - Process Name – Not populated in SQL Server reports

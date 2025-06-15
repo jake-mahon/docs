@@ -32,10 +32,11 @@ The Email Queue tab shows all outgoing mail notifications.
 
 The Email Queue table has the following features:
 
-- Search – Searches the To Address and Subject columns to match the search string. When matches are found, the table is filtered to the matching results.
+- Search – Searches the To Address and Subject columns to match the search string. When matches are
+  found, the table is filtered to the matching results.
 - Column headers can be resized and sorted by ascending or descending order:
 
-  - Created – Timestamp of notification creation
-  - Sent – Timestamp of when the notification was sent
-  - To Address – The email address of the recipient
-  - Subject – The message text
+    - Created – Timestamp of notification creation
+    - Sent – Timestamp of when the notification was sent
+    - To Address – The email address of the recipient
+    - Subject – The message text

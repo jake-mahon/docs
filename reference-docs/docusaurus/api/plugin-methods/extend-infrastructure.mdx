@@ -15,18 +15,18 @@ Use this for files that are consumed server-side, because theme files are automa
 Example:
 
 ```js title="docusaurus-plugin/src/index.js"
-import path from 'path';
+import path from 'path'
 
 export default function (context, options) {
   return {
     name: 'docusaurus-plugin',
     // highlight-start
     getPathsToWatch() {
-      const contentPath = path.resolve(context.siteDir, options.path);
-      return [`${contentPath}/**/*.{ts,tsx}`];
+      const contentPath = path.resolve(context.siteDir, options.path)
+      return [`${contentPath}/**/*.{ts,tsx}`]
     },
     // highlight-end
-  };
+  }
 }
 ```
 
@@ -52,11 +52,11 @@ export default function (context, options) {
         .command('roll')
         .description('Roll a random number between 1 and 1000')
         .action(() => {
-          console.log(Math.floor(Math.random() * 1000 + 1));
-        });
+          console.log(Math.floor(Math.random() * 1000 + 1))
+        })
     },
     // highlight-end
-  };
+  }
 }
 ```
 
@@ -72,10 +72,10 @@ export default function (context, options) {
     name: 'my-theme',
     // highlight-start
     getThemePath() {
-      return './theme';
+      return './theme'
     },
     // highlight-end
-  };
+  }
 }
 ```
 
@@ -100,14 +100,14 @@ export default function (context, options) {
     // highlight-start
     getThemePath() {
       // Where compiled JavaScript output lives
-      return '../lib/theme';
+      return '../lib/theme'
     },
     getTypeScriptThemePath() {
       // Where TypeScript source code lives
-      return '../src/theme';
+      return '../src/theme'
     },
     // highlight-end
-  };
+  }
 }
 ```
 
@@ -127,6 +127,6 @@ export function getSwizzleComponentList() {
     'SearchBar',
     'hooks/useTheme',
     'prism-include-languages',
-  ];
+  ]
 }
 ```

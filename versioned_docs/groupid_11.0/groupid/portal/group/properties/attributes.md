@@ -1,6 +1,8 @@
 # Object properties - Attributes tab
 
-Use this tab to manage custom attributes for this object. These attributes are used to store additional information about the object. For example, you can use custom attributes to save health insurance data of a user.
+Use this tab to manage custom attributes for this object. These attributes are used to store
+additional information about the object. For example, you can use custom attributes to save health
+insurance data of a user.
 
 Attribute 1
 
@@ -58,6 +60,6 @@ Attribute 14
 
 The value of the custom attribute 14.
 
-__See Also__
+**See Also**
 
 - [Group Properties](/versioned_docs/groupid_11.0/groupid/portal/group/properties/overview.md)

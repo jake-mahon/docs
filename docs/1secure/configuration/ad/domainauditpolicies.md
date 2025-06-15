@@ -1,23 +1,34 @@
 # Configure Basic Domain Audit Policies
 
-Basic audit policies allow tracking changes to user accounts and groups and identifying originating workstations. You can configure advanced audit policies for the same purpose too. See the [Configure Advanced Audit Policies](advancedpolicy.md) topic for additional information.
+Basic audit policies allow tracking changes to user accounts and groups and identifying originating
+workstations. You can configure advanced audit policies for the same purpose too. See the
+[Configure Advanced Audit Policies](advancedpolicy.md) topic for additional information.
 
-__Step 1 –__ Open the __Group Policy Management__ console on any domain controller in the target domain: navigate to Start > Windows Administrative Tools (Windows Server 2016 and higher) or Administrative Tools (Windows 2012)>  __Group Policy Management.__
+**Step 1 –** Open the **Group Policy Management** console on any domain controller in the target
+domain: navigate to Start > Windows Administrative Tools (Windows Server 2016 and higher) or
+Administrative Tools (Windows 2012)> **Group Policy Management.**
 
-__Step 2 –__ In the left pane, navigate to __Forest: `<forest_name>`__ > __Domains__ >  __`<domain_name>` > Domain Controllers__. Right-click the effective domain controllers policy (by default, it is the __Default Domain Controllers Policy__), and select __Edit__ from the pop-up menu.
+**Step 2 –** In the left pane, navigate to **Forest: `<forest_name>`** > **Domains** >
+**`<domain_name>` > Domain Controllers**. Right-click the effective domain controllers policy (by
+default, it is the **Default Domain Controllers Policy**), and select **Edit** from the pop-up menu.
 
-__Step 3 –__ In the __Group Policy Management Editor__ dialog, expand the __Computer Configuration__ node on the left and navigate to __Policies > Windows Settings > Security Settings > Local Policies > Audit Policy.__
+**Step 3 –** In the **Group Policy Management Editor** dialog, expand the **Computer Configuration**
+node on the left and navigate to **Policies > Windows Settings > Security Settings > Local
+Policies > Audit Policy.**
 
-__Step 4 –__ Configure the following audit policies.
+**Step 4 –** Configure the following audit policies.
 
-| Policy | Audit Events |
-| --- | --- |
-| __Audit account management__ | _"Success"_ |
-| __Audit directory service access__ | _"Success"_ |
-| __Audit logon events__ | _"Success"_ |
+| Policy                             | Audit Events |
+| ---------------------------------- | ------------ |
+| **Audit account management**       | _"Success"_  |
+| **Audit directory service access** | _"Success"_  |
+| **Audit logon events**             | _"Success"_  |
 
 ![manualconfig_ad_localpolicy_winserver2016](../../../../static/img/product_docs/1secure/configuration/ad/manualconfig_ad_localpolicy_winserver2016.webp)
 
-The Audit logon events policy is only required to collect the information on the originating workstation, i.e., the computer from which a change was made. This functionality is optional and can be disabled.
+The Audit logon events policy is only required to collect the information on the originating
+workstation, i.e., the computer from which a change was made. This functionality is optional and can
+be disabled.
 
-__Step 5 –__ Navigate to __Start > Run__ and type _"cmd"_. Input the ```gpupdate /force``` command and press __Enter__. The group policy will be updated.
+**Step 5 –** Navigate to **Start > Run** and type _"cmd"_. Input the `gpupdate /force` command and
+press **Enter**. The group policy will be updated.

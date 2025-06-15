@@ -2,18 +2,23 @@
 
 You can deny DLLs within Applications, like PowerShell’s internal DLLs, which make it operate.
 
-First you must turn on the option with a Global DLL policy, which may only be enabled on the __Computer Configuration__ side.
+First you must turn on the option with a Global DLL policy, which may only be enabled on the
+**Computer Configuration** side.
 
 ![A screenshot of a computer
 
-Description automatically generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/deny/denying_dlls_within_applications.webp)
+Description automatically
+generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/deny/denying_dlls_within_applications.webp)
 
-Then create a matching rule with __New DLL Policy__.
+Then create a matching rule with **New DLL Policy**.
 
 ![A screenshot of a computer
 
-Description automatically generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/deny/denying_dlls_within_applications_1.webp)
+Description automatically
+generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/deny/denying_dlls_within_applications_1.webp)
 
-Then you can __Deny execution__ of the DLL when it is encountered.
+Then you can **Deny execution** of the DLL when it is encountered.
 
-__NOTE:__ Some additional details and examples can be found in the [How to Defend against malicious PowerShell attacks (DLLs)?](../powershell/maliciousattacks.md) topic.
+**NOTE:** Some additional details and examples can be found in the
+[How to Defend against malicious PowerShell attacks (DLLs)?](../powershell/maliciousattacks.md)
+topic.

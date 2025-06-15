@@ -1,8 +1,13 @@
 # ExchangePublicFolder Data Collector
 
-The ExchangePublicFolder Data Collector audits an Exchange Public Folder, including contents, permissions, ownership, and replicas. This is a MAPI-based data collector which requires the __Settings > Exchange__ node to be enabled and configured. See the [Exchange](../../settings/exchange.md) topic for additional information.
+The ExchangePublicFolder Data Collector audits an Exchange Public Folder, including contents,
+permissions, ownership, and replicas. This is a MAPI-based data collector which requires the
+**Settings > Exchange** node to be enabled and configured. See the
+[Exchange](../../settings/exchange.md) topic for additional information.
 
-The ExchangePublicFolder Data Collector has been preconfigured within the Exchange Solution. Both this data collector and the solution are available with a special Access Analyzer license. See the [Exchange Solution](../../../solutions/exchange/overview.md) topic for additional information.
+The ExchangePublicFolder Data Collector has been preconfigured within the Exchange Solution. Both
+this data collector and the solution are available with a special Access Analyzer license. See the
+[Exchange Solution](../../../solutions/exchange/overview.md) topic for additional information.
 
 Protocols
 
@@ -21,11 +26,14 @@ Permissions
 
 Sensitive Data Discovery Considerations
 
-If running Sensitive Data Discovery (SDD) scans, it will be necessary to increase the minimum amount of RAM. Each thread requires a minimum of 2 additional GB of RAM per host. For example, if the job is configured to scan 8 hosts at a time , then an extra 16 GB of RAM are required (8x2=16).
+If running Sensitive Data Discovery (SDD) scans, it will be necessary to increase the minimum amount
+of RAM. Each thread requires a minimum of 2 additional GB of RAM per host. For example, if the job
+is configured to scan 8 hosts at a time , then an extra 16 GB of RAM are required (8x2=16).
 
 ## ExchangePublicFolder Query Configuration
 
-The ExchangePublicFolder Data Collector is configured through the Exchange Public Folder Data Collector Wizard, which contains the following wizard pages:
+The ExchangePublicFolder Data Collector is configured through the Exchange Public Folder Data
+Collector Wizard, which contains the following wizard pages:
 
 - Welcome
 - [ExchangePublicFolder: Category](category.md)
@@ -35,13 +43,16 @@ The ExchangePublicFolder Data Collector is configured through the Exchange Publi
 - [ExchangePublicFolder: Probable Owner](probableowner.md)
 - [ExchangePublicFolder: Summary](summary.md)
 
-The query requires special permissions to connect to target Exchange servers. Configure these permissions on the Welcome page.
+The query requires special permissions to connect to target Exchange servers. Configure these
+permissions on the Welcome page.
 
 ![Exchange Public Folder Data Collector Wizard Welcome page](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
 
-In the Connection Setting section, choose to either maintain the global inheritance, or configure query specific settings.
+In the Connection Setting section, choose to either maintain the global inheritance, or configure
+query specific settings.
 
-The __Use Global setting__ option specifies what setting is being inherited. Clear this option to break inheritance, and then select one of the following options:
+The **Use Global setting** option specifies what setting is being inherited. Clear this option to
+break inheritance, and then select one of the following options:
 
 - System Attendant (2003 & 2007)
 - Use the maibox associated with the Windows account that Access Analyzer is run with
@@ -50,4 +61,6 @@ The __Use Global setting__ option specifies what setting is being inherited. Cle
 
 See the [Exchange](../../settings/exchange.md) topic for additional information.
 
-In the Sampling server section, enter the Exchange server in the textbox to be used to test the connection settings. Click __Test sampling server__ to ensure there is access to the server. The box at the bottom of the page displays information regarding the test connection in progress.
+In the Sampling server section, enter the Exchange server in the textbox to be used to test the
+connection settings. Click **Test sampling server** to ensure there is access to the server. The box
+at the bottom of the page displays information regarding the test connection in progress.

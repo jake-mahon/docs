@@ -12,9 +12,9 @@ Used to track the current configuration version.
 
 ## Properties
 
-| Property | Details |
-| --- | --- |
-| Description   optional | __Type__    String   __Description__   Detailed description of the version. |
-| Identifier   default value: ConfigurationVersion | __Type__    String   __Description__   Unique identifier of the setting. |
-| Misc   optional | __Type__    String   __Description__   Misc. |
-| Version   optional | __Type__    String   __Description__   Version of the configuration. |
+| Property                                       | Details                                                              |
+| ---------------------------------------------- | -------------------------------------------------------------------- |
+| Description optional                           | **Type** String **Description** Detailed description of the version. |
+| Identifier default value: ConfigurationVersion | **Type** String **Description** Unique identifier of the setting.    |
+| Misc optional                                  | **Type** String **Description** Misc.                                |
+| Version optional                               | **Type** String **Description** Version of the configuration.        |

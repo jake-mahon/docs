@@ -1,6 +1,7 @@
 # I get a "Namespace already defined" error when making new Endpoint Policy Manager Admin Templates Manager policies. What is this?
 
-This error occurs when your ADMX Central Store or Local Store has two ADMX items that overlap with the same value.
+This error occurs when your ADMX Central Store or Local Store has two ADMX items that overlap with
+the same value.
 
 There are two articles you can read to fix the problem permanently:
 

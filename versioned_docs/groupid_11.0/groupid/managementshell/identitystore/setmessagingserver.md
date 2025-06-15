@@ -1,28 +1,32 @@
 # Set-MessagingServer
 
-The commandlet __Set-MessagingServer__ configures a messaging system in identity store. The SmtpServer parameter requires the server name of the messaging system to be specified. [Get-AvailableMessagingServers](/versioned_docs/groupid_11.0/groupid/managementshell/identitystore/getavailablemessagingservers.md) commandlet can be used to retrieve the server names of the messaging systems.
+The commandlet **Set-MessagingServer** configures a messaging system in identity store. The
+SmtpServer parameter requires the server name of the messaging system to be specified.
+[Get-AvailableMessagingServers](/versioned_docs/groupid_11.0/groupid/managementshell/identitystore/getavailablemessagingservers.md)
+commandlet can be used to retrieve the server names of the messaging systems.
 
-This commandlet also has some parameters that appear depending on the value of the Provider parameter.
+This commandlet also has some parameters that appear depending on the value of the Provider
+parameter.
 
 ## Syntax
 
 ```
-Set-MessagingServer  
--IdentityStoreName <string>  
--Provider {o365 | gsuite | exchange2013 | exchange2016 | exchange2019}  
--Credential <pscredential>  
--SmtpServer <string>  
-[-Priority <int>]  
-[-Disabled]  
-[<CommonParameters>]  
-Set-MessagingServer  
--IdentityStoreName <string>  
--Provider {o365 | gsuite | exchange2013 | exchange2016 | exchange2019}  
--UserName <string>  
--SmtpServer <string>  
-[-Password <string>]  
-[-Priority <int>]  
-[-Disabled]  
+Set-MessagingServer
+-IdentityStoreName <string>
+-Provider {o365 | gsuite | exchange2013 | exchange2016 | exchange2019}
+-Credential <pscredential>
+-SmtpServer <string>
+[-Priority <int>]
+[-Disabled]
+[<CommonParameters>]
+Set-MessagingServer
+-IdentityStoreName <string>
+-Provider {o365 | gsuite | exchange2013 | exchange2016 | exchange2019}
+-UserName <string>
+-SmtpServer <string>
+[-Password <string>]
+[-Priority <int>]
+[-Disabled]
 [<CommonParameters>]
 ```
 

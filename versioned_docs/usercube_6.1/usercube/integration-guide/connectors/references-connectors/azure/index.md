@@ -1,44 +1,46 @@
 # Azure
 
-This connector exports [Azure](https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-azure) resources, role definitions and assignments.
+This connector exports
+[Azure](https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-azure)
+resources, role definitions and assignments.
 
-This page is about [Cloud/Azure](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/azure/index.md).
+This page is about
+[Cloud/Azure](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/azure/index.md).
 
 ![Package: Cloud/Azure](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/azure/packages_azure_v603.png)
 
 ## Prerequisites
 
-Implementing this connector requires at least the ```Security Reader``` role, because Usercube does not access the [Azure API](https://docs.microsoft.com/en-us/rest/api/azure/) on behalf of a user but with [its own identity](https://docs.microsoft.com/en-us/rest/api/azure/).
+Implementing this connector requires at least the `Security Reader` role, because Usercube does not
+access the [Azure API](https://docs.microsoft.com/en-us/rest/api/azure/) on behalf of a user but
+with [its own identity](https://docs.microsoft.com/en-us/rest/api/azure/).
 
 ## Export
 
-For a given Azure tenant with resources, this connector exports Azure resources, role definitions and role assignments to CSV files.
+For a given Azure tenant with resources, this connector exports Azure resources, role definitions
+and role assignments to CSV files.
 
 ### Configuration
 
-This process is configured through a [connection](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or the XML configuration, and in the ```appsettings.agent.json > Connections``` section:
+This process is configured through a
+[connection](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
+in the UI and/or the XML configuration, and in the `appsettings.agent.json > Connections` section:
 
                     ```
 
                         appsettings.agent.json
-{
-  ...
-  "Connections": {
-    ...
-    "<ConnectionIdentifier>": {
-      ...
-    }
-  }
-}
-```
-                
+
+{ ... "Connections": { ... "<ConnectionIdentifier>": { ... } } }
+
+````
+
 
 The identifier of the connection and thus the name of the subsection must:
-  
+
 - be unique.
-  
+
 - not begin with a digit.
-  
+
 - not contain ```<```, ```>```, ```:```, ```"```, ```/```, ```\```, ```|```, ```?```, ```*``` and ```_```.
 
 > The following example
@@ -125,3 +127,4 @@ Data protection can be ensured through:
 - an [Azure Key Vault](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md) safe;
 
 - a [CyberArk Vault](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md) able to store Azure's ```ApplicationId``` and ```ApplicationKey```.
+````

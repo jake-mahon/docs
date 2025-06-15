@@ -2,26 +2,27 @@
 
 Gets or sets the domain name or IP address of the proxy server.
 
-__Namespace:__ Imanami.PublicInterfaces
+**Namespace:** Imanami.PublicInterfaces
 
-__Assembly:__ Imanami.PublicInterfaces.dll
+**Assembly:** Imanami.PublicInterfaces.dll
 
-__Syntax__
+**Syntax**
 
 ```
 string ProxyDomain { get; set; }
 ```
 
-__Return Value__
+**Return Value**
 
 Type: [System.String](http://msdn.microsoft.com/en-us/library/system.string.aspx)
 
 The domain name or IP address of the proxy server.
 
-__Remarks__
+**Remarks**
 
-If communication with the SMS gateway is through a proxy server, this property can be used to set the domain name or IP address of that proxy server.
+If communication with the SMS gateway is through a proxy server, this property can be used to set
+the domain name or IP address of that proxy server.
 
-__See Also__
+**See Also**
 
 - [Implement and Deploy a Custom SMS Gateway](../implementcustom.md)

@@ -77,26 +77,26 @@ export default {
     },
   },
   // ...
-};
+}
 ```
 
 Translate the homepage:
 
 ```jsx title="src/pages/index.js"
-import React from 'react';
-import Translate from '@docusaurus/Translate';
-import Layout from '@theme/Layout';
+import React from 'react'
+import Translate from '@docusaurus/Translate'
+import Layout from '@theme/Layout'
 
 export default function Home() {
   return (
     <Layout>
-      <h1 style={{margin: 20}}>
+      <h1 style={{ margin: 20 }}>
         <Translate description="The homepage main heading">
           Welcome to my Docusaurus translated site!
         </Translate>
       </h1>
     </Layout>
-  );
+  )
 }
 ```
 
@@ -458,7 +458,7 @@ When the user is browsing a page at `/fr/doc1`, the edit button will link by def
 You may prefer the edit button to link to the Crowdin interface instead by using the `editUrl` function to customize the edit URLs on a per-locale basis.
 
 ```js title="docusaurus.config.js"
-const DefaultLocale = 'en';
+const DefaultLocale = 'en'
 
 export default {
   presets: [
@@ -467,30 +467,30 @@ export default {
       {
         docs: {
           // highlight-start
-          editUrl: ({locale, versionDocsDirPath, docPath}) => {
+          editUrl: ({ locale, versionDocsDirPath, docPath }) => {
             // Link to Crowdin for French docs
             if (locale !== DefaultLocale) {
-              return `https://crowdin.com/project/docusaurus-v2/${locale}`;
+              return `https://crowdin.com/project/docusaurus-v2/${locale}`
             }
             // Link to GitHub for English docs
-            return `https://github.com/facebook/docusaurus/edit/main/website/${versionDocsDirPath}/${docPath}`;
+            return `https://github.com/facebook/docusaurus/edit/main/website/${versionDocsDirPath}/${docPath}`
           },
           // highlight-end
         },
         blog: {
           // highlight-start
-          editUrl: ({locale, blogDirPath, blogPath}) => {
+          editUrl: ({ locale, blogDirPath, blogPath }) => {
             if (locale !== DefaultLocale) {
-              return `https://crowdin.com/project/docusaurus-v2/${locale}`;
+              return `https://crowdin.com/project/docusaurus-v2/${locale}`
             }
-            return `https://github.com/facebook/docusaurus/edit/main/website/${blogDirPath}/${blogPath}`;
+            return `https://github.com/facebook/docusaurus/edit/main/website/${blogDirPath}/${blogPath}`
           },
           // highlight-start
         },
       },
     ],
   ],
-};
+}
 ```
 
 :::note

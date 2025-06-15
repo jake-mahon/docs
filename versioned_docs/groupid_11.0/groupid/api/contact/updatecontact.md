@@ -1,6 +1,7 @@
 # Update a Contact
 
-Use this API if you want to update a contact's attribute(s) and their value(s) in a specified identity store.
+Use this API if you want to update a contact's attribute(s) and their value(s) in a specified
+identity store.
 
 NOTE: The contact object type is not supported in a Microsoft Entra ID based identity store.
 
@@ -15,69 +16,69 @@ PATCH
 #### Sample Request Syntax
 
 ```
-{  
-    "objectIdentity": "aaa92db4-b912-49a8-9f85-56da5f33daaf",  
-    "attributesToUpdate": {  
-        "AttributesCollection": {  
-            "department": [  
-                {  
-                    "Value": "Operation",  
-                    "Action": 0  
-                }  
-            ],  
-            "company": [  
-                {  
-                    "Value": "Imanami - Now part of Netwrix",  
-                    "Action": 0  
-                }  
-            ]  
-        }  
-    }  
+{
+    "objectIdentity": "aaa92db4-b912-49a8-9f85-56da5f33daaf",
+    "attributesToUpdate": {
+        "AttributesCollection": {
+            "department": [
+                {
+                    "Value": "Operation",
+                    "Action": 0
+                }
+            ],
+            "company": [
+                {
+                    "Value": "Imanami - Now part of Netwrix",
+                    "Action": 0
+                }
+            ]
+        }
+    }
 }
 ```
 
 #### Sample Response Syntax
 
 ```
-{  
-    "name": null,  
-    "type": 0,  
-    "status": 0,  
-    "message": null,  
-    "data": "",  
-    "identityStoreObject": null,  
-    "details": [  
-        {  
-            "name": "department",  
-            "type": 8,  
-            "status": 0,  
-            "message": null,  
-            "data": "",  
-            "identityStoreObject": null,  
-            "details": [],  
-            "currentDirectoryServer": null,  
-            "errorCode": null,  
-            "exceptionMessagesAttributeWise": null,  
-            "isResyncAble": true  
-        },  
-        {  
-            "name": "company",  
-            "type": 8,  
-            "status": 0,  
-            "message": null,  
-            "data": "",  
-            "identityStoreObject": null,  
-            "details": [],  
-            "currentDirectoryServer": null,  
-            "errorCode": null,  
-            "exceptionMessagesAttributeWise": null,  
-            "isResyncAble": true  
-        }  
-    ],  
-    "currentDirectoryServer": null,  
-    "errorCode": null,  
-    "exceptionMessagesAttributeWise": null,  
-    "isResyncAble": true  
+{
+    "name": null,
+    "type": 0,
+    "status": 0,
+    "message": null,
+    "data": "",
+    "identityStoreObject": null,
+    "details": [
+        {
+            "name": "department",
+            "type": 8,
+            "status": 0,
+            "message": null,
+            "data": "",
+            "identityStoreObject": null,
+            "details": [],
+            "currentDirectoryServer": null,
+            "errorCode": null,
+            "exceptionMessagesAttributeWise": null,
+            "isResyncAble": true
+        },
+        {
+            "name": "company",
+            "type": 8,
+            "status": 0,
+            "message": null,
+            "data": "",
+            "identityStoreObject": null,
+            "details": [],
+            "currentDirectoryServer": null,
+            "errorCode": null,
+            "exceptionMessagesAttributeWise": null,
+            "isResyncAble": true
+        }
+    ],
+    "currentDirectoryServer": null,
+    "errorCode": null,
+    "exceptionMessagesAttributeWise": null,
+    "isResyncAble": true
 }
 ```
 

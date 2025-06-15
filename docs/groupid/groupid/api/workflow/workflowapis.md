@@ -1,6 +1,7 @@
 # Workflow APIs
 
-Directory Manager provides the following APIs to perform functions related to Directory Manager workflows:
+Directory Manager provides the following APIs to perform functions related to Directory Manager
+workflows:
 
 - [All Workflow Routes](allwfroutes.md)
 - [Approve a Request](approvereq.md)

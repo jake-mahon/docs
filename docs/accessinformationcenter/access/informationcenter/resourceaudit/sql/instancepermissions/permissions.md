@@ -1,6 +1,7 @@
 # Permissions Report
 
-The Permissions report at the __Instance Permissions__ node shows the instance permissions for the trustee.
+The Permissions report at the **Instance Permissions** node shows the instance permissions for the
+trustee.
 
 ![Permissions report at the Instance Permissions node](../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/sql/instancepermissions/instancepermissions.webp)
 
@@ -18,10 +19,12 @@ This report is comprised of the following columns:
 - ObjectSid – Security ID of the object
 - Disabled – True or False if trustee account is disabled
 - Deleted – True or False if trustee account is deleted
-- Stale – True or False if trustee account is stale (according to the length of inactive time used by the Access Analyzer data collection and analysis configuration to identify stale accounts)
+- Stale – True or False if trustee account is stale (according to the length of inactive time used
+  by the Access Analyzer data collection and analysis configuration to identify stale accounts)
 - Type – Direct or Inherited type of permission
 
-The following rights are a normalized representation of the SQL permission levels (SQL Roles) granted to the trustee:
+The following rights are a normalized representation of the SQL permission levels (SQL Roles)
+granted to the trustee:
 
 - List – Right to view list of resources
 - Read – Right to view/read resources
@@ -31,5 +34,7 @@ The following rights are a normalized representation of the SQL permission level
 
 The following columns display the combined direct and inherited rights:
 
-- Allow Mask – Bitmask corresponding to Windows ACE permission bits for combined direct and inherited allow rights
-- Deny Mask – Bitmask corresponding to Windows ACE permission bits for combined direct inherited deny rights
+- Allow Mask – Bitmask corresponding to Windows ACE permission bits for combined direct and
+  inherited allow rights
+- Deny Mask – Bitmask corresponding to Windows ACE permission bits for combined direct inherited
+  deny rights

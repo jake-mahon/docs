@@ -2,11 +2,14 @@
 
 The Group Details page displays the membership details for a group.
 
-In an investigation report, when you click the Perpetrator (user name) link or Target (host name) link, you land on the User Details page or the Host Details page. Click a group name here to go to the Group Details page.
+In an investigation report, when you click the Perpetrator (user name) link or Target (host name)
+link, you land on the User Details page or the Host Details page. Click a group name here to go to
+the Group Details page.
 
 ![Group Details page - Members tab](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/activedirectory/operations/groupdetails.png)
 
-The top of the page displays a group profile card that may contain the following information about the group:
+The top of the page displays a group profile card that may contain the following information about
+the group:
 
 - Name
 - DN
@@ -27,8 +30,10 @@ On the Group Details page, the Members tab is displayed by default.
 
 The Members tab displays information about the members of the group. It has two sub-tabs:
 
-- Direct Members – Lists objects (such as users, computers, groups) who are direct members of the group
-- All Members – Lists direct and indirect members of the group. Indirect members are those who are members of this group through nested groups
+- Direct Members – Lists objects (such as users, computers, groups) who are direct members of the
+  group
+- All Members – Lists direct and indirect members of the group. Indirect members are those who are
+  members of this group through nested groups
 
 Each sub-tab displays a table with the following columns:
 
@@ -44,7 +49,8 @@ Click the Group Membership tab to open it.
 
 ![Group Membership Tab](/img/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/investigations/groupmembershiptab.png)
 
-The Group Membership tab displays the groups that _the group_ is a member of. Here, 'the group' refers to the group whose details you are viewing.
+The Group Membership tab displays the groups that _the group_ is a member of. Here, 'the group'
+refers to the group whose details you are viewing.
 
 The tab has two sub-tabs:
 

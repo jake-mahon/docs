@@ -1,8 +1,12 @@
 # Object Permissions Report
 
-The Object Permissions report for a user object provides details on Active Directory permissions for the object.
+The Object Permissions report for a user object provides details on Active Directory permissions for
+the object.
 
-The data within this report is collected by the Access Analyzer Active Directory Permissions Analyzer solution. See the Active Directory Permissions Analyzer Solution topic of the [Netwrix Access Analyzer Documentation](https://helpcenter.netwrix.com/category/accessanalyzer) for additional information.
+The data within this report is collected by the Access Analyzer Active Directory Permissions
+Analyzer solution. See the Active Directory Permissions Analyzer Solution topic of the
+[Netwrix Access Analyzer Documentation](https://helpcenter.netwrix.com/category/accessanalyzer) for
+additional information.
 
 ![Object Permissions report](../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/group/objectpermissions.webp)
 
@@ -33,5 +37,7 @@ The following rights are a normalized representation of the permissions granted 
 
 The following columns display the combined direct and inherited rights:
 
-- Allow Mask – Bitmask corresponding to Windows ACE permission bits for combined direct and inherited allow rights
-- Deny Mask – Bitmask corresponding to Windows ACE permission bits for combined direct inherited deny rights
+- Allow Mask – Bitmask corresponding to Windows ACE permission bits for combined direct and
+  inherited allow rights
+- Deny Mask – Bitmask corresponding to Windows ACE permission bits for combined direct inherited
+  deny rights

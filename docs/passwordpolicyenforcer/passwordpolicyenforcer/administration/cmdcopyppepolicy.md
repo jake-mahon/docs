@@ -1,24 +1,28 @@
 # Copy-PPEPolicy
 
-The __CopyPPEPolicy__ cmdlet makes a copy of a PPE policy.
+The **CopyPPEPolicy** cmdlet makes a copy of a PPE policy.
 
 SYNTAX
 
-__Copy-PPEPolicy -DestPolicyName__ `<_string_>` __-SrcPolicyName__ `<_string_>` [`<_CommonParameters_>`]
+**Copy-PPEPolicy -DestPolicyName** `<_string_>` **-SrcPolicyName** `<_string_>`
+[`<_CommonParameters_>`]
 
 PARAMETERS
 
-__-SrcPolicyName__ `<_string_>`
+**-SrcPolicyName** `<_string_>`
 
-Source PPE Policy Name. Can also use __-S__ or __-s__.
+Source PPE Policy Name. Can also use **-S** or **-s**.
 
-__-DestPolicyName__ `<_string_>`
+**-DestPolicyName** `<_string_>`
 
-Destination PPE Policy Name. Can also use __-D__ or __-d__.
+Destination PPE Policy Name. Can also use **-D** or **-d**.
 
 `<_CommonParameters_>`
 
-This cmdlet supports the common parameters: __Verbose__, __Debug__, __ErrorAction__, __ErrorVariable__, __WarningAction__, __WarningVariable__, __OutBuffer__, __PipelineVariable__, and __OutVariable__. For more information, see about_CommonParameters [https:/go.microsoft.com/fwlink/?LinkID=113216](https:/go.microsoft.com/fwlink?linkid=113216).
+This cmdlet supports the common parameters: **Verbose**, **Debug**, **ErrorAction**,
+**ErrorVariable**, **WarningAction**, **WarningVariable**, **OutBuffer**, **PipelineVariable**, and
+**OutVariable**. For more information, see about_CommonParameters
+[https:/go.microsoft.com/fwlink/?LinkID=113216](https:/go.microsoft.com/fwlink?linkid=113216).
 
 EXAMPLE
 

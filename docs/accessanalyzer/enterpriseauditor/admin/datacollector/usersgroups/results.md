@@ -1,6 +1,7 @@
 # UsersGroups: Results
 
-The Results page is where the type of data to be returned is configured. Each type has a different set of options.
+The Results page is where the type of data to be returned is configured. Each type has a different
+set of options.
 
 ![Users and Groups Browser wizard Results page Category selection](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/results.webp)
 

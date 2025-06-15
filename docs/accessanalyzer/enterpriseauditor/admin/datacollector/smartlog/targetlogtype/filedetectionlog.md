@@ -1,10 +1,12 @@
 # SMARTLog: Target Log for File Detection Log Type
 
-The Target Log page is where logs are selected to be collected. This version is a wizard page for the File Change Detection log type.
+The Target Log page is where logs are selected to be collected. This version is a wizard page for
+the File Change Detection log type.
 
 ![SMART Log DC Wizard Target Log page for File Change Detection Log](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/smartlog/targetlogtype/targetlogfiledetection.webp)
 
-In the Exec server section, identify the server that will run the data collection by selecting one of the following options:
+In the Exec server section, identify the server that will run the data collection by selecting one
+of the following options:
 
 - Automatic (Local for NAS device hosts, Remote for Windows hosts)
 - Local Access Analyzer Server

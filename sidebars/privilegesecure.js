@@ -8,6 +8,6 @@ const sidebars = {
       dirName: '.',
     },
   ],
-};
+}
 
-export default sidebars; 
+export default sidebars

@@ -13,4 +13,6 @@ The Netwrix Active Directory App for Splunk contains several predefined dashboar
 
 ![Active Directory App for Splunk - Top Ribbon](/img/versioned_docs/threatprevention_7.4/threatprevention/siemdashboard/qradar/topribbon.png)
 
-The Timeframe interval is identified in the upper-left corner of each dashboard and uses the default Splunk search features. The drop-down menu provides additional options. To search within a different interval, choose a new option from the menu. Then click Submit to refresh the card data.
+The Timeframe interval is identified in the upper-left corner of each dashboard and uses the default
+Splunk search features. The drop-down menu provides additional options. To search within a different
+interval, choose a new option from the menu. Then click Submit to refresh the card data.

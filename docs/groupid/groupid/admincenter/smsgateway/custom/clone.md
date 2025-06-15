@@ -1,23 +1,23 @@
 # ISmsGateway.Clone
 
-Returns a clone object of the __ISMSGateway__ interface.
+Returns a clone object of the **ISMSGateway** interface.
 
-__Namespace:__ Imanami.PublicInterfaces
+**Namespace:** Imanami.PublicInterfaces
 
-__Assembly:__ Imanami.PublicInterfaces.dll
+**Assembly:** Imanami.PublicInterfaces.dll
 
-__Syntax__
+**Syntax**
 
 ```
 ISmsGateway Clone();
 ```
 
-__Return Value__
+**Return Value**
 
 Type: Imanami.PublicInterfaces.ISmsGateway
 
 The clone object.
 
-__See Also__
+**See Also**
 
 - [Implement and Deploy a Custom SMS Gateway](../implementcustom.md)

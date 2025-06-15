@@ -2,22 +2,23 @@
 
 This tab enables administrators to manage the account status and expiry policy of a user.
 
-__Account Expires__
+**Account Expires**
 
 Set the account expiry policy for the user.
 
-- __Never__: to set this user account to never expire. This is the default option for new users.
-- __End Of__: to set this user account to expire on a specified date. Use the calendar selector to enter
-  the expiry date for the user account.
+- **Never**: to set this user account to never expire. This is the default option for new users.
+- **End Of**: to set this user account to expire on a specified date. Use the calendar selector to
+  enter the expiry date for the user account.
 
-__Account is disabled__
+**Account is disabled**
 
 Select this check box to disable the user account, so that the user cannot log-on with it.
 
-__Account is locked out__
+**Account is locked out**
 
-This check box will be selected when this user account is locked, for example, due to failed logon attempts. Clear this check box to unlock the account.
+This check box will be selected when this user account is locked, for example, due to failed logon
+attempts. Clear this check box to unlock the account.
 
-__See Also__
+**See Also**
 
 - [User Properties](/versioned_docs/groupid_11.0/groupid/portal/user/properties/overview.md)

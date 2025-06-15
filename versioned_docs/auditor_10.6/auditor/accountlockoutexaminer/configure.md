@@ -1,41 +1,51 @@
 # Planning and Preparation
 
-Before you start using Netwrix Account Lockout Examiner, check the prerequisites and set up your environment, as described in this section.
+Before you start using Netwrix Account Lockout Examiner, check the prerequisites and set up your
+environment, as described in this section.
 
 ## System requirements
 
-Make sure that the machine where you plan install the solution meets the system requirements listed below.
+Make sure that the machine where you plan install the solution meets the system requirements listed
+below.
 
-__Hardware:__
-
-| Specification | Requirement |
-| --- | --- |
-| CPU | min 1.5 GHz |
-| Memory | 1 GB RAM |
-| Disk space | 20 MB |
-
-__Software:__
+**Hardware:**
 
 | Specification | Requirement |
-| --- | --- |
-| OS | Both 32-bit and 64-bit of the following operating systems are supported:   - Windows Server 2019 - Windows Server 2016 - Windows Server 2012 R2 - Windows Server 2012 - Windows 10 - Windows 8.1 |
+| ------------- | ----------- |
+| CPU           | min 1.5 GHz |
+| Memory        | 1 GB RAM    |
+| Disk space    | 20 MB       |
+
+**Software:**
+
+| Specification | Requirement                                                                                                                                                                                    |
+| ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| OS            | Both 32-bit and 64-bit of the following operating systems are supported: - Windows Server 2019 - Windows Server 2016 - Windows Server 2012 R2 - Windows Server 2012 - Windows 10 - Windows 8.1 |
 
 ## Accounts and rights
 
-1. The computer where __Account Lockout Examiner__ will run must be a member of the domain where lockouts happen.
+1. The computer where **Account Lockout Examiner** will run must be a member of the domain where
+   lockouts happen.
 2. The account used to run the application must be a member of the following groups:
-   1. __Domain Admins__ group (to retrieve the necessary data from domain controllers.)
-   2. Local __Administrators__ group on the workstation where lockouts happen (to access the Security event log.)
+    1. **Domain Admins** group (to retrieve the necessary data from domain controllers.)
+    2. Local **Administrators** group on the workstation where lockouts happen (to access the
+       Security event log.)
 
-In the environments with root/child domains, the account used to run Account Lockout Examiner should be a member of the local __Administrators__ group on the workstations in both root and child domains.
+In the environments with root/child domains, the account used to run Account Lockout Examiner should
+be a member of the local **Administrators** group on the workstations in both root and child
+domains.
 
 ## Licensing
 
-Account Lockout Examiner is shipped with a free pre-configured license that will be valid until a newer version becomes available. You will be notified on the new version release by the corresponding message displayed in the product. Then you will need to download that new version.
+Account Lockout Examiner is shipped with a free pre-configured license that will be valid until a
+newer version becomes available. You will be notified on the new version release by the
+corresponding message displayed in the product. Then you will need to download that new version.
 
 ## Target infrastructure
 
-For the solution to connect to and retrieve the necessary information from the Windows machines that may become the potential lockout reasons, your infrastructure should meet the requirements listed below.
+For the solution to connect to and retrieve the necessary information from the Windows machines that
+may become the potential lockout reasons, your infrastructure should meet the requirements listed
+below.
 
 ### Target systems and platforms
 
@@ -48,7 +58,8 @@ The following Windows machines are supported as examination targets:
 - Windows 10
 - Windows 8.1
 
-The solution can work with the following Exchange Server versions to retrieve information needed for lockout reason detection:
+The solution can work with the following Exchange Server versions to retrieve information needed for
+lockout reason detection:
 
 - Exchange Server 2019
 - Exchange Server 2016
@@ -56,7 +67,8 @@ The solution can work with the following Exchange Server versions to retrieve in
 
 ### Inbound firewall rules
 
-Make sure the following __Inbound__ firewall rules are enabled on the Domain Controllers and domain computers:
+Make sure the following **Inbound** firewall rules are enabled on the Domain Controllers and domain
+computers:
 
 - File and Printer Sharing (Echo Request - ICMPv4-In)
 - Remote Event Log Management (RPC)
@@ -67,61 +79,73 @@ Make sure the following __Inbound__ firewall rules are enabled on the Domain Con
 
 ### Ports
 
-The following __TCP__ ports should be open on the Domain Controllers and domain computers:
+The following **TCP** ports should be open on the Domain Controllers and domain computers:
 
-- Port __135__ — for communication using RPC
-- Dynamic ports __1024-65535__ — for internal communication
+- Port **135** — for communication using RPC
+- Dynamic ports **1024-65535** — for internal communication
 
 ### Recommended network security settings
 
-Security researches revealed that NTLM and NTLMv2 authentication is vulnerable to a variety of malicious attacks, including SMB replay, man-in-the-middle attacks, and brute force attacks.
+Security researches revealed that NTLM and NTLMv2 authentication is vulnerable to a variety of
+malicious attacks, including SMB replay, man-in-the-middle attacks, and brute force attacks.
 
-To make Windows operating system use more secure protocols (e.g. Kerberos version 5), the outgoing NTLM authentication traffic should be disabled for the machine where Netwrix Account Lockout Examiner will run. (See also [this Microsoft article](https://docs.microsoft.com/en-us/windows/win32/secauthn/microsoft-negotiate).)
+To make Windows operating system use more secure protocols (e.g. Kerberos version 5), the outgoing
+NTLM authentication traffic should be disabled for the machine where Netwrix Account Lockout
+Examiner will run. (See also
+[this Microsoft article](https://docs.microsoft.com/en-us/windows/win32/secauthn/microsoft-negotiate).)
 
-For that, you need to set the __Network Security: Restrict NTLM: Outgoing NTLM traffic to remote servers__ policy setting to __Deny All__. This can be done locally on the machine hosting Netwrix Account Lockout Examiner, or via Group Policy.
+For that, you need to set the **Network Security: Restrict NTLM: Outgoing NTLM traffic to remote
+servers** policy setting to **Deny All**. This can be done locally on the machine hosting Netwrix
+Account Lockout Examiner, or via Group Policy.
 
 To disable outgoing NTLM authentication traffic locally:
 
 1. Run _secpol.msc_.
-2. Browse to __Security Settings\Local Policies\Security Options__.
-3. Set the __Network Security: Restrict NTLM: Outgoing NTLM traffic to remote servers__ setting to __Deny All__.
+2. Browse to **Security Settings\Local Policies\Security Options**.
+3. Set the **Network Security: Restrict NTLM: Outgoing NTLM traffic to remote servers** setting to
+   **Deny All**.
 
 To disable outgoing NTLM authentication traffic via Group Policy:
 
 1. Open _gpmc.msc_.
-2. Find the Group Policy Object (GPO) that is applied to the machine where Netwrix Account Lockout Examiner runs.
-3. Edit this GPO. Browse to __Computer Configuration\Windows Settings\Security Settings\Local Policies\Security Options__.
-4. Set the __Network Security: Restrict NTLM: Outgoing NTLM traffic to remote servers__ setting to __Deny All__.
-5. On the machine hosting Netwrix Account Lockout Examiner run the following command via the command prompt:
+2. Find the Group Policy Object (GPO) that is applied to the machine where Netwrix Account Lockout
+   Examiner runs.
+3. Edit this GPO. Browse to **Computer Configuration\Windows Settings\Security Settings\Local
+   Policies\Security Options**.
+4. Set the **Network Security: Restrict NTLM: Outgoing NTLM traffic to remote servers** setting to
+   **Deny All**.
+5. On the machine hosting Netwrix Account Lockout Examiner run the following command via the command
+   prompt:
 
-    ```gpupdate /force```
+    `gpupdate /force`
 
 ### Required audit settings
 
-You can configure either __Advanced audit policies__ or __Basic audit policies__ for the target machines. See Scenario A or Scenario B, respectively.
+You can configure either **Advanced audit policies** or **Basic audit policies** for the target
+machines. See Scenario A or Scenario B, respectively.
 
 Scenario A: Advanced audit policies
 
-Enable the following __Advanced audit policies__ for the target machines:
+Enable the following **Advanced audit policies** for the target machines:
 
-| Audit entry | Event ID | Success/Failure |
-| --- | --- | --- |
-| Account Logon |  |  |
-| Audit Credential Validation | 4776 | Failure |
-| Audit Kerberos Authentication Service | 4771 | Failure |
-| Audit Other Account Logon Events | 4776 | Failure |
-| Account Management |  |  |
-| Audit User Account Management | 4740 | Success |
-| Logon/Logoff |  |  |
-| Audit Logon | 4625 | Failure |
-| Audit Account Lockout | 4625 | Failure |
+| Audit entry                           | Event ID | Success/Failure |
+| ------------------------------------- | -------- | --------------- |
+| Account Logon                         |          |                 |
+| Audit Credential Validation           | 4776     | Failure         |
+| Audit Kerberos Authentication Service | 4771     | Failure         |
+| Audit Other Account Logon Events      | 4776     | Failure         |
+| Account Management                    |          |                 |
+| Audit User Account Management         | 4740     | Success         |
+| Logon/Logoff                          |          |                 |
+| Audit Logon                           | 4625     | Failure         |
+| Audit Account Lockout                 | 4625     | Failure         |
 
 Scenario B: Basic audit policies
 
-Enable the following __basic audit policies__ for the target machines:
+Enable the following **basic audit policies** for the target machines:
 
-| Audit entry | Event ID | Success/Failure |
-| --- | --- | --- |
-| Audit logon events | 4625 | Failure |
-| Audit account logon events | 4776, 4771 | Failure |
-| Audit account management | 4740 | Success |
+| Audit entry                | Event ID   | Success/Failure |
+| -------------------------- | ---------- | --------------- |
+| Audit logon events         | 4625       | Failure         |
+| Audit account logon events | 4776, 4771 | Failure         |
+| Audit account management   | 4740       | Success         |

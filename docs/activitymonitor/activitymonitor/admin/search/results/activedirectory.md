@@ -1,6 +1,9 @@
 # Active Directory Search Results
 
-When a search has been started, the Search Status table at the bottom displays the percentage complete according to the size and quantity of the activity log files being searched per AD agent. You can [Filter](../overview.md#filter) and [Sort](../overview.md#sort) the results using the column headers. Below the Search button is the [Export](../overview.md#export) option.
+When a search has been started, the Search Status table at the bottom displays the percentage
+complete according to the size and quantity of the activity log files being searched per AD agent.
+You can [Filter](../overview.md#filter) and [Sort](../overview.md#sort) the results using the column
+headers. Below the Search button is the [Export](../overview.md#export) option.
 
 ![Active Directory Search Results](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/search/results/activedirectorysearchresults.webp)
 
@@ -34,12 +37,16 @@ The results data grid columns display the following information for each event:
 - Authentication Type – Indicates type of authentication event. Possible values: Kerberos, NTLM.
 - Target Host – Name of the originating host
 - Target IP – IP address of the originating host
-- Authentication Protocol – Indicates authentication protocol. Possible values: Unknown, Kerberos, KerberosTgs, KerberosAs, NTLM, NTLMv1, NTLMMixed, NTLMv2.
-- NTLM Logon Type – Indicates type of protocol used to authenticate a connection between client and server
+- Authentication Protocol – Indicates authentication protocol. Possible values: Unknown, Kerberos,
+  KerberosTgs, KerberosAs, NTLM, NTLMv1, NTLMMixed, NTLMv2.
+- NTLM Logon Type – Indicates type of protocol used to authenticate a connection between client and
+  server
 - Ticket Encryption – Indicates encryption type used in request part of the Kerberos ticket
 - PAC – RID for the group that does not have access
 - SPN – Detects attempts to obtain a list of Service Principal Name values
 - User Exists –  Indicates if user exists
 - N2 Password – Indicates if an invalid password matches the user’s password history
 
-At the bottom of the search interface, additional information is displayed for selected events in the data grid. The Attribute Name, Operation, Old Value, and New Value for the logged event (as applicable to the event) are displayed.
+At the bottom of the search interface, additional information is displayed for selected events in
+the data grid. The Attribute Name, Operation, Old Value, and New Value for the logged event (as
+applicable to the event) are displayed.

@@ -2,7 +2,10 @@
 
 #### Your security is our ambition
 
-Security is a top priority for Netwrix Password Secure - right from the conception stage, it sets the course for all further developments. Of course, security was also taken into account during the development of the Netwrix Password Secure app and the latest technologies were used. The following encryption techniques and algorithms are currently used:
+Security is a top priority for Netwrix Password Secure - right from the conception stage, it sets
+the course for all further developments. Of course, security was also taken into account during the
+development of the Netwrix Password Secure app and the latest technologies were used. The following
+encryption techniques and algorithms are currently used:
 
 Global
 
@@ -23,5 +26,7 @@ Global
 
 iOS
 
-- Full support of FaceID and TouchID for passwordless login to the Netwrix Password Secure Mobile app.
-- Password AutoFill support. Passwords are automatically entered in other apps and Safari. (No copy/paste or typing)
+- Full support of FaceID and TouchID for passwordless login to the Netwrix Password Secure Mobile
+  app.
+- Password AutoFill support. Passwords are automatically entered in other apps and Safari. (No
+  copy/paste or typing)

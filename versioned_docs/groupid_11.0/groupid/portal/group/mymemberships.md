@@ -1,13 +1,19 @@
 # My Memberships
 
-To view the groups that you are a member of, click __Groups__ on the left navigation pane and select __My Groups__. On the My Groups page, click the __My Memberships__ tab.
+To view the groups that you are a member of, click **Groups** on the left navigation pane and select
+**My Groups**. On the My Groups page, click the **My Memberships** tab.
 
-The __My Memberships__ tab lists only active groups that you are a member of; expired and deleted groups are not displayed.
+The **My Memberships** tab lists only active groups that you are a member of; expired and deleted
+groups are not displayed.
 
-You can [Modify Search Directory](/versioned_docs/groupid_11.0/groupid/portal/group/allgroups.md#modify-search-directory) to search your memberships and add [Filter All Groups](/versioned_docs/groupid_11.0/groupid/portal/group/allgroups.md#filter-all-groups)by clicking __My Memberships Grid Filters__.
-All your memberships matching the filters will be displayed.
+You can
+[Modify Search Directory](/versioned_docs/groupid_11.0/groupid/portal/group/allgroups.md#modify-search-directory)
+to search your memberships and add
+[Filter All Groups](/versioned_docs/groupid_11.0/groupid/portal/group/allgroups.md#filter-all-groups)by
+clicking **My Memberships Grid Filters**. All your memberships matching the filters will be
+displayed.
 
-__See Also__
+**See Also**
 
 - [My Groups](/versioned_docs/groupid_11.0/groupid/portal/group/mygroups.md)
 - [Groups](/versioned_docs/groupid_11.0/groupid/portal/group/create/overview.md)

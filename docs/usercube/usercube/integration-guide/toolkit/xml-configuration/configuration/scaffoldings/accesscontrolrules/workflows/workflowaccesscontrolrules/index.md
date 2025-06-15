@@ -1,6 +1,7 @@
 # Workflow Access Control Rules
 
-Generates the rights to access the task page and visualize the different workflows to be executed for a given entity type and profile.
+Generates the rights to access the task page and visualize the different workflows to be executed
+for a given entity type and profile.
 
 Gives access to a shortcut on the dashboard and on the top bar to access this page.
 
@@ -22,10 +23,10 @@ DashBoard shortcut:
 
 ## Properties
 
-| Property | Details |
-| --- | --- |
-| EntityType   required | __Type__    String   __Description__   Identifier of the entity type involved in the scaffolding. |
-| Profile   required | __Type__    String   __Description__   Identifier of the profile involved in the scaffolding. |
+| Property            | Details                                                                                    |
+| ------------------- | ------------------------------------------------------------------------------------------ |
+| EntityType required | **Type** String **Description** Identifier of the entity type involved in the scaffolding. |
+| Profile required    | **Type** String **Description** Identifier of the profile involved in the scaffolding.     |
 
 ## Generated XML
 

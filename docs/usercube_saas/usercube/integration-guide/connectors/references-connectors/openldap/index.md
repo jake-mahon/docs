@@ -1,10 +1,9 @@
 # OpenLDAP
 
-This connector exports and fulfills entries from/to an [OpenLDAP](https://www.openldap.org/) directory.
+This connector exports and fulfills entries from/to an [OpenLDAP](https://www.openldap.org/)
+directory.
 
-This page is about [
-OData
-](../../references-packages/odata/index.md).
+This page is about [ OData ](../../references-packages/odata/index.md).
 
 ![Package: Directory/Open LDAP](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/openldap/packages_ldapopen_v603.webp)
 
@@ -16,13 +15,13 @@ OpenLDAP is an open source implementation of the Lightweight Directory Access Pr
 
 Implementing this connector requires:
 
-- reading first the [appsettings.agent](../../../network-configuration/agent-configuration/appsettings-agent/index.md)documentation;
+- reading first the
+  [appsettings.agent](../../../network-configuration/agent-configuration/appsettings-agent/index.md)documentation;
 - a service account with reading and writing permissions on the target OpenLDAP server;
 - enabling SyncProv Overlay for the OpenLDAP server.
 
-  To perform a complete export without the SyncProv Overlay enabled, use rather the [
-  LDAP
-  ](../ldap/index.md) connector.
+    To perform a complete export without the SyncProv Overlay enabled, use rather the
+    [ LDAP ](../ldap/index.md) connector.
 
 ## Export
 
@@ -30,9 +29,9 @@ This connector exports to CSV files the content of an OpenLDAP Directory.
 
 ### Configuration
 
-This process is configured through a [
-Connection
-](../../../toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or the XML configuration, and in the ```appsettings.agent.json > Connections``` section:
+This process is configured through a
+[ Connection ](../../../toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or
+the XML configuration, and in the `appsettings.agent.json > Connections` section:
 
 ```
 appsettings.agent.json
@@ -48,12 +47,10 @@ appsettings.agent.json
 ```
 
 The identifier of the connection and thus the name of the subsection must:
-  
+
 - be unique.
-  
 - not begin with a digit.
-  
-- not contain ```<```, ```>```, ```:```, ```"```, ```/```, ```\```, ```|```, ```?```, ```*``` and ```_```.
+- not contain `<`, `>`, `:`, `"`, `/`, `\`, `|`, `?`, `*` and `_`.
 
 > For example:
 >
@@ -79,41 +76,55 @@ The identifier of the connection and thus the name of the subsection must:
 
 #### Setting attributes
 
-| Name | Details |
-| --- | --- |
-| Server   required | __Type__    String   __Description__ IP address and port of the OpenLDAP server. |
-| DistinguishedName   required | __Type__    String   __Description__ Distinguished Name of the domain controller. |
-| Login   required | __Type__    String   __Description__ OpenLDAP server's login. |
-| Password   required | __Type__    String   __Description__ OpenLDAP server's password. |
-| SSL   optional | __Type__    Boolean   __Description__ ```True``` to enable SSL (Secure Socket Layer) protocol for authentication requests. |
-|  |  |
-| --- | --- |
-| TimeFormat   default value: 60 | __Type__    Int32   __Description__ Timeout (in seconds) for the export's requests to the targeted server. |
-| WaitingTimeInSeconds   default value: 30 | __Type__    Int32   __Description__ Time period (in seconds) during which pulling for changes is not allowed during the persistent phase. |
-|  |  |
-| --- | --- |
-| Filter   required | __Type__    String   __Description__ Entries to be excluded from export among all entries from the LDAP instance. Only non-filtered entries are exported. The filter must use [Microsoft's search filter syntax](https://docs.microsoft.com/en-us/windows/win32/adsi/search-filter-syntax). |
-| Scope   optional | __Type__    String   __Description__ Search scope to be applied to the request. The result will be limited to:   ```Base``` - the base of the object;   ```OneLevel``` - the immediate children of the object;   ```Subtree``` - the entire subtree from the base object down. |
+| Name                                   | Details                                                                                                                                                                                                                                                                                |
+| -------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Server required                        | **Type** String **Description** IP address and port of the OpenLDAP server.                                                                                                                                                                                                            |
+| DistinguishedName required             | **Type** String **Description** Distinguished Name of the domain controller.                                                                                                                                                                                                           |
+| Login required                         | **Type** String **Description** OpenLDAP server's login.                                                                                                                                                                                                                               |
+| Password required                      | **Type** String **Description** OpenLDAP server's password.                                                                                                                                                                                                                            |
+| SSL optional                           | **Type** Boolean **Description** `True` to enable SSL (Secure Socket Layer) protocol for authentication requests.                                                                                                                                                                      |
+|                                        |                                                                                                                                                                                                                                                                                        |
+| ---                                    | ---                                                                                                                                                                                                                                                                                    |
+| TimeFormat default value: 60           | **Type** Int32 **Description** Timeout (in seconds) for the export's requests to the targeted server.                                                                                                                                                                                  |
+| WaitingTimeInSeconds default value: 30 | **Type** Int32 **Description** Time period (in seconds) during which pulling for changes is not allowed during the persistent phase.                                                                                                                                                   |
+|                                        |                                                                                                                                                                                                                                                                                        |
+| ---                                    | ---                                                                                                                                                                                                                                                                                    |
+| Filter required                        | **Type** String **Description** Entries to be excluded from export among all entries from the LDAP instance. Only non-filtered entries are exported. The filter must use [Microsoft's search filter syntax](https://docs.microsoft.com/en-us/windows/win32/adsi/search-filter-syntax). |
+| Scope optional                         | **Type** String **Description** Search scope to be applied to the request. The result will be limited to: `Base` - the base of the object; `OneLevel` - the immediate children of the object; `Subtree` - the entire subtree from the base object down.                                |
 
 ### Output details
 
-This connector is meant to generate to the [Application Settings](../../../network-configuration/agent-configuration/appsettings/index.md)Export Output folder:
+This connector is meant to generate to the
+[Application Settings](../../../network-configuration/agent-configuration/appsettings/index.md)Export
+Output folder:
 
-- a CSV file, named ```<connectionIdentifier>_entry.csv```, with one column for each property having a ```ConnectionColumn``` and each property without it but used in an entity association;
+- a CSV file, named `<connectionIdentifier>_entry.csv`, with one column for each property having a
+  `ConnectionColumn` and each property without it but used in an entity association;
 
-  Any property can be exported in a specific format when specified. See the [
-  References: Format for the EntityPropertyMapping
-  ](../../entitypropertymapping-format/index.md) topic for additional information.
-- a CSV file for each ```ConnectionTable``` in a related ```EntityTypeMapping``` or ```EntityAssociationMapping```, and which is not an ```entry```, named ```<connectionIdentifier>_<ConnectionTableName>.csv```;
+    Any property can be exported in a specific format when specified. See the
+    [ References: Format for the EntityPropertyMapping ](../../entitypropertymapping-format/index.md)
+    topic for additional information.
 
-  > For example, ```OpenLDAPExport_member``` as ```ConnectionTable``` in a mapping will generate the file ```OpenLDAPExport_member.csv``` with ```member``` as link attribute.
-- ```<connectionIdentifier>_cookie.bin``` which stores the time of the last successful export, thus allowing incremental processes.
+- a CSV file for each `ConnectionTable` in a related `EntityTypeMapping` or
+  `EntityAssociationMapping`, and which is not an `entry`, named
+  `<connectionIdentifier>_<ConnectionTableName>.csv`;
 
-  Most exports can be run in complete mode, where the CSV files will contain all entries, or in incremental mode, where CSV files will contain only the entries which have been modified since the last synchronization.
-    
-  A task can use the ```IgnoreCookieFile``` boolean property, and a command line (with an executable) can use the option ```--ignore-cookies```.
+    > For example, `OpenLDAPExport_member` as `ConnectionTable` in a mapping will generate the file
+    > `OpenLDAPExport_member.csv` with `member` as link attribute.
 
-The CSV files are stored in the [Application Settings](../../../network-configuration/agent-configuration/appsettings/index.md)Export Output folder, and the cookie file in the Export Cookies folder.
+- `<connectionIdentifier>_cookie.bin` which stores the time of the last successful export, thus
+  allowing incremental processes.
+
+    Most exports can be run in complete mode, where the CSV files will contain all entries, or in
+    incremental mode, where CSV files will contain only the entries which have been modified since
+    the last synchronization.
+
+    A task can use the `IgnoreCookieFile` boolean property, and a command line (with an executable)
+    can use the option `--ignore-cookies`.
+
+The CSV files are stored in the
+[Application Settings](../../../network-configuration/agent-configuration/appsettings/index.md)Export
+Output folder, and the cookie file in the Export Cookies folder.
 
 > For example, with the following configuration:
 >
@@ -123,7 +134,7 @@ The CSV files are stored in the [Application Settings](../../../network-configur
 >
 > ```
 >
-> We would have ```C:/UsercubeContoso/Temp/ExportOutput/OpenLDAPExport.csv``` like:
+> We would have `C:/UsercubeContoso/Temp/ExportOutput/OpenLDAPExport.csv` like:
 >
 > ```
 > entry.csv
@@ -131,7 +142,7 @@ The CSV files are stored in the [Application Settings](../../../network-configur
 > Insert,value1,value2,...,valueN
 > ```
 >
-> And we would also have ```C:/UsercubeContoso/Temp/ExportOutput/OpenLDAPExport_member.csv``` like:
+> And we would also have `C:/UsercubeContoso/Temp/ExportOutput/OpenLDAPExport_member.csv` like:
 >
 > ```
 > LDAPExport_member.csv
@@ -143,7 +154,9 @@ The CSV files are stored in the [Application Settings](../../../network-configur
 
 This connector fulfills via the LDAP connector's fulfill process.
 
-The LDAP connector fulfills the creation, deletion and update of LDAP entries, initiated through the Identity Manager UI or by [Evaluate Policy](../../../role-assignment/evaluate-policy/index.md) enforcement.
+The LDAP connector fulfills the creation, deletion and update of LDAP entries, initiated through the
+Identity Manager UI or by [Evaluate Policy](../../../role-assignment/evaluate-policy/index.md)
+enforcement.
 
 ### Configuration
 
@@ -169,27 +182,32 @@ Same as for export, fulfill is configured through connections.
 
 #### Setting attributes
 
-|  |  |
-| --- | --- |
-| Filter   required | __Type__    String   __Description__ Entries to be excluded from export among all entries from the LDAP instance. Only non-filtered entries are exported. The filter must use [Microsoft's search filter syntax](https://docs.microsoft.com/en-us/windows/win32/adsi/search-filter-syntax). |
-| Scope   optional | __Type__    String   __Description__ Search scope to be applied to the request. The result will be limited to:   ```Base``` - the base of the object;   ```OneLevel``` - the immediate children of the object;   ```Subtree``` - the entire subtree from the base object down. |
-|  |  |
-| --- | --- |
-| IsLdapPasswordReset   optional | __Type__    Boolean   __Description__ ```True``` to state the managed system as an LDAP-compliant system supporting password reset. |
+|                              |                                                                                                                                                                                                                                                                                        |
+| ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Filter required              | **Type** String **Description** Entries to be excluded from export among all entries from the LDAP instance. Only non-filtered entries are exported. The filter must use [Microsoft's search filter syntax](https://docs.microsoft.com/en-us/windows/win32/adsi/search-filter-syntax). |
+| Scope optional               | **Type** String **Description** Search scope to be applied to the request. The result will be limited to: `Base` - the base of the object; `OneLevel` - the immediate children of the object; `Subtree` - the entire subtree from the base object down.                                |
+|                              |                                                                                                                                                                                                                                                                                        |
+| ---                          | ---                                                                                                                                                                                                                                                                                    |
+| IsLdapPasswordReset optional | **Type** Boolean **Description** `True` to state the managed system as an LDAP-compliant system supporting password reset.                                                                                                                                                             |
 
 ### Output details
 
 This connector can create a new resource, and update and delete an existing resource via the UI.
 
-A new resource is created with the state ```disabled```, corresponding to the __useraccountcontrol__ value ```514```. When it is approved, its ```disabled``` state is removed and the __useraccountcontrol__ value becomes ```512```.
+A new resource is created with the state `disabled`, corresponding to the **useraccountcontrol**
+value `514`. When it is approved, its `disabled` state is removed and the **useraccountcontrol**
+value becomes `512`.
 
 ### Add attributes to the requests
 
-Some systems using the LDAP protocol require additional attributes in the creation and/or update requests.
+Some systems using the LDAP protocol require additional attributes in the creation and/or update
+requests.
 
-If these attributes are not synchronized in Identity Manager, then they cannot be computed and provided by scalar rules or navigation rules. In this case, they can be given as arguments in the provisioning order, through the ```ResourceType```'s ```ArgumentsExpression```.
+If these attributes are not synchronized in Identity Manager, then they cannot be computed and
+provided by scalar rules or navigation rules. In this case, they can be given as arguments in the
+provisioning order, through the `ResourceType`'s `ArgumentsExpression`.
 
-> The following example adds the attribute ```description``` with a value depending on what is modified:
+> The following example adds the attribute `description` with a value depending on what is modified:
 >
 > ```
 >
@@ -219,13 +237,12 @@ If these attributes are not synchronized in Identity Manager, then they cannot b
 
 Data protection can be ensured through:
 
-- [](../../../network-configuration/agent-configuration/rsa-encryption/index.md)[
-  Connection
-  ](../../../toolkit/xml-configuration/connectors/connection/index.md), configured in the ```appsettings.encrypted.agent.json``` file;
-- an [](../../../network-configuration/agent-configuration/azure-key-vault/index.md)[
-  Connection
-  ](../../../toolkit/xml-configuration/connectors/connection/index.md) safe;
+- [](../../../network-configuration/agent-configuration/rsa-encryption/index.md)[ Connection ](../../../toolkit/xml-configuration/connectors/connection/index.md),
+  configured in the `appsettings.encrypted.agent.json` file;
+- an
+  [](../../../network-configuration/agent-configuration/azure-key-vault/index.md)[ Connection ](../../../toolkit/xml-configuration/connectors/connection/index.md)
+  safe;
 
-- a [](../../../network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)[
-  Connection
-  ](../../../toolkit/xml-configuration/connectors/connection/index.md) able to store OpenLDAP's ```Login```, ```Password``` and ```Server```.
+- a
+  [](../../../network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)[ Connection ](../../../toolkit/xml-configuration/connectors/connection/index.md)
+  able to store OpenLDAP's `Login`, `Password` and `Server`.

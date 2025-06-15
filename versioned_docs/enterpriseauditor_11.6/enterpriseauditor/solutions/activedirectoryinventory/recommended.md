@@ -1,6 +1,8 @@
 # Recommended Configurations for the .Active Directory Inventory Solution
 
-The .Active Directory Inventory Solution has been configured by default to run with the out-of-the-box settings, but some settings are optional for configuration. It can be run directly or scheduled.
+The .Active Directory Inventory Solution has been configured by default to run with the
+out-of-the-box settings, but some settings are optional for configuration. It can be run directly or
+scheduled.
 
 Dependencies
 
@@ -8,17 +10,26 @@ This job group does not have dependencies.
 
 Targeted Hosts
 
-The host list assignment has been configured under the __.Active Directory Inventory__ > __Settings__ > __Host List Assignment__ node. It is set to target the Default domain controller host list, which is the domain in which the Enterprise Auditor Console server resides.
+The host list assignment has been configured under the **.Active Directory Inventory** >
+**Settings** > **Host List Assignment** node. It is set to target the Default domain controller host
+list, which is the domain in which the Enterprise Auditor Console server resides.
 
-If targeting multiple domains, change the Host List Assignment to the __ONE DOMAIN CONTROLLER PER DOMAIN__ host list.
+If targeting multiple domains, change the Host List Assignment to the **ONE DOMAIN CONTROLLER PER
+DOMAIN** host list.
 
-The Default domain controller host list and ONE DOMAIN CONTROLLER PER DOMAIN host list are dynamic host lists based on the host inventory value in the isDomainController field in the Host Master Table.
+The Default domain controller host list and ONE DOMAIN CONTROLLER PER DOMAIN host list are dynamic
+host lists based on the host inventory value in the isDomainController field in the Host Master
+Table.
 
 Connection Profile
 
-The Connection Profile has been configured under the __.Active Directory Inventory__ > __Settings__ > __Connection__ node. It is set to Use the Default Profile, as configured at the global settings level. Ensure the assigned Connection Profile has the necessary permissions on all targeted domains.
+The Connection Profile has been configured under the **.Active Directory Inventory** >
+**Settings** > **Connection** node. It is set to Use the Default Profile, as configured at the
+global settings level. Ensure the assigned Connection Profile has the necessary permissions on all
+targeted domains.
 
-If targeting multiple domains, ensure the assigned Connection Profile has the necessary permissions on all targeted domains.
+If targeting multiple domains, ensure the assigned Connection Profile has the necessary permissions
+on all targeted domains.
 
 History Retention
 
@@ -30,37 +41,48 @@ Not supported
 
 Schedule Frequency
 
-___RECOMMENDED:___ Schedule the .Active Directory Inventory Job Group to run once a day.
+**_RECOMMENDED:_** Schedule the .Active Directory Inventory Job Group to run once a day.
 
-If there are frequent AD changes within the target environment, then it can be executed more often. It is best to rerun it anytime AD changes might have occurred.
+If there are frequent AD changes within the target environment, then it can be executed more often.
+It is best to rerun it anytime AD changes might have occurred.
 
 Run at the Solution Level
 
-The jobs in the .Active Directory Inventory Job Group should be run together and in order by running the entire solution, instead of the individual jobs.
+The jobs in the .Active Directory Inventory Job Group should be run together and in order by running
+the entire solution, instead of the individual jobs.
 
 Query Configuration
 
-The solution is best run with the default query configuration. However, a possible modification might be to include configurations of the scan options or additional custom attributes within the [1-AD_Scan Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectoryinventory/1-ad_scan.md).
+The solution is best run with the default query configuration. However, a possible modification
+might be to include configurations of the scan options or additional custom attributes within the
+[1-AD_Scan Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectoryinventory/1-ad_scan.md).
 
 Analysis Configuration
 
-The solution is best run with the default analysis configuration. However, possible modifications might be to:
+The solution is best run with the default analysis configuration. However, possible modifications
+might be to:
 
-- Enable notification analysis tasks within the [2-AD_Changes Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectoryinventory/2-ad_changes.md)
-- Customize exception analysis parameters within the [3-AD_Exceptions Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectoryinventory/3-ad_exceptions.md)
+- Enable notification analysis tasks within the
+  [2-AD_Changes Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectoryinventory/2-ad_changes.md)
+- Customize exception analysis parameters within the
+  [3-AD_Exceptions Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectoryinventory/3-ad_exceptions.md)
 
 Workflow
 
-The .Active Directory Inventory Job Group has been set to run against the following default dynamic host list:
+The .Active Directory Inventory Job Group has been set to run against the following default dynamic
+host list:
 
 - Default domain controller
 
-Default dynamic host lists are populated from hosts in the Host Master Table that meet the host inventory criteria for the list. Ensure the appropriate host lists have been populated through host inventory results.
+Default dynamic host lists are populated from hosts in the Host Master Table that meet the host
+inventory criteria for the list. Ensure the appropriate host lists have been populated through host
+inventory results.
 
-__Step 1 –__ (Optional) Run a host discovery query to discover domain controllers. This is needed when targeting multiple domains.
+**Step 1 –** (Optional) Run a host discovery query to discover domain controllers. This is needed
+when targeting multiple domains.
 
-__Step 2 –__ Set a Connection Profile.
+**Step 2 –** Set a Connection Profile.
 
-__Step 3 –__ chedule the .Active Directory Inventory Job Group to run as desired.
+**Step 3 –** chedule the .Active Directory Inventory Job Group to run as desired.
 
-__Step 4 –__ Review the reports generated by the .Active Directory Inventory Job Group.
+**Step 4 –** Review the reports generated by the .Active Directory Inventory Job Group.

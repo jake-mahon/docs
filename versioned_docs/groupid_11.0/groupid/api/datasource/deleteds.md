@@ -2,7 +2,8 @@
 
 This API can be used for deleting a specified data source.
 
-NOTE: Deleting a data source corrupts all Synchronize jobs, membership queries, and search queries using that data source.
+NOTE: Deleting a data source corrupts all Synchronize jobs, membership queries, and search queries
+using that data source.
 
 ## Endpoint
 
@@ -15,18 +16,18 @@ DELETE
 #### Sample Response Syntax
 
 ```
-{  
-    "name": null,  
-    "type": 6,  
-    "status": 0,  
-    "message": null,  
-    "data": true,  
-    "identityStoreObject": null,  
-    "details": [],  
-    "currentDirectoryServer": null,  
-    "errorCode": null,  
-    "exceptionMessagesAttributeWise": null,  
-    "isResyncAble": true  
+{
+    "name": null,
+    "type": 6,
+    "status": 0,
+    "message": null,
+    "data": true,
+    "identityStoreObject": null,
+    "details": [],
+    "currentDirectoryServer": null,
+    "errorCode": null,
+    "exceptionMessagesAttributeWise": null,
+    "isResyncAble": true
 }
 ```
 

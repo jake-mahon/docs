@@ -1,6 +1,9 @@
 # Netwrix Auditor v10.7 Documentation
 
-Netwrix Auditor is a visibility platform for user behavior analysis and risk mitigation that enables control over changes, configurations and access in hybrid IT environments to protect data regardless of its location. The platform provides security analytics to detect anomalies in user behavior and investigate threat patterns before a data breach occurs.
+Netwrix Auditor is a visibility platform for user behavior analysis and risk mitigation that enables
+control over changes, configurations and access in hybrid IT environments to protect data regardless
+of its location. The platform provides security analytics to detect anomalies in user behavior and
+investigate threat patterns before a data breach occurs.
 
 Netwrix Auditor includes applications for:
 
@@ -21,7 +24,8 @@ Netwrix Auditor includes applications for:
 - Windows Server
 - User Activity
 
-Empowered with a RESTful API, the platform delivers visibility and control across all of your on-premises or cloud-based IT systems in a unified way.
+Empowered with a RESTful API, the platform delivers visibility and control across all of your
+on-premises or cloud-based IT systems in a unified way.
 
 Major benefits:
 
@@ -29,6 +33,8 @@ Major benefits:
 - Pass compliance audits with less effort and expense
 - Increase productivity of IT security and operations teams
 
-To learn how Netwrix Auditor can help you achieve your specific business objectives, refer to the [Netwrix Auditor Best Practices Guide](https://helpcenter.netwrix.com/bundle/Auditor_BestPractices_10.0/resource/NetwrixAuditor_BestPractices_10.0.pdf).
+To learn how Netwrix Auditor can help you achieve your specific business objectives, refer to the
+[Netwrix Auditor Best Practices Guide](https://helpcenter.netwrix.com/bundle/Auditor_BestPractices_10.0/resource/NetwrixAuditor_BestPractices_10.0.pdf).
 
-__CAUTION:__ To keep your systems safe, Auditor should not be exposed to inbound access from the internet.
+**CAUTION:** To keep your systems safe, Auditor should not be exposed to inbound access from the
+internet.

@@ -4,17 +4,28 @@ Follow the steps to create a new job.
 
 ![Create Job from Jobs Tree context menu](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/createjob.png)
 
-__Step 1 –__ Select the Jobs tree or the desired job group to add the new job to. Right-click and select __Create Job__.
+**Step 1 –** Select the Jobs tree or the desired job group to add the new job to. Right-click and
+select **Create Job**.
 
 ![New Job added to Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/navigate/newjob.png)
 
-__Step 2 –__ Provide a unique, descriptive name for the job. The default name is ```NewJob```. Some considerations for naming conventions:
+**Step 2 –** Provide a unique, descriptive name for the job. The default name is `NewJob`. Some
+considerations for naming conventions:
 
-__CAUTION:__ Do not end a job name with a space.
+**CAUTION:** Do not end a job name with a space.
 
-- There can never be two jobs with the same name. Enterprise Auditor automatically appends a numeral to the end of a job name to avoid duplicates, for example ```NewJob1```.
-- No special characters can be used. See the Microsoft [Naming Conventions](https://learn.microsoft.com/en-us/windows/win32/fileio/naming-a-file#naming-conventions) article for limitations.
+- There can never be two jobs with the same name. Enterprise Auditor automatically appends a numeral
+  to the end of a job name to avoid duplicates, for example `NewJob1`.
+- No special characters can be used. See the Microsoft
+  [Naming Conventions](https://learn.microsoft.com/en-us/windows/win32/fileio/naming-a-file#naming-conventions)
+  article for limitations.
 - Jobs in a group are run alphanumerically
-- When possible, keep names short to avoid report path errors caused by Microsoft’s maximum path length. See the Microsoft article referenced above.
+- When possible, keep names short to avoid report path errors caused by Microsoft’s maximum path
+  length. See the Microsoft article referenced above.
 
-The new job is now ready to be configured. See the [Data Collectors](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/overview.md), [Analysis Modules](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/analysis/overview.md), [Action Modules](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/overview.md), and [Reporting](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/report/overview.md) topics for additional information.
+The new job is now ready to be configured. See the
+[Data Collectors](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/overview.md),
+[Analysis Modules](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/analysis/overview.md),
+[Action Modules](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/overview.md),
+and [Reporting](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/report/overview.md)
+topics for additional information.

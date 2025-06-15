@@ -1,8 +1,12 @@
 # Scenario 2: Specific Rule to Block an App from Being Run, Even as Local System
 
-__NOTE:__  For an overview of this scenario, see the [Block PowerShell in General, Open up for specific items](../../video/leastprivilege/bestpractices/powershellblock.md) video demo.
+**NOTE:** For an overview of this scenario, see the
+[Block PowerShell in General, Open up for specific items](../../video/leastprivilege/bestpractices/powershellblock.md)
+video demo.
 
-You might want to explicitly block attack vectors such as PSEXEC (which was used in WannaCry) or entirely block PowerShell.  If you specify to do this only on the User side (or set Computer side scope to User processed only), then only user processes will be affected.
+You might want to explicitly block attack vectors such as PSEXEC (which was used in WannaCry) or
+entirely block PowerShell.  If you specify to do this only on the User side (or set Computer side
+scope to User processed only), then only user processes will be affected.
 
 ![A screenshot of a computer Description automatically generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/scopefilters/scenario_2_specific_rule_to.webp)
 

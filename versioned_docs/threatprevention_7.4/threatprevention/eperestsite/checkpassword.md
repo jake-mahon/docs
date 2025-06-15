@@ -1,14 +1,16 @@
 # Check Password APIs
 
-You can use APIs to check a candidate password against the EPE rules defined on the [EPE Settings Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/epesettings.md).
+You can use APIs to check a candidate password against the EPE rules defined on the
+[EPE Settings Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/epesettings.md).
 
 - POST api/Epe/CheckPassword (Basic)
 - POST api/Epe/CheckPassword (Digest)
 - POST api/Epe/CheckPassword (Bearer)
 
-Create a JSON file with a request. This file should contain the account name and the password you want to test.
+Create a JSON file with a request. This file should contain the account name and the password you
+want to test.
 
-__NOTE:__ The EPE Rest service only checks the password; it does not change it.
+**NOTE:** The EPE Rest service only checks the password; it does not change it.
 
 ## POST api/Epe/CheckPassword (Basic)
 
@@ -21,10 +23,10 @@ Authentication Type – Basic
 Input Parameters
 
 ```
-{  
-"username":"domain\\account",  
-"password":"password",  
-"server":"DC_DNS_Name"  
+{
+"username":"domain\\account",
+"password":"password",
+"server":"DC_DNS_Name"
 }
 ```
 
@@ -45,10 +47,10 @@ Authentication Type – Digest
 Input Parameters
 
 ```
-{  
-"username":"domain\\account",  
-"password":"password",  
-"server":"DC_DNS_Name"  
+{
+"username":"domain\\account",
+"password":"password",
+"server":"DC_DNS_Name"
 }
 ```
 
@@ -57,8 +59,8 @@ The “username” and “password” parameters are required. The “server” 
 Required Header Input Parameters
 
 ```
-"User”: <username>  
-"Authorization”:”Hash”  
+"User”: <username>
+"Authorization”:”Hash”
 "Hash": <hashvalue>
 ```
 
@@ -77,10 +79,10 @@ Authentication Type – Bearer
 Input Parameters
 
 ```
-{  
-"username":"domain\\account",  
-"password":"password",  
-"server":"DC_DNS_Name"  
+{
+"username":"domain\\account",
+"password":"password",
+"server":"DC_DNS_Name"
 }
 ```
 
@@ -89,7 +91,7 @@ The “username” and “password” parameters are required. The “server” 
 Required Header Input Parameters
 
 ```
-"User”: <username>  
+"User”: <username>
 "Authorization”:”Bearer <access_token>”
 ```
 

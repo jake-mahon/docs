@@ -8,10 +8,14 @@ If a discovery service is created, a corresponding certificate is also created:
 
 NOTE: The discovery service certificate cannot be replaced by your own certificate.
 
-NOTE: The certificates for the discovery service have an expiry date. However, this is not checked. The certificate thus does not need to be renewed.
+NOTE: The certificates for the discovery service have an expiry date. However, this is not checked.
+The certificate thus does not need to be renewed.
 
-__CAUTION:__ If the database is being moved to another server, it is __essential that the discovery service certificate is also transferred!__
+**CAUTION:** If the database is being moved to another server, it is **essential that the discovery
+service certificate is also transferred!**
 
 #### Exporting and importing the certificate
 
-The section [Certificates](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/server_manager/certificates/certificates.md)explains how to back up the certificate and link it again.
+The section
+[Certificates](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/server_manager/certificates/certificates.md)explains
+how to back up the certificate and link it again.

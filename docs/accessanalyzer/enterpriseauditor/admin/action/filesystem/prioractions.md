@@ -1,6 +1,7 @@
 # File System Action: Prior Actions
 
-The Prior Actions page is available when __Rollback a previously executed action__ is selected on the Action page .
+The Prior Actions page is available when **Rollback a previously executed action** is selected on
+the Action page .
 
 ![File System Action Module Wizard Prior Actions page](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/filesystem/prioractions.webp)
 

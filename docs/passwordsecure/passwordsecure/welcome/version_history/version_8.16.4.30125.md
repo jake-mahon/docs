@@ -22,7 +22,8 @@
 
 #### Web Application
 
-- The CSV-Import in the Web Application now only refreshes once after the task has been cancelled or finished.
+- The CSV-Import in the Web Application now only refreshes once after the task has been cancelled or
+  finished.
 - "Assigned Roles" displays selected roles correctly again when creating a new user.
 
 #### SSO Client

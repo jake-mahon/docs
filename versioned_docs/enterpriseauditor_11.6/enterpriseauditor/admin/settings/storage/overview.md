@@ -1,42 +1,77 @@
 # Storage
 
-The Storage node contains objects known as Storage Profiles. Storage Profiles house the information Enterprise Auditor uses to connect to a SQL Server database within your environment.
+The Storage node contains objects known as Storage Profiles. Storage Profiles house the information
+Enterprise Auditor uses to connect to a SQL Server database within your environment.
 
 ![Storage Node](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/storage/storage.png)
 
 Each Storage Profile consists of the following parts:
 
-- Profile name – Unique, descriptive name which distinguishes the profile from others in cases where multiple profiles exist
-- Server name – Name of the SQL Server serving the database to be used for the Enterprise Auditor database. The value format can be either a NetBIOS name, a fully qualified domain name, or an IP Address.
-- Instance name – Value of the named instance, if the SQL Server being connected to is configured to use a named instance
+- Profile name – Unique, descriptive name which distinguishes the profile from others in cases where
+  multiple profiles exist
+- Server name – Name of the SQL Server serving the database to be used for the Enterprise Auditor
+  database. The value format can be either a NetBIOS name, a fully qualified domain name, or an IP
+  Address.
+- Instance name – Value of the named instance, if the SQL Server being connected to is configured to
+  use a named instance
 
-  - To change the instance port number, provide the instance name in the format ```<Instance name>,<Port>```. For example, if using the default __MSSQLSERVER__ instance and port __12345__, the instance name should be entered as ```MSSQLSERVER,12345```.
-- Command Timeout – Number of minutes before Enterprise Auditor halts any SQL queries running for that amount of time. This prevents SQL queries from running excessively long. The default is 1440 minutes.
-- Authentication – Mode of authentication to the SQL Server. In general, it is recommended to connect with an account configured with the DBO role (database owner rights) and provisioned to use DBO Schema.
+    - To change the instance port number, provide the instance name in the format
+      `<Instance name>,<Port>`. For example, if using the default **MSSQLSERVER** instance and port
+      **12345**, the instance name should be entered as `MSSQLSERVER,12345`.
 
-  ___RECOMMENDED:___ When possible, use Windows Authentication. Windows Authentication is more secure than SQL Server Authentication. See the Microsoft [Choose an authentication mode](https://learn.microsoft.com/en-us/sql/relational-databases/security/choose-an-authentication-mode) article for additional information.
+- Command Timeout – Number of minutes before Enterprise Auditor halts any SQL queries running for
+  that amount of time. This prevents SQL queries from running excessively long. The default is 1440
+  minutes.
+- Authentication – Mode of authentication to the SQL Server. In general, it is recommended to
+  connect with an account configured with the DBO role (database owner rights) and provisioned to
+  use DBO Schema.
 
-  - Windows authentication – Leverages the account used to run the Enterprise Auditor Console
+    **_RECOMMENDED:_** When possible, use Windows Authentication. Windows Authentication is more
+    secure than SQL Server Authentication. See the Microsoft
+    [Choose an authentication mode](https://learn.microsoft.com/en-us/sql/relational-databases/security/choose-an-authentication-mode) article
+    for additional information.
 
-    __NOTE:__ This option affects the credentials used for Schedule Service Accounts. See the [Schedule](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/schedule.md) topic for additional information.
-  - SQL Server authentication – Leverages the account provided in the __User name__ and __Password__ textboxes
-  - Use existing password – Use the password configured for the Storage Profile account
-  - Specify a new password below – Enter a new password for the selected Storage Profile account
+    - Windows authentication – Leverages the account used to run the Enterprise Auditor Console
+
+        **NOTE:** This option affects the credentials used for Schedule Service Accounts. See the
+        [Schedule](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/schedule.md)
+        topic for additional information.
+
+    - SQL Server authentication – Leverages the account provided in the **User name** and
+      **Password** textboxes
+    - Use existing password – Use the password configured for the Storage Profile account
+    - Specify a new password below – Enter a new password for the selected Storage Profile account
+
 - Database name – Name of the Enterprise Auditor database to use in this storage profile
 
-  - Use existing database – Drop-down menu provides a list of databases on the named SQL Server, provided the connection information supplied is correct. If the menu is empty, then a connection to the SQL Server was not established.
-  - Create new database – Enterprise Auditor automatically creates a new database using the name provided in the textbox. This value should be a unique, descriptive name.
+    - Use existing database – Drop-down menu provides a list of databases on the named SQL Server,
+      provided the connection information supplied is correct. If the menu is empty, then a
+      connection to the SQL Server was not established.
+    - Create new database – Enterprise Auditor automatically creates a new database using the name
+      provided in the textbox. This value should be a unique, descriptive name.
 
 ![Operations on the Storage view](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/storage/storageoperations.png)
 
 At the Storage view, the following operations are available:
 
-- Add Storage profile – Create a new Storage Profile. See the [Add a Storage Profile](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/storage/add.md) topic for additional information.
-- Set as default – Change the default Storage Profile. See the [Set a Default Storage Profile](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/storage/default.md) topic for additional information.
-- Delete – Remove a Storage Profile. See the [Delete a Storage Profile](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/storage/delete.md) topic for additional information.
+- Add Storage profile – Create a new Storage Profile. See the
+  [Add a Storage Profile](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/storage/add.md)
+  topic for additional information.
+- Set as default – Change the default Storage Profile. See the
+  [Set a Default Storage Profile](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/storage/default.md)
+  topic for additional information.
+- Delete – Remove a Storage Profile. See the
+  [Delete a Storage Profile](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/storage/delete.md)
+  topic for additional information.
 
-__NOTE:__ A green checkmark in the Storage Profiles list indicates the default Storage Profile.
+**NOTE:** A green checkmark in the Storage Profiles list indicates the default Storage Profile.
 
-The __Cancel__ and __Save__ buttons are in the lower-right corner of the Storage view. These buttons become enabled when modifications are made to the Storage global setting. Whenever changes are made at the global level, click __Save__ and then __OK__ to confirm the changes. Otherwise, click __Cancel__ if no changes were intended.
+The **Cancel** and **Save** buttons are in the lower-right corner of the Storage view. These buttons
+become enabled when modifications are made to the Storage global setting. Whenever changes are made
+at the global level, click **Save** and then **OK** to confirm the changes. Otherwise, click
+**Cancel** if no changes were intended.
 
-The vault provides enhanced security through enhanced encryption to various credentials stored by the Enterprise Auditor application. See the [Vault](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/application/vault.md) topic for additional information.
+The vault provides enhanced security through enhanced encryption to various credentials stored by
+the Enterprise Auditor application. See the
+[Vault](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/application/vault.md)
+topic for additional information.

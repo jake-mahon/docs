@@ -2,59 +2,60 @@
 
 ## New Object Compliant Change with a Change Request
 
-1. Open __Strongpoint__ > __Change Management Tools__ > __Change Request__ > __New__
-2. Enter a __Name__ and __Change Overview__.
-3. Click __Lookup Customization__. Enter a sample __Name__ and set __Type__ to __Entity Field__.
-4. Click __Add Selected Customization__ to add the field as a proposed customization.
-5. Click __In Progress__ in the status bar.
-6. Click __Save__. The Change Level Required, Current Stage and Change Policy are displayed.
-7. For this example, if you are not an __Approver__:
+1. Open **Strongpoint** > **Change Management Tools** > **Change Request** > **New**
+2. Enter a **Name** and **Change Overview**.
+3. Click **Lookup Customization**. Enter a sample **Name** and set **Type** to **Entity Field**.
+4. Click **Add Selected Customization** to add the field as a proposed customization.
+5. Click **In Progress** in the status bar.
+6. Click **Save**. The Change Level Required, Current Stage and Change Policy are displayed.
+7. For this example, if you are not an **Approver**:
 
-   1. Click __Edit__.
-   2. Select yourself as an __Additional Approver__.
-   3. Set __Approval Status__ to __Approved__.
-   4. Select yourself as __Approved By__.
-   5. Click __Save__. The status bar indicates __Approved (Override)__.
-  
- If you are an __Approver__:
+    1. Click **Edit**.
+    2. Select yourself as an **Additional Approver**.
+    3. Set **Approval Status** to **Approved**.
+    4. Select yourself as **Approved By**.
+    5. Click **Save**. The status bar indicates **Approved (Override)**.
 
-1. Click __Pending Approval__ in the status bar.
-2. Approve and Reject buttons appear for approvers. Click __Approve__.
-3. The status bar indicates __Approved__.
+If you are an **Approver**:
+
+1. Click **Pending Approval** in the status bar.
+2. Approve and Reject buttons appear for approvers. Click **Approve**.
+3. The status bar indicates **Approved**.
 
 ## Create the Entity Field
 
-1. Open __Strongpoint__ > __Customizations__ > __Customization__ > __New__
-2. Add the __Name__ of your proposed entity field customization.
-3. Select __Entity Field__ for __Type__.
-4. Click __Save__.
-5. Open the __Change Log__ tab to view the change.
-6. Check __Customer__ on the __Applies To__ tab.
-7. Open __Strongpoint__ > __Change Management Tools__ > __Change Request__
-8. Select your __Change Request__ from the list.
-9. Click __Respider Now__.
+1. Open **Strongpoint** > **Customizations** > **Customization** > **New**
+2. Add the **Name** of your proposed entity field customization.
+3. Select **Entity Field** for **Type**.
+4. Click **Save**.
+5. Open the **Change Log** tab to view the change.
+6. Check **Customer** on the **Applies To** tab.
+7. Open **Strongpoint** > **Change Management Tools** > **Change Request**
+8. Select your **Change Request** from the list.
+9. Click **Respider Now**.
 
 ## Create a Compliant Change with a Change Request
 
-1. Change the ____Entity Field____ (for example, apply it to __Vendor__) and click __Save__.
+1. Change the \_**\_Entity Field\_\_** (for example, apply it to **Vendor**) and click **Save**.
 2. Open the Customization Record.
-3. Click __ReSpider Now__.
-4. Open the __Change Log__ tab to see the changes.
-5. Open the Change Request and click __Complete__ in the status bar.
+3. Click **ReSpider Now**.
+4. Open the **Change Log** tab to see the changes.
+5. Open the Change Request and click **Complete** in the status bar.
 
 ## Create a Non-Compliant Change
 
-This change will be flagged as non-compliant and appear on the report as __Non-Compliant__.
+This change will be flagged as non-compliant and appear on the report as **Non-Compliant**.
 
-1. Change the __Entity Field__ (for example, apply it to __Project__) and click __Save__.
+1. Change the **Entity Field** (for example, apply it to **Project**) and click **Save**.
 2. Open the Customization Record.
-3. Click __ReSpider Now__.
-4. Open the __Change Log__ tab to see the changes.
-5. Refresh the Changes Without Bundle Search to see that it is marked as Non-Compliant Yes and the Reason is Change Request.
-6. View the __Change Log__.
+3. Click **ReSpider Now**.
+4. Open the **Change Log** tab to see the changes.
+5. Refresh the Changes Without Bundle Search to see that it is marked as Non-Compliant Yes and the
+   Reason is Change Request.
+6. View the **Change Log**.
 
 ## Open the Non-Compliant Changes Report
 
-1. Open __Strongpoint__ > __Change Management Reports__ > __Open Non-Compliant Changes__
-2. Set the __Date Created__ to __Today__
+1. Open **Strongpoint** > **Change Management Reports** > **Open Non-Compliant Changes**
+2. Set the **Date Created** to **Today**
 3. Resolve and close non-compliant change.

@@ -2,7 +2,9 @@
 
 -Level Targeting (described in the previous section).
 
-In Figure 54, you can see the same AppSet (WinZip 14 and later) used three times within the same GPO. However, each AppSet item has Item-Level Targeting turned on and specific conditions associated with it.
+In Figure 54, you can see the same AppSet (WinZip 14 and later) used three times within the same
+GPO. However, each AppSet item has Item-Level Targeting turned on and specific conditions associated
+with it.
 
 ![policypak_application_settings_2_8](../../../../../static/img/product_docs/policypak/policypak/applicationsettings/extras/policypak_application_settings_2_8.webp)
 
@@ -14,7 +16,10 @@ The recommended way to use Endpoint Policy Manager Application Settings Manager 
 - Use Item-Level Targeting to set the conditions.
 - Set a description for the particular AppSet item (see the next section).
 
-However, you could occasionally have multiple AppSets overlap each other with certain settings you've engaged. As a result, you might want to ensure that the delivery of those settings occurs in a particular order. As seen in Figure 55, Endpoint Policy Manager Application Settings Manager enables you to specify which AppSet is delivered in which order.
+However, you could occasionally have multiple AppSets overlap each other with certain settings
+you've engaged. As a result, you might want to ensure that the delivery of those settings occurs in
+a particular order. As seen in Figure 55, Endpoint Policy Manager Application Settings Manager
+enables you to specify which AppSet is delivered in which order.
 
 ![policypak_application_settings_2_9](../../../../../static/img/product_docs/policypak/policypak/applicationsettings/extras/policypak_application_settings_2_9.webp)
 
@@ -22,20 +27,27 @@ Figure 55. The order in which the Paks (in this scenario) are delivered.
 
 Paks within a GPO are processed in order from lowest to highest.
 
-__NOTE:__  This is the same way the Group Policy Preferences prioritizes items.
+**NOTE:** This is the same way the Group Policy Preferences prioritizes items.
 
-To change the priority of a particular AppSet, simply right-click on it within the GPO and select either "Enable priority mode (press Enter to exit)" or "Set priority," which are both shown in Figure 56.
+To change the priority of a particular AppSet, simply right-click on it within the GPO and select
+either "Enable priority mode (press Enter to exit)" or "Set priority," which are both shown in
+Figure 56.
 
 ![policypak_application_settings_2_10](../../../../../static/img/product_docs/policypak/policypak/applicationsettings/extras/policypak_application_settings_2_10.webp)
 
-Figure 56. By clicking "Enable priority mode (press Enter to exit)," as shown here, you can change the priority of a specific Pak.
+Figure 56. By clicking "Enable priority mode (press Enter to exit)," as shown here, you can change
+the priority of a specific Pak.
 
-When you select "Enable priority mode (press Enter to exit)" you can then move the AppSet up and down using the arrow keys. When you are satisfied with the position, press Enter to complete the edit.
+When you select "Enable priority mode (press Enter to exit)" you can then move the AppSet up and
+down using the arrow keys. When you are satisfied with the position, press Enter to complete the
+edit.
 
-You can also select "Set priority," which will enable you to specify a numeric value, as shown in Figure 57.
+You can also select "Set priority," which will enable you to specify a numeric value, as shown in
+Figure 57.
 
 ![policypak_application_settings_2_11](../../../../../static/img/product_docs/policypak/policypak/applicationsettings/extras/policypak_application_settings_2_11.webp)
 
-Figure 57. By clicking "Set priority," as shown here, you can change the priority of a specific Pak by setting the numeric value.
+Figure 57. By clicking "Set priority," as shown here, you can change the priority of a specific Pak
+by setting the numeric value.
 
 The AppSet you've selected will take that priority number, and the rest will be lowered in priority.

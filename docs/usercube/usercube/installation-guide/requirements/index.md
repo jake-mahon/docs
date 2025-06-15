@@ -5,5 +5,4 @@ This section identifies hardware and software requirements for each Identity Man
 - [Integration Device](device-requirements/index.md)
 - [Database](database-requirements/index.md)
 - [Server](server-requirements/index.md)
-- [
-  Agent ](agent-requirements/index.md)
+- [ Agent ](agent-requirements/index.md)

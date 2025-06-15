@@ -1,6 +1,8 @@
 # ResourceCorrelationRule
 
-A correlation rule is used to [correlate](/versioned_docs/usercube_6.1/usercube/introduction-guide/overview/entitlement-management/index.md) the resources, i.e. link resources to their owners.
+A correlation rule is used to
+[correlate](/versioned_docs/usercube_6.1/usercube/introduction-guide/overview/entitlement-management/index.md)
+the resources, i.e. link resources to their owners.
 
 ## Examples
 
@@ -16,7 +18,9 @@ The following example creates an Active Directory correlation rule based on the 
 
 #### Correlation based on attributes changed by a function
 
-The following example copies the previous example (based on unchanged attributes), but using a predefined function (```ToLower```) in source and target bindings' expressions, to compare the email attributes:
+The following example copies the previous example (based on unchanged attributes), but using a
+predefined function (`ToLower`) in source and target bindings' expressions, to compare the email
+attributes:
 
 ```
 
@@ -24,11 +28,14 @@ The following example copies the previous example (based on unchanged attributes
 
 ```
 
-A [list of predefined functions](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/expressions/predefined-functions/index.md) is available.
+A
+[list of predefined functions](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/expressions/predefined-functions/index.md)
+is available.
 
 #### Correlation based on attributes within a C# expression
 
-The following example creates an Active Directory correlation rule based on the comparison between the AD's simplified display name and an expression from the external system:
+The following example creates an Active Directory correlation rule based on the comparison between
+the AD's simplified display name and an expression from the external system:
 
 ```
 
@@ -40,12 +47,12 @@ This example also uses a confidence rate equals to 80%.
 
 ## Properties
 
-| Property | Details |
-| --- | --- |
-| Policy   required | __Type__    Int64   __Description__   Identifier of the policy that the rule is part of. |
-| ResourceType   required | __Type__    Int64   __Description__   Identifier of the resource type. |
-| SourceBinding   optional | __Type__    Int64   __Description__   Binding property from the source system. |
-| SourceExpression   optional | __Type__    String   __Description__   Binding expression based on properties from the source system. [See more details on C# expressions](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/expressions/index.md). |
-| SourceMatchedConfidenceLevel   default value: 0 | __Type__    Int32   __Description__   Defines the correlation confidence rate of this rule. If the value is less than 100, we process a manual review step to confirm the choice. |
-| TargetBinding   optional | __Type__    Int64   __Description__   Binding property from the target system. |
-| TargetExpression   optional | __Type__    String   __Description__   Binding expression based on properties from the target system. [See more details on C# expressions](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/expressions/index.md). |
+| Property                                      | Details                                                                                                                                                                                                                    |
+| --------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Policy required                               | **Type** Int64 **Description** Identifier of the policy that the rule is part of.                                                                                                                                          |
+| ResourceType required                         | **Type** Int64 **Description** Identifier of the resource type.                                                                                                                                                            |
+| SourceBinding optional                        | **Type** Int64 **Description** Binding property from the source system.                                                                                                                                                    |
+| SourceExpression optional                     | **Type** String **Description** Binding expression based on properties from the source system. [See more details on C# expressions](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/expressions/index.md). |
+| SourceMatchedConfidenceLevel default value: 0 | **Type** Int32 **Description** Defines the correlation confidence rate of this rule. If the value is less than 100, we process a manual review step to confirm the choice.                                                 |
+| TargetBinding optional                        | **Type** Int64 **Description** Binding property from the target system.                                                                                                                                                    |
+| TargetExpression optional                     | **Type** String **Description** Binding expression based on properties from the target system. [See more details on C# expressions](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/expressions/index.md). |

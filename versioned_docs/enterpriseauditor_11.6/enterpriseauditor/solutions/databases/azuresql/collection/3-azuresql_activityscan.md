@@ -1,6 +1,7 @@
 # 3-AzureSQL_ActivityScan Job
 
-The 3–AzureSQL_ActivityScan job captures user activity from all targeted Azure SQL instances and databases.
+The 3–AzureSQL_ActivityScan job captures user activity from all targeted Azure SQL instances and
+databases.
 
 ## Queries for the 3–AzureSQL_ActivityScan Job
 
@@ -12,9 +13,11 @@ The 3–AzureSQL_ActivityScan Job uses the SQL Data Collector for the following 
 
 ## Analysis Task for the 3–AzureSQL_ActivityScan Job
 
-Navigate to the __Databases__ > __0.Collection__ > __Azure SQL__ > __3–AzureSQL_ActivityScan__ > __Configure__ node and select __Analysis__ to view the analysis task.
+Navigate to the **Databases** > **0.Collection** > **Azure SQL** >
+**3–AzureSQL_ActivityScan** > **Configure** node and select **Analysis** to view the analysis task.
 
-__CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
+**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+preconfigured for this job.
 
 ![3-AzureSQL_ActivityScan Job - Analysis Selection](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/azuresql/collection/activityscanjobanalysis.png)
 

@@ -1,6 +1,7 @@
 # Target MySQL Requirements, Permissions, and Ports
 
-The Enterprise Auditor for Databases Solution provides the ability to audit and monitor MySQL database environments to collect permissions and sensitive data. It scans:
+The Enterprise Auditor for Databases Solution provides the ability to audit and monitor MySQL
+database environments to collect permissions and sensitive data. It scans:
 
 - MySQL 5.x
 - MySQL 8.x
@@ -23,14 +24,14 @@ This solution employs the following data collector to scan the target environmen
 
 ## Requirements
 
-- Windows (Enterprise Auditor host) -
-  Windows Management Framework 3+ installed on the Enterprise Auditor Console server (Windows 2012 and later)
+- Windows (Enterprise Auditor host) - Windows Management Framework 3+ installed on the Enterprise
+  Auditor Console server (Windows 2012 and later)
 - Windows (MySQL host)
-  - WinRM enabled
+    - WinRM enabled
 - MySQL
 
-  - Read access to all databases contained within each MySQL instance
-  - Domain Admin or Local Admin privilege (Windows only)
+    - Read access to all databases contained within each MySQL instance
+    - Domain Admin or Local Admin privilege (Windows only)
 
 ## Permissions
 
@@ -39,7 +40,11 @@ For .Active Directory Inventory Prerequisite
 - Read access to directory tree
 - List Contents & Read Property on the Deleted Objects Container
 
-  __NOTE:__ See the Microsoft [Searching for Deleted Objects](https://technet.microsoft.com/en-us/library/cc978013.aspx) article and the Microsoft [Dsacls](https://technet.microsoft.com/en-us/library/cc771151(v=ws.11).aspx) article for additional information.
+    **NOTE:** See the Microsoft
+    [Searching for Deleted Objects](https://technet.microsoft.com/en-us/library/cc978013.aspx)
+    article and the Microsoft
+    [Dsacls](<https://technet.microsoft.com/en-us/library/cc771151(v=ws.11).aspx>) article for
+    additional information.
 
 For MySQL Data Collection
 

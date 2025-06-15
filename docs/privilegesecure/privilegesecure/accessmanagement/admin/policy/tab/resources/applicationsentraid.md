@@ -1,12 +1,14 @@
 # Applications Tab for Microsoft Entra ID
 
-The Applications tab for Microsoft Entra ID (formerly Azure AD) shows information about the applications installed on the selected resource.
+The Applications tab for Microsoft Entra ID (formerly Azure AD) shows information about the
+applications installed on the selected resource.
 
 ![Applications Tab Entra ID](../../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/resources/applicationsazuread.webp)
 
 The Applications tab has the following features:
 
-- Search — Searches the table or list for matches to the search string. When matches are found, the table or list is filtered to the matching results.
+- Search — Searches the table or list for matches to the search string. When matches are found, the
+  table or list is filtered to the matching results.
 - Refresh — Reload the information displayed
 
 The table has the following columns:

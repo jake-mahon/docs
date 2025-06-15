@@ -1,24 +1,32 @@
 # Add Users & Groups Window
 
-The Add Users & Groups window allows you to select users. From the [Users & Groups Page](../../page/usersgroups.md), this window is used to onboard users. From other interfaces, this window is used to select onboarded users.
+The Add Users & Groups window allows you to select users. From the
+[Users & Groups Page](../../page/usersgroups.md), this window is used to onboard users. From other
+interfaces, this window is used to select onboarded users.
 
 ![Add Users and Groups to the console](../../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/usersgroups/addusersgroupstoconsole.webp)
 
 The window has the following features:
 
-- Search — Searches the table or list for matches to the search string. When matches are found, the table or list is filtered to the matching results.
+- Search — Searches the table or list for matches to the search string. When matches are found, the
+  table or list is filtered to the matching results.
 - Filter — Provides options to filter results based on a chosen criterion:
 
-  - For Onboarding — User and Group,
-  - For All Other Reasons — User, Group, Application, Collection, and Local User
+    - For Onboarding — User and Group,
+    - For All Other Reasons — User, Group, Application, Collection, and Local User
+
 - Available Accounts:
 
-  - For Onboarding — Shows all available users and groups from the Active Directory sync
-  - For All Other Reasons — Shows all available users, groups, applications, collections, and local users that have been onboarded
+    - For Onboarding — Shows all available users and groups from the Active Directory sync
+    - For All Other Reasons — Shows all available users, groups, applications, collections, and
+      local users that have been onboarded
+
 - Accounts to Add:
 
-  - For Onboarding — Shows selected users and groups
-  - For All Other Reasons — Shows selected users, groups, applications, collections, and local users
+    - For Onboarding — Shows selected users and groups
+    - For All Other Reasons — Shows selected users, groups, applications, collections, and local
+      users
+
 - Add button — Adds modifications and closes window
 - Cancel — Closes the window
 
@@ -36,14 +44,14 @@ The tables in both sections have the following columns:
 
 Follow the steps to add users and groups to the console from AD.
 
-__Step 1 –__ Navigate to the Policy > Users and Groups page.
+**Step 1 –** Navigate to the Policy > Users and Groups page.
 
-__Step 2 –__ Click Add to open the Add Users and Groups window.
+**Step 2 –** Click Add to open the Add Users and Groups window.
 
-__Step 3 –__ Filter by Users or Groups, or use the Search feature.
+**Step 3 –** Filter by Users or Groups, or use the Search feature.
 
-__Step 4 –__ Select the checkbox for the desired users in the Available Accounts table.
+**Step 4 –** Select the checkbox for the desired users in the Available Accounts table.
 
-__Step 5 –__ Click Add to add one or more accounts.
+**Step 5 –** Click Add to add one or more accounts.
 
 The selected accounts are now added to the Privilege Secure console.

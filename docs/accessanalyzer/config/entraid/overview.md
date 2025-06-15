@@ -1,18 +1,26 @@
 # Microsoft Entra ID Tenant Target Requirements
 
-Netwrix Access Analyzer (formerly Enterprise Auditor) can execute scans on Microsoft Entra ID, formerly Azure Active Directory.
+Netwrix Access Analyzer (formerly Enterprise Auditor) can execute scans on Microsoft Entra ID,
+formerly Azure Active Directory.
 
 ## Auditing Permissions
 
-It is necessary to register Access Analyzer as a web application to the targeted Microsoft Entra ID in order for Access Analyzer to scan the environment. This generates the Client ID (App ID) and Key (App Key) needed for the Connection Profile credentials and the Custom Attributes Import Wizard page.
+It is necessary to register Access Analyzer as a web application to the targeted Microsoft Entra ID
+in order for Access Analyzer to scan the environment. This generates the Client ID (App ID) and Key
+(App Key) needed for the Connection Profile credentials and the Custom Attributes Import Wizard
+page.
 
 See the [Microsoft Entra ID Auditing Configuration](access.md) topic for additional information.
 
 ## Entra Roles Permissions
 
-To collect Microsoft Entra roles information from the Microsoft Entra tenant additional permissions are required to be assigned to the registered application. This includes creating a custom role with the required resource manager permissions.
+To collect Microsoft Entra roles information from the Microsoft Entra tenant additional permissions
+are required to be assigned to the registered application. This includes creating a custom role with
+the required resource manager permissions.
 
-See the [Microsoft Entra Roles Auditing Configuration](../../enterpriseauditor/requirements/solutions/entraid/entraroles.md) topic for additional information.
+See the
+[Microsoft Entra Roles Auditing Configuration](../../enterpriseauditor/requirements/solutions/entraid/entraroles.md)
+topic for additional information.
 
 ## Auditing Port Requirements
 

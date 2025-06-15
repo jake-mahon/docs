@@ -6,11 +6,16 @@ The Usage Statistics job group is designed to report on usage statistics from ta
 
 The Usage Statistics job group is comprised of:
 
-- [FS_GroupUsage Job](fs_groupusage.md) – Designed to report on group usage from targeted file servers
+- [FS_GroupUsage Job](fs_groupusage.md) – Designed to report on group usage from targeted file
+  servers
 
-  - Requires __Access Auditing__ component data collection
-- [FS_MostActiveServers Job](fs_mostactiveservers.md) – Designed to report on the most active servers within an environment
-- [FS_MostActiveUsers Job](fs_mostactiveusers.md) – Designed to report on the most active users within an environment
-- [FS_StaleShares Job](fs_staleshares.md) – Designed to report on stale shares from targeted file servers
+    - Requires **Access Auditing** component data collection
 
-  - Requires __Access Auditing__ component data collection
+- [FS_MostActiveServers Job](fs_mostactiveservers.md) – Designed to report on the most active
+  servers within an environment
+- [FS_MostActiveUsers Job](fs_mostactiveusers.md) – Designed to report on the most active users
+  within an environment
+- [FS_StaleShares Job](fs_staleshares.md) – Designed to report on stale shares from targeted file
+  servers
+
+    - Requires **Access Auditing** component data collection

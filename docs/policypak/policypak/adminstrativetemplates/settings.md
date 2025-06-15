@@ -1,6 +1,8 @@
 # Which settings can be managed with the Admin Templates Manager component?
 
-Netwrix Endpoint Policy Manager (formerly PolicyPak) Admin Templates Manager delivers all types of Group Policy Admin Template settings (User side or Computer side) to your Windows users and machines.
+Netwrix Endpoint Policy Manager (formerly PolicyPak) Admin Templates Manager delivers all types of
+Group Policy Admin Template settings (User side or Computer side) to your Windows users and
+machines.
 
 ![688_1_ppatm-gpme-user_400x1188](../../../../static/img/product_docs/policypak/policypak/adminstrativetemplates/688_1_ppatm-gpme-user_400x1188.webp)
 

@@ -1,6 +1,7 @@
 # Collection > PF_ContentScans Job
 
-The PF_ContentScans job is comprised of data collection that focuses on public folder content aging within each public folder.
+The PF_ContentScans job is comprised of data collection that focuses on public folder content aging
+within each public folder.
 
 ![Collection > PF_ContentScans Job in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/databases/collection/collectionjobstree.png)
 
@@ -16,14 +17,18 @@ The following query is included in the PF_ContentScans job:
 
 - PF Contents – Collects content aging information
 
-  - By default set to search all public folders. It can be scoped.
-  - See the [Scope the ExchangePS Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/casmetrics/ex_aspolicies.md#scope-the-exchangeps-data-collector) topic for additional information
+    - By default set to search all public folders. It can be scoped.
+    - See the
+      [Scope the ExchangePS Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/casmetrics/ex_aspolicies.md#scope-the-exchangeps-data-collector)
+      topic for additional information
 
 ## Analysis Tasks for the PF_ContentScans Job
 
-View the analysis task by navigating to the __Exchange__ > __5. Public Folders__ > __Content__ > __Collection__ > __PF_ContentScans__ > __Configure__ node and select __Analysis__.
+View the analysis task by navigating to the **Exchange** > **5. Public Folders** > **Content** >
+**Collection** > **PF_ContentScans** > **Configure** node and select **Analysis**.
 
-__CAUTION:__ Do not modify or deselect the selected analysis task. The analysis task is preconfigured for this job.
+**CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
+preconfigured for this job.
 
 ![Analysis Tasks for the PF_ContentScans Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/publicfolders/content/contentscansanalysis.png)
 

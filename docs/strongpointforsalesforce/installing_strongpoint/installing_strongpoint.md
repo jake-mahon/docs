@@ -1,45 +1,52 @@
 # Install Platform Governance for Salesforce
 
-Platform Governance for Salesforce is installed with package installation file sent to you by our customer success team. To install:
+Platform Governance for Salesforce is installed with package installation file sent to you by our
+customer success team. To install:
 
-1. Click on the install URL, if installing in the sandbox, replace the initial portion of the URL with [http://test.salesforce.com](http://test.salesforce.com)
-2. Select __Install for Admins Only__
-3. Click __Install__
-![install1](../../../static/img/product_docs/strongpointforsalesforce/installing_strongpoint/install1.jpg)
+1. Click on the install URL, if installing in the sandbox, replace the initial portion of the URL
+   with [http://test.salesforce.com](http://test.salesforce.com)
+2. Select **Install for Admins Only**
+3. Click **Install**
+   ![install1](../../../static/img/product_docs/strongpointforsalesforce/installing_strongpoint/install1.jpg)
 
-The installation runs in the background. An email notification is sent to you when the installation is complete.
+The installation runs in the background. An email notification is sent to you when the installation
+is complete.
 
 ## Configure Platform Governance for Salesforce
 
 The following items are needed:
 
-- Create a __Connected App__ to generate and extract the Salesforce __Consumer Key__ and the Salesforce __Consumer Secret Key__
-- Your Salesforce __username__, __password__ and __authentication token__
+- Create a **Connected App** to generate and extract the Salesforce **Consumer Key** and the
+  Salesforce **Consumer Secret Key**
+- Your Salesforce **username**, **password** and **authentication token**
 
-1. Open Salesforce __Setup__ > __Apps__ > __App Manager__
-2. Click __New Connected App__
-3. Select __Create a Connected App__ and click __Continue__
-4. Under __Basic Information__ enter the required fields:
+1. Open Salesforce **Setup** > **Apps** > **App Manager**
+2. Click **New Connected App**
+3. Select **Create a Connected App** and click **Continue**
+4. Under **Basic Information** enter the required fields:
 
-- __Connected App Name__: __Netwrix Platform Governance__
-- __API Name__: __Netwrix_Platform_Governance__
-- __Contact E-mail__
+- **Connected App Name**: **Netwrix Platform Governance**
+- **API Name**: **Netwrix_Platform_Governance**
+- **Contact E-mail**
 
-5. Click __API (Enable OAuth Settings)__ to expand the section.
-6. Set __Call Back URL__ to __[https://localhost.com](https://localhost.com)__
-7. Set __Selected OAuth Scopes__ to __Full access (full)__
+5. Click **API (Enable OAuth Settings)** to expand the section.
+6. Set **Call Back URL** to **[https://localhost.com](https://localhost.com)**
+7. Set **Selected OAuth Scopes** to **Full access (full)**
 
-   ![Setting for Connected App](../../../static/img/product_docs/strongpointforsalesforce/integrations/connected_app.webp)
+    ![Setting for Connected App](../../../static/img/product_docs/strongpointforsalesforce/integrations/connected_app.webp)
 
-   __The Require Proof Key for Code Exchange (PKCE) Extension for Supported Authorization Flows__ should not be checked.
-8. Click __Save__. __Netwrix Platform Governance__is now listed under __Custom Apps__.
-9. Click on __Netwrix Platform Governance__.
+    **The Require Proof Key for Code Exchange (PKCE) Extension for Supported Authorization Flows**
+    should not be checked.
 
-   ![configure-1](../../../static/img/product_docs/strongpointforsalesforce/installing_strongpoint/configure-1.webp)
-10. Click __Manage Consumer Details__. You must verify your identity before you can proceed.
-11. Copy the __Consumer Key__ and the __Consumer Secret Key__.
+8. Click **Save**. **Netwrix Platform Governance**is now listed under **Custom Apps**.
+9. Click on **Netwrix Platform Governance**.
+
+    ![configure-1](../../../static/img/product_docs/strongpointforsalesforce/installing_strongpoint/configure-1.webp)
+
+10. Click **Manage Consumer Details**. You must verify your identity before you can proceed.
+11. Copy the **Consumer Key** and the **Consumer Secret Key**.
 12. Open the Salesforce App Launcher.
-13. Locate and select __Netwrix Lightning__.
-14. Click __I Accept__ for the EULA.
+13. Locate and select **Netwrix Lightning**.
+14. Click **I Accept** for the EULA.
 
-__Next Step:__ [Using the Getting Started Wizard](using_getting_started_wizard.md)
+**Next Step:** [Using the Getting Started Wizard](using_getting_started_wizard.md)

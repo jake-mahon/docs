@@ -1,12 +1,17 @@
 # Mount / Unmount for USB and .DMG Files
 
-__NOTE:__ See the [Endpoint Privilege Manager for Mac: Mount / Unmount Part I](../../video/leastprivilege/mac/mountunmountpart1.md) video and the [Endpoint Privilege Manager for Mac: Mount / Unmount Part II](../../video/leastprivilege/mac/mountunmounpart2.md) video for an overview of this section.
+**NOTE:** See the
+[Endpoint Privilege Manager for Mac: Mount / Unmount Part I](../../video/leastprivilege/mac/mountunmountpart1.md)
+video and the
+[Endpoint Privilege Manager for Mac: Mount / Unmount Part II](../../video/leastprivilege/mac/mountunmounpart2.md)
+video for an overview of this section.
 
 You might want to manage when USB devices and/or .DMG disk files can be mounted (or unmounted).
 
 ![A screenshot of a computer
 
-Description automatically generated](../../../../../static/img/product_docs/policypak/policypak/mac/scenarios/mount_unmount_for_usb_and.webp)
+Description automatically
+generated](../../../../../static/img/product_docs/policypak/policypak/mac/scenarios/mount_unmount_for_usb_and.webp)
 
 You can perform the following functions:
 
@@ -25,7 +30,8 @@ Action:
 
 - Deny Execution — Block the specified device type
 - Allow Execution —Allow attachment of specified device type
-- Elevate — Lets users perform operations with elevated privileges without entering an admin password
+- Elevate — Lets users perform operations with elevated privileges without entering an admin
+  password
 
 Targets:
 
@@ -36,10 +42,13 @@ For a simple demo, let's Block All USB and DMG devices.
 
 ![A screenshot of a computer
 
-Description automatically generated](../../../../../static/img/product_docs/policypak/policypak/mac/scenarios/mount_unmount_for_usb_and_1.webp)
+Description automatically
+generated](../../../../../static/img/product_docs/policypak/policypak/mac/scenarios/mount_unmount_for_usb_and_1.webp)
 
-The result of trying to attach a new device by USB can be seen here, as Endpoint Policy Manager has blocked it.
+The result of trying to attach a new device by USB can be seen here, as Endpoint Policy Manager has
+blocked it.
 
 ![A screenshot of a computer
 
-Description automatically generated](../../../../../static/img/product_docs/policypak/policypak/mac/scenarios/mount_unmount_for_usb_and_2.webp)
+Description automatically
+generated](../../../../../static/img/product_docs/policypak/policypak/mac/scenarios/mount_unmount_for_usb_and_2.webp)

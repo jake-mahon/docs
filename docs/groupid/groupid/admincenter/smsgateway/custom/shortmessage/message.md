@@ -1,18 +1,19 @@
 # ShortMessage.Message
 
-Gets or sets the supporting message text that will be sent to registered mobile phone users along with the confirmation code.
+Gets or sets the supporting message text that will be sent to registered mobile phone users along
+with the confirmation code.
 
-__Namespace:__ Imanami.GroupID.DataTransferObjects.DataContracts.SMS
+**Namespace:** Imanami.GroupID.DataTransferObjects.DataContracts.SMS
 
-__Assembly:__ Imanami.GroupID.DataTransferObjects.dll
+**Assembly:** Imanami.GroupID.DataTransferObjects.dll
 
-__Syntax__
+**Syntax**
 
 ```
 public string Message { get; set; }
 ```
 
-__Return Value__
+**Return Value**
 
 Type: [System.String](http://msdn.microsoft.com/en-us/library/system.string.aspx)
 

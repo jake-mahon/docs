@@ -1,69 +1,90 @@
 # Select Your Source and Destination
 
-You must create required identity providers and data sources before creating a job. They are created in Admin Center under Identity Stores and Data Sources tab respectively. After creating the providers, you need to specify the providers in __Select Your Source and Destination__ page.
+You must create required identity providers and data sources before creating a job. They are created
+in Admin Center under Identity Stores and Data Sources tab respectively. After creating the
+providers, you need to specify the providers in **Select Your Source and Destination** page.
 
 Follow these steps to configure the settings for the providers:
 
-1. On the __Select Your Source and Destination__ page, do the following:
+1. On the **Select Your Source and Destination** page, do the following:
 
-   - __Your Source__: Specify the data source or identity store from which to move data.
-   - __Your Destination__: Specify the data source or Identity store to move data to.
+    - **Your Source**: Specify the data source or identity store from which to move data.
+    - **Your Destination**: Specify the data source or Identity store to move data to.
 
-   Provide the following information for the selected providers:
+    Provide the following information for the selected providers:
 
-   - Microsoft Active Directory
+    - Microsoft Active Directory
 
-     Specify a container. To include sub containers, select the checkbox  __Include Sub Containers__.
+        Specify a container. To include sub containers, select the checkbox **Include Sub
+        Containers**.
 
-     - In case of a source, the job will fetch data from the container.
-     - In case of a destination the job will create or update data in the container.
-   - Microsoft Entra ID
+        - In case of a source, the job will fetch data from the container.
+        - In case of a destination the job will create or update data in the container.
 
-     Specify a container. To include sub containers, select the checkbox __Include Sub Containers__.
+    - Microsoft Entra ID
 
-     - In case of a source, the job will fetch data from the container.
-     - In case of a destination, the job will create or update data in the container.
-   - Generic LDAP
+        Specify a container. To include sub containers, select the checkbox **Include Sub
+        Containers**.
 
-     You do not need to provide any additional information for this provider.
-   - Google Workspace
+        - In case of a source, the job will fetch data from the container.
+        - In case of a destination, the job will create or update data in the container.
 
-     Specify a container. To include sub containers, select the checkbox __Include Sub Containers__.
+    - Generic LDAP
 
-     - In case of a source, the job will fetch data from the container.
-     - In case of a destination, the job will create or update data in the container.
-   - Microsoft Access
+        You do not need to provide any additional information for this provider.
 
-     In the __Table Name__ drop-down list, select the table you want to use.
+    - Google Workspace
 
-     The list displays the tables in the selected Microsoft Access database.
-   - Microsoft Excel
+        Specify a container. To include sub containers, select the checkbox **Include Sub
+        Containers**.
 
-     In the __Select Sheet Name__ drop-down list, select the sheet you want to use.
+        - In case of a source, the job will fetch data from the container.
+        - In case of a destination, the job will create or update data in the container.
 
-     The list displays the sheets in the selected Microsoft Excel file.
+    - Microsoft Access
 
-     1. In case of Excel as destination (with Replace file-discard existing content option selected on the Destination Provider page of the Job wizard), if any sheet name of the Excel file is of two or less character the Synchronize job corrupts all the sheets in that Excel file.
+        In the **Table Name** drop-down list, select the table you want to use.
 
-     2. In case of Excel as destination (with Delete option selected on the Create Object page of the Job wizard), If the Excel file schema is of more than 127 columns the job fails.
-   - Oracle
+        The list displays the tables in the selected Microsoft Access database.
 
-     In the __Table or View__ drop-down list, select the database table you want to use.
+    - Microsoft Excel
 
-     The list displays the tables in the Oracle database.
+        In the **Select Sheet Name** drop-down list, select the sheet you want to use.
 
-     In case the type column of Oracle database is not set as Datetime then time stamp functionality of Synchronize do not work. The given type needs to be converted into Datetime explicitly while configuring the Synchronize job.
-   - ODBC
+        The list displays the sheets in the selected Microsoft Excel file.
 
-     In __Table Name__ box, enter the name of the table you want to use.
+        1. In case of Excel as destination (with Replace file-discard existing content option
+           selected on the Destination Provider page of the Job wizard), if any sheet name of the
+           Excel file is of two or less character the Synchronize job corrupts all the sheets in
+           that Excel file.
 
-     Souldn't user select instead of entering the name?
-   - Microsoft SQL Server
+        2. In case of Excel as destination (with Delete option selected on the Create Object page of
+           the Job wizard), If the Excel file schema is of more than 127 columns the job fails.
 
-     In the __Table or View__ drop-down list, select the database table you want to use.
+    - Oracle
 
-     The list displays the tables in the Microsoft SQL Server database.
-   - Text Driver/CSV
+        In the **Table or View** drop-down list, select the database table you want to use.
 
-     You do not need to provide any additional information for this provider.
-2. Click __Next Step__.
+        The list displays the tables in the Oracle database.
+
+        In case the type column of Oracle database is not set as Datetime then time stamp
+        functionality of Synchronize do not work. The given type needs to be converted into Datetime
+        explicitly while configuring the Synchronize job.
+
+    - ODBC
+
+        In **Table Name** box, enter the name of the table you want to use.
+
+        Souldn't user select instead of entering the name?
+
+    - Microsoft SQL Server
+
+        In the **Table or View** drop-down list, select the database table you want to use.
+
+        The list displays the tables in the Microsoft SQL Server database.
+
+    - Text Driver/CSV
+
+        You do not need to provide any additional information for this provider.
+
+2. Click **Next Step**.

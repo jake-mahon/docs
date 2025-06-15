@@ -1,21 +1,23 @@
 # Get-IdentityStoreRoles
 
-The commandlet Get-IdentityStoreRoles retrieves information about the security roles associated with an identity store. The information includes role name, role priority, role criteria and role permissions.
+The commandlet Get-IdentityStoreRoles retrieves information about the security roles associated with
+an identity store. The information includes role name, role priority, role criteria and role
+permissions.
 
 ## Syntax
 
 ```
-Get-IdentityStoreRoles  
-[-IdentityStoreName] <String> [[-RoleName] <String>]  
-[[-Subset] <String>]  
-[-IdentityStoreId <Int32>]  
-[-SecurityToken <CustomClaimsPrincipal>]  
-[-Credential <PSCredential>]  
-[-WarningAction <ActionPreference>]  
-[-InformationAction <ActionPreference>]  
-[-WarningVariable <String>]  
-[-InformationVariable <String>]  
-[-PipelineVariable <String>]  
+Get-IdentityStoreRoles
+[-IdentityStoreName] <String> [[-RoleName] <String>]
+[[-Subset] <String>]
+[-IdentityStoreId <Int32>]
+[-SecurityToken <CustomClaimsPrincipal>]
+[-Credential <PSCredential>]
+[-WarningAction <ActionPreference>]
+[-InformationAction <ActionPreference>]
+[-WarningVariable <String>]
+[-InformationVariable <String>]
+[-PipelineVariable <String>]
 [<CommonParameters>]
 ```
 

@@ -5,10 +5,14 @@
 #### Browser Extension
 
 - UserVoice Winner: Stored OTPs can now be retrieved directly via the browser extension.
-- New improved autofill logic: The autofill function has been completely revised to enable a more convenient automatic login in the browser.
-- Cross-platform authentication is now possible: The Windows app, browser extension and autofill add-on can now authenticate each other.
+- New improved autofill logic: The autofill function has been completely revised to enable a more
+  convenient automatic login in the browser.
+- Cross-platform authentication is now possible: The Windows app, browser extension and autofill
+  add-on can now authenticate each other.
 - UserVoice Winner: You can now also use htaccess forms for automatic login.
-- The SSO agent connection for the browser extension has been deprecated. Here you can find instructions on how to switch to server mode as well as an FAQ to this topic (This also affects the autofill add-on.).
+- The SSO agent connection for the browser extension has been deprecated. Here you can find
+  instructions on how to switch to server mode as well as an FAQ to this topic (This also affects
+  the autofill add-on.).
 - Browser extension profiles can now be configured via policy.
 - Opening Netwrix Password Secure from the browser extension now works correctly.
 
@@ -17,13 +21,15 @@
 - SSO applications can now be connected with passwords.
 - The button “Ignore application” has been renamed to “Hide application”.
 
-\*As the basic view on Windows has been deprecated with version 9.1.0, the basic view from now on always refers to the web app.
+\*As the basic view on Windows has been deprecated with version 9.1.0, the basic view from now on
+always refers to the web app.
 
 #### Server
 
 - Missing data is now migrated to ECC.
 - The web server configuration routine for IIS has been improved.
-- If you change the deployment mode to "Members of groups only" during AD synchronization, the checkboxes for synchronization are now ignored.
+- If you change the deployment mode to "Members of groups only" during AD synchronization, the
+  checkboxes for synchronization are now ignored.
 
 ## Improvements
 
@@ -31,23 +37,25 @@
 
 The following names have been changed:
 
-| Obsolete | New (English) | New (German) |
-| --- | --- | --- |
-| WebClient | Web application | Web Application |
-| LightUser / Basic view User | (Basic) user\* | (Standard) User\* |
-| Basic view (Ansicht) | Basic view | Standardansicht |
-| FullUser / FullClient User | Advanced user | Advanced User |
-| FullClient (Ansicht) | Advanced view | Erweiterte Ansicht |
-| Browser Add-on | Browser extension | Browser-Erweiterung |
-| App | Mobile application | Mobile Application |
-| Desktop Client | Windows application | Windows Application |
-| Web Endpoint | Web server | Web Server |
-| SSO Agent / SSO Add-on / SSO Service | Autofill add-on | Autofill Add-on |
-| OfflineClient | Offline add-on | Offline Add-on |
-| AdminClient | Server Manager | Server Manager |
-| SAML Service | IdP service | IdP Service |
+| Obsolete                             | New (English)       | New (German)        |
+| ------------------------------------ | ------------------- | ------------------- |
+| WebClient                            | Web application     | Web Application     |
+| LightUser / Basic view User          | (Basic) user\*      | (Standard) User\*   |
+| Basic view (Ansicht)                 | Basic view          | Standardansicht     |
+| FullUser / FullClient User           | Advanced user       | Advanced User       |
+| FullClient (Ansicht)                 | Advanced view       | Erweiterte Ansicht  |
+| Browser Add-on                       | Browser extension   | Browser-Erweiterung |
+| App                                  | Mobile application  | Mobile Application  |
+| Desktop Client                       | Windows application | Windows Application |
+| Web Endpoint                         | Web server          | Web Server          |
+| SSO Agent / SSO Add-on / SSO Service | Autofill add-on     | Autofill Add-on     |
+| OfflineClient                        | Offline add-on      | Offline Add-on      |
+| AdminClient                          | Server Manager      | Server Manager      |
+| SAML Service                         | IdP service         | IdP Service         |
 
-\* This improvement affects all views (basic and advanced view), apps and add-ons (Server Manager, web and Windows app, autofill and offline add-on) the browser extension, API, and the server as well as MSP.
+\* This improvement affects all views (basic and advanced view), apps and add-ons (Server Manager,
+web and Windows app, autofill and offline add-on) the browser extension, API, and the server as well
+as MSP.
 
 #### Basic view (formerly LightClient)\*
 
@@ -72,7 +80,8 @@ The following names have been changed:
 This only affects the Windows app:
 
 - Rights from organizational units to passwords can now also be inherited recursively.
-- Login security has improved: Credentials for one application can no longer be reused for a different one.
+- Login security has improved: Credentials for one application can no longer be reused for a
+  different one.
 - Report details are now displayed correctly again.
 
 #### Server
@@ -82,7 +91,8 @@ This only affects the Windows app:
 
 #### Server Manager
 
-- The migration summary no longer shows an error message when all ECC migrations were started successfully.
+- The migration summary no longer shows an error message when all ECC migrations were started
+  successfully.
 
 #### API
 

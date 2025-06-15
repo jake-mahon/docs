@@ -2,24 +2,24 @@
 
 Use this tab to specify advanced settings for a contact.
 
-__Home Page__
+**Home Page**
 
 The URL of the contact's website.
 
-Use the __Add__ and __Remove__ buttons to add and remove the URL.
+Use the **Add** and **Remove** buttons to add and remove the URL.
 
-__Emp Type__
+**Emp Type**
 
 The job category of the contact.
 
-__Emp #__
+**Emp #**
 
 The employee ID of the contact.
 
-__Admin No__tes
+**Admin No**tes
 
 Notes by the administrator.
 
-__See Also__
+**See Also**
 
 - [User Properties](/versioned_docs/groupid_11.0/groupid/portal/user/properties/overview.md)

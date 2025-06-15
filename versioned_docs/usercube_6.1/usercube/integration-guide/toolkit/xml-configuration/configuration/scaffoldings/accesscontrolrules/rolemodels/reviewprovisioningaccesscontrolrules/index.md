@@ -1,7 +1,8 @@
 # ReviewProvisioningAccessControlRules
 
 Generates the right to access the review provisioning pages for a given entity type and profile.
-Also create the rights to view the TargetEntityTypes of all ResourceTypes whose source is the EntityType to be filled in the Scaffolding.
+Also create the rights to view the TargetEntityTypes of all ResourceTypes whose source is the
+EntityType to be filled in the Scaffolding.
 
 Gives access to a shortcut on the dashboard to access this page.
 
@@ -17,10 +18,10 @@ Gives access to a shortcut on the dashboard to access this page.
 
 ## Properties
 
-| Property | Details |
-| --- | --- |
-| EntityType   required | __Type__    String   __Description__   Identifier of the entity type involved in the scaffolding. |
-| Profile   required | __Type__    String   __Description__   Identifier of the profile involved in the scaffolding. |
+| Property            | Details                                                                                    |
+| ------------------- | ------------------------------------------------------------------------------------------ |
+| EntityType required | **Type** String **Description** Identifier of the entity type involved in the scaffolding. |
+| Profile required    | **Type** String **Description** Identifier of the profile involved in the scaffolding.     |
 
 ## Generated XML
 

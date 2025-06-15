@@ -1,6 +1,7 @@
 # WorkflowAddAndEndRecordEntityForm
 
-Displays a form to define the end date of an existing record, and replace it with a new record at said date, by duplicating and adjusting the old record.
+Displays a form to define the end date of an existing record, and replace it with a new record at
+said date, by duplicating and adjusting the old record.
 
 ## Examples
 
@@ -18,52 +19,58 @@ And with the following form for the record data's content and summary, and for t
 
 ```
 
-The contents of ```MainControl``` and ```RecordControl``` are visible during the workflow's execution:
+The contents of `MainControl` and `RecordControl` are visible during the workflow's execution:
 
 ![Form Example - Update Position](/img/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/workflows/forms/workflowaddandendrecordentityform/formexample_workflowaddandendrecordentityform_v603.png)
 
-The content of ```RecordUniqueItemControl``` is not visible. The user's records that have the same values for all the properties in ```RecordUniqueItemControl``` will be displayed, and potentially modified, as one.
+The content of `RecordUniqueItemControl` is not visible. The user's records that have the same
+values for all the properties in `RecordUniqueItemControl` will be displayed, and potentially
+modified, as one.
 
-The contents of ```MainSummaryControl``` and ```RecordSummaryControl``` are visible after the workflow's execution:
+The contents of `MainSummaryControl` and `RecordSummaryControl` are visible after the workflow's
+execution:
 
 ![Summary Form Example - Update Position](/img/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/workflows/forms/workflowaddandendrecordentityform/formexample_workflowaddandendrecordentityform_summary_v603.png)
 
 ## Properties
 
 | Property | Details |
-| --- | --- |
+| -------- | ------- |
 
 ## Child Element: MainControl
 
 Set of fields to collect data about the main resource.
 
 | Property | Details |
-| --- | --- |
+| -------- | ------- |
 
 ## Child Element: RecordControl
 
 Set of fields to collect data about the resource's record.
 
 | Property | Details |
-| --- | --- |
+| -------- | ------- |
 
 ## Child Element: RecordUniqueItemControl
 
-Set of fields that group records together. All records with the same data in ```RecordUniqueItemControl``` are displayed in the workflow as only one record, and they will potentially be modified together. When not specified, records will be grouped by the data from ```RecordControl```.
+Set of fields that group records together. All records with the same data in
+`RecordUniqueItemControl` are displayed in the workflow as only one record, and they will
+potentially be modified together. When not specified, records will be grouped by the data from
+`RecordControl`.
 
 | Property | Details |
-| --- | --- |
+| -------- | ------- |
 
 ## Child Element: MainSummaryControl
 
-Set of fields to sum up the data collected by ```MainControl``` after the workflow's execution.
+Set of fields to sum up the data collected by `MainControl` after the workflow's execution.
 
 | Property | Details |
-| --- | --- |
+| -------- | ------- |
 
 ## Child Element: RecordSummaryControl
 
-Set of fields to sum up the data collected by ```RecordControl``` after the workflow's execution.
+Set of fields to sum up the data collected by `RecordControl` after the workflow's execution.
 
 | Property | Details |
-| --- | --- |
+| -------- | ------- |

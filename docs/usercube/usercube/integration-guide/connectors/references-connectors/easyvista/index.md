@@ -1,36 +1,40 @@
 # EasyVista
 
-This connector exports and fulfills users from/to an [EasyVista](https://wiki.easyvista.com/xwiki/bin/view/Documentation/?language=en)-compliant system.
+This connector exports and fulfills users from/to an
+[EasyVista](https://wiki.easyvista.com/xwiki/bin/view/Documentation/?language=en)-compliant system.
 
-This page is about [
-EasyVista
-](index.md).
+This page is about [ EasyVista ](index.md).
 
 ![Package: ITSM/EasyVista](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/easyvista/packages_easyvista_v603.webp)
 
 ## Overview
 
-EasyVista is an IT Service Manager that provides a service to organize IT resources in a company by using tickets. This allows users to manage projects, materials and teams through a customizable interface.
+EasyVista is an IT Service Manager that provides a service to organize IT resources in a company by
+using tickets. This allows users to manage projects, materials and teams through a customizable
+interface.
 
 ## Prerequisites
 
 Implementing this connector requires:
 
-- Reading first the [appsettings.agent](../../../network-configuration/agent-configuration/appsettings-agent/index.md) topic;
+- Reading first the
+  [appsettings.agent](../../../network-configuration/agent-configuration/appsettings-agent/index.md)
+  topic;
 - An EasyVista account with reading/writing permissions on the target instance;
 - A view to be created in EasyVista for each type of entity to export.
 
 ## Export
 
-This connector exports a list of users, with their attributes specified in the connector's configuration, to CSV files.
+This connector exports a list of users, with their attributes specified in the connector's
+configuration, to CSV files.
 
 It can also export any custom entity, provided that a view exists for it in EasyVista.
 
 ### Configuration
 
-This process is configured through a [
-Connection
-](../../../toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or the XML configuration, and in the ```appsettings.agent.json > Connections``` section:
+This process is configured through a
+[ Connection ](../../../toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or
+the XML configuration, and in the `appsettings.agent.json > Connections` section:
 
 ```
 appsettings.agent.json
@@ -46,12 +50,10 @@ appsettings.agent.json
 ```
 
 The identifier of the connection and thus the name of the subsection must:
-  
+
 - be unique.
-  
 - not begin with a digit.
-  
-- not contain ```<```, ```>```, ```:```, ```"```, ```/```, ```\```, ```|```, ```?```, ```*``` and ```_```.
+- not contain `<`, `>`, `:`, `"`, `/`, `\`, `|`, `?`, `*` and `_`.
 
 > For example:
 >
@@ -73,28 +75,32 @@ The identifier of the connection and thus the name of the subsection must:
 > }
 > ```
 
-The ```ExportSettingsOptions``` attribute is necessary only if custom entities are exported.
-It is not required if only the users are exported.   
-Besides, ```"Profiles"``` is used here as an example and corresponds to a name to identify the exported entities.
+The `ExportSettingsOptions` attribute is necessary only if custom entities are exported. It is not
+required if only the users are exported.  
+Besides, `"Profiles"` is used here as an example and corresponds to a name to identify the exported
+entities.
 
 #### Setting attributes
 
-| Name | Details |
-| --- | --- |
-| Server   required | __Type__    String   __Description__ URI of the server to connect to. |
-| Account   required | __Type__    String   __Description__ Account to use to connect to the EasyVista instance. |
-| Login   required | __Type__    String   __Description__ Username to use to connect to the EasyVista instance. |
-| Password   required | __Type__    String   __Description__ Password to use to connect to the EasyVista instance. |
-|  |  |
-| --- | --- |
-| ExportSettingsOptions   optional | __Type__    List   __Description__ List of entities to retrieve from the EasyVista instance.   __Note:__ for any customized entity to be exported, this argument must contain its REST API URL. __Get REST API URLs__ Access the relevant view in EasyVista and click on __...__ > __Rest API Url__ to copy the URL. For example: ![EasyVista Profiles View](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/easyvista/easyvista_view_v523.webp) |
+| Name                           | Details                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| ------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Server required                | **Type** String **Description** URI of the server to connect to.                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Account required               | **Type** String **Description** Account to use to connect to the EasyVista instance.                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Login required                 | **Type** String **Description** Username to use to connect to the EasyVista instance.                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Password required              | **Type** String **Description** Password to use to connect to the EasyVista instance.                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|                                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| ---                            | ---                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| ExportSettingsOptions optional | **Type** List **Description** List of entities to retrieve from the EasyVista instance. **Note:** for any customized entity to be exported, this argument must contain its REST API URL. **Get REST API URLs** Access the relevant view in EasyVista and click on **...** > **Rest API Url** to copy the URL. For example: ![EasyVista Profiles View](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/easyvista/easyvista_view_v523.webp) |
 
 ### Output details
 
-This connector is meant to generate to the [Application Settings](../../../network-configuration/agent-configuration/appsettings/index.md) export output folder:
+This connector is meant to generate to the
+[Application Settings](../../../network-configuration/agent-configuration/appsettings/index.md)
+export output folder:
 
-- a CSV file, named ```<connectionIdentifier>_Employees.csv```, with one column for each property having a ```ConnectionColumn``` and each property without it but used in an entity association;
-- a CSV file for each customized entity, named ```<connectionIdentifier>_<EntityName>.csv```.
+- a CSV file, named `<connectionIdentifier>_Employees.csv`, with one column for each property having
+  a `ConnectionColumn` and each property without it but used in an entity association;
+- a CSV file for each customized entity, named `<connectionIdentifier>_<EntityName>.csv`.
 
 > For example, with the following entity type mapping for employees:
 >
@@ -112,7 +118,7 @@ This connector is meant to generate to the [Application Settings](../../../netwo
 >
 > ```
 >
-> Then we will have ```C:/UsercubeContoso/Sources/EasyVistaExport_Employees.csv``` as follows:
+> Then we will have `C:/UsercubeContoso/Sources/EasyVistaExport_Employees.csv` as follows:
 >
 > ```
 > EasyVistaExport_Employees.csv
@@ -127,7 +133,7 @@ This connector is meant to generate to the [Application Settings](../../../netwo
 >
 > ```
 >
-> Then we will have ```C:/UsercubeContoso/Sources/EasyVistaExport_Profiles.csv``` as follows:
+> Then we will have `C:/UsercubeContoso/Sources/EasyVistaExport_Profiles.csv` as follows:
 >
 > ```
 > EasyVistaExport_Profiles.csv
@@ -144,7 +150,9 @@ Users created from the API are retrieved by Identity Manager only after a comple
 
 ## Fulfill
 
-The EasyVista connector writes to EasyVista to create, archive (delete from Identity Manager's point of view) and update employees, initiated manually through the UI or automatically by [Evaluate Policy](../../../role-assignment/evaluate-policy/index.md)
+The EasyVista connector writes to EasyVista to create, archive (delete from Identity Manager's point
+of view) and update employees, initiated manually through the UI or automatically by
+[Evaluate Policy](../../../role-assignment/evaluate-policy/index.md)
 
 ### Configuration
 
@@ -170,40 +178,43 @@ Same as for export, fulfill is configured through connections.
 
 #### Setting attributes
 
-| Name | Details |
-| --- | --- |
-| Server   required | __Type__    String   __Description__ URI of the server to connect to. |
-| Account   required | __Type__    String   __Description__ Account to use to connect to the EasyVista instance. |
-| Login   required | __Type__    String   __Description__ Username to use to connect to the EasyVista instance. |
-| Password   required | __Type__    String   __Description__ Password to use to connect to the EasyVista instance. |
+| Name              | Details                                                                               |
+| ----------------- | ------------------------------------------------------------------------------------- |
+| Server required   | **Type** String **Description** URI of the server to connect to.                      |
+| Account required  | **Type** String **Description** Account to use to connect to the EasyVista instance.  |
+| Login required    | **Type** String **Description** Username to use to connect to the EasyVista instance. |
+| Password required | **Type** String **Description** Password to use to connect to the EasyVista instance. |
 
 ### Output details
 
 This connector can:
 
-- Create and update employees and their profiles, but is limited by [API limitations](https://wiki.easyvista.com/xwiki/bin/view/Documentation/Integration/WebService%20REST/REST%20API%20-%20Create%20an%20employee/);
+- Create and update employees and their profiles, but is limited by
+  [API limitations](https://wiki.easyvista.com/xwiki/bin/view/Documentation/Integration/WebService%20REST/REST%20API%20-%20Create%20an%20employee/);
 
-  In particular, this connector cannot set dates nor the ```employee_id``` property.
-- Archive employees, i.e. set the ```CONTRACT_END_DATE``` to the date of the fulfill execution.
+    In particular, this connector cannot set dates nor the `employee_id` property.
 
-  This action is performed when Identity Manager fulfills a provisioning order with a ```Deleted``` change type.
+- Archive employees, i.e. set the `CONTRACT_END_DATE` to the date of the fulfill execution.
+
+    This action is performed when Identity Manager fulfills a provisioning order with a `Deleted`
+    change type.
 
 ## Authentication
 
 ### Password reset
 
-See the [appsettings.agent](../../../network-configuration/agent-configuration/appsettings-agent/index.md) topic to find out more on how to configure password reset settings.
+See the
+[appsettings.agent](../../../network-configuration/agent-configuration/appsettings-agent/index.md)
+topic to find out more on how to configure password reset settings.
 
 ### Credential protection
 
 Data protection can be ensured through:
 
-- [](../../../network-configuration/agent-configuration/rsa-encryption/index.md)[
-  Connection
-  ](../../../toolkit/xml-configuration/connectors/connection/index.md), configured in the ```appsettings.encrypted.agent.json``` file;
-- [
-  Connection
-  ](../../../toolkit/xml-configuration/connectors/connection/index.md) safe;
+- [](../../../network-configuration/agent-configuration/rsa-encryption/index.md)[ Connection ](../../../toolkit/xml-configuration/connectors/connection/index.md),
+  configured in the `appsettings.encrypted.agent.json` file;
+- [ Connection ](../../../toolkit/xml-configuration/connectors/connection/index.md) safe;
 
-- A [CyberArk's AAM Credential Providers
-  ](../../../network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md) able to store EasyVista's ```Login```, ```Password```, ```Account``` and ```Server```.
+- A
+  [CyberArk's AAM Credential Providers ](../../../network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)
+  able to store EasyVista's `Login`, `Password`, `Account` and `Server`.

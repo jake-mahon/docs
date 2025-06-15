@@ -1,6 +1,7 @@
 # Identity Lifecycle: Joiners, Movers and Leavers
 
-Identities' Joiners, Movers and Leavers (JML) process can be made easy by using the adequate model: records.
+Identities' Joiners, Movers and Leavers (JML) process can be made easy by using the adequate model:
+records.
 
 In Usercube, the JML process is done through workflows or through synchronization to the HR system.
 

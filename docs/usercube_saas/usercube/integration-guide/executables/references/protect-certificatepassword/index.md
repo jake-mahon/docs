@@ -1,10 +1,14 @@
 # Usercube-Protect-CertificatePassword
 
-This tool helps protecting ```.pfx``` archives passwords. Given a plain text password, it generates an encrypted version, that can be stored in a configuration file in place of the plain text one. The tool uses a hard-coded secret RSA key to generate the encrypted password. Identity Manager uses the same key to retrieve the plain text password and read the ```.pfx``` archive.
+This tool helps protecting `.pfx` archives passwords. Given a plain text password, it generates an
+encrypted version, that can be stored in a configuration file in place of the plain text one. The
+tool uses a hard-coded secret RSA key to generate the encrypted password. Identity Manager uses the
+same key to retrieve the plain text password and read the `.pfx` archive.
 
 ## Examples
 
-Given a ```.pfx``` archive protected by the ```secret``` password, an encrypted version can be generated with the following command:
+Given a `.pfx` archive protected by the `secret` password, an encrypted version can be generated
+with the following command:
 
 ```
 ./Usercube-Protect-CertificatePassword.exe --pfx-password "secret"
@@ -18,7 +22,8 @@ ep4BsLtg5RVFVI1kEIMZbV1q7Bg2eAFzeD73YX5fV7eklSIqcJcxHsCQbyY2zKLppXSX+Zpwm7xU5QY6
 
 ```
 
-This encrypted password can now be copied to the relevant location in a configuration file. For example :
+This encrypted password can now be copied to the relevant location in a configuration file. For
+example :
 
 ```
 appsettings.json
@@ -36,6 +41,6 @@ appsettings.json
 
 ## Arguments
 
-| Name | Details |
-| --- | --- |
-| --pfx-password   required | __Type__    String   __Description__ Password of the ```.pfx``` archive's to encrypt. |
+| Name                    | Details                                                                      |
+| ----------------------- | ---------------------------------------------------------------------------- |
+| --pfx-password required | **Type** String **Description** Password of the `.pfx` archive's to encrypt. |

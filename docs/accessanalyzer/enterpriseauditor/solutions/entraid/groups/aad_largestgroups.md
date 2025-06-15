@@ -1,21 +1,27 @@
 # AAD_LargestGroups Job
 
-The AAD_LargestGroups Job identifies groups with large effective member counts. These groups may cause administrative overhead and burden in being able to easily understand who is getting access to resources, or how much access is being granted to resources through these groups.
+The AAD_LargestGroups Job identifies groups with large effective member counts. These groups may
+cause administrative overhead and burden in being able to easily understand who is getting access to
+resources, or how much access is being granted to resources through these groups.
 
 ## Analysis Tasks for the AAD_LargestGroups Job
 
-Navigate to the __Jobs__ > __Entra ID__ > __1.Groups__ > __AAD_LargestGroups__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the **Jobs** > **Entra ID** > **1.Groups** > **AAD_LargestGroups** > **Configure** node
+and select **Analysis** to view the analysis tasks.
 
-__CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
+**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+preconfigured for this job.
 
 ![Analysis tasks for AAD_LargestGroups Job](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/distributionlists/membershipanalysis/largestgroupsanalysis.webp)
 
 The default analysis tasks are:
 
-- Calculate large group details – Creates the AAD_LargestGroups_Details table accessible under the job’s Results node
+- Calculate large group details – Creates the AAD_LargestGroups_Details table accessible under the
+  job’s Results node
 
-In addition to the tables created by the analysis tasks, the AAD_LargestGroups Job produces the following pre-configured report.
+In addition to the tables created by the analysis tasks, the AAD_LargestGroups Job produces the
+following pre-configured report.
 
-| Report | Description | Default Tags | Report Elements |
-| --- | --- | --- | --- |
-| Largest Groups | This report identifies the largest groups within the audited environment | None | This report is comprised of two elements:   - Bar Chart – Displays largest groups - Table – Provides group details |
+| Report         | Description                                                              | Default Tags | Report Elements                                                                                                  |
+| -------------- | ------------------------------------------------------------------------ | ------------ | ---------------------------------------------------------------------------------------------------------------- |
+| Largest Groups | This report identifies the largest groups within the audited environment | None         | This report is comprised of two elements: - Bar Chart – Displays largest groups - Table – Provides group details |

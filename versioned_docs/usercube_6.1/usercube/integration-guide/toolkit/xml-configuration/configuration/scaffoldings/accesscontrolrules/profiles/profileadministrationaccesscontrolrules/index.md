@@ -2,7 +2,7 @@
 
 Gives to a given profile the rights to create, update and delete profiles.
 
-Profiles are listed on the __Profiles__ screen, from __Settings__ in the __Configuration__ section.
+Profiles are listed on the **Profiles** screen, from **Settings** in the **Configuration** section.
 
 ![Settings](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/user-profile-configuration/home_settings_v523.png)
 
@@ -12,7 +12,8 @@ Profiles are listed on the __Profiles__ screen, from __Settings__ in the __Confi
 
 ## Examples
 
-The following example gives to the ```Administrator``` profile the rights to create, update and delete profiles.
+The following example gives to the `Administrator` profile the rights to create, update and delete
+profiles.
 
 ```
 
@@ -22,9 +23,9 @@ The following example gives to the ```Administrator``` profile the rights to cre
 
 ## Properties
 
-| Property | Details |
-| --- | --- |
-| Profile   required | __Type__    String   __Description__   Identifier of the profile involved in the scaffolding. |
+| Property         | Details                                                                                |
+| ---------------- | -------------------------------------------------------------------------------------- |
+| Profile required | **Type** String **Description** Identifier of the profile involved in the scaffolding. |
 
 ## Generated XML
 

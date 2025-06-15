@@ -1,6 +1,7 @@
 # Troubleshooting and Maintenance
 
-This section provides an overview of troubleshooting and maintenance steps and processes for Activity Monitor. See the following topics for additional information:
+This section provides an overview of troubleshooting and maintenance steps and processes for
+Activity Monitor. See the following topics for additional information:
 
 - [Update Credential Passwords](credentialpasswords.md)
 - [Trace Logs](tracelogs.md)

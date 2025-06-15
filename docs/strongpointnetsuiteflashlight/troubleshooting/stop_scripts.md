@@ -2,7 +2,7 @@
 
 You can stop the Spider scripts at any point during the spider process:
 
-Open __Flashlight__ > __Support__ > __Stop Scripts__
+Open **Flashlight** > **Support** > **Stop Scripts**
 
 This stops the next execution of the scheduled scripts.
 

@@ -1,14 +1,19 @@
 # Add Administrators Window
 
-The Add Administrators window provides a list of users that have been onboarded. Users are onboarded in the [Users & Groups Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/usersgroups.md).
+The Add Administrators window provides a list of users that have been onboarded. Users are onboarded
+in the
+[Users & Groups Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/usersgroups.md).
 
 ![Add Administrators Window](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/window/usersgroups/addadministrators.png)
 
 The window has the following features:
 
-- Search — Searches the table or list for matches to the search string. When matches are found, the table or list is filtered to the matching results.
-- Filter — Provides options to filter results based on a chosen criterion:User, Group, Application, Collection, and Local User
-- Available Accounts — Shows all available users, groups, applications, collections, and local users that have been onboarded
+- Search — Searches the table or list for matches to the search string. When matches are found, the
+  table or list is filtered to the matching results.
+- Filter — Provides options to filter results based on a chosen criterion:User, Group, Application,
+  Collection, and Local User
+- Available Accounts — Shows all available users, groups, applications, collections, and local users
+  that have been onboarded
 - Accounts to Add — Shows selected users, groups, applications, collections, and local users
 - Add button — Adds modifications and closes window
 - Cancel — Closes the window
@@ -24,16 +29,18 @@ The tables in both sections have the following columns:
 
 ## Select Users
 
-Follow the steps to grant users the Administrator role. See the [Role Management Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/rolemanagement.md) section for a list of roles and their functions.
+Follow the steps to grant users the Administrator role. See the
+[Role Management Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/rolemanagement.md)
+section for a list of roles and their functions.
 
-__Step 1 –__ Navigate to the __Users & Groups__ > Role Management page.
+**Step 1 –** Navigate to the **Users & Groups** > Role Management page.
 
-__Step 2 –__ In the Role list, select the Administrators role.
+**Step 2 –** In the Role list, select the Administrators role.
 
-__Step 3 –__ Click Add User to open the Add Administrators window.
+**Step 3 –** Click Add User to open the Add Administrators window.
 
-__Step 4 –__ Select the checkbox for the desired accounts in the Available Accounts table..
+**Step 4 –** Select the checkbox for the desired accounts in the Available Accounts table..
 
-__Step 5 –__ Click Add to add the accounts to the role.
+**Step 5 –** Click Add to add the accounts to the role.
 
 The selected users are now Privilege Secure Administrators.

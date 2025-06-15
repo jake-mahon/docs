@@ -1,10 +1,12 @@
 # Application Details Page
 
-The Application Details page provides information about an application registered in Microsoft Entra ID.
+The Application Details page provides information about an application registered in Microsoft Entra
+ID.
 
 ![Entra ID Application Page](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/application/application.webp)
 
-The top of the page displays a profile card which may contain the following information about the application:
+The top of the page displays a profile card which may contain the following information about the
+application:
 
 - App ID
 - Object ID
@@ -46,20 +48,24 @@ The Group Membership tab displays two tables:
 
 Each table has the following columns:
 
-- Name – The name of the group. Click the link to view group details. See the [Group Details Page](entraidgroup.md) topic for additional information.
+- Name – The name of the group. Click the link to view group details. See the
+  [Group Details Page](entraidgroup.md) topic for additional information.
 - Group Type – The type of group within Microsoft Entra ID
 - Membership Type - How the group membership was assigned
 
-- Security Enabled - Shows whether or not the "Security Enabled" flag is enabled within Microsoft Entra ID, if enabled it means that this type of group is used to manage user and computer access to shared resources for a group of users.
+- Security Enabled - Shows whether or not the "Security Enabled" flag is enabled within Microsoft
+  Entra ID, if enabled it means that this type of group is used to manage user and computer access
+  to shared resources for a group of users.
 
-- Role Assignments Allowed - This flag shows whether or not a group can be assigned a role within Microsoft Entra ID
+- Role Assignments Allowed - This flag shows whether or not a group can be assigned a role within
+  Microsoft Entra ID
 
-- Tags - The tags associated with the group
-  Image
+- Tags - The tags associated with the group Image
 
 ## Roles Tab
 
-The role assignments tab displays a table that lists the roles that have been assigned to the Entra ID application.
+The role assignments tab displays a table that lists the roles that have been assigned to the Entra
+ID application.
 
 ![Entra ID User Role Assignment Eligible page](../../../../../static/img/product_docs/threatmanager/threatmanager/administration/threatdetails/entraiduserrolestabeligible.webp)
 
@@ -67,7 +73,9 @@ The role assignments tab displays a table that lists the roles that have been as
 
 The Roles tab displays two tables:
 
-- Eligible Assignments – Lists the roles that the user is eligible for. An eligible assignment refers to a role assignment that a user or group can activate when needed but is not permanently active
+- Eligible Assignments – Lists the roles that the user is eligible for. An eligible assignment
+  refers to a role assignment that a user or group can activate when needed but is not permanently
+  active
 
 - Active Assignments – Lists roles that are currently active and usable to a user.
 
@@ -78,7 +86,8 @@ The eligible assignments table has the following columns:
 - Inherited from - How the eligible assignment was inherited
 - Start Time - When the member is eligible for the role
 - End Time - When the role eligibility expires
-- Privileged - Whether or not the role is privileged (the role has elevated permission or administrative access to EntraID resources)
+- Privileged - Whether or not the role is privileged (the role has elevated permission or
+  administrative access to EntraID resources)
 
 The active assignments table has the following columns:
 
@@ -88,4 +97,5 @@ The active assignments table has the following columns:
 - Assignment Type - How was the active role assignment assigned
 - Start Time - When the member is eligible for the role
 - End Time - When the role eligibility expires
-- Privileged - Whether or not the role is privileged (the role has elevated permission or administrative access to EntraID resources)
+- Privileged - Whether or not the role is privileged (the role has elevated permission or
+  administrative access to EntraID resources)

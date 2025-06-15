@@ -1,20 +1,20 @@
 # For Resource Update (Multi Records)
 
-This section guides you through the procedure for the creation of a workflow to update an existing resource through its several records.
+This section guides you through the procedure for the creation of a workflow to update an existing
+resource through its several records.
 
 ## Declare a Workflow
 
-This [
-Workflow
-](../../../toolkit/xml-configuration/workflows/workflow/index.md) is made of three activities:
+This [ Workflow ](../../../toolkit/xml-configuration/workflows/workflow/index.md) is made of three
+activities:
 
-1. ```Action With Refine```: sends the resource's records update request with a possibility of delegation.
-2. ```Review With Feedback```: reviews the update request with the possibility of getting feedback from another user.
-3. ```Persist```: saves the collected data and triggers provisioning.
+1. `Action With Refine`: sends the resource's records update request with a possibility of
+   delegation.
+2. `Review With Feedback`: reviews the update request with the possibility of getting feedback from
+   another user.
+3. `Persist`: saves the collected data and triggers provisioning.
 
-See the [
-Activity Templates
-](../../activity-templates/index.md) topic for additional information.
+See the [ Activity Templates ](../../activity-templates/index.md) topic for additional information.
 
 The example below creates a workflow to update the records of an existing user:
 
@@ -26,7 +26,9 @@ The example below creates a workflow to update the records of an existing user:
 
 ## Create Forms
 
-The XML configuration below represents the creation of a [Form](../../../toolkit/xml-configuration/user-interface/form/index.md) that defines the elements to display in the workflow.
+The XML configuration below represents the creation of a
+[Form](../../../toolkit/xml-configuration/user-interface/form/index.md) that defines the elements to
+display in the workflow.
 
 Here we create three structured forms, all to be called in our final workflow form:
 
@@ -42,7 +44,11 @@ Second form for the user's record data, specific to each record individually:
 
 ## Link the Forms to the Workflow
 
-After creating a workflow with given activities, it is necessary to create the form to be displayed when launching the workflow. It has the type corresponding to a resource's update with several records, i.e. ```WorkflowUpdateSeveralRecordEntityForm``` and it must specify the workflow's context (the entity type of the involved resources, the main property, the activity when the form is called, etc):
+After creating a workflow with given activities, it is necessary to create the form to be displayed
+when launching the workflow. It has the type corresponding to a resource's update with several
+records, i.e. `WorkflowUpdateSeveralRecordEntityForm` and it must specify the workflow's context
+(the entity type of the involved resources, the main property, the activity when the form is called,
+etc):
 
 ```
 
@@ -50,11 +56,12 @@ After creating a workflow with given activities, it is necessary to create the f
 
 ```
 
-```WorkflowUpdateSeveralRecordEntityForm``` displays a date picker for the end of transition, to schedule the record replacement.
+`WorkflowUpdateSeveralRecordEntityForm` displays a date picker for the end of transition, to
+schedule the record replacement.
 
-A ```WorkflowUpdateSeveralRecordEntityForm``` requires the following child elements:
+A `WorkflowUpdateSeveralRecordEntityForm` requires the following child elements:
 
-- ```MainControl``` that defines user's data;
+- `MainControl` that defines user's data;
 
 ```
 
@@ -64,9 +71,11 @@ A ```WorkflowUpdateSeveralRecordEntityForm``` requires the following child eleme
 
 ```
 
-The ```MainControl``` attribute is here an empty container, because it is a mandatory attribute that is not involved in the changes of this workflow.
+The `MainControl` attribute is here an empty container, because it is a mandatory attribute that is
+not involved in the changes of this workflow.
 
-- ```RecordControl``` that defines the record data shared with all records and calls the firstform created previously;
+- `RecordControl` that defines the record data shared with all records and calls the firstform
+  created previously;
 
 ```
 
@@ -76,7 +85,8 @@ The ```MainControl``` attribute is here an empty container, because it is a mand
 
 ```
 
-- ```RecordUniqueItemControl``` that defines the record data specific to each record individually, and calls the secondform created previously;
+- `RecordUniqueItemControl` that defines the record data specific to each record individually, and
+  calls the secondform created previously;
 
 ```
 
@@ -86,7 +96,9 @@ The ```MainControl``` attribute is here an empty container, because it is a mand
 
 ```
 
-- ```RecordSlaveControl``` that copies an existing record to be the base, i.e. pre-fill the fields, for the update of record data specific to each record individually. Thus it calls the same form as ```RecordUniqueItemControl```.
+- `RecordSlaveControl` that copies an existing record to be the base, i.e. pre-fill the fields, for
+  the update of record data specific to each record individually. Thus it calls the same form as
+  `RecordUniqueItemControl`.
 
 ```
 
@@ -96,7 +108,9 @@ The ```MainControl``` attribute is here an empty container, because it is a mand
 
 ```
 
-- ```RecordSlaveUniqueItemControl``` that copies an existing record to be the base, i.e. pre-fill the fields, for the update of record data shared with all records. Thus it calls the same form as ```RecordControl```.
+- `RecordSlaveUniqueItemControl` that copies an existing record to be the base, i.e. pre-fill the
+  fields, for the update of record data shared with all records. Thus it calls the same form as
+  `RecordControl`.
 
 ```
 
@@ -106,18 +120,19 @@ The ```MainControl``` attribute is here an empty container, because it is a mand
 
 ```
 
-The ```RecordSlaveControl``` attribute calls here the same form as ```RecordUniqueControl```, because it copies part of the main record to pre-fill the fields of ```RecordUniqueControl```.
+The `RecordSlaveControl` attribute calls here the same form as `RecordUniqueControl`, because it
+copies part of the main record to pre-fill the fields of `RecordUniqueControl`.
 
 ![UI Form](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/workflows/how-to/workflow-update-multi/howto_resourceupdatemulti_form_v603.webp)
 
 ## Assign the Right Permissions
 
-Some profiles must get specific permissions so that the workflow is visible and usable by the right users.
-Read about [
-Workflow
-](../../../toolkit/xml-configuration/workflows/workflow/index.md)s permissions.
+Some profiles must get specific permissions so that the workflow is visible and usable by the right
+users. Read about [ Workflow ](../../../toolkit/xml-configuration/workflows/workflow/index.md)s
+permissions.
 
-Below is an example of an access control rule where the ```Administrator``` profile gets the permissions for the whole update request from the previously created workflow:
+Below is an example of an access control rule where the `Administrator` profile gets the permissions
+for the whole update request from the previously created workflow:
 
 ```
 
@@ -127,15 +142,16 @@ Below is an example of an access control rule where the ```Administrator``` prof
 
 ## Create Menu Items in the UI
 
-[
-Menu Item
-](../../../toolkit/xml-configuration/user-interface/menuitem/index.md) must be defined to make the workflow accessible in the UI.
+[ Menu Item ](../../../toolkit/xml-configuration/user-interface/menuitem/index.md) must be defined
+to make the workflow accessible in the UI.
 
-Updating an existing resource, this workflow manages one given resource at a time. Hence an interesting location for this workflow could be the individual view page of users.
+Updating an existing resource, this workflow manages one given resource at a time. Hence an
+interesting location for this workflow could be the individual view page of users.
 
 ![Workflow Menu Items - User's Page](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/workflows/how-to/workflow-update-mono/menuitems_userview_v603.webp)
 
-To create a menu item here for the new workflow, you can add the following XML configuration to the existing menu items list:
+To create a menu item here for the new workflow, you can add the following XML configuration to the
+existing menu items list:
 
 ```
 
@@ -151,12 +167,15 @@ For each workflow, it is possible to add aspects according to the workflow's pur
 
 ## Homonym Detection (Optional)
 
-To perform a homonymy check on a workflow and thus prevent user duplicates,see the [
-Configure a Homonym Detection
-](../configure-homonym-test/index.md) topic for additional information.
+To perform a homonymy check on a workflow and thus prevent user duplicates,see the
+[ Configure a Homonym Detection ](../configure-homonym-test/index.md) topic for additional
+information.
 
-When using records, the homonym detection displays the list of records and not just the list of users.
+When using records, the homonym detection displays the list of records and not just the list of
+users.
 
 ## Customize the Display Table (Optional)
 
-To configure a display table different from the default one provided by Identity Manager, see the [Customize Display Tables](../../../ui/how-tos/custom-display-table/index.md) topic for additional information.
+To configure a display table different from the default one provided by Identity Manager, see the
+[Customize Display Tables](../../../ui/how-tos/custom-display-table/index.md) topic for additional
+information.

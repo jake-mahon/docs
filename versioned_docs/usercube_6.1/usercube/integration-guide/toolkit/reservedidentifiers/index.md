@@ -1,6 +1,10 @@
 # Reserved identifiers
 
-Identifiers of [EntityType](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) and [EntityProperty](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) cannot be one of the following words:
+Identifiers of
+[EntityType](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)
+and
+[EntityProperty](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)
+cannot be one of the following words:
 
 These words can't be written in any case, example: id, Id, iD and ID are forbidden.
 

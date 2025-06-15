@@ -1,6 +1,7 @@
 # SQL Server Databases
 
-This report lists the properties of databases and database snapshots hosted on the selected SQL Server instance. Use this report for your SQL Server database inventory.
+This report lists the properties of databases and database snapshots hosted on the selected SQL
+Server instance. Use this report for your SQL Server database inventory.
 
 ![sqlserverdatabases](/img/versioned_docs/auditor_10.6/auditor/admin/reports/types/stateintime/sqlserverdatabases.png)
 
@@ -8,34 +9,46 @@ This report lists the properties of databases and database snapshots hosted on t
 
 For each database, the following information is reported:
 
-- __Database name__
-- __Restrict access__ mode— as set in the database properties __>Options>State__. Possible values are: _Multi_user_ (for _Multiple_), _Restricted_, _Single_. See [this Microsoft article](https://docs.microsoft.com/en-us/sql/relational-databases/databases/database-properties-options-page?view=sql-server-ver15) for details.
-- __State__— as set in the database properties__>Options>State__. See [this Microsoft article](https://docs.microsoft.com/en-us/sql/relational-databases/databases/database-states?view=sql-server-ver15) for details
-- __Size (MB)__
-- __Shrink enabled__— as set in the database properties __>Options>Automatic>Auto Shrink__. See [this Microsoft article](https://docs.microsoft.com/en-us/sql/relational-databases/databases/database-properties-options-page?view=sql-server-ver15) for details.
-- __Encryption status__— as set in the database properties __>Options>State__. See [this Microsoft article](https://docs.microsoft.com/en-us/sql/relational-databases/databases/database-properties-options-page?view=sql-server-ver15#this-microsoft-article) for details.
-- __Last full backup date__— local date and time for the audited SQL Server instance.
+- **Database name**
+- **Restrict access** mode— as set in the database properties **>Options>State**. Possible values
+  are: _Multi_user_ (for _Multiple_), _Restricted_, _Single_. See
+  [this Microsoft article](https://docs.microsoft.com/en-us/sql/relational-databases/databases/database-properties-options-page?view=sql-server-ver15)
+  for details.
+- **State**— as set in the database properties**>Options>State**. See
+  [this Microsoft article](https://docs.microsoft.com/en-us/sql/relational-databases/databases/database-states?view=sql-server-ver15)
+  for details
+- **Size (MB)**
+- **Shrink enabled**— as set in the database properties **>Options>Automatic>Auto Shrink**. See
+  [this Microsoft article](https://docs.microsoft.com/en-us/sql/relational-databases/databases/database-properties-options-page?view=sql-server-ver15)
+  for details.
+- **Encryption status**— as set in the database properties **>Options>State**. See
+  [this Microsoft article](https://docs.microsoft.com/en-us/sql/relational-databases/databases/database-properties-options-page?view=sql-server-ver15#this-microsoft-article)
+  for details.
+- **Last full backup date**— local date and time for the audited SQL Server instance.
 
 In some cases, the backup time will be displayed in server ticks.
 
-- __Data file path__— .MDF file path.
-- __Log file path__— .LDF file path.
+- **Data file path**— .MDF file path.
+- **Log file path**— .LDF file path.
 
 For each database snapshot, the following information is reported:
 
-- __Database snapshot name__
-- __Source database name__
-- __Restrict access__ mode — as set in the database properties at snapshot creation time.
-- __State__ — as set in the database properties at snapshot creation time.
+- **Database snapshot name**
+- **Source database name**
+- **Restrict access** mode — as set in the database properties at snapshot creation time.
+- **State** — as set in the database properties at snapshot creation time.
 
 ## Filters
 
 This report has the following filters:
 
-- __Monitoring plan__ — name of the monitoring plan set to collect data from the SQL Server instance hosting the required database.
-- __Item__ — name of the item within your monitoring plan, here — SQL Server instance.
-- __Time zone__ — time zone where Netwrix Auditor server is located, for example, UTC-08:00. This value is filled in automatically.
-- __Database name__ — database to report on. Default is all databases on selected SQL Server instance (_%_).
+- **Monitoring plan** — name of the monitoring plan set to collect data from the SQL Server instance
+  hosting the required database.
+- **Item** — name of the item within your monitoring plan, here — SQL Server instance.
+- **Time zone** — time zone where Netwrix Auditor server is located, for example, UTC-08:00. This
+  value is filled in automatically.
+- **Database name** — database to report on. Default is all databases on selected SQL Server
+  instance (_%_).
 
 ## Considerations and recommendations
 
@@ -43,6 +56,9 @@ Reporting for case-sensitive SQL Servers and databases is not supported.
 
 ## Usage example
 
-Database administrators in the _Corp_ organization need to perform an inventory of the __SQLSrv01\SQLServer2016__ instance. This instance is included in the monitoring plan named _SQL Servers Monitoring_.
+Database administrators in the _Corp_ organization need to perform an inventory of the
+**SQLSrv01\SQLServer2016** instance. This instance is included in the monitoring plan named _SQL
+Servers Monitoring_.
 
-To examine the relevant data, they generated the __SQL Server Databases__ report with the default filters.
+To examine the relevant data, they generated the **SQL Server Databases** report with the default
+filters.

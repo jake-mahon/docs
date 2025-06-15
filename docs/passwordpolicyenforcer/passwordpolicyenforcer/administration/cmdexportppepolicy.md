@@ -1,26 +1,30 @@
 # Export-PPEPolicy
 
-The __Export-PPEPolicy__ exports a Password Policy Enforcer policy to a file.
+The **Export-PPEPolicy** exports a Password Policy Enforcer policy to a file.
 
-__NOTE:__ This cmdlet calls the __PPE Tool__. You must be an administrator to run this cmdlet. Start PowerShell with the __Run as Administrator__ option.
+**NOTE:** This cmdlet calls the **PPE Tool**. You must be an administrator to run this cmdlet. Start
+PowerShell with the **Run as Administrator** option.
 
 SYNTAX
 
-__Export-PPEPolicy__ -PolicyName `<_string_>` [__-File__ `<_string_>`] [`<_CommonParameters_>`]
+**Export-PPEPolicy** -PolicyName `<_string_>` [__-File__ `<_string_>`] [`<_CommonParameters_>`]
 
 PARAMETERS
 
-__-PolicyName__ `<_string_>`
+**-PolicyName** `<_string_>`
 
 Name of the to export.
 
-__-File__ `<_string_>`
+**-File** `<_string_>`
 
 Name of the file to create.
 
 `<_CommonParameters_>`
 
-This cmdlet supports the common parameters: __Verbose__, __Debug__, __ErrorAction__, __ErrorVariable__, __WarningAction__, __WarningVariable__, __OutBuffer__, __PipelineVariable__, and __OutVariable__. For more information, see about_CommonParameters [https:/go.microsoft.com/fwlink/?LinkID=113216](https:/go.microsoft.com/fwlink?linkid=113216).
+This cmdlet supports the common parameters: **Verbose**, **Debug**, **ErrorAction**,
+**ErrorVariable**, **WarningAction**, **WarningVariable**, **OutBuffer**, **PipelineVariable**, and
+**OutVariable**. For more information, see about_CommonParameters
+[https:/go.microsoft.com/fwlink/?LinkID=113216](https:/go.microsoft.com/fwlink?linkid=113216).
 
 EXAMPLE
 

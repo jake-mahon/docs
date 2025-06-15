@@ -1,14 +1,18 @@
 # Set up Complete Synchronization
 
-This guide shows how to build the job that will synchronize the appropriate connectors in complete mode.
+This guide shows how to build the job that will synchronize the appropriate connectors in complete
+mode.
 
 ### 1. Objective
 
-Create a Synchronization Job in complete mode.
-This job is used to check for and fix differences in the resources data after the incremental synchronizations.
+Create a Synchronization Job in complete mode. This job is used to check for and fix differences in
+the resources data after the incremental synchronizations.
 
-The synchronization Job can be created automatically by a scaffolding.
-It can create either a job for each connector and for each agent (see : [CreateConnectorSynchroComplete](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/jobs/createconnectorsynchrocomplete/index.md)) or a job for all connectors for each agent (see : [CreateAgentSynchroComplete](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/jobs/createagentsynchrocomplete/index.md))
+The synchronization Job can be created automatically by a scaffolding. It can create either a job
+for each connector and for each agent (see :
+[CreateConnectorSynchroComplete](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/jobs/createconnectorsynchrocomplete/index.md))
+or a job for all connectors for each agent (see :
+[CreateAgentSynchroComplete](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/jobs/createagentsynchrocomplete/index.md))
 
 In the following example the Synchronization job for the Connector "AD" will be created.
 
@@ -20,12 +24,13 @@ In the following example the Synchronization job for the Connector "AD" will be 
 
 ### 2. Create the Export task
 
-If a pre-treatment is needed, you must create an [Export Task](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/exporttask/index.md). Otherwise it is unnecessary.
-Choose the Export task corresponding to the connector.
-If the Export uses the incremental mode, set IgnoreCookieFile to true.
+If a pre-treatment is needed, you must create an
+[Export Task](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/exporttask/index.md).
+Otherwise it is unnecessary. Choose the Export task corresponding to the connector. If the Export
+uses the incremental mode, set IgnoreCookieFile to true.
 
-All Export task have the ContinueOnError property.
-It is advisable to begin with the value of True so that the task is not blocking for the Job.
+All Export task have the ContinueOnError property. It is advisable to begin with the value of True
+so that the task is not blocking for the Job.
 
 Example :
 
@@ -37,9 +42,14 @@ Example :
 
 ### 3. Create the Prepare Synchronization task
 
-Create the PrepareSynchronizationTask with the connector. Set ```SynchronizationMode="Complete"``` , except for [PrepareSynchronizationChangesTask](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/preparesynchronizationtask/index.md) which doesn't need this parameter. If it is a Synchronization Changes, or ActiveDirectory, you must precise it with the ```Type``` attribute.
+Create the PrepareSynchronizationTask with the connector. Set `SynchronizationMode="Complete"` ,
+except for
+[PrepareSynchronizationChangesTask](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/preparesynchronizationtask/index.md)
+which doesn't need this parameter. If it is a Synchronization Changes, or ActiveDirectory, you must
+precise it with the `Type` attribute.
 
-If the job contain Exports for the same connector add the a link between the PrepareSynchronization and the Export to check the final state of exports.
+If the job contain Exports for the same connector add the a link between the PrepareSynchronization
+and the Export to check the final state of exports.
 
 Example :
 
@@ -49,14 +59,16 @@ Example :
 
 ```
 
-For more information on PrepareSynchronization task configuration : [PrepareSynchronization Task](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/preparesynchronizationtask/index.md)
+For more information on PrepareSynchronization task configuration :
+[PrepareSynchronization Task](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/preparesynchronizationtask/index.md)
 
 ### 4. Create the Synchronization task
 
-Create the SynchronizeTask with the same ```Type``` attribute as the PrepareSynchronizationTask.
-For the complete mode the parameter DoNotDeleteChanges must not be present in the task configuration.
+Create the SynchronizeTask with the same `Type` attribute as the PrepareSynchronizationTask. For the
+complete mode the parameter DoNotDeleteChanges must not be present in the task configuration.
 
-If the job contain Exports for the same connector add the a link between the Synchronization and the Export to check the final state of exports.
+If the job contain Exports for the same connector add the a link between the Synchronization and the
+Export to check the final state of exports.
 
 Example :
 
@@ -66,15 +78,18 @@ Example :
 
 ```
 
-The Synchronization Validation Task is not needed , since it is managed by the [state machine](/versioned_docs/usercube_6.1/usercube/integration-guide/tasks-jobs/jobs/index.md).
+The Synchronization Validation Task is not needed , since it is managed by the
+[state machine](/versioned_docs/usercube_6.1/usercube/integration-guide/tasks-jobs/jobs/index.md).
 
-For more information on Synchronization task configuration : [Synchronization Task](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/synchronizetask/index.md)
+For more information on Synchronization task configuration :
+[Synchronization Task](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/synchronizetask/index.md)
 
 For more details on the Synchronization job configuration : Synchronization Job Configuration
 
 ### 5. Create the UpdateEntityPropertyExpressions task
 
-Create the UpdateEntityPropertyExpressionsTask to compute expression properties of the given entityTypes or all entityTypes.
+Create the UpdateEntityPropertyExpressionsTask to compute expression properties of the given
+entityTypes or all entityTypes.
 
 Example :
 
@@ -84,11 +99,13 @@ Example :
 
 ```
 
-For more information on UpdateEntityPropertyExpressions Task configuration : [UpdateEntityPropertyExpressionsTask](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/updateentitypropertyexpressionstask/index.md)
+For more information on UpdateEntityPropertyExpressions Task configuration :
+[UpdateEntityPropertyExpressionsTask](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/updateentitypropertyexpressionstask/index.md)
 
 ### 6. Create the ComputeCorrelationKey task
 
-Create the ComputeCorrelationKey Task to compute correlation keys of the given entityTypes or all entityTypes.
+Create the ComputeCorrelationKey Task to compute correlation keys of the given entityTypes or all
+entityTypes.
 
 Example :
 
@@ -98,7 +115,8 @@ Example :
 
 ```
 
-For more information about the ComputeCorrelationKey task configuration: [ComputeCorrelationKeysTask](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computecorrelationkeystask/index.md)
+For more information about the ComputeCorrelationKey task configuration:
+[ComputeCorrelationKeysTask](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computecorrelationkeystask/index.md)
 
 ### 7. Create the ComputeRoleModel task
 
@@ -112,14 +130,20 @@ Example :
 
 ```
 
-The TaskEntityType elements correspond to the sourceEntityTypes in the [ResourceTypes](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md) which have TargetEntityTypes that are part of the connector to provide.
+The TaskEntityType elements correspond to the sourceEntityTypes in the
+[ResourceTypes](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md)
+which have TargetEntityTypes that are part of the connector to provide.
 
-For more information on Compute Role Model task configuration: [ComputeRoleModelTask](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md)
+For more information on Compute Role Model task configuration:
+[ComputeRoleModelTask](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md)
 
 ### 8. Create the GenerateProvisioningOrder task
 
-Create the GenerateProvisioningOrder task. The GenerateProvisioningOrder task will recover all resources whose provisioningState is at 1 to build a list of JSON files containing all provisioning orders. The Connector is the same as the connector set in the PrepareSynchronization.
-The ForceProvisioning parameter must not be set to true. It's the job state machine who launch this mode if necessary.
+Create the GenerateProvisioningOrder task. The GenerateProvisioningOrder task will recover all
+resources whose provisioningState is at 1 to build a list of JSON files containing all provisioning
+orders. The Connector is the same as the connector set in the PrepareSynchronization. The
+ForceProvisioning parameter must not be set to true. It's the job state machine who launch this mode
+if necessary.
 
 Example :
 
@@ -129,7 +153,8 @@ Example :
 
 ```
 
-For more information on GenerateProvisioningOrder task configuration: [GenerateProvisioningOrdersTask](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/generateprovisioningorderstask/index.md)
+For more information on GenerateProvisioningOrder task configuration:
+[GenerateProvisioningOrdersTask](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/generateprovisioningorderstask/index.md)
 
 ### 9. Create the Fulfill task
 
@@ -137,9 +162,10 @@ Create the Fulfill task.
 
 You must specify the right connection to fulfill the desired system.
 
-All fulfillment task have the ContinueOnError property.
-It is advisable to begin with the value of True so that the task is not blocking for the Job.
-The fulfill Tasks are directly depanding of GenerateProvisioningOrdersTask. If this task has not create a new provisioning order. The fulfillment must be not launch in the job.
+All fulfillment task have the ContinueOnError property. It is advisable to begin with the value of
+True so that the task is not blocking for the Job. The fulfill Tasks are directly depanding of
+GenerateProvisioningOrdersTask. If this task has not create a new provisioning order. The
+fulfillment must be not launch in the job.
 
 ```
 
@@ -149,7 +175,9 @@ The fulfill Tasks are directly depanding of GenerateProvisioningOrdersTask. If t
 
 ### 10. Create the UpdateClassification task
 
-Create the Update Classification Task. The resource Classification is needed if one or more [resource classification rules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourceclassificationrule/index.md) are configured for the connector.
+Create the Update Classification Task. The resource Classification is needed if one or more
+[resource classification rules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourceclassificationrule/index.md)
+are configured for the connector.
 
 ```
 
@@ -157,13 +185,18 @@ Create the Update Classification Task. The resource Classification is needed if 
 
 ```
 
-For more information on Update Classification Task : [UpdateClassificationTask](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/updateclassificationtask/index.md)
+For more information on Update Classification Task :
+[UpdateClassificationTask](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/updateclassificationtask/index.md)
 
 ### 11. Create the SetInternalUserProfiles task
 
-Create the Set Internal User Profiles Task. The Profile Assignment is needed if one ore more [profile rules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/profilerulecontext/index.md) are configured.
+Create the Set Internal User Profiles Task. The Profile Assignment is needed if one ore more
+[profile rules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/profilerulecontext/index.md)
+are configured.
 
-This Task is directly linked to a Fulfill parent. if the fulfillment has been completed with the state warning or if it was not started or no processing has been performed, launching this task becomes useless.
+This Task is directly linked to a Fulfill parent. if the fulfillment has been completed with the
+state warning or if it was not started or no processing has been performed, launching this task
+becomes useless.
 
 ```
 
@@ -171,7 +204,8 @@ This Task is directly linked to a Fulfill parent. if the fulfillment has been co
 
 ```
 
-For more information on SetInternalUserProfiles Task configuration : [SetInternalUserProfilesTask](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/setinternaluserprofilestask/index.md)
+For more information on SetInternalUserProfiles Task configuration :
+[SetInternalUserProfilesTask](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/setinternaluserprofilestask/index.md)
 
 ### 12. Create the all-tasks job
 
@@ -183,6 +217,7 @@ Once the tasks created. You must create the job to launch all tasks.
 
 ```
 
-The job can be scheduled with the ```CrontabExpression``` attribute
+The job can be scheduled with the `CrontabExpression` attribute
 
-For more information on job configuration : [Jobs](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/job/index.md)
+For more information on job configuration :
+[Jobs](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/job/index.md)

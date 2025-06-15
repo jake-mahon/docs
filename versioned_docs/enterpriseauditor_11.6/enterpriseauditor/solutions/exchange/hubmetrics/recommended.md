@@ -14,57 +14,77 @@ The 0. Collection Job Group has been set to run against the following default dy
 - Exchange 2013 MB Servers
 - Exchange HUB Servers
 
-__NOTE:__ Default dynamic host lists are populated from hosts in the Host Master Table which meet the host inventory criteria for the list. Ensure the appropriate host lists have been populated through host inventory results.
+**NOTE:** Default dynamic host lists are populated from hosts in the Host Master Table which meet
+the host inventory criteria for the list. Ensure the appropriate host lists have been populated
+through host inventory results.
 
-___RECOMMENDED:___ Only modify host lists in the 0. Collection Job Group.
+**_RECOMMENDED:_** Only modify host lists in the 0. Collection Job Group.
 
 Connection Profile
 
-A Connection Profile must be set directly on the EX_MetricsCollection Job and the EX_MetricsDetails Job. See the [Exchange Mail-Flow Permissions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/exchange/mailflow.md) topic for required permissions.
+A Connection Profile must be set directly on the EX_MetricsCollection Job and the EX_MetricsDetails
+Job. See the
+[Exchange Mail-Flow Permissions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/exchange/mailflow.md)
+topic for required permissions.
 
-See the [Connection](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/overview.md) topic for additional information.
+See the
+[Connection](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/overview.md)
+topic for additional information.
 
 Schedule Frequency
 
-This job group has been designed to run daily to process and collect the previous day’s message tracking logs. Run this job after 12:01 AM when the logs on the Exchange servers have rolled over to the next day.
+This job group has been designed to run daily to process and collect the previous day’s message
+tracking logs. Run this job after 12:01 AM when the logs on the Exchange servers have rolled over to
+the next day.
 
-___RECOMMENDED:___ Run this job group at 1:00 AM.
+**_RECOMMENDED:_** Run this job group at 1:00 AM.
 
 History Retention
 
-History retention should not be enabled on this job group. History is kept through analysis tasks. Modify the following analysis tasks to customize the amount of history which is kept:
+History retention should not be enabled on this job group. History is kept through analysis tasks.
+Modify the following analysis tasks to customize the amount of history which is kept:
 
-| Job Name | Analysis Task Name | Default History |
-| --- | --- | --- |
-| EX_MetricsCollection | SET HISTORY RETENTION | 6 Months |
-| EX_MetricsDetails | SET HISTORY RETENTION | 6 Months |
+| Job Name             | Analysis Task Name    | Default History |
+| -------------------- | --------------------- | --------------- |
+| EX_MetricsCollection | SET HISTORY RETENTION | 6 Months        |
+| EX_MetricsDetails    | SET HISTORY RETENTION | 6 Months        |
 
-See the [Exchange History Retention](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#exchange-history-retention) topic for additional information.
+See the
+[Exchange History Retention](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#exchange-history-retention)
+topic for additional information.
 
 Query Configuration
 
-The 1. HUB Metrics Job Group is designed to be run with the default query configurations with the following exceptions:
+The 1. HUB Metrics Job Group is designed to be run with the default query configurations with the
+following exceptions:
 
-- EX_MetricsDetails Job – The __Activity Metrics__ Query requires domains to be configured
-- All queries in the 1.HUB Metrics Job Group that use the ExchangeMetrics Data Collector – (Optional) The __Enable Persistent Log State__ option can be enabled on the Options page of the Exchange Metrics Data Collector Wizard to search the log from where the previous search left off. See the [ExchangeMetrics: Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchangemetrics/options.md) topic for additional information.
+- EX_MetricsDetails Job – The **Activity Metrics** Query requires domains to be configured
+- All queries in the 1.HUB Metrics Job Group that use the ExchangeMetrics Data Collector –
+  (Optional) The **Enable Persistent Log State** option can be enabled on the Options page of the
+  Exchange Metrics Data Collector Wizard to search the log from where the previous search left off.
+  See the
+  [ExchangeMetrics: Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchangemetrics/options.md) topic
+  for additional information.
 
 Analysis Configuration
 
 The 1. HUB Metrics Job Group should be run with the default analysis configurations.
 
-__CAUTION:__ Most of these analysis tasks are preconfigured and should not be modified or deselected. There are a few which are deselected by default, as they are for troubleshooting purposes.
+**CAUTION:** Most of these analysis tasks are preconfigured and should not be modified or
+deselected. There are a few which are deselected by default, as they are for troubleshooting
+purposes.
 
 The following analysis tasks should not be deselected, but their parameters can be modified:
 
-- __0. Collection__ > __EX_MetricsCollection__ Job – __08. SET HISTORY RETENTION__ Analysis Task
-- __0. Collection__ > __EX_MetricsDetails__ Job – __02. SET HISTORY RETENTION__ Analysis Task
+- **0. Collection** > **EX_MetricsCollection** Job – **08. SET HISTORY RETENTION** Analysis Task
+- **0. Collection** > **EX_MetricsDetails** Job – **02. SET HISTORY RETENTION** Analysis Task
 
 Workflow
 
-__Step 1 –__ Set a Connection Profile on the jobs that run data collection.
+**Step 1 –** Set a Connection Profile on the jobs that run data collection.
 
-__Step 2 –__ Schedule the __1. HUB Metrics__ Job Group to run daily.
+**Step 2 –** Schedule the **1. HUB Metrics** Job Group to run daily.
 
-___RECOMMENDED:___ Run at 1:00 AM.
+**_RECOMMENDED:_** Run at 1:00 AM.
 
-__Step 3 –__ Review the reports generated by the jobs.
+**Step 3 –** Review the reports generated by the jobs.

@@ -1,6 +1,9 @@
 # SharePoint Online Search Results
 
-When a search has been started, the Search Status table at the bottom displays the percentage complete according to the size and quantity of the activity log files being searched per activity agent. You can [Filter](../overview.md#filter) and [Sort](../overview.md#sort) the results using the column headers. Below the Search button is the [Export](../overview.md#export) option.
+When a search has been started, the Search Status table at the bottom displays the percentage
+complete according to the size and quantity of the activity log files being searched per activity
+agent. You can [Filter](../overview.md#filter) and [Sort](../overview.md#sort) the results using the
+column headers. Below the Search button is the [Export](../overview.md#export) option.
 
 ![SharePoint Online Search Results](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/search/results/sharepointonlinesearchresults.webp)
 
@@ -23,7 +26,8 @@ The results data grid columns display the following information for each event:
 - Relative URL - Indicates the Relative URL associated with the event
 - File Name - The name of the file associated with the event
 - Extension - If applicable, indicates the extension of the file associated with the event
-- New Relative URL - If applicable, indicates the new relative URL of the file associated with the event
+- New Relative URL - If applicable, indicates the new relative URL of the file associated with the
+  event
 - New File Name - If applicable, indicates the new name for the file associated with the event
 - New Extension - If applicable, indicates the new extension of the file associated with the event
 - Workload - Workload associated with the event
@@ -34,4 +38,6 @@ The results data grid columns display the following information for each event:
 - Event Data – Data associated with the event
 - Custom Event - If the Custom Event filter was configured in the Query bar, it will appear here
 
-At the bottom of the search interface, additional information is displayed for selected events in the data grid. The Attribute Name, Operation, Old Value, and New Value for the logged event (as applicable to the event) are displayed.
+At the bottom of the search interface, additional information is displayed for selected events in
+the data grid. The Attribute Name, Operation, Old Value, and New Value for the logged event (as
+applicable to the event) are displayed.

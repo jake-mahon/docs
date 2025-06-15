@@ -10,16 +10,18 @@ You can use APIs to login to the EPE REST Service:
 
 This API is used to login under a specified account.
 
-This operation returns a session hash value in the body of the response, that can be used for api/Epe/CheckPassword requests. To use this value in an api/Epe/CheckPassword request, provide it in the header of the request.
+This operation returns a session hash value in the body of the response, that can be used for
+api/Epe/CheckPassword requests. To use this value in an api/Epe/CheckPassword request, provide it in
+the header of the request.
 
 Authentication required – No
 
 Required Input Parameters
 
 ```
-{  
-"username":"username",  
-"password":"password"  
+{
+"username":"username",
+"password":"password"
 }
 ```
 
@@ -38,8 +40,8 @@ Authentication required – Digest
 Required Header Input Parameters
 
 ```
-"User”: <username>  
-"Authorization”:”Hash”  
+"User”: <username>
+"Authorization”:”Hash”
 "Hash": <hashvalue>
 ```
 
@@ -51,7 +53,9 @@ Example
 
 This API is used to login under a specified account.
 
-This operation returns an access_token value in the body of the response, that can be used for api/Epe/CheckPassword requests. To use this value in an api/Epe/CheckPassword request, provide it in the header of the request.
+This operation returns an access_token value in the body of the response, that can be used for
+api/Epe/CheckPassword requests. To use this value in an api/Epe/CheckPassword request, provide it in
+the header of the request.
 
 Authentication required – Bearer
 

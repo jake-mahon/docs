@@ -27,7 +27,8 @@ For Unix Data Collector
 
 - Root permissions in Unix/Linux
 
-If the Root permission is unavailable, a least privileged model can be used. See the [Least Privilege Model](#least-privilege-model) topic additional information.
+If the Root permission is unavailable, a least privileged model can be used. See the
+[Least Privilege Model](#least-privilege-model) topic additional information.
 
 ## Ports
 
@@ -45,34 +46,42 @@ For Unix Data Collector
 
 ## Least Privilege Model
 
-Enterprise Auditor for Unix collects information from Unix devices by running commands or executing scripts on your Unix hosts (if configured properly our tool can SCP scripts to your hosts before execution). Therefore, the domain or local user credentials entered in the Connection Profile within the Enterprise Auditor must be capable of running the necessary commands, executing the necessary scripts or, in some cases, have rights to SCP scripts to the host.
+Enterprise Auditor for Unix collects information from Unix devices by running commands or executing
+scripts on your Unix hosts (if configured properly our tool can SCP scripts to your hosts before
+execution). Therefore, the domain or local user credentials entered in the Connection Profile within
+the Enterprise Auditor must be capable of running the necessary commands, executing the necessary
+scripts or, in some cases, have rights to SCP scripts to the host.
 
 ### Connecting to Unix Hosts
 
 Enterprise Auditor for Unix connects to your host in two ways:
 
-- Plink – This mechanism is leveraged during our tools Host Inventory to test connectivity to a host and to collect basic details about a host (Host Name, OS Type, etc.)
-- Implementation of the SSH2 protocol built into Enterprise Auditor – This is how the Unix Data Collector interacts with and pulls information from your environment
+- Plink – This mechanism is leveraged during our tools Host Inventory to test connectivity to a host
+  and to collect basic details about a host (Host Name, OS Type, etc.)
+- Implementation of the SSH2 protocol built into Enterprise Auditor – This is how the Unix Data
+  Collector interacts with and pulls information from your environment
 
 Authentication Methods
 
 - SSH Login Required
 - SSH Private Key
 
-  - Supported Key Types
+    - Supported Key Types
 
-    - Open SSH
-    - PuTTY Private Key
+        - Open SSH
+        - PuTTY Private Key
 
 Device Connectivity
 
 - SSH port opened in software and hardware firewalls. Default is 22.
 
-  - If you do not use Port 22, you can specify your SSH port in the Connection Profile
+    - If you do not use Port 22, you can specify your SSH port in the Connection Profile
 
 ### Commands for Non-Root Accounts
 
-We recommend using the root account to run Enterprise Auditor against a Unix system. However, if that is not acceptable all the commands we leverage in the solution set are below and can be used to implement least privilege:
+We recommend using the root account to run Enterprise Auditor against a Unix system. However, if
+that is not acceptable all the commands we leverage in the solution set are below and can be used to
+implement least privilege:
 
 All Perl scripts require the account to be able to execute the following commands:
 
@@ -90,23 +99,25 @@ rm -f [script]
 
 #### UX_UsersAndGroups Job Requirements
 
-The 1.Users and Groups > 0.Collection > UX_UsersAndGroups Job requires permissions in the Unix environment to run the following commands:
+The 1.Users and Groups > 0.Collection > UX_UsersAndGroups Job requires permissions in the Unix
+environment to run the following commands:
 
 Commands Used
 
-- ```grep```
-- ```egrep```
-- ```uname```
-- ```cat /etc/passwd``` (read access)
-- ```cat /etc/group``` (read access)
-- ```cat /etc/security/user``` (read access)
-- ```cat /etc/shadow```
+- `grep`
+- `egrep`
+- `uname`
+- `cat /etc/passwd` (read access)
+- `cat /etc/group` (read access)
+- `cat /etc/security/user` (read access)
+- `cat /etc/shadow`
 
-  - Requires root or customization to job to utilize sudo without password prompt (:NOPASSWD)
-- ```egrep /etc/security/user``` (read access)
-- ```egrep /etc/login.defs``` (read access)
-- ```egrep /etc/default/passwd``` (read access)
-- ```cat /etc/security/passwd``` (read access)
+    - Requires root or customization to job to utilize sudo without password prompt (:NOPASSWD)
+
+- `egrep /etc/security/user` (read access)
+- `egrep /etc/login.defs` (read access)
+- `egrep /etc/default/passwd` (read access)
+- `cat /etc/security/passwd` (read access)
 
 Perl Scripts Used
 
@@ -120,24 +131,27 @@ SA_UX_AIX_UserLastUpdate.pl
 
 #### UX_MakeDirectory Job Requirements
 
-The 2.PrivilegedAccess > Sudoers > 0.Collection > UX_MakeDirectory Job requires permissions in the Unix environment to run the following commands:
+The 2.PrivilegedAccess > Sudoers > 0.Collection > UX_MakeDirectory Job requires permissions in the
+Unix environment to run the following commands:
 
 Commands Used
 
-- ```mkdir /tmp/Stealthbits/```
+- `mkdir /tmp/Stealthbits/`
 
 #### UX_ParseSudoers Job Requires
 
-The 2.PrivilegedAccess > Sudoers > 0.Collection > UX_ParseSudoers Job requires permissions in the Unix environment to run the following commands:
+The 2.PrivilegedAccess > Sudoers > 0.Collection > UX_ParseSudoers Job requires permissions in the
+Unix environment to run the following commands:
 
-__NOTE:__ To parse sudoers we either need root or an account that has access to use sudo without password prompt (:NOPASSWD)
+**NOTE:** To parse sudoers we either need root or an account that has access to use sudo without
+password prompt (:NOPASSWD)
 
 Commands Used
 
-- ```sudo chmod 500 SA_UX_ParseSudoers.pl```
-- ```sudo ./SA_UX_ParseSudoers.pl```
-- ```sudo rm SA_UX_ParseSudoers.pl```
-- ```sudo rmdir /tmp/Stealthbits/```
+- `sudo chmod 500 SA_UX_ParseSudoers.pl`
+- `sudo ./SA_UX_ParseSudoers.pl`
+- `sudo rm SA_UX_ParseSudoers.pl`
+- `sudo rmdir /tmp/Stealthbits/`
 
 Perl Scripts Used
 
@@ -145,21 +159,23 @@ Perl Scripts Used
 SA_UX_ParseSudoers.pl
 ```
 
-This grants read access to  ```/etc/sudoers```
+This grants read access to  `/etc/sudoers`
 
 #### UX_CriticalFiles Job Requires
 
-The 2.PrivilegedAccess > UX_Critical Files Job requires permissions in the Unix environment to run the following commands:
+The 2.PrivilegedAccess > UX_Critical Files Job requires permissions in the Unix environment to run
+the following commands:
 
 Commands Used
 
-- ```ls -al /etc/```
-- ```ls -al /etc/samba/```
-- ```ls -al /etc/sysconfig```
+- `ls -al /etc/`
+- `ls -al /etc/samba/`
+- `ls -al /etc/sysconfig`
 
 #### UX_NFSConfiguration Job Requires
 
-The 3.Sharing > 0.Collection > UX_NFSConfiguration Job requires permissions in the Unix environment to run the following commands:
+The 3.Sharing > 0.Collection > UX_NFSConfiguration Job requires permissions in the Unix environment
+to run the following commands:
 
 Perl Scripts Used
 
@@ -169,12 +185,13 @@ SA_UX_NFSConfiguration.pl
 
 This grants:
 
-- read access to ```/etc/exports```
-- read access to ```/etc/dfs/dfstab```
+- read access to `/etc/exports`
+- read access to `/etc/dfs/dfstab`
 
 #### UX_SambaConfiguration Job Requires
 
-The 3.Sharing > 0.Collection > UX_SambaConfiguration Job requires permissions in the Unix environment to run the following commands:
+The 3.Sharing > 0.Collection > UX_SambaConfiguration Job requires permissions in the Unix
+environment to run the following commands:
 
 Perl Scripts Used
 
@@ -184,5 +201,5 @@ SA_UX_SambaConfiguration.pl
 
 This grants:
 
-- read access to ```/etc/sfw/smb.conf```
-- read access to ```/etc/samba/smb.conf```
+- read access to `/etc/sfw/smb.conf`
+- read access to `/etc/samba/smb.conf`

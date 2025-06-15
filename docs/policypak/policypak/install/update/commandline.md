@@ -2,19 +2,23 @@
 
 ## Using Endpoint Policy Manager Cloud
 
-From a CMD prompt, run ```ppcloud /cseupdatenow``` or```ppcloud /update``` (both commands do the same thing) Check for updated cloud client and client-side extensions and install them, if any are available.
+From a CMD prompt, run `ppcloud /cseupdatenow` or`ppcloud /update` (both commands do the same thing)
+Check for updated cloud client and client-side extensions and install them, if any are available.
 
-From more information seeRecommendations when using Netwrix Endpoint Policy Manager (formerly PolicyPak) Cloud: Rings and Rollouts in the topic below.
+From more information seeRecommendations when using Netwrix Endpoint Policy Manager (formerly
+PolicyPak) Cloud: Rings and Rollouts in the topic below.
 
 - [Using Rings to Test and Update the Endpoint Policy Manager Client-Side Extension and/or Cloud Client (And How to Stay Supported)](../rings.md)
 
-__NOTE:__ When using the commands above both the CSE and PPC client will be updated if new versions are available.
+**NOTE:** When using the commands above both the CSE and PPC client will be updated if new versions
+are available.
 
 ## Using Endpoint Policy Manager Group Policy (OnPrem) Edition
 
-From a CMD prompt run ```ppupdate```followed by one of the switches in the examples provided below.
+From a CMD prompt run `ppupdate`followed by one of the switches in the examples provided below.
 
-__NOTE:__ These switches are dependent on having the CSE MSI files present in the Central Store See Active Directory Options 2 & 3 in the KB below for more information.
+**NOTE:** These switches are dependent on having the CSE MSI files present in the Central Store See
+Active Directory Options 2 & 3 in the KB below for more information.
 
 [Using Rings to Test and Update the Endpoint Policy Manager Client-Side Extension and/or Cloud Client (And How to Stay Supported)](../rings.md)
 
@@ -24,7 +28,7 @@ Examples:
 ppupdate /cseupdate
 ```
 
-Forces CSE to immediately re-read ```update.config```
+Forces CSE to immediately re-read `update.config`
 
 Check for updates will be performed on schedule.
 
@@ -32,7 +36,8 @@ Check for updates will be performed on schedule.
 ppupdate /cseupdatenow
 ```
 
-Forces CSE to immediately re-read ```update.config```, checks for updates and installs them if any are available.
+Forces CSE to immediately re-read `update.config`, checks for updates and installs them if any are
+available.
 
 Using this option will also reset the schedule.
 
@@ -40,4 +45,6 @@ Using this option will also reset the schedule.
 ppupdate /cseupdatenow /force 
 ```
 
-When specified along with /cseupdatenow, forces CSE to check for updates even when automatic updates are disabled in ```update.config```. This option is useful for those who want to check for updates on their own schedule.
+When specified along with /cseupdatenow, forces CSE to check for updates even when automatic updates
+are disabled in `update.config`. This option is useful for those who want to check for updates on
+their own schedule.

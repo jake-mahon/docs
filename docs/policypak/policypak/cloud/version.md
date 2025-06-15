@@ -2,8 +2,10 @@
 
 ![975_1_image-20230526004959-1_950x398](../../../../static/img/product_docs/policypak/policypak/cloud/975_1_image-20230526004959-1_950x398.webp)
 
-__Step 1 –__ Login to the Netwrix Endpoint Policy Manager (formerly PolicyPak) Cloud Portal and select the __Company Details__ tab.
+**Step 1 –** Login to the Netwrix Endpoint Policy Manager (formerly PolicyPak) Cloud Portal and
+select the **Company Details** tab.
 
-__Step 2 –__ Select the __Computer list__ report.
+**Step 2 –** Select the **Computer list** report.
 
-__Step 3 –__ View the PPC Client Version and PPC CSE version columns in the __Computer list__ report, filter the columns if needed.
+**Step 3 –** View the PPC Client Version and PPC CSE version columns in the **Computer list**
+report, filter the columns if needed.

@@ -24,51 +24,63 @@ It enables you to:
 
 - Filter the view.
 - Access the Customization Record.
-- Access the actual customization record by clicking on the __Link__ column on the right.
+- Access the actual customization record by clicking on the **Link** column on the right.
 
-Changing the view enables you to access many clean up tools, which can also be accessed by going to __Clean Up__ located under the __Strongpoint__ tab.
+Changing the view enables you to access many clean up tools, which can also be accessed by going to
+**Clean Up** located under the **Strongpoint** tab.
 
 To access the customization list:
 
-1. Open __Strongpoint__> __Customizations__ > __Customization__
-2. The recommended view is __Strongpoint Filter__ to enable the filters to narrow down your search.
+1. Open **Strongpoint**> **Customizations** > **Customization**
+2. The recommended view is **Strongpoint Filter** to enable the filters to narrow down your search.
 
 ![customization-list](../../../static/img/product_docs/strongpointfornetsuite/customizations/customization-list.webp)
 
 ## Customization Quick Search
 
-To access a customization quick search, open __Strongpoint__ > __Customizations__ > __Customization Quick Search__
+To access a customization quick search, open **Strongpoint** > **Customizations** > **Customization
+Quick Search**
 
-You can search using several factors and submit. When looking up by __Name__, using __Contains__ helps if you do not have the exact name.
+You can search using several factors and submit. When looking up by **Name**, using **Contains**
+helps if you do not have the exact name.
 
 ![custquicksearch](../../../static/img/product_docs/strongpointfornetsuite/customizations/custquicksearch.webp)
 
 ## ERD View
 
-The ERD provides a way to look at customizations by record type. A left click on the customization name brings up the customization record.
+The ERD provides a way to look at customizations by record type. A left click on the customization
+name brings up the customization record.
 
-1. Open __Strongpoint__> __Customizations__ > __ERD View__
-2. Select a __Record Type__ from the list.
+1. Open **Strongpoint**> **Customizations** > **ERD View**
+2. Select a **Record Type** from the list.
 3. Add any options:
 
-   - __Field Name Filter__: enter all or part of a field name to filter the results.
-   - __Date Last Used Filter__: enter a date range to filter the results.
-   - __Hide standard fields without relationships__: check this box to hide all standard fields that do not have relationships from the results.
-   - __Hide all standard fields__: check this box to hide all standard fields from the results.
-   - __Hide all fields without custom relationships__: check this box to hide all unused fields that do not have custom relationships from the results.
-   - __Hide Unused fields__: check this box to hide all unused fields from the results, based on the DLU.
-4. Click __Show Record ERD__.
+    - **Field Name Filter**: enter all or part of a field name to filter the results.
+    - **Date Last Used Filter**: enter a date range to filter the results.
+    - **Hide standard fields without relationships**: check this box to hide all standard fields
+      that do not have relationships from the results.
+    - **Hide all standard fields**: check this box to hide all standard fields from the results.
+    - **Hide all fields without custom relationships**: check this box to hide all unused fields
+      that do not have custom relationships from the results.
+    - **Hide Unused fields**: check this box to hide all unused fields from the results, based on
+      the DLU.
 
-   ![erd-view](../../../static/img/product_docs/strongpointfornetsuite/customizations/erd-view.webp)
-5. Click on any item to expand the view. For large lists, click __More__ to see the additional items.  
+4. Click **Show Record ERD**.
+
+    ![erd-view](../../../static/img/product_docs/strongpointfornetsuite/customizations/erd-view.webp)
+
+5. Click on any item to expand the view. For large lists, click **More** to see the additional
+   items.  
    External sources headers are highlighted in green.
 
-   ![ERD with an External Source](../../../static/img/product_docs/strongpointfornetsuite/customizations/celigo_erd.webp)
-6. Click __Open Record__ on any Customization to open the actual record.
+    ![ERD with an External Source](../../../static/img/product_docs/strongpointfornetsuite/customizations/celigo_erd.webp)
+
+6. Click **Open Record** on any Customization to open the actual record.
 
 ## ERD Search Form
 
-The ERD search form enables you to search by different record types. You can also use it to create a Process Issue or a Change Request. Refer to [Enabling the ERD Search](using_erd.md).
+The ERD search form enables you to search by different record types. You can also use it to create a
+Process Issue or a Change Request. Refer to [Enabling the ERD Search](using_erd.md).
 
 From the ERD Search Form, you can search by:
 
@@ -80,25 +92,32 @@ From the ERD Search Form, you can search by:
 
 ![erdsearchform-2](../../../static/img/product_docs/strongpointfornetsuite/customizations/erdsearchform-2.webp)
 
-Once you have finished your search, you can create a Process Issue or a Change Request from the results.
+Once you have finished your search, you can create a Process Issue or a Change Request from the
+results.
 
 ![erdsearchform-3](../../../static/img/product_docs/strongpointfornetsuite/customizations/erdsearchform-3.webp)
 
 ## Customization Impact Search
 
-The Customization Impact Search displays customizations and the other customizations that are impacted by those customizations. For example, it will show if a field is used in a script or a search.
+The Customization Impact Search displays customizations and the other customizations that are
+impacted by those customizations. For example, it will show if a field is used in a script or a
+search.
 
 To access a customization quick search:
 
-1. Select __Strongpoint__ > __Customizations__ > __Customization Impact Search Form__.
+1. Select **Strongpoint** > **Customizations** > **Customization Impact Search Form**.
 2. Enter any criteria to narrow the results as required.
 
 ![impactsearchform](../../../static/img/product_docs/strongpointfornetsuite/customizations/impactsearchform.webp)
 
 ## Other Customizations
 
-Often looking at one customization leads to more questions about what other related customizations are linked to the one you are looking at. The tabs in the customization record provide links to other customizations by type.
+Often looking at one customization leads to more questions about what other related customizations
+are linked to the one you are looking at. The tabs in the customization record provide links to
+other customizations by type.
 
 ## Process Documentation
 
-Linking customizations to processes is a powerful way of understanding the function and impact of any customizations. The detailed step information in the __Process Assistant__ shows the links to customizations for that process.
+Linking customizations to processes is a powerful way of understanding the function and impact of
+any customizations. The detailed step information in the **Process Assistant** shows the links to
+customizations for that process.

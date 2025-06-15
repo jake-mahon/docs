@@ -2,22 +2,22 @@
 
 Tests your connection with the SMS gateway.
 
-__Namespace:__ Imanami.PublicInterfaces
+**Namespace:** Imanami.PublicInterfaces
 
-__Assembly:__ Imanami.PublicInterfaces.dll
+**Assembly:** Imanami.PublicInterfaces.dll
 
-__Syntax__
+**Syntax**
 
 ```
 bool TestConnection();
 ```
 
-__Return Value__
+**Return Value**
 
 Type: [System.Boolean](http://msdn.microsoft.com/en-us/library/system.boolean.aspx)
 
 True if a connection is established with the SMS gateway.
 
-__See Also__
+**See Also**
 
 - [Implement and Deploy a Custom SMS Gateway](../implementcustom.md)

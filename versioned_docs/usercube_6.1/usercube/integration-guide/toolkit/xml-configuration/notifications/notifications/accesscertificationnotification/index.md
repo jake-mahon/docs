@@ -4,7 +4,10 @@ Reminder notification concerning access certification.
 
 ## Examples
 
-The following example sends after 2 days a reminder notification to users who were already notified by the native notification for access certification (on resources from ```Directory_User```) and have not yet performed the action. The email's content and styles are those from the original notification, but the subject is overridden by ```TitleExpression``` here.
+The following example sends after 2 days a reminder notification to users who were already notified
+by the native notification for access certification (on resources from `Directory_User`) and have
+not yet performed the action. The email's content and styles are those from the original
+notification, but the subject is overridden by `TitleExpression` here.
 
 ```
 
@@ -12,7 +15,8 @@ The following example sends after 2 days a reminder notification to users who we
 
 ```
 
-The following example sends the exact same notification as the previous example, but with different templates for the content and the styles.
+The following example sends the exact same notification as the previous example, but with different
+templates for the content and the styles.
 
 ```
 
@@ -22,11 +26,11 @@ The following example sends the exact same notification as the previous example,
 
 ## Properties
 
-| Property | Details |
-| --- | --- |
-| Identifier   required | __Type__    String   __Description__   Unique identifier of the notification. |
-| OwnerEntityType   required | __Type__    String   __Description__   Identifier of the entity type that represents the population affected by the notification, and the variable type used in ```TitleExpression```. |
-| CssTemplate   optional | __Type__    String   __Description__   Path to the css file that defines the styles for the email.   __Note:__ the path must be relative to the configuration folder, and the file must be inside it.   __Note:__ when no template is specified, the reminder notification will use the same template as the original notification. |
-| RazorTemplate   optional | __Type__    String   __Description__   Path to the Razor cshtml file that defines the email's body template.   __Note:__ the path must be relative to the configuration folder, and the file must be inside it.   __Note:__ when no template is specified, the reminder notification will use the same template as the original notification. |
-| ReminderInterval   default value: 0 | __Type__    Int32   __Description__   Time period (in minutes) after which a reminder of the original notification should be sent.   __Note:__ the notification reminder will be sent by the first ```SendNotificationsTask``` after the reminder interval is exceeded. |
-| TitleExpression   optional | __Type__    String   __Description__   C# expression that defines the email's subject. The expression's variable type is defined in ```OwnerEntityType```. [See more details on C# expressions](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/expressions/index.md). |
+| Property                          | Details                                                                                                                                                                                                                                                                                                                            |
+| --------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Identifier required               | **Type** String **Description** Unique identifier of the notification.                                                                                                                                                                                                                                                             |
+| OwnerEntityType required          | **Type** String **Description** Identifier of the entity type that represents the population affected by the notification, and the variable type used in `TitleExpression`.                                                                                                                                                        |
+| CssTemplate optional              | **Type** String **Description** Path to the css file that defines the styles for the email. **Note:** the path must be relative to the configuration folder, and the file must be inside it. **Note:** when no template is specified, the reminder notification will use the same template as the original notification.           |
+| RazorTemplate optional            | **Type** String **Description** Path to the Razor cshtml file that defines the email's body template. **Note:** the path must be relative to the configuration folder, and the file must be inside it. **Note:** when no template is specified, the reminder notification will use the same template as the original notification. |
+| ReminderInterval default value: 0 | **Type** Int32 **Description** Time period (in minutes) after which a reminder of the original notification should be sent. **Note:** the notification reminder will be sent by the first `SendNotificationsTask` after the reminder interval is exceeded.                                                                         |
+| TitleExpression optional          | **Type** String **Description** C# expression that defines the email's subject. The expression's variable type is defined in `OwnerEntityType`. [See more details on C# expressions](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/expressions/index.md).                                                        |

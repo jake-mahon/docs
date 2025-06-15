@@ -14,8 +14,8 @@ The following example declares a new language.
 
 ## Properties
 
-| Property | Details |
-| --- | --- |
-| Code   required | __Type__    String   __Description__   Unique identifier of the language (fr-FR, en-US�). |
-| IndicatorNumber   required | __Type__    Int32   __Description__   Defines the default language. |
-| JsonPath   optional | __Type__    String   __Description__   The original translations file path |
+| Property                 | Details                                                                            |
+| ------------------------ | ---------------------------------------------------------------------------------- |
+| Code required            | **Type** String **Description** Unique identifier of the language (fr-FR, en-US�). |
+| IndicatorNumber required | **Type** Int32 **Description** Defines the default language.                       |
+| JsonPath optional        | **Type** String **Description** The original translations file path                |

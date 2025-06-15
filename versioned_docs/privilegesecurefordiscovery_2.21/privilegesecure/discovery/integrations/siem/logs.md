@@ -1,42 +1,48 @@
 # Logs
 
-Logs 
+Logs
 
 # Logs
 
 ## General Log Format
 
-Most log lines are output in JSON format. The exact structure varies by service. See Service-Specific Log Format section below. See the [Splunk (JSON) Source Type](/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/integrations/siem/splunkjson.md) topic for additional information.
+Most log lines are output in JSON format. The exact structure varies by service. See
+Service-Specific Log Format section below. See the
+[Splunk (JSON) Source Type](/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/integrations/siem/splunkjson.md)
+topic for additional information.
 
 ### Event Logs vs Debugging Logs
 
-- Debugging logs – logs with a ```"debugging": true``` flag are meant for troubleshooting and are subject to change without notice.
+- Debugging logs – logs with a `"debugging": true` flag are meant for troubleshooting and are
+  subject to change without notice.
 
 Example
 
 ```
-{  
-"asctime": "2020-09-23 16:19:19,622",  
-"debugging": true,  
-"jobId": "46b0f845-5a35-4433-b955-195a8a794985",  
-...  
-}  
+{
+"asctime": "2020-09-23 16:19:19,622",
+"debugging": true,
+"jobId": "46b0f845-5a35-4433-b955-195a8a794985",
+...
+}
 
 ```
 
-- Event logs – all other logs without the ```"debugging"``` flag should _not_ be changed without notice (via an entry in the changelog).
+- Event logs – all other logs without the `"debugging"` flag should _not_ be changed without notice
+  (via an entry in the changelog).
 
-__NOTE:__ Dynamic data (such as timing, system name, etc...) are not considered changes
+**NOTE:** Dynamic data (such as timing, system name, etc...) are not considered changes
 
 ### Log Levels
 
-__NOTE:__ Older log messages may not follow this format, but are being migrated over.
+**NOTE:** Older log messages may not follow this format, but are being migrated over.
 
 - Critical – Service is going down (people should be woken up)
 - Error – Definitely a problem (should be reported to someone, tests should fail)
 - Warning – Something concerning, but may not actually be a problem
 
-  - Example – Most network-related issues are only a problem if they happen frequently
+    - Example – Most network-related issues are only a problem if they happen frequently
+
 - Info – Normal event/ info log
 - Debug – More information than is normally needed, usually only used when troubleshooting
 
@@ -48,7 +54,8 @@ This sections describes log formats in Privilege Secure.
 
 Most log messages emitted by the API will include the following fields:
 
-- req_id — Unique identifier for an incoming request. All API events that are generated as part of this request will have the same value.
+- req_id — Unique identifier for an incoming request. All API events that are generated as part of
+  this request will have the same value.
 - access.user — Properties about the authenticated user making the request
 - client
 
@@ -106,21 +113,21 @@ Fields
 Example
 
 ```
-{  
-"asctime": "2000-01-01 00:00:00,000",  
-"levelname": "INFO",  
-"message": "Checking for pending requests",  
- "name": "svc-expire",  
-"system": "Main",  
- "threadName": "MainThread"  
- },  
- {  
-"asctime": "2000-01-01 00:00:00,010",  
-"levelname": "WARNING",  
- "message": "Pending requests in queue, sending notification",  
- "name": "svc-expire",  
- "system": "Main",  
-"threadName": "MainThread"  
+{
+"asctime": "2000-01-01 00:00:00,000",
+"levelname": "INFO",
+"message": "Checking for pending requests",
+ "name": "svc-expire",
+"system": "Main",
+ "threadName": "MainThread"
+ },
+ {
+"asctime": "2000-01-01 00:00:00,010",
+"levelname": "WARNING",
+ "message": "Pending requests in queue, sending notification",
+ "name": "svc-expire",
+ "system": "Main",
+"threadName": "MainThread"
 }
 ```
 

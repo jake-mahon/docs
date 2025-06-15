@@ -2,32 +2,32 @@
 
 The Schema and Configuration folder contains the following templates:
 
-| Subfolder | Template | Description | TAGS |
-| --- | --- | --- | --- |
-|  | Attribute Added to the Global Catalog | When the GC flag for an attribute is changed | - NEW 7.0.1 TEMPLATES |
-|  | Extended Rights Added | When a new extended right is added.  Extended rights grant permissions to carry an operation such as change/reset password or send/receive as is it not an individual attribute rather an operation. | - NEW 7.0.1 TEMPLATES |
-|  | Global Catalog Server Added | DC is promoted to a global catalog server | - NEW 7.0.1 TEMPLATES |
-|  | Global Catalog Server Removed | DC is no longer a global catalog server | - NEW 7.0.1 TEMPLATES |
-|  | Naming Context Added | When a domain or application partition is added | - NEW 7.0.1 TEMPLATES |
-|  | Naming Context Removed | When a domain or application partition is removed | - NEW 7.0.1 TEMPLATES |
-|  | Property Set Added | When a new property set is added. Personal or Private information is a property set that contains multiple attributes | - NEW 7.0.1 TEMPLATES |
-|  | UPN Suffix Added or Removed | When suffixes are added or removed for a user principle name like @domain.com as part of the logon name | - NEW 7.0.1 TEMPLATES |
-| Schema Changes | Schema Attribute Disabled | When a schema attribute is disabled | - NEW 7.0.1 TEMPLATES |
-| Schema Changes | Schema Attribute Enabled | When a schema attribute is enabled | - NEW 7.0.1 TEMPLATES |
-| Schema Changes | Schema Extension – Attribute Added | When a new attribute is added to the schema | - NEW 7.0.1 TEMPLATES |
-| Schema Changes | Schema Extension – Object Class Added | When a new class is added to the schema | - NEW 7.0.1 TEMPLATES |
-| Schema Changes | Schema object class is enabled | When a schema class is enabled | - NEW 7.0.1 TEMPLATES |
-| Schema Changes | Schema Object Disabled | When a schema object is disabled | - NEW 7.0.1 TEMPLATES |
-| Schema Changes | Schema Version Changed | When the schema version number changes. This usually occurs during an upgrade where new objects or attributes are added | - NEW 7.0.1 TEMPLATES |
-| Sites and Services | New Server Added/Removed from a Site in AD | Domain controller added or removed from an AD site | - NEW 7.0.1 TEMPLATES |
-| Sites and Services | Site Added/Removed from Site Link | Site added or removed from an existing site link | - NEW 7.0.1 TEMPLATES |
-| Sites and Services | Site Added/Removed from Site Link Bridge | Site added or removed from a site link bridge | - NEW 7.0.1 TEMPLATES |
-| Sites and Services | Site Added/Removed from Subnet | Subnet added or removed from a site. | - NEW 7.0.1 TEMPLATES |
-| Sites and Services | Site Link Added | Detect the creation of a new site link | - NEW 7.0.1 TEMPLATES |
-| Sites and Services | Site Link Bridge Added | Detect the creation of a new site link bridge | - NEW 7.0.1 TEMPLATES |
-| Sites and Services | Site Link Bridge Removed | Site link bridge deleted | - NEW 7.0.1 TEMPLATES |
-| Sites and Services | Site Link Cost Changed | Cost on a site link changed | - NEW 7.0.1 TEMPLATES |
-| Sites and Services | Site Link Replication Interval Modified | Replication interval for link changed | - NEW 7.0.1 TEMPLATES |
-| Sites and Services | Site Link Schedule Modified | Site link schedule changed | - NEW 7.0.1 TEMPLATES |
-| Sites and Services | Subnet Added | New subnet added | - NEW 7.0.1 TEMPLATES |
-| Sites and Services | Subnet Removed | Subnet removed | - NEW 7.0.1 TEMPLATES |
+| Subfolder          | Template                                   | Description                                                                                                                                                                                          | TAGS                  |
+| ------------------ | ------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------- |
+|                    | Attribute Added to the Global Catalog      | When the GC flag for an attribute is changed                                                                                                                                                         | - NEW 7.0.1 TEMPLATES |
+|                    | Extended Rights Added                      | When a new extended right is added.  Extended rights grant permissions to carry an operation such as change/reset password or send/receive as is it not an individual attribute rather an operation. | - NEW 7.0.1 TEMPLATES |
+|                    | Global Catalog Server Added                | DC is promoted to a global catalog server                                                                                                                                                            | - NEW 7.0.1 TEMPLATES |
+|                    | Global Catalog Server Removed              | DC is no longer a global catalog server                                                                                                                                                              | - NEW 7.0.1 TEMPLATES |
+|                    | Naming Context Added                       | When a domain or application partition is added                                                                                                                                                      | - NEW 7.0.1 TEMPLATES |
+|                    | Naming Context Removed                     | When a domain or application partition is removed                                                                                                                                                    | - NEW 7.0.1 TEMPLATES |
+|                    | Property Set Added                         | When a new property set is added. Personal or Private information is a property set that contains multiple attributes                                                                                | - NEW 7.0.1 TEMPLATES |
+|                    | UPN Suffix Added or Removed                | When suffixes are added or removed for a user principle name like @domain.com as part of the logon name                                                                                              | - NEW 7.0.1 TEMPLATES |
+| Schema Changes     | Schema Attribute Disabled                  | When a schema attribute is disabled                                                                                                                                                                  | - NEW 7.0.1 TEMPLATES |
+| Schema Changes     | Schema Attribute Enabled                   | When a schema attribute is enabled                                                                                                                                                                   | - NEW 7.0.1 TEMPLATES |
+| Schema Changes     | Schema Extension – Attribute Added         | When a new attribute is added to the schema                                                                                                                                                          | - NEW 7.0.1 TEMPLATES |
+| Schema Changes     | Schema Extension – Object Class Added      | When a new class is added to the schema                                                                                                                                                              | - NEW 7.0.1 TEMPLATES |
+| Schema Changes     | Schema object class is enabled             | When a schema class is enabled                                                                                                                                                                       | - NEW 7.0.1 TEMPLATES |
+| Schema Changes     | Schema Object Disabled                     | When a schema object is disabled                                                                                                                                                                     | - NEW 7.0.1 TEMPLATES |
+| Schema Changes     | Schema Version Changed                     | When the schema version number changes. This usually occurs during an upgrade where new objects or attributes are added                                                                              | - NEW 7.0.1 TEMPLATES |
+| Sites and Services | New Server Added/Removed from a Site in AD | Domain controller added or removed from an AD site                                                                                                                                                   | - NEW 7.0.1 TEMPLATES |
+| Sites and Services | Site Added/Removed from Site Link          | Site added or removed from an existing site link                                                                                                                                                     | - NEW 7.0.1 TEMPLATES |
+| Sites and Services | Site Added/Removed from Site Link Bridge   | Site added or removed from a site link bridge                                                                                                                                                        | - NEW 7.0.1 TEMPLATES |
+| Sites and Services | Site Added/Removed from Subnet             | Subnet added or removed from a site.                                                                                                                                                                 | - NEW 7.0.1 TEMPLATES |
+| Sites and Services | Site Link Added                            | Detect the creation of a new site link                                                                                                                                                               | - NEW 7.0.1 TEMPLATES |
+| Sites and Services | Site Link Bridge Added                     | Detect the creation of a new site link bridge                                                                                                                                                        | - NEW 7.0.1 TEMPLATES |
+| Sites and Services | Site Link Bridge Removed                   | Site link bridge deleted                                                                                                                                                                             | - NEW 7.0.1 TEMPLATES |
+| Sites and Services | Site Link Cost Changed                     | Cost on a site link changed                                                                                                                                                                          | - NEW 7.0.1 TEMPLATES |
+| Sites and Services | Site Link Replication Interval Modified    | Replication interval for link changed                                                                                                                                                                | - NEW 7.0.1 TEMPLATES |
+| Sites and Services | Site Link Schedule Modified                | Site link schedule changed                                                                                                                                                                           | - NEW 7.0.1 TEMPLATES |
+| Sites and Services | Subnet Added                               | New subnet added                                                                                                                                                                                     | - NEW 7.0.1 TEMPLATES |
+| Sites and Services | Subnet Removed                             | Subnet removed                                                                                                                                                                                       | - NEW 7.0.1 TEMPLATES |

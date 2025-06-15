@@ -2,14 +2,15 @@
 
 ## Assign a Non-Compliant Role to an Employee
 
-Make sure the SoD Rule that it will violate is __Non-Blocking__. This way the employee record can be saved even if it is a non-compliant role.
+Make sure the SoD Rule that it will violate is **Non-Blocking**. This way the employee record can be
+saved even if it is a non-compliant role.
 
 To assign a non-compliant role to an employee:
 
-1. Open __Lists__ > __Employees__ > __Employees__
-2. Click __Edit__ for the affected employee.
-3. Assign the __non-compliant role__.
-4. Click __Save__.
+1. Open **Lists** > **Employees** > **Employees**
+2. Click **Edit** for the affected employee.
+3. Assign the **non-compliant role**.
+4. Click **Save**.
 
 This creates a SoD Violation Log.
 
@@ -17,16 +18,23 @@ This creates a SoD Violation Log.
 
 To create an approved change request:
 
-1. Open __SoD__ > __SoD Change Management__ > __New SoD Approval__
+1. Open **SoD** > **SoD Change Management** > **New SoD Approval**
 2. Enter information in the following fields:
 
-   - __Name__: Enter a name for the request.
-   - __Priority Level__: Select the priority level for the request. Select __New__ to add a custom level.
-   - __Reason for Role or Permission Change__: Enter the information supporting the approval request.
-   - Select one or more of the __Affected Employee(s)__, __Affected Rule(s)__ and __Affected User Role(s)__.
-3. Click __In Progress__ in the status bar to indicate you are working on the request.
-4. __Save__ the Change Request.
-5. The Approval section is now available. Click __Edit__ to add __Additional Approvers__ or __Approver Notes__. Click __Save__ if you make changes. Refer to [Create a Change Request](../change_management/creating_change_request.md) for more details about the status bar.
+    - **Name**: Enter a name for the request.
+    - **Priority Level**: Select the priority level for the request. Select **New** to add a custom
+      level.
+    - **Reason for Role or Permission Change**: Enter the information supporting the approval
+      request.
+    - Select one or more of the **Affected Employee(s)**, **Affected Rule(s)** and **Affected User
+      Role(s)**.
+
+3. Click **In Progress** in the status bar to indicate you are working on the request.
+4. **Save** the Change Request.
+5. The Approval section is now available. Click **Edit** to add **Additional Approvers** or
+   **Approver Notes**. Click **Save** if you make changes. Refer to
+   [Create a Change Request](../change_management/creating_change_request.md) for more details about
+   the status bar.
 
 The violation clears in the employee record after the approved Change Request is saved.
 
@@ -34,19 +42,21 @@ The violation clears in the employee record after the approved Change Request is
 
 To create an approved change request:
 
-1. Open __Strongpoint__ > __Change Management Tools__ > __Change Request__ > __New__
+1. Open **Strongpoint** > **Change Management Tools** > **Change Request** > **New**
 2. Add the following required fields for pre-approval:
 
-   - __Name__: Enter a name for the request.
-   - __Change Type__: __SoD Approval__
-   - __Completion Status__: __In Progress__
-   - __Change Overview__: Enter a description for the change
-   - __Customization__: Select the non-compliant role you want to assign to an employee.
-   - __Approval Status__: __Approved__
-3. Under the __SoD__ tab:
+    - **Name**: Enter a name for the request.
+    - **Change Type**: **SoD Approval**
+    - **Completion Status**: **In Progress**
+    - **Change Overview**: Enter a description for the change
+    - **Customization**: Select the non-compliant role you want to assign to an employee.
+    - **Approval Status**: **Approved**
 
-   - Select the __Affected Employee__
-   - Set the __Completion Status__ to __NOT Completed__
-4. Click __Save__.
+3. Under the **SoD** tab:
+
+    - Select the **Affected Employee**
+    - Set the **Completion Status** to **NOT Completed**
+
+4. Click **Save**.
 
 The violation clears in the employee record after the approved Change Request is saved.

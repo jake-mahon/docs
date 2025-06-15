@@ -4,7 +4,9 @@ QuickStart Advanced Fields
 
 # QuickStart Advanced Fields
 
-QuickStart is used for planning, deployment and tracking Protect mode by querying and updating multiple target computers in one operation. These updates can include placing computers in Scan mode, Protect mode and managing the computer's Offline Access Management (OAM).
+QuickStart is used for planning, deployment and tracking Protect mode by querying and updating
+multiple target computers in one operation. These updates can include placing computers in Scan
+mode, Protect mode and managing the computer's Offline Access Management (OAM).
 
 ## Installation
 
@@ -30,15 +32,20 @@ Example:
 
 ```
 reports.py --ou "OU=ReportTEST,DC=rtest,DC=com"
-``````
-[+] API key loaded from secure storageProcessing 16 of 16 systemsFile successfully saved to s1_report.xlsx
+```
+
+[+] API key loaded from secure storageProcessing 16 of 16 systemsFile successfully saved to
+s1_report.xlsx
+
 ```
 
  Additional arguments can be specified:
 
 ```
+
 reports.py --help
-``````
+
+````
 usage: reports.py [-h] [--ou OU] [--file XLS_OUT][--input-file COMPUTERS_FILE][--protect-mode-file PROTECT_FILE][--linux-reg-file LINUX_FILE] [--dry-run][--ou-file OU_FILE] [--rm-api-key] [--no-save-api][--insecure] [--version]Generates Privilege Secure reports based on OU.optional arguments:-h, --help        show this help message and exit--ou OU           Specify the OU DN to filter on                   (OU=Computers,OU=Bulk,DC=rtest,DC=com)--file XLS_OUT                   Filename to save output (Default: s1_report.xlsx)--input-file COMPUTERS_FILE                  Instead of OU filtering, use a file containing a list                  of computers in "DOMAIN\Computer" format--protect-mode-file PROTECT_FILE                  Makes changes to systems/admins based from updated                   report file--linux-reg-file LINUX_FILE                   Registers an excel list of linux systems containing                   the required registration parameters--dry-run         Displays changes but does not actually make them--ou-file OU_FILE File containing list of OUs to process.--rm-api-key      Remove the securely stored API key--no-save-api     Do not save API key locally--insecure        Ignore certificate checks--version         show program's version number and exit
 ```
 
@@ -50,15 +57,19 @@ Reports can be created in bulk by passing the ou file flag --ou-file OUs.txt as
 
 ```
 OUs.txt
-``````
+````
+
 OU=ReportTEST,DC=rtest,DC=comOU=NonExistantSubOU1,OU=ReportTEST,DC=rtest,DC=comOU=SubOU2,OU=SubOU1,OU=ReportTEST,DC=rtest,DC=comOU=SubOU1,OU=ReportTEST,DC=rtest,DC=comOU=NonExistantSubOU1,OU=ReportTEST,DC=rtest,DC=com
+
 ```
 
  Running a report on multiple OUs:
 
 ```
- reports.py --ou-file OUs.txt
-``````
+
+reports.py --ou-file OUs.txt
+
+````
 [+] API key loaded from secure storageProcessing OU: OU=ReportTEST,DC=rtest,DC=comProcessing 16 of 16 systemsProcessing OU: OU=NonExistantSubOU1,OU=ReportTEST,DC=rtest,DC=comProcessing 0 of 0 systemsProcessing OU: OU=SubOU2,OU=SubOU1,OU=ReportTEST,DC=rtest,DC=comProcessing 0 of 0 systemsProcessing OU: OU=SubOU1,OU=ReportTEST,DC=rtest,DC=comProcessing 3 of 3 systemsProcessing OU: OU=NonExistantSubOU1,OU=ReportTEST,DC=rtest,DC=comProcessing 0 of 0 systemsFile successfully saved to s1_report.xlsx
 ```
 
@@ -76,8 +87,10 @@ Running a report on a list of systems:
 
 ```
 reports.py --input-file target_computers.txt
-``````
+````
+
 [+] API key loaded from secure storageProcessing 13 systemsFile successfully saved to s1_report.xlsx
+
 ```
 
 ## Making Changes to Systems
@@ -91,7 +104,17 @@ With the change in 2.17 we can support multiple integrations to one or many EDR 
 The value passed into the AC field needs to match the naming convention chosen for the EDR integration.
 
 ```
-arigrim@AriGrimshawsMBP SecureONE_2.18_Reporting % python3 reports_2.18.py --insecure --dry-run --protect-mode-file s1_report.xlsx  [+] API key loaded from secure storage [!] DRY RUN ONLY - displaying proposed changes only. [*] Updating 0 Users Persistence: [*] Removing 0 Users from Inventory: [*] Adding 0 Users to Inventory: [*] Updating Protect Mode on 0 systems: [*] Updating Scan Mode on 0 systems: [*] Updating Directory Bridging Strategy on 0 systems: [*] Updating EDR Integration on 3 systems:  [+] System: ip-10-100-11-### EDR Integration: Carbon Black Cloud 1  [+] System: ip-10-100-11-## EDR Integration: CrowdStrike Falcon 1  [+] System: ip-10-100-11-## EDR Integration: SentinelOne 1 [*] Updating Sudoers Representation on 0 systems: [*] Updating Offline Access Management on 0 systems:
+
+arigrim@AriGrimshawsMBP SecureONE_2.18_Reporting % python3 reports_2.18.py --insecure --dry-run
+--protect-mode-file s1_report.xlsx [+] API key loaded from secure storage [!] DRY RUN ONLY -
+displaying proposed changes only. [*] Updating 0 Users Persistence: [*] Removing 0 Users from
+Inventory: [*] Adding 0 Users to Inventory: [*] Updating Protect Mode on 0 systems: [*] Updating
+Scan Mode on 0 systems: [*] Updating Directory Bridging Strategy on 0 systems: [*] Updating EDR
+Integration on 3 systems: [+] System: ip-10-100-11-### EDR Integration: Carbon Black Cloud 1 [+]
+System: ip-10-100-11-## EDR Integration: CrowdStrike Falcon 1 [+] System: ip-10-100-11-## EDR
+Integration: SentinelOne 1 [*] Updating Sudoers Representation on 0 systems: [*] Updating Offline
+Access Management on 0 systems:
+
 ```
 
 ## Managing the system's Offline Access Management (OAM) Policy
@@ -134,8 +157,10 @@ Enabling --dry-run will only display the proposed changes and not make any actua
 Example:
 
 ```
+
 reports.py --protect-mode-file OU=ReportTEST,DC=rtest,DC=com.xlsx --insecure --dry-run
-``````
+
+````
 [+] API key loaded from secure storage[!] DRY RUN ONLY - displaying proposed changes only.[*] Setting Users Persistent: [+] User: VMTEMP2\privilegesecure System: VMTEMP2 [+] User: RTEST\tkeeler System: VMTEMP2[*] Removing Users from Inventory: [-] User: RTEST\jbax System: VMTEMP2[*] Adding Users to Inventory: [+] User: RTEST\jbax System: VMTEMP1 [+] User: RTEST\kbui System: VMTEMP2[*] Enabling Protect Mode: [+] System: VMTEMP1 [+] System: VMTEMP2
 ```
 
@@ -147,8 +172,19 @@ Example:
 
 ```
 reports.py --protect-mode-file OU=ReportTEST,DC=rtest,DC=com.xlsx --insecure
-``````
-[+] API key loaded from secure storage[!] Protect mode enabled - updates in progress![*] Setting Users Persistent: [+] User: VMTEMP2\privilegesecure System: VMTEMP2 [!] Error submitting request:   Url: https://localhost:3000/api/v1/computers/595e7cc39576068ad62b31a7/admins   Response Code: 409   Response Body: \{"message":"No changes made or administrator not in inventory"\}.    [+] User: RTEST\tkeeler System: VMTEMP2[*] Removing Users from Inventory: [-] User: RTEST\jbax System: VMTEMP2 [!] Error submitting request:   Url: https://localhost:3000/api/v1/computers/595e7cc39576068ad62b31a7/admins   Response Code: 409   Response Body: \{"message":"Administrator does not exist in inventory"\}[*] Adding Users to Inventory: [+] User: RTEST\jbax System: VMTEMP1 [+] User: RTEST\kbui System: VMTEMP2[*] Enabling Protect Mode: [+] System: VMTEMP1 [+] System: VMTEMP2
+````
+
+[+] API key loaded from secure storage[!] Protect mode enabled - updates in progress![*] Setting
+Users Persistent: [+] User: VMTEMP2\privilegesecure System: VMTEMP2 [!] Error submitting request:
+Url: https://localhost:3000/api/v1/computers/595e7cc39576068ad62b31a7/admins Response Code: 409
+Response Body: \{"message":"No changes made or administrator not in inventory"\}. [+] User:
+RTEST\tkeeler System: VMTEMP2[*] Removing Users from Inventory: [-] User: RTEST\jbax System: VMTEMP2
+[!] Error submitting request: Url:
+https://localhost:3000/api/v1/computers/595e7cc39576068ad62b31a7/admins Response Code: 409 Response
+Body: \{"message":"Administrator does not exist in inventory"\}[*] Adding Users to Inventory: [+]
+User: RTEST\jbax System: VMTEMP1 [+] User: RTEST\kbui System: VMTEMP2[*] Enabling Protect Mode: [+]
+System: VMTEMP1 [+] System: VMTEMP2
+
 ```
 
 ## Registering Linux Computers
@@ -180,3 +216,4 @@ Example [linux_register.xlsx](/versioned_docs/privilegesecurefordiscovery_2.21/p
 The full Excel file layout of the QuickStart file is detailed in the picture below:
 
 ![OAM-S1-1824.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360042878654_oam-s1-1824_941x297.png)
+```

@@ -1,34 +1,47 @@
 # Client
 
-The Endpoint Protector Client has one of the smallest footprints of any similar solution on the market. The resources it consumes or the bandwidth it uses is insignificant. The processing power consumed, and bandwidth used by the Client depends on the functions, settings, policies used, and the endpoint’s hardware configuration. In an idle state, the base requirements are:
+The Endpoint Protector Client has one of the smallest footprints of any similar solution on the
+market. The resources it consumes or the bandwidth it uses is insignificant. The processing power
+consumed, and bandwidth used by the Client depends on the functions, settings, policies used, and
+the endpoint’s hardware configuration. In an idle state, the base requirements are:
 
 - CPU: At least 1 GHz dual-core CPU
 - RAM: 30 MB
-- Bandwidth: Less than 1 Kbs (Kilobit per second) when idle. This may increase depending on usage when sending logs or uploading shadow files.
+- Bandwidth: Less than 1 Kbs (Kilobit per second) when idle. This may increase depending on usage
+  when sending logs or uploading shadow files.
 
-__NOTE:__ For Content Aware Protection and eDiscovery scanning, more CPU and RAM are required.
+**NOTE:** For Content Aware Protection and eDiscovery scanning, more CPU and RAM are required.
 
-Below is a closer look at the resource consumption when all modules are enabled , function are active, and policies are configured for a stress test:
+Below is a closer look at the resource consumption when all modules are enabled , function are
+active, and policies are configured for a stress test:
 
-| Module | Device Control | Content Aware Protection | eDiscovery |
-| --- | --- | --- | --- |
-| CPU | 1 GHz | 1 GHz (in general)  > 1 GHz (during scanning) | 1 GHz (in general)  > 1 GHz (during scanning) |
-| RAM | 30 MB | 30 MB (in general)  > 30 MB (during scanning) | 30 MB (in general)  > 30 MB (during scanning) |
-| Bandwidth | < 1 Kbs (when idle)  > 1 Kbs (when sending logs or uploading shadow files) | < 1 Kbs (when idle)  > 1 Kbs (when sending logs or uploading shadow files) | < 1 Kbs (when idle)  > 1 Kbs (when sending logs or uploading shadow files) |
+| Module    | Device Control                                                            | Content Aware Protection                                                  | eDiscovery                                                                |
+| --------- | ------------------------------------------------------------------------- | ------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| CPU       | 1 GHz                                                                     | 1 GHz (in general) > 1 GHz (during scanning)                              | 1 GHz (in general) > 1 GHz (during scanning)                              |
+| RAM       | 30 MB                                                                     | 30 MB (in general) > 30 MB (during scanning)                              | 30 MB (in general) > 30 MB (during scanning)                              |
+| Bandwidth | < 1 Kbs (when idle) > 1 Kbs (when sending logs or uploading shadow files) | < 1 Kbs (when idle) > 1 Kbs (when sending logs or uploading shadow files) | < 1 Kbs (when idle) > 1 Kbs (when sending logs or uploading shadow files) |
 
 ## Security Exclusions
 
-To maintain the optimal performance and stability of the Endpoint Protector Client, configure security exclusions within third-party security software, such as antivirus, EDR, and HIPS solutions. The Endpoint Protector Client is designed to be lightweight, but certain antivirus programs may scan its files and processes intensively, which can impact performance.
+To maintain the optimal performance and stability of the Endpoint Protector Client, configure
+security exclusions within third-party security software, such as antivirus, EDR, and HIPS
+solutions. The Endpoint Protector Client is designed to be lightweight, but certain antivirus
+programs may scan its files and processes intensively, which can impact performance.
 
 ### Importance of Exclusions
 
-The Endpoint Protector Client logs data in small, frequent increments. Antivirus software may attempt to scan each entry as it is written, which can lead to:
+The Endpoint Protector Client logs data in small, frequent increments. Antivirus software may
+attempt to scan each entry as it is written, which can lead to:
 
 - Timeouts on larger files due to extended antivirus scanning.
-- Increased RAM and CPU usage, as both Endpoint Protector and antivirus processes compete for system resources.
-- Potential client stability issues, as well as reduced Deep Packet Inspection visibility and performance.
+- Increased RAM and CPU usage, as both Endpoint Protector and antivirus processes compete for system
+  resources.
+- Potential client stability issues, as well as reduced Deep Packet Inspection visibility and
+  performance.
 
-To prevent these conflicts and allow the Endpoint Protector Client to function without interference, add exclusions for specific files, folders, and processes on Windows, macOS, and Linux, as outlined below.
+To prevent these conflicts and allow the Endpoint Protector Client to function without interference,
+add exclusions for specific files, folders, and processes on Windows, macOS, and Linux, as outlined
+below.
 
 #### Recommended Exclusions for Windows
 
@@ -43,14 +56,15 @@ Service Level Exclusions
 
 Folder Level Exclusions
 
-- C:\Program Files\CoSoSys\Endpoint Protector\\*
+- C:\Program Files\CoSoSys\Endpoint Protector\\\*
 
-  Alternative (for the folder-level exclusion above):
+    Alternative (for the folder-level exclusion above):
 
-  - C:\Program Files\CoSoSys\Endpoint Protector\EPPservice.exe
-  - C:\Program Files\CoSoSys\Endpoint Protector\sslsplit.exe
-  - C:\Program Files\CoSoSys\Endpoint Protector\cssguard.exe
-  - C:\Program Files\CoSoSys\Endpoint Protector\EPPNotifier.exe
+    - C:\Program Files\CoSoSys\Endpoint Protector\EPPservice.exe
+    - C:\Program Files\CoSoSys\Endpoint Protector\sslsplit.exe
+    - C:\Program Files\CoSoSys\Endpoint Protector\cssguard.exe
+    - C:\Program Files\CoSoSys\Endpoint Protector\EPPNotifier.exe
+
 - C:\Windows\System32\config\systemprofile\AppData\Local\CoSoSys\EPP\*
 
 File Level Exclusions
@@ -60,9 +74,10 @@ File Level Exclusions
 - C:\ProgramFiles\CoSoSys\EndpointProtector\cssguard.exe
 - C:\ProgramFiles\CoSoSys\EndpointProtector\EPPNotifier.exe
 
-  Alternative (to the above file exclusions):
+    Alternative (to the above file exclusions):
 
-  - C:\ProgramFiles\CoSoSys\EndpointProtector\\*
+    - C:\ProgramFiles\CoSoSys\EndpointProtector\\\*
+
 - C:\Windows\System32\drivers\cssdlp20.sys
 - C:\Windows\System32\drivers\cssredir.sys
 - C:\Windows\System32\drivers\cssdcflt.sys
@@ -134,4 +149,5 @@ Process Level Exclusions
 - epp_netdlp_setup
 - linux_install_certicates.sh
 
-By applying these exclusions, you will allow the Endpoint Protector Client to operate smoothly alongside other security products, ensuring both functionality and protection across endpoints.
+By applying these exclusions, you will allow the Endpoint Protector Client to operate smoothly
+alongside other security products, ensuring both functionality and protection across endpoints.

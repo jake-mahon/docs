@@ -20,23 +20,27 @@ The Scope page is used to define where to search. It is a wizard page for the ca
 
 Define the scope of the query using the following options:
 
-- Return data for section – Select the time period for which data will be collected. GMT time is used by Exchange Metrics to calculate the result.
+- Return data for section – Select the time period for which data will be collected. GMT time is
+  used by Exchange Metrics to calculate the result.
 
-  - Today
-  - Yesterday
-  - This Week (from last Sunday till today)
-  - Last Week (from Sunday till Saturday)
-  - This Month
-  - Last Month
-  - Last [number] days
-  - Within time frame:
-  - From [calendar date] to [calendar date] – Use the drop-down arrows to select calendar dates.
+    - Today
+    - Yesterday
+    - This Week (from last Sunday till today)
+    - Last Week (from Sunday till Saturday)
+    - This Month
+    - Last Month
+    - Last [number] days
+    - Within time frame:
+    - From [calendar date] to [calendar date] – Use the drop-down arrows to select calendar dates.
+
 - Return results section – Select the table design for the collected data
 
-  - One row for – Use the drop-down list to select one of the following options:
+    - One row for – Use the drop-down list to select one of the following options:
 
-    - All period
-    - Day
-    - Week
-    - Month
-  - Add summary values as last row – Select this checkbox to add summary values as the last row. This option is enabled when __Day__, __Week__, or __Month__ are selected.
+        - All period
+        - Day
+        - Week
+        - Month
+
+    - Add summary values as last row – Select this checkbox to add summary values as the last row.
+      This option is enabled when **Day**, **Week**, or **Month** are selected.

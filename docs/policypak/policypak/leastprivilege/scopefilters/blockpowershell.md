@@ -2,11 +2,14 @@
 
 In the previous example, we blocked PowerShell (or PSEXEC, etc.) from all user and system processes.
 
-However, you might need to run some PowerShell scripts as SYSTEM to perform some maintenance tasks.  Since PowerShell is now being blocked for all Computer side processes, you cannot run a specific script with PowerShel.
+However, you might need to run some PowerShell scripts as SYSTEM to perform some maintenance tasks. 
+Since PowerShell is now being blocked for all Computer side processes, you cannot run a specific
+script with PowerShel.
 
 ![A screen shot of a computer Description automatically generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/scopefilters/scenario_2b_block_powershell.webp)
 
-To enable this, simply add another rule to ALLOW AND LOG, for example, C:\SCRIPTS\ITSCRIPT1.ps1, and set the scope to User and System processes, but use the scope Filter to SYSTEM.
+To enable this, simply add another rule to ALLOW AND LOG, for example, C:\SCRIPTS\ITSCRIPT1.ps1, and
+set the scope to User and System processes, but use the scope Filter to SYSTEM.
 
 ![A screenshot of a computer Description automatically generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/scopefilters/scenario_2b_block_powershell_1.webp)
 

@@ -1,17 +1,23 @@
 # 2-Dropbox_Permissions Bulk Import Job
 
-The 2-Dropbox_Permissions Bulk Import job imports the data collected by the 1-Dropbox _Permissions Scan job to the Enterprise Auditor database for use by the analysis tasks.
+The 2-Dropbox_Permissions Bulk Import job imports the data collected by the 1-Dropbox \_Permissions
+Scan job to the Enterprise Auditor database for use by the analysis tasks.
 
-__CAUTION:__ This job should not be run if running sensitive data scans against the Dropbox Business environment.
+**CAUTION:** This job should not be run if running sensitive data scans against the Dropbox Business
+environment.
 
 ## Queries for the 2-Dropbox_Permissions Bulk Import Job
 
-The 2-Dropbox_Permissions Bulk Import job has been preconfigured to run with the default settings with the category of Bulk Import Access Scan Results.
+The 2-Dropbox_Permissions Bulk Import job has been preconfigured to run with the default settings
+with the category of Bulk Import Access Scan Results.
 
 ![Queries for the 2-Dropbox_Permissions Bulk Import Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/dropbox/collection/permissionsbulkimportquery.png)
 
 The query for the 2-Dropbox_Permissions Bulk Import job is:
 
-- Dropbox Bulk Import – Imports data collected by the 1-Dropbox_Permissions Scan job to the Enterprise Auditor database
+- Dropbox Bulk Import – Imports data collected by the 1-Dropbox_Permissions Scan job to the
+  Enterprise Auditor database
 
-There are no customization options available for this job. The Summary page of the Dropbox Access Auditor Data Collector wizard can be viewed at the __Jobs__ > __Dropbox__ > __0.Collection__ > __2-Dropbox_Permissions Bulk Import__ > __Configure__ > __Queries__ node.
+There are no customization options available for this job. The Summary page of the Dropbox Access
+Auditor Data Collector wizard can be viewed at the **Jobs** > **Dropbox** > **0.Collection** >
+**2-Dropbox_Permissions Bulk Import** > **Configure** > **Queries** node.

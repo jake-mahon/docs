@@ -5,17 +5,17 @@ The commandlet Remove-IdentityStore removes an identity store from Directory Man
 ## Syntax
 
 ```
-Remove-IdentityStore  
-[-IdentityStoreName] <String>  
-[-PassThru]  
-[-IdentityStoreId <Int32>]  
-[-SecurityToken <CustomClaimsPrincipal>]  
-[-Credential <PSCredential>]  
-[-WarningAction <ActionPreference>]  
-[-InformationAction <ActionPreference>]  
-[-WarningVariable <String>]  
-[-InformationVariable <String>]  
-[-PipelineVariable <String>]  
+Remove-IdentityStore
+[-IdentityStoreName] <String>
+[-PassThru]
+[-IdentityStoreId <Int32>]
+[-SecurityToken <CustomClaimsPrincipal>]
+[-Credential <PSCredential>]
+[-WarningAction <ActionPreference>]
+[-InformationAction <ActionPreference>]
+[-WarningVariable <String>]
+[-InformationVariable <String>]
+[-PipelineVariable <String>]
 [<CommonParameters>]
 ```
 

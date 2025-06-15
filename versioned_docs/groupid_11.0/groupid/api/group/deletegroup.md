@@ -13,18 +13,18 @@ DELETE
 #### Sample Response Syntax
 
 ```
-{  
-    "currentDirectoryServer": null,  
-    "exceptionMessagesAttributeWise": null,  
-    "data": null,  
-    "identityStoreObject": null,  
-    "name": null,  
-    "errorCode": null,  
-    "details": [  
-    ],  
-    "type": 0,  
-    "message": null,  
-    "status": 0  
+{
+    "currentDirectoryServer": null,
+    "exceptionMessagesAttributeWise": null,
+    "data": null,
+    "identityStoreObject": null,
+    "name": null,
+    "errorCode": null,
+    "details": [
+    ],
+    "type": 0,
+    "message": null,
+    "status": 0
 }
 ```
 

@@ -2,11 +2,15 @@
 
 ## What is the menu?
 
-The ribbon on the client has been replaced by a menu on the Web Application. The menu thus represents the central operating element on the Web Application. The functions available within the menu are dynamic and are based on the currently available actions. Different actions are possible depending on which view is currently being used.
+The ribbon on the client has been replaced by a menu on the Web Application. The menu thus
+represents the central operating element on the Web Application. The functions available within the
+menu are dynamic and are based on the currently available actions. Different actions are possible
+depending on which view is currently being used.
 
 #### Menu bar
 
-The menu can take on two forms. In general, the __menu bar__ containing the __most important functions__ is displayed. It will be described here using the example of the password module.
+The menu can take on two forms. In general, the **menu bar** containing the **most important
+functions** is displayed. It will be described here using the example of the password module.
 
 ![menu bar](../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/web_applicaiton/operation/menu_bar/installation_with_parameters_174-en.webp)
 
@@ -36,7 +40,9 @@ Copies the password to the clipboard.
 
 ###### Advanced menu
 
-If the menu – as described above – is maximised, __all functions__ are then available. The functions on the menu bar are repeated here. The menu is divided into a number of sections. These correspond 1 to 1 to the sections of the ribbon on the client.
+If the menu – as described above – is maximised, **all functions** are then available. The functions
+on the menu bar are repeated here. The menu is divided into a number of sections. These correspond 1
+to 1 to the sections of the ribbon on the client.
 
 ![Menu](../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/web_applicaiton/operation/menu_bar/installation_with_parameters_175-en.webp)
 
@@ -44,7 +50,8 @@ In our example, the menu looks like this:
 
 1. New Item
 
-This section offers you more options for editing passwords. These include, for example, __Open__ or also __Delete__.
+This section offers you more options for editing passwords. These include, for example, **Open** or
+also **Delete**.
 
 2. Actions
 
@@ -62,14 +69,19 @@ This section can be used to copy all available fields to the clipboard.
 
 A website can be called up here.
 
-NOTE: As already described, the menu is dynamic and thus appears in a variety of different forms. However, the basic function is always the same: The menu bar contains the basis functions, while the advanced menu contains all functions.
+NOTE: As already described, the menu is dynamic and thus appears in a variety of different forms.
+However, the basic function is always the same: The menu bar contains the basis functions, while the
+advanced menu contains all functions.
 
 6. Extras
 
-All of the additional functions can be found here. These functions correspond to the main client and will be described in the next section:
+All of the additional functions can be found here. These functions correspond to the main client and
+will be described in the next section:
 
 [Passwords](../../../advanced_view/clientmodule/passwords/passwords.md)
 
 7. Password Reset
 
-The functions of the [Password Reset](../../../advanced_view/clientmodule/passwordreset/password_reset.md) can be found here.
+The functions of the
+[Password Reset](../../../advanced_view/clientmodule/passwordreset/password_reset.md) can be found
+here.

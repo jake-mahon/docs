@@ -6,7 +6,9 @@ Duo Hosted SSO
 
 ## Overview
 
-This topic covers integrating Privilege Secure with Duo using a Duo hosted SSO. Please find an article detailing the Privilege Secure SSO terms here: [SSO Configuration](/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/ssoconfiguration.md)
+This topic covers integrating Privilege Secure with Duo using a Duo hosted SSO. Please find an
+article detailing the Privilege Secure SSO terms here:
+[SSO Configuration](/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/ssoconfiguration.md)
 
 ## Preqrequisites
 
@@ -21,34 +23,38 @@ Duo service plan with the following:
 
 - ![mceclip0.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360049850994_mceclip0.png)
 
-Scroll down to the __Service Provider Section__; notes:
+Scroll down to the **Service Provider Section**; notes:
 
-- The information below is for example purpose only.  Enter the appropriate information for your environment.
+- The information below is for example purpose only.  Enter the appropriate information for your
+  environment.
 
 - [https://10.100.11.192](https://10.100.11.192) should be replace with your Privilege Secure URL.
 - Entity ID can by any unique string.  We recommend using your Privilege Secure URL.
 
 ![mceclip0.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360049850994_mceclip0.png)
 
-__SAML Response Section__ Notes:
+**SAML Response Section** Notes:
 
 - The NameID can also be:  
-  ```urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified```
+  `urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified`
 - The 'idP Attribute' and 'SAML Response Attribute' will need to be manually entered.
-- idP Attribute: ```distinguishedName```
-- SAML Response Attribute: ```dn```
+- idP Attribute: `distinguishedName`
+- SAML Response Attribute: `dn`
 
 ![image.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360049850994_image.png)
 
 ![image__1_.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360049850994_image__1_.png)
 
-- The remaining __SAML Response__ section fields can be left blank.
-- The __Policy__ section requires no settings from Privilege Secure, tailor to suit your environment.
-- In the __Settings__ section, we recommend setting an appropriate name, tailor the rest to suit your environment.
+- The remaining **SAML Response** section fields can be left blank.
+- The **Policy** section requires no settings from Privilege Secure, tailor to suit your
+  environment.
+- In the **Settings** section, we recommend setting an appropriate name, tailor the rest to suit
+  your environment.
 
 ![mceclip4.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360049850994_mceclip4.png)
 
-- The __Host Whitelisting__ section requires no settings from Privilege Secure, tailor to suit your environment.
+- The **Host Whitelisting** section requires no settings from Privilege Secure, tailor to suit your
+  environment.
 - Click the [Save] button at the bottom of the page.
 
 ## Duo: Retrieve SAML/SSO Information for Privilege Secure
@@ -63,19 +69,23 @@ __SAML Response Section__ Notes:
 
 ## Enable SSO in Privilege Secure and Login Example
 
-At the bottom of the __Configure__ > __Server__ > __SAML Configuration Panel__, enable or disable SSO when appropriate:
+At the bottom of the **Configure** > **Server** > **SAML Configuration Panel**, enable or disable
+SSO when appropriate:
 
 ![mceclip9.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360049850994_mceclip9_192x74.png)
 
-__Step 1 –__ Click __SSO Login__ button to log in via Duo.
+**Step 1 –** Click **SSO Login** button to log in via Duo.
 
-__Step 2 –__ \*Optional:  To login from Duo first (IdP-initiated), use the Single Sign-On URL provided by Duo.  This is found in the application's "Metadata" section.
+**Step 2 –** \*Optional:  To login from Duo first (IdP-initiated), use the Single Sign-On
+URL provided by Duo.  This is found in the application's "Metadata" section.
 
 ![mceclip0.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360049850994_mceclip0_650x254.png)
 
 ## Troubleshooting
 
-If you are using ADFS as an authentication source and receive a "SAML Assertion Not Yet Valid" while trying to log in, please see:  [Configure ADFS (Active Directory Federation Services) SSO](/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/configureadfs.md)
+If you are using ADFS as an authentication source and receive a "SAML Assertion Not Yet Valid" while
+trying to log in, please see: 
+[Configure ADFS (Active Directory Federation Services) SSO](/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/configureadfs.md)
 
 ## Additional Information
 

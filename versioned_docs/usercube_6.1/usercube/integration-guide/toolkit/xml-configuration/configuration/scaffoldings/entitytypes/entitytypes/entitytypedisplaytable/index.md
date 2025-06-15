@@ -2,7 +2,8 @@
 
 Displays all resources of a given entity type in a table.
 
-When the entity type contains fewer than 4 scalar properties, all properties will be displayed in the table. Otherwise, the only scalar property displayed in the table is the internal display name.
+When the entity type contains fewer than 4 scalar properties, all properties will be displayed in
+the table. Otherwise, the only scalar property displayed in the table is the internal display name.
 
 ## Examples
 
@@ -14,9 +15,9 @@ When the entity type contains fewer than 4 scalar properties, all properties wil
 
 ## Properties
 
-| Property | Details |
-| --- | --- |
-| EntityType   required | __Type__    String   __Description__   Identifier of the entity type involved in the scaffolding. |
+| Property            | Details                                                                                    |
+| ------------------- | ------------------------------------------------------------------------------------------ |
+| EntityType required | **Type** String **Description** Identifier of the entity type involved in the scaffolding. |
 
 ## Generated XML
 

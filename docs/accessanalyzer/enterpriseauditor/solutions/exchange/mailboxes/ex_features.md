@@ -1,8 +1,9 @@
 # Features > EX_Features Job
 
-The EX_Features job is comprised of data collection and a report that provides information around which features have been enabled or disabled on Mailboxes, such as ActiveSync, IMAP, POP and more.
+The EX_Features job is comprised of data collection and a report that provides information around
+which features have been enabled or disabled on Mailboxes, such as ActiveSync, IMAP, POP and more.
 
-___RECOMMENDED:___ Schedule the Features Job Group to run weekly on any desired recurrence.
+**_RECOMMENDED:_** Schedule the Features Job Group to run weekly on any desired recurrence.
 
 ![Features > EX_Features Job in the Jobs Tree](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/mailboxes/featuresjobstree.webp)
 
@@ -18,13 +19,19 @@ The following query is included with the EX_Features Job:
 
 - User Mailbox Settings – Collects user mailbox settings
 
-  - By default set to search all mailboxes. It can be scoped.
-  - See the [Scope the ExchangePS Data Collector](../casmetrics/ex_aspolicies.md#scope-the-exchangeps-data-collector) topic for additional information
+    - By default set to search all mailboxes. It can be scoped.
+    - See the
+      [Scope the ExchangePS Data Collector](../casmetrics/ex_aspolicies.md#scope-the-exchangeps-data-collector)
+      topic for additional information
 
-  __NOTE:__ The ExchangePS Data Collector is capable of targeting Exchange Online as well as Exchange on-premises environments. See the [Exchange PowerShell Permissions](../../../requirements/solutions/exchange/powershell.md) topic for credential requirements.
+    **NOTE:** The ExchangePS Data Collector is capable of targeting Exchange Online as well as
+    Exchange on-premises environments. See the
+    [Exchange PowerShell Permissions](../../../requirements/solutions/exchange/powershell.md) topic
+    for credential requirements.
 
-In addition to the table created by the query, the EX_Features Job produces the following pre-configured report:
+In addition to the table created by the query, the EX_Features Job produces the following
+pre-configured report:
 
-| Report | Description | Default Tags | Report Elements |
-| --- | --- | --- | --- |
-| Mailbox Features | This report identifies features introduced in Exchange for each mailbox. | None | This report is comprised of one element:   - Table – Provides details on mailbox features |
+| Report           | Description                                                              | Default Tags | Report Elements                                                                         |
+| ---------------- | ------------------------------------------------------------------------ | ------------ | --------------------------------------------------------------------------------------- |
+| Mailbox Features | This report identifies features introduced in Exchange for each mailbox. | None         | This report is comprised of one element: - Table – Provides details on mailbox features |

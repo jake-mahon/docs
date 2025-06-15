@@ -1,6 +1,7 @@
 # Configure Policy Rules
 
-The policy you just created does not enforce any password requirements yet. You can now configure the policy to enforce these rules:
+The policy you just created does not enforce any password requirements yet. You can now configure
+the policy to enforce these rules:
 
 - Password must contain at least seven characters.
 - Password must contain at least one lowercase alpha character.
@@ -8,78 +9,80 @@ The policy you just created does not enforce any password requirements yet. You 
 - Password must not be similar to the user's logon name.
 - Password must not exist in a dictionary of common passwords.
 
-When you create a policy, the policy settings are opened. You can open the settings for a policy at any time by clicking the policy name on the Configuration Console dashboard.
+When you create a policy, the policy settings are opened. You can open the settings for a policy at
+any time by clicking the policy name on the Configuration Console dashboard.
 
 ![New policy open for settings](../../../../static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/evaluation/newpolicysettings.webp)
 
 Requirement: Password must contain at least seven characters.
 
-This condition is set with the __Length__ rule.
+This condition is set with the **Length** rule.
 
-__Step 1 –__ Select __Length__.
+**Step 1 –** Select **Length**.
 
-__Step 2 –__ Click the __Length__ checkbox to enable the rule.
+**Step 2 –** Click the **Length** checkbox to enable the rule.
 
-__Step 3 –__ Select __7__ for the __At least...__ value. Depending on the template, this might be the default.
+**Step 3 –** Select **7** for the **At least...** value. Depending on the template, this might be
+the default.
 
 ![Set the Length](../../../../static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/evaluation/evallength.webp)
 
 Requirement: Password must contain at least one lowercase alpha character.
 
-This condition is set with the __Characters (Complexity)__ rule.
+This condition is set with the **Characters (Complexity)** rule.
 
-__Step 1 –__ Select __Characters (Complexity)__.
+**Step 1 –** Select **Characters (Complexity)**.
 
-__Step 2 –__ Click the __Characters (Complexity)__ checkbox to enable the rule.
+**Step 2 –** Click the **Characters (Complexity)** checkbox to enable the rule.
 
-__Step 3 –__ Select __1__ as the __Must contain at least...__  value.
+**Step 3 –** Select **1** as the **Must contain at least...** value.
 
-__Step 4 –__ Select __Lower Alpha (a-z)__.
+**Step 4 –** Select **Lower Alpha (a-z)**.
 
-__Step 5 –__ Select __Upper Alpha (A-Z)__ for the next requirement while you are here.
+**Step 5 –** Select **Upper Alpha (A-Z)** for the next requirement while you are here.
 
 ![Set upper and lower case requirements](../../../../static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/evaluation/evalchars.webp)
 
 Password must contain at least one uppercase character.
 
-This condition is set with the __Characters (Granular)__ rule.
+This condition is set with the **Characters (Granular)** rule.
 
-__Step 1 –__ Select __Characters (Granular)__.
+**Step 1 –** Select **Characters (Granular)**.
 
-__Step 2 –__ Click the __Characters (Granular)__ checkbox to enable the rule.
+**Step 2 –** Click the **Characters (Granular)** checkbox to enable the rule.
 
-__Step 3 –__ Select __1__ as the __Must contain at least...__  value.
+**Step 3 –** Select **1** as the **Must contain at least...** value.
 
-__Step 4 –__ Select __Upper Alpha (A-Z)__ __Contain__ __1__ or more characters.
+**Step 4 –** Select **Upper Alpha (A-Z)** **Contain** **1** or more characters.
 
-__Step 5 –__ Select __Lower Alpha (a-z)__ __Contain__ __1__ or more characters.
+**Step 5 –** Select **Lower Alpha (a-z)** **Contain** **1** or more characters.
 
 ![set character granularity](../../../../static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/evaluation/evalcharsgran.webp)
 
 Requirement: Password must not be similar to the user's logon name.
 
-This condition is set with the __Similarity__ rule.
+This condition is set with the **Similarity** rule.
 
-__Step 1 –__ Select __Similarity__.
+**Step 1 –** Select **Similarity**.
 
-__Step 2 –__ Click the __Similarity__ checkbox to enable the rule.
+**Step 2 –** Click the **Similarity** checkbox to enable the rule.
 
-__Step 3 –__ Select __User logon name__.
+**Step 3 –** Select **User logon name**.
 
 ![Set Similarity rule](../../../../static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/evaluation/evalsimilarity.webp)
 
 Requirement: Password must not exist in a dictionary of common passwords.
 
-This condition is set with the __Dictionary__ rule.
+This condition is set with the **Dictionary** rule.
 
-__Step 1 –__ Select __Dictionary__.
+**Step 1 –** Select **Dictionary**.
 
-__Step 2 –__ Click the __Dictionary__ checkbox to enable the rule.
+**Step 2 –** Click the **Dictionary** checkbox to enable the rule.
 
-__Step 3 –__ Click __Browse__.
+**Step 3 –** Click **Browse**.
 
-__Step 4 –__ Navigate to __\Program Files\Password Policy Enforcer__ folder and select__Dict.txt__.
+**Step 4 –** Navigate to **\Program Files\Password Policy Enforcer** folder and select**Dict.txt**.
 
 ![Enable the sample dictionary](../../../../static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/evaluation/evaldict.webp)
 
-When you have added all the rules, click __Save__ to save your new policy.
+When you have added all the rules, click **Save** to save your new policy.

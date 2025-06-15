@@ -21,10 +21,10 @@ Strictly speaking, Docusaurus is a static site generator, because there's no ser
 Therefore, while you probably know not to access Node globals like `process` ([or can we?](#node-env)) or the `'fs'` module, you can't freely access browser globals either.
 
 ```jsx
-import React from 'react';
+import React from 'react'
 
 export default function WhereAmI() {
-  return <span>{window.location.href}</span>;
+  return <span>{window.location.href}</span>
 }
 ```
 
@@ -44,21 +44,21 @@ This is because during server-side rendering, the Docusaurus app isn't actually 
 One exception to the "no Node globals" rule is `process.env.NODE_ENV`. In fact, you can use it in React, because Webpack injects this variable as a global:
 
 ```jsx
-import React from 'react';
+import React from 'react'
 
 export default function expensiveComp() {
   if (process.env.NODE_ENV === 'development') {
-    return <>This component is not shown in development</>;
+    return <>This component is not shown in development</>
   }
-  const res = someExpensiveOperationThatLastsALongTime();
-  return <>{res}</>;
+  const res = someExpensiveOperationThatLastsALongTime()
+  return <>{res}</>
 }
 ```
 
 During Webpack build, the `process.env.NODE_ENV` will be replaced with the value, either `'development'` or `'production'`. You will then get different build results after dead code elimination:
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
+import Tabs from '@theme/Tabs'
+import TabItem from '@theme/TabItem'
 
 ```mdx-code-block
 <Tabs>
@@ -139,27 +139,26 @@ We provide several more reliable ways to escape SSR.
 If you need to render some component in browser only (for example, because the component relies on browser specifics to be functional at all), one common approach is to wrap your component with [`<BrowserOnly>`](../docusaurus-core.mdx#browseronly) to make sure it's invisible during SSR and only rendered in CSR.
 
 ```jsx
-import BrowserOnly from '@docusaurus/BrowserOnly';
+import BrowserOnly from '@docusaurus/BrowserOnly'
 
 function MyComponent(props) {
   return (
     // highlight-start
     <BrowserOnly fallback={<div>Loading...</div>}>
       {() => {
-        const LibComponent =
-          require('some-lib-that-accesses-window').LibComponent;
-        return <LibComponent {...props} />;
+        const LibComponent = require('some-lib-that-accesses-window').LibComponent
+        return <LibComponent {...props} />
       }}
     </BrowserOnly>
     // highlight-end
-  );
+  )
 }
 ```
 
 It's important to realize that the children of `<BrowserOnly>` is not a JSX element, but a function that _returns_ an element. This is a design decision. Consider this code:
 
 ```jsx
-import BrowserOnly from '@docusaurus/BrowserOnly';
+import BrowserOnly from '@docusaurus/BrowserOnly'
 
 function MyComponent() {
   return (
@@ -169,7 +168,7 @@ function MyComponent() {
       <span>page url = {window.location.href}</span>
       {/* highlight-end */}
     </BrowserOnly>
-  );
+  )
 }
 ```
 
@@ -180,12 +179,12 @@ While you may expect that `BrowserOnly` hides away the children during server-si
 You can also use the `useIsBrowser()` hook to test if the component is currently in a browser environment. It returns `false` in SSR and `true` is CSR, after first client render. Use this hook if you only need to perform certain conditional operations on client-side, but not render an entirely different UI.
 
 ```jsx
-import useIsBrowser from '@docusaurus/useIsBrowser';
+import useIsBrowser from '@docusaurus/useIsBrowser'
 
 function MyComponent() {
-  const isBrowser = useIsBrowser();
-  const location = isBrowser ? window.location.href : 'fetching location...';
-  return <span>{location}</span>;
+  const isBrowser = useIsBrowser()
+  const location = isBrowser ? window.location.href : 'fetching location...'
+  return <span>{location}</span>
 }
 ```
 
@@ -197,9 +196,9 @@ Lastly, you can put your logic in `useEffect()` to delay its execution until aft
 function MyComponent() {
   useEffect(() => {
     // Only logged in the browser console; nothing is logged during server-side rendering
-    console.log("I'm now in the browser");
-  }, []);
-  return <span>Some content...</span>;
+    console.log("I'm now in the browser")
+  }, [])
+  return <span>Some content...</span>
 }
 ```
 
@@ -210,9 +209,9 @@ The [`ExecutionEnvironment`](../docusaurus-core.mdx#executionenvironment) namesp
 Beware that it essentially checked `typeof window !== 'undefined'` under the hood, so you should not use it for rendering-related logic, but only imperative code, like reacting to user input by sending web requests, or dynamically importing libraries, where DOM isn't updated at all.
 
 ```js title="a-client-module.js"
-import ExecutionEnvironment from '@docusaurus/ExecutionEnvironment';
+import ExecutionEnvironment from '@docusaurus/ExecutionEnvironment'
 
 if (ExecutionEnvironment.canUseDOM) {
-  document.title = "I'm loaded!";
+  document.title = "I'm loaded!"
 }
 ```

@@ -1,8 +1,10 @@
 # What are the registry settings for Device Manager (and how do I reset Device Manager Admin Approval)?
 
-On any endpoint, details about what USB and other devices have temporary or permanent access are stored here:
+On any endpoint, details about what USB and other devices have temporary or permanent access are
+stored here:
 
-HKEY_LOCAL_MACHINE\SOFTWARE\PolicyPak\Client-Side Extensions\{7FA1BDCB-818A-4EF6-A1B7-EF5F85C2D702}\Admin Approval\ApprovedDevicesStorage
+HKEY_LOCAL_MACHINE\SOFTWARE\PolicyPak\Client-Side
+Extensions\{7FA1BDCB-818A-4EF6-A1B7-EF5F85C2D702}\Admin Approval\ApprovedDevicesStorage
 
 Here is an example of a device which was approved via the Admin Approval tool.
 
@@ -10,12 +12,12 @@ Here is an example of a device which was approved via the Admin Approval tool.
 
 ## To determine the Admin Approval End Time for any device:
 
-__Step 1 –__ Grab the __EndTime__ and change to __Decimal__.
+**Step 1 –** Grab the **EndTime** and change to **Decimal**.
 
-__Step 2 –__ Input the __EndTime__ into this Powershell script.
+**Step 2 –** Input the **EndTime** into this Powershell script.
 
 ```
-$my_time = 1725537001291  
+$my_time = 1725537001291
 (([System.DateTimeOffset]::FromUnixTimeMilliseconds($my_time)).DateTime.ToLocalTime()).ToString("s")
 ```
 
@@ -36,16 +38,21 @@ For example, for READ+WRITE permissions, the value is 0xC0000000.
 
 ## Resetting the Device Manager Admin Approval Values
 
-From time to time you may want to reset the values on a machine such that all devices are reset, and new Admin Approval values may be set in the future. To do this:
+From time to time you may want to reset the values on a machine such that all devices are reset, and
+new Admin Approval values may be set in the future. To do this:
 
-__Step 1 –__ Download PSExec from [https://learn.microsoft.com/en-us/sysinternals/downloads/psexec](https://learn.microsoft.com/en-us/sysinternals/downloads/psexec)
+**Step 1 –** Download PSExec from
+[https://learn.microsoft.com/en-us/sysinternals/downloads/psexec](https://learn.microsoft.com/en-us/sysinternals/downloads/psexec)
 
-__Step 2 –__ Run CMD as administator
+**Step 2 –** Run CMD as administator
 
-__Step 3 –__ Execute psexec.exe -i -s regedit
+**Step 3 –** Execute psexec.exe -i -s regedit
 
-__Step 4 –__ As SYSTEM open Regedit. Find HKEY_LOCAL_MACHINE\SOFTWARE\PolicyPak\Client-Side Extensions\{7FA1BDCB-818A-4EF6-A1B7-EF5F85C2D702}\Admin Approval\ApprovedDevicesStorage
+**Step 4 –** As SYSTEM open Regedit. Find HKEY_LOCAL_MACHINE\SOFTWARE\PolicyPak\Client-Side
+Extensions\{7FA1BDCB-818A-4EF6-A1B7-EF5F85C2D702}\Admin Approval\ApprovedDevicesStorage
 
-__Step 5 –__ Delete the whole key __ApprovedDevicesStorage__ to reset AA approvals for all devices, or chose a specific one and delete it.
+**Step 5 –** Delete the whole key **ApprovedDevicesStorage** to reset AA approvals for all devices,
+or chose a specific one and delete it.
 
-__Step 6 –__ Restart PPExtensionService.exe (aka Netwrix Endpoint Policy Manager (formerly PolicyPak) Helper Service.)
+**Step 6 –** Restart PPExtensionService.exe (aka Netwrix Endpoint Policy Manager (formerly
+PolicyPak) Helper Service.)

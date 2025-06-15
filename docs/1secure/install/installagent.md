@@ -1,59 +1,71 @@
 # Install Agent
 
-This topic describes an installation of the agent for collecting the data from your sources. Prior to installing the agent, ensure that all installation requirements have been met. See the [Netwrix Cloud Agent Software Requirements](../requirements/cloudagentrequirements.md) topic for additional information.
+This topic describes an installation of the agent for collecting the data from your sources. Prior
+to installing the agent, ensure that all installation requirements have been met. See the
+[Netwrix Cloud Agent Software Requirements](../requirements/cloudagentrequirements.md) topic for
+additional information.
 
 ## Configure Netwrix Cloud Agent
 
-To collect the data from the Computer and Active Directory you will need to install and configure the Netwrix Cloud Agent.
+To collect the data from the Computer and Active Directory you will need to install and configure
+the Netwrix Cloud Agent.
 
 Follow the steps to configure an agent.
 
-__Step 1 –__ In the Netwrix 1Secure Website, go to Home page and select the Add organization icon to add an organization. Specify the name of the organization, timezone, country, and tags.
+**Step 1 –** In the Netwrix 1Secure Website, go to Home page and select the Add organization icon to
+add an organization. Specify the name of the organization, timezone, country, and tags.
 
-__Step 2 –__ Click __Save__.
+**Step 2 –** Click **Save**.
 
-__Step 3 –__ On the Agent Config panel, select __Download Agent__ to start downloading agent for analyzing your data.
+**Step 3 –** On the Agent Config panel, select **Download Agent** to start downloading agent for
+analyzing your data.
 
-__Step 4 –__  Complete the [Install the Agent](#install-the-agent) steps. Ensure you tick Launch Netwrix Cloud Agent Configuration tool and click Finish.
+**Step 4 –** Complete the [Install the Agent](#install-the-agent) steps. Ensure you tick Launch
+Netwrix Cloud Agent Configuration tool and click Finish.
 
 ![organization_cloudagent](../../../static/img/product_docs/1secure/install/organization_cloudagent.webp)
 
-__Step 5 –__ On the displayed Netwrix Cloud Agent Configuration screen, select Configure to configure with Netwrix Cloud Agent.
+**Step 5 –** On the displayed Netwrix Cloud Agent Configuration screen, select Configure to
+configure with Netwrix Cloud Agent.
 
 ![installagent_copyagent](../../../static/img/product_docs/1secure/install/installagent_copyagent.webp)
 
-__Step 6 –__  Go back to your Netwrix 1Secure configuration panel and copy the agent connection details by selecting Copy Connection String. This information will be used for agent deployment.
+**Step 6 –** Go back to your Netwrix 1Secure configuration panel and copy the agent connection
+details by selecting Copy Connection String. This information will be used for agent deployment.
 
 ![cloudagent_copyagent](../../../static/img/product_docs/1secure/install/cloudagent_copyagent.webp)
 
-__Step 7 –__  Paste the information in the Netwrix Cloud Agent Configuration that you copied earlier and save settings.
+**Step 7 –** Paste the information in the Netwrix Cloud Agent Configuration that you copied earlier
+and save settings.
 
-__NOTE:__ The agent status has changed to __Connected__ (green).
+**NOTE:** The agent status has changed to **Connected** (green).
 
-__Step 8 –__ Go back to the Netwrix 1Secure configuration panel and select __Retry connecting to the client__. The agent status shall change to Healthy.
+**Step 8 –** Go back to the Netwrix 1Secure configuration panel and select **Retry connecting to the
+client**. The agent status shall change to Healthy.
 
 ## Install the Agent
 
 Follow the steps to install the agent.
 
-__Step 1 –__ Check the prerequisites.
+**Step 1 –** Check the prerequisites.
 
-__Step 2 –__ Download the agent installer while adding the organization.
+**Step 2 –** Download the agent installer while adding the organization.
 
 ![organization_cloudagentsetup1](../../../static/img/product_docs/1secure/install/organization_cloudagentsetup1.webp)
 
-__Step 3 –__ Click __Next__ to continue.
+**Step 3 –** Click **Next** to continue.
 
 ![installnetwrixcloudagent](../../../static/img/product_docs/1secure/install/installnetwrixcloudagent.webp)
 
-__Step 4 –__ Specify the installation folder and click __Next__ to continue.
+**Step 4 –** Specify the installation folder and click **Next** to continue.
 
 ![installagentnetwrixcloudagentready](../../../static/img/product_docs/1secure/install/installagentnetwrixcloudagentready.webp)
 
-__Step 5 –__ Click __Install__. The agent starts the installation process.
+**Step 5 –** Click **Install**. The agent starts the installation process.
 
 ![installagentnetwrixcloudagentinstalling](../../../static/img/product_docs/1secure/install/installagentnetwrixcloudagentinstalling.webp)
 
 ![installagentnetwrixcloudagentfinish](../../../static/img/product_docs/1secure/install/installagentnetwrixcloudagentfinish.webp)
 
-__Step 6 –__ Keep the __Launch Netwrix Cloud Agent Configuration__ tool checkbox selected and click Finish to complete the setup.
+**Step 6 –** Keep the **Launch Netwrix Cloud Agent Configuration** tool checkbox selected and click
+Finish to complete the setup.

@@ -1,6 +1,8 @@
 # PowerShell Data Collector
 
-The PowerShell Data Collector provides PowerShell script exit from Access Analyzer. It has configuration options for creating and configuring a PowerShell query. This data collector is a core component of Access Analyzer and is available with all Access Analyzer licenses.
+The PowerShell Data Collector provides PowerShell script exit from Access Analyzer. It has
+configuration options for creating and configuring a PowerShell query. This data collector is a core
+component of Access Analyzer and is available with all Access Analyzer licenses.
 
 Protocols
 
@@ -17,7 +19,8 @@ Permissions
 
 ## PowerShell Query Configuration
 
-The PowerShell Data Collector is configured through the PowerShell Data Collector Wizard, which contains the following pages:
+The PowerShell Data Collector is configured through the PowerShell Data Collector Wizard, which
+contains the following pages:
 
 - Welcome
 - [PowerShell: Edit Query](editquery.md)
@@ -28,4 +31,5 @@ The PowerShell Data Collector is configured through the PowerShell Data Collecto
 
 ![PowerShell Data Collector Wizard Welcome page](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
 
-The Welcome page can be hidden by checking the __Do not display this page the next time__ box when the wizard is open and configuration settings are saved.
+The Welcome page can be hidden by checking the **Do not display this page the next time** box when
+the wizard is open and configuration settings are saved.

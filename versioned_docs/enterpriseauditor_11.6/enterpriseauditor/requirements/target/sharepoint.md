@@ -1,6 +1,11 @@
 # SharePoint Support
 
-Netwrix products audit and monitor Microsoft® SharePoint® environments. Enterprise Auditor employs the SharePoint solution to execute Access Auditing (SPAA) and Sensitive Data Discovery Auditing scans against SharePoint on-premise and SharePoint Online. Through integration with Activity Monitor, Enterprise Auditor can also execute Activity Auditing (SPAC) scans against SharePoint on-premise and SharePoint online environments. Additionally, Activity Monitor can be configured to provide activity data to various SIEM products.
+Netwrix products audit and monitor Microsoft® SharePoint® environments. Enterprise Auditor employs
+the SharePoint solution to execute Access Auditing (SPAA) and Sensitive Data Discovery Auditing
+scans against SharePoint on-premise and SharePoint Online. Through integration with Activity
+Monitor, Enterprise Auditor can also execute Activity Auditing (SPAC) scans against SharePoint
+on-premise and SharePoint online environments. Additionally, Activity Monitor can be configured to
+provide activity data to various SIEM products.
 
 Ports and permissions vary based on the scan mode option selected as well as the target environment.
 
@@ -19,7 +24,11 @@ The following permissions are needed:
 - Read access to directory tree
 - List Contents & Read Property on the Deleted Objects Container
 
-  __NOTE:__ See the Microsoft [Searching for Deleted Objects](https://technet.microsoft.com/en-us/library/cc978013.aspx) article and the Microsoft [Dsacls](https://technet.microsoft.com/en-us/library/cc771151(v=ws.11).aspx) article for additional information.
+    **NOTE:** See the Microsoft
+    [Searching for Deleted Objects](https://technet.microsoft.com/en-us/library/cc978013.aspx)
+    article and the Microsoft
+    [Dsacls](<https://technet.microsoft.com/en-us/library/cc771151(v=ws.11).aspx>) article for
+    additional information.
 
 The following firewall ports are needed:
 
@@ -33,22 +42,24 @@ The following permissions are needed:
 
 - Microsoft Graph API
 
-  - Application Permissions:
+    - Application Permissions:
 
-    - AuditLog.Read.All – Read all audit log data
-    - Directory.Read.All – Read directory data
-  - Delegated Permissions:
+        - AuditLog.Read.All – Read all audit log data
+        - Directory.Read.All – Read directory data
 
-    - Group.Read.All – Read all groups
-    - User.Read.All – Read all users' full profiles
+    - Delegated Permissions:
+
+        - Group.Read.All – Read all groups
+        - User.Read.All – Read all users' full profiles
+
 - Access URLs
 
-  - https://login.windows.net
-  - https://graph.windows.net
-  - https://login.microsoftonline.com
-  - https://graph.microsoft.com
+    - https://login.windows.net
+    - https://graph.windows.net
+    - https://login.microsoftonline.com
+    - https://graph.microsoft.com
 
-    - All sub-directories of the access URLs listed
+        - All sub-directories of the access URLs listed
 
 The following firewall ports are needed:
 
@@ -60,11 +71,18 @@ The following are supported Microsoft® SharePoint® Online:
 
 - SharePoint Online® (Agent-less mode scans only)
 
-- OneDrive® for Business (Access Auditing and/or Sensitive Data Discovery Auditing for Agent-less mode scans only)
+- OneDrive® for Business (Access Auditing and/or Sensitive Data Discovery Auditing for Agent-less
+  mode scans only)
 
-See the [SharePoint Scan Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/sharepoint/scanoptions.md) topic for additional information.
+See the
+[SharePoint Scan Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/sharepoint/scanoptions.md)
+topic for additional information.
 
-__NOTE:__ You can use the __SP_RegisterAzureAppAuth__ instant job to make the configuration for SharePoint Online easier. This job registers the necessary Microsoft Entra ID application and provisions it with the required permissions. See the [SP_RegisterAzureAppAuth Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/instantjobs/sp_registerazureappauth.md) topic for additional information.
+**NOTE:** You can use the **SP_RegisterAzureAppAuth** instant job to make the configuration for
+SharePoint Online easier. This job registers the necessary Microsoft Entra ID application and
+provisions it with the required permissions. See the
+[SP_RegisterAzureAppAuth Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/instantjobs/sp_registerazureappauth.md)
+topic for additional information.
 
 ## Supported SharePoint On-Premise
 
@@ -74,4 +92,6 @@ The following are supported Microsoft® SharePoint® operating systems:
 - SharePoint® 2016
 - SharePoint® 2013
 
-See the [SharePoint Scan Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/sharepoint/scanoptions.md) topic for additional information.
+See the
+[SharePoint Scan Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/sharepoint/scanoptions.md)
+topic for additional information.

@@ -1,32 +1,50 @@
 # Microsoft Entra ID Identity Store
 
-Once you have registered GroupID and created a user with required directory role in Microsoft Entra ID, you can now create an Microsoft Entra ID identity store in GroupID. This topic walks you through the steps to create an Microsoft Entra ID identity store and assign a role to the Microsoft Entra ID user in GroupID.
+Once you have registered GroupID and created a user with required directory role in Microsoft Entra
+ID, you can now create an Microsoft Entra ID identity store in GroupID. This topic walks you through
+the steps to create an Microsoft Entra ID identity store and assign a role to the Microsoft Entra ID
+user in GroupID.
 
 ## To create an Microsoft Entra ID Identity Store
 
-See the [Create an Identity Store for Microsoft Entra ID](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/create.md#create-an-identity-store-for-microsoft-entra-id) topic for creating an Microsoft Entra ID identity store.
+See the
+[Create an Identity Store for Microsoft Entra ID](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/create.md#create-an-identity-store-for-microsoft-entra-id)
+topic for creating an Microsoft Entra ID identity store.
 
-NOTE: If you intend to use a service account user with Global Administrator directory role, then no change is required in the default GroupID security roles settings of Microsoft Entra ID identity store. And if you intend to use a service account user with any role, other than Global administrator directory role (i.e. User Administrator + Exchange Administrator), then the GroupID Administrator security role criteria group must be changed to User Account Administrator.
+NOTE: If you intend to use a service account user with Global Administrator directory role, then no
+change is required in the default GroupID security roles settings of Microsoft Entra ID identity
+store. And if you intend to use a service account user with any role, other than Global
+administrator directory role (i.e. User Administrator + Exchange Administrator), then the GroupID
+Administrator security role criteria group must be changed to User Account Administrator.
 
 ## GroupID Security Role Setting
 
-If you want to use a service account user with a role other than Global administrator role for Microsoft Entra ID identity store, you have to assign it _User Account Administrator_ role in GroupID.
+If you want to use a service account user with a role other than Global administrator role for
+Microsoft Entra ID identity store, you have to assign it _User Account Administrator_ role in
+GroupID.
 
-1. In Admin Center, click __Identity Stores__ in the left pane.
-2. On the __Identity Stores__ page, click the ellipsis button for Microsoft Entra ID identity store and select __Edit__.
-3. Click __Security Roles__ under __Settings__ in the left pane.
-4. On the __Security Roles__ page, click __Edit__ for the administrator security role.
-5. On the __Edit Security Role__ page, the __Criteria__ area displays the role criteria. Click __Add Criteria__ to change it. On the __Add Criteria__ dialog box, delete the existing criteria and search for User account administrator. Click __Save__.
-6. Click __Update Security Role__.
-7. On the __Security Roles__ page, click __Save__.
+1. In Admin Center, click **Identity Stores** in the left pane.
+2. On the **Identity Stores** page, click the ellipsis button for Microsoft Entra ID identity store
+   and select **Edit**.
+3. Click **Security Roles** under **Settings** in the left pane.
+4. On the **Security Roles** page, click **Edit** for the administrator security role.
+5. On the **Edit Security Role** page, the **Criteria** area displays the role criteria. Click **Add
+   Criteria** to change it. On the **Add Criteria** dialog box, delete the existing criteria and
+   search for User account administrator. Click **Save**.
+6. Click **Update Security Role**.
+7. On the **Security Roles** page, click **Save**.
 
 ## Limitations of Minimum Service Account Permissions
 
-If you are using a service account with minimum directory role assignments, the following limitations apply:
+If you are using a service account with minimum directory role assignments, the following
+limitations apply:
 
-- Only the User role can be assigned to newly created users and mailboxes objects from GroupID. The same applies to existing users and mailboxes, as Directory Roles cannot be changed, using a service account with minimum directory role assignments.
+- Only the User role can be assigned to newly created users and mailboxes objects from GroupID. The
+  same applies to existing users and mailboxes, as Directory Roles cannot be changed, using a
+  service account with minimum directory role assignments.
 
-- The password reset functionality would be limited to objects falling in the User role, User Administrator role, and Helpdesk role.
+- The password reset functionality would be limited to objects falling in the User role, User
+  Administrator role, and Helpdesk role.
 
 See Also
 

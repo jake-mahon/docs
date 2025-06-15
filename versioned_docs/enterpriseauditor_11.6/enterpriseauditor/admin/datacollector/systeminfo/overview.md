@@ -1,6 +1,12 @@
 # SystemInfo Data Collector
 
-The SystemInfo Data Collector extracts information from the target system based on the selected category. The SystemInfo Data Collector is a core component of Enterprise Auditor, but it has been preconfigured within the Windows Solution. While the data collector is available with all Enterprise Auditor license options, the Windows Solution is only available with a special Enterprise Auditor license. See the [Windows Solution](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/windows/overview.md) topic for additional information.
+The SystemInfo Data Collector extracts information from the target system based on the selected
+category. The SystemInfo Data Collector is a core component of Enterprise Auditor, but it has been
+preconfigured within the Windows Solution. While the data collector is available with all Enterprise
+Auditor license options, the Windows Solution is only available with a special Enterprise Auditor
+license. See the
+[Windows Solution](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/windows/overview.md)
+topic for additional information.
 
 Protocols
 
@@ -19,7 +25,8 @@ Permissions
 
 ## SystemInfo Query Configuration
 
-The SystemInfo Data Collector is configured through the System Info Data Collector Wizard, which contains the following wizard pages:
+The SystemInfo Data Collector is configured through the System Info Data Collector Wizard, which
+contains the following wizard pages:
 
 - Welcome
 - [SystemInfo: Category](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/systeminfo/category.md)
@@ -33,4 +40,5 @@ The SystemInfo Data Collector is configured through the System Info Data Collect
 
 ![System Info Data Collector Wizard Welcome page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/welcome.png)
 
-The Welcome page can be hidden by selecting the __Do not display this page the next time__ checkbox when the wizard is open and configuration settings are saved.
+The Welcome page can be hidden by selecting the **Do not display this page the next time** checkbox
+when the wizard is open and configuration settings are saved.

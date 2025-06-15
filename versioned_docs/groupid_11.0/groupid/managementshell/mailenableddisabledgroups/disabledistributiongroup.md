@@ -2,16 +2,17 @@
 
 Use this commandlet to disable the mailing capabilities for a distribution group in Directory.
 
-GroupID maintains a history for this commandlet, which you can view in GroupID Management Console using the History tab of the object's properties dialog box.
+GroupID maintains a history for this commandlet, which you can view in GroupID Management Console
+using the History tab of the object's properties dialog box.
 
 ## Syntax
 
 ```
-Disable-DistributionGroup  
--Identity <string>  
-[-IdentityStoreId <int>]  
-[-SecurityToken <CustomClaimsPrincipal>]  
-[-Credential <pscredential>]  
+Disable-DistributionGroup
+-Identity <string>
+[-IdentityStoreId <int>]
+[-SecurityToken <CustomClaimsPrincipal>]
+[-Credential <pscredential>]
 [<CommonParameters>]
 ```
 
@@ -21,7 +22,8 @@ Disable-DistributionGroup
 
 Example:
 
-The following command mail-disables a distribution group specified by the __Identity__ parameter, using the credentials of current user logged-on to the identity store.
+The following command mail-disables a distribution group specified by the **Identity** parameter,
+using the credentials of current user logged-on to the identity store.
 
 ```
 Disable-DistributionGroup -Identity "CN=Smart_Training,OU=Recruiting,DC=HR,DC=Imanami,DC=US"

@@ -1,6 +1,7 @@
 # Agent Properties Window
 
-On the Agents tab, the Edit button opens the agent’s Properties window, which contains the following tabs:
+On the Agents tab, the Edit button opens the agent’s Properties window, which contains the following
+tabs:
 
 - [Active Directory Tab](activedirectory.md) – AD Agent only
 - [AD Users Tab](adusers.md)
@@ -20,6 +21,6 @@ On the Agents tab, the Edit button opens the agent’s Properties window, which 
 - [Panzura Tab](panzura.md) – Activity Agent only
 - [Qumulo Tab](qumulo.md) – Activity Agent only
 
-Select the desired agent and click __Edit__ to open the agent’s Properties window.
+Select the desired agent and click **Edit** to open the agent’s Properties window.
 
 ![Properties Window](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/agents/properties/mainimage.webp)

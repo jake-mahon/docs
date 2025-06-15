@@ -1,39 +1,42 @@
 # Set Up the Archive Folder
 
-Advanced Change Management allows data within customization to be archived during the Clean Up process. An archive folder must be created before the Clean Up process.
+Advanced Change Management allows data within customization to be archived during the Clean Up
+process. An archive folder must be created before the Clean Up process.
 
 ## Create the Archive Folder
 
-1. Open __NetSuite Home__ > __Set Preferences__
-2. Under __Defaults__, make sure __Show Internal IDS__ is checked on the __General__ tab.
-3. Click __Save__
-4. Open __Documents__ > __Files__ > __File Cabinet__ > __New__
-5. Name the folder __Strongpoint Archived Data Files__.
-6. Enter __Documents and Files__ in __Sub-Folder Of__
+1. Open **NetSuite Home** > **Set Preferences**
+2. Under **Defaults**, make sure **Show Internal IDS** is checked on the **General** tab.
+3. Click **Save**
+4. Open **Documents** > **Files** > **File Cabinet** > **New**
+5. Name the folder **Strongpoint Archived Data Files**.
+6. Enter **Documents and Files** in **Sub-Folder Of**
 7. Best practice is to add a meaningful description.
-8. Click __Save__
-9. Note the __Internal ID__ for your new __Strongpoint Archived Data Files__ folder. __48783__ in this example.
+8. Click **Save**
+9. Note the **Internal ID** for your new **Strongpoint Archived Data Files** folder. **48783** in
+   this example.
 
-   ![Finding the Internal ID of the Archive Folder](../../../static/img/product_docs/strongpointfornetsuite/clean_up/internal_id.webp)
+    ![Finding the Internal ID of the Archive Folder](../../../static/img/product_docs/strongpointfornetsuite/clean_up/internal_id.webp)
 
 ## Assign the Internal ID to the Deployed Script
 
 To assign the internal ID to a deployed script:
 
-1. Open __Customization__ > __Scripting__ > __Scripts__
-2. Change the __Type__ Filter to __Scheduled__ and __From Bundle__ to __294336__
-3. Click __View__ by the __Strongpoint Auto Archive__
+1. Open **Customization** > **Scripting** > **Scripts**
+2. Change the **Type** Filter to **Scheduled** and **From Bundle** to **294336**
+3. Click **View** by the **Strongpoint Auto Archive**
 
 ![scripts-1](../../../static/img/product_docs/strongpointfornetsuite/clean_up/scripts-1.webp)
 
-4. Open the __Deployments__ tab.
-5. Click on __Strongpoint Auto Archive – OD__.
+4. Open the **Deployments** tab.
+5. Click on **Strongpoint Auto Archive – OD**.
 
-   ![scripts-2](../../../static/img/product_docs/strongpointfornetsuite/clean_up/scripts-2.webp)
-6. Click __Edit__
-7. Open the __Parameters__ tab, add the internal ID of your __Archive Folder__
+    ![scripts-2](../../../static/img/product_docs/strongpointfornetsuite/clean_up/scripts-2.webp)
+
+6. Click **Edit**
+7. Open the **Parameters** tab, add the internal ID of your **Archive Folder**
 8. Click Save
 
-   ![scripts-3](../../../static/img/product_docs/strongpointfornetsuite/clean_up/scripts-3.webp)
+    ![scripts-3](../../../static/img/product_docs/strongpointfornetsuite/clean_up/scripts-3.webp)
 
 The archiving function on Change Requests is now set up and ready to use.

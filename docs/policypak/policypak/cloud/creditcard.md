@@ -1,8 +1,9 @@
 # How do I start credit card billing with Endpoint Policy Manager SaaS Edition?
 
-To start Netwrix Endpoint Policy Manager (formerly PolicyPak) SaaS / Cloud billing, you need to go the Endpoint Policy Manager Portal (not the Cloud Service.)
+To start Netwrix Endpoint Policy Manager (formerly PolicyPak) SaaS / Cloud billing, you need to go
+the Endpoint Policy Manager Portal (not the Cloud Service.)
 
-Then when you're there, click on __SaaS Billing__, then __Start Subscription__.
+Then when you're there, click on **SaaS Billing**, then **Start Subscription**.
 
 Follow the directions after that.
 

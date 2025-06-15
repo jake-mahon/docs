@@ -1,6 +1,7 @@
 # Domain Summary Report
 
-The Domain Summary report at the __Active Directory__ node provides a top-level view of domains that have been scanned.
+The Domain Summary report at the **Active Directory** node provides a top-level view of domains that
+have been scanned.
 
 ![Domain Summary report](../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/activedirectory/domainsummary.webp)
 

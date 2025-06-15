@@ -1,31 +1,32 @@
 # Managing Users
 
-Users are managed through the __[__License Manager__](license_manager.md)__.
+Users are managed through the **[**License Manager**](license_manager.md)**.
 
 ## Add a User:
 
-1. Open __Strongpoint__ > __Strongpoint Support__ > __License Manager__
-2. Click __View__
-3. Click __New Licensed User__
-4. Open the __User__ dropdown. Select an existing NetSuite user name or select New to open a new __Employee__ Form.
-5. Select the __License Type__.
-6. Click __Save__.
+1. Open **Strongpoint** > **Strongpoint Support** > **License Manager**
+2. Click **View**
+3. Click **New Licensed User**
+4. Open the **User** dropdown. Select an existing NetSuite user name or select New to open a new
+   **Employee** Form.
+5. Select the **License Type**.
+6. Click **Save**.
 
 ## Edit a User
 
-1. Open __Strongpoint__ > __Strongpoint Support__ > __License Manager__
-2. Click __View__
-3. Select __Strongpoint Licensed Users__ from __View__.
-4. Click __Edit__ by the User name.
-5. Change the information and click __Save__.
+1. Open **Strongpoint** > **Strongpoint Support** > **License Manager**
+2. Click **View**
+3. Select **Strongpoint Licensed Users** from **View**.
+4. Click **Edit** by the User name.
+5. Change the information and click **Save**.
 
 ## Inactivate a Licensed User
 
-1. Open __Strongpoint__ > __Strongpoint Support__ > __License Manager__
-2. Click __View__
-3. Select __Strongpoint Licensed Users__ from __View__.
-4. Click __Edit__ by the User name.
-5. Click to mark the __Inactive__ box.
-6. Click __Save__.
+1. Open **Strongpoint** > **Strongpoint Support** > **License Manager**
+2. Click **View**
+3. Select **Strongpoint Licensed Users** from **View**.
+4. Click **Edit** by the User name.
+5. Click to mark the **Inactive** box.
+6. Click **Save**.
 
-__Next Step:__  [Setting Tab Access](setting_strongpoint_tab_access.md)
+**Next Step:** [Setting Tab Access](setting_strongpoint_tab_access.md)

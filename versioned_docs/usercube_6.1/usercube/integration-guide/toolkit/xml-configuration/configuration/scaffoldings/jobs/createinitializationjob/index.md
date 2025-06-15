@@ -12,69 +12,71 @@ Creates the Initialization Job for the given agent.
 
 ## Properties
 
-| Property | Details |
-| --- | --- |
-| Agent   optional | __Type__    String   __Description__   For job scaffoldings, identifier of the agent on which the job to be generated will be launched. |
-| DisplayName_L1   optional | __Type__    String   __Description__   Display name of the scaffolding in language 1 (up to 16). |
-| JobIdentifier   optional | __Type__    String   __Description__   For job scaffoldings, identifier of the job to be generated. If not defined, the job identifier is calculated. |
-| OldAlgorithm   optional | __Type__    Boolean   __Description__   Internal use. |
+| Property                | Details                                                                                                                                        |
+| ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| Agent optional          | **Type** String **Description** For job scaffoldings, identifier of the agent on which the job to be generated will be launched.               |
+| DisplayName_L1 optional | **Type** String **Description** Display name of the scaffolding in language 1 (up to 16).                                                      |
+| JobIdentifier optional  | **Type** String **Description** For job scaffoldings, identifier of the job to be generated. If not defined, the job identifier is calculated. |
+| OldAlgorithm optional   | **Type** Boolean **Description** Internal use.                                                                                                 |
 
 ## Child Elements
 
 - [AddTask](#addtask) (optional) Add a task before or after another in the job
-- Configuration (optional) Add the path of the configuration folder if a configuration task is in the job
+- Configuration (optional) Add the path of the configuration folder if a configuration task is in
+  the job
 - [NoConnectorProvisioning](#noconnectorprovisioning) (optional) Avoid provisioning for a connector
 - [NoConnectorSynchronization](#noconnectorsynchronization) (optional) Avoid collect for a connector
 - [NotUsed](#notused) (optional) Avoid collect and provisioning for a connector
 - [OpenIdIdentifier](#openididentifier) (optional) Add a Open Id to the job and the tasks
-- [PrincipalDataConnector](#principaldataconnector) (optional) Specifies the connector that contains the data for the fulfillment of external systems.
+- [PrincipalDataConnector](#principaldataconnector) (optional) Specifies the connector that contains
+  the data for the fulfillment of external systems.
 
 ### AddTask
 
-| Property | Details |
-| --- | --- |
-| Task   required | __Type__    String   __Description__   Identifier of the task to add |
-| TaskToCompareWith   required | __Type__    String   __Description__   The identifier of the task before or after which the new task will be inserted |
-| After   default value: false | __Type__    Boolean   __Description__   For the Argument AddTask the property after define the place of the task to add with the TaskCompareWith. |
-| Before   default value: false | __Type__    Boolean   __Description__   For the Argument AddTask the property before define the place of the task to add with the TaskCompareWith. |
-| CopyOccurence   default value: 0 | __Type__    Int32   __Description__   For Argument AddTask, Specify the Occurence to copy and add the Task in a specify Job. |
-| Occurence   default value: 0 | __Type__    Int32   __Description__   Occurence of the TaskToCompare after or before which the task will be added |
+| Property                       | Details                                                                                                                                     |
+| ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| Task required                  | **Type** String **Description** Identifier of the task to add                                                                               |
+| TaskToCompareWith required     | **Type** String **Description** The identifier of the task before or after which the new task will be inserted                              |
+| After default value: false     | **Type** Boolean **Description** For the Argument AddTask the property after define the place of the task to add with the TaskCompareWith.  |
+| Before default value: false    | **Type** Boolean **Description** For the Argument AddTask the property before define the place of the task to add with the TaskCompareWith. |
+| CopyOccurence default value: 0 | **Type** Int32 **Description** For Argument AddTask, Specify the Occurence to copy and add the Task in a specify Job.                       |
+| Occurence default value: 0     | **Type** Int32 **Description** Occurence of the TaskToCompare after or before which the task will be added                                  |
 
 ### Configuration
 
-| Property | Details |
-| --- | --- |
-| Path   required | __Type__    String   __Description__   Represents the argument value. |
+| Property      | Details                                                        |
+| ------------- | -------------------------------------------------------------- |
+| Path required | **Type** String **Description** Represents the argument value. |
 
 ### NoConnectorProvisioning
 
-| Property | Details |
-| --- | --- |
-| ConnectorIdentifier   required | __Type__    String   __Description__   Identifier of the connector involved in the following arguments: ```NoConnectorSynchronization```; ```NoConnectorProvisioning```; ```NotUsed```; ```FulfillInternalWorkflowsPath```; ```PrincipalDataConnector```. |
+| Property                     | Details                                                                                                                                                                                                                        |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ConnectorIdentifier required | **Type** String **Description** Identifier of the connector involved in the following arguments: `NoConnectorSynchronization`; `NoConnectorProvisioning`; `NotUsed`; `FulfillInternalWorkflowsPath`; `PrincipalDataConnector`. |
 
 ### NoConnectorSynchronization
 
-| Property | Details |
-| --- | --- |
-| ConnectorIdentifier   required | __Type__    String   __Description__   Identifier of the connector involved in the following arguments: ```NoConnectorSynchronization```; ```NoConnectorProvisioning```; ```NotUsed```; ```FulfillInternalWorkflowsPath```; ```PrincipalDataConnector```. |
+| Property                     | Details                                                                                                                                                                                                                        |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ConnectorIdentifier required | **Type** String **Description** Identifier of the connector involved in the following arguments: `NoConnectorSynchronization`; `NoConnectorProvisioning`; `NotUsed`; `FulfillInternalWorkflowsPath`; `PrincipalDataConnector`. |
 
 ### NotUsed
 
-| Property | Details |
-| --- | --- |
-| ConnectorIdentifier   required | __Type__    String   __Description__   Identifier of the connector involved in the following arguments: ```NoConnectorSynchronization```; ```NoConnectorProvisioning```; ```NotUsed```; ```FulfillInternalWorkflowsPath```; ```PrincipalDataConnector```. |
+| Property                     | Details                                                                                                                                                                                                                        |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ConnectorIdentifier required | **Type** String **Description** Identifier of the connector involved in the following arguments: `NoConnectorSynchronization`; `NoConnectorProvisioning`; `NotUsed`; `FulfillInternalWorkflowsPath`; `PrincipalDataConnector`. |
 
 ### OpenIdIdentifier
 
-| Property | Details |
-| --- | --- |
-| Identifier   required | __Type__    String   __Description__   Identifier of the OpenId |
+| Property            | Details                                                  |
+| ------------------- | -------------------------------------------------------- |
+| Identifier required | **Type** String **Description** Identifier of the OpenId |
 
 ### PrincipalDataConnector
 
-| Property | Details |
-| --- | --- |
-| ConnectorIdentifier   required | __Type__    String   __Description__   Identifier of the connector involved in the following arguments: ```NoConnectorSynchronization```; ```NoConnectorProvisioning```; ```NotUsed```; ```FulfillInternalWorkflowsPath```; ```PrincipalDataConnector```. |
+| Property                     | Details                                                                                                                                                                                                                        |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ConnectorIdentifier required | **Type** String **Description** Identifier of the connector involved in the following arguments: `NoConnectorSynchronization`; `NoConnectorProvisioning`; `NotUsed`; `FulfillInternalWorkflowsPath`; `PrincipalDataConnector`. |
 
 ## Generated XML
 

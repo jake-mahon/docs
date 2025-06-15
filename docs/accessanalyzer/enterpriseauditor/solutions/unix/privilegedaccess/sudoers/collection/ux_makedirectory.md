@@ -1,12 +1,13 @@
 # UX_MakeDirectory Job
 
-The UX_MakeDirectory job creates a temporary Access Analyzer directory on the target host to be used by the UX_ParseSudoers job.
+The UX_MakeDirectory job creates a temporary Access Analyzer directory on the target host to be used
+by the UX_ParseSudoers job.
 
 ## Queries for the UX_MakeDirectory Job
 
 The UX_MakeDirectory job uses the Unix Data Collector for the following query:
 
-__CAUTION:__ The query is preconfigured for this job. Never modify the query.
+**CAUTION:** The query is preconfigured for this job. Never modify the query.
 
 ![Queries for the UX_MakeDirectory Job](../../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/unix/privilegedaccess/sudoers/collection/makedirectoryquery.webp)
 

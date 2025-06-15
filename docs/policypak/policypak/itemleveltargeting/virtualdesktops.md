@@ -4,12 +4,13 @@
 
 The query you want is:
 
-__Step 1 –__ The Operating System is Windows 10
+**Step 1 –** The Operating System is Windows 10
 
-__Step 2 –__ and the WMI Query:select \* from Win32_OperatingSystem, where OperatingSystemSKU = 175
+**Step 2 –** and the WMI Query:select \* from Win32_OperatingSystem, where OperatingSystemSKU = 175
 
 The result will look like this:
 
 ![642_2_2](../../../../static/img/product_docs/policypak/policypak/itemleveltargeting/642_2_2.webp)
 
-__NOTE:__ For other unusual SKUs and information on how to get the ID, see the Microsoft article on [OperatingSystemSKU Enum.](https://learn.microsoft.com/en-us/dotnet/api/microsoft.powershell.commands.operatingsystemsku?view=powershellsdk-1.1.0)
+**NOTE:** For other unusual SKUs and information on how to get the ID, see the Microsoft article on
+[OperatingSystemSKU Enum.](https://learn.microsoft.com/en-us/dotnet/api/microsoft.powershell.commands.operatingsystemsku?view=powershellsdk-1.1.0)

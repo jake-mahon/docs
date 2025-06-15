@@ -4,21 +4,17 @@
 
 #### TestUserStore And LocalLogin
 
-The sections ```TestUserStore``` and ```AllowLocalLogin``` are moved from IdentityServer to Authentication.
+The sections `TestUserStore` and `AllowLocalLogin` are moved from IdentityServer to Authentication.
 
 Old Settings:
 
                     ```
 
-  "IdentityServer": {
-    "AllowLocalLogin": true,
-    "TestUserStore": {
-      "Enabled": "true",
-      "Password": "secret"
-    }
+"IdentityServer": { "AllowLocalLogin": true, "TestUserStore": { "Enabled": "true", "Password":
+"secret" }
 
-```
-                
+````
+
 
 New Settings:
 
@@ -31,8 +27,7 @@ New Settings:
       "Password": "secret"
     }
 
-```
-                
+````
 
 #### External Loggin
 
@@ -44,14 +39,12 @@ Old Settings:
 
                     ```
 
-   "WsFederation": {
-        "Enabled": "True",
-        "MetadataAddress": "https:///FederationMetadata/2007-06/FederationMetadata.xml",
-        "Wtrealm": "https://localhost:44307/"
-    }
+"WsFederation": { "Enabled": "True", "MetadataAddress":
+"https:///FederationMetadata/2007-06/FederationMetadata.xml", "Wtrealm": "https://localhost:44307/"
+}
 
-```
-                
+````
+
 
 New Settings:
 
@@ -67,8 +60,7 @@ New Settings:
         }
     }
 
-```
-                
+````
 
 #### [OpenId](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/end-users-authentication/index.md) Authentication
 
@@ -76,15 +68,11 @@ Old Settings:
 
                     ```
 
-  "OpenId": {
-        "Enabled": "True",
-        "ClientId": "clientID",
-        "ClientSecret": "secret",
-        "Authority": "https://login.microsoftonline.com/"
-    }
+"OpenId": { "Enabled": "True", "ClientId": "clientID", "ClientSecret": "secret", "Authority":
+"https://login.microsoftonline.com/" }
 
-```
-                
+````
+
 
 New Settings:
 
@@ -101,8 +89,7 @@ New Settings:
         }
     }
 
-```
-                
+````
 
 #### [Active Directory](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/end-users-authentication/index.md) Authentication
 
@@ -110,16 +97,11 @@ Old Settings:
 
                     ```
 
-"ActiveDirectoryUserStore": {
-    "Enabled": true,
-      "Server": "ServerUri",
-      "Domain": "DomainName",
-      "Prefix": "Prefix",
-      "Postfix": "Postfix"
-  }
+"ActiveDirectoryUserStore": { "Enabled": true, "Server": "ServerUri", "Domain": "DomainName",
+"Prefix": "Prefix", "Postfix": "Postfix" }
 
-```
-                
+````
+
 
 New Settings:
 
@@ -135,8 +117,7 @@ New Settings:
     }
   }
 
-```
-                
+````
 
 #### [Optional Settings](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/general-purpose/index.md)
 
@@ -156,19 +137,11 @@ Old Settings:
 
                     ```
 
-"Logging": {
-   "IncludeScopes": false,
-   "LogLevel": {
-     "Default": "Error",
-     "Usercube": "Information"
-   },
-   "Serilog": {
-     "WriteTo": [ { "Name": "Console" } ]
-   }
-  }
+"Logging": { "IncludeScopes": false, "LogLevel": { "Default": "Error", "Usercube": "Information" },
+"Serilog": { "WriteTo": [ { "Name": "Console" } ] } }
 
-```
-                
+````
+
 
 New Settings:
 
@@ -184,4 +157,4 @@ New Settings:
     }
   }
 
-```
+````

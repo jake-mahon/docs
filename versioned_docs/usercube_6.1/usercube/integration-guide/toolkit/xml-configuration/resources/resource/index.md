@@ -1,18 +1,21 @@
 # Resource
 
-The ```<Resource>``` element also allows the definition of a resource entity directly from within the configuration. Such element must specify:
+The `<Resource>` element also allows the definition of a resource entity directly from within the
+configuration. Such element must specify:
 
-- the entity type using the ```Type``` attribute
-- a unique ```Id```
+- the entity type using the `Type` attribute
+- a unique `Id`
 - property values using corresponding column names as attributes
 
-When inserting resource-identity in the resource table this way, the Id attribute must be a positive integer. Negative Ids are reserved for Usercube's engine.
+When inserting resource-identity in the resource table this way, the Id attribute must be a positive
+integer. Negative Ids are reserved for Usercube's engine.
 
 ## Examples
 
-The following sample inserts two entities of type ```User```: John Smith and Anthony Baker. John Smith is the manager of Anthony Baker.
+The following sample inserts two entities of type `User`: John Smith and Anthony Baker. John Smith
+is the manager of Anthony Baker.
 
-The ```User``` __Entity Type__ is defined as follows:
+The `User` **Entity Type** is defined as follows:
 
 ```
 
@@ -20,11 +23,14 @@ The ```User``` __Entity Type__ is defined as follows:
 
 ```
 
-The two new resources are inserted in the database using the ```<Resource>``` tag.
+The two new resources are inserted in the database using the `<Resource>` tag.
 
-They are assigned the ids ```300``` and ```301```, they are positive integers (since User type resources are resource-identity) and not yet used in the __UR_Resource__ table.
+They are assigned the ids `300` and `301`, they are positive integers (since User type resources are
+resource-identity) and not yet used in the **UR_Resource** table.
 
-The ```User``` resource properties (FirstName, LastName and Manager) are matched to a __UR_Resource__ table column, such as ```C4```, ```C5``` or ```I40``` according to their data column index, in the above __Entity Type__ definition.
+The `User` resource properties (FirstName, LastName and Manager) are matched to a **UR_Resource**
+table column, such as `C4`, `C5` or `I40` according to their data column index, in the above
+**Entity Type** definition.
 
 - FirstName: index 4 => column C4
 - LastName: index 5 => column C5
@@ -36,14 +42,16 @@ The ```User``` resource properties (FirstName, LastName and Manager) are matched
 
 ```
 
-Most encountered use cases in real life is populating very tiny datasets like employee categories (Internal, External) or personal titles (Mr, Ms). Identities are almost never insert this way. This contrived example aims at illustrating the method.
+Most encountered use cases in real life is populating very tiny datasets like employee categories
+(Internal, External) or personal titles (Mr, Ms). Identities are almost never insert this way. This
+contrived example aims at illustrating the method.
 
 ## Properties
 
-| Property | Details |
-| --- | --- |
-| C0   optional | __Type__    String   __Description__   A column of storage. Going from 0 to 127. |
-| Dirty   default value: false | __Type__    Boolean   __Description__   Flag set by the Usercube-Set-RecentlyModifiedFlag task. |
-| DisplayName_L1   optional | __Type__    String   __Description__   Display name of the resource in language 1 (up to 16). |
-| I40   optional | __Type__    Int64   __Description__   This columns are used to store the id of an linked entity. When an entity type has a mono-valued association we usually use this columns to store the information. By default there are 10 columns for the storage of the mono-valued associations. |
-| Type   required | __Type__    Int64   __Description__   The type of the resource. References the internal id of an EntityType. |
+| Property                   | Details                                                                                                                                                                                                                                                                            |
+| -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| C0 optional                | **Type** String **Description** A column of storage. Going from 0 to 127.                                                                                                                                                                                                          |
+| Dirty default value: false | **Type** Boolean **Description** Flag set by the Usercube-Set-RecentlyModifiedFlag task.                                                                                                                                                                                           |
+| DisplayName_L1 optional    | **Type** String **Description** Display name of the resource in language 1 (up to 16).                                                                                                                                                                                             |
+| I40 optional               | **Type** Int64 **Description** This columns are used to store the id of an linked entity. When an entity type has a mono-valued association we usually use this columns to store the information. By default there are 10 columns for the storage of the mono-valued associations. |
+| Type required              | **Type** Int64 **Description** The type of the resource. References the internal id of an EntityType.                                                                                                                                                                              |

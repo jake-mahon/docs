@@ -1,18 +1,19 @@
 # Get-ImanamiCommand
 
-Use the Get-ImanamiCommand cmdlet to retrieve basic information about Directory Manager Management Shell commandlets and command elements.
+Use the Get-ImanamiCommand cmdlet to retrieve basic information about Directory Manager Management
+Shell commandlets and command elements.
 
 ## Syntax
 
 ```
-Get-ImanamiCommand  
-[-Name <string[]>]  
-[-Verb <string>]  
-[-Noun <string>]  
-[-AttributesToLoad <string[]>]  
-[-IdentityStoreId <int>]  
-[-SecurityToken <CustomClaimsPrincipal>]  
-[-Credential <pscredential>]  
+Get-ImanamiCommand
+[-Name <string[]>]
+[-Verb <string>]
+[-Noun <string>]
+[-AttributesToLoad <string[]>]
+[-IdentityStoreId <int>]
+[-SecurityToken <CustomClaimsPrincipal>]
+[-Credential <pscredential>]
 [<CommonParameters>]
 ```
 
@@ -38,7 +39,8 @@ Get-ImanamiCommand -Name Set*
 
 Example 3:
 
-The following command gets all commandlets and command elements with the letter Y anywhere in the verb of their name.
+The following command gets all commandlets and command elements with the letter Y anywhere in the
+verb of their name.
 
 ```
 Get-ImanamiCommand -Verb *Y*

@@ -22,7 +22,7 @@ Any property without a value is not displayed.
 
 ## Properties
 
-| Property | Details |
-| --- | --- |
-| DisplayName_L1   optional | __Type__    String   __Description__   Display name of the fieldset in language 1 (up to 16). |
-| Identifier   required | __Type__    String   __Description__   Unique identifier of the property group. |
+| Property                | Details                                                                                |
+| ----------------------- | -------------------------------------------------------------------------------------- |
+| DisplayName_L1 optional | **Type** String **Description** Display name of the fieldset in language 1 (up to 16). |
+| Identifier required     | **Type** String **Description** Unique identifier of the property group.               |

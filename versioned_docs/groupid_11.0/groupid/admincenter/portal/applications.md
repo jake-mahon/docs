@@ -14,7 +14,7 @@ Moreover, you can manage some basic deployment and log settings for the followin
 - [Email Service](/versioned_docs/groupid_11.0/groupid/admincenter/service/emailservice.md)
 - [Scheduler Service](/versioned_docs/groupid_11.0/groupid/admincenter/service/schedulerservice.md)
 
-__See Also__
+**See Also**
 
 - [GroupID Portal](/versioned_docs/groupid_11.0/groupid/admincenter/portal/overview.md)
 - [Services](/versioned_docs/groupid_11.0/groupid/admincenter/service/overview.md)

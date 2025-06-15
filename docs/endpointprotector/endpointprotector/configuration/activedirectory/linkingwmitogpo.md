@@ -2,8 +2,9 @@
 
 To link the WMI filters to each GPO, follow these steps:
 
-__Step 1 –__ Open the Group Policy Management console, select the Endpoint Protector 32-bit policy, and on the WMI Filtering section, select 32-bit Windows filter;
+**Step 1 –** Open the Group Policy Management console, select the Endpoint Protector 32-bit policy,
+and on the WMI Filtering section, select 32-bit Windows filter;
 
-__Step 2 –__ Repeat this step for Endpoint Protector 64-bit GPO.
+**Step 2 –** Repeat this step for Endpoint Protector 64-bit GPO.
 
 ![Linking the Windows Management Instrument filters to Group Policy Objects](../../../../../static/img/product_docs/endpointprotector/endpointprotector/configuration/activedirectory/wmitogpolinking.png)

@@ -1,6 +1,8 @@
 # How can I see if an Endpoint Policy Manager Cloud joined computer is syncing in the background, even if PPCLOUD /Sync appears to fail?
 
-Right now, we realize the Netwrix Endpoint Policy Manager (formerly PolicyPak) Cloud Service is going thru some disruptions in service.  This document shows how to determine if background sync'ing is occurring.
+Right now, we realize the Netwrix Endpoint Policy Manager (formerly PolicyPak) Cloud Service is
+going thru some disruptions in service.  This document shows how to determine if background sync'ing
+is occurring.
 
 A manual sync with Cloud Client 23.5 might fail to operate and present errors like this:
 
@@ -12,21 +14,31 @@ A manual PPCLOUD /sync pre-23.5 might look like this on a failed manual sync att
 
 We are actively working on the issues as they come up.
 
-We realize that it may appear that a computer isn't getting any new policies / not sync'ing to the cloud service.However, what is more likely is that these computers are syncing in the background and get updated policies; but you're unable to see this with PPCLOUD /sync. Tip: PPCLOUD /status will show you the details of the policies ON the machine which occurred from the last sync, without attempting to PERFORM a sync.
+We realize that it may appear that a computer isn't getting any new policies / not sync'ing to the
+cloud service.However, what is more likely is that these computers are syncing in the background and
+get updated policies; but you're unable to see this with PPCLOUD /sync. Tip: PPCLOUD /status will
+show you the details of the policies ON the machine which occurred from the last sync, without
+attempting to PERFORM a sync.
 
-See below for two sections: one for Endpoint Policy Manager Cloud 23.5 client and one for pre-23.5 client.
+See below for two sections: one for Endpoint Policy Manager Cloud 23.5 client and one for pre-23.5
+client.
 
-__NOTE:__  Only when you see the message "...has been proceeded successfully" is an indication of a truly successful sync and policy update.
+**NOTE:** Only when you see the message "...has been proceeded successfully" is an indication of a
+truly successful sync and policy update.
 
 ## Checking Background Sync'ing for Endpoint Policy Manager Cloud 23.5 Client
 
-To verify for yourself that that background syncs are occurring, when using the Endpoint Policy Manager Cloud 23.5 or client, please turn to the APPLICATION or Endpoint Policy Manager logs where events will be for Endpoint Policy Manager Cloud.
+To verify for yourself that that background syncs are occurring, when using the Endpoint Policy
+Manager Cloud 23.5 or client, please turn to the APPLICATION or Endpoint Policy Manager logs where
+events will be for Endpoint Policy Manager Cloud.
 
-__NOTE:__ Future versions of Endpoint Policy Manager Cloud client are slated to have its own event log.
+**NOTE:** Future versions of Endpoint Policy Manager Cloud client are slated to have its own event
+log.
 
 ![887_3_image-20230525200517-2](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/cloud/887_3_image-20230525200517-2.webp)
 
-Here's an example of a machine when syncs happen in the background, across a few log events (from earliest to latest event on an automatic, background sync.)
+Here's an example of a machine when syncs happen in the background, across a few log events (from
+earliest to latest event on an automatic, background sync.)
 
 ![887_4_image-20230525200517-3_950x169](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/cloud/887_4_image-20230525200517-3_950x169.webp)
 
@@ -48,7 +60,8 @@ To look at them in order we have…
 
 ![887_12_image-20230525200517-11_950x267](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/cloud/887_12_image-20230525200517-11_950x267.webp)
 
-__NOTE:__ Only when you see the message "...has been proceeded successfully" is an indication of a truly successful sync and policy update.
+**NOTE:** Only when you see the message "...has been proceeded successfully" is an indication of a
+truly successful sync and policy update.
 
 ## Checking Background Sync'ing for clients BEFORE Endpoint Policy Manager Cloud 23.5
 
@@ -64,6 +77,8 @@ And like this for failure during a background sync.
 
 # Final Thoughts: PPCLOUD /status
 
-In all cases, using Endpoint Policy Manager CLOUD /status will NOT perform a sync but will tell you the final result of policies upon the machine. This is helpful so you can know what the machine's current state actually is. Example with some text removed to save space…
+In all cases, using Endpoint Policy Manager CLOUD /status will NOT perform a sync but will tell you
+the final result of policies upon the machine. This is helpful so you can know what the machine's
+current state actually is. Example with some text removed to save space…
 
 ![887_15_image-20230525200517-14_950x1022](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/cloud/887_15_image-20230525200517-14_950x1022.webp)

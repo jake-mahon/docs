@@ -1,6 +1,7 @@
 # Create a Workflow using Add Workflow Wizard
 
-To create an automated workflow for certain type of documents, you can use the Add Workflow wizard or __Advanced__ dialogs.
+To create an automated workflow for certain type of documents, you can use the Add Workflow wizard
+or **Advanced** dialogs.
 
 To launch the Add Workflow wizard:
 
@@ -18,6 +19,7 @@ See next:
 - [Step 3. Specify Conditions for Processing](step3specifyconditions.md)
 - [Step 4. Enter Name and Review Settings](step4setnameandenable.md)
 
-__NOTE:__ Once created you will be able to modify the workflow using the __Advanced__ dialog.
+**NOTE:** Once created you will be able to modify the workflow using the **Advanced** dialog.
 
-Alternatively, take steps 1-3 from the procedure above, then in the __Add Workflow__ dialog click __Advanced__. See [Configure a Workflow using Advanced dialog](advancedwindow/createworkflow.md)
+Alternatively, take steps 1-3 from the procedure above, then in the **Add Workflow** dialog click
+**Advanced**. See [Configure a Workflow using Advanced dialog](advancedwindow/createworkflow.md)

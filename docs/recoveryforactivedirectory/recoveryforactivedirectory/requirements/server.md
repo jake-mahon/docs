@@ -1,6 +1,7 @@
 # Application Server Requirements
 
-The Windows Server can be physical or virtual. The following Windows Server operating systems are supported:
+The Windows Server can be physical or virtual. The following Windows Server operating systems are
+supported:
 
 - Windows Server 2022
 - Windows Server 2019
@@ -17,18 +18,22 @@ RAM and Disk Space
 
 These are dependent upon the total number of Active Directory objects.
 
-| Environment | Large | Medium | Small |
-| --- | --- | --- | --- |
-| Definition | Greater than 100,000 objects | Between 25,000 and 100,000 objects | Less than 25,000 objects |
-| RAM | 32 GB | 16 GB | 8 GB |
-| Disk Space | 1 TB  \*SSD preferred | 250 GB | 100 GB |
+| Environment | Large                        | Medium                             | Small                    |
+| ----------- | ---------------------------- | ---------------------------------- | ------------------------ |
+| Definition  | Greater than 100,000 objects | Between 25,000 and 100,000 objects | Less than 25,000 objects |
+| RAM         | 32 GB                        | 16 GB                              | 8 GB                     |
+| Disk Space  | 1 TB \*SSD preferred         | 250 GB                             | 100 GB                   |
 
 Additional Server Requirements
 
-- The Recovery for Active Directory installer checks if .Net 8.06 is installed on the machine. If not, it is installed as part of the Recovery Application Server installation process.
-- Install the ```msoledbsql.msi``` to enable the application server to connect to the SQL Server prior to starting installation
+- The Recovery for Active Directory installer checks if .Net 8.06 is installed on the machine. If
+  not, it is installed as part of the Recovery Application Server installation process.
+- Install the `msoledbsql.msi` to enable the application server to connect to the SQL Server prior
+  to starting installation
 
-  __NOTE:__ The latest ```msoledbsql.msi``` can be obtained from Microsoft's website. Netwrix does not redistribute this file.
+    **NOTE:** The latest `msoledbsql.msi` can be obtained from Microsoft's website. Netwrix does not
+    redistribute this file.
+
 - Group Policy Management Console (required to backup and to recover GPOs)
 - _Optional_: SQL Server Management Studio installed on the application server
 
@@ -37,10 +42,12 @@ Permissions for Installation
 The following permission is required to install the application:
 
 - Membership in the local Administrators group
-- Log on as a service right from the Local Security Policy (Local Policies > User Rights Assignment > Log on as a service policy)
+- Log on as a service right from the Local Security Policy (Local Policies > User Rights
+  Assignment > Log on as a service policy)
 - SQL Server permissions – Domain account needs to be granted SQL Server permissions.
 - Recovery Configuration Utility – Must have Domain Admin rights to use all options in this utility
 
 ## Virtual Environment Recommendations
 
-While physical machines are always preferred, we fully support the use of virtual machines. Microsoft® Hyper-V® and VMWare® ESX®/ESXi™ are supported hyper visors.
+While physical machines are always preferred, we fully support the use of virtual machines.
+Microsoft® Hyper-V® and VMWare® ESX®/ESXi™ are supported hyper visors.

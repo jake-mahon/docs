@@ -1,20 +1,22 @@
 # Configure Local Audit Policies
 
-You can choose to configure local audit policies or advanced audit policies. See the [Configure Advanced Audit Policies](advancedpolicy.md) topic for additional information.
+You can choose to configure local audit policies or advanced audit policies. See the
+[Configure Advanced Audit Policies](advancedpolicy.md) topic for additional information.
 
 Follow the steps to configure local audit policies.
 
-__Step 1 –__ On the audited server, open the Local Security Policy snap-in: navigate to Start > Windows Administrative Tools > Local Security Policy.
+**Step 1 –** On the audited server, open the Local Security Policy snap-in: navigate to Start >
+Windows Administrative Tools > Local Security Policy.
 
-__Step 2 –__ Navigate to Security Settings > Local Policies > Audit Policy.
+**Step 2 –** Navigate to Security Settings > Local Policies > Audit Policy.
 
-__Step 3 –__ Configure the following audit policies.
+**Step 3 –** Configure the following audit policies.
 
-| Policy Name | Audit Events |
-| --- | --- |
-| Audit account management | "Success" |
-| Audit object access | "Success" |
-| Audit policy change | "Success" |
+| Policy Name              | Audit Events |
+| ------------------------ | ------------ |
+| Audit account management | "Success"    |
+| Audit object access      | "Success"    |
+| Audit policy change      | "Success"    |
 
 Local audit policy is configured.
 

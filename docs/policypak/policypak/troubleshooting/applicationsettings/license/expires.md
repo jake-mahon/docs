@@ -2,4 +2,6 @@
 
 By default, values for the application settings will remain as configured within the GPO.
 
-By selecting "Revert this policy setting to the default value when it is no longer applied" the default values contained with the original Netwrix Endpoint Policy Manager (formerly PolicyPak) s are then applied.
+By selecting "Revert this policy setting to the default value when it is no longer applied" the
+default values contained with the original Netwrix Endpoint Policy Manager (formerly PolicyPak) s
+are then applied.

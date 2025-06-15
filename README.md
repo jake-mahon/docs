@@ -1,18 +1,22 @@
 # Netwrix Product Documentation
 
-This repository contains the complete documentation site for all Netwrix products, built with [Docusaurus](https://docusaurus.io/). The site provides comprehensive user guides, configuration instructions, API documentation, and release notes for the entire Netwrix product suite.
+This repository contains the complete documentation site for all Netwrix products, built with
+[Docusaurus](https://docusaurus.io/). The site provides comprehensive user guides, configuration
+instructions, API documentation, and release notes for the entire Netwrix product suite.
 
 ## What's Included
 
 This documentation covers the following Netwrix products:
 
 ### Security & Compliance
+
 - **1Secure** - Cloud security posture management
 - **Access Analyzer** - File access permissions and data governance
 - **Auditor** - IT infrastructure auditing and compliance
 - **Threat Manager/Prevention** - Security threat detection and response
 
 ### Identity & Access Management
+
 - **UserCube** (both on-premises and SaaS) - Identity governance and administration
 - **Password Policy Enforcer** - Active Directory password policy management
 - **Password Reset** - Self-service password reset solution
@@ -20,12 +24,14 @@ This documentation covers the following Netwrix products:
 - **Privilege Secure** - Privileged account management
 
 ### Change Management & Governance
+
 - **StrongPoint for NetSuite** - Change management and compliance for NetSuite
 - **StrongPoint for Salesforce** - Change management for Salesforce environments
 - **StrongPoint NetSuite Flashlight** - NetSuite documentation and analysis
 - **StrongPoint Salesforce Flashlight** - Salesforce documentation and analysis
 
 ### IT Management
+
 - **Activity Monitor** - Real-time activity monitoring and alerting
 - **Change Tracker** - Infrastructure change tracking
 - **Data Classification** - Automated data discovery and classification
@@ -35,6 +41,7 @@ This documentation covers the following Netwrix products:
 - **Recovery for Active Directory** - AD backup and recovery
 
 ### Additional Tools
+
 - **Access Information Center** - Centralized access reporting
 - Various configuration guides and API documentation
 
@@ -46,21 +53,26 @@ This documentation covers the following Netwrix products:
 ## Quick Start
 
 1. **Install dependencies:**
-   ```bash
-   npm install
-   ```
+
+    ```bash
+    npm install
+    ```
 
 2. **Start development server:**
-   ```bash
-   npm start
-   ```
-   This starts a local development server and opens the site in your browser. Most changes are reflected live without requiring a restart.
+
+    ```bash
+    npm start
+    ```
+
+    This starts a local development server and opens the site in your browser. Most changes are
+    reflected live without requiring a restart.
 
 3. **Build for production:**
-   ```bash
-   npm run build
-   ```
-   This generates static content into the `build` directory that can be served by any static hosting service.
+    ```bash
+    npm run build
+    ```
+    This generates static content into the `build` directory that can be served by any static
+    hosting service.
 
 ## Available Scripts
 
@@ -131,8 +143,10 @@ The deployment process runs `npm run build` and serves the generated static file
 ## Support
 
 For technical issues with the documentation site, please check:
+
 1. The Docusaurus documentation: https://docusaurus.io/docs
 2. Build logs in the deployment system
 3. Browser console for client-side issues
 
-For product-specific documentation questions, refer to the respective product documentation or contact the product teams.
+For product-specific documentation questions, refer to the respective product documentation or
+contact the product teams.

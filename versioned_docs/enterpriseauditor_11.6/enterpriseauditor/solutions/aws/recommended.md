@@ -1,6 +1,8 @@
 # Recommended Configuration for the AWS Solution
 
-The AWS Solution is configured to inherit settings from the global Settings node. The Connection Profile must be assigned before job execution. Once it is assigned to the job group, it can be run directly or scheduled.
+The AWS Solution is configured to inherit settings from the global Settings node. The Connection
+Profile must be assigned before job execution. Once it is assigned to the job group, it can be run
+directly or scheduled.
 
 Dependencies
 
@@ -8,36 +10,60 @@ For AWS IAM Auditing:
 
 - AWS Permissions must be configured on the target databases.
 
-  - See the [Configure AWS for Scans](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/target/config/aws.md) topic for information on configuring Roles within AWS and obtaining an Access Key
-  - See the [Target Amazon Web Service Requirements, Permissions, and Ports](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/target/aws.md) topic for additional information on permissions
+    - See the
+      [Configure AWS for Scans](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/target/config/aws.md)
+      topic for information on configuring Roles within AWS and obtaining an Access Key
+    - See the
+      [Target Amazon Web Service Requirements, Permissions, and Ports](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/target/aws.md)
+      topic for additional information on permissions
 
 For AWS S3 Sensitive Data Discovery Auditing:
 
 - Sensitive Data Discovery Add-On installed on the Enterprise Auditor Console server
 
-  - See the [Sensitive Data Discovery Add-On Installation](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/sensitivedatadiscovery/overview.md) topic for additional information
+    - See the
+      [Sensitive Data Discovery Add-On Installation](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/sensitivedatadiscovery/overview.md)
+      topic for additional information
 
-Some of the 0.Collection job group queries can be scoped to target specific S3 Objects. However, it is necessary for the SA_AWS_Instances table to be populated before attempting to scope the queries. Therefore, the AWS_S3Scan job must be manually executed before attempting to scope the S3 queries.
+Some of the 0.Collection job group queries can be scoped to target specific S3 Objects. However, it
+is necessary for the SA_AWS_Instances table to be populated before attempting to scope the queries.
+Therefore, the AWS_S3Scan job must be manually executed before attempting to scope the S3 queries.
 
 Target Host
 
-The AWS Data Collector identifies AWS instances via the created Roles and therefore does not require a host list to be assigned. No target host is required (assign Local Host).
+The AWS Data Collector identifies AWS instances via the created Roles and therefore does not require
+a host list to be assigned. No target host is required (assign Local Host).
 
 Connection Profile
 
-The AWS Data Collector requires a specific set of permissions. The account used can be either a Web Services (JWT) account or an Amazon Web Services account. Once the account has been provisioned, create a custom Connection Profile containing the credentials for the targeted environment. See the [Amazon Web Services for User Credentials](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/profile/aws.md) topic for additional information.
+The AWS Data Collector requires a specific set of permissions. The account used can be either a Web
+Services (JWT) account or an Amazon Web Services account. Once the account has been provisioned,
+create a custom Connection Profile containing the credentials for the targeted environment. See the
+[Amazon Web Services for User Credentials](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/profile/aws.md)
+topic for additional information.
 
-The Connection Profile is assigned under the __AWS__ > __Settings__ > __Connection__ node. It is set to __Use Default Profile__, as configured at the global Settings level. However, if this is not the Connection Profile with the necessary permissions for targeting the AWS instances, click the __Select one of the following user defined profiles__ option and select the appropriate Connection Profile.
+The Connection Profile is assigned under the **AWS** > **Settings** > **Connection** node. It is set
+to **Use Default Profile**, as configured at the global Settings level. However, if this is not the
+Connection Profile with the necessary permissions for targeting the AWS instances, click the
+**Select one of the following user defined profiles** option and select the appropriate Connection
+Profile.
 
-See the [Connection](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/overview.md) topic for additional information on creating a Connection Profile.
+See the
+[Connection](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/overview.md)
+topic for additional information on creating a Connection Profile.
 
 Access Token
 
-Creating the Connection Profile requires having the __Access Key ID__ and the __Secret Access Key__ that was generated by the Amazon Web Services application. See the [Configure AWS for Scans](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/target/config/aws.md) topic for additional information.
+Creating the Connection Profile requires having the **Access Key ID** and the **Secret Access Key**
+that was generated by the Amazon Web Services application. See the
+[Configure AWS for Scans](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/target/config/aws.md)
+topic for additional information.
 
 Schedule Frequency
 
-Schedule the AWS job group to run weekly or daily, depending on the amount of data in the environment. If there are frequent AWS changes within the target environment, then it can be executed more often. It is best to rerun it anytime AWS changes might have occurred.
+Schedule the AWS job group to run weekly or daily, depending on the amount of data in the
+environment. If there are frequent AWS changes within the target environment, then it can be
+executed more often. It is best to rerun it anytime AWS changes might have occurred.
 
 History Retention
 
@@ -49,21 +75,25 @@ Not supported.
 
 Run Order
 
-The jobs in the 0.Collection job group must be run first and in order. The other job groups can be run in any order, together or individually, after running the 0.Collection job group.
+The jobs in the 0.Collection job group must be run first and in order. The other job groups can be
+run in any order, together or individually, after running the 0.Collection job group.
 
-___RECOMMENDED:___ Run the solution at the top level.
+**_RECOMMENDED:_** Run the solution at the top level.
 
 Run at the Solution Level
 
-The jobs in the AWS job group should be run together and in order by running the entire solution, instead of the individual jobs.
+The jobs in the AWS job group should be run together and in order by running the entire solution,
+instead of the individual jobs.
 
 Run at the Job Group Level
 
-For environments with a large amount of S3 data, it may be desirable to run the 3.AWS_S3Scan job and the 4.AWS_S3SDDScan job less frequently than the other jobs in the 0.Collection job group.
+For environments with a large amount of S3 data, it may be desirable to run the 3.AWS_S3Scan job and
+the 4.AWS_S3SDDScan job less frequently than the other jobs in the 0.Collection job group.
 
 Query Configuration
 
-The following queries in the 0.Collection job group require the created AWS Roles to be added to the Login Roles page:
+The following queries in the 0.Collection job group require the created AWS Roles to be added to the
+Login Roles page:
 
 - [1.AWS_OrgScan Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/aws/collection/1.aws_orgscan.md)
 - [2.AWS_S3Scan Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/aws/collection/2.aws_s3scan.md)
@@ -76,26 +106,30 @@ The following queries in the 0.Collection job group can be modified to limit the
 
 Analysis Configuration
 
-This solution can be run with the default analysis configuration. However, the following parameters can be modified:
+This solution can be run with the default analysis configuration. However, the following parameters
+can be modified:
 
-- The ```@STALETHRESHOLD``` parameter determines the number of days after which content is considered stale. It is set to default of 60 days. The ```@STALETHRESHOLD``` parameter can be customized in the following analysis tasks:
+- The `@STALETHRESHOLD` parameter determines the number of days after which content is considered
+  stale. It is set to default of 60 days. The `@STALETHRESHOLD` parameter can be customized in the
+  following analysis tasks:
 
-  - __2. Users__ > __AWS_StaleUsers__ > __Stale Users__ Analysis Task
-  - __3.Groups__ > __AWS_StaleGroups__ > __Stale Groups Details__ Analysis Task
-  - __4.Roles__ > __AWS_StaleRoles__ > __Stale Roles Details__ Analysis Task
+    - **2. Users** > **AWS_StaleUsers** > **Stale Users** Analysis Task
+    - **3.Groups** > **AWS_StaleGroups** > **Stale Groups Details** Analysis Task
+    - **4.Roles** > **AWS_StaleRoles** > **Stale Roles Details** Analysis Task
 
 Workflow
 
 The following is the recommended workflow:
 
-__Step 1 –__ Configure and assign the Connection Profile.
+**Step 1 –** Configure and assign the Connection Profile.
 
-__Step 2 –__ Configure the Scan query to add the AWS Roles to the Login Roles page.
+**Step 2 –** Configure the Scan query to add the AWS Roles to the Login Roles page.
 
-__Step 3 –__ (Optional) Modify query configurations for the 0.Collection job group to limit the scan depth.
+**Step 3 –** (Optional) Modify query configurations for the 0.Collection job group to limit the scan
+depth.
 
-__Step 4 –__ (Optional) Modify analysis task parameters for the reporting jobs.
+**Step 4 –** (Optional) Modify analysis task parameters for the reporting jobs.
 
-__Step 5 –__ Schedule the AWS job group to run as desired.
+**Step 5 –** Schedule the AWS job group to run as desired.
 
-__Step 6 –__ Review the reports generated by the AWS job group.
+**Step 6 –** Review the reports generated by the AWS job group.

@@ -1,24 +1,28 @@
 # Connect-PPE
 
-The __Connect-PPE__ cmdlet establishes a connection to the PPE Server.
+The **Connect-PPE** cmdlet establishes a connection to the PPE Server.
 
 SYNTAX
 
-__Connect-PPE__ [[__-Local__] `<_SwitchParameter_>`] [[__-Domain__] `<_string_>`] [`<_CommonParameters_>`]
+**Connect-PPE** [[__-Local__] `<_SwitchParameter_>`] [[__-Domain__] `<_string_>`]
+[`<_CommonParameters_>`]
 
 PARAMETERS
 
-__-Domain__ `<_string_>`
+**-Domain** `<_string_>`
 
-Name of the domain controller to connect. Can also use __-D__ or __-d__.
+Name of the domain controller to connect. Can also use **-D** or **-d**.
 
-__-Local__ `<_SwitchParameter_>`
+**-Local** `<_SwitchParameter_>`
 
-Connect to PPE Server installed locally. Can also use __-L__ or __-l__.
+Connect to PPE Server installed locally. Can also use **-L** or **-l**.
 
 `<_CommonParameters_>`
 
-This cmdlet supports the common parameters: __Verbose__, __Debug__, __ErrorAction__, __ErrorVariable__, __WarningAction__, __WarningVariable__, __OutBuffer__, __PipelineVariable__, and __OutVariable__. For more information, see about_CommonParameters [https:/go.microsoft.com/fwlink/?LinkID=113216](https:/go.microsoft.com/fwlink?linkid=113216).
+This cmdlet supports the common parameters: **Verbose**, **Debug**, **ErrorAction**,
+**ErrorVariable**, **WarningAction**, **WarningVariable**, **OutBuffer**, **PipelineVariable**, and
+**OutVariable**. For more information, see about_CommonParameters
+[https:/go.microsoft.com/fwlink/?LinkID=113216](https:/go.microsoft.com/fwlink?linkid=113216).
 
 EXAMPLE
 

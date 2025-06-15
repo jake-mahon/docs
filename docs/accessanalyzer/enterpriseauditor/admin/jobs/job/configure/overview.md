@@ -1,23 +1,30 @@
 # Configure Node
 
-Changes to configurations for the job’s assigned Host Lists, Queries, Analyses, Actions, and Reports are created through the __[Job]__ > __Configure__ node or through the Configure shortcut on the job’s Description page.
+Changes to configurations for the job’s assigned Host Lists, Queries, Analyses, Actions, and Reports
+are created through the **[Job]** > **Configure** node or through the Configure shortcut on the
+job’s Description page.
 
-|  |  |
-| --- | --- |
+|                                                                                                                                              |                                                                                                                                                                             |
+| -------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ![Configure Node](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/configurenode.webp) | ![Configure link on job description page](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/configurelinkjobpage.webp) |
-| Configure Node | Configure link on job description page |
+| Configure Node                                                                                                                               | Configure link on job description page                                                                                                                                      |
 
-The sub-nodes under the __[Job]__ > __Configure__ node are:
+The sub-nodes under the **[Job]** > **Configure** node are:
 
-- [Hosts Node](hosts.md) – Assign a host list at the job level or manually add hosts to be targeted by the job
-- [Queries Node](queries.md) – Select and configure a Access Analyzer data collector to scan targeted hosts
-- [Analysis Node](analysis.md) – Create and configure Analysis and Notification tasks for collected data
-- [Actions Node](actions.md) – Create and configure Action tasks for taking action on collected and analyzed data
+- [Hosts Node](hosts.md) – Assign a host list at the job level or manually add hosts to be targeted
+  by the job
+- [Queries Node](queries.md) – Select and configure a Access Analyzer data collector to scan
+  targeted hosts
+- [Analysis Node](analysis.md) – Create and configure Analysis and Notification tasks for collected
+  data
+- [Actions Node](actions.md) – Create and configure Action tasks for taking action on collected and
+  analyzed data
 - [Reports Node](reports.md) – Create and configure Reports to be generated during job execution
 
 ## Configure Page
 
-The job's Configure Page provides an overview with shortcuts for options that are configured in the job's Configure Node.
+The job's Configure Page provides an overview with shortcuts for options that are configured in the
+job's Configure Node.
 
 ![Configure page](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/configurepage.webp)
 
@@ -36,10 +43,13 @@ The options in the Configure section are:
 
 - Tasks - If applicable, displays a list of the job's Queries, Analysis Tasks, and Action Modules
 
-  - Click __Properties__ to view the task's properties
-  - Click __Output Table__ to view the Results for the task under the [Results Node](../results.md)
+    - Click **Properties** to view the task's properties
+    - Click **Output Table** to view the Results for the task under the
+      [Results Node](../results.md)
+
 - Hosts - Lists the assigned hosts for the job
 - Reports - If applicable, displays a list of the job's Reports
 
-  - Click the reports name to access a report under the job's [Results Node](../results.md)
-  - Click __Configure__ to edit the report parameters in the [Report Configuration Wizard](../../../report/wizard/overview.md)
+    - Click the reports name to access a report under the job's [Results Node](../results.md)
+    - Click **Configure** to edit the report parameters in the
+      [Report Configuration Wizard](../../../report/wizard/overview.md)

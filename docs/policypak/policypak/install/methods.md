@@ -2,19 +2,23 @@
 
 There are two ways to install the GPMC.
 
-If you want to use a server as your GPMC editing station, you'll need to get the GPMC installed there.
+If you want to use a server as your GPMC editing station, you'll need to get the GPMC installed
+there.
 
-__NOTE:__  This is already on your DCs, but Netwrix Endpoint Policy Manager (formerly PolicyPak) does not require that you install the admin console MSI into a DC.
+**NOTE:** This is already on your DCs, but Netwrix Endpoint Policy Manager (formerly PolicyPak) does
+not require that you install the admin console MSI into a DC.
 
 On a server, go into Server Manager and select it as a featureto add.
 
 ![268_1_img-01_950x550](../../../../static/img/product_docs/policypak/policypak/install/268_1_img-01_950x550.webp)
 
-You can also install the GPMC on a Windows 10 client,which is preferred method. If you want to do this, there are two ways.
+You can also install the GPMC on a Windows 10 client,which is preferred method. If you want to do
+this, there are two ways.
 
 ## 1: Download the Windows 10 RSAT tools.
 
-This is the most reliable way to get the GPMC installed. First, download them from Microsoft here: [https://www.microsoft.com/en-us/download/details.aspx?id=45520](https://www.microsoft.com/en-us/download/details.aspx?id=45520)
+This is the most reliable way to get the GPMC installed. First, download them from Microsoft here:
+[https://www.microsoft.com/en-us/download/details.aspx?id=45520](https://www.microsoft.com/en-us/download/details.aspx?id=45520)
 
 Next, verify that the GPMC gets installed and checked on automatically.
 
@@ -24,12 +28,13 @@ Next, verify that the GPMC gets installed and checked on automatically.
 
 If you install Windows 10 1809 or later, you can install the GPMC with a DISM command:
 
-```DISM.exe /Online /add-capability /CapabilityName:Rsat.GroupPolicy.Management.Tools~~~~0.0.1.0```
+`DISM.exe /Online /add-capability /CapabilityName:Rsat.GroupPolicy.Management.Tools~~~~0.0.1.0`
 
 The result will look like this.
 
 ![268_5_img-03_950x237](../../../../static/img/product_docs/policypak/policypak/install/268_5_img-03_950x237.webp)
 
-Now you are ready to install the Endpoint Policy Manager Admin Console MSI, which then gets you the Endpoint Policy Manager node within the Group Policy Editor.
+Now you are ready to install the Endpoint Policy Manager Admin Console MSI, which then gets you the
+Endpoint Policy Manager node within the Group Policy Editor.
 
 ![268_7_img-04_950x743](../../../../static/img/product_docs/policypak/policypak/install/268_7_img-04_950x743.webp)

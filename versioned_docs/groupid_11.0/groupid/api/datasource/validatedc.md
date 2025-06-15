@@ -13,37 +13,37 @@ GET
 #### Sample Request Syntax
 
 ```
-{  
-    "name": "Excel_API",  
-    "providerTypeName": "Microsoft Excel",  
-    "type": 1,  
-    "creationDate": "2024-05-07T04:08:56.95",  
-    "lastUpdate": null,  
-    "configurationValues": {  
-        "FileServer": "LocalServer",  
-        "FilePath": "C:\\Users\\administrator.GROUPID\\Documents\\User5.xls",  
-        "ConnectionString": "",  
-        "UserName": "",  
-        "Password": ""  
-    }  
+{
+    "name": "Excel_API",
+    "providerTypeName": "Microsoft Excel",
+    "type": 1,
+    "creationDate": "2024-05-07T04:08:56.95",
+    "lastUpdate": null,
+    "configurationValues": {
+        "FileServer": "LocalServer",
+        "FilePath": "C:\\Users\\administrator.GROUPID\\Documents\\User5.xls",
+        "ConnectionString": "",
+        "UserName": "",
+        "Password": ""
+    }
 }
 ```
 
 #### Sample Response Syntax
 
 ```
-{  
-    "name": "Excel_API",  
-    "type": 5,  
-    "status": 0,  
-    "message": "Connection Succeeded",  
-    "data": null,  
-    "identityStoreObject": null,  
-    "details": [],  
-    "currentDirectoryServer": "",  
-    "errorCode": "",  
-    "exceptionMessagesAttributeWise": null,  
-    "isResyncAble": true  
+{
+    "name": "Excel_API",
+    "type": 5,
+    "status": 0,
+    "message": "Connection Succeeded",
+    "data": null,
+    "identityStoreObject": null,
+    "details": [],
+    "currentDirectoryServer": "",
+    "errorCode": "",
+    "exceptionMessagesAttributeWise": null,
+    "isResyncAble": true
 }
 ```
 

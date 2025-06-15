@@ -2,7 +2,8 @@
 
 ## What is the Main menu/Backstage?
 
-All settings that are not linked to a particular module are defined in the Backstage (main menu). This makes it easy to access the settings at any time and in any module.
+All settings that are not linked to a particular module are defined in the Backstage (main menu).
+This makes it easy to access the settings at any time and in any module.
 
 ![Main menu](../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/installation_with_parameters_56-en.webp)
 

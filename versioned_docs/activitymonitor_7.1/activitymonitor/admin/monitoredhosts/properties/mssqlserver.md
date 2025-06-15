@@ -1,17 +1,21 @@
 # MS SQL Server Tab
 
-The MS SQL Server tab on SQL Server host's properties window is used to configure properties for SQL activity monitoring on the host.
+The MS SQL Server tab on SQL Server host's properties window is used to configure properties for
+SQL activity monitoring on the host.
 
 ![MS SQL Server Tab](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/properties/mssqlservertab.png)
 
 The configurable options are:
 
-- Enable Trace automatically — Check the box to enable the activity monitor to enable Trace automatically if it is disabled
-- Audit polling interval — Configure the interval between audits. The default is __15 seconds__.
-- Open instruction... — Click __Open Instruction...__ to view steps on how to create a login for SQL monitoring
+- Enable Trace automatically — Check the box to enable the activity monitor to enable Trace
+  automatically if it is disabled
+- Audit polling interval — Configure the interval between audits. The default is **15 seconds**.
+- Open instruction... — Click **Open Instruction...** to view steps on how to create a login for
+  SQL monitoring
 
-  - Certain permissions are required to create a login for SQL monitoring. See the
+    - Certain permissions are required to create a login for SQL monitoring. See the
+
 - Server name\instance — Server name\instance of the SQL Server to be monitored
 - User name — User for the SQL Server
 - User password — Password for the SQL Server
-- Connect — Click __Connect__ to test the settings
+- Connect — Click **Connect** to test the settings

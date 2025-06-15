@@ -1,9 +1,16 @@
 # User Notifications
 
-Once devices have been assigned to Device Groups and a Configuration Template has been assigned, a Baseline of the configuration will be recorded and thereafter, any changes detected can be reported as email or syslog alerts.
+Once devices have been assigned to Device Groups and a Configuration Template has been assigned, a
+Baseline of the configuration will be recorded and thereafter, any changes detected can be reported
+as email or syslog alerts.
 
-Each Netwrix Change Tracker user can be assigned a personalized alerting profile from a range of event options for each Device Group.
+Each Netwrix Change Tracker user can be assigned a personalized alerting profile from a range of
+event options for each Device Group.
 
-Access the __User Notification Email__ page via __Settings__ -> __User Notification Emails__ and select a user, then dial in __Notification Types__ for the selected Device Group.
+Access the **User Notification Email** page via **Settings** -> **User Notification Emails** and
+select a user, then dial in **Notification Types** for the selected Device Group.
 
-__NOTE:__ Core system settings such as the Syslog Server and SMTP details will also need to be defined via __Settings__ -> __System Settings__ in the Change Tracker . See the [System Settings](/versioned_docs/changetracker_8.0/changetracker/admin/settings/systemsettings.md) topic for additional information.
+**NOTE:** Core system settings such as the Syslog Server and SMTP details will also need to be
+defined via **Settings** -> **System Settings** in the Change Tracker . See the
+[System Settings](/versioned_docs/changetracker_8.0/changetracker/admin/settings/systemsettings.md)
+topic for additional information.

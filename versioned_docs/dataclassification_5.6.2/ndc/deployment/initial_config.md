@@ -1,10 +1,14 @@
 # Initial Product Configuration
 
-The Product Configuration Wizard allows you quickly configure basic Netwrix Data Classification settings such as processing mode, taxonomies, etc.
+The Product Configuration Wizard allows you quickly configure basic Netwrix Data Classification
+settings such as processing mode, taxonomies, etc.
 
-In your web browser, navigate to the following URL: http://hostname/conceptQS where hostname is the name or IP address of the computer where Netwrix Data Classification is installed and perform initial configuration steps.
+In your web browser, navigate to the following URL: http://hostname/conceptQS where hostname is the
+name or IP address of the computer where Netwrix Data Classification is installed and perform
+initial configuration steps.
 
-On the Instance step, provide the unique name for your Netwrix Data Classification instance. For example, _"Production"_.
+On the Instance step, provide the unique name for your Netwrix Data Classification instance. For
+example, _"Production"_.
 
 ![initial_config](/img/versioned_docs/dataclassification_5.6.2/ndc/deployment/initial_config.png)
 

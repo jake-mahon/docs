@@ -1,15 +1,20 @@
 # Advanced PDF / HTML Templates
 
-These templates customize print and email transactions, improving the NetSuite standard templates. Platform Governance for NetSuite documents the custom templates you create. Custom templates are identified with a ScriptID prefix of __custtmpl__. The template and relationships are documented in the Customization record.
+These templates customize print and email transactions, improving the NetSuite standard templates.
+Platform Governance for NetSuite documents the custom templates you create. Custom templates are
+identified with a ScriptID prefix of **custtmpl**. The template and relationships are documented in
+the Customization record.
 
-If you create custom __SoD Exemption Approval Change Request Templates__, or __SoD Rule Change Approval Change Request templates__, add them to the installation settings to prevent them from being overwritten when new bundles are installed.
+If you create custom **SoD Exemption Approval Change Request Templates**, or **SoD Rule Change
+Approval Change Request templates**, add them to the installation settings to prevent them from
+being overwritten when new bundles are installed.
 
-1. Open __Strongpoint__ > __Strongpoint Support__ > __Installation Settings__.
-2. Click __Edit__.
-3. Open the __Change Management__ tab.
-4. Enter your custom templates in the __CR Email Template__ section.
+1. Open **Strongpoint** > **Strongpoint Support** > **Installation Settings**.
+2. Click **Edit**.
+3. Open the **Change Management** tab.
+4. Enter your custom templates in the **CR Email Template** section.
 
-Open __Customization__ > __Forms__ > __Advanced PDF / HTML Templates__ to create or view templates.
+Open **Customization** > **Forms** > **Advanced PDF / HTML Templates** to create or view templates.
 
 ## PDF / HTML Customization Referenced by a Script Example
 

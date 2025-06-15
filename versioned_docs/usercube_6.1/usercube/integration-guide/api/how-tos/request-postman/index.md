@@ -7,26 +7,29 @@ This guide shows how to configure Postman to be able to request Usercube's API.
 Get an access token by proceeding as follows:
 
 1. Launch Postman.
-2. Create a new request by clicking on __+ New__ then __Request__.
+2. Create a new request by clicking on **+ New** then **Request**.
 
-   ![Postman: New Request](/img/versioned_docs/usercube_6.1/usercube/integration-guide/api/how-tos/request-postman/postman_newrequest.png)
-3. Fill in the fields and click on __Save to Usercube__.
+    ![Postman: New Request](/img/versioned_docs/usercube_6.1/usercube/integration-guide/api/how-tos/request-postman/postman_newrequest.png)
 
-   ![Postman: New Request Fields](/img/versioned_docs/usercube_6.1/usercube/integration-guide/api/how-tos/request-postman/postman_requestfields.png)
+3. Fill in the fields and click on **Save to Usercube**.
+
+    ![Postman: New Request Fields](/img/versioned_docs/usercube_6.1/usercube/integration-guide/api/how-tos/request-postman/postman_requestfields.png)
+
 4. Fill in the authentication information as follows:
 
-   ![Postman: Authentication](/img/versioned_docs/usercube_6.1/usercube/integration-guide/api/how-tos/request-postman/postman_authentication.png)
+    ![Postman: Authentication](/img/versioned_docs/usercube_6.1/usercube/integration-guide/api/how-tos/request-postman/postman_authentication.png)
 
-   - __Method__: POST
-   - __URL__: `<URL Usercube>`/connect/token
-   - __Body__:
-     - __client_id__: `<OpenIdClient id>`@`<FQDN Usercube>`
-     - __client_secret__: `<OpenIdClient secret>`
-     - __scope__: usercube_api
-     - __grant_type__: client_credentials
-5. Click on __Send__ and get the access token from the response body.
+    - **Method**: POST
+    - **URL**: `<URL Usercube>`/connect/token
+    - **Body**:
+        - **client_id**: `<OpenIdClient id>`@`<FQDN Usercube>`
+        - **client_secret**: `<OpenIdClient secret>`
+        - **scope**: usercube_api
+        - **grant_type**: client_credentials
 
-   ![Postman: Access Token](/img/versioned_docs/usercube_6.1/usercube/integration-guide/api/how-tos/request-postman/postman_accesstoken.png)
+5. Click on **Send** and get the access token from the response body.
+
+    ![Postman: Access Token](/img/versioned_docs/usercube_6.1/usercube/integration-guide/api/how-tos/request-postman/postman_accesstoken.png)
 
 ## Use an Access Token
 
@@ -35,16 +38,17 @@ Use an access token by proceeding as follows:
 1. Create a new request in Postman.
 2. Fill in the authorization information as follows:
 
-   ![Postman: Authorization](/img/versioned_docs/usercube_6.1/usercube/integration-guide/api/how-tos/request-postman/postman_authorization.png)
+    ![Postman: Authorization](/img/versioned_docs/usercube_6.1/usercube/integration-guide/api/how-tos/request-postman/postman_authorization.png)
 
-   - __Method__: GET
-   - __URL__: `<URL Usercube>`/`<URI of the API to call>`?api-version=1.0
-   - __Authorization__:
-     - __TYPE__: Bearer Token
-     - __Token__: `<Access Token>`
-3. Click on __Send__ and get the result from the response body.
+    - **Method**: GET
+    - **URL**: `<URL Usercube>`/`<URI of the API to call>`?api-version=1.0
+    - **Authorization**:
+        - **TYPE**: Bearer Token
+        - **Token**: `<Access Token>`
 
-   ![Postman: Access Token Result](/img/versioned_docs/usercube_6.1/usercube/integration-guide/api/how-tos/request-postman/postman_accesstokenresult.png)
+3. Click on **Send** and get the result from the response body.
+
+    ![Postman: Access Token Result](/img/versioned_docs/usercube_6.1/usercube/integration-guide/api/how-tos/request-postman/postman_accesstokenresult.png)
 
 ## Create a Combined Request
 
@@ -53,29 +57,33 @@ Create a combined request by proceeding as follows:
 1. Create a new request in Postman.
 2. Fill in the authorization information as follows:
 
-   ![Postman: Authorization (Combined Request)](/img/versioned_docs/usercube_6.1/usercube/integration-guide/api/how-tos/request-postman/postman_authorizationcombined.png)
+    ![Postman: Authorization (Combined Request)](/img/versioned_docs/usercube_6.1/usercube/integration-guide/api/how-tos/request-postman/postman_authorizationcombined.png)
 
-   - __Method__: GET
-   - __URL__: `<URL Usercube>`/`<URI of the API to call>`?api-version=1.0
-   - __Authorization__:
-     - __TYPE__: OAuth 2.0
-     - __Header Prefix__: Bearer
-3. Click on __Get New Access Token__ and fill in the fields as follows:
+    - **Method**: GET
+    - **URL**: `<URL Usercube>`/`<URI of the API to call>`?api-version=1.0
+    - **Authorization**:
+        - **TYPE**: OAuth 2.0
+        - **Header Prefix**: Bearer
 
-   ![Postman: New Access Token Fields (Combined Request)](/img/versioned_docs/usercube_6.1/usercube/integration-guide/api/how-tos/request-postman/postman_newaccesstokencombined.png)
+3. Click on **Get New Access Token** and fill in the fields as follows:
 
-   - __Token Name__: `<Token Name>`
-   - __Grant Type__: Client Credentials
-   - __Access Token URL__: `<URL Usercube>`/connect/token
-   - __Client ID__: `<OpenIdClient id>`@`<FQDN Usercube>`
+    ![Postman: New Access Token Fields (Combined Request)](/img/versioned_docs/usercube_6.1/usercube/integration-guide/api/how-tos/request-postman/postman_newaccesstokencombined.png)
 
-     Do not replace ```@``` with its encoding.
-   - __Client Secret__: `<OpenIdClient secret>`
-   - __Scope__: usercube_api
-   - __Client Authentication__: Send client credentials in body
-4. Click on __Request Token__ to get the token.
+    - **Token Name**: `<Token Name>`
+    - **Grant Type**: Client Credentials
+    - **Access Token URL**: `<URL Usercube>`/connect/token
+    - **Client ID**: `<OpenIdClient id>`@`<FQDN Usercube>`
 
-   ![Postman: Get Token (Combined Request)](/img/versioned_docs/usercube_6.1/usercube/integration-guide/api/how-tos/request-postman/postman_gettokencombined.png)
-5. Click on __Use Token__ and __Send__ and get the result from the response body.
+        Do not replace `@` with its encoding.
 
-   ![Postman: Access Token Result (Combined Request)](/img/versioned_docs/usercube_6.1/usercube/integration-guide/api/how-tos/request-postman/postman_accesstokenresult.png)
+    - **Client Secret**: `<OpenIdClient secret>`
+    - **Scope**: usercube_api
+    - **Client Authentication**: Send client credentials in body
+
+4. Click on **Request Token** to get the token.
+
+    ![Postman: Get Token (Combined Request)](/img/versioned_docs/usercube_6.1/usercube/integration-guide/api/how-tos/request-postman/postman_gettokencombined.png)
+
+5. Click on **Use Token** and **Send** and get the result from the response body.
+
+    ![Postman: Access Token Result (Combined Request)](/img/versioned_docs/usercube_6.1/usercube/integration-guide/api/how-tos/request-postman/postman_accesstokenresult.png)

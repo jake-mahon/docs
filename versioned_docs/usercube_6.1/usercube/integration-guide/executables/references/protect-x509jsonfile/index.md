@@ -1,12 +1,22 @@
 # Usercube-Protect-X509JsonFile
 
-This tool is used to encrypt a JSON file containing sensitive connection data, for example the ```appsettings-agent.json``` file, with [RSA encryption](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md). The encryption is based on the information given in your ```appsettings.json``` file about either a PFX file or the location of the [encryption certificate](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#encryption-certificate) in the Microsoft store.
+This tool is used to encrypt a JSON file containing sensitive connection data, for example the
+`appsettings-agent.json` file, with
+[RSA encryption](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md).
+The encryption is based on the information given in your `appsettings.json` file about either a PFX
+file or the location of the
+[encryption certificate](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#encryption-certificate)
+in the Microsoft store.
 
-This tool ```Usercube-Protect-X509JsonFile``` is used to encrypt a whole file, in comparison to the [```Usercube-Protect-X509JsonValue```](/versioned_docs/usercube_6.1/usercube/integration-guide/executables/references/protect-x509jsonvalue/index.md) tool that encrypts only a given value. This tool is more appropriate than ```Usercube-Protect-X509JsonValue``` when you have many lines to encrypt.
+This tool `Usercube-Protect-X509JsonFile` is used to encrypt a whole file, in comparison to the
+[`Usercube-Protect-X509JsonValue`](/versioned_docs/usercube_6.1/usercube/integration-guide/executables/references/protect-x509jsonvalue/index.md)
+tool that encrypts only a given value. This tool is more appropriate than
+`Usercube-Protect-X509JsonValue` when you have many lines to encrypt.
 
 ## Examples
 
-The command below encrypts the ```appsettings.agent.json``` file from the ```C:/UsercubeTraining``` folder and creates the ```appsettings.encrypted.agent.json``` file in the same folder.
+The command below encrypts the `appsettings.agent.json` file from the `C:/UsercubeTraining` folder
+and creates the `appsettings.encrypted.agent.json` file in the same folder.
 
 ```
 
@@ -75,11 +85,14 @@ appsettings.encrypted.agent.json
 
 ```
 
-The previous command can be useful to encrypt, for example, an Active Directory's login used by the agent during the synchronization process.
+The previous command can be useful to encrypt, for example, an Active Directory's login used by the
+agent during the synchronization process.
 
-The login to encrypt is stored in the following format, compliant with the [appsettings.agent.json structure](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md):
+The login to encrypt is stored in the following format, compliant with the
+[appsettings.agent.json structure](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md):
 
 appsettings.beforeEncryption.json
+
 ```
 
 {
@@ -93,7 +106,9 @@ appsettings.beforeEncryption.json
 }
 ```
 
-This command writes encrypted values from ```appsettings.agent.json``` to ```C:/UsercubeTraining/appsettings.encrypted.agent.json``` following the [appsettings.agent.json structure](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md):
+This command writes encrypted values from `appsettings.agent.json` to
+`C:/UsercubeTraining/appsettings.encrypted.agent.json` following the
+[appsettings.agent.json structure](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md):
 
 ```
 appsettings.encrypted.agent.json
@@ -110,7 +125,7 @@ appsettings.encrypted.agent.json
 
 ## Arguments
 
-| Name | Details |
-| --- | --- |
-| --input-json-file-path   required | __Type__    String   __Description__ Path of the input to-be-encrypted json file. |
-| --output-json-file-path   required | __Type__    String   __Description__ Path of the output encrypted json file. |
+| Name                             | Details                                                                      |
+| -------------------------------- | ---------------------------------------------------------------------------- |
+| --input-json-file-path required  | **Type** String **Description** Path of the input to-be-encrypted json file. |
+| --output-json-file-path required | **Type** String **Description** Path of the output encrypted json file.      |

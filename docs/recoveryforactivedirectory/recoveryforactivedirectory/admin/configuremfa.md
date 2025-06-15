@@ -1,8 +1,11 @@
 # Configure Multi-Factor Authentication
 
-You can configure multi-factor authentication (MFA) for your Recovery for Active Directory account to add an additional layer of security when signing into the application.
+You can configure multi-factor authentication (MFA) for your Recovery for Active Directory account
+to add an additional layer of security when signing into the application.
 
-__NOTE:__ At present, only authenticator apps are supported for MFA. As a prerequisite to enabling MFA, install an authenticator app, such as Google Authenticator or Microsoft Authenticator, on your phone.
+**NOTE:** At present, only authenticator apps are supported for MFA. As a prerequisite to enabling
+MFA, install an authenticator app, such as Google Authenticator or Microsoft Authenticator, on your
+phone.
 
 ## Enable Authenticator for MFA
 
@@ -10,21 +13,29 @@ Follow the steps to enable the authenticator option for MFA.
 
 ![Enable MFA page](../../../../static/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/enablemfa.webp)
 
-__Step 1 –__ In the Recovery Console, click your profile icon in the top right corner of the page and select __Manage__. The MFA page opens.
+**Step 1 –** In the Recovery Console, click your profile icon in the top right corner of the page
+and select **Manage**. The MFA page opens.
 
-__Step 2 –__ Click the __Add authenticator app__ button. The Configure authenticator app page is displayed, showing the instructions for setting up the app.
+**Step 2 –** Click the **Add authenticator app** button. The Configure authenticator app page is
+displayed, showing the instructions for setting up the app.
 
 ![Configure authenticator app page](../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/analysis/configure.webp)
 
-__Step 3 –__ Open the authenticator app on your phone and scan the QR code with it. A new account is created in the app for the Recovery application and a verification code is displayed under the account name.
+**Step 3 –** Open the authenticator app on your phone and scan the QR code with it. A new account is
+created in the app for the Recovery application and a verification code is displayed under the
+account name.
 
-__Step 4 –__ Enter this code in the Verification Code field on the Configure authenticator app page and click __Verify__. A confirmation message is displayed on success.
+**Step 4 –** Enter this code in the Verification Code field on the Configure authenticator app page
+and click **Verify**. A confirmation message is displayed on success.
 
-The authenticator app generates a new code every 30 seconds, with each code expiring after 30 seconds.
+The authenticator app generates a new code every 30 seconds, with each code expiring after 30
+seconds.
 
-__Step 5 –__ Click __Close__.
+**Step 5 –** Click **Close**.
 
-MFA has been enabled for your account. Now you must authenticate your account using the Authenticator app every time you sign into Recovery for Active Directory. See the [Sign In](../install/login.md#sign-in) topic for additional information.
+MFA has been enabled for your account. Now you must authenticate your account using the
+Authenticator app every time you sign into Recovery for Active Directory. See the
+[Sign In](../install/login.md#sign-in) topic for additional information.
 
 ## Disable Authenticator for MFA
 
@@ -32,8 +43,11 @@ Follow the steps to disable MFA for your Recovery for Active Directory account.
 
 ![Disable MFA page](../../../../static/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/disablemfa.webp)
 
-__Step 1 –__ In the Recovery Console, click your profile icon in the top right corner of the page and select __Manage__. The MFA page opens.
+**Step 1 –** In the Recovery Console, click your profile icon in the top right corner of the page
+and select **Manage**. The MFA page opens.
 
-__Step 2 –__ Click __Disable 2FA__. A confirmation message is displayed. Click __Disable 2FA__ to disable multi-factor authentication or __Cancel__ to leave it enabled.
+**Step 2 –** Click **Disable 2FA**. A confirmation message is displayed. Click **Disable 2FA** to
+disable multi-factor authentication or **Cancel** to leave it enabled.
 
-On disabling MFA, the page displays a confirmation message and there is an option to enable it again.
+On disabling MFA, the page displays a confirmation message and there is an option to enable it
+again.

@@ -1,15 +1,15 @@
 # Remove-Contact
 
-Use the __Remove-Contact__ cmdlet to delete a contact from the directory.
+Use the **Remove-Contact** cmdlet to delete a contact from the directory.
 
 ## Syntax
 
 ```
-Remove-Contact  
--Identity <string[]>  
-[-IdentityStoreId <int>]  
-[-SecurityToken <CustomClaimsPrincipal>]  
-[-Credential <pscredential>]  
+Remove-Contact
+-Identity <string[]>
+[-IdentityStoreId <int>]
+[-SecurityToken <CustomClaimsPrincipal>]
+[-Credential <pscredential>]
 [<CommonParameters>]
 ```
 

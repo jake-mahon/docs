@@ -2,7 +2,7 @@
 
 ## Properties
 
-| Property | Details |
-| --- | --- |
-| AllowedSymbolChars   required | __Type__    String   __Description__   The documentation is not yet available. |
-| Identifier   default value: PasswordGenerationSetting | __Type__    String   __Description__   Unique identifier of the setting. |
+| Property                                            | Details                                                                 |
+| --------------------------------------------------- | ----------------------------------------------------------------------- |
+| AllowedSymbolChars required                         | **Type** String **Description** The documentation is not yet available. |
+| Identifier default value: PasswordGenerationSetting | **Type** String **Description** Unique identifier of the setting.       |

@@ -1,35 +1,55 @@
 # Recommended Configuration for the Db2 Solution
 
-The Db2 Solution has been configured to inherit down from the __Db2__ > __Settings__ node. However, it is best practice to assign the host list and the Connection Profile at the data collection level, the 0.Collection Job Group. Once these are assigned to the job group, it can be run directly or scheduled.
+The Db2 Solution has been configured to inherit down from the **Db2** > **Settings** node. However,
+it is best practice to assign the host list and the Connection Profile at the data collection level,
+the 0.Collection Job Group. Once these are assigned to the job group, it can be run directly or
+scheduled.
 
 Dependencies
 
-- Successful installation of the IBM Data Server Client. In addition, the following clients and drivers must be installed:
+- Successful installation of the IBM Data Server Client. In addition, the following clients and
+  drivers must be installed:
 
-  - IBM Data Server Driver Package (DS Driver)
-  - IBM Data Server Driver for JDBC and SQLJ (JCC Driver)
-  - IBM Data Server Driver for ODBC and CLI (CLI Driver)
-  - IBM Data Server Runtime Client
-  - IBM Data Server Client
-  - IBM Database Add-Ins for Visual Studio
-  - IBM .NET Driver NuGet
+    - IBM Data Server Driver Package (DS Driver)
+    - IBM Data Server Driver for JDBC and SQLJ (JCC Driver)
+    - IBM Data Server Driver for ODBC and CLI (CLI Driver)
+    - IBM Data Server Runtime Client
+    - IBM Data Server Client
+    - IBM Database Add-Ins for Visual Studio
+    - IBM .NET Driver NuGet
 
-  __NOTE:__ All necessary clients and drivers can be found on IBM Support's [Download initial version 11.5 clients and drivers](https://www.ibm.com/support/pages/download-initial-version-115-clients-and-drivers) page.
+    **NOTE:** All necessary clients and drivers can be found on IBM Support's
+    [Download initial version 11.5 clients and drivers](https://www.ibm.com/support/pages/download-initial-version-115-clients-and-drivers)
+    page.
+
 - .Instance Discovery Job Group run successfully
 
 Targeted Host(s)
 
-The Db2 Job Group has been configured to inherit the host list assignment from the collection group level.
+The Db2 Job Group has been configured to inherit the host list assignment from the collection group
+level.
 
-The host list assignment should be assigned under the __Databases__ > __0.Collection__ > __Db2__ > __Settings__ > __Host List Assignment__ node. The Local host box is checked by default.
+The host list assignment should be assigned under the **Databases** > **0.Collection** > **Db2** >
+**Settings** > **Host List Assignment** node. The Local host box is checked by default.
 
 Connection Profile
 
-The SQL Data Collector requires a specific set of permissions. See the Permissions section for necessary permissions. The account used can be either an Active Directory account or a SQL account. Once the account has been provisioned, create a custom Connection Profile containing the credentials for the targeted environment. See the [SQL Custom Connection Profile & Default Dynamic Host List](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/sql/configurejob.md) topic for additional information.
+The SQL Data Collector requires a specific set of permissions. See the Permissions section for
+necessary permissions. The account used can be either an Active Directory account or a SQL account.
+Once the account has been provisioned, create a custom Connection Profile containing the credentials
+for the targeted environment. See the
+[SQL Custom Connection Profile & Default Dynamic Host List](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/sql/configurejob.md)
+topic for additional information.
 
-The Connection Profile should be assigned under the Databases > 0.Collection > Db2 > Settings > Connection node. It is set to Use the Default Profile, as configured at the global settings level. However, since this may not be the Connection Profile with the necessary permissions for the assigned hosts, click the radio button for the Select one of the following user defined profiles option and select the appropriate Connection Profile drop-down menu.
+The Connection Profile should be assigned under the Databases > 0.Collection > Db2 > Settings >
+Connection node. It is set to Use the Default Profile, as configured at the global settings level.
+However, since this may not be the Connection Profile with the necessary permissions for the
+assigned hosts, click the radio button for the Select one of the following user defined profiles
+option and select the appropriate Connection Profile drop-down menu.
 
-See the [Connection](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/overview.md) topic for additional information.
+See the
+[Connection](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/overview.md)
+topic for additional information.
 
 Schedule Frequency
 
@@ -37,11 +57,12 @@ This job group can be scheduled to run as desired.
 
 Run Order
 
-The 0.Collection Jobs must be run first and in order. The other Db2 sub-job groups can be run in any order, together or individually, after running the 0.Collection Job Group.
+The 0.Collection Jobs must be run first and in order. The other Db2 sub-job groups can be run in any
+order, together or individually, after running the 0.Collection Job Group.
 
-___RECOMMENDED:___ Run the solution at the top level.
+**_RECOMMENDED:_** Run the solution at the top level.
 
-__Workflow__
+**Workflow**
 
 1. Install IBM Db2 Server Client and required clients and drivers
 2. Configure and assign host list and connection profile(s)

@@ -1,25 +1,26 @@
 # Get-Mailbox
 
-Use the Get-Mailbox commandlet to retrieve basic information about a mailbox that match your given criteria.
+Use the Get-Mailbox commandlet to retrieve basic information about a mailbox that match your given
+criteria.
 
 ## Syntax
 
 ```
-Get-MailBox  
-[[-Identity] <string[]>]  
-[-SearchContainer <string[]>]  
-[-SearchContainersScopeList <string>]  
-[-MailBoxStore <string>]  
-[-ShouldReturnCollection]  
-[-MaxItemsToDisplay <int>]  
-[-ObjectType <string[]>]  
-[-LdapFilter <string>]  
-[-SmartFilter <string>]  
-[-ServerFilter <string>]  
-[-AttributesToLoad <string[]>]  
-[-IdentityStoreId <int>]  
-[-SecurityToken <CustomClaimsPrincipal>]  
-[-Credential <pscredential>]  
+Get-MailBox
+[[-Identity] <string[]>]
+[-SearchContainer <string[]>]
+[-SearchContainersScopeList <string>]
+[-MailBoxStore <string>]
+[-ShouldReturnCollection]
+[-MaxItemsToDisplay <int>]
+[-ObjectType <string[]>]
+[-LdapFilter <string>]
+[-SmartFilter <string>]
+[-ServerFilter <string>]
+[-AttributesToLoad <string[]>]
+[-IdentityStoreId <int>]
+[-SecurityToken <CustomClaimsPrincipal>]
+[-Credential <pscredential>]
 [<CommonParameters>]
 ```
 

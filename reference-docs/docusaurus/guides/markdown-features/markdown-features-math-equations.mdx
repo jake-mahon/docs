@@ -6,7 +6,7 @@ slug: /markdown-features/math-equations
 
 # Math Equations
 
-import BrowserWindow from '@site/src/components/BrowserWindow';
+import BrowserWindow from '@site/src/components/BrowserWindow'
 
 Mathematical equations can be rendered using [KaTeX](https://katex.org).
 
@@ -71,8 +71,8 @@ Enable KaTeX:
 
     ```js title="ES module docusaurus.config.js"
     // highlight-start
-    import remarkMath from 'remark-math';
-    import rehypeKatex from 'rehype-katex';
+    import remarkMath from 'remark-math'
+    import rehypeKatex from 'rehype-katex'
     // highlight-end
 
     // highlight-start
@@ -91,15 +91,14 @@ Enable KaTeX:
           },
         ],
       ],
-    };
+    }
     ```
 
         <details>
 
     <summary>
-      Using a
-      [**CommonJS**](https://nodejs.org/api/modules.html#modules-commonjs-modules)
-      config file?
+      Using a [**CommonJS**](https://nodejs.org/api/modules.html#modules-commonjs-modules) config
+      file?
     </summary>
 
             If you decide to use a CommonJS config file, it is possible to load those ES module plugins thanks to dynamic imports and an async config creator function:
@@ -123,8 +122,8 @@ Enable KaTeX:
             },
           ],
         ],
-      };
-    };
+      }
+    }
     ```
 
         </details>
@@ -138,12 +137,11 @@ Enable KaTeX:
         {
           href: 'https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css',
           type: 'text/css',
-          integrity:
-            'sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM',
+          integrity: 'sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM',
           crossorigin: 'anonymous',
         },
       ],
-    };
+    }
     ```
 
 <details>
@@ -151,8 +149,8 @@ Enable KaTeX:
 
 ```js title="docusaurus.config.js"
 // highlight-start
-import remarkMath from 'remark-math';
-import rehypeKatex from 'rehype-katex';
+import remarkMath from 'remark-math'
+import rehypeKatex from 'rehype-katex'
 // highlight-end
 
 export default {
@@ -177,13 +175,12 @@ export default {
     {
       href: 'https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css',
       type: 'text/css',
-      integrity:
-        'sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM',
+      integrity: 'sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM',
       crossorigin: 'anonymous',
     },
   ],
   // highlight-end
-};
+}
 ```
 
 </details>
@@ -200,5 +197,5 @@ export default {
       type: 'text/css',
     },
   ],
-};
+}
 ```

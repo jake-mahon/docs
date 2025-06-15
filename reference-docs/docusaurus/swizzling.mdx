@@ -47,7 +47,7 @@ It will generate a new component in your `src/theme` directory, which should loo
 ```
 
 ```jsx title="src/theme/SomeComponent.js"
-import React from 'react';
+import React from 'react'
 
 export default function SomeComponent(props) {
   // You can fully customize this implementation
@@ -57,7 +57,7 @@ export default function SomeComponent(props) {
       <h1>Some Component</h1>
       <p>Some component implementation details</p>
     </div>
-  );
+  )
 }
 ```
 
@@ -67,8 +67,8 @@ export default function SomeComponent(props) {
 ```
 
 ```jsx title="src/theme/SomeComponent.js"
-import React from 'react';
-import SomeComponent from '@theme-original/SomeComponent';
+import React from 'react'
+import SomeComponent from '@theme-original/SomeComponent'
 
 export default function SomeComponentWrapper(props) {
   // You can enhance the original component,
@@ -77,7 +77,7 @@ export default function SomeComponentWrapper(props) {
     <>
       <SomeComponent {...props} />
     </>
-  );
+  )
 }
 ```
 
@@ -137,7 +137,7 @@ npm run swizzle @docusaurus/theme-classic Footer -- --eject
 This will copy the current `<Footer />` component's implementation to your site's `src/theme` directory. Docusaurus will now use this `<Footer>` component copy instead of the original one. You are now free to completely re-implement the `<Footer>` component.
 
 ```jsx title="src/theme/Footer/index.js"
-import React from 'react';
+import React from 'react'
 
 export default function Footer(props) {
   return (
@@ -145,7 +145,7 @@ export default function Footer(props) {
       <h1>This is my custom site footer</h1>
       <p>And it is very different from the original</p>
     </footer>
-  );
+  )
 }
 ```
 
@@ -182,8 +182,8 @@ npm run swizzle @docusaurus/theme-classic Footer -- --wrap
 This will create a wrapper in your site's `src/theme` directory. Docusaurus will now use the `<FooterWrapper>` component instead of the original one. You can now add customizations around the original component.
 
 ```jsx title="src/theme/Footer/index.js"
-import React from 'react';
-import Footer from '@theme-original/Footer';
+import React from 'react'
+import Footer from '@theme-original/Footer'
 
 export default function FooterWrapper(props) {
   return (
@@ -194,7 +194,7 @@ export default function FooterWrapper(props) {
       </section>
       <Footer {...props} />
     </>
-  );
+  )
 }
 ```
 
@@ -210,9 +210,9 @@ Docusaurus uses [theme aliases](./advanced/client.mdx#theme-aliases) to resolve 
 Wrapping a theme is a great way to **add extra components around existing one** without [ejecting](#ejecting) it. For example, you can easily add a custom comment system under each blog post:
 
 ```jsx title="src/theme/BlogPostItem.js"
-import React from 'react';
-import BlogPostItem from '@theme-original/BlogPostItem';
-import MyCustomCommentSystem from '@site/src/MyCustomCommentSystem';
+import React from 'react'
+import BlogPostItem from '@theme-original/BlogPostItem'
+import MyCustomCommentSystem from '@site/src/MyCustomCommentSystem'
 
 export default function BlogPostItemWrapper(props) {
   return (
@@ -220,7 +220,7 @@ export default function BlogPostItemWrapper(props) {
       <BlogPostItem {...props} />
       <MyCustomCommentSystem />
     </>
-  );
+  )
 }
 ```
 
@@ -319,11 +319,11 @@ The `<Root>` component is rendered at the **very top** of the React tree, above 
 Swizzle it **manually** by creating a file at `src/theme/Root.js`:
 
 ```js title="src/theme/Root.js"
-import React from 'react';
+import React from 'react'
 
 // Default implementation, that you can customize
-export default function Root({children}) {
-  return <>{children}</>;
+export default function Root({ children }) {
+  return <>{children}</>
 }
 ```
 

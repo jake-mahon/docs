@@ -21,32 +21,33 @@ And with the following form for the data specific to each record:
 
 ```
 
-The contents of ```MainControl```, ```RecordControl``` and ```RecordUniqueItemControl``` are visible during the workflow's execution:
+The contents of `MainControl`, `RecordControl` and `RecordUniqueItemControl` are visible during the
+workflow's execution:
 
 ![Form Example - New User from Helpdesk](/img/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/workflows/forms/workflowcreateseveralrecordsentityform/formexample_workflowcreateseveralrecordsentityform_v603.png)
 
 ## Properties
 
 | Property | Details |
-| --- | --- |
+| -------- | ------- |
 
 ## Child Element: MainControl
 
 Set of fields to collect data about the main resource.
 
 | Property | Details |
-| --- | --- |
+| -------- | ------- |
 
 ## Child Element: RecordControl
 
 Set of fields to collect data shared between all the resource's records.
 
 | Property | Details |
-| --- | --- |
+| -------- | ------- |
 
 ## Child Element: RecordUniqueItemControl
 
 Set of fields to collect data specific to each record.
 
 | Property | Details |
-| --- | --- |
+| -------- | ------- |

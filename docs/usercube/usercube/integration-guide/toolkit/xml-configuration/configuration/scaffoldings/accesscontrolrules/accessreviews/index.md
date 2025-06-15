@@ -1,7 +1,5 @@
 # Access Reviews
 
-- [
-  Access Review Administration Access Control Rules
-  ](accessreviewadministrationaccesscontrolrules/index.md)
+- [ Access Review Administration Access Control Rules ](accessreviewadministrationaccesscontrolrules/index.md)
 
-  Generates the permissions to administrate campaign creation.
+    Generates the permissions to administrate campaign creation.

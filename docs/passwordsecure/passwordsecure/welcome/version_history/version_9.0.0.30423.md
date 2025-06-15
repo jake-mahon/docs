@@ -4,19 +4,26 @@
 
 #### Cross-client change\*
 
-- The encryption system has undergone significant enhancements to bolster its resistance against brute force attacks. Moreover, it now aligns with the latest OWASP recommendations.
+- The encryption system has undergone significant enhancements to bolster its resistance against
+  brute force attacks. Moreover, it now aligns with the latest OWASP recommendations.
 
 #### Extended view (formerly FullClient)
 
-- Windows clients have transitioned to exclusive compatibility with 64-bit systems, optimizing available RAM resources and enabling concurrent operation of more RDP sessions (also affects the SSO and OfflineClient). RDP libraries have also been upgraded to 64-bit.
-- In the recycle bin of organizational units, it is now possible to permanently delete objects via multiple selections.
-- The clarity of the user interface has been enhanced by defaulting to icons instead of logos, offering a more streamlined experience. This adjustment also applies to the Web Application.
+- Windows clients have transitioned to exclusive compatibility with 64-bit systems, optimizing
+  available RAM resources and enabling concurrent operation of more RDP sessions (also affects the
+  SSO and OfflineClient). RDP libraries have also been upgraded to 64-bit.
+- In the recycle bin of organizational units, it is now possible to permanently delete objects via
+  multiple selections.
+- The clarity of the user interface has been enhanced by defaulting to icons instead of logos,
+  offering a more streamlined experience. This adjustment also applies to the Web Application.
 
-\* This improvement affects all views (normal and advanced view) and Clients (Admin-, Web-, SSO- and OfflineClient), the browser extension, API, and the server as well as MSP.
+\* This improvement affects all views (normal and advanced view) and Clients (Admin-, Web-, SSO- and
+OfflineClient), the browser extension, API, and the server as well as MSP.
 
 #### MSP
 
-- Price details can now be customized on a per-customer basis, allowing for greater flexibility and tailored pricing options.
+- Price details can now be customized on a per-customer basis, allowing for greater flexibility and
+  tailored pricing options.
 
 ## Fixed
 
@@ -37,4 +44,5 @@
 
 #### Browser extensions
 
-- Even if no URL is stored, the username and password can now be copied from the browser extension again.
+- Even if no URL is stored, the username and password can now be copied from the browser extension
+  again.

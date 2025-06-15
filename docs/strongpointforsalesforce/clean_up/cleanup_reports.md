@@ -1,6 +1,8 @@
 # Running Clean Up Reports
 
-Platform Governance for Salesforce provides predefined reports to help you clean up your Salesforce Instance. The reports are available by opening __Netwrix Dashboard__ > __Reports__ > __Clean Up__ and selecting a report:
+Platform Governance for Salesforce provides predefined reports to help you clean up your Salesforce
+Instance. The reports are available by opening **Netwrix Dashboard** > **Reports** > **Clean Up**
+and selecting a report:
 
 - Default Clean Up List View
 - Open Clean Up Status
@@ -16,13 +18,16 @@ Platform Governance for Salesforce provides predefined reports to help you clean
 
 ## Using the Reports
 
-- __Filters__: Open the filters to see the criteria used for the report. You can modify the unlocked filters to narrow the focus of the results.
-- __Column Sort Order__: Use the toggler in the column heads to change the sort order of the results based on the selected column.
-- __Links__: Use the linked fields to open details about the customization or user.
+- **Filters**: Open the filters to see the criteria used for the report. You can modify the unlocked
+  filters to narrow the focus of the results.
+- **Column Sort Order**: Use the toggler in the column heads to change the sort order of the results
+  based on the selected column.
+- **Links**: Use the linked fields to open details about the customization or user.
 
 ### Default Clean Up List View
 
-The results list all customizations of Record type __Objects & Fields__, starting with API Name __Account__, Salesforce Type __CustomField__ and used less than __180 Days Ago__.
+The results list all customizations of Record type **Objects & Fields**, starting with API Name
+**Account**, Salesforce Type **CustomField** and used less than **180 Days Ago**.
 
 ### Open Clean Up Status
 
@@ -30,11 +35,11 @@ This report enables you to find customizations that have been identified and not
 
 ### Clean Up Waiting for Info
 
-The results list customizations flagged with clean up status __Send Request Info Emails.__
+The results list customizations flagged with clean up status **Send Request Info Emails.**
 
 ### Customizations Excluded from Clean Up
 
-The results list active customizations flagged with clean up status __Ignore__.
+The results list active customizations flagged with clean up status **Ignore**.
 
 ### Unused Fields
 
@@ -63,12 +68,14 @@ The results list all customizations with no process assigned.
 
 ### Custom Fields without Help Text
 
-Help and Descriptions enable users to more efficiently use the system. The results list customizations missing help.
+Help and Descriptions enable users to more efficiently use the system. The results list
+customizations missing help.
 
-To fix, open the customization, click __Update Description and Help Text__.
+To fix, open the customization, click **Update Description and Help Text**.
 
 ### Custom Fields without Description
 
-Help and Descriptions enable users to more efficiently use the system. The results list customizations missing descriptions.
+Help and Descriptions enable users to more efficiently use the system. The results list
+customizations missing descriptions.
 
-To fix, open the customization, click __Update Description and Help Text__.
+To fix, open the customization, click **Update Description and Help Text**.

@@ -4,7 +4,8 @@ The Action Service can be installed on additional servers.
 
 _Remember,_ the Action Service is installed on the Threat Manager Console server.
 
-The Windows server can be physical or virtual. The following Windows server operating systems are supported:
+The Windows server can be physical or virtual. The following Windows server operating systems are
+supported:
 
 - Windows Server 2022
 - Windows Server 2019

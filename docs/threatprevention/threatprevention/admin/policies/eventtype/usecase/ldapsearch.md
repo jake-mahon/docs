@@ -1,20 +1,26 @@
 # LDAP Search Operations Use Case
 
-Use the LDAP Search operation to search for and identify activity that does not conform to your security configurations.
+Use the LDAP Search operation to search for and identify activity that does not conform to your
+security configurations.
 
-When you create a policy with the [LDAP Monitoring Event Type](../ldapmonitoring.md) or the [LDAP Lockdown Event Type](../ldaplockdown.md), the LDAP filter allows you to enable the LDAP Search option.
+When you create a policy with the [LDAP Monitoring Event Type](../ldapmonitoring.md) or the
+[LDAP Lockdown Event Type](../ldaplockdown.md), the LDAP filter allows you to enable the LDAP Search
+option.
 
-The Secure configurations and Search scope options filter the search based on a match to the selected configurations and scope of the LDAP query.
+The Secure configurations and Search scope options filter the search based on a match to the
+selected configurations and scope of the LDAP query.
 
 ![LDAP filter for the LDAP Monitoring and LDAP Lockdown event types](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/usecase/ldapsearchscopes.webp)
 
 Secure configurations
 
-This setting determines if events should be captured for an LDAP operation based on the security protocol used by that operation.
+This setting determines if events should be captured for an LDAP operation based on the security
+protocol used by that operation.
 
-Select __All__ to capture LDAP events that used any protocol.
+Select **All** to capture LDAP events that used any protocol.
 
-You can also limit Threat Prevention to capture LDAP events only when one of the selected protocol(s) are used.
+You can also limit Threat Prevention to capture LDAP events only when one of the selected
+protocol(s) are used.
 
 - SSL
 - StartTLS
@@ -30,4 +36,5 @@ Select the All checkbox to search all scopes, or select specific scoping levels:
 - One level
 - Subtree
 
-Only LDAP queries using the selected security options and search scope levels will have events reported by the Agent.
+Only LDAP queries using the selected security options and search scope levels will have events
+reported by the Agent.

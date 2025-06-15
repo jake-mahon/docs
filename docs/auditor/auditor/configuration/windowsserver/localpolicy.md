@@ -1,6 +1,7 @@
 # Configure Local Audit Policies
 
-Local audit policies must be configured on the target servers to get the "Who" and "When" values for the changes to the following monitored system components:
+Local audit policies must be configured on the target servers to get the "Who" and "When" values for
+the changes to the following monitored system components:
 
 - Audit policies
 - File shares
@@ -12,25 +13,29 @@ Local audit policies must be configured on the target servers to get the "Who" a
 - Windows registry
 - Removable media
 
-You can also configure advanced audit policies for same purpose. See the [Configure Advanced Audit Policies](advancedpolicy.md) topic for more information.
+You can also configure advanced audit policies for same purpose. See the
+[Configure Advanced Audit Policies](advancedpolicy.md) topic for more information.
 
 ## Manual Configuration
 
-While there are several methods to configure local audit policies, this topic covers just one of them: how to configure policies locally with the Local Security Policy snap-in. To apply settings to the whole domain, use the Group Policy but consider the possible impact on your environment.
+While there are several methods to configure local audit policies, this topic covers just one of
+them: how to configure policies locally with the Local Security Policy snap-in. To apply settings to
+the whole domain, use the Group Policy but consider the possible impact on your environment.
 
 Follow the steps to configure local audit policies.
 
-__Step 1 –__ On the audited server, open the Local Security Policy snap-in: navigate to Start > Windows Administrative Tools > Local Security Policy.
+**Step 1 –** On the audited server, open the Local Security Policy snap-in: navigate to Start >
+Windows Administrative Tools > Local Security Policy.
 
-__Step 2 –__ Navigate to Security Settings > Local Policies > Audit Policy.
+**Step 2 –** Navigate to Security Settings > Local Policies > Audit Policy.
 
-__Step 3 –__ Configure the following audit policies.
+**Step 3 –** Configure the following audit policies.
 
-| Policy Name | Audit Events |
-| --- | --- |
-| Audit account management | "Success" |
-| Audit object access | "Success" |
-| Audit policy change | "Success" |
+| Policy Name              | Audit Events |
+| ------------------------ | ------------ |
+| Audit account management | "Success"    |
+| Audit object access      | "Success"    |
+| Audit policy change      | "Success"    |
 
 Local audit policy is configured.
 

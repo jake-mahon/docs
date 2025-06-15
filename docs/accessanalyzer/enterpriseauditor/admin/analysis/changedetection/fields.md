@@ -12,4 +12,5 @@ Choose which fields change detection analyzes using the following options:
 - Hide system columns – Hide columns
 - Checked – Order the list by selected items
 - Column Name – Name of the field
-- Combine multiple changes into a single change record – Select to combine multiple changes into a single change record
+- Combine multiple changes into a single change record – Select to combine multiple changes into a
+  single change record

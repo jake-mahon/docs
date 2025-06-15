@@ -20,7 +20,7 @@ export default {
   title: 'My site',
   staticDirectories: ['public', 'static'],
   // ...
-};
+}
 ```
 
 Now, all files in `public` as well as `static` will be copied to the build output.
@@ -36,9 +36,9 @@ You can `import()` or `require()` the static asset (recommended), or use the `us
 Examples:
 
 ```jsx title="MyComponent.js"
-import DocusaurusImageUrl from '@site/static/img/docusaurus.png';
+import DocusaurusImageUrl from '@site/static/img/docusaurus.png'
 
-<img src={DocusaurusImageUrl} />;
+;<img src={DocusaurusImageUrl} />
 ```
 
 ```jsx title="MyComponent.js"
@@ -46,17 +46,17 @@ import DocusaurusImageUrl from '@site/static/img/docusaurus.png';
 ```
 
 ```jsx title="MyComponent.js"
-import useBaseUrl from '@docusaurus/useBaseUrl';
+import useBaseUrl from '@docusaurus/useBaseUrl'
 
-<img src={useBaseUrl('/img/docusaurus.png')} />;
+;<img src={useBaseUrl('/img/docusaurus.png')} />
 ```
 
 You can also import SVG files: they will be transformed into React components.
 
 ```jsx title="MyComponent.js"
-import DocusaurusLogoWithKeytar from '@site/static/img/docusaurus_keytar.svg';
+import DocusaurusLogoWithKeytar from '@site/static/img/docusaurus_keytar.svg'
 
-<DocusaurusLogoWithKeytar title="Docusaurus Logo" className="logo" />;
+;<DocusaurusLogoWithKeytar title="Docusaurus Logo" className="logo" />
 ```
 
 ### In Markdown {#in-markdown}

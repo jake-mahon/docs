@@ -1,6 +1,8 @@
 # Configure Empty FPolicy
 
-The credential used to just run Access Auditing (FSAA) and/or Sensitive Data Discovery Auditing scans requires access to the specified API calls as well as association to an FPolicy. Therefore, it is necessary to:
+The credential used to just run Access Auditing (FSAA) and/or Sensitive Data Discovery Auditing
+scans requires access to the specified API calls as well as association to an FPolicy. Therefore, it
+is necessary to:
 
 - [Create Security Role for FSAA Scans](#create-security-role-for-fsaa-scans)
 - [Create Security Login for FSAA Scans](#create-security-login-for-fsaa-scans)
@@ -10,11 +12,15 @@ The credential used to just run Access Auditing (FSAA) and/or Sensitive Data Dis
 - [Create Empty FPolicy Scope](#create-empty-fpolicy-scope)
 - [Enable the Empty FPolicy](#enable-the-empty-fpolicy)
 
-__NOTE:__ The commands in the following sections have been verified for NetApp Data ONTAP 9.6+. Users of older versions should consult the NetApp documentation to find the appropriate syntax.
+**NOTE:** The commands in the following sections have been verified for NetApp Data ONTAP 9.6+.
+Users of older versions should consult the NetApp documentation to find the appropriate syntax.
 
 ## Create Security Role for FSAA Scans
 
-This section provides instructions for creating an access-control role. An access-control role consists of a role name and a command to which the role has access. It optionally includes an access level (none, read-only, or all) and a query that applies to the specified command or command directory. The following commands need to be run to create the security role.
+This section provides instructions for creating an access-control role. An access-control role
+consists of a role name and a command to which the role has access. It optionally includes an access
+level (none, read-only, or all) and a query that applies to the specified command or command
+directory. The following commands need to be run to create the security role.
 
 Use the following command to provision read-only access to Version\* commands:
 
@@ -80,18 +86,26 @@ Example:
 security login role show enterpriseauditor
 ```
 
-Relevant NetApp Documentation: To learn more about creating security login roles, please visit the NetApp website and read the [security login role create](https://library.netapp.com/ecmdocs/ECMP1196817/html/security/login/role/create.html) article.
+Relevant NetApp Documentation: To learn more about creating security login roles, please visit the
+NetApp website and read the
+[security login role create](https://library.netapp.com/ecmdocs/ECMP1196817/html/security/login/role/create.html)
+article.
 
 ## Create Security Login for FSAA Scans
 
 Once the access control role has been created, apply it to a domain account.
 
-__CAUTION:__
+**CAUTION:**
 
-- The SVM used in the following command must be the same SVM used when creating the role. See the [Create Security Role for FSAA Scans](#create-security-role-for-fsaa-scans) topic for additional information.
+- The SVM used in the following command must be the same SVM used when creating the role. See the
+  [Create Security Role for FSAA Scans](#create-security-role-for-fsaa-scans) topic for additional
+  information.
 
-  __CAUTION:__ Cluster-Mode is case sensitive.
-- It is recommended to use lowercase for both domain and username. The case of domain and username created during the account provisioning process must match exactly to the credentials provided to the Access Analyzer for authentication to work.
+    **CAUTION:** Cluster-Mode is case sensitive.
+
+- It is recommended to use lowercase for both domain and username. The case of domain and username
+  created during the account provisioning process must match exactly to the credentials provided to
+  the Access Analyzer for authentication to work.
 
 Use the following command to create the security login for the security role:
 
@@ -125,7 +139,10 @@ Verify that the output is displayed as follows:
 
 ![validatesecuritylogincreation](../../../../static/img/product_docs/activitymonitor/config/netappcmode/validatesecuritylogincreation.webp)
 
-Relevant NetApp Documentation: To learn more about creating security logins, please visit the NetApp website and read the [security login create](https://library.netapp.com/ecmdocs/ECMP12452955/html/security/login/create.html) article.
+Relevant NetApp Documentation: To learn more about creating security logins, please visit the NetApp
+website and read the
+[security login create](https://library.netapp.com/ecmdocs/ECMP12452955/html/security/login/create.html)
+article.
 
 ## Create External Engine for Empty FPolicy
 
@@ -133,20 +150,22 @@ The External Engine defines how FPolicy makes and manages connections to externa
 
 IMPORTANT:
 
-- The ```-primary-servers``` must be the server from which the StealthAUDIT scans will be executed:
+- The `-primary-servers` must be the server from which the StealthAUDIT scans will be executed:
 
-  - StealthAUDIT Console server for local mode
-  - proxy server if running in any of the proxy mode options
+    - StealthAUDIT Console server for local mode
+    - proxy server if running in any of the proxy mode options
+
 - The following values are required:
 
-  - ```engine-name StealthAUDITEngine```
-  - ```port 9999```
+    - `engine-name StealthAUDITEngine`
+    - `port 9999`
 
-    - Port number can be customized, but it is recommended to use 9999.
-  - ```extern-engine-type asynchronous```
-  - ```ssl-option no-auth```
+        - Port number can be customized, but it is recommended to use 9999.
 
-__CAUTION:__ Cluster-Mode is case sensitive.
+    - `extern-engine-type asynchronous`
+    - `ssl-option no-auth`
+
+**CAUTION:** Cluster-Mode is case sensitive.
 
 Use the following command to create the external engine:
 
@@ -174,7 +193,10 @@ Verify that the output is displayed as follows:
 
 ![validateexternalenginecreation](../../../../static/img/product_docs/accessanalyzer/config/netappcmode/validateexternalenginecreation.webp)
 
-Relevant NetApp Documentation: To learn more about creating an external engine, please visit the NetApp website and read the [vserver fpolicy policy external-engine create](https://library.netapp.com/ecmdocs/ECMP1366832/html/vserver/fpolicy/policy/external-engine/create.html) article.
+Relevant NetApp Documentation: To learn more about creating an external engine, please visit the
+NetApp website and read the
+[vserver fpolicy policy external-engine create](https://library.netapp.com/ecmdocs/ECMP1366832/html/vserver/fpolicy/policy/external-engine/create.html)
+article.
 
 ## Create FPolicy Event for Empty FPolicy
 
@@ -185,10 +207,10 @@ IMPORTANT:
 - The SVM used must be the SVM hosting the CIFS or NFS shares.
 - The following values are required:
 
-  - ```event-name StealthAUDITScreening```
-  - ```volume-operation true```
+    - `event-name StealthAUDITScreening`
+    - `volume-operation true`
 
-__CAUTION:__ Cluster-Mode is case sensitive.
+**CAUTION:** Cluster-Mode is case sensitive.
 
 Use the following command to create the FPolicy event:
 
@@ -216,22 +238,32 @@ Verify that the output is displayed as follows:
 
 ![validatefpolciyeventcreation](../../../../static/img/product_docs/accessanalyzer/config/netappcmode/validatefpolciyeventcreation.webp)
 
-Relevant NetApp Documentation: To learn more about creating an event, please visit the NetApp website and read the [vserver fpolicy policy event create](https://library.netapp.com/ecmdocs/ECMP1196817/html/vserver/fpolicy/policy/event/create.html) article.
+Relevant NetApp Documentation: To learn more about creating an event, please visit the NetApp
+website and read the
+[vserver fpolicy policy event create](https://library.netapp.com/ecmdocs/ECMP1196817/html/vserver/fpolicy/policy/event/create.html)
+article.
 
 ## Create Empty FPolicy Policy
 
-The FPolicy policy associates the other three FPolicy components and allows for the designation of a privileged FPolicy user, or the account granted Security Login.
+The FPolicy policy associates the other three FPolicy components and allows for the designation of a
+privileged FPolicy user, or the account granted Security Login.
 
 IMPORTANT:
 
 - The SVM used must be the SVM hosting the CIFS or NFS shares.
-- The External Engine and FPolicy Event used in this command must be the External Engine and the FPolicy Event created for this purpose. See the [Create External Engine for Empty FPolicy](#create-external-engine-for-empty-fpolicy) and [Create FPolicy Event for Empty FPolicy](#create-fpolicy-event-for-empty-fpolicy) sections for additional information.
+- The External Engine and FPolicy Event used in this command must be the External Engine and the
+  FPolicy Event created for this purpose. See the
+  [Create External Engine for Empty FPolicy](#create-external-engine-for-empty-fpolicy) and
+  [Create FPolicy Event for Empty FPolicy](#create-fpolicy-event-for-empty-fpolicy) sections for
+  additional information.
 - The following values are required:
 
-  - ```privileged-user-name``` must be the account granted Security Login. See the [Create Security Login for FSAA Scans](#create-security-login-for-fsaa-scans) topic for additional information.
-  - ```policy-name StealthAUDIT```
+    - `privileged-user-name` must be the account granted Security Login. See the
+      [Create Security Login for FSAA Scans](#create-security-login-for-fsaa-scans) topic for
+      additional information.
+    - `policy-name StealthAUDIT`
 
-__CAUTION:__ Cluster-Mode is case sensitive.
+**CAUTION:** Cluster-Mode is case sensitive.
 
 Use the following command to create the FPolicy policy:
 
@@ -257,7 +289,10 @@ fpolicy policy show ‑instance
 
 ![validatefpolicypolicycreation](../../../../static/img/product_docs/accessanalyzer/config/netappcmode/validatefpolicypolicycreation.webp)
 
-Relevant NetApp Documentation: To learn more about creating a policy, please visit the NetApp website and read the [vserver fpolicy policy create](https://library.netapp.com/ecmdocs/ECMP1366832/html/vserver/fpolicy/policy/create.html) article.
+Relevant NetApp Documentation: To learn more about creating a policy, please visit the NetApp
+website and read the
+[vserver fpolicy policy create](https://library.netapp.com/ecmdocs/ECMP1366832/html/vserver/fpolicy/policy/create.html)
+article.
 
 ## Create Empty FPolicy Scope
 
@@ -304,7 +339,10 @@ fpolicy policy scope show ‑instance
 
 ![validatefpolicyscopecreation](../../../../static/img/product_docs/accessanalyzer/config/netappcmode/validatefpolicyscopecreation.webp)
 
-Relevant NetApp Documentation: To learn more about creating scope, please visit the NetApp website and read the [vserver fpolicy policy scope create](https://library.netapp.com/ecmdocs/ECMP1196817/html/vserver/fpolicy/policy/scope/create.html) article.
+Relevant NetApp Documentation: To learn more about creating scope, please visit the NetApp website
+and read the
+[vserver fpolicy policy scope create](https://library.netapp.com/ecmdocs/ECMP1196817/html/vserver/fpolicy/policy/scope/create.html)
+article.
 
 ## Enable the Empty FPolicy
 
@@ -338,4 +376,7 @@ vserver fpolicy show
 
 ![validatefpolicyenabled](../../../../static/img/product_docs/accessanalyzer/config/netappcmode/validatefpolicyenabled.webp)
 
-Relevant NetApp Documentation: To learn more about enabling a policy, please visit the NetApp website and read the [vserver fpolicy enable](https://library.netapp.com/ecmdocs/ECMP1196817/html/vserver/fpolicy/enable.html) article.
+Relevant NetApp Documentation: To learn more about enabling a policy, please visit the NetApp
+website and read the
+[vserver fpolicy enable](https://library.netapp.com/ecmdocs/ECMP1196817/html/vserver/fpolicy/enable.html)
+article.

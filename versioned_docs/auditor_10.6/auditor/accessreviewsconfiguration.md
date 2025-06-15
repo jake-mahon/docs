@@ -9,40 +9,42 @@ You can configure Netwrix Auditor Access Reviews in two ways:
 
 ## Select Data Sources in the General Settings
 
-If you plan to use Access Reviews for multiple data sources, configure the settings to work with the data sources that you select.
+If you plan to use Access Reviews for multiple data sources, configure the settings to work with the
+data sources that you select.
 
 Follow the steps to configure Access Reviews in the Netwrix Auditor.
 
-__Step 1 –__ Go to __Settings > General > Access Reviews__.
+**Step 1 –** Go to **Settings > General > Access Reviews**.
 
 ![senddataar](/img/versioned_docs/auditor_10.6/auditor/senddataar.png)
 
-__Step 2 –__ Click __Manage__.
+**Step 2 –** Click **Manage**.
 
 ![manageaccessreviews](/img/versioned_docs/auditor_10.6/auditor/manageaccessreviews.png)
 
-__Step 3 –__ Select the desired data sources to review.
+**Step 3 –** Select the desired data sources to review.
 
-__Step 4 –__ Click __Save__.
+**Step 4 –** Click **Save**.
 
 Netwrix Auditor Access Reviews is configured and ready to use in the Netwrix Auditor.
 
 ## Select Data Sources in the Monitoring Plan
 
-If you plan to use Access Reviews for a specific monitoring plan, configure Access Reviews in that monitoring plan.
+If you plan to use Access Reviews for a specific monitoring plan, configure Access Reviews in that
+monitoring plan.
 
 Follow the steps to configure Access Reviews in the Netwrix Auditor.
 
-__Step 1 –__ Go to __Configuration > Monitoring plans__.
+**Step 1 –** Go to **Configuration > Monitoring plans**.
 
-__Step 2 –__ Double click the desired monitoring plan.
+**Step 2 –** Double click the desired monitoring plan.
 
-__Step 3 –__ Click __Edit data source__ button on the left.
+**Step 3 –** Click **Edit data source** button on the left.
 
 ![enablear](/img/versioned_docs/auditor_10.6/auditor/enablear.png)
 
-__Step 4 –__ Navigate to the Send data for Access Reviews and select the checkbox.
+**Step 4 –** Navigate to the Send data for Access Reviews and select the checkbox.
 
-__Step 5 –__ Click __Save__ or __Save & Close__.
+**Step 5 –** Click **Save** or **Save & Close**.
 
 Netwrix Auditor Access Reviews is configured and ready to use in the Netwrix Auditor.

@@ -2,16 +2,18 @@
 
 Follow the steps to configure Event Log maximum size:
 
-__Step 1 –__ On your file server, create a new file system where the security log will be stored.
+**Step 1 –** On your file server, create a new file system where the security log will be stored.
 
-__Step 2 –__ Mount this file system on a mount point, e.g., __/events__.
+**Step 2 –** Mount this file system on a mount point, e.g., **/events**.
 
-__Step 3 –__ Make sure that it is accessible via the __\\`<file_server_name>`\C$\events__ UNC path.
+**Step 3 –** Make sure that it is accessible via the **\\`<file_server_name>`\C$\events** UNC path.
 
-__Step 4 –__ On the computer where Auditor Server is installed, open __Registry Editor__: navigate to __Start → Run__ and type _"regedit"_.
+**Step 4 –** On the computer where Auditor Server is installed, open **Registry Editor**: navigate
+to **Start → Run** and type _"regedit"_.
 
-__Step 5 –__ Navigate to __File → Connect Network Registry__ and specify the file server name.
+**Step 5 –** Navigate to **File → Connect Network Registry** and specify the file server name.
 
-__Step 6 –__ Navigate to __HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\EventLog\Security__ and set the __File__ value to _"C:\events\security.evt"_.
+**Step 6 –** Navigate to **HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\EventLog\Security**
+and set the **File** value to _"C:\events\security.evt"_.
 
-__Step 7 –__  Set the __MaxSize__ value to _"4 000 000 000 (decimal)"_.
+**Step 7 –** Set the **MaxSize** value to _"4 000 000 000 (decimal)"_.

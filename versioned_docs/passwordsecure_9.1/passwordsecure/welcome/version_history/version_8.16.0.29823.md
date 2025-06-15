@@ -28,7 +28,8 @@
 
 #### Web Application
 
-- Creating a role when creating an organisational unit is not possible without the "Can create role" right anymore.
+- Creating a role when creating an organisational unit is not possible without the "Can create role"
+  right anymore.
 - Removed structure view in certain modules.
 
 #### Server Manager

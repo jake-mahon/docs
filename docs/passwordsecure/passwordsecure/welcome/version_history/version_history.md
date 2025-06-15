@@ -1,6 +1,7 @@
 # Version History
 
-The previously released versions and the corresponding changelogs can be found in the following sections.
+The previously released versions and the corresponding changelogs can be found in the following
+sections.
 
 - [Version 9.2.1.32530](version_9.2.1.32530.md)
 

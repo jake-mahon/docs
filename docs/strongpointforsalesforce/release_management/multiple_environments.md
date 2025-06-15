@@ -1,34 +1,45 @@
 # Multiple Environment Deployments
 
-Multiple Environment Deployment Tracking helps you manage changes between your Production and Development/Testing .
+Multiple Environment Deployment Tracking helps you manage changes between your Production and
+Development/Testing .
 
-With multiple environment deployment tracking, you can push, pull and access your change requests in all your environments that have Platform Governance for Salesforce installed. This alleviates the risk of breaking your production account. By documenting and validating the change process through change requests, deployment records and environment comparison, multiple environment deployment tracking enables you to access change requests in any environment where Platform Governance for Salesforce is installed, and to deploy changes and promote code from one environment to another.
+With multiple environment deployment tracking, you can push, pull and access your change requests in
+all your environments that have Platform Governance for Salesforce installed. This alleviates the
+risk of breaking your production account. By documenting and validating the change process through
+change requests, deployment records and environment comparison, multiple environment deployment
+tracking enables you to access change requests in any environment where Platform Governance for
+Salesforce is installed, and to deploy changes and promote code from one environment to another.
 
 ## Push/Pull Change Requests
 
-1. Open __Change Requests__ and locate the completed change request to push/pull.
+1. Open **Change Requests** and locate the completed change request to push/pull.
 
-   ![Open Completed Change Request](../../../static/img/product_docs/strongpointforsalesforce/release_management/push_pullcr-1.webp)
+    ![Open Completed Change Request](../../../static/img/product_docs/strongpointforsalesforce/release_management/push_pullcr-1.webp)
+
 2. Edit the change request and add all necessary details.
 
-   ![Edit the Change Request](../../../static/img/product_docs/strongpointforsalesforce/release_management/push_pull_cr.webp)
-3. Click on __Sync CR__.
+    ![Edit the Change Request](../../../static/img/product_docs/strongpointforsalesforce/release_management/push_pull_cr.webp)
 
-   ![Sync the Change Request](../../../static/img/product_docs/strongpointforsalesforce/release_management/push_pull_sync_cr.webp)
-4. Choose a __Saved Environment__, where you are planning to push or pull the Change Request.
-5. Add your __Credentials__.
+3. Click on **Sync CR**.
 
-   ![Enter Credentials](../../../static/img/product_docs/strongpointforsalesforce/release_management/push_pull_popup.webp)
-6. Click on __Test Connection__ to make sure your credentials are correct. If your credentials are not correct, you can click on __Save Credentials__ and edit.
+    ![Sync the Change Request](../../../static/img/product_docs/strongpointforsalesforce/release_management/push_pull_sync_cr.webp)
+
+4. Choose a **Saved Environment**, where you are planning to push or pull the Change Request.
+5. Add your **Credentials**.
+
+    ![Enter Credentials](../../../static/img/product_docs/strongpointforsalesforce/release_management/push_pull_popup.webp)
+
+6. Click on **Test Connection** to make sure your credentials are correct. If your credentials are
+   not correct, you can click on **Save Credentials** and edit.
 
 ### Push the Change Request
 
 To push a change request into another environment:
 
-1. Click __Push__.
-2. Click  __Push CR__.
+1. Click **Push**.
+2. Click **Push CR**.
 
-   ![pushcr](../../../static/img/product_docs/strongpointforsalesforce/release_management/pushcr.webp)
+    ![pushcr](../../../static/img/product_docs/strongpointforsalesforce/release_management/pushcr.webp)
 
 Your Change Request is pushed to your selected environment.
 
@@ -36,13 +47,16 @@ Your Change Request is pushed to your selected environment.
 
 To pull a change request from the selected environment:
 
-1. Select __Pull__
-2. Click on __Get Change Requests__
+1. Select **Pull**
+2. Click on **Get Change Requests**
 
-   ![pullcr](../../../static/img/product_docs/strongpointforsalesforce/release_management/pullcr.webp)
+    ![pullcr](../../../static/img/product_docs/strongpointforsalesforce/release_management/pullcr.webp)
+
 3. Add the change requests you want to pull from the selected environment.
 
-   ![pullchangerequest](../../../static/img/product_docs/strongpointforsalesforce/release_management/pullchangerequest.webp)
-4. Click __Pull Change Request.__
+    ![pullchangerequest](../../../static/img/product_docs/strongpointforsalesforce/release_management/pullchangerequest.webp)
 
-The parent change request is the one you pull from and when the change request is pulled, it becomes a child of the original change request.
+4. Click **Pull Change Request.**
+
+The parent change request is the one you pull from and when the change request is pulled, it becomes
+a child of the original change request.

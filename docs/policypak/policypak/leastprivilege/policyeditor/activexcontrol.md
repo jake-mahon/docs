@@ -1,6 +1,9 @@
 # How do I install an Active X control if it is not digitally signed?
 
-When an ActiveX control is digitally signed, and you use Netwrix Endpoint Policy Manager (formerly PolicyPak) Least Privilege Manager to deliver a rule to enable the ActiveX install, Internet Explorer (or IE mode in Edge) will permit the install. Here's an example of a rule where the item has a rule for the URL and for the Signature.
+When an ActiveX control is digitally signed, and you use Netwrix Endpoint Policy Manager (formerly
+PolicyPak) Least Privilege Manager to deliver a rule to enable the ActiveX install, Internet
+Explorer (or IE mode in Edge) will permit the install. Here's an example of a rule where the item
+has a rule for the URL and for the Signature.
 
 ![859_1_image001_950x422](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/policyeditor/859_1_image001_950x422.webp)
 
@@ -14,36 +17,41 @@ You will get an experience like this…
 
 ![859_3_image004_950x557](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/policyeditor/859_3_image004_950x557.webp)
 
-To overcome this, you need to decrease the security for Internet Explorer. You do this with Group Policy or Endpoint Policy Manager Cloud.
+To overcome this, you need to decrease the security for Internet Explorer. You do this with Group
+Policy or Endpoint Policy Manager Cloud.
 
-Go to __User__ (or Computer) __Admin templates__ > __Windows Components__ > __Internet Explorer__ > __Internet Control Panel__
+Go to **User** (or Computer) **Admin templates** > **Windows Components** > **Internet Explorer** >
+**Internet Control Panel**
 
 ![859_4_image005_950x656](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/policyeditor/859_4_image005_950x656.webp)
 
 Then locate pick the Trusted Sites Zone.
 
-__CAUTION:__ Note that you are explicitly telling Internet Explorer to reducethe security here in order to enable your unsigned ActiveX control to be installed.
+**CAUTION:** Note that you are explicitly telling Internet Explorer to reducethe security here in
+order to enable your unsigned ActiveX control to be installed.
 
 ![859_5_image007_950x362](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/policyeditor/859_5_image007_950x362.webp)
 
 Lastly, you have to add the site to be trusted. You have a few options on how to perform this:
 
-__Step 1 –__ Explain to a user how to do it this one time on their PC.
+**Step 1 –** Explain to a user how to do it this one time on their PC.
 
 - Pro: good for one-off.
 - Con: Hard to explain to a user. Bad for having to do it for lots of users.
 
-__Step 2 –__ Use GPPreferences to add it as a trusted site.
+**Step 2 –** Use GPPreferences to add it as a trusted site.
 
 - Pro: Easy to set up.
 - Con: Wipes out other trusted sites.
 
-__Step 3 –__ Use Endpoint Policy Manager Application Settings Manager to add it as a trusted site.
+**Step 3 –** Use Endpoint Policy Manager Application Settings Manager to add it as a trusted site.
 
 - Pro: Will perform a merge of the existing sites if you want.
-- Con: Need to be licensed for the Apps, Browser and Java Pak along with Endpoint Policy Manager Least Privilege ManagerPak.
+- Con: Need to be licensed for the Apps, Browser and Java Pak along with Endpoint Policy Manager
+  Least Privilege ManagerPak.
 
-The goal is to get IE to recognize the URL to get into the Trusted Zone like this. (This is the RESULT of performing Option 1, Option 2 or Option 3 above.)
+The goal is to get IE to recognize the URL to get into the Trusted Zone like this. (This is the
+RESULT of performing Option 1, Option 2 or Option 3 above.)
 
 ![859_6_image008_450x602](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/policyeditor/859_6_image008_450x602.webp)
 

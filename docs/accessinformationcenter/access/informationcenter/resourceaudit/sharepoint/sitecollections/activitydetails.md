@@ -1,8 +1,12 @@
 # Activity Details Report
 
-The Activity Details report at the site collection, site, list, library, and folder levels provides statistical activity event information by user on the selected server during the specified date range. This report includes a line graph for Active Users Trend.
+The Activity Details report at the site collection, site, list, library, and folder levels provides
+statistical activity event information by user on the selected server during the specified date
+range. This report includes a line graph for Active Users Trend.
 
-The __Include subfolders__ option is active by default until removed. See the [Results Pane](../../navigate/overview.md#results-pane) topic for information on changing this option.
+The **Include subfolders** option is active by default until removed. See the
+[Results Pane](../../navigate/overview.md#results-pane) topic for information on changing this
+option.
 
 ![Activity Details report at the site collection, site, list, library, and folder levels](../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/sharepoint/sitecollections/siteactivitydetails.webp)
 
@@ -22,17 +26,23 @@ This report is comprised of the following columns:
 - Deleted – True or False if trustee account is deleted
 - Resource – Resource type being accessed
 - Operation – Name of operation logged
-- Access – Whether the trustee was granted access to execute the operation: __Allowed__ or __Denied__
+- Access – Whether the trustee was granted access to execute the operation: **Allowed** or
+  **Denied**
 - Path – Original location where the operation occurred
-- Target Path – New location if changed by the operation. Blank if the operation does not result in a new path.
+- Target Path – New location if changed by the operation. Blank if the operation does not result in
+  a new path.
 - Process Name – Name of the process which performed the operation
 
-The table data grid functions the same way as other table grids. See the [Data Grid Features](../../../../general/datagrid.md) topic for additional information.
+The table data grid functions the same way as other table grids. See the
+[Data Grid Features](../../../../general/datagrid.md) topic for additional information.
 
 There is one line graph at the bottom displaying the Active Users Trend for the selected event.
 
 ![Active Users Trend graph](../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/sharepoint/sitecollections/siteactivitydetailstrendgraph.webp)
 
-The line graph provides a visual representation of the number of active users over the selected date range. It indicates how many users are performing activity per day.
+The line graph provides a visual representation of the number of active users over the selected date
+range. It indicates how many users are performing activity per day.
 
-See the [Activity Report Results Pane Features](../../navigate/overview.md#activity-report-results-pane-features) topic for instructions on filtering the trend graph.
+See the
+[Activity Report Results Pane Features](../../navigate/overview.md#activity-report-results-pane-features)
+topic for instructions on filtering the trend graph.

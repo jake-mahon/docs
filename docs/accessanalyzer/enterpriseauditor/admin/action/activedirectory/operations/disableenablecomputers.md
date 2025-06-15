@@ -1,6 +1,7 @@
 # Disable/Enable Computers
 
-Use the (Disable/Enable Computers page to configure the action to enable or disable users' operation options on target computers.
+Use the (Disable/Enable Computers page to configure the action to enable or disable users' operation
+options on target computers.
 
 ![Active Directory Action Module Wizard Disable/Enable Computers page](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/activedirectory/operations/disableenablecomputers.webp)
 

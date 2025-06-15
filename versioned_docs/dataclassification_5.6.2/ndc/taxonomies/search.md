@@ -1,22 +1,35 @@
 # Search Documents by Clue
 
-You can search for documents based on the class clues. For that, click on the name of any single clue in the clue list in the management console (or even any suggested clue), go to the __Search__ tab and configure search settings.
+You can search for documents based on the class clues. For that, click on the name of any single
+clue in the clue list in the management console (or even any suggested clue), go to the **Search**
+tab and configure search settings.
 
 ![searchtab](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/searchtab.png)
 
 1. Set up the following properties that will be considered a basis for the search:
 
-   - Clue type – Select the required value from the __Type__ list
-   - Clue itself (clue body) – Enter the required keyword or phrase in the __Find__ field
+    - Clue type – Select the required value from the **Type** list
+    - Clue itself (clue body) – Enter the required keyword or phrase in the **Find** field
 
-   __NOTE:__ See the [Classification Rules (Clues)](/versioned_docs/dataclassification_5.6.2/ndc/taxonomies/clues.md) topic for additional information
-2. To restrict the search further, you can either add a __URL__ filter, or add a custom filter by clicking __Add custom filter__ link. This can be helpful when evaluating the usefulness of a clue by quickly examining its usage within the corpus. Consider the following:
+    **NOTE:** See the
+    [Classification Rules (Clues)](/versioned_docs/dataclassification_5.6.2/ndc/taxonomies/clues.md)
+    topic for additional information
 
-   - The URL filter must end on a folder boundary.
-   - Use custom filter to specify a number of complex filters: boolean, datetime and numeric.
+2. To restrict the search further, you can either add a **URL** filter, or add a custom filter by
+   clicking **Add custom filter** link. This can be helpful when evaluating the usefulness of a clue
+   by quickly examining its usage within the corpus. Consider the following:
 
-   __NOTE:__ Full description of all filters can be found in the API Reference Guide. You can access it by entering http://localhost/NDC/apidocumentation from your NDC server. If the originally installed version of NDC is 5.6 or older, the path is http://localhost/conceptqs/apidocumentation.
-3. To view how recent changes to the term will affect the document classifications, select Show document movements. As a result, the “movement” of the document since the last classification will be shown. Possible scenarios are:
+    - The URL filter must end on a folder boundary.
+    - Use custom filter to specify a number of complex filters: boolean, datetime and numeric.
+
+    **NOTE:** Full description of all filters can be found in the API Reference Guide. You can
+    access it by entering http://localhost/NDC/apidocumentation from your NDC server. If the
+    originally installed version of NDC is 5.6 or older, the path is
+    http://localhost/conceptqs/apidocumentation.
+
+3. To view how recent changes to the term will affect the document classifications, select Show
+   document movements. As a result, the “movement” of the document since the last classification
+   will be shown. Possible scenarios are:
 
 ![movementskey](/img/versioned_docs/dataclassification_5.6.2/ndc/taxonomies/movementskey.png)
 

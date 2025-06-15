@@ -1,6 +1,7 @@
 # Application Maintenance and Best Practices
 
-The following topics contain information needed for application maintenance and troubleshooting for the Access Analyzer Console:
+The following topics contain information needed for application maintenance and troubleshooting for
+the Access Analyzer Console:
 
 - [Antivirus Exclusions](antivirusexclusions.md)
 - [Updating Passwords](updatepasswords.md)

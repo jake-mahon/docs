@@ -1,14 +1,20 @@
 # For Resource Update (Multi Records)
 
-This section guides you through the procedure for the creation of a workflow to update an existing resource through its several records.
+This section guides you through the procedure for the creation of a workflow to update an existing
+resource through its several records.
 
 ## Declare a Workflow
 
-This [workflow](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/workflows/workflow/index.md) is made of three activities:
+This
+[workflow](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/workflows/workflow/index.md)
+is made of three activities:
 
-1. [```ActionWithRefine```](/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/activity-templates/index.md#actionwithrefine): sends the resource's records update request with a possibility of delegation.
-2. [```ReviewWithFeedback```](/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/activity-templates/index.md#reviewwithfeedback): reviews the update request with the possibility of getting feedback from another user.
-3. [```Persist```](/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/activity-templates/index.md#persist): saves the collected data and triggers provisioning.
+1. [`ActionWithRefine`](/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/activity-templates/index.md#actionwithrefine):
+   sends the resource's records update request with a possibility of delegation.
+2. [`ReviewWithFeedback`](/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/activity-templates/index.md#reviewwithfeedback):
+   reviews the update request with the possibility of getting feedback from another user.
+3. [`Persist`](/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/activity-templates/index.md#persist):
+   saves the collected data and triggers provisioning.
 
 The example below creates a workflow to update the records of an existing user:
 
@@ -20,7 +26,9 @@ The example below creates a workflow to update the records of an existing user:
 
 ## Create Forms
 
-The XML configuration below represents the creation of a [form](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/form/index.md) that defines the elements to display in the workflow.
+The XML configuration below represents the creation of a
+[form](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/form/index.md)
+that defines the elements to display in the workflow.
 
 Here we create three structured forms, all to be called in our final workflow form:
 
@@ -36,7 +44,12 @@ Second form for the user's record data, specific to each record individually:
 
 ## Link the Forms to the Workflow
 
-After creating a workflow with given activities, it is necessary to create the form to be displayed when launching the workflow. It has the type corresponding to a resource's update with several records, i.e. ```WorkflowUpdateSeveralRecordEntityForm``` and it must specify the workflow's context (the entity type of the involved resources, the main property, the activity when the form is called, etc. [see more details](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/form/index.md)):
+After creating a workflow with given activities, it is necessary to create the form to be displayed
+when launching the workflow. It has the type corresponding to a resource's update with several
+records, i.e. `WorkflowUpdateSeveralRecordEntityForm` and it must specify the workflow's context
+(the entity type of the involved resources, the main property, the activity when the form is called,
+etc.
+[see more details](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/form/index.md)):
 
 ```
 
@@ -44,11 +57,12 @@ After creating a workflow with given activities, it is necessary to create the f
 
 ```
 
-```WorkflowUpdateSeveralRecordEntityForm``` displays a date picker for the end of transition, to schedule the record replacement.
+`WorkflowUpdateSeveralRecordEntityForm` displays a date picker for the end of transition, to
+schedule the record replacement.
 
-A ```WorkflowUpdateSeveralRecordEntityForm``` requires the following child elements:
+A `WorkflowUpdateSeveralRecordEntityForm` requires the following child elements:
 
-- ```MainControl``` that defines user's data;
+- `MainControl` that defines user's data;
 
 ```
 
@@ -58,9 +72,11 @@ A ```WorkflowUpdateSeveralRecordEntityForm``` requires the following child eleme
 
 ```
 
-The ```MainControl``` attribute is here an empty container, because it is a mandatory attribute that is not involved in the changes of this workflow.
+The `MainControl` attribute is here an empty container, because it is a mandatory attribute that is
+not involved in the changes of this workflow.
 
-- ```RecordControl``` that defines the record data shared with all records and calls the firstform created previously;
+- `RecordControl` that defines the record data shared with all records and calls the firstform
+  created previously;
 
 ```
 
@@ -70,7 +86,8 @@ The ```MainControl``` attribute is here an empty container, because it is a mand
 
 ```
 
-- ```RecordUniqueItemControl``` that defines the record data specific to each record individually, and calls the secondform created previously;
+- `RecordUniqueItemControl` that defines the record data specific to each record individually, and
+  calls the secondform created previously;
 
 ```
 
@@ -80,7 +97,9 @@ The ```MainControl``` attribute is here an empty container, because it is a mand
 
 ```
 
-- ```RecordSlaveControl``` that copies an existing record to be the base, i.e. pre-fill the fields, for the update of record data specific to each record individually. Thus it calls the same form as ```RecordUniqueItemControl```.
+- `RecordSlaveControl` that copies an existing record to be the base, i.e. pre-fill the fields, for
+  the update of record data specific to each record individually. Thus it calls the same form as
+  `RecordUniqueItemControl`.
 
 ```
 
@@ -90,7 +109,9 @@ The ```MainControl``` attribute is here an empty container, because it is a mand
 
 ```
 
-- ```RecordSlaveUniqueItemControl``` that copies an existing record to be the base, i.e. pre-fill the fields, for the update of record data shared with all records. Thus it calls the same form as ```RecordControl```.
+- `RecordSlaveUniqueItemControl` that copies an existing record to be the base, i.e. pre-fill the
+  fields, for the update of record data shared with all records. Thus it calls the same form as
+  `RecordControl`.
 
 ```
 
@@ -100,16 +121,19 @@ The ```MainControl``` attribute is here an empty container, because it is a mand
 
 ```
 
-The ```RecordSlaveControl``` attribute calls here the same form as ```RecordUniqueControl```, because it copies part of the main record to pre-fill the fields of ```RecordUniqueControl```.
+The `RecordSlaveControl` attribute calls here the same form as `RecordUniqueControl`, because it
+copies part of the main record to pre-fill the fields of `RecordUniqueControl`.
 
 ![UI Form](/img/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/how-to/workflow-update-multi/howto_resourceupdatemulti_form_v603.png)
 
 ## Assign the Right Permissions
 
-Some profiles must get specific permissions so that the workflow is visible and usable by the right users.
-Read about [workflows' permissions](/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/index.md).
+Some profiles must get specific permissions so that the workflow is visible and usable by the right
+users. Read about
+[workflows' permissions](/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/index.md).
 
-Below is an example of an access control rule where the ```Administrator``` profile gets the permissions for the whole update request from the previously created workflow:
+Below is an example of an access control rule where the `Administrator` profile gets the permissions
+for the whole update request from the previously created workflow:
 
 ```
 
@@ -119,13 +143,17 @@ Below is an example of an access control rule where the ```Administrator``` prof
 
 ## Create Menu Items in the UI
 
-[Menu items](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/menuitem/index.md) must be defined to make the workflow accessible in the UI.
+[Menu items](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/menuitem/index.md)
+must be defined to make the workflow accessible in the UI.
 
-Updating an existing resource, this workflow manages one given resource at a time. Hence an interesting location for this workflow could be the individual view page of users.
+Updating an existing resource, this workflow manages one given resource at a time. Hence an
+interesting location for this workflow could be the individual view page of users.
 
 ![Workflow Menu Items - User's Page](/img/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/how-to/workflow-update-mono/menuitems_userview_v603.png)
 
-To create a menu item here for the new workflow, you can add the following XML configuration to the existing [menu items list](/versioned_docs/usercube_6.1/usercube/integration-guide/ui/how-tos/create-menu-items/index.md):
+To create a menu item here for the new workflow, you can add the following XML configuration to the
+existing
+[menu items list](/versioned_docs/usercube_6.1/usercube/integration-guide/ui/how-tos/create-menu-items/index.md):
 
 ```
 
@@ -137,14 +165,19 @@ To create a menu item here for the new workflow, you can add the following XML c
 
 ## Add Aspects
 
-For each workflow, it is possible to add [aspects](/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/index.md#aspects) according to the workflow's purpose.
+For each workflow, it is possible to add
+[aspects](/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/index.md#aspects)
+according to the workflow's purpose.
 
 ## Homonym Detection (Optional)
 
-To perform a homonymy check on a workflow and thus prevent user duplicates, read [how to configure a homonym detection](/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/how-to/configure-homonym-test/index.md).
+To perform a homonymy check on a workflow and thus prevent user duplicates, read
+[how to configure a homonym detection](/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/how-to/configure-homonym-test/index.md).
 
-When using records, the homonym detection displays the list of records and not just the list of users.
+When using records, the homonym detection displays the list of records and not just the list of
+users.
 
 ## Customize the Display Table (Optional)
 
-To configure a display table different from the default one provided by Usercube, read [how to configure a display table](/versioned_docs/usercube_6.1/usercube/integration-guide/ui/how-tos/custom-display-table/index.md).
+To configure a display table different from the default one provided by Usercube, read
+[how to configure a display table](/versioned_docs/usercube_6.1/usercube/integration-guide/ui/how-tos/custom-display-table/index.md).

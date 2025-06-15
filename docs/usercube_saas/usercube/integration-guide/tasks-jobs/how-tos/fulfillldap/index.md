@@ -1,6 +1,7 @@
 # Configure the Fulfill Task for a Connector
 
-This guide shows how to create the adequate configuration to add the fulfill task of a given system (here LDAP) in a job.
+This guide shows how to create the adequate configuration to add the fulfill task of a given system
+(here LDAP) in a job.
 
 For Identity Manager fill an LDAP some configuration element are necessary.
 
@@ -21,9 +22,8 @@ This configuration is to use the fill for the LDAP and configure the Reset Passw
 
 ## Add connection information to AD Connect
 
-The [
-LDAP
-](../../../connectors/references-connectors/ldap/index.md) connection information define this section to add all information to use the AD Fulfillment.
+The [ LDAP ](../../../connectors/references-connectors/ldap/index.md) connection information define
+this section to add all information to use the AD Fulfillment.
 
 ```
 appsettings.agent.json
@@ -47,13 +47,13 @@ appsettings.agent.json
 }
 ```
 
-After defining this settings, encrypt this JSON file with [
-Usercube-Protect-X509JsonFile
-](../../../executables/references/protect-x509jsonfile/index.md).
+After defining this settings, encrypt this JSON file with
+[ Usercube-Protect-X509JsonFile ](../../../executables/references/protect-x509jsonfile/index.md).
 
 ## Configure The FulfillTask
 
-Configure The task with the same ResourceType using in ResourceTypeMapping. It's possible to use a connector instead of ResourceType.
+Configure The task with the same ResourceType using in ResourceTypeMapping. It's possible to use a
+connector instead of ResourceType.
 
 ```
 

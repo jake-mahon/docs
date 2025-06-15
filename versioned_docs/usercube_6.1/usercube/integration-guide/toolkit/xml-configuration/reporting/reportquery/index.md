@@ -1,6 +1,8 @@
 # ReportQuery
 
-Allows the user to define queries to generate a report in a CSV file. When creating a new ReportQuery it is recommended to also create the linked [MenuItem](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/menuitem/index.md).
+Allows the user to define queries to generate a report in a CSV file. When creating a new
+ReportQuery it is recommended to also create the linked
+[MenuItem](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/menuitem/index.md).
 
 ## Examples
 
@@ -16,9 +18,9 @@ Allows the user to define queries to generate a report in a CSV file. When creat
 
 ## Properties
 
-| Property | Details |
-| --- | --- |
-| DisplayName_L1   required | __Type__    String   __Description__   Display name of the report query in language 1 (up to 16). |
-| Identifier   required | __Type__    String   __Description__   Report query Identifier. |
-| Query   required | __Type__    String   __Description__   The report query written following Usercube EBNF Grammar rules. |
-| ReturnedEntityType   required | __Type__    Int64   __Description__   Returned Entity Type ID. The entity type can be seen as the FROM of a sql query. |
+| Property                    | Details                                                                                                         |
+| --------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| DisplayName_L1 required     | **Type** String **Description** Display name of the report query in language 1 (up to 16).                      |
+| Identifier required         | **Type** String **Description** Report query Identifier.                                                        |
+| Query required              | **Type** String **Description** The report query written following Usercube EBNF Grammar rules.                 |
+| ReturnedEntityType required | **Type** Int64 **Description** Returned Entity Type ID. The entity type can be seen as the FROM of a sql query. |

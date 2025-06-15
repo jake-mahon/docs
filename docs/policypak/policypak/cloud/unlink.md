@@ -4,14 +4,14 @@
 
 To remove all the Example policies at once perform the following steps.
 
-__Step 1 –__ Select the __All__ group.
+**Step 1 –** Select the **All** group.
 
 ![799_2_image-20201230211039-2](../../../../static/img/product_docs/policypak/policypak/cloud/799_2_image-20201230211039-2.webp)
 
-__Step 2 –__ Under __Actions__ select __Link XML Here__.
+**Step 2 –** Under **Actions** select **Link XML Here**.
 
-__Step 3 –__ Place a check mark in the box in top left next to __Description__ to select everything.
+**Step 3 –** Place a check mark in the box in top left next to **Description** to select everything.
 
-__Step 4 –__ Click __Remove__.
+**Step 4 –** Click **Remove**.
 
 ![799_3_image-20201230211039-3](../../../../static/img/product_docs/policypak/policypak/cloud/799_3_image-20201230211039-3.webp)

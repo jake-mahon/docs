@@ -1,28 +1,48 @@
 # Logon Activity
 
-Netwrix Auditor relies on native logs for collecting audit data. Therefore, successful change and access auditing requires a certain configuration of native audit settings in the audited environment and on the Auditor console computer. Configuring your IT infrastructure may also include enabling certain built-in Windows services, etc. Proper audit configuration is required to ensure audit data integrity, otherwise your change reports may contain warnings, errors or incomplete audit data.
+Netwrix Auditor relies on native logs for collecting audit data. Therefore, successful change and
+access auditing requires a certain configuration of native audit settings in the audited environment
+and on the Auditor console computer. Configuring your IT infrastructure may also include enabling
+certain built-in Windows services, etc. Proper audit configuration is required to ensure audit data
+integrity, otherwise your change reports may contain warnings, errors or incomplete audit data.
 
-__CAUTION:__ Folder associated with Netwrix Auditor must be excluded from antivirus scanning. See the [Antivirus Exclusions for Netwrix Auditor](https://helpcenter.netwrix.com/bundle/z-kb-articles-salesforce/page/kA04u0000000HirCAE.html) knowledge base article for additional information.
+**CAUTION:** Folder associated with Netwrix Auditor must be excluded from antivirus scanning. See
+the
+[Antivirus Exclusions for Netwrix Auditor](https://helpcenter.netwrix.com/bundle/z-kb-articles-salesforce/page/kA04u0000000HirCAE.html)
+knowledge base article for additional information.
 
 You can configure your IT Infrastructure for monitoring in one of the following ways:
 
-- Automatically through a monitoring plan – This is a recommended method. If you select to automatically configure audit in the target environment, your current audit settings will be checked on each data collection and adjusted if necessary.
+- Automatically through a monitoring plan – This is a recommended method. If you select to
+  automatically configure audit in the target environment, your current audit settings will be
+  checked on each data collection and adjusted if necessary.
 
-  - For both new and existing monitoring plans, you can click __Launch Audit Configuration Assistant__ (in the wizard step or in the plan settings, respectively) to launch a special tool that can detect current infrastructure settings and adjust them as needed for monitoring. See the [Audit Configuration Assistant](../../tools/auditconfigurationassistant.md) topic for additional information.
-- Manually – Native audit settings must be adjusted manually to ensure collecting comprehensive and reliable audit data. You can enable Auditor to continually enforce the relevant audit policies or configure them manually:
+    - For both new and existing monitoring plans, you can click **Launch Audit Configuration
+      Assistant** (in the wizard step or in the plan settings, respectively) to launch a special
+      tool that can detect current infrastructure settings and adjust them as needed for monitoring.
+      See the [Audit Configuration Assistant](../../tools/auditconfigurationassistant.md) topic for
+      additional information.
 
-  - The following policies must be set to _"Success"_ and _"Failure"_ for the effective domain controllers policy:
+- Manually – Native audit settings must be adjusted manually to ensure collecting comprehensive and
+  reliable audit data. You can enable Auditor to continually enforce the relevant audit policies or
+  configure them manually:
 
-    - Audit Logon Events
-    - Audit Account Logon Events
-  - The Audit system events policy must be set to _"Success"_ for the effective domain controllers policy.
-  - The Advanced audit policy settings can be configured instead of basic.
-  - The Maximum Security event log size must be set to 4GB. The retention method of the Security event log must be set to _“Overwrite events as needed”_ or _"Archive the log when full"_.
-  - The following Windows Firewall inbound rules must be enabled:
+    - The following policies must be set to _"Success"_ and _"Failure"_ for the effective domain
+      controllers policy:
 
-    - Remote Event Log Management (NP-In)
-    - Remote Event Log Management (RPC)
-    - Remote Event Log Management (RPC-EPMAP)
+        - Audit Logon Events
+        - Audit Account Logon Events
+
+    - The Audit system events policy must be set to _"Success"_ for the effective domain controllers
+      policy.
+    - The Advanced audit policy settings can be configured instead of basic.
+    - The Maximum Security event log size must be set to 4GB. The retention method of the Security
+      event log must be set to _“Overwrite events as needed”_ or _"Archive the log when full"_.
+    - The following Windows Firewall inbound rules must be enabled:
+
+        - Remote Event Log Management (NP-In)
+        - Remote Event Log Management (RPC)
+        - Remote Event Log Management (RPC-EPMAP)
 
 See the following topics for additional information:
 
@@ -35,7 +55,7 @@ See the following topics for additional information:
 
 Review a full list of actions captured when monitoring Logon Activity with Netwrix Auditor.
 
-__NOTE:__ Please consider the following:
+**NOTE:** Please consider the following:
 
 - Logon activity by local accounts is not reported
 - Logoff activity from workstations is not reported
@@ -43,10 +63,10 @@ __NOTE:__ Please consider the following:
 
 For the attributes marked with asterisk (\*) _what_ changed is not reported.
 
-| Action | Object Type | Attributes |
-| --- | --- | --- |
-| Successful Logon | Logon | — |
-| Interactive Logon | A session was reconnected. |  |
-| Failed Logon | Logon\* | Cause description.  The number of matching events if the logon attempt failed several times during a short period of time. |
-| Interactive Logon |  |  |
-| Logoff | Interactive Logon | A session was disconnected.  Session duration (if the corresponding logon was found). |
+| Action            | Object Type                | Attributes                                                                                                                |
+| ----------------- | -------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| Successful Logon  | Logon                      | —                                                                                                                         |
+| Interactive Logon | A session was reconnected. |                                                                                                                           |
+| Failed Logon      | Logon\*                    | Cause description. The number of matching events if the logon attempt failed several times during a short period of time. |
+| Interactive Logon |                            |                                                                                                                           |
+| Logoff            | Interactive Logon          | A session was disconnected. Session duration (if the corresponding logon was found).                                      |

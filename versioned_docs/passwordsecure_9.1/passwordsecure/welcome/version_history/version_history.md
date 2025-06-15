@@ -1,6 +1,7 @@
 # Version History
 
-The previously released versions and the corresponding changelogs can be found in the following sections.
+The previously released versions and the corresponding changelogs can be found in the following
+sections.
 
 - [Version 9.1.3.31365](/versioned_docs/passwordsecure_9.1/passwordsecure/welcome/version_history/version_9.1.3.31365.md)
 

@@ -1,6 +1,7 @@
 # I'm using redirected folders and get un-expected results.
 
-Netwrix Endpoint Policy Manager (formerly PolicyPak) always tries to do it's "work" as SYSTEM first. In the case of Redirected Folders, the system doesn't have WRITE rights where you're redirecting to.
+Netwrix Endpoint Policy Manager (formerly PolicyPak) always tries to do it's "work" as SYSTEM first.
+In the case of Redirected Folders, the system doesn't have WRITE rights where you're redirecting to.
 
 ppUSER.log might show Error creating folder \fabrikam.comHome: [object Error]
 

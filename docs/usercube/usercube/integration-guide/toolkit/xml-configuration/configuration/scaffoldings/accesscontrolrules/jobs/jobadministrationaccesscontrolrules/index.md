@@ -1,6 +1,7 @@
 # Job Administration Access Control Rules
 
-Scaffolding to access the job administration page. This page is accessible from the administration part in dashboard of the user interface.
+Scaffolding to access the job administration page. This page is accessible from the administration
+part in dashboard of the user interface.
 
 ![Job Execution](../../../../../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/synchronization/home_jobexecution_v602.webp)
 
@@ -14,9 +15,9 @@ Scaffolding to access the job administration page. This page is accessible from 
 
 ## Properties
 
-| Property | Details |
-| --- | --- |
-| Profile   required | __Type__    String   __Description__   Identifier of the profile involved in the scaffolding. |
+| Property         | Details                                                                                |
+| ---------------- | -------------------------------------------------------------------------------------- |
+| Profile required | **Type** String **Description** Identifier of the profile involved in the scaffolding. |
 
 ## Generated XML
 

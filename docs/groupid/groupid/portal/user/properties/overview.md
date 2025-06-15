@@ -1,20 +1,27 @@
 # User Properties
 
-You can view and manipulate the properties of directory objects (users, mailboxes, and contacts) in the connected identity store, depending on the permissions the GroupID administrator has granted you.
+You can view and manipulate the properties of directory objects (users, mailboxes, and contacts) in
+the connected identity store, depending on the permissions the GroupID administrator has granted
+you.
 
-__You can:__
+**You can:**
 
-- Select the required object and click __Properties__ on the toolbar. The object's properties page is displayed.
-- Click __Save__ after making any changes in any properties' tab
-- Click __Delete__ to delete that user, contact, or mailbox.
-- Click __Add to Contacts__ on the toolbar. The portal creates the direct report's vCard and prompts you to save it on your machine. You can then use it to add the direct report's email address to your email contact list.
-- Click __Send email__ on the toolbar. This launches the default Windows email application for sending an email to the direct report.
+- Select the required object and click **Properties** on the toolbar. The object's properties page
+  is displayed.
+- Click **Save** after making any changes in any properties' tab
+- Click **Delete** to delete that user, contact, or mailbox.
+- Click **Add to Contacts** on the toolbar. The portal creates the direct report's vCard and prompts
+  you to save it on your machine. You can then use it to add the direct report's email address to
+  your email contact list.
+- Click **Send email** on the toolbar. This launches the default Windows email application for
+  sending an email to the direct report.
 - Click Reset Password to reset the password for the object.
-- Click __Organizational Hierarchy__ to view the hierarchy of the object.
+- Click **Organizational Hierarchy** to view the hierarchy of the object.
 
 ## User and Mailbox properties in Active Directory
 
-Following is the list of all the properties that Users and Mailbox Users have in Active Directory based identity store.
+Following is the list of all the properties that Users and Mailbox Users have in Active Directory
+based identity store.
 
 - [Object properties - General tab](activedirectory/general.md)
 - [Object properties - Organization tab](activedirectory/organization.md)
@@ -32,7 +39,8 @@ Following is the list of all the properties that Users and Mailbox Users have in
 
 ## User and Mailbox properties in Microsoft Entra ID
 
-Following is the list of all the properties that Users and Mailbox Users have in an Microsoft Entra ID based identity store.
+Following is the list of all the properties that Users and Mailbox Users have in an Microsoft Entra
+ID based identity store.
 
 - [User properties - Identity tab](azure/identity.md)
 - [User properties - Directory Role tab](azure/directoryrole.md)
@@ -45,7 +53,8 @@ Following is the list of all the properties that Users and Mailbox Users have in
 
 ## Contact properties
 
-Following is the list of all the properties that Contacts have in Active Directory based identity store.
+Following is the list of all the properties that Contacts have in Active Directory based identity
+store.
 
 NOTE: Contact object is not supported in Microsoft Entra ID.
 

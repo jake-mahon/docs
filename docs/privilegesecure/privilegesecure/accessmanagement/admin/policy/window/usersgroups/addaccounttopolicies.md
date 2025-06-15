@@ -1,12 +1,14 @@
 # Add Account to Policies Window
 
-The Add Account to Policies window provides a list of Policies that have been created. Policies are created in the [ Policy Interface](../../interface.md).
+The Add Account to Policies window provides a list of Policies that have been created. Policies are
+created in the [ Policy Interface](../../interface.md).
 
 ![usersgroupsaddaccounttopoliciespage](../../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/usersgroups/usersgroupsaddaccounttopoliciespage.webp)
 
 The window has the following features:
 
-- Search — Searches the table or list for matches to the search string. When matches are found, the table or list is filtered to the matching results.
+- Search — Searches the table or list for matches to the search string. When matches are found, the
+  table or list is filtered to the matching results.
 - Available Policies — Shows all available policies
 - Policies s to Add — Shows selected policies
 - Arrow icons — Use the arrows to move selection in and out of the Policies to Add section
@@ -24,16 +26,18 @@ Both tables have the following columns:
 
 Follow the steps below to add a policy to the present account.
 
-__Step 1 –__ Navigate to the Users & Groups page.
+**Step 1 –** Navigate to the Users & Groups page.
 
-__Step 2 –__ In the Users & Groups list, click the name of the desired account to open the User page.
+**Step 2 –** In the Users & Groups list, click the name of the desired account to open the User
+page.
 
-__Step 3 –__ Select the Policies tab.
+**Step 3 –** Select the Policies tab.
 
-__Step 4 –__ Click Add to open the Add Account to Policies window.
+**Step 4 –** Click Add to open the Add Account to Policies window.
 
-__Step 5 –__ Select a policy in the Available Policies table and click the right arrow to move it to the Policies to Add table.
+**Step 5 –** Select a policy in the Available Policies table and click the right arrow to move it to
+the Policies to Add table.
 
-__Step 6 –__ Click Okay to add policies to the role.
+**Step 6 –** Click Okay to add policies to the role.
 
 The new policy is added to the applicable account.

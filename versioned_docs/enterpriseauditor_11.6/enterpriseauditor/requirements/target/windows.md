@@ -1,6 +1,7 @@
 # Target Windows Server and Desktop Requirements, Permissions, and Ports
 
-The Enterprise Auditor for Windows Solution is compatible with the following Microsoft Windows versions as targets:
+The Enterprise Auditor for Windows Solution is compatible with the following Microsoft Windows
+versions as targets:
 
 - Windows 7 and higher
 - Windows Server 2016 and later
@@ -29,7 +30,8 @@ This solution employs the following data collector to scan the target environmen
 ## Permissions
 
 - Member of the local Administrators group
-- If target host is a domain controller, member of the Domain Administrator group in the target domain
+- If target host is a domain controller, member of the Domain Administrator group in the target
+  domain
 
 ## Ports
 

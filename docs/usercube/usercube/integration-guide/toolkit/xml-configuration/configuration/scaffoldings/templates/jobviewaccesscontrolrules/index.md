@@ -1,28 +1,26 @@
 # Job View Access Control Rules
 
-Scaffolding to generate a set of rights to view all JobInstances, TaskInstances and logs.
-This Scaffolding performs a set of scaffolding rights for Jobs and Tasks.
+Scaffolding to generate a set of rights to view all JobInstances, TaskInstances and logs. This
+Scaffolding performs a set of scaffolding rights for Jobs and Tasks.
 
 The scaffolding generates the following scaffoldings:
 
-- [
-  Get Job Log Administration Access Control Rules
-  ](../../accesscontrolrules/jobs/getjoblogadministrationaccesscontrolrules/index.md): Generates the permissions to read task and job instances logs in UI for a given profile.
-- [
-  Job Administration Access Control Rules
-  ](../../accesscontrolrules/jobs/jobadministrationaccesscontrolrules/index.md): Scaffolding to access the job administration page.
-- [
-  Pending Assigned Resource Types Access Control Rules
-  ](../../accesscontrolrules/jobs/pendingassignedresourcetypesaccesscontrolrules/index.md): Generates the access control rules which give to a profile the permissions to call the API Pending AssignedResourceTypes.
-- [
-  Resource Changes View Access Control Rules
-  ](../../accesscontrolrules/jobs/resourcechangesviewaccesscontrolrules/index.md): Generates the access control rules which gives to a profile the permissions to call the API ResourceChange, ResourceFileChange and ResourceLinkChange.
+- [ Get Job Log Administration Access Control Rules ](../../accesscontrolrules/jobs/getjoblogadministrationaccesscontrolrules/index.md):
+  Generates the permissions to read task and job instances logs in UI for a given profile.
+- [ Job Administration Access Control Rules ](../../accesscontrolrules/jobs/jobadministrationaccesscontrolrules/index.md):
+  Scaffolding to access the job administration page.
+- [ Pending Assigned Resource Types Access Control Rules ](../../accesscontrolrules/jobs/pendingassignedresourcetypesaccesscontrolrules/index.md):
+  Generates the access control rules which give to a profile the permissions to call the API Pending
+  AssignedResourceTypes.
+- [ Resource Changes View Access Control Rules ](../../accesscontrolrules/jobs/resourcechangesviewaccesscontrolrules/index.md):
+  Generates the access control rules which gives to a profile the permissions to call the API
+  ResourceChange, ResourceFileChange and ResourceLinkChange.
 
 ## Properties
 
-| Property | Details |
-| --- | --- |
-| Profile   required | __Type__    String   __Description__   Identifier of the profile involved in the scaffolding. |
+| Property         | Details                                                                                |
+| ---------------- | -------------------------------------------------------------------------------------- |
+| Profile required | **Type** String **Description** Identifier of the profile involved in the scaffolding. |
 
 ## Generated XML
 

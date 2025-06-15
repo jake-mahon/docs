@@ -1,6 +1,7 @@
 # Target PostgreSQL Requirements, Permissions, and Ports
 
-The Enterprise Auditor for Databases Solution provides the ability to audit and monitor PostgreSQL database environments to collect permissions and sensitive data. It scans:
+The Enterprise Auditor for Databases Solution provides the ability to audit and monitor PostgreSQL
+database environments to collect permissions and sensitive data. It scans:
 
 - Open Source PostgreSQL 9x through 12x
 - Enterprise DB PostgreSQL (10x trhough 12x)
@@ -27,7 +28,11 @@ For .Active Directory Inventory Prerequisite
 - Read access to directory tree
 - List Contents & Read Property on the Deleted Objects Container
 
-  __NOTE:__ See the Microsoft [Searching for Deleted Objects](https://technet.microsoft.com/en-us/library/cc978013.aspx) article and the Microsoft [Dsacls](https://technet.microsoft.com/en-us/library/cc771151(v=ws.11).aspx) article for additional information.
+    **NOTE:** See the Microsoft
+    [Searching for Deleted Objects](https://technet.microsoft.com/en-us/library/cc978013.aspx)
+    article and the Microsoft
+    [Dsacls](<https://technet.microsoft.com/en-us/library/cc771151(v=ws.11).aspx>) article for
+    additional information.
 
 For PostgreSQL Data Collection
 

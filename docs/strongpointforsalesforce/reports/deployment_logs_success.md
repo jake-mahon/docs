@@ -1,59 +1,71 @@
 # Success Deployments
 
-This built-in report is available from __Reports__ > __Release and Deployment__ > __Success Deployments__
+This built-in report is available from **Reports** > **Release and Deployment** > **Success
+Deployments**
 
-The __Report Generation Status__ should be __Complete__. If not, run the report again.
+The **Report Generation Status** should be **Complete**. If not, run the report again.
 
-Click on any of the report columns to change the sort order. The á or â arrow in the column heading indicates the current column and sort order being used for the results.
+Click on any of the report columns to change the sort order. The á or â arrow in the column heading
+indicates the current column and sort order being used for the results.
 
 ### Report Options
 
-> __Summarize information by__: Select a criteria from the list to have the results summarized and grouped. Default is __# of Test Errors__.
+> **Summarize information by**: Select a criteria from the list to have the results summarized and
+> grouped. Default is **# of Test Errors**.
 >
-> __Show__: Select the criteria for the deployment logs to show. Default is __All deployment logs__.
+> **Show**: Select the criteria for the deployment logs to show. Default is **All deployment logs**.
 >
-> __Time Frame__: Select the __Date Field__ to be used for the report, the __Range__, and adjust the __From__ and __To__ fields as needed. The default __Date Field__ is __Completed Date__, __Range__ is __Custom__ and __From/To__ is blank. Date format is _dd/mm/yyyy_.
+> **Time Frame**: Select the **Date Field** to be used for the report, the **Range**, and adjust the
+> **From** and **To** fields as needed. The default **Date Field** is **Completed Date**, **Range**
+> is **Custom** and **From/To** is blank. Date format is _dd/mm/yyyy_.
 >
-> __Run Report__: Runs (__Run Report Now__) the report using the selected report options. Or, click on the arrow to open the __Schedule Future Runs__ option.
+> **Run Report**: Runs (**Run Report Now**) the report using the selected report options. Or, click
+> on the arrow to open the **Schedule Future Runs** option.
 >
-> __Hide Details/Show Details__: __Hide Details__ hides the report body and __Show Details__ restores the report view.
+> **Hide Details/Show Details**: **Hide Details** hides the report body and **Show Details**
+> restores the report view.
 >
-> __Customize__: Opens the __Report Options__. You can change the table format, details, and included columns.
+> **Customize**: Opens the **Report Options**. You can change the table format, details, and
+> included columns.
 >
-> __Save__: Opens the __Save__ dialog with the current file name options.
+> **Save**: Opens the **Save** dialog with the current file name options.
 >
-> __Save As__: Opens the __Save As__ dialog with blank fields.
+> **Save As**: Opens the **Save As** dialog with blank fields.
 >
-> __Delete__: Prompts you to confirm deleting the report. Click __OK__ to delete or __Cancel__ to keep the report.
+> **Delete**: Prompts you to confirm deleting the report. Click **OK** to delete or **Cancel** to
+> keep the report.
 >
-> __Printable View__: Creates the file _report###.xls_.
+> **Printable View**: Creates the file _report###.xls_.
 >
-> __Export Details__: Opens the __Export Report__ options. Select the encoding and format (xls or csv) for the exported file. Click __Export__ to generate the _report###_ file. Click __Done__ to return to the report.
+> **Export Details**: Opens the **Export Report** options. Select the encoding and format (xls or
+> csv) for the exported file. Click **Export** to generate the _report###_ file. Click **Done** to
+> return to the report.
 >
-> __Subscribe__: Opens the __Report Subscription__ dialog. Select the subscription options.
+> **Subscribe**: Opens the **Report Subscription** dialog. Select the subscription options.
 >
-> __Filtered By__: Shows the current filters for the report. You can __Edit__ or __Clear__ the filters.
+> **Filtered By**: Shows the current filters for the report. You can **Edit** or **Clear** the
+> filters.
 
 ## Report Results
 
-> __Deployment Log Name__: Link to the deployment log.
+> **Deployment Log Name**: Link to the deployment log.
 >
-> __Owner Name__: Link to the deployment log owner information.
+> **Owner Name**: Link to the deployment log owner information.
 >
-> __Start Date__ ; The date and time of the deployment. Format is _dd/mm/yyyy hh:mm_
+> **Start Date** ; The date and time of the deployment. Format is _dd/mm/yyyy hh:mm_
 >
-> __Retrieve Status__: Green flag indicates success, red flag indicates failure.
+> **Retrieve Status**: Green flag indicates success, red flag indicates failure.
 >
-> __Deployment Status__: Green flag indicates success, red flag indicates failure.
+> **Deployment Status**: Green flag indicates success, red flag indicates failure.
 >
-> __Change Request__: Link to the change request for the deployment.
+> **Change Request**: Link to the change request for the deployment.
 >
-> __Components Total__: Total number of components.
+> **Components Total**: Total number of components.
 >
-> __Components Deployed__: Number of components deployed.
+> **Components Deployed**: Number of components deployed.
 >
-> __Customizations__: Customizations for the deployment.
+> **Customizations**: Customizations for the deployment.
 >
-> __Tests Selected__: Number of selected tests.
+> **Tests Selected**: Number of selected tests.
 
 ![Successful Deployment Logs Report](../../../static/img/product_docs/strongpointforsalesforce/reports/report_deploy_success.webp)

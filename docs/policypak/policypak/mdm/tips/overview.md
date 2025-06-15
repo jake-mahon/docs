@@ -1,6 +1,7 @@
 # Endpoint Policy Manager Exporter Tips, Tricks, and Notes
 
-In this section, you'll learn some Netwrix Endpoint Policy Manager (formerly PolicyPak) Exporter tips and tricks. Below are the tips we will be exploring:
+In this section, you'll learn some Netwrix Endpoint Policy Manager (formerly PolicyPak) Exporter
+tips and tricks. Below are the tips we will be exploring:
 
 - Modifying existing MSI files
 - Cutting and pasting XML directives instead of importing them as a file

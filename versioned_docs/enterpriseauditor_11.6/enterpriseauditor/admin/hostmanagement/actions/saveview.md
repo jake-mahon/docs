@@ -1,21 +1,32 @@
 # Save Current View
 
-Use the __Save Current View__ option to create a dynamic host list. This option is available from either the Host Management node or an individual host list node. The option is inactive until you apply a filter to the data grid. Follow the steps to create a dynamic host list.
+Use the **Save Current View** option to create a dynamic host list. This option is available from
+either the Host Management node or an individual host list node. The option is inactive until you
+apply a filter to the data grid. Follow the steps to create a dynamic host list.
 
-__Step 1 –__ Select the Host Management or individual host list node to create the host list from.
+**Step 1 –** Select the Host Management or individual host list node to create the host list from.
 
-__Step 2 –__ Filter the data grid for the desired criteria. See the [Host Inventory Data Grid](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/datagrid.md) topic for additional information.
+**Step 2 –** Filter the data grid for the desired criteria. See the
+[Host Inventory Data Grid](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/datagrid.md)
+topic for additional information.
 
 ![savecurrentview](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/actions/savecurrentview.png)
 
-__Step 3 –__ Click __Save Current View__ in the Activities pane.
+**Step 3 –** Click **Save Current View** in the Activities pane.
 
 ![Host List name window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/actions/hostlistname.png)
 
-__Step 4 –__ On the Host list name window, provide a unique, descriptive name for the new host list and click __OK__.
+**Step 4 –** On the Host list name window, provide a unique, descriptive name for the new host list
+and click **OK**.
 
-The new host list displays under the Host Management node. When the Enterprise Auditor Console closes the host lists under the Host Management node, the hosts reorganize in alphanumeric order. Like the default host lists, custom dynamic host lists are auto-populated and updated according to host inventory.
+The new host list displays under the Host Management node. When the Enterprise Auditor Console
+closes the host lists under the Host Management node, the hosts reorganize in alphanumeric order.
+Like the default host lists, custom dynamic host lists are auto-populated and updated according to
+host inventory.
 
-___RECOMMENDED:___ Do not modify the criteria once a dynamic based list has been created. It is better to delete and recreate the list in order to modify a dynamic-based list.
+**_RECOMMENDED:_** Do not modify the criteria once a dynamic based list has been created. It is
+better to delete and recreate the list in order to modify a dynamic-based list.
 
-See the [Dynamic Host Lists](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/lists.md#dynamic-host-lists) topic for more information on dynamic host lists.
+See the
+[Dynamic Host Lists](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/lists.md#dynamic-host-lists)
+topic for more information on dynamic host lists.

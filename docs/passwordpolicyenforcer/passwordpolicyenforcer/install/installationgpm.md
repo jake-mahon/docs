@@ -1,61 +1,77 @@
 # Install with Group Policy Management
 
-An automated installation uses Group Policy to distribute Password Policy Enforcer. This type of installation is recommended when you need to install Password Policy Enforcer on many computers. This section shows you how to install Password Policy Enforcer on domain controllers to enforce domain policies, but you can also use Group Policy to target member servers and workstations if you need to enforce local policies. See the [Domain and Local Policies](../administration/domain_and_local_policies.md) topic for additional information.
+An automated installation uses Group Policy to distribute Password Policy Enforcer. This type of
+installation is recommended when you need to install Password Policy Enforcer on many computers.
+This section shows you how to install Password Policy Enforcer on domain controllers to enforce
+domain policies, but you can also use Group Policy to target member servers and workstations if you
+need to enforce local policies. See the
+[Domain and Local Policies](../administration/domain_and_local_policies.md) topic for additional
+information.
 
 ## Create a Distribution Point
 
-A distribution point can either be a UNC path to a server share, or a DFS (Distributed File System) path. To create a Password Policy Enforcer distribution point:
+A distribution point can either be a UNC path to a server share, or a DFS (Distributed File System)
+path. To create a Password Policy Enforcer distribution point:
 
-__Step 1 –__ Log on to a server as an administrator.
+**Step 1 –** Log on to a server as an administrator.
 
-__Step 2 –__ Create a shared network folder to distribute the files from.
+**Step 2 –** Create a shared network folder to distribute the files from.
 
-__Step 3 –__ Give the __Domain Controllers__ security group read access to the share, and limit write access to authorized personnel only.
+**Step 3 –** Give the **Domain Controllers** security group read access to the share, and limit
+write access to authorized personnel only.
 
-__Step 4 –__ Download the Netwrix Password Policy Enforcer installation package from Netwrix.
+**Step 4 –** Download the Netwrix Password Policy Enforcer installation package from Netwrix.
 
-__Step 5 –__ Extract the installers from the compressed file.
+**Step 5 –** Extract the installers from the compressed file.
 
-__Step 6 –__ Copy the __.msi__ files to the distribution folder.
+**Step 6 –** Copy the **.msi** files to the distribution folder.
 
 ## Create a Group Policy Object
 
-__Step 1 –__ Start the Group Policy Management Console (__gpmc.msc__).
+**Step 1 –** Start the Group Policy Management Console (**gpmc.msc**).
 
-__Step 2 –__ Expand the forest and domain items in the left pane.
+**Step 2 –** Expand the forest and domain items in the left pane.
 
-__Step 3 –__ Right-click the __Domain Controllers OU__ in the left pane, and then click __Create a GPO in this domain, and Link it here...__
+**Step 3 –** Right-click the **Domain Controllers OU** in the left pane, and then click **Create a
+GPO in this domain, and Link it here...**
 
 ![GPM installation](../../../../static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/install/gpm1.webp)
 
-__Step 4 –__ Enter __Password Policy Enforcer__ in the provided field, and then press __Enter__.
+**Step 4 –** Enter **Password Policy Enforcer** in the provided field, and then press **Enter**.
 
 ![GPM Install](../../../../static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/install/gpm2.webp)
 
 ## Edit the Group Policy Object
 
-__Step 1 –__ Right-click the __Password Policy Enforcer GPO__, and then click the __Edit...__ button.
+**Step 1 –** Right-click the **Password Policy Enforcer GPO**, and then click the **Edit...**
+button.
 
-__Step 2 –__ Expand the __Computer Configuration__, __Policies__, and __Software Settings__ items.
+**Step 2 –** Expand the **Computer Configuration**, **Policies**, and **Software Settings** items.
 
-__Step 3 –__ Right-click the __Software installation__ item, and then select __New__ > __Package...__
+**Step 3 –** Right-click the **Software installation** item, and then select **New** >
+**Package...**
 
-__Step 4 –__ Enter the full __UNC path__ to your __msi__ files.
+**Step 4 –** Enter the full **UNC path** to your **msi** files.
 
-__NOTE:__ You must enter a UNC path so that other computers can access this file over the network. For example: \\file server\distribution point share\Netwrix_PPE__version_.msi
+**NOTE:** You must enter a UNC path so that other computers can access this file over the network.
+For example: \\file server\distribution point share\Netwrix*PPE\_\_version*.msi
 
-__Step 5 –__ Click __Open__.
+**Step 5 –** Click **Open**.
 
 ![installing_ppe_2](../../../../static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/install/installing_ppe_2.webp)
 
-__Step 6 –__ Select __Assigned__ as the deployment method.
+**Step 6 –** Select **Assigned** as the deployment method.
 
-__Step 7 –__ Click __OK__.
+**Step 7 –** Click **OK**.
 
-__Step 8 –__ Close the Group Policy Management Editor.
+**Step 8 –** Close the Group Policy Management Editor.
 
 ## Complete the Installation
 
-Restart each domain controller to complete the installation. Windows installs Password Policy Enforcer during startup, and then immediately restarts the computer a second time to complete the installation.
+Restart each domain controller to complete the installation. Windows installs Password Policy
+Enforcer during startup, and then immediately restarts the computer a second time to complete the
+installation.
 
-Password Policy Enforcer does not enforce a password policy until the policies are defined. Users can still change their password, and will only need to comply with the Windows password policy rules (if enabled).
+Password Policy Enforcer does not enforce a password policy until the policies are defined. Users
+can still change their password, and will only need to comply with the Windows password policy rules
+(if enabled).

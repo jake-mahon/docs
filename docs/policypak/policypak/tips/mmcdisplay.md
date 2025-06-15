@@ -2,7 +2,8 @@
 
 Sometimes applications will draw in an unusual way when adding or removing policies.
 
-To fix this, use the Group Policy editor to specify the following policy such that it hits the Admin station.
+To fix this, use the Group Policy editor to specify the following policy such that it hits the Admin
+station.
 
 This policy doesn't need to hit the end-points.. just the admin machine.
 

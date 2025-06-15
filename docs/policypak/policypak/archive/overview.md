@@ -1,6 +1,7 @@
 # Archive
 
-See the following Knowledge Base articles and Video topics that have been archived. This is a list of archived Knowledge Base articles and video topics.
+See the following Knowledge Base articles and Video topics that have been archived. This is a list
+of archived Knowledge Base articles and video topics.
 
 - [ADM/X Files – why they cannot prevent user shenanigans](admxfiles.md)
 - [Manage Different Users In The Same OU (And Reduce Number of GPOs) With Endpoint Policy Manager ](differentusers.md)

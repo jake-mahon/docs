@@ -1,30 +1,36 @@
 # Configuration Backup
 
-__NOTE:__ Only available for ‘Superusers’
+**NOTE:** Only available for ‘Superusers’
 
-The Backup utility allows for the migration of complex Netwrix Data Classification instance configurations.
+The Backup utility allows for the migration of complex Netwrix Data Classification instance
+configurations.
 
-This allows a user to safely design and test a conceptSearching configuration within a development environment and then copy the configuration, or specific parts of the configuration, to a different environment (I.E production).
+This allows a user to safely design and test a conceptSearching configuration within a development
+environment and then copy the configuration, or specific parts of the configuration, to a different
+environment (I.E production).
 
-The tool supports text replacement to allow user defined URL's to be replaced by the equivalent destination URL. The following configuration options are available for import / export:
+The tool supports text replacement to allow user defined URL's to be replaced by the equivalent
+destination URL. The following configuration options are available for import / export:
 
 - Source Registrations
 - SharePoint Termset Registrations
 - Workflow Configurations
 - Core Configuration Options:
 
-  - Files Excluded
-  - Files Included
-  - Mapped Metadata Fields
-  - Mapped Metadata Values
-  - Supported Languages
-  - Pages Excluded
-  - Pages Included
-  - SharePoint Excluded
-  - Text Patterns
+    - Files Excluded
+    - Files Included
+    - Mapped Metadata Fields
+    - Mapped Metadata Values
+    - Supported Languages
+    - Pages Excluded
+    - Pages Included
+    - SharePoint Excluded
+    - Text Patterns
 
 ![utilitiesbackup](/img/versioned_docs/dataclassification_5.6.2/ndc/utilities/utilitiesbackup.png)
 
-To create a backup simply select Create Backup and select the elements that you wish to include. The backup password will be required if you export a backup to XML and re-import to a different environment.
+To create a backup simply select Create Backup and select the elements that you wish to include. The
+backup password will be required if you export a backup to XML and re-import to a different
+environment.
 
 Upon import any items that already exist will be skipped.

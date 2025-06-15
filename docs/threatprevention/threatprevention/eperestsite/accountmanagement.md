@@ -1,6 +1,7 @@
 # Site Account Management APIs
 
-You can use APIs to perform the following functions for user accounts that can access the EPE Rest Service:
+You can use APIs to perform the following functions for user accounts that can access the EPE Rest
+Service:
 
 - Get all User Accounts
 - Create an Account
@@ -14,7 +15,8 @@ This API returns a list of internal accounts stored in the EpeUsers database.
 
 Authentication required – Yes
 
-Authentication Type – Basic authentication. Any valid account such as a local account for this machine or a domain account that can be verified on this machine should work.
+Authentication Type – Basic authentication. Any valid account such as a local account for this
+machine or a domain account that can be verified on this machine should work.
 
 Example
 
@@ -31,12 +33,12 @@ Authentication Type – Basic authentication
 Required Input Parameters
 
 ```
-{  
-"username":"accountname",  
-"password":"password",  
-"confirmpassword":"password",  
-"firstname":"firstname",  
-"lastname":"lastname"  
+{
+"username":"accountname",
+"password":"password",
+"confirmpassword":"password",
+"firstname":"firstname",
+"lastname":"lastname"
 }
 ```
 
@@ -46,7 +48,8 @@ Example
 
 ## GET api/account/user/`<userId>`
 
-This API returns information about an internal account stored in the EpeUsers database with the User Id value as the input parameter.
+This API returns information about an internal account stored in the EpeUsers database with the User
+Id value as the input parameter.
 
 Authentication required – Yes
 
@@ -58,7 +61,8 @@ Example
 
 ## GET api/account/user/`<userName>`
 
-This API returns information about an internal account stored in the EpeUsers database with the User Name value as the input parameter.
+This API returns information about an internal account stored in the EpeUsers database with the User
+Name value as the input parameter.
 
 Authentication required – Yes
 
@@ -70,7 +74,8 @@ Example
 
 ## DELETE api/account/delete?userName=`<username>`
 
-This API deletes an internal account stored in the EpeUsers database with the User Name value as the input parameter.
+This API deletes an internal account stored in the EpeUsers database with the User Name value as the
+input parameter.
 
 Authentication required – Yes
 
@@ -80,4 +85,5 @@ Example
 
 ![DELETE api/account/delete?userName=username](../../../../static/img/product_docs/strongpointfornetsuite/integrations/delete.webp)
 
-To verify the result of this operation, you can use “GET api/account/users” or check the contents of the [EpeUsers].[dbo].[AspNetUsers] database table.
+To verify the result of this operation, you can use “GET api/account/users” or check the contents of
+the [EpeUsers].[dbo].[AspNetUsers] database table.

@@ -1,6 +1,7 @@
 # Advanced Tab
 
-The Advanced tab has a lot of settings, and varies from version to version of IE. You can see the Advanced tab in IE 11 in Figure 27.
+The Advanced tab has a lot of settings, and varies from version to version of IE. You can see the
+Advanced tab in IE 11 in Figure 27.
 
 ![ie_appset_tab_by_tab_23](../../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/preconfigured/internetexplorer/tab/ie_appset_tab_by_tab_23.webp)
 

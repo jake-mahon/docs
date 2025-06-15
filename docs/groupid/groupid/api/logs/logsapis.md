@@ -1,6 +1,7 @@
 # Logs APIs
 
-Directory Manager generates logs for its services, clients, and Windows events. Using the following APIs, you can collect and dump your required logs to a desired location.
+Directory Manager generates logs for its services, clients, and Windows events. Using the following
+APIs, you can collect and dump your required logs to a desired location.
 
 See the [Get Logs](../../admincenter/general/logs.md) topic for additional information on logs.
 

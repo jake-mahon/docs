@@ -10,11 +10,17 @@ There are two main methods of rolling out Privilege Secure, by machine or by gro
 
 ### By Machine
 
-Rolling out by machine can be done by individual machines through the UI or en mass using Quickstart. The challenge with this can be that all people needing administrative access to the machine must be familiar with Privilege Secure and how to gain access. Given the simplicity of Privilege Secure, this is not a major issue, but it can add to the logistical challenge of rollout.
+Rolling out by machine can be done by individual machines through the UI or en mass using
+Quickstart. The challenge with this can be that all people needing administrative access to the
+machine must be familiar with Privilege Secure and how to gain access. Given the simplicity of
+Privilege Secure, this is not a major issue, but it can add to the logistical challenge of rollout.
 
 ### By Group
 
-Freeze mode is a method of rolling out Privilege Secure in a way that enables AD user groups to use Privilege Secure while others have access that remains unchanged until they are trained. This is done by making all machines protected but with all access persistent. The persistence is then pared away group by group for all machines as users are informed and trained.
+Freeze mode is a method of rolling out Privilege Secure in a way that enables AD user groups to use
+Privilege Secure while others have access that remains unchanged until they are trained. This is
+done by making all machines protected but with all access persistent. The persistence is then pared
+away group by group for all machines as users are informed and trained.
 
 This article explains how the deployment can be done by group.
 
@@ -28,21 +34,28 @@ The machine is in Protect Mode JITA.
 
 ![Screenshot_2022-03-30_210054.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/4412001676439_screenshot_2022-03-30_210054_233x33.png)
 
-This means that any user requiring privileged access to the machine must go through Privilege Secure.
+This means that any user requiring privileged access to the machine must go through Privilege
+Secure.
 
 Service accounts are set as persistent.
 
 ![Screenshot_2022-03-30_210309.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/4412001676439_screenshot_2022-03-30_210309_385x111.png)
 
-This means that they will stay on the machine and not be impacted by Privilege Secure (these should be set to non-interactive in AD). Only Service Accounts (including the Privilege Secure service accounts) are set as persistent.
+This means that they will stay on the machine and not be impacted by Privilege Secure (these should
+be set to non-interactive in AD). Only Service Accounts (including the Privilege Secure service
+accounts) are set as persistent.
 
 The built in Administrator (RID500) account is locked and password is managed.
 
 ![Screenshot_2022-03-30_210530.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/4412001676439_screenshot_2022-03-30_210530_344x54.png)
 
-The ![Screenshot_2022-03-30_210620.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/4412001676439_screenshot_2022-03-30_210620_48x46.png)symbol denotes that the account is locked
+The
+![Screenshot_2022-03-30_210620.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/4412001676439_screenshot_2022-03-30_210620_48x46.png)symbol
+denotes that the account is locked
 
-The ![Screenshot_2022-03-30_210557.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/4412001676439_screenshot_2022-03-30_210557_49x50.png)symbol denotes that the account password is being rotated by Privilege Secure.
+The
+![Screenshot_2022-03-30_210557.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/4412001676439_screenshot_2022-03-30_210557_49x50.png)symbol
+denotes that the account password is being rotated by Privilege Secure.
 
 An alternative local administrator account has been created for Offline Access Management (OAM).
 
@@ -56,21 +69,28 @@ Groups requiring privileged access are not set to persistent.
 
 ## Freeze Mode
 
-Freeze mode is a way of rolling out Protect Mode while reducing potential impacts associated with rollout. It is also useful when combining the rollout of Protect Mode with the review (and potential approval) of existing access.
+Freeze mode is a way of rolling out Protect Mode while reducing potential impacts associated with
+rollout. It is also useful when combining the rollout of Protect Mode with the review (and potential
+approval) of existing access.
 
 Below shows a machine in Freeze Mode
 
 ![Screenshot_2022-03-30_210750.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/4412001676439_screenshot_2022-03-30_210750.png)
 
-In this case the machine is in Protect Mode, but, all accounts are set as persistent. Any account that is persistent remains on the machine and a user does not need to use Privilege Secure to use this account for admin access.
+In this case the machine is in Protect Mode, but, all accounts are set as persistent. Any account
+that is persistent remains on the machine and a user does not need to use Privilege Secure to use
+this account for admin access.
 
 ![Screenshot_2022-03-30_210819.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/4412001676439_screenshot_2022-03-30_210819_473x123.png)
 
-Any new accounts or groups added to the machine will be ingested into Privilege Secure and will not be persistent. These groups or accounts would require users to access Privilege Secure.
+Any new accounts or groups added to the machine will be ingested into Privilege Secure and will not
+be persistent. These groups or accounts would require users to access Privilege Secure.
 
 ## Enabling Freeze Mode - UI
 
-As with all Privilege Secure functionality, changes can be made via the UI or in bulk using Quickstart. Setting a machine to freeze mode in the UI is done by setting all accounts to persistent using the action button:
+As with all Privilege Secure functionality, changes can be made via the UI or in bulk using
+Quickstart. Setting a machine to freeze mode in the UI is done by setting all accounts to persistent
+using the action button:
 
 ![Screenshot_2022-03-30_210852.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/4412001676439_screenshot_2022-03-30_210852_189x104.png)
 
@@ -82,7 +102,9 @@ Current access is not impacted by Freeze Mode.
 
 ## Enabling Freeze Mode - Quickstart
 
-To ensure that all machines are in freeze mode, an updated extract from Privilege Secure should be pulled using the quickstart process. From a terminal window in the Privilege Secure reporting folder, run the command below to download the spreadsheet of all machines.
+To ensure that all machines are in freeze mode, an updated extract from Privilege Secure should be
+pulled using the quickstart process. From a terminal window in the Privilege Secure reporting
+folder, run the command below to download the spreadsheet of all machines.
 
 ```
 reports_2.9.py –insecure
@@ -90,13 +112,16 @@ reports_2.9.py –insecure
 
 Adjust the command to suit the specific version of quickstart used.
 
-The resultant spreadsheet should be filtered to show the machines that are not in protect mode but have a scan date. These are the machines to be targeted for protect mode (this would be further restricted if just looking for workstations or servers).
+The resultant spreadsheet should be filtered to show the machines that are not in protect mode but
+have a scan date. These are the machines to be targeted for protect mode (this would be further
+restricted if just looking for workstations or servers).
 
 ![Screenshot_2022-03-30_211054.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/4412001676439_screenshot_2022-03-30_211054_255x145.png)
 
 ![Screenshot_2022-03-30_211126.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/4412001676439_screenshot_2022-03-30_211126_267x142.png)
 
-The spreadsheet should now be updated to apply freeze mode, i.e. add protect mode JITA and add persistence to all accounts. Here we have one target machine WINCOMP1
+The spreadsheet should now be updated to apply freeze mode, i.e. add protect mode JITA and add
+persistence to all accounts. Here we have one target machine WINCOMP1
 
 Computer Data Tab
 
@@ -108,9 +133,11 @@ Admin List Tab
 
 Filtered to the target machines and persistence set to true for all accounts (i.e. freeze mode)
 
-Once the file has been updated for upload, remove any filters and save the file with a suitable name for uploading. The only entries set to update are the ones targeted for freeze mode.
+Once the file has been updated for upload, remove any filters and save the file with a suitable name
+for uploading. The only entries set to update are the ones targeted for freeze mode.
 
-From the Privilege Secure Quickstart reporting folder, run the following to in a terminal window to upload the file:
+From the Privilege Secure Quickstart reporting folder, run the following to in a terminal window to
+upload the file:
 
 python reports_2.9.py --insecure --protect-mode-file Freeze_Mode_Upload.xlsx --dry-run
 
@@ -122,11 +149,11 @@ Once suitable, remove the –dry-run flag to run the update
 
 ```
 python reports_2.9.py --insecure --protect-mode-file Freeze_Mode_Upload.xlsx
-``````
+```
 
 ```
 
-A further pull of all machines should be done from Quickstart to ensure that all the target   
+A further pull of all machines should be done from Quickstart to ensure that all the target
 machines are in protect mode.
 
 reports_2.9.py –insecure
@@ -184,3 +211,4 @@ New machines, server and workstations, are constantly being built within the org
 ## Tips and Tricks
 
 When uploading an Excel file it can be good to delete rows that are not needed (e.g. machines that have not been scanned). The amount of lines to be deleted can be considerable (depending on how many outdated AD entries). This can cause Excel to run slow or even crash. To avoid this sort the spreadsheet by the column that the deletion will be based upon (e.g. last_scanned) and then delete.
+```

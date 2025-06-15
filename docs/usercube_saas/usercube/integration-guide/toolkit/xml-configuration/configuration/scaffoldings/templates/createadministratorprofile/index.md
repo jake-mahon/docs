@@ -2,113 +2,94 @@
 
 This scaffolding creates the administrator profile with a predefined set of rights.
 
-To create the rights for this profile, a scaffolding list is launched inside the creation of the administrator profile.
+To create the rights for this profile, a scaffolding list is launched inside the creation of the
+administrator profile.
 
 The scaffolding generates the following scaffoldings:
 
-- [
-  Access Review Administration Access Control Rules
-  ](../../accesscontrolrules/accessreviews/accessreviewadministrationaccesscontrolrules/index.md): Generates the permissions to administrate campaign creation.
-- [
-  Assign Profile Access Control Rules
-  ](../../accesscontrolrules/profiles/assignprofileaccesscontrolrules/index.md): Gives to a given profile the rights to create, update, delete and query any assigned profile.
-- [
-  Basket Rules Control Rules
-  ](../../accesscontrolrules/rolemodels/basketrulescontrolrules/index.md): Generates the permissions to execute the different requests to display the information in the rights basket.
-- [
-  Connector Resource Type Access Control
-  ](../../accesscontrolrules/connectors/connectorresourcetypeaccesscontrol/index.md): Gives the rights to create and update resource types, generate provisioning orders and fulfill from the connector screen.
-- [Connectors Access Control Rules](../connectorsaccesscontrolrules/index.md): Gives the permissions to manage the connector pages.
-- [
-  Create Connectors Jobs
-  ](../../jobs/createconnectorsjobs/index.md): Creates all jobs by connector to launched task in the connector page.
-- [
-  Create Resource Incremental Access Control Rules
-  ](../../accesscontrolrules/resources/createresourceincrementalaccesscontrolrules/index.md): Generates the access control rule which gives to a profile the permission to query the resources modified incrementally
-- [
-  Job Execution Access Control Rules
-  ](../jobexecutionaccesscontrolrules/index.md): Assigns a set of rights to a given profile to execute any job, and view all job instances, task instances and logs.
-- [
-  Manage Accounts
-  ](../../accesscontrolrules/userinterfaces/manageaccounts/index.md):
-- [
-  Manage Setting Access Control Rule
-  ](../../accesscontrolrules/queries/managesettingaccesscontrolrule/index.md): Generates the access control rule which gives to a profile the permission to query, create, update and delete settings from the UM_Settings table.
-- [
-  MonitoringAdministrationAccessControlRules
-  ](../../accesscontrolrules/monitoring/monitoringadministrationaccesscontrolrules/index.md): Generates the access control rule which gives to a profile the permission to query the monitoring screen.
-- [
-  Perform Manual Provisioning Access Control Rules
-  ](../../accesscontrolrules/rolemodels/performmanualprovisioningaccesscontrolrules/index.md): Generates the permissions to access the manual provisioning pages for a given entity type and profile.
-- [
-  Profile Administration Access Control Rules
-  ](../../accesscontrolrules/profiles/profileadministrationaccesscontrolrules/index.md): Gives to a given profile the rights to create, update and delete profiles.
-- [
-  ProvisioningAccessControlRules
-  ](../../accesscontrolrules/jobs/provisioningaccesscontrolrules/index.md): Generates the execution rights for Provisioning and Fulfillment tasks for a given profile.
-- [
-  Reconciliate Roles Access Control Rules
-  ](../../accesscontrolrules/rolemodels/reconciliaterolesaccesscontrolrules/index.md): Generates the permissions to access the resource reconciliation pages for a given entity type and profile.
-- [
-  Reconciliate Roles Access Control Rules
-  ](../../accesscontrolrules/rolemodels/reconciliaterolesaccesscontrolrules/index.md): Generates the permissions to access the role reconciliation pages for a given entity type and profile.
-- [
-  Redundant Assignment Access Control Rule
-  ](../../accesscontrolrules/rolemodels/redundantassignmentaccesscontrolrule/index.md): Generates the permissions to access the __Redundant Assignment__ page, to analyze and remove redundant assignments.
-- [
-  Report Access Control Rules
-  ](../../accesscontrolrules/queries/reportaccesscontrolrules/index.md): Generates the permissions to access the report view.
-- [
-  Resource Api Administration
-  ](../../accesscontrolrules/resources/resourceapiadministration/index.md): Generates the permissions to create/update/delete/query resources from a given entity type, for a given profile.
-- [
-  Resource Picker Control Rules
-  ](../../accesscontrolrules/resources/resourcepickercontrolrules/index.md): Creates the reading right of the resource picker.
-- [
-  ResourceTypeMappingControlRules
-  ](../../accesscontrolrules/jobs/resourcetypemappingcontrolrules/index.md): Generate rights to launch agent fulfillment.
-- [
-  Review Provisioning Access Control Rules
-  ](../../accesscontrolrules/rolemodels/reviewprovisioningaccesscontrolrules/index.md): Generates the permissions to access the provisioning review pages for a given entity type and profile.
-- [
-  Review Roles Access Control Rules
-  ](../../accesscontrolrules/rolemodels/reviewrolesaccesscontrolrules/index.md): Generates the permissions to access the role review pages for a given entity type and profile.
-- [
-  Risks Administration Access Control Rules
-  ](../../accesscontrolrules/rolemodels/risksadministrationaccesscontrolrules/index.md):
-- [
-  Role Administration Access Control Rules
-  ](../../accesscontrolrules/rolemodels/roleadministrationaccesscontrolrules/index.md): Generates the permissions to access the configuration pages and create, update, delete the elements of the role model.
-- [
-  Role Naming Access Control Rules
-  ](../../accesscontrolrules/rolemodels/rolenamingaccesscontrolrules/index.md): Generates the permissions to configure and launch the automatic creation of roles and rules based on naming conventions.
-- [
-  Settings Access Control Rules
-  ](../../accesscontrolrules/connectors/settingsaccesscontrolrules/index.md): Generates the permissions to configure the Workforce Core Solution module and connector settings.
-- [
-  Simulation Access Control Rules
-  ](../simulationaccesscontrolrules/index.md): Generates the permissions to configure and launch simulations.
-- [
-  SynchronizationAccessControlRules
-  ](../../accesscontrolrules/jobs/synchronizationaccesscontrolrules/index.md): Generates rights to launch synchronization task.
-- [
-  TaskAdministrationAccessControlRules
-  ](../../accesscontrolrules/jobs/taskadministrationaccesscontrolrules/index.md): Generates all rights to have the access to job administration page.
-- [
-  Universe Access Control Rules
-  ](../../accesscontrolrules/queries/universeaccesscontrolrules/index.md): Generates an access control rule which gives a profile the permission to access the query page and run queries.
-- [
-  View History Resource Template
-  ](../../accesscontrolrules/resources/viewhistoryresourcetemplate/index.md): Generates an access control rule giving to the specified profile the permission to browse the resources history of the specified entity type.
-- [
-  Workflow Configuration Control Rules
-  ](../../accesscontrolrules/workflows/workflowconfigurationcontrolrules/index.md):
-- [
-  WorkflowFulfillmentControlRules
-  ](../../accesscontrolrules/jobs/workflowfulfillmentcontrolrules/index.md): Generates the execution rights to launch Fulfillment workflow for a given profile.
-- [
-  Workflow Overview Control Rules
-  ](../../accesscontrolrules/workflows/workflowoverviewcontrolrules/index.md): Generates the permissions to access the workflow supervision page.
+- [ Access Review Administration Access Control Rules ](../../accesscontrolrules/accessreviews/accessreviewadministrationaccesscontrolrules/index.md):
+  Generates the permissions to administrate campaign creation.
+- [ Assign Profile Access Control Rules ](../../accesscontrolrules/profiles/assignprofileaccesscontrolrules/index.md):
+  Gives to a given profile the rights to create, update, delete and query any assigned profile.
+- [ Basket Rules Control Rules ](../../accesscontrolrules/rolemodels/basketrulescontrolrules/index.md):
+  Generates the permissions to execute the different requests to display the information in the
+  rights basket.
+- [ Connector Resource Type Access Control ](../../accesscontrolrules/connectors/connectorresourcetypeaccesscontrol/index.md):
+  Gives the rights to create and update resource types, generate provisioning orders and fulfill
+  from the connector screen.
+- [Connectors Access Control Rules](../connectorsaccesscontrolrules/index.md): Gives the permissions
+  to manage the connector pages.
+- [ Create Connectors Jobs ](../../jobs/createconnectorsjobs/index.md): Creates all jobs by
+  connector to launched task in the connector page.
+- [ Create Resource Incremental Access Control Rules ](../../accesscontrolrules/resources/createresourceincrementalaccesscontrolrules/index.md):
+  Generates the access control rule which gives to a profile the permission to query the resources
+  modified incrementally
+- [ Job Execution Access Control Rules ](../jobexecutionaccesscontrolrules/index.md): Assigns a set
+  of rights to a given profile to execute any job, and view all job instances, task instances and
+  logs.
+- [ Manage Accounts ](../../accesscontrolrules/userinterfaces/manageaccounts/index.md):
+- [ Manage Setting Access Control Rule ](../../accesscontrolrules/queries/managesettingaccesscontrolrule/index.md):
+  Generates the access control rule which gives to a profile the permission to query, create, update
+  and delete settings from the UM_Settings table.
+- [ MonitoringAdministrationAccessControlRules ](../../accesscontrolrules/monitoring/monitoringadministrationaccesscontrolrules/index.md):
+  Generates the access control rule which gives to a profile the permission to query the monitoring
+  screen.
+- [ Perform Manual Provisioning Access Control Rules ](../../accesscontrolrules/rolemodels/performmanualprovisioningaccesscontrolrules/index.md):
+  Generates the permissions to access the manual provisioning pages for a given entity type and
+  profile.
+- [ Profile Administration Access Control Rules ](../../accesscontrolrules/profiles/profileadministrationaccesscontrolrules/index.md):
+  Gives to a given profile the rights to create, update and delete profiles.
+- [ ProvisioningAccessControlRules ](../../accesscontrolrules/jobs/provisioningaccesscontrolrules/index.md):
+  Generates the execution rights for Provisioning and Fulfillment tasks for a given profile.
+- [ Reconciliate Roles Access Control Rules ](../../accesscontrolrules/rolemodels/reconciliaterolesaccesscontrolrules/index.md):
+  Generates the permissions to access the resource reconciliation pages for a given entity type and
+  profile.
+- [ Reconciliate Roles Access Control Rules ](../../accesscontrolrules/rolemodels/reconciliaterolesaccesscontrolrules/index.md):
+  Generates the permissions to access the role reconciliation pages for a given entity type and
+  profile.
+- [ Redundant Assignment Access Control Rule ](../../accesscontrolrules/rolemodels/redundantassignmentaccesscontrolrule/index.md):
+  Generates the permissions to access the **Redundant Assignment** page, to analyze and remove
+  redundant assignments.
+- [ Report Access Control Rules ](../../accesscontrolrules/queries/reportaccesscontrolrules/index.md):
+  Generates the permissions to access the report view.
+- [ Resource Api Administration ](../../accesscontrolrules/resources/resourceapiadministration/index.md):
+  Generates the permissions to create/update/delete/query resources from a given entity type, for a
+  given profile.
+- [ Resource Picker Control Rules ](../../accesscontrolrules/resources/resourcepickercontrolrules/index.md):
+  Creates the reading right of the resource picker.
+- [ ResourceTypeMappingControlRules ](../../accesscontrolrules/jobs/resourcetypemappingcontrolrules/index.md):
+  Generate rights to launch agent fulfillment.
+- [ Review Provisioning Access Control Rules ](../../accesscontrolrules/rolemodels/reviewprovisioningaccesscontrolrules/index.md):
+  Generates the permissions to access the provisioning review pages for a given entity type and
+  profile.
+- [ Review Roles Access Control Rules ](../../accesscontrolrules/rolemodels/reviewrolesaccesscontrolrules/index.md):
+  Generates the permissions to access the role review pages for a given entity type and profile.
+- [ Risks Administration Access Control Rules ](../../accesscontrolrules/rolemodels/risksadministrationaccesscontrolrules/index.md):
+- [ Role Administration Access Control Rules ](../../accesscontrolrules/rolemodels/roleadministrationaccesscontrolrules/index.md):
+  Generates the permissions to access the configuration pages and create, update, delete the
+  elements of the role model.
+- [ Role Naming Access Control Rules ](../../accesscontrolrules/rolemodels/rolenamingaccesscontrolrules/index.md):
+  Generates the permissions to configure and launch the automatic creation of roles and rules based
+  on naming conventions.
+- [ Settings Access Control Rules ](../../accesscontrolrules/connectors/settingsaccesscontrolrules/index.md):
+  Generates the permissions to configure the Workforce Core Solution module and connector settings.
+- [ Simulation Access Control Rules ](../simulationaccesscontrolrules/index.md): Generates the
+  permissions to configure and launch simulations.
+- [ SynchronizationAccessControlRules ](../../accesscontrolrules/jobs/synchronizationaccesscontrolrules/index.md):
+  Generates rights to launch synchronization task.
+- [ TaskAdministrationAccessControlRules ](../../accesscontrolrules/jobs/taskadministrationaccesscontrolrules/index.md):
+  Generates all rights to have the access to job administration page.
+- [ Universe Access Control Rules ](../../accesscontrolrules/queries/universeaccesscontrolrules/index.md):
+  Generates an access control rule which gives a profile the permission to access the query page and
+  run queries.
+- [ View History Resource Template ](../../accesscontrolrules/resources/viewhistoryresourcetemplate/index.md):
+  Generates an access control rule giving to the specified profile the permission to browse the
+  resources history of the specified entity type.
+- [ Workflow Configuration Control Rules ](../../accesscontrolrules/workflows/workflowconfigurationcontrolrules/index.md):
+- [ WorkflowFulfillmentControlRules ](../../accesscontrolrules/jobs/workflowfulfillmentcontrolrules/index.md):
+  Generates the execution rights to launch Fulfillment workflow for a given profile.
+- [ Workflow Overview Control Rules ](../../accesscontrolrules/workflows/workflowoverviewcontrolrules/index.md):
+  Generates the permissions to access the workflow supervision page.
 
 ## Examples
 
@@ -120,20 +101,21 @@ The scaffolding generates the following scaffoldings:
 
 ## Properties
 
-| Property | Details |
-| --- | --- |
-| EntityType   optional | __Type__    String   __Description__   Identifier of the entity type involved in the scaffolding. |
+| Property            | Details                                                                                    |
+| ------------------- | ------------------------------------------------------------------------------------------ |
+| EntityType optional | **Type** String **Description** Identifier of the entity type involved in the scaffolding. |
 
 ## Child Elements
 
-- Display Name Profile (optional) defines a display name for the administrator profile for a given language.
+- Display Name Profile (optional) defines a display name for the administrator profile for a given
+  language.
 
 ### Display Name Profile
 
-| Property | Details |
-| --- | --- |
-| DisplayName   required | __Type__    String   __Description__   Display name of the profile in the related language. |
-| Identifier   required | __Type__    String   __Description__   Code of the language for the display name. |
+| Property             | Details                                                                              |
+| -------------------- | ------------------------------------------------------------------------------------ |
+| DisplayName required | **Type** String **Description** Display name of the profile in the related language. |
+| Identifier required  | **Type** String **Description** Code of the language for the display name.           |
 
 ## Generated XML
 

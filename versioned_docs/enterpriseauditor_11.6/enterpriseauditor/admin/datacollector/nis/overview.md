@@ -1,6 +1,11 @@
 # NIS Data Collector
 
-The NIS Data Collector inventories a NIS domain for user and group information, mapping to Windows-style SIDs. This data collector is a core component of Enterprise Auditor and has been preconfigured within the .NIS Inventory Solution. Both this data collector and the solution are available with all Enterprise Auditor license options. See the [.NIS Inventory Solution](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/nisinventory/overview.md) topic for additional information.
+The NIS Data Collector inventories a NIS domain for user and group information, mapping to
+Windows-style SIDs. This data collector is a core component of Enterprise Auditor and has been
+preconfigured within the .NIS Inventory Solution. Both this data collector and the solution are
+available with all Enterprise Auditor license options. See the
+[.NIS Inventory Solution](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/nisinventory/overview.md)
+topic for additional information.
 
 Protocols
 
@@ -17,7 +22,8 @@ Permissions
 
 ## NIS Query Configuration
 
-The NIS Data Collector is configured through the NIS Data Collector Wizard, which contains the following wizard pages:
+The NIS Data Collector is configured through the NIS Data Collector Wizard, which contains the
+following wizard pages:
 
 - Welcome
 - [NIS: Category](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/nis/category.md)
@@ -29,4 +35,5 @@ The NIS Data Collector is configured through the NIS Data Collector Wizard, whic
 
 ![NIS Data Collector Wizard Welcome page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/welcome.png)
 
-The Welcome page can be hidden by selecting the __Do not display this page the next time__ checkbox when the wizard is open and configuration settings are saved.
+The Welcome page can be hidden by selecting the **Do not display this page the next time** checkbox
+when the wizard is open and configuration settings are saved.

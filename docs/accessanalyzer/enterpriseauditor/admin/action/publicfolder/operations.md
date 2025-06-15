@@ -4,11 +4,14 @@ Use the Operations page to specify the operations to perform as part of the acti
 
 ![Public Folder Action Module Wizard Operations page](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/operations.webp)
 
-The __Add operation__ drop-down menu lists the operations that can be performed. Each operation opens a corresponding window. Operations include:
+The **Add operation** drop-down menu lists the operations that can be performed. Each operation
+opens a corresponding window. Operations include:
 
 - Rename – See the [Rename Folder Window](#rename-folder-window) topic for additional information
-- Change permissions – See the [Change Permissions Window](#change-permissions-window) topic for additional information
-- Custom attributes – See the [Custom Attributes Window](#custom-attributes-window) topic for additional information
+- Change permissions – See the [Change Permissions Window](#change-permissions-window) topic for
+  additional information
+- Custom attributes – See the [Custom Attributes Window](#custom-attributes-window) topic for
+  additional information
 - Replicas – See the [Replicas Window](#replicas-window) topic for additional information
 - Limits – See the [Limits Window](#limits-window) topic for additional information
 - Delete – See the [Delete Folder Window](#delete-folder-window) topic for additional information
@@ -22,20 +25,23 @@ The buttons to the right of the drop-down control the operations in the field:
 
 ## Rename Folder Window
 
-Use the Rename Folder window to rename selected folders. It is a wizard page for the Rename operation.
+Use the Rename Folder window to rename selected folders. It is a wizard page for the Rename
+operation.
 
 ![Rename Folder Window](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/publicfolder/renamefolder.webp)
 
 Rename folders using the following options:
 
-- Select a field from the dropdown menu and click __Add__ to add it to the list below
+- Select a field from the dropdown menu and click **Add** to add it to the list below
 
-  __NOTE:__ The available fields vary based on the source table.
+    **NOTE:** The available fields vary based on the source table.
+
 - New name – Enter the name to replace an existing folder name
 
 ## Change Permissions Window
 
-Use the Change Permissions window to change the permissions. It is a wizard page for the Change permissions operation.
+Use the Change Permissions window to change the permissions. It is a wizard page for the Change
+permissions operation.
 
 ![Change Permissions Window](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/publicfolder/changepermissions.webp)
 
@@ -43,65 +49,78 @@ Change permissions using the following options:
 
 - Username – Select a user or create a list of users to edit permissions for
 
-  - To add a user, type in the field to search for a user, select it, and click __Add__
-  - Click __Select__ to open a list with usernames to select from
-  - To delete a user, select an added user and click __Delete__
+    - To add a user, type in the field to search for a user, select it, and click **Add**
+    - Click **Select** to open a list with usernames to select from
+    - To delete a user, select an added user and click **Delete**
+
 - Dynamic users – Select a user using the dropdown menu
 - Mode – Select whether to change or remove permissions
 - Permissions – Determine Permission level and assign permissions to the user
 
-  - Permission level – Use the drop-down menu to select a permission level from the following:
+    - Permission level – Use the drop-down menu to select a permission level from the following:
 
-    - Reviewer
-    - Contributor
-    - Nonediting Author
-    - Author
-    - Editor
-    - Publishing Author
-    - Publishing Editor
-    - Owner
-    - Custom
-  - Select the checkbox to assign a permission to any of the following:
+        - Reviewer
+        - Contributor
+        - Nonediting Author
+        - Author
+        - Editor
+        - Publishing Author
+        - Publishing Editor
+        - Owner
+        - Custom
 
-    - Create items – User can create items
-    - Read items – User can read items
-    - Create Subfolders – User can create subfolders
-    - Folder owner – User can view and move the public folder, create subfolders, and set permissions for the folder, but cannot read, edit, delete, or create items
-    - Folder contact – Set user as the contact for the specified public folder
-    - Folder visible – User can view the specified public folder but cannot read or edit the items within
+    - Select the checkbox to assign a permission to any of the following:
 
-    __NOTE:__ Different permissions become automatically selected based on which permission level is selected. To override this default, select the checkbox of the unwanted permission to deselect it. If a desired checkbox is blocked by a black square, click the square to unblock the checkbox. The checkbox can then be selected or unselected.
-  - Edit items – Use the drop-down menu to determine user editing permissions from the following:
+        - Create items – User can create items
+        - Read items – User can read items
+        - Create Subfolders – User can create subfolders
+        - Folder owner – User can view and move the public folder, create subfolders, and set
+          permissions for the folder, but cannot read, edit, delete, or create items
+        - Folder contact – Set user as the contact for the specified public folder
+        - Folder visible – User can view the specified public folder but cannot read or edit the
+          items within
 
-    - No change
-    - None
-    - Allow own
-    - Deny any
-    - Own only
-    - All
-  - Delete items – Use the drop-down menu to determine user deletion permissions from the following:
+        **NOTE:** Different permissions become automatically selected based on which permission
+        level is selected. To override this default, select the checkbox of the unwanted permission
+        to deselect it. If a desired checkbox is blocked by a black square, click the square to
+        unblock the checkbox. The checkbox can then be selected or unselected.
 
-    - No change
-    - None
-    - Allow own
-    - Deny any
-    - Own only
-    - All
+    - Edit items – Use the drop-down menu to determine user editing permissions from the following:
+
+        - No change
+        - None
+        - Allow own
+        - Deny any
+        - Own only
+        - All
+
+    - Delete items – Use the drop-down menu to determine user deletion permissions from the
+      following:
+
+        - No change
+        - None
+        - Allow own
+        - Deny any
+        - Own only
+        - All
+
 - Overwrite folder permissions with these conditions
 - Remove unresolved SIDs
 
 ## Custom Attributes Window
 
-Use the Custom Attributes window to select custom attributes. It is a wizard page for the Custom Attributes operation.
+Use the Custom Attributes window to select custom attributes. It is a wizard page for the Custom
+Attributes operation.
 
 ![Custom Attributes Window](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/customattributes.webp)
 
 Select attributes using the following options:
 
 - Select a checkbox to set any custom attribute list
-- Select a Field from the dropdown list and click __Add__ to add the field to the custom attribute
+- Select a Field from the dropdown list and click **Add** to add the field to the custom attribute
 
-  __NOTE:__ Multiple fields may be added to a custom attribute. Fields added to a custom attribute can be modified or deleted manually.
+    **NOTE:** Multiple fields may be added to a custom attribute. Fields added to a custom attribute
+    can be modified or deleted manually.
 
 ## Replicas Window
 
@@ -111,9 +130,11 @@ Use the Replicas window to replicate servers. It is a wizard page for the Replic
 
 Replicate servers using the following options:
 
-- Select a server from the dropdown menu and click __Add__. The servers listed will be replicated.
-- Select a server from the list and click __Delete__ to remove it from the list of replicated servers
-- Select the __Remove last replica__ option to delete the replica created when the action was last run
+- Select a server from the dropdown menu and click **Add**. The servers listed will be replicated.
+- Select a server from the list and click **Delete** to remove it from the list of replicated
+  servers
+- Select the **Remove last replica** option to delete the replica created when the action was last
+  run
 
 ## Limits Window
 
@@ -121,7 +142,8 @@ Use the Limits window to select limits to the action. It is a wizard page for th
 
 ![Limits Window](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/publicfolder/limits.webp)
 
-Use the options to select any changes for the categories. If applicable, use the dropdown to select desired values related to the corresponding option.
+Use the options to select any changes for the categories. If applicable, use the dropdown to select
+desired values related to the corresponding option.
 
 - Issue warning
 - Prohibit post
@@ -131,7 +153,8 @@ Use the options to select any changes for the categories. If applicable, use the
 
 ## Delete Folder Window
 
-Use the Delete Folder window to select deletion settings for the action. It is a wizard page for the Delete operation.
+Use the Delete Folder window to select deletion settings for the action. It is a wizard page for the
+Delete operation.
 
 ![Delete Folder Window](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/publicfolder/deletefolder.webp)
 
@@ -139,9 +162,10 @@ Select deletion settings using the following options:
 
 - Select the delete method
 
-  - Soft – Delete the folder but retain a backup copy for a defined period of time
-  - Hard – Delete the folder permanently, without retaining a backup
+    - Soft – Delete the folder but retain a backup copy for a defined period of time
+    - Hard – Delete the folder permanently, without retaining a backup
+
 - Optionally, select a checkbox to apply any exception
 
-  - Do not delete folders with subfolders
-  - Do not delete folders with content
+    - Do not delete folders with subfolders
+    - Do not delete folders with content

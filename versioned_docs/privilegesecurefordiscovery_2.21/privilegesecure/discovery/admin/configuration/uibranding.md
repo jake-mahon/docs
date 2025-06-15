@@ -6,7 +6,10 @@ User Interface Branding
 
 ## Overview
 
-The purpose of this article is to explain how the branding at the top of the Privilege Secure application can be updated. This can be useful to match into a corporate branding strategy. It can also be very useful to differentiate between environments to avoid changes being made to an unintended environment.
+The purpose of this article is to explain how the branding at the top of the Privilege Secure
+application can be updated. This can be useful to match into a corporate branding strategy. It can
+also be very useful to differentiate between environments to avoid changes being made to an
+unintended environment.
 
 ## Main Document
 
@@ -28,7 +31,9 @@ Here we have uploaded a beta symbol to denote a beta environment
 
 ![Screen_Shot_2022-06-03_at_9.27.45_AM.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/6472930856855_screen_shot_2022-06-03_at_9.27.45_am.png)
 
-The color of the top bar can also be updated to match either a corporate branding, or, to denote a different environment. Click on the color within the Header Background Color section. This is especially helpful to ensure changes are made to the correct environment.
+The color of the top bar can also be updated to match either a corporate branding, or, to denote a
+different environment. Click on the color within the Header Background Color section. This is
+especially helpful to ensure changes are made to the correct environment.
 
 ![Screen_Shot_2022-06-03_at_9.23.39_AM.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/6472930856855_screen_shot_2022-06-03_at_9.23.39_am.png)
 
@@ -38,4 +43,5 @@ The color of the top bar can also be updated to match either a corporate brandin
 
 ![Screen_Shot_2022-06-03_at_9.34.07_AM.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/6472930856855_screen_shot_2022-06-03_at_9.34.07_am.png)
 
-The defaults are easily updated as needed. No services need to be restarted or changed for this to take effect. Once you hit the save icon it will take immediate effect.
+The defaults are easily updated as needed. No services need to be restarted or changed for this to
+take effect. Once you hit the save icon it will take immediate effect.

@@ -1,18 +1,19 @@
 # SendSmsMessageResult.Message
 
-Returns the [ShortMessage class](../shortmessage/class.md) object processed by the [ISmsGateway.SendShortMessage](../sendshortmessage.md) method.
+Returns the [ShortMessage class](../shortmessage/class.md) object processed by the
+[ISmsGateway.SendShortMessage](../sendshortmessage.md) method.
 
-__Namespace:__ Imanami.GroupID.DataTransferObjects.DataContracts.SMS
+**Namespace:** Imanami.GroupID.DataTransferObjects.DataContracts.SMS
 
-__Assembly:__ Imanami.GroupID.DataTransferObjects.dll
+**Assembly:** Imanami.GroupID.DataTransferObjects.dll
 
-__Syntax__
+**Syntax**
 
 ```
 public ShortMessage Message;
 ```
 
-__Return Value__
+**Return Value**
 
 Type: Imanami.GroupID.DataTransferObjects.DataContracts.SMS.ShortMessage
 

@@ -1,22 +1,30 @@
 # FS_WeekendActivity Job
 
-The FS_WeekendActivity job is comprised of analysis and reports which use the data collected by the __0.Collection__ job group to provide information on weekend file server activity and the user accounts which perform the most weekend activity. Best practices often dictate monitoring of weekend activity for potential security concerns.
+The FS_WeekendActivity job is comprised of analysis and reports which use the data collected by the
+**0.Collection** job group to provide information on weekend file server activity and the user
+accounts which perform the most weekend activity. Best practices often dictate monitoring of weekend
+activity for potential security concerns.
 
 ## Analysis Tasks for the FS_WeekendActivity Job
 
-View the analysis tasks by navigating to the __FileSystem__ > __5.Activity__ > __Suspicious Activity__ > __FS_WeekendActivity__ > __Configure__ node and select __Analysis__.
+View the analysis tasks by navigating to the **FileSystem** > **5.Activity** > **Suspicious
+Activity** > **FS_WeekendActivity** > **Configure** node and select **Analysis**.
 
-__CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
+**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+preconfigured for this job.
 
 ![Analysis Tasks for the FS_WeekendActivity Job](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/box/activity/suspiciousactivity/weekendactivityanalysis.webp)
 
 The following analysis tasks are selected by default:
 
-- Weekend Activity – Creates the SA_FS_WeekendActivity_Details table accessible under the job’s Results node
-- User Summary – Creates the SA_FS_WeekendActivity_UserSummary table accessible under the job’s Results node
+- Weekend Activity – Creates the SA_FS_WeekendActivity_Details table accessible under the job’s
+  Results node
+- User Summary – Creates the SA_FS_WeekendActivity_UserSummary table accessible under the job’s
+  Results node
 
-In addition to the tables and views created by the analysis tasks, the FS_WeekendActivity job produces the following pre-configured report:
+In addition to the tables and views created by the analysis tasks, the FS_WeekendActivity job
+produces the following pre-configured report:
 
-| Report | Description | Default Tags | Report Elements |
-| --- | --- | --- | --- |
-| Weekend Activity  (Most Active Users on Weekend) | This report shows users who are active on the weekend inside file shares. | None | This report is comprised of two elements:   - Bar Chart – Displays weekend share activity - top 5 users - Table – Provides details on weekend share activity by user |
+| Report                                          | Description                                                               | Default Tags | Report Elements                                                                                                                                                    |
+| ----------------------------------------------- | ------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Weekend Activity (Most Active Users on Weekend) | This report shows users who are active on the weekend inside file shares. | None         | This report is comprised of two elements: - Bar Chart – Displays weekend share activity - top 5 users - Table – Provides details on weekend share activity by user |

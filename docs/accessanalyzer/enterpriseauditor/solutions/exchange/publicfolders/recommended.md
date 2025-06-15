@@ -2,11 +2,12 @@
 
 Dependencies
 
-This job group requires the following items to be installed and configured on the Access Analyzer Console:
+This job group requires the following items to be installed and configured on the Access Analyzer
+Console:
 
 - Microsoft MAPI CDO installed
 - Access Analyzer MAPI CDO installed
-- __Settings__ > __Exchange__ node configured
+- **Settings** > **Exchange** node configured
 
 The following job groups need to be successfully run:
 
@@ -14,60 +15,75 @@ The following job groups need to be successfully run:
 - .Entra ID Inventory Job Group
 - Exchange > 1. HUB Metrics Job Group (Optional)
 
-  - Provides data on public folder metrics for on-premises Exchange environments and the last time a distribution list received mail
+    - Provides data on public folder metrics for on-premises Exchange environments and the last time
+      a distribution list received mail
 
 Targeted Hosts
 
-The Content, Growth and Size, and Permissions job groups use Remote PowerShell through the ExchangePS Data Collector and the host list should be set to the following:
+The Content, Growth and Size, and Permissions job groups use Remote PowerShell through the
+ExchangePS Data Collector and the host list should be set to the following:
 
 - Local Host
 
-The __Ownership__ > __Collection__ job group needs to be set to run against the appropriate host list:
+The **Ownership** > **Collection** job group needs to be set to run against the appropriate host
+list:
 
 - For Exchange 2010 or 2013 – Assign a single host from the 2010/2013 environment
 
-  - This can be assigned at the Collection job group level if the host has been added to a custom host list
-  - This can be assigned at the __Collection__ > __PF_FolderOwnership__ job level by adding the individual host at the __Configure__ > __Hosts__ node
+    - This can be assigned at the Collection job group level if the host has been added to a custom
+      host list
+    - This can be assigned at the **Collection** > **PF_FolderOwnership** job level by adding the
+      individual host at the **Configure** > **Hosts** node
 
-  __NOTE:__ The target host should be set to an on-premises Exchange server. Exchange Online is not support.
+    **NOTE:** The target host should be set to an on-premises Exchange server. Exchange Online is
+    not support.
 
 Connection Profile
 
-A Connection Profile must be set directly on the collection jobs. See the [Exchange PowerShell Permissions](../../../requirements/solutions/exchange/powershell.md) topic for credential requirements and assign the Connection Profile to the following jobs:
+A Connection Profile must be set directly on the collection jobs. See the
+[Exchange PowerShell Permissions](../../../requirements/solutions/exchange/powershell.md) topic for
+credential requirements and assign the Connection Profile to the following jobs:
 
-- __Content__ > __Collection__ > __PF_ContentScans__ Job
-- __Growth and Size__ > __Collection__ > __PF_FolderScans__ Job
-- __Permissions__ > __Collection__ > __PF_EntitlementScans__ Job
+- **Content** > **Collection** > **PF_ContentScans** Job
+- **Growth and Size** > **Collection** > **PF_FolderScans** Job
+- **Permissions** > **Collection** > **PF_EntitlementScans** Job
 
-See the [MAPI-Based Data Collector Permissions](../../../requirements/solutions/exchange/mapi.md) topic for credential requirements and assign the Connection Profile to the following job:
+See the [MAPI-Based Data Collector Permissions](../../../requirements/solutions/exchange/mapi.md)
+topic for credential requirements and assign the Connection Profile to the following job:
 
-- __Ownership__ > __Collection__ > __PF_FolderOwnership__ Job
+- **Ownership** > **Collection** > **PF_FolderOwnership** Job
 
-See the [Connection](../../../admin/settings/connection/overview.md) topic for additional information.
+See the [Connection](../../../admin/settings/connection/overview.md) topic for additional
+information.
 
 Schedule Frequency
 
-This job group has been designed to run weekly or bi-weekly to collect information about public folders in the environment. This job group may be run more frequently depending on the size of the public folders database and public folder count.
+This job group has been designed to run weekly or bi-weekly to collect information about public
+folders in the environment. This job group may be run more frequently depending on the size of the
+public folders database and public folder count.
 
-___RECOMMENDED:___ Run this job group on Fridays at 8:00 PM.
+**_RECOMMENDED:_** Run this job group on Fridays at 8:00 PM.
 
 History Retention
 
-History retention should not be enabled on this job group. History is kept through analysis tasks. Modify the following analysis task to customize the amount of history which is kept:
+History retention should not be enabled on this job group. History is kept through analysis tasks.
+Modify the following analysis task to customize the amount of history which is kept:
 
-| Job Name | Analysis Task Name | Default History |
-| --- | --- | --- |
-| PF_FolderSize | SET HISTORY RETENTION | 3 Months |
+| Job Name      | Analysis Task Name    | Default History |
+| ------------- | --------------------- | --------------- |
+| PF_FolderSize | SET HISTORY RETENTION | 3 Months        |
 
 Query Configuration
 
-The 5. Public Folders job group is designed to be run with the default query configurations. However, the following queries can be modified:
+The 5. Public Folders job group is designed to be run with the default query configurations.
+However, the following queries can be modified:
 
-- __Content__ > __Collection__ > __PF_ContentScans__ Job – __PF Contents__ Query
-- __Growth and Size__ > __Collection__ > __PF_FolderScans__ Job – __PF Size & Msg Counts__ Query
-- __Ownership__ > __Collection__ > __PF_FolderOwnership__ Job – __Probable Ownership__ Query
-- __Ownership__ > __Collection__ > __PF_FolderOwnership__ Job – __Assigned Ownership__ Query
-- __Permissions__ > __Collection__ > __PF_EntitlementScans__ Job – __Public Folder Permissions__ Query
+- **Content** > **Collection** > **PF_ContentScans** Job – **PF Contents** Query
+- **Growth and Size** > **Collection** > **PF_FolderScans** Job – **PF Size & Msg Counts** Query
+- **Ownership** > **Collection** > **PF_FolderOwnership** Job – **Probable Ownership** Query
+- **Ownership** > **Collection** > **PF_FolderOwnership** Job – **Assigned Ownership** Query
+- **Permissions** > **Collection** > **PF_EntitlementScans** Job – **Public Folder Permissions**
+  Query
 
 No other queries should be modified.
 
@@ -75,18 +91,19 @@ Analysis Configuration
 
 The 5. Public Folders job group should be run with the default analysis configurations.
 
-__CAUTION:__ Most of these analysis tasks are preconfigured and should never be modified or deselected. There are some that are deselected by default, as they are for troubleshooting purposes.
+**CAUTION:** Most of these analysis tasks are preconfigured and should never be modified or
+deselected. There are some that are deselected by default, as they are for troubleshooting purposes.
 
 The following analysis tasks should not be deselected, but their parameters can be modified:
 
-- __Growth and Size__ > __PF_FolderSize__ Job – __02.SET HISTORY RETENTION__ Analysis Task
+- **Growth and Size** > **PF_FolderSize** Job – **02.SET HISTORY RETENTION** Analysis Task
 
 Workflow
 
-__Step 1 –__ Set the host on the __Ownership__ > __Collection__ job group.
+**Step 1 –** Set the host on the **Ownership** > **Collection** job group.
 
-__Step 2 –__ Set a Connection Profile on the jobs that run data collection.
+**Step 2 –** Set a Connection Profile on the jobs that run data collection.
 
-__Step 3 –__ Schedule the 5. Public Folders job group to run weekly, biweekly, or as desired.
+**Step 3 –** Schedule the 5. Public Folders job group to run weekly, biweekly, or as desired.
 
-__Step 4 –__ Review the reports generated by the jobs.
+**Step 4 –** Review the reports generated by the jobs.

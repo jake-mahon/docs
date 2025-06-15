@@ -1,14 +1,16 @@
 # Get-SchemaAttributes
 
-The commandlet __Get-SchemaAttribute__ enables you to retrieve comprehensive list of schema attributes available for an identity store.
+The commandlet **Get-SchemaAttribute** enables you to retrieve comprehensive list of schema
+attributes available for an identity store.
 
-This cmdlet can be used to enlist the names of schema attributes required for various cmdlets like cmdlets related to identity store roles etc.
+This cmdlet can be used to enlist the names of schema attributes required for various cmdlets like
+cmdlets related to identity store roles etc.
 
 ## Syntax
 
 ```
-Get-SchemaAttributes  
-[-IdentityStoreName] <string>  
+Get-SchemaAttributes
+[-IdentityStoreName] <string>
 [<CommonParameters>]
 ```
 
@@ -18,7 +20,8 @@ Get-SchemaAttributes
 
 Example:
 
-This example retrieves a list of available schema attributes in alphabetical order for the AdStore9 identity store.
+This example retrieves a list of available schema attributes in alphabetical order for the AdStore9
+identity store.
 
 ```
 Get-SchemaAttributes -IdentityStoreName AdStore9

@@ -1,12 +1,13 @@
 # UX_SambaConfiguration Job
 
-The __0.Collection__ > __UX_SambaConfiguration__ job collects Samba configuration information which will be further analyzed to identify and categorize risk within audited Unix and Linux environments.
+The **0.Collection** > **UX_SambaConfiguration** job collects Samba configuration information which
+will be further analyzed to identify and categorize risk within audited Unix and Linux environments.
 
 ## Queries for the UX_SambaConfiguration Job
 
 The UX_SambaConfiguration job uses the Unix Data Collector for the following queries:
 
-__CAUTION:__ The queries are preconfigured for this job. Never modify the queries.
+**CAUTION:** The queries are preconfigured for this job. Never modify the queries.
 
 ![Queries for the UX_SambaConfiguration Job](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/unix/sharing/collection/sambaconfigurationqueries.webp)
 
@@ -17,12 +18,15 @@ The queries for the UX_SambaConfiguration Job are:
 
 ## Analysis Tasks for the UX_SambaConfiguration Job
 
-Navigate to the __Unix__ > __3.Sharing__ > __0.Collection__ > __UX_SambaConfiguration__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the **Unix** > **3.Sharing** > **0.Collection** > **UX_SambaConfiguration** >
+**Configure** node and select **Analysis** to view the analysis tasks.
 
-__CAUTION:__ Do not modify or deselect the selected analysis task. The analysis task is preconfigured for this job.
+**CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
+preconfigured for this job.
 
 ![Analysis Tasks for the UX_SambaConfiguration Job](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/unix/sharing/collection/sambaconfigurationanalysis.webp)
 
 The default analysis task is:
 
-- Creates Samba Parameters table from scan results – Creates the SA_UX_Sharing_SambaParameters table accessible under the job’s Results node
+- Creates Samba Parameters table from scan results – Creates the SA_UX_Sharing_SambaParameters table
+  accessible under the job’s Results node

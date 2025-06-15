@@ -6,33 +6,33 @@ The following Oracle reports are available for selections within the Resources p
 
 The following report is available at the Oracle node level:
 
-| Report | Description |
-| --- | --- |
+| Report                                                                                                                                                    | Description                                                                                                                        |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
 | [Sensitive Content Summary Report](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/oracle/sensitivecontentsummary.md) | Provides a count of databases where criteria matches were found in the targeted environment. This report includes a Details table. |
 
 ## Oracle > Instance Level Reports
 
 The following reports are available at the instance level:
 
-| Report | Description |
-| --- | --- |
+| Report                                                                                                                                                             | Description                                                                                                                                                                                                                                                                                                                                                                   |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [Sensitive Content Details Report](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/oracle/instance/sensitivecontentdetails.md) | Provides details of tables where criteria matches were found on the selected instance. This report includes a table with criteria matches visible to Access Information Center users with either Security Team Member or Administrator roles. The Matches table requires the storage of discovered sensitive data within the Enterprise Auditor database or it will be blank. |
-| [Sensitive Content Summary Report](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/oracle/instance/sensitivecontentsummary.md) | Provides a count of tables where criteria matches were found on the selected instance. This report includes a Details table. |
+| [Sensitive Content Summary Report](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/oracle/instance/sensitivecontentsummary.md) | Provides a count of tables where criteria matches were found on the selected instance. This report includes a Details table.                                                                                                                                                                                                                                                  |
 
 ## Oracle > Instance > Databases Node Reports
 
 The following reports are available at the Databases node level:
 
-| Report | Description |
-| --- | --- |
-| [Permissions Report](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/oracle/databaselibrary/permissions.md) | Shows the permissions for the trustee on the selected resource. |
+| Report                                                                                                                                                     | Description                                                                                                                                                                                                                                                                                                                                                                                           |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Permissions Report](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/oracle/databaselibrary/permissions.md)            | Shows the permissions for the trustee on the selected resource.                                                                                                                                                                                                                                                                                                                                       |
 | [Sensitive Content Report](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/oracle/databaselibrary/sensitivecontent.md) | Provides a list of paths and a hit count per table where criteria matches were found on the selected resource. This report includes a table with criteria matches visible to Access Information Center users with either Security Team Member or Administrator roles. The Matches table requires the storage of discovered sensitive data within the Enterprise Auditor database or it will be blank. |
 
 ## Oracle > Instance > Databases Node > Database and Library Level Reports
 
 The following reports are available at the database and library level:
 
-| Report | Description |
-| --- | --- |
-| [Permissions Report](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/oracle/databaselibrary/permissions.md) | Shows the permissions for the trustee on the selected resource. |
+| Report                                                                                                                                                     | Description                                                                                                                                                                                                                                                                                                                                                                                           |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Permissions Report](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/oracle/databaselibrary/permissions.md)            | Shows the permissions for the trustee on the selected resource.                                                                                                                                                                                                                                                                                                                                       |
 | [Sensitive Content Report](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/oracle/databaselibrary/sensitivecontent.md) | Provides a list of paths and a hit count per table where criteria matches were found on the selected resource. This report includes a table with criteria matches visible to Access Information Center users with either Security Team Member or Administrator roles. The Matches table requires the storage of discovered sensitive data within the Enterprise Auditor database or it will be blank. |

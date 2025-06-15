@@ -1,6 +1,7 @@
 # UniverseAccessControlRules
 
-Generates an access control rule which gives a profile the permission to access the query page and run queries.
+Generates an access control rule which gives a profile the permission to access the query page and
+run queries.
 
 ## Examples
 
@@ -14,9 +15,9 @@ The following example gives the permission to access the query page to the admin
 
 ## Properties
 
-| Property | Details |
-| --- | --- |
-| Profile   required | __Type__    String   __Description__   Identifier of the profile involved in the scaffolding. |
+| Property         | Details                                                                                |
+| ---------------- | -------------------------------------------------------------------------------------- |
+| Profile required | **Type** String **Description** Identifier of the profile involved in the scaffolding. |
 
 ## Generated XML
 

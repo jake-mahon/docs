@@ -1,21 +1,21 @@
 # Stop-Schedule
 
-The commandlet __Stop-Schedule__ stops a specified schedule if it is already running.
+The commandlet **Stop-Schedule** stops a specified schedule if it is already running.
 
 ## Syntax
 
 ```
-Stop-Schedule  
-[-ScheduleName <String>]  
-[-JobId <Int32>]  
-[-PassThru]  
-[-IdentityStoreId <Int32>]  
-[-SecurityToken <CustomClaimsPrincipal>]  
-[-WarningAction <ActionPreference>]  
-[-InformationAction <ActionPreference>]  
-[-WarningVariable <String>]  
-[-InformationVariable <String>]  
-[-PipelineVariable <String>]  
+Stop-Schedule
+[-ScheduleName <String>]
+[-JobId <Int32>]
+[-PassThru]
+[-IdentityStoreId <Int32>]
+[-SecurityToken <CustomClaimsPrincipal>]
+[-WarningAction <ActionPreference>]
+[-InformationAction <ActionPreference>]
+[-WarningVariable <String>]
+[-InformationVariable <String>]
+[-PipelineVariable <String>]
 [<CommonParameters>]
 ```
 

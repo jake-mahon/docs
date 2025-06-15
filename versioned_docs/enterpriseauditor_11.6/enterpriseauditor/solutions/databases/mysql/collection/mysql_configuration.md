@@ -1,12 +1,13 @@
 # MySQL_Configuration Job
 
-The MySQL_Configuration Job is designed to collect MySQL server instance and database configuration settings for use in the following analysis jobs and respective reports.
+The MySQL_Configuration Job is designed to collect MySQL server instance and database configuration
+settings for use in the following analysis jobs and respective reports.
 
 ## Queries for the MySQL_Configuration Job
 
 The MySQL_Configuration Job uses the SQL Data Collector for queries.
 
-__CAUTION:__ Do not modify the query. The query is preconfigured for this job.
+**CAUTION:** Do not modify the query. The query is preconfigured for this job.
 
 ![Query Selection](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/mongodb/collection/configurationjob.png)
 

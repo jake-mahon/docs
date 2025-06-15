@@ -1,13 +1,15 @@
 # How can I tell how a machine is licensed (by GPO, MDM, or XML file), and also know for what components it is licensed?
 
-You can use the ```ppupdate``` command line tool to both refresh cached policies and determine the licensing method. When the command is run, you can determine:
+You can use the `ppupdate` command line tool to both refresh cached policies and determine the
+licensing method. When the command is run, you can determine:
 
 1. Methods of licensure (Group Policy, MDM, and/or XML)
 2. Legacy License, Universal License, or Enterprise Full (aka Enterprise+) Universal License
 3. Start and Expiry Date
 4. Which GPO or from which XML file is performing the license
 5. Which Components are licensed
-6. Which Components are licensed for which Capabilities (for instance Netwrix Endpoint Policy Manager (formerly PolicyPak) Least Privilege Manager Standard vs. Complete).   
+6. Which Components are licensed for which Capabilities (for instance Netwrix Endpoint Policy
+   Manager (formerly PolicyPak) Least Privilege Manager Standard vs. Complete).  
    Tip: Enterprise Full licenses always show Complete for all components.
 7. When a specific component is expressly disabled via an ADMX policy.
 8. When a specific component is expressly disabled via the license file.
@@ -19,14 +21,16 @@ Some examples below of how a computer could be licensed and the types of output 
 
 ![681_1_image-1](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/license/681_1_image-1.webp)
 
-A second example, but this one using Enterprise Full (aka Enterprise+) licenses (only valid for CSE versions 23.6 and later):
+A second example, but this one using Enterprise Full (aka Enterprise+) licenses (only valid for CSE
+versions 23.6 and later):
 
 ![681_3_image_950x735](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/license/935_6_image-20230713042924-6_950x735.webp)
 
-- Use the ```PPUPDATE``` command which will always show if you are VALID and licensing type.
+- Use the `PPUPDATE` command which will always show if you are VALID and licensing type.
 - Example of a machine getting Universal licenses successfully:
 
-  __NOTE:__ Enterprise Full licenses are not honored by pre 23.6 CSEs. You MAY run multiple licenses "side by side" to transition from your original license to Enterprise Full licenses.
+    **NOTE:** Enterprise Full licenses are not honored by pre 23.6 CSEs. You MAY run multiple
+    licenses "side by side" to transition from your original license to Enterprise Full licenses.
 
 Additional Examples for various circumstances are below.
 
@@ -56,6 +60,8 @@ Additional Examples for various circumstances are below.
 
 ## Example 7: When a computer is licensed for SOME components via Endpoint Policy Manager Cloud
 
-__NOTE:__ The Expiry date expresses when the computer is required to check-in by to maintain the license; not the actual expiration date of all computers. (That information is only found in Endpoint Policy Manager Cloud Portal.)
+**NOTE:** The Expiry date expresses when the computer is required to check-in by to maintain the
+license; not the actual expiration date of all computers. (That information is only found in
+Endpoint Policy Manager Cloud Portal.)
 
 ![681_16_e7_954x1262](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/license/681_16_e7_954x1262.webp)

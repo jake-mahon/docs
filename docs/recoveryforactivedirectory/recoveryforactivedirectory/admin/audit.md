@@ -1,8 +1,9 @@
 # Audit Logs Page
 
-The Audit Logs page provides an audit trail of the actions performed by users in Recovery for Active Directory.
+The Audit Logs page provides an audit trail of the actions performed by users in Recovery for Active
+Directory.
 
-Click __Audit Logs__ in the left pane to open the Audit Logs page.
+Click **Audit Logs** in the left pane to open the Audit Logs page.
 
 ![Audit Logs Page](../../../../static/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/auditlog.webp)
 

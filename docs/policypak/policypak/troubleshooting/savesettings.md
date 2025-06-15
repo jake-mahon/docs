@@ -1,6 +1,7 @@
 # When I edit the GPO, the settings don't seem to "stick"
 
-This is a problem on DCs where they hold files open. So edits appear to work, until you close and reopen the GPO and find out that they aren't applying at all.
+This is a problem on DCs where they hold files open. So edits appear to work, until you close and
+reopen the GPO and find out that they aren't applying at all.
 
 Apply this KB to apply to all your DCs:
 

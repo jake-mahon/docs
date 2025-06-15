@@ -1,8 +1,10 @@
 # AppSets: Why are there some areas of the pre-configured AppSet greyed out or not accessable?
 
-Netwrix Endpoint Policy Manager (formerly PolicyPak)'s pre-configured AppSets can manage a lot of settings, but not all settings in every application.
+Netwrix Endpoint Policy Manager (formerly PolicyPak)'s pre-configured AppSets can manage a lot of
+settings, but not all settings in every application.
 
-For instance, in this AppSet (Microsoft Word 2010) you can see some areas which are not configurable.
+For instance, in this AppSet (Microsoft Word 2010) you can see some areas which are not
+configurable.
 
 ![296_1_image001](../../../../../../static/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/appset/296_1_image001.jpg)
 
@@ -16,6 +18,7 @@ We try to document these in the Readme file which accompanies all pre-configured
 
 That being said, sometimes we overlook settings that we might be able to get!
 
-So, if you see something which is a "must-have" for you, just ask, and we can try to double-check it to see if it's possible to achieve.
+So, if you see something which is a "must-have" for you, just ask, and we can try to double-check it
+to see if it's possible to achieve.
 
 Please post in the SUPPORT FORUMS for this kind of request. Thanks.

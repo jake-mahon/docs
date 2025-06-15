@@ -2,10 +2,13 @@
 
 This page lists all the Microsoft Teams groups that you own.
 
-You can [Modify Search Directory](/versioned_docs/groupid_11.0/groupid/portal/group/allgroups.md#modify-search-directory) to search teams and add [Filter All Groups](/versioned_docs/groupid_11.0/groupid/portal/group/allgroups.md#filter-all-groups)by clicking __My Teams Grid Filters__.
-All the teams matching the filters will be displayed.
+You can
+[Modify Search Directory](/versioned_docs/groupid_11.0/groupid/portal/group/allgroups.md#modify-search-directory)
+to search teams and add
+[Filter All Groups](/versioned_docs/groupid_11.0/groupid/portal/group/allgroups.md#filter-all-groups)by
+clicking **My Teams Grid Filters**. All the teams matching the filters will be displayed.
 
-__See Also__
+**See Also**
 
 - [My Groups](/versioned_docs/groupid_11.0/groupid/portal/group/mygroups.md)
 - [Groups](/versioned_docs/groupid_11.0/groupid/portal/group/create/overview.md)

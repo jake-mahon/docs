@@ -13,18 +13,18 @@ POST
 #### Sample Response Syntax
 
 ```
-{  
-    "currentDirectoryServer": null,  
-    "exceptionMessagesAttributeWise": null,  
-    "data": 4,  
-    "identityStoreObject": null,  
-    "name": "b3529c0e-e62e-44d7-ba1e-b89f610bd186",  
-    "errorCode": null,  
-    "details": [  
-    ],  
-    "type": 8,  
-    "message": null,  
-    "status": 0  
+{
+    "currentDirectoryServer": null,
+    "exceptionMessagesAttributeWise": null,
+    "data": 4,
+    "identityStoreObject": null,
+    "name": "b3529c0e-e62e-44d7-ba1e-b89f610bd186",
+    "errorCode": null,
+    "details": [
+    ],
+    "type": 8,
+    "message": null,
+    "status": 0
 }
 ```
 

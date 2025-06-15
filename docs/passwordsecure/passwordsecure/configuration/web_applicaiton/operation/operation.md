@@ -1,12 +1,16 @@
 # Operation
 
-Operation of the Web Application has been based as far as possible on the operation of the Netwrix Password Secure client. Nevertheless, there are some differences that need to be noted and they are described here.
+Operation of the Web Application has been based as far as possible on the operation of the Netwrix
+Password Secure client. Nevertheless, there are some differences that need to be noted and they are
+described here.
 
-NOTE: There is also a Basic view in the Web Application. Everything worth knowing can be found at the following link: web view Basic view
+NOTE: There is also a Basic view in the Web Application. Everything worth knowing can be found at
+the following link: web view Basic view
 
 #### Login
 
-There is no database profile on the Web Application. All databases approved for the Web Application will be made available. The following information needs to be entered to log in:
+There is no database profile on the Web Application. All databases approved for the Web Application
+will be made available. The following information needs to be entered to log in:
 
 Database name
 
@@ -16,20 +20,26 @@ Password
 
 ![Login WebClient](../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/web_applicaiton/operation/installation_with_parameters_167-en.webp)
 
-After successfully logging in, the last database name used and the last registered user will be saved. You thus only need to enter the password for the next login.
+After successfully logging in, the last database name used and the last registered user will be
+saved. You thus only need to enter the password for the next login.
 
 #### Transferring login data via the URL
 
-The __database name__ and __user name__ can be transferred directly via the URL. The following parameters are used here:
+The **database name** and **user name** can be transferred directly via the URL. The following
+parameters are used here:
 
-- __database__ for transferring the database nam
-- __username__ for transferring the user name
+- **database** for transferring the database nam
+- **username** for transferring the user name
 
-The parameters are simply attached to the URL for the Web Application and separated from one another with a __&__.
+The parameters are simply attached to the URL for the Web Application and separated from one another
+with a **&**.
 
 Example
 
-You want to call up the Web Application under __https://psr_Web Application.firma.com.__ In the process, you want the login mask to be directly filled with the database __Passwords__ and the user name __Anderson__. The following URL is then used: __https://psr_Web Application.firma.com/authentication/ login?database=Passwords&username=Anderson__
+You want to call up the Web Application under **https://psr_Web Application.firma.com.** In the
+process, you want the login mask to be directly filled with the database **Passwords** and the user
+name **Anderson**. The following URL is then used: **https://psr_Web
+Application.firma.com/authentication/ login?database=Passwords&username=Anderson**
 
 NOTE: It is possible to only transfer the database. The user name is not absolutely necessary.
 
@@ -65,4 +75,5 @@ The reading pane shows you details about the relevantly selected element.
 
 7. [Footer](footer/footer.md)
 
-Various information about the record is displayed in the footer. For example, logbook entries or the history.
+Various information about the record is displayed in the footer. For example, logbook entries or the
+history.

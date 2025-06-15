@@ -1,22 +1,27 @@
 # Classifier
 
-The __Classifier__ configuration tab contains the classification engine settings. By default, only standard options are displayed. To view advanced options, click the "wrench" icon at __Settings__ in the bottom-right corner.
+The **Classifier** configuration tab contains the classification engine settings. By default, only
+standard options are displayed. To view advanced options, click the "wrench" icon at **Settings** in
+the bottom-right corner.
 
-Each option has an associated “__i__” which describes the nature of the setting.
+Each option has an associated “**i**” which describes the nature of the setting.
 
 ![core_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/configuration/core_thumb_0_0.png)
 
-__NOTE:__ To view a complete list of the __Config__ settings, click the Details tab. The list also has an indication of the values that have been changed from the default setting.
+**NOTE:** To view a complete list of the **Config** settings, click the Details tab. The list also
+has an indication of the values that have been changed from the default setting.
 
 The following options can be configured for Classifier:
 
 - [General Options](/versioned_docs/dataclassification_5.6.2/ndc/configuration/core/classifier_general.md)
 - [Monitored Content](/versioned_docs/dataclassification_5.6.2/ndc/configuration/core/classifier_monitored_content.md)
-- [conceptClassifier App Options](/versioned_docs/dataclassification_5.6.2/ndc/configuration/core/classifier_app.md) (advanced settings)
+- [conceptClassifier App Options](/versioned_docs/dataclassification_5.6.2/ndc/configuration/core/classifier_app.md)
+  (advanced settings)
 - [Engine Options](/versioned_docs/dataclassification_5.6.2/ndc/configuration/core/classifier_engine.md)
 
 You can also use the following option buttons:
 
 - Start Product Tour—Run a product tour taking you around the key areas of the product.
-- Run Cleaner—Run built-in tool to automate maintenance operations. [See Index Maintenance for more information.](/versioned_docs/dataclassification_5.6.2/ndc/utilities/utilities_cleaner.md)
+- Run Cleaner—Run built-in tool to automate maintenance operations.
+  [See Index Maintenance for more information.](/versioned_docs/dataclassification_5.6.2/ndc/utilities/utilities_cleaner.md)
 - Reset Cache—Force the QS caches to be reset.

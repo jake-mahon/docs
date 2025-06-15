@@ -52,21 +52,19 @@ Update Section from
 to
 
 ```
-<emailSettings>  
-    <sendTo />  
+<emailSettings>
+    <sendTo />
 </emailSettings>
 ```
 
-and save XML file, then reimport the AA
-policy.
+and save XML file, then reimport the AA policy.
 
 ### Possible Fix #3.
 
-Edit the Admin Approval policy in the
-Netwrix Endpoint Policy Manager (formerly PolicyPak) Admin Console (MMC) and
-set the Email option "Use of email:" under the Email tab to "Not Configured" then save
-the policy.  Afterward, you can edit the AA policy again to add in the correct email settings if
-needed.
+Edit the Admin Approval policy in the Netwrix Endpoint Policy Manager (formerly PolicyPak) Admin
+Console (MMC) and set the Email option "Use of email:" under the Email tab to "Not Configured" then
+save the policy.  Afterward, you can edit the AA policy again to add in the correct email settings
+if needed.
 
 ![994_3_image-20230926224931-3](../../../../../../static/img/product_docs/policypak/policypak/troubleshooting/error/leastprivilege/994_3_image-20230926224931-3.webp)
 

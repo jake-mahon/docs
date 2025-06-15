@@ -10,4 +10,5 @@ Learn more about how to …
 - View the reasons given by your team members for revealing passwords in plain text
 - And much more!
 
-Simply contact your IT department for further information on the advanced view of Netwrix Password Secure.
+Simply contact your IT department for further information on the advanced view of Netwrix Password
+Secure.

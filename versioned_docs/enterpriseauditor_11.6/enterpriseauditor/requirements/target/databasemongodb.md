@@ -1,6 +1,7 @@
 # Target MongoDB Requirements, Permissions, and Ports
 
-The Enterprise Auditor for Databases Solution provides the ability to audit and monitor MongoDB database environments to collect permissions and sensitive data. It scans:
+The Enterprise Auditor for Databases Solution provides the ability to audit and monitor MongoDB
+database environments to collect permissions and sensitive data. It scans:
 
 - MongoDB 5.0
 - MongoDB 6.0
@@ -24,13 +25,16 @@ For MongoDB Prerequisite
 
 - Read Only access to ALL databases in the MongoDB Cluster including:
 
-  - Admin databases
-  - Config databases
-  - Local databases
+    - Admin databases
+    - Config databases
+    - Local databases
+
 - Read Only access to any user databases is required for sensitive data discovery
 - Read access to NOSQL instance
 - Read access to MongoDB instance
-- Requires NOSQL Full-Text and Semantic Extractions for Search feature to be installed on the target NOSQL instances when using the Scans full rows for sensitive data option on the Options wizard page
+- Requires NOSQL Full-Text and Semantic Extractions for Search feature to be installed on the target
+  NOSQL instances when using the Scans full rows for sensitive data option on the Options wizard
+  page
 
 ## Ports
 

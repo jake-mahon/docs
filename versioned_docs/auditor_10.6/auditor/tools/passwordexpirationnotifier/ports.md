@@ -2,9 +2,11 @@
 
 Review a protocol and port required for Netwrix Auditor Password Expiration Notifier.
 
-__NOTE:__ Tip for reading the table – On the compuer where the Netwrix Auditor server resides (source), allow outbound connections to remote 389 the TCP port. On domain controllers in your domain (target), allow inbound connections to the local 389 TCP port.
+**NOTE:** Tip for reading the table – On the compuer where the Netwrix Auditor server resides
+(source), allow outbound connections to remote 389 the TCP port. On domain controllers in your
+domain (target), allow inbound connections to the local 389 TCP port.
 
-| Port | Protocol | Source | Target | Purpose |
-| --- | --- | --- | --- | --- |
-| Password Expiration Notifier |  |  |  |  |
-| 389 | TCP | Netwrix Auditor Server | Domain controllers | LDAP  Common queries |
+| Port                         | Protocol | Source                 | Target             | Purpose             |
+| ---------------------------- | -------- | ---------------------- | ------------------ | ------------------- |
+| Password Expiration Notifier |          |                        |                    |                     |
+| 389                          | TCP      | Netwrix Auditor Server | Domain controllers | LDAP Common queries |

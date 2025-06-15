@@ -1,6 +1,7 @@
 # Event Logging
 
-GroupID employs Windows logging and file logging to maintain event logs for all GroupID clients and services, namely:
+GroupID employs Windows logging and file logging to maintain event logs for all GroupID clients and
+services, namely:
 
 - Admin Center
 - GroupID portals
@@ -12,31 +13,37 @@ GroupID employs Windows logging and file logging to maintain event logs for all 
 - Scheduler service
 - GroupID Management Shell
 
-In case of multiple deployments of a client or service, separate logs are maintained for each deployment instance.
+In case of multiple deployments of a client or service, separate logs are maintained for each
+deployment instance.
 
-Use the __Applications__ node in Admin Center to manage Windows logging and file logging for each of the above (except for Management Shell).
+Use the **Applications** node in Admin Center to manage Windows logging and file logging for each of
+the above (except for Management Shell).
 
 ## File Logging
 
-File logging records events for GroupID clients, scheduled jobs, and services in log files. Log file location depends on where the respective instance of the client or service is deployed.
+File logging records events for GroupID clients, scheduled jobs, and services in log files. Log file
+location depends on where the respective instance of the client or service is deployed.
 
-__For a native IIS and remote IIS deployment:__
+**For a native IIS and remote IIS deployment:**
 
 1. Launch IIS and navigate to:  
    …\Sites\<site that hosts the client or service instance>\<client or service instance name>  
    Example:  
    …\Sites\GroupIDSite11\GroupIDDataService
-2. Right-click this directory and select __Explore__.
-3. Locate the __Logs__ folder to read the logs.
+2. Right-click this directory and select **Explore**.
+3. Locate the **Logs** folder to read the logs.
 
-Events are logged in a text file. When the file size reaches 100 MB, GroupID archives it in the same directory by replacing the file extension with the suffix .Log.X and then creating a new text file with the original name. X in .Log.X is a number from
-1 to 10 representing the archiving order; where ‘1’ denotes the most recent file.
+Events are logged in a text file. When the file size reaches 100 MB, GroupID archives it in the same
+directory by replacing the file extension with the suffix .Log.X and then creating a new text file
+with the original name. X in .Log.X is a number from 1 to 10 representing the archiving order; where
+‘1’ denotes the most recent file.
 
 ## Windows Logging
 
-Under Windows logging, events for GroupID clients and services are logged to the Windows application log.
+Under Windows logging, events for GroupID clients and services are logged to the Windows application
+log.
 
-__See Also__
+**See Also**
 
 - [Configure History Tracking](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/directoryservice/historytracking.md)
 - [GroupID Applications](/versioned_docs/groupid_11.0/groupid/admincenter/portal/applications.md)

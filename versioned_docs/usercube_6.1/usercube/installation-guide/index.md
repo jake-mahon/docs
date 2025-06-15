@@ -4,7 +4,7 @@ This guide is designed to help you install Usercube in a production environment.
 
 ## Target Audience
 
-This guide is intended for __system administrators__ and __system architects__.
+This guide is intended for **system administrators** and **system architects**.
 
 Required knowledge includes:
 
@@ -14,4 +14,6 @@ Required knowledge includes:
 
 ## Overview
 
-The installation of Usercube requires architectural decisions to be made. An [overview](/versioned_docs/usercube_6.1/usercube/installation-guide/overview/index.md) of the architecture and available configurations will help you make informed decisions.
+The installation of Usercube requires architectural decisions to be made. An
+[overview](/versioned_docs/usercube_6.1/usercube/installation-guide/overview/index.md) of the
+architecture and available configurations will help you make informed decisions.

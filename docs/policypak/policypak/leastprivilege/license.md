@@ -1,6 +1,7 @@
 # What is the difference between Endpoint Privilege Manager Standard and Complete licenses?
 
-The Netwrix Endpoint Policy Manager (formerly PolicyPak) Least Privilege Manager UI has designations for Standard and Complete licenses.
+The Netwrix Endpoint Policy Manager (formerly PolicyPak) Least Privilege Manager UI has designations
+for Standard and Complete licenses.
 
 ![839_1_img-01](../../../../static/img/product_docs/policypak/policypak/leastprivilege/839_1_img-01.jpg)
 

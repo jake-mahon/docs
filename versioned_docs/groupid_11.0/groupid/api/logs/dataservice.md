@@ -1,6 +1,8 @@
 # Data Service Logs
 
-Use this API to get GroupID Data service log. See the [Data Service](/versioned_docs/groupid_11.0/groupid/admincenter/service/dataservice/overview.md) for additional information on Data service.
+Use this API to get GroupID Data service log. See the
+[Data Service](/versioned_docs/groupid_11.0/groupid/admincenter/service/dataservice/overview.md) for
+additional information on Data service.
 
 ## Endpoint
 

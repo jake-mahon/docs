@@ -1,8 +1,13 @@
 # Subscriptions and Exports Page
 
-A subscription sends the report results for an investigation to recipients via email as an attachment. An export puts the report results for an investigation into a desired format. The Subscriptions and Exports page provides a list of investigations that are either subscribed to or scheduled for export.
+A subscription sends the report results for an investigation to recipients via email as an
+attachment. An export puts the report results for an investigation into a desired format. The
+Subscriptions and Exports page provides a list of investigations that are either subscribed to or
+scheduled for export.
 
-Click __Investigate__ in the application header bar to open the Investigations interface. Then click __Subscriptions and exports__ in the bottom left corner of the page to open the Subscriptions and Exports page.
+Click **Investigate** in the application header bar to open the Investigations interface. Then click
+**Subscriptions and exports** in the bottom left corner of the page to open the Subscriptions and
+Exports page.
 
 ![Investigations interface on the Subscriptions and Exports page](/img/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/investigations/subscriptionsexports.png)
 
@@ -13,35 +18,46 @@ The table has the following columns:
 - Subscription Name – Subscription name of an investigation
 - Status – Indicates the subscription status: Scheduled or Disabled
 - Investigation – Displays the name of the investigation that is associated with the subscription.
-- Last run result – Displays the status of the last scheduled report, which include Never run, Delivered, Failed to deliver, or Failed to complete
+- Last run result – Displays the status of the last scheduled report, which include Never run,
+  Delivered, Failed to deliver, or Failed to complete
 - Schedule – Displays the schedule frequency of the subscription or export
 - Last Run on – Date timestamp of the last scheduled report
 - Next Run – Date timestamp of the next scheduled report
 - Recipients – List of email recipients subscribed to the report
 - Shared folder – Display name for the configured shared folder where scheduled exports are stored
-- Actions – Menu option per table row. This column does not have a header. It is represented by three dots and shows up when you hover over a row.
+- Actions – Menu option per table row. This column does not have a header. It is represented by
+  three dots and shows up when you hover over a row.
 
-Click a row to open the Subscription to or Schedule export window where you can edit the subscription or export.
+Click a row to open the Subscription to or Schedule export window where you can edit the
+subscription or export.
 
-See the [Add Subscription](/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/investigations/options/subscription.md) topic and the [Export Report](/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/investigations/options/export.md) topic for additional information.
+See the
+[Add Subscription](/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/investigations/options/subscription.md)
+topic and the
+[Export Report](/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/investigations/options/export.md)
+topic for additional information.
 
 ## Table Features
 
-The table has several features accessed through the menu button that appears when you hover over a column header.
+The table has several features accessed through the menu button that appears when you hover over a
+column header.
 
 ![Table column menu](/img/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/investigations/tableoptions.png)
 
-In addition to the arrow that appears to sort the table in ascending or descending order, the menu contains the following options:
+In addition to the arrow that appears to sort the table in ascending or descending order, the menu
+contains the following options:
 
 - Unsort – Removes all sorting from the table
 - Sort by ASC – Sorts the table in ascending order for the selected column
 - Sort by DESC – Sorts the table in descending order for the selected column
 - Filter – Opens the Table Filter window to build a filter statement for the table
 - Hide – Hides the selected column from the table
-- Show columns – Opens the Column window with a list of all available columns for the table and a toggle button to show or hide each column
+- Show columns – Opens the Column window with a list of all available columns for the table and a
+  toggle button to show or hide each column
 - Pin to left – Moves the column to the far left of the table and pins it there
 - Pin to right – Moves the column to the far right of the table and pins it there
-- Unpin – Returns the column to its original location. This option appears if the column has been pinned.
+- Unpin – Returns the column to its original location. This option appears if the column has been
+  pinned.
 
 ## Build a Table Filter Statement
 
@@ -51,13 +67,16 @@ The Table Filter window opens from the table column menu.
 
 Follow the steps to build a filter statement.
 
-__Step 1 –__ Select a table column from the __Columns__ drop-down menu.
+**Step 1 –** Select a table column from the **Columns** drop-down menu.
 
-__Step 2 –__ Select an operator from the __Operator__ drop-down menu. Options include: contains, equals, starts with, ends with, is empty, is not empty, and is any of.
+**Step 2 –** Select an operator from the **Operator** drop-down menu. Options include: contains,
+equals, starts with, ends with, is empty, is not empty, and is any of.
 
-__Step 3 –__ Enter the text string for the filter value in the __Value__ box.
+**Step 3 –** Enter the text string for the filter value in the **Value** box.
 
-__Step 4 –__ To build a complex filter statement, click __Add filter__. A new row appears with an additional drop-down menu for creating an _AND_ or an _OR_ statement. Then repeat Steps 1-3 for the row.
+**Step 4 –** To build a complex filter statement, click **Add filter**. A new row appears with an
+additional drop-down menu for creating an _AND_ or an _OR_ statement. Then repeat Steps 1-3 for the
+row.
 
 The table is filtered to matches of the filter.
 
@@ -69,8 +88,10 @@ The Actions column holds a menu with actions that apply to the selected subscrip
 
 The options include:
 
-- Duplicate – Opens the Subscription to or Schedule export window to configure another subscription or export for the associated investigation
-- Edit –Opens the Subscription to or Schedule export window to modify the current subscription or export
+- Duplicate – Opens the Subscription to or Schedule export window to configure another subscription
+  or export for the associated investigation
+- Edit –Opens the Subscription to or Schedule export window to modify the current subscription or
+  export
 - Run Now – Runs the subscription or export report immediately
 - Turn off – Disables the subscription or export
 - Turn on – Enables the subscription or export

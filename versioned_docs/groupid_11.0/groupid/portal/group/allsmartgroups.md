@@ -1,12 +1,18 @@
 # Smart Groups
 
-This view lists only the Smart Groups created using GroupID in the connected identity store. It does not list expired or deleted Smart Groups. To view the expired or deleted groups, select the [Expired Groups](/versioned_docs/groupid_11.0/groupid/portal/group/allexpiredgroups.md) or
-[Deleted Groups](/versioned_docs/groupid_11.0/groupid/portal/group/recyclebin/overview.md) respectively.
+This view lists only the Smart Groups created using GroupID in the connected identity store. It does
+not list expired or deleted Smart Groups. To view the expired or deleted groups, select the
+[Expired Groups](/versioned_docs/groupid_11.0/groupid/portal/group/allexpiredgroups.md) or
+[Deleted Groups](/versioned_docs/groupid_11.0/groupid/portal/group/recyclebin/overview.md)
+respectively.
 
-You can [Modify Search Directory](/versioned_docs/groupid_11.0/groupid/portal/group/allgroups.md#modify-search-directory) to search smart groups and add [Filter All Groups](/versioned_docs/groupid_11.0/groupid/portal/group/allgroups.md#filter-all-groups)by clicking __Smart Group Grid Filter__.
-All the smart groups matching the filters will be displayed.
+You can
+[Modify Search Directory](/versioned_docs/groupid_11.0/groupid/portal/group/allgroups.md#modify-search-directory)
+to search smart groups and add
+[Filter All Groups](/versioned_docs/groupid_11.0/groupid/portal/group/allgroups.md#filter-all-groups)by
+clicking **Smart Group Grid Filter**. All the smart groups matching the filters will be displayed.
 
-__See Also__
+**See Also**
 
 - [All Groups](/versioned_docs/groupid_11.0/groupid/portal/group/allgroups.md)
 - [Groups](/versioned_docs/groupid_11.0/groupid/portal/group/create/overview.md)

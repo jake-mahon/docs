@@ -1,6 +1,7 @@
 # Set Up Authentication Types
 
-The following topics guide you on how to set up different authentication types for an identity store and enforce them for a security role.
+The following topics guide you on how to set up different authentication types for an identity store
+and enforce them for a security role.
 
 - [Set up Authentication via Security Questions](securityquestions.md)
 - [SMS Authentication](../identitystore/configure/security/smsauthentication.md)
@@ -10,6 +11,6 @@ The following topics guide you on how to set up different authentication types f
 - [Set up Authentication via YubiKey](yubikey.md)
 - [Set up Authentication via Windows Hello](windowshello.md)
 
-__See Also__
+**See Also**
 
 - [Authentication Policy](../identitystore/configure/authpolicy.md)

@@ -1,6 +1,6 @@
 # Forms module
 
-The following functions are currently available in the __forms module__:
+The following functions are currently available in the **forms module**:
 
 - Add
 - Open
@@ -13,4 +13,5 @@ The following functions are currently available in the __forms module__:
 - Print
 - Export
 
-NOTE: The Web Application module __forms__ is based on the client module of the same name. Both modules have a different scope and design but are almost identical to use.
+NOTE: The Web Application module **forms** is based on the client module of the same name. Both
+modules have a different scope and design but are almost identical to use.

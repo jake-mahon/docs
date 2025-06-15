@@ -13,21 +13,21 @@ POST
 #### Sample Request Syntax
 
 ```
-{  
-    "connectionString": "Data Source='MSSQL';Initial Catalog=ExternalDB;Password='webdir123R';User ID='sa';Integrated Security=false;",  
-    "dataSourceType": 3  
+{
+    "connectionString": "Data Source='MSSQL';Initial Catalog=ExternalDB;Password='webdir123R';User ID='sa';Integrated Security=false;",
+    "dataSourceType": 3
 }
 ```
 
 #### Sample Response Syntax
 
 ```
-{  
-    "ConnectionString": "'MSSQL'",  
-    "Database": "ExternalDB",  
-    "Password": "'webdir123R'",  
-    "UserName": "'sa'",  
-    "WindowsAuthentication": "true"  
+{
+    "ConnectionString": "'MSSQL'",
+    "Database": "ExternalDB",
+    "Password": "'webdir123R'",
+    "UserName": "'sa'",
+    "WindowsAuthentication": "true"
 }
 ```
 

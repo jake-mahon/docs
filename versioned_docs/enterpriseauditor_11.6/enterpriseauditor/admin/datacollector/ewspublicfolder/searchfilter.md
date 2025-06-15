@@ -1,12 +1,13 @@
 # EWSPublicFolder: Search Filter
 
-The Search filter settings page applies a filter used to search mailboxes in the environment. It is a wizard page for the category of:
+The Search filter settings page applies a filter used to search mailboxes in the environment. It is
+a wizard page for the category of:
 
 - PublicFolder search
 
 ![EWS Public Folder Data Collector Wizard Search Filter page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/ewsmailbox/searchfilter.png)
 
-Click __Add Filter__ to open the Filter Wizard
+Click **Add Filter** to open the Filter Wizard
 
 ## EWSPublicFolder Filter Wizard (FW)
 

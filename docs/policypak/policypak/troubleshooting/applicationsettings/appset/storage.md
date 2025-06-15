@@ -3,8 +3,10 @@
 Here's the rule of thumb:
 
 - If YOU are Domain Administrator, and you CAN create a Central Store, you should do that.
-- If YOU are NOT a Domain Admin (and therefore you CANNOT create the Central Store) then you should use a Share Based Store instead.
+- If YOU are NOT a Domain Admin (and therefore you CANNOT create the Central Store) then you should
+  use a Share Based Store instead.
 
-Here's a video on how to do that (using Netwrix Endpoint Policy Manager (formerly PolicyPak) Application Manager)
+Here's a video on how to do that (using Netwrix Endpoint Policy Manager (formerly PolicyPak)
+Application Manager)
 
 [Using Shares to Store Your Paks (Share-Based Storage)](../../../video/applicationsettings/shares.md)

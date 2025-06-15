@@ -5,11 +5,11 @@ Use the Remove-Contact cmdlet to delete a contact from the directory.
 ## Syntax
 
 ```
-Remove-Contact  
--Identity <string[]>  
-[-IdentityStoreId <int>]  
-[-SecurityToken <CustomClaimsPrincipal>]  
-[-Credential <pscredential>]  
+Remove-Contact
+-Identity <string[]>
+[-IdentityStoreId <int>]
+[-SecurityToken <CustomClaimsPrincipal>]
+[-Credential <pscredential>]
 [<CommonParameters>]
 ```
 

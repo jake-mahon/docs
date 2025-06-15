@@ -2,17 +2,18 @@
 
 Generates execution rights for the create, update, delete workflows.
 
-Some prerequisites are necessary to be able to launch this scaffolding.
-A entity type must be created with the following naming convention: "Worfklow_" + idenfitier type entity.
-Three workflows must be created with the following names:
+Some prerequisites are necessary to be able to launch this scaffolding. A entity type must be
+created with the following naming convention: "Worfklow\_" + idenfitier type entity. Three workflows
+must be created with the following names:
 
-- entity type identifier + "_Create";
-- entity type identifier + "_Update";
-- entity type identifier + "_Delete";
+- entity type identifier + "\_Create";
+- entity type identifier + "\_Update";
+- entity type identifier + "\_Delete";
 
 The scaffolding generates the following scaffoldings:
 
-- [ViewAccessControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/resources/viewaccesscontrolrules/index.md): Generates the permissions to view an entity type's resources.
+- [ViewAccessControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/resources/viewaccesscontrolrules/index.md):
+  Generates the permissions to view an entity type's resources.
 
 ## Examples
 
@@ -24,10 +25,10 @@ The scaffolding generates the following scaffoldings:
 
 ## Properties
 
-| Property | Details |
-| --- | --- |
-| EntityType   required | __Type__    String   __Description__   Identifier of the entity type involved in the scaffolding. |
-| Profile   required | __Type__    String   __Description__   Identifier of the profile involved in the scaffolding. |
+| Property            | Details                                                                                    |
+| ------------------- | ------------------------------------------------------------------------------------------ |
+| EntityType required | **Type** String **Description** Identifier of the entity type involved in the scaffolding. |
+| Profile required    | **Type** String **Description** Identifier of the profile involved in the scaffolding.     |
 
 ## Generated XML
 

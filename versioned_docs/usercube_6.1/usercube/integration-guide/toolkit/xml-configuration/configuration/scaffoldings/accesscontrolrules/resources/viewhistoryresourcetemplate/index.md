@@ -1,6 +1,7 @@
 # ViewHistoryResourceTemplate
 
-Generates an access control rule giving to the specified profile the permission to browse the resources history of the specified entity type.
+Generates an access control rule giving to the specified profile the permission to browse the
+resources history of the specified entity type.
 
 ## Examples
 
@@ -12,10 +13,10 @@ Generates an access control rule giving to the specified profile the permission 
 
 ## Properties
 
-| Property | Details |
-| --- | --- |
-| EntityType   optional | __Type__    String   __Description__   Identifier of the entity type involved in the scaffolding. |
-| Profile   optional | __Type__    String   __Description__   Identifier of the profile involved in the scaffolding. |
+| Property            | Details                                                                                    |
+| ------------------- | ------------------------------------------------------------------------------------------ |
+| EntityType optional | **Type** String **Description** Identifier of the entity type involved in the scaffolding. |
+| Profile optional    | **Type** String **Description** Identifier of the profile involved in the scaffolding.     |
 
 ## Generated XML
 

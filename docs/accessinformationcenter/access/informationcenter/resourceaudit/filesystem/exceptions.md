@@ -1,10 +1,13 @@
 # Exceptions Report
 
-The Exceptions report at the __File System__ node provides a list of exceptions that were found across the targeted environment. This report includes a Details table.
+The Exceptions report at the **File System** node provides a list of exceptions that were found
+across the targeted environment. This report includes a Details table.
 
 ![Exceptions report at the File System node](../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/activedirectory/exceptions.webp)
 
-An exception is defined as a problem or risk to data governance security. Exceptions include open shares and permissions granted to stale or disabled users. This table is blank if no exceptions were found within the targeted file systems. This report is comprised of the following columns:
+An exception is defined as a problem or risk to data governance security. Exceptions include open
+shares and permissions granted to stale or disabled users. This table is blank if no exceptions were
+found within the targeted file systems. This report is comprised of the following columns:
 
 - Server Name – Name of the server
 - Name – Type of exception found

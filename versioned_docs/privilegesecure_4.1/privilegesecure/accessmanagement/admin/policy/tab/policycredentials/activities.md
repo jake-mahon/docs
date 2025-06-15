@@ -1,17 +1,20 @@
 # Activities Tab for Credential Based Access Policies
 
-The Activities tab shows the activities associated with the selected access policy. Only the Credential Release activity is associated with a Credential Based Access Policy.
+The Activities tab shows the activities associated with the selected access policy. Only the
+Credential Release activity is associated with a Credential Based Access Policy.
 
 ![Credential based resource Activities tab](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/policycredentials/activitiestabcredentials.png)
 
 The Activities tab has the following features:
 
-- Search — Searches the table or list for matches to the search string. When matches are found, the table or list is filtered to the matching results.
+- Search — Searches the table or list for matches to the search string. When matches are found, the
+  table or list is filtered to the matching results.
 - Type— Provides options to filter results based on a chosen criterion:
 
-  - All — Displays all activity for users and groups
-  - Activity — Displays user activity
-  - Activity Group — Displays group activity
+    - All — Displays all activity for users and groups
+    - Activity — Displays user activity
+    - Activity Group — Displays group activity
+
 - Refresh — Reload the information displayed
 
 The table has the following columns:

@@ -4,13 +4,17 @@ The installer places the following icon on the desktop, which opens the Threat M
 
 ![Desktop icon](../../../../static/img/product_docs/threatprevention/threatprevention/install/desktopicon.webp)
 
-__Step 1 –__ Double-click the __Netwrix Threat Manager Dashboard__ icon to open the console for the first time.
+**Step 1 –** Double-click the **Netwrix Threat Manager Dashboard** icon to open the console for the
+first time.
 
 ![First launch showing fields for setting up the builtin Administrator account](../../../../static/img/product_docs/threatprevention/threatprevention/install/reportingmodule/builtinadminpassword.webp)
 
-There is a built-in ADMIN account used for the initial configuration steps and granting user access. The User Name is "admin". You will set the password and optionally enable MFA for this account during first launch. Follow the steps to setup this account.
+There is a built-in ADMIN account used for the initial configuration steps and granting user access.
+The User Name is "admin". You will set the password and optionally enable MFA for this account
+during first launch. Follow the steps to setup this account.
 
-__Step 2 –__ Specify a password in the __New Password__ and __Confirm Password__ fields. It must meet the following minimum requirements:
+**Step 2 –** Specify a password in the **New Password** and **Confirm Password** fields. It must
+meet the following minimum requirements:
 
 - At least one uppercase letter
 - At least one lowercase letter
@@ -18,28 +22,40 @@ __Step 2 –__ Specify a password in the __New Password__ and __Confirm Password
 - At least one special character (symbol)
 - Have a minimum length of 10 characters
 
-__Step 3 –__ By default, MFA is enabled. Toggle this option off or on as desired. If the Enable MFA option is set to ON, the application will provide an internally-generated one-time password (OTP) option for the Administrator account. If the Enable MFA option is set to OFF, only a username and password will be required to sign in.
+**Step 3 –** By default, MFA is enabled. Toggle this option off or on as desired. If the Enable MFA
+option is set to ON, the application will provide an internally-generated one-time password (OTP)
+option for the Administrator account. If the Enable MFA option is set to OFF, only a username and
+password will be required to sign in.
 
-__Step 4 –__ Click Set Password.
+**Step 4 –** Click Set Password.
 
 The built-in ADMIN account password is now set.
 
-If the Enable MFA option is set to OFF, no additional configuration is required and the Threat Manager Console opens. See the [Getting Started with Threat Manager](../gettingstarted.md) topic for next steps.
+If the Enable MFA option is set to OFF, no additional configuration is required and the Threat
+Manager Console opens. See the [Getting Started with Threat Manager](../gettingstarted.md) topic for
+next steps.
 
-If the Enable MFA option is set to ON, registration of an MFA authenticator is required. Proceed to the Configure MFA for the Bultin Administrator Account topic.
+If the Enable MFA option is set to ON, registration of an MFA authenticator is required. Proceed to
+the Configure MFA for the Bultin Administrator Account topic.
 
 ## Configure MFA for the Bultin Administrator Account
 
-If MFA was enabled for the buildtin Administrator account during first launch, follow the steps to configure MFA for the account.
+If MFA was enabled for the buildtin Administrator account during first launch, follow the steps to
+configure MFA for the account.
 
 ![registerauthenticator](../../../../static/img/product_docs/threatprevention/threatprevention/install/reportingmodule/registerauthenticator.webp)
 
-__Step 1 –__ Register the MFA authenticator. The Register Authenticator prompt will provide instructions to configure multi-factor authentication with an external or third-party application.
+**Step 1 –** Register the MFA authenticator. The Register Authenticator prompt will provide
+instructions to configure multi-factor authentication with an external or third-party application.
 
-__Step 2 –__ On successful registration with an authenticator, enter the verification code and click Continue.
+**Step 2 –** On successful registration with an authenticator, enter the verification code and click
+Continue.
 
-__Step 3 –__ A list of recovery codes will be presented in order to restore access to the application in the event of lost access to the authenticator application or device. Save this list of codes to access for account recovery, if needed.
+**Step 3 –** A list of recovery codes will be presented in order to restore access to the
+application in the event of lost access to the authenticator application or device. Save this list
+of codes to access for account recovery, if needed.
 
-__Step 4 –__ Click __Continue__.
+**Step 4 –** Click **Continue**.
 
-Once MFA is configured for this account, the Threat Manager Console opens. See the [Getting Started with Threat Manager](../gettingstarted.md) topic for next steps.
+Once MFA is configured for this account, the Threat Manager Console opens. See the
+[Getting Started with Threat Manager](../gettingstarted.md) topic for next steps.

@@ -6,7 +6,8 @@ This part shows how to define a custom way to display entity types' data.
 
 ## Table
 
-This display table with ```DisplayTableDesignElement``` set to ```table``` will display the list of resources as a simple table filled with several columns.
+This display table with `DisplayTableDesignElement` set to `table` will display the list of
+resources as a simple table filled with several columns.
 
 ```
 
@@ -18,12 +19,15 @@ Here is the visualization of this display table on the interface:
 
 ![DisplayTable(Table)](/img/versioned_docs/usercube_6.1/usercube/integration-guide/ui/how-tos/custom-display-table/displaytablestable.png)
 
-Ergonomically, it is recommended to hide the search symbol in a column header (in a list displayed like a table) if a criterion linked to this column is already displayed in a searchbar. This avoids filter duplication.
-Thus, the ```<CanBeFiltered>``` property can be deleted in the ```<Column>``` argument.
+Ergonomically, it is recommended to hide the search symbol in a column header (in a list displayed
+like a table) if a criterion linked to this column is already displayed in a searchbar. This avoids
+filter duplication. Thus, the `<CanBeFiltered>` property can be deleted in the `<Column>` argument.
 
 ## Resource Table
 
-The property ```DisplayTableDesignElement``` set to ```resourcetable``` allows you to create a table similar to the display table with ```DisplayTableDesignElement``` set to ```table``` but adds a column containing the owner of the resource.
+The property `DisplayTableDesignElement` set to `resourcetable` allows you to create a table similar
+to the display table with `DisplayTableDesignElement` set to `table` but adds a column containing
+the owner of the resource.
 
 ```
 
@@ -39,7 +43,9 @@ Here is the visualization of this resource table on the interface:
 
 [Read more about tiles](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/tile/index.md).
 
-Instead of creating a table, it is possible to create tiles to give another rendering of the user interface. It is therefore necessary to create the different tiles first. After creating the tiles, they must be imported into the display table with ```DisplayTableDesignElement``` set to ```list```.
+Instead of creating a table, it is possible to create tiles to give another rendering of the user
+interface. It is therefore necessary to create the different tiles first. After creating the tiles,
+they must be imported into the display table with `DisplayTableDesignElement` set to `list`.
 
 If the display table uses tiles, then you can't use bindings.
 

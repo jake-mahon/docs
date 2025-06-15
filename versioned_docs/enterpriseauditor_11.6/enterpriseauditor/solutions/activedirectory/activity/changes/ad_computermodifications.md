@@ -4,19 +4,24 @@ The AD_ComputerModifications Job provides a report of all changes to computer ob
 
 ## Analysis Tasks for the AD_ComputerModifications Job
 
-Navigate to the __Active Directory__ > __6.Activity__ > __Changes__ > __AD_ComputerModifications__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the **Active Directory** > **6.Activity** > **Changes** > **AD_ComputerModifications** >
+**Configure** node and select **Analysis** to view the analysis tasks.
 
-__CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
+**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+preconfigured for this job.
 
 ![Analysis Tasks for the AD_ComputerModifications Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/activity/changes/computermodificationsanalysis.png)
 
 The following non-configurable analysis tasks are selected by default:
 
-- All Computer Object Changes – Creates the SA_AD_ComputerChanges_ComputerSummary table accessible under the job’s Results node
-- Summarize by Computer – Creates the SA_AD_ComputerChanges_ComputerSummary table accessible under the job’s Results node
+- All Computer Object Changes – Creates the SA_AD_ComputerChanges_ComputerSummary table accessible
+  under the job’s Results node
+- Summarize by Computer – Creates the SA_AD_ComputerChanges_ComputerSummary table accessible under
+  the job’s Results node
 
-In addition to the tables created by the analysis tasks, the AD_ComputerModifications Job produces the following pre-configured report:
+In addition to the tables created by the analysis tasks, the AD_ComputerModifications Job produces
+the following pre-configured report:
 
-| Report | Description | Default Tags | Report Elements |
-| --- | --- | --- | --- |
-| Computer Account Changes | Track changes to computer objects. | CPAA  GDPR  SOX  HIPAA  PCI-DSS  GLBA  ITAR  FERPA  FISMA  ISO27001 | This report is comprised of three elements:   - Pie Chart – Displays Changes by Type  - Table – Displays Changes by Computer  - Table – Displays Computer Change Details |
+| Report                   | Description                        | Default Tags                                               | Report Elements                                                                                                                                                      |
+| ------------------------ | ---------------------------------- | ---------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Computer Account Changes | Track changes to computer objects. | CPAA GDPR SOX HIPAA PCI-DSS GLBA ITAR FERPA FISMA ISO27001 | This report is comprised of three elements: - Pie Chart – Displays Changes by Type - Table – Displays Changes by Computer - Table – Displays Computer Change Details |

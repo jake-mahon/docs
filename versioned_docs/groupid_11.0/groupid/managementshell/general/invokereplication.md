@@ -1,16 +1,17 @@
 # Invoke-Replication
 
-The __Invoke-Replication__ commandlet starts replication process for all the identity stores or a specific identity store.
+The **Invoke-Replication** commandlet starts replication process for all the identity stores or a
+specific identity store.
 
 ## Syntax
 
 ```
-Invoke-Replication  
-[-IdentityStoreId <int>]  
-[-DeletedObjects]  
-[-RestoreReplication]  
-[-SecurityToken <CustomClaimsPrincipal>]  
-[-Credential <pscredential>]  
+Invoke-Replication
+[-IdentityStoreId <int>]
+[-DeletedObjects]
+[-RestoreReplication]
+[-SecurityToken <CustomClaimsPrincipal>]
+[-Credential <pscredential>]
 [<CommonParameters>]
 ```
 

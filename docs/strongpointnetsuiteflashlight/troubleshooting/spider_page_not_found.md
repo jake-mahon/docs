@@ -1,7 +1,7 @@
 # Spider Page Not Found
 
-If you see a __Spider Page Not Found__ error:
+If you see a **Spider Page Not Found** error:
 
-1. Open __Setup__ > __Company__ > __General Preferences__
-2. Ensure __Web Site Hosting Files Always Available__ is checked.
-3. Click __Save__
+1. Open **Setup** > **Company** > **General Preferences**
+2. Ensure **Web Site Hosting Files Always Available** is checked.
+3. Click **Save**

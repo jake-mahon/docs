@@ -5,15 +5,15 @@ The Set-SmtpServer commandlet configures an SMTP server for an identity store.
 ## Syntax
 
 ```
-Set-SmtpServer  
--IdentityStorename <string>  
--SmtpServer <string>  
--FromEmail <string>  
--ToEmail <string>  
--Port <int>  
-[-Credential <pscredential>]  
-[-UseSmptUserAuthentication]  
-[-SslEnabled]  
+Set-SmtpServer
+-IdentityStorename <string>
+-SmtpServer <string>
+-FromEmail <string>
+-ToEmail <string>
+-Port <int>
+[-Credential <pscredential>]
+[-UseSmptUserAuthentication]
+[-SslEnabled]
 <CommonParameters>]
 ```
 
@@ -27,7 +27,9 @@ Set-SmtpServer
 
 Example 1:
 
-This example configures arsalanahmadsvm.pucit.local SMTP server for AdStore9 identity store on port 25. Email address for sending notification is specified as noreply@pucit.local and euser1@pucit.local as recipient email address.
+This example configures arsalanahmadsvm.pucit.local SMTP server for AdStore9 identity store on
+port 25. Email address for sending notification is specified as noreply@pucit.local and
+euser1@pucit.local as recipient email address.
 
 ```
 Set-SmtpServer -IdentityStorename AdStore9 -SmtpServer arslanahmadsvm.pucit.local -FromEmail noreply@pucit.local -ToEmail euser1@pucit.local -Port 25
@@ -35,7 +37,9 @@ Set-SmtpServer -IdentityStorename AdStore9 -SmtpServer arslanahmadsvm.pucit.loca
 
 Example 2:
 
-This example configures smtp.office365.com SMTP server that is SSL (Secured Socket Layer) enabled for AdStore9 identity store. The SMTP server is configured on port 587 and it uses credentials stored in the $creds variable.
+This example configures smtp.office365.com SMTP server that is SSL (Secured Socket Layer) enabled
+for AdStore9 identity store. The SMTP server is configured on port 587 and it uses credentials
+stored in the $creds variable.
 
 ```
 Set-SmtpServer -IdentityStorename AdStore9 -SmtpServer smtp.office365.com -FromEmail admin@mydomain.onmicrosoft.com -ToEmail admin@mydomain.onmicrosoft.com -Port 587 -UseSmptUserAuthentication -SslEnabled -Credential $creds

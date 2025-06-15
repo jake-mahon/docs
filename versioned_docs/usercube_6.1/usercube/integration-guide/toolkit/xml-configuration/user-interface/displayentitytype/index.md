@@ -1,6 +1,7 @@
 # DisplayEntityType
 
-The ```<DisplayEntityType>``` element sets information about how an entity type is to be displayed by the UI.
+The `<DisplayEntityType>` element sets information about how an entity type is to be displayed by
+the UI.
 
 ## Examples
 
@@ -12,7 +13,8 @@ The ```<DisplayEntityType>``` element sets information about how an entity type 
 
 ### Zoom on Priority
 
-The Priority property controls the order in which entity types are displayed in the entity type selection dropdown of the following administration screens:
+The Priority property controls the order in which entity types are displayed in the entity type
+selection dropdown of the following administration screens:
 
 - Role Review
 - Provisioning Review
@@ -22,19 +24,27 @@ The Priority property controls the order in which entity types are displayed in 
 - Workflow Overview
 - Access Rules
 
-By default, the entity type with the highest priority is selected first. The end user can later change the selection using the top-left dropdown.
+By default, the entity type with the highest priority is selected first. The end user can later
+change the selection using the top-left dropdown.
 
 ![Change Selection](/img/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/displayentitytype/ui_displaypriorities_changeselection_v521beta.png)
 
-Priorities are integer values, positive or negative. The most important priority is assigned to the lowest value.
+Priorities are integer values, positive or negative. The most important priority is assigned to the
+lowest value.
 
-Entity Types with the same priority are sorted by ```Identifier```, in the alphabetical order, where relevant.
+Entity Types with the same priority are sorted by `Identifier`, in the alphabetical order, where
+relevant.
 
-Entity Types for which a priority isn't set by a ```<DisplayEntityType>``` configuration element are assigned an equally less important priority than the least important priority set by a ```<DisplayEntityType>``` element.
+Entity Types for which a priority isn't set by a `<DisplayEntityType>` configuration element are
+assigned an equally less important priority than the least important priority set by a
+`<DisplayEntityType>` element.
 
-__Example__
+**Example**
 
-This example shows how to define priorities between the main Entity Types of the organizational model. The highest priority is assigned to ```Directory_User``` and the lowest priority to ```Directory_Application```. All other entity types are assigned an equally low priority, below ```Directory_Application```. In the dropdown they will be sorted by alphabetical order.
+This example shows how to define priorities between the main Entity Types of the organizational
+model. The highest priority is assigned to `Directory_User` and the lowest priority to
+`Directory_Application`. All other entity types are assigned an equally low priority, below
+`Directory_Application`. In the dropdown they will be sorted by alphabetical order.
 
 ```
 dashboard.xml
@@ -44,25 +54,30 @@ dashboard.xml
 
 #### Priorities for workflows
 
-The dropdown in My Tasks (also known as Workflow Management) and Workflow Overview screens is related to workflows, not to entity types per se.
+The dropdown in My Tasks (also known as Workflow Management) and Workflow Overview screens is
+related to workflows, not to entity types per se.
 
 In Usercube, each workflow is associated with a workflow-entity type.
 
-To configure the priority order for elements in the dropdown in these screens, the user should remember to take the workflow-entity types in the ```<DisplayEntityType``` elements, not just the entities themselves.
+To configure the priority order for elements in the dropdown in these screens, the user should
+remember to take the workflow-entity types in the `<DisplayEntityType` elements, not just the
+entities themselves.
 
-__Example__
+**Example**
 
 Let's take the following organizational model:
 
 - a Directory_User entity type for employee
 - a Directory_Guest entity type for contractors and the like
 
-When workflows are defined to handle resources for these entity types, the following workflow-entity types are created too:
+When workflows are defined to handle resources for these entity types, the following workflow-entity
+types are created too:
 
 - Workflow_Directory_User
 - Workflow_Directory_Guest
 
-The order in which Directory_User and Directory_Guest appear in the role review dropdown is configured like this
+The order in which Directory_User and Directory_Guest appear in the role review dropdown is
+configured like this
 
 ```
 dashboard.xml
@@ -70,7 +85,8 @@ dashboard.xml
 
 ```
 
-But the order in which "Workflow for Directory_User" and "Workflow for Directory_Guest" appear in the My Tasks screen is configured like this.
+But the order in which "Workflow for Directory_User" and "Workflow for Directory_Guest" appear in
+the My Tasks screen is configured like this.
 
 ```
 dashboard.xml
@@ -80,40 +96,41 @@ dashboard.xml
 
 ## Properties
 
-| Property | Details |
-| --- | --- |
-| AutocompleteBinding   optional | __Type__    Int64   __Description__   Defines the binding of the property used for search in the auto complete picker (this activates the auto complete picker). |
-| Color   optional | __Type__    String   __Description__   Defines the color used when displaying this entity type (it must be a 6 digit hexadecimal value, preceded by a �#'). |
-| D0IsActive   default value: false | __Type__    Boolean   __Description__   Is dimension0 active for this entity type (D0IsActive to D3VIsActive following the [base32hex convention](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/parameter-names/index.md). |
-| HideRoles   default value: false | __Type__    Boolean   __Description__   ```true``` to skip the __Access Permissions__ step (the one containing the roles) in the default forms for this entity type. |
-| IconCode   optional | __Type__    String   __Description__   Defines the icode code ("People", "MapPin", "Suitcase"�). |
-| IsHierarchical   default value: false | __Type__    Boolean   __Description__   Is hierarchical entity type. |
-| MinSearchLength   optional | __Type__    Int32   __Description__   Defines the minimum number of characters from which the search in the auto complete picker starts - 4 if it is not defined (the AutocompleteBinding must be defined). |
-| PluralDisplayName_L1   optional | __Type__    String   __Description__   Display name of the entity type in plural in language 1 (up to 16). |
-| Priority   default value: 2147483647 | __Type__    Int32   __Description__   Sets the display priority of the Entity Type in the administration screens dropdown and the dashboard. A priority is an integer value, positive or negative. The highest priority is assigned to the lowest number. See the Priority section above. |
+| Property                            | Details                                                                                                                                                                                                                                                                            |
+| ----------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| AutocompleteBinding optional        | **Type** Int64 **Description** Defines the binding of the property used for search in the auto complete picker (this activates the auto complete picker).                                                                                                                          |
+| Color optional                      | **Type** String **Description** Defines the color used when displaying this entity type (it must be a 6 digit hexadecimal value, preceded by a �#').                                                                                                                               |
+| D0IsActive default value: false     | **Type** Boolean **Description** Is dimension0 active for this entity type (D0IsActive to D3VIsActive following the [base32hex convention](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/parameter-names/index.md).                                              |
+| HideRoles default value: false      | **Type** Boolean **Description** `true` to skip the **Access Permissions** step (the one containing the roles) in the default forms for this entity type.                                                                                                                          |
+| IconCode optional                   | **Type** String **Description** Defines the icode code ("People", "MapPin", "Suitcase"�).                                                                                                                                                                                          |
+| IsHierarchical default value: false | **Type** Boolean **Description** Is hierarchical entity type.                                                                                                                                                                                                                      |
+| MinSearchLength optional            | **Type** Int32 **Description** Defines the minimum number of characters from which the search in the auto complete picker starts - 4 if it is not defined (the AutocompleteBinding must be defined).                                                                               |
+| PluralDisplayName_L1 optional       | **Type** String **Description** Display name of the entity type in plural in language 1 (up to 16).                                                                                                                                                                                |
+| Priority default value: 2147483647  | **Type** Int32 **Description** Sets the display priority of the Entity Type in the administration screens dropdown and the dashboard. A priority is an integer value, positive or negative. The highest priority is assigned to the lowest number. See the Priority section above. |
 
 ## Child Element: Property
 
-Entity referencing the Entity properties (with which it share the same ID) that can be displayed in the Usercube interface.
+Entity referencing the Entity properties (with which it share the same ID) that can be displayed in
+the Usercube interface.
 
 ### Properties
 
-| Property | Details |
-| --- | --- |
-| AddedMinutes   optional | __Type__    Int32   __Description__   Add minutes to the date field with this property.   Can be overwritten in every form control, display table column or tile item that displays the property. |
-| AutocompleteBinding   optional | __Type__    Int64   __Description__   Defines the binding of the property used for search in the auto complete picker (this activates the auto complete picker if the input type of the display property is a picker). |
-| DisplayOrder   default value: 0 | __Type__    Int32   __Description__   Defines the property display order. |
-| DisplayTable   optional | __Type__    Int64   __Description__   Identifier of the display table. |
-| Format   optional | __Type__    String   __Description__   Defines a formating method on the property values ("ParseSince1601Date", "ToStringUserAccountControl", "FormatDate" and "ParseBoolean"). |
-| Group   optional | __Type__    Int64   __Description__   Identifier of the display property group, i.e. the fieldset, that the property is part of in the default UI form. |
-| IconCode   optional | __Type__    String   __Description__   Defines the icode code. |
-| InputType   default value: Auto | __Type__    Enumeration   __Description__   Identifier of the input type. |
-| IsHidden   default value: false | __Type__    Boolean   __Description__   Property is hidden. |
-| IsReadOnly   default value: false | __Type__    Boolean   __Description__   Property is readOnly. |
-| IsRequired   default value: false | __Type__    Boolean   __Description__   Property is required. |
-| MinSearchLength   optional | __Type__    Int32   __Description__   Defines the minimum number of characters from which the search in the auto complete picker starts - 4 if it is not defined (the input type of the display property must be a picker and the AutocompleteBinding must be defined). |
-| NavigationBinding   optional | __Type__    Int64   __Description__   Defines the binding of the resource on which the user will be redirected when he clicks on an element of a BasicCollection. |
-| OutputType   default value: Auto | __Type__    Enumeration   __Description__   Identifier of the output type. |
-| PlaceHolderText_L1   optional | __Type__    String   __Description__   Property place holder text. |
-| Tile   optional | __Type__    Int64   __Description__   Identifier of the tile. |
-| ToolTipText_L1   optional | __Type__    String   __Description__   Property tool tip text. |
+| Property                        | Details                                                                                                                                                                                                                                                          |
+| ------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| AddedMinutes optional           | **Type** Int32 **Description** Add minutes to the date field with this property. Can be overwritten in every form control, display table column or tile item that displays the property.                                                                         |
+| AutocompleteBinding optional    | **Type** Int64 **Description** Defines the binding of the property used for search in the auto complete picker (this activates the auto complete picker if the input type of the display property is a picker).                                                  |
+| DisplayOrder default value: 0   | **Type** Int32 **Description** Defines the property display order.                                                                                                                                                                                               |
+| DisplayTable optional           | **Type** Int64 **Description** Identifier of the display table.                                                                                                                                                                                                  |
+| Format optional                 | **Type** String **Description** Defines a formating method on the property values ("ParseSince1601Date", "ToStringUserAccountControl", "FormatDate" and "ParseBoolean").                                                                                         |
+| Group optional                  | **Type** Int64 **Description** Identifier of the display property group, i.e. the fieldset, that the property is part of in the default UI form.                                                                                                                 |
+| IconCode optional               | **Type** String **Description** Defines the icode code.                                                                                                                                                                                                          |
+| InputType default value: Auto   | **Type** Enumeration **Description** Identifier of the input type.                                                                                                                                                                                               |
+| IsHidden default value: false   | **Type** Boolean **Description** Property is hidden.                                                                                                                                                                                                             |
+| IsReadOnly default value: false | **Type** Boolean **Description** Property is readOnly.                                                                                                                                                                                                           |
+| IsRequired default value: false | **Type** Boolean **Description** Property is required.                                                                                                                                                                                                           |
+| MinSearchLength optional        | **Type** Int32 **Description** Defines the minimum number of characters from which the search in the auto complete picker starts - 4 if it is not defined (the input type of the display property must be a picker and the AutocompleteBinding must be defined). |
+| NavigationBinding optional      | **Type** Int64 **Description** Defines the binding of the resource on which the user will be redirected when he clicks on an element of a BasicCollection.                                                                                                       |
+| OutputType default value: Auto  | **Type** Enumeration **Description** Identifier of the output type.                                                                                                                                                                                              |
+| PlaceHolderText_L1 optional     | **Type** String **Description** Property place holder text.                                                                                                                                                                                                      |
+| Tile optional                   | **Type** Int64 **Description** Identifier of the tile.                                                                                                                                                                                                           |
+| ToolTipText_L1 optional         | **Type** String **Description** Property tool tip text.                                                                                                                                                                                                          |

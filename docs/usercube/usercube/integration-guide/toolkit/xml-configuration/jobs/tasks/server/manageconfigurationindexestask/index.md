@@ -1,8 +1,7 @@
 # Manage Configuration Indexes Task
 
-Manage indexes for configuration items with the tool[
-Identity Manager-Manage-Configuration Dependent Indexes
-](../../../../../../executables/references/manage-configurationdependantindexes/index.md).
+Manage indexes for configuration items with the
+tool[ Identity Manager-Manage-Configuration Dependent Indexes ](../../../../../../executables/references/manage-configurationdependantindexes/index.md).
 
 ## Examples
 
@@ -12,7 +11,7 @@ Identity Manager-Manage-Configuration Dependent Indexes
 
 ## Properties
 
-| Property | Details |
-| --- | --- |
-| DisplayName_L1   required | __Type__    String   __Description__   Display name of the task in language 1 (up to 16). |
-| Identifier   optional | __Type__    String   __Description__   Unique identifier of the task. |
+| Property                | Details                                                                            |
+| ----------------------- | ---------------------------------------------------------------------------------- |
+| DisplayName_L1 required | **Type** String **Description** Display name of the task in language 1 (up to 16). |
+| Identifier optional     | **Type** String **Description** Unique identifier of the task.                     |

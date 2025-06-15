@@ -1,10 +1,24 @@
 # Resource Audit Overview
 
-The Resource Audit interface is where Netwrix Access Information Center users view reports on resources that Access Analyzer has collected data for. For the purposes of the Access Information Center, a resource refers to file system servers, SharePoint farms, shared folders, and so on. Reports include permissions, effective access, membership, user activity, changes, and sensitive criteria matches. Most Access Analyzer solutions can send data to the Access Information Center. Additionally, the Access Information Center Flexible Imports feature and Access Analyzer's AnyID Connectors solution can be used to introduce data from target environments not available with the default solutions. See the All Solutions topic of the [Netwrix Access Analyzer Documentation](https://helpcenter.netwrix.com/category/accessanalyzer) for additional information on the data collection options.
+The Resource Audit interface is where Netwrix Access Information Center users view reports on
+resources that Access Analyzer has collected data for. For the purposes of the Access Information
+Center, a resource refers to file system servers, SharePoint farms, shared folders, and so on.
+Reports include permissions, effective access, membership, user activity, changes, and sensitive
+criteria matches. Most Access Analyzer solutions can send data to the Access Information Center.
+Additionally, the Access Information Center Flexible Imports feature and Access Analyzer's AnyID
+Connectors solution can be used to introduce data from target environments not available with the
+default solutions. See the All Solutions topic of the
+[Netwrix Access Analyzer Documentation](https://helpcenter.netwrix.com/category/accessanalyzer) for
+additional information on the data collection options.
 
-The Access Information Center search features, found on the home page, can be used to open the other audit interfaces. These other interfaces show reports on users, groups, computers, and sensitive content.
+The Access Information Center search features, found on the home page, can be used to open the other
+audit interfaces. These other interfaces show reports on users, groups, computers, and sensitive
+content.
 
-The Access Information Center can also be used to model changes to file system permissions, allowing the Access Information Center user to understand what changes in group membership are needed to modify access to a specific resource, as well as the impact such a change would have across the organization's other resources.
+The Access Information Center can also be used to model changes to file system permissions, allowing
+the Access Information Center user to understand what changes in group membership are needed to
+modify access to a specific resource, as well as the impact such a change would have across the
+organization's other resources.
 
 ## Resource Reports
 
@@ -77,6 +91,9 @@ See the [Flexible Imports Feature](flexibleimports/overview.md) topic for additi
 
 ## Access & Membership Change Modeling
 
-Access and membership change modeling allows Access Information Center users to see what steps must be taken to adjust a trustee’s access to a specific resource, as well as what impact the changes will have on that trustee’s access across the targeted file system and Active Directory environments.
+Access and membership change modeling allows Access Information Center users to see what steps must
+be taken to adjust a trustee’s access to a specific resource, as well as what impact the changes
+will have on that trustee’s access across the targeted file system and Active Directory
+environments.
 
 See the [Change Modeling](changemodeling/overview.md) topic for additional information.

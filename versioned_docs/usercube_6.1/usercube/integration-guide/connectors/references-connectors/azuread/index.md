@@ -1,53 +1,63 @@
 # Microsoft Entra ID
 
-This connector exports and fulfills user and groups from/to an [Microsoft Entra ID](https://www.microsoft.com/fr-fr/security/business/identity-access/microsoft-entra-id) (formerly Microsoft Azure AD) instance.
+This connector exports and fulfills user and groups from/to an
+[Microsoft Entra ID](https://www.microsoft.com/fr-fr/security/business/identity-access/microsoft-entra-id)
+(formerly Microsoft Azure AD) instance.
 
-This page is about [Directory/Microsoft Entra ID](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/azure-active-directory/index.md).
+This page is about
+[Directory/Microsoft Entra ID](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/azure-active-directory/index.md).
 
 ![Package: Directory/Microsoft Entra ID](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/azuread/packages_azuread_v603.png)
 
 ## Overview
 
-Microsoft Entra ID is Microsoft's cloud-based identity and access management service which helps your employees sign in and access resources in:
+Microsoft Entra ID is Microsoft's cloud-based identity and access management service which helps
+your employees sign in and access resources in:
 
-- external resources, such as Microsoft Office 365, the Azure portal, and thousands of other SaaS applications;
-- internal resources, such as apps on your corporate network and intranet, along with any cloud apps developed by your own organization.
+- external resources, such as Microsoft Office 365, the Azure portal, and thousands of other SaaS
+  applications;
+- internal resources, such as apps on your corporate network and intranet, along with any cloud apps
+  developed by your own organization.
 
 ## Prerequisites
 
-Implementing this connector requires giving Usercube [application permissions](https://docs.microsoft.com/en-us/graph/auth/auth-concepts#application-permissions), because Usercube does not access the [Microsoft Graph API](https://docs.microsoft.com/en-us/graph/overview?view=graph-rest-1.0) on behalf of a user but with [its own identity](https://docs.microsoft.com/en-us/graph/auth-v2-service), and delegated permissions are not enough. These application permissions require the consent of an administrator of the target Microsoft Entra ID tenant.
+Implementing this connector requires giving Usercube
+[application permissions](https://docs.microsoft.com/en-us/graph/auth/auth-concepts#application-permissions),
+because Usercube does not access the
+[Microsoft Graph API](https://docs.microsoft.com/en-us/graph/overview?view=graph-rest-1.0) on behalf
+of a user but with [its own identity](https://docs.microsoft.com/en-us/graph/auth-v2-service), and
+delegated permissions are not enough. These application permissions require the consent of an
+administrator of the target Microsoft Entra ID tenant.
 
-[See how to register Usercube as an application with the Microsoft Identity Platform](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/how-tos/azuread-register/index.md) in order to grant Usercube a service account which authenticates with the target Microsoft Entra ID.
+[See how to register Usercube as an application with the Microsoft Identity Platform](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/how-tos/azuread-register/index.md)
+in order to grant Usercube a service account which authenticates with the target Microsoft Entra ID.
 
 ## Export
 
-For a configured set of directory objects on an Microsoft Entra ID instance, this connector exports the list of configured attributes in the associated entity type mapping to a CSV file.
+For a configured set of directory objects on an Microsoft Entra ID instance, this connector exports
+the list of configured attributes in the associated entity type mapping to a CSV file.
 
 ### Configuration
 
-This process is configured through a [connection](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or the XML configuration, and in the ```appsettings.agent.json > Connections``` section:
+This process is configured through a
+[connection](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
+in the UI and/or the XML configuration, and in the `appsettings.agent.json > Connections` section:
 
                     ```
 
                         appsettings.agent.json
-{
-  ...
-  "Connections": {
-    ...
-    "<ConnectionIdentifier>": {
-      ...
-    }
-  }
-}
-```
-                
+
+{ ... "Connections": { ... "<ConnectionIdentifier>": { ... } } }
+
+````
+
 
 The identifier of the connection and thus the name of the subsection must:
-  
+
 - be unique.
-  
+
 - not begin with a digit.
-  
+
 - not contain ```<```, ```>```, ```:```, ```"```, ```/```, ```\```, ```|```, ```?```, ```*``` and ```_```.
 
 > For example:
@@ -99,7 +109,7 @@ This connector is meant to generate the following files:
   > <EntityTypeMapping Identifier="MicrosoftEntraID_DirectoryObject" Connector="MicrosoftEntraID" ConnectionTable="MicrosoftEntraIDExport_directoryobjects" C0="user group directoryRole servicePrincipal">  <Property Identifier="accountEnabled" ConnectionColumn="accountEnabled" />  <Property Identifier="objectid" ConnectionColumn="id" IsPrimaryKey="true" />  <Property Identifier="mail" ConnectionColumn="mail" /></EntityTypeMapping>
   >
   > ```
-  >                             
+  >
   >
   > Four entities are exported (```user```; ```group```; ```directoryRole```; ```servicePrincipal```) and whose names are to be found in the column ```@odata.type```. Then ```MicrosoftEntraIDExport_directoryobjects.csv``` looks like:
   >
@@ -111,7 +121,7 @@ This connector is meant to generate the following files:
   > ```
 
   Attributes described as "Supported only on the Get `<entity_name>` API" in the [Microsoft Graph API](https://docs.microsoft.com/en-us/graph/overview?view=graph-rest-1.0) documentation cannot be retrieved through this connector. The export task will raise an error if these attributes are used in your ```EntityTypeMapping```.
-    
+
   This connector supports [Microsoft Entra ID Schema Extensions](https://docs.microsoft.com/en-us/previous-versions/azure/ad/graph/howto/azure-ad-graph-api-directory-schema-extensions) but does not support [Microsoft Graph Schema Extensions](https://docs.microsoft.com/en-us/graph/extensibility-schema-groups).
 - ```<connectionIdentifier>_<navigationProperty>_<entity>.csv``` describing the navigation property from one entity to another.
 
@@ -123,7 +133,7 @@ This connector is meant to generate the following files:
   > Command,groupId,id
   > ...
   > ```
-  >                             
+  >
   >
   > Where __command__ can be ```insert```, ```update``` or ```delete```; __groupId__ is the id of the group; __id__ is the id of the group member (in this context).
 
@@ -133,7 +143,7 @@ This connector is meant to generate the following files:
   > For example ```MicrosoftEntraIDExport_cookie_user.bin```
 
   Most exports can be run in complete mode, where the CSV files will contain all entries, or in incremental mode, where CSV files will contain only the entries which have been modified since the last synchronization.
-    
+
   A task can use the ```IgnoreCookieFile``` boolean property, and a command line (with an executable) can use the option ```--ignore-cookies```.
 
 The CSV files are stored in the [ExportOutput](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) folder, and the cookie file in the [ExportCookies](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) folder.
@@ -198,3 +208,4 @@ Data protection can be ensured through:
 - an [Azure Key Vault](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md) safe;
 
 - a [CyberArk Vault](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md) able to store Microsoft Entra ID's ```ApplicationId``` and ```ApplicationKey```.
+````

@@ -4,8 +4,8 @@ description: Deploy a full-featured blog in no time with Docusaurus.
 
 # Blog
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
+import Tabs from '@theme/Tabs'
+import TabItem from '@theme/TabItem'
 
 The blog feature enables you to deploy a full-featured blog in no time.
 
@@ -29,11 +29,11 @@ export default {
       items: [
         // ...
         // highlight-next-line
-        {to: 'blog', label: 'Blog', position: 'left'}, // or position: 'right'
+        { to: 'blog', label: 'Blog', position: 'left' }, // or position: 'right'
       ],
     },
   },
-};
+}
 ```
 
 ## Adding posts {#adding-posts}
@@ -130,7 +130,7 @@ export default {
       },
     ],
   ],
-};
+}
 ```
 
 ## Blog sidebar {#blog-sidebar}
@@ -154,7 +154,7 @@ export default {
       },
     ],
   ],
-};
+}
 ```
 
 ## Blog post date {#blog-post-date}
@@ -164,16 +164,16 @@ Docusaurus will extract a `YYYY-MM-DD` date from many patterns such as `YYYY-MM-
 <details>
 <summary>Supported date extraction patterns</summary>
 
-| Pattern | Example |
-| --- | --- |
-| Single file | `2021-05-28-my-blog-post-title.md` |
-| MDX file | `2021-05-28-my-blog-post-title.mdx` |
-| Single folder + `index.md` | `2021-05-28-my-blog-post-title/index.md` |
-| Folder named by date | `2021-05-28/my-blog-post-title.md` |
-| Nested folders by date | `2021/05/28/my-blog-post-title.md` |
-| Partially nested folders by date | `2021/05-28-my-blog-post-title.md` |
-| Nested folders + `index.md` | `2021/05/28/my-blog-post-title/index.md` |
-| Date in the middle of path | `category/2021/05-28-my-blog-post-title.md` |
+| Pattern                          | Example                                     |
+| -------------------------------- | ------------------------------------------- |
+| Single file                      | `2021-05-28-my-blog-post-title.md`          |
+| MDX file                         | `2021-05-28-my-blog-post-title.mdx`         |
+| Single folder + `index.md`       | `2021-05-28-my-blog-post-title/index.md`    |
+| Folder named by date             | `2021-05-28/my-blog-post-title.md`          |
+| Nested folders by date           | `2021/05/28/my-blog-post-title.md`          |
+| Partially nested folders by date | `2021/05-28-my-blog-post-title.md`          |
+| Nested folders + `index.md`      | `2021/05/28/my-blog-post-title/index.md`    |
+| Date in the middle of path       | `category/2021/05-28-my-blog-post-title.md` |
 
 Docusaurus can extract the date from the posts using any of the naming patterns above. It is advisable to choose one pattern and apply it to all posts to avoid confusion.
 
@@ -476,18 +476,18 @@ export default {
         blog: {
           // highlight-start
           showReadingTime: true, // When set to false, the "x min read" won't be shown
-          readingTime: ({content, locale, frontMatter, defaultReadingTime}) =>
+          readingTime: ({ content, locale, frontMatter, defaultReadingTime }) =>
             defaultReadingTime({
               content,
               locale,
-              options: {wordsPerMinute: 300},
+              options: { wordsPerMinute: 300 },
             }),
           // highlight-end
         },
       },
     ],
   ],
-};
+}
 ```
 
 The `readingTime` callback receives the following parameters:
@@ -521,16 +521,14 @@ export default {
         blog: {
           showReadingTime: true,
           // highlight-start
-          readingTime: ({content, locale, frontMatter, defaultReadingTime}) =>
-            frontMatter.hide_reading_time
-              ? undefined
-              : defaultReadingTime({content, locale}),
+          readingTime: ({ content, locale, frontMatter, defaultReadingTime }) =>
+            frontMatter.hide_reading_time ? undefined : defaultReadingTime({ content, locale }),
           // highlight-end
         },
       },
     ],
   ],
-};
+}
 ```
 
 Usage:
@@ -558,18 +556,18 @@ export default {
       {
         blog: {
           // highlight-start
-          readingTime: ({content, locale, defaultReadingTime}) =>
+          readingTime: ({ content, locale, defaultReadingTime }) =>
             defaultReadingTime({
               content,
               locale,
-              options: {wordsPerMinute: 100},
+              options: { wordsPerMinute: 100 },
             }),
           // highlight-end
         },
       },
     ],
   ],
-};
+}
 ```
 
 ```mdx-code-block
@@ -580,7 +578,7 @@ export default {
 **Use a custom implementation of reading time:**
 
 ```js title="docusaurus.config.js"
-import myReadingTime from './myReadingTime';
+import myReadingTime from './myReadingTime'
 
 export default {
   presets: [
@@ -589,12 +587,12 @@ export default {
       {
         blog: {
           // highlight-next-line
-          readingTime: ({content, locale}) => myReadingTime(content, locale),
+          readingTime: ({ content, locale }) => myReadingTime(content, locale),
         },
       },
     ],
   ],
-};
+}
 ```
 
 ```mdx-code-block
@@ -609,38 +607,38 @@ export default {
 You can generate RSS / Atom / JSON feed by passing `feedOptions`. By default, RSS and Atom feeds are generated. To disable feed generation, set `feedOptions.type` to `null`.
 
 ```ts
-type FeedType = 'rss' | 'atom' | 'json';
+type FeedType = 'rss' | 'atom' | 'json'
 
 type BlogOptions = {
   feedOptions?: {
-    type?: FeedType | 'all' | FeedType[] | null;
-    title?: string;
-    description?: string;
-    copyright: string;
+    type?: FeedType | 'all' | FeedType[] | null
+    title?: string
+    description?: string
+    copyright: string
 
-    language?: string; // possible values: http://www.w3.org/TR/REC-html40/struct/dirlang.html#langcodes
-    limit?: number | false | null; // defaults to 20
+    language?: string // possible values: http://www.w3.org/TR/REC-html40/struct/dirlang.html#langcodes
+    limit?: number | false | null // defaults to 20
     // XSLT permits browsers to style and render nicely the feed XML files
     xslt?:
       | boolean
       | {
           //
-          rss?: string | boolean;
-          atom?: string | boolean;
-        };
+          rss?: string | boolean
+          atom?: string | boolean
+        }
     // Allow control over the construction of BlogFeedItems
     createFeedItems?: (params: {
-      blogPosts: BlogPost[];
-      siteConfig: DocusaurusConfig;
-      outDir: string;
+      blogPosts: BlogPost[]
+      siteConfig: DocusaurusConfig
+      outDir: string
       defaultCreateFeedItems: (params: {
-        blogPosts: BlogPost[];
-        siteConfig: DocusaurusConfig;
-        outDir: string;
-      }) => Promise<BlogFeedItem[]>;
-    }) => Promise<BlogFeedItem[]>;
-  };
-};
+        blogPosts: BlogPost[]
+        siteConfig: DocusaurusConfig
+        outDir: string
+      }) => Promise<BlogFeedItem[]>
+    }) => Promise<BlogFeedItem[]>
+  }
+}
 ```
 
 Example usage:
@@ -658,12 +656,12 @@ export default {
             type: 'all',
             copyright: `Copyright © ${new Date().getFullYear()} Facebook, Inc.`,
             createFeedItems: async (params) => {
-              const {blogPosts, defaultCreateFeedItems, ...rest} = params;
+              const { blogPosts, defaultCreateFeedItems, ...rest } = params
               return defaultCreateFeedItems({
                 // keep only the 10 most recent blog posts in the feed
                 blogPosts: blogPosts.filter((item, index) => index < 10),
                 ...rest,
-              });
+              })
             },
           },
           // highlight-end
@@ -671,7 +669,7 @@ export default {
       },
     ],
   ],
-};
+}
 ```
 
 The feeds can be found at:
@@ -723,7 +721,7 @@ export default {
       },
     ],
   ],
-};
+}
 ```
 
 :::warning
@@ -775,7 +773,7 @@ export default {
       },
     ],
   ],
-};
+}
 ```
 
 As an example, we host a second blog [here](/tests/blog).

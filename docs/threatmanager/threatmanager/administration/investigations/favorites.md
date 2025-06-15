@@ -1,8 +1,10 @@
 # Favorites Page
 
-The Favorites page in the Investigations interface lists all saved investigations the logged in user has identified as a favorite.
+The Favorites page in the Investigations interface lists all saved investigations the logged in user
+has identified as a favorite.
 
-Click __Investigate__ in the application header bar to open the Investigations interface. Then click __Favorites__ in the navigation pane.
+Click **Investigate** in the application header bar to open the Investigations interface. Then click
+**Favorites** in the navigation pane.
 
 ![Investigation interface on the Favorites page](../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/favorites.webp)
 
@@ -10,9 +12,13 @@ The table displays the list of favorite investigations with the following column
 
 - Name – The name of the investigation
 - Threat – The check mark indicates that a Threat has been configured for this investigation
-- Favorite – The check mark indicates that the investigation has been tagged as a favorite for the logged in user
+- Favorite – The check mark indicates that the investigation has been tagged as a favorite for the
+  logged in user
 
-This provides quick access to regularly used investigations. If you click the investigation under Favorites in the navigation pane, it directly opens the investigation. If you click the investigation in the Favorites table, you are navigated to the folder location in the navigation pane. Click the investigation there to open it.
+This provides quick access to regularly used investigations. If you click the investigation under
+Favorites in the navigation pane, it directly opens the investigation. If you click the
+investigation in the Favorites table, you are navigated to the folder location in the navigation
+pane. Click the investigation there to open it.
 
 ## Add a Favorite Investigation
 

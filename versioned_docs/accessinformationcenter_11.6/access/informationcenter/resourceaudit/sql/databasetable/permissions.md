@@ -1,6 +1,7 @@
 # Permissions Report
 
-The Permissions report at the database and table levels shows the permissions for the trustee on the selected resource.
+The Permissions report at the database and table levels shows the permissions for the trustee on the
+selected resource.
 
 ![Permissions report at the database and table levels](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/postgresql/databasetable/databasepermissions.png)
 
@@ -18,10 +19,12 @@ This report is comprised of the following columns:
 - ObjectSid – Security ID of the object
 - Disabled – True or False if trustee account is disabled
 - Deleted – True or False if trustee account is deleted
-- Stale – True or False if trustee account is stale (according to the length of inactive time used by the Enterprise Auditor data collection and analysis configuration to identify stale accounts)
+- Stale – True or False if trustee account is stale (according to the length of inactive time used
+  by the Enterprise Auditor data collection and analysis configuration to identify stale accounts)
 - Type – Direct or Inherited type of permission
 
-The following rights are a normalized representation of the SQL permission levels (SQL Roles) granted to the trustee:
+The following rights are a normalized representation of the SQL permission levels (SQL Roles)
+granted to the trustee:
 
 - List – Right to view list of resources
 - Read – Right to view/read resources
@@ -31,5 +34,7 @@ The following rights are a normalized representation of the SQL permission level
 
 The following columns display the combined direct and inherited rights:
 
-- Allow Mask – Bitmask corresponding to Windows ACE permission bits for combined direct and inherited allow rights
-- Deny Mask – Bitmask corresponding to Windows ACE permission bits for combined direct inherited deny rights
+- Allow Mask – Bitmask corresponding to Windows ACE permission bits for combined direct and
+  inherited allow rights
+- Deny Mask – Bitmask corresponding to Windows ACE permission bits for combined direct inherited
+  deny rights

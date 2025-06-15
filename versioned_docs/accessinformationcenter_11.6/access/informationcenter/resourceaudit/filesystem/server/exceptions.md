@@ -1,10 +1,13 @@
 # Exceptions Report
 
-The Exceptions report at the server level provides a list of exceptions that were found within shares on the selected server. This report includes a Details table.
+The Exceptions report at the server level provides a list of exceptions that were found within
+shares on the selected server. This report includes a Details table.
 
 ![Exceptions report at the server level](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/filesystem/server/serverexceptions.png)
 
-An exception is defined as a problem or risk to data governance security. Exceptions include open shares and permissions granted to stale or disabled users. This report will be blank if no exceptions were found on the selected server. It is comprised of the following columns:
+An exception is defined as a problem or risk to data governance security. Exceptions include open
+shares and permissions granted to stale or disabled users. This report will be blank if no
+exceptions were found on the selected server. It is comprised of the following columns:
 
 - Server Name – Name of the server
 - Name – Type of exception found

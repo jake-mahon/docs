@@ -2,45 +2,94 @@
 
 This scaffolding creates the administrator profile with a predefined set of rights.
 
-To create the rights for this profile, a scaffolding list is launched inside the creation of the administrator profile.
+To create the rights for this profile, a scaffolding list is launched inside the creation of the
+administrator profile.
 
 The scaffolding generates the following scaffoldings:
 
-- [AccessReviewAdministrationAccessControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/accessreviews/accessreviewadministrationaccesscontrolrules/index.md): Generates the permissions to administrate campaign creation.
-- [AssignProfileAccessControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/profiles/assignprofileaccesscontrolrules/index.md): Gives to a given profile the rights to create, update, delete and query any assigned profile.
-- [BasketRulesControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/basketrulescontrolrules/index.md): Generates the permissions to execute the different requests to display the information in the rights basket.
-- [ConnectorResourceTypeAccessControl](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/connectors/connectorresourcetypeaccesscontrol/index.md): Gives the rights to create and update resource types, generate provisioning orders and fulfill from the connector screen.
-- [ConnectorsAccessControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/templates/connectorsaccesscontrolrules/index.md): Gives the permissions to manage the connector pages.
-- [CreateConnectorsJobs](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/jobs/createconnectorsjobs/index.md): Creates all jobs by connector to launched task in the connector page.
-- [CreateResourceIncrementalAccessControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/resources/createresourceincrementalaccesscontrolrules/index.md): Generates the access control rule which gives to a profile the permission to query the resources modified incrementally
-- [JobExecutionAccessControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/templates/jobexecutionaccesscontrolrules/index.md): Assigns a set of rights to a given profile to execute any job, and view all job instances, task instances and logs.
+- [AccessReviewAdministrationAccessControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/accessreviews/accessreviewadministrationaccesscontrolrules/index.md):
+  Generates the permissions to administrate campaign creation.
+- [AssignProfileAccessControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/profiles/assignprofileaccesscontrolrules/index.md):
+  Gives to a given profile the rights to create, update, delete and query any assigned profile.
+- [BasketRulesControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/basketrulescontrolrules/index.md):
+  Generates the permissions to execute the different requests to display the information in the
+  rights basket.
+- [ConnectorResourceTypeAccessControl](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/connectors/connectorresourcetypeaccesscontrol/index.md):
+  Gives the rights to create and update resource types, generate provisioning orders and fulfill
+  from the connector screen.
+- [ConnectorsAccessControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/templates/connectorsaccesscontrolrules/index.md):
+  Gives the permissions to manage the connector pages.
+- [CreateConnectorsJobs](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/jobs/createconnectorsjobs/index.md):
+  Creates all jobs by connector to launched task in the connector page.
+- [CreateResourceIncrementalAccessControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/resources/createresourceincrementalaccesscontrolrules/index.md):
+  Generates the access control rule which gives to a profile the permission to query the resources
+  modified incrementally
+- [JobExecutionAccessControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/templates/jobexecutionaccesscontrolrules/index.md):
+  Assigns a set of rights to a given profile to execute any job, and view all job instances, task
+  instances and logs.
 - [ManageAccounts](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/userinterfaces/manageaccounts/index.md):
-- [ManageSettingAccessControlRule](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/queries/managesettingaccesscontrolrule/index.md): Generates the access control rule which gives to a profile the permission to query, create, update and delete settings from the UM_Settings table.
-- [MonitoringAdministrationAccessControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/monitoring/monitoringadministrationaccesscontrolrules/index.md): Generates the access control rule which gives to a profile the permission to query the monitoring screen.
-- [PerformManualProvisioningAccessControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/performmanualprovisioningaccesscontrolrules/index.md): Generates the permissions to access the manual provisioning pages for a given entity type and profile.
-- [ProfileAdministrationAccessControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/profiles/profileadministrationaccesscontrolrules/index.md): Gives to a given profile the rights to create, update and delete profiles.
-- [ProvisioningAccessControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/provisioningaccesscontrolrules/index.md): Generates the execution rights for Provisioning and Fulfillment tasks for a given profile.
-- [ReconciliateResourcesAccessControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/reconciliateresourcesaccesscontrolrules/index.md): Generates the permissions to access the resource reconciliation pages for a given entity type and profile.
-- [ReconciliateRolesAccessControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/reconciliaterolesaccesscontrolrules/index.md): Generates the permissions to access the role reconciliation pages for a given entity type and profile.
-- [RedundantAssignmentAccessControlRule](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/redundantassignmentaccesscontrolrule/index.md): Generates the permissions to access the __Redundant Assignment__ page, to analyze and remove redundant assignments.
-- [ReportAccessControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/queries/reportaccesscontrolrules/index.md): Generates the permissions to access the report view.
-- [ResourceApiAdministration](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/resources/resourceapiadministration/index.md): Generates the permissions to create/update/delete/query resources from a given entity type, for a given profile.
-- [ResourcePickerControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/resources/resourcepickercontrolrules/index.md): Creates the reading right of the resource picker.
-- [ResourceTypeMappingControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/resourcetypemappingcontrolrules/index.md): Generate rights to launch agent fulfillment.
-- [ReviewProvisioningAccessControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/reviewprovisioningaccesscontrolrules/index.md): Generates the permissions to access the provisioning review pages for a given entity type and profile.
-- [ReviewRolesAccessControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/reviewrolesaccesscontrolrules/index.md): Generates the permissions to access the role review pages for a given entity type and profile.
+- [ManageSettingAccessControlRule](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/queries/managesettingaccesscontrolrule/index.md):
+  Generates the access control rule which gives to a profile the permission to query, create, update
+  and delete settings from the UM_Settings table.
+- [MonitoringAdministrationAccessControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/monitoring/monitoringadministrationaccesscontrolrules/index.md):
+  Generates the access control rule which gives to a profile the permission to query the monitoring
+  screen.
+- [PerformManualProvisioningAccessControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/performmanualprovisioningaccesscontrolrules/index.md):
+  Generates the permissions to access the manual provisioning pages for a given entity type and
+  profile.
+- [ProfileAdministrationAccessControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/profiles/profileadministrationaccesscontrolrules/index.md):
+  Gives to a given profile the rights to create, update and delete profiles.
+- [ProvisioningAccessControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/provisioningaccesscontrolrules/index.md):
+  Generates the execution rights for Provisioning and Fulfillment tasks for a given profile.
+- [ReconciliateResourcesAccessControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/reconciliateresourcesaccesscontrolrules/index.md):
+  Generates the permissions to access the resource reconciliation pages for a given entity type and
+  profile.
+- [ReconciliateRolesAccessControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/reconciliaterolesaccesscontrolrules/index.md):
+  Generates the permissions to access the role reconciliation pages for a given entity type and
+  profile.
+- [RedundantAssignmentAccessControlRule](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/redundantassignmentaccesscontrolrule/index.md):
+  Generates the permissions to access the **Redundant Assignment** page, to analyze and remove
+  redundant assignments.
+- [ReportAccessControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/queries/reportaccesscontrolrules/index.md):
+  Generates the permissions to access the report view.
+- [ResourceApiAdministration](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/resources/resourceapiadministration/index.md):
+  Generates the permissions to create/update/delete/query resources from a given entity type, for a
+  given profile.
+- [ResourcePickerControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/resources/resourcepickercontrolrules/index.md):
+  Creates the reading right of the resource picker.
+- [ResourceTypeMappingControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/resourcetypemappingcontrolrules/index.md):
+  Generate rights to launch agent fulfillment.
+- [ReviewProvisioningAccessControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/reviewprovisioningaccesscontrolrules/index.md):
+  Generates the permissions to access the provisioning review pages for a given entity type and
+  profile.
+- [ReviewRolesAccessControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/reviewrolesaccesscontrolrules/index.md):
+  Generates the permissions to access the role review pages for a given entity type and profile.
 - [RisksAdministrationAccessControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/risksadministrationaccesscontrolrules/index.md):
-- [RoleAdministrationAccessControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/roleadministrationaccesscontrolrules/index.md): Generates the permissions to access the configuration pages and create, update, delete the elements of the role model.
-- [RoleNamingAccessControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/rolenamingaccesscontrolrules/index.md): Generates the permissions to configure and launch the automatic creation of roles and rules based on naming conventions.
-- [SettingsAccessControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/connectors/settingsaccesscontrolrules/index.md): Generates the permissions to configure the Workforce Core Solution module and connector settings.
-- [SimulationAccessControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/templates/simulationaccesscontrolrules/index.md): Generates the permissions to configure and launch simulations.
-- [SynchronizationAccessControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/synchronizationaccesscontrolrules/index.md): Generates rights to launch synchronization task.
-- [TaskAdministrationAccessControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/taskadministrationaccesscontrolrules/index.md): Generates all rights to have the access to job administration page.
-- [UniverseAccessControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/queries/universeaccesscontrolrules/index.md): Generates an access control rule which gives a profile the permission to access the query page and run queries.
-- [ViewHistoryResourceTemplate](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/resources/viewhistoryresourcetemplate/index.md): Generates an access control rule giving to the specified profile the permission to browse the resources history of the specified entity type.
+- [RoleAdministrationAccessControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/roleadministrationaccesscontrolrules/index.md):
+  Generates the permissions to access the configuration pages and create, update, delete the
+  elements of the role model.
+- [RoleNamingAccessControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/rolenamingaccesscontrolrules/index.md):
+  Generates the permissions to configure and launch the automatic creation of roles and rules based
+  on naming conventions.
+- [SettingsAccessControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/connectors/settingsaccesscontrolrules/index.md):
+  Generates the permissions to configure the Workforce Core Solution module and connector settings.
+- [SimulationAccessControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/templates/simulationaccesscontrolrules/index.md):
+  Generates the permissions to configure and launch simulations.
+- [SynchronizationAccessControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/synchronizationaccesscontrolrules/index.md):
+  Generates rights to launch synchronization task.
+- [TaskAdministrationAccessControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/taskadministrationaccesscontrolrules/index.md):
+  Generates all rights to have the access to job administration page.
+- [UniverseAccessControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/queries/universeaccesscontrolrules/index.md):
+  Generates an access control rule which gives a profile the permission to access the query page and
+  run queries.
+- [ViewHistoryResourceTemplate](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/resources/viewhistoryresourcetemplate/index.md):
+  Generates an access control rule giving to the specified profile the permission to browse the
+  resources history of the specified entity type.
 - [WorkflowConfigurationControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/workflows/workflowconfigurationcontrolrules/index.md):
-- [WorkflowFulfillmentControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/workflowfulfillmentcontrolrules/index.md): Generates the execution rights to launch Fulfillment workflow for a given profile.
-- [WorkflowOverviewControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/workflows/workflowoverviewcontrolrules/index.md): Generates the permissions to access the workflow supervision page.
+- [WorkflowFulfillmentControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/workflowfulfillmentcontrolrules/index.md):
+  Generates the execution rights to launch Fulfillment workflow for a given profile.
+- [WorkflowOverviewControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/workflows/workflowoverviewcontrolrules/index.md):
+  Generates the permissions to access the workflow supervision page.
 
 ## Examples
 
@@ -52,20 +101,21 @@ The scaffolding generates the following scaffoldings:
 
 ## Properties
 
-| Property | Details |
-| --- | --- |
-| EntityType   optional | __Type__    String   __Description__   Identifier of the entity type involved in the scaffolding. |
+| Property            | Details                                                                                    |
+| ------------------- | ------------------------------------------------------------------------------------------ |
+| EntityType optional | **Type** String **Description** Identifier of the entity type involved in the scaffolding. |
 
 ## Child Elements
 
-- [DisplayNameProfile](#displaynameprofile) (optional) defines a display name for the administrator profile for a given language.
+- [DisplayNameProfile](#displaynameprofile) (optional) defines a display name for the administrator
+  profile for a given language.
 
 ### DisplayNameProfile
 
-| Property | Details |
-| --- | --- |
-| DisplayName   required | __Type__    String   __Description__   Display name of the profile in the related language. |
-| Identifier   required | __Type__    String   __Description__   Code of the language for the display name. |
+| Property             | Details                                                                              |
+| -------------------- | ------------------------------------------------------------------------------------ |
+| DisplayName required | **Type** String **Description** Display name of the profile in the related language. |
+| Identifier required  | **Type** String **Description** Code of the language for the display name.           |
 
 ## Generated XML
 

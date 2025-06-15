@@ -1,12 +1,13 @@
 # Send Notifications Task
 
-Task that sends all the custom notifications defined by the [
-Notification
-](../../../../notifications/notification/index.md) XML tag.
+Task that sends all the custom notifications defined by the
+[ Notification ](../../../../notifications/notification/index.md) XML tag.
 
 ## Examples
 
-The following example, included in a job potentially scheduled periodically, will send all custom notifications defined via ```Notification``` such as the example below. The task will send the notifications concerning the ```Directory_User``` entity type.
+The following example, included in a job potentially scheduled periodically, will send all custom
+notifications defined via `Notification` such as the example below. The task will send the
+notifications concerning the `Directory_User` entity type.
 
 ```
 
@@ -19,16 +20,16 @@ Knowing that we have for example:
 
 ## Properties
 
-| Property | Details |
-| --- | --- |
-| DisplayName_L1   required | __Type__    String   __Description__   Display name of the task in language 1 (up to 16). |
-| BatchSize   default value: 0 | __Type__    Int32   __Description__   Block size for batch calculation. |
-| Identifier   optional | __Type__    String   __Description__   Unique identifier of the task. |
+| Property                   | Details                                                                            |
+| -------------------------- | ---------------------------------------------------------------------------------- |
+| DisplayName_L1 required    | **Type** String **Description** Display name of the task in language 1 (up to 16). |
+| BatchSize default value: 0 | **Type** Int32 **Description** Block size for batch calculation.                   |
+| Identifier optional        | **Type** String **Description** Unique identifier of the task.                     |
 
 ## Child Element: TaskEntityType
 
 A task entity type defines the entity type on which the task is applied.
 
-| Property | Details |
-| --- | --- |
-| EntityType   required | __Type__    Int64   __Description__   Identifier of the entity type that the task is to be applied on. |
+| Property            | Details                                                                                         |
+| ------------------- | ----------------------------------------------------------------------------------------------- |
+| EntityType required | **Type** Int64 **Description** Identifier of the entity type that the task is to be applied on. |

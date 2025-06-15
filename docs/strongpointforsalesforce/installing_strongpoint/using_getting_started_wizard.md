@@ -1,35 +1,41 @@
 # Run the Getting Started Wizard
 
-The Getting Started Wizard helps you set up Platform Governance for Salesforce after you have done the [basic installation](installing_strongpoint.md) and configuration.
+The Getting Started Wizard helps you set up Platform Governance for Salesforce after you have done
+the [basic installation](installing_strongpoint.md) and configuration.
 
 To use the Getting Started Wizard:
 
-1. Open __Netwrix Dashboard__.
-2. Open __Settings__> __Getting Started Wizard__
+1. Open **Netwrix Dashboard**.
+2. Open **Settings**> **Getting Started Wizard**
 
-The __Getting Started Wizard__ opens to help you finish the configuration and set up.
+The **Getting Started Wizard** opens to help you finish the configuration and set up.
 
 ## Choose Your License Type
 
-On the Initial Setup Wizard page, choose the package type you have purchased. If you have an Intelligent Change Management or Enterprise Compliance License, enter the __Input Authorization Token__ sent to you. Click __Next__.
+On the Initial Setup Wizard page, choose the package type you have purchased. If you have an
+Intelligent Change Management or Enterprise Compliance License, enter the **Input Authorization
+Token** sent to you. Click **Next**.
 
 ![getting_started_wizard2](../../../static/img/product_docs/strongpointforsalesforce/installing_strongpoint/getting_started_wizard2.webp)
 
 ## Add your Credentials
 
-Once you have chosen your license type, you need to add your credentials. If your credentials change, an alert is sent to update the saved credentials. Expired credentials can cause auto scanners to fail. Use __Netwrix Dashboard__ > __Settings__> __SP Credentials__ to update your credentials.
+Once you have chosen your license type, you need to add your credentials. If your credentials
+change, an alert is sent to update the saved credentials. Expired credentials can cause auto
+scanners to fail. Use **Netwrix Dashboard** > **Settings**> **SP Credentials** to update your
+credentials.
 
 ![getting_started_wizard3](../../../static/img/product_docs/strongpointforsalesforce/installing_strongpoint/getting_started_wizard3.webp)
 
 1. On the Credentials page, add the following values:
 
-- __Salesforce Username__
-- __Salesforce Password__
-- __Salesforce Security Token__
-- __Salesforce Consumer Key__ Extracted when you created the Strongpoint Connected App
-- __Salesforce Consumer Secret__  Extracted when you created the Strongpoint Connected App
+- **Salesforce Username**
+- **Salesforce Password**
+- **Salesforce Security Token**
+- **Salesforce Consumer Key** Extracted when you created the Strongpoint Connected App
+- **Salesforce Consumer Secret** Extracted when you created the Strongpoint Connected App
 
-2. Click __Next__
+2. Click **Next**
 
 ## Test Your Connection
 
@@ -37,14 +43,15 @@ Once you have set up your credentials, you need to configure the remote site set
 
 ![Testing the connection](../../../static/img/product_docs/strongpointforsalesforce/installing_strongpoint/getting_started_wizard10.webp)
 
-1. Open Salesforce __Setup__ > __Security__ > __Remote Site Settings__.
-2. Click __New Remote Site__.
+1. Open Salesforce **Setup** > **Security** > **Remote Site Settings**.
+2. Click **New Remote Site**.
 
-   ![New Remote Site](../../../static/img/product_docs/strongpointforsalesforce/installing_strongpoint/getting_started_new_rss.webp)
+    ![New Remote Site](../../../static/img/product_docs/strongpointforsalesforce/installing_strongpoint/getting_started_new_rss.webp)
+
 3. Copy/paste the information from the wizard to create the remote sites.
-4. Click on __Test Connection__. __Test connection was Successful__ is displayed if the connection succeeds. If the connection fails, the wizard suggests troubleshooting steps to resolve the issue.
-5. Click __Next__.
-  
-  
+4. Click on **Test Connection**. **Test connection was Successful** is displayed if the connection
+   succeeds. If the connection fails, the wizard suggests troubleshooting steps to resolve the
+   issue.
+5. Click **Next**.
 
-__Next Step:__ [Set Up the Initial Scan](setting_up_initial_scan.md)
+**Next Step:** [Set Up the Initial Scan](setting_up_initial_scan.md)

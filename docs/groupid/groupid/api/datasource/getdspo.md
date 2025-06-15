@@ -13,21 +13,21 @@ GET
 #### Sample Response Syntax
 
 ```
-{  
-    "isDirectoryProvider": false,  
-    "isTableProvider": true,  
-    "capabilityMappings": {  
-        "Source": [  
-            "Active Directory",  
-            "Text/CSV"  
-        ]  
-    },  
-    "providerType": "Text/CSV",  
-    "creatableObjects": [  
-        {  
-            "ldapName": "Object",  
-            "displayName": "Object"  
-        }  
-    ]  
+{
+    "isDirectoryProvider": false,
+    "isTableProvider": true,
+    "capabilityMappings": {
+        "Source": [
+            "Active Directory",
+            "Text/CSV"
+        ]
+    },
+    "providerType": "Text/CSV",
+    "creatableObjects": [
+        {
+            "ldapName": "Object",
+            "displayName": "Object"
+        }
+    ]
 }
 ```

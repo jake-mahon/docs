@@ -4,7 +4,8 @@ Generates the permissions to view an entity type's resources.
 
 ## Examples
 
-The following example gives to the ```Administrator``` profile the permissions to access the page that displays the resources of the ```Directory_UserType``` entity type, as well as its source resources.
+The following example gives to the `Administrator` profile the permissions to access the page that
+displays the resources of the `Directory_UserType` entity type, as well as its source resources.
 
 ```
 
@@ -14,10 +15,10 @@ The following example gives to the ```Administrator``` profile the permissions t
 
 ## Properties
 
-| Property | Details |
-| --- | --- |
-| EntityType   required | __Type__    String   __Description__   Identifier of the entity type involved in the scaffolding. |
-| Profile   required | __Type__    String   __Description__   Identifier of the profile involved in the scaffolding. |
+| Property            | Details                                                                                    |
+| ------------------- | ------------------------------------------------------------------------------------------ |
+| EntityType required | **Type** String **Description** Identifier of the entity type involved in the scaffolding. |
+| Profile required    | **Type** String **Description** Identifier of the profile involved in the scaffolding.     |
 
 ## Generated XML
 

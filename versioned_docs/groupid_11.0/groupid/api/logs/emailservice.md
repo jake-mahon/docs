@@ -1,6 +1,8 @@
 # Email Service Logs
 
-Use this API to get Email service logs. See the [Email Service](/versioned_docs/groupid_11.0/groupid/admincenter/service/emailservice.md) topic for additional on Email service.
+Use this API to get Email service logs. See the
+[Email Service](/versioned_docs/groupid_11.0/groupid/admincenter/service/emailservice.md) topic for
+additional on Email service.
 
 ## Endpoint
 

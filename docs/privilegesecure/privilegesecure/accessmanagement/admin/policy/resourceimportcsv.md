@@ -5,24 +5,30 @@ Resources can be onboarded via a CSV import process. Create a CSV file with the 
 - DNS Host Name — Displays the fully qualified domain name for the resource
 - Operating System — Displays the operating system of the resource. This is an optional value.
 - IP Address — Displays the IP address for the resource
-- Platform — Displays the type of platform, which defines the resource. This is an optional value, but it must be an exact match to known platforms on the [Platforms Page](page/platforms/overview.md).
-- Credential — Displays the service account associated with the resource. This is an optional value, but it must be an exact match to known service accounts on the [Service Accounts Page](../configuration/page/serviceaccounts.md).
+- Platform — Displays the type of platform, which defines the resource. This is an optional value,
+  but it must be an exact match to known platforms on the
+  [Platforms Page](page/platforms/overview.md).
+- Credential — Displays the service account associated with the resource. This is an optional value,
+  but it must be an exact match to known service accounts on the
+  [Service Accounts Page](../configuration/page/serviceaccounts.md).
 
-The CSV file must contain one resource per row. Each resource must be identified by either a DNS Host Name or an IP Address. All other values are optional.
+The CSV file must contain one resource per row. Each resource must be identified by either a DNS
+Host Name or an IP Address. All other values are optional.
 
 ## Download Template
 
 There is a template available. Follow the steps to download the template.
 
-__Step 1 –__ Navigate to either the Resources dashboard or the Resources page.
+**Step 1 –** Navigate to either the Resources dashboard or the Resources page.
 
-__Step 2 –__ Click the Add button and select New Server. The Add Resources window will open to onboard new servers.
+**Step 2 –** Click the Add button and select New Server. The Add Resources window will open to
+onboard new servers.
 
-__Step 3 –__  Select the Import from CSV radio button.
+**Step 3 –** Select the Import from CSV radio button.
 
-__Step 4 –__ Click Download CSV Template.
+**Step 4 –** Click Download CSV Template.
 
-The ```nps-resource-import-template.csv``` file is downloaded to your browser's default download folder.
+The `nps-resource-import-template.csv` file is downloaded to your browser's default download folder.
 
 ## Example CSV File
 

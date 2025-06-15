@@ -5,12 +5,14 @@
 #### FullClient
 
 - Added token verification for MFA setup during login.
-- Renamed Azure AD to Entra ID. Added "Entra ID client secret" to Entra ID, Conditional Access now works correctly.
+- Renamed Azure AD to Entra ID. Added "Entra ID client secret" to Entra ID, Conditional Access now
+  works correctly.
 
 #### Web Application
 
 - Added token verification for MFA setup during login.
-- Renamed Azure AD to Entra ID. Added "Entra ID client secret" to Entra ID, Conditional Access now works correctly.
+- Renamed Azure AD to Entra ID. Added "Entra ID client secret" to Entra ID, Conditional Access now
+  works correctly.
 
 #### SSO Client
 
@@ -32,7 +34,9 @@
 
 #### Web Application
 
-- Opening a link to the Web Application correctly redirects to the requested page (this also fixed problems with the browser extension when opening and editing existing passwords and the option to save new passwords).
+- Opening a link to the Web Application correctly redirects to the requested page (this also fixed
+  problems with the browser extension when opening and editing existing passwords and the option to
+  save new passwords).
 - History changes are highlighted properly now.
 - Web applications can now be created again.
 

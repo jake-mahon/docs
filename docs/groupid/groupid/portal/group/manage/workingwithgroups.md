@@ -1,6 +1,7 @@
 # Working with Groups
 
-A Directory Manager portal enables you to manage your directory groups in the identity store, so you can do the following and more:
+A Directory Manager portal enables you to manage your directory groups in the identity store, so you
+can do the following and more:
 
 - Add and remove members from your groups
 - Join and leave other groups
@@ -69,4 +70,5 @@ Group Expiry and Deletion
 Query Designer Policy for Groups
 
 - [Modify the query for a Smart Group/Dynasty created by other role members](scheduleupdate.md#modify-the-query-for-a-smart-groupdynasty-created-by-other-role-members)
-- [Schedule periodic membership updates for Smart Groups/Dynasties](scheduleupdate.md#schedule-periodic-membership-updates-for-smart-groupsdynasties) (as per group owner role's Query Designer policy)
+- [Schedule periodic membership updates for Smart Groups/Dynasties](scheduleupdate.md#schedule-periodic-membership-updates-for-smart-groupsdynasties)
+  (as per group owner role's Query Designer policy)

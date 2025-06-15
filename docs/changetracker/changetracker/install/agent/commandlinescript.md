@@ -1,8 +1,10 @@
 # Scripted/Command Line Use of Gen 7 Agent EXE Installer
 
-By co-locating a pre-configured __HubDetails.xml__ file in the same folder as the Gen 7 Agent installer these details will be used by the installer for the installed agent.
+By co-locating a pre-configured **HubDetails.xml** file in the same folder as the Gen 7 Agent
+installer these details will be used by the installer for the installed agent.
 
-Use of the ```/SP- /VERYSILENT /SUPPRESSMSGBOXES``` switches will ensure the installation is silent and operates unattended.
+Use of the `/SP- /VERYSILENT /SUPPRESSMSGBOXES` switches will ensure the installation is silent and
+operates unattended.
 
 C:\Users\Administrator\Downloads>dir
 
@@ -24,16 +26,23 @@ Directory of C:\Users\Administrator\Downloads
 
 2 Dir(s) 4,802,424,832 bytes free
 
-C:\Users\Administrator\Downloads>nnt-changeTracker™-gen7agent-7.0.0.15-68.exe /SP- /VERYSILENT /SUPPRESSMSGBOXES
+C:\Users\Administrator\Downloads>nnt-changeTracker™-gen7agent-7.0.0.15-68.exe /SP- /VERYSILENT
+/SUPPRESSMSGBOXES
 
-Alternatively, a full command line installation can be used, with individual arguments used to specify HubDetails settings.
+Alternatively, a full command line installation can be used, with individual arguments used to
+specify HubDetails settings.
 
-__For example__:
+**For example**:
 
-C:\Users\Administrator\Downloads>nnt-changeTracker™-gen7agent-7.0.0.15-68.exe /UseNewHub=true /HUBURL=https://192.168.1.107/api /NamePrefix=GenVii- /HUBUSER=agent /HUBPASSWORD=passWord121 /SP- /VERYSILENT /SUPPRESSMSGBOXES
+C:\Users\Administrator\Downloads>nnt-changeTracker™-gen7agent-7.0.0.15-68.exe /UseNewHub=true
+/HUBURL=https://192.168.1.107/api /NamePrefix=GenVii- /HUBUSER=agent /HUBPASSWORD=passWord121 /SP-
+/VERYSILENT /SUPPRESSMSGBOXES
 
-You can also use these parameters in the command line: NameSuffix, Thumbprint, Proxy, ProxyDomain, ProxyUser, ProxyPassword.
+You can also use these parameters in the command line: NameSuffix, Thumbprint, Proxy, ProxyDomain,
+ProxyUser, ProxyPassword.
 
-__NOTE:__ These parameters are not case sensitive.
+**NOTE:** These parameters are not case sensitive.
 
-For more information on the __HubDetails.xml__ nodes and settings see the [First Run – HubDetails.xml File](../../admin/settings/devicegroups.md) topic for additional information.
+For more information on the **HubDetails.xml** nodes and settings see the
+[First Run – HubDetails.xml File](../../admin/settings/devicegroups.md) topic for additional
+information.

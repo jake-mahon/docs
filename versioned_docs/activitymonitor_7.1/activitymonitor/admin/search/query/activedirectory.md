@@ -1,6 +1,8 @@
 # Active Directory Search Query
 
-You can search domain activity that has been monitored and recorded to a File output. When you select __Active Directory__ from the magnifying glass drop-down menu, a New Search tab opens with the applicable query filters.
+You can search domain activity that has been monitored and recorded to a File output. When you
+select **Active Directory** from the magnifying glass drop-down menu, a New Search tab opens with
+the applicable query filters.
 
 ![Search - Active Directory New Search Tab](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/query/activedirectorynewsearchtab.png)
 
@@ -12,43 +14,65 @@ The filters are separated into the following categories:
 - LDAP Queries
 - Authentication
 
-By default, the query is set to return all event activity for the past day. Configuring query filters will scope results returned.
+By default, the query is set to return all event activity for the past day. Configuring query
+filters will scope results returned.
 
-Set the filters as desired and click __Search__. The application searches through the appropriate activity log files and returns the events that match the filters. You can [Filter](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/overview.md#filter) and [Sort](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/overview.md#sort) the results using the column headers. Below the Search button is the [Export](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/overview.md#export) option.
+Set the filters as desired and click **Search**. The application searches through the appropriate
+activity log files and returns the events that match the filters. You can
+[Filter](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/overview.md#filter) and
+[Sort](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/overview.md#sort) the
+results using the column headers. Below the Search button is the
+[Export](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/overview.md#export)
+option.
 
 Filter Value Entry
 
-When the drop-down menu is in front of a query filter, it is used to show or hide the filter entry field. Field options vary based on the selected query filter:
+When the drop-down menu is in front of a query filter, it is used to show or hide the filter entry
+field. Field options vary based on the selected query filter:
 
-- Textbox – Enter the filter value. If the field has a drop-down arrow, then you can select from values known to the application.
-- Gray drop-down menu – Provides options to match the value against on of the following, which vary based on the filter:
+- Textbox – Enter the filter value. If the field has a drop-down arrow, then you can select from
+  values known to the application.
+- Gray drop-down menu – Provides options to match the value against on of the following, which vary
+  based on the filter:
 
-  - Selected values – Filters by the value selected from the drop-down menu for the textbox
-  - Simple string with wildcards – Filters by the value entered into the textbox, which contains an asterisk (\*) as the wildcard
-  - Regular expression – Filters by the Regex entered into the textbox
+    - Selected values – Filters by the value selected from the drop-down menu for the textbox
+    - Simple string with wildcards – Filters by the value entered into the textbox, which contains
+      an asterisk (\*) as the wildcard
+    - Regular expression – Filters by the Regex entered into the textbox
 
 ## General Category
 
-The General category addresses who, what, where, and when an object, user, host, or domain controller is affected by the events selected in the other categories. The time frame filter must be configured for every search query.
+The General category addresses who, what, where, and when an object, user, host, or domain
+controller is affected by the events selected in the other categories. The time frame filter must be
+configured for every search query.
 
 ![Active Directory Search - General Filter](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/query/generalfilters.png)
 
 This section has the following filters:
 
-- From – Set the date and timestamp for the start of the activity range. The drop-down menu opens a calendar.
-- To – Set the date and timestamp for the end of the activity range. The drop-down menu opens a calendar.
-- Event Source – Set which query categories will be used. The drop-down menu displays a checkbox list of categories.
+- From – Set the date and timestamp for the start of the activity range. The drop-down menu opens a
+  calendar.
+- To – Set the date and timestamp for the end of the activity range. The drop-down menu opens a
+  calendar.
+- Event Source – Set which query categories will be used. The drop-down menu displays a checkbox
+  list of categories.
 - Event Result – Filter the data for a specific event result: Any, Success, or Failure
-- Event Block – Filter the data for a specific event result related to blocking: Any, Allowed, or Blocked
+- Event Block – Filter the data for a specific event result related to blocking: Any, Allowed, or
+  Blocked
 - Agent Hosts – Filter the data for a specific agent
 - Agent Domains – Filter the data for a specific domain
 - Affected Object Name – Filter the data for a specific affected object name
 - Affected Object Class – Filter the data for a specific affected object class
 - User – Filter the data for a specific user, or perpetrator of the event
 
-  - Specify account or group (...) – The ellipsis button beside the User textbox opens the Specify account or group window. Use this window to resolve the account for the user. See the [Specify Account or Group Window](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/outputs/window/specifywindowsaccount.md) topic for additional information.
+    - Specify account or group (...) – The ellipsis button beside the User textbox opens the Specify
+      account or group window. Use this window to resolve the account for the user. See the
+      [Specify Account or Group Window](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/outputs/window/specifywindowsaccount.md)
+      topic for additional information.
+
 - From Hosts – Filter the data for a specific originating host of the event
-- Search Limit – Set the maximum number of rows returned in the search results. The default is 10,000 rows.
+- Search Limit – Set the maximum number of rows returned in the search results. The default is
+  10,000 rows.
 
 ## Object Changes Category
 
@@ -58,9 +82,12 @@ The Object Changes category scopes the query by objects with change activity.
 
 This section has the following filters:
 
-- Account Changes – Filter the data by the type of account change: All, Account Locked, Account Unlocked, Account Disabled, Account Enabled, Password Changed
-- Membership Changes – Filter the data by the type of group membership change: All, Group Members Added, Group Members Removed, Group Members Changed
-- Object Changes – Filter the data by the type of group membership change: All, Object Moved, Object Renamed, Object Added, Object Modified, Object Deleted
+- Account Changes – Filter the data by the type of account change: All, Account Locked, Account
+  Unlocked, Account Disabled, Account Enabled, Password Changed
+- Membership Changes – Filter the data by the type of group membership change: All, Group Members
+  Added, Group Members Removed, Group Members Changed
+- Object Changes – Filter the data by the type of group membership change: All, Object Moved, Object
+  Renamed, Object Added, Object Modified, Object Deleted
 - New Object Name – Filter the data for a specific new object name
 - Old Object Name – Filter the data for a specific old object name
 - Attribute Name – Filter the data for a specific attribute name
@@ -99,7 +126,8 @@ This section has the following filters:
 
 - Target Host – Filter the data for a specific host
 - Authentication – Filter the data by the type of authentication: All, Kerberos, NTLM
-- NTLM Logon Type – Filter the data by the type of NTLM Logon: All, Interactive, Network, Service, Generic, Transitive Interactive, Transitive Network, Transitive Service
+- NTLM Logon Type – Filter the data by the type of NTLM Logon: All, Interactive, Network, Service,
+  Generic, Transitive Interactive, Transitive Network, Transitive Service
 - NTLM Version – Filter the data by the type of NTLM version: Any, V1, V2
 - Encryption – Filter the data for a specific encryption
 - SPN – Filter the data for a specific service principal name (SPN)

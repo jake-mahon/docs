@@ -1,8 +1,11 @@
 # Domains Page
 
-The Domains page provides a list of the domains backed up by Recovery for Active Directory. It displays the backup schedule settings for each added domain. You can also add and configure new domains.
+The Domains page provides a list of the domains backed up by Recovery for Active Directory. It
+displays the backup schedule settings for each added domain. You can also add and configure new
+domains.
 
-Click __Configuration__ in the left pane. Then click the __Domains__ tab on the Configuration page to open the Domains page.
+Click **Configuration** in the left pane. Then click the **Domains** tab on the Configuration page
+to open the Domains page.
 
 ![Domains Page](../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/agent/domains.webp)
 
@@ -15,116 +18,169 @@ The table displays the following information:
 - Details – Information about any errors that occurred when the last backup was performed
 - Actions – Displays the icons used to collect, edit, and delete the respective domain
 
-  - Run backup – Click the __Play__ icon to start a new collection (backup) on the respective domain if collection is needed outside of the configured schedule
-  - Edit configuration – Edit the settings of the domain. Click the __Edit__ icon for a domain to open the Edit Domain Configuration wizard and edit the domain's settings. See the Edit Domain Configuration topic for additional information.
-  - Delete configuration – Click the Delete icon for a domain to delete it
+    - Run backup – Click the **Play** icon to start a new collection (backup) on the respective
+      domain if collection is needed outside of the configured schedule
+    - Edit configuration – Edit the settings of the domain. Click the **Edit** icon for a domain to
+      open the Edit Domain Configuration wizard and edit the domain's settings. See the Edit Domain
+      Configuration topic for additional information.
+    - Delete configuration – Click the Delete icon for a domain to delete it
 
-To add a domain, click the __Add domain configuration__ button. See the Add a Domain topic for additional information.
+To add a domain, click the **Add domain configuration** button. See the Add a Domain topic for
+additional information.
 
 ### Add a Domain
 
-To add a domain, provide domain details and configure the backup schedule. For a list of the supported Windows Servers, see the [Target Domains](../../requirements/targetdomain.md) topic.
+To add a domain, provide domain details and configure the backup schedule. For a list of the
+supported Windows Servers, see the [Target Domains](../../requirements/targetdomain.md) topic.
 
 Follow the steps to add a domain.
 
-__Step 1 –__ Click the __Add domain configuration__ button on the Domains page to launch the Add Domain Configuration wizard.
+**Step 1 –** Click the **Add domain configuration** button on the Domains page to launch the Add
+Domain Configuration wizard.
 
 ![Add Domain Configuration wizard - Domain page](../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/domain.webp)
 
-__Step 2 –__ Enter a domain [example.domain.com] in the Domain field.
+**Step 2 –** Enter a domain [example.domain.com] in the Domain field.
 
-__Step 3 –__ Enter the account username [DOMAIN\USERNAME] to be used for backups, rollbacks, and recoveries in the Account field.
+**Step 3 –** Enter the account username [DOMAIN\USERNAME] to be used for backups, rollbacks, and
+recoveries in the Account field.
 
-__Step 4 –__ Enter the password for the account in the Password field.
+**Step 4 –** Enter the password for the account in the Password field.
 
-__NOTE:__ The account must have Domain Admin privileged access to read and write object data in order to back up, rollback, and restore objects in Active Directory. If the account has read rights only, it will be able to back up the domain but unable to rollback and restore objects. In this case, alternate credentials with read and write access to objects will have to be provided on the Credentials page of the Object Rollback and Object Restore wizards. See the [Rollback Objects](../activedirectory/rollback.md) and [Recover an Object](../activedirectory/recover.md#recover-an-object) topics for information on the wizards.
+**NOTE:** The account must have Domain Admin privileged access to read and write object data in
+order to back up, rollback, and restore objects in Active Directory. If the account has read rights
+only, it will be able to back up the domain but unable to rollback and restore objects. In this
+case, alternate credentials with read and write access to objects will have to be provided on the
+Credentials page of the Object Rollback and Object Restore wizards. See the
+[Rollback Objects](../activedirectory/rollback.md) and
+[Recover an Object](../activedirectory/recover.md#recover-an-object) topics for information on the
+wizards.
 
-For a Least Privilege Access Model to provision an Active Directory security group with the permissions that are necessary to perform backups, rollbacks and recovery, see the [Least Privilege Access Model](../../requirements/targetdomain.md#least-privilege-access-model) topic.
+For a Least Privilege Access Model to provision an Active Directory security group with the
+permissions that are necessary to perform backups, rollbacks and recovery, see the
+[Least Privilege Access Model](../../requirements/targetdomain.md#least-privilege-access-model)
+topic.
 
-__Step 5 –__ Click __Next__.
+**Step 5 –** Click **Next**.
 
 ![Add Domain Configuration wizard - Backup Schedule page](../../../../../static/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/configuration/backupschedule.webp)
 
-__Step 6 –__ Select the days of the week in the Run the backup on section to indicate the days when backups will be run.
+**Step 6 –** Select the days of the week in the Run the backup on section to indicate the days when
+backups will be run.
 
-__Step 7 –__ Select a start time (UTC) in the Start the backup at field to begin the backup. The default time is 12:00 AM.
+**Step 7 –** Select a start time (UTC) in the Start the backup at field to begin the backup. The
+default time is 12:00 AM.
 
-__Step 8 –__ In the Repeat every field, enter a frequency, in minutes, to set the time between the start of each domain backup. Keep in mind the size of the environment when configuring this option. Click __Next__.
+**Step 8 –** In the Repeat every field, enter a frequency, in minutes, to set the time between the
+start of each domain backup. Keep in mind the size of the environment when configuring this option.
+Click **Next**.
 
-__NOTE:__ If the start time is changed from the default and a frequency is selected (in minutes), the backups will run at the desired frequency but will skip from midnight until the selected start time.
+**NOTE:** If the start time is changed from the default and a frequency is selected (in minutes),
+the backups will run at the desired frequency but will skip from midnight until the selected start
+time.
 
 ![Add Domain Configuration wizard - Options page](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/install/application/options.webp)
 
-__Step 9 –__ (_Optional_) Select the __Collect GPOs__ checkbox to enable GPO rollback and recovery. This setting requires Group Policy Management Console (GMPC). If GPO collection is not desired, skip to Step 9.
+**Step 9 –** (_Optional_) Select the **Collect GPOs** checkbox to enable GPO rollback and recovery.
+This setting requires Group Policy Management Console (GMPC). If GPO collection is not desired, skip
+to Step 9.
 
-__Step 10 –__ If the Collect GPOs checkbox is selected, the Store the Group Policy Object backups in the following location field is enabled. Specify the save location for the GPO backup here.
+**Step 10 –** If the Collect GPOs checkbox is selected, the Store the Group Policy Object backups in
+the following location field is enabled. Specify the save location for the GPO backup here.
 
-__NOTE:__ The path must be a network share. Do not provide the path to a local drive for storing the backup.
+**NOTE:** The path must be a network share. Do not provide the path to a local drive for storing the
+backup.
 
-__Step 11 –__ Click __Next__.
+**Step 11 –** Click **Next**.
 
 ![Add Domain Configuration wizard - Notification page](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/notification.webp)
 
-__Step 12 –__ To set notifications, select the Send email notifications check box and enter the email address of one or more users and/or groups to receive the job start and end notifications. Use a semicolon (;) to separate multiple recipients. See the [Notifications Page](notifications.md) topic for additional information.
+**Step 12 –** To set notifications, select the Send email notifications check box and enter the
+email address of one or more users and/or groups to receive the job start and end notifications. Use
+a semicolon (;) to separate multiple recipients. See the [Notifications Page](notifications.md)
+topic for additional information.
 
 If notifications are not desired, skip this step.
 
-__Step 13 –__ Click __Next__.
+**Step 13 –** Click **Next**.
 
 ![Add Domain Configuration wizard - Confirm page](../../../../../static/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/confirm.webp)
 
-__Step 14 –__ The Confirm page displays a summary of the settings you provided on the pages of the wizard. Use the Back button to return to a previous page and change any setting. Click __Complete__ to finish the wizard.
+**Step 14 –** The Confirm page displays a summary of the settings you provided on the pages of the
+wizard. Use the Back button to return to a previous page and change any setting. Click **Complete**
+to finish the wizard.
 
 A new domain is added and displayed on the Domains page.
 
-Backups will begin as scheduled. On the first scheduled instance, a complete backup of the domain is performed. Then, subsequent backups only include the incremental changes that occurred since the previous backup.
+Backups will begin as scheduled. On the first scheduled instance, a complete backup of the domain is
+performed. Then, subsequent backups only include the incremental changes that occurred since the
+previous backup.
 
 ### Edit Domain Configuration
 
 Follow the steps to edit a domain.
 
-__Step 1 –__ On the Domains page, click the __Edit configuration__ icon for a domain. The Edit Domain Configuration wizard opens.
+**Step 1 –** On the Domains page, click the **Edit configuration** icon for a domain. The Edit
+Domain Configuration wizard opens.
 
 ![Edit Domain Configuration wizard - Domain page](../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/domain.webp)
 
-__Step 2 –__ Modify the domain in the Domain field, as needed.
+**Step 2 –** Modify the domain in the Domain field, as needed.
 
-__Step 3 –__ Modify the account username [DOMAIN\USERNAME] to be used for backups, rollbacks, and recoveries in the Account field, as needed.
+**Step 3 –** Modify the account username [DOMAIN\USERNAME] to be used for backups, rollbacks, and
+recoveries in the Account field, as needed.
 
-__Step 4 –__ Update the password for the account in the Password field, as needed. The new credentials will take effect on next domain backup.
+**Step 4 –** Update the password for the account in the Password field, as needed. The new
+credentials will take effect on next domain backup.
 
-__Step 5 –__ Click __Next__.
+**Step 5 –** Click **Next**.
 
 ![Edit Domain Configuration wizard - Backup Schedule page](../../../../../static/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/configuration/backupschedule.webp)
 
-__Step 6 –__ Modify the selection of the check boxes in the Run the backup on section to indicate the days when backups will be run, as needed.
+**Step 6 –** Modify the selection of the check boxes in the Run the backup on section to indicate
+the days when backups will be run, as needed.
 
-__Step 7 –__ Modify the start time (UTC) in the Start the backup at field to begin the backup, as needed.
+**Step 7 –** Modify the start time (UTC) in the Start the backup at field to begin the backup, as
+needed.
 
-__Step 8 –__ In the Repeat every field, modify the frequency, in minutes, to set the time between the start of each domain backup. Keep in mind the size of the environment when configuring this option.
+**Step 8 –** In the Repeat every field, modify the frequency, in minutes, to set the time between
+the start of each domain backup. Keep in mind the size of the environment when configuring this
+option.
 
-__NOTE:__ If the start time is changed from the default and a frequency is selected (in minutes), the backups will run at the desired frequency but will skip from midnight until the selected start time.
+**NOTE:** If the start time is changed from the default and a frequency is selected (in minutes),
+the backups will run at the desired frequency but will skip from midnight until the selected start
+time.
 
-__Step 9 –__ Click __Next__.
+**Step 9 –** Click **Next**.
 
 ![Edit Domain Configuration wizard - Options page](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/install/application/options.webp)
 
-__Step 10 –__ (_Optional_) Select or deselect the __Collect GPOs__ checkbox to enable or disable GPO rollback and recovery. This setting requires Group Policy Management Console (GMPC). If GPO collection is not desired, skip to Step 12.
+**Step 10 –** (_Optional_) Select or deselect the **Collect GPOs** checkbox to enable or disable GPO
+rollback and recovery. This setting requires Group Policy Management Console (GMPC). If GPO
+collection is not desired, skip to Step 12.
 
-__Step 11 –__ If the Collect GPOs checkbox is selected, the Store the Group Policy Object backups in the following location field is enabled. Modify the save location for the GPO backup here, as needed.
+**Step 11 –** If the Collect GPOs checkbox is selected, the Store the Group Policy Object backups in
+the following location field is enabled. Modify the save location for the GPO backup here, as
+needed.
 
-__NOTE:__ The path must be a network share. Do not provide the path to a local drive for storing the backup.
+**NOTE:** The path must be a network share. Do not provide the path to a local drive for storing the
+backup.
 
-__Step 12 –__ Click __Next__.
+**Step 12 –** Click **Next**.
 
 ![Edit Domain Configuration wizard - Notification page](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/notification.webp)
 
-__Step 13 –__ To set notifications, select the Send email notifications check box and enter the email address of one or more users and/or groups to receive the job start and end notifications. Use a semicolon (;) to separate multiple recipients. See the [Notifications Page](notifications.md) topic for additional information.
+**Step 13 –** To set notifications, select the Send email notifications check box and enter the
+email address of one or more users and/or groups to receive the job start and end notifications. Use
+a semicolon (;) to separate multiple recipients. See the [Notifications Page](notifications.md)
+topic for additional information.
 
 If notifications are not desired, skip this step.
 
 ![Edit Domain Configuration wizard - Confirm page](../../../../../static/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/confirm.webp)
 
-__Step 14 –__  The Confirm page displays a summary of the settings you provided on the pages of the wizard. Use the Back button to return to a previous page and change any setting. Click __Complete__ to finish the wizard.
+**Step 14 –** The Confirm page displays a summary of the settings you provided on the pages of the
+wizard. Use the Back button to return to a previous page and change any setting. Click **Complete**
+to finish the wizard.
 
 The domain configuration is updated and backups will resume as scheduled.

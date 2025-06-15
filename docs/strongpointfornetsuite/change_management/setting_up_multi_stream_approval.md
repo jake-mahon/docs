@@ -1,6 +1,9 @@
 # Setting Up Multi-Stream Approval
 
-This process enables an administrator to select approvers other than the IT Approvers outlined on the Policy. The administrator selects the approvers in the order they will approve the request. The process owner is the final approver. This differs from selecting Additional Approvers from the Change Request, where the mandated approvers are included.
+This process enables an administrator to select approvers other than the IT Approvers outlined on
+the Policy. The administrator selects the approvers in the order they will approve the request. The
+process owner is the final approver. This differs from selecting Additional Approvers from the
+Change Request, where the mandated approvers are included.
 
 ## Configure Multi-Stream Approval
 
@@ -11,40 +14,48 @@ This process enables an administrator to select approvers other than the IT Appr
 
 ### Create a Process Record
 
-1. Open __Strongpoint__ > __Manage Processes__ > __Process__ > __New__
-2. Enter the __Name__ and __Owner__ for the process. For this example, the name is __Provision Multi-Stream Approval__.
-3. __Custom Form__ and __Step Type__ should be set to __Process__.
-4. Ctrl-Click to select one or more __Additional Approvers__. NOTE: Select the additional approvers in the order you want them to approve.
+1. Open **Strongpoint** > **Manage Processes** > **Process** > **New**
+2. Enter the **Name** and **Owner** for the process. For this example, the name is **Provision
+   Multi-Stream Approval**.
+3. **Custom Form** and **Step Type** should be set to **Process**.
+4. Ctrl-Click to select one or more **Additional Approvers**. NOTE: Select the additional approvers
+   in the order you want them to approve.
 
-   ![multi_stream_new_process](../../../static/img/product_docs/strongpointfornetsuite/change_management/multi_stream_new_process.webp)
-5. Click __Save__. Note the approvers are listed in the order selected, not the order they appeared in the list. If you need to reorder the approvers, __Edit__ the record, de-select and re-select the additional approvers.
+    ![multi_stream_new_process](../../../static/img/product_docs/strongpointfornetsuite/change_management/multi_stream_new_process.webp)
 
-   ![multi_stream_new_process_save](../../../static/img/product_docs/strongpointfornetsuite/change_management/multi_stream_new_process_save.webp)
+5. Click **Save**. Note the approvers are listed in the order selected, not the order they appeared
+   in the list. If you need to reorder the approvers, **Edit** the record, de-select and re-select
+   the additional approvers.
+
+    ![multi_stream_new_process_save](../../../static/img/product_docs/strongpointfornetsuite/change_management/multi_stream_new_process_save.webp)
 
 ### Create a new Policy Record
 
-1. Open __Strongpoint__ > __Change Management Tools__ > __Change / Approval Policy__ > __New__
-2. Enter a __Name__ and __Owner__ for the Policy. For this example the name is __Process Approvers Only__.
-3. Set the Change Levels on the __Change Controls__ tab.
-4. Leave the fields blank on the __IT Policies__ tab.
-5. Make sure __Require Affected Process Approval__ is selected on the __Process Policies__ tab.
-6. Click __Save__. Leave the new policy open and continue with the next steps.
+1. Open **Strongpoint** > **Change Management Tools** > **Change / Approval Policy** > **New**
+2. Enter a **Name** and **Owner** for the Policy. For this example the name is **Process Approvers
+   Only**.
+3. Set the Change Levels on the **Change Controls** tab.
+4. Leave the fields blank on the **IT Policies** tab.
+5. Make sure **Require Affected Process Approval** is selected on the **Process Policies** tab.
+6. Click **Save**. Leave the new policy open and continue with the next steps.
 
-   ![multi_stream_new_policy](../../../static/img/product_docs/strongpointfornetsuite/change_management/multi_stream_new_policy.webp)
+    ![multi_stream_new_policy](../../../static/img/product_docs/strongpointfornetsuite/change_management/multi_stream_new_policy.webp)
 
 ### Attach the new Process Record
 
-1. Set __View__ to __Strongpoint View__ on the __Process Policies__ tab.
-2. Select the __Process__ you created. For this example, it is __Provision Multi-Stream Approval__.
+1. Set **View** to **Strongpoint View** on the **Process Policies** tab.
+2. Select the **Process** you created. For this example, it is **Provision Multi-Stream Approval**.
 
-   ![multi_stream_attach](../../../static/img/product_docs/strongpointfornetsuite/change_management/multi_stream_attach.webp)
-3. Click __Attach__. The process is now shown on the __Process Policies__ tab.
+    ![multi_stream_attach](../../../static/img/product_docs/strongpointfornetsuite/change_management/multi_stream_attach.webp)
 
-   ![multi_stream_attach_result](../../../static/img/product_docs/strongpointfornetsuite/change_management/multi_stream_attach_result.webp)
+3. Click **Attach**. The process is now shown on the **Process Policies** tab.
+
+    ![multi_stream_attach_result](../../../static/img/product_docs/strongpointfornetsuite/change_management/multi_stream_attach_result.webp)
 
 ### Create a Change Request
 
-1. Open __Strongpoint__ > __Change Management Tools__ > __New ITGC Change Request__
-2. Enter a __Name__ and __Change Overview__ for the Change Request. For this example the name is __Sample Change Request - Multi-Stream Approval__.
-3. Select the affected process. For this example it is __Provision Multi-Stream Approval__.
-4. Click __Pending Approval__ in the status bar when complete.
+1. Open **Strongpoint** > **Change Management Tools** > **New ITGC Change Request**
+2. Enter a **Name** and **Change Overview** for the Change Request. For this example the name is
+   **Sample Change Request - Multi-Stream Approval**.
+3. Select the affected process. For this example it is **Provision Multi-Stream Approval**.
+4. Click **Pending Approval** in the status bar when complete.

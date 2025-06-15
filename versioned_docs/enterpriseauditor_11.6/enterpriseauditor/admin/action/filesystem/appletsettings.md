@@ -10,15 +10,21 @@ Specify how the operations will be executed:
 - Local Enterprise Auditor server
 - Specific remote server:
 
-  - Fields – Use the drop-down list to select a field (column) from the source table, then click the blue arrow to insert the item into the __Remote server__ field
-  - Environment Variables – Select an item from the drop-down list, then click the blue arrow to insert the item into the __Remote Server__ field
-  - Remote Server – Enter the path to the server
-  - Click the __ellipsis (…)__ to browse for server
-  - Click the __tick__ icon to show a preview of the path
-  - Click the __Help__ icon for additional information
-- Preview – Shows what the compound path specified will be resolved in to. The text here is used to initialize the path specification selection dialog.
-- Specific remote servers – Click the __ellipsis (…)__ to browse for servers
+    - Fields – Use the drop-down list to select a field (column) from the source table, then click
+      the blue arrow to insert the item into the **Remote server** field
+    - Environment Variables – Select an item from the drop-down list, then click the blue arrow to
+      insert the item into the **Remote Server** field
+    - Remote Server – Enter the path to the server
+    - Click the **ellipsis (…)** to browse for server
+    - Click the **tick** icon to show a preview of the path
+    - Click the **Help** icon for additional information
 
-  - Click __Add__ to add the server
-  - Click __Remove__ to remove the server
-- Fall back to the local Enterprise Auditor server if an applet cannot start – Check to enable this option
+- Preview – Shows what the compound path specified will be resolved in to. The text here is used to
+  initialize the path specification selection dialog.
+- Specific remote servers – Click the **ellipsis (…)** to browse for servers
+
+    - Click **Add** to add the server
+    - Click **Remove** to remove the server
+
+- Fall back to the local Enterprise Auditor server if an applet cannot start – Check to enable this
+  option

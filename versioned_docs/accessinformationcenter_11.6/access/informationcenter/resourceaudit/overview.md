@@ -1,10 +1,24 @@
 # Resource Audit Overview
 
-The Resource Audit interface is where Netwrix Access Information Center users view reports on resources that Enterprise Auditor has collected data for. For the purposes of the Access Information Center, a resource refers to file system servers, SharePoint farms, shared folders, and so on. Reports include permissions, effective access, membership, user activity, changes, and sensitive criteria matches. Most Enterprise Auditor solutions can send data to the Access Information Center. Additionally, the Access Information Center Flexible Imports feature and Enterprise Auditor's AnyID Connectors solution can be used to introduce data from target environments not available with the default solutions. See the All Solutions topic of the [Netwrix Enterprise Auditor Documentation](https://helpcenter.netwrix.com/category/enterpriseauditor) for additional information on the data collection options.
+The Resource Audit interface is where Netwrix Access Information Center users view reports on
+resources that Enterprise Auditor has collected data for. For the purposes of the Access Information
+Center, a resource refers to file system servers, SharePoint farms, shared folders, and so on.
+Reports include permissions, effective access, membership, user activity, changes, and sensitive
+criteria matches. Most Enterprise Auditor solutions can send data to the Access Information Center.
+Additionally, the Access Information Center Flexible Imports feature and Enterprise Auditor's AnyID
+Connectors solution can be used to introduce data from target environments not available with the
+default solutions. See the All Solutions topic of the
+[Netwrix Enterprise Auditor Documentation](https://helpcenter.netwrix.com/category/enterpriseauditor)
+for additional information on the data collection options.
 
-The Access Information Center search features, found on the home page, can be used to open the other audit interfaces. These other interfaces show reports on users, groups, computers, and sensitive content.
+The Access Information Center search features, found on the home page, can be used to open the other
+audit interfaces. These other interfaces show reports on users, groups, computers, and sensitive
+content.
 
-The Access Information Center can also be used to model changes to file system permissions, allowing the Access Information Center user to understand what changes in group membership are needed to modify access to a specific resource, as well as the impact such a change would have across the organization's other resources.
+The Access Information Center can also be used to model changes to file system permissions, allowing
+the Access Information Center user to understand what changes in group membership are needed to
+modify access to a specific resource, as well as the impact such a change would have across the
+organization's other resources.
 
 ## Resource Reports
 
@@ -37,7 +51,9 @@ The User reports provide insight into:
 - The resources a particular user has access to
 - What a user is doing with their access
 
-See the [User Reports](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/user/overview.md) topic for additional information.
+See the
+[User Reports](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/user/overview.md)
+topic for additional information.
 
 ## Group Reports
 
@@ -47,7 +63,9 @@ The Group reports provide insight into:
 - The members of the group
 - What group membership changes have occurred
 
-See the [Group Reports](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/group/overview.md) topic for additional information.
+See the
+[Group Reports](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/group/overview.md)
+topic for additional information.
 
 ## Computer Reports
 
@@ -57,13 +75,17 @@ The Computer reports provide insight into:
 - What a computer is doing with it's access
 - What Active Directory permissions are applied to the computer object
 
-See the [Computer Reports](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/computer/overview.md) topic for additional information.
+See the
+[Computer Reports](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/computer/overview.md)
+topic for additional information.
 
 ## Sensitive Content Reports
 
 The Sensitive Content reports provide insight into which files contain specific sensitive data.
 
-See the [Sensitive Content Reports](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/sensitivecontent/overview.md) topic for additional information.
+See the
+[Sensitive Content Reports](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/sensitivecontent/overview.md)
+topic for additional information.
 
 ## Flexible Imports
 
@@ -73,10 +95,17 @@ Reports associated with the flexible imports provide insight into:
 - What trustees are doing with their access
 - What potentially sensitive data exists across the targeted environment
 
-See the [Flexible Imports Feature](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/flexibleimports/overview.md) topic for additional information.
+See the
+[Flexible Imports Feature](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/flexibleimports/overview.md)
+topic for additional information.
 
 ## Access & Membership Change Modeling
 
-Access and membership change modeling allows Access Information Center users to see what steps must be taken to adjust a trustee’s access to a specific resource, as well as what impact the changes will have on that trustee’s access across the targeted file system and Active Directory environments.
+Access and membership change modeling allows Access Information Center users to see what steps must
+be taken to adjust a trustee’s access to a specific resource, as well as what impact the changes
+will have on that trustee’s access across the targeted file system and Active Directory
+environments.
 
-See the [Change Modeling](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/changemodeling/overview.md) topic for additional information.
+See the
+[Change Modeling](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/changemodeling/overview.md)
+topic for additional information.

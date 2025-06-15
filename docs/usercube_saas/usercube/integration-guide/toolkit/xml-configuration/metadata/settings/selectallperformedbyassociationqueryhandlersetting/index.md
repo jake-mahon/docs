@@ -12,8 +12,8 @@ This setting enables task delegation to a group of people.
 
 ## Properties
 
-| Property | Details |
-| --- | --- |
-| Binding   optional | __Type__    String   __Description__   Defines the binding used to get the list of identities to delegate to. |
-| Identifier   default value: SelectAllPerformedByAssociationQueryHandler | __Type__    String   __Description__   Unique identifier of the setting. |
-| RootEntityType   optional | __Type__    String   __Description__   Indicates the entity type on which the delegation is applied. |
+| Property                                                              | Details                                                                                                |
+| --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| Binding optional                                                      | **Type** String **Description** Defines the binding used to get the list of identities to delegate to. |
+| Identifier default value: SelectAllPerformedByAssociationQueryHandler | **Type** String **Description** Unique identifier of the setting.                                      |
+| RootEntityType optional                                               | **Type** String **Description** Indicates the entity type on which the delegation is applied.          |

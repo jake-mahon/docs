@@ -1,6 +1,7 @@
 # Recommended Configurations for the Exchange Solution
 
-Each job group within the Exchange Solution has its own Recommended Configurations topic. See the relevant topic for specific information on job group settings and recommended schedule frequency.
+Each job group within the Exchange Solution has its own Recommended Configurations topic. See the
+relevant topic for specific information on job group settings and recommended schedule frequency.
 
 - [Recommended Configurations for the 1. HUB Metrics Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/hubmetrics/recommended.md)
 - [Recommended Configurations for the 2. CAS Metrics Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/casmetrics/recommended.md)
@@ -13,28 +14,40 @@ Each job group within the Exchange Solution has its own Recommended Configuratio
 
 ## ExchangePS Data Collector & Client Access Server
 
-A Client Access Server (CAS) name is required for the ExchangePS Data Collector. When targeting Exchange 2013 or 2016, it is possible for the __Settings__ > __Exchange__ node to have been configured with a web address instead of a CAS.
+A Client Access Server (CAS) name is required for the ExchangePS Data Collector. When targeting
+Exchange 2013 or 2016, it is possible for the **Settings** > **Exchange** node to have been
+configured with a web address instead of a CAS.
 
-- Exchange 2010 Servers – Uses the CAS server set in the global configuration (__Settings__ > __Exchange__ node)
+- Exchange 2010 Servers – Uses the CAS server set in the global configuration (**Settings** >
+  **Exchange** node)
 - Exchange 2013 & 2016 – May require a CAS name set in the ExchangePS Data Collector configuration:
 
-  - If the __Settings__ > __Exchange__ node was configured for __MAPI over HTTP__, then a CAS server name was supplied and that is used by the ExchangePS Data Collector
-  - If the __Settings__ > __Exchange__ node was configured for __MAPI over HTTPS__, then the global configuration has a web address instead of an actual server. Therefore, each query requires the CAS server to be set as the specific server on the Category page.
+    - If the **Settings** > **Exchange** node was configured for **MAPI over HTTP**, then a CAS
+      server name was supplied and that is used by the ExchangePS Data Collector
+    - If the **Settings** > **Exchange** node was configured for **MAPI over HTTPS**, then the
+      global configuration has a web address instead of an actual server. Therefore, each query
+      requires the CAS server to be set as the specific server on the Category page.
 
 Follow the steps to supply a CAS name for data collection.
 
-__Step 1 –__ Navigate to the job’s __Configure__ node and select __Queries__.
+**Step 1 –** Navigate to the job’s **Configure** node and select **Queries**.
 
-__Step 2 –__ In the Query Selection view, click __Query Properties__. The Query Properties window opens.
+**Step 2 –** In the Query Selection view, click **Query Properties**. The Query Properties window
+opens.
 
-__Step 3 –__ Select the __Data Source__ tab, and click __Configure__. The ExchangePS Data Collector Wizard opens.
+**Step 3 –** Select the **Data Source** tab, and click **Configure**. The ExchangePS Data Collector
+Wizard opens.
 
-__CAUTION:__ Unless otherwise indicated within the job group section, do not make changes to other wizard pages as they have been pre-configured for the purpose of the job.
+**CAUTION:** Unless otherwise indicated within the job group section, do not make changes to other
+wizard pages as they have been pre-configured for the purpose of the job.
 
 ![CAS name on ExchangePS Data Collector Wizard Category page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/exchangepscas.png)
 
-__Step 4 –__ On the Category page, select the __Use specific server__ option and enter the CAS name in the text box. See the [ExchangePS: Category](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchangeps/category.md) topic for additional information.
+**Step 4 –** On the Category page, select the **Use specific server** option and enter the CAS name
+in the text box. See the
+[ExchangePS: Category](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchangeps/category.md) topic
+for additional information.
 
-__Step 5 –__ Navigate to the Summary page. Click __Finish__.
+**Step 5 –** Navigate to the Summary page. Click **Finish**.
 
 The job now successfully targets Exchange 2013 and 2016 environments.

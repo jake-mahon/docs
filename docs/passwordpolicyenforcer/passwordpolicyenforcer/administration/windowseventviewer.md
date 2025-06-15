@@ -2,19 +2,20 @@
 
 Follow the steps below to view events logs in Windows Event Viewer.
 
-__Step 1 –__ Open __Windows Event Viewer__.
+**Step 1 –** Open **Windows Event Viewer**.
 
 ![View Event Logs](../../../../static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/vieweventlogs.webp)
 
-__Step 2 –__ Navigate to __Windows Logs__ > __Application__.
+**Step 2 –** Navigate to **Windows Logs** > **Application**.
 
-__Step 3 –__ In the Application list, select a Netwrix Password Policy Enforcer event under the Source column.
+**Step 3 –** In the Application list, select a Netwrix Password Policy Enforcer event under the
+Source column.
 
 The General tab shows details for the selected event. The Details tab shows...
 
 ## View Log Properties
 
-To view Log Properties, navigate to the Actions menu and select __Properties__.
+To view Log Properties, navigate to the Actions menu and select **Properties**.
 
 ![Log Properties Window](../../../../static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/vieweventlogslogproperties.webp)
 

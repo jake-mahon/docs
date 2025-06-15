@@ -1,11 +1,11 @@
 # Get-GroupIdInformation
 
-The __Get-GroupIdInformation__ commandlet retrieves general information about GroupID.
+The **Get-GroupIdInformation** commandlet retrieves general information about GroupID.
 
 ## Syntax
 
 ```
-Get-GroupIdInformation  
+Get-GroupIdInformation
 [<CommonParameters>]
 ```
 
@@ -15,7 +15,8 @@ Get-GroupIdInformation
 
 Example 1:
 
-This example displays the name of the database and name of the SQL server being used by GroupID, GroupID version and the installation path of GroupID.
+This example displays the name of the database and name of the SQL server being used by GroupID,
+GroupID version and the installation path of GroupID.
 
 ```
 Get-GroupIdInformation

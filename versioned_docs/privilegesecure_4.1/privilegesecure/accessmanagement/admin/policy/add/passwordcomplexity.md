@@ -2,29 +2,32 @@
 
 Follow the steps to add a password policy to the console.
 
-__Step 1 –__ Navigate to the __Policy__ > __Platforms__ > __Password Complexity__ page.
+**Step 1 –** Navigate to the **Policy** > **Platforms** > **Password Complexity** page.
 
-__Step 2 –__ In the Password Policy list, click the __Plus__ icon.
+**Step 2 –** In the Password Policy list, click the **Plus** icon.
 
 ![Add Password Complexity](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/add/add.png)
 
-__Step 3 –__ Complete the following fields:
+**Step 3 –** Complete the following fields:
 
 - Name – This is a snippet
 - Description – Description of the policy
-- Must start with – Enter the symbol type from which the password must start with (uppercase, symbol, etc.)
-- Must end with – Enter the symbol type from which the password must end with (uppercase, symbol, etc.)
+- Must start with – Enter the symbol type from which the password must start with (uppercase,
+  symbol, etc.)
+- Must end with – Enter the symbol type from which the password must end with (uppercase, symbol,
+  etc.)
 - Length – Provide the desired password length
 - Max consecutive chars – Select maximum number of consecutive characters
 - Characters to exclude – select characters to exclude from the password body
-- Include characters – select characters type to be excluded from the password body. Possible values are:
+- Include characters – select characters type to be excluded from the password body. Possible values
+  are:
 
-  - Lowercase
-  - Uppercase
-  - Symbols
-  - Spaces
-  - Numbers
+    - Lowercase
+    - Uppercase
+    - Symbols
+    - Spaces
+    - Numbers
 
-__Step 4 –__ Click __Save__ to create the new password policy.
+**Step 4 –** Click **Save** to create the new password policy.
 
 The new password policy is added to the Password Policy list.

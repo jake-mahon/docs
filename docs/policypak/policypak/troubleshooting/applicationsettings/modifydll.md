@@ -4,6 +4,8 @@ The data for the settings is contained within the Group Policy Object itself, no
 
 All existing checkmarks, dropdowns, etc. settings, etc are all maintained.
 
-The only exception to this is if the changes to the Pak / DLL file involve the elimination of an element such as a checkbox that your PolicyPak based GPO has configured.
+The only exception to this is if the changes to the Pak / DLL file involve the elimination of an
+element such as a checkbox that your PolicyPak based GPO has configured.
 
-In that case, because the checkbox no longer exists, the settings regarding the checkbox will no longer exist, but all other data remains.
+In that case, because the checkbox no longer exists, the settings regarding the checkbox will no
+longer exist, but all other data remains.

@@ -1,8 +1,11 @@
 # UsersGroups Data Collector
 
-The UsersGroups Data Collector audits user and group accounts for both local and domain, extracting system policies.
+The UsersGroups Data Collector audits user and group accounts for both local and domain, extracting
+system policies.
 
-The UsersGroups Data Collector has been preconfigured within the Windows Solution. Both this data collector and the solution are available with a special Access Analyzer license. See the [Windows Solution](../../../solutions/windows/overview.md) topic for additional information.
+The UsersGroups Data Collector has been preconfigured within the Windows Solution. Both this data
+collector and the solution are available with a special Access Analyzer license. See the
+[Windows Solution](../../../solutions/windows/overview.md) topic for additional information.
 
 Protocols
 
@@ -20,12 +23,16 @@ Permissions
 
 - Member of the Local Administrators group
 
-  - If a less-privileged option is required, you can use a regular domain user that has been added to the __Network access: Restrict clients allowed to make remote calls to SAM__ Local Security Policy
+    - If a less-privileged option is required, you can use a regular domain user that has been added
+      to the **Network access: Restrict clients allowed to make remote calls to SAM** Local Security
+      Policy
+
 - Member of the Domain Administrators group (if targeting domain controllers)
 
 ## UsersGroups Query Configuration
 
-The UsersGroups Data Collector is configured through the Users and Groups Browser wizard, which contains the following wizard pages:
+The UsersGroups Data Collector is configured through the Users and Groups Browser wizard, which
+contains the following wizard pages:
 
 - Welcome
 - [UsersGroups: Results](results.md)
@@ -33,4 +40,5 @@ The UsersGroups Data Collector is configured through the Users and Groups Browse
 
 ![Users and Groups Browser wizard Welcome page](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
 
-The Welcome page can be hidden by selecting the __Do not display this page the next time__ box when the wizard is open and configuration settings are saved.
+The Welcome page can be hidden by selecting the **Do not display this page the next time** box when
+the wizard is open and configuration settings are saved.

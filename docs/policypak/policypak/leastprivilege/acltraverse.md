@@ -1,27 +1,45 @@
 # Understanding ACL Manage File System and Registry (ACL Traverse)
 
-Endpoint Policy Manager Least Privilege Manager enables Standard Users to perform operations in the file system or registry where they would not normally have access. To do this, you’ll assign a process which, when run, will determine which operations can be performed on a file or portion of the registry.
+Endpoint Policy Manager Least Privilege Manager enables Standard Users to perform operations in the
+file system or registry where they would not normally have access. To do this, you’ll assign a
+process which, when run, will determine which operations can be performed on a file or portion of
+the registry.
 
-Start out by creating a rule. In this case we want to specify an application process, like Notepad, to perform an operation like Write the HOSTS file.
+Start out by creating a rule. In this case we want to specify an application process, like Notepad,
+to perform an operation like Write the HOSTS file.
 
-First specify the process match and signify you want to perform __ACL manage file system and registry__.
+First specify the process match and signify you want to perform **ACL manage file system and
+registry**.
 
 ![A screenshot of a computer
 
-Description automatically generated](../../../../static/img/product_docs/policypak/policypak/leastprivilege/understanding_acl_manage_file.webp)
+Description automatically
+generated](../../../../static/img/product_docs/policypak/policypak/leastprivilege/understanding_acl_manage_file.webp)
 
-Next, specify the path(s) to files or registry and change the Permission (using the dropdown or __Edit permissions__ button.)
+Next, specify the path(s) to files or registry and change the Permission (using the dropdown or
+**Edit permissions** button.)
 
 ![A screenshot of a computer
 
-Description automatically generated](../../../../static/img/product_docs/policypak/policypak/leastprivilege/understanding_acl_manage_file_1.webp)
+Description automatically
+generated](../../../../static/img/product_docs/policypak/policypak/leastprivilege/understanding_acl_manage_file_1.webp)
 
-As a result, when Notepadis run from the specified location it can edit the ```c:\windows\system32\drivers\etc\hosts``` file.
+As a result, when Notepadis run from the specified location it can edit the
+`c:\windows\system32\drivers\etc\hosts` file.
 
-__NOTE:__ See the [Endpoint Policy Manager and ACL Traverse: How to give rights to modify HOSTS files and similar](../video/leastprivilege/acltraverse/modifyhosts.md) video for a demo on how to use ACL Traverse to modify the hosts file.
+**NOTE:** See the
+[Endpoint Policy Manager and ACL Traverse: How to give rights to modify HOSTS files and similar](../video/leastprivilege/acltraverse/modifyhosts.md)
+video for a demo on how to use ACL Traverse to modify the hosts file.
 
-__NOTE:__ See the [Endpoint Policy Manager: ACL Traverse to enable users to delete icons on desktop](../video/leastprivilege/acltraverse/deleteicons.md) video for a demo on how to use ACL Traverse to delete icons on the desktop.
+**NOTE:** See the
+[Endpoint Policy Manager: ACL Traverse to enable users to delete icons on desktop](../video/leastprivilege/acltraverse/deleteicons.md)
+video for a demo on how to use ACL Traverse to delete icons on the desktop.
 
-__NOTE:__ See the [Endpoint Policy Manager ACL and File Traverse: Let any application in Programfiles overcome NTFS permissions](../video/leastprivilege/acltraverse/ntfspermissions.md) video for a demo on how to use ACL Traverse to let any application in Programfiles overcome NTFS permissions.
+**NOTE:** See the
+[Endpoint Policy Manager ACL and File Traverse: Let any application in Programfiles overcome NTFS permissions](../video/leastprivilege/acltraverse/ntfspermissions.md)
+video for a demo on how to use ACL Traverse to let any application in Programfiles overcome NTFS
+permissions.
 
-__NOTE:__ See the [Endpoint Policy Manager: Overcome ACLs in Registry even as Standard User](../video/leastprivilege/acltraverse/registry.md) video for a demo of ACL Traverse and Registry.
+**NOTE:** See the
+[Endpoint Policy Manager: Overcome ACLs in Registry even as Standard User](../video/leastprivilege/acltraverse/registry.md)
+video for a demo of ACL Traverse and Registry.

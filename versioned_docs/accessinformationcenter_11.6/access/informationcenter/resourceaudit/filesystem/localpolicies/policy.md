@@ -1,6 +1,7 @@
 # Policy Report
 
-The Policy report at the local policy level provides a list of policies assigned for the selected local policy.
+The Policy report at the local policy level provides a list of policies assigned for the selected
+local policy.
 
 ![Policy report](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/databasemaintenance/policy.png)
 
@@ -11,4 +12,5 @@ This report is comprised of the following columns:
 - ObjectSid – Security ID of the object
 - Policy – Allow or Deny access
 
-If the selected trustee is a group, the Group Membership pane will display the group membership, including nested groups.
+If the selected trustee is a group, the Group Membership pane will display the group membership,
+including nested groups.

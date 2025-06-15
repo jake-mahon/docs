@@ -6,11 +6,19 @@ Specify the execution options for the PowerShell script using the Execution Opti
 
 The options on the Execution Options page are:
 
-- Execute script locally on the Access Analyzer server – Enable this to execute the PowerShell script on the Access Analyzer server
+- Execute script locally on the Access Analyzer server – Enable this to execute the PowerShell
+  script on the Access Analyzer server
 
-  - Use the same PowerShell session for each row – Select to enable using the same PowerShell session to run multiple rows
-- Execute script remotely on a target server – Enable this to execute the PowerShell script on a remote target server
+    - Use the same PowerShell session for each row – Select to enable using the same PowerShell
+      session to run multiple rows
 
-  - Use the __Remote host__ dropdown to select the database column that will be used as the target server name or type in a network host name
-  - Select the __Fall back to the local Access Analyzer server if the remote execution fails__ option to use the Access Analyzer server if remote execution fails
-- Use impersonation within server executable – Select this option to use impersonation when executing the PowerShell script
+- Execute script remotely on a target server – Enable this to execute the PowerShell script on a
+  remote target server
+
+    - Use the **Remote host** dropdown to select the database column that will be used as the target
+      server name or type in a network host name
+    - Select the **Fall back to the local Access Analyzer server if the remote execution fails**
+      option to use the Access Analyzer server if remote execution fails
+
+- Use impersonation within server executable – Select this option to use impersonation when
+  executing the PowerShell script

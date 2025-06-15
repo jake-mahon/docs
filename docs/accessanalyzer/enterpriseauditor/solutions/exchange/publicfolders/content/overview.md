@@ -6,5 +6,7 @@ The Content job group provides visibility into public folder sizing and content 
 
 The jobs in the Content job group are:
 
-- [Collection > PF_ContentScans Job](pf_contentscans.md) – Comprised of data collection that focuses on public folder content aging within each public folder
-- [PF_Content Job](pf_content.md) – Comprised of analysis and reports which focus on public folder sizing and content aging
+- [Collection > PF_ContentScans Job](pf_contentscans.md) – Comprised of data collection that focuses
+  on public folder content aging within each public folder
+- [PF_Content Job](pf_content.md) – Comprised of analysis and reports which focus on public folder
+  sizing and content aging

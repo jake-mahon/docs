@@ -1,6 +1,7 @@
 # Why do I get the error "This app can't run on your PC" ?
 
-There are two reasons why you might get this when using Netwrix Endpoint Policy Manager (formerly PolicyPak) Start Screen & Taskbar Manager.
+There are two reasons why you might get this when using Netwrix Endpoint Policy Manager (formerly
+PolicyPak) Start Screen & Taskbar Manager.
 
 Example of error:
 
@@ -8,7 +9,8 @@ Example of error:
 
 Reason 1: You are pointing toward a 64-bit executable on a 32-bit machine.
 
-Reason 2: You are not pointing toward the .EXE itself, but the .LNK (shortcut.) This is not supported.
+Reason 2: You are not pointing toward the .EXE itself, but the .LNK (shortcut.) This is not
+supported.
 
 ![699_2_img2_950x396](../../../../../../static/img/product_docs/policypak/policypak/troubleshooting/error/startscreentaskbar/699_2_img2_950x396.jpg)
 

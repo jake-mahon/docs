@@ -8,7 +8,7 @@ keywords:
 
 # Search engine optimization (SEO)
 
-import BrowserWindow from '@site/src/components/BrowserWindow';
+import BrowserWindow from '@site/src/components/BrowserWindow'
 
 Docusaurus supports search engine optimization in a variety of ways.
 
@@ -21,8 +21,8 @@ export default {
   themeConfig: {
     // Declare some <meta> tags
     metadata: [
-      {name: 'keywords', content: 'cooking, blog'},
-      {name: 'twitter:card', content: 'summary_large_image'},
+      { name: 'keywords', content: 'cooking, blog' },
+      { name: 'twitter:card', content: 'summary_large_image' },
     ],
   },
   headTags: [
@@ -49,7 +49,7 @@ export default {
       }),
     },
   ],
-};
+}
 ```
 
 Docusaurus adds some metadata out-of-the-box. For example, if you have configured [i18n](./i18n/i18n-introduction.mdx), you will get a [`hreflang`](https://developers.google.com/search/docs/advanced/crawling/localized-versions) alternate link.
@@ -113,9 +113,9 @@ The official plugins all support the following [front matter](./guides/markdown-
 For JSX pages, you can use the Docusaurus [`<Head>`](docusaurus-core.mdx#head) component.
 
 ```jsx title="my-react-page.jsx"
-import React from 'react';
-import Layout from '@theme/Layout';
-import Head from '@docusaurus/Head';
+import React from 'react'
+import Layout from '@theme/Layout'
+import Head from '@docusaurus/Head'
 
 export default function page() {
   return (
@@ -136,7 +136,7 @@ export default function page() {
       </Head>
       {/* ... */}
     </Layout>
-  );
+  )
 }
 ```
 

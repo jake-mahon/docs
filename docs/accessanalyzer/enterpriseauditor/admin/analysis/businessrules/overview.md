@@ -1,16 +1,27 @@
 # Business Rules Analysis Module
 
-The Business Rules analysis module measures and evaluates a configured value from an object (the baseline value) and compares it against a stated value (the business rule) to find an exception or deviation. Any deviations or differences found the execution of a business rule appear in a resultant table called a scorecard.
+The Business Rules analysis module measures and evaluates a configured value from an object (the
+baseline value) and compares it against a stated value (the business rule) to find an exception or
+deviation. Any deviations or differences found the execution of a business rule appear in a
+resultant table called a scorecard.
 
-Create one or more jobs to collect the data to be analyzed. Then configure one or business rules to analyze the data. Examine the scoreboard to determine how an object is performing with regard to its original baseline expectations.
+Create one or more jobs to collect the data to be analyzed. Then configure one or business rules to
+analyze the data. Examine the scoreboard to determine how an object is performing with regard to its
+original baseline expectations.
 
 ## Scorecard
 
-Business Rules analysis module results are displayed in a table called a scorecard. The scorecard determines which of the rules are applied, and in what order. A scorecard table contains only exceptions and deviations from the business rule criteria when compared to a baseline value. The table does not include matches to the criteria. All scorecard table names are suffixed with ```_SCORECARD``` for easy identification.
+Business Rules analysis module results are displayed in a table called a scorecard. The scorecard
+determines which of the rules are applied, and in what order. A scorecard table contains only
+exceptions and deviations from the business rule criteria when compared to a baseline value. The
+table does not include matches to the criteria. All scorecard table names are suffixed with
+`_SCORECARD` for easy identification.
 
 ## Edit Rules Window
 
-To access and modify the Business Rules analysis module, navigate to the Job's __Configure__ > __Analysis__ node and click __Configure Analysis__ to open the Edit Rules window. The Edit Rules window has the following tabs:
+To access and modify the Business Rules analysis module, navigate to the Job's **Configure** >
+**Analysis** node and click **Configure Analysis** to open the Edit Rules window. The Edit Rules
+window has the following tabs:
 
 - [Logic Tab](logic.md)
 - [Variables Tab](variables.md)

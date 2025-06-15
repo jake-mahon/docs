@@ -2,7 +2,8 @@
 
 ## What are system tasks?
 
-Netwrix Password Secure supports administrators and users by automating repetitive tasks. These are represented as system tasks. Predefined tasks can thus be carried out at freely defined intervals.
+Netwrix Password Secure supports administrators and users by automating repetitive tasks. These are
+represented as system tasks. Predefined tasks can thus be carried out at freely defined intervals.
 
 ![System Tasks](../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/extras/system_tasks/installation_with_parameters_85-en.webp)
 
@@ -22,31 +23,45 @@ User right
 
 There are currently four different work processes that can be automated using system tasks:
 
-- __HTML WebViewer export:__ Exports a freely definable selection of records in an AES-256 encrypted HTML file. The file is saved in the form of notifications.
-- __Reports:__ Automatically creates a report that is issued in the notifications. This requires a report request to be created in advance.
-- __Network service scan:__ Searches for service accounts on the network at defined cycles
-- __Active Directory synchronization:__ The comparison with Active Directory can also be automated via system tasks. This requires an active directory profile to be created in advance. It is important to note that only the Master Key profile can be automatically compared.
+- **HTML WebViewer export:** Exports a freely definable selection of records in an AES-256 encrypted
+  HTML file. The file is saved in the form of notifications.
+- **Reports:** Automatically creates a report that is issued in the notifications. This requires a
+  report request to be created in advance.
+- **Network service scan:** Searches for service accounts on the network at defined cycles
+- **Active Directory synchronization:** The comparison with Active Directory can also be automated
+  via system tasks. This requires an active directory profile to be created in advance. It is
+  important to note that only the Master Key profile can be automatically compared.
 
 ## Creating system tasks
 
-System tasks can be initiated as usual via the ribbon or also the context menu that is accessed using the right mouse button. The desired process to be automated using system tasks is then selected from the four above-mentioned work processes.
+System tasks can be initiated as usual via the ribbon or also the context menu that is accessed
+using the right mouse button. The desired process to be automated using system tasks is then
+selected from the four above-mentioned work processes.
 
 ![installation_with_parameters_86](../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/extras/system_tasks/installation_with_parameters_86.webp)
 
 Naturally, the four work processes also share some similarities in their configuration.
 
-- __Status:__ The system task is normally activated and then starts immediately after it has been saved according to the defined intervals. If the system task is deactivated here, it is still saved but is not yet activated.
-- __Next run:__ This setting describes when the system task will be performed or when it was already performed for the first time (if this task was already created and is now being edited)
-- __Interval:__ The interval at which the system task should be executed is defined here. All increments between every minute and once only are possible. It is also possible to enter an end date.
+- **Status:** The system task is normally activated and then starts immediately after it has been
+  saved according to the defined intervals. If the system task is deactivated here, it is still
+  saved but is not yet activated.
+- **Next run:** This setting describes when the system task will be performed or when it was already
+  performed for the first time (if this task was already created and is now being edited)
+- **Interval:** The interval at which the system task should be executed is defined here. All
+  increments between every minute and once only are possible. It is also possible to enter an end
+  date.
 
-The differences between the four work processes to be automated are described below. These differences are always part of the task settings within the system task form – the example here shows an HTML WebViewer export to be configured.
+The differences between the four work processes to be automated are described below. These
+differences are always part of the task settings within the system task form – the example here
+shows an HTML WebViewer export to be configured.
 
 ![installation_with_parameters_87](../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/extras/system_tasks/installation_with_parameters_87.webp)
 
 WebViewer generator
 
 - Filter: The passwords that should be exported are defined using a filter.
-- Password: The HTML WebViewer creates an encrypted HTML file. The password is defined here and must then be confirmed.
+- Password: The HTML WebViewer creates an encrypted HTML file. The password is defined here and must
+  then be confirmed.
 
 Reports
 
@@ -54,7 +69,9 @@ Reports
 
 Discovery Service
 
-- The Discovery Service scans the network and lists all of the services for which a service user has been saved. These can then be maintained using Netwrix Password Secure. The information collected can then be directly transferred to the Password Reset for this purpose.
+- The Discovery Service scans the network and lists all of the services for which a service user has
+  been saved. These can then be maintained using Netwrix Password Secure. The information collected
+  can then be directly transferred to the Password Reset for this purpose.
 
 Active Directory synchronization
 
@@ -62,9 +79,11 @@ Active Directory synchronization
 
 Emergency WebViewer export
 
-- The Emergency WebViewer export creates an encrypted HTML file that contains all passwords. In an emergency, the data required to get the system up and running again can be accessed in this file.
+- The Emergency WebViewer export creates an encrypted HTML file that contains all passwords. In an
+  emergency, the data required to get the system up and running again can be accessed in this file.
 
-NOTE: Tags could be defined for individual tasks – yet they have no relevance and can also not be used as filter criteria in the system tasks.
+NOTE: Tags could be defined for individual tasks – yet they have no relevance and can also not be
+used as filter criteria in the system tasks.
 
 Status
 

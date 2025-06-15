@@ -1,6 +1,7 @@
 # Provisioning
 
-This section describes different entities that manages the process of granting, changing, or removing user permissions to systems, applications and databases based on the security policy.
+This section describes different entities that manages the process of granting, changing, or
+removing user permissions to systems, applications and databases based on the security policy.
 
 - #### [AutomationRule](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/automationrule/index.md)
 - #### BulkChange

@@ -1,10 +1,12 @@
 # Panzura Tab
 
-After a Panzura host is added to the monitored hosts table, the configuration settings are edited using the tabs in the Properties window of the host.
+After a Panzura host is added to the monitored hosts table, the configuration settings are edited
+using the tabs in the Properties window of the host.
 
 ![panzuratab](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/agents/properties/panzuratab.png)
 
-The __Panzura__ tab allows users to modify settings which were populated with the information entered when the Panzura host was added.
+The **Panzura** tab allows users to modify settings which were populated with the information
+entered when the Panzura host was added.
 
 The configurable options are:
 
@@ -13,14 +15,18 @@ The configurable options are:
 - Password – Enter the password for the user name
 - Protocol – Select from the following options in the drop-down list:
 
-  - Auto Detect
-  - HTTPS
-  - HTTPS, ignore certificate errors
+    - Auto Detect
+    - HTTPS
+    - HTTPS, ignore certificate errors
+
 - Connect – Click to connect using the selected protocol and validate the connection with Panzura
 
-![Trusted Server Certificate popup window](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/trustedservercertificate.png)- HTTPS Options – Opens the Trusted server certificate window to customize the certificate verification during a TLS session
+![Trusted Server Certificate popup window](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/trustedservercertificate.png)-
+HTTPS Options – Opens the Trusted server certificate window to customize the certificate
+verification during a TLS session
 
-  - Import – Click to browse for a trusted server certificate
-  - Remove – Click to remove the selected trusted server certificate
-  - Enable hostname verification – Select this checkbox to ensure that the host name the product connects and matches the name in the certificate (CN name)
-  - Click __OK__ to close the window and save the modifications.
+- Import – Click to browse for a trusted server certificate
+- Remove – Click to remove the selected trusted server certificate
+- Enable hostname verification – Select this checkbox to ensure that the host name the product
+  connects and matches the name in the certificate (CN name)
+- Click **OK** to close the window and save the modifications.

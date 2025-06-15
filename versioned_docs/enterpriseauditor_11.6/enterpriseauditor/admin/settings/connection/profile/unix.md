@@ -1,26 +1,34 @@
 # Unix Account for User Credentials
 
-The information in this topic applies to __Select Account Type__ > __Unix Account__ in the User Credentials window.
+The information in this topic applies to **Select Account Type** > **Unix Account** in the User
+Credentials window.
 
 ![User Credentials - Unix](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/profile/unixaccount.png)
 
 The required credentials for the Unix Account are:
 
 - User name – Enter user name
-- Password Storage – Application (Uses the configured Profile Security setting as selected at the __Settings__ > __Application__ node. See the [Application](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/application/overview.md) topic for additional information.)
+- Password Storage – Application (Uses the configured Profile Security setting as selected at the
+  **Settings** > **Application** node. See the
+  [Application](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/application/overview.md)
+  topic for additional information.)
 - Password/Confirm
 
-  - If not using a private key, enter the __Password__ and re-type in the __Confirm__ field
-  - If using a private key, then the password is not needed. Provide the private key information in the __Use the following private key when connecting__ field.
+    - If not using a private key, enter the **Password** and re-type in the **Confirm** field
+    - If using a private key, then the password is not needed. Provide the private key information
+      in the **Use the following private key when connecting** field.
+
 - Use the following port/ports (CSV) for SSH
 
-  - The SSH port needs to be opened in software and hardware firewalls
-  - If desired, select this option and provide the port value
+    - The SSH port needs to be opened in software and hardware firewalls
+    - If desired, select this option and provide the port value
+
 - Use the following private key when connecting
 
-  - This option uses the authentication method of an SSH Private Key
-  - Supported Key types:
+    - This option uses the authentication method of an SSH Private Key
+    - Supported Key types:
 
-    - Open SSH
-    - PuTTY Private Key
-  - If desired, select this option and provide the key value
+        - Open SSH
+        - PuTTY Private Key
+
+    - If desired, select this option and provide the key value

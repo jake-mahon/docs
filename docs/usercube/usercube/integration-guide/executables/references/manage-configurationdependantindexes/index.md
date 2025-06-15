@@ -1,6 +1,7 @@
 # Identity Manager-Manage-Configuration Dependent Indexes
 
-This tool creates the necessary SQL indexes based on the latest deployed configuration to optimize certain queries performances.
+This tool creates the necessary SQL indexes based on the latest deployed configuration to optimize
+certain queries performances.
 
 ## Available optimizations:
 
@@ -16,7 +17,8 @@ This tool creates the necessary SQL indexes based on the latest deployed configu
 
 ```
 
-./Usercube-Manage-ConfigurationDependantIndexes.exe -auto -dc -s  "data source=.;Database=Usercube;Integrated Security=SSPI;Min Pool Size=10;encrypt=false;" -a
+./Usercube-Manage-ConfigurationDependantIndexes.exe -auto -dc -s "data
+source=.;Database=Usercube;Integrated Security=SSPI;Min Pool Size=10;encrypt=false;" -a
 
 ```
 
@@ -33,3 +35,4 @@ This tool creates the necessary SQL indexes based on the latest deployed configu
 |  |  |
 | --- | --- |
 | --database-connection-string   required | __Type__    String   __Description__ Connection string of the database. |
+```

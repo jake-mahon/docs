@@ -1,17 +1,21 @@
 # Using Flashlight Overview
 
-There are links to access __Key Tools__ on the Flashlight __Home__ page.
+There are links to access **Key Tools** on the Flashlight **Home** page.
 
-The Flashlight __Tools__ tab accesses:
+The Flashlight **Tools** tab accesses:
 
-> __Dependency Relationship Diagram__ (DRD): displays a graphical view of relationships and dependencies between objects.
+> **Dependency Relationship Diagram** (DRD): displays a graphical view of relationships and
+> dependencies between objects.
 >
-> __Strongpoint Scanners__: runs scans of your Salesforce instance.
+> **Strongpoint Scanners**: runs scans of your Salesforce instance.
 >
-> __Finder__: searches for standard and custom objects.
+> **Finder**: searches for standard and custom objects.
 >
-> __Export Objects__: exports objects to an Excel file.
+> **Export Objects**: exports objects to an Excel file.
 >
-> __Automated Report Clean Up__: runs automatically or on demand using custom rules to find and manage reports.
+> **Automated Report Clean Up**: runs automatically or on demand using custom rules to find and
+> manage reports.
 
-In addition to the menu items, this section contains information fpr [Accessing Reports](reports_overview.md) from the __Reports / List Views__ tab, and an example of how to [validate your data](validating_data.md).
+In addition to the menu items, this section contains information fpr
+[Accessing Reports](reports_overview.md) from the **Reports / List Views** tab, and an example of
+how to [validate your data](validating_data.md).

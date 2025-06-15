@@ -1,11 +1,12 @@
 # Get-LogSettings
 
-The commandlet Get-LogSettings provides information about the global log settings of the identity store connected with this instance of Directory Manager Management Shell.
+The commandlet Get-LogSettings provides information about the global log settings of the identity
+store connected with this instance of Directory Manager Management Shell.
 
 ## Syntax
 
 ```
-Get-LogSettings  
+Get-LogSettings
 [<CommonParameters>]
 ```
 

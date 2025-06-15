@@ -17,40 +17,50 @@ The EX_ASPolicies Job has been set to run against the following default dynamic 
 
 - Exchange MB Servers
 
-__NOTE:__ Default dynamic host lists are populated from hosts in the Host Master Table which meet the host inventory criteria for the list. Ensure the appropriate host lists have been populated through host inventory results.
+**NOTE:** Default dynamic host lists are populated from hosts in the Host Master Table which meet
+the host inventory criteria for the list. Ensure the appropriate host lists have been populated
+through host inventory results.
 
-___RECOMMENDED:___ Modify hosts lists only in the 0. Collection Job Group or EX_ASPolicies Job.
+**_RECOMMENDED:_** Modify hosts lists only in the 0. Collection Job Group or EX_ASPolicies Job.
 
 Connection Profile
 
 A Connection Profile must be set directly on the EX_IISLogs Job and the EX_ASPolicies Job.
 
-See the [Exchange Remote Connections Permissions](../../../requirements/solutions/exchange/remoteconnections.md) topic for the EX_IISLogs Job required permissions. See the [Exchange PowerShell Permissions](../../../requirements/solutions/exchange/powershell.md) topic for the EX_ASPolicies Job requirements.
+See the
+[Exchange Remote Connections Permissions](../../../requirements/solutions/exchange/remoteconnections.md)
+topic for the EX_IISLogs Job required permissions. See the
+[Exchange PowerShell Permissions](../../../requirements/solutions/exchange/powershell.md) topic for
+the EX_ASPolicies Job requirements.
 
-See the [Connection](../../../admin/settings/connection/overview.md) topic for additional information.
+See the [Connection](../../../admin/settings/connection/overview.md) topic for additional
+information.
 
 Schedule Frequency
 
-This job group has been designed to run daily one hour after the 1.HUB Metrics Job Group to process and collect the previous day’s message tracking logs.
+This job group has been designed to run daily one hour after the 1.HUB Metrics Job Group to process
+and collect the previous day’s message tracking logs.
 
-___RECOMMENDED:___ Run this Job Group at 2:00 AM.
+**_RECOMMENDED:_** Run this Job Group at 2:00 AM.
 
 History Retention
 
-History retention should not be enabled on this job group. History is kept through analysis tasks. Modify the following analysis tasks to customize the amount of history which is kept.
+History retention should not be enabled on this job group. History is kept through analysis tasks.
+Modify the following analysis tasks to customize the amount of history which is kept.
 
-| Job Name | Analysis Task Name | Default History |
-| --- | --- | --- |
-| EX_ActiveSync | SET HISTORY RETENTION | 6 Months |
-| EX_RPCTraffic | SET HISTORY RETENTION | 6 Months |
-| EX_OWATraffic | SET HISTORY RETENTION | 6 Months |
+| Job Name      | Analysis Task Name    | Default History |
+| ------------- | --------------------- | --------------- |
+| EX_ActiveSync | SET HISTORY RETENTION | 6 Months        |
+| EX_RPCTraffic | SET HISTORY RETENTION | 6 Months        |
+| EX_OWATraffic | SET HISTORY RETENTION | 6 Months        |
 
 Query Configuration
 
-The 2. CAS Metrics Job Group is designed to be run with the default query configurations. However, the following queries can be modified:
+The 2. CAS Metrics Job Group is designed to be run with the default query configurations. However,
+the following queries can be modified:
 
-- __0. Collection__ > __EX_IISLogs__ Job – __IIS Logs__ Query
-- __EX_ASPolicies__ Job – __Exchange Settings__ Query
+- **0. Collection** > **EX_IISLogs** Job – **IIS Logs** Query
+- **EX_ASPolicies** Job – **Exchange Settings** Query
 
 No other queries should be modified.
 
@@ -58,22 +68,24 @@ Analysis Configuration
 
 The 2. CAS Metrics Job Group should be run with the default analysis configurations.
 
-__CAUTION:__ Most of these analysis tasks are preconfigured and should not be modified or deselected. There are some that are deselected by default, as they are for troubleshooting purposes.
+**CAUTION:** Most of these analysis tasks are preconfigured and should not be modified or
+deselected. There are some that are deselected by default, as they are for troubleshooting purposes.
 
 The following analysis tasks should not be deselected, but their parameters can be modified:
 
-- __ActiveSync__ > __EX_ActiveSync__ Job – __07. SET HISTORY RETENTION__ Analysis Task
-- __Outlook Anywhere__ > __EX_RPCTraffic__ Job – __05. SET HISTORY RETENTION__ Analysis Task
-- __Outlook Web Access__ > __OWATraffic__ Job – __05. SET HISTORY RETENTION__ Analysis Task
+- **ActiveSync** > **EX_ActiveSync** Job – **07. SET HISTORY RETENTION** Analysis Task
+- **Outlook Anywhere** > **EX_RPCTraffic** Job – **05. SET HISTORY RETENTION** Analysis Task
+- **Outlook Web Access** > **OWATraffic** Job – **05. SET HISTORY RETENTION** Analysis Task
 
 Workflow
 
-__Step 1 –__ Set a Connection Profile on the jobs which run data collection.
+**Step 1 –** Set a Connection Profile on the jobs which run data collection.
 
-__Step 2 –__ Ensure the prerequisite __1. HUB Metrics__ job group is successfully executed.
+**Step 2 –** Ensure the prerequisite **1. HUB Metrics** job group is successfully executed.
 
-__Step 3 –__ Schedule the __2. CAS Metrics__ job group to run daily one hour after running the 1. HUB Metrics job group.
+**Step 3 –** Schedule the **2. CAS Metrics** job group to run daily one hour after running the 1.
+HUB Metrics job group.
 
-___RECOMMENDED:___ Run Job group at 2:00 AM.
+**_RECOMMENDED:_** Run Job group at 2:00 AM.
 
-__Step 4 –__ Review the reports generated by the jobs.
+**Step 4 –** Review the reports generated by the jobs.

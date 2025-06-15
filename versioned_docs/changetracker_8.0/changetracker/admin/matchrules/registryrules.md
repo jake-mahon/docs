@@ -1,39 +1,49 @@
 # Registry Inclusion/Exclusion Match Rules
 
-Similar to __Folder/File Match Rules__, __Registry Key/Value Match Rules__ can be defined and used to precisely track only keys and values of interest.
+Similar to **Folder/File Match Rules**, **Registry Key/Value Match Rules** can be defined and used
+to precisely track only keys and values of interest.
 
-__For example__, tracking the ‘__WinLogon__’ registry key and values is important because there are a number of session management security controls defined in this key. However, in certain environments, the ‘DCacheUpdate’ values may change causing spurious alerts that are not significant from a security perspective (DCacheUpdate stores domain names in binary form for internal Winlogon programming code to use). Therefore the ability to easily track all keys and values below the Winlogon key, but exclude DCacheUpdate changes may be desirable.
+**For example**, tracking the ‘**WinLogon**’ registry key and values is important because there are
+a number of session management security controls defined in this key. However, in certain
+environments, the ‘DCacheUpdate’ values may change causing spurious alerts that are not significant
+from a security perspective (DCacheUpdate stores domain names in binary form for internal Winlogon
+programming code to use). Therefore the ability to easily track all keys and values below the
+Winlogon key, but exclude DCacheUpdate changes may be desirable.
 
-The ‘__All Registry Values__’ Match Rule is available by default but to define the ‘Isolate DCacheUpdate Value Changes’ exclusion, the following Custom PathMatch Definition would be added:
+The ‘**All Registry Values**’ Match Rule is available by default but to define the ‘Isolate
+DCacheUpdate Value Changes’ exclusion, the following Custom PathMatch Definition would be added:
 
 ![RegistryInclusion](/img/versioned_docs/changetracker_8.0/changetracker/admin/matchrules/registryinclusion.png)
 
-__Step 1 –__ __KeyMatchType__ - (missing or bad snippet)
+**Step 1 –** **KeyMatchType** - (missing or bad snippet)
 
 - All;
 - Exact;
 - Wildcards;
 - Regex.
 
-__Step 2 –__ __KeyMatchExpression__. (missing or bad snippet)
+**Step 2 –** **KeyMatchExpression**. (missing or bad snippet)
 
-- If using ‘__All__’, then use “”;
-- If using ‘__Exact__’, then specify an exact “keyname”;
-- If using ‘__Wildcards__’, then specify a separated wildcards list eg “key_abc\*|key_def\*”;
-- If using ‘__Regex__’, then specify a regular expression eg “^S-1-5-21-[0-9]+-[0-9]+-[0-9]+-[0-9]\{4,\}\\Software\\Policies\\Microsoft\\Windows\\Control Panel\\Desktop”.
+- If using ‘**All**’, then use “”;
+- If using ‘**Exact**’, then specify an exact “keyname”;
+- If using ‘**Wildcards**’, then specify a separated wildcards list eg “key_abc\*|key_def\*”;
+- If using ‘**Regex**’, then specify a regular expression eg
+  “^S-1-5-21-[0-9]+-[0-9]+-[0-9]+-[0-9]\{4,\}\\Software\\Policies\\Microsoft\\Windows\\Control
+  Panel\\Desktop”.
 
-__Step 3 –__ ValueMatchType. o(missing or bad snippet)ptions the same as for the ‘foldermatchtype’ (All|Exact|Wildcards|Regex).
+**Step 3 –** ValueMatchType. o(missing or bad snippet)ptions the same as for the ‘foldermatchtype’
+(All|Exact|Wildcards|Regex).
 
-__Step 4 –__ __ValueMatchExpression__ – (missing or bad snippet)
+**Step 4 –** **ValueMatchExpression** – (missing or bad snippet)
 
-- If using ‘__All__’, then use “”;
-- If using ‘__Exact__’, then specify an exact “filename”;
-- If using ‘__Wildcards__’, then specify a separated wildcards list eg “\*.exe|\*.dll”;
-- If using ‘__Regex__’, then specify a regular expression eg “^audit[0-9]\*\.(log|txt)$”.
+- If using ‘**All**’, then use “”;
+- If using ‘**Exact**’, then specify an exact “filename”;
+- If using ‘**Wildcards**’, then specify a separated wildcards list eg “\*.exe|\*.dll”;
+- If using ‘**Regex**’, then specify a regular expression eg “^audit[0-9]\*\.(log|txt)$”.
 
-__Step 5 –__ __SkipRootKey__ – (missing or bad snippet) __true__ or __false__
+**Step 5 –** **SkipRootKey** – (missing or bad snippet) **true** or **false**
 
-__Step 6 –__ __Subkey Recursion__. (missing or bad snippet)
+**Step 6 –** **Subkey Recursion**. (missing or bad snippet)
 
 - Unlimited;
 - None (operate on specified folder only);

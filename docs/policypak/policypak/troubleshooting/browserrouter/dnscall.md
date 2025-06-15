@@ -2,9 +2,11 @@
 
 ## Problem:
 
-Your production system or network monitoring tools are logging a lot of DNS queries for a decommissioned host.
+Your production system or network monitoring tools are logging a lot of DNS queries for a
+decommissioned host.
 
-In System Monitor (Sysmon) logs there are frequent Event Log entries of ```PPExtensionService.EXE``` that is querying that dead host computer' FQDN.
+In System Monitor (Sysmon) logs there are frequent Event Log entries of `PPExtensionService.EXE`
+that is querying that dead host computer' FQDN.
 
 Like in an example screenshot below.
 
@@ -12,7 +14,8 @@ Like in an example screenshot below.
 
 ## Cause:
 
-The cause of the problem is a Netwrix Endpoint Policy Manager (formerly PolicyPak) Browser Router (PPBR) rule that has an Item-level Targeting (ILT) filter of the decommissioned host computer.
+The cause of the problem is a Netwrix Endpoint Policy Manager (formerly PolicyPak) Browser Router
+(PPBR) rule that has an Item-level Targeting (ILT) filter of the decommissioned host computer.
 
 ![878_2_image-20211223234143-2](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/browserrouter/878_2_image-20211223234143-2.webp)
 

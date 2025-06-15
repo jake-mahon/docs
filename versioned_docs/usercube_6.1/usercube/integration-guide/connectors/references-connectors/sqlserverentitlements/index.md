@@ -1,14 +1,17 @@
 # Sql Server Entitlements
 
-This connector exports entitlements from [Microsoft SQL Server](https://www.microsoft.com/en-us/sql-server/).
+This connector exports entitlements from
+[Microsoft SQL Server](https://www.microsoft.com/en-us/sql-server/).
 
-This page is about [Database/Microsoft SQL Server Entitlements](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/sql-server-entitlements/index.md).
+This page is about
+[Database/Microsoft SQL Server Entitlements](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/sql-server-entitlements/index.md).
 
 ![Package: Database/Microsoft SQL Server Entitlements](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/sqlserverentitlements/packages_sqlservermanagement_v603.png)
 
 ## Overview
 
-Usercube can manage permissions within Microsoft SQL Server, by exporting the server's and databases' principals, i.e. entities that can request Microsoft SQL Server's resources.
+Usercube can manage permissions within Microsoft SQL Server, by exporting the server's and
+databases' principals, i.e. entities that can request Microsoft SQL Server's resources.
 
 SQL Server supports three types of principals:
 
@@ -24,45 +27,59 @@ Implementing this connector requires:
 
 - the configuration of a Microsoft SQL Server system;
 
-  > For example, for Microsoft SQL Server 2017, see Microsoft's documentation for [planning a SQL Server installation](https://docs.microsoft.com/en-us/sql/sql-server/install/planning-a-sql-server-installation?view=sql-server-2017), the [SQL Server installation guide](https://docs.microsoft.com/en-us/sql/database-engine/install-windows/install-sql-server?view=sql-server-2017) and (optionally) [downloading SQL Server Management Studio (SSMS)](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15);
+    > For example, for Microsoft SQL Server 2017, see Microsoft's documentation for
+    > [planning a SQL Server installation](https://docs.microsoft.com/en-us/sql/sql-server/install/planning-a-sql-server-installation?view=sql-server-2017),
+    > the
+    > [SQL Server installation guide](https://docs.microsoft.com/en-us/sql/database-engine/install-windows/install-sql-server?view=sql-server-2017)
+    > and (optionally)
+    > [downloading SQL Server Management Studio (SSMS)](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15);
+
 - understanding the concept of principals, roles and permissions;
 
-  > A little help on that with:
-  >   
-  > > [Principals (Database Engine)](https://docs.microsoft.com/en-us/sql/relational-databases/security/authentication-access/principals-database-engine?view=sql-server-2017);
-  >   
-  > > [Create a Login](https://docs.microsoft.com/en-us/sql/relational-databases/security/authentication-access/create-a-login?view=sql-server-2017);
-  >   
-  > > [Server-Level Roles](https://docs.microsoft.com/en-us/sql/relational-databases/security/authentication-access/server-level-roles?view=sql-server-2017);
-  >   
-  > > [Create a Database User](https://docs.microsoft.com/en-us/sql/relational-databases/security/authentication-access/create-a-database-user?view=sql-server-2017);
-  >   
-  > > [Database-Level Roles](https://docs.microsoft.com/en-us/sql/relational-databases/security/authentication-access/database-level-roles?view=sql-server-2017);
-  >   
-  > > [Permissions (Database Engine)](https://docs.microsoft.com/en-us/sql/relational-databases/security/permissions-database-engine?view=sql-server-2017);
-  >   
-  > > [Permissions Hierarchy (Database Engine)](https://docs.microsoft.com/en-us/sql/relational-databases/security/permissions-hierarchy-database-engine?view=sql-server-2017).
-- a ```ConnectionString``` with a ```Login``` to connect to the SQL Server, where either the login has the __sysadmin__ role, or:
+    > A little help on that with:
+    >
+    > > [Principals (Database Engine)](https://docs.microsoft.com/en-us/sql/relational-databases/security/authentication-access/principals-database-engine?view=sql-server-2017);
+    >
+    > > [Create a Login](https://docs.microsoft.com/en-us/sql/relational-databases/security/authentication-access/create-a-login?view=sql-server-2017);
+    >
+    > > [Server-Level Roles](https://docs.microsoft.com/en-us/sql/relational-databases/security/authentication-access/server-level-roles?view=sql-server-2017);
+    >
+    > > [Create a Database User](https://docs.microsoft.com/en-us/sql/relational-databases/security/authentication-access/create-a-database-user?view=sql-server-2017);
+    >
+    > > [Database-Level Roles](https://docs.microsoft.com/en-us/sql/relational-databases/security/authentication-access/database-level-roles?view=sql-server-2017);
+    >
+    > > [Permissions (Database Engine)](https://docs.microsoft.com/en-us/sql/relational-databases/security/permissions-database-engine?view=sql-server-2017);
+    >
+    > > [Permissions Hierarchy (Database Engine)](https://docs.microsoft.com/en-us/sql/relational-databases/security/permissions-hierarchy-database-engine?view=sql-server-2017).
 
-  - the login has the __securityadmin__ role, in order to export server principals;
-  - each database to export has a database user attached to the login with at least one role among __db_accessadmin__, __db_owner__ and __db_securityadmin__, in order to export database principals.
+- a `ConnectionString` with a `Login` to connect to the SQL Server, where either the login has the
+  **sysadmin** role, or:
 
-  [Securables](https://docs.microsoft.com/en-us/sql/relational-databases/security/securables?view=sql-server-2017) can also be defined manually for both the server and database principals, but this is more complicated and hence not recommended.
+    - the login has the **securityadmin** role, in order to export server principals;
+    - each database to export has a database user attached to the login with at least one role among
+      **db_accessadmin**, **db_owner** and **db_securityadmin**, in order to export database
+      principals.
+
+    [Securables](https://docs.microsoft.com/en-us/sql/relational-databases/security/securables?view=sql-server-2017)
+    can also be defined manually for both the server and database principals, but this is more
+    complicated and hence not recommended.
 
 ## Export
 
 This connector exports from one or several databases to CSV files the following tables:
 
-- ```sys.server_principals```;
-- ```sys.server_role_members```;
-- ```sys.database_principals```;
-- ```sys.database_role_members```.
+- `sys.server_principals`;
+- `sys.server_role_members`;
+- `sys.database_principals`;
+- `sys.database_role_members`.
 
 This connector exports only in complete mode.
 
 ### Configuration
 
-This process is configured through a [connection](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or the XML configuration, and in the ```appsettings.agent.json > Connections``` section:
+This process is configured through a
+[connection](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
+in the UI and/or the XML configuration, and in the `appsettings.agent.json > Connections` section:
 
 ```
 appsettings.agent.json
@@ -78,14 +95,13 @@ appsettings.agent.json
 ```
 
 The identifier of the connection and thus the name of the subsection must:
-  
-- be unique.
-  
-- not begin with a digit.
-  
-- not contain ```<```, ```>```, ```:```, ```"```, ```/```, ```\```, ```|```, ```?```, ```*``` and ```_```.
 
-> The following example connects Usercube to Microsoft SQL Server and exports the principals from the databases ```UsercubeDemo``` and ```AdventureWorks2017```:
+- be unique.
+- not begin with a digit.
+- not contain `<`, `>`, `:`, `"`, `/`, `\`, `|`, `?`, `*` and `_`.
+
+> The following example connects Usercube to Microsoft SQL Server and exports the principals from
+> the databases `UsercubeDemo` and `AdventureWorks2017`:
 >
 > ```
 > appsettings.agent.json
@@ -103,24 +119,27 @@ The identifier of the connection and thus the name of the subsection must:
 
 #### Setting attributes
 
-| Name | Details |
-| --- | --- |
-| ConnectionString   required | __Type__    String   __Description__ Connection string of the database. See the [specific syntax](https://docs.microsoft.com/en-us/dotnet/api/system.data.sqlclient.sqlconnection.connectionstring?view=dotnet-plat-ext-5.0). |
-| Timeout   optional | __Type__    Int32   __Description__ Time period (in seconds) after which the request attempt is terminated and an error is generated. |
-|  |  |
-| --- | --- |
-| Databases   optional | __Type__    String List   __Description__ List of databases to be exported.   __Note:__ when not specified, all databases from the SQL Server are exported. |
+| Name                      | Details                                                                                                                                                                                                                  |
+| ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ConnectionString required | **Type** String **Description** Connection string of the database. See the [specific syntax](https://docs.microsoft.com/en-us/dotnet/api/system.data.sqlclient.sqlconnection.connectionstring?view=dotnet-plat-ext-5.0). |
+| Timeout optional          | **Type** Int32 **Description** Time period (in seconds) after which the request attempt is terminated and an error is generated.                                                                                         |
+|                           |                                                                                                                                                                                                                          |
+| ---                       | ---                                                                                                                                                                                                                      |
+| Databases optional        | **Type** String List **Description** List of databases to be exported. **Note:** when not specified, all databases from the SQL Server are exported.                                                                     |
 
 ### Output details
 
-This connector is meant to generate to the [ExportOutput](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) folder the following CSV files:
+This connector is meant to generate to the
+[ExportOutput](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
+folder the following CSV files:
 
-- ```<connectionIdentifier>_serverPrincipals.csv```;
-- ```<connectionIdentifier>_serverRoleMembers.csv```;
-- ```<connectionIdentifier>_databasePrincipals.csv```;
-- ```<connectionIdentifier>_databaseRoleMembers.csv```.
+- `<connectionIdentifier>_serverPrincipals.csv`;
+- `<connectionIdentifier>_serverRoleMembers.csv`;
+- `<connectionIdentifier>_databasePrincipals.csv`;
+- `<connectionIdentifier>_databaseRoleMembers.csv`.
 
-> For example, if the connection identifier is __SqlServerEntitlementsExport__, then the file names are ```SqlServerEntitlementsExport_serverPrincipals.csv```, etc.
+> For example, if the connection identifier is **SqlServerEntitlementsExport**, then the file names
+> are `SqlServerEntitlementsExport_serverPrincipals.csv`, etc.
 
 The output files' columns are the columns returned by the SQL query.
 
@@ -138,12 +157,16 @@ This connector does not reset passwords.
 
 Data protection can be ensured through:
 
-- [RSA encryption](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md), configured in the ```appsettings.encrypted.agent.json``` file;
-- an [Azure Key Vault](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md) safe;
+- [RSA encryption](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md),
+  configured in the `appsettings.encrypted.agent.json` file;
+- an
+  [Azure Key Vault](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md)
+  safe;
 
-| Attribute | Naming Convention for the Key in Azure Key Vault |
-| --- | --- |
-| ConnectionString | ```Connections--<identifier>--ConnectionString``` |
-| Timeout | ```Connections--<identifier>--Timeout``` |
+| Attribute        | Naming Convention for the Key in Azure Key Vault |
+| ---------------- | ------------------------------------------------ |
+| ConnectionString | `Connections--<identifier>--ConnectionString`    |
+| Timeout          | `Connections--<identifier>--Timeout`             |
 
-[CyberArk](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md) is not available for this connector.
+[CyberArk](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)
+is not available for this connector.

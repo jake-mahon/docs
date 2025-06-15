@@ -1,58 +1,82 @@
 # Configure Object-Level Auditing
 
-Object-level auditing must be configured for the __Domain__ partition if you want to collect information on user activity in the domain. If you also want to audit changes to AD configuration and schema, you must enable object-level auditing for __Configuration__ and __Schema__ partitions.
+Object-level auditing must be configured for the **Domain** partition if you want to collect
+information on user activity in the domain. If you also want to audit changes to AD configuration
+and schema, you must enable object-level auditing for **Configuration** and **Schema** partitions.
 
-Auditing of the Configuration partition is enabled by default. See the [Active Directory](../../admin/monitoringplans/activedirectory/overview.md) topic for detailed instructions on how to enable monitoring of changes to the Schema partition in the target AD domain.
+Auditing of the Configuration partition is enabled by default. See the
+[Active Directory](../../admin/monitoringplans/activedirectory/overview.md) topic for detailed
+instructions on how to enable monitoring of changes to the Schema partition in the target AD domain.
 
-Perform the following procedures to configure object-level auditing for the Domain, Configuration and Schema partitions:
+Perform the following procedures to configure object-level auditing for the Domain, Configuration
+and Schema partitions:
 
 - Configuring object-level auditing for the Domain partition
 - Enabling object-level auditing for the Configuration and Schema partitions
 
 ## Configuring object-level auditing for the Domain partition
 
-__Step 1 –__ Open the __Active Directory Users and Computers__ console on any domain controller in the target domain: navigate to Start > Windows Administrative Tools → __Active Directory Users and Computers__.
+**Step 1 –** Open the **Active Directory Users and Computers** console on any domain controller in
+the target domain: navigate to Start > Windows Administrative Tools → **Active Directory Users and
+Computers**.
 
-__Step 2 –__ In the __Active Directory Users and Computers__ dialog, click __View__ in the main menu and ensure that the __Advanced Features__ are enabled.
+**Step 2 –** In the **Active Directory Users and Computers** dialog, click **View** in the main menu
+and ensure that the **Advanced Features** are enabled.
 
 ![manualconfig_aduc_advsecwinserver2016](../../../../../static/img/product_docs/1secure/configuration/ad/manualconfig_aduc_advsecwinserver2016.webp)
 
-__Step 3 –__ Right-click the __`<domain_name>`__ node and select __Properties.__ Select the __Security__ tab and click __Advanced__. In the __Advanced Security Settings for `<domain_name>`__ dialog, select the __Auditing__ tab.
+**Step 3 –** Right-click the **`<domain_name>`** node and select **Properties.** Select the
+**Security** tab and click **Advanced**. In the **Advanced Security Settings for `<domain_name>`**
+dialog, select the **Auditing** tab.
 
 ![manualconfig_aduc_advauditing_winserver2016](../../../../../static/img/product_docs/1secure/configuration/ad/manualconfig_aduc_advauditing_winserver2016.webp)
 
-__Step 4 –__ Perform the following actions on the Windows Server 2012 and above:
+**Step 4 –** Perform the following actions on the Windows Server 2012 and above:
 
-1. Click __Add__. In the __Auditing Entry__ dialog, click the __Select a principal__ link.
-2. In the __Select user, Computer, Service account, or Group__ dialog, type _"Everyone"_ in the __Enter the object name to select__ field.
-3. Set __Type__ to _"Success"_ and __Applies to__ to _"This object and all descendant objects"_.
-4. Under __Permissions__, select all checkboxes except the following: _Full Control_, _List Contents_, _Read All Properties_ and _Read Permissions_.
-5. Scroll to the bottom of the list and make sure that the __Only apply these auditing settings to objects and/or containers within this container__ checkbox is cleared.
+1. Click **Add**. In the **Auditing Entry** dialog, click the **Select a principal** link.
+2. In the **Select user, Computer, Service account, or Group** dialog, type _"Everyone"_ in the
+   **Enter the object name to select** field.
+3. Set **Type** to _"Success"_ and **Applies to** to _"This object and all descendant objects"_.
+4. Under **Permissions**, select all checkboxes except the following: _Full Control_, _List
+   Contents_, _Read All Properties_ and _Read Permissions_.
+5. Scroll to the bottom of the list and make sure that the **Only apply these auditing settings to
+   objects and/or containers within this container** checkbox is cleared.
 
-   ![manualconfig_objectlevel_winserver2016](../../../../../static/img/product_docs/1secure/configuration/ad/manualconfig_objectlevel_winserver2016.webp)
+    ![manualconfig_objectlevel_winserver2016](../../../../../static/img/product_docs/1secure/configuration/ad/manualconfig_objectlevel_winserver2016.webp)
 
 ## Enabling object-level auditing for the Configuration and Schema partitions
 
-To perform this procedure, you will need the [ADSI Edit](http://technet.microsoft.com/en-us/library/cc773354(v=ws.10).aspx) utility. Follow the steps to enable object-level auditing for the Configuration and Schema partitions.
+To perform this procedure, you will need the
+[ADSI Edit](<http://technet.microsoft.com/en-us/library/cc773354(v=ws.10).aspx>) utility. Follow the
+steps to enable object-level auditing for the Configuration and Schema partitions.
 
-__Step 1 –__ On any domain controller in the target domain, navigate to Start > Windows Administrative Tools __> ADSI Edit__.
+**Step 1 –** On any domain controller in the target domain, navigate to Start > Windows
+Administrative Tools **> ADSI Edit**.
 
-__Step 2 –__ Right-click the __ADSI Edit__ node and select __Connect To__. In the __Connection Settings__ dialog, enable __Select a well-known Naming Context__ and select __Configuration__ from the drop-down list.
+**Step 2 –** Right-click the **ADSI Edit** node and select **Connect To**. In the **Connection
+Settings** dialog, enable **Select a well-known Naming Context** and select **Configuration** from
+the drop-down list.
 
 ![manualconfig_adsi_connectionwinserver2016](../../../../../static/img/product_docs/1secure/configuration/ad/manualconfig_adsi_connectionwinserver2016.webp)
 
-__Step 3 –__ Expand the __Configuration `<Your_Root_Domain_Name>`__ node. Right-click the __CN=Configuration, DC=`<name>`,DC=`<name>`…__ node and select __Properties.__
+**Step 3 –** Expand the **Configuration `<Your_Root_Domain_Name>`** node. Right-click the
+**CN=Configuration, DC=`<name>`,DC=`<name>`…** node and select **Properties.**
 
-__Step 4 –__ In the __CN=Configuration, DC=`<name>`, DC=`<name>` Properties__ dialog select the __Security__ tab and click __Advanced__. In the __Advanced Security Settings for Configuration__ dialog, open the __Auditing__ tab.
+**Step 4 –** In the **CN=Configuration, DC=`<name>`, DC=`<name>` Properties** dialog select the
+**Security** tab and click **Advanced**. In the **Advanced Security Settings for Configuration**
+dialog, open the **Auditing** tab.
 
-__Step 5 –__ Perform the following actions on the Windows Server 2012 and above:
+**Step 5 –** Perform the following actions on the Windows Server 2012 and above:
 
-1. Click __Add__. In the __Auditing Entry__ dialog, click the __Select a principal__ link.
-2. In the __Select user, Computer, Service account, or Group__ dialog, type _"Everyone"_ in the __Enter the object name to select__ field.
-3. Set __Type__ to _"Success"_ and __Applies to__ to _"This object and all descendant objects"_.
-4. Under __Permissions__, select all checkboxes except the following: _Full Control_, _List Contents_, _Read All Properties_ and _Read Permissions_.
-5. Scroll to the bottom of the list and make sure that the __Only apply these auditing settings to objects and/or containers within this container__ checkbox is cleared.
+1. Click **Add**. In the **Auditing Entry** dialog, click the **Select a principal** link.
+2. In the **Select user, Computer, Service account, or Group** dialog, type _"Everyone"_ in the
+   **Enter the object name to select** field.
+3. Set **Type** to _"Success"_ and **Applies to** to _"This object and all descendant objects"_.
+4. Under **Permissions**, select all checkboxes except the following: _Full Control_, _List
+   Contents_, _Read All Properties_ and _Read Permissions_.
+5. Scroll to the bottom of the list and make sure that the **Only apply these auditing settings to
+   objects and/or containers within this container** checkbox is cleared.
 
-   ![manualconfig_objectlevel_winserver2016](../../../../../static/img/product_docs/1secure/configuration/ad/manualconfig_objectlevel_winserver2016.webp)
+    ![manualconfig_objectlevel_winserver2016](../../../../../static/img/product_docs/1secure/configuration/ad/manualconfig_objectlevel_winserver2016.webp)
 
 Repeat these steps for the Schema container if necessary.

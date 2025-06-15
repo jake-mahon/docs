@@ -1,8 +1,10 @@
 # Customize Search Bars
 
-This guide shows how to define a custom way to search from a list of a given entity type's properties.
+This guide shows how to define a custom way to search from a list of a given entity type's
+properties.
 
-See the [Search Bar](../../../toolkit/xml-configuration/user-interface/searchbar/index.md) topic for additional information.
+See the [Search Bar](../../../toolkit/xml-configuration/user-interface/searchbar/index.md) topic for
+additional information.
 
 ## Default Search Bar
 
@@ -18,8 +20,10 @@ Here is the visualization of this searchbar on the interface:
 
 ![SearchBarWithoutFilters](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/ui/how-tos/custom-search-bar/searchbarwithoutfilter.webp)
 
-Ergonomically, it is recommended to hide the search symbol in a column header (in a list displayed like a table) if a criterion linked to this column is already displayed in a searchbar. This avoids filter duplication.
-Thus, the ```<CanBeFiltered>``` property can be deleted in the ```<Column>``` argument in the display table.
+Ergonomically, it is recommended to hide the search symbol in a column header (in a list displayed
+like a table) if a criterion linked to this column is already displayed in a searchbar. This avoids
+filter duplication. Thus, the `<CanBeFiltered>` property can be deleted in the `<Column>` argument
+in the display table.
 
 ## Create Default Filters
 
@@ -40,8 +44,7 @@ Here is the visualization of this criterion on the interface:
 
 ## Search Bar Menu
 
-Each menu item is a link to an entity's workflow displayed under the search bar on the visualization page of the entity's resource list.
+Each menu item is a link to an entity's workflow displayed under the search bar on the visualization
+page of the entity's resource list.
 
-See the [
-Create Menu Items
-](../create-menu-items/index.md)topic for additional information
+See the [ Create Menu Items ](../create-menu-items/index.md)topic for additional information

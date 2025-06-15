@@ -1,29 +1,33 @@
 # Get-Schedule
 
-The commandlet Get-Schedule retrieves the scheduled jobs created in the identity store connected to the current instance of the Management Shell. By default, this cmdlet returns all the jobs available irrespective of the following:
+The commandlet Get-Schedule retrieves the scheduled jobs created in the identity store connected to
+the current instance of the Management Shell. By default, this cmdlet returns all the jobs available
+irrespective of the following:
 
 - whether the identity store with which they belong is enabled.
 - whether the jobs are enabled.
 
-This commandlet can also filter the job list if provided with the filtration parameters such as JobType, TriggerType or HavingNotifications. It also accepts a MatchingCriteria parameter that determines whether the criteria are to be joined on the AND basis or OR basis.
+This commandlet can also filter the job list if provided with the filtration parameters such as
+JobType, TriggerType or HavingNotifications. It also accepts a MatchingCriteria parameter that
+determines whether the criteria are to be joined on the AND basis or OR basis.
 
 ## Syntax
 
 ```
-Get-Schedule [-ScheduleNames <String[]>]  
-[-IdentityStoreNames <String[]>]  
-[-JobTypes <JobType[]>]  
-[-TriggerTypes <TriggerType[]>]  
-[-HavingNotifications <Boolean>]  
-[-MatchingCriteria <JoiningOperator>]  
-[-PreventEnumeration]  
-[-IdentityStoreId <Int32>]  
-[-SecurityToken <CustomClaimsPrincipal>]  
-[-WarningAction <ActionPreference>]  
-[-InformationAction <ActionPreference>]  
-[-WarningVariable <String>]  
-[-InformationVariable <String>]  
-[-PipelineVariable <String>]  
+Get-Schedule [-ScheduleNames <String[]>]
+[-IdentityStoreNames <String[]>]
+[-JobTypes <JobType[]>]
+[-TriggerTypes <TriggerType[]>]
+[-HavingNotifications <Boolean>]
+[-MatchingCriteria <JoiningOperator>]
+[-PreventEnumeration]
+[-IdentityStoreId <Int32>]
+[-SecurityToken <CustomClaimsPrincipal>]
+[-WarningAction <ActionPreference>]
+[-InformationAction <ActionPreference>]
+[-WarningVariable <String>]
+[-InformationVariable <String>]
+[-PipelineVariable <String>]
 [<CommonParameters>]
 ```
 
@@ -41,7 +45,8 @@ Get-Schedule
 
 Example 2:
 
-This example retrieves those Group Usage Service – GUS job(s) that have monthly trigger and MatchingCriteria on the And basis.
+This example retrieves those Group Usage Service – GUS job(s) that have monthly trigger and
+MatchingCriteria on the And basis.
 
 ```
 Get-Schedule -JobType GUS -TriggerType RunMonthly -MatchingCriteria And

@@ -1,15 +1,20 @@
 # For Resource Update (No Record)
 
-This section guides you through the procedure for the creation of a workflow to update a simple resource, i.e. to update, within a given resource, properties that do not involve records.
+This section guides you through the procedure for the creation of a workflow to update a simple
+resource, i.e. to update, within a given resource, properties that do not involve records.
 
 ## Declare a Workflow
 
-This [workflow](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/workflows/workflow/index.md) is made of two activities:
+This
+[workflow](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/workflows/workflow/index.md)
+is made of two activities:
 
-1. [```ActionWithRefine```](/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/activity-templates/index.md#actionwithrefine): sends the resource's update request with a possibility of delegation.
-2. [```Persist```](/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/activity-templates/index.md#persist): saves the collected data and triggers provisioning.
+1. [`ActionWithRefine`](/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/activity-templates/index.md#actionwithrefine):
+   sends the resource's update request with a possibility of delegation.
+2. [`Persist`](/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/activity-templates/index.md#persist):
+   saves the collected data and triggers provisioning.
 
-The example below creates a workflow to update only the user's ```IsDraft``` attribute.
+The example below creates a workflow to update only the user's `IsDraft` attribute.
 
 ```
 
@@ -19,9 +24,12 @@ The example below creates a workflow to update only the user's ```IsDraft``` att
 
 ## Create Forms
 
-The XML configuration below represents the creation of a [form](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/form/index.md) that defines the elements to display in the workflow.
+The XML configuration below represents the creation of a
+[form](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/form/index.md)
+that defines the elements to display in the workflow.
 
-Here we just have one field called ```IsDraft``` to update the corresponding boolean attribute for a given user:
+Here we just have one field called `IsDraft` to update the corresponding boolean attribute for a
+given user:
 
 ```
 
@@ -31,7 +39,11 @@ Here we just have one field called ```IsDraft``` to update the corresponding boo
 
 ## Link the Forms to the Workflow
 
-After creating a workflow with given activities, it is necessary to create the form to be displayed when launching the workflow. It has the type corresponding to a resource's update, i.e. ```WorkflowEditEntityForm``` and it must specify the workflow's context (the entity type of the involved resources, the main property, the activity when the form is called, etc. [see more details](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/form/index.md)):
+After creating a workflow with given activities, it is necessary to create the form to be displayed
+when launching the workflow. It has the type corresponding to a resource's update, i.e.
+`WorkflowEditEntityForm` and it must specify the workflow's context (the entity type of the involved
+resources, the main property, the activity when the form is called, etc.
+[see more details](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/form/index.md)):
 
 ```
 
@@ -39,7 +51,8 @@ After creating a workflow with given activities, it is necessary to create the f
 
 ```
 
-A ```WorkflowEditEntityForm``` requires one child element ```MainControl``` that defines the actual content of the workflow's form and calls the form created previously:
+A `WorkflowEditEntityForm` requires one child element `MainControl` that defines the actual content
+of the workflow's form and calls the form created previously:
 
 ```
 
@@ -53,7 +66,10 @@ A ```WorkflowEditEntityForm``` requires one child element ```MainControl``` that
 
 ### Add a summary (Optional)
 
-Another child element ```SummaryControl``` can be added to insert a summary part, i.e. the form used after the workflow execution to show some values, most of the time those affected by the workflow, typically the properties editable in the workflow or generated properties. So in our situation, it displays the ```IsDraft``` attribute that the user just changed:
+Another child element `SummaryControl` can be added to insert a summary part, i.e. the form used
+after the workflow execution to show some values, most of the time those affected by the workflow,
+typically the properties editable in the workflow or generated properties. So in our situation, it
+displays the `IsDraft` attribute that the user just changed:
 
 ```
 
@@ -67,10 +83,12 @@ Another child element ```SummaryControl``` can be added to insert a summary part
 
 ## Assign the Right Permissions
 
-Some profiles must get specific permissions so that the workflow is visible and usable by the right users.
-Read about [workflows' permissions](/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/index.md).
+Some profiles must get specific permissions so that the workflow is visible and usable by the right
+users. Read about
+[workflows' permissions](/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/index.md).
 
-Below is an example of an access control rule where the ```Administrator``` profile gets the permissions for the whole update request from the previously created workflow:
+Below is an example of an access control rule where the `Administrator` profile gets the permissions
+for the whole update request from the previously created workflow:
 
 ```
 
@@ -80,13 +98,17 @@ Below is an example of an access control rule where the ```Administrator``` prof
 
 ## Create Menu Items in the UI
 
-[Menu items](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/menuitem/index.md) must be defined to make the workflow accessible in the UI.
+[Menu items](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/menuitem/index.md)
+must be defined to make the workflow accessible in the UI.
 
-Updating an existing resource, this workflow manages one given resource at a time. Hence an interesting location for this workflow could be the individual view page of users.
+Updating an existing resource, this workflow manages one given resource at a time. Hence an
+interesting location for this workflow could be the individual view page of users.
 
 ![Workflow Menu Items - User's Page](/img/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/how-to/workflow-update-mono/menuitems_userview_v603.png)
 
-To create a menu item here for the new workflow, you can add the following XML configuration to the existing [menu items list](/versioned_docs/usercube_6.1/usercube/integration-guide/ui/how-tos/create-menu-items/index.md):
+To create a menu item here for the new workflow, you can add the following XML configuration to the
+existing
+[menu items list](/versioned_docs/usercube_6.1/usercube/integration-guide/ui/how-tos/create-menu-items/index.md):
 
 ```
 
@@ -98,8 +120,11 @@ To create a menu item here for the new workflow, you can add the following XML c
 
 ## Add Aspects
 
-For each workflow, it is possible to add [aspects](/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/index.md#aspects) according to the workflow's purpose.
+For each workflow, it is possible to add
+[aspects](/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/index.md#aspects)
+according to the workflow's purpose.
 
 ## Customize the Display Table (Optional)
 
-To configure a display table different from the default one provided by Usercube, read [how to configure a display table](/versioned_docs/usercube_6.1/usercube/integration-guide/ui/how-tos/custom-display-table/index.md).
+To configure a display table different from the default one provided by Usercube, read
+[how to configure a display table](/versioned_docs/usercube_6.1/usercube/integration-guide/ui/how-tos/custom-display-table/index.md).

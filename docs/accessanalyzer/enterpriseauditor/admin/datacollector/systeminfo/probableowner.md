@@ -1,6 +1,7 @@
 # SystemInfo: Probable Owner
 
-On the Probable Owner page, select options for determining the owner using weighted calculations. This page is enabled when the __Probable Owner__ property is selected on the Results page.
+On the Probable Owner page, select options for determining the owner using weighted calculations.
+This page is enabled when the **Probable Owner** property is selected on the Results page.
 
 ![System Info Data Collector Wizard Probable Owner page](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/exchangepublicfolder/probableowner.webp)
 
@@ -12,7 +13,9 @@ In the Determine owner section, select from the following options:
 - Determine owner from User Profile Size
 - Determine owner from Current User
 - Determine owner from Last User
-- Custom weights – Select this radio button to use custom weights to determine the probable owner. These weights can be set by clicking the ellipsis next to the Result weights box to open the Probable Owner Settings window.
+- Custom weights – Select this radio button to use custom weights to determine the probable owner.
+  These weights can be set by clicking the ellipsis next to the Result weights box to open the
+  Probable Owner Settings window.
 
 ![Custom weights Probable Owner Settings window](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/systeminfo/customweights.webp)
 
@@ -22,34 +25,38 @@ Exclude users list
 
 In the Exclude users list section, select from the following checkboxes:
 
-- Exclude users by list – Enables the __Set List of Users to Exclude__ button
+- Exclude users by list – Enables the **Set List of Users to Exclude** button
 - Exclude locked out users
 - Exclude disabled users
 
 ![Exclude users Probable Owner Settings window](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/systeminfo/excludeusers.webp)
 
-Click __Set Users to Exclude__ to open the Probable Owner Settings window:
+Click **Set Users to Exclude** to open the Probable Owner Settings window:
 
-- User – Enter users in the following format: ```Domain\Username```
-- Add user – Click __Add user__ to add the users entered in the User box to the excluded users list
-- Removed selected – Select a user and click __Removed selected__ to remove the user
-- Clear list – Click __Clear list__ to remove the list of excluded users
-- Select users or groups – Click __Select users or groups__ to open the Select User or Group window and select users or groups to add the excluded users list
-- Import from file – Select __Import from file__ to open the Import File Dialog and import files to add to the excluded users list
+- User – Enter users in the following format: `Domain\Username`
+- Add user – Click **Add user** to add the users entered in the User box to the excluded users list
+- Removed selected – Select a user and click **Removed selected** to remove the user
+- Clear list – Click **Clear list** to remove the list of excluded users
+- Select users or groups – Click **Select users or groups** to open the Select User or Group window
+  and select users or groups to add the excluded users list
+- Import from file – Select **Import from file** to open the Import File Dialog and import files to
+  add to the excluded users list
 
 Output options
 
 In the Output options section, select from the following options:
 
 - Get the most probable owner(s)
-- Get probable owners with relative deviation to the most probable owner – Enables the following option:
+- Get probable owners with relative deviation to the most probable owner – Enables the following
+  option:
 
-  - Maximum deviation: __[number]__ percents
+    - Maximum deviation: **[number]** percents
+
 - Get probable owners limited by probability – Enables the following options:
 
-  - Probability threshold __[number]__ percents
-  - Return at least one probable owner regardless of probability
+    - Probability threshold **[number]** percents
+    - Return at least one probable owner regardless of probability
 
 Select the following checkbox if desired:
 
-- Return the top __[number]__ ranked probable owners
+- Return the top **[number]** ranked probable owners

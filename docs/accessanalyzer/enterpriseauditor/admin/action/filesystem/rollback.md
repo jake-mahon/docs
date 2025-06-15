@@ -1,8 +1,10 @@
 # File System Action: Rollback
 
-Use the Rollback page to apply rollback support to the action. This option provides the ability to undo failed actions and reapply the original action settings when the action continues from where it left off.
+Use the Rollback page to apply rollback support to the action. This option provides the ability to
+undo failed actions and reapply the original action settings when the action continues from where it
+left off.
 
-__NOTE:__ Not all actions support Rollback.
+**NOTE:** Not all actions support Rollback.
 
 ![File System Action Module Wizard Rollback page](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/filesystem/rollback.webp)
 

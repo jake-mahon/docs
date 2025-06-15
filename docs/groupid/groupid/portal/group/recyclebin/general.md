@@ -1,6 +1,7 @@
 # General tab
 
-This tab displays the general attributes of the deleted group, such as the group name, last known parent, creation date, and deletion date.
+This tab displays the general attributes of the deleted group, such as the group name, last known
+parent, creation date, and deletion date.
 
 Use this tab to view attributes of the deleted groups.
 

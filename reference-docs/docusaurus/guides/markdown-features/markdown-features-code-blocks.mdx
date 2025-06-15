@@ -6,8 +6,8 @@ slug: /markdown-features/code-blocks
 
 # Code blocks
 
-import BrowserWindow from '@site/src/components/BrowserWindow';
-import CodeBlock from '@theme/CodeBlock';
+import BrowserWindow from '@site/src/components/BrowserWindow'
+import CodeBlock from '@theme/CodeBlock'
 
 Code blocks within documentation are super-powered 💪.
 
@@ -18,7 +18,7 @@ You can add a title to the code block by adding a `title` key after the language
 ````md
 ```jsx title="/src/components/HelloCodeTitle.js"
 function HelloCodeTitle(props) {
-  return <h1>Hello, {props.name}</h1>;
+  return <h1>Hello, {props.name}</h1>
 }
 ```
 ````
@@ -29,7 +29,7 @@ function HelloCodeTitle(props) {
 
 ```jsx title="/src/components/HelloCodeTitle.js"
 function HelloCodeTitle(props) {
-  return <h1>Hello, {props.name}</h1>;
+  return <h1>Hello, {props.name}</h1>
 }
 ```
 
@@ -43,7 +43,7 @@ Code blocks are text blocks wrapped around by strings of 3 backticks. You may ch
 
 ````md
 ```js
-console.log('Every repo must come with a mascot.');
+console.log('Every repo must come with a mascot.')
 ```
 ````
 
@@ -52,7 +52,7 @@ Use the matching language meta string for your code block, and Docusaurus will p
 <BrowserWindow>
 
 ```js
-console.log('Every repo must come with a mascot.');
+console.log('Every repo must come with a mascot.')
 ```
 
 </BrowserWindow>
@@ -64,7 +64,7 @@ By default, the Prism [syntax highlighting theme](https://github.com/FormidableL
 For example, if you prefer to use the `dracula` highlighting theme:
 
 ```js title="docusaurus.config.js"
-import {themes as prismThemes} from 'prism-react-renderer';
+import { themes as prismThemes } from 'prism-react-renderer'
 
 export default {
   themeConfig: {
@@ -73,7 +73,7 @@ export default {
       theme: prismThemes.dracula,
     },
   },
-};
+}
 ```
 
 Because a Prism theme is just a JS object, you can also write your own theme if you are not satisfied with the default. Docusaurus enhances the `github` and `vsDark` themes to provide richer highlight, and you can check our implementations for the [light](https://github.com/facebook/docusaurus/blob/main/website/src/utils/prismLight.ts) and [dark](https://github.com/facebook/docusaurus/blob/main/website/src/utils/prismDark.ts) code block themes.
@@ -108,7 +108,7 @@ export default {
     },
     // ...
   },
-};
+}
 ```
 
 After adding `additionalLanguages`, restart Docusaurus.
@@ -126,14 +126,14 @@ const prismIncludeLanguages = (Prism) => {
   // ...
 
   additionalLanguages.forEach((lang) => {
-    require(`prismjs/components/prism-${lang}`);
-  });
+    require(`prismjs/components/prism-${lang}`)
+  })
 
   // highlight-next-line
-  require('/path/to/your/prism-language-definition');
+  require('/path/to/your/prism-language-definition')
 
   // ...
-};
+}
 ```
 
 You can refer to [Prism's official language definitions](https://github.com/PrismJS/prism/tree/master/components) when you are writing your own language definitions.
@@ -151,20 +151,20 @@ You can use comments with `highlight-next-line`, `highlight-start`, and `highlig
 function HighlightSomeText(highlight) {
   if (highlight) {
     // highlight-next-line
-    return 'This text is highlighted!';
+    return 'This text is highlighted!'
   }
 
-  return 'Nothing highlighted';
+  return 'Nothing highlighted'
 }
 
 function HighlightMoreText(highlight) {
   // highlight-start
   if (highlight) {
-    return 'This range is highlighted!';
+    return 'This range is highlighted!'
   }
   // highlight-end
 
-  return 'Nothing highlighted';
+  return 'Nothing highlighted'
 }
 ```
 ````
@@ -177,20 +177,20 @@ function HighlightMoreText(highlight) {
 function HighlightSomeText(highlight) {
   if (highlight) {
     // highlight-next-line
-    return 'This text is highlighted!';
+    return 'This text is highlighted!'
   }
 
-  return 'Nothing highlighted';
+  return 'Nothing highlighted'
 }
 
 function HighlightMoreText(highlight) {
   // highlight-start
   if (highlight) {
-    return 'This range is highlighted!';
+    return 'This range is highlighted!'
   }
   // highlight-end
 
-  return 'Nothing highlighted';
+  return 'Nothing highlighted'
 }
 ```
 
@@ -231,17 +231,17 @@ You can also specify highlighted line ranges within the language meta string (le
 
 ````md
 ```jsx {1,4-6,11}
-import React from 'react';
+import React from 'react'
 
 function MyComponent(props) {
   if (props.isBar) {
-    return <div>Bar</div>;
+    return <div>Bar</div>
   }
 
-  return <div>Foo</div>;
+  return <div>Foo</div>
 }
 
-export default MyComponent;
+export default MyComponent
 ```
 ````
 
@@ -250,17 +250,17 @@ export default MyComponent;
 ```
 
 ```jsx {1,4-6,11}
-import React from 'react';
+import React from 'react'
 
 function MyComponent(props) {
   if (props.isBar) {
-    return <div>Bar</div>;
+    return <div>Bar</div>
   }
 
-  return <div>Foo</div>;
+  return <div>Foo</div>
 }
 
-export default MyComponent;
+export default MyComponent
 ```
 
 ```mdx-code-block
@@ -309,7 +309,7 @@ export default {
         {
           className: 'theme-code-block-highlighted-line',
           line: 'highlight-next-line',
-          block: {start: 'highlight-start', end: 'highlight-end'},
+          block: { start: 'highlight-start', end: 'highlight-end' },
         },
         // highlight-start
         {
@@ -320,7 +320,7 @@ export default {
       ],
     },
   },
-};
+}
 ```
 
 ```mdx-code-block
@@ -347,9 +347,9 @@ export default {
 In JavaScript, trying to access properties on `null` will error.
 
 ```js
-const name = null;
+const name = null
 // This will error
-console.log(name.toUpperCase());
+console.log(name.toUpperCase())
 // Uncaught TypeError: Cannot read properties of null (reading 'toUpperCase')
 ```
 ````
@@ -366,9 +366,9 @@ console.log(name.toUpperCase());
 In JavaScript, trying to access properties on `null` will error.
 
 ```js
-const name = null;
+const name = null
 // This will error
-console.log(name.toUpperCase());
+console.log(name.toUpperCase())
 // Uncaught TypeError: Cannot read properties of null (reading 'toUpperCase')
 ```
 
@@ -396,10 +396,10 @@ You can enable line numbering for your code block by using `showLineNumbers` key
 
 ````md
 ```jsx showLineNumbers
-import React from 'react';
+import React from 'react'
 
 export default function MyComponent(props) {
-  return <div>Foo</div>;
+  return <div>Foo</div>
 }
 ```
 ````
@@ -409,10 +409,10 @@ export default function MyComponent(props) {
 ```
 
 ```jsx showLineNumbers
-import React from 'react';
+import React from 'react'
 
 export default function MyComponent(props) {
-  return <div>Foo</div>;
+  return <div>Foo</div>
 }
 ```
 
@@ -425,7 +425,7 @@ By default, the counter starts at line number 1. It's possible to pass a custom 
 ````md
 ```jsx showLineNumbers=3
 export default function MyComponent(props) {
-  return <div>Foo</div>;
+  return <div>Foo</div>
 }
 ```
 ````
@@ -436,7 +436,7 @@ export default function MyComponent(props) {
 
 ```jsx showLineNumbers=3
 export default function MyComponent(props) {
-  return <div>Foo</div>;
+  return <div>Foo</div>
 }
 ```
 
@@ -461,7 +461,7 @@ export default {
   // ...
   themes: ['@docusaurus/theme-live-codeblock'],
   // ...
-};
+}
 ```
 
 To use the plugin, create a code block with `live` attached to the language meta string.
@@ -469,24 +469,24 @@ To use the plugin, create a code block with `live` attached to the language meta
 ````md
 ```jsx live
 function Clock(props) {
-  const [date, setDate] = useState(new Date());
+  const [date, setDate] = useState(new Date())
   useEffect(() => {
-    const timerID = setInterval(() => tick(), 1000);
+    const timerID = setInterval(() => tick(), 1000)
 
     return function cleanup() {
-      clearInterval(timerID);
-    };
-  });
+      clearInterval(timerID)
+    }
+  })
 
   function tick() {
-    setDate(new Date());
+    setDate(new Date())
   }
 
   return (
     <div>
       <h2>It is {date.toLocaleTimeString()}.</h2>
     </div>
-  );
+  )
 }
 ```
 ````
@@ -499,24 +499,24 @@ The code block will be rendered as an interactive editor. Changes to the code wi
 
 ```jsx live
 function Clock(props) {
-  const [date, setDate] = useState(new Date());
+  const [date, setDate] = useState(new Date())
   useEffect(() => {
-    const timerID = setInterval(() => tick(), 1000);
+    const timerID = setInterval(() => tick(), 1000)
 
     return function cleanup() {
-      clearInterval(timerID);
-    };
-  });
+      clearInterval(timerID)
+    }
+  })
 
   function tick() {
-    setDate(new Date());
+    setDate(new Date())
   }
 
   return (
     <div>
       <h2>It is {date.toLocaleTimeString()}.</h2>
     </div>
-  );
+  )
 }
 ```
 
@@ -539,7 +539,7 @@ npm run swizzle @docusaurus/theme-live-codeblock ReactLiveScope -- --eject
 ```
 
 ```jsx title="src/theme/ReactLiveScope/index.js"
-import React from 'react';
+import React from 'react'
 
 // highlight-start
 const ButtonExample = (props) => (
@@ -555,7 +555,7 @@ const ButtonExample = (props) => (
       ...props.style,
     }}
   />
-);
+)
 // highlight-end
 
 // Add react-live imports you need here
@@ -564,9 +564,9 @@ const ReactLiveScope = {
   ...React,
   // highlight-next-line
   ButtonExample,
-};
+}
 
-export default ReactLiveScope;
+export default ReactLiveScope
 ```
 
 The `ButtonExample` component is now available to use:
@@ -581,7 +581,7 @@ function MyPlayground(props) {
     <div>
       <ButtonExample onClick={() => alert('hey!')}>Click me</ButtonExample>
     </div>
-  );
+  )
 }
 ```
 
@@ -595,11 +595,11 @@ The `noInline` option should be used to avoid errors when your code spans multip
 
 ````md
 ```jsx live noInline
-const project = 'Docusaurus';
+const project = 'Docusaurus'
 
-const Greeting = () => <p>Hello {project}!</p>;
+const Greeting = () => <p>Hello {project}!</p>
 
-render(<Greeting />);
+render(<Greeting />)
 ```
 ````
 
@@ -724,7 +724,7 @@ And you will get the following:
 
 ```js
 function helloWorld() {
-  console.log('Hello, world!');
+  console.log('Hello, world!')
 }
 ```
 
@@ -778,9 +778,7 @@ export default {
       {
         docs: {
           // highlight-start
-          remarkPlugins: [
-            [require('@docusaurus/remark-plugin-npm2yarn'), {sync: true}],
-          ],
+          remarkPlugins: [[require('@docusaurus/remark-plugin-npm2yarn'), { sync: true }]],
           // highlight-end
         },
         pages: {
@@ -790,10 +788,7 @@ export default {
         blog: {
           // highlight-start
           remarkPlugins: [
-            [
-              require('@docusaurus/remark-plugin-npm2yarn'),
-              {converters: ['pnpm']},
-            ],
+            [require('@docusaurus/remark-plugin-npm2yarn'), { converters: ['pnpm'] }],
           ],
           // highlight-end
           // ...
@@ -801,7 +796,7 @@ export default {
       },
     ],
   ],
-};
+}
 ```
 
 And then use it by adding the `npm2yarn` key to the code block:
@@ -814,33 +809,30 @@ npm install @docusaurus/remark-plugin-npm2yarn
 
 #### Configuration {#npm2yarn-remark-plugin-configuration}
 
-| Option | Type | Default | Description |
-| --- | --- | --- | --- |
-| `sync` | `boolean` | `false` | Whether to sync the selected converter across all code blocks. |
-| `converters` | `array` | `'yarn'`, `'pnpm'` | The list of converters to use. The order of the converters is important, as the first converter will be used as the default choice. |
+| Option       | Type      | Default            | Description                                                                                                                         |
+| ------------ | --------- | ------------------ | ----------------------------------------------------------------------------------------------------------------------------------- |
+| `sync`       | `boolean` | `false`            | Whether to sync the selected converter across all code blocks.                                                                      |
+| `converters` | `array`   | `'yarn'`, `'pnpm'` | The list of converters to use. The order of the converters is important, as the first converter will be used as the default choice. |
 
 ## Usage in JSX {#usage-in-jsx}
 
 Outside of Markdown, you can use the `@theme/CodeBlock` component to get the same output.
 
 ```jsx
-import CodeBlock from '@theme/CodeBlock';
+import CodeBlock from '@theme/CodeBlock'
 
 export default function MyReactPage() {
   return (
     <div>
       {/* highlight-start */}
-      <CodeBlock
-        language="jsx"
-        title="/src/components/HelloCodeTitle.js"
-        showLineNumbers>
+      <CodeBlock language="jsx" title="/src/components/HelloCodeTitle.js" showLineNumbers>
         {`function HelloCodeTitle(props) {
   return <h1>Hello, {props.name}</h1>;
 }`}
       </CodeBlock>
       {/* highlight-end */}
     </div>
-  );
+  )
 }
 ```
 

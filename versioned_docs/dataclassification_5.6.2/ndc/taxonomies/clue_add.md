@@ -1,13 +1,14 @@
 # Adding a Clue
 
-To add a new clue, go to the topmost row in the list and specify clue properties, as explained below:
+To add a new clue, go to the topmost row in the list and specify clue properties, as explained
+below:
 
 - Type
 - Clue (rule body)
 - Score
 - Is Mandatory
 
-When ready, click __Insert__ on the right.
+When ready, click **Insert** on the right.
 
 ![doccounts_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/taxonomies/doccounts_thumb_0_0.png)
 
@@ -17,13 +18,16 @@ When specifying the clue body, consider exact matching and stemming explained be
 
 ### Exact Matching
 
-There may be any number of words up to a maximum of 200 characters per clue. However, most clues will consist of one, two or three words.
+There may be any number of words up to a maximum of 200 characters per clue. However, most clues
+will consist of one, two or three words.
 
 Use double quotes around phrases to invoke exact phrase matching.
 
 ### Stemming
 
-Word stemming simplifies classification rules by automatically matching inflected word forms using a single keyword clue. This can be useful to identify how a clue will be implemented by the classification engine. Stemming is supported for the following languages:
+Word stemming simplifies classification rules by automatically matching inflected word forms using a
+single keyword clue. This can be useful to identify how a clue will be implemented by the
+classification engine. Stemming is supported for the following languages:
 
 - Dutch
 - English
@@ -60,16 +64,21 @@ Scores are expressed as percentages of the threshold. For example, if the thresh
 
 Higher scores indicate a stronger association with the topic.
 
-- Example 1: _Global Warming_ with a score of 50 will cause a document with this concept to be matched.
-- Example 2: _Pollution_ with a score of 20 (on its own) will not be sufficient to cause the document as being about global warming.
+- Example 1: _Global Warming_ with a score of 50 will cause a document with this concept to be
+  matched.
+- Example 2: _Pollution_ with a score of 20 (on its own) will not be sufficient to cause the
+  document as being about global warming.
 
-Consider that clues can also be assigned a negative value, which will prevent incorrect associations.
+Consider that clues can also be assigned a negative value, which will prevent incorrect
+associations.
 
-- Example 3: _Noise pollution_ should not be associated with _Global Warming_. So _Noise pollution_ would be added with a negative value.
+- Example 3: _Noise pollution_ should not be associated with _Global Warming_. So _Noise pollution_
+  would be added with a negative value.
 
 ## Mandatory Clues
 
-You can use the Mandatory checkbox to indicate that a clue is required, i.e. a document cannot be classified against a category unless it matches all of the mandatory clues.
+You can use the Mandatory checkbox to indicate that a clue is required, i.e. a document cannot be
+classified against a category unless it matches all of the mandatory clues.
 
 The mandatory clue selector is denoted by the \* icon:
 
@@ -77,19 +86,24 @@ The mandatory clue selector is denoted by the \* icon:
 
 ## Using the Local Option
 
-In some cases, a further option will be available per clue: “__Is Local?__”. This option allows the user to restrict a clue purely to the current Term Set.
+In some cases, a further option will be available per clue: “**Is Local?**”. This option allows the
+user to restrict a clue purely to the current Term Set.
 
-__NOTE:__ This option is only available for reused terms (SharePoint Term Sets).
+**NOTE:** This option is only available for reused terms (SharePoint Term Sets).
 
 ![localclue](/img/versioned_docs/dataclassification_5.6.2/ndc/taxonomies/localclue.png)
 
-- Once this option is selected, it will not be possible to amend the clue from any other Term Set that contains the re-used Term.
-- If you want to share the Term across all Term Sets again, clear the option from the Term Set in which it was originally enabled.
+- Once this option is selected, it will not be possible to amend the clue from any other Term Set
+  that contains the re-used Term.
+- If you want to share the Term across all Term Sets again, clear the option from the Term Set in
+  which it was originally enabled.
 
 ## Using Synonyms (SQL taxonomies only)
 
-__NOTE:__ The __Synonyms__ link is only available for the clues in SQL taxonomies.
+**NOTE:** The **Synonyms** link is only available for the clues in SQL taxonomies.
 
 The Synonyms link can be used to enter synonym definitions.
 
-In general, the use of this facility is not recommended. The preferred approach is to enter each synonym as separate clues. Entering each synonym as separate clues will generally result in more accurate scoring and therefore to better classification results.
+In general, the use of this facility is not recommended. The preferred approach is to enter each
+synonym as separate clues. Entering each synonym as separate clues will generally result in more
+accurate scoring and therefore to better classification results.

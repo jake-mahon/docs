@@ -8,19 +8,24 @@ Global standard default values are specified in the advanced settings.
 
 #### Database server
 
-The database server stored here is used as a default value when rebuilding databases. There are 2 modes:
+The database server stored here is used as a default value when rebuilding databases. There are 2
+modes:
 
 Simple mode
 
-In simple mode, the path to the database server including the user and the associated password can be specified. You may use the service user for this purpose.
+In simple mode, the path to the database server including the user and the associated password can
+be specified. You may use the service user for this purpose.
 
 Extended mode
 
-In extended mode, the connection string can be specified, which contains both the server, the user and the password
+In extended mode, the connection string can be specified, which contains both the server, the user
+and the password
 
 SMTP server
 
-By configuring the SMTP server you define all settings for emails, which the server should send, eg via the notification system. At the final save, the connection is directly tested for functionality. The “Save SMTP settings” button becomes active only after a change has been made.
+By configuring the SMTP server you define all settings for emails, which the server should send, eg
+via the notification system. At the final save, the connection is directly tested for functionality.
+The “Save SMTP settings” button becomes active only after a change has been made.
 
 Log forwarding configuration
 

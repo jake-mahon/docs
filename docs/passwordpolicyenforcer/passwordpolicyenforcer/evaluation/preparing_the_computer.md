@@ -1,19 +1,28 @@
 # Prepare the Computer
 
-You only need one computer for the evaluation. A Windows Server 2016, 2019, or 2022 domain controller in its own domain is recommended. You can also use Windows 10 or 11 if you only need to enforce policies for local accounts.
+You only need one computer for the evaluation. A Windows Server 2016, 2019, or 2022 domain
+controller in its own domain is recommended. You can also use Windows 10 or 11 if you only need to
+enforce policies for local accounts.
 
 ## Disable the Windows Password Policy Rules
 
-If the Password Policy Enforcer and Windows password policies are both enabled, then users must comply with both policies. This is not recommended for the evaluation because the Windows policy may stop users from reusing recent passwords, or from changing their password more than once a day. These restrictions can make it difficult to evaluate Password Policy Enforcer.
+If the Password Policy Enforcer and Windows password policies are both enabled, then users must
+comply with both policies. This is not recommended for the evaluation because the Windows policy may
+stop users from reusing recent passwords, or from changing their password more than once a day.
+These restrictions can make it difficult to evaluate Password Policy Enforcer.
 
 This procedure disables the Windows password policy:
 
-__Step 1 –__ Open the appropriate policy management tool:
+**Step 1 –** Open the appropriate policy management tool:
 
-- If you are evaluating Password Policy Enforcer on a domain, use the Group Policy Management Console (__gmpc.msc__) to display the GPOs linked at the domain level. Right-click the __Default Domain Policy GPO__ (or whichever GPO you use to set the password policy), then click the __Edit...__ button.
-- If you are evaluating Password Policy Enforcer on a standalone server or workstation, open the __Local Group Policy Editor__ (__gpedit.msc__).
+- If you are evaluating Password Policy Enforcer on a domain, use the Group Policy Management
+  Console (**gmpc.msc**) to display the GPOs linked at the domain level. Right-click the **Default
+  Domain Policy GPO** (or whichever GPO you use to set the password policy), then click the
+  **Edit...** button.
+- If you are evaluating Password Policy Enforcer on a standalone server or workstation, open the
+  **Local Group Policy Editor** (**gpedit.msc**).
 
-__Step 2 –__ Expand the following items:
+**Step 2 –** Expand the following items:
 
 - Computer Configuration
 - Policies (if it exists)
@@ -22,24 +31,26 @@ __Step 2 –__ Expand the following items:
 - Account Policies
 - Password Policy
 
-__Step 3 –__ Double-click __Enforce password history__ in the right pane of the GPO Editor.
+**Step 3 –** Double-click **Enforce password history** in the right pane of the GPO Editor.
 
-__Step 4 –__ Enter __0__ in the text box, then click __OK__.
+**Step 4 –** Enter **0** in the text box, then click **OK**.
 
-__Step 5 –__ Repeat the step above for the Maximum Password Age and Minimum Password Length policies.
+**Step 5 –** Repeat the step above for the Maximum Password Age and Minimum Password Length
+policies.
 
-__Step 6 –__ Double-click the __Group Policy Management Editor__.
+**Step 6 –** Double-click the **Group Policy Management Editor**.
 
-__Step 7 –__ Close the __Group Policy Management Editor__.
+**Step 7 –** Close the **Group Policy Management Editor**.
 
 ![preparing_the_computer](../../../../static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/evaluation/preparing_the_computer.webp)
 
-__Step 8 –__ Execute the ```gpupdate/target:computer``` command to refresh the Group Policy.
+**Step 8 –** Execute the `gpupdate/target:computer` command to refresh the Group Policy.
 
 ## Create Test Accounts
 
-Create two user accounts for the evaluation, __PPETestUser__ and __PPETestAdmin__.
+Create two user accounts for the evaluation, **PPETestUser** and **PPETestAdmin**.
 
 ![preparing_the_computer_1](../../../../static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/evaluation/preparing_the_computer_1.webp)
 
-Make __PPETestAdmin__ a member of the Domain Admins group if you are evaluating Password Policy Enforcer on a domain controller.
+Make **PPETestAdmin** a member of the Domain Admins group if you are evaluating Password Policy
+Enforcer on a domain controller.

@@ -1,6 +1,8 @@
 # Active Directory Object Details Pages
 
-Active Directory Object details pages provide details on Active Directory objects including users, groups,  and hosts (computers). These pages can be used to discover more information about the various resources related to threats and events in Threat Manager. Pages include:
+Active Directory Object details pages provide details on Active Directory objects including users,
+groups,  and hosts (computers). These pages can be used to discover more information about the
+various resources related to threats and events in Threat Manager. Pages include:
 
 - [User Details Page](user.md)
 - [Group Details Page](group.md)
@@ -8,7 +10,8 @@ Active Directory Object details pages provide details on Active Directory object
 
 ![threatlist](../../../../../static/img/product_docs/threatmanager/threatmanager/administration/threatlist.webp)
 
-The [Threats Page](../threats.md) contains a threats list with hyperlinks which can be clicked to access these pages.
+The [Threats Page](../threats.md) contains a threats list with hyperlinks which can be clicked to
+access these pages.
 
 Common Details Page Elements
 
@@ -36,9 +39,12 @@ The following icons may be displayed in the profile card for user accounts and c
 
 ![profileicon](../../../../../static/img/product_docs/threatmanager/threatmanager/administration/threatdetails/profileicon.webp)
 
-1. Non-Synced object icon : This icon appears when an object was not found in a sync but was created by an event.
-2. UBA training hourglass icon : This icon shows that the object is still undergoing its User Behavior Analytics (UBA) training period.
-3. Magnifying Glass Icon : This magnifying glass icon will lead you to the investigation page to create one for this object.
+1. Non-Synced object icon : This icon appears when an object was not found in a sync but was created
+   by an event.
+2. UBA training hourglass icon : This icon shows that the object is still undergoing its User
+   Behavior Analytics (UBA) training period.
+3. Magnifying Glass Icon : This magnifying glass icon will lead you to the investigation page to
+   create one for this object.
 
 ## Tabs
 
@@ -47,18 +53,21 @@ Depending on the selected user, group, or host, the following tabs may be displa
 ![This screenshot displays the tabs for the Active Directory Objects page. Tabs include Threats, Activity Summary, and Group Membership.](../../../../../static/img/product_docs/threatmanager/threatmanager/administration/threatdetails/adobjecttabs.webp)
 
 - Threats Tab – Displays a chart with threats detected for the user, group, or host
-- Activity Summary Tab – Depending on the selected user, group, or host, the page may display the following information:
-  - Activity Overview Chart (Past 12 Months)
-  - Average Activity by Hour Chart
-  - Average Activity by Day Chart
-  - Events by Type Chart
-  - Activity by Host Table
-  - Activity by Client Table
-- Group Membership Tab – For a user, displays a table that lists the groups of which the user is a member. For a group, displays a table that lists the users that belong to that group.
+- Activity Summary Tab – Depending on the selected user, group, or host, the page may display the
+  following information:
+    - Activity Overview Chart (Past 12 Months)
+    - Average Activity by Hour Chart
+    - Average Activity by Day Chart
+    - Events by Type Chart
+    - Activity by Host Table
+    - Activity by Client Table
+- Group Membership Tab – For a user, displays a table that lists the groups of which the user is a
+  member. For a group, displays a table that lists the users that belong to that group.
 
 ## Add Tag Button
 
-The Add Tag button can be used to assign existing tags to a user, group, or host computer. It also provides the option to create new tags.
+The Add Tag button can be used to assign existing tags to a user, group, or host computer. It also
+provides the option to create new tags.
 
 Add an Existing Tag
 
@@ -66,8 +75,10 @@ Follow the steps to add a tag to a user, group, or computer.
 
 ![addtagbutton](../../../../../static/img/product_docs/threatmanager/threatmanager/administration/threatdetails/addtagbutton.webp)
 
-__Step 1 –__ Click the Add Tag button.
+**Step 1 –** Click the Add Tag button.
 
-__Step 2 –__ Click the desired tag to add from the list of existing tags.
+**Step 2 –** Click the desired tag to add from the list of existing tags.
 
-The selected tag is added to the user, group, or computer. See the [Tag Management Page](../configuration/integrations/tagmanagement.md) topic for additional information.
+The selected tag is added to the user, group, or computer. See the
+[Tag Management Page](../configuration/integrations/tagmanagement.md) topic for additional
+information.

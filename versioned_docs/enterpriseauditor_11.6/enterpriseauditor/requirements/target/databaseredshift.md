@@ -1,6 +1,7 @@
 # Target Redshift Requirements, Permissions, and Ports
 
-The Enterprise Auditor for Databases Solution provides the ability to audit and monitor Redshift database environments to collect permissions and sensitive data. It scans:
+The Enterprise Auditor for Databases Solution provides the ability to audit and monitor Redshift
+database environments to collect permissions and sensitive data. It scans:
 
 - Amazon AWS Redshift
 - AWS Redshift Cluster
@@ -10,9 +11,11 @@ Target Redshift Requirements
 - Creation of a user name and password through the AWS portal.
 - Successful retrieval of the following items from the AWS website:
 
-  - Database Name – Unique identifier for a specific database
-  - Port Number – String of unique numbers used by networks to identify specific incoming processes
-  - Endpoint name – Publicly accessible elastic IP address specific to the database
+    - Database Name – Unique identifier for a specific database
+    - Port Number – String of unique numbers used by networks to identify specific incoming
+      processes
+    - Endpoint name – Publicly accessible elastic IP address specific to the database
+
 - Retrieval of the information from the Enterprise Auditor console.
 
 Additional requirements for Sensitive Data Discovery:
@@ -33,14 +36,18 @@ For .Active Directory Inventory Prerequisite
 - Read access to directory tree
 - List Contents & Read Property on the Deleted Objects Container
 
-  __NOTE:__ See the Microsoft [Searching for Deleted Objects](https://technet.microsoft.com/en-us/library/cc978013.aspx) article and the Microsoft [Dsacls](https://technet.microsoft.com/en-us/library/cc771151(v=ws.11).aspx) article for additional information.
+    **NOTE:** See the Microsoft
+    [Searching for Deleted Objects](https://technet.microsoft.com/en-us/library/cc978013.aspx)
+    article and the Microsoft
+    [Dsacls](<https://technet.microsoft.com/en-us/library/cc771151(v=ws.11).aspx>) article for
+    additional information.
 
 For Redshift Data Collection
 
 - Read-access to the following tables:
 
-  - pg_tables
-  - pg_user
+    - pg_tables
+    - pg_user
 
 ## Ports
 

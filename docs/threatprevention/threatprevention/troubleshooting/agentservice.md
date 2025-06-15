@@ -1,30 +1,36 @@
 # Agent Service Fails to Start Due to Service Timeout
 
-If an Agent service fails to start due to a service timeout, setting the NT Service timeout higher than the default of 30 seconds typically resolves this issue. Windows attempts to get the certification revocation list (which must time out when there is no internet access) in addition to the normal service start time that may exceed the default of 30 seconds.
+If an Agent service fails to start due to a service timeout, setting the NT Service timeout higher
+than the default of 30 seconds typically resolves this issue. Windows attempts to get the
+certification revocation list (which must time out when there is no internet access) in addition to
+the normal service start time that may exceed the default of 30 seconds.
 
 Follow the steps to modify the ServicesPipeTimeout value.
 
-__Step 1 –__ Open the Registry Editor.
+**Step 1 –** Open the Registry Editor.
 
-- From the Windows Start menu, click __Run__.
-- In the Run window's open field, type __regedit__.
-- Click __OK__.
+- From the Windows Start menu, click **Run**.
+- In the Run window's open field, type **regedit**.
+- Click **OK**.
 
-__Step 2 –__ In the Computer pane, navigate to the following registry folder:
+**Step 2 –** In the Computer pane, navigate to the following registry folder:
 
 - HKEY_LOCAL_MACHINE > SYSTEM > CurrentControlSet > Control
 
-__Step 3 –__ In the right pane, select __ServicesPipeTimeout__.
+**Step 3 –** In the right pane, select **ServicesPipeTimeout**.
 
-__NOTE:__ If the ServicesPipeTimeout entry does not exist, you must create it. See the Create the ServicesPipeTimeout Entry topic for additional information.
+**NOTE:** If the ServicesPipeTimeout entry does not exist, you must create it. See the Create the
+ServicesPipeTimeout Entry topic for additional information.
 
-__Step 4 –__ Right-click __ServicesPipeTimeout__ and click __Modify__. This opens the Edit Value window.
+**Step 4 –** Right-click **ServicesPipeTimeout** and click **Modify**. This opens the Edit Value
+window.
 
-__Step 5 –__ Select the __Decimal__ radio button.
+**Step 5 –** Select the **Decimal** radio button.
 
-__Step 6 –__ In the Value data field, enter __60000__ and click __OK__. This value represents the time in milliseconds before a service times out.
+**Step 6 –** In the Value data field, enter **60000** and click **OK**. This value represents the
+time in milliseconds before a service times out.
 
-__Step 7 –__ Restart the computer.
+**Step 7 –** Restart the computer.
 
 The ServicesPipeTimeout value is now modified.
 
@@ -32,9 +38,9 @@ The ServicesPipeTimeout value is now modified.
 
 Follow the steps to create the ServicesPipeTimeout entry using the Registry Editor.
 
-__Step 1 –__ In the Edit menu, click __New__ and then select __DWORD Value__.
+**Step 1 –** In the Edit menu, click **New** and then select **DWORD Value**.
 
-__Step 2 –__ Type __ServicesPipeTimeout__ and press __Enter__.
+**Step 2 –** Type **ServicesPipeTimeout** and press **Enter**.
 
 The ServicesPipeTimeout entry is now added.
 

@@ -6,7 +6,8 @@ You can export a single Endpoint Policy Manager Script Manager entry, as shown i
 
 Figure 26. Exporting a single Endpoint Policy Manager Scripts Manager entry.
 
-Alternatively, you can export a whole collection, as shown in Figure 27, by right-clicking ```Computer Configuration | PolicyPak | Browser Router``` and picking the collection you wish to export.
+Alternatively, you can export a whole collection, as shown in Figure 27, by right-clicking
+`Computer Configuration | PolicyPak | Browser Router` and picking the collection you wish to export.
 
 ![deploying_policypak_directives_27](../../../../../static/img/product_docs/policypak/policypak/mdm/xmldatafiles/deploying_policypak_directives_27.webp)
 

@@ -1,10 +1,13 @@
 # Settings
 
-The settings are called up via the [Navigation bar](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/web_applicaiton/operation/navigation_bar/navigation_bar.md). The following options are available:
+The settings are called up via the
+[Navigation bar](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/web_applicaiton/operation/navigation_bar/navigation_bar.md).
+The following options are available:
 
 #### Language
 
-You can select German or English here by simply clicking on them. The change is made immediately and does not require you to restart the browser.
+You can select German or English here by simply clicking on them. The change is made immediately and
+does not require you to restart the browser.
 
 #### Extras
 
@@ -24,7 +27,7 @@ With the image management, you can manage your icons and logos easily and quickl
 
 #### Adding icons and logos
 
-By clicking on the __New__ button, the input mask will open.
+By clicking on the **New** button, the input mask will open.
 
 ![new image](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/web_applicaiton/operation/navigation_bar/settings/installation_with_parameters_180-en.png)
 
@@ -46,7 +49,11 @@ The following options can be managed via this menu item:
 - Global settings
 - User settings
 
-The management of these settings is based on the client. Further information can be found under global [User rights](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/mainmenu/user_rights/user_rights.md) and [User settings](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/mainmenu/user_settings/user_settings.md)
+The management of these settings is based on the client. Further information can be found under
+global
+[User rights](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/mainmenu/user_rights/user_rights.md)
+and
+[User settings](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/mainmenu/user_settings/user_settings.md)
 
 The following settings are not available on the Web Application:
 

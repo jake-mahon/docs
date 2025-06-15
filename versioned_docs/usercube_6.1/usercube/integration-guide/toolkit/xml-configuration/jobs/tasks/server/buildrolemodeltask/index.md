@@ -1,6 +1,10 @@
 # BuildRoleModelTask
 
-Applies the [role mappings](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/rolemapping/index.md), also named [role naming rules](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/index.md), i.e. generates single roles and navigation rules based on resources matching a given pattern.
+Applies the
+[role mappings](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/rolemapping/index.md),
+also named
+[role naming rules](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/index.md),
+i.e. generates single roles and navigation rules based on resources matching a given pattern.
 
 > For example, this task can transform AD groups with a special naming convention into roles.
 
@@ -16,8 +20,8 @@ The following example applies all role naming rules linked to the AD connector.
 
 ## Properties
 
-| Property | Details |
-| --- | --- |
-| DisplayName_L1   required | __Type__    String   __Description__   Display name of the task in language 1 (up to 16). |
-| Connector   optional | __Type__    String   __Description__   Identifier of the connector whose role mappings / role naming rules are to be applied. |
-| Identifier   optional | __Type__    String   __Description__   Unique identifier of the task. |
+| Property                | Details                                                                                                                |
+| ----------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| DisplayName_L1 required | **Type** String **Description** Display name of the task in language 1 (up to 16).                                     |
+| Connector optional      | **Type** String **Description** Identifier of the connector whose role mappings / role naming rules are to be applied. |
+| Identifier optional     | **Type** String **Description** Unique identifier of the task.                                                         |

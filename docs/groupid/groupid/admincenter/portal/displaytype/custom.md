@@ -1,6 +1,8 @@
 # Define Custom Display Types
 
-In Directory Manager, several predefined custom display types are used in the default portal template. To customize the portal, you can use the predefined custom display types as well as define new ones.
+In Directory Manager, several predefined custom display types are used in the default portal
+template. To customize the portal, you can use the predefined custom display types as well as define
+new ones.
 
 - [Text Box Display Type](textbox.md)
 - [Drop-down List Display Type](dropdownlist.md)
@@ -14,9 +16,11 @@ In Directory Manager, several predefined custom display types are used in the de
 
 ## How to Implement Display Types
 
-On the Search Forms, Properties, Create Object, and Property Validation pages in a portal’s design settings, select a schema attribute and a display type to link them.
+On the Search Forms, Properties, Create Object, and Property Validation pages in a portal’s design
+settings, select a schema attribute and a display type to link them.
 
-On linking, the display type is rendered on the portal’s page; enabling users to view or specify a value for the linked attribute.
+On linking, the display type is rendered on the portal’s page; enabling users to view or specify a
+value for the linked attribute.
 
 ## Delete a Custom Display Type
 
@@ -26,18 +30,20 @@ NOTE: You cannot delete a custom display type that has been linked to a field in
 
 To delete a custom display type:
 
-1. In Admin Center, select __Applications__ in the left pane.  
-   On the __GroupID Portal__ tab, a portal's card displays its info.
-2. Click the ellipsis button for a portal and select __Settings__.
-3. Select an identity store under __Design Settings__ to delete a custom display type for it.  
-   All identity stores associated with the portal are listed under __Design Settings__. You can design a different portal for each of these.
-4. Click __Custom Display Types__ in the left pane.
+1. In Admin Center, select **Applications** in the left pane.  
+   On the **GroupID Portal** tab, a portal's card displays its info.
+2. Click the ellipsis button for a portal and select **Settings**.
+3. Select an identity store under **Design Settings** to delete a custom display type for it.  
+   All identity stores associated with the portal are listed under **Design Settings**. You can
+   design a different portal for each of these.
+4. Click **Custom Display Types** in the left pane.
 
-   - On the __Simple Types__ tab, click __Delete__ for a custom display type to delete it.
-   - On the __Linked Combo Types__ tab, click __Delete__ for a linked combo to delete it.
-5. Click __Save__.
+    - On the **Simple Types** tab, click **Delete** for a custom display type to delete it.
+    - On the **Linked Combo Types** tab, click **Delete** for a linked combo to delete it.
 
-__See Also__
+5. Click **Save**.
+
+**See Also**
 
 - [Design a Portal with Display Types](overview.md)
 - [Display Type Categories](categories.md)

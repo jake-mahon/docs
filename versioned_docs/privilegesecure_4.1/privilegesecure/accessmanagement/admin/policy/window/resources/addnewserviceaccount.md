@@ -2,15 +2,15 @@
 
 Follow the steps to add a new Service Account to a host resource:
 
-__Step 1 –__ Navigate to the __Resources__ page.
+**Step 1 –** Navigate to the **Resources** page.
 
-__Step 2 –__ Select a Host resource you want to modify.
+**Step 2 –** Select a Host resource you want to modify.
 
-__Step 3 –__ Click the Green Plus Button to add a new Service Account.
+**Step 3 –** Click the Green Plus Button to add a new Service Account.
 
 ![addnewserviceaccount](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/window/resources/addnewserviceaccount.png)
 
-__Step 4 –__ Complete the following fields:
+**Step 4 –** Complete the following fields:
 
 - Service Account Name – Provide the name of the new Service Account
 - Description – Description of the policy

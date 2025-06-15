@@ -1,6 +1,9 @@
 # Configure IT Infrastructure
 
-Successful crawling requires a certain configuration of native audit settings in the audited environment. Configuring your IT infrastructure may also include enabling certain built-in Windows services, etc. Proper audit configuration is required to ensure audit data integrity, otherwise your change reports may contain warnings, errors or incomplete audit data.
+Successful crawling requires a certain configuration of native audit settings in the audited
+environment. Configuring your IT infrastructure may also include enabling certain built-in Windows
+services, etc. Proper audit configuration is required to ensure audit data integrity, otherwise your
+change reports may contain warnings, errors or incomplete audit data.
 
 Review the following for additional information:
 

@@ -63,12 +63,12 @@ Task : InitializationJob_51_SavePreExistingAccessRights, Order : 49
 
 ## Arguments
 
-| Argument Name | Details |
-| --- | --- |
-| --api-client-id   optional | __Type__    String   __Description__ Login to Usercube server. |
-| --api-secret   optional | __Type__    String   __Description__ Password to Usercube server. |
-| --api-url   optional | __Type__    String   __Description__ URL of Usercube server. |
-| --job-identifier   required | __Type__    String   __Description__ Identifier of the job whose tasks/steps are to be listed. |
-|  |  |
-| --- | --- |
-| --log-level   optional | __Type__    LogLevel   __Description__ Level of log information among: ```Verbose```; ```Debug```; ```Information```; ```Warning```; ```Error```; ```Fatal```. |
+| Argument Name             | Details                                                                                                                           |
+| ------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| --api-client-id optional  | **Type** String **Description** Login to Usercube server.                                                                         |
+| --api-secret optional     | **Type** String **Description** Password to Usercube server.                                                                      |
+| --api-url optional        | **Type** String **Description** URL of Usercube server.                                                                           |
+| --job-identifier required | **Type** String **Description** Identifier of the job whose tasks/steps are to be listed.                                         |
+|                           |                                                                                                                                   |
+| ---                       | ---                                                                                                                               |
+| --log-level optional      | **Type** LogLevel **Description** Level of log information among: `Verbose`; `Debug`; `Information`; `Warning`; `Error`; `Fatal`. |

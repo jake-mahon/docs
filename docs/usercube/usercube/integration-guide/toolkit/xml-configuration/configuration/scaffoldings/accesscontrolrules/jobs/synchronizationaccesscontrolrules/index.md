@@ -1,6 +1,7 @@
 # Synchronization Access Control Rules
 
-Generates the execution rights for Prepare-Synchronization and synchronization tasks for a given profile.
+Generates the execution rights for Prepare-Synchronization and synchronization tasks for a given
+profile.
 
 ## Examples
 
@@ -12,9 +13,9 @@ Generates the execution rights for Prepare-Synchronization and synchronization t
 
 ## Properties
 
-| Property | Details |
-| --- | --- |
-| Profile   required | __Type__    String   __Description__   Identifier of the profile involved in the scaffolding. |
+| Property         | Details                                                                                |
+| ---------------- | -------------------------------------------------------------------------------------- |
+| Profile required | **Type** String **Description** Identifier of the profile involved in the scaffolding. |
 
 ## Generated XML
 

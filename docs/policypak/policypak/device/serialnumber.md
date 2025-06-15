@@ -2,7 +2,8 @@
 
 ## Problem
 
-Some USB devices have trailing extra characters such as &000000 in their serial number when viewed within the Device instance path.
+Some USB devices have trailing extra characters such as &000000 in their serial number when viewed
+within the Device instance path.
 
 Example
 
@@ -10,21 +11,25 @@ Example
 SCSI\Disk&Ven__USB&Prod__SanDisk_3.2Gen1\6&1262c329&0&000000
 ```
 
-When copying these instance paths to create a policy for this device, the serial numbers are not correctly applied in the MMC console view.
+When copying these instance paths to create a policy for this device, the serial numbers are not
+correctly applied in the MMC console view.
 
 ![980_2_image-20230725212441-2](../../../../static/img/product_docs/policypak/policypak/device/980_2_image-20230725212441-2.webp)
 
-This would not properly target the USB device in question as the serial is configured as __0__ in the policy.
+This would not properly target the USB device in question as the serial is configured as **0** in
+the policy.
 
 ## Workaround
 
-Instead of adding the Device Instance Path __As Serial Number__, use __As Instance Path__ instead.
+Instead of adding the Device Instance Path **As Serial Number**, use **As Instance Path** instead.
 
 ![devicepath](../../../../static/img/product_docs/policypak/policypak/device/devicepath.webp)
 
 ## Result
 
-This will result in a configuration that will use the entire Device Instance Path as a whole, instead of trying to break out the individual parts and force the targeted USB device to get the permissions as configured in the policy.
+This will result in a configuration that will use the entire Device Instance Path as a whole,
+instead of trying to break out the individual parts and force the targeted USB device to get the
+permissions as configured in the policy.
 
 ![deviceinstancepath](../../../../static/img/product_docs/policypak/policypak/device/deviceinstancepath.webp)
 

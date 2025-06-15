@@ -1,12 +1,14 @@
 # Installed Software Tab for Host
 
-The Installed Software tab shows information about the software installed on the selected host resource.
+The Installed Software tab shows information about the software installed on the selected host
+resource.
 
 ![Installed Software Tab for Host Resource](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/resources/installedsoftwarehost.png)
 
 The History tab has the following features:
 
-- Search — Searches the table or list for matches to the search string. When matches are found, the table or list is filtered to the matching results.
+- Search — Searches the table or list for matches to the search string. When matches are found, the
+  table or list is filtered to the matching results.
 - Refresh — Reload the information displayed
 
 The table has the following columns:

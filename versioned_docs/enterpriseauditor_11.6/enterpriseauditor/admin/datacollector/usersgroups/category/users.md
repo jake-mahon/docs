@@ -7,17 +7,23 @@ The Users Query category collects information for users in different contexts.
 In the Users section, select from the following options:
 
 - All users – All users found on the target host
-- All users in the following groups – Click the ellipsis (__…__) to open the Find a Group browser window and specify a group. See the [Find a Group/User Browser](#find-a-groupuser-browser) topic for additional information. A specific group can also be entered manually into the text field.
-- These users – Click the ellipsis (__…__) to open the Find a User browser window and specify one or more users. See the [Find a Group/User Browser](#find-a-groupuser-browser) topic for additional information. A specific user can also be entered manually into the text field.
+- All users in the following groups – Click the ellipsis (**…**) to open the Find a Group browser
+  window and specify a group. See the [Find a Group/User Browser](#find-a-groupuser-browser) topic
+  for additional information. A specific group can also be entered manually into the text field.
+- These users – Click the ellipsis (**…**) to open the Find a User browser window and specify one or
+  more users. See the [Find a Group/User Browser](#find-a-groupuser-browser) topic for additional
+  information. A specific user can also be entered manually into the text field.
 - Special users – The users found can be flagged as special users in the following categories:
 
-  - Administrator
-  - Guest
-  - Check if account has been renamed – Select this checkbox to check if the Administrator or Guest account has been renamed
-  - Resolve nested group membership – Returns nested group membership
-  - Include every occurrence of a user – Show every group in which the user is a member
+    - Administrator
+    - Guest
+    - Check if account has been renamed – Select this checkbox to check if the Administrator or
+      Guest account has been renamed
+    - Resolve nested group membership – Returns nested group membership
+    - Include every occurrence of a user – Show every group in which the user is a member
 
-In the Additional Properties section, select from the following checkboxes to return additional information on user objects:
+In the Additional Properties section, select from the following checkboxes to return additional
+information on user objects:
 
 - Is the user account enabled?
 - Is the user account locked out?
@@ -29,21 +35,27 @@ In the Additional Properties section, select from the following checkboxes to re
 - What is this user’s password age in days?
 - When did this user last logon?
 
-Click __Select all__ to select all properties. Click __Clear all__ to deselect all properties
+Click **Select all** to select all properties. Click **Clear all** to deselect all properties
 
-__CAUTION:__ The number of offline Users can significantly increase the time for a scan.
+**CAUTION:** The number of offline Users can significantly increase the time for a scan.
 
-___RECOMMENDED:___ For large networks, configure the length of time for a scan when Users are offline.
+**_RECOMMENDED:_** For large networks, configure the length of time for a scan when Users are
+offline.
 
 - Retry Attempts [number]
 - Retry Interval [number] seconds
 
 ## Find a Group/User Browser
 
-Clicking the ellipses for the __All users in the following groups__ and the __These users__ options opens the Find a Group or Find a User browser.
+Clicking the ellipses for the **All users in the following groups** and the **These users** options
+opens the Find a Group or Find a User browser.
 
 ![Find a group window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/usersgroups/category/findagroup.png)
 
-The Find a Group and Find a User browsers display a list of groups or users, depending on which one is being used, that can be selected for the option. Select from a specific host using the Sample from host option, or leave the text field blank and click __Connect__ to retrieve all user groups or users that are selectable.
+The Find a Group and Find a User browsers display a list of groups or users, depending on which one
+is being used, that can be selected for the option. Select from a specific host using the Sample
+from host option, or leave the text field blank and click **Connect** to retrieve all user groups or
+users that are selectable.
 
-Select a group or user by selecting the checkbox next to it, and click __OK__ to confirm selection. Click __Cancel__ to leave the window without a selection.
+Select a group or user by selecting the checkbox next to it, and click **OK** to confirm selection.
+Click **Cancel** to leave the window without a selection.

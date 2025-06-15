@@ -13,7 +13,8 @@ This means that ALL USERS on the computer will get the settings… regardless of
 So, our general recommendation (if you're looking for one) is:
 
 - Perform settings on the USER side (usually).
-- Except for three applications which work BEST when managed on the Computer side: Firefox, Java and Thunderbird.
+- Except for three applications which work BEST when managed on the Computer side: Firefox, Java and
+  Thunderbird.
 
 For more information on this, see the following FAQ item.
 

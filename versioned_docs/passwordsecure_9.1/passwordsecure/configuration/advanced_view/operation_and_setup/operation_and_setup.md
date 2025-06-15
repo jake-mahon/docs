@@ -2,7 +2,10 @@
 
 ## Client structure
 
-The modular structure of the client ensure that the required functionalities are always in the same place. Although the module selection gives access to the various areas of Netwrix Password Secure, the control elements always remain at the positions specified for this purpose. This intuitive operating concept ensures efficient work and a minimum of training time.
+The modular structure of the client ensure that the required functionalities are always in the same
+place. Although the module selection gives access to the various areas of Netwrix Password Secure,
+the control elements always remain at the positions specified for this purpose. This intuitive
+operating concept ensures efficient work and a minimum of training time.
 
 ![Operation](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/operation_and_setup/operation-and-setup-1-en.png)
 
@@ -24,23 +27,33 @@ The modular structure of the client ensure that the required functionalities are
 
 ## TABs
 
-Tabs offer yet another option within the to present related information in a separate area. This tab navigation enables you to display, quickly access and switch between relevant information. The results for a filter with specific criteria can thus be retained without the original result being overwritten
+Tabs offer yet another option within the to present related information in a separate area. This tab
+navigation enables you to display, quickly access and switch between relevant information. The
+results for a filter with specific criteria can thus be retained without the original result being
+overwritten
 
-when a new filter is applied. In parallel, detailed information about records can also be found in their own tabs. It is of course possible to adjust the order of the tabs via drag & drop according to your individual requirements.
+when a new filter is applied. In parallel, detailed information about records can also be found in
+their own tabs. It is of course possible to adjust the order of the tabs via drag & drop according
+to your individual requirements.
 
 ![Dashboard](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/operation_and_setup/installation_with_parameters_2-en.png)
 
 #### Standard tab
 
-Depending on the active module, the All passwords tab will be renamed to the corresponding module by default. (All documents, all forms, etc.)
+Depending on the active module, the All passwords tab will be renamed to the corresponding module by
+default. (All documents, all forms, etc.)
 
 ![Standard tab](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/operation_and_setup/standard-tab-en.png)
 
-Although the name suggests that all records in the database are displayed, the records displayed in list view correspond to the criteria that have been defined in the filter. The tab closes and can be restored by reusing the filter.
+Although the name suggests that all records in the database are displayed, the records displayed in
+list view correspond to the criteria that have been defined in the filter. The tab closes and can be
+restored by reusing the filter.
 
 ## Client footer information
 
-Independently of the module chosen, various information is displayed in the footer area of the client. The icons are also provided with a meaningful mouse-over text, which provides additional information.
+Independently of the module chosen, various information is displayed in the footer area of the
+client. The icons are also provided with a meaningful mouse-over text, which provides additional
+information.
 
 - Connection to database
 - Feedback in case connection is insecure

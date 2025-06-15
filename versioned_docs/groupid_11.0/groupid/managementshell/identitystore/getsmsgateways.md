@@ -1,11 +1,11 @@
 # Get-SmsGateways
 
-The commandlet __Get-SmsGateways__ provides information of the SMS gateways configured in GroupID.
+The commandlet **Get-SmsGateways** provides information of the SMS gateways configured in GroupID.
 
 ## Syntax
 
 ```
-Get-SmsGateways  
+Get-SmsGateways
 [<CommonParameters>]
 ```
 

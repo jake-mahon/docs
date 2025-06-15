@@ -6,56 +6,60 @@ Linux: Add Sudo User to Ubuntu System
 
 ### Add Sudo Enabled Service Account on an Ubuntu System
 
-__Step 1 –__ SSH into node. This will have to be done for each node.
+**Step 1 –** SSH into node. This will have to be done for each node.
 
-__Step 2 –__ Add  user, we’ll use ___example_user___ and an example user: ```sudo adduser example_user```
+**Step 2 –** Add  user, we’ll use **_example_user_** and an
+example user: `sudo adduser example_user`
 
-__Step 3 –__ Set user password.
+**Step 3 –** Set user password.
 
-__Step 4 –__ You will be prompted for user information. You can fill in or leave all blank.
+**Step 4 –** You will be prompted for user information. You can fill in or leave all blank.
 
-__Step 5 –__ ```y``` for information correct.
+**Step 5 –** `y` for information correct.
 
-__Step 6 –__ Add the user to the sudo group: ```sudo usermod -aG sudo example_user```
+**Step 6 –** Add the user to the sudo group: `sudo usermod -aG sudo example_user`
 
-__Step 7 –__ Test sudo for user:
+**Step 7 –** Test sudo for user:
 
-- Switch to user: ```sudo su - example_user```
-- Test with simple command:  ```sudo date```
+- Switch to user: `sudo su - example_user`
+- Test with simple command:  `sudo date`
 - Enter password
 
 ### Optional:  Turn off Password Check
 
-__Step 1 –__ Switch to root user as a failsafe: ```sudo su - root```
+**Step 1 –** Switch to root user as a failsafe: `sudo su - root`
 
-__Step 2 –__ Switch back to user you logged in with, replace `<username>` with name of user : ```su - <username>```
+**Step 2 –** Switch back to user you logged in with, replace `<username>` with name of user
+: `su - <username>`
 
 - Now if the /etc/sudoers file is not edited properly, you can 'exit' to root to fix.
 
-__Step 3 –__ ```sudo visudo -f /etc/sudoers```
+**Step 3 –** `sudo visudo -f /etc/sudoers`
 
-__Step 4 –__ Add line to bottom: ```example_user ALL=(ALL) NOPASSWD:ALL```
+**Step 4 –** Add line to bottom: `example_user ALL=(ALL) NOPASSWD:ALL`
 
-__NOTE:__ Note: If the solution provider has a specific entry they use here, you can use that. This provides passwordless sudo for all commands.
+**NOTE:** Note: If the solution provider has a specific entry they use here, you can use that. This
+provides passwordless sudo for all commands.
 
-__Step 5 –__ [Ctrl]+x to exit
+**Step 5 –** [Ctrl]+x to exit
 
-__Step 6 –__ ```Y``` to save
+**Step 6 –** `Y` to save
 
-__Step 7 –__ Hit ```[Enter]``` to write file
+**Step 7 –** Hit `[Enter]` to write file
 
-__Step 8 –__ Test that sudo still works: ```sudo date```
+**Step 8 –** Test that sudo still works: `sudo date`
 
-- If sudo fails, ```exit``` to root
+- If sudo fails, `exit` to root
 - Go to step 4 and verify added line is correct.
-- Without exiting root, switch back to user you logged in with, replace `<username>` with name of user
-- ```su - <username>```
-- Test sudo: ```sudo date```
+- Without exiting root, switch back to user you logged in with, replace `<username>` with name of
+  user
+- `su - <username>`
+- Test sudo: `sudo date`
 
-__Step 9 –__ Exit to root with:  ```exit```
+**Step 9 –** Exit to root with:  `exit`
 
-__Step 10 –__ Switch to example_user: ```sudo su - example_user```
+**Step 10 –** Switch to example_user: `sudo su - example_user`
 
-__Step 11 –__ Test that sudo works without password: ```sudo date```
+**Step 11 –** Test that sudo works without password: `sudo date`
 
-__Step 12 –__ Done. Exit out of all terminals.
+**Step 12 –** Done. Exit out of all terminals.

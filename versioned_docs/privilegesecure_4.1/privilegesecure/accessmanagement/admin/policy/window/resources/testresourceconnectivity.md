@@ -2,14 +2,14 @@
 
 Follow the steps to test the host resource connectivity:
 
-__Step 1 –__ Navigate to the Resources page.
+**Step 1 –** Navigate to the Resources page.
 
-__Step 2 –__ Select the resource(s) to modify.
+**Step 2 –** Select the resource(s) to modify.
 
-__Step 3 –__ Click the __Test__ button.
+**Step 3 –** Click the **Test** button.
 
 ![Test Resource Connectivity Window](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/window/resources/testresourceconnectivity.png)
 
-__Step 4 –__ Review the test status and messages (if any).
+**Step 4 –** Review the test status and messages (if any).
 
 The selected resources connectivity has been tested.

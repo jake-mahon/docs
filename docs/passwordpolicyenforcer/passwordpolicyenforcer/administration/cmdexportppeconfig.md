@@ -1,20 +1,23 @@
 # Export-PPEConfig
 
-The __Export-PPEConfig__ cmdlet exports the Password Policy Enforcer configuration to a file.
+The **Export-PPEConfig** cmdlet exports the Password Policy Enforcer configuration to a file.
 
 SYNTAX
 
-__Export-PPEConfig__ [__-File__ `<_string_>`] [`<_CommonParameters_>`]
+**Export-PPEConfig** [__-File__ `<_string_>`] [`<_CommonParameters_>`]
 
 PARAMETERS
 
-__-File__ `<_string_>`
+**-File** `<_string_>`
 
 Name of the file to create.
 
 `<_CommonParameters_>`
 
-This cmdlet supports the common parameters: __Verbose__, __Debug__, __ErrorAction__, __ErrorVariable__, __WarningAction__, __WarningVariable__, __OutBuffer__, __PipelineVariable__, and __OutVariable__. For more information, see about_CommonParameters [https:/go.microsoft.com/fwlink/?LinkID=113216](https:/go.microsoft.com/fwlink?linkid=113216).
+This cmdlet supports the common parameters: **Verbose**, **Debug**, **ErrorAction**,
+**ErrorVariable**, **WarningAction**, **WarningVariable**, **OutBuffer**, **PipelineVariable**, and
+**OutVariable**. For more information, see about_CommonParameters
+[https:/go.microsoft.com/fwlink/?LinkID=113216](https:/go.microsoft.com/fwlink?linkid=113216).
 
 EXAMPLE
 

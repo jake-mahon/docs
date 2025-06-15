@@ -1,6 +1,9 @@
 # Batch Compile
 
-You may want to work on several AppSets before you begin the compiling process for each one.  You can go back and compile any DesignStudio project at any time, and you can use the Batch Compile tool to compile multiple AppSets at once.  To do this, go to ```Tools > Batch Compile```, as shown in Figure 180.
+You may want to work on several AppSets before you begin the compiling process for each one.  You
+can go back and compile any DesignStudio project at any time, and you can use the Batch Compile tool
+to compile multiple AppSets at once.  To do this, go to `Tools > Batch Compile`, as shown in
+Figure 180.
 
 ![using_designstudio_tools_16_624x300](../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/designstudio/tools/using_designstudio_tools_16_624x300.webp)
 

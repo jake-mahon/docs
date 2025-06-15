@@ -1,6 +1,7 @@
 # Java: Java Site List Exceptions just stopped working. What can I do to fix this?
 
-Sometimes Java will create an errant file which prevents Java Site Exceptions list from working as expected.
+Sometimes Java will create an errant file which prevents Java Site Exceptions list from working as
+expected.
 
 The file is zero bytes and found in
 

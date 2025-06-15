@@ -20,9 +20,11 @@ The distribution of translation files has been optimized.
 
 #### Web App
 
-Password fields of type ‘Heading’ are displayed correctly again (This only applies to the new design.).
+Password fields of type ‘Heading’ are displayed correctly again (This only applies to the new
+design.).
 
-When creating a new user, the field for assigning roles is readable again (This only applies to the new design.).
+When creating a new user, the field for assigning roles is readable again (This only applies to the
+new design.).
 
 The distribution of translation files has been optimized.
 

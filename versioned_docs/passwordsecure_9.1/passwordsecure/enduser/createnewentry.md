@@ -6,7 +6,8 @@ Step 1 – First, click _Create new password_ on the upper left in Netwrix Passw
 
 ![createnewpassword](/img/versioned_docs/passwordsecure_9.1/passwordsecure/enduser/createnewpassword.png)
 
-Step 2 – A form will open. Now choose the form you need, such as "Website," on the upper right. See the form drop-down list in the screenshot below.
+Step 2 – A form will open. Now choose the form you need, such as "Website," on the upper right. See
+the form drop-down list in the screenshot below.
 
 ![selectform](/img/versioned_docs/passwordsecure_9.1/passwordsecure/enduser/selectform.png)
 
@@ -28,13 +29,17 @@ Step 3 – Let`s fill out the website form in this example.
 
 ![username](/img/versioned_docs/threatprevention_7.4/threatprevention/eperestsite/username.png)
 
-- Enter the password manually or use the password generator by clicking on the button in the middle (high number). The password generator will open.
+- Enter the password manually or use the password generator by clicking on the button in the middle
+  (high number). The password generator will open.
 
-NOTE: To learn more about the generating of passwords, see the [Clean up Your Passwords](/versioned_docs/passwordsecure_9.1/passwordsecure/enduser/cleanuppasswords.md) topic for additional information.
+NOTE: To learn more about the generating of passwords, see the
+[Clean up Your Passwords](/versioned_docs/passwordsecure_9.1/passwordsecure/enduser/cleanuppasswords.md)
+topic for additional information.
 
 ![password](/img/versioned_docs/passwordsecure_9.1/passwordsecure/enduser/password.png)
 
-NOTE:  By clicking on the __lock icon__ right to the password generator, you can mask and unmask your password.
+NOTE: By clicking on the **lock icon** right to the password generator, you can mask and unmask your
+password.
 
 - Enter the website URL that leads to the login.
 
@@ -44,4 +49,4 @@ NOTE:  By clicking on the __lock icon__ right to the password generator, you can
 
 ![tags](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/tags/tags.png)
 
-Step 4 – Click __Save__, and you are done!
+Step 4 – Click **Save**, and you are done!

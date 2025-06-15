@@ -1,5 +1,3 @@
 # Resources
 
-- [
-  Resource
-  ](resource/index.md)
+- [ Resource ](resource/index.md)

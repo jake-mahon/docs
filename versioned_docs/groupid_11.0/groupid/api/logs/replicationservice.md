@@ -1,6 +1,8 @@
 # Replication Service Logs
 
-Use this API to get Replication Service logs. See the [Replication Service](/versioned_docs/groupid_11.0/groupid/admincenter/service/replicationservice.md) topic for additional information on Replication service.
+Use this API to get Replication Service logs. See the
+[Replication Service](/versioned_docs/groupid_11.0/groupid/admincenter/service/replicationservice.md)
+topic for additional information on Replication service.
 
 ## Endpoint
 

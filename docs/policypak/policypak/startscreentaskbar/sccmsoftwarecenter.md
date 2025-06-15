@@ -2,22 +2,27 @@
 
 ![724_1_hf-936-img-01](../../../../static/img/product_docs/policypak/policypak/startscreentaskbar/724_1_hf-936-img-01.webp)
 
-The normal shortcut for the SCCM Software Center looks like this; but Netwrix Endpoint Policy Manager (formerly PolicyPak) Start Screen & Taskbar Manager doesn't support this kind of link.
+The normal shortcut for the SCCM Software Center looks like this; but Netwrix Endpoint Policy
+Manager (formerly PolicyPak) Start Screen & Taskbar Manager doesn't support this kind of link.
 
-However, you can perform the following steps instead to get the same effect.   
-Using Endpoint Policy Manager Start Screen or Endpoint Policy Manager Taskbar Manager, create a link for a Custom application like this…
+However, you can perform the following steps instead to get the same effect.  
+Using Endpoint Policy Manager Start Screen or Endpoint Policy Manager Taskbar Manager, create a link
+for a Custom application like this…
 
 ![724_3_hf-936-img-02](../../../../static/img/product_docs/policypak/policypak/startscreentaskbar/724_3_hf-936-img-02.jpg)
 
 Then, point it toward
 
-```%SYSTEMROOT%\CCM\SCClient.exe page=AvailableSoftware```
+`%SYSTEMROOT%\CCM\SCClient.exe page=AvailableSoftware`
 
 Like what's seen here.
 
 ![724_5_hf-936-img-03](../../../../static/img/product_docs/policypak/policypak/startscreentaskbar/724_5_hf-936-img-03.jpg)
 
-__NOTE:__ If you don't like that page, you can pick a page… (NOT TESTED, but should work.) Special keywords can be found at this link. [https://www.prajwaldesai.com/create-shortcuts-for-configmgr-software-center/#:~:text=By%20default%20you%20will%20find,%5CCCM%5CSCClient.exe](https://www.prajwaldesai.com/create-shortcuts-for-configmgr-software-center/#httpswwwprajwaldesaicomcreate-shortcuts-for-configmgr-software-centertextby20default20you20will20find5cccm5cscclientexe). Finally, take the defaults… and/or change the ShortCut name to suit.
+**NOTE:** If you don't like that page, you can pick a page… (NOT TESTED, but should work.) Special
+keywords can be found at this link.
+[https://www.prajwaldesai.com/create-shortcuts-for-configmgr-software-center/#:~:text=By%20default%20you%20will%20find,%5CCCM%5CSCClient.exe](https://www.prajwaldesai.com/create-shortcuts-for-configmgr-software-center/#httpswwwprajwaldesaicomcreate-shortcuts-for-configmgr-software-centertextby20default20you20will20find5cccm5cscclientexe).
+Finally, take the defaults… and/or change the ShortCut name to suit.
 
 ![724_7_hf-936-img-04](../../../../static/img/product_docs/policypak/policypak/startscreentaskbar/724_7_hf-936-img-04.jpg)
 

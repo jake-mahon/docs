@@ -13,158 +13,158 @@ GET
 #### Sample Request Syntax
 
 ```
-{  
-  "attributesToLoad": [  
-    "displayName"  
-  ]  
+{
+  "attributesToLoad": [
+    "displayName"
+  ]
 }
 ```
 
 #### Sample Response Syntax
 
 ```
-{  
-  "total": 1896,  
-  "data": [  
-    {  
-      "attributesBusinessObject": {  
-        "attributesCollection": {  
-          "container": [  
-            {  
-              "attributeCollection": {  
-              },  
-              "action": 0,  
-              "dn": null,  
-              "value": "CN=Builtin,DC=demo,DC=local",  
-              "identityStoreId": 0  
-            }  
-          ],  
-          "displayName": [  
-            {  
-              "attributeCollection": {  
-              },  
-              "action": 0,  
-              "dn": null,  
-              "value": "Administrators",  
-              "identityStoreId": 0  
-            }  
-          ],  
-          "objectClass": [  
-            {  
-              "attributeCollection": {  
-              },  
-              "action": 0,  
-              "dn": null,  
-              "value": "group",  
-              "identityStoreId": 0  
-            }  
-          ],  
-          "name": [  
-            {  
-              "attributeCollection": {  
-              },  
-              "action": 0,  
-              "dn": null,  
-              "value": "Administrators",  
-              "identityStoreId": 0  
-            }  
-          ],  
-          "CN": [  
-            {  
-              "attributeCollection": {  
-              },  
-              "action": 0,  
-              "dn": null,  
-              "value": "Administrators",  
-              "identityStoreId": 0  
-            }  
-          ],  
-          "objectCategory": [  
-          ]  
-        },  
-        "type": null,  
-        "filePermissionCollection": {  
-        }  
-      },  
-      "objectIdFromIdentityStore": "6791c6ed-3e1b-4516-9c67-c72b64f6beeb",  
-      "elasticHitScore": 1.0,  
-      "objectDisplayName": "Administrators",  
-      "stopNotification": false,  
-      "objectName": null,  
-      "identityStore": null,  
-      "identityStoreId": 2,  
-      "objectType": "group"  
-    },  
-    {  
-      "attributesBusinessObject": {  
-        "attributesCollection": {  
-          "container": [  
-            {  
-              "attributeCollection": {  
-              },  
-              "action": 0,  
-              "dn": null,  
-              "value": "CN=Builtin,DC=demo,DC=local",  
-              "identityStoreId": 0  
-            }  
-          ],  
-          "displayName": [  
-            {  
-              "attributeCollection": {  
-              },  
-              "action": 0,  
-              "dn": null,  
-              "value": "Users",  
-              "identityStoreId": 0  
-            }  
-          ],  
-          "objectClass": [  
-            {  
-              "attributeCollection": {  
-              },  
-              "action": 0,  
-              "dn": null,  
-              "value": "group",  
-              "identityStoreId": 0  
-            }  
-          ],  
-          "name": [  
-            {  
-              "attributeCollection": {  
-              },  
-              "action": 0,  
-              "dn": null,  
-              "value": "Users",  
-              "identityStoreId": 0  
-            }  
-          ],  
-          "CN": [  
-            {  
-              "attributeCollection": {  
-              },  
-              "action": 0,  
-              "dn": null,  
-              "value": "Users",  
-              "identityStoreId": 0  
-            }  
-          ],  
-          "objectCategory": [  
-          ]  
-        },  
-        "type": null,  
-        "filePermissionCollection": {  
-        }  
-      },  
-      "objectIdFromIdentityStore": "9480dd41-384e-4bf5-a9f5-98866c49142f",  
-      "elasticHitScore": 1.0,  
-      "objectDisplayName": "Users",  
-      "stopNotification": false,  
-      "objectName": null,  
-      "identityStore": null,  
-      "identityStoreId": 2,  
-      "objectType": "group"  
-    }  
-  ]  
+{
+  "total": 1896,
+  "data": [
+    {
+      "attributesBusinessObject": {
+        "attributesCollection": {
+          "container": [
+            {
+              "attributeCollection": {
+              },
+              "action": 0,
+              "dn": null,
+              "value": "CN=Builtin,DC=demo,DC=local",
+              "identityStoreId": 0
+            }
+          ],
+          "displayName": [
+            {
+              "attributeCollection": {
+              },
+              "action": 0,
+              "dn": null,
+              "value": "Administrators",
+              "identityStoreId": 0
+            }
+          ],
+          "objectClass": [
+            {
+              "attributeCollection": {
+              },
+              "action": 0,
+              "dn": null,
+              "value": "group",
+              "identityStoreId": 0
+            }
+          ],
+          "name": [
+            {
+              "attributeCollection": {
+              },
+              "action": 0,
+              "dn": null,
+              "value": "Administrators",
+              "identityStoreId": 0
+            }
+          ],
+          "CN": [
+            {
+              "attributeCollection": {
+              },
+              "action": 0,
+              "dn": null,
+              "value": "Administrators",
+              "identityStoreId": 0
+            }
+          ],
+          "objectCategory": [
+          ]
+        },
+        "type": null,
+        "filePermissionCollection": {
+        }
+      },
+      "objectIdFromIdentityStore": "6791c6ed-3e1b-4516-9c67-c72b64f6beeb",
+      "elasticHitScore": 1.0,
+      "objectDisplayName": "Administrators",
+      "stopNotification": false,
+      "objectName": null,
+      "identityStore": null,
+      "identityStoreId": 2,
+      "objectType": "group"
+    },
+    {
+      "attributesBusinessObject": {
+        "attributesCollection": {
+          "container": [
+            {
+              "attributeCollection": {
+              },
+              "action": 0,
+              "dn": null,
+              "value": "CN=Builtin,DC=demo,DC=local",
+              "identityStoreId": 0
+            }
+          ],
+          "displayName": [
+            {
+              "attributeCollection": {
+              },
+              "action": 0,
+              "dn": null,
+              "value": "Users",
+              "identityStoreId": 0
+            }
+          ],
+          "objectClass": [
+            {
+              "attributeCollection": {
+              },
+              "action": 0,
+              "dn": null,
+              "value": "group",
+              "identityStoreId": 0
+            }
+          ],
+          "name": [
+            {
+              "attributeCollection": {
+              },
+              "action": 0,
+              "dn": null,
+              "value": "Users",
+              "identityStoreId": 0
+            }
+          ],
+          "CN": [
+            {
+              "attributeCollection": {
+              },
+              "action": 0,
+              "dn": null,
+              "value": "Users",
+              "identityStoreId": 0
+            }
+          ],
+          "objectCategory": [
+          ]
+        },
+        "type": null,
+        "filePermissionCollection": {
+        }
+      },
+      "objectIdFromIdentityStore": "9480dd41-384e-4bf5-a9f5-98866c49142f",
+      "elasticHitScore": 1.0,
+      "objectDisplayName": "Users",
+      "stopNotification": false,
+      "objectName": null,
+      "identityStore": null,
+      "identityStoreId": 2,
+      "objectType": "group"
+    }
+  ]
 }
 ```
 

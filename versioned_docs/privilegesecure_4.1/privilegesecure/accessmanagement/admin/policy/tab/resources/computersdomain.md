@@ -6,10 +6,15 @@ The Computers tab shows information about the domain computer objects on the sel
 
 The Computers tab has the following features:
 
-- Search — Searches the table or list for matches to the search string. When matches are found, the table or list is filtered to the matching results.
+- Search — Searches the table or list for matches to the search string. When matches are found, the
+  table or list is filtered to the matching results.
 - Type — Provides options to filter results based on a chosen criterion: Resource and Not On-boarded
-- Add as NPS Managed Resource — Opens the Enroll Hosts in Management window to onboards the selected resource. See [Enroll Hosts in Management Window](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/window/resources/enrollhostsinmanagement.md) for additional information.
-- Remove as NPS Managed Resource — Removes the selected resource from being managed by the application. A confirmation window will display.
+- Add as NPS Managed Resource — Opens the Enroll Hosts in Management window to onboards the selected
+  resource. See
+  [Enroll Hosts in Management Window](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/window/resources/enrollhostsinmanagement.md)
+  for additional information.
+- Remove as NPS Managed Resource — Removes the selected resource from being managed by the
+  application. A confirmation window will display.
 - Refresh — Reload the information displayed
 
 The table has the following columns:

@@ -4,7 +4,8 @@ Azure SSO
 
 # Azure SSO
 
-This topic discusses the integration of Privilege Secure for Discovery (formerly SecureONE) with Azure using Azure-hosted Single Sign-On (SSO) through either IdP or SP-initiated configurations.
+This topic discusses the integration of Privilege Secure for Discovery (formerly SecureONE) with
+Azure using Azure-hosted Single Sign-On (SSO) through either IdP or SP-initiated configurations.
 
 ## References
 
@@ -12,7 +13,8 @@ This topic discusses the integration of Privilege Secure for Discovery (formerly
 
 ## Claim Attributes
 
-Within the claim for the single sign-on application, the attribute __dn__ must be mapped to __user.onpremisesdistinguishedname__ to ensure it is included in the SAML assertion.
+Within the claim for the single sign-on application, the attribute **dn** must be mapped to
+**user.onpremisesdistinguishedname** to ensure it is included in the SAML assertion.
 
 Manage Claim Example
 
@@ -20,18 +22,22 @@ Manage Claim Example
 
 - Name – dn
 - Namespace (Optional) – Enter a namespace URI
-- Source – Select the __Attribute__radio button
-- Source attribute – Select __user.onpremisesdistinguedname__ from the drop-down list
+- Source – Select the **Attribute**radio button
+- Source attribute – Select **user.onpremisesdistinguedname** from the drop-down list
 
-__NOTE:__ Refer to the "Attributes & Claims" area in the screenshot example within the Azure SSO configuration.
+**NOTE:** Refer to the "Attributes & Claims" area in the screenshot example within the Azure SSO
+configuration.
 
 ![managedclaim](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/managedclaim.png)
 
-__NOTE:__ Do not manually enter or copy/paste the attribute. Select it from the drop-down list in the Source Attribute field. Typing part of the name will narrow down the search options.
+**NOTE:** Do not manually enter or copy/paste the attribute. Select it from the drop-down list in
+the Source Attribute field. Typing part of the name will narrow down the search options.
 
 ## NPS-D SAML SSO Configuration Fields
 
-Depending on whether your organization intends to use IdP or SP-initiated SSO flows, there are small variations in the values to be added to the SAML configuration within NPS-D and the Azure SSO application.
+Depending on whether your organization intends to use IdP or SP-initiated SSO flows, there are small
+variations in the values to be added to the SAML configuration within NPS-D and the Azure SSO
+application.
 
 IdP-Initiated SSO
 
@@ -43,7 +49,8 @@ The Reply URL (Assertion Consumer Service URL) in Azure must follow the followin
 
 ![npsd_properties](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/npsd_properties.png)
 
-The Entrypoint value in NPS-D must match the User Access URL in Azure SSO under __Manage__ > __Properties__.
+The Entrypoint value in NPS-D must match the User Access URL in Azure SSO under **Manage** >
+**Properties**.
 
 SP-Initiated SSO
 
@@ -55,7 +62,7 @@ The Reply URL (Assertion Consumer Service URL) must follow the following format:
 
 ![setupnpsd](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/setupnpsd.png)
 
-The Entrypoint value in NPS-D must match the __Login URL__ in the Azure SSO Application.
+The Entrypoint value in NPS-D must match the **Login URL** in the Azure SSO Application.
 
 ![samlconfigurationtion](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/samlconfigurationtion.png)
 
@@ -63,22 +70,30 @@ The Sign-on URL in the Azure SSO Application must follow this format:
 
 - `https://<address>/api/login`
 
-__NOTE:__ While the "Sign-on URL" is required for SP-initiated SSO, it can still be included in an IdP-initiated configuration if your organization may switch to SP in the future or uses both IdP and SP.
+**NOTE:** While the "Sign-on URL" is required for SP-initiated SSO, it can still be included in an
+IdP-initiated configuration if your organization may switch to SP in the future or uses both IdP and
+SP.
 
 ## Shared Configuration
 
 For both IdP and SP-initiated configurations:
 
-- The Issuer field in NPS-D must match the "Identifier (Entity ID)" configured in the Azure SSO Application.
+- The Issuer field in NPS-D must match the "Identifier (Entity ID)" configured in the Azure SSO
+  Application.
 
-  Example: npsd.netwrix.com .
-- The Issuer Cert can be downloaded from the "SAML Certificates" section in Azure. Download the Base64 version, and copy the certificate text (excluding the ----BEGIN CERTIFICATE---- and ----END CERTIFICATE---- lines). Paste this into the relevant field in the NPS-D application.
+    Example: npsd.netwrix.com .
+
+- The Issuer Cert can be downloaded from the "SAML Certificates" section in Azure. Download the
+  Base64 version, and copy the certificate text (excluding the ----BEGIN CERTIFICATE---- and ----END
+  CERTIFICATE---- lines). Paste this into the relevant field in the NPS-D application.
 
 ![samlcerts](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/samlcerts.png)
 
 ## Troubleshooting
 
-Versions 2.22 and later – For SSO to work as expected, both signed SAML assertion and response options must be enabled. Failure to do so will result in an "Invalid signature" error in the UI during login attempts.
+Versions 2.22 and later – For SSO to work as expected, both signed SAML assertion and response
+options must be enabled. Failure to do so will result in an "Invalid signature" error in the UI
+during login attempts.
 
 ![signsaml_assertion](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/signsaml_assertion.png)
 

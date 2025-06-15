@@ -15,17 +15,17 @@ DELETE
 #### Sample Response Syntax
 
 ```
-{  
-    "name": null,  
-    "type": 0,  
-    "status": 0,  
-    "message": null,  
-    "data": "",  
-    "identityStoreObject": null,  
-    "details": [],  
-    "currentDirectoryServer": null,  
-    "errorCode": null,  
-    "exceptionMessagesAttributeWise": null,  
-    "isResyncAble": true  
+{
+    "name": null,
+    "type": 0,
+    "status": 0,
+    "message": null,
+    "data": "",
+    "identityStoreObject": null,
+    "details": [],
+    "currentDirectoryServer": null,
+    "errorCode": null,
+    "exceptionMessagesAttributeWise": null,
+    "isResyncAble": true
 }
 ```

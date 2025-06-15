@@ -1,6 +1,7 @@
 # Knowledge Base
 
-See the following Knowledge Base articles for information regarding Endpoint Policy Manager licensing.
+See the following Knowledge Base articles for information regarding Endpoint Policy Manager
+licensing.
 
 ## Licenses FAQ for Active Directory (GPO and SCCM)
 

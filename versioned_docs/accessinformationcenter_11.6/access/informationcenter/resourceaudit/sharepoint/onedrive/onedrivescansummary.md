@@ -1,6 +1,7 @@
 # OneDrive Scan Summary Report
 
-The OneDrive Scan Summary report at the __OneDrive for Business__ node provides an overview of scanned personal drives.
+The OneDrive Scan Summary report at the **OneDrive for Business** node provides an overview of
+scanned personal drives.
 
 ![OneDrive Scan Summary report](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/sharepoint/onedrive/onedrivescansummary.png)
 

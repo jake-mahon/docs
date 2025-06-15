@@ -1,10 +1,13 @@
 # Create Menu Items
 
-After creating a workflow as for the EntityTypes, is mandatory to create the MenuItems to create the Navigation to this Workflow.
+After creating a workflow as for the EntityTypes, is mandatory to create the MenuItems to create the
+Navigation to this Workflow.
 
 ### Create menu items for a workflow in a resource entity list
 
-To add a link to an entity's workflow displayed under the search bar on the visualization page of the entity's resource list you need to create a menu containing the different workflows and put a link to the entity's searchBar as below.
+To add a link to an entity's workflow displayed under the search bar on the visualization page of
+the entity's resource list you need to create a menu containing the different workflows and put a
+link to the entity's searchBar as below.
 
 [See available icons](https://uifabricicons.azurewebsites.net/).
 

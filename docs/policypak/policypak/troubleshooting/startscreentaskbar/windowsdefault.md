@@ -1,6 +1,7 @@
 # Windows default applications are not showing in Start Menu
 
-Some Windows default applications are not showing in Start Menu when setting it via Netwrix Endpoint Policy Manager (formerly PolicyPak) Start Screens Manager GPO.
+Some Windows default applications are not showing in Start Menu when setting it via Netwrix Endpoint
+Policy Manager (formerly PolicyPak) Start Screens Manager GPO.
 
 The problem we observe is with the following two Windows Applications:
 
@@ -17,7 +18,7 @@ Workaround for One/few computers:
 
 - Manually remove the folders from the following location:
 
-```%appdata%\Microsoft\Windows\Start Menu\PolicyPak Start Screen Manager\```
+`%appdata%\Microsoft\Windows\Start Menu\PolicyPak Start Screen Manager\`
 
 Workaround for many computers using GPPref Item:
 

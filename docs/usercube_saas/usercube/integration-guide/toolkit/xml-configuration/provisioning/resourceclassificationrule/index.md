@@ -4,7 +4,8 @@ In Identity Manager, this type of rule is used to classify the resources based o
 
 ## Examples
 
-The following example declares a rule to classify the Active Directory accounts based on the dn values.
+The following example declares a rule to classify the Active Directory accounts based on the dn
+values.
 
 ```
 
@@ -15,10 +16,10 @@ The following example declares a rule to classify the Active Directory accounts 
 
 ## Properties
 
-| Property | Details |
-| --- | --- |
-| Policy   required | __Type__    Int64   __Description__   Identifier of the policy that the rule is part of. |
-| ResourceType   required | __Type__    Int64   __Description__   Represents the resource type definition. |
-| ResourceTypeIdentificationConfidenceLevel   default value: 0 | __Type__    Int32   __Description__   Defines the confidence level used to match the resources. |
-| SourceMatchedConfidenceLevel   default value: false | __Type__    Boolean   __Description__   Defines the confidence level used to match the sources. |
-| TargetExpression   optional | __Type__    String   __Description__   Defines the C# expression used to classify the resources. See the [Expressions](../../../expressions/index.md) topic for additional information. |
+| Property                                                   | Details                                                                                                                                                                          |
+| ---------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Policy required                                            | **Type** Int64 **Description** Identifier of the policy that the rule is part of.                                                                                                |
+| ResourceType required                                      | **Type** Int64 **Description** Represents the resource type definition.                                                                                                          |
+| ResourceTypeIdentificationConfidenceLevel default value: 0 | **Type** Int32 **Description** Defines the confidence level used to match the resources.                                                                                         |
+| SourceMatchedConfidenceLevel default value: false          | **Type** Boolean **Description** Defines the confidence level used to match the sources.                                                                                         |
+| TargetExpression optional                                  | **Type** String **Description** Defines the C# expression used to classify the resources. See the [Expressions](../../../expressions/index.md) topic for additional information. |

@@ -1,6 +1,12 @@
 # ExchangePS Data Collector
 
-The ExchangePS Data Collector utilizes the Exchange CMDlets to return information about the Exchange environment utilizing PowerShell. This data collector has been designed to work with Exchange 2010 and newer. The ExchangePS Data Collector has been preconfigured within the Exchange Solution. Both this data collector and the solution are available with a special Enterprise Auditor license. See the [Exchange Solution](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/overview.md) topic for additional information.
+The ExchangePS Data Collector utilizes the Exchange CMDlets to return information about the Exchange
+environment utilizing PowerShell. This data collector has been designed to work with Exchange 2010
+and newer. The ExchangePS Data Collector has been preconfigured within the Exchange Solution. Both
+this data collector and the solution are available with a special Enterprise Auditor license. See
+the
+[Exchange Solution](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/overview.md)
+topic for additional information.
 
 Protocols
 
@@ -14,7 +20,8 @@ Ports
 Permissions
 
 - Remote PowerShell enabled on a single Exchange server
-- Windows Authentication enabled for the PowerShell Virtual Directory on the same Exchange server where Remote PowerShell has been enabled
+- Windows Authentication enabled for the PowerShell Virtual Directory on the same Exchange server
+  where Remote PowerShell has been enabled
 - View-Only Organization Management Role Group
 - Discovery Search Management Role Group
 - Public Folder Management Role Group
@@ -23,29 +30,37 @@ Permissions
 - Discovery Management Role
 - Organization Management Role
 
-See the [Exchange PowerShell Permissions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/exchange/powershell.md) topic for additional information.
+See the
+[Exchange PowerShell Permissions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/exchange/powershell.md)
+topic for additional information.
 
 ## Remote PowerShell
 
-The ExchangePS Data Collector will utilize Remote PowerShell when connecting to Exchange 2010 or newer. This behavior simulates what the Exchange Management Shell does when loading. The below PowerShell syntax is an example of how the connection is loaded through PowerShell.
+The ExchangePS Data Collector will utilize Remote PowerShell when connecting to Exchange 2010 or
+newer. This behavior simulates what the Exchange Management Shell does when loading. The below
+PowerShell syntax is an example of how the connection is loaded through PowerShell.
 
 ```
-$JobUserName = '{insert domain\username}'  
-$JobPassword = '{insert password}'  
-$secpasswd = ConvertTo-SecureString $JobPassword -AsPlainText -Force  
-$JobCredential = New-Object System.Management.Automation.PSCredential ($JobUserName, $secpasswd)  
-$relaxed=New-PSSessionOption -SkipCACheck -SkipCNCheck -SkipRevocationCheck  
-$sess=New-PSSession -ConnectionUri 'https://{exchangeserver}/powershell?serializationLevel=Full' -ConfigurationName 'Microsoft.Exchange' -AllowRedirection -Authentication Negotiate -Credential $JobCredential -SessionOption $relaxed   
+$JobUserName = '{insert domain\username}'
+$JobPassword = '{insert password}'
+$secpasswd = ConvertTo-SecureString $JobPassword -AsPlainText -Force
+$JobCredential = New-Object System.Management.Automation.PSCredential ($JobUserName, $secpasswd)
+$relaxed=New-PSSessionOption -SkipCACheck -SkipCNCheck -SkipRevocationCheck
+$sess=New-PSSession -ConnectionUri 'https://{exchangeserver}/powershell?serializationLevel=Full' -ConfigurationName 'Microsoft.Exchange' -AllowRedirection -Authentication Negotiate -Credential $JobCredential -SessionOption $relaxed 
 Import-PSSession $sess
 ```
 
-See the [Exchange PowerShell Permissions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/exchange/powershell.md) topic for instructions on enabling Remote PowerShell.
+See the
+[Exchange PowerShell Permissions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/exchange/powershell.md)
+topic for instructions on enabling Remote PowerShell.
 
 ## The Exchange Applet
 
-The Exchange Applet will run on the Exchange server by the ExchangePS Data Collector in the following circumstances:
+The Exchange Applet will run on the Exchange server by the ExchangePS Data Collector in the
+following circumstances:
 
-- An actual Client Access Server (CAS) server is not specified either in the global configuration (__Settings__ > __Exchange__ node) or on the Category page of the ExchangePS Data Collector Wizard
+- An actual Client Access Server (CAS) server is not specified either in the global configuration
+  (**Settings** > **Exchange** node) or on the Category page of the ExchangePS Data Collector Wizard
 - Remote PowerShell has not been enabled for targeting Exchange 2010
 
 The following Exchange Snap-in is used when the applet is utilized:
@@ -54,7 +69,8 @@ The following Exchange Snap-in is used when the applet is utilized:
 
 ## ExchangePS Query Configuration
 
-The ExchangePS Data Collector is configured through the ExchangePS Data Collector Wizard, which contains the following wizard pages:
+The ExchangePS Data Collector is configured through the ExchangePS Data Collector Wizard, which
+contains the following wizard pages:
 
 - [ExchangePS: Category](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchangeps/category.md)
 - [ExchangePS: Scope](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchangeps/scope.md)

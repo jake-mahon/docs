@@ -1,6 +1,7 @@
 # Password Management
 
-The Password Management module offers a set of password-related operations on resources of certain types (Active Directory, Microsoft Entra ID (formerly Microsoft Azure AD), Service Now, etc...).
+The Password Management module offers a set of password-related operations on resources of certain
+types (Active Directory, Microsoft Entra ID (formerly Microsoft Azure AD), Service Now, etc...).
 
 ## Possible Password Operations
 
@@ -8,34 +9,41 @@ Depending on the target system of the manipulated resource, the following operat
 
 ### Password initialization
 
-This operation __can be started manually by the user through the UI__ (with the "Manage Accounts" option on user pages) __or automatically during the fulfillment process__ of the corresponding resource.
+This operation **can be started manually by the user through the UI** (with the "Manage Accounts"
+option on user pages) **or automatically during the fulfillment process** of the corresponding
+resource.
 
-It consists of initializing the password and sending a notification containing instructions to a configurable email address.
+It consists of initializing the password and sending a notification containing instructions to a
+configurable email address.
 
 The password initialization can be done in two different ways:
 
-- One-Way: Identity Manager sets the initial password, and sends it as part of the instructions notification.
-- Two-Way: The instructions notification contains a link to a page where the email recipient initializes the password.
+- One-Way: Identity Manager sets the initial password, and sends it as part of the instructions
+  notification.
+- Two-Way: The instructions notification contains a link to a page where the email recipient
+  initializes the password.
 
 ### Password change
 
-__UI-only__ operation that allows the user to change the password.
+**UI-only** operation that allows the user to change the password.
 
 ### Password reset
 
-__UI-only__ operation that allows the user to reset the password.
+**UI-only** operation that allows the user to reset the password.
 
 ### Account unlocking
 
-__UI-only__ operation that allows the user to unlock an account that has been blocked due to too many incorrect password attempts.
+**UI-only** operation that allows the user to unlock an account that has been blocked due to too
+many incorrect password attempts.
 
 ## Possible operations per managed system
 
-Identity Manager provides a predefined set of possible operations per managed system (which cannot be changed by the configuration).
+Identity Manager provides a predefined set of possible operations per managed system (which cannot
+be changed by the configuration).
 
-|  | Initialize | Change | Reset | Unlock | _Notes_ |
-| --- | --- | --- | --- | --- | --- |
-| Active Directory | YES | YES | YES | YES | __Required authentication mode:__ Basic with SSL or Negotiate |
-| LDAP | YES | YES | YES | YES | __Required authentication mode:__ Basic with SSL or Negotiate |
-| Microsoft Entra ID | YES | NO | YES | NO | - |
-| Service Now | YES | NO | NO | NO | - |
+|                    | Initialize | Change | Reset | Unlock | _Notes_                                                       |
+| ------------------ | ---------- | ------ | ----- | ------ | ------------------------------------------------------------- |
+| Active Directory   | YES        | YES    | YES   | YES    | **Required authentication mode:** Basic with SSL or Negotiate |
+| LDAP               | YES        | YES    | YES   | YES    | **Required authentication mode:** Basic with SSL or Negotiate |
+| Microsoft Entra ID | YES        | NO     | YES   | NO     | -                                                             |
+| Service Now        | YES        | NO     | NO    | NO     | -                                                             |

@@ -2,27 +2,28 @@
 
 Gets or sets the URL that the SMS gateway provides for sending messages.
 
-__Namespace:__ Imanami.PublicInterfaces
+**Namespace:** Imanami.PublicInterfaces
 
-__Assembly:__ Imanami.PublicInterfaces.dll
+**Assembly:** Imanami.PublicInterfaces.dll
 
-__Syntax__
+**Syntax**
 
 ```
 string Url { get; set; }
 ```
 
-__Return Value__
+**Return Value**
 
 Type: [System.String](http://msdn.microsoft.com/en-us/library/system.string.aspx)
 
 The address for sending messages.
 
-__Remarks__
+**Remarks**
 
-Some SMS gateways provide URLs for you to send your message parameters. The web component (typically a web service) deployed at that URL then transmits the message to the intended recipients. If this is the case with your SMS gateway provider, you
-can use this property to specify that URL.
+Some SMS gateways provide URLs for you to send your message parameters. The web component (typically
+a web service) deployed at that URL then transmits the message to the intended recipients. If this
+is the case with your SMS gateway provider, you can use this property to specify that URL.
 
-__See Also__
+**See Also**
 
 - [Implement and Deploy a Custom SMS Gateway](/versioned_docs/groupid_11.0/groupid/admincenter/smsgateway/implementcustom.md)

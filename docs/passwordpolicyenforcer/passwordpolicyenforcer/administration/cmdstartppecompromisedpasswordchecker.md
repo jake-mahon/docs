@@ -1,16 +1,20 @@
 # Start-PPECompromisedPasswordChecker
 
-The __Start-PPECompromisedPasswordChecker__ cmdlet runs the Password Policy Enforcer Compromised Password Checker.
+The **Start-PPECompromisedPasswordChecker** cmdlet runs the Password Policy Enforcer Compromised
+Password Checker.
 
 SYNTAX
 
-__Start-PPECompromisedPasswordChecker__ [`<_CommonParameters_>`]
+**Start-PPECompromisedPasswordChecker** [`<_CommonParameters_>`]
 
 PARAMETERS
 
 `<_CommonParameters_>`
 
-This cmdlet supports the common parameters: __Verbose__, __Debug__, __ErrorAction__, __ErrorVariable__, __WarningAction__, __WarningVariable__, __OutBuffer__, __PipelineVariable__, and __OutVariable__. For more information, see about_CommonParameters [https:/go.microsoft.com/fwlink/?LinkID=113216](https:/go.microsoft.com/fwlink?linkid=113216).
+This cmdlet supports the common parameters: **Verbose**, **Debug**, **ErrorAction**,
+**ErrorVariable**, **WarningAction**, **WarningVariable**, **OutBuffer**, **PipelineVariable**, and
+**OutVariable**. For more information, see about_CommonParameters
+[https:/go.microsoft.com/fwlink/?LinkID=113216](https:/go.microsoft.com/fwlink?linkid=113216).
 
 EXAMPLE
 

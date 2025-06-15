@@ -4,12 +4,13 @@ GroupID provides the following APIs to perform functions related to data sources
 
 - [Create a Data Source](/versioned_docs/groupid_11.0/groupid/api/datasource/createds.md)
 
-  - [Create a Data Source for a Text/CSV File](/versioned_docs/groupid_11.0/groupid/api/datasource/dstext.md)
-  - [Create a Data Source for MS Access](/versioned_docs/groupid_11.0/groupid/api/datasource/dsaccess.md)
-  - [Create a Data Source for MS Excel](/versioned_docs/groupid_11.0/groupid/api/datasource/dsexcel.md)
-  - [Create a Data Source for ODBC](/versioned_docs/groupid_11.0/groupid/api/datasource/dsodbc.md)
-  - [Create a Data Source for Oracle](/versioned_docs/groupid_11.0/groupid/api/datasource/dsoracle.md)
-  - [Create a Data Source for SQL Server](/versioned_docs/groupid_11.0/groupid/api/datasource/dssql.md)
+    - [Create a Data Source for a Text/CSV File](/versioned_docs/groupid_11.0/groupid/api/datasource/dstext.md)
+    - [Create a Data Source for MS Access](/versioned_docs/groupid_11.0/groupid/api/datasource/dsaccess.md)
+    - [Create a Data Source for MS Excel](/versioned_docs/groupid_11.0/groupid/api/datasource/dsexcel.md)
+    - [Create a Data Source for ODBC](/versioned_docs/groupid_11.0/groupid/api/datasource/dsodbc.md)
+    - [Create a Data Source for Oracle](/versioned_docs/groupid_11.0/groupid/api/datasource/dsoracle.md)
+    - [Create a Data Source for SQL Server](/versioned_docs/groupid_11.0/groupid/api/datasource/dssql.md)
+
 - [Delete a Data Source](/versioned_docs/groupid_11.0/groupid/api/datasource/deleteds.md)
 - [Get a Data Source](/versioned_docs/groupid_11.0/groupid/api/datasource/getds.md)
 - [Get a Data Source by Type and Name](/versioned_docs/groupid_11.0/groupid/api/datasource/getdstypename.md)
@@ -27,7 +28,8 @@ GroupID provides the following APIs to perform functions related to data sources
 - [Update a Data Source](/versioned_docs/groupid_11.0/groupid/api/datasource/updateds.md)
 - [Validate Data Connectivity of a Data Source](/versioned_docs/groupid_11.0/groupid/api/datasource/validatedc.md)
 
-See the[ Data Sources](/versioned_docs/groupid_11.0/groupid/admincenter/datasource/overview.md) topic for additional information on data sources.
+See the[ Data Sources](/versioned_docs/groupid_11.0/groupid/admincenter/datasource/overview.md)
+topic for additional information on data sources.
 
 See Also
 

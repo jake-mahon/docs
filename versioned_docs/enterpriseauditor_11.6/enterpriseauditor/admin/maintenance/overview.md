@@ -1,6 +1,7 @@
 # Application Maintenance and Best Practices
 
-The following topics contain information needed for application maintenance and troubleshooting for the Enterprise Auditor Console:
+The following topics contain information needed for application maintenance and troubleshooting for
+the Enterprise Auditor Console:
 
 - [Antivirus Exclusions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/maintenance/antivirusexclusions.md)
 - [Updating Passwords](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/maintenance/updatepasswords.md)

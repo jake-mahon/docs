@@ -1,6 +1,10 @@
 # Zendesk
 
-Platform Governance for NetSuite's Change Management capabilities are integrated with Zendesk, one of the most popular customer service and issue ticketing systems. Customers are able to look for and include NetSuite Customizations, assess impacts for requested changes, and push Zendesk change tickets into a Change Request. This enables easy management of changes, seamless tracking of compliant changes and automating the reconciliation of change logs during an audit.
+Platform Governance for NetSuite's Change Management capabilities are integrated with Zendesk, one
+of the most popular customer service and issue ticketing systems. Customers are able to look for and
+include NetSuite Customizations, assess impacts for requested changes, and push Zendesk change
+tickets into a Change Request. This enables easy management of changes, seamless tracking of
+compliant changes and automating the reconciliation of change logs during an audit.
 
 User benefits include:
 
@@ -20,63 +24,84 @@ To set up the Zendesk integration:
 
 ## Install the Netsuite Bundle
 
-1. Open __Customization__ > __SuiteBundler__ > __Search & Install Bundles__
-2. Search for bundle __402177__
-3. Click on __Strongpoint Zendesk Integration__ in the search results.
-4. Click __Install__ when the Bundle Details opens.
-5. Click __Install Bundle__ on the __Preview Bundle__ Install page.
+1. Open **Customization** > **SuiteBundler** > **Search & Install Bundles**
+2. Search for bundle **402177**
+3. Click on **Strongpoint Zendesk Integration** in the search results.
+4. Click **Install** when the Bundle Details opens.
+5. Click **Install Bundle** on the **Preview Bundle** Install page.
 
 ## Install the App
 
-Here are the steps to install the Zendesk app. You must have __Admin__ privileges to install the app.
+Here are the steps to install the Zendesk app. You must have **Admin** privileges to install the
+app.
 
 1. Open your Zendesk dashboard.
-2. Click the __Admin__ icon in the left panel.
-3. Navigate to __Apps__ > __Marketplace__.
+2. Click the **Admin** icon in the left panel.
+3. Navigate to **Apps** > **Marketplace**.
 
-   ![Open the Zendesk Marketplace](../../../static/img/product_docs/strongpointfornetsuite/integrations/zendesk_admin_marketplace.webp)
-4. Search for __Strongpoint__.
-5. Click __Strongpoint for NetSuite__ when it is displayed.
+    ![Open the Zendesk Marketplace](../../../static/img/product_docs/strongpointfornetsuite/integrations/zendesk_admin_marketplace.webp)
 
-   ![Strongpoint for NetSuite app in the Marketplace](../../../static/img/product_docs/strongpointfornetsuite/integrations/zendesk_strongpoint.webp)
-6. Click __Install__. When installation is complete, you are prompted to sign in to your Zendesk dashboard to continue.
-7. Click the __Admin__ icon in the left panel.
-8. Navigate to __Apps__ > __Manage__.
+4. Search for **Strongpoint**.
+5. Click **Strongpoint for NetSuite** when it is displayed.
 
-   ![Configure the Strongpoint Zendesk app](../../../static/img/product_docs/strongpointfornetsuite/integrations/zendesk_configure_app.webp)
-9. Hover on the __Strongpoint for NetSuite__ tile to access the __Settings__ menu.
+    ![Strongpoint for NetSuite app in the Marketplace](../../../static/img/product_docs/strongpointfornetsuite/integrations/zendesk_strongpoint.webp)
 
-   ![Hover to access the Settings](../../../static/img/product_docs/strongpointfornetsuite/integrations/zendesk_configure_app_menu.webp)
-10. Click __Change settings__.
+6. Click **Install**. When installation is complete, you are prompted to sign in to your Zendesk
+   dashboard to continue.
+7. Click the **Admin** icon in the left panel.
+8. Navigate to **Apps** > **Manage**.
+
+    ![Configure the Strongpoint Zendesk app](../../../static/img/product_docs/strongpointfornetsuite/integrations/zendesk_configure_app.webp)
+
+9. Hover on the **Strongpoint for NetSuite** tile to access the **Settings** menu.
+
+    ![Hover to access the Settings](../../../static/img/product_docs/strongpointfornetsuite/integrations/zendesk_configure_app_menu.webp)
+
+10. Click **Change settings**.
 
     ![Set up the Strongpoint for NetSuite Zendesk app](../../../static/img/product_docs/strongpointfornetsuite/integrations/zendesk_change_settings.webp)
 
-    - __Title__: the name associated with the app. The default is __Strongpoint for NetSuite__.
-    - Account ID: enter the NetSuite account ID. The __Account ID__ must be a lowercase string. For example, __tstdrv1724328__.
+    - **Title**: the name associated with the app. The default is **Strongpoint for NetSuite**.
+    - Account ID: enter the NetSuite account ID. The **Account ID** must be a lowercase string. For
+      example, **tstdrv1724328**.
 
-      Account ID must be entered in lower case.
-    - __Consumer Key__: Enter the Consumer Key of the Integration Record from your NetSuite account.
-    - __Consumer Secret__: Enter the Consumer Secret of the Integration Record from your NetSuite account.
-    - __Token ID__: Enter the Token ID of the Integration Record from your NetSuite account.
-    - __Token Secret__: Enter the Token Secret of the Integration Record from your NetSuite account.
+        Account ID must be entered in lower case.
 
-    Token-based authentication (TBA) is required by NetSuite. Refer to the NetSuite help: [TBA Setup Requirements](https://netsuite.custhelp.com/app/answers/detail/a_id/51000/kw/tba) for details if you have not yet set up TBA.  
-    Only administrators can view the __Consumer Key__, __Consumer Secret__, __Token ID__ and __Token Secret__ information.  
-    This information is generated when you create your Integration Record with the Token-Based Authentication option enabled. If you lose or forget these credentials, you must reset them to obtain new values.
+    - **Consumer Key**: Enter the Consumer Key of the Integration Record from your NetSuite account.
+    - **Consumer Secret**: Enter the Consumer Secret of the Integration Record from your NetSuite
+      account.
+    - **Token ID**: Enter the Token ID of the Integration Record from your NetSuite account.
+    - **Token Secret**: Enter the Token Secret of the Integration Record from your NetSuite account.
 
-    - __Enable role restrictions__: Check this option to restrict access to the app based on roles. Enter the roles allowed to access the app.
-    - __Enable group restrictions__: Check this option to restrict access to the app based on group membership. Enter the groups allowed to access the app.
-11. Click __Install__. The keys, secrets, and token information is hidden when it is saved.
+    Token-based authentication (TBA) is required by NetSuite. Refer to the NetSuite help:
+    [TBA Setup Requirements](https://netsuite.custhelp.com/app/answers/detail/a_id/51000/kw/tba) for
+    details if you have not yet set up TBA.  
+    Only administrators can view the **Consumer Key**, **Consumer Secret**, **Token ID** and **Token
+    Secret** information.  
+    This information is generated when you create your Integration Record with the Token-Based
+    Authentication option enabled. If you lose or forget these credentials, you must reset them to
+    obtain new values.
+
+    - **Enable role restrictions**: Check this option to restrict access to the app based on roles.
+      Enter the roles allowed to access the app.
+    - **Enable group restrictions**: Check this option to restrict access to the app based on group
+      membership. Enter the groups allowed to access the app.
+
+11. Click **Install**. The keys, secrets, and token information is hidden when it is saved.
 
 ## Set up Approvals
 
 After you install the Zendesk app, set up the approvals.
 
-1. Click the new __Strongpoint for NetSuite__ icon in the left panel. The __Group Configurations__ page opens.
+1. Click the new **Strongpoint for NetSuite** icon in the left panel. The **Group Configurations**
+   page opens.
 2. Enter the group and approval information:
 
-   - __Allow these Zendesk groups to request approval__ one or more groups who can request approval for a change request. Select a group from the drop down list. Click __+__. Repeat as needed.
-   - __Allow these Zendesk groups to approve__ one or more groups who can approve a change request. Select a group from the drop down list. Click __+__. Repeat as needed.
-   - __Approval process__ select the approval process to use. __Strongpoint Approval in Zendesk__, __Strongpoint Approval in NetSuite__, __No Appoval Needed__, or __Not set__.
+    - **Allow these Zendesk groups to request approval** one or more groups who can request approval
+      for a change request. Select a group from the drop down list. Click **+**. Repeat as needed.
+    - **Allow these Zendesk groups to approve** one or more groups who can approve a change request.
+      Select a group from the drop down list. Click **+**. Repeat as needed.
+    - **Approval process** select the approval process to use. **Strongpoint Approval in Zendesk**,
+      **Strongpoint Approval in NetSuite**, **No Appoval Needed**, or **Not set**.
 
-__Next Step:__ [ Zendesk Walkthrough Example](zendesk_walkthrough_example.md)
+**Next Step:** [ Zendesk Walkthrough Example](zendesk_walkthrough_example.md)

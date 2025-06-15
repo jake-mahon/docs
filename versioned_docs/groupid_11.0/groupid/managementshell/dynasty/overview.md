@@ -2,8 +2,10 @@
 
 This section covers the following cmdlets for managing Dynasties.
 
-- [New-Dynasty](/versioned_docs/groupid_11.0/groupid/managementshell/dynasty/newdynasty.md): creates a new Dynasty.
-- [Set-Dynasty](/versioned_docs/groupid_11.0/groupid/managementshell/dynasty/setdynasty.md): modifies a Dynasty or its children.
+- [New-Dynasty](/versioned_docs/groupid_11.0/groupid/managementshell/dynasty/newdynasty.md): creates
+  a new Dynasty.
+- [Set-Dynasty](/versioned_docs/groupid_11.0/groupid/managementshell/dynasty/setdynasty.md):
+  modifies a Dynasty or its children.
 
 See Also
 

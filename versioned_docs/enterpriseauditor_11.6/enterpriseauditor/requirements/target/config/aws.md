@@ -1,14 +1,24 @@
 # Configure AWS for Scans
 
-In order to scan multiple AWS accounts using one account you need to create a role in each target account, so that It can provide the designated scanning account permissions to scan resources it controls. This is achieved through the following steps which will need to be completed leveraging a user with administrative access to each target account:
+In order to scan multiple AWS accounts using one account you need to create a role in each target
+account, so that It can provide the designated scanning account permissions to scan resources it
+controls. This is achieved through the following steps which will need to be completed leveraging a
+user with administrative access to each target account:
 
-__Step 1 –__ Create a Managed Policy in each target account that will be used to allow access to account (S3, Org and IAM).
+**Step 1 –** Create a Managed Policy in each target account that will be used to allow access to
+account (S3, Org and IAM).
 
-__Step 2 –__ Create a Role in each target account that will be used to allow access to listing IAM users.
+**Step 2 –** Create a Role in each target account that will be used to allow access to listing IAM
+users.
 
-__Step 3 –__ Create a Managed Policy in the designated scanning account that will be used to allow the service account to assume the configured role in each target account.
+**Step 3 –** Create a Managed Policy in the designated scanning account that will be used to allow
+the service account to assume the configured role in each target account.
 
-__Step 4 –__ Add Role to Enterprise Auditor. The Role created in the scanning account will need to be added to the __1-AWS_OrgScan__, __2-AWS_S3Scan__, and __3-AWS_IAMScan__ job query configurations. See the [AWS: Login Roles](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/aws/loginroles.md) topic for additional information.
+**Step 4 –** Add Role to Enterprise Auditor. The Role created in the scanning account will need to
+be added to the **1-AWS_OrgScan**, **2-AWS_S3Scan**, and **3-AWS_IAMScan** job query configurations.
+See the
+[AWS: Login Roles](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/aws/loginroles.md)
+topic for additional information.
 
 Once these steps are completed, the role must be added to the AWS queries within Enterprise Auditor.
 
@@ -16,172 +26,187 @@ Once these steps are completed, the role must be added to the AWS queries within
 
 The following steps will need to be completed in each target account.
 
-__Step 1 –__ Sign into the Identity and Access Management Console (IAM) as an administrator of the Trusting account.
+**Step 1 –** Sign into the Identity and Access Management Console (IAM) as an administrator of the
+Trusting account.
 
 ![Create policy in Identity and Access Management (IAM) Console](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/target/config/policies.png)
 
-__Step 2 –__ Browse to the Identity and Access Management (IAM) Console. Navigate to __Policies__ and click __Create policy__.
+**Step 2 –** Browse to the Identity and Access Management (IAM) Console. Navigate to **Policies**
+and click **Create policy**.
 
 ![JSON tab in the Policy editor](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/target/config/jsontabpolicies.png)
 
-__Step 3 –__ Select the __JSON__ tab.
+**Step 3 –** Select the **JSON** tab.
 
-__Step 4 –__ Paste the following:
+**Step 4 –** Paste the following:
 
 ```
-{  
-    "Version": "2012-10-17",  
-    "Statement": [  
-        {  
-            "Sid": "CapabilityIamScan",  
-            "Effect": "Allow",  
-            "Action": [  
-                "iam:GenerateCredentialReport",  
-                "iam:GenerateServiceLastAccessedDetails",  
-                "iam:Get*",  
-                "iam:List*",  
-                "iam:Simulate*",  
-        "sts:GetAccessKeyInfo"  
-            ],  
-            "Resource": "*"  
-        },  
-        {  
-            "Sid": "CapabilityS3Scan",  
-            "Effect": "Allow",  
-            "Action": [  
-                "s3:Describe*",  
-                "s3:Get*",  
-                "s3:HeadBucket",  
-                "s3:List*"  
-            ],  
-            "Resource": "*"  
-        }  
-    ]  
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "CapabilityIamScan",
+            "Effect": "Allow",
+            "Action": [
+                "iam:GenerateCredentialReport",
+                "iam:GenerateServiceLastAccessedDetails",
+                "iam:Get*",
+                "iam:List*",
+                "iam:Simulate*",
+        "sts:GetAccessKeyInfo"
+            ],
+            "Resource": "*"
+        },
+        {
+            "Sid": "CapabilityS3Scan",
+            "Effect": "Allow",
+            "Action": [
+                "s3:Describe*",
+                "s3:Get*",
+                "s3:HeadBucket",
+                "s3:List*"
+            ],
+            "Resource": "*"
+        }
+    ]
 }
 ```
 
-__Step 5 –__ Click __Review Policy__.
+**Step 5 –** Click **Review Policy**.
 
-__Step 6 –__ Enter a name for the policy in the __Name__ box.
+**Step 6 –** Enter a name for the policy in the **Name** box.
 
 ![Review policy page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/target/config/reviewpolicy.png)
 
-__Step 7 –__ Click __Create Policy__.
+**Step 7 –** Click **Create Policy**.
 
-__NOTE:__ If the designated scanning account is not in Root (Master Account), create a second policy in the Master Account with the following JSON definition:
+**NOTE:** If the designated scanning account is not in Root (Master Account), create a second policy
+in the Master Account with the following JSON definition:
 
-[Copy](javascript:void(0);)
+[Copy](<javascript:void(0);>)
 
 ```
-{  
-    "Version": "2012-10-17",  
-    "Statement": [  
-        {  
-            "Sid": "RequiredCapabilityOrgScan",  
-            "Effect": "Allow",  
-            "Action": [  
-                "iam:GenerateOrganizationsAccessReport",  
-                "organizations:Describe*",  
-                "organizations:List*"  
-            ],  
-            "Resource": "*"  
-        }  
-    ]  
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "RequiredCapabilityOrgScan",
+            "Effect": "Allow",
+            "Action": [
+                "iam:GenerateOrganizationsAccessReport",
+                "organizations:Describe*",
+                "organizations:List*"
+            ],
+            "Resource": "*"
+        }
+    ]
 }
 ```
 
-The next step is to create a role in each target account that will be used to allow access to listing IAM users.
+The next step is to create a role in each target account that will be used to allow access to
+listing IAM users.
 
 ## Create a Role in Each Target Account
 
-The following steps will need to be completed in each target account. For this, you will need the Account ID of the designating scanning account.
+The following steps will need to be completed in each target account. For this, you will need the
+Account ID of the designating scanning account.
 
-__NOTE:__ If the scanning account is also a target account, be sure to complete these steps for the scanning account as well.
+**NOTE:** If the scanning account is also a target account, be sure to complete these steps for the
+scanning account as well.
 
-__Step 1 –__ Sign into the Identity and Access Management Console (IAM) as an administrator of the target account.
+**Step 1 –** Sign into the Identity and Access Management Console (IAM) as an administrator of the
+target account.
 
 ![Create role in Identity and Access Management (IAM) Console](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/target/config/roles.png)
 
-__Step 2 –__ Navigate to __Access management__ > __Roles__ and click __Create role__.
+**Step 2 –** Navigate to **Access management** > **Roles** and click **Create role**.
 
 ![Create role page Another AWS account option](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/target/config/createrole.png)
 
-__Step 3 –__ Select the __Another AWS Account__ option and add the Account ID of the scanning account that will be leveraged within Enterprise Auditor.
+**Step 3 –** Select the **Another AWS Account** option and add the Account ID of the scanning
+account that will be leveraged within Enterprise Auditor.
 
-__Step 4 –__ Click __Next: Permissions__.
+**Step 4 –** Click **Next: Permissions**.
 
 ![Add policies to role](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/target/config/policiesadd.png)
 
-__Step 5 –__ Add the policy or policies created earlier in this topic to this role.
+**Step 5 –** Add the policy or policies created earlier in this topic to this role.
 
-__Step 6 –__ Click __Next: Tags__.
+**Step 6 –** Click **Next: Tags**.
 
-__Step 7 –__ Click __Next: Review__.
+**Step 7 –** Click **Next: Review**.
 
 ![Create role Review page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/target/config/reviewrole.png)
 
-__Step 8 –__ Enter a __Role name__.
+**Step 8 –** Enter a **Role name**.
 
-__Step 9 –__ Click __Create Role__.
+**Step 9 –** Click **Create Role**.
 
-The next step is to create a Managed Policy in the designated scanning account that will be used to allow the service account to assume the configured role in each target account.
+The next step is to create a Managed Policy in the designated scanning account that will be used to
+allow the service account to assume the configured role in each target account.
 
 ## Configure the Scanning Account
 
-Create a Managed Policy in the scanning account that will be used to allow the user to assume the roles configured in each target account.
+Create a Managed Policy in the scanning account that will be used to allow the user to assume the
+roles configured in each target account.
 
-__Step 1 –__ Sign into the Identity and Access Management Console (IAM) as an administrator of the scanning account.
+**Step 1 –** Sign into the Identity and Access Management Console (IAM) as an administrator of the
+scanning account.
 
 ![Create policy in Identity and Access Management (IAM) Console](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/target/config/policies.png)
 
-__Step 2 –__ Navigate to __Access Management__ > __Policies__ and click __Create policy__.
+**Step 2 –** Navigate to **Access Management** > **Policies** and click **Create policy**.
 
 ![JSON tab in the Policy editor](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/target/config/jsontabaccount.png)
 
-__Step 3 –__ Select the __JSON__ tab.
+**Step 3 –** Select the **JSON** tab.
 
-__Step 4 –__ Paste the following:
+**Step 4 –** Paste the following:
 
 ```
-{  
-    "Version": "2012-10-17",  
-    "Statement": [  
-        {  
-            "Sid": "RequiredCapabilityOrgScan",  
-            "Effect": "Allow",  
-            "Action": [  
-                "iam:GenerateOrganizationsAccessReport",  
-                "organizations:Describe*",  
-                "organizations:List*"  
-            ],  
-            "Resource": "*"  
-        },  
-        {  
-            "Sid": "RequiredCapabilityMemberAccountAccess",  
-            "Effect": "Allow",  
-            "Action": "sts:AssumeRole",  
-            "Resource": "arn:aws:iam::*:role/ROLENAME"  
-        }  
-    ]  
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "RequiredCapabilityOrgScan",
+            "Effect": "Allow",
+            "Action": [
+                "iam:GenerateOrganizationsAccessReport",
+                "organizations:Describe*",
+                "organizations:List*"
+            ],
+            "Resource": "*"
+        },
+        {
+            "Sid": "RequiredCapabilityMemberAccountAccess",
+            "Effect": "Allow",
+            "Action": "sts:AssumeRole",
+            "Resource": "arn:aws:iam::*:role/ROLENAME"
+        }
+    ]
 }
 ```
 
-__NOTE:__ Replace ```ROLENAME``` with the name of the role that was created. If the ```ROLENAME``` is different in each account, then a policy will need to be created for each distinct role name.
+**NOTE:** Replace `ROLENAME` with the name of the role that was created. If the `ROLENAME` is
+different in each account, then a policy will need to be created for each distinct role name.
 
-__Step 5 –__ Click __Review Policy__.
+**Step 5 –** Click **Review Policy**.
 
 ![Review policy page Name field](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/target/config/reviewpolicyaccount.png)
 
-__Step 6 –__ Enter a __Policy Name__.
+**Step 6 –** Enter a **Policy Name**.
 
-__Step 7 –__ Click __Create Policy__.
+**Step 7 –** Click **Create Policy**.
 
-__Step 8 –__ Create a group with the service account user and assign both policies to this group.
+**Step 8 –** Create a group with the service account user and assign both policies to this group.
 
-__Step 9 –__ Under __Access Management__ > __Users__, select the service account user.
+**Step 9 –** Under **Access Management** > **Users**, select the service account user.
 
 ![Security credentials tab](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/target/config/securitycredentials.png)
 
-__Step 10 –__ In the Security credentials tab, click __Create access key__. Make sure to note the Access key ID and Secret access key which need to be input into Enterprise Auditor.
+**Step 10 –** In the Security credentials tab, click **Create access key**. Make sure to note the
+Access key ID and Secret access key which need to be input into Enterprise Auditor.
 
-You can now create the Connection Profile for the AWS Solution. See the [Amazon Web Services for User Credentials](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/profile/aws.md) topic for additional information.
+You can now create the Connection Profile for the AWS Solution. See the
+[Amazon Web Services for User Credentials](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/profile/aws.md)
+topic for additional information.

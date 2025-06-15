@@ -1,37 +1,48 @@
 # Windows File Server Ports
 
-Review a full list of Windows File Server protocols and ports required for Netwrix Auditor for File Servers.
+Review a full list of Windows File Server protocols and ports required for Netwrix Auditor for File
+Servers.
 
-- Allow outbound connections from the dynamic (1024 - 65535) local port on the computer where Netwrix Auditor Server resides.
-- Allow outbound connections to remote ports on the source and inbound connections to local ports on the target.
+- Allow outbound connections from the dynamic (1024 - 65535) local port on the computer where
+  Netwrix Auditor Server resides.
+- Allow outbound connections to remote ports on the source and inbound connections to local ports on
+  the target.
 
-Tip for reading the table: For example, on the computer where Netwrix Auditor Server resides (source), allow outbound connections to remote 389 TCP port. On domain controllers in your domain (target), allow inbound connections to local 389 TCP port.
+Tip for reading the table: For example, on the computer where Netwrix Auditor Server resides
+(source), allow outbound connections to remote 389 TCP port. On domain controllers in your domain
+(target), allow inbound connections to local 389 TCP port.
 
-| Port | Protocol | Source | Target | Purpose |
-| --- | --- | --- | --- | --- |
-| Windows File Servers |  |  |  |  |
-| 389 | TCP/UDP | Netwrix Auditor Server | Domain controllers | LDAP  DC query  Account resolve |
-| 135  + Dynamic:  1024 -65535 | TCP | Netwrix Auditor Server | Monitored computer | Windows Management Instrumentation  Firewall configuration  Network Traffic Compression Service communication |
-| 135 | TCP | Netwrix Auditor Server | Monitored computer | Service Control Manager Remote Protocol (Network Traffic Compression Service) installation |
-| 137 | UDP | Netwrix Auditor Server | Monitored computer | File and Printer Sharing (NetBIOS Name Resolution) |
-| 138 | UDP | Netwrix Auditor Server | Monitored computer | File and Printer Sharing (NetBIOS Datagram Service) |
-| 139 | TCP | Netwrix Auditor Server | Monitored computer | File and Printer Sharing (NetBIOS Session Service) |
-| 445 | TCP | Netwrix Auditor Server | Monitored computer | SMB 2.0/3.0 |
-| 3268 | TCP | Netwrix Auditor Server | Domain controllers | LDAP  Group membership  GC search |
+| Port                       | Protocol | Source                 | Target             | Purpose                                                                                                     |
+| -------------------------- | -------- | ---------------------- | ------------------ | ----------------------------------------------------------------------------------------------------------- |
+| Windows File Servers       |          |                        |                    |                                                                                                             |
+| 389                        | TCP/UDP  | Netwrix Auditor Server | Domain controllers | LDAP DC query Account resolve                                                                               |
+| 135 + Dynamic: 1024 -65535 | TCP      | Netwrix Auditor Server | Monitored computer | Windows Management Instrumentation Firewall configuration Network Traffic Compression Service communication |
+| 135                        | TCP      | Netwrix Auditor Server | Monitored computer | Service Control Manager Remote Protocol (Network Traffic Compression Service) installation                  |
+| 137                        | UDP      | Netwrix Auditor Server | Monitored computer | File and Printer Sharing (NetBIOS Name Resolution)                                                          |
+| 138                        | UDP      | Netwrix Auditor Server | Monitored computer | File and Printer Sharing (NetBIOS Datagram Service)                                                         |
+| 139                        | TCP      | Netwrix Auditor Server | Monitored computer | File and Printer Sharing (NetBIOS Session Service)                                                          |
+| 445                        | TCP      | Netwrix Auditor Server | Monitored computer | SMB 2.0/3.0                                                                                                 |
+| 3268                       | TCP      | Netwrix Auditor Server | Domain controllers | LDAP Group membership GC search                                                                             |
 
 ## Configure Windows Firewall Inbound Connection Rules
 
-You can also configure Windows Firewall settings through Group Policy settings. To do this, edit the GPO affecting your firewall settings. Navigate to Computer Configuration > Administrative Templates > Network >Network Connections > Windows Firewall, select Domain Profile or Standard Profile. Then, enable the Allow inbound remote administration exception.
+You can also configure Windows Firewall settings through Group Policy settings. To do this, edit the
+GPO affecting your firewall settings. Navigate to Computer Configuration > Administrative
+Templates > Network >Network Connections > Windows Firewall, select Domain Profile or Standard
+Profile. Then, enable the Allow inbound remote administration exception.
 
-__Step 1 –__ On each audited server, navigate to __Start__ > __Control Panel__ and select __Windows Firewall__.
+**Step 1 –** On each audited server, navigate to **Start** > **Control Panel** and select **Windows
+Firewall**.
 
-__Step 2 –__ In the Help Protect your computer with Windows Firewall page, click __Advanced settings__ on the left.
+**Step 2 –** In the Help Protect your computer with Windows Firewall page, click **Advanced
+settings** on the left.
 
-__Step 3 –__ In the Windows Firewall with Advanced Security dialog, select __Inbound Rules__ on the left.
+**Step 3 –** In the Windows Firewall with Advanced Security dialog, select **Inbound Rules** on the
+left.
 
 ![manualconfig_nla_inbound_connections2016](../../../../../../static/img/product_docs/1secure/configuration/logonactivity/manualconfig_nla_inbound_connections2016.webp)
 
-__Step 4 –__ Enable the following inbound connection rules:
+**Step 4 –** Enable the following inbound connection rules:
 
 - Remote Event Log Management (NP-In)
 - Remote Event Log Management (RPC)

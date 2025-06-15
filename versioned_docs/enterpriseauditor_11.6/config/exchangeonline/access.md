@@ -1,8 +1,14 @@
 # Exchange Online Auditing Configuration
 
-It is necessary to register Enterprise Auditor as a web application to the targeted Microsoft Entra ID, formerly Azure Active Directory, in order for Enterprise Auditor to scan the environment. This generates the Client ID (App ID) and self-signed certificate (Certificate Thumbprint) needed for the Connection Profile credentials and/or the Custom Attributes Import Wizard page. See [Microsoft Support](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-reporting-api-prerequisites-azure-portal) for assistance in configuring the Microsoft Entra ID web application.
+It is necessary to register Enterprise Auditor as a web application to the targeted Microsoft Entra
+ID, formerly Azure Active Directory, in order for Enterprise Auditor to scan the environment. This
+generates the Client ID (App ID) and self-signed certificate (Certificate Thumbprint) needed for the
+Connection Profile credentials and/or the Custom Attributes Import Wizard page. See
+[Microsoft Support](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-reporting-api-prerequisites-azure-portal)
+for assistance in configuring the Microsoft Entra ID web application.
 
-__NOTE:__ A user account with the Global Administrator role is required to register an app with Microsoft Entra ID.
+**NOTE:** A user account with the Global Administrator role is required to register an app with
+Microsoft Entra ID.
 
 Configuration Settings from the Registered Application
 
@@ -10,55 +16,68 @@ The following settings are needed from your tenant once you have registered the 
 
 - Client ID – This is the Application (client) ID for the registered application
 - Tenant name – This is the primary domain name of the Microsoft Entra tenant
-- Certificate Thumbprint – This is thumbprint value of the certificate uploaded to the Microsoft Entra ID application
+- Certificate Thumbprint – This is thumbprint value of the certificate uploaded to the Microsoft
+  Entra ID application
 
 Configure Modern Authentication for Exchange Online using EX_RegisterAzureAppAuth Instant Job
 
-Registering a Microsoft Entra ID application and provisioning it to grant permissions to Exchange Online can be automated using the EX_RegisterAzureAppAuth job from the Enterprise Auditor Instant Job Library. The EX_RegisterAzureAppAuth job uses the PowerShell Data Collector to automatically configure modern authentication for Exchange Online. It requires:
+Registering a Microsoft Entra ID application and provisioning it to grant permissions to Exchange
+Online can be automated using the EX_RegisterAzureAppAuth job from the Enterprise Auditor Instant
+Job Library. The EX_RegisterAzureAppAuth job uses the PowerShell Data Collector to automatically
+configure modern authentication for Exchange Online. It requires:
 
-- A Connection Profile containing a Microsoft Entra ID Global Admin credential with an Account Type of __Task (Local)__
+- A Connection Profile containing a Microsoft Entra ID Global Admin credential with an Account Type
+  of **Task (Local)**
 - Exchange Online Management v3.4.0
 
-  - You can install this module with the following command:
+    - You can install this module with the following command:
 
-    ```
-    Install-Module -Name ExchangeOnlineManagement -RequiredVersion 3.4.0
-    ```
+        ```
+        Install-Module -Name ExchangeOnlineManagement -RequiredVersion 3.4.0
+        ```
+
 - Azure AD PowerShell module installed on targeted hosts
 
-  __NOTE:__ If the module is not already installed, the job will attempt to install it.
+    **NOTE:** If the module is not already installed, the job will attempt to install it.
 
-  - You can install the module with the following command:
+    - You can install the module with the following command:
 
-    ```
-    Install-Module AzureAD
-    ```
-  - TLS 1.2 is required for the Azure AD PowerShell module. Run the following command to configure it:
+        ```
+        Install-Module AzureAD
+        ```
 
-    ```
-    [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
-    ```
+    - TLS 1.2 is required for the Azure AD PowerShell module. Run the following command to configure
+      it:
+
+        ```
+        [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+        ```
+
 - Microsoft Graph PowerShell module installed on targeted hosts
 
-  - You can install the module with the following command:
+    - You can install the module with the following command:
 
-    ```
-    Install-Module Microsoft.Graph
-    ```
+        ```
+        Install-Module Microsoft.Graph
+        ```
 
-See the [EX_RegisterAzureAppAuth Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/instantjobs/ex_registerazureappauth.md) topic for additional information.
+See the
+[EX_RegisterAzureAppAuth Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/instantjobs/ex_registerazureappauth.md)
+topic for additional information.
 
 ## Prerequisites
 
-The following prerequisites are required to use Modern Authentication for Exchange Online in Enterprise Auditor.
+The following prerequisites are required to use Modern Authentication for Exchange Online in
+Enterprise Auditor.
 
 - Exchange Online Management v3.4.0
 
-  - You can install this module with the following command:
+    - You can install this module with the following command:
 
-    ```
-    Install-Module -Name ExchangeOnlineManagement -RequiredVersion 3.4.0
-    ```
+        ```
+        Install-Module -Name ExchangeOnlineManagement -RequiredVersion 3.4.0
+        ```
+
 - Create a self-signed certificate that will be used by Enterprise Auditor for Modern Authentication
 
 ## Permissions
@@ -69,24 +88,31 @@ Permissions for Office 365 Exchange Online
 
 - Application Permissions:
 
-  - Exchange.ManageAsApp – Manage Exchange As Application
-  - full_access_as_app – Use Exchange Web Services with full access to all mailboxes
+    - Exchange.ManageAsApp – Manage Exchange As Application
+    - full_access_as_app – Use Exchange Web Services with full access to all mailboxes
+
 - Exchange Administrator role assigned to the registered application's service principal
 
 ## Create Self–Signed Certificate
 
-A self signed certificate needs to be created on the Enterprise Auditor console server. This is used by Enterprise Auditor to connect to the Microsoft Entra tenant.
+A self signed certificate needs to be created on the Enterprise Auditor console server. This is used
+by Enterprise Auditor to connect to the Microsoft Entra tenant.
 
 Follow the steps create the self-signed certificate.
 
-__Step 1 –__ To generate a certificate, use the sample PowerShell command below:
+**Step 1 –** To generate a certificate, use the sample PowerShell command below:
 
-- Change the following parameters in the sample PowerShell command. See the Microsoft [New-SelfSignedCertificate](https://docs.microsoft.com/en-us/powershell/module/pki/new-selfsignedcertificate) article for additional information.
+- Change the following parameters in the sample PowerShell command. See the Microsoft
+  [New-SelfSignedCertificate](https://docs.microsoft.com/en-us/powershell/module/pki/new-selfsignedcertificate)
+  article for additional information.
 
-  - DNS Name – Specifies a DNS name to put into the subject alternative name extension of the certificate
-  - Subject – A unique name for the new App (always starts with CN=, to denote a canonical name)
-  - FriendlyName – Same as Subject name minus the canonical name prefix
-  - NotAfter – A datetime string denoting the certificate's expiration date - in the above sample, Get-Date.AddYears(11) specifies that the certificate will expire 11 years from the current datetime
+    - DNS Name – Specifies a DNS name to put into the subject alternative name extension of the
+      certificate
+    - Subject – A unique name for the new App (always starts with CN=, to denote a canonical name)
+    - FriendlyName – Same as Subject name minus the canonical name prefix
+    - NotAfter – A datetime string denoting the certificate's expiration date - in the above sample,
+      Get-Date.AddYears(11) specifies that the certificate will expire 11 years from the current
+      datetime
 
 Example PowerShell:
 
@@ -94,121 +120,164 @@ Example PowerShell:
 $cert=New-SelfSignedCertificate -CertStoreLocation Cert:\CurrentUser\My -DnsName stealthbits.com -Subject "CN=NEA Exchange Online" -FriendlyName "NEA Exchange Online" -KeyAlgorithm RSA -KeyLength 2048 -KeyExportPolicy Exportable -Provider "Microsoft Enhanced RSA and AES Cryptographic Provider" -NotAfter (Get-Date).AddYears(11)
 ```
 
-__Step 2 –__ Export the certificate public key as a .cer file to the PrivateAssemblies folder in Enterprise Auditor with the Export–Certificate cmdlet using the certificate path stored in the $certPath variable (see Step 1).
+**Step 2 –** Export the certificate public key as a .cer file to the PrivateAssemblies folder in
+Enterprise Auditor with the Export–Certificate cmdlet using the certificate path stored in the
+$certPath variable (see Step 1).
 
-__NOTE:__ The environment variable ```SAINSTALLDIR``` always points to the base Enterprise Auditor install directory; simply append the PrivateAssemblies to point to that folder with the following cmdlet:
+**NOTE:** The environment variable `SAINSTALLDIR` always points to the base Enterprise Auditor
+install directory; simply append the PrivateAssemblies to point to that folder with the following
+cmdlet:
 
 ```
 Export-Certificate -Cert $cert -FilePath "$($env:SAINSTALLDIR)PrivateAssemblies\exchange_cert.cer" -Type CERT
 ```
 
-- See the Microsoft [Export-Certificate](https://docs.microsoft.com/en-us/powershell/module/pki/export-certificate) article for additional information.
+- See the Microsoft
+  [Export-Certificate](https://docs.microsoft.com/en-us/powershell/module/pki/export-certificate)
+  article for additional information.
 
-__Step 3 –__ Export the certificate private key as a .pfx file to the same folder by running the following cmdlet:
+**Step 3 –** Export the certificate private key as a .pfx file to the same folder by running the
+following cmdlet:
 
-___RECOMMENDED:___ Change the string in the Password parameter from "PasswordGoesHere" to something more secure before running this cmdlet.
+**_RECOMMENDED:_** Change the string in the Password parameter from "PasswordGoesHere" to something
+more secure before running this cmdlet.
 
 ```
 Export-PfxCertificate -Cert $cert -FilePath "$($env:SAINSTALLDIR)PrivateAssemblies\exchange_cert.pfx" -Password (ConvertTo-SecureString -String "PasswordGoesHere" -Force -AsPlainText)
 ```
 
-- See the Microsoft [Export-PfxCertificate](https://docs.microsoft.com/en-us/powershell/module/pki/export-pfxcertificate) article for additional information.
+- See the Microsoft
+  [Export-PfxCertificate](https://docs.microsoft.com/en-us/powershell/module/pki/export-pfxcertificate)
+  article for additional information.
 
-The self signed certificate has been created. The next steps are to create a Microsoft Entra ID application and then upload this certificate to it.
+The self signed certificate has been created. The next steps are to create a Microsoft Entra ID
+application and then upload this certificate to it.
 
 ## Register a Microsoft Entra ID Application
 
 Follow the steps to register Enterprise Auditor with Microsoft Entra ID.
 
-__NOTE:__ The steps below are for the Microsoft Entra Admin Center. These steps might vary slightly if you start from a different Microsoft portal. See the relevant Microsoft documentation for additional information.
+**NOTE:** The steps below are for the Microsoft Entra Admin Center. These steps might vary slightly
+if you start from a different Microsoft portal. See the relevant Microsoft documentation for
+additional information.
 
-__Step 1 –__ Sign into the [Microsoft Entra admin center](https://entra.microsoft.com/).
+**Step 1 –** Sign into the [Microsoft Entra admin center](https://entra.microsoft.com/).
 
-__Step 2 –__ On the left navigation menu, navigate to __Identity__ > __Applications__ and click App registrations.
+**Step 2 –** On the left navigation menu, navigate to **Identity** > **Applications** and click App
+registrations.
 
-__Step 3 –__ In the top toolbar, click __New registration__.
+**Step 3 –** In the top toolbar, click **New registration**.
 
-__Step 4 –__ Enter the following information in the Register an application page:
+**Step 4 –** Enter the following information in the Register an application page:
 
-- Name – Enter a user-facing display name for the application, for example Netwrix Enterprise Auditor for Exchange
-- Supported account types – Select __Accounts in this organizational directory only__
+- Name – Enter a user-facing display name for the application, for example Netwrix Enterprise
+  Auditor for Exchange
+- Supported account types – Select **Accounts in this organizational directory only**
 
-__Step 5 –__ Click __Register__.
+**Step 5 –** Click **Register**.
 
-The Overview page for the newly registered app opens. Review the newly created registered application. Now that the application has been registered, permissions need to be granted to it.
+The Overview page for the newly registered app opens. Review the newly created registered
+application. Now that the application has been registered, permissions need to be granted to it.
 
 ## Upload Self-Signed Certificate
 
 Follow the steps upload your self-signed certificate.
 
-__NOTE:__ The steps below are for the Microsoft Entra Admin Center. These steps might vary slightly if you start from a different Microsoft portal. See the relevant Microsoft documentation for additional information.
+**NOTE:** The steps below are for the Microsoft Entra Admin Center. These steps might vary slightly
+if you start from a different Microsoft portal. See the relevant Microsoft documentation for
+additional information.
 
-__Step 1 –__ Select the newly-created, registered application. If you left the Overview page, it will be listed in the __Identity__ > __Applications__ > __App registrations__ > __All applications__ list.
+**Step 1 –** Select the newly-created, registered application. If you left the Overview page, it
+will be listed in the **Identity** > **Applications** > **App registrations** > **All applications**
+list.
 
-__Step 2 –__ On the registered app blade, click __Certificates & secrets__ in the Manage section.
+**Step 2 –** On the registered app blade, click **Certificates & secrets** in the Manage section.
 
-__Step 3 –__ Select the Certificates tab.
+**Step 3 –** Select the Certificates tab.
 
-__Step 4 –__ In the tool bar, click __Upload Certificate__.
+**Step 4 –** In the tool bar, click **Upload Certificate**.
 
-__Step 5 –__ Navigate to the to PrivateAssemblies folder and select the ```exchange_cert.cer``` file. Optionally add a Description.
+**Step 5 –** Navigate to the to PrivateAssemblies folder and select the `exchange_cert.cer` file.
+Optionally add a Description.
 
-__Step 6 –__ Click __Add__.
+**Step 6 –** Click **Add**.
 
-The Certificate Thumbprint of this uploaded certificate is needed for the Enterprise Auditor Connection Profile. See the [Exchange Modern Authentication for User Credentials](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/profile/exchangemodernauth.md) topic for additional information.
+The Certificate Thumbprint of this uploaded certificate is needed for the Enterprise Auditor
+Connection Profile. See the
+[Exchange Modern Authentication for User Credentials](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/profile/exchangemodernauth.md)
+topic for additional information.
 
 ## Grant Permissions to the Registered Application
 
 Follow the steps to grant permissions to the registered application.
 
-__NOTE:__ The steps below are for the Microsoft Entra Admin Center. These steps might vary slightly if you start from a different Microsoft portal. See the relevant Microsoft documentation for additional information.
+**NOTE:** The steps below are for the Microsoft Entra Admin Center. These steps might vary slightly
+if you start from a different Microsoft portal. See the relevant Microsoft documentation for
+additional information.
 
-__Step 1 –__ Select the newly-created, registered application. If you left the Overview page, it will be listed in the __Identity__ > __Applications__ > __App registrations__ > __All applications__ list.
+**Step 1 –** Select the newly-created, registered application. If you left the Overview page, it
+will be listed in the **Identity** > **Applications** > **App registrations** > **All applications**
+list.
 
-__Step 2 –__ On the registered app blade, click __API permissions__ in the Manage section.
+**Step 2 –** On the registered app blade, click **API permissions** in the Manage section.
 
-__Step 3 –__ In the top toolbar, click __Add a permission__.
+**Step 3 –** In the top toolbar, click **Add a permission**.
 
-__Step 4 –__ On the Request API permissions blade, use the search bar on the APIs my organization uses tab to find and select Office 365 Exchange Online. Select the following permissions:
+**Step 4 –** On the Request API permissions blade, use the search bar on the APIs my organization
+uses tab to find and select Office 365 Exchange Online. Select the following permissions:
 
 - Application Permissions:
 
-  - Exchange.ManageAsApp – Manage Exchange As Application
-  - full_access_as_app – Use Exchange Web Services with full access to all mailboxes
+    - Exchange.ManageAsApp – Manage Exchange As Application
+    - full_access_as_app – Use Exchange Web Services with full access to all mailboxes
+
 - Exchange Administrator role assigned to the registered application's service principal
 
-__Step 5 –__ At the bottom of the page, click __Add Permissions__.
+**Step 5 –** At the bottom of the page, click **Add Permissions**.
 
-__Step 6 –__ Click __Grant Admin Consent for [tenant]__. Then click __Yes__ in the confirmation window.
+**Step 6 –** Click **Grant Admin Consent for [tenant]**. Then click **Yes** in the confirmation
+window.
 
-Now that the permissions have been granted to it, the Connection Profile and host settings for Enterprise Auditor need to be collected.
+Now that the permissions have been granted to it, the Connection Profile and host settings for
+Enterprise Auditor need to be collected.
 
 ## Identify the Tenant's Name
 
 Follow the steps to find the Tenant Name where the registered application resides.
 
-__NOTE:__ The steps below are for the Microsoft Entra Admin Center. These steps might vary slightly if you start from a different Microsoft portal. See the relevant Microsoft documentation for additional information.
+**NOTE:** The steps below are for the Microsoft Entra Admin Center. These steps might vary slightly
+if you start from a different Microsoft portal. See the relevant Microsoft documentation for
+additional information.
 
-__Step 1 –__ Sign into the [Microsoft Entra admin center](https://entra.microsoft.com/).
+**Step 1 –** Sign into the [Microsoft Entra admin center](https://entra.microsoft.com/).
 
-__Step 2 –__ On the left navigation menu, navigate to __Identity__ > __Settings__ and click __Domain names__ to open the Custom domain names list.
+**Step 2 –** On the left navigation menu, navigate to **Identity** > **Settings** and click **Domain
+names** to open the Custom domain names list.
 
-__Step 3 –__ Copy the domain name from the list of domains.
+**Step 3 –** Copy the domain name from the list of domains.
 
-__Step 4 –__ Save this value in a text file.
+**Step 4 –** Save this value in a text file.
 
-This is needed for the Enterprise Auditor Connection Profile. See the [Exchange Modern Authentication for User Credentials](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/profile/exchangemodernauth.md) topic for additional information. Next identify the application’s Client ID.
+This is needed for the Enterprise Auditor Connection Profile. See the
+[Exchange Modern Authentication for User Credentials](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/profile/exchangemodernauth.md)
+topic for additional information. Next identify the application’s Client ID.
 
 ## Identify the Client ID
 
 Follow the steps to find the registered application's Client ID.
 
-__NOTE:__ The steps below are for the Microsoft Entra Admin Center. These steps might vary slightly if you start from a different Microsoft portal. See the relevant Microsoft documentation for additional information.
+**NOTE:** The steps below are for the Microsoft Entra Admin Center. These steps might vary slightly
+if you start from a different Microsoft portal. See the relevant Microsoft documentation for
+additional information.
 
-__Step 1 –__ Select the newly-created, registered application. If you left the Overview page, it will be listed in the __Identity__ > __Applications__ > __App registrations__ > __All applications__ list.
+**Step 1 –** Select the newly-created, registered application. If you left the Overview page, it
+will be listed in the **Identity** > **Applications** > **App registrations** > **All applications**
+list.
 
-__Step 2 –__ Copy the __Application (client) ID__ value.
+**Step 2 –** Copy the **Application (client) ID** value.
 
-__Step 3 –__ Save this value in a text file.
+**Step 3 –** Save this value in a text file.
 
-This is needed for the Enterprise Auditor Connection Profile. See the [Exchange Modern Authentication for User Credentials](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/profile/exchangemodernauth.md) topic for additional information.
+This is needed for the Enterprise Auditor Connection Profile. See the
+[Exchange Modern Authentication for User Credentials](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/profile/exchangemodernauth.md)
+topic for additional information.

@@ -1,6 +1,6 @@
 # Password module
 
-The __Password Module__ currently provides the following functions:
+The **Password Module** currently provides the following functions:
 
 - Create
 - Delete
@@ -44,4 +44,6 @@ The __Password Module__ currently provides the following functions:
 - Export
 - WebViewer Export
 
-NOTE: The Web Application module Password module is based on the module of the same name that is located in the client. Both modules differ in scope and design, but are nevertheless almost identical in terms of operation.
+NOTE: The Web Application module Password module is based on the module of the same name that is
+located in the client. Both modules differ in scope and design, but are nevertheless almost
+identical in terms of operation.

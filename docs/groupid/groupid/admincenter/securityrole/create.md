@@ -4,13 +4,18 @@ To create a security role for an identity store, you have to specify the followi
 
 - Criteria - See [Criteria ](manage.md).
 - Priority - See [Priority](manage.md).
-- Permissions - Permissions refer to the different actions that role members can perform using Directory Manager, for example, creating directory objects, managing groups, managing scheduled jobs, managing user profiles,
-  and more.
-- Policies - Policies refer to settings that apply to role members. For example, the search policy limits role members to search for objects in a particular container.
+- Permissions - Permissions refer to the different actions that role members can perform using
+  Directory Manager, for example, creating directory objects, managing groups, managing scheduled
+  jobs, managing user profiles, and more.
+- Policies - Policies refer to settings that apply to role members. For example, the search policy
+  limits role members to search for objects in a particular container.
 
-You can create a role from scratch or by copying an existing role. See the [Security Roles](overview.md) topic for additional information on security roles.
+You can create a role from scratch or by copying an existing role. See the
+[Security Roles](overview.md) topic for additional information on security roles.
 
-NOTE: You can disable a role to prevent its members from accessing Directory Manager. To prevent an individual role member from accessing Directory Manager, you must remove him or her from the group or container specified as role criteria.
+NOTE: You can disable a role to prevent its members from accessing Directory Manager. To prevent an
+individual role member from accessing Directory Manager, you must remove him or her from the group
+or container specified as role criteria.
 
 What do you want to do?
 
@@ -21,47 +26,58 @@ What do you want to do?
 
 Follow the steps to create a security role
 
-Step 1 – In Admin Center, click __Identity Stores__ in the left pane.
+Step 1 – In Admin Center, click **Identity Stores** in the left pane.
 
-Step 2 – On the Identity Stores page, click the ellipsis button for an identity store and select __Edit__.
+Step 2 – On the Identity Stores page, click the ellipsis button for an identity store and select
+**Edit**.
 
-Step 3 – Click __Security Roles__ under Settings in the left pane.
+Step 3 – Click **Security Roles** under Settings in the left pane.
 
-Step 4 – On the __Security Roles__ page, click __Add Security Role__. The __Create Security Role__ page is displayed.
+Step 4 – On the **Security Roles** page, click **Add Security Role**. The **Create Security Role**
+page is displayed.
 
-Step 5 – Enter a name for the security role in the __Name__ box.
+Step 5 – Enter a name for the security role in the **Name** box.
 
-Step 6 – Enter a brief description for the role in the __Description__ box.
+Step 6 – Enter a brief description for the role in the **Description** box.
 
-Step 7 – In the __Priority__ box, type or select a value in the range, 1-99, to set the role priority. This should be a unique value for each role in an identity
-store.
+Step 7 – In the **Priority** box, type or select a value in the range, 1-99, to set the role
+priority. This should be a unique value for each role in an identity store.
 
-Step 8 – In the __Criteria__ area, specify a criterion to determine role members. For details, see the [Security Role – Criteria](criteria.md) topic.
+Step 8 – In the **Criteria** area, specify a criterion to determine role members. For details, see
+the [Security Role – Criteria](criteria.md) topic.
 
-Step 9 – Next, assign group management, user management, and other permissions to the security role. For details, see the [Security Role – Permissions](permissions.md) topic.
+Step 9 – Next, assign group management, user management, and other permissions to the security role.
+For details, see the [Security Role – Permissions](permissions.md) topic.
 
-Step 10 – Select the __HelpDesk Role__ checkbox if you want to restrict role members to the Helpdesk node of Admin Center.
+Step 10 – Select the **HelpDesk Role** checkbox if you want to restrict role members to the Helpdesk
+node of Admin Center.
 
-Step 11 – Click __Create Security Role__.
+Step 11 – Click **Create Security Role**.
 
-Step 12 – Click __Save__ on the __Security Roles__ page. See the [Manage Security Roles](manage.md) topic.
+Step 12 – Click **Save** on the **Security Roles** page. See the [Manage Security Roles](manage.md)
+topic.
 
 ## Create a Role by Copying an Existing Role
 
-You can use a security role as a template to create a new role. In this case, the criteria, permissions, and policies of the template role are copied to the new role.
+You can use a security role as a template to create a new role. In this case, the criteria,
+permissions, and policies of the template role are copied to the new role.
 
 Follow the steps to copy a role
 
-Step 1 – In Admin Center, click __Identity Stores__ in the left pane.
+Step 1 – In Admin Center, click **Identity Stores** in the left pane.
 
-Step 2 – On the Identity Stores page, click the ellipsis button for an identity store and select __Edit__.
+Step 2 – On the Identity Stores page, click the ellipsis button for an identity store and select
+**Edit**.
 
-Step 3 – Click __Security Roles__ under Settings in the left pane.
+Step 3 – Click **Security Roles** under Settings in the left pane.
 
-Step 4 – On the __Security Roles__ page, click the ellipsis button for the security role you want to use as template and select __Copy__. The __Copy Security Role__ page is displayed.
+Step 4 – On the **Security Roles** page, click the ellipsis button for the security role you want to
+use as template and select **Copy**. The **Copy Security Role** page is displayed.
 
-Step 5 – Follow steps 5-9 in the Create a Security Role from Scratch topic to update role info and click __Update Security Role__.
+Step 5 – Follow steps 5-9 in the Create a Security Role from Scratch topic to update role info and
+click **Update Security Role**.
 
-Step 6 – On the Security Roles page, click __Save__.
+Step 6 – On the Security Roles page, click **Save**.
 
-Step 7 – To update the policies for the new role, see the [Security Role Policies](policy/overview.md) topic.
+Step 7 – To update the policies for the new role, see the
+[Security Role Policies](policy/overview.md) topic.

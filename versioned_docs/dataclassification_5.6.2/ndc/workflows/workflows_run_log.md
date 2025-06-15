@@ -1,16 +1,20 @@
 # Workflow Operations Log
 
-When workflow actions are performed, the corresponding operations are logged to the web-based log file. Click the Logs tab to view the corresponding audit trails.
+When workflow actions are performed, the corresponding operations are logged to the web-based log
+file. Click the Logs tab to view the corresponding audit trails.
 
-Here you can change the display period or the number of logs displayed, sort the list or copy its content, or clear the logs you do not need.
+Here you can change the display period or the number of logs displayed, sort the list or copy its
+content, or clear the logs you do not need.
 
 ![workflowlogs_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/workflows/workflowlogs_thumb_0_0.png)
 
 # Workflow Plugins
 
-A range of Workflow actions are provided with the product, but the product can also be extended by writing additional actions using the plugin interfaces.
+A range of Workflow actions are provided with the product, but the product can also be extended by
+writing additional actions using the plugin interfaces.
 
-Plugins are implemented as DLLs and are placed in the plugins folder, which is typically located here:
+Plugins are implemented as DLLs and are placed in the plugins folder, which is typically located
+here:
 
 C:\Program Files\ConceptSearching\Plugins\
 

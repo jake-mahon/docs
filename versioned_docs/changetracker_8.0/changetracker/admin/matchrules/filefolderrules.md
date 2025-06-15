@@ -1,38 +1,46 @@
 # File and Folder Match Filters for Inclusion and Exclusion Rules
 
-There are a range of prebuilt Match Filters provided with Netwrix Change Tracker. Enterprise which enable precision monitoring of only the attributes required (including prebuilt exclusion filters for popular AV packages that update often and create lots of 'change noise'). Often due to paths containing a mixture of files that are to be monitored, alongside files for which changes can be ignored, it is desirable to define multidimensional rules for includes and excludes.
+There are a range of prebuilt Match Filters provided with Netwrix Change Tracker. Enterprise which
+enable precision monitoring of only the attributes required (including prebuilt exclusion filters
+for popular AV packages that update often and create lots of 'change noise'). Often due to paths
+containing a mixture of files that are to be monitored, alongside files for which changes can be
+ignored, it is desirable to define multidimensional rules for includes and excludes.
 
-For example, if I wish to monitor all files within a specified path and all sub-paths, I can use the built-in 'All files (recursive)' match filter.
+For example, if I wish to monitor all files within a specified path and all sub-paths, I can use the
+built-in 'All files (recursive)' match filter.
 
-However, it may be desirable to reduce 'noise' from the route path by applying an exclusion for any changes relating to temporary files, for example, swp, swx or ~ file variants. There is actually a built-in Pathmatch Definition for this provided 'Linux temp files in folder'.
+However, it may be desirable to reduce 'noise' from the route path by applying an exclusion for any
+changes relating to temporary files, for example, swp, swx or ~ file variants. There is actually a
+built-in Pathmatch Definition for this provided 'Linux temp files in folder'.
 
-However, by way of example, the example __Custom Pathmatch Definition__ below provides this policy:
+However, by way of example, the example **Custom Pathmatch Definition** below provides this policy:
 
 ![CustomPathmatchDefinition](/img/versioned_docs/changetracker_8.0/changetracker/admin/matchrules/custompathmatchdefinition.png)
 
-__Step 1 –__ __FolderMatchType__ - (missing or bad snippet)
+**Step 1 –** **FolderMatchType** - (missing or bad snippet)
 
 - All|Exact
 - Wildcards
 - Regex
 
-__Step 2 –__ __FolderMatchExpression__ - (missing or bad snippet)
+**Step 2 –** **FolderMatchExpression** - (missing or bad snippet)
 
 - If using 'All', then use ""
 - If using 'Exact', then specify an exact "foldername"
 - If using 'Wildcards', then specify a separated wildcards list eg "backup\*|old\*"
 - If using 'Regex', then specify a regular expression e.g., "^backup"
 
-__Step 3 –__  __FileMatchType__ – options the same as for the 'foldermatchtype' (All, Exact, Wildcards, Regex);
+**Step 3 –** **FileMatchType** – options the same as for the 'foldermatchtype' (All, Exact,
+Wildcards, Regex);
 
-__Step 4 –__  __FileMatchExpression__ – (missing or bad snippet)
+**Step 4 –** **FileMatchExpression** – (missing or bad snippet)
 
 - If using 'All', then use ""
 - If using 'Exact', then specify an exact "filename"
 - If using 'Wildcards', then specify a separated wildcards list eg "\*.exe|\*.dll"
 - If using 'Regex', then specify a regular expression eg "^audit[0-9]\*\.(log|txt)$".
 
-__Step 5 –__  __SubfolderRecursion__ – (missing or bad snippet)
+**Step 5 –** **SubfolderRecursion** – (missing or bad snippet)
 
 - Unlimited
 - None (operate on specified folder only)

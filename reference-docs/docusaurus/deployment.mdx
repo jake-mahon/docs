@@ -28,9 +28,9 @@ A Docusaurus site is statically rendered, and it can generally work without Java
 
 The following parameters are required in `docusaurus.config.js` to optimize routing and serve files from the correct location:
 
-| Name | Description |
-| --- | --- |
-| `url` | URL for your site. For a site deployed at `https://my-org.com/my-project/`, `url` is `https://my-org.com/`. |
+| Name      | Description                                                                                                                             |
+| --------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| `url`     | URL for your site. For a site deployed at `https://my-org.com/my-project/`, `url` is `https://my-org.com/`.                             |
 | `baseUrl` | Base URL for your project, with a trailing slash. For a site deployed at `https://my-org.com/my-project/`, `baseUrl` is `/my-project/`. |
 
 ## Testing your Build Locally {#testing-build-locally}
@@ -61,7 +61,7 @@ Putting potentially sensitive information in the environment is common practice.
 
 ```js title="docusaurus.config.js"
 // If you are using dotenv (https://www.npmjs.com/package/dotenv)
-import 'dotenv/config';
+import 'dotenv/config'
 
 export default {
   title: '...',
@@ -72,17 +72,17 @@ export default {
     teamEmail: process.env.EMAIL,
   },
   // highlight-end
-};
+}
 ```
 
 ```jsx title="home.jsx"
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 
 export default function Home() {
   const {
-    siteConfig: {customFields},
-  } = useDocusaurusContext();
-  return <div>Contact us through {customFields.teamEmail}!</div>;
+    siteConfig: { customFields },
+  } = useDocusaurusContext()
+  return <div>Contact us through {customFields.teamEmail}!</div>
 }
 ```
 
@@ -98,9 +98,7 @@ If you are unsure of which one to choose, ask the following questions:
 
 <details>
 
-<summary>
-  How many resources (money, person-hours, etc.) am I willing to invest in this?
-</summary>
+<summary>How many resources (money, person-hours, etc.) am I willing to invest in this?</summary>
 
 - 🔴 Self-hosting requires experience in networking as well as Linux and web server administration. It's the most difficult option, and would require the most time to manage successfully. Expense-wise, cloud services are almost never free, and purchasing/deploying an onsite server can be even more costly.
 - 🟢 Jamstack providers can help you set up a working website in almost no time and offer features like server-side redirects that are easily configurable. Many providers offer generous build-time quotas even for free plans that you would almost never exceed. However, free plans have limits, and you would need to pay once you hit those limits. Check the pricing page of your provider for details.
@@ -163,7 +161,7 @@ export default {
   baseUrl: '/', // Base directory of your site relative to your repo
   // highlight-end
   // ...
-};
+}
 ```
 
 Then, [create your site with Netlify](https://app.netlify.com/start).
@@ -246,10 +244,10 @@ We provide a `docusaurus deploy` command that helps you deploy your site from th
 
 First, modify your `docusaurus.config.js` and add the following params:
 
-| Name | Description |
-| --- | --- |
-| `organizationName` | The GitHub user or organization that owns the deployment repository. |
-| `projectName` | The name of the deployment repository. |
+| Name               | Description                                                                                                                                                                                                                      |
+| ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `organizationName` | The GitHub user or organization that owns the deployment repository.                                                                                                                                                             |
+| `projectName`      | The name of the deployment repository.                                                                                                                                                                                           |
 | `deploymentBranch` | The name of the deployment branch. It defaults to `'gh-pages'` for non-organization GitHub Pages repos (`projectName` not ending in `.github.io`). Otherwise, it needs to be explicit as a config field or environment variable. |
 
 These fields also have their environment variable counterparts which have a higher priority: `ORGANIZATION_NAME`, `PROJECT_NAME`, and `DEPLOYMENT_BRANCH`.
@@ -273,7 +271,7 @@ export default {
   trailingSlash: false,
   // highlight-end
   // ...
-};
+}
 ```
 
 :::warning
@@ -284,14 +282,14 @@ By default, GitHub Pages runs published files through [Jekyll](https://jekyllrb.
 
 ### Environment settings {#environment-settings}
 
-| Name | Description |
-| --- | --- |
-| `USE_SSH` | Set to `true` to use SSH instead of the default HTTPS for the connection to the GitHub repo. If the source repo URL is an SSH URL (e.g. `git@github.com:facebook/docusaurus.git`), `USE_SSH` is inferred to be `true`. |
-| `GIT_USER` | The username for a GitHub account that **has push access to the deployment repo**. For your own repositories, this will usually be your GitHub username. Required if not using SSH, and ignored otherwise. |
-| `GIT_PASS` | Personal access token of the git user (specified by `GIT_USER`), to facilitate non-interactive deployment (e.g. continuous deployment) |
+| Name             | Description                                                                                                                                                                                                                               |
+| ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `USE_SSH`        | Set to `true` to use SSH instead of the default HTTPS for the connection to the GitHub repo. If the source repo URL is an SSH URL (e.g. `git@github.com:facebook/docusaurus.git`), `USE_SSH` is inferred to be `true`.                    |
+| `GIT_USER`       | The username for a GitHub account that **has push access to the deployment repo**. For your own repositories, this will usually be your GitHub username. Required if not using SSH, and ignored otherwise.                                |
+| `GIT_PASS`       | Personal access token of the git user (specified by `GIT_USER`), to facilitate non-interactive deployment (e.g. continuous deployment)                                                                                                    |
 | `CURRENT_BRANCH` | The source branch. Usually, the branch will be `main` or `master`, but it could be any branch except for `gh-pages`. If nothing is set for this variable, then the current branch from which `docusaurus deploy` is invoked will be used. |
-| `GIT_USER_NAME` | The `git config user.name` value to use when pushing to the deployment repo |
-| `GIT_USER_EMAIL` | The `git config user.email` value to use when pushing to the deployment repo |
+| `GIT_USER_NAME`  | The `git config user.name` value to use when pushing to the deployment repo                                                                                                                                                               |
+| `GIT_USER_EMAIL` | The `git config user.email` value to use when pushing to the deployment repo                                                                                                                                                              |
 
 GitHub enterprise installations should work in the same manner as github.com; you only need to set the organization's GitHub Enterprise host as an environment variable:
 

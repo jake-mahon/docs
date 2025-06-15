@@ -1,7 +1,8 @@
 # Created passwords
 
-After clicking on __Finish__, the __passwords__ and the __Password Resets__ (in accordance with the selected options) are created for the entries.
-A __password__ and a __Password Reset__ are explained in the following example.
+After clicking on **Finish**, the **passwords** and the **Password Resets** (in accordance with the
+selected options) are created for the entries. A **password** and a **Password Reset** are explained
+in the following example.
 
 ## Password
 
@@ -13,7 +14,8 @@ A __password__ and a __Password Reset__ are explained in the following example.
 
 ## Password Reset
 
-Another password is created in the __Password Reset module__ and is required for an associated __Password Reset__.
+Another password is created in the **Password Reset module** and is required for an associated
+**Password Reset**.
 
 ![password reset list](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/created_password/created_passwords_2-en.png)
 
@@ -27,5 +29,6 @@ Points 1-7 are described below:
 6. The associated password that will be reset using the Password Reset
 7. The validity is shown here (if one has been entered)
 
-This data can then be used to create a __Password Reset__ for the user for the discovered __Discovery Service entry__.
-The __Password Reset__ is activated via the corresponding trigger that has been set.
+This data can then be used to create a **Password Reset** for the user for the discovered
+**Discovery Service entry**. The **Password Reset** is activated via the corresponding trigger that
+has been set.

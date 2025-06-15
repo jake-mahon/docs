@@ -10,21 +10,21 @@ Returns all the activities according to the provided query.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| squery | Query compliant to the API query grammar. | False |  |  |
-| Path | Represents the permission path. | False |  |  |
-| QueryRootEntityType | Defines the query root entity type. | False |  |  |
-| QueryBinding | Defines the query binding. | False |  |  |
-| PageSize | Page size. | False |  |  |
-| ContinuationToken | ContinuationToken returned by previous page request. | False |  |  |
-| api-version | The requested API version | True |  |  |
+| Name                | Description                                          | Required | Type | Reference |
+| ------------------- | ---------------------------------------------------- | -------- | ---- | --------- |
+| squery              | Query compliant to the API query grammar.            | False    |      |           |
+| Path                | Represents the permission path.                      | False    |      |           |
+| QueryRootEntityType | Defines the query root entity type.                  | False    |      |           |
+| QueryBinding        | Defines the query binding.                           | False    |      |           |
+| PageSize            | Page size.                                           | False    |      |           |
+| ContinuationToken   | ContinuationToken returned by previous page request. | False    |      |           |
+| api-version         | The requested API version                            | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The activity list. |  |
+| Code | Description        | Reference |
+| ---- | ------------------ | --------- |
+| 200  | The activity list. |           |
 
 #### Post
 
@@ -34,15 +34,15 @@ Creates an activity.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| api-version | The requested API version | True |  |  |
+| Name        | Description               | Required | Type | Reference |
+| ----------- | ------------------------- | -------- | ---- | --------- |
+| api-version | The requested API version | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The result of the activity creation. |  |
+| Code | Description                          | Reference |
+| ---- | ------------------------------------ | --------- |
+| 200  | The result of the activity creation. |           |
 
 ### /api/Workflows/Activity/`{id}`
 
@@ -50,24 +50,25 @@ Creates an activity.
 
 ##### Summary:
 
-Returns an activity corresponding to the provided identifier and its information according to the provided query.
+Returns an activity corresponding to the provided identifier and its information according to the
+provided query.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id | Identifier of the activity. | True |  |  |
-| squery | Query compliant to the API query grammar. | False |  |  |
-| Path | Represents the permission path. | False |  |  |
-| QueryRootEntityType | Defines the query root entity type. | False |  |  |
-| QueryBinding | Defines the query binding. | False |  |  |
-| api-version | The requested API version | True |  |  |
+| Name                | Description                               | Required | Type | Reference |
+| ------------------- | ----------------------------------------- | -------- | ---- | --------- |
+| id                  | Identifier of the activity.               | True     |      |           |
+| squery              | Query compliant to the API query grammar. | False    |      |           |
+| Path                | Represents the permission path.           | False    |      |           |
+| QueryRootEntityType | Defines the query root entity type.       | False    |      |           |
+| QueryBinding        | Defines the query binding.                | False    |      |           |
+| api-version         | The requested API version                 | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The activity. |  |
+| Code | Description   | Reference |
+| ---- | ------------- | --------- |
+| 200  | The activity. |           |
 
 #### Put
 
@@ -77,16 +78,16 @@ Updates an activity.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id | Identifier of the activity to update. | True |  |  |
-| api-version | The requested API version | True |  |  |
+| Name        | Description                           | Required | Type | Reference |
+| ----------- | ------------------------------------- | -------- | ---- | --------- |
+| id          | Identifier of the activity to update. | True     |      |           |
+| api-version | The requested API version             | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The result of the activity update. |  |
+| Code | Description                        | Reference |
+| ---- | ---------------------------------- | --------- |
+| 200  | The result of the activity update. |           |
 
 #### Delete
 
@@ -96,16 +97,16 @@ Deletes a activity.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id | Identifier of the activity to delete. | True |  |  |
-| api-version | The requested API version | True |  |  |
+| Name        | Description                           | Required | Type | Reference |
+| ----------- | ------------------------------------- | -------- | ---- | --------- |
+| id          | Identifier of the activity to delete. | True     |      |           |
+| api-version | The requested API version             | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The result of the activity delete. |  |
+| Code | Description                        | Reference |
+| ---- | ---------------------------------- | --------- |
+| 200  | The result of the activity delete. |           |
 
 ### /api/Workflows/ActivityInstance
 
@@ -117,21 +118,21 @@ Returns all the activity instances according to the provided query.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| squery | Query compliant to the API query grammar. | False |  |  |
-| Path | Represents the permission path. | False |  |  |
-| QueryRootEntityType | Defines the query root entity type. | False |  |  |
-| QueryBinding | Defines the query binding. | False |  |  |
-| PageSize | Page size. | False |  |  |
-| ContinuationToken | ContinuationToken returned by previous page request. | False |  |  |
-| api-version | The requested API version | True |  |  |
+| Name                | Description                                          | Required | Type | Reference |
+| ------------------- | ---------------------------------------------------- | -------- | ---- | --------- |
+| squery              | Query compliant to the API query grammar.            | False    |      |           |
+| Path                | Represents the permission path.                      | False    |      |           |
+| QueryRootEntityType | Defines the query root entity type.                  | False    |      |           |
+| QueryBinding        | Defines the query binding.                           | False    |      |           |
+| PageSize            | Page size.                                           | False    |      |           |
+| ContinuationToken   | ContinuationToken returned by previous page request. | False    |      |           |
+| api-version         | The requested API version                            | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The activity instance list. |  |
+| Code | Description                 | Reference |
+| ---- | --------------------------- | --------- |
+| 200  | The activity instance list. |           |
 
 ### /api/Workflows/ActivityInstance/`{id}`
 
@@ -139,24 +140,25 @@ Returns all the activity instances according to the provided query.
 
 ##### Summary:
 
-Returns the activity instances corresponding to the provided identifier and its information according to the provided query.
+Returns the activity instances corresponding to the provided identifier and its information
+according to the provided query.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id | Identifier of the ActivityInstance. | True |  |  |
-| squery | Query compliant to the API query grammar. | False |  |  |
-| Path | Represents the permission path. | False |  |  |
-| QueryRootEntityType | Defines the query root entity type. | False |  |  |
-| QueryBinding | Defines the query binding. | False |  |  |
-| api-version | The requested API version | True |  |  |
+| Name                | Description                               | Required | Type | Reference |
+| ------------------- | ----------------------------------------- | -------- | ---- | --------- |
+| id                  | Identifier of the ActivityInstance.       | True     |      |           |
+| squery              | Query compliant to the API query grammar. | False    |      |           |
+| Path                | Represents the permission path.           | False    |      |           |
+| QueryRootEntityType | Defines the query root entity type.       | False    |      |           |
+| QueryBinding        | Defines the query binding.                | False    |      |           |
+| api-version         | The requested API version                 | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The activity instances. |  |
+| Code | Description             | Reference |
+| ---- | ----------------------- | --------- |
+| 200  | The activity instances. |           |
 
 ### /api/Workflows/ActivityTemplate
 
@@ -168,21 +170,21 @@ Returns all the activityTemplates according to the provided query.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| squery | Query compliant to the API query grammar. | False |  |  |
-| Path | Represents the permission path. | False |  |  |
-| QueryRootEntityType | Defines the query root entity type. | False |  |  |
-| QueryBinding | Defines the query binding. | False |  |  |
-| PageSize | Page size. | False |  |  |
-| ContinuationToken | ContinuationToken returned by previous page request. | False |  |  |
-| api-version | The requested API version | True |  |  |
+| Name                | Description                                          | Required | Type | Reference |
+| ------------------- | ---------------------------------------------------- | -------- | ---- | --------- |
+| squery              | Query compliant to the API query grammar.            | False    |      |           |
+| Path                | Represents the permission path.                      | False    |      |           |
+| QueryRootEntityType | Defines the query root entity type.                  | False    |      |           |
+| QueryBinding        | Defines the query binding.                           | False    |      |           |
+| PageSize            | Page size.                                           | False    |      |           |
+| ContinuationToken   | ContinuationToken returned by previous page request. | False    |      |           |
+| api-version         | The requested API version                            | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The activityTemplate list. |  |
+| Code | Description                | Reference |
+| ---- | -------------------------- | --------- |
+| 200  | The activityTemplate list. |           |
 
 ### /api/Workflows/ActivityTemplate/`{id}`
 
@@ -190,24 +192,25 @@ Returns all the activityTemplates according to the provided query.
 
 ##### Summary:
 
-Returns a activityTemplate corresponding to the provided identifier and its information according to the provided query.
+Returns a activityTemplate corresponding to the provided identifier and its information according to
+the provided query.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id | Identifier of the activityTemplate. | True |  |  |
-| squery | Query compliant to the API query grammar. | False |  |  |
-| Path | Represents the permission path. | False |  |  |
-| QueryRootEntityType | Defines the query root entity type. | False |  |  |
-| QueryBinding | Defines the query binding. | False |  |  |
-| api-version | The requested API version | True |  |  |
+| Name                | Description                               | Required | Type | Reference |
+| ------------------- | ----------------------------------------- | -------- | ---- | --------- |
+| id                  | Identifier of the activityTemplate.       | True     |      |           |
+| squery              | Query compliant to the API query grammar. | False    |      |           |
+| Path                | Represents the permission path.           | False    |      |           |
+| QueryRootEntityType | Defines the query root entity type.       | False    |      |           |
+| QueryBinding        | Defines the query binding.                | False    |      |           |
+| api-version         | The requested API version                 | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The activityTemplate. |  |
+| Code | Description           | Reference |
+| ---- | --------------------- | --------- |
+| 200  | The activityTemplate. |           |
 
 ### /api/Workflows/ActivityTemplateState
 
@@ -219,21 +222,21 @@ Returns all the activityTemplateStates according to the provided query.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| squery | Query compliant to the API query grammar. | False |  |  |
-| Path | Represents the permission path. | False |  |  |
-| QueryRootEntityType | Defines the query root entity type. | False |  |  |
-| QueryBinding | Defines the query binding. | False |  |  |
-| PageSize | Page size. | False |  |  |
-| ContinuationToken | ContinuationToken returned by previous page request. | False |  |  |
-| api-version | The requested API version | True |  |  |
+| Name                | Description                                          | Required | Type | Reference |
+| ------------------- | ---------------------------------------------------- | -------- | ---- | --------- |
+| squery              | Query compliant to the API query grammar.            | False    |      |           |
+| Path                | Represents the permission path.                      | False    |      |           |
+| QueryRootEntityType | Defines the query root entity type.                  | False    |      |           |
+| QueryBinding        | Defines the query binding.                           | False    |      |           |
+| PageSize            | Page size.                                           | False    |      |           |
+| ContinuationToken   | ContinuationToken returned by previous page request. | False    |      |           |
+| api-version         | The requested API version                            | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The activityTemplateState list. |  |
+| Code | Description                     | Reference |
+| ---- | ------------------------------- | --------- |
+| 200  | The activityTemplateState list. |           |
 
 ### /api/Workflows/ActivityTemplateState/`{id}`
 
@@ -241,24 +244,25 @@ Returns all the activityTemplateStates according to the provided query.
 
 ##### Summary:
 
-Returns a activityTemplateState corresponding to the provided identifier and its information according to the provided query.
+Returns a activityTemplateState corresponding to the provided identifier and its information
+according to the provided query.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id | Identifier of the activityTemplateState. | True |  |  |
-| squery | Query compliant to the API query grammar. | False |  |  |
-| Path | Represents the permission path. | False |  |  |
-| QueryRootEntityType | Defines the query root entity type. | False |  |  |
-| QueryBinding | Defines the query binding. | False |  |  |
-| api-version | The requested API version | True |  |  |
+| Name                | Description                               | Required | Type | Reference |
+| ------------------- | ----------------------------------------- | -------- | ---- | --------- |
+| id                  | Identifier of the activityTemplateState.  | True     |      |           |
+| squery              | Query compliant to the API query grammar. | False    |      |           |
+| Path                | Represents the permission path.           | False    |      |           |
+| QueryRootEntityType | Defines the query root entity type.       | False    |      |           |
+| QueryBinding        | Defines the query binding.                | False    |      |           |
+| api-version         | The requested API version                 | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The activityTemplateState. |  |
+| Code | Description                | Reference |
+| ---- | -------------------------- | --------- |
+| 200  | The activityTemplateState. |           |
 
 ### /api/Workflows/ActivityTemplateTransition
 
@@ -270,21 +274,21 @@ Returns all the activityTemplateTransitions according to the provided query.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| squery | Query compliant to the API query grammar. | False |  |  |
-| Path | Represents the permission path. | False |  |  |
-| QueryRootEntityType | Defines the query root entity type. | False |  |  |
-| QueryBinding | Defines the query binding. | False |  |  |
-| PageSize | Page size. | False |  |  |
-| ContinuationToken | ContinuationToken returned by previous page request. | False |  |  |
-| api-version | The requested API version | True |  |  |
+| Name                | Description                                          | Required | Type | Reference |
+| ------------------- | ---------------------------------------------------- | -------- | ---- | --------- |
+| squery              | Query compliant to the API query grammar.            | False    |      |           |
+| Path                | Represents the permission path.                      | False    |      |           |
+| QueryRootEntityType | Defines the query root entity type.                  | False    |      |           |
+| QueryBinding        | Defines the query binding.                           | False    |      |           |
+| PageSize            | Page size.                                           | False    |      |           |
+| ContinuationToken   | ContinuationToken returned by previous page request. | False    |      |           |
+| api-version         | The requested API version                            | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The activityTemplateTransition list. |  |
+| Code | Description                          | Reference |
+| ---- | ------------------------------------ | --------- |
+| 200  | The activityTemplateTransition list. |           |
 
 ### /api/Workflows/ActivityTemplateTransition/`{id}`
 
@@ -292,24 +296,25 @@ Returns all the activityTemplateTransitions according to the provided query.
 
 ##### Summary:
 
-Returns a activityTemplateTransition corresponding to the provided identifier and its information according to the provided query.
+Returns a activityTemplateTransition corresponding to the provided identifier and its information
+according to the provided query.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id | Identifier of the activityTemplateTransition. | True |  |  |
-| squery | Query compliant to the API query grammar. | False |  |  |
-| Path | Represents the permission path. | False |  |  |
-| QueryRootEntityType | Defines the query root entity type. | False |  |  |
-| QueryBinding | Defines the query binding. | False |  |  |
-| api-version | The requested API version | True |  |  |
+| Name                | Description                                   | Required | Type | Reference |
+| ------------------- | --------------------------------------------- | -------- | ---- | --------- |
+| id                  | Identifier of the activityTemplateTransition. | True     |      |           |
+| squery              | Query compliant to the API query grammar.     | False    |      |           |
+| Path                | Represents the permission path.               | False    |      |           |
+| QueryRootEntityType | Defines the query root entity type.           | False    |      |           |
+| QueryBinding        | Defines the query binding.                    | False    |      |           |
+| api-version         | The requested API version                     | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The activityTemplateTransition. |  |
+| Code | Description                     | Reference |
+| ---- | ------------------------------- | --------- |
+| 200  | The activityTemplateTransition. |           |
 
 ### /api/Workflows/Workflow
 
@@ -321,21 +326,21 @@ Returns all the workflows according to the provided query.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| squery | Query compliant to the API query grammar. | False |  |  |
-| Path | Represents the permission path. | False |  |  |
-| QueryRootEntityType | Defines the query root entity type. | False |  |  |
-| QueryBinding | Defines the query binding. | False |  |  |
-| PageSize | Page size. | False |  |  |
-| ContinuationToken | ContinuationToken returned by previous page request. | False |  |  |
-| api-version | The requested API version | True |  |  |
+| Name                | Description                                          | Required | Type | Reference |
+| ------------------- | ---------------------------------------------------- | -------- | ---- | --------- |
+| squery              | Query compliant to the API query grammar.            | False    |      |           |
+| Path                | Represents the permission path.                      | False    |      |           |
+| QueryRootEntityType | Defines the query root entity type.                  | False    |      |           |
+| QueryBinding        | Defines the query binding.                           | False    |      |           |
+| PageSize            | Page size.                                           | False    |      |           |
+| ContinuationToken   | ContinuationToken returned by previous page request. | False    |      |           |
+| api-version         | The requested API version                            | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The workflow list. |  |
+| Code | Description        | Reference |
+| ---- | ------------------ | --------- |
+| 200  | The workflow list. |           |
 
 #### Post
 
@@ -345,15 +350,15 @@ Creates a workflow.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| api-version | The requested API version | True |  |  |
+| Name        | Description               | Required | Type | Reference |
+| ----------- | ------------------------- | -------- | ---- | --------- |
+| api-version | The requested API version | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The result of the workflow creation. |  |
+| Code | Description                          | Reference |
+| ---- | ------------------------------------ | --------- |
+| 200  | The result of the workflow creation. |           |
 
 ### /api/Workflows/Workflow/`{id}`
 
@@ -361,24 +366,25 @@ Creates a workflow.
 
 ##### Summary:
 
-Returns a workflow corresponding to the provided identifier and its information according to the provided query.
+Returns a workflow corresponding to the provided identifier and its information according to the
+provided query.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id | Identifier of the workflow. | True |  |  |
-| squery | Query compliant to the API query grammar. | False |  |  |
-| Path | Represents the permission path. | False |  |  |
-| QueryRootEntityType | Defines the query root entity type. | False |  |  |
-| QueryBinding | Defines the query binding. | False |  |  |
-| api-version | The requested API version | True |  |  |
+| Name                | Description                               | Required | Type | Reference |
+| ------------------- | ----------------------------------------- | -------- | ---- | --------- |
+| id                  | Identifier of the workflow.               | True     |      |           |
+| squery              | Query compliant to the API query grammar. | False    |      |           |
+| Path                | Represents the permission path.           | False    |      |           |
+| QueryRootEntityType | Defines the query root entity type.       | False    |      |           |
+| QueryBinding        | Defines the query binding.                | False    |      |           |
+| api-version         | The requested API version                 | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The workflow. |  |
+| Code | Description   | Reference |
+| ---- | ------------- | --------- |
+| 200  | The workflow. |           |
 
 #### Put
 
@@ -388,16 +394,16 @@ Updates a workflow.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id | Identifier of the workflow to update. | True |  |  |
-| api-version | The requested API version | True |  |  |
+| Name        | Description                           | Required | Type | Reference |
+| ----------- | ------------------------------------- | -------- | ---- | --------- |
+| id          | Identifier of the workflow to update. | True     |      |           |
+| api-version | The requested API version             | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The result of the workflow update. |  |
+| Code | Description                        | Reference |
+| ---- | ---------------------------------- | --------- |
+| 200  | The result of the workflow update. |           |
 
 #### Delete
 
@@ -407,16 +413,16 @@ Deletes a workflow.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id | Identifier of the workflow to delete. | True |  |  |
-| api-version | The requested API version | True |  |  |
+| Name        | Description                           | Required | Type | Reference |
+| ----------- | ------------------------------------- | -------- | ---- | --------- |
+| id          | Identifier of the workflow to delete. | True     |      |           |
+| api-version | The requested API version             | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The result of the workflow delete. |  |
+| Code | Description                        | Reference |
+| ---- | ---------------------------------- | --------- |
+| 200  | The result of the workflow delete. |           |
 
 ### /api/Workflows/WorkflowInstance
 
@@ -428,21 +434,21 @@ Returns all the activities according to the provided query.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| squery | Query compliant to the API query grammar. | False |  |  |
-| Path | Represents the permission path. | False |  |  |
-| QueryRootEntityType | Defines the query root entity type. | False |  |  |
-| QueryBinding | Defines the query binding. | False |  |  |
-| PageSize | Page size. | False |  |  |
-| ContinuationToken | ContinuationToken returned by previous page request. | False |  |  |
-| api-version | The requested API version | True |  |  |
+| Name                | Description                                          | Required | Type | Reference |
+| ------------------- | ---------------------------------------------------- | -------- | ---- | --------- |
+| squery              | Query compliant to the API query grammar.            | False    |      |           |
+| Path                | Represents the permission path.                      | False    |      |           |
+| QueryRootEntityType | Defines the query root entity type.                  | False    |      |           |
+| QueryBinding        | Defines the query binding.                           | False    |      |           |
+| PageSize            | Page size.                                           | False    |      |           |
+| ContinuationToken   | ContinuationToken returned by previous page request. | False    |      |           |
+| api-version         | The requested API version                            | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The workflowInstance list. |  |
+| Code | Description                | Reference |
+| ---- | -------------------------- | --------- |
+| 200  | The workflowInstance list. |           |
 
 #### Post
 
@@ -452,15 +458,15 @@ Starts a new workflow instance.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| api-version | The requested API version | True |  |  |
+| Name        | Description               | Required | Type | Reference |
+| ----------- | ------------------------- | -------- | ---- | --------- |
+| api-version | The requested API version | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The result of the workflowInstance creation. |  |
+| Code | Description                                  | Reference |
+| ---- | -------------------------------------------- | --------- |
+| 200  | The result of the workflowInstance creation. |           |
 
 ### /api/Workflows/WorkflowInstance/`{id}`
 
@@ -468,24 +474,25 @@ Starts a new workflow instance.
 
 ##### Summary:
 
-Returns a workflowInstance corresponding to the provided identifier and its information according to the provided query.
+Returns a workflowInstance corresponding to the provided identifier and its information according to
+the provided query.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id | Identifier of the workflowInstance. | True |  |  |
-| squery | Query compliant to the API query grammar. | False |  |  |
-| Path | Represents the permission path. | False |  |  |
-| QueryRootEntityType | Defines the query root entity type. | False |  |  |
-| QueryBinding | Defines the query binding. | False |  |  |
-| api-version | The requested API version | True |  |  |
+| Name                | Description                               | Required | Type | Reference |
+| ------------------- | ----------------------------------------- | -------- | ---- | --------- |
+| id                  | Identifier of the workflowInstance.       | True     |      |           |
+| squery              | Query compliant to the API query grammar. | False    |      |           |
+| Path                | Represents the permission path.           | False    |      |           |
+| QueryRootEntityType | Defines the query root entity type.       | False    |      |           |
+| QueryBinding        | Defines the query binding.                | False    |      |           |
+| api-version         | The requested API version                 | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The workflowInstance. |  |
+| Code | Description           | Reference |
+| ---- | --------------------- | --------- |
+| 200  | The workflowInstance. |           |
 
 #### Put
 
@@ -495,16 +502,16 @@ Resume an running workflow instance.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id | Identifier of the workflowInstance to update. | True |  |  |
-| api-version | The requested API version | True |  |  |
+| Name        | Description                                   | Required | Type | Reference |
+| ----------- | --------------------------------------------- | -------- | ---- | --------- |
+| id          | Identifier of the workflowInstance to update. | True     |      |           |
+| api-version | The requested API version                     | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The result of the workflowInstance update. |  |
+| Code | Description                                | Reference |
+| ---- | ------------------------------------------ | --------- |
+| 200  | The result of the workflowInstance update. |           |
 
 #### Delete
 
@@ -514,13 +521,13 @@ Purges an aborted workflow instance.
 
 ##### Parameters:
 
-| Name | Description | Required | Type | Reference |
-| --- | --- | --- | --- | --- |
-| id | Identifier of the workflowInstance to purge. | True |  |  |
-| api-version | The requested API version | True |  |  |
+| Name        | Description                                  | Required | Type | Reference |
+| ----------- | -------------------------------------------- | -------- | ---- | --------- |
+| id          | Identifier of the workflowInstance to purge. | True     |      |           |
+| api-version | The requested API version                    | True     |      |           |
 
 ##### Responses:
 
-| Code | Description | Reference |
-| --- | --- | --- |
-| 200 | The result of the workflowInstance purge. |  |
+| Code | Description                               | Reference |
+| ---- | ----------------------------------------- | --------- |
+| 200  | The result of the workflowInstance purge. |           |

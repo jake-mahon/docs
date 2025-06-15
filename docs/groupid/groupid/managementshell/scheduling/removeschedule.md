@@ -1,20 +1,21 @@
 # Remove-Schedule
 
-The commandlet Remove-Schedule removes a schedule (by its name or ID) from the identity store connected to the current instance of the Management Shell.
+The commandlet Remove-Schedule removes a schedule (by its name or ID) from the identity store
+connected to the current instance of the Management Shell.
 
 ## Syntax
 
 ```
-Remove-Schedule  
--ScheduleName <String>  
-[-PassThru]  
-[-IdentityStoreId <Int32>]  
-[-SecurityToken <CustomClaimsPrincipal>]  
-[-WarningAction <ActionPreference>]  
-[-InformationAction <ActionPreference>]  
-[-WarningVariable <String>]  
-[-InformationVariable <String>]  
-[-PipelineVariable <String>]  
+Remove-Schedule
+-ScheduleName <String>
+[-PassThru]
+[-IdentityStoreId <Int32>]
+[-SecurityToken <CustomClaimsPrincipal>]
+[-WarningAction <ActionPreference>]
+[-InformationAction <ActionPreference>]
+[-WarningVariable <String>]
+[-InformationVariable <String>]
+[-PipelineVariable <String>]
 [<CommonParameters>]
 ```
 

@@ -1,6 +1,7 @@
 # Permissions Report
 
-The Permissions report at the NFS Exports share and subfolder levels provides a list of trustees with permissions for the selected resource and access level for each trustee.
+The Permissions report at the NFS Exports share and subfolder levels provides a list of trustees
+with permissions for the selected resource and access level for each trustee.
 
 ![Permissions report at the NFS Exports share and subfolder levels](../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/filesystem/nfsexports/nfspermissions.webp)
 
@@ -11,7 +12,8 @@ This report is comprised of the following columns:
 - Trustee Sid – Security ID of the object
 - Type – Direct or Inherited type of permission
 
-The following rights are a normalized representation of the Share and NTFS permissions granted to the trustee:
+The following rights are a normalized representation of the Share and NTFS permissions granted to
+the trustee:
 
 - List – Right to view list of files and subfolders
 - Read – Right to view/read files and subfolders

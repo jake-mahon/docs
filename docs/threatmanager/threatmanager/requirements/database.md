@@ -1,8 +1,9 @@
 # Database Server Requirements
 
-__NOTE:__ Use this information when the database server is separate from the application server.
+**NOTE:** Use this information when the database server is separate from the application server.
 
-The Windows server can be physical or virtual. The following Windows server operating systems are supported:
+The Windows server can be physical or virtual. The following Windows server operating systems are
+supported:
 
 - Windows Server 2022
 - Windows Server 2019
@@ -25,6 +26,9 @@ Additional Considerations
 
 The following considerations must be accommodated for:
 
-- When running antivirus scans against the PostgreSQL v14 database, the PostgreSQL data folder must be excluded from the scans in order to prevent database complications.
-- For performance reasons, disable Windows File Indexing on the drive containing the Threat Manager database.
-- Disk Defragmentation jobs should never be performed on the drive containing Threat Manager PostgreSQL database. This can cause operational issues with the PostgreSQL database.
+- When running antivirus scans against the PostgreSQL v14 database, the PostgreSQL data folder must
+  be excluded from the scans in order to prevent database complications.
+- For performance reasons, disable Windows File Indexing on the drive containing the Threat Manager
+  database.
+- Disk Defragmentation jobs should never be performed on the drive containing Threat Manager
+  PostgreSQL database. This can cause operational issues with the PostgreSQL database.

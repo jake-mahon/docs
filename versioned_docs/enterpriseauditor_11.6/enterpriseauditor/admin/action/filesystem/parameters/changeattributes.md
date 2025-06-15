@@ -1,6 +1,7 @@
 # Change Attributes
 
-Use the Change File Attributes Parameters page to change the attribute for one or more of the target systems or data.
+Use the Change File Attributes Parameters page to change the attribute for one or more of the target
+systems or data.
 
 ![File System Action Module Wizard Change File Attributes Parameters page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/filesystem/changeattributes.png)
 

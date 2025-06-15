@@ -2,26 +2,28 @@
 
 Gets or sets the account ID for connecting with the SMS gateway.
 
-__Namespace:__ Imanami.PublicInterfaces
+**Namespace:** Imanami.PublicInterfaces
 
-__Assembly:__ Imanami.PublicInterfaces.dll
+**Assembly:** Imanami.PublicInterfaces.dll
 
-__Syntax__
+**Syntax**
 
 ```
 string AccountId { get; set; }
 ```
 
-__Return Value__
+**Return Value**
 
 Type: [System.String](http://msdn.microsoft.com/en-us/library/system.string.aspx)
 
 The value of the account ID.
 
-__Remarks__
+**Remarks**
 
-The account ID may not be required for every SMS gateway. If required, use this property to get or set its respective value. This property can also contain any other identification number that a gateway needs for authenticating a connection.
+The account ID may not be required for every SMS gateway. If required, use this property to get or
+set its respective value. This property can also contain any other identification number that a
+gateway needs for authenticating a connection.
 
-__See Also__
+**See Also**
 
 - [Implement and Deploy a Custom SMS Gateway](/versioned_docs/groupid_11.0/groupid/admincenter/smsgateway/implementcustom.md)

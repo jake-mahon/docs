@@ -2,10 +2,9 @@
 
 Generates the right to apply a report for a profile on a given entity.
 
-The existence of a report for this entity must exist in order to use this scaffolding.
-A scaffolding allows to generate a default report for an entity: [
-Target Resource Report Menus
-](../../../entitytypes/entitytypes/targetresourcereportmenus/index.md)
+The existence of a report for this entity must exist in order to use this scaffolding. A scaffolding
+allows to generate a default report for an entity:
+[ Target Resource Report Menus ](../../../entitytypes/entitytypes/targetresourcereportmenus/index.md)
 
 ## Examples
 
@@ -17,10 +16,10 @@ Target Resource Report Menus
 
 ## Properties
 
-| Property | Details |
-| --- | --- |
-| EntityType   required | __Type__    String   __Description__   Identifier of the entity type involved in the scaffolding. |
-| Profile   required | __Type__    String   __Description__   Identifier of the profile involved in the scaffolding. |
+| Property            | Details                                                                                    |
+| ------------------- | ------------------------------------------------------------------------------------------ |
+| EntityType required | **Type** String **Description** Identifier of the entity type involved in the scaffolding. |
+| Profile required    | **Type** String **Description** Identifier of the profile involved in the scaffolding.     |
 
 ## Generated XML
 

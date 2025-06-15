@@ -1,22 +1,28 @@
 # 2-FSAA Bulk Import Job
 
-The 2-FSAA Bulk Import job is designed to import collected access information from the targeted file servers.
+The 2-FSAA Bulk Import job is designed to import collected access information from the targeted file
+servers.
 
 ## Query for the 2-FSAA Bulk Import Job
 
-The Bulk import query uses the FSAA Data Collector and has been preconfigured to use the File system access/permission auditing Bulk import category.
+The Bulk import query uses the FSAA Data Collector and has been preconfigured to use the File system
+access/permission auditing Bulk import category.
 
 ![Query for the 2-FSAA Bulk Import Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/collection/fsaabulkimportquery.png)
 
 - Bulk import – Imports scan data into SQL Server
 
-  - Typically, this query is not modified. See the [FileSystemAccess Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/overview.md) topic for information on when this query should be modified.
+    - Typically, this query is not modified. See the
+      [FileSystemAccess Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/overview.md)
+      topic for information on when this query should be modified.
 
 ## Analysis Tasks for the 2-FSAA Bulk Import Job
 
-View the analysis tasks by navigating to the __FileSystem__ > __0.Collection__ > __2-FSAA Bulk Import__ > __Configure__ node and selecting __Analysis__.
+View the analysis tasks by navigating to the **FileSystem** > **0.Collection** > **2-FSAA Bulk
+Import** > **Configure** node and selecting **Analysis**.
 
-__CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
+**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+preconfigured for this job.
 
 ![Analysis Tasks for the 2-FSAA Bulk Import Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/collection/fsaabulkimportanalysis.png)
 

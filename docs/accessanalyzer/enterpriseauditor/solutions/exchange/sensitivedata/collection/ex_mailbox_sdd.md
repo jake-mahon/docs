@@ -12,72 +12,105 @@ The following query is included in the EX_Mailbox_SDD job:
 
 - Exchange Sensitive Data Discovery – Collects potentially-sensitive data from mailboxes
 
-  - Set to search all mailboxes. It can be scoped.
-  - Default sensitive data criteria includes:
+    - Set to search all mailboxes. It can be scoped.
+    - Default sensitive data criteria includes:
 
-    - Birth Records
-    - Credit Cards
-    - Passwords
-    - Tax Forms
-    - US SSN
-- See the [Configure the EWSMailbox Data Collector for the EX_Mailbox_SDD Job](#configure-the-ewsmailbox-data-collector-for-the-ex_mailbox_sdd-job) topic for additional information
+        - Birth Records
+        - Credit Cards
+        - Passwords
+        - Tax Forms
+        - US SSN
+
+- See the
+  [Configure the EWSMailbox Data Collector for the EX_Mailbox_SDD Job](#configure-the-ewsmailbox-data-collector-for-the-ex_mailbox_sdd-job)
+  topic for additional information
 
 ### Configure the EWSMailbox Data Collector for the EX_Mailbox_SDD Job
 
-The Exchange Sensitive Data Discovery query has been preconfigured to run with the EWSMailbox Data Collector to scan for sensitive data.
+The Exchange Sensitive Data Discovery query has been preconfigured to run with the EWSMailbox Data
+Collector to scan for sensitive data.
 
 Follow the steps to configure the scope of the EWSMailbox Data Collector:
 
-__Step 1 –__ Navigate to the __Exchange__ > __7. Sensitive Data__ > __0. Collection__ > __EX_Mailbox_SDD__ > __Configure__ node and select __Queries__.
+**Step 1 –** Navigate to the **Exchange** > **7. Sensitive Data** > **0. Collection** >
+**EX_Mailbox_SDD** > **Configure** node and select **Queries**.
 
-__Step 2 –__ In the Query Selection view, select the __Exchange Sensitive Data Discovery__ query and click __Query Properties__. The Query Properties window opens.
+**Step 2 –** In the Query Selection view, select the **Exchange Sensitive Data Discovery** query and
+click **Query Properties**. The Query Properties window opens.
 
-__Step 3 –__ Select the __Data Source__ tab, and click __Configure__. The EWS Mailbox Data Collector Wizard opens.
+**Step 3 –** Select the **Data Source** tab, and click **Configure**. The EWS Mailbox Data Collector
+Wizard opens.
 
-__CAUTION:__ Do not make changes to other wizard pages as they have been pre-configured for the purpose of this job.
+**CAUTION:** Do not make changes to other wizard pages as they have been pre-configured for the
+purpose of this job.
 
 ![EWS Mailbox Data Collector Wizard Mailbox scope settings page](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/sensitivedata/collection/mailboxscopesettings.webp)
 
-__Step 4 –__ To scope the query for specific mailboxes, navigate to the Scope page. The query is configured by default to target __All mailboxes__. Change the Mailboxes to be queried to __Select mailboxes from list__. See the [EWSMailbox: Scope](../../../../admin/datacollector/ewsmailbox/scope.md) topic for additional information.
+**Step 4 –** To scope the query for specific mailboxes, navigate to the Scope page. The query is
+configured by default to target **All mailboxes**. Change the Mailboxes to be queried to **Select
+mailboxes from list**. See the
+[EWSMailbox: Scope](../../../../admin/datacollector/ewsmailbox/scope.md) topic for additional
+information.
 
 ![EWS Mailbox Data Collector Wizard Scope select page](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/sensitivedata/collection/mailboxscopeselect.webp)
 
-__Step 5 –__ To retrieve available mailboxes, click __Retrieve__ on the Scope Select page. Select the desired mailboxes and click __Add__. See the [EWSMailbox: Scope Select](../../../../admin/datacollector/ewsmailbox/scopeselect.md) topic for additional information.
+**Step 5 –** To retrieve available mailboxes, click **Retrieve** on the Scope Select page. Select
+the desired mailboxes and click **Add**. See the
+[EWSMailbox: Scope Select](../../../../admin/datacollector/ewsmailbox/scopeselect.md) topic for
+additional information.
 
 ![EWS Mailbox Data Collector Wizard SDD Options page](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/sddoptions.webp)
 
-__Step 6 –__  To enable storage of discovered sensitive data, navigate to the SDD Options page. Sensitive data matches can be limited to reduce storage space. See the [EWSMailbox: SDD Options](../../../../admin/datacollector/ewsmailbox/sddoptions.md) topic for additional information.
+**Step 6 –** To enable storage of discovered sensitive data, navigate to the SDD Options page.
+Sensitive data matches can be limited to reduce storage space. See the
+[EWSMailbox: SDD Options](../../../../admin/datacollector/ewsmailbox/sddoptions.md) topic for
+additional information.
 
-__NOTE:__ By default, discovered sensitive data strings are not stored in the Access Analyzer database.
+**NOTE:** By default, discovered sensitive data strings are not stored in the Access Analyzer
+database.
 
 ![EWS Mailbox Data Collector Wizard Criteria page](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/criteria.webp)
 
-__Step 7 –__ To modify criteria, navigate to the Criteria page. Add or remove criteria as desired. See the [EWSMailbox: Criteria](../../../../admin/datacollector/ewsmailbox/criteria.md) topic for additional information.
+**Step 7 –** To modify criteria, navigate to the Criteria page. Add or remove criteria as desired.
+See the [EWSMailbox: Criteria](../../../../admin/datacollector/ewsmailbox/criteria.md) topic for
+additional information.
 
-- (Optional) To create custom criteria, see the [Sensitive Data Criteria Editor](../../../../sensitivedatadiscovery/criteriaeditor/overview.md) topic for additional information
+- (Optional) To create custom criteria, see the
+  [Sensitive Data Criteria Editor](../../../../sensitivedatadiscovery/criteriaeditor/overview.md)
+  topic for additional information
 
 ![EWS Mailbox Data Collector Wizard Filter page](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/sensitivedata/collection/mailboxfiltersettings.webp)
 
-__Step 8 –__ To filter the scan to specific mailbox folders, navigate to the Filter page. Include or exclude folders and attachments as desired. See the [EWSMailbox Data Collector](../../../../admin/datacollector/ewsmailbox/overview.md) topic for additional information.
+**Step 8 –** To filter the scan to specific mailbox folders, navigate to the Filter page. Include or
+exclude folders and attachments as desired. See the
+[EWSMailbox Data Collector](../../../../admin/datacollector/ewsmailbox/overview.md) topic for
+additional information.
 
-- To modify the threshold for message size, set the __Limit message size to__ value as desired. The default is 2000 KB.
-- To modify the threshold for large attachment size, set the __Limit attachment size to__ value as desired. The default is 2000 KB.
+- To modify the threshold for message size, set the **Limit message size to** value as desired. The
+  default is 2000 KB.
+- To modify the threshold for large attachment size, set the **Limit attachment size to** value as
+  desired. The default is 2000 KB.
 
 ![EWS Mailbox Data Collector Wizard Results page](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/sensitivedata/collection/mailboxresults.webp)
 
-__Step 9 –__ Navigate to the Results page to select which properties are gathered based on category. See the [EWSMailbox: Results](../../../../admin/datacollector/ewsmailbox/results.md) topic for additional information.
+**Step 9 –** Navigate to the Results page to select which properties are gathered based on category.
+See the [EWSMailbox: Results](../../../../admin/datacollector/ewsmailbox/results.md) topic for
+additional information.
 
-__NOTE:__ By default, all categories are selected under sensitive data.
+**NOTE:** By default, all categories are selected under sensitive data.
 
-__Step 10 –__ Navigate to the Summary page, click __Finish__ to save any setting modifications or click __Cancel__ if no changes were made. Then click __OK__ to close the Query Properties window
+**Step 10 –** Navigate to the Summary page, click **Finish** to save any setting modifications or
+click **Cancel** if no changes were made. Then click **OK** to close the Query Properties window
 
 The job now applies the modification to future job executions.
 
 ## Analysis Tasks for the EX_Mailbox_SDD Job
 
-View the analysis task by navigating to the __Exchange__ > __7.Sensitive Data__ > __EX_Mailbox_SDD__ > __Configure__ node and select __Analysis__.
+View the analysis task by navigating to the **Exchange** > **7.Sensitive Data** >
+**EX_Mailbox_SDD** > **Configure** node and select **Analysis**.
 
-__CAUTION:__ Do not modify or deselect the selected analysis task. The analysis task is preconfigured for this job.
+**CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
+preconfigured for this job.
 
 ![Analysis Tasks for the EX_Mailbox_SDD Job](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/sensitivedata/collection/mailboxsddanalysis.webp)
 

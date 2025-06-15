@@ -6,7 +6,8 @@ Users might see prompts whenever Java tries to update automatically.
 
 ## Solution:
 
-Check/Un-check option "Check for Updates Automatically" under Updates tab. This option may vary in different versions of Java pre-configured PAKs.
+Check/Un-check option "Check for Updates Automatically" under Updates tab. This option may vary in
+different versions of Java pre-configured PAKs.
 
 Java 7 Pak technique:
 

@@ -1,6 +1,7 @@
 # Administrator Overview
 
-Access Information Center administrators have access to the Configuration interface where there application settings reside. This topic covers:
+Access Information Center administrators have access to the Configuration interface where there
+application settings reside. This topic covers:
 
 - [Getting Started](gettingstarted.md)
 - [First Launch](firstlaunch.md)

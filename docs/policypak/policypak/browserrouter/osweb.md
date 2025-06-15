@@ -2,7 +2,8 @@
 
 Browser Router has a policy called OS Web Browser Look & Feel.
 
-The __OS Web Browser Look & Feel__ policy post the display used in the Windows settings for Default Web browser.
+The **OS Web Browser Look & Feel** policy post the display used in the Windows settings for Default
+Web browser.
 
 ![about_policypak_browser_router_44](../../../../static/img/product_docs/policypak/policypak/browserrouter/about_policypak_browser_router_44.webp)
 

@@ -4,20 +4,26 @@
 
 # 403 - Zero USNs by Domain
 
-Privilege Secure must point to a single Domain Controller (DC). This is because Privilege Secure uses the USN values from Active Directory to determine when a group has been changed. These do no propagate between DCs.
+Privilege Secure must point to a single Domain Controller (DC). This is because Privilege Secure
+uses the USN values from Active Directory to determine when a group has been changed. These do no
+propagate between DCs.
 
-When a DC is unavailable a new one can easily be connected to using the Privilege Secure UI. However, when this occurs, if the USN number is lower, Privilege Secure will not be aware of changes to groups. This will impact access from changed groups.
+When a DC is unavailable a new one can easily be connected to using the Privilege Secure UI.
+However, when this occurs, if the USN number is lower, Privilege Secure will not be aware of changes
+to groups. This will impact access from changed groups.
 
 ![image.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/systemmanagement/4405051526935_image_384x376.png)
 
-It is recommended to force a re-sync of Privilege Secure's LDAP information when a DC is changed. This is suggested during the next available maintenance window at the end of the day.
+It is recommended to force a re-sync of Privilege Secure's LDAP information when a DC is changed.
+This is suggested during the next available maintenance window at the end of the day.
 
 The script detailed in this article can be used to zero the USN for an impacted domain.
 
 ### Script Flow
 
 - Script generate a menu list of domains by NETBIOS
-- User selects the number for the domain will zero the __highest_usn__ and __previous_usn__ db values
+- User selects the number for the domain will zero the **highest_usn** and **previous_usn** db
+  values
 - For selected domain, script will:
 
 - Display pre-zero USN counts
@@ -28,12 +34,13 @@ The script detailed in this article can be used to zero the USN for an impacted 
 
 ### Notes
 
-- MongoDB shell command to check USNs by netbios. Script runs this before and after zero for the domain zerored. Including here for manual runs:  
-  ```db.discovery_config.find({type:"ldap_config"},{_id:0, domain_netbios:1,"sync.previous_usn":1,"sync.highest_usn":1})```
+- MongoDB shell command to check USNs by netbios. Script runs this before and after zero for the
+  domain zerored. Including here for manual runs:  
+  `db.discovery_config.find({type:"ldap_config"},{_id:0, domain_netbios:1,"sync.previous_usn":1,"sync.highest_usn":1})`
 
 ### Command to Create Script File, Open in VIM, and Make Executable
 
-```sudo vim /secureone/setup/zero_domain_usns.sh && sudo chmod +x /secureone/setup/zero_domain_usns.sh```
+`sudo vim /secureone/setup/zero_domain_usns.sh && sudo chmod +x /secureone/setup/zero_domain_usns.sh`
 
 ### Script Contents
 
@@ -49,7 +56,8 @@ sudo /secureone/setup/zero_domain_usns.sh
 
 The Customer Success Team can assist with setting this up prior to utilization.
 
-Here is an example of a successful run against the CSTEST domain in one of the Customer Support labs:
+Here is an example of a successful run against the CSTEST domain in one of the Customer Support
+labs:
 
 ```
 secureone@ip-10-100-11-40:~$ sudo /secureone/setup/zero_domain_usns.shDetected domain_netbios entries:1) CSTESTEnter number for domain to zero USNs: 1Current USN values for CSTESTdomain_netbios : CSTEST, highest_usn : 2405725, previous_usn : 2405725Zero USNs for CSTEST, are you sure?[ Y ] to continue, any other key to abort.y{ "acknowledged" : true, "matchedCount" : 1, "modifiedCount" : 1 }domain_netbios : CSTEST, highest_usn : 0, previous_usn : 0Completed zeroing USNs for CSTESTsecureone@ip-10-100-11-40:~$

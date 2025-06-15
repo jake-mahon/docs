@@ -2,24 +2,24 @@
 
 Gets or sets the user name of the account registered with the SMS gateway provider.
 
-__Namespace:__ Imanami.PublicInterfaces
+**Namespace:** Imanami.PublicInterfaces
 
-__Assembly:__ Imanami.PublicInterfaces.dll
+**Assembly:** Imanami.PublicInterfaces.dll
 
-__Syntax__
+**Syntax**
 
-[Copy](javascript:void(0);)
+[Copy](<javascript:void(0);>)
 
 ```
 string UserId { get; set; }
 ```
 
-__Return Value__
+**Return Value**
 
 Type: [System.String](http://msdn.microsoft.com/en-us/library/system.string.aspx)
 
 The value of the user name.
 
-__See Also__
+**See Also**
 
 - [Implement and Deploy a Custom SMS Gateway](/versioned_docs/groupid_11.0/groupid/admincenter/smsgateway/implementcustom.md)

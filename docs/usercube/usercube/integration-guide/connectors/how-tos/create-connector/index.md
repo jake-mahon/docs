@@ -1,14 +1,14 @@
 # Create a Connector
 
-How to implement a [
-Connector
-](../../../toolkit/xml-configuration/connectors/connector/index.md) via XML to connect Identity Manager to an external system.
+How to implement a [ Connector ](../../../toolkit/xml-configuration/connectors/connector/index.md)
+via XML to connect Identity Manager to an external system.
 
 See an example on how to [For Microsoft Entra ID](azuread/index.md).
 
-Netwrix Identity Manager (formerly Usercube)strongly recommends configuring as much as possible via the UI instead of XML files. See the [
-Connect to a Managed System
-](../../../../user-guide/set-up/connect-system/index.md) topic to learn how to create a connector via the UI.
+Netwrix Identity Manager (formerly Usercube)strongly recommends configuring as much as possible via
+the UI instead of XML files. See the
+[ Connect to a Managed System ](../../../../user-guide/set-up/connect-system/index.md) topic to
+learn how to create a connector via the UI.
 
 ## Prerequisites
 
@@ -20,37 +20,34 @@ Some systems need additional configuration for Identity Manager to connect.
 
 Identity Manager's agent must be set up to access the system's data via the related connector.
 
-Netwrix Identity Manager (formerly Usercube) recommends performing the configuration via Identity Manager's configuration files like ```appsettings.json``` and ```appsettings.agent.json```. However, these settings can also be input through environment variables. See the [Network Configuration](../../../network-configuration/index.md) topic for additional information.
+Netwrix Identity Manager (formerly Usercube) recommends performing the configuration via Identity
+Manager's configuration files like `appsettings.json` and `appsettings.agent.json`. However, these
+settings can also be input through environment variables. See the
+[Network Configuration](../../../network-configuration/index.md) topic for additional information.
 
-This process is configured through a [
-Connection
-](../../../toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or the XML configuration, and in the ```appsettings.agent.json > Connections``` section:
+This process is configured through a
+[ Connection ](../../../toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or
+the XML configuration, and in the `appsettings.agent.json > Connections` section:
 
                     ```
 
                         appsettings.agent.json
-{
-  ...
-  "Connections": {
-    ...
-    "<ConnectionIdentifier>": {
-      ...
-    }
-  }
-}
-```
-                
+
+{ ... "Connections": { ... "<ConnectionIdentifier>": { ... } } }
+
+````
+
 
 The identifier of the connection and thus the name of the subsection must:
-  
+
 - Be unique.
-  
+
 - Not begin with a digit.
-  
+
 - Not contain ```<```, ```>```, ```:```, ```"```, ```/```, ```\```, ```|```, ```?```, ```*``` and ```_```.
 
 Netwrix Identity Manager (formerly Usercube) recommends completing this guide without credential protection, and once the configuration works switch to a more secure way of storing credentials.
-  
+
 See the [
 Microsoft Entra ID](../../references-connectors/microsoftentraid/index.md) topic to learn how to protect Microsoft Entra ID's credentials.
 
@@ -143,3 +140,4 @@ Entity Type
 In order to access the connector, a user must have the right permissions.
 
 Permissions within Identity Manager are configured through [Access Control Rule](../../../toolkit/xml-configuration/access-control/accesscontrolrule/index.md).
+````

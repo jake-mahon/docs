@@ -2,17 +2,17 @@
 
 Gets or sets the confirmation code that will be sent to registered mobile phone users.
 
-__Namespace:__ Imanami.GroupID.DataTransferObjects.DataContracts.SMS
+**Namespace:** Imanami.GroupID.DataTransferObjects.DataContracts.SMS
 
-__Assembly:__ Imanami.GroupID.DataTransferObjects.dll
+**Assembly:** Imanami.GroupID.DataTransferObjects.dll
 
-__Syntax__
+**Syntax**
 
 ```
 public string AccessCode { get; set; }
 ```
 
-__Return Value__
+**Return Value**
 
 Type: [System.String](http://msdn.microsoft.com/en-us/library/system.string.aspx)
 

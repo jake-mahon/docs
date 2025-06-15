@@ -1,6 +1,9 @@
 # EntityPropertyExpression
 
-An entity property expression is a property computed from a binding and/or [C#](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/expressions/index.md) or [literal](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/expressions/index.md) expressions.
+An entity property expression is a property computed from a binding and/or
+[C#](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/expressions/index.md) or
+[literal](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/expressions/index.md)
+expressions.
 
 ## Examples
 
@@ -15,12 +18,12 @@ The following example computes the record display name.
 
 ## Properties
 
-| Property | Details |
-| --- | --- |
-| Binding   optional | __Type__    Int64   __Description__   References the binding used to compute the result. |
-| EntityType   required | __Type__    Int64   __Description__   Identifier of the referenced entity type |
-| Expression   optional | __Type__    String   __Description__   References the C# or literal expression used to compute the result. [See more details on C# expressions](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/expressions/index.md). |
-| Identifier   required | __Type__    String   __Description__   Unique identifier of the expression. |
-| Priority   default value: 0 | __Type__    Int32   __Description__   Specifies the execution priority. |
-| Property   required | __Type__    Int64   __Description__   Identifier of the referenced entity property |
-| PropertyCriteria   optional | __Type__    Int64   __Description__   References the property criteria used to compute navigation properties. |
+| Property                  | Details                                                                                                                                                                                                                         |
+| ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Binding optional          | **Type** Int64 **Description** References the binding used to compute the result.                                                                                                                                               |
+| EntityType required       | **Type** Int64 **Description** Identifier of the referenced entity type                                                                                                                                                         |
+| Expression optional       | **Type** String **Description** References the C# or literal expression used to compute the result. [See more details on C# expressions](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/expressions/index.md). |
+| Identifier required       | **Type** String **Description** Unique identifier of the expression.                                                                                                                                                            |
+| Priority default value: 0 | **Type** Int32 **Description** Specifies the execution priority.                                                                                                                                                                |
+| Property required         | **Type** Int64 **Description** Identifier of the referenced entity property                                                                                                                                                     |
+| PropertyCriteria optional | **Type** Int64 **Description** References the property criteria used to compute navigation properties.                                                                                                                          |

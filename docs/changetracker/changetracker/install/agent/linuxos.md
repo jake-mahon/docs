@@ -2,13 +2,15 @@
 
 ## Using Local RPM Files
 
-__Gen 7 Agent__ can also be installed on Linux and Unix platforms.
+**Gen 7 Agent** can also be installed on Linux and Unix platforms.
 
 Installation simply requires the Gen7 Agent RPM to be installed as follows:
 
 [root@CentOS-6 tmp]# rpm -ivh nnt-changetracker-gen7agentcore-7.0.1.9-252.noarch.rpm
 
-Once installed, the __HubDetails.xml__ file must be configured – this can be done directly by editing a __HubDetails.xml__ on the ```/var/nnt/gen7agent.app.netcore``` path or by using the ```/opt/nnt/gen7agentcore/configure-gen7agentcore.sh``` script.
+Once installed, the **HubDetails.xml** file must be configured – this can be done directly by
+editing a **HubDetails.xml** on the `/var/nnt/gen7agent.app.netcore` path or by using the
+`/opt/nnt/gen7agentcore/configure-gen7agentcore.sh` script.
 
 Configuring Gen7 Agent service...
 
@@ -42,7 +44,7 @@ Agent thumbprint :
 
 =================================================================
 
-The __Agent service__ can then be started using the following command;
+The **Agent service** can then be started using the following command;
 
 [root@CentOS-6 tmp]# /sbin/service gen7agentcore start
 
@@ -54,19 +56,23 @@ Starting NNT Gen7 Agent :
 
 The entire process outlined above can be completed using a single command as follows:
 
-[root@CentOS-6 tmp]# rpm -ivh nnt-changetracker-gen7agentcore-7.0.1.9-252.noarch.rpm ; /opt/nnt/gen7agentcore/configure-gen7agentcore.sh https://192.168.1.107/api agent passWord121 /opt/nnt/agent/bin GenVII- ; /sbin/service nntgen7agent start
+[root@CentOS-6 tmp]# rpm -ivh nnt-changetracker-gen7agentcore-7.0.1.9-252.noarch.rpm ;
+/opt/nnt/gen7agentcore/configure-gen7agentcore.sh https://192.168.1.107/api agent passWord121
+/opt/nnt/agent/bin GenVII- ; /sbin/service nntgen7agent start
 
-__NOTE:__ Remove ```rpm -evv nnt-changetracker-gen7agentcore-7.0.1.9-252.noarch```
+**NOTE:** Remove `rpm -evv nnt-changetracker-gen7agentcore-7.0.1.9-252.noarch`
 
 ### For Debian Linux
 
-Netwrix provides packages for __Debian__ distributions so please download the relevant Gen 7 Agent package then install using:
+Netwrix provides packages for **Debian** distributions so please download the relevant Gen 7 Agent
+package then install using:
 
 # dpkg -i nnt-changetracker-gen7agentcore_7.0.1.8-261_all.deb
 
-You can then use the same steps for configuring your __HubDetails.xml__ file as in the previous section.
+You can then use the same steps for configuring your **HubDetails.xml** file as in the previous
+section.
 
-__NOTE:__ To uninstall the Gen 7 Agent on Debian, use:
+**NOTE:** To uninstall the Gen 7 Agent on Debian, use:
 
 # apt-get remove nnt-gen7agentcore
 
@@ -80,7 +86,7 @@ You’ll then want to remove the Gen 7 Agent files which will be found at:
 
 # sudo installer -pkg /tmp/nnt-gen7agentcore-7.0.0.19-34-x64.pkg -target /
 
-__NOTE:__ To uninstall the Gen 7 Agent on MACOSX, use the following command:
+**NOTE:** To uninstall the Gen 7 Agent on MACOSX, use the following command:
 
 sudo pkgutil --forget nnt-gen7agentcore-7.0.0.19-34-x64.pkg
 

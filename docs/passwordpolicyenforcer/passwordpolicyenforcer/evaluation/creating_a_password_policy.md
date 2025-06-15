@@ -1,29 +1,35 @@
 # Create a Password Policy
 
-There are no password policies defined when Password Policy Enforcer is first installed. You can now create your first Password Policy Enforcer password policy. Password Policy Enforcer accepts all passwords in this state, so users only need to comply with the Windows password policy rules (if enabled).
+There are no password policies defined when Password Policy Enforcer is first installed. You can now
+create your first Password Policy Enforcer password policy. Password Policy Enforcer accepts all
+passwords in this state, so users only need to comply with the Windows password policy rules (if
+enabled).
 
-__Step 1 –__ Open the Configuration Console:
+**Step 1 –** Open the Configuration Console:
 
-Click __Start__ > __Netwrix Password Policy Enforcer__ > __PPE Configuration__  
-or   
-Double click the __PPE Configuration__ desktop shortcut.
+Click **Start** > **Netwrix Password Policy Enforcer** > **PPE Configuration**  
+or  
+Double click the **PPE Configuration** desktop shortcut.
 
 ![Configuration Console Dashboard](../../../../static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/evaluation/ppedashboard.webp)
 
-The Configuration Console dashboard shows __No password policies have been set up__ when you are getting started with Password Policy Enforcer.
+The Configuration Console dashboard shows **No password policies have been set up** when you are
+getting started with Password Policy Enforcer.
 
-__Step 2 –__ Click __Add policy__.
+**Step 2 –** Click **Add policy**.
 
-__Step 3 –__ Enter a unique policy name. Maximum is 32 characters. __Eval Policy__ is used for this example.
+**Step 3 –** Enter a unique policy name. Maximum is 32 characters. **Eval Policy** is used for this
+example.
 
-__Step 4 –__ Select a Policy template or __None__ if you are creating your own. For a list of policies see [Policy Templates ](policy_templates.md).
+**Step 4 –** Select a Policy template or **None** if you are creating your own. For a list of
+policies see [Policy Templates ](policy_templates.md).
 
-__Step 5 –__ Click __Create policy__.
+**Step 5 –** Click **Create policy**.
 
-Your policy is created. The policy settings are opened, showing the first item on the __Rules__ tab.
+Your policy is created. The policy settings are opened, showing the first item on the **Rules** tab.
 
 ![New policy open for settings](../../../../static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/evaluation/newpolicysettings.webp)
 
-__Step 6 –__ Click the context menu (beside the policy name and select __Make default__.
+**Step 6 –** Click the context menu (beside the policy name and select **Make default**.
 
 ![Make the policy the default](../../../../static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/evaluation/evaldefault.webp)

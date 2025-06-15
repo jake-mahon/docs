@@ -38,7 +38,7 @@ City
 
 The city, state, zip code, and country where the organization of this user or contact is located.
 
-The __State__ list is populated based on the selection made in the __Country__ list.
+The **State** list is populated based on the selection made in the **Country** list.
 
 Department
 
@@ -70,9 +70,11 @@ The URL of the web page of the user. This field is not available for a contact.
 
 Exchange Assistant
 
-The name of the Exchange assistant for the mailbox/contact. Any email sent to the mailbox/contact is also forwarded to this assistant.
+The name of the Exchange assistant for the mailbox/contact. Any email sent to the mailbox/contact is
+also forwarded to this assistant.
 
-Enter a search string to locate the object to add as an Exchange assistant, or click __Browse__ to use the [Find Dialog Box](../../../search/find.md) for performing a search.
+Enter a search string to locate the object to add as an Exchange assistant, or click **Browse** to
+use the [Find Dialog Box](../../../search/find.md) for performing a search.
 
 This field is not available for a user.
 
@@ -84,5 +86,5 @@ Photo
 
 The photo of the user or contact.
 
-Click the __Edit__ icon to launch the Manage Photo dialog box for uploading a photo. The dialog box also provides many
-image editing options, including rotate, crop, flip, and re-size.
+Click the **Edit** icon to launch the Manage Photo dialog box for uploading a photo. The dialog box
+also provides many image editing options, including rotate, crop, flip, and re-size.

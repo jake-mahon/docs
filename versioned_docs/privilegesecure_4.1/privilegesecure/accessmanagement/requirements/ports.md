@@ -6,19 +6,22 @@ Configure appropriate firewall rules to allow these connections to Privilege Sec
 
 The requirements for the (Privilege Secure) application server are:
 
-- Make sure that you have configured the Antivirus exclusions according to the following Netwrix knowledge base article: [SbPAM: Exclusions for Antivirus (AV) & Endpoint Software](https://kb.netwrix.com/5938)
-- The following ports must be open for communication between Privilege Secure and Active Directory domain controllers:
+- Make sure that you have configured the Antivirus exclusions according to the following Netwrix
+  knowledge base article:
+  [SbPAM: Exclusions for Antivirus (AV) & Endpoint Software](https://kb.netwrix.com/5938)
+- The following ports must be open for communication between Privilege Secure and Active Directory
+  domain controllers:
 
-| Port | Protocol | Source | Direction | Target | Purpose |
-| --- | --- | --- | --- | --- | --- |
-| 135 | TCP | Privilege Secure server | ![arrow](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/requirements/arrow.png) | Domain Controller | MS-RPC |
-| 389  636 | TCP  UDP | Privilege Secure server | ![arrow](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/requirements/arrow.png) | Domain Controller | LDAP/LDAPS |
-| 53 | TCP  UDP | Privilege Secure server | ![arrow](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/requirements/arrow.png) | DNS Service | DNS |
-| 137  138 | UDP | Privilege Secure server | ![arrow](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/requirements/arrow.png) | Domain Controller | Net BIOS related |
-| __9389__ | TCP | Privilege Secure server | ![single_direction_arrow](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/requirements/single_direction_arrow.png) | Domain Controller | Active Directory Web Services  __NOTE:__ Make sure that you have configured the Antivirus exclusions according to the following Netwrix knowledge base article: [SbPAM: Exclusions for Antivirus (AV) & Endpoint Software](https://kb.netwrix.com/5938) |
-| __88__ | UDP | Privilege Secure server | ![arrow](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/requirements/arrow.png) | Domain Controller | Kerberos |
+| Port     | Protocol | Source                  | Direction                                                                                                                                   | Target            | Purpose                                                                                                                                                                                                                                                |
+| -------- | -------- | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 135      | TCP      | Privilege Secure server | ![arrow](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/requirements/arrow.png)                                   | Domain Controller | MS-RPC                                                                                                                                                                                                                                                 |
+| 389 636  | TCP UDP  | Privilege Secure server | ![arrow](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/requirements/arrow.png)                                   | Domain Controller | LDAP/LDAPS                                                                                                                                                                                                                                             |
+| 53       | TCP UDP  | Privilege Secure server | ![arrow](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/requirements/arrow.png)                                   | DNS Service       | DNS                                                                                                                                                                                                                                                    |
+| 137 138  | UDP      | Privilege Secure server | ![arrow](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/requirements/arrow.png)                                   | Domain Controller | Net BIOS related                                                                                                                                                                                                                                       |
+| **9389** | TCP      | Privilege Secure server | ![single_direction_arrow](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/requirements/single_direction_arrow.png) | Domain Controller | Active Directory Web Services **NOTE:** Make sure that you have configured the Antivirus exclusions according to the following Netwrix knowledge base article: [SbPAM: Exclusions for Antivirus (AV) & Endpoint Software](https://kb.netwrix.com/5938) |
+| **88**   | UDP      | Privilege Secure server | ![arrow](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/requirements/arrow.png)                                   | Domain Controller | Kerberos                                                                                                                                                                                                                                               |
 
-__NOTE:__ Privilege Secure must be able to reach the following URLs via HTTPS (port 443)
+**NOTE:** Privilege Secure must be able to reach the following URLs via HTTPS (port 443)
 
 - https://login.microsoftonline.com
 - https://graph.microsoft.com
@@ -29,31 +32,31 @@ The following ports must be open for communication between the proxy and Privile
 
 Proxy Server Sizing for Windows/Linux/Docker
 
-| Administrators | Concurrent Sessions | Memory | CPU Cores | Disk (max) |
-| --- | --- | --- | --- | --- |
-| 450 | 150 | 16 GB | 4 cores | 21 GB per day |
-| 900 | 300 | 32 GB | 8 cores | 42 GB per day |
-| 1800 | 600 | 64 GB | 16 cores | 84 G per day |
+| Administrators | Concurrent Sessions | Memory | CPU Cores | Disk (max)    |
+| -------------- | ------------------- | ------ | --------- | ------------- |
+| 450            | 150                 | 16 GB  | 4 cores   | 21 GB per day |
+| 900            | 300                 | 32 GB  | 8 cores   | 42 GB per day |
+| 1800           | 600                 | 64 GB  | 16 cores  | 84 G per day  |
 
 Additional Considerations
 
 The following ports must be open for communication between the Client and Privilege Secure:
 
-| Port | Protocol | Source | Direction | Target | Purpose |
-| --- | --- | --- | --- | --- | --- |
-| 4422 | TCP | SSH Client | ![arrow](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/requirements/arrow.png) | SbPAM server | SSH Proxy |
-| 4489 | TCP | RDP Client | ![arrow](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/requirements/arrow.png) | SbPAM server | RDP Proxy |
+| Port | Protocol | Source     | Direction                                                                                                 | Target       | Purpose   |
+| ---- | -------- | ---------- | --------------------------------------------------------------------------------------------------------- | ------------ | --------- |
+| 4422 | TCP      | SSH Client | ![arrow](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/requirements/arrow.png) | SbPAM server | SSH Proxy |
+| 4489 | TCP      | RDP Client | ![arrow](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/requirements/arrow.png) | SbPAM server | RDP Proxy |
 
 ## Target Environment Firewall Rules
 
 The following ports must be open for communication between Privilege Secure and the platform:
 
-| Port | Protocol | Source | Direction | Target | Purpose |
-| --- | --- | --- | --- | --- | --- |
-| 3389 | TCP | Privilege Secure server | ![arrow](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/requirements/arrow.png) | Windows Hosts | RDP Proxy |
-| 5985  5986 | TCP | Privilege Secure server | ![arrow](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/requirements/arrow.png) | Windows Hosts | PowerShell remoting |
-| 5985  5986 | TCP | Privilege Secure server | ![arrow](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/requirements/arrow.png) | Windows Hosts | Password Change via Powershell Remoting |
-| 22 | TCP | Privilege Secure server | ![single_direction_arrow](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/requirements/single_direction_arrow.png) | Linux Hosts | SSH Proxy / Password change |
-| 6520 | TCP | Privilege Secure server | ![arrow](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/requirements/arrow.png) | Remote Proxy | Register Proxy Service |
-| 6500 | TCP | Privilege Secure server | ![arrow](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/requirements/arrow.png) | Remote Action Service | Register Action Service |
-| __443__ | HTTPS (TCP) | Privilege Secure Server | ![arrow](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/requirements/arrow.png) | Azure | Azure Graph API Access |
+| Port      | Protocol    | Source                  | Direction                                                                                                                                   | Target                | Purpose                                 |
+| --------- | ----------- | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------- | --------------------------------------- |
+| 3389      | TCP         | Privilege Secure server | ![arrow](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/requirements/arrow.png)                                   | Windows Hosts         | RDP Proxy                               |
+| 5985 5986 | TCP         | Privilege Secure server | ![arrow](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/requirements/arrow.png)                                   | Windows Hosts         | PowerShell remoting                     |
+| 5985 5986 | TCP         | Privilege Secure server | ![arrow](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/requirements/arrow.png)                                   | Windows Hosts         | Password Change via Powershell Remoting |
+| 22        | TCP         | Privilege Secure server | ![single_direction_arrow](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/requirements/single_direction_arrow.png) | Linux Hosts           | SSH Proxy / Password change             |
+| 6520      | TCP         | Privilege Secure server | ![arrow](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/requirements/arrow.png)                                   | Remote Proxy          | Register Proxy Service                  |
+| 6500      | TCP         | Privilege Secure server | ![arrow](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/requirements/arrow.png)                                   | Remote Action Service | Register Action Service                 |
+| **443**   | HTTPS (TCP) | Privilege Secure Server | ![arrow](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/requirements/arrow.png)                                   | Azure                 | Azure Graph API Access                  |

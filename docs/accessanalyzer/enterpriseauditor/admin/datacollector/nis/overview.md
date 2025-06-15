@@ -1,6 +1,11 @@
 # NIS Data Collector
 
-The NIS Data Collector inventories a NIS domain for user and group information, mapping to Windows-style SIDs. This data collector is a core component of Access Analyzer and has been preconfigured within the .NIS Inventory Solution. Both this data collector and the solution are available with all Access Analyzer license options. See the [.NIS Inventory Solution](../../../solutions/nisinventory/overview.md) topic for additional information.
+The NIS Data Collector inventories a NIS domain for user and group information, mapping to
+Windows-style SIDs. This data collector is a core component of Access Analyzer and has been
+preconfigured within the .NIS Inventory Solution. Both this data collector and the solution are
+available with all Access Analyzer license options. See the
+[.NIS Inventory Solution](../../../solutions/nisinventory/overview.md) topic for additional
+information.
 
 Protocols
 
@@ -17,7 +22,8 @@ Permissions
 
 ## NIS Query Configuration
 
-The NIS Data Collector is configured through the NIS Data Collector Wizard, which contains the following wizard pages:
+The NIS Data Collector is configured through the NIS Data Collector Wizard, which contains the
+following wizard pages:
 
 - Welcome
 - [NIS: Category](category.md)
@@ -29,4 +35,5 @@ The NIS Data Collector is configured through the NIS Data Collector Wizard, whic
 
 ![NIS Data Collector Wizard Welcome page](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
 
-The Welcome page can be hidden by selecting the __Do not display this page the next time__ checkbox when the wizard is open and configuration settings are saved.
+The Welcome page can be hidden by selecting the **Do not display this page the next time** checkbox
+when the wizard is open and configuration settings are saved.

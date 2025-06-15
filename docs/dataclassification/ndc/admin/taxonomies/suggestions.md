@@ -1,18 +1,23 @@
 # Suggestions
 
-Clues can be used to statistically produce a list of suggested clues that can be assigned to the term.
+Clues can be used to statistically produce a list of suggested clues that can be assigned to the
+term.
 
 ![bulkedit](../../../../../static/img/product_docs/dataclassification/ndc/admin/taxonomies/bulkedit.webp)
 
 Clues can be suggested for a term via the following methods:
 
-- Suggest Clues for whole term: Click on the Suggest Clues for class link under the class heading to produce a list of suggestions, based on all existing clues in the class.
-- Single Clue: Click on the Suggest link against each clue to produce a list of suggestions, based on only this clue.
-- Class Document: Click on the Suggest link against each class document to produce a list of suggestions, based on the document.
+- Suggest Clues for whole term: Click on the Suggest Clues for class link under the class heading to
+  produce a list of suggestions, based on all existing clues in the class.
+- Single Clue: Click on the Suggest link against each clue to produce a list of suggestions, based
+  on only this clue.
+- Class Document: Click on the Suggest link against each class document to produce a list of
+  suggestions, based on the document.
 
-Once the list of suggested clues has been generated they can be selected and added to the term clues:
+Once the list of suggested clues has been generated they can be selected and added to the term
+clues:
 
-__NOTE:__ Changes made to a class will have no effect unless documents are re-classified.
+**NOTE:** Changes made to a class will have no effect unless documents are re-classified.
 
 The clue type can be set to one of the following:
 
@@ -21,4 +26,5 @@ The clue type can be set to one of the following:
 - Phonetic
 - Create Tree Node
 
-__NOTE:__ If Create Tree Node is selected then these topics shall be added as children of the currently selected node in the taxonomy structure.
+**NOTE:** If Create Tree Node is selected then these topics shall be added as children of the
+currently selected node in the taxonomy structure.

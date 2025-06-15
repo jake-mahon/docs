@@ -6,4 +6,6 @@ The following reports are available at the instance level:
 - [Sensitive Content Details Report](sensitivecontentdetails.md)
 - [Sensitive Content Summary Report](sensitivecontentsummary.md)
 
-Remember, instance permissions are populated at the __Instance Permissions__ node. See the [Instance Permissions Node Report](../instancepermissions/overview.md) topic for additional information.
+Remember, instance permissions are populated at the **Instance Permissions** node. See the
+[Instance Permissions Node Report](../instancepermissions/overview.md) topic for additional
+information.

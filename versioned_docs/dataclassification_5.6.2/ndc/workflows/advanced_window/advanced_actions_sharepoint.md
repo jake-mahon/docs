@@ -1,22 +1,42 @@
 # Advanced Actions for SharePoint
 
-In addition to the __Email Alert__ ,__Migrate Document__ and additional classification, the following actions are available for the __SharePoint__ content source type:
+In addition to the **Email Alert** ,**Migrate Document** and additional classification, the
+following actions are available for the **SharePoint** content source type:
 
-- [Migrate Document](/versioned_docs/dataclassification_5.6.2/ndc/workflows/actions/workflows_migration.md) including copy and move operations
+- [Migrate Document](/versioned_docs/dataclassification_5.6.2/ndc/workflows/actions/workflows_migration.md)
+  including copy and move operations
 - Document property field (metadata) update, including:
-  - __Send fixed value__, __send crawled value__ — these actions apply new metadata value entered by user or retrieved from the related NDC database field, respectively.
-  - __Send classification value__ — this action writes classification metadata (__Taxonomy__) into the selected property field (__Field Name__). If multiple classification values are applied, they will be written using delimiters.
-  - __Write O365 Label__, __Remove O365 Label__ — use these actions to write or remove Office 365 retention label as document metadata. These labels are typically used to automatically apply data protection policies to your documents.
 
-  __NOTE:__ These actions require Microsoft Office 365 retention labels to be configured. See [this Microsoft article](https://docs.microsoft.com/en-us/microsoft-365/compliance/labels) for details.
+    - **Send fixed value**, **send crawled value** — these actions apply new metadata value entered
+      by user or retrieved from the related NDC database field, respectively.
+    - **Send classification value** — this action writes classification metadata (**Taxonomy**) into
+      the selected property field (**Field Name**). If multiple classification values are applied,
+      they will be written using delimiters.
+    - **Write O365 Label**, **Remove O365 Label** — use these actions to write or remove Office 365
+      retention label as document metadata. These labels are typically used to automatically apply
+      data protection policies to your documents.
 
-  - __Filtered Targeted Meta Update__ — this advanced action can be used to update a SharePoint property based on rules embedded in the taxonomy clues. Enter the document property to update in the __Update Field__, then select the required __Taxonomy__ and enter __Match Field__, i.e. the field name/clue to match on.
-- Apply MIP Label, Remove MIP Label — these actions, respectively, apply and remove sensitivity label to/from a document stored on a file system, using Microsoft Information Protection (MIP). This helps to automate protection policies application. See [Modify MIP Label](/versioned_docs/dataclassification_5.6.2/ndc/workflows/mip_labels/mip_workflow_action.md) for details.
+    **NOTE:** These actions require Microsoft Office 365 retention labels to be configured. See
+    [this Microsoft article](https://docs.microsoft.com/en-us/microsoft-365/compliance/labels) for
+    details.
+
+    - **Filtered Targeted Meta Update** — this advanced action can be used to update a SharePoint
+      property based on rules embedded in the taxonomy clues. Enter the document property to update
+      in the **Update Field**, then select the required **Taxonomy** and enter **Match Field**, i.e.
+      the field name/clue to match on.
+
+- Apply MIP Label, Remove MIP Label — these actions, respectively, apply and remove sensitivity
+  label to/from a document stored on a file system, using Microsoft Information Protection (MIP).
+  This helps to automate protection policies application. See
+  [Modify MIP Label](/versioned_docs/dataclassification_5.6.2/ndc/workflows/mip_labels/mip_workflow_action.md)
+  for details.
 
 To configure actions for SharePoint documents using the Advanced interface:
 
-1. In administrative web console, navigate to Workflows and select the workflow you want to configure action for.
+1. In administrative web console, navigate to Workflows and select the workflow you want to
+   configure action for.
 2. Click the workflow, then click Add next to Rule Actions.
-3. In the Add Action dialog, select the action you need from the __SharePoint__ section in the Action Type list.
+3. In the Add Action dialog, select the action you need from the **SharePoint** section in the
+   Action Type list.
 
 ![action_advanced_sp_update_field_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/workflows/advanced_window/action_advanced_sp_update_field_thumb_0_0.png)

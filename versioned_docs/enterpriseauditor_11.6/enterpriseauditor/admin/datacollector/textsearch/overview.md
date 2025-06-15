@@ -1,6 +1,11 @@
 # TextSearch Data Collector
 
-The TextSearch Data Collector enables searches through text based log files. The TextSearch Data Collector is a core component of Enterprise Auditor, but it has been preconfigured within the Windows Solution. While the data collector is available with all Enterprise Auditor license options, the Windows Solution is only available with a special Enterprise Auditor license. See the [Windows Solution](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/windows/overview.md) topic for additional information.
+The TextSearch Data Collector enables searches through text based log files. The TextSearch Data
+Collector is a core component of Enterprise Auditor, but it has been preconfigured within the
+Windows Solution. While the data collector is available with all Enterprise Auditor license options,
+the Windows Solution is only available with a special Enterprise Auditor license. See the
+[Windows Solution](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/windows/overview.md)
+topic for additional information.
 
 Protocols
 
@@ -17,7 +22,8 @@ Permissions
 
 ## TextSearch Query Configuration
 
-The TextSearch Data Collector is configured through the Text Search Data Collector Wizard, which contains the following wizard pages:
+The TextSearch Data Collector is configured through the Text Search Data Collector Wizard, which
+contains the following wizard pages:
 
 - Welcome
 - [TextSearch: Source Files](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/textsearch/sourcefiles.md)
@@ -28,4 +34,5 @@ The TextSearch Data Collector is configured through the Text Search Data Collect
 
 ![Text Search Data Collector Wizard Welcome page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/welcome.png)
 
-The Welcome page can be hidden by selecting the __Do not display this page the next time__ checkbox when the wizard is open and configuration settings are saved.
+The Welcome page can be hidden by selecting the **Do not display this page the next time** checkbox
+when the wizard is open and configuration settings are saved.

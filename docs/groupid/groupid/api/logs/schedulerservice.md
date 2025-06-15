@@ -1,6 +1,8 @@
 # Scheduler Service Logs
 
-Using this API you can get Scheduler Service logs. See the [Scheduler Service](../../admincenter/service/schedulerservice.md)topic for additional information on Scheduler service.
+Using this API you can get Scheduler Service logs. See the
+[Scheduler Service](../../admincenter/service/schedulerservice.md)topic for additional information
+on Scheduler service.
 
 ## Endpoint
 

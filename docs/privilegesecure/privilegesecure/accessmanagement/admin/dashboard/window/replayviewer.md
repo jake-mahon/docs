@@ -1,8 +1,12 @@
 # Replay Viewer Window
 
-The Replay Viewer window allows a user with the Administrator role to watch a recorded activity session. Activity sessions are recorded when the Record Proxy Sessions checkbox is selected in the connection profile assigned to the access policy. All SSH and RDP keystrokes and local commands are recorded using a granular metadata search that works across both live and recorded sessions.
+The Replay Viewer window allows a user with the Administrator role to watch a recorded activity
+session. Activity sessions are recorded when the Record Proxy Sessions checkbox is selected in the
+connection profile assigned to the access policy. All SSH and RDP keystrokes and local commands are
+recorded using a granular metadata search that works across both live and recorded sessions.
 
-When recordings are available for a historical session, the expand icon is enabled on the [Historical Dashboard](../historical.md).
+When recordings are available for a historical session, the expand icon is enabled on the
+[Historical Dashboard](../historical.md).
 
 ![Historical dashboard showing available recordings](../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/window/recordingavailable.webp)
 
@@ -31,24 +35,33 @@ Recording Details
 
 - User— Displays the account used to log onto the resource
 
-  - logged on to — Displays the name of the resource
-  - using — Displays the name of the resource the RDP session connected from
+    - logged on to — Displays the name of the resource
+    - using — Displays the name of the resource the RDP session connected from
+
 - Activity — Displays the name of the activity
-- Proxy Session Started — Indicates when the activity started. This refers to when the activity’s actions were executed and not when the user was logged on to the resource.
+- Proxy Session Started — Indicates when the activity started. This refers to when the activity’s
+  actions were executed and not when the user was logged on to the resource.
 - Ended — Indicates when the activity ended.
-- Duration — Indicates how long the Activity ran for until it either reached its scheduled end time or was manually canceled by the user or an Privilege Secure administrator
+- Duration — Indicates how long the Activity ran for until it either reached its scheduled end time
+  or was manually canceled by the user or an Privilege Secure administrator
 
 Activity Details:
 
-- Time line — Displays recorded activity that occurred during the session in the pane to the left of the player. By default this time line will include keystroke activity.
+- Time line — Displays recorded activity that occurred during the session in the pane to the left of
+  the player. By default this time line will include keystroke activity.
 
-  __NOTE:__ If RDP Session Monitoring is enabled, then it will also include Windows metadata activity in the time line. This monitoring requires the Netwrix Privilege Secure Remote Desktop Monitor service to be installed on the target host. See the [Install Remote Desktop Monitor Service on Target RDP Hosts](../../../install/rdpmonitor.md) topic for additional information.
+    **NOTE:** If RDP Session Monitoring is enabled, then it will also include Windows metadata
+    activity in the time line. This monitoring requires the Netwrix Privilege Secure Remote Desktop
+    Monitor service to be installed on the target host. See the
+    [Install Remote Desktop Monitor Service on Target RDP Hosts](../../../install/rdpmonitor.md)
+    topic for additional information.
 
 ## Replay Viewer for SSH Sessions
 
 The Replay Viewer for SSH sessions is applicable to Linux and Cisco resources.
 
-__NOTE:__ When a user enters input into a password prompt during an SSH session, the keystrokes will be obscured in the Replay Viewer.
+**NOTE:** When a user enters input into a password prompt during an SSH session, the keystrokes will
+be obscured in the Replay Viewer.
 
 ![replayviewerssh](../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/window/replayviewerssh.webp)
 
@@ -64,16 +77,20 @@ Recording Details
 
 - User— Displays the account used to log onto the resource
 
-  - logged on to — Displays the name of the resource
-  - using — Displays the name of the resource the RDP session connected from
+    - logged on to — Displays the name of the resource
+    - using — Displays the name of the resource the RDP session connected from
+
 - Activity — Displays the name of the activity
-- Proxy Session Started — Indicates when the activity started. This refers to when the activity’s actions were executed and not when the user was logged on to the resource.
+- Proxy Session Started — Indicates when the activity started. This refers to when the activity’s
+  actions were executed and not when the user was logged on to the resource.
 - Ended — Indicates when the activity ended.
-- Duration — Indicates how long the Activity ran for until it either reached its scheduled end time or was manually canceled by the user or an Privilege Secure administrator
+- Duration — Indicates how long the Activity ran for until it either reached its scheduled end time
+  or was manually canceled by the user or an Privilege Secure administrator
 
 Activity Details:
 
-- Time line — Displays recorded activity that occurred during the session in the pane to the left of the player. By default this time line will include keystroke activity.
+- Time line — Displays recorded activity that occurred during the session in the pane to the left of
+  the player. By default this time line will include keystroke activity.
 
 ## Replay Viewer for Website Host Sessions
 
@@ -96,9 +113,12 @@ Recording Details
 
 - User— Displays the account used to log onto the resource
 
-  - logged on to — Displays the name of the resource
-  - using — Displays the name of the resource the session connected from
+    - logged on to — Displays the name of the resource
+    - using — Displays the name of the resource the session connected from
+
 - Activity — Displays the name of the activity
-- Proxy Session Started — Indicates when the activity started. This refers to when the activity’s actions were executed and not when the user was logged on to the resource.
+- Proxy Session Started — Indicates when the activity started. This refers to when the activity’s
+  actions were executed and not when the user was logged on to the resource.
 - Ended — Indicates when the activity ended.
-- Duration — Indicates how long the Activity ran for until it either reached its scheduled end time or was manually canceled by the user or an Privilege Secure administrator
+- Duration — Indicates how long the Activity ran for until it either reached its scheduled end time
+  or was manually canceled by the user or an Privilege Secure administrator

@@ -4,13 +4,17 @@ The EX_CircularNesting job identifies where circular nesting exists within distr
 
 ## Analysis Tasks for the EX_CircularNesting Job
 
-View the analysis tasks by navigating to the __Exchange__ > __6. Distribution Lists__ > __Membership Analysis__ > __EX_CircularNesting__ > __Configure__ node and select __Analysis__.
+View the analysis tasks by navigating to the **Exchange** > **6. Distribution Lists** > **Membership
+Analysis** > **EX_CircularNesting** > **Configure** node and select **Analysis**.
 
-__CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
+**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+preconfigured for this job.
 
 ![Analysis Tasks for the EX_CircularNesting Job](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/distributionlists/membershipanalysis/circularnestinganalysis.webp)
 
 The following analysis tasks are selected by default:
 
-- 1. Circular Nesting Details – Creates the SA_EX_CircularNesting_Details table, accessible under the job’s Results node
-- 2. Domain Summary – Creates the SA_EX_CircularNesting_DomainSummary table, accessible under the job’s Results node
+-   1. Circular Nesting Details – Creates the SA_EX_CircularNesting_Details table, accessible under
+       the job’s Results node
+-   2. Domain Summary – Creates the SA_EX_CircularNesting_DomainSummary table, accessible under the
+       job’s Results node

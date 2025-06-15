@@ -1,12 +1,14 @@
 # Target Db2 Requirements, Permissions, and Ports
 
-The Access Analyzer for Databases Solution provides the ability to audit and monitor Db2 database environments to collect permissions and sensitive data. It scans:
+The Access Analyzer for Databases Solution provides the ability to audit and monitor Db2 database
+environments to collect permissions and sensitive data. It scans:
 
 - DB2LUW 11+
 
 Target Db2 Requirements
 
-Successful installation of the IBM Data Server Client is required to run the Db2 Job Group. In addition, the following clients and drivers must be installed:
+Successful installation of the IBM Data Server Client is required to run the Db2 Job Group. In
+addition, the following clients and drivers must be installed:
 
 - IBM Data Server Driver Package (DS Driver)
 - IBM Data Server Driver for JDBC and SQLJ (JCC Driver)
@@ -16,7 +18,11 @@ Successful installation of the IBM Data Server Client is required to run the Db
 - IBM Database Add-Ins for Visual Studio
 - IBM .NET Driver NuGet
 
-__NOTE:__ All necessary clients and drivers can be found on IBM Support's [Download initial version 11.5 clients and drivers](https://www.ibm.com/support/pages/download-initial-version-115-clients-and-drivers) page. From the list of available packages, select the IBM Data Server Client, which is the all-in-one client package. This package includes all of the client tools and available libraries, as well as the add-ins for Visual Studio.
+**NOTE:** All necessary clients and drivers can be found on IBM Support's
+[Download initial version 11.5 clients and drivers](https://www.ibm.com/support/pages/download-initial-version-115-clients-and-drivers)
+page. From the list of available packages, select the IBM Data Server Client, which is the
+all-in-one client package. This package includes all of the client tools and available libraries, as
+well as the add-ins for Visual Studio.
 
 Data Collectors
 
@@ -32,7 +38,11 @@ For .Active Directory Inventory Prerequisite
 - Read access to directory tree
 - List Contents & Read Property on the Deleted Objects Container
 
-  __NOTE:__ See the Microsoft [Searching for Deleted Objects](https://technet.microsoft.com/en-us/library/cc978013.aspx) article and the Microsoft [Dsacls](https://technet.microsoft.com/en-us/library/cc771151(v=ws.11).aspx) article for additional information.
+    **NOTE:** See the Microsoft
+    [Searching for Deleted Objects](https://technet.microsoft.com/en-us/library/cc978013.aspx)
+    article and the Microsoft
+    [Dsacls](<https://technet.microsoft.com/en-us/library/cc771151(v=ws.11).aspx>) article for
+    additional information.
 
 ## Ports
 

@@ -1,12 +1,13 @@
 # Get-RolePermissionNames
 
-The commandlet Get-RolePermissionNames helps user to see the names of the permissions that can be assigned to / revoked from a security role in an identity store.
+The commandlet Get-RolePermissionNames helps user to see the names of the permissions that can be
+assigned to / revoked from a security role in an identity store.
 
 ## Syntax
 
 ```
-Get-RolePermissionNames  
-[-IncludeEntityTypes]  
+Get-RolePermissionNames
+[-IncludeEntityTypes]
 [<CommonParameters>]
 ```
 

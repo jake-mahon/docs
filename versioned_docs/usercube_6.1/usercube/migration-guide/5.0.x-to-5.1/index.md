@@ -11,9 +11,10 @@ For any information about Jobs or Tasks:
 
 #### a. Powershell
 
-In the old configuration, the Tasks needed to have an InstanceIdentifier (-i) to be launched. This argument no longer exists today.
+In the old configuration, the Tasks needed to have an InstanceIdentifier (-i) to be launched. This
+argument no longer exists today.
 
-__Old powershell:__
+**Old powershell:**
 
 ```
 
@@ -21,7 +22,7 @@ __Old powershell:__
 
 ```
 
-__New powershell:__
+**New powershell:**
 
 ```
 
@@ -29,9 +30,10 @@ __New powershell:__
 
 ```
 
-__Other change:__
+**Other change:**
 
-There are not openIdClient in all Synchronization. A new property is necessary to launch a synchronization with a command:
+There are not openIdClient in all Synchronization. A new property is necessary to launch a
+synchronization with a command:
 
 ```
 
@@ -42,15 +44,17 @@ There are not openIdClient in all Synchronization. A new property is necessary t
 
 There are not OpenIdclient for manualProvisioning.
 
-In FulfillLDAPTask, the property Port doesn't exist in 5.1. The Server property write with this rule : "Host:Port"
+In FulfillLDAPTask, the property Port doesn't exist in 5.1. The Server property write with this rule
+: "Host:Port"
 
 #### b. Configuration XML
 
-In old configuration the task was named Job. All Jobs in 5.0.X are called Tasks in 5.1.
-The Executable "Usercube-Upgrade-ConfigurationVersion" writes correctly Job in Task and Use the scaffolding type.
-But the migrated tasks are not configured. it's necessary to check all Tasks and connectors too before importing configuration.
+In old configuration the task was named Job. All Jobs in 5.0.X are called Tasks in 5.1. The
+Executable "Usercube-Upgrade-ConfigurationVersion" writes correctly Job in Task and Use the
+scaffolding type. But the migrated tasks are not configured. it's necessary to check all Tasks and
+connectors too before importing configuration.
 
-__old Task configuration:__
+**old Task configuration:**
 
 ```
 
@@ -58,7 +62,7 @@ __old Task configuration:__
 
 ```
 
-__New Task configuration:__
+**New Task configuration:**
 
 ```
 
@@ -68,18 +72,19 @@ __New Task configuration:__
 
 #### c. Api RunJob
 
-This API no longer exists in version 5.1.
-To launch a Task on the server side you must use either:
+This API no longer exists in version 5.1. To launch a Task on the server side you must use either:
 
 - The automaton (by creating a Job and linking the Tasks you want to launch)
 - The [RunTask API](/versioned_docs/usercube_6.1/usercube/integration-guide/api/server/job/index.md)
 
 #### d. Information system appsettings
 
-All the information of the information system is on this file: [appsettings.ConnectionInformation.json](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md).
-To launch Tasks that need to connect to this system and that are launched with the automaton, you must enter this information in this file.
+All the information of the information system is on this file:
+[appsettings.ConnectionInformation.json](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md).
+To launch Tasks that need to connect to this system and that are launched with the automaton, you
+must enter this information in this file.
 
 #### f. Encryption appsettings.ConnectionInformation.json
 
-All data from external systems is in a JSON that can be encrypted with an RSA key.
-Encrypt this with [Usercube-Protect-X509JsonFile](/versioned_docs/usercube_6.1/usercube/integration-guide/executables/references/protect-x509jsonfile/index.md)
+All data from external systems is in a JSON that can be encrypted with an RSA key. Encrypt this with
+[Usercube-Protect-X509JsonFile](/versioned_docs/usercube_6.1/usercube/integration-guide/executables/references/protect-x509jsonfile/index.md)

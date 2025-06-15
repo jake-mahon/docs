@@ -1,11 +1,12 @@
 # Get-LogSettings
 
-The commandlet __Get-LogSettings__ provides information about the global log settings of the identity store connected with this instance of GroupID Management Shell.
+The commandlet **Get-LogSettings** provides information about the global log settings of the
+identity store connected with this instance of GroupID Management Shell.
 
 ## Syntax
 
 ```
-Get-LogSettings  
+Get-LogSettings
 [<CommonParameters>]
 ```
 

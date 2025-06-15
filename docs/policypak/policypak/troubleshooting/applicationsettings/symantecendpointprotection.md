@@ -2,9 +2,12 @@
 
 You might see Symentec logs like what's seen below.
 
-```PPExtensionService.exe``` needs to "look at" every process that gets started, and opens handles to them.
+`PPExtensionService.exe` needs to "look at" every process that gets started, and opens handles to
+them.
 
-Additionally, Netwrix Endpoint Policy Manager (formerly PolicyPak) AppLock also doesn't discriminate the applications running on the machine; and as such, you might see ```PPWatcherSvc64.exe``` in some of the logs.
+Additionally, Netwrix Endpoint Policy Manager (formerly PolicyPak) AppLock also doesn't discriminate
+the applications running on the machine; and as such, you might see `PPWatcherSvc64.exe` in some of
+the logs.
 
 So, Symantec is detecting and reporting that.
 

@@ -1,6 +1,8 @@
 # Database Page
 
-The Database page is accessible from the Navigation pane under Configuration > System Settings. It shows all database settings for either PostgreSQL or SQL server, depending on what was initially configured during installation.
+The Database page is accessible from the Navigation pane under Configuration > System Settings. It
+shows all database settings for either PostgreSQL or SQL server, depending on what was initially
+configured during installation.
 
 ## PostgreSQL Database Settings
 

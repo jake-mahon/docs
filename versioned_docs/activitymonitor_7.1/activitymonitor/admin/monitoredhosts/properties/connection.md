@@ -1,10 +1,14 @@
 # Connection Tab
 
-Once a host is added to the monitored hosts table, the configuration settings are edited through the tabs in the host’s Properties window. The Connection tab on a host’s Properties window is specific to Microsoft Entra ID (formerly Azure AD), Exchange Online, and SharePoint Online hosts.
+Once a host is added to the monitored hosts table, the configuration settings are edited through the
+tabs in the host’s Properties window. The Connection tab on a host’s Properties window is specific
+to Microsoft Entra ID (formerly Azure AD), Exchange Online, and SharePoint Online hosts.
 
 ![Conneciton Tab](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/properties/azure.png)
 
-Configure App Registration information for a Microsoft Entra ID host in the Connection Tab of the host's Properties window. Click __Open instructions...__ for steps on registering the Activity Monitor. Click __Sign out__ to sign out of the Azure account.
+Configure App Registration information for a Microsoft Entra ID host in the Connection Tab of the
+host's Properties window. Click **Open instructions...** for steps on registering the
+Activity Monitor. Click **Sign out** to sign out of the Azure account.
 
 The options that can be configured on the Connection Tab are:
 
@@ -15,4 +19,4 @@ The options that can be configured on the Connection Tab are:
 - Client Secret
 - Region
 
-Click __OK__ to apply changes and exit, or __Cancel__ to exit without saving any changes.
+Click **OK** to apply changes and exit, or **Cancel** to exit without saving any changes.

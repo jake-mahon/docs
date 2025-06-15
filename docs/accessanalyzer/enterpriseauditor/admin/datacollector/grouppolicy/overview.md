@@ -1,8 +1,15 @@
 # GroupPolicy Data Collector
 
-The GroupPolicy Data Collector provides the ability to retrieve the GPO’s list in the domain and where they are linked, return information on configured policies and policy parts from the individual policies that have been selected, return information on selected policy parts from all policies within the domain, and return effective security policies in effect at the individual workstation.
+The GroupPolicy Data Collector provides the ability to retrieve the GPO’s list in the domain and
+where they are linked, return information on configured policies and policy parts from the
+individual policies that have been selected, return information on selected policy parts from all
+policies within the domain, and return effective security policies in effect at the individual
+workstation.
 
-The GroupPolicy Data Collector is a core component of Access Analyzer, but it has been preconfigured within the Active Directory Solution and the Windows Solution. While the data collector is available with all Access Analyzer license options, the Windows Solution is only available with a special Access Analyzer licenses. See the following topics for additional information:
+The GroupPolicy Data Collector is a core component of Access Analyzer, but it has been preconfigured
+within the Active Directory Solution and the Windows Solution. While the data collector is available
+with all Access Analyzer license options, the Windows Solution is only available with a special
+Access Analyzer licenses. See the following topics for additional information:
 
 - [Active Directory Solution](../../../solutions/activedirectory/overview.md)
 - [Windows Solution](../../../solutions/windows/overview.md)
@@ -25,7 +32,9 @@ Permissions
 
 ## GroupPolicy Query Configuration
 
-The GroupPolicy Data Collector is configured through the Group Policy Data Collector Wizard. The available pages change based upon the query category selected. It contains the following wizard pages:
+The GroupPolicy Data Collector is configured through the Group Policy Data Collector Wizard. The
+available pages change based upon the query category selected. It contains the following wizard
+pages:
 
 - Welcome
 - [GroupPolicy: Category](category.md)
@@ -36,4 +45,5 @@ The GroupPolicy Data Collector is configured through the Group Policy Data Colle
 
 ![Group Policy Data Collector Wizard Welcome page](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
 
-The Welcome page can be hidden by selecting the __Do not display this page the next time__ checkbox when the wizard is open and configuration settings are saved.
+The Welcome page can be hidden by selecting the **Do not display this page the next time** checkbox
+when the wizard is open and configuration settings are saved.

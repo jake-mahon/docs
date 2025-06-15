@@ -1,11 +1,12 @@
 # Get-SmsGateways
 
-The commandlet Get-SmsGateways provides information of the SMS gateways configured in Directory Manager.
+The commandlet Get-SmsGateways provides information of the SMS gateways configured in Directory
+Manager.
 
 ## Syntax
 
 ```
-Get-SmsGateways  
+Get-SmsGateways
 [<CommonParameters>]
 ```
 

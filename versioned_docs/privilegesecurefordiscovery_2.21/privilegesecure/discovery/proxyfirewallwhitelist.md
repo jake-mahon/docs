@@ -4,7 +4,12 @@ Proxy/Firewall Whitelist Servers
 
 # Proxy/Firewall Whitelist Servers
 
-Some organizations utilize proxy servers for internet connections and this can provide a challenge for installing Privilege Secure. Privilege Secure software and docker are pulled from external locations when the nodes are built and configured. Below are the connections that need to be made available to enable the build. This can be achieved in one of two ways, either specific proxy entries or a tunnel opened up for the install period. This would also need to be opened for any subsequent upgrades.
+Some organizations utilize proxy servers for internet connections and this can provide a challenge
+for installing Privilege Secure. Privilege Secure software and docker are pulled from external
+locations when the nodes are built and configured. Below are the connections that need to be made
+available to enable the build. This can be achieved in one of two ways, either specific proxy
+entries or a tunnel opened up for the install period. This would also need to be opened for any
+subsequent upgrades.
 
 ## Ubuntu
 

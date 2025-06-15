@@ -1,6 +1,7 @@
 # Knowledge Base
 
-See the following Knowledge Base articles for GPO Export Merge, Admin Templates, and Preferences 2.0.
+See the following Knowledge Base articles for GPO Export Merge, Admin Templates, and Preferences
+2.0.
 
 ## GPO Export Manager: Getting Started
 

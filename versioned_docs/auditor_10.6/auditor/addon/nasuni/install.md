@@ -2,16 +2,17 @@
 
 Follow the steps to install the Add-On:
 
-__Step 1 –__ Navigate to your add-on package.
+**Step 1 –** Navigate to your add-on package.
 
-__Step 2 –__ Unzip the Add-On to a desired folder.
+**Step 2 –** Unzip the Add-On to a desired folder.
 
-__Step 3 –__ Run the installation package.
+**Step 3 –** Run the installation package.
 
-__Step 4 –__ Accept the license agreement and follow the instructions of the setup wizard.
+**Step 4 –** Accept the license agreement and follow the instructions of the setup wizard.
 
-__Step 5 –__ On the __Destination Folder__ step, specify the installation folder (_C:\Program Files (x86)\Netwrix Add-ons\<Add-on name>_ by default).
+**Step 5 –** On the **Destination Folder** step, specify the installation folder (_C:\Program Files
+(x86)\Netwrix Add-ons\<Add-on name>_ by default).
 
-__Step 6 –__ Click __Install__.
+**Step 6 –** Click **Install**.
 
-__Step 7 –__ When done, click __Finish__.
+**Step 7 –** When done, click **Finish**.

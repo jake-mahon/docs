@@ -6,7 +6,7 @@ Home Page
 
 The URL of the contact's website.
 
-Use the __Add__ and __Remove__ buttons to add and remove the URL.
+Use the **Add** and **Remove** buttons to add and remove the URL.
 
 Emp Type
 

@@ -1,17 +1,22 @@
 # Saved Investigations
 
-You can apply filters on the [Investigate Interface](/versioned_docs/threatprevention_7.4/threatprevention/admin/investigate/overview.md) to filter event data as desired. Filters settings can be saved. Follow the steps to save a filtered view.
+You can apply filters on the
+[Investigate Interface](/versioned_docs/threatprevention_7.4/threatprevention/admin/investigate/overview.md)
+to filter event data as desired. Filters settings can be saved. Follow the steps to save a filtered
+view.
 
 ![Investigate Interface - Save a Filtered View](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/investigate/saveview.png)
 
-__Step 1 –__ Click __Investigate__ in the left pane to launch the Investigate interface.
+**Step 1 –** Click **Investigate** in the left pane to launch the Investigate interface.
 
-__Step 2 –__ Set the filter [1] as desired, Refresh the data grid [2], and click __Save Filter Settings and Layout__ [3]. The Filter Set Name window opens.
+**Step 2 –** Set the filter [1] as desired, Refresh the data grid [2], and click **Save Filter
+Settings and Layout** [3]. The Filter Set Name window opens.
 
 ![Filter Set Name window](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/investigate/filtersetname.png)
 
-__Step 3 –__ Type a name for this filtered view and click __OK__.
+**Step 3 –** Type a name for this filtered view and click **OK**.
 
 ![Saved filter view in the navigation pane](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/investigate/savedview.png)
 
-The saved filtered view becomes a node in the Navigation pane under the Investigate node. Select the node to return to the saved filtered Investigate view.
+The saved filtered view becomes a node in the Navigation pane under the Investigate node. Select the
+node to return to the saved filtered Investigate view.

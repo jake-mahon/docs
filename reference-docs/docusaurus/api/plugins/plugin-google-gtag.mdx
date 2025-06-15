@@ -5,7 +5,7 @@ slug: /api/plugins/@docusaurus/plugin-google-gtag
 
 # 📦 plugin-google-gtag
 
-import APITable from '@site/src/components/APITable';
+import APITable from '@site/src/components/APITable'
 
 The default [Global Site Tag (gtag.js)](https://developers.google.com/tag-platform/gtagjs) plugin. It is a JavaScript tagging framework and API that allows you to send event data to Google Analytics, Google Ads, and Google Marketing Platform. This section describes how to configure a Docusaurus site to enable global site tag for Google Analytics.
 
@@ -43,10 +43,10 @@ Accepted fields:
 <APITable>
 ```
 
-| Name | Type | Default | Description |
-| --- | --- | --- | --- |
-| `trackingID` | <code>string \| string[]</code> | **Required** | The tracking ID of your gtag service. It is possible to provide multiple ids. |
-| `anonymizeIP` | `boolean` | `false` | Whether the IP should be anonymized when sending requests. |
+| Name          | Type                            | Default      | Description                                                                   |
+| ------------- | ------------------------------- | ------------ | ----------------------------------------------------------------------------- |
+| `trackingID`  | <code>string \| string[]</code> | **Required** | The tracking ID of your gtag service. It is possible to provide multiple ids. |
+| `anonymizeIP` | `boolean`                       | `false`      | Whether the IP should be anonymized when sending requests.                    |
 
 ```mdx-code-block
 </APITable>
@@ -69,5 +69,5 @@ Most Docusaurus users configure this plugin through the preset options.
 const config = {
   trackingID: 'G-999X9XX9XX',
   anonymizeIP: true,
-};
+}
 ```

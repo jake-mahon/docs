@@ -1,21 +1,21 @@
 # Remove-IdentityStore
 
-The commandlet __Remove-IdentityStore__ removes an identity store from GroupID.
+The commandlet **Remove-IdentityStore** removes an identity store from GroupID.
 
 ## Syntax
 
 ```
-Remove-IdentityStore  
-[-IdentityStoreName] <String>  
-[-PassThru]  
-[-IdentityStoreId <Int32>]  
-[-SecurityToken <CustomClaimsPrincipal>]  
-[-Credential <PSCredential>]  
-[-WarningAction <ActionPreference>]  
-[-InformationAction <ActionPreference>]  
-[-WarningVariable <String>]  
-[-InformationVariable <String>]  
-[-PipelineVariable <String>]  
+Remove-IdentityStore
+[-IdentityStoreName] <String>
+[-PassThru]
+[-IdentityStoreId <Int32>]
+[-SecurityToken <CustomClaimsPrincipal>]
+[-Credential <PSCredential>]
+[-WarningAction <ActionPreference>]
+[-InformationAction <ActionPreference>]
+[-WarningVariable <String>]
+[-InformationVariable <String>]
+[-PipelineVariable <String>]
 [<CommonParameters>]
 ```
 

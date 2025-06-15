@@ -1,6 +1,7 @@
 # Manage Security Service Settings
 
-Security services in GroupID are displayed on the __Security Service__ tab. A card for a service displays information such as its name and status.
+Security services in GroupID are displayed on the **Security Service** tab. A card for a service
+displays information such as its name and status.
 
 You can manage several settings for a service, such as:
 
@@ -17,41 +18,52 @@ What do you want to do?
 
 ## View Service Details
 
-1. In Admin Center, click __Applications__ in the left pane.
-2. On the __Applications__ page, click the __Security Service__ tab.  
-   The tab displays the default Security service created while configuring GroupID and any other Security service that you have created. When multiple GroupID instances have been deployed, you will find multiple default Security services on this tab page, as each instance has its own default Security service. See the [Elasticsearch Clusters, Nodes, and GroupID](/versioned_docs/groupid_11.0/groupid/admincenter/service/overview.md#elasticsearch-clusters-nodes-and-groupid) topic.  
-   For details displayed on a service card, see the table in the [View Data Service Details](/versioned_docs/groupid_11.0/groupid/admincenter/service/dataservice/manage.md#view-data-service-details) topic.
+1. In Admin Center, click **Applications** in the left pane.
+2. On the **Applications** page, click the **Security Service** tab.  
+   The tab displays the default Security service created while configuring GroupID and any other
+   Security service that you have created. When multiple GroupID instances have been deployed, you
+   will find multiple default Security services on this tab page, as each instance has its own
+   default Security service. See the
+   [Elasticsearch Clusters, Nodes, and GroupID](/versioned_docs/groupid_11.0/groupid/admincenter/service/overview.md#elasticsearch-clusters-nodes-and-groupid)
+   topic.  
+   For details displayed on a service card, see the table in the
+   [View Data Service Details](/versioned_docs/groupid_11.0/groupid/admincenter/service/dataservice/manage.md#view-data-service-details)
+   topic.
 
 ## Manage Security Service Settings
 
-See
-the [Manage Data Service Settings](/versioned_docs/groupid_11.0/groupid/admincenter/service/dataservice/manage.md) topic to manage settings for a Security service, such as deployment and log settings.
+See the
+[Manage Data Service Settings](/versioned_docs/groupid_11.0/groupid/admincenter/service/dataservice/manage.md)
+topic to manage settings for a Security service, such as deployment and log settings.
 
 ## Delete a Security Service
 
 Deleting a Security service removes the following:
 
-- __For a native IIS deployment:__
+- **For a native IIS deployment:**
 
-  - The Security service directory under the following location on the GroupID server:  
-    X:\Program Files\Imanami\GroupID 11.0\GroupIDSecurityService\Inetpub\  
-    (X represents the GroupID installation drive)
-  - The Security service directory from the website in IIS
-- __For a remote IIS deployment:__
+    - The Security service directory under the following location on the GroupID server:  
+      X:\Program Files\Imanami\GroupID 11.0\GroupIDSecurityService\Inetpub\  
+      (X represents the GroupID installation drive)
+    - The Security service directory from the website in IIS
 
-  - The service's directory in the remote IIS site
-  - The service's physical directory under the folder mapped to the remote IIS site
-- __For a Docker deployment:__
+- **For a remote IIS deployment:**
 
-  The container created in Docker Engine for the Security service
+    - The service's directory in the remote IIS site
+    - The service's physical directory under the folder mapped to the remote IIS site
 
-__To delete a Security service:__
+- **For a Docker deployment:**
 
-1. In Admin Center, click __Applications__ in the left pane.
-2. On the __Applications__ page, click the __Security Service__ tab.
-3. Click the ellipsis button for a Security service and select __Delete__.
+    The container created in Docker Engine for the Security service
 
-NOTE: You cannot delete the default Security service. You cannot also delete a Security service that has been linked with a GroupID client, such as the GroupID portal or a Mobile service.
+**To delete a Security service:**
+
+1. In Admin Center, click **Applications** in the left pane.
+2. On the **Applications** page, click the **Security Service** tab.
+3. Click the ellipsis button for a Security service and select **Delete**.
+
+NOTE: You cannot delete the default Security service. You cannot also delete a Security service that
+has been linked with a GroupID client, such as the GroupID portal or a Mobile service.
 
 See Also
 

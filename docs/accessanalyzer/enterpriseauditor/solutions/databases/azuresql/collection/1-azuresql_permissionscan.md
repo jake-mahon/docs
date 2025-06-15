@@ -1,6 +1,7 @@
 # 1-AzureSQL_PermissionScan Job
 
-The 1–AzureSQL_PermissionScan Job is designed to collect Azure SQL instance and database level permissions from all the targeted instances.
+The 1–AzureSQL_PermissionScan Job is designed to collect Azure SQL instance and database level
+permissions from all the targeted instances.
 
 ## Queries for the 1–AzureSQL_PermissionsScan Job
 
@@ -12,19 +13,27 @@ The 1–AzureSQL_PermissionsScan Job uses the SQL Data Collector for the followi
 
 ### Configure the PermissionsScan Query
 
-The 1-AzureSQL_PermissionScan Job is preconfigured to run using the default settings within the Permissions Collection category. Follow the steps to customize configurations.
+The 1-AzureSQL_PermissionScan Job is preconfigured to run using the default settings within the
+Permissions Collection category. Follow the steps to customize configurations.
 
-__Step 1 –__ Navigate to the __Databases__ > 0.Collection > AzureSQL > 1-AzureSQL_PermissionsScan > Configure node and select __Queries__.
+**Step 1 –** Navigate to the **Databases** > 0.Collection > AzureSQL > 1-AzureSQL_PermissionsScan >
+Configure node and select **Queries**.
 
-__Step 2 –__ In the Query Selection view, select the PermissionsScan query and click on Query Properties. The Query Properties window appears.
+**Step 2 –** In the Query Selection view, select the PermissionsScan query and click on Query
+Properties. The Query Properties window appears.
 
-__Step 3 –__ Select the Data Source tab and click Configure. The SQL Data Collector Wizard opens.
+**Step 3 –** Select the Data Source tab and click Configure. The SQL Data Collector Wizard opens.
 
-__CAUTION:__ Do not make changes to other wizard pages as they have been pre-configured for this job.
+**CAUTION:** Do not make changes to other wizard pages as they have been pre-configured for this
+job.
 
 ![Filters](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/azuresql/collection/1sqlpermissionscanfilterpage.webp)
 
-__Step 4 –__ To query for specific databases/instances, navigate to the [SQL Data Collector](../../../../admin/datacollector/sql/overview.md) page. The default query target is All databases. The default query scope is Only select database objects and click Retrieve. The Available database objects will be populated. Databases and instances can be added in the following ways:
+**Step 4 –** To query for specific databases/instances, navigate to the
+[SQL Data Collector](../../../../admin/datacollector/sql/overview.md) page. The default query target
+is All databases. The default query scope is Only select database objects and click Retrieve. The
+Available database objects will be populated. Databases and instances can be added in the following
+ways:
 
 - Select the desired database objects and click Add.
 - Use the Import CSV button to import a list from a CSV file, if desired.
@@ -32,22 +41,28 @@ __Step 4 –__ To query for specific databases/instances, navigate to the [SQL D
 
 ![Managed Connection Window](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/azuresql/collection/managedconnections.webp)
 
-__Step 5 –__ To view all managed connections discovered during the 1-AzureSQL_PermissionScan Job run, click Connections within the Filter page. This screen will list the following items retrieved during the job run:
+**Step 5 –** To view all managed connections discovered during the 1-AzureSQL_PermissionScan Job
+run, click Connections within the Filter page. This screen will list the following items retrieved
+during the job run:
 
 - All databases discovered
 - Any configurations made before the job run
 
-Select any of the discovered databases and click Test Connection to ensure the database has connected properly.
+Select any of the discovered databases and click Test Connection to ensure the database has
+connected properly.
 
-__Step 6 –__ Navigate to the Summary page, click Finish to save any setting modifications or click Cancel if no changes were made. Then click OK to close the Query Properties window.
+**Step 6 –** Navigate to the Summary page, click Finish to save any setting modifications or click
+Cancel if no changes were made. Then click OK to close the Query Properties window.
 
 The 1-AzureSQL_PermissionsScan Job is now ready to run with the customized settings.
 
 ## Analysis Tasks for the 1–AzureSQL_PermissionsScan Job
 
-Navigate to the Databases > 0.Collection > __AzureSQL__ > 1-AzureSQL_PermissionsScan > Configure node and select Analysis to view the analysis tasks.
+Navigate to the Databases > 0.Collection > **AzureSQL** > 1-AzureSQL_PermissionsScan > Configure
+node and select Analysis to view the analysis tasks.
 
-__CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
+**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+preconfigured for this job.
 
 ![Analysis Selection](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/azuresql/collection/jobanalysis.webp)
 

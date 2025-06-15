@@ -1,90 +1,117 @@
 # Registration and Permissions Assignment
 
-This section discusses the Directory Manager application registration and permission assignment procedure.
+This section discusses the Directory Manager application registration and permission assignment
+procedure.
 
-Step 1 – Login to Microsoft Entra Admin Center (https://portal.azure.com/) with a user that is part of the “Global Administrator” role or any role that has rights to register an app, such as the “Application administrator” role. This is required in order to give consent to certain permissions in the application.
+Step 1 – Login to Microsoft Entra Admin Center (https://portal.azure.com/) with a user that is part
+of the “Global Administrator” role or any role that has rights to register an app, such as the
+“Application administrator” role. This is required in order to give consent to certain permissions
+in the application.
 
-Step 2 – In the Microsoft Entra Admin Center, go to Microsoft Entra ID > __App registration__ and click __New registration__.
+Step 2 – In the Microsoft Entra Admin Center, go to Microsoft Entra ID > **App registration** and
+click **New registration**.
 
 ![App registeration page](../../../../../static/img/product_docs/groupid/groupid/configureentraid/register/app_registeration.webp)
 
-Step 3 – On the __Register an application__ page, specify a name for the app. Select __Supported account types__ as _Accounts in any organizational directory (Any Microsoft Entra ID – Multitenant_). Leave the Redirect URI as is and click __Register__.
+Step 3 – On the **Register an application** page, specify a name for the app. Select **Supported
+account types** as _Accounts in any organizational directory (Any Microsoft Entra ID –
+Multitenant_). Leave the Redirect URI as is and click **Register**.
 
 ![Register an application](../../../../../static/img/product_docs/groupid/groupid/configureentraid/register/register_an_application.webp)
 
-Step 4 – The __Overview__ page is displayed. Copy the Application (client) ID and keep it safe.
+Step 4 – The **Overview** page is displayed. Copy the Application (client) ID and keep it safe.
 
 ![Overview page](../../../../../static/img/product_docs/groupid/groupid/configureentraid/register/app_registeration_overview.webp)
 
-Step 5 – Go to the __Authentication__ node and set it as follows:
+Step 5 – Go to the **Authentication** node and set it as follows:
 
 ![Authenticate node](../../../../../static/img/product_docs/groupid/groupid/configureentraid/register/authenticate_node.webp)
 
-Step 6 – Click __Save__.
+Step 6 – Click **Save**.
 
-Step 7 – Select the __Certificates & secrets__ node in the left pane to uploaded a certificate for secure authentication in Microsoft Entra ID. See the [Generate a certificate](modauth.md#generate-a-certificate) section of the [Certificate for Entra ID Authentication ](modauth.md)topic for additional information.
+Step 7 – Select the **Certificates & secrets** node in the left pane to uploaded a certificate for
+secure authentication in Microsoft Entra ID. See the
+[Generate a certificate](modauth.md#generate-a-certificate) section of the
+[Certificate for Entra ID Authentication ](modauth.md)topic for additional information.
 
 ![Certificate & secrets page](../../../../../static/img/product_docs/groupid/groupid/configureentraid/register/pfxcertifupload.webp)
 
 Step 8 – To upload the certificate:
 
-1. Select __Upload certificate__.
-2. On the Upload certificate page, click browse to browse to the location where you have saved the generated certificate in .cer format.
-3. Provide a brief description for the certificate in the __Description__ box.
+1. Select **Upload certificate**.
+2. On the Upload certificate page, click browse to browse to the location where you have saved the
+   generated certificate in .cer format.
+3. Provide a brief description for the certificate in the **Description** box.
 4. Click Add.
 
-Step 9 – Click __Roles and administrators__ node.
+Step 9 – Click **Roles and administrators** node.
 
 ![Roles and Administration page](../../../../../static/img/product_docs/groupid/groupid/configureentraid/register/roles_and_administration.webp)
 
-Step 10 –  On the __All roles__ page, add your registered application to a directory role.
+Step 10 – On the **All roles** page, add your registered application to a directory role.
 
-- __Global administrator__: For Global administrator, type global to filter out the Global administrator role. Click __Global administrator__.
+- **Global administrator**: For Global administrator, type global to filter out the Global
+  administrator role. Click **Global administrator**.
 
-  ![All roles page](../../../../../static/img/product_docs/groupid/groupid/configureentraid/register/all_roles.webp)
+    ![All roles page](../../../../../static/img/product_docs/groupid/groupid/configureentraid/register/all_roles.webp)
 
-  Click __Add assignments__. On the Add assignment page, search your application and select it. Click the __Add__ button. The application will be listed on the Assignments page.
+    Click **Add assignments**. On the Add assignment page, search your application and select it.
+    Click the **Add** button. The application will be listed on the Assignments page.
 
-  ![Add assignment page](../../../../../static/img/product_docs/groupid/groupid/configureentraid/register/add_assignment.webp)
-- For any role other than Global administrator, add the registered application to the following two directory roles:
+    ![Add assignment page](../../../../../static/img/product_docs/groupid/groupid/configureentraid/register/add_assignment.webp)
 
-  - __Exchange administrators__: can manage all aspects of the Exchange product
-  - __User administrators__: (User Account Administrator) can manage all aspects of users and groups, including resetting passwords for limited administrators.
+- For any role other than Global administrator, add the registered application to the following two
+  directory roles:
 
-    For example, this role does not allow deleting a global administrator. User Account Administrators can change passwords for users, Helpdesk administrators, and other User Account Administrators only.
+    - **Exchange administrators**: can manage all aspects of the Exchange product
+    - **User administrators**: (User Account Administrator) can manage all aspects of users and
+      groups, including resetting passwords for limited administrators.
 
-    NOTE: By default, the Directory Manager Administrator security role in a Microsoft Entra IDidentity store binds to Global Administrator. If minimum role assignment for the service account is used, the default Admin Security role criteria should also be changed to the _User Account Administrators_ group.
+        For example, this role does not allow deleting a global administrator. User Account
+        Administrators can change passwords for users, Helpdesk administrators, and other User
+        Account Administrators only.
 
-Step 11 – Click __Add__.
+        NOTE: By default, the Directory Manager Administrator security role in a Microsoft Entra
+        IDidentity store binds to Global Administrator. If minimum role assignment for the service
+        account is used, the default Admin Security role criteria should also be changed to the
+        _User Account Administrators_ group.
 
-Step 12 – Go to the __API permissions__ node and select __Add a permission__.
+Step 11 – Click **Add**.
+
+Step 12 – Go to the **API permissions** node and select **Add a permission**.
 
 ![API Permission page](../../../../../static/img/product_docs/groupid/groupid/configureentraid/register/add_a_permission.webp)
 
-Step 13 – The Request API permissions page opens. Click the __Microsoft Graph__ API tab.
+Step 13 – The Request API permissions page opens. Click the **Microsoft Graph** API tab.
 
 ![Request API permissions page](../../../../../static/img/product_docs/groupid/groupid/configureentraid/register/request_api_permissions.webp)
 
-Step 14 – Click the __Application permissions__ tab:
+Step 14 – Click the **Application permissions** tab:
 
 ![Application permissions tab](../../../../../static/img/product_docs/groupid/groupid/configureentraid/register/application_permission.webp)
 
-Permissions get listed on the page. See the [Microsoft Entra ID Permissions](apppermissions.md) topic for the mandatory permissions that are required for creating the desired directory object.
+Permissions get listed on the page. See the [Microsoft Entra ID Permissions](apppermissions.md)
+topic for the mandatory permissions that are required for creating the desired directory object.
 
-Step 15 – [Optional] To add a permission from Office 365 Exchange Online API, click the __Add a permission__ button (before the Grant admin consent for `username` button in the snapshot given in point # 14.
+Step 15 – [Optional] To add a permission from Office 365 Exchange Online API, click the **Add a
+permission** button (before the Grant admin consent for `username` button in the snapshot given in
+point # 14.
 
 Follow the steps shown on the following snapshot:
 
 ![Office 365 Exchange Online API](../../../../../static/img/product_docs/groupid/groupid/configureentraid/register/office365_permission.webp)
 
-Step 16 – [Optional] To access the SharePoint API for Entitlement management, click the __Add a permission__ button (before the Grant admin consent for `username` button in the snapshot given in point # 14). Select the SharePoint API:
+Step 16 – [Optional] To access the SharePoint API for Entitlement management, click the **Add a
+permission** button (before the Grant admin consent for `username` button in the snapshot given in
+point # 14). Select the SharePoint API:
 
 ![SharePoint API card](../../../../../static/img/product_docs/groupid/groupid/configureentraid/register/sharepoint_api_card.webp)
 
-Step 17 – Select the __Delegated permissions__ tab:
+Step 17 – Select the **Delegated permissions** tab:
 
 ![SharePoint Delegated permissions](../../../../../static/img/product_docs/groupid/groupid/configureentraid/register/sharepoint_delegated_permissions.webp)
 
-See [SharePoint Delegated Permissions](apppermissions.md#sharepoint-delegated-permissions) section of the [Microsoft Entra ID Permissions](apppermissions.md) topic for the required permission name.
+See [SharePoint Delegated Permissions](apppermissions.md#sharepoint-delegated-permissions) section
+of the [Microsoft Entra ID Permissions](apppermissions.md) topic for the required permission name.
 
 This completes the registration process of Directory Manager in Microsoft Entra ID.

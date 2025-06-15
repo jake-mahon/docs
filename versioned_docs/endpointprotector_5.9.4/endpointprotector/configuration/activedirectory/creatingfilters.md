@@ -2,15 +2,16 @@
 
 To create the Windows Management Instrumentation (WMI) filters, follow these steps:
 
-__Step 1 –__ Open the Group Policy Management console, expand Domains and then the domain tree;
+**Step 1 –** Open the Group Policy Management console, expand Domains and then the domain tree;
 
 ![Group Policy Management Window](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/configuration/activedirectory/grouppolicywindow_198x327.png)
 
-__Step 2 –__ Right-click WMI Filters and select New – this will open the New WMI Filter window;
+**Step 2 –** Right-click WMI Filters and select New – this will open the New WMI Filter window;
 
 ![New Windows Management Instrumentation Filter Window](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/configuration/activedirectory/newwmifilter_624x202.png)
 
-__Step 3 –__ On the New WMI Filter window, add entries for 32-bit and 64-bit WMI filters by providing the name, description, and queries;
+**Step 3 –** On the New WMI Filter window, add entries for 32-bit and 64-bit WMI filters by
+providing the name, description, and queries;
 
 32-bit WMI Filters:
 
@@ -20,7 +21,7 @@ __Step 3 –__ On the New WMI Filter window, add entries for 32-bit and 64-bit W
 
 ![64-bit Windows Management Instrumentation Filters](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/configuration/activedirectory/64bitwmi_filter_624x193.png)
 
-__Step 4 –__ The new filters will be displayed in the WMI Filters folder.
+**Step 4 –** The new filters will be displayed in the WMI Filters folder.
 
 ![Newly Created Windows Management Instrumentation Filters](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/configuration/activedirectory/createdwmifilters_118x25.jpg)
 
@@ -40,10 +41,16 @@ You can add the following queries to target certain oeprating systems and/or typ
 - Windows 8: SELECT \* FROM Win32_OperatingSystem WHERE Version LIKE "6.2%" AND ProductType="1"
 - Windows 8.1: SELECT \* FROM Win32_OperatingSystem WHERE Version LIKE "6.3%" AND ProductType="1"
 - Windows 10: SELECT \* FROM Win32_OperatingSystem WHERE Version LIKE "10%" AND ProductType="1"
-- Windows Server 2003: Select \* from WIN32_OperatingSystem where Version='5.2.3790' and ProductType>1
-- Windows Server 2008: Select \* from WIN32_OperatingSystem where Version='6.0.6002' and ProductType>1
+- Windows Server 2003: Select \* from WIN32_OperatingSystem where Version='5.2.3790' and
+  ProductType>1
+- Windows Server 2008: Select \* from WIN32_OperatingSystem where Version='6.0.6002' and
+  ProductType>1
 - Windows 2008 R2: Select \* from WIN32_OperatingSystem where Version='6.1.7600' and ProductType>1
-- Window Server 2012: SELECT \* FROM Win32_OperatingSystem WHERE Version LIKE "6.2%" AND ProductType="2"
-- Windows Server 2012R2: SELECT \* FROM Win32_OperatingSystem WHERE Version LIKE "6.3%" AND ProductType="2"
-- Windows Server 2016: SELECT \* FROM Win32_OperatingSystem WHERE Version LIKE "10.0%" AND ProductType="2"
-- Windows Server 2019: SELECT \* FROM Win32_OperatingSystem WHERE BuildNumber >= 17763 AND (ProductType="3" OR ProductType="2")
+- Window Server 2012: SELECT \* FROM Win32_OperatingSystem WHERE Version LIKE "6.2%" AND
+  ProductType="2"
+- Windows Server 2012R2: SELECT \* FROM Win32_OperatingSystem WHERE Version LIKE "6.3%" AND
+  ProductType="2"
+- Windows Server 2016: SELECT \* FROM Win32_OperatingSystem WHERE Version LIKE "10.0%" AND
+  ProductType="2"
+- Windows Server 2019: SELECT \* FROM Win32_OperatingSystem WHERE BuildNumber >= 17763 AND
+  (ProductType="3" OR ProductType="2")

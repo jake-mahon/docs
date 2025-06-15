@@ -2,22 +2,23 @@
 
 This topic outlines what is supported for each type of Exchange version.
 
-__NOTE:__ Sensitive Data Discovery is available with the EWSMailbox, EWSPublicFolder, and ExchangeMailbox data collectors.
+**NOTE:** Sensitive Data Discovery is available with the EWSMailbox, EWSPublicFolder, and
+ExchangeMailbox data collectors.
 
 ## Support by Data Collector
 
 The following tables provide a breakdown of support by data collector:
 
-| Data Collector | Exchange Online | Exchange 2019 | Exchange 2016 | Exchange 2013 | Exchange 2010 | MAPI-Based |
-| --- | --- | --- | --- | --- | --- | --- |
-| EWSMailbox | Yes | Yes | Yes | Yes | Limited\* | No |
-| EWSPublicFolder | Yes | Yes | Yes | Yes | Limited\* | No |
-| Exchange2k | No | No | No | Yes | Yes | Yes |
-| ExchangeMailbox | No | No | No | Yes | Yes | Yes |
-| ExchangeMetrics | No | Yes | Yes | Yes | Yes | No |
-| ExchangePS | Yes | Yes | Yes | Yes | Yes | No |
-| ExchangePublicFolder | No | No | No | Yes | Yes | Yes |
-| SMARTLog | No | Yes | Yes | Yes | Yes | No |
+| Data Collector       | Exchange Online | Exchange 2019 | Exchange 2016 | Exchange 2013 | Exchange 2010 | MAPI-Based |
+| -------------------- | --------------- | ------------- | ------------- | ------------- | ------------- | ---------- |
+| EWSMailbox           | Yes             | Yes           | Yes           | Yes           | Limited\*     | No         |
+| EWSPublicFolder      | Yes             | Yes           | Yes           | Yes           | Limited\*     | No         |
+| Exchange2k           | No              | No            | No            | Yes           | Yes           | Yes        |
+| ExchangeMailbox      | No              | No            | No            | Yes           | Yes           | Yes        |
+| ExchangeMetrics      | No              | Yes           | Yes           | Yes           | Yes           | No         |
+| ExchangePS           | Yes             | Yes           | Yes           | Yes           | Yes           | No         |
+| ExchangePublicFolder | No              | No            | No            | Yes           | Yes           | Yes        |
+| SMARTLog             | No              | Yes           | Yes           | Yes           | Yes           | No         |
 
 \* The data collector can target Exchange 2010 Service Pack 1 and later.
 
@@ -25,16 +26,16 @@ The following tables provide a breakdown of support by data collector:
 
 The following tables provide a breakdown of support by job group:
 
-| Job Group | Exchange Online | Exchange 2019 | Exchange 2016 | Exchange 2013 | Exchange 2010 | MAPI-Based |
-| --- | --- | --- | --- | --- | --- | --- |
-| 1. HUB Metrics | No | Yes | Yes | Yes | Yes | No |
-| 2. CAS Metrics | No | Yes | Yes | Yes | Yes | No |
-| 3. Database | No | Limited\* | Limited\* | Yes | Yes | Yes |
-| 4. Mailboxes | Yes | Yes | Yes | Yes | Yes | No |
-| 5. Public Folders | No | No | No | Yes | Yes | Yes |
-| 6. Distribution Lists | Yes | Yes | Yes | Yes | Yes | No |
-| 7. Sensitive Data | Yes | Yes | Yes | Yes | Limited\* | Mix\*\* |
-| 8. Exchange Online | Yes | No | No | No | No | No |
+| Job Group             | Exchange Online | Exchange 2019 | Exchange 2016 | Exchange 2013 | Exchange 2010 | MAPI-Based |
+| --------------------- | --------------- | ------------- | ------------- | ------------- | ------------- | ---------- |
+| 1. HUB Metrics        | No              | Yes           | Yes           | Yes           | Yes           | No         |
+| 2. CAS Metrics        | No              | Yes           | Yes           | Yes           | Yes           | No         |
+| 3. Database           | No              | Limited\*     | Limited\*     | Yes           | Yes           | Yes        |
+| 4. Mailboxes          | Yes             | Yes           | Yes           | Yes           | Yes           | No         |
+| 5. Public Folders     | No              | No            | No            | Yes           | Yes           | Yes        |
+| 6. Distribution Lists | Yes             | Yes           | Yes           | Yes           | Yes           | No         |
+| 7. Sensitive Data     | Yes             | Yes           | Yes           | Yes           | Limited\*     | Mix\*\*    |
+| 8. Exchange Online    | Yes             | No            | No            | No            | No            | No         |
 
 \* Limited indicates that some of the data collectors can target the environment, but not all.
 
@@ -42,38 +43,44 @@ The following tables provide a breakdown of support by job group:
 
 ## Exchange Solution to Permissions Alignment
 
-See the following sections for permission requirements according to the job group, data collector, or action module to be used:
+See the following sections for permission requirements according to the job group, data collector,
+or action module to be used:
 
 - [Exchange Mail-Flow Permissions](mailflow.md)
 
-  - ExchangeMetrics Data Collector
-  - 1. HUB Metrics Job Group
+    - ExchangeMetrics Data Collector
+    -   1. HUB Metrics Job Group
+
 - [Exchange Remote Connections Permissions](remoteconnections.md)
 
-  - SMARTLog Data Collector
-  - 2. CAS Metrics Job Group
+    - SMARTLog Data Collector
+    -   2. CAS Metrics Job Group
+
 - [Exchange PowerShell Permissions](powershell.md)
 
-  - ExchangePS Data Collector
-  - PublicFolder Action Module
-  - Mailbox Action Module
-  - 2. CAS Metrics Job Group
-  - 3. Databases Job Group
-  - 4. Mailboxes Job Group
-  - 5. Public Folders Job Group
-  - 8. Exchange Online Job Group
+    - ExchangePS Data Collector
+    - PublicFolder Action Module
+    - Mailbox Action Module
+    -   2. CAS Metrics Job Group
+    -   3. Databases Job Group
+    -   4. Mailboxes Job Group
+    -   5. Public Folders Job Group
+    -   8. Exchange Online Job Group
+
 - [Exchange Web Services API Permissions](webservicesapi.md)
 
-  - EWSMailbox Data Collector
-  - EWSPublicFolder Data Collector
-  - 7. Sensitive Data Job Group
+    - EWSMailbox Data Collector
+    - EWSPublicFolder Data Collector
+    -   7. Sensitive Data Job Group
+
 - [MAPI-Based Data Collector Permissions](mapi.md)
 
-  - Exchange2K Data Collector
-  - ExchangeMailbox Data Collector
-  - ExchangePublicFolder Data Collector
-  - 3. Databases Job Group
-  - 5. Public Folders Job Group
-  - 7. Sensitive Data Job Group
+    - Exchange2K Data Collector
+    - ExchangeMailbox Data Collector
+    - ExchangePublicFolder Data Collector
+    -   3. Databases Job Group
+    -   5. Public Folders Job Group
+    -   7. Sensitive Data Job Group
 
-__NOTE:__ All MAPI-based data collectors require the __Settings__ > __Exchange__ node configured in the Access Analyzer Console.
+**NOTE:** All MAPI-based data collectors require the **Settings** > **Exchange** node configured in
+the Access Analyzer Console.

@@ -1,6 +1,10 @@
 # ADPermissions Data Collector
 
-The ADPermissions Data Collector collects the advanced security permissions of objects in AD. It is preconfigured within the Active Directory Permissions Analyzer Solution. Both this data collector and the solution are available with a special Enterprise Auditor license. See the [Active Directory Permissions Analyzer Solution](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/overview.md) topic for additional information.
+The ADPermissions Data Collector collects the advanced security permissions of objects in AD. It is
+preconfigured within the Active Directory Permissions Analyzer Solution. Both this data collector
+and the solution are available with a special Enterprise Auditor license. See the
+[Active Directory Permissions Analyzer Solution](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/overview.md)
+topic for additional information.
 
 Protocols
 
@@ -22,7 +26,9 @@ Permissions
 
 ## ADPermissions Query Configuration
 
-The ADPermissions Data Collector is configured through the Active Directory Permissions Data Collector Wizard. The wizard contains the following pages, which change based upon the query category selected:
+The ADPermissions Data Collector is configured through the Active Directory Permissions Data
+Collector Wizard. The wizard contains the following pages, which change based upon the query
+category selected:
 
 - [ADPermissions: Category](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/adpermissions/category.md)
 - [ADPermissions: Scope](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/adpermissions/scope.md)

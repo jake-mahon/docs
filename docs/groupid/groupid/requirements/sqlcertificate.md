@@ -1,6 +1,9 @@
 # SQL Certificate for Windows Authentication
 
-Directory Manager now uses .NetCore 8 and it requires a SQL certificate to access SQL database using Windows Authentication. Therefore, if you want to access the Directory Manager database using Windows Authentication, then a SQL certificate must be added to the Trusted Root Certification Authorities certificate store on connecting clients or servers such as Directory Manager.
+Directory Manager now uses .NetCore 8 and it requires a SQL certificate to access SQL database using
+Windows Authentication. Therefore, if you want to access the Directory Manager database using
+Windows Authentication, then a SQL certificate must be added to the Trusted Root Certification
+Authorities certificate store on connecting clients or servers such as Directory Manager.
 
 ## Generate a certificate for SQL server
 
@@ -14,20 +17,23 @@ The certificate is saved at the specified location.
 
 Follow the steps to bind the generated SQL certificate with SQL server machine.
 
-Step 1 – In SQL Server Configuration Manager, expand __SQL Server Network Configuration__ in the left pane.
+Step 1 – In SQL Server Configuration Manager, expand **SQL Server Network Configuration** in the
+left pane.
 
-Step 2 – Right-click __Protocols for `<instance Name>`__, and then select __Properties__.
+Step 2 – Right-click **Protocols for `<instance Name>`**, and then select **Properties**.
 
 ![SQL Configuration Manager Properties dialog box](../../../../static/img/product_docs/groupid/groupid/requirements/sqlconfigmgr.jpg)
 
-Step 3 – On the Certificate tab, select the __certificate__ you created from theCertificate drop-down.
+Step 3 – On the Certificate tab, select the **certificate** you created from theCertificate
+drop-down.
 
 ![SQL Configuration Manager Properties Flag tab](../../../../static/img/product_docs/groupid/groupid/requirements/flagstab.jpg)
 
-Step 4 – On the Flags tab, check the __Force Encryption__ option to __Yes__.
+Step 4 – On the Flags tab, check the **Force Encryption** option to **Yes**.
 
-Step 5 – Click __OK__.
+Step 5 – Click **OK**.
 
 ## Install the Certificate on a Directory Manager Client or Server
 
-Copy the certificate on Directory Manager server and install it by adding it to the Trusted Root Certification Authorities and Local machine and current user certificate stores.
+Copy the certificate on Directory Manager server and install it by adding it to the Trusted Root
+Certification Authorities and Local machine and current user certificate stores.

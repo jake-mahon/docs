@@ -1,70 +1,89 @@
 # Execute a Certification Campaign
 
-How to execute access certification campaigns, i.e. review specific entitlement assignments and deprovision inappropriate access.
+How to execute access certification campaigns, i.e. review specific entitlement assignments and
+deprovision inappropriate access.
 
 ## Overview
 
-The aim of an access certification campaign is to review specific entitlement assignments for specific identities, in order to certify them and express an audit opinion that justifies their necessity.
+The aim of an access certification campaign is to review specific entitlement assignments for
+specific identities, in order to certify them and express an audit opinion that justifies their
+necessity.
 
-Once certification campaigns are scheduled, the assigned reviewers must decide for all relevant assignments if they ought to be deleted or not.
+Once certification campaigns are scheduled, the assigned reviewers must decide for all relevant
+assignments if they ought to be deleted or not.
 
 ## Participants and Artifacts
 
-The execution part should be performed in cooperation with the staff who review access in the campaign scheduling.  
- The monitoring part should be performed in cooperation with the staff in charge of campaign scheduling.
+The execution part should be performed in cooperation with the staff who review access in the
+campaign scheduling.  
+ The monitoring part should be performed in cooperation with the staff in charge of campaign
+scheduling.
 
-| Input | Output |
-| --- | --- |
+| Input                                                                                                                                                                        | Output           |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- |
 | [Scheduled certification campaign](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/access-certification/certification-campaign-scheduling/index.md) (required) | Certified access |
 
 ## Execute Certification
 
 Execute certification by proceeding as follows:
 
-1. Access the ongoing campaigns by clicking on the __Access Certification__ section on the home page.
+1. Access the ongoing campaigns by clicking on the **Access Certification** section on the home
+   page.
 
-   ![Home - Access Certification](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/access-certification/certification-campaign-execution/home_accesscertification_v523.png)
+    ![Home - Access Certification](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/access-certification/certification-campaign-execution/home_accesscertification_v523.png)
 
-   On this page, all assignments to be reviewed are listed.
+    On this page, all assignments to be reviewed are listed.
 
-   ![Access Certification](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/access-certification/certification-campaign-execution/certifcampaign_accesscertification_v602.png)
+    ![Access Certification](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/access-certification/certification-campaign-execution/certifcampaign_accesscertification_v602.png)
 
-   Each assignment can be commented by clicking on the corresponding icon.
+    Each assignment can be commented by clicking on the corresponding icon.
 
-   ![Comment Icon](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/access-certification/certification-campaign-execution/certifcampaign_iconcomment_v522.svg)
+    ![Comment Icon](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/access-certification/certification-campaign-execution/certifcampaign_iconcomment_v522.svg)
+
 2. Choose one of the three possibilities to verify all assignments one by one:
 
-   In order to help reviewers in the decision-making process, each assignment shows a recommendation icon, indicating whether said assignment complies with the role model.
-     
-   See the icons below this note.
-     
-   The Recommended icon indicates that the entitlement has been automatically granted according to the security policy. You can approve it because it is compliant.  
-   The Not Recommended icon indicates that the entitlement does not comply with the security policy. It is recommended to refuse it, unless the user really needs it.
-     
-   An absence of any icon indicates that the entitlement does not comply with the security policy. However, it has been manually granted or denied. Thus there is no recommendation, please review this entitlement carefully.
+    In order to help reviewers in the decision-making process, each assignment shows a
+    recommendation icon, indicating whether said assignment complies with the role model.
 
-   ![Recommendation Icon](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/access-certification/certification-campaign-execution/certifcampaign_iconrecommendation_v522.svg)
+    See the icons below this note.
 
-   ![Discouragement Icon](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/access-certification/certification-campaign-execution/certifcampaign_icondiscouragement_v522.svg)
+    The Recommended icon indicates that the entitlement has been automatically granted according to
+    the security policy. You can approve it because it is compliant.  
+    The Not Recommended icon indicates that the entitlement does not comply with the security
+    policy. It is recommended to refuse it, unless the user really needs it.
 
-   - Either click on the approval icon to confirm that this entitlement is necessary for this identity.
+    An absence of any icon indicates that the entitlement does not comply with the security policy.
+    However, it has been manually granted or denied. Thus there is no recommendation, please review
+    this entitlement carefully.
 
-   ![Approval Icon](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/access-certification/certification-campaign-execution/certifcampaign_iconapproval_v522.svg)
+    ![Recommendation Icon](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/access-certification/certification-campaign-execution/certifcampaign_iconrecommendation_v522.svg)
 
-   - Or click on the decline icon to confirm that this entitlement is not necessary for this identity.
+    ![Discouragement Icon](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/access-certification/certification-campaign-execution/certifcampaign_icondiscouragement_v522.svg)
 
-   ![Decline Icon](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connection-creation/certifcampaign_icondecline_v522.svg)
+    - Either click on the approval icon to confirm that this entitlement is necessary for this
+      identity.
 
-   - Or click on the three dots icon to highlight that this entitlement is not part of your scope of responsibility  and forward it to the adequate person.
+    ![Approval Icon](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/access-certification/certification-campaign-execution/certifcampaign_iconapproval_v522.svg)
 
-   ![Forward Icon](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/access-certification/certification-campaign-execution/certifcampaign_iconforward_v522.svg)
-3. Click on __Confirm Decisions__ on the left of the page.
+    - Or click on the decline icon to confirm that this entitlement is not necessary for this
+      identity.
 
-   If you've made an erroneous decision, exiting the page before confirming offers the possibility to quit without saving and start over from the last confirm.
+    ![Decline Icon](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connection-creation/certifcampaign_icondecline_v522.svg)
+
+    - Or click on the three dots icon to highlight that this entitlement is not part of your scope
+      of responsibility and forward it to the adequate person.
+
+    ![Forward Icon](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/access-certification/certification-campaign-execution/certifcampaign_iconforward_v522.svg)
+
+3. Click on **Confirm Decisions** on the left of the page.
+
+    If you've made an erroneous decision, exiting the page before confirming offers the possibility
+    to quit without saving and start over from the last confirm.
 
 ## Monitor a Certification Campaign
 
-Existing certification campaigns are listed on the page accessible via the __Access Certification Campaigns__ button on the home page in the __Administration__ section.
+Existing certification campaigns are listed on the page accessible via the **Access Certification
+Campaigns** button on the home page in the **Administration** section.
 
 ![Home - Access Certification Campaigns](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/access-certification/certification-campaign-scheduling/home_accesscertificationcampaigns_v602.png)
 
@@ -72,18 +91,23 @@ Existing certification campaigns are listed on the page accessible via the __Acc
 
 ### Get reports
 
-A __Download__ button is available for each campaign. It downloads a CSV report that lists all the entitlement assignments to be reviewed, the corresponding reviewers and their decisions.
+A **Download** button is available for each campaign. It downloads a CSV report that lists all the
+entitlement assignments to be reviewed, the corresponding reviewers and their decisions.
 
 ![Report Example](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/access-certification/certification-campaign-execution/certifcampaign_decisions_v522.png)
 
 ### Send notifications
 
-The notification icon on the line of a given campaign offers the possibility to send reminder notifications to the staff who has not finished processing the campaign.
+The notification icon on the line of a given campaign offers the possibility to send reminder
+notifications to the staff who has not finished processing the campaign.
 
 ### Generate provisioning orders
 
 Once entitlement assignments have been reviewed, the final step is to apply these decisions.
 
-An __Apply Decisions__ button is available for each campaign. It shows all the decisions made in the campaign. The campaign administrator can then decide to actually apply said decisions and generate the appropriate provisioning orders for deprovisioning unjustified entitlements. Said orders will be considered during the next provisioning job.
+An **Apply Decisions** button is available for each campaign. It shows all the decisions made in the
+campaign. The campaign administrator can then decide to actually apply said decisions and generate
+the appropriate provisioning orders for deprovisioning unjustified entitlements. Said orders will be
+considered during the next provisioning job.
 
 ![Apply Decisions](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/access-certification/certification-campaign-execution/certifcampaign_applydecisions_v602.png)

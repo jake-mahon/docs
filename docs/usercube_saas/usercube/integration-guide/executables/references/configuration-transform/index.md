@@ -1,15 +1,17 @@
 # Usercube-Configuration-Transform
 
-This tool applies a series of transformations specified in a JSON file, on the content of a given directory.
+This tool applies a series of transformations specified in a JSON file, on the content of a given
+directory.
 
 ## Example
 
-The following example searches all occurrences of ```Directory_User``` in the files inside ```C:/UsercubeDemo/Conf``` whose names:
+The following example searches all occurrences of `Directory_User` in the files inside
+`C:/UsercubeDemo/Conf` whose names:
 
-- contain ```guest``` to replace all occurrences with ```Directory_Guest```;
-- contain ```bot``` to replace all occurrences with ```Directory_Bot```.
+- contain `guest` to replace all occurrences with `Directory_Guest`;
+- contain `bot` to replace all occurrences with `Directory_Bot`.
 
-The resulting files are saved in ```C:/UsercubeDemo/ConfTransformed```.
+The resulting files are saved in `C:/UsercubeDemo/ConfTransformed`.
 
 ```
 
@@ -30,7 +32,7 @@ transformations.json
 }
 ```
 
-```
+````
 
 ## Arguments
 
@@ -41,3 +43,4 @@ transformations.json
 |  |  |
 | --- | --- |
 | --output   required | __Type__    String   __Description__ Path of the folder where the result will be saved. |
+````

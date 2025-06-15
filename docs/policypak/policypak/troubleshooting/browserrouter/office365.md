@@ -1,10 +1,16 @@
 # How to set "Choose which browser opens web links in Office365" so that Browser Router properly routes web links in Outlook
 
-__NOTE:__  Netwrix Endpoint Policy Manager (formerly PolicyPak) Cloud already has the Office2016/Office365 ADMX settings available in the Cloud and they can be accessed via the Endpoint Policy Manager Admin Templates Manager built-in cloud editor.‌
+**NOTE:** Netwrix Endpoint Policy Manager (formerly PolicyPak) Cloud already has the
+Office2016/Office365 ADMX settings available in the Cloud and they can be accessed via the Endpoint
+Policy Manager Admin Templates Manager built-in cloud editor.‌
 
-For the Endpoint Policy Manager OnPrem version, you can download the Office 365 ADMX files from here - [https://www.microsoft.com/en-US/download/details.aspx?id=49030](https://www.microsoft.com/en-US/download/details.aspx?id=49030) for use in your On-Prem environment.
+For the Endpoint Policy Manager OnPrem version, you can download the Office 365 ADMX files from
+here -
+[https://www.microsoft.com/en-US/download/details.aspx?id=49030](https://www.microsoft.com/en-US/download/details.aspx?id=49030)
+for use in your On-Prem environment.
 
-Also, this policy will not work for Microsoft 365 Apps for Business, See Group Policy Support section in the table at the link below:
+Also, this policy will not work for Microsoft 365 Apps for Business, See Group Policy Support
+section in the table at the link below:
 
 [https://learn.microsoft.com/en-us/office365/servicedescriptions/office-applications-service-description/office-applications-service-description](https://learn.microsoft.com/en-us/office365/servicedescriptions/office-applications-service-description/office-applications-service-description)
 
@@ -14,7 +20,8 @@ Also, this policy will not work for Microsoft 365 Apps for Business, See Group 
 
 ## SCENARIO 1: Using Endpoint Policy Manager Cloud
 
-Create a new Admin Template policy with the appropriate setting from the ADMX template (use Keyword section to search):
+Create a new Admin Template policy with the appropriate setting from the ADMX template (use Keyword
+section to search):
 
 ![966_2_image-20230922212443-1](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/browserrouter/966_2_image-20230922212443-1.webp)
 
@@ -24,7 +31,8 @@ Now set the value to "System default browser" instead of "Microsoft Edge" in the
 
 ## SCENARIO 2: Using Endpoint Policy Manager On-Prem
 
-Once Office ADMX is deployed, create a new Admin Template policy with the appropriate setting from the ADMX template (use Keyword section to search):
+Once Office ADMX is deployed, create a new Admin Template policy with the appropriate setting from
+the ADMX template (use Keyword section to search):
 
 ![966_4_image-20230922212443-3_950x397](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/browserrouter/966_4_image-20230922212443-3_950x397.webp)
 

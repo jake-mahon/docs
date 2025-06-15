@@ -4,4 +4,5 @@
 
 Newsletter
 
-To always stay up to date with our lates product news, we recommend you to subscribe our [Newsletter Registration](https://www.passwordsafe.com/en/newsletter-registration/).
+To always stay up to date with our lates product news, we recommend you to subscribe our
+[Newsletter Registration](https://www.passwordsafe.com/en/newsletter-registration/).

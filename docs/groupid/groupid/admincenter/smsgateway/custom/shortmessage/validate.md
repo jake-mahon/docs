@@ -7,17 +7,17 @@ The Validate method validates the following:
 - PhoneNumbers must be provided.
 - PhoneNumber should be valid.
 
-__Namespace:__ Imanami.GroupID.DataTransferObjects.DataContracts.SMS
+**Namespace:** Imanami.GroupID.DataTransferObjects.DataContracts.SMS
 
-__Assembly:__ Imanami.GroupID.DataTransferObjects.dll
+**Assembly:** Imanami.GroupID.DataTransferObjects.dll
 
-__Syntax__
+**Syntax**
 
 ```
 public bool Validate(IValidationDictionary validationDictionary)
 ```
 
-__Return Value__
+**Return Value**
 
 Type: [System.Boolean](http://msdn.microsoft.com/en-us/library/system.boolean.aspx)
 

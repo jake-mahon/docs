@@ -67,8 +67,8 @@ Next, import your plugins and add them to the plugin options through plugin or p
 
 ```js title="docusaurus.config.js"
 // highlight-start
-import remarkMath from 'remark-math';
-import rehypeKatex from 'rehype-katex';
+import remarkMath from 'remark-math'
+import rehypeKatex from 'rehype-katex'
 // highlight-end
 
 // highlight-start
@@ -87,7 +87,7 @@ export default {
       },
     ],
   ],
-};
+}
 ```
 
 <details>
@@ -114,8 +114,8 @@ module.exports = async function createConfigAsync() {
         },
       ],
     ],
-  };
-};
+  }
+}
 ```
 
 </details>
@@ -125,7 +125,7 @@ module.exports = async function createConfigAsync() {
 Some plugins can be configured and accept their own options. In that case, use the `[plugin, pluginOptions]` syntax, like this:
 
 ```js title="docusaurus.config.js"
-import rehypeKatex from 'rehype-katex';
+import rehypeKatex from 'rehype-katex'
 
 export default {
   presets: [
@@ -135,14 +135,14 @@ export default {
         docs: {
           rehypePlugins: [
             // highlight-start
-            [rehypeKatex, {strict: false}],
+            [rehypeKatex, { strict: false }],
             // highlight-end
           ],
         },
       },
     ],
   ],
-};
+}
 ```
 
 You should check your plugin's documentation for the options it supports.
@@ -160,32 +160,32 @@ The writeup below is **not** meant to be a comprehensive guide to creating a plu
 For example, let's make a plugin that visits every `h2` heading and adds a `Section X. ` prefix. First, create your plugin source file anywhere—you can even publish it as a separate npm package and install it like explained above. We would put ours at `src/remark/section-prefix.js`. A remark/rehype plugin is just a function that receives the `options` and returns a `transformer` that operates on the AST.
 
 ```js "src/remark/section-prefix.js"
-import {visit} from 'unist-util-visit';
+import { visit } from 'unist-util-visit'
 
 const plugin = (options) => {
   const transformer = async (ast) => {
-    let number = 1;
+    let number = 1
     visit(ast, 'heading', (node) => {
       if (node.depth === 2 && node.children.length > 0) {
         node.children.unshift({
           type: 'text',
           value: `Section ${number}. `,
-        });
-        number++;
+        })
+        number++
       }
-    });
-  };
-  return transformer;
-};
+    })
+  }
+  return transformer
+}
 
-export default plugin;
+export default plugin
 ```
 
 You can now import your plugin in `docusaurus.config.js` and use it just like an installed plugin!
 
 ```js title="docusaurus.config.js"
 // highlight-next-line
-import sectionPrefix from './src/remark/section-prefix';
+import sectionPrefix from './src/remark/section-prefix'
 
 export default {
   presets: [
@@ -199,7 +199,7 @@ export default {
       },
     ],
   ],
-};
+}
 ```
 
 :::tip
@@ -212,10 +212,10 @@ const plugin = (options) => {
     ast.children.unshift({
       type: 'text',
       value: `The current file path is ${vfile.path}`,
-    });
-  };
-  return transformer;
-};
+    })
+  }
+  return transformer
+}
 ```
 
 Our `transformImage` plugin uses this parameter, for example, to transform relative image references to `require()` calls.
@@ -239,7 +239,7 @@ export default {
       },
     ],
   ],
-};
+}
 ```
 
 This would make the table of contents generated contain the `Section X.` prefix as well.

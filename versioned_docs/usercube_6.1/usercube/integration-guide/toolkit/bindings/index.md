@@ -1,9 +1,10 @@
 # Bindings
 
-Some configuration's XML attribute must respect the Usercube's binding syntax.
-This syntax allow to specify a _path_ in the entity model.
+Some configuration's XML attribute must respect the Usercube's binding syntax. This syntax allow to
+specify a _path_ in the entity model.
 
-Binding expression starts by the starting entity type name followed by the ```:``` character and a sequence of property references separated by a ```.``` character.
+Binding expression starts by the starting entity type name followed by the `:` character and a
+sequence of property references separated by a `.` character.
 
 ```
 type:propertyA.propertyB.propertyC
@@ -24,4 +25,6 @@ AssignedResourceType:Owner.User:FirstName
 
 ```
 
-In this sample, the property ```Owner``` of ```AssignedResourceType``` targets the base type ```Resource```. Type ```User``` inherits of ```Resource``` and owns the ```FirstName``` property. So, the ```FirstName``` section of the binding expression must be prefixed by ```User:```.
+In this sample, the property `Owner` of `AssignedResourceType` targets the base type `Resource`.
+Type `User` inherits of `Resource` and owns the `FirstName` property. So, the `FirstName` section of
+the binding expression must be prefixed by `User:`.

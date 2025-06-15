@@ -4,13 +4,17 @@ Add a Certificate Authority to the Ubuntu Trusted Authorities Repository
 
 # Add a Certificate Authority to the Ubuntu Trusted Authorities Repository
 
-In environments where SSL Inspection/Decryption is used, it may be necessary to include the Certificate Authority’s public cert in the “ca-certificates” repo on Ubuntu. This will enable downloads (for upgrades and so on) to transpire without receiving SSL Handshake errors.
+In environments where SSL Inspection/Decryption is used, it may be necessary to include the
+Certificate Authority’s public cert in the “ca-certificates” repo on Ubuntu. This will enable
+downloads (for upgrades and so on) to transpire without receiving SSL Handshake errors.
 
 # command to output the Certificate Authority
 
-__NOTE:__ This example uses a fake proxy at “192.168.0.3”. Please replace with the real proxy, or, if no explicit proxy is used, remove the proxy argument altogether:
+**NOTE:** This example uses a fake proxy at “192.168.0.3”. Please replace with the real proxy, or,
+if no explicit proxy is used, remove the proxy argument altogether:
 
-echo -n | openssl s_client -proxy 192.168.0.3:8080 -showcerts -connect google.com:443 | sed -ne '/-BEGIN CERTIFICATE-/,/-END CERTIFICATE-/p’
+echo -n | openssl s_client -proxy 192.168.0.3:8080 -showcerts -connect google.com:443 | sed -ne
+'/-BEGIN CERTIFICATE-/,/-END CERTIFICATE-/p’
 
 # Save output as MyCA.crt
 
@@ -22,9 +26,11 @@ openssl x509 -in MyCA.crt -text -noout
 
 # test to google using self signed cert (should fail)
 
-"ERROR: cannot verify google.com's certificate, issued by 'O=mitmproxy,CN=mitmproxy': " Self-signed certificate encountered.
+"ERROR: cannot verify google.com's certificate, issued by 'O=mitmproxy,CN=mitmproxy': " Self-signed
+certificate encountered.
 
-get --delete-after [https://google.com](https://google.com/) -e use_proxy=on -e https_proxy=192.168.0.3:8080
+get --delete-after [https://google.com](https://google.com/) -e use_proxy=on -e
+https_proxy=192.168.0.3:8080
 
 # gui to add the MyCA.crt cert
 
@@ -32,7 +38,8 @@ sudo dpkg-reconfigure ca-certificates
 
 # test should pass now
 
-wget --delete-after [https://google.com](https://google.com/) -e use_proxy=on -e https_proxy=192.168.0.3:8080
+wget --delete-after [https://google.com](https://google.com/) -e use_proxy=on -e
+https_proxy=192.168.0.3:8080
 
 Proxy request sent, awaiting response... 301 Moved Permanently
 

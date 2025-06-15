@@ -1,26 +1,33 @@
 # Active Directory Activity Auditing Configuration
 
-There are two methods to configure Activity Monitor to provide Active Directory domain activity to Enterprise Auditor:
+There are two methods to configure Activity Monitor to provide Active Directory domain activity to
+Enterprise Auditor:
 
 - API Server
 - File Archive Repository
 
-See the [File Archive Repository Option](/versioned_docs/activitymonitor_7.1/config/activedirectory/filearchive.md) topic for additional information on that option.
+See the
+[File Archive Repository Option](/versioned_docs/activitymonitor_7.1/config/activedirectory/filearchive.md)
+topic for additional information on that option.
 
 ## API Server Option
 
 In this method, you will be deploying two agents:
 
-- First, deploy an Activity Agent to a Windows server that will act as the API server. This is a non-domain controller server.
+- First, deploy an Activity Agent to a Windows server that will act as the API server. This is a
+  non-domain controller server.
 
-  ___RECOMMENDED:___ Deploy the API Server to the same server where the Activity Monitor Console resides.
+    **_RECOMMENDED:_** Deploy the API Server to the same server where the Activity Monitor Console
+    resides.
+
 - Next, deploy the AD Agent to all domain controllers in the target domain.
 
-Follow the steps to setup integration between Activity Monitor and Enterprise Auditor through an API server.
+Follow the steps to setup integration between Activity Monitor and Enterprise Auditor through an API
+server.
 
-__Step 1 –__ Deploy the Activity Agent to the API server.
+**Step 1 –** Deploy the Activity Agent to the API server.
 
-__Step 2 –__ Deploy the AD Agent to each domain controller in the target domain.
+**Step 2 –** Deploy the AD Agent to each domain controller in the target domain.
 
 The next step is to configure the agent deployed to the API server.
 
@@ -28,30 +35,38 @@ The next step is to configure the agent deployed to the API server.
 
 Follow the steps to configure the agent deployed to the API server.
 
-__Step 1 –__ On the Agents tab of the Activity Monitor Console, select the agent deployed to the API server.
+**Step 1 –** On the Agents tab of the Activity Monitor Console, select the agent deployed to the
+API server.
 
-__Step 2 –__ Click __Edit__. The Agent properties window opens.
+**Step 2 –** Click **Edit**. The Agent properties window opens.
 
-__Step 3 –__ Select the __API Server__ tab and configure the following:
+**Step 3 –** Select the **API Server** tab and configure the following:
 
-- Select the __Enable API access on this agent__ checkbox.
-- The default __API server port (TCP)__ is 4494, but it can be modified if desired. Ensure the modified port is also used by Enterprise Auditor.
-- Click __Add Application__. The Add or edit API client window opens.
+- Select the **Enable API access on this agent** checkbox.
+- The default **API server port (TCP)** is 4494, but it can be modified if desired. Ensure the
+  modified port is also used by Enterprise Auditor.
+- Click **Add Application**. The Add or edit API client window opens.
 - Configure the following:
 
-  - Provide a descriptive and unique __Application name__, for example ```Enterprise Auditor```.
-  - Select the __Read__ checkbox to grant this permission to this application.
-  - Click __Generate__ to generate the Client ID and Client Secret.
-  - Copy the Client ID value to a text file.
-  - Click __Copy__ and save the Client Secret value to a text file.
+    - Provide a descriptive and unique **Application name**, for example `Enterprise Auditor`.
+    - Select the **Read** checkbox to grant this permission to this application.
+    - Click **Generate** to generate the Client ID and Client Secret.
+    - Copy the Client ID value to a text file.
+    - Click **Copy** and save the Client Secret value to a text file.
 
-    __CAUTION:__ It is not possible to retrieve the value after closing the Add or edit API client window. It must be copied first.
-  - By default, the __Secret Expires__ in 3 days. That means it must be used in the Enterprise Auditor Connection Profile within 72 hours or a new secret will need to be generated. Modify if desired.
-  - Click __OK__ to save the configuration and close the Add or edit API client window.
-- If the Activity Monitor Console server is not the API Server, then click __Use this console__ to grant the Activity Monitor the ability to manage the API server.
+        **CAUTION:** It is not possible to retrieve the value after closing the Add or edit
+        API client window. It must be copied first.
+
+    - By default, the **Secret Expires** in 3 days. That means it must be used in the Enterprise
+      Auditor Connection Profile within 72 hours or a new secret will need to be generated. Modify
+      if desired.
+    - Click **OK** to save the configuration and close the Add or edit API client window.
+
+- If the Activity Monitor Console server is not the API Server, then click **Use this console** to
+  grant the Activity Monitor the ability to manage the API server.
 - The IPv4 or IPv6 allowlist allows you to limit access to the API server data to specific hosts.
 
-__Step 4 –__ Click __OK__ to save the configuration and close the Agent properties window.
+**Step 4 –** Click **OK** to save the configuration and close the Agent properties window.
 
 The next step is to configure the agents deployed to the domain controllers.
 
@@ -59,22 +74,27 @@ The next step is to configure the agents deployed to the domain controllers.
 
 Follow the steps to configure the agent deployed to the domain controller.
 
-__Step 1 –__ On the Agents tab of the Activity Monitor Console, select an agent deployed to domain controller.
+**Step 1 –** On the Agents tab of the Activity Monitor Console, select an agent deployed to domain
+controller.
 
-__Step 2 –__ Click __Edit__. The Agent properties window opens.
+**Step 2 –** Click **Edit**. The Agent properties window opens.
 
-__Step 3 –__ Select the __Archiving__ tab and configure the following:
+**Step 3 –** Select the **Archiving** tab and configure the following:
 
-- Select the __Enable Archiving for this agent__ checkbox.
-- Select the __Archive log files on a UNC path__ option. Click the __...__ button and navigate to the desired network share on the API server.
-- The __User name__ and __User password__ fields only need to be filled in if the account used to install the agent does not have access to this share.
+- Select the **Enable Archiving for this agent** checkbox.
+- Select the **Archive log files on a UNC path** option. Click the **...** button and navigate to
+  the desired network share on the API server.
+- The **User name** and **User password** fields only need to be filled in if the account used to
+  install the agent does not have access to this share.
 
-  _Remember,_ The account used to install the agent on a domain controller is a Domain Administrator account.
-- Click __Test__ to ensure a successful connection to the network share.
+    _Remember,_ The account used to install the agent on a domain controller is a Domain
+    Administrator account.
 
-__Step 4 –__ Click __OK__ to save the configuration and close the Agent properties window.
+- Click **Test** to ensure a successful connection to the network share.
 
-__Step 5 –__ Repeat Steps 1-4 for each agent deployed to domain controller.
+**Step 4 –** Click **OK** to save the configuration and close the Agent properties window.
+
+**Step 5 –** Repeat Steps 1-4 for each agent deployed to domain controller.
 
 These agent are configured to save the Archive logs to the selected share.
 
@@ -82,19 +102,26 @@ These agent are configured to save the Archive logs to the selected share.
 
 Follow the steps configure the monitored domain output for Netwrix Enterprise Auditor.
 
-__Step 1 –__ Select the __Monitored Domains__ tab.
+**Step 1 –** Select the **Monitored Domains** tab.
 
-__Step 2 –__  Select the desired domain and click __Add Output__. The Add New Ouptut window opens.
+**Step 2 –** Select the desired domain and click **Add Output**. The Add New Ouptut window opens.
 
-__Step 3 –__ Configure the following:
+**Step 3 –** Configure the following:
 
-- Configure the desired number of days for the __Period to keep Log files__. This is the number of days the log files are kept on the API server configured in the sections above. This needs to be set to a greater value than the days between Enterprise Auditor scans.
+- Configure the desired number of days for the **Period to keep Log files**. This is the number of
+  days the log files are kept on the API server configured in the sections above. This needs to be
+  set to a greater value than the days between Enterprise Auditor scans.
 
-  - For example, if Enterprise Auditor runs the __AD_ActivityCollection__ Job once a week (every 7 days), then the Activity Monitor output should be configured to retain at least 10 days of log files.
-- Check the __This log file is for StealthAUDIT__ box.
-- Optionally select the __Enable periodic AD Status Check event reporting__ checkbox. When enabled, the agent will send out status messages every five minutes to verify whether the connection is still active.
+    - For example, if Enterprise Auditor runs the **AD_ActivityCollection** Job once a week (every 7
+      days), then the Activity Monitor output should be configured to retain at least 10 days of log
+      files.
 
-__Step 4 –__ Click __Add Output__ to save and close the Add New Output window.
+- Check the **This log file is for StealthAUDIT** box.
+- Optionally select the **Enable periodic AD Status Check event reporting** checkbox. When enabled,
+  the agent will send out status messages every five minutes to verify whether the connection is
+  still active.
+
+**Step 4 –** Click **Add Output** to save and close the Add New Output window.
 
 Enterprise Auditor now has access to the agent log files for this domain.
 
@@ -102,97 +129,123 @@ Enterprise Auditor now has access to the agent log files for this domain.
 
 Follow the steps to configure the Connection Profile in Enterprise Auditor.
 
-_Remember,_ the Client ID and Client Secret were generated by the API server and copied to a text file. If the secret expired before the Connection Profile is configured, it will need to be re-generated.
+_Remember,_ the Client ID and Client Secret were generated by the API server and copied to a text
+file. If the secret expired before the Connection Profile is configured, it will need to be
+re-generated.
 
-__Step 1 –__ On the __Settings__ > __Connection__ node of the Enterprise Auditor Console, select the Connection Profile for the Active Directory solution. If you haven't yet created a Connection Profile or desire a specific one for AD Activity, create a new one and provide a unique descriptive name.
+**Step 1 –** On the **Settings** > **Connection** node of the Enterprise Auditor Console, select the
+Connection Profile for the Active Directory solution. If you haven't yet created a Connection
+Profile or desire a specific one for AD Activity, create a new one and provide a unique descriptive
+name.
 
-__Step 2 –__ Click __Add User credential__. The User Credentials window opens.
+**Step 2 –** Click **Add User credential**. The User Credentials window opens.
 
-__Step 3 –__ Configure the following:
+**Step 3 –** Configure the following:
 
-- Select Account Type – Select __Web Services (JWT)__
+- Select Account Type – Select **Web Services (JWT)**
 - User name – Enter the Client ID generated by the Activity Monitor API Server
 - Access Token – Enter the Client Secret generated by the Activity Monitor API Server
 
-__Step 4 –__ Click __OK__ to save and close the User Credentials window.
+**Step 4 –** Click **OK** to save and close the User Credentials window.
 
-__Step 5 –__ Click __Save__ and then __OK__ to confirm the changes to the Connection Profile.
+**Step 5 –** Click **Save** and then **OK** to confirm the changes to the Connection Profile.
 
-__Step 6 –__ Navigate to the __Jobs__ > __Active Directory__ > __6.Activity__ > __0.Collection__ Job Group. Select the __Settings > Connection__ node.
+**Step 6 –** Navigate to the **Jobs** > **Active Directory** > **6.Activity** > **0.Collection** Job
+Group. Select the **Settings > Connection** node.
 
-__Step 7 –__ Select the __Select one of the following user defined profiles__ option. Expand the drop-down menu and select the Connection Profile with this credential.
+**Step 7 –** Select the **Select one of the following user defined profiles** option. Expand the
+drop-down menu and select the Connection Profile with this credential.
 
-__Step 8 –__ Click __Save__ and then __OK__ to confirm the changes to the job group settings.
+**Step 8 –** Click **Save** and then **OK** to confirm the changes to the job group settings.
 
 The Connection Profile will now be used for AD Activity collection.
 
 ## Configure the AD_ActivityCollection Job
 
-The Enterprise Auditor requires additional configurations in order to collect domain activity data. Follow the steps to configure the __AD_ActivityCollection__ Job.
+The Enterprise Auditor requires additional configurations in order to collect domain activity data.
+Follow the steps to configure the **AD_ActivityCollection** Job.
 
-__NOTE:__ Ensure that the __.Active Directory Inventory__ Job Group has been successfully run against the target domain.
+**NOTE:** Ensure that the **.Active Directory Inventory** Job Group has been successfully run
+against the target domain.
 
-__Step 1 –__ Navigate to the __Jobs__ > __Active Directory__ > __6.Activity__ > __0.Collection__ > __AD_ActivityCollection__ Job. Select the __Configure__ > __Queries__ node.
+**Step 1 –** Navigate to the **Jobs** > **Active Directory** > **6.Activity** > **0.Collection** >
+**AD_ActivityCollection** Job. Select the **Configure** > **Queries** node.
 
-__Step 2 –__ Click __Query Properties__. The Query Properties window displays.
+**Step 2 –** Click **Query Properties**. The Query Properties window displays.
 
-__Step 3 –__ On the Data Source tab, select __Configure__. The Active Directory Activity DC wizard opens.
+**Step 3 –** On the Data Source tab, select **Configure**. The Active Directory Activity DC wizard
+opens.
 
 ![Active Directory Activity DC wizard Category page](/img/versioned_docs/activitymonitor_7.1/config/activedirectory/categoryimportfromnam.png)
 
-__Step 4 –__ On the Category page, choose __Import from SAM__ option and click __Next__.
+**Step 4 –** On the Category page, choose **Import from SAM** option and click **Next**.
 
 ![Active Directory Activity DC wizard SAM connection settings page](/img/versioned_docs/activitymonitor_7.1/config/activedirectory/namconnection.png)
 
-__Step 5 –__ On the SAM connection page, the __Port__ is set to the default 4494. This needs to match the port configured for the Activity Monitor API Server agent.
+**Step 5 –** On the SAM connection page, the **Port** is set to the default 4494. This needs to
+match the port configured for the Activity Monitor API Server agent.
 
-__Step 6 –__ In the __Test SAM host__ textbox, enter the Activity Monitor API Server name using fully qualified domain format. For example, ```NEWYORKSRV30.NWXTech.com```. Click __Connect__.
+**Step 6 –** In the **Test SAM host** textbox, enter the Activity Monitor API Server name using
+fully qualified domain format. For example, `NEWYORKSRV30.NWXTech.com`. Click **Connect**.
 
-__Step 7 –__ If connection is successful, the archive location displays along with a Refresh token. Copy the __Refresh token__. This will replace the Client Secret in the Connection Profile in the last step.
+**Step 7 –** If connection is successful, the archive location displays along with a Refresh token.
+Copy the **Refresh token**. This will replace the Client Secret in the Connection Profile in the
+last step.
 
-__Step 8 –__ Click __Next__.
+**Step 8 –** Click **Next**.
 
 ![Active Directory Activity DC wizard Scoping and Retention page](/img/versioned_docs/activitymonitor_7.1/config/activedirectory/scope.png)
 
-__Step 9 –__ On the Scope page, set the Timespan as desired. There are two options:
+**Step 9 –** On the Scope page, set the Timespan as desired. There are two options:
 
 - Relative Timespan – Set the number of days of activity logs to collect when the scan is run
 - Absolute Timespan – Set the date range for activity logs to collect when the scan is run
 
-___RECOMMENDED:___ The threshold should be set to ensure the logs are collected before the Activity Monitor domain output log retention expires. For example, if Enterprise Auditor runs the __AD_ActivityCollection__ Job once a week (every 7 days), then the Activity Monitor output should be configured to retain at least 10 days of log files.
+**_RECOMMENDED:_** The threshold should be set to ensure the logs are collected before the Activity
+Monitor domain output log retention expires. For example, if Enterprise Auditor runs the
+**AD_ActivityCollection** Job once a week (every 7 days), then the Activity Monitor output should be
+configured to retain at least 10 days of log files.
 
-__Step 10 –__ Set the Retention period as desired. This is the number of days Enterprise Auditor keeps the collected data in the SQL Server database.
+**Step 10 –** Set the Retention period as desired. This is the number of days Enterprise Auditor
+keeps the collected data in the SQL Server database.
 
-__Step 11 –__ Click __Next__ and then __Finish__ to save the changes and close the wizard.
+**Step 11 –** Click **Next** and then **Finish** to save the changes and close the wizard.
 
-__Step 12 –__ Click __OK__ to save the changes and close the Query Properties page.
+**Step 12 –** Click **OK** to save the changes and close the Query Properties page.
 
-__Step 13 –__ Navigate to the global __Settings__ > __Connection__ node to update the User Credential with the Refresh token:
+**Step 13 –** Navigate to the global **Settings** > **Connection** node to update the User
+Credential with the Refresh token:
 
-- Select the Connection Profile assigned to the __6.Activity__ > __0.Collection__ Job Group.
-- Select the Web Services (JWT) User Credential and click __Edit__.
+- Select the Connection Profile assigned to the **6.Activity** > **0.Collection** Job Group.
+- Select the Web Services (JWT) User Credential and click **Edit**.
 - Replace the Access Token with the Refresh token generated by the data collector in Step 7.
-- Click __OK__ to save and close the User Credentials window.
-- Click __Save__ and then __OK__ to confirm the changes to the Connection Profile.
+- Click **OK** to save and close the User Credentials window.
+- Click **Save** and then **OK** to confirm the changes to the Connection Profile.
 
-The query is now configured to target the Activity Monitor API Server to collect domain activity logs.
+The query is now configured to target the Activity Monitor API Server to collect domain activity
+logs.
 
 ### (Optional) Configure Import of AD Activity into Netwrix Access Information Center
 
-AD Activity data can be imported into Netwrix Access Information Center by the __AD_ActivityCollection__ Job. However, this is disabled by default. Follow the steps to enable the importing of AD activity data into the Access Information Center.
+AD Activity data can be imported into Netwrix Access Information Center by the
+**AD_ActivityCollection** Job. However, this is disabled by default. Follow the steps to enable the
+importing of AD activity data into the Access Information Center.
 
-__Step 1 –__ Navigate to the __Jobs__ > __Active Directory__ > __6.Activity__ > __0.Collection__ > __AD_ActivityCollection__ Job.
+**Step 1 –** Navigate to the **Jobs** > **Active Directory** > **6.Activity** > **0.Collection** >
+**AD_ActivityCollection** Job.
 
-__Step 2 –__ On the job's Overview page, enable the import of AD Events.
+**Step 2 –** On the job's Overview page, enable the import of AD Events.
 
-- Click on the __Enable to import AD events into the AIC__ parameter.
-- On the Parameter Configuration window, select the __Enabled__ checkbox and click __Save__.
+- Click on the **Enable to import AD events into the AIC** parameter.
+- On the Parameter Configuration window, select the **Enabled** checkbox and click **Save**.
 
-__Step 3 –__ On the job's Overview page, enable the import of authentication Events.
+**Step 3 –** On the job's Overview page, enable the import of authentication Events.
 
-- Click on the __Enable to import authentication events into the AIC__ parameter.
-- On the Parameter Configuration window, select the __Enabled__ checkbox and click __Save__.
+- Click on the **Enable to import authentication events into the AIC** parameter.
+- On the Parameter Configuration window, select the **Enabled** checkbox and click **Save**.
 
-__Step 4 –__ Optionally, modify the __List of attributes to track for Object Modified changes__ and __Number of days to retain activity data in the AIC__ parameters.
+**Step 4 –** Optionally, modify the **List of attributes to track for Object Modified changes** and
+**Number of days to retain activity data in the AIC** parameters.
 
-The __AD_ActivityCollection__ Job is now configured to import both AD events and authentication events into the Netwrix Access Information Center.
+The **AD_ActivityCollection** Job is now configured to import both AD events and authentication
+events into the Netwrix Access Information Center.

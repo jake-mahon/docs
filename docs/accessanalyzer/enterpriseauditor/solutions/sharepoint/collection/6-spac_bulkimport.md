@@ -1,6 +1,7 @@
 # 6-SPAC_BulkImport Job
 
-This job is responsible for retrieving the SPAC Tier 2 database information and import it to the Access Analyzer SQL database.
+This job is responsible for retrieving the SPAC Tier 2 database information and import it to the
+Access Analyzer SQL database.
 
 ## Queries for the 6-SPAC_BulkImport Job
 
@@ -14,37 +15,48 @@ The query for the 6-SPAC_BulkImport Job is:
 
 ### Configure the Query for the 6-SPAC_BulkImport Job
 
-The 6-SPAC_BulkImport Job has been preconfigured to run with the default settings with the category of Bulk Import SharePoint Activity Scan Results, which is not visible within the SharePoint Access Auditor Data Collector Wizard when opened from within this job. Follow the steps to set any desired customizations.
+The 6-SPAC_BulkImport Job has been preconfigured to run with the default settings with the category
+of Bulk Import SharePoint Activity Scan Results, which is not visible within the SharePoint Access
+Auditor Data Collector Wizard when opened from within this job. Follow the steps to set any desired
+customizations.
 
-__Step 1 –__ Navigate to the __Jobs__ > __SharePoint__ > __0.Collection__ > __2-SPAC_BulkImport__ > __Configure__ node and select __Queries__.
+**Step 1 –** Navigate to the **Jobs** > **SharePoint** > **0.Collection** > **2-SPAC_BulkImport** >
+**Configure** node and select **Queries**.
 
-__Step 2 –__ In the Query Selection view, click __Query Properties__. The Query Properties window displays.
+**Step 2 –** In the Query Selection view, click **Query Properties**. The Query Properties window
+displays.
 
-__Step 3 –__ Select the __Data Source__ tab, and click __Configure__.
+**Step 3 –** Select the **Data Source** tab, and click **Configure**.
 
 ![Bulk Import Settings](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/spaa/bulkimportsettings.webp)
 
-__Step 4 –__ On the [SPAA: Bulk Import Settings](../../../admin/datacollector/spaa/bulkimportsettings.md) page, the __Set Host Identifier__ is not configured by default. Click __Next__.
+**Step 4 –** On the
+[SPAA: Bulk Import Settings](../../../admin/datacollector/spaa/bulkimportsettings.md) page, the
+**Set Host Identifier** is not configured by default. Click **Next**.
 
-__NOTE:__ Unless SQL Server Replication is used, it should not be necessary to adjust the __Host Identifier__ seed.
+**NOTE:** Unless SQL Server Replication is used, it should not be necessary to adjust the **Host
+Identifier** seed.
 
-__CAUTION:__ Do not configure the options on the Results page.
+**CAUTION:** Do not configure the options on the Results page.
 
-__Step 5 –__ On the Results page, all Available Properties are selected by default. Click __Next__.
+**Step 5 –** On the Results page, all Available Properties are selected by default. Click **Next**.
 
-__Step 6 –__ On the Summary page, click __Finish__ to save any setting modifications or click __Cancel__ if no changes were made. Then click __OK__ to close the Query Properties window.
+**Step 6 –** On the Summary page, click **Finish** to save any setting modifications or click
+**Cancel** if no changes were made. Then click **OK** to close the Query Properties window.
 
 If changes were made, the 6-SPAC_BulkImport Job has now been customized.
 
 ## Analysis Tasks for 2-SPAC_BulkImport Job
 
-Navigate to the __Jobs__ > __SharePoint__ > __0.Collection__ > __6-SPAC_BulkImport__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the **Jobs** > **SharePoint** > **0.Collection** > **6-SPAC_BulkImport** > **Configure**
+node and select **Analysis** to view the analysis tasks.
 
-__CAUTION:__ The analysis tasks are preconfigured for this job. Never modify or deselect the selected analysis tasks.
+**CAUTION:** The analysis tasks are preconfigured for this job. Never modify or deselect the
+selected analysis tasks.
 
 ![Analysis Selection](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/collection/spacbulkimportanalysis.webp)
 
 The default analysis tasks are:
 
-- 1. Create Event Name Table – Creates the SA_SPAC_EventNames table associated with SPAC
-- 2. Create Views – Creates the views associated with SPAC
+-   1. Create Event Name Table – Creates the SA_SPAC_EventNames table associated with SPAC
+-   2. Create Views – Creates the views associated with SPAC

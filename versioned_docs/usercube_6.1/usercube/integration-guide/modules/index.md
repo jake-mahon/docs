@@ -1,6 +1,8 @@
 # Modules
 
-Usercube can integrate with other software for issues such as credential protection and logging. To use these integration modules, they just need to be configured in Usercube's ```appsettings.json``` file. Below is more module-specific information.
+Usercube can integrate with other software for issues such as credential protection and logging. To
+use these integration modules, they just need to be configured in Usercube's `appsettings.json`
+file. Below is more module-specific information.
 
 ## Credentials Protection
 

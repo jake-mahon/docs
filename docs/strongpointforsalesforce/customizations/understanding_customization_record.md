@@ -1,23 +1,30 @@
 # Understanding the Customization Record
 
-This topic discusses the new Platform Governance for Salesforce Lightning customization record. It is only available with the Platform Governance for Salesforce Lightning app. Refer to the topic [Old Customization Record](old_customization_record.md) for the old style customization record.
+This topic discusses the new Platform Governance for Salesforce Lightning customization record. It
+is only available with the Platform Governance for Salesforce Lightning app. Refer to the topic
+[Old Customization Record](old_customization_record.md) for the old style customization record.
 
-__NOTE:__ For installed orgs, users must load the Strongpoint Home Page first before opening the __Customization__ tab for the first time after the 6.0 update. The new form assignment happens in the background for the Strongpoint Home page.
+**NOTE:** For installed orgs, users must load the Strongpoint Home Page first before opening the
+**Customization** tab for the first time after the 6.0 update. The new form assignment happens in
+the background for the Strongpoint Home page.
 
-The customization detail contains general information about the customization record. The customization name appears in the banner with function buttons:
+The customization detail contains general information about the customization record. The
+customization name appears in the banner with function buttons:
 
-- __Rescan__: runs the scanner on the record. You are prompted to refresh the page.
-- __Go To Record__: loads the customization record for editing or to view additional details.
-- __Set Policy__: accesses the inherit policy form for the customization.
+- **Rescan**: runs the scanner on the record. You are prompted to refresh the page.
+- **Go To Record**: loads the customization record for editing or to view additional details.
+- **Set Policy**: accesses the inherit policy form for the customization.
 
 Customization record fields include:
 
-- __Owner ID__: Link to the current owner.
-- __Description__: Details added to the record. Click __Update Description and Help Text__ to update.
-- __Salesforce Type__: Customization type.
-- __API Name:__ APIs associated with the record.
-- __Help Text__: Helpful information detailing function and use of each customization. Click __Update Description and Help Text__ to update.
-- __Related Objects__: Links to related objects.
+- **Owner ID**: Link to the current owner.
+- **Description**: Details added to the record. Click **Update Description and Help Text** to
+  update.
+- **Salesforce Type**: Customization type.
+- **API Name:** APIs associated with the record.
+- **Help Text**: Helpful information detailing function and use of each customization. Click
+  **Update Description and Help Text** to update.
+- **Related Objects**: Links to related objects.
 
 ![Strongpoint Lightning Customization Record](../../../static/img/product_docs/strongpointforsalesforce/customizations/customization_record_lightning.webp)
 
@@ -41,47 +48,51 @@ These are the tabs inside a customization record:
 
 The Metadata tab provides the metadata information about the customization, including:
 
-- __Customization Name__: name of the customization.
-- __Salesforce Type__: Salesforce type of the custom field.
-- __Customization Created By__: user who created the customization.
-- __Customization Last Modified By__: user who last modified the customization.
-- __Package__: indicates the package (if any) of the customization.
-- __Active__: indicates whether the customization is a active.
-- __Manageable State__: the current state if it is from a managed/unmanaged package.
-- __Customization Created Date__: date the customization was created.
-- __Customization Last Modified Date__: last date the customization was modified.
+- **Customization Name**: name of the customization.
+- **Salesforce Type**: Salesforce type of the custom field.
+- **Customization Created By**: user who created the customization.
+- **Customization Last Modified By**: user who last modified the customization.
+- **Package**: indicates the package (if any) of the customization.
+- **Active**: indicates whether the customization is a active.
+- **Manageable State**: the current state if it is from a managed/unmanaged package.
+- **Customization Created Date**: date the customization was created.
+- **Customization Last Modified Date**: last date the customization was modified.
 
 ### Custom
 
-The __Custom__ tab shows the join, scanner and DLU dates.
+The **Custom** tab shows the join, scanner and DLU dates.
 
-- __Last Scanner Date__: last date in which the scanner ran and evaluated the current customization.
-- __Make Join Date__: date customization was last passed to Make Join script.
-- __Date Last Used__: date the customization was last used. Refer to [DLU](../clean_up/date_last_used.md) for more information.
+- **Last Scanner Date**: last date in which the scanner ran and evaluated the current customization.
+- **Make Join Date**: date customization was last passed to Make Join script.
+- **Date Last Used**: date the customization was last used. Refer to
+  [DLU](../clean_up/date_last_used.md) for more information.
 
 ### DRD
 
-The Dependency Relationship Diagram ([DRD](../tools/viewing_drd.md)) displays objects, customizations and their relationships and dependencies.
+The Dependency Relationship Diagram ([DRD](../tools/viewing_drd.md)) displays objects,
+customizations and their relationships and dependencies.
 
 ![DRD Example](../../../static/img/product_docs/strongpointforsalesforce/customizations/drd.webp)
 
 ### Change Enablement
 
-The Change Enablement tab accesses the policy and data tacking settings, and the add to change request feature.
+The Change Enablement tab accesses the policy and data tacking settings, and the add to change
+request feature.
 
-- __Change/Approval Policy__: This field designates the approval policy related to a customization.
-- __Add to Change Request__: Lookup tool to associate the clean up to an existing change request.
+- **Change/Approval Policy**: This field designates the approval policy related to a customization.
+- **Add to Change Request**: Lookup tool to associate the clean up to an existing change request.
 - Data Change Tracking: tracking status.  
-  __Not Tracked__: changes in data records are not tracked.  
-  __Tracked, Blocking__: changes in data records are blocked if there is no approved Change Request.  
-  __Tracked, Non-Blocking__: changes in data records are logged.
+  **Not Tracked**: changes in data records are not tracked.  
+  **Tracked, Blocking**: changes in data records are blocked if there is no approved Change
+  Request.  
+  **Tracked, Non-Blocking**: changes in data records are logged.
 
 ### Clean Up
 
 The Clean Up tab provides information customization clean up:
 
-- __Clean Up Status__: This is the clean-up status of customizations that are to be deleted.
-- __Clean-up Classification__: This field shows an overview of the clean-up classification.
+- **Clean Up Status**: This is the clean-up status of customizations that are to be deleted.
+- **Clean-up Classification**: This field shows an overview of the clean-up classification.
 
 ### Related Lists
 

@@ -1,14 +1,17 @@
 # Membership Changes Report
 
-The Membership Changes report at the domain level provides list of groups that had membership changes on the selected domain during the specified date range.
+The Membership Changes report at the domain level provides list of groups that had membership
+changes on the selected domain during the specified date range.
 
 ![Membership Changes report](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/activedirectory/domain/membershipchanges.png)
 
-This table is blank if no changes occurred during the specified date range. This report is comprised of the following columns:
+This table is blank if no changes occurred during the specified date range. This report is comprised
+of the following columns:
 
 - Scan Time – Date and timestamp of the Enterprise Auditor scan that identified the change
 - Group Name – Name of the group
-- Group Type – Type and scope of the group object: Domain Local/Global/Universal, Distribution/Security
+- Group Type – Type and scope of the group object: Domain Local/Global/Universal,
+  Distribution/Security
 - Description – Description of this group as read from Active Directory
 - Group DN – Distinguished name for the group account
 - Change Type – Type of change that occurred: Added or Removed

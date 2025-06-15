@@ -13,45 +13,45 @@ POST
 #### Sample Request Syntax
 
 ```
-{  
-  "IdentityStoreID": 2,  
-  "ReplicationRequired": true,  
-  "JoinType": {  
-    "MembershipType": 1,  
-    "StartDate": "0001-01-01T00:00:00",  
-    "EndDate": "0001-01-01T00:00:00",  
-    "Reason": "test"  
- }  
+{
+  "IdentityStoreID": 2,
+  "ReplicationRequired": true,
+  "JoinType": {
+    "MembershipType": 1,
+    "StartDate": "0001-01-01T00:00:00",
+    "EndDate": "0001-01-01T00:00:00",
+    "Reason": "test"
+ }
 }
 ```
 
 #### Sample Response Syntax
 
 ```
-{  
-    "currentDirectoryServer": null,  
-    "exceptionMessagesAttributeWise": null,  
-    "data": null,  
-    "identityStoreObject": null,  
-    "name": null,  
-    "errorCode": null,  
-    "details": [  
-        {  
-            "currentDirectoryServer": null,  
-            "exceptionMessagesAttributeWise": null,  
-            "data": null,  
-            "identityStoreObject": null,  
-            "name": null,  
-            "errorCode": null,  
-            "details": [  
-            ],  
-            "type": 0,  
-            "message": null,  
-            "status": 0  
-        }  
-    ],  
-    "type": 0,  
-    "message": null,  
-    "status": 0  
+{
+    "currentDirectoryServer": null,
+    "exceptionMessagesAttributeWise": null,
+    "data": null,
+    "identityStoreObject": null,
+    "name": null,
+    "errorCode": null,
+    "details": [
+        {
+            "currentDirectoryServer": null,
+            "exceptionMessagesAttributeWise": null,
+            "data": null,
+            "identityStoreObject": null,
+            "name": null,
+            "errorCode": null,
+            "details": [
+            ],
+            "type": 0,
+            "message": null,
+            "status": 0
+        }
+    ],
+    "type": 0,
+    "message": null,
+    "status": 0
 }
 ```

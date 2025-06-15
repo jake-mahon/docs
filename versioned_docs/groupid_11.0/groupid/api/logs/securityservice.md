@@ -1,6 +1,8 @@
 # Security Service Logs
 
-This API fetches GroupID Security service logs. See the [Security Service](/versioned_docs/groupid_11.0/groupid/admincenter/service/securityservice/overview.md) topic for additional information on Security service.
+This API fetches GroupID Security service logs. See the
+[Security Service](/versioned_docs/groupid_11.0/groupid/admincenter/service/securityservice/overview.md)
+topic for additional information on Security service.
 
 ## Endpoint
 

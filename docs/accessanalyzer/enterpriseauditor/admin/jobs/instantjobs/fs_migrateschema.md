@@ -1,8 +1,11 @@
 # FS_MigrateSchema Job
 
-The FS_Migrate_Schema Job migrates the schema in order to support the use of 64-bit ResourceID's without affecting data. It is available through the Instant Job Library under the File System library. See the [Instant Job Wizard](overview.md) topic for instructions to add this instant job into the Jobs tree.
+The FS_Migrate_Schema Job migrates the schema in order to support the use of 64-bit ResourceID's
+without affecting data. It is available through the Instant Job Library under the File System
+library. See the [Instant Job Wizard](overview.md) topic for instructions to add this instant job
+into the Jobs tree.
 
-For installing the job, select __Local host__ on the Hosts page of the Instant Job Wizard.
+For installing the job, select **Local host** on the Hosts page of the Instant Job Wizard.
 
 ![FS_MigrateSchema job in the Jobs tree](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.webp)
 
@@ -15,13 +18,16 @@ Runtime Details:
 - Multi-console Support – Not supported
 - Additional Notes – None
 
-The FS_Migrate Schema Job migrates the schema in order to support the use of 64-bit ResourceID's without affecting data.
+The FS_Migrate Schema Job migrates the schema in order to support the use of 64-bit ResourceID's
+without affecting data.
 
 ## Analysis Tasks for the FS_MigrateSchema Job
 
-Navigate to the __Jobs__ > __FS_MigrateSchema__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
+Navigate to the **Jobs** > **FS_MigrateSchema** > **Configure** node and select **Analysis** to view
+the analysis tasks.
 
-__CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
+**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+preconfigured for this job.
 
 ![Default Analysis tasks for the job](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/instantjobs/analysistasks.webp)
 
@@ -40,7 +46,8 @@ The default analysis tasks are:
 - 11.Migrate DFS Links – Migrates the SA_FSDFS_Links table to leverage 64-bit IDs
 - 12.Migrate DLP Matches – Migrates the SA_FSDLP_Matches table to leverage 64-bit IDs
 - 13.Migrate DLP MatchHits – Migrates the SA_FSDLP_MatchHits table to leverage 64-bit IDs
-- 14.Migrate DLP MatchHits Subject Profile – Migrates the SA_FSDLP_MatchHits_SubjectProfile table to leverage 64-bit IDs
+- 14.Migrate DLP MatchHits Subject Profile – Migrates the SA_FSDLP_MatchHits_SubjectProfile table to
+  leverage 64-bit IDs
 - 15.Migrate FSAC ActivityEvents – Migrates the SA_FSAC_ActivityEvents table to leverage 64-bit IDs
 - 16.Migrate DailyActivity – Migrates the SA_FSAC_DailyActivity table to leverage 64-bit IDs
 - 17.Migrate FSAC RenameTargets – Migrates the SA_FSAC_RenameTargets table to leverage 64-bit IDs

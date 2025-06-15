@@ -1,6 +1,9 @@
 # FSAA: Default Scoping Options
 
-The Default Scoping Options page is where scan settings, file details, and file properties settings can be configured for every resource in the targeted environment by the data collector. The settings assigned on this page are used by all resources involved in the scan. It is a wizard page for the categories of:
+The Default Scoping Options page is where scan settings, file details, and file properties settings
+can be configured for every resource in the targeted environment by the data collector. The settings
+assigned on this page are used by all resources involved in the scan. It is a wizard page for the
+categories of:
 
 - File System Access/Permission Auditing Scan
 - Sensitive Data Scan
