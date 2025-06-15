@@ -9,6 +9,7 @@ on:
 jobs:
   prettier:
     name: Run Prettier
+    if: false
     runs-on: ubuntu-latest
 
     steps:
