@@ -49,7 +49,7 @@ Netwrix administrator does the following:
   [Create Alerts](/versioned_docs/auditor_10.6/auditor/admin/alertsettings/create.md) to create and
   configure the necessary alerts.
 
-    - Remember to set the filter to “**Data Source\_**equals**\_VMware**”.
+    - Remember to set the filter to “**Data Source_**equals**_VMware**”.
 
 - **Netwrix Auditor Data Collection Service**starts periodic (every 15 min) data collection
   sessions. The results of each session include:

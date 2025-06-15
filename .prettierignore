@@ -1,3 +1,10 @@
 # Ignore artifacts:
 build
 coverage
+
+# Ignore Claude configuration
+.claude/
+
+# Temporary ignore
+versioned_docs/*
+versioned_sidebars/*

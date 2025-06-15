@@ -6,7 +6,7 @@ pane and select **My Groups**. On the My Groups page, click the **My Expired Gro
 The following events occur when a group expires:
 
 - The group becomes inactive and is locked for all activities.
-- "EXPIRED\_" is added as a prefix to the group name.
+- "EXPIRED_" is added as a prefix to the group name.
 - A mail-enabled distribution group is mail-disabled, which means that any emails sent to the group
   are bounced back with an expiry message.
 - For an Office 365 group, its member list is backed up in the database and cleared from Office 365.

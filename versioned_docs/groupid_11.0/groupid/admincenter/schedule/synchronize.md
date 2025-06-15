@@ -17,7 +17,7 @@ What do you want to do?
 4. On the **Schedules** page, click **Add Schedule** and select **Synchronize Job**. The **Create
    Schedule** page is displayed.
 5. In the **Schedule Name** box, enter a name for the schedule.
-6. The **Name Preview** displays the schedule name prefixed with \_SynchronizeJobPortal\_\_; the
+6. The **Name Preview** displays the schedule name prefixed with _SynchronizeJobPortal__; the
    schedule is displayed with this name in email notifications.
 7. In the **Scheduler Service Name** drop-down list, select a Scheduler service that would be
    responsible for triggering this schedule. The number of services displayed in the list depend on

@@ -13,16 +13,16 @@ Any non-necessary Services or Services you are generally unconcerned about shoul
 
 ![PolicyTemplatesProcessesServices](/img/versioned_docs/changetracker_8.0/changetracker/admin/settings/policytemplates/policytemplatesprocessesservices2.png)
 
-- \_**\_Uncategorized Process/Service Action\_\_** - Use this option if you want to be alerted to
+- _**_Uncategorized Process/Service Action__** - Use this option if you want to be alerted to
   the presence of any new, uncategorized processes or services. This is an option as in some
   situations it may be convenient to be alerted to missing, key processes.
 
-- \_**\_Polling Frequency\_\_** - See previous Change Tracker notes.
+- _**_Polling Frequency__** - See previous Change Tracker notes.
 
 - Define Process (Service) Name - Processes/Services can be defined as either Required, Blacklisted,
   Whitelisted or Graylisted.
 
-    - \_**\_Required\_\_** - The Process/Service must be in the state required and an alert will be
+    - _**_Required__** - The Process/Service must be in the state required and an alert will be
       raised if this is not the case.
     - Whitelisted - The Process/Service is allowed to be present, but this is not mandatory.
     - Blacklisted - The Process/Service is never allowed to be present, and an alert will be raised

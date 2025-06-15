@@ -31,7 +31,7 @@ Usercube provides three distinct synchronization algorithms:
 - _complete_
 - _initial_
 
-_Complete_ is most straightforward one. A _complete\_\_Sync Up_ loads the managed systems' data into
+_Complete_ is most straightforward one. A _complete__Sync Up_ loads the managed systems' data into
 Usercube as-is, replacing entirely the currently held data.
 
 As it involves sending large amounts of data over HTTP between _Agent_ and _Server_, _complete_
@@ -58,10 +58,10 @@ resuming the _incremental Sync Up_ iterations.
 Safeguards are also implemented to avoid accidental overwrites, that would be caused by an empty or
 incomplete input.
 
-Finally, the _initial\_\_Sync Up_ is designed to be used the first time a managed system connects to
+Finally, the _initial__Sync Up_ is designed to be used the first time a managed system connects to
 Usercube. Just as the _complete_, it loads the data as a whole. But, unlike the _complete_, it does
 not overwrites the currently held data and does not provide any safeguard. The _initial_ mode
-provides a quick way to perform the first _Sync Up_. The trade-off is security: _initial\_\_Sync Up_
+provides a quick way to perform the first _Sync Up_. The trade-off is security: _initial__Sync Up_
 should only be used the first time a managed system connected to Usercube and the database is empty,
 as far as this connector is concerned. Launching the Initial _Sync Up_ twice would actually load the
 same data twice whereas launching the _complete_ twice would have the same effect as launching the

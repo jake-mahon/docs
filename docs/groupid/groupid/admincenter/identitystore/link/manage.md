@@ -111,7 +111,7 @@ What do you want to do?
         AND.
 
         The filter is added and displayed on the **Link Identity Stores** page.  
-        You can specify one filter expression for the user object and one filter expression for the
+         You can specify one filter expression for the user object and one filter expression for the
         group object.
 
     6. Click **Add Filter Scope** to specify a container for linked identities Directory Manager to

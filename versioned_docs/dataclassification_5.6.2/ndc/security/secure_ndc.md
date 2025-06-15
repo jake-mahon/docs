@@ -81,7 +81,7 @@ you may wish to fully restrict access to these endpoint(s) via your firewall or 
 
 The following paths should be considered as part of this process:
 
-- /\_api/\*
+- /_api/\*
 - \*.asmx
 - \*.svc
 

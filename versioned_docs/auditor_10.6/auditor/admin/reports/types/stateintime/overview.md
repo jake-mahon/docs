@@ -26,8 +26,8 @@ reports** option when you configure a monitoring plan for the selected data sour
 topic for additional information.
 
 The state-in-time reports are available under the Reports node. Depending on the data source,
-navigate to the corresponding subfolder, for example, **Predefined\_\_**>\_**\_Active
-Directory\_\_**>\_**\_Active Directory\_\_**>\_**\_State-in-Time**.
+navigate to the corresponding subfolder, for example, **Predefined__**>_**_Active
+Directory__**>_**_Active Directory__**>_**_State-in-Time**.
 
 In the report filters, select a monitoring plan you want to generate a report for. To review data
 sources and items included in each plan, navigate to the Monitoring Plans section.

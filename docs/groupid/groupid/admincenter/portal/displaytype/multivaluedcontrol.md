@@ -54,7 +54,7 @@ schema attribute you link this display type with.
         as default (see Step 9), then in the portal, the value will be displayed as selected to the
         user. Once the user removes it, he or she cannot select it again from the multi-valued
         drop-down list.  
-        (2) If a user has accessibility on a value but not visibility, the value will not be
+         (2) If a user has accessibility on a value but not visibility, the value will not be
         displayed to the user. Hence, accessibility will have no impact.
 
     5. Click **OK**. The value is listed in the **Values** area, represented by its display text.

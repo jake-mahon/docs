@@ -21,14 +21,14 @@ view, manage and update these permissions in the GroupID portal.
 
 On the very first run of the Entitlement schedule, it computes all permissions from scratch and
 performs a complete replication. On each next run, it will create a parallel index for that specific
-server/SharePoint site index with the suffix \_replication which computes all permissions from
+server/SharePoint site index with the suffix _replication which computes all permissions from
 scratch. In the meantime, user can perform actions on GroupID Entitlement. The actions performed
 during this parallel replication are committed directly at the provider and stored in the database.
 These changes are then immediately committed to elastic after the replication is complete.
 
 The scope schedule changes are replicated after the new index is done replicating permissions from
 the server/SharePoint. When this parallel index gets completely replicated, it becomes the new
-primary index for this server/SharePoint site and the \_replication index is deleted from indices.
+primary index for this server/SharePoint site and the _replication index is deleted from indices.
 
 The GroupID Entitlement schedule runs in the context of the following accounts:
 
@@ -65,7 +65,7 @@ the ellipsis button for the schedule and select **Edit**.
 
 Step 5 – On the **Edit Schedule** page, the **Schedule Name** and **Name Preview** boxes display the
 name of the schedule as read-only. The name format is
-_Entitlement_`<the name of the machine the schedule is created on>`\_.
+_Entitlement_`<the name of the machine the schedule is created on>`_.
 
 Step 6 – In the **Scheduler Service Name** drop-down list, select a Scheduler service that would be
 responsible for triggering this schedule. The number of services displayed in the list depend on the

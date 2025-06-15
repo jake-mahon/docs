@@ -24,7 +24,7 @@ Netwrix Data Classification and other services.
     3. Choose **Manage Computer Certificates**.
     4. Right-click on the certificate you created.
     5. Select **All Tasks**, **Export**.
-    6. On the displayed message, click \_**\_Do not export private key\_\_**.
+    6. On the displayed message, click _**_Do not export private key__**.
     7. Set file type to _DER-encoded binary x.509_ (CER).
     8. Chose location to save the certificate and name it as **leave.cer**. You can later upload it
        to the Microsoft Entra ID admin center.
@@ -99,7 +99,7 @@ relevant set of permissions therein.
     store on the website https://xxxx-admin.sharepoint.com/_layouts/15/termstoremanager.aspx (where
     "xxxx" is your tenant).
 
-5. Click \_**\_Add permissions\_\_**.
+5. Click _**_Add permissions__**.
 
 ## Step 4: Configure Certificates & Secrets
 

@@ -35,7 +35,7 @@ Review the related procedure that corresponds to your Exchange deployment:
 
 6. Select the users to assign to this role group. They will have permissions to manage the roles
    that you assigned in the previous step.
-7. Finish adding the permissions by selecting \_**\_Add role group\_\_**.
+7. Finish adding the permissions by selecting _**_Add role group__**.
 
 ## Exchange Server (On-Premise)
 

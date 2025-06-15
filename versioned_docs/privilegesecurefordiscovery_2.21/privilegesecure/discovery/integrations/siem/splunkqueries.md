@@ -27,7 +27,7 @@ index="remediant" "queue.request.activity\{\}.message"="Successfully added user:
 | eval completed_time = strptime(tostring('queue.processed') , "%Y-%m-%dT%H:%M:%S.%6N")  
 | eval diff = completed_time - start_time  
 | eval accessDate = strftime(start_time, "%Y-%m-%d")  
-| sort \_time  
+| sort _time  
 | table accessDate, queue.request.type, queue.request.created, diff message
 queue.request.activity\{\}.message
 
@@ -189,7 +189,7 @@ When a JITA session is successfully granted, the following log message is emitte
 - targetSystem — properties describing the system where the JITA access session was granted
 
 - index="remediant*stg" name=api "request.request.activity.message"="Successfully added user:*" |
-  spath "request.system.cn"\_ _| search "request.system.cn"=_
+  spath "request.system.cn"_ _| search "request.system.cn"=_
 
 Example message log
 
@@ -198,7 +198,7 @@ Example message log
 ,\"request\":\{\"requested_by\":\"5c192e747d629e76ab4c0baa\",\"requested_by_info\  
 ":\{\"distinguishedName\":\"CN=Craig Harper,OU=Remediant,DC=demo,DC=remediant,DC=io\"  
 ,\"sAMAccountName\":\"craig\",\"domain_netbios\":\"DEMO\",\"domain_fqdn\":\  
-"demo.remediant.io\"\},\"\_\_v\":0,\"processed\":\"2019-10-25T23:02:17.436Z\",\"stale\"  
+"demo.remediant.io\"\},\"__v\":0,\"processed\":\"2019-10-25T23:02:17.436Z\",\"stale\"  
 :false,\"comment\":\"\",\"request\":\{\"user\":\"5c192e747d629e76ab4c0baa\",\  
 "userInfo\":\{\"distinguishedName\":\  
 "CN=Craig Harper,OU=Remediant,DC=demo,DC=remediant,DC=io\"\},\"inProgress\":false,\  
@@ -235,7 +235,7 @@ Example message log
 - targetSystem — properties describing the system where the JITA access session is set to manually
   expire
 
-- index="remediant_stg" name=api "targetSystem.\_id"=\*
+- index="remediant_stg" name=api "targetSystem._id"=\*
 
 ## Access Error: STATUS_ACCESS_DENIED for a specific OU:
 
@@ -321,14 +321,14 @@ Example:
 "access": \{  
 "type": "other",  
 "user": \{  
-"\_id": "5e562a67dea345d0a59e74fb",  
+"_id": "5e562a67dea345d0a59e74fb",  
 "domain_netbios": "CSTEST",  
 "objectSid": "S-1-5-21-4099641008-4128879968-2022382535-1118",  
 "sAMAccountName": "thadmin"
 
 ## Failed UI Login - Bad Username
 
-**UI Error\_\_**:\_\_ User not found.
+**UI Error__**:__ User not found.
 
 ![blobid1.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/integrations/siem/360048705953_blobid0.png)
 
@@ -360,7 +360,7 @@ Example:
 
 ## Failed UI Login - Bad Password
 
-1. **UI Error\_\_**:\_\_ Invalid username/password
+1. **UI Error__**:__ Invalid username/password
 
 ![blobid2.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/integrations/siem/360048705953_blobid2.png)
 
@@ -376,7 +376,7 @@ Example:
 "access": \{  
 "type": "other",  
 "user": \{  
-"\_id": "5e562a67dea345d0a59e74fb",  
+"_id": "5e562a67dea345d0a59e74fb",  
 "domain_netbios": "CSTEST",  
 "objectSid": "S-1-5-21-4099641008-4128879968-2022382535-1118",  
 "sAMAccountName": "thadmin"  
@@ -385,11 +385,11 @@ Example:
 
 ## Failed UI Login - Bad Token
 
-1. **UI Error\_\_**:\_\_ Invalid token.
+1. **UI Error__**:__ Invalid token.
 
 ![blobid3.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/integrations/siem/360048705953_blobid3.png)
 
-1. **Key String\_\_**:\_\_ Invalid token
+1. **Key String__**:__ Invalid token
 2. **Command Line Use/Syntax:**
 
     `sudo docker service logs --raw --no-trunc --since 30s --tail 50 --follow=True s1_fluentd | awk '/Invalid token/,/time/'`

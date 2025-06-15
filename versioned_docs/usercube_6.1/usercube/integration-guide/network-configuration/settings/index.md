@@ -58,8 +58,8 @@ content of the corresponding HTML file depending on the currently selected langu
 
 ```
 
-- **Url\_**(required)\_ defines the url address from which to access the custom page.
-- **Path*L1***(required)\_ defines the path (from the configuration root) to the HTML file to be
+- **Url_**(required)_ defines the url address from which to access the custom page.
+- **Path*L1***(required)_ defines the path (from the configuration root) to the HTML file to be
   rendered depending on the currently selected language in the user interface (`Path_L1` to
   `Path_L16` are available). Only `Path_L1` is required. While navigating to a custom link, if no
   HTML path was defined for the current language, then `Path_L1` is taken as default.
@@ -137,8 +137,8 @@ the following pattern:
   authentication login used by the end-user.
 - **OwnerEntityType** is the entity type of the resources used to store digital identities within
   Usercube.
-- **BeforeToken\_**(optional)\_ defines the first character used to trim the authentication login.
-- **AfterToken\_**(optional)\_ defines the second character used to trim the authentication login.
+- **BeforeToken_**(optional)_ defines the first character used to trim the authentication login.
+- **AfterToken_**(optional)_ defines the second character used to trim the authentication login.
 
     The trimmed result is the content of the authentication login between _AfterToken_ and
     _BeforeToken_. If _BeforeToken_ is empty, trimmed result is everything after _AfterToken_. If

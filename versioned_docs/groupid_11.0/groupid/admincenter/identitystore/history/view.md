@@ -74,8 +74,8 @@ value, and more.
 
     **Add more filters** - On adding a filter, the next row is displayed, so you can add another
     filter.  
-    **Remove a filter row** - To remove a filter row, click **Remove** for it.  
-    **Remove the filter** - To remove all the filter rows, click **Clear**.
+     **Remove a filter row** - To remove a filter row, click **Remove** for it.  
+     **Remove the filter** - To remove all the filter rows, click **Clear**.
 
 7. To apply the filter, click **Apply**. With multiple filters, history items that satisfy all the
    filters are displayed.

@@ -78,7 +78,7 @@ can be written to the following configuration sources:
   file which contains encrypted setting information.
 - An _Azure Key Vault_ safe (see
   [azure key vault](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md)).
-- A _CyberArk\_\_Vault_ referenced by the
+- A _CyberArk__Vault_ referenced by the
   [appsettings.cyberark.agent.json](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)
   file.
 - The

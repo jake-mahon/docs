@@ -109,7 +109,7 @@ What do you want to do?
         group them using the AND/OR operator, GroupID auto groups them using AND.
 
         The filter is added and displayed on the **Link Identity Stores** page.  
-        You can specify one filter expression for the user object and one filter expression for the
+         You can specify one filter expression for the user object and one filter expression for the
         group object.
 
     6. Click **Add Filter Scope** to specify a container for linked identities GroupID to link and

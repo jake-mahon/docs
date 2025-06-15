@@ -46,7 +46,7 @@ Create the entity type by proceeding as follows:
     > to classify, with the properties that are useful for assignment management.
     >
     > The AD connector uses as a source `Connection Active Directory - entries`. Its structure was
-    > retrieved when we refreshed the schemas of the `Active Directory`
+    > retrieved when we refreshed the schemas of the `Active Directory` >
     > [Create a Connection](../../connection-creation/index.md), thus retrieving the attributes from
     > the Active Directory and storing them temporarily on the agent side, inside CSV files.
 

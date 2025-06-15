@@ -74,20 +74,14 @@ in accordance with the requirements.
 
 ![new emergend HTML](../../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/extras/system_tasks/emergency_webviewer/installation_with_parameters_93-en_925x527.webp)
 
-1. **General**
-    Name: Enter a unique name Description: Enter additional information  
-    Status: Execution: \*Activated\*/Deactivated
-2. **Overview**
-    Last run: Information display Next run: Information display
-3. **Task settings**
-    Folder path: Enter from the perspective of the server  
-    Private key: needs to be saved
-4. **Interval**
-    Setting for when the system task is executed
-5. **Executing server (optional)**
-    Address (IP) of the additional server
-6. **Tags**
-    Freely definable characteristics of records
+1. **General** Name: Enter a unique name Description: Enter additional information  
+   Status: Execution: \*Activated\*/Deactivated
+2. **Overview** Last run: Information display Next run: Information display
+3. **Task settings** Folder path: Enter from the perspective of the server  
+   Private key: needs to be saved
+4. **Interval** Setting for when the system task is executed
+5. **Executing server (optional)** Address (IP) of the additional server
+6. **Tags** Freely definable characteristics of records
 
 **CAUTION:** The private key for the Emergency WebViewer must be saved before the system task can be
 saved!

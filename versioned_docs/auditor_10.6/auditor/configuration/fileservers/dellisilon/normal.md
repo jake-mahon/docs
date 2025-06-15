@@ -16,7 +16,7 @@ shell script:
 
 **Step 1 –** On the computer where Auditor Server resides, navigate to _C:\Program Files
 (x86)\Netwrix Auditor\File Server Auditing_ and copy the configure*ifs.sh shell script to
-*/ifs/data\_ catalog on your cluster.
+*/ifs/data_ catalog on your cluster.
 
 **Step 2 –** Navigate to your cluster command prompt through the SSH connection.
 
@@ -60,7 +60,7 @@ chmod +a user root allow dir_gen_read /ifs/.ifsvar/audit/
 ```
 
 **Step 4 –** Create a shared folder named netwrix*audit$ on a system zone. This folder points to
-*/ifs/.ifsvar/audit/\_:
+*/ifs/.ifsvar/audit/_:
 
 ```
 /usr/likewise/bin/lwnet share add "netwrix_audit$"="c:\\ifs\\.ifsvar\\audit\\"
@@ -80,7 +80,7 @@ This command is required to create a shared folder pointed to _/ifs/.ifsvar/audi
 the warning.
 
 **Step 5 –** Add the BUILTIN\Administrators group in the share permissions for the netwrix*audit$
-folder with *"full access"\_ rights:
+folder with *"full access"_ rights:
 
 ```
 isi smb shares permission create --share=netwrix_audit$ --group="BUILTIN\Administrators" 

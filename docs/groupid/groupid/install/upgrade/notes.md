@@ -27,8 +27,8 @@ The source version file system is required for the following:
   selected attributes).
 
     File name: `<name of the domain the identity store is created on>`\_`<identity store ID>`.xml  
-    Example: techinfo.local_4.xml, techinfo.onmicrosoft.com_6.xml  
-    A separate file exists for each identity store.
+     Example: techinfo.local_4.xml, techinfo.onmicrosoft.com_6.xml  
+     A separate file exists for each identity store.
 
     File Path on the Directory Manager 11 server:
     ``C:\Program Files\Imanami\GroupID `<source version>`\Replication\IdentityStoresReplicationAttributes\``
@@ -40,10 +40,11 @@ The source version file system is required for the following:
   process it.
 
     File name: The name of the uploaded file.  
-    For example: DisallowedPasswords.txt
+     For example: DisallowedPasswords.txt
 
     File Path on the Directory Manager11
-    server:`` C:\Program Files\Imanami\GroupID `<source version>`\GroupIDDataService\PasswordCenter\PasswordExceptionLists\`<identity store name>`_`<identity store ID>`\``  
+    server:`` C:\Program Files\Imanami\GroupID `<source version>`\GroupIDDataService\PasswordCenter\PasswordExceptionLists\`<identity store name>`_`<identity store ID>`\``
+
     Example:
     `C:\Program Files\Imanami\GroupID 10.0\GroupIDDataService\PasswordCenter\PasswordExceptionLists\ADStore_4\`
 

@@ -35,7 +35,7 @@ Privilege Secure application.
 "message": "WINCOMP-CH.cstest.test - Adding admin privileges: CSTEST\\chadmin",  
 "name": "remediant",  
 "queue": \{  
-"\_id": "62e9764602c5350045aaebd7",  
+"_id": "62e9764602c5350045aaebd7",  
 "request": \{  
 "status": "pending",  
 "type": "access"  
@@ -49,7 +49,7 @@ Privilege Secure application.
 \}  
 \},  
 "requestedByUser": \{  
-"\_id": "5e5623b8dea345d0a59e6af9",  
+"_id": "5e5623b8dea345d0a59e6af9",  
 "domain_netbios": "CSTEST",  
 "objectSid": "S-1-5-21-4099641008-4128879968-2022382535-1115",  
 "sAMAccountName": "chadmin"  
@@ -57,7 +57,7 @@ Privilege Secure application.
 "service": "svc-worker",  
 "system": "Main",  
 "targetSystem": \{  
-"\_id": "61171f0792416d1dd3a9eac7",  
+"_id": "61171f0792416d1dd3a9eac7",  
 "cn": "WINCOMP-CH",  
 "distinguishedName": "CN=WINCOMP-CH,OU=Servers,DC=cstest,DC=test",  
 "domain_netbios": "CSTEST",  
@@ -69,7 +69,7 @@ Privilege Secure application.
 \}  
 \},  
 "targetUser": \{  
-"\_id": "5e5623b8dea345d0a59e6af9",  
+"_id": "5e5623b8dea345d0a59e6af9",  
 "domain_netbios": "CSTEST",  
 "objectSid": "S-1-5-21-4099641008-4128879968-2022382535-1115",  
 "sAMAccountName": "chadmin"  
@@ -86,7 +86,7 @@ the JSON message is successfully parsed.
 
 ![blobid1.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/integrations/siem/7742334174999_blobid1.png)
 
-For Splunk parsing, the use of the "\_json" Source Type selection is located under the Settings >
+For Splunk parsing, the use of the "_json" Source Type selection is located under the Settings >
 Data Inputs > HTTP Event collector > "SecureONE" token > Source Type drop down list.
 
 **NOTE:** The Token name in the below image is "secureone" but this can be named anything to

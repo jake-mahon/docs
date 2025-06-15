@@ -128,9 +128,11 @@ it will be 5.1.7.
        "C:/UsercubeExamplePath/ConfOld/" --output "C:/UsercubeExamplePath/Conf/" --appsettings-path
        "C:/UsercubeExamplePath/AppSettingsFolder/appsettings.agent.json" --runtime-path
        "C:/UsercubeExamplePath/Runtime"
+
         ```
 
         ```
+
     4. Optional: update the configuration version now that it has been migrated. **NOTE: Change
        nothing else in the configuration except what is needed for the migration. The newly migrated
        conf should be the functional equivalent of the one already in the database.**
@@ -178,6 +180,7 @@ it will be 5.1.7.
        source=.;Database=Usercube;Integrated Security=SSPI;Min Pool Size=10;" --appsettings-path
        "C:/UsercubeExamplePath/AppSettingsFolder/appsettings.agent.json" --runtime-path
        "C:/UsercubeExampleAgent/Runtime"
+
         ```
 
         ```

@@ -25,7 +25,7 @@ exhibiting changes, for example, when pre-staging patches, or from observed chan
 Change Tracker. Planned Changes comprise the devices to assess, change window and details of the
 changes to match, such as a file change or registry value, for example.
 
-This \_Closed-Loop**\_,** Intelligent Change Controlclosely aligns to COBIT or ITIL Change Control
+This _Closed-Loop\*\*_,\*\* Intelligent Change Controlclosely aligns to COBIT or ITIL Change Control
 processes whereby changes are pre-approved via a ‘Request For Change’ process, then reviewed for
 accuracy and quality via a QA Testing or Post-implementation review. Netwrix offer a ServiceNow
 Certified ITSM Integration Module to automatically pull in Change Requests from most leading ITSM

@@ -53,7 +53,7 @@ The Add Credentials window has the following features:
     - Operating System – Operating System of resource
     - Active Session Count – Number of active sessions
 
-**Step 4 –** \_(Optional)\_Toggle between Credentials or Credential Groups.
+**Step 4 –** _(Optional)_Toggle between Credentials or Credential Groups.
 
 **Step 5 –** To add a credential to the access policy, click a row in the Available Credentials
 table and it is immediately moved to the Credentials to Add table.

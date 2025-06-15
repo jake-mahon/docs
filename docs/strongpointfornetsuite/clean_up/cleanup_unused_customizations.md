@@ -55,14 +55,14 @@ The basic clean up process:
     ![View the Customization Record](../../../static/img/product_docs/strongpointfornetsuite/clean_up/customizations_cleanup_view_record.webp)
 
 5. Use the **ERD**, **Base Record** and **Related Objects** links to review the dependencies.  
-    If you have a **Documentation and Optimization** license:
+   If you have a **Documentation and Optimization** license:
 
     1. Click **Edit** if you decide it is safe to delete the customization.
     2. Select **Actions** > **Delete**
     3. Click **Save**
-    4. Return to your Results page and continue your investigations.
-        If you have an **Intelligent Change Management** or **Enterprise** license, continue with
-        these steps using the Change Management features.
+    4. Return to your Results page and continue your investigations. If you have an **Intelligent
+       Change Management** or **Enterprise** license, continue with these steps using the Change
+       Management features.
 
 ## Create Change Requests
 

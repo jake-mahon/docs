@@ -37,7 +37,7 @@ You can configure GroupID immediately after installing it or later.
 
         This option also configures the GroupID Elasticsearch Service as a slave node to the master
         node for the Elasticsearch Service cluster configured on the GroupID server.  
-        See the
+         See the
         [Configure a new GroupID server to add it into an existing GroupID 11 cluster with an existing database](/versioned_docs/groupid_11.0/groupid/install/configure/database.md)
         topic for additional information.
 

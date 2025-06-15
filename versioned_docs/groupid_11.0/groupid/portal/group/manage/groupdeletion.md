@@ -32,7 +32,7 @@ deletes expired groups automatically based on the Group Life Cycle policy for th
 
 Logically deleted groups are moved to the
 [My Deleted Groups](/versioned_docs/groupid_11.0/groupid/portal/group/mydeletedgroups.md) page with
-the 'Deleted\_' prefix added to their names. Such groups have all their attributes intact. As a
+the 'Deleted_' prefix added to their names. Such groups have all their attributes intact. As a
 result, a logically deleted group, when renewed, returns to the state it had at the time of
 deletion.
 

@@ -65,7 +65,7 @@ This report has the following filters:
 ## Considerations and limitations
 
 - Reporting for case-sensitive SQL Servers and databases is not supported.
-- Permissions for INFORMATION*SCHEMA granted via \_master db* will not be reported.
+- Permissions for INFORMATION*SCHEMA granted via _master db* will not be reported.
 - The report will not show the RESTORE capability for the database owner.
 
 - The report will not show the ALTER (SERVER_ROLE) capability for the privileged users in SQL Server
@@ -96,9 +96,9 @@ monitoring plan named _SQL Servers Monitoring_.
 To examine the relevant data, they generated the **Account Permissions in SQL Server** report with
 the filters set as follows:
 
-- **Monitoring plan:\_**SQL Servers Monitoring\_
-- **Snapshot date:\_**Current Session\_
-- **Item:\_**SQLSrv01\SQLServer2016\_
+- **Monitoring plan:_**SQL Servers Monitoring_
+- **Snapshot date:_**Current Session_
+- **Item:_**SQLSrv01\SQLServer2016_
 - **User account:** _Corp\Ian.Harris_
 
 The report revealed that this user has access permissions for the master database. To discover how

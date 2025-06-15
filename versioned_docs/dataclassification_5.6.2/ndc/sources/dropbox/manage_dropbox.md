@@ -30,7 +30,7 @@ To configure exclusions, do the following:
 
     For example:
 
-    - \__https://www.dropbox.com/home/_Test Folder/\*_ will exclude all documents in the folder
+    - __https://www.dropbox.com/home/_Test Folder/\*_ will exclude all documents in the folder
     - _\*/Restricted Folder/\*_ will exclude specific folder in any Dropbox source
 
 **NOTE:** Exclusions are case-insensitive.

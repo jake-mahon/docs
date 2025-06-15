@@ -107,14 +107,14 @@ navigation property A is called the reverse property of navigation property B.
 For example,
 
 - The _User_ entity type has the navigational property _Positions_ (a link to **zero or
-  more\_**Position\_ entities);
+  more_**Position_ entities);
 - The _Position_ entity type has the navigational property _Person_ (a link to **zero or
-  one\_**User\_ entity);
+  one_**User_ entity);
 - The navigational property _Person_ is the reverse link of the navigational property _Positions;_
-- The _User_ entity type has the navigational property _Manager_ (a link to **zero or one\_**User\_
+- The _User_ entity type has the navigational property _Manager_ (a link to **zero or one_**User_
   entity);
 - The _User_ entity type has the navigational property _Subordinates_ (a link to **zero or
-  more\_**User\_ entities);
+  more_**User_ entities);
 - The navigational property _Subordinates_ is the reverse link of the navigational property
   _Manager_.
 
@@ -178,7 +178,7 @@ Usercube's Entity Model also contains **a mapping** between the external data an
 [EntityProperties](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)
 or
 [EntityAssociations](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md).
-That's why entity types are organized into **connectors**. The **mapping\_**connects\_ entity types
+That's why entity types are organized into **connectors**. The **mapping_**connects_ entity types
 to external sources of truth.
 
 This information is provided by the

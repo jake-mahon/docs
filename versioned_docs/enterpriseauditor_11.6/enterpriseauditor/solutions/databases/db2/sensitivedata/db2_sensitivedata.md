@@ -3,7 +3,7 @@
 This job provides information on all the sensitive data that was discovered in the targeted Db2
 database servers based on the selection scan criteria.
 
-## Analysis Tasks for the Db2 \_SensitiveData Job
+## Analysis Tasks for the Db2 _SensitiveData Job
 
 Navigate to the **Jobs** > **Databases** > **Db2** > **Sensitive Data** > **Db2_Sensitive Data** >
 **Configure** node and select **Analysis** to view the analysis tasks.

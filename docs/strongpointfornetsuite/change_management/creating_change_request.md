@@ -78,13 +78,13 @@ request in your sandbox account.
       used in conjunction with customizations that already exist.  
        New **Entry** and **Transaction** forms can be pre-approved by adding the Script ID of the
       form. The Script ID must match the Script ID set in **Customizations** > **Forms** > **Entry
-      Form** (prefix **custform** is automatically added for you on the **Custom Entry Form**).
-        All Customizations and Proposed Customizations are evaluated to determine the Change Level.
-        The highest **Change Level** is used for the Change Request. | Proposed Customization |
-        Change Level | | --- | --- | | customworkflow, customscript, customdeploy or anything with
-        extensions: .js .ssp .ss | Script Object Changes | | customsearch, customreport | Searches
-        and Reports | | customrole | User Role Changes | | Files with extensions: .html .txt |
-        Web-Related Changes | | Everything else | Other Changes |
+      Form** (prefix **custform** is automatically added for you on the **Custom Entry Form**). All
+      Customizations and Proposed Customizations are evaluated to determine the Change Level. The
+      highest **Change Level** is used for the Change Request. | Proposed Customization | Change
+      Level | | --- | --- | | customworkflow, customscript, customdeploy or anything with
+      extensions: .js .ssp .ss | Script Object Changes | | customsearch, customreport | Searches and
+      Reports | | customrole | User Role Changes | | Files with extensions: .html .txt | Web-Related
+      Changes | | Everything else | Other Changes |
     - **Affected Process(es)**: Select any processes affected by this Change Request. Select
       **Import From Processes** to automatically import affected processes.
     - **Affected Bundle ID/APP ID**: Use this field to specify a bundle ID or SuiteApp ID. Separate

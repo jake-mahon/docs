@@ -16,7 +16,7 @@ Use this page to specify basic information about the group.
 
     NOTE: The prefix box is displayed if the administrator has defined the prefixes. See Group name
     prefixes.  
-    These prefixes, when appended to group names, help standardize the group naming convention
+     These prefixes, when appended to group names, help standardize the group naming convention
     across the enterprise.
 
 3. The **Name Preview** is displayed if the prefix list is available and displays a preview of the

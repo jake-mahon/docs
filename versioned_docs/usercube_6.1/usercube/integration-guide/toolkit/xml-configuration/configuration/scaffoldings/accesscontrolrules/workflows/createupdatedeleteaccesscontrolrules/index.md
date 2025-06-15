@@ -3,12 +3,12 @@
 Generates execution rights for the create, update, delete workflows.
 
 Some prerequisites are necessary to be able to launch this scaffolding. A entity type must be
-created with the following naming convention: "Worfklow\_" + idenfitier type entity. Three workflows
+created with the following naming convention: "Worfklow_" + idenfitier type entity. Three workflows
 must be created with the following names:
 
-- entity type identifier + "\_Create";
-- entity type identifier + "\_Update";
-- entity type identifier + "\_Delete";
+- entity type identifier + "_Create";
+- entity type identifier + "_Update";
+- entity type identifier + "_Delete";
 
 The scaffolding generates the following scaffoldings:
 

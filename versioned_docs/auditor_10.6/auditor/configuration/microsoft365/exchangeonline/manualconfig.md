@@ -100,7 +100,7 @@ instructions below:
 Follow the steps to install a certificate.
 
 **Step 1 –** Get your certificate or generate a self-signed certificate. The name must be
-_Netwrix_Auditor_MFA_`<your_tenant_name>`\_
+_Netwrix_Auditor_MFA_`<your_tenant_name>`_
 
 **Step 2 –** Save the certificate to the _CurrentUser/My certificate_ folder for the Local System
 account.

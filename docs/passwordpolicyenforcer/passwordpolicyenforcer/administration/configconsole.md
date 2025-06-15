@@ -52,11 +52,11 @@ configuration is called a domain configuration, and it defines the password poli
 accounts. A registry configuration is called a local configuration, and it defines the password
 policies for local user accounts.
 
-Domain configurations are stored in the **CN=Password Policy Enforcer** \_version**\_,CN=System
-object**.
+Domain configurations are stored in the **CN=Password Policy Enforcer** _version\*\*_,CN=System
+object\*\*.
 
 Local configurations are stored in the **HKLM\SOFTWARE**ANIXIS**\Password Policy Enforcer**
-\_version**\_\ registry key**.
+_version\*\*_\ registry key\*\*.
 
 **NOTE:** Users with write permission to these objects can configure Password Policy Enforcer.
 

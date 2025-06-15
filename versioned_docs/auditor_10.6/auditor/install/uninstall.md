@@ -97,8 +97,8 @@ Server resides:
 **Step 3 –** Select a computer in the list and click **Remove**. The Netwrix Auditor **User Activity
 Core Service** will be deleted from the selected computer. Perform this action with other computers.
 
-**Step 4 –** In the left pane navigate to **All monitoring plans >\_\_**User Activity monitoring
-plan > Monitored Computers.\_\_ Make sure that the computers you have removed from auditing are no
+**Step 4 –** In the left pane navigate to **All monitoring plans >__**User Activity monitoring
+plan > Monitored Computers.__ Make sure that the computers you have removed from auditing are no
 longer present in the list.
 
 **Step 5 –** In case some computers are still present in the list, select them one by one and click

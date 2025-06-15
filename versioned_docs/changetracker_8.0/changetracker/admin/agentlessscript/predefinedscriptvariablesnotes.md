@@ -41,7 +41,7 @@ result into the given variable e.g. `ExecuteAndCapture,$$WHOAMI_RESULT$$,whoami`
 ## FileHashPath
 
 Defines the name and path for the NNT*FILEHASH binary to use for Agentless FIM. General best
-practice is to locate the NNT_FILEHASH binary in the */usr/bin\_ folder with execute permissions set
+practice is to locate the NNT_FILEHASH binary in the */usr/bin_ folder with execute permissions set
 for the user account assigned to Change Tracker e.g. `FileHashPath,/usr/bin/NNT_FILEHASH_LINUX_X64`
 
 ## HashMatchesWithComment

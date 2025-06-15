@@ -66,12 +66,12 @@ This information can be set one of two ways:
   [certificate store](https://docs.microsoft.com/en-us/dotnet/framework/wcf/feature-details/working-with-certificates#certificate-store)
   identified by SubjectDistinguishedName or by Thumbprint. The Windows certificate also contains
   both the public key certificate and the private key.
-- _Remember,_ Netwrix recommends using Windows' certificate store.
-    A subject name can identify multiple certificates in the same Certificate Store since the
-    Subject Name needs not to be unique. If there are multiple certificates identified by the
-    subject name given in the appsettings, Identity Manager will use the first one. However it is
-    not possible to say exactly which certificate will be loaded first. The thumprint is unique
-    among the certificates so it can help with for the certificate identification.
+- _Remember,_ Netwrix recommends using Windows' certificate store. A subject name can identify
+  multiple certificates in the same Certificate Store since the Subject Name needs not to be unique.
+  If there are multiple certificates identified by the subject name given in the appsettings,
+  Identity Manager will use the first one. However it is not possible to say exactly which
+  certificate will be loaded first. The thumprint is unique among the certificates so it can help
+  with for the certificate identification.
 
 As a PFX file
 

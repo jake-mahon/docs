@@ -69,7 +69,7 @@ changes, if needed.
 
 Tampering with the `previous` folder content would result in false changes leading to false
 computation. It would result in data corruption in the Usercube database. To restore the Usercube
-database and reflect the managed system data updates, a _complete\_\_Sync Up_ would be required.
+database and reflect the managed system data updates, a _complete__Sync Up_ would be required.
 
 ### Prepare the server
 

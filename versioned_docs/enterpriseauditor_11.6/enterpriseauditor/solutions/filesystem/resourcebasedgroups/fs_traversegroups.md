@@ -97,7 +97,7 @@ The job has the following analysis tasks:
 
 | Analysis Task | Customizable Parameter Name | Default Value                                 | Value Indicates                   |
 | ------------- | --------------------------- | --------------------------------------------- | --------------------------------- |
-| Create Groups | @naming_convention          | FS*[HostName]*[ShareName]\_[FolderName]\_List | Naming convention for list groups |
+| Create Groups | @naming_convention          | FS*[HostName]*[ShareName]_[FolderName]_List | Naming convention for list groups |
 
 For instructions on configuring analysis parameters, see the
 [SQLscripting Analysis Module](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/analysis/sqlscripting.md)

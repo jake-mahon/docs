@@ -87,7 +87,7 @@ At this step, do the following:
 
 1. Specify the monitoring scope —select what you plan to monitor with Netwrix Auditor. You can
    select both **Active Directory** and **Logon Activity**, or any of them.
-    ![audit_cfg_assist_creds](/img/versioned_docs/auditor_10.6/auditor/tools/audit_cfg_assist_creds.png)
+   ![audit_cfg_assist_creds](/img/versioned_docs/auditor_10.6/auditor/tools/audit_cfg_assist_creds.png)
 2. If you launched **Audit Configuration Assistant** from the **Start** menu (not from the
    monitoring plan settings), enter the name of Active Directory domain you want to assess.
 3. Enter credentials that will be used to access the audit setting of that domain. This account must

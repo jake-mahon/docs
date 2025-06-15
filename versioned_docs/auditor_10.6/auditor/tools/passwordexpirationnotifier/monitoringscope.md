@@ -5,7 +5,7 @@ alerting on password expiration.
 
 Follow the steps to exclude data from the Active Directory monitoring scope.
 
-**Step 1 –** Navigate to the \_%Netwrix Auditor installation folder%\Password Expiration
+**Step 1 –** Navigate to the _%Netwrix Auditor installation folder%\Password Expiration
 Alerting_folder.
 
 **Step 2 –** Edit the omitoulist.txt file, based on the following guidelines:

@@ -44,10 +44,8 @@ Browse to the folder where you have copied the package:
 
     Provide the URL to which you want to redirect the user to unlock his/her locked account.
 
-    - **For GroupID 10:**
-        `https://MachineName:port/Portalname`
-    - **For GroupID 11:**
-        `https://Machinename:port/portalname/Home/UnlockAccount`
+    - **For GroupID 10:** `https://MachineName:port/Portalname`
+    - **For GroupID 11:** `https://Machinename:port/portalname/Home/UnlockAccount`
 
 5. `<CPTitle value="Log on to: Netwrix GroupID" />`
 

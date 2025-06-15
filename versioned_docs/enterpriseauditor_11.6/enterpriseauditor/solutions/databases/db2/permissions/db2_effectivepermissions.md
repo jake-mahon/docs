@@ -3,7 +3,7 @@
 This job provides insight into effective user and role permissions to all the database objects in
 the targeted Db2 database servers.
 
-## Analysis Tasks for the Db2 \_EffectivePermissions Job
+## Analysis Tasks for the Db2 _EffectivePermissions Job
 
 Navigate to the **Jobs** > **Databases** > **Db2** > **Permissions** >
 **Db2_EffectivePermissions** > **Configure** node and select **Analysis** to view the Analysis

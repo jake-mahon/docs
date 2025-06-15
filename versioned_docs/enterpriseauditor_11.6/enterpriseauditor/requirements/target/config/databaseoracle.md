@@ -120,12 +120,12 @@ least the following `SELECT` privilege on the targeted database for the followin
 - CDB_TABLESPACES view
 - CDB_TAB_PRIVS view.
 - CDB_USERS view.
-- V\_$DATABASE view.
-- V\_$RSRC_CONSUMER_GROUP view.
-- V\_$CONTAINERS view.
-- V\_$PARAMETER view.
-- V\_$PDBS view.
-- V\_$INSTANCE view.
+- V_$DATABASE view.
+- V_$RSRC_CONSUMER_GROUP view.
+- V_$CONTAINERS view.
+- V_$PARAMETER view.
+- V_$PDBS view.
+- V_$INSTANCE view.
 - SYS.USER$ table.
 - DBA_TABLESPACES view
 - DBA_ROLES view
@@ -187,11 +187,11 @@ least the following `SELECT` privilege on the targeted database for the followin
 - CDB_TABLESPACES view
 - CDB_TAB_PRIVS view.
 - CDB_USERS view.
-- V\_$RSRC_CONSUMER_GROUP view.
-- V\_$DATABASE view.
-- V\_$PARAMETER view.
-- V\_$PDBS view.
-- V\_$CONTAINERS view.
+- V_$RSRC_CONSUMER_GROUP view.
+- V_$DATABASE view.
+- V_$PARAMETER view.
+- V_$PDBS view.
+- V_$CONTAINERS view.
 - SYS.USER$ table.
 
 For example, to grant all of the above privileges, run the following set of commands in SQL
@@ -231,9 +231,9 @@ least the following `SELECT` privileges on the targeted database for the followi
 - DBA_TABLESPACES view
 - DBA_TAB_PRIVS view
 - DBA_USERS view
-- V\_$RSRC_CONSUMER_GROUP view
-- V\_$DATABASE view
-- V\_$PARAMETER view
+- V_$RSRC_CONSUMER_GROUP view
+- V_$DATABASE view
+- V_$PARAMETER view
 - SYS.USER$ table
 
 For example, to grant all of the above privileges, run the following set of commands in Oracle SQL
@@ -275,8 +275,8 @@ In order to perform a sensitive data scan on Oracle database 12c series, the use
 requires at least the following `SELECT` privileges on the targeted database for the following
 views:
 
-- V\_$CONTAINERS view
-- V\_$DATABASE view
+- V_$CONTAINERS view
+- V_$DATABASE view
 - CDB_TAB_COLS view
 - CDB_OBJECTS view
 
@@ -296,7 +296,7 @@ In order to perform a sensitive data scan on Oracle database 11g series, the use
 requires at least the following `SELECT` privileges on the targeted database for the following
 views:
 
-- V\_$DATABASE view
+- V_$DATABASE view
 - DBA_TAB_COLS view
 - DBA_OBJECTS view
 
@@ -335,7 +335,7 @@ In order to perform an activity data scan on Oracle database 12c series, the use
 requires at least the following `SELECT` privileges on the targeted database for the following
 views:
 
-- V\_$DATABASE view
+- V_$DATABASE view
 - CDB_COMMON_AUDIT_TRAIL view
 - UNIFIED_AUDIT_TRAIL view
 
@@ -362,7 +362,7 @@ In order to perform an activity data scan on Oracle database 11g series, the use
 required at least the following `SELECT` privileges on the targeted database for the following
 views:
 
-- V\_$DATABASE view
+- V_$DATABASE view
 - DBA_COMMON_AUDIT_TRAIL view
 
 For example, to grant the above privileges, run the following set of commands in SQL Developer or

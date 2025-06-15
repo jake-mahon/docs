@@ -73,11 +73,11 @@ The **Policy** tab for configuring analytics consists of three sub-tabs:
         within the organization be configured to ‘Enforce password history’ with a setting of a
         minimum of ‘3 passwords remembered’ or it will not have an effect.
 
-    - \_Optional:\_Scope the domains to be included in or excluded from monitoring on the
+    - _Optional:_Scope the domains to be included in or excluded from monitoring on the
       Domains/Servers filter.
-    - \_Optional:\_Scope the accounts to include in or exclude from being monitored on the AD
+    - _Optional:_Scope the accounts to include in or exclude from being monitored on the AD
       Perpetrator filter.
-    - \_Optional:\_Scope the servers to be included in or excluded from monitoring on the IP
+    - _Optional:_Scope the servers to be included in or excluded from monitoring on the IP
       Addresses (from) filter, the IP Addresses (to) filter, the Hosts (from) filter, or the Hosts
       (to) filter.
 

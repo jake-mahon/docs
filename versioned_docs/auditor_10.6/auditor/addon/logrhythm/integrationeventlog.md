@@ -8,7 +8,7 @@ The Activity Record structure is described in the
 
 | Event log field name | Filled in with value                                                          | Details                                                                                                                                                             |
 | -------------------- | ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Source               | **NA\_\_**`{Data Source Name}`** -OR- **Netwrix \_Auditor_Integration_API\_\_ | Depending on _SetDataSourceAsEventSource_ in-script parameter.                                                                                                      |
+| Source               | **NA__**`{Data Source Name}`** -OR- **Netwrix _Auditor_Integration_API__ | Depending on _SetDataSourceAsEventSource_ in-script parameter.                                                                                                      |
 | EventID              | **`{Calculated by add-on}`** -OR- **0**                                       | Depending on _GenerateEventId_ in-script parameter (calculation result also depends on _IncludeDataSourceToMakeEventId_ parameter — if _GenerateEventId_ = _True_). |
 | Task Category        | **`{DataSource ID}`** -OR- **1**                                              | Depending on _SetDataSourceAsEventCategory_ in-script parameter.                                                                                                    |
 

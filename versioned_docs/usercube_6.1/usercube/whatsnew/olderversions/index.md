@@ -558,6 +558,7 @@ Release date 10-Feb-2022
 #### Enhancements:
 
 - Access Control and Workflows
+
     - Workflows that are in process or have been previously saved, can now be aborted. Once aborted,
       a purge option is now available on the Workflow Overview screen to completely remove the
       workflow.
@@ -574,6 +575,7 @@ Release date 10-Feb-2022
         ```xml
         <Control DisplayName_L1="Position" DisplayName_L2="Poste" OutputType="LayoutFieldset">      <Control Binding="Title" />      <Control Binding="Manager" />      <Control Binding="Organization" DefaultValueBinding="Manager.MainOrganization" />      <Control Binding="Location" DefaultValueBinding="Manager.MainLocation" />    </Control>
         ```
+
 - Certifications and Risks
     - Added performance optimizations for recertification campaigns.
     - On the Access Certification Review screen, the green pop-up confirmation notification is no

@@ -26,22 +26,22 @@ For 32-bit machines:
 
 - `C:\Program Files\PolicyPak`
 - `C:\ProgramData\PolicyPak`
-- `C:\Program Files (x86)\PolicyPak\Application Manager\Client\*\PPReapplyOnLaunch32.dll `
-    (\* should be replaced with your installed CSE version, i.e. 21.10.2943)
-- `C:\Program Files (x86)\PolicyPak\Application Manager\Client\*\PPAppMgrClient.dll `
-    (\* should be replaced with your installed CSE version, i.e. 21.10.2943)
+- `C:\Program Files (x86)\PolicyPak\Application Manager\Client\*\PPReapplyOnLaunch32.dll ` (\*
+  should be replaced with your installed CSE version, i.e. 21.10.2943)
+- `C:\Program Files (x86)\PolicyPak\Application Manager\Client\*\PPAppMgrClient.dll ` (\* should be
+  replaced with your installed CSE version, i.e. 21.10.2943)
 
 For 64-bit machines:
 
 - `C:\program files (x86)\PolicyPak`
 - `C:\Program Files\PolicyPak`
 - `C:\ProgramData\PolicyPak`
-- `C:\Program Files\PolicyPak\Application Manager\Client\*\PPReapplyOnLaunch64.dll`
-    (\* should be replaced with your installed CSE version, i.e. 21.10.2943)
-- `C:\Program Files\PolicyPak\Application Manager\Client\*\PPAppMgrClient.dll`
-    (\* should be replaced with your installed CSE version, i.e. 21.10.2943)
-- `C:\Program Files\PolicyPak\Device Manager\Client\*\PPDMClient.dll`
-    (\* should be replaced with your installed CSE version, i.e. 21.10.2943)
+- `C:\Program Files\PolicyPak\Application Manager\Client\*\PPReapplyOnLaunch64.dll` (\* should be
+  replaced with your installed CSE version, i.e. 21.10.2943)
+- `C:\Program Files\PolicyPak\Application Manager\Client\*\PPAppMgrClient.dll` (\* should be
+  replaced with your installed CSE version, i.e. 21.10.2943)
+- `C:\Program Files\PolicyPak\Device Manager\Client\*\PPDMClient.dll` (\* should be replaced with
+  your installed CSE version, i.e. 21.10.2943)
 
 **CAUTION:** The above location paths must be matched to your installed CSE version.
 

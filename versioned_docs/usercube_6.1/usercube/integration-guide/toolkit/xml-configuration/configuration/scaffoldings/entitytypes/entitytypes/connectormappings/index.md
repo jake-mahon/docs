@@ -9,7 +9,7 @@ during the collection. This file must be a CSV file with "Command" as the first 
 rest of the columns for scalar and mono-navigation properties. This file must be named after the
 entity type. If there are multi-valued navigation properties, it is necessary to create a file with
 "Command" as first property and the key of the two entities to link. This file must be named after
-the identifier of the starting entity type + "\_" + the identifier of the navigation property.
+the identifier of the starting entity type + "_" + the identifier of the navigation property.
 
 If you are using a CSV connector with files in incremental mode, you must specify the attribute
 `IsIncremental` to `true`.

@@ -92,8 +92,8 @@ What do you want to do?
 
     NOTE: (1) Additional owners are only set for the parent and are not inherited by child Dynasties
     during update.  
-    (2) When a Smart Group Update job runs on a group, the notification behavior is as follows:  
-    Even when the **Do not Notify** check box is selected, the additional owner will receive the
+     (2) When a Smart Group Update job runs on a group, the notification behavior is as follows:  
+     Even when the **Do not Notify** check box is selected, the additional owner will receive the
     notifications if the administrator has included its email address for job-specific
     notifications.
 
@@ -141,14 +141,14 @@ What do you want to do?
 
     NOTE: (1) Additional owners are only set for the parent and are not inherited by child Dynasties
     during update.  
-    (2) When a Smart Group Update job runs on a group, the notification behavior is as follows:  
-    Even when the **Do not Notify** check box is selected, the additional owner will receive the
+     (2) When a Smart Group Update job runs on a group, the notification behavior is as follows:  
+     Even when the **Do not Notify** check box is selected, the additional owner will receive the
     notifications if the administrator has included its email address for job-specific
     notifications.  
-    (3) If you have selected the **Set Manager as owner** option on the **Dynasty Options** page,
+     (3) If you have selected the **Set Manager as owner** option on the **Dynasty Options** page,
     the top manager would be displayed as the primary owner instead of the logged-in user.  
-    In case you change the owner, the new recipient would be the Dynasty’s primary owner even if the
-    **Set Manager as owner** check box is selected.
+     In case you change the owner, the new recipient would be the Dynasty’s primary owner even if
+    the **Set Manager as owner** check box is selected.
 
 7. On the
    [Summary Page](/versioned_docs/groupid_11.0/groupid/portal/user/create/activedirectory/summary.md),

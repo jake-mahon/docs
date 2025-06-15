@@ -15,7 +15,7 @@ necessary rights.
 
 **Audit Configuration Assistant** is a part of Netwrix Auditor product setup. It is installed
 together with the Auditor client and can be launched from the **Start** **menu** **>\_\_**Netwrix
-Auditor\_**\_>\_\_**Netwrix Auditor Audit Configuration Assistant\_\_. Alternatively, you can launch
+Auditor\*\*\*\*>**\*\*Netwrix Auditor Audit Configuration Assistant**. Alternatively, you can launch
 this utility from the monitoring plan wizard for Active Directory data source. See the Launch Audit
 Configuration Assistant section for additional information.
 

@@ -541,7 +541,7 @@ appsettings.json
 ### Reduce logging process overhead
 
 This example shows how to reduce the overhead of the logging process for Usercube's main thread by
-delegating work to a background thread, using the _Async\_\_Sink_.
+delegating work to a background thread, using the _Async__Sink_.
 
 ```
 appsettings.json

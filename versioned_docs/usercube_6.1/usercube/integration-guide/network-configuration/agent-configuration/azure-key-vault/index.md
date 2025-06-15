@@ -38,10 +38,11 @@ The important part of adding a secret in Azure Key Vault is defining its name an
 >
 >                         ```
 >
-> appsettings.agent.json { ... "Connections": { ... "ADExport": { "Servers": [ > { > "Server":
+> appsettings.agent.json { ... "Connections": { ... "ADExport": { "Servers": [ > { > "Server": >
 > "paris.contoso.com", > "BaseDN": "DC=paris,DC=com" > }, > { > "Server": "marseille.contoso.com", >
-> "BaseDN": "DC=defense,DC=marseille,DC=com" > } > ], "AuthType": "Basic", "Login": "login123",
-> "Password": "password123", "Filter": "(objectclass=\*)", "EnableSSL": "false", } } }
+>
+> > "BaseDN": "DC=defense,DC=marseille,DC=com" > } > ], "AuthType": "Basic", "Login": "login123",
+> > "Password": "password123", "Filter": "(objectclass=\*)", "EnableSSL": "false", } } }
 >
 > ````
 >

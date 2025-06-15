@@ -132,7 +132,7 @@ manually. The default location is:
 …\STEALTHbits\StealthAUDIT\FSAA
 
 **_RECOMMENDED:_** Do not overwrite this certificate. It is fully trusted by Netwrix. Instead, add
-an underscore (\_) character to the start of the file name. Then copy the organization's self-signed
+an underscore (_) character to the start of the file name. Then copy the organization's self-signed
 certificate to this location with the name `cacert.pem`.
 
 There is another `cacert.perm` file within the Enterprise Auditor installation directory used by the

@@ -16,7 +16,7 @@ script:
 
 **Step 1 –** On the computer where Auditor Server resides, navigate to _C:\Program Files
 (x86)\Netwrix Auditor\File Server Auditing_ and copy the configure*ifs.sh shell script to
-*/ifs/data\_ catalog on your cluster.
+*/ifs/data_ catalog on your cluster.
 
 **Step 2 –** Navigate to your cluster command prompt through the SSH connection.
 
@@ -41,12 +41,12 @@ where
 | `Total:`                 | `15` |
 
 **Step 5 –** Create a shared folder named netwrix*audit$ on a system zone. This folder points to
-*/ifs\_:
+*/ifs_:
 
 `isi smb shares create --name=netwrix_audit$ --path=/ifs/ --zone=system --browsable=true`
 
 **Step 6 –** Add the BUILTIN\Administrators group in the share permissions for netwrix*audit$ folder
-with *"full access"\_ rights:
+with *"full access"_ rights:
 
 `isi smb shares permission create --share=netwrix_audit$ --group="BUILTIN\Administrators" --permission-type=allow --permission=full --zone=system`
 
@@ -66,12 +66,12 @@ Follow the steps to configure Dell Isilon/PowerScale cluster in Compliance mode 
 **Step 2 –** Log in to your cluster as a **compadmin** user.
 
 **Step 3 –** Create a shared folder named netwrix*audit$ on a system zone. This folder points to
-*/ifs\_:
+*/ifs_:
 
 `isi smb shares create --name=netwrix_audit$ --path=/ifs/ --zone=system --browsable=true`
 
 **Step 4 –** Add the BUILTIN\Administrators group in the share permissions for netwrix*audit$ folder
-with *"full access"\_ rights:
+with *"full access"_ rights:
 
 `isi smb shares permission create --share=netwrix_audit$ --group="BUILTIN\Administrators" --permission-type=allow --permission=full --zone=system`
 

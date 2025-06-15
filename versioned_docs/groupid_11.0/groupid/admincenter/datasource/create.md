@@ -75,7 +75,7 @@ steps in the respective section to create a data source.
    assigned to the GroupID application when you registered it in Microsoft Entra Admin Center.
 
     NOTE: The registered app must have the following API permissions to access files on OneDrive:  
-    ![excel_-_one_drive](/img/versioned_docs/groupid_11.0/groupid/admincenter/datasource/excel_-_one_drive.png)
+     ![excel_-_one_drive](/img/versioned_docs/groupid_11.0/groupid/admincenter/datasource/excel_-_one_drive.png)
 
 5. In the **Registered Tenant ID on Azure Active Directory** box, enter the tenant ID assigned to
    the GroupID application when you registered it in Microsoft Entra Admin Center.
@@ -140,7 +140,7 @@ steps in the respective section to create a data source.
    assigned to the GroupID application when you registered it in Microsoft Entra Admin Center.
 
     NOTE: The registered app must have the following API permissions to access files on OneDrive:  
-    ![access](/img/versioned_docs/groupid_11.0/groupid/admincenter/datasource/excel_-_one_drive.png)
+     ![access](/img/versioned_docs/groupid_11.0/groupid/admincenter/datasource/excel_-_one_drive.png)
 
 6. In the **Registered Tenant ID on Azure Active Directory** box, enter the tenant ID assigned to
    the GroupID application when you registered it in Microsoft Entra Admin Center.
@@ -262,7 +262,7 @@ Follow the steps in the respective section to create a data source.
    assigned to the GroupID application when you registered it in Microsoft Entra Admin Center.
 
     NOTE: The registered app must have the following API permissions to access files on OneDrive:  
-    ![textcsv-onedrive](/img/versioned_docs/groupid_11.0/groupid/admincenter/datasource/excel_-_one_drive.png)
+     ![textcsv-onedrive](/img/versioned_docs/groupid_11.0/groupid/admincenter/datasource/excel_-_one_drive.png)
 
 6. In the **Registered Tenant ID on Azure Active Directory** box, enter the tenant ID assigned to
    the GroupID application when you registered it in Microsoft Entra Admin Center.

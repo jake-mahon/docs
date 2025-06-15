@@ -55,8 +55,8 @@ a job.
 
     **To add more filters** - On adding a filter, the next row is displayed, so you can add another
     filter.  
-    **To remove a filter row** - To remove a filter row, click **Remove** for it.  
-    **To remove the filter** - To remove all the filter rows, click **Clear**.
+     **To remove a filter row** - To remove a filter row, click **Remove** for it.  
+     **To remove the filter** - To remove all the filter rows, click **Clear**.
 
 5. To apply the filter, click **Apply**. With multiple filters, schedules that satisfy all the
    filters are displayed.

@@ -27,7 +27,7 @@ Here are the steps to create a pre-approved change request for a control:
    **Approver Notes**. Click **Save**.
 
     if you make
-    changes.![agent_pre_app_approval_section](../../../static/img/product_docs/strongpointfornetsuite/financial_controls/agent_pre_app_approval_section.webp)  
+    changes.![agent_pre_app_approval_section](../../../static/img/product_docs/strongpointfornetsuite/financial_controls/agent_pre_app_approval_section.webp)
 
     Related Change Record information is added when you save. The results are shown on the **Related
     Change Records** tab.

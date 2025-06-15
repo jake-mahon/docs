@@ -40,7 +40,7 @@ Group life cycle job.
 
 Logically deleted groups are moved to the
 [My Deleted Groups](/versioned_docs/groupid_11.0/groupid/portal/group/mydeletedgroups.md) page with
-the “Deleted\_” prefix added to their names.
+the “Deleted_” prefix added to their names.
 
 ## Change the expiry policy for a group
 

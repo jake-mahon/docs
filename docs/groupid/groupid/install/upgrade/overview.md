@@ -23,7 +23,7 @@ Directory Manager 11 server. For that, do the following:
     `C:\Program Files\Imanami\`
 
     On pasting the GroupID 10 folder, it will be as:  
-    `C:\Program Files\Imanami\GroupID 10\`
+     `C:\Program Files\Imanami\GroupID 10\`
 
 Step 2 – The following applies to upgrade on a different box.  
 If a gMSA is used as the service account for an identity store in the source version, you must

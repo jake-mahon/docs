@@ -2,7 +2,7 @@
 
 This guide leads the reader through the steps to install Usercube for production purposes.
 
-**1.\_\_**Before proceeding\_\_, you should go through the
+**1.__**Before proceeding__, you should go through the
 [Overview](/versioned_docs/usercube_6.1/usercube/installation-guide/overview/index.md) and
 [Requirements](/versioned_docs/usercube_6.1/usercube/installation-guide/requirements/index.md)
 sections to make fundamental decisions about Usercube setup, including:

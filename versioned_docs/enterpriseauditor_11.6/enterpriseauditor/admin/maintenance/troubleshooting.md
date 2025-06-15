@@ -69,7 +69,7 @@ Below are two types of FSAA trace logs created while in local, applet, or proxy 
 - Parent Trace Log – StealthAUDITRPC*[YYYYMMDD_hhmmss]*[Execution_Host].log
     - ProccessID is logged in the job log
 - Child Trace Log –
-  StealthAUDITRPC*[session_id]*[ScanType]_[Execution_host]_[Target_host]\_[YYMMDD_hhmmss].log
+  StealthAUDITRPC*[session_id]*[ScanType]_[Execution_host]_[Target_host]_[YYMMDD_hhmmss].log
     - ProcessID is logged in the Parent trace log
 
 When running StealthAUDITRPC as a service, the parent trace log reads as:

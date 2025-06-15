@@ -134,7 +134,7 @@ Define the entity type's navigation properties by proceeding as follows:
         - `Column Content`: property of the source column used to identify any resource in the
           association.
 
-                > For example, the source column ```manager``` contains the ```dn``` of users to make the association, thus we choose ```dn``` as the source content.
+                        > For example, the source column ```manager``` contains the ```dn``` of users to make the association, thus we choose ```dn``` as the source content.
 
             > For example, `AD - Entry` uses the following navigation properties:
             >

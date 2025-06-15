@@ -106,7 +106,7 @@ This information can be set one of two ways:
     On the other hand, the PFX file takes priority over Windows' certificate, which means that when
     File is specified then the PFX certificate is used, even if the options for Windows' certificate
     are specified too.  
-    In both ways, missing and/or incorrect settings trigger an error and no certificate is loaded.
+     In both ways, missing and/or incorrect settings trigger an error and no certificate is loaded.
 
 As a PFX file
 

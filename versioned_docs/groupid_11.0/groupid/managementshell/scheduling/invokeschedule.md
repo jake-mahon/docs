@@ -25,7 +25,7 @@ Invoke-Schedule
 
 Example 1:
 
-This example executes a schedule with name starting smm4\_.
+This example executes a schedule with name starting smm4_.
 
 ```
 Invoke-Schedule -ScheduleName smm4_

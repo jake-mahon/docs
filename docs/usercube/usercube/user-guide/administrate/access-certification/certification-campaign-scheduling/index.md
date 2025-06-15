@@ -73,7 +73,7 @@ Create an access certification campaign by proceeding as follows:
         - `Active Target`: the identities to be certified will be those for which a given property
           (here from `Directory_UserRecord`) was modified since a given date.
 
-                Only properties that are not calculated by Identity Manager can be used here to filter the target owners of the certification campaign.
+                                          Only properties that are not calculated by Identity Manager can be used here to filter the target owners of the certification campaign.
 
             > The following campaign creates certification orders aimed at all the assigned single
             > roles of two specific users.

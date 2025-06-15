@@ -353,7 +353,7 @@ Here is a list of permissions required for different user profiles:
     receive the corresponding notifications. On the contrary, the permission
     /ProvisioningPolicy/PerformManualProvisioning/ allows a profile to perform manual provisioning
     for all entity types, but not receive the corresponding notifications.  
-    Each permission can be configured in an access control entry so that the corresponding
+     Each permission can be configured in an access control entry so that the corresponding
     notification is disabled. See the
     [Access Control Rule](../../toolkit/xml-configuration/access-control/accesscontrolrule/index.md)topic
     for additional information.

@@ -42,7 +42,7 @@ The selected members get listed in the **Members** grid.
 
 NOTE: This button is disabled for Smart Groups and Dynasties since their memberships is determined
 by the query set on the
-[Group properties - Smart Group/Query Designer tab](/versioned_docs/groupid_11.0/groupid/portal/group/properties/smartgroup.md).  
+[Group properties - Smart Group/Query Designer tab](/versioned_docs/groupid_11.0/groupid/portal/group/properties/smartgroup.md).
 
 See
 [Schedule periodic membership updates for Smart Groups/Dynasties](/versioned_docs/groupid_11.0/groupid/portal/group/manage/scheduleupdate.md#schedule-periodic-membership-updates-for-smart-groupsdynasties).

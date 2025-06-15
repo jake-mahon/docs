@@ -31,9 +31,9 @@ Deployment or library script changes must meet these rules to be automatically c
 
 If all rules are met, the Change Request is attached to the Change Log and the log is compliant. The
 **Resolution Description** in the Change Log is set to **Automatically cleared in existing Open
-Approved CR via related customization [\_**Object Name\_ **(\_**ScriptID**\_)]**. The _Object Name_
-and _ScriptID_ are inserted from the original Change Request. The deployment or library script does
-not need to be present in any Open Approved Change Request.
+Approved CR via related customization [\_**Object Name\* \*\*(**\*ScriptID**_)]\*\*. The \_Object
+Name_ and _ScriptID_ are inserted from the original Change Request. The deployment or library script
+does not need to be present in any Open Approved Change Request.
 [Example Script Use Case](example_deploy_script_related_approved_change.md)
 
 ### Field Changes related to an Approved Record Change

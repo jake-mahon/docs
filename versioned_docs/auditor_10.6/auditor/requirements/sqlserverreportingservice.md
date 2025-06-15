@@ -67,7 +67,7 @@ You must be logged in as a member of the local Administrators group on the compu
 
 Follow the steps to verify Reporting Services installation.
 
-**Step 1 –** Navigate to **Start >\_\_**All Apps > SQL Server\_**\_Reporting Services Configuration
+**Step 1 –** Navigate to **Start >__**All Apps > SQL Server_**_Reporting Services Configuration
 Manager**.
 
 **Step 2 –** In the Reporting Services Configuration Connection dialog, make sure that your local

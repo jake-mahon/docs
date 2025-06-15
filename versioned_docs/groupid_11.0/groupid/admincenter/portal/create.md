@@ -141,7 +141,7 @@ located on disk.
      A separate design file exists for each identity store linked with a Self-Service portal.
 
     **File location in GroupID 9/10:**
-    `[GroupID installation drive]:\Program Files\Imanami\GroupID <version>\SelfService\Inetpub\<portal name>\Design\`  
+    `[GroupID installation drive]:\Program Files\Imanami\GroupID <version>\SelfService\Inetpub\<portal name>\Design\`
 
     For example: C:\Program Files\Imanami\GroupID 10.0\SelfService\Inetpub\TestPortal\Design\
 

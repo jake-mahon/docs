@@ -6,14 +6,15 @@
   "tabWidth": 2,
   "overrides": [
     {
-      "files": "*.md",
+      "files": "**/*.md",
       "options": {
+        "parser": "markdown",
         "proseWrap": "always",
         "tabWidth": 4
       }
     },
     {
-      "files": "*.ts",
+      "files": "**/*.ts",
       "options": {
         "semi": true
       }

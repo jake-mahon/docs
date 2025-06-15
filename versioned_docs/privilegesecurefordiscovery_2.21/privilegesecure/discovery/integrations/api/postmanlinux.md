@@ -12,21 +12,21 @@ with a regex match of the specified attribute:
 
 ![Screen_Shot_2020-03-04_at_9.35.39_AM.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/integrations/api/360044464293_screen_shot_2020-03-04_at_9.35.39_am.png)
 
-The **\_id** value is the **unique Mongo ID**of the endpoint to be used in the following query:
+The **_id** value is the **unique Mongo ID**of the endpoint to be used in the following query:
 
 ![Screen_Shot_2020-03-04_at_9.48.51_AM.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/integrations/api/360044464293_screen_shot_2020-03-04_at_9.48.51_am.png)
 
 Using this ID, craft the following string in the Postman **POST**
-field:  **\{\{base_url\}\}/api/v1/computers/\{\_id}/admins** (see example at the end).  You will
+field:  **\{\{base_url\}\}/api/v1/computers/\{_id}/admins** (see example at the end).  You will
 also need to locate the Mongo ID of the group or user value in question, using the Groups/Users
 options.  The example below is searching for a User, Mongo ID, but the process is the same for
 a Group:
 
 ![Screen_Shot_2020-03-04_at_10.06.53_AM.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/integrations/api/360044464293_screen_shot_2020-03-04_at_10.06.53_am.png)
 
-Take the **unique Mongo ID** of the User or Group identified above, and add this to the **\_id**
+Take the **unique Mongo ID** of the User or Group identified above, and add this to the **_id**
 "Value" field.  Once both the **endpoint Mongo ID** is in the Post line and the User/Group Mongo ID
-is in the **\_id** "Value" field, select the blue "Send" button to submit the request.  Example full
+is in the **_id** "Value" field, select the blue "Send" button to submit the request.  Example full
 submission:
 
 ![Screen_Shot_2020-03-04_at_10.16.48_AM.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/integrations/api/360044464293_screen_shot_2020-03-04_at_10.16.48_am.png)

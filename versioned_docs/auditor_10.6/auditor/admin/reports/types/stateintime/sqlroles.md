@@ -68,9 +68,9 @@ monitoring plan named _SQL Servers Monitoring_.
 To examine the relevant data, they generated the **SQL Server-Level Roles** report with the filters
 set as follows:
 
-- **Monitoring plan:\_**SQL Servers Monitoring\_
-- **Snapshot date:\_**Current Session\_
-- **Item:\_**SQLSrv01\SQLServer2016\_
+- **Monitoring plan:_**SQL Servers Monitoring_
+- **Snapshot date:_**Current Session_
+- **Item:_**SQLSrv01\SQLServer2016_
 - **Server-level role:** %
 - **Role type:** Fixed server role
-- **Member:\_**Corp\Jim.White\_
+- **Member:_**Corp\Jim.White_

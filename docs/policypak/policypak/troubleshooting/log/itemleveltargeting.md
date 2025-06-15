@@ -69,17 +69,22 @@ logging policy you just created/edited is applied, then run `CMD`, then run `GPU
 ![215_7_image-20190726083343-7](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/log/215_7_image-20190726083343-7.webp)
 
 Then verify the Group Policy Preferences logs are present at:
+
 ```"C:\ProgramData\GroupPolicy\Preference\Trace"
 
-````
+```
 
 ![215_8_image-20190726083343-8](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/log/215_8_image-20190726083343-8.webp)
 
-__NOTE:__  You can also run "```GPRESULT /R /SCOPE COMPUTER```" to see if the Group Policy applied to the computer.
+**NOTE:** You can also run "`GPRESULT /R /SCOPE COMPUTER`" to see if the Group Policy applied to the
+computer.
 
 ![215_9_image-20190726083343-9](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/log/215_9_image-20190726083343-9.webp)
 
 When done you can turn it off by setting the policy setting back to "Not Configured".
 
 ![215_10_image-20190726083343-10](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/log/215_10_image-20190726083343-10.webp)
-````
+
+```
+
+```

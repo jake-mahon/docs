@@ -56,7 +56,7 @@ You can link a basic display type to a schema attribute straight away. Basic dis
 - **Multi-value**
 
     Use it for schema attributes that can accept multiple string values.  
-    A multi-value display type is displayed in the portal as:
+     A multi-value display type is displayed in the portal as:
 
     ![multi-value_display_type](/img/versioned_docs/groupid_11.0/groupid/admincenter/portal/displaytype/multi-value_display_type.jpg)
 

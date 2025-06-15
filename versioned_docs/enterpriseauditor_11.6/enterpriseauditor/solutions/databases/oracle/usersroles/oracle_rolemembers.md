@@ -17,7 +17,7 @@ The default analysis tasks are:
 
 - Role Member Details – Creates the SA_Oracle_RoleMember_Details table accessible under the job’s
   Results node
-- Role Membership Instances Summary – Creates the SA\_ Oracle_RoleMember_Summary table accessible
+- Role Membership Instances Summary – Creates the SA_ Oracle_RoleMember_Summary table accessible
   under the job’s Results node
 
 In addition to the tables and views created by the analysis tasks, the Oracle_RoleMembers Job

@@ -113,7 +113,7 @@ The 1-Db2_SensitsveDataScan Job is now ready to run with the customized settings
 
 ## Analysis Tasks for the Redshift_SensitiveDataScan
 
-Navigate to the \_**\_Databases > 0.Collection >**Redshift >\_\_ **Redshift_SensitiveDataScan** >
+Navigate to the _**_Databases > 0.Collection >**Redshift >__ **Redshift_SensitiveDataScan** >
 **Configure** node and select **Analysis** to view the Analysis Tasks. The Analysis tasks do not
 require any configuration as they just populate the reports with the collected information and do
 not collect data themselves.

@@ -78,7 +78,7 @@ later.
 ### Databases
 
 To store data from the data sources included in the monitoring plan, the Monitoring Plan Wizard
-creates an Audit Database. Default database name is _Netwrix_Auditor_`<monitoring_plan_name>`\_.
+creates an Audit Database. Default database name is _Netwrix_Auditor_`<monitoring_plan_name>`_.
 
 It is strongly recommended to target each monitoring plan at a separate database.
 
@@ -218,10 +218,10 @@ following:
 - To store data from the data sources included in the monitoring plan, you can configure the Audit
   database on the default SQL Server (recommended), or select another server.
 - By default, database name will be _Netwrix_Auditor_`<monitoring_plan_name>`_; you can name the
-  database as you need, for example, \_Active_Directory_Audit_Data_.
+  database as you need, for example, _Active_Directory_Audit_Data_.
 
 To avoid syntax errors, for instance, in the PowerShell cmdlets, it is recommended to use the
-underscore character (\_) instead of space character in the database names.
+underscore character (_) instead of space character in the database names.
 
 If not yet existing on the specified SQL server instance, the database will be created there. For
 this operation to succeed, ensure that Netwrix Auditor service account has sufficient rights on that

@@ -134,7 +134,7 @@ script in the command line.
 Alternatively, settings can be stored as environment variables on Usercube's host system.
 
 Each setting value is stored as the value of an environment variable whose name is the concatenation
-of all the ancestor sections and the setting name separated by **\_\_** (two underscores).
+of all the ancestor sections and the setting name separated by **__** (two underscores).
 
 Here is an example showing how to construct a setting environment variable name from its matching
 `json` file.
@@ -154,7 +154,7 @@ script in the command line.
 }
 ```
 
-The name becomes Scheduler**Enabled, Scheduler**LockFilePath and Swagger\_\_Enabled.
+The name becomes Scheduler**Enabled, Scheduler**LockFilePath and Swagger__Enabled.
 
 ## Manage Several Environments
 

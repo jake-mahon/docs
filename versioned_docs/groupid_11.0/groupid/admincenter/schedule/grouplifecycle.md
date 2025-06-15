@@ -31,7 +31,7 @@ What do you want to do?
 4. On the **Schedules** page, click **Add Schedule** and select **Group Life Cycle Job**.  
    The **Create Schedule** page is displayed.
 5. In the **Schedule Name** box, enter a name for the schedule.
-6. The **Name Preview** box displays the schedule name prefixed with \_Glm\_\_; the schedule is
+6. The **Name Preview** box displays the schedule name prefixed with _Glm__; the schedule is
    displayed with this name in email notifications.
 7. Select a GroupID portal URL in the **Portal URL** drop-down list to include it in notifications
    generated for this schedule. Users are redirected to this portal to perform any necessary action.

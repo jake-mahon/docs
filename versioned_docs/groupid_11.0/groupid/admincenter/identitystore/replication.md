@@ -48,9 +48,9 @@ modify the list as required.
     extension attributes to the **Select Replication Attributes** list. See the
     [Schema Replication Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/schemareplication.md)
     for additional information.  
-    Select the required extension attributes from the **Select Replication Attributes** list and add
-    them to the attribute to replicate list. See the Specify Object Attributes to Replicate section
-    of the Manage Local Replication Settings topic.
+     Select the required extension attributes from the **Select Replication Attributes** list and
+    add them to the attribute to replicate list. See the Specify Object Attributes to Replicate
+    section of the Manage Local Replication Settings topic.
 
 7. Click **Save**
 

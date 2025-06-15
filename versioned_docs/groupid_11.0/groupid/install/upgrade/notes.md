@@ -27,8 +27,8 @@ upgrading from.
       attributes).
 
         File name: `<name of the domain the identity store is created on>_<identity store ID>.xml`  
-        Example: techinfo.local_4.xml, techinfo.onmicrosoft.com_6.xml  
-        A separate file exists for each identity store.
+         Example: techinfo.local_4.xml, techinfo.onmicrosoft.com_6.xml  
+         A separate file exists for each identity store.
 
         File Path on the GroupID 11 server:
         `C:\Program Files\Imanami\GroupID <source version>\Replication\IdentityStoresReplicationAttributes\`
@@ -40,12 +40,12 @@ upgrading from.
       process it.
 
         File name: The name of the uploaded file.  
-        For example: DisallowedPasswords.txt
+         For example: DisallowedPasswords.txt
 
         File Path on the GroupID 11 server:
-        `C:\Program Files\Imanami\GroupID <source version>\GroupIDDataService\PasswordCenter\PasswordExceptionLists\<identity store name>_<identity store ID>\`  
-        Example:
-        C:\Program Files\Imanami\GroupID
+        `C:\Program Files\Imanami\GroupID <source version>\GroupIDDataService\PasswordCenter\PasswordExceptionLists\<identity store name>_<identity store ID>\`
+
+        Example: C:\Program Files\Imanami\GroupID
         10.0\GroupIDDataService\PasswordCenter\PasswordExceptionLists\ADStore_4\
 
 3. When importing design settings of a Self-Service portal on the same box or on a different box,
@@ -73,8 +73,8 @@ upgrading from.
 
     In GroupID 11, these debug logs will be created at the following location on the GroupID 11
     server:  
-    C:\ProgramData\Imanami\GroupID 11.0\Upgrade Tool\  
-    File name: GroupID11_Upgrade.log
+     C:\ProgramData\Imanami\GroupID 11.0\Upgrade Tool\  
+     File name: GroupID11_Upgrade.log
 
 9. In the GroupID source version, Replication service logs were captured under the _debug_ mode,
    with no user interface to change this setting. On upgrade to GroupID 11, the file logging and

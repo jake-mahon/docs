@@ -60,7 +60,7 @@ The **Policy** tab for configuring analytics consists of three sub-tabs:
 
     - *Alternatively:* Scope the domains to be included in or excluded from monitoring on the
       Domains/Servers filter.
-    - \_Optional:\_Scope the protocol to be monitored on the Authentication Protocol filter. If
+    - _Optional:_Scope the protocol to be monitored on the Authentication Protocol filter. If
       enabling the analytic on a domain controller, also scope the login type. The Authentication
       Protocol filter is hard coded to ensure the Kerberos protocol is monitored.
 

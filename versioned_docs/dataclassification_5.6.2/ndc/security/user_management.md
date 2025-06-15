@@ -17,13 +17,13 @@ Anonymous and Forms:
 
 To use the authentication forms:
 
-1. Check that the “authentication mode” setting in conceptQS/web.config file is set as follows:
+1.  Check that the “authentication mode” setting in conceptQS/web.config file is set as follows:
 
     <authentication mode="Windows"/>
 
     This is the default setting.
 
-2. Check that the Authentication settings are correct in IIS for Windows Authentication:
+2.  Check that the Authentication settings are correct in IIS for Windows Authentication:
 
     The conceptQS web application should have these authentication methods enabled:
 
@@ -34,18 +34,18 @@ To use the authentication forms:
 
     ![iis_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/security/iis_thumb_0_0.png)
 
-3. If you wish to allow anonymous access to the conceptQS, edit the conceptQS web.config file and
-   delete (or comment out) three lines:
+3.  If you wish to allow anonymous access to the conceptQS, edit the conceptQS web.config file and
+    delete (or comment out) three lines:
 
-    <!-- The following 3 lines are required for Windows Authentication. Remove to allow anonymous access to
+        <!-- The following 3 lines are required for Windows Authentication. Remove to allow anonymous access to
 
-    the conceptQS -->
+        the conceptQS -->
 
-    <authorization>
+        <authorization>
 
-    <deny users="?"/>
+        <deny users="?"/>
 
-    </authorization>
+        </authorization>
 
     If these lines are present then users will be required to login using their Windows credentials.
 
@@ -84,7 +84,7 @@ usage of the QS administrative functions reverts to unrestricted.
 User accounts granted access to the REST APIs will still be restricted by their specific user
 permissions. A Superuser with REST API access will be able to run any API method, any normal user
 will be restricted by the same rules that govern the UI. Further API samples and documentation can
-be found at: /conceptQS/\_api
+be found at: /conceptQS/_api
 
 ## Permission Management
 

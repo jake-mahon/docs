@@ -28,7 +28,7 @@ can copy metadata values and paste them in the service provider.
    as the application logo.
 
     NOTE: Supported image formats: .jpg, .bmp, .png, and .gif  
-    Image file dimensions: 210 x 60 pixels
+     Image file dimensions: 210 x 60 pixels
 
 Specify advanced settings for the application:
 

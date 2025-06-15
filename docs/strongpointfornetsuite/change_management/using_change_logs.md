@@ -61,10 +61,10 @@ user.
 **Change Overview**: Overview of the change.
 
 - When **Systemnotes.Type** is included as result column and one of the system note lines is
-  **Created**, the Change Overview displays: \_`<incident employee>`**\_created** _`<record>`_.
+  **Created**, the Change Overview displays: _`<incident employee>`**\_created** _`<record>`\_.
 - When there are no system notes columns, **Change Overview** displays
-  \_`<incident employee>`**\_changed** _`<record>`_.
-- Deleted records display \_`<incident employee>`**_deleted_**`<record>`\_
+  _`<incident employee>`**\_changed** _`<record>`\_.
+- Deleted records display _`<incident employee>`\*\*\_deleted_\*\*`<record>`\_
 - For grouped results with multiple records, **Change Overview** displays **See Change Data Table
   for details.**
 

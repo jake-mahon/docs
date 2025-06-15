@@ -39,8 +39,8 @@ configured with AD FS, and update it in AD FS.
 
     The **Client** drop-down list displays the GroupID clients with respect to the identity store.
     Select the client with which you want to set up the SAML provider.  
-    The client you select must be the one for which you generated the consumer URL.  
-    To continue with the example, select the GroupID portal named _Wizard_ in the **Client**
+     The client you select must be the one for which you generated the consumer URL.  
+     To continue with the example, select the GroupID portal named _Wizard_ in the **Client**
     drop-down list.
 
 4. The **Entity ID/Audience** box displays a URL. Click **Copy** to copy it. Then paste it in a

@@ -123,14 +123,14 @@ Smart Group Update schedule responsible for updating the respective group.
 
         Membership change is the difference between new membership and the existing membership.
         Percentage change in membership is calculated by the following formula:  
-        (newMemberCount - oldMemberCount) x 100 / oldMemberCount
+         (newMemberCount - oldMemberCount) x 100 / oldMemberCount
 
         Let’s assume you specify 20 in this field. When group membership changes by 20% or more,
         GroupID considers it as an exception.
 
         So, if Group A has 500 members and 200 new members are to be added, the formula will be as  
-        (newMemberCount - oldMemberCount) x 100 / oldMemberCount  
-        (700-500) x 100 / 500 = 40
+         (newMemberCount - oldMemberCount) x 100 / oldMemberCount  
+         (700-500) x 100 / 500 = 40
 
         Since 40 is greater than 20, GroupID treats it as an out-of-bounds exception.
 

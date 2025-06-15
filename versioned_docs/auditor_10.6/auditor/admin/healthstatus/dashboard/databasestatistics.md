@@ -23,7 +23,7 @@ instance of the SQL Server:
     - data collected by Netwrix Auditor self-audit—_Netwrix_Self_Audit_ database
     - data needed for overview reports generation—_Netwrix_OverviewReportsDB_
 - To store data from the data sources included in the monitoring plan, dedicated Audit databases are
-  created and named by user (default name format is _Netwrix_Auditor_`<monitoring_plan_name>`\_)
+  created and named by user (default name format is _Netwrix_Auditor_`<monitoring_plan_name>`_)
 
 The following capacity metrics are displayed for each database:
 
