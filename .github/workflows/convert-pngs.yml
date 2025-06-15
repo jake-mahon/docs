@@ -6,6 +6,7 @@ on:
   pull_request:
 jobs:
   convert-images:
+    if: false
     runs-on: ubuntu-latest
     steps:
     - name: Checkout code
