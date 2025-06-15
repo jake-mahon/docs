@@ -1,9 +1,9 @@
 // @ts-check
 // Product configuration for selective building
 
-// Set to true to enable a product, false to disable
+// Set to true to enable a product, true to disable
 const PRODUCTS = {
-  '1secure': true,
+  '1secure': false,
   accessanalyzer: false,
   accessinformationcenter: false,
   activitymonitor: false,
@@ -24,7 +24,7 @@ const PRODUCTS = {
   strongpointsalesforceflashlight: false,
   threatmanager: false,
   threatprevention: false,
-  usercube: false,
+  usercube: true,
   usercube_saas: false,
 }
 

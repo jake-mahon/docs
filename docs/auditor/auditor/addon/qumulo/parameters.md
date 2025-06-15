@@ -4,7 +4,7 @@ To configure the add-on parameters, you need to edit the **settings.xml** file i
 You must define connection details: Netwrix Auditor Server host, user credentials, etc.
 
 Most parameters are optional, the service uses the default values unless parameters are explicitly
-defined (_<parameter>\*\*\_value_\*\*</parameter>\_). You can skip or define parameters depending on
+defined (`<parameter>\*\*\_value_\*\*</parameter>`). You can skip or define parameters depending on
 your execution scenario and security policies.
 
 Parameters in **settings.xml** can be grouped as follows:

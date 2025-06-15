@@ -7,7 +7,7 @@ Most parameters are optional; you can skip or define parameters depending on you
 and security policies.
 
 The service uses the default values unless parameters are explicitly defined
-(_<parameter>\*\*\_value_\*\*</parameter>\_).
+(`<parameter>\*\*\_value_\*\*</parameter>`).
 
 Parameters in **Settings.xml** can be grouped as follows:
 

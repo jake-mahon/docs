@@ -16,9 +16,9 @@ filters specifying the reviewers and items to be reviewed.
 This operation should be performed in cooperation with the staff in charge of auditing, because they
 know what entitlements need to be reviewed.
 
-| Input                                                                                                                                                                                                                                                                               | Output                              |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------- |
-| [Create the Workforce Repository](../../../set-up/initial-identities-loading/index.md) (required)<br>[Create Roles in the Role Catalog](../../../set-up/single-roles-catalog-creation/index.md) (optional)<br>[Manage Risks](../../../optimize/risk-management/index.md) (optional) | Scheduled certification campaign(s) |
+| Input                                                                                                                                                                                                                                                                                   | Output                              |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------- |
+| [Create the Workforce Repository](../../../set-up/initial-identities-loading/index.md) (required)<br />[Create Roles in the Role Catalog](../../../set-up/single-roles-catalog-creation/index.md) (optional)<br />[Manage Risks](../../../optimize/risk-management/index.md) (optional) | Scheduled certification campaign(s) |
 
 ## Create a Certification Campaign
 

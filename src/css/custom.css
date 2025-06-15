@@ -32,10 +32,66 @@
 }
 
 /* Additional custom styles */
+html {
+  scroll-behavior: smooth;
+}
+
 .button--primary {
   font-weight: 600;
 }
 
 .button--secondary {
   font-weight: 600;
+}
+
+.button--outline {
+  font-weight: 600;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.button--outline:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Navbar responsive improvements */
+@media screen and (max-width: 1200px) {
+  .navbar__item {
+    font-size: 0.9rem;
+  }
+  
+  .navbar__link {
+    padding: 0.5rem 0.75rem;
+  }
+}
+
+@media screen and (max-width: 996px) {
+  .navbar__item {
+    font-size: 0.85rem;
+  }
+  
+  .navbar__link {
+    padding: 0.5rem 0.5rem;
+  }
+  
+  /* Shorter labels for smaller screens */
+  .navbar__link[aria-expanded] {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 120px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* Better mobile navbar handling */
+  .navbar__items--right {
+    margin-left: auto;
+  }
+  
+  .navbar__toggle {
+    display: block;
+  }
 }

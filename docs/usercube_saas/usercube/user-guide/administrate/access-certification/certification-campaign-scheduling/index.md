@@ -16,9 +16,9 @@ filters specifying the reviewers and items to be reviewed.
 This operation should be performed in cooperation with the staff in charge of auditing, because they
 know what entitlements need to be reviewed.
 
-| Input                                                                                                                                                                                              | Output                              |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------- |
-| Identity Repository (required) [Create Roles in the Role Catalog](../../../set-up/single-roles-catalog-creation/index.md)<br>(optional) [Manage Risks](../../../optimize/risk-management/index.md) | Scheduled certification campaign(s) |
+| Input                                                                                                                                                                                                | Output                              |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------- |
+| Identity Repository (required) [Create Roles in the Role Catalog](../../../set-up/single-roles-catalog-creation/index.md)<br />(optional) [Manage Risks](../../../optimize/risk-management/index.md) | Scheduled certification campaign(s) |
 
 See the [Create the Workforce Repository](../../../set-up/initial-identities-loading/index.md) topic
 for additional information.

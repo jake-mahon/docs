@@ -8,3 +8,4 @@ coverage
 # Temporary ignore
 versioned_docs/*
 versioned_sidebars/*
+**/*.md

@@ -43,14 +43,14 @@ if (!product) {
 let configContent = fs.readFileSync(productsConfigPath, 'utf8')
 
 // Update the PRODUCTS object to enable only the selected product
-const productsRegex = /const PRODUCTS = {[\s\S]*?};/
+const productsRegex = /const PRODUCTS = {[\s\S]*?};?/ // Added ? to make semicolon optional
 const currentProducts = configContent.match(productsRegex)[0]
 
 // Parse the current state
 const productStates = {}
 const lines = currentProducts.split('\n')
 lines.forEach((line) => {
-  const match = line.match(/^\s*'([^']+)':\s*(true|false),?$/)
+  const match = line.match(/^\s*['"]?([^'"]+)['"]?:\s*(true|false),?$/)
   if (match) {
     productStates[match[1]] = false // Set all to false
   }

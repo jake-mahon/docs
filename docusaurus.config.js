@@ -12,7 +12,7 @@ import { themes as prismThemes } from 'prism-react-renderer'
 const config = {
   title: 'Netwrix Product Documentation',
   tagline: 'Documentation for Netwrix Products',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/branding/favicon.ico',
 
   // Set the production url of your site here
   // Use environment variable for dynamic URL configuration
@@ -25,6 +25,24 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'throw',
   onBrokenAnchors: 'throw',
+
+  // Performance optimizations with Docusaurus Faster
+  future: {
+    experimental_faster: {
+      swcJsLoader: true,
+      swcJsMinimizer: true,
+      swcHtmlMinimizer: true,
+      lightningCssMinimizer: true,
+      rspackBundler: true,
+      rspackPersistentCache: true, // 2-5x faster rebuilds
+      mdxCrossCompilerCache: true,
+      ssgWorkerThreads: true, // 2x faster static generation
+    },
+    v4: {
+      removeLegacyPostBuildHeadAttribute: true, // Required for worker threads
+      // useCssCascadeLayers: true, // Temporarily disabled - may cause style conflicts
+    },
+  },
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -487,13 +505,14 @@ const config = {
       navbar: {
         logo: {
           alt: 'Netwrix Logo',
-          src: 'img/branding/logo.svg',
+          src: 'img/branding/logo-red.svg',
+          srcDark: 'img/branding/logo-white.svg',
           href: '/',
         },
         items: [
           {
             type: 'dropdown',
-            label: 'Products',
+            label: 'Security Admin',
             position: 'left',
             items: [
               {
@@ -505,10 +524,6 @@ const config = {
                 to: '/docs/accessanalyzer',
               },
               {
-                label: 'Access Information Center',
-                to: '/docs/accessinformationcenter',
-              },
-              {
                 label: 'Activity Monitor',
                 to: '/docs/activitymonitor',
               },
@@ -517,16 +532,19 @@ const config = {
                 to: '/docs/auditor',
               },
               {
-                label: 'Change Tracker',
-                to: '/docs/changetracker',
+                label: 'Threat Manager',
+                to: '/docs/threatmanager',
               },
+            ],
+          },
+          {
+            type: 'dropdown',
+            label: 'Identity & Access',
+            position: 'left',
+            items: [
               {
-                label: 'Data Classification',
-                to: '/docs/dataclassification',
-              },
-              {
-                label: 'Endpoint Protector',
-                to: '/docs/endpointprotector',
+                label: 'Access Information Center',
+                to: '/docs/accessinformationcenter',
               },
               {
                 label: 'Group ID',
@@ -545,16 +563,19 @@ const config = {
                 to: '/docs/passwordsecure',
               },
               {
-                label: 'PolicyPak',
-                to: '/docs/policypak',
-              },
-              {
                 label: 'Privilege Secure',
                 to: '/docs/privilegesecure',
               },
+            ],
+          },
+          {
+            type: 'dropdown',
+            label: 'Compliance',
+            position: 'left',
+            items: [
               {
-                label: 'Recovery for Active Directory',
-                to: '/docs/recoveryforactivedirectory',
+                label: 'Change Tracker',
+                to: '/docs/changetracker',
               },
               {
                 label: 'StrongPoint for NetSuite',
@@ -573,8 +594,27 @@ const config = {
                 to: '/docs/strongpointsalesforceflashlight',
               },
               {
-                label: 'Threat Manager',
-                to: '/docs/threatmanager',
+                label: 'Data Classification',
+                to: '/docs/dataclassification',
+              },
+              {
+                label: 'Recovery for Active Directory',
+                to: '/docs/recoveryforactivedirectory',
+              },
+            ],
+          },
+          {
+            type: 'dropdown',
+            label: 'Endpoint',
+            position: 'left',
+            items: [
+              {
+                label: 'Endpoint Protector',
+                to: '/docs/endpointprotector',
+              },
+              {
+                label: 'PolicyPak',
+                to: '/docs/policypak',
               },
               {
                 label: 'Threat Prevention',

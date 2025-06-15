@@ -3,54 +3,172 @@ import Heading from '@theme/Heading'
 import styles from './styles.module.css'
 import Link from '@docusaurus/Link'
 
-const FeatureList = [
+const ProductCategories = [
   {
-    title: 'Activity Monitor',
-    description: (
-      <>
-        Track and audit user activities across your IT infrastructure. Monitor Active Directory,
-        file servers, Exchange, and more.
-      </>
-    ),
-    link: '/',
-    Svg: require('@site/static/img/branding/logo.svg').default,
+    title: 'Security Administration',
+    description: 'Comprehensive security monitoring and threat detection for your infrastructure',
+    icon: '🛡️',
+    products: [
+      {
+        name: '1Secure',
+        description: 'Cloud-based security monitoring and compliance',
+        link: '/docs/1secure',
+      },
+      {
+        name: 'Access Analyzer',
+        description: 'Analyze and audit file system permissions',
+        link: '/docs/accessanalyzer',
+      },
+      {
+        name: 'Activity Monitor',
+        description: 'Track user activities across IT infrastructure',
+        link: '/docs/activitymonitor',
+      },
+      {
+        name: 'Auditor',
+        description: 'Comprehensive IT infrastructure auditing',
+        link: '/docs/auditor',
+      },
+      {
+        name: 'Threat Manager',
+        description: 'Advanced threat detection and response',
+        link: '/docs/threatmanager',
+      },
+    ],
   },
   {
-    title: 'Change Tracker',
-    description: (
-      <>
-        Detect and alert on critical changes in your IT environment. Ensure compliance and security
-        with real-time change monitoring.
-      </>
-    ),
-    link: '/',
-    Svg: require('@site/static/img/branding/logo.svg').default,
+    title: 'Identity & Access Management',
+    description: 'Secure user identities, passwords, and access controls',
+    icon: '🔐',
+    products: [
+      {
+        name: 'Access Information Center',
+        description: 'Centralized access information management',
+        link: '/docs/accessinformationcenter',
+      },
+      {
+        name: 'Group ID',
+        description: 'Active Directory group management',
+        link: '/docs/groupid',
+      },
+      {
+        name: 'Password Policy Enforcer',
+        description: 'Enforce strong password policies',
+        link: '/docs/passwordpolicyenforcer',
+      },
+      {
+        name: 'Password Reset',
+        description: 'Self-service password reset solution',
+        link: '/docs/passwordreset',
+      },
+      {
+        name: 'Password Secure',
+        description: 'Secure password management',
+        link: '/docs/passwordsecure',
+      },
+      {
+        name: 'Privilege Secure',
+        description: 'Privileged access management',
+        link: '/docs/privilegesecure',
+      },
+    ],
   },
   {
-    title: 'Password Reset',
-    description: (
-      <>
-        Enable secure self-service password resets for your users. Reduce helpdesk load while
-        maintaining security.
-      </>
-    ),
-    link: '/',
-    Svg: require('@site/static/img/branding/logo.svg').default,
+    title: 'Change & Compliance',
+    description: 'Monitor changes and maintain compliance across your environment',
+    icon: '📊',
+    products: [
+      {
+        name: 'Change Tracker',
+        description: 'Real-time change monitoring and alerts',
+        link: '/docs/changetracker',
+      },
+      {
+        name: 'StrongPoint for NetSuite',
+        description: 'NetSuite change management and compliance',
+        link: '/docs/strongpointfornetsuite',
+      },
+      {
+        name: 'StrongPoint for Salesforce',
+        description: 'Salesforce change management platform',
+        link: '/docs/strongpointforsalesforce',
+      },
+      {
+        name: 'StrongPoint NetSuite Flashlight',
+        description: 'Lightweight NetSuite documentation and analysis',
+        link: '/docs/strongpointnetsuiteflashlight',
+      },
+      {
+        name: 'StrongPoint Salesforce Flashlight',
+        description: 'Lightweight Salesforce documentation and analysis',
+        link: '/docs/strongpointsalesforceflashlight',
+      },
+      {
+        name: 'Data Classification',
+        description: 'Classify and protect sensitive data',
+        link: '/docs/dataclassification',
+      },
+      {
+        name: 'Recovery for Active Directory',
+        description: 'Active Directory backup and recovery',
+        link: '/docs/recoveryforactivedirectory',
+      },
+    ],
+  },
+  {
+    title: 'Endpoint & Policy',
+    description: 'Secure endpoints and enforce organizational policies',
+    icon: '💻',
+    products: [
+      {
+        name: 'Endpoint Protector',
+        description: 'Comprehensive endpoint security',
+        link: '/docs/endpointprotector',
+      },
+      {
+        name: 'PolicyPak',
+        description: 'Group Policy management and enforcement',
+        link: '/docs/policypak',
+      },
+      {
+        name: 'Threat Prevention',
+        description: 'Proactive threat prevention',
+        link: '/docs/threatprevention',
+      },
+      {
+        name: 'UserCube',
+        description: 'User provisioning and management',
+        link: '/docs/usercube',
+      },
+      {
+        name: 'UserCube SaaS',
+        description: 'Cloud-based user management',
+        link: '/docs/usercube_saas',
+      },
+    ],
   },
 ]
 
-function Feature({ Svg, title, description, link }) {
+function ProductCategory({ title, description, icon, products }) {
   return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+    <div className={styles.categorySection}>
+      <div className={styles.categoryHeader}>
+        <span className={styles.categoryIcon}>{icon}</span>
+        <div>
+          <Heading as="h3" className={styles.categoryTitle}>
+            {title}
+          </Heading>
+          <p className={styles.categoryDescription}>{description}</p>
+        </div>
       </div>
-      <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
-        <p>{description}</p>
-        <Link className="button button--primary" to={link}>
-          View Documentation
-        </Link>
+      <div className={styles.productsGrid}>
+        {products.map((product, idx) => (
+          <Link key={idx} to={product.link} className={styles.productCard}>
+            <h4 className={styles.productName}>{product.name}</h4>
+            <p className={styles.productDescription}>{product.description}</p>
+            <span className={styles.learnMore}>Learn more →</span>
+          </Link>
+        ))}
       </div>
     </div>
   )
@@ -58,11 +176,20 @@ function Feature({ Svg, title, description, link }) {
 
 export default function HomepageFeatures() {
   return (
-    <section className={styles.features}>
+    <section id="products" className={styles.features}>
       <div className="container">
-        <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
+        <div className={styles.sectionHeader}>
+          <Heading as="h2" className={styles.sectionTitle}>
+            Choose Your Security Solution
+          </Heading>
+          <p className={styles.sectionSubtitle}>
+            Explore our comprehensive security products organized by your specific needs and use
+            cases.
+          </p>
+        </div>
+        <div className={styles.categoriesContainer}>
+          {ProductCategories.map((category, idx) => (
+            <ProductCategory key={idx} {...category} />
           ))}
         </div>
       </div>
