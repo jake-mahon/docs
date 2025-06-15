@@ -2,7 +2,7 @@
 
 The Endpoint Protector Agent enforces the Rights and Settings received from the Endpoint Protector Server on the protected endpoints (Windows, Mac, and Linux).
 
-You can download the Endpoint Protector Agent directly from the Endpoint Protector UI. For detailed information about downloading the Endpoint Protector Agent, refer to the [Client Software](/docs/endpointprotector/endpointprotector/admin/systemconfiguration/overview.md#client-software) topic.
+You can download the Endpoint Protector Agent directly from the Endpoint Protector UI. For detailed information about downloading the Endpoint Protector Agent, refer to the [Client Software](../../admin/systemconfiguration/overview.md#client-software) topic.
 
 __NOTE:__ You can use tools like Active Directory or JAMF to deploy the Endpoint Protector Agent in large networks.
 
@@ -24,9 +24,9 @@ The following are several examples of supported distributions:
 - Fedora 29
 - OpenSUSE 42.2 and 42.3
 
-![The Agent enforces the Rights and Settings received from the Endpoint Protector Server on the protected endpoints (Windows, Mac, and Linux)](/img/product_docs/endpointprotector/endpointprotector/install/agent/setupagent.png)
+![The Agent enforces the Rights and Settings received from the Endpoint Protector Server on the protected endpoints (Windows, Mac, and Linux)](../../../../../static/img/product_docs/endpointprotector/endpointprotector/install/agent/setupagent.png)
 
-![The Agent enforces the Rights and Settings received from the Endpoint Protector Server on the protected endpoints (Windows, Mac, and Linux)](/img/product_docs/endpointprotector/endpointprotector/install/agent/setupagenttwo.png)
+![The Agent enforces the Rights and Settings received from the Endpoint Protector Server on the protected endpoints (Windows, Mac, and Linux)](../../../../../static/img/product_docs/endpointprotector/endpointprotector/install/agent/setupagenttwo.png)
 
 ### Installation on macOS with Deep Packet Inspection and VPN Traﬃc Intercept Active
 
@@ -38,35 +38,35 @@ __Step 2 –__ Go to the __System conﬁguration__ section, select __Client Soft
 
 __Step 3 –__ Decompress the downloaded ﬁle.
 
-![Installation on macOS with Deep Packet Inspection and VPN Traﬃc Intercept Active](/img/product_docs/endpointprotector/endpointprotector/install/agent/clientinstallationios.png)
+![Installation on macOS with Deep Packet Inspection and VPN Traﬃc Intercept Active](../../../../../static/img/product_docs/endpointprotector/endpointprotector/install/agent/clientinstallationios.png)
 
 __Step 4 –__ Open the __.pkg__ ﬁle and follow the installation steps and give the requested permissions.
 
 __Step 5 –__ After the installation is complete, go to __System Preferences__ > __Security & Privacy__ > __Privacy tab__ > __Full Disk Access__. Search for Endpoint Protector Client, select the checkbox, and then __save__ the changes.
 
-![Grant permission to the Endpoint Protector Client](/img/product_docs/endpointprotector/endpointprotector/install/agent/eppagentpermisions.png)
+![Grant permission to the Endpoint Protector Client](../../../../../static/img/product_docs/endpointprotector/endpointprotector/install/agent/eppagentpermisions.png)
 
 __Step 6 –__ Open the Endpoint Protector Server and activate Deep Packet Inspection by navigating to __Device Control__ > __Users/Computer/Group/Global Settings__ > __Manage Settings__ > __Endpoint Protector Client__ > __Deep Packet Inspection__.
 
-![Activating Deep Packet Inspection](/img/product_docs/endpointprotector/endpointprotector/install/agent/dpion.png)
+![Activating Deep Packet Inspection](../../../../../static/img/product_docs/endpointprotector/endpointprotector/install/agent/dpion.png)
 
 __Step 7 –__ Go to the __System Conﬁguration__ section, then __System Settings__ > __Deep Packet Inspection Certiﬁcate__, and download the __CA Certiﬁcate__.
 
-![Download the Client CA Certiﬁcates](/img/product_docs/endpointprotector/endpointprotector/install/agent/dpicertificate.png)
+![Download the Client CA Certiﬁcates](../../../../../static/img/product_docs/endpointprotector/endpointprotector/install/agent/dpicertificate.png)
 
 __Step 8 –__ Open the __Keychain Access__ application from your macOS and select __System__.
 
-![Open the Keychain Access application from your macOS and select System](/img/product_docs/endpointprotector/endpointprotector/install/agent/keychainaccess.png)
+![Open the Keychain Access application from your macOS and select System](../../../../../static/img/product_docs/endpointprotector/endpointprotector/install/agent/keychainaccess.png)
 
 __Step 9 –__ Decompress the downloaded __ClientCerts__ ﬁle.
 
 __Step 10 –__ Select __cacert.pem__ ﬁle and drag and drop it on __System > Keychain Access__.
 
-![Select cacert.pem ﬁle and drag and drop it on Keychain Access, System](/img/product_docs/endpointprotector/endpointprotector/install/agent/clientcerts.png)
+![Select cacert.pem ﬁle and drag and drop it on Keychain Access, System](../../../../../static/img/product_docs/endpointprotector/endpointprotector/install/agent/clientcerts.png)
 
 __Step 11 –__ Double-click the __X__ on the newly added certiﬁcate and on the Trust section, select __Always Trust__.
 
-![On the newly added certiﬁcate and on the Trust section, select Always Trust.](/img/product_docs/endpointprotector/endpointprotector/install/agent/keychainaccesstwo.png)
+![On the newly added certiﬁcate and on the Trust section, select Always Trust.](../../../../../static/img/product_docs/endpointprotector/endpointprotector/install/agent/keychainaccesstwo.png)
 
 __Step 12 –__ __Save__ the changes.
 
@@ -77,21 +77,21 @@ __Step 14 –__ Select one option for __EPP behavior when network extension is d
 - Temporarily Disable Deep Packet Inspection – this option will temporary disable Deep Packet Inspection
 - Block Internet Access – this option will end the Internet connection until the end-user approves the Endpoint Protector Proxy Conﬁguration once the computer is rebooted.
 
-![Activate Intercept VPN Traﬃc](/img/product_docs/endpointprotector/endpointprotector/install/agent/interceptvpntraffic.png)
+![Activate Intercept VPN Traﬃc](../../../../../static/img/product_docs/endpointprotector/endpointprotector/install/agent/interceptvpntraffic.png)
 
 __Step 15 –__ __Save__ the changes.
 
 __Step 16 –__ The following pop-up will be displayed informing the end-user that a System Extension is blocked and needs to be allowed.
 
-![System Extension is blocked and needs to be allowed](/img/product_docs/endpointprotector/endpointprotector/install/agent/systemextensionblocked.png)
+![System Extension is blocked and needs to be allowed](../../../../../static/img/product_docs/endpointprotector/endpointprotector/install/agent/systemextensionblocked.png)
 
 __Step 17 –__ Go to __System Preferences__ > __Security and Privacy__ > select the __General tab__ and __allow__ the Endpoint Protector Client Extension.
 
-![select the General tab and allow the Endpoint Protector Client Extension](/img/product_docs/endpointprotector/endpointprotector/install/agent/generaltabios.png)
+![select the General tab and allow the Endpoint Protector Client Extension](../../../../../static/img/product_docs/endpointprotector/endpointprotector/install/agent/generaltabios.png)
 
 __Step 18 –__ __Allow__ the Endpoint Protector Proxy Conﬁguration from the pop-up window.
 
-![proxypop-up](/img/product_docs/endpointprotector/endpointprotector/install/agent/proxypop-up.png)
+![proxypop-up](../../../../../static/img/product_docs/endpointprotector/endpointprotector/install/agent/proxypop-up.png)
 
 At this point, the macOS Endpoint Protector Client installation is completed.
 
@@ -116,7 +116,7 @@ The following are several examples of supported distributions:
 - LinuxMint
 - Debian
 
-![Debian Based Distributions](/img/product_docs/endpointprotector/endpointprotector/install/agent/debianbaseddistributions.png)
+![Debian Based Distributions](../../../../../static/img/product_docs/endpointprotector/endpointprotector/install/agent/debianbaseddistributions.png)
 
 ### RedHat based distributions
 
@@ -129,7 +129,7 @@ The following are several examples of supported distributions:
 - Fedora 32, 33, 34, 35
 - AWS Linux 2
 
-![RedHat based distributions](/img/product_docs/endpointprotector/endpointprotector/install/agent/redhatbaseddistributions.png)
+![RedHat based distributions](../../../../../static/img/product_docs/endpointprotector/endpointprotector/install/agent/redhatbaseddistributions.png)
 
 - OpenSuse 15.2
 - SUSE 15+
@@ -137,7 +137,7 @@ The following are several examples of supported distributions:
 - SLED Linux Enterprise Server 15 SP2
 - SLED Linux Enterprise Server 15 SP3
 
-![RedHat based distributions](/img/product_docs/endpointprotector/endpointprotector/install/agent/redhatbaseddistributionstwo.png)
+![RedHat based distributions](../../../../../static/img/product_docs/endpointprotector/endpointprotector/install/agent/redhatbaseddistributionstwo.png)
 
 ### Setting the Server IP
 
@@ -145,9 +145,9 @@ For all RedHat-based distributions, you need to follow an additional step after 
 
 Based on each distribution, follow the corresponding method:
 
-![Setting the Endpoint Protector Server IP](/img/product_docs/endpointprotector/endpointprotector/install/agent/setserverip.png)
+![Setting the Endpoint Protector Server IP](../../../../../static/img/product_docs/endpointprotector/endpointprotector/install/agent/setserverip.png)
 
-![Setting the Endpoint Protector Server IP](/img/product_docs/endpointprotector/endpointprotector/install/agent/setserveriptwo.png)
+![Setting the Endpoint Protector Server IP](../../../../../static/img/product_docs/endpointprotector/endpointprotector/install/agent/setserveriptwo.png)
 
 ### The Windows Subsystem for Linux
 
@@ -157,7 +157,7 @@ While direct installation is not possible, you can still manage and control the 
 
 Follow the steps to use use Denylists to control WSL applications.
 
-__Step 1 –__ Navigate to the [Denylists and Allowlists](/docs/endpointprotector/endpointprotector/admin/denylistsallowlists/overview.md) section within the Endpoint Protector Console.
+__Step 1 –__ Navigate to the [Denylists and Allowlists](../../admin/denylistsallowlists/overview.md) section within the Endpoint Protector Console.
 
 __Step 2 –__ Create a new __Denylist entry__.
 

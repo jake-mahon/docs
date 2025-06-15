@@ -14,10 +14,10 @@ SecureRun because it is untrusted. These Event log entries, and policies created
 from these entries, can be later analyzed by IT,. GS does not interact with any applications on the endpoint, so it can safely be distributed
 to as many endpoints as you see fit.
 
-For more information on Using Global Settings Policy, see [Use Discovery to know what rules to make as you transition from Local Admin rights](/docs/policypak/policypak/video/leastprivilege/discovery.md)
+For more information on Using Global Settings Policy, see [Use Discovery to know what rules to make as you transition from Local Admin rights](../../video/leastprivilege/discovery.md)
 
 For more information on using the Global Settings
-audit events to create LPM Policies, see [Auto-Create Policy from Global Audit event](/docs/policypak/policypak/video/leastprivilege/globalauditevent.md)
+audit events to create LPM Policies, see [Auto-Create Policy from Global Audit event](../../video/leastprivilege/globalauditevent.md)
 
 ## Auto Rules Generator
 
@@ -32,7 +32,7 @@ allowed.
 
 For more information on using the Auto-Rules
 Generator
-Tool, see [Auto Rules Generator Tool (with SecureRun)](/docs/policypak/policypak/video/leastprivilege/autorulesgeneratortool.md)
+Tool, see [Auto Rules Generator Tool (with SecureRun)](../../video/leastprivilege/autorulesgeneratortool.md)
 
 ## Post-installation Options
 
@@ -48,7 +48,7 @@ Instead of an outright denial, the end-user is presented
 with a request code. When sent to an administrator, a response code can be created to allow the process to
 run. This can allow infrequent or new processes to be run without a specific rule being created.
 
-[Admin Approval demo](/docs/policypak/policypak/video/leastprivilege/adminapproval/demo.md)
+[Admin Approval demo](../../video/leastprivilege/adminapproval/demo.md)
 
 ### Self Elevation
 
@@ -57,4 +57,4 @@ run applications despite not having a specific policy. You can be specific to wh
 what types of files. As well, each time this is invoked, it is logged in the event log along with the option
 of requiring the user's justification for running the process
 
-For more information, see [Self Elevate Mode](/docs/policypak/policypak/video/leastprivilege/selfelevatemode/demo.md)
+For more information, see [Self Elevate Mode](../../video/leastprivilege/selfelevatemode/demo.md)

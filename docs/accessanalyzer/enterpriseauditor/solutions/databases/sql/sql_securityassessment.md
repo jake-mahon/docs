@@ -2,19 +2,19 @@
 
 The SQL_SecurityAssessment Job summarizes and categorizes security findings into HIGH, MEDIUM, LOW, and NO FINDINGS categories based on severity.
 
-![SQL_SecurityAssessment](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/sqljobgroup49.webp)
+![SQL_SecurityAssessment](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/sqljobgroup49.webp)
 
 Special Dependencies
 
 One or more of the following jobs or job groups must be run to produce results:
 
-- [0.Collection > SQL Job Group](/docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/collection/overview.md)
-- [SQL_PasswordIssues Job](/docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/usersroles/sql_passwordissues.md)
-- [SQL_RoleMembers Job](/docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/usersroles/sql_rolemembers.md)
-- [SQL_PublicPermissions Job](/docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/permissions/sql_publicpermissions.md)
-- [5.Sensitive Data Job Group](/docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/sensitivedata/overview.md)
-- [Privileged Accounts Job Group](/docs/accessanalyzer/enterpriseauditor/solutions/windows/privilegedaccounts/overview.md)
-- [Privileged Accounts Job Group](/docs/accessanalyzer/enterpriseauditor/solutions/windows/privilegedaccounts/overview.md)
+- [0.Collection > SQL Job Group](collection/overview.md)
+- [SQL_PasswordIssues Job](usersroles/sql_passwordissues.md)
+- [SQL_RoleMembers Job](usersroles/sql_rolemembers.md)
+- [SQL_PublicPermissions Job](permissions/sql_publicpermissions.md)
+- [5.Sensitive Data Job Group](sensitivedata/overview.md)
+- [Privileged Accounts Job Group](../../windows/privilegedaccounts/overview.md)
+- [Privileged Accounts Job Group](../../windows/privilegedaccounts/overview.md)
 
 Only information collected from jobs/groups being run will produce findings.
 
@@ -22,7 +22,7 @@ Only information collected from jobs/groups being run will produce findings.
 
 Navigate to the SQL > SQL_SecurityAssesment > Configure node and select Analysis to view the analysis task.
 
-![Analysis Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/sqljobgroup50.webp)
+![Analysis Selection](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/sqljobgroup50.webp)
 
 The default analysis task is:
 

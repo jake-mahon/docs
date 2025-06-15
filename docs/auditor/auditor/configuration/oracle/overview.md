@@ -10,16 +10,16 @@ You can configure your IT Infrastructure for monitoring in one of the following
 - Manually – Native audit settings must be adjusted manually to ensure collecting comprehensive and reliable audit data. You can enable Auditor to continually enforce the relevant audit policies or configure them manually:
 
   - On the Oracle server, configure the required settings described below.
-  - On the Auditor console computer, verify that Oracle Data Provider for .NET and Oracle Instant Client are installed and properly configured. See the [Permissions for Oracle Database Auditing](/docs/auditor/auditor/configuration/oracle/permissions.md) topic of system requirements.
+  - On the Auditor console computer, verify that Oracle Data Provider for .NET and Oracle Instant Client are installed and properly configured. See the [Permissions for Oracle Database Auditing](permissions.md) topic of system requirements.
 
-Ensure that you have met all software requirements on the Oracle Database side. See the [Software Requirements](/docs/auditor/auditor/requirements/software.md) topic for additional information.
+Ensure that you have met all software requirements on the Oracle Database side. See the [Software Requirements](../../requirements/software.md) topic for additional information.
 
 Before you start monitoring your Oracle Database with Netwrix Auditor, you should configure it to provide audit trails. Depending on your current database version and edition, Oracle supports different auditing types:
 
 | Auditing type | Oracle version | Details |
 | --- | --- | --- |
-| Unified Auditing | Oracle Database 23c, 21c, 19c, 18c, 12c | Consolidates all auditing into a single repository and view. This provides a two-fold simplification: audit data can now be found in a single location and all audit data is in a single format.  See [Configure Oracle Database for Auditing](/docs/auditor/auditor/configuration/oracle/database.md) topic for more information. |
-| Fine Grained Auditing | Oracle Database 23c, 21c, 19c, 18c, 12c, 11g  Available for __Enterprise Edition__ only. | Supports auditing of actions associated with columns in application tables — along with conditions necessary for an audit record to be generated.  Helps to focus on security-relevant columns and rows, ignoring areas that are less important.  See [Configure Fine Grained Auditing](/docs/auditor/auditor/configuration/oracle/finegained.md) topic for more information. |
+| Unified Auditing | Oracle Database 23c, 21c, 19c, 18c, 12c | Consolidates all auditing into a single repository and view. This provides a two-fold simplification: audit data can now be found in a single location and all audit data is in a single format.  See [Configure Oracle Database for Auditing](database.md) topic for more information. |
+| Fine Grained Auditing | Oracle Database 23c, 21c, 19c, 18c, 12c, 11g  Available for __Enterprise Edition__ only. | Supports auditing of actions associated with columns in application tables — along with conditions necessary for an audit record to be generated.  Helps to focus on security-relevant columns and rows, ignoring areas that are less important.  See [Configure Fine Grained Auditing](finegained.md) topic for more information. |
 | Standard Auditing (trail auditing mode) | Oracle Database 11g | See topic for more information.  Use initialization parameters and the ```AUDIT``` and ```NOAUDIT``` SQL statements to audit:   - SQL statements - privileges - schema objects - network and multitier activities   See [Oracle documentation](https://docs.oracle.com/cd/E11882_01/server.112/e10575/tdpsg_auditing.htm#oracle-documentation) for more information.  Starting with version 10.5, Netwrix Auditor provides limited support of Oracle Database 11g and trail auditing mode, in particular: Netwrix Auditor client UI does not display any warnings and / or errors related to Standard Auditing mode operation. |
 
 __CAUTION:__ Folder associated with Netwrix Auditor must be excluded from antivirus scanning. See the [Antivirus Exclusions for Netwrix Auditor](https://helpcenter.netwrix.com/bundle/z-kb-articles-salesforce/page/kA04u0000000HirCAE.html) knowledge base article for additional information.
@@ -36,21 +36,21 @@ Starting with version 9.95, Netwrix Auditor for Oracle Database is focused on ve
 
 - If you are using Oracle Database 11g and have performed seamless upgrade to the latest version of Auditor, the audit data collection will operate properly. However, consider and keep in mind Oracle Database 11g support expiration dates.
 
-If you are using Oracle Database 12c or later, make sure you have Unified auditing mode enabled. Otherwise, Netwrix Auditor may not operate properly. See the [Migrate to Unified Audit](/docs/auditor/auditor/configuration/oracle/unified.md) topic for additional information.
+If you are using Oracle Database 12c or later, make sure you have Unified auditing mode enabled. Otherwise, Netwrix Auditor may not operate properly. See the [Migrate to Unified Audit](unified.md) topic for additional information.
 
-See the [Software Requirements](/docs/auditor/auditor/requirements/software.md) topic for additional information.
+See the [Software Requirements](../../requirements/software.md) topic for additional information.
 
 ## Configuration
 
-If you are using Oracle Wallet to connect to your database, see the [Create and Configure Oracle Wallet](/docs/auditor/auditor/configuration/oracle/wallet.md) topic for configuration details.
+If you are using Oracle Wallet to connect to your database, see the [Create and Configure Oracle Wallet](wallet.md) topic for configuration details.
 
-Oracle Wallet is not supported for Oracle 11g. If you are unsure of your audit settings, refer to the [Verify Your Oracle Database Audit Settings](/docs/auditor/auditor/configuration/oracle/verifysettings.md)
+Oracle Wallet is not supported for Oracle 11g. If you are unsure of your audit settings, refer to the [Verify Your Oracle Database Audit Settings](verifysettings.md)
 
 Follow the steps for proper configuration.
 
-__Step 1 –__ Configure Data Collecting Account, as described in the [Permissions for Oracle Database Auditing](/docs/auditor/auditor/configuration/oracle/permissions.md) topic.
+__Step 1 –__ Configure Data Collecting Account, as described in the [Permissions for Oracle Database Auditing](permissions.md) topic.
 
-__Step 2 –__ Configure required protocols and ports, as described in the [Oracle Database Ports](/docs/auditor/auditor/configuration/oracle/ports.md) topic.
+__Step 2 –__ Configure required protocols and ports, as described in the [Oracle Database Ports](ports.md) topic.
 
 ## Oracle Database objects
 

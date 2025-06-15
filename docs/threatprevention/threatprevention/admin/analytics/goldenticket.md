@@ -13,7 +13,7 @@ Analytic Workflow
 
 1. Configure the analytic policy
 2. Enable the analytic policy
-3. Enable alerting on incidents through the [System Alerting Window](/docs/threatprevention/threatprevention/admin/configuration/systemalerting/overview.md).
+3. Enable alerting on incidents through the [System Alerting Window](../configuration/systemalerting/overview.md).
 
 See the Golden Tickets Analytic Data Grid topic for information on event data collected per incident.
 
@@ -31,18 +31,18 @@ The Configure Analytics window has two tabs:
 
 Settings Tab
 
-![Golden Ticket Analytic Type - Settings tab](/img/product_docs/threatprevention/threatprevention/admin/analytics/goldenticketsettings.webp)
+![Golden Ticket Analytic Type - Settings tab](../../../../../static/img/product_docs/threatprevention/threatprevention/admin/analytics/goldenticketsettings.webp)
 
 Set the _Maximum Lifetime for User Ticket [value] Hours_ and the _Maximum Lifetime for User Ticket Renewal [value] Days_ to trigger the incident. The default Microsoft Windows lifetime for user tickets is ten hours, and the renewal period is seven days. This analytic policy will check each ticket that requests authentication against the values set in this analytic policy. Any time a ticket exceeds either of these values, an incident is triggered.
 
 Policy Tab
 
-![Golden Ticket Analytic Type - Policy tab](/img/product_docs/threatprevention/threatprevention/admin/analytics/policytab.webp)
+![Golden Ticket Analytic Type - Policy tab](../../../../../static/img/product_docs/threatprevention/threatprevention/admin/analytics/policytab.webp)
 
 The __Policy__ tab for configuring analytics consists of three sub-tabs:
 
-- General tab – Configured the same way a regular policy’s [General Tab](/docs/threatprevention/threatprevention/admin/policies/general.md) is configured. The only exception is that the Name and Description are hard coded, and cannot be modified. The Tags field is disabled for analytics.
-- Event Type tab – Configured the same way a regular policy’s [Event Type Tab](/docs/threatprevention/threatprevention/admin/policies/eventtype/overview.md) is configured. The only exception is that the [Authentication Monitoring Event Type](/docs/threatprevention/threatprevention/admin/policies/eventtype/authenticationmonitoring.md) is hard coded, and the Success filter cannot be modified.
+- General tab – Configured the same way a regular policy’s [General Tab](../policies/general.md) is configured. The only exception is that the Name and Description are hard coded, and cannot be modified. The Tags field is disabled for analytics.
+- Event Type tab – Configured the same way a regular policy’s [Event Type Tab](../policies/eventtype/overview.md) is configured. The only exception is that the [Authentication Monitoring Event Type](../policies/eventtype/authenticationmonitoring.md) is hard coded, and the Success filter cannot be modified.
 
   ___RECOMMENDED:___ Do not configure any filters for this analytic type.
 
@@ -54,15 +54,15 @@ The __Policy__ tab for configuring analytics consists of three sub-tabs:
   - _Optional:_Scope the servers to be included in or excluded from monitoring on the IP Addresses (from) filter, the IP Addresses (to) filter, the Hosts (from) filter, or the Hosts (to) filter.
 
     __NOTE:__ Some authentication events may return only a host name (NetBIOS or FQDN), others may return only an IP address. It is recommended to take this into account when entering filter values.
-- Actions tab – Configured the same way a regular policy’s [Actions Tab](/docs/threatprevention/threatprevention/admin/policies/actions/overview.md) is configured. The only exceptions are that the “Send to Event DB” and “Email Notifications” options are disabled. The event data collected by analytic policies are stored in memory until an incident is triggered. For the “Send Raw Data to SIEM” option, use _caution_, as this will send all event data not the triggered incident, which could be a large volume of data. To send notifications on incidents, use the [System Alerting Window](/docs/threatprevention/threatprevention/admin/configuration/systemalerting/overview.md) to configure Email and SIEM alerts.
+- Actions tab – Configured the same way a regular policy’s [Actions Tab](../policies/actions/overview.md) is configured. The only exceptions are that the “Send to Event DB” and “Email Notifications” options are disabled. The event data collected by analytic policies are stored in memory until an incident is triggered. For the “Send Raw Data to SIEM” option, use _caution_, as this will send all event data not the triggered incident, which could be a large volume of data. To send notifications on incidents, use the [System Alerting Window](../configuration/systemalerting/overview.md) to configure Email and SIEM alerts.
 
 ## Golden Tickets Analytic Data Grid
 
 The data grid on the __Golden Tickets__ node lists one row per incident identified.
 
-![Golden Ticket Analytic Type  window](/img/product_docs/threatprevention/threatprevention/admin/analytics/goldenticket.webp)
+![Golden Ticket Analytic Type  window](../../../../../static/img/product_docs/threatprevention/threatprevention/admin/analytics/goldenticket.webp)
 
-The data grid can be filtered according to the Event Tracker status: All, New, or Reviewed. See the [Event Tracker Window](/docs/threatprevention/threatprevention/admin/policies/recentevents/eventtracker.md) topic for additional information.
+The data grid can be filtered according to the Event Tracker status: All, New, or Reviewed. See the [Event Tracker Window](../policies/recentevents/eventtracker.md) topic for additional information.
 
 The top data grid includes the following information for each incident:
 
@@ -81,4 +81,4 @@ The top data grid includes the following information for each incident:
 - TGT MaxRenew – Date timestamp for the maximum renewal date of the ticket; the specified time is the local time for the server where the Agent is deployed
 - Agent Time Logged – Timestamp for when the Agent detected the event. This can be different from the Enterprise Manager time (displayed in the Date/Time column) due to latency.
 
-This data grid employs features for sorting, filtering, searching, and more. See the [ Data Grid Functionality](/docs/threatprevention/threatprevention/admin/navigation/datagrid.md) topic for additional information.
+This data grid employs features for sorting, filtering, searching, and more. See the [ Data Grid Functionality](../navigation/datagrid.md) topic for additional information.

@@ -6,4 +6,4 @@ However, DO NOT set the dropdown to custom. That is, but leave the "Security Lev
 
 This formula will deliver the specific custom settings you choose.
 
-![313_1_2015-03-16_1607](/img/product_docs/policypak/policypak/applicationsettings/preconfigured/internetexplorer/313_1_2015-03-16_1607.webp)
+![313_1_2015-03-16_1607](../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/preconfigured/internetexplorer/313_1_2015-03-16_1607.webp)

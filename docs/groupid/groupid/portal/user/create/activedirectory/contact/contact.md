@@ -28,4 +28,4 @@ Step 4 – Use the Exchange page to mail-enable the contact.
 
 Step 5 – On the Summary page, review the settings and then click Finish to complete the wizard.
 
-NOTE: If the Directory Manager administrator has specified the contact creation action for review, your changes will not take effect until verified by an approver. See the [Requests](/docs/groupid/groupid/portal/request/overview.md) topic for additional information.
+NOTE: If the Directory Manager administrator has specified the contact creation action for review, your changes will not take effect until verified by an approver. See the [Requests](../../../../request/overview.md) topic for additional information.

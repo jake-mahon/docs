@@ -70,4 +70,4 @@ I hope this helps you out with event forwarding and collection. Now you can do t
 
 Thank you very much for watching, and talk to you soon.
 
-Related article: [How to forward interesting events for Least Privilege Manager (or anything else) to a centralized location using Windows Event Forwarding.](/docs/policypak/policypak/leastprivilege/windowseventforwarding.md)
+Related article: [How to forward interesting events for Least Privilege Manager (or anything else) to a centralized location using Windows Event Forwarding.](../../leastprivilege/windowseventforwarding.md)

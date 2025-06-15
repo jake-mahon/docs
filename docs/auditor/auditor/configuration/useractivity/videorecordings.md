@@ -35,7 +35,7 @@ __Step 4 –__ In the Internet Options dialog, switch to the __Advanced__ tab.
 
 __Step 5 –__ Local Security and select the __Allow active content to run in files on My Computer__ checkbox.
 
-![manualconfig_uavr_ie2016](/img/product_docs/auditor/auditor/configuration/useractivity/manualconfig_uavr_ie2016.webp)
+![manualconfig_uavr_ie2016](../../../../../static/img/product_docs/auditor/auditor/configuration/useractivity/manualconfig_uavr_ie2016.webp)
 
 ## To Enable JavaScript
 

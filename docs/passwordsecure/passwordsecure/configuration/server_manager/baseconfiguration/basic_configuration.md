@@ -4,13 +4,13 @@
 
 Within the basic configuration, the connection to the SQL server or to the databases is defined. The basic configuration appears the first time the Server Manager is started and can be called up at any time in the basic configuration.
 
-![base configuration](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/baseconfiguration/installation_with_parameters_188-en.webp)
+![base configuration](../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/baseconfiguration/installation_with_parameters_188-en.webp)
 
 ## The basic configuration
 
 A special wizard is available to carry out the configuration:
 
-![Baseconfig](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/baseconfiguration/installation_with_parameters_189-en.webp)
+![Baseconfig](../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/baseconfiguration/installation_with_parameters_189-en.webp)
 
 #### Service address
 
@@ -29,7 +29,7 @@ __CAUTION:__ The defined service user __needs local administrator__ rights to pr
 
 Under “SQL Server instance” the database server must be specified, including the SQL instance. For simplicity, you can copy the server name from the login window of the SQL server.
 
-![installation_with_parameters_190](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/baseconfiguration/installation_with_parameters_190.webp)
+![installation_with_parameters_190](../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/baseconfiguration/installation_with_parameters_190.webp)
 
 If the option “Service user” is selected, enter the user that logs on to the SQL Server. Please note that “dbCreator” rights are necessary to create a configuration database. “dbOwner” rights are sufficient if the database is created manually on the SQL server and is only accessed here. Enter the name of the configuration database under “Database”.
 

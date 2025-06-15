@@ -23,7 +23,7 @@ A best practice is to create change requests in your production account so that 
 9. Set the __Account ID Target__ (this is automatically loaded upon selecting Target account).
 10. Set the __Account Target Role__.
 11. Click __Push__.
-![push_change_request](/img/product_docs/strongpointfornetsuite/change_management/push_change_request.webp)
+![push_change_request](../../../static/img/product_docs/strongpointfornetsuite/change_management/push_change_request.webp)
   
 
 ## Update the Change Request in Testing/Development
@@ -33,11 +33,11 @@ A best practice is to create change requests in your production account so that 
 
 - Attach __customizations created/updated__.
 
-  ![multi_env_1](/img/product_docs/strongpointfornetsuite/change_management/multi_env_1.webp)
+  ![multi_env_1](../../../static/img/product_docs/strongpointfornetsuite/change_management/multi_env_1.webp)
 - __Stage__: __Deployment Record__
 - __Set Approval Status__: __Approved__ (this is optional)
 
-  ![multi_env_2](/img/product_docs/strongpointfornetsuite/change_management/multi_env_2.webp)
+  ![multi_env_2](../../../static/img/product_docs/strongpointfornetsuite/change_management/multi_env_2.webp)
 
 3. Open the __Sync Tool__ tab.
 4. __Push__ the updated Change Request back into Production. This adds a related deployment record to the Master Change Request in Production.
@@ -48,7 +48,7 @@ A best practice is to create change requests in your production account so that 
 2. Enter the login credentials of the __Target__ and __Source__ Accounts.
 3. Set the __Comparison Type__ to __Target Newer than Source__.
 4. Click the __Compare__ button.  
-   Refer to [Comparing Environments](/docs/strongpointfornetsuite/change_management/comparing_environments.md) for more details.
+   Refer to [Comparing Environments](comparing_environments.md) for more details.
 
 ## Create the Deployment Record
 
@@ -62,7 +62,7 @@ In your Production environment:
 4. Open __Change Request__ tab.
 5. Click __Edit__ (deployment record).
 
-   ![multi_env_3](/img/product_docs/strongpointfornetsuite/change_management/multi_env_3.webp)
+   ![multi_env_3](../../../static/img/product_docs/strongpointfornetsuite/change_management/multi_env_3.webp)
 6. Push the Change Request from Production to Development/Testing.
 7. Install any customizations in Development/Testing.
 
@@ -72,7 +72,7 @@ In your Production environment:
 2. Enter the login credentials of the __Target__ and __Source__ Accounts.
 3. Set the __Comparison Type__ to __Target Newer than Source__.
 4. Click the __Compare__ button.  
-   Refer to [Comparing Environments](/docs/strongpointfornetsuite/change_management/comparing_environments.md) for more details.
+   Refer to [Comparing Environments](comparing_environments.md) for more details.
 
 ## Completing the Process
 

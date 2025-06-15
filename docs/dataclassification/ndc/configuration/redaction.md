@@ -14,16 +14,16 @@ Redaction plans can be used as an optional migration step to remove specific ent
 
 Masking based redaction will ensure that a specified number of start / end characters will be retained from each redacted value.
 
-![configredactionplans](/img/product_docs/dataclassification/ndc/configuration/configredactionplans.webp)
+![configredactionplans](../../../../static/img/product_docs/dataclassification/ndc/configuration/configredactionplans.webp)
 
 ## Redaction Entity Groups
 
 Entity Groups can be used to add redaction entities to specific groups.
 
-![redactionentitygroups](/img/product_docs/dataclassification/ndc/configuration/redactionentitygroups.webp)
+![redactionentitygroups](../../../../static/img/product_docs/dataclassification/ndc/configuration/redactionentitygroups.webp)
 
 ## Redaction Entities
 
 Entities can be used to specify any custom words or phrases that should be removed by a redaction plan.
 
-![configredactionentities](/img/product_docs/dataclassification/ndc/configuration/configredactionentities.webp)
+![configredactionentities](../../../../static/img/product_docs/dataclassification/ndc/configuration/configredactionentities.webp)

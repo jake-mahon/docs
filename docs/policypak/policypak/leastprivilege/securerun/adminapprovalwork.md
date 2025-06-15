@@ -11,4 +11,4 @@ SCENARIO 2: If SecureRun is enabled:
 - If the file is owned by an untrusted principal and elevation is not required, then the Admin Approval dialog will notbe shown, and it will be blocked by SecureRun.
 - If elevation is required, then Admin Approval will be shown, regardless if the file is owned by a trusted principal or not.
 
-![977_1_image-20230824223216-1_950x550](/img/product_docs/policypak/policypak/leastprivilege/securerun/977_1_image-20230824223216-1_950x550.webp)
+![977_1_image-20230824223216-1_950x550](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/securerun/977_1_image-20230824223216-1_950x550.webp)

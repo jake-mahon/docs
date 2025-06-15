@@ -4,7 +4,7 @@ To prepare for non-owner mailbox access auditing in the Exchange Online organiza
 
 These settings shall provide configuration for the All Exchange Online Non-Owner Mailbox Access Events report. See the Filters topic for additional information.
 
-__NOTE:__ To start auditing the data for the report, you need to select the __Collect non-owner mailbox audit data__ check box when adding the Exchange Online source. See the [Add a Source and Connectors for Exchange Online](/docs/1secure/admin/organizations/sourcesandconnectors/exchangeonline.md)topic for additional information.
+__NOTE:__ To start auditing the data for the report, you need to select the __Collect non-owner mailbox audit data__ check box when adding the Exchange Online source. See the [Add a Source and Connectors for Exchange Online](../admin/organizations/sourcesandconnectors/exchangeonline.md)topic for additional information.
 
 __NOTE:__ Unified audit log must be enabled for a tenant. See the Microsoft [Turn auditing on or off](https://learn.microsoft.com/en-us/purview/audit-log-enable-disable?view=o365-worldwide&tabs=microsoft-purview-portal) article for additional information.
 

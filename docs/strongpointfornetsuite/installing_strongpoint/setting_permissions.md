@@ -2,7 +2,7 @@
 
 The __Access Type__ for Platform Governance for NetSuite Custom __Record Types__ is set to __Use Permission List__. This controls access using Roles, Permission Lists and Strongpoint License verification to prevent unauthorized users from changing the records. Users with Roles not included in the Permission List for a record type are denied access.
 
-Remember to give your [licensed](/docs/strongpointfornetsuite/installing_strongpoint/license_manager.md) users access to the [Strongpoint tab](/docs/strongpointfornetsuite/installing_strongpoint/setting_strongpoint_tab_access.md).
+Remember to give your [licensed](license_manager.md) users access to the [Strongpoint tab](setting_strongpoint_tab_access.md).
 
 To use Platform Governance for NetSuite with your custom roles, add the record types to the permission list for each role. The Strongpoint roles have the correct access levels by default.
 
@@ -10,7 +10,7 @@ To use Platform Governance for NetSuite with your custom roles, add the record t
 2. Edit each custom role your targeted Users use for their tasks.
 3. Open the __Permissions__ tab.
 
-   ![Setting Permissions for Custom Roles](/img/product_docs/strongpointfornetsuite/installing_strongpoint/permissions_tab.webp)
+   ![Setting Permissions for Custom Roles](../../../static/img/product_docs/strongpointfornetsuite/installing_strongpoint/permissions_tab.webp)
 4. Open the __Custom Record__ tab and add the Record Types and access levels to your custom roles.
 
    Adding permissions to a role affects all employees who have the role assigned to them.
@@ -23,7 +23,7 @@ Here are the Custom Permissions needed for each role.
 
 #### Change Request Approvers
 
-> Assign a [User License](/docs/strongpointfornetsuite/installing_strongpoint/license_manager.md)
+> Assign a [User License](license_manager.md)
 
 #### Process Issue
 
@@ -31,7 +31,7 @@ Here are the Custom Permissions needed for each role.
 
 #### Manage ITGC
 
-> [Strongpoint License](/docs/strongpointfornetsuite/installing_strongpoint/license_manager.md) +  
+> [Strongpoint License](license_manager.md) +  
 > Account Role: __Edit__  
 > Change / Approval Policy: __Full__  
 > Change Log: __Edit__  
@@ -52,7 +52,7 @@ Here are the Custom Permissions needed for each role.
 
 On the Custom Role, you must check __Do Not Restrict Employee Fields__.
 
-> [Strongpoint License](/docs/strongpointfornetsuite/installing_strongpoint/license_manager.md) +  
+> [Strongpoint License](license_manager.md) +  
 > Account Role: __Edit__  
 > Change / Approval Policy: __Edit__  
 > Change Log: __Edit__  
@@ -72,13 +72,13 @@ On the Custom Role, you must check __Do Not Restrict Employee Fields__.
 
 #### User Access Review (UAR)
 
-> [Strongpoint License](/docs/strongpointfornetsuite/installing_strongpoint/license_manager.md) +  
+> [Strongpoint License](license_manager.md) +  
 > Audit Trail: __Full__  
 > Find Transaction: __Full__
 
 #### Manage Internal Audit - __View__ Only
 
-> [Strongpoint License](/docs/strongpointfornetsuite/installing_strongpoint/license_manager.md) +  
+> [Strongpoint License](license_manager.md) +  
 > Account Role: __View__  
 > Change / Approval Policy: __View__  
 > Change Log: __View__  

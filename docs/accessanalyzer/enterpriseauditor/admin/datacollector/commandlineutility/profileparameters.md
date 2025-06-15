@@ -2,7 +2,7 @@
 
 The Profile Parameters page provides settings to configure the parameters for the profile. It is a wizard page for the __Edit Profile__ or __Create a New Profile__ selections on the Profile Type page.
 
-![Command Line Utility Data Collector Wizard Profile Parameters page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/commandlineutility/profileparameters.webp)
+![Command Line Utility Data Collector Wizard Profile Parameters page](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/commandlineutility/profileparameters.webp)
 
 Profile parameters include:
 

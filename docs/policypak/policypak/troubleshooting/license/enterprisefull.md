@@ -7,11 +7,11 @@
 
 Here's an example Enterprise license:
 
-![935_1_image-20230713042924-1_950x533](/img/product_docs/policypak/policypak/troubleshooting/license/935_1_image-20230713042924-1_950x533.webp)
+![935_1_image-20230713042924-1_950x533](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/license/935_1_image-20230713042924-1_950x533.webp)
 
 Example Enterprise Full License:
 
-![935_2_image-20230713042924-2_950x359](/img/product_docs/policypak/policypak/troubleshooting/license/935_2_image-20230713042924-2_950x359.webp)
+![935_2_image-20230713042924-2_950x359](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/license/935_2_image-20230713042924-2_950x359.webp)
 
 ## Why is this happening:
 
@@ -39,7 +39,7 @@ Example Enterprise Full License:
 - However, when you get your Enterprise Full key back in return it is up to you to verify that the file contains all the things your existing (older) Enterprise key has.
 - See below for what to investigate in a key returned to you, versus a key you already have.
 
-![935_3_image-20230713042924-3_950x346](/img/product_docs/policypak/policypak/troubleshooting/license/935_3_image-20230713042924-3_950x346.webp)
+![935_3_image-20230713042924-3_950x346](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/license/935_3_image-20230713042924-3_950x346.webp)
 
 ## Must I re-run the LT (on-prem / MDM license tool) to re-count my computers at the end of each term year?
 
@@ -61,12 +61,12 @@ There are a few cases where you might still need to request updated keys, even a
 
 __NOTE:__ See screen shot below where MMC expresses "Enterprise Universal Product Component" which is the same as what we are calling "Enterprise Full" here.
 
-![935_4_image-20230713042924-4_950x469](/img/product_docs/policypak/policypak/troubleshooting/license/935_4_image-20230713042924-4_950x469.webp)
+![935_4_image-20230713042924-4_950x469](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/license/935_4_image-20230713042924-4_950x469.webp)
 
 ## How do I create a new Group Policy Object and import the Enterprise Full key (or deploy via MDM, SCCM, etc?)
 
 - Upgrade your MMC snap-in to the latest version first.
-- Perform these steps: [How to install UNIVERSAL licenses for NEW Customers (via GPO, SCCM or MDM)](/docs/policypak/policypak/video/license/installuniversal.md)
+- Perform these steps: [How to install UNIVERSAL licenses for NEW Customers (via GPO, SCCM or MDM)](../../video/license/installuniversal.md)
 
   __NOTE:__ Using the Endpoint Policy Manager "LT" tool to install licenses is not recommended, but it should work.
 
@@ -77,27 +77,27 @@ __NOTE:__ See screen shot below where MMC expresses "Enterprise Universal Produc
 - This is so that when one of your licenses expires, you avoid confusion and it's easy to determine which Group Policy Object is performing what licensing.
 - An example of that can be seen here.
 
-![935_5_image-20230713042924-5](/img/product_docs/policypak/policypak/troubleshooting/license/935_5_image-20230713042924-5.webp)
+![935_5_image-20230713042924-5](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/license/935_5_image-20230713042924-5.webp)
 
 ## How can I tell if the computer is licensed by Enterprise or Enterprise full license keys?
 
-- We have an extensive KB article which will help you. Please refer here:[How can I tell how a machine is licensed (by GPO, MDM, or XML file), and also know for what components it is licensed?](/docs/policypak/policypak/troubleshooting/license/components.md)
+- We have an extensive KB article which will help you. Please refer here:[How can I tell how a machine is licensed (by GPO, MDM, or XML file), and also know for what components it is licensed?](components.md)
 - The key takeaway though is on an endpoint, run ```PPupdate ```then look for Enterprise Full expressly listed as seen below, including an Expiry date in the future and seeing that all components are expressed as Complete.
 
 _Remember,_ Only computers with CSE 23.6.3557 and later can show Enterprise Full when ```PPupdate ```is run.
 
-![935_6_image-20230713042924-6_950x735](/img/product_docs/policypak/policypak/troubleshooting/license/935_6_image-20230713042924-6_950x735.webp)
+![935_6_image-20230713042924-6_950x735](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/license/935_6_image-20230713042924-6_950x735.webp)
 
 ## If Enterprise Full means "License all components" how do I expressly disable a component (like Endpoint Policy Manager Browser Router, or Endpoint Policy Manager Application Settings Manager) if they are always licensed?
 
-- Recommended method is to use a Endpoint Policy Manager ADMX setting to specifically unlicense a component:[What if I want to unlicense specific components via ADMX or Endpoint Policy Manager Cloud?](/docs/policypak/policypak/license/unlicense/componentscloud.md)
-- Note that Endpoint Policy Manager Preferences 1.0 will still always be "force disabled" by default until specifically licensed as per this article:[Why is Endpoint Policy Manager Preferences (original version) "forced disabled" by default?](/docs/policypak/policypak/license/unlicense/forceddisabled.md)
+- Recommended method is to use a Endpoint Policy Manager ADMX setting to specifically unlicense a component:[What if I want to unlicense specific components via ADMX or Endpoint Policy Manager Cloud?](../../license/unlicense/componentscloud.md)
+- Note that Endpoint Policy Manager Preferences 1.0 will still always be "force disabled" by default until specifically licensed as per this article:[Why is Endpoint Policy Manager Preferences (original version) "forced disabled" by default?](../../license/unlicense/forceddisabled.md)
 - You can still "hard unlicense" a component inside the XML licensing file. The techniques here still work:
-  - [How do I specifically exclude or prevent a component from performing processing by modifying the license file?](/docs/policypak/policypak/license/unlicense/componentsexclude.md)
+  - [How do I specifically exclude or prevent a component from performing processing by modifying the license file?](../../license/unlicense/componentsexclude.md)
 
 __NOTE:__  Only the updated MMC will nicely show this and have it formatted correctly; which is why we recommend updating to the latest MMC snap-in.
 
-- Get the GUIDs for a license you wish to expressly unlicensed here: [What CSEs are contained within Endpoint Policy Manager, what are their CSE GUIDs, and in what release did they appear?](/docs/policypak/policypak/install/clientsideextension/guids.md)
+- Get the GUIDs for a license you wish to expressly unlicensed here: [What CSEs are contained within Endpoint Policy Manager, what are their CSE GUIDs, and in what release did they appear?](../../install/clientsideextension/guids.md)
 
 ## How can I request Enterprise Full keys (which will also have an Expiry date until the end of my term?)
 
@@ -110,7 +110,7 @@ __NOTE:__  Only the updated MMC will nicely show this and have it formatted corr
 
 ## Any tips for updating the CSE?
 
-- Please honor the philosophy of RINGS and don't "blast out" an upgrade CSE to all of your computers at once, so you can control a rollout or a rollback. Use this guidance: [Using Rings to Test and Update the Endpoint Policy Manager Client-Side Extension and/or Cloud Client (And How to Stay Supported)](/docs/policypak/policypak/install/rings.md)
+- Please honor the philosophy of RINGS and don't "blast out" an upgrade CSE to all of your computers at once, so you can control a rollout or a rollback. Use this guidance: [Using Rings to Test and Update the Endpoint Policy Manager Client-Side Extension and/or Cloud Client (And How to Stay Supported)](../../install/rings.md)
 
 ## What will happen if I do nothing?
 

@@ -6,7 +6,7 @@ The Additional Properties Tab provides additional configuration options for the 
 
 The Additional Properties tab for the Activity Agent has the following configuration options:
 
-![Agent Additional Properties Tab](/img/product_docs/activitymonitor/activitymonitor/admin/agents/properties/additionalpropertiestab.webp)
+![Agent Additional Properties Tab](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/agents/properties/additionalpropertiestab.webp)
 
 - Comment – Create an annotation for the agent in the __Comment__ text box. Annotations entered here will appear in the Comment column in the table on the Agents tab.
 - Agent's Trace Level – Select a trace level for the agent log from the drop-down list:
@@ -41,7 +41,7 @@ Click __OK__ to commit the modifications. Click __Cancel__ to discard the modifi
 
 The Additional Properties tab for the Linux Agent has the following configuration options:
 
-![Linux Agent Additional Properties Tab](/img/product_docs/activitymonitor/activitymonitor/admin/agents/properties/linuxagentadditionalpropertiestab.webp)
+![Linux Agent Additional Properties Tab](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/agents/properties/linuxagentadditionalpropertiestab.webp)
 
 - Comment – Create an annotation for the agent in the __Comment__ text box. Annotations entered here will appear in the Comment column in the table on the Agents tab.
 - Agent's Trace Level – Select a trace level for the agent log from the drop-down list:

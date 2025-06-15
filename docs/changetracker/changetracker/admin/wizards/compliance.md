@@ -2,7 +2,7 @@
 
 The __Compliance__ tab provides an overview of compliance scores for all devices within any selected group.
 
-![complianceoverviewtab](/img/product_docs/changetracker/changetracker/admin/tabs/complianceoverviewtab.webp)
+![complianceoverviewtab](../../../../../static/img/product_docs/changetracker/changetracker/admin/tabs/complianceoverviewtab.webp)
 
 The screen shows the previous 7 compliance report results to track any drift against your selected hardened build standard and whether scores are improving or worsening.
 
@@ -12,9 +12,9 @@ Any individual report can be viewed by clicking the result score, and reports se
 
 Review the following for additional information:
 
-- [Overview Tab](/docs/changetracker/changetracker/admin/tabs/complianceoverviewtab.md)
-- [Policy Tab](/docs/changetracker/changetracker/admin/tabs/compliancepolicy.md)
-- [Details Tab ](/docs/changetracker/changetracker/admin/tabs/compliancedetails.md)
+- [Overview Tab](../tabs/complianceoverviewtab.md)
+- [Policy Tab](../tabs/compliancepolicy.md)
+- [Details Tab ](../tabs/compliancedetails.md)
 
 ## Comparing Results
 

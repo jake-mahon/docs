@@ -8,7 +8,7 @@ __Step 2 –__ Configure the target host as __Local host__.
 
 __Step 3 –__ Assign a query using the __AWS__ Data Collector.
 
-![Drop AWS DC Tables option on Amazon Web Services Data Collector Wizard Category page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/droptables.webp)
+![Drop AWS DC Tables option on Amazon Web Services Data Collector Wizard Category page](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/droptables.webp)
 
 __Step 4 –__ In the Amazon Web Services Data Collector Wizard on the Category page, select the __Drop AWS DC Tables__ category task. Click __Next__.
 

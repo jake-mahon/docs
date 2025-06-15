@@ -2,15 +2,15 @@
 
 This tab lists all groups defined in the identity store including all active groups:
 
-- [Private Groups](/docs/groupid/groupid/portal/group/privategroups.md)
-- [Semi Private Groups](/docs/groupid/groupid/portal/group/semiprivategroups.md)
-- [Public Groups](/docs/groupid/groupid/portal/group/publicgroups.md)
-- [Expired Groups](/docs/groupid/groupid/portal/group/allexpiredgroups.md)
-- [Expiring Groups](/docs/groupid/groupid/portal/group/allexpiringgroups.md)
-- [Smart Groups](/docs/groupid/groupid/portal/group/allsmartgroups.md)
-- [Dynasties](/docs/groupid/groupid/portal/group/alldynasties.md)
-- [Password Expiry Groups](/docs/groupid/groupid/portal/group/passwordexpirygroups.md)
-- [Teams](/docs/groupid/groupid/portal/group/teams.md) (for Microsoft Entra ID based identity store)
+- [Private Groups](privategroups.md)
+- [Semi Private Groups](semiprivategroups.md)
+- [Public Groups](publicgroups.md)
+- [Expired Groups](allexpiredgroups.md)
+- [Expiring Groups](allexpiringgroups.md)
+- [Smart Groups](allsmartgroups.md)
+- [Dynasties](alldynasties.md)
+- [Password Expiry Groups](passwordexpirygroups.md)
+- [Teams](teams.md) (for Microsoft Entra ID based identity store)
 
 Viewing all groups from the directory source may slow down the loading of groups in the view, especially when there are more than 100 groups.
 
@@ -19,13 +19,13 @@ __You can:__
 - Manually update the membership of a Smart Group using the __Update__ command. You can also view update details on __Processing Object (s)__ wizard. Click __OK__ once done.
 
   If you click __Background__, the update runs in the background and will show in the __Background Tasks__ tab.
-- View and modify the [Group Properties](/docs/groupid/groupid/portal/group/properties/overview.md) of a group.
-- [Expire a group manually ](/docs/groupid/groupid/portal/group/manage/groupexpiryfunction.md#expire-a-group-manually). After expiring the group, it will be listed in __Expired Group__ list.
+- View and modify the [Group Properties](properties/overview.md) of a group.
+- [Expire a group manually ](manage/groupexpiryfunction.md#expire-a-group-manually). After expiring the group, it will be listed in __Expired Group__ list.
 - Select a smart group and click __Renew__ on the toolbar; this re-applies the expiry policy of the group starting from today, thus renewing the group.
-- Join a group as a [Join a group temporarily](/docs/groupid/groupid/portal/group/manage/groupjoinleave.md#join-a-group-temporarily) or [Join a group permanently](/docs/groupid/groupid/portal/group/manage/groupjoinleave.md#join-a-group-permanently)
+- Join a group as a [Join a group temporarily](manage/groupjoinleave.md#join-a-group-temporarily) or [Join a group permanently](manage/groupjoinleave.md#join-a-group-permanently)
 
   Select __Other__ to add other users to the group.
-- Leave a group’s membership [Leave a group temporarily](/docs/groupid/groupid/portal/group/manage/groupjoinleave.md#leave-a-group-temporarily) or [Leave a group permanently](/docs/groupid/groupid/portal/group/manage/groupjoinleave.md#leave-a-group-permanently).
+- Leave a group’s membership [Leave a group temporarily](manage/groupjoinleave.md#leave-a-group-temporarily) or [Leave a group permanently](manage/groupjoinleave.md#leave-a-group-permanently).
 
   Select __Other__ to
   remove other users from the group.
@@ -58,14 +58,14 @@ __You can:__
 - Add a group’s email to your email contact list using the vCard.
 
   Select a group and click __Add to Contacts__ on the toolbar. The portal creates the group's vCard and prompts you to save it on your machine. You can then use it to add the group's email address to your email contact list.
-- Click __Add to Group__ to add the group into the membership of another group ([Add a group to the membership of another group (nesting)](/docs/groupid/groupid/portal/group/manage/groupmembershipfunction.md#add-a-group-to-the-membership-of-another-group-nesting)).
+- Click __Add to Group__ to add the group into the membership of another group ([Add a group to the membership of another group (nesting)](manage/groupmembershipfunction.md#add-a-group-to-the-membership-of-another-group-nesting)).
 - Select a group and click __Send Email__ on the toolbar. This launches the default Windows email application for sending an email to group members.
 - Click __Export Results__ on the toolbar to export the group list to a Microsoft Excel file.
 - In the __Results__ box, select the number of search results to display on a page.
 
 Use the page numbers under the group listing to page through all groups.
 
-You can also control the number of records to be displayed per page by modifying the __Search results per page__ setting on the [Portal Settings](/docs/groupid/groupid/portal/setting/portal.md) panel.
+You can also control the number of records to be displayed per page by modifying the __Search results per page__ setting on the [Portal Settings](../setting/portal.md) panel.
 
 ## Modify Search Directory
 
@@ -73,7 +73,7 @@ You can modify the search results in __Modify Search Directory.__ You can select
 
 ## Transfer Ownership
 
-You can find [Transfer Ownership](/docs/groupid/groupid/portal/group/transferownership.md) option on the top right corner. Transfer Ownership enables you to:
+You can find [Transfer Ownership](transferownership.md) option on the top right corner. Transfer Ownership enables you to:
 
 - Assign owners to orphan groups.
 - Transfer group ownership (including Exchange 2013/2016/2019 additional ownership) from one recipient to another.

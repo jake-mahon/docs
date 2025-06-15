@@ -18,7 +18,7 @@ __Step 4 –__ To create a new file, right-click in the Browse dialog box, and c
 
 __Step 5 –__ Enter a name for the file, such as myscript.bat.
 
-![about_policypak_scripts_triggers](/img/product_docs/policypak/policypak/scriptstriggers/about_policypak_scripts_triggers.webp)
+![about_policypak_scripts_triggers](../../../../static/img/product_docs/policypak/policypak/scriptstriggers/about_policypak_scripts_triggers.webp)
 
 Figure 1. Adding a script.
 
@@ -28,7 +28,7 @@ The Logon and Logoff script settings are under the User Configuration | Policies
 
 You can also run PowerShell-based scripts. You can find these settings in User Configuration | Policies | Windows Settings | Scripts (Logon/Logoff). Similar settings for the computer are found in Computer Configuration | Policies | Windows Settings | Scripts (Startup/Shutdown). The dialog can be seen in Figure 2.
 
-![about_policypak_scripts_triggers_1](/img/product_docs/policypak/policypak/scriptstriggers/about_policypak_scripts_triggers_1.webp)
+![about_policypak_scripts_triggers_1](../../../../static/img/product_docs/policypak/policypak/scriptstriggers/about_policypak_scripts_triggers_1.webp)
 
 Figure 2. Using the in-box Group Policy method to deploy PowerShell scripts.
 
@@ -43,7 +43,7 @@ These processes are perfectly fine, but do not suit every case. The primary prob
 
 On Microsoft Endpoint Manager, the ability to run PowerShell scripts is handled by the Intune Management extension. For more information on this extension see [https://docs.microsoft.com/en-us/intune/intune-management-extension](https://docs.microsoft.com/en-us/intune/intune-management-extension). Figure 3 shows the available options for adding a PowerShell script with Intune.
 
-![about_policypak_scripts_triggers_2](/img/product_docs/policypak/policypak/scriptstriggers/about_policypak_scripts_triggers_2.webp)
+![about_policypak_scripts_triggers_2](../../../../static/img/product_docs/policypak/policypak/scriptstriggers/about_policypak_scripts_triggers_2.webp)
 
 Figure 3. Deploying a PowerShell script using Microsoft Endpoint Manager.
 

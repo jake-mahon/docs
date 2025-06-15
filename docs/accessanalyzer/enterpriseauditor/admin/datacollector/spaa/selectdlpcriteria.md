@@ -4,11 +4,11 @@ The Select Criteria page is where criteria to be used for discovering sensitive 
 
 __CAUTION:__ Users should not change scans in a way that would result in less data being returned on a subsequent scan (i.e. scanning fewer web applications, scanning fewer site collections, or a shallower depth scan). Those resources not included in a subsequent scan are marked as deleted in the Tier 2 database and subsequently removed from the Tier 1 database.
 
-![Select DLP criteria for this scan page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/spaa/selectdlpcriteria.webp)
+![Select DLP criteria for this scan page](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/spaa/selectdlpcriteria.webp)
 
 The options on the Select DLP Criteria page are:
 
-- Use Global Criterion Selection – Select this option to inherit sensitive data criteria settings from the __Settings__ > __Sensitive Data__ node. See the [Sensitive Data](/docs/accessanalyzer/enterpriseauditor/admin/settings/sensitivedata/overview.md) topic for additional information.
+- Use Global Criterion Selection – Select this option to inherit sensitive data criteria settings from the __Settings__ > __Sensitive Data__ node. See the [Sensitive Data](../../settings/sensitivedata/overview.md) topic for additional information.
 - Use the following selected criteria – Select this option to use the table to select which sensitive data criteria to scan for
 - Select All – Click __Select All__ to enable all sensitive data criteria for scanning
 - Clear All – Click __Clear All__ to remove all selections from the table
@@ -19,4 +19,4 @@ The table contains the following types of criteria:
 - System Criteria – Lists pre-defined criteria
 - User Criteria – Lists user-defined criteria
 
-  Use the Sensitive Data Criteria Editor in __Settings__ > __Sensitive Data__ to create and edit user-defined criteria. See the [Sensitive Data Criteria Editor](/docs/accessanalyzer/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/overview.md) topic for additional information.
+  Use the Sensitive Data Criteria Editor in __Settings__ > __Sensitive Data__ to create and edit user-defined criteria. See the [Sensitive Data Criteria Editor](../../../sensitivedatadiscovery/criteriaeditor/overview.md) topic for additional information.

@@ -2,7 +2,7 @@
 
 On the Action Services page, view or modify action services.
 
-![Action Service Page](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/servicetype/actionservicepage.webp)
+![Action Service Page](../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/servicetype/actionservicepage.webp)
 
 The Action Service page shows details of the selected action service and has the following features:
 
@@ -15,7 +15,7 @@ The Action Service page shows details of the selected action service and has the
 
 The Action Logs tab shows the event logs for the action service.
 
-![Action Logs Tab](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/servicetype/actionlogstab.webp)
+![Action Logs Tab](../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/servicetype/actionlogstab.webp)
 
 The Action Logs table has the following features:
 
@@ -40,7 +40,7 @@ The Action Logs table has the following features:
 
 The Action Queue tab shows the tasks to be executed by the action service.
 
-![Action Queue Tab](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/servicetype/actionqueuetab.webp)
+![Action Queue Tab](../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/servicetype/actionqueuetab.webp)
 
 The Action Queue table has the following features:
 
@@ -65,7 +65,7 @@ The Action Queue table has the following features:
 
 The Properties tab shows additional information about the action service.
 
-![Action Service Properties Tab](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/servicetype/propertiestab.webp)
+![Action Service Properties Tab](../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/servicetype/propertiestab.webp)
 
 The Properties table has the following features:
 

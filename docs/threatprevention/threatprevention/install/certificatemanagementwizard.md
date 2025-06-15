@@ -8,7 +8,7 @@ __NOTE:__ As a requirement for using custom managed certificates, you must provi
 - Remote instance of the Administration Console
 - Agent
 
-See the [Administration Console and Agent Not Communicating with the Enterprise Manager ](/docs/threatprevention/threatprevention/troubleshooting/enterprisemanagercommunication.md)topics for additional information.
+See the [Administration Console and Agent Not Communicating with the Enterprise Manager ](../troubleshooting/enterprisemanagercommunication.md)topics for additional information.
 
 How to use the Certificate Management Wizard
 
@@ -35,15 +35,15 @@ __Step 2 –__ Open the Services explorer window (services.msc) and stop the Net
 
 __Step 3 –__ Navigate to the directory containing ```SICertMgr.exe```. Right-click on the application and select __Run as Administrator__. The Certificate Management Wizard opens.
 
-![Certificate Management Wizard on the Select Action page](/img/product_docs/threatprevention/threatprevention/install/selectaction.webp)
+![Certificate Management Wizard on the Select Action page](../../../../static/img/product_docs/threatprevention/threatprevention/install/selectaction.webp)
 
 __Step 4 –__ On the Select Action page, select __Create Certificate Signing Request(s)__. This action creates and exports a certificate signing request to a designated folder. Click __Next__.
 
-![Certificate Management Wizard on the Select Components page](/img/product_docs/threatprevention/threatprevention/install/selectcomponents.webp)
+![Certificate Management Wizard on the Select Components page](../../../../static/img/product_docs/threatprevention/threatprevention/install/selectcomponents.webp)
 
 __Step 5 –__ On the Select Components page, click __Next__ to proceed with creating a certificate signing request for the Enterprise Manager.
 
-![Certificate Management Wizard on the Export Certificate Signing Request(s) to page](/img/product_docs/threatprevention/threatprevention/install/exportcertificate.webp)
+![Certificate Management Wizard on the Export Certificate Signing Request(s) to page](../../../../static/img/product_docs/threatprevention/threatprevention/install/exportcertificate.webp)
 
 __Step 6 –__ On the Export Certificate Signing Request(s) to page, select the folder to place the certificate request file. Click __Next__ to generate the file.
 
@@ -59,7 +59,7 @@ The following files are placed in the ```...\Netwrix\Netwrix Threat Prevention\S
 - Em-crt.pem (private key)
 - EM-key.pem (private key)
 
-![Certificate Management Wizard on the Certificate Signing Requests Created page](/img/product_docs/threatprevention/threatprevention/install/csrfilescreated.webp)
+![Certificate Management Wizard on the Certificate Signing Requests Created page](../../../../static/img/product_docs/threatprevention/threatprevention/install/csrfilescreated.webp)
 
 __Step 7 –__ The Certificate Signing Requests Created page is displayed when the certificate signing request has been created. Click __Finish__.
 
@@ -77,19 +77,19 @@ Follow the steps to complete a certificate signing request.
 
 __Step 1 –__ Navigate to the directory containing ```SICertMgr.exe```. Right-click on the application and select __Run as Administrator__. The Certificate Management Wizard opens.
 
-![Certificate Management Wizard on the Select Action page](/img/product_docs/threatprevention/threatprevention/install/selectactioncomplete.webp)
+![Certificate Management Wizard on the Select Action page](../../../../static/img/product_docs/threatprevention/threatprevention/install/selectactioncomplete.webp)
 
 __Step 2 –__ On the Select Action page, select __Complete Certificate Signing Request(s)__. This action installs the signed certificate and configures Threat Prevention Enterprise Manager to trust the client certificate signed by the customer's certificate authority. Click __Next__.
 
-![Certificate Management Wizard on the Import Signed Certificate(s) page](/img/product_docs/threatprevention/threatprevention/install/importsignedcertificates.webp)
+![Certificate Management Wizard on the Import Signed Certificate(s) page](../../../../static/img/product_docs/threatprevention/threatprevention/install/importsignedcertificates.webp)
 
 __Step 3 –__ On the Import Signed Certificate(s) page, select the folder containing the signed certificates. Then click __Next__.
 
-![Certificate Management Wizard - Import Certificate Authority Certificate(s) page](/img/product_docs/threatprevention/threatprevention/install/importcertificateauthority.webp)
+![Certificate Management Wizard - Import Certificate Authority Certificate(s) page](../../../../static/img/product_docs/threatprevention/threatprevention/install/importcertificateauthority.webp)
 
 __Step 4 –__ On the Import Certificate Authority Certificate(s) page, select the PEM file containing your certificate authority's root and intermediate certificates. Click __Next__.
 
-![Certificate Management Wizard on the Certificates Import page](/img/product_docs/threatprevention/threatprevention/install/certificatesimported.webp)
+![Certificate Management Wizard on the Certificates Import page](../../../../static/img/product_docs/threatprevention/threatprevention/install/certificatesimported.webp)
 
 __Step 5 –__ The Certificates Import page displays the number of files imported. Click __Finish__ to close the wizard.
 

@@ -53,4 +53,4 @@ __To generate a report:__
 
 ## Scheduled Report job
 
-You can create a __Scheduled Report job__ on Directory Manager Admin Center. See [Reports Schedule](/docs/groupid/groupid/admincenter/schedule/reports.md)
+You can create a __Scheduled Report job__ on Directory Manager Admin Center. See [Reports Schedule](../../admincenter/schedule/reports.md)

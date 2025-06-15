@@ -2,19 +2,19 @@
 
 The 2.Users Job Group provides a workflow to deprovision stale and unused user accounts.
 
-![2.Users Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/cleanup/users/usersjobtree.webp)
+![2.Users Job Group in the Jobs Tree](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/cleanup/users/usersjobtree.webp)
 
 The jobs in the 2.Users Job Group are:
 
-- [AD_DeprovisionUsers Job](/docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/cleanup/users/ad_deprovisionusers.md) – Provides a simple and automated workflow to deprovisions stale and unused user accounts
-- [AD_DeprovisionUsers_Status Job](/docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/cleanup/users/ad_deprovisionusers_status.md) – Tracks and reports all actions taken by the included Deprovisioning workflow
+- [AD_DeprovisionUsers Job](ad_deprovisionusers.md) – Provides a simple and automated workflow to deprovisions stale and unused user accounts
+- [AD_DeprovisionUsers_Status Job](ad_deprovisionusers_status.md) – Tracks and reports all actions taken by the included Deprovisioning workflow
 
 Workflow
 
 __Step 1 –__ Ensure the following prerequisites are met:
 
 - The .Active Directory Inventory Job Group needs to be successfully run
-- For the AD_DeprovisionUsers Job, the target OU needs to be manually set in the Move Users Action Task prior to executing the actions. See the [Action Tasks for the AD_DeprovisionUsers Job](/docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/cleanup/users/ad_deprovisionusers.md#action-tasks-for-the-ad_deprovisionusers-job) topic for additional information.
+- For the AD_DeprovisionUsers Job, the target OU needs to be manually set in the Move Users Action Task prior to executing the actions. See the [Action Tasks for the AD_DeprovisionUsers Job](ad_deprovisionusers.md#action-tasks-for-the-ad_deprovisionusers-job) topic for additional information.
 - The AD_DeprovisionUsers Job needs to be run prior to running the AD_DeprovisionUsers_Status Job
 
 __Step 2 –__ Schedule the 2.Users Job Group to run as desired after the prerequisites have been satisfied.

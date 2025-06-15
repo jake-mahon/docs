@@ -5,8 +5,8 @@ The 2-SQL_SensitiveDataScan Job discovers sensitive data in the database SQL ser
 Special Dependency
 
 - Sensitive Data Discovery Add-On installed on the Access Analyzer Console server
-  - See the [Installation & Configuration Overview](/docs/accessanalyzer/enterpriseauditor/install/application/overview.md) topic for installation information.
-  - See the [Sensitive Data Discovery](/docs/accessanalyzer/enterpriseauditor/sensitivedatadiscovery/overview.md) topic for additional information.
+  - See the [Installation & Configuration Overview](../../../../install/application/overview.md) topic for installation information.
+  - See the [Sensitive Data Discovery](../../../../sensitivedatadiscovery/overview.md) topic for additional information.
 
 Though the job is visible within the console, it requires an additional installer package before data collection occurs.
 
@@ -14,7 +14,7 @@ Though the job is visible within the console, it requires an additional installe
 
 The SensitiveDataScan Job uses the SQL Data Collector for the following query:
 
-![Query Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/collection/sqljobgroup9.webp)
+![Query Selection](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/collection/sqljobgroup9.webp)
 
 - SensitiveDataScan – Collects Sensitive Data from targeting instances
   - (Optional) This query can be modified to target specific databases/instances. See the [Configure the SensitiveDataScan Query](#configure-the-sensitivedatascan-query) topic for additional information.
@@ -31,15 +31,15 @@ __Step 3 –__ Select the Data Source tab, and click Configure. The SQL Data Col
 
 __CAUTION:__ Do not make changes to other wizard pages as they have been pre-configured for this job.
 
-![2sqlsensitivedatascanoptionspage](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/collection/2sqlsensitivedatascanoptionspage.webp)
+![2sqlsensitivedatascanoptionspage](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/collection/2sqlsensitivedatascanoptionspage.webp)
 
-__Step 4 –__ Select the desired scan options. Navigate to the [SQL: Options](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/sql/options.md) page for additional information.
+__Step 4 –__ Select the desired scan options. Navigate to the [SQL: Options](../../../../admin/datacollector/sql/options.md) page for additional information.
 
 __NOTE:__ The Sensitive Data Scan Settings are pre-configured for optimal performance for a high-level table scan. Configuring these settings to increase the scope of the sensitive data scan may significantly increase scan time.
 
-![Criteria Page](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/collection/2sqlsensitivedatascanquerycriteriapage.webp)
+![Criteria Page](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/collection/2sqlsensitivedatascanquerycriteriapage.webp)
 
-__Step 5 –__ To modify criteria, navigate to the [SQL: Criteria](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/sql/criteria.md) page. By default, the following System Criteria have been selected:
+__Step 5 –__ To modify criteria, navigate to the [SQL: Criteria](../../../../admin/datacollector/sql/criteria.md) page. By default, the following System Criteria have been selected:
 
 - Credit Cards
 - Tax Forms
@@ -47,11 +47,11 @@ __Step 5 –__ To modify criteria, navigate to the [SQL: Criteria](/docs/access
 - User ID
 - Password
 
-  Add or remove criteria if needed. See the [Sensitive Data Criteria Editor](/docs/accessanalyzer/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/overview.md) topic for additional information.
+  Add or remove criteria if needed. See the [Sensitive Data Criteria Editor](../../../../sensitivedatadiscovery/criteriaeditor/overview.md) topic for additional information.
 
-![Filter Page](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/collection/2sqlsensitivedatascanfilterpage.webp)
+![Filter Page](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/collection/2sqlsensitivedatascanfilterpage.webp)
 
-__Step 6 –__ To query for specific database/instance, navigate to the [SQL: Filter](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/sql/filter.md) page. The query is configured by default to target Only select database objects. Click Retrieve. The Available database objects box will populate. Databases and instances can be added in the following ways:
+__Step 6 –__ To query for specific database/instance, navigate to the [SQL: Filter](../../../../admin/datacollector/sql/filter.md) page. The query is configured by default to target Only select database objects. Click Retrieve. The Available database objects box will populate. Databases and instances can be added in the following ways:
 
 - Select the desired database objects and click Add.
 - Use the Import CSV button to import a list from a CSV file, if desired.
@@ -67,7 +67,7 @@ Navigate to the __Databases__ > 0.Collection > SQL > 2-SQL_SensitiveDataScan > 
 
 __CAUTION:__ Do not modify or deselect the selected analysis task(s). The analysis task(s) are preconfigured for this job.
 
-![Analysis Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/collection/sqljobgroup13.webp)
+![Analysis Selection](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/collection/sqljobgroup13.webp)
 
 The default analysis task is:
 

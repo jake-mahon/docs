@@ -32,6 +32,6 @@ Exclusions for Remote Services:
 
 See the following topics for specific installation instructions for remote services:
 
-- [Proxy Service Install](/docs/privilegesecure/privilegesecure/accessmanagement/install/proxyservice.md)
-- [Action Service Install](/docs/privilegesecure/privilegesecure/accessmanagement/install/actionservice.md)
-- [Scheduler Service Install](/docs/privilegesecure/privilegesecure/accessmanagement/install/schedulerservice.md)
+- [Proxy Service Install](../install/proxyservice.md)
+- [Action Service Install](../install/actionservice.md)
+- [Scheduler Service Install](../install/schedulerservice.md)

@@ -2,7 +2,7 @@
 
 This Security policy is used to audit security policies.
 
-![Users and Groups Browser wizard Results page Security category](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/usersgroups/category/security.webp)
+![Users and Groups Browser wizard Results page Security category](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/usersgroups/category/security.webp)
 
 Select from the following options for what data will be returned:
 

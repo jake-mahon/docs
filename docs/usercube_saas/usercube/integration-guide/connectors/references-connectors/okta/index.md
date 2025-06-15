@@ -2,7 +2,7 @@
 
 This connector exports and fulfills entries from/to Okta application.
 
-![okta](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/okta/okta.webp)
+![okta](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/okta/okta.webp)
 
 ## Overview
 
@@ -15,7 +15,7 @@ Implementing this connector requires:
 - Reading first the appsettings documentation
 - An Okta Token with specific permissions on the target instance
 
-See the [appsettings.agent](/docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) topic for additional information.
+See the [appsettings.agent](../../../network-configuration/agent-configuration/appsettings-agent/index.md) topic for additional information.
 
 ### Configuration
 
@@ -208,7 +208,7 @@ id, created, lastUpdated, status, name, label
 
 ### Fulfill
 
-The Okta connector writes to Okta to create, update and delete entries, initiated manually through the UI or automatically by enforcing the policy. See the [Evaluate Policy](/docs/usercube_saas/usercube/integration-guide/role-assignment/evaluate-policy/index.md) topic for additional information.
+The Okta connector writes to Okta to create, update and delete entries, initiated manually through the UI or automatically by enforcing the policy. See the [Evaluate Policy](../../../role-assignment/evaluate-policy/index.md) topic for additional information.
 
 ### Configuration
 
@@ -234,7 +234,7 @@ appsettings.agent.json
 
 ### Password reset
 
-The password reset settings configuration is described in the appsettings.agent.json file. See the [appsettings.agent](/docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) topic for additional information.
+The password reset settings configuration is described in the appsettings.agent.json file. See the [appsettings.agent](../../../network-configuration/agent-configuration/appsettings-agent/index.md) topic for additional information.
 
 ### Credential protection
 
@@ -242,10 +242,10 @@ Data protection can be ensured through:
 
 - [
   Connection
-  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md), configured in the appsettings.encrypted.agent.json file
+  ](../../../toolkit/xml-configuration/connectors/connection/index.md), configured in the appsettings.encrypted.agent.json file
 - An [
   Connection
-  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
+  ](../../../toolkit/xml-configuration/connectors/connection/index.md)
 - A [
   Connection
-  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)Vault able to store Okta Login, Password, Account and Server.
+  ](../../../toolkit/xml-configuration/connectors/connection/index.md)Vault able to store Okta Login, Password, Account and Server.

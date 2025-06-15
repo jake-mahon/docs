@@ -8,7 +8,7 @@ Navigate to the __Jobs__ > __Databases__ >  __Redshift__ >  __Sensitive Data__ 
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/redshift/sensitive_data/analysissensitivedata.webp)
+![Analysis Selection](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/redshift/sensitive_data/analysissensitivedata.webp)
 
 The default analysis tasks are:
 

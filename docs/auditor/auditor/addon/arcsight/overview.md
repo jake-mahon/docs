@@ -12,7 +12,7 @@ On a high level, the add-on works as follows:
 2. The add-on processes Auditor-compatible data (Activity Records) into native ArcSight CEF format. Each exported event contains the user account, action, time, and other details.
 3. The add-on uploads audit trails to ArcSight Logger making it immediately ready for review and analysis. ArcSight SmartConnector configured as Syslog Daemon is supported as well.
 
-See the [Integration API](/docs/auditor/auditor/api/overview.md) topic for additional information on the structure of the Activity Record and the capabilities of the Integration API.
+See the [Integration API](../../api/overview.md) topic for additional information on the structure of the Activity Record and the capabilities of the Integration API.
 
 ## Prerequisites
 
@@ -20,12 +20,12 @@ Before running the add-on, ensure that all the necessary components and policies
 
 | on... | Ensure that... |
 | --- | --- |
-| The Auditor Server side | - The Audit Database settings are configured in the Auditor.   See the [Audit Database](/docs/auditor/auditor/admin/settings/auditdatabase.md) topic for additional information. - The TCP 9699 port (default Integration API port) is open for   inbound connections. - The user retrieving data from the Audit Database is granted the __Global   reviewer__ role in Auditor or is a member of the __Netwrix Auditor   Client Users__ group.   Alternatively, you can grant the __Global administrator__ role or add the user to the __Netwrix Auditor Administrators__ group. In this case, this user will have the most extended permissions in the product. |
-| On the ArcSight side | - The UDP Receiver is enabled and is configured to receive CEF as source and   use the default port __514__. - To check receiver settings or add a new receiver,   start the ArcSight Logger web interface and navigate to __Configuration__ >   __Receivers__.   ![configuration](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/configuration.webp)  __NOTE:__ You can configure TCP Receiver and switch to TCP protocol and port __515__.   - The user running the script must have sufficient permissions to supply data to ArcSight. |
+| The Auditor Server side | - The Audit Database settings are configured in the Auditor.   See the [Audit Database](../../admin/settings/auditdatabase.md) topic for additional information. - The TCP 9699 port (default Integration API port) is open for   inbound connections. - The user retrieving data from the Audit Database is granted the __Global   reviewer__ role in Auditor or is a member of the __Netwrix Auditor   Client Users__ group.   Alternatively, you can grant the __Global administrator__ role or add the user to the __Netwrix Auditor Administrators__ group. In this case, this user will have the most extended permissions in the product. |
+| On the ArcSight side | - The UDP Receiver is enabled and is configured to receive CEF as source and   use the default port __514__. - To check receiver settings or add a new receiver,   start the ArcSight Logger web interface and navigate to __Configuration__ >   __Receivers__.   ![configuration](../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/configuration.webp)  __NOTE:__ You can configure TCP Receiver and switch to TCP protocol and port __515__.   - The user running the script must have sufficient permissions to supply data to ArcSight. |
 | The computer where the script will be executed | - Execution policy for powershell scripts is set to "_Unrestricted_". Run __Windows   PowerShell__ as administrator and execute the following command:  Set-ExecutionPolicy Unrestricted - The user running the script is granted the __write__ permission on the script   folder—the add-on creates a special .bin file with the last exported event. |
 
 ## Compatibility Notice
 
-Make sure to check your product version, and then review and update your add-ons and scripts leveraging the Integration API. Download the latest add-on version in the Add-on Store. See the [Integration API](/docs/auditor/auditor/api/overview.md)topic for additional information.
+Make sure to check your product version, and then review and update your add-ons and scripts leveraging the Integration API. Download the latest add-on version in the Add-on Store. See the [Integration API](../../api/overview.md)topic for additional information.
 
 The add-on was renamed due to HPE acquisition by Micro Focus. The former add-on name was Netwrix Auditor Add-on for HPE ArcSight. This name may still be present in the add-on files and documentation. ArcSight trademarks and registered trademarks are property of their respective owners.

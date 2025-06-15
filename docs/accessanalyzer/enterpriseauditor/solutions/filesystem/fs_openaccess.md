@@ -2,7 +2,7 @@
 
 The FS_OpenAccess job is designed to report on Open Access information from targeted file servers. The definition of Open Access is when a security principal, such as Everyone, Authenticated Users, or Domain Users, have permissions on a resource.
 
-![1.Open Access > FS_OpenAccess Job in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/openaccessjobstree.webp)
+![1.Open Access > FS_OpenAccess Job in the Jobs Tree](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/openaccessjobstree.webp)
 
 The FS_OpenAccess job is located in the 1.Open Access job group.
 
@@ -12,7 +12,7 @@ View the analysis tasks by navigating to the __FileSystem__ > __1.Open Access__
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the FS_OpenAccess Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/openaccessanalysis.webp)
+![Analysis Tasks for the FS_OpenAccess Job](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/openaccessanalysis.webp)
 
 The following analysis tasks are selected by default:
 

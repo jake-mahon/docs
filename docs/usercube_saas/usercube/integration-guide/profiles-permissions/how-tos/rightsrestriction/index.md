@@ -30,7 +30,7 @@ Assign a profile based on users' dimensions by proceeding as follows:
 
    See the [
    Dimension
-   ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/metadata/dimension/index.md) topic for additional information.
+   ](../../../toolkit/xml-configuration/metadata/dimension/index.md) topic for additional information.
 2. Write profile rules and profile rule contexts to make the previously created dimensions act as filters in rules meant to assign profiles to users.
 
    > The following examples creates a rule assigning the ```Manager``` profile to specific users based on their organizations and titles, now that they both exist as dimensions:
@@ -45,7 +45,7 @@ Assign a profile based on users' dimensions by proceeding as follows:
 
    See the [
    Dimension
-   ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/metadata/dimension/index.md) topic for additional information.
+   ](../../../toolkit/xml-configuration/metadata/dimension/index.md) topic for additional information.
 
 ## Limit an Entity's Visibility
 
@@ -63,7 +63,7 @@ Limit an entity's visibility by proceeding as follows:
 
    See the [
    Dimension
-   ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/metadata/dimension/index.md) topic for additional information.
+   ](../../../toolkit/xml-configuration/metadata/dimension/index.md) topic for additional information.
 2. Create an access control entity type to list all the properties whose visibility must be restricted, and link them to a visibility group.
 
    > For example:
@@ -76,7 +76,7 @@ Limit an entity's visibility by proceeding as follows:
 
    As a result, all the properties listed in the access control entity type are hidden from users by default when they have the usual permissions written above. See the [
    Dimension
-   ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/metadata/dimension/index.md) topic for additional information.
+   ](../../../toolkit/xml-configuration/metadata/dimension/index.md) topic for additional information.
 
    To be able to see these properties, a user must have these permissions with a full access.
 
@@ -128,4 +128,4 @@ Limit a profile's permissions by using filters in the access control rule that g
 
 See the [
 Dimension
-](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/metadata/dimension/index.md) topic for additional information.
+](../../../toolkit/xml-configuration/metadata/dimension/index.md) topic for additional information.

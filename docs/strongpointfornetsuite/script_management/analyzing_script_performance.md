@@ -29,7 +29,7 @@ Audit tags cannot be automatically added for Client Scripts due to the NetSuite 
 7. Enter __Strongpoint Add Audit Tag__ for Name.
 8. Paste the __Internal ID__ of the __Archive__ folder.
 
-   ![Add Audit Tag Mass Update](/img/product_docs/strongpointfornetsuite/script_management/audittag.webp)
+   ![Add Audit Tag Mass Update](../../../static/img/product_docs/strongpointfornetsuite/script_management/audittag.webp)
 9. Click __Preview__ to review the actions. Click __Perform Update__ to add the Start tags.
 10. End tags are used to measure script average run time. In many cases, there is no systematic way of identifying where the end of the script is. Our recommended approach is to use the script metrics, such as __# of daily executions__ to prioritize which scripts you want to measure the average run time. Then add the end tag manually to the end of the script.
 

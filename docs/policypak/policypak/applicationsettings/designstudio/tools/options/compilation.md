@@ -2,7 +2,7 @@
 
 The Compilation tab controls where your Endpoint Policy Manager source files (pXML) are saved and where they are compiled. You can see the Compilation tab in Figure 166. The default path for saved pXML files is```\Documents\PolicyPak Design Studio\Projects.``` You can change this to any location you like. Additionally, the path for compiled DLLs is ```C:\Program Files\PolicyPak\Extensions```. This is the location where the Endpoint Policy Manager Application Settings Manager Group Policy Editor will look for compiled extensions, so it's best to leave this as it is.
 
-![using_designstudio_tools_2](/img/product_docs/policypak/policypak/applicationsettings/designstudio/tools/options/using_designstudio_tools_2.webp)
+![using_designstudio_tools_2](../../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/designstudio/tools/options/using_designstudio_tools_2.webp)
 
 Figure 166. The Compilation tab.
 

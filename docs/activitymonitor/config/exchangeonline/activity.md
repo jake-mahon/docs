@@ -108,7 +108,7 @@ __Step 2 –__ Copy the __Application (client) ID__ value.
 
 __Step 3 –__ Save this value in a text file.
 
-This is needed for adding a Exchange Online host in the Activity Monitor. See the [Exchange Online](/docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/exchangeonline.md) topic for additional information. Next identify the Tenant ID.
+This is needed for adding a Exchange Online host in the Activity Monitor. See the [Exchange Online](../../activitymonitor/admin/monitoredhosts/add/exchangeonline.md) topic for additional information. Next identify the Tenant ID.
 
 ## Identify the Tenant ID
 
@@ -122,7 +122,7 @@ __Step 1 –__ Copy the Directory (tenant) ID value.
 
 __Step 2 –__ Save this value in a text file.
 
-This is needed for adding a Exchange Online host in the Activity Monitor. See the [Exchange Online](/docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/exchangeonline.md) topic for additional information. Next identify the Tenant ID. Next generate the application’s Client Secret Key.
+This is needed for adding a Exchange Online host in the Activity Monitor. See the [Exchange Online](../../activitymonitor/admin/monitoredhosts/add/exchangeonline.md) topic for additional information. Next identify the Tenant ID. Next generate the application’s Client Secret Key.
 
 Overview Page
 
@@ -136,7 +136,7 @@ __Step 2 –__ Copy the Tenant ID value.
 
 __Step 3 –__ Save this value in a text file.
 
-This is needed for adding a Exchange Online host in the Activity Monitor. See the [Exchange Online](/docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/exchangeonline.md) topic for additional information. Next identify the Tenant ID. Next generate the application’s Client Secret Key.
+This is needed for adding a Exchange Online host in the Activity Monitor. See the [Exchange Online](../../activitymonitor/admin/monitoredhosts/add/exchangeonline.md) topic for additional information. Next identify the Tenant ID. Next generate the application’s Client Secret Key.
 
 ## Generate the Client Secret Key
 
@@ -167,7 +167,7 @@ __Step 6 –__ The Client Secret will be displayed in the Value column of the ta
 
 __Step 7 –__ Save this value in a text file.
 
-This is needed for adding a Exchange Online host in the Activity Monitor. See the [Exchange Online](/docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/exchangeonline.md) topic for additional information.
+This is needed for adding a Exchange Online host in the Activity Monitor. See the [Exchange Online](../../activitymonitor/admin/monitoredhosts/add/exchangeonline.md) topic for additional information.
 
 ## Enable Auditing for Exchange Online
 

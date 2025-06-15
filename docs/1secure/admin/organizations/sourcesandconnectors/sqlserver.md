@@ -8,23 +8,23 @@ __Step 2 –__ Click an organization to define a data source and connector(s) fo
 
 __Step 3 –__ On the Sources tab, click __Add__ to add a source. The Select Data Source (Step 1 of 3) pane is displayed.
 
-![Select Data Source %28Step 1 of 3%29 pane](/img/product_docs/1secure/admin/organizations/sourcesandconnectors/addsources_exchange.webp)
+![Select Data Source %28Step 1 of 3%29 pane](../../../../../static/img/product_docs/1secure/admin/organizations/sourcesandconnectors/addsources_exchange.webp)
 
 __Step 4 –__ Select __SQL Server__ and click __Next__.
 
-![Configure Source Details %28Step 2 of 3%29 pane](/img/product_docs/1secure/admin/organizations/sourcesandconnectors/configuresourcedetails%28step2-3%29.webp)
+![Configure Source Details %28Step 2 of 3%29 pane](../../../../../static/img/product_docs/1secure/admin/organizations/sourcesandconnectors/configuresourcedetails%28step2-3%29.webp)
 
 __Step 5 –__ On the Configure source details (Step 2 of 3) pane, use the Site drop-down menu to select an existing site or add a new one. To add a new site, select the __Add new site__ option from the drop-down menu or click the __Add__ icon.
 
-- When you choose to add a new site, you have to provide a name for it in the New site name field. Then click __Next__ to proceed with configuring the agent for the site. See the [Install Agent](/docs/1secure/install/installagent.md) topic for details on configuring the agent, starting at Step 6.
+- When you choose to add a new site, you have to provide a name for it in the New site name field. Then click __Next__ to proceed with configuring the agent for the site. See the [Install Agent](../../../install/installagent.md) topic for details on configuring the agent, starting at Step 6.
 - When you select an existing site from the drop-down menu, one of the following happens:
 
-  - If the agent has not been configured for the site, the system will proceed with the agent configuration when you click _Next_. See the [Install Agent](/docs/1secure/install/installagent.md) topic for details on configuring the agent, starting at Step 6.
+  - If the agent has not been configured for the site, the system will proceed with the agent configuration when you click _Next_. See the [Install Agent](../../../install/installagent.md) topic for details on configuring the agent, starting at Step 6.
   - If the agent has already been configured for the site, the system will proceed with the SQL Server source and connector settings when you click _Next_.
 
 __Step 6 –__ Click __Next__.
 
-![Configure Source Details %28Step 2 of 3%29 pane](/img/product_docs/1secure/admin/organizations/sourcesandconnectors/configuresourcedetails%28step2-3%29a.webp)
+![Configure Source Details %28Step 2 of 3%29 pane](../../../../../static/img/product_docs/1secure/admin/organizations/sourcesandconnectors/configuresourcedetails%28step2-3%29a.webp)
 
 __Step 7 –__ Specify the following settings:
 
@@ -40,9 +40,9 @@ __Step 7 –__ Specify the following settings:
 
 __Step 8 –__ Click __Next__.
 
-![Choose New Connector %28Step 3 of 3%29 pane](/img/product_docs/1secure/admin/organizations/sourcesandconnectors/choosenewconnector%28step3of3%29.webp)
+![Choose New Connector %28Step 3 of 3%29 pane](../../../../../static/img/product_docs/1secure/admin/organizations/sourcesandconnectors/choosenewconnector%28step3of3%29.webp)
 
-__Step 9 –__ The Choose new connector (Step 3 of 3) pane lists one connector for SQL Server. Toggle the __SQL Logons__ switch to ON to collect and monitor data for this connector. With this, you can generate logon reports on SQL Server data. See the [SQL Database](/docs/1secure/admin/searchandreports/activity.md#sql-database) topic for additional information.
+__Step 9 –__ The Choose new connector (Step 3 of 3) pane lists one connector for SQL Server. Toggle the __SQL Logons__ switch to ON to collect and monitor data for this connector. With this, you can generate logon reports on SQL Server data. See the [SQL Database](../../searchandreports/activity.md#sql-database) topic for additional information.
 
 __Step 10 –__ Choose one option from the following:
 

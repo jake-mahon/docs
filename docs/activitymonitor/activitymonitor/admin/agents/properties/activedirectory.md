@@ -2,7 +2,7 @@
 
 The Active Directory tab provides options to configure the agent settings for monitoring an Active Directory domain controller. These settings are part of the Active Directory monitoring and can only be enabled for agents on domain controllers.
 
-![Agent Properties - Active Directory Tab](/img/product_docs/activitymonitor/activitymonitor/admin/agents/properties/mainimage.webp)
+![Agent Properties - Active Directory Tab](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/agents/properties/mainimage.webp)
 
 The Agent Settings allow users to control the AD agent’s properties:
 
@@ -35,7 +35,7 @@ If Threat Prevention data is not used by other Netwrix products, uninstall the a
 
 Once the activity agent is deployed to a domain controller with an existing Threat Prevention agent, a connection can be secured between both agents. Follow these instructions to configure the policy used for Active Directory Activity Monitoring from the Threat Prevention Admin Console.
 
-__Step 1 –__ Configure the File, Syslog, or Threat Manager outputs on the Monitored Domains Tab in the Activity Monitor Console. See the [Output for Monitored Domains](/docs/activitymonitor/activitymonitor/admin/monitoreddomains/output.md) topic for additional information.
+__Step 1 –__ Configure the File, Syslog, or Threat Manager outputs on the Monitored Domains Tab in the Activity Monitor Console. See the [Output for Monitored Domains](../../monitoreddomains/output.md) topic for additional information.
 
 __Step 2 –__ Within the Threat Prevention Admin Console, select the Threat Manager Event Sink Configuration Window option under the Configuration menu, and enter amqp://localhost:4499 within the Threat Manager URI field on the pop-up window. Then click Save.
 

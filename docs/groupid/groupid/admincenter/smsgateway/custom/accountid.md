@@ -24,4 +24,4 @@ The account ID may not be required for every SMS gateway. If required, use this 
 
 __See Also__
 
-- [Implement and Deploy a Custom SMS Gateway](/docs/groupid/groupid/admincenter/smsgateway/implementcustom.md)
+- [Implement and Deploy a Custom SMS Gateway](../implementcustom.md)

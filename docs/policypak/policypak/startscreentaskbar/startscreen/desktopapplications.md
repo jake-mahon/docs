@@ -4,7 +4,7 @@ Next, you'll add a desktop application.
 
 __Step 1 –__ To do this, right-click the policy and select Add | New Desktop Application Tile. When you add a new desktop application tile, you'll get a wizard asking you the source of the desktop application, as shown in Figure 18.
 
-![quickstart_start_screen_manager_13](/img/product_docs/policypak/policypak/startscreentaskbar/startscreen/quickstart_start_screen_manager_13.webp)
+![quickstart_start_screen_manager_13](../../../../../static/img/product_docs/policypak/policypak/startscreentaskbar/startscreen/quickstart_start_screen_manager_13.webp)
 
 Figure 18. The Endpoint Policy Manager Start Screen Manager Desktop Application Tile wizard has three methods you can choose.
 
@@ -16,13 +16,13 @@ __Step 2 –__ Once you specify to add a desktop application tile, you can use o
 
 For this Quickstart, select "Registered application (recommended)," and then click "Next." Then select Adobe Acrobat from the list (shown in Figure 19) and click "Next."
 
-![quickstart_start_screen_manager_14](/img/product_docs/policypak/policypak/startscreentaskbar/startscreen/quickstart_start_screen_manager_14.webp)
+![quickstart_start_screen_manager_14](../../../../../static/img/product_docs/policypak/policypak/startscreentaskbar/startscreen/quickstart_start_screen_manager_14.webp)
 
 Figure 19. Selecting a registered application from the machine.
 
 __Step 3 –__ Then you can select the specifics for the tile, namely the tile position and the tile size, as seen in Figure 20.
 
-![quickstart_start_screen_manager_15](/img/product_docs/policypak/policypak/startscreentaskbar/startscreen/quickstart_start_screen_manager_15.webp)
+![quickstart_start_screen_manager_15](../../../../../static/img/product_docs/policypak/policypak/startscreentaskbar/startscreen/quickstart_start_screen_manager_15.webp)
 
 Figure 20. Desktop Applications can have two tile sizes.
 
@@ -34,12 +34,12 @@ The position is identified by columns and rows within the group. This will allow
 
 __Step 4 –__ You can select a tile size of Small or Medium. (UWP applications can be any of the four sizes.) For this Quickstart, select the "Medium" size and then click "Next." On the Finish page, choose a policy name, such as "Acro Reader," as shown in Figure 21, and click "Finish."
 
-![quickstart_start_screen_manager_16](/img/product_docs/policypak/policypak/startscreentaskbar/startscreen/quickstart_start_screen_manager_16.webp)
+![quickstart_start_screen_manager_16](../../../../../static/img/product_docs/policypak/policypak/startscreentaskbar/startscreen/quickstart_start_screen_manager_16.webp)
 
 Figure 21. The policy name you select is the internal "display name" of the policy you just created.
 
 The Start Screen icon policy you created can be seen in Figure 22.
 
-![quickstart_start_screen_manager_17](/img/product_docs/policypak/policypak/startscreentaskbar/startscreen/quickstart_start_screen_manager_17.webp)
+![quickstart_start_screen_manager_17](../../../../../static/img/product_docs/policypak/policypak/startscreentaskbar/startscreen/quickstart_start_screen_manager_17.webp)
 
 Figure 22. The Endpoint Policy Manager Start Screen Manager policy is contained within the collection.

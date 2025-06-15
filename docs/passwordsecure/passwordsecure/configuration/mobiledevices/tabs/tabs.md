@@ -2,15 +2,15 @@
 
 Once you have successfully logged in, you will find yourself in the view where all the user's passwords are located.
 
-![all passwords in mobile app](/img/product_docs/passwordsecure/passwordsecure/configuration/mobiledevices/tabs/all-passwords-ma-en.webp)
+![all passwords in mobile app](../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/mobiledevices/tabs/all-passwords-ma-en.webp)
 
 Here you have the following options:
 
 Action menu
 
-With a click on ![three-points-en](/img/product_docs/passwordsecure/passwordsecure/configuration/mobiledevices/tabs/three-points-en.webp) the action menu is opened.
+With a click on ![three-points-en](../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/mobiledevices/tabs/three-points-en.webp) the action menu is opened.
 
-![actions mobile app](/img/product_docs/passwordsecure/passwordsecure/configuration/mobiledevices/tabs/actions-ma-en.webp)
+![actions mobile app](../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/mobiledevices/tabs/actions-ma-en.webp)
 
 The following actions are offered:
 
@@ -23,10 +23,10 @@ Tabs
 
 Below the passwords there is a bar for managing tabs.
 
-![manage tabs](/img/product_docs/passwordsecure/passwordsecure/configuration/mobiledevices/tabs/all-passwords-ma-2-en.webp)
+![manage tabs](../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/mobiledevices/tabs/all-passwords-ma-2-en.webp)
 
 By clicking on the plus sign there is a possibility to add more tabs.
 
-![add tabs](/img/product_docs/passwordsecure/passwordsecure/configuration/mobiledevices/tabs/add-tabs-ma.webp)
+![add tabs](../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/mobiledevices/tabs/add-tabs-ma.webp)
 
 These tabs are organizational units that the user can see. By default, the tabs __"All passwords"__ and __"Personal"__ are stored.

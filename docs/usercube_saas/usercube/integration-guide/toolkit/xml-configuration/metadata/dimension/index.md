@@ -2,7 +2,7 @@
 
 A dimension is an [
 Entity Type
-](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) used to define an organizational filter for the Identity Manager role model.
+](../entitytype/index.md) used to define an organizational filter for the Identity Manager role model.
 
 ## Examples
 

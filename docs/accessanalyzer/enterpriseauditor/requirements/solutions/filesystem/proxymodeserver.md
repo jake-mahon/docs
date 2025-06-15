@@ -70,9 +70,9 @@ See the following topics for additional information, based on the type of proxy 
 
 - Proxy Mode with Applet
 
-  - [Proxy Mode with Applet Permissions](/docs/accessanalyzer/enterpriseauditor/requirements/solutions/filesystem/proxymodeappletpermissions.md)
-  - [Proxy Mode with Applet Port Requirements](/docs/accessanalyzer/enterpriseauditor/requirements/solutions/filesystem/proxymodeappletports.md)
+  - [Proxy Mode with Applet Permissions](proxymodeappletpermissions.md)
+  - [Proxy Mode with Applet Port Requirements](proxymodeappletports.md)
 - Proxy Mode as a Service
 
-  - [Proxy Mode as a Service Permissions](/docs/accessanalyzer/enterpriseauditor/requirements/solutions/filesystem/proxymodeservicepermissions.md)
-  - [Proxy Mode as a Service Port Requirements](/docs/accessanalyzer/enterpriseauditor/requirements/solutions/filesystem/proxymodeserviceports.md)
+  - [Proxy Mode as a Service Permissions](proxymodeservicepermissions.md)
+  - [Proxy Mode as a Service Port Requirements](proxymodeserviceports.md)

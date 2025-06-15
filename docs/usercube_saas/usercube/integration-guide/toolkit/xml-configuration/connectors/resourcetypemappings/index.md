@@ -4,30 +4,30 @@ A resource type mapping links resources sharing the same intent and the same aut
 
 Here is a list of ResourceType Mapings:
 
-- [Microsoft EntraID Resource Type Mapping](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/resourcetypemappings/microsoftentraidresourcetypemapping/index.md)
+- [Microsoft EntraID Resource Type Mapping](microsoftentraidresourcetypemapping/index.md)
 
   The set of parameters to map the properties of Microsoft Entra ID in Identity Manager, for provisioning purposes.
-- [Easy Vista Resource Type Mapping](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/resourcetypemappings/easyvistaresourcetypemapping/index.md)
+- [Easy Vista Resource Type Mapping](easyvistaresourcetypemapping/index.md)
 
   The set of parameters to map the properties of Easy Vista in Identity Manager, for provisioning purposes.
-- [Ldap Resource Type Mapping](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/resourcetypemappings/ldapresourcetypemapping/index.md)
+- [Ldap Resource Type Mapping](ldapresourcetypemapping/index.md)
 
   The set of parameters to map the properties of Ldap in Identity Manager, for provisioning purposes.
-- [Manual Provisioning Resource Type Mapping](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/resourcetypemappings/manualprovisioningresourcetypemapping/index.md)
+- [Manual Provisioning Resource Type Mapping](manualprovisioningresourcetypemapping/index.md)
 
   The set of parameters to map the properties of Manual Provisioning in Identity Manager, for provisioning purposes.
-- [Okta Resource Type Mapping](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/resourcetypemappings/oktaresourcetypemapping/index.md)
+- [Okta Resource Type Mapping](oktaresourcetypemapping/index.md)
 
   The set of parameters to map the properties of Okta in Identity Manager, for provisioning purposes.
-- [Sap Resource Type Mapping](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/resourcetypemappings/sapresourcetypemapping/index.md)
+- [Sap Resource Type Mapping](sapresourcetypemapping/index.md)
 
   The set of parameters to map the properties of Sap in Identity Manager, for provisioning purposes.
-- [Scim Resource Type Mapping](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/resourcetypemappings/scimresourcetypemapping/index.md)
+- [Scim Resource Type Mapping](scimresourcetypemapping/index.md)
 
   The set of parameters to map the properties of Scim in Identity Manager, for provisioning purposes.
-- [Service Now Resource Type Mapping](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/resourcetypemappings/servicenowresourcetypemapping/index.md)
+- [Service Now Resource Type Mapping](servicenowresourcetypemapping/index.md)
 
   The set of parameters to map the properties of Service Now in Identity Manager, for provisioning purposes.
-- [Share Point Resource Type Mapping](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/resourcetypemappings/sharepointresourcetypemapping/index.md)
+- [Share Point Resource Type Mapping](sharepointresourcetypemapping/index.md)
 
   The set of parameters to map the properties of Share Point in Identity Manager, for provisioning purposes.

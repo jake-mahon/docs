@@ -35,7 +35,7 @@ __Step 6 –__ In the __Auditing Entry for SOFTWARE__ dialog, select _"Successfu
 - __Write DAC__
 - __Write Owner__
 
-![ManualConfig_WS_AuditingEntry2008](/img/product_docs/auditor/auditor/configuration/windowsserver/manualconfig_ws_auditenrty2008.webp)
+![ManualConfig_WS_AuditingEntry2008](../../../../../static/img/product_docs/auditor/auditor/configuration/windowsserver/manualconfig_ws_auditenrty2008.webp)
 
 Repeat the same steps for the ```HKEY_LOCAL_MACHINE\SYSTEM``` key.
 
@@ -61,7 +61,7 @@ __Step 7 –__ Click __Show advanced permissions__ and select the following acce
 - Write DAC
 - Write Owner
 
-![Config_WS_AuditingEntry_2016](/img/product_docs/auditor/auditor/configuration/windowsserver/manualconfig_ws_auditenrty_2016.webp)
+![Config_WS_AuditingEntry_2016](../../../../../static/img/product_docs/auditor/auditor/configuration/windowsserver/manualconfig_ws_auditenrty_2016.webp)
 
 Repeat the same steps for the ```HKEY_LOCAL_MACHINE\SYSTEM``` key.
 

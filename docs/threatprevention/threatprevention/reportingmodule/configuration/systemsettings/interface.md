@@ -4,12 +4,12 @@ The System Settings interface provides access to system logs, user access contro
 
 Use the gear icon in the upper right corner of the console to open the Configuration menu. Then select __System Settings__ to open the System Settings interface.
 
-![System Settings interface](/img/product_docs/threatprevention/threatprevention/reportingmodule/interface.webp)
+![System Settings interface](../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/interface.webp)
 
 It contains the following pages:
 
-- [Auditing Page](/docs/threatprevention/threatprevention/reportingmodule/configuration/systemsettings/auditing.md)
-- [User Access Page](/docs/threatprevention/threatprevention/reportingmodule/configuration/systemsettings/useraccess.md)
-- [Licensing Page](/docs/threatprevention/threatprevention/reportingmodule/configuration/systemsettings/licensing.md)
-- [System Jobs Page](/docs/threatprevention/threatprevention/reportingmodule/configuration/systemsettings/systemjobs.md)
-- [About Threat Manager Page](/docs/threatprevention/threatprevention/reportingmodule/configuration/systemsettings/about.md)
+- [Auditing Page](auditing.md)
+- [User Access Page](useraccess.md)
+- [Licensing Page](licensing.md)
+- [System Jobs Page](systemjobs.md)
+- [About Threat Manager Page](about.md)

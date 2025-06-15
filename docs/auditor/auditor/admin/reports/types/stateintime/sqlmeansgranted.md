@@ -2,11 +2,11 @@
 
 This report shows accounts with explicit and inherited permissions on the selected SQL Server object and how those permissions were granted (directly, through role membership, etc.). Use this report to investigate how permissions are granted.
 
-Supported object types and attributes are listed in the [SQL Server](/docs/auditor/auditor/configuration/sqlserver/overview.md) section.
+Supported object types and attributes are listed in the [SQL Server](../../../../configuration/sqlserver/overview.md) section.
 
 To instruct Netwrix Auditor to collect data needed for this report, make sure that __Collect data for state-in-time reports__ option is selected in the monitoring plan properties.
 
-![sqlservermeansgranted](/img/product_docs/auditor/auditor/admin/reports/types/stateintime/sqlservermeansgranted.webp)
+![sqlservermeansgranted](../../../../../../../static/img/product_docs/auditor/auditor/admin/reports/types/stateintime/sqlservermeansgranted.webp)
 
 ## Reported data
 
@@ -22,7 +22,7 @@ The summary section shows:
   - DB SQL User with password
 - __Job title__ —reported for Active Directory users as set in their corresponding attribute. If not set, _`<not set>`_ is reported.
 - __Object path__ —path to the monitored object, as formatted by Netwrix Auditor in the activity records (see '_What_' field in the reports, search results and activity summaries). For example, when reporting on the database hosted on selected SQL Server, the path will be as follows: _Databases\database_name_.
-- __Object type__ — monitored object type; for the full list of supported object types, refer to [SQL Server](/docs/auditor/auditor/configuration/sqlserver/overview.md).
+- __Object type__ — monitored object type; for the full list of supported object types, refer to [SQL Server](../../../../configuration/sqlserver/overview.md).
 
 The detailed information under summary includes:
 
@@ -63,4 +63,4 @@ This report has the following filters:
 
 When examining the __Object Permissions in SQL Server__ report, database administrators in the _Corp_ organization discovered that the accounts with Contractor job title has access to the __SQLSrv01\SQLServer2016__ instance. To explore how this could happen, they drilled down to the __SQL Server Means Granted__ report for that account by clicking the link in the __Means granted__ field for that account.
 
-![sqlservermeansgranteddetails](/img/product_docs/auditor/auditor/admin/reports/types/stateintime/sqlservermeansgranteddetails.webp)
+![sqlservermeansgranteddetails](../../../../../../../static/img/product_docs/auditor/auditor/admin/reports/types/stateintime/sqlservermeansgranteddetails.webp)

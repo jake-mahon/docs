@@ -8,8 +8,8 @@ The Activity Monitor can be configured to monitor the following:
 
 It provides the ability to feed activity data to SIEM products. The following dashboards have been specifically created for Activity Monitor event data:
 
-- For IBM® QRadar®, see the [Netwrix File Activity Monitor App for QRadar](/docs/activitymonitor/activitymonitor/siem/qradar/overview.md) for additional information.
-- For Splunk®, see the [File Activity Monitor App for Splunk](/docs/activitymonitor/activitymonitor/siem/splunk/overview.md) for additional information.
+- For IBM® QRadar®, see the [Netwrix File Activity Monitor App for QRadar](../../../siem/qradar/overview.md) for additional information.
+- For Splunk®, see the [File Activity Monitor App for Splunk](../../../siem/splunk/overview.md) for additional information.
 
 It also provides the ability to feed activity data to other Netwrix products:
 
@@ -17,7 +17,7 @@ It also provides the ability to feed activity data to other Netwrix products:
 - Netwrix Threat Prevention
 - Netwrix Threat Manager
 
-Prior to adding a Hitachi host to the Activity Monitor, the prerequisites for the target environment must be met. See the [Hitachi Activity Auditing Configuration](/docs/activitymonitor/config/hitachi/activity.md) topic for additional information.
+Prior to adding a Hitachi host to the Activity Monitor, the prerequisites for the target environment must be met. See the [Hitachi Activity Auditing Configuration](../../../../config/hitachi/activity.md) topic for additional information.
 
 _Remember,_ the Activity Agent must be deployed to a Windows server that acts as a proxy for monitoring the target environment.
 
@@ -27,23 +27,23 @@ Follow the steps to add a Hitachi host to be monitored.
 
 __Step 1 –__ In Activity Monitor, go to the Monitored Hosts tab and click Add. The Add New Host window opens.
 
-![Choose Agent page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/chooseagent.webp)
+![Choose Agent page](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/chooseagent.webp)
 
 __Step 2 –__ On the Choose Agent page, select the Agent to monitor the storage device. Click __Next__.
 
-![Add Host page with Hitachi NAS selected](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/addhosthitachi.webp)
+![Add Host page with Hitachi NAS selected](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/addhosthitachi.webp)
 
 __Step 3 –__ On the Add Host page, select the Hitachi NAS radio button and enter the __EVS or file system name__ for the device. If desired, add a __Comment__. Click __Next__.
 
-![Hitachi NAS Options page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/hitachinasoptions.webp)
+![Hitachi NAS Options page](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/hitachinasoptions.webp)
 
 __Step 4 –__ On the Hitachi NAS Options page, enter the __Logs path (UNC)__ and the __Active Log file name__. Then enter the credentials to access the HNAS Log files. Click Connect to validate the connection with the Hitachi device. Click __Next__.
 
-![Configure Operations page for Hitachi NAS](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/configureoperationshitachi.webp)
+![Configure Operations page for Hitachi NAS](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/configureoperationshitachi.webp)
 
 __Step 5 –__ On the Configure Operations page, select the __File Operations__ and __Directory Operations__ to be monitored. Click __Next__.
 
-![Configure Basic Options page for Hitachi NAS](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/configurebasicoptionshitachi.webp)
+![Configure Basic Options page for Hitachi NAS](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/configurebasicoptionshitachi.webp)
 
 __Step 6 –__ On the Configure Basic Options page, choose which settings to enable. The “Log files” are the activity logs created by the activity agent on the proxy host. Select the desired options:
 
@@ -58,11 +58,11 @@ __Step 6 –__ On the Configure Basic Options page, choose which settings to ena
 
 Click __Next__.
 
-![Where To Log The Activity](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/wheretologtheactivity.webp)
+![Where To Log The Activity](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/wheretologtheactivity.webp)
 
 __Step 7 –__ On the Where To Log The Activity page, select whether to send the activity to either a __Log File)__ or __Syslog Server__. Click __Next__.
 
-![File Output Page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/fileoutputpage.webp)
+![File Output Page](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/fileoutputpage.webp)
 
 __Step 8 –__ If __Log File__ is selected on the __Where To Log The Activity__ page, the __File Output__ page can be configured.
 
@@ -77,7 +77,7 @@ __Step 8 –__ If __Log File__ is selected on the __Where To Log The Activity__
 
 Click __Next__.
 
-![syslogoutput](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/syslogoutput.webp)
+![syslogoutput](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/syslogoutput.webp)
 
 __Step 9 –__ If Syslog Server is selected on the __Where To Log The Activity__ page, the Syslog Output page can be configured.
 
@@ -88,25 +88,25 @@ __Step 9 –__ If Syslog Server is selected on the __Where To Log The Activity__
   - TCP
   - TLS
 
-  The TCP and TLS protocols add the Message framing drop-down menu. See the [Syslog Tab](/docs/activitymonitor/activitymonitor/admin/outputs/syslog.md) topic for additional information.
+  The TCP and TLS protocols add the Message framing drop-down menu. See the [Syslog Tab](../../outputs/syslog.md) topic for additional information.
 - The Test button sends a test message to the Syslog server to check the connection. A green check mark or red will determine whether the test message has been sent or failed to send. Messages vary by Syslog protocol:
   - UDP – Sends a test message and does not verify connection
   - TCP/TLS – Sends test message and verifies connection
   - TLS – Shows error if TLS handshake fails
 
-  See the [Syslog Tab](/docs/activitymonitor/activitymonitor/admin/outputs/syslog.md) topic for additional information.
+  See the [Syslog Tab](../../outputs/syslog.md) topic for additional information.
 
 Click __Finish__.
 
-![Activity Monitor with Hitachi Host added](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/activitymonitorhitachi.webp)
+![Activity Monitor with Hitachi Host added](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/activitymonitorhitachi.webp)
 
-The added Hitachi host is displayed in the monitored hosts table. Once a host has been added for monitoring, configure the desired ouptuts. See the [Output for Monitored Hosts](/docs/activitymonitor/activitymonitor/admin/monitoredhosts/output.md) topic for additional information.
+The added Hitachi host is displayed in the monitored hosts table. Once a host has been added for monitoring, configure the desired ouptuts. See the [Output for Monitored Hosts](../output.md) topic for additional information.
 
 ## Host Properties for Hitachi
 
 Configuration settings can be edited through the tabs in the host’s Properties window. The configurable host properties are:
 
-- [Hitachi NAS Tab](/docs/activitymonitor/activitymonitor/admin/monitoredhosts/properties/hitachinas.md)
-- [Inactivity Alerts Tab](/docs/activitymonitor/activitymonitor/admin/monitoredhosts/properties/inactivityalerts.md)
+- [Hitachi NAS Tab](../properties/hitachinas.md)
+- [Inactivity Alerts Tab](../properties/inactivityalerts.md)
 
-See the [Host Properties Window](/docs/activitymonitor/activitymonitor/admin/monitoredhosts/properties/overview.md) topic for additional information.
+See the [Host Properties Window](../properties/overview.md) topic for additional information.

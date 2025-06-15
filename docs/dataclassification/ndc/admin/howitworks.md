@@ -4,11 +4,11 @@ Netwrix Data Classification identifies and classifies sensitive and business-cri
 
 You can view the app architecture and components in the figure below.
 
-![how_it_works_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/how_it_works_thumb_0_0.webp)
+![how_it_works_thumb_0_0](../../../../static/img/product_docs/dataclassification/ndc/admin/how_it_works_thumb_0_0.webp)
 
 1. The user adds data sources using the NDC Management web console (Netwrix Data Classification program).
 
-   ![addsource](/img/product_docs/dataclassification/ndc/admin/addsource.webp)
+   ![addsource](../../../../static/img/product_docs/dataclassification/ndc/admin/addsource.webp)
 2. The configured data sources are saved in the NDC SQL database (SQL Server Collector Database).
 3. The NDC Collector service crawls data files in each data source, converts documents into plain text and populates file metadata in the NDC SQL database.
 4. The NDC Indexer service builds and maintains a full-text search index (NDC Index) based on the content and metadata of the collected files.

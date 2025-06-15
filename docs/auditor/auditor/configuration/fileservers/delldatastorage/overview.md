@@ -34,7 +34,7 @@ You can configure your IT Infrastructure for monitoring in one of the following
 First, you should decide on the objects and actions you want to track. Consider the following:
 
 - Actions reported by Auditor vary depending on the file server type and the audited object (file, folder, or share).
-- Besides, monitoring and reporting of the Dell Data Storage systems may not provide the results you expect — due to native Dell audit peculiarities. See the [File Servers](/docs/auditor/auditor/configuration/fileservers/overview.md) topic for additional information.
+- Besides, monitoring and reporting of the Dell Data Storage systems may not provide the results you expect — due to native Dell audit peculiarities. See the [File Servers](../overview.md) topic for additional information.
 
 For example, the _change_ operation (in Auditor terminology) includes creation, modification, and deletion.
 
@@ -42,10 +42,10 @@ For example, the _change_ operation (in Auditor terminology) includes creation,
 
 To collect comprehensive audit data, you must configure your file shares for monitoring. Consider the following:
 
-__Step 1 –__ [Configure Security Event Log Maximum Size](/docs/auditor/auditor/configuration/fileservers/delldatastorage/securityeventlog.md) to avoid overwriting of the security logs; it is recommended to set security log size to a maximum (4GB). Auditor does not clean Dell Unity logs automatically, the log will start overwriting when it goes beyond the limit. See the [Unity Family Security Configuration Guide](https://support.emc.com/docu69321_Unity-Family-Security-Configuration-Guide.pdf?language=en_US) for additional information on how to set logs roll over manually.
+__Step 1 –__ [Configure Security Event Log Maximum Size](securityeventlog.md) to avoid overwriting of the security logs; it is recommended to set security log size to a maximum (4GB). Auditor does not clean Dell Unity logs automatically, the log will start overwriting when it goes beyond the limit. See the [Unity Family Security Configuration Guide](https://support.emc.com/docu69321_Unity-Family-Security-Configuration-Guide.pdf?language=en_US) for additional information on how to set logs roll over manually.
 
 __Step 2 –__ By default, the security log is set to overwrite events that are older than 10 days, and its size is set to 512 KB. The default location for the security.evt log is __C:\security.evt__, which corresponds to the root partition of the Data Mover. To be able to increase the security log size, you must move it from the Data Mover root folder.
 
-__Step 3 –__ [Configure Audit Object Access Policy](/docs/auditor/auditor/configuration/fileservers/delldatastorage/objectaccess.md). Set the Audit object access policy to "Success" and "Failure" in the Group Policy of the OU where your Dell VNX/VNXe/Unity/Celerra appliance belongs to. For more information on VNX/VNXe/Unity/Celerra GPO support, refer to documentation provided by Dell.
+__Step 3 –__ [Configure Audit Object Access Policy](objectaccess.md). Set the Audit object access policy to "Success" and "Failure" in the Group Policy of the OU where your Dell VNX/VNXe/Unity/Celerra appliance belongs to. For more information on VNX/VNXe/Unity/Celerra GPO support, refer to documentation provided by Dell.
 
-__Step 4 –__ [Configure Audit Settings for CIFS File Shares on Dell Data Storage](/docs/auditor/auditor/configuration/fileservers/delldatastorage/cifss.md)
+__Step 4 –__ [Configure Audit Settings for CIFS File Shares on Dell Data Storage](cifss.md)

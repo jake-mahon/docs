@@ -14,7 +14,7 @@ __Step 5 –__ After a configurable amount of days in the staging OU, the group 
 
 ## Parameter Configuration
 
-The Configuration section on a Job's overview page allows you to easily modify any customizable parameters used by analysis tasks in the job. See the [Parameter Configuration](/docs/accessanalyzer/enterpriseauditor/admin/jobs/job/overview.md#parameter-configuration) topic for instructions on how to edit parameters on a job overview page.
+The Configuration section on a Job's overview page allows you to easily modify any customizable parameters used by analysis tasks in the job. See the [Parameter Configuration](../../../../../admin/jobs/job/overview.md#parameter-configuration) topic for instructions on how to edit parameters on a job overview page.
 
 The AD_DeprovisionGroups page has the following configurable parameters:
 
@@ -26,7 +26,7 @@ See the [Customizable Analysis Parameters for the AD_DeprovisionGroups Job](#cus
 
 Navigate to the __Active Directory__ > __Cleanup__ > __1.Groups__ > __1. Deprovision Groups__ > __AD_Deprovision Groups__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
-![Analysis Tasks for the AD_DeprovisionGroups Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/cleanup/groups/deprovision/deprovisiongroupsanalysis.webp)
+![Analysis Tasks for the AD_DeprovisionGroups Job](../../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/cleanup/groups/deprovision/deprovisiongroupsanalysis.webp)
 
 The default analysis tasks are:
 
@@ -43,7 +43,7 @@ Customizable parameters enable you to set the values used to classify user and g
 | --- | --- | --- | --- |
 | Groups to Delete | @days_before_deleting | 365 | Days in the staging OU before deletion |
 
-See the [Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/analysiscustomizableparameters.md) topic for additional information.
+See the [Configure the Customizable Parameters in an Analysis Task](../../../../../admin/jobs/job/configure/analysiscustomizableparameters.md) topic for additional information.
 
 ## Action Tasks for the AD_DepvisionGroups Job
 
@@ -51,7 +51,7 @@ Navigate to the __Active Directory__ > __Cleanup__ > __1.Groups__ > __1. Deprovi
 
 __CAUTION:__ Do not enable the actions unless it is required. Disable the actions after execution to prevent making unintended and potentially harmful changes to Active Directory.
 
-![Action Tasks for the AD_DepvisionGroups Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/cleanup/groups/deprovision/deprovisiongroupsaction.webp)
+![Action Tasks for the AD_DepvisionGroups Job](../../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/cleanup/groups/deprovision/deprovisiongroupsaction.webp)
 
 The action tasks are:
 
@@ -59,7 +59,7 @@ __CAUTION:__ The action tasks must be executed together and in order.
 
 - Move Groups – Move groups to staging OU
 
-  - The target staging OU must be set in the Move Groups Action Task prior to executing the action tasks. See the [Configure the Target OU](/docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/cleanup/configuretargetou.md) topic for additional information.
+  - The target staging OU must be set in the Move Groups Action Task prior to executing the action tasks. See the [Configure the Target OU](../../configuretargetou.md) topic for additional information.
 - Disable Groups – The group is changed to a distribution list
 - Notify Manager – Notify assigned manager by email of the impending deletion
 - Update Description – The group is changed to a distribution list to prevent its use for authentication and flagged as __To Be Deleted__

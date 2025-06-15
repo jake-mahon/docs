@@ -4,11 +4,11 @@ Netwrix Endpoint Policy Manager (formerly PolicyPak)'s pre-configured AppSets ca
 
 For instance, in this AppSet (Microsoft Word 2010) you can see some areas which are not configurable.
 
-![296_1_image001](/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/appset/296_1_image001.jpg)
+![296_1_image001](../../../../../../static/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/appset/296_1_image001.jpg)
 
 Sometimes, you might encounter a button that doesn't open another Window or have any function.
 
-![296_2_image0051](/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/appset/296_2_image0051.webp)
+![296_2_image0051](../../../../../../static/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/appset/296_2_image0051.webp)
 
 In these cases, Endpoint Policy Manager cannot manage these settings.
 

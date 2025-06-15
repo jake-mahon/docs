@@ -1,8 +1,8 @@
 # DB Connection Manager Wizard
 
-The Database Connection Manager (SIDBConfigMgr.exe) allows you to update the connection options for the NVMonitorConfig and NVMonitorData databases. The databases are originally configured during initial install of the Enterprise Manager package. See the [Application Server Install](/docs/threatprevention/threatprevention/install/application.md) topic for additional information.
+The Database Connection Manager (SIDBConfigMgr.exe) allows you to update the connection options for the NVMonitorConfig and NVMonitorData databases. The databases are originally configured during initial install of the Enterprise Manager package. See the [Application Server Install](application.md) topic for additional information.
 
-_Remember,_ the host, port, and user for the NVMonitorConfig and NVMonitorData databases are displayed on the [Events Database Configuration Window](/docs/threatprevention/threatprevention/admin/configuration/eventsdatabaseconfiguration.md). The current Archive Database settings are located on the Archive DB tab of the Database Maintenance window. See the [Archive Data](/docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/archive.md) topic for additional information.
+_Remember,_ the host, port, and user for the NVMonitorConfig and NVMonitorData databases are displayed on the [Events Database Configuration Window](../admin/configuration/eventsdatabaseconfiguration.md). The current Archive Database settings are located on the Archive DB tab of the Database Maintenance window. See the [Archive Data](../admin/configuration/databasemaintenance/archive.md) topic for additional information.
 
 Follow the steps to manage database settings on the DB Connection Manager Wizard.
 
@@ -12,7 +12,7 @@ __Step 1 –__ Navigate to the following location on the Threat Prevention serve
 
 __Step 2 –__ Double-click __SIDBConfigMgr.exe__ to launch the Netwrix Threat Prevention DB Connection Manager wizard.
 
-![Netwrix Threat Prevention DB Connection Manager wizard](/img/product_docs/threatprevention/threatprevention/install/dbconnectionmanager.webp)
+![Netwrix Threat Prevention DB Connection Manager wizard](../../../../static/img/product_docs/threatprevention/threatprevention/install/dbconnectionmanager.webp)
 
 __Step 3 –__ You can update the following:
 

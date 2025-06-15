@@ -7,23 +7,23 @@ The Configuration Wizard can only see your application's changes when both of th
 
 To be specific, the Configuration Wizard doesn't look for all changed files and all changed registry entries. It's only looking where you tell it to look. At the start of every project, you are asked where the application's data is stored, and you set that as your default data root. We set up the data root in the previous section, "Setting Up Application Configuration Data." Recall that your data root can be a registry key (as shown in Figure 108) or a specific file, like an INI or XML file (Figure 109).
 
-![configuring_elements_using_1](/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationwizard/configuring_elements_using_1.webp)
+![configuring_elements_using_1](../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationwizard/configuring_elements_using_1.webp)
 
 Figure 108. Data root selection with registry key.
 
-![configuring_elements_using_2](/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationwizard/configuring_elements_using_2.webp)
+![configuring_elements_using_2](../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationwizard/configuring_elements_using_2.webp)
 
 Figure 109. Data root selection with an INI file.
 
 This can be done at the start of any new project or later on in a project by selecting the Project Properties tab and changing the data root, as shown in Figure 110.
 
-![configuring_elements_using_3](/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationwizard/configuring_elements_using_3.webp)
+![configuring_elements_using_3](../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationwizard/configuring_elements_using_3.webp)
 
 Figure 110. Changing the data root.
 
 There is also another way to change the data root, which is inside the Configuration Wizard itself. While configuring items, if you realize that you need to make a change, it's easy to set a location for the data root, as shown in Figure 111.
 
-![configuring_elements_using_4](/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationwizard/configuring_elements_using_4.webp)
+![configuring_elements_using_4](../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationwizard/configuring_elements_using_4.webp)
 
 Figure 111. Changing the location of the data root.
 

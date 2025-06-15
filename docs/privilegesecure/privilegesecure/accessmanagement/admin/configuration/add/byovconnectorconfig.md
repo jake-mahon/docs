@@ -29,7 +29,7 @@ __Step 3 –__ Configure the following activity connector fields:
 - Advanced – Use this section to override the default behavior of the connector by providing a custom PowerShell script. Click on the __Advanced__ section to edit the Checkout Script Block and the Checkin Script Block or Skip the Certificate Check.
 - Skip Certificate Check – Select the checkbox
 
-![BYOV Connector for Privilege Secure](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/add/byovconnectornps.webp)
+![BYOV Connector for Privilege Secure](../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/add/byovconnectornps.webp)
 
 __Step 4 –__ Copy and paste the following script into the "Checkout Script Block" field. (The "Checkin Script Block" field may be left blank.)
 
@@ -150,7 +150,7 @@ else {
 
 __Step 5 –__ Click __Save__ to create the BYOV connector.
 
-See the [Bring Your Own Vault (BYOV) Integration](/docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/add/integrationbyov.md) topic for additional information on configuring a BYOV connector.
+See the [Bring Your Own Vault (BYOV) Integration](integrationbyov.md) topic for additional information on configuring a BYOV connector.
 
 ### Create a User
 
@@ -160,17 +160,17 @@ Follow the steps to create a manually-managed user.
 
 __Step 1 –__ Navigate to __Dashboard__ > __Credentials__ tab.
 
-![Select a User to manage account](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/add/byovmanageuser.webp)
+![Select a User to manage account](../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/add/byovmanageuser.webp)
 
 __Step 2 –__ Search or scroll to find the user you wish to manage. Once identified, check the box next to the account name.
 
-![Select Manual manage account](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/add/byovmanualmanageaccount.webp)
+![Select Manual manage account](../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/add/byovmanualmanageaccount.webp)
 
 __Step 3 –__ Click on the __Manage__ button that becomes available above the list, and select __Manual__.
 
 __NOTE:__ Ensure the user is not already managed or added into Privilege Secure.
 
-See the [Credentials Dashboard](/docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/credentials.md) topic for additional information on creating a managed account.
+See the [Credentials Dashboard](../../dashboard/credentials.md) topic for additional information on creating a managed account.
 
 ### Set the Account Password
 
@@ -180,17 +180,17 @@ Follow the steps to set an account password.
 
 __Step 1 –__ Navigate to __Dashboard__ > __Credentials__ tab and locate the manually managed account.
 
-![Managed User Wrench Icon](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/add/byovmanageuserwrench.webp)
+![Managed User Wrench Icon](../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/add/byovmanageuserwrench.webp)
 
 __Step 2 –__ Click on the __Wrench__ icon to set the password.
 
-![Set password for the credential window](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/add/byovsetpassword.webp)
+![Set password for the credential window](../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/add/byovsetpassword.webp)
 
 __Step 3 –__ Enter a password to match the AD password, then click __Save__.
 
 __NOTE:__ For versions before Privilege Secure 4.1, a support ticket will be needed as the Set Password feature is not available.
 
-See the [Manage Internal Service Accounts](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/credentials/manageinternalserviceaccount.md) topic for additional information on manually managing an account.
+See the [Manage Internal Service Accounts](../../policy/window/credentials/manageinternalserviceaccount.md) topic for additional information on manually managing an account.
 
 ### Create an Activity
 
@@ -213,13 +213,13 @@ __Step 3 –__ Configure the activity with the following values:
 
 __NOTE:__ You may use accounts stored in a Vault and added as a resource once the integration is created. Also, you may apply domain or other local accounts managed by Netwrix Privilege Secure, but the password must be rotated once prior to use with an activity.
 
-![BYOV create an Activity](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/add/byovconnectoractivity.webp)
+![BYOV create an Activity](../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/add/byovconnectoractivity.webp)
 
 __Step 4 –__ Click Save to create the Activity.
 
 __NOTE:__ Ensure the Login Account Template uses the format DOMAIN\samAccountName (e.g., NWXTECH\dgrayson).
 
-See the [Add Activity](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/activity.md) topic for additional information on creating an Activity.
+See the [Add Activity](../../policy/add/activity.md) topic for additional information on creating an Activity.
 
 ### Configure a New Policy
 
@@ -229,9 +229,9 @@ Follow the steps to create a Policy.
 
 __Step 1 –__ Navigate to the __Policy__ tab > __Access Policy__.
 
-![Create a new policy for the BYOV Connector](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/add/byovconnectorpolicy.webp)
+![Create a new policy for the BYOV Connector](../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/add/byovconnectorpolicy.webp)
 
-__Step 2 –__ Click the __Plus__ icon and create a new Policy. See the [Add Access Policy](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/accesspolicy.md) topic for additional information.
+__Step 2 –__ Click the __Plus__ icon and create a new Policy. See the [Add Access Policy](../../policy/add/accesspolicy.md) topic for additional information.
 
 - Set the Type as __Resource Based__ and select a Connection Profile, with __Default__ being sufficient for most setups.
 
@@ -239,14 +239,14 @@ __Step 3 –__ Click __Save__ to create the Access Policy.
 
 __Step 4 –__ Once the Access Policy is created, add the following:
 
-- Users to the Policy. See the [Users Tab for Resource Based Access Policies](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/policyresource/users.md) topic for additional information.
-- Activity created for the BYOV Connector. See the [Activities Tab for Resource Based Access Policies](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/policyresource/activities.md) topic for additional information.
-- Associated resources intended for this Activity. See the [Resources Tab for Resource Based Access Policies](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/policyresource/resources.md) topic for additional information.
+- Users to the Policy. See the [Users Tab for Resource Based Access Policies](../../policy/tab/policyresource/users.md) topic for additional information.
+- Activity created for the BYOV Connector. See the [Activities Tab for Resource Based Access Policies](../../policy/tab/policyresource/activities.md) topic for additional information.
+- Associated resources intended for this Activity. See the [Resources Tab for Resource Based Access Policies](../../policy/tab/policyresource/resources.md) topic for additional information.
 
-See the [Add Access Policy](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/accesspolicy.md) topic for additional information on creating an Access Policy.
+See the [Add Access Policy](../../policy/add/accesspolicy.md) topic for additional information on creating an Access Policy.
 
 After completing these steps, you can use the specified manually-managed user on the resources outlined in the policy. This setup is ideal for scenarios where a single account is used across multiple resources but needs to be managed through Privilege Secure for enhanced security and management.
 
-![My Activities BYOV Connector](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/add/byovconnectormyactivities.webp)
+![My Activities BYOV Connector](../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/add/byovconnectormyactivities.webp)
 
 _Remember,_ Always verify configurations and permissions, especially when integrating with systems like AD and using specific user accounts for critical operations.

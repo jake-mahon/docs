@@ -2,7 +2,7 @@
 
 Endpoint Policy Manager logs events to Windows Event log. In the Event Viewer | Application and Services Log | Endpoint Policy Manager look for Endpoint Policy Manager k Java Rules Manager Client events. Specifically, Event 8021 will show the XML used to write the Java Rules, as shown in Figure 34.
 
-![troubleshooting_policypak_5](/img/product_docs/policypak/policypak/troubleshooting/javaenterpriserules/troubleshooting_policypak_5.webp)
+![troubleshooting_policypak_5](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/javaenterpriserules/troubleshooting_policypak_5.webp)
 
 Figure 34. Event 8021 shows the XML used to write the Java Rules.
 

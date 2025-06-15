@@ -1,18 +1,18 @@
 # Compute a Scalar Property
 
-How to define scalar rules to compute and provision the values of scalar properties for target resources based on source resources. See the [Resource Type](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md) topic for additional information.
+How to define scalar rules to compute and provision the values of scalar properties for target resources based on source resources. See the [Resource Type](../../../../integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md) topic for additional information.
 
 ## Overview
 
 Sources are usually identities, and targets are usually accounts from the managed systems.
 
-Here, we are going to compute the values of scalar properties for the target resources used in entitlement management, based on source resources. See the [Create an Entity Type](/docs/usercube/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md) topic for additional information. We are going to provision these properties, i.e. write them to the managed system. See the [Provision](/docs/usercube/usercube/user-guide/administrate/provisioning/index.md)topic for additional information.
+Here, we are going to compute the values of scalar properties for the target resources used in entitlement management, based on source resources. See the [Create an Entity Type](../../connect-system/entity-type-creation/index.md) topic for additional information. We are going to provision these properties, i.e. write them to the managed system. See the [Provision](../../../administrate/provisioning/index.md)topic for additional information.
 
 The right tools for the job are scalar rules.
 
 A scalar property's value can be computed by a scalar rule, based on at least one scalar property from the source entity type, possibly writing a C# expression.
 
-![Schema - Scalar Rule](/img/product_docs/usercube/usercube/user-guide/set-up/provisioning-rule-creation/scalar-property-computation/provrules_schemascalar.webp)
+![Schema - Scalar Rule](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/provisioning-rule-creation/scalar-property-computation/provrules_schemascalar.webp)
 
 A scalar rule could define the scalar property displayName of nominative AD accounts based on its owner's name with the expression:
   
@@ -20,7 +20,7 @@ return person.LastName + " " + person.FirstName;
 
 The application of a scalar rule can depend on the assignment of a single role. See the [
 Create Roles in the Role Catalog
-](/docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/index.md) topic for additional information.
+](../../single-roles-catalog-creation/index.md) topic for additional information.
 
 Sometimes we create in Identity Manager properties which are not directly linked to any real property in the managed system. A scalar rule on this kind of property will not find a property to provision in the managed system, and thus will not produce any result.
   
@@ -67,29 +67,29 @@ For a given managed system, integrators may need the help of the application own
 
 See the [
 Categorize Resources
-](/docs/usercube/usercube/user-guide/set-up/categorization/index.md) topic for additional information.
+](../../categorization/index.md) topic for additional information.
 
 ## Create a Scalar Rule
 
 Fill an entity type with a scalar rule by proceeding as follows:
 
-![Home - Access Rules](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/home_rules_v602.webp)
+![Home - Access Rules](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/home_rules_v602.webp)
 
 __Step 1 –__ Click on __Access Rules__ on the home page in the __Configuration__ section.
 
-![Entity Type Choice](/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/provrules_entitytype_v602.webp)
+![Entity Type Choice](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/provrules_entitytype_v602.webp)
 
 __Step 2 –__ In the dropdown menu at the top left, choose the source entity type for the future scalar rule.
 
-![iconadd_v602](/img/product_docs/usercube/usercube/user-guide/set-up/user-profile-assignment/iconadd_v602.webp)
+![iconadd_v602](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/user-profile-assignment/iconadd_v602.webp)
 
 __Step 3 –__ Click on the __Scalars__ tab and on the addition button at the top right corner.
 
-![Create Scalar Rule](/img/product_docs/usercube/usercube/user-guide/set-up/provisioning-rule-creation/scalar-property-computation/provrules_scalarrule_v522.webp)
+![Create Scalar Rule](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/provisioning-rule-creation/scalar-property-computation/provrules_scalarrule_v522.webp)
 
 __Step 4 –__ Fill in the fields.
 
-![Scalar Rule Fields](/img/product_docs/usercube/usercube/user-guide/set-up/provisioning-rule-creation/scalar-property-computation/provrules_scalarrulefields_v602.webp)
+![Scalar Rule Fields](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/provisioning-rule-creation/scalar-property-computation/provrules_scalarrulefields_v602.webp)
 
 Once the Resource Type is provided, more fields appear.
 
@@ -110,7 +110,7 @@ Once the Resource Type is provided, more fields appear.
 
 Our example would look like:
 
-![Scalar Rule Example](/img/product_docs/usercube/usercube/user-guide/set-up/provisioning-rule-creation/scalar-property-computation/provrules_examplescalar_v522.webp)
+![Scalar Rule Example](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/provisioning-rule-creation/scalar-property-computation/provrules_examplescalar_v522.webp)
 
 __Step 5 –__ Click on __Create__ and see a line added on the rules page.
 
@@ -118,7 +118,7 @@ __Step 5 –__ Click on __Create__ and see a line added on the rules page.
 
 Any modification in a scalar rule is taken into account when launching the role model computation task, in the __Resource Types__ frame of the corresponding connector's overview page, via __Jobs__ > __Compute Role Model__.
 
-![Resource Type Jobs](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/synchro_resourcetype_v602.webp)
+![Resource Type Jobs](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/synchro_resourcetype_v602.webp)
 
 This task applies the rules and computes new properties. Therefore, if a given rule's criterion is modified, then all corresponding assignments are computed again. If a resource was created automatically for an identity through a scalar rule (and its single role criterion), and if the user's criteria do not comply with the new version of the rule, then the corresponding resource is automatically deleted.
 
@@ -126,18 +126,18 @@ A modification in a provisioning rule can trigger the removal of a resource only
 
 Simulations are available in order to anticipate the changes induced by a creation/modification/deletion in scalar rules. See the [
 Perform a Simulation
-](/docs/usercube/usercube/user-guide/optimize/simulation/index.md) topic for additional information.
+](../../../optimize/simulation/index.md) topic for additional information.
 
 ## Verify Rule Creation
 
 In order to verify the process:
 
-![Resource Type Jobs](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/synchro_resourcetype_v602.webp)
+![Resource Type Jobs](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/synchro_resourcetype_v602.webp)
 
 __Step 1 –__ On the corresponding connector's overview page, in the __Resource Types__ frame click on __Jobs__ > __Compute Role Model__ to apply all rules.
 
 __Step 2 –__ Review unreconciled properties on the __Resource Reconciliation__ screen to help check scalar rules: if there are numerous properties to be reconciled following the same pattern, then there may be a rule that needs to be changed. See the [
 Reconcile a Property
-](/docs/usercube/usercube/user-guide/administrate/non-conforming-assignment-review/property-reconciliation/index.md) topic for additional information.
+](../../../administrate/non-conforming-assignment-review/property-reconciliation/index.md) topic for additional information.
 
 Once the steps completed the process is verified.

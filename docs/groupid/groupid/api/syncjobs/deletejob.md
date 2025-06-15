@@ -2,7 +2,7 @@
 
 After creating job, you can modify a job or even delete a job if it is no more required. Use this API to delete job(s) specified in the end point URL.
 
-See the [Deleting a Job](/docs/groupid/groupid/portal/synchronize/manage/job.md#deleting-a-job) section of the [Manage a Job](/docs/groupid/groupid/portal/synchronize/manage/job.md) topic for additional information.
+See the [Deleting a Job](../../portal/synchronize/manage/job.md#deleting-a-job) section of the [Manage a Job](../../portal/synchronize/manage/job.md) topic for additional information.
 
 ## Endpoint
 

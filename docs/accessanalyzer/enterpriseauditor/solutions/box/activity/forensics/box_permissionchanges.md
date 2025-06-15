@@ -8,7 +8,7 @@ Navigate to __Box__ > __1.Activity__ > __Forensics__ > __Box_PermissionChanges__
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the Box_PermissionChanges Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/box/activity/forensics/permissionchangesanalysis.webp)
+![Analysis Tasks for the Box_PermissionChanges Job](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/box/activity/forensics/permissionchangesanalysis.webp)
 
 The following analysis tasks are selected by default:
 

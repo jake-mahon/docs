@@ -2,11 +2,11 @@
 
 It is not possible to remove built-in AppX applications within Windows 10 with Endpoint Policy Manager, and it can be quite difficult to know which applications are built-in, versus which ones were added from the Microsoft Store. For this reason, you can use our Software Package Manager Helper tool to determine which packages on a machine could be removed by Endpoint Policy Manager Software Package Manager (AppX) policies. The tool is found in the Endpoint Policy Manager Extras folder within the download.
 
-![appx_policies_and_settings_11](/img/product_docs/policypak/policypak/softwarepackage/appx/appx_policies_and_settings_11.webp)
+![appx_policies_and_settings_11](../../../../../static/img/product_docs/policypak/policypak/softwarepackage/appx/appx_policies_and_settings_11.webp)
 
 When you run the Helper tool, you can see all available packages for removal and the publisher names.
 
-![appx_policies_and_settings_12](/img/product_docs/policypak/policypak/softwarepackage/appx/appx_policies_and_settings_12.webp)
+![appx_policies_and_settings_12](../../../../../static/img/product_docs/policypak/policypak/softwarepackage/appx/appx_policies_and_settings_12.webp)
 
 __NOTE:__ You can generate this same list via PowerShell by using the following command.:
 
@@ -18,16 +18,16 @@ Inc.,L=Media,S=Pennsylvania,C=US' | Format-Table -Property Name, Publisher -Auto
 
 You can see the list in PowerShell is the same as the list from the Helper tool, as shown below.
 
-![appx_policies_and_settings_13](/img/product_docs/policypak/policypak/softwarepackage/appx/appx_policies_and_settings_13.webp)
+![appx_policies_and_settings_13](../../../../../static/img/product_docs/policypak/policypak/softwarepackage/appx/appx_policies_and_settings_13.webp)
 
 You can right-click on the Publisher ID and copy it to the clipboard. Then, you can paste the value into the publisher field after selecting __Remove Package__.
 
-![appx_policies_and_settings_14](/img/product_docs/policypak/policypak/softwarepackage/appx/appx_policies_and_settings_14.webp)
+![appx_policies_and_settings_14](../../../../../static/img/product_docs/policypak/policypak/softwarepackage/appx/appx_policies_and_settings_14.webp)
 
 The Helper tool also enables you to export one or more applications' details to XML. Once you've done this, you can then use the Import button in the Remove Package Policy Mode.
 
-![appx_policies_and_settings_15](/img/product_docs/policypak/policypak/softwarepackage/appx/appx_policies_and_settings_15.webp)
+![appx_policies_and_settings_15](../../../../../static/img/product_docs/policypak/policypak/softwarepackage/appx/appx_policies_and_settings_15.webp)
 
 Next, select an application from the list to be populated into the policy.
 
-![appx_policies_and_settings_16](/img/product_docs/policypak/policypak/softwarepackage/appx/appx_policies_and_settings_16.webp)
+![appx_policies_and_settings_16](../../../../../static/img/product_docs/policypak/policypak/softwarepackage/appx/appx_policies_and_settings_16.webp)

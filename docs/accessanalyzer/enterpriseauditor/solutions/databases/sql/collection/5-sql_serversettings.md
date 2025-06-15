@@ -6,7 +6,7 @@ The 5-SQL_ServerSettings Job collects SQL server instance and database configura
 
 The 5-SQL_ServerSettings Job uses the SQL Data Collector for the following queries:
 
-![Query Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/collection/sqljobgroup19.webp)
+![Query Selection](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/collection/sqljobgroup19.webp)
 
 - Configuration – Collects configuration properties
   - (Optional) This query can be modified to target specific databases/instances. See the [Configure the Configuration Query](#configure-the-configuration-query) topic for additional information.
@@ -34,9 +34,9 @@ __Step 3 –__ Select the Data Source tab, and click Configure. The SQL Data Col
 
 __CAUTION:__ Do not make changes to other wizard pages as they have been pre-configured for the purpose of this job.
 
-![Instance Filters](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/collection/5sqlserversettingsfilterpage.webp)
+![Instance Filters](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/collection/5sqlserversettingsfilterpage.webp)
 
-__Step 4 –__ To scope the query for specific database/instance, navigate to the [SQL Data Collector](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/sql/overview.md) page. The query is configured by default to target All instances. Change the query scope to Only select instances, and click Retrieve. The Available server audits will be populated. Databases and instances can be added in the following ways:
+__Step 4 –__ To scope the query for specific database/instance, navigate to the [SQL Data Collector](../../../../admin/datacollector/sql/overview.md) page. The query is configured by default to target All instances. Change the query scope to Only select instances, and click Retrieve. The Available server audits will be populated. Databases and instances can be added in the following ways:
 
 - Select the desired instances and click Add.
 - Use the Import CSV button to import a list from a CSV file.
@@ -58,15 +58,15 @@ __Step 3 –__ Select the Data Source tab, and click Configure. The SQL Data Col
 
 __CAUTION:__ Do not make changes to other wizard pages as they have been pre-configured for the purpose of this job.
 
-![Filter Page](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/collection/5sqlserversettingsfilterpage.webp)
+![Filter Page](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/collection/5sqlserversettingsfilterpage.webp)
 
-__Step 4 –__ To scope the query for specific database/instance, navigate to the [SQL Data Collector](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/sql/overview.md) page. The query is configured by default to target All instances. Change the query scope to Only select instances, and click Retrieve. The Available server audits will be populated. Databases and instances can be added in the following ways:
+__Step 4 –__ To scope the query for specific database/instance, navigate to the [SQL Data Collector](../../../../admin/datacollector/sql/overview.md) page. The query is configured by default to target All instances. Change the query scope to Only select instances, and click Retrieve. The Available server audits will be populated. Databases and instances can be added in the following ways:
 
 - Select the desired instances and click Add.
 - Use the Import CSV button to import a list from a CSV file.
 - Optionally use the Add Custom Filter button to create and apply a custom filter.
 
-  Remember, it is necessary for the [0-SQL_InstanceDiscovery Job](/docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/collection/0-sql_instancediscovery.md) to run before attempting to scope this query.
+  Remember, it is necessary for the [0-SQL_InstanceDiscovery Job](0-sql_instancediscovery.md) to run before attempting to scope this query.
 
 __Step 5 –__ On the Summary page, click Finish to save any setting modifications or click Cancel if no changes were made. Then click OK to close the Query Properties window.
 

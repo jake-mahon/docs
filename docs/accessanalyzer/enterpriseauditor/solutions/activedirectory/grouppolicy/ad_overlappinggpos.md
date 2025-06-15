@@ -8,7 +8,7 @@ Navigate to the __Active Directory__ > __4. Group Policy__ > __AD_OverlappingGPO
 
 __CAUTION:__ Do not modify or deselect the selected first analysis task. The first analysis task is preconfigured for this job.
 
-![Analysis Tasks for the AD_OverlappingGPOs Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/grouppolicy/overlappinggposanalysis.webp)
+![Analysis Tasks for the AD_OverlappingGPOs Job](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/grouppolicy/overlappinggposanalysis.webp)
 
 The default analysis tasks are:
 

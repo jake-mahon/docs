@@ -2,7 +2,7 @@
 
 The FS_DLPResults job is designed to report on resources that have been identified to contain sensitive data from targeted file servers. It is comprised of analysis and reports which use the data collected by the __0.Collection__ job group to provide information on where sensitive data is being shared. Best practices often dictate moving files with sensitive data out of open shares.
 
-![7.Sensitive Data > FS_DLPResults Job in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/db2/sensitivedata/sensitivedatajobstree.webp)
+![7.Sensitive Data > FS_DLPResults Job in the Jobs Tree](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/db2/sensitivedata/sensitivedatajobstree.webp)
 
 The FS_DLPResults job is located in the 7.Sensitive Data job group.
 
@@ -12,7 +12,7 @@ View the analysis tasks by navigating to the __FileSystem__ > __7.Sensitive Data
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the FS_DLPResults Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/dlpresultsanalysis.webp)
+![Analysis Tasks for the FS_DLPResults Job](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/dlpresultsanalysis.webp)
 
 The following analysis tasks are selected by default:
 

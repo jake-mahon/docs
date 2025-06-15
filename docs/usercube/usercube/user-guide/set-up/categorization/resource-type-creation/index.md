@@ -4,7 +4,7 @@ How to create the container for future correlation and classification rules insi
 
 ## Overview
 
-A [Resource Type](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md) is created to highlight differences in intent between resources. It materializes the organization's profiles. In a given managed system, different types of resources have different security needs.
+A [Resource Type](../../../../integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md) is created to highlight differences in intent between resources. It materializes the organization's profiles. In a given managed system, different types of resources have different security needs.
 
 > For example, can usually be found:
 >
@@ -23,21 +23,21 @@ In practice, a specific resource type is created for a given resource when there
 - the owner type (for example worker, partner, customer, application, robot, etc.);
 - the required set of classification and/or correlation rules; See the [
   Classify Resources
-  ](/docs/usercube/usercube/user-guide/set-up/categorization/classification/index.md), and [
+  ](../classification/index.md), and [
   Correlate Resources
-  ](/docs/usercube/usercube/user-guide/set-up/categorization/correlation/index.md) topics for additional information.
+  ](../correlation/index.md) topics for additional information.
 - the approval circuit for a resource's modification or assignment, i.e. the number of required approvals, validators, etc.;
-- the type of provisioning (manual or automatic). See the [Provision](/docs/usercube/usercube/user-guide/administrate/provisioning/index.md) topic for additional information.
+- the type of provisioning (manual or automatic). See the [Provision](../../../administrate/provisioning/index.md) topic for additional information.
 
 ### Source vs. target resource
 
-Resource types are the vessel for ownership relationships. They involve the definition of source and target objects chosen from among the properties of existing entity types. The source (usually identities) is the owner of the target (usually resources from your managed systems, such as a nominative AD account). This relationship is the basis for correlation as much as for future provisioning. See the [Create an Entity Type](/docs/usercube/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md), [
+Resource types are the vessel for ownership relationships. They involve the definition of source and target objects chosen from among the properties of existing entity types. The source (usually identities) is the owner of the target (usually resources from your managed systems, such as a nominative AD account). This relationship is the basis for correlation as much as for future provisioning. See the [Create an Entity Type](../../connect-system/entity-type-creation/index.md), [
 Correlate Resources
-](/docs/usercube/usercube/user-guide/set-up/categorization/correlation/index.md), and[Provision](/docs/usercube/usercube/user-guide/administrate/provisioning/index.md) topics for additional information.
+](../correlation/index.md), and[Provision](../../../administrate/provisioning/index.md) topics for additional information.
 
 See the [
 Entitlement Management
-](/docs/usercube/usercube/introduction-guide/overview/entitlement-management/index.md) topic for additional information.
+](../../../../introduction-guide/overview/entitlement-management/index.md) topic for additional information.
 
 ## Participants and Artifacts
 
@@ -49,40 +49,40 @@ For a given managed system, integrators may need the help of the application own
 
 See the [
 Create the Workforce Repository
-](/docs/usercube/usercube/user-guide/set-up/initial-identities-loading/index.md)[
+](../../initial-identities-loading/index.md)[
 Connect to a Managed System
-](/docs/usercube/usercube/user-guide/set-up/connect-system/index.md), and [
+](../../connect-system/index.md), and [
 Synchronize Data
-](/docs/usercube/usercube/user-guide/set-up/synchronization/index.md) topics for additional information.
+](../../synchronization/index.md) topics for additional information.
 
 ## Create a Resource Type
 
-A new resource type requires an existing entity type. See the [Create an Entity Type](/docs/usercube/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md) topic for additional information.
+A new resource type requires an existing entity type. See the [Create an Entity Type](../../connect-system/entity-type-creation/index.md) topic for additional information.
 
 Create a resource type by proceeding as follows:
 
 1. On the relevant connector page, click on the addition button in the __Resource Types__ frame.
 
-   ![Addition Icon](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/iconadd_v602.svg)
+   ![Addition Icon](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/iconadd_v602.svg)
 
    Resource types can also be created through the __Access Roles__ screen (accessible from the home page, in the __Configuration__ section), using the __+ New__ button and selecting ```Resource Type``` in the first field called ```Type```.
 
-   ![Home - Access Roles](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/resource-type-creation/home_roles_v602.webp)
+   ![Home - Access Roles](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/categorization/resource-type-creation/home_roles_v602.webp)
 2. Fill in the fields.
 
-   ![New Resource Type](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/resource-type-creation/resourcetype_newresourcet_v603.webp)
+   ![New Resource Type](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/categorization/resource-type-creation/resourcetype_newresourcet_v603.webp)
 
    - ```Identifier```: must be unique among resource types, without any whitespace, and be C#-compatible. [See Microsoft lexical structure](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/lexical-structure#see-microsoft-lexical-structure).
    - ```Name```: will be displayed in the UI to identify the resource type.
-   - ```Policy```: [policy](/docs/usercube/usercube/user-guide/optimize/policy-creation/index.md) in which the resource type exists.
+   - ```Policy```: [policy](../../../optimize/policy-creation/index.md) in which the resource type exists.
    - ```Source Entity Type```: entity type (from any existing connector) used to fill the target entity type.
    - ```Target Entity Type```: entity type (part of the connector) to be filled with the source entity type.
-   - ```Category```: category assigned to the resource type. It can be chosen from among the existing categories or [created](/docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/index.md) directly from the categories list by clicking on the __+ Category__ button.
+   - ```Category```: category assigned to the resource type. It can be chosen from among the existing categories or [created](../../single-roles-catalog-creation/index.md) directly from the categories list by clicking on the __+ Category__ button.
    - ```Approval Workflow```: represents the number of validations required to assign a resource from this type to an identity.
-   - ```Approve Role Implicitly```: relevant only for workflows with at least a simple approval process. ```Implicit``` mode bypasses the approval step(s) if the person who issues the role request is also the role officer. ```Explicit``` refuses said bypass. ```Inherited``` follows the policy decision to approve role implicitly or not. See the [Create a Policy](/docs/usercube/usercube/user-guide/optimize/policy-creation/index.md) topic for additional information.
-   - ```Prolongation without a new approval workflow```: enables the resource type to have its assignment's end date postponed without any validation. ```Inherited``` follows the policy decision to enable this option or not. See the [Create a Policy](/docs/usercube/usercube/user-guide/optimize/policy-creation/index.md) topic for additional information.
+   - ```Approve Role Implicitly```: relevant only for workflows with at least a simple approval process. ```Implicit``` mode bypasses the approval step(s) if the person who issues the role request is also the role officer. ```Explicit``` refuses said bypass. ```Inherited``` follows the policy decision to approve role implicitly or not. See the [Create a Policy](../../../optimize/policy-creation/index.md) topic for additional information.
+   - ```Prolongation without a new approval workflow```: enables the resource type to have its assignment's end date postponed without any validation. ```Inherited``` follows the policy decision to enable this option or not. See the [Create a Policy](../../../optimize/policy-creation/index.md) topic for additional information.
    - ```Hide in Simplified View```: hides the role from the users' __Simplified View__ in __View Permissions__ dialog. This setting does not apply to roles which are either inferred or have workflow states which require manual action.
-   - ```Arguments Expression```: when using a connection for automatic provisioning, C# expression used to compute a dictionary of strings in order to compute the arguments of [provisioning](/docs/usercube/usercube/user-guide/administrate/provisioning/index.md) orders, such as the identifier of the workflow to launch within Identity Manager, or the identifier of the user's record to copy. See the [Provision](/docs/usercube/usercube/user-guide/administrate/provisioning/index.md) topic for additional information.
+   - ```Arguments Expression```: when using a connection for automatic provisioning, C# expression used to compute a dictionary of strings in order to compute the arguments of [provisioning](../../../administrate/provisioning/index.md) orders, such as the identifier of the workflow to launch within Identity Manager, or the identifier of the user's record to copy. See the [Provision](../../../administrate/provisioning/index.md) topic for additional information.
    - ```Allow Addition```: enables Identity Manager to automatically create new resources in the managed system when their owners are given the right entitlements. Otherwise, resource managers must create resources manually directly in the managed system.
 
      > Consider a role ```SAP``` which assigns an SAP account to a user. Consider also that SAP accounts are configured with ```Allow Addition``` disabled. In this case, if we give the role ```SAP``` to a user, then said user doesn't automatically receive an SAP account. The relevant resource manager must create an account for said user in the SAP application.
@@ -96,7 +96,7 @@ Create a resource type by proceeding as follows:
    - ```Remove If Orphaned```: enables Identity Manager to automatically deprovision resources when their owner is deleted. Otherwise, said resources are displayed on the __Resource Reconciliation__ screen. Can be activated only if ```Allow Removal``` is activated too.
    - ```Require Provisioning Review```: forces an additional mandatory review of all provisioning orders for the resource type (on the [
      Review Provisioning
-     ](/docs/usercube/usercube/user-guide/administrate/provisioning/provisioning-review/index.md) screen).
+     ](../../../administrate/provisioning/provisioning-review/index.md) screen).
 
      > Consider AD accounts. While nominative accounts can be provisioned without specific precautions (option set to ```No```), administrator accounts sometimes require an additional review (option set to ```Yes```).
 
@@ -125,6 +125,6 @@ Create a resource type by proceeding as follows:
 
 In order to verify the process, check that the resource type has been added with the right options to the list on the __Access Roles__ page, accessible from the home page in the __Administration__ section.
 
-![Home - Access Roles](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/resource-type-creation/home_roles_v602.webp)
+![Home - Access Roles](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/categorization/resource-type-creation/home_roles_v602.webp)
 
-![Test Connector](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/resource-type-creation/resourcetype_test_v602.webp)
+![Test Connector](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/categorization/resource-type-creation/resourcetype_test_v602.webp)

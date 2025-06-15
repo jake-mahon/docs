@@ -12,28 +12,28 @@ __Step 1 –__ Unzip the downloaded package.
 
 __Step 2 –__ Open VirtualBox.
 
-![Opening Oracle VM Virtual Box Manager](/img/product_docs/endpointprotector/endpointprotector/install/openoraclevm.png)
+![Opening Oracle VM Virtual Box Manager](../../../../static/img/product_docs/endpointprotector/endpointprotector/install/openoraclevm.png)
 
 __Step 3 –__ Go to File and select __Import Appliance__.
 
-![Importing Appliances](/img/product_docs/endpointprotector/endpointprotector/install/importappliance.png)
+![Importing Appliances](../../../../static/img/product_docs/endpointprotector/endpointprotector/install/importappliance.png)
 
 __Step 4 –__ On the Appliance to import page, click the __File icon__, browse and select the OVF ﬁle from the extracted zip.
 
-![ Selecting the OVF ﬁle from the extracted zip](/img/product_docs/endpointprotector/endpointprotector/install/selectsource.png)
+![ Selecting the OVF ﬁle from the extracted zip](../../../../static/img/product_docs/endpointprotector/endpointprotector/install/selectsource.png)
 
 __Step 5 –__ Click __Open__.
 
-![Selecting the Virtual Appliance to Import](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostdiscovery/wizard/fileimport.png)
+![Selecting the Virtual Appliance to Import](../../../../static/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostdiscovery/wizard/fileimport.png)
 
 __Step 6 –__ Click __Import__.
 
-![Importing the Virtual Appliance](/img/product_docs/endpointprotector/endpointprotector/install/appliancesettings.png)
+![Importing the Virtual Appliance](../../../../static/img/product_docs/endpointprotector/endpointprotector/install/appliancesettings.png)
 
 __Step 7 –__ Wait for the import displayed by the progress bar.
 
-![ Import displayed by the progress bar](/img/product_docs/endpointprotector/endpointprotector/install/importprogress.png)
+![ Import displayed by the progress bar](../../../../static/img/product_docs/endpointprotector/endpointprotector/install/importprogress.png)
 
 The virtual machine is now ready for use.
 
-![ Oracle virtual machine ready for use](/img/product_docs/endpointprotector/endpointprotector/install/machineready.png)
+![ Oracle virtual machine ready for use](../../../../static/img/product_docs/endpointprotector/endpointprotector/install/machineready.png)

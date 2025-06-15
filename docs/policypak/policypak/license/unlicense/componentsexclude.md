@@ -1,6 +1,6 @@
 # How do I specifically exclude or prevent a component from performing processing by modifying the license file?
 
-Before you decide you wish to use this method, consider first using the ADMX method to disable specific components. The ADMX method is recommended over hand-editing the license file, and has the same effect. Therefore please consider this method first. See [What if I want to unlicense specific components via ADMX or Endpoint Policy Manager Cloud?](/docs/policypak/policypak/license/unlicense/componentscloud.md)
+Before you decide you wish to use this method, consider first using the ADMX method to disable specific components. The ADMX method is recommended over hand-editing the license file, and has the same effect. Therefore please consider this method first. See [What if I want to unlicense specific components via ADMX or Endpoint Policy Manager Cloud?](componentscloud.md)
 
 However, if you wish to hard-unlicense a component via the license file, you may do that inside your Universal License file.
 
@@ -8,11 +8,11 @@ A Universal License file will express all the components you are licensed for. T
 
 Type 1: Licenses which express specific components you are licensed for. For example:
 
-![748_1_image-20230820022159-1_950x514](/img/product_docs/policypak/policypak/license/unlicense/748_1_image-20230820022159-1_950x514.webp)
+![748_1_image-20230820022159-1_950x514](../../../../../static/img/product_docs/policypak/policypak/license/unlicense/748_1_image-20230820022159-1_950x514.webp)
 
 Type 2: Licenses type which express that you are licensed for Enterprise Full and therefore licensed for all components.
 
-![748_2_image-20230820022159-2_950x364](/img/product_docs/policypak/policypak/license/unlicense/748_2_image-20230820022159-2_950x364.webp)
+![748_2_image-20230820022159-2_950x364](../../../../../static/img/product_docs/policypak/policypak/license/unlicense/748_2_image-20230820022159-2_950x364.webp)
 
 ## How to modify Type 1 Licenses:
 
@@ -52,7 +52,7 @@ For example:
 
 __CAUTION:__  This procedure will only work when the endpoint is running a CSE build later than 23.8. This is not expected to work on CSE 23.6 (which will accept Enterprise Full licenses, but will not accept the ```<disabled>``` block. Additionally, only MMC snap-ins 23.8 and later will accept Enterprise Full licenses with the ```<disabled>``` block.
 
-First, identify which component(s) you wish to unlicense. [What CSEs are contained within Endpoint Policy Manager, what are their CSE GUIDs, and in what release did they appear?](/docs/policypak/policypak/install/clientsideextension/guids.md)
+First, identify which component(s) you wish to unlicense. [What CSEs are contained within Endpoint Policy Manager, what are their CSE GUIDs, and in what release did they appear?](../../install/clientsideextension/guids.md)
 
 For instance, if you wanted to unlicense Netwrix Endpoint Policy Manager (formerly PolicyPak) Browser Router and also Endpoint Policy Manager Preferences 2.0 you would create an XML block like this
 
@@ -99,11 +99,11 @@ The license is now ready to deploy via any method, like Group Policy or MSI wrap
 
 Note that the 23.8 and later MMC is preferred for any modified licenses that you've created. The MMC console will express which components you have placed in the ```<disabled>``` blocks.
 
-![748_3_image-20230820022159-3_950x561](/img/product_docs/policypak/policypak/license/unlicense/748_3_image-20230820022159-3_950x561.webp)
+![748_3_image-20230820022159-3_950x561](../../../../../static/img/product_docs/policypak/policypak/license/unlicense/748_3_image-20230820022159-3_950x561.webp)
 
 The Group Policy Settings Report will also express this as well.
 
-![748_4_image-20230820022159-4_950x560](/img/product_docs/policypak/policypak/license/unlicense/748_4_image-20230820022159-4_950x560.webp)
+![748_4_image-20230820022159-4_950x560](../../../../../static/img/product_docs/policypak/policypak/license/unlicense/748_4_image-20230820022159-4_950x560.webp)
 
 ## Result of unlicensing specific component(s):
 
@@ -111,4 +111,4 @@ After the computer picks up the new license (via GPO, MDM, etc.) you can verify 
 
 The result of modified components via blocked license can be seen in this example.
 
-![748_5_image-20230820022159-5_950x814](/img/product_docs/policypak/policypak/license/unlicense/748_5_image-20230820022159-5_950x814.webp)
+![748_5_image-20230820022159-5_950x814](../../../../../static/img/product_docs/policypak/policypak/license/unlicense/748_5_image-20230820022159-5_950x814.webp)

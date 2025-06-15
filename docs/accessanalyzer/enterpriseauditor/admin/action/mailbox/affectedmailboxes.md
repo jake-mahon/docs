@@ -7,7 +7,7 @@ Use the Affected Mailboxes page to select the mailboxes to target for the action
 - Add Delegates, Remove Delegates
 - Remove Stale SIDs
 
-![New Mailbox Action Wizard Affected Mailboxes page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/mailbox/affectedmailboxes.webp)
+![New Mailbox Action Wizard Affected Mailboxes page](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/mailbox/affectedmailboxes.webp)
 
 Select mailboxes to process using the following options:
 

@@ -15,7 +15,7 @@ The Collect Mode page is where to set the collection mode. It is a wizard page f
 - User’s Message Activity
 - User’s Message Activity Per Hour
 
-![Exchange Metrics Data Collector Wizard Collect Mode page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/exchangemetrics/collectmode.webp)
+![Exchange Metrics Data Collector Wizard Collect Mode page](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/exchangemetrics/collectmode.webp)
 
 There are two types of collection modes:
 

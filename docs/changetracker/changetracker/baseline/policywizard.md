@@ -6,7 +6,7 @@ Start a new Baseline Policy Wizard and provide a name for your new Policy.
 
 Data Collection:
 
-![baselinedatacollection](/img/product_docs/changetracker/changetracker/baseline/baselinedatacollection.webp)
+![baselinedatacollection](../../../../static/img/product_docs/changetracker/changetracker/baseline/baselinedatacollection.webp)
 
 Define the Data Collection template to be used for gathering baseline configuration data. This can be a new template, or an existing template can be re-used. The following configuration elements to be used in Baseline policy, File System Integrity, Installed Software and Updates, Running Processes and Service states, Local User Accounts, Command Output (also allows Firewall and Router configs to be baselined) and Open Network Ports (using a local netstat or equivalent on the Host or using an NMAP Network Scan)
 
@@ -16,11 +16,11 @@ A single device is selected to act as the Source for Baseline Policy data. This 
 
 __NOTE:__ The selected Source device must be enabled as a "Baseline Source". You can do this via the Settings > Agent and Device screen, select the required Device click __Edit__. There are technical reasons why this is disabled by default; in the interests of storage and performance efficiency, it is not desirable to have every Device sending Baseline Events to the Hub unless needed.
 
-![baselinesource](/img/product_docs/changetracker/changetracker/baseline/baselinesource.webp)
+![baselinesource](../../../../static/img/product_docs/changetracker/changetracker/baseline/baselinesource.webp)
 
 Another important decision is whether you want to include changes from Member Devices when you come to make future changes to your Baseline Policy. By default, the Source device is the single source of configuration items, both for the initial creation of the policy and going forwards, for any changes needed to the Baseline, for example, after patching when versions of software items may need to be updated. In certain situations, it may be convenient to also include changes to Member Group devices too, in which case you can check this box.
 
-![baselinespecifymembers](/img/product_docs/changetracker/changetracker/baseline/baselinespecifymembers.webp)
+![baselinespecifymembers](../../../../static/img/product_docs/changetracker/changetracker/baseline/baselinespecifymembers.webp)
 
 Specify Member:
 
@@ -34,7 +34,7 @@ Awaiting Data:
 
 Gathering the Baseline configuration data will take anything from 90 seconds to several minutes, depending on the nature or resources of the Source Device and the scope of the Data Collection template defined. Be patient, but you can check progress using the __Check Now__ button.
 
-![baselinechecknow](/img/product_docs/changetracker/changetracker/baseline/baselinechecknow.webp)
+![baselinechecknow](../../../../static/img/product_docs/changetracker/changetracker/baseline/baselinechecknow.webp)
 
 Add Rules:
 

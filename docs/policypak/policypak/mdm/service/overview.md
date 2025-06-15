@@ -2,9 +2,9 @@
 
 You can use Endpoint Policy Manager with any MDM service you already have, like Intune, VMware Workspace ONE (formerly Airwatch), MobileIron, etc. Below we see a systems hierarchical breakdown when using Endpoint Policy Manager with any MDM system.
 
-![using_policypak_with_mdm_and_1](/img/product_docs/policypak/policypak/mdm/service/using_policypak_with_mdm_and_1.webp)
+![using_policypak_with_mdm_and_1](../../../../../static/img/product_docs/policypak/policypak/mdm/service/using_policypak_with_mdm_and_1.webp)
 
-__NOTE:__  [Deploying Real Group Policy (and Extra Endpoint Policy Manager Settings) Overview](/docs/policypak/policypak/video/mdm/realgrouppolicy.md)a video overview of Endpoint Policy Manager and MDM.
+__NOTE:__  [Deploying Real Group Policy (and Extra Endpoint Policy Manager Settings) Overview](../../video/mdm/realgrouppolicy.md)a video overview of Endpoint Policy Manager and MDM.
 
 The ultimate goal is to upload the following Endpoint Policy Manager items to your MDM service and then have them downloaded:
 
@@ -26,13 +26,13 @@ __Step 4 –__ Install Endpoint Policy Manager example policies MSI by hand.
 
 This will ensure all the correct parts are working in concert before you attempt to use an MDM service to deliver these components.
 
-__NOTE:__  See [Endpoint Policy Manager and MDM walk before you run](/docs/policypak/policypak/video/mdm/testsample.md) a video of this process.
+__NOTE:__  See [Endpoint Policy Manager and MDM walk before you run](../../video/mdm/testsample.md) a video of this process.
 
 Once you've completed these procedures, you're ready to actually perform the steps needed to get the files deployed using your MDM service. The ultimate result and goal will be that the Endpoint Policy Manager MSI client, the Endpoint Policy Manager MDM license MSI, and the Endpoint Policy Manager examples (or your own wrapped up examples) are downloaded from your MDM service and installed on the system.
 
 Optionally, you can view or hide these components by using the Add/Remove Programs applet in the Control Panel. An example of a final deployment would look something like this:
 
-![using_policypak_with_mdm_and_2](/img/product_docs/policypak/policypak/mdm/service/using_policypak_with_mdm_and_2.webp)
+![using_policypak_with_mdm_and_2](../../../../../static/img/product_docs/policypak/policypak/mdm/service/using_policypak_with_mdm_and_2.webp)
 
 The typical command you want your MDM service to run for each component would be something like this:
 

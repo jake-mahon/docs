@@ -8,7 +8,7 @@ Navigate to the __Jobs__ > __Active Directory__ > __6.Activity__ > __Group Usage
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the AD_AccessChanges Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/activity/groupusage/accesschangesanalysis.webp)
+![Analysis Tasks for the AD_AccessChanges Job](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/activity/groupusage/accesschangesanalysis.webp)
 
 The following non-configurable analysis tasks are selected by default:
 

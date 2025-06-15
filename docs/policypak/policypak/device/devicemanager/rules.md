@@ -2,7 +2,7 @@
 
 Admin Approval enables you to anticipate devices without rules and enable users to use your service desk to help authorize sanctioned devices - temporarily or permanently.
 
-See the [Device Manager Admin Approval and Automatic Rules Creation](/docs/policypak/policypak/video/device/dmapprovalautorules.md) topic for additional information on Admin Approval & Branding and Customization.
+See the [Device Manager Admin Approval and Automatic Rules Creation](../../video/device/dmapprovalautorules.md) topic for additional information on Admin Approval & Branding and Customization.
 
 This document refers to the person doing the approval as an Approver. This can be someone on your help desk, security team or yourself.
 
@@ -16,7 +16,7 @@ Start out by creating an Admin Approval policy, as shown below.
 
 __NOTE:__ You can only have one Admin Approval entry per collection and only one will ultimately apply.
 
-![aa15](/img/product_docs/policypak/policypak/device/devicemanager/aa15.webp)
+![aa15](../../../../../static/img/product_docs/policypak/policypak/device/devicemanager/aa15.webp)
 
 Admin Approval has four tabs:
 
@@ -41,7 +41,7 @@ Admin Approval has four tabs:
 
   - Custom Message — Optional message to customers about what to do, who to call, what is permitted etc, to override the default Endpoint Policy Manager Device Manager behavior.
 
-![aa14](/img/product_docs/policypak/policypak/device/devicemanager/aa14.webp)
+![aa14](../../../../../static/img/product_docs/policypak/policypak/device/devicemanager/aa14.webp)
 
 ## Brand Dialog Using Global Settings (Optional)
 
@@ -49,7 +49,7 @@ You can brand your dialogs to your corporate standards. This is done in the Glob
 
 Below you can see some example of what you may configure. You can even run a pre-test to see what the user will see before implementation.
 
-![aa4](/img/product_docs/policypak/policypak/device/devicemanager/aa4.webp)
+![aa4](../../../../../static/img/product_docs/policypak/policypak/device/devicemanager/aa4.webp)
 
 ## Test Admin Approval
 
@@ -57,17 +57,17 @@ When unknown devices are encountered, the following dialog will appear. Users ca
 
 Requests are then fielded by the Device Manager Admin Approval tool.
 
-![aa3](/img/product_docs/policypak/policypak/device/devicemanager/aa3.webp)
+![aa3](../../../../../static/img/product_docs/policypak/policypak/device/devicemanager/aa3.webp)
 
 ## Device Manager Admin Approval Tool
 
 The Device Manager Admin Approval Tool is then used to field requests. This application is pre-installed whenever the Endpoint Policy Manager Admin Console MSI is installed. Its also available as a standalone portable application and found in the Endpoint Policy Manager Extras folder in the download.
 
-![aa5](/img/product_docs/policypak/policypak/device/devicemanager/aa5.webp)
+![aa5](../../../../../static/img/product_docs/policypak/policypak/device/devicemanager/aa5.webp)
 
 The first time set up for an Approver requires that the Secret Key found in the policy is placed into the tool. The Approver also has his own password to sign into the app to open it up.
 
-![aa6](/img/product_docs/policypak/policypak/device/devicemanager/aa6.webp)
+![aa6](../../../../../static/img/product_docs/policypak/policypak/device/devicemanager/aa6.webp)
 
 ## Admin Approval Tool in Simple Mode
 
@@ -80,34 +80,34 @@ An Approver can set:
 - Uses — Once, 5 times, 10 times, Unlimited
 - Expires — Amount of time the Response code is valid for Never (Default), 10 minutes, 1 hour, 12 hours
 
-![aa7](/img/product_docs/policypak/policypak/device/devicemanager/aa7.webp)
+![aa7](../../../../../static/img/product_docs/policypak/policypak/device/devicemanager/aa7.webp)
 
 The Response code will change based upon the Approver inputs.
 
 __NOTE:__ Anytime TimeFrame is set to __Permanent__, it overrides all Uses limits and generates a warning. For example: Uses set to __Once__ and TimeFrame set to __Permanent__.
 
-![aa8](/img/product_docs/policypak/policypak/device/devicemanager/aa8.webp)
+![aa8](../../../../../static/img/product_docs/policypak/policypak/device/devicemanager/aa8.webp)
 
 In this combination, Timeframe overrides Uses, meaning that whatever access you give the device is actually Permanent and not Once.
 
 To get out of this problem if you get into it, you have two choices:
 
 - Update the policy by disabling the Global Policy or turning off Device Manager.
-- Or on a single machine you may erase the value for the device you granted Permanent access to. See the [What are the registry settings for Device Manager (and how do I reset Device Manager Admin Approval)?](/docs/policypak/policypak/device/registry.md) topic for additional information.
+- Or on a single machine you may erase the value for the device you granted Permanent access to. See the [What are the registry settings for Device Manager (and how do I reset Device Manager Admin Approval)?](../registry.md) topic for additional information.
 
 ## Admin Approval Using Email Method
 
-You can use Admin Approval requests to go through your service desk as email requests. See the [Endpoint Policy Device Manager and End-User Emails to Support](/docs/policypak/policypak/video/device/enduser.md) topic for additional information.
+You can use Admin Approval requests to go through your service desk as email requests. See the [Endpoint Policy Device Manager and End-User Emails to Support](../../video/device/enduser.md) topic for additional information.
 
 The email method will attempt to use your registered mail application. Your email app must be registered with the .EML extension for this to work as expected.
 
-## ![aa9](/img/product_docs/policypak/policypak/device/devicemanager/aa9.webp)
+## ![aa9](../../../../../static/img/product_docs/policypak/policypak/device/devicemanager/aa9.webp)
 
 The Approver would then field this request, generate a Response code and send it back via email or copy paste.
 
 The Email method has details about what the device actually is, versus the Simple method which cannot provide those details.
 
-![aa10](/img/product_docs/policypak/policypak/device/devicemanager/aa10.webp)
+![aa10](../../../../../static/img/product_docs/policypak/policypak/device/devicemanager/aa10.webp)
 
 ## Admin Approval Create Rule Button
 
@@ -115,13 +115,13 @@ The Create Rule button allows you to launch a Wizard which will help generate a 
 
 Because the Device Details are now known via the Email method, you can create a permanent rule similar to the Wizard we saw earlier.
 
-![aa11](/img/product_docs/policypak/policypak/device/devicemanager/aa11.webp)
+![aa11](../../../../../static/img/product_docs/policypak/policypak/device/devicemanager/aa11.webp)
 
 In the Wizard you can use the default settings or change the Members and Permissions.
 
 Finally, save your XML and import it into the MMC editor as a policy or use with Endpoint Policy Manager Exporter or Endpoint Policy Manager Cloud.
 
-![aa12](/img/product_docs/policypak/policypak/device/devicemanager/aa12.webp)
+![aa12](../../../../../static/img/product_docs/policypak/policypak/device/devicemanager/aa12.webp)
 
 ## Making a rule directly from an Email Request Code
 
@@ -131,12 +131,12 @@ Copy the code and then select __New Policy from Audit Event or Admin Approval Co
 
 Paste in the Request code and follow the Wizard to generate the rule which you need.
 
-![aa13](/img/product_docs/policypak/policypak/device/devicemanager/aa13.webp)
+![aa13](../../../../../static/img/product_docs/policypak/policypak/device/devicemanager/aa13.webp)
 
 ## Make a Rule Directly from an Event on the Endpoint
 
 You can take Event IDs generated from Endpoint Policy Manager Device Manager, such as this and use it as the basis to start a rule.
 
-![event1](/img/product_docs/policypak/policypak/device/devicemanager/event1.webp)
+![event1](../../../../../static/img/product_docs/policypak/policypak/device/devicemanager/event1.webp)
 
-# ![event2](/img/product_docs/policypak/policypak/device/devicemanager/event2.webp)
+# ![event2](../../../../../static/img/product_docs/policypak/policypak/device/devicemanager/event2.webp)

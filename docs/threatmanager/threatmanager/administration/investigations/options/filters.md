@@ -2,11 +2,11 @@
 
 The Filters section provides options to build a filter statement by selecting the Attribute, Operator, and Filter value. A time period for the report data is also configured here. If multiple data sources have been configured, there is also a Source drop-down menu. Filter statements can be simple with one value statement or complex with multiple value statements.
 
-![Filters section of an investigation](/img/product_docs/threatmanager/threatmanager/administration/investigations/options/filterstm.webp)
+![Filters section of an investigation](../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/investigations/options/filterstm.webp)
 
 The section has the following options for configuring a filter statement:
 
-- Source – This menu provides a list of all integrations with the application. If there is only one data source configured, the Source menudisplays that only. See the [Netwrix Integrations Page](/docs/threatmanager/threatmanager/administration/configuration/integrations/netwrixintegrations.md) topic for additional information.
+- Source – This menu provides a list of all integrations with the application. If there is only one data source configured, the Source menudisplays that only. See the [Netwrix Integrations Page](../../configuration/integrations/netwrixintegrations.md) topic for additional information.
 - Timeframe – This menu provides several timeframe options as well as a clock and a calendar for setting a custom range. You must set the timeframe for the data to be returned in the report. If your report is blank, it is likely due to the timeframe setting. See the Timeframe topic for additional information.
 - Attribute – This menu provides a list of attributes that are available on events in the data source. See the Filter Attribute Menu topic for additional information.
 - Operator – This menu controls how the rule is evaluated by specifying the comparison between the Attribute and the Filter value. Options vary based on the selected attribute. See the Filter Operator Menu topic for additional information.
@@ -20,7 +20,7 @@ See the Build a Filter Statement topic for additional information.
 
 You must set a timeframe for an investigation query. When you run a query, the application scans the available data for activity events that match the set filters for the specified timeframe. By default, the timeframe is set for the "Last Hour" of activity.
 
-![Investigations Interface showing the Timeframe drop-down menu](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/options/timeframe.webp)
+![Investigations Interface showing the Timeframe drop-down menu](../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/options/timeframe.webp)
 
 Click the displayed timeframeto open a window, which provides several timeframe options as well as a clock and a calendar for setting a custom range:
 
@@ -62,7 +62,7 @@ The Timeframe window closes and the custom range is visible in the Filters secti
 
 The Attribute menu in the Filters section has the following options grouped by the type of attribute:
 
-![attrributemenu](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/options/attrributemenu.webp)
+![attrributemenu](../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/options/attrributemenu.webp)
 
 - Event ( group header in the menu):
 
@@ -116,13 +116,13 @@ The Attribute menu in the Filters section has the following options grouped by t
   - File Tag – A label or classification applied to the file for organizational or security purposes
 - Integrations (category group header in the menu):
 
-  - Policy – The set of rules or configurations applied within the integration., which may require Netwrix Threat Preventiondatabase access to be configured on the NetwrixIntegrations page. See the [Netwrix Integrations Page](/docs/threatmanager/threatmanager/administration/configuration/integrations/netwrixintegrations.md) page for additional information
+  - Policy – The set of rules or configurations applied within the integration., which may require Netwrix Threat Preventiondatabase access to be configured on the NetwrixIntegrations page. See the [Netwrix Integrations Page](../../configuration/integrations/netwrixintegrations.md) page for additional information
 
 ## Filter Operator Menu
 
 The options available for the Operator menu in the Filters section change to match the selected Attribute. The following is a list of all possible operator options:
 
-![Operator Menu in the investigations Filters section](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/options/operatormenu.webp)
+![Operator Menu in the investigations Filters section](../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/options/operatormenu.webp)
 
 - Equals
 - Not Equal To
@@ -137,7 +137,7 @@ You can create a filter for a new investigation or modify a filter for a saved i
 
 __Step 1 –__ Navigate to the desired investigation's Filters section.
 
-![filtersimple](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/options/filtersimple.webp)
+![filtersimple](../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/options/filtersimple.webp)
 
 __Step 2 –__ If multiple data sources are configure, select a source from the __Source__ drop-down menu.
 
@@ -170,4 +170,4 @@ __NOTE:__ Click the X at the end of a row to remove it from the statement.
 
 Once the filter is set, you can generate the report ad hoc by clicking __Run Query__. The allows you to test if your filter statement is working as desired. Save the investigation for reuse. You can also add subscriptions or export the report data using the options above the Filters section.
 
-See the [Investigation Reports](/docs/threatmanager/threatmanager/administration/investigations/reports.md) topic for additional information.
+See the [Investigation Reports](../reports.md) topic for additional information.

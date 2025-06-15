@@ -8,7 +8,7 @@ Navigate to the __Oracle__ > __3.Permissions__ > __Oracle_PublicPermissions__ > 
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/oracle/permissions/jobgroup36.webp)
+![Analysis Selection](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/oracle/permissions/jobgroup36.webp)
 
 The default analysis tasks are:
 

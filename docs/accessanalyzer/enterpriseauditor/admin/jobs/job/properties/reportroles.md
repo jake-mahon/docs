@@ -1,8 +1,8 @@
 # Report Roles Tab
 
-The Report Roles tab is part of the Role Bases Access feature of Access Analyzer. If Role Based Access has been enabled, the table displays all accounts that can view reports within the Web Console. If Role Based Access has not been enabled, all accounts have access to all reports, and the table is blank. See the [Role Based Access](/docs/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/overview.md) topic for additional information.
+The Report Roles tab is part of the Role Bases Access feature of Access Analyzer. If Role Based Access has been enabled, the table displays all accounts that can view reports within the Web Console. If Role Based Access has not been enabled, all accounts have access to all reports, and the table is blank. See the [Role Based Access](../../../settings/access/rolebased/overview.md) topic for additional information.
 
-![Report Roles tab of Job Properties](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/job/properties/reportroles.webp)
+![Report Roles tab of Job Properties](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/job/properties/reportroles.webp)
 
 On the Report Roles tab, report role inheritance cannot be broken. Access to reports is inherited from the global level to job groups to jobs to report configuration. All user roles configured at the global level (__Settings__ > __Roles__) are inherited down to all reports. Only the Global Options Administrator, the Access Administrator, and the Host Management Administrator do not have access to reports.
 

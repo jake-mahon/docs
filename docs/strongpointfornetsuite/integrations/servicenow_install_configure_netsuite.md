@@ -7,7 +7,7 @@
 3. Click on bundle name __ServiceNow Integration__
 4. When the __Bundle Details__ opens, click __Install__.
 
-   ![servicenowinstall2](/img/product_docs/strongpointfornetsuite/integrations/servicenowinstall2.webp)
+   ![servicenowinstall2](../../../static/img/product_docs/strongpointfornetsuite/integrations/servicenowinstall2.webp)
 5. When __Preview Bundle__ opens, review the bundle and click __Install__ to finish.
 6. Open __Strongpoint__ > __Strongpoint Support__ > __Installation Settings__ > __View__
 7. Open the __ServiceNow Integration__ tab.
@@ -23,20 +23,20 @@
 2. Click __New__.
 3. Select __Basic Auth Credentials__.
 
-   ![Create a Credentials Record](/img/product_docs/strongpointfornetsuite/integrations/servicenow_credentials_record.webp)
+   ![Create a Credentials Record](../../../static/img/product_docs/strongpointfornetsuite/integrations/servicenow_credentials_record.webp)
 4. Enter the user credentials:  
    __User Name__: __sp-integrations__  
    __Password__: Contact your Customer Success Manager to receive the password.  
    Click __Submit__ when complete.
 5. Open __System Applications__ > __Studio__ or enter __Studio__ in the Menu Search box.
 
-   ![servicenowinstall4](/img/product_docs/strongpointfornetsuite/integrations/servicenowinstall4.webp)
+   ![servicenowinstall4](../../../static/img/product_docs/strongpointfornetsuite/integrations/servicenowinstall4.webp)
 6. If a pop-up window appears, click __Import From Source Control__.
 
-   ![servicenowinstall5](/img/product_docs/strongpointfornetsuite/integrations/servicenowinstall5.webp)
+   ![servicenowinstall5](../../../static/img/product_docs/strongpointfornetsuite/integrations/servicenowinstall5.webp)
      
     Otherwise, open __File__ > __Import From Source Control__.  
-   ![servicenowinstall6](/img/product_docs/strongpointfornetsuite/integrations/servicenowinstall6.webp)
+   ![servicenowinstall6](../../../static/img/product_docs/strongpointfornetsuite/integrations/servicenowinstall6.webp)
 7. Enter the required information:
      
    __URL__: _[https://github.com/StrongpointGit/strongpoint-ns-ssn.git](https://github.com/StrongpointGit/strongpoint-ns-ssn.git)_  
@@ -45,10 +45,10 @@
      
    __Branch__: master
 
-   ![servicenowinstall7](/img/product_docs/strongpointfornetsuite/integrations/servicenowinstall7.webp)
+   ![servicenowinstall7](../../../static/img/product_docs/strongpointfornetsuite/integrations/servicenowinstall7.webp)
 8. Click __Import__. You see the __Strongpoint NetSuite Integration__.
 
-   ![Select Strongpoint NetSuite Integration](/img/product_docs/strongpointfornetsuite/integrations/servicenowinstall7-2.webp)
+   ![Select Strongpoint NetSuite Integration](../../../static/img/product_docs/strongpointfornetsuite/integrations/servicenowinstall7-2.webp)
 9. Click __Strongpoint NetSuite Integration__ to open the Application Explorer. You use this for the __Configure ServiceNow__ procedure.
 10. In NetSuite, open __Strongpoint__ > __Strongpoint Support__ > __Installation Settings__
 11. Click __Edit__.
@@ -73,13 +73,13 @@ You need to know the IDs of the configuration items to set conditions. Ask your 
 
 1. In the ServiceNow Application Explorer for the NetSuite Integration, open __Server Development__ > __UI Action__ > __Select Account__
 
-   ![servicenowinstall8](/img/product_docs/strongpointfornetsuite/integrations/servicenowinstall8.webp)
+   ![servicenowinstall8](../../../static/img/product_docs/strongpointfornetsuite/integrations/servicenowinstall8.webp)
      
    To open the Application Explorer, open __System Applications__ > __Studio__ and select __Strongpoint NetSuite Integration__
 2. Set the __Condition__ field to restrict display based on specific configuration items. If your company uses a different solution to identify changes for the NetSuite platform, contact your ServiceNow administrator to help determine the conditions to be set. In this example, we set the condition to be:   
    __current.cmdb_ci == 'configuration_item_sys_id'__
 
-   ![servicenowinstall9](/img/product_docs/strongpointfornetsuite/integrations/servicenowinstall9.webp)
+   ![servicenowinstall9](../../../static/img/product_docs/strongpointfornetsuite/integrations/servicenowinstall9.webp)
 3. Click __Update__.
 4. Repeat these steps to complete the setup on the other UI Actions: __ERD__, __Push Deployment Record__, __Select Customizations__ and __View Impact Analysis__.
 
@@ -95,7 +95,7 @@ You can set any other stage (standard or custom) depending on your approval proc
 3. Open __Server Development__ > __UI Action__ > __Push Deployment Record__
 4. Set __Condition__ to __current.state > -3__
 
-   ![servicenowinstall10](/img/product_docs/strongpointfornetsuite/integrations/servicenowinstall10.webp)
+   ![servicenowinstall10](../../../static/img/product_docs/strongpointfornetsuite/integrations/servicenowinstall10.webp)
      
     If you set action button conditions in the Display Action Buttons Only for Specific Conditions procedure, add this condition to the existing ones. For example,  
    __current.cmdb_ci == 'configuration_item_sys_id' && current.state > -3__
@@ -105,7 +105,7 @@ You can set any other stage (standard or custom) depending on your approval proc
 
 By default, all user can see the Strongpoint NetSuite tab in ServiceNow Change Requests. You can modify this to only allow configured users to see the tab.
 
-![Strongpoint NetSuite tab](/img/product_docs/strongpointfornetsuite/integrations/servicenow_tab.webp)
+![Strongpoint NetSuite tab](../../../static/img/product_docs/strongpointfornetsuite/integrations/servicenow_tab.webp)
 
 1. Log in to ServiceNow as an administrator to manage your instance.
 2. Obtain the system identifiers for each user you want to have access to the Strongpoint NetSuite tab:
@@ -113,17 +113,17 @@ By default, all user can see the Strongpoint NetSuite tab in ServiceNow Change R
    1. Filter for __configuration__
    2. Open __Base Items__ > __Computers__
 
-      ![Open the ServiceNow Configuration items](/img/product_docs/strongpointfornetsuite/integrations/servicenow_tab1.webp)
+      ![Open the ServiceNow Configuration items](../../../static/img/product_docs/strongpointfornetsuite/integrations/servicenow_tab1.webp)
    3. Select the system for the user to grant access to the tab.
    4. Select __Copy sys_id__ from the drop down menu.
 
-      ![Select Copy sys_id from the drop down menu](/img/product_docs/strongpointfornetsuite/integrations/servicenow_tab2.webp)
+      ![Select Copy sys_id from the drop down menu](../../../static/img/product_docs/strongpointfornetsuite/integrations/servicenow_tab2.webp)
    5. Paste the identifier in a file where you can access it to add to the script when you are finished locating the system identifiers. An example identifer is _b4fd7c8437201000deeabfc8bcbe5dc1_
 3. Filter for __Studio__
 4. Select __Strongpoint NetSuite Integration__.
 5. Open __Client Development__ > __Client Scripts__ > __Strongpoint Initialize__
 
-   ![Open the Strongpoint Initialize Script](/img/product_docs/strongpointfornetsuite/integrations/servicenow_tab3.webp)
+   ![Open the Strongpoint Initialize Script](../../../static/img/product_docs/strongpointfornetsuite/integrations/servicenow_tab3.webp)
 6. Add all of your copied System Identifiers to the __allowedCIs__. Separate multiple IDs with a comma (,). For example:  
 
     ```var allowedCIs = ['fe1cc02c735423002728660c4cf6a7dc','b4fd7c8437201000deeabfc8bcbe5dc1'];```

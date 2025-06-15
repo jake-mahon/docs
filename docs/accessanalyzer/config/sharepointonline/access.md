@@ -21,7 +21,7 @@ Registering a Microsoft Entra ID application and provisioning it to grant permis
   - A credential with the username ```newapp``` that contains the password for the new application
 - Microsoft Graph API PowerShell module to be installed on targeted hosts
 
-See the [SP_RegisterAzureAppAuth Job](/docs/accessanalyzer/enterpriseauditor/admin/jobs/instantjobs/sp_registerazureappauth.md) topic for additional information.
+See the [SP_RegisterAzureAppAuth Job](../../enterpriseauditor/admin/jobs/instantjobs/sp_registerazureappauth.md) topic for additional information.
 
 ## Permissions
 
@@ -235,4 +235,4 @@ __Step 2 –__ Copy the __Application (client) ID__ value.
 
 __Step 3 –__ Save this value in a text file.
 
-This is needed for the Access Analyzer Connection Profile. See the [Azure Active Directory for User Credentials](/docs/accessanalyzer/enterpriseauditor/admin/settings/connection/profile/entraid.md) topic for additional information.
+This is needed for the Access Analyzer Connection Profile. See the [Azure Active Directory for User Credentials](../../enterpriseauditor/admin/settings/connection/profile/entraid.md) topic for additional information.

@@ -5,7 +5,7 @@ The Modeled Access Changes report at the __File System__ node provides an enterp
 - Permission Source – Displays all of the ways the trustee has been granted rights to the resource
 - Activity – Displays additional information on recent activity performed by the trustee which would have been impacted by the modeled change
 
-![Modeled Access Changes report](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/changemodeling/modeledaccesschanges.webp)
+![Modeled Access Changes report](../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/changemodeling/modeledaccesschanges.webp)
 
 This report is comprised of the following columns:
 
@@ -67,7 +67,7 @@ The Activity table contains additional information on recent activity performed 
 - The FSAC jobs within Access Analyzer have not been run
 - There were no operation events logged for the selected trustee
 
-![Activity Table](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/sensitivecontent/activitytable.webp)
+![Activity Table](../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/sensitivecontent/activitytable.webp)
 
 This table is comprised of the following columns:
 

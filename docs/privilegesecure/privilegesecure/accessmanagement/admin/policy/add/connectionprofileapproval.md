@@ -8,15 +8,15 @@ __Step 1 –__ Navigate to the Policy > __Access Policies__ > Connection Profile
 
 __Step 2 –__ Select the __Connection Profile__ and click any field to edit.
 
-![addapprovalworkflow](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/addapprovalworkflow.webp)
+![addapprovalworkflow](../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/addapprovalworkflow.webp)
 
 __Step 3 –__ In the Approval Workflow section, select Tiered and click Save.
 
-![Add approval teir to workflow](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/addapprovalteirtoworkflow.webp)
+![Add approval teir to workflow](../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/addapprovalteirtoworkflow.webp)
 
 __Step 4 –__ Once the policy has been created, click the Add Tier icon to add an Approval Tier.
 
-![Tier 1 Escalation Options](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/tier1escalationoptions.webp)
+![Tier 1 Escalation Options](../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/tier1escalationoptions.webp)
 
 Workflow Tier(s) (only visible when Approval Type is set to Tiered):
 
@@ -32,7 +32,7 @@ Workflow Tier(s) (only visible when Approval Type is set to Tiered):
 
 __Step 5 –__ Click the __Edit__ icon to open the Tier Escalation window.
 
-![tierescalation](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/tierescalation.webp)
+![tierescalation](../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/tierescalation.webp)
 
 __Step 6 –__ In the Tier Escalation window, enter the following information:
 
@@ -42,11 +42,11 @@ __Step 6 –__ In the Tier Escalation window, enter the following information:
 
 __Step 7 –__ Click Okay to save the escalation settings.
 
-![Tier 1 Escalation Example](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/tier1escalationexample.webp)
+![Tier 1 Escalation Example](../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/tier1escalationexample.webp)
 
 __Step 8 –__ Click the Add Approvers icon to open the Add Users and Groups as Approvers window.
 
-![Add Users and Groups as Approvers](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/addusersandgroupsasapprovers.webp)
+![Add Users and Groups as Approvers](../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/addusersandgroupsasapprovers.webp)
 
 The Add Users and Groups as Approvers window has the following features:
 
@@ -71,7 +71,7 @@ __Step 11 –__ (Optional) Click a row in the Users & Groups to Add table to mov
 
 __Step 12 –__ Click __Add__ to add the Approvers to the Approval Tier.
 
-![Tier 1 Example](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/tier1example.webp)
+![Tier 1 Example](../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/tier1example.webp)
 
 __Step 13 –__ Set the Approvals Required:
 

@@ -8,7 +8,7 @@ Navigate to the __Active Directory Permissions Analyzer__ > __2.Groups__ > __AD_
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the AD_GroupMembershipPermissions Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/groups/groupmembershippermissionsanalysis.webp)
+![Analysis Tasks for the AD_GroupMembershipPermissions Job](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/groups/groupmembershippermissionsanalysis.webp)
 
 The default analysis tasks are:
 

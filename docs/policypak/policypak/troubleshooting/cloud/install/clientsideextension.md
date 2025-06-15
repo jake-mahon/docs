@@ -18,7 +18,7 @@ __NOTE:__ The Install```*.log``` file will only be approximately 6 KB instead of
 
 - There will sometimes be multiple logs files for each attempt
 
-![608_1_image-20201029193618-1](/img/product_docs/policypak/policypak/troubleshooting/cloud/install/608_1_image-20201029193618-1.webp)
+![608_1_image-20201029193618-1](../../../../../../static/img/product_docs/policypak/policypak/troubleshooting/cloud/install/608_1_image-20201029193618-1.webp)
 
 ## Resolution
 
@@ -32,7 +32,7 @@ __Step 1 –__ Delete the malformed MSI ```(C:\ProgramData\PolicyPak\Downloaded 
 
 __Step 2 –__ Uninstall the "Endpoint Policy Manager Cloud Client"
 
-![608_2_image-20201029193618-2](/img/product_docs/policypak/policypak/troubleshooting/cloud/install/608_2_image-20201029193618-2.webp)
+![608_2_image-20201029193618-2](../../../../../../static/img/product_docs/policypak/policypak/troubleshooting/cloud/install/608_2_image-20201029193618-2.webp)
 
 __Step 3 –__ Rerun the installation of the Cloud Client
 
@@ -50,7 +50,7 @@ __Step 1 –__ Browse to the portal and sign in
 
 __Step 2 –__ On the Home page, download the "Latest Bits" in the form of either a ZIP or ISO file
 
-![608_3_image-20201029193618-3](/img/product_docs/policypak/policypak/troubleshooting/cloud/install/608_3_image-20201029193618-3.webp)
+![608_3_image-20201029193618-3](../../../../../../static/img/product_docs/policypak/policypak/troubleshooting/cloud/install/608_3_image-20201029193618-3.webp)
 
 - Follow the prompts to complete the download.
 

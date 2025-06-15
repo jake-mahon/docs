@@ -2,24 +2,24 @@
 
 On the Agents tab, the Edit button opens the agent’s Properties window, which contains the following tabs:
 
-- [Active Directory Tab](/docs/activitymonitor/activitymonitor/admin/agents/properties/activedirectory.md) – AD Agent only
-- [AD Users Tab](/docs/activitymonitor/activitymonitor/admin/agents/properties/adusers.md)
-- [API Server Tab](/docs/activitymonitor/activitymonitor/admin/agents/properties/apiserver.md)
-- [Archiving Tab](/docs/activitymonitor/activitymonitor/admin/agents/properties/archiving.md)
-- [Additional Properties Tab](/docs/activitymonitor/activitymonitor/admin/agents/properties/additionalproperties.md)
-- [Connection Tab](/docs/activitymonitor/activitymonitor/admin/agents/properties/connection.md)
-- [Disk Quota Tab](/docs/activitymonitor/activitymonitor/admin/agents/properties/diskquota.md)
-- [Dell CEE Options Tab](/docs/activitymonitor/activitymonitor/admin/agents/properties/dellceeoptions.md) – Activity Agent only
-- [ DNS Tab](/docs/activitymonitor/activitymonitor/admin/agents/properties/dns.md)
-- [Inactivity Alerts Tab](/docs/activitymonitor/activitymonitor/admin/agents/properties/inactivityalerts.md)
-- [Linux Tab](/docs/activitymonitor/activitymonitor/admin/agents/properties/linux.md) – Linux Agent only
-- [NetApp FPolicy Options Tab](/docs/activitymonitor/activitymonitor/admin/agents/properties/netappfpolicyoptions.md) – Activity Agent only
-- [Network Tab](/docs/activitymonitor/activitymonitor/admin/agents/properties/network.md)
-- [Network Proxy Tab](/docs/activitymonitor/activitymonitor/admin/agents/properties/networkproxy.md)
-- [Nutanix Tab](/docs/activitymonitor/activitymonitor/admin/agents/properties/nutanix.md) – Activity Agent only
-- [Panzura Tab](/docs/activitymonitor/activitymonitor/admin/agents/properties/panzura.md) – Activity Agent only
-- [Qumulo Tab](/docs/activitymonitor/activitymonitor/admin/agents/properties/qumulo.md) – Activity Agent only
+- [Active Directory Tab](activedirectory.md) – AD Agent only
+- [AD Users Tab](adusers.md)
+- [API Server Tab](apiserver.md)
+- [Archiving Tab](archiving.md)
+- [Additional Properties Tab](additionalproperties.md)
+- [Connection Tab](connection.md)
+- [Disk Quota Tab](diskquota.md)
+- [Dell CEE Options Tab](dellceeoptions.md) – Activity Agent only
+- [ DNS Tab](dns.md)
+- [Inactivity Alerts Tab](inactivityalerts.md)
+- [Linux Tab](linux.md) – Linux Agent only
+- [NetApp FPolicy Options Tab](netappfpolicyoptions.md) – Activity Agent only
+- [Network Tab](network.md)
+- [Network Proxy Tab](networkproxy.md)
+- [Nutanix Tab](nutanix.md) – Activity Agent only
+- [Panzura Tab](panzura.md) – Activity Agent only
+- [Qumulo Tab](qumulo.md) – Activity Agent only
 
 Select the desired agent and click __Edit__ to open the agent’s Properties window.
 
-![Properties Window](/img/product_docs/activitymonitor/activitymonitor/admin/agents/properties/mainimage.webp)
+![Properties Window](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/agents/properties/mainimage.webp)

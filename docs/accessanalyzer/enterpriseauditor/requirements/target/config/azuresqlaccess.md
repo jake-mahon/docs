@@ -18,13 +18,13 @@ This will enable Access Analyzer to discover all the SQL databases present in th
 
 Follow the steps below to create an Azure SQL custom role at the subscription level.
 
-![Azure Portal - Azure Services](/img/product_docs/accessanalyzer/enterpriseauditor/requirements/target/config/azuresqlperm_customrolecreation_1.webp)
+![Azure Portal - Azure Services](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/requirements/target/config/azuresqlperm_customrolecreation_1.webp)
 
 __Step 1 –__ Sign in to Azure. Navigate to the Azure Services section and click __Subscriptions__. This will navigate you to the Pay-As-You-Go page of the Azure Portal.
 
 __Step 2 –__ Locate and click the __Access Control (IAM)__ view option blade from the available subscriptions in the left-hand menu.
 
-![Azure Portal - Pay as you Go - Access Control (IAM)](/img/product_docs/accessanalyzer/enterpriseauditor/requirements/target/config/azuresqlperm_customrolecreation_2.webp)
+![Azure Portal - Pay as you Go - Access Control (IAM)](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/requirements/target/config/azuresqlperm_customrolecreation_2.webp)
 
 __Step 3 –__ Click __Add__ > Add __Custom Role__.
 
@@ -93,13 +93,13 @@ __Step 4 –__ Create a JSON file using the subscription ID provided by Microsof
 }
 ```
 
-![Azure SQL Configuration - Create a Custom Role section](/img/product_docs/accessanalyzer/enterpriseauditor/requirements/target/config/azuresqlperm_customrolecreation_3.webp)
+![Azure SQL Configuration - Create a Custom Role section](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/requirements/target/config/azuresqlperm_customrolecreation_3.webp)
 
 __Step 5 –__ Once created, click __Start from JSON__ in the Azure portal and select the JSON file. Once that file is chosen, the Review + Create button should be enabled.
 
 Click __Review + Create__ to create the role or click __Next__ to review and edit the permissions. Once the JSON file is opened, the Custom Role Name and Description boxes will be populated automatically. The name and description of the custom role can be customized if required in this step.
 
-![Azure SQL Configuration - Create a Cusotm Role window](/img/product_docs/accessanalyzer/enterpriseauditor/requirements/target/config/azuresqlperm_customrolecreation_4.webp)
+![Azure SQL Configuration - Create a Cusotm Role window](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/requirements/target/config/azuresqlperm_customrolecreation_4.webp)
 
 __Step 6 –__ Click Create. This action will save and finalize a custom role entitled Access Analyzer Azure SQL Role.
 
@@ -113,11 +113,11 @@ Follow the steps below to create an Azure SQL Application Registration in the Az
 
 __Step 1 –__ In the Azure portal under Azure Services, click the __App Registration__ icon.
 
-![AzureSQL - App Registrations - New Registration](/img/product_docs/accessanalyzer/enterpriseauditor/requirements/target/config/azuresqlperm_customrolecreation_5.webp)
+![AzureSQL - App Registrations - New Registration](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/requirements/target/config/azuresqlperm_customrolecreation_5.webp)
 
 __Step 2 –__ Click __New Registration__ in the Register an application blade.
 
-![Azure SQL - Register an Application](/img/product_docs/accessanalyzer/enterpriseauditor/requirements/target/config/azuresqlperm_customrolecreation_6.webp)
+![Azure SQL - Register an Application](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/requirements/target/config/azuresqlperm_customrolecreation_6.webp)
 
 __Step 3 –__ Enter a __Name__ for the application and select an appropriate option from the Supported account types options.
 
@@ -125,7 +125,7 @@ __Step 4 –__ Click __Register__ at the bottom of the page when finished. Once 
 
 __NOTE:__ The _Application (client) ID_ is required to create a Connection Profile within the Access Analyzer.
 
-![Azure SQL - Register and App - Application ID](/img/product_docs/accessanalyzer/enterpriseauditor/requirements/target/config/azuresqlperm_customrolecreation_8.webp)
+![Azure SQL - Register and App - Application ID](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/requirements/target/config/azuresqlperm_customrolecreation_8.webp)
 
 __Step 5 –__ Click the __Certificates & secrets__ blade in the left-hand menu. Click __New Client secret__.
 
@@ -137,7 +137,7 @@ __Step 7 –__ Make note of the key under the Value column.
 
 __NOTE:__ The Value key on this paged will be used to create the Access Analyzer connection profile.
 
-![Azure SQL - Access Control (IAM) page](/img/product_docs/accessanalyzer/enterpriseauditor/requirements/target/config/azuresqlperm_customrolecreation_11z.webp)
+![Azure SQL - Access Control (IAM) page](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/requirements/target/config/azuresqlperm_customrolecreation_11z.webp)
 
 ## Add a Role Assignment
 
@@ -145,19 +145,19 @@ Follow the steps below to add a role assignment to the custom role and newly reg
 
 __Step 1 –__ Navigate to the Subscriptions blade and click the __Access Control (IAM)__ option. Click the __Add__ drop down > Click __Add role assignment__.
 
-![Azure SQL - Add a Role Assignment](/img/product_docs/accessanalyzer/enterpriseauditor/requirements/target/config/azuresqlperm_customrolecreation_13z.webp)
+![Azure SQL - Add a Role Assignment](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/requirements/target/config/azuresqlperm_customrolecreation_13z.webp)
 
 __Step 2 –__ Search for and click the recently created custom role from the Role drop down. See [Create a StealthAUDIT Custom Role](#create-a-stealthaudit-custom-role) for steps required to create a custom role in the Azure portal.
 
 __Step 3 –__ Search for and select the recently registered Azure SQL application from the Select drop down. See [Register an Azure SQL Application](#register-an-azure-sql-application) for steps required to register an Azure SQL application in the Azure portal. The registered application will be visible in the Selected members window. Click __Save__ when finished.
 
-![Azure SQL - Add a role assignment window](/img/product_docs/accessanalyzer/enterpriseauditor/requirements/target/config/azuresqlperm_customrolecreation_14z.webp)
+![Azure SQL - Add a role assignment window](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/requirements/target/config/azuresqlperm_customrolecreation_14z.webp)
 
 __Step 4 –__ Search for and select the SQL Server Contributor role in the Role drop down.
 
 __Step 5 –__ Search for and select the recently registered Azure SQL application from the Select drop down. See [Register an Azure SQL Application](#register-an-azure-sql-application) for steps required to register an Azure SQL application in the Azure portal. The registered application will be visible in the Selected members window. Click __Save__ when finished.
 
-![Azure SQL - Access Control (IAM) window](/img/product_docs/accessanalyzer/enterpriseauditor/requirements/target/config/azuresqlperm_customrolecreation_16z.webp)
+![Azure SQL - Access Control (IAM) window](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/requirements/target/config/azuresqlperm_customrolecreation_16z.webp)
 
 __Step 6 –__ Navigate to the __Subscriptions__ blade. Click __Access Control (IAM)__.
 

@@ -47,9 +47,9 @@ The following example generates a universe ```U8_Users``` based on the entity ty
 
 ```
 
-When getting Identity Manager [Connect Power BI to Identity Manager](/docs/usercube/usercube/integration-guide/governance/reporting/how-tos/connect-powerbi/index.md), we see the following:
+When getting Identity Manager [Connect Power BI to Identity Manager](../../../../../../../governance/reporting/how-tos/connect-powerbi/index.md), we see the following:
 
-![Universe (ExcludedProperty)](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/universedatamodel/universe_excluded.webp)
+![Universe (ExcludedProperty)](../../../../../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/universedatamodel/universe_excluded.webp)
 
 ### Mapping Path
 

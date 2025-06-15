@@ -6,4 +6,4 @@ When running the Workflow wizard and having selected __Modify MIP Label__ as an
 
 When finished, click __Next__ to proceed with the wizard.
 
-To configure advanced actions or modify action settings, select the workflow and use the Advanced UI window. See [Advanced Actions for File System](/docs/dataclassification/ndc/admin/workflows/advancedwindow/files.md).
+To configure advanced actions or modify action settings, select the workflow and use the Advanced UI window. See [Advanced Actions for File System](../advancedwindow/files.md).

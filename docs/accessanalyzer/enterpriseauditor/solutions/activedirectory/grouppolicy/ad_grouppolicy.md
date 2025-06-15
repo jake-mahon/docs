@@ -8,12 +8,12 @@ The AD_GroupPolicy Job uses the GroupPolicy Data Collector for the following que
 
 __CAUTION:__ Do not modify the queries. The queries are preconfigured for this job.
 
-![Queries for the AD_GroupPolicy Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/grouppolicy/grouppolicyquery.webp)
+![Queries for the AD_GroupPolicy Job](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/grouppolicy/grouppolicyquery.webp)
 
 The queries for this job are:
 
 - Link Status – Targets the default domain controller known to Access Analyzer to retrieve a GPO's list for the domain
-- Settings – Targets the default domain controller known to Access Analyzer to return the state for domain policies for all GPOs. See the [GroupPolicy Data Collector](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/grouppolicy/overview.md) topic for additional information.
+- Settings – Targets the default domain controller known to Access Analyzer to return the state for domain policies for all GPOs. See the [GroupPolicy Data Collector](../../../admin/datacollector/grouppolicy/overview.md) topic for additional information.
 
 ## Analysis Tasks for the AD_GroupPolicy Job
 
@@ -21,7 +21,7 @@ Navigate to the __Active Directory__ > __4.GroupPolicy__ > __AD_GroupPolicy__ > 
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the AD_GroupPolicy Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/grouppolicy/grouppolicyanalysis.webp)
+![Analysis Tasks for the AD_GroupPolicy Job](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/grouppolicy/grouppolicyanalysis.webp)
 
 The default analysis tasks are:
 

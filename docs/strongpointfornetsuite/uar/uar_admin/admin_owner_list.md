@@ -1,12 +1,12 @@
 # Owner List
 
-Access your __Owner List__ from your menu bar. This is where Administrators can add or remove owners from reviews. All changes are captured in the [UAR History](/docs/strongpointfornetsuite/uar/uar_history.md).
+Access your __Owner List__ from your menu bar. This is where Administrators can add or remove owners from reviews. All changes are captured in the [UAR History](../uar_history.md).
 
 Auditors can view the Owner list and Owner notes, but cannot add or remove owners.
 
 Here is an example of the __Owner List__:
 
-![Administrator Owner list](/img/product_docs/strongpointfornetsuite/uar/uar_admin/owner_list.webp)
+![Administrator Owner list](../../../../static/img/product_docs/strongpointfornetsuite/uar/uar_admin/owner_list.webp)
 
 ## Filters
 
@@ -42,7 +42,7 @@ __Add Owner__ is an option on the administrator Owner List.
 1. Open __Owner List__ from your menu bar.
 2. Click __Add Owner__ to add a new role.
 
-   ![Add Owner](/img/product_docs/strongpointfornetsuite/uar/uar_admin/add_owner.webp)
+   ![Add Owner](../../../../static/img/product_docs/strongpointfornetsuite/uar/uar_admin/add_owner.webp)
 3. __Select Role__ from the drop down. From Bundle, Custom/Standard and Center Type are automatically added.
 4. Select users from the drop downs for the ownership roles.
 5. Click __Save__ when your changes are complete.
@@ -69,7 +69,7 @@ __Remove Owner__ is an option on the administrator's Owner List.
 
 The __Owner Notes__ tab displays the details for each change in the Owner List. Click the __Owner Notes__ tab to access this detail. You can filter the Owner Notes by __Create Date__.
 
-![Owner notes](/img/product_docs/strongpointfornetsuite/uar/uar_admin/owner_notes.webp)
+![Owner notes](../../../../static/img/product_docs/strongpointfornetsuite/uar/uar_admin/owner_notes.webp)
 
 1. Open __Owner List__ from your menu bar.
 2. Open the __Owner Notes__ tab.

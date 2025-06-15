@@ -39,19 +39,19 @@ During the seamless upgrade from previous versions, Netwrix Auditor preserves it
   - Numbers of shared objects and drill downs to reports in the SharePoint Online Site Collections External Sharing state-in-time report.
 - For auditing cloud-based applications (Microsoft Entra ID, Exhange Online, SharePoint Online, and MS Teams) with Netwrix Auditor using basic authentication: before an upgrade from version 10.0 and earlier, make sure that the account under which the upgrade will be performed has sufficient rights and permissions to perform initial data collection and upgrade. Review the following for more information about required rights and permissions:
 
-  - [Permissions for Microsoft Entra ID Auditing](/docs/auditor/auditor/configuration/microsoft365/microsoftentraid/permissions.md)
-  - [Permissions for Exchange Online Auditing](/docs/auditor/auditor/configuration/microsoft365/exchangeonline/permissions.md)
+  - [Permissions for Microsoft Entra ID Auditing](../configuration/microsoft365/microsoftentraid/permissions.md)
+  - [Permissions for Exchange Online Auditing](../configuration/microsoft365/exchangeonline/permissions.md)
   - [Permissions for SharePoint Online Auditing
-    ](/docs/auditor/auditor/configuration/microsoft365/sharepointonline/permissions.md)
-  - [Permissions for Teams Auditing](/docs/auditor/auditor/configuration/microsoft365/teams/permissions.md)
+    ](../configuration/microsoft365/sharepointonline/permissions.md)
+  - [Permissions for Teams Auditing](../configuration/microsoft365/teams/permissions.md)
 - For auditing cloud-based applications (Microsoft Entra ID, Exchange Online, SharePoint Online, and MS Teams) with Netwrix Auditor using modern authentication: additional configuration of the Azure AD app permissions is required. Review the following for more information about required rights and permissions:
 
-  - [Permissions for Microsoft Entra ID Auditing](/docs/auditor/auditor/configuration/microsoft365/microsoftentraid/permissions.md)
-  - [Permissions for Exchange Online Auditing](/docs/auditor/auditor/configuration/microsoft365/exchangeonline/permissions.md)
+  - [Permissions for Microsoft Entra ID Auditing](../configuration/microsoft365/microsoftentraid/permissions.md)
+  - [Permissions for Exchange Online Auditing](../configuration/microsoft365/exchangeonline/permissions.md)
   - [Permissions for SharePoint Online Auditing
-    ](/docs/auditor/auditor/configuration/microsoft365/sharepointonline/permissions.md)
-  - [Permissions for Teams Auditing](/docs/auditor/auditor/configuration/microsoft365/teams/permissions.md)
-- Netwrix Auditor for Oracle Database. If you use the following combination of the audit settings: Mixed Mode + Fine Grained Auditing, please check your configuration. You may need to re-configure your audit since the Oracle Database data collection mechanism was changed. See the [Supported Data Sources](/docs/auditor/auditor/requirements/supporteddatasources.md) and [Verify Your Oracle Database Audit Settings](/docs/auditor/auditor/configuration/oracle/verifysettings.md) topics for additional information.
+    ](../configuration/microsoft365/sharepointonline/permissions.md)
+  - [Permissions for Teams Auditing](../configuration/microsoft365/teams/permissions.md)
+- Netwrix Auditor for Oracle Database. If you use the following combination of the audit settings: Mixed Mode + Fine Grained Auditing, please check your configuration. You may need to re-configure your audit since the Oracle Database data collection mechanism was changed. See the [Supported Data Sources](../requirements/supporteddatasources.md) and [Verify Your Oracle Database Audit Settings](../configuration/oracle/verifysettings.md) topics for additional information.
 - During the initial data collection, the product automatically upgrades services responsible for Windows Server and SharePoint network traffic compression. Consider the following:
 
   - During the Netwrix Auditor for SharePoint Core Service upgrade, your SharePoint sites will be temporarily unavailable. The duration of the upgrade depends on your SharePoint Farms size and usually it takes a few minutes. For bigger SharePoint farms, consider up to 10 minutes for a successful service upgrade and the same for the rollback in case of an upgrade failure.
@@ -72,7 +72,7 @@ Follow the steps to perform the upgrade.
 
 __Step 1 –__ Make sure you have completed the preparatory steps above.
 
-__Step 2 –__ Run the setup on the computer where the Auditor  Server resides. See the [Installation](/docs/auditor/auditor/install/overview.md) topic for additional information.
+__Step 2 –__ Run the setup on the computer where the Auditor  Server resides. See the [Installation](overview.md) topic for additional information.
 
 __Step 3 –__ If you have a client-server deployment, then after upgrading the server run the setup on all remote machines where the Auditor Client resides.
 

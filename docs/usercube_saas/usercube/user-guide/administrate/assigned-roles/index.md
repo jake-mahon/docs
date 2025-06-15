@@ -20,13 +20,13 @@ You can review all assigned single roles by category. Through filters you can ch
 
 This operation should be performed by a user with the right permissions. See the [
 Configure a User Profile
-](/docs/usercube_saas/usercube/user-guide/set-up/user-profile-configuration/index.md) topic for additional information.
+](../../set-up/user-profile-configuration/index.md) topic for additional information.
 
 The following example provides the rights for the Administrator profile to see the Assigned Roles page on the __Entity Type__ directory user. See the [
 Create a Provisioning Rule
-](/docs/usercube_saas/usercube/user-guide/set-up/provisioning-rule-creation/index.md) and [
+](../../set-up/provisioning-rule-creation/index.md) and [
 Create Roles in the Role Catalog
-](/docs/usercube_saas/usercube/user-guide/set-up/single-roles-catalog-creation/index.md) topics for additional information.
+](../../set-up/single-roles-catalog-creation/index.md) topics for additional information.
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
@@ -38,11 +38,11 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 
 Review the Assigned Roles by proceeding as follows:
 
-![assignedroles](/img/product_docs/usercube/usercube/user-guide/administrate/assigned-roles/assignedroles.webp)
+![assignedroles](../../../../../../static/img/product_docs/usercube/usercube/user-guide/administrate/assigned-roles/assignedroles.webp)
 
 __Step 1 –__ On the home page, in the Administration section of the UI click on Assigned Roles.
 
-![assignedrolesscreen](/img/product_docs/usercube/usercube/user-guide/administrate/assigned-roles/assignedrolesscreen.webp)
+![assignedrolesscreen](../../../../../../static/img/product_docs/usercube/usercube/user-guide/administrate/assigned-roles/assignedrolesscreen.webp)
 
 __Step 2 –__ View the list of users with different assigned roles and filter them by __Entity Type__, __Workflow State__, __Policy__, __Role__or by using a custom filter.
 

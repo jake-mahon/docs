@@ -2,7 +2,7 @@
 
 The AD_StaleUsers job identifies potentially stale users based on the amount of time since their last login to the domain, or if the account has been disabled. These accounts should be reviewed and cleaned up in order to increase security and reduce complexity.
 
-__NOTE:__ The definition of a stale user is set by the .Active Directory Inventory solution. These parameters, including the number of days since last login to be considered stale (by default 60 days), can be customized within the __.Active Directory Inventory__ > __3-AD_Exceptions__ job's __Stale Users__ analysis task. See the [3-AD_Exceptions Job](/docs/accessanalyzer/enterpriseauditor/solutions/activedirectoryinventory/3-ad_exceptions.md) topic for additional information.
+__NOTE:__ The definition of a stale user is set by the .Active Directory Inventory solution. These parameters, including the number of days since last login to be considered stale (by default 60 days), can be customized within the __.Active Directory Inventory__ > __3-AD_Exceptions__ job's __Stale Users__ analysis task. See the [3-AD_Exceptions Job](../../activedirectoryinventory/3-ad_exceptions.md) topic for additional information.
 
 ## Analysis Tasks for the AD_StaleUsers Job
 
@@ -10,7 +10,7 @@ Navigate to the __Active Directory__ > __2.Users__ > __AD_StaleUsers__ > __Confi
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the AD_StaleUsers Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/users/staleusersanalysis.webp)
+![Analysis Tasks for the AD_StaleUsers Job](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/users/staleusersanalysis.webp)
 
 The default analysis tasks are:
 

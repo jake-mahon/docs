@@ -12,23 +12,23 @@ __Step 2 –__ Expand Netwrix Endpoint Policy Manager (formerly PolicyPak) node 
 
 __Step 3 –__ Add new EXE Policy (a or b).
 
-![621_1_image-20200510100624-1](/img/product_docs/policypak/policypak/leastprivilege/elevate/621_1_image-20200510100624-1.webp)
+![621_1_image-20200510100624-1](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/elevate/621_1_image-20200510100624-1.webp)
 
 __Step 4 –__ Select __Use Combo Rule …__ and click __NEXT__.
 
-![621_3_image-20200510100625-2](/img/product_docs/policypak/policypak/leastprivilege/elevate/621_3_image-20200510100625-2.webp)
+![621_3_image-20200510100625-2](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/elevate/621_3_image-20200510100625-2.webp)
 
 __Step 5 –__ Under __Conditions__ check __Path__, and under Settings check __Command-line arguments__ and __Apply to child processes__ . Click __Next__.
 
-![621_5_image-20200510100625-3](/img/product_docs/policypak/policypak/leastprivilege/elevate/621_5_image-20200510100625-3.webp)
+![621_5_image-20200510100625-3](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/elevate/621_5_image-20200510100625-3.webp)
 
 __Step 6 –__ Under __Path Condition__ click the __Add__ drop-down and select __Add file ...__.
 
-![621_7_image-20200510100625-4](/img/product_docs/policypak/policypak/leastprivilege/elevate/621_7_image-20200510100625-4.webp)
+![621_7_image-20200510100625-4](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/elevate/621_7_image-20200510100625-4.webp)
 
 __Step 7 –__ Either browse for ```regedit.exe```, or type in "```%SYSTEMROOT%\regedit.exe```" and click  __OK__.
 
-![621_9_po_950x46](/img/product_docs/policypak/policypak/leastprivilege/elevate/621_9_po_950x46.webp)
+![621_9_po_950x46](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/elevate/621_9_po_950x46.webp)
 
 __Step 8 –__ Click on __Command-line Arguments__
 
@@ -37,11 +37,11 @@ __Step 8 –__ Click on __Command-line Arguments__
 3. Check __Ignore arguments case__
 4. Click __Next__.
 
-   ![621_11_image-20200510100625-6](/img/product_docs/policypak/policypak/leastprivilege/elevate/621_11_image-20200510100625-6.webp)
+   ![621_11_image-20200510100625-6](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/elevate/621_11_image-20200510100625-6.webp)
 
 __Step 9 –__ Select __Run with elevated privileges__ and Click __Next__.
 
-![621_13_image-20200510100625-7](/img/product_docs/policypak/policypak/leastprivilege/elevate/621_13_image-20200510100625-7.webp)
+![621_13_image-20200510100625-7](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/elevate/621_13_image-20200510100625-7.webp)
 
 __Step 10 –__ Rename and set Item Level Targeting if required and click __Finish__.
 
@@ -59,36 +59,36 @@ __Step 2 –__ Expand PolicyPak node on either Computer or User Configuration si
 
 __Step 3 –__ Create new SCRIPT Policy (a or b).
 
-![621_15_image-20200510100625-8](/img/product_docs/policypak/policypak/leastprivilege/elevate/621_15_image-20200510100625-8.webp)
+![621_15_image-20200510100625-8](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/elevate/621_15_image-20200510100625-8.webp)
 
 __Step 4 –__ Select __Use Combo Rule …__ and click __Next__.
 
 __NOTE:__ Although you can use a simple rule and simply use path as the qualifying factor, for security purposes it is recommended you have multiple qualifying factors.
 
-![621_17_image-20200510100625-9](/img/product_docs/policypak/policypak/leastprivilege/elevate/621_3_image-20200510100625-2.webp)
+![621_17_image-20200510100625-9](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/elevate/621_3_image-20200510100625-2.webp)
 
 __Step 5 –__ Under Conditions check __Path__ and __Hash__ and click __Next__.
 
-![621_19_image-20200510100625-10](/img/product_docs/policypak/policypak/leastprivilege/elevate/621_19_image-20200510100625-10.webp)
+![621_19_image-20200510100625-10](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/elevate/621_19_image-20200510100625-10.webp)
 
 __NOTE:__ If you make changes to the script, the Hash value will need to be updated for the policy to remain valid. Alternatively, if you digitally sign your script, Signature can be used instead of Hash as the second method of validation.
 
 __Step 6 –__ Under Path Condition click the __Add__ drop-down and select .__Add file ...__.
 
-![621_21_image-20200510100625-11](/img/product_docs/policypak/policypak/leastprivilege/elevate/621_21_image-20200510100625-11.webp)
+![621_21_image-20200510100625-11](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/elevate/621_21_image-20200510100625-11.webp)
 
 __Step 7 –__ Browse to the location of the``` PowerShell script -> When Prompted```, allow to automatically fill in Hash value,
 
-![621_23_image-20200510100625-12](/img/product_docs/policypak/policypak/leastprivilege/elevate/621_23_image-20200510100625-12.webp)
+![621_23_image-20200510100625-12](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/elevate/621_23_image-20200510100625-12.webp)
 
-![621_25_image-20200510100625-13](/img/product_docs/policypak/policypak/leastprivilege/elevate/621_25_image-20200510100625-13.webp)
+![621_25_image-20200510100625-13](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/elevate/621_25_image-20200510100625-13.webp)
 
 __Step 8 –__ Click on __Hash Condition__ to confirm Value has been ```set -> If desired```, and change algorithm to setting of .
 
-![621_27_image-20200510100625-14](/img/product_docs/policypak/policypak/leastprivilege/elevate/621_27_image-20200510100625-14.webp)
+![621_27_image-20200510100625-14](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/elevate/621_27_image-20200510100625-14.webp)
 
 __Step 9 –__ Select "__Run with elevated privileges__and click __Next__.
 
-![621_29_image-20200510100625-15](/img/product_docs/policypak/policypak/leastprivilege/elevate/621_13_image-20200510100625-7.webp)
+![621_29_image-20200510100625-15](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/elevate/621_13_image-20200510100625-7.webp)
 
 __Step 10 –__ Rename and set Item Level Targeting if required and click __Finish__.

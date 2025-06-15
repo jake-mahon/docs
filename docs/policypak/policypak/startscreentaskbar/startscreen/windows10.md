@@ -2,13 +2,13 @@
 
 __Step 1 –__ To start out, assume that we have a GPO named "PP Start Screen & Taskbar Policies," which is linked to the Sales OU, which contains user accounts. Now, in User Configuration | Endpoint Policy Manager | Start Screen Manager for Windows 10, select Add | New Collection, as seen in Figure 6.
 
-![quickstart_start_screen_manager_1](/img/product_docs/policypak/policypak/startscreentaskbar/startscreen/quickstart_start_screen_manager_1.webp)
+![quickstart_start_screen_manager_1](../../../../../static/img/product_docs/policypak/policypak/startscreentaskbar/startscreen/quickstart_start_screen_manager_1.webp)
 
 Figure 6. Creating a new collection using Endpoint Policy Manager Start Screen Manager.
 
 __Step 2 –__ Next, you'll see the "Add new collection" dialog, as shown in Figure 7.
 
-![quickstart_start_screen_manager_2](/img/product_docs/policypak/policypak/startscreentaskbar/startscreen/quickstart_start_screen_manager_2.webp)
+![quickstart_start_screen_manager_2](../../../../../static/img/product_docs/policypak/policypak/startscreentaskbar/startscreen/quickstart_start_screen_manager_2.webp)
 
 Figure 7. Endpoint Policy Manager Start Screen Manager collections are used to group together policies and configure the layout mode of all the groups.
 
@@ -16,25 +16,25 @@ There are two layout modes for a Netwrix Endpoint Policy Manager (formerly Polic
 
 __Step 3 –__ Let's select the "Partial (Preserve)" layout mode and click "OK" as shown in Figure 8.
 
-![quickstart_start_screen_manager_3](/img/product_docs/policypak/policypak/startscreentaskbar/settings/startscreen/quickstart_start_screen_manager_3.webp)
+![quickstart_start_screen_manager_3](../../../../../static/img/product_docs/policypak/policypak/startscreentaskbar/settings/startscreen/quickstart_start_screen_manager_3.webp)
 
 Figure 8. Selecting the "Partial (Preserve)" layout mode.
 
 You'll see the collection created in both panels in Figure 9.
 
-![quickstart_start_screen_manager_4](/img/product_docs/policypak/policypak/startscreentaskbar/startscreen/quickstart_start_screen_manager_4.webp)
+![quickstart_start_screen_manager_4](../../../../../static/img/product_docs/policypak/policypak/startscreentaskbar/startscreen/quickstart_start_screen_manager_4.webp)
 
 Figure 9. A Endpoint Policy Manager Start Screen Manager collection can be seen in both MMC pane views.
 
 __Step 4 –__ Double-click "Collection 1" to enter it. Then, right-click and select Add | New Group, as shown in Figure 10.
 
-![quickstart_start_screen_manager_5](/img/product_docs/policypak/policypak/startscreentaskbar/startscreen/quickstart_start_screen_manager_5.webp)
+![quickstart_start_screen_manager_5](../../../../../static/img/product_docs/policypak/policypak/startscreentaskbar/startscreen/quickstart_start_screen_manager_5.webp)
 
 Figure 10. Endpoint Policy Manager Start Screen groups must be added to collections.
 
 __Step 5 –__ Next, you'll see the Start Screen Tile Group Editor, shown in Figure 11.
 
-![quickstart_start_screen_manager_6](/img/product_docs/policypak/policypak/startscreentaskbar/startscreen/quickstart_start_screen_manager_6.webp)
+![quickstart_start_screen_manager_6](../../../../../static/img/product_docs/policypak/policypak/startscreentaskbar/startscreen/quickstart_start_screen_manager_6.webp)
 
 Figure 11. The Start Screen Tile Group Editor is used to edit the Windows 10 Start Screen group.
 
@@ -54,12 +54,12 @@ The fields inside the Group Editor are as follows:
 
 __Step 6 –__ For now, input the Group Name "My Important Apps" as seen in Figure 10. Then, keeping the remainder of the details as shown, click "OK" to continue. Now you'll see a policy entry for the group "My important apps" as shown in Figure 12.
 
-![quickstart_start_screen_manager_7](/img/product_docs/policypak/policypak/startscreentaskbar/startscreen/quickstart_start_screen_manager_7.webp)
+![quickstart_start_screen_manager_7](../../../../../static/img/product_docs/policypak/policypak/startscreentaskbar/startscreen/quickstart_start_screen_manager_7.webp)
 
 Figure 12. A Start Screen group called "My important apps" is created on the end user's machine.
 
 __Step 7 –__ Double-click "My important apps" to go inside the Group. In the next three sections, you'll add one of each of the icon types (universal [UWP] application tile, desktop application tile, and Edge tile), by right-clicking and selecting "Add to Group," as seen in Figure 13.
 
-![quickstart_start_screen_manager_8](/img/product_docs/policypak/policypak/startscreentaskbar/startscreen/quickstart_start_screen_manager_8.webp)
+![quickstart_start_screen_manager_8](../../../../../static/img/product_docs/policypak/policypak/startscreentaskbar/startscreen/quickstart_start_screen_manager_8.webp)
 
 Figure 13. Use the MMC editor to add a new universal (UWP) application tile, desktop application tile, and new Edge tile.

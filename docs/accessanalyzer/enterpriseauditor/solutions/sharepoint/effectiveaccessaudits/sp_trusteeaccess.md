@@ -4,7 +4,7 @@ The SP_TrusteeAccess job allows you to scope a list of users to audit their acce
 
 __NOTE:__ Trustees can be specified in the ```UserScoping.csv``` file for the SP_TrusteeAccess Job. See the [Configure CSV File for the Query for the SP_TrusteeAccess Job](#configure-csv-file-for-the-query-for-the-sp_trusteeaccess-job) topic for additional information.
 
-![Scoping > SP_TrusteeAccess Job in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/effectiveaccessaudits/scopingjobstree.webp)
+![Scoping > SP_TrusteeAccess Job in the Jobs Tree](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/effectiveaccessaudits/scopingjobstree.webp)
 
 The SP_TrusteeAccess job is located in the Scoping Job Group.
 
@@ -12,7 +12,7 @@ The SP_TrusteeAccess job is located in the Scoping Job Group.
 
 The SP_TrusteeAccess Job uses the TextSearch Data Collector for the following query:
 
-![Queries for the SP_TrusteeAccess Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/effectiveaccessaudits/trusteeaccessquery.webp)
+![Queries for the SP_TrusteeAccess Job](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/effectiveaccessaudits/trusteeaccessquery.webp)
 
 The default query is:
 
@@ -24,11 +24,11 @@ Follow the steps to specify trustees in the ```UserScoping.csv``` file.
 
 __Step 1 –__ Navigate to the __Jobs__ > __SharePoint__ > __Effective Access Audits__ > __Scoping__ > __SP_TrusteeAccess__ Job and right-click on the job. Select __Explore Folder__ and the job’s directory opens.
 
-![UserScoping.csv in the SP_TrusteeAccess Job folder in File Explorer](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/effectiveaccessaudits/userscopingfileexplorer.webp)
+![UserScoping.csv in the SP_TrusteeAccess Job folder in File Explorer](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/effectiveaccessaudits/userscopingfileexplorer.webp)
 
 __Step 2 –__ Open the ```UserScoping.csv``` file with a text editor, for example Notepad.
 
-![UserScoping.csv file in Notepad](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/effectiveaccessaudits/userscopingnotepad.webp)
+![UserScoping.csv file in Notepad](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/effectiveaccessaudits/userscopingnotepad.webp)
 
 __Step 3 –__ Enter the trustees using a ```Domain\UserName``` format. Enter one trustee per row.
 

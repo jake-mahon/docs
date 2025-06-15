@@ -2,7 +2,7 @@
 
 The Storage node contains objects known as Storage Profiles. Storage Profiles house the information Access Analyzer uses to connect to a SQL Server database within your environment.
 
-![Storage Node](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/storage/storage.webp)
+![Storage Node](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/storage/storage.webp)
 
 Each Storage Profile consists of the following parts:
 
@@ -18,7 +18,7 @@ Each Storage Profile consists of the following parts:
 
   - Windows authentication – Leverages the account used to run the Access Analyzer Console
 
-    __NOTE:__ This option affects the credentials used for Schedule Service Accounts. See the [Schedule](/docs/accessanalyzer/enterpriseauditor/admin/settings/schedule.md) topic for additional information.
+    __NOTE:__ This option affects the credentials used for Schedule Service Accounts. See the [Schedule](../schedule.md) topic for additional information.
   - SQL Server authentication – Leverages the account provided in the __User name__ and __Password__ textboxes
   - Use existing password – Use the password configured for the Storage Profile account
   - Specify a new password below – Enter a new password for the selected Storage Profile account
@@ -27,16 +27,16 @@ Each Storage Profile consists of the following parts:
   - Use existing database – Drop-down menu provides a list of databases on the named SQL Server, provided the connection information supplied is correct. If the menu is empty, then a connection to the SQL Server was not established.
   - Create new database – Access Analyzer automatically creates a new database using the name provided in the textbox. This value should be a unique, descriptive name.
 
-![Operations on the Storage view](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/storage/storageoperations.webp)
+![Operations on the Storage view](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/storage/storageoperations.webp)
 
 At the Storage view, the following operations are available:
 
-- Add Storage profile – Create a new Storage Profile. See the [Add a Storage Profile](/docs/accessanalyzer/enterpriseauditor/admin/settings/storage/add.md) topic for additional information.
-- Set as default – Change the default Storage Profile. See the [Set a Default Storage Profile](/docs/accessanalyzer/enterpriseauditor/admin/settings/storage/default.md) topic for additional information.
-- Delete – Remove a Storage Profile. See the [Delete a Storage Profile](/docs/accessanalyzer/enterpriseauditor/admin/settings/storage/delete.md) topic for additional information.
+- Add Storage profile – Create a new Storage Profile. See the [Add a Storage Profile](add.md) topic for additional information.
+- Set as default – Change the default Storage Profile. See the [Set a Default Storage Profile](default.md) topic for additional information.
+- Delete – Remove a Storage Profile. See the [Delete a Storage Profile](delete.md) topic for additional information.
 
 __NOTE:__ A green checkmark in the Storage Profiles list indicates the default Storage Profile.
 
 The __Cancel__ and __Save__ buttons are in the lower-right corner of the Storage view. These buttons become enabled when modifications are made to the Storage global setting. Whenever changes are made at the global level, click __Save__ and then __OK__ to confirm the changes. Otherwise, click __Cancel__ if no changes were intended.
 
-The vault provides enhanced security through enhanced encryption to various credentials stored by the Access Analyzer application. See the [Vault](/docs/accessanalyzer/enterpriseauditor/admin/settings/application/vault.md) topic for additional information.
+The vault provides enhanced security through enhanced encryption to various credentials stored by the Access Analyzer application. See the [Vault](../application/vault.md) topic for additional information.

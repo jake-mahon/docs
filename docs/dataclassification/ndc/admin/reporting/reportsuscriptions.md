@@ -4,7 +4,7 @@ Subscriptions for report templates enable you to schedule email delivery of a va
 
 To view existing subscriptions for reports, navigate to the __Report Templates__ page on the left and click __View Subscriptions__ next to an existing template to view and edit subscriptions.
 
-![managesubscription](/img/product_docs/dataclassification/ndc/admin/reporting/managesubscription.webp)
+![managesubscription](../../../../../static/img/product_docs/dataclassification/ndc/admin/reporting/managesubscription.webp)
 
 Checking the __Create a Subscription__ box when saving a new report configuration will enable users to create a new subscription. The following options are configured on the __Manage Subscriptions__ page:
 

@@ -18,7 +18,7 @@ __Step 4 –__ When the Validating Install window is finished processing, check 
 
 __Step 5 –__ Close the Extensions Management window, and then select the File Activity Monitor tab within QRadar.
 
-The File Activity Monitor tab will appear within QRadar. It is necessary for the QRadar SEC token to be saved to the Settings interface of the __File Activity Monitor__ App. See the [Settings](/docs/activitymonitor/activitymonitor/siem/qradar/settings.md) topic for additional information.
+The File Activity Monitor tab will appear within QRadar. It is necessary for the QRadar SEC token to be saved to the Settings interface of the __File Activity Monitor__ App. See the [Settings](settings.md) topic for additional information.
 
 ## Initial Configuration of the QRadar App
 

@@ -12,7 +12,7 @@ Customization records contain the following information:
 4. What the joins are between customizations.
 5. What detailed automated documentation exists, including search filters and formulas, related fields, scripts, searches and records.
 
-The joins between customizations are critical to determine the IT risk of making changes to the system. For example, they warn you if changing a search could break a workflow or a script.![drd_800x155](/img/product_docs/strongpointsalesforceflashlight/customizations/drd_800x155.webp)
+The joins between customizations are critical to determine the IT risk of making changes to the system. For example, they warn you if changing a search could break a workflow or a script.![drd_800x155](../../../static/img/product_docs/strongpointsalesforceflashlight/customizations/drd_800x155.webp)
 
 ## Customization Reports
 

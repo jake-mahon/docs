@@ -7,7 +7,7 @@ health status.
 
 On every successful run of the Replication service, Directory Manager generates the replication status of object types for each domain in an identity store and alerts you to any errors that may have occurred during the replication process.
 
-NOTE: The Replication service does not replicate excluded domains for an identity store. See the [Exclude an Active Directory Domain from Replication](/docs/groupid/groupid/admincenter/identitystore/manage.md#exclude-an-active-directory-domain-from-replication) topic.
+NOTE: The Replication service does not replicate excluded domains for an identity store. See the [Exclude an Active Directory Domain from Replication](../identitystore/manage.md#exclude-an-active-directory-domain-from-replication) topic.
 
 ### How to Resolve Replication Errors
 
@@ -15,7 +15,7 @@ Possible actions to eliminate replication errors are:
 
 - Make sure the Replication service and Elasticsearch service are running.
 - Make sure Search Guard or any other security plugin you use for Elasticsearch is operational.
-- Consult the Replication service logs. They provide elaborate information about the object type in the specific domain of the identity store the error occurred for, and whether that error comes from the identity provider or Elasticsearch. See the [Replication Service Logs](/docs/groupid/groupid/admincenter/replication/overview.md#replication-service-logs) topic.
+- Consult the Replication service logs. They provide elaborate information about the object type in the specific domain of the identity store the error occurred for, and whether that error comes from the identity provider or Elasticsearch. See the [Replication Service Logs](overview.md#replication-service-logs) topic.
 
 What do you want to do?
 
@@ -34,7 +34,7 @@ What do you want to do?
 
 Directory Manager enables you to monitor the Elasticsearch service for the following:
 
-- The status of the Elasticsearch service. See the [Elasticsearch Service](/docs/groupid/groupid/admincenter/general/dashboard.md#elasticsearch-service) card on the Admin Center dashboard.
+- The status of the Elasticsearch service. See the [Elasticsearch Service](../general/dashboard.md#elasticsearch-service) card on the Admin Center dashboard.
 - Elasticsearch cluster health stats, which include:
 
   - Cluster name, health status, node info and shards info
@@ -47,7 +47,7 @@ __To view Elasticsearch health status:__
 1. In Admin Center, click __Replication__ in the left pane.
 2. On the __Replication__ page, click __Elasticsearch Health Monitor__.
 
-   ![es_health_monitor](/img/product_docs/groupid/groupid/admincenter/replication/es_health_monitor.webp)
+   ![es_health_monitor](../../../../../static/img/product_docs/groupid/groupid/admincenter/replication/es_health_monitor.webp)
 
    This dialog box lists the Elasticsearch clusters in your environment, with the following information for each cluster:
 
@@ -61,7 +61,7 @@ __To view Elasticsearch health status:__
 3. To refresh the information displayed, click the __Refresh__ icon.
 4. Click a cluster name to view it in detail.
 
-   ![cluster_info](/img/product_docs/groupid/groupid/admincenter/replication/cluster_info.webp)
+   ![cluster_info](../../../../../static/img/product_docs/groupid/groupid/admincenter/replication/cluster_info.webp)
 
    This dialog box displays the total number of nodes in the cluster. Each node is represented by a card, that displays the following for the node:
 
@@ -85,7 +85,7 @@ __To view Elasticsearch health status:__
 
 ## Specify a Replication Interval for Objects
 
-The Replication service interval applies to all identity stores defined in Admin Center. Object attributes to be replicated are specified in the respective identity store settings. See the [Manage Local Replication Settings](/docs/groupid/groupid/admincenter/identitystore/replication.md) topic.
+The Replication service interval applies to all identity stores defined in Admin Center. Object attributes to be replicated are specified in the respective identity store settings. See the [Manage Local Replication Settings](../identitystore/replication.md) topic.
 
 __To set global replication interval:__
 
@@ -123,7 +123,7 @@ __To view the replication status:__
 
       These alerts are triggered when replication fails in the last run of the Replication service, or if the service does not run at the required triggering interval. To resolve replication errors, see the How to Resolve Replication Errors topic.
    2. The ‘Never replicated’ status indicates that the particular object type is not replicated yet. Similarly, a child domain that is not being used will have its status marked in red. To avoid these recurring errors, set the dates for these objects
-      to a distant future date in the Directory Manager database. Or you can exclude a domain from replication. See the [Exclude an Active Directory Domain from Replication](/docs/groupid/groupid/admincenter/identitystore/manage.md#exclude-an-active-directory-domain-from-replication) topic.
+      to a distant future date in the Directory Manager database. Or you can exclude a domain from replication. See the [Exclude an Active Directory Domain from Replication](../identitystore/manage.md#exclude-an-active-directory-domain-from-replication) topic.
 
 ## Specify Interval for Deleting Tombstone Objects
 
@@ -198,7 +198,7 @@ The Replication service runs every x minutes to replicate objects in an identity
 Directory Manager generates notifications to alert administrators to replication errors. By default, the triggering threshold is set to ‘3 attempts’, which means that notifications will be sent when errors occur in three consecutive runs of the Replication service.
 You can change the threshold value as required.
 
-Replication error notifications are sent to recipients whose email addresses are specified in the _To_ and _CC_ boxes on the __Notifications__ page. See the [Specify Notification Recipients](/docs/groupid/groupid/admincenter/identitystore/configure/smtpserver.md#specify-notification-recipients) topic.
+Replication error notifications are sent to recipients whose email addresses are specified in the _To_ and _CC_ boxes on the __Notifications__ page. See the [Specify Notification Recipients](../identitystore/configure/smtpserver.md#specify-notification-recipients) topic.
 
 __To set a triggering threshold:__
 
@@ -209,6 +209,6 @@ __To set a triggering threshold:__
 
 __See Also__
 
-- [Elasticsearch and Replication ](/docs/groupid/groupid/admincenter/replication/overview.md)
-- [Manage Local Replication Settings](/docs/groupid/groupid/admincenter/identitystore/replication.md)
-- [Replication Service](/docs/groupid/groupid/admincenter/service/replicationservice.md)
+- [Elasticsearch and Replication ](overview.md)
+- [Manage Local Replication Settings](../identitystore/replication.md)
+- [Replication Service](../service/replicationservice.md)

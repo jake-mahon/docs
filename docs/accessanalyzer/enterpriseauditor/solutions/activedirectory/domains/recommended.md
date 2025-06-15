@@ -36,7 +36,7 @@ The 5.Domains > 0.Collection > AD_DomainControllers job should be run with the d
 
 The following query can be modified to use a secure connection with TLS/SSL:
 
-- Domain Controller Listing Query which uses the [LDAP Data Collector](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/ldap.md)
+- Domain Controller Listing Query which uses the [LDAP Data Collector](../../../admin/datacollector/ldap.md)
 
 Workflow
 

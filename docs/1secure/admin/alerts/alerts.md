@@ -4,8 +4,8 @@ When you create an alert profile, several alerts are preconfigured for it. You c
 
 You can access the generated alerts in the following ways:
 
-- View the alerts generated for an organization on the Netwrix 1Secure dashboard. See the [1Secure Dashboard](/docs/1secure/admin/dashboard/overview.md) topic for additional information.
-- Receive alerts as email notifications sent to the specified email address(es). See the [Manage Delivery Settings for an Alert Profile ](/docs/1secure/admin/alerts/overview.md#manage-delivery-settings-for-an-alert-profile)topic for setting up email notifications.
+- View the alerts generated for an organization on the Netwrix 1Secure dashboard. See the [1Secure Dashboard](../dashboard/overview.md) topic for additional information.
+- Receive alerts as email notifications sent to the specified email address(es). See the [Manage Delivery Settings for an Alert Profile ](overview.md#manage-delivery-settings-for-an-alert-profile)topic for setting up email notifications.
 
 Follow the steps to view the alerts within an alert profile.
 
@@ -13,7 +13,7 @@ __Step 1 –__ Navigate to Configuration > Alerts.
 
 __Step 2 –__ Click an alert profile. The alerts for the profile are displayed in a list.
 
-![Alerts List within an alert profile](/img/product_docs/1secure/admin/alerts/alertslist.webp)
+![Alerts List within an alert profile](../../../../static/img/product_docs/1secure/admin/alerts/alertslist.webp)
 
 You can view the following for each alert in the list:
 
@@ -35,9 +35,9 @@ __Step 2 –__ Click an alert profile. The alerts for the profile are displayed 
 
 __Step 3 –__ Click __Add__. The New Alert pane is displayed.
 
-![New Alert Pane](/img/product_docs/1secure/admin/alerts/addcustomalert.webp)
+![New Alert Pane](../../../../static/img/product_docs/1secure/admin/alerts/addcustomalert.webp)
 
-__Step 4 –__ Select a custom report from the Report drop-down menu to trigger the alert when a new record is generated for the report. See the [ Custom Reports](/docs/1secure/admin/searchandreports/customreports.md) topic for additional information.
+__Step 4 –__ Select a custom report from the Report drop-down menu to trigger the alert when a new record is generated for the report. See the [ Custom Reports](../searchandreports/customreports.md) topic for additional information.
 
 __Step 5 –__ Specify a name and description for the alert.
 

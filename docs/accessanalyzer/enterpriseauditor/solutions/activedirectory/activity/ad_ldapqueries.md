@@ -2,7 +2,7 @@
 
 The __LDAP__ > __AD_LDAPQueries__ Job analyzes LDAP traffic to determine trends such as most expensive queries, most active servers and users, successful/failed and signing status. This data can be used to troubleshoot performance issues, load balancing, and poorly configured services.
 
-![AD_LDAPQueries Job in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/activity/ldapjobstree.webp)
+![AD_LDAPQueries Job in the Jobs Tree](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/activity/ldapjobstree.webp)
 
 ___RECOMMENDED:___ Schedule this job to run with the 0.Collection job group.
 
@@ -12,7 +12,7 @@ Navigate to the __Active Directory__ > __6.Activity__ > __LDAP__ > __AD_LDAPQuer
 
 __CAUTION:__ Except for the __Largest Queries__ task, do not modify or deselect the remaining selected analysis tasks. The remaining analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the AD_LDAPQueries Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/activity/ldapqueriesanalysis.webp)
+![Analysis Tasks for the AD_LDAPQueries Job](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/activity/ldapqueriesanalysis.webp)
 
 The following non-configurable analysis tasks are selected by default:
 
@@ -37,13 +37,13 @@ Customizable parameters enable you to set the values used to control the minimum
 
 __Step 1 –__ Navigate to the __Active Directory__ > __6.Activity__ > __LDAP__ > __AD_LDAPQueries__ > __Configure__ node and select __Analysis__.
 
-![Largest Queries analysis task configuration](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/activity/ldapqueriesanalysisconfiguration.webp)
+![Largest Queries analysis task configuration](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/activity/ldapqueriesanalysisconfiguration.webp)
 
 __Step 2 –__ In the Analysis Selection view, select the __Largest Queries__ analysis task and click __Analysis Configuration__. The SQL Script Editor opens.
 
 __CAUTION:__ Do not change any parameters where the Value states ```Created during execution```.
 
-![Largest Queries analysis task in the SQL Script Editor](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/activity/ldapsqlscripteditor.webp)
+![Largest Queries analysis task in the SQL Script Editor](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/activity/ldapsqlscripteditor.webp)
 
 __Step 3 –__ In the parameters section at the bottom of the editor, find the Value column. There are two integer variables that can be modified. Double-click on the current __value__ and change as desired:
 

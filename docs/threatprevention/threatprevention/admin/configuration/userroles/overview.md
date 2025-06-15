@@ -1,10 +1,10 @@
 # Users and Roles Window
 
-On the Users and Roles window, you can grant role based access to users on the Administration Console. See the [User Access Page](/docs/threatprevention/threatprevention/reportingmodule/configuration/systemsettings/useraccess.md) topic for information on granting access to the Netwrix Threat Manager Reporting Module console.
+On the Users and Roles window, you can grant role based access to users on the Administration Console. See the [User Access Page](../../../reportingmodule/configuration/systemsettings/useraccess.md) topic for information on granting access to the Netwrix Threat Manager Reporting Module console.
 
 Click __Configuration__ > __Users__ on the menu to open the Users and Roles window.
 
-![Users and Roles window](/img/product_docs/threatprevention/threatprevention/admin/configuration/userroles/usersroleswindow.webp)
+![Users and Roles window](../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/configuration/userroles/usersroleswindow.webp)
 
 __NOTE:__ This window is only available to Threat Prevention administrators.
 
@@ -17,7 +17,7 @@ There are two roles that can be applied to a Threat Prevention user:
 - Administrator – Full access to the Administration Console, though access can be restricted. See the Administrator Permissions topic for additional information.
 - Console Operator – Can create and run policies, and view event data.
 
-__NOTE:__ The Report User role was a legacy feature for the IIS-based Reporting Console and is no longer applicable. See the [Reporting Module](/docs/threatprevention/threatprevention/reportingmodule/overview.md) topic for information on the new reporting console.
+__NOTE:__ The Report User role was a legacy feature for the IIS-based Reporting Console and is no longer applicable. See the [Reporting Module](../../../reportingmodule/overview.md) topic for information on the new reporting console.
 
 Administration Console Rights
 
@@ -37,14 +37,14 @@ Administration Console Rights
 
 \*If an administrator changes permissions on protected policies they do not own, a system alert is generated.
 
-See the [Policies Interface](/docs/threatprevention/threatprevention/admin/policies/overview.md) topic for information on protected and unprotected policies.
+See the [Policies Interface](../../policies/overview.md) topic for information on protected and unprotected policies.
 
 A user must have the following minimum permissions on the SQL Server databases, both the NVMonitorConfig and NVMonitorData databases, according to the assigned role:
 
 - Administrator Role
 
   - Read/Write data
-  - If using [Database Maintenance Window](/docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/overview.md) – SQL Admin (sa) rights are required
+  - If using [Database Maintenance Window](../databasemaintenance/overview.md) – SQL Admin (sa) rights are required
 - Console Operator Role
 
   - Read/Write data
@@ -53,7 +53,7 @@ A user must have the following minimum permissions on the SQL Server databases, 
 
 The Features button is enabled for users with the Administrator role. It provides options to limit Administrator permissions to manage features, stop the Agent, or uninstall the Agent.
 
-![Users and Roles window showing the Edit Features window](/img/product_docs/threatprevention/threatprevention/admin/configuration/userroles/featuresbutton.webp)
+![Users and Roles window showing the Edit Features window](../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/configuration/userroles/featuresbutton.webp)
 
 Follow the steps to edit the features for the selected user. All listed features are enabled by default.
 

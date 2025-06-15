@@ -2,24 +2,24 @@
 
 Use Operations page to select one or more operations for the action to perform on the targeted Active Directory objects. Some operations have wizard pages to specify the configuration settings.
 
-![Active Directory Action Module Wizard Operations page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/operations.webp)
+![Active Directory Action Module Wizard Operations page](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/operations.webp)
 
 The Operations drop-down menu contains the following operations:
 
-- [Clear/Set SID History ](/docs/accessanalyzer/enterpriseauditor/admin/action/activedirectory/operations/sidhistory.md)
-- [Computer Details](/docs/accessanalyzer/enterpriseauditor/admin/action/activedirectory/operations/computerdetails.md)
-- [Disable/Enable Computers](/docs/accessanalyzer/enterpriseauditor/admin/action/activedirectory/operations/disableenablecomputers.md)
-- [Create Groups](/docs/accessanalyzer/enterpriseauditor/admin/action/activedirectory/operations/creategroups.md)
-- [Create Users](/docs/accessanalyzer/enterpriseauditor/admin/action/activedirectory/operations/createusers.md)
+- [Clear/Set SID History ](operations/sidhistory.md)
+- [Computer Details](operations/computerdetails.md)
+- [Disable/Enable Computers](operations/disableenablecomputers.md)
+- [Create Groups](operations/creategroups.md)
+- [Create Users](operations/createusers.md)
 - [Delete Objects](#delete-objects)
-- [Disable/Enable Users](/docs/accessanalyzer/enterpriseauditor/admin/action/activedirectory/operations/disableenableusers.md)
-- [Group Details](/docs/accessanalyzer/enterpriseauditor/admin/action/activedirectory/operations/groupdetails.md)
-- [Group Membership](/docs/accessanalyzer/enterpriseauditor/admin/action/activedirectory/operations/groupmembership.md)
+- [Disable/Enable Users](operations/disableenableusers.md)
+- [Group Details](operations/groupdetails.md)
+- [Group Membership](operations/groupmembership.md)
 - [Groups Remove All Members ](#groups-remove-all-members)
-- [Move Objects](/docs/accessanalyzer/enterpriseauditor/admin/action/activedirectory/operations/moveobjects.md)
-- [Set/Reset Users Password ](/docs/accessanalyzer/enterpriseauditor/admin/action/activedirectory/operations/setresetpassword.md)
+- [Move Objects](operations/moveobjects.md)
+- [Set/Reset Users Password ](operations/setresetpassword.md)
 - [Unlock Users ](#unlock-users)
-- [Users Details ](/docs/accessanalyzer/enterpriseauditor/admin/action/activedirectory/operations/usersdetails.md)
+- [Users Details ](operations/usersdetails.md)
 
 Select an operation from the drop-down list and then click __Add__. The selection appears in the Selections pane as well as the navigation pane if there is an associated configuration page. If performing multiple operations, the action executes the operations in the order in which they appear here. To change the order, select an operation and use the __Down__ and __Up__ buttons.
 

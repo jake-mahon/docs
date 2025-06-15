@@ -2,7 +2,7 @@
 
 On the Active Sessions dashboard, when the status Available is shown, the activity session is ready. To begin the activity session, click the Connection icon in the Status column for the applicable session to be automatically connected to the resource.
 
-![Connecto to remote session](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/revieweruser/dashboard/startactivitysession.webp)
+![Connecto to remote session](../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/revieweruser/dashboard/startactivitysession.webp)
 
 Also note the icons to view and copy the password for the session as plain text, if the option is enabled in the access policy Connection Profiles.
 
@@ -25,10 +25,10 @@ If Session Extension is enabled, the session extension option appears for users 
 
 __NOTE:__ For NPS users with the Administrator role, session extension is always enabled.
 
-![Extend Activity Session](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/dashboard/extendsession.webp)
+![Extend Activity Session](../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/dashboard/extendsession.webp)
 
 For RDP, a pop-up message is displayed in the session window.
 
-![extendsessionssh](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/dashboard/extendsessionssh.webp)
+![extendsessionssh](../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/dashboard/extendsessionssh.webp)
 
 For SSH the user can extend by typing __Ctrl+X__ when prompted.

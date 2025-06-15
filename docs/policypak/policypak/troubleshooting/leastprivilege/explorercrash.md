@@ -6,7 +6,7 @@ SecureCopy can run into conflicts with some third-party software shell extens
 
 Use Group Policy Preference items to delete the following registry keys. These keys are also wrapped into a collection and attached within this KB below.
 
-![676_1_image-20210823230906-1_950x247](/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/676_1_image-20210823230906-1_950x247.webp)
+![676_1_image-20210823230906-1_950x247](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/676_1_image-20210823230906-1_950x247.webp)
 
 Once the SecureCopy extension registration is removed from the registry, the EXPLORER.EXE crash issue will no longer occur.
 

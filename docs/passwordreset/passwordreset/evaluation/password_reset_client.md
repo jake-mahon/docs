@@ -6,7 +6,7 @@ Password Reset Client
 
 The Password Reset Client allows users to securely reset their password or unlock their account from the Windows Logon and Unlock Computer screens. Users click __Reset Password__ to access the Password Reset system.
 
-![the_password_reset_client_1](/img/product_docs/passwordreset/passwordreset/evaluation/the_password_reset_client_1.webp)
+![the_password_reset_client_1](../../../../static/img/product_docs/passwordreset/passwordreset/evaluation/the_password_reset_client_1.webp)
 
 The Password Reset Client does not modify any Windows system files.
 
@@ -42,7 +42,7 @@ __Step 2 –__ Extract __PRC_Config.reg__ from the .zip file.
 
 __Step 3 –__ Right-click __PRC_Config.reg__, then click __Edit__.
 
-![the_password_reset_client_1_1](/img/product_docs/passwordreset/passwordreset/evaluation/the_password_reset_client_1_1.webp)
+![the_password_reset_client_1_1](../../../../static/img/product_docs/passwordreset/passwordreset/evaluation/the_password_reset_client_1_1.webp)
 
 __Step 4 –__ Replace __127.0.0.1__ in the .reg file with the IP address or hostname of your evaluation server.
 

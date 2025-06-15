@@ -33,14 +33,14 @@ Integrate other applications with Directory Manager to perform several user mana
 
 ## Initial Admin Center Configurations
 
-After installing and configuring Directory Manager, the Super Admin is the only user who can sign into Admin Center (see the [Access Admin Center](/docs/groupid/groupid/admincenter/signin.md) topic for additional information). This user must create an identity store and configure security roles, so that other users can sign in and use the application. The Super Admin can choose to configure further settings or let another admin user in an identity store do so.
+After installing and configuring Directory Manager, the Super Admin is the only user who can sign into Admin Center (see the [Access Admin Center](admincenter/signin.md) topic for additional information). This user must create an identity store and configure security roles, so that other users can sign in and use the application. The Super Admin can choose to configure further settings or let another admin user in an identity store do so.
 
 The following settings must be configured in Admin Center, so that administrators and users can perform identity and access management tasks using Directory Manager:
 
-- Create and configure identity stores - An identity store is built on an identity provider and enables you to manage objects and object permissions in the provider. See the [Identity Stores](/docs/groupid/groupid/admincenter/identitystore/overview.md) topic for additional information.
-- Create data sources - A data source is built on a provider, such as directories, databases and files. Data sources are used as source and destination in Synchronize jobs, in query-based searches, and in group membership queries. See the [ Data Sources](/docs/groupid/groupid/admincenter/datasource/overview.md) topic for additional information.
-- Create a portal - Create a web-based Directory Manager portal and link it to an identity store, so that users can carry out user, group, and entitlement management tasks. See the [ Directory Manager Portal](/docs/groupid/groupid/admincenter/portal/overview.md) topic for additional information.
-- Create an SMS gateway account - Using an SMS gateway account, Directory Manager sends text messages to users’ mobile numbers, which may include verification codes and password reset links. See the [SMS Gateway](/docs/groupid/groupid/admincenter/smsgateway/overview.md) topic for additional information.
+- Create and configure identity stores - An identity store is built on an identity provider and enables you to manage objects and object permissions in the provider. See the [Identity Stores](admincenter/identitystore/overview.md) topic for additional information.
+- Create data sources - A data source is built on a provider, such as directories, databases and files. Data sources are used as source and destination in Synchronize jobs, in query-based searches, and in group membership queries. See the [ Data Sources](admincenter/datasource/overview.md) topic for additional information.
+- Create a portal - Create a web-based Directory Manager portal and link it to an identity store, so that users can carry out user, group, and entitlement management tasks. See the [ Directory Manager Portal](admincenter/portal/overview.md) topic for additional information.
+- Create an SMS gateway account - Using an SMS gateway account, Directory Manager sends text messages to users’ mobile numbers, which may include verification codes and password reset links. See the [SMS Gateway](admincenter/smsgateway/overview.md) topic for additional information.
 
 ## Compatibility
 

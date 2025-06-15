@@ -8,7 +8,7 @@ Select a File output from either the Monitored Domains tab or the Monitored Host
 
 The tab contains the following settings:
 
-![logfilesactivedirectory](/img/product_docs/activitymonitor/activitymonitor/admin/outputs/logfilesactivedirectory.webp)
+![logfilesactivedirectory](../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/outputs/logfilesactivedirectory.webp)
 
 - Log file path – Identifies the full path of the activity log files on the activity agent server. The date timestamp is appended to the file name automatically.
 - Period to keep Log files – Activity logs are deleted after the number of days entered. The default is 10 days. The Active Directory activity log settings also affect log size by controlling the information recorded per event.
@@ -27,7 +27,7 @@ Click __OK__ to commit the modifications. Click __Cancel__ to discard the modifi
 
 The tab contains the following settings:
 
-![Log File Tab - Windows File servers and NAS devices hosts](/img/product_docs/activitymonitor/activitymonitor/admin/outputs/windowsfilenasdevices.webp)
+![Log File Tab - Windows File servers and NAS devices hosts](../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/outputs/windowsfilenasdevices.webp)
 
 - Log file path – Identifies the full path of the activity log files on the activity agent server. The date timestamp is appended to the file name automatically.
 - Period to keep Log files – Activity logs are deleted after the number of days entered. The default is 10 days.
@@ -61,7 +61,7 @@ Click __OK__ to commit the modifications. Click __Cancel__ to discard the modifi
 
 The tab contains the following settings:
 
-![Log Files Tab for Linux Hosts](/img/product_docs/activitymonitor/activitymonitor/admin/outputs/linux.webp)
+![Log Files Tab for Linux Hosts](../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/outputs/linux.webp)
 
 - Log file path – Identifies the full path of the activity log files on the activity agent server. The date timestamp is appended to the file name automatically.
 - Period to keep Log files – Activity logs are deleted after the number of days entered. The default is 10 days.
@@ -85,7 +85,7 @@ Click __OK__ to commit the modifications. Click __Cancel__ to discard the modifi
 
 The tab contains the following settings:
 
-![Log File Tab - Azure Active Directory](/img/product_docs/activitymonitor/activitymonitor/admin/outputs/azuread.webp)
+![Log File Tab - Azure Active Directory](../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/outputs/azuread.webp)
 
 - Log file path – Identifies the full path of the activity log files on the activity agent server. The date timestamp is appended to the file name automatically.
 - Period to keep Log files – Activity logs are deleted after the number of days entered. The default is 10 days.
@@ -103,10 +103,10 @@ Click __OK__ to commit the modifications. Click __Cancel__ to discard the modifi
 
 The tab contains the following settings:
 
-![Log File Tab - SharePoint On-Premises hosts](/img/product_docs/activitymonitor/activitymonitor/admin/outputs/sharepointonprem.webp)
+![Log File Tab - SharePoint On-Premises hosts](../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/outputs/sharepointonprem.webp)
 
 - Log file path – Identifies the full path of the activity log files on the activity agent server. The date timestamp is appended to the file name automatically.
-- Log file format – Indicates the file type used for the activity log. The default is JSON. See [SharePoint JSON Log File](/docs/activitymonitor/activitymonitor/admin/outputs/logfile/sharepointjson.md) topic and the [SharePoint TSV Log File](/docs/activitymonitor/activitymonitor/admin/outputs/logfile/sharepointtsv.md) topic for additional information.
+- Log file format – Indicates the file type used for the activity log. The default is JSON. See [SharePoint JSON Log File](logfile/sharepointjson.md) topic and the [SharePoint TSV Log File](logfile/sharepointtsv.md) topic for additional information.
 - Period to keep Log files – Activity logs are deleted after the number of days entered. The default is 10 days.
 
   __NOTE:__ This setting effects activity log retention whether or not the archiving feature is enabled.

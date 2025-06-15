@@ -7,7 +7,7 @@ Use this page to specify basic information about the group.
    This field would be read-only if the administrator has predefined a container for creating new groups.
 2. In the __Group Name__ box, provide a name for the group by selecting a prefix and then entering a name for the group.
 
-   NOTE: The prefix box is displayed if the administrator has defined the prefixes. See the [Group Name Prefixes](/docs/groupid/groupid/admincenter/identitystore/configure/directoryservice/prefixes.md) topic for additional information.  
+   NOTE: The prefix box is displayed if the administrator has defined the prefixes. See the [Group Name Prefixes](../../../../admincenter/identitystore/configure/directoryservice/prefixes.md) topic for additional information.  
     These prefixes, when
    appended to group names, help standardize the group naming convention across the enterprise.
 3. The __Name Preview__ is displayed if the prefix list is available and displays a preview of the prefix combined with the group name.

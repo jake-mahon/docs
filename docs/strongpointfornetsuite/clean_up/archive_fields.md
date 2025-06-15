@@ -16,5 +16,5 @@ To create a change request:
 - Cannot Be Safely Deleted or Modified or
 - Inactive Customizations (Already Deleted)
 
-![archivefields1](/img/product_docs/strongpointfornetsuite/clean_up/archivefields1.webp)6. Click on the __Archive Customizations__ if you find your customizations under __Cannot Be Safely Deleted or Modified__ and under __Warning it says Not Archived__
-![archivefields2](/img/product_docs/strongpointfornetsuite/clean_up/archivefields2.webp)7. Once your customizations are processed and archived, your customizations are listed under __Can be Safely Deleted or Modified__. Your [archive folder](/docs/strongpointfornetsuite/clean_up/set_up_archive_folder.md) has the CSV file you can download. The file name has the field type and the script ID.
+![archivefields1](../../../static/img/product_docs/strongpointfornetsuite/clean_up/archivefields1.webp)6. Click on the __Archive Customizations__ if you find your customizations under __Cannot Be Safely Deleted or Modified__ and under __Warning it says Not Archived__
+![archivefields2](../../../static/img/product_docs/strongpointfornetsuite/clean_up/archivefields2.webp)7. Once your customizations are processed and archived, your customizations are listed under __Can be Safely Deleted or Modified__. Your [archive folder](set_up_archive_folder.md) has the CSV file you can download. The file name has the field type and the script ID.

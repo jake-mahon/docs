@@ -2,7 +2,7 @@
 
 As soon as you are logged in to the __Netwrix Password Secure App__, you can access the __settings__ via the three dots at the very top left of the screen. These will be briefly explained here.
 
-![MobileApp - settings](/img/product_docs/passwordsecure/passwordsecure/configuration/mobiledevices/settings/settings-ma-en.webp) ![MobileApp - settings](/img/product_docs/passwordsecure/passwordsecure/configuration/mobiledevices/settings/settings-2-ma-en.webp)
+![MobileApp - settings](../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/mobiledevices/settings/settings-ma-en.webp) ![MobileApp - settings](../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/mobiledevices/settings/settings-2-ma-en.webp)
 
 #### General
 
@@ -38,7 +38,7 @@ NOTE: Costs may be incurred for synchronization via the mobile network!
 
 Synchronize now
 
-Starts the synchronization. This can also be started outside the settings at any time by simply swiping down. More information can also be found in the chapter [Synchronization](/docs/passwordsecure/passwordsecure/configuration/mobiledevices/synchronization/synchronization.md).
+Starts the synchronization. This can also be started outside the settings at any time by simply swiping down. More information can also be found in the chapter [Synchronization](../synchronization/synchronization.md).
 
 Fix sync errors
 

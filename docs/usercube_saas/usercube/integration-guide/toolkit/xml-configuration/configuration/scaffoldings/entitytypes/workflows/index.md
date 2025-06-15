@@ -2,39 +2,39 @@
 
 - [
   Create Update Delete Menus
-  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/entitytypes/workflows/createupdatedeletemenus/index.md)
+  ](createupdatedeletemenus/index.md)
 
   Creates updates and deletes menus for an entity.
 - [
   Create Update Delete Workflows
-  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/entitytypes/workflows/createupdatedeleteworkflows/index.md)
+  ](createupdatedeleteworkflows/index.md)
 - [
   Update Resources Menus
-  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/entitytypes/workflows/updateresourcesmenus/index.md)
+  ](updateresourcesmenus/index.md)
 - [
   Update Resources Workflows
-  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/entitytypes/workflows/updateresourcesworkflows/index.md)
+  ](updateresourcesworkflows/index.md)
 - [
   Workflow Actors Notification
-  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/entitytypes/workflows/workflowactorsnotification/index.md)
+  ](workflowactorsnotification/index.md)
 - [
   Workflow Entity Type
-  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/entitytypes/workflows/workflowentitytype/index.md)
+  ](workflowentitytype/index.md)
 
   Creates an entity that will be the source of all workflows that manipulate the given entity.
 - [
   Workflow Entity Type Display Entity Type
-  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/entitytypes/workflows/workflowentitytypedisplayentitytype/index.md)
+  ](workflowentitytypedisplayentitytype/index.md)
 - [
   Workflow Entity Type Display Table
-  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/entitytypes/workflows/workflowentitytypedisplaytable/index.md)
+  ](workflowentitytypedisplaytable/index.md)
 
   Creates the display table of the workflow entity of the starting entity.
 - [
   Workflow Entity Type Search Bar
-  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/entitytypes/workflows/workflowentitytypesearchbar/index.md)
+  ](workflowentitytypesearchbar/index.md)
 
   Creates the search bar of the workflow entity of the starting entity.
 - [
   Workflow Performer Notification
-  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/entitytypes/workflows/workflowperformernotification/index.md)
+  ](workflowperformernotification/index.md)

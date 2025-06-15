@@ -30,7 +30,7 @@ Update-Group -SearchContainer “OU=Sales,DC=Contoso,DC=com”
 
 Example 2:
 
-The following command updates all Smart Groups and Dynasties present in the container Training, using the credentials set in the $Credentials environment variable. See the [Set the $Credentials Environment Variable](/docs/groupid/groupid/managementshell/parameters/setthecredential.md) topic for setting credentials in an environment variable.
+The following command updates all Smart Groups and Dynasties present in the container Training, using the credentials set in the $Credentials environment variable. See the [Set the $Credentials Environment Variable](../parameters/setthecredential.md) topic for setting credentials in an environment variable.
 
 ```
 Update-Group -SearchContainer "OU=Training,DC=HR,DC=Imanami,DC=US" -Credential $Cred

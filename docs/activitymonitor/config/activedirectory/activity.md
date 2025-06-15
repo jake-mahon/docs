@@ -5,7 +5,7 @@ There are two methods to configure Activity Monitor to provide Active Directory 
 - API Server
 - File Archive Repository
 
-See the [File Archive Repository Option](/docs/activitymonitor/config/activedirectory/filearchive.md) topic for additional information on that option.
+See the [File Archive Repository Option](filearchive.md) topic for additional information on that option.
 
 ## API Server Option
 
@@ -138,11 +138,11 @@ __Step 2 –__ Click __Query Properties__. The Query Properties window displays.
 
 __Step 3 –__ On the Data Source tab, select __Configure__. The Active Directory Activity DC wizard opens.
 
-![Active Directory Activity DC wizard Category page](/img/product_docs/activitymonitor/config/activedirectory/categoryimportfromnam.webp)
+![Active Directory Activity DC wizard Category page](../../../../static/img/product_docs/activitymonitor/config/activedirectory/categoryimportfromnam.webp)
 
 __Step 4 –__ On the Category page, choose __Import from SAM__ option and click __Next__.
 
-![Active Directory Activity DC wizard SAM connection settings page](/img/product_docs/activitymonitor/config/activedirectory/namconnection.webp)
+![Active Directory Activity DC wizard SAM connection settings page](../../../../static/img/product_docs/activitymonitor/config/activedirectory/namconnection.webp)
 
 __Step 5 –__ On the SAM connection page, the __Port__ is set to the default 4494. This needs to match the port configured for the Activity Monitor API Server agent.
 
@@ -152,7 +152,7 @@ __Step 7 –__ If connection is successful, the archive location displays along 
 
 __Step 8 –__ Click __Next__.
 
-![Active Directory Activity DC wizard Scoping and Retention page](/img/product_docs/activitymonitor/config/activedirectory/scope.webp)
+![Active Directory Activity DC wizard Scoping and Retention page](../../../../static/img/product_docs/activitymonitor/config/activedirectory/scope.webp)
 
 __Step 9 –__ On the Scope page, set the Timespan as desired. There are two options:
 

@@ -25,7 +25,7 @@ To be able to configure the DQS mode, current account requires a __Superuser__ r
 
 To arrange NDC Servers cluster and apply DQS mode
 
-1. Install and configure the first Netwrix Data Classification Server as described in the [Install Netwrix Data Classification](/docs/dataclassification/ndc/install/overview.md) section.
+1. Install and configure the first Netwrix Data Classification Server as described in the [Install Netwrix Data Classification](../install/overview.md) section.
 2. Open administrative web console.
 3. Navigate to Settings → Utilities → DQS.
 4. Select Enable DQS.
@@ -33,7 +33,7 @@ To arrange NDC Servers cluster and apply DQS mode
    __NOTE:__ Once the DQS mode is enabled, you cannot roll back your configuration. Netwrix strongly recommends to ensure that you have taken a full backup of your environment. If ready, confirm the DOS enablement operation when prompted.
 5. On the DQS tab, click Add to add servers you prepared, one by one.
 
-   ![dqs_mode_page_thumb_0_0](/img/product_docs/dataclassification/ndc/requirements/dqs_mode_page_thumb_0_0.webp)
+   ![dqs_mode_page_thumb_0_0](../../../../static/img/product_docs/dataclassification/ndc/requirements/dqs_mode_page_thumb_0_0.webp)
 
    Complete the following fields:
 
@@ -46,8 +46,8 @@ To arrange NDC Servers cluster and apply DQS mode
    | Alternate QS Path | Netwrix recommends using default values. |
 6. Click __Save__ to close the dialog.
 7. Prepare to install other Netwrix Data Classification Server instances, assuming each server requires a dedicated machine.
-   Make sure they meet the [Hardware Requirements](/docs/dataclassification/ndc/requirements/hardwarerequirements.md) and general [Software Requirements](/docs/dataclassification/ndc/requirements/softwarerequirements.md)
-8. On each server, follow the installation steps as described in the [Install Netwrix Data Classification](/docs/dataclassification/ndc/install/overview.md) section until SQL Database configuration.
+   Make sure they meet the [Hardware Requirements](hardwarerequirements.md) and general [Software Requirements](softwarerequirements.md)
+8. On each server, follow the installation steps as described in the [Install Netwrix Data Classification](../install/overview.md) section until SQL Database configuration.
 9. On the SQL Database step, provide the name of the SQL Server instance that hosts NDC SQL database you configured for the first NDC Server.
 
 __NOTE:__ Ignore the confirmation dialog on the existing schema in the selected SQL database.
@@ -55,10 +55,10 @@ __NOTE:__ Ignore the confirmation dialog on the existing schema in the selected 
 10. Complete the installation.
 11. Repeat steps 2 - 6 for every NDC Server, then review the list of servers to make sure the new server was included.
 
-![dqs_servers_list_thumb_0_0](/img/product_docs/dataclassification/ndc/requirements/dqs_servers_list_thumb_0_0.webp)
+![dqs_servers_list_thumb_0_0](../../../../static/img/product_docs/dataclassification/ndc/requirements/dqs_servers_list_thumb_0_0.webp)
 
 12. If you were configuring the DQS mode for the existing NDC deployment, you will be prompted to re-collect data from the data sources —in order to re-distribute the content index across all NDC Servers in the cluster.
 
 __NOTE:__ To force re-distribution when necessary, you can use the Re-Collect command available after clicking __Run Cleaner__ button on the __Settings > Core > Collector__ tab.
 
-To review system health and check your configuration, use the product dashboards. [See Operations and Health Dashboards for more information.](/docs/dataclassification/ndc/admin/reporting/dashboards.md)
+To review system health and check your configuration, use the product dashboards. [See Operations and Health Dashboards for more information.](../admin/reporting/dashboards.md)

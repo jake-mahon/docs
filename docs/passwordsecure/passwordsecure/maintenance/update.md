@@ -16,11 +16,11 @@ __CAUTION:__ Please always check the Changelog for requirements or breaking chan
 
 ### Check the software maintenance package
 
-The right to install updates is acquired with the software maintenance package. It is important to note that you are permitted to install all updates as long as the software maintenance package is still active. If the software maintenance package has expired, you are only permitted to use those versions that were released during the term of the software maintenance package. Therefore, you should check whether the software maintenance package is still active before an update. This can be easily checked on the Server Manager under [License settings](/docs/passwordsecure/passwordsecure/configuration/server_manager/main_menu/license_settings.md).
+The right to install updates is acquired with the software maintenance package. It is important to note that you are permitted to install all updates as long as the software maintenance package is still active. If the software maintenance package has expired, you are only permitted to use those versions that were released during the term of the software maintenance package. Therefore, you should check whether the software maintenance package is still active before an update. This can be easily checked on the Server Manager under [License settings](../configuration/server_manager/main_menu/license_settings.md).
 
 ### Creating a backup
 
-An update always involves making a profound change to the existing software. A corresponding [Backup management](/docs/passwordsecure/passwordsecure/configuration/server_manager/main_menu/backup_settings/backup_management/backup_management.md) should thus be created directly before the update to ensure that no data is lost if a serious problem arises.
+An update always involves making a profound change to the existing software. A corresponding [Backup management](../configuration/server_manager/main_menu/backup_settings/backup_management/backup_management.md) should thus be created directly before the update to ensure that no data is lost if a serious problem arises.
 
 ### Checking compatibility
 
@@ -41,7 +41,7 @@ The Server Manager is simply installed on top of the existing installation. The 
 
 NOTE: If the service has not been ended in advance, the installation wizard will give you the opportunity to do so. If the service is still not ended at this stage, the computer will then need to be restarted. It is thus recommended that the Netwrix Password Secure services are ended before the update.
 
-Further information on the installation wizard can be found in the section [Installation Server Manager](/docs/passwordsecure/passwordsecure/installation/installation_server_manager/installation_server_manager.md).
+Further information on the installation wizard can be found in the section [Installation Server Manager](../installation/installation_server_manager/installation_server_manager.md).
 
 ### Patch level update for the databases
 
@@ -53,8 +53,8 @@ The updates for the client are also simply installed over the existing installat
 
 ### Updating the Web Application
 
-The application server must firstly be updated. A new Web Application ([Installation Web Application](/docs/passwordsecure/passwordsecure/installation/installation_web_application/installation_web_application.md) is then created according to the instructions for the web server being used. The document directory on the web server should now be completely emptied. The Web Application is then unzipped and copied to the document directory on the corresponding web server.
+The application server must firstly be updated. A new Web Application ([Installation Web Application](../installation/installation_web_application/installation_web_application.md) is then created according to the instructions for the web server being used. The document directory on the web server should now be completely emptied. The Web Application is then unzipped and copied to the document directory on the corresponding web server.
 
 __CAUTION:__ If the Web Application is being operated on an IIS web server, a new config.bat is generated for creating the new version. This must not be executed if the Web Application has already been installed and it must be deleted without fail after a successful update.
 
-NOTE: If the Web Application is used, the module: ```proxy_wstunnel``` must be installed when using Apache. With IIS the ```WebSocket Protocol``` becomes necessary. Further information can be found in the chapter [Webserver](/docs/passwordsecure/passwordsecure/installation/requirements/webserver.md). This applies to version 8.5.0.14896 or newer.
+NOTE: If the Web Application is used, the module: ```proxy_wstunnel``` must be installed when using Apache. With IIS the ```WebSocket Protocol``` becomes necessary. Further information can be found in the chapter [Webserver](../installation/requirements/webserver.md). This applies to version 8.5.0.14896 or newer.

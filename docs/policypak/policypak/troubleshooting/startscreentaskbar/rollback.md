@@ -2,4 +2,4 @@
 
 Use Netwrix Endpoint Policy Manager (formerly PolicyPak) Script manager to run a simple script to re-trigger the initial start menu layout. Note you may not get an EXACT revert; but it's pretty close.
 
-[Endpoint Policy ManagerStart Screen and Endpoint Policy Manager Scripts: Specify exact Start Menu experience one time](/docs/policypak/policypak/video/startscreentaskbar/onetime.md)
+[Endpoint Policy ManagerStart Screen and Endpoint Policy Manager Scripts: Specify exact Start Menu experience one time](../../video/startscreentaskbar/onetime.md)

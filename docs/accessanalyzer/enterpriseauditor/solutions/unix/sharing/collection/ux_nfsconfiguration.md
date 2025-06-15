@@ -8,7 +8,7 @@ The UX_NFSConfiguration job uses the Unix Data Collector for the following queri
 
 __CAUTION:__ The queries are preconfigured for this job. Never modify the queries.
 
-![Queries for the UX_NFSConfiguration Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/unix/sharing/collection/nfsconfigurationqueries.webp)
+![Queries for the UX_NFSConfiguration Job](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/unix/sharing/collection/nfsconfigurationqueries.webp)
 
 The queries for the UX_NFSConfiguration job are:
 
@@ -21,7 +21,7 @@ Navigate to the __Unix__ > __3.Sharing__ > __0.Collection__ > __UX_NFSConfigurat
 
 __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis task is preconfigured for this job.
 
-![Analysis Tasks for the UX_NFSConfiguration Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/unix/sharing/collection/nfsconfigurationanalysis.webp)
+![Analysis Tasks for the UX_NFSConfiguration Job](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/unix/sharing/collection/nfsconfigurationanalysis.webp)
 
 The default analysis task is:
 

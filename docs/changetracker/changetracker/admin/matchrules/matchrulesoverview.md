@@ -2,5 +2,5 @@
 
 Review the following for additional information:
 
-- [File and Folder Match Filters for Inclusion and Exclusion Rules ](/docs/changetracker/changetracker/admin/matchrules/filefolderrules.md)
-- [Registry Inclusion/Exclusion Match Rules ](/docs/changetracker/changetracker/admin/matchrules/registryrules.md)
+- [File and Folder Match Filters for Inclusion and Exclusion Rules ](filefolderrules.md)
+- [Registry Inclusion/Exclusion Match Rules ](registryrules.md)

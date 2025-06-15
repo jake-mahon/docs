@@ -10,7 +10,7 @@ While configuring the Directory Manager machine, the Configuration Tool checks t
 
 If you are running the Configuration Tool on a machine that had a prior Directory Manager version and the Signing Key utility is not applied on that Directory Manager on that machine. The Configuration Tool will change the Signing Key and displays a disclaimer message on the Directory Manager is successfully configured page as follows:
 
-![GroupID is successfully configured page with Signing Key Disclaimer](/img/product_docs/groupid/groupid/install/configure/signkeydisclaimer.jpg)
+![GroupID is successfully configured page with Signing Key Disclaimer](../../../../../static/img/product_docs/groupid/groupid/install/configure/signkeydisclaimer.jpg)
 
 Remember, after the Signing Key update, your existing schedules will not work as their authentication mechanism will no longer be considered valid. Therefore, the authentication mechanism must be updated for schedules using one of the following way:
 
@@ -24,13 +24,13 @@ In the multi Directory Manager instances environment with a single cluster ( _i.
 Step 1 – Run the Configuration Tool on the master node of the cluster. It will change the Signing Key on the master node and display a disclaimer message on the Directory Manager is successfully configured page as shown in the Single Directory Manager instance section.
 
 Step 2 – Export the Signing Key so that the slave node also has the same Signing Key as of the master node. See the [Export a Signing Key
-](/docs/groupid/groupid/admincenter/service/securityservice/signkeyutility.md#export-a-signing-key)section of the [Signing Key Utility](/docs/groupid/groupid/admincenter/service/securityservice/signkeyutility.md) topic for information on how to export the Signing Key.
+](../../admincenter/service/securityservice/signkeyutility.md#export-a-signing-key)section of the [Signing Key Utility](../../admincenter/service/securityservice/signkeyutility.md) topic for information on how to export the Signing Key.
 
 Step 3 – On the slave node copy the exported Signing Key file into a folder.
 
 Step 4 – Run the Configuration Tool on the slave node until you reach the Import Signing Key page of the wizard:
 
-![Import Signing Key page](/img/product_docs/groupid/groupid/install/configure/importkey.jpg)
+![Import Signing Key page](../../../../../static/img/product_docs/groupid/groupid/install/configure/importkey.jpg)
 
 1. Click __Browse__ next to the Select file box to browse to the folder where you have copied the Signing Key file.
 2. Provide the password of the Signing Key file in the __Password__ box.
@@ -38,7 +38,7 @@ Step 4 – Run the Configuration Tool on the slave node until you reach the Impo
 
 Step 5 – The Configuration Tool displays the Directory Manager is successfully configured page without the disclaimer.
 
-![GroupID is successfully configured page](/img/product_docs/groupid/groupid/install/configure/success.jpg)
+![GroupID is successfully configured page](../../../../../static/img/product_docs/groupid/groupid/install/configure/success.jpg)
 
 Remember, after the Signing Key update, your existing schedules will not work as their authentication mechanism will no longer be considered valid. Therefore, the authentication mechanism must be updated for schedules using one of the following way:
 
@@ -58,13 +58,13 @@ Follow the steps to change the Signing Key on all four Directory Manager instanc
 Step 1 – Run the Configuration Tool on the master node of Cluster A (_i.e. instance 1_). It will change the Signing Key on the master node and display a disclaimer message on the Directory Manager is successfully configured page as shown in the Single Directory Manager instance section.
 
 Step 2 – Export the Signing Key so that the slave nodes of both the clusters also have the same Signing Key as of the master node of cluster A. See the [Export a Signing Key
-](/docs/groupid/groupid/admincenter/service/securityservice/signkeyutility.md#export-a-signing-key)section of the [Signing Key Utility](/docs/groupid/groupid/admincenter/service/securityservice/signkeyutility.md) topic for information on how to export the Signing Key file.
+](../../admincenter/service/securityservice/signkeyutility.md#export-a-signing-key)section of the [Signing Key Utility](../../admincenter/service/securityservice/signkeyutility.md) topic for information on how to export the Signing Key file.
 
 Step 3 – On the slave nodes of Cluster A and Cluster B (_i.e. instances 2 and 4_) copy the exported Signing Key file into a folder.
 
 Step 4 – Run the Configuration Tool on instance 2 and 4 until you reach the Import Signing Key page of the wizard.
 
-![Import Signing Key page](/img/product_docs/groupid/groupid/install/configure/importkey.jpg)
+![Import Signing Key page](../../../../../static/img/product_docs/groupid/groupid/install/configure/importkey.jpg)
 
 1. Click __Browse__ next to the Select file box to browse to the folder where you have copied the Signing Key file.
 2. Provide the password of the Signing Key file in the __Password__ box.
@@ -74,8 +74,8 @@ Step 5 – The Configuration Tool displays the Directory Manageris successfully 
 
 Step 6 – Run the Configuration Tool on the master node of cluster B (i.e. instance 3). The Configuration Tool displays the Directory Manager is successfully configured page with the disclaimer as shown in the Single Directory Manager instance section.
 
-Step 7 – On the master node of Cluster B (_i.e. instance 3_), run the [Signing Key Utility](/docs/groupid/groupid/admincenter/service/securityservice/signkeyutility.md) and import the copied Signing Key file using the commandlet given in the [Import a Signing Key
-](/docs/groupid/groupid/admincenter/service/securityservice/signkeyutility.md#import-a-signing-key)section of the [Signing Key Utility](/docs/groupid/groupid/admincenter/service/securityservice/signkeyutility.md) topic for information on how to import the Signing Key.
+Step 7 – On the master node of Cluster B (_i.e. instance 3_), run the [Signing Key Utility](../../admincenter/service/securityservice/signkeyutility.md) and import the copied Signing Key file using the commandlet given in the [Import a Signing Key
+](../../admincenter/service/securityservice/signkeyutility.md#import-a-signing-key)section of the [Signing Key Utility](../../admincenter/service/securityservice/signkeyutility.md) topic for information on how to import the Signing Key.
 
 Remember, after the Signing Key update, your existing schedules will not work as their authentication mechanism will no longer be considered valid. Therefore, the authentication mechanism must be updated for schedules using one of the following way:
 

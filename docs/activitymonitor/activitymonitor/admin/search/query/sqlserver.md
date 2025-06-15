@@ -2,7 +2,7 @@
 
 You can search SQL Server activity that has been monitored and recorded to a File output. When you select __SQL Server__ from the magnifying glass drop-down menu, a New Search tab opens with the applicable query filters.
 
-![SQL Server Search Query](/img/product_docs/activitymonitor/activitymonitor/admin/search/query/sqlsearchquerytoolbar.webp)
+![SQL Server Search Query](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/search/query/sqlsearchquerytoolbar.webp)
 
 The filters are separated into the following categories:
 
@@ -12,7 +12,7 @@ The filters are separated into the following categories:
 
 By default, the query is set to return all event activity for the past day. Configuring query filters will scope results returned.
 
-Set the filters as desired and click __Search__. The application searches through the appropriate activity log files and returns the events that match the filters. You can [Filter](/docs/activitymonitor/activitymonitor/admin/search/overview.md#filter) and [Sort](/docs/activitymonitor/activitymonitor/admin/search/overview.md#sort) the results using the column headers. Below the Search button is the [Export](/docs/activitymonitor/activitymonitor/admin/search/overview.md#export) option.
+Set the filters as desired and click __Search__. The application searches through the appropriate activity log files and returns the events that match the filters. You can [Filter](../overview.md#filter) and [Sort](../overview.md#sort) the results using the column headers. Below the Search button is the [Export](../overview.md#export) option.
 
 Filter Value Entry
 
@@ -29,7 +29,7 @@ When the drop-down menu is in front of a query filter, it is used to show or hid
 
 The General category scopes the query by the most common types of filters. The time frame filter must be configured for every search query.
 
-![General Filters](/img/product_docs/activitymonitor/activitymonitor/admin/search/query/generalfilter.webp)
+![General Filters](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/search/query/generalfilter.webp)
 
 This section has the following filters:
 
@@ -44,7 +44,7 @@ This section has the following filters:
 
 The User category scopes the query by the user, or perpetrator of the activity.
 
-![userfilter](/img/product_docs/activitymonitor/activitymonitor/admin/search/query/userfilter.webp)
+![userfilter](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/search/query/userfilter.webp)
 
 This section has the following filters:
 
@@ -55,7 +55,7 @@ This section has the following filters:
 
 The SQL category scopes the query by SQL Server activity.
 
-![SQL Filters](/img/product_docs/activitymonitor/activitymonitor/admin/search/query/sqlfilters.webp)
+![SQL Filters](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/search/query/sqlfilters.webp)
 
 This section has the following filters:
 

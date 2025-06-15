@@ -8,7 +8,7 @@ Navigate to the __Active Directory__ > __Cleanup__ > __1.Groups__ > __2. Group S
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the AD_GroupCleanup_Permissions Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/cleanup/groups/stamping/groupcleanuppermissionsanalysis.webp)
+![Analysis Tasks for the AD_GroupCleanup_Permissions Job](../../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/cleanup/groups/stamping/groupcleanuppermissionsanalysis.webp)
 
 The default analysis tasks are:
 

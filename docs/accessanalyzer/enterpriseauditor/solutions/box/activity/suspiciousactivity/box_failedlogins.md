@@ -8,7 +8,7 @@ Navigate to __Box__ > __1.Activity__ > __Suspicious Activity__ > __Box_FailedLog
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the Box_FailedLogins Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/box/activity/suspiciousactivity/failedloginsanalysis.webp)
+![Analysis Tasks for the Box_FailedLogins Job](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/box/activity/suspiciousactivity/failedloginsanalysis.webp)
 
 The following analysis tasks are selected by default:
 

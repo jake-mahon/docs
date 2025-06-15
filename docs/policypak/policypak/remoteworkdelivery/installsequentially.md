@@ -2,17 +2,17 @@
 
 By default, Netwrix Endpoint Policy Manager (formerly PolicyPak) Remote Work Delivery Manager will install applications in any order, not the order specified in the precedence list.
 
-![757_1_image_1_950x408](/img/product_docs/policypak/policypak/remoteworkdelivery/757_1_image_1_950x408.webp)
+![757_1_image_1_950x408](../../../../static/img/product_docs/policypak/policypak/remoteworkdelivery/757_1_image_1_950x408.webp)
 
 However, you can change this behavior by making a Collection. Then on the Collection you may select the __Process policies sequentially__ checkbox:
 
-![757_2_img-02-6sd54v5sd4f_950x553](/img/product_docs/policypak/policypak/remoteworkdelivery/757_2_img-02-6sd54v5sd4f_950x553.jpg)
+![757_2_img-02-6sd54v5sd4f_950x553](../../../../static/img/product_docs/policypak/policypak/remoteworkdelivery/757_2_img-02-6sd54v5sd4f_950x553.jpg)
 
 This will ensure the processing order within the collection.
 
 That being said, you do need to be careful around this when you specify a post-copy __Run process__ or __Run PowerShell Script__.
 
-![757_4_img-03-65sd4f5sd4f_950x499](/img/product_docs/policypak/policypak/remoteworkdelivery/757_4_img-03-65sd4f5sd4f_950x499.jpg)
+![757_4_img-03-65sd4f5sd4f_950x499](../../../../static/img/product_docs/policypak/policypak/remoteworkdelivery/757_4_img-03-65sd4f5sd4f_950x499.jpg)
 
 Endpoint Policy Manager Remote Work Delivery Manager guarantees that it will wait for the Run Process to exit, or wait until the post-action PowerShell script is complete before it starts downloading the next item.
 

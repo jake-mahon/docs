@@ -1,6 +1,6 @@
 # ExchangePS Data Collector
 
-The ExchangePS Data Collector utilizes the Exchange CMDlets to return information about the Exchange environment utilizing PowerShell. This data collector has been designed to work with Exchange 2010 and newer. The ExchangePS Data Collector has been preconfigured within the Exchange Solution. Both this data collector and the solution are available with a special Access Analyzer license. See the [Exchange Solution](/docs/accessanalyzer/enterpriseauditor/solutions/exchange/overview.md) topic for additional information.
+The ExchangePS Data Collector utilizes the Exchange CMDlets to return information about the Exchange environment utilizing PowerShell. This data collector has been designed to work with Exchange 2010 and newer. The ExchangePS Data Collector has been preconfigured within the Exchange Solution. Both this data collector and the solution are available with a special Access Analyzer license. See the [Exchange Solution](../../../solutions/exchange/overview.md) topic for additional information.
 
 Protocols
 
@@ -23,7 +23,7 @@ Permissions
 - Discovery Management Role
 - Organization Management Role
 
-See the [Exchange PowerShell Permissions](/docs/accessanalyzer/enterpriseauditor/requirements/solutions/exchange/powershell.md) topic for additional information.
+See the [Exchange PowerShell Permissions](../../../requirements/solutions/exchange/powershell.md) topic for additional information.
 
 ## Remote PowerShell
 
@@ -39,7 +39,7 @@ $sess=New-PSSession -ConnectionUri 'https://{exchangeserver}/powershell?serializ
 Import-PSSession $sess
 ```
 
-See the [Exchange PowerShell Permissions](/docs/accessanalyzer/enterpriseauditor/requirements/solutions/exchange/powershell.md) topic for instructions on enabling Remote PowerShell.
+See the [Exchange PowerShell Permissions](../../../requirements/solutions/exchange/powershell.md) topic for instructions on enabling Remote PowerShell.
 
 ## The Exchange Applet
 
@@ -56,16 +56,16 @@ The following Exchange Snap-in is used when the applet is utilized:
 
 The ExchangePS Data Collector is configured through the ExchangePS Data Collector Wizard, which contains the following wizard pages:
 
-- [ExchangePS: Category](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/category.md)
-- [ExchangePS: Scope](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/scope.md)
-- [ExchangePS: Scope by DB](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/scopedatabases.md)
-- [ExchangePS: Scope by Mailboxes](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/scopemailboxes.md)
-- [ExchangePS: Scope by Public Folders](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/scopepublicfolders.md)
-- [ExchangePS: Filter by Message](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/filtermessage.md)
-- [ExchangePS: Mailbox Logons](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/mailboxlogons.md)
-- [ExchangePS: Results](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/results.md)
-- [ExchangePS: Options](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/options.md)
-- [ExchangePS: Error Logging](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/errorlogging.md)
-- [ExchangePS: Summary](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/summary.md)
+- [ExchangePS: Category](category.md)
+- [ExchangePS: Scope](scope.md)
+- [ExchangePS: Scope by DB](scopedatabases.md)
+- [ExchangePS: Scope by Mailboxes](scopemailboxes.md)
+- [ExchangePS: Scope by Public Folders](scopepublicfolders.md)
+- [ExchangePS: Filter by Message](filtermessage.md)
+- [ExchangePS: Mailbox Logons](mailboxlogons.md)
+- [ExchangePS: Results](results.md)
+- [ExchangePS: Options](options.md)
+- [ExchangePS: Error Logging](errorlogging.md)
+- [ExchangePS: Summary](summary.md)
 
 Available pages vary according to selections made throughout the wizard.

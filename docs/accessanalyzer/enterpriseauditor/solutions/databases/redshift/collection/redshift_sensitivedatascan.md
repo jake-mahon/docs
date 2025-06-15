@@ -6,7 +6,7 @@ This job discovers sensitive data in PostgreSQL databases on pre-defined or user
 
 The Redshift_SensitiveDataScan Job uses the SQL Data Collector for queries.
 
-![Query Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/redshift/collection/collectionsensitivedataquery.webp)
+![Query Selection](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/redshift/collection/collectionsensitivedataquery.webp)
 
 The query is:
 
@@ -22,19 +22,19 @@ __Step 2 –__ In the Query Selection view, select the Redshift Sensitive Data S
 
 __Step 3 –__ Select the Data Source tab, and click Configure. The SQL Data Collector Wizard opens with Sensitive Data Collection category selected.
 
-![Category Page](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/redshift/collection/collectionsensitivedatacategory.webp)
+![Category Page](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/redshift/collection/collectionsensitivedatacategory.webp)
 
 __Step 4 –__ Click __Next__. The Sensitive Data Scan Settings view appears.
 
-![Sensitive Data Scan Settings](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/redshift/collection/collectionsensitivedatajoboptions.webp)
+![Sensitive Data Scan Settings](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/redshift/collection/collectionsensitivedatajoboptions.webp)
 
-__Step 5 –__ To modify sensitive data scan options, select the desired scan options. See the [SQL: Options](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/sql/options.md) page for additional information.
+__Step 5 –__ To modify sensitive data scan options, select the desired scan options. See the [SQL: Options](../../../../admin/datacollector/sql/options.md) page for additional information.
 
 __NOTE:__ The Sensitive Data Scan Settings are preconfigured for optimal performance for a high-level table scan. Configuring these settings to increase the scope of the sensitive data scan may significantly increase scan time.
 
 __Step 6 –__ Click __Next__. The Select Criteria view appears.
 
-![Select DLP Criteria for Scan](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/redshift/collection/collectionsensitivedatacriteria.webp)
+![Select DLP Criteria for Scan](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/redshift/collection/collectionsensitivedatacriteria.webp)
 
 __Step 7 –__ To modify criteria, click on __Use the following selected criteria:__ and select your choices. By default, the Sensitive Data Scan job is set to __Use Global Criteria__. Also by default, the following System Criteria have been selected:
 
@@ -44,17 +44,17 @@ __Step 7 –__ To modify criteria, click on __Use the following selected criteri
 - User ID
 - Password
 
-__NOTE:__  For more information on adding or deleting criteria, navigate to the [SQL: Criteria](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/sql/criteria.md) page or See the [Sensitive Data Criteria Editor](/docs/accessanalyzer/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/overview.md) topic for additional information.
+__NOTE:__  For more information on adding or deleting criteria, navigate to the [SQL: Criteria](../../../../admin/datacollector/sql/criteria.md) page or See the [Sensitive Data Criteria Editor](../../../../sensitivedatadiscovery/criteriaeditor/overview.md) topic for additional information.
 
 __Step 8 –__ Click __Next__. The Filters view appears.
 
-![Filters Page](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/redshift/collection/collectionsensitivedatafilter.webp)
+![Filters Page](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/redshift/collection/collectionsensitivedatafilter.webp)
 
 __Step 9 –__ Click __Connections__ to open the Manage Connections window.
 
 __NOTE:__ SQL databases must be added to the query before they can be scanned. Before you can add a query, you must establish a connection to the database.
 
-![Manage Connections](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/redshift/collection/collectionsensitivedataconnection.webp)
+![Manage Connections](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/redshift/collection/collectionsensitivedataconnection.webp)
 
 __Step 10 –__ In the Manage Connections window, click __Create New Connection__ and add the following information:
 
@@ -69,7 +69,7 @@ __Step 11 –__ Exit the Manage Connections window to return to the Filter page.
 
 __Step 12 –__ Select Only select database objects. or __All database objects__. The query is configured by default to target Only select database objects.
 
-__NOTE:__ For more information on filtering, see the [SQL: Filter](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/sql/filter.md) page.
+__NOTE:__ For more information on filtering, see the [SQL: Filter](../../../../admin/datacollector/sql/filter.md) page.
 
 __Step 13 –__ Click Retrieve. The Available database objects box will populate.
 
@@ -91,7 +91,7 @@ Navigate to the ____Databases > 0.Collection >__Redshift >__ __Redshift_Sensitiv
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/redshift/collection/analysiscollectionsensitivedatascan.webp)
+![Analysis Selection](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/redshift/collection/analysiscollectionsensitivedatascan.webp)
 
 The default analysis tasks are:
 

@@ -2,7 +2,7 @@
 
 The __Filter__ panel is extremely powerful for focusing attention on events of interest, even in large and complex estates with thousands of change/report events to manage.
 
-![EventsReportsFiltersGroupsDevices](/img/product_docs/changetracker/changetracker/admin/tabs/eventsreportsfiltersgroupsdevices.webp)
+![EventsReportsFiltersGroupsDevices](../../../../../static/img/product_docs/changetracker/changetracker/admin/tabs/eventsreportsfiltersgroupsdevices.webp)
 
 The new Event Filter in has several key improvements:
 
@@ -17,4 +17,4 @@ Once a filter has been set, this will persist across all other tabs, so for exam
 
 Filter parameters set will also be shown at the top of the Events page even when the Filter Control panel is hidden.
 
-![page_guide_3](/img/product_docs/changetracker/changetracker/admin/tabs/page_guide_3.webp)
+![page_guide_3](../../../../../static/img/product_docs/changetracker/changetracker/admin/tabs/page_guide_3.webp)

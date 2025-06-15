@@ -6,7 +6,7 @@ With basic authentication, your MS Teams organization will be accessed on behalf
 
 | To... | Requirement | Comment |
 | --- | --- | --- |
-| Create Microsoft Entra ID application, run initial data collection, and perform Auditor upgrade from previous version | Any of the following role combinations:   - Application Administrator & Privileged Role Administrator    & _Teams Administrator_  OR - Cloud Application Administrator & Privileged Role Administrator    & _Teams Administrator_  OR - _Global Admin_ | Prepare a user account and specify it in the monitored item properties. See the [MS Teams](/docs/auditor/auditor/configuration/microsoft365/teams/overview.md) topic for additional information. |
+| Create Microsoft Entra ID application, run initial data collection, and perform Auditor upgrade from previous version | Any of the following role combinations:   - Application Administrator & Privileged Role Administrator    & _Teams Administrator_  OR - Cloud Application Administrator & Privileged Role Administrator    & _Teams Administrator_  OR - _Global Admin_ | Prepare a user account and specify it in the monitored item properties. See the [MS Teams](overview.md) topic for additional information. |
 | Collect activity data | Any of the following roles:  _Application Administrator_ & _Teams Administrator_  OR  _Cloud Application Administrator_ & _Teams Administrator_  OR  _Global Admin_ |  |
 
 ## Assigning a Privileged Role for Microsoft Entra ID and Office 365
@@ -44,4 +44,4 @@ __Step 10 –__ Assign a less-privileged role to this account.
 
 A less privileged role has now been assigned to the account.
 
-See the [Permissions for Microsoft Entra ID Auditing](/docs/auditor/auditor/configuration/microsoft365/microsoftentraid/permissions.md) topic for additional information.
+See the [Permissions for Microsoft Entra ID Auditing](../microsoftentraid/permissions.md) topic for additional information.

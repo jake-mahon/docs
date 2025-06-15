@@ -24,7 +24,7 @@ Here are some great troubleshooting tips however.
 
 - You should always begin by running gpupdate from the workstation that is experiencing inconsistent results. If you get a failure notice such as the one below, than there is a GPO delivery problem at large.
 
-![3_1_troubleshooting-grou-policy-replication2](/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/3_1_troubleshooting-grou-policy-replication2.webp)
+![3_1_troubleshooting-grou-policy-replication2](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/3_1_troubleshooting-grou-policy-replication2.webp)
 
 __NOTE:__ 
   
@@ -32,7 +32,7 @@ __NOTE:__
 
 - At the most basic level, a DC should have two shared folders by default, NETLOGON and SYSVOL. If you do not have these two folders, you have an AD problem and GPOs will not be delivered from it properly.
 
-![3_2_troubleshooting-grou-policy-replication1](/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/3_2_troubleshooting-grou-policy-replication1.webp)
+![3_2_troubleshooting-grou-policy-replication1](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/3_2_troubleshooting-grou-policy-replication1.webp)
 
 - DCDIAG.exe – The DCDiag (Domain Controller Diagnostic) tool will analyse the state of the domain controllers and services in an Active Directory forest. DCDiag is a very good general-purpose testing tool for checking the health of the AD infrastructure. The available tests include replication errors, domain controller connectivity, permissions, proper roles, and connectivity, and other general AD health tests. Click HERE for more information about this command.
 - You can force replication [with this script](https://maddog2050.wordpress.com/2014/09/15/ad-force-sysvol-and-ad-replication/). Note that it requires a download from the Windows AD Support Tools first.

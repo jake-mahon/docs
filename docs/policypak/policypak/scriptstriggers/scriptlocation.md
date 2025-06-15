@@ -4,7 +4,7 @@ Scripts from Netwrix Endpoint Policy Manager (formerly PolicyPak) Scripts Manage
 
 ```\ProgramData\PolicyPak\PolicyPak Scripts Manager\Temporary Scripts```
 
-![827_1_image002_950x293](/img/product_docs/policypak/policypak/scriptstriggers/827_1_image002_950x293.jpg)
+![827_1_image002_950x293](../../../../static/img/product_docs/policypak/policypak/scriptstriggers/827_1_image002_950x293.jpg)
 
 During script processing time:
 
@@ -20,4 +20,4 @@ For instance:
 If you want to change the temporary script location place you can use the ADMX settings to do it; but then you are responsible for setting the right protection on the folder and self-testing that it works as expected.  
 Find the setting Computer Configuration | Admin Templates Manager | PolicyPak ADMX Settings | Client-Side Extensions | Scripts Manager | Use custom location for temporary script files like what's seen here.
 
-![827_3_image004](/img/product_docs/policypak/policypak/scriptstriggers/827_3_image004.jpg)
+![827_3_image004](../../../../static/img/product_docs/policypak/policypak/scriptstriggers/827_3_image004.jpg)

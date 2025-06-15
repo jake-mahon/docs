@@ -30,13 +30,13 @@ On the __Object, Fields and Mappings__ page, map the a attributes with source fi
 
      It displays the following list of new providers that you can use to create a job.
 
-     - [Google Workspace Subscription](/docs/groupid/groupid/portal/synchronize/job/googleapp.md)
+     - [Google Workspace Subscription](googleapp.md)
 
        Add connection details for Google Workspace.
-     - [Office 365 Subscription](/docs/groupid/groupid/portal/synchronize/job/office365.md)
+     - [Office 365 Subscription](office365.md)
 
        Add Connection details for Office 365.
-     - [Exchange Subscription](/docs/groupid/groupid/portal/synchronize/job/exchange.md)
+     - [Exchange Subscription](exchange.md)
 
        Add connection details for Exchange.
      - Others
@@ -47,7 +47,7 @@ On the __Object, Fields and Mappings__ page, map the a attributes with source fi
        Select None if you not want to add any messaging provider.
 3. In the __Script Language__ section, specify the scripting language you want to use. Select one of the following language:
 
-   - [Visual Basic .NET for Directory Manager (formerly GroupID)](/docs/groupid/groupid/portal/synchronize/script/visualbasicnetbasic.md)
+   - [Visual Basic .NET for Directory Manager (formerly GroupID)](../script/visualbasicnetbasic.md)
    - Python for Directory Manager (formerly GroupID)
 4. The Global Script Editor allows the script author to extend the functionality of Synchronize by authoring scripts in Visual Basic .NET and Python. Before saving a script, the code must be verified by compiling the script. Click on __Edit Global Script,__and follow these steps:
 
@@ -76,19 +76,19 @@ On the __Object, Fields and Mappings__ page, map the a attributes with source fi
 
       | Icon | Description |
       | --- | --- |
-      | ![undo](/img/product_docs/groupid/groupid/portal/synchronize/job/undo.jpg) | Reverses the last change. |
-      | ![redo](/img/product_docs/groupid/groupid/portal/synchronize/job/redo.jpg) | Re-applies a change reversed using the Undo action. |
-      | ![indent](/img/product_docs/groupid/groupid/portal/synchronize/job/indent.jpg) | Increases the indenting of the current text selection. |
-      | ![outdent](/img/product_docs/groupid/groupid/portal/synchronize/job/outdent.jpg) | Decreases the indenting of the current text selection. |
-      | ![comment](/img/product_docs/groupid/groupid/portal/synchronize/job/comment.jpg) | Comments the current text selection. |
-      | ![uncomment](/img/product_docs/groupid/groupid/portal/synchronize/job/uncomment.jpg) | Uncomments the current text selection. |
-      | ![uppercase](/img/product_docs/groupid/groupid/portal/synchronize/job/uppercase.jpg) | Converts the current text selection to uppercase. |
-      | ![lowercase](/img/product_docs/groupid/groupid/portal/synchronize/job/lowercase.jpg) | Converts the current text selection to lowercase. |
-      | ![darktheme](/img/product_docs/groupid/groupid/portal/synchronize/job/darktheme.jpg) | Switch the theme of the script editor to dark. |
-      | ![lighttheme](/img/product_docs/groupid/groupid/portal/synchronize/job/lighttheme.jpg) | Switch the theme of the script editor to light. |
-      | ![selectall](/img/product_docs/groupid/groupid/portal/synchronize/job/selectall.jpg) | Selects all the text in the editor. |
+      | ![undo](../../../../../../static/img/product_docs/groupid/groupid/portal/synchronize/job/undo.jpg) | Reverses the last change. |
+      | ![redo](../../../../../../static/img/product_docs/groupid/groupid/portal/synchronize/job/redo.jpg) | Re-applies a change reversed using the Undo action. |
+      | ![indent](../../../../../../static/img/product_docs/groupid/groupid/portal/synchronize/job/indent.jpg) | Increases the indenting of the current text selection. |
+      | ![outdent](../../../../../../static/img/product_docs/groupid/groupid/portal/synchronize/job/outdent.jpg) | Decreases the indenting of the current text selection. |
+      | ![comment](../../../../../../static/img/product_docs/groupid/groupid/portal/synchronize/job/comment.jpg) | Comments the current text selection. |
+      | ![uncomment](../../../../../../static/img/product_docs/groupid/groupid/portal/synchronize/job/uncomment.jpg) | Uncomments the current text selection. |
+      | ![uppercase](../../../../../../static/img/product_docs/groupid/groupid/portal/synchronize/job/uppercase.jpg) | Converts the current text selection to uppercase. |
+      | ![lowercase](../../../../../../static/img/product_docs/groupid/groupid/portal/synchronize/job/lowercase.jpg) | Converts the current text selection to lowercase. |
+      | ![darktheme](../../../../../../static/img/product_docs/groupid/groupid/portal/synchronize/job/darktheme.jpg) | Switch the theme of the script editor to dark. |
+      | ![lighttheme](../../../../../../static/img/product_docs/groupid/groupid/portal/synchronize/job/lighttheme.jpg) | Switch the theme of the script editor to light. |
+      | ![selectall](../../../../../../static/img/product_docs/groupid/groupid/portal/synchronize/job/selectall.jpg) | Selects all the text in the editor. |
    8. Click __Save__ to save the changes made to the script.
-5. On the [Selected Fields for object types](/docs/groupid/groupid/portal/synchronize/job/selectedfield.md) type section, click __Add/Edit Fields__.
+5. On the [Selected Fields for object types](selectedfield.md) type section, click __Add/Edit Fields__.
    You can specify the action to take if the data or object being exported from the source does not exist at the destination.
 6. Use the __Map Field__ section to map the source and destination fields and to apply transformations:
 
@@ -96,10 +96,10 @@ On the __Object, Fields and Mappings__ page, map the a attributes with source fi
 
       Do one of the following:
 
-      - [Map Fields](/docs/groupid/groupid/portal/synchronize/job/mappingfield.md)
+      - [Map Fields](mappingfield.md)
 
         In the Source column of each destination item, select the source fields that contribute the data for the destination.
-      - __Apply a [Transform](/docs/groupid/groupid/portal/synchronize/transformation/overview.md)__
+      - __Apply a [Transform](../transformation/overview.md)__
 
         In the __Transform__ column, click the __More Options__ button to open the __Transform__ [ _field_]
         dialog box and apply a transformation to the field value before it is saved at the destination.

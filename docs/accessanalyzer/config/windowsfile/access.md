@@ -1,6 +1,6 @@
 # Windows File Server Access & Sensitive Data Auditing Configuration
 
-Permissions required for Access Analyzer to execute Access Auditing (SPAA) and/or Sensitive Data Discovery Auditing scans on a Windows file server are dependent upon the Scan Mode Option selected. See the [File System Supported Platforms](/docs/accessanalyzer/enterpriseauditor/requirements/target/filesystems.md) topic for additional information.
+Permissions required for Access Analyzer to execute Access Auditing (SPAA) and/or Sensitive Data Discovery Auditing scans on a Windows file server are dependent upon the Scan Mode Option selected. See the [File System Supported Platforms](../../enterpriseauditor/requirements/target/filesystems.md) topic for additional information.
 
 However, additional considerations are needed when targeting a Windows File System Clusters or DFS Namespaces.
 
@@ -12,11 +12,11 @@ __NOTE:__ It is necessary to target the Windows File Server Cluster (name of the
 
 Configure credentials on all cluster nodes according to the Windows Operating Systems required permissions for the desired scan mode with these additional considerations:
 
-- For [Applet Mode](/docs/accessanalyzer/enterpriseauditor/requirements/solutions/filesystem/scanoptions.md#applet-mode) and [Proxy Mode with Applet](/docs/accessanalyzer/enterpriseauditor/requirements/solutions/filesystem/scanoptions.md#proxy-mode-with-applet):
+- For [Applet Mode](../../enterpriseauditor/requirements/solutions/filesystem/scanoptions.md#applet-mode) and [Proxy Mode with Applet](../../enterpriseauditor/requirements/solutions/filesystem/scanoptions.md#proxy-mode-with-applet):
 
   - Applet will be deployed to each node
   - Credential used in the Connection Profile must have rights to deploy the applet to each node
-- For [Proxy Mode as a Service](/docs/accessanalyzer/enterpriseauditor/requirements/solutions/filesystem/scanoptions.md#proxy-mode-as-a-service):
+- For [Proxy Mode as a Service](../../enterpriseauditor/requirements/solutions/filesystem/scanoptions.md#proxy-mode-as-a-service):
 
   - Proxy Service must be installed on each node
   - For Sensitive Data Discovery Auditing scans, the Sensitive Data Discovery Add-on must be installed on each node
@@ -32,7 +32,7 @@ Host List Consideration
 
 It is necessary to target the Windows File Server Cluster (name of the cluster) of interest when running a File System scan against a Windows File System Cluster. Within the Master Host Table, there should be a host entry for the cluster as well as for each node. Additionally, each of these host entries must have the name of the cluster in the ```WinCluster``` column in the host inventory data. This may need to be updated manually.
 
-See the View/Edit section of the [Host Management Activities](/docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/actions/overview.md) topic for additional information on host inventory.
+See the View/Edit section of the [Host Management Activities](../../enterpriseauditor/admin/hostmanagement/actions/overview.md) topic for additional information on host inventory.
 
 - For FSAA and SDD scans, configure a custom host list to target the cluster's Role Server.
 - For FSAC scans, configure a custom host list to target the Windows File Server Cluster.
@@ -50,13 +50,13 @@ For Sensitive Data Discovery Auditing scans on a Windows File System Cluster it 
 
 Activity Auditing Scans
 
-The Netwrix Activity Monitor must deploy an Activity Agent on all nodes that comprise the Windows File System Cluster. The Activity Agent generates activity log files stored on each node. Access Analyzer targets the Windows File Server Cluster (name of the cluster) of interest in order to read the activity. See the [Windows File Server Activity Auditing Configuration](/docs/accessanalyzer/config/windowsfile/activity.md) topic for additional information.
+The Netwrix Activity Monitor must deploy an Activity Agent on all nodes that comprise the Windows File System Cluster. The Activity Agent generates activity log files stored on each node. Access Analyzer targets the Windows File Server Cluster (name of the cluster) of interest in order to read the activity. See the [Windows File Server Activity Auditing Configuration](activity.md) topic for additional information.
 
 The credential used Access Analyzer to read the activity log files must have:
 
 - Membership in the local Administrators group
 
-The FileSystemAccess Data Collector needs to be specially configured to run the [1-FSAC System Scans Job](/docs/accessanalyzer/enterpriseauditor/solutions/filesystem/collection/1-fsac_system_scans.md) against a Windows File System Cluster. On the [FSAA: Activity Settings](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/activitysettings.md), configure the Host Mapping option. This provides a method for mapping between the target host and the hosts where activity logs reside. However, this feature requires __advanced SQL scripting knowledge__ to build the query.
+The FileSystemAccess Data Collector needs to be specially configured to run the [1-FSAC System Scans Job](../../enterpriseauditor/solutions/filesystem/collection/1-fsac_system_scans.md) against a Windows File System Cluster. On the [FSAA: Activity Settings](../../enterpriseauditor/admin/datacollector/fsaa/activitysettings.md), configure the Host Mapping option. This provides a method for mapping between the target host and the hosts where activity logs reside. However, this feature requires __advanced SQL scripting knowledge__ to build the query.
 
 Membership in the local Administrators group
 
@@ -79,4 +79,4 @@ If the DFS hosting server is part of a Windows Cluster, then the Windows File Sy
 
 DFS and Activity Auditing Consideration
 
-For activity monitoring, the Netwrix Activity Monitor must have a deployed Activity Agent on all DFS servers identified by the 0-FSDFS System Scans Job and populated into the dynamic host list. See the [Windows File Server Activity Auditing Configuration](/docs/accessanalyzer/config/windowsfile/activity.md) topic for additional information.
+For activity monitoring, the Netwrix Activity Monitor must have a deployed Activity Agent on all DFS servers identified by the 0-FSDFS System Scans Job and populated into the dynamic host list. See the [Windows File Server Activity Auditing Configuration](activity.md) topic for additional information.

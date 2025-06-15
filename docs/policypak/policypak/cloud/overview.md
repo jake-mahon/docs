@@ -4,9 +4,9 @@ Netwrix Endpoint Policy Manager (formerly PolicyPak) Cloud is our system for del
 
 Here's the fastest way to get started:
 
-__Step 1 –__ Check out our __Two minute introduction__ video then our Quickstart video here: Getting Started with Cloud > [Video Learning Center](/docs/policypak/policypak/cloud/overview/videolearningcenter.md). Work through the videos one-by-one to try out all the main features.
+__Step 1 –__ Check out our __Two minute introduction__ video then our Quickstart video here: Getting Started with Cloud > [Video Learning Center](overview/videolearningcenter.md). Work through the videos one-by-one to try out all the main features.
 
-__Step 2 –__ Additionally, we strongly recommend you have a mini on-prem test lab for editing and testing purposes. You should work through each of the videos on the Test Lab Best Practices page and make sure you have your free-to-use test lab working: Getting Started with Cloud > [Video Learning Center](/docs/policypak/policypak/cloud/overview/videolearningcenter.md).
+__Step 2 –__ Additionally, we strongly recommend you have a mini on-prem test lab for editing and testing purposes. You should work through each of the videos on the Test Lab Best Practices page and make sure you have your free-to-use test lab working: Getting Started with Cloud > [Video Learning Center](overview/videolearningcenter.md).
 
 __Step 3 –__ Use the rest of the manual to understand the finer points of Endpoint Policy Manager Cloud including some key security settings.
 

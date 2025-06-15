@@ -1,8 +1,8 @@
 # Active Directory Permissions Analyzer Solution
 
-The core components for Netwrix Access Analyzer (formerly Enterprise Auditor) are the Access Analyzer Console server, SQL Server, and Access Information Center. See the [Requirements](/docs/accessanalyzer/enterpriseauditor/requirements/overview.md) topic for the core requirements.
+The core components for Netwrix Access Analyzer (formerly Enterprise Auditor) are the Access Analyzer Console server, SQL Server, and Access Information Center. See the [Requirements](../overview.md) topic for the core requirements.
 
-See the [Domain Target Requirements, Permissions, and Ports](/docs/accessanalyzer/enterpriseauditor/requirements/target/activedirectorypermissionsanalyzer.md) topic for target environment requirements.
+See the [Domain Target Requirements, Permissions, and Ports](../target/activedirectorypermissionsanalyzer.md) topic for target environment requirements.
 
 ## Active Directory Permissions Analyzer Solution Requirements on the Access Analyzer Console
 

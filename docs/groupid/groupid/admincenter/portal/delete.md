@@ -50,5 +50,5 @@ __To delete a portal:__
 
 __See Also__
 
-- [Directory Manage Applications](/docs/groupid/groupid/admincenter/portal/applications.md)
-- [ Directory Manager Portal](/docs/groupid/groupid/admincenter/portal/overview.md)
+- [Directory Manage Applications](applications.md)
+- [ Directory Manager Portal](overview.md)

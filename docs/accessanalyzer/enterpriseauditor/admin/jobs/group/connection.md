@@ -2,9 +2,9 @@
 
 At the job group level, the __Connection__ node identifies the Connection Profile assigned for the job group. All Connection Profiles are created at the global level (__Settings__ > __Connection__).
 
-![Job Group Connection Settings](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/connection.webp)
+![Job Group Connection Settings](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/connection.webp)
 
-By default, all job groups are set to inherit the __Use Default Profile__ option from the global level or a parent job group. See the [Connection](/docs/accessanalyzer/enterpriseauditor/admin/settings/connection/overview.md) topic for additional information.
+By default, all job groups are set to inherit the __Use Default Profile__ option from the global level or a parent job group. See the [Connection](../../settings/connection/overview.md) topic for additional information.
 
 If the Default Setting is not preferred, select the custom type of connection settings desired below:
 

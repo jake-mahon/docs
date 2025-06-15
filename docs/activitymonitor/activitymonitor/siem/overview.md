@@ -4,5 +4,5 @@ Stealthbits File Activity monitoring solutions enable organizations to successfu
 
 Preconfigured Stealthbits File Activity Monitor Apps are:
 
-- Splunk - See the [File Activity Monitor App for Splunk](/docs/activitymonitor/activitymonitor/siem/splunk/overview.md) topic for additional information
-- QRadar - See the [Netwrix File Activity Monitor App for QRadar](/docs/activitymonitor/activitymonitor/siem/qradar/overview.md) topic for additional information
+- Splunk - See the [File Activity Monitor App for Splunk](splunk/overview.md) topic for additional information
+- QRadar - See the [Netwrix File Activity Monitor App for QRadar](qradar/overview.md) topic for additional information

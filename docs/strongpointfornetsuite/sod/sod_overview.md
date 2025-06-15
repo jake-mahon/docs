@@ -33,11 +33,11 @@ You can create rules that:
 
 Advanced SoD works through the following System Process Flow:
 
-![SoD Diagram](/img/product_docs/strongpointfornetsuite/sod/howsodworks.webp)
+![SoD Diagram](../../../static/img/product_docs/strongpointfornetsuite/sod/howsodworks.webp)
 
 Advanced SoD's also works through the following Functional Process Flow:
 
-![logviolations](/img/product_docs/strongpointfornetsuite/sod/logviolations.webp)
+![logviolations](../../../static/img/product_docs/strongpointfornetsuite/sod/logviolations.webp)
 
 ## SoD Exemption Handling for Onboarding, Offboarding, and Cross Role Conflicts
 

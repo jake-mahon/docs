@@ -8,7 +8,7 @@ Navigate to the __Active Directory__ > __6.Activity__ > __Operations__ > __AD_Do
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the AD_DomainControllerTraffic Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/activity/operations/dctrafficanalysis.webp)
+![Analysis Tasks for the AD_DomainControllerTraffic Job](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/activity/operations/dctrafficanalysis.webp)
 
 The default analysis task is:
 

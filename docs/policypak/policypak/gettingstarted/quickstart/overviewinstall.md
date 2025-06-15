@@ -8,9 +8,9 @@ Thank you for downloading Netwrix Endpoint Policy Manager (formerly PolicyPak). 
 - Getting Started with specific components (Endpoint Policy Manager Least Privilege Manager, Endpoint Policy Manager Device Manager, etc.)
 - Talk to Sales if you need help and/or wish to try Endpoint Policy Manager Cloud
 
-__NOTE:__ This guide provides you with the most basic steps to get Endpoint Policy Manager unpacked and installed and ready to use. See the other topics in the parent publication, as well as the [Knowledge Base](/docs/policypak/policypak/install/overview/knowledgebase.md) > All Things Installation & Upkeep and the All Things Installation & Upkeep [Video Learning Center](/docs/policypak/policypak/install/overview/videolearningcenter.md) topics for additional information.
+__NOTE:__ This guide provides you with the most basic steps to get Endpoint Policy Manager unpacked and installed and ready to use. See the other topics in the parent publication, as well as the [Knowledge Base](../../install/overview/knowledgebase.md) > All Things Installation & Upkeep and the All Things Installation & Upkeep [Video Learning Center](../../install/overview/videolearningcenter.md) topics for additional information.
 
-If you are unfamiliar with what Endpoint Policy Manager even does, consider watching this two minute overview: [Endpoint Policy Manager Explained: In about two minutes](/docs/policypak/policypak/video/grouppolicy/explained.md).
+If you are unfamiliar with what Endpoint Policy Manager even does, consider watching this two minute overview: [Endpoint Policy Manager Explained: In about two minutes](../../video/grouppolicy/explained.md).
 
 For this trial, Endpoint Policy Manager endpoints may be:
 

@@ -1,6 +1,6 @@
 # Assignment Dates
 
-Entitlements can be assigned to users manually or automatically, but not on any time period. See the [Entitlement Assignment](/docs/usercube/usercube/integration-guide/role-assignment/assignments-of-entitlements/index.md) topic for additional information.
+Entitlements can be assigned to users manually or automatically, but not on any time period. See the [Entitlement Assignment](../assignments-of-entitlements/index.md) topic for additional information.
 
 ## For Manual Assignments
 
@@ -17,4 +17,4 @@ An entitlement cannot be requested with a start date earlier than today's date. 
 
 The start and end dates of any automatic assignment are based on the dates from the [
 Context Rule
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/contextrule/index.md)defined for the identities.
+](../../toolkit/xml-configuration/provisioning/contextrule/index.md)defined for the identities.

@@ -9,4 +9,4 @@ Amazon (AWS) reports fall into the following categories:
 
 The following report is available at the __Amazon__ node:
 
-- [Sensitive Content Summary Report](/docs/accessinformationcenter/access/informationcenter/resourceaudit/aws/sensitivecontentsummary.md)
+- [Sensitive Content Summary Report](sensitivecontentsummary.md)

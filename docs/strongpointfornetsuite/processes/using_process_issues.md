@@ -13,7 +13,7 @@ This is an optional part of the process. If you have an established ticketing sy
 
 1. Open __Strongpoint__ > __Process Issue__ > __New__
 
-   ![Initiate a Process Issue](/img/product_docs/strongpointfornetsuite/processes/process_issue.webp)
+   ![Initiate a Process Issue](../../../static/img/product_docs/strongpointfornetsuite/processes/process_issue.webp)
 2. Select a __Custom Form__ or use the default __Process Issue Form__.
 3. Assign a __Number__ for the Process Issue. This is any alphanumeric code you use to identify this process issue.   
    A Unique __ID__ is generated after the Process Issue is created.
@@ -58,7 +58,7 @@ Once a Process Issue is saved, you can open it and use the __New Task__ and __Ne
 
 Use the ERD tab to visually view the records and see the relationships.
 
-![processissue4](/img/product_docs/strongpointfornetsuite/processes/processissue4.webp)
+![processissue4](../../../static/img/product_docs/strongpointfornetsuite/processes/processissue4.webp)
 
 ## View Process Issues
 
@@ -74,4 +74,4 @@ You can also edit some fields inline:
 2. Click on the red pencil icon in the column head. Columns without the pencil icon cannot be edited.
 3. Click in the column to open a text box.
 
-![Process Issue Reports](/img/product_docs/strongpointfornetsuite/processes/process_issue_overview.webp)
+![Process Issue Reports](../../../static/img/product_docs/strongpointfornetsuite/processes/process_issue_overview.webp)

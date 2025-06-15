@@ -34,7 +34,7 @@ Netwrix\JonSmith+Local Admin+SQL1.netwrix.com++Server Maintenance
 
 Configuration parameters for PuTTY (SSH).
 
-![appendices_stealthbits_privileged](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/configure/appendices_stealthbits_privileged.webp)
+![appendices_stealthbits_privileged](../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/configure/appendices_stealthbits_privileged.webp)
 
 Host Name Format:
 
@@ -53,7 +53,7 @@ Port:
 
 Configuration parameters for MobaXterm (SSH).
 
-![MobaXterm SSH configuration](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/configure/appendices_stealthbits_privileged_1.webp)
+![MobaXterm SSH configuration](../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/configure/appendices_stealthbits_privileged_1.webp)
 
 Remote Host Format:
 
@@ -70,14 +70,14 @@ Port:
 
 Uncheck the checkboxes under Advanced SSH Settings and Bookmark Settings.
 
-| ![appendices_stealthbits_privileged_2](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/configure/appendices_stealthbits_privileged_2.webp) | ![appendices_stealthbits_privileged_3](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/configure/appendices_stealthbits_privileged_3.webp) |
+| ![appendices_stealthbits_privileged_2](../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/configure/appendices_stealthbits_privileged_2.webp) | ![appendices_stealthbits_privileged_3](../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/configure/appendices_stealthbits_privileged_3.webp) |
 | --- | --- |
 
 ## MobaXterm (RDP)
 
 Configuration parameters for MobaXterm (RDP).
 
-![MobaXtermRDP configuration](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/configure/appendices_stealthbits_privileged_5.webp)
+![MobaXtermRDP configuration](../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/configure/appendices_stealthbits_privileged_5.webp)
 
 Remote Host:
 
@@ -100,7 +100,7 @@ Port:
 - Port – The RDP listening port on the proxy
 - Default port – 4489
 
-![appendices_stealthbits_privileged_6](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/configure/appendices_stealthbits_privileged_6.webp)
+![appendices_stealthbits_privileged_6](../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/configure/appendices_stealthbits_privileged_6.webp)
 
 Check the Redirect Clipboard checkbox on the Advanced RDP Settings tab to enable pasting of the 2FA token.
 
@@ -108,7 +108,7 @@ Check the Redirect Clipboard checkbox on the Advanced RDP Settings tab to enable
 
 Configuration parameters for Microsoft Remote Desktop Connection (RDP).
 
-![appendices_stealthbits_privileged_4](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/configure/appendices_stealthbits_privileged_4.webp)
+![appendices_stealthbits_privileged_4](../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/configure/appendices_stealthbits_privileged_4.webp)
 
 Computer:
 
@@ -132,7 +132,7 @@ If there is no password prompt when executing an RDP shortcut, change the GPO se
 
 Configure the Microsoft Remote Desktop Connection Manager (RDC Manager).
 
-| ![appendices_stealthbits_privileged_7](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/configure/appendices_stealthbits_privileged_7.webp) | ![appendices_stealthbits_privileged_8](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/configure/appendices_stealthbits_privileged_8.webp) |
+| ![appendices_stealthbits_privileged_7](../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/configure/appendices_stealthbits_privileged_7.webp) | ![appendices_stealthbits_privileged_8](../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/configure/appendices_stealthbits_privileged_8.webp) |
 | --- | --- |
 
 Server name:
@@ -167,11 +167,11 @@ __Step 1 –__ Open the Group Policy Management Editor.
 
 __Step 2 –__ Navigate to Computer Configuration > Administrative Templates > Windows Components > Remote Desktop Services > Remote Desktop Connection Client
 
-![Configure Remote Desktop Connection to Prompt for Password](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/configure/appendices_stealthbits_privileged_9.webp)
+![Configure Remote Desktop Connection to Prompt for Password](../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/configure/appendices_stealthbits_privileged_9.webp)
 
 __Step 3 –__ Right click on Prompt for credentials on the client computer and select Edit from the context menu.
 
-![appendices_stealthbits_privileged_10](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/configure/appendices_stealthbits_privileged_10.webp)
+![appendices_stealthbits_privileged_10](../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/configure/appendices_stealthbits_privileged_10.webp)
 
 __Step 4 –__ In the Prompt for Credentials on the Client Computer window, select Enabled.
 

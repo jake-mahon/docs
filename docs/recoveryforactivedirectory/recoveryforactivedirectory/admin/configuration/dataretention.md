@@ -4,7 +4,7 @@ The Data Retention Policy page provides settings for deleting backup data that o
 
 Click __Configuration__ in the left pane. Then click the __Data Retention Policy__ tab on the Configuration page to open the Data Retention Policy page.
 
-![Data Retention Policy Page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/configuration/dataretention.webp)
+![Data Retention Policy Page](../../../../../static/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/configuration/dataretention.webp)
 
 Follow the steps to specify a data retention policy.
 

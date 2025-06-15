@@ -6,7 +6,7 @@ The job collects information on permissions, users, and groups to determine who 
 
 The 2-SPAA_SystemScans Job uses the SharePoint Access Data Collector for the following query:
 
-![Query Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/collection/spaasystemscansquery.webp)
+![Query Selection](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/collection/spaasystemscansquery.webp)
 
 The query for the 2-SPAA_SystemScans Job is:
 
@@ -26,21 +26,21 @@ __Step 2 –__ In the Query Selection view, click __Query Properties__. The Quer
 
 __Step 3 –__ Select the __Data Source__ tab, and click __Configure__.
 
-![SharePoint Data Collection Settings](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/collection/datacollectionsettingsspaa.webp)
+![SharePoint Data Collection Settings](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/collection/datacollectionsettingsspaa.webp)
 
-__Step 4 –__ On the [SPAA: SharePoint Data Collection Settings](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/spaa/settings.md) page, customize as desired and click __Next__.
+__Step 4 –__ On the [SPAA: SharePoint Data Collection Settings](../../../admin/datacollector/spaa/settings.md) page, customize as desired and click __Next__.
 
-![Scan Scoping Options](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/spaa/scanscopingoptions.webp)
+![Scan Scoping Options](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/spaa/scanscopingoptions.webp)
 
-__Step 5 –__ On the [SPAA: Scan Scoping Options](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/spaa/scanscopingoptions.md) page, no web applications or site collections have been added. If desired, limit the scope of the scan to specific web applications or site collections. Click __Next__.
+__Step 5 –__ On the [SPAA: Scan Scoping Options](../../../admin/datacollector/spaa/scanscopingoptions.md) page, no web applications or site collections have been added. If desired, limit the scope of the scan to specific web applications or site collections. Click __Next__.
 
-![Additional Scoping](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/collection/additionalscopingspaa.webp)
+![Additional Scoping](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/collection/additionalscopingspaa.webp)
 
-__Step 6 –__ On the [SPAA: Additional Scoping](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/spaa/additionalscoping.md) page, __Limit scanned depth to:__ is selected with the default set at __2__ levels. Customize this setting as desired and click __Next__.
+__Step 6 –__ On the [SPAA: Additional Scoping](../../../admin/datacollector/spaa/additionalscoping.md) page, __Limit scanned depth to:__ is selected with the default set at __2__ levels. Customize this setting as desired and click __Next__.
 
-![Agent Settings](/img/product_docs/activitymonitor/activitymonitor/install/agent/windowsagent.webp)
+![Agent Settings](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/agent/windowsagent.webp)
 
-__Step 7 –__ On the [SPAA: Agent Settings](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/spaa/agentsettings.md) page, use the default settings unless an agent scan mode is desired. Click __Next__.
+__Step 7 –__ On the [SPAA: Agent Settings](../../../admin/datacollector/spaa/agentsettings.md) page, use the default settings unless an agent scan mode is desired. Click __Next__.
 
 __CAUTION:__ Do not configure the options on the Results page.
 

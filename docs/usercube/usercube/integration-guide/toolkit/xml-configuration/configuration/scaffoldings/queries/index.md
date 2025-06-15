@@ -2,11 +2,11 @@
 
 - [
   Target Resource Report
-  ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/targetresourcereport/index.md)
+  ](targetresourcereport/index.md)
 
   Creates a ReportQuery with default Query taking all the properties of the entity.
 - [
   Universe Data Model
-  ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/universedatamodel/index.md)
+  ](universedatamodel/index.md)
 
   Creates, within a universe, entity instances and association instances based on a predefined template.

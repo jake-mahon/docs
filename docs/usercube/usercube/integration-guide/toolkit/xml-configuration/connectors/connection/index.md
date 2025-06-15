@@ -2,7 +2,7 @@
 
 A connection represents a link between a [
 Connector
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/connector/index.md) and a connection package.
+](../connector/index.md) and a connection package.
 
 ## Examples
 
@@ -40,7 +40,7 @@ appsettings.agent.json
 }
 ```
 
-Details about these settings can be found in Identity Manager's [References: Connectors](/docs/usercube/usercube/integration-guide/connectors/references-connectors/index.md).
+Details about these settings can be found in Identity Manager's [References: Connectors](../../../../connectors/references-connectors/index.md).
 
 ## Properties
 
@@ -56,9 +56,9 @@ Details about these settings can be found in Identity Manager's [References: Con
 
 A connection transformation is optional, but can be needed to adjust the Excel files, output of [
 Export Task
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/exporttask/index.md) from Excel export connections, before [
+](../../jobs/tasks/agent/exporttask/index.md) from Excel export connections, before [
 Prepare Synchronization Task
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/preparesynchronizationtask/index.md). The following operations are possible:
+](../../jobs/tasks/agent/preparesynchronizationtask/index.md). The following operations are possible:
 
 - filtering out given rows;
 - adding/removing days from specific date properties;

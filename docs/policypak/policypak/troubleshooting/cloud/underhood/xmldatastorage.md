@@ -7,13 +7,13 @@ Once the Endpoint Policy Manager Cloud client MSI is installed, the following di
 - Groups
 - Users
 
-![underneath_the_hood_and_troubleshooting_624x238](/img/product_docs/policypak/policypak/troubleshooting/cloud/underhood/underneath_the_hood_and_troubleshooting_624x238.webp)
+![underneath_the_hood_and_troubleshooting_624x238](../../../../../../static/img/product_docs/policypak/policypak/troubleshooting/cloud/underhood/underneath_the_hood_and_troubleshooting_624x238.webp)
 
 Figure 154. Directories in the XmlData folder.
 
 When the Endpoint Policy Manager Cloud client downloads XML data files from the Endpoint Policy Manager Cloud service, it puts those files in the Cloud directory, as shown in Figure 155.
 
-![underneath_the_hood_and_troubleshooting_1_624x170](/img/product_docs/policypak/policypak/troubleshooting/cloud/underhood/underneath_the_hood_and_troubleshooting_1_624x170.webp)
+![underneath_the_hood_and_troubleshooting_1_624x170](../../../../../../static/img/product_docs/policypak/policypak/troubleshooting/cloud/underhood/underneath_the_hood_and_troubleshooting_1_624x170.webp)
 
 Figure 155. Downloaded XML data files.
 

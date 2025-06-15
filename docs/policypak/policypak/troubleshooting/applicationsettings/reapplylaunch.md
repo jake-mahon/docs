@@ -4,4 +4,4 @@ Reapply on launch requires KB3033929 ([https://www.microsoft.com/en-us/download/
 
 After Netwrix Endpoint Policy Manager (formerly PolicyPak) CSE build 901, this patch is no longer required.
 
-![518_1_image0011](/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/518_1_image0011.webp)
+![518_1_image0011](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/518_1_image0011.webp)

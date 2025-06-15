@@ -14,7 +14,7 @@ User name
 
 Password
 
-![Login WebClient](/img/product_docs/passwordsecure/passwordsecure/configuration/web_applicaiton/operation/installation_with_parameters_167-en.webp)
+![Login WebClient](../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/web_applicaiton/operation/installation_with_parameters_167-en.webp)
 
 After successfully logging in, the last database name used and the last registered user will be saved. You thus only need to enter the password for the next login.
 
@@ -37,32 +37,32 @@ NOTE: It is possible to only transfer the database. The user name is not absolut
 
 The Web Application is split into a number of sections that are described below.
 
-![Operation](/img/product_docs/passwordsecure/passwordsecure/configuration/web_applicaiton/operation/installation_with_parameters_168-en.webp)
+![Operation](../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/web_applicaiton/operation/installation_with_parameters_168-en.webp)
 
-1. [Header](/docs/passwordsecure/passwordsecure/configuration/web_applicaiton/operation/header/header.md)
+1. [Header](header/header.md)
 
 The header provides access to some essential functions.
 
-2. [Navigation bar](/docs/passwordsecure/passwordsecure/configuration/web_applicaiton/operation/navigation_bar/navigation_bar.md)
+2. [Navigation bar](navigation_bar/navigation_bar.md)
 
 It is possible to switch between module and filter view on the navigation bar.
 
-3. [Filter or structure area](/docs/passwordsecure/passwordsecure/configuration/web_applicaiton/operation/filter_or_structure/filter_or_structure_area.md)
+3. [Filter or structure area](filter_or_structure/filter_or_structure_area.md)
 
 As is also the case on the client, it is possible to select between filter and structure.
 
-4. [Menu](/docs/passwordsecure/passwordsecure/configuration/web_applicaiton/operation/menu_bar/menu.md)
+4. [Menu](menu_bar/menu.md)
 
 The ribbon on the client has been replaced by a menu bar on the Web Application.
 
-5. [List view](/docs/passwordsecure/passwordsecure/configuration/web_applicaiton/operation/list_view/list_view.md)
+5. [List view](list_view/list_view.md)
 
 The records currently selected using the filter can be viewed in list view.
 
-6. [Reading pane](/docs/passwordsecure/passwordsecure/configuration/web_applicaiton/operation/reading_pane/reading_pane_webclient.md)
+6. [Reading pane](reading_pane/reading_pane_webclient.md)
 
 The reading pane shows you details about the relevantly selected element.
 
-7. [Footer](/docs/passwordsecure/passwordsecure/configuration/web_applicaiton/operation/footer/footer.md)
+7. [Footer](footer/footer.md)
 
 Various information about the record is displayed in the footer. For example, logbook entries or the history.

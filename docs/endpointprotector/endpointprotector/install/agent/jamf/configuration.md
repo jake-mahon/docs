@@ -8,7 +8,7 @@ __Step 2 –__ In your Jamf account, from the main navigation bar click __Comput
 
 __Step 3 –__ To create a new configuration profile, in the upper right, above the table with available configuration profiles, click __+New__.
 
-![Creating a New configuration Profile](/img/product_docs/endpointprotector/endpointprotector/install/agent/jamf/configurationprofile.png)
+![Creating a New configuration Profile](../../../../../../static/img/product_docs/endpointprotector/endpointprotector/install/agent/jamf/configurationprofile.png)
 
 On the New macOS Configuration Profile section, you can manage profile settings and select the devices and users to which you want to deploy the profile.
 
@@ -23,7 +23,7 @@ On the default General section, enter the following information:
 
 You can continue with the default settings for the category, level, and distribution method fields.
 
-![Completing information on the general section](/img/versioned_docs/auditor_10.6/auditor/addon/azurefiles/generalsettings.png)
+![Completing information on the general section](../../../../../../static/img/versioned_docs/auditor_10.6/auditor/addon/azurefiles/generalsettings.png)
 
 ## Certificate Settings
 
@@ -35,13 +35,13 @@ __Step 1 –__ Log in to Endpoint Protector Server, go to the System Configurati
 
 __Step 2 –__ On the Default System Settings section, enable Deep Packet Inspection Certificate and then download Client CA Certificate – the downloaded .zip file contains the .cer and .crt client certifications.
 
-![Enabling Deep Packet Inspection Certificate and then downloading Client CA Certificate](/img/product_docs/endpointprotector/endpointprotector/install/agent/dpicertificate.png)
+![Enabling Deep Packet Inspection Certificate and then downloading Client CA Certificate](../../../../../../static/img/product_docs/endpointprotector/endpointprotector/install/agent/dpicertificate.png)
 
 __Step 3 –__ Go to Jamf, the Certificate section, and click __Configure__.
 
 __Step 4 –__ Enter a Certificate name and then select and upload the downloaded Client CA Certificate in .cer format.
 
-![Entering the required information on New macOS Configuration Profile](/img/product_docs/endpointprotector/endpointprotector/install/agent/jamf/macosconfiguration.png)
+![Entering the required information on New macOS Configuration Profile](../../../../../../static/img/product_docs/endpointprotector/endpointprotector/install/agent/jamf/macosconfiguration.png)
 
 ## Privacy Preferences Policy Control Settings
 
@@ -58,7 +58,7 @@ __NOTE:__ Use the Terminal Editor to verify there are no formatting alterations 
 - Select the __Validate the Static Code Requirement__ check-box.
 - Click __Add__ and __Save__ to allow access to SystemPolicyAllFiles and Accessibility services.
 
-![Configuring Privacy Peferences Policy Control](/img/product_docs/endpointprotector/endpointprotector/install/agent/jamf/privacypreferences.png)
+![Configuring Privacy Peferences Policy Control](../../../../../../static/img/product_docs/endpointprotector/endpointprotector/install/agent/jamf/privacypreferences.png)
 
 ## Allow EppNotifier Settings
 
@@ -77,7 +77,7 @@ __NOTE:__ Use the Terminal Editor to verify there are no formatting alterations 
 - Select the __Validate the Static Code Requirement__ check-box.
 - Click __Add__ and then __Save__ to allow access to Accessibility services.
 
-![Configuring EPPNotifier Settings](/img/product_docs/endpointprotector/endpointprotector/install/agent/jamf/eppnotifer.png)
+![Configuring EPPNotifier Settings](../../../../../../static/img/product_docs/endpointprotector/endpointprotector/install/agent/jamf/eppnotifer.png)
 
 ## Enforced Encryption Settings
 
@@ -96,7 +96,7 @@ __NOTE:__ Use the Terminal Editor to verify there are no formatting alterations 
 - Select the __Validate the Static Code Requirement__ check-box.
 - Click __Add__ and then __Save__ to allow access to SystemPolicyAllFiles and Accessibility services.
 
-![Configuring Enforced Encryption settings](/img/product_docs/endpointprotector/endpointprotector/install/agent/jamf/enforcedencryption.png)
+![Configuring Enforced Encryption settings](../../../../../../static/img/product_docs/endpointprotector/endpointprotector/install/agent/jamf/enforcedencryption.png)
 
 ## System Extension Settings
 
@@ -109,7 +109,7 @@ On the System Extension section, click __Configure__ and then enter the followin
 - Team Identifier - ```TV3T7A76P4```.
 - Allowed System Extensions – click __Add__, enter ```com.cososys.eppclient```, and then __Save__ the changes.
 
-![Allowing System Extensions ](/img/product_docs/endpointprotector/endpointprotector/install/agent/jamf/systemextensions.png)
+![Allowing System Extensions ](../../../../../../static/img/product_docs/endpointprotector/endpointprotector/install/agent/jamf/systemextensions.png)
 
 __NOTE:__ For operating systems lower than macOS 11 (Big Sur), manage settings from the Approved Kernel Extensions section instead of System Extensions. Define the Team ID (enter TV3T7A76P4) and proceed to the next step.
 
@@ -124,7 +124,7 @@ On the System Extension section, click the __+ icon__ to add a new policy that w
 
 __NOTE:__ This setting will be applied starting with MacOS 12 version (Monterey).
 
-![Adding a new policy that will allow the removing of system extensions](/img/product_docs/endpointprotector/endpointprotector/install/agent/jamf/removeableextensions.png)
+![Adding a new policy that will allow the removing of system extensions](../../../../../../static/img/product_docs/endpointprotector/endpointprotector/install/agent/jamf/removeableextensions.png)
 
 ### Managed Login Items
 
@@ -166,9 +166,9 @@ __NOTE:__ Use the Terminal Editor to verify there are no formatting alterations 
 
 - Select the __Prohibit users from disabling on-demand VPN settings__ check-box.
 
-![First section to configuring VPN settings](/img/product_docs/endpointprotector/endpointprotector/install/agent/jamf/vpnsettings.png)
+![First section to configuring VPN settings](../../../../../../static/img/product_docs/endpointprotector/endpointprotector/install/agent/jamf/vpnsettings.png)
 
-![Second section to configuring VPN settings](/img/product_docs/endpointprotector/endpointprotector/install/agent/jamf/vpnconfiguration.png)
+![Second section to configuring VPN settings](../../../../../../static/img/product_docs/endpointprotector/endpointprotector/install/agent/jamf/vpnconfiguration.png)
 
 ## Notifications Settings
 
@@ -180,7 +180,7 @@ On the Notifications section, click __Configure__ and then enter the following i
 - Bundle ID - ```com.cososys.eppclient.notifier```.
 - Toggle the switch to include the settings type and then disable/enable to manage each notification option.
 
-![Optional Notifiaction Settings](/img/product_docs/endpointprotector/endpointprotector/install/agent/jamf/notificationsettings.png)
+![Optional Notifiaction Settings](../../../../../../static/img/product_docs/endpointprotector/endpointprotector/install/agent/jamf/notificationsettings.png)
 
 ## Scope
 
@@ -190,4 +190,4 @@ Click __Save__ to apply all settings to the new configuration profile.
 
 __NOTE:__ To confirm that the new configuration profile is saved successfully, reboot your computer at this point.
 
-![Selecting Devices and Users to deploy to the new profile.](/img/versioned_docs/activitymonitor_7.1/config/activedirectory/scope.png)
+![Selecting Devices and Users to deploy to the new profile.](../../../../../../static/img/versioned_docs/activitymonitor_7.1/config/activedirectory/scope.png)

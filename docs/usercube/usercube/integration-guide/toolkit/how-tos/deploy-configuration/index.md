@@ -11,7 +11,7 @@ The process for configuration deployment varies according to the situation:
 
 ## Deploy the Configuration Locally
 
-Deploy a local XML configuration by using the [ Usercube-Deploy Configuration](/docs/usercube/usercube/integration-guide/executables/references/deploy-configuration/index.md) and declaring at least:
+Deploy a local XML configuration by using the [ Usercube-Deploy Configuration](../../../executables/references/deploy-configuration/index.md) and declaring at least:
 
 - the configuration directory;
 - the connection string of the database.
@@ -28,7 +28,7 @@ Deploy a SaaS XML configuration by proceeding as follows:
 
 1. Log in for configuration deployment/export with the [
    Usercube-Login
-   ](/docs/usercube/usercube/integration-guide/executables/references/login/index.md).
+   ](../../../executables/references/login/index.md).
 
    Identity Manager provides an OpenID Connect (OIDC) authentication process in order to ensure strong security, visibility and ease of use.
      
@@ -61,14 +61,14 @@ Deploy a SaaS XML configuration by proceeding as follows:
    However, if, since then, there has been a change in the identity deploying/exporting the configuration or in the Identity Provider used to log in at step 1, then go through the whole process again.
 2. Log in to the IDP to be redirected back to this screen:
 
-   ![Usercube-Login.exe Success Screen](/img/product_docs/usercube/usercube/integration-guide/toolkit/how-tos/export-configuration/usercube-login_success_v602.webp)
+   ![Usercube-Login.exe Success Screen](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/toolkit/how-tos/export-configuration/usercube-login_success_v602.webp)
 
    Once authenticated, an identification token is stored on your local machine for the authentication to Identity Manager's deployment and export processes.
 3. Copy the entire text within the blue square and send it to your Identity Manager administrator.
 
    The administrator will add the identity information to the configuration of your Identity Manager instance, to allow the configuration deployment/export.
 
-4. Deploy the configuration by using the[ Usercube-Deploy Configuration](/docs/usercube/usercube/integration-guide/executables/references/deploy-configuration/index.md) and declaring at least:
+4. Deploy the configuration by using the[ Usercube-Deploy Configuration](../../../executables/references/deploy-configuration/index.md) and declaring at least:
 
    - the configuration directory;
    - the deployment environment;

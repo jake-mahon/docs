@@ -2,7 +2,7 @@
 
 License information is displayed on the Licensing page of the System Settings interface. Threat Manager comes with a temporary 15-day license.
 
-![System Settings interfaces on the Licensing page](/img/product_docs/dataclassification/ndc/configuration/licensing.webp)
+![System Settings interfaces on the Licensing page](../../../../../../static/img/product_docs/dataclassification/ndc/configuration/licensing.webp)
 
 The License Info section displays the following:
 
@@ -18,7 +18,7 @@ If the license is missing or expired, an alert banner displays, located just bel
 
 Follow the steps to import a license key file.
 
-![License section of the Licensing page](/img/product_docs/threatmanager/threatmanager/administration/configuration/systemsettings/licensingbrowse.webp)
+![License section of the Licensing page](../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/configuration/systemsettings/licensingbrowse.webp)
 
 __Step 1 –__ On the License page of the System Settings interface, click Browse. The Add New Integration window opens.
 

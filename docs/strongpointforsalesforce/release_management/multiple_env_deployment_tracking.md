@@ -37,11 +37,11 @@ Once the change request is approved:
 
 1. Click on __Sync CR__.
 
-   ![Sync the Change Request](/img/product_docs/strongpointforsalesforce/release_management/push_pull_sync_cr.webp)
+   ![Sync the Change Request](../../../static/img/product_docs/strongpointforsalesforce/release_management/push_pull_sync_cr.webp)
 2. Choose a __Saved Environment__. (Where you plan on developing/testing solutions and/or customizations.)
 3. Add your __Credentials__.
 
-   ![Enter your credentials](/img/product_docs/strongpointforsalesforce/release_management/push_pull_popup.webp)
+   ![Enter your credentials](../../../static/img/product_docs/strongpointforsalesforce/release_management/push_pull_popup.webp)
 4. Click on __Test Connection__ to make sure your credentials are correct. If your credentials are not correct,click on __Save Credentials__ and edit.
 5. Make the necessary changes on your change request in your development/testing environment and __Save__.
 
@@ -54,16 +54,16 @@ Once the change request is approved:
 5. Click __Push__.
 6. Click __Push CR__.
 
-![pushcr](/img/product_docs/strongpointforsalesforce/release_management/pushcr.webp)
+![pushcr](../../../static/img/product_docs/strongpointforsalesforce/release_management/pushcr.webp)
 
 After the push, the Change Request in Production has a related deployment record.
 
 ## Create the Deployment Record
 
 1. Open the __Related Lists__ tab on your change request.
-2. Click on __Run Compare Tool__. Refer to [Compare Environments](/docs/strongpointforsalesforce/tools/environment_comparison.md) for more information.
+2. Click on __Run Compare Tool__. Refer to [Compare Environments](../tools/environment_comparison.md) for more information.
 
-   ![Run the Compare Environment tool](/img/product_docs/strongpointforsalesforce/release_management/apex_enviro_comparison.webp)
+   ![Run the Compare Environment tool](../../../static/img/product_docs/strongpointforsalesforce/release_management/apex_enviro_comparison.webp)
 3. Click __Deploy__ in the change request tool bar. __Deploy__ is only available for approved change requests.
 4. Enter your environments and credentials and __Test Connections__.
 5. __Save__ the deployment record.
@@ -76,10 +76,10 @@ These steps can be completed after the deployment record is approved.
 1. Open __Change Requests__ and select the approved deployment record.
 2. Click __Deploy Changes__
 
-   ![Deploy the Approved Changes](/img/product_docs/strongpointforsalesforce/release_management/deployment_tool-2.webp)
+   ![Deploy the Approved Changes](../../../static/img/product_docs/strongpointforsalesforce/release_management/deployment_tool-2.webp)
 3. Click __Retrieve Selected Customizations__
 
-   ![Retrieve the Selected Customizations](/img/product_docs/strongpointforsalesforce/release_management/deployment_tool-3.webp)
+   ![Retrieve the Selected Customizations](../../../static/img/product_docs/strongpointforsalesforce/release_management/deployment_tool-3.webp)
 
    This creates a package to:
 
@@ -89,15 +89,15 @@ These steps can be completed after the deployment record is approved.
 4. Check your dependencies and validate your customizations.
 5. Click __Deploy Retrieved Customizations__ to start the deployment. This may take some time, since it runs the test cases into the target environment.
 
-   ![Run the Deployment](/img/product_docs/strongpointforsalesforce/release_management/deployment_tool-4.webp)
+   ![Run the Deployment](../../../static/img/product_docs/strongpointforsalesforce/release_management/deployment_tool-4.webp)
 6. Run the Compare Tool to verify all changes moved correctly.
 
 ## Complete the Process
 
 When the deployment process is finished:
 
-1. Check the [Deployment Logs](/docs/strongpointforsalesforce/release_management/deployment_logs.md).
+1. Check the [Deployment Logs](deployment_logs.md).
 2. Fix any errors and repeat the deployment if needed.
 3. Once the deployment is successful, open the change request and set the status to __Completed__.
 
-   ![Complete the Process](/img/product_docs/strongpointforsalesforce/release_management/deployment_tool-5.webp)
+   ![Complete the Process](../../../static/img/product_docs/strongpointforsalesforce/release_management/deployment_tool-5.webp)

@@ -4,13 +4,13 @@
 
 From this section, you can manage all the users in the system. Users are deﬁned as the end-users who are logged on a computer on which the Endpoint Protector Client software is installed. Any new user will be automatically added to the database, thus making them manageable.
 
-![Managing all the users in the system](/img/product_docs/endpointprotector/endpointprotector/admin/devicecontrol/listofusers.png)
+![Managing all the users in the system](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/devicecontrol/listofusers.png)
 
 A user is identiﬁed by information like Name (Username, First Name, Last Name), Department, Contact Details (Phone, E-mail), and others and is also automatically assigned to a computer.
 
 The Administrator can manually create a new user at any time by providing the user’s parameters and information mentioned above. Users can also be imported into Endpoint Protector from Active Directory.
 
-For detailed information on Active Directory, refer to the [Directory Services](/docs/endpointprotector/endpointprotector/admin/directoryservices/overview.md) chapter.
+For detailed information on Active Directory, refer to the [Directory Services](../directoryservices/overview.md) chapter.
 
 There are two users created by default during the installation process of Endpoint Protector:
 
@@ -38,13 +38,13 @@ __NOTE:__ The Restore Global Rights button can be used to revert to a lower leve
 
 All Existing Devices that were added on that level will be deleted when the restore is used.
 
-![ Allows Administrator to specify what Device Types and also what Speciﬁc Devices can be accessible](/img/product_docs/endpointprotector/endpointprotector/admin/devicecontrol/userrights.png)
+![ Allows Administrator to specify what Device Types and also what Speciﬁc Devices can be accessible](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/devicecontrol/userrights.png)
 
 ### User Settings
 
 From this section, you can edit the settings for each user.
 
-![You can edit the settings for each user.](/img/product_docs/endpointprotector/endpointprotector/admin/devicecontrol/groupsettings.png)
+![You can edit the settings for each user.](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/devicecontrol/groupsettings.png)
 
 Deﬁning custom settings for all users is not necessary since a user is perfectly capable of functioning correctly without any manual settings deﬁned. It will do this by either inheriting the settings from the group it belongs to or, if not possible, the global settings, which are mandatory and exist in the system with default values from installation.
 
@@ -52,19 +52,19 @@ Deﬁning custom settings for all users is not necessary since a user is perfect
 
 From this section, you can view the user history by selecting the View User History action. This will display the Logs Report page ﬁltered for the respective user.
 
-![Displays the Logs Report page ﬁltered for the respective user](/img/product_docs/endpointprotector/endpointprotector/admin/devicecontrol/logsreport.png)
+![Displays the Logs Report page ﬁltered for the respective user](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/devicecontrol/logsreport.png)
 
 ## Groups
 
 From this section, you can manage all the groups in the system. Grouping computers and users will help the Administrator manage rights or settings for these entities in a more eﬃcient way.
 
-![Manages the list of groups](/img/product_docs/endpointprotector/endpointprotector/admin/devicecontrol/listofgroups.png)
+![Manages the list of groups](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/devicecontrol/listofgroups.png)
 
 A group is identiﬁed by information like Name and Description, as well as based on the entities (Computers and Users).
 
 You can manually create a new group at any time by providing the group information mentioned above. Groups can also be imported into Endpoint Protector from Active Directory.
 
-__NOTE:__  For detailed information on Active Directory, refer to the [Directory Services](/docs/endpointprotector/endpointprotector/admin/directoryservices/overview.md) topic.
+__NOTE:__  For detailed information on Active Directory, refer to the [Directory Services](../directoryservices/overview.md) topic.
 
 The Actions column offers multiple options related to the group’s management like Edit, Manage Rights, Manage Settings, History, and Delete.
 
@@ -84,7 +84,7 @@ __Step 1 –__ Enable Smart Groups from System Conﬁguration, System Settings, 
 
 __NOTE:__ By enabling the Smart Group feature, Computers and Users will not be automatically assigned to the Default Group unless you create a Smart Group.
 
-![ Membership can be deﬁned based on element name patterns](/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/smartgroups.png)
+![ Membership can be deﬁned based on element name patterns](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/smartgroups.png)
 
 __Step 2 –__ Create a Smart Groups from Device Control, Groups section. Click __Create__, provide the following and then click __Save__:
 
@@ -99,7 +99,7 @@ __CAUTION:__ The rules set are key-sensitive!
 
 __NOTE:__ Once created, you can manage the group's priority by drag and drop actions.
 
-![Adding users to smart groups](/img/product_docs/endpointprotector/endpointprotector/admin/devicecontrol/groupinformation.png)
+![Adding users to smart groups](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/devicecontrol/groupinformation.png)
 
 __Step 3 –__ Synchronize entities to the Smart Groups.
 
@@ -111,11 +111,11 @@ If a new Computer is registered and matches one of the rules, the Computer will 
 
 If the new Computer does not match the rule, it will be added to the Default Group, if Default Groups are enabled from System Conﬁguration, System Settings, and the Smart Groups section.
 
-![Editing Group Information](/img/product_docs/endpointprotector/endpointprotector/admin/devicecontrol/groupinfoedit.png)
+![Editing Group Information](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/devicecontrol/groupinfoedit.png)
 
 __Step 4 –__ Delete a Smart Group from the Actions column or select the group from the list and then click __Delete__.
 
-![Deleting A smart group](/img/product_docs/endpointprotector/endpointprotector/admin/devicecontrol/smartgroupdelete.png)
+![Deleting A smart group](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/devicecontrol/smartgroupdelete.png)
 
 Smart Groups have the following limitations:
 
@@ -137,15 +137,15 @@ __NOTE:__ Default Groups are available only if Smart Groups are enabled. To use 
 
 __Step 1 –__ Enable Default Groups for Computers and Users from System Conﬁguration > System Settings > on the Smart Groups section, scroll to the bottom of the page and click __Save__.
 
-![Enabling Default Groups for Computers and Users from System Conﬁguration](/img/product_docs/endpointprotector/endpointprotector/admin/devicecontrol/enablesmartgroups.png)
+![Enabling Default Groups for Computers and Users from System Conﬁguration](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/devicecontrol/enablesmartgroups.png)
 
 __CAUTION:__ You are not required to manually create Default Groups – by enabling them, the Default Groups for Users and Computers will be automatically created.
 
-![Manage all the groups in the system](/img/product_docs/endpointprotector/endpointprotector/admin/devicecontrol/listofgroups.png)
+![Manage all the groups in the system](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/devicecontrol/listofgroups.png)
 
 __Step 2 –__ Synchronize entities to the Default Groups. To assign Computers and Users to the Default Groups, navigate to the Device Control section and locate the Groups section. In the List of Groups section, find the Actions column, select __Edit__, and then click __Sync__.
 
-![Managing information about groups](/img/product_docs/endpointprotector/endpointprotector/admin/devicecontrol/syncgroupinformation.png)
+![Managing information about groups](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/devicecontrol/syncgroupinformation.png)
 
 Default Groups have the following limitations:
 
@@ -157,7 +157,7 @@ Default Groups have the following limitations:
 
 File Location, Network Share Allowlists, and File Location Denylist can be set for groups of Computers.
 
-![Allowlists on Computer Groups](/img/product_docs/endpointprotector/endpointprotector/admin/devicecontrol/allowlist.png)
+![Allowlists on Computer Groups](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/devicecontrol/allowlist.png)
 
 In the Groups select section, all groups will be displayed.
 
@@ -183,12 +183,12 @@ __NOTE:__ Use Restore Global Rights to revert to a lower level of rights. Once e
 
 __NOTE:__ All Existing Devices that were added on that level will be deleted when the restore is used.
 
-![Specify what Device Types and also what Speciﬁc Devices can be accessible.](/img/product_docs/endpointprotector/endpointprotector/admin/devicecontrol/devicetypes.png)
+![Specify what Device Types and also what Speciﬁc Devices can be accessible.](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/devicecontrol/devicetypes.png)
 
 ### Group Settings
 
 From this section, you can edit the settings for each group.
 
-![groupsettings](/img/product_docs/endpointprotector/endpointprotector/admin/devicecontrol/groupsettings.png)
+![groupsettings](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/devicecontrol/groupsettings.png)
 
 Computers and users can be grouped to make editing the settings easier and more logical. Deﬁning custom settings for all groups is not necessary since a computer is perfectly capable of functioning correctly without any granular settings deﬁned. It will do this by either inheriting the settings from the group it belongs to or, if not possible, the global settings, which are mandatory and exist in the system with default values from installation.

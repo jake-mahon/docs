@@ -8,15 +8,15 @@ The following permission is needed:
 
 - Member of the Domain Administrators group
 
-Some collection jobs do allow for a least privilege model. See the [Active Directory Auditing Configuration](/docs/accessanalyzer/config/activedirectory/access.md) topic for additional information.
+Some collection jobs do allow for a least privilege model. See the [Active Directory Auditing Configuration](access.md) topic for additional information.
 
 ## Auditing Port Requirements
 
-Ports vary based on the data collector being used. See the [Active Directory Auditing Configuration](/docs/accessanalyzer/config/activedirectory/access.md) topic for additional information.
+Ports vary based on the data collector being used. See the [Active Directory Auditing Configuration](access.md) topic for additional information.
 
 ## Activity Auditing Permissions
 
-__NOTE:__ Active Directory domain activity events can also be monitored through Netwrix Threat Prevention. This requires integration between it and Netwrix Activity Monitor to enable access to the data for Access Analyzer Active Directory Activity scans. See the [Send Active Directory Event Data from Netwrix Threat Prevention to Netwrix Access Analyzer](/docs/accessanalyzer/config/activedirectory/threatprevention.md) topic for additional information.
+__NOTE:__ Active Directory domain activity events can also be monitored through Netwrix Threat Prevention. This requires integration between it and Netwrix Activity Monitor to enable access to the data for Access Analyzer Active Directory Activity scans. See the [Send Active Directory Event Data from Netwrix Threat Prevention to Netwrix Access Analyzer](threatprevention.md) topic for additional information.
 
 Requirements to Deploy the AD Agent on the Domain Controller
 
@@ -35,7 +35,7 @@ If the activity log files are being archived, configurable within the Netwrix Ac
 
 Integration with Access Analyzer
 
-See the [Active Directory Activity Auditing Configuration](/docs/accessanalyzer/config/activedirectory/activity.md) topic for target environment requirements.
+See the [Active Directory Activity Auditing Configuration](activity.md) topic for target environment requirements.
 
 ## Activity Auditing Port Requirements
 

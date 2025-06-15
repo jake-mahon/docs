@@ -10,7 +10,7 @@ It allows future tasks to be executed only on modified resources, in order to mi
 
 See the [
 Set Up Incremental Synchronization
-](/docs/usercube_saas/usercube/integration-guide/tasks-jobs/how-tos/jobfast/index.md) topic for additional information on a full Incremental job.
+](../jobfast/index.md) topic for additional information on a full Incremental job.
 
 ## Configure a Job to Be Incremental
 
@@ -18,7 +18,7 @@ Configure a job to be incremental by proceeding as follows:
 
 1. Configure the synchronization task ([
    Synchronize Task
-   ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/synchronizetask/index.md)) with ```DoNotDeleteChanges``` set to ```true```.
+   ](../../../toolkit/xml-configuration/jobs/tasks/server/synchronizetask/index.md)) with ```DoNotDeleteChanges``` set to ```true```.
 
    This way, Identity Manager keeps the list of all changed resources.
 
@@ -32,7 +32,7 @@ Configure a job to be incremental by proceeding as follows:
    > ```
 2. Tag all changed resources by running [
    Set Recently Modified Flag Task
-   ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/setrecentlymodifiedflagtask/index.md) after SynchronizeTask.
+   ](../../../toolkit/xml-configuration/jobs/tasks/server/setrecentlymodifiedflagtask/index.md) after SynchronizeTask.
 
    > For example, following the synchronization task for the Active Directory:
    >

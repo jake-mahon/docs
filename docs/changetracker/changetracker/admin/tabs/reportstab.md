@@ -12,13 +12,13 @@ All new for Gen7 R2, the __Reports__ Tab provides complete control over all repo
 
 New reports can be added using the dropdown selector and __+Add__ button in the top right hand corner of the page, or by using the Query/Report button found on the __Events__ and __Planned Change__ tabs.
 
-![QueryReportButton](/img/product_docs/changetracker/changetracker/admin/tabs/queryreportbutton.webp)
+![QueryReportButton](../../../../../static/img/product_docs/changetracker/changetracker/admin/tabs/queryreportbutton.webp)
 
-![ReportsAndQuesriesTab](/img/product_docs/changetracker/changetracker/admin/tabs/reportsandquesriestab.webp)
+![ReportsAndQuesriesTab](../../../../../static/img/product_docs/changetracker/changetracker/admin/tabs/reportsandquesriestab.webp)
 
-__NOTE:__ Report formatting is controlled by the built-in Compliance reports templates. See the topic for additional information. You will see that any report has a ‘Results available until xx yy zz – this retention period is in place to ensure that reports are not stored forever and using storage resource unnecessarily. Most reports will be emailed at the time of production and either consumed or stored externally, removing the need to store reports long term at the Change Tracker Hub. Don’t worry, the events are retained as long as needed, governed by the separate DaysToKeepEventsFor system setting. See the [System Settings](/docs/changetracker/changetracker/admin/settings/systemsettings.md) topic for additional information. Reports can be regenerated at any time if needed at a subsequent future date.
+__NOTE:__ Report formatting is controlled by the built-in Compliance reports templates. See the topic for additional information. You will see that any report has a ‘Results available until xx yy zz – this retention period is in place to ensure that reports are not stored forever and using storage resource unnecessarily. Most reports will be emailed at the time of production and either consumed or stored externally, removing the need to store reports long term at the Change Tracker Hub. Don’t worry, the events are retained as long as needed, governed by the separate DaysToKeepEventsFor system setting. See the [System Settings](../settings/systemsettings.md) topic for additional information. Reports can be regenerated at any time if needed at a subsequent future date.
 
-![ReportsReportViewerDialog](/img/product_docs/changetracker/changetracker/admin/tabs/reportsreportviewerdialog.webp)
+![ReportsReportViewerDialog](../../../../../static/img/product_docs/changetracker/changetracker/admin/tabs/reportsreportviewerdialog.webp)
 
 ## Executive Summary Report
 
@@ -44,4 +44,4 @@ To see the full results of the report, click on the __View Report__ button for t
 
 The __Report__ view shows all rules and results. Report results can also export in either PDF, Excel, or CSV format. The __Template__ selector alongside the __Export__ button provides options for either summarized pass/fail format or full results details format.
 
-See the [Overview Tab](/docs/changetracker/changetracker/admin/tabs/complianceoverviewtab.md) topic for additional information.
+See the [Overview Tab](complianceoverviewtab.md) topic for additional information.

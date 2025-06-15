@@ -8,7 +8,7 @@ Navigate to the __Databases__ > SQL > 4.Configuration > SQL_Authentication > Con
 
 __CAUTION:__ Do not modify or deselect the selected analysis task(s). The analysis task(s) are preconfigured for this job.
 
-![Analysis Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/configuration/sqljobgroup43.webp)
+![Analysis Selection](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/configuration/sqljobgroup43.webp)
 
 The default analysis tasks are:
 

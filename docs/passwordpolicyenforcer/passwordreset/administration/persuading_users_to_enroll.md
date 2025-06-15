@@ -6,7 +6,7 @@ The Web Interface includes a REST API which your web sites and applications can 
 
 The API is disabled by default. If an attacker sends many queries to the API, they could try to guess the domain and user names of enrolled users. They could get the same information by sending many requests to the Web Interface.API is the more attractive target because API responds faster and API queries are not logged to the Audit Log.
 
-If you do not want to enable the API because your Web Interface is accessible from the Internet, then you could leave the API disabled on your Internet-facing Web Interface and set up an internal Web Interface for API queries. Use the ServerIP registry value to point both Web Interfaces to the same NPR Server, and enable the API only on the internal server. See the [Multiple Server Installation](/docs/passwordpolicyenforcer/passwordreset/administration/installation.md#multiple-server-installation) topic for more information.
+If you do not want to enable the API because your Web Interface is accessible from the Internet, then you could leave the API disabled on your Internet-facing Web Interface and set up an internal Web Interface for API queries. Use the ServerIP registry value to point both Web Interfaces to the same NPR Server, and enable the API only on the internal server. See the [Multiple Server Installation](installation.md#multiple-server-installation) topic for more information.
 
 Follow the steps below to enable the API.
 
@@ -16,7 +16,7 @@ __Step 2 –__ Expand the __HKEY_LOCAL_MACHINE__, __SOFTWARE__, __ANIXIS__, __AN
 
 __Step 3 –__ Create a new __DWORD__ value called __WebAPIState__, and set it to 1.
 
-![persuading_users_to_enroll](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/persuading_users_to_enroll.jpg)
+![persuading_users_to_enroll](../../../../static/img/product_docs/passwordpolicyenforcer/passwordreset/administration/persuading_users_to_enroll.jpg)
 
 ## Querying the API
 

@@ -9,7 +9,7 @@ Do the following:
    source file to retrieve and display data from.  
    Expressions in the __Type binding expression__ list are auto generated with respect to the number of sheets in the source Excel workbook and the number of columns in a sheet. It is as:
 
-   ![binding_expressions_examples](/img/product_docs/groupid/groupid/admincenter/portal/linkedcombo/binding_expressions_examples.webp)
+   ![binding_expressions_examples](../../../../../../static/img/product_docs/groupid/groupid/admincenter/portal/linkedcombo/binding_expressions_examples.webp)
 
    In an expression, worksheet names are enclosed in brackets while the names of the data columns in the worksheets are without brackets. The expressions in the figure above indicate that
    the Excel workbook has three worksheets: _Company_, _Country_, and _City_.
@@ -21,7 +21,7 @@ Do the following:
 
    1. Click __Add__ to add a row.
 
-      ![child_fields](/img/product_docs/groupid/groupid/admincenter/portal/linkedcombo/child_fields.webp)
+      ![child_fields](../../../../../../static/img/product_docs/groupid/groupid/admincenter/portal/linkedcombo/child_fields.webp)
    2. In the __Linked Field__ drop-down list, select a field (for example, Country). This field will be linked to the data column represented by the binding expression you select in the __Binding Expression__ drop-down list.  
       The __Linked Field__ list contains predefined, hard coded fields, where each field is already mapped to a schema attribute. When you map a field to an expression, the values in the worksheet’s data
       column will be available for the field in the portal. When a portal user selects a value, it is set as the attribute’s value for the field.
@@ -31,7 +31,7 @@ Do the following:
 
    The following example shows the relationship for an Excel workbook with three worksheets: 0-Company, 1-Country, and 2-City. (You can also create two linked combos to manage the relationship between these three fields.)
 
-   ![schema](/img/product_docs/groupid/groupid/admincenter/portal/linkedcombo/schema.webp)
+   ![schema](../../../../../../static/img/product_docs/groupid/groupid/admincenter/portal/linkedcombo/schema.webp)
 
    The relationship formed between fields can be explained as:
 
@@ -61,4 +61,4 @@ Do the following:
 
 See Also
 
-- [Linked Combo Display Type](/docs/groupid/groupid/admincenter/portal/linkedcombo/overview.md)
+- [Linked Combo Display Type](overview.md)

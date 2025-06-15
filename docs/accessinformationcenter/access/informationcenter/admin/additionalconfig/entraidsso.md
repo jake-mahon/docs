@@ -47,7 +47,7 @@ __Step 6 –__ Next, click __Edit__ on the Attributes & Claims section. The four
 
 Once configured they should show under Additional claims as below:
 
-![Claims configured](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/reports/entraidssoclaims.webp)
+![Claims configured](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/install/application/reports/entraidssoclaims.webp)
 
 __Step 7 –__ In the __Manage__ > __Users and groups__ section for your application, add any required users or groups to give permission to access the application.
 
@@ -57,13 +57,13 @@ The application is now configured with the necessary settings. The next step is 
 
 To enable Microsoft Entra ID SSO for the Access Information Center, the config file needs to be updated with values from Microsoft Entra ID. Follow the steps to enable the SSO.
 
-_Remember,_ Enabling Entra ID SSO requires SSL to be enabled. If this was not done during the installation, then you must manually configure it. See the [Securing the Access Information Center](/docs/accessinformationcenter/access/informationcenter/installation/secure.md) topic for additional information.
+_Remember,_ Enabling Entra ID SSO requires SSL to be enabled. If this was not done during the installation, then you must manually configure it. See the [Securing the Access Information Center](../../installation/secure.md) topic for additional information.
 
 __Step 1 –__ Open the ```AccessInformationCenter.Service.exe.config``` file in a text editor, such as Notepad. The file is located in the Access Information Center installation directory:
 
 …\Program Files\STEALTHbits\Access Information Center
 
-![Parameters in the config file](/img/product_docs/accessinformationcenter/access/informationcenter/admin/additionalconfig/configfileentrasso.webp)
+![Parameters in the config file](../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/admin/additionalconfig/configfileentrasso.webp)
 
 __Step 2 –__ Locate the __WsFederationMetaData__, __WsFederationRealm__, and __WsFederationReply__ parameters in the config file. If these are not present, then manually add them to your config file as follows:
 

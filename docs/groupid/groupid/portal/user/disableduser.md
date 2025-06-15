@@ -21,7 +21,7 @@ A disabled user can be reinstated but not extended. An expired user can be exten
 
 To view and modify the properties of a disabled or expired user, select it and click __Properties__ on the toolbar.
 
-Refer to the information for user properties to manage the properties of a disabled/expired user. See the [User Properties](/docs/groupid/groupid/portal/user/properties/overview.md) topic for additional information.
+Refer to the information for user properties to manage the properties of a disabled/expired user. See the [User Properties](properties/overview.md) topic for additional information.
 
 ## Reinstate a Disabled User
 

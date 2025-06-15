@@ -2,7 +2,7 @@
 
 The Exceptions report at the __SharePoint__ node provides a list of exceptions that were found across the targeted SharePoint on-premise farms and SharePoint Online instances. This report includes a Details table.
 
-![Exceptions report at the SharePoint node](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/activedirectory/exceptions.webp)
+![Exceptions report at the SharePoint node](../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/activedirectory/exceptions.webp)
 
 An exception is defined as a problem or risk to data governance security. Exceptions include open access and permissions granted to stale or disabled users. This table will be blank if no exceptions were found within the targeted farm/instance. This report is comprised of the following columns:
 

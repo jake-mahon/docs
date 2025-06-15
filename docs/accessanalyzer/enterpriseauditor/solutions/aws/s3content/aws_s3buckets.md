@@ -8,7 +8,7 @@ Navigate to the __AWS__ > __7.S3 Content__ > __AWS_S3Buckets__ > __Configure__ n
 
 __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis task is preconfigured for this job.
 
-![Analysis Task for the AWS_S3Buckets Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/aws/s3content/s3bucketsanalysis.webp)
+![Analysis Task for the AWS_S3Buckets Job](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/aws/s3content/s3bucketsanalysis.webp)
 
 The following analysis task is selected by default:
 

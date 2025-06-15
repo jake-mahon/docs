@@ -8,9 +8,9 @@ Data Collectors
 
 This solution employs the following data collector to scan the target environment:
 
-- [ADInventory Data Collector](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/overview.md)
-- [AzureADInventory Data Collector](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/azureadinventory/overview.md)
-- [SharePointAccess Data Collector](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/spaa/overview.md)
+- [ADInventory Data Collector](../../admin/datacollector/adinventory/overview.md)
+- [AzureADInventory Data Collector](../../admin/datacollector/azureadinventory/overview.md)
+- [SharePointAccess Data Collector](../../admin/datacollector/spaa/overview.md)
 
 Permissions and Ports for ADInventory Data Collector Prerequisite
 
@@ -62,9 +62,9 @@ The following are supported Microsoft® SharePoint® Online:
 
 - OneDrive® for Business (Access Auditing and/or Sensitive Data Discovery Auditing for Agent-less mode scans only)
 
-See the [SharePoint Scan Options](/docs/accessanalyzer/enterpriseauditor/requirements/solutions/sharepoint/scanoptions.md) topic for additional information.
+See the [SharePoint Scan Options](../solutions/sharepoint/scanoptions.md) topic for additional information.
 
-__NOTE:__ You can use the __SP_RegisterAzureAppAuth__ instant job to make the configuration for SharePoint Online easier. This job registers the necessary Microsoft Entra ID application and provisions it with the required permissions. See the [SP_RegisterAzureAppAuth Job](/docs/accessanalyzer/enterpriseauditor/admin/jobs/instantjobs/sp_registerazureappauth.md) topic for additional information.
+__NOTE:__ You can use the __SP_RegisterAzureAppAuth__ instant job to make the configuration for SharePoint Online easier. This job registers the necessary Microsoft Entra ID application and provisions it with the required permissions. See the [SP_RegisterAzureAppAuth Job](../../admin/jobs/instantjobs/sp_registerazureappauth.md) topic for additional information.
 
 ## Supported SharePoint On-Premise
 
@@ -74,4 +74,4 @@ The following are supported Microsoft® SharePoint® operating systems:
 - SharePoint® 2016
 - SharePoint® 2013
 
-See the [SharePoint Scan Options](/docs/accessanalyzer/enterpriseauditor/requirements/solutions/sharepoint/scanoptions.md) topic for additional information.
+See the [SharePoint Scan Options](../solutions/sharepoint/scanoptions.md) topic for additional information.

@@ -1,6 +1,6 @@
 # Database Maintenance Feature Requirements
 
-All operations to configure database maintenance on the [Database Maintenance Window](/docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/overview.md) are executed by the Enterprise Manager. Therefore, either the SQL Server account supplied during Threat Prevention installation or the Windows account configured to run the Enterprise Manager (for Windows Authentication to the SQL Server) must have enough rights to execute the Database Maintenance feature.
+All operations to configure database maintenance on the [Database Maintenance Window](../admin/configuration/databasemaintenance/overview.md) are executed by the Enterprise Manager. Therefore, either the SQL Server account supplied during Threat Prevention installation or the Windows account configured to run the Enterprise Manager (for Windows Authentication to the SQL Server) must have enough rights to execute the Database Maintenance feature.
 
 __NOTE:__ If the account used to run Database Maintenance is changed, it is necessary to manually delete the DBMaintenance SQL Agent Job in the SQL Server Management Studio.
 
@@ -39,11 +39,11 @@ The following rights are required to run database maintenance:
 
     __NOTE:__ There is a least privilege option for this requirement. See the Less Privilege Model for NVMonitorData Database Permission topic for additional information.
 
-See the [Database Components](/docs/threatprevention/threatprevention/admin/overview.md#database-components) topic for a discussion of these databases.
+See the [Database Components](../admin/overview.md#database-components) topic for a discussion of these databases.
 
 Archive Database Permissions
 
-If the __Move__ option is selected on the [Archive Data](/docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/archive.md) tab of the Database Maintenance window, an additional account must be provided for the destination server/database. This account must have rights to:
+If the __Move__ option is selected on the [Archive Data](../admin/configuration/databasemaintenance/archive.md) tab of the Database Maintenance window, an additional account must be provided for the destination server/database. This account must have rights to:
 
 - Create the database on the specified server
 - Modify the schema

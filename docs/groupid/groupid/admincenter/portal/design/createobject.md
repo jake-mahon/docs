@@ -15,11 +15,11 @@ Using a portal, users can create different directory objects, namely:
 The portal provides a separate wizard for creating each of these objects. You can customize a wizard as needed.
 
 NOTE: In the portal, the _Create Group_ wizard starts with the _Group Type_ page, where users can select the type of group they want to create. Options on this page vary, depending on the permissions assigned to the user in the identity store.
-(See the [Security Role – Permissions](/docs/groupid/groupid/admincenter/securityrole/permissions.md) topic.)
+(See the [Security Role – Permissions](../../securityrole/permissions.md) topic.)
 
 - If a user has the _Create Static Group_ permission and is denied the _Create Smart Group_ permission, only the _Static Group_ option is displayed on the _Group Type_ page.
 - If a user has the _Create Smart Group_ permission and is denied the _Create Static Group_ permission, all options except _Static Group_ are displayed on the _Group Type_ page.
-![group_type](/img/product_docs/groupid/groupid/admincenter/portal/design/group_type.webp)
+![group_type](../../../../../../static/img/product_docs/groupid/groupid/admincenter/portal/design/group_type.webp)
 
 NOTE: You can customize the _Group Type_ page individually for static group, Smart Group, and each of the Dynasty types. However:
 
@@ -49,7 +49,7 @@ What do you want to do?
    The __Name__ list displays the pages on the object’s creation wizard.
 6. Click __Add__. The __Add Category__ pane is displayed.
 7. In the __Name__ box, enter a name for the page. The page will be displayed in the wizard with this name.
-8. In the __Visibility Level__ drop-down list, select a security role. The page would be visible to users of this role and roles with a priority value higher than this role. See [Priority](/docs/groupid/groupid/admincenter/securityrole/manage.md).  
+8. In the __Visibility Level__ drop-down list, select a security role. The page would be visible to users of this role and roles with a priority value higher than this role. See [Priority](../../securityrole/manage.md).  
    Select _Never_ to hide the page from all users.
 9. To add fields to the page, see the Add a Field to a Wizard Page topic.
 10. Click __OK__.
@@ -115,8 +115,8 @@ __To update a wizard page:__
 8. In the __Field__ drop-down list, select a schema attribute to link to this field.
 9. In the __Display Name__ box, enter a display name for the field. This name is the field’s label on the wizard.
 10. In the __Display Type__ drop-down list, select a display type to use for rendering this field on the wizard.  
-    The list contains basic display types and custom display types defined on the __Custom Display Types__ page. See the [Display Type Categories](/docs/groupid/groupid/admincenter/portal/displaytype/categories.md) topic.
-11. In the __Visibility Level__ drop-down list, select a security role. The field would be visible to users of the selected role and roles with a priority value higher than the selected role. See [Priority](/docs/groupid/groupid/admincenter/securityrole/manage.md).  
+    The list contains basic display types and custom display types defined on the __Custom Display Types__ page. See the [Display Type Categories](../displaytype/categories.md) topic.
+11. In the __Visibility Level__ drop-down list, select a security role. The field would be visible to users of the selected role and roles with a priority value higher than the selected role. See [Priority](../../securityrole/manage.md).  
     Select _Never_ to hide the field from all users.
 12. As mentioned for visibility level, the field is visible to members of the selected role and roles with a priority value higher than the selected role.  
     In the __Exclude Roles__ area, select the check boxes for the higher priority role(s) you want to hide the field from.
@@ -137,7 +137,7 @@ __To update a wizard page:__
 17. Select the __Is Required__ check box to make it mandatory for users to provide a value for the field.
 18. Select the __Is Read Only__ check box to make the field read-only.
 19. Select the __Filter Bad Words__ check box to ensure that users do not enter any bad word in this field.  
-    A value entered for the field is checked against the words listed on the __Bad Words List__ page. Matched values cannot be saved. See the [Manage the Bad Words List](/docs/groupid/groupid/admincenter/portal/design/badwords.md) topic.
+    A value entered for the field is checked against the words listed on the __Bad Words List__ page. Matched values cannot be saved. See the [Manage the Bad Words List](badwords.md) topic.
 20. Click __OK__. The field is displayed in the __Fields__ area on the __Edit Category__ pane. You can rearrange the fields, update field properties, and even remove a field from the wizard page.
 21. Click __OK__.
 22. Click __Save__ on the __Create Object__ page.
@@ -209,4 +209,4 @@ __To update field properties:__
 
 See Also
 
-- [Design a Portal with Display Types](/docs/groupid/groupid/admincenter/portal/displaytype/overview.md)
+- [Design a Portal with Display Types](../displaytype/overview.md)

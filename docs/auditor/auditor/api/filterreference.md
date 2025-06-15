@@ -19,8 +19,8 @@ Review this section to learn more about operators and how to apply them to Activ
 
 Review the following for additional information:
 
-- [Filters](/docs/auditor/auditor/api/filters.md)
-- [Operators](/docs/auditor/auditor/api/filteroperators.md)
+- [Filters](filters.md)
+- [Operators](filteroperators.md)
 
 The table below shows filters and Activity Records matching them.
 

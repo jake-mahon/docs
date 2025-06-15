@@ -6,7 +6,7 @@ The 1-Dropbox_SDD Scan job collects data from the Dropbox environment on access 
 
 The 1-Dropbox_SDD Scan job has been preconfigured to run under the default settings within the category of Scan for Sensitive Content.
 
-![Queries for the 1-Dropbox_SDD Scan Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/dropbox/collection/sddscanquery.webp)
+![Queries for the 1-Dropbox_SDD Scan Job](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/dropbox/collection/sddscanquery.webp)
 
 The query for the 1-Dropbox_SDD Scan job is:
 
@@ -22,11 +22,11 @@ __Step 2 –__ In the Query Selection view, click __Query Properties__ to open t
 
 __Step 3 –__ Select the __Data Source__ tab, and click __Configure__. The Dropbox Access Auditor Data Collector Wizard opens.
 
-![Dropbox Access Auditor Data Collector Wizard Scoping page](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/dropbox/collection/sddscopingpage.webp)
+![Dropbox Access Auditor Data Collector Wizard Scoping page](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/dropbox/collection/sddscopingpage.webp)
 
-__Step 4 –__ On the Scoping page, select whether to scan __All Users__ or __Limited Users__. If __Limited Users__ is selected, browse to a CSV file with one email address per row for the desired users. In the File Permissions section, select the __Collect File Level Permissions__ checkbox to collect permissions at the file level. See the [DropboxAccess: Scoping](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/dropboxaccess/scoping.md) topic for additional information.
+__Step 4 –__ On the Scoping page, select whether to scan __All Users__ or __Limited Users__. If __Limited Users__ is selected, browse to a CSV file with one email address per row for the desired users. In the File Permissions section, select the __Collect File Level Permissions__ checkbox to collect permissions at the file level. See the [DropboxAccess: Scoping](../../../admin/datacollector/dropboxaccess/scoping.md) topic for additional information.
 
-![Dropbox Access Auditor Data Collector Wizard DLP Audit Settings page](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/dropbox/collection/sdddlpsettings.webp)
+![Dropbox Access Auditor Data Collector Wizard DLP Audit Settings page](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/dropbox/collection/sdddlpsettings.webp)
 
 __Step 5 –__ On theDLP Audit Settings page:
 
@@ -35,15 +35,15 @@ __Step 5 –__ On theDLP Audit Settings page:
 - Enable storing of discovered match hits
 - Enable differential scanning
 
-See the [DropboxAccess: DLP Audit Settings](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/dropboxaccess/dlpauditsettings.md) topic for additional information.
+See the [DropboxAccess: DLP Audit Settings](../../../admin/datacollector/dropboxaccess/dlpauditsettings.md) topic for additional information.
 
-![Dropbox Access Auditor Data Collector Wizard Select DLP criteria page](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/dropbox/collection/sddselectdlpcriteria.webp)
+![Dropbox Access Auditor Data Collector Wizard Select DLP criteria page](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/dropbox/collection/sddselectdlpcriteria.webp)
 
 __Step 6 –__ On the Select DLP Criteria for This Scan page , add or remove criteria as desired.
 
-- (Optional) Create custom criteria with the __Edit__ option. See the [Sensitive Data Criteria Editor](/docs/accessanalyzer/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/overview.md) topic for additional information.
+- (Optional) Create custom criteria with the __Edit__ option. See the [Sensitive Data Criteria Editor](../../../sensitivedatadiscovery/criteriaeditor/overview.md) topic for additional information.
 
-See the [DropboxAccess: Select DLP Criteria](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/dropboxaccess/selectdlpcriteria.md) topic for additional information.
+See the [DropboxAccess: Select DLP Criteria](../../../admin/datacollector/dropboxaccess/selectdlpcriteria.md) topic for additional information.
 
 __Step 7 –__ On the Completion Page, click __Finish__ to save any setting modifications or click __Cancel__ if no changes were made. Then click __OK__ to close the Query Properties window.
 

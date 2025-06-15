@@ -38,7 +38,7 @@ A few drop-down list display types used in the default portal template are:
    2. Specify a value and a display text for that value in the respective boxes. The display text will be displayed in the drop-down list, while the value will be saved in the directory or database when a user selects the display text from the drop-down
       list.  
       (The value will be saved in the directory when the drop-down list display type is mapped to a directory attribute. It will be saved in the database when the display type is mapped to a database attribute.)
-   3. In the __Visibility__ drop-down list, select a security role. The value in the drop-down list will be visible to users of this role and roles with a priority value higher than this role. See [Priority](/docs/groupid/groupid/admincenter/securityrole/manage.md).  
+   3. In the __Visibility__ drop-down list, select a security role. The value in the drop-down list will be visible to users of this role and roles with a priority value higher than this role. See [Priority](../../securityrole/manage.md).  
       Select _Never_ to hide the value from all users.
    4. Click __OK__. The value is listed in the __Values__ area, represented by its display text.
 8. Repeat step 7 to define more values in the list.
@@ -53,6 +53,6 @@ A few drop-down list display types used in the default portal template are:
 
 __See Also__
 
-- [Design a Portal with Display Types](/docs/groupid/groupid/admincenter/portal/displaytype/overview.md)
-- [Display Type Categories](/docs/groupid/groupid/admincenter/portal/displaytype/categories.md)
-- [Define Custom Display Types](/docs/groupid/groupid/admincenter/portal/displaytype/custom.md)
+- [Design a Portal with Display Types](overview.md)
+- [Display Type Categories](categories.md)
+- [Define Custom Display Types](custom.md)

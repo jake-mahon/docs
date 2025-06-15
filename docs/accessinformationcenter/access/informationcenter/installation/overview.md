@@ -23,7 +23,7 @@ Permissions are needed to the Access Analyzer database and to Active Directory. 
     - Database Owner
     - Provisioned to use Default Schema of ‘dbo’
   - Database connection via TLS 1.2 (SQL Native Client) is supported.
-- Active Directory service account – At a minimum, Access Information Center login authentication and Resource Audits require the Active Directory service account to have rights to read Active Directory. This credential is configured during installation based on the account used for connecting to the database. See the [Active Directory Page](/docs/accessinformationcenter/access/informationcenter/admin/configuration/activedirectory.md) topic for additional information.
+- Active Directory service account – At a minimum, Access Information Center login authentication and Resource Audits require the Active Directory service account to have rights to read Active Directory. This credential is configured during installation based on the account used for connecting to the database. See the [Active Directory Page](../admin/configuration/activedirectory.md) topic for additional information.
 
 Commit Active Directory Changes
 
@@ -34,7 +34,7 @@ In order for the Access Information Center to commit changes to Active Directory
 - Allow Read Members
 - Allow Write Members
 
-See the [Commit Active Directory Changes](/docs/accessinformationcenter/access/informationcenter/admin/additionalconfig/commitchanges.md) topic for additional information and best practices.
+See the [Commit Active Directory Changes](../admin/additionalconfig/commitchanges.md) topic for additional information and best practices.
 
 ### SSL Certificate
 
@@ -67,7 +67,7 @@ Latest Version Compatibility
 | Netwrix Access Analyzer (formerly Enterprise Auditor) | Ver. 12.0\* |
 | Netwrix Access Information Center | Ver. v12.0\* |
 
-See the [Upgrade Procedure](/docs/accessinformationcenter/access/informationcenter/installation/upgrade.md) topic for additional information.
+See the [Upgrade Procedure](upgrade.md) topic for additional information.
 
 ## Supported Browsers
 

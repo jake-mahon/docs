@@ -20,4 +20,4 @@ The confirmation code.
 
 See Also
 
-- [ShortMessage class](/docs/groupid/groupid/admincenter/smsgateway/custom/shortmessage/class.md)
+- [ShortMessage class](class.md)

@@ -14,11 +14,11 @@ If you plan to use this authentication type (available only for Exchange Online 
 | --- | --- |
 | Authentication type | Select __Modern (Exchange Online)__ |
 | Admin Username | Specify the administrative account for the required Exchange Online organization. The user must have a mailbox connected to it in order to crawl Exchange. |
-| Tenant ID | Enter the __Tenant ID__ you obtained at [Step 5: Obtain Tenant ID](/docs/dataclassification/ndc/configuration/configinfrastructure/azureappexchangeonlinemfa#step-5-obtain-tenant-id). |
-| Certificate thumbprint | Enter the certificate thumbprint you prepared at [Step 4: Configure Certificates & secrets](/docs/dataclassification/ndc/configuration/configinfrastructure/azureappexchangeonlinemfa#step-4-configure-certificates--secrets). |
-| Application ID | Enter the app ID you got at application registration at [Step 2: Create and Register a new app in Azure AD](/docs/dataclassification/ndc/configuration/configinfrastructure/azureappexchangeonlinemfa#step-2-create-and-register-a-new-app-in-azure-ad) (it can be found in the Azure AD app properties >__Overview__). |
+| Tenant ID | Enter the __Tenant ID__ you obtained at [Step 5: Obtain Tenant ID](../../../configuration/configinfrastructure/azureappexchangeonlinemfa#step-5-obtain-tenant-id). |
+| Certificate thumbprint | Enter the certificate thumbprint you prepared at [Step 4: Configure Certificates & secrets](../../../configuration/configinfrastructure/azureappexchangeonlinemfa#step-4-configure-certificates--secrets). |
+| Application ID | Enter the app ID you got at application registration at [Step 2: Create and Register a new app in Azure AD](../../../configuration/configinfrastructure/azureappexchangeonlinemfa#step-2-create-and-register-a-new-app-in-azure-ad) (it can be found in the Azure AD app properties >__Overview__). |
 
-![exchangeonline_cfg_modern_auth_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/sources/exchangemailbox/exchangeonline_cfg_modern_auth_thumb_0_0.webp)
+![exchangeonline_cfg_modern_auth_thumb_0_0](../../../../../../static/img/product_docs/dataclassification/ndc/admin/sources/exchangemailbox/exchangeonline_cfg_modern_auth_thumb_0_0.webp)
 
 ## Authentication type: Basic
 
@@ -26,7 +26,7 @@ If you plan to use this authentication type, you will need to specify the follow
 
 | Option | Description | Comments |
 | --- | --- | --- |
-| Email Address / Password | __Administrator__ account that has been assigned both:   1. __Impersonation__ right 2. __Discovery Management__ role | See [Configure Microsoft Exchange for Crawling and Classification](/docs/dataclassification/ndc/configuration/configinfrastructure/exchange.md) for details on the rights assignment. |
+| Email Address / Password | __Administrator__ account that has been assigned both:   1. __Impersonation__ right 2. __Discovery Management__ role | See [Configure Microsoft Exchange for Crawling and Classification](../../../configuration/configinfrastructure/exchange.md) for details on the rights assignment. |
 
 ## Other configuration settings
 

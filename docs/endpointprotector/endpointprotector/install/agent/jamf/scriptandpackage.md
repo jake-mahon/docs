@@ -16,10 +16,10 @@ __Step 4 –__ Add your Server IP to the EPP_SERVER_ADDRESS field.
 
 __NOTE:__ You can edit the EPP_DEPARTMET CODE and EPP_SERVER_PORT fields to deploy the Endpoint Protector Client on specific departments or custom ports.
 
-![Uploading the new Script.](/img/product_docs/endpointprotector/endpointprotector/install/agent/jamf/newscript.png)
+![Uploading the new Script.](../../../../../../static/img/product_docs/endpointprotector/endpointprotector/install/agent/jamf/newscript.png)
 
 __Step 5 –__ From the Computer Management section, select __Package__ and then, in the upper right, click __+ New__.
 
 __Step 6 –__ On the General tab, add a name and then upload the package ```EndpointProtector.pkg```.
 
-![Uploading the new Package](/img/product_docs/endpointprotector/endpointprotector/install/agent/jamf/newpackage.png)
+![Uploading the new Package](../../../../../../static/img/product_docs/endpointprotector/endpointprotector/install/agent/jamf/newpackage.png)

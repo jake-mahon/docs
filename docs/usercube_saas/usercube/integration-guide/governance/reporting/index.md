@@ -1,9 +1,9 @@
 # Reporting
 
-The Reporting module is used to generate basic reports in CSV using [API query grammar](/docs/usercube_saas/usercube/integration-guide/api/squery/index.md), or advanced reports using the [
+The Reporting module is used to generate basic reports in CSV using [API query grammar](../../api/squery/index.md), or advanced reports using the [
 Business Intelligence
-](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/business-intelligence/index.md) module.
+](../../toolkit/xml-configuration/business-intelligence/index.md) module.
 
 See the [
 Generate Reports
-](/docs/usercube_saas/usercube/user-guide/administrate/reporting/index.md) topic for additional information on generating reports.
+](../../../user-guide/administrate/reporting/index.md) topic for additional information on generating reports.

@@ -59,4 +59,4 @@ For example, dimensions are identified by a number going from 0 to 127 in decima
 
 The [
 Context Rule
-](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/contextrule/index.md) support _128_ dimension parameters going from ```B0``` to ```B3V``` using the __base32hex__```0``` to ```3V``` numbers to identify a dimension.
+](../xml-configuration/provisioning/contextrule/index.md) support _128_ dimension parameters going from ```B0``` to ```B3V``` using the __base32hex__```0``` to ```3V``` numbers to identify a dimension.

@@ -12,13 +12,13 @@ MIME Type Allowlists are available for both the Content Aware Protection and eDi
 
 __NOTE:__ By default, graphic ﬁles, media ﬁles, some password-protected archive ﬁles and some system ﬁles are automatically deﬁned within the MIME Type Allowlists. While this can be changed, we recommend only doing so after gaining a deeper understanding of the type of data transferred used, or stored by the users in your system, and the subsequent logs increase in the Endpoint Protector Server.
 
-![MIME Type Allowlists ](/img/product_docs/endpointprotector/endpointprotector/admin/denylistsallowlists/mimetypeallowlists.png)
+![MIME Type Allowlists ](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/denylistsallowlists/mimetypeallowlists.png)
 
 ## Allowed Files
 
 Allowed Files Allowlists are custom groups of ﬁles you exclude from Endpoint Protector sensitive content detection, available for both Content Aware Protection and eDiscovery modules.
 
-![Allowed Files Allowlists ](/img/product_docs/endpointprotector/endpointprotector/admin/denylistsallowlists/allowedfilesallowlists.png)
+![Allowed Files Allowlists ](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/denylistsallowlists/allowedfilesallowlists.png)
 
 You can add a new allowlist or edit and delete from the Actions column.
 
@@ -26,7 +26,7 @@ To create a new allowlist, under the list of available allowlists, click __Add__
 
 Once the allowlist is created, it will be displayed on the Allowed File list and will be available when creating or editing a Content Aware Protection or eDiscovery policy.
 
-![New Allowed Files Allowlists ](/img/product_docs/endpointprotector/endpointprotector/admin/denylistsallowlists/newallowedfilesallowlists.png)
+![New Allowed Files Allowlists ](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/denylistsallowlists/newallowedfilesallowlists.png)
 
 ## File Location
 
@@ -47,7 +47,7 @@ Wildcards Usage Examples for File Location
 | Implicit | \\ﬁle-share\public | \\ﬁle-share\public\jdoe\ﬁle.txt  \\ﬁle-share\public\user512\ﬁle2.txt | \\ﬁle-share\c$\ﬁle.txt  \\ﬁle-server\public\jdoe\ﬁle.txt |
 | Explicit | \\\*\public\\* | \\localhost\public\payslip.xlsx  \\192.168.20.2\public\Windows\system32\notepad.exe | \\localhost\c$\system32\notepad.exe  C:\Windows.old\system32\notepad.exe |
 
-![File Location Allowlists](/img/product_docs/endpointprotector/endpointprotector/admin/denylistsallowlists/filelocationallowlists.png)
+![File Location Allowlists](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/denylistsallowlists/filelocationallowlists.png)
 
 You can add a new allowlist or edit, delete or export from the Actions column.
 
@@ -57,7 +57,7 @@ To create a new denylist, under the list of available denylists, click __Add__, 
 
 File Location Allowlists will not apply to groups of users, only to groups of computers. File Location Allowlists will only apply for the selected computer groups after 15 minutes.
 
-![New File Location Allowlists ](/img/product_docs/endpointprotector/endpointprotector/admin/denylistsallowlists/filelocationnewdenylists.png)
+![New File Location Allowlists ](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/denylistsallowlists/filelocationnewdenylists.png)
 
 ## Network Share
 
@@ -69,7 +69,7 @@ You can use wildcard patterns in the Network Share Allowlist to specify wildcard
 
 __CAUTION:__ The Network Share must be set to Allow Access and Scan Network Share must be checked inside a Content Aware Protection Policy.
 
-![Network Share Allowlists ](/img/product_docs/endpointprotector/endpointprotector/admin/denylistsallowlists/networkshareallowlists.png)
+![Network Share Allowlists ](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/denylistsallowlists/networkshareallowlists.png)
 
 You can add a new allowlist or edit, delete or export from the Actions column.
 
@@ -79,7 +79,7 @@ Network Share Allowlists will not apply to groups of users, only to groups of co
 
 __CAUTION:__ Do not type the network share path with backslashes (\\) 192.168.0.1\public\users\test; ﬁleserver\documents\example
 
-![New Network Share Allowlists](/img/product_docs/endpointprotector/endpointprotector/admin/denylistsallowlists/newnetworkshareallowlists.png)
+![New Network Share Allowlists](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/denylistsallowlists/newnetworkshareallowlists.png)
 
 ## E-mail Domain
 
@@ -87,7 +87,7 @@ E-mail Domain Allowlists are custom-deﬁned e-mail addresses to which sending o
 
 __NOTE:__ E-mail Domain Allowlists are available only for the Content Aware Protection module.
 
-![E-mail Domain Allowlists](/img/product_docs/endpointprotector/endpointprotector/admin/denylistsallowlists/emaildomainallowlists.png)
+![E-mail Domain Allowlists](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/denylistsallowlists/emaildomainallowlists.png)
 
 You can add a new allowlist or edit, delete or export from the Actions column.
 
@@ -95,7 +95,7 @@ To create a new allowlist, under the list of available allowlists, click __Add__
 
 Once the allowlist is created, it will be displayed on the E-mail Domain list and will be available when creating or editing a Content Aware Protection policy.
 
-![New E-mail Domain Allowlists ](/img/product_docs/endpointprotector/endpointprotector/admin/denylistsallowlists/newemaildomainallowlists.png)
+![New E-mail Domain Allowlists ](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/denylistsallowlists/newemaildomainallowlists.png)
 
 You can use wildcard patterns in the e-mail domain to specify wildcard matching as displayed in the following example.
 
@@ -109,7 +109,7 @@ Wildcards Usage Examples for E-mail Domain
 
 Available only for the Content Aware Protection module, Deep Packet Inspection Allowlists are custom-deﬁned lists or dictionaries with web domains Endpoint Protector will allow conﬁdential information uploads.
 
-![Deep Packet Inspection Allowlists ](/img/product_docs/endpointprotector/endpointprotector/admin/denylistsallowlists/dpiallowlists.png)
+![Deep Packet Inspection Allowlists ](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/denylistsallowlists/dpiallowlists.png)
 
 You can add a new allowlist or edit, delete or export from the Actions column.
 
@@ -130,7 +130,7 @@ __NOTE:__ Due to Gmail usage, take the following into consideration:
 
 Once the allowlist is created, it will be displayed on the Deep Packet Inspection list and will be available when creating or editing a Content Aware Protection policy.
 
-![New Deep Packet Inspection Allowlists](/img/product_docs/endpointprotector/endpointprotector/admin/denylistsallowlists/newdpiallowlists.png)
+![New Deep Packet Inspection Allowlists](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/denylistsallowlists/newdpiallowlists.png)
 
 Wildcards Usage Examples for Deep Packet Inspection
 

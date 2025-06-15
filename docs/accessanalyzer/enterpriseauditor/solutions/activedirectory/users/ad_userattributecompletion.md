@@ -8,7 +8,7 @@ Navigate to the __Active Directory__ > __2.Users__ > __AD_UserAttributeCompletio
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the AD_UserAttributeCompletion Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/users/userattributecompletionanalysis.webp)
+![Analysis Tasks for the AD_UserAttributeCompletion Job](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/users/userattributecompletionanalysis.webp)
 
 The default analysis tasks are:
 

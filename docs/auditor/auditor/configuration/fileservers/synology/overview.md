@@ -9,7 +9,7 @@ You can configure your IT Infrastructure for monitoring in one of the following
 - Automatically through a monitoring plan – This is a recommended method. If you select to automatically configure audit in the target environment, your current audit settings will be checked on each data collection and adjusted if necessary.
 - Manually – Native audit settings must be adjusted manually to ensure collecting comprehensive and reliable audit data. You can enable Auditor to continually enforce the relevant audit policies or configure them manually:
 
-  - The log sending must be configured as described in the [Configure Synology File Servers for Audit](/docs/auditor/auditor/configuration/fileservers/synology/configure.md) topic.
+  - The log sending must be configured as described in the [Configure Synology File Servers for Audit](configure.md) topic.
 
 Review a full list of object types Netwrix Auditor can collect on Synology NAS network devices.
 

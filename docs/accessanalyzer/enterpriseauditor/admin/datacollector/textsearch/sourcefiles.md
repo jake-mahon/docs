@@ -2,7 +2,7 @@
 
 The Source Files page provides options to specify which files to search.
 
-![Text Search Data Collector Wizard Source Files page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/textsearch/sourcefiles.webp)
+![Text Search Data Collector Wizard Source Files page](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/textsearch/sourcefiles.webp)
 
 Location
 
@@ -54,7 +54,7 @@ The Last Modification Time Filter section provides options to apply time filters
 
 Clicking the ellipsis in the Location section of the Source Files page opens the Remote Folder Explorer search window. In the Remote Folder Explorer window, navigate to the file folder location and add the path to the scope. Multiple paths can be added to the scope.
 
-![Remote Folder Explorer window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/textsearch/remotefolderexplorer.webp)
+![Remote Folder Explorer window](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/textsearch/remotefolderexplorer.webp)
 
 The Remote Folder Explorer functions are:
 

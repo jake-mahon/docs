@@ -2,7 +2,7 @@
 
 The EX_RPCTraffic job provides visibility into Outlook Anywhere or RPC\HTTPs Traffic in the organization.
 
-![Outlook Anywhere > EX_RPCTraffic Job in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/casmetrics/outlookanywherejobstree.webp)
+![Outlook Anywhere > EX_RPCTraffic Job in the Jobs Tree](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/casmetrics/outlookanywherejobstree.webp)
 
 The EX_RPCTraffic job is located in the Outlook Anywhere job group.
 
@@ -12,7 +12,7 @@ View the analysis tasks by navigating to the __Exchange__ > __2. CAS Metrics__ >
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the EX_RPCTraffic Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/casmetrics/rpctrafficanalysis.webp)
+![Analysis Tasks for the EX_RPCTraffic Job](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/casmetrics/rpctrafficanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -23,7 +23,7 @@ The following analysis tasks are selected by default:
 - 05. SET HISTORY RETENTION – Sets retention period in months
 
   - The default is 6 months. It can be modified.
-  - See the [Exchange History Retention](/docs/accessanalyzer/enterpriseauditor/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#exchange-history-retention) topic for additional information
+  - See the [Exchange History Retention](../hubmetrics/collection/ex_metricscollection.md#exchange-history-retention) topic for additional information
 
 The following analysis tasks deletes table data from data collection and analysis jobs. These analysis tasks should remain cleared unless specifically needed:
 
@@ -31,7 +31,7 @@ __CAUTION:__ Do not select the __00. Delete all History__ option. This analysis 
 
 - 00. Delete all History - LEAVE UNCHECKED – Clears all historical data
 
-  - See the [Troubleshooting Data Collection](/docs/accessanalyzer/enterpriseauditor/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#troubleshooting-data-collection) topic for additional information
+  - See the [Troubleshooting Data Collection](../hubmetrics/collection/ex_metricscollection.md#troubleshooting-data-collection) topic for additional information
 
 In addition to the tables and views created by the analysis tasks, the EX_RPCTraffic Job produces the following pre-configured reports:
 

@@ -2,7 +2,7 @@
 
 Use the General tab to maintain the list of managed domains, set the database options, and enable the Password Policy Enforcer integration. See the Netwrix Password Policy Enforcer topic for additional information.
 
-![configuring_npr](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/configuring_npr.webp)
+![configuring_npr](../../../../static/img/product_docs/passwordpolicyenforcer/passwordreset/administration/configuring_npr.webp)
 
 ### Domain List
 
@@ -52,15 +52,15 @@ __Step 7 –__ Click __OK__ twice, and then click __Apply__.
 
 __Step 8 –__ Start the Password Reset service.
 
-__Step 9 –__ Update the backup script to copy from the new folder. See the [Working with the Database](/docs/passwordpolicyenforcer/passwordreset/administration/working_with_the_database.md) topic for additional information.
+__Step 9 –__ Update the backup script to copy from the new folder. See the [Working with the Database](working_with_the_database.md) topic for additional information.
 
-You can also move the database from SQL Server Compact to SQL Server. See the [Working with the Database](/docs/passwordpolicyenforcer/passwordreset/administration/working_with_the_database.md) topic for more information.
+You can also move the database from SQL Server Compact to SQL Server. See the [Working with the Database](working_with_the_database.md) topic for more information.
 
 ### Netwrix Password Policy Enforcer
 
 Password Reset is a configurable password filter that enforces granular password policies with many advanced features. Password Reset can integrate with Password Policy Enforcer to help users choose a compliant password.
 
-![configuring_npr_1](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/configuring_npr_1.webp)
+![configuring_npr_1](../../../../static/img/product_docs/passwordpolicyenforcer/passwordreset/administration/configuring_npr_1.webp)
 
 Password Reset displays the Password Policy Enforcer policy message when users are prompted for their new password, and the Password Policy Enforcer rejection message if the new password does not comply with the password policy. Select the __Password Policy Enforcer integration__ check box if you have installed and configured Password Policy Enforcer on your domain controllers.
 
@@ -69,11 +69,11 @@ Password Reset locates and queries a domain controller in the user's domain when
 __NOTE:__ Due to a protocol upgrade, Netwrix Password Reset v3.3 is not compatible with Netwrix Password Policy Enforcer v8.x and earlier versions. If you are using Netwrix Password Reset with any of those older Netwrix Password Policy Enforcer versions, please consider upgrading Netwrix Password Policy Enforcer first to a current version, and only then upgrade Netwrix Password Reset to v3.3 (or later).
 
 Users are more likely to see the Password Policy Enforcer Generic Rejection message rather than the more detailed Rejection message when this registry value is set. Users may also have the wrong policy, or no policy enforced if the queried server is not a domain controller in the user's domain.  
-Queries to the Password Policy Server are sent to UDP port 1333 by default. You may need to create firewall rules to open this port. See the [Password Policy Client](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/password_policy_client.md) topic for more information.
+Queries to the Password Policy Server are sent to UDP port 1333 by default. You may need to create firewall rules to open this port. See the [Password Policy Client](../../passwordpolicyenforcer/administration/password_policy_client.md) topic for more information.
 
 __NOTE:__ Due to a protocol upgrade, it is now recommended to enable protocol encryption for clients. To do so, please navigate to the PPS Properties in your Netwrix Password Policy Enforcer server configuration, and enable "Only accept encrypted client request".
 
-![using_ppe_with_npr](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_ppe_with_npr.webp)
+![using_ppe_with_npr](../../../../static/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_ppe_with_npr.webp)
 
 Please do not enable this option if you are using Netwrix Password Reset v3.3 with Netwrix Password Policy Enforcer v8.x or earlier versions, or with Netwrix Password Policy Enforcer/Web. If you are using Netwrix Password Reset v3.3 with any of those older versions of Netwrix Password Policy Enforcer, please consider upgrading first to a current and supported version.
 

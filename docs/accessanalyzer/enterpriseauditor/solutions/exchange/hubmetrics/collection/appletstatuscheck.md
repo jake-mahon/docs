@@ -8,7 +8,7 @@ The .AppletStatusCheck Job uses the Script Data Collector.
 
 __CAUTION:__ Do not modify the query. The query is preconfigured for this job.
 
-![Queries for the .AppletStatusCheck Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/hubmetrics/collection/appletstatuscheckquery.webp)
+![Queries for the .AppletStatusCheck Job](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/hubmetrics/collection/appletstatuscheckquery.webp)
 
 The following query is included with the .AppletStatusCheck Job:
 

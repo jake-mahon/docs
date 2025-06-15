@@ -2,13 +2,13 @@
 
 Follow the steps to add access policies to the console.
 
-_Remember,_ a connection profile is required to create an access policy. You can create one ahead of time on the [Connection Profiles Page](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/connectionprofiles.md) page or use the arrow button to create one during these steps.
+_Remember,_ a connection profile is required to create an access policy. You can create one ahead of time on the [Connection Profiles Page](../page/connectionprofiles.md) page or use the arrow button to create one during these steps.
 
 __Step 1 –__ Navigate to the Policy > Access Policies page.
 
 __Step 2 –__ In the Access Policy list, click the Plus icon.
 
-![Add Access Policy](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/add/addaccesspolicy.webp)
+![Add Access Policy](../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/add/addaccesspolicy.webp)
 
 __Step 3 –__ Enter the following information:
 
@@ -26,11 +26,11 @@ The new access policy has been created. The next step is to associate Users, Act
 
 - Resource Based Policy
 
-  - [Users Tab for Resource Based Access Policies](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/policyresource/users.md)
-  - [Activities Tab for Resource Based Access Policies](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/policyresource/activities.md)
-  - [Resources Tab for Resource Based Access Policies](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/policyresource/resources.md)
+  - [Users Tab for Resource Based Access Policies](../tab/policyresource/users.md)
+  - [Activities Tab for Resource Based Access Policies](../tab/policyresource/activities.md)
+  - [Resources Tab for Resource Based Access Policies](../tab/policyresource/resources.md)
 - Credential Based Policy
 
-  - [Users Tab for Credential Based Access Policies](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/policycredentials/users.md)
-  - [Activities Tab for Credential Based Access Policies](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/policycredentials/activities.md)
-  - [Credentials Tab for Credential Based Access Policies](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/policycredentials/credentials.md)
+  - [Users Tab for Credential Based Access Policies](../tab/policycredentials/users.md)
+  - [Activities Tab for Credential Based Access Policies](../tab/policycredentials/activities.md)
+  - [Credentials Tab for Credential Based Access Policies](../tab/policycredentials/credentials.md)

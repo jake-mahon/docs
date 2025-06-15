@@ -4,7 +4,7 @@ Follow the steps to add an organization.
 
 __Step 1 –__ On the Netwrix 1Secure Website, on the __Home__ page, select the Add organization icon to add an organization.
 
-![organization_adding](/img/product_docs/1secure/admin/organizations/organization_adding.webp)
+![organization_adding](../../../../static/img/product_docs/1secure/admin/organizations/organization_adding.webp)
 
 __Step 2 –__ On the Add Organization (Step 1 of 4) window, specify the following:
 
@@ -18,7 +18,7 @@ __Step 2 –__ On the Add Organization (Step 1 of 4) window, specify the followi
 
 Click __Next__.
 
-![addorganizationsselectdatasource](/img/product_docs/1secure/admin/organizations/addorganizationsselectdatasource.webp)
+![addorganizationsselectdatasource](../../../../static/img/product_docs/1secure/admin/organizations/addorganizationsselectdatasource.webp)
 
 __Step 3 –__ On the Select Data Source (Step 2 of 4) window, add a preferred data source to your organization:
 
@@ -28,29 +28,29 @@ __Step 3 –__ On the Select Data Source (Step 2 of 4) window, add a preferred d
 - Exchange Online
 - SharePoint Online
 
-__NOTE:__  See the [Sources and Connectors ](/docs/1secure/admin/organizations/sourcesandconnectors/overview.md) topic for detailed information.
+__NOTE:__  See the [Sources and Connectors ](sourcesandconnectors/overview.md) topic for detailed information.
 
-![addorganizationssites](/img/product_docs/1secure/admin/organizations/addorganizationssites.webp)
+![addorganizationssites](../../../../static/img/product_docs/1secure/admin/organizations/addorganizationssites.webp)
 
 __Step 4 –__ On the Configure source details (Step 3 of 4) window, add a site for your organization. Sites are used to signify physical groupings within the organization. Click __Next__.
 
 __NOTE:__ This step is displayed only when adding Active Directory and Computer sources.
 
-See the [Add Sites to an Organization](/docs/1secure/admin/organizations/addsites.md) topic for additional information.
+See the [Add Sites to an Organization](addsites.md) topic for additional information.
 
-![addorganizationsagent](/img/product_docs/1secure/admin/organizations/addorganizationsagent.webp)
+![addorganizationsagent](../../../../static/img/product_docs/1secure/admin/organizations/addorganizationsagent.webp)
 
-__Step 5 –__ On the Configure source details (Step 3 of 4) window, follow the instructions to install the agent. Please go to the [Install Agent](/docs/1secure/install/installagent.md)topic of the online help. Click __Next__.
+__Step 5 –__ On the Configure source details (Step 3 of 4) window, follow the instructions to install the agent. Please go to the [Install Agent](../../install/installagent.md)topic of the online help. Click __Next__.
 
 __NOTE:__ Install the agent only for on-prem sources - Active Directory and Computer. This step is displayed only when adding these sources.
 
-![addorganizationssourcedetails](/img/product_docs/1secure/admin/organizations/addorganizationssourcedetails.webp)
+![addorganizationssourcedetails](../../../../static/img/product_docs/1secure/admin/organizations/addorganizationssourcedetails.webp)
 
-__Step 6 –__ On the Configure source details (Step 3 of 4) window, specify your source settings. See the [Sources and Connectors ](/docs/1secure/admin/organizations/sourcesandconnectors/overview.md) topic for additional information.
+__Step 6 –__ On the Configure source details (Step 3 of 4) window, specify your source settings. See the [Sources and Connectors ](sourcesandconnectors/overview.md) topic for additional information.
 
-![addorganizationssourcesandconnectors](/img/product_docs/1secure/admin/organizations/addorganizationssourcesandconnectors.webp)
+![addorganizationssourcesandconnectors](../../../../static/img/product_docs/1secure/admin/organizations/addorganizationssourcesandconnectors.webp)
 
-__Step 7 –__ On the Choose new connector (Step 4 of 4) window, add the connectors for your sources on. See the [Sources and Connectors ](/docs/1secure/admin/organizations/sourcesandconnectors/overview.md) topic for additional information.
+__Step 7 –__ On the Choose new connector (Step 4 of 4) window, add the connectors for your sources on. See the [Sources and Connectors ](sourcesandconnectors/overview.md) topic for additional information.
 
 __Step 8 –__ Click __Finish__ or __Save & Add another source__ to add a source for your organization.
 

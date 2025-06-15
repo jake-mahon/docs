@@ -4,9 +4,9 @@ This connector exports entitlements from [Microsoft SQL Server](https://www.micr
 
 This page is about [
 SQL Server Entitlements
-](/docs/usercube/usercube/integration-guide/connectors/references-packages/sql-server-entitlements/index.md).
+](../../references-packages/sql-server-entitlements/index.md).
 
-![Package: Database/Microsoft SQL Server Entitlements](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/sqlserverentitlements/packages_sqlservermanagement_v603.webp)
+![Package: Database/Microsoft SQL Server Entitlements](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/sqlserverentitlements/packages_sqlservermanagement_v603.webp)
 
 ## Overview
 
@@ -66,7 +66,7 @@ This connector exports only in complete mode.
 
 This process is configured through a [
 Connection
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or the XML configuration, and in the ```appsettings.agent.json > Connections``` section:
+](../../../toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or the XML configuration, and in the ```appsettings.agent.json > Connections``` section:
 
 ```
 appsettings.agent.json
@@ -119,7 +119,7 @@ The identifier of the connection and thus the name of the subsection must:
 
 This connector is meant to generate to the [
 Connection
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) folder the following CSV files:
+](../../../toolkit/xml-configuration/connectors/connection/index.md) folder the following CSV files:
 
 - ```<connectionIdentifier>_serverPrincipals.csv```;
 - ```<connectionIdentifier>_serverRoleMembers.csv```;
@@ -146,16 +146,16 @@ Data protection can be ensured through:
 
 - [
   Connection
-  ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md), configured in the ```appsettings.encrypted.agent.json``` file;
+  ](../../../toolkit/xml-configuration/connectors/connection/index.md), configured in the ```appsettings.encrypted.agent.json``` file;
 - an [
   Connection
-  ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) safe;
+  ](../../../toolkit/xml-configuration/connectors/connection/index.md) safe;
 
 | Attribute | Naming Convention for the Key in Azure Key Vault |
 | --- | --- |
 | ConnectionString | ```Connections--<identifier>--ConnectionString``` |
 | Timeout | ```Connections--<identifier>--Timeout``` |
 
-[](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)[
+[](../../../network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)[
 Connection
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) is not available for this connector.
+](../../../toolkit/xml-configuration/connectors/connection/index.md) is not available for this connector.

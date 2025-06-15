@@ -16,7 +16,7 @@ History can be viewed using the __History__ node in Admin Center. You can:
 - Narrow down the history items using filters.
 - Export history data to Microsoft Excel, CSV, and XML formats.
 
-See the [History in Directory Manager](/docs/groupid/groupid/admincenter/history.md) and [Event Logging](/docs/groupid/groupid/admincenter/identitystore/history/eventlogging.md) topics for additional information.
+See the [History in Directory Manager](../history.md) and [Event Logging](../identitystore/history/eventlogging.md) topics for additional information.
 
 What do you want to do?
 
@@ -39,21 +39,21 @@ To view history:
    - __When:__ The date and time of the action.
    - __Added Item(s):__ A short description of the action.
    - __Removed Item(s):__ This box is displayed for actions showing deletion. It displays a short description of the action.
-3. The __Add Note__ button is available if you performed this action. See [Annotate History Items](/docs/groupid/groupid/admincenter/identitystore/history/details.md#annotate-history-items) to manage notes.
+3. The __Add Note__ button is available if you performed this action. See [Annotate History Items](../identitystore/history/details.md#annotate-history-items) to manage notes.
 4. Click __Close__.
 
 ### Filter History Data
 
-Filters on the __Admin Center History__ page are similar to those on the __Identity Store History__ page. Refer to the [Filter History Data](/docs/groupid/groupid/admincenter/identitystore/history/view.md#filter-history-data) topic to apply the filters.
+Filters on the __Admin Center History__ page are similar to those on the __Identity Store History__ page. Refer to the [Filter History Data](../identitystore/history/view.md#filter-history-data) topic to apply the filters.
 
 ### Navigate the History Data
 
-Navigation options on the __Admin Center History__ page are similar to those on the __Identity Store History__ page. Refer to the [Navigate Through History Items](/docs/groupid/groupid/admincenter/identitystore/history/view.md#navigate-through-history-items) topic for help.
+Navigation options on the __Admin Center History__ page are similar to those on the __Identity Store History__ page. Refer to the [Navigate Through History Items](../identitystore/history/view.md#navigate-through-history-items) topic for help.
 
 ## Annotate History Items
 
 1. In Admin Center, click __History__ in the left pane.
-2. On the __Admin Center History__ page, click a history item and proceed to add a note. See the [Annotate History Items](/docs/groupid/groupid/admincenter/identitystore/history/details.md#annotate-history-items) topic for details.
+2. On the __Admin Center History__ page, click a history item and proceed to add a note. See the [Annotate History Items](../identitystore/history/details.md#annotate-history-items) topic for details.
 
 ## Export Admin Center History
 

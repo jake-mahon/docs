@@ -2,7 +2,7 @@
 
 The Domain Details page shows additional information for the selected domain resource. This page is opened from any linked resource within the various interfaces.
 
-![Domain Details Page](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/details/domaindetailspage.webp)
+![Domain Details Page](../../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/details/domaindetailspage.webp)
 
 The details page shows the following information:
 
@@ -19,7 +19,7 @@ The details page shows the following information:
   - Processing — Synchronization is actively occurring
   - Failed — Synchronization failed to complete
   - Cancelled — Synchronization was cancelled by an Administrator
-- Synchronize Now button — Scans the domain for users, groups, members, and computers. The Cancel button, which is only visible when scanning can be used to stop the resource scan. This scan can also be scheduled from the [Platforms Page](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/platforms/overview.md).
+- Synchronize Now button — Scans the domain for users, groups, members, and computers. The Cancel button, which is only visible when scanning can be used to stop the resource scan. This scan can also be scheduled from the [Platforms Page](../platforms/overview.md).
 - Platform — Displays the type of platform, which defines the resource
 - Service Account — Displays the service account associated with the resource
 - Use TLS checkbox — Enables a secure connection to the domain
@@ -34,8 +34,8 @@ If any of these settings are modified, Save and Cancel buttons are displayed. Cl
 
 The details page has the following tabs:
 
-- [Users Tab for Domain](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/resources/usersdomain.md)
-- [Groups Tab for Domain](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/resources/groupsdomain.md)
-- [Computers Tab for Domain](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/resources/computersdomain.md)
-- [History Tab for Domain](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/resources/historydomain.md)
-- [Sync Errors Tab for Domain](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/resources/syncerrorsdomain.md)
+- [Users Tab for Domain](../../tab/resources/usersdomain.md)
+- [Groups Tab for Domain](../../tab/resources/groupsdomain.md)
+- [Computers Tab for Domain](../../tab/resources/computersdomain.md)
+- [History Tab for Domain](../../tab/resources/historydomain.md)
+- [Sync Errors Tab for Domain](../../tab/resources/syncerrorsdomain.md)

@@ -4,7 +4,7 @@ The Message Sizes page is used to configure message size frames for which to ret
 
 - Message Size Statistics Custom.
 
-![Exchange Metrics Data Collector Wizard Message Sizes page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/exchangemetrics/messagesizes.webp)
+![Exchange Metrics Data Collector Wizard Message Sizes page](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/exchangemetrics/messagesizes.webp)
 
 Configure the desired message size frames using the following options:
 

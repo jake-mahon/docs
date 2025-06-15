@@ -128,6 +128,6 @@ To perform a search:
 
 __See Also__
 
-- [Dashboard](/docs/groupid/groupid/admincenter/general/dashboard.md)
-- [Search Users](/docs/groupid/groupid/admincenter/helpdesk/operation/search.md)
-- [History in Directory Manager](/docs/groupid/groupid/admincenter/history.md)
+- [Dashboard](../general/dashboard.md)
+- [Search Users](operation/search.md)
+- [History in Directory Manager](../history.md)

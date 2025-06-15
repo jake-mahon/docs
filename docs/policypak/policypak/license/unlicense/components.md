@@ -13,9 +13,9 @@ An endpoint can become unlicensed due to a variety of reasons. Examples include:
 
 __NOTE:__ You may encounter a pop-up like this if you are using pre-CSE 24.4. Note the pop-up is opt-in only from 24.4. You won't see any pop up if you're using 24.4 or later.
 
-![29_1_2202cm3yx](/img/product_docs/policypak/policypak/license/unlicense/29_1_2202cm3yx.webp)
+![29_1_2202cm3yx](../../../../../static/img/product_docs/policypak/policypak/license/unlicense/29_1_2202cm3yx.webp)
 
-See [How do I make the Grace Period licensing pop-up go away?](/docs/policypak/policypak/troubleshooting/license/graceperiod.md) for additional information on Pop-Up behavior.
+See [How do I make the Grace Period licensing pop-up go away?](../../troubleshooting/license/graceperiod.md) for additional information on Pop-Up behavior.
 
 __NOTE:__ The actual behavior may be somewhat different than what is described here. An
 endpoint can have its directives removed because of a variety of reasons. Examples include:
@@ -39,25 +39,25 @@ __NOTE:__ Will not honor new Endpoint Policy Manager Application Manager request
 
 Unlicensed or Policy Reverts
 
-![29_2_faq-01-04-pp-01](/img/product_docs/policypak/policypak/license/unlicense/29_2_faq-01-04-pp-01.webp)
+![29_2_faq-01-04-pp-01](../../../../../static/img/product_docs/policypak/policypak/license/unlicense/29_2_faq-01-04-pp-01.webp)
 
 A setting may be set to __Do Nothing at Revert__, which is the default policy, or
 
-![29_3_faq-01-04-pp-02](/img/product_docs/policypak/policypak/license/unlicense/29_3_faq-01-04-pp-02.webp)
+![29_3_faq-01-04-pp-02](../../../../../static/img/product_docs/policypak/policypak/license/unlicense/29_3_faq-01-04-pp-02.webp)
 
 If the setting is set to __Revert__, the policy setting is reverted. The value displayed will be performed at revert
 time.
 
-![29_4_faq-01-04-pp-03](/img/product_docs/policypak/policypak/license/unlicense/29_4_faq-01-04-pp-03.webp)
+![29_4_faq-01-04-pp-03](../../../../../static/img/product_docs/policypak/policypak/license/unlicense/29_4_faq-01-04-pp-03.webp)
 
 For Win32 apps where AppLock (UI restrictions) are used, like in this example, the UI becomes unrestricted.
 
-![29_5_faq-01-04-pp-04](/img/product_docs/policypak/policypak/license/unlicense/29_5_faq-01-04-pp-04.webp)
+![29_5_faq-01-04-pp-04](../../../../../static/img/product_docs/policypak/policypak/license/unlicense/29_5_faq-01-04-pp-04.webp)
 
 When NTFS / ACL Lockdown is used, the end-user will be free to change these settings inside the
 (previously restricted) registry.
 
-![29_6_faq-01-04-pp-05](/img/product_docs/policypak/policypak/license/unlicense/29_6_faq-01-04-pp-05.webp)
+![29_6_faq-01-04-pp-05](../../../../../static/img/product_docs/policypak/policypak/license/unlicense/29_6_faq-01-04-pp-05.webp)
 
 __NOTE:__ Some Paks may be set to System Wide Lockdown, like Java and Firefox, as seen
 above. In those cases, all users on the system are free to make changes after the GPO no longer applies.
@@ -81,7 +81,7 @@ When Endpoint Policy Manager Browser Router is uninstalled or becomes unlicensed
   back as default
 
 Additionally, and/or when the GPO / XML no longer applies, any Endpoint Policy Manager Browser Router "routes" are no
-longer honored. See [Why doesn't Endpoint Policy Manager Browser Router routes take effect the first time I log on to Windows 8.1 or Windows 10?](/docs/policypak/policypak/troubleshooting/browserrouter/install/twologons.md)
+longer honored. See [Why doesn't Endpoint Policy Manager Browser Router routes take effect the first time I log on to Windows 8.1 or Windows 10?](../../troubleshooting/browserrouter/install/twologons.md)
 
 ## Endpoint Policy Manager Admin Templates Manager
 
@@ -114,12 +114,12 @@ When the GPO no longer applies, or Policy XML no longer applies:
 - Endpoint Policy Manager will leave the Microsoft GPPrefs item intact / alone on revert when the item's __Common__>
   __Options__ tab is set like this:
 
-  ![29_7_faq-01-04-pp-06](/img/product_docs/policypak/policypak/license/unlicense/29_7_faq-01-04-pp-06.webp)
+  ![29_7_faq-01-04-pp-06](../../../../../static/img/product_docs/policypak/policypak/license/unlicense/29_7_faq-01-04-pp-06.webp)
 
-  ![29_8_faq-01-04-pp-07-1](/img/product_docs/policypak/policypak/license/unlicense/29_8_faq-01-04-pp-07-1.webp)
+  ![29_8_faq-01-04-pp-07-1](../../../../../static/img/product_docs/policypak/policypak/license/unlicense/29_8_faq-01-04-pp-07-1.webp)
 - Or Endpoint Policy Manager will delete the Microsoft GPPRefs item when the item's __Option__ tab is set like this:
 
-  ![29_9_faq-01-04-pp-08](/img/product_docs/policypak/policypak/license/unlicense/29_9_faq-01-04-pp-08.webp)
+  ![29_9_faq-01-04-pp-08](../../../../../static/img/product_docs/policypak/policypak/license/unlicense/29_9_faq-01-04-pp-08.webp)
 
 ## Java Rules Manager
 

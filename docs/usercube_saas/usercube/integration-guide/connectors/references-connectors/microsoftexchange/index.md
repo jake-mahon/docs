@@ -4,9 +4,9 @@ This connector exports mailboxes from a [Microsoft Exchange](https://support.mic
 
 This page is about [
 Microsoft Exchange
-](/docs/usercube_saas/usercube/integration-guide/connectors/references-packages/microsoft-exchange/index.md).
+](../../references-packages/microsoft-exchange/index.md).
 
-![Package: Server/Microsoft Exchange](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/microsoftexchange/packages_exchange_v603.webp)
+![Package: Server/Microsoft Exchange](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/microsoftexchange/packages_exchange_v603.webp)
 
 ## Overview
 
@@ -27,7 +27,7 @@ This connector exports [mailboxes](https://docs.microsoft.com/en-us/powershell/m
 
 This process is configured through a [
 Connection
-](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or the XML configuration, and in the ```appsettings.agent.json > Connections``` section:
+](../../../toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or the XML configuration, and in the ```appsettings.agent.json > Connections``` section:
 
 ```
 appsettings.agent.json
@@ -98,7 +98,7 @@ This connector is meant to generate the following files:
   [See more details on mailbox database properties in Microsoft's documentation](https://docs.microsoft.com/en-us/previous-versions/office/developer/exchange-server-2010/ff328150(v=exchg.140)).
 - ```<connectionIdentifier>_cookie.bin``` which stores the time of the last successful export, thus allowing incremental processes.
 
-The CSV files are stored in the [Application Settings](/docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)Export Output, and the cookie file in the Export Cookies folder.
+The CSV files are stored in the [Application Settings](../../../network-configuration/agent-configuration/appsettings/index.md)Export Output, and the cookie file in the Export Cookies folder.
 
 ## Fulfill
 
@@ -106,13 +106,13 @@ This connector can create, update or delete[ mailboxes](https://docs.microsoft.c
 
 As it works via a PowerShell script. See the [
 PowerShellProv
-](/docs/usercube_saas/usercube/integration-guide/connectors/references-connectors/powershellprov/index.md) topic for additional information.
+](../powershellprov/index.md) topic for additional information.
 
 Identity Manager's PowerShell script can be found in the SDK in ```Usercube.Demo/Scripts/Fulfill-Exchange.ps1```.
 
 See the [
 PowerShellProv
-](/docs/usercube_saas/usercube/integration-guide/connectors/references-connectors/powershellprov/index.md) topic for additional information.
+](../powershellprov/index.md) topic for additional information.
 
 ## Authentication
 
@@ -130,17 +130,17 @@ Data protection can be ensured through:
 
 - [
   Connection
-  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md), configured in the ```appsettings.encrypted.agent.json``` file;
+  ](../../../toolkit/xml-configuration/connectors/connection/index.md), configured in the ```appsettings.encrypted.agent.json``` file;
 - An [
   Connection
-  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) safe;
+  ](../../../toolkit/xml-configuration/connectors/connection/index.md) safe;
 
 - A [
   Connection
-  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)able to store Microsoft Exchange's ```Server```.
+  ](../../../toolkit/xml-configuration/connectors/connection/index.md)able to store Microsoft Exchange's ```Server```.
 
 This kind of credential protection can be used only for the export process.
   
 The fulfill process' credentials can be protected by following the instructions for the PowerShellProv connector. See the [
 PowerShellProv
-](/docs/usercube_saas/usercube/integration-guide/connectors/references-connectors/powershellprov/index.md) topic for additional information
+](../powershellprov/index.md) topic for additional information

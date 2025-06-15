@@ -26,7 +26,7 @@ To create an approved change request:
    - Select one or more of the __Affected Employee(s)__, __Affected Rule(s)__ and __Affected User Role(s)__.
 3. Click __In Progress__ in the status bar to indicate you are working on the request.
 4. __Save__ the Change Request.
-5. The Approval section is now available. Click __Edit__ to add __Additional Approvers__ or __Approver Notes__. Click __Save__ if you make changes. Refer to [Create a Change Request](/docs/strongpointfornetsuite/change_management/creating_change_request.md) for more details about the status bar.
+5. The Approval section is now available. Click __Edit__ to add __Additional Approvers__ or __Approver Notes__. Click __Save__ if you make changes. Refer to [Create a Change Request](../change_management/creating_change_request.md) for more details about the status bar.
 
 The violation clears in the employee record after the approved Change Request is saved.
 

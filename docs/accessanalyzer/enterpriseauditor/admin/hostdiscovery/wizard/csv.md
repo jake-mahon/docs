@@ -4,11 +4,11 @@ Follow the steps to create a Host Discovery query using the __Import from a CSV 
 
 __CAUTION:__ Each time a query refresh occurs for a query with an import option set as the source, it re-imports the host list. Therefore, deleting, renaming, or moving the import source file causes the query to fail.
 
-![Host Discovery Wizard Source page for CSV import](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostdiscovery/wizard/source.webp)
+![Host Discovery Wizard Source page for CSV import](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostdiscovery/wizard/source.webp)
 
 __Step 1 –__ Open the Host Discovery Wizard. On the Source page, select the __Import from a CSV file__ option on the Source page. Click __Next__.
 
-![Host Discovery Wizard Query page for CSV import](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/nis/query.webp)
+![Host Discovery Wizard Query page for CSV import](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/nis/query.webp)
 
 __Step 2 –__ On the Query page, name the query and select the credentials used to access the source.
 
@@ -21,11 +21,11 @@ __NOTE:__ The source in this case is the Access Analyzer Console server.
   - Credentials in my default connection profile – Applies the default Connection Profile configured at the global level (__Settings__ > __Connection__)
   - Credentials in this connection profile – Use the dropdown list to select a Connection Profile from those preconfigured at the global level (__Settings__ > __Connection__)
 
-  See the [Connection](/docs/accessanalyzer/enterpriseauditor/admin/settings/connection/overview.md) topic for additional information on Connection Profiles.
+  See the [Connection](../../settings/connection/overview.md) topic for additional information on Connection Profiles.
 
 Click __Next__ to continue.
 
-![Host Discovery Wizard CSV File Import page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostdiscovery/wizard/fileimport.webp)
+![Host Discovery Wizard CSV File Import page](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostdiscovery/wizard/fileimport.webp)
 
 __Step 3 –__ On the CSV File Import page, identify the CSV file to import and the column from within the file where the host names are located:
 
@@ -36,7 +36,7 @@ __Step 3 –__ On the CSV File Import page, identify the CSV file to import and 
 
 Click __Next__ to continue.
 
-![Host Discovery Wizard Options page for CSV import](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/options.webp)
+![Host Discovery Wizard Options page for CSV import](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/install/application/options.webp)
 
 __Step 4 –__ On the Options page, configure the query options as required.
 
@@ -50,7 +50,7 @@ __Step 4 –__ On the Options page, configure the query options as required.
 
 Click __Next__ to continue.
 
-![Host Discovery Wizard Inventory page for CSV import](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostdiscovery/wizard/inventory.webp)
+![Host Discovery Wizard Inventory page for CSV import](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostdiscovery/wizard/inventory.webp)
 
 __Step 5 –__ On the Inventory page, the host inventory process can be automatically included with the discovery query.
 
@@ -61,15 +61,15 @@ __Step 5 –__ On the Inventory page, the host inventory process can be automati
   - Credentials in my default connection profile – Applies the default Connection Profile configured at the global level (__Settings__ > __Connection__)
   - Credentials in this connection profile – Use the dropdown list to select a Connection Profile from those preconfigured at the global level (__Settings__ > __Connection__)
 
-  See the [Connection](/docs/accessanalyzer/enterpriseauditor/admin/settings/connection/overview.md) topic for additional information on Connection Profiles.
+  See the [Connection](../../settings/connection/overview.md) topic for additional information on Connection Profiles.
 
 Click __Next__ to continue.
 
-![Host Discovery Wizard Summary page for CSV import](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/summary.webp)
+![Host Discovery Wizard Summary page for CSV import](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/summary.webp)
 
 __Step 6 –__ The Summary page displays all the selected query configuration settings. To make changes, click __Back__ to navigate to the relevant wizard page. Click Finish to complete the configuration process.
 
-![Confirm dialog box](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostdiscovery/wizard/wizardconfirmdialog.webp)
+![Confirm dialog box](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostdiscovery/wizard/wizardconfirmdialog.webp)
 
 __Step 7 –__ A Confirm dialog box opens. Click __Yes__ to run the query now or __No__ to run the query at another time.
 

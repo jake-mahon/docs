@@ -5,16 +5,16 @@ Under the Policies node, you can protect collected event data at the folder leve
 Select a folder in the Policies node list to view the following two protection types available for it:
 
 - Permissions – Control the ability of Threat Prevention users to View Data or Manage Policies for the selected folder.
-  - View Data checkbox – Affects the ability to see events data for these policies in the policy’s [Recent Events Tab](/docs/threatprevention/threatprevention/admin/policies/recentevents/overview.md) and the [Investigate Interface](/docs/threatprevention/threatprevention/admin/investigate/overview.md).
+  - View Data checkbox – Affects the ability to see events data for these policies in the policy’s [Recent Events Tab](recentevents/overview.md) and the [Investigate Interface](../investigate/overview.md).
 
     Only users granted the View Data permission on the folder where the object has been identified for protection are able to view any results of events that include the object. See the Protect Objects section for instructions on protecting policies or objects.
   - Manage Policies checkbox – Affects the ability to change policy configuration settings. See the Protect Policiessection for instructions on protecting policies or objects.
-- Protected Objects – Monitors the selected [Select Active Directory Contexts Window](/docs/threatprevention/threatprevention/admin/policies/eventtype/window/selectactivedirectory/context.md) within the policy folder
+- Protected Objects – Monitors the selected [Select Active Directory Contexts Window](eventtype/window/selectactivedirectory/context.md) within the policy folder
 
   Protected objects are hidden from the following types of data no matter what policy monitored/blocked it:
 
-  - [Recent Events Tab](/docs/threatprevention/threatprevention/admin/policies/recentevents/overview.md) data
-  - [Investigate Interface](/docs/threatprevention/threatprevention/admin/investigate/overview.md) data
+  - [Recent Events Tab](recentevents/overview.md) data
+  - [Investigate Interface](../investigate/overview.md) data
 
 __NOTE:__ These protections only apply to viewing event data within the Administration Console, and do not carry-over to the Netwrix Threat Manager Reporting Module application.
 
@@ -24,17 +24,17 @@ Policies can be protected at the folder level under the Policies node. When a us
 
 Follow the steps to protect policies.
 
-![Policy folder - Permissions page](/img/product_docs/threatprevention/threatprevention/admin/policies/permissions.webp)
+![Policy folder - Permissions page](../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/permissions.webp)
 
 __Step 1 –__ Select a folder under the Policies node in the Navigation pane. The Policies interface is displayed.
 
 __Step 2 –__ In the Permissions ribbon, click the __Add__ (+) button.
 
-![Select User window](/img/product_docs/threatprevention/threatprevention/admin/policies/selectuser.webp)
+![Select User window](../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/selectuser.webp)
 
 __Step 3 –__ On the Select User window, select the user to be granted permission on this folder and the policies within it.
 
-__NOTE:__ Only users with rights assigned in the [Users and Roles Window](/docs/threatprevention/threatprevention/admin/configuration/userroles/overview.md) are available in the list.
+__NOTE:__ Only users with rights assigned in the [Users and Roles Window](../configuration/userroles/overview.md) are available in the list.
 
 __Step 4 –__ The window closes and the user is displayed in the Permissions list with the View Data permission granted by default. To add the Manage Policies permission, check the box for that user. Only those users specifically granted permission to this folder can view event data or configure the policies within this folder or its subfolders.
 
@@ -48,15 +48,15 @@ In addition to protecting policies, objects being monitored or blocked by polici
 
 Follow the steps to protect objects.
 
-![Policy folder - Permissions page](/img/product_docs/threatprevention/threatprevention/admin/policies/permissions.webp)
+![Policy folder - Permissions page](../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/permissions.webp)
 
 __Step 6 –__ Select a folder under the Policies node in the Navigation pane. The Policies interface is displayed.
 
 __Step 7 –__  In the Protected Objects ribbon, click the __Add__ (+) button.
 
-![Select Active Directory Contexts window](/img/product_docs/threatprevention/threatprevention/admin/policies/adcontexts.webp)
+![Select Active Directory Contexts window](../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/adcontexts.webp)
 
-__Step 8 –__ On the Select Active Directory Contexts window, select an Agent from the drop-down menu and click __Connect__. Expand the domain tree in the Navigation pane. Select an item in the Results pane on the right and click __OK__. See the [Selection Windows](/docs/threatprevention/threatprevention/admin/policies/eventtype/window/overview.md) topic for additional information.
+__Step 8 –__ On the Select Active Directory Contexts window, select an Agent from the drop-down menu and click __Connect__. Expand the domain tree in the Navigation pane. Select an item in the Results pane on the right and click __OK__. See the [Selection Windows](eventtype/window/overview.md) topic for additional information.
 
 __Step 9 –__ The window closes and the object is displayed in the Protected Objects list. Only those users specifically granted permission to this folder can view event data for the protected object or its children.
 

@@ -12,13 +12,13 @@ When creating a new action on a job, you have the ability to load action tasks t
 
 On the job's __Configure__ > __Action__ node, the __Add from Library__ option opens the Libraries window with the available Action Libraries and operations:
 
-![Libraries window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/libraries.webp)
+![Libraries window](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/libraries.webp)
 
 When a specific operation within a library is chosen, the action is added in the disabled state to the job. The Action Properties page opens, which has a description, action module, and source table with relevant filters applied.
 
 When you click the __Configure Action__ link, the action module's wizard opens.
 
-![PowerShell Action Module Wizard](/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/powershellmodulewizard.webp)
+![PowerShell Action Module Wizard](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/powershellmodulewizard.webp)
 
 The following Action Libraries and Templates leverage the PowerShell Action module for running actions within the specific environment:
 
@@ -40,11 +40,11 @@ __Step 2 –__ Click the __Add from Library__ link to open the Libraries window.
 
 __Step 3 –__ Click the green plus sign on the top left to add a new library.
 
-![Add custom library on Libraries window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/librariescustom.webp)
+![Add custom library on Libraries window](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/librariescustom.webp)
 
 __Step 4 –__ In the pop-up window, specify a name for the library and click __OK__.
 
-![Libraries window paste button](/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/librariescustompaste.webp)
+![Libraries window paste button](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/librariescustompaste.webp)
 
 __Step 5 –__ Select the new library and paste the copied action task.
 

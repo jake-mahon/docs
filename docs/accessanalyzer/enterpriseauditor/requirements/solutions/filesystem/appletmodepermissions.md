@@ -19,4 +19,4 @@ Sensitive Data Discovery Auditing scans require .NET Framework 4.7.2 or later to
 
 When running Access Auditing (FSAA) and/or Sensitive Data Discovery Auditing scans, the credentials within the Connection Profile assigned to the File System scans must be properly configured as explained above. Also the firewall rules must be configured to allow for communication between the applicable servers.
 
-See the [Applet Mode Port Requirements](/docs/accessanalyzer/enterpriseauditor/requirements/solutions/filesystem/appletmodeports.md) topic for firewall rule information.
+See the [Applet Mode Port Requirements](appletmodeports.md) topic for firewall rule information.

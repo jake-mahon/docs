@@ -10,11 +10,11 @@ __Step 1 –__ Click __Reports__ in the top bar to navigate to the Reports page.
 
 __Step 2 –__  Select an organization from the drop-down menu at the top of the left pane to create a custom report for it. An organization is selected by default, but you can choose a different one if needed.
 
-__Step 3 –__ Define a filter criteria. See the [Apply Filters](/docs/1secure/admin/searchandreports/applyfilters.md) topic for additional information.
+__Step 3 –__ Define a filter criteria. See the [Apply Filters](applyfilters.md) topic for additional information.
 
 __Step 4 –__ Click __Save as__ in the upper right corner of the page. The Create Report pane is displayed.
 
-![Create Report Pane](/img/product_docs/1secure/admin/searchandreports/searchcreatereports.webp)
+![Create Report Pane](../../../../static/img/product_docs/1secure/admin/searchandreports/searchcreatereports.webp)
 
 __Step 5 –__ In the Create Report pane, specify a name and description for the report in the Name and Description fields.
 
@@ -26,7 +26,7 @@ __Step 7 –__ For Display time for this report in, select an option to display 
 - My Organization timezone – The timezone set for your organization
 - Source's local time – Local time for your source obtained from the agent server. (Recommended when applying the Time of Day filter)
 
-__Step 8 –__ Optionally, select the __Share with business users__ check box to share the report with business users. See the [Add the Business Viewer Role](/docs/1secure/admin/organizations/addingusers.md#add-the-business-viewer-role) topic for additional information on shared reports.
+__Step 8 –__ Optionally, select the __Share with business users__ check box to share the report with business users. See the [Add the Business Viewer Role](../organizations/addingusers.md#add-the-business-viewer-role) topic for additional information on shared reports.
 
 __NOTE:__ This check box is not available for End Customer Organizations.
 
@@ -34,7 +34,7 @@ __Step 9 –__ Click __Save Report__.
 
 Your custom report is created under the respective category.
 
-__NOTE:__ You may link this report to an alert. See the [Add a Custom Alert](/docs/1secure/admin/alerts/alerts.md#add-a-custom-alert) topic for additional information.
+__NOTE:__ You may link this report to an alert. See the [Add a Custom Alert](../alerts/alerts.md#add-a-custom-alert) topic for additional information.
 
 ## Modify a Custom Report
 

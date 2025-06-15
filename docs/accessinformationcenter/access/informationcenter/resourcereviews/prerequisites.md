@@ -52,7 +52,7 @@ When the Access Information Center has been configured to commit Active Director
 
   __CAUTION:__ Of the three possible actions of Keep, Remove, and Not Sensitive for a Sensitive Data review, the Remove action cannot be automated through the Access Information Center. It must be manually done outside of the application. See the Sensitive Data Review Automation topic for additional information.
 
-See the [Access Groups](/docs/accessinformationcenter/access/informationcenter/resourceowners/accessgroups.md) topic for additional information.
+See the [Access Groups](../resourceowners/accessgroups.md) topic for additional information.
 
 ### Sensitive Data Review Automation
 

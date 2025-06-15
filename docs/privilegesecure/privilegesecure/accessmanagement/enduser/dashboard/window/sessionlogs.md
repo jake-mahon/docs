@@ -2,7 +2,7 @@
 
 The Session Logs window displays the log details for the selected session. Select a session from the Active dashboard and click the View Logs button to open the Session Logs window.
 
-![Session Logs Window](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/dashboard/window/sessionlogs.webp)
+![Session Logs Window](../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/dashboard/window/sessionlogs.webp)
 
 The window has the following features:
 

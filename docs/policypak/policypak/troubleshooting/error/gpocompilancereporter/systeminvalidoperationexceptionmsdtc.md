@@ -2,13 +2,13 @@
 
 When using a remote SQL as the database for Netwrix Endpoint Policy Manager (formerly PolicyPak) Group Policy Compliance Reporter, the snapshot operation may fail with the following error.
 
-![669_1_image-20200327172830-2](/img/product_docs/policypak/policypak/troubleshooting/error/gpocompilancereporter/669_1_image-20200327172830-2.jpeg)
+![669_1_image-20200327172830-2](../../../../../../static/img/product_docs/policypak/policypak/troubleshooting/error/gpocompilancereporter/669_1_image-20200327172830-2.jpeg)
 
 The Server Log will contain the following error as well:
 
 System.Transactions.TransactionManagerCommunicationException: Network access for Distributed Transaction Manager (MSDTC) has been disabled. Please enable DTC for network access in the security configuration for MSDTC using the Component Services Administrative tool.``` ---> System.Runtime.InteropServices.COMException```: The transaction manager has disabled its support for remote/network transactions. (Exception from HRESULT: 0x8004D024)
 
-To enable diagnostic logging, follow the directions in the article [How do I turn on enhanced logging for Endpoint Policy Manager Group Policy Compliance Reporter if asked to do so?](/docs/policypak/policypak/troubleshooting/grouppolicycompliancereporter/logenhanced.md)
+To enable diagnostic logging, follow the directions in the article [How do I turn on enhanced logging for Endpoint Policy Manager Group Policy Compliance Reporter if asked to do so?](../../grouppolicycompliancereporter/logenhanced.md)
 
 The resulting GPCR Server log can be found in: ```C:\ProgramData\PolicyPak\PolicyPak Group Policy Compliance Reporter Server\Diagnostics```
 
@@ -24,11 +24,11 @@ __Step 1 –__ Open Component Services
 
 1. Open the "run" box (Win-R), type ```"dcomcnfg"``` and click OK
 
-   ![669_3_image-20200327172830-3](/img/product_docs/policypak/policypak/troubleshooting/error/gpocompilancereporter/669_3_image-20200327172830-3.webp)
+   ![669_3_image-20200327172830-3](../../../../../../static/img/product_docs/policypak/policypak/troubleshooting/error/gpocompilancereporter/669_3_image-20200327172830-3.webp)
 
 __Step 2 –__ Expand Console Root -> Component Services -> Computers -> My Computer -> Distributed Transaction Coordinator, Right-Click on Local DTC and click Properties
 
-![669_5_image-20200327172830-4](/img/product_docs/policypak/policypak/troubleshooting/error/gpocompilancereporter/669_5_image-20200327172830-4.webp)
+![669_5_image-20200327172830-4](../../../../../../static/img/product_docs/policypak/policypak/troubleshooting/error/gpocompilancereporter/669_5_image-20200327172830-4.webp)
 
 __Step 3 –__ On the Security tab -> Security Settings and Configure as follows:
 
@@ -38,7 +38,7 @@ __Step 3 –__ On the Security tab -> Security Settings and Configure as follows
 4. Check "Enable SNA LU 6.2 Transactions"
 5. Click OK
 
-   ![669_7_image-20200327172830-5](/img/product_docs/policypak/policypak/troubleshooting/error/gpocompilancereporter/669_7_image-20200327172830-5.webp)
+   ![669_7_image-20200327172830-5](../../../../../../static/img/product_docs/policypak/policypak/troubleshooting/error/gpocompilancereporter/669_7_image-20200327172830-5.webp)
 
 __Step 4 –__ The MSDTC service will need to be restarted for the changes to take affect – Click YES to restart now or NO to restart manually later.
 
@@ -50,10 +50,10 @@ __Step 1 –__ Open the Windows Defender Firewall
 
 __Step 2 –__ Click on "Allow an app or feature through Windows Defender Firewall"
 
-![669_9_image-20200327172830-6](/img/product_docs/policypak/policypak/troubleshooting/error/gpocompilancereporter/669_9_image-20200327172830-6.webp)
+![669_9_image-20200327172830-6](../../../../../../static/img/product_docs/policypak/policypak/troubleshooting/error/gpocompilancereporter/669_9_image-20200327172830-6.webp)
 
 __Step 3 –__ Find "Distributed Transaction Coordinator", check and check the appropriate Network profile (e.g. Domain).
 
-![669_11_image-20200327172830-7](/img/product_docs/policypak/policypak/troubleshooting/error/gpocompilancereporter/669_11_image-20200327172830-7.webp)
+![669_11_image-20200327172830-7](../../../../../../static/img/product_docs/policypak/policypak/troubleshooting/error/gpocompilancereporter/669_11_image-20200327172830-7.webp)
 
 __Step 4 –__ Click OK to save and close

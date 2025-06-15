@@ -18,7 +18,7 @@ Certification campaigns are the best way to make sure past assignment decisions 
 
 Identity Manager's certification module also helps managers produce accurate reports that they can present to an auditor.
 
-See the [Access Certification](/docs/usercube/usercube/integration-guide/governance/accesscertification/index.md) topic to learn how to configure certification campaigns.
+See the [Access Certification](accesscertification/index.md) topic to learn how to configure certification campaigns.
 
 ## Risk Management
 
@@ -26,4 +26,4 @@ The risk management module provides tools for identifying entitlement assignment
 
 See the [
 Risk Management
-](/docs/usercube/usercube/integration-guide/governance/risks/index.md) topic to learn how to configure risks.
+](risks/index.md) topic to learn how to configure risks.

@@ -62,7 +62,7 @@ Persistent Store provides resilience and predictable latency in scenarios such a
 
 It uses a dedicated volume for each SVM as a staging buffer before the events are sent to Activity Monitor Agent.
 
-Checklist Item 2: [Provision ONTAP Account](/docs/accessanalyzer/config/netappcmode/provisionactivity.md)
+Checklist Item 2: [Provision ONTAP Account](provisionactivity.md)
 
 - Permission names depend on the API used, ONTAPI/ZAPI or REST API.
 - The case of domain and username created during the account provisioning process must match exactly to the credentials provided to the activity agent for authentication to work.
@@ -123,7 +123,7 @@ Checklist Item 2: [Provision ONTAP Account](/docs/accessanalyzer/config/netappcm
 
     - ```security login role show-ontapi``` – Readonly access
 
-Checklist Item 3: [Configure Network](/docs/accessanalyzer/config/netappcmode/configurefirewall.md)
+Checklist Item 3: [Configure Network](configurefirewall.md)
 
 - Agent must be able to connect to ONTAP API via a management LIF on ports HTTP (80) or HTTPS (443)
 
@@ -136,7 +136,7 @@ Checklist Item 3: [Configure Network](/docs/accessanalyzer/config/netappcmode/co
   - Each data serving node should have its own LIF with the ```data-fpolicy-client``` service.
   - The default port 9999 can be changed in the agent's settings.
 
-Checklist Item 4: [Configure FPolicy](/docs/accessanalyzer/config/netappcmode/configurefpolicy.md)
+Checklist Item 4: [Configure FPolicy](configurefpolicy.md)
 
 - Remember: all FPolicy objects and SVM names are case sensitive.
 - FPolicy must be configured for each SVM to be monitored.

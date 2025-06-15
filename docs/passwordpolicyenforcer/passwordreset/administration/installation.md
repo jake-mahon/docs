@@ -22,9 +22,9 @@ The Web Interface is the component that users interact with. It accepts user req
 
 The Password Reset Server is the component that performs requests on behalf of users. It receives requests from the Web Interface, checks the user's credentials, and performs the requested task if the credentials are valid.
 
-![installing_npr_624x193](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/installing_npr_624x193.webp)
+![installing_npr_624x193](../../../../static/img/product_docs/passwordpolicyenforcer/passwordreset/administration/installing_npr_624x193.webp)
 
-__NOTE:__ Microsoft SQL Server Compact is installed with the Password Reset Server. SQL Server Compact is free to use, and should only be removed if you move the database to SQL Server. SQL Server Compact is an embedded database. Unlike SQL Server, you do not need to configure or manage it. See the [Working with the Database](/docs/passwordpolicyenforcer/passwordreset/administration/working_with_the_database.md) topic for additional information.
+__NOTE:__ Microsoft SQL Server Compact is installed with the Password Reset Server. SQL Server Compact is free to use, and should only be removed if you move the database to SQL Server. SQL Server Compact is an embedded database. Unlike SQL Server, you do not need to configure or manage it. See the [Working with the Database](working_with_the_database.md) topic for additional information.
 
 ## Installation Types
 
@@ -56,7 +56,7 @@ __Step 6 –__ The Setup wizard may offer to install IIS. Click __OK__ to instal
 
 __Step 7 –__ Enter a __User Name__, __Domain__, and __Password__ for the Password Reset service account. The account will be created and added to the Domain Admins group if it does not exist.
 
-__NOTE:__ You can remove the account from the Domain Admins group later. If using an existing account, make sure it has the required permissions. See the [Securing Password Reset](/docs/passwordpolicyenforcer/passwordreset/administration/securing_password_reset.md) topic for additional information.
+__NOTE:__ You can remove the account from the Domain Admins group later. If using an existing account, make sure it has the required permissions. See the [Securing Password Reset](securing_password_reset.md) topic for additional information.
 
 __Step 8 –__ Click __Next__.
 
@@ -108,7 +108,7 @@ __Step 5 –__ Select the Server __Only option__, and then click __Next__.
 
 __Step 6 –__ Type a __User Name__, __Domain__, and __Password__ for the Password Reset service account. The account will be created and added to the Domain Admins group if it does not exist.
 
-__NOTE:__ You can remove the account from the Domain Admins group later. If using an existing account, make sure it has the required permissions. See the [Securing Password Reset](/docs/passwordpolicyenforcer/passwordreset/administration/securing_password_reset.md) topic for additional information.
+__NOTE:__ You can remove the account from the Domain Admins group later. If using an existing account, make sure it has the required permissions. See the [Securing Password Reset](securing_password_reset.md) topic for additional information.
 
 __Step 7 –__ Make sure the __Create Windows Firewall Exception for the NPR Server service__ check box is selected, and then click __Next__ twice.
 
@@ -145,7 +145,7 @@ __Step 11 –__ Expand the __HKEY_LOCAL_MACHINE__, __SOFTWARE__, __ANIXIS__, __A
 
 __Step 12 –__ Set the __ServerIP__ registry value to the IP address of the computer that you installed the Password Reset Server onto.
 
-![installing_npr_1](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/installing_npr_1.webp)
+![installing_npr_1](../../../../static/img/product_docs/passwordpolicyenforcer/passwordreset/administration/installing_npr_1.webp)
 
 The Password Reset Setup wizard only installs one Web Interface on each server, but you can copy the files to another directory and publish several Web Interfaces from one server. This allows you to present different user interfaces from each directory. The Web Interfaces all communicate with the same NPR Server because there is only one ServerIP value.
 
@@ -169,7 +169,7 @@ Some planning is needed to ensure a smooth upgrade from NPR V3.x. A trial run on
 
 ### Before You Begin
 
-The database files are not overwritten during an upgrade, but you should still create a backup before upgrading. See the [Backing up the Database](/docs/passwordpolicyenforcer/passwordreset/administration/working_with_the_database.md#backing-up-the-database) topic for additional information.
+The database files are not overwritten during an upgrade, but you should still create a backup before upgrading. See the [Backing up the Database](working_with_the_database.md#backing-up-the-database) topic for additional information.
 
 __The Web Interface files are overwritten during an upgrade. You must backup any customized Web Interface files before upgrading__. The Web Interface files are installed in the ```\Inetpub\wwwroot\pwreset\``` folder by default.
 
@@ -186,11 +186,11 @@ If the Password Reset Server and Web Interface are installed on different server
 
 Restore any customized Web Interface files after upgrading. Do not restore APR.dll from the backup as it belongs to the previous version. You should keep a copy of the original Web Interface files and compare them with the files from the previous version using a file comparison tool. Any changes between versions should be merged into your customized files.
 
-The Password Reset V3.30 data console does not read the VerificationCode or EnrollRecord columns from the User table on SQL Server. Access to these columns can be denied for Data Console users after upgrading all instances of the Data Console. See the [Using the Data Console](/docs/passwordpolicyenforcer/passwordreset/administration/using_the_data_console.md) topic for additional information.
+The Password Reset V3.30 data console does not read the VerificationCode or EnrollRecord columns from the User table on SQL Server. Access to these columns can be denied for Data Console users after upgrading all instances of the Data Console. See the [Using the Data Console](using_the_data_console.md) topic for additional information.
 
 ## Upgrading From NPR V2.x
 
-As this is a major upgrade with many changes, some planning is needed to ensure a smooth upgrade. A trial run on a lab network is recommended, especially if you are customizing the user interface. See the [Editing the HTML Templates](/docs/passwordpolicyenforcer/passwordreset/administration/editing_the_html_templates.md) topic for additional information.
+As this is a major upgrade with many changes, some planning is needed to ensure a smooth upgrade. A trial run on a lab network is recommended, especially if you are customizing the user interface. See the [Editing the HTML Templates](editing_the_html_templates.md) topic for additional information.
 
 __CAUTION:__ Due to a protocol upgrade, Netwrix Password Reset v3.3 is not compatible with Netwrix Password Policy Enforcer v8.x and earlier versions. If you are using Netwrix Password Reset with any of those older Netwrix Password Policy Enforcer versions, please consider upgrading Netwrix Password Policy Enforcer first to a current version, and only then upgrade Netwrix Password Reset to v3.3 (or later).
 
@@ -200,7 +200,7 @@ __Step 1 –__ Backup the NPR V2.x server(s).
 
 __Step 2 –__ Close the Data Console if it is open.
 
-__Step 3 –__ Stop the Netwrix Password Reset service and backing up the database. See the [Backing up the Database](/docs/passwordpolicyenforcer/passwordreset/administration/working_with_the_database.md#backing-up-the-database) topic for additional information.
+__Step 3 –__ Stop the Netwrix Password Reset service and backing up the database. See the [Backing up the Database](working_with_the_database.md#backing-up-the-database) topic for additional information.
 
 ### Upgrading to V3.23
 
@@ -240,7 +240,7 @@ __Step 8 –__ Click __OK__ twice, and then click __Apply__.
 
 __Step 9 –__ Start the Netwrix Password Reset service.
 
-__Step 10 –__ Update the backup script to copy from the new folder. See the [Backing up the Database](/docs/passwordpolicyenforcer/passwordreset/administration/working_with_the_database.md#backing-up-the-database) topic for additional information.
+__Step 10 –__ Update the backup script to copy from the new folder. See the [Backing up the Database](working_with_the_database.md#backing-up-the-database) topic for additional information.
 
 Configure Password Reset Client to use IE11 emulation mode
 

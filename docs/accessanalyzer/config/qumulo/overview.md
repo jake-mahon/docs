@@ -8,15 +8,15 @@ The credentials used by the Access Analyzer scans must have the following permis
 
 - Group membership in the Data-Administrators role
 
-__NOTE:__ These permissions are in addition to those needed to either deploy applet scans for running scans in proxy mode with applet or installing the File System Proxy Service Permissions for running scans in proxy mode as a service. See the [File System Scan Options](/docs/accessanalyzer/enterpriseauditor/requirements/solutions/filesystem/scanoptions.md) topic for additional information.
+__NOTE:__ These permissions are in addition to those needed to either deploy applet scans for running scans in proxy mode with applet or installing the File System Proxy Service Permissions for running scans in proxy mode as a service. See the [File System Scan Options](../../enterpriseauditor/requirements/solutions/filesystem/scanoptions.md) topic for additional information.
 
 ## Access & Sensitive Data Auditing Port Requirements
 
-The firewall ports required by Access Analyzer for Access Auditing (FSAA) and/or Sensitive Data Discovery Auditing scans are based on the File System scan mode to be used. See the [File System Scan Options](/docs/accessanalyzer/enterpriseauditor/requirements/solutions/filesystem/scanoptions.md) topic for additional information.
+The firewall ports required by Access Analyzer for Access Auditing (FSAA) and/or Sensitive Data Discovery Auditing scans are based on the File System scan mode to be used. See the [File System Scan Options](../../enterpriseauditor/requirements/solutions/filesystem/scanoptions.md) topic for additional information.
 
 ## Activity Auditing Permissions
 
-Netwrix Activity Monitor requires an account with the Observers role to monitor a Qumulo cluster. See the [Qumulo Activity Auditing Configuration](/docs/accessanalyzer/config/qumulo/activity.md) topic for instructions.
+Netwrix Activity Monitor requires an account with the Observers role to monitor a Qumulo cluster. See the [Qumulo Activity Auditing Configuration](activity.md) topic for instructions.
 
 ## Activity Auditing Port Requirements
 

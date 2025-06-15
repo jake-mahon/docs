@@ -8,4 +8,4 @@ Make sure to check your product version, and then review and update your add-ons
 | - XML:  ``` <ManagedObject></ManagedObject> ```  - JSON:  ``` "ManagedObject" ``` | - XML:  ``` <MonitoringPlan> `````` <Name>Name</Name> `````` <ID>Unique ID</ID> `````` </MonitoringPlan> ```  - JSON:  ``` "MonitoringPlan" : { `````` "ID": "{Unique ID}", `````` "Name": "Name" `````` } ``` Now the MonitoringPlan contains two sub-entries: ID and Name. The ID property is optional and is assigned automatically by the product. |
 | — | - XML:  ``` <Item> `````` <Name>Item name</Name> `````` </Item> ```  - JSON:  ``` "Item": {"Name": "Item name"} ``` |
 
-To learn more about input and output Activity Record structure, refer to [Activity Records](/docs/auditor/auditor/api/postdata/activityrecords.md).
+To learn more about input and output Activity Record structure, refer to [Activity Records](postdata/activityrecords.md).

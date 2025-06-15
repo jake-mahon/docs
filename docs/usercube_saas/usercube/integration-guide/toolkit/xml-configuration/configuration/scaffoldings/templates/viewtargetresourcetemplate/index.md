@@ -6,22 +6,22 @@ The scaffolding generates the following scaffoldings:
 
 - [
   Entity Type Display Name
-  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/entitytypes/entitytypes/entitytypedisplayname/index.md): Computes a default value for resources' internal display names.
+  ](../../entitytypes/entitytypes/entitytypedisplayname/index.md): Computes a default value for resources' internal display names.
 - [
   Entity Type Display Target Resource Table
-  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/entitytypes/entitytypes/entitytypedisplaytargetresourcetable/index.md): Creates a displaytable for the given entity.
+  ](../../entitytypes/entitytypes/entitytypedisplaytargetresourcetable/index.md): Creates a displaytable for the given entity.
 - [
   Target Resource Report
-  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/targetresourcereport/index.md): Creates a ReportQuery with default Query taking all the properties of the entity.
+  ](../../queries/targetresourcereport/index.md): Creates a ReportQuery with default Query taking all the properties of the entity.
 - [
   Target Resource Report Access Control Rules
-  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/queries/targetresourcereportaccesscontrolrules/index.md): Generates the permissions to apply a report for a profile on a given entity.
+  ](../../accesscontrolrules/queries/targetresourcereportaccesscontrolrules/index.md): Generates the permissions to apply a report for a profile on a given entity.
 - [
   Target Resource Report Menus
-  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/entitytypes/entitytypes/targetresourcereportmenus/index.md): Creates the Item menu for the entity's report so that it is displayed in the report view.
+  ](../../entitytypes/entitytypes/targetresourcereportmenus/index.md): Creates the Item menu for the entity's report so that it is displayed in the report view.
 - [
   View Access Control Rules
-  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/resources/viewaccesscontrolrules/index.md): Generates the permissions to view an entity type's resources.
+  ](../../accesscontrolrules/resources/viewaccesscontrolrules/index.md): Generates the permissions to view an entity type's resources.
 
 ## Examples
 

@@ -10,7 +10,7 @@ Create a Connection Profile and set the following information on the User Creden
 
 - Select Account Type – Unix Account
 - User name – Enter user name
-- Password Storage – Application (Uses the configured Profile Security setting as selected at the __Settings__ > __Application__ node. See the [Application](/docs/accessanalyzer/enterpriseauditor/admin/settings/application/overview.md) topic for additional information.)
+- Password Storage – Application (Uses the configured Profile Security setting as selected at the __Settings__ > __Application__ node. See the [Application](../../settings/application/overview.md) topic for additional information.)
 - Password/Confirm
 
   - If not using a private key, enter the __Password__ and re-type in the __Confirm__ field
@@ -28,10 +28,10 @@ Create a Connection Profile and set the following information on the User Creden
     - PuTTY Private Key
   - If desired, select this option and provide the key value
 
-Once the Connection Profile is created, it is time to create the custom host list. See the [Connection](/docs/accessanalyzer/enterpriseauditor/admin/settings/connection/overview.md) topic for additional information.
+Once the Connection Profile is created, it is time to create the custom host list. See the [Connection](../../settings/connection/overview.md) topic for additional information.
 
 ## Custom Host List
 
-The custom host list only needs to include a single NIS server in the targeted NIS domain. Follow the steps in the [Add Hosts](/docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/actions/add.md) topic for instructions on how to create a custom static host list.
+The custom host list only needs to include a single NIS server in the targeted NIS domain. Follow the steps in the [Add Hosts](../../hostmanagement/actions/add.md) topic for instructions on how to create a custom static host list.
 
-See the [Recommended Configuration for the .NIS Inventory Solution](/docs/accessanalyzer/enterpriseauditor/solutions/nisinventory/recommended.md) topic for information on where to assign the Connection Profile and host list.
+See the [Recommended Configuration for the .NIS Inventory Solution](../../../solutions/nisinventory/recommended.md) topic for information on where to assign the Connection Profile and host list.

@@ -6,7 +6,7 @@ The following actions target the Threat Manager server.
 
 The PowerShell Script action executes a specified PowerShell script. This action can be used to build a custom threat response, using PowerShell, to handle scenarios not covered by other preconfigured action steps.
 
-![powershellscriptactionstep](/img/product_docs/threatmanager/threatmanager/administration/playbooks/action/powershellscriptactionstep.webp)
+![powershellscriptactionstep](../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/playbooks/action/powershellscriptactionstep.webp)
 
 - PowerShell Script – Select the PowerShell script to execute. By default, the PowerShell script includes a comment section which includes Threat Manager threat variables that can be used in PowerShell script action steps.
 - Credential – Select a credential profile using the drop-down list. This will provide the PowerShell action step with a PowerShell credential object, based upon the Threat Manager credential specified for use in the script. For example:
@@ -19,7 +19,7 @@ The PowerShell Script action executes a specified PowerShell script. This action
 
 The Send Email action sends an email.
 
-![sendemail](/img/product_docs/groupid/groupid/portal/sendemail.webp)
+![sendemail](../../../../../../static/img/product_docs/groupid/groupid/portal/sendemail.webp)
 
 - Subject – The subject of the email
 - To – Specify the email addresses receiving the email
@@ -29,15 +29,15 @@ The Send Email action sends an email.
 
 The Stop Process action stops a process running locally on the host associated with the threat.
 
-![stopprocess](/img/product_docs/threatmanager/threatmanager/administration/playbooks/action/stopprocess.webp)
+![stopprocess](../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/playbooks/action/stopprocess.webp)
 
-- Credential – Select a credential profile that contains valid Active Directory credentials. Credential profiles are configured on the [Credential Profile Page](/docs/threatmanager/threatmanager/administration/configuration/integrations/credentialprofile.md). If not specified, the action will be run as the credentials of the Action Service.
+- Credential – Select a credential profile that contains valid Active Directory credentials. Credential profiles are configured on the [Credential Profile Page](../../configuration/integrations/credentialprofile.md). If not specified, the action will be run as the credentials of the Action Service.
 
 ## End User Session
 
 The End User Session action attempts to log the specified user out of any active RDP sessions on the target client.
 
-![endusersession](/img/product_docs/threatmanager/threatmanager/administration/playbooks/action/endusersession.webp)
+![endusersession](../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/playbooks/action/endusersession.webp)
 
 - Users – The users to log out of RDP sessions. If not specified, only the perpetrator will be used. Select the users from the drop-down list:
 
@@ -48,4 +48,4 @@ The End User Session action attempts to log the specified user out of any active
   - Perpetrator Client – The computer that initiated the threat
   - Host – The host client that initiated the threat
   - Both Perpetrator Client and Host – The computer and the host client affected by the threat
-- Credential – The domain credential used to run the action. Domain credentials are populated by credential profiles that are created on the Integrations page. If not specified, the action will be run under the credentials of the action. Select the credentials from the drop-down list. See the [Credential Profile Page](/docs/threatmanager/threatmanager/administration/configuration/integrations/credentialprofile.md) topic for additional information.
+- Credential – The domain credential used to run the action. Domain credentials are populated by credential profiles that are created on the Integrations page. If not specified, the action will be run under the credentials of the action. Select the credentials from the drop-down list. See the [Credential Profile Page](../../configuration/integrations/credentialprofile.md) topic for additional information.

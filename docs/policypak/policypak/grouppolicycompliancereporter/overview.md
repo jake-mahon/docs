@@ -8,4 +8,4 @@ Thank you for trying or purchasing Netwrix Endpoint Policy Manager (formerly Pol
 
 This document is both our QuickStart Guide and our full User Guide for Endpoint Policy Manager GPCR and will help you understand the Endpoint Policy Manager GPCR system. For details on our other products,  see theEndpoint Policy Manager website. After your testing is complete and you're ready to license Endpoint Policy Manager GPCR, send an email to [sales@policypak.com](mailto:sales@policypak.com) or call (800) 883-8002.
 
-__NOTE:__  You may also wish to watch our Quickstart videos of Endpoint Policy Manager GPCR if you're in a hurry: [Concepts and Quick Start](/docs/policypak/policypak/grouppolicycompliancereporter/concepts.md).
+__NOTE:__  You may also wish to watch our Quickstart videos of Endpoint Policy Manager GPCR if you're in a hurry: [Concepts and Quick Start](concepts.md).

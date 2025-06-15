@@ -11,7 +11,7 @@ A group expires when it is not attested and renewed during its expiring days.
 
 __History Logging__
 
-Directory Manager tracks and maintains history for group attestation. On the [Object properties - History tab](/docs/groupid/groupid/portal/group/properties/history.md) in group properties, the following is logged:
+Directory Manager tracks and maintains history for group attestation. On the [Object properties - History tab](../properties/history.md) in group properties, the following is logged:
 
 - The date the group was attested on.
 - Any attribute value updated during group attestation.

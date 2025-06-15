@@ -1,6 +1,6 @@
 # Target Server Considerations
 
-This topic lists the requirements for the target servers where you want to restore the domain controllers for performing a forest recovery. See the [Recover a Forest](/docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/recover.md) topic for additional information.
+This topic lists the requirements for the target servers where you want to restore the domain controllers for performing a forest recovery. See the [Recover a Forest](../admin/forest/recover.md) topic for additional information.
 
 _Remember,_ target server refers to a server where you intent to restore a domain controller.
 

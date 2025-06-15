@@ -6,10 +6,10 @@ In order to optimize the display table, this scaffolding will create the followi
 
 - An [
   Entity Type
-  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)for each tile item that uses a navigation binding. This will be used to hold the computed expression.
+  ](../../../../metadata/entitytype/index.md)for each tile item that uses a navigation binding. This will be used to hold the computed expression.
 - An [
   Entity Property Expression
-  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/metadata/entitypropertyexpression/index.md) to evaluate the binding expression used by the optimizable tile item.
+  ](../../../../metadata/entitypropertyexpression/index.md) to evaluate the binding expression used by the optimizable tile item.
 
 Then, the scaffolding will link the display table tile elements to the newly created scalar properties.
 

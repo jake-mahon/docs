@@ -2,7 +2,7 @@
 
 Use this page to preview a sampling of the completed data manipulation.
 
-![View and Table Creation Analysis Module wizard Result Sample page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/analysis/sqlviewcreation/resultsample.webp)
+![View and Table Creation Analysis Module wizard Result Sample page](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/analysis/sqlviewcreation/resultsample.webp)
 
 Click __Show Preview__ to populate the window with the selections from the previous pages. If the window does not populate, check the configurations for errors and try again.
 

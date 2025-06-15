@@ -6,13 +6,13 @@ By default, the organizational hierarchy chart is displayed for the logged-in us
 
 ## View the direct reports of a user
 
-Step 1 – In the Directory Manager portal, go to __My Profile__ or search for the user whose organizational hierarchy you want to view on the [Directory Search](/docs/groupid/groupid/portal/search/search.md) dialog box.
+Step 1 – In the Directory Manager portal, go to __My Profile__ or search for the user whose organizational hierarchy you want to view on the [Directory Search](../../search/search.md) dialog box.
 
 Step 2 – On the toolbar tab of the user profile's page, select __Organizational Hierarchy__. The __Organizational Hierarchy__ page displays the direct reports of the logged-in user recursively till the nth level.
 
 Step 3 – To view the chart for another user, click the ellipsis button next to __Select User__.
 
-On the [Find Dialog Box](/docs/groupid/groupid/portal/search/find.md), search and select the required user and click __OK__. This displays the organizational hierarchy chart for the selected user.
+On the [Find Dialog Box](../../search/find.md), search and select the required user and click __OK__. This displays the organizational hierarchy chart for the selected user.
 
 Step 4 – You can:
 

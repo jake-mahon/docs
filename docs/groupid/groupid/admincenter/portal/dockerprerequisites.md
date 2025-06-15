@@ -48,7 +48,7 @@ In Docker Desktop, you can view the images available in the remote repository (D
 
 Launch Docker Desktop and click __Images__ in the left pane.
 
-![images_-_local_tab](/img/product_docs/groupid/groupid/admincenter/portal/images_-_local_tab.webp)
+![images_-_local_tab](../../../../../static/img/product_docs/groupid/groupid/admincenter/portal/images_-_local_tab.webp)
 
 The Images page (Local tab) shows all images that you have pulled from different repositories. Notice the first image is from Directory Manager. Here:
 
@@ -58,7 +58,7 @@ The Images page (Local tab) shows all images that you have pulled from different
 
 Click __Remote Repositories__ to go to the remote server, where you will find all Directory Manager-specific images under _Imanami_.
 
-![images_-_remote_repositories](/img/product_docs/groupid/groupid/admincenter/portal/images_-_remote_repositories.webp)
+![images_-_remote_repositories](../../../../../static/img/product_docs/groupid/groupid/admincenter/portal/images_-_remote_repositories.webp)
 
 Directory Manager application images for different Directory Manager versions are listed here. For example, three Data service images are available for three distinct Directory Manager versions.
 
@@ -70,13 +70,13 @@ On the __Images page – Local__ tab, you can manually run an image to create a 
 
 Click __Containers/Apps__ in the left pane to view the containers.
 
-![apps_page](/img/product_docs/groupid/groupid/admincenter/portal/apps_page.webp)
+![apps_page](../../../../../static/img/product_docs/groupid/groupid/admincenter/portal/apps_page.webp)
 
 Select a container and click __Inspect__ to view its details.
 
-![container_details](/img/product_docs/groupid/groupid/admincenter/portal/container_details.webp)
+![container_details](../../../../../static/img/product_docs/groupid/groupid/admincenter/portal/container_details.webp)
 
 __See Also__
 
-- [Directory Manage Applications](/docs/groupid/groupid/admincenter/portal/applications.md)
-- [ Directory Manager Portal](/docs/groupid/groupid/admincenter/portal/overview.md)
+- [Directory Manage Applications](applications.md)
+- [ Directory Manager Portal](overview.md)

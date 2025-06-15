@@ -31,7 +31,7 @@ The following should be considered prior to deploying the ServiceNow integration
 
 ## ServiceNow Integration process Flow
 
-![servicenowflow](/img/product_docs/strongpointfornetsuite/integrations/servicenowflow.webp)
+![servicenowflow](../../../static/img/product_docs/strongpointfornetsuite/integrations/servicenowflow.webp)
 
 ## Deployment Process
 

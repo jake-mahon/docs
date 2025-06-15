@@ -4,7 +4,7 @@ The Password Reset option control password resets for the selected account.
 
 Click the __Password Reset Options__ button to open the window and configure the following:
 
-![passwordresetoptions](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/resources/passwordresetoptions.webp)
+![passwordresetoptions](../../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/resources/passwordresetoptions.webp)
 
 Select options to rotate the account password when the session starts or ends.
 

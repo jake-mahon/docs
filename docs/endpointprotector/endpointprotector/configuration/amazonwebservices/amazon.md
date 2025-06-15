@@ -6,4 +6,4 @@ In this section of our user guide, you will find comprehensive instructions for 
 
 Endpoint Protector is not generally available in the AWS Marketplace. To access the Amazon Machine Image (AMI), you need to contact your Endpoint Protector sales representative directly or submit a request to your Customer Management lead. Please provide information such as your AWS account number, region, and availability zone. You will receive a reply from an Endpoint Protector representative, notifying you when the Endpoint Protector Amazon Machine Image has been shared with your account.
 
-![Obtaining Amazon Machine Image (AMI)](/img/product_docs/endpointprotector/endpointprotector/configuration/amazonwebservices/obtainingami.png)
+![Obtaining Amazon Machine Image (AMI)](../../../../../static/img/product_docs/endpointprotector/endpointprotector/configuration/amazonwebservices/obtainingami.png)

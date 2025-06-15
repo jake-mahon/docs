@@ -8,7 +8,7 @@ Navigate to the __Unix__ > __3.Sharing__ > __UX_NFS__ > __Configure__ node and s
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the UX_NFS Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/unix/sharing/nfsanalysis.webp)
+![Analysis Tasks for the UX_NFS Job](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/unix/sharing/nfsanalysis.webp)
 
 The default analysis tasks are:
 

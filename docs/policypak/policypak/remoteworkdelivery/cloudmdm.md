@@ -4,7 +4,7 @@ Netwrix Endpoint Policy Manager (formerly PolicyPak) Remote Work Delivery Manage
 
 ## Remote Work Delivery Manager and Endpoint Policy Manager Cloud Lite Policies
 
-__NOTE:__ For a video showing how to create and use Endpoint Policy Manager Cloud Lite policies with Endpoint Policy Manager Remote Work Delivery Manager, watch: [Deploy software with Endpoint Policy Manager Cloud](/docs/policypak/policypak/video/remoteworkdelivery/cloud.md).
+__NOTE:__ For a video showing how to create and use Endpoint Policy Manager Cloud Lite policies with Endpoint Policy Manager Remote Work Delivery Manager, watch: [Deploy software with Endpoint Policy Manager Cloud](../video/remoteworkdelivery/cloud.md).
 
 You may recall from other components' manuals that you must always do the following:
 
@@ -16,16 +16,16 @@ If you wish to deliver standard policies and web policies, this workflow is stil
 
 ## Remote Work Delivery Manager and MDM Services
 
-__NOTE:__  See [Copy files and keep them up to date with your MDM service](/docs/policypak/policypak/video/remoteworkdelivery/mdm.md)for additional information on how to use Endpoint Policy Manager Remote Work Delivery Manager and your MDM service to keep files up to date
+__NOTE:__  See [Copy files and keep them up to date with your MDM service](../video/remoteworkdelivery/mdm.md)for additional information on how to use Endpoint Policy Manager Remote Work Delivery Manager and your MDM service to keep files up to date
 
 You get a special superpower when using Endpoint Policy Manager Remote Work Delivery Manager with your MDM service. Specifically, you can make and deliver a policy one time, which will deliver one or more files and will keep them updated. By itself, your MDM service has no way to deliver just one file, or multiple files. But with Endpoint Policy Manager Remote Work Delivery Manager you are able to pre-stage your files on a file service of your choice, like Amazon S3 or a ZIP file. Then, you can make a web policy to deliver that file, which will periodically look for changes and make sure those changes are made automatically on endpoints. For instance, if you created a web policy, and used a .zip file, then you can select __Archived folder__.
 
-![pprwdm_with_policypak_cloud](/img/product_docs/policypak/policypak/remoteworkdelivery/pprwdm_with_policypak_cloud.webp)
+![pprwdm_with_policypak_cloud](../../../../static/img/product_docs/policypak/policypak/remoteworkdelivery/pprwdm_with_policypak_cloud.webp)
 
-![pprwdm_with_policypak_cloud_1](/img/product_docs/policypak/policypak/remoteworkdelivery/pprwdm_with_policypak_cloud_1.webp)
+![pprwdm_with_policypak_cloud_1](../../../../static/img/product_docs/policypak/policypak/remoteworkdelivery/pprwdm_with_policypak_cloud_1.webp)
 
 Next, specify the overwrite mode.
 
-![pprwdm_with_policypak_cloud_2](/img/product_docs/policypak/policypak/remoteworkdelivery/pprwdm_with_policypak_cloud_2.webp)
+![pprwdm_with_policypak_cloud_2](../../../../static/img/product_docs/policypak/policypak/remoteworkdelivery/pprwdm_with_policypak_cloud_2.webp)
 
 After the Endpoint Policy Manager Remote Work Delivery Manager policy setting is delivered one time using your MDM service, all you need to do is update the ZIP file as needed. Endpoint Policy Manager keeps those files updated on your endpoints.

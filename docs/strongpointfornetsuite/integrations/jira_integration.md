@@ -41,7 +41,7 @@ Review these considerations prior to deploying the Jira integration:
 
 ### Jira Process Flow
 
-![Jira Integration Process Flow](/img/product_docs/strongpointfornetsuite/integrations/strongpointjiraflow.webp)
+![Jira Integration Process Flow](../../../static/img/product_docs/strongpointfornetsuite/integrations/strongpointjiraflow.webp)
 
 ## Set Up the Integration
 
@@ -88,7 +88,7 @@ Refer to the Atlassian documentation for instructions on [Defining status field 
    - Jira Statuses for Canceled Status
 6. Check __Automatic Synchronization__ to enable Platform Governance for NetSuite to handle the synchronization between Jira and NetSuite when a Ticket status is updated to a mapped status. without having to click __Push__. If you are using an account where you do not want to create a Change Request, leave this unchecked so you can do your research or testing without generating Change Requests.
 
-   ![Jira Integration settings with mapped statues](/img/product_docs/strongpointfornetsuite/release_notes/jira_example_integration.webp)
+   ![Jira Integration settings with mapped statues](../../../static/img/product_docs/strongpointfornetsuite/release_notes/jira_example_integration.webp)
 7. Check __Allow NS to Jira Push__ to enable pushing NetSuite change requests into Jira.
 8. Click __Save__.
 9. Open __Customization__ > __Scripting__ > __Scripts__.
@@ -97,17 +97,17 @@ Refer to the Atlassian documentation for instructions on [Defining status field 
 12. Click the script __Title__ to edit it.
 13. Open the __Parameters__ tab and enter the domain you use to access Jira.
 
-    ![Enter your domain on the Parameters tab](/img/product_docs/strongpointfornetsuite/integrations/jira_parameters.webp)
+    ![Enter your domain on the Parameters tab](../../../static/img/product_docs/strongpointfornetsuite/integrations/jira_parameters.webp)
 14. Click __Save__.
 
 ### Install the App
 
 1. From Jira, open __Settings__ > __Apps__.
 
-   ![Open Jira Apps settings](/img/product_docs/strongpointfornetsuite/integrations/jira_settings_cloud.webp)
+   ![Open Jira Apps settings](../../../static/img/product_docs/strongpointfornetsuite/integrations/jira_settings_cloud.webp)
 2. Search for _Strongpoint for NetSuite_.
 
-   ![Jira Search.](/img/product_docs/strongpointfornetsuite/integrations/jira_search.webp)
+   ![Jira Search.](../../../static/img/product_docs/strongpointfornetsuite/integrations/jira_search.webp)
 3. Click on the __Strongpoint for NetSuite__ tile to open the details and follow the installation prompts.
 
 ### Create an Integration User Account (optional)
@@ -125,14 +125,14 @@ Token Based Authentication is set up through NetSuite. Here is the basic process
 3. Open __Jira__.
 4. Open your __Projects__ page:
 
-   ![Open your Jira Projects page to find Add-ons](/img/product_docs/strongpointfornetsuite/release_notes/jira_projects_menu.webp)
+   ![Open your Jira Projects page to find Add-ons](../../../static/img/product_docs/strongpointfornetsuite/release_notes/jira_projects_menu.webp)
 5. Expand __Add-ons__.
 6. Select __Strongpoint Settings__.
 
-   ![Jira Strongpoint Settings](/img/product_docs/strongpointfornetsuite/release_notes/jira_strongpoint_settings.webp)
+   ![Jira Strongpoint Settings](../../../static/img/product_docs/strongpointfornetsuite/release_notes/jira_strongpoint_settings.webp)
 7. Click __New Token Based Authentication__ to add your credentials. This needs to be done once for each of your accounts.
 
-   ![Add tokens for Jira](/img/product_docs/strongpointfornetsuite/release_notes/jira_add_token.webp)
+   ![Add tokens for Jira](../../../static/img/product_docs/strongpointfornetsuite/release_notes/jira_add_token.webp)
 8. Enter your credentials and click __Add Token Based Authentication Credential__.
 9. When logging into Platform Governance for NetSuite from Jira you can select your credentials. Credentials persist once selected.
 
@@ -149,4 +149,4 @@ This process is performed by the Jira Administrator.
 4. Click __Push__ when complete. Platform Governance for NetSuite creates a Change Request using the changes in the Jira ticket.
 5. Start a Respider to create the Change Log and documents.
 
-__Next Step:__ [ Jira Walkthrough Example](/docs/strongpointfornetsuite/integrations/jira_walkthrough_example.md)
+__Next Step:__ [ Jira Walkthrough Example](jira_walkthrough_example.md)

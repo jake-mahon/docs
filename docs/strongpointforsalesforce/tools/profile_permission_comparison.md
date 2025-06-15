@@ -19,16 +19,16 @@ To perform a __System Permission__ comparison:
 
 1. Select __Tools__ > __Permissions Comparison__ from the Netwrix Dashboard page. Click the expansion indicator u to expand the __Comparison__ panel. Make sure __System Permission__ is selected.
 
-   ![Open the Profile / Permission Comparison](/img/product_docs/strongpointforsalesforce/tools/permission_comparison.webp)
+   ![Open the Profile / Permission Comparison](../../../static/img/product_docs/strongpointforsalesforce/tools/permission_comparison.webp)
 2. Select at least two __Profile / Permission Sets__. For each item:
 
    - Enter part of the __Profile or Permission Set__ name
    - Check the __View__ box for the item to compare.
 
-   ![Select a Profile or Permission Set to compare](/img/product_docs/strongpointforsalesforce/tools/permission_comparison_select.webp)
+   ![Select a Profile or Permission Set to compare](../../../static/img/product_docs/strongpointforsalesforce/tools/permission_comparison_select.webp)
 3. Select the __System Permissions Category__: __All__, __API__, __Create__, __Edit__, __Manage__, __Modify__, __User__, or __View__.
 
-   ![System Permission Comparison](/img/product_docs/strongpointforsalesforce/tools/permission_comparison_display.webp)
+   ![System Permission Comparison](../../../static/img/product_docs/strongpointforsalesforce/tools/permission_comparison_display.webp)
 4. Review the comparison. If the permissions are identical, you can research whether one or more can be removed.
 5. Click __Export Data__ to create an Excel file containing the comparison. The __StrongpointSystemPermissionsComparison (#).xlsx__ file is saved to your default download directory.
 
@@ -44,9 +44,9 @@ To perform an __Object Permission__ comparison:
    - Enter part of the __Profile or Permission Set__ name
    - Check the __View__ box for the item to compare.
 
-   ![Select a Profile or Permission Set to compare](/img/product_docs/strongpointforsalesforce/tools/permission_comparison_select.webp)
+   ![Select a Profile or Permission Set to compare](../../../static/img/product_docs/strongpointforsalesforce/tools/permission_comparison_select.webp)
 3. Set the optional __Filter__ for object permissions: __Create__, __Edit__, __Read__, __Delete__, __View All__, and __Modify All__. You can use the __Select All__ and __Clear All__ shortcuts to set the __Filter__.
 
-   ![Object Permission Comparison](/img/product_docs/strongpointforsalesforce/tools/permission_comparison_display_object.webp)
+   ![Object Permission Comparison](../../../static/img/product_docs/strongpointforsalesforce/tools/permission_comparison_display_object.webp)
 4. Review the comparison. If the permissions are identical, you can research whether one or more can be removed.
 5. Click __Export Data__ to create an Excel file containing the comparison. The __StrongpointObjectComparison (#).xlsx__ file is saved to your default download directory.

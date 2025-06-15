@@ -1,8 +1,8 @@
 # Add Resources Window for Protected Policy
 
-The Add Resources window provides a list of resources that have been onboarded. Resources are onboarded in the [Resources Page](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/resources.md).
+The Add Resources window provides a list of resources that have been onboarded. Resources are onboarded in the [Resources Page](../../page/resources.md).
 
-![Protection policy add resource window](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/resources/addresources.webp)
+![Protection policy add resource window](../../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/resources/addresources.webp)
 
 The window has the following features:
 
@@ -17,7 +17,7 @@ Both tables have the following columns:
 
 - Checkbox — Check to select one or more items
 - Type — Classification of the activity
-- Name — Displays the name of the resource. Click the link to view additional details. See the [Resources Page](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/resources.md) topic for addition information.
+- Name — Displays the name of the resource. Click the link to view additional details. See the [Resources Page](../../page/resources.md) topic for addition information.
 - DNS Host Name — Displays the DNS host name for a host resource or the FQDN for a domain resource
 - Operating System— Displays the operating system of the resource
 
@@ -49,4 +49,4 @@ __Step 5 –__ (Optional) Click a row in the Resources to Add table to move it b
 
 __Step 6 –__ Click Add to add the resources to the protection policy.
 
-The new resource(s) are added to the protection policy and are shown on the [Resources Tab for Protection Policies](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/policyprotection/resources.md).
+The new resource(s) are added to the protection policy and are shown on the [Resources Tab for Protection Policies](../../tab/policyprotection/resources.md).

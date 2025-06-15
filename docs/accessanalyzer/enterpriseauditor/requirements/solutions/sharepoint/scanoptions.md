@@ -10,8 +10,8 @@ __NOTE:__ Agent-based scans can only target on-premise environments.
 
 See the following topics for additional information:
 
-- [SharePoint Agent Permissions](/docs/accessanalyzer/enterpriseauditor/requirements/solutions/sharepoint/agentpermissions.md)
-- [SharePoint Agent Ports](/docs/accessanalyzer/enterpriseauditor/requirements/solutions/sharepoint/agentports.md)
+- [SharePoint Agent Permissions](agentpermissions.md)
+- [SharePoint Agent Ports](agentports.md)
 
 ## Agent-Less Type
 
@@ -25,9 +25,9 @@ See the following topics for additional information:
 
 - SharePoint Online
 
-  - [SharePoint Online Permissions](/docs/accessanalyzer/enterpriseauditor/requirements/solutions/sharepoint/onlinepermissions.md)
-  - [SharePoint Online Ports](/docs/accessanalyzer/enterpriseauditor/requirements/solutions/sharepoint/onlineports.md)
+  - [SharePoint Online Permissions](onlinepermissions.md)
+  - [SharePoint Online Ports](onlineports.md)
 - SharePoint On-Premise
 
-  - [SharePoint Agent-Less Permissions](/docs/accessanalyzer/enterpriseauditor/requirements/solutions/sharepoint/agentlesspermissions.md)
-  - [SharePoint Agent-Less Ports](/docs/accessanalyzer/enterpriseauditor/requirements/solutions/sharepoint/agentlessports.md)
+  - [SharePoint Agent-Less Permissions](agentlesspermissions.md)
+  - [SharePoint Agent-Less Ports](agentlessports.md)

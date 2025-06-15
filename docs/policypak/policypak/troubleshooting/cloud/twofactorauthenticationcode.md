@@ -6,16 +6,16 @@ This has been observed that when you have NoScript add-on for Mozilla Firefox en
 
 To be sure, this highlighted function on PP website doesn't work when NoScript is enabled for either Mozilla Firefox or Google Chrome.
 
-![674_1_kb-problem](/img/product_docs/policypak/policypak/troubleshooting/cloud/674_1_kb-problem.webp)
+![674_1_kb-problem](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/cloud/674_1_kb-problem.webp)
 
 ## Reason:
 
 This is a screenshot of NoScript plug-in Mozilla Firefox as on October-2019. It may look different now.
 
-![674_2_kb-reason](/img/product_docs/policypak/policypak/troubleshooting/cloud/674_2_kb-reason.webp)
+![674_2_kb-reason](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/cloud/674_2_kb-reason.webp)
 
 ## Resolution:
 
 Add URL Endpoint Policy Manager.com website in the trusted site section of NoScript plug-in.
 
-![674_3_kb-resolution](/img/product_docs/policypak/policypak/troubleshooting/cloud/674_3_kb-resolution.webp)
+![674_3_kb-resolution](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/cloud/674_3_kb-resolution.webp)

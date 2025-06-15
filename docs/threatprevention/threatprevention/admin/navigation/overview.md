@@ -18,17 +18,17 @@ The Administration Console has the following components:
 - Policy Center
 - Status Bar
 
-![Threat Prevention Administration Console – Components](/img/product_docs/threatprevention/threatprevention/admin/navigation/adminconsole.webp)
+![Threat Prevention Administration Console – Components](../../../../../static/img/product_docs/threatprevention/threatprevention/admin/navigation/adminconsole.webp)
 
 There are also right-click commands available within different sections of the Policy Center.
 
-If the Administration Console user interface or windows do not display properly, see the [Troubleshooting FAQs](/docs/threatprevention/threatprevention/troubleshooting/overview.md#troubleshooting-faqs) topic for information.
+If the Administration Console user interface or windows do not display properly, see the [Troubleshooting FAQs](../../troubleshooting/overview.md#troubleshooting-faqs) topic for information.
 
 ## Menu
 
 The Menu contains the following selections:
 
-![Administration Console - Menu](/img/product_docs/threatprevention/threatprevention/admin/navigation/menu.webp)
+![Administration Console - Menu](../../../../../static/img/product_docs/threatprevention/threatprevention/admin/navigation/menu.webp)
 
 | Menu Item | Option | Description |
 | --- | --- | --- |
@@ -36,36 +36,36 @@ The Menu contains the following selections:
 |  | Rename | Opens a textbox to rename the selected policy, template, or folder in the Policy Center |
 |  | Remove | Removes the selected policy, template, or folder from the Policy Center |
 |  | Exit | Exit the Administration Console |
-| Tools | Export … | Export (Alt+X) policies and templates through the [Export Policies and Templates Window](/docs/threatprevention/threatprevention/admin/tools/exportpoliciestemplates.md) |
-|  | Import … | Import (Alt+I) policies/templates, collections, and event consumers/alerts from an exported file through the [Import Window](/docs/threatprevention/threatprevention/admin/tools/import.md) |
-| Configuration | Alerts | Configure and manage all email, event log, and SEIM alerts in the [System Alerting Window](/docs/threatprevention/threatprevention/admin/configuration/systemalerting/overview.md) |
-|  | Users | A security feature for configuring access to the Administration Console. Users are added and assigned rights through the [Users and Roles Window](/docs/threatprevention/threatprevention/admin/configuration/userroles/overview.md). |
-|  | Database > Server | Manage the events database in the [Events Database Configuration Window](/docs/threatprevention/threatprevention/admin/configuration/eventsdatabaseconfiguration.md). You can view the information, but cannot make changes. |
-|  | Database > Maintenance | Use database maintenance to automatically groom the database to optimize performance by archiving and/or deleting data aged beyond a specified threshold. This can be configured to run by Event Type, Analytic, or Policy. It is configured in the [Database Maintenance Window](/docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/overview.md). |
-|  | Collections | Manage all Microsoft Collections in the [Collection Manager Window](/docs/threatprevention/threatprevention/admin/configuration/collectionmanager/overview.md) |
-|  | Event Filtering | Filters Active Directory events to remove “noise” from collected event data and/or exclude logins from machine accounts. Both settings are ON by default. It also allows authentication events from selected hosts or from selected accounts to be excluded, which require configuration before being enabled. A latency threshold can be set to generate alerts when the delivery of AD Events are delayed beyond the threshold. These options are configured in the [Event Filtering Configuration Window](/docs/threatprevention/threatprevention/admin/configuration/eventfilteringconfiguration.md). |
-|  | Netwrix Threat Manager Configuration | Enables integration between Threat Prevention and Threat Manager in a global setting. The Threat Manager URI is set in the [Netwrix Threat Manager Configuration Window](/docs/threatprevention/threatprevention/admin/configuration/threatmanagerconfiguration.md). Choose policies through the Policy checkboxes in this window or the Actions tab of each policy for sending event data to Threat Manager. |
-|  | File Monitor Settings | Manages the log retention, inherited permissions filtering, disables office file filtering, and the ability to exclude AD accounts and processes for Threat Prevention file monitoring and blocking policies in a global setting. These options are set in the [File Monitor Settings Window](/docs/threatprevention/threatprevention/admin/configuration/filemonitorsettings.md). |
-|  | EPE Settings | Manages the Have I Been Pwned password hash database configuration and update options as well as global Password Rules filter configurations. These options are configured in the [EPE Settings Window](/docs/threatprevention/threatprevention/admin/configuration/epesettings.md). |
+| Tools | Export … | Export (Alt+X) policies and templates through the [Export Policies and Templates Window](../tools/exportpoliciestemplates.md) |
+|  | Import … | Import (Alt+I) policies/templates, collections, and event consumers/alerts from an exported file through the [Import Window](../tools/import.md) |
+| Configuration | Alerts | Configure and manage all email, event log, and SEIM alerts in the [System Alerting Window](../configuration/systemalerting/overview.md) |
+|  | Users | A security feature for configuring access to the Administration Console. Users are added and assigned rights through the [Users and Roles Window](../configuration/userroles/overview.md). |
+|  | Database > Server | Manage the events database in the [Events Database Configuration Window](../configuration/eventsdatabaseconfiguration.md). You can view the information, but cannot make changes. |
+|  | Database > Maintenance | Use database maintenance to automatically groom the database to optimize performance by archiving and/or deleting data aged beyond a specified threshold. This can be configured to run by Event Type, Analytic, or Policy. It is configured in the [Database Maintenance Window](../configuration/databasemaintenance/overview.md). |
+|  | Collections | Manage all Microsoft Collections in the [Collection Manager Window](../configuration/collectionmanager/overview.md) |
+|  | Event Filtering | Filters Active Directory events to remove “noise” from collected event data and/or exclude logins from machine accounts. Both settings are ON by default. It also allows authentication events from selected hosts or from selected accounts to be excluded, which require configuration before being enabled. A latency threshold can be set to generate alerts when the delivery of AD Events are delayed beyond the threshold. These options are configured in the [Event Filtering Configuration Window](../configuration/eventfilteringconfiguration.md). |
+|  | Netwrix Threat Manager Configuration | Enables integration between Threat Prevention and Threat Manager in a global setting. The Threat Manager URI is set in the [Netwrix Threat Manager Configuration Window](../configuration/threatmanagerconfiguration.md). Choose policies through the Policy checkboxes in this window or the Actions tab of each policy for sending event data to Threat Manager. |
+|  | File Monitor Settings | Manages the log retention, inherited permissions filtering, disables office file filtering, and the ability to exclude AD accounts and processes for Threat Prevention file monitoring and blocking policies in a global setting. These options are set in the [File Monitor Settings Window](../configuration/filemonitorsettings.md). |
+|  | EPE Settings | Manages the Have I Been Pwned password hash database configuration and update options as well as global Password Rules filter configurations. These options are configured in the [EPE Settings Window](../configuration/epesettings.md). |
 | Help | Administration Console Help | Opens the internal help documentation |
-|  | License Manager | Opens the Threat Prevention [License Manager Window](/docs/threatprevention/threatprevention/admin/navigation/licensemanager.md) where the customer name, license expiry date, and licensed modules are displayed |
+|  | License Manager | Opens the Threat Prevention [License Manager Window](licensemanager.md) where the customer name, license expiry date, and licensed modules are displayed |
 |  | About Netwrix Threat Prevention Administration Console | Opens the Administration Console window where the product version, copyright, and the Netwrix website link are displayed |
 
 ## Policy Center
 
 The Policy Center is the primary interface of the Administration Console. It is divided into two sections: the Navigation pane and the Display area.
 
-![Administration Console – Policy Center](/img/product_docs/threatprevention/threatprevention/admin/navigation/policycenter.webp)
+![Administration Console – Policy Center](../../../../../static/img/product_docs/threatprevention/threatprevention/admin/navigation/policycenter.webp)
 
 The Navigation pane provides interface options while the Display area displays the selected interface. The following interface options are available:
 
-- [Agents Interface](/docs/threatprevention/threatprevention/admin/agents/overview.md)
-- [Alerts Interface](/docs/threatprevention/threatprevention/admin/alerts/overview.md)
-- [Investigate Interface](/docs/threatprevention/threatprevention/admin/investigate/overview.md)
-- [Analytics Interface](/docs/threatprevention/threatprevention/admin/analytics/overview.md)
-- [Policies Interface](/docs/threatprevention/threatprevention/admin/policies/overview.md)
-- [Templates Interface](/docs/threatprevention/threatprevention/admin/templates/overview.md)
-- [Tags Node](/docs/threatprevention/threatprevention/admin/tags/overview.md)
+- [Agents Interface](../agents/overview.md)
+- [Alerts Interface](../alerts/overview.md)
+- [Investigate Interface](../investigate/overview.md)
+- [Analytics Interface](../analytics/overview.md)
+- [Policies Interface](../policies/overview.md)
+- [Templates Interface](../templates/overview.md)
+- [Tags Node](../tags/overview.md)
 
 Several right-click menus and additional features are available within these interfaces.
 
@@ -105,6 +105,6 @@ The TAGS node provides an organizational feature for templates. Many preconfigur
 
 The Status Bar is located at the bottom of the Administration Console.
 
-![statusbar](/img/product_docs/threatprevention/threatprevention/admin/navigation/statusbar.webp)
+![statusbar](../../../../../static/img/product_docs/threatprevention/threatprevention/admin/navigation/statusbar.webp)
 
 It displays the current user account logged into Threat Prevention and current session details.

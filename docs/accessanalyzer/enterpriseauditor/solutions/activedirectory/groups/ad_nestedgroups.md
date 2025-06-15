@@ -8,7 +8,7 @@ Navigate to the __Active Directory__ > __1.Groups__ > __AD_NestedGroups__ > __Co
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the AD_NestedGroups Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/distributionlists/membershipanalysis/nestedgroupsanalysis.webp)
+![Analysis Tasks for the AD_NestedGroups Job](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/distributionlists/membershipanalysis/nestedgroupsanalysis.webp)
 
 The default analysis tasks are:
 

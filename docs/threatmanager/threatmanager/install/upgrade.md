@@ -2,7 +2,7 @@
 
 This topic describes the steps needed for upgrading Threat Manager to the latest version.
 
-See the [What's New](/docs/threatmanager/threatmanager/whatsnew.md) topic for details on new and improved features included with each release.
+See the [What's New](../whatsnew.md) topic for details on new and improved features included with each release.
 
 ## Considerations
 
@@ -44,5 +44,5 @@ __Step 2 –__ Right-click on each Threat Manager service and click Stop in the
 
 You can:
 
-- [Upgrade Threat Manager from 2.8 to 3.0](/docs/threatmanager/threatmanager/install/upgrade3.0.md)
-- [Upgrade Threat Manager from 2.6/2.7 To 2.8](/docs/threatmanager/threatmanager/install/upgrade2.8.md)
+- [Upgrade Threat Manager from 2.8 to 3.0](upgrade3.0.md)
+- [Upgrade Threat Manager from 2.6/2.7 To 2.8](upgrade2.8.md)

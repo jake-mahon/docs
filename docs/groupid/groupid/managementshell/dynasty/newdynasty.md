@@ -89,7 +89,7 @@ New-Dynasty -OrganizationalUnit "OU=Recruiting,DC=HR,DC=Imanami,DC=US" -Name "De
 
 Example 2:
 
-The following command creates a new mail-enabled, universal, distribution, multi-level Dynasty with the group-by attributes Country, State and City based on the specified filters and separator, using the credentials set in the $Credentials environment variable. See the [Set the $Credentials Environment Variable](/docs/groupid/groupid/managementshell/parameters/setthecredential.md) topic for setting credentials in an environment variable.
+The following command creates a new mail-enabled, universal, distribution, multi-level Dynasty with the group-by attributes Country, State and City based on the specified filters and separator, using the credentials set in the $Credentials environment variable. See the [Set the $Credentials Environment Variable](../parameters/setthecredential.md) topic for setting credentials in an environment variable.
 
 ```
 New-Dynasty -OrganizationalUnit "OU=Recruiting,DC=HR,DC=Imanami,DC=US" -Name "Geographical" -GroupAlias "Geographical" -MailEnable True -SamAccountName "Geographical" -GroupScope "Universal Group" -Type "Distribution" -GroupBy "co","st","l" -Filters "Left 3","Left 3","%GROUPBY%\*" -Separator "_","_","_" -Credential $Cred

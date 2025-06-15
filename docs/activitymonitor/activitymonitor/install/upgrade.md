@@ -1,6 +1,6 @@
 # Upgrade Procedure
 
-The purpose of this chapter is to provide the basic steps needed for upgrading Activity Monitor. See the [Software Compatibility & Versions](/docs/activitymonitor/activitymonitor/install/overview.md) section for information on integration with other Netwrix products.
+The purpose of this chapter is to provide the basic steps needed for upgrading Activity Monitor. See the [Software Compatibility & Versions](overview.md) section for information on integration with other Netwrix products.
 
 ## Considerations
 
@@ -14,7 +14,7 @@ Follow the steps to upgrade from the Netwrix Activity Monitor V7.1 to Netwrix Ac
 
 _Prerequisite_ – Ensure console and agent servers have .NET Framework 4.7.2 installed.
 
-__Step 1 –__ Install the Activity Monitor 8.0 on the same machine where the V7.1 console resides following the instructions in the [Install Application](/docs/activitymonitor/activitymonitor/install/application.md) section.
+__Step 1 –__ Install the Activity Monitor 8.0 on the same machine where the V7.1 console resides following the instructions in the [Install Application](application.md) section.
 
 __CAUTION:__ Launch the Activity Monitor Console and navigate to the Agents tab.
 

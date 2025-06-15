@@ -2,7 +2,7 @@
 
 How to use role mining to suggest role assignment rules based on existing assignments, in order to push the [
 Automate Assignments
-](/docs/usercube/usercube/user-guide/optimize/assignment-automation/index.md) wall further.
+](../index.md) wall further.
 
 ## Overview
 
@@ -11,29 +11,29 @@ task is able to assign single roles to users according to their attributes which
 
 > For example, in the AD, entitlements are given through group membership. Integrators create a navigation rule to assign each group to the users who have the corresponding single role. Then, the [
 > Compute Role Model Task
-> ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md) is able to assign single roles to users according to their existing group membership.
+> ](../../../../integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md) is able to assign single roles to users according to their existing group membership.
 >
 > In addition to group membership, the assignment of an entitlement to users could also depend on users' attributes like their location, position title, etc.
 
-Now that users received their roles, the role mining tool can analyze these assignments and deduce [Single Role Rule](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerolerule/index.md) which will assign single roles to certain users matching given criteria.
+Now that users received their roles, the role mining tool can analyze these assignments and deduce [Single Role Rule](../../../../integration-guide/toolkit/xml-configuration/provisioning/singlerolerule/index.md) which will assign single roles to certain users matching given criteria.
 
-![Schema - Role Mining](/img/product_docs/usercube/usercube/user-guide/optimize/assignment-automation/role-mining/rolemining_schema.webp)
+![Schema - Role Mining](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/optimize/assignment-automation/role-mining/rolemining_schema.webp)
 
-Role mining is a Machine Learning process. It is a statistic tool used to emphasize the [Single Role Rule](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerolerule/index.md) that constitute the key criteria for existing role assignments. It detects the most probable links between identities dimensions and their roles in order to suggest the appropriate entitlement assignment rules.
+Role mining is a Machine Learning process. It is a statistic tool used to emphasize the [Single Role Rule](../../../../integration-guide/toolkit/xml-configuration/provisioning/singlerolerule/index.md) that constitute the key criteria for existing role assignments. It detects the most probable links between identities dimensions and their roles in order to suggest the appropriate entitlement assignment rules.
 
 > For example, suppose that 80% of NETWRIX workers in Marseilles have access to an application "App". Then, role mining is most likely to recognize the working site as a relevant dimension, and suggest to create a rule that gives the "App" access to users whose site is Marseilles.
 
 Role mining being a statistic tool based on existing entitlement assignments, it appears useless if the role model contains fewer than 2,000 role assignments. Then, start by reinforcing the Role Catalog. See the[
 Create Roles in the Role Catalog
-](/docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/index.md) topic for additional information.
+](../../../set-up/single-roles-catalog-creation/index.md) topic for additional information.
 
 ### Technical Principles
 
 Role mining works through [
 Mining Rule
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/miningrule/index.md) that Identity Manager applies with the [
+](../../../../integration-guide/toolkit/xml-configuration/provisioning/miningrule/index.md) that Identity Manager applies with the [
 Get Role Mining Task
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/getroleminingtask/index.md).
+](../../../../integration-guide/toolkit/xml-configuration/jobs/tasks/server/getroleminingtask/index.md).
 
 ### Entitlement differentiation with rule types
 
@@ -42,17 +42,17 @@ Mining rules can be configured to generate:
 1. automatic rules, i.e. rules which assign roles automatically with or without a validation;
 2. suggested rules, i.e. rules which don't assign roles directly, but suggest them during an entitlement request for a user.
 
-   ![Suggested](/img/product_docs/usercube/usercube/user-guide/optimize/assignment-automation/role-mining/rolemining_suggested_v602.webp)
+   ![Suggested](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/optimize/assignment-automation/role-mining/rolemining_suggested_v602.webp)
 
 You can generate both automatic and suggested rules for the same role, with different precision levels and different approval workflows.
 
 > Consider an organization where an unknown ratio of users have a given role. Using the precision settings, we can create a mining rule to generate automatic assignment rules when the ratio is above 95% and a second mining rule to generate suggested assignment rules when the ratio is between 75% and 95%.
 >
-> ![Rule Types](/img/product_docs/usercube/usercube/user-guide/optimize/assignment-automation/role-mining/rolemining_ruletype.webp)
+> ![Rule Types](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/optimize/assignment-automation/role-mining/rolemining_ruletype.webp)
 
 You can also differentiate entitlements according to their sensitivity, for example require additional reviews following the request of a sensitive entitlement:
 
-![Rule Types - Sensitivity](/img/product_docs/usercube/usercube/user-guide/optimize/assignment-automation/role-mining/rolemining_ruletype-sensitivity.webp)
+![Rule Types - Sensitivity](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/optimize/assignment-automation/role-mining/rolemining_ruletype-sensitivity.webp)
 
 The automation of entitlement assignments according to sensitivity brings greater confidence in basic entitlements assignment which won't need to be certified anymore. Thus, automation lets certification campaigns focus on more sensitive entitlements.
 
@@ -70,7 +70,7 @@ At this point, integrators should have all the elements they need to operate.
 
 See the[
 Create Roles in the Role Catalog
-](/docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/index.md) topic for additional information.
+](../../../set-up/single-roles-catalog-creation/index.md) topic for additional information.
 
 ## Create a Mining Rule
 
@@ -78,23 +78,23 @@ Create a mining rule by proceeding as follows:
 
 1. On the home page in the __Configuration__ section, click on the __Role Mining__ button.
 
-   ![Home page - Connectors](/img/product_docs/usercube/usercube/user-guide/optimize/assignment-automation/role-mining/home_rolemining_v60.webp)
+   ![Home page - Connectors](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/optimize/assignment-automation/role-mining/home_rolemining_v60.webp)
 
    You will see all existing mining rules.
 2. Click on the addition button at the top right and fill in the fields.
 
-   ![Addition Icon](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/iconadd_v602.svg)
+   ![Addition Icon](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/iconadd_v602.svg)
 
-   ![New Mining Rule](/img/product_docs/usercube/usercube/user-guide/optimize/assignment-automation/role-mining/rolemining_miningrule_v602.webp)
+   ![New Mining Rule](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/optimize/assignment-automation/role-mining/rolemining_miningrule_v602.webp)
 
-   - ```Policy```: [Create a Policy](/docs/usercube/usercube/user-guide/optimize/policy-creation/index.md) in which the mining rule exists.
-   - ```Entity Type```: [Create an Entity Type](/docs/usercube/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md) on which the mining rule is applied, i.e. the entity type targeted by role mining's entitlement analysis.
+   - ```Policy```: [Create a Policy](../../policy-creation/index.md) in which the mining rule exists.
+   - ```Entity Type```: [Create an Entity Type](../../../set-up/connect-system/entity-type-creation/index.md) on which the mining rule is applied, i.e. the entity type targeted by role mining's entitlement analysis.
    - ```Category```: [
      Create a Category
-     ](/docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/category-creation/index.md) containing the roles targeted by role mining's analysis.
+     ](../../../set-up/single-roles-catalog-creation/category-creation/index.md) containing the roles targeted by role mining's analysis.
    - ```Include roles with specific validations```: includes in role mining's analysis the roles requiring zero and/or one and/or two and/or three validations.
    - ```Exclude Role from Mining```: ignores the specified roles during the mining process triggered by the next mining rules (in terms of priority).
-   - ```Rule Policy```: [Create a Policy](/docs/usercube/usercube/user-guide/optimize/policy-creation/index.md) in which the single role rules will be generated.
+   - ```Rule Policy```: [Create a Policy](../../policy-creation/index.md) in which the single role rules will be generated.
 
      Netwrix Identity Manager (formerly Usercube) recommends using a policy dedicated to role mining in order not to remove existing assignment rules.
    - ```Rule Type```: type of the generated single role rules, which defines the type of role assignment that can be: ```Suggested``` so that the resource type is listed among suggested permissions in the permission basket of users matching the criteria during an entitlement request, suggested assignments must be selected manually to be requested; or ```Automatic``` so that the resource type is automatically assigned to users matching the criteria; or ```Automatic but with validation``` so that the resource type is listed in the permission basket of new workers, these assignments can still be modified.
@@ -112,9 +112,9 @@ Create a mining rule by proceeding as follows:
 3. Click on __Create__ and see a line added on the rules page.
 4. Click on __Simulate__ to perfom role mining in a simulation. See the[
    Perform a Simulation
-   ](/docs/usercube/usercube/user-guide/optimize/simulation/index.md) topic for additional information.
+   ](../../simulation/index.md) topic for additional information.
 
-   ![Role Mining Jobs](/img/product_docs/usercube/usercube/user-guide/optimize/assignment-automation/role-mining/rolemining_launchjob_v602.webp)
+   ![Role Mining Jobs](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/optimize/assignment-automation/role-mining/rolemining_launchjob_v602.webp)
 
    If you need to bypass the simulation process, clicking on __Launch__ will perform role mining and apply its results directly. NETWRIX recommends always performing role mining in simulation.
 
@@ -122,12 +122,12 @@ Create a mining rule by proceeding as follows:
 
 Assignment rules can sometimes give to users an entitlement that they had already received manually. Hence, new assignment rules can imply redundancies between the entitlements assigned manually and approved, and those calculated by a rule and assigned automatically.
 
-Netwrix Identity Manager (formerly Usercube) recommends [Remove Redundant Assignments](/docs/usercube/usercube/user-guide/optimize/assignment-automation/remove-redundant-assignments/index.md) after any assignment rule is created or updated.
+Netwrix Identity Manager (formerly Usercube) recommends [Remove Redundant Assignments](../remove-redundant-assignments/index.md) after any assignment rule is created or updated.
 
 ## Verify Role Mining
 
 In order to verify the process, access the rule list from the home page.
 
-![Home - Access Rules](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/home_rules_v602.webp)
+![Home - Access Rules](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/home_rules_v602.webp)
 
 Select __Single Roles__ and check that the single role rules are created with the right parameters.

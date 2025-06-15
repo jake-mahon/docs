@@ -6,7 +6,7 @@ The MySQL_SensitiveDataScan Job is designed to discover sensitive data in MySQL�
 
 The MySQL_SensitiveDataScan Job uses the SQL Data Collector for queries.
 
-![Query Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/mysql/collection/sensitivedatascan.webp)
+![Query Selection](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/mysql/collection/sensitivedatascan.webp)
 
 The query is:
 
@@ -24,21 +24,21 @@ __Step 3 –__ Select the Data Source tab, and click Configure. The SQL Data Col
 
 __CAUTION:__ Do not make changes to other wizard pages as they have been pre-configured for this job.
 
-![Sensitive Data Scan Settings](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/mysql/collection/sensitivedatscan_optionspage.webp)
+![Sensitive Data Scan Settings](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/mysql/collection/sensitivedatscan_optionspage.webp)
 
-__Step 4 –__ To modify sensitive data scan options, select the desired scan options. See the [SQL: Options](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/sql/options.md) page for additional information.
+__Step 4 –__ To modify sensitive data scan options, select the desired scan options. See the [SQL: Options](../../../../admin/datacollector/sql/options.md) page for additional information.
 
 __NOTE:__ The Sensitive Data Scan Settings are pre-configured for optimal performance for a high-level table scan. Configuring these settings to increase the scope of the sensitive data scan may significantly increase scan time.
 
-![DLP Criteria for Scan](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/mysql/collection/sensitivedatscan_criteriapage.webp)
+![DLP Criteria for Scan](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/mysql/collection/sensitivedatscan_criteriapage.webp)
 
-__Step 5 –__ To modify criteria, navigate to the [SQL: Criteria](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/sql/criteria.md) page. By default, the Sensitive Data Scan job is configured to scan for criteria configured in the Global Criteria settings. See the [Sensitive Data Criteria Editor](/docs/accessanalyzer/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/overview.md) topic for additional information.
+__Step 5 –__ To modify criteria, navigate to the [SQL: Criteria](../../../../admin/datacollector/sql/criteria.md) page. By default, the Sensitive Data Scan job is configured to scan for criteria configured in the Global Criteria settings. See the [Sensitive Data Criteria Editor](../../../../sensitivedatadiscovery/criteriaeditor/overview.md) topic for additional information.
 
-![Filters Page](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/mysql/collection/sensitivedatscan_filterspage.webp)
+![Filters Page](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/mysql/collection/sensitivedatscan_filterspage.webp)
 
 __Step 6 –__ MySQL databases must be added to the query before they can be scanned. Navigate to the __Filter__ page and click __Connections__ to open the Manage Connections window.
 
-![Manage Connections](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/mysql/collection/manageconnectionsmysql.webp)
+![Manage Connections](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/mysql/collection/manageconnectionsmysql.webp)
 
 __Step 7 –__ In the Manage Connections window, click __New Connection__ and add the following information:
 
@@ -65,7 +65,7 @@ Navigate to the __Databases__ > __0.Collection__ > __MySQL__ > __MySQL_Sensitive
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/mysql/collection/analysismysqlsensitivedatascan.webp)
+![Analysis Selection](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/mysql/collection/analysismysqlsensitivedatascan.webp)
 
 The default analysis tasks are:
 

@@ -13,12 +13,12 @@ The Access Analyzer vault provides additional security through enhanced encrypti
 
     - If full Role Based Access is not desired but enabling the vault is, all of the Access Analyzer users should be given the Administrator role
     - No additional Role Based Access prerequisites are required for this option
-  - See the [Access](/docs/accessanalyzer/enterpriseauditor/admin/settings/access/overview.md) topic for additional information on Role Based Access
+  - See the [Access](../access/overview.md) topic for additional information on Role Based Access
 
   __NOTE:__ Once the vault has been enabled, it is not possible to disable Role Based Access without first disabling the vault. Please contact [Netwrix Support](https://www.netwrix.com/support.html) for assistance in disabling Role Based Access.
 - The Profile Security section of the Application node must be set to __Vault__
 
-  ![Vault Security](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/application/vaultrbaerror.webp)
+  ![Vault Security](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/application/vaultrbaerror.webp)
 
   If the previous prerequisites have not been met, then one of the following errors will occur when attempting to save the Vault Profile Security setting:
 

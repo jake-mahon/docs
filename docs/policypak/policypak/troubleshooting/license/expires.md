@@ -4,9 +4,9 @@ Once a new license key has been imported to existing On-Prem environment, you ma
 
 One or more similar messages may appear in MMC/GPMC when editing a GPO.
 
-![937_1_image-20230425211701-1_950x194](/img/product_docs/policypak/policypak/troubleshooting/license/937_1_image-20230425211701-1_950x194.webp)
+![937_1_image-20230425211701-1_950x194](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/license/937_1_image-20230425211701-1_950x194.webp)
 
-![937_2_image-20230425211701-2](/img/product_docs/policypak/policypak/troubleshooting/license/937_2_image-20230425211701-2.webp)
+![937_2_image-20230425211701-2](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/license/937_2_image-20230425211701-2.webp)
 
 As example, this can occur if you have two license GPOs in your domain.
 
@@ -18,15 +18,15 @@ GPO 2: Expires March 1, 2024
 
 __NOTE:__ The rest of this KB is generally around your GPMC editing machine and the pop-ups within the GPMC. If you're getting client-side pop-ups, please refer to this article:
 
-[How do I make the Grace Period licensing pop-up go away?](/docs/policypak/policypak/troubleshooting/license/graceperiod.md)
+[How do I make the Grace Period licensing pop-up go away?](graceperiod.md)
 
 Resolution for the Admin's GPMC editing station:
 
-- Unlink the old and expiring license after verifying that the new license will cover the same components and OUs/ domain as the soonto-be-expiring license. Delete the old GPO links as well from under any OUs/domain where it was linked. More details here: [I just installed new license files / new GPOs. Should I keep or delete the old license files / GPOs?](/docs/policypak/policypak/license/unlicense/fileold.md)
+- Unlink the old and expiring license after verifying that the new license will cover the same components and OUs/ domain as the soonto-be-expiring license. Delete the old GPO links as well from under any OUs/domain where it was linked. More details here: [I just installed new license files / new GPOs. Should I keep or delete the old license files / GPOs?](../../license/unlicense/fileold.md)
 
-__NOTE:__ You can use the LT tool to search through and find OLD licenses so you can be sure you only have one license remaining. [Using LT for license cleanup](/docs/policypak/policypak/video/license/cleanup.md)/
+__NOTE:__ You can use the LT tool to search through and find OLD licenses so you can be sure you only have one license remaining. [Using LT for license cleanup](../../video/license/cleanup.md)/
 
-- On an example ENDPOINT computer (one that has the Netwrix Endpoint Policy Manager (formerly PolicyPak) CSE; which can also include the Admin's GPMC machine) verify the endpoint got the new license successfully. Use this KB article with PPUPDATE directions to see exactly if a machine is properly licensed: [How can I tell how a machine is licensed (by GPO, MDM, or XML file), and also know for what components it is licensed?](/docs/policypak/policypak/troubleshooting/license/components.md)
+- On an example ENDPOINT computer (one that has the Netwrix Endpoint Policy Manager (formerly PolicyPak) CSE; which can also include the Admin's GPMC machine) verify the endpoint got the new license successfully. Use this KB article with PPUPDATE directions to see exactly if a machine is properly licensed: [How can I tell how a machine is licensed (by GPO, MDM, or XML file), and also know for what components it is licensed?](components.md)
 
 Now, on your machine, the one with the GPMC…
 

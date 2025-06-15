@@ -68,7 +68,7 @@ triggers the workflow.
     (2) A workflow for the Group object with the Delete event will be triggered when the group is manually deleted.
 8. Select the __Mail Approval__ check box to enable the approver to approve or deny a workflow request from within the workflow email notification. These notifications contain the __Accept__ and __Deny__ buttons. On clicking any of these, the approver is redirected and auto-authenticated on the Directory Manager portal, where he or she can approve or deny the request.  
    When this check box is not selected, the __Accept__ and __Deny__ buttons are not available in the email notifications. Approvers have to sign into the Directory Manager portal to manage workflow requests.
-9. The __Approver Acceleration__ check box applies if approver acceleration is enabled for the identity store. See the [Apply Approver Acceleration](/docs/groupid/groupid/admincenter/workflow/approveracceleration.md#apply-approver-acceleration) topic.
+9. The __Approver Acceleration__ check box applies if approver acceleration is enabled for the identity store. See the [Apply Approver Acceleration](approveracceleration.md#apply-approver-acceleration) topic.
 
    - To apply approver acceleration to this workflow, select the __Approver Acceleration__ check box.
    - To exempt this workflow from approver acceleration, clear this check box.
@@ -128,7 +128,7 @@ You can define Power-Automate settings for a workflow to link that workflow to a
 These settings enable you to connect to Power Automate from within a workflow (say Workflow1) and create a basic flow template there. On providing the URL of the flow template in Workflow1, the two are linked. As a result, the flow auto triggers when
 the Directory Manager workflow is triggered.
 
-For details on linking a workflow to a flow, see the [Trigger a Flow from Directory Manager ](/docs/groupid/groupid/admincenter/workflow/integrate.md#trigger-a-flow-from-directory-manager) topic.
+For details on linking a workflow to a flow, see the [Trigger a Flow from Directory Manager ](integrate.md#trigger-a-flow-from-directory-manager) topic.
 
 ## Modify a Workflow
 
@@ -146,7 +146,7 @@ __To modify a workflow:__
 5. The __Edit Workflow__ page is displayed. Follow steps 5-15 in the Create a New Workflow topic
    to update the required information.
 6. To link this workflow to a Power Automate flow, click __Power Automate Settings__ in the top right corner; the __Power Automate Settings__ dialog box is displayed. Follow step
-   [6](/docs/groupid/groupid/admincenter/workflow/integrate.md) and onwards in the [Link an Identity Store Workflow to a Flow](/docs/groupid/groupid/admincenter/workflow/integrate.md#link-an-identity-store-workflow-to-a-flow) topic to complete the task.
+   [6](integrate.md) and onwards in the [Link an Identity Store Workflow to a Flow](integrate.md#link-an-identity-store-workflow-to-a-flow) topic to complete the task.
 7. After making the required changes, click __Update Workflow__ on the __Edit Workflow__ page to save the settings.
 8. Click __Save__ on the __Workflows__ page.
 

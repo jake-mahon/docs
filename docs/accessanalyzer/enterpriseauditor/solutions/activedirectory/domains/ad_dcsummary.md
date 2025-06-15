@@ -8,7 +8,7 @@ Navigate to the __Active Directory > 5.Domains > AD_DCSummary > Configure__ node
 
 __CAUTION:__ Do not modify or deselect the selected analysis task(s). The analysis task(s) are preconfigured for this job.
 
-![Analysis Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/domains/dcsummaryanalysis.webp)
+![Analysis Selection](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/domains/dcsummaryanalysis.webp)
 
 The default analysis tasks are:
 

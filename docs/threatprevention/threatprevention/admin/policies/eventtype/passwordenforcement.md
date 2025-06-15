@@ -10,13 +10,13 @@ The event filters for the Password Enforcement event type are:
 - Hosts (from)
 - Password Rules
 
-![Policy window - Password Enforcement Event Type](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/passwordenforcement.webp)
+![Policy window - Password Enforcement Event Type](../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/passwordenforcement.webp)
 
 Each filter tab acts like an "AND" statement for the filter. Any filter tab left blank is treated like an "ALL" for that filter set.
 
 __CAUTION:__ Lockdown/blocking policies with blank filters result in everything being locked down or blocked.
 
-__NOTE:__ Blocking mode requires the Password Enforcement license that comes with the for Enterprise Password Enforcer solution. See the [License Manager Window](/docs/threatprevention/threatprevention/admin/navigation/licensemanager.md) topic for additional information.
+__NOTE:__ Blocking mode requires the Password Enforcement license that comes with the for Enterprise Password Enforcer solution. See the [License Manager Window](../../navigation/licensemanager.md) topic for additional information.
 
 The Password Enforcement event type locks down or monitors password creation/modification so that known, compromised passwords are not accepted.
 
@@ -46,27 +46,27 @@ Configure the other Password Enforcement event type with the desired password ru
 - Identify the senior executives on the AD Account filter using the Block option
 - The users selected are held to these password rules
 
-A client-side module is available in the Threat Prevention installer to provide feedback to end users for why their password does not meet the complexity requirements of the Password Enforcement policy. This feature is inactive by default but can be installed on the domain controller to be implemented across the environment. See the [EPE User Feedback Module](/docs/threatprevention/threatprevention/install/epeuserfeedback.md) topic for additional information.
+A client-side module is available in the Threat Prevention installer to provide feedback to end users for why their password does not meet the complexity requirements of the Password Enforcement policy. This feature is inactive by default but can be installed on the domain controller to be implemented across the environment. See the [EPE User Feedback Module](../../../install/epeuserfeedback.md) topic for additional information.
 
 ## Domains/Servers Filter
 
 Use the Domains/Servers filter to set the scope of the policy to specific domains and/or servers or to exclude specific domains and/or servers.
 
-![Event Type - Domains/Servers Monitoring filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/domainsserversmonitoring.webp)
+![Event Type - Domains/Servers Monitoring filter](../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/domainsserversmonitoring.webp)
 
 Use the buttons in the Include and Exclude areas to edit the lists.
 
-- The Add (+) buttons open the [Select Domains and Servers Window](/docs/threatprevention/threatprevention/admin/policies/eventtype/window/selectdomainsservers.md).
-- The Collection button opens the [List of Collections Window](/docs/threatprevention/threatprevention/admin/configuration/collectionmanager/listcollections.md) to the appropriate Collection category.
+- The Add (+) buttons open the [Select Domains and Servers Window](window/selectdomainsservers.md).
+- The Collection button opens the [List of Collections Window](../../configuration/collectionmanager/listcollections.md) to the appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
-__NOTE:__ To enable a Dynamic Policy, use the Collection button to select the desired Dynamic Collection. See the [Dynamic Collections](/docs/threatprevention/threatprevention/admin/configuration/collectionmanager/dynamic.md) topic for additional information.
+__NOTE:__ To enable a Dynamic Policy, use the Collection button to select the desired Dynamic Collection. See the [Dynamic Collections](../../configuration/collectionmanager/dynamic.md) topic for additional information.
 
 ## AD Account Filter
 
 Use the AD Account filter to select Active Directory accounts, groups, and organizational units (containers) to have passwords validated by the policy.
 
-![Policy window - AD Account filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/adaccount.webp)
+![Policy window - AD Account filter](../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/adaccount.webp)
 
 Select the __Block__ or __Allow__ option button and then edit the list.
 
@@ -77,18 +77,18 @@ __CAUTION:__ Selecting Block with no accounts, groups, or containers specified a
 
 Use the buttons in the Accounts, Account Collections, Containers, and Groups areas to edit the lists. The following windows are displayed when you click the Add (+) button:
 
-- Accounts – The Accounts Add (+) button opens the [Select Active Directory Perpetrators Window](/docs/threatprevention/threatprevention/admin/policies/eventtype/window/selectactivedirectory/perpetrators.md).
-- Account Collections – The Collection button opens the [List of Collections Window](/docs/threatprevention/threatprevention/admin/configuration/collectionmanager/listcollections.md) to the appropriate Collection category.
-- Containers – The Containers Add (+) button opens the [Select Active Directory Contexts Window](/docs/threatprevention/threatprevention/admin/policies/eventtype/window/selectactivedirectory/context.md). All user objects in the selected organizational unit(s) are subject to the applied rule.
-- Groups – The Groups Add (+) button opens the [Select AD Groups Window](/docs/threatprevention/threatprevention/admin/policies/eventtype/window/selectactivedirectory/groups.md).
+- Accounts – The Accounts Add (+) button opens the [Select Active Directory Perpetrators Window](window/selectactivedirectory/perpetrators.md).
+- Account Collections – The Collection button opens the [List of Collections Window](../../configuration/collectionmanager/listcollections.md) to the appropriate Collection category.
+- Containers – The Containers Add (+) button opens the [Select Active Directory Contexts Window](window/selectactivedirectory/context.md). All user objects in the selected organizational unit(s) are subject to the applied rule.
+- Groups – The Groups Add (+) button opens the [Select AD Groups Window](window/selectactivedirectory/groups.md).
 
 The Remove (x) button deletes the selected item(s) from that box.
 
-__NOTE:__ To enable a Dynamic Policy, use the Collection button to select the desired Dynamic Collection. See the [Dynamic Collections](/docs/threatprevention/threatprevention/admin/configuration/collectionmanager/dynamic.md) topic for additional information.
+__NOTE:__ To enable a Dynamic Policy, use the Collection button to select the desired Dynamic Collection. See the [Dynamic Collections](../../configuration/collectionmanager/dynamic.md) topic for additional information.
 
 Sub Tree
 
-![Sub-Tree option in event type filters](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/subtree.webp)
+![Sub-Tree option in event type filters](../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/subtree.webp)
 
 When contexts are added, a Sub-Tree checkbox displays. Check it to apply the filter to the parent and all child contexts. Uncheck it to apply the filter to the listed context only.
 
@@ -102,7 +102,7 @@ When applying EPE rules based on group membership, it may happen that at runtime
 
 Use the AD Perpetrator filter for lockdown to set the scope of the policy to lockdown specific security principals committing changes or to exclude specific security principals committing changes from being locked down.
 
-![AD Perpetrator Protect filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/adperpetratorprotect.webp)
+![AD Perpetrator Protect filter](../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/adperpetratorprotect.webp)
 
 Select the __Block__ or __Allow__ option button and then edit the list.
 
@@ -110,26 +110,26 @@ __NOTE:__ For the Password Enforcement Event Type, selecting __Allow__ means tha
 
 Use the buttons in the Perpetrators and Collections of Perpetrators areas to edit the lists.
 
-- Perpetrators area – The Add (+) button opens the [Select Active Directory Perpetrators Window](/docs/threatprevention/threatprevention/admin/policies/eventtype/window/selectactivedirectory/perpetrators.md).
-- Collections of Perpetrators area - The Collection button opens the [List of Collections Window](/docs/threatprevention/threatprevention/admin/configuration/collectionmanager/listcollections.md) to the appropriate Collection category.
+- Perpetrators area – The Add (+) button opens the [Select Active Directory Perpetrators Window](window/selectactivedirectory/perpetrators.md).
+- Collections of Perpetrators area - The Collection button opens the [List of Collections Window](../../configuration/collectionmanager/listcollections.md) to the appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
-__NOTE:__ To enable a Dynamic Policy, use the Collection button to select the desired Dynamic Collection. See the [Dynamic Collections](/docs/threatprevention/threatprevention/admin/configuration/collectionmanager/dynamic.md) topic for additional information.
+__NOTE:__ To enable a Dynamic Policy, use the Collection button to select the desired Dynamic Collection. See the [Dynamic Collections](../../configuration/collectionmanager/dynamic.md) topic for additional information.
 
 ## Hosts (from) Filter
 
 Use the Hosts (from) filter for lockdown to set the scope of the policy to only lockdown specific hosts as originators of an event.
 
-![Policy window - Hosts (from) filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/hostsfromlockdown.webp)
+![Policy window - Hosts (from) filter](../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/hostsfromlockdown.webp)
 
 Select the __Block__ or __Allow__ option button and then edit the list.
 
 - For the Password Enforcement Event Type, selecting __Allow__ means that this policy will not validate the new passwords for the accounts listed here. Selecting __Block__ means that this policy will validate the new passwords for the accounts listed here.
-- For the [Authentication Lockdown Event Type](/docs/threatprevention/threatprevention/admin/policies/eventtype/authenticationlockdown.md), this filter blocks or only allows authentication from the identified host(s).
+- For the [Authentication Lockdown Event Type](authenticationlockdown.md), this filter blocks or only allows authentication from the identified host(s).
 
 Use the buttons in the Include Hosts area to edit the list.
 
-- The Hosts Add (+) button opens the [Select Computer Window](/docs/threatprevention/threatprevention/admin/policies/eventtype/window/selectcomputers.md).
+- The Hosts Add (+) button opens the [Select Computer Window](window/selectcomputers.md).
 - The Remove (x) button deletes the selected item(s) from that box.
 
 ## Password Rules Filter
@@ -138,7 +138,7 @@ Use the Password Rules filter to set the scope of the policy to check user enter
 
 __NOTE:__ These password rules are only applied to passwords that pass the Windows password policies. Password values that fail to meet the Windows complexity checks are rejected by Windows before Threat Prevention Enterprise Password Enforcer can evaluate them.
 
-![Policy window - Password Rules filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/passwordrules.webp)
+![Policy window - Password Rules filter](../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/passwordrules.webp)
 
 You can enforce all or specific rules that you enable on this filter.
 
@@ -163,15 +163,15 @@ Select the __Monitoring__ or __Blocking__ button to monitor or block the event w
 - Monitoring – Only reports the password that failed the criteria check
 - Blocking – Blocks the failed password from being used
 
-___RECOMMENDED:___ Use the Test Password Rules button to open the [Test Passwords Window](/docs/threatprevention/threatprevention/admin/policies/eventtype/window/testpasswords.md), where you can test your set of rules.
+___RECOMMENDED:___ Use the Test Password Rules button to open the [Test Passwords Window](window/testpasswords.md), where you can test your set of rules.
 
 Passwords Section
 
 These settings authenticate passwords against a default ```dictionary.dat``` file of known weak and/or compromised passwords. Additional passwords can be manually added or uploaded via a TXT file.
 
-In order for the password to be rejected, the pending user password must match exactly to a listed password in the Password Dictionary list. See the [Password Dictionary Window](/docs/threatprevention/threatprevention/admin/configuration/epesettings.md#password-dictionary-window) and the [Substitutions Editor Window](/docs/threatprevention/threatprevention/admin/configuration/epesettings.md#substitutions-editor-window) topics for additional information.
+In order for the password to be rejected, the pending user password must match exactly to a listed password in the Password Dictionary list. See the [Password Dictionary Window](../../configuration/epesettings.md#password-dictionary-window) and the [Substitutions Editor Window](../../configuration/epesettings.md#substitutions-editor-window) topics for additional information.
 
-_Remember,_ the [Password Dictionary Window](/docs/threatprevention/threatprevention/admin/configuration/epesettings.md#password-dictionary-window) is always used to validate the password, so there is no 'check box' for it on the Password Rules filter. Hence, matched passwords will always be blocked. You must have at least one line in the dictionary but you can remove all others if you do not want the default entries to be used.
+_Remember,_ the [Password Dictionary Window](../../configuration/epesettings.md#password-dictionary-window) is always used to validate the password, so there is no 'check box' for it on the Password Rules filter. Hence, matched passwords will always be blocked. You must have at least one line in the dictionary but you can remove all others if you do not want the default entries to be used.
 
 - Capture Rejected Password – Collects the password value which triggered the event. You can view the rejected password values in the Attributes section of the data grids on the Recent Events tab and the Investigate interface.
 
@@ -181,7 +181,7 @@ When a password is changed, this setting authenticates pending user password has
 
 - Block if password hash in Pwned DB – If the pending password matches a password hash from the Pwned database, the user is blocked from using the password
 
-_Remember,_ the Pwned database must be initially deployed to the Enterprise Manager. Once it is stored, Agent(s) can be configured to obtain and use a local copy of this database. See the [EPE Settings Window](/docs/threatprevention/threatprevention/admin/configuration/epesettings.md) topic for additional information.
+_Remember,_ the Pwned database must be initially deployed to the Enterprise Manager. Once it is stored, Agent(s) can be configured to obtain and use a local copy of this database. See the [EPE Settings Window](../../configuration/epesettings.md) topic for additional information.
 
 Paraphrase section
 
@@ -195,7 +195,7 @@ Character Substitution Section
 
 These settings prevent the use of character substitutions in passwords. They ignore or monitor/block certain types of characters substitutions from being included in a password string. Additional scoping can be enabled:
 
-- Block if exact match substituted password – Blocks a password if it contains a substituted character in a password string listed in the Words List Dictionary. See the [Words List Dictionary Window](/docs/threatprevention/threatprevention/admin/configuration/epesettings.md#words-list-dictionary-window) topic for additional information.
+- Block if exact match substituted password – Blocks a password if it contains a substituted character in a password string listed in the Words List Dictionary. See the [Words List Dictionary Window](../../configuration/epesettings.md#words-list-dictionary-window) topic for additional information.
 
   _Remember,_ the substitutions themselves are kept in the Character Substitution list.
 
@@ -219,7 +219,7 @@ When a username format is chosen, additional scoping options are available:
 
 - Case sensitive – Differentiates between lowercase and capital text
 - Reversed name also – First name, last name, Pre-Windows 2000 Logon Name and User Principle Name (UPN) typed in backwards are blocked
-- Character Substitution – Blocks a password if it contains a substituted character in a password string listed in the Substitution Editor window. See the [Substitutions Editor Window](/docs/threatprevention/threatprevention/admin/configuration/epesettings.md#substitutions-editor-window) topic for additional information.
+- Character Substitution – Blocks a password if it contains a substituted character in a password string listed in the Substitution Editor window. See the [Substitutions Editor Window](../../configuration/epesettings.md#substitutions-editor-window) topic for additional information.
 
 Repeating Patterns Section
 
@@ -232,7 +232,7 @@ These settings prevent individual repeating character patterns. Any passwords th
 
   - Case sensitive – Differentiates between lowercase and capital text
   - Reversed text also – Password patterns typed in backwards is blocked
-  - Character Substitution – Blocks a password if it contains a substituted character in a password string listed in the Substitution Editor window. See the [Substitutions Editor Window](/docs/threatprevention/threatprevention/admin/configuration/epesettings.md#substitutions-editor-window) topic for additional information.
+  - Character Substitution – Blocks a password if it contains a substituted character in a password string listed in the Substitution Editor window. See the [Substitutions Editor Window](../../configuration/epesettings.md#substitutions-editor-window) topic for additional information.
 
 Sequential Characters Section
 
@@ -245,13 +245,13 @@ These settings prevent passwords with numbers or characters that follow each oth
 
   - Case sensitive – Differentiates between lowercase and capital text
   - Descending order – Standard order is blocked if reversed, e.g. “321” and “CBA” are blocked
-  - Character Substitution – Blocks a password if it contains a substituted character in a password string listed in the Substitution Editor window. See the [Substitutions Editor Window](/docs/threatprevention/threatprevention/admin/configuration/epesettings.md#substitutions-editor-window) topic for additional information.
+  - Character Substitution – Blocks a password if it contains a substituted character in a password string listed in the Substitution Editor window. See the [Substitutions Editor Window](../../configuration/epesettings.md#substitutions-editor-window) topic for additional information.
 
 Defined Text Section
 
 These settings block passwords that contain the string(s) specified in the text box. For multiple strings, add one entry per line.
 
-__NOTE:__ This filter blocks passwords that contain the text box content anywhere within the password length. The list in the [Password Dictionary Window](/docs/threatprevention/threatprevention/admin/configuration/epesettings.md#password-dictionary-window) blocks the entire password as entered or uploaded.
+__NOTE:__ This filter blocks passwords that contain the text box content anywhere within the password length. The list in the [Password Dictionary Window](../../configuration/epesettings.md#password-dictionary-window) blocks the entire password as entered or uploaded.
 
 Additional scoping can be enabled:
 
@@ -261,7 +261,7 @@ Additional scoping can be enabled:
 
   - Case sensitive – Differentiates between lowercase and capital text
   - Reverse order also – Blocks the reversed order of characters typed in the text box, e.g. “74yadn0M”
-  - Character Substitution – Blocks a password if it contains a substituted character in a password string listed in the Substitution Editor window. See the [Substitutions Editor Window](/docs/threatprevention/threatprevention/admin/configuration/epesettings.md#substitutions-editor-window) topic for additional information.
+  - Character Substitution – Blocks a password if it contains a substituted character in a password string listed in the Substitution Editor window. See the [Substitutions Editor Window](../../configuration/epesettings.md#substitutions-editor-window) topic for additional information.
 
 Keyboard Layout Sequence Section
 

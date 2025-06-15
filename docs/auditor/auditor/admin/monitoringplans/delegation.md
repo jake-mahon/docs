@@ -4,7 +4,7 @@ Security and awareness of _who_ has access to _what_ is crucial for every organi
 
 To keep the monitoring process secure, Netwrix suggests configuring role-based access. Delegating control ensures that only appropriate users can modify the product configuration or view audit data, based on your company policies and the user's job responsibilities.
 
-![rbac-01](/img/product_docs/auditor/auditor/admin/monitoringplans/rbac-01.webp)
+![rbac-01](../../../../../static/img/product_docs/auditor/auditor/admin/monitoringplans/rbac-01.webp)
 
 Roles are described briefly in the table below and explained in detail in the next topic.
 
@@ -85,7 +85,7 @@ Do one of the following:
 | To... | Do... |
 | --- | --- |
 | Assign a role | 1. Select Add User. 2. In the dialog that opens, specify a user (or a group) and a role. |
-| Revoke a role assignment | - Click ![delete](/img/product_docs/strongpointfornetsuite/integrations/delete.webp) next to the user. |
+| Revoke a role assignment | - Click ![delete](../../../../../static/img/product_docs/strongpointfornetsuite/integrations/delete.webp) next to the user. |
 
 __Step 4 –__ Click __Save__ or __Save&Close__.
 
@@ -95,7 +95,7 @@ Along with adding a new Global administrator, Global reviewer or Reviewer role, 
 
 The Browser role is required to generate reports. It is granted on all reports — or within a delegated scope.
 
-If for some reason Auditor is unable to grant the Browser role, configure it manually. See the [SQL Server Reporting Services](/docs/auditor/auditor/requirements/sqlserverreportingservice.md) topic for additional information.
+If for some reason Auditor is unable to grant the Browser role, configure it manually. See the [SQL Server Reporting Services](../../requirements/sqlserverreportingservice.md) topic for additional information.
 
 ### Default Role Assignments
 
@@ -124,9 +124,9 @@ __Step 3 –__ In the group properties, click __Add__.
 
 Specify users you want to be included in this group.
 
-![Roles_Groups](/img/product_docs/auditor/auditor/admin/monitoringplans/roles_groups.webp)
+![Roles_Groups](../../../../../static/img/product_docs/auditor/auditor/admin/monitoringplans/roles_groups.webp)
 
-__NOTE:__ For additional information about User Activity video access management, see the [Configure Video Recordings Playback Settings](/docs/auditor/auditor/configuration/useractivity/videorecordings.md) topic.
+__NOTE:__ For additional information about User Activity video access management, see the [Configure Video Recordings Playback Settings](../../configuration/useractivity/videorecordings.md) topic.
 
 ## Provide Access to a Limited Set of Data
 

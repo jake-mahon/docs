@@ -2,7 +2,7 @@
 
 The Sensitive Content report at the Bucket level provides a list of files and a hit count per file where criteria matches were found on the selected resource. This report includes a table with criteria Matches visible to Access Information Center users with either Security Team Member or Administrator roles. The Matches table requires the storage of discovered sensitive data within the Access Analyzer database or it will be blank.
 
-![Sensitive Content report at the Bucket level](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/aws/bucket/bucketsensitivecontent.webp)
+![Sensitive Content report at the Bucket level](../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/aws/bucket/bucketsensitivecontent.webp)
 
 This report is comprised of the following columns:
 

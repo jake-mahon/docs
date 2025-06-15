@@ -2,21 +2,21 @@
 
 When your organization performs a resource review on a resource for which you are the assigned owner, it means you, the business user or data custodian, need to attest to the access and privileges users have to your resource. When the Review Administrator creates a new review or starts a new instance of an existing review, you receive an email notification that includes a link to the your pending reviews.
 
-![Email notification of pending review](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/newreview.webp)
+![Email notification of pending review](../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/newreview.webp)
 
 Use the __Sign in__ link at the bottom to open the Owner portal in the Access Information Center.
 
 _Remember,_ Your company domain credentials are used to log in.
 
-![Reviews link on the Ownership portal](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/ownershipportal.webp)
+![Reviews link on the Ownership portal](../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/ownershipportal.webp)
 
-The Owner portal displays a number next to the __Reviews__link to indicate how many of your resources are included in pending reviews. Click the link to open the Reviews interface. The Reviews interface has two pages: Pending Reviews and Review History. See the Pending Reviews Page and [Review History Page](/docs/accessinformationcenter/access/informationcenter/resourcereviews/reviewhistory.md) topics for additional information.
+The Owner portal displays a number next to the __Reviews__link to indicate how many of your resources are included in pending reviews. Click the link to open the Reviews interface. The Reviews interface has two pages: Pending Reviews and Review History. See the Pending Reviews Page and [Review History Page](reviewhistory.md) topics for additional information.
 
 ## Pending Reviews Page
 
 The Pending Reviews page lists all of your resources included in pending reviews.
 
-![Pending Reviews page of the Reviews interface](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/pendingreviews.webp)
+![Pending Reviews page of the Reviews interface](../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/pendingreviews.webp)
 
 The information displayed in the table includes:
 
@@ -31,7 +31,7 @@ The information displayed in the table includes:
 - In Progress — Displays a clock icon for an in-progress review
 - Last Reviewed — Date timestamp when the last review took place for the resource.
 
-The table data grid functions the same way as other table grids. See the [Data Grid Features](/docs/accessinformationcenter/access/general/datagrid.md) topic for additional information.
+The table data grid functions the same way as other table grids. See the [Data Grid Features](../../general/datagrid.md) topic for additional information.
 
 Performing a review means you are evaluating the resources. You can leave the resource unchanged or make recommendations for changes. Consider the following examples:
 
@@ -45,7 +45,7 @@ _Remember,_  any proposed changes are not committed until the Review Administrat
 
 The __Begin Review__ button opens the Resource Review page to start the review.
 
-![Resource Review page for an Access review](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/reviewpageaccess.webp)
+![Resource Review page for an Access review](../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/reviewpageaccess.webp)
 
 The Resource Review page varies based on the type of review; however, there are several common features:
 
@@ -63,7 +63,7 @@ The Resource Review page varies based on the type of review; however, there are 
 
 The content within the table varies, and additional options may appear depending on the type of review being conducted. See the following sections for step by step instructions:
 
-- [Perform an Access Review](/docs/accessinformationcenter/access/informationcenter/resourcereviews/review/access.md)
-- [Perform a Membership Review](/docs/accessinformationcenter/access/informationcenter/resourcereviews/review/membership.md)
-- [Perform a Permissions Review](/docs/accessinformationcenter/access/informationcenter/resourcereviews/review/permissions.md)
-- [Perform a Sensitive Data Review](/docs/accessinformationcenter/access/informationcenter/resourcereviews/review/sensitivedata.md)
+- [Perform an Access Review](review/access.md)
+- [Perform a Membership Review](review/membership.md)
+- [Perform a Permissions Review](review/permissions.md)
+- [Perform a Sensitive Data Review](review/sensitivedata.md)

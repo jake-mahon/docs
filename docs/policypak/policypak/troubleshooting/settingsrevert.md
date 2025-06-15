@@ -10,10 +10,10 @@ In order to specify to have SETTINGS revert back, please see the screenshots bel
 
 1. Revert a specific element back when it no longer applies as seen here.
 
-   ![417_1_image005](/img/product_docs/policypak/policypak/troubleshooting/417_1_image005.jpg)
+   ![417_1_image005](../../../../static/img/product_docs/policypak/policypak/troubleshooting/417_1_image005.jpg)
 2. Revert all elements back when they no longer apply as seen here.
 
-   ![417_2_image007](/img/product_docs/policypak/policypak/troubleshooting/417_2_image007.jpg)
+   ![417_2_image007](../../../../static/img/product_docs/policypak/policypak/troubleshooting/417_2_image007.jpg)
 
 ## Endpoint Policy Manager Admin Templates Manager
 
@@ -33,4 +33,4 @@ Here's an example of how to specify to "Remove the item when it is no longer app
 
 This flag must be set or Endpoint Policy Manager cannot revert the item when the policy no longer applies
 
-![417_3_image008](/img/product_docs/policypak/policypak/troubleshooting/417_3_image008.jpg)
+![417_3_image008](../../../../static/img/product_docs/policypak/policypak/troubleshooting/417_3_image008.jpg)

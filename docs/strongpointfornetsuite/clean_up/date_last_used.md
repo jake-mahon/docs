@@ -40,7 +40,7 @@ __Searches__:
 
 __Scripts:__
 
-- For scripts the DLU is the last execution date as determined by audit, error or debug logs in server execution log. In order to get accurate data while maximizing performance, Netwrix recommends setting all deployments to AUDIT logging status and setting at least one Audit tag. See [Script Management](/docs/strongpointfornetsuite/script_management/script_mgmt_overview.md) for details.
+- For scripts the DLU is the last execution date as determined by audit, error or debug logs in server execution log. In order to get accurate data while maximizing performance, Netwrix recommends setting all deployments to AUDIT logging status and setting at least one Audit tag. See [Script Management](../script_management/script_mgmt_overview.md) for details.
 - Blank DLU for scripts indicates that it has not been used since Platform Governance for NetSuite was installed OR it is set in error mode and has not thrown an error.
 
 __Workflows__:
@@ -55,4 +55,4 @@ Key columns in the search results:
 - __Release Status__ - Normally workflows in Released status are actively used. Other statuses are Suspended, Not Initiating, and Testing.
 - __Date Last Used Spidering Complete__ (For the Last 6 Months) - Value is __Yes__ when the DLU spider has finished from at most 6 months previous. __No__ means the DLU spider has not finished yet. The DLU spider can take several days to finish It executes daily on a subset of dates until it reaches 6 months.
 
-![Unused Workflow Customizations Search Results](/img/product_docs/strongpointfornetsuite/clean_up/unused_workflow_results.webp)
+![Unused Workflow Customizations Search Results](../../../static/img/product_docs/strongpointfornetsuite/clean_up/unused_workflow_results.webp)

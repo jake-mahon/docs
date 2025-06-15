@@ -23,7 +23,7 @@ This configuration is to use the fill for the LDAP and configure the Reset Passw
 
 The [
 LDAP
-](/docs/usercube_saas/usercube/integration-guide/connectors/references-connectors/ldap/index.md) connection information define this section to add all information to use the AD Fulfillment.
+](../../../connectors/references-connectors/ldap/index.md) connection information define this section to add all information to use the AD Fulfillment.
 
 ```
 appsettings.agent.json
@@ -49,7 +49,7 @@ appsettings.agent.json
 
 After defining this settings, encrypt this JSON file with [
 Usercube-Protect-X509JsonFile
-](/docs/usercube_saas/usercube/integration-guide/executables/references/protect-x509jsonfile/index.md).
+](../../../executables/references/protect-x509jsonfile/index.md).
 
 ## Configure The FulfillTask
 

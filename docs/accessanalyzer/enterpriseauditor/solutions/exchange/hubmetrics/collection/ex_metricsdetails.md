@@ -6,7 +6,7 @@ The EX_MetricsDetails Job collects daily user-to-user Traffic. Walk through this
 
 The EX_MetricsDetails Job uses the ExchangeMetrics Data Collector.
 
-![Queries for the EX_MetricsDetails Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/hubmetrics/collection/metricsdetailsquery.webp)
+![Queries for the EX_MetricsDetails Job](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/hubmetrics/collection/metricsdetailsquery.webp)
 
 The following query is included in the EX_MetricsDetails Job:
 
@@ -29,9 +29,9 @@ __Step 3 –__ Select the __Data Source__ tab, and click __Configure__. The Exch
 
 __CAUTION:__ Do not modify other wizard pages. The wizard pages are pre-configured for this job.
 
-![Exchange Metrics Data Collector Wizard Message Activity Filter page](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/hubmetrics/collection/exchangemetricsmessageactivityfilter.webp)
+![Exchange Metrics Data Collector Wizard Message Activity Filter page](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/hubmetrics/collection/exchangemetricsmessageactivityfilter.webp)
 
-__Step 4 –__ Navigate to the [ExchangeMetrics: Message Activity Filter](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/exchangemetrics/messageactivityfilter.md) page to configure the internal domains from which to collect the sender to recipient traffic. The filter should remain __Ends With__. Replace the ```@netwrix.com``` variable for both the __Senders__ and __Recipients__ with the ```@domain.com``` variable to be audited.
+__Step 4 –__ Navigate to the [ExchangeMetrics: Message Activity Filter](../../../../admin/datacollector/exchangemetrics/messageactivityfilter.md) page to configure the internal domains from which to collect the sender to recipient traffic. The filter should remain __Ends With__. Replace the ```@netwrix.com``` variable for both the __Senders__ and __Recipients__ with the ```@domain.com``` variable to be audited.
 
 __Step 5 –__ Navigate to the Summary page and click __Finish__.
 
@@ -43,7 +43,7 @@ View the analysis tasks by navigating to the __Exchange__ > __1. HUB Metrics__ >
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the EX_MetricsDetails Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/hubmetrics/collection/metricsdetailsanalysis.webp)
+![Analysis Tasks for the EX_MetricsDetails Job](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/hubmetrics/collection/metricsdetailsanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -51,7 +51,7 @@ The following analysis tasks are selected by default:
 - 02. SET HISTORY RETENTION – Sets retention period in months
 
   - By default set to retain __6 months__
-  - This retention period can be modified. See the [Exchange History Retention](/docs/accessanalyzer/enterpriseauditor/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#exchange-history-retention) topic for additional information.
+  - This retention period can be modified. See the [Exchange History Retention](ex_metricscollection.md#exchange-history-retention) topic for additional information.
 
 The following analysis task clears table data from data collection and analysis jobs. This analysis task should remain deselected unless specifically needed:
 
@@ -59,4 +59,4 @@ __CAUTION:__ Do not select the __00. DROP HISTORY__ option. This analysis task i
 
 - 00. DROP HISTORY - LEAVE UNCHECKED – Clears all historical data
 
-  - See the [Troubleshooting Data Collection](/docs/accessanalyzer/enterpriseauditor/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#troubleshooting-data-collection) topic for additional information
+  - See the [Troubleshooting Data Collection](ex_metricscollection.md#troubleshooting-data-collection) topic for additional information

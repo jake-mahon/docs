@@ -11,8 +11,8 @@ Data Collectors
 
 This solution employs the following data collector to scan the target environment:
 
-- [ADInventory Data Collector](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/overview.md)
-- [SQL Data Collector](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/sql/overview.md)
+- [ADInventory Data Collector](../../admin/datacollector/adinventory/overview.md)
+- [SQL Data Collector](../../admin/datacollector/sql/overview.md)
 
 ## Requirements
 

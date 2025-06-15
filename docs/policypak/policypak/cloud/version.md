@@ -1,6 +1,6 @@
 # How to find which PPCloud Client version & CSE version a registered computer is running from within the Endpoint Policy Manager Cloud portal
 
-![975_1_image-20230526004959-1_950x398](/img/product_docs/policypak/policypak/cloud/975_1_image-20230526004959-1_950x398.webp)
+![975_1_image-20230526004959-1_950x398](../../../../static/img/product_docs/policypak/policypak/cloud/975_1_image-20230526004959-1_950x398.webp)
 
 __Step 1 –__ Login to the Netwrix Endpoint Policy Manager (formerly PolicyPak) Cloud Portal and select the __Company Details__ tab.
 

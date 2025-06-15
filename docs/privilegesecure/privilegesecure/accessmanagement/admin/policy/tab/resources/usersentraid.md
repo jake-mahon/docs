@@ -4,7 +4,7 @@ The Users tab for Microsoft Entra ID (formerly Azure AD) shows information about
 
 __NOTE:__ Users in hybrid environments will be associated with the on-premises Active Directory domain resource (if the on-premises domain has been synced by Privilege Secure). This view will show cloud-only EntraID users.
 
-![Users Tab Entra ID](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/resources/usersazuread.webp)
+![Users Tab Entra ID](../../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/resources/usersazuread.webp)
 
 The Users tab has the following features:
 
@@ -13,7 +13,7 @@ The Users tab has the following features:
 - Schedule Rotation — Add the credential rotation task to the queue. This button is only available when the Method is Automatic managed.
 - Verify — Checks that the credentials for the selected account match the credentials set by Privilege Secure
 - View History — Opens the Password History window to displays the password history for the account
-- Password Reset Options — Customize password rotation options. This option is only available for managed accounts. See the [Password Reset Options Window](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/resources/passwordresetoptions.md) topic for additional information.
+- Password Reset Options — Customize password rotation options. This option is only available for managed accounts. See the [Password Reset Options Window](../../window/resources/passwordresetoptions.md) topic for additional information.
 - Search — Searches the table or list for matches to the search string. When matches are found, the table or list is filtered to the matching results.
 - Refresh — Reload the information displayed
 
@@ -25,9 +25,9 @@ The table has the following columns:
 - Last Login — Date timestamp for the last time the user logged into the application
 - Password Last Set — Date timestamp for the last time the password was set
 - Age — Number of days since the last credential rotation or from when the password was first created
-- Managed — Indicates if the account is managed by Privilege Secure. See the [Credentials Page](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/credentials.md) topic for additional information.
+- Managed — Indicates if the account is managed by Privilege Secure. See the [Credentials Page](../../page/credentials.md) topic for additional information.
 - Rotate Start | End — Indicates if the account will have a password rotation on session start, end, both, or neither
-- Status — Indicates if the account credentials have been verified by Privilege Secure. See the [Platforms Page](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/platforms/overview.md) topic for additional information on configuring a verification schedule.
+- Status — Indicates if the account credentials have been verified by Privilege Secure. See the [Platforms Page](../../page/platforms/overview.md) topic for additional information on configuring a verification schedule.
 
   - Unspecified — Verification check has not run
   - Verified — Confirmed the credentials match the value stored in Privilege Secure

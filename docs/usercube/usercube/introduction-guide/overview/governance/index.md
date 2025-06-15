@@ -8,7 +8,7 @@ By reading entitlement data from the managed systems, Identity Manager builds an
 
 Rules and roles define a policy. By definition, assignments not supported by a rule do not comply with the policy. These assignments are identified as non-conforming in order to be acted upon by knowledgeable users who can decide whether the assignment is warranted, such as security officers.
 
-![Non-Conforming Assignments](/img/product_docs/usercube/usercube/integration-guide/role-assignment/assignments-of-entitlements/governance_nonconforming.webp)
+![Non-Conforming Assignments](../../../../../../static/img/product_docs/usercube/usercube/integration-guide/role-assignment/assignments-of-entitlements/governance_nonconforming.webp)
 
 A non-conforming assignment must be reviewed in Identity Manager by a knowledgeable user, and is therefore:
 
@@ -23,20 +23,20 @@ Identity Manager provides a set of governance tools to help enforce the policy, 
 
 Let's read some [
 Use Case Stories
-](/docs/usercube/usercube/introduction-guide/overview/use-cases/index.md).
+](../use-cases/index.md).
 
 ## Learn More
 
-Learn more on [Governance](/docs/usercube/usercube/integration-guide/governance/index.md).
+Learn more on [Governance](../../../integration-guide/governance/index.md).
 
 Learn more on how to [
 Generate Reports
-](/docs/usercube/usercube/user-guide/administrate/reporting/index.md).
+](../../../user-guide/administrate/reporting/index.md).
 
 Learn more on [
 Perform Access Certification
-](/docs/usercube/usercube/user-guide/administrate/access-certification/index.md).
+](../../../user-guide/administrate/access-certification/index.md).
 
 Learn more on how to [
 Manage Risks
-](/docs/usercube/usercube/user-guide/optimize/risk-management/index.md).
+](../../../user-guide/optimize/risk-management/index.md).

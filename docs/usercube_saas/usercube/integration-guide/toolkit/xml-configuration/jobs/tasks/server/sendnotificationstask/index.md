@@ -2,7 +2,7 @@
 
 Task that sends all the custom notifications defined by the [
 Notification
-](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/notifications/notification/index.md) XML tag.
+](../../../../notifications/notification/index.md) XML tag.
 
 ## Examples
 

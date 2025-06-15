@@ -6,22 +6,22 @@ The integration can be configured for the following Auditor data sources:
 
 - Active Directory.
 
-  See the [Use Netwrix Privilege Secure as a Data Collecting Account](/docs/auditor/auditor/admin/monitoringplans/activedirectory/overview.md#use-netwrix-privilege-secure-as-a-data-collecting-account) topic for additional information.
+  See the [Use Netwrix Privilege Secure as a Data Collecting Account](../monitoringplans/activedirectory/overview.md#use-netwrix-privilege-secure-as-a-data-collecting-account) topic for additional information.
 - Group Policy.
 
-  See the [Use Netwrix Privilege Secure as a Data Collecting Account](/docs/auditor/auditor/admin/monitoringplans/grouppolicy/overview.md#use-netwrix-privilege-secure-as-a-data-collecting-account) topic for additional information.
+  See the [Use Netwrix Privilege Secure as a Data Collecting Account](../monitoringplans/grouppolicy/overview.md#use-netwrix-privilege-secure-as-a-data-collecting-account) topic for additional information.
 - Logon Activity.
 
-  See the [Use Netwrix Privilege Secure as a Data Collecting Account](/docs/auditor/auditor/admin/monitoringplans/logonactivity/overview.md#use-netwrix-privilege-secure-as-a-data-collecting-account) topic for additional information.
+  See the [Use Netwrix Privilege Secure as a Data Collecting Account](../monitoringplans/logonactivity/overview.md#use-netwrix-privilege-secure-as-a-data-collecting-account) topic for additional information.
 - Microsoft Entra ID.
 
-  See the [How to Add Microsoft Entra ID Monitoring Plan Using Netwrix Privilege Secure](/docs/auditor/auditor/admin/monitoringplans/microsoftentraid/overview.md#how-to-add-microsoft-entra-id-monitoring-plan-using-netwrix-privilege-secure) topic for additional information.
+  See the [How to Add Microsoft Entra ID Monitoring Plan Using Netwrix Privilege Secure](../monitoringplans/microsoftentraid/overview.md#how-to-add-microsoft-entra-id-monitoring-plan-using-netwrix-privilege-secure) topic for additional information.
 - Windows File Server.
 
-  See the [Use Netwrix Privilege Secure as a Data Collecting Account](/docs/auditor/auditor/admin/monitoringplans/fileservers/windowsfileserver.md#use-netwrix-privilege-secure-as-a-data-collecting-account) topic for additional information.
+  See the [Use Netwrix Privilege Secure as a Data Collecting Account](../monitoringplans/fileservers/windowsfileserver.md#use-netwrix-privilege-secure-as-a-data-collecting-account) topic for additional information.
 - Windows Server.
 
-  See the [Use Netwrix Privilege Secure as a Data Collecting Account](/docs/auditor/auditor/admin/monitoringplans/windows/overview.md#use-netwrix-privilege-secure-as-a-data-collecting-account) topic for additional information.
+  See the [Use Netwrix Privilege Secure as a Data Collecting Account](../monitoringplans/windows/overview.md#use-netwrix-privilege-secure-as-a-data-collecting-account) topic for additional information.
 
 ## Software Requirements
 
@@ -47,7 +47,7 @@ __Step 5 –__ Specify the application name and Netwrix Auditor client certifica
 - New/Generate certificate – Create a new certificate.
 - Select an existing certificate – Select an available certificate from the drop-down list.
 
-![npsclientcertificate](/img/product_docs/auditor/auditor/admin/settings/npsclientcertificate.webp)
+![npsclientcertificate](../../../../../static/img/product_docs/auditor/auditor/admin/settings/npsclientcertificate.webp)
 
 __Step 6 –__ Click __Next__.
 
@@ -71,11 +71,11 @@ __Step 9 –__ Launch Netwrix Privilege Secure to create an application user for
 
 __Step 10 –__ Provide the security key you got in Netwrix Privilege Secure.
 
-![npsintegrationparameters](/img/product_docs/auditor/auditor/admin/settings/npsintegrationparameters.webp)
+![npsintegrationparameters](../../../../../static/img/product_docs/auditor/auditor/admin/settings/npsintegrationparameters.webp)
 
 __Step 11 –__ Click __Next__.
 
-![npsintegrationfinished](/img/product_docs/auditor/auditor/admin/settings/npsintegrationfinished.webp)
+![npsintegrationfinished](../../../../../static/img/product_docs/auditor/auditor/admin/settings/npsintegrationfinished.webp)
 
 __Step 12 –__ After the validation, click __Finish__.
 

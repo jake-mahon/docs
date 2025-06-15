@@ -8,7 +8,7 @@ Activation of different factors
 
 In the Databases module, select a database and open its settings via the ribbon...
 
-![Database settings](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/managing_databases/database_settings/mfa-de.webp)
+![Database settings](../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/managing_databases/database_settings/mfa-de.webp)
 
 In the settings you define which second factors can be used.
 

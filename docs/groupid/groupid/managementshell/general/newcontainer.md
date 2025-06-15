@@ -30,7 +30,7 @@ New-Container -OrganizationalUnit "DC=HR,DC=Imanami,DC=US" -ContainerName "Recru
 
 Example 2:
 
-The following command creates the organizational unit _Local Recruiting_ inside the _Recruiting_ container in Directory using the credentials set in the $Credentials environment variable. See the [Set the $Credentials Environment Variable](/docs/groupid/groupid/managementshell/parameters/setthecredential.md) topic for setting credentials.
+The following command creates the organizational unit _Local Recruiting_ inside the _Recruiting_ container in Directory using the credentials set in the $Credentials environment variable. See the [Set the $Credentials Environment Variable](../parameters/setthecredential.md) topic for setting credentials.
 
 ```
 New-Container - OrganizationalUnit "OU=Recruiting,DC=HR,DC=Imanami,DC=US" -ContainerName "Local Recruiting" -Credential $Cred

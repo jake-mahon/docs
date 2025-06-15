@@ -1,8 +1,8 @@
 # Firewall Ports
 
-The following default ports are required for Threat Prevention functionality unless modified as per network requirements. If choosing the Create Windows Firewall Rules option either in step 6 of the [Application Server Install](/docs/threatprevention/threatprevention/install/application.md), in step 6 of the [Administration Console Remote Install](/docs/threatprevention/threatprevention/install/adminconsole.md), on the Set Options page of the [Deploy Agents Wizard](/docs/threatprevention/threatprevention/admin/agents/deploy/overview.md#deploy-agents-wizard), or in step 7 of a [Manual Agent Deployment](/docs/threatprevention/threatprevention/install/agent/manual.md), then Threat Prevention will create the necessary Windows firewall rules. If using a third party firewall, it will be necessary to manually set these.
+The following default ports are required for Threat Prevention functionality unless modified as per network requirements. If choosing the Create Windows Firewall Rules option either in step 6 of the [Application Server Install](../install/application.md), in step 6 of the [Administration Console Remote Install](../install/adminconsole.md), on the Set Options page of the [Deploy Agents Wizard](../admin/agents/deploy/overview.md#deploy-agents-wizard), or in step 7 of a [Manual Agent Deployment](../install/agent/manual.md), then Threat Prevention will create the necessary Windows firewall rules. If using a third party firewall, it will be necessary to manually set these.
 
-__NOTE:__ SIEM ports are configured when SIEM alerting is enabled in Threat Prevention. See the [System Alerting Window](/docs/threatprevention/threatprevention/admin/configuration/systemalerting/overview.md) topic for additional information.
+__NOTE:__ SIEM ports are configured when SIEM alerting is enabled in Threat Prevention. See the [System Alerting Window](../admin/configuration/systemalerting/overview.md) topic for additional information.
 
 ## Enterprise Manager Firewall Rules
 

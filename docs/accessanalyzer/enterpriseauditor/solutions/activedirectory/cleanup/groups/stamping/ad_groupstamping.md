@@ -8,7 +8,7 @@ Navigate to the __Active Directory__ > __Cleanup__ > __1.Groups__ > __2. Group S
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the AD_GroupStamping Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/cleanup/groups/stamping/groupstampinganalysis.webp)
+![Analysis Tasks for the AD_GroupStamping Job](../../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/cleanup/groups/stamping/groupstampinganalysis.webp)
 
 The default analysis tasks are:
 
@@ -25,7 +25,7 @@ In addition to the tables and views created by the analysis tasks, the AD_GroupS
 
 View the action tasks by navigating to the __Active Directory__ > __Cleanup__ >  __1.Groups__ > __2. Group Stamping AD_GroupStamping__ > __Configure__ node and select __Actions__.
 
-![Action Tasks for the AD_GroupStamping Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/cleanup/groups/stamping/groupstampingaction.webp)
+![Action Tasks for the AD_GroupStamping Job](../../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/cleanup/groups/stamping/groupstampingaction.webp)
 
 - Stamp Groups – Update Notes field with Permissions
 

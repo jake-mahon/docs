@@ -2,7 +2,7 @@
 
 The PasswordSecurity Data Collector compares passwords stored in Active Directory to known, breached passwords in the Netwrix weak password dictionary or custom dictionaries. The PasswordSecurity Data Collector also checks for common misconfigurations with passwords in Active Directory.
 
-The PasswordSecurity Data Collector is a core component of Access Analyzer, but it has been preconfigured within the Active Directory Solution. While the data collector is available with all Access Analyzer license options, the Active Directory Solution is only available with a special Access Analyzer license. See the [Active Directory Solution](/docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/overview.md) topic for additional information.
+The PasswordSecurity Data Collector is a core component of Access Analyzer, but it has been preconfigured within the Active Directory Solution. While the data collector is available with all Access Analyzer license options, the Active Directory Solution is only available with a special Access Analyzer license. See the [Active Directory Solution](../../../solutions/activedirectory/overview.md) topic for additional information.
 
 Protocols
 
@@ -26,8 +26,8 @@ Permissions
 
 The PasswordSecurity Data Collector is configured through the Password Security Data Collector Wizard, which contains the following wizard pages:
 
-- [PasswordSecurity: Category](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/passwordsecurity/category.md)
-- [PasswordSecurity: Options](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/passwordsecurity/options.md)
-- [PasswordSecurity: Dictionaries](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/passwordsecurity/dictionaries.md)
-- [PasswordSecurity: Results](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/passwordsecurity/results.md)
-- [PasswordSecurity: Summary](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/passwordsecurity/summary.md)
+- [PasswordSecurity: Category](category.md)
+- [PasswordSecurity: Options](options.md)
+- [PasswordSecurity: Dictionaries](dictionaries.md)
+- [PasswordSecurity: Results](results.md)
+- [PasswordSecurity: Summary](summary.md)

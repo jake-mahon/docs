@@ -39,7 +39,7 @@ Use the __Import__ button on the __Members__ tab of the New Group page and in gr
      5. Click __Next__.
    - __External Data Source__
 
-     1. On the __Providers__ page, select [Query Designer](/docs/groupid/groupid/portal/group/querydesigner/overview.md) to create a query. The query will fetch all those members that match the set criteria.
+     1. On the __Providers__ page, select [Query Designer](../querydesigner/overview.md) to create a query. The query will fetch all those members that match the set criteria.
 
         The Query Designer is not working. After adding provider in the data source, it is unable to read the table.
      2. Click __Next__.
@@ -76,7 +76,7 @@ You can import all members of an existing group or groups to the membership of a
 Use the __Import__ button on the __Members__ page of the New Group wizard and in group properties to launch the __Import Members__ wizard.
 
 1. On the __Lifecycle__ page, select the __Import Members From Group(s)__ option to add all members of another group or groups to the membership of this group.
-2. Click the __Search Groups__ button; the [Find Dialog Box](/docs/groupid/groupid/portal/search/find.md) is displayed, where you can search and select the group(s) whose members you want to import into the membership of this
+2. Click the __Search Groups__ button; the [Find Dialog Box](../../search/find.md) is displayed, where you can search and select the group(s) whose members you want to import into the membership of this
    group.
 3. Click __Next__.
 4. The __Preview__ page lists the groups whose members are to be imported. Click the name of a group to view a list of its members.

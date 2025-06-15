@@ -13,7 +13,7 @@ To schedule the saved search to run:
 1. Open the __Email__ tab of the saved search.
 2. Open the __Schedule__ tab and schedule the saved search to run.
 
-   ![saved_search_timeout1](/img/product_docs/strongpointfornetsuite/troubleshooting/saved_search_timeout1.webp)
+   ![saved_search_timeout1](../../../static/img/product_docs/strongpointfornetsuite/troubleshooting/saved_search_timeout1.webp)
 
 ## Send Results
 
@@ -26,14 +26,14 @@ To send the results to a recipient:
 - __Recipient__: add their name.
 - __Check the boxes__: Send emails according to schedule and summarize scheduled emails.
 
-  ![saved_search_timeout2](/img/product_docs/strongpointfornetsuite/troubleshooting/saved_search_timeout2.webp)
+  ![saved_search_timeout2](../../../static/img/product_docs/strongpointfornetsuite/troubleshooting/saved_search_timeout2.webp)
 
   
   
 4. Click on __Customize Message__ tab.
 5. Select __Send as CSV__.
 
-   ![saved_search_timeout3](/img/product_docs/strongpointfornetsuite/troubleshooting/saved_search_timeout3.webp)
+   ![saved_search_timeout3](../../../static/img/product_docs/strongpointfornetsuite/troubleshooting/saved_search_timeout3.webp)
   
   
 6. Open __Schedule__ tab.
@@ -46,7 +46,7 @@ To send the results to a recipient:
 2. Locate your saved search on the list.
 3. Click __Persist (CSV)__.
 
-   ![saved_search_timeout4](/img/product_docs/strongpointfornetsuite/troubleshooting/saved_search_timeout4.webp)
+   ![saved_search_timeout4](../../../static/img/product_docs/strongpointfornetsuite/troubleshooting/saved_search_timeout4.webp)
   
   
 

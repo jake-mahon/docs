@@ -4,8 +4,8 @@ The Registry Data Collector queries the registry and returns keys, key values, a
 
 The Registry Data Collector is a core component of Access Analyzer, but it has been preconfigured within both the Active Directory Solution and the Windows Solution. While the data collector is available with all Access Analyzer license options, these solutions are only available with a special Access Analyzer licenses. See the following topics for additional information:
 
-- [Active Directory Solution](/docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/overview.md)
-- [Windows Solution](/docs/accessanalyzer/enterpriseauditor/solutions/windows/overview.md)
+- [Active Directory Solution](../../solutions/activedirectory/overview.md)
+- [Windows Solution](../../solutions/windows/overview.md)
 
 Protocols
 
@@ -25,7 +25,7 @@ Permissions
 
 The Registry Data Collector is configured through the Registry Browser window.
 
-![Registry Browser window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/browser.webp)
+![Registry Browser window](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/browser.webp)
 
 The configurable options are:
 
@@ -46,16 +46,16 @@ The button bar provides additional options for selecting keys. See the [Button B
 
 The button bar is located right above the Selected Properties window. The button bar enables users to do the following:
 
-![Button Bar](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/buttonbar.webp)
+![Button Bar](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/buttonbar.webp)
 
 | Icon | Name |
 | --- | --- |
-| ![Select all peer keys for this node](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/selectall.webp) | Select all peer keys for this node |
-| ![Add name of currently selected key](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/addname.webp) | Add name of currently selected key |
-| ![Add full path of the currently selected key](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/addpath.webp) | Add full path of the currently selected key |
-| ![Add last write date/time of currently selected key](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/adddatetime.webp) | Add last write date/time of currently selected key |
-| ![Add security properties for selected key](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/addproperties.webp) | Add security properties for selected key |
-| ![Enumerate all values for this key](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/enumeratevalues.webp) | Enumerate all values for this key |
-| ![Add currently selected value](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/addvalue.webp) | Add currently selected value |
-| ![Delete properties from selection](/img/product_docs/strongpointfornetsuite/integrations/delete.webp) | Delete properties from selection |
-| ![Go to selected key](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/goto.webp) | Go to selected key |
+| ![Select all peer keys for this node](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/selectall.webp) | Select all peer keys for this node |
+| ![Add name of currently selected key](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/addname.webp) | Add name of currently selected key |
+| ![Add full path of the currently selected key](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/addpath.webp) | Add full path of the currently selected key |
+| ![Add last write date/time of currently selected key](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/adddatetime.webp) | Add last write date/time of currently selected key |
+| ![Add security properties for selected key](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/addproperties.webp) | Add security properties for selected key |
+| ![Enumerate all values for this key](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/enumeratevalues.webp) | Enumerate all values for this key |
+| ![Add currently selected value](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/addvalue.webp) | Add currently selected value |
+| ![Delete properties from selection](../../../../../static/img/product_docs/strongpointfornetsuite/integrations/delete.webp) | Delete properties from selection |
+| ![Go to selected key](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/goto.webp) | Go to selected key |

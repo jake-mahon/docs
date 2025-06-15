@@ -27,8 +27,8 @@ A Windows local administrator account is required to install the server and agen
 
 ## Additional Recommendations
 
-A not-so-minimalist text editor such as [Notepad++](https://notepad-plus-plus.org/downloads/) can be useful to comfortably edit network configuration files. See the [Network Configuration](/docs/usercube/usercube/integration-guide/network-configuration/index.md)topic for additional information.
+A not-so-minimalist text editor such as [Notepad++](https://notepad-plus-plus.org/downloads/) can be useful to comfortably edit network configuration files. See the [Network Configuration](../../../integration-guide/network-configuration/index.md)topic for additional information.
 
 ## What's Next?
 
-Let's move on to the requirements for Identity Manager's database. See the[Database](/docs/usercube/usercube/installation-guide/requirements/database-requirements/index.md)topic for additional information.
+Let's move on to the requirements for Identity Manager's database. See the[Database](../database-requirements/index.md)topic for additional information.

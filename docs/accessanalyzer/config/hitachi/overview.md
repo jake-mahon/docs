@@ -10,11 +10,11 @@ The credentials used by the Access Analyzer scans must have the following permis
 
 This permission grants the credential read access to all target folders and files. The credential used within the assigned Connection Profile for these target hosts requires these permissions.
 
-__NOTE:__ These permissions are in addition to those needed to either deploy applet scans for running scans in proxy mode with applet or installing the File System Proxy Service Permissions for running scans in proxy mode as a service. See the [File System Scan Options](/docs/accessanalyzer/enterpriseauditor/requirements/solutions/filesystem/scanoptions.md) topic for additional information.
+__NOTE:__ These permissions are in addition to those needed to either deploy applet scans for running scans in proxy mode with applet or installing the File System Proxy Service Permissions for running scans in proxy mode as a service. See the [File System Scan Options](../../enterpriseauditor/requirements/solutions/filesystem/scanoptions.md) topic for additional information.
 
 ## Access & Sensitive Data Auditing Port Requirements
 
-The firewall ports required by Access Analyzer for Access Auditing (FSAA) and/or Sensitive Data Discovery Auditing scans are based on the File System scan mode to be used. See the [File System Scan Options](/docs/accessanalyzer/enterpriseauditor/requirements/solutions/filesystem/scanoptions.md) topic for additional information.
+The firewall ports required by Access Analyzer for Access Auditing (FSAA) and/or Sensitive Data Discovery Auditing scans are based on the File System scan mode to be used. See the [File System Scan Options](../../enterpriseauditor/requirements/solutions/filesystem/scanoptions.md) topic for additional information.
 
 ## Activity Auditing Permissions
 
@@ -36,7 +36,7 @@ A Hitachi device can host multiple Enterprise Virtual Servers (EVS). Each EVS ha
 - Capability of enabling a File System Audit Policy on the Hitachi device
 - Audit rights to the Hitachi log directory
 
-See the [Hitachi Activity Auditing Configuration](/docs/accessanalyzer/config/hitachi/activity.md) topic for instructions.
+See the [Hitachi Activity Auditing Configuration](activity.md) topic for instructions.
 
 Activity Monitor Archive Location
 

@@ -2,7 +2,7 @@
 
 The Exceptions report at the exception type level provides details on the selected exception type. An exception is defined as a problem or risk to Active Directory security. Each of these reports includes a Member Of table. Certain exception types also include a Members table.
 
-![Exceptions report at the Exception Type level](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/activedirectory/exceptions/exceptionsbytype.webp)
+![Exceptions report at the Exception Type level](../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/activedirectory/exceptions/exceptionsbytype.webp)
 
 This report is comprised of the following columns:
 
@@ -24,7 +24,7 @@ If the selected trustee in the top section of the report is a group, the Group M
 
 There are two tables at the bottom displaying Member Of and Members for the selected trustee.
 
-![Member Of table](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/activedirectory/exceptions/exceptionsbytypememberoftable.webp)
+![Member Of table](../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/activedirectory/exceptions/exceptionsbytypememberoftable.webp)
 
 The Member Of table contains the following additional information for the selected trustee:
 
@@ -47,7 +47,7 @@ The Member Of table contains the following additional information for the select
 - ManagedBy Department – Department of the group’s manager
 - ManagedBy Mail – Email address for the group’s manager
 
-![Members table](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/activedirectory/exceptions/exceptionsbytypememberstable.webp)
+![Members table](../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/activedirectory/exceptions/exceptionsbytypememberstable.webp)
 
 When the selected trustee is a group, the Members table contains additional information for the selected trustee:
 

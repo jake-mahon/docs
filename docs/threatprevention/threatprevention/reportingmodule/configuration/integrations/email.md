@@ -6,7 +6,7 @@ Use the gear icon in the upper right corner of the console to open the Configura
 
 Click __Email__ in the navigation pane.
 
-![Integrations interface on the Email page](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/systemsettings/page.webp)
+![Integrations interface on the Email page](../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/systemsettings/page.webp)
 
 The page has the following information:
 
@@ -31,7 +31,7 @@ __Step 1 –__ Use the gear icon in the upper right corner of the console to ope
 
 __Step 2 –__ On the Integrations interface, click __Email__ in the navigation pane.
 
-![Integrations interface on the Email page showing details](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/details.webp)
+![Integrations interface on the Email page showing details](../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/details.webp)
 
 __Step 3 –__ Toggle the Enabled button to __ON__, which enables the Send Test Email button.
 

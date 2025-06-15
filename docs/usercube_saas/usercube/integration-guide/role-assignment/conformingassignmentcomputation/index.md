@@ -2,7 +2,7 @@
 
 The [
 Compute Role Model Task
-](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md) is able to compute, for a given identity, the appropriate assignments.
+](../../toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md) is able to compute, for a given identity, the appropriate assignments.
 
 If you are interested in a detailed description of the actual Compute Role Model task algorithm, please refer to the Reference documentation. This article focuses more on the design decisions and the underlying philosophy of the process.
 

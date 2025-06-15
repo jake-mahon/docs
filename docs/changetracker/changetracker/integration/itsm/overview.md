@@ -8,7 +8,7 @@ By integrating Netwrix Change Tracker with ITSM systems, organizations can addre
 
 The Gen 7 Sync Service synchronizes Change Requests (CR’s, RFC’s, etc) into Change Tracker from one of several supported ITSM systems. These CRs take the form of a Planned Change once imported into Change Tracker.
 
-Change Tracker will attempt to link existing Devices and Groups to a Planned Change where similar names are found to Configuration Items (CMDB items) in the ITSM system. See the [Planned Changes Tab](/docs/changetracker/changetracker/admin/tabs/plannedchanges.md) topic for additional information.
+Change Tracker will attempt to link existing Devices and Groups to a Planned Change where similar names are found to Configuration Items (CMDB items) in the ITSM system. See the [Planned Changes Tab](../../admin/tabs/plannedchanges.md) topic for additional information.
 
 The service works by periodically polling the source ITSM system for Change Requests which have been modified since the most recent poll. A new Planned Change is created in Change Tracker if a new CR has been added to the source system; modifications to an existing CR will be used to update the corresponding Planned Change. In either case, any events which fall within the scope of the Planned Change will be reassessed.
 

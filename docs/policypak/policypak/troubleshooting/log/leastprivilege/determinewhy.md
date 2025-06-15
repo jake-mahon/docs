@@ -2,7 +2,7 @@
 
 The log file you want to look in is``` %LOCALAPPDATA%\PolicyPak\PolicyPak``` [https://www.policypak.com/products/policypak-least-privilege-manager.html](https://www.policypak.com/products/policypak-least-privilege-manager.html) and is called ```ppUser_Operational.log.```
 
-![544_1_dfdhdghjkhjkl](/img/product_docs/policypak/policypak/troubleshooting/log/leastprivilege/544_1_dfdhdghjkhjkl.jpg)
+![544_1_dfdhdghjkhjkl](../../../../../../static/img/product_docs/policypak/policypak/troubleshooting/log/leastprivilege/544_1_dfdhdghjkhjkl.jpg)
 
 Once you locate and open the Netwrix Endpoint Policy Manager (formerly PolicyPak) Least Privilege Manager Operational Log… you are looking for the following highlighted items:
 
@@ -12,8 +12,8 @@ Once you locate and open the Netwrix Endpoint Policy Manager (formerly PolicyPak
 4. The POLICY name (that is, the name you gave it inside Endpoint Policy Manager Least Privilege Manager).
 5. The RESULT.
 
-![544_2_second](/img/product_docs/policypak/policypak/troubleshooting/log/leastprivilege/544_2_second.webp)
+![544_2_second](../../../../../../static/img/product_docs/policypak/policypak/troubleshooting/log/leastprivilege/544_2_second.webp)
 
 Below, the top entry shows an application being denied (because SecureRun is enabled) and the bottom entry shows an application being allowed by using an EXE policy.
 
-![544_3_third](/img/product_docs/policypak/policypak/troubleshooting/log/leastprivilege/544_3_third.webp)
+![544_3_third](../../../../../../static/img/product_docs/policypak/policypak/troubleshooting/log/leastprivilege/544_3_third.webp)

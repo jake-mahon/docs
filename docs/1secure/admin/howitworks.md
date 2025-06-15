@@ -2,7 +2,7 @@
 
 Netwrix 1Secure is a Microsoft Azure hosted, multi-tenant SaaS application that provides a single location to manage both on-premises and cloud environments. Solution architecture and components interactions are shown in the figure below.
 
-![overview_table](/img/product_docs/1secure/admin/overview_table.webp)
+![overview_table](../../../static/img/product_docs/1secure/admin/overview_table.webp)
 
 Netwrix 1Secure On-Prem Agent is a lightweight Windows service which you deploy in your network. The agent collects aggregated data from your on-premises Netwrix 1SecureAPI and/or uploads the data to your Netwrix 1Secure tenant via REST API calls over HTTPS every 15 minutes.
 

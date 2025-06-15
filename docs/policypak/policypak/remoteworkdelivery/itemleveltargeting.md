@@ -2,11 +2,11 @@
 
 Item-Level Targeting is used in Microsoft Group Policy Preferences and other areas of Netwrix Endpoint Policy Manager (formerly PolicyPak) to target or filter where specific items will apply. With Endpoint Policy Manager Remote Work Delivery Manager, Item-Level Targeting can be used with collections as well as Endpoint Policy Manager Remote Work Delivery Manager policies within collections. A collection enables you to group together Endpoint Policy Manager Remote Work Delivery Manager policies so they can act together. For instance, you might create a collection for only East Sales computers and another for West Sales computers.
 
-![using_item_level_targeting](/img/product_docs/policypak/policypak/remoteworkdelivery/using_item_level_targeting.webp)
+![using_item_level_targeting](../../../../static/img/product_docs/policypak/policypak/remoteworkdelivery/using_item_level_targeting.webp)
 
 You can also right-click any Endpoint Policy Manager Remote Work Delivery Manager policy, and select __Edit Item Level Targeting__.
 
-![using_item_level_targeting_1](/img/product_docs/policypak/policypak/remoteworkdelivery/using_item_level_targeting_1.webp)
+![using_item_level_targeting_1](../../../../static/img/product_docs/policypak/policypak/remoteworkdelivery/using_item_level_targeting_1.webp)
 
 You can also select Item-Level Targeting when a policy is created using the wizard.
 
@@ -14,7 +14,7 @@ The Edit Item Level Targeting function brings up the Targeting Editor. In the Ta
 
 Apply one or more targeting items to a policy. This enables a logical joining together of targeting items. Adding targeting collections equates to enclosing equations in parentheses. In other words, it allows you to group together targeting items. In this way, a fairly complex determination can be created for the computers the policy applies to. Collections may be set to And or Or, as well as Is or Is Not.
 
-![using_item_level_targeting_2](/img/product_docs/policypak/policypak/remoteworkdelivery/using_item_level_targeting_2.webp)
+![using_item_level_targeting_2](../../../../static/img/product_docs/policypak/policypak/remoteworkdelivery/using_item_level_targeting_2.webp)
 
 Here are some real-world examples of Item-Level Targeting used with Endpoint Policy Manager Remote Work Delivery Manager:
 
@@ -26,6 +26,6 @@ Here are some real-world examples of Item-Level Targeting used with Endpoint Pol
 
 After editing is completed, close the editor. Note that the policy or collection's icon has changed to orange, which shows that it now has Item-Level Targeting.
 
-![using_item_level_targeting_3](/img/product_docs/policypak/policypak/remoteworkdelivery/using_item_level_targeting_3.webp)
+![using_item_level_targeting_3](../../../../static/img/product_docs/policypak/policypak/remoteworkdelivery/using_item_level_targeting_3.webp)
 
 __NOTE:__ When Item-Level Targeting is on, the policy won't apply unless the conditions are True. If Item-Level Targeting is applied to a collection, then none of the items in the collection will apply unless the Item-Level Targeting on the collection evaluates to True.

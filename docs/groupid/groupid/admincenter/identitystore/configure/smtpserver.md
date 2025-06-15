@@ -102,7 +102,7 @@ Step 5 – You can also select other recipients to send email notifications for 
 - Manager(s) for their direct reports – To send email notifications to managers about changes made to their respective direct reports.
 - Newly added group members on addition – To send email notifications to objects when they are added to the membership of a group.
 - Removed group member on removal – To send email notifications to objects when they are removed from the membership of a group.
-- Public group owner for membership – To send email notifications to the primary and additional owners of a public group on membership change. See the [Group Security Types](/docs/groupid/groupid/admincenter/general/concepts.md#group-security-types) topic.
+- Public group owner for membership – To send email notifications to the primary and additional owners of a public group on membership change. See the [Group Security Types](../../general/concepts.md#group-security-types) topic.
 
 Step 6 – Click __Save__ on the __Notifications__ page.
 
@@ -137,7 +137,7 @@ Membership lifecycle notifications are triggered on the following events:
 - When the Membership Life Cycle schedule temporarily adds or removes a user from the membership of a semi-private or public group,
   the respective user is notified.
 - Peers and managers can temporarily join or leave a group on behalf of another user (User A). Membership lifecycle notifications are sent to User A when the Membership Life Cycle schedule adds or removes him or her from group membership.
-- Users are also notified when they are temporarily added or removed from group membership according to membership lifecycle policies. See the [Manage Membership Life Cycle Policies](/docs/groupid/groupid/admincenter/identitystore/configure/directoryservice/membershiplifecycle.md) topic.
+- Users are also notified when they are temporarily added or removed from group membership according to membership lifecycle policies. See the [Manage Membership Life Cycle Policies](directoryservice/membershiplifecycle.md) topic.
 
 You can choose to send notification when users are temporarily added to groups, removed from groups, or on both events.
 
@@ -154,7 +154,7 @@ Step 4 – In the Membership Lifecycle Notifications section, select your desire
 - On joining group – Sends email notifications to users when the Membership Life Cycle schedule temporarily adds them to group membership.
 - On leaving group – ends email notifications to users when the Membership Life Cycle schedule temporarily removes them from group membership.
 - X days before user is going to leave the group – Select this check box and specify a certain number of days, say 2. The user receives a notification 2 days before he or she is removed from group membership by the Membership Life Cycle schedule. This setting also applies to users who have
-  been marked for removal from group membership in the group attestation process. (See the __Specify member inactive period__ setting in the [Enable Group Attestation](/docs/groupid/groupid/admincenter/identitystore/configure/directoryservice/grouplifecycle.md#enable-group-attestation) topic.
+  been marked for removal from group membership in the group attestation process. (See the __Specify member inactive period__ setting in the [Enable Group Attestation](directoryservice/grouplifecycle.md#enable-group-attestation) topic.
 
 Step 5 – Click __Save__ on the __Notifications__ page.
 
@@ -184,6 +184,6 @@ Step 5 – Click __Save__ on the Notifications page.
 
 __See Also__
 
-- [Notifications](/docs/groupid/groupid/admincenter/notification/overview.md)
-- [Membership Life Cycle Schedule](/docs/groupid/groupid/admincenter/schedule/membershiplifecycle.md)
-- [Managed By Life Cycle Schedule](/docs/groupid/groupid/admincenter/schedule/managedbylifecycle.md)
+- [Notifications](../../notification/overview.md)
+- [Membership Life Cycle Schedule](../../schedule/membershiplifecycle.md)
+- [Managed By Life Cycle Schedule](../../schedule/managedbylifecycle.md)

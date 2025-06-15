@@ -10,25 +10,25 @@ The following information highlights the new and enhanced features introduced in
 
 New: Ability to crawl all tables in all databases on SQL server with a single configuration
 
-New: Automatically locate sensitive data across your SQL databases so you can implement the appropriate security controls around it. See the [SQL Server ](/docs/dataclassification/ndc/admin/sources/sqlserver/addsqlserversource.md) topic for additional information.
+New: Automatically locate sensitive data across your SQL databases so you can implement the appropriate security controls around it. See the [SQL Server ](../admin/sources/sqlserver/addsqlserversource.md) topic for additional information.
 
 ## Other Improvements
 
 Improved: Wizard for ROT data removal
 
-Avoid the headache of manually setting up the workflow for the removal of outdated records with the new wizard. See the [Step 3. Specify Conditions for Processing](/docs/dataclassification/ndc/admin/workflows/step3specifyconditions.md) topic for additional information.
+Avoid the headache of manually setting up the workflow for the removal of outdated records with the new wizard. See the [Step 3. Specify Conditions for Processing](../admin/workflows/step3specifyconditions.md) topic for additional information.
 
 Improved: Improved Regex proximity
 
-Further reduce the chance of false positives with improved Regex proximity so you can focus your security efforts on truly sensitive data. See the [Types of Clues](/docs/dataclassification/ndc/admin/taxonomies/cluestypes.md) topic for additional information.
+Further reduce the chance of false positives with improved Regex proximity so you can focus your security efforts on truly sensitive data. See the [Types of Clues](../admin/taxonomies/cluestypes.md) topic for additional information.
 
 Improved: Improved data remediation
 
-Reduce the risk of exposure of sensitive OCR data (images or pdfs) that failed to be redacted by automatically moving it to a dedicated location. See the [Migrate Document](/docs/dataclassification/ndc/admin/workflows/actions/migratedocument.md) topic for additional information.
+Reduce the risk of exposure of sensitive OCR data (images or pdfs) that failed to be redacted by automatically moving it to a dedicated location. See the [Migrate Document](../admin/workflows/actions/migratedocument.md) topic for additional information.
 
 Improved: Ability to scan metadata
 
-Speed classification of large amounts of data by first scanning the metadata associated with the files so you can take action on it. See the [Enable Write Classifications](/docs/dataclassification/ndc/admin/taxonomies/enablewriteclassifications.md) topic for additional information.
+Speed classification of large amounts of data by first scanning the metadata associated with the files so you can take action on it. See the [Enable Write Classifications](../admin/taxonomies/enablewriteclassifications.md) topic for additional information.
 
 ## Bug Fix List
 

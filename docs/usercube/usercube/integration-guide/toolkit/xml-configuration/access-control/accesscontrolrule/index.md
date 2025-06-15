@@ -61,7 +61,7 @@ This condition is actually a comparison expression between two elements:
 - The value of a property which is originating from an entity targeted by the rule
 - A comparison value that can be constant, or originating from the user profile
 
-![Access Control Filter Schema](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/accesscontrolfilter_schema.webp)
+![Access Control Filter Schema](../../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/accesscontrolfilter_schema.webp)
 
 ### Examples
 
@@ -118,7 +118,7 @@ Technically speaking, the filter here says that the rule's permissions apply onl
 
 For example, Timothy Callahan is here assigned the ```Manager``` profile with the ```Department``` dimension set to ```Treasury/Chief Economist```.
 
-![Matching Assigned Profile](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/assignedprofile_example_v603.webp)
+![Matching Assigned Profile](../../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/assignedprofile_example_v603.webp)
 
 Thus, with the previous access control rule, Timothy Callahan will get certain permissions on users whose main department is ```Treasury/Chief Economist```.
 
@@ -165,11 +165,11 @@ Technically speaking, the filter here says that the rule's permissions apply onl
 | --- | --- | --- |
 | Binding   required | Int64 | Binding of the property whose value is to be checked to restrict the application of the rule's permissions.  __NOTE:__ The binding must be based on the entity type defined in the access control rule. |
 | Category   default value: false | Boolean | True to compare the value specified by the binding to the categories of the current user's assigned profiles. |
-| CompositeRole   default value: false | Boolean | True to compare the value specified by the binding to the composite roles of the current user's assigned profiles. See the [ Assigned Profile ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/access-control/assignedprofile/index.md) topic for additional information. |
+| CompositeRole   default value: false | Boolean | True to compare the value specified by the binding to the composite roles of the current user's assigned profiles. See the [ Assigned Profile ](../assignedprofile/index.md) topic for additional information. |
 | CurrentUser   default value: false | Boolean | True to compare the value specified by the binding to the identifier of the account used by the current user to authenticate to Identity Manager.  __NOTE:__  The current user is the owner of the profile, allowed by the access control rule to perform an action and/or receive a notification.   ```CurrentUser``` is tightly linked to the configuration of the ```SelectUserByIdentityQueryHandlerSetting```. |
-| Dimension   optional | Int64 | Identifier of the dimension whose value(s), from the user's assigned profiles, are to be compared to the value specified by the binding. See [ Dimension ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/metadata/dimension/index.md) and [ Assigned Profile ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/access-control/assignedprofile/index.md) topics for additional information. |
+| Dimension   optional | Int64 | Identifier of the dimension whose value(s), from the user's assigned profiles, are to be compared to the value specified by the binding. See [ Dimension ](../../metadata/dimension/index.md) and [ Assigned Profile ](../assignedprofile/index.md) topics for additional information. |
 | Group   optional | String | Group that the filter is part of. The access control rule filters the permissions by using the union (OR) of all filter groups, and the intersection (AND) of all filters within a group.  __NOTE:__ When not specified, the filter is part of the default group. |
 | Operator   default value: 0 | AccessControlFilterOperator | Comparison operator.   0 - Equals.   1 - NotEquals. |
-| ResourceType   default value: false | Boolean | True to compare the value specified by the binding to the resource types of the current user's assigned profiles. See the [ Assigned Profile ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/access-control/assignedprofile/index.md) topic for additional information. |
-| SingleRole   default value: false | Boolean | True to compare the value specified by the binding to the single roles of the current user's assigned profiles. See the [ Assigned Profile ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/access-control/assignedprofile/index.md) topic for additional information. |
+| ResourceType   default value: false | Boolean | True to compare the value specified by the binding to the resource types of the current user's assigned profiles. See the [ Assigned Profile ](../assignedprofile/index.md) topic for additional information. |
+| SingleRole   default value: false | Boolean | True to compare the value specified by the binding to the single roles of the current user's assigned profiles. See the [ Assigned Profile ](../assignedprofile/index.md) topic for additional information. |
 | Value   optional | String | Hard coded value to be compared to the value specified by the binding. |

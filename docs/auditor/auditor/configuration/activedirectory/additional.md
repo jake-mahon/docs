@@ -6,9 +6,9 @@ If you have an on-premises Exchange server in your Active Directory domain, cons
 
 OR
 
-- The Audit Logs management role (see the [Assign Management Roles](/docs/auditor/auditor/configuration/exchange/permissions.md#assign-management-roles) topic for additional information)
+- The Audit Logs management role (see the [Assign Management Roles](../exchange/permissions.md#assign-management-roles) topic for additional information)
 
-You will also need to configure Exchange Administrator Audit Logging (AAL) settings. See the [Exchange Administrator Audit Logging Settings](/docs/auditor/auditor/configuration/exchange/auditlog.md) topic for additional information.
+You will also need to configure Exchange Administrator Audit Logging (AAL) settings. See the [Exchange Administrator Audit Logging Settings](../exchange/auditlog.md) topic for additional information.
 
 ## Additional Configuration for Domain Controller's Event Logs Auto-backup
 
@@ -84,7 +84,7 @@ __Step 1 –__ On any domain controller in the target domain, open the Local Sec
 
 __Step 2 –__ In the Local Security Policy snap-in, navigate to __Security Settings__ > __Local Policies > User Rights Assignment__ and locate the __Log on as a batch job__ policy.
 
-![manualconfig_ws_logonasbatch](/img/product_docs/1secure/admin/datacollection/activedirectory/manualconfig_ws_logonasbatch.webp)
+![manualconfig_ws_logonasbatch](../../../../../static/img/product_docs/1secure/admin/datacollection/activedirectory/manualconfig_ws_logonasbatch.webp)
 
 __Step 3 –__ Double-click the __Log on as a batch job__ policy, and click __Add User or Group__. Specify the account that you want to define this policy for.
 
@@ -114,7 +114,7 @@ __Step 9 –__ Ensure that new GPO settings applied on any audited domain contro
 
 This permission is required only if the account selected for data collection is not a member of the Domain Admins group.
 
-This permission should be assigned on each domain controller in the audited domain, so if your domain contains multiple domain controllers, it is recommended to assign permissions through Group Policy, or automatically using [Audit Configuration Assistant](/docs/auditor/auditor/tools/auditconfigurationassistant.md).
+This permission should be assigned on each domain controller in the audited domain, so if your domain contains multiple domain controllers, it is recommended to assign permissions through Group Policy, or automatically using [Audit Configuration Assistant](../../tools/auditconfigurationassistant.md).
 
 To assign permissions manually, use the Registry Editor snap-in or the Group Policy Management console.
 

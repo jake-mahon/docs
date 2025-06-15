@@ -2,11 +2,11 @@
 
 #### What is a Master Key certificate?
 
-If Active Directory is accessed via [Masterkey mode](/docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/activedirectorylink/masterkey_mode.md), a certificate will be created. This has the name
+If Active Directory is accessed via [Masterkey mode](../../advanced_view/clientmodule/organisationalstructures/directoryservices/activedirectorylink/masterkey_mode.md), a certificate will be created. This has the name
 
 Active Directory: Domain:
 
-![installation_with_parameters_208](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/certificates/installation_with_parameters_208.webp)
+![installation_with_parameters_208](../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/certificates/installation_with_parameters_208.webp)
 
 NOTE: The Master Key certificate cannot be replaced by your own certificate.
 

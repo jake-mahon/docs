@@ -22,24 +22,24 @@ You can configure your IT Infrastructure for monitoring in one of the following
     - Auto archiving must be enabled to prevent audit data loss if log overwrites occur.
     - The Object-level audit settings must be configured for the Domain, Configuration and Schema partitions.
     - The AD tombstoneLifetime attribute must be set to _"730"_.
-    - If you have an on-premises Exchange server 2019, 2016, 2013 or 2010 in your Active Directory domain, consider that some changes can be made via that Exchange server. To be able to audit and report who made those changes, you should configure the Exchange Administrator Audit Logging (AAL) settings, as described in the [Exchange Administrator Audit Logging Settings](/docs/auditor/auditor/configuration/exchange/auditlog.md) topic.
-    - The Administrator Audit Logging settings must be configured (only required for Exchange 2019, 2016, 2013 or 2010). See the [Exchange Administrator Audit Logging Settings](/docs/auditor/auditor/configuration/exchange/auditlog.md) topic for additional information.
+    - If you have an on-premises Exchange server 2019, 2016, 2013 or 2010 in your Active Directory domain, consider that some changes can be made via that Exchange server. To be able to audit and report who made those changes, you should configure the Exchange Administrator Audit Logging (AAL) settings, as described in the [Exchange Administrator Audit Logging Settings](auditlog.md) topic.
+    - The Administrator Audit Logging settings must be configured (only required for Exchange 2019, 2016, 2013 or 2010). See the [Exchange Administrator Audit Logging Settings](auditlog.md) topic for additional information.
     - In order to audit mailbox access, native audit logging must be enabled for user, shared, equipment, linked, and room mailboxes:
 
       - Access types: administrator , delegate user
       - Actions: Update, Move, MoveToDeletedItems, SoftDelete, HardDelete, FolderBind, SendAs, SendOnBehalf, Create
-    - If you want to track non-owner access, configure mailbox monitoring. See the [Configure Exchange for Monitoring Mailbox Access](/docs/auditor/auditor/configuration/exchange/mailboxacccess.md) topic for additional information.
+    - If you want to track non-owner access, configure mailbox monitoring. See the [Configure Exchange for Monitoring Mailbox Access](mailboxacccess.md) topic for additional information.
   - On the Auditor console computer:
 
-    - If you have enabled automatic log backup for the Security log of your domain controller, you can instruct Auditor to clear the old backups automatically. For that, use the __CleanAutoBackupLogs__ registry key, as described in the [Active Directory Registry Key Configuration](/docs/auditor/auditor/configuration/activedirectory/registrykey.md) topic.
+    - If you have enabled automatic log backup for the Security log of your domain controller, you can instruct Auditor to clear the old backups automatically. For that, use the __CleanAutoBackupLogs__ registry key, as described in the [Active Directory Registry Key Configuration](../activedirectory/registrykey.md) topic.
 
-      ___RECOMMENDED:___ Adjust retention period for the backup files accordingly (default is __50__ hours). See the [Adjust Security Event Log Size and Retention](/docs/auditor/auditor/configuration/activedirectory/securitylog.md) topic.
+      ___RECOMMENDED:___ Adjust retention period for the backup files accordingly (default is __50__ hours). See the [Adjust Security Event Log Size and Retention](../activedirectory/securitylog.md) topic.
     - To provide for event data collection, the Secondary Logon service must be up and running . Open __Administrative Tools__ > __Services__, right-click the __Secondary Logon__ service and on the __General__ tab make sure that Startup type for this service is other than _Disabled_.
 
 _Remember,_ for Exchange auditing, do the following:
 
-1. Configure Data Collecting Account, as described in the [Data Collecting Account](/docs/auditor/auditor/admin/monitoringplans/dataaccounts.md) topic.
-2. Configure required protocols and ports, as described in the [Exchange Ports](/docs/auditor/auditor/configuration/exchange/ports.md) topic.
+1. Configure Data Collecting Account, as described in the [Data Collecting Account](../../admin/monitoringplans/dataaccounts.md) topic.
+2. Configure required protocols and ports, as described in the [Exchange Ports](ports.md) topic.
 
 ## Monitored Object Types, Actions, and Attributes
 

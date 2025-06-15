@@ -14,7 +14,7 @@ __Step 3 –__ The add-on processes these events into Netwrix Auditor-compatible
 
 __Step 4 –__ Using the Integration API, the add-on sends the activity records to the Netwrix Auditor Server, which writes them to the Long-Term Archive and the Audit Database.
 
-See the [Integration API](/docs/auditor/auditor/api/overview.md) topic for additional information on the structure of the Activity Record and the capabilities of the NIntegration API.
+See the [Integration API](../../api/overview.md) topic for additional information on the structure of the Activity Record and the capabilities of the NIntegration API.
 
 ## Prerequisites
 

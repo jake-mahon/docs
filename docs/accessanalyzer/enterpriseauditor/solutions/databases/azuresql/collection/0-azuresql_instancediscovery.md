@@ -6,7 +6,7 @@ The Azure SQL Instance Discovery job is responsible for enumerating a list of Az
 
 The 0-AzureSQL_InstanceDiscovery job uses the SQL Data Collector for the following query:
 
-![Query Selection - Instance Discovery](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/azuresql/collection/instancediscquery.webp)
+![Query Selection - Instance Discovery](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/azuresql/collection/instancediscquery.webp)
 
 - Azure SQL Instance Discovery — Collects the list of Azure SQL Server Instances from target endpoints and populates the necessary instance connection information
 
@@ -16,7 +16,7 @@ Navigate to the __Databases__ > __0.Collection__ > __AzureSQL__ > __0-AzureSQL_I
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/azuresql/collection/instancediscanalysis.webp)
+![Analysis Selection](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/azuresql/collection/instancediscanalysis.webp)
 
 The default analysis tasks is:
 

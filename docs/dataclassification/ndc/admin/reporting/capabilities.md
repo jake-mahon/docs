@@ -12,5 +12,5 @@ It is possible to filter and refine data presentation to look for the areas that
 
 Reporting capabilities also include the following:
 
-- [Content Distribution Map](/docs/dataclassification/ndc/admin/reporting/contentdistributionmap.md)
-- [Built-in Reports](/docs/dataclassification/ndc/admin/reporting/builtinreportsoverview.md)
+- [Content Distribution Map](contentdistributionmap.md)
+- [Built-in Reports](builtinreportsoverview.md)

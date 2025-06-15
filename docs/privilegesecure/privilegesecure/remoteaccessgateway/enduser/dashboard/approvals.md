@@ -4,7 +4,7 @@ The Approvals Dashboard displays requested sessions that require approval. Users
 
 __NOTE:__ For security reasons, Remote Access Gateway can only be used by approvers to view pending approvals. Submitting an approval must be done through Netwrix Privilege Secure.
 
-![Approvals Dashboard](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/dashboard/approvalsdashboarduser.webp)
+![Approvals Dashboard](../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/dashboard/approvalsdashboarduser.webp)
 
 The Approvals Dashboard has the following features:
 

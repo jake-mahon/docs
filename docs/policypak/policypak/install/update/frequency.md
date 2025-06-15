@@ -1,10 +1,10 @@
 # How often is Endpoint Policy Manager updated? And, must I update to the latest version? Are all versions supported?
 
-There are several parts to Netwrix Endpoint Policy Manager (formerly PolicyPak) [What items and components are licensed, and what components are free?](/docs/policypak/policypak/license/components.md)
+There are several parts to Netwrix Endpoint Policy Manager (formerly PolicyPak) [What items and components are licensed, and what components are free?](../../license/components.md)
 
 When people ask us how often Endpoint Policy Manager is updated, they usually want to know when Paks and/or the CSE are updated.
 
-The Paks are updated as needed. See [AppSets: What is the official support policy for the pre-configured AppSets?](/docs/policypak/policypak/troubleshooting/applicationsettings/supportpolicy.md)
+The Paks are updated as needed. See [AppSets: What is the official support policy for the pre-configured AppSets?](../../troubleshooting/applicationsettings/supportpolicy.md)
 
 The CSE is updated for emergency bug fixes right away. The CSE is updated for low-priority bug fixes about 3 to 4 times a year. We typically launch new features at the same time.
 

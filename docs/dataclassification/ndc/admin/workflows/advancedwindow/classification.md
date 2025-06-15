@@ -4,7 +4,7 @@ You can instruct the program to apply one or more additional classifications to 
 
 Alternatively, you can configure a workflow action that permanently removes all existing classifications on a document and disables future auto-classification for it.
 
-![workflow_actions_man_classify_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/workflows/advancedwindow/workflow_actions_man_classify_thumb_0_0.webp)
+![workflow_actions_man_classify_thumb_0_0](../../../../../../static/img/product_docs/dataclassification/ndc/admin/workflows/advancedwindow/workflow_actions_man_classify_thumb_0_0.webp)
 
 To apply additional classification:
 
@@ -28,4 +28,4 @@ To configure terms
    3. __Include Children__ - select this option if needed.
 3. Finally, click __OK__ to save the settings and close the dialog.
 
-__NOTE:__ The additional classification will not trigger other workflows or affect the source item[See Classifications for more information.](/docs/dataclassification/ndc/admin/taxonomies/classifications.md)
+__NOTE:__ The additional classification will not trigger other workflows or affect the source item[See Classifications for more information.](../../taxonomies/classifications.md)

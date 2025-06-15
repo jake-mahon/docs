@@ -2,7 +2,7 @@
 
 The __Change Access__ button on the Owner portal opens the Change Resource Access wizard for the selected resource. You can make ad hoc changes to resource access when this feature is enabled for the resource by the Ownership Administrators.
 
-![Change Resource Access wizard showing 1. Select Change page](/img/product_docs/accessinformationcenter/access/informationcenter/resourceowners/ownerportal/selectchangeadd.webp)
+![Change Resource Access wizard showing 1. Select Change page](../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceowners/ownerportal/selectchangeadd.webp)
 
 This wizard has four pages, but you will only be directed to the pages applicable to your selection on the first page:
 
@@ -19,11 +19,11 @@ Follow the steps to add new user access to the selected resource.
 
 __Step 1 –__ Select the desired resource in the Owner portal and click __Change Access__. The Change Resource Access wizard opens.
 
-![Change Resource Access wizard showing 1. Select Change page](/img/product_docs/accessinformationcenter/access/informationcenter/resourceowners/ownerportal/selectchangeadd.webp)
+![Change Resource Access wizard showing 1. Select Change page](../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceowners/ownerportal/selectchangeadd.webp)
 
 __Step 2 –__ On the Select Change page, select the __Add access for a new user__ option. If selected, the __Notify users about their change in access__ option will send an email to the users who have been granted access to the resource. Click __Next__.
 
-![Change Resource Access wizard showing 2. Add Access page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/addaccess.webp)
+![Change Resource Access wizard showing 2. Add Access page](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/addaccess.webp)
 
 __Step 3 –__ On the Add Access page, indicate the new users. Entering a name or email address in the search field to find and select users from Active Directory, which populate in a drop-down menu as you type. You can also import a list of users by clicking __Import__, navigating to the CSV file, and clicking __Open__ to select the file. See the Import Users CSV File topic for additional information.
 
@@ -36,7 +36,7 @@ __Step 4 –__ When the user list is complete, select the desired access level f
 
 __Step 5 –__ Click __Next__ to continue. The wizard advances to the Add Notes page.
 
-![Change Resource Access wizard showing the 4. Add Notes page](/img/product_docs/accessinformationcenter/access/informationcenter/resourceowners/ownerportal/addnotesadd.webp)
+![Change Resource Access wizard showing the 4. Add Notes page](../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceowners/ownerportal/addnotesadd.webp)
 
 __Step 6 –__ On the Add Notes page, optionally enter the following information:
 
@@ -47,7 +47,7 @@ __Step 7 –__ Click __Next__. The Access Information Center will begin to proce
 
 _Remember,_ Notes are included in the notification sent to the user (if selected) and recorded with the historical record of this change.
 
-![Change Resource Access wizard completed updates message](/img/product_docs/threatprevention/threatprevention/install/reportingmodule/completed.webp)
+![Change Resource Access wizard completed updates message](../../../../../../static/img/product_docs/threatprevention/threatprevention/install/reportingmodule/completed.webp)
 
 __Step 8 –__ The action status displays on the page. When the update has completed (100%), click __Finish__. The Change Resource Access wizard closes.
 
@@ -59,7 +59,7 @@ The access changes that completed successfully can be viewed in the History tab 
 
 A CSV file can be created to import a list of users.
 
-![Example CSV File for adding user access imports](/img/product_docs/threatprevention/threatprevention/admin/configuration/systemalerting/importfile.webp)
+![Example CSV File for adding user access imports](../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/configuration/systemalerting/importfile.webp)
 
 The CSV file must contain one user per row. Use the NTAccount [Domain\SamAccountName] format for the user name, for example ```NWXTECH\JSmith```.
 
@@ -69,11 +69,11 @@ Follow the steps to change or remove access for the selected resource.
 
 __Step 1 –__ Select the desired resource in the Owner portal and click __Change Access__. The Change Resource Access wizard opens.
 
-![Change Resource Access wizard with the 1. Select Change page with Change access for an existing user option selected](/img/product_docs/accessinformationcenter/access/informationcenter/resourceowners/ownerportal/selectchangechange.webp)
+![Change Resource Access wizard with the 1. Select Change page with Change access for an existing user option selected](../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceowners/ownerportal/selectchangechange.webp)
 
 __Step 2 –__ On the Select Change page, select the __Change access for an existing user__ option. If checked, the __Notify users about their change in access__ option will send an email to the users having access to the resource changed. Click __Next__.
 
-![Change Resource Access wizard 3. Change Access page](/img/product_docs/accessinformationcenter/access/informationcenter/resourceowners/ownerportal/changeaccess.webp)
+![Change Resource Access wizard 3. Change Access page](../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceowners/ownerportal/changeaccess.webp)
 
 __Step 3 –__ On the Change Access page, select the users from the list and click __Select__. Use the Windows ctrl-left-click key command to select multiple users. The __View Selections__ button shows a count of selected users and opens the Users selected for access change panel listing the selections.
 
@@ -84,13 +84,13 @@ __Step 4 –__ When the user selection list is complete, select the desired acce
 
 __Step 5 –__ Click __Next__ to continue.
 
-![Change Resource Access wizard 4. Add Notes page](/img/product_docs/accessinformationcenter/access/informationcenter/resourceowners/ownerportal/addnoteschange.webp)
+![Change Resource Access wizard 4. Add Notes page](../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceowners/ownerportal/addnoteschange.webp)
 
 __Step 6 –__ On the Add Notes page, optionally enter any useful tracking information or description explaining the reason for the change. Click __Next__. The Access Information Center will begin to process the updates.
 
 _Remember,_ Notes are included in the notification sent to the user (if selected) and recorded with the historical record of this change.
 
-![Change Resource Access wizard completed updates message](/img/product_docs/threatprevention/threatprevention/install/reportingmodule/completed.webp)
+![Change Resource Access wizard completed updates message](../../../../../../static/img/product_docs/threatprevention/threatprevention/install/reportingmodule/completed.webp)
 
 __Step 7 –__ The action status displays on the page. When the update has completed (100%), click __Finish__. The Change Resource Access wizard closes.
 

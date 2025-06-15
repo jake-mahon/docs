@@ -6,9 +6,9 @@ If Class Level is selected then a different Working Set can be defined for every
 
 Documents can be added to the Working Set from the Search or Browse tabs by using the Add to Working Set links:
 
-![browsetab_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/reporting/browsetab_thumb_0_0.webp)
+![browsetab_thumb_0_0](../../../../../static/img/product_docs/dataclassification/ndc/admin/reporting/browsetab_thumb_0_0.webp)
 
 The following facilities are available:
 
-- [Classifications](/docs/dataclassification/ndc/admin/taxonomies/classifications.md)
-- [Calculations](/docs/dataclassification/ndc/admin/taxonomies/calculations.md)
+- [Classifications](classifications.md)
+- [Calculations](calculations.md)

@@ -2,7 +2,7 @@
 
 The NoSQL Data Collector for MongoDB provides information on MongoDB Cluster configuration, limited user permissions, scans collections for sensitive data, and identifies who has access to sensitive data. It also supports the execution of custom queries against all targeted MongoDB cluster nodes.
 
-The NoSQL Data Collector has been preconfigured within the MongoDB Solution. Both this data collector and the solution are available with a special Access Analyzer license. See the [MongoDB Solution](/docs/accessanalyzer/enterpriseauditor/solutions/databases/mongodb/overview.md) topic for additional information.
+The NoSQL Data Collector has been preconfigured within the MongoDB Solution. Both this data collector and the solution are available with a special Access Analyzer license. See the [MongoDB Solution](../../../solutions/databases/mongodb/overview.md) topic for additional information.
 
 Protocols
 
@@ -33,9 +33,9 @@ If running Sensitive Data Discovery (SDD) scans, it will be necessary to increas
 
 The NoSQL Data Collector is configured through the NoSQL Data Collector Wizard. The wizard contains the following pages, which change based upon the query category selected:
 
-- [NoSQL: Category](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/nosql/category.md)
-- [NoSQL: Options](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/nosql/options.md)
-- [NoSQL: Criteria](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/nosql/criteria.md)
-- [NoSQL: Filter](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/nosql/filter.md)
-- [NoSQL: Results](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/nosql/results.md)
-- [NoSQL: Summary](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/nosql/summary.md)
+- [NoSQL: Category](category.md)
+- [NoSQL: Options](options.md)
+- [NoSQL: Criteria](criteria.md)
+- [NoSQL: Filter](filter.md)
+- [NoSQL: Results](results.md)
+- [NoSQL: Summary](summary.md)

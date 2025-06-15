@@ -6,12 +6,12 @@ NetSuite has removed the scheduled status on scripts after a sandbox is refreshe
 2. Open __Customization__ > __Scripting__ > __Scripts__.
 3. Set the Filter __Type__ to __Suitelet__ and the __Bundle ID__ to __294336__.
 
-   ![Find the Suitelet](/img/product_docs/strongpointfornetsuite/release_notes/scripts.webp)
+   ![Find the Suitelet](../../../static/img/product_docs/strongpointfornetsuite/release_notes/scripts.webp)
 4. Click __View__ by the __Strongpoint Reset Schedule Deployments__ suitelet.
 5. Open the __Deployments__ tab.
 
-   ![Open the Deployment tab](/img/product_docs/strongpointfornetsuite/release_notes/script_deploy_tab.webp)
+   ![Open the Deployment tab](../../../static/img/product_docs/strongpointfornetsuite/release_notes/script_deploy_tab.webp)
 6. Click the Suitelet name: __Strongpoint Reset Schedule Deployments__.
 7. Click on the Script __URL__.
 
-   ![Click the Script URL](/img/product_docs/strongpointfornetsuite/release_notes/script_deploy_url.webp)
+   ![Click the Script URL](../../../static/img/product_docs/strongpointfornetsuite/release_notes/script_deploy_url.webp)

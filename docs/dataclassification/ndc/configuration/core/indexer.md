@@ -2,7 +2,7 @@
 
 This configuration tab contains the indexing engine settings. Each configuration option has an associated “__i__” which describes the nature of the setting. To view advanced options, click the screwdriver icon at __Settings__ on the right.
 
-![core_indexer_thumb_0_0](/img/product_docs/dataclassification/ndc/configuration/core/core_indexer_thumb_0_0.webp)
+![core_indexer_thumb_0_0](../../../../../static/img/product_docs/dataclassification/ndc/configuration/core/core_indexer_thumb_0_0.webp)
 
 | Option | Description | Comment |
 | --- | --- | --- |

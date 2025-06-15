@@ -4,7 +4,7 @@ The user menu can be found in the upper right corner of the Web Application. A r
 
 #### Options in the user menu
 
-![bin_1](/img/product_docs/passwordsecure/passwordsecure/configuration/web_applicaiton/operation/navigation_bar/user_menu/bin_1.webp)
+![bin_1](../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/web_applicaiton/operation/navigation_bar/user_menu/bin_1.webp)
 
 Settings
 

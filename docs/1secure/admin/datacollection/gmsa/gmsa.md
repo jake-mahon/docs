@@ -45,7 +45,7 @@ When creating a new gMSA, you will need to specify:
 - Computer account(s) that will be allowed to make use of that gMSA. Here it will be:
 
 1. Your Netwrix Cloud Agent host
-2. If you are going to collect data using the network traffic compression (see the following section for more information: [Network Traffic Compression](/docs/1secure/configuration/networktrafficcompression.md)), provide the following:
+2. If you are going to collect data using the network traffic compression (see the following section for more information: [Network Traffic Compression](../../../configuration/networktrafficcompression.md)), provide the following:
 
    - For Logon Activity — domain controllers of the monitored domain
 
@@ -65,4 +65,4 @@ To create a new gMSA in the root domain using PowerShell:
   - _DNSHostName_ — FQDN of the new gMSA account, here __ncagmsa.mydomain.local__
   - _PrincipalsAllowedToRetrieveManagedPassword_ — your Netwrix Cloud Agent host NETBIOS name ended with $, here __NCASrv$__
 
-To learn about the data collecting account, which collects data from the monitored items, go to[ Data Collecting Account](/docs/1secure/admin/datacollection/datacollectingaccount/overview.md) article.
+To learn about the data collecting account, which collects data from the monitored items, go to[ Data Collecting Account](../datacollectingaccount/overview.md) article.

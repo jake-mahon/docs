@@ -2,15 +2,15 @@
 
 In Directory Manager, several predefined custom display types are used in the default portal template. To customize the portal, you can use the predefined custom display types as well as define new ones.
 
-- [Text Box Display Type](/docs/groupid/groupid/admincenter/portal/displaytype/textbox.md)
-- [Drop-down List Display Type](/docs/groupid/groupid/admincenter/portal/displaytype/dropdownlist.md)
-- [Linked Field Drop-down List Display Type](/docs/groupid/groupid/admincenter/portal/displaytype/linkeddropdown.md)
-- [Image Display Type](/docs/groupid/groupid/admincenter/portal/displaytype/image.md)
-- [Grid Display Type](/docs/groupid/groupid/admincenter/portal/displaytype/grid.md)
-- [Radio Button Display Type](/docs/groupid/groupid/admincenter/portal/displaytype/radio.md)
-- [Multiline Textbox Display Type](/docs/groupid/groupid/admincenter/portal/displaytype/multilinetextbox.md)
-- [Multi-Valued Control Display Type](/docs/groupid/groupid/admincenter/portal/displaytype/multivaluedcontrol.md)
-- [Linked Combo Display Type](/docs/groupid/groupid/admincenter/portal/linkedcombo/overview.md)
+- [Text Box Display Type](textbox.md)
+- [Drop-down List Display Type](dropdownlist.md)
+- [Linked Field Drop-down List Display Type](linkeddropdown.md)
+- [Image Display Type](image.md)
+- [Grid Display Type](grid.md)
+- [Radio Button Display Type](radio.md)
+- [Multiline Textbox Display Type](multilinetextbox.md)
+- [Multi-Valued Control Display Type](multivaluedcontrol.md)
+- [Linked Combo Display Type](../linkedcombo/overview.md)
 
 ## How to Implement Display Types
 
@@ -39,5 +39,5 @@ To delete a custom display type:
 
 __See Also__
 
-- [Design a Portal with Display Types](/docs/groupid/groupid/admincenter/portal/displaytype/overview.md)
-- [Display Type Categories](/docs/groupid/groupid/admincenter/portal/displaytype/categories.md)
+- [Design a Portal with Display Types](overview.md)
+- [Display Type Categories](categories.md)

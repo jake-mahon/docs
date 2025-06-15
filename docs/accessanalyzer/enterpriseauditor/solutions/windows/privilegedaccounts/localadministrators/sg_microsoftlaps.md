@@ -8,7 +8,7 @@ The SG_MicrosoftLAPS job uses the Registry Data Collector for the following quer
 
 __CAUTION:__ The query is preconfigured for this job. Never modify the query.
 
-![Queries for the SG_MicrosoftLAPS Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/windows/privilegedaccounts/localadministrators/microsoftlapsquery.webp)
+![Queries for the SG_MicrosoftLAPS Job](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/windows/privilegedaccounts/localadministrators/microsoftlapsquery.webp)
 
 The query for the SG_MicrosoftLAPS job is:
 
@@ -20,7 +20,7 @@ Navigate to the __Windows__ > __Privileged Accounts__ > __Local Administrators__
 
 __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis task is preconfigured for this job.
 
-![Analysis Tasks for the SG_MicrosoftLAPS Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/windows/privilegedaccounts/localadministrators/microsoftlapsanalysis.webp)
+![Analysis Tasks for the SG_MicrosoftLAPS Job](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/windows/privilegedaccounts/localadministrators/microsoftlapsanalysis.webp)
 
 The default analysis task is:
 

@@ -7,10 +7,10 @@ To open the settings of a database, select it and click on "Settings" in the rib
 You can now make the following settings:
 
 - Authentication
-- [Multifactor Authentication](/docs/passwordsecure/passwordsecure/configuration/server_manager/managing_databases/database_settings/multifactor_authentication_ac.md)
+- [Multifactor Authentication](multifactor_authentication_ac.md)
 - [Session timeout    
-  ](/docs/passwordsecure/passwordsecure/configuration/server_manager/managing_databases/database_settings/session_timeout.md)
-- [HSM connection via PKCS # 11](/docs/passwordsecure/passwordsecure/configuration/server_manager/managing_databases/database_settings/hsm_connection.md)
+  ](session_timeout.md)
+- [HSM connection via PKCS # 11](hsm_connection.md)
 - Automatic cleanup
 - SAML configuration
 - Deletion of users

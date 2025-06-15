@@ -19,13 +19,13 @@ In Auditor client, go to the Integrations section and verify Integration API set
 1. Make sure the __Leverage Integration API__ is switched to __ON__.
 2. Check the TCP communication port number – default is __9699__.
 
-See the [Prerequisites](/docs/auditor/auditor/api/prerequisites.md) topic for additional information.
+See the [Prerequisites](../../api/prerequisites.md) topic for additional information.
 
 By default, activity records are written to _Netwrix_Auditor_API_ database which is not associated with a specific monitoring plan.
 
-Optionally, you can create a dedicated monitoring plan in Auditor. In this case, data will be written to a database linked to this plan. Target it at Netwrix API data source and enable for monitoring. Add a dedicated item of _Integration_ type to the plan for data to be filtered by item name. See the [Integration API](/docs/auditor/auditor/api/overview.md) topic for additional information.
+Optionally, you can create a dedicated monitoring plan in Auditor. In this case, data will be written to a database linked to this plan. Target it at Netwrix API data source and enable for monitoring. Add a dedicated item of _Integration_ type to the plan for data to be filtered by item name. See the [Integration API](../../api/overview.md) topic for additional information.
 
-In such scenario, you will need to specify this monitoring plan in the _naplan_ and _naplanitem_ attributes of the _`<AcceptList>` ® `<Address>`_ configuration parameters. See the [Add-On Parameters](/docs/auditor/auditor/addon/cyberark/parameters.md) topic for additional information.
+In such scenario, you will need to specify this monitoring plan in the _naplan_ and _naplanitem_ attributes of the _`<AcceptList>` ® `<Address>`_ configuration parameters. See the [Add-On Parameters](parameters.md) topic for additional information.
 
 ## Configure Syslog Message Forwarding in CyberArk
 
@@ -44,9 +44,9 @@ __Step 3 –__ Go to the __[SYSLOG]__ section and configure the following parame
 - __SyslogServerPort__ – communication port of the syslog server (i.e. add-on installation server). Default is __514__. Note that if you are using Netwrix Auditor for Network Devices, this port may be already in use, and you should provide another one.
 - __SyslogServerIP__ - IP address of the add-on installation server.
 - SyslogServerProtocol – communication protocol for data transfer between CyberArk system and the add-on. Specify __UDP__ protocol.
-- __SyslogMessageCodeFilter__ - IDs of events to forward. The add-on will only collect and process events you specify in this parameter. For the full list of supported events, see [Monitored Events](/docs/auditor/auditor/addon/cyberark/monitoredevents.md). Use comma as a separator.
+- __SyslogMessageCodeFilter__ - IDs of events to forward. The add-on will only collect and process events you specify in this parameter. For the full list of supported events, see [Monitored Events](monitoredevents.md). Use comma as a separator.
 
-![dbparamfile_thumb_0_0](/img/product_docs/auditor/auditor/addon/cyberark/dbparamfile_thumb_0_0.webp)
+![dbparamfile_thumb_0_0](../../../../../static/img/product_docs/auditor/auditor/addon/cyberark/dbparamfile_thumb_0_0.webp)
 
 __Step 4 –__ Save the __dbparam.ini__ file.
 
@@ -80,7 +80,7 @@ __Step 9 –__ When done, click __Finish__.
 
 The configuration wizard opens in the default web browser:
 
-![ConfigurationWizard](/img/product_docs/auditor/auditor/addon/privilegeduserlinux/configwizard.webp)
+![ConfigurationWizard](../../../../../static/img/product_docs/auditor/auditor/addon/privilegeduserlinux/configwizard.webp)
 
 Click __Proceed__ and complete the following fields:
 

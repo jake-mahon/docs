@@ -2,11 +2,11 @@
 
 The URLs tab for Microsoft Entra ID (formerly Azure AD) shows information about the URLs associated to the selected resource. URLs are correlated to launching activities in the browser extension. If a given site is not listed here, the activity login may fail as it is not an authorized site for login.
 
-![URLs Tab for Entra ID](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/details/azureaddetailspage.webp)
+![URLs Tab for Entra ID](../../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/details/azureaddetailspage.webp)
 
 The URLs tab has the following features:
 
-- Add — Opens the Add Website URL window. See the [Add Website URL Window](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/resources/addwebsiteurl.md) topic for additional information.
+- Add — Opens the Add Website URL window. See the [Add Website URL Window](../../window/resources/addwebsiteurl.md) topic for additional information.
 - Edit — Opens the Edit Website URL window. See Edit Website URL for additional information.
 - Remove — Removes the selected item
 - Search — Searches the table or list for matches to the search string. When matches are found, the table or list is filtered to the matching results.

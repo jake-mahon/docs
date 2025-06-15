@@ -26,8 +26,8 @@ You can __Pause__ source processing while you are configuring the correct settin
 
 To learn how to set up tagging for the certain content sources, refer to related sections of these chapters:
 
-- [Box](/docs/dataclassification/ndc/admin/sources/box/managebox.md)
-- [Database](/docs/dataclassification/ndc/admin/sources/database/managedatabase.md)
-- [Manage File System](/docs/dataclassification/ndc/admin/sources/filesystem/managefilesystem.md)
-- [ Google Drive](/docs/dataclassification/ndc/admin/sources/googledrive/managegoogledrive.md)
-- [SharePoint](/docs/dataclassification/ndc/admin/sources/sharepoint/introduction.md)
+- [Box](box/managebox.md)
+- [Database](database/managedatabase.md)
+- [Manage File System](filesystem/managefilesystem.md)
+- [ Google Drive](googledrive/managegoogledrive.md)
+- [SharePoint](sharepoint/introduction.md)

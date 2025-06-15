@@ -8,7 +8,7 @@ Navigate to the __Unix__ > __1.Users and Groups__ > __UX_PasswordSettings__ > __
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the UX_PasswordSettings Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/unix/usersgroups/passwordsettingsanalysis.webp)
+![Analysis Tasks for the UX_PasswordSettings Job](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/unix/usersgroups/passwordsettingsanalysis.webp)
 
 The default analysis tasks are:
 

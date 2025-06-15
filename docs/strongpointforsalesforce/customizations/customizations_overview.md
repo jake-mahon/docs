@@ -14,4 +14,4 @@ Customization records contain the following information:
 
 For Change Management and Compliance, the joins between customizations are critical to determine the IT risk of making changes to the system. For example, they warn you if changing a search could break a workflow or a script.
 
-![drd](/img/product_docs/strongpointforsalesforce/customizations/drd.webp)
+![drd](../../../static/img/product_docs/strongpointforsalesforce/customizations/drd.webp)

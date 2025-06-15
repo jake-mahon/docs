@@ -6,7 +6,7 @@ This guide will help you understand local Mac logging and also how to send those
 
 The Endpoint Policy Manager logs are located in /Library/Application Support/PolicyPak/Logs. If requested by Support, zip up these three logs. As the customer, you can find useful information within policypakd.log and cloud.log (details below).
 
-![1329_1_6e10551394ec326177434ffc228df475](/img/product_docs/policypak/policypak/leastprivilege/mac/1329_1_6e10551394ec326177434ffc228df475.webp)
+![1329_1_6e10551394ec326177434ffc228df475](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/mac/1329_1_6e10551394ec326177434ffc228df475.webp)
 
 ### Understanding Endpoint Policy ManagerD.Log
 
@@ -14,11 +14,11 @@ This log shows every process that ran on the computer. When installed, Endpoint 
 
 No Existing Policy
 
-![1329_2_d6a33d883a790b8367004838c34e770f](/img/product_docs/policypak/policypak/leastprivilege/mac/1329_2_d6a33d883a790b8367004838c34e770f.webp)
+![1329_2_d6a33d883a790b8367004838c34e770f](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/mac/1329_2_d6a33d883a790b8367004838c34e770f.webp)
 
 Policy Exists
 
-![1329_3_4b3667fda4b8ee8bc6b9d9a09ef88ee8](/img/product_docs/policypak/policypak/leastprivilege/mac/1329_3_4b3667fda4b8ee8bc6b9d9a09ef88ee8.webp)
+![1329_3_4b3667fda4b8ee8bc6b9d9a09ef88ee8](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/mac/1329_3_4b3667fda4b8ee8bc6b9d9a09ef88ee8.webp)
 
 ### Understanding Cloud.log
 
@@ -26,7 +26,7 @@ Cloud.log contains actioned items from the policypakd.log file, processes that r
 
 __NOTE:__ To get a better understanding of how you policies are working, or not working, policypakd.log will tell not only what processes were affected by policies, but also what processes weren’t – and maybe should have been.
 
-![1329_4_30c21b2015b47e5d92143f82a31997eb](/img/product_docs/policypak/policypak/leastprivilege/mac/1329_4_30c21b2015b47e5d92143f82a31997eb.webp)
+![1329_4_30c21b2015b47e5d92143f82a31997eb](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/mac/1329_4_30c21b2015b47e5d92143f82a31997eb.webp)
 
 ## Setting up Endpoint Policy Manager Cloud Groups for Event Collection
 
@@ -52,11 +52,11 @@ __Step 1 –__ Highlight the group you want to add the computer(s) to.
 
 __Step 2 –__ Click on __Add/Remove Computer from Group__ (under Actions).
 
-![1329_5_cd439679970dd94379dc97da3de13756](/img/product_docs/policypak/policypak/leastprivilege/mac/1329_5_cd439679970dd94379dc97da3de13756.webp)
+![1329_5_cd439679970dd94379dc97da3de13756](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/mac/1329_5_cd439679970dd94379dc97da3de13756.webp)
 
 __Step 3 –__ Click __Available Computers__.
 
-![1329_6_89a9d67a0c348b5ab03d304ea9392884](/img/product_docs/policypak/policypak/leastprivilege/mac/1329_6_89a9d67a0c348b5ab03d304ea9392884.webp)
+![1329_6_89a9d67a0c348b5ab03d304ea9392884](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/mac/1329_6_89a9d67a0c348b5ab03d304ea9392884.webp)
 
 __Step 4 –__ Check the ones to add and click __Add__.
 
@@ -64,7 +64,7 @@ Event Collection Configuration
 
 To configure Event Collection, highlight the group and click __Edit Group__ under Actions. On the resulting pop-up window, click on the __Event Collector__ tab.
 
-![1329_7_44a2bef19cdb90973520bb3702397eb4](/img/product_docs/policypak/policypak/leastprivilege/mac/1329_7_44a2bef19cdb90973520bb3702397eb4.webp)
+![1329_7_44a2bef19cdb90973520bb3702397eb4](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/mac/1329_7_44a2bef19cdb90973520bb3702397eb4.webp)
 
 The __Event submission interval__ dictates how often the logs get uploaded to the cloud. This is separate and distinct from the __Refresh interval for computers__ on the previous tab, which dictates how often the endpoint synchronizes the policies with the cloud.
 
@@ -72,7 +72,7 @@ You can also choose which events are collected and stored in the cloud. On large
 
 When __Selected Events__ is selected, clicking on the Info icon brings up a list of Event IDs that can be selected. In the image below are highlighted the two Event types that shown in the cloud.log example above.
 
-![1329_8_464e110a1254c22ecac8a612b13ffc76](/img/product_docs/policypak/policypak/leastprivilege/mac/1329_8_464e110a1254c22ecac8a612b13ffc76.webp)
+![1329_8_464e110a1254c22ecac8a612b13ffc76](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/mac/1329_8_464e110a1254c22ecac8a612b13ffc76.webp)
 
 Notes on Collection configuration:
 
@@ -80,7 +80,7 @@ Notes on Collection configuration:
 - When a Parent group is configured, all child groups will, by default, inherit the configuration as well. This behavior, however, can be altered to block inheritance.
 - If a computer is a member of multiple groups, the behavior is essentially accumulative. That is, all selected IDs will be included and uploaded in the shortest interval set.
 
-See the [How can I keep the same or specify different parameters for Event Collection for child groups? How does a computer behave if a member of multiple groups?](/docs/policypak/policypak/cloud/eventcollection/childgroups.md) topic for additional information.
+See the [How can I keep the same or specify different parameters for Event Collection for child groups? How does a computer behave if a member of multiple groups?](../../cloud/eventcollection/childgroups.md) topic for additional information.
 
 Forcing Event submission
 
@@ -88,7 +88,7 @@ If you are testing, or just want to upload the data immediately, you can force t
 
 ```policypak cloud-push-logs```
 
-![1329_9_e5dddf2ba28a115aa5782c49a21fbac6](/img/product_docs/policypak/policypak/leastprivilege/mac/1329_9_e5dddf2ba28a115aa5782c49a21fbac6.webp)
+![1329_9_e5dddf2ba28a115aa5782c49a21fbac6](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/mac/1329_9_e5dddf2ba28a115aa5782c49a21fbac6.webp)
 
 __NOTE:__ This command can be run by a standard user. It does not require elevated or administrative rights to perform.
 
@@ -96,16 +96,16 @@ __NOTE:__ This command can be run by a standard user. It does not require elevat
 
 All the collected events can be accessed through the __Computers (Collected Events)__ report on the Reports tab and selecting __Endpoint Policy Manager Least Privilege Manager for macOS__.
 
-![1329_10_2ab64dc549729d2f51cdf61ab7d88108](/img/product_docs/policypak/policypak/leastprivilege/mac/1329_10_2ab64dc549729d2f51cdf61ab7d88108.webp)
+![1329_10_2ab64dc549729d2f51cdf61ab7d88108](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/mac/1329_10_2ab64dc549729d2f51cdf61ab7d88108.webp)
 
 Next, configure the time period you want to report on. The default is the beginning of the day, but this can be altered to the desired start and stop time and date. Click __Show__ to see the results.
 
-![1329_11_7135ed6ab54692983796dd995a2517e4](/img/product_docs/policypak/policypak/leastprivilege/mac/1329_11_7135ed6ab54692983796dd995a2517e4.webp)
+![1329_11_7135ed6ab54692983796dd995a2517e4](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/mac/1329_11_7135ed6ab54692983796dd995a2517e4.webp)
 
 The results can be filtered to show only the desired information. For example, show only specific computers or only Elevation events. Every column can be filtered by clicking on the ellipsis within the column header.
 
-![1329_12_3996f6bea2016ba07eaf96f5c05b43c0](/img/product_docs/policypak/policypak/leastprivilege/mac/1329_12_3996f6bea2016ba07eaf96f5c05b43c0.webp)
+![1329_12_3996f6bea2016ba07eaf96f5c05b43c0](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/mac/1329_12_3996f6bea2016ba07eaf96f5c05b43c0.webp)
 
 For offline analysis, the report can be exported to either Excel or, if very large, CSV format. This can be done before or after filtering.
 
-![1329_13_50b225886bba8747a9460411f4662cc9](/img/product_docs/policypak/policypak/leastprivilege/mac/1329_13_50b225886bba8747a9460411f4662cc9.webp)
+![1329_13_50b225886bba8747a9460411f4662cc9](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/mac/1329_13_50b225886bba8747a9460411f4662cc9.webp)

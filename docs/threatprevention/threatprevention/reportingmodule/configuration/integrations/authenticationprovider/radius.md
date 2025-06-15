@@ -2,13 +2,13 @@
 
 The Remote Authentication Dial-In User Service (RADIUS) is a networking protocol that provides centralized authentication, authorization, and accounting management for users connecting to a network service.
 
-Once you have added an authentication provider, as discussed in the [Add an Authentication Provider](/docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/authenticationprovider/page.md#add-an-authentication-provider)topic, the next step is to configure the provider for use with a supported authentication provider type, i.e., OpenID, RADIUS, or SAML.
+Once you have added an authentication provider, as discussed in the [Add an Authentication Provider](page.md#add-an-authentication-provider)topic, the next step is to configure the provider for use with a supported authentication provider type, i.e., OpenID, RADIUS, or SAML.
 
 Use the gear icon in the upper right corner of the console to open the Configuration menu. Then select __Integrations__ to open the Integrations interface.
 
 On the Integrations interface, select an authentication provider under the Authentication Provider node in the navigation pane or from the table to configure, view, or modify its details.
 
-![Integrations interface displaying the details for a Radius authneication provider](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/authenticationprovider/radius.webp)
+![Integrations interface displaying the details for a Radius authneication provider](../../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/authenticationprovider/radius.webp)
 
 The details page for a RADIUS authentication provider has three tabs:
 
@@ -20,7 +20,7 @@ The details page for a RADIUS authentication provider has three tabs:
 
 Configure the following settings for a RADIUS provider on the Configuration tab:
 
-![Configuration tab for a RADIUS authneication provider](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/authenticationprovider/configurationradius.webp)
+![Configuration tab for a RADIUS authneication provider](../../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/authenticationprovider/configurationradius.webp)
 
 - Default – The default profile applied when a user is assigned multiple authentication profiles. When off, the profile will be determined in alphabetical order of the profile name. Toggle off and on as desired.
 - Server FQDN/IP – The address of the RADIUS proxy
@@ -51,7 +51,7 @@ Click Save to commit the configuration settings.
 
 The Customization tab is unique to RADIUS authentication providers. It contains the following settings that need to be configured:
 
-![Customization tab for a Radius authneication provider](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/authenticationprovider/customizationtab.webp)
+![Customization tab for a Radius authneication provider](../../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/authenticationprovider/customizationtab.webp)
 
 - Title for MFA Authentication dialog – The title that is displayed to the user when prompted for MFA
 - Text for MFA Authentication dialog – The text description that is displayed to the user when prompted for MFA
@@ -66,7 +66,7 @@ Click Save to save the configuration settings.
 
 The Users/Groups tab displays users and groups that are currently assigned to this authentication profile. To give access to the application to new users, click the New Access button, which opens the Add Console Access window. To assign this authentication provider to existing users, go to System Settings > User Access Page.
 
-![UserGroups tab for an authneication provider](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/authenticationprovider/usersgroupstab.webp)
+![UserGroups tab for an authneication provider](../../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/authenticationprovider/usersgroupstab.webp)
 
 The table displays the following information:
 
@@ -82,4 +82,4 @@ The table displays the following information:
   - Trash icon – Opens a Warning window to confirm the action of deleting the user or group. Removing a user or group removes console access for it.
   - Reset MFA button – Forces the user or every user in the group to reconfigure MFA on the next login. This option is only available if an MFA authentication type is applied to the user or group.
 
-See the [User Access Page](/docs/threatprevention/threatprevention/reportingmodule/configuration/systemsettings/useraccess.md) topic for additional information.
+See the [User Access Page](../../systemsettings/useraccess.md) topic for additional information.

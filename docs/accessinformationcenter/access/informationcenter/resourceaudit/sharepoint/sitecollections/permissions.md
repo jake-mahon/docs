@@ -2,7 +2,7 @@
 
 The Permissions report at the site collection, site, list, library, and folder levels provides a list of trustees with permissions for the selected resource. This report includes a table with trustee access levels Compared to Parent.
 
-![Permissions report at the site collection, site, list, library, and folder levels](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/sharepoint/sitecollections/sitepermissions.webp)
+![Permissions report at the site collection, site, list, library, and folder levels](../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/sharepoint/sitecollections/sitepermissions.webp)
 
 This report is comprised of the following columns:
 
@@ -22,7 +22,7 @@ This report is comprised of the following columns:
 - Deleted – True or False if trustee account is deleted
 - Stale – True or False if trustee account is stale (according to the length of inactive time used by the Access Analyzer data collection and analysis configuration to identify stale accounts)
 - Type – Direct or Inherited type of permission
-- Roles – Role name for the SharePoint permission level. For additional detail on what permissions each Role grants, see the Permission Mask column in the [Site Collection Roles Report](/docs/accessinformationcenter/access/informationcenter/resourceaudit/sharepoint/sitecollections/sitecollectionroles.md).
+- Roles – Role name for the SharePoint permission level. For additional detail on what permissions each Role grants, see the Permission Mask column in the [Site Collection Roles Report](sitecollectionroles.md).
 
 The following rights are a normalized representation of the SharePoint permission levels (SharePoint Roles) granted to the trustee:
 
@@ -35,6 +35,6 @@ If the selected trustee in the top section of the report is a group, the Group M
 
 There is one table at the bottom displaying Compared to Parent permissions for the select trustee. It contains information on explicit permissions granted for the selected resource.
 
-![Compared to Parent table](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/sharepoint/sitecollections/sitepermissionstable.webp)
+![Compared to Parent table](../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/sharepoint/sitecollections/sitepermissionstable.webp)
 
-This table is blank unless an __Explicit Permissions__ icon is attached to the resource in the Resources pane. See the [Resources Pane](/docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/resource.md#resources-pane) topic for additional information. This table is comprised of the same columns as the primary report, with the exception that it does not have the __Roles__ column.
+This table is blank unless an __Explicit Permissions__ icon is attached to the resource in the Resources pane. See the [Resources Pane](../../navigate/resource.md#resources-pane) topic for additional information. This table is comprised of the same columns as the primary report, with the exception that it does not have the __Roles__ column.

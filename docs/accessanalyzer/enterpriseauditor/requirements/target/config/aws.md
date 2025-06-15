@@ -8,7 +8,7 @@ __Step 2 –__ Create a Role in each target account that will be used to allow a
 
 __Step 3 –__ Create a Managed Policy in the designated scanning account that will be used to allow the service account to assume the configured role in each target account.
 
-__Step 4 –__ Add Role to Access Analyzer. The Role created in the scanning account will need to be added to the __1-AWS_OrgScan__, __2-AWS_S3Scan__, and __3-AWS_IAMScan__ job query configurations. See the [AWS: Login Roles](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/aws/loginroles.md) topic for additional information.
+__Step 4 –__ Add Role to Access Analyzer. The Role created in the scanning account will need to be added to the __1-AWS_OrgScan__, __2-AWS_S3Scan__, and __3-AWS_IAMScan__ job query configurations. See the [AWS: Login Roles](../../../admin/datacollector/aws/loginroles.md) topic for additional information.
 
 Once these steps are completed, the role must be added to the AWS queries within Access Analyzer.
 
@@ -18,11 +18,11 @@ The following steps will need to be completed in each target account.
 
 __Step 1 –__ Sign into the Identity and Access Management Console (IAM) as an administrator of the Trusting account.
 
-![Create policy in Identity and Access Management (IAM) Console](/img/product_docs/accessanalyzer/enterpriseauditor/requirements/target/config/policies.webp)
+![Create policy in Identity and Access Management (IAM) Console](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/requirements/target/config/policies.webp)
 
 __Step 2 –__ Browse to the Identity and Access Management (IAM) Console. Navigate to __Policies__ and click __Create policy__.
 
-![JSON tab in the Policy editor](/img/product_docs/accessanalyzer/enterpriseauditor/requirements/target/config/jsontabpolicies.webp)
+![JSON tab in the Policy editor](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/requirements/target/config/jsontabpolicies.webp)
 
 __Step 3 –__ Select the __JSON__ tab.
 
@@ -64,7 +64,7 @@ __Step 5 –__ Click __Review Policy__.
 
 __Step 6 –__ Enter a name for the policy in the __Name__ box.
 
-![Review policy page](/img/product_docs/accessanalyzer/enterpriseauditor/requirements/target/config/reviewpolicy.webp)
+![Review policy page](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/requirements/target/config/reviewpolicy.webp)
 
 __Step 7 –__ Click __Create Policy__.
 
@@ -100,17 +100,17 @@ __NOTE:__ If the scanning account is also a target account, be sure to complete 
 
 __Step 1 –__ Sign into the Identity and Access Management Console (IAM) as an administrator of the target account.
 
-![Create role in Identity and Access Management (IAM) Console](/img/product_docs/accessanalyzer/enterpriseauditor/requirements/target/config/roles.webp)
+![Create role in Identity and Access Management (IAM) Console](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/requirements/target/config/roles.webp)
 
 __Step 2 –__ Navigate to __Access management__ > __Roles__ and click __Create role__.
 
-![Create role page Another AWS account option](/img/product_docs/accessanalyzer/enterpriseauditor/requirements/target/config/createrole.webp)
+![Create role page Another AWS account option](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/requirements/target/config/createrole.webp)
 
 __Step 3 –__ Select the __Another AWS Account__ option and add the Account ID of the scanning account that will be leveraged within Access Analyzer.
 
 __Step 4 –__ Click __Next: Permissions__.
 
-![Add policies to role](/img/product_docs/accessanalyzer/enterpriseauditor/requirements/target/config/policiesadd.webp)
+![Add policies to role](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/requirements/target/config/policiesadd.webp)
 
 __Step 5 –__ Add the policy or policies created earlier in this topic to this role.
 
@@ -118,7 +118,7 @@ __Step 6 –__ Click __Next: Tags__.
 
 __Step 7 –__ Click __Next: Review__.
 
-![Create role Review page](/img/product_docs/accessanalyzer/enterpriseauditor/requirements/target/config/reviewrole.webp)
+![Create role Review page](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/requirements/target/config/reviewrole.webp)
 
 __Step 8 –__ Enter a __Role name__.
 
@@ -132,11 +132,11 @@ Create a Managed Policy in the scanning account that will be used to allow the u
 
 __Step 1 –__ Sign into the Identity and Access Management Console (IAM) as an administrator of the scanning account.
 
-![Create policy in Identity and Access Management (IAM) Console](/img/product_docs/accessanalyzer/enterpriseauditor/requirements/target/config/policies.webp)
+![Create policy in Identity and Access Management (IAM) Console](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/requirements/target/config/policies.webp)
 
 __Step 2 –__ Navigate to __Access Management__ > __Policies__ and click __Create policy__.
 
-![JSON tab in the Policy editor](/img/product_docs/accessanalyzer/enterpriseauditor/requirements/target/config/jsontabaccount.webp)
+![JSON tab in the Policy editor](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/requirements/target/config/jsontabaccount.webp)
 
 __Step 3 –__ Select the __JSON__ tab.
 
@@ -170,7 +170,7 @@ __NOTE:__ Replace ```ROLENAME``` with the name of the role that was created. If 
 
 __Step 5 –__ Click __Review Policy__.
 
-![Review policy page Name field](/img/product_docs/accessanalyzer/enterpriseauditor/requirements/target/config/reviewpolicyaccount.webp)
+![Review policy page Name field](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/requirements/target/config/reviewpolicyaccount.webp)
 
 __Step 6 –__ Enter a __Policy Name__.
 
@@ -180,8 +180,8 @@ __Step 8 –__ Create a group with the service account user and assign both poli
 
 __Step 9 –__ Under __Access Management__ > __Users__, select the service account user.
 
-![Security credentials tab](/img/product_docs/accessanalyzer/enterpriseauditor/requirements/target/config/securitycredentials.webp)
+![Security credentials tab](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/requirements/target/config/securitycredentials.webp)
 
 __Step 10 –__ In the Security credentials tab, click __Create access key__. Make sure to note the Access key ID and Secret access key which need to be input into Access Analyzer.
 
-You can now create the Connection Profile for the AWS Solution. See the [Amazon Web Services for User Credentials](/docs/accessanalyzer/enterpriseauditor/admin/settings/connection/profile/aws.md) topic for additional information.
+You can now create the Connection Profile for the AWS Solution. See the [Amazon Web Services for User Credentials](../../../admin/settings/connection/profile/aws.md) topic for additional information.

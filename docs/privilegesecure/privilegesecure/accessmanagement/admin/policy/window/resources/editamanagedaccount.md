@@ -6,7 +6,7 @@ __Step 1 –__ Select a resource from the results list.
 
 __Step 2 –__ Click __Edit__.
 
-![Edit a Managed Account for Resources](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/resources/editmanagedaccount.webp)
+![Edit a Managed Account for Resources](../../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/resources/editmanagedaccount.webp)
 
 __Step 3 –__ Enter the following information:
 

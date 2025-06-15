@@ -2,7 +2,7 @@
 
 The Password Reset Client allows users to securely reset their password or unlock their account from the Windows Logon and Unlock Computer screens. Users click __Reset Password__ to access the Password Reset system.
 
-![the_password_reset_client_905x750](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/the_password_reset_client_905x750.webp)
+![the_password_reset_client_905x750](../../../../static/img/product_docs/passwordpolicyenforcer/passwordreset/administration/the_password_reset_client_905x750.webp)
 
 __NOTE:__ The Password Reset Client does not modify any Windows system files.
 
@@ -46,7 +46,7 @@ __Step 3 –__ Right-click the domain root node in the left pane, and then click
 
 __Step 4 –__ Enter __Password Reset Client__, then press __ENTER__.
 
-![the_password_reset_client_1_895x652](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/the_password_reset_client_1_895x652.webp)
+![the_password_reset_client_1_895x652](../../../../static/img/product_docs/passwordpolicyenforcer/passwordreset/administration/the_password_reset_client_1_895x652.webp)
 
 ### Edit the Group Policy Object
 
@@ -94,7 +94,7 @@ __Step 6 –__ Click __Add...__ and then browse to the Client folder below the P
 
 __Step 7 –__ Select __NPRClt.adm__, and then click __Open__.
 
-![the_password_reset_client_2](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/the_password_reset_client_2.webp)
+![the_password_reset_client_2](../../../../static/img/product_docs/passwordpolicyenforcer/passwordreset/administration/the_password_reset_client_2.webp)
 
 __Step 8 –__ Click __Close__.
 
@@ -108,11 +108,11 @@ __Step 2 –__ __Right-click__ the __Password Reset Client__ GPO, then click the
 
 __Step 3 –__ Expand the __Computer Configuration, Policies__ (if it exists), __Administrative Templates__, __Classic Administrative Templates (ADM)__, __Netwrix Password Reset__, and __Password Reset Client__ items.
 
-![the_password_reset_client_3](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/the_password_reset_client_3.webp)
+![the_password_reset_client_3](../../../../static/img/product_docs/passwordpolicyenforcer/passwordreset/administration/the_password_reset_client_3.webp)
 
 __Step 4 –__ Double-click the __Browser settings__ item in the right pane of the Group Policy Management Editor.
 
-![the_password_reset_client_4](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/the_password_reset_client_4.webp)
+![the_password_reset_client_4](../../../../static/img/product_docs/passwordpolicyenforcer/passwordreset/administration/the_password_reset_client_4.webp)
 
 __Step 5 –__ Select the __Enabled__option.
 
@@ -171,7 +171,7 @@ __Step 9 –__ Select the __Enabled__ option.
 
 __Step 10 –__ Click inside the __License key__ text box, then paste the license key.
 
-![the_password_reset_client_5](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/the_password_reset_client_5.webp)
+![the_password_reset_client_5](../../../../static/img/product_docs/passwordpolicyenforcer/passwordreset/administration/the_password_reset_client_5.webp)
 
 __Step 11 –__ Click __OK__.
 

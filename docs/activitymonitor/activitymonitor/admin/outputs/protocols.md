@@ -4,7 +4,7 @@ The Protocols tab on an output Properties window is where monitoring scope by pr
 
 Select an output from the Monitored Hosts tab and click __Edit__ to open the output Properties window.
 
-![Protocols Tab](/img/product_docs/activitymonitor/activitymonitor/admin/outputs/protocolstab.webp)
+![Protocols Tab](../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/outputs/protocolstab.webp)
 
 The tab contains the following settings:
 

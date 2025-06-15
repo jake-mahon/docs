@@ -17,7 +17,7 @@ __Step 1 –__ Within the __Jobs__ tree, right-click and select __Add Instant Jo
 
 __Step 2 –__ On the Welcome page, click __Next__.
 
-![FS_UpdateProxy Job in the Instant Job Wizard](/img/product_docs/accessanalyzer/enterpriseauditor/install/filesystemproxy/updateproxyinstantjob.webp)
+![FS_UpdateProxy Job in the Instant Job Wizard](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/install/filesystemproxy/updateproxyinstantjob.webp)
 
 __Step 3 –__ On the Instant Job page, locate the __Library Name: File System__ category group. Expand the category and select the __FS_UpgradeProxy__ Job. Click __Next__.
 
@@ -35,10 +35,10 @@ The proxy does not update until the job is run. Once successfully ran, the serve
 
 Follow the steps on the servers hosting the File System Proxy Service.
 
-![Programs and Features](/img/product_docs/accessanalyzer/enterpriseauditor/install/filesystemproxy/uninstall.webp)
+![Programs and Features](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/install/filesystemproxy/uninstall.webp)
 
 __Step 1 –__ Navigate to Programs and Features (__Control Panel__ > __Programs__ > __Programs and Features__). Uninstall the previous version of Access Analyzer File System Scanning Proxy.
 
-__Step 2 –__ Install the new version of the File System Proxy Service. See the [File System Proxy Service Installation](/docs/accessanalyzer/enterpriseauditor/install/filesystemproxy/wizard.md) topic for instructions.
+__Step 2 –__ Install the new version of the File System Proxy Service. See the [File System Proxy Service Installation](wizard.md) topic for instructions.
 
 The File System Solution can now use the proxy architecture for the latest version of the solution.

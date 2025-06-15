@@ -8,7 +8,7 @@ Navigate to the __Jobs__ > __SharePoint__ > __1.Direct Permissions__ > __SP_Stal
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the SP_StaleUsers Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/users/staleusersanalysis.webp)
+![Analysis Tasks for the SP_StaleUsers Job](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/users/staleusersanalysis.webp)
 
 The default analysis tasks are:
 

@@ -6,8 +6,8 @@ This page allows to you review you the name of the source you created, its locat
 
 | Icon | Description |
 | --- | --- |
-| ![alert_icon](/img/product_docs/1secure/admin/organizations/alert_icon.webp) | Alert Icon. Click the Alert Icon to notify that the credentials have expired or been lost after reinstallation of the Netwrix Cloud Agent and must be entered again before they can be used. |
+| ![alert_icon](../../../../static/img/product_docs/1secure/admin/organizations/alert_icon.webp) | Alert Icon. Click the Alert Icon to notify that the credentials have expired or been lost after reinstallation of the Netwrix Cloud Agent and must be entered again before they can be used. |
 
 __NOTE:__ You can delete a credential if no sources are using those credentials.
 
-![credentials](/img/product_docs/activitymonitor/activitymonitor/install/agent/credentials.webp)
+![credentials](../../../../static/img/product_docs/activitymonitor/activitymonitor/install/agent/credentials.webp)

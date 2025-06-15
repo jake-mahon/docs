@@ -1,14 +1,14 @@
 # History Retention Schedule
 
-While configuring history tracking for an identity store, you can choose to keep history records forever in the Directory Manager database or retain history for a specific period. See the [Configure History Tracking](/docs/groupid/groupid/admincenter/identitystore/configure/directoryservice/historytracking.md) topic for additional information. In case you select the
+While configuring history tracking for an identity store, you can choose to keep history records forever in the Directory Manager database or retain history for a specific period. See the [Configure History Tracking](../identitystore/configure/directoryservice/historytracking.md) topic for additional information. In case you select the
 latter option, the History Retention schedule is auto created for the identity store. This schedule runs on a specified frequency to check if the retention period is over for any history records, and if so, move them from the Directory Manager database to the
 following .csv files:
 
 - History – Contains history data of the Directory Manager portal (including Synchronize), Management Shell, and scheduled jobs. It also contains history data for the identity store, security roles,
   and workflow configurations.
-- AuditingHistory – Contains history data of all authentication actions performed in Directory Manager, as logged in Helpdek history. See the [History in Helpdesk](/docs/groupid/groupid/admincenter/helpdesk/history.md) topic for additional information.
-- PasswordCenterHistory – Contains history data of all actions tracked in Helpdesk, except the authentication action. See the [History in Helpdesk](/docs/groupid/groupid/admincenter/helpdesk/history.md) topic for additional information.
-- AdminCenterHistory – Contains Admin Center history data. See the [Admin Center History](/docs/groupid/groupid/admincenter/general/history.md) topic for additional information.
+- AuditingHistory – Contains history data of all authentication actions performed in Directory Manager, as logged in Helpdek history. See the [History in Helpdesk](../helpdesk/history.md) topic for additional information.
+- PasswordCenterHistory – Contains history data of all actions tracked in Helpdesk, except the authentication action. See the [History in Helpdesk](../helpdesk/history.md) topic for additional information.
+- AdminCenterHistory – Contains Admin Center history data. See the [Admin Center History](../general/history.md) topic for additional information.
 
 These files are available at the following location on the Directory Manager server:
 
@@ -22,7 +22,7 @@ NOTE: Admin Center history does not fall in a specific identity store, so its re
 
 After the History Retention schedule runs, the following information is displayed on the __History__ page in identity store configurations:
 
-![History Retension Information ](/img/product_docs/groupid/groupid/admincenter/schedule/historyretention.webp)
+![History Retension Information ](../../../../../static/img/product_docs/groupid/groupid/admincenter/schedule/historyretention.webp)
 
 You cannot create or delete a History Retention schedule; only update the existing one.
 
@@ -41,7 +41,7 @@ The default name format is: _HistoryRetention_`<identity store ID>`_`<identity s
 
 Step 6 – The Name Preview box displays the schedule name as HistoryRetention; the schedule is displayed with this name in email notifications.
 
-Step 7 – In the Scheduler Service Name drop-down list, select a Scheduler service that would be responsible for triggering this schedule. The number of services displayed in the list depend on the number of nodes in all Elasticsearch clusters in the environment, as each node has its own Scheduler service. See the [Scheduler Service](/docs/groupid/groupid/admincenter/service/schedulerservice.md) topic for additional information.
+Step 7 – In the Scheduler Service Name drop-down list, select a Scheduler service that would be responsible for triggering this schedule. The number of services displayed in the list depend on the number of nodes in all Elasticsearch clusters in the environment, as each node has its own Scheduler service. See the [Scheduler Service](../service/schedulerservice.md) topic for additional information.
 
 Please note the following while selecting a Scheduler service:
 
@@ -59,9 +59,9 @@ Step 8 – The Triggers area displays the default triggering frequency for the s
 - To add a new trigger, click __Add Trigger__.
 
 Follow step 11 in
-the [Create a Group Usage Service Schedule](/docs/groupid/groupid/admincenter/schedule/groupusageservice.md#create-a-group-usage-service-schedule) topic to manage triggers.
+the [Create a Group Usage Service Schedule](groupusageservice.md#create-a-group-usage-service-schedule) topic to manage triggers.
 
 Step 9 – Click __Update Schedule__.
 
 Step 10 – On the Schedules page, click __Save__.   
-For general schedule info, see the [View the Schedules in an Identity Store ](/docs/groupid/groupid/admincenter/schedule/manage.md#view-the-schedules-in-an-identity-store) topic for additional information.
+For general schedule info, see the [View the Schedules in an Identity Store ](manage.md#view-the-schedules-in-an-identity-store) topic for additional information.

@@ -4,7 +4,7 @@ Identity Manager uses [Serilog](https://github.com/serilog/), a highly customiz
 
 See the [
 References: Logs
-](/docs/usercube_saas/usercube/integration-guide/monitoring/references/index.md) topic for additional information on the list of existing logs.
+](references/index.md) topic for additional information on the list of existing logs.
 
 ## Introduction
 
@@ -284,7 +284,7 @@ QRadar is a supported destination for Identity Manager's logs.
 
 See the [
 Export Logs to a Log Management System
-](/docs/usercube_saas/usercube/integration-guide/monitoring/how-tos/qradar-setting/index.md) topic to learn how to send Identity Manager's logs to your QRadar system.
+](how-tos/qradar-setting/index.md) topic to learn how to send Identity Manager's logs to your QRadar system.
 
 Three output formats are available for QRadar-routed logs:
 

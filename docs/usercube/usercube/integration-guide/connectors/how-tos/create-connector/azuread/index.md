@@ -1,7 +1,7 @@
 # For Microsoft Entra ID
 
 See the[
-Microsoft Entra ID](/docs/usercube/usercube/integration-guide/connectors/references-connectors/microsoftentraid/index.md) topic for additional information about creating a connector.
+Microsoft Entra ID](../../../references-connectors/microsoftentraid/index.md) topic for additional information about creating a connector.
 
 ## Prerequisites
 
@@ -9,12 +9,12 @@ The following are prerequisites for the connector creation.
 
 Configure the external system
 
-See the [Register for Microsoft Entra ID](/docs/usercube/usercube/integration-guide/connectors/how-tos/azuread-register/index.md) topic for additional information on how to register Identity Manager.
+See the [Register for Microsoft Entra ID](../../azuread-register/index.md) topic for additional information on how to register Identity Manager.
 
 Configure Identity Manager
 
 See the [
-Microsoft Entra ID](/docs/usercube/usercube/integration-guide/connectors/references-connectors/microsoftentraid/index.md) topic for additional information on the connection.
+Microsoft Entra ID](../../../references-connectors/microsoftentraid/index.md) topic for additional information on the connection.
 
 For example:
 
@@ -42,7 +42,7 @@ appsettings.agent.json
 
 See the [
 Connect to a Managed System
-](/docs/usercube/usercube/user-guide/set-up/connect-system/index.md) topic for additional information on how to build a connector via the UI, with its connections, entity types and mappings.
+](../../../../../user-guide/set-up/connect-system/index.md) topic for additional information on how to build a connector via the UI, with its connections, entity types and mappings.
 
 This example declares the Entra ID connector on the Local agent:
 
@@ -61,7 +61,7 @@ Conf/AzureAD/AzureAD Connector.xml
 
 ### Entity model
 
-The entity model should match as closely as possible the structure of the relevant Microsoft Entra ID data, and be aligned with Identity Manager's repository. See the [Entity Model](/docs/usercube/usercube/integration-guide/entity-model/index.md)topic for additional information.
+The entity model should match as closely as possible the structure of the relevant Microsoft Entra ID data, and be aligned with Identity Manager's repository. See the [Entity Model](../../../../entity-model/index.md)topic for additional information.
 
 For example, Microsoft Entra ID's Users and Groups can be described by entity types, and group memberships by entity associations.
 
@@ -143,7 +143,7 @@ Conf/AzureAD/AzureAD Connector.xml
 
 Notice the format of the Property1 and Property2 XML attributes: the name of the entity type is followed by a colon (:) and the name of an entity property. It is a binding describing in one expression, the target entity type and property. See the[
 Binding
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/metadata/binding/index.md) topic for additional information.
+](../../../../toolkit/xml-configuration/metadata/binding/index.md) topic for additional information.
 
 Entity mapping
 
@@ -247,7 +247,7 @@ Menu items
 
 Each connector should be configured with a menu item, which is created automatically when working via the UI.
 
-![Menu Item - Azure AD Connector](/img/product_docs/usercube/usercube/integration-guide/connectors/how-tos/create-connector/azuread/howtos_azure_menuitem_v603.webp)
+![Menu Item - Azure AD Connector](../../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/connectors/how-tos/create-connector/azuread/howtos_azure_menuitem_v603.webp)
 
 In XML, it should look like this:
 
@@ -262,7 +262,7 @@ Displayed resources
 
 See the [
 Organize Resources' Datasheets
-](/docs/usercube/usercube/user-guide/set-up/connect-system/entity-type-creation/datasheet-organization/index.md) topic for additional information on how to set the display properties via the UI.
+](../../../../../user-guide/set-up/connect-system/entity-type-creation/datasheet-organization/index.md) topic for additional information on how to set the display properties via the UI.
 
 For example:
 
@@ -277,7 +277,7 @@ Conf/AzureAD/AzureAD UI.xml
 
 ```
 
-![Navigation Properties - Azure AD Connector](/img/product_docs/usercube/usercube/integration-guide/connectors/how-tos/create-connector/azuread/howtos_azure_navproperties_v603.webp)
+![Navigation Properties - Azure AD Connector](../../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/connectors/how-tos/create-connector/azuread/howtos_azure_navproperties_v603.webp)
 
 Microsoft Entra ID's resources are listed in a table.
 
@@ -295,7 +295,7 @@ Conf/AzureAD/AzureAD UI.xml
 
 ```
 
-![Display Table - Azure AD Connector](/img/product_docs/usercube/usercube/integration-guide/connectors/how-tos/create-connector/azuread/howtos_azure_table_v603.webp)
+![Display Table - Azure AD Connector](../../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/connectors/how-tos/create-connector/azuread/howtos_azure_table_v603.webp)
 
 This is how the resources are displayed on the UI.
 
@@ -303,7 +303,7 @@ Resources' display names
 
 See the [
 Set Resources' Display Names
-](/docs/usercube/usercube/user-guide/set-up/connect-system/entity-type-creation/display-name-setting/index.md) topic for additional information on how to set resources' display names via the UI.
+](../../../../../user-guide/set-up/connect-system/entity-type-creation/display-name-setting/index.md) topic for additional information on how to set resources' display names via the UI.
 
 For example:
 

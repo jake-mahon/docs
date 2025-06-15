@@ -8,7 +8,7 @@ Company X manages electronic medical records containing sensitive information su
 
 Since the data is organized by patient profile, the administrator can create a HIPAA-compliant policy as shown below.
 
-![Content Aware Edit Policy](/img/product_docs/endpointprotector/endpointprotector/admin/contentawareprotection/capeditpolicytwo.png)
+![Content Aware Edit Policy](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/contentawareprotection/capeditpolicytwo.png)
 
 This policy is set to Block & Report, with a Global Threshold of 4. It scans the following:
 
@@ -25,10 +25,10 @@ Company Y maintains a large database of sensitive patient information, stored in
 
 You can create a policy to block the transfer of files containing 10 or more PIIs by setting the Global Threshold to 10, as shown in the policy example below.
 
-![Applying multiple Content Aware Policies](/img/product_docs/endpointprotector/endpointprotector/admin/contentawareprotection/policyinformationtwo.png)
+![Applying multiple Content Aware Policies](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/contentawareprotection/policyinformationtwo.png)
 
 Another HIPAA-compliant policy can be configured to report the transfer of ﬁles containing 3 PII items by setting the Regular Threshold to 3, as shown in the example below.
 
-![Applying multiple Content Aware Policies](/img/product_docs/endpointprotector/endpointprotector/admin/contentawareprotection/policyinformationthree.png)
+![Applying multiple Content Aware Policies](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/contentawareprotection/policyinformationthree.png)
 
 The Block & Report policy takes priority, while the Report Only policy is secondary.

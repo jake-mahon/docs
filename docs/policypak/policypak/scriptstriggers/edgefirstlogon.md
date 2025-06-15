@@ -4,7 +4,7 @@ __Step 1 –__ Create a new Scripts and Triggers Policy on the Computer side tha
 
 __Step 2 –__ Use the script below and be sure to check the option to run the script interactively and as the user.
 
-![868_1_image-20220225024809-1_950x457](/img/product_docs/policypak/policypak/scriptstriggers/868_1_image-20220225024809-1_950x457.webp)
+![868_1_image-20220225024809-1_950x457](../../../../static/img/product_docs/policypak/policypak/scriptstriggers/868_1_image-20220225024809-1_950x457.webp)
 
 ```
 $path = "$env:LOCALAPPDATA\temp\1stlogon.flg"  
@@ -27,7 +27,7 @@ else
 
 __Step 3 –__ At the "Specify process mode" screen select "On trigger" and choose "Logon" from the drop-down, then click "Next".
 
-![868_2_image-20220225024809-2](/img/product_docs/policypak/policypak/scriptstriggers/868_2_image-20220225024809-2.webp)
+![868_2_image-20220225024809-2](../../../../static/img/product_docs/policypak/policypak/scriptstriggers/868_2_image-20220225024809-2.webp)
 
 __Step 4 –__ At the Trigger settings" screen set a delay if desired otherwise click "Next" the skip this option.
 
@@ -35,4 +35,4 @@ __Step 5 –__ At the "Policy settings" screen give the policy a descriptive nam
 
 __Step 6 –__ Lastly, apply the policy, and test with a new user logon, if all goes well you will see the screen below after a successful 1st logon.
 
-![868_3_image-20220225024809-3_900x490](/img/product_docs/policypak/policypak/scriptstriggers/868_3_image-20220225024809-3_900x490.webp)
+![868_3_image-20220225024809-3_900x490](../../../../static/img/product_docs/policypak/policypak/scriptstriggers/868_3_image-20220225024809-3_900x490.webp)

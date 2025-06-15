@@ -10,9 +10,9 @@ Consider an external system that is accessible through a web interface, and that
 
 This guide will focus only on how to interact with a web-based application. The guide on how to write a Robot Framework script explains the basics of Robot Framework. The basic prerequisites can be found on the Robot Framework connector page. See the [
 Write a Robot Framework Script
-](/docs/usercube_saas/usercube/integration-guide/connectors/how-tos/write-fulfill-robotframework-script/index.md) and [
+](../write-fulfill-robotframework-script/index.md) and [
 Robot Framework
-](/docs/usercube_saas/usercube/integration-guide/connectors/references-connectors/robotframework/index.md) topics for additional information.
+](../../references-connectors/robotframework/index.md) topics for additional information.
 
 The prerequisites are explained in detail at the [Robot Framework selenium pypi](https://pypi.org/project/robotframework-seleniumlibrary/) page.
 
@@ -34,7 +34,7 @@ Selenium is a web browser automation tool. Selenium can automatically perform sc
 
 The basic structure of a web page is defined with HTML. It is accessible with the inspect tool, which can be opened by pressing the F12 key on most browsers. For Selenium, we want to find information on specific parts of the page. Inspecting an element can be done by right clicking the element, and clicking __Inspect__.
 
-![Inspect Tool](/img/product_docs/usercube/usercube/integration-guide/connectors/how-tos/interact-web-page-robotframework/robotframeworkselenium_inspecttool.webp)
+![Inspect Tool](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/connectors/how-tos/interact-web-page-robotframework/robotframeworkselenium_inspecttool.webp)
 
 Suppose the goal of the script is to copy the content of the code block, and paste it to a file, to ensure that the file is up to date with the documentation. To do this, the Robot Framework has to click on the __copy to clipboard__ button with the keyword [```Click Element```](https://robotframework.org/SeleniumLibrary/SeleniumLibrary.html#click-element).
 
@@ -48,7 +48,7 @@ In the HTML, the button has a class ```class="copy-to-clipboard"```. The element
 
 Each element on the web page has an XPath, and each XPath uniquely identifies an element. This means that we can always use an XPath locator. To get the XPath of an element, inspect the element, then right click it in the HTML, and click on __Copy__ > __Full XPath__.
 
-![Copy Full XPath](/img/product_docs/usercube/usercube/integration-guide/connectors/how-tos/interact-web-page-robotframework/robotframeworkselenium_copyfullxpath.webp)
+![Copy Full XPath](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/connectors/how-tos/interact-web-page-robotframework/robotframeworkselenium_copyfullxpath.webp)
 
 For the ```copy to clipboard``` button, the XPath is ```/html/body/section/div[2]/div[3]/div[1]/pre[4]/span```.
 

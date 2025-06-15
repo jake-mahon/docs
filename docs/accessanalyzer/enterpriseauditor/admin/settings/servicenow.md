@@ -1,8 +1,8 @@
 # ServiceNow
 
-The ServiceNow® node is for configuring the settings needed to integrate with ServiceNow. These settings are exclusive to the Access Analyzer integration with ServiceNow and are used by the ServiceNow Action Module. See the [ServiceNow Action Module](/docs/accessanalyzer/enterpriseauditor/admin/action/servicenow/overview.md) topic for additional information.
+The ServiceNow® node is for configuring the settings needed to integrate with ServiceNow. These settings are exclusive to the Access Analyzer integration with ServiceNow and are used by the ServiceNow Action Module. See the [ServiceNow Action Module](../action/servicenow/overview.md) topic for additional information.
 
-![ServiceNow node](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/servicenow.webp)
+![ServiceNow node](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/servicenow.webp)
 
 Provide ServiceNow authentication information to your ServiceNow instance.
 

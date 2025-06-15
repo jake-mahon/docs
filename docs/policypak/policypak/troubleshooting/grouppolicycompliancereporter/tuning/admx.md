@@ -16,13 +16,13 @@ Inside the Endpoint Policy Manager GPCR download is the PPGPCR Diagnostics ADMX.
 
 You can see what copying those files to a Group Policy Central store looks like in Figure 58.
 
-![tuning_and_troubleshooting_624x274](/img/product_docs/policypak/policypak/troubleshooting/grouppolicycompliancereporter/tuning/tuning_and_troubleshooting_624x274.webp)
+![tuning_and_troubleshooting_624x274](../../../../../../static/img/product_docs/policypak/policypak/troubleshooting/grouppolicycompliancereporter/tuning/tuning_and_troubleshooting_624x274.webp)
 
 Figure 58. Copying the ADMX files to the PolicyDefinitions folder.
 
 Now when you edit Group Policy Objects (GPOs), you will see Endpoint Policy Manager GPCR policy settings under ```Computer Configuration\Policies\Administrative Templates\PolicyPak```. The settings to tune ```PPGPCR.Auditor.exe``` on endpoints can be seen in the Auditor Endpoints folder, as shown in Figure 59.
 
-![tuning_and_troubleshooting_1_624x272](/img/product_docs/policypak/policypak/troubleshooting/grouppolicycompliancereporter/tuning/tuning_and_troubleshooting_1_624x272.webp)
+![tuning_and_troubleshooting_1_624x272](../../../../../../static/img/product_docs/policypak/policypak/troubleshooting/grouppolicycompliancereporter/tuning/tuning_and_troubleshooting_1_624x272.webp)
 
 Figure 59. The policy settings for endpoints.
 

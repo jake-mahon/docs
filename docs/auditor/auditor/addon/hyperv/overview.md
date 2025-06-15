@@ -17,7 +17,7 @@ Major benefits:
 
 The add-on is implemented as a stand-alone application that collects activity data from Virtual Machine Manager and sends it to Auditor using the Integration API.
 
-![HIW](/img/product_docs/auditor/auditor/addon/cyberark/diagram_thumb_0_0.webp)
+![HIW](../../../../../static/img/product_docs/auditor/auditor/addon/cyberark/diagram_thumb_0_0.webp)
 
 On a high level, the solution works as follows:
 
@@ -29,11 +29,11 @@ On a high level, the solution works as follows:
 4. The IT administrator selects the deployment scenario and runs install.ps1 PowerShell script file to deploy and configure the add-on components on the target server.
 5. This script creates a Windows scheduled task that will run periodically (every 15 minutes) to collect audit data from VMM server.
 
-   See the [Monitoring Scope](/docs/auditor/auditor/addon/hyperv/monitoredevents.md) for additional information on the default list of the events supported out-of-the box.
+   See the [Monitoring Scope](monitoredevents.md) for additional information on the default list of the events supported out-of-the box.
 6. The add-on component __HVARunner.exe__ starts collecting activity data from VMM. Data communication is performed using TCP protocol.
 7. The add-on processes this data into Auditor-compatible format (Activity Records). Each Activity Record contains the Who-What-When-Where-Action information (that is, initiator's account, time, action, and other details).
 
-See the [Integration API](/docs/auditor/auditor/api/overview.md) topic for additional information on the structure of the Activity Record and the capabilities of the Integration API.
+See the [Integration API](../../api/overview.md) topic for additional information on the structure of the Activity Record and the capabilities of the Integration API.
 
 8. The add-on uses the Integration API to send the Activity Records to Auditor Server, where this data becomes available for search, reporting and alerting.
 9. Users open Auditor Client to work with collected data:
@@ -59,7 +59,7 @@ Before running the add-on, ensure that all the necessary components and policies
 
 | On... | Ensure that... |
 | --- | --- |
-| Auditor Server | - Integration API and Audit Database settings are configured in Auditor Server settings. See the [Prerequisites](/docs/auditor/auditor/api/prerequisites.md) and [Audit Database](/docs/auditor/auditor/admin/settings/auditdatabase.md) topics for additional information. - The __TCP 9699__ port must be open on Windows firewall for inbound connections. - User account under which data will be written to the Audit Database requires the __Contributor__ role in Netwrix Auditor. See the [Role-Based Access and Delegation](/docs/auditor/auditor/admin/monitoringplans/delegation.md) topic for additional information.  Alternatively, you can grant it the __Global administrator__ role, or add that account to the __Netwrix Auditor Administrators__ group. |
+| Auditor Server | - Integration API and Audit Database settings are configured in Auditor Server settings. See the [Prerequisites](../../api/prerequisites.md) and [Audit Database](../../admin/settings/auditdatabase.md) topics for additional information. - The __TCP 9699__ port must be open on Windows firewall for inbound connections. - User account under which data will be written to the Audit Database requires the __Contributor__ role in Netwrix Auditor. See the [Role-Based Access and Delegation](../../admin/monitoringplans/delegation.md) topic for additional information.  Alternatively, you can grant it the __Global administrator__ role, or add that account to the __Netwrix Auditor Administrators__ group. |
 | Add-on installation server, i.e. the machine where the add-on will be installed | - The __TCP 5985__ port must be open on Windows firewall for inbound connections. - NET Framework 4.5 or later. |
 | Microsoft System Center Virtual Machine Manager | SCVMM versions:   - 2019 - 2016 |
 | Virtualization hosts | - Microsoft Hyper-V (hardware and nested-virtualization) - VMware ESXi |
@@ -71,7 +71,7 @@ It is recommended to create a dedicated account for running the add-on.
 This account should have the following minimal rights and permissions:
 
 - __Administrator__ role in SCVMM
-- __Contributor__ role in Auditor. See the [Role-Based Access and Delegation](/docs/auditor/auditor/admin/monitoringplans/delegation.md) topic for additional information.
+- __Contributor__ role in Auditor. See the [Role-Based Access and Delegation](../../admin/monitoringplans/delegation.md) topic for additional information.
 
 ### Considerations and Limitations
 

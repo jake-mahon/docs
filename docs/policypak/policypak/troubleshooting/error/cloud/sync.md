@@ -34,11 +34,11 @@ Please see below for examples:
 
 ```[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319] ```
 
-![189_1_image-20190913212621-1](/img/product_docs/policypak/policypak/troubleshooting/error/cloud/189_1_image-20190913212621-1.webp)
+![189_1_image-20190913212621-1](../../../../../../static/img/product_docs/policypak/policypak/troubleshooting/error/cloud/189_1_image-20190913212621-1.webp)
 
 ```[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319]```
 
-![189_2_image-20190913212621-2](/img/product_docs/policypak/policypak/troubleshooting/error/cloud/189_2_image-20190913212621-2.webp)
+![189_2_image-20190913212621-2](../../../../../../static/img/product_docs/policypak/policypak/troubleshooting/error/cloud/189_2_image-20190913212621-2.webp)
 
 If you prefer you can create a .REG file using the text below, then import the script on any computers experiencing the issue. Then REBOOT the computer(s). After the REBOOT the sync should be working again.
 

@@ -6,6 +6,6 @@ Equally the notion of maintaining configuration standards or standardizing on a 
 
 Despite all this, it is encouraging that the security controls mandated by NIST, PCI and the CIS among others are still fit for purpose.
 
-![cloudtrackeroverview](/img/product_docs/changetracker/changetracker/cloud/cloudtrackeroverview.webp)
+![cloudtrackeroverview](../../../../static/img/product_docs/changetracker/changetracker/cloud/cloudtrackeroverview.webp)
 
 But operating them to keep pace let alone get out in front of IT operations is where automation and technology can play a part. The most critical of all in terms of giving most bang for buck is NNT's SecureOps™ solution which leverages intelligent Change Control for your Cloud and Container environments. NNT SecureOps™ tends to be operated right at the center of Business-as-Usual IT processes, and not only allows security standards to be maintained constantly but gives you ultimate advantage in that all-crucial early breach detection that we know can otherwise be so damaging.

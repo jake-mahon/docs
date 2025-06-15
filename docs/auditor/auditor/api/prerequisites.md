@@ -2,7 +2,7 @@
 
 Netwrix Auditor Integration API uses HTTPS for communication with the automatically generated certificate. The default communication port is 9699.
 
-Refer to the [Security](/docs/auditor/auditor/api/security.md) topic for detailed instructions on how
+Refer to the [Security](security.md) topic for detailed instructions on how
 to disable HTTPS and manage other API settings.
 
 ## Configure Integration API Settings
@@ -17,7 +17,7 @@ __Step 3 –__  Click Modify under the API settings section and specify a port 
 
 __Step 4 –__ If you use a third-party firewall, you must create a rule for inbound connections manually.
 
-![Integration API Settings](/img/product_docs/auditor/auditor/addon/connectwise/integrations_thumb_0_0.webp)
+![Integration API Settings](../../../../static/img/product_docs/auditor/auditor/addon/connectwise/integrations_thumb_0_0.webp)
 
 ## Configure Audit Database Settings
 
@@ -27,4 +27,4 @@ Make sure that the Audit Database settings are configured in Netwrix Auditor. To
 
 You cannot use Netwrix Auditor Integration API without configuring the Audit Database.
 
-Refer to the [Audit Database](/docs/auditor/auditor/admin/settings/auditdatabase.md) topic for detailed instructions on how to configure SQL Server settings.
+Refer to the [Audit Database](../admin/settings/auditdatabase.md) topic for detailed instructions on how to configure SQL Server settings.

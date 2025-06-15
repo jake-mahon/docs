@@ -8,11 +8,11 @@ __Notes__
 
 Step 1 – Portals from the source version will not be upgraded to Directory Manager 11.
 
-Step 2 – To upgrade to Directory Manager 11 on a different box, the GroupID source version file system must be available on the Directory Manager 11 server. To ensure this, follow step 1 in the [Prerequisites for Upgrade](/docs/groupid/groupid/install/upgrade/overview.md#prerequisites-for-upgrade) topic.
+Step 2 – To upgrade to Directory Manager 11 on a different box, the GroupID source version file system must be available on the Directory Manager 11 server. To ensure this, follow step 1 in the [Prerequisites for Upgrade](overview.md#prerequisites-for-upgrade) topic.
 
 The source version file system is required for the following:
 
-- When you create a new portal in Directory Manager 11, you can import the advanced settings and design settings of a Self-Service portal from the source version. See step 13 in the [Create a Portal in Native IIS](/docs/groupid/groupid/admincenter/portal/create.md#create-a-portal-in-native-iis) topic.
+- When you create a new portal in Directory Manager 11, you can import the advanced settings and design settings of a Self-Service portal from the source version. See step 13 in the [Create a Portal in Native IIS](../../admincenter/portal/create.md#create-a-portal-in-native-iis) topic.
 - In the source version, you specified a list of attributes to replicate for an identity store. These attributes are saved to a file on the file system.  
   To upgrade on a different box, the file containing the selected attributes for each identity store must be present on the Directory Manager 11 server. If the wizard does not find it, Directory Manager 11 will display the default attributes for identity store replication (rather than your selected attributes).
 
@@ -52,9 +52,9 @@ In Directory Manager 11, these debug logs will be created at the following locat
 ```C:\ProgramData\Imanami\GroupID 11.0\Upgrade Tool\```  
 File name: GroupID11_Upgrade.log
 
-Step 9 – In the source version, Replication service logs were captured under the _debug_ mode, with no user interface to change this setting. On upgrade to Directory Manager 11, the file logging and Windows logging mode is set to default, i.e., ‘Error’. After upgrade, it is recommended that you go to Replication service settings and change file logging to the ‘Debug’ mode (if required). See the [Specify Log Settings for a Service](/docs/groupid/groupid/admincenter/service/dataservice/manage.md#specify-log-settings-for-a-service) topic.
+Step 9 – In the source version, Replication service logs were captured under the _debug_ mode, with no user interface to change this setting. On upgrade to Directory Manager 11, the file logging and Windows logging mode is set to default, i.e., ‘Error’. After upgrade, it is recommended that you go to Replication service settings and change file logging to the ‘Debug’ mode (if required). See the [Specify Log Settings for a Service](../../admincenter/service/dataservice/manage.md#specify-log-settings-for-a-service) topic.
 
-Step 10 – In the source version, log settings for an identity store inherently applied to Date service logs. On upgrade to Directory Manager 11, these log settings are moved to the Data service, with the file logging mode set to default, i.e., ‘Error’. To change the mode in Directory Manager 11, go to Data service settings and change it as required. See the [Specify Log Settings for a Service](/docs/groupid/groupid/admincenter/service/dataservice/manage.md#specify-log-settings-for-a-service) topic.
+Step 10 – In the source version, log settings for an identity store inherently applied to Date service logs. On upgrade to Directory Manager 11, these log settings are moved to the Data service, with the file logging mode set to default, i.e., ‘Error’. To change the mode in Directory Manager 11, go to Data service settings and change it as required. See the [Specify Log Settings for a Service](../../admincenter/service/dataservice/manage.md#specify-log-settings-for-a-service) topic.
 
 Step 11 – The following applies in case of upgrade from GroupID 10 SR1.  
 When the approver in pending workflow requests is a variable, such as managedBy, additionalOwner, etc., then during upgrade, the variable will be resolved to the GUID of the object that it represents at that point in time. Hence, the variable is replaced with a static value.

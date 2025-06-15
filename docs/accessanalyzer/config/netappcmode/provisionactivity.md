@@ -74,7 +74,7 @@ security login rest-role create -role enterpriseauditorrest -api "/api/storage/v
 security login rest-role create -role enterpriseauditorrest -api "/api/svm/svms" -access readonly -vserver testserver
 ```
 
-__NOTE:__ If the FPolicy account is configured with these permissions, it is necessary to manually configure the FPolicy. See the [Configure FPolicy](/docs/accessanalyzer/config/netappcmode/configurefpolicy.md) topic for additional information.
+__NOTE:__ If the FPolicy account is configured with these permissions, it is necessary to manually configure the FPolicy. See the [Configure FPolicy](configurefpolicy.md) topic for additional information.
 
 ### Less Privileged: Enable/Connect FPolicy & Collect Events
 
@@ -148,7 +148,7 @@ security login rest-role create -role enterpriseauditorrest -api "/api/network/i
 security login rest-role create -role enterpriseauditorrest -api "/api/protocols/fpolicy" -access all -vserver testserver
 ```
 
-__NOTE:__ If the FPolicy account is configured with these permissions, it is necessary to manually configure the FPolicy. See the [Configure FPolicy](/docs/accessanalyzer/config/netappcmode/configurefpolicy.md) topic for additional information.
+__NOTE:__ If the FPolicy account is configured with these permissions, it is necessary to manually configure the FPolicy. See the [Configure FPolicy](configurefpolicy.md) topic for additional information.
 
 ### Automatically Configure the FPolicy
 
@@ -224,7 +224,7 @@ security login rest-role create -role enterpriseauditorrest -api "/api/protocols
 security login rest-role create -role enterpriseauditorrest -api "/api/security/certificates" -access all -vserver testserver
 ```
 
-__NOTE:__ If the FPolicy account is configured with these permissions, the Activity Monitor can automatically configure the FPolicy. See the [Configure FPolicy](/docs/accessanalyzer/config/netappcmode/configurefpolicy.md) topic for additional information.
+__NOTE:__ If the FPolicy account is configured with these permissions, the Activity Monitor can automatically configure the FPolicy. See the [Configure FPolicy](configurefpolicy.md) topic for additional information.
 
 ### Access Analyzer Integration
 
@@ -312,6 +312,6 @@ security login show example\user1
 
 Verify that the output is displayed as follows:
 
-![validatesecuritylogincreation](/img/product_docs/activitymonitor/config/netappcmode/validatesecuritylogincreation.webp)
+![validatesecuritylogincreation](../../../../static/img/product_docs/activitymonitor/config/netappcmode/validatesecuritylogincreation.webp)
 
 For more information about creating security logins, read the [security login create](https://docs.netapp.com/us-en/ontap-cli-9141/security-login-create.html) article.

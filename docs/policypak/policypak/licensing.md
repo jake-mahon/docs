@@ -2,7 +2,7 @@
 
 Licensing Netwrix Endpoint Policy Manager (formerly PolicyPak) is easy. We have one tool to request information about Active Directory and Intune.
 
-__NOTE:__ For a video overview of the process, watch this tutorial: [How to Request Licenses from Endpoint Policy Manager by Creating a "License Request Key"](/docs/policypak/policypak/video/license/licenserequestkey.md)
+__NOTE:__ For a video overview of the process, watch this tutorial: [How to Request Licenses from Endpoint Policy Manager by Creating a "License Request Key"](video/license/licenserequestkey.md)
 
 Here are the basics:
 
@@ -31,13 +31,13 @@ Licensing occurs in two phases:
 
 We only want you to pay for the computers you're actually going to use with the Endpoint Policy Manager. Endpoint Policy Manager's LT has an option, "Find and Disable unused computers," as seen in Figure 12.
 
-![licensing_policypak](/img/product_docs/policypak/policypak/licensing_policypak.webp)
+![licensing_policypak](../../../static/img/product_docs/policypak/policypak/licensing_policypak.webp)
 
 Figure 12. The option to disable unused computers.
 
 When you select this option, you are led through an wizard that finds any computers that have not been logged into for 90 days (or any other number of days you select). You can then select the computers you want to disable and click "Next," as shown in Figure 13.
 
-![licensing_policypak_1](/img/product_docs/policypak/policypak/licensing_policypak_1.webp)
+![licensing_policypak_1](../../../static/img/product_docs/policypak/policypak/licensing_policypak_1.webp)
 
 Figure 13. Selecting the unused computers.
 
@@ -109,7 +109,7 @@ You can purchase some (or all) Paks, and then choose the enablement methods and 
 The licensing modes are:
 
 - Licensed Mode (temporary). When a computer is licensed (temporarily for 30 days or licensed for one year), it is permitted to process all directives intended for it. In Licensed Mode, there is no limit to the number of Endpoint Policy Manager directives a client machine will process and keep compliant.
-- Trial Mode. Trial Mode functions similarly to Licensed Mode. Trial Mode enables you to try Endpoint Policy Manager very quickly in your test lab or real Active Directory. Trial Mode is enabled when your test computers' names have the word "computer" in them. For instance, a computer named "COMPUTER1" would automatically be in Trial Mode and act as if fully licensed. To see an example of how and why this works, see this video: [Testing and Troubleshooting By Renaming an endpoint Computer](/docs/policypak/policypak/video/cloud/testlab/renameendpoint.md)
+- Trial Mode. Trial Mode functions similarly to Licensed Mode. Trial Mode enables you to try Endpoint Policy Manager very quickly in your test lab or real Active Directory. Trial Mode is enabled when your test computers' names have the word "computer" in them. For instance, a computer named "COMPUTER1" would automatically be in Trial Mode and act as if fully licensed. To see an example of how and why this works, see this video: [Testing and Troubleshooting By Renaming an endpoint Computer](video/cloud/testlab/renameendpoint.md)
 
 We want you to use this Endpoint Policy Manager in your testing similarly to how you would use it in the real world. So in Trial Mode, we allow you to do the following:
 
@@ -121,11 +121,11 @@ These restrictions allow you to use your own test lab or Active Directory OU to 
 
 ## Licensing Endpoint Policy Manager with Your Own MDM Service
 
-Endpoint Policy Manager can be used in conjunction with your own MDM service, such as Workspace ONE or MobileIron. However, licensing Endpoint Policy Manager with these utilities is a bit different than licensing Endpoint Policy Manager with Active Directory or Intune. In short, you need to work with your sales team to declare the number of Windows 10 machines you want to license. Typically, you would use the MDM reporting system to express how many Windows 10 machines you have enrolled and the number you plan add in the current year. All the details on exactly how to perform a count and what to send back to Endpoint Policy Manager Sales can be found here: [When licensing Endpoint Policy Managerwith an MDM provider, what do I need to send in to Endpoint Policy Manager? ](/docs/policypak/policypak/license/mdm/setup.md).
+Endpoint Policy Manager can be used in conjunction with your own MDM service, such as Workspace ONE or MobileIron. However, licensing Endpoint Policy Manager with these utilities is a bit different than licensing Endpoint Policy Manager with Active Directory or Intune. In short, you need to work with your sales team to declare the number of Windows 10 machines you want to license. Typically, you would use the MDM reporting system to express how many Windows 10 machines you have enrolled and the number you plan add in the current year. All the details on exactly how to perform a count and what to send back to Endpoint Policy Manager Sales can be found here: [When licensing Endpoint Policy Managerwith an MDM provider, what do I need to send in to Endpoint Policy Manager? ](license/mdm/setup.md).
 
 An example of an MDM system account with a very low number of machines can be seen in Figure 14. Note that the company information is obscured in this demonstration, but you would have to provide it.
 
-![licensing_policypak_2](/img/product_docs/policypak/policypak/licensing_policypak_2.webp)
+![licensing_policypak_2](../../../static/img/product_docs/policypak/policypak/licensing_policypak_2.webp)
 
 Figure 14. An example of an MDM system account.
 
@@ -141,7 +141,7 @@ You may receive multiple license files for Endpoint Policy Manager:
 
 To deploy your licenses, you can use the following:
 
-Use these key installation instructions (which demonstrate Active Directory, SCCM, and MDM methods): [How to install UNIVERSAL licenses for NEW Customers (via GPO, SCCM or MDM)](/docs/policypak/policypak/video/license/installuniversal.md)
+Use these key installation instructions (which demonstrate Active Directory, SCCM, and MDM methods): [How to install UNIVERSAL licenses for NEW Customers (via GPO, SCCM or MDM)](video/license/installuniversal.md)
 
 ## Licensing Endpoint Policy Manager Through Endpoint Policy Manager Cloud
 
@@ -149,7 +149,7 @@ Endpoint Policy Manager Cloud has a licensing mechanism build in. When a compute
 
 ### Legacy Endpoint Policy Manager Cloud monthly or yearly customers:
 
-When clients consume licenses from Endpoint Policy Manager Cloud, they automatically pick up Group Policy as well (for free). So if you're a Endpoint Policy Manager Cloud customer, you don't need to also license the machine for Group Policy. Being able to use Group Policy as the settings delivery mechanism is automatic because the client has consumed the Cloud license. In this way, you get a free on-premise (Group Policy Edition) license automatically when a client has consumed a license with Endpoint Policy Manager Cloud (and continues to check in within the check-in period). For information on how to do this, see this video: [Endpoint Policy ManagerStart Screen & Taskbar Manager: Manage non-domain joined machines using Endpoint Policy Manager Cloud](/docs/policypak/policypak/video/startscreentaskbar/nondomainjoined.md).
+When clients consume licenses from Endpoint Policy Manager Cloud, they automatically pick up Group Policy as well (for free). So if you're a Endpoint Policy Manager Cloud customer, you don't need to also license the machine for Group Policy. Being able to use Group Policy as the settings delivery mechanism is automatic because the client has consumed the Cloud license. In this way, you get a free on-premise (Group Policy Edition) license automatically when a client has consumed a license with Endpoint Policy Manager Cloud (and continues to check in within the check-in period). For information on how to do this, see this video: [Endpoint Policy ManagerStart Screen & Taskbar Manager: Manage non-domain joined machines using Endpoint Policy Manager Cloud](video/startscreentaskbar/nondomainjoined.md).
 
 ### Endpoint Policy Manager Professional and Endpoint Policy Manager Enterprise Edition customers:
 

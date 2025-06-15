@@ -8,7 +8,7 @@ View the analysis tasks by navigating to the __FileSystem__ > __5.Activity__ > _
 
 __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis task is preconfigured for this job.
 
-![Analysis Tasks for the FS_HighestHourlyActivity Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/activity/suspiciousactivity/highesthourlyactivityanalysis.webp)
+![Analysis Tasks for the FS_HighestHourlyActivity Job](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/activity/suspiciousactivity/highesthourlyactivityanalysis.webp)
 
 The following analysis task is selected by default:
 
@@ -23,7 +23,7 @@ The Notification analysis task is an optional analysis task which requires confi
 - Hour Activity Notification – Alerts when large amounts of activity for a user have occurred within an hour
 
   - Add recipients, notification subject, and email content
-  - See the [Configure the Notification Analysis Task](/docs/accessanalyzer/enterpriseauditor/solutions/filesystem/activity/forensics/fs_deletions.md#configure-the-notification-analysis-task) topic for additional information
+  - See the [Configure the Notification Analysis Task](../forensics/fs_deletions.md#configure-the-notification-analysis-task) topic for additional information
 
 In addition to the tables and views created by the analysis tasks, the FS_HighestHourlyActivity job produces the following pre-configured report:
 

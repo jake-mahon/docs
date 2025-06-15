@@ -8,8 +8,8 @@ At this step, you need to provide workflow name, review its settings, and disabl
 
    __NOTE:__ Documents that have already been classified will be re-classified before applying this automated workflow.
 
-   ![workflow_step4_name_settings_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/workflows/workflow_step4_name_settings_thumb_0_0.webp)
+   ![workflow_step4_name_settings_thumb_0_0](../../../../../static/img/product_docs/dataclassification/ndc/admin/workflows/workflow_step4_name_settings_thumb_0_0.webp)
 4. When finished, click __Add__ to close the wizard. Your new workflow will be added to the list on the __Workflows__ tab:
 
-   ![workflow_list_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/workflows/workflow_list_thumb_0_0.webp)
+   ![workflow_list_thumb_0_0](../../../../../static/img/product_docs/dataclassification/ndc/admin/workflows/workflow_list_thumb_0_0.webp)
 5. Navigate to Content → Sources and select Re-classify for the selected sources in the workflow.

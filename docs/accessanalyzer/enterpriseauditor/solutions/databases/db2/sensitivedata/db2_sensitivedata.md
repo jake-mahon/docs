@@ -8,7 +8,7 @@ Navigate to the __Jobs__ > __Databases__ > __Db2__ > __Sensitive Data__ > __Db2_
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the Db2 _SensitiveData Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/postgresql/collection/sensitivedataanalysis.webp)
+![Analysis Tasks for the Db2 _SensitiveData Job](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/postgresql/collection/sensitivedataanalysis.webp)
 
 The default analysis tasks are:
 

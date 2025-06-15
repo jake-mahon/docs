@@ -10,15 +10,15 @@ To collect audit data in your cloud-based environment, Netwrix uses a dedicated 
 
 - If Basic Authentication is used:
   - A Microsoft Entra ID application named __Netwrix Auditor for Microsoft Entra ID__ will be created automatically when Netwrix Auditor connects to the monitored item (Office 365 tenant) for the first time. Thus, you will need to prepare a Microsoft Entra ID user account with an administrative role in Microsoft Entra ID —to create an app and perform initial data collection.
-  - Provide this user name and password in the monitored item properties. See the [Microsoft Entra ID](/docs/auditor/auditor/admin/monitoringplans/microsoftentraid/overview.md) topic for additional information.
+  - Provide this user name and password in the monitored item properties. See the [Microsoft Entra ID](../../../admin/monitoringplans/microsoftentraid/overview.md) topic for additional information.
 
-See the [Using Basic Authentication with Microsoft Entra ID](/docs/auditor/auditor/configuration/microsoft365/microsoftentraid/basicauth.md) topic for additional information.
+See the [Using Basic Authentication with Microsoft Entra ID](basicauth.md) topic for additional information.
 
 - If Modern Authentication is used:
-  - Microsoft Entra ID application should be created manually by user with administrative role and assigned required permissions. See the [Configuring Microsoft Entra ID App for Auditing Microsoft Entra ID](/docs/auditor/auditor/configuration/microsoft365/microsoftentraid/modernauth.md#configuring-microsoft-entra-id-app-for-auditing-microsoft-entra-id) topic for additional information.
-  - You will need to provide the Microsoft Entra ID app settings in the monitored item (Office 365 tenant) properties. See the [Microsoft Entra ID](/docs/auditor/auditor/admin/monitoringplans/microsoftentraid/overview.md) topic for additional information.
+  - Microsoft Entra ID application should be created manually by user with administrative role and assigned required permissions. See the [Configuring Microsoft Entra ID App for Auditing Microsoft Entra ID](modernauth.md#configuring-microsoft-entra-id-app-for-auditing-microsoft-entra-id) topic for additional information.
+  - You will need to provide the Microsoft Entra ID app settings in the monitored item (Office 365 tenant) properties. See the [Microsoft Entra ID](../../../admin/monitoringplans/microsoftentraid/overview.md) topic for additional information.
 
-See the [Using Modern Authentication with Microsoft Entra ID](/docs/auditor/auditor/configuration/microsoft365/microsoftentraid/modernauth.md) topic for additional information.
+See the [Using Modern Authentication with Microsoft Entra ID](modernauth.md) topic for additional information.
 
 Permissions for ongoing data collection will depend on data you plan to collect:
 

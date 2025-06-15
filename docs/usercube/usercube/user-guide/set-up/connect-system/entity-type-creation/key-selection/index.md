@@ -2,9 +2,9 @@
 
 How to choose its keys and an [
 Entity Type Mapping
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md)key in order to uniquely identify the [
+](../../../../../integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md)key in order to uniquely identify the [
 Entity Type
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)'s resources at different points in a resource's lifecycle.
+](../../../../../integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)'s resources at different points in a resource's lifecycle.
 
 ## Overview
 
@@ -42,7 +42,7 @@ Only one key property is required, but using several key properties can sometime
 
 The mapping key is also chosen from among scalar properties, and serves to uniquely identify any resource during the[
 Synchronize Data
-](/docs/usercube/usercube/user-guide/set-up/synchronization/index.md). It must be unique and immutable, i.e. must not change during the whole lifecycle of the resource.
+](../../../synchronization/index.md). It must be unique and immutable, i.e. must not change during the whole lifecycle of the resource.
 
 > A mapping key cannot be based on properties subject to change, such as the display name of any object, or users' title which could be renamed.
 >
@@ -67,9 +67,9 @@ Create an entity type by proceeding as follows:
 
 1. Start by defining the entity type's scalar properties. See the [
    Define Scalar Properties
-   ](/docs/usercube/usercube/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/index.md) topic for additional information.
+   ](../scalar-property-definition/index.md) topic for additional information.
 
-   ![Keys](/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/entity-type-creation/key-selection/entitytypecreation_keys_v522.webp)
+   ![Keys](../../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/entity-type-creation/key-selection/entitytypecreation_keys_v522.webp)
 2. In the entity type's __Properties__ section, choose the key properties.
 3. Choose the mapping key.
 4. Click on __Create & Close__ > __Create__ to save your changes.
@@ -78,7 +78,7 @@ Create an entity type by proceeding as follows:
 
 Every time an entity type mapping is modified and saved, a green pop-up appears saying that you should reload the schema to implement the changes. You do not need to click on the button every time. It is essential though to reload after the final changes are made.
 
-![Reload](/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/entity-type-creation/key-selection/entitytypecreation_reload_v522.webp)
+![Reload](../../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/entity-type-creation/key-selection/entitytypecreation_reload_v522.webp)
 
 The __Reload__ button mostly enables your changes to appear in the menu items, which configure the left menu links on the UI's home page.
 
@@ -88,6 +88,6 @@ You can find the __Reload__ button either on the green warning, or on the connec
 
 After the entity type is created with its scalar properties and keys, you can [
 Define Navigation Properties
-](/docs/usercube/usercube/user-guide/set-up/connect-system/entity-type-creation/navigation-property-definition/index.md) and/or [
+](../navigation-property-definition/index.md) and/or [
 Set Resources' Display Names
-](/docs/usercube/usercube/user-guide/set-up/connect-system/entity-type-creation/display-name-setting/index.md).
+](../display-name-setting/index.md).

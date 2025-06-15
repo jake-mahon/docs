@@ -83,5 +83,5 @@ In this way, you can create a chain of links between identity stores.
 
 __See Also__
 
-- [Identity Stores](/docs/groupid/groupid/admincenter/identitystore/overview.md)
-- [Manage Identity Store Links](/docs/groupid/groupid/admincenter/identitystore/link/manage.md)
+- [Identity Stores](../overview.md)
+- [Manage Identity Store Links](manage.md)

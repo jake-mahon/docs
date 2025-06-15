@@ -4,9 +4,9 @@ This connector exports entries from an [LDIF](https://en.wikipedia.org/wiki/LDAP
 
 This page is about [
 LDIF
-](/docs/usercube/usercube/integration-guide/connectors/references-packages/ldif/index.md).
+](../../references-packages/ldif/index.md).
 
-![Package: Directory/LDIF](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/ldif/packages_ldif_v603.webp)
+![Package: Directory/LDIF](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/ldif/packages_ldif_v603.webp)
 
 ## Overview
 
@@ -24,7 +24,7 @@ This connector generates a CSV file from an input LDIF file containing entries t
 
 This process is configured through a [
 Connection
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)in the UI and/or the XML configuration, and in the ```appsettings.agent.json > Connections``` section:
+](../../../toolkit/xml-configuration/connectors/connection/index.md)in the UI and/or the XML configuration, and in the ```appsettings.agent.json > Connections``` section:
 
 ```
 appsettings.agent.json
@@ -80,7 +80,7 @@ The identifier of the connection and thus the name of the subsection must:
 
 This connector is meant to generate to the [
 Connection
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) folder a CSV file named ```LdifExport.csv```, with the following columns:
+](../../../toolkit/xml-configuration/connectors/connection/index.md) folder a CSV file named ```LdifExport.csv```, with the following columns:
 
 ```
 LdifExport.csv
@@ -96,12 +96,12 @@ There are no fulfill capabilities for this connector.
 
 ### Credential protection
 
-This connector has no credential attributes, and therefore does not use [](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md)[
+This connector has no credential attributes, and therefore does not use [](../../../network-configuration/agent-configuration/rsa-encryption/index.md)[
 Connection
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md), nor a [
+](../../../toolkit/xml-configuration/connectors/connection/index.md), nor a [
 Connection
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)Vault.
+](../../../toolkit/xml-configuration/connectors/connection/index.md)Vault.
 
 Still, data protection can be ensured through an [
 Connection
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) safe.
+](../../../toolkit/xml-configuration/connectors/connection/index.md) safe.

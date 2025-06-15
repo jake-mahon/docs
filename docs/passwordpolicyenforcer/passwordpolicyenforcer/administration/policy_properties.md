@@ -12,7 +12,7 @@ __Step 2 –__ Click on a policy name to open the policy configuration page.
 
 __Step 3 –__ Open the __Properties__ tab.
 
-![Set the Policy Properties](/img/product_docs/activitymonitor/activitymonitor/install/agent/properties.webp)
+![Set the Policy Properties](../../../../static/img/product_docs/activitymonitor/activitymonitor/install/agent/properties.webp)
 
 Each policy must have a unique name. To change the name of a policy, type the new name in the text box.
 
@@ -26,9 +26,9 @@ __NOTE:__ Only Password Policy Enforcer 10.0 and higher contain the Windows char
 - Characters classified as a space, punctuation, control or blank by Windows are included in the Special character set. If these characters are also included in some other set by Windows (for example, a superscript one is both a decimal digit and punctuation), then Password Policy Enforcer only includes them in the Special character set when the Windows character set is selected.
 - When using the Password Policy Enforcer character set, all characters above ANSI 126 are included in the High set. When using the Windows character set, a character is only included in the High set if it is above ANSI 126 and not included in any other set by Windows.
 
-Select the number of rules for __Passwords must comply with__ from the drop-down list to specifiy the required compliance level for this policy. The default value __(all the rules__) requires users to comply with all enabled rules. Choose an alternative option if Password Policy Enforcer should enforce a more lenient password policy. The Minimum Age and Maximum Age rules are excluded from compliance level calculations. See the [Rules](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/rules.md) topic for additional information.
+Select the number of rules for __Passwords must comply with__ from the drop-down list to specifiy the required compliance level for this policy. The default value __(all the rules__) requires users to comply with all enabled rules. Choose an alternative option if Password Policy Enforcer should enforce a more lenient password policy. The Minimum Age and Maximum Age rules are excluded from compliance level calculations. See the [Rules](rules.md) topic for additional information.
 
-When setting the compliance level, consider that some rules may be disabled when a user enters a passphrase. See the [Passphrase](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/passphrases.md) topic for additional information. Password Policy Enforcer accepts passphrases that comply with all enabled rules, irrespective of the compliance level. This ensures that passphrases can be used, even if they do not meet the compliance level when Password Policy Enforcer is configured to disable one or more rules for passphrases.
+When setting the compliance level, consider that some rules may be disabled when a user enters a passphrase. See the [Passphrase](passphrases.md) topic for additional information. Password Policy Enforcer accepts passphrases that comply with all enabled rules, irrespective of the compliance level. This ensures that passphrases can be used, even if they do not meet the compliance level when Password Policy Enforcer is configured to disable one or more rules for passphrases.
 
 Password Policy Enforcer can start a password synchronization application or script whenever a user successfully changes their password. Enter the full path to the executable in the __Execute the program when password is changed__ text box. The path can contain environment variables like ```%SystemRoot%```. Every computer running Password Policy Enforcer should have a local copy of the program, and only authorized users should have access to it, or any of its components.
 

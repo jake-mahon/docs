@@ -8,7 +8,7 @@ Navigate to the __Jobs__ > __Databases__ > __Db2__ > __Permissions__ > __Db2_Dir
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the Db2_DirectPermissions Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/db2/permissions/directpermissionsanalysis.webp)
+![Analysis Tasks for the Db2_DirectPermissions Job](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/db2/permissions/directpermissionsanalysis.webp)
 
 The default analysis tasks are:
 

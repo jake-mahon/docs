@@ -2,7 +2,7 @@
 
 How to create role naming rules, which create single roles using existing naming conventions from the managed system. See the [
 Role Mapping
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/rolemapping/index.md) topic for additional information.
+](../../../../integration-guide/toolkit/xml-configuration/provisioning/rolemapping/index.md) topic for additional information.
 
 ## Overview
 
@@ -27,7 +27,7 @@ For a given managed system, integrators may need the help of the application own
 
 | Input | Output |
 | --- | --- |
-| [ Create a Provisioning Rule ](/docs/usercube/usercube/user-guide/set-up/provisioning-rule-creation/index.md) (required) | Role naming rule     Single roles    Navigation rules    Categories |
+| [ Create a Provisioning Rule ](../../provisioning-rule-creation/index.md) (required) | Role naming rule     Single roles    Navigation rules    Categories |
 
 ## Create a Role Naming Rule
 
@@ -35,33 +35,33 @@ Create a role naming rule by proceeding as follows:
 
 1. On the home page, click on __Access Rules__ in the __Configuration__ section.
 
-   ![Home Page - Access Rules](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/home_rules_v602.webp)
+   ![Home Page - Access Rules](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/home_rules_v602.webp)
 2. In the dropdown menu at the top left, choose the entity type to which the future naming rule will be applied.
 
-   ![Entity Type Choice](/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/provrules_entitytype_v602.webp)
+   ![Entity Type Choice](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/provrules_entitytype_v602.webp)
 3. Click on the __Role Naming Conventions__ tab and on the addition button at the top right corner.
 
-   ![Addition Icon](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/iconadd_v602.svg)
+   ![Addition Icon](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/iconadd_v602.svg)
 4. Fill in the fields.
 
-   ![Create a Naming Rule](/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/namingrulecreation_newrule_v602.webp)
+   ![Create a Naming Rule](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/namingrulecreation_newrule_v602.webp)
 
-   - ```Policy```: [Policy](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/policy/index.md) in which the rule exists.
+   - ```Policy```: [Policy](../../../../integration-guide/toolkit/xml-configuration/provisioning/policy/index.md) in which the rule exists.
    - ```Property```: navigation property which will define the actual entitlement in the future navigation rule.
    - ```Identifier```: must be unique among rules and without any whitespace.
    - __+ New Rule__: a naming rule is based on the union of rules, themselves based on the intersection of rule items. A rule item specifies one of the conditions that will trigger the enforcement of the naming rule. See the [
      Role Mapping
-     ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/rolemapping/index.md) topic for additional information.
+     ](../../../../integration-guide/toolkit/xml-configuration/provisioning/rolemapping/index.md) topic for additional information.
    - ```Where Expression```: C# expression returning a boolean to condition the application of the rule.
 
      Netwrix Identity Manager (formerly Usercube) recommends using this option only when the options available in the rule items do not suffice.
-   - __Single Role__: single role(s) to be created. See the [Create a Role Manually](/docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/role-manual-creation/index.md) topic for additional information.
+   - __Single Role__: single role(s) to be created. See the [Create a Role Manually](../role-manual-creation/index.md) topic for additional information.
 
-     - ```Identifier```: must be unique among roles and without any whitespace. If the defined identifier is already used, then neither the role nor the rule is created. Can be defined by a property path and/or [Expressions](/docs/usercube/usercube/integration-guide/toolkit/expressions/index.md) (mandatory).
-     - ```Name```: will be displayed in the UI to identify the future single role. Can be defined by a property path and/or an [Expressions](/docs/usercube/usercube/integration-guide/toolkit/expressions/index.md).
+     - ```Identifier```: must be unique among roles and without any whitespace. If the defined identifier is already used, then neither the role nor the rule is created. Can be defined by a property path and/or [Expressions](../../../../integration-guide/toolkit/expressions/index.md) (mandatory).
+     - ```Name```: will be displayed in the UI to identify the future single role. Can be defined by a property path and/or an [Expressions](../../../../integration-guide/toolkit/expressions/index.md).
    - __Category__: the [
      Category
-     ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/category/index.md) for the future role(s).
+     ](../../../../integration-guide/toolkit/xml-configuration/provisioning/category/index.md) for the future role(s).
 
      - ```Identifier```: either matches an existing category and selects it, or doesn't match and therefore a new category is created. Can be defined by a property path and/or an expression.
      - ```Name```: will be displayed in the UI to identify the category. Ignored if the ```Identifier``` attribute matches an existing category's identifier. Can be defined by a property path and/or an expression.
@@ -74,7 +74,7 @@ Create a role naming rule by proceeding as follows:
    - ```Comment Management on Permission Review```: to change if different from the role policy.
    > Our example would look like:
    >
-   > ![Example - Naming Rule](/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/namingrulecreation_example_v602.webp)
+   > ![Example - Naming Rule](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/namingrulecreation_example_v602.webp)
 5. Click on __Create__ and see a line added on the rules page.
 
 ## Impact of Modifications
@@ -87,29 +87,29 @@ In order to verify the process:
 
 1. to take the changes into account, on the appropriate connector's overview page click on __Jobs__ > __Apply Naming Conventions__;
 
-   ![Resource Type Jobs](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/synchro_resourcetype_v602.webp)
+   ![Resource Type Jobs](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/synchro_resourcetype_v602.webp)
 2. check that the correct roles and rules were created.
 
 For roles, click on __Access Roles__ on the home page in the __Configuration__ section.
 
-![Home Page - Access Roles](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/resource-type-creation/home_roles_v602.webp)
+![Home Page - Access Roles](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/categorization/resource-type-creation/home_roles_v602.webp)
 
 Select single roles and find the role(s) you created inside the right category and with the right parameters.
 
-![Access Single Roles](/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/namingrulecreation_testroles_v602.webp)
+![Access Single Roles](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/namingrulecreation_testroles_v602.webp)
 
 > [Our example](() would look like:
 >
-> ![Example - Generated Role](/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/namingrulecreation_exampleroleresult_v602.webp)
+> ![Example - Generated Role](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/namingrulecreation_exampleroleresult_v602.webp)
 
 For rules, click on __Access Rules__ on the home page in the __Configuration__ section.
 
-![Home Page - Access Rules](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/home_rules_v602.webp)
+![Home Page - Access Rules](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/home_rules_v602.webp)
 
 Select navigation rules and find the rule(s) you created with the right parameters.
 
-![Access Navigation Rules](/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/namingrulecreation_testrules_v602.webp)
+![Access Navigation Rules](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/namingrulecreation_testrules_v602.webp)
 
 > Our example would look like:
 >
-> ![Example - Generated Rule](/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/namingrulecreation_exampleruleresult_v523.webp)
+> ![Example - Generated Rule](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/namingrulecreation_exampleruleresult_v523.webp)

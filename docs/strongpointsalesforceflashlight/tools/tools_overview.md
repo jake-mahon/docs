@@ -14,4 +14,4 @@ The Flashlight __Tools__ tab accesses:
 >
 > __Automated Report Clean Up__: runs automatically or on demand using custom rules to find and manage reports.
 
-In addition to the menu items, this section contains information fpr [Accessing Reports](/docs/strongpointsalesforceflashlight/tools/reports_overview.md) from the __Reports / List Views__ tab, and an example of how to [validate your data](/docs/strongpointsalesforceflashlight/tools/validating_data.md).
+In addition to the menu items, this section contains information fpr [Accessing Reports](reports_overview.md) from the __Reports / List Views__ tab, and an example of how to [validate your data](validating_data.md).

@@ -18,8 +18,8 @@ The policy has the following impact on the Directory Manager portal:
 Limitations
 
 - The Membership Object Type Enforcement policy does not apply to critical system objects (such as domain controllers and computers). Therefore, even if the policy allows these objects to be added to group membership, they will not show up in search results when users search for objects for adding to group membership.
-- The Membership Object Type Enforcement policy may conflict with the [Search Policy](/docs/groupid/groupid/admincenter/securityrole/policy/search.md) you define for the same user role in an identity store. An example of a conflict is: the Search policy prevents a security role from searching for user objects in the portal while the Membership Object Type Enforcement policy allows that same role to add only user objects to group membership. To avoid such conflicts, make sure the two policies align with each other.
-- The Membership Object Type Enforcement policy may conflict with the static group properties you specify on the Properties page under the Design node for a portal. For example, for the Members tab in group properties, you can allow/disallow object types that can be searched for adding to group membership (see step 17 in the [Add a Field to a Tab](/docs/groupid/groupid/admincenter/portal/design/objectproperties.md#add-a-field-to-a-tab)topic). If the design settings prevent users from searching for user objects to set as members while the Membership Object Type Enforcement policy allows role members to add only user objects to group membership, a conflict may arise. To avoid these, make sure the settings in the policy and the group properties design align with each other.
+- The Membership Object Type Enforcement policy may conflict with the [Search Policy](search.md) you define for the same user role in an identity store. An example of a conflict is: the Search policy prevents a security role from searching for user objects in the portal while the Membership Object Type Enforcement policy allows that same role to add only user objects to group membership. To avoid such conflicts, make sure the two policies align with each other.
+- The Membership Object Type Enforcement policy may conflict with the static group properties you specify on the Properties page under the Design node for a portal. For example, for the Members tab in group properties, you can allow/disallow object types that can be searched for adding to group membership (see step 17 in the [Add a Field to a Tab](../../portal/design/objectproperties.md#add-a-field-to-a-tab)topic). If the design settings prevent users from searching for user objects to set as members while the Membership Object Type Enforcement policy allows role members to add only user objects to group membership, a conflict may arise. To avoid these, make sure the settings in the policy and the group properties design align with each other.
 
 What do you want to do?
 
@@ -54,9 +54,9 @@ What do you want to do?
 7. Use the __Target(s)__ area to specify the groups and/or containers the policy would apply to. This means that the policy would apply when role members try to add members to the specified groups, or to groups that reside in the specified container(s) and their sub-containers.
 
    1. To specific containers as target, follow step 9 in
-      the [Create a Group Usage Service Schedule](/docs/groupid/groupid/admincenter/schedule/groupusageservice.md#create-a-group-usage-service-schedule) topic.
+      the [Create a Group Usage Service Schedule](../../schedule/groupusageservice.md#create-a-group-usage-service-schedule) topic.
    2. To add groups as target, follow step 9b in
-      the [Create a Smart Group Update Schedule](/docs/groupid/groupid/admincenter/schedule/smartgroupupdate.md#create-a-smart-group-update-schedule) topic, replacing Smart Groups and Dynasties with static groups.
+      the [Create a Smart Group Update Schedule](../../schedule/smartgroupupdate.md#create-a-smart-group-update-schedule) topic, replacing Smart Groups and Dynasties with static groups.
    3. To remove a container or group in the __Target(s)__ area, click __Remove__ for it.  
       To remove all target objects, click __Remove All__.
 8. Follow step 8 in the Apply the Membership Object Type Enforcement Policy to All Groups topic to allow and disallow the objects that role members can add as members to the target groups.

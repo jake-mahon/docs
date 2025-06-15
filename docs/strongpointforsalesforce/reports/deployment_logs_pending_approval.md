@@ -56,4 +56,4 @@ Click on any of the report columns to change the sort order. The á or â arrow 
 >
 > __Source Environment__: Source environment for the deployment.
 
-![report_deploy_pend_approval](/img/product_docs/strongpointforsalesforce/reports/report_deploy_pend_approval.webp)
+![report_deploy_pend_approval](../../../static/img/product_docs/strongpointforsalesforce/reports/report_deploy_pend_approval.webp)

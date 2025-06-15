@@ -13,7 +13,7 @@ Targeted Host(s)
 
 Connection Profile
 
-The SQL Data Collector requires a specific set of permissions. For the MySQL Solution, the credentials configured in the Connection Profile must be able to access the MySQL Database. See the [Connection](/docs/accessanalyzer/enterpriseauditor/admin/settings/connection/overview.md) topic for additional information on permissions and creating a SQL custom connection profile.
+The SQL Data Collector requires a specific set of permissions. For the MySQL Solution, the credentials configured in the Connection Profile must be able to access the MySQL Database. See the [Connection](../../../admin/settings/connection/overview.md) topic for additional information on permissions and creating a SQL custom connection profile.
 
 The Connection Profile is set to Use the Default Profile, as configured at the global settings level. However, since this may not be the Connection Profile with the necessary permissions for the assigned hosts, click the radio button for the Select one of the following user defined profiles option and select the appropriate Connection Profile drop-down menu.
 
@@ -29,7 +29,7 @@ ___RECOMMENDED:___ Run the solution at the top level: MySQL Job Group
 
 Query Configuration
 
-This solution is designed to be run with the default query configurations. However, the MySQL_SensitiveDataScan Job query can be customized as needed. See the [Configure the SensitiveDataScan Query](/docs/accessanalyzer/enterpriseauditor/solutions/databases/mysql/collection/mysql_sensitivedatascan.md#configure-the-sensitivedatascan-query) topic for additional information.
+This solution is designed to be run with the default query configurations. However, the MySQL_SensitiveDataScan Job query can be customized as needed. See the [Configure the SensitiveDataScan Query](collection/mysql_sensitivedatascan.md#configure-the-sensitivedatascan-query) topic for additional information.
 
 Analysis Configuration
 

@@ -4,7 +4,7 @@ Before you start creating a monitoring plan to audit your Qumulo or Synology fil
 
 Starting with version 9.96, you can use group Managed Service Accounts (gMSA) as data collecting accounts.
 
-See the [Use Group Managed Service Account (gMSA)](/docs/auditor/auditor/requirements/gmsa.md) topic and the [Group Managed Service Accounts Overview](https://docs.microsoft.com/en-us/windows-server/security/group-managed-service-accounts/group-managed-service-accounts-overview) Microsoft article for additional information.
+See the [Use Group Managed Service Account (gMSA)](../../../requirements/gmsa.md) topic and the [Group Managed Service Accounts Overview](https://docs.microsoft.com/en-us/windows-server/security/group-managed-service-accounts/group-managed-service-accounts-overview) Microsoft article for additional information.
 
 These group Managed Service Accounts should meet the related requirements, as listed below.
 

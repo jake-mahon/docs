@@ -4,7 +4,7 @@ Access your Additional Reviewer list from __UAR List__ in your menu bar, or one
 
 Here is an example of the __Global__ review list:
 
-![UAR list additional reviewer](/img/product_docs/strongpointfornetsuite/uar/uar_additional_reviewer/additional_user_uar_list.webp)
+![UAR list additional reviewer](../../../../static/img/product_docs/strongpointfornetsuite/uar/uar_additional_reviewer/additional_user_uar_list.webp)
 
 ## Filters
 
@@ -23,7 +23,7 @@ Use __Clear__ to reset the Filters.
 
 ## UAR List
 
-- __Name__ is a link. For a __global__ review, the link opens the Review list showing all of the associated reviews. For a __single__ review the [Membership](/docs/strongpointfornetsuite/uar/uar_additional_reviewer/add_reviewer_membership_reviews.md) or [Permission ](/docs/strongpointfornetsuite/uar/uar_owner/owner_permission_reviews.md)__Review__ tab is opened. Reviews can also be opened via links in dashboard or email __Notifications__.
+- __Name__ is a link. For a __global__ review, the link opens the Review list showing all of the associated reviews. For a __single__ review the [Membership](add_reviewer_membership_reviews.md) or [Permission ](../uar_owner/owner_permission_reviews.md)__Review__ tab is opened. Reviews can also be opened via links in dashboard or email __Notifications__.
 - __Number of Reviews__ (global) is the number of single reviews in the global review.
 - __Review Type__ is the type of review. Global can be __Both__, __Membership__, or __Permission__. Single is __Membership__ or __Permission__. The review type is set when the review is created.
 - __Status__ Current status of the review:
@@ -44,12 +44,12 @@ Use __Clear__ to reset the Filters.
 
 When you open a global review using the __Name__ link in the UAR list, the Review list is displayed, showing all of the single reviews associated with the global review.
 
-![Review list of associated single reviews under a global review](/img/product_docs/strongpointfornetsuite/uar/uar_owner/review_list.webp)
+![Review list of associated single reviews under a global review](../../../../static/img/product_docs/strongpointfornetsuite/uar/uar_owner/review_list.webp)
 
 - __Export__ exports the list of selected reviews as either a __CSV__ or __PDF__ file. The exported file is named _Reviews_Group_List_.
 - __Extract Membership Detail__ creates a CSV file (_Membership_Report.csv_) of the membership details for the reviews.
 - __Extract Permission Detail__creates a CSV file (_Permission_Report.csv_) of the permission details for the reviews.
-- __Review Name__ is a link to the [Membership](/docs/strongpointfornetsuite/uar/uar_additional_reviewer/add_reviewer_membership_reviews.md) __Review__ tab. Reviews can also be opened via links in dashboard or email __Notifications__.
+- __Review Name__ is a link to the [Membership](add_reviewer_membership_reviews.md) __Review__ tab. Reviews can also be opened via links in dashboard or email __Notifications__.
 - __Role Name__ the role being reviewed.
 - __Review Type__ is the type of review: __Membership__ or __Permission__. The review type is set when the review is created.
 - __Status__ Current status of the review:
@@ -67,4 +67,4 @@ When you open a global review using the __Name__ link in the UAR list, the Revi
 - __Due Date__ an optional due date assigned by the administrator.
 - __Complete Date__ the date the review was completed.
 
-Continue with the procedures to complete your Additional Reviewer [Membership](/docs/strongpointfornetsuite/uar/uar_additional_reviewer/add_reviewer_membership_reviews.md) reviews.
+Continue with the procedures to complete your Additional Reviewer [Membership](add_reviewer_membership_reviews.md) reviews.

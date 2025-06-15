@@ -24,7 +24,7 @@ The Priority property controls the order in which entity types are displayed in 
 
 By default, the entity type with the highest priority is selected first. The end user can later change the selection using the top-left dropdown.
 
-![Change Selection](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/user-interface/displayentitytype/ui_displaypriorities_changeselection_v521beta.webp)
+![Change Selection](../../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/user-interface/displayentitytype/ui_displaypriorities_changeselection_v521beta.webp)
 
 Priorities are integer values, positive or negative. The most important priority is assigned to the lowest value.
 
@@ -113,7 +113,7 @@ Entity referencing the Entity properties (with which it share the same ID) that 
 | Format   optional | String | Defines a formatting method on the property values (```ParseSince1601Date```, ```ToStringUserAccountControl```, ```FormatDate``` and ```ParseBoolean```). |
 | Group   optional | Int64 | Identifier of the display property group, i.e. the fieldset, that the property is part of in the default UI form. |
 | IconCode   optional | String | Defines the icon code. |
-| InputType   default value: Auto | Enumeration | Identifier of the input type. See the [Form](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/user-interface/form/index.md) topic for additional information. |
+| InputType   default value: Auto | Enumeration | Identifier of the input type. See the [Form](../form/index.md) topic for additional information. |
 | IsHidden   default value: false | Boolean | Property is hidden. |
 | IsReadOnly   default value: false | Boolean | Property is ReadOnly. |
 | IsRequired   default value: false | Boolean | Property is required. |

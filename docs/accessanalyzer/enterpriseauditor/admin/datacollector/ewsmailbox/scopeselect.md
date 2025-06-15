@@ -1,8 +1,8 @@
 # EWSMailbox: Scope Select
 
-The Scope select page is used to select specific mailboxes to scan. It is a wizard page for all categories when the __Select mailboxes from list__ option is selected on the [EWSMailbox: Scope](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/scope.md) page.
+The Scope select page is used to select specific mailboxes to scan. It is a wizard page for all categories when the __Select mailboxes from list__ option is selected on the [EWSMailbox: Scope](scope.md) page.
 
-![EWS Mailbox Data Collector Wizard Scope select page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/scopeselect.webp)
+![EWS Mailbox Data Collector Wizard Scope select page](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/scopeselect.webp)
 
 Use the following options to scope the scan to specific mailboxes:
 

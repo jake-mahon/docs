@@ -1,8 +1,8 @@
 # Administrator Auditing Dashboard
 
-The Administrator Auditing dashboard is specifically fed by a Threat Prevention policy named Domain Admin Activity. See the [SIEM Folder Templates](/docs/threatprevention/threatprevention/admin/templates/folder/siem.md) topic for information on this policy template. If this policy template is not enabled and actively monitoring, then this dashboard will be blank.
+The Administrator Auditing dashboard is specifically fed by a Threat Prevention policy named Domain Admin Activity. See the [SIEM Folder Templates](../../../../admin/templates/folder/siem.md) topic for information on this policy template. If this policy template is not enabled and actively monitoring, then this dashboard will be blank.
 
-![Administrator Auditing Dashboard](/img/product_docs/threatprevention/threatprevention/siemdashboard/qradar/dashboard/administratorauditing.webp)
+![Administrator Auditing Dashboard](../../../../../../../static/img/product_docs/threatprevention/threatprevention/siemdashboard/qradar/dashboard/administratorauditing.webp)
 
 - Top Client IPs – Displays up to the top five (5) client IP addresses related to events that have been recorded in the specified timeframe
 - Events – Breakdown of changes that have been recorded in the specified timeframe by successful/failed/blocked status

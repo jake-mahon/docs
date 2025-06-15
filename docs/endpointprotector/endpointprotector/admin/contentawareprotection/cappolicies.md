@@ -23,7 +23,7 @@ To manage Content Aware Protection policies, you can:
 - Switch views between Grid or Widget mode using the controls in the top-right corner
 - Edit policy priority by double-clicking on a policy listed in the Priority column
 
-![Manage the Content Aware Protection policies](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/target/config/policies.png)
+![Manage the Content Aware Protection policies](../../../../../static/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/target/config/policies.png)
 
 ## Policy Information
 
@@ -49,7 +49,7 @@ __NOTE:__ Initially, we recommend using the Report only action to gain a better 
 
 __NOTE:__ To enforce the Outside Hours and Outside Network options, after you save the policy, enable the setting on the speciﬁc device from Device Control, Global settings, Group or Computers.
 
-- Policy Template – select a custom notiﬁcation from the drop-down list or create one from System Parameters, Device Types and Notiﬁcation, [Custom Content Aware Protection Notiﬁcations](/docs/endpointprotector/endpointprotector/admin/systemparameters/overview.md#custom-content-aware-protection-notiﬁcations) section
+- Policy Template – select a custom notiﬁcation from the drop-down list or create one from System Parameters, Device Types and Notiﬁcation, [Custom Content Aware Protection Notiﬁcations](../systemparameters/overview.md#custom-content-aware-protection-notiﬁcations) section
 - Policy Status – enable to set policy status to active
 - Client Notiﬁcations – enable this setting to send notiﬁcations to clients
 - Global Thresholds – if disabled, the threshold can be considered a Regular Threshold
@@ -80,7 +80,7 @@ This section allows Block & Report policies to handle Social Security Numbers (S
    - Regular Threshold: Does not block two threats (SSN + phone number)
    - Global Threshold: Blocks two SSNs or any combination of two threats
 
-![Block & Report policies to handle Social Security Numbers (SSN) and phone numbers](/img/product_docs/endpointprotector/endpointprotector/admin/contentawareprotection/policyinformation.png)
+![Block & Report policies to handle Social Security Numbers (SSN) and phone numbers](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/contentawareprotection/policyinformation.png)
 
 ## Policy Exit Points
 
@@ -101,7 +101,7 @@ __NOTE:__ Select Adobe Flash Player from the Web Browser category to block sites
 
 __NOTE:__ To distinguish OneDrive for Business from OneDrive, enable Deep Packet Inspection (DPI).
 
-![Monitor transfers from the following exit points](/img/product_docs/endpointprotector/endpointprotector/admin/contentawareprotection/policyexistpoints.png)
+![Monitor transfers from the following exit points](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/contentawareprotection/policyexistpoints.png)
 
 ### Storage Devices
 
@@ -114,7 +114,7 @@ __NOTE:__ For Windows, ﬁle transfers will be monitored both to and from remova
 
 __CAUTION:__ On Linux the paste functionality only works when the default gnome session is Xorg. On other gnome sessions the paste functionality is disabled (ex: wayland).
 
-![From the storage devices tab, you can select to monitor transfers](/img/product_docs/endpointprotector/endpointprotector/admin/contentawareprotection/policyexitstoragedevices.png)
+![From the storage devices tab, you can select to monitor transfers](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/contentawareprotection/policyexitstoragedevices.png)
 
 __NOTE:__ The __Block CD/DVD Burning__ feature is only available for Windows, built-in or third-party burning features.
 
@@ -195,7 +195,7 @@ On-demand, Endpoint Protector can add other applications.
 
 __CAUTION:__ On certain Linux environments, like those utilizing Wayland protocol by default, paste control is limited due to Wayland's lack of support for detecting the focused window. To ensure security, content blocking occurs during the copy operation.
 
-![The Clipboard functionality enables you to monitor all content captured through Copy & Paste or Cut & Paste operations](/img/product_docs/endpointprotector/endpointprotector/admin/contentawareprotection/policyexitclipboard.png)
+![The Clipboard functionality enables you to monitor all content captured through Copy & Paste or Cut & Paste operations](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/contentawareprotection/policyexitclipboard.png)
 
 Newer Linux Ubuntu versions have 'snap'-based applications installed by default, affecting Endpoint Protector Client functionality. This may result in missing ﬁle-related events in Content Aware Protection scans. The reliance on 'snap'-based applications also affects ﬁle-related web browser activities, exacerbating this limitation. Consider non-’snap’-based applications (where possible) as alternative conﬁgurations for optimal functionality.
 

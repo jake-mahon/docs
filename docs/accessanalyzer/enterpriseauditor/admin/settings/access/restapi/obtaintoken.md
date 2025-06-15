@@ -39,4 +39,4 @@ Pragma: no-cache 
 
 See the Okta [Access Token Response](https://www.oauth.com/oauth2-servers/access-tokens/access-token-response/) article for additional information on successful and unsuccessful responses to requests for access tokens.
 
-The Client Secret expires after 72 hours. The access token expires after 1 hour after which time you can request a refresh token. See the [Use the Client Credentials to Grant a Refesh Token](/docs/accessanalyzer/enterpriseauditor/admin/settings/access/restapi/refreshtoken.md) topic for additional information.
+The Client Secret expires after 72 hours. The access token expires after 1 hour after which time you can request a refresh token. See the [Use the Client Credentials to Grant a Refesh Token](refreshtoken.md) topic for additional information.

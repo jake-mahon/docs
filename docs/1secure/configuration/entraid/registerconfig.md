@@ -32,7 +32,7 @@ __Step 4 –__ Specify the following information on the Register an application 
 
 __Step 5 –__ Click __Register__.
 
-The Overview page for the newly registered application opens. The following settings of the registered application are required while adding a data source in Netwrix 1Secure. See the [Sources and Connectors ](/docs/1secure/admin/organizations/sourcesandconnectors/overview.md)topic for additional information on adding a data source. It is recommended to copy these settings and keep them safe.
+The Overview page for the newly registered application opens. The following settings of the registered application are required while adding a data source in Netwrix 1Secure. See the [Sources and Connectors ](../../admin/organizations/sourcesandconnectors/overview.md)topic for additional information on adding a data source. It is recommended to copy these settings and keep them safe.
 
 - Application (client) ID – A client ID for the registered application
 - Directory (tenant) ID – A tenant ID for the registered application
@@ -62,9 +62,9 @@ __Step 8 –__ Click the __Application permissions__ tab. The permission categor
 
 See the following topics for the list of API permissions required to audit the respective data source.
 
-- [Permissions to Audit Microsoft Entra ID](/docs/1secure/configuration/entraid/permissions.md#permissions-to-audit-microsoft-entra-id)
-- [Permissions to Audit SharePoint Online](/docs/1secure/configuration/entraid/permissions.md#permissions-to-audit-sharepoint-online)
-- [Permissions to Audit Exchange Online](/docs/1secure/configuration/entraid/permissions.md#permissions-to-audit-exchange-online)
+- [Permissions to Audit Microsoft Entra ID](permissions.md#permissions-to-audit-microsoft-entra-id)
+- [Permissions to Audit SharePoint Online](permissions.md#permissions-to-audit-sharepoint-online)
+- [Permissions to Audit Exchange Online](permissions.md#permissions-to-audit-exchange-online)
 
 __Step 9 –__ After selecting the required permission(s), click __Add Permissions__ at the bottom. You are navigated to the API Permissions page.
 
@@ -121,13 +121,13 @@ __Step 6 –__ On the Client secrets tab, click __New client secret__. The Add a
 
 __Step 7 –__ Click the __Add__ button. The client secret is generated and the client secret value is displayed in the Value column.
 
-The client secret value is required while adding a data source in Netwrix 1Secure. See the [Sources and Connectors ](/docs/1secure/admin/organizations/sourcesandconnectors/overview.md)topic for additional information on adding a data source.
+The client secret value is required while adding a data source in Netwrix 1Secure. See the [Sources and Connectors ](../../admin/organizations/sourcesandconnectors/overview.md)topic for additional information on adding a data source.
 
 __CAUTION:__ If you leave this page before copying the key, it cannot be retrieved, and you will need to repeat the process.
 
 ## Upload a Certificate
 
-Certain connecters require a certificate rather than a client secret for authentication. This certificate is downloaded while configuring a data source in Netwrix 1Secure. Once downloaded, you need to upload the certificate to the registered application in Microsoft Entra ID. See the [Add a Source and Connectors for SharePoint Online](/docs/1secure/admin/organizations/sourcesandconnectors/sharepointonline.md)topic for additional information on downloading a certificate.
+Certain connecters require a certificate rather than a client secret for authentication. This certificate is downloaded while configuring a data source in Netwrix 1Secure. Once downloaded, you need to upload the certificate to the registered application in Microsoft Entra ID. See the [Add a Source and Connectors for SharePoint Online](../../admin/organizations/sourcesandconnectors/sharepointonline.md)topic for additional information on downloading a certificate.
 
 Follow the steps to upload a certificate to the registered application.
 

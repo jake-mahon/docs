@@ -10,21 +10,21 @@ Supported Platforms
 
 Requirements, Permissions, and Ports
 
-See the [Microsoft Entra ID Tenant Target Requirements](/docs/accessanalyzer/config/entraid/overview.md) topic for additional information.
+See the [Microsoft Entra ID Tenant Target Requirements](../../../config/entraid/overview.md) topic for additional information.
 
 Location
 
-The .Entra ID Inventory Solution is a core component of all Access Analyzer installations. It can be installed from the Access Analyzer Instant Job Wizard. See the [Instant Job Wizard](/docs/accessanalyzer/enterpriseauditor/admin/jobs/instantjobs/overview.md) topic for additional information. Navigate to the solution by expanding the Jobs tree and selecting the __.Entra ID Inventory__ Job Group. This group has been named in such a way to keep it at the top of the Jobs tree.
+The .Entra ID Inventory Solution is a core component of all Access Analyzer installations. It can be installed from the Access Analyzer Instant Job Wizard. See the [Instant Job Wizard](../../admin/jobs/instantjobs/overview.md) topic for additional information. Navigate to the solution by expanding the Jobs tree and selecting the __.Entra ID Inventory__ Job Group. This group has been named in such a way to keep it at the top of the Jobs tree.
 
 ## Jobs
 
-![.Entra ID Inventory overview page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/runninginstances/overviewpage.webp)
+![.Entra ID Inventory overview page](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/runninginstances/overviewpage.webp)
 
 The jobs in the .Entra ID Inventory Solution are:
 
-- [1-AAD_Scan Job](/docs/accessanalyzer/enterpriseauditor/solutions/entraidinventory/1-aad_scan.md) – Provides essential Microsoft Entra ID User and Group membership details to several Access Analyzer built-in solution sets. Key information includes user status, user attributes, and group membership. This job also collects Microsoft Entra roles information.
-- [2-AAD_Exceptions Job](/docs/accessanalyzer/enterpriseauditor/solutions/entraidinventory/2-aad_exceptions.md) – Runs analysis on the collected data and identifies toxic conditions that exist within Microsoft Entra ID which may leave your environment at risk or add unnecessary administrative overhead
+- [1-AAD_Scan Job](1-aad_scan.md) – Provides essential Microsoft Entra ID User and Group membership details to several Access Analyzer built-in solution sets. Key information includes user status, user attributes, and group membership. This job also collects Microsoft Entra roles information.
+- [2-AAD_Exceptions Job](2-aad_exceptions.md) – Runs analysis on the collected data and identifies toxic conditions that exist within Microsoft Entra ID which may leave your environment at risk or add unnecessary administrative overhead
 
-The data collection is conducted by the AzureADInventory and Entra data collectors. See the [Standard Reference Tables & Views for the AzureADInventory Data Collector](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/azureadinventory/standardtables.md) topic for database table information.
+The data collection is conducted by the AzureADInventory and Entra data collectors. See the [Standard Reference Tables & Views for the AzureADInventory Data Collector](../../admin/datacollector/azureadinventory/standardtables.md) topic for database table information.
 
 __NOTE:__ This solution is required for SharePoint Online reports in the Netwrix Access Information Center.

@@ -28,7 +28,7 @@ The main section of the Customization Record summarizes the key information for 
 - __Scriptid__: Displays the record’s Script ID.
 - __Related Objects__: Summarizes the related object dependencies by object type. Click links to open detailed view. For example, there could be multiple scripts and workflows that depend on this object. Click links to open detailed view as shown.
 
-![cust_ui_related_objects](/img/product_docs/strongpointfornetsuite/customizations/cust_ui_related_objects.webp)
+![cust_ui_related_objects](../../../static/img/product_docs/strongpointfornetsuite/customizations/cust_ui_related_objects.webp)
 
 ### Buttons
 
@@ -42,7 +42,7 @@ The main section of the Customization Record summarizes the key information for 
 
 The tabs provide detailed information about the customization:
 
-- __Detailed Metadata__: Details about the customization including Fields, Values, Bundle / SuiteApp information, [Date Last Used](/docs/strongpointfornetsuite/clean_up/date_last_used.md), Last Used Status, and who uses the customization. Information varies depending on the customization type. For example, Workflow customizations include States, Actions, and Workflow Fields not applicable when viewing Field customizations.
+- __Detailed Metadata__: Details about the customization including Fields, Values, Bundle / SuiteApp information, [Date Last Used](../clean_up/date_last_used.md), Last Used Status, and who uses the customization. Information varies depending on the customization type. For example, Workflow customizations include States, Actions, and Workflow Fields not applicable when viewing Field customizations.
 - __ERD__: Displays the Entity-Relationship Diagram centered around this customization.
 - __Clean Up__: Comments, classification and clean up status associated with the customization. Search records have additional fields for Automated Search Clean Up alerts, rules, and status.
 - __Change Log__: Displays the change log for the customization.
@@ -52,7 +52,7 @@ The tabs provide detailed information about the customization:
 
 #### Bundle / SuiteApp Information
 
-This information is available on the Detailed Metadata tab for all customization types. They appear on the [Managed Bundle/App Updates](/docs/strongpointfornetsuite/change_management/change_management_reports.md#managed-bundleapp-updates) report.
+This information is available on the Detailed Metadata tab for all customization types. They appear on the [Managed Bundle/App Updates](../change_management/change_management_reports.md#managed-bundleapp-updates) report.
 
 - _Managed Bundle/SuiteApps_ are pushed to target accounts by a third-party provider.
 - _Third-Party Bundle/SuiteApps_ are third-party products that can be updated on demand for target accounts. These components have the same change evaluation as managed bundle/apps. Unmanaged third-party bundles or apps must meet these conditions:
@@ -63,12 +63,12 @@ This information is available on the Detailed Metadata tab for all customization
 
 #### Detailed Metadata tab
 
-![cust_ui_detailed_metadata](/img/product_docs/strongpointfornetsuite/customizations/cust_ui_detailed_metadata.webp)
+![cust_ui_detailed_metadata](../../../static/img/product_docs/strongpointfornetsuite/customizations/cust_ui_detailed_metadata.webp)
 
 #### Detailed Metadata tab for Script Customizations
 
-![cust_ui_detailed_metadata_scripts](/img/product_docs/strongpointfornetsuite/customizations/cust_ui_detailed_metadata_scripts.webp)
+![cust_ui_detailed_metadata_scripts](../../../static/img/product_docs/strongpointfornetsuite/customizations/cust_ui_detailed_metadata_scripts.webp)
 
 #### Detailed Metadata tab with Data Sources Integration
 
-![cust_ui_detailed_metadata_data_sources](/img/product_docs/strongpointfornetsuite/customizations/cust_ui_detailed_metadata_data_sources.webp)
+![cust_ui_detailed_metadata_data_sources](../../../static/img/product_docs/strongpointfornetsuite/customizations/cust_ui_detailed_metadata_data_sources.webp)

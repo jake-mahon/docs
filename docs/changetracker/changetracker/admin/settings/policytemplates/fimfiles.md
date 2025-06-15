@@ -2,7 +2,7 @@
 
 File System Integrity Monitoring is crucial for security and most Security Policies/Standards e.g. PCI DSS, mandate use of this control. Netwrix Change Tracker will monitor and alert on any file or folder change – a new file appearing, such as a Trojan being added to the System 32 folder, or an application hack/modification will be detected and alerted.
 
-![ConfigTemplatesFIMFiles](/img/product_docs/changetracker/changetracker/admin/settings/policytemplates/configtemplatesfimfiles.webp)
+![ConfigTemplatesFIMFiles](../../../../../../static/img/product_docs/changetracker/changetracker/admin/settings/policytemplates/configtemplatesfimfiles.webp)
 
 - __Polling Frequency__ – The default setting is to run a full poll (effectively a new baseline operation) only when the Agent has been restarted e.g. after a reboot but the Agent may be run in a ‘polling-only’ mode. This disables live tracking (the __Tracking Style__ attribute for the Tracker should be set to _Polling_) and means that the only change detection is performed when the scheduled poll is run. While this loses the benefits of real-time change detection, it can be desirable in sensitive environments where server resource loads need to be minimized under all conditions.
 - __Define Path__ – Click __+ Add a Tracked Folder__ to add a new folder/path to be tracked. Change Tracker provides a range of tokens (conceptually similar to the Windows Environment Variables) so that template definitions can be universally applied even if the OS Installation volumes used are different, e.g. OS installed onto D: rather than C:
@@ -38,4 +38,4 @@ In fact, all significant attributes for each file are tracked and any change to 
 
 Exclusions are configured in a similar manner to the inclusive tracking above.
 
-__NOTE:__ For Advanced Options: see [Appendix B](/docs/changetracker/changetracker/admin/matchrules/filefolderrules.md) for more information.
+__NOTE:__ For Advanced Options: see [Appendix B](../../matchrules/filefolderrules.md) for more information.

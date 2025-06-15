@@ -6,7 +6,7 @@ You might be wondering why you need access to the Portal if nearly everything ca
 
 The main menu for the Endpoint Policy Manager Customer Portal is shown below.
 
-![concepts_logons_and_downloads_10_374x437](/img/product_docs/policypak/policypak/cloud/concepts_logons_and_downloads_10_374x437.webp)
+![concepts_logons_and_downloads_10_374x437](../../../../static/img/product_docs/policypak/policypak/cloud/concepts_logons_and_downloads_10_374x437.webp)
 
 Video: For an overview on how to use the Endpoint Policy Manager Customer Portal, please watch this video: [http://www.policypak.com/customerportal](http://www.policypak.com/customerportal).
 
@@ -22,6 +22,6 @@ The Endpoint Policy Manager on-prem Bits files are shipped as an ISO so you can 
 
 Below you can see the list of files and directories that are inside the Endpoint Policy Manager ISO download.
 
-![concepts_logons_and_downloads_11_624x287](/img/product_docs/policypak/policypak/cloud/concepts_logons_and_downloads_11_624x287.webp)
+![concepts_logons_and_downloads_11_624x287](../../../../static/img/product_docs/policypak/policypak/cloud/concepts_logons_and_downloads_11_624x287.webp)
 
 You won't need most of these items for Endpoint Policy Manager Cloud. Indeed, the only folders you need are the __Admin Console MSI__ folder and the __Client Side Extension (CSE)__ folder, as explained in the next section.

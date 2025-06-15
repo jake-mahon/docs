@@ -8,7 +8,7 @@ Navigate to the __Unix__ > __1.Users and Groups__ > __UX_LocalGroups__ > __Confi
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the UX_LocalGroups Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/unix/usersgroups/localgroupsanalysis.webp)
+![Analysis Tasks for the UX_LocalGroups Job](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/unix/usersgroups/localgroupsanalysis.webp)
 
 The default analysis tasks are:
 

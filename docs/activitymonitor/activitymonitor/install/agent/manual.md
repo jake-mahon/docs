@@ -12,27 +12,27 @@ __Step 2 –__ Copy the Activity Monitor agent installation package to the targe
 
 __Step 3 –__ Click the Activity Monitor agent installation package and the Wizard opens.
 
-![Activity Monitor Agent Setup Wizard - Welcome Page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
+![Activity Monitor Agent Setup Wizard - Welcome Page](../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
 
 __Step 4 –__ On the welcome page click __Next__.
 
-![End-User License Agreement Page](/img/product_docs/activitymonitor/activitymonitor/install/eula.webp)
+![End-User License Agreement Page](../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/eula.webp)
 
 __Step 5 –__ On the End-User License Agreement page, select the __I accept the terms in the License Agreement__ option and click __Next__.
 
-![Destination Folder Page](/img/product_docs/activitymonitor/activitymonitor/install/destinationfolder.webp)
+![Destination Folder Page](../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/destinationfolder.webp)
 
 __Step 6 –__ (Optional) On the Destination Folder page, click __Change__ to change the installation directory location.
 
-![Change Destination Folder Page](/img/product_docs/activitymonitor/activitymonitor/install/agent/changedestination.webp)
+![Change Destination Folder Page](../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/agent/changedestination.webp)
 
 __Step 7 –__ Click __OK__ on the Change destination folder page to return to the Destination folder page. Click __Next__.
 
-![Ready to install Netwrix Activity Monitor Agent 64-bit Page](/img/product_docs/activitymonitor/activitymonitor/install/agent/readyinstall.webp)
+![Ready to install Netwrix Activity Monitor Agent 64-bit Page](../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/agent/readyinstall.webp)
 
 __Step 8 –__ On the Ready to install page, click __Install__. The installation process begins. The Setup wizard displays the installation status.
 
-![Completion Page](/img/product_docs/activitymonitor/activitymonitor/install/complete.webp)
+![Completion Page](../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/complete.webp)
 
 __Step 9 –__ When installation is complete, click Finish.
 
@@ -71,9 +71,9 @@ Example:
 
 ## Add the Activity Agent to the Console
 
-Before deploying the Activity Monitor agent, ensure all [Activity Agent Server Requirements](/docs/activitymonitor/activitymonitor/requirements/activityagent.md) have been met, including those for NAS devices when applicable.
+Before deploying the Activity Monitor agent, ensure all [Activity Agent Server Requirements](../../requirements/activityagent.md) have been met, including those for NAS devices when applicable.
 
-__NOTE:__ These steps are specific to deploying activity agents for monitoring file systems, SharePoint, SQL Server, Azure and Office 365 environments. See the [Active Directory Agent Deployment](/docs/activitymonitor/activitymonitor/admin/agents/add/activedirectory.md) section for instruction on deploying the AD agent. See the [Linux Agent Deployment](/docs/activitymonitor/activitymonitor/admin/agents/add/linux.md) topic for instructions on deploying agents to Linux servers.
+__NOTE:__ These steps are specific to deploying activity agents for monitoring file systems, SharePoint, SQL Server, Azure and Office 365 environments. See the [Active Directory Agent Deployment](../../admin/agents/add/activedirectory.md) section for instruction on deploying the AD agent. See the [Linux Agent Deployment](../../admin/agents/add/linux.md) topic for instructions on deploying agents to Linux servers.
 
 Follow the steps to deploy the activity agent to a single Windows server.
 
@@ -81,27 +81,27 @@ __Step 1 –__ Open the Activity Monitor Console.
 
 __Step 2 –__ On the Agents tab, click __Add Agent__. The Add New Agent(s) window opens.
 
-![Install New Agent Page](/img/product_docs/activitymonitor/activitymonitor/install/agent/installnew.webp)
+![Install New Agent Page](../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/agent/installnew.webp)
 
-__Step 3 –__ Specify the server name where the agent will be deployed. To add multiple server names, see the [Multiple Activity Agents Deployment](/docs/activitymonitor/activitymonitor/admin/agents/add/multiple.md) topic for additional information. Click __Next__.
+__Step 3 –__ Specify the server name where the agent will be deployed. To add multiple server names, see the [Multiple Activity Agents Deployment](../../admin/agents/add/multiple.md) topic for additional information. Click __Next__.
 
-![Agent Port Configuration](/img/product_docs/activitymonitor/activitymonitor/install/agent/portdefault.webp)
+![Agent Port Configuration](../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/agent/portdefault.webp)
 
 __Step 4 –__ Specify the port to be used for the agent. Click __Next__.
 
-![Credentials to connect to servers](/img/product_docs/activitymonitor/activitymonitor/install/agent/credentials.webp)
+![Credentials to connect to servers](../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/agent/credentials.webp)
 
-__Step 5 –__ On the Credentials to Connect to the Server(s) page, specify the credentials for the server to which the agent is deployed. See the [Single Activity Agent Deployment](/docs/activitymonitor/activitymonitor/admin/agents/add/single.md) topic for additional information on credential options. Click __Connect__.
+__Step 5 –__ On the Credentials to Connect to the Server(s) page, specify the credentials for the server to which the agent is deployed. See the [Single Activity Agent Deployment](../../admin/agents/add/single.md) topic for additional information on credential options. Click __Connect__.
 
 __NOTE:__ When clicking __Connect__ while adding the Agent to the Console, the connection may fail. When clicking Connect, the Activity Monitor verifies not only its ability to manage the agent but the console's ability to deploy the agent as well. Errors can be ignored if the agent was manually installed.
 
 __Step 6 –__ Regardless of the warning messages that the agent cannot be installed or upgraded, click __Next__. The console will automatically detect the agent as it is already installed.
 
-![Agent Install Location](/img/product_docs/activitymonitor/activitymonitor/install/agent/installlocation.webp)
+![Agent Install Location](../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/agent/installlocation.webp)
 
 __Step 7 –__ Specify the path of the Activity Monitor Agent, that has already been installed. Click __Next__.
 
-![Windows Agent Settings](/img/product_docs/activitymonitor/activitymonitor/install/agent/windowsagent.webp)
+![Windows Agent Settings](../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/agent/windowsagent.webp)
 
 __Step 8 –__ Specify the Activity Monitor Agent Management Group (if desired). Click Finish.
 
@@ -111,6 +111,6 @@ The Agent is now added to the Activity Monitor.
 
 During the installation process of the agent, the status will display Installing. If there are any errors, the Activity Monitor stops the installation and lists the errors in the Agent messages box.
 
-![Activity Monitor Agent Installed](/img/product_docs/activitymonitor/activitymonitor/install/agent/consolewithagent.webp)
+![Activity Monitor Agent Installed](../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/agent/consolewithagent.webp)
 
 When the Activity Monitor agent installation is complete, the status changes to __Installed__ and the activity agent version populates. The next step is to add hosts to be monitored.

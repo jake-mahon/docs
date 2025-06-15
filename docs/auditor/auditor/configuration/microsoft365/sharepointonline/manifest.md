@@ -12,7 +12,7 @@ Optionally, you can select __Download__ to edit the manifest locally, and then u
 
 Do one of the following:
 
-- For the clear installation of Netwrix Auditor, add roles as described in the [Using Modern Authentication with SharePoint Online](/docs/auditor/auditor/configuration/microsoft365/sharepointonline/modernauth.md) topic.
+- For the clear installation of Netwrix Auditor, add roles as described in the [Using Modern Authentication with SharePoint Online](modernauth.md) topic.
 
 - If you upgraded Netwrix Auditor from the version 10.0, replace all existing content under the __requiredResourceAccess__  property.
 

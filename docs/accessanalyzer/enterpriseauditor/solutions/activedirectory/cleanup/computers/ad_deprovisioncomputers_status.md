@@ -8,7 +8,7 @@ Navigate to the __Active Directory__ > __Cleanup__ > __3.Computers__ > __AD_Depr
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for AD_DeprovisionComputers_Status Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/cleanup/computers/deprovisioncomputersstatusanalysis.webp)
+![Analysis Tasks for AD_DeprovisionComputers_Status Job](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/cleanup/computers/deprovisioncomputersstatusanalysis.webp)
 
 The default analysis tasks are:
 

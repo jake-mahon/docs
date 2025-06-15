@@ -6,4 +6,4 @@ Which is set using the Netwrix Endpoint Policy Manager (formerly PolicyPak) Pak 
 
 See this video for more details, which will also set the Chrome Pak:
 
-[Manage IE Connections tab](/docs/policypak/policypak/video/applicationsettings/internetexplorer/connectionstab.md)
+[Manage IE Connections tab](../../../video/applicationsettings/internetexplorer/connectionstab.md)

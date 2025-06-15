@@ -11,12 +11,12 @@ __Step 2 –__ Log In: You will be prompted to enter your credentials. Use your 
 
 __NOTE:__ Please ensure to update your login credentials after the first login to enhance security.
 
-![ Input your assigned username and password to log in to the Server](/img/product_docs/endpointprotector/endpointprotector/admin/serverlogin.png)
+![ Input your assigned username and password to log in to the Server](../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/serverlogin.png)
 
 Upon successful log in, the __Dashboard__ > __General Dashboard__ window will be displayed (see below image). This window is intended to provide a high-level overview of endpoints under management as well as activity, licensing status, and modules licensed.
 
 Your available modules are displayed in the left-side navigation pane. These can be selected to further manage module-specific policies. Ultimately, policies define the actions allowed / disallowed on the endpoint.
 
-![High-level overview of endpoints under management as well as activity](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/dashboard.png)
+![High-level overview of endpoints under management as well as activity](../../../../static/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/dashboard.png)
 
 Before deploying any agents, each module’s policy should be reviewed. If agents have already been delivered to systems, a review of the configuration(s) can be accomplished by verifying active policy mappings. To clarify, once a policy is built or edited, it would be ‘mapped’ to a defined target or group of targets. This will be discussed later in the sections for each module.

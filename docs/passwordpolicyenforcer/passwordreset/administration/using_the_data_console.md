@@ -4,13 +4,13 @@ The Data Console allows you to view and export data collected by Password Reset.
 
 The Data Console has three tabs. The __Recent Activity__ tab shows a chart of recent requests. The chart is empty when Password Reset is first installed, but it will populate itself as the system is used.
 
-![using_the_data_console](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_the_data_console.webp)
+![using_the_data_console](../../../../static/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_the_data_console.webp)
 
 The bars in the chart show how many successful enrollments, resets, unlocks, and changes occurred every day. You can click the bars to see a filtered view of the events for that day. For example, you could click the blue bar on 2/19/2015 to see all the password resets for that day.
 
-![using_the_data_console_1_1393x772](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_the_data_console_1_1393x772.webp)
+![using_the_data_console_1_1393x772](../../../../static/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_the_data_console_1_1393x772.webp)
 
-The resulting view shows only the 15 successful password resets on 2/19/2015. These are shown in the __Audit Log__ tab. You can create your own filter to find events in this tab. See the [Custom Filters](/docs/passwordpolicyenforcer/passwordreset/administration/filtering_data.md#custom-filters) topic for additional information. You can drag a column's header to rearrange the columns, or click a column header to sort the records.
+The resulting view shows only the 15 successful password resets on 2/19/2015. These are shown in the __Audit Log__ tab. You can create your own filter to find events in this tab. See the [Custom Filters](filtering_data.md#custom-filters) topic for additional information. You can drag a column's header to rearrange the columns, or click a column header to sort the records.
 
 The __Audit Log__ tab has nine columns:
 
@@ -27,7 +27,7 @@ The __Audit Log__ tab has nine columns:
 
 The __Users__ tab contains Information about each user. All users are shown by default, but you can create filters to find specific users.
 
-![using_the_data_console_2_1317x725](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_the_data_console_2_1317x725.webp)
+![using_the_data_console_2_1317x725](../../../../static/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_the_data_console_2_1317x725.webp)
 
 The __Users__ tab has seven columns:
 

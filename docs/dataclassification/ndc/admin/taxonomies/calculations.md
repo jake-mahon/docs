@@ -6,10 +6,10 @@ Follow the steps to review the calculations for taxonomy:
 2. Choose the required taxonomy.
 3. Select Browse.
 
-   ![calculationscalculatoricon](/img/product_docs/dataclassification/ndc/admin/taxonomies/calculationscalculatoricon.webp)
+   ![calculationscalculatoricon](../../../../../static/img/product_docs/dataclassification/ndc/admin/taxonomies/calculationscalculatoricon.webp)
 4. On the classified file, click the Calculator icon. You shall see how the classification scores are calculated.
 
-   ![calculations](/img/product_docs/dataclassification/ndc/admin/taxonomies/calculations.webp)
+   ![calculations](../../../../../static/img/product_docs/dataclassification/ndc/admin/taxonomies/calculations.webp)
 
 This will show the classification calculation using the latest clues definition.
 

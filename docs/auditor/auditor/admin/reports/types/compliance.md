@@ -19,4 +19,4 @@ In the report filters, select a monitoring plan you want to generate a report fo
 
 Review the following for additional information:
 
-- See the [View Reports](/docs/auditor/auditor/admin/reports/view.md) topic for additional information on how to find the report you need and view reports in a web browser.
+- See the [View Reports](../view.md) topic for additional information on how to find the report you need and view reports in a web browser.

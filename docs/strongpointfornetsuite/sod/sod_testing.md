@@ -54,6 +54,6 @@ Test Reports are available for both __User Role Test Violations__ and __Employee
 3. Open the __SoD__ tab.
 4. Select __SoD Testing__ and one of the tabs:. There are links to __View Violation Details__ and to open the Role Record.
 
-   ![SoD Test Report](/img/product_docs/strongpointfornetsuite/sod/sod_test_report.webp)
+   ![SoD Test Report](../../../static/img/product_docs/strongpointfornetsuite/sod/sod_test_report.webp)
      
    Details can be exported in an Excel format.

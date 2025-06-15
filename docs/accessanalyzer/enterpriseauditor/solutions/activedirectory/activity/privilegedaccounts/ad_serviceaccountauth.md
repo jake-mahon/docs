@@ -8,7 +8,7 @@ Navigate to the __Jobs__ > __Active Directory__ > __6.Activity__ > __Operations_
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Task for the AD_ServiceAccountAuth Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/activity/privilegedaccounts/serviceaccountauthanalysis.webp)
+![Analysis Task for the AD_ServiceAccountAuth Job](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/activity/privilegedaccounts/serviceaccountauthanalysis.webp)
 
 The following non-configurable analysis task is selected by default:
 

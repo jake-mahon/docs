@@ -4,7 +4,7 @@ So there are lots of reasons why you might see 99% disk, and it doesn't have to 
 
 Here's an example scenario…
 
-![369_1_faq-913-01](/img/product_docs/policypak/policypak/troubleshooting/369_1_faq-913-01.jpg)
+![369_1_faq-913-01](../../../../static/img/product_docs/policypak/policypak/troubleshooting/369_1_faq-913-01.jpg)
 
 First:There are known bugs which push the utilization up to 100% from MS. Example:[https://support.microsoft.com/en-us/help/3083595/task-manager-might-show-100-disk-utilization-on-windows-10-devices-wit](https://support.microsoft.com/en-us/help/3083595/task-manager-might-show-100-disk-utilization-on-windows-10-devices-wit)
 
@@ -22,18 +22,18 @@ __Step 2 –__ When you suspect high-disk utilization from Endpoint Policy Manag
 
 __Step 3 –__ Run ```perfmon.exe``` to see a relationship graph. Clear out any existing counters.
 
-![369_2_faq-913-02](/img/product_docs/policypak/policypak/troubleshooting/369_2_faq-913-02.jpg)
+![369_2_faq-913-02](../../../../static/img/product_docs/policypak/policypak/troubleshooting/369_2_faq-913-02.jpg)
 
 __Step 4 –__ Next you need to add new counters for PPExtensionSvc disk usage. To do this, find PROCESS then EXPAND.
 
-![369_3_faq-913-03](/img/product_docs/policypak/policypak/troubleshooting/369_3_faq-913-03.jpg)
+![369_3_faq-913-03](../../../../static/img/product_docs/policypak/policypak/troubleshooting/369_3_faq-913-03.jpg)
 
 __Step 5 –__ Expand the Process item from the top list, select only:
 
 - I/O Data Operations/sec and
 - I/O Other Operations/sec then from the bottom list select
 
-![369_4_faq-913-04](/img/product_docs/policypak/policypak/troubleshooting/369_4_faq-913-04.jpg)
+![369_4_faq-913-04](../../../../static/img/product_docs/policypak/policypak/troubleshooting/369_4_faq-913-04.jpg)
 
 __Step 6 –__ From Logical Disk, you want to add the following items (only ONE of which is shown in the screenshot).
 
@@ -43,11 +43,11 @@ __Step 6 –__ From Logical Disk, you want to add the following items (only ONE 
 
 __NOTE:__ Ensure _Total selected in the bottom list.
 
-![369_5_faq-913-05](/img/product_docs/policypak/policypak/troubleshooting/369_5_faq-913-05.jpg)
+![369_5_faq-913-05](../../../../static/img/product_docs/policypak/policypak/troubleshooting/369_5_faq-913-05.jpg)
 
 Your total counters should look like this.. when sorted by OBJECT:
 
-![369_6_faq-913-06](/img/product_docs/policypak/policypak/troubleshooting/369_6_faq-913-06.jpg)
+![369_6_faq-913-06](../../../../static/img/product_docs/policypak/policypak/troubleshooting/369_6_faq-913-06.jpg)
 
 __Step 7 –__ Optionally, add anything else that could be getting in the way or adding to high disk activity, like ```DISM.EXE``` which was seen in the first screenshot which is known for high disk usage. 
 
@@ -64,7 +64,7 @@ __Step 10 –__ …then it's NOT PPExtensionService causing high disk usage and 
 
 If you still think Endpoint Policy Manager is causing high disk usage / slowdowns we need:
 
-__Step 1 –__ [What must I send to Endpoint Policy Manager support in order to get the FASTEST support?](/docs/policypak/policypak/troubleshooting/fastsupport.md)
+__Step 1 –__ [What must I send to Endpoint Policy Manager support in order to get the FASTEST support?](fastsupport.md)
 
 __Step 2 –__ Screenshot of the perfmon as configured above running for a full minute.
 

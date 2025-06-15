@@ -8,7 +8,7 @@ View the analysis tasks by navigating to the __FileSystem__ > __2.Direct Permiss
 
 __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis task is preconfigured for this job.
 
-![Analysis Tasks for the FS_UnresolvedSIDs Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/directpermissions/unresolvedsidsanalysis.webp)
+![Analysis Tasks for the FS_UnresolvedSIDs Job](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/directpermissions/unresolvedsidsanalysis.webp)
 
 The following analysis task is selected by default:
 

@@ -4,7 +4,7 @@ Several security frameworks reference the need for change control, integrity mon
 
 The NERC CIP 010 process is shown in the diagram below and the Netwrix Baseline Configuration management process allows you to follow this cycle:
 
-![nerc_cip_010_lifecycle](/img/product_docs/changetracker/changetracker/baseline/nerc_cip_010_lifecycle.webp)
+![nerc_cip_010_lifecycle](../../../../static/img/product_docs/changetracker/changetracker/baseline/nerc_cip_010_lifecycle.webp)
 
 Every configuration item that is included within the Baseline Policy must be essential and justified, since every decision regarding configuration will potentially increase your attack surface.
 

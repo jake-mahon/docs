@@ -4,13 +4,13 @@ Netwrix Access Analyzer (formerly Enterprise Auditor) can execute Access Auditin
 
 ## Access & Sensitive Data Auditing Permissions
 
-- Permissions vary based on the Scan Mode selected and target environment. See the [SharePoint Support](/docs/accessanalyzer/enterpriseauditor/requirements/target/sharepoint.md) topic for additional information.
+- Permissions vary based on the Scan Mode selected and target environment. See the [SharePoint Support](../../enterpriseauditor/requirements/target/sharepoint.md) topic for additional information.
 
-See the [SharePoint Access & Sensitive Data Auditing Configuration](/docs/accessanalyzer/config/sharepoint/access.md) topic for instructions.
+See the [SharePoint Access & Sensitive Data Auditing Configuration](access.md) topic for instructions.
 
 ## Access & Sensitive Data Auditing Port Requirements
 
-- Ports vary based on the Scan Mode selected and target environment. See the [SharePoint Scan Options](/docs/accessanalyzer/enterpriseauditor/requirements/solutions/sharepoint/scanoptions.md) topic for additional information.
+- Ports vary based on the Scan Mode selected and target environment. See the [SharePoint Scan Options](../../enterpriseauditor/requirements/solutions/sharepoint/scanoptions.md) topic for additional information.
 
 ## Activity Auditing Permissions
 
@@ -27,7 +27,7 @@ For integration between the Activity Monitor and Access Analyzer, the credential
 
 SharePoint Requirements
 
-See the [SharePoint On-Premise Activity Auditing Configuration](/docs/accessanalyzer/config/sharepoint/activity.md) topic for instructions.
+See the [SharePoint On-Premise Activity Auditing Configuration](activity.md) topic for instructions.
 
 Activity Monitor Archive Location
 

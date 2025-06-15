@@ -20,6 +20,6 @@ For a gateway, you can set up as many gateway accounts as required and then link
 
 __See Also__
 
-- [Manage SMS Gateway Accounts](/docs/groupid/groupid/admincenter/smsgateway/manage.md)
-- [Implement and Deploy a Custom SMS Gateway](/docs/groupid/groupid/admincenter/smsgateway/implementcustom.md)
-- [Authentication Policy](/docs/groupid/groupid/admincenter/identitystore/configure/authpolicy.md)
+- [Manage SMS Gateway Accounts](manage.md)
+- [Implement and Deploy a Custom SMS Gateway](implementcustom.md)
+- [Authentication Policy](../identitystore/configure/authpolicy.md)

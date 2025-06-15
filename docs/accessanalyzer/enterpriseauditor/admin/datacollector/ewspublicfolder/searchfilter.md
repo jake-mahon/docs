@@ -4,7 +4,7 @@ The Search filter settings page applies a filter used to search mailboxes in the
 
 - PublicFolder search
 
-![EWS Public Folder Data Collector Wizard Search Filter page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/searchfilter.webp)
+![EWS Public Folder Data Collector Wizard Search Filter page](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/searchfilter.webp)
 
 Click __Add Filter__ to open the Filter Wizard
 
@@ -12,8 +12,8 @@ Click __Add Filter__ to open the Filter Wizard
 
 The Filter Wizard manages properties of the search filter. The Filter Wizard pages are:
 
-- [EWSPublicFolder FW: Search Filter](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/ewspublicfolder/filterwizard/searchfilter.md)
-- [EWSPublicFolder FW: Folder Conditions](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/ewspublicfolder/filterwizard/folderconditions.md)
-- [EWSPublicFolder FW: Message Conditions](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/ewspublicfolder/filterwizard/messageconditions.md)
-- [EWSPublicFolder FW: BodyOptions](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/ewspublicfolder/filterwizard/bodyoptions.md)
-- [EWSPublicFolder FW: Save Filter](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/ewspublicfolder/filterwizard/savefilter.md)
+- [EWSPublicFolder FW: Search Filter](filterwizard/searchfilter.md)
+- [EWSPublicFolder FW: Folder Conditions](filterwizard/folderconditions.md)
+- [EWSPublicFolder FW: Message Conditions](filterwizard/messageconditions.md)
+- [EWSPublicFolder FW: BodyOptions](filterwizard/bodyoptions.md)
+- [EWSPublicFolder FW: Save Filter](filterwizard/savefilter.md)

@@ -7,16 +7,16 @@ The scaffolding generates the following scaffoldings:
 
 - [
   GetJobLogAdministrationAccessControlRules
-  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/getjoblogadministrationaccesscontrolrules/index.md): Generates the permissions to read task and job instances logs in UI for a given profile.
+  ](../../accesscontrolrules/jobs/getjoblogadministrationaccesscontrolrules/index.md): Generates the permissions to read task and job instances logs in UI for a given profile.
 - [
   JobAdministrationAccessControlRules
-  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/jobadministrationaccesscontrolrules/index.md): Scaffolding to access the job administration page.
+  ](../../accesscontrolrules/jobs/jobadministrationaccesscontrolrules/index.md): Scaffolding to access the job administration page.
 - [
   PendingAssignedResourceTypesAccessControlRules
-  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/pendingassignedresourcetypesaccesscontrolrules/index.md): Generates the access control rules which give to a profile the permissions to call the API Pending AssignedResourceTypes.
+  ](../../accesscontrolrules/jobs/pendingassignedresourcetypesaccesscontrolrules/index.md): Generates the access control rules which give to a profile the permissions to call the API Pending AssignedResourceTypes.
 - [
   ResourceChangesViewAccessControlRules
-  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/resourcechangesviewaccesscontrolrules/index.md): Generates the access control rules which gives to a profile the permissions to call the API ResourceChange, ResourceFileChange and ResourceLinkChange.
+  ](../../accesscontrolrules/jobs/resourcechangesviewaccesscontrolrules/index.md): Generates the access control rules which gives to a profile the permissions to call the API ResourceChange, ResourceFileChange and ResourceLinkChange.
 
 ## Properties
 

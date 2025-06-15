@@ -1,6 +1,6 @@
 # Check Password APIs
 
-You can use APIs to check a candidate password against the EPE rules defined on the [EPE Settings Window](/docs/threatprevention/threatprevention/admin/configuration/epesettings.md).
+You can use APIs to check a candidate password against the EPE rules defined on the [EPE Settings Window](../admin/configuration/epesettings.md).
 
 - POST api/Epe/CheckPassword (Basic)
 - POST api/Epe/CheckPassword (Digest)
@@ -32,7 +32,7 @@ The “username” and “password” parameters are required. The “server” 
 
 Example
 
-![POST api/Epe/CheckPassword (Basic)](/img/product_docs/threatprevention/threatprevention/eperestsite/basic.webp)
+![POST api/Epe/CheckPassword (Basic)](../../../../static/img/product_docs/threatprevention/threatprevention/eperestsite/basic.webp)
 
 ## POST api/Epe/CheckPassword (Digest)
 
@@ -64,7 +64,7 @@ Required Header Input Parameters
 
 Example
 
-![POST api/Epe/CheckPassword (Digest)](/img/product_docs/threatprevention/threatprevention/eperestsite/digest.webp)
+![POST api/Epe/CheckPassword (Digest)](../../../../static/img/product_docs/threatprevention/threatprevention/eperestsite/digest.webp)
 
 ## POST api/Epe/CheckPassword (Bearer)
 
@@ -95,4 +95,4 @@ Required Header Input Parameters
 
 Example
 
-![POST api/Epe/CheckPassword (Bearer)](/img/product_docs/threatprevention/threatprevention/eperestsite/bearer.webp)
+![POST api/Epe/CheckPassword (Bearer)](../../../../static/img/product_docs/threatprevention/threatprevention/eperestsite/bearer.webp)

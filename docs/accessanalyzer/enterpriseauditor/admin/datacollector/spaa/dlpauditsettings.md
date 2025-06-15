@@ -4,7 +4,7 @@ The DLP Audit Settings page is where sensitive data discovery settings are confi
 
 __CAUTION:__ Users should not change scans in a way that would result in less data being returned on a subsequent scan (i.e. scanning fewer web applications, scanning fewer site collections, or a shallower depth scan). Those resources not included in a subsequent scan are marked as deleted in the Tier 2 database and subsequently removed from the Tier 1 database.
 
-![DLP Audit Settings page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/spaa/dlpauditsettings.webp)
+![DLP Audit Settings page](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/spaa/dlpauditsettings.webp)
 
 Configure the __Scan Performance__ options:
 

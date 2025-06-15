@@ -2,7 +2,7 @@
 
 You might find that end users report that the Admin Approval pop-up appears even if they do not click on anything.
 
-__NOTE:__ See the [Understand "Enforce Admin Approval for all installers" behavior](/docs/policypak/policypak/video/leastprivilege/adminapproval/enforce.md) video to learn how to avoid pop-ups with Admin Approval.
+__NOTE:__ See the [Understand "Enforce Admin Approval for all installers" behavior](../../video/leastprivilege/adminapproval/enforce.md) video to learn how to avoid pop-ups with Admin Approval.
 
 This will generally happen when two things are true:
 
@@ -13,7 +13,7 @@ When an application is detected as an installer, even if a user doesn’t click 
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/adminapproval/avoid_pop_ups_with_admin_approval.webp)
+Description automatically generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/adminapproval/avoid_pop_ups_with_admin_approval.webp)
 
 There are two ways to overcome these messages:
 
@@ -32,7 +32,7 @@ The first way to see which applications are causing unwanted pop-ups is via Endp
 
 ![A screenshot of a computer program
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/adminapproval/avoid_pop_ups_with_admin_approval_1.webp)
+Description automatically generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/adminapproval/avoid_pop_ups_with_admin_approval_1.webp)
 
 __NOTE:__ Some applications may have different ways to self-update, possibly calling more than one upgrade application. Thiscould result in more than one pop-up. Be sure you are noting them all before you proceed.
 
@@ -42,6 +42,6 @@ You can get similar information from the Endpoint Policy Manager event logs, whi
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/adminapproval/avoid_pop_ups_with_admin_approval.jpg)
+Description automatically generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/adminapproval/avoid_pop_ups_with_admin_approval.jpg)
 
 There is more information on using Event Viewer with Endpoint Policy Manager at the end of this guide, with specific event IDs to search for.

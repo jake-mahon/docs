@@ -4,7 +4,7 @@ The Action page specifies the basic action to perform on public folders. The pag
 
 __NOTE:__ Once an action is selected and saved, and the wizard is closed, this page is no longer available and the selection cannot be altered.
 
-![Public Folder Action Module Wizard Action page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/filesystem/action.webp)
+![Public Folder Action Module Wizard Action page](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/filesystem/action.webp)
 
 Choose from the following actions:
 

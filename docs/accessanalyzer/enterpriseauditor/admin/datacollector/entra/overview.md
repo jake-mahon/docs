@@ -2,7 +2,7 @@
 
 The Entra data collector collects Microsoft Entra roles information from the target Microsoft Entra tenant. This data collector is preconfigured in the .Entra ID Inventory solution.
 
-Both this data collector and the .Entra Inventory solution are available with all Access Analyzer license options. See the [.Entra ID Inventory Solution](/docs/accessanalyzer/enterpriseauditor/solutions/entraidinventory/overview.md) topic for additional information.
+Both this data collector and the .Entra Inventory solution are available with all Access Analyzer license options. See the [.Entra ID Inventory Solution](../../../solutions/entraidinventory/overview.md) topic for additional information.
 
 Protocols
 
@@ -34,6 +34,6 @@ Permissions
 
 The Entra data collector is configured through the Entra Data Collector Wizard, which contains the following wizard pages:
 
-- [Entra: Scan options](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/entra/options.md)
-- [Entra: Results](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/entra/results.md)
-- [Entra: Summary](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/entra/summary.md)
+- [Entra: Scan options](options.md)
+- [Entra: Results](results.md)
+- [Entra: Summary](summary.md)

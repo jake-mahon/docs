@@ -4,7 +4,7 @@ The Mail Flow page returns permissions information for the public folder environ
 
 - Office 365 > Mail Flow Metrics
 
-![ExchangePS Data Collector Wizard Mail Flow page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/mailflow.webp)
+![ExchangePS Data Collector Wizard Mail Flow page](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/mailflow.webp)
 
 Select and configure a date range from the following options:
 

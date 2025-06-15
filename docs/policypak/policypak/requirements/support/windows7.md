@@ -2,7 +2,7 @@
 
 First, Windows 7, Server 2008 R2, Windows 8 and Server 2012 R2 are not supported by Microsoft and not supported with Netwrix Endpoint Policy Manager (formerly PolicyPak) installed.
 
-Endpoint Policy Manager only supports versions of the operating system which are actively supported by Microsoft. This is covered in this FAQ:[Which Windows Client and Server are currently supported by Endpoint Policy Manager?](/docs/policypak/policypak/requirements/support/windows.md)
+Endpoint Policy Manager only supports versions of the operating system which are actively supported by Microsoft. This is covered in this FAQ:[Which Windows Client and Server are currently supported by Endpoint Policy Manager?](windows.md)
 
 That being said, Endpoint Policy Manager and unsupported operating systems are BEST EFFORT.
 

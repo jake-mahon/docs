@@ -2,7 +2,7 @@
 
 Evaluate Policy is the core algorithm of the assignment policy. See the [
 Assignment Policy
-](/docs/usercube/usercube/integration-guide/role-model/role-model-rules/index.md) topic for additional information.
+](../../role-model/role-model-rules/index.md) topic for additional information.
 
 The algorithm is applied by the server to a resource. It has the following responsibilities:
 
@@ -13,11 +13,11 @@ The algorithm is applied by the server to a resource. It has the following respo
 
 See the [
 Risk Management
-](/docs/usercube/usercube/integration-guide/governance/risks/index.md) topic for additional information.
+](../../governance/risks/index.md) topic for additional information.
 
 ## Overview
 
-![Evaluate Policy Overview](/img/product_docs/usercube/usercube/integration-guide/role-assignment/evaluate-policy/evaluate-policy-1.webp)
+![Evaluate Policy Overview](../../../../../../static/img/product_docs/usercube/usercube/integration-guide/role-assignment/evaluate-policy/evaluate-policy-1.webp)
 
 The main responsibility of the Evaluate Policy is to compute, for every fed resource, the set of assignments of entitlements that comply with the assignment policy.
 
@@ -31,11 +31,11 @@ Later, provisioning orders are edited, validated by a knowledgeable user and sen
 
 Evaluate Policy is executed by the task ```Usercube-Compute-RoleModel```, usually included in a regularly scheduled provisioning job.
 
-See the [Connectors](/docs/usercube/usercube/integration-guide/connectors/index.md), [
+See the [Connectors](../../connectors/index.md), [
 Compute Role Model Task
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md), and [
+](../../toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md), and [
 Jobs
-](/docs/usercube/usercube/integration-guide/tasks-jobs/jobs/index.md) topics for additional information.
+](../../tasks-jobs/jobs/index.md) topics for additional information.
 
 ## The Algorithm Steps
 
@@ -58,11 +58,11 @@ To improve execution time, two optimizations are used:
 - Identity Manager uses [batching](https://docs.microsoft.com/en-us/azure/azure-sql/performance-improve-use-batching) to perform the database request. The ```SELECT``` query is divided into sets of smaller queries called batches. The size of a batch is configurable in the Identity Manager-Compute-RoleModel, with the ```BatchSelectSize``` attribute.
 - Identity Manager only selects resources for which a new assignment computation is needed. They are resources updated during the last incremental synchronization, and resources that depend on them. They are identified by the dirty flag, set during incremental synchronization. See the [
   Upward Data Synchronization
-  ](/docs/usercube/usercube/integration-guide/synchronization/upward-data-sync/index.md) topic for additional information.
+  ](../../synchronization/upward-data-sync/index.md) topic for additional information.
 
 __NOTE:__ For very few edge cases, dependencies between resource values can be difficult to identify within Identity Manager. An example involves entity property expressions using [LINQ](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/) syntax. See the [
 Entity Type
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)topic for additional information. A second- or third-order binding used in such an expression actually defines a dependency. But Identity Manager does not account for it, because of performance-reliability trade-offs. That means a resource ```R1```, using such an expression to compute one of its properties values from another resource ```R2``` property value, might not be updated even if ```R2``` has been updated by incremental synchronization. This too can be fixed by using complete synchronization once a day.
+](../../toolkit/xml-configuration/metadata/entitytype/index.md)topic for additional information. A second- or third-order binding used in such an expression actually defines a dependency. But Identity Manager does not account for it, because of performance-reliability trade-offs. That means a resource ```R1```, using such an expression to compute one of its properties values from another resource ```R2``` property value, might not be updated even if ```R2``` has been updated by incremental synchronization. This too can be fixed by using complete synchronization once a day.
 
 __Step 2 –__ __Compute expected assignments__
 
@@ -75,9 +75,9 @@ The list contains:
 - Automatic assignments, inferred from context-based rules
 - Automatic assignments, inferred from other assignments, according to role-based rules
 - Manual assignments previously created and derogations previously validated
-- Assignments updated by an automation rule. See the [Automation Rule](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/automationrule/index.md) topic for additional information.
+- Assignments updated by an automation rule. See the [Automation Rule](../../toolkit/xml-configuration/provisioning/automationrule/index.md) topic for additional information.
 
-To build the list, the algorithm first goes through composite role rules, single role rules, resource type rules, navigation rules, and applies them in that order. See the [Composite Role Rule](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/compositerolerule/index.md), [Single Role Rule](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerolerule/index.md), and [Resource Type](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md) topics for additional information. This takes care of automatic assignments. Every step influences the following one: single roles can be inferred from composite roles that have just been assigned by a reviewer or an automation rule for example.
+To build the list, the algorithm first goes through composite role rules, single role rules, resource type rules, navigation rules, and applies them in that order. See the [Composite Role Rule](../../toolkit/xml-configuration/provisioning/compositerolerule/index.md), [Single Role Rule](../../toolkit/xml-configuration/provisioning/singlerolerule/index.md), and [Resource Type](../../toolkit/xml-configuration/provisioning/resourcetype/index.md) topics for additional information. This takes care of automatic assignments. Every step influences the following one: single roles can be inferred from composite roles that have just been assigned by a reviewer or an automation rule for example.
 
 Then, manual assignments and derogations are added to the expected assignments list. They are extracted from the database, where they were saved after being added from the UI or validated through the UI, and are considered part of the role model. Manual assignments are identified by the Approved workflow state. Derogations are identified by the Found and Historic workflow states.
 
@@ -89,34 +89,34 @@ Match context rules
 
 Dimensions are really the basis of an assignment process. See the [
 Entitlement Management
-](/docs/usercube/usercube/introduction-guide/overview/entitlement-management/index.md) topic for additional information.
+](../../../introduction-guide/overview/entitlement-management/index.md) topic for additional information.
 
 Before starting, a context rule is applied, giving for the input resource:
 
 - The dimension values
 - The time period validity of every assignment computed during this Evaluate Policy iteration
 
-![Computing Context For Input Resource](/img/product_docs/usercube/usercube/integration-guide/role-assignment/evaluate-policy/enforce-context.webp)
+![Computing Context For Input Resource](../../../../../../static/img/product_docs/usercube/usercube/integration-guide/role-assignment/evaluate-policy/enforce-context.webp)
 
 Computing expected role assignments
 
 Role assignments, on the other hand, are the outcome of the assignment process. See the [
 Entitlement Management
-](/docs/usercube/usercube/introduction-guide/overview/entitlement-management/index.md) topic for additional information.
+](../../../introduction-guide/overview/entitlement-management/index.md) topic for additional information.
 
 Role assignments are the output of composite role rules and single role rules enforcement. The outcome of those rules, as assigned composite roles and assigned single roles, is conditioned by the input resource's context. They are the image of the status of trust and privilege granted to a resource-identity.
 
-![Computing Expected Role Assignments](/img/product_docs/usercube/usercube/integration-guide/role-assignment/evaluate-policy/compute-expected-1.webp)
+![Computing Expected Role Assignments](../../../../../../static/img/product_docs/usercube/usercube/integration-guide/role-assignment/evaluate-policy/compute-expected-1.webp)
 
 Enforcing composite role rules
 
-The first rules that are enforced are the composite role rules. See the [Composite Role Rule](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/compositerolerule/index.md)topic for additional information.
+The first rules that are enforced are the composite role rules. See the [Composite Role Rule](../../toolkit/xml-configuration/provisioning/compositerolerule/index.md)topic for additional information.
 
 For every selected resource, this step enforces composite role rules. That means assigning a specific composite role to the input resource, based on its context's dimension values. This new assignment is materialized into a new object called an assigned composite role, stored in the ```UP_AssignedCompositeRoles``` table. The resource becomes the owner of the assigned composite role.
 
 Manual and derogatory assignments of composite roles found in the database are also added to the expected assignments list.
 
-Then automation rules are enforced on assigned composite roles. See the [Automation Rule](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/automationrule/index.md) topic for additional information.
+Then automation rules are enforced on assigned composite roles. See the [Automation Rule](../../toolkit/xml-configuration/provisioning/automationrule/index.md) topic for additional information.
 
 __NOTE:__ Enforcing automation rules on an assignment means to find, for each assignment, the matching automation rule, looking at the last review or the creation date, comparing it to the time defined in the rule and, if needed, apply the rule decision that may approve or decline the assignment.
 
@@ -134,11 +134,11 @@ Expected provisioning assignments
 
 Fulfillment is just the consequence of the role assignment process. See the [
 Entitlement Management
-](/docs/usercube/usercube/introduction-guide/overview/entitlement-management/index.md) topic for additional information.
+](../../../introduction-guide/overview/entitlement-management/index.md) topic for additional information.
 
-Provisioning-orders-to-be are the output of resource type rules, navigation rules and scalar rules. The outcome of those rules, as assigned resource types, assigned resource navigation, and assigned resource scalar is conditioned by the input resource assigned roles, issued during the first expected role assignments computation or even earlier. They are the exact image of technical provisioning orders that are to be executed by the agent, after being validated by a knowledgeable user. See the [Resource Type](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md) topic for additional information.
+Provisioning-orders-to-be are the output of resource type rules, navigation rules and scalar rules. The outcome of those rules, as assigned resource types, assigned resource navigation, and assigned resource scalar is conditioned by the input resource assigned roles, issued during the first expected role assignments computation or even earlier. They are the exact image of technical provisioning orders that are to be executed by the agent, after being validated by a knowledgeable user. See the [Resource Type](../../toolkit/xml-configuration/provisioning/resourcetype/index.md) topic for additional information.
 
-![Computing Expected Provisioning Assignments](/img/product_docs/usercube/usercube/integration-guide/role-assignment/evaluate-policy/compute-expected-2.webp)
+![Computing Expected Provisioning Assignments](../../../../../../static/img/product_docs/usercube/usercube/integration-guide/role-assignment/evaluate-policy/compute-expected-2.webp)
 
 Enforcing resource type rules
 
@@ -174,7 +174,7 @@ Found manual assignments and derogation of resource types with their associated 
 
 __Step 3 –__ __Match existing assignments with expected assignments__
 
-![Computing Expected Provisioning Assignments](/img/product_docs/usercube/usercube/integration-guide/role-assignment/evaluate-policy/compute-find-matching.webp)
+![Computing Expected Provisioning Assignments](../../../../../../static/img/product_docs/usercube/usercube/integration-guide/role-assignment/evaluate-policy/compute-find-matching.webp)
 
 The expected assignments list is now built.
 
@@ -199,7 +199,7 @@ The result is a list of really existing assignments, without the expired, cancel
 
 __Step 5 –__ __Correlation__
 
-![Computing Expected Provisioning Assignments](/img/product_docs/usercube/usercube/integration-guide/role-assignment/evaluate-policy/correlation.webp)
+![Computing Expected Provisioning Assignments](../../../../../../static/img/product_docs/usercube/usercube/integration-guide/role-assignment/evaluate-policy/correlation.webp)
 
 Resource correlation rules are enforced: for every expected assigned resource type, the algorithm looks for a target resource that correlates the owner, which is the input resource.
 
@@ -224,20 +224,20 @@ The workflow state is also analyzed; assignments with Approved (or Cancellation)
 | Workflow state | Description |
 | --- | --- |
 | 0—None | Used for Identity Manager's internal computation |
-| 1—Non-conforming | The assignment is not supported by a rule.  ![Workflow State: Non-conforming](/img/product_docs/usercube/usercube/integration-guide/role-assignment/evaluate-policy/1_nonconforming_v603.webp) |
+| 1—Non-conforming | The assignment is not supported by a rule.  ![Workflow State: Non-conforming](../../../../../../static/img/product_docs/usercube/usercube/integration-guide/role-assignment/evaluate-policy/1_nonconforming_v603.webp) |
 | 2—Requested - Missing Parameters | The assignment has been requested via a workflow, but does not specify at least one required parameter for the role. |
-| 3—Pre-existing | The assignment is not supported by a rule, and it existed before the production launch.  ![Workflow State: Pre-existing](/img/product_docs/usercube/usercube/integration-guide/role-assignment/evaluate-policy/3_preexisting_v603.webp) |
-| 4—Requested | The assignment is requested via a workflow, but not yet added.  __NOTE:__ Usually displayed in workflows' summaries.  ![Workflow State: Pending Approval - Requested](/img/product_docs/usercube/usercube/integration-guide/role-assignment/evaluate-policy/4_requested_v603.webp) |
-| 5—Calculated - Missing Parameters | The assignment was done by a rule which does not specify at least one required parameter for the role.  ![Workflow State: Calculated - Missing Parameters](/img/product_docs/usercube/usercube/integration-guide/role-assignment/evaluate-policy/5_calculatedmissingparameters_v603.webp) |
-| 8—Pending Approval | The assignment must be reviewed manually by a knowledgeable user.  ![Workflow State: Pending Approval](/img/product_docs/usercube/usercube/integration-guide/role-assignment/evaluate-policy/8_pendingapproval_v603.webp) |
+| 3—Pre-existing | The assignment is not supported by a rule, and it existed before the production launch.  ![Workflow State: Pre-existing](../../../../../../static/img/product_docs/usercube/usercube/integration-guide/role-assignment/evaluate-policy/3_preexisting_v603.webp) |
+| 4—Requested | The assignment is requested via a workflow, but not yet added.  __NOTE:__ Usually displayed in workflows' summaries.  ![Workflow State: Pending Approval - Requested](../../../../../../static/img/product_docs/usercube/usercube/integration-guide/role-assignment/evaluate-policy/4_requested_v603.webp) |
+| 5—Calculated - Missing Parameters | The assignment was done by a rule which does not specify at least one required parameter for the role.  ![Workflow State: Calculated - Missing Parameters](../../../../../../static/img/product_docs/usercube/usercube/integration-guide/role-assignment/evaluate-policy/5_calculatedmissingparameters_v603.webp) |
+| 8—Pending Approval | The assignment must be reviewed manually by a knowledgeable user.  ![Workflow State: Pending Approval](../../../../../../static/img/product_docs/usercube/usercube/integration-guide/role-assignment/evaluate-policy/8_pendingapproval_v603.webp) |
 | 9—Pending Approval 1 of 2 | The assignment is pending the first approval on a two-step workflow. |
 | 10—Pending Approval 2 of 2 | The assignment is pending the second approval on a two-step workflow. |
 | 11—Pending Approval 1 of 3 | The assignment is pending the first approval on a three-step workflow. |
 | 12—Pending Approval 2 of 3 | The assignment is pending the second approval on a three-step workflow. |
 | 13—Pending Approval 3 of 3 | The assignment is pending the third approval on a three-step workflow. |
-| 16—Approved | The assignment has completed all approval steps.  ![Workflow State: Approved](/img/product_docs/usercube/usercube/integration-guide/role-assignment/evaluate-policy/16_approved_v603.webp) |
+| 16—Approved | The assignment has completed all approval steps.  ![Workflow State: Approved](../../../../../../static/img/product_docs/usercube/usercube/integration-guide/role-assignment/evaluate-policy/16_approved_v603.webp) |
 | 17—Declined | The assignment is explicitly declined during one of the approval steps. |
-| 20—Cancellation | The assignment is inferred by a role that was declined.  ![Workflow State: Cancellation](/img/product_docs/usercube/usercube/integration-guide/role-assignment/evaluate-policy/20_cancellation_v603.webp) |
+| 20—Cancellation | The assignment is inferred by a role that was declined.  ![Workflow State: Cancellation](../../../../../../static/img/product_docs/usercube/usercube/integration-guide/role-assignment/evaluate-policy/20_cancellation_v603.webp) |
 
 __Step 7 –__ __Delta__
 

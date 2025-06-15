@@ -2,9 +2,9 @@
 
 The NPS Action Service is installed on the application server as part of Privilege Secure install. It can also be installed on additional servers. This provides the option to run actions from different locations within an organization.
 
-The NPS Proxy Service installer is in the Extras folder of the ZIP file downloaded from the Netwrix Customer portal. See the [Install Components & Methods](/docs/privilegesecure/privilegesecure/accessmanagement/install/components.md) topic for additional information.
+The NPS Proxy Service installer is in the Extras folder of the ZIP file downloaded from the Netwrix Customer portal. See the [Install Components & Methods](components.md) topic for additional information.
 
-__NOTE:__ Before you begin, the NPS Proxy Service must be registered with a corresponding application server on the server you will be installing the Action Service prior to installation. The Proxy Service is installed as part of the Action Service installation package. See the [Proxy Service Install](/docs/privilegesecure/privilegesecure/accessmanagement/install/proxyservice.md) topic for installation instructions.
+__NOTE:__ Before you begin, the NPS Proxy Service must be registered with a corresponding application server on the server you will be installing the Action Service prior to installation. The Proxy Service is installed as part of the Action Service installation package. See the [Proxy Service Install](proxyservice.md) topic for installation instructions.
 
 Follow the steps to install the NPS Action Service on another server.
 
@@ -16,11 +16,11 @@ __Step 2 –__ Move the NPS.ActionService.exe installation package to the deskto
 
 __Step 3 –__ Open the NPS.ActionService.exe and the Netwrix Privilege Secure Action Service Setup wizard will open.
 
-![licenseagreement](/img/product_docs/threatprevention/threatprevention/install/licenseagreement.webp)
+![licenseagreement](../../../../../static/img/product_docs/threatprevention/threatprevention/install/licenseagreement.webp)
 
 __Step 4 –__ To install the Action Service in an alternate location, click __Options__.
 
-![installlocation](/img/product_docs/activitymonitor/activitymonitor/install/agent/installlocation.webp)
+![installlocation](../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/agent/installlocation.webp)
 
 __Step 5 –__ Enter the destination folder for installation and click OK.
 
@@ -28,7 +28,7 @@ __Step 6 –__ Read the End User License Agreement and check the I accept the te
 
 __Step 7 –__ Click Install to begin the installation. The setup wizard displays the installation progress.
 
-![installcomplete](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/install/installcomplete.webp)
+![installcomplete](../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/install/installcomplete.webp)
 
 __Step 8 –__ When the installation is complete, click Close to exit the installer.
 

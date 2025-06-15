@@ -40,7 +40,7 @@ __To configure a Power Automate client for an identity store:__
    - __Client ID__ - the application ID assigned to the Directory Manager application when you registered it in Microsoft Entra Admin Center.
 
    NOTE: The Directory Manager application in Microsoft Entra Admin Center must have the following permissions for Power Automate:  
-    ![pa_permissions](/img/product_docs/groupid/groupid/admincenter/workflow/pa_permissions.webp)
+    ![pa_permissions](../../../../../static/img/product_docs/groupid/groupid/admincenter/workflow/pa_permissions.webp)
 7. Click __Save__ on the __Advanced Workflow Settings__ page.
 
 ### Link an Identity Store Workflow to a Flow
@@ -57,17 +57,17 @@ __To link a workflow to a flow:__
 6. On the __Power Automate Settings__ dialog box, provide the username and password of a Microsoft Entra ID account for managing flows in the Microsoft Power Automate portal. This account must have
    the following permissions on the Entra tenant:
 
-   ![pa_permissions](/img/product_docs/groupid/groupid/admincenter/workflow/pa_permissions.webp)
+   ![pa_permissions](../../../../../static/img/product_docs/groupid/groupid/admincenter/workflow/pa_permissions.webp)
 7. Click __Create Template__. Directory Manager creates a basic flow in Power Automate with the same name as the workflow, and displays the following message:
 
-   ![pa_template_message](/img/product_docs/groupid/groupid/admincenter/workflow/pa_template_message.webp)
+   ![pa_template_message](../../../../../static/img/product_docs/groupid/groupid/admincenter/workflow/pa_template_message.webp)
 8. The next step is to copy the flow URL from Power Automate and provide it here. To copy the URL, do the following:
 
    1. Launch Power Automate and navigate to __Environments > GroupID application > My Flows__. This page displays the flow you created in Power Automate from the Directory Manager workflow.
    2. Hover the mouse over the flow to display the ellipsis button. Click it and select __Edit__.
    3. Expand the __Connections__ area.
 
-      ![connections_area](/img/product_docs/groupid/groupid/admincenter/workflow/connections_area.webp)
+      ![connections_area](../../../../../static/img/product_docs/groupid/groupid/admincenter/workflow/connections_area.webp)
    4. Click __Approvals__ in the __Connections__ area. The approver of the Directory Manager workflow is auto added here. Click __Save__.
    5. Expand the __When a HTTP request is received__ area and copy the URL displayed for __HTTP POST URL__.
 9. In Directory Manager, return to the workflow being linked to the flow, and click __Configure a Request URL__ on the __Power Automate Settings__ dialog box.

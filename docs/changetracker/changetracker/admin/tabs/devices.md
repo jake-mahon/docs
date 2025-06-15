@@ -10,7 +10,7 @@ The __Devices__ Tab provides a ‘Home Page’ for any selected device where ful
 - View results of all past compliance reports and run new reports using ‘__Run Ad Hoc compliance report__’ button.
 - Device inventory information and group membership.
 
-![DevicesTab](/img/product_docs/changetracker/changetracker/admin/tabs/devicestab.webp)
+![DevicesTab](../../../../../static/img/product_docs/changetracker/changetracker/admin/tabs/devicestab.webp)
 
 __NOTE:__ Go to __Tracking Configuration__ tab to see a ‘read-only’ representation of the tracking template assigned, note that this will be a merged version of all Policy Templates inherited by the device.
 

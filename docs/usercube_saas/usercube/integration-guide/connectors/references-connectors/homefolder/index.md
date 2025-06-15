@@ -4,9 +4,9 @@ This connector exports [home folders](https://en.wikipedia.org/wiki/Home_directo
 
 This page is about [
 Home Folders
-](/docs/usercube_saas/usercube/integration-guide/connectors/references-packages/home-folders/index.md).
+](../../references-packages/home-folders/index.md).
 
-![Package: Storage/Home Folders](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/homefolder/packages_homefolders_v603.webp)
+![Package: Storage/Home Folders](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/homefolder/packages_homefolders_v603.webp)
 
 ## Overview
 
@@ -29,7 +29,7 @@ This connector performs only complete export, not incremental.
 
 This process is configured through a [
 Connection
-](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or the XML configuration, and in the ```appsettings.agent.json > Connections``` section:
+](../../../toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or the XML configuration, and in the ```appsettings.agent.json > Connections``` section:
 
 ```
 appsettings.agent.json
@@ -88,7 +88,7 @@ The identifier of the connection and thus the name of the subsection must:
 
 ### Output details
 
-This connector is meant to generate a CSV file, named ```<connectionIdentifier>.csv```,to the [Application Settings](/docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)Export Output folder, with the following columns:
+This connector is meant to generate a CSV file, named ```<connectionIdentifier>.csv```,to the [Application Settings](../../../network-configuration/agent-configuration/appsettings/index.md)Export Output folder, with the following columns:
 
 - __Command__: empty for now, as the connector performs only complete export.
 - __Name__: name of the home folder.
@@ -115,13 +115,13 @@ This connector does not reset passwords.
 
 Data protection can be ensured through:
 
-- [](/docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md)[
+- [](../../../network-configuration/agent-configuration/rsa-encryption/index.md)[
   Connection
-  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md), configured in the ```appsettings.encrypted.agent.json``` file;
+  ](../../../toolkit/xml-configuration/connectors/connection/index.md), configured in the ```appsettings.encrypted.agent.json``` file;
 - An [
   Connection
-  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)safe;
+  ](../../../toolkit/xml-configuration/connectors/connection/index.md)safe;
 
 - [
   Connection
-  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) able to store Home Folder's ```Login``` and ```Password```.
+  ](../../../toolkit/xml-configuration/connectors/connection/index.md) able to store Home Folder's ```Login``` and ```Password```.

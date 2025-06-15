@@ -4,13 +4,13 @@ As a requirement for configuring custom managed certificates, the Threat Prevent
 
 If you use the IP address (localhost IP or corresponding IP) when installing the Administration Console or Agent, and then configure custom managed certificates for Enterprise Manager and the Agent, the console and Agent will fail to connect to Enterprise Manager.
 
-__NOTE:__ To configure custom managed certificates for the Enterprise Manager and the Agent, see the [Certificate Management Wizard](/docs/threatprevention/threatprevention/install/certificatemanagementwizard.md) and [Create Custom Managed Certificates for Each Agent](/docs/threatprevention/threatprevention/install/agent/customcert.md) topics respectively.
+__NOTE:__ To configure custom managed certificates for the Enterprise Manager and the Agent, see the [Certificate Management Wizard](../install/certificatemanagementwizard.md) and [Create Custom Managed Certificates for Each Agent](../install/agent/customcert.md) topics respectively.
 
 You must provide the Enterprise Manager server DNS name when you install the following:
 
-- Threat Prevention server (see the [Application Server Install](/docs/threatprevention/threatprevention/install/application.md) topic)
-- Threat Prevention Agent (see the [Manual Agent Deployment](/docs/threatprevention/threatprevention/install/agent/manual.md) topic)
-- Remote instance of the Administration Console (see the [Administration Console Remote Install](/docs/threatprevention/threatprevention/install/adminconsole.md) topic)
+- Threat Prevention server (see the [Application Server Install](../install/application.md) topic)
+- Threat Prevention Agent (see the [Manual Agent Deployment](../install/agent/manual.md) topic)
+- Remote instance of the Administration Console (see the [Administration Console Remote Install](../install/adminconsole.md) topic)
 
 If you have already installed the above with the IP address of the Enterprise Manager server, you can change it to the DNS name post-install by modifying the following config files:
 

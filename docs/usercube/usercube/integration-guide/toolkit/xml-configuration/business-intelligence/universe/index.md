@@ -16,11 +16,11 @@ The following example builds a universe called ```Universe1```:
 
 ```
 
-![Universe - Basic Example](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/business-intelligence/universe/bi_universeexampledisplaynames.webp)
+![Universe - Basic Example](../../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/business-intelligence/universe/bi_universeexampledisplaynames.webp)
 
-When getting Identity Manager data in [Connect Power BI to Identity Manager](/docs/usercube/usercube/integration-guide/governance/reporting/how-tos/connect-powerbi/index.md), we see the following:
+When getting Identity Manager data in [Connect Power BI to Identity Manager](../../../../governance/reporting/how-tos/connect-powerbi/index.md), we see the following:
 
-![Universe (Display Names)](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/business-intelligence/universe/universe_columnnamedisplayname.webp)
+![Universe (Display Names)](../../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/business-intelligence/universe/universe_columnnamedisplayname.webp)
 
 ##### Basic universe with identifiers instead of display names
 
@@ -32,11 +32,11 @@ The following example builds a universe called ```Universe1``` with identifiers 
 
 ```
 
-![Universe - Basic Example](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/business-intelligence/universe/bi_universeexample.webp)
+![Universe - Basic Example](../../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/business-intelligence/universe/bi_universeexample.webp)
 
-When getting Identity Manager data in [Connect Power BI to Identity Manager](/docs/usercube/usercube/integration-guide/governance/reporting/how-tos/connect-powerbi/index.md), we see the following:
+When getting Identity Manager data in [Connect Power BI to Identity Manager](../../../../governance/reporting/how-tos/connect-powerbi/index.md), we see the following:
 
-![Universe (Identifiers)](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/business-intelligence/universe/universe_columnnameidentifier.webp)
+![Universe (Identifiers)](../../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/business-intelligence/universe/universe_columnnameidentifier.webp)
 
 ## Properties
 
@@ -50,7 +50,7 @@ When getting Identity Manager data in [Connect Power BI to Identity Manager](/do
 
 An association instance represents, within a Universe, the occurrence in the model of an [
 Entity Association
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md).
+](../../metadata/entityassociation/index.md).
 
 ### Properties
 
@@ -65,7 +65,7 @@ Entity Association
 
 An entity instance represents, within a Universe, the occurrence in the model of an [
 Entity Association
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md).
+](../../metadata/entityassociation/index.md).
 
 ### Properties
 

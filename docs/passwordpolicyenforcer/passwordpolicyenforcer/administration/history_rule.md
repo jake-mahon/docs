@@ -2,7 +2,7 @@
 
 The History rule rejects passwords that are identical to recently used passwords. Password reuse should be avoided because it defeats the purpose of regular password changes. Password Policy Enforcer can stop users from reusing passwords for a specified number of password changes or a number of days.
 
-![History rule](/img/product_docs/threatprevention/threatprevention/admin/policies/history.webp)
+![History rule](../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/history.webp)
 
 Select the __History__ check box to enable the History rule.
 
@@ -58,7 +58,7 @@ Replacing the last parameter with your domain's DN.
 
 __Step 4 –__ Press __ENTER__ and check the output for errors.
 
-![ppe_rules_8](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/ppe_rules_8.webp)
+![ppe_rules_8](../../../../static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/ppe_rules_8.webp)
 
 ## Using an Existing Attribute for the Password History
 

@@ -6,7 +6,7 @@ The list view is located centrally in the Netwrix Password Secure client, and is
 
 However, instead of folders, the content of the list view is defined by the currently applied filter. \* This always means that the list view is the result of a filtered filter \*. For the currently marked record in list view, all existing form fields are output to the reading pane. With the two tabs “All” and “Favourites, the filter results can be further restricted.
 
-![List view](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/listview/installation_with_parameters_26-en.webp)
+![List view](../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/listview/installation_with_parameters_26-en.webp)
 
 At the bottom of the list view, the number of loaded records and the time required for this are shown.
 
@@ -16,30 +16,30 @@ NOTE: For more than 100 list elements, only the first 100 records are displayed 
 
 Through the search field, the results found by the filter can be further refined as required. After you have entered the search term, the results are automatically limited to those records which correspond to the criteria (after about half a second). The search used for the search is highlighted in yellow.
 
-![installation_with_parameters_27](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/listview/installation_with_parameters_27.webp)
+![installation_with_parameters_27](../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/listview/installation_with_parameters_27.webp)
 
 ## Detailed list view
 
 The default view displays only limited information about the records. However, the width of the list view is flexible and can be adjusted by mouse. At a certain point, the view automatically changes to the detailed list view, similar to the procedure in Microsoft Outlook. All form fields are displayed
 
-![Table view](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/listview/installation_with_parameters_28-en.webp)
+![Table view](../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/listview/installation_with_parameters_28-en.webp)
 
 ## Favourites
 
-Regularly used records can be marked as favourites. This process is carried out directly in the [Ribbon](/docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/ribbon/ribbon.md). A record marked as a favourite is indicated with a star in list view.
+Regularly used records can be marked as favourites. This process is carried out directly in the [Ribbon](../ribbon/ribbon.md). A record marked as a favourite is indicated with a star in list view.
 
-![Favourite](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/listview/installation_with_parameters_29-en.webp)
+![Favourite](../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/listview/installation_with_parameters_29-en.webp)
 
 You can filter for favourites directly in the list view. For this purpose, simply switch to the “Favourites”
 tab
 
-![installation_with_parameters_30](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/listview/installation_with_parameters_30.webp)
+![installation_with_parameters_30](../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/listview/installation_with_parameters_30.webp)
 
 #### Othersymbols
 
-Every record displayed in list view has multiple icons on the right. These give feedback in colour about both the password quality and the [Tags](/docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/tags/tags.md) used. Mouseover tooltips provide more precise details.
+Every record displayed in list view has multiple icons on the right. These give feedback in colour about both the password quality and the [Tags](../tags/tags.md) used. Mouseover tooltips provide more precise details.
 
-![installation_with_parameters_31](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/listview/installation_with_parameters_31.webp)
+![installation_with_parameters_31](../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/listview/installation_with_parameters_31.webp)
 
 NOTE: The information visible underneath the password name is taken from the info field for the associated form and will be explained separately
 
@@ -47,12 +47,12 @@ NOTE: The information visible underneath the password name is taken from the inf
 
 All records that correspond to the filter criteria are now displayed in list view. These can now be opened, edited, or deleted via the ribbon. Many functions are also available directly from the context menu. You can do this by right-clicking the record. Multiple selection is also possible. To do this, simply highlight the desired objects by holding down the Ctrl key.
 
-![installation_with_parameters_32](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/listview/installation_with_parameters_32.webp)
+![installation_with_parameters_32](../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/listview/installation_with_parameters_32.webp)
 
 #### Opening and editing data sets
 
 By double-clicking, as with the context menu (right mouse button), all records can be opened from the list view in a separate tab. Only in this view can you make changes. This detail view opens in a separate tab, the list view is completely hidden
 
-![editing dataset](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/listview/installation_with_parameters_33-en.webp)
+![editing dataset](../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/listview/installation_with_parameters_33-en.webp)
 
-NOTE: Working with data records depends of course on the type of the data record. Whether passwords, documents or organisational structures: The handling is partly very different. For more information, please refer to the respective sections on the individual [Client Module](/docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/client_module.md)
+NOTE: Working with data records depends of course on the type of the data record. Whether passwords, documents or organisational structures: The handling is partly very different. For more information, please refer to the respective sections on the individual [Client Module](../../clientmodule/client_module.md)

@@ -1,12 +1,12 @@
 # Getting Started
 
-Once you have successfully installed Netwrix Change Tracker, and logged in for the first time (see 2FA section below), you can start putting it to work. Change Tracker can collect data for the reports with or without agents. By default, an agent is installed on the Change Tracker machine, so you can quickly check the data collection and reports using that agent. Alternatively, you can collect data from other devices in your network. Either way, your starting point will be the [Device Tab](/docs/changetracker/changetracker/admin/tabs/devices.md).
+Once you have successfully installed Netwrix Change Tracker, and logged in for the first time (see 2FA section below), you can start putting it to work. Change Tracker can collect data for the reports with or without agents. By default, an agent is installed on the Change Tracker machine, so you can quickly check the data collection and reports using that agent. Alternatively, you can collect data from other devices in your network. Either way, your starting point will be the [Device Tab](tabs/devices.md).
 
 Once you have established data collection, use the Reports tab to view reports on you device's configuration.
 
-Next, use the [Planned Changes Tab](/docs/changetracker/changetracker/admin/tabs/plannedchanges.md) manage change events and filter any changes that are considered as noise.
+Next, use the [Planned Changes Tab](tabs/plannedchanges.md) manage change events and filter any changes that are considered as noise.
 
-To add another user, manage licenses, set the planned change intervals, and otherwise configure Change Tracker, review the [Settings Tab](/docs/changetracker/changetracker/admin/settings/settingstab.md).
+To add another user, manage licenses, set the planned change intervals, and otherwise configure Change Tracker, review the [Settings Tab](settings/settingstab.md).
 
 ## Two Factor Authentication
 
@@ -24,6 +24,6 @@ security > auth > twoFactor > "registerAdmin": "false"
 
 security > auth > twoFactor > "fallbackEnabled": "true" (default setting)
 
-![2faconfiguration](/img/product_docs/changetracker/changetracker/admin/2faconfiguration.webp)
+![2faconfiguration](../../../../static/img/product_docs/changetracker/changetracker/admin/2faconfiguration.webp)
 
 A One-Time Passcode (OTP) may be required when attempting certain actions within Change Tracker for the first time during a session. Without 2FA or an authenticator app, this OTP will be written to the application log file (C:\inetpub\wwwroot\Change Tracker Generation 7 (NetCore) Hub\logs\hubservice-log.txt) which is only accessible by local admins.

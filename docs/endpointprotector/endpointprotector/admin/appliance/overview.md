@@ -4,13 +4,13 @@
 
 From this section you can view general information about the Server, the System Fail/Over status, information on Disk Space usage and Database, and the Server Uptime.
 
-![View general information about the Server](/img/product_docs/endpointprotector/endpointprotector/admin/appliance/serverinformation.png)
+![View general information about the Server](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/appliance/serverinformation.png)
 
 ## Server Maintenance
 
 In this section, you can set up a preferential time zone and NTP synchronization server, conﬁgure the IP and DNS, register the client certiﬁcate, set up a self-signing certiﬁcate, perform routine operations and manage the SSH access.
 
-![ Set up a preferential time zone and NTP synchronization server](/img/product_docs/endpointprotector/endpointprotector/admin/appliance/servermaintenance.png)
+![ Set up a preferential time zone and NTP synchronization server](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/appliance/servermaintenance.png)
 
 ### Time Zone
 
@@ -28,7 +28,7 @@ __NOTE:__ The appliances are preﬁgured to sync once a week with pool.ntp.org.
 - Click Synchronize Time to trigger the synchronization, which will occur in the next 5 minutes. The Alerts and Logs will be reported after the 5 minutes in a format of your choice
 - Click Refresh Current Time to update the Current server time ﬁeld
 
-![Set a preferential time zone and/or sync the appliance to an NTP source](/img/product_docs/endpointprotector/endpointprotector/admin/appliance/timezone.png)
+![Set a preferential time zone and/or sync the appliance to an NTP source](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/appliance/timezone.png)
 
 ### IP Conﬁguration
 
@@ -36,13 +36,13 @@ In this section you can change the network settings for the appliance to communi
 
 __NOTE:__ Once you change the IP address, close and open again the Internet browser and then access the Endpoint Protector Administration and Reporting Tool with the new IP address.
 
-![ Change the network settings for the appliance to communicate correctly in your network](/img/product_docs/endpointprotector/endpointprotector/admin/appliance/ipconfg.png)
+![ Change the network settings for the appliance to communicate correctly in your network](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/appliance/ipconfg.png)
 
 ### DNS Conﬁguration
 
 In this section you can modify or add a DNS server address and then Save your changes.
 
-![Modify or add a DNS server address and then Save your changes](/img/product_docs/endpointprotector/endpointprotector/admin/appliance/dnsconfg.png)
+![Modify or add a DNS server address and then Save your changes](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/appliance/dnsconfg.png)
 
 ### Client Registration Certiﬁcate
 
@@ -73,7 +73,7 @@ For this feature to work, there must be cryptographic identities signed by the r
 - On macOS these identities should be added to System Keychain in the "My Certiﬁcates" section
 - On Windows they should be placed in the Certiﬁcate Manager's Local Computer\Certiﬁcates\Personal section
 
-![Register and then verify the Endpoint Protector Client certiﬁcate signature](/img/product_docs/endpointprotector/endpointprotector/admin/appliance/clientregcert.png)
+![Register and then verify the Endpoint Protector Client certiﬁcate signature](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/appliance/clientregcert.png)
 
 ### Server Certiﬁcate Validation
 
@@ -89,7 +89,7 @@ __NOTE:__ Starting from the 5.9.0 or later, enabling this option activates Endpo
 
 In this section you can perform appliance operations such as Reboot or Shutdown.
 
-![Perform appliance operations such as Reboot or Shutdown](/img/product_docs/endpointprotector/endpointprotector/admin/appliance/applianceoperations.png)
+![Perform appliance operations such as Reboot or Shutdown](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/appliance/applianceoperations.png)
 
 ### SSH Server
 
@@ -97,7 +97,7 @@ In this section you can manage user access to the Appliance through the SSH prot
 
 ___RECOMMENDED:___ Set this option to __Enable__ before requesting Support access.
 
-![Manage user access to the Appliance through the SSH protocol](/img/product_docs/endpointprotector/endpointprotector/admin/appliance/sshserver.png)
+![Manage user access to the Appliance through the SSH protocol](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/appliance/sshserver.png)
 
 ## SIEM Integration
 
@@ -107,7 +107,7 @@ In this section, you can add, edit or delete an existing SIEM Server integration
 
 __CAUTION:__ You can conﬁgure a maximum number of 4 SIEM Server integrations.
 
-![Add, edit or delete an existing SIEM Server integration](/img/product_docs/endpointprotector/endpointprotector/admin/appliance/siemserverintegration.png)
+![Add, edit or delete an existing SIEM Server integration](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/appliance/siemserverintegration.png)
 
 To create a SIEM Server, click __Add New__ and provide the following information:
 
@@ -127,7 +127,7 @@ To create a SIEM Server, click __Add New__ and provide the following information
   __NOTE:__ If you disable log headers, you will only export data to SIEM.
 - Log Types – select from the available options the logs to send to the SIEM Server
 
-![SIEM Intergration - Adding a New Server](/img/product_docs/endpointprotector/endpointprotector/admin/appliance/siemintegrationnewserver.png)
+![SIEM Intergration - Adding a New Server](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/appliance/siemintegrationnewserver.png)
 
 __CAUTION:__ Please be aware that the SIEM integration feature in Endpoint Protector comes with certain limitations. To make use of the latest features of this SIEM integration, your environment must meet speciﬁc criteria. It should have been installed from image version 5.6.0.0 or a more recent version, and maintain an active HTTPS connection. Please note that SIEM integration is only accessible in environments that meet these stringent prerequisites.
 

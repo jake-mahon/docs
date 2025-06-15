@@ -2,7 +2,7 @@
 
 Use the Category page to select the type of scan for the targeted AWS instance or maintenance task to perform.
 
-![AWS Category page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/category.webp)
+![AWS Category page](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/category.webp)
 
 The options on the Category page are:
 
@@ -14,4 +14,4 @@ The options on the Category page are:
   - Collect SDD data – Scans S3 objects for potentially sensitive data
 - Maintenance
 
-  - Drop AWS DC Tables – Removes AWS data collector data and tables from the Access Analyzer database. See the [Drop AWS Tables](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/aws/droptables.md) topic for additional information.
+  - Drop AWS DC Tables – Removes AWS data collector data and tables from the Access Analyzer database. See the [Drop AWS Tables](droptables.md) topic for additional information.

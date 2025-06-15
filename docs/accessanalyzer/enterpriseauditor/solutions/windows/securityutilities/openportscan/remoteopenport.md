@@ -8,7 +8,7 @@ The RemoteOpenPort job uses the Script Data Collector for the following query:
 
 __CAUTION:__ The query is preconfigured for this job. Never modify the query.
 
-![Queries for the RemoteOpenPort Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/windows/securityutilities/openportscan/remoteopenportquery.webp)
+![Queries for the RemoteOpenPort Job](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/windows/securityutilities/openportscan/remoteopenportquery.webp)
 
 The query for the RemoteOpenPort job is:
 
@@ -20,7 +20,7 @@ Navigate to the __Windows__ > __Security Utilities__ > __OpenPortScan__ > __Remo
 
 __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis task is preconfigured for this job.
 
-![Analysis Tasks for the RemoteOpenPort Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/windows/securityutilities/openportscan/remoteopenportanalysis.webp)
+![Analysis Tasks for the RemoteOpenPort Job](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/windows/securityutilities/openportscan/remoteopenportanalysis.webp)
 
 The default analysis task is:
 

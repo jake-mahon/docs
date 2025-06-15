@@ -44,10 +44,10 @@ For secure proxy communication via https, a credential is supplied during instal
 
 Secure Proxy Communication and Certificate Exchange
 
-For Proxy Mode as a Service Scans, the certificate exchange mechanism and certificate exchange port must be configured via the File System Access Auditing Data Collector Wizard prior to executing a scan. See the [FSAA Applet Certificate Management Overview](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/certificatemanagement.md) topic for additional information.
+For Proxy Mode as a Service Scans, the certificate exchange mechanism and certificate exchange port must be configured via the File System Access Auditing Data Collector Wizard prior to executing a scan. See the [FSAA Applet Certificate Management Overview](../../../admin/datacollector/fsaa/certificatemanagement.md) topic for additional information.
 
 Access Analyzer Connection Profile
 
 When running Access Auditing (FSAA) and/or Sensitive Data Discovery Auditing scans, the credentials within the Connection Profile assigned to the File System scans must be properly configured as explained above. Also the firewall rules must be configured to allow for communication between the applicable servers.
 
-See the [Proxy Mode as a Service Port Requirements](/docs/accessanalyzer/enterpriseauditor/requirements/solutions/filesystem/proxymodeserviceports.md) topic for firewall rule information.
+See the [Proxy Mode as a Service Port Requirements](proxymodeserviceports.md) topic for firewall rule information.

@@ -6,7 +6,7 @@ The AD_GroupMemberActivity Job analyzes the AD actions taken by the effective me
 
 Navigate to the __Jobs__ > __Active Directory__ > __6.Activity__ > __Group Usage__ > __AD_GroupMemberActivity__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
-![Analysis Tasks for the AD_GroupMemberActivity Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/activity/groupusage/groupmemberactivityanalysis.webp)
+![Analysis Tasks for the AD_GroupMemberActivity Job](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/activity/groupusage/groupmemberactivityanalysis.webp)
 
 The default analysis task is:
 
@@ -24,13 +24,13 @@ Customizable parameters enable you to set the values used to include the SIDs fo
 
 __Step 1 –__ Navigate to the __Active Directory__ > __6.Activity__ > __Group Usage__ > __AD_GroupMemberActivity__ > __Configure__ node and select __Analysis__.
 
-![Group Member Activity analysis task configuration](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/activity/groupusage/groupmemberactivityanalysisconfiguration.webp)
+![Group Member Activity analysis task configuration](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/activity/groupusage/groupmemberactivityanalysisconfiguration.webp)
 
 __Step 2 –__ In the Analysis Selection view, select the Group Member Activity analysis task and click on __Analysis Configuration__. The SQL Script Editor opens.
 
 __CAUTION:__ Do not change any parameters where the Value states ```Created during execution```.
 
-![Group Member Activity Analysis Task in the SQL Script Editor](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/activity/groupusage/groupmemberactivitysqlscripteditor.webp)
+![Group Member Activity Analysis Task in the SQL Script Editor](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/activity/groupusage/groupmemberactivitysqlscripteditor.webp)
 
 __Step 3 –__ In the parameters section at the bottom of the editor, find the Value column. Select the cell for the temporary table called #admingroups, and click __Edit Table__ to modify the value.
 

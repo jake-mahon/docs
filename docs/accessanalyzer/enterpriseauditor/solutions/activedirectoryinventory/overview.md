@@ -29,12 +29,12 @@ The .Active Directory Inventory Solution is a core component of all Access Analy
 
 ## Jobs
 
-This Job Group is comprised of three jobs that collect, analyze, and report on data. The data collection is conducted by the ADInventory Data Collector. See the [Standard Reference Tables & Views for the ADInventory Data Collector](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/standardtables.md) topic for database table information.
+This Job Group is comprised of three jobs that collect, analyze, and report on data. The data collection is conducted by the ADInventory Data Collector. See the [Standard Reference Tables & Views for the ADInventory Data Collector](../../admin/datacollector/adinventory/standardtables.md) topic for database table information.
 
-![.Active Directory Inventory Solution Overview page](/img/product_docs/threatprevention/threatprevention/siemdashboard/qradar/dashboard/overview.webp)
+![.Active Directory Inventory Solution Overview page](../../../../../static/img/product_docs/threatprevention/threatprevention/siemdashboard/qradar/dashboard/overview.webp)
 
 The .Active Directory Inventory Solution has the following jobs:
 
-- [1-AD_Scan Job](/docs/accessanalyzer/enterpriseauditor/solutions/activedirectoryinventory/1-ad_scan.md) – Collects data and generates the standard reference tables and views
-- [2-AD_Changes Job](/docs/accessanalyzer/enterpriseauditor/solutions/activedirectoryinventory/2-ad_changes.md) – Analyzes the collected data to track and alert on changes within all scanned domains that occurred since the last scan
-- [3-AD_Exceptions Job](/docs/accessanalyzer/enterpriseauditor/solutions/activedirectoryinventory/3-ad_exceptions.md) – Analyzes the collected data to identify security and provisioning concerns, such as circular nesting and stale membership
+- [1-AD_Scan Job](1-ad_scan.md) – Collects data and generates the standard reference tables and views
+- [2-AD_Changes Job](2-ad_changes.md) – Analyzes the collected data to track and alert on changes within all scanned domains that occurred since the last scan
+- [3-AD_Exceptions Job](3-ad_exceptions.md) – Analyzes the collected data to identify security and provisioning concerns, such as circular nesting and stale membership

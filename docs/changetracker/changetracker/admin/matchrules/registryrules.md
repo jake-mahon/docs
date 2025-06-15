@@ -6,7 +6,7 @@ __For example__, tracking the '__WinLogon__' registry key and values is importan
 
 The '__All Registry Values__' Match Rule is available by default but to define the 'Isolate DCacheUpdate Value Changes' exclusion, the following Custom PathMatch Definition would be added:
 
-![RegistryInclusion](/img/product_docs/changetracker/changetracker/admin/matchrules/registryinclusion.webp)
+![RegistryInclusion](../../../../../static/img/product_docs/changetracker/changetracker/admin/matchrules/registryinclusion.webp)
 
 __Step 1 –__ __KeyMatchType__ - Available options are:
 

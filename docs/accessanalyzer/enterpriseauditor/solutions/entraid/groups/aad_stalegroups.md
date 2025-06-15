@@ -8,7 +8,7 @@ Navigate to the __Jobs__ > __Entra ID__ > __1.Groups__ > __AAD_StaleGroups__ > _
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis tasks for AAD_StaleGroups Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/distributionlists/membershipanalysis/stalegroupsanalysis.webp)
+![Analysis tasks for AAD_StaleGroups Job](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/distributionlists/membershipanalysis/stalegroupsanalysis.webp)
 
 The default analysis tasks are:
 

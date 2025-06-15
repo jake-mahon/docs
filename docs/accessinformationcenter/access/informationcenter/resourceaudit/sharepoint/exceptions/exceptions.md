@@ -2,7 +2,7 @@
 
 The Exceptions report at the __Exceptions__ node provides a list of exceptions found on the farm/instance. This report includes a Details table.
 
-![Exceptions report at the Exceptions node](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/activedirectory/exceptions/exceptionsexceptions.webp)
+![Exceptions report at the Exceptions node](../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/activedirectory/exceptions/exceptionsexceptions.webp)
 
 An exception is defined as a problem or risk to data governance security. Exceptions include open access and permissions granted to stale or disabled users. This report is comprised of the following columns:
 

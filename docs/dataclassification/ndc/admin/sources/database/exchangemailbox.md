@@ -4,7 +4,7 @@ For the Exchange Mailbox source, you can configure the list of folders/emails to
 
 1. In the management console, click __Sources__ →__Exchange Mailbox__, then Collection Exclusion will be displayed.
 2. To create an exclusion, click __Add__.
-3. ![boxexclusions](/img/product_docs/dataclassification/ndc/admin/sources/database/boxexclusions.webp)
+3. ![boxexclusions](../../../../../../static/img/product_docs/dataclassification/ndc/admin/sources/database/boxexclusions.webp)
 4. In the __Details__ window, on the __Filter__ tab enter the name of the entity to exclude. Consider the following:
    - If you specify a folder name (e.g. “Drafts”) with no special characters, then any folders with that specific name will be excluded. Note that adding an exclusion of this type will match any folders with the name provided, wherever they are within the mailbox.
    - Wrapping the exclusion in wildcard indicators (e.g. “\*Deleted\*”) will match any folder/email with “Deleted” somewhere in the title.

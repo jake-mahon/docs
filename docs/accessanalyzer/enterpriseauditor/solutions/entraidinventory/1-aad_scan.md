@@ -2,13 +2,13 @@
 
 The __1-AAD_Scan__ job is responsible for collecting data from Microsoft Entra ID. This job requires no additional customizations before being used, but can be scoped to disable collecting sign-in activity with the scan.
 
-__NOTE:__  This job requires an Microsoft Entra ID application with the appropriate permissions to perform the scan. See the [Microsoft Entra ID Tenant Target Requirements](/docs/accessanalyzer/config/entraid/overview.md) topic for information on the prerequisites for this job.
+__NOTE:__  This job requires an Microsoft Entra ID application with the appropriate permissions to perform the scan. See the [Microsoft Entra ID Tenant Target Requirements](../../../config/entraid/overview.md) topic for information on the prerequisites for this job.
 
 ## Queries for the 1-AAD_Scan Job
 
 The 1-AAD_Scan job uses the AzureADInventory and Entra Data Collectors for the following queries:
 
-![Query Selection page](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/entraidinventory/scanqueryselection.webp)
+![Query Selection page](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/entraidinventory/scanqueryselection.webp)
 
 - AAD Inventory – Targets Microsoft Entra tenants to collect inventory data for user group objects
 
@@ -21,15 +21,15 @@ The 1-AAD_Scan job is configured to run with the default settings with the categ
 
 __Step 1 –__ Navigate to the __.Entra ID Inventory__ > __1-AAD_Scan__ > __Configure__ node and select __Queries__.
 
-![Query Properties button on Query Selection page](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/entraidinventory/scanqueryselectionproperties.webp)
+![Query Properties button on Query Selection page](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/entraidinventory/scanqueryselectionproperties.webp)
 
 __Step 2 –__ In the Query Selection view, click on __Query Properties__ to open the Query Properties window.
 
-![Query Properties window](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/entraidinventory/scanqueryproperties.webp)
+![Query Properties window](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/entraidinventory/scanqueryproperties.webp)
 
 __Step 3 –__ Select the __Data Source__ tab, and click __Configure__ to open the Entra ID Inventory DC Wizard.
 
-![Entra ID Inventory DC Wizard Options page](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectoryinventory/scandcwizardoptions.webp)
+![Entra ID Inventory DC Wizard Options page](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectoryinventory/scandcwizardoptions.webp)
 
 __Step 4 –__ On the Options page, select the different Scan Options as needed:
 
@@ -39,14 +39,14 @@ __Step 4 –__ On the Options page, select the different Scan Options as needed:
 - Collect sign-in activity with scan – Required to collect the LastLogonTimestamp attribute of user objects. A message will alert users that deselecting this option will disable this function.
 - Collect Directory Audit Events – Collect Microsoft Entra ID audit logs
 
-![Entra ID Inventory DC Wizard Custom Attributes page](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectoryinventory/scandcwizardcustomattributes.webp)
+![Entra ID Inventory DC Wizard Custom Attributes page](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectoryinventory/scandcwizardcustomattributes.webp)
 
 __Step 5 –__ On the Custom Attributes page, click __Add__ or __Import__ to add or import custom attributes.
 
 - Select __Collect Open Extensions__ to enable the data collector to collect all extension attributes in Microsoft Entra ID. Enabling this option will increase scan times.
 
   __NOTE:__ Enabling this option overrides the differential scan setting and will direct the data controller to run a full scan every time the job is run.
-- See the [AzureADInventory Data Collector](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/azureadinventory/overview.md) topic for additional information on adding and importing custom attributes.
+- See the [AzureADInventory Data Collector](../../admin/datacollector/azureadinventory/overview.md) topic for additional information on adding and importing custom attributes.
 
 __Step 6 –__ Navigate to the Summary page. Click __Finish__ to save changes or click __Cancel__ to exit without saving. Then click __OK__ to close the Query Properties window.
 
@@ -58,7 +58,7 @@ Navigate to the __.Entra ID Inventory__ > __1-AAD_Scan__ > __Configure__ node an
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for 1-AAD_Scan Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/entraidinventory/scananalysistasks.webp)
+![Analysis Tasks for 1-AAD_Scan Job](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/entraidinventory/scananalysistasks.webp)
 
 The default analysis tasks are:
 
@@ -70,7 +70,7 @@ The default analysis tasks are:
 - Summarize Domains – Creates interim processing tables in the database for use by downstream analysis and report generation
 - Summarize Stats – Creates interim processing tables in the database for use by downstream analysis and report generation
 
-In addition to the tables and views listed in the [Standard Reference Tables & Views for the AzureADInventory Data Collector](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/azureadinventory/standardtables.md) topic, the 1-AAD_Scan job produces the following preconfigured report.
+In addition to the tables and views listed in the [Standard Reference Tables & Views for the AzureADInventory Data Collector](../../admin/datacollector/azureadinventory/standardtables.md) topic, the 1-AAD_Scan job produces the following preconfigured report.
 
 | Report | Description | Default Tags | Report Elements |
 | --- | --- | --- | --- |

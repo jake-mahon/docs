@@ -2,29 +2,29 @@
 
 How to define the properties which describe the [
 Entity Type
-](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)'s relationships to other entity types.
+](../../../../../integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)'s relationships to other entity types.
 
 ## Overview
 
 Here you will learn to define navigation properties, which contain scalar values just like scalar properties, but which are also linked to and point to other properties, from the same entity type or to another entity type. See the [
 Define Scalar Properties
-](/docs/usercube_saas/usercube/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/index.md) topic for additional information.
+](../scalar-property-definition/index.md) topic for additional information.
 
 > For example, ```memberOf``` can contain a list of groups thus linking a user to groups, and a group to other groups. In the UI, ```memberOf``` is displayed just like scalar properties, but you can click on its values to access each group in the list. Here for the AD entry ```ADM Vidal Pierre```:
 >
-> ![Navigation Property - memberOf](/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/entity-type-creation/navigation-property-definition/entitytypecreation_memberof_v600.webp)
+> ![Navigation Property - memberOf](../../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/entity-type-creation/navigation-property-definition/entitytypecreation_memberof_v600.webp)
 >
 > Clicking on one of these groups will display said group's properties including the other side of the ```memberOf``` property, called ```member```, which contains the list of users and groups which are members of the group. Here for the AD group ```SG_APP_RAY_0_LDAP_READLDSFEDE```:
 >
-> ![Navigation Property - member](/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/entity-type-creation/navigation-property-definition/entitytypecreation_member_v600.webp)
+> ![Navigation Property - member](../../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/entity-type-creation/navigation-property-definition/entitytypecreation_member_v600.webp)
 
 > As another example, a department needs to be linked to a manager who is an existing user. So the user identifier is used in the ```Manager``` property to create the link between the department and the manager/user. In the UI, when looking at a given department data, ```Manager``` is displayed just like scalar properties, but you can click on its value to access the page of the department's manager.
 >
-> ![Navigation Property - Manager](/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/entity-type-creation/navigation-property-definition/entitytypecreation_manager_v600.webp)
+> ![Navigation Property - Manager](../../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/entity-type-creation/navigation-property-definition/entitytypecreation_manager_v600.webp)
 >
 > Clicking on the manager will display said user's properties including the ```Department``` property, which points back to the managed department.
 >
-> ![Navigation Property - Managed Department](/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/entity-type-creation/navigation-property-definition/entitytypecreation_managerof_v600.webp)
+> ![Navigation Property - Managed Department](../../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/entity-type-creation/navigation-property-definition/entitytypecreation_managerof_v600.webp)
 
 Navigation properties can create a link:
 
@@ -54,12 +54,12 @@ Define the entity type's navigation properties by proceeding as follows:
 
 1. Start by declaring an [
    Create the Entity Type
-   ](/docs/usercube_saas/usercube/user-guide/set-up/connect-system/entity-type-creation/entity-type-declaration/index.md).
+   ](../entity-type-declaration/index.md).
 2. In the entity type's __Properties__ section, click on __Navigation Properties__ tab.
 3. Click on __Map a navigation property__ to display existing columns from the external source, and select the properties to be used as navigations in the entity type.
 4. Fill in the information fields.
 
-   ![Navigation Properties](/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/entity-type-creation/navigation-property-definition/entitytypecreation_navigationproperties_v602.webp)
+   ![Navigation Properties](../../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/entity-type-creation/navigation-property-definition/entitytypecreation_navigationproperties_v602.webp)
 
    If you map a column from the source, then the first line of the navigation property is about said column. The second line is about the new property to be linked to the first one, always of the entity type.
 
@@ -104,17 +104,17 @@ Define the entity type's navigation properties by proceeding as follows:
    >
    > ```Entries```; ```assistant```; ```assistantOf```; ```manager```; ```directReports```; ```memberOf```; ```member```; ```parentdn```; ```children```.
    >
-   > ![AD Entity Type - Navigation Properties](/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/entity-type-creation/navigation-property-definition/entitytypecreation_examplead3_v603.webp)
+   > ![AD Entity Type - Navigation Properties](../../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/entity-type-creation/navigation-property-definition/entitytypecreation_examplead3_v603.webp)
 5. Click on the Gear symbol to add advanced settings if needed.
 
-   ![Advanced Settings](/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/entitytypecreation_propertiessettings_v602.webp)
+   ![Advanced Settings](../../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/entitytypecreation_propertiessettings_v602.webp)
 
    - ```Icon```: can be chosen from [Microsoft's list](https://uifabricicons.azurewebsites.net/) and will be displayed with the property among users' data.
-   - __Source Expression__: expression that defines the property based on at least one source object. Can be defined by a property path and/or an [Expressions](/docs/usercube_saas/usercube/integration-guide/toolkit/expressions/index.md).
+   - __Source Expression__: expression that defines the property based on at least one source object. Can be defined by a property path and/or an [Expressions](../../../../../integration-guide/toolkit/expressions/index.md).
 
      > For example, the scalar property ```isUnused``` is created to spot unused accounts via a combination of ```accountExpires``` and ```lastLogonTimestamp```:
      >
-     > ![Advanced Settings](/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/entitytypecreation_sourceexpressionexample_v60.webp)
+     > ![Advanced Settings](../../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/entitytypecreation_sourceexpressionexample_v60.webp)
    - ```Flexible Comparison Expression```: expression that inserts adaptable comparison flexibility when using a searchbar for the property.
    - ```History Precision```: time period over which Identity Manager historically records only one value.
 
@@ -126,7 +126,7 @@ Define the entity type's navigation properties by proceeding as follows:
 
 Every time an entity type mapping is modified and saved, a green pop-up appears saying that you should reload the schema to implement the changes. You do not need to click on the button every time. It is essential though to reload after the final changes are made.
 
-![Reload](/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/entity-type-creation/key-selection/entitytypecreation_reload_v522.webp)
+![Reload](../../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/entity-type-creation/key-selection/entitytypecreation_reload_v522.webp)
 
 The __Reload__ button mostly enables your changes to appear in the menu items, which configure the left menu links on the UI's home page.
 
@@ -136,4 +136,4 @@ You can find the __Reload__ button either on the green warning, or on the connec
 
 After the entity type is created with its scalar properties and keys, and navigation properties, you can [
 Set Resources' Display Names
-](/docs/usercube_saas/usercube/user-guide/set-up/connect-system/entity-type-creation/display-name-setting/index.md).
+](../display-name-setting/index.md).

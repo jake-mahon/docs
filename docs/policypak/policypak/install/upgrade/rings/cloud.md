@@ -10,6 +10,6 @@ __Step 3 –__ After you have rolled out to 50% of your machines, you should be 
 
 __Step 4 –__ Alternatively, use the special __All__ group to finish your upgrade and mass upgrade the remaining PCs all at once (after completing some testing).
 
-See the [Endpoint Policy Manager Cloud Groups CSE and Cloud Client Small-Scale Testing and Updates](/docs/policypak/policypak/video/cloud/groups.md) topic for additional information on this process.
+See the [Endpoint Policy Manager Cloud Groups CSE and Cloud Client Small-Scale Testing and Updates](../../../video/cloud/groups.md) topic for additional information on this process.
 
 __NOTE:__ Update the CSE first or the Cloud Client first in the test groups and let each part of the software update. Upgrading both at the same time is supported but is not recommended.

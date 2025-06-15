@@ -8,7 +8,7 @@ Follow the steps to modify the activity days parameter.
 
 __Step 1 –__ Open the ```AccessInformationCenter.Service.exe.config``` file with a text editor, for example Notepad.
 
-![Activity Days parameter in the config file](/img/product_docs/accessinformationcenter/access/informationcenter/admin/additionalconfig/configfileactivitydays.webp)
+![Activity Days parameter in the config file](../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/admin/additionalconfig/configfileactivitydays.webp)
 
 __Step 2 –__ Locate the ```ActivityDays``` parameter. By default, the value will be set to 90 days. Change the value to the desired number of Activity Days for the sample. For example, the parameter would look like this if set to 120 days:
 

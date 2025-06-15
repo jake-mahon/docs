@@ -98,11 +98,11 @@ __Customization Record__: You can also see if a script file is locked by looking
 
 ## Run Mass Updates
 
-A core part of the script performance analysis involves the use of audit tags. These audit tags only provide data when the scripts are in Audit or Debug mode. It is important to switch the scripts over to one of those two levels if appropriate.The Add Audit Tags mass update backs up and then adds start tags to all of your unlocked scripts. This enables tracking frequency of execution. You can manually add end tags for script execution time tracking. [Analyzing Script Performance](/docs/strongpointfornetsuite/script_management/analyzing_script_performance.md).
+A core part of the script performance analysis involves the use of audit tags. These audit tags only provide data when the scripts are in Audit or Debug mode. It is important to switch the scripts over to one of those two levels if appropriate.The Add Audit Tags mass update backs up and then adds start tags to all of your unlocked scripts. This enables tracking frequency of execution. You can manually add end tags for script execution time tracking. [Analyzing Script Performance](analyzing_script_performance.md).
 
 ## Schedule the Script Utilization Data Update Script
 
-This scheduled script captures the script execution data such as how many times it was triggered, who used it and how long it took to execute. Schedule the Script Utilization Data Update Script [Schedule the Script Monitor](/docs/strongpointfornetsuite/script_management/scheduling_script_monitor.md)
+This scheduled script captures the script execution data such as how many times it was triggered, who used it and how long it took to execute. Schedule the Script Utilization Data Update Script [Schedule the Script Monitor](scheduling_script_monitor.md)
 
 ## Track Progress
 
@@ -111,6 +111,6 @@ The scripts on this list will fall off this search as data is collected. Scripts
 
 ## Review Script Performance and Error Reports
 
-There are several searches that provide data about script performance and errors. [Review Script Performance and Error Reports](/docs/strongpointfornetsuite/script_management/reviewing_script_performance_errors.md)
+There are several searches that provide data about script performance and errors. [Review Script Performance and Error Reports](reviewing_script_performance_errors.md)
 
 Another critical script is the __Strongpoint Parse Script Files SS__ (note there is also an on demand version OD). This reads each unlocked script file to check for changes, updates the documentation and stores an archive copy of any previous version of the code. Once complete it triggers the __Strongpoint MakeJoins__ script to complete the documentation by attaching related fields and saved searches.

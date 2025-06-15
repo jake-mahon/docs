@@ -2,7 +2,7 @@
 
 The Activity Summary report at the __File System__ node provides an overview of activity performed on files and folders in each of the scanned servers. It reflects the total count of operations performed in each server, including operations in folders that are not shared. This activity report does not include a date range filter as it contains totals for all operations ever monitored by Access Analyzer for the targeted environment.
 
-![Activity Summary report at the File System node](/img/product_docs/threatmanager/threatmanager/administration/threatdetails/activitysummary.webp)
+![Activity Summary report at the File System node](../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/threatdetails/activitysummary.webp)
 
 This report is comprised of the following columns:
 

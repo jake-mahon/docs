@@ -58,11 +58,11 @@ __Step 4 –__ In the "List, Libraries, and Sites" section, select Editing users
 
 __NOTE:__ Enable Opening or downloading documents, viewing items in lists, or viewing item properties for read access auditing.
 
-If you are using SharePoint 2019 or SharePoint Subscription Edition, it is recommended to adjust audit settings automatically with Auditor to enable this option. See the [Create a New Monitoring Plan](/docs/auditor/auditor/admin/monitoringplans/create.md) topic for additional information.
+If you are using SharePoint 2019 or SharePoint Subscription Edition, it is recommended to adjust audit settings automatically with Auditor to enable this option. See the [Create a New Monitoring Plan](../../admin/monitoringplans/create.md) topic for additional information.
 
 ## Enable SharePoint Administration Service
 
-This service is must be started to ensure the Netwrix Auditor for SharePoint Core Service successful installation. Perform the procedure below, prior to the Core Service installation. See the [Install for SharePoint Core Service](/docs/auditor/auditor/install/sharepointcoreservice.md) topic for additional information.
+This service is must be started to ensure the Netwrix Auditor for SharePoint Core Service successful installation. Perform the procedure below, prior to the Core Service installation. See the [Install for SharePoint Core Service](../../install/sharepointcoreservice.md) topic for additional information.
 
 Follow the steps to enable SharePoint Administration Service.
 

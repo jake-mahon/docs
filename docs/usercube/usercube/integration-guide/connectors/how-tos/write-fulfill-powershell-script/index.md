@@ -2,7 +2,7 @@
 
 This guide shows how to write a PowerShell script used by the [
 PowerShellProv
-](/docs/usercube/usercube/integration-guide/connectors/references-connectors/powershellprov/index.md) connector.
+](../../references-connectors/powershellprov/index.md) connector.
 
 ## Structure of a PowerShell Script
 
@@ -189,7 +189,7 @@ Read the options parameter from the standard input
 
 The [
 PowerShellProv
-](/docs/usercube/usercube/integration-guide/connectors/references-connectors/powershellprov/index.md) isn't mandatory in the JSON file. If it isn't provided, don't perform this step.
+](../../references-connectors/powershellprov/index.md) isn't mandatory in the JSON file. If it isn't provided, don't perform this step.
 
 ```
 

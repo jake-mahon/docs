@@ -56,5 +56,5 @@ What do you want to do?
 
 __See Also__
 
-- [Customize Search Forms](/docs/groupid/groupid/admincenter/portal/design/form/searchforms.md)
-- [Customize Search Results](/docs/groupid/groupid/admincenter/portal/design/form/searchresults.md)
+- [Customize Search Forms](searchforms.md)
+- [Customize Search Results](searchresults.md)

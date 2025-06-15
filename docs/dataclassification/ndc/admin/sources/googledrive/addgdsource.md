@@ -2,9 +2,9 @@
 
 The Google Drive source configuration screen allows you to enable the crawling and classification of content stored in both G-Suite repositories and Google Drive personal accounts.
 
-__IMPORTANT!__ Make sure you created App for GDrive crawling prior to start adding the source. [See Configure G Suite and Google Drive for Crawling for more information.](/docs/dataclassification/ndc/configuration/configinfrastructure/gdrive.md)
+__IMPORTANT!__ Make sure you created App for GDrive crawling prior to start adding the source. [See Configure G Suite and Google Drive for Crawling for more information.](../../../configuration/configinfrastructure/gdrive.md)
 
-![add_gdrive_source_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/sources/googledrive/add_gdrive_source_thumb_0_0.webp)
+![add_gdrive_source_thumb_0_0](../../../../../../static/img/product_docs/dataclassification/ndc/admin/sources/googledrive/add_gdrive_source_thumb_0_0.webp)
 
 Complete the following fields:
 
@@ -19,6 +19,6 @@ Complete the following fields:
 | Project ID | Open the JSON connection file and copy file contents to Project ID field. |
 | Write Classifications | Select to enable the writing of classifications back to the Google Drive repository.  __NOTE:__  Any classifications written to Google Drive are stored in custom properties which are not visible to an end user - they are only accessible via the Google Drive APIs. |
 | OCR Processing Mode | Select documents' images processing mode:   - Disabled – documents' images will not be processed. - Default – defaults to the source settings if configuring a path or the global setting if configured on a source. - Normal – images are processed with normal quality settings. - Enhanced – upscale images further to allow more. |
-| Advanced Settings | Click the "wrench" icon in the Settings area (![gdrive_advanced_settings](/img/product_docs/dataclassification/ndc/admin/sources/googledrive/gdrive_advanced_settings.webp)) at the bottom of the screen to expand the following advanced settings:   - Re-Index Period — specifies how often the source should be checked for changes. The number specifies the period in days. - Priority — specifies the priority of content source processing in the service queues. - Document Type — can be used to specify a value which can be used to restrict queries when utilizing the core search index. |
+| Advanced Settings | Click the "wrench" icon in the Settings area (![gdrive_advanced_settings](../../../../../../static/img/product_docs/dataclassification/ndc/admin/sources/googledrive/gdrive_advanced_settings.webp)) at the bottom of the screen to expand the following advanced settings:   - Re-Index Period — specifies how often the source should be checked for changes. The number specifies the period in days. - Priority — specifies the priority of content source processing in the service queues. - Document Type — can be used to specify a value which can be used to restrict queries when utilizing the core search index. |
 | Source Group | Netwrix recommends creating a dedicated source group for Google Drive. |
 | Pause source on creation | Select if you want to make other configuration changes before collection of the source occurs. |

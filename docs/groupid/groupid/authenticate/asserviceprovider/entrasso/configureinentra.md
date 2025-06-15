@@ -46,7 +46,7 @@ The SAML-based Sign-on page is displayed, where you have to set single sign-on o
 
 Step 14 – On the Basic SAML Configuration card, click __Edit__.
 
-Step 15 – On the Basic SAML Configuration pane, provide the Entity ID and Consumer URL that you copied earlier. See the [Generate URLs](/docs/groupid/groupid/authenticate/asserviceprovider/entrasso/generateurls.md) topic.  
+Step 15 – On the Basic SAML Configuration pane, provide the Entity ID and Consumer URL that you copied earlier. See the [Generate URLs](generateurls.md) topic.  
 After adding the information, click __Save__.
 
 Step 16 – Back on the SAML-based sign-on page, the Attributes & Claims card displays the attributes used for logging in. Let’s keep the defaults.

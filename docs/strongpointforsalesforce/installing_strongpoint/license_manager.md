@@ -15,7 +15,7 @@ Click __Configuration and Stats__ in the __Resources__ section, or open __Settin
 3. Copy and paste the __Authorization Token__
 4. Click __Accept__
 
-   ![input_auth_token](/img/product_docs/strongpointforsalesforce/installing_strongpoint/input_auth_token.webp)
+   ![input_auth_token](../../../static/img/product_docs/strongpointforsalesforce/installing_strongpoint/input_auth_token.webp)
   
   
 5. Open __Netwrix Dashboard__ > __Scanner__ > __Manual Scanners__

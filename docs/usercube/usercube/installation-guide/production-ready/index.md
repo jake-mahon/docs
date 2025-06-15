@@ -4,7 +4,7 @@ This guide leads the reader through the steps to install Identity Manager for p
 
 __1.____Before proceeding__, you should go through the [
 Overview
-](/docs/usercube/usercube/installation-guide/overview/index.md) and [Requirements](/docs/usercube/usercube/installation-guide/requirements/index.md) sections to make fundamental decisions about Identity Manager setup, including:
+](../overview/index.md) and [Requirements](../requirements/index.md) sections to make fundamental decisions about Identity Manager setup, including:
 
 - Whether to install the database within the Identity Manager Server or on a separated workstation.
 - How many Agents will be installed?
@@ -22,7 +22,7 @@ __3.__ This guide is __based on the following choices__:
 - Identity Manager Server running with IIS
 - Identity Manager Database connection with Windows authentication
 
-This guide will allow you to __extrapolate__ less common configurations and will provide links to the relevant [Network Configuration](/docs/usercube/usercube/integration-guide/network-configuration/index.md) sections.
+This guide will allow you to __extrapolate__ less common configurations and will provide links to the relevant [Network Configuration](../../integration-guide/network-configuration/index.md) sections.
 
 Our examples use the fabled [Contoso Corporation](https://docs.microsoft.com/en-us/microsoft-365/enterprise/contoso-overview?view=o365-worldwide) as target organization.
 
@@ -30,4 +30,4 @@ Our examples use the fabled [Contoso Corporation](https://docs.microsoft.com/en-
 
 The first step consists in [
 Create a Working Directory
-](/docs/usercube/usercube/installation-guide/production-ready/working-directory/index.md).
+](working-directory/index.md).

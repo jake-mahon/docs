@@ -2,7 +2,7 @@
 
 The Teams Scan Summary report at the __Teams__ node provides an overview of scanned Teams servers.
 
-![Teams Scan Summary report](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/sharepoint/teams/teamsscansummary.webp)
+![Teams Scan Summary report](../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/sharepoint/teams/teamsscansummary.webp)
 
 This report is comprised of the following columns:
 

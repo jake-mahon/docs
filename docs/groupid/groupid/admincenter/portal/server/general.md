@@ -35,9 +35,9 @@ __To associate an identity store:__
 
 NOTE: You may observe the following message on the __Server Settings – General__ page:
 
-![linked_message](/img/product_docs/groupid/groupid/admincenter/portal/linked_message.webp)
+![linked_message](../../../../../../static/img/product_docs/groupid/groupid/admincenter/portal/linked_message.webp)
 
-It relates to the scenario when identity stores in Directory Manager have been linked, as discussed in the [Linked Identity Stores and the Directory Manager Portal](/docs/groupid/groupid/admincenter/identitystore/link/overview.md#linked-identity-stores-and-the-directory-manager-portal) topic. Hence, when two identity stores, IdentityStoreA and IdentityStoreB, are linked and you associate IdentityStoreA with the portal, this message is displayed. It alerts you to associate the second identity store in the linked pair (dentityStoreB) with
+It relates to the scenario when identity stores in Directory Manager have been linked, as discussed in the [Linked Identity Stores and the Directory Manager Portal](../../identitystore/link/overview.md#linked-identity-stores-and-the-directory-manager-portal) topic. Hence, when two identity stores, IdentityStoreA and IdentityStoreB, are linked and you associate IdentityStoreA with the portal, this message is displayed. It alerts you to associate the second identity store in the linked pair (dentityStoreB) with
 the portal too, in order to benefit from the linking.
 
 ## View the Deployment(s) for a Portal
@@ -53,7 +53,7 @@ __To view a portal’s deployment instances:__
 4. The __Deployment Settings__ page has varying tabs, depending on the deployment instances of the portal.
 
    - The __IIS__ tab is available when one or more portal instances are deployed in native IIS. Select an instance to view the name of the instance directory in IIS, the IIS site that hosts the instance, the URL
-     for the instance, the Data service and Security service associated with the instance, and logging levels. See the [Manage Settings for a Native IIS Deployment](/docs/groupid/groupid/admincenter/portal/server/nativeiis.md) topic for details.
+     for the instance, the Data service and Security service associated with the instance, and logging levels. See the [Manage Settings for a Native IIS Deployment](nativeiis.md) topic for details.
    - The __Remote IIS__ tab is available when one or more portal instances are deployed in remote IIS. Select an instance to view the Microsoft IIS Administration API URL and access token that Directory Manager uses to
-     communicate with the remote IIS server, the credentials used to communicate with the API, the site that hosts the instance, the Data service and Security service associated with the instance, and logging levels. See the [Manage Settings for a Remote IIS Deployment](/docs/groupid/groupid/admincenter/portal/server/remoteiis.md) topic for details.
-   - The __Docker__ tab is available when one or more portal instances are deployed in Docker. Select an instance to view the port and Service URL used for deployment. See the [Manage Settings for a Docker Deployment](/docs/groupid/groupid/admincenter/portal/server/docker.md) topic for details.
+     communicate with the remote IIS server, the credentials used to communicate with the API, the site that hosts the instance, the Data service and Security service associated with the instance, and logging levels. See the [Manage Settings for a Remote IIS Deployment](remoteiis.md) topic for details.
+   - The __Docker__ tab is available when one or more portal instances are deployed in Docker. Select an instance to view the port and Service URL used for deployment. See the [Manage Settings for a Docker Deployment](docker.md) topic for details.

@@ -14,4 +14,4 @@ UN-check to "Continue running background apps when Google Chrome is Closed) as s
 
 Chrome is keeping itself alive, even though it should not. This will fix the problem.
 
-![253_1_image0015](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/chrome/253_1_image0015.webp)
+![253_1_image0015](../../../../../../static/img/product_docs/policypak/policypak/troubleshooting/browserrouter/chrome/253_1_image0015.webp)

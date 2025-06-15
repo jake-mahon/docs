@@ -12,7 +12,7 @@ There are common and content-specific settings that you need to specify.
 
 These settings are the same for all supported sources.
 
-![action_migration_common_settings_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/workflows/advancedwindow/action_migration_common_settings_thumb_0_0.webp)
+![action_migration_common_settings_thumb_0_0](../../../../../../static/img/product_docs/dataclassification/ndc/admin/workflows/advancedwindow/action_migration_common_settings_thumb_0_0.webp)
 
 | Setting | Description | Comments |
 | --- | --- | --- |
@@ -21,7 +21,7 @@ These settings are the same for all supported sources.
 | __Maintain Folder Structure__ | If selected, subfolders will be created in the migration destination to match the relative path in the source. | Applies if this capability is supported by the source system.  For Exchange, the path will also include a folder for the mailbox name (e.g. _\\MigrationDestination\User@domain.com\Inbox\HR_). |
 | __Delete Original Item__ | If selected, the original item will be deleted after it is successfully copied to the destination. | Applies if this capability is supported by the source system. |
 | __Mark Original item as Read Only__ | If selected, the original item will be marked as _read-only_. | Applies if this capability is supported by the source system. |
-| __Redaction Plan__ | If redaction plans have been configured, specify the redaction plan to be applied to the document. See [Redaction](/docs/dataclassification/ndc/configuration/redaction.md). | By default, this will be applied to the document at the destination. |
+| __Redaction Plan__ | If redaction plans have been configured, specify the redaction plan to be applied to the document. See [Redaction](../../../configuration/redaction.md). | By default, this will be applied to the document at the destination. |
 | __Redact Original__ | If updating the source item is supported by the source system, then checking this box will cause the redaction plan to be applied to the source document after being successfully migrated. | Note that this option is not available when performing a move (deleting the original item). |
 
 ## Source-specific settings

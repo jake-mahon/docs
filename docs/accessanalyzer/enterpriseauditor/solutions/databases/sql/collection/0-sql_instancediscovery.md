@@ -6,7 +6,7 @@ The 0-SQL_InstanceDiscovery job enumerates and stores the list of SQL Server Ins
 
 The 0-SQL_InstanceDiscovery job uses the SQL Data Collector for the following query:
 
-![Query Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/collection/instancedisc_query.webp)
+![Query Selection](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/collection/instancedisc_query.webp)
 
 - SQL Server Instance Discovery — Collects the list of SQL Server Instances from target endpoints and populates the necessary instance connection information
 
@@ -16,7 +16,7 @@ Navigate to the __Databases__ > __0.Collection__ > __SQL__ > __0-SQL_InstanceDis
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/collection/instancedisc_analysis.webp)
+![Analysis Selection](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/collection/instancedisc_analysis.webp)
 
 The default analysis tasks is:
 

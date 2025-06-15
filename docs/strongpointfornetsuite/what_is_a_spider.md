@@ -29,7 +29,7 @@ There are three ways to use the Spider:
 
 ## Manual Spider
 
-Creates the initial documentation of your account. It has the ability to fully document your account by Spidering all the customization records as well doing a full update on the records in your account (every customization). The initial manual Spider is run during as part of the installation process: [Running the Spider](/docs/strongpointfornetsuite/installing_strongpoint/running_the_spider.md).
+Creates the initial documentation of your account. It has the ability to fully document your account by Spidering all the customization records as well doing a full update on the records in your account (every customization). The initial manual Spider is run during as part of the installation process: [Running the Spider](installing_strongpoint/running_the_spider.md).
 
 When running the spider, you must keep the window open for the spider to continue working. Do not change roles or accounts during spidering. NetSuite security standards require an active Administrator login to execute some of the spider’s tasks.
 
@@ -43,7 +43,7 @@ Best practice is to run the AutoSpider regularly. If the AutoSpider is not run, 
 
 ### AutoSpider Portlet
 
-The AutoSpider Portlet is set up as part of the installation process: [Setting Up the AutoSpider and Alerts](/docs/strongpointfornetsuite/installing_strongpoint/setting_up_auto_spider_alerts.md).
+The AutoSpider Portlet is set up as part of the installation process: [Setting Up the AutoSpider and Alerts](installing_strongpoint/setting_up_auto_spider_alerts.md).
 
 The __AutoSpider Portlet__ is required to update certain object types in NetSuite. Once triggered through the dashboard portlet, it picks up all changes on custom objects and triggers the scheduled scripts to reflect them in the Customization records, going back two days. The AutoSpider portlet is required in order to update these object types:
 
@@ -60,6 +60,6 @@ The __AutoSpider Portlet__ is required to update certain object types in NetSuit
 
 The __ReSpider Now__ feature is used to document or update documentation for a specific customization or a specific set of customizations on demand. Once you are finished adding your new/updated objects to your customization record or change request, simply click __ReSpider Now__ on your form, and your documentation is updated in real time. Here is an example of a customization record with the __ReSpider Now__ option:
 
-![ReSpiderNow](/img/product_docs/strongpointfornetsuite/respider_now.webp)
+![ReSpiderNow](../../static/img/product_docs/strongpointfornetsuite/respider_now.webp)
 
 Proposed customizations do not work for custom forms and custom reports, since they do not have Script IDs. NetSuite is currently working on this, but it is still in development. For searches, __ReSpider Now__ uses the permissions of the current logged in user. If the user does not have the correct permission set, the search shows as private.

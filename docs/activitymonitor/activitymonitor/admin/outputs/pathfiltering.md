@@ -8,14 +8,14 @@ Select an output from the Monitored Hosts tab and click __Edit__ to open the out
 
 The tab contains the following settings and features:
 
-![pathfilteringtab](/img/product_docs/activitymonitor/activitymonitor/admin/outputs/pathfilteringtab.webp)
+![pathfilteringtab](../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/outputs/pathfilteringtab.webp)
 
-- Add – Opens the Add or Edit Path window to add a new path to the list. See the [Add or Edit Path Window](/docs/activitymonitor/activitymonitor/admin/outputs/window/addeditpath.md) topic for additional information.
+- Add – Opens the Add or Edit Path window to add a new path to the list. See the [Add or Edit Path Window](window/addeditpath.md) topic for additional information.
 - Remove – Removes the selected path from the list. Confirmation is not requested.
 
   __CAUTION:__ If a path is removed by accident, use the __Cancel__ button to discard the change.
 - Move Up / Move Down – Since path filters are evaluated in the order specified by the table, these buttons move the selected path up or down in the list
-- Edit – Opens the Add or Edit Path window to modify the selected path. See the [Add or Edit Path Window](/docs/activitymonitor/activitymonitor/admin/outputs/window/addeditpath.md) topic for additional information.
+- Edit – Opens the Add or Edit Path window to modify the selected path. See the [Add or Edit Path Window](window/addeditpath.md) topic for additional information.
 - Type a path below to test whether it will be included or excluded – Enter a path in the textbox to test whether it will be included/excluded based on the path filtering list
 
   - Result – Under the text box, a description of whether the indicated path is included or excluded will appear, as well as a reason for why the indicated path is included or excluded. Additionally, the path in the list that is applied to the test will be highlight ed: green highlight for an included path and red highlight for an excluded path.
@@ -34,14 +34,14 @@ Click __OK__ to commit the modifications. Click __Cancel__ to discard the modifi
 
 The tab contains the following settings and features:
 
-![Host Properties - Path Filtering Tab](/img/product_docs/activitymonitor/activitymonitor/admin/outputs/pathfilteringtab.webp)
+![Host Properties - Path Filtering Tab](../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/outputs/pathfilteringtab.webp)
 
-- Add – Opens the Add or Edit Path window to add a new path to the list. See the [Add or Edit Path Window](/docs/activitymonitor/activitymonitor/admin/outputs/window/addeditpath.md) topic for additional information.
+- Add – Opens the Add or Edit Path window to add a new path to the list. See the [Add or Edit Path Window](window/addeditpath.md) topic for additional information.
 - Remove – Removes the selected path from the list. Confirmation is not requested.
 
   __CAUTION:__ If a path is removed by accident, use the __Cancel__ button to discard the change.
 - Move Up / Move Down – Since path filters are evaluated in the order specified by the table, these buttons move the selected path up or down in the list
-- Edit – Opens the Add or Edit Path window to modify the selected path. See the [Add or Edit Path Window](/docs/activitymonitor/activitymonitor/admin/outputs/window/addeditpath.md) topic for additional information.
+- Edit – Opens the Add or Edit Path window to modify the selected path. See the [Add or Edit Path Window](window/addeditpath.md) topic for additional information.
 - Type a path below to test whether it will be included or excluded – Enter a path in the textbox to test whether it will be included/excluded based on the path filtering list
 
   - Result – Under the text box, a description of whether the indicated path is included or excluded will appear, as well as a reason for why the indicated path is included or excluded. Additionally, the path in the list that is applied to the test will be highlight ed: green highlight for an included path and red highlight for an excluded path.
@@ -60,7 +60,7 @@ Click __OK__ to commit the modifications. Click __Cancel__ to discard the modifi
 
 For a SharePoint host, the Path Filtering tab is for including and excluding sites. The tab contains the following settings and features:
 
-![Path Filtering Tab for SharePoint Hosts](/img/product_docs/activitymonitor/activitymonitor/admin/outputs/pathfilteringsharepointhosts.webp)
+![Path Filtering Tab for SharePoint Hosts](../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/outputs/pathfilteringsharepointhosts.webp)
 
 - To audit all sites, leave the textbox blank
 - To include a specific site, enter the URL
@@ -74,12 +74,12 @@ Use a semicolon (;) to separate multiple URLs.
 
 The tab contains the following settings and features:
 
-- Add – Opens the Add or Edit Path window to add a new path to the list. See the [Add or Edit Path Window](/docs/activitymonitor/activitymonitor/admin/outputs/window/addeditpath.md) topic for additional information.
+- Add – Opens the Add or Edit Path window to add a new path to the list. See the [Add or Edit Path Window](window/addeditpath.md) topic for additional information.
 - Remove – Removes the selected path from the list. Confirmation is not requested.
 
   __CAUTION:__ If a path is removed by accident, use the __Cancel__ button to discard the change.
 - Move Up / Move Down – Since path filters are evaluated in the order specified by the table, these buttons move the selected path up or down in the list
-- Edit – Opens the Add or Edit Path window to modify the selected path. See the [Add or Edit Path Window](/docs/activitymonitor/activitymonitor/admin/outputs/window/addeditpath.md) topic for additional information.
+- Edit – Opens the Add or Edit Path window to modify the selected path. See the [Add or Edit Path Window](window/addeditpath.md) topic for additional information.
 - Add all local drives – Retrieves and adds all local drives to the bottom of the list with a type of Include
 - Type a path below to test whether it will be included or excluded – Enter a path in the textbox to test whether it will be included/excluded based on the path filtering list
 

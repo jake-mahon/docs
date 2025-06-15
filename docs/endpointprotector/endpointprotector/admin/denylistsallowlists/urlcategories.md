@@ -6,7 +6,7 @@ __CAUTION:__ URL Categories only apply when the Deep Packet Inspection feature i
 
 Blocking content based on URL categories can lead to data loss if not used correctly because it will restrict a policy to a few domain names. Policies must be constantly updated as new URLs need to be added to the categories lists.
 
-![URL Categories](/img/product_docs/endpointprotector/endpointprotector/admin/denylistsallowlists/urlcategories.png)
+![URL Categories](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/denylistsallowlists/urlcategories.png)
 
 You can add a new URL category or edit, delete or export from the Actions column.
 
@@ -14,4 +14,4 @@ To create a new URL category, under the list of available URL categories, click 
 
 Once the URL category is created, it will be displayed on the URL category list and will be available when creating or editing a Content Aware Protection policy.
 
-![ Creating a new URL category](/img/product_docs/endpointprotector/endpointprotector/admin/denylistsallowlists/newurlcategory.png)
+![ Creating a new URL category](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/denylistsallowlists/newurlcategory.png)

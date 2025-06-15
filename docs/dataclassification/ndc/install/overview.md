@@ -17,7 +17,7 @@
    | Password | Provide your password. |
    | Database Name | Enter the name of the SQL Server database. Netwrix recommends using NDC_database name. |
 
-   __NOTE:__ The database is created automatically in basic configuration mode. For recommended configuration (required for crawling optimization in large and extra-large environments), refer to [Configure NDC SQL database](/docs/dataclassification/ndc/requirements/ndcsqldatabase.md) section.
+   __NOTE:__ The database is created automatically in basic configuration mode. For recommended configuration (required for crawling optimization in large and extra-large environments), refer to [Configure NDC SQL database](../requirements/ndcsqldatabase.md) section.
 7. On the Licensing step, add license. You can add license as follows:
 
    - Click the Import button and browse for your license file

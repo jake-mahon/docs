@@ -4,8 +4,8 @@ The GroupPolicy Data Collector provides the ability to retrieve the GPO’s list
 
 The GroupPolicy Data Collector is a core component of Access Analyzer, but it has been preconfigured within the Active Directory Solution and the Windows Solution. While the data collector is available with all Access Analyzer license options, the Windows Solution is only available with a special Access Analyzer licenses. See the following topics for additional information:
 
-- [Active Directory Solution](/docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/overview.md)
-- [Windows Solution](/docs/accessanalyzer/enterpriseauditor/solutions/windows/overview.md)
+- [Active Directory Solution](../../../solutions/activedirectory/overview.md)
+- [Windows Solution](../../../solutions/windows/overview.md)
 
 Protocols
 
@@ -28,12 +28,12 @@ Permissions
 The GroupPolicy Data Collector is configured through the Group Policy Data Collector Wizard. The available pages change based upon the query category selected. It contains the following wizard pages:
 
 - Welcome
-- [GroupPolicy: Category](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/grouppolicy/category.md)
-- [GroupPolicy: Target](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/grouppolicy/target.md)
-- [GroupPolicy: Policies List](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/grouppolicy/policieslist.md)
-- [GroupPolicy: Options](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/grouppolicy/options.md)
-- [GroupPolicy: Summary](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/grouppolicy/summary.md)
+- [GroupPolicy: Category](category.md)
+- [GroupPolicy: Target](target.md)
+- [GroupPolicy: Policies List](policieslist.md)
+- [GroupPolicy: Options](options.md)
+- [GroupPolicy: Summary](summary.md)
 
-![Group Policy Data Collector Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
+![Group Policy Data Collector Wizard Welcome page](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
 
 The Welcome page can be hidden by selecting the __Do not display this page the next time__ checkbox when the wizard is open and configuration settings are saved.

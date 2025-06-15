@@ -8,7 +8,7 @@ Navigate to the __Active Directory__ > __1.Groups__ > __AD_StaleGroups__ > __Con
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the AD_StaleGroups Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/distributionlists/membershipanalysis/stalegroupsanalysis.webp)
+![Analysis Tasks for the AD_StaleGroups Job](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/distributionlists/membershipanalysis/stalegroupsanalysis.webp)
 
 The default analysis tasks are:
 

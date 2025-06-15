@@ -1,6 +1,6 @@
 # Using Change Logs
 
-Change Logs allow you to see the type of change, who made the change and view the system notes of the Salesforce record. Change Logs are accessed from the __Change Logs__ tab or through [Change Enablement Reports](/docs/strongpointforsalesforce/change_management/change_management_reports.md).
+Change Logs allow you to see the type of change, who made the change and view the system notes of the Salesforce record. Change Logs are accessed from the __Change Logs__ tab or through [Change Enablement Reports](change_management_reports.md).
 
 1. Expand the __Change Logs__ tab.
 2. Change the __Recently Viewed__ pinned list to show the types of Change Logs to view. For example__, Data tracking Changes__ or __Profile and PermissionSet__ changes. The __Details__ and __Diff Summary__ differ slightly depending on the selected __Metadata Type__.
@@ -8,11 +8,11 @@ Change Logs allow you to see the type of change, who made the change and view th
 
 You can also open Change Logs from __Netwrix Dashboard__ > __Reports__ > __Change Enablement__. Select a report, such as __What Changed__ to see a list of Change Logs.
 
-![changelog-1](/img/product_docs/strongpointfornetsuite/change_management/changelog-1.webp)
+![changelog-1](../../../static/img/product_docs/strongpointfornetsuite/change_management/changelog-1.webp)
 
 Here is an example change log for a __Profile__ Metadata type.
 
-![changelog_details](/img/product_docs/strongpointforsalesforce/change_management/changelog_details.webp)
+![changelog_details](../../../static/img/product_docs/strongpointforsalesforce/change_management/changelog_details.webp)
 
 ## Details Tab
 
@@ -72,17 +72,17 @@ The __Diff Summary__ section displays the differences in the objects that occurr
 
 Example Diff Summary for a Data tracking Change Log:
 
-![Diff Summary for data tracking](/img/product_docs/strongpointforsalesforce/change_management/diffsummary_data.webp)
+![Diff Summary for data tracking](../../../static/img/product_docs/strongpointforsalesforce/change_management/diffsummary_data.webp)
 
 Example Diff Summary for a Profile metadata type Change Log:
 
-![Change Log Diff Summary](/img/product_docs/strongpointforsalesforce/change_management/changelog_diff.webp)
+![Change Log Diff Summary](../../../static/img/product_docs/strongpointforsalesforce/change_management/changelog_diff.webp)
 
 ### Values
 
 The __Values__ section displays the __New Value__ and __Old Value__ of each field after the update. The __Created By__ and __Last Modified By__ users and dates are displayed at the end of the list.
 
-![changelog_values](/img/product_docs/strongpointforsalesforce/change_management/changelog_values.webp)
+![changelog_values](../../../static/img/product_docs/strongpointforsalesforce/change_management/changelog_values.webp)
 
 ### Audit
 

@@ -12,13 +12,13 @@ Click __Forest__ in the left pane to open the Forest page.
 
 - When no forest has been added, the Forest Configuration page is displayed.
 
-> ![Forest Configuration page](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/add.webp)
+> ![Forest Configuration page](../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/add.webp)
 >
 > You must add a forest first. See the [Add a Forest](#add-a-forest) topic for additional information.
 
 - Once a forest is added, the page is displayed as follows:
 
-![Forest Page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/forest.webp)
+![Forest Page](../../../../../static/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/forest.webp)
 
 The domains in the configured forests are shown in a hierarchal tree. The domain controllers for the selected forest are shown in the adjacent pane, with information such as backup status and last backup times.
 
@@ -35,7 +35,7 @@ The following information is displayed for a domain controller:
 
   - Start Backup – Starts a backup of the server on demand
   - Edit Configuration – Launches the Server Backup Configuration wizard, enabling you to modify the backup configurations for the domain controller
-  - Add Domain Controller to Restore Playbook – Adds the domain controller to the recovery playbook. See the [Create a Recovery Playbook](/docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/recover#create-a-recovery-playbook) topic for additional information.
+  - Add Domain Controller to Restore Playbook – Adds the domain controller to the recovery playbook. See the [Create a Recovery Playbook](recover#create-a-recovery-playbook) topic for additional information.
 
     This is the only action displayed for a domain controller that has not been backed up.
 
@@ -47,7 +47,7 @@ You must add a forest in the system to perform backup and recovery operations fo
 
 __Step 1 –__ On the Forest Configuration page, click the __here__ link. Or on the Forest page, click the __Add__ link. The Add Forest window is displayed.
 
-![ Add Forest window](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/addforest.webp)
+![ Add Forest window](../../../../../static/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/addforest.webp)
 
 __Step 2 –__ In the Domain field, enter the name of the root domain in the forest [example.domain.com].
 
@@ -65,7 +65,7 @@ You can also expand a forest to view the domains under it.
 
 When you configure backup settings for a domain controller, the system automatically installs the Netwrix Server Backup Configuration agent on that domain controller.
 
-__NOTE:__ Ensure that the domain controller has the firewall rules configured before configuring backup settings for it. See the [Firewall Rules for Forest Server Backups](/docs/recoveryforactivedirectory/recoveryforactivedirectory/requirements/firewallrules.md) topic for additional information.
+__NOTE:__ Ensure that the domain controller has the firewall rules configured before configuring backup settings for it. See the [Firewall Rules for Forest Server Backups](../../requirements/firewallrules.md) topic for additional information.
 
 Follow the steps to specify backup settings for a domain controller.
 
@@ -73,7 +73,7 @@ __Step 1 –__ On the Forest page, select a forest to view the domain controller
 
 __Step 1 –__ Enable the Backup toggle button for a domain controller to launch the Server Backup Configuration wizard.
 
-![Server Backup Configuration wizard - Server page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/server.webp)
+![Server Backup Configuration wizard - Server page](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/server.webp)
 
 __Step 2 –__ In the Server field, the domain controller to be backed up is displayed as read-only in the following format: server.domain.com.
 
@@ -86,7 +86,7 @@ __NOTE:__ The backup data is first stored locally on the server and copied to th
 
 __Step 4 –__ Click __Next__.
 
-![Server Backup Configuration wizard - Schedule page](/img/product_docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/schedule.webp)
+![Server Backup Configuration wizard - Schedule page](../../../../../static/img/product_docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/schedule.webp)
 
 __Step 5 –__ Select the days of the week in the Run the backup on section to indicate the days when backups will be run.
 
@@ -94,7 +94,7 @@ __Step 6 –__ Select a start time (UTC) in the Start the backup at field to beg
 
 __Step 7 –__ Click __Next__.
 
-![Server Backup Configuration wizard - Options page](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/options.webp)
+![Server Backup Configuration wizard - Options page](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/install/application/options.webp)
 
 __Step 8 –__ In the Specify where you would like to store the backup data field, enter a path to a network share on the domain controller to store the backup data.
 
@@ -106,11 +106,11 @@ __Step 10 –__ By default, backups are compressed. Clear the Compress the gener
 
 __Step 11 –__ Click __Next__.
 
-![Server Backup Configuration wizard - Confirm page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/confirm.webp)
+![Server Backup Configuration wizard - Confirm page](../../../../../static/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/confirm.webp)
 
 __Step 12 –__ The Confirm page displays a summary of the settings you provided on the pages of the wizard. Use the Back button to return to a previous page and change any setting. Click __Complete__ to finish the wizard.
 
-![Server Backup Configuration Saved](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/serverbackupconfiguration.webp)
+![Server Backup Configuration Saved](../../../../../static/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/serverbackupconfiguration.webp)
 
 __Step 13 –__ The Server backup configuration has been saved. Click __OK__.
 
@@ -147,7 +147,7 @@ __Step 1 –__ On the Forest page, select a forest to view the domain controller
 
 __Step 2 –__ Click the arrow next to the name of a domain controller to expand it.
 
-![Forest Server Backup History](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/serverbackuphistory.webp)
+![Forest Server Backup History](../../../../../static/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/serverbackuphistory.webp)
 
 On expanding a domain controller, you can view a list of backups for it. The following information is displayed for each backup:
 
@@ -159,4 +159,4 @@ On expanding a domain controller, you can view a list of backups for it. The fol
 
 ## Forest Recovery
 
-See the [Recover a Forest](/docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/recover.md) topic for information on how to recover a forest.
+See the [Recover a Forest](recover.md) topic for information on how to recover a forest.

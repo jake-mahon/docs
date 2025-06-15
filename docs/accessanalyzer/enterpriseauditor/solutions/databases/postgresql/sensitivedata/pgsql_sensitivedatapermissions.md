@@ -8,7 +8,7 @@ Navigate to the __Jobs > Databases > PostgreSQL > Sensitive Data > PgSQL_Sens
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/postgresql/sensitivedata/sensitivedatapermission.webp)
+![Analysis Selection](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/postgresql/sensitivedata/sensitivedatapermission.webp)
 
 The default analysis tasks are:
 

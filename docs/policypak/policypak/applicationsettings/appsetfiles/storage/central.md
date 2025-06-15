@@ -6,7 +6,7 @@ With that in mind, Endpoint Policy Manager Application Settings Manager can util
 
 The Central Storage is a very simple idea: house the Endpoint Policy Manager extension DLLs within the Active Directory's SYSVOL (which is replicated to all domain controllers). Then, whenever they're needed, the Endpoint Policy Manager MMC will utilize the DLL contained within the Central Storage—automatically.
 
-__NOTE:__ If you are familiar with Group Policy's ADMX Central Storage, this feature is identical and accomplishes a similar task. For information on Microsoft's implementation of central storage, please read [Understanding and fixing Endpoint Policy Manager DLL Orphans](/docs/policypak/policypak/video/applicationsettings/dllorphans.md).
+__NOTE:__ If you are familiar with Group Policy's ADMX Central Storage, this feature is identical and accomplishes a similar task. For information on Microsoft's implementation of central storage, please read [Understanding and fixing Endpoint Policy Manager DLL Orphans](../../../video/applicationsettings/dllorphans.md).
 
 Creating the Endpoint Policy Manager Central Storage is easy and only needs to be performed one time. The actions that a domain administrator needs to perform are:
 
@@ -15,15 +15,15 @@ Creating the Endpoint Policy Manager Central Storage is easy and only needs to b
 - Inside the Policies folder, create a directory named PolicyPak, as also seen in Figure 69.
 - Finally, copy (or move) your local Endpoint Policy Manager extension DLLs from your local administrator's machine's``` c:\Program Files\PolicyPak\Extensions``` to the newly created Endpoint Policy Manager folder at ```c:\windows\SYSVOL\SYSVOL\policies\PolicyPak```. An example of this can be seen in Figure 70.
 
-![policypak_application_settings_3_5](/img/product_docs/policypak/policypak/applicationsettings/appsetfiles/storage/policypak_application_settings_3_5.webp)
+![policypak_application_settings_3_5](../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/appsetfiles/storage/policypak_application_settings_3_5.webp)
 
 Figure 68. The location of the SYSVOL folders.
 
-![policypak_application_settings_3_6](/img/product_docs/policypak/policypak/applicationsettings/appsetfiles/storage/policypak_application_settings_3_6.webp)
+![policypak_application_settings_3_6](../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/appsetfiles/storage/policypak_application_settings_3_6.webp)
 
 Figure 69. The newly created folder called "Endpoint Policy Manager."
 
-![policypak_application_settings_3_7](/img/product_docs/policypak/policypak/applicationsettings/appsetfiles/storage/policypak_application_settings_3_7.webp)
+![policypak_application_settings_3_7](../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/appsetfiles/storage/policypak_application_settings_3_7.webp)
 
 Figure 70. The Endpoint Policy Manager extension DLLs being moved to the newly created Endpoint Policy Manager folder.
 
@@ -31,11 +31,11 @@ When you place all Endpoint Policy Manager extension DLLs in the Central Storage
 
 Simply edit the existing GPO with Endpoint Policy Manager Application Settings Manager directives or create a new GPO. You should immediately see your Endpoint Policy Manager extensions available in the Endpoint Policy Manager | Applications flyout menu (as seen in Figure 71) and, when they're utilized, you'll see the Extension Location change to Central Storage, as seen in Figure 72.
 
-![policypak_application_settings_3_8](/img/product_docs/policypak/policypak/applicationsettings/appsetfiles/storage/policypak_application_settings_3_8.webp)
+![policypak_application_settings_3_8](../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/appsetfiles/storage/policypak_application_settings_3_8.webp)
 
 Figure 71. Endpoint Policy Manager extensions available in the flyout menu.
 
-![policypak_application_settings_3_9](/img/product_docs/policypak/policypak/applicationsettings/appsetfiles/storage/policypak_application_settings_3_9.webp)
+![policypak_application_settings_3_9](../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/appsetfiles/storage/policypak_application_settings_3_9.webp)
 
 Figure 72. The extension location has been changed to Central Storage.
 

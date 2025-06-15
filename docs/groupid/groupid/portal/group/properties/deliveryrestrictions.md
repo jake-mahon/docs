@@ -19,7 +19,7 @@ Shows the objects whose emails will not be delivered to the group.
 
 __Add__
 
-To add an object to a list, click __Add__ in the respective area. Enter a search string to locate the required object, or click __Advance__ to use the [Find Dialog Box](/docs/groupid/groupid/portal/search/find.md) for
+To add an object to a list, click __Add__ in the respective area. Enter a search string to locate the required object, or click __Advance__ to use the [Find Dialog Box](../../search/find.md) for
 performing a search.
 
 __Remove__

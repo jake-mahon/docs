@@ -25,7 +25,7 @@ The testing process using the heartbeat can be executed via various methods.
 
 ## Testing via Password Reset
 
-The heartbeat is always carried out before the first resetting process using a Password Reset. After the script has run, the testing process is carried out again. Further information on this process can also be found in the section [Rollback](/docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/passwordreset/rollback/rollback.md).
+The heartbeat is always carried out before the first resetting process using a Password Reset. After the script has run, the testing process is carried out again. Further information on this process can also be found in the section [Rollback](../rollback/rollback.md).
 
 ### Manual testing
 
@@ -33,15 +33,15 @@ The heartbeat can be executed in the ribbon for the password module by clicking 
 
 ### Automatic testing via the password settings
 
-It is also possible to configure the heartbeat to run cyclically. It can be configured either via the [User settings](/docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/user_settings/user_settings.md) or directly in the [Password settings](/docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/passwords/password_settings.md).
+It is also possible to configure the heartbeat to run cyclically. It can be configured either via the [User settings](../../../mainmenu/user_settings/user_settings.md) or directly in the [Password settings](../../passwords/password_settings.md).
 
 ## Results of the tests
 
 The results of the test can be viewed in the __passwords module__.
 
-![result heartbeat](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/passwordreset/heartbeat/heartbeat_1-en.webp)
+![result heartbeat](../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/passwordreset/heartbeat/heartbeat_1-en.webp)
 
-The date when it was last executed can be seen at the top of the [Reading pane](/docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/readingpane/reading_pane.md). The success of the testing process is indicated alongside using a coloured icon. Further information can be displayed by moving the mouse over the icon.
+The date when it was last executed can be seen at the top of the [Reading pane](../../../operation_and_setup/readingpane/reading_pane.md). The success of the testing process is indicated alongside using a coloured icon. Further information can be displayed by moving the mouse over the icon.
 
 The icon has three different versions. These have the following meanings:
 
@@ -53,4 +53,4 @@ The last test was completed. However, the password is different to the one on th
 
 The filter can be configured using the filter group __Status of the login data__ so that the tested records can be selected.
 
-![Filter heartbeat status](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/passwordreset/heartbeat/heartbeat_2-en.webp)
+![Filter heartbeat status](../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/passwordreset/heartbeat/heartbeat_2-en.webp)

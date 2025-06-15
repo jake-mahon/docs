@@ -58,7 +58,7 @@ You can configure your IT Infrastructure for monitoring in one of the following
 See the following topics for additional information:
 
 - Configure NetApp Clustered Data ONTAP 8 and ONTAP 9 for Monitoring
-- [Configure Audit Settings for CIFS File Shares](/docs/auditor/auditor/configuration/fileservers/netappcmode/cifs.md)
+- [Configure Audit Settings for CIFS File Shares](cifs.md)
 
 The following table lists the actions that can be performed on NetApp:
 
@@ -85,10 +85,10 @@ Actions marked with an asterisks (\*) are reported for NetApp Clustered Data ONT
 To configure Clustered Data ONTAP 8 and ONTAP 9 for monitoring, perform the following procedures:
 
 - Prerequisites 
-- [Configure ONTAPI\RESTAPI Web Access](/docs/auditor/auditor/configuration/fileservers/netappcmode/webaccess.md)
-- [Configure System Service Firewall Policies](/docs/auditor/auditor/configuration/fileservers/netappcmode/ports.md)
-- [Configure Service Policy](/docs/auditor/auditor/configuration/fileservers/netappcmode/servicepolicy.md)
-- [Configure Event Categories and Log](/docs/auditor/auditor/configuration/fileservers/netappcmode/eventcategories.md)
+- [Configure ONTAPI\RESTAPI Web Access](webaccess.md)
+- [Configure System Service Firewall Policies](ports.md)
+- [Configure Service Policy](servicepolicy.md)
+- [Configure Event Categories and Log](eventcategories.md)
 
 ### Prerequisites
 
@@ -106,7 +106,7 @@ __Step 1 –__ Configure CIFS server and make sure it functions properly.
 
 __NOTE__: NFS file shares are not supported.
 
-__Step 2 –__ Configure System Access Control List (SACL) on your file share. See [Configure Audit Settings for CIFS File Shares](/docs/auditor/auditor/configuration/fileservers/netappcmode/cifs.md) topic for additional information.
+__Step 2 –__ Configure System Access Control List (SACL) on your file share. See [Configure Audit Settings for CIFS File Shares](cifs.md) topic for additional information.
 
 __Step 3 –__ Set the Security Style for Volume or Qtree where the audited file shares are located to the _"ntfs"_ or _"mixed"_.
 

@@ -18,8 +18,8 @@ This section explains how to import a virtual machine with installed Auditor to 
 Review the following for additional information:
 
 - Requirements to Deploy Virtual Appliance
-- [Import Virtual Machine from Image to VMware](/docs/auditor/auditor/install/virtualappliance/importvmware.md)
-- [Import Virtual Machine from Image to Hyper-V ](/docs/auditor/auditor/install/virtualappliance/importhyperv.md)
+- [Import Virtual Machine from Image to VMware](importvmware.md)
+- [Import Virtual Machine from Image to Hyper-V ](importhyperv.md)
 
 ## Available Configurations
 
@@ -43,13 +43,13 @@ The virtual appliance also contains Access Information Center for Auditor versio
 
   Also, you can register you license by phone. See the following Microsoft article: [Microsoft Licensing Activation Centers worldwide telephone numbers](https://www.microsoft.com/en-us/licensing/existing-customer/activation-centers) for additional information.
 
-- Microsoft SQL Server Express Edition is only recommended for evaluation, PoC or small deployments. For production deployment planning in bigger environments, refer to requirements and recommendations listed in the [Requirements for SQL Server to Store Audit Data](/docs/auditor/auditor/requirements/sqlserver.md) section.
+- Microsoft SQL Server Express Edition is only recommended for evaluation, PoC or small deployments. For production deployment planning in bigger environments, refer to requirements and recommendations listed in the [Requirements for SQL Server to Store Audit Data](../../requirements/sqlserver.md) section.
 
 ## Requirements to Deploy Virtual Appliance
 
 This section lists supported virtualization platforms and default hardware configuration required for the virtual machine where Auditor virtual appliance will be deployed.
 
-The requirements below are sufficient for evaluation purposes only. See the [Requirements](/docs/auditor/auditor/requirements/overview.md) topic for additional information.
+The requirements below are sufficient for evaluation purposes only. See the [Requirements](../../requirements/overview.md) topic for additional information.
 
 ### Supported Platforms
 

@@ -14,13 +14,13 @@ Configuration settings are saved in configuration files or in the host system's 
 
 Configuration settings are detailed further in the following sections:
 
-- Server configuration, including connection to the database and end-user authentication. See the [Server Configuration](/docs/usercube/usercube/integration-guide/network-configuration/server-configuration/index.md) topic for additional information.
+- Server configuration, including connection to the database and end-user authentication. See the [Server Configuration](server-configuration/index.md) topic for additional information.
 - Agent configuration, including connection to the managed systems. See the [
   Agent Configuration
-  ](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/index.md) topic for additional information.
+  ](agent-configuration/index.md) topic for additional information.
 - Monitoring, indicating how to set up monitoring for Identity Manager. See the [
   Monitoring
-  ](/docs/usercube/usercube/integration-guide/monitoring/index.md)topic for additional information.
+  ](../monitoring/index.md)topic for additional information.
 
 ## Write Settings
 
@@ -30,9 +30,9 @@ How to write settings for the network configuration.
 
 Configuration setting values are organized by functionality into three sets:
 
-1. The Server's appsettings set gathers general-purpose settings for the Server (including database connection and end-user authentication). See the [Server Configuration](/docs/usercube/usercube/integration-guide/network-configuration/server-configuration/index.md) topic for additional information.
-2. The Agent's appsettings set gathers general-purpose settings for the Agent executable process. See the [Application Settings](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) topic for additional information.
-3. The appsettings.agent set gathers settings for the Agent's connection to the managed systems. See the [appsettings.agent](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) topic for additional information.
+1. The Server's appsettings set gathers general-purpose settings for the Server (including database connection and end-user authentication). See the [Server Configuration](server-configuration/index.md) topic for additional information.
+2. The Agent's appsettings set gathers general-purpose settings for the Agent executable process. See the [Application Settings](agent-configuration/appsettings/index.md) topic for additional information.
+3. The appsettings.agent set gathers settings for the Agent's connection to the managed systems. See the [appsettings.agent](agent-configuration/appsettings-agent/index.md) topic for additional information.
 
 Each set can be seen as a [tree-like structure](https://en.wikipedia.org/wiki/Tree_(data_structure)) where leaves are a name-value pair: the name of the setting and the value of the setting.
 
@@ -40,7 +40,7 @@ Within a Configuration Set Tree, settings are organized into meaningful sections
 
 This means that every setting value either belongs to the settings root node or to a section, itself belonging to a parent section.
 
-![tree like structure](/img/product_docs/usercube/usercube/integration-guide/network-configuration/tree-like-structure.webp)
+![tree like structure](../../../../../static/img/product_docs/usercube/usercube/integration-guide/network-configuration/tree-like-structure.webp)
 
 ### Configuration files
 
@@ -59,7 +59,7 @@ Relevant files for the Agent can be found in its working directory:
 
 Each setting file is organized into several sections as shown in the Sets, Sections and values diagram. See the [
 Architecture
-](/docs/usercube/usercube/integration-guide/architecture/index.md) topic for additional information.
+](../architecture/index.md) topic for additional information.
 
 Each section's name matches a top level attribute of the file's ```json``` object.
 
@@ -88,7 +88,7 @@ settings.example.json
 
 In Integrated-agent mode, agent configuration is written to the Server's ```appsettings.json``` file. See the [
 Overview
-](/docs/usercube/usercube/installation-guide/overview/index.md) topic for additional information.
+](../../installation-guide/overview/index.md) topic for additional information.
 
 #### Reminder
 
@@ -160,6 +160,6 @@ In the web.config file, an `<environmentVariable>` element in the node `<configu
 
 Configuration encompasses:
 
-- The Server configuration with a connection to the database and end-user authentication. See the [Server Configuration](/docs/usercube/usercube/integration-guide/network-configuration/server-configuration/index.md) topic for additional information.
-- The Agent configuration with a connection to the managed systems. See the [Agent Configuration](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/index.md)topic for additional information.
-- The Logger configuration. See the [Monitoring](/docs/usercube/usercube/integration-guide/monitoring/index.md)topic for additional information.
+- The Server configuration with a connection to the database and end-user authentication. See the [Server Configuration](server-configuration/index.md) topic for additional information.
+- The Agent configuration with a connection to the managed systems. See the [Agent Configuration](agent-configuration/index.md)topic for additional information.
+- The Logger configuration. See the [Monitoring](../monitoring/index.md)topic for additional information.

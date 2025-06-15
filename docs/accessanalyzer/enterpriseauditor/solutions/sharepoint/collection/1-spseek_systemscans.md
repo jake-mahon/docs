@@ -6,7 +6,7 @@ This job is responsible for building the Tier2 SPDLP database repositories, whic
 
 The 1-SPSEEK SystemScans Job uses the SharePoint Access Data Collector for the following query:
 
-![The query for the 1-SPSEEK SystemScans Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/collection/spseeksystemscansquery.webp)
+![The query for the 1-SPSEEK SystemScans Job](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/collection/spseeksystemscansquery.webp)
 
 The query for the 1-SPSEEK SystemScans Job is:
 
@@ -26,31 +26,31 @@ __Step 2 –__ In the Query Selection view, click __Query Properties__. The Quer
 
 __Step 3 –__ Select the __Data Source__ tab, and click __Configure__.
 
-![SharePoint Data Collection Settings](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/collection/datacollectionsettingsspseek.webp)
+![SharePoint Data Collection Settings](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/collection/datacollectionsettingsspseek.webp)
 
-__Step 4 –__ On the [SPAA: SharePoint Data Collection Settings](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/spaa/settings.md) page, customize as desired and click __Next__.
+__Step 4 –__ On the [SPAA: SharePoint Data Collection Settings](../../../admin/datacollector/spaa/settings.md) page, customize as desired and click __Next__.
 
-![Scan Scoping Options](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/spaa/scanscopingoptions.webp)
+![Scan Scoping Options](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/spaa/scanscopingoptions.webp)
 
-__Step 5 –__ On the [SPAA: Scan Scoping Options](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/spaa/scanscopingoptions.md) page, no web applications or site collections have been added. If desired, limit the scope of the scan to specific web applications or site collections. Click __Next__.
+__Step 5 –__ On the [SPAA: Scan Scoping Options](../../../admin/datacollector/spaa/scanscopingoptions.md) page, no web applications or site collections have been added. If desired, limit the scope of the scan to specific web applications or site collections. Click __Next__.
 
-![Additional Scoping](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/collection/additionalscopingspseek.webp)
+![Additional Scoping](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/collection/additionalscopingspseek.webp)
 
-__Step 6 –__ On the [SPAA: Additional Scoping](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/spaa/additionalscoping.md) page, __Limit scanned depth to:__ is selected with the default set at __2__ levels. Customize this setting as desired and click __Next__.
+__Step 6 –__ On the [SPAA: Additional Scoping](../../../admin/datacollector/spaa/additionalscoping.md) page, __Limit scanned depth to:__ is selected with the default set at __2__ levels. Customize this setting as desired and click __Next__.
 
-![Agent Settings](/img/product_docs/activitymonitor/activitymonitor/install/agent/windowsagent.webp)
+![Agent Settings](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/agent/windowsagent.webp)
 
-__Step 7 –__ On the [SPAA: Agent Settings](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/spaa/agentsettings.md) page, use the default settings unless an agent scan mode is desired. Click __Next__.
+__Step 7 –__ On the [SPAA: Agent Settings](../../../admin/datacollector/spaa/agentsettings.md) page, use the default settings unless an agent scan mode is desired. Click __Next__.
 
-![DLP Audit Settings](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/collection/dlpauditsettingsspseek.webp)
+![DLP Audit Settings](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/collection/dlpauditsettingsspseek.webp)
 
-__Step 8 –__ On the [SPAA: DLP Audit Settings](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/spaa/dlpauditsettings.md) page, the default setting is to __Don’t process files larger than: 2 MB__ and to __Scan typical documents (recommended, fastest)__. These settings can be customized to adjust for scan time or database size. Click __Next__.
+__Step 8 –__ On the [SPAA: DLP Audit Settings](../../../admin/datacollector/spaa/dlpauditsettings.md) page, the default setting is to __Don’t process files larger than: 2 MB__ and to __Scan typical documents (recommended, fastest)__. These settings can be customized to adjust for scan time or database size. Click __Next__.
 
 __NOTE:__ The typical documents for this setting are files with the following extensions: .doc, .docx, .msg, .odt, .pages, .rtf, .wpd, .wps, .abw, .bib, .dotx, .eml, .fb2, .fdx, .gdoc, .lit, .sig, .sty, .wps, .wpt, .yml, .tex, .pdf, .csv, .xlr, .xls, .xlsx, .gsheet, .nb, .numbers, .ods, .qpw, .sdc, .wks, .xlsb, .xltm, .xltx, .aws, .fods, .ots, .rdf, .sxc, .uos, .xlsm, .txt
 
-![Select DLP Criteria Page of the SPAA Data Collector Wizard](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/collection/selectdlpcriteriaspseek.webp)
+![Select DLP Criteria Page of the SPAA Data Collector Wizard](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/collection/selectdlpcriteriaspseek.webp)
 
-__Step 9 –__ On the [SPAA: Select DLP Criteria](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/spaa/selectdlpcriteria.md) page, add or remove criteria as desired by either manually selecting criteria or using the __Select All__ and __Clear All__ buttons. Click __Next__. _(Optional)_ To create custom criteria, see the [Sensitive Data Criteria Editor](/docs/accessanalyzer/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/overview.md) topic for additional information.
+__Step 9 –__ On the [SPAA: Select DLP Criteria](../../../admin/datacollector/spaa/selectdlpcriteria.md) page, add or remove criteria as desired by either manually selecting criteria or using the __Select All__ and __Clear All__ buttons. Click __Next__. _(Optional)_ To create custom criteria, see the [Sensitive Data Criteria Editor](../../../sensitivedatadiscovery/criteriaeditor/overview.md) topic for additional information.
 
 __CAUTION:__ Do not configure the options on the Results page.
 

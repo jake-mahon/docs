@@ -54,7 +54,7 @@ What do you want to do?
 6. Click __Add__. The __Add Design Category__ pane is displayed.
 7. Enter a name for the tab in the __Name__ box. The tab will be displayed on the object’s properties page with this name.
 8. In the __Visibility Level__ drop-down list, select a security role. The tab would be visible to users of this role and roles with a priority value higher than this role. The tab would not be visible to group
-   owners (for their respective groups) and user managers (for their direct reports) if they fall in a lower priority role. See [Priority](/docs/groupid/groupid/admincenter/securityrole/manage.md).
+   owners (for their respective groups) and user managers (for their direct reports) if they fall in a lower priority role. See [Priority](../../securityrole/manage.md).
 
    - Select _Never_ to hide the tab from all users.
    - Select _Manager and Owner_ to make the tab visible only to the owner (in case of a group) or manager (in case of a user or contact). It would be hidden from other users, such as group members or a user.
@@ -69,7 +69,7 @@ What do you want to do?
      - User managers cannot view it for their direct reports.
      - A role with the ‘Manage any profile’ permission in the identity store cannot view it for other users.
 9. In the __Access Level__ drop-down list, select a security role. Users of this role and roles with a priority value higher than it can add and update the values of fields on this tab. If group owners/user managers
-   fall in a lower priority role, they cannot update the fields on the tab for their respective groups/direct reports. See [Priority](/docs/groupid/groupid/admincenter/securityrole/manage.md).
+   fall in a lower priority role, they cannot update the fields on the tab for their respective groups/direct reports. See [Priority](../../securityrole/manage.md).
 
    - Select _Never_ to make the tab and its fields read-only for all users.
    - Select _Manager and Owner_ to enable the owner (in case of a group) or manager (in case of a user or contact) to specify or modify the value of the fields on the tab. It would be read-only for other users,
@@ -139,9 +139,9 @@ __To update a tab:__
    Updating the field in the portal is akin to updating the value of this attribute.
 9. In the __Display Name__ box, enter a display name for the field. This name is the field’s label on the tab.
 10. In the __Display Type__ drop-down list, select the display type to use for rendering this field on the tab.  
-    The list contains basic display types and custom display types defined on the __Custom Display Types__ page. See the [Display Type Categories](/docs/groupid/groupid/admincenter/portal/displaytype/categories.md) topic.
+    The list contains basic display types and custom display types defined on the __Custom Display Types__ page. See the [Display Type Categories](../displaytype/categories.md) topic.
 11. In the __Visibility Level__ drop-down list, select a security role. The tab would be visible to users of this role and roles with a priority value higher than this role. It would not be visible to group owners
-    (for their respective groups) and user managers (for their direct reports) if they fall under a lower priority role. See [Priority](/docs/groupid/groupid/admincenter/securityrole/manage.md).
+    (for their respective groups) and user managers (for their direct reports) if they fall under a lower priority role. See [Priority](../../securityrole/manage.md).
 
     - Select _Never_ to hide the field from all users.
     - Select _Manager and Owner_ to make the field visible only to the owner (in case of a group) or manager (in case of a user or contact). It would be hidden from other users, such as group members or a user.
@@ -158,7 +158,7 @@ __To update a tab:__
       - User managers cannot view it for their direct reports.
       - A role with the ‘Manage any profile’ permission in the identity store cannot view it for other users.
 12. In the __Access Level__ drop-down list, select a security role. Users of this role and roles with a priority value higher than this role can add and update the value of this field. If group owners/user managers
-    fall in a lower priority role, they cannot able to update the value of the field for their respective groups/direct reports. See [Priority](/docs/groupid/groupid/admincenter/securityrole/manage.md).
+    fall in a lower priority role, they cannot able to update the value of the field for their respective groups/direct reports. See [Priority](../../securityrole/manage.md).
 
     - Select _Never_ to make this field read-only for all users.
     - Select _Manager and Owner_ to enable only the owner (in case of a group) or manager (in case of a user or contact) to specify or modify the value of this field. It would be read-only for other users, such
@@ -195,7 +195,7 @@ __To update a tab:__
 18. Select the __Is Required__ check box to make it mandatory for users to provide a value for the field.
 19. Select the __Is Read Only__ check box to make the field read-only.
 20. Select the __Filter Bad Words__ check box to ensure that users do not enter any bad word in this field.  
-    A value entered for the field is checked against the words listed on the __Bad Words List__ page. Matched values cannot be saved. See the [Manage the Bad Words List](/docs/groupid/groupid/admincenter/portal/design/badwords.md) topic.
+    A value entered for the field is checked against the words listed on the __Bad Words List__ page. Matched values cannot be saved. See the [Manage the Bad Words List](badwords.md) topic.
 21. The __Image Attribute__ list is available when ‘DN’ is selected as the display type. This list supports ‘thumbnailPhoto’ as its value.
 
     - Select the ‘thumbnailPhoto’ attribute in the __Image Attribute__ drop-down list when you want to auto upload an image for the field. Let’s assume you apply this setting for the Primary Manager field in group
@@ -272,4 +272,4 @@ __To update a field:__
 
 See Also
 
-- [Design a Portal with Display Types](/docs/groupid/groupid/admincenter/portal/displaytype/overview.md)
+- [Design a Portal with Display Types](../displaytype/overview.md)

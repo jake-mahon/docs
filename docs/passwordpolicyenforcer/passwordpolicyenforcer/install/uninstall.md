@@ -4,7 +4,7 @@ Follow the steps to uninstall Password Policy Enforcer.
 
 You can uninstall Password Policy Enforcer on every domain server and computer, or use Group Policy Management to remove the PPE Server and PPE Client on all machines.
 
-You can also install/uninstall the products using command line [Silent Installation](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/command_line_interface.md#silent-installation).
+You can also install/uninstall the products using command line [Silent Installation](../administration/command_line_interface.md#silent-installation).
 
 __Step 1 –__ Open __Start__ > __Control Panel__ > __Programs and Features__ on each system where a PPE component is installed.
 

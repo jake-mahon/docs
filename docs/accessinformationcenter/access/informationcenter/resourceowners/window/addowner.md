@@ -1,13 +1,13 @@
 # Add Owner Window
 
-The Add Owner window opens from either the [Add New Resource Wizard](/docs/accessinformationcenter/access/informationcenter/resourceowners/wizard/add.md) or the [Update Resource Wizard](/docs/accessinformationcenter/access/informationcenter/resourceowners/wizard/update.md). Choose between:
+The Add Owner window opens from either the [Add New Resource Wizard](../wizard/add.md) or the [Update Resource Wizard](../wizard/update.md). Choose between:
 
 - Select a Probable Owner — Select from a calculated list of probable owners
 - Search for Owner — Browsing Active Directory for a user account
 
 ## Select a Probable Owner
 
-![Add Owner window showing Probable Owner option](/img/product_docs/accessinformationcenter/access/informationcenter/resourceowners/window/addownerprobable.webp)
+![Add Owner window showing Probable Owner option](../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceowners/window/addownerprobable.webp)
 
 Probable owners are calculated from the available data:
 
@@ -27,6 +27,6 @@ Select the desired owner from the list and click __OK__. The Add Owner window cl
 
 ## Search for Owner
 
-![Add Owner window showing Search option](/img/product_docs/accessinformationcenter/access/informationcenter/resourceowners/window/addownersearch.webp)
+![Add Owner window showing Search option](../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceowners/window/addownersearch.webp)
 
 Enter a name in the search field to find and select users from Active Directory, which populates in a drop-down menu as you type. If multiple domains are known to the application, ensure the correct domain is selected from the drop-down menu. Click __OK__ and the Add Owner window closes. The selected user appears in the Owner list.

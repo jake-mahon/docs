@@ -36,7 +36,7 @@ __Step 3 –__ In MSP.xml, provide the following:
 
 For example:
 
-![msp](/img/product_docs/auditor/auditor/admin/settings/msp.webp)
+![msp](../../../../../static/img/product_docs/auditor/auditor/admin/settings/msp.webp)
 
 __NOTE:__ MSP.xml file must be formatted in accordance with XML standard. If company name (used as identifier) or service account path includes & (ampersand), " (double quotes) or ' (single quotes), < (less than), > (greater than) symbols, they must be replaced with corresponding HTML entities.
 

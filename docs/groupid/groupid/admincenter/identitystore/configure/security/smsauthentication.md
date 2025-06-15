@@ -3,7 +3,7 @@
 To enable users to enroll and authenticate their identity store accounts using SMS, you must make sure that an SMS gateway account is linked with the identity store. Using this gateway account, Directory Manager sends confirmation codes to the users' mobile
 phone numbers for verification.
 
-See the [Manage SMS Gateway Accounts](/docs/groupid/groupid/admincenter/smsgateway/manage.md) topic for creating and managing SMS gateway accounts.
+See the [Manage SMS Gateway Accounts](../../../smsgateway/manage.md) topic for creating and managing SMS gateway accounts.
 
 What do you want to do?
 
@@ -15,7 +15,7 @@ What do you want to do?
 
 The SMS authentication type must be enabled for an identity store before users can use it for second factor authentication and multi-factor authentication.
 
-To enable it, see the [Enable Authentication Types](/docs/groupid/groupid/admincenter/identitystore/configure/authtypes.md) topic.
+To enable it, see the [Enable Authentication Types](../authtypes.md) topic.
 
 ## Link an SMS Gateway Account to an Identity Store
 
@@ -29,11 +29,11 @@ To enable it, see the [Enable Authentication Types](/docs/groupid/groupid/adminc
 
 ## Enforce SMS Authentication for a Security Role
 
-To enforce an authentication type, see the [Authentication Policy for Security Roles](/docs/groupid/groupid/admincenter/securityrole/policy/authentication.md) topic.
+To enforce an authentication type, see the [Authentication Policy for Security Roles](../../../securityrole/policy/authentication.md) topic.
 
 Role members must use an enforced authentication type for multifactor authentication. When an authentication type is enabled but not enforced, role members can choose to use it for enrollment and authentication.
 
 __See Also__
 
-- [Authentication Policy](/docs/groupid/groupid/admincenter/identitystore/configure/authpolicy.md)
-- [Manage SMS Gateway Accounts](/docs/groupid/groupid/admincenter/smsgateway/manage.md)
+- [Authentication Policy](../authpolicy.md)
+- [Manage SMS Gateway Accounts](../../../smsgateway/manage.md)

@@ -1,6 +1,6 @@
 ## Internet Explorer in Edge Mode
 
-__NOTE:__ To get an overview of Endpoint Policy Manager Browser Router and Internet Explorer in Edge Mode, please see: [Endpoint Policy Manager Browser Router: Internet Explorer in Edge mode](/docs/policypak/policypak/video/browserrouter/ieedgemode.md).
+__NOTE:__ To get an overview of Endpoint Policy Manager Browser Router and Internet Explorer in Edge Mode, please see: [Endpoint Policy Manager Browser Router: Internet Explorer in Edge mode](../../video/browserrouter/ieedgemode.md).
 
 If you want to stay with a Microsoft browser, you want your user to use Edge rather than IE. But some intranet sites don't support Edge, so you are forced to use IE. However, instead of forcing users to open a dedicated IE session for these sites, you can use Endpoint Policy Manager Browser Router to enforce IE in Edge for any site of your choosing. In other words, it tucks IE tabs into the Edge browser.
 
@@ -8,47 +8,47 @@ __CAUTION:__ Be aware that this is only guaranteed to work in the 2004 version o
 
 Create a rule for [www.policypak.com](http://www.policypak.com/video/policypak-browser-router-and-ports.html) and assign it to IE. This time select __Open as IE in Edge tab__ .
 
-![about_policypak_browser_router_29](/img/product_docs/policypak/policypak/browserrouter/internetexplorer/about_policypak_browser_router_29.webp)
+![about_policypak_browser_router_29](../../../../../static/img/product_docs/policypak/policypak/browserrouter/internetexplorer/about_policypak_browser_router_29.webp)
 
 When the user logs on and tries to access [www.policypak.com](http://www.policypak.com/) they should see it open as an IE tab in Edge. We say should because the rule will not work right away. There is a detail called the 65 second rule, which you can read more about here [https://docs.microsoft.com/en-us/microsoft-edge/deploy/emie-to-improve-compatibility](http://www.policypak.com/video/policypak-troubleshooting-with-admx-files.html). From the first time a user accesses [www.policypak.com](http://www.policypak.com/knowledge-base/browser-router-troubleshooting/how-to-quickly-troubleshoot-policypak-browser-router.html), a period of 65 seconds or so has to transpire until the rule comes fully into effect. Here you can see that the Endpoint Policy Manager website now appears in IE mode within the Edge browser itself:
 
-![about_policypak_browser_router_30](/img/product_docs/policypak/policypak/browserrouter/internetexplorer/about_policypak_browser_router_30.webp)
+![about_policypak_browser_router_30](../../../../../static/img/product_docs/policypak/policypak/browserrouter/internetexplorer/about_policypak_browser_router_30.webp)
 
 ### Converting Existing IE Site List XMLs
 
-__NOTE:__ To get an overview on how to convert existing IE site lists, please see [Internet Explorer to Endpoint Policy Manager Browser Router Site lists](/docs/policypak/policypak/video/browserrouter/iesitelists.md).
+__NOTE:__ To get an overview on how to convert existing IE site lists, please see [Internet Explorer to Endpoint Policy Manager Browser Router Site lists](../../video/browserrouter/iesitelists.md).
 
 See how you can take a Microsoft Enterprise Mode Internet Explorer site list and quickly convert it to be used in Endpoint Policy Manager Browser Router. This saves you the time and trouble of converting all of the list information by hand.
 
 First, you need an Enterprise Mode site list. If you don't have an existing site list already, Microsoft has a tool you can use to create these lists that you can download at [https://www.microsoft.com/en-us/download/details.aspx?id=49974](https://www.microsoft.com/en-us/download/details.aspx?id=49974). Simply run the tool and add the sites along with their necessary parameters.
 
-![about_policypak_browser_router_31](/img/product_docs/policypak/policypak/browserrouter/internetexplorer/about_policypak_browser_router_31.webp)
+![about_policypak_browser_router_31](../../../../../static/img/product_docs/policypak/policypak/browserrouter/internetexplorer/about_policypak_browser_router_31.webp)
 
 When this is complete, save the list as an XML file. Once you have a list, create a __From Enterprise Mode Site List__ rule using Endpoint Policy Manager Browser Router.
 
-![about_policypak_browser_router_32](/img/product_docs/policypak/policypak/browserrouter/internetexplorer/about_policypak_browser_router_32.webp)
+![about_policypak_browser_router_32](../../../../../static/img/product_docs/policypak/policypak/browserrouter/internetexplorer/about_policypak_browser_router_32.webp)
 
 You are then prompted to point to the created list. Once selected, a pop-up confirms the number of rules being imported. You can choose to import the rules into the existing collection or a new collection.
 
-![about_policypak_browser_router_33](/img/product_docs/policypak/policypak/browserrouter/internetexplorer/about_policypak_browser_router_33.webp)
+![about_policypak_browser_router_33](../../../../../static/img/product_docs/policypak/policypak/browserrouter/internetexplorer/about_policypak_browser_router_33.webp)
 
 The imported rules now appear.
 
-![about_policypak_browser_router_34](/img/product_docs/policypak/policypak/browserrouter/internetexplorer/about_policypak_browser_router_34.webp)
+![about_policypak_browser_router_34](../../../../../static/img/product_docs/policypak/policypak/browserrouter/internetexplorer/about_policypak_browser_router_34.webp)
 
 You can review any of the rules to confirm or change their settings.
 
-![about_policypak_browser_router_35](/img/product_docs/policypak/policypak/browserrouter/internetexplorer/about_policypak_browser_router_35.webp)
+![about_policypak_browser_router_35](../../../../../static/img/product_docs/policypak/policypak/browserrouter/internetexplorer/about_policypak_browser_router_35.webp)
 
 ### Using Special Policy Types for Internet Explorer
 
 There are two special policies that may be used only once per collection . These policies manage how the Windows 10 Edge browser functions alongside Internet Explorer 11.
 
-__NOTE:__ To get an overview of Endpoint Policy Manager Browser Router's special policies for Microsoft Edge, please see [Endpoint Policy Manager and Edge ‘Special' policies](/docs/policypak/policypak/video/browserrouter/edgespecial.md).
+__NOTE:__ To get an overview of Endpoint Policy Manager Browser Router's special policies for Microsoft Edge, please see [Endpoint Policy Manager and Edge ‘Special' policies](../../video/browserrouter/edgespecial.md).
 
 The policies are __All intranet to IE__ policy and __All Enterprise from Edge to I__E policy.
 
-![about_policypak_browser_router_36](/img/product_docs/policypak/policypak/browserrouter/internetexplorer/about_policypak_browser_router_36.webp)
+![about_policypak_browser_router_36](../../../../../static/img/product_docs/policypak/policypak/browserrouter/internetexplorer/about_policypak_browser_router_36.webp)
 
 The __All intranet to IE__ policy will take all websites that are already defined in the Intranet zone and ensure that those sites open in Internet Explorer 11 whenever the user tries to use Microsoft Edge. In other words, once this policy is applied, if a user opens an Intranet site using Edge, it is automatically routed to Internet Explorer 11.
 

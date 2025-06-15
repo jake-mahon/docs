@@ -9,7 +9,7 @@ To add a new clue, go to the topmost row in the list and specify clue properties
 
 When ready, click __Insert__ on the right.
 
-![doccounts_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/taxonomies/doccounts_thumb_0_0.webp)
+![doccounts_thumb_0_0](../../../../../static/img/product_docs/dataclassification/ndc/admin/taxonomies/doccounts_thumb_0_0.webp)
 
 ## Clue Body
 
@@ -42,7 +42,7 @@ Example: A class called _Global Warming_ may have the following clues:
 - CO2 Emissions
 - Pollution
 
-![clueterminfo](/img/product_docs/dataclassification/ndc/admin/taxonomies/clueterminfo.webp)
+![clueterminfo](../../../../../static/img/product_docs/dataclassification/ndc/admin/taxonomies/clueterminfo.webp)
 
 To disable stemming, use double quotes around single words.
 
@@ -73,7 +73,7 @@ You can use the Mandatory checkbox to indicate that a clue is required, i.e. a d
 
 The mandatory clue selector is denoted by the \* icon:
 
-![mandatoryclue](/img/product_docs/dataclassification/ndc/admin/taxonomies/mandatoryclue.webp)
+![mandatoryclue](../../../../../static/img/product_docs/dataclassification/ndc/admin/taxonomies/mandatoryclue.webp)
 
 ## Using the Local Option
 
@@ -81,7 +81,7 @@ In some cases, a further option will be available per clue: “__Is Local?__”.
 
 __NOTE:__ This option is only available for reused terms (SharePoint Term Sets).
 
-![localclue](/img/product_docs/dataclassification/ndc/admin/taxonomies/localclue.webp)
+![localclue](../../../../../static/img/product_docs/dataclassification/ndc/admin/taxonomies/localclue.webp)
 
 - Once this option is selected, it will not be possible to amend the clue from any other Term Set that contains the re-used Term.
 - If you want to share the Term across all Term Sets again, clear the option from the Term Set in which it was originally enabled.

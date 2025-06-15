@@ -8,21 +8,21 @@ Identity Manager's simulations gather roles and rules which are to be created, m
 
 - [
   Resource Correlation Rule
-  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcecorrelationrule/index.md) and [
+  ](../toolkit/xml-configuration/provisioning/resourcecorrelationrule/index.md) and [
   Resource Classification Rule
-  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourceclassificationrule/index.md);
+  ](../toolkit/xml-configuration/provisioning/resourceclassificationrule/index.md);
 - Scalar rules and navigation rules;
-- [Resource Type](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md) rules;
+- [Resource Type](../toolkit/xml-configuration/provisioning/resourcetype/index.md) rules;
 - [
   Single Role
-  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md) and [
+  ](../toolkit/xml-configuration/provisioning/singlerole/index.md) and [
   Composite Role
-  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/compositerole/index.md);
-- [Single Role Rule](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerolerule/index.md)and [Composite Role Rule](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/compositerolerule/index.md).
+  ](../toolkit/xml-configuration/provisioning/compositerole/index.md);
+- [Single Role Rule](../toolkit/xml-configuration/provisioning/singlerolerule/index.md)and [Composite Role Rule](../toolkit/xml-configuration/provisioning/compositerolerule/index.md).
 
 A simulation can also be created by the role mining tool for the automation of role assignments. See the [
 Perform Role Mining
-](/docs/usercube_saas/usercube/user-guide/optimize/assignment-automation/role-mining/index.md) topic for additional information.
+](../../user-guide/optimize/assignment-automation/role-mining/index.md) topic for additional information.
 
 Through simulation, integrators can:
 
@@ -38,4 +38,4 @@ Netwrix Identity Manager (formerly Usercube) recommends using simulation wheneve
 
 See the [
 Perform a Simulation
-](/docs/usercube_saas/usercube/user-guide/optimize/simulation/index.md) for additional information.
+](../../user-guide/optimize/simulation/index.md) for additional information.

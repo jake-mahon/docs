@@ -21,7 +21,7 @@ The .Active Directory Inventory Solution is designed to provide essential user, 
 
 This is a core solution available to all Access Analyzer users.
 
-See the [.Active Directory Inventory Solution](/docs/accessanalyzer/enterpriseauditor/solutions/activedirectoryinventory/overview.md) topic for additional information.
+See the [.Active Directory Inventory Solution](solutions/activedirectoryinventory/overview.md) topic for additional information.
 
 ### .Entra ID Inventory Solution
 
@@ -31,7 +31,7 @@ This solution also provides information on Microsoft Entra roles. This includes 
 
 This is a core solution available to all Access Analyzer users.
 
-See the [.Entra ID Inventory Solution](/docs/accessanalyzer/enterpriseauditor/solutions/entraidinventory/overview.md) topic for additional information.
+See the [.Entra ID Inventory Solution](solutions/entraidinventory/overview.md) topic for additional information.
 
 ### .NIS Inventory Solution
 
@@ -39,37 +39,37 @@ The .NIS Inventory Solution is designed to provide essential user and group memb
 
 This is a core solution available to all Access Analyzer users.
 
-See the [.NIS Inventory Solution](/docs/accessanalyzer/enterpriseauditor/solutions/nisinventory/overview.md) topic for additional information.
+See the [.NIS Inventory Solution](solutions/nisinventory/overview.md) topic for additional information.
 
 ### Active Directory Solution
 
 The Active Directory Solution is designed to provide the information every administrator needs regarding Active Directory configuration, operational management, troubleshooting, analyzing effective permissions, and tracking who is making what changes within your organization.
 
-See the [Active Directory Solution](/docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/overview.md) topic for additional information.
+See the [Active Directory Solution](solutions/activedirectory/overview.md) topic for additional information.
 
 ### Active Directory Permissions Analyzer Solution
 
 The Active Directory Permissions Analyzer Solution is designed to easily and automatically determine effective permissions applied to any and all Active Directory objects, at any scope, allowing for the most authoritative view available of who has access to what in Active Directory.
 
-See the [Active Directory Permissions Analyzer Solution](/docs/accessanalyzer/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/overview.md) topic for additional information.
+See the [Active Directory Permissions Analyzer Solution](solutions/activedirectorypermissionsanalyzer/overview.md) topic for additional information.
 
 ### Amazon Web Services Solution
 
 Access Analyzer for AWS allows organizations to secure their data residing in Amazon Web Services (AWS) S3 platform, reducing their risk exposure through proactive, automated auditing and reporting of S3 permissions, sensitive data, and ultimately a consolidated view of user access rights across dozens of structured and unstructured data resources both on-premises and in the cloud.
 
-See the [AWS Solution](/docs/accessanalyzer/enterpriseauditor/solutions/aws/overview.md) topic for additional information.
+See the [AWS Solution](solutions/aws/overview.md) topic for additional information.
 
 ### Entra ID Solution
 
 The Entra ID Solution is a comprehensive set of audit jobs and reports that provide the information regarding Microsoft Entra ID configuration, operational management, and troubleshooting. The jobs within this group help pinpoint potential areas of administrative and security concerns related to Microsoft Entra ID users and groups, including syncing with on-premises Active Directory.
 
-See the [Entra ID Solution](/docs/accessanalyzer/enterpriseauditor/solutions/entraid/overview.md) topic for additional information.
+See the [Entra ID Solution](solutions/entraid/overview.md) topic for additional information.
 
 ### Box Solution
 
 The Box solution set contains jobs to provide visibility into Box access rights, policies, configurations, activities, and more, ensuring you never lose sight or control of your critical assets residing in Box.
 
-See the [Box Solution](/docs/accessanalyzer/enterpriseauditor/solutions/box/overview.md) topic for additional information.
+See the [Box Solution](solutions/box/overview.md) topic for additional information.
 
 ### Databases Solutions
 
@@ -85,13 +85,13 @@ Access Analyzer Databases Solution Set is a comprehensive set of pre-configured 
 - Redshift – Access Analyzer Redshift Solution Set is a set of pre-configured audit jobs and reports that provides visibility into Redshift Sensitive Data.
 - SQL Solution – The SQL Solution is an auditing, compliance, and governance solution for Microsoft SQL Server database. Key capabilities include effective access calculation, sensitive data discovery, security configuration assessment, and database activity monitoring.
 
-See the [Databases Solutions](/docs/accessanalyzer/enterpriseauditor/solutions/databases/overview.md) topic for additional information.
+See the [Databases Solutions](solutions/databases/overview.md) topic for additional information.
 
 ### Dropbox Solution
 
 The Dropbox Solution is an auditing, compliance, and governance solution for Dropbox for Business. Key capabilities include effective access calculation, sensitive data discovery, file content inspection, inactive access and stale data identification, and entitlement collection for integration with Identity & Access Management (IAM) processes.
 
-See the [Dropbox Solution](/docs/accessanalyzer/enterpriseauditor/solutions/dropbox/overview.md) topic for additional information.
+See the [Dropbox Solution](solutions/dropbox/overview.md) topic for additional information.
 
 __NOTE:__ Sensitive data auditing requires the Sensitive Data Discovery Add-on.
 
@@ -99,7 +99,7 @@ __NOTE:__ Sensitive data auditing requires the Sensitive Data Discovery Add-on.
 
 The Exchange Solution provides auditing and reporting on multiple aspects of the Exchange environment to assist with identifying risk, understanding usage, and decreasing bloat. Areas of focus include Audit and Compliance, Maintenance and Cleanup, Metrics and Capacity, Operations and Health, Public Folders and Configuration Baseline.
 
-See the [Exchange Solution](/docs/accessanalyzer/enterpriseauditor/solutions/exchange/overview.md) topic for additional information.
+See the [Exchange Solution](solutions/exchange/overview.md) topic for additional information.
 
 __NOTE:__ Sensitive data auditing requires the Sensitive Data Discovery Add-on.
 
@@ -107,7 +107,7 @@ __NOTE:__ Sensitive data auditing requires the Sensitive Data Discovery Add-on.
 
 The File Systems Solution is an auditing, compliance, and governance solution for Windows, NAS, Unix, and Linux file systems. Key capabilities include effective access calculation, data owner identification, governance workflows including entitlement reviews and self-service access requests, sensitive data discovery and classification, open access remediation, least-privilege access transformation, and file activity monitoring.
 
-See the [File System Solution](/docs/accessanalyzer/enterpriseauditor/solutions/filesystem/overview.md) topic for additional information.
+See the [File System Solution](solutions/filesystem/overview.md) topic for additional information.
 
 __NOTE:__ Activity auditing requires the Activity Monitor. Sensitive data auditing requires the Sensitive Data Discovery Add-on.
 
@@ -115,7 +115,7 @@ __NOTE:__ Activity auditing requires the Activity Monitor. Sensitive data auditi
 
 The SharePoint Solution is a comprehensive set of audit jobs and reports which provide the information every administrator needs regarding SharePoint on-premises and SharePoint Online infrastructure, configuration, performance, permissions, required ports, and effective rights.
 
-See the [SharePoint Solution](/docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/overview.md) topic for additional information.
+See the [SharePoint Solution](solutions/sharepoint/overview.md) topic for additional information.
 
 __NOTE:__ Sensitive data auditing requires the Sensitive Data Discovery Add-on.
 
@@ -123,10 +123,10 @@ __NOTE:__ Sensitive data auditing requires the Sensitive Data Discovery Add-on.
 
 The Unix Solution reports on areas of administrative concern for Unix and Linux systems. Attention is given to users and group details, privileged access rights, and NFS and Samba sharing configurations.
 
-See the [Unix Solution](/docs/accessanalyzer/enterpriseauditor/solutions/unix/overview.md) topic for additional information.
+See the [Unix Solution](solutions/unix/overview.md) topic for additional information.
 
 ### Windows Solution
 
 The Windows Solution allows organizations to quickly inventory, assess, and secure their Windows desktop and server infrastructure from a central location. Key capabilities include privileged account discovery, security configuration and vulnerability assessment, compliance reporting, and asset inventory.
 
-See the [Windows Solution](/docs/accessanalyzer/enterpriseauditor/solutions/windows/overview.md) topic for additional information.
+See the [Windows Solution](solutions/windows/overview.md) topic for additional information.

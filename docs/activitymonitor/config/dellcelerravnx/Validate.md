@@ -4,7 +4,7 @@ Once the Activity Monitor agent is configured to monitor the Dell device, the au
 
 ## Validate Dell CEE Registry Key Settings
 
-__NOTE:__ See the [Configure Dell Registry Key Settings](/docs/activitymonitor/config/dellunity/InstallCEE.md#configure-dell-registry-key-settings) topic for information on manually setting the registry key.
+__NOTE:__ See the [Configure Dell Registry Key Settings](../dellunity/InstallCEE.md#configure-dell-registry-key-settings) topic for information on manually setting the registry key.
 
 After the Activity Monitor activity agent has been configured to monitor the Dell device, it will configure the Dell CEE automatically if it is installed on the same server as the agent. This needs to be set manually in the rare situations where it is necessary for the Dell CEE to be installed on a different server than the Windows proxy server(s) where the Activity Monitor activity agent is deployed.
 
@@ -14,7 +14,7 @@ __Step 1 –__ Navigate to the following windows registry key:
 
 HKEY_LOCAL_MACHINE\SOFTWARE\EMC\CEE\CEPP\Audit\Configuration
 
-![registryeditorendpoint](/img/product_docs/activitymonitor/config/dellunity/registryeditorendpoint.webp)
+![registryeditorendpoint](../../../../static/img/product_docs/activitymonitor/config/dellunity/registryeditorendpoint.webp)
 
 __Step 2 –__ Ensure that the Enabled parameter is set to 1.
 
@@ -60,7 +60,7 @@ If this is configured correctly, validate that the Dell CEE services are running
 
 After the Activity Monitor Activity Agent has been configured to monitor the Dell device, the Dell CEE services should be running. If the Activity Agent is not registering events and the EndPoint is set accurately, validate that the Dell CEE services are running. Open the Services (run ```services.msc```).
 
-![services](/img/product_docs/activitymonitor/config/dellpowerstore/services.webp)
+![services](../../../../static/img/product_docs/activitymonitor/config/dellpowerstore/services.webp)
 
 The following services laid down by the Dell CEE installer should have Running as their status:
 

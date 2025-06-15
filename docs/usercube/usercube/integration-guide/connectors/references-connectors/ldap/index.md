@@ -6,24 +6,24 @@ This page is about:
 
 - [
   Generic LDAP
-  ](/docs/usercube/usercube/integration-guide/connectors/references-packages/generic-ldap/index.md);
+  ](../../references-packages/generic-ldap/index.md);
 - [
   Oracle LDAP
-  ](/docs/usercube/usercube/integration-guide/connectors/references-packages/oracle-ldap/index.md);
+  ](../../references-packages/oracle-ldap/index.md);
 - [
   Apache Directory
-  ](/docs/usercube/usercube/integration-guide/connectors/references-packages/apache-directory/index.md);
+  ](../../references-packages/apache-directory/index.md);
 - [
   Red Hat Directory Server
-  ](/docs/usercube/usercube/integration-guide/connectors/references-packages/red-hat-directory-server/index.md).
+  ](../../references-packages/red-hat-directory-server/index.md).
 
-![Package: Directory/Generic LDAP](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/ldap/packages_ldapgeneric_v603.webp)
+![Package: Directory/Generic LDAP](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/ldap/packages_ldapgeneric_v603.webp)
 
-![Package: Directory/Oracle LDAP](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/ldap/packages_ldaporacle_v603.webp)
+![Package: Directory/Oracle LDAP](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/ldap/packages_ldaporacle_v603.webp)
 
-![Package: Directory/Apache Directory](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/ldap/packages_ldapapache_v603.webp)
+![Package: Directory/Apache Directory](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/ldap/packages_ldapapache_v603.webp)
 
-![Package: Directory/Red Hat Directory Server](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/ldap/packages_ldapredhat_v603.webp)
+![Package: Directory/Red Hat Directory Server](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/ldap/packages_ldapredhat_v603.webp)
 
 ## Overview
 
@@ -31,7 +31,7 @@ The Lightweight Directory Access Protocol (LDAP) is a flexible and well supporte
 
 ## Prerequisites
 
-Implementing this connector requires reading first the [appsettings.agent](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)documentation.
+Implementing this connector requires reading first the [appsettings.agent](../../../network-configuration/agent-configuration/appsettings-agent/index.md)documentation.
 
 ## Export
 
@@ -41,7 +41,7 @@ For a configured set of LDAP entries, this connector exports the list of all att
 
 This process is configured through a [
 Connection
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or the XML configuration, and in the ```appsettings.agent.json > Connections``` section:
+](../../../toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or the XML configuration, and in the ```appsettings.agent.json > Connections``` section:
 
 ```
 appsettings.agent.json
@@ -149,11 +149,11 @@ The identifier of the connection and thus the name of the subsection must:
 
 This connector is meant to generate to the [
 Connection
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) folder one file per element in __Tables__, named ```<connectionIdentifier>_<tableName>.csv```, with one column for each property having a ```ConnectionColumn``` and each property without it but used in an entity association.
+](../../../toolkit/xml-configuration/connectors/connection/index.md) folder one file per element in __Tables__, named ```<connectionIdentifier>_<tableName>.csv```, with one column for each property having a ```ConnectionColumn``` and each property without it but used in an entity association.
 
 Any property can be exported in a specific format when specified. See the [
 References: Format for the EntityPropertyMapping
-](/docs/usercube/usercube/integration-guide/connectors/entitypropertymapping-format/index.md) topic for additional information.
+](../../entitypropertymapping-format/index.md) topic for additional information.
 
 > With the previous example and the following entity type mapping:
 >
@@ -183,7 +183,7 @@ References: Format for the EntityPropertyMapping
 
 ## Fulfill
 
-The LDAP connector fulfills the creation, deletion and update of LDAP entries, initiated through the Identity Manager UI or by [Evaluate Policy](/docs/usercube/usercube/integration-guide/role-assignment/evaluate-policy/index.md) enforcement.
+The LDAP connector fulfills the creation, deletion and update of LDAP entries, initiated through the Identity Manager UI or by [Evaluate Policy](../../../role-assignment/evaluate-policy/index.md) enforcement.
 
 ### Configuration
 
@@ -268,7 +268,7 @@ If these attributes are not synchronized in Identity Manager, then they cannot b
 
 ### Password reset
 
-See the [appsettings.agent](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) topic to learn how to configure password reset settings.
+See the [appsettings.agent](../../../network-configuration/agent-configuration/appsettings-agent/index.md) topic to learn how to configure password reset settings.
 
 ### Credential protection
 
@@ -276,11 +276,11 @@ Data protection can be ensured through:
 
 - [
   Connection
-  ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md), configured in the ```appsettings.encrypted.agent.json``` file;
+  ](../../../toolkit/xml-configuration/connectors/connection/index.md), configured in the ```appsettings.encrypted.agent.json``` file;
 - An [
   Connection
-  ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) safe;
+  ](../../../toolkit/xml-configuration/connectors/connection/index.md) safe;
 
 - a [
   Connection
-  ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) able to store LDAP's ```Login```, ```Password``` and ```Server```.
+  ](../../../toolkit/xml-configuration/connectors/connection/index.md) able to store LDAP's ```Login```, ```Password``` and ```Server```.

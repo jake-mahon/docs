@@ -36,8 +36,8 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 
 | Property | Type | Description |
 | --- | --- | --- |
-| B0   optional | Int64 | Represents the first dimension binding definition. The 127 other dimension bindings can be referred to by 127 more parameters from B1 to B3V following the base32hex convention. See the [ Base32 Parameter Names ](/docs/usercube/usercube/integration-guide/toolkit/parameter-names/index.md) topic for additional information. |
+| B0   optional | Int64 | Represents the first dimension binding definition. The 127 other dimension bindings can be referred to by 127 more parameters from B1 to B3V following the base32hex convention. See the [ Base32 Parameter Names ](../../../parameter-names/index.md) topic for additional information. |
 | IsDenied   default value: false | Boolean | Profile denied to the user when matched. |
 | Profile   required | Int64 | Identifier of the profile rule. |
-| RootExpression   optional | String | C# expression to apply on the source entity type of the context resource type. See the [Expressions](/docs/usercube/usercube/integration-guide/toolkit/expressions/index.md) topic for additional information. |
-| SubExpression   optional | String | C# expression to apply on the target entity type of the context resource type. See the [Expressions](/docs/usercube/usercube/integration-guide/toolkit/expressions/index.md) topic for additional information. |
+| RootExpression   optional | String | C# expression to apply on the source entity type of the context resource type. See the [Expressions](../../../expressions/index.md) topic for additional information. |
+| SubExpression   optional | String | C# expression to apply on the target entity type of the context resource type. See the [Expressions](../../../expressions/index.md) topic for additional information. |

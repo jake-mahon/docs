@@ -2,7 +2,7 @@
 
 How to automate the review of non-conforming assignments through automation rules. See the [
 Review Non-conforming Assignments
-](/docs/usercube_saas/usercube/user-guide/administrate/non-conforming-assignment-review/index.md) and [Automation Rule](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/automationrule/index.md) topics for additional information.
+](../../administrate/non-conforming-assignment-review/index.md) and [Automation Rule](../../../integration-guide/toolkit/xml-configuration/provisioning/automationrule/index.md) topics for additional information.
 
 ## Overview
 
@@ -27,27 +27,27 @@ This operation should be performed in cooperation with managers who know the org
 
 See the [
 Review Non-conforming Assignments
-](/docs/usercube_saas/usercube/user-guide/administrate/non-conforming-assignment-review/index.md) and [
+](../../administrate/non-conforming-assignment-review/index.md) and [
 Categorize Resources
-](/docs/usercube_saas/usercube/user-guide/set-up/categorization/index.md) topics for additional information.
+](../../set-up/categorization/index.md) topics for additional information.
 
 ## Create an Automation Rule
 
 Create an automation rule by proceeding as follows:
 
-![Home Page - Access Rules](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/home_rules_v602.webp)
+![Home Page - Access Rules](../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/home_rules_v602.webp)
 
 __Step 1 –__ On the home page in the __Configuration__ section, click on __Access Rules__.
 
-![Entity Type Choice](/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/provrules_entitytype_v602.webp)
+![Entity Type Choice](../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/provrules_entitytype_v602.webp)
 
 __Step 2 –__ In the dropdown menu at the top left, choose the entity type to which the future rule will be applied.
 
-![Addition Icon](/img/product_docs/usercube/usercube/user-guide/set-up/user-profile-assignment/iconadd_v602.webp)
+![Addition Icon](../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/user-profile-assignment/iconadd_v602.webp)
 
 __Step 3 –__ Click on the __Automations__ tab and on the addition button at the top right corner.
 
-![New Automation Rule](/img/product_docs/usercube/usercube/user-guide/optimize/non-conforming-assignment-review-automation/reviewautomation_newrulefields_v602.webp)
+![New Automation Rule](../../../../../../static/img/product_docs/usercube/usercube/user-guide/optimize/non-conforming-assignment-review-automation/reviewautomation_newrulefields_v602.webp)
 
 __Step 4 –__ Fill in the fields.
 
@@ -75,12 +75,12 @@ __Step 1 –__ On the __Role Review__ or __Role Reconciliation__ screen, spot an
 
 __Step 2 –__ Create an automation rule matching said assignment.
 
-![Home Page - Job Execution](/img/product_docs/usercube/usercube/user-guide/set-up/synchronization/home_jobexecution_v602.webp)
+![Home Page - Job Execution](../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/synchronization/home_jobexecution_v602.webp)
 
 __Step 3 –__ Compute the role model through the complete job on the __Job Execution__ page.
 
 __Step 4 –__ Check on the __Role Review__ page that the assignment's workflow state changed according to the rule's settings.
 
-![New Automation Rule](/img/product_docs/usercube/usercube/user-guide/optimize/non-conforming-assignment-review-automation/reviewautomation_rulemessage_v522.webp)
+![New Automation Rule](../../../../../../static/img/product_docs/usercube/usercube/user-guide/optimize/non-conforming-assignment-review-automation/reviewautomation_rulemessage_v522.webp)
 
 Any role affected by an automation rule shows a specific message on the __Role Review__ page.

@@ -13,7 +13,7 @@ There are several ways to arrange an access certification campaign. Among others
 - assignments not certified since a certain date;
 - assignments presenting a certain level of risk.
 
-Certification campaigns can be [Access Certification](/docs/usercube_saas/usercube/integration-guide/governance/accesscertification/index.md) but the UI described in this guide can be enough on its own. See the [Access Certification](/docs/usercube_saas/usercube/integration-guide/governance/accesscertification/index.md) topic for additional information.
+Certification campaigns can be [Access Certification](../../../integration-guide/governance/accesscertification/index.md) but the UI described in this guide can be enough on its own. See the [Access Certification](../../../integration-guide/governance/accesscertification/index.md) topic for additional information.
 
 ## Participants and Artifacts
 
@@ -21,11 +21,11 @@ This operation should be performed in cooperation with the staff in charge of au
 
 | Input | Output |
 | --- | --- |
-| Identity repository (required)   [ Create Roles in the Role Catalog ](/docs/usercube_saas/usercube/user-guide/set-up/single-roles-catalog-creation/index.md)(optional)   [ Manage Risks ](/docs/usercube_saas/usercube/user-guide/optimize/risk-management/index.md)(optional) | Certified access |
+| Identity repository (required)   [ Create Roles in the Role Catalog ](../../set-up/single-roles-catalog-creation/index.md)(optional)   [ Manage Risks ](../../optimize/risk-management/index.md)(optional) | Certified access |
 
 See the[
 Create the Workforce Repository
-](/docs/usercube_saas/usercube/user-guide/set-up/initial-identities-loading/index.md)topic for additional information.
+](../../set-up/initial-identities-loading/index.md)topic for additional information.
 
 ## Perform Access Certification
 
@@ -33,7 +33,7 @@ Perform access certification by proceeding as follows:
 
 1. [
    Schedule a Certification Campaign
-   ](/docs/usercube_saas/usercube/user-guide/administrate/access-certification/certification-campaign-scheduling/index.md).
+   ](certification-campaign-scheduling/index.md).
 2. [
    Execute a Certification Campaign
-   ](/docs/usercube_saas/usercube/user-guide/administrate/access-certification/certification-campaign-execution/index.md).
+   ](certification-campaign-execution/index.md).

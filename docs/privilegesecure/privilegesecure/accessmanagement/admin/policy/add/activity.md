@@ -6,7 +6,7 @@ __Step 1 –__ Navigate to the Activities page.
 
 __Step 2 –__ In the Activities list, click the Add Activity icon.
 
-![Add an Activity](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/addactivity.webp)
+![Add an Activity](../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/addactivity.webp)
 
 __Step 3 –__ Enter the information for the desired activity. The configuration options will vary depending on each selection.
 
@@ -30,7 +30,7 @@ __Step 4 –__ Enter the configuration information on the right side of the page
 
 __Step 5 –__ Click Save to create the new activity.
 
-__Step 6 –__ With the new activity selected, configure the following settings. See the [Add Action Window](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/activities/addaction.md) topic for additional information:
+__Step 6 –__ With the new activity selected, configure the following settings. See the [Add Action Window](../window/activities/addaction.md) topic for additional information:
 
 - Pre-Session (Grant) — List of actions that will run before the session begins. These actions may be paired with a corresponding Post-Session action.
 - Session (Connect) — List of actions that will run during the session

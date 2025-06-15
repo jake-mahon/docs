@@ -2,7 +2,7 @@
 
 The LSASS Guardian tab allows users to modify settings that were populated with the information entered when the host was added to prevent, monitor, or block LSASS code injections.
 
-![Operations Tab in the LSASS Guardian Tab](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/operations.webp)
+![Operations Tab in the LSASS Guardian Tab](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/operations.webp)
 
 After checking the Enable LSASS Guardian box, the following event filters can be modified on the sub-tabs:
 
@@ -19,7 +19,7 @@ ___RECOMMENDED:___ Add exclusion process filters for legitimate processes that m
 
 The Operations option filters for successful events, failed events, or both.
 
-![Operations Tab in the LSASS Guardian Tab](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/operations.webp)
+![Operations Tab in the LSASS Guardian Tab](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/operations.webp)
 
 The Open Process Flags section is where monitoring can be scoped for requested handles that would maliciously impact LSASS processes.
 
@@ -32,7 +32,7 @@ Check the box to select the process flag(s) to be monitored:
 
 The Processes option is where legitimate processes, which make changes to LSASS, e.g. third-party malware applications, can be included/excluded from being monitored by the policy.
 
-![Processes Tab in the LSASS Guardian Tab](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/processes.webp)
+![Processes Tab in the LSASS Guardian Tab](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/processes.webp)
 
 Double-click the text box beneath Name to enter the desired processes to include or exclude. Press the Enter or Tab key to add another text box.
 
@@ -42,7 +42,7 @@ __NOTE:__ While a processes inclusion is a filter option, it is not recommended 
 
 The Servers option targets servers to be included or excluded when filtering for LSASS changes.
 
-![Servers Tab in the LSASS Guardian Tab](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/servers.webp)
+![Servers Tab in the LSASS Guardian Tab](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/servers.webp)
 
 In both sections, servers must be specified in the form 'DOMAIN\SERVER', where DOMAIN is NetBIOS Domain name and SERVER is NetBIOS server name.
 
@@ -52,7 +52,7 @@ Double-click the textbox beneath Name to enter the desired servers to include or
 
 The Users option is where the policy can be scoped to only monitor specific security principals committing changes within Active Directory or to exclude specific users committing changes from being monitored.
 
-![Users Tab in the LSASS Guardian Tab](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/userstab.webp)
+![Users Tab in the LSASS Guardian Tab](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/userstab.webp)
 
 The following details appear beneath both sections:
 

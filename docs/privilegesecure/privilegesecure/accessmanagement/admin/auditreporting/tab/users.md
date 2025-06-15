@@ -2,14 +2,14 @@
 
 The Users tab shows the users and groups in the selected access certification task for which the reviewer must certify access entitlement.
 
-![userstab](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/userstab.webp)
+![userstab](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/userstab.webp)
 
 The Users table has the following features:
 
 - Search – Searches the table or list for matches to the search string. When matches are found, the table or list is filtered to the matching results.
 - Column headers can be resized and sorted by ascending or descending order:
 
-  - Name – Click to open the Users and Groups Details page. See the [User, Group, & Application Details Page](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/details/usergroupapplication.md) topic for additional information.
+  - Name – Click to open the Users and Groups Details page. See the [User, Group, & Application Details Page](../../policy/page/details/usergroupapplication.md) topic for additional information.
   - User Name – Displays the name of the account
   - Email – Displays the associated email address, if available
   - Type – User or Group
@@ -27,7 +27,7 @@ __Step 2 –__ In the Access Certification Task list, select the name of the tas
 
 __Step 3 –__ Click Add to open the Add Users and Groups window.
 
-![addusers](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/auditreporting/tab/addusers.webp)
+![addusers](../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/auditreporting/tab/addusers.webp)
 
 The Add Users and Groups window has the following features:
 
@@ -56,4 +56,4 @@ The new user(s) and group(s) are added to the certification task and are shown o
 
 __NOTE:__ Only the assigned reviewer can interact with the entitlements once the access certification task is created.
 
-The reviewer can now log in to see the access certification task(s) assigned to them and begin the review process. See the [Entitlements Tab for Access Certification](/docs/privilegesecure/privilegesecure/accessmanagement/admin/auditreporting/tab/entitlements.md) topic for additional information.
+The reviewer can now log in to see the access certification task(s) assigned to them and begin the review process. See the [Entitlements Tab for Access Certification](entitlements.md) topic for additional information.

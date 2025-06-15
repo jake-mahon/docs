@@ -4,7 +4,7 @@ The NIS Query page is where the NIS query regular expressions are configured and
 
 - Custom NIS Scan
 
-![NIS Data Collector Wizard NIS Query page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/nis/query.webp)
+![NIS Data Collector Wizard NIS Query page](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/nis/query.webp)
 
 The Data Source configuration options are:
 

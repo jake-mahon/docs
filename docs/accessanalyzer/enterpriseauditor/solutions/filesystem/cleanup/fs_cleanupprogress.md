@@ -8,7 +8,7 @@ Navigate to the __FileSystem__ > __Cleanup__ > __FS_CleanupProgress__ > __Config
 
 __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis task is preconfigured for this job.
 
-![Analysis Tasks for the FS_CleanupProgress Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/cleanup/cleanupprogressanalysis.webp)
+![Analysis Tasks for the FS_CleanupProgress Job](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/cleanup/cleanupprogressanalysis.webp)
 
 The following analysis tasks are selected by default:
 

@@ -2,7 +2,7 @@
 
 The Dictionary rule rejects passwords that are vulnerable to guessing, hybrid, and precomputed attacks. These attacks can crack weak passwords in seconds, and they can be very effective if passwords are based on common words.
 
-![Dicitonary Rule](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/dictionary.webp)
+![Dicitonary Rule](../../../../static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/dictionary.webp)
 
 There are two Dictionary rules in each password policy. You can use the second rule with a different dictionary file, or to enforce a more tolerant policy for passphrases by disabling the primary rule for long passwords.
 

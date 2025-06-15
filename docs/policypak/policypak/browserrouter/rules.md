@@ -2,7 +2,7 @@
 
 When you make a new Browser Router policy, you have several ways to make site rules: __URL__, __Wildcard__, __RegEx__, and __Internet Security Zone__.
 
-![about_policypak_browser_router_14](/img/product_docs/policypak/policypak/browserrouter/about_policypak_browser_router_14.webp)
+![about_policypak_browser_router_14](../../../../static/img/product_docs/policypak/policypak/browserrouter/about_policypak_browser_router_14.webp)
 
 ## Examples
 
@@ -17,7 +17,7 @@ The following table shows different types of pattern rules and how they would ma
 
 When a pattern matches, it is routed to the correct browser, blocked, or delivered to a custom browser.
 
-![about_policypak_browser_router_15](/img/product_docs/policypak/policypak/browserrouter/about_policypak_browser_router_15.webp)
+![about_policypak_browser_router_15](../../../../static/img/product_docs/policypak/policypak/browserrouter/about_policypak_browser_router_15.webp)
 
 __NOTE:__ For specific URL strings, __Apply to child URLs__ is set to __yes__ by default. This means that any website that falls underneath that URL will also be affected.
 

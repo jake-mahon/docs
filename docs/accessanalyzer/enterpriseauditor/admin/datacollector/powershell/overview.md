@@ -20,12 +20,12 @@ Permissions
 The PowerShell Data Collector is configured through the PowerShell Data Collector Wizard, which contains the following pages:
 
 - Welcome
-- [PowerShell: Edit Query](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/powershell/editquery.md)
-- [PowerShell: Options](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/powershell/options.md)
-- [PowerShell: Sample Server](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/powershell/sampleserver.md)
-- [PowerShell: Results](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/powershell/results.md)
-- [PowerShell: Summary](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/powershell/summary.md)
+- [PowerShell: Edit Query](editquery.md)
+- [PowerShell: Options](options.md)
+- [PowerShell: Sample Server](sampleserver.md)
+- [PowerShell: Results](results.md)
+- [PowerShell: Summary](summary.md)
 
-![PowerShell Data Collector Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
+![PowerShell Data Collector Wizard Welcome page](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
 
 The Welcome page can be hidden by checking the __Do not display this page the next time__ box when the wizard is open and configuration settings are saved.

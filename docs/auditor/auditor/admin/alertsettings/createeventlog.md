@@ -34,7 +34,7 @@ __Step 5 –__ Complete the Event Filters wizard. Complete the following fields:
   | Source | Specify this parameter if you want to be alerted on the events from a specific source.  If you need to specify several users, you can define a mask for this parameter in the same way as described above. |
   | Category | Specify this parameter if you want to be alerted on a specific event category. |
 
-  ![eventfilters](/img/product_docs/auditor/auditor/admin/alertsettings/eventfilters.webp)
+  ![eventfilters](../../../../../static/img/product_docs/auditor/auditor/admin/alertsettings/eventfilters.webp)
 - In the Insertion Strings tab:
 
   | Option | Description |

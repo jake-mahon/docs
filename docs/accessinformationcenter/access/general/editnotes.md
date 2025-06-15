@@ -4,7 +4,7 @@ The Edit Note window can be opened from a variety of interfaces. Follow the step
 
 __Step 1 –__ Select the item in the interface and click Edit Notes. The Edit Notes window opens.
 
-![Edit Notes window showing note entry field](/img/product_docs/accessinformationcenter/access/general/editnotes.webp)
+![Edit Notes window showing note entry field](../../../../static/img/product_docs/accessinformationcenter/access/general/editnotes.webp)
 
 __Step 2 –__ Type or edit the note in the textbox.
 

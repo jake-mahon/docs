@@ -2,7 +2,7 @@
 
 This guide shows how to write a Robot Framework script that will be used by [
 Robot Framework
-](/docs/usercube/usercube/integration-guide/connectors/references-connectors/robotframework/index.md).
+](../../references-connectors/robotframework/index.md).
 
 ## Structure of a Robot Framework Script
 
@@ -137,7 +137,7 @@ See the [Robot Framework User Guide](https://robotframework.org/robotframework/l
 | Keyword | Details |
 | --- | --- |
 | Catch Keyword | __Arguments__    ```Keyword```: Keyword   ```*args```   __Description__   Launches ```Keyword``` with the given arguments ```*args``` if the keyword launched by ```Try Keyword``` failed. If ```Try Keyword``` was not called, this keyword will not do anything. ```Catch Keyword``` should always be called right after ```Try Keyword```.   __Example__   Try to connect to ```Usercube.com```. If the connection fails, restart the browser and try to connect to ```Usercube.com```:    ```Connect to URL    Try Keyword Go To Usercube.com    Catch Keyword Restart Browser At URL Usercube.com``` |
-| Generate Password | __Description__    Generates a password based on the [ Password Reset Settings ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/passwordresetsettings/index.md) associated to the [Resource Type Mappings](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/resourcetypemappings/index.md) being provisioned   ```Send Password Notification``` should always be called after ```Generate Password```, preferably right after the password is used. If ```Send Password Notification``` is not called before the provisioning of the resource is over, it will automatically be called.   If multiple passwords should be generated, ```Send Password Notification``` should be called after each password generation.   __Returns__   ```Password```: string |
+| Generate Password | __Description__    Generates a password based on the [ Password Reset Settings ](../../../toolkit/xml-configuration/connectors/passwordresetsettings/index.md) associated to the [Resource Type Mappings](../../../toolkit/xml-configuration/connectors/resourcetypemappings/index.md) being provisioned   ```Send Password Notification``` should always be called after ```Generate Password```, preferably right after the password is used. If ```Send Password Notification``` is not called before the provisioning of the resource is over, it will automatically be called.   If multiple passwords should be generated, ```Send Password Notification``` should be called after each password generation.   __Returns__   ```Password```: string |
 | Get Secure Data | __Arguments__    ```Attribute```: string   ```Erase Data```: boolean   __Description__   Retrieves the secured option ```Attribute``` from the connector configuration. If ```Erase Data``` is set to true, the secured option is deleted once it is read.   __Example__   Get Login option and erase it:   ```Get Secure Data | Login | True``` |
 | Launch Provisioning | __Description__    Launches the provisioning defined by the provisioning orders. This keyword is required for any provisioning to happen. |
 | Log Debug | __Arguments__    ```Message```: string   __Description__   Logs ```Message``` at the ```Debug``` log level.   __Example__   Log a keyword failure message: ```Log Debug The keyword has failed``` |
@@ -245,7 +245,7 @@ Most keywords are not different when a script is launched manually. The keywords
   ``{"Login":"login","Password":"password"}``
 - ```Generate Password```: This keyword expects a file that contains the [
   Password Reset Settings
-  ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/passwordresetsettings/index.md) associated to the provisioned [Resource Type Mappings](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/resourcetypemappings/index.md). The easiest way to enable the ```Generate Password``` keyword is as follow:
+  ](../../../toolkit/xml-configuration/connectors/passwordresetsettings/index.md) associated to the provisioned [Resource Type Mappings](../../../toolkit/xml-configuration/connectors/resourcetypemappings/index.md). The easiest way to enable the ```Generate Password``` keyword is as follow:
   - Launch the Robot Framework fulfillment through the Identity Manager web application with a blank script.
   - Copy the ```PasswordResetSettings``` folder generated in the most recent subfolder of ```Work/FulfillRobotFramework```.
   - Paste the folder in the same folder as the provisioning order.
@@ -310,7 +310,7 @@ We define all the custom functions which we will use to provision the external s
 - ```Write Header```: defines the header to write in the CSV and calls ```Write Data``` to write it.
 - ```Open Telnet Connection```: opens the Telnet connection to the external system using the login and the password defined in the [
   Robot Framework
-  ](/docs/usercube/usercube/integration-guide/connectors/references-connectors/robotframework/index.md) attribute in ```appsettings.agent.json```, as well as the IP address defined in the ```Variables``` section.
+  ](../../references-connectors/robotframework/index.md) attribute in ```appsettings.agent.json```, as well as the IP address defined in the ```Variables``` section.
 
 ```
 
@@ -342,7 +342,7 @@ Open Telnet Connection
 
 The method ```Get Secure Data``` will retrieve the value of the attributes filled in the [
 Robot Framework
-](/docs/usercube/usercube/integration-guide/connectors/references-connectors/robotframework/index.md) in ```appsettings.agent.json```. This is the method strongly recommended by Identity Manager. However, you could also enter the value directly into the script (example: ```${LOGIN}= UserName```). This may be easier for initial testing purposes.
+](../../references-connectors/robotframework/index.md) in ```appsettings.agent.json```. This is the method strongly recommended by Identity Manager. However, you could also enter the value directly into the script (example: ```${LOGIN}= UserName```). This may be easier for initial testing purposes.
 
 ### Define mandatory keywords
 

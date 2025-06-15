@@ -8,7 +8,7 @@ The banner is displayed wherever the associated resource appears.
 
 For example, if we create an indicator pointing out the risk score of a user, the banner will show on the left-side of the user [
 Tile
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/user-interface/tile/index.md) and the user [Form](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/user-interface/form/index.md). If we create an indicator pointing out whether an AD account is unused or disabled, the banner will show on the left-side of the AD Entries tile and form.
+](../tile/index.md) and the user [Form](../form/index.md). If we create an indicator pointing out whether an AD account is unused or disabled, the banner will show on the left-side of the AD Entries tile and form.
 
 One entity can show several banners, one for several different properties. They appear one above the other if there are four banners or less, one next to the other if there are more.
 

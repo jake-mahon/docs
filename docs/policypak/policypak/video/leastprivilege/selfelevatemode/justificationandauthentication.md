@@ -4,4 +4,4 @@ Want to set up number of runs (or number of hours) to keep justification & authe
 
 See this video for additional information.
 
-![Remember Justification and Authentication](/img/product_docs/policypak/policypak/video/leastprivilege/selfelevatemode/rememberjustificationandauthentication.webp)
+![Remember Justification and Authentication](../../../../../../static/img/product_docs/policypak/policypak/video/leastprivilege/selfelevatemode/rememberjustificationandauthentication.webp)

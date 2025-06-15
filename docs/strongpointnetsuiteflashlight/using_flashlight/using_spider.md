@@ -13,17 +13,17 @@ Run the manual spider:
 
 1. Open __Flashlight__ > __Tools__ > __Spider__
 
-   ![Open the Spider](/img/product_docs/strongpointnetsuiteflashlight/getting_started/mainmenu.webp)
+   ![Open the Spider](../../../static/img/product_docs/strongpointnetsuiteflashlight/getting_started/mainmenu.webp)
 2. You can run the manual spider:
 
 - __Fast__: Only updates if there are changes to the customization records.
 - __Slow__: Re-spiders all customization records.
 - __By Record type__: updates A specific record type or several record types can be selected to be updated. The selected record types are added to an index. Strongpoint processes read the index, create customization records, and parse relationships and scripts.
 
-  ![Spider Options](/img/product_docs/strongpointnetsuiteflashlight/getting_started/spider_800x368.webp)
+  ![Spider Options](../../../static/img/product_docs/strongpointnetsuiteflashlight/getting_started/spider_800x368.webp)
 
 ## Re-spider Now
 
 You can also update the documentation for a specific customization record. Simply click __Respider Now__ on the customization record and your documentation is updated in real time.
 
-![Re-Spider Now](/img/product_docs/strongpointfornetsuite/respider_now.webp)
+![Re-Spider Now](../../../static/img/product_docs/strongpointfornetsuite/respider_now.webp)

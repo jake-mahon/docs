@@ -7,7 +7,7 @@ When you launch the SSPR portal, the Welcome to GroupID page lists the following
 - Reset Password
 - Unlock
 
-You can either click a function and then sign in to perform that function or first sign in and then select a function. See the [Launch the Portal](/docs/groupid/groupid/ssprportal/overview.md#launch-the-portal) topic for additional information.
+You can either click a function and then sign in to perform that function or first sign in and then select a function. See the [Launch the Portal](overview.md#launch-the-portal) topic for additional information.
 
 When you sign in (without selecting any function), the main portal page is displayed. It lists the following functions:
 
@@ -25,19 +25,19 @@ Remember:
 
 Click the __Enroll__ tile to enroll an unenrolled account. Then sign into the portal, if not signed in.
 
-The Your Enrollments page opens, where you can enroll the identity store account you used to sign into the portal. Tabs on this page represent the different authentication types the administrator has enabled for enrollment. See the [Enroll your identity store account](/docs/groupid/groupid/admincenter/enroll.md) topic for enrollment details, starting at step 3.
+The Your Enrollments page opens, where you can enroll the identity store account you used to sign into the portal. Tabs on this page represent the different authentication types the administrator has enabled for enrollment. See the [Enroll your identity store account](../admincenter/enroll.md) topic for enrollment details, starting at step 3.
 
 ## Unlock your Account
 
-Click the __Unlock__ tile to unlock your account. See the [Unlock your accounts](/docs/groupid/groupid/portal/user/manage/unlockaccount.md) topic for additional information.
+Click the __Unlock__ tile to unlock your account. See the [Unlock your accounts](../portal/user/manage/unlockaccount.md) topic for additional information.
 
 ## Reset your Account Password
 
-Click the __Reset Password__ tile to reset your identity store account password. See the [Reset Passwords](/docs/groupid/groupid/portal/user/authentication/passwordreset.md) topic for additional information.
+Click the __Reset Password__ tile to reset your identity store account password. See the [Reset Passwords](../portal/user/authentication/passwordreset.md) topic for additional information.
 
 ## Change your Account Password
 
-You can change the password of any of your identity store accounts. Click the __Change Password__ tile. Then sign into the portal, if not signed in. See the[ Change your password](/docs/groupid/groupid/portal/user/manage/changepassword.md) topic for additional information.
+You can change the password of any of your identity store accounts. Click the __Change Password__ tile. Then sign into the portal, if not signed in. See the[ Change your password](../portal/user/manage/changepassword.md) topic for additional information.
 
 ## Link your Identity Store Accounts
 
@@ -46,4 +46,4 @@ A user can link the accounts that he or she has in different identity stores, su
 - The user can enroll one account. On linking another account to the enrolled account, the linked account is auto-enrolled. The enrolled account becomes the master account.
 - A user can then unlock or reset the password of any linked account through the master account.
 
-After signing into the portal, click the __Linked Accounts__ tile. See the [Linked Accounts](/docs/groupid/groupid/portal/user/linkedaccounts.md) topic for additional information.
+After signing into the portal, click the __Linked Accounts__ tile. See the [Linked Accounts](../portal/user/linkedaccounts.md) topic for additional information.

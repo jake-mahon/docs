@@ -8,7 +8,7 @@ The script then issues the query by calling ```WorkingQuery.Execute```. When the
 
 The script then takes the value of ```REMAINDER```, which is in seconds, and converts it to days, hours, minutes, and seconds. These values are then recorded in the Query object so that Access Analyzer can store this data.
 
-__NOTE:__ In this task, the hours, minutes, and seconds properties were specified manually using the task dialog. See the [Script Properties](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/script/properties.md) topic for additional information.
+__NOTE:__ In this task, the hours, minutes, and seconds properties were specified manually using the task dialog. See the [Script Properties](properties.md) topic for additional information.
 
 ## Example of Conversion of Data Script
 

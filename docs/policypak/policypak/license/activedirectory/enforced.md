@@ -8,4 +8,4 @@ As such, License Tool automatically recommends and performs enforcement of the G
 
 Below all Endpoint Policy Manager Licenses are contained within one GPO. But you might have multiple licensing GPOs, all which need to be enforced.
 
-![168_1_image0013](/img/product_docs/policypak/policypak/license/activedirectory/168_1_image0013.webp)
+![168_1_image0013](../../../../../static/img/product_docs/policypak/policypak/license/activedirectory/168_1_image0013.webp)

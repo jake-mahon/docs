@@ -8,7 +8,7 @@ Navigate to the __Databases__ > Jobs > SQL > 4.Configuration > SQL_LinkedServers
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are pre-configured for this job.
 
-![Analysis Selection](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/instantjobs/analysistasks.webp)
+![Analysis Selection](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/instantjobs/analysistasks.webp)
 
 The default analysis tasks are:
 

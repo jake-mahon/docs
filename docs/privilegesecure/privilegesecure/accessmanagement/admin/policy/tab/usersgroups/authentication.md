@@ -2,7 +2,7 @@
 
 The Authentication tab for applications shows authentication information about the application.
 
-![Authentication Tab for Application User](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/usersgroups/applicationauthenticationtab.webp)
+![Authentication Tab for Application User](../../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/usersgroups/applicationauthenticationtab.webp)
 
 The tab displays the following information:
 

@@ -2,7 +2,7 @@
 
 Manage indexes for configuration items with the tool[
 Usercube-Manage-Configuration Dependent Indexes
-](/docs/usercube_saas/usercube/integration-guide/executables/references/manage-configurationdependantindexes/index.md).
+](../../../../../../executables/references/manage-configurationdependantindexes/index.md).
 
 ## Examples
 

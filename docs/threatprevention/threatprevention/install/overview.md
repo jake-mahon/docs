@@ -21,11 +21,11 @@ The following components are installed by the Threat Prevention installation pac
 
 See the following topics for additional information:
 
-- [Application Server Install](/docs/threatprevention/threatprevention/install/application.md)
-- [Administration Console Remote Install](/docs/threatprevention/threatprevention/install/adminconsole.md)
-- [Agent Information](/docs/threatprevention/threatprevention/install/agent/overview.md)
-- [EPE Rest Site Install](/docs/threatprevention/threatprevention/install/eperestsite.md)
-- [Reporting Module Installation](/docs/threatprevention/threatprevention/install/reportingmodule/overview.md)
+- [Application Server Install](application.md)
+- [Administration Console Remote Install](adminconsole.md)
+- [Agent Information](agent/overview.md)
+- [EPE Rest Site Install](eperestsite.md)
+- [Reporting Module Installation](reportingmodule/overview.md)
 
 ## Software Download
 
@@ -37,7 +37,7 @@ The following files are available for download:
 
 - threatprevention-server-7.5.x.msi
 - threatprevention-agent-7.5.x.exe
-- threatmanager-reportonly-3.0.x.zip – Contains the Netwrix Threat Manager Reporting Module installer. See the [Reporting Module Installation](/docs/threatprevention/threatprevention/install/reportingmodule/overview.md) topic for additional information.
+- threatmanager-reportonly-3.0.x.zip – Contains the Netwrix Threat Manager Reporting Module installer. See the [Reporting Module Installation](reportingmodule/overview.md) topic for additional information.
 
 ## Antivirus Software Considerations
 

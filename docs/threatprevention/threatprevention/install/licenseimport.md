@@ -12,10 +12,10 @@ __Step 2 –__ Save the license key file to the following folder:
 
 …\Netwrix\Netwrix Threat Prevention\SIEnterpriseManager
 
-![Import License](/img/product_docs/threatprevention/threatprevention/install/importlicense.webp)
+![Import License](../../../../static/img/product_docs/threatprevention/threatprevention/install/importlicense.webp)
 
 __Step 3 –__ The SIEnterpriseManager service automatically recognizes and imports the file.
 
 __Step 4 –__ (Optional) Restarting Enterprise Manager is often required after importing a new license key as that would stop the application from alerting about the expired license.
 
-The license key has been successfully imported. The organization’s license information is available on the [License Manager Window](/docs/threatprevention/threatprevention/admin/navigation/licensemanager.md).
+The license key has been successfully imported. The organization’s license information is available on the [License Manager Window](../admin/navigation/licensemanager.md).

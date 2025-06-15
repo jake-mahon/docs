@@ -27,11 +27,11 @@ You can create multiple Data services and Security services while hosting them o
 
 - To launch IIS on a machine, see [Opening IIS Manager](https://docs.microsoft.com/en-us/previous-versions/iis/6.0-sdk/ms525920(v=vs.90)).
 
-![in_iis](/img/product_docs/groupid/groupid/admincenter/portal/in_iis.webp)
+![in_iis](../../../../../static/img/product_docs/groupid/groupid/admincenter/portal/in_iis.webp)
 
 - To open Docker Desktop on Windows, search for Docker and select Docker Desktop in the search results.
 
-![indocker](/img/product_docs/groupid/groupid/admincenter/service/indocker.webp)
+![indocker](../../../../../static/img/product_docs/groupid/groupid/admincenter/service/indocker.webp)
 
 ## Third-party Services
 
@@ -49,7 +49,7 @@ Third-party services are created as Windows services in Windows Services Manager
 
 To launch the Services Manager, type ‘ services.msc’ in the Run dialog box and click OK. Here is an example of services in Windows Services Manager. You can start, stop, disable, and delay a service.
 
-![inwindowsservicesmanager](/img/product_docs/groupid/groupid/admincenter/service/inwindowsservicesmanager.webp)
+![inwindowsservicesmanager](../../../../../static/img/product_docs/groupid/groupid/admincenter/service/inwindowsservicesmanager.webp)
 
 ## Accounts to Run the Services
 
@@ -73,4 +73,4 @@ When you have multiple Elasticsearch clusters in your environment and each clust
 
 Cluster syncing
 
-To sync data between clusters, Directory Manager uses the Replication service. You have to enable data sync for at least one Replication service within a cluster to sync the cluster's data to other clusters. See the [Enable Elastic Cluster Syncing](/docs/groupid/groupid/admincenter/service/replicationservice.md#enable-elastic-cluster-syncing) topic for additional information.
+To sync data between clusters, Directory Manager uses the Replication service. You have to enable data sync for at least one Replication service within a cluster to sync the cluster's data to other clusters. See the [Enable Elastic Cluster Syncing](replicationservice.md#enable-elastic-cluster-syncing) topic for additional information.

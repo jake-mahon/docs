@@ -17,7 +17,7 @@ Major benefits:
 
 The add-on is implemented as a Syslog service that collects activity data from Nutanix infrastructure and sends it to Netwrix Auditor using the Integration API.
 
-![HIW_diagram_new](/img/product_docs/auditor/auditor/addon/cyberark/diagram_thumb_0_0.webp)
+![HIW_diagram_new](../../../../../static/img/product_docs/auditor/auditor/addon/cyberark/diagram_thumb_0_0.webp)
 
 On a high level, the solution works as follows:
 
@@ -31,12 +31,12 @@ On a high level, the solution works as follows:
 6. In particular, the script deploys and starts __Netwrix Auditor Add-on for Nutanix AHV__ Windows Service— this is the main add-on component, responsible for audit data collection and forwarding.
 7. The add-on starts collecting and forwarding activity data from Nutanix Prism server: it listens to the specified UDP port and captures designated Syslog event messages and also collects activity data using Nutanix REST API.
 
-Syslog event data communication is performed using UDP version of Syslog protocol. See the [Monitoring Scope](/docs/auditor/auditor/addon/nutanixahv/monitoredevents.md) topic for additional information on the default list of events supported out-of-the box.
+Syslog event data communication is performed using UDP version of Syslog protocol. See the [Monitoring Scope](monitoredevents.md) topic for additional information on the default list of events supported out-of-the box.
 
 8. The add-on processes the incoming Syslog messages and activity data collected using Nutanix REST API into NAuditor -compatible format (Activity Records). Each Activity Record contains the Who-What-When-Where-Action information (that is, initiator's account, time, action, and other details).
 9. Using the Integration API, the add-on sends the activity records to Auditor Server that writes them to the Audit Database and Long-Term Archive. Data is sent periodically, by default every second.
 
-See the [Integration API](/docs/auditor/auditor/api/overview.md) topic for additional information on the Activity Record structure and capabilities of the Integration API.
+See the [Integration API](../../api/overview.md) topic for additional information on the Activity Record structure and capabilities of the Integration API.
 
 10. Users open Auditor Client to work with collected data:
     - Search for file changes using certain criteria
@@ -62,15 +62,15 @@ Before running the add-on, ensure that all the necessary components and policies
 
 | Where | Prerequisite to check |
 | --- | --- |
-| Auditor Server side | - Auditor version 9.9 or later. - Netwrix Integration API and Audit Database settings are configured properly in Netwrix Auditor. See the [Prerequisites](/docs/auditor/auditor/api/prerequisites.md) and [Audit Database](/docs/auditor/auditor/admin/settings/auditdatabase.md) topics for additional information. - The  __TCP 9699__ port must be open on Windows firewall for inbound connections. - User account under which data will be written to the Audit Database requires the __Contributor__ role in Auditor. See the [Role-Based Access and Delegation](/docs/auditor/auditor/admin/monitoringplans/delegation.md) topic for additional information.   Alternatively, you can grant it the __Global administrator__ role, or add that account to the __Netwrix Auditor Administrators__ group. |
+| Auditor Server side | - Auditor version 9.9 or later. - Netwrix Integration API and Audit Database settings are configured properly in Netwrix Auditor. See the [Prerequisites](../../api/prerequisites.md) and [Audit Database](../../admin/settings/auditdatabase.md) topics for additional information. - The  __TCP 9699__ port must be open on Windows firewall for inbound connections. - User account under which data will be written to the Audit Database requires the __Contributor__ role in Auditor. See the [Role-Based Access and Delegation](../../admin/monitoringplans/delegation.md) topic for additional information.   Alternatively, you can grant it the __Global administrator__ role, or add that account to the __Netwrix Auditor Administrators__ group. |
 | The machine where the add-on will be installed | - Any of the following Windows OS versions:    - Windows Server 2012 R2 (or later)   - Windows 8.1 (or later) - The __UDP__ port must be open on Windows firewall for inbound connections. - .NET Framework versions 4.5 or later |
 | Nutanix Prism server | Nutanix AOS 5.11, 5.15, or 5.20 |
 
 ### Accounts and rights
 
-It is recommended to create a dedicated account for running __install.ps1__ and __Netwrix Auditor Add-on for Nutanix AHV__ (main service of the solution). The service will connect to Auditor Server using this account, so at least the __Contributor__ role in Auditor is required for it. See the [Role-Based Access and Delegation](/docs/auditor/auditor/admin/monitoringplans/delegation.md) topic for additional information.
+It is recommended to create a dedicated account for running __install.ps1__ and __Netwrix Auditor Add-on for Nutanix AHV__ (main service of the solution). The service will connect to Auditor Server using this account, so at least the __Contributor__ role in Auditor is required for it. See the [Role-Based Access and Delegation](../../admin/monitoringplans/delegation.md) topic for additional information.
 
-This service account requires the __User Admin__ role in Nutanix Prism. You will be prompted for the corresponding set of credentials when you run the __install.ps1__ script (see Steps 4 and 5 of the [Deploy the Add-On](/docs/auditor/auditor/addon/nutanixahv/install.md)). User name and password for connection to Nutanix Prism server will be then encrypted and stored in the solution configuration.
+This service account requires the __User Admin__ role in Nutanix Prism. You will be prompted for the corresponding set of credentials when you run the __install.ps1__ script (see Steps 4 and 5 of the [Deploy the Add-On](install.md)). User name and password for connection to Nutanix Prism server will be then encrypted and stored in the solution configuration.
 
 ### Considerations and limitations
 

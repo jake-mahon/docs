@@ -4,7 +4,7 @@ Before adding a Computer source, plan for the account that will be used for data
 
 Data Collection Accounts should meet the following policies and permissions:
 
-- The ____Manage auditing and security log____and Backup files and directories policies must be defined for this account. See the [Configure the Manage Auditing and Security Log Policy](/docs/1secure/admin/datacollection/activedirectory/manageauditingsecuritylog.md) and [Configure the Back up Files and Directories Policy](/docs/1secure/admin/datacollection/computer/backupfilesdirectories.md) topics for additional information.
+- The ____Manage auditing and security log____and Backup files and directories policies must be defined for this account. See the [Configure the Manage Auditing and Security Log Policy](../activedirectory/manageauditingsecuritylog.md) and [Configure the Back up Files and Directories Policy](backupfilesdirectories.md) topics for additional information.
 - The __Read__ share permission on the audited shared folders.
 - The __Read__ NTFS permission on all objects in the audited folders.
 
@@ -12,7 +12,7 @@ __NOTE:__ If you want to use network traffic compression, data collecting accoun
 
 You can also use group Managed Service Accounts (gMSA) as a data collecting account. For more information on gMSA, see the following:
 
-- [Using Group Managed Service Account (gMSA)](/docs/1secure/admin/datacollection/gmsa/gmsa.md)
+- [Using Group Managed Service Account (gMSA)](../gmsa/gmsa.md)
 
 - Microsoft article: [Group Managed Service Accounts Overview](https://docs.microsoft.com/en-us/windows-server/security/group-managed-service-accounts/group-managed-service-accounts-overview)
 

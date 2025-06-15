@@ -11,12 +11,12 @@ The User Behavior and Blind Spot Analysis report pack contains a set of smart re
 
 Analytics reports can be found in the User Behavior and Blind Spot Analysis folder under the Predefined node.
 
-![userbehaviorblindspotanalysis_thumb_0_0](/img/product_docs/auditor/auditor/admin/reports/types/userbehaviorblindspotanalysis_thumb_0_0.webp)
+![userbehaviorblindspotanalysis_thumb_0_0](../../../../../../static/img/product_docs/auditor/auditor/admin/reports/types/userbehaviorblindspotanalysis_thumb_0_0.webp)
 
 If you are sure that some audit data is missing (e.g., you do not see information on your file servers in reports and search results), verify that the Audit Database settings are configured and that data is written to databases that reside on the default SQL Server instance.
 
 By default, Auditor allows generating reports and running interactive searches on data collected in the last 180 days. If you want to investigate incidents that occurred more than 180 days ago, ask your Auditor Global administrator to import that data from the Long-Term Archive.
 
-![failedactivitytrend_thumb_0_0](/img/product_docs/auditor/auditor/admin/reports/types/failedactivitytrend_thumb_0_0.webp)
+![failedactivitytrend_thumb_0_0](../../../../../../static/img/product_docs/auditor/auditor/admin/reports/types/failedactivitytrend_thumb_0_0.webp)
 
-Each report has a set of filters which help organize audit data in the most convenient way. See the [View Reports](/docs/auditor/auditor/admin/reports/view.md) topic for additional information. You can also create a subscription to any report you want to receive on a regular basis. See the [Subscriptions](/docs/auditor/auditor/admin/subscriptions/overview.md) topic for additional information.
+Each report has a set of filters which help organize audit data in the most convenient way. See the [View Reports](../view.md) topic for additional information. You can also create a subscription to any report you want to receive on a regular basis. See the [Subscriptions](../../subscriptions/overview.md) topic for additional information.

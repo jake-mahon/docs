@@ -6,13 +6,13 @@ __NOTE:__ Before creating alerts, make sure the Endpoint Protector E-mail Server
 
 For each Administrator to appear in the list of recipients for the Alerts, this has to be provided under the Administrator details from the System Conﬁguration, System Administrators section.
 
-![ Endpoint Protector E-mail Server Settings](/img/product_docs/endpointprotector/endpointprotector/admin/alerts/emailserversettings.png)
+![ Endpoint Protector E-mail Server Settings](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/alerts/emailserversettings.png)
 
 ## System Alerts
 
 From this section, you can create system alerts, including APNS certiﬁcate expiry, updates and support expiry, endpoint licenses used, etc.
 
-![System Alerts Settings](/img/product_docs/endpointprotector/endpointprotector/admin/alerts/systemalerts.png)
+![System Alerts Settings](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/alerts/systemalerts.png)
 
 ### Creating a System Alert
 
@@ -41,19 +41,19 @@ __Step 3 –__ Options –Based on the type of alert you selected, deﬁne the a
 
 __Step 4 –__ Administrators - Select the Administrators that will receive the alerts.
 
-![Creating a System Alert](/img/product_docs/endpointprotector/endpointprotector/admin/alerts/creatsystemalert.png)
+![Creating a System Alert](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/alerts/creatsystemalert.png)
 
 ### System Alerts History
 
 From this section, you can view a history of the System Alerts. Alerts that are no longer needed for auditing purposes can later be deleted.
 
-![System Alerts History](/img/product_docs/endpointprotector/endpointprotector/admin/alerts/systemalertshistory.png)
+![System Alerts History](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/alerts/systemalertshistory.png)
 
 ## Device Control Alerts
 
 From this section, you can create Device Control alerts, for events such as Connected, File Read, File Write, Enforced Encryption – successfully deployed, etc.
 
-![Device Control Alerts](/img/product_docs/endpointprotector/endpointprotector/admin/alerts/dcalerts.png)
+![Device Control Alerts](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/alerts/dcalerts.png)
 
 ### Creating a Device Control Alert
 
@@ -66,19 +66,19 @@ To add a new device control alert, click __Create__, provide the required inform
 - Monitored Entities – select the Groups, Computers, or Users that generate the event;
 - Administrators – select the Administrators that will receive the alerts.
 
-![Creating a Device Control Alert](/img/product_docs/endpointprotector/endpointprotector/admin/alerts/creatingdcalert.png)
+![Creating a Device Control Alert](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/alerts/creatingdcalert.png)
 
 ### Device Control Alerts History
 
 From this section, you can view a history of the Device Control Alerts. Alerts that are no longer needed for auditing purposes can later be deleted.
 
-![Device Control Alerts History](/img/product_docs/endpointprotector/endpointprotector/admin/alerts/dcalertshistory.png)
+![Device Control Alerts History](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/alerts/dcalertshistory.png)
 
 ## Content Aware Alerts
 
 From this section, you can create Content Aware alerts, for events such as Content Threat Detected or Content Threat Blocked.
 
-![Content Aware Alerts](/img/product_docs/endpointprotector/endpointprotector/admin/alerts/contentawarealerts.png)
+![Content Aware Alerts](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/alerts/contentawarealerts.png)
 
 ### Creating a Content Aware Alert
 
@@ -104,21 +104,21 @@ The alert sent on the email will also include a CSV ﬁle with a report of the t
 
 __NOTE:__ Before creating the alert, ensure the selected Content Aware Policy is enabled on the chosen Computer, User, Group, or Department.
 
-![Creating a Content Aware Alert](/img/product_docs/endpointprotector/endpointprotector/admin/alerts/creatingcontentawarealertinfo.png)
+![Creating a Content Aware Alert](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/alerts/creatingcontentawarealertinfo.png)
 
-![Creating a Content Aware Alert](/img/product_docs/endpointprotector/endpointprotector/admin/alerts/creatingcontentawarealert.png)
+![Creating a Content Aware Alert](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/alerts/creatingcontentawarealert.png)
 
 ### Content Aware Alerts History
 
 From this section, you can view a history of the Content Aware Alerts. Alerts that are no longer needed for auditing purposes can later be deleted.
 
-![Content Aware Alerts History](/img/product_docs/endpointprotector/endpointprotector/admin/alerts/contentawarealertshistory.png)
+![Content Aware Alerts History](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/alerts/contentawarealertshistory.png)
 
 ## Enforced Encryption Alert
 
 From this section, you can create Enforced Encryption alerts, for events such as password changes, messages sent, etc.
 
-![Enforced Encryption Alert](/img/product_docs/endpointprotector/endpointprotector/admin/alerts/enforcedencryptionalert.png)
+![Enforced Encryption Alert](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/alerts/enforcedencryptionalert.png)
 
 ### Creating an Enforced Encryption Alert
 
@@ -142,10 +142,10 @@ __Step 1 –__  Click __Create__ and provide the required information.
 
 __Step 2 –__ Click __Save__.
 
-![Creating an Enforced Encryption Alert ](/img/product_docs/endpointprotector/endpointprotector/admin/alerts/createeealert.png)
+![Creating an Enforced Encryption Alert ](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/alerts/createeealert.png)
 
 ### Enforced Encryption Alert History
 
 From this section, you can view the history of the Enforced Encryption Alerts. Alerts that are no longer needed for auditing purposes can later be deleted.
 
-![Enforced Encryption Alert History ](/img/product_docs/endpointprotector/endpointprotector/admin/alerts/eealerthistory.png)
+![Enforced Encryption Alert History ](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/alerts/eealerthistory.png)

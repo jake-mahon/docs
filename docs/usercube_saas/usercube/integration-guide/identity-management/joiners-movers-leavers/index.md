@@ -6,6 +6,6 @@ In Identity Manager, the JML process is done through workflows or through synchr
 
 See the [
 Onboarding and Offboarding
-](/docs/usercube_saas/usercube/integration-guide/identity-management/joiners-movers-leavers/on-offboarding/index.md) and [
+](on-offboarding/index.md) and [
 Position Change via Records
-](/docs/usercube_saas/usercube/integration-guide/identity-management/joiners-movers-leavers/position-change/index.md) topics for additional information on onboarding and offboarding and position changes via records.
+](position-change/index.md) topics for additional information on onboarding and offboarding and position changes via records.

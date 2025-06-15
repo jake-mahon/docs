@@ -1,6 +1,6 @@
 # EPE Rest Site
 
-The EPE Rest Site is an optional web server that third parties can use to integrate with the Threat Prevention Enterprise Password Enforcer (EPE) solution. It allows third-party applications to submit a candidate password to check whether it complies with the current EPE rules defined on the [EPE Settings Window](/docs/threatprevention/threatprevention/admin/configuration/epesettings.md).
+The EPE Rest Site is an optional web server that third parties can use to integrate with the Threat Prevention Enterprise Password Enforcer (EPE) solution. It allows third-party applications to submit a candidate password to check whether it complies with the current EPE rules defined on the [EPE Settings Window](../admin/configuration/epesettings.md).
 
 It uses GET and POST APIs for:
 
@@ -30,4 +30,4 @@ The EPE Rest Site offers multi-language support, ensuring users receive clear an
 - Spanish
 - Thai
 
-The EPE Rest Site uses the password rejection messages provided/translated on the Custom Messages Editor window. To access it, click the __Modify Messages__ button on the EPE Settings window. See the [User Feedback Module ](/docs/threatprevention/threatprevention/admin/configuration/epesettings.md#user-feedback-module) topic for additional information.
+The EPE Rest Site uses the password rejection messages provided/translated on the Custom Messages Editor window. To access it, click the __Modify Messages__ button on the EPE Settings window. See the [User Feedback Module ](../admin/configuration/epesettings.md#user-feedback-module) topic for additional information.

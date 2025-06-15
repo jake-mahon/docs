@@ -4,7 +4,7 @@ The Convert-Group commandlet converts an unmanaged group to a Smart Group.
 
 Directory Manager Management Shell prompts for the identity of the unmanaged group you want to convert into a Smart Group. After executing, the commandlet displays the status that update is successful as shown in the following snapshot:
 
-![managementshell](/img/product_docs/groupid/groupid/managementshell/group/managementshell.webp)
+![managementshell](../../../../../static/img/product_docs/groupid/groupid/managementshell/group/managementshell.webp)
 
 The converted Smart Group will not have an LDAP query attached to it. You have to define it manually.
 

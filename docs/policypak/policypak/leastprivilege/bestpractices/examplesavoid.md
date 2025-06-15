@@ -4,7 +4,7 @@ Let's say you want to allow users to install Google Earth on their machines. To 
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/bestpractices/what_not_to_do_some_examples.webp)
+Description automatically generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/bestpractices/what_not_to_do_some_examples.webp)
 
 While these settings would ensure that the install would run uninhibited without UAC prompt interruptions, you would also be allowing all applications that have that signature to install as well as allowing additional child processes. The rule as stated would also allow Chrome to install with admin rights, which could make it an attack vector for bad actors..
 
@@ -12,13 +12,13 @@ As such, Endpoint Policy Manager (formerly PolicyPak) Least Privilege Manager ed
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/bestpractices/what_not_to_do_some_examples_1.webp)
+Description automatically generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/bestpractices/what_not_to_do_some_examples_1.webp)
 
 Saying __Yes__ generates an additional rule match for File info condition enabling you to get more specific than just __Signature__ alone. This is the Endpoint Policy Manager (formerly PolicyPak) Least Privilege Manager Best Practice: __Signature Condition__ and __File Info condition__. Endpoint Policy Manager (formerly PolicyPak) Least Privilege Manager UI is requesting you create a Combo Rule (more details later.)
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/bestpractices/what_not_to_do_some_examples_2.webp)
+Description automatically generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/bestpractices/what_not_to_do_some_examples_2.webp)
 
 Therefore, it is important not to take shortcuts. Size your privilege levels accordingly, allocating the least amount of privilege possible in order to get the job done.
 
@@ -28,13 +28,13 @@ Equally bad is elevating entire programs and/or folders which might not need ele
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/bestpractices/what_not_to_do_some_examples_3.webp)
+Description automatically generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/bestpractices/what_not_to_do_some_examples_3.webp)
 
 But very few require elevation. A common mistake is to elevate all files in the folder making it easy for the admin and for the user.
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/bestpractices/what_not_to_do_some_examples_4.webp)
+Description automatically generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/bestpractices/what_not_to_do_some_examples_4.webp)
 
 However, giving full admin rights on all these utilities, without understanding the ramifications, could open the door to attacks.
 

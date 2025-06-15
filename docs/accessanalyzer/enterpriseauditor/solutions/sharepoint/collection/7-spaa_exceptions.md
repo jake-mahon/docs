@@ -4,7 +4,7 @@ This job searches scanned data for resources that match high risk conditions and
 
 ## Parameter Configuration
 
-The Configuration section on a Job's overview page allows you to easily modify any customizable parameters used by analysis tasks in the job. See the [Parameter Configuration](/docs/accessanalyzer/enterpriseauditor/admin/jobs/job/overview.md#parameter-configuration) topic for instructions on how to edit parameters on a job overview page.
+The Configuration section on a Job's overview page allows you to easily modify any customizable parameters used by analysis tasks in the job. See the [Parameter Configuration](../../../admin/jobs/job/overview.md#parameter-configuration) topic for instructions on how to edit parameters on a job overview page.
 
 The 7-SPAA_Exceptions page has the following configurable parameters:
 
@@ -20,7 +20,7 @@ The 3-SPAA_Exceptions Job does not use the SPAA Data Collector. Instead it runs 
 
 __CAUTION:__ The analysis tasks are preconfigured for this job. Never modify or deselect the selected analysis tasks.
 
-![Analysis Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/collection/spaaexceptionsanalysis.webp)
+![Analysis Selection](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/collection/spaaexceptionsanalysis.webp)
 
 The default analysis tasks are:
 
@@ -40,4 +40,4 @@ The default values for customizable parameters are:
 | --- | --- | --- | --- |
 | Open resources | #opengroups | Empty | Groups must be entered exactly as they are listed in SA_SPAA_Trustees. Copy and paste the Group name as it appears in the Name Column. |
 
-See the [Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/analysiscustomizableparameters.md) for additional information.
+See the [Configure the Customizable Parameters in an Analysis Task](../../../admin/jobs/job/configure/analysiscustomizableparameters.md) for additional information.

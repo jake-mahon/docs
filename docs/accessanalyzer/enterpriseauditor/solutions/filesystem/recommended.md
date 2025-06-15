@@ -2,7 +2,7 @@
 
 The File System Solution has been configured to inherit down from the __FileSystem__ > __Settings__ node for most jobs. However, it is a best practice to assign the host list and the Connection Profile at the data collection level. Once these are assigned to the job, it can be run manually or scheduled.
 
-_Remember,_ the credential permissions required for the scan and host lists are affected by the scan mode selected. See the [File System Scan Options](/docs/accessanalyzer/enterpriseauditor/requirements/solutions/filesystem/scanoptions.md) topic for additional information.
+_Remember,_ the credential permissions required for the scan and host lists are affected by the scan mode selected. See the [File System Scan Options](../../requirements/solutions/filesystem/scanoptions.md) topic for additional information.
 
 Dependencies
 
@@ -19,13 +19,13 @@ The 0-FSDFS System Scans Job is an exception and is set to the Default domain co
 
 If targeting Nasuni Edge Appliances, the 0-FS_Nasuni Job needs to be assigned a custom host list containing all on-premise Nasuni Edge Appliances and cloud filers.
 
-If using multiple proxy servers, these should also be configured within a different custom-created host list. Then assign the proxy servers host list on the [FSAA: Applet Settings](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/appletsettings.md) page of the File System Access Auditor Data Collector Wizard within the following jobs in the 0.Collection Job Group according to the type of auditing being conducted:
+If using multiple proxy servers, these should also be configured within a different custom-created host list. Then assign the proxy servers host list on the [FSAA: Applet Settings](../../admin/datacollector/fsaa/appletsettings.md) page of the File System Access Auditor Data Collector Wizard within the following jobs in the 0.Collection Job Group according to the type of auditing being conducted:
 
 - 1-FSAA System Scans Job for Access Auditing
 - 1-FSAC System Scans Job for Activity Auditing
 - 1-SEEK System Scans Job for Sensitive Data Discovery Auditing
 
-Windows clusters have special needs when it comes to a host list and the host inventory data. It is necessary to target the Windows File Server Cluster (name of the cluster) of interest when running a scan against a Windows File System Cluster. Within the Access Analyzer Master Host Table, there should be a host entry for the cluster as well as for each node. Additionally, each of these host entries must have the name of the cluster in the WinCluster column in the host inventory data. This may need to be updated manually. See the [Host Inventory](/docs/accessanalyzer/enterpriseauditor/admin/settings/hostinventory.md) topic for additional information.
+Windows clusters have special needs when it comes to a host list and the host inventory data. It is necessary to target the Windows File Server Cluster (name of the cluster) of interest when running a scan against a Windows File System Cluster. Within the Access Analyzer Master Host Table, there should be a host entry for the cluster as well as for each node. Additionally, each of these host entries must have the name of the cluster in the WinCluster column in the host inventory data. This may need to be updated manually. See the [Host Inventory](../../admin/settings/hostinventory.md) topic for additional information.
 
 __NOTE:__ The host targeted by the File System scans is only the host entry for the cluster. For example, the environment has a Windows File System Cluster named ```ExampleCluster1``` with three nodes named ```ExampleNodeA```, ```ExampleNodeB```, and ```ExampleNodeC```. There would be four host entries in the Access Analyzer Master Host Table: ```ExampleCluster1```, ```ExampleNodeA```, ```ExampleNodeB```, and ```ExampleNodeC```. Each of these four entries would have the same value of the cluster name in the __WinCluster__ column: ```ExampleCluster1```. Only the ```ExampleCluster1``` host would be in the host list targeted by the File System scans.
 
@@ -43,13 +43,13 @@ In order for the selected scan mode to be applied accurately for the target file
 
 Connection Profile
 
-The FSAA Data Collector requires permissions based on the platform being targeted for data collection as well as the scan mode selected. See the [File System Scan Options](/docs/accessanalyzer/enterpriseauditor/requirements/solutions/filesystem/scanoptions.md) topic and the [File System Supported Platforms](/docs/accessanalyzer/enterpriseauditor/requirements/target/filesystems.md) topic for necessary permissions for the supported target platforms. See the [Netwrix Activity Monitor Documentation](https://helpcenter.netwrix.com/category/activitymonitor) for the necessary permission for collecting activity data. Then create a custom Connection Profile containing the appropriate credentials for the targeted environment.
+The FSAA Data Collector requires permissions based on the platform being targeted for data collection as well as the scan mode selected. See the [File System Scan Options](../../requirements/solutions/filesystem/scanoptions.md) topic and the [File System Supported Platforms](../../requirements/target/filesystems.md) topic for necessary permissions for the supported target platforms. See the [Netwrix Activity Monitor Documentation](https://helpcenter.netwrix.com/category/activitymonitor) for the necessary permission for collecting activity data. Then create a custom Connection Profile containing the appropriate credentials for the targeted environment.
 
 The Connection Profile should be assigned under the __FileSystem__ > __0.Collection__ job’s Properties window on the __Connection__ tab. It is set to Use the Default Profile, as configured at the global settings level. However, since this may not be the Connection Profile with the necessary permissions for the assigned hosts, click the radio button for the __Select one of the following user defined profiles__ option and select the appropriate Connection Profile drop-down menu.
 
 _Remember,_ if targeting Nasuni Edge Appliances, the 0-FS_Nasuni Job needs to be assigned a custom Connection Profile containing the __API Access Key__ and __Passcode__ for each on-premise Nasuni Edge Appliance and cloud filer in the target environment. Nasuni API key names are case sensitive. When providing them, ensure they are entered in the exact same case as generated.
 
-See the [Connection](/docs/accessanalyzer/enterpriseauditor/admin/settings/connection/overview.md) topic for additional information.
+See the [Connection](../../admin/settings/connection/overview.md) topic for additional information.
 
 Schedule Frequency
 
@@ -63,15 +63,15 @@ Whatever schedule frequency may be configured, it is also recommended to streaml
 
 The other File System Solution sub-job groups can be run in any order, together or individually, after running the 0.Collection Job Group. The FileSystemOverview Job pulls information from both the 0.Collection Job Group and the other sub-job groups, and the report may contain blank sections if only select sub-job groups are run.
 
-___RECOMMENDED:___ If only conducting one or two types of auditing, scope the solution by disabling the undesired collection jobs. Disabling them allows the solution to run more efficiently. It is not recommended to delete any jobs. See the [Disable or Enable a Job](/docs/accessanalyzer/enterpriseauditor/admin/jobs/job/disableenable.md) topic for additional information.
+___RECOMMENDED:___ If only conducting one or two types of auditing, scope the solution by disabling the undesired collection jobs. Disabling them allows the solution to run more efficiently. It is not recommended to delete any jobs. See the [Disable or Enable a Job](../../admin/jobs/job/disableenable.md) topic for additional information.
 
-__NOTE:__ If targeting Nasuni Edge Appliances, it is necessary to add the [0-FS_Nasuni Job](/docs/accessanalyzer/enterpriseauditor/solutions/filesystem/collection/0-fs_nasuni.md) to the __0.Collection__ Job Group.
+__NOTE:__ If targeting Nasuni Edge Appliances, it is necessary to add the [0-FS_Nasuni Job](collection/0-fs_nasuni.md) to the __0.Collection__ Job Group.
 
 Query Configuration
 
 This solution can be run with the default query configuration. However, the most common customizations include:
 
-- Use proxy scanning architecture, see the [File System Data Collection Configuration for Proxy as a Service](/docs/accessanalyzer/enterpriseauditor/install/filesystemproxy/configuredatacollector.md) topic for instructions
+- Use proxy scanning architecture, see the [File System Data Collection Configuration for Proxy as a Service](../../install/filesystemproxy/configuredatacollector.md) topic for instructions
 - Default Scoping Options page > File Properties tab, optionally configure the following:
 
   - In the Scan for Probable Owner section, limit the number of probable owners to return per folder
@@ -102,7 +102,7 @@ This solution can be run with the default query configuration. However, the most
     - __1-SEEK System Scans__ Job for Sensitive Data Discovery Auditing
 - Scan Server Selection page, set the type of mode the scans will run on
 
-  - The mode configured must align with the provisioning of the credential and environment. See the [File System Scan Options](/docs/accessanalyzer/enterpriseauditor/requirements/solutions/filesystem/scanoptions.md) topic and the [File System Supported Platforms](/docs/accessanalyzer/enterpriseauditor/requirements/target/filesystems.md) topic for additional information.
+  - The mode configured must align with the provisioning of the credential and environment. See the [File System Scan Options](../../requirements/solutions/filesystem/scanoptions.md) topic and the [File System Supported Platforms](../../requirements/target/filesystems.md) topic for additional information.
   - Local Mode – All of the data collection processing is conducted by the Access Analyzer Console server across the network
   - Applet Mode – The File System applet is deployed to the target host when the job is executed to conduct data collection. The data is collected on the Windows target host where the applet is deployed. The final step in data collection is to compress and transfer the data collected in the SQLite databases, or Tier 2 databases, back to the Access Analyzer Console server. If the target host is a NAS device, the File System scans default to local mode for that host.
   - Proxy Mode with Applet – The File System applet is deployed to the Windows proxy server when the job is executed to conduct data collection. The data collection processing is initiated by the proxy server where the applet is deployed and leverages a local mode-type scan to each of the target hosts. The final step in data collection is to compress and transfer the data collected in the SQLite databases, or Tier 2 databases, back to the Access Analyzer Console server.

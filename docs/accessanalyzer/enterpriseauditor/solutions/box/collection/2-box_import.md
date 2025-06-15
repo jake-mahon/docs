@@ -6,7 +6,7 @@ The 2-Box_Import Job takes the data that has been collected from the 1-Box_Acces
 
 The Import Query uses the Box Data Collector and has been preconfigured to use the Import Box Permissions Category.
 
-![Queries for the 2-Box_Import Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/box/collection/importqueries.webp)
+![Queries for the 2-Box_Import Job](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/box/collection/importqueries.webp)
 
 The 2-Box_Import Job has the following query:
 

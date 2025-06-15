@@ -1,10 +1,10 @@
 # Protection Policies Page
 
-The Protection Policies page is accessible from the Navigation pane under Policy. It shows the configured protection policies, which are used to monitor local groups on a resource for changes. Only users or groups added to the protection policy are permitted. When the resource is scanned, any local group members that are not listed on the [Allowed Members Tab for Protection Policies](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/policyprotection/allowedmembers.md) are removed from the resource.
+The Protection Policies page is accessible from the Navigation pane under Policy. It shows the configured protection policies, which are used to monitor local groups on a resource for changes. Only users or groups added to the protection policy are permitted. When the resource is scanned, any local group members that are not listed on the [Allowed Members Tab for Protection Policies](../tab/policyprotection/allowedmembers.md) are removed from the resource.
 
-It is also possible to add the action _Invoke Protection Policy_ to the Post Session group of an activity. This will proactively run all protection policies that apply to the target resource when the session completes, instead of waiting for the scheduled sync. See the [Activities Page](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/activities.md) topic for additional information.
+It is also possible to add the action _Invoke Protection Policy_ to the Post Session group of an activity. This will proactively run all protection policies that apply to the target resource when the session completes, instead of waiting for the scheduled sync. See the [Activities Page](activities.md) topic for additional information.
 
-![Protection policies page](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/systemsettings/page.webp)
+![Protection policies page](../../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/systemsettings/page.webp)
 
 The pane on the left side of the page displays a list of the configured protection policies. This pane has the following features:
 
@@ -22,6 +22,6 @@ If any of these settings are modified, Save and Cancel buttons are displayed. Cl
 
 The tabs at the bottom of the main pane are for associating Resource, Members, and Schedule to the protection policy. See the following topics for additional information:
 
-- [Resources Tab for Protection Policies](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/policyprotection/resources.md)
-- [Allowed Members Tab for Protection Policies](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/policyprotection/allowedmembers.md)
-- [Schedule Tab for Protection Policies](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/policyprotection/schedule.md)
+- [Resources Tab for Protection Policies](../tab/policyprotection/resources.md)
+- [Allowed Members Tab for Protection Policies](../tab/policyprotection/allowedmembers.md)
+- [Schedule Tab for Protection Policies](../tab/policyprotection/schedule.md)

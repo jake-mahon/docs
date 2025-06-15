@@ -4,17 +4,17 @@ __NOTE:__ If you are a SaaS client this topic does not apply. You can skip direc
 
 Identity Manager Server can be installed on the same workstation as the database or on a separate workstation. If Identity Manager is installed on a separate workstation, it requires the SQL PowerShell components to function properly.
 
-Please make sure that the server requirements are met before going further. See the [Server](/docs/usercube_saas/usercube/installation-guide/requirements/server-requirements/index.md) topic for additional information.
+Please make sure that the server requirements are met before going further. See the [Server](../../requirements/server-requirements/index.md) topic for additional information.
 
 ## Server Working Directory
 
 The server executable is beeing been extracted to the working directory as ```Usercube-Server.exe``` and ```Usercube-Server.dll``` and will enable a user or IIS to run the Identity Manager Server. See the [
 Create a Working Directory
-](/docs/usercube_saas/usercube/installation-guide/production-ready/working-directory/index.md) topic for additional information.
+](../working-directory/index.md) topic for additional information.
 
 ## Set up the License Key
 
-The license key provided by Identity Manager must be set up in the __appsetting.json__ > __License attribute__. See the [Application Settings](/docs/usercube_saas/usercube/integration-guide/network-configuration/server-configuration/general-purpose/index.md) topic for additional information.
+The license key provided by Identity Manager must be set up in the __appsetting.json__ > __License attribute__. See the [Application Settings](../../../integration-guide/network-configuration/server-configuration/general-purpose/index.md) topic for additional information.
 
 ## Create an IIS Website
 
@@ -50,7 +50,7 @@ The following is mandatory:
 
 - __Application Pool__ > ```Usercube<Organization>``` > __Advanced Settings__ > __General__ > .NET CLR Version > ```No Managed Code```
 
-![IIS Settings](/img/product_docs/usercube/usercube/installation-guide/production-ready/server/iis_settings.webp)
+![IIS Settings](../../../../../../static/img/product_docs/usercube/usercube/installation-guide/production-ready/server/iis_settings.webp)
 
 An SSL Certificate should also be set to the IIS Server to perform HTTPS communication with end-users.
 
@@ -124,7 +124,7 @@ This guide will show you how to perform these operations using SQL Server Manage
 
 __Step 1 –__ Open SQL Server Management Studio (SSMS) and log in to access the server on which runs the Identity Manager Database with an account member of the __sysadmin__ or __securityadmin__ server-level role.
 
-![New Login](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/newlogin.webp)
+![New Login](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/install/application/newlogin.webp)
 
 __Step 2 –__ Expand the __Security__ and __Login__ nodes, and look for the Identity Manager service account in the list.
 
@@ -139,7 +139,7 @@ __Step 5 –__ From the __Login__ node, right-click the newly created login and 
 
 __Step 6 –__ Go to __User Mapping__and make sure ```Usercube/<Organization/>``` is checked (top panel), as well as __db_owner__ and __public__ (bottom panel).
 
-![Bulk](/img/product_docs/usercube/usercube/installation-guide/production-ready/server/bulk.webp)
+![Bulk](../../../../../../static/img/product_docs/usercube/usercube/installation-guide/production-ready/server/bulk.webp)
 
 __Step 7 –__ Right-click the __Server__ root node and select __Properties__, and in the __Permissions__ tab, select the service account or group name.
 
@@ -149,7 +149,7 @@ Identity Manager Server now has the required permissions to access the database.
 
 ### Set the working directory permissions
 
-The Identity Manager Server needs specific permissions on the working directory to run, read synchronization output, and write provisioning orders. See the [Server](/docs/usercube_saas/usercube/installation-guide/requirements/server-requirements/index.md) topic for additional information.
+The Identity Manager Server needs specific permissions on the working directory to run, read synchronization output, and write provisioning orders. See the [Server](../../requirements/server-requirements/index.md) topic for additional information.
 
 Up to four folders have to be considered:
 
@@ -160,7 +160,7 @@ Up to four folders have to be considered:
 
 See the [
 Create a Working Directory
-](/docs/usercube_saas/usercube/installation-guide/production-ready/working-directory/index.md) and [Application Settings](/docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) topics for additional information.
+](../working-directory/index.md) and [Application Settings](../../../integration-guide/network-configuration/agent-configuration/appsettings/index.md) topics for additional information.
 
 The following steps can be performed for each of the relevant directories.
 
@@ -177,7 +177,7 @@ The Identity Manager Server service account that was chosen previously:
 
   __Step 1 –__ Click on __Edit__ and then on __Add__.
 
-  ![Object Names](/img/product_docs/usercube/usercube/installation-guide/production-ready/server/enter-the-object-names-to-select.webp)
+  ![Object Names](../../../../../../static/img/product_docs/usercube/usercube/installation-guide/production-ready/server/enter-the-object-names-to-select.webp)
 
   __Step 2 –__ In the __Enter the object names to select__ textbox, enter the service account name in the down-level log on format, such as ```CONTOSO/UsercubeContosoServer```, then click __OK__.
 
@@ -189,7 +189,7 @@ The working directory permissions are all set.
 
 The same steps have to be performed on the runtime, the data collection and the provisioning orders directories. See the [
 Create a Working Directory
-](/docs/usercube_saas/usercube/installation-guide/production-ready/working-directory/index.md) and [Application Settings](/docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) topics for additional information.
+](../working-directory/index.md) and [Application Settings](../../../integration-guide/network-configuration/agent-configuration/appsettings/index.md) topics for additional information.
 
 ## Encryption and Authentication Key Pairs
 
@@ -246,7 +246,7 @@ The following parameters are used to link the file to Identity Manager in the ``
 
 Storing a ```.pfx``` file password in plain text in a production environment is strongly discouraged. The password should always be encrypted using the Usercube-Protect-CertificatePassword tool. See the [
 Usercube-Protect-CertificatePassword
-](/docs/usercube_saas/usercube/integration-guide/executables/references/protect-certificatepassword/index.md) topic for additional information.
+](../../../integration-guide/executables/references/protect-certificatepassword/index.md) topic for additional information.
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
@@ -287,11 +287,11 @@ Now that the Identity Manager Server has been provided with a service account wi
 
 The connection between the Server and the Database requires choosing an authentication method: [Windows Authentication](https://docs.microsoft.com/en-us/sql/relational-databases/security/choose-an-authentication-mode?view=sql-server-ver15#windows-authentication) or SQL Server authentication. See the [
 Connection to the Database
-](/docs/usercube_saas/usercube/integration-guide/network-configuration/server-configuration/database-connection/index.md) and [
+](../../../integration-guide/network-configuration/server-configuration/database-connection/index.md) and [
 Usercube-Protect-CertificatePassword
-](/docs/usercube_saas/usercube/integration-guide/executables/references/protect-certificatepassword/index.md) topics for additional information. Windows authentication will require the IIS identity to be set to the custom Windows service account used to log in to the Identity Manager's Windows Server session. SQL authentication will work with both the _built-in_ app pool identity and a custom service account. This authentication method will write the login and password directly in the connection string.
+](../../../integration-guide/executables/references/protect-certificatepassword/index.md) topics for additional information. Windows authentication will require the IIS identity to be set to the custom Windows service account used to log in to the Identity Manager's Windows Server session. SQL authentication will work with both the _built-in_ app pool identity and a custom service account. This authentication method will write the login and password directly in the connection string.
 
-```Runtime/appsettings.json``` is a technical configuration file that enables you to set up the connection between the Server and the Database through the ConnectionString attribute. See the [Network Configuration](/docs/usercube_saas/usercube/integration-guide/network-configuration/index.md) topic for additional information.
+```Runtime/appsettings.json``` is a technical configuration file that enables you to set up the connection between the Server and the Database through the ConnectionString attribute. See the [Network Configuration](../../../integration-guide/network-configuration/index.md) topic for additional information.
 
 The connection string is set up in the ```Runtime/appsettings.json``` configuration file which can be edited with any text editor, such as [Notepad++](https://notepad-plus-plus.org/downloads/).
 
@@ -344,7 +344,7 @@ This can be achieved using the [Microsoft Management Console (MMC)](https://en.w
 
 ## DNS
 
-Your organization's DNS needs to be updated according to the requirements indicated in Hostname and DNS. See the [Server](/docs/usercube_saas/usercube/installation-guide/requirements/server-requirements/index.md) topic for additional information.
+Your organization's DNS needs to be updated according to the requirements indicated in Hostname and DNS. See the [Server](../../requirements/server-requirements/index.md) topic for additional information.
 
 ## Test Your Installation
 
@@ -390,9 +390,9 @@ The next step consists in setting up one or more authentication methods for end-
 - [Integrated Windows Authentication (IWA)](https://docs.microsoft.com/en-us/aspnet/web-api/overview/security/integrated-windows-authentication)
 
 Everything you need to know about setting up authentication is provided in the Technical Configuration Guide. See the [
-End-User Authentication](/docs/usercube_saas/usercube/integration-guide/network-configuration/server-configuration/end-users-authentication/index.md) topic for additional information.
+End-User Authentication](../../../integration-guide/network-configuration/server-configuration/end-users-authentication/index.md) topic for additional information.
 
 ## What's Next?
 
 Install the Agent is the next step of the process. See the [
-Install the Agents](/docs/usercube_saas/usercube/installation-guide/production-ready/agent/index.md) topic for additional information.
+Install the Agents](../agent/index.md) topic for additional information.

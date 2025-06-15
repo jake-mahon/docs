@@ -15,7 +15,7 @@ result.
 Please follow the
 steps in the following article to acquire the number of Computers in Intune. Please send us screenshots like the ones in the article to let us know the number of machines.
 
-[If I have both Azure joined and Hybrid Azure AD joined machines, how do I count the exact number of licenses I need?](/docs/policypak/policypak/license/mdm/entraid.md)
+[If I have both Azure joined and Hybrid Azure AD joined machines, how do I count the exact number of licenses I need?](entraid.md)
 
 ## Part 2: Getting the Intune Company Name
 
@@ -31,7 +31,7 @@ Connect-MSGraph -AdminConsent
 Get-Organization | Select @{N = 'CompanyName'; E = { $_.displayName } } | out-file INTUNECOMPANYNAME.TXT
 ```
 
-See [MDM Intune company name troubleshooting](/docs/policypak/policypak/video/license/mdm.md)
+See [MDM Intune company name troubleshooting](../../video/license/mdm.md)
 
 ## Final Thoughts: Number of computers + Company Name
 

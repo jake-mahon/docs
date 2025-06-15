@@ -26,7 +26,7 @@ Remove-GroupMember
 
 Example:
 
-The following command removes the user Brian Regan from the membership of the group Event Management using the credentials set in the $Credentials environment variable. See the [Set the $Credentials Environment Variable](/docs/groupid/groupid/managementshell/parameters/setthecredential.md) topic for setting credentials in an environment variable.
+The following command removes the user Brian Regan from the membership of the group Event Management using the credentials set in the $Credentials environment variable. See the [Set the $Credentials Environment Variable](../parameters/setthecredential.md) topic for setting credentials in an environment variable.
 
 ```
 Remove-GroupMember -GroupIdentity "CN=Event Management,OU=Local Recruiting,OU=Recruiting,DC=HR,DC=Imanami,DC=US" -Identity "Brian Regan" -Credential $Cred

@@ -19,6 +19,6 @@ Netwrix 1Secure also provides possibility for generating state-in-time reports. 
 
 See the following topics for additional information:
 
-- [Apply Filters](/docs/1secure/admin/searchandreports/applyfilters.md)
+- [Apply Filters](applyfilters.md)
 - Create Reports with Custom Filters
-- [State In Time Risks Reports](/docs/1secure/admin/searchandreports/stateintime.md)
+- [State In Time Risks Reports](stateintime.md)

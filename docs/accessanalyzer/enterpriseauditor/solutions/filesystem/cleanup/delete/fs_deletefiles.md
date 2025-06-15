@@ -4,7 +4,7 @@ The FS_DeleteFiles job is designed to delete resources from targeted file server
 
 ## Parameter Configuration
 
-The Configuration section on a Job's overview page allows you to easily modify any customizable parameters used by analysis tasks in the job. See the [Parameter Configuration](/docs/accessanalyzer/enterpriseauditor/admin/jobs/job/overview.md#parameter-configuration) topic for instructions on how to edit parameters on a job overview page.
+The Configuration section on a Job's overview page allows you to easily modify any customizable parameters used by analysis tasks in the job. See the [Parameter Configuration](../../../../admin/jobs/job/overview.md#parameter-configuration) topic for instructions on how to edit parameters on a job overview page.
 
 The FS_DeleteFiles job has the following configurable parameter:
 
@@ -18,7 +18,7 @@ Navigate to the __FileSystem__ > __Cleanup__ > __4. Delete__ > __FS_DeleteFiles_
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the FS_DeleteFiles Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/cleanup/delete/deletefilesanalysis.webp)
+![Analysis Tasks for the FS_DeleteFiles Job](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/cleanup/delete/deletefilesanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -34,7 +34,7 @@ The default values for parameters that can be customized are:
 | --- | --- | --- | --- |
 | Determine candidates for deletion | @DELETE_THRESHOLD | 180 | Set the number of days without access after which a file becomes a candidate for deletion |
 
-See the [Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/analysiscustomizableparameters.md) topic for instructions to modify parameters.
+See the [Configure the Customizable Parameters in an Analysis Task](../../../../admin/jobs/job/configure/analysiscustomizableparameters.md) topic for instructions to modify parameters.
 
 ## Action Tasks for the FS_DeleteFiles Job
 
@@ -42,7 +42,7 @@ Navigate to the __FileSystem__ > __Cleanup__ > __4. Delete__ > __FS_DeleteFiles_
 
 __CAUTION:__ Do not enable the action unless it is required. Disable the action after execution to prevent making unintended and potentially harmful changes to Active Directory.
 
-![Action Tasks for the FS_DeleteFiles Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/cleanup/delete/deletefilesaction.webp)
+![Action Tasks for the FS_DeleteFiles Job](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/cleanup/delete/deletefilesaction.webp)
 
 The following actions are deselected by default:
 

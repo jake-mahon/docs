@@ -6,7 +6,7 @@ Here the logged-in user can manage his recycle bin. All deleted passwords to whi
 
 The following functions are available:
 
-![bin_4](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/extras/trash/bin_4.webp)
+![bin_4](../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/extras/trash/bin_4.webp)
 
 - __Restore__: The selected passwords are restored.
 

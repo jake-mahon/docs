@@ -8,8 +8,8 @@ The PgSQL_Configuration Job uses the SQL Data Collector.
 
 __CAUTION:__ Do not modify the query. The query is preconfigured for this job.
 
-![Query Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/postgresql/collection/configurationquery.webp)
+![Query Selection](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/postgresql/collection/configurationquery.webp)
 
 The query is:
 
-- PostgreSQL Database Sizing - Collects details about PostgreSQL databases. See the [SQL Data Collector](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/sql/overview.md) topic for additional information.
+- PostgreSQL Database Sizing - Collects details about PostgreSQL databases. See the [SQL Data Collector](../../../../admin/datacollector/sql/overview.md) topic for additional information.

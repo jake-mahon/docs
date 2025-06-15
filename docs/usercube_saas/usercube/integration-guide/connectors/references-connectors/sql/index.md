@@ -6,39 +6,39 @@ This page is about:
 
 - Database/[
   Generic SQL
-  ](/docs/usercube_saas/usercube/integration-guide/connectors/references-packages/generic-sql/index.md);
+  ](../../references-packages/generic-sql/index.md);
 - Database/[
   SQL Server
-  ](/docs/usercube_saas/usercube/integration-guide/connectors/references-packages/sql-server/index.md);
+  ](../../references-packages/sql-server/index.md);
 - Database/[
   MySQL
-  ](/docs/usercube_saas/usercube/integration-guide/connectors/references-packages/mysql/index.md);
+  ](../../references-packages/mysql/index.md);
 - Database/[
   ODBC
-  ](/docs/usercube_saas/usercube/integration-guide/connectors/references-packages/odbc/index.md);
+  ](../../references-packages/odbc/index.md);
 - Database[
   Oracle Database
-  ](/docs/usercube_saas/usercube/integration-guide/connectors/references-packages/oracle-database/index.md);
+  ](../../references-packages/oracle-database/index.md);
 - Database/[
   PostgreSQL
-  ](/docs/usercube_saas/usercube/integration-guide/connectors/references-packages/postgresql/index.md);
+  ](../../references-packages/postgresql/index.md);
 - [
   SAP ASE
-  ](/docs/usercube_saas/usercube/integration-guide/connectors/references-packages/sapase/index.md).
+  ](../../references-packages/sapase/index.md).
 
-![Package: Directory/Database/Generic SQL](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/sql/packages_sqlgeneric_v603.webp)
+![Package: Directory/Database/Generic SQL](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/sql/packages_sqlgeneric_v603.webp)
 
-![Package: Directory/Database/Microsoft SQL Server](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/sql/packages_sqlserver_v603.webp)
+![Package: Directory/Database/Microsoft SQL Server](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/sql/packages_sqlserver_v603.webp)
 
-![Package: Directory/Database/MySQL](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/sql/packages_sqlmy_v603.webp)
+![Package: Directory/Database/MySQL](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/sql/packages_sqlmy_v603.webp)
 
-![Package: Directory/Database/ODBC](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/sql/packages_sqlodbc_v603.webp)
+![Package: Directory/Database/ODBC](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/sql/packages_sqlodbc_v603.webp)
 
-![Package: Directory/Database/Oracle](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/sql/packages_sqloracle_v603.webp)
+![Package: Directory/Database/Oracle](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/sql/packages_sqloracle_v603.webp)
 
-![Package: Directory/Database/PostgreSQL](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/sql/packages_sqlpostgre_v603.webp)
+![Package: Directory/Database/PostgreSQL](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/sql/packages_sqlpostgre_v603.webp)
 
-![Package: Directory/Database/SAP ASE](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/sql/packages_sqlsap_v603.webp)
+![Package: Directory/Database/SAP ASE](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/sql/packages_sqlsap_v603.webp)
 
 ## Overview
 
@@ -66,7 +66,7 @@ This connector exports the content of any table from an SQL database and writes 
 
 This process is configured through a [
 Connection
-](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or the XML configuration, and in the ```appsettings.agent.json > Connections``` section:
+](../../../toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or the XML configuration, and in the ```appsettings.agent.json > Connections``` section:
 
 ```
 appsettings.agent.json
@@ -113,8 +113,8 @@ The identifier of the connection and thus the name of the subsection must:
 | Timeout   optional | __Type__    Int32   __Description__ Time period (in seconds) after which the request attempt is terminated and an error is generated. |
 |  |  |
 | --- | --- |
-| SqlCommand   optional | __Type__    String   __Description__ SQL request to be executed.   __Note:__ when not specified and ```SqlFile``` neither, then all the[ Entity Type Mapping ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) of this connector will be exported. |
-| SqlFile   optional | __Type__    String   __Description__ Path of the file containing the SQL request to be executed.   __Note:__ ignored when ```SqlCommand``` is specified.   __Note:__ when not specified and ```SqlFile``` neither, then all the [ Entity Type Mapping ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) of this connector will be exported. |
+| SqlCommand   optional | __Type__    String   __Description__ SQL request to be executed.   __Note:__ when not specified and ```SqlFile``` neither, then all the[ Entity Type Mapping ](../../../toolkit/xml-configuration/connectors/entitytypemapping/index.md) of this connector will be exported. |
+| SqlFile   optional | __Type__    String   __Description__ Path of the file containing the SQL request to be executed.   __Note:__ ignored when ```SqlCommand``` is specified.   __Note:__ when not specified and ```SqlFile``` neither, then all the [ Entity Type Mapping ](../../../toolkit/xml-configuration/connectors/entitytypemapping/index.md) of this connector will be exported. |
 | CsvEncoding   default value: UTF-8 | __Type__    String   __Description__ Encoding of the file. [See the list of available encodings](https://learn.microsoft.com/en-us/dotnet/api/system.text.encoding#see-the-list-of-available-encodings). |
 | ProviderClassFullName   optional | __Type__    String   __Description__ Invariant name to register the provider.   __Note:__ required when querying a DBMS other than Microsoft SQL Server. |
 | ProviderDllName   optional | __Type__    String   __Description__ DLL, i.e. name and extension, to be loaded by the connector.   __Note:__ the DLL must be in the ```Runtime``` folder.   __Note:__ required when querying a DBMS other than Microsoft SQL Server. |
@@ -127,17 +127,17 @@ Connect to a DBMS other than Microsoft SQL Server by proceeding as follows:
 1. Download and extract the package.
    > For MySQL, download the package from [MySql.Data](https://www.nuget.org/packages/MySql.Data/).
    >
-   > ![MySQL: Download Package](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/sql/sql_downloadpackage.webp)
+   > ![MySQL: Download Package](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/sql/sql_downloadpackage.webp)
 2. Copy the DLL file (corresponding to the correct .Net version) to the ```Runtime``` folder.
    > For MySQL, the DLL is ```MySql.Data.dll```.
 3. Get the value required for ```ProviderClassFullName``` and ```ProviderDllName```:
    - for a DBMS handled by Identity Manager's packages, by accessing the [
      References: Packages
-     ](/docs/usercube_saas/usercube/integration-guide/connectors/references-packages/index.md);
+     ](../../references-packages/index.md);
 
      > For MySQL:
      >
-     > ![Package Characteristics Example](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/sql/sql_packagecharacteristics.webp)
+     > ![Package Characteristics Example](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/sql/sql_packagecharacteristics.webp)
    - for another DBMS, by accessing the DBMS' documentation for .Net and finding a class with __Factory__ in its name.
 
      > If MySQL were not part of Identity Manager's packages, you would see [MySqlClientFactory](https://dev.mysql.com/doc/dev/connector-net/latest/api/data_api/MySql.Data.MySqlClient.MySqlClientFactory.html).
@@ -185,7 +185,7 @@ Connect to a DBMS other than Microsoft SQL Server by proceeding as follows:
 
 ### Output details
 
-This connector is meant to generate to the [Application Settings](/docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)Export Output folder one CSV file, named ```<connectionIdentifier>.csv``` whose columns correspond to the columns returned by the SQL query.
+This connector is meant to generate to the [Application Settings](../../../network-configuration/agent-configuration/appsettings/index.md)Export Output folder one CSV file, named ```<connectionIdentifier>.csv``` whose columns correspond to the columns returned by the SQL query.
 
 ## Fulfill
 
@@ -203,10 +203,10 @@ Data protection can be ensured through:
 
 - [
   Connection
-  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md), configured in the ```appsettings.encrypted.agent.json``` file;
+  ](../../../toolkit/xml-configuration/connectors/connection/index.md), configured in the ```appsettings.encrypted.agent.json``` file;
 - An [
   Connection
-  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) safe;
+  ](../../../toolkit/xml-configuration/connectors/connection/index.md) safe;
 
 | Attribute | Naming Convention for the Key in Azure Key Vault |
 | --- | --- |
@@ -218,6 +218,6 @@ Data protection can be ensured through:
 | ProviderDllName | ```Connections--<identifier>--ProviderDllName``` |
 | Timeout | ```Connections--<identifier>--Timeout``` |
 
-[](/docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)[
+[](../../../network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)[
 Connection
-](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) is not available for this connector.
+](../../../toolkit/xml-configuration/connectors/connection/index.md) is not available for this connector.

@@ -21,14 +21,14 @@ Permissions
 The CommandLineUtility Data Collector executes a command line utility and captures the output. It is configured through the Command Line Utility Data Collector Wizard, which contains the following pages:
 
 - Welcome
-- [CLU: Profile Type](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/commandlineutility/profiletype.md)
-- [CLU: Profile Parameters](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/commandlineutility/profileparameters.md)
-- [CLU: Execution Options](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/commandlineutility/executionoptions.md)
-- [CLU: Define Fields](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/commandlineutility/definefields.md)
-- [CLU: Script Editor](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/commandlineutility/scripteditor.md)
-- [CLU: Results](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/commandlineutility/results.md)
-- [CLU: Summary](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/commandlineutility/summary.md)
+- [CLU: Profile Type](profiletype.md)
+- [CLU: Profile Parameters](profileparameters.md)
+- [CLU: Execution Options](executionoptions.md)
+- [CLU: Define Fields](definefields.md)
+- [CLU: Script Editor](scripteditor.md)
+- [CLU: Results](results.md)
+- [CLU: Summary](summary.md)
 
-![Command Line Utility Data Collector Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
+![Command Line Utility Data Collector Wizard Welcome page](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
 
 The Welcome page can be hidden by selecting the __Do not display this page the next time__ checkbox when the wizard is open and configuration settings are saved.

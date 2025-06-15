@@ -1,6 +1,6 @@
 # WMICollector Data Collector
 
-The WMICollector Data Collector identifies data for certain types of WMI classes and namespaces. The WMICollector Data Collector is a core component of Access Analyzer, but it has been preconfigured within the Windows Solution. While the data collector is available with all Access Analyzer license options, the Windows Solution is only available with a special Access Analyzer license. See the [Windows Solution](/docs/accessanalyzer/enterpriseauditor/solutions/windows/overview.md) topic for additional information.
+The WMICollector Data Collector identifies data for certain types of WMI classes and namespaces. The WMICollector Data Collector is a core component of Access Analyzer, but it has been preconfigured within the Windows Solution. While the data collector is available with all Access Analyzer license options, the Windows Solution is only available with a special Access Analyzer license. See the [Windows Solution](../../../solutions/windows/overview.md) topic for additional information.
 
 Protocols
 
@@ -21,11 +21,11 @@ Permissions
 The WMICollector Data Collector is configured through the WMI Browser wizard, which contains the following wizard pages:
 
 - Welcome
-- [WMICollector: Sample Host](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/wmicollector/samplehost.md)
-- [WMICollector: Classes](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/wmicollector/classes.md)
-- [WMICollector: Properties](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/wmicollector/properties.md)
-- [WMICollector: Summary (Results)](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/wmicollector/summary.md)
+- [WMICollector: Sample Host](samplehost.md)
+- [WMICollector: Classes](classes.md)
+- [WMICollector: Properties](properties.md)
+- [WMICollector: Summary (Results)](summary.md)
 
-![WMI Browser wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
+![WMI Browser wizard Welcome page](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
 
 The Welcome page can be hidden by selecting the __Do not display this page the next time__ checkbox when the wizard is open and configuration settings are saved.

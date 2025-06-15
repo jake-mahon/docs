@@ -15,13 +15,13 @@ Q: What versions of Office do you have ADMX settings for?
 A: We have the ADMXs there for most versions of Office. When new ones come out, we update them for you automatically.
 
 Q: How is this kept up to date?  
-A: We do it for you. For Windows, Office and Endpoint Policy Manager ADMX settings. See [Endpoint Policy ManagerCloud: Use in-cloud ADMX settings maintained by Endpoint Policy Manager for Windows, Office, Chrome and more](/docs/policypak/policypak/video/cloud/admxsettings.md)
+A: We do it for you. For Windows, Office and Endpoint Policy Manager ADMX settings. See [Endpoint Policy ManagerCloud: Use in-cloud ADMX settings maintained by Endpoint Policy Manager for Windows, Office, Chrome and more](../video/cloud/admxsettings.md)
 
 Q: Do you have Windows 10 and 11 settings in Endpoint Policy Manager Cloud?  
 A: Yes. See [How Netwrix PolicyPak Enables Flexibility of Different Group Policy Stores for Windows 10 and Windows 11](https://www.policypak.com/resources/pp-blog/group-policy-stores/) for additional information.
 
 Q: What about Custom ADMX, like Acrobat and Chrome? Can I upload those myself?  
-A: Yes. See [Endpoint Policy ManagerCloud: Upload and use your own ADMX files to Endpoint Policy Manager Cloud](/docs/policypak/policypak/video/cloud/admxfiles.md)
+A: Yes. See [Endpoint Policy ManagerCloud: Upload and use your own ADMX files to Endpoint Policy Manager Cloud](../video/cloud/admxfiles.md)
 
 Q: Why don't you have editors for all the other types: GPPrefs, Security, and Endpoint Policy Manager Settings?  
 A: We have nearly all of them actually at this point.

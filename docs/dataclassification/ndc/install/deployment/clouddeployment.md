@@ -39,4 +39,4 @@ Scalability and performance testing revealed that based on the number of objects
 | Up to 64, 000, 000 | Large-size environment |  |
 | More than 64, 000, 000 | Extra-large environment | System architect's assistance is required for deployment planning requires |
 
-Again, consider that for the large-size and extra-large environments, it is strongly recommended to configure a cluster of several NDC Servers and apply DQS mode to these clustered servers. See [Configuring NDC Servers Cluster and Load Balancing with DQS Mode](/docs/dataclassification/ndc/requirements/dqsmode.md) for details.
+Again, consider that for the large-size and extra-large environments, it is strongly recommended to configure a cluster of several NDC Servers and apply DQS mode to these clustered servers. See [Configuring NDC Servers Cluster and Load Balancing with DQS Mode](../../requirements/dqsmode.md) for details.

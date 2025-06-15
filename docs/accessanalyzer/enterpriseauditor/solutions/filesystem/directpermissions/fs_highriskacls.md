@@ -8,7 +8,7 @@ View the analysis tasks by navigating to the __FileSystem__ > __2.Direct Permiss
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the FS_HighRiskACLs Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/directpermissions/highriskaclsanalysis.webp)
+![Analysis Tasks for the FS_HighRiskACLs Job](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/directpermissions/highriskaclsanalysis.webp)
 
 The following analysis tasks are selected by default:
 

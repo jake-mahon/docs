@@ -4,7 +4,7 @@ The role model, with its computation and enforcement, is at the heart of Identit
 
 Make sure to read the introduction on entitlement management first. See the [
 Entitlement Management
-](/docs/usercube_saas/usercube/introduction-guide/overview/entitlement-management/index.md) topic for additional information.
+](../../introduction-guide/overview/entitlement-management/index.md) topic for additional information.
 
 ## Roles
 
@@ -20,7 +20,7 @@ In this way, the role model can be seen as a [Role-Based Access Control](https:/
 
 An [
 Automate Role Assignments
-](/docs/usercube_saas/usercube/user-guide/optimize/assignment-automation/automate-role-assignment/index.md) gives an entitlement to a user, usually based on (at least) one criterion from the user's data. Assignment rules are:
+](../../user-guide/optimize/assignment-automation/automate-role-assignment/index.md) gives an entitlement to a user, usually based on (at least) one criterion from the user's data. Assignment rules are:
 
 - single role rules which assign single roles;
 - composite role rules which assign composite roles;
@@ -36,20 +36,20 @@ Identity Manager gives users access to given resources in the managed systems, b
 
 The company's policy for entitlement assignment is enforced by Identity Manager with the computation of the role model, through the [
 Compute Role Model Task
-](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md) It applies all the configured rules, thus:
+](../toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md) It applies all the configured rules, thus:
 
 - helping build a catalog of all available entitlements in the managed systems; See the [
   Create Roles in Bulk
-  ](/docs/usercube_saas/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/index.md) topic for additional information.
+  ](../../user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/index.md) topic for additional information.
 - helping build the rules that define the assignment policy, i.e. the expected entitlement assignments for all users; See the[
   Perform Role Mining
-  ](/docs/usercube_saas/usercube/user-guide/optimize/assignment-automation/role-mining/index.md) topic for additional information.
+  ](../../user-guide/optimize/assignment-automation/role-mining/index.md) topic for additional information.
 - automating entitlement assignment; See the[
   Automate Role Assignments
-  ](/docs/usercube_saas/usercube/user-guide/optimize/assignment-automation/automate-role-assignment/index.md) topic for additional information.
+  ](../../user-guide/optimize/assignment-automation/automate-role-assignment/index.md) topic for additional information.
 - generating the provisioning orders that enable writing to the managed systems; See the[
   Create a Provisioning Rule
-  ](/docs/usercube_saas/usercube/user-guide/set-up/provisioning-rule-creation/index.md) topic for additional information.
+  ](../../user-guide/set-up/provisioning-rule-creation/index.md) topic for additional information.
 - detecting assignments in the managed systems that do not comply with the policy; See the[
   Review Non-conforming Assignments
-  ](/docs/usercube_saas/usercube/user-guide/administrate/non-conforming-assignment-review/index.md) topic for additional information.
+  ](../../user-guide/administrate/non-conforming-assignment-review/index.md) topic for additional information.

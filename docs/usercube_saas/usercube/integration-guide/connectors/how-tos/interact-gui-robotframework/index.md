@@ -10,9 +10,9 @@ Consider an external system that is accessible through a GUI program, and that d
 
 This guide will focus only on how to interact with a GUI application. The guide on how to write a Robot Framework script explains the basics of Robot Framework. The basic prerequisites can be found on the Robot Framework connector page. See the [
 Write a Robot Framework Script
-](/docs/usercube_saas/usercube/integration-guide/connectors/how-tos/write-fulfill-robotframework-script/index.md) and [
+](../write-fulfill-robotframework-script/index.md) and [
 Robot Framework
-](/docs/usercube_saas/usercube/integration-guide/connectors/references-connectors/robotframework/index.md) topics for additional information.
+](../../references-connectors/robotframework/index.md) topics for additional information.
 
 The requirements specific to the Robot Framework FlaUI library are as follows:
 
@@ -32,11 +32,11 @@ This tool lets you choose the UIA (UI Automation) version. Picking UIA3 should w
 
 The FlaUI inspection tool shows each window that is open on the computer. To find the element the script is supposed to interact with, it is possible to manually search through the windows, and through the elements. However, the easiest way is to use the Hover Mode, which is accessible in the tool bar by clicking on __Mode__ > __Hover Mode (use Ctrl)__. To see the XPath, click on __Mode__ > __Show XPath__.
 
-![Show XPath](/img/product_docs/usercube/usercube/integration-guide/connectors/how-tos/interact-gui-robotframework/robotframeworkflaui_flauishowxpath.webp)
+![Show XPath](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/connectors/how-tos/interact-gui-robotframework/robotframeworkflaui_flauishowxpath.webp)
 
 To see the XPath of an element, hover over the element, and press control. A red box should appear around the element, and the FlaUI inspection tool should show the element's information. The XPath should be at the bottom left of the FlaUI element.
 
-![Highlight Element](/img/product_docs/usercube/usercube/integration-guide/connectors/how-tos/interact-gui-robotframework/robotframeworkflaui_flauixpathexample.webp)
+![Highlight Element](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/connectors/how-tos/interact-gui-robotframework/robotframeworkflaui_flauixpathexample.webp)
 
 As an example, imagine an application showing a list of files and folders. Targeting a specific file would produce an XPath in the shape of ```/Window/Pane[3]/Pane/Pane[2]/List/Group[1]/ListItem[1]```. The important parts of this path are the beginning and the end. The beginning of the XPath specifies the window. The middle part of the XPath, in most cases, is irrelevant.
 

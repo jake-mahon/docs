@@ -2,7 +2,7 @@
 
 This section provides instructions for installing Access Analyzer and the initial configuration required when first launching the Access Analyzer Console. It also includes additional information, such as how to secure the Access Analyzer Database, and configuring the Web Console for viewing reports outside of the Access Analyzer Console.
 
-Prior to installing Access Analyzer, please ensure that all of the prerequisites have been met. See the [Requirements](/docs/accessanalyzer/enterpriseauditor/requirements/overview.md) topic for more information.
+Prior to installing Access Analyzer, please ensure that all of the prerequisites have been met. See the [Requirements](../../requirements/overview.md) topic for more information.
 
 ## Binaries
 
@@ -17,17 +17,17 @@ There are a variety of Access Analyzer binaries based on the organizational audi
 - File System Proxy binary – Installation package for the File System Proxy Scanning option
 
   - If your license includes Sensitive Data Discovery (SDD), the necessary SDD components are installed
-  - See the [File System Proxy Service Installation](/docs/accessanalyzer/enterpriseauditor/install/filesystemproxy/wizard.md) topic for additional information.
+  - See the [File System Proxy Service Installation](../filesystemproxy/wizard.md) topic for additional information.
 - Activity Monitor binary – Installation package for monitoring Windows and NAS device file system activity
 
   - See the Installation topic of the [Netwrix Activity Monitor Documentation](https://helpcenter.netwrix.com/category/activitymonitor) for additional information.
 - SharePoint Agent binary – Installation package for the SharePoint Agent (optional for Access Auditing of SharePoint farms)
 
   - If your license includes Sensitive Data Discovery (SDD), the necessary SDD components are installed
-  - See the [SharePoint Agent Installation](/docs/accessanalyzer/enterpriseauditor/install/sharepointagent/overview.md) topic for additional information.
+  - See the [SharePoint Agent Installation](../sharepointagent/overview.md) topic for additional information.
 - Access Analyzer MAPI CDO binary – One of two installation package needed to enable the Exchange Solution
 
-  - See the [StealthAUDIT MAPI CDO Installation](/docs/accessanalyzer/stealthaudit/install_guides/mapi_cdo_install/stealthaudit_mapi_cdo_installation.md) topic for additional information.
+  - See the [StealthAUDIT MAPI CDO Installation](../../../stealthaudit/install_guides/mapi_cdo_install/stealthaudit_mapi_cdo_installation.md) topic for additional information.
 - Access Analyzer Reporting Services binary – Installation package for Survey Action Module Reporting Service
 - Netwrix Access Information Center binary – Installation package for the Netwrix Access Information Center
 
@@ -36,6 +36,6 @@ There are a variety of Access Analyzer binaries based on the organizational audi
 
 ## License Key
 
-Your Netwrix Representative will provide the necessary license key. The Access Analyzer license key (```StealthAUDIT.lic```) is needed for the Access Analyzer Core Installation. See the [Access Analyzer Core Installation](/docs/accessanalyzer/enterpriseauditor/install/application/wizard.md) topic for additional information.
+Your Netwrix Representative will provide the necessary license key. The Access Analyzer license key (```StealthAUDIT.lic```) is needed for the Access Analyzer Core Installation. See the [Access Analyzer Core Installation](wizard.md) topic for additional information.
 
-To grant access to additional Solution sets or enable Sensitive Data Discovery in an existing Access Analyzer installation, a new license key is required. To update the Access Analyzer license key without installing a new version of the Access Analyzer Console, see the [Update License Key](/docs/accessanalyzer/enterpriseauditor/install/application/updatelicense.md) topic for instructions.
+To grant access to additional Solution sets or enable Sensitive Data Discovery in an existing Access Analyzer installation, a new license key is required. To update the Access Analyzer license key without installing a new version of the Access Analyzer Console, see the [Update License Key](updatelicense.md) topic for instructions.

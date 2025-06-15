@@ -20,7 +20,7 @@ With authentication disabled, you cannot authenticate in Directory Manager; henc
 
 While logging on Directory Manager, you provide wrong password on the Directory Manager Authenticate window for the specified number of times, the following message appears:
 
-![GroupID Authenticate](/img/product_docs/groupid/groupid/portal/user/manage/locked.webp)
+![GroupID Authenticate](../../../../../../static/img/product_docs/groupid/groupid/portal/user/manage/locked.webp)
 
 Now you cannot login to portal unless you unlock your identity store account. Follow the instructions given below to unlock your account:
 
@@ -148,7 +148,7 @@ Step 7 – You can now log in to portal with your account and perform the requir
 
 While authenticating on the portal, if enrolled or unenrolled users provide a wrong answer for the specified number of times, their account gets locked and the following message is displayed:
 
-![accountlockout](/img/product_docs/groupid/groupid/portal/user/manage/accountlockout.jpg)
+![accountlockout](../../../../../../static/img/product_docs/groupid/groupid/portal/user/manage/accountlockout.jpg)
 
 This type of account unlock can be resolved in one of the following two ways:
 

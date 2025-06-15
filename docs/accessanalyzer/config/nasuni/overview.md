@@ -8,13 +8,13 @@ The credentials used by the Access Analyzer scans must have the following permis
 
 - Group membership in the local Administrators group
 
-This is in addition to the API Key Name and Passcode which must be generated for each on-premise Nasuni Edge Appliance and cloud filer. The credential used within the assigned Connection Profile for these target hosts requires these permissions. See the [Nasuni Edge Appliance Access & Sensitive Data Auditing Configuration](/docs/accessanalyzer/config/nasuni/access.md) topic for instructions.
+This is in addition to the API Key Name and Passcode which must be generated for each on-premise Nasuni Edge Appliance and cloud filer. The credential used within the assigned Connection Profile for these target hosts requires these permissions. See the [Nasuni Edge Appliance Access & Sensitive Data Auditing Configuration](access.md) topic for instructions.
 
-__NOTE:__ These permissions are in addition to those needed to either deploy applet scans for running scans in proxy mode with applet or installing the File System Proxy Service Permissions for running scans in proxy mode as a service. See the [File System Scan Options](/docs/accessanalyzer/enterpriseauditor/requirements/solutions/filesystem/scanoptions.md) topic for additional information.
+__NOTE:__ These permissions are in addition to those needed to either deploy applet scans for running scans in proxy mode with applet or installing the File System Proxy Service Permissions for running scans in proxy mode as a service. See the [File System Scan Options](../../enterpriseauditor/requirements/solutions/filesystem/scanoptions.md) topic for additional information.
 
 ## Access & Sensitive Data Auditing Port Requirements
 
-The firewall ports required by Access Analyzer for Access Auditing (FSAA) and/or Sensitive Data Discovery Auditing scans are based on the File System scan mode to be used. See the [File System Scan Options](/docs/accessanalyzer/enterpriseauditor/requirements/solutions/filesystem/scanoptions.md) topic for additional information.
+The firewall ports required by Access Analyzer for Access Auditing (FSAA) and/or Sensitive Data Discovery Auditing scans are based on the File System scan mode to be used. See the [File System Scan Options](../../enterpriseauditor/requirements/solutions/filesystem/scanoptions.md) topic for additional information.
 
 ## Activity Auditing Permissions
 
@@ -31,7 +31,7 @@ For integration between the Activity Monitor and Access Analyzer, the credential
 
 Nasuni Edge Appliance Requirements
 
-Additionally, it is necessary to generate an API Access Key for Nasuni activity monitoring. See the [Nasuni Edge Appliance Activity Auditing Configuration](/docs/accessanalyzer/config/nasuni/activity.md) topic for instructions.
+Additionally, it is necessary to generate an API Access Key for Nasuni activity monitoring. See the [Nasuni Edge Appliance Activity Auditing Configuration](activity.md) topic for instructions.
 
 Activity Monitor Archive Location
 

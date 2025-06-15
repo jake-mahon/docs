@@ -8,7 +8,7 @@ Navigate to the __AWS__ > __3.Groups__ > __AWS_GroupMembers__ > __Configure__ no
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the AWS_GroupMembers Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/aws/groups/groupmembersanalysis.webp)
+![Analysis Tasks for the AWS_GroupMembers Job](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/aws/groups/groupmembersanalysis.webp)
 
 The following analysis tasks are selected by default:
 

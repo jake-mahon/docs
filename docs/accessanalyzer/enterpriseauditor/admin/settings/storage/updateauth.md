@@ -6,7 +6,7 @@ __Step 1 –__ Navigate to the __Settings__ > __Storage__ page.
 
 __Step 2 –__ Locate and select a __Storage Profile__ to update.
 
-![Specify a new password below option on Storage page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/storage/updateauth.webp)
+![Specify a new password below option on Storage page](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/storage/updateauth.webp)
 
 __Step 3 –__ In the Authentication section, click the __Specify a new password below__ radio button.
 

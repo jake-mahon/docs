@@ -9,17 +9,17 @@ The monitoring process is based on two technologies:
 
 Auditing must be enabled on the master Panzura node and optionally overridden on the subordinate nodes to support different deployment scenarios depending on the expected load and network latency. A single agent monitors several Panzura nodes.
 
-![panzurasingleagntmonitor](/img/product_docs/activitymonitor/config/panzura/panzurasingleagntmonitor.webp)
+![panzurasingleagntmonitor](../../../../static/img/product_docs/activitymonitor/config/panzura/panzurasingleagntmonitor.webp)
 
 Audit events are distributed between two agents. Audit settings are overridden on one Panzura node.
 
-![auditeventstwoagnt_panzura](/img/product_docs/activitymonitor/config/panzura/auditeventstwoagnt_panzura.webp)
+![auditeventstwoagnt_panzura](../../../../static/img/product_docs/activitymonitor/config/panzura/auditeventstwoagnt_panzura.webp)
 
 The monitoring process relies on the Third Party Vendor Support auditing feature of the Panzura CloudFS platform, which uses the AMQP protocol for event delivery. Unlike typical uses of the AMQP protocol that require messaging middleware, the Panzura master and subordinate nodes connect directly to the Netwrix Activity Monitor Agent, eliminating the need for middleware.
 
 Netwrix Activity Monitor uses Panzura API to register itself as a consumer of auditing events. It also uses the API to perform periodic checks to ensure the auditing settings in Panzura are correct. The credentials to access the API must be specified when a Panzura host is added to Activity Monitor for monitoring. Additionally, the IP address of the port is 4497 by default and can be customized in the properties for the Agent.
 
-__NOTE:__ See the [Panzura](/docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/panzura.md) topic for additional information on Panzura Host.
+__NOTE:__ See the [Panzura](../../activitymonitor/admin/monitoredhosts/add/panzura.md) topic for additional information on Panzura Host.
 
 To prepare Panzura CloudFS for monitoring, auditing must be enabled.
 

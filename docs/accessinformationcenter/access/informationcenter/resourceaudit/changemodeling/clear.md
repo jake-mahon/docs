@@ -4,7 +4,7 @@ Modeled changes remain modeled for as long as the Access Information Center user
 
 __Step 1 –__ Click the __Change Group Membership__ button in the Group Membership pane to open the Group Membership Changes window.
 
-![Group Membership Changes window](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/changemodeling/clearcommit.webp)
+![Group Membership Changes window](../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/changemodeling/clearcommit.webp)
 
 __Step 2 –__ Select all changes being modeled. Use the Window’s ctrl and left-click key command to select multiple changes.
 

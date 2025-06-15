@@ -1,8 +1,8 @@
 # Activity Report
 
-The Activity report at the database and table levels displays activity on the selected resource logged during the selected date range. The __Include Subfolders__ option is active by default until removed. See the [Results Pane](/docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/overview.md#results-pane) topic for information on changing this option.
+The Activity report at the database and table levels displays activity on the selected resource logged during the selected date range. The __Include Subfolders__ option is active by default until removed. See the [Results Pane](../../navigate/overview.md#results-pane) topic for information on changing this option.
 
-![Activity report at the database and table levels](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/sql/databasetable/databaseactivity.webp)
+![Activity report at the database and table levels](../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/sql/databasetable/databaseactivity.webp)
 
 This report is comprised of the following columns:
 
@@ -25,4 +25,4 @@ This report is comprised of the following columns:
 - Target Path – Query that triggered the activity event to be stored
 - Process Name – Not populated for SQL Server reports
 
-The table data grid functions the same way as other table grids. See the [Data Grid Features](/docs/accessinformationcenter/access/general/datagrid.md) topic for additional information.
+The table data grid functions the same way as other table grids. See the [Data Grid Features](../../../../general/datagrid.md) topic for additional information.

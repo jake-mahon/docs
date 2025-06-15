@@ -2,42 +2,42 @@
 
 Follow the steps to create a Storage Profile.
 
-![Add Storage profile option](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/storage/addprofile.webp)
+![Add Storage profile option](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/storage/addprofile.webp)
 
 __Step 1 –__ Click __Add Storage profile__ at the top of the Storage view.
 
-![New Storage profile added](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/storage/addprofilename.webp)
+![New Storage profile added](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/storage/addprofilename.webp)
 
 __Step 2 –__ A new profile line appears in the Storage Profiles list with a generic name. Change the Profile name to a unique and descriptive name.
 
-![Server Name field](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/storage/addprofileservername.webp)
+![Server Name field](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/storage/addprofileservername.webp)
 
 __Step 3 –__ Type the SQL __Server name__ in the textbox provided. This can be a NetBIOS name, a fully qualified domain name, or an IP Address. If the SQL Server specified is configured to use a named instance, provide the __Instance name__ in the next textbox.
 
-![Command timeout field](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/storage/addprofiletimeout.webp)
+![Command timeout field](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/storage/addprofiletimeout.webp)
 
 __Step 4 –__ Specify the time in minutes that must expire before Access Analyzer halts any SQL queries running for that amount of time.
 
-![Authentication options](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/storage/addprofileauthentication.webp)
+![Authentication options](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/storage/addprofileauthentication.webp)
 
 __Step 5 –__ Select the radio button for the appropriate authentication mode. If using __SQL Server authentication__ , provide a __User name__ and __Password__ in the textboxes.
 
 ___RECOMMENDED:___ When possible, use Windows Authentication. Windows Authentication is more secure than SQL Server Authentication. See the Microsoft [Choose an authentication mode](https://learn.microsoft.com/en-us/sql/relational-databases/security/choose-an-authentication-mode) article for additional information.
 
-| ![Good connection test](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/storage/addprofilegoodconnection.webp) | ![Bad connection test](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/storage/addprofilebadconnection.webp) |
+| ![Good connection test](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/storage/addprofilegoodconnection.webp) | ![Bad connection test](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/storage/addprofilebadconnection.webp) |
 | --- | --- |
 | Good Connection Test | Bad Connection Test |
 
 __Step 6 –__ It is recommended to test the credentials provided at this point. The radio button for __Use existing database__ should be selected by default. Test the SQL Server connection by clicking the drop-down arrow for an existing database. If the connection is established, a listing of databases appears. If the connection cannot be established, an error warning displays.
 
-![Database options](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/storage/addprofiledatabase.webp)
+![Database options](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/storage/addprofiledatabase.webp)
 
 __Step 7 –__ Set the database through one of the following options:
 
 - Use existing database – Click this radio button and select a database from this list provided in the drop-down menu
 - Create new database – Click this radio button and provide a unique, descriptive name in the textbox
 
-![Connection report](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/connectionreport.webp)
+![Connection report](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/install/application/connectionreport.webp)
 
 __Step 8 –__ Click __Apply__ and a Connection report window opens. The Connection report checks for the appropriate permissions and lists any that are missing. If no permissions are present, an error message appears in the Connection report window. When there is a ```Successful connection test```, click __Close__.
 

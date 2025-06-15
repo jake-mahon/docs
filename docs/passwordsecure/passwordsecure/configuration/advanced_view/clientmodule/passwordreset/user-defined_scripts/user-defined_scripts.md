@@ -2,7 +2,7 @@
 
 ## Individual solutions using your own scripts
 
-If your requirements cannot be met using the [Scripts](/docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/passwordreset/scripts/scripts.md), it is also possible to create your own Powershell scripts. These scripts need to meet certain requirements to be used in Netwrix Password Secure.
+If your requirements cannot be met using the [Scripts](../scripts/scripts.md), it is also possible to create your own Powershell scripts. These scripts need to meet certain requirements to be used in Netwrix Password Secure.
 
 ## Storage location, name and call
 

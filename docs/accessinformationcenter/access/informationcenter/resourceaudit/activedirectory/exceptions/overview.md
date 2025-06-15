@@ -2,7 +2,7 @@
 
 The following report is available at the __Exceptions__ node:
 
-- [Exceptions Report](/docs/accessinformationcenter/access/informationcenter/resourceaudit/activedirectory/exceptions/exceptions.md)
+- [Exceptions Report](exceptions.md)
 
 The Exceptions node displays when exceptions have been identified on the selected domain. When it is present, it can be expanded to view the exception type level reports. The following nodes may show under the Exceptions node for a domain when that exception type has been identified:
 
@@ -15,4 +15,4 @@ The Exceptions node displays when exceptions have been identified on the selecte
 - Stale Membership – Groups with a high percentage of effective members that are stale users
 - Stale Users – Users who have not logged onto the domain for an extended period of time
 
-The Exceptions report for each exception type level displays filtered exception information. See the [Exceptions by Type Report](/docs/accessinformationcenter/access/informationcenter/resourceaudit/activedirectory/exceptions/exceptionsbytype.md) topic for additional information.
+The Exceptions report for each exception type level displays filtered exception information. See the [Exceptions by Type Report](exceptionsbytype.md) topic for additional information.

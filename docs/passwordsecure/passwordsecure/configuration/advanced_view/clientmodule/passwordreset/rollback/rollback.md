@@ -8,7 +8,7 @@ If an error occurs while running a script, a rollback is initiated. This ensures
 
 The following diagram shows when and according to which criteria a rollback is initiated:
 
-![rollback run](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/passwordreset/rollback/rollback_1-en.webp)
+![rollback run](../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/passwordreset/rollback/rollback_1-en.webp)
 
 ## Procedure
 

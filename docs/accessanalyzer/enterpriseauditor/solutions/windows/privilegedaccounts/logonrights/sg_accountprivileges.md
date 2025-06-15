@@ -12,7 +12,7 @@ The SG_AccountPrivileges job uses the PowerShell Data Collector for the followin
 
 __CAUTION:__ The query is preconfigured for this job. Never modify the query.
 
-![Queries for the SG_AccountPrivileges Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/windows/privilegedaccounts/logonrights/accountprivilegesquery.webp)
+![Queries for the SG_AccountPrivileges Job](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/windows/privilegedaccounts/logonrights/accountprivilegesquery.webp)
 
 The query for the SG_AccountPrivileges job is:
 
@@ -24,7 +24,7 @@ Navigate to the __Windows__ > __Privileged Accounts__ > __Logon Rights__ > __SG_
 
 __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis task is preconfigured for this job.
 
-![Analysis Tasks for the SG_AccountPrivileges Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/windows/privilegedaccounts/logonrights/accountprivilegesanalysis.webp)
+![Analysis Tasks for the SG_AccountPrivileges Job](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/windows/privilegedaccounts/logonrights/accountprivilegesanalysis.webp)
 
 The default analysis task is:
 

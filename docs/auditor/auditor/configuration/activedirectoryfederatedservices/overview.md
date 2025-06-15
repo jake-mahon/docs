@@ -11,7 +11,7 @@ Active Directory Federation Services (AD FS) server role can be assigned:
 
 Multiple AD FS federation servers can be included in a __farm__, a group of connected servers with configuration replicated between them. The first AD FS federation server you set up in the farm becomes the __primary__ server. Other federation servers you add to the farm will become __secondary__ servers.
 
-Make sure you have Windows Remote Management properly configured on your Auditor console computer. See the [Software Requirements](/docs/auditor/auditor/requirements/software.md) topic for additional information.
+Make sure you have Windows Remote Management properly configured on your Auditor console computer. See the [Software Requirements](../../requirements/software.md) topic for additional information.
 
 You can configure your IT Infrastructure for monitoring in one of the following ways:
 
@@ -34,7 +34,7 @@ You can configure your IT Infrastructure for monitoring in one of the following
   - Windows Audit policy must be configured on each server in the farm. For all Windows server versions Run the _auditpol_ utility with the following parameters:
 
     - ```auditpol.exe /set /subcategory:"Application Generated" /failure:enable /success:enable```
-  - Adjust log size and retention settings for __Security__ log and for __AD FS Admin__ log (under __Applications and Service logs__). See [Adjusting Event Log Size and Retention Settings](/docs/auditor/auditor/configuration/windowsserver/eventlog.md) for details.
+  - Adjust log size and retention settings for __Security__ log and for __AD FS Admin__ log (under __Applications and Service logs__). See [Adjusting Event Log Size and Retention Settings](../windowsserver/eventlog.md) for details.
   - If AD FS Admin logging is disabled, you should enable it.
   - See the Configure AD FS farm manually topic for additional information.
 
@@ -44,11 +44,11 @@ Audit settings can be applied automatically if your monitoring plan has the prim
 
 __Step 1 –__ Select the AD FS data source in this monitoring plan (top row under the header), click __Edit data source__ to open its settings.
 
-![mp_adfs_listing_thumb_0_0](/img/product_docs/auditor/auditor/configuration/activedirectoryfederatedservices/mp_adfs_listing_thumb_0_0.webp)
+![mp_adfs_listing_thumb_0_0](../../../../../static/img/product_docs/auditor/auditor/configuration/activedirectoryfederatedservices/mp_adfs_listing_thumb_0_0.webp)
 
 __Step 2 –__ In the __Configure audit settings__ section, select __Adjust audit settings automatically__ check box.
 
-![mp_data_source_ad_fs_thumb_0_0](/img/product_docs/auditor/auditor/configuration/activedirectoryfederatedservices/mp_data_source_ad_fs_thumb_0_0.webp)
+![mp_data_source_ad_fs_thumb_0_0](../../../../../static/img/product_docs/auditor/auditor/configuration/activedirectoryfederatedservices/mp_data_source_ad_fs_thumb_0_0.webp)
 
 __Step 3 –__ Save the settings.
 
@@ -77,14 +77,14 @@ __Step 2 –__ Windows Audit policy must be configured on each server in the far
 ```auditpol.exe /set /subcategory:"Application Generated" /failure:enable /success:enable
 ```
 
-__Step 3 –__  Adjust log size and retention settings for __Security__ log and for __AD FS Admin__ log (under __Applications and Service logs__). See the [Adjusting Event Log Size and Retention Settings](/docs/auditor/auditor/configuration/windowsserver/eventlog.md) topic for additional information.
+__Step 3 –__  Adjust log size and retention settings for __Security__ log and for __AD FS Admin__ log (under __Applications and Service logs__). See the [Adjusting Event Log Size and Retention Settings](../windowsserver/eventlog.md) topic for additional information.
 
 If AD FS Admin logging is disabled, you should enable it.
 
 _Remember,_ do the following:
 
-- Configure Data Collecting Account as described in the [Permissions for AD FS Auditing](/docs/auditor/auditor/configuration/activedirectoryfederatedservices/permissions.md) topic.
-- Configure ports as described in the [AD FS Ports](/docs/auditor/auditor/configuration/activedirectoryfederatedservices/ports.md) topic.
+- Configure Data Collecting Account as described in the [Permissions for AD FS Auditing](permissions.md) topic.
+- Configure ports as described in the [AD FS Ports](ports.md) topic.
 
 ## AD FS Servers Data Collection
 

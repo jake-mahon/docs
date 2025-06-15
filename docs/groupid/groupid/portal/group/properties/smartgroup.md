@@ -22,7 +22,7 @@ These areas are displayed if the query only fetches messaging system recipients.
 
 __Query Designer__
 
-To modify the query, click the __Query Designer__ button. This launches the [Query Designer](/docs/groupid/groupid/portal/group/querydesigner/overview.md) dialog box, where you can modify the query.
+To modify the query, click the __Query Designer__ button. This launches the [Query Designer](../querydesigner/overview.md) dialog box, where you can modify the query.
 
 Smart Groups and Dynasties in a Microsoft Entra IDbased identity store use a device structured query language while those in an Active Directory based identity store use LDAP queries to update group membership.
 

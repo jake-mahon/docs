@@ -14,8 +14,8 @@ Data Collectors
 
 This solution employs the following data collector to scan the target environment:
 
-- [ADInventory Data Collector](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/overview.md)
-- [Box Data Collector](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/box/overview.md)
+- [ADInventory Data Collector](../../admin/datacollector/adinventory/overview.md)
+- [Box Data Collector](../../admin/datacollector/box/overview.md)
 
 ## Permissions
 
@@ -37,7 +37,7 @@ Box scans require the Enterprise Admin or Co-Admin account credentials to genera
 
 __NOTE:__ Scans run with Co-Admin account credentials will complete. However, the data returned from the scan might not include content owned by the Enterprise Admin account.
 
-See the [Recommended Configurations for the Box Solution](/docs/accessanalyzer/enterpriseauditor/solutions/box/recommended.md) topic for additional information.
+See the [Recommended Configurations for the Box Solution](../../solutions/box/recommended.md) topic for additional information.
 
 ## Ports
 

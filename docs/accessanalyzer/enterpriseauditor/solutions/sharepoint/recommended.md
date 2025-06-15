@@ -18,17 +18,17 @@ The host list assignment should be assigned under the __SharePoint__ > __0.Colle
 
 Since SharePoint Online environments can only be targeted for Access Auditing and Sensitive Data Discovery Auditing, it is best practice to set the host list at the job level.
 
-See the [Add Hosts](/docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/actions/add.md) topic for additional information.
+See the [Add Hosts](../../admin/hostmanagement/actions/add.md) topic for additional information.
 
 Connection Profile
 
-The SPAA Data Collector requires a specific set of permissions. See the [SharePoint Scan Options](/docs/accessanalyzer/enterpriseauditor/requirements/solutions/sharepoint/scanoptions.md) and [SharePoint Support](/docs/accessanalyzer/enterpriseauditor/requirements/target/sharepoint.md) topics for the necessary permissions for both on-premises and online target environments. Then create a custom Connection Profile containing the appropriate credentials for the targeted environment. If a single Connection Profile contains both on-premises and online credentials, it is necessary for the online credentials to be above the on-premises credentials in the Connection Profile credentials list.
+The SPAA Data Collector requires a specific set of permissions. See the [SharePoint Scan Options](../../requirements/solutions/sharepoint/scanoptions.md) and [SharePoint Support](../../requirements/target/sharepoint.md) topics for the necessary permissions for both on-premises and online target environments. Then create a custom Connection Profile containing the appropriate credentials for the targeted environment. If a single Connection Profile contains both on-premises and online credentials, it is necessary for the online credentials to be above the on-premises credentials in the Connection Profile credentials list.
 
 The Connection Profile should be assigned under the __SharePoint__ > __0.Collection__ > __Settings__ > __Connection__ node. It is set to __Use the Default Profile__, as configured at the global settings level. However, since this may not be the Connection Profile with the necessary permissions for the assigned hosts, select the __Select one of the following user defined profiles__ option and select the appropriate Connection Profile from the drop-down menu.
 
 The jobs within the 5.Effective Access Audits Job Group import CSV files from the jobs’ directories using the TextSearch Data Collector. Therefore, it is necessary to assign a Connection Profile with rights on the Access Analyzer Console server to access the CSV file saved in the job’s directory. The Connection Profile can be set at either the __Effective Access Audits__ > __Settings__ > __Connection__ node (applies to both jobs) or in the job’s Properties window on the Connection tab.
 
-See the [Connection](/docs/accessanalyzer/enterpriseauditor/admin/settings/connection/overview.md) topic for additional information.
+See the [Connection](../../admin/settings/connection/overview.md) topic for additional information.
 
 Schedule Frequency
 
@@ -40,7 +40,7 @@ The 0.Collection Jobs must be run first and in order. RunSystem Scans jobs and t
 
 The Access Information Center requires the execution of the 2-SPAA_BulkImport Job default analysis tasks in order for permission/access reports to be accessible. For activity reports, the Access Information Center requires the execution of both the 2-SPAA Bulk Import Job default analysis tasks and the 2-SPAC Bulk Import Job default analysis tasks.
 
-___RECOMMENDED:___ If only conducting one or two types of auditing, scope the solution by disabling the undesired collection jobs. Disabling them allows the solution to run more efficiently. It is not recommended to delete any jobs. See the [Disable or Enable a Job](/docs/accessanalyzer/enterpriseauditor/admin/jobs/job/disableenable.md) topic for additional information.
+___RECOMMENDED:___ If only conducting one or two types of auditing, scope the solution by disabling the undesired collection jobs. Disabling them allows the solution to run more efficiently. It is not recommended to delete any jobs. See the [Disable or Enable a Job](../../admin/jobs/job/disableenable.md) topic for additional information.
 
 Query Configuration
 

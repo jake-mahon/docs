@@ -8,17 +8,17 @@ This guide is intended to be read by Identity Manager administrators, i.e. power
 
 ## Prior Knowledge
 
-This guide presumes some knowledge of Identity Manager on the part of the reader who should have previously read the [Introduction Guide](/docs/usercube_saas/usercube/introduction-guide/index.md) in order to be aware of the main purposes, principles and capabilities of Identity Manager.
+This guide presumes some knowledge of Identity Manager on the part of the reader who should have previously read the [Introduction Guide](../introduction-guide/index.md) in order to be aware of the main purposes, principles and capabilities of Identity Manager.
 
 Using this guide does not require any advanced IT skills. All the configuration steps take place through Identity Manager's UI or MS Excel files.
 
-Netwrix Identity Manager (formerly Usercube)strongly recommends starting from the [Introduction Guide](/docs/usercube_saas/usercube/introduction-guide/index.md) to fully benefit from the User Guide's content.
+Netwrix Identity Manager (formerly Usercube)strongly recommends starting from the [Introduction Guide](../introduction-guide/index.md) to fully benefit from the User Guide's content.
 
 ## Overview
 
 This guide is made of step-by-step procedures that take the reader through setting up Identity Manager from scratch and creating IGA value as quickly as possible.
 
-The procedures are meant to guide the reader through a standard setup, based on Identity Manager's IGA Core Solution, and with Netwrix Identity Manager (formerly Usercube) suggestions and recommendations. Any advanced configuration can be performed later using the content of the [Integration Guide](/docs/usercube_saas/usercube/integration-guide/index.md).
+The procedures are meant to guide the reader through a standard setup, based on Identity Manager's IGA Core Solution, and with Netwrix Identity Manager (formerly Usercube) suggestions and recommendations. Any advanced configuration can be performed later using the content of the [Integration Guide](../integration-guide/index.md).
 
 Thus, even when having very specific needs, Netwrix Identity Manager (formerly Usercube) still recommends starting the project with the basics presented in this guide. The IGA solution can be enhanced later on with the help of our experts. This way, IGA value can already be delivered while the project continues for optimization purposes.
 
@@ -30,7 +30,7 @@ Some activities are grouped together when they depend on each other to create va
 
 While some activities must be carried out before others for technical and/or functional reasons, the order is not absolute. Please follow the instructions and recommendations detailed with the [
 Global Process
-](/docs/usercube_saas/usercube/user-guide/global-process/index.md).
+](global-process/index.md).
 
 All activities are organized into bigger sections which are distinguishable by their functional intent: set up; administrate; optimize; deploy and maintain.
 
@@ -60,7 +60,7 @@ Learn how to maintain the solution, because the project is iterative. Learn how 
 
 Start by studying the [
 Global Process
-](/docs/usercube_saas/usercube/user-guide/global-process/index.md). that details every activity in their respective sections and how they relate to one another. You will get a good view of the steps to take from start to finish.
+](global-process/index.md). that details every activity in their respective sections and how they relate to one another. You will get a good view of the steps to take from start to finish.
 
 Follow the path, stop at each activity, and go check out the details on the matching page of the guide, in the corresponding section. There you will find recommendations and practical steps to complete the activity and test it. Then you can resume following the path.
 

@@ -4,13 +4,13 @@ Video: For a quick overview of how to manage the Privacy tab using Endpoint Poli
 
 The Privacy tab, shown in Figure 10, lets you specify how cookies should be handled and which websites are allowed and blocked.
 
-![ie_appset_tab_by_tab_6](/img/product_docs/policypak/policypak/applicationsettings/preconfigured/internetexplorer/tab/ie_appset_tab_by_tab_6.webp)
+![ie_appset_tab_by_tab_6](../../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/preconfigured/internetexplorer/tab/ie_appset_tab_by_tab_6.webp)
 
 Figure 10. Cookie settings in the Privacy tab.
 
 In the IE AppSet, the dropdown menu in Figure 11 can be used to set how cookies are handled for the Internet zone. It is important to read the note below the entry you select.
 
-![ie_appset_tab_by_tab_7](/img/product_docs/policypak/policypak/applicationsettings/preconfigured/internetexplorer/tab/ie_appset_tab_by_tab_7.webp)
+![ie_appset_tab_by_tab_7](../../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/preconfigured/internetexplorer/tab/ie_appset_tab_by_tab_7.webp)
 
 Figure 11. Configuring cookie settings in the Privacy tab.
 
@@ -21,13 +21,13 @@ Additionally, the Per Site Privacy special section can also be set here. On the 
 
 This will place the site into the "Per Site Privacy Actions" list and will specify "Block" or "Allow." You can also choose to turn on the Pop-Up Blocker within the IE Privacy tab, as shown in >Figure 12.
 
-![ie_appset_tab_by_tab_8](/img/product_docs/policypak/policypak/applicationsettings/preconfigured/internetexplorer/tab/ie_appset_tab_by_tab_8.webp)
+![ie_appset_tab_by_tab_8](../../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/preconfigured/internetexplorer/tab/ie_appset_tab_by_tab_8.webp)
 
 Figure 12. Pop-up Blocker settings can be found in the Privacy tab.
 
 The corresponding dialog can be seen in the IE AppSet in Figure 13.
 
-![ie_appset_tab_by_tab_9](/img/product_docs/policypak/policypak/applicationsettings/preconfigured/internetexplorer/tab/ie_appset_tab_by_tab_9.webp)
+![ie_appset_tab_by_tab_9](../../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/preconfigured/internetexplorer/tab/ie_appset_tab_by_tab_9.webp)
 
 Figure 13. Configuring the Pop-up Blocker settings in the Privacy tab.
 

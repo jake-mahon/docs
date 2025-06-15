@@ -2,7 +2,7 @@
 
 How to create a connector dedicated to the automation of identity management (creation, update, deletion), via the synchronization of HR data into Identity Manager and internal provisioning. See the[
 Connect to a Managed System
-](/docs/usercube_saas/usercube/user-guide/set-up/connect-system/index.md)provisioning.
+](../../set-up/connect-system/index.md)provisioning.
 
 ## Overview
 
@@ -21,7 +21,7 @@ Moreover, in the long run it poses a few problems as HR data usually misses cruc
 
 Hence we choose to build the first iteration of the project upon a manual data upload to [
 Create the Workforce Repository
-](/docs/usercube_saas/usercube/user-guide/set-up/initial-identities-loading/index.md).
+](../../set-up/initial-identities-loading/index.md).
 
 This way, we do not have to wait for the agent's implementation to create the first profiles and start connecting systems (AD, SAB, SAP, etc.). Thus value is created faster and we can focus on IGA activities such as the review of orphaned and unused accounts, eliminating risk earlier in the process.
 
@@ -31,9 +31,9 @@ We can still connect HR data, later on, to check consistency between our identit
 
 An HR connector is considered an inbound connector, as it writes to the central identity repository inside Identity Manager.
 
-![Inbound System=](/img/product_docs/usercube/usercube/user-guide/optimize/hr-connector-creation/connectorcreation_inbound.webp)
+![Inbound System=](../../../../../../static/img/product_docs/usercube/usercube/user-guide/optimize/hr-connector-creation/connectorcreation_inbound.webp)
 
-As Identity Manager is able to feed all managed systems, it can also feed itself thanks to specific connections such as the [InternalWorkflow](/docs/usercube_saas/usercube/integration-guide/connectors/references-connectors/internalworkflow/index.md) connection. It means that the corresponding connector is able to launch workflows within Identity Manager and keep track.
+As Identity Manager is able to feed all managed systems, it can also feed itself thanks to specific connections such as the [InternalWorkflow](../../../integration-guide/connectors/references-connectors/internalworkflow/index.md) connection. It means that the corresponding connector is able to launch workflows within Identity Manager and keep track.
 
 Typically, an HR connector with such a connection would be able to launch workflows inside Identity Manager for identity creation, update and deletion, based on HR files.
 
@@ -47,7 +47,7 @@ This operation should be performed in cooperation with HR staff who can access H
 
 See the [
 Create the Workforce Repository
-](/docs/usercube_saas/usercube/user-guide/set-up/initial-identities-loading/index.md)topic for additional information.
+](../../set-up/initial-identities-loading/index.md)topic for additional information.
 
 ## Create an HR Connector
 
@@ -55,27 +55,27 @@ Create an HR connector by proceeding as follows:
 
 1. Outside Identity Manager, [
    Model the Data
-   ](/docs/usercube_saas/usercube/user-guide/set-up/connect-system/connector-modeling/index.md)of your connector.
+   ](../../set-up/connect-system/connector-modeling/index.md)of your connector.
 2. Declare an HR connector using your local agent. See the [
    Create the Connector
-   ](/docs/usercube_saas/usercube/user-guide/set-up/connect-system/connector-declaration/index.md) topic for additional information.
+   ](../../set-up/connect-system/connector-declaration/index.md) topic for additional information.
 
-   ![HR Connector Declaration](/img/product_docs/usercube/usercube/user-guide/optimize/hr-connector-creation/hr_connectordeclaration_v602.webp)
-3. Create an Export CSV connection for each HR file to connect. See the [Create a Connection](/docs/usercube_saas/usercube/user-guide/set-up/connect-system/connection-creation/index.md) topic for additional information.
+   ![HR Connector Declaration](../../../../../../static/img/product_docs/usercube/usercube/user-guide/optimize/hr-connector-creation/hr_connectordeclaration_v602.webp)
+3. Create an Export CSV connection for each HR file to connect. See the [Create a Connection](../../set-up/connect-system/connection-creation/index.md) topic for additional information.
 
-   ![HR Connection](/img/product_docs/usercube/usercube/user-guide/optimize/hr-connector-creation/hr_connection_v602.webp)
-4. [Create an Entity Type](/docs/usercube_saas/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md) corresponding to your model. For example:
+   ![HR Connection](../../../../../../static/img/product_docs/usercube/usercube/user-guide/optimize/hr-connector-creation/hr_connection_v602.webp)
+4. [Create an Entity Type](../../set-up/connect-system/entity-type-creation/index.md) corresponding to your model. For example:
 
-   ![HR Entity Type - Scalar Properties](/img/product_docs/usercube/usercube/user-guide/optimize/hr-connector-creation/hr_entitytypes_v602.webp)
+   ![HR Entity Type - Scalar Properties](../../../../../../static/img/product_docs/usercube/usercube/user-guide/optimize/hr-connector-creation/hr_entitytypes_v602.webp)
 
-   ![HR Entity Type - Navigation Properties](/img/product_docs/usercube/usercube/user-guide/optimize/hr-connector-creation/hr_entitytypen_v602.webp)
+   ![HR Entity Type - Navigation Properties](../../../../../../static/img/product_docs/usercube/usercube/user-guide/optimize/hr-connector-creation/hr_entitytypen_v602.webp)
 5. Don't forget to reload and [
    Synchronize Data
-   ](/docs/usercube_saas/usercube/user-guide/set-up/synchronization/index.md) to access HR data within Identity Manager.
+   ](../../set-up/synchronization/index.md) to access HR data within Identity Manager.
 
-   ![Reload](/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/entity-type-creation/key-selection/entitytypecreation_reload_v522.webp)
+   ![Reload](../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/entity-type-creation/key-selection/entitytypecreation_reload_v522.webp)
 
-   ![Synchronize Job](/img/product_docs/usercube/usercube/user-guide/set-up/synchronization/synchro_executionjobs_v602.webp)
+   ![Synchronize Job](../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/synchronization/synchro_executionjobs_v602.webp)
 
 ## Verify HR Connector Creation
 
@@ -84,12 +84,12 @@ In order to verify the process:
 1. Launch synchronization.
 2. Access the connector's logs (from __Job Results__ on the connector's dashboard) to ensure that synchronization completed successfully.
 
-   ![Jobs Results](/img/product_docs/usercube/usercube/user-guide/set-up/synchronization/synchro_results_v603.webp)
+   ![Jobs Results](../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/synchronization/synchro_results_v603.webp)
 3. Check that the entity types have been added to the left menu of the home page.
 
-   ![Test Entity Type](/img/product_docs/usercube/usercube/user-guide/optimize/hr-connector-creation/hr_validatemenu_v600.webp)
+   ![Test Entity Type](../../../../../../static/img/product_docs/usercube/usercube/user-guide/optimize/hr-connector-creation/hr_validatemenu_v600.webp)
 4. Access the relevant entity types (from the menu items on the left of the home page) to check synchronized resources, by navigating in the UI from the accounts through a sample of associations, via the Eye icon:
 
-   ![Eye Icon](/img/product_docs/usercube/usercube/user-guide/set-up/synchronization/iconeye_v600.svg)
+   ![Eye Icon](../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/synchronization/iconeye_v600.svg)
 
    You should seek configuration validation, not validation of the actual data being synchronized.

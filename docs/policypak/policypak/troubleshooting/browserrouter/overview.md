@@ -4,13 +4,13 @@ We have two guides online to help you troubleshoot Endpoint Policy Manager Brows
 
 If you're having problems getting Endpoint Policy Manager Browser Router to work, see the following guide:
 
-[How to quickly troubleshoot Endpoint Policy Manager Browser Router](/docs/policypak/policypak/troubleshooting/browserrouter/quick.md).
+[How to quickly troubleshoot Endpoint Policy Manager Browser Router](quick.md).
 
 If you're having problems getting Endpoint Policy Manager Browser Router to route between browsers as expected, see the following guide:
 
-[Troubleshooting routing between browsers.](/docs/policypak/policypak/troubleshooting/browserrouter/betweenbrowsers.md).
+[Troubleshooting routing between browsers.](betweenbrowsers.md).
 
-Additionally, Endpoint Policy Manager Browser Router has extensive logging, which needs to be turned on. You can do this using the Endpoint Policy Manager Browser Router ADMX templates and turning on logging. A video of the process can be found here: [Troubleshooting with ADMX files](/docs/policypak/policypak/video/troubleshooting/admxfiles.md).
+Additionally, Endpoint Policy Manager Browser Router has extensive logging, which needs to be turned on. You can do this using the Endpoint Policy Manager Browser Router ADMX templates and turning on logging. A video of the process can be found here: [Troubleshooting with ADMX files](../../video/troubleshooting/admxfiles.md).
 
 Log files for Endpoint Policy Manager Browser Router are found in the two following places:
 

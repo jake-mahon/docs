@@ -4,9 +4,9 @@ The SharePoint Agent is capable of auditing permissions and content, or Access A
 
 This topic provides information on the installation and upgrade processes of the SharePoint Agent. It also provides information on the permissions needed by the service account used to run the Access Auditing (SPAA) and Sensitive Data Discovery Auditing scans against the targeted SharePoint environment.
 
-For information on the required prerequisites and permissions, see the [SharePoint Agent Permissions](/docs/accessanalyzer/enterpriseauditor/requirements/solutions/sharepoint/agentpermissions.md) topic.
+For information on the required prerequisites and permissions, see the [SharePoint Agent Permissions](../../requirements/solutions/sharepoint/agentpermissions.md) topic.
 
-The version of the SharePoint Agent must also match the major version of Access Analyzer. See the [What's New](/docs/accessanalyzer/enterpriseauditor/whatsnew.md) topic for additional information.
+The version of the SharePoint Agent must also match the major version of Access Analyzer. See the [What's New](../../whatsnew.md) topic for additional information.
 
 ## Supported Platforms
 

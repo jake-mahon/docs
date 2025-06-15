@@ -1,6 +1,6 @@
 # Getting Started: Netwrix Privilege Secure + Endpoint Policy Manager
 
-__NOTE:__ See the [Netwrix Privilege Secure and the NPS/Endpoint Policy Manager Client](/docs/policypak/policypak/video/leastprivilege/integration/privilegesecureclient.md) video for an overview of Netwrix Privilege Secure + Endpoint Policy Manager better together.
+__NOTE:__ See the [Netwrix Privilege Secure and the NPS/Endpoint Policy Manager Client](../../../video/leastprivilege/integration/privilegesecureclient.md) video for an overview of Netwrix Privilege Secure + Endpoint Policy Manager better together.
 
 The first policy type to enable theNetwrix Privilege Secure server and Endpoint Policy Manager client integration is a new Least Privilege Manager Global Policy. The three steps below cover a basic configuration.
 
@@ -12,7 +12,7 @@ __Step 3 –__ Specify the Netwrix Privilege Secure server URL and port. See the
 
 Other settings in the Global Netwrix Privilege Secure pane are optional and self explanatory.
 
-![getting_started_netwrix_privilege](/img/product_docs/policypak/policypak/integration/privilegesecure/gettingstarted/getting_started_netwrix_privilege.webp)
+![getting_started_netwrix_privilege](../../../../../../static/img/product_docs/policypak/policypak/integration/privilegesecure/gettingstarted/getting_started_netwrix_privilege.webp)
 
 Next, you’ll create a Endpoint Policy Manager rule like you did earlier to perform an operation.
 
@@ -25,4 +25,4 @@ With Endpoint Policy Manager performing the work, you can Elevate an application
 
 On the __Least Privilege Manager – Configure Netwrix Privilege Secure Access Policy__ page you can check the checkbox and configure the setting for __Resource Based Policy__ or __Credential Based Policy__.
 
-![getting_started_netwrix_privilege_1](/img/product_docs/policypak/policypak/integration/privilegesecure/gettingstarted/getting_started_netwrix_privilege_1.webp)
+![getting_started_netwrix_privilege_1](../../../../../../static/img/product_docs/policypak/policypak/integration/privilegesecure/gettingstarted/getting_started_netwrix_privilege_1.webp)

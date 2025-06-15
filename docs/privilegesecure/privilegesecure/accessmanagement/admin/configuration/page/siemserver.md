@@ -6,7 +6,7 @@ SIEM Servers define where to send the event data, how the connection should be e
 
 __Step 1 –__ Navigate to the __Configuration__ > __SIEM__ > __SIEM Templates__ page.
 
-![siemservers](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/page/siemservers.webp)
+![siemservers](../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/page/siemservers.webp)
 
 __Step 2 –__ Enter the following information:
 
@@ -22,7 +22,7 @@ __Step 2 –__ Enter the following information:
 
 Events destined for SIEM Servers are sent to a queue. The SIEM service is responsible for pulling events out the queue and processing them. Multiple SIEM services may be used to process high volumes of events.
 
-![SIEM Serivce Page](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/page/siemservice.webp)
+![SIEM Serivce Page](../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/page/siemservice.webp)
 
 Events processed may be viewed by selecting the SIEM service in the Service Node page.
 

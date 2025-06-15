@@ -4,7 +4,7 @@ The Filter by Message page is used to define the filter conditions of the search
 
 - Mailbox Search
 
-![ExchangePS Data Collector Wizard Filter by Message Conditions page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/filtermessage.webp)
+![ExchangePS Data Collector Wizard Filter by Message Conditions page](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/filtermessage.webp)
 
 In the Select Conditions section, choose the filter logic:
 
@@ -36,7 +36,7 @@ In the Select Search Mailbox Parameters section, select the desired filter param
 
 The Date Range Selection window is opened by the __Specify Date Range...__ option for a date related filter on the Filter by Message page.
 
-![Date Range Selection window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/daterangeselectionwindow.webp)
+![Date Range Selection window](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/daterangeselectionwindow.webp)
 
 Select the range category on the left and configure the range setting in the enabled fields:
 
@@ -53,7 +53,7 @@ When the date range is specified, click __OK__. The selected date range shows as
 
 The Words window is opened by the __Specify words...__ option for a word related filter on the Filter by Message page.
 
-![Words window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/wordswindow.webp)
+![Words window](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/wordswindow.webp)
 
 In the Search property section, choose the filter logic:
 

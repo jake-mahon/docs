@@ -2,14 +2,14 @@
 
 Each job group within the Exchange Solution has its own Recommended Configurations topic. See the relevant topic for specific information on job group settings and recommended schedule frequency.
 
-- [Recommended Configurations for the 1. HUB Metrics Job Group](/docs/accessanalyzer/enterpriseauditor/solutions/exchange/hubmetrics/recommended.md)
-- [Recommended Configurations for the 2. CAS Metrics Job Group](/docs/accessanalyzer/enterpriseauditor/solutions/exchange/casmetrics/recommended.md)
-- [Recommended Configurations for the 3. Databases Job Group](/docs/accessanalyzer/enterpriseauditor/solutions/exchange/databases/recommended.md)
-- [Recommended Configurations for the 4. Mailboxes Job Group](/docs/accessanalyzer/enterpriseauditor/solutions/exchange/mailboxes/recommended.md)
-- [Recommended Configurations for the 5. Public Folders Job Group](/docs/accessanalyzer/enterpriseauditor/solutions/exchange/publicfolders/recommended.md)
-- [Recommended Configurations for the 6. Distribution Lists Job Group](/docs/accessanalyzer/enterpriseauditor/solutions/exchange/distributionlists/recommended.md)
-- [Recommended Configurations for the 7. Sensitive Data Job Group](/docs/accessanalyzer/enterpriseauditor/solutions/exchange/sensitivedata/recommended.md)
-- [Recommended Configurations for the 8. Exchange Online Job Group](/docs/accessanalyzer/enterpriseauditor/solutions/exchange/online/recommended.md)
+- [Recommended Configurations for the 1. HUB Metrics Job Group](hubmetrics/recommended.md)
+- [Recommended Configurations for the 2. CAS Metrics Job Group](casmetrics/recommended.md)
+- [Recommended Configurations for the 3. Databases Job Group](databases/recommended.md)
+- [Recommended Configurations for the 4. Mailboxes Job Group](mailboxes/recommended.md)
+- [Recommended Configurations for the 5. Public Folders Job Group](publicfolders/recommended.md)
+- [Recommended Configurations for the 6. Distribution Lists Job Group](distributionlists/recommended.md)
+- [Recommended Configurations for the 7. Sensitive Data Job Group](sensitivedata/recommended.md)
+- [Recommended Configurations for the 8. Exchange Online Job Group](online/recommended.md)
 
 ## ExchangePS Data Collector & Client Access Server
 
@@ -31,9 +31,9 @@ __Step 3 –__ Select the __Data Source__ tab, and click __Configure__. The Exch
 
 __CAUTION:__ Unless otherwise indicated within the job group section, do not make changes to other wizard pages as they have been pre-configured for the purpose of the job.
 
-![CAS name on ExchangePS Data Collector Wizard Category page](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/exchangepscas.webp)
+![CAS name on ExchangePS Data Collector Wizard Category page](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/exchangepscas.webp)
 
-__Step 4 –__ On the Category page, select the __Use specific server__ option and enter the CAS name in the text box. See the [ExchangePS: Category](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/category.md) topic for additional information.
+__Step 4 –__ On the Category page, select the __Use specific server__ option and enter the CAS name in the text box. See the [ExchangePS: Category](../../admin/datacollector/exchangeps/category.md) topic for additional information.
 
 __Step 5 –__ Navigate to the Summary page. Click __Finish__.
 

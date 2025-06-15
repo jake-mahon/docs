@@ -10,4 +10,4 @@ To use the entity diagram:
 4. Click on any item to expand the graphical representation of objects, dependencies and associated relationships.
 5. Click __Open Record__ to open the customization record for the item.
 
-![entity_diagram_800x309](/img/product_docs/strongpointsalesforceflashlight/tools/entity_diagram_800x309.webp)
+![entity_diagram_800x309](../../../static/img/product_docs/strongpointsalesforceflashlight/tools/entity_diagram_800x309.webp)

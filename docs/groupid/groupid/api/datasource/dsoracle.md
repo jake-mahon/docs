@@ -2,7 +2,7 @@
 
 Use this API to create a new data source.
 
-See the [Create a Data Source for Oracle](/docs/groupid/groupid/admincenter/datasource/create.md#create-a-data-source-for-oracle) section of the [Create a Data Source](/docs/groupid/groupid/admincenter/datasource/create.md) topic to create an MS Access data source using Directory Manager.
+See the [Create a Data Source for Oracle](../../admincenter/datasource/create.md#create-a-data-source-for-oracle) section of the [Create a Data Source](../../admincenter/datasource/create.md) topic to create an MS Access data source using Directory Manager.
 
 ## Endpoint
 

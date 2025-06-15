@@ -2,11 +2,11 @@
 
 To install Directory Manager, you have to run the following tools in the given order:
 
-- __[Preparation Tool](/docs/groupid/groupid/install/installer/preparationtool.md)__ - Detects and instals the prerequisite software and Windows features that Directory Manager requires.
+- __[Preparation Tool](preparationtool.md)__ - Detects and instals the prerequisite software and Windows features that Directory Manager requires.
 
-- __[Installation Tool](/docs/groupid/groupid/install/installer/install.md)__ - Installs Directory Manager.
+- __[Installation Tool](install.md)__ - Installs Directory Manager.
 
-- __[Configuration Tool](/docs/groupid/groupid/install/configure/configure.md)__ - Configures Directory Manager services, database, and other components.
+- __[Configuration Tool](../configure/configure.md)__ - Configures Directory Manager services, database, and other components.
 
 ## Installation Package
 

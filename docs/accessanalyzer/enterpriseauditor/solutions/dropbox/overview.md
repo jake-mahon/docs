@@ -9,7 +9,7 @@ The Dropbox Solution is designed to offer an overview of an organization’s Dro
 - Detailed Dropbox group membership
 - Breakdown of Dropbox content by size, type, and owner
 
-Dropbox can scan the contents of over 400 file types to discover which files contain sensitive data using Sensitive Data Discovery. See the [Sensitive Data Discovery](/docs/accessanalyzer/enterpriseauditor/sensitivedatadiscovery/overview.md) topic for additional information.
+Dropbox can scan the contents of over 400 file types to discover which files contain sensitive data using Sensitive Data Discovery. See the [Sensitive Data Discovery](../../sensitivedatadiscovery/overview.md) topic for additional information.
 
 Supported Platforms
 
@@ -17,7 +17,7 @@ Supported Platforms
 
 Requirements, Permissions, and Ports
 
-See the [Target Dropbox Requirements, Permissions, and Ports](/docs/accessanalyzer/enterpriseauditor/requirements/target/dropbox.md) topic for additional information.
+See the [Target Dropbox Requirements, Permissions, and Ports](../../requirements/target/dropbox.md) topic for additional information.
 
 Sensitive Data Discovery Considerations
 
@@ -33,15 +33,15 @@ The 0.Collection job group collects the data. The other job groups run analyses 
 
 ## Job Groups
 
-The Dropbox Solution offers an overview of an organization’s Dropbox environment by scanning the targeted Dropbox site. It is comprised of jobs which collect, analyze, and report on data. The data collection is conducted by the DropboxAccess Data Collector. See the [Standard Reference Tables & Views for the DropboxAccess Data Collector](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/dropboxaccess/standardtables.md) topic for database table information.
+The Dropbox Solution offers an overview of an organization’s Dropbox environment by scanning the targeted Dropbox site. It is comprised of jobs which collect, analyze, and report on data. The data collection is conducted by the DropboxAccess Data Collector. See the [Standard Reference Tables & Views for the DropboxAccess Data Collector](../../admin/datacollector/dropboxaccess/standardtables.md) topic for database table information.
 
-![Dropbox Solution Overview page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/runninginstances/overviewpage.webp)
+![Dropbox Solution Overview page](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/runninginstances/overviewpage.webp)
 
 The following jobs comprise the Dropbox Solution:
 
-- [0.Collection Job Group](/docs/accessanalyzer/enterpriseauditor/solutions/dropbox/collection/overview.md) – Scans the targeted Dropbox site and generates the standard reference tables and views
-- [1.Access > Dropbox_Access Job](/docs/accessanalyzer/enterpriseauditor/solutions/dropbox/dropbox_access.md) – Reports on effective access to Dropbox resources in the targeted environment
-- [2.Sharing > Dropbox_Sharing Job](/docs/accessanalyzer/enterpriseauditor/solutions/dropbox/dropbox_sharing.md) – Reports on the sharing of Dropbox resources in the targeted environment
-- [3.Group Membership > Dropbox_GroupMembership Job](/docs/accessanalyzer/enterpriseauditor/solutions/dropbox/dropbox_groupmembership.md) – Reports on Dropbox group membership in the targeted environment
-- [4.Content > Dropbox_Content Job](/docs/accessanalyzer/enterpriseauditor/solutions/dropbox/dropbox_content.md) – Reports on Dropbox content by size, type, and owner in the targeted environment
-- [5.Sensitive Data > Dropbox_SensitiveData Job](/docs/accessanalyzer/enterpriseauditor/solutions/dropbox/dropbox_sensitivedata.md) – Reports on sensitive data in the targeted Dropbox site
+- [0.Collection Job Group](collection/overview.md) – Scans the targeted Dropbox site and generates the standard reference tables and views
+- [1.Access > Dropbox_Access Job](dropbox_access.md) – Reports on effective access to Dropbox resources in the targeted environment
+- [2.Sharing > Dropbox_Sharing Job](dropbox_sharing.md) – Reports on the sharing of Dropbox resources in the targeted environment
+- [3.Group Membership > Dropbox_GroupMembership Job](dropbox_groupmembership.md) – Reports on Dropbox group membership in the targeted environment
+- [4.Content > Dropbox_Content Job](dropbox_content.md) – Reports on Dropbox content by size, type, and owner in the targeted environment
+- [5.Sensitive Data > Dropbox_SensitiveData Job](dropbox_sensitivedata.md) – Reports on sensitive data in the targeted Dropbox site

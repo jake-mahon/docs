@@ -4,13 +4,13 @@ The EX_MetricsCollection Job is comprised of multiple queries that utilize the E
 
 ___RECOMMENDED:___ Run this job with the default configuration settings for all queries.
 
-See the [ExchangeMetrics Data Collector](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/exchangemetrics/overview.md) topic for additional information.
+See the [ExchangeMetrics Data Collector](../../../../admin/datacollector/exchangemetrics/overview.md) topic for additional information.
 
 ## Queries for the EX_MetricsCollection Job
 
 The EX_MetricsCollection Job uses the ExchangeMetrics Data Collector.
 
-![Queries for the EX_MetricsCollection Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/hubmetrics/collection/metricscollectionqueries.webp)
+![Queries for the EX_MetricsCollection Job](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/hubmetrics/collection/metricscollectionqueries.webp)
 
 The following queries are included in the EX_MetricsCollection Job:
 
@@ -28,7 +28,7 @@ View the analysis tasks by navigating to the __Exchange__ > __1. HUB Metrics__ >
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the EX_MetrixCollection Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/hubmetrics/collection/metricscollectionanalysis.webp)
+![Analysis Tasks for the EX_MetrixCollection Job](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/hubmetrics/collection/metricscollectionanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -58,11 +58,11 @@ The __08. SET HISTORY RETENTION__ analysis task controls the retention period fo
 
 __Step 1 –__ Navigate to the job’s __Configure__ node and select __Analysis__.
 
-![08. SET HISTORY RETENTION task in the Analysis Selection view](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/hubmetrics/collection/sethistoryretentiontask.webp)
+![08. SET HISTORY RETENTION task in the Analysis Selection view](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/hubmetrics/collection/sethistoryretentiontask.webp)
 
 __Step 2 –__ In the Analysis Selection view, select the __08. SET HISTORY RETENTION__ analysis task and click __Analysis Configuration__. The SQL Script Editor opens.
 
-![History Retention task in SQL Script Editor](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/hubmetrics/collection/sethistoryretentionscripteditor.webp)
+![History Retention task in SQL Script Editor](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/hubmetrics/collection/sethistoryretentionscripteditor.webp)
 
 __Step 3 –__ To modify the number of months: On line 6, modify the value for the months parameter:
 
@@ -97,7 +97,7 @@ Follow these steps to troubleshoot data collection:
 
 __Step 1 –__ Navigate to the job’s __Configure__ node and select __Analysis__.
 
-![Troubleshooting task selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/hubmetrics/collection/troubleshootingtaskselection.webp)
+![Troubleshooting task selection](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/hubmetrics/collection/troubleshootingtaskselection.webp)
 
 __Step 2 –__ In the Analysis Selection view, clear all default analysis tasks (if any) and select the analysis task which purges data.
 

@@ -8,7 +8,7 @@ Navigate to __Box__ > __Box_GroupMembership__ > __Configure__ node and select __
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the Box_GroupMembership Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/box/groupmembershipanalysis.webp)
+![Analysis Tasks for the Box_GroupMembership Job](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/box/groupmembershipanalysis.webp)
 
 The following analysis task is selected by default:
 

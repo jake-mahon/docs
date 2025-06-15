@@ -7,7 +7,7 @@ Threat Prevention supports the following SQL Server versions:
 The server must meet this requirement:
 
 - US English language installation
-- Windows Server can be physical or virtual. See the [Virtual Environment Recommendations](/docs/threatprevention/threatprevention/requirements/application.md#virtual-environment-recommendations)topic for additional information.
+- Windows Server can be physical or virtual. See the [Virtual Environment Recommendations](application.md#virtual-environment-recommendations)topic for additional information.
 
 ___RECOMMENDED:___ It is a best practice and strongly recommended to have a dedicated database server.
 
@@ -48,7 +48,7 @@ The following additional considerations are recommended for the SQL Server:
 
 ___RECOMMENDED:___ For large environments with Analytics, an SQL cluster is recommended for both performance and fault tolerance.
 
-__NOTE:__ For SQL Server 2012+, it is necessary to restrict the maximum server memory value to 60-70% of the total physical RAM to avoid a situation where SQL Server will starve other applications of memory. See the [Restrict SQL Server Maximum Server Memory](/docs/threatprevention/threatprevention/troubleshooting/sqlserver.md) topic for additional information.
+__NOTE:__ For SQL Server 2012+, it is necessary to restrict the maximum server memory value to 60-70% of the total physical RAM to avoid a situation where SQL Server will starve other applications of memory. See the [Restrict SQL Server Maximum Server Memory](../troubleshooting/sqlserver.md) topic for additional information.
 
 Database Permissions
 
@@ -57,4 +57,4 @@ The following permissions are required on the databases:
 - Database Owner
 - Provisioned to use Default Schema of ‘dbo’
 
-Additional permissions are required for the optional Database Maintenance feature in Threat Prevention. See the [Database Maintenance Feature Requirements](/docs/threatprevention/threatprevention/requirements/dbmaintenance.md) topic for additional information.
+Additional permissions are required for the optional Database Maintenance feature in Threat Prevention. See the [Database Maintenance Feature Requirements](dbmaintenance.md) topic for additional information.

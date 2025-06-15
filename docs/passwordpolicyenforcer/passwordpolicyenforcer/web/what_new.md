@@ -13,7 +13,7 @@ Other
 
 - Uses the Password Policy Enforcer V7.x libraries for improved compatibility with new features in recent version of Password Policy Enforcer.
 - The Configuration Console prompts for elevation to ensure that user has sufficient permissions to write configuration settings.
-- Imports PPE Web V6.x configuration settings. See the [Install Password Policy Enforcer Web](/docs/passwordpolicyenforcer/passwordpolicyenforcer/install/installationweb.md) topic for additional information.
+- Imports PPE Web V6.x configuration settings. See the [Install Password Policy Enforcer Web](../install/installationweb.md) topic for additional information.
 
 __NOTE:__ PPE Web V7.11 integrates with Password Policy Enforcer V7.0 or later. Disable Password Policy Enforcer integration in the PPE Web Configuration console if you need to use PPE Web with an older version of Password Policy Enforcer.
 

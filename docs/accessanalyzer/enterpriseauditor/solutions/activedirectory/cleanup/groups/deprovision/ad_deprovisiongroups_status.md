@@ -8,7 +8,7 @@ Navigate to the __Active Directory__ > __Cleanup__ > __1.Groups__ > __1. Deprovi
 
 __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis tasks is preconfigured for this job.
 
-![Analysis Task for the AD_DeprovisionGroups_Status Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/cleanup/groups/deprovision/deprovisiongroupsstatusanalysis.webp)
+![Analysis Task for the AD_DeprovisionGroups_Status Job](../../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/cleanup/groups/deprovision/deprovisiongroupsstatusanalysis.webp)
 
 The default analysis task is:
 

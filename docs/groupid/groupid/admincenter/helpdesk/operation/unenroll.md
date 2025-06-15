@@ -11,7 +11,7 @@ What do you want to do?
 ## Unenroll a User for an Authentication Type
 
 1. In Admin Center, click __Helpdesk__ in the left pane.
-2. The __Helpdesk__ page opens to the __Helpdesk Operations__ tab. Locate your required user. To search for a user, see the[Search Users](/docs/groupid/groupid/admincenter/helpdesk/operation/search.md) topic.
+2. The __Helpdesk__ page opens to the __Helpdesk Operations__ tab. Locate your required user. To search for a user, see the[Search Users](search.md) topic.
 3. Click the ellipsis button for the user and select __Unenroll Account__.  
    The __Unenroll Account__ dialog box displays the authentication types the user account is enrolled with.
 4. Select the check boxes for the authentication type(s) you want to unenroll the user account with.
@@ -19,5 +19,5 @@ What do you want to do?
 
 __See Also__
 
-- [Helpdesk](/docs/groupid/groupid/admincenter/helpdesk/overview.md)
-- [Helpdesk Operations](/docs/groupid/groupid/admincenter/helpdesk/operation/overview.md)
+- [Helpdesk](../overview.md)
+- [Helpdesk Operations](overview.md)

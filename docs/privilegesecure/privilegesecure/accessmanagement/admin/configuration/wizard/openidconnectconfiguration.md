@@ -1,8 +1,8 @@
 # OpenID Connect Configuration Wizard
 
-The OpenID Connect Configuration wizard is opened with the __Configuration Wizard__ button in the Configuration > [Authentication Page](/docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/page/authentication.md) for an OpenID Connect Authentication Connector Type.
+The OpenID Connect Configuration wizard is opened with the __Configuration Wizard__ button in the Configuration > [Authentication Page](../page/authentication.md) for an OpenID Connect Authentication Connector Type.
 
-![configureclient](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/wizard/configureclient.webp)
+![configureclient](../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/wizard/configureclient.webp)
 
 It contains three pages:
 
@@ -40,7 +40,7 @@ __Step 5 –__ Click the browser’s back arrow to return to the Configure Clien
 
 __Step 6 –__ If the Sign In page displayed as expected, click Next.
 
-![OpenID Connection wizard, Test Login page](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/wizard/chapter_4_configuration_interface_5.webp)
+![OpenID Connection wizard, Test Login page](../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/wizard/chapter_4_configuration_interface_5.webp)
 
 __Step 7 –__ On the Test Login page, click Login. The Sign In page opens in the browser.
 
@@ -50,7 +50,7 @@ __Step 9 –__ If the sign in was successful, the generated access token will di
 
 __Step 10 –__ On the Configure ID Mapping page, click __Get User Data__.
 
-![chapter_4_configuration_interface_6](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/wizard/chapter_4_configuration_interface_6.webp)
+![chapter_4_configuration_interface_6](../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/wizard/chapter_4_configuration_interface_6.webp)
 
 Privilege Secure will use the access token to retrieve user data from the OpenId Connect provider. The OpenID Connect provider requires a User Id Field for sign in. It is necessary to specify which field in Active Directory should map to that User Id Field, so that Privilege Secure can automatically fill in the required credentials at login. The value provided is used to sign in to the multi factor authenticator (MFA) when a user logs in to the Privilege Secure Console.
 
@@ -71,13 +71,13 @@ Field values will vary according to the information supplied by the provider. Ex
 
 __Step 11 –__ Select a field to use for the User Id Field and click Select.
 
-![chapter_4_configuration_interface_7](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/wizard/chapter_4_configuration_interface_7.webp)
+![chapter_4_configuration_interface_7](../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/wizard/chapter_4_configuration_interface_7.webp)
 
 __Step 12 –__ The selected Source and User ID fields from the previous table are shown. Now map the applicable AD field to the User Id Field. This is the value that will be used to sign in to the MFA during login. In the Login Format drop-down, select the applicable AD field to map to the User Id Field.
 
 __Step 13 –__ Click Finish. A window will display the updated configuration settings.
 
-![chapter_4_configuration_interface_8](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/wizard/chapter_4_configuration_interface_8.webp)
+![chapter_4_configuration_interface_8](../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/wizard/chapter_4_configuration_interface_8.webp)
 
 __Step 14 –__ Click Okay to close the wizard and click __Save__ on the Authentication page to accept the changes.
 

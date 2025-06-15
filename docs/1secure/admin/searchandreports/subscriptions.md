@@ -21,7 +21,7 @@ __NOTE:__ You cannot subscribe to a report if no data is available for it. In th
 
 __Step 5 –__ Click __Subscribe__ on the top right of the page. The Subscription to `<name of the report>` pane is displayed.
 
-![Subscription to Report pane](/img/product_docs/1secure/admin/searchandreports/subscriptions.webp)
+![Subscription to Report pane](../../../../static/img/product_docs/1secure/admin/searchandreports/subscriptions.webp)
 
 __Step 6 –__ Set a start date, time, and time zone for sending the report to the intended recipients.
 
@@ -43,7 +43,7 @@ __Step 10 –__  Select a file format (XLSX, CSV) from the drop-down menu.
 
 __Step 11 –__ Click the __Send reports by email__ check box to specify email delivery settings. The Email Settings section expands to display the following:
 
-![Email Delivery Settings](/img/product_docs/1secure/admin/searchandreports/subscriptionsemailsettings.webp)
+![Email Delivery Settings](../../../../static/img/product_docs/1secure/admin/searchandreports/subscriptionsemailsettings.webp)
 
 - Recipients – Specify the email addresses of the recipients of the report subscription. You can enter multiple addresses separated by a comma.
 - Email Subject – Specify the email subject. The default subject is: `{{Frequency}}` Report on `{{Report_Name}}` from `{{Managed_Organization}}`. These variables will be replaced with the report frequency, report name, and managed organization name. For example, Monthly Report on Accounts Deleted from Netwrix.
@@ -51,14 +51,14 @@ __Step 11 –__ Click the __Send reports by email__ check box to specify email d
   You can use other variables to specify the subject line of the email, as discussed below.
 - Variables – Select variable(s) to customize the subject line of the email. To use multiple variables, select them one by one from the drop-down menu. The available options are: Report Name, Export Date, Frequency, Num Records, Managing Organization, and Managed Organization.
 
-  ![Email Subject](/img/product_docs/1secure/admin/searchandreports/subscriptions_2.webp)
+  ![Email Subject](../../../../static/img/product_docs/1secure/admin/searchandreports/subscriptions_2.webp)
 
   __NOTE:__ The End Customer Organization has the Organization Name variable instead of the Managed Organization and Managing Organization variables.
 - Message – Enter the information to be included in the body of the email.
 
 __Step 12 –__ Click the __Upload reports to a designated folder in SharePoint Online__ check box to specify the settings for SharePoint Online delivery.
 
-__NOTE:__  If you encounter the message, Integration required, you must first configure your integration for SharePoint Online. See the [SharePoint Online](/docs/1secure/integration/sharepointonline.md) topic for additional information.
+__NOTE:__  If you encounter the message, Integration required, you must first configure your integration for SharePoint Online. See the [SharePoint Online](../../integration/sharepointonline.md) topic for additional information.
 
 Expand the SharePoint Online Settings section and specify the following settings for saving the report:
 
@@ -83,7 +83,7 @@ __Step 3 –__ Click the __Subscriptions__ tab. The subscriptions for the organi
 
 __Step 4 –__ (Optional) To disable a subscription, toggle OFF the switch for it.
 
-![Organization Subscriptions Page](/img/product_docs/1secure/admin/searchandreports/subscriptions_3.webp)
+![Organization Subscriptions Page](../../../../static/img/product_docs/1secure/admin/searchandreports/subscriptions_3.webp)
 
 __Step 5 –__  Click the Edit icon for a subscription to modify it. The Subscription to `<name of the report>` pane is displayed.
 

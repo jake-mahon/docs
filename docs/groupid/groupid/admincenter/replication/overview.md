@@ -13,8 +13,8 @@ Elasticsearch relies on two services:
   - Computers
   - Organizational Unit
 
-The [Replication Service](/docs/groupid/groupid/admincenter/service/replicationservice.md) only replicates changes that are made to these objects on the directory server. Changes made to these objects using Admin Center, Directory Manager portal, or Management Shell, are directly saved in the
-Elasticsearch repository and replicated to the Directory Manager database by the Data service. See the [Data Service](/docs/groupid/groupid/admincenter/service/dataservice/overview.md) topic.
+The [Replication Service](../service/replicationservice.md) only replicates changes that are made to these objects on the directory server. Changes made to these objects using Admin Center, Directory Manager portal, or Management Shell, are directly saved in the
+Elasticsearch repository and replicated to the Directory Manager database by the Data service. See the [Data Service](../service/dataservice/overview.md) topic.
 
 Synchronize directly updates objects in the directory. As soon as objects are provisioned, de-provisioned, or updated in the directory using Synchronize, the Replication service replicates them to Elasticsearch.
 
@@ -27,10 +27,10 @@ NOTE: The __Recycle Bin__ in the Directory Manager portal fetches data from the 
 
 In Admin Center, you can specify settings for the Replication service at the global and local levels. Global settings apply to all identity stores in Directory Manager while local settings are specific to an identity store.
 
-- At the global level, you can schedule the service to run every x minutes to replicate object attributes to Elasticsearch. You can also manually restore object data to Elasticsearch. See the [Manage Global Replication Settings](/docs/groupid/groupid/admincenter/replication/settings.md) topic.
-- For an identity store, you can specify the object attributes the service should replicate to Elasticsearch. See the [Manage Local Replication Settings](/docs/groupid/groupid/admincenter/identitystore/replication.md) topic.
+- At the global level, you can schedule the service to run every x minutes to replicate object attributes to Elasticsearch. You can also manually restore object data to Elasticsearch. See the [Manage Global Replication Settings](settings.md) topic.
+- For an identity store, you can specify the object attributes the service should replicate to Elasticsearch. See the [Manage Local Replication Settings](../identitystore/replication.md) topic.
 
-NOTE: The Replication service does not replicate excluded domains for an identity store. See the [Exclude an Active Directory Domain from Replication](/docs/groupid/groupid/admincenter/identitystore/manage.md#exclude-an-active-directory-domain-from-replication) topic.
+NOTE: The Replication service does not replicate excluded domains for an identity store. See the [Exclude an Active Directory Domain from Replication](../identitystore/manage.md#exclude-an-active-directory-domain-from-replication) topic.
 
 ## Replication Service Logs
 

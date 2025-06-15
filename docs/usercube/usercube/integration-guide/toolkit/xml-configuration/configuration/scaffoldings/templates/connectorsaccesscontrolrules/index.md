@@ -6,28 +6,28 @@ Generates the permissions to access the connectors pages, the policies page, the
 
 Gives access to shortcuts on the dashboard to access these pages.
 
-![Connectors](/img/product_docs/usercube/usercube/user-guide/set-up/synchronization/home_connectors_v602.webp)
+![Connectors](../../../../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/synchronization/home_connectors_v602.webp)
 
 The scaffolding generates the following scaffoldings:
 
 - [
   Connector Resource Type Access Control
-  ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/connectors/connectorresourcetypeaccesscontrol/index.md): Gives the rights to create and update resource types, generate provisioning orders and fulfill from the connector screen.
+  ](../../accesscontrolrules/connectors/connectorresourcetypeaccesscontrol/index.md): Gives the rights to create and update resource types, generate provisioning orders and fulfill from the connector screen.
 - [
   Job View Access Control Rules
-  ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/templates/jobviewaccesscontrolrules/index.md): Scaffolding to generate a set of rights to view all JobInstances, TaskInstances and logs.
+  ](../jobviewaccesscontrolrules/index.md): Scaffolding to generate a set of rights to view all JobInstances, TaskInstances and logs.
 - [
   Resource Type Mapping Control Rules
-  ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/resourcetypemappingcontrolrules/index.md): Generate rights to launch agent fulfillment.
+  ](../../accesscontrolrules/jobs/resourcetypemappingcontrolrules/index.md): Generate rights to launch agent fulfillment.
 - [
   Role Administration Access Control Rules
-  ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/roleadministrationaccesscontrolrules/index.md): Generates the permissions to access the configuration pages and create, update, delete the elements of the role model.
+  ](../../accesscontrolrules/rolemodels/roleadministrationaccesscontrolrules/index.md): Generates the permissions to access the configuration pages and create, update, delete the elements of the role model.
 - [
   Run Job Repair Administration Access Control Rules
-  ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/runjobrepairadministrationaccesscontrolrules/index.md): Generates the permissions to launch from UI jobs that are in state blocked after a Provisioning or a synchronization for a given profile.
+  ](../../accesscontrolrules/jobs/runjobrepairadministrationaccesscontrolrules/index.md): Generates the permissions to launch from UI jobs that are in state blocked after a Provisioning or a synchronization for a given profile.
 - [
   Task Administration Access Control Rules
-  ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/taskadministrationaccesscontrolrules/index.md): Generates all rights to have the access to job administration page.
+  ](../../accesscontrolrules/jobs/taskadministrationaccesscontrolrules/index.md): Generates all rights to have the access to job administration page.
 
 ## Examples
 

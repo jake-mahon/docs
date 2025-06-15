@@ -23,7 +23,7 @@ Supported Platforms
 
 Requirements, Permissions, and Ports
 
-See the [Target MySQL Requirements, Permissions, and Ports](/docs/accessanalyzer/enterpriseauditor/requirements/target/databasemysql.md) topic for additional information.
+See the [Target MySQL Requirements, Permissions, and Ports](../../../requirements/target/databasemysql.md) topic for additional information.
 
 Sensitive Data Discovery Considerations
 
@@ -43,10 +43,10 @@ The Database Solution license includes all supported database platforms supporte
 
 The Access Analyzer MySQL Solution Set is a set of pre-configured audit jobs and reports that provides visibility into MySQL Sensitive Data.
 
-![MySQL Job Group Overview](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/mysql/mysqljobgroupoverview.webp)
+![MySQL Job Group Overview](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/mysql/mysqljobgroupoverview.webp)
 
 The job groups in the MySQL Solution are:
 
-- [0.Collection Job Group](/docs/accessanalyzer/enterpriseauditor/solutions/databases/mysql/collection/overview.md) – Designed to collect high level summary information from targeted MySQL Servers. This information is used by other jobs in the MySQL Solution Set for further analysis and producing respective reports.
-- [Configuration > MySQL_DatabaseSizing Job](/docs/accessanalyzer/enterpriseauditor/solutions/databases/mysql/mysql_databasesizing.md) – Designed to provide insight into MySQL server configuration settings
-- [MySQL_SensitiveData Job](/docs/accessanalyzer/enterpriseauditor/solutions/databases/mysql/sensitivedata/mysql_sensitivedata.md) – Designed to provide insight into where sensitive data exists and who has access to it across all the targeted MySQL databases.
+- [0.Collection Job Group](collection/overview.md) – Designed to collect high level summary information from targeted MySQL Servers. This information is used by other jobs in the MySQL Solution Set for further analysis and producing respective reports.
+- [Configuration > MySQL_DatabaseSizing Job](mysql_databasesizing.md) – Designed to provide insight into MySQL server configuration settings
+- [MySQL_SensitiveData Job](sensitivedata/mysql_sensitivedata.md) – Designed to provide insight into where sensitive data exists and who has access to it across all the targeted MySQL databases.

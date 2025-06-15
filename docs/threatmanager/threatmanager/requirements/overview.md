@@ -15,11 +15,11 @@ Core Component
 
 See the following topics for server requirements:
 
-- [Database Server Requirements](/docs/threatmanager/threatmanager/requirements/database.md)
-- [Application Server Requirements](/docs/threatmanager/threatmanager/requirements/server.md)
-- [Action Service Requirements](/docs/threatmanager/threatmanager/requirements/actionservice.md)
-- [Client Requirements](/docs/threatmanager/threatmanager/requirements/client.md)
-- [Ports Requirements](/docs/threatmanager/threatmanager/requirements/ports.md)
+- [Database Server Requirements](database.md)
+- [Application Server Requirements](server.md)
+- [Action Service Requirements](actionservice.md)
+- [Client Requirements](client.md)
+- [Ports Requirements](ports.md)
 
 Target Environment Considerations
 

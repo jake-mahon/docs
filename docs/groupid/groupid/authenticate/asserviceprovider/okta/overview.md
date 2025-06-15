@@ -4,8 +4,8 @@ Okta provides secure identity management and single sign-on to any application, 
 
 Here are the steps to configure single sign-on in Directory Manager using Okta as a provider:
 
-- Generate the consumer URL and audience URL for the Directory Manager client with which you want to configure Okta. See the [Generate URLs](/docs/groupid/groupid/authenticate/asserviceprovider/okta/generateurls.md) topic for additional information.
-- [Configure Directory Manager In Okta](/docs/groupid/groupid/authenticate/asserviceprovider/okta/configureinokta.md)
-- [Configure the Okta Provider In Directory Manager](/docs/groupid/groupid/authenticate/asserviceprovider/okta/configureoktaingroupid.md)
+- Generate the consumer URL and audience URL for the Directory Manager client with which you want to configure Okta. See the [Generate URLs](generateurls.md) topic for additional information.
+- [Configure Directory Manager In Okta](configureinokta.md)
+- [Configure the Okta Provider In Directory Manager](configureoktaingroupid.md)
 
-That done, you can sign into Directory Manager using Okta. See the [Sign In Using Okta](/docs/groupid/groupid/authenticate/asserviceprovider/okta/signin.md) topic for additional information.
+That done, you can sign into Directory Manager using Okta. See the [Sign In Using Okta](signin.md) topic for additional information.

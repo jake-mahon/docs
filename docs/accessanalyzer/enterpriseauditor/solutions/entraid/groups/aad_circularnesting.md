@@ -8,7 +8,7 @@ Navigate to the __Jobs__ > __Entra ID__ > __1.Groups__ > __AAD_CircularNesting__
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis tasks for AAD_CircularNesting Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/distributionlists/membershipanalysis/circularnestinganalysis.webp)
+![Analysis tasks for AAD_CircularNesting Job](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/distributionlists/membershipanalysis/circularnestinganalysis.webp)
 
 The default analysis tasks are:
 

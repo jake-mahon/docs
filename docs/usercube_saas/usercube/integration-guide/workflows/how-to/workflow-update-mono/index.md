@@ -6,14 +6,14 @@ This section guides you through the procedure for the creation of a workflow to 
 
 This [
 Workflow
-](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/workflows/workflow/index.md) is made of two activities:
+](../../../toolkit/xml-configuration/workflows/workflow/index.md) is made of two activities:
 
 1. ```Action With Refine```: sends the resource's record update request with a possibility of delegation.
 2. ```Persist```: saves the collected data and triggers provisioning.
 
 See the [
 Activity Templates
-](/docs/usercube_saas/usercube/integration-guide/workflows/activity-templates/index.md) topic for additional information.
+](../../activity-templates/index.md) topic for additional information.
 
 The example below creates a workflow to update only the user's name.
 
@@ -27,7 +27,7 @@ For now, our workflow works with an immediate validation and an immediate effect
 
 ## Create Forms
 
-The XML configuration below represents the creation of a [Form](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/user-interface/form/index.md) that defines the elements to display in the workflow.
+The XML configuration below represents the creation of a [Form](../../../toolkit/xml-configuration/user-interface/form/index.md) that defines the elements to display in the workflow.
 
 Here we just have the full name field to update the corresponding attributes for a given user:
 
@@ -71,7 +71,7 @@ The ```MainControl``` attribute is here an empty container, because it is a mand
 
 ```
 
-![UI Form](/img/product_docs/usercube/usercube/integration-guide/workflows/how-to/workflow-update-mono/howto_resourceupdatemono_form_v603.webp)
+![UI Form](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/workflows/how-to/workflow-update-mono/howto_resourceupdatemono_form_v603.webp)
 
 ```End of transition``` sets the date for the change of records scheduled by this form.
 
@@ -80,7 +80,7 @@ The ```MainControl``` attribute is here an empty container, because it is a mand
 Some profiles must get specific permissions so that the workflow is visible and usable by the right users.
 Read about [
 Workflow
-](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/workflows/workflow/index.md)s permissions.
+](../../../toolkit/xml-configuration/workflows/workflow/index.md)s permissions.
 
 Below is an example of an access control rule where the ```Administrator``` profile gets the permissions for the whole update request from the previously created workflow:
 
@@ -94,11 +94,11 @@ Below is an example of an access control rule where the ```Administrator``` prof
 
 [
 Menu Item
-](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/user-interface/menuitem/index.md) must be defined to make the workflow accessible in the UI.
+](../../../toolkit/xml-configuration/user-interface/menuitem/index.md) must be defined to make the workflow accessible in the UI.
 
 Updating an existing resource, this workflow manages one given resource at a time. Hence an interesting location for this workflow could be the individual view page of users.
 
-![Workflow Menu Items - User's Page](/img/product_docs/usercube/usercube/integration-guide/workflows/how-to/workflow-update-mono/menuitems_userview_v603.webp)
+![Workflow Menu Items - User's Page](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/workflows/how-to/workflow-update-mono/menuitems_userview_v603.webp)
 
 To create a menu item here for the new workflow, you can add the following XML configuration to the existing menu items list:
 
@@ -118,10 +118,10 @@ For each workflow, it is possible to add aspects according to the workflow's pur
 
 To perform a homonymy check on a workflow and thus prevent user duplicates, see the [
 Configure a Homonym Detection
-](/docs/usercube_saas/usercube/integration-guide/workflows/how-to/configure-homonym-test/index.md) topic for additional information.
+](../configure-homonym-test/index.md) topic for additional information.
 
 When using records, the homonym detection displays the list of records and not just the list of users.
 
 ## Customize the Display Table (Optional)
 
-To configure a display table different from the default one provided by Identity Manager, see the [Customize Display Tables](/docs/usercube_saas/usercube/integration-guide/ui/how-tos/custom-display-table/index.md) topic for additional information.
+To configure a display table different from the default one provided by Identity Manager, see the [Customize Display Tables](../../../ui/how-tos/custom-display-table/index.md) topic for additional information.

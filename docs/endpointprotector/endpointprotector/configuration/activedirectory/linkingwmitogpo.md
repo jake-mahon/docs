@@ -6,4 +6,4 @@ __Step 1 –__ Open the Group Policy Management console, select the Endpoint Pro
 
 __Step 2 –__ Repeat this step for Endpoint Protector 64-bit GPO.
 
-![Linking the Windows Management Instrument filters to Group Policy Objects](/img/product_docs/endpointprotector/endpointprotector/configuration/activedirectory/wmitogpolinking.png)
+![Linking the Windows Management Instrument filters to Group Policy Objects](../../../../../static/img/product_docs/endpointprotector/endpointprotector/configuration/activedirectory/wmitogpolinking.png)

@@ -1,8 +1,8 @@
 # Tools
 
-Video: For an overview of this section, see [Endpoint Policy Manager Cloud: Automatically Join Groups with JOINTOKEN](/docs/policypak/policypak/video/cloud/jointoken.md).
+Video: For an overview of this section, see [Endpoint Policy Manager Cloud: Automatically Join Groups with JOINTOKEN](../../video/cloud/jointoken.md).
 
-Video: For an advanced installation routine where you can use another tool like an MDM tool, such as Intune, or an RMM tool to bootstrap the installation of the Endpoint Policy Manager Cloud client and also immediately join the computer to specific groups, see [Endpoint Policy Manager Cloud + MDM Services: Install Cloud Client + automatically join PPC Groups and get policy.](/docs/policypak/policypak/video/cloud/mdm.md).
+Video: For an advanced installation routine where you can use another tool like an MDM tool, such as Intune, or an RMM tool to bootstrap the installation of the Endpoint Policy Manager Cloud client and also immediately join the computer to specific groups, see [Endpoint Policy Manager Cloud + MDM Services: Install Cloud Client + automatically join PPC Groups and get policy.](../../video/cloud/mdm.md).
 
 The Tools tab has a special tool called __Join Tokens__. The __Join Tokens__ function enables you to create a unique string to append at the end of the Cloud client installation file. When you do, the Cloud client will do the following:
 
@@ -11,19 +11,19 @@ The Tools tab has a special tool called __Join Tokens__. The __Join Tokens__ fun
 - Automatically pick up the CSE version directed to that group/911-policypak-cloud-automatically-join-groups-with-jointoken/
 - Automatically upgrade to the latest Cloud client directed to that group
 
-![web_interface_and_controls_108_625x221](/img/product_docs/policypak/policypak/cloud/interface/web_interface_and_controls_108_625x221.webp)
+![web_interface_and_controls_108_625x221](../../../../../static/img/product_docs/policypak/policypak/cloud/interface/web_interface_and_controls_108_625x221.webp)
 
 __Step 1 –__ To do this, go to the Tools tab, then click on the Join Tokens action.
 
-![web_interface_and_controls_109_624x306](/img/product_docs/policypak/policypak/cloud/interface/web_interface_and_controls_109_624x306.webp)
+![web_interface_and_controls_109_624x306](../../../../../static/img/product_docs/policypak/policypak/cloud/interface/web_interface_and_controls_109_624x306.webp)
 
 __Step 2 –__ Click on __Add Join Token__. For a new join token add a description and expiry time. Then, click on __Select Groups__ and pick a specific group or groups that you want the computer to automatically join from the Cloud client.
 
-![web_interface_and_controls_110_312x333](/img/product_docs/policypak/policypak/cloud/interface/web_interface_and_controls_110_312x333.webp)
+![web_interface_and_controls_110_312x333](../../../../../static/img/product_docs/policypak/policypak/cloud/interface/web_interface_and_controls_110_312x333.webp)
 
 __Step 3 –__ Click __Save__.
 
-![web_interface_and_controls_111_623x205](/img/product_docs/policypak/policypak/cloud/interface/web_interface_and_controls_111_623x205.webp)
+![web_interface_and_controls_111_623x205](../../../../../static/img/product_docs/policypak/policypak/cloud/interface/web_interface_and_controls_111_623x205.webp)
 
 __Step 4 –__ You can click on the button within the Show column to get a display of your actual join token value.
 

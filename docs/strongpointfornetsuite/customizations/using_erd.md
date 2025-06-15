@@ -20,11 +20,11 @@ The ERD provides a way to look at customizations by record type. A left click on
    - __Hide Unused fields__: check this box to hide all unused fields from the results, based on the DLU.
 4. Click __Show Record ERD__.
 
-   ![erd-view](/img/product_docs/strongpointfornetsuite/customizations/erd-view.webp)
+   ![erd-view](../../../static/img/product_docs/strongpointfornetsuite/customizations/erd-view.webp)
 5. Click on any item to expand the view. For large lists, click __More__ to see the additional items.  
    External sources headers are highlighted in green.
 
-   ![ERD with an External Source](/img/product_docs/strongpointfornetsuite/customizations/celigo_erd.webp)
+   ![ERD with an External Source](../../../static/img/product_docs/strongpointfornetsuite/customizations/celigo_erd.webp)
 6. Click __Open Record__ on any Customization to open the actual record.
 
 ## Enabling the ERD Search on the Dashboard
@@ -37,7 +37,7 @@ To enable the ERD Search:
 4. Under __Custom Content__, select __Strongpoint ERD Search Form__
 5. Click __Save__
 
-![erdsearchform-1](/img/product_docs/strongpointfornetsuite/customizations/erdsearchform-1.webp)
+![erdsearchform-1](../../../static/img/product_docs/strongpointfornetsuite/customizations/erdsearchform-1.webp)
 
 From the ERD Search Form, you can search by:
 

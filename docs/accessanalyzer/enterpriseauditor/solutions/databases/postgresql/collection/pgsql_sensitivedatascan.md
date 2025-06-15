@@ -6,11 +6,11 @@ The PgSQL_SensitiveDataScan Job is designed to discover sensitive data in Postgr
 
 The PgSQL_SensitiveDataScan Job uses the SQL Data Collector.
 
-![Query Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/postgresql/collection/sensitivedataquery.webp)
+![Query Selection](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/postgresql/collection/sensitivedataquery.webp)
 
 The query is:
 
-- PostgreSQL — Scans the PostgreSQL database for sensitive data. For configuring the [SQL Data Collector](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/sql/overview.md), see the SQL Data Collector topic for additional information.
+- PostgreSQL — Scans the PostgreSQL database for sensitive data. For configuring the [SQL Data Collector](../../../../admin/datacollector/sql/overview.md), see the SQL Data Collector topic for additional information.
 
 ### Configure the SensitiveDataScan Query
 
@@ -24,21 +24,21 @@ __Step 3 –__ Select the Data Source tab, and click Configure. The SQL Data Col
 
 __CAUTION:__ Do not make changes to other wizard pages as they have been pre-configured for this job.
 
-![Sensitive Data Scan Settings](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/postgresql/collection/datascanjobsettings.webp)
+![Sensitive Data Scan Settings](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/postgresql/collection/datascanjobsettings.webp)
 
-__Step 4 –__ To modify sensitive data scan options, navigate to the [SQL Data Collector](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/sql/overview.md) page. Select the desired scan options.
+__Step 4 –__ To modify sensitive data scan options, navigate to the [SQL Data Collector](../../../../admin/datacollector/sql/overview.md) page. Select the desired scan options.
 
 __NOTE:__ The Sensitive Data Scan Settings are pre-configured for optimal performance for a high-level table scan. Configuring these settings to increase the scope of the sensitive data scan may significantly increase scan time.
 
-![Select DLP Criteria](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/postgresql/collection/sensitivedatascancriteria.webp)
+![Select DLP Criteria](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/postgresql/collection/sensitivedatascancriteria.webp)
 
-__Step 5 –__ To modify criteria, navigate to the [SQL Data Collector](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/sql/overview.md) page. By default, the Sensitive Data Scan job is configured to scan for criteria configured in the Global Criteria settings. See the [Sensitive Data Criteria Editor](/docs/accessanalyzer/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/overview.md) topic for additional information.
+__Step 5 –__ To modify criteria, navigate to the [SQL Data Collector](../../../../admin/datacollector/sql/overview.md) page. By default, the Sensitive Data Scan job is configured to scan for criteria configured in the Global Criteria settings. See the [Sensitive Data Criteria Editor](../../../../sensitivedatadiscovery/criteriaeditor/overview.md) topic for additional information.
 
-![Filters page](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/postgresql/collection/sensitivedatascanfilter.webp)
+![Filters page](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/postgresql/collection/sensitivedatascanfilter.webp)
 
 __Step 6 –__ PostgreSQL databases must be added to the query before they can be scanned. Navigate to the __Filter__ page and click __Connections__ to open the Manage Connections window.
 
-![Manage Connections](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/postgresql/collection/manageconnectionspgsql.webp)
+![Manage Connections](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/postgresql/collection/manageconnectionspgsql.webp)
 
 __Step 7 –__ In the Manage Connections window, click __New Connection__ and add the following information:
 
@@ -66,7 +66,7 @@ Navigate to the __Databases__ > __0.Collection__ > __PostgreSQL__ > __PgSQL_Sen
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/postgresql/collection/sensitivedataanalysis.webp)
+![Analysis Selection](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/postgresql/collection/sensitivedataanalysis.webp)
 
 The default analysis tasks are:
 

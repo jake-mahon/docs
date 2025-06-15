@@ -11,7 +11,7 @@ You can create identity stores for the following providers:
 
 To create an identity store, you have to specify an identity provider and its connection details.
 
-After creating an identity store, you must configure certain settings for it. These configurations are discussed in the [Configure an Identity Store](/docs/groupid/groupid/admincenter/identitystore/configure.md) topic.
+After creating an identity store, you must configure certain settings for it. These configurations are discussed in the [Configure an Identity Store](configure.md) topic.
 
 ## Create an Identity Store for Active Directory
 
@@ -32,9 +32,9 @@ Step 5 – In the Domain Name box, enter the fully qualified name of the Active 
 Step 6 – In theService Accout box, enter the username of a service account or a group managed service account (gMSA) to connect to Active Directory.
 
 - For a service account – The service account must have sufficient privileges on the provider to facilitate group and identity management operations using Directory Manager. The minimum permissions the service
-  account requires for Active Directory are discussed in the [Service Account for Active Directory and Exchange](/docs/groupid/groupid/requirements/permissions/adserviceaccount.md) topic.
+  account requires for Active Directory are discussed in the [Service Account for Active Directory and Exchange](../../requirements/permissions/adserviceaccount.md) topic.
 - For a gMSA – If you provide a service account with ‘$’ as its last character (as in MyAdminAccounts$), Directory Manager entertains it as a Group Managed Service Account (gMSA). To use a gMSA to connect
-  an identity store to Active Directory, make sure the gMSA is configured properly and has sufficient permissions. See the [gMSA for Active Directory](/docs/groupid/groupid/requirements/permissions/gmsarequirements.md) topic.
+  an identity store to Active Directory, make sure the gMSA is configured properly and has sufficient permissions. See the [gMSA for Active Directory](../../requirements/permissions/gmsarequirements.md) topic.
 
 Step 7 – In the __Service Account Password__ box, enter the service account password.  
 Skip this box for a gMSA.
@@ -66,7 +66,7 @@ Step 4 – From the Cloud drop-down list, select the cloud where your Microsoft 
 Step 5 – In the Domain Name box, enter the fully qualified name of the Microsoft Entra ID domain you want to create the identity store for.
 
 Step 6 – Specify the path to the .pfx certificate in the PFX Certificate box. For that, click __Choose File__ and browse for the file. Select it and click __Open__.  
-As a prerequisite, the .pfx certificate must be generated on the Directory Manager machine. See the [Certificate for Entra ID Authentication ](/docs/groupid/groupid/configureentraid/register/modauth.md)topic for information on generating a certificate and then converting it into the .pfx format.
+As a prerequisite, the .pfx certificate must be generated on the Directory Manager machine. See the [Certificate for Entra ID Authentication ](../../configureentraid/register/modauth.md)topic for information on generating a certificate and then converting it into the .pfx format.
 
 Step 7 – In the PFX Certificate Password box, enter the password that was created while exporting the .pfx certificate.
 

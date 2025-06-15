@@ -30,11 +30,11 @@ __Step 2 –__ Right-click the __ADSI Edit__ node and select __Connect To__. In 
 
 __Step 3 –__ Expand the Schema your_Root_Domain_name node. Right-click the CN=Unicode-Pwd attribute and select Properties.
 
-![ad_object_restore_1](/img/product_docs/auditor/auditor/tools/ad_object_restore_1.webp)
+![ad_object_restore_1](../../../../static/img/product_docs/auditor/auditor/tools/ad_object_restore_1.webp)
 
 __Step 4 –__ Double-click the searchFlags attribute and set its value to _"8"_.
 
-![ad_object_restore_2](/img/product_docs/auditor/auditor/tools/ad_object_restore_2.webp)
+![ad_object_restore_2](../../../../static/img/product_docs/auditor/auditor/tools/ad_object_restore_2.webp)
 
 Now you will be able to restore deleted accounts with their passwords preserved.
 

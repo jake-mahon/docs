@@ -21,7 +21,7 @@ The conceptQS web application should have these authentication methods enabled:
 
 All other authentication methods should be disabled.
 
-![iis_thumb_0_0](/img/product_docs/dataclassification/ndc/security/iis_thumb_0_0.webp)
+![iis_thumb_0_0](../../../../static/img/product_docs/dataclassification/ndc/security/iis_thumb_0_0.webp)
 
 __Step 3 –__ If you wish to allow anonymous access to the conceptQS, edit the conceptQS web.config file and delete (or comment out) three lines:
 
@@ -61,7 +61,7 @@ See the following Knowledge Base topic to learn how to set up single sign-on for
 
 More users can be added at any time from the default Users screen, as well as allowing for users to be removed.
 
-![adduser](/img/product_docs/dataclassification/ndc/security/adduser.webp)
+![adduser](../../../../static/img/product_docs/dataclassification/ndc/security/adduser.webp)
 
 Additional Windows users can be validated using Integrated Windows Authentication. Additional non-Windows users can only be added if the Non-Windows Authentication mode is enabled.
 
@@ -80,23 +80,23 @@ When an area is enabled there are typically more granular permissions that can b
 - Within the Taxonomies area it is also possible to assign permissions at a specific Term Set or Term branch level. A full user permission summary (for all Term/Set level permissions) can be viewed by selecting the View Taxonomy Permissions button (shown below).
 - Within the Sources area it is possible to restrict a user’s access to specific source groups, as shown below.
 
-![userpermissions_thumb_0_0](/img/product_docs/dataclassification/ndc/security/userpermissions_thumb_0_0.webp)
+![userpermissions_thumb_0_0](../../../../static/img/product_docs/dataclassification/ndc/security/userpermissions_thumb_0_0.webp)
 
 ### Taxonomy Permissions Summary
 
 The Permissions window lets you restruct permissions for a user.
 
-![viewtaxonomypermissionssummary_thumb_0_0](/img/product_docs/dataclassification/ndc/security/viewtaxonomypermissionssummary_thumb_0_0.webp)
+![viewtaxonomypermissionssummary_thumb_0_0](../../../../static/img/product_docs/dataclassification/ndc/security/viewtaxonomypermissionssummary_thumb_0_0.webp)
 
 You can restrict permissions for a user to the following areas:
 
-- Sources. See [Content Sources](/docs/dataclassification/ndc/admin/sources/introduction.md) for additional information.
-- Taxonomies. See [Taxonomies](/docs/dataclassification/ndc/admin/taxonomies/introduction.md) for additional information.
-- Workflows. See [Understanding Workflows](/docs/dataclassification/ndc/admin/workflows/overview.md) for additional information.
-- Configuration options. See [Configuration Options](/docs/dataclassification/ndc/configuration/configuration.md) for additional information.
-- Users. See [Users and Security Settings](/docs/dataclassification/ndc/security/users.md) for additional information.
-- Reports. See [Reporting Capabilities](/docs/dataclassification/ndc/admin/reporting/capabilities.md) for additional information.
-- DSARs. See [Data Subject Access Requests ](/docs/dataclassification/ndc/admin/dsar/overview.md) for additional information.
+- Sources. See [Content Sources](../admin/sources/introduction.md) for additional information.
+- Taxonomies. See [Taxonomies](../admin/taxonomies/introduction.md) for additional information.
+- Workflows. See [Understanding Workflows](../admin/workflows/overview.md) for additional information.
+- Configuration options. See [Configuration Options](../configuration/configuration.md) for additional information.
+- Users. See [Users and Security Settings](users.md) for additional information.
+- Reports. See [Reporting Capabilities](../admin/reporting/capabilities.md) for additional information.
+- DSARs. See [Data Subject Access Requests ](../admin/dsar/overview.md) for additional information.
 
 ## Super Users
 

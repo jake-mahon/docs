@@ -32,6 +32,6 @@ string will be filtered.
 
 __See Also__
 
-- [Set up Authentication via Security Questions](/docs/groupid/groupid/admincenter/setupauth/securityquestions.md)
-- [Directory Manage Password Policy ](/docs/groupid/groupid/admincenter/securityrole/policy/password.md)
-- [Manage the Local Question Pool](/docs/groupid/groupid/admincenter/identitystore/configure/security/securityquestions.md)
+- [Set up Authentication via Security Questions](../setupauth/securityquestions.md)
+- [Directory Manage Password Policy ](../securityrole/policy/password.md)
+- [Manage the Local Question Pool](../identitystore/configure/security/securityquestions.md)

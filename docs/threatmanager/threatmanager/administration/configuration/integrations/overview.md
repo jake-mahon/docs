@@ -4,19 +4,19 @@ The Integrations interface allows you to configure integrations with a variety o
 
 Use the gear icon in the upper right corner of the console to open the Configuration menu. Then select __Integrations__ to open the Integrations interface.
 
-![interface](/img/product_docs/threatprevention/threatprevention/reportingmodule/interface.webp)
+![interface](../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/interface.webp)
 
 It contains the following integration pages:
 
-- [Active Directory Sync Page](/docs/threatmanager/threatmanager/administration/configuration/integrations/activedirectorysync.md)
-- [Entra ID Sync Page](/docs/threatmanager/threatmanager/administration/configuration/integrations/entraidsync.md)
-- [App Tokens Page](/docs/threatmanager/threatmanager/administration/configuration/integrations/apptoken.md)
-- [Authentication Provider Page](/docs/threatmanager/threatmanager/administration/configuration/integrations/authenticationprovider/page.md)
-- [Credential Profile Page](/docs/threatmanager/threatmanager/administration/configuration/integrations/credentialprofile.md)
-- [Email Page](/docs/threatmanager/threatmanager/administration/configuration/integrations/email.md)
-- [Folder Settings Page](/docs/threatmanager/threatmanager/administration/configuration/integrations/foldersettings.md)
-- [SIEM Page](/docs/threatmanager/threatmanager/administration/configuration/integrations/siem.md)
-- [Netwrix Integrations Page](/docs/threatmanager/threatmanager/administration/configuration/integrations/netwrixintegrations.md)
-- [Tag Management Page](/docs/threatmanager/threatmanager/administration/configuration/integrations/tagmanagement.md)
+- [Active Directory Sync Page](activedirectorysync.md)
+- [Entra ID Sync Page](entraidsync.md)
+- [App Tokens Page](apptoken.md)
+- [Authentication Provider Page](authenticationprovider/page.md)
+- [Credential Profile Page](credentialprofile.md)
+- [Email Page](email.md)
+- [Folder Settings Page](foldersettings.md)
+- [SIEM Page](siem.md)
+- [Netwrix Integrations Page](netwrixintegrations.md)
+- [Tag Management Page](tagmanagement.md)
 
 The Overview page displays a high-level view of all configured integrations. You can return to the Overview page by selecting the __Integrations__ header in the navigation pane.

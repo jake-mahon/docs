@@ -6,7 +6,7 @@ Get the following tools handy:
 - process explorer [https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer)
 - procdump: [https://docs.microsoft.com/en-us/sysinternals/downloads/procdump](https://docs.microsoft.com/en-us/sysinternals/downloads/procdump)
 
-__NOTE:__  You can pre-watch this video on PROCMON here: [Process Monitor 101](/docs/policypak/policypak/video/troubleshooting/processmonitor.md)
+__NOTE:__  You can pre-watch this video on PROCMON here: [Process Monitor 101](../video/troubleshooting/processmonitor.md)
 
 __Step 1 –__ Start Procmon. Let it run. It will start to generate a file.
 
@@ -16,7 +16,7 @@ __Step 3 –__ Then, while it's hung..
 
 1. Run Process explorer to find the process. You want to find the PID of the process with a problem. An example of a hung process can be seen here, with PID 1072.
 
-   ![525_1_image003](/img/product_docs/policypak/policypak/troubleshooting/525_1_image003.jpg)
+   ![525_1_image003](../../../../static/img/product_docs/policypak/policypak/troubleshooting/525_1_image003.jpg)
 
    Processes should be easy to find if they are hanging.
 

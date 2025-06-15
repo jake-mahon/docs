@@ -2,9 +2,9 @@
 
 The Netwrix Active Directory App for QRadar feeds several QRadar Offenses.
 
-![INTERCEPT Offenses in QRadar](/img/product_docs/threatprevention/threatprevention/siemdashboard/qradar/offenses.webp)
+![INTERCEPT Offenses in QRadar](../../../../../static/img/product_docs/threatprevention/threatprevention/siemdashboard/qradar/offenses.webp)
 
-While the [Authentication Attacks Dashboard](/docs/threatprevention/threatprevention/siemdashboard/qradar/dashboard/authenticationattacks.md) reports on incidents monitored by Threat Prevention Authentication Analytics, these incidents also generate offenses.
+While the [Authentication Attacks Dashboard](dashboard/authenticationattacks.md) reports on incidents monitored by Threat Prevention Authentication Analytics, these incidents also generate offenses.
 
 | QRadar Offense | Threat Prevention Analytic Definition |
 | --- | --- |

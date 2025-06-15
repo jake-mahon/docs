@@ -6,7 +6,7 @@ Using the list below you can use these variables as sources or destinations.
 
 For instance to copy files from ```\\server2016\share``` to ```%DesktopDir%``` simply put in ```%DesktopDir%``` in the Destination slo:
 
-![806_1_img](/img/product_docs/policypak/policypak/remoteworkdelivery/806_1_img.jpg)
+![806_1_img](../../../../static/img/product_docs/policypak/policypak/remoteworkdelivery/806_1_img.jpg)
 
 The acceptable variables are below. Be sure to encapsulate them all with %, like %DestopDir%
 

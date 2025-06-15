@@ -2,19 +2,19 @@
 
 When your organization performs a review on a resource for which you are the assigned owner, it means you, the business user or data custodian, need to attest to the access and privileges users have to your resource. When the Review Administrator creates a new review or starts a new instance of an existing review, you receive an email notification that includes a link to the your pending reviews.
 
-![Email announcing a pending review](/img/product_docs/auditor/access/reviews/entitlementreviews/pendingreviewemail.webp)
+![Email announcing a pending review](../../../../../static/img/product_docs/auditor/access/reviews/entitlementreviews/pendingreviewemail.webp)
 
 Use the __Sign in__ link at the bottom to open the My Reviews interface in the Access Reviews Console.
 
 _Remember,_ your company domain credentials are used to log in.
 
-The My Reviews interface has two pages: Pending Reviews and Review History. See the [Review History Page](/docs/auditor/access/reviews/entitlementreviews/reviewhistory.md) topic for additional information.
+The My Reviews interface has two pages: Pending Reviews and Review History. See the [Review History Page](reviewhistory.md) topic for additional information.
 
 ## Pending Reviews Page
 
 The Pending Reviews page lists all of your resources included in pending reviews.
 
-![My Reviews interface showing Pending Reviews page](/img/product_docs/auditor/access/reviews/entitlementreviews/pendingreivewspage.webp)
+![My Reviews interface showing Pending Reviews page](../../../../../static/img/product_docs/auditor/access/reviews/entitlementreviews/pendingreivewspage.webp)
 
 The information displayed in the table includes:
 
@@ -26,7 +26,7 @@ The information displayed in the table includes:
 - In Progress — Displays a clock icon for an in-progress review
 - Last Reviewed — Date timestamp when the last review took place for the resource.
 
-The table data grid functions the same way as other table grids. See the [Data Grid Features](/docs/auditor/access/general/datagrid.md) topic for additional information.
+The table data grid functions the same way as other table grids. See the [Data Grid Features](../../general/datagrid.md) topic for additional information.
 
 Performing a review means you are evaluating the resources. You can leave the resource unchanged or make recommendations for changes. Consider the following examples:
 
@@ -39,7 +39,7 @@ _Remember,_  any proposed changes are not committed until the Review Administrat
 
 The Begin Review button opens the Resource Review page to start the review.
 
-![Resource Reviews page showing the 1 Make changes tab](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/reviewpageaccess.webp)
+![Resource Reviews page showing the 1 Make changes tab](../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/reviewpageaccess.webp)
 
 The Resource Review page varies based on the type of review; however, there are several common features:
 
@@ -57,5 +57,5 @@ The Resource Review page varies based on the type of review; however, there are 
 
 The content within the table varies, and additional options may appear depending on the type of review being conducted. See the following sections for step by step instructions:
 
-- [Perform an Access Review](/docs/auditor/access/reviews/entitlementreviews/review/access.md)
-- [Perform a Membership Review](/docs/auditor/access/reviews/entitlementreviews/review/membership.md)
+- [Perform an Access Review](review/access.md)
+- [Perform a Membership Review](review/membership.md)

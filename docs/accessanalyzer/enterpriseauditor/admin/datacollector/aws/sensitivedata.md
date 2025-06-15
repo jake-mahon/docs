@@ -2,7 +2,7 @@
 
 The Sensitive Data Settings page is where sensitive data discovery settings are configured. It is a wizard page for the category of Collect SDD Data.
 
-![Sensitive Data Settings page](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/upgrade/sensitivedata.webp)
+![Sensitive Data Settings page](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/install/application/upgrade/sensitivedata.webp)
 
 Configure the following options:
 

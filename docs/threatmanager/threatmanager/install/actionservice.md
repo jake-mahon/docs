@@ -4,15 +4,15 @@ The Action Service is installed with Threat Manager and is configured in the Thr
 
 Follow the steps to install the Action Service.
 
-![install](/img/product_docs/threatprevention/threatprevention/install/upgrade/install.webp)
+![install](../../../../static/img/product_docs/threatprevention/threatprevention/install/upgrade/install.webp)
 
 __Step 1 –__ Run the StealthDEFEND.ActionService MSI installation package and the Threat Manager Action Service Setup wizard will open.
 
-![settupprogress](/img/product_docs/threatmanager/threatmanager/install/settupprogress.webp)
+![settupprogress](../../../../static/img/product_docs/threatmanager/threatmanager/install/settupprogress.webp)
 
 __Step 2 –__ Click Install to begin the installation. The setup wizard displays installation progress.
 
-![completed](/img/product_docs/threatprevention/threatprevention/install/reportingmodule/completed.webp)
+![completed](../../../../static/img/product_docs/threatprevention/threatprevention/install/reportingmodule/completed.webp)
 
 __Step 3 –__ When the installation is complete, click Close to exit the installer.
 
@@ -52,17 +52,17 @@ The Action Service is now registered with Threat Manager.
 
 The Action Service that is installed with Threat Manager can be configured to execute as a service account. In this scenario, any actions run by Threat Manager will be executed as the Service Account. This, typically, is a simple way to ensure that Playbooks executed by Threat Manager have the proper permissions required to complete successfully.
 
-__NOTE:__ If an Action Step has been configured to use a specific Credential Profile, the Action Step will utilize those credentials in the Action Step Script. See the [Credential Profile Page](/docs/threatmanager/threatmanager/administration/configuration/integrations/credentialprofile.md) topic for additional information.
+__NOTE:__ If an Action Step has been configured to use a specific Credential Profile, the Action Step will utilize those credentials in the Action Step Script. See the [Credential Profile Page](../administration/configuration/integrations/credentialprofile.md) topic for additional information.
 
 Follow the steps to configure the Action Service to run as a service account.
 
 __Step 1 –__ Open Services (```services.msc```).
 
-![services](/img/product_docs/activitymonitor/config/dellpowerstore/services.webp)
+![services](../../../../static/img/product_docs/activitymonitor/config/dellpowerstore/services.webp)
 
 __Step 2 –__ Double-click on the Netwrix Threat Manager Action Service. The Threat Manager Action Service Properties window opens.
 
-![serviceaccountproperties](/img/product_docs/threatmanager/threatmanager/install/serviceaccountproperties.webp)
+![serviceaccountproperties](../../../../static/img/product_docs/threatmanager/threatmanager/install/serviceaccountproperties.webp)
 
 __Step 3 –__ Click the Log On tab.
 
@@ -70,7 +70,7 @@ __Step 4 –__ Select the This account: radio button and specify the desired Act
 
 __Step 5 –__ Click Apply and then OK. This sets the Action Service to “run as” the specified account.
 
-![servicesrestart](/img/product_docs/threatmanager/threatmanager/install/servicesrestart.webp)
+![servicesrestart](../../../../static/img/product_docs/threatmanager/threatmanager/install/servicesrestart.webp)
 
 __Step 6 –__ Restart the Threat Manager Action Service by right-clicking on the Netwrix Threat Manager Action Service in the Services window and clicking Restart.
 

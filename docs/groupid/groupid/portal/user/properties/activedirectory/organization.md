@@ -6,7 +6,7 @@ You can also specify additional manager(s) for the user or contact. Additional m
 
 Furthermore, this tab shows the direct reports of this user or contact. Direct reports are groups, users or contacts that report directly to the user or contact. You can add direct reports as well as transfer or terminate a direct report.
 
-NOTE: A user can also manage his/her direct reports and change his/her primary manager while validating his/her profile in the portal. See the [Validate your profile](/docs/groupid/groupid/portal/user/manage/validateprofile.md) topic.
+NOTE: A user can also manage his/her direct reports and change his/her primary manager while validating his/her profile in the portal. See the [Validate your profile](../../manage/validateprofile.md) topic.
 
 ## Dotted line management
 
@@ -15,26 +15,26 @@ Each user can be assigned one primary manager and one or more dotted-line manage
 When a user changes his or her primary or additional manager, the primary manager is notified through email to accept or reject the request. If the primary manager accepts, the user’s manager is changed. If the primary manager rejects the request,
 the user remains with the manager.
 
-NOTE: This is the default flow for the ‘Workflow to Change Manager’ workflow, with the primary manager set as the approver. If the administrator disables the workflow or changes the workflow approver, the flow changes accordingly. See the [Requests](/docs/groupid/groupid/portal/request/overview.md) topic.
+NOTE: This is the default flow for the ‘Workflow to Change Manager’ workflow, with the primary manager set as the approver. If the administrator disables the workflow or changes the workflow approver, the flow changes accordingly. See the [Requests](../../../request/overview.md) topic.
 
 Manager
 
 Displays the contact/user's primary manager, if specified. The user/contact can change his or her primary manager.
 
-Click the ellipsis button to launch the [Find Dialog Box](/docs/groupid/groupid/portal/search/find.md), where you can search and select a user to set as the manager.
+Click the ellipsis button to launch the [Find Dialog Box](../../../search/find.md), where you can search and select a user to set as the manager.
 
 Reports
 
 Displays a list of objects that report directly to this user or contact. These may include users, groups and contacts.
 
-- To add a direct report, click __Add__. Enter a search string to locate the object to add as a direct report, or click __Advance__ to use the [Find Dialog Box](/docs/groupid/groupid/portal/search/find.md) for performing
+- To add a direct report, click __Add__. Enter a search string to locate the object to add as a direct report, or click __Advance__ to use the [Find Dialog Box](../../../search/find.md) for performing
   a search.
 - To transfer a direct report, select it and click __Transfer__.
 
   When you transfer a direct report, the direct report is notified through email to accept or reject the transfer. If the direct report accepts the transfer, he or she must select another primary manager and validate his or her profile. If the direct
   report rejects the transfer, he or she is transferred back to the old manager, i.e., you.
 
-  NOTE: This is the default flow for the ‘Workflow to Transfer a User’ workflow, with the direct report set as the approver. If the administrator disables the workflow or changes the approver, the flow changes accordingly. See the [Requests](/docs/groupid/groupid/portal/request/overview.md) topic.
+  NOTE: This is the default flow for the ‘Workflow to Transfer a User’ workflow, with the direct report set as the approver. If the administrator disables the workflow or changes the approver, the flow changes accordingly. See the [Requests](../../../request/overview.md) topic.
 - To terminate a direct report, select it and click __Terminate__.
 
   When you terminate a direct report, it takes effect immediately if the ‘Workflow to Terminate a User’ workflow is disabled. If enabled, a request is sent to an approver. If the approver approves it, the direct report is terminated and if the approver
@@ -42,7 +42,7 @@ Displays a list of objects that report directly to this user or contact. These m
 
 Additional Manager
 
-To add a manager, click __Add__. Enter a search string to locate the object to add as an additional manager, or click __Advance__ to use the [Find Dialog Box](/docs/groupid/groupid/portal/search/find.md) for performing
+To add a manager, click __Add__. Enter a search string to locate the object to add as an additional manager, or click __Advance__ to use the [Find Dialog Box](../../../search/find.md) for performing
 a search.
 
 To remove an additional manager, select it and click __Remove__.

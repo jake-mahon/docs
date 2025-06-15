@@ -6,7 +6,7 @@ One quick fix we have seen is to rename the newest CSE you get from us to someth
 
 If that does not work, you might see a dialog similar to this when trying to install/uninstall. Even if you revert to a previous version, it is still likely that the CSE won't uninstall.
 
-![116_1_msiuu2-image-005](/img/product_docs/policypak/policypak/troubleshooting/install/116_1_msiuu2-image-005.jpg)
+![116_1_msiuu2-image-005](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/install/116_1_msiuu2-image-005.jpg)
 
 ## Resolution
 
@@ -18,7 +18,7 @@ __Step 1 –__ Remove existing CSE version to allow a re-installation of the ne
 
 __Step 2 –__ Then launch it and select the CSE version and click __Remove__.
 
-![116_2_msiuu2-image-006](/img/product_docs/policypak/policypak/troubleshooting/install/116_2_msiuu2-image-006.jpg)
+![116_2_msiuu2-image-006](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/install/116_2_msiuu2-image-006.jpg)
 
 __Step 3 –__ Manually install the latest Endpoint Policy Manager CSE, and verify it worked as expected.
 

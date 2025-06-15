@@ -4,7 +4,7 @@ If you have a monitoring plan configured to audit Exchange, you can configure al
 
 ## Create Alerts for Non-Owner Mailbox Access Events
 
-The procedure below describes the basic steps, required for creation of a monitoring plan that will be used to collect data on non-owner mailbox access events. See [Event Log Manager](/docs/auditor/auditor/tools/eventlogmanager.md) topic for additional information.
+The procedure below describes the basic steps, required for creation of a monitoring plan that will be used to collect data on non-owner mailbox access events. See [Event Log Manager](../../tools/eventlogmanager.md) topic for additional information.
 
 Follow the steps to create alert for non-owner mailbox access events.
 
@@ -65,7 +65,7 @@ __Step 12 –__ Click Save. If an event occurs that triggers an alert, an email 
 
 Review the example of the MessageOpened event in the XML view:
 
-![eventmessageopen](/img/product_docs/auditor/auditor/admin/alertsettings/eventmessageopen.webp)
+![eventmessageopen](../../../../../static/img/product_docs/auditor/auditor/admin/alertsettings/eventmessageopen.webp)
 
 Depending on the event, the strings in the description may vary. The first eight strings are common for all events:
 
@@ -119,4 +119,4 @@ In the example below, the following information has been added:
 - String 8 with the description
 - String 9 with the description
 
-![editnotificationtemplate](/img/product_docs/auditor/auditor/admin/alertsettings/editnotificationtemplate.webp)
+![editnotificationtemplate](../../../../../static/img/product_docs/auditor/auditor/admin/alertsettings/editnotificationtemplate.webp)

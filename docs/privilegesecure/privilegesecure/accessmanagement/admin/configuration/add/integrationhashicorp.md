@@ -19,7 +19,7 @@ __Step 1 –__ Navigate to the Configuration > Integration Connectors page.
 
 __Step 2 –__ In the Integration Connector list, click the Add Integration Connector icon.
 
-![Add HashiCorp Connector Integration](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/add/addhashicorp.webp)
+![Add HashiCorp Connector Integration](../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/add/addhashicorp.webp)
 
 __Step 3 –__ Enter the following information:
 

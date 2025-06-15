@@ -2,7 +2,7 @@
 
 Use the Folder Conditions page to customize folder search filter conditions. It is a wizard page for the __No, the query results do not contain a mailbox identification__ column option on the Folder Identification page.
 
-![New Mailbox Action Wizard Folder Conditions page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/filterwizard/folderconditions.webp)
+![New Mailbox Action Wizard Folder Conditions page](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/filterwizard/folderconditions.webp)
 
 Customize folder search conditions using the following options:
 
@@ -17,7 +17,7 @@ Customize folder search conditions using the following options:
 
 Use the Folder Type window to select which folder types to run the action against. The Folder Type window opens if __specific__ in __with specific folder type__ is selected in the Edit Conditions box. .
 
-![Folder Type Window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/filterwizard/foldertypewindow.webp)
+![Folder Type Window](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/filterwizard/foldertypewindow.webp)
 
 Select the checkbox next to any desired folder type to include it in the search criteria, including:
 
@@ -34,7 +34,7 @@ Select the checkbox next to any desired folder type to include it in the search 
 
 Use the Search Terms window to select terms contained in folder names to run the action against.The Search Terms window opens if __search terms__ is selected in the Edit Conditions box.
 
-![Search Terms Window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/filterwizard/searchtermswindow.webp)
+![Search Terms Window](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/filterwizard/searchtermswindow.webp)
 
 Edit the search terms using the following options:
 
@@ -51,13 +51,13 @@ Edit the search terms using the following options:
 
 Use the Folder Inclusion/Exclusion window to select individual folders to add to or remove from the action. The Folder Inclusion/Exclusion window opens if __specific__ in __with specific folder(s) to include/exclude__ is selected in the Edit Conditions box.
 
-![Folder Inclusion/Exclusion Window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/mailbox/folderinclusionexclusionwindow.webp)
+![Folder Inclusion/Exclusion Window](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/mailbox/folderinclusionexclusionwindow.webp)
 
 Include/Exclude folders using the following options:
 
 - Click __Add__ to populate a field to add a folder path
 
-  ![New field added on Folder Inclusion/Exclusion window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/mailbox/folderinclusionexclusionwindownew.webp)
+  ![New field added on Folder Inclusion/Exclusion window](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/mailbox/folderinclusionexclusionwindownew.webp)
 - Click the ellipsis (__…__) or enter the path to the desired folder in the text box
 - Scope auto-populates with __This folder__. Click __This folder__ to reveal a drop-down menu to select from the following scope options:
 

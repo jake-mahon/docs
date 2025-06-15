@@ -30,7 +30,7 @@ the systematic application of pre-defined properties to new groups.
 
 You can modify the values of all inherited attributes for a child, except the expiry policy. Child Dynasties always inherit the expiry policy from the parent Dynasty and it can only be modified at the parent level.
 
-Depending on the inheritance option selected for the parent Dynasty on the [Group properties - Dynasty Options tab](/docs/groupid/groupid/portal/group/properties/dynastyoptions.md) in group properties, the modified values of inherited attributes may or may not
+Depending on the inheritance option selected for the parent Dynasty on the [Group properties - Dynasty Options tab](../properties/dynastyoptions.md) in group properties, the modified values of inherited attributes may or may not
 persist.
 
 ## Multi-level Structure

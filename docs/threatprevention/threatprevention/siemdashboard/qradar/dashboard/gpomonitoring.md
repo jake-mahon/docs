@@ -2,12 +2,12 @@
 
 The GPO Monitoring dashboard contains the following cards:
 
-![GPO Monitoring Dashboard](/img/product_docs/threatprevention/threatprevention/siemdashboard/qradar/dashboard/gpomonitoring.webp)
+![GPO Monitoring Dashboard](../../../../../../static/img/product_docs/threatprevention/threatprevention/siemdashboard/qradar/dashboard/gpomonitoring.webp)
 
-- Top GPOs – Displays up to the top five (5) Group Policy Objects related to events that have been recorded in the specified timeframe. See the [Graph Card Features](/docs/threatprevention/threatprevention/siemdashboard/qradar/navigate.md#graph-card-features) topic for additional information.
-- Successful/Blocked Events – Breakdown of Group Policy Object changes that have been recorded in the specified timeframe by successful/failed/blocked status. See the [Graph Card Features](/docs/threatprevention/threatprevention/siemdashboard/qradar/navigate.md#graph-card-features) topic for additional information.
-- Changes by Domain – Breakdown of Group Policy Object changes that have been recorded in the specified timeframe by domain. See the [Graph Card Features](/docs/threatprevention/threatprevention/siemdashboard/qradar/navigate.md#graph-card-features) topic for additional information.
-- Change Details – Tabular format of all Group Policy Object change events that have been recorded in the specified timeframe. See the [Table Card Features](/docs/threatprevention/threatprevention/siemdashboard/qradar/navigate.md#table-card-features) topic for additional information.
+- Top GPOs – Displays up to the top five (5) Group Policy Objects related to events that have been recorded in the specified timeframe. See the [Graph Card Features](../navigate.md#graph-card-features) topic for additional information.
+- Successful/Blocked Events – Breakdown of Group Policy Object changes that have been recorded in the specified timeframe by successful/failed/blocked status. See the [Graph Card Features](../navigate.md#graph-card-features) topic for additional information.
+- Changes by Domain – Breakdown of Group Policy Object changes that have been recorded in the specified timeframe by domain. See the [Graph Card Features](../navigate.md#graph-card-features) topic for additional information.
+- Change Details – Tabular format of all Group Policy Object change events that have been recorded in the specified timeframe. See the [Table Card Features](../navigate.md#table-card-features) topic for additional information.
 
 The time interval is identified in the upper-right corner with the _Start_ and _End_ boxes. This is set by default to the past three (3) hours. To search within a different interval, either manually type the desired date and time or use the calendar buttons to set the desired date and time interval. Then click __Search__ to refresh the card data.
 

@@ -1,6 +1,6 @@
 # Workflow Acceleration Schedule
 
-A Workflow Acceleration schedule facilitates the workflow approver acceleration process for workflow requests. This schedule is auto created when approver acceleration is enabled for the identity store. See the [Workflow Approver Acceleration](/docs/groupid/groupid/admincenter/workflow/approveracceleration.md) topic for additional information.
+A Workflow Acceleration schedule facilitates the workflow approver acceleration process for workflow requests. This schedule is auto created when approver acceleration is enabled for the identity store. See the [Workflow Approver Acceleration](../workflow/approveracceleration.md) topic for additional information.
 
 By default, the schedule runs daily to accelerate workflow requests to approvers, according to workflow acceleration settings for an identity store and some predefined rules for approver acceleration. It also generates notifications to inform approvers
 about pending workflow requests.
@@ -21,7 +21,7 @@ Step 4 – On the Schedules page, click the plus sign next to Workflow Accelerat
 
 Step 5 – On the Edit Schedule page, the Schedule Name and Name Preview boxes display the name of the schedule as read-only. The schedule is displayed with the name displayed for _Name Preview_ in email notifications
 
-Step 6 – In the Scheduler Service Name drop-down list, select a Scheduler service that would be responsible for triggering this schedule. The number of services displayed in the list depend on the number of nodes in all Elasticsearch clusters in the environment, as each node has its own Scheduler service. See the [Scheduler Service](/docs/groupid/groupid/admincenter/service/schedulerservice.md) topic for additional information.
+Step 6 – In the Scheduler Service Name drop-down list, select a Scheduler service that would be responsible for triggering this schedule. The number of services displayed in the list depend on the number of nodes in all Elasticsearch clusters in the environment, as each node has its own Scheduler service. See the [Scheduler Service](../service/schedulerservice.md) topic for additional information.
 
 Please note the following while selecting a Scheduler service:
 
@@ -39,12 +39,12 @@ Step 7 – The Triggers area displays the default triggering frequency for the s
 - To add a new trigger, click __Add Trigger__.
 
 Follow step 11 in
-the [Create a Group Usage Service Schedule](/docs/groupid/groupid/admincenter/schedule/groupusageservice.md#create-a-group-usage-service-schedule) topic to manage triggers.
+the [Create a Group Usage Service Schedule](groupusageservice.md#create-a-group-usage-service-schedule) topic to manage triggers.
 
 Step 8 – The Authentication area displays an account for running the schedule in the identity store. To change it, click __Add Authentication__. Follow step 12 in
-the [Create a Group Usage Service Schedule](/docs/groupid/groupid/admincenter/schedule/groupusageservice.md#create-a-group-usage-service-schedule) topic for additional information.
+the [Create a Group Usage Service Schedule](groupusageservice.md#create-a-group-usage-service-schedule) topic for additional information.
 
 Step 9 – Click __Update Schedule__.
 
 Step 10 – On the Schedules page, click __Save__.  
-For general schedule info, see the [View the Schedules in an Identity Store ](/docs/groupid/groupid/admincenter/schedule/manage.md#view-the-schedules-in-an-identity-store) topic for additional information.
+For general schedule info, see the [View the Schedules in an Identity Store ](manage.md#view-the-schedules-in-an-identity-store) topic for additional information.

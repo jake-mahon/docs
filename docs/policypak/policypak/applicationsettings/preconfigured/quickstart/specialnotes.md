@@ -4,7 +4,7 @@ Firefox, Thunderbird, and Java preconfigured AppSets all support user-interface 
 
 However, UI lockout is implemented differently and, as such, comes with a caveat.
 
-__NOTE:__  To see a video of Firefox UI lockout in action, watch the following video(s): [Understanding and fixing Endpoint Policy Manager DLL Orphans](/docs/policypak/policypak/video/applicationsettings/dllorphans.md).
+__NOTE:__  To see a video of Firefox UI lockout in action, watch the following video(s): [Understanding and fixing Endpoint Policy Manager DLL Orphans](../../../video/applicationsettings/dllorphans.md).
 
 __NOTE:__ To see a video of Thunderbird UI lockout in action, watch the following video(s): [http://www.policypak.com/products/manage-thunderbird-with-group-policy.html](https://www.policypak.com/video/policypak-the-superpowers.html).
 
@@ -14,7 +14,7 @@ Specifically, to perform UI lockout with Firefox, Thunderbird, and Java, the GPO
 
 Figure 19 displays an example of how to create and link a GPO to computers.
 
-![policypak_application_settings_18](/img/product_docs/policypak/policypak/applicationsettings/designstudio/quickstart/policypak_application_settings_18.webp)
+![policypak_application_settings_18](../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/designstudio/quickstart/policypak_application_settings_18.webp)
 
 Figure 19. Creating and linking a GPO.
 
@@ -22,15 +22,15 @@ This example is set up as though you've put your target computers in the East Sa
 
 Then when you edit the GPO, edit it on the Computer side, as seen in Figure 20. At that point, you can modify settings for Firefox, Thunderbird, and Java, including "Lockdown this setting using the system-wide config file," as seen in the top of the figure with Firefox and the bottom of the figure with Java.
 
-![policypak_application_settings_19](/img/product_docs/policypak/policypak/applicationsettings/designstudio/quickstart/policypak_application_settings_19.webp)
+![policypak_application_settings_19](../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/designstudio/quickstart/policypak_application_settings_19.webp)
 
-![policypak_application_settings_20](/img/product_docs/policypak/policypak/applicationsettings/designstudio/quickstart/policypak_application_settings_20.webp)
+![policypak_application_settings_20](../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/designstudio/quickstart/policypak_application_settings_20.webp)
 
 Figure 20. System-wide lockdown using config files is only available on the Computer side, as seen in the examples of Firefox (top) and Java (bottom).
 
 It is important to note that the option "Lockdown this setting using the system-wide config file" does not appear on the User side. If you try to edit these three AppSets on the User side, you will not see an option to perform UI lockdown. An example of editing one of these AppSets (the Firefox AppSet) on the User side (and therefore, not seeing the system-wide lockdown) is shown in Figure 21.
 
-![policypak_application_settings_19](/img/product_docs/policypak/policypak/applicationsettings/designstudio/quickstart/policypak_application_settings_19.webp)
+![policypak_application_settings_19](../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/designstudio/quickstart/policypak_application_settings_19.webp)
 
 Figure 21. The lockdown via system-wide config file is not present on the User side.
 

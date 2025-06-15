@@ -8,7 +8,7 @@ Navigate to the __Jobs__ > __SharePoint__ > __8.M365__ > __SP_Teams__ > __Config
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the SP_Teams Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/m365/teamsanalysis.webp)
+![Analysis Tasks for the SP_Teams Job](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/m365/teamsanalysis.webp)
 
 The default analysis task is:
 

@@ -20,23 +20,23 @@ The following job groups must be successfully run prior to using this workflow:
 
 The __File System__ > __Resource Based Groups__ Job Group is a separately licensed component of the Access Analyzer File System solution set. Typically this job group is added during installation, but it can be installed from the Instant Job Wizard.
 
-![Resource Based Groups Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.webp)
+![Resource Based Groups Job Group in the Jobs Tree](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.webp)
 
 Once it has been installed into the Jobs tree, navigate to the solution: __Jobs__ > __FileSystem__ > __Resource Based Groups__.
 
-The FS_TraverseGroups Job and the FS_ResourceBasedGroupsAICImport Job must be installed from the Instant Job library. See the [Instant Job Wizard](/docs/accessanalyzer/enterpriseauditor/admin/jobs/instantjobs/overview.md) topic for additional information.
+The FS_TraverseGroups Job and the FS_ResourceBasedGroupsAICImport Job must be installed from the Instant Job library. See the [Instant Job Wizard](../../../admin/jobs/instantjobs/overview.md) topic for additional information.
 
 ## Jobs
 
 The Resource Based Groups Job Group will transform permissions on specified folders to a resource based groups model.
 
-![Job Group Overview page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/runninginstances/overviewpage.webp)
+![Job Group Overview page](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/runninginstances/overviewpage.webp)
 
 The following jobs comprise the Resource Based Groups Job Group:
 
-- [FS_ResourceBasedGroups Job](/docs/accessanalyzer/enterpriseauditor/solutions/filesystem/resourcebasedgroups/fs_resourcebasedgroups.md) – This job will transform permission on specified folders to a resource based groups model
-- [FS_TraverseGroups Job](/docs/accessanalyzer/enterpriseauditor/solutions/filesystem/resourcebasedgroups/fs_traversegroups.md) – (Optional) This job can be used to create and apply permissions for traverse groups based on previous resource based groups. The FS_TraverseGroupsJob must be added from the Instant Job Library in order to be used.
-- [FS_ResourceBasedGroupAICImport Job](/docs/accessanalyzer/enterpriseauditor/solutions/filesystem/resourcebasedgroups/fs_resourcebasedgroupaicimport.md) – (Optional) This job imports resources and access groups from the FS_ResoureBasedGroup Job into the Netwrix Access Information Center. The FS_ResourceBasedGroupsAICImport Job must be added from the Instant Job Library to be used.
+- [FS_ResourceBasedGroups Job](fs_resourcebasedgroups.md) – This job will transform permission on specified folders to a resource based groups model
+- [FS_TraverseGroups Job](fs_traversegroups.md) – (Optional) This job can be used to create and apply permissions for traverse groups based on previous resource based groups. The FS_TraverseGroupsJob must be added from the Instant Job Library in order to be used.
+- [FS_ResourceBasedGroupAICImport Job](fs_resourcebasedgroupaicimport.md) – (Optional) This job imports resources and access groups from the FS_ResoureBasedGroup Job into the Netwrix Access Information Center. The FS_ResourceBasedGroupsAICImport Job must be added from the Instant Job Library to be used.
 
 ## Recommended Configurations for the Resource Based Groups Job Group
 
@@ -60,6 +60,6 @@ Not supported
 
 ## Scheduling the Resource Based Groups Job Group
 
-Netwrix recommends that the job be run by a scheduled task with an unlimited timeout to ensure the job will not be aborted when an interactive session is ended due to logoff (a logoff based on inactivity is common in enterprise environments). Netwrix also recommends that the job only be scheduled for discrete one-time runs so that results may be reviewed after each execution. See the [Schedule Jobs](/docs/accessanalyzer/enterpriseauditor/admin/schedule/overview.md#schedule-jobs) topic for additional information.
+Netwrix recommends that the job be run by a scheduled task with an unlimited timeout to ensure the job will not be aborted when an interactive session is ended due to logoff (a logoff based on inactivity is common in enterprise environments). Netwrix also recommends that the job only be scheduled for discrete one-time runs so that results may be reviewed after each execution. See the [Schedule Jobs](../../../admin/schedule/overview.md#schedule-jobs) topic for additional information.
 
 Throughout this document reference to executing a job refers to either manual execution or scheduled execution, according to the needs of the organization.

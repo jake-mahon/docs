@@ -19,7 +19,7 @@ Location
 
 The .NIS Inventory Solution is a core component of all Access Analyzer installations. It can be installed from the Access Analyzer Instant Job Wizard..
 
-![.NIS Inventory Solution in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.webp)
+![.NIS Inventory Solution in the Jobs Tree](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.webp)
 
 Once it has been installed into the Jobs tree, navigate to the solution: __Jobs__ > __.NIS Inventory__. This group has been named in such a way to keep it at the top of the Jobs tree.
 
@@ -27,8 +27,8 @@ Once it has been installed into the Jobs tree, navigate to the solution: __Jobs_
 
 The .NIS Inventory Solution contains a single job. This job is configured to use the NIS Data Collector and then runs analysis on the collected data.
 
-![.NIS Inventory Solution Overview page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/runninginstances/overviewpage.webp)
+![.NIS Inventory Solution Overview page](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/runninginstances/overviewpage.webp)
 
 The following job comprises the .NIS Inventory job group:
 
-- [NIS Scan Job](/docs/accessanalyzer/enterpriseauditor/solutions/nisinventory/nis_scan.md) – Provides essential user and group membership details to built-in solution sets
+- [NIS Scan Job](nis_scan.md) – Provides essential user and group membership details to built-in solution sets

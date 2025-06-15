@@ -11,7 +11,7 @@ The event filters for the LDAP Monitoring event type are:
 - Hosts (from)
 - Rule Preview
 
-![Policy window - LDAP Lockdown Event Type](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/ldaplockdown.webp)
+![Policy window - LDAP Lockdown Event Type](../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/ldaplockdown.webp)
 
 Each filter tab acts like an "AND" statement for the filter. Any filter tab left blank is treated like an "ALL" for that filter set.
 
@@ -26,16 +26,16 @@ This event type can only be used in a policy by itself or with another LDAP even
 
 Use the LDAP filter to set the scope of the policy to include one or more communication security types.
 
-![New Policy - LDAP filter](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/ldap.webp)
+![New Policy - LDAP filter](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/ldap.webp)
 
 The operation selected affects what options are available on this filter and what other filters are available for the event type:
 
 - LDAP Search – Use the LDAP Search operation to search for and identify activity that does not conform to your security configurations
 
-  - This option displays additional filters for Secure configurations and Search scopes. See the [LDAP Search Operations Use Case](/docs/threatprevention/threatprevention/admin/policies/eventtype/usecase/ldapsearch.md) topic for additional information.
+  - This option displays additional filters for Secure configurations and Search scopes. See the [LDAP Search Operations Use Case](usecase/ldapsearch.md) topic for additional information.
 - LDAP Ping – LDAP Ping is a Microsoft Active Directory specific Lightweight Directory Access Protocol (LDAP) or Connection-less Lightweight Directory Access Protocol (CLDAP) search that returns information about whether services are live on a domain controller
 
-  - See the [LDAP Ping Operations Use Case](/docs/threatprevention/threatprevention/admin/policies/eventtype/usecase/ldapping.md) topic for additional information.
+  - See the [LDAP Ping Operations Use Case](usecase/ldapping.md) topic for additional information.
 
   When LDAP Ping is selected, the Secure Configurations and Search scopes sections are not displayed.
 
@@ -43,39 +43,39 @@ The operation selected affects what options are available on this filter and wha
 
 Use the Domains/Servers filter to set the scope of the policy to specific domains and/or servers or to exclude specific domains and/or servers.
 
-![Event Type - Domains/Servers Monitoring filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/domainsserversmonitoring.webp)
+![Event Type - Domains/Servers Monitoring filter](../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/domainsserversmonitoring.webp)
 
 Use the buttons in the Include and Exclude areas to edit the lists.
 
-- The Add (+) buttons open the [Select Domains and Servers Window](/docs/threatprevention/threatprevention/admin/policies/eventtype/window/selectdomainsservers.md).
-- The Collection button opens the [List of Collections Window](/docs/threatprevention/threatprevention/admin/configuration/collectionmanager/listcollections.md) to the appropriate Collection category.
+- The Add (+) buttons open the [Select Domains and Servers Window](window/selectdomainsservers.md).
+- The Collection button opens the [List of Collections Window](../../configuration/collectionmanager/listcollections.md) to the appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
-__NOTE:__ To enable a Dynamic Policy, use the Collection button to select the desired Dynamic Collection. See the [Dynamic Collections](/docs/threatprevention/threatprevention/admin/configuration/collectionmanager/dynamic.md) topic for additional information.
+__NOTE:__ To enable a Dynamic Policy, use the Collection button to select the desired Dynamic Collection. See the [Dynamic Collections](../../configuration/collectionmanager/dynamic.md) topic for additional information.
 
 ## AD Perpetrator Filter
 
 Use the AD Perpetrator filter for lockdown to set the scope of the policy to lockdown specific security principals committing changes or to exclude specific security principals committing changes from being locked down.
 
-![AD Perpetrator Protect filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/adperpetratorprotect.webp)
+![AD Perpetrator Protect filter](../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/adperpetratorprotect.webp)
 
 Select the __Block__ or __Allow__ option button and then edit the list.
 
-__NOTE:__ For the [Password Enforcement Event Type](/docs/threatprevention/threatprevention/admin/policies/eventtype/passwordenforcement.md), selecting __Allow__ means that this policy will not validate the new passwords for the accounts listed here. Selecting __Block__ means that this policy will validate the new passwords for the accounts listed here.
+__NOTE:__ For the [Password Enforcement Event Type](passwordenforcement.md), selecting __Allow__ means that this policy will not validate the new passwords for the accounts listed here. Selecting __Block__ means that this policy will validate the new passwords for the accounts listed here.
 
 Use the buttons in the Perpetrators and Collections of Perpetrators areas to edit the lists.
 
-- Perpetrators area – The Add (+) button opens the [Select Active Directory Perpetrators Window](/docs/threatprevention/threatprevention/admin/policies/eventtype/window/selectactivedirectory/perpetrators.md).
-- Collections of Perpetrators area - The Collection button opens the [List of Collections Window](/docs/threatprevention/threatprevention/admin/configuration/collectionmanager/listcollections.md) to the appropriate Collection category.
+- Perpetrators area – The Add (+) button opens the [Select Active Directory Perpetrators Window](window/selectactivedirectory/perpetrators.md).
+- Collections of Perpetrators area - The Collection button opens the [List of Collections Window](../../configuration/collectionmanager/listcollections.md) to the appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
-__NOTE:__ To enable a Dynamic Policy, use the Collection button to select the desired Dynamic Collection. See the [Dynamic Collections](/docs/threatprevention/threatprevention/admin/configuration/collectionmanager/dynamic.md) topic for additional information.
+__NOTE:__ To enable a Dynamic Policy, use the Collection button to select the desired Dynamic Collection. See the [Dynamic Collections](../../configuration/collectionmanager/dynamic.md) topic for additional information.
 
 ## LDAP Query Filter
 
 Use the LDAP Query filter for lockdown to set the scope of the policy to lockdown specific LDAP queries or to exclude specific queries from being locked down.
 
-![Policy window - LDAP Query filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/ldapquerylockdown.webp)
+![Policy window - LDAP Query filter](../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/ldapquerylockdown.webp)
 
 Select the __Block__ or __Allow__ option button and then edit the list.
 
@@ -86,29 +86,29 @@ __CAUTION:__ Users should fully understand the blocking rule summary displayed i
 
 Enter a query in the LDAP Queries box. You can type a string in the textbox. Alternatively, use the buttons in the respective sections.
 
-- The Add (+) buttons open the [Select Active Directory Objects Window](/docs/threatprevention/threatprevention/admin/policies/eventtype/window/selectactivedirectory/objects.md).
+- The Add (+) buttons open the [Select Active Directory Objects Window](window/selectactivedirectory/objects.md).
 - The Remove (x) button deletes the selected item(s) from that box.
 
 ## Hosts (from) Filter
 
 Use the Hosts (from) filter for lockdown to set the scope of the policy to only lockdown specific hosts as originators of an event.
 
-![Policy window - Hosts (from) filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/hostsfromlockdown.webp)
+![Policy window - Hosts (from) filter](../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/hostsfromlockdown.webp)
 
 Select the __Block__ or __Allow__ option button and then edit the list.
 
-- For the [Password Enforcement Event Type](/docs/threatprevention/threatprevention/admin/policies/eventtype/passwordenforcement.md), selecting __Allow__ means that this policy will not validate the new passwords for the accounts listed here. Selecting __Block__ means that this policy will validate the new passwords for the accounts listed here.
-- For the [Authentication Lockdown Event Type](/docs/threatprevention/threatprevention/admin/policies/eventtype/authenticationlockdown.md), this filter blocks or only allows authentication from the identified host(s).
+- For the [Password Enforcement Event Type](passwordenforcement.md), selecting __Allow__ means that this policy will not validate the new passwords for the accounts listed here. Selecting __Block__ means that this policy will validate the new passwords for the accounts listed here.
+- For the [Authentication Lockdown Event Type](authenticationlockdown.md), this filter blocks or only allows authentication from the identified host(s).
 
 Use the buttons in the Include Hosts area to edit the list.
 
-- The Hosts Add (+) button opens the [Select Computer Window](/docs/threatprevention/threatprevention/admin/policies/eventtype/window/selectcomputers.md).
+- The Hosts Add (+) button opens the [Select Computer Window](window/selectcomputers.md).
 - The Remove (x) button deletes the selected item(s) from that box.
 
 ## Rule Preview Filter
 
 The Rule Preview filter displays a summary of the selected filter options. This is primarily used for troubleshooting.
 
-![Event Type - Rule Preview filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/rulepreview.webp)
+![Event Type - Rule Preview filter](../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/rulepreview.webp)
 
 The text displayed represents the rules created based on the policy’s selected filters. Each row is a selected filter. Notice the Word Wrap checkox. If checked, a filter statement may cover multiple rows so that all of it is visible.

@@ -12,7 +12,7 @@ All Microsoft Entra Tenants.
 
 Connection Profile
 
-The Connection Profile is assigned under __.Entra ID Inventory__ > __Settings__ > __Connection__. It is set to __Use the Default Profile__, as configured at the global __Settings__ level. However, if this is not the Connection Profile with the necessary permissions for targeting the Microsoft Entra tenants, select the __Select one of the following user defined profiles__ option and select the appropriate Connection Profile. See the [Microsoft Entra ID Connection Profile & Host List](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/azureadinventory/configurejob.md) topic for information.
+The Connection Profile is assigned under __.Entra ID Inventory__ > __Settings__ > __Connection__. It is set to __Use the Default Profile__, as configured at the global __Settings__ level. However, if this is not the Connection Profile with the necessary permissions for targeting the Microsoft Entra tenants, select the __Select one of the following user defined profiles__ option and select the appropriate Connection Profile. See the [Microsoft Entra ID Connection Profile & Host List](../../admin/datacollector/azureadinventory/configurejob.md) topic for information.
 
 History Retention
 
@@ -32,11 +32,11 @@ The jobs in the .Entra ID Inventory Job Group should be run together and in ord
 
 Query Configuration
 
-Run the solution with the default query configuration for best results. While it is recommended to make no changes to the [1-AAD_Scan Job](/docs/accessanalyzer/enterpriseauditor/solutions/entraidinventory/1-aad_scan.md), a possible modification might be to scope the query to not collect login activity.
+Run the solution with the default query configuration for best results. While it is recommended to make no changes to the [1-AAD_Scan Job](1-aad_scan.md), a possible modification might be to scope the query to not collect login activity.
 
 Analysis Configuration
 
-Run the solution with the default analysis configuration for best results. However, a possible modification might be to customize exception analysis parameters within the [2-AAD_Exceptions Job](/docs/accessanalyzer/enterpriseauditor/solutions/entraidinventory/2-aad_exceptions.md).
+Run the solution with the default analysis configuration for best results. However, a possible modification might be to customize exception analysis parameters within the [2-AAD_Exceptions Job](2-aad_exceptions.md).
 
 Workflow
 

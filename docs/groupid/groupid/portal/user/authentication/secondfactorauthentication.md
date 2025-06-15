@@ -6,8 +6,8 @@ This implies that, in addition to providing a valid user name and password to co
 
 Second factor authentication works as follows:
 
-- An unenrolled user must enroll his or her identity store account in Directory Manager. See the [Enroll your Identity Store Account](/docs/groupid/groupid/admincenter/enroll.md) topic. Enrollment is a one-time process.
-- An enrolled user has to authenticate on the Directory Manager portal using the authentication type he or she used to enroll his or her identity store account with. See the [Authenticate your Identity Store Account](/docs/groupid/groupid/admincenter/authenticate.md) topic.
+- An unenrolled user must enroll his or her identity store account in Directory Manager. See the [Enroll your Identity Store Account](../../../admincenter/enroll.md) topic. Enrollment is a one-time process.
+- An enrolled user has to authenticate on the Directory Manager portal using the authentication type he or she used to enroll his or her identity store account with. See the [Authenticate your Identity Store Account](../../../admincenter/authenticate.md) topic.
 
   Authentication is required every time the user logs into the portal.
 

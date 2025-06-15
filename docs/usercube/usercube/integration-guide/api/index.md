@@ -4,13 +4,13 @@ Agent and server expose a REST API.
 
 ## OpenAPI Definition
 
-This feature is optional and must be activated by the Swagger settings section. See the [Application Settings](/docs/usercube/usercube/integration-guide/network-configuration/server-configuration/general-purpose/index.md) topic for additional information.
+This feature is optional and must be activated by the Swagger settings section. See the [Application Settings](../network-configuration/server-configuration/general-purpose/index.md) topic for additional information.
 
 The page ```[Usercube application's URL]/swagger``` can be used to explore and test the API.
 
 This page is built by the [Swagger UI tool](https://swagger.io/tools/swagger-ui/) from the Identity Manager [OpenAPI](https://swagger.io/specification/) definition.
 
-![Usercube server swagger page](/img/product_docs/usercube/usercube/integration-guide/api/swagger.webp)
+![Usercube server swagger page](../../../../../static/img/product_docs/usercube/usercube/integration-guide/api/swagger.webp)
 
 A function can have several versions. This is why the API description is split into several OpenAPI definition files.
 

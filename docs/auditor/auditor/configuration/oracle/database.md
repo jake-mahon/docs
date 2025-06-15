@@ -58,8 +58,8 @@ Currently, Netwrix Auditor checks audit settings for Unified Auditing when accom
 
 Also, remember to do the following:
 
-- Configure Data Collecting Account as described in [Permissions for Oracle Database Auditing](/docs/auditor/auditor/configuration/oracle/permissions.md) topic.
-- Configure ports as described in [Oracle Database Ports](/docs/auditor/auditor/configuration/oracle/ports.md) topic.
+- Configure Data Collecting Account as described in [Permissions for Oracle Database Auditing](permissions.md) topic.
+- Configure ports as described in [Oracle Database Ports](ports.md) topic.
 
 __NOTE:__ Traditional auditing is deprecated in Oracle Database 21c. Oracle recommends using Unified Auditing, which enables selective and more effective auditing within Oracle Database. See the [Oracle website](https://docs.oracle.com/en/database/oracle/oracle-database/23/sqlrf/AUDIT-Traditional-Auditing.html#oracle-website) for more information.
 
@@ -67,7 +67,7 @@ __NOTE:__ Traditional auditing is deprecated in Oracle Database 21c. Oracle reco
 
 This section explains how to configure __Standard Auditing__ on your Oracle Database 11g, preparing for monitoring with the product.
 
-Starting with version 10.5, Auditor provides limited support of Oracle Database 11g. See the [Considerations for Oracle Database 11g](/docs/auditor/auditor/configuration/oracle/overview.md#considerations-for-oracle-database-11g) topic for additional information.
+Starting with version 10.5, Auditor provides limited support of Oracle Database 11g. See the [Considerations for Oracle Database 11g](overview.md#considerations-for-oracle-database-11g) topic for additional information.
 
 Verify that Oracle Data Provider for .NET and Oracle Instant Client are installed and properly configured on the computer where Auditor Server is installed. The product does not provide any special notification for that.
 
@@ -142,5 +142,5 @@ After an audit parameter has been enabled or disabled, Auditor will start collec
 
 Also, remember to do the following:
 
-- Configure Data Collecting Account. See the [Permissions for Oracle Database Auditing](/docs/auditor/auditor/configuration/oracle/permissions.md) topic for additional information.
-- Configure ports. See the [Oracle Database Ports](/docs/auditor/auditor/configuration/oracle/ports.md) topic for additional information about ports and protocols required for auditing.
+- Configure Data Collecting Account. See the [Permissions for Oracle Database Auditing](permissions.md) topic for additional information.
+- Configure ports. See the [Oracle Database Ports](ports.md) topic for additional information about ports and protocols required for auditing.

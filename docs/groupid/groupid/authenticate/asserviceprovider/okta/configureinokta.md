@@ -17,7 +17,7 @@ To configure Directory Manager in Okta, follow these steps:
 7. On the __General Settings__ tab of the __Create SAML Integration__ page, provide a user-friendly name for the app (for example, Directory Manager Okta Sign-On) in the __App name__ box.
 8. Use the __App Logo__ option to upload a logo for the Directory Manager app. This logo will be displayed on the Okta dashboard. When a user signs into Okta, he or she will be redirected to the dashboard that will have Directory Manager and other applications listed for single sign-on.
 9. Click __Next__.
-10. On the __Configure SAML__ tab of the __Create SAML Integration__ page, provide the consumer URL and audience URL that you generated for the Directory Manager client In the __Single sign on URL__ and __Audience URI (SP Entity ID)__ boxes respectively. See the [Generate URLs](/docs/groupid/groupid/authenticate/asserviceprovider/okta/generateurls.md) topic.
+10. On the __Configure SAML__ tab of the __Create SAML Integration__ page, provide the consumer URL and audience URL that you generated for the Directory Manager client In the __Single sign on URL__ and __Audience URI (SP Entity ID)__ boxes respectively. See the [Generate URLs](generateurls.md) topic.
 11. We will not specify any default relay state, so leave the __Default Relay State__ field blank.
 12. Leave the __Name ID format__ field selected to _Unspecified_.
 13. In the __Application username__ list, make sure _Okta username_ is selected. This implies that only users defined in Okta can authenticate on the Directory Manager portal _Wizard_ using the Okta single sign-on option. See the Configure Users in Okta topic.
@@ -42,7 +42,7 @@ __To download the file:__
 
 ### Configure Users in Okta
 
-You must define users in Okta. Only these users can authenticate on the Directory Manager portal _Wizard_ using Okta. See the [Sign In Using Okta](/docs/groupid/groupid/authenticate/asserviceprovider/okta/signin.md) topic.
+You must define users in Okta. Only these users can authenticate on the Directory Manager portal _Wizard_ using Okta. See the [Sign In Using Okta](signin.md) topic.
 
 There are multiple ways to define users in Okta, such as:
 

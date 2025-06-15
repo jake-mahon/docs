@@ -8,4 +8,4 @@ In this scenario, Netwrix 1Secure will access the cloud-based infrastructure via
 
 ## Multi-factor Authentication
 
-Support for modern authentication will allow you to audit the organizations where MFA is enabled for all users, including service accounts. See the [App Registration and Configuration in Microsoft Entra ID](/docs/1secure/configuration/entraid/registerconfig.md) topic for additional information.
+Support for modern authentication will allow you to audit the organizations where MFA is enabled for all users, including service accounts. See the [App Registration and Configuration in Microsoft Entra ID](../../configuration/entraid/registerconfig.md) topic for additional information.

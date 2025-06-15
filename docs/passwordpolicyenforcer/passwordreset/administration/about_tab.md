@@ -2,7 +2,7 @@
 
 Use the __About__ tab to check the version and license information, and to install a new license key.
 
-![configuring_npr_10](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/configuring_npr_10.webp)
+![configuring_npr_10](../../../../static/img/product_docs/passwordpolicyenforcer/passwordreset/administration/configuring_npr_10.webp)
 
 To install a new license key, copy the entire license e-mail to the clipboard, and then click Get license from clipboard.
 

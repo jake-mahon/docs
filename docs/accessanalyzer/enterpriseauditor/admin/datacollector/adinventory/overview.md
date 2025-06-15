@@ -2,7 +2,7 @@
 
 The extraction and correlation of user, group, and computer attributes drastically transforms the meaning of data collected across the many systems and applications that are linked to Active Directory. The ADInventory Data Collector is designed as a highly scalable and useful data collection mechanism to catalogue user, group, and computer object information that can be used by other solutions within Access Analyzer.
 
-The ADInventory Data Collector is a core component of Access Analyzer and has been preconfigured to be used within the .Active Directory Inventory Solution. Both this data collector and the solution are available with all Access Analyzer license options. See the [.Active Directory Inventory Solution](/docs/accessanalyzer/enterpriseauditor/solutions/activedirectoryinventory/overview.md) topic for additional information.
+The ADInventory Data Collector is a core component of Access Analyzer and has been preconfigured to be used within the .Active Directory Inventory Solution. Both this data collector and the solution are available with all Access Analyzer license options. See the [.Active Directory Inventory Solution](../../../solutions/activedirectoryinventory/overview.md) topic for additional information.
 
 Protocols
 
@@ -30,13 +30,13 @@ The ADInventory Data Collector has been designed to update incrementally. Once i
 The ADInventory Data Collector is configured through the Active Directory Inventory DC Wizard, which contains the following wizard pages:
 
 - Welcome
-- [ADInventory: Category](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/category.md)
-- [ADInventory: Results](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/results.md)
-- [ADInventory: Options](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/options.md)
-- [ADInventory: Index Update Options](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/indexupdateoptions.md)
-- [ADInventory: Custom Attributes](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/customattributes.md)
-- [ADInventory: Summary](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/summary.md)
+- [ADInventory: Category](category.md)
+- [ADInventory: Results](results.md)
+- [ADInventory: Options](options.md)
+- [ADInventory: Index Update Options](indexupdateoptions.md)
+- [ADInventory: Custom Attributes](customattributes.md)
+- [ADInventory: Summary](summary.md)
 
-![Active Directory Inventory DC Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
+![Active Directory Inventory DC Wizard Welcome page](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
 
 The Welcome page can be hidden by selecting the __Do not display this page the next time__ checkbox when the wizard is open and configuration settings are saved.

@@ -9,8 +9,8 @@ Dependencies
   - For the __AD_ServiceAccounts__ Job, the __.Active Directory Inventory__ > __1-AD_Scan__ Job needs to be configured to collect __servicePrincipalName__ as a Custom Attribute
 - For the __AD_WeakPassword__ Job:
 
-  - Requires the DSInternals PowerShell Module, which is a third-party package. See the [AD_WeakPasswords Job](/docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/users/ad_weakpasswords.md) topic for additional information.
-  - The AD_WeakPasswords Job depends on a dictionary file. See the [PasswordSecurity: Dictionaries](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/passwordsecurity/dictionaries.md) topic for additional information.
+  - Requires the DSInternals PowerShell Module, which is a third-party package. See the [AD_WeakPasswords Job](ad_weakpasswords.md) topic for additional information.
+  - The AD_WeakPasswords Job depends on a dictionary file. See the [PasswordSecurity: Dictionaries](../../../admin/datacollector/passwordsecurity/dictionaries.md) topic for additional information.
 
   ___RECOMMENDED:___ If this job is not to be used, disable the job to prevent execution when the job group is executed.
 
@@ -22,7 +22,7 @@ Connection Profile
 
 Only the __AD_WeakPasswords__ Job requires a Connection Profile. It must be set directly on the __AD_WeakPasswords__ Job (through the Job Properties window) with Domain Administrator privileges.
 
-__NOTE:__ The __AD_WeakPassword__ Job can be executed with a least privilege credential. See the [Active Directory Auditing Configuration](/docs/accessanalyzer/config/activedirectory/access.md) topic for additional information.
+__NOTE:__ The __AD_WeakPassword__ Job can be executed with a least privilege credential. See the [Active Directory Auditing Configuration](../../../../config/activedirectory/access.md) topic for additional information.
 
 Schedule Frequency
 

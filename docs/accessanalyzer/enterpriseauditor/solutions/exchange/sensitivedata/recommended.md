@@ -23,9 +23,9 @@ __NOTE:__ Default dynamic host lists are populated from hosts in the Host Master
 
 Connection Profile
 
-A Connection Profile must be set directly on jobs within the 0.Collection job group. See the [Exchange Web Services API Permissions](/docs/accessanalyzer/enterpriseauditor/requirements/solutions/exchange/webservicesapi.md) topic for the EX_PFInfo job requirements.
+A Connection Profile must be set directly on jobs within the 0.Collection job group. See the [Exchange Web Services API Permissions](../../../requirements/solutions/exchange/webservicesapi.md) topic for the EX_PFInfo job requirements.
 
-See the [Connection](/docs/accessanalyzer/enterpriseauditor/admin/settings/connection/overview.md) topic for additional information.
+See the [Connection](../../../admin/settings/connection/overview.md) topic for additional information.
 
 Schedule Frequency
 

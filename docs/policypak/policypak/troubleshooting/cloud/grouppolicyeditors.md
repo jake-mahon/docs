@@ -4,19 +4,19 @@ When a computer is joined to a domain, you can check the values on a machine usi
 
 But this will only show you the items which are coming from on-prem Group Policy and not Netwrix Endpoint Policy Manager (formerly PolicyPak) Cloud.
 
-To see Endpoint Policy Manager Cloud results on a Endpoint Policy Manager cloud joined machine, use the[Endpoint Policy Manager Cloud Reporting Demo](/docs/policypak/policypak/video/cloud/reports.md).
+To see Endpoint Policy Manager Cloud results on a Endpoint Policy Manager cloud joined machine, use the[Endpoint Policy Manager Cloud Reporting Demo](../../video/cloud/reports.md).
 
 You can also see the policies on the machine by running ```PPCLOUD /SYNC``` and seeing the itemized list, like what is in the two screenshots below.
 
 That being said, if you deploy Security Settings, then some of those settings will come thru and be seen in the local Group Policy Editor, like what's seen here.
 
-![611_1_hf-935-img-01](/img/product_docs/policypak/policypak/troubleshooting/cloud/611_1_hf-935-img-01.jpg)
+![611_1_hf-935-img-01](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/cloud/611_1_hf-935-img-01.jpg)
 
 Even this is not guaranteed for all the settings within Security; this is a rare example.
 
 And, in no cases can you see Group Policy Admin Templates appear in the local ```GPEDIT.MSC``` or ```RSOP.MSC``` Group Policy editor or results reporting.
 
-![611_3_hf-935-img-02](/img/product_docs/policypak/policypak/troubleshooting/cloud/611_3_hf-935-img-02.jpg)
+![611_3_hf-935-img-02](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/cloud/611_3_hf-935-img-02.jpg)
 
 This also holds true for Endpoint Policy Manager -specific settings, like Endpoint Policy Manager Browser Router or Endpoint Policy Manager Least Privilege Manager. Even if you have the Admin Console on a machine getting Endpoint Policy Manager Cloud policies, you won't see the "results" here.
 
@@ -48,12 +48,12 @@ Here's an end to end example of how to check and perform this verification:
 
 Start off with a policy in Endpoint Policy Manager Cloud Admin Template item, like "Prohibit access to Control Panel and PC settings" like this:
 
-![611_5_image-20200923174350-1](/img/product_docs/policypak/policypak/troubleshooting/cloud/611_5_image-20200923174350-1.webp)
+![611_5_image-20200923174350-1](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/cloud/611_5_image-20200923174350-1.webp)
 
 If you want to verify the value, you would use the GP Spreadhseet and find the same policy like this.
 
-![611_6_image-20200923150026-2](/img/product_docs/policypak/policypak/troubleshooting/cloud/611_6_image-20200923150026-2.webp)
+![611_6_image-20200923150026-2](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/cloud/611_6_image-20200923150026-2.webp)
 
 Finally, on the endpoint, use Regedit to verify the final value is or is not present. This means Endpoint Policy Manager did the work you expect.
 
-![611_7_image-20200923152313-3](/img/product_docs/policypak/policypak/troubleshooting/cloud/611_7_image-20200923152313-3.webp)
+![611_7_image-20200923152313-3](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/cloud/611_7_image-20200923152313-3.webp)

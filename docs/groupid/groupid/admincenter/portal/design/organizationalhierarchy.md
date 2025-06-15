@@ -21,10 +21,10 @@ What do you want to do?
 6. In the __Field__ drop-down list, select a schema attribute to display on the organizational hierarchy chart.
 7. In the __Display Name__ box, enter a user-friendly name for the attribute, that would serve as the attribute name on the chart. The attribute’s value will be displayed next to this name.
 8. In the __Display Type__ drop-down list, select the display type to use for rendering the attribute on the organizational hierarchy chart. The display type must match the attribute. For example, the ‘TreePicture’ display type matches the ‘thumbnailPhoto’ attribute.  
-   This list contains basic display types and custom display types defined on the __Custom Display Types__ page. See the [Display Type Categories](/docs/groupid/groupid/admincenter/portal/displaytype/categories.md) topic.
+   This list contains basic display types and custom display types defined on the __Custom Display Types__ page. See the [Display Type Categories](../displaytype/categories.md) topic.
 9. Click __OK__.
 10. Click __Save__ on the __Organizational Hierarchy__ page.
 
 __See Also__
 
-- [Design a Portal with Display Types](/docs/groupid/groupid/admincenter/portal/displaytype/overview.md)
+- [Design a Portal with Display Types](../displaytype/overview.md)

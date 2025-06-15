@@ -25,7 +25,7 @@ Use the following commands:
 
 __NOTE:__ Contact Customer Support to provide the tool as well as assistance.
 
-![Download and install the Endpoint Protector Client corresponding to your operating system](/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/clientsoftware.png)
+![Download and install the Endpoint Protector Client corresponding to your operating system](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/clientsoftware.png)
 
 __NOTE:__ Endpoint Protector Client versions are displayed in the format X.X.X.XXXX on endpoints. This version will be saved in the Endpoint Protector Server database, although the web console will truncate the last 3 digits.
 
@@ -116,7 +116,7 @@ __NOTE:__ When updating your operating system to the latest macOS Ventura, eppcl
 
 __CAUTION:__ The feature is not compatible for Endpoint Protector instances that are running on 32-bit versions of Windows.
 
-![Client Software Upgrade](/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/clientsoftwareupgrade.png)
+![Client Software Upgrade](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/clientsoftwareupgrade.png)
 
 __NOTE:__ Endpoint Protector Client versions are displayed in the format X.X.X.XXXX on endpoints. This version will be saved in the Endpoint Protector Server database, although the web console will truncate the last 3 digits. In case Endpoint Protector Client versions are identical (ﬁrst 4-digits), Endpoint Protector Server will still compare the full version number against each other, identifying the most recent version.
 
@@ -126,19 +126,19 @@ To upgrade your Endpoint Protector Client, you need to create a new upgrade job,
 
 __Step 1 –__ Select the OS version from the drop-down list and then click __Next__.
 
-![Create New Upgrade Job](/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/createnewupgradejob.png)
+![Create New Upgrade Job](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/createnewupgradejob.png)
 
 __Step 2 –__ Select the groups and/or computers to perform or exclude from the upgrade and then click __Next__. You will view a summary of your selection above the table with endpoints.
 
 __NOTE:__ Only computers that use the operating system you previously selected will be upgraded. If you selected a group that has an endpoint using a different operating system, it will not be upgraded. If you selected a mixed group, with both computers and users, only the computers will be upgraded.
 
-![Select the groups and/or computers to perform or exclude from the upgrade](/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/selectendpointsupgrade.png)
+![Select the groups and/or computers to perform or exclude from the upgrade](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/selectendpointsupgrade.png)
 
 __Step 3 –__ Edit the default job title, add a description and conﬁrm the upgrade job details by clicking __Start Upgrade job__. You will view the upgrade as an entry on the Upgrade jobs section.
 
 __NOTE:__ The upgrade process for the Endpoint Protector Client is impacted by a dedicated cron. Running every 5 minutes, the cron sets the upgrade process status to Pending and every 15 minutes checks and updates process status to Completed or Completed with failures.
 
-![Edit the default job title, add a description and conﬁrm the upgrade job details](/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/upgradejobdetails.png)
+![Edit the default job title, add a description and conﬁrm the upgrade job details](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/upgradejobdetails.png)
 
 ### Manage Upgrade Jobs
 
@@ -148,7 +148,7 @@ To continue upgrading canceled Client Upgrade jobs, use the __Retry__ option fro
 
 __NOTE:__ If you deleted or archived a Client Upgrade job, then the endpoints become available for selection in other jobs.
 
-![Manage Upgrade Jobs](/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/manageupgradejobs.png)
+![Manage Upgrade Jobs](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/manageupgradejobs.png)
 
 ## Client Uninstall
 
@@ -158,6 +158,6 @@ If the computer is oﬄine, it will receive the uninstall command the ﬁrst tim
 
 The uninstall command can be canceled if it was not already executed.
 
-![Client Uninstall](/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/clientuninstall.png)
+![Client Uninstall](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/clientuninstall.png)
 
 __NOTE:__ If the server and Endpoint Protector client can't communicate due to missing server certiﬁcation validation (when the certiﬁcation validation setting is enabled), uninstall commands can't be executed from the Endpoint Protector Server. In such cases, if you're unable to manually install the certiﬁcate on the Endpoint Protector Client computer, you can temporarily disable the certiﬁcation validation setting on the Endpoint Protector Server and synchronize the Endpoint Protector Client to retrieve an uninstall command.

@@ -10,4 +10,4 @@ Option 1 is to ignore the message and move on; it should work just find.
 
 Option 2 is to clean up the underlying issue in your Central (or Local) store. Here's a Microsoft article on that: [https://support.microsoft.com/en-us/help/3077013/-microsoft-policies-sensors-windowslocationprovider-is-already-defined](https://support.microsoft.com/en-us/help/3077013/-microsoft-policies-sensors-windowslocationprovider-is-already-defined)
 
-![733_1_gfhjghj](/img/product_docs/policypak/policypak/troubleshooting/error/admintemplates/733_1_gfhjghj.webp)
+![733_1_gfhjghj](../../../../../../static/img/product_docs/policypak/policypak/troubleshooting/error/admintemplates/733_1_gfhjghj.webp)

@@ -22,7 +22,7 @@ __Step 4 –__ Hit __Enter__.
 
 Depending on the number of Activity Records stored in Netwrix Auditor Audit Database execution may take a while. Ensure the script execution completed successfully. The Netwrix Auditor __Integration__ event log will be created and filled with events.
 
-By default, the Netwrix Auditor __Integration__ event log size is set to 1GB, and retention is set to "_Overwrite events as needed_". See the [Integration Event Log Fields](/docs/auditor/auditor/addon/intelsecurity/integrationeventlog.md) topic for additional information.
+By default, the Netwrix Auditor __Integration__ event log size is set to 1GB, and retention is set to "_Overwrite events as needed_". See the [Integration Event Log Fields](integrationeventlog.md) topic for additional information.
 
 __NOTE:__ Event records with more than 30,000 characters length will be trimmed.
 

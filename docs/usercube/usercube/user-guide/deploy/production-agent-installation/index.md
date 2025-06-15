@@ -2,24 +2,24 @@
 
 This guide shows how to install an agent separated from the server, for production environment. See the [
 Architecture
-](/docs/usercube/usercube/introduction-guide/architecture/index.md)topic for additional information.
+](../../../introduction-guide/architecture/index.md)topic for additional information.
 
 ## Overview
 
 Like all agents, the production agent aims to extract data from a given managed system, and transmit said data to the Identity Manager server. If necessary, the agent also enables the managed system's provisioning according to the orders computed by the Identity Manager server. See the [
 Architecture
-](/docs/usercube/usercube/introduction-guide/architecture/index.md)topic for additional information.
+](../../../introduction-guide/architecture/index.md)topic for additional information.
 
 Identity Manager solution can use several agents, each of them manages a given system. This section is about installing the agent managing the production environment.
 
 Once agents are configured in addition to the default one provided by SaaS, you need to think about what agent to choose during each [
 Create the Connector
-](/docs/usercube/usercube/user-guide/set-up/connect-system/connector-declaration/index.md)declaration. The appropriate agent has access to the managed system.
+](../../set-up/connect-system/connector-declaration/index.md)declaration. The appropriate agent has access to the managed system.
 
 ## Requirements
 
 Ensure that all [
-Agent ](/docs/usercube/usercube/installation-guide/requirements/agent-requirements/index.md)requirements can be met before starting the installation of the production agent.
+Agent ](../../../installation-guide/requirements/agent-requirements/index.md)requirements can be met before starting the installation of the production agent.
 
 Requirements for the agent installation can change over the course of the project, according to the project purpose.
 
@@ -37,7 +37,7 @@ Integrators should have all the elements they need to operate.
 
 | Input | Output |
 | --- | --- |
-| [ Agent ](/docs/usercube/usercube/installation-guide/requirements/agent-requirements/index.md)prerequisites (required) | Production agent |
+| [ Agent ](../../../installation-guide/requirements/agent-requirements/index.md)prerequisites (required) | Production agent |
 
 ## Install the Production Agent
 
@@ -45,22 +45,22 @@ Install the production agent by proceeding as follows:
 
 1. [
    Create a Working Directory
-   ](/docs/usercube/usercube/installation-guide/production-ready/working-directory/index.md)and make sure it contains the folders: ```Mails```; ```Sources```; ```Temp```; ```Work```.
+   ](../../../installation-guide/production-ready/working-directory/index.md)and make sure it contains the folders: ```Mails```; ```Sources```; ```Temp```; ```Work```.
 2. [
    Configure the Agent's Settings
-   ](/docs/usercube/usercube/user-guide/deploy/production-agent-installation/settings-files/index.md) via the ```web.config```, ```appsettings.json``` and ```appsettings.agent.json``` files.
+   ](settings-files/index.md) via the ```web.config```, ```appsettings.json``` and ```appsettings.agent.json``` files.
 3. Configure the local server to [
    Install IIS via Server Manager
-   ](/docs/usercube/usercube/user-guide/deploy/production-agent-installation/iis-installation/index.md).
+   ](iis-installation/index.md).
 4. [
    Configure the Pool and Site
-   ](/docs/usercube/usercube/user-guide/deploy/production-agent-installation/iis-configuration/index.md) via IIS.
+   ](iis-configuration/index.md) via IIS.
 5. [
    Set the Working Directory's Permissions
-   ](/docs/usercube/usercube/user-guide/deploy/production-agent-installation/directory-permissions/index.md).
+   ](directory-permissions/index.md).
 6. [
    Finalize the Installation
-   ](/docs/usercube/usercube/user-guide/deploy/production-agent-installation/finalization/index.md).
+   ](finalization/index.md).
 
 ## Verify Agent Installation
 

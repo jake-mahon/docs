@@ -4,9 +4,9 @@ This connector exports [Azure](https://azure.microsoft.com/en-us/resources/cloud
 
 This page is about [
 Azure
-](/docs/usercube/usercube/integration-guide/connectors/references-packages/azure/index.md).
+](../../references-packages/azure/index.md).
 
-![Package: Cloud/Azure](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/azure/packages_azure_v603.webp)
+![Package: Cloud/Azure](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/azure/packages_azure_v603.webp)
 
 ## Prerequisites
 
@@ -20,7 +20,7 @@ For a given Azure tenant with resources, this connector exports Azure resources,
 
 This process is configured through a [
 Connection
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or the XML configuration, and in the ```appsettings.agent.json > Connections``` section:
+](../../../toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or the XML configuration, and in the ```appsettings.agent.json > Connections``` section:
 
                     ```
 
@@ -83,7 +83,7 @@ The identifier of the connection and thus the name of the subsection must:
 
 ### Output details
 
-This connector is meant to generate to the [Application Settings](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) folder the following CSV files:
+This connector is meant to generate to the [Application Settings](../../../network-configuration/agent-configuration/appsettings/index.md) folder the following CSV files:
 
 ```<identifier>_RoleDefinition.csv``` with the following columns:
 
@@ -127,8 +127,8 @@ Data protection can be ensured through:
 
 - [
   RSA Encryption
-  ](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md) configured in the ```appsettings.encrypted.agent.json``` file;
-- An [Azure Key Vault](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md) safe;
+  ](../../../network-configuration/agent-configuration/rsa-encryption/index.md) configured in the ```appsettings.encrypted.agent.json``` file;
+- An [Azure Key Vault](../../../network-configuration/agent-configuration/azure-key-vault/index.md) safe;
 
 - A [CyberArk's AAM Credential Providers
-  ](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md) able to store Azure's ```ApplicationId``` and ```ApplicationKey```.
+  ](../../../network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md) able to store Azure's ```ApplicationId``` and ```ApplicationKey```.

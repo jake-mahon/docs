@@ -38,4 +38,4 @@ __Step 2 –__ Type __ServicesPipeTimeout__ and press __Enter__.
 
 The ServicesPipeTimeout entry is now added.
 
-See the [Best Practices and Troubleshooting](/docs/threatprevention/threatprevention/troubleshooting/overview.md) topic for additional information.
+See the [Best Practices and Troubleshooting](overview.md) topic for additional information.

@@ -27,4 +27,4 @@ If running Sensitive Data Discovery (SDD) scans, it will be necessary to increas
 
 When running Access Auditing (FSAA) and/or Sensitive Data Discovery Auditing scans, the credentials within the Connection Profile assigned to the File System scans must be properly configured as explained above. Also the firewall rules must be configured to allow for communication between the applicable servers.
 
-See the [Local Mode Port Requirements](/docs/accessanalyzer/enterpriseauditor/requirements/solutions/filesystem/localmodeports.md) topic for firewall rule information.
+See the [Local Mode Port Requirements](localmodeports.md) topic for firewall rule information.

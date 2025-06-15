@@ -14,7 +14,7 @@ __NOTE:__ This does not delete content from the external system
   - Selected Item(s) Only — select to Re-Index only current item and ignore its child elements.
 - Re-Classify—Queues a source or item to be re-classified against the latest configured classification rules
 
-__NOTE:__ See [Index Maintenance](/docs/dataclassification/ndc/admin/utilities/indexmaintenance.md) for more information on these operations.
+__NOTE:__ See [Index Maintenance](../utilities/indexmaintenance.md) for more information on these operations.
 
 - Pause—Temporarily pauses source content processing
 - Resume—Resumes a source from a temporary pause
@@ -22,24 +22,24 @@ __NOTE:__ See [Index Maintenance](/docs/dataclassification/ndc/admin/utilities/i
 
 Besides, in the source list on the __General__ tab you can do the following for selected source:
 
-- [View Results](/docs/dataclassification/ndc/admin/sources/viewcontent.md)
+- [View Results](viewcontent.md)
 - __Edit__ the source details by clicking on the "gear" icon
 - __View source-specific statistics__ by clicking on the "chart" icon
 - __View detailed information__ by clicking on the “i” icon
 - __Navigate to the source__ by clicking on the “link” icon
 
-![sources](/img/product_docs/dataclassification/ndc/admin/sources/sources.webp)
+![sources](../../../../../static/img/product_docs/dataclassification/ndc/admin/sources/sources.webp)
 
-__NOTE:__ When adding a source or managing source configuration, the most commonly used source settings are displayed by default. However, some source types have additional configuration options that can be displayed by clicking the Advanced Settings ("wrench" icon). You can allow these advanced settings to be always shown to authorized users. [See Users and Security Settings for more information.](/docs/dataclassification/ndc/security/users.md)
+__NOTE:__ When adding a source or managing source configuration, the most commonly used source settings are displayed by default. However, some source types have additional configuration options that can be displayed by clicking the Advanced Settings ("wrench" icon). You can allow these advanced settings to be always shown to authorized users. [See Users and Security Settings for more information.](../../security/users.md)
 
 ## Modify Source Settings
 
-To edit configuration settings for the certain source, select the source and go to the corresponding tab, e.g. __Box__ or __SharePoint__. Then you can, in particular, specify __Write configuration__ (i.e. "tagging") settings and apply source-specific parameters. See [Use Tagging](/docs/dataclassification/ndc/admin/sources/tagging.md) for more information.
+To edit configuration settings for the certain source, select the source and go to the corresponding tab, e.g. __Box__ or __SharePoint__. Then you can, in particular, specify __Write configuration__ (i.e. "tagging") settings and apply source-specific parameters. See [Use Tagging](tagging.md) for more information.
 
 See also:
 
-- [Database](/docs/dataclassification/ndc/admin/sources/database/managedatabase.md)
-- [Exchange Mailbox](/docs/dataclassification/ndc/admin/sources/database/exchangemailbox.md)
-- [Manage File System](/docs/dataclassification/ndc/admin/sources/filesystem/managefilesystem.md)
-- [ Google Drive](/docs/dataclassification/ndc/admin/sources/googledrive/managegoogledrive.md)
-- [SharePoint](/docs/dataclassification/ndc/admin/sources/sharepoint/introduction.md)
+- [Database](database/managedatabase.md)
+- [Exchange Mailbox](database/exchangemailbox.md)
+- [Manage File System](filesystem/managefilesystem.md)
+- [ Google Drive](googledrive/managegoogledrive.md)
+- [SharePoint](sharepoint/introduction.md)

@@ -1,6 +1,6 @@
 # Navigation
 
-On signing into Admin Center, you land on the [Dashboard](/docs/groupid/groupid/admincenter/general/dashboard.md).
+On signing into Admin Center, you land on the [Dashboard](dashboard.md).
 
 The following options help you to navigate the application:
 
@@ -25,7 +25,7 @@ __To perform a search:__
 1. In Admin Center, enter a search string in the Search box at the top of the page.  
    A list of matched items is displayed as you type. For example, as you type ‘ta’, it shows:
 
-   ![quick_search](/img/product_docs/groupid/groupid/admincenter/general/quick_search.webp)
+   ![quick_search](../../../../../static/img/product_docs/groupid/groupid/admincenter/general/quick_search.webp)
 2. On clicking __Quick Actions__ for an identity store, it displays the settings available for the identity store. Click an option to navigate to it.
 
 ## Top Right Options
@@ -35,7 +35,7 @@ The top right corner of the application displays the following:
 | Icon | Description |
 | --- | --- |
 | Help icon | Click it to launch Admin Center help. |
-| Manage SAML icon | Click it to launch the Authenticate panel, where you can:   - Set up Directory Manager as a service provider. Directory Manager can integrate with several single sign-on (SSO) solutions that support the SAML 2.0 standard. - Set up Directory Manager as an identity provider.   See the [Authenticate](/docs/groupid/groupid/authenticate/overview.md) topic. |
+| Manage SAML icon | Click it to launch the Authenticate panel, where you can:   - Set up Directory Manager as a service provider. Directory Manager can integrate with several single sign-on (SSO) solutions that support the SAML 2.0 standard. - Set up Directory Manager as an identity provider.   See the [Authenticate](../../authenticate/overview.md) topic. |
 | Profile icon | Displays your profile picture with your name and the identity store that Admin Center is connected to.  Click it to launch a menu that displays the Directory Manager version and the security role assigned to you in Directory Manager. The menu also displays options to change your password, access your applications, and sign out of Admin Center. |
 
 ## Menu Pane
@@ -58,6 +58,6 @@ The menu pane in the left enables you to navigate to different functions in Admi
 
 __See Also__
 
-- [Change your Password](/docs/groupid/groupid/admincenter/general/changepassword.md)
-- [Switch Accounts](/docs/groupid/groupid/admincenter/general/switchaccount.md)
-- [Access your Applications](/docs/groupid/groupid/admincenter/general/accessapplications.md)
+- [Change your Password](changepassword.md)
+- [Switch Accounts](switchaccount.md)
+- [Access your Applications](accessapplications.md)

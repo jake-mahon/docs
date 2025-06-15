@@ -2,7 +2,7 @@
 
 The Effective Policy report at the web application and web application URL levels provides a list of users and groups who are effectively granted or denied access to the SharePoint on-premise farm web application through a particular web application policy with the rights being either granted or denied.
 
-![Effective Policy report at the web application and web application URL levels](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/sharepoint/webapplication/webappeffectivepolicy.webp)
+![Effective Policy report at the web application and web application URL levels](../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/sharepoint/webapplication/webappeffectivepolicy.webp)
 
 This report is comprised of the following columns:
 
@@ -30,4 +30,4 @@ The following rights are a normalized representation of the SharePoint permissio
 
 If the selected trustee in the top section of the report is a group, the Group Membership pane displays the group membership, including nested groups.
 
-To view the granular rights granted through SharePoint permission levels (SharePoint Roles), see the __Roles__ column in the [Permissions Report](/docs/accessinformationcenter/access/informationcenter/resourceaudit/sharepoint/sitecollections/permissions.md). For additional detail on what permissions each SharePoint Role grants, see the __Permission Mask__ column in the [Site Collection Roles Report](/docs/accessinformationcenter/access/informationcenter/resourceaudit/sharepoint/sitecollections/sitecollectionroles.md).
+To view the granular rights granted through SharePoint permission levels (SharePoint Roles), see the __Roles__ column in the [Permissions Report](../sitecollections/permissions.md). For additional detail on what permissions each SharePoint Role grants, see the __Permission Mask__ column in the [Site Collection Roles Report](../sitecollections/sitecollectionroles.md).

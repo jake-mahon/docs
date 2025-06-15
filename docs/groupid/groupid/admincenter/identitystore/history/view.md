@@ -26,7 +26,7 @@ __To view identity store history:__
 3. Click __History__ under __Settings__ in the left pane.
 
    The __Identity Store History__ page displays history data in a descriptive and concise manner. Items are sorted according to the date and time they were last updated, with the most recent at the top.  
-   Click a history item to view its details. See the [History Item Details](/docs/groupid/groupid/admincenter/identitystore/history/details.md) topic.
+   Click a history item to view its details. See the [History Item Details](details.md) topic.
 
 ## Filter History Data
 
@@ -103,7 +103,7 @@ __To annotate history items:__
 2. On the __Identity Stores__ page, click the ellipsis button for an identity store and select __Edit__.
 3. Click __History__ under __Settings__ in the left pane.
 4. On the __Identity Store History__ page, click a history item.
-5. On the __History Details__ dialog box, manage notes for the history item. See the [Annotate History Items](/docs/groupid/groupid/admincenter/identitystore/history/details.md#annotate-history-items) topic.
+5. On the __History Details__ dialog box, manage notes for the history item. See the [Annotate History Items](details.md#annotate-history-items) topic.
 
 ## Export History Data
 
@@ -122,6 +122,6 @@ __To export history:__
 
 __See Also__
 
-- [Configure History Tracking](/docs/groupid/groupid/admincenter/identitystore/configure/directoryservice/historytracking.md)
-- [History in Directory Manager](/docs/groupid/groupid/admincenter/history.md)
-- [Event Logging](/docs/groupid/groupid/admincenter/identitystore/history/eventlogging.md)
+- [Configure History Tracking](../configure/directoryservice/historytracking.md)
+- [History in Directory Manager](../../history.md)
+- [Event Logging](eventlogging.md)

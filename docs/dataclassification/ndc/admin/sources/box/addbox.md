@@ -4,21 +4,21 @@ Use the __Box__ source configuration window to set up the crawling and classific
 
 By default, configuration window displays basic configuration settings only. It is recommended that you click the "wrench" icon in the bottom left corner to configure advanced settings.
 
-__NOTE:__ To configure advanced settings, your user account may need advanced privileges. [See Users and Security Settings for more information.](/docs/dataclassification/ndc/security/users.md)
+__NOTE:__ To configure advanced settings, your user account may need advanced privileges. [See Users and Security Settings for more information.](../../../security/users.md)
 
-![addbox_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/sources/box/addbox_thumb_0_0.webp)
+![addbox_thumb_0_0](../../../../../../static/img/product_docs/dataclassification/ndc/admin/sources/box/addbox_thumb_0_0.webp)
 
 Configure the following:
 
 | Setting | Description |
 | --- | --- |
 | __Basic settings__ |  |
-| JSON Import | Drag and drop the JSON file with Box app configuration settings that you downloaded at [Step 1. Create the App](/docs/dataclassification/ndc/configuration/configinfrastructure/box.md#step-1-create-the-app) (see #12). The program then parses this file so that many settings are filled in automatically. |
+| JSON Import | Drag and drop the JSON file with Box app configuration settings that you downloaded at [Step 1. Create the App](../../../configuration/configinfrastructure/box.md#step-1-create-the-app) (see #12). The program then parses this file so that many settings are filled in automatically. |
 | Enterprise ID | Specifies the internal unique identifier for your Box account (filled in automatically). |
-| API Key | _Client ID_ of the Box app created at [Step 1. Create the App](/docs/dataclassification/ndc/configuration/configinfrastructure/box.md#step-1-create-the-app)(Filled in automatically.) |
+| API Key | _Client ID_ of the Box app created at [Step 1. Create the App](../../../configuration/configinfrastructure/box.md#step-1-create-the-app)(Filled in automatically.) |
 | Client Secret | Will be generated when allowing access to the Netwrix Data Classification app. Is also known as the “App Key”. |
 | Public Key ID  Private Key  Private Key Password | Created when generating the trust between your Box account, and the Netwrix Data Classification app – these should be kept secret and secure. |
-| Write Classifications | Identifies whether classifications should be written back to the Box source documents. Classification results can either be written to classification templates or to the generic ‘tags’ property. This is specified using the __Write Configuration__ setting of the source. For more information, see [Use Tagging](/docs/dataclassification/ndc/admin/sources/tagging.md) |
+| Write Classifications | Identifies whether classifications should be written back to the Box source documents. Classification results can either be written to classification templates or to the generic ‘tags’ property. This is specified using the __Write Configuration__ setting of the source. For more information, see [Use Tagging](../tagging.md) |
 | Source Group | Select the source group (if any). |
 | Pause source on creation | Select if you want to make other configuration changes before collection of the source occurs. |
 | __Advanced settings__ |  |
@@ -29,5 +29,5 @@ Configure the following:
 
 See also:
 
-- [Configure Box for Crawling](/docs/dataclassification/ndc/configuration/configinfrastructure/box.md)
-- [Manage Sources and Control Data Processing](/docs/dataclassification/ndc/admin/sources/manage.md)
+- [Configure Box for Crawling](../../../configuration/configinfrastructure/box.md)
+- [Manage Sources and Control Data Processing](../manage.md)

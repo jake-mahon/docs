@@ -6,11 +6,11 @@ Use the gear icon in the upper right corner of the console to open the Configura
 
 Click __Credential Profile__ in the navigation pane to view a list of the already created Credential Profiles, if any.
 
-![Integrations interface on the Credential Profile page](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/systemsettings/page.webp)
+![Integrations interface on the Credential Profile page](../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/systemsettings/page.webp)
 
 The table displays the user name for each profile. To view profile details or make modifications, select a profile from the table or under Credential Profile in the navigation pane.
 
-See the [Reporting Module Server Requirements](/docs/threatprevention/threatprevention/requirements/reportingserver.md) topic for a list of permission requirements for each type of task.
+See the [Reporting Module Server Requirements](../../../requirements/reportingserver.md) topic for a list of permission requirements for each type of task.
 
 Best Practice Recommendation
 
@@ -27,7 +27,7 @@ __Step 1 –__ Use the gear icon in the upper right corner of the console to ope
 
 __Step 2 –__ On the Integrations interface, click Add New Integration in the navigation pane. The Add New Integration window opens.
 
-![Add New Integration window with Credential Profile type selected](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/credentialprofile.webp)
+![Add New Integration window with Credential Profile type selected](../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/credentialprofile.webp)
 
 __Step 3 –__ In the Type drop-down menu, select Credential Profile.
 
@@ -56,7 +56,7 @@ __Step 2 –__ On the Integrations interface, click __Credential Profile__ in th
 
 __Step 3 –__ Select a Credential Profile from the table or the navigation pane to view its details.
 
-![Integrations interface displaying the details for a Credenital Profile](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/details.webp)
+![Integrations interface displaying the details for a Credenital Profile](../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/details.webp)
 
 Select the profile from the list to see modification optionsThe following information is displayed for a Credential Profile:
 
@@ -82,7 +82,7 @@ __Step 3 –__ Select a Credential Profile from the table or the navigation pane
 
 __Step 4 –__ Click the __Edit__ button in the upper right corner of the name and description box.
 
-![Name and Description box for a Credential Profile in Edit mode](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/editprofile.webp)
+![Name and Description box for a Credential Profile in Edit mode](../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/editprofile.webp)
 
 __Step 5 –__ To modify the profile name, type in the top field.
 
@@ -100,7 +100,7 @@ __Step 1 –__ On the Integrations interface, click __Credential Profile__ in th
 
 __Step 2 –__ In the Credentials box, click the edit button to the right of the credential. The Credential Settings window opens.
 
-![Credential Settings window](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/credentialsettingswindow.webp)
+![Credential Settings window](../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/credentialsettingswindow.webp)
 
 __Step 3 –__ To edit the platform type, select either SQL or Windows from the __Platform__ drop-down menu.
 

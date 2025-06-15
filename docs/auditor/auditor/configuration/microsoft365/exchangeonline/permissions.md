@@ -8,17 +8,17 @@ In this scenario, Netwrix Auditor will access the cloud-based infrastructure via
 
 Follow the steps to use a data collecting account with modern authentication.
 
-__Step 1 –__ Create a Microsoft Entra ID app that will be used for modern authentication. See the [Create and Register a New App in Microsoft Entra ID](/docs/auditor/auditor/configuration/microsoft365/exchangeonline/modernauth.md#create-and-register-a-new-app-in-microsoft-entra-id) topic for additional information.
+__Step 1 –__ Create a Microsoft Entra ID app that will be used for modern authentication. See the [Create and Register a New App in Microsoft Entra ID](modernauth.md#create-and-register-a-new-app-in-microsoft-entra-id) topic for additional information.
 
 __NOTE:__ After you start a new monitoring plan and select a data source in the first step, you will be asked to enter a default data collection account. However, this step is not needed for Exchange Online as it cannot be used. Thus, there is no need to grant any permissions to this account. Instead, you will need to configure a modern authentication app and give the necessary permissions there.
 
-__Step 2 –__ Grant required permissions to that application. See the [Grant Required Permissions](/docs/auditor/auditor/configuration/microsoft365/exchangeonline/modernauth.md#grant-required-permissions) topic for additional information.
+__Step 2 –__ Grant required permissions to that application. See the [Grant Required Permissions](modernauth.md#grant-required-permissions) topic for additional information.
 
-__Step 3 –__ Grant required roles to that application. See the [Grant Required Roles](/docs/auditor/auditor/configuration/microsoft365/exchangeonline/modernauth.md#grant-required-roles) topic for additional information.
+__Step 3 –__ Grant required roles to that application. See the [Grant Required Roles](modernauth.md#grant-required-roles) topic for additional information.
 
-__Step 4 –__ Configure client secret for that application. See the [Configure Client Secret](/docs/auditor/auditor/configuration/microsoft365/exchangeonline/modernauth.md#configure-client-secret) topic for additional information.
+__Step 4 –__ Configure client secret for that application. See the [Configure Client Secret](modernauth.md#configure-client-secret) topic for additional information.
 
-__Step 5 –__ Obtain tenant ID – you will need it when configuring a monitored item (Office 365 tenant) settings. See the [Obtain the Tenant Name](/docs/auditor/auditor/configuration/microsoft365/exchangeonline/modernauth.md#obtain-the-tenant-name) topic for additional information.
+__Step 5 –__ Obtain tenant ID – you will need it when configuring a monitored item (Office 365 tenant) settings. See the [Obtain the Tenant Name](modernauth.md#obtain-the-tenant-name) topic for additional information.
 
 ## Non-owner Mailbox Access Audit Configuration
 
@@ -65,7 +65,7 @@ __Step 10 –__ When prompted to specify a password, click __Enter__.
 
 __Step 11 –__ Go to __Manage > Certificates & secrets__, click __Upload certificate__ and upload the_.crt_ file you have just created.
 
-![certificates_secrets_thumb_0_0](/img/product_docs/auditor/auditor/configuration/microsoft365/exchangeonline/certificates_secrets_thumb_0_0.webp)
+![certificates_secrets_thumb_0_0](../../../../../../static/img/product_docs/auditor/auditor/configuration/microsoft365/exchangeonline/certificates_secrets_thumb_0_0.webp)
 
 __Step 12 –__ To create Exchange Online connection session, you can provide certificate file path or thumbprint. If you want to use a file path, run the following command:
 
@@ -76,7 +76,7 @@ Connect-ExchangeOnline -CertificateFilePath "full_path_to_certificate"
 
 Application (client ID) can be found in the __Overview__ page.
 
-![tenant_id_thumb_0_0](/img/product_docs/auditor/auditor/configuration/microsoft365/exchangeonline/tenant_id_thumb_0_0.webp)
+![tenant_id_thumb_0_0](../../../../../../static/img/product_docs/auditor/auditor/configuration/microsoft365/exchangeonline/tenant_id_thumb_0_0.webp)
 
 For example:
 

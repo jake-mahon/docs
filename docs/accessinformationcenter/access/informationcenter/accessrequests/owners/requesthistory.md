@@ -2,7 +2,7 @@
 
 The Request History tab of the Access Requests page accessed through the Owner portal is where you can view the request history for your resources.
 
-![Request History tab of the Resource Owners Acces Requests page](/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/youraccessportal/requesthistory.webp)
+![Request History tab of the Resource Owners Acces Requests page](../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/youraccessportal/requesthistory.webp)
 
 The information displayed in the table includes:
 
@@ -37,11 +37,11 @@ The information displayed in the table includes:
 - Reviewer Department – Department in the company of the owner who processed the request, as read from Active Directory
 - Reviewer Employee ID – Unique identifier for the owner who processed the request, as read from Active Directory
 
-The table data grid functions the same way as other table grids. See the [Data Grid Features](/docs/accessinformationcenter/access/general/datagrid.md) topic for additional information.
+The table data grid functions the same way as other table grids. See the [Data Grid Features](../../../general/datagrid.md) topic for additional information.
 
 The buttons at the bottom enable you to perform the following actions:
 
-![Request History tab buttons](/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/youraccessportal/requesthistorybuttons.webp)
+![Request History tab buttons](../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/youraccessportal/requesthistorybuttons.webp)
 
 | Button | Description |
 | --- | --- |

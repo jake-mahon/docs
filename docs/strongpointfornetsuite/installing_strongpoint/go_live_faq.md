@@ -46,7 +46,7 @@ Once the Change Request is approved, you add the employee:
 
 ## Add New Customizations to a Change Request
 
-Customizations can be added to any open Change Request. On the Change Request, click __Lookup Customization__ to launch a window where you can search for customizations, or enter existing customizations in the __Customizations__ field. The __Proposed Customizations__ are for new customizations that do not exist in any account. Refer to [Creating a Change Request](/docs/strongpointfornetsuite/change_management/creating_change_request.md) for details.
+Customizations can be added to any open Change Request. On the Change Request, click __Lookup Customization__ to launch a window where you can search for customizations, or enter existing customizations in the __Customizations__ field. The __Proposed Customizations__ are for new customizations that do not exist in any account. Refer to [Creating a Change Request](../change_management/creating_change_request.md) for details.
 
 ## Search for Customizations
 
@@ -54,7 +54,7 @@ To access a customization quick search, open __Strongpoint__ > __Customizations_
 
 You can search using several factors and submit. When looking up by __Name__, using __Contains__ helps if you do not have the exact name.
 
-![custquicksearch](/img/product_docs/strongpointfornetsuite/customizations/custquicksearch.webp)
+![custquicksearch](../../../static/img/product_docs/strongpointfornetsuite/customizations/custquicksearch.webp)
 
 ## Prototype Customizations
 
@@ -78,7 +78,7 @@ Administrators can perform Approval Overrides on a Change Request.
 2. Click __Edit__.
 3. Select __Approved__ from the __Approval Status__ list.
 
-   ![Change Status to Approved](/img/product_docs/strongpointfornetsuite/installing_strongpoint/golive_approval_override.webp)
+   ![Change Status to Approved](../../../static/img/product_docs/strongpointfornetsuite/installing_strongpoint/golive_approval_override.webp)
 
 The Status bar is set to __Approved (Override)__ and the administrator's name is displayed in the __Approval Override By__ field.
 
@@ -86,7 +86,7 @@ The Status bar is set to __Approved (Override)__ and the administrator's name is
 
 If the AutoSpider is not run, your Change Logs will be missing the __Changed by__ and __Actual Change Date__ fields. When the Change Log is newly created, the fields contain __Pending AutoSpider__. If too many days go by, the fields change to __Could not be determined__.
 
-Refer to [Setting Up the AutoSpider and Alerts](/docs/strongpointfornetsuite/installing_strongpoint/running_the_spider.md) for details.
+Refer to [Setting Up the AutoSpider and Alerts](running_the_spider.md) for details.
 
 ## New Script Deployments on Non-Compliant Changes Report
 
@@ -98,7 +98,7 @@ This situation occurs when you create a script through a Change Request, but do 
 4. Add the Deployment Record to the Change Request.
 5. Deploy the script.
 
-If your site uses [Opportunistic Clearance](/docs/strongpointfornetsuite/change_management/opportunistic_clearance.md), the deployment record is handled automatically. You should make sure you understand all of the ramifications of Opportunistic Clearance prior to enabling it for your account.
+If your site uses [Opportunistic Clearance](../change_management/opportunistic_clearance.md), the deployment record is handled automatically. You should make sure you understand all of the ramifications of Opportunistic Clearance prior to enabling it for your account.
 
 ## Change Logs Attached to the Wrong Change Request
 
@@ -114,4 +114,4 @@ No action is required to fix this situation.
 
 ## You do not have a Valid License Message
 
-If a user sees a License message, you need to grant them a license. Refer to the [License Manager](/docs/strongpointfornetsuite/installing_strongpoint/license_manager.md) topic.
+If a user sees a License message, you need to grant them a license. Refer to the [License Manager](license_manager.md) topic.

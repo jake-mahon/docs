@@ -2,11 +2,11 @@
 
 Use the configuration pane to view sub-criteria information for System Criteria and to view, add, edit, and remove sub-criteria information for User Criteria.
 
-![Configuration Pane](/img/product_docs/accessanalyzer/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/configurationpanesystemcriteria.webp)
+![Configuration Pane](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/configurationpanesystemcriteria.webp)
 
 The information in the configuration pane changes based on the criteria currently selected in the navigation pane.
 
-![Options at the top of the configuration pane](/img/product_docs/accessanalyzer/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/configurationpanetop.webp)
+![Options at the top of the configuration pane](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/configurationpanetop.webp)
 
 The options at the top of the Configuration Pane are:
 
@@ -30,7 +30,7 @@ __NOTE:__ Configuration settings for System Criteria cannot be modified.
   - Minimum Matches – Minimum number of match hits required for a sub-criteria match hit
   - Match Type – Displays whether the sub-criteria __Must match__ or __Must not match__
 
-![Options at the bottom of the configuration pane](/img/product_docs/accessanalyzer/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/configurationpanebottom.webp)
+![Options at the bottom of the configuration pane](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/configurationpanebottom.webp)
 
 The options at the bottom of the configuration pane are:
 
@@ -38,9 +38,9 @@ __NOTE:__ Configuration settings for System Criteria cannot be modified.
 
 - Add – Add a sub-criteria to the required matched criteria list. The three types of sub-criteria that can be added are __Keyword__, __Pattern__, and __Summary__. See the following topics for additional information:
 
-  - [Keyword Criteria](/docs/accessanalyzer/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/criteriatype/keyword.md)
-  - [Regular Expression (Pattern) Criteria](/docs/accessanalyzer/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/criteriatype/regularexpression.md)
-  - [Summary Criteria](/docs/accessanalyzer/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/criteriatype/summary.md)
+  - [Keyword Criteria](criteriatype/keyword.md)
+  - [Regular Expression (Pattern) Criteria](criteriatype/regularexpression.md)
+  - [Summary Criteria](criteriatype/summary.md)
 - Remove – Remove sub-criteria from the Required matched sub-criteria list
 - Edit – Edit the currently selected sub-criteria
 - Must match at least this many criteria – Adjust the slider to configure how many sub-criteria must be matched for the sensitive data criteria to be reported
@@ -57,7 +57,7 @@ __NOTE:__ Configuration settings for System Criteria cannot be modified.
 - Include keywords as part of match hits – Select this option to enable the inclusion of keywords as part of match hits. This option determines whether a match found based on a Keyword Criteria is reported as a match hit. When this option is selected, any matches found for a word in the Keyword list is reported as match hit. If this option is not selected, then only matches found based on Pattern or child Summary Criteria are reported as a match hit.
 - Metadata for this criteria – Click the green plus (__+__) button to add a new metadata type for the criteria. Delete a metadata type by clicking the __X__ button in the gray metadata tag.
 
-  - For a list of available out-of-the-box metadata tags, see the [Default Metadata Tag Values](/docs/accessanalyzer/enterpriseauditor/sensitivedatadiscovery/metadatatags.md) topic for additional information
+  - For a list of available out-of-the-box metadata tags, see the [Default Metadata Tag Values](../metadatatags.md) topic for additional information
 - Cancel – Exit the Sensitive Data Criteria Editor without saving changes
 - Save – Save changes made to the current criteria
 
@@ -65,7 +65,7 @@ __NOTE:__ Configuration settings for System Criteria cannot be modified.
 
 Use the Criteria Tester window to test current criteria configurations.
 
-![Criteria Tester window](/img/product_docs/accessanalyzer/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/criteriatester.webp)
+![Criteria Tester window](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/criteriatester.webp)
 
 The options in the Criteria Tester are:
 

@@ -39,6 +39,6 @@ __Step 1 –__ In administrative web console, navigate to __Taxonomies__ > __Glo
 
 __Step 2 –__ Click __Update__ in the right corner next to each taxonomy.
 
-![update_taxonomy](/img/product_docs/dataclassification/ndc/requirements/update_taxonomy.webp)
+![update_taxonomy](../../../../static/img/product_docs/dataclassification/ndc/requirements/update_taxonomy.webp)
 
 The upgrade is now complete.

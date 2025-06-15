@@ -27,7 +27,7 @@ Step 6 – The Name Preview box displays the schedule name prefixed with _SmartG
 
 Step 7 – Select a Directory Manager portal URL in the Portal URL drop-down list to include it in notifications generated for the schedule. Users are redirected to this portal to perform any necessary action.
 
-Step 8 – In the Scheduler Service Name drop-down list, select a Scheduler service that would be responsible for triggering this schedule. The number of services displayed in the list depend on the number of nodes in all Elasticsearch clusters in the environment, as each node has its own Scheduler service. See the [Scheduler Service](/docs/groupid/groupid/admincenter/service/schedulerservice.md) topic for additional information.
+Step 8 – In the Scheduler Service Name drop-down list, select a Scheduler service that would be responsible for triggering this schedule. The number of services displayed in the list depend on the number of nodes in all Elasticsearch clusters in the environment, as each node has its own Scheduler service. See the [Scheduler Service](../service/schedulerservice.md) topic for additional information.
 
 Please note the following while selecting a Scheduler service:
 
@@ -43,7 +43,7 @@ Step 9 – You can specify containers and groups as targets for the schedule. F
 groups).
 
 1. To specific containers as target, follow step 9 in
-   the [Create a Group Usage Service Schedule](/docs/groupid/groupid/admincenter/schedule/groupusageservice.md#create-a-group-usage-service-schedule) topic. The schedule will process all Smart Groups and Dynasties in the containers and their sub-containers listed in the Target(s) area.
+   the [Create a Group Usage Service Schedule](groupusageservice.md#create-a-group-usage-service-schedule) topic. The schedule will process all Smart Groups and Dynasties in the containers and their sub-containers listed in the Target(s) area.
 2. To add Smart Groups and Dynasties as targets, click __Add Group__. On the Add Object(s) dialog box, specify a container to search for the desired groups; then perform a search to locate and
    select the groups.
 
@@ -57,10 +57,10 @@ groups).
 3. To remove a container or group in the Target(s) area, click __Remove__ for it.  
    To remove all target objects, click __Remove All__.
 
-Step 10 – Click __Add Triggers__ in the Triggers area to specify a triggering criterion for the schedule, that, when met, starts the execution of the schedule. Follow step 11 in the [Create a Group Usage Service Schedule](/docs/groupid/groupid/admincenter/schedule/groupusageservice.md#create-a-group-usage-service-schedule) topic to add triggers.
+Step 10 – Click __Add Triggers__ in the Triggers area to specify a triggering criterion for the schedule, that, when met, starts the execution of the schedule. Follow step 11 in the [Create a Group Usage Service Schedule](groupusageservice.md#create-a-group-usage-service-schedule) topic to add triggers.
 
 Step 11 – Click __Add Authentication__ in the Authentication area to specify an account for running the schedule in the identity store. Follow step 12 in
-the [Create a Group Usage Service Schedule](/docs/groupid/groupid/admincenter/schedule/groupusageservice.md#create-a-group-usage-service-schedule) topic for additional information.
+the [Create a Group Usage Service Schedule](groupusageservice.md#create-a-group-usage-service-schedule) topic for additional information.
 
 Step 12 – To enable notifications for the schedule, click __Notifications__. On the Notifications dialog box, specify an event for triggering notifications
 for the schedule and add recipients.
@@ -90,4 +90,4 @@ for the schedule and add recipients.
 Step 13 – On the Create Schedule page, click __Create Schedule__.
 
 Step 14 – On the Schedules page, click __Save__.  
-The schedule is displayed under Smart Group Update. See the [View the Schedules in an Identity Store ](/docs/groupid/groupid/admincenter/schedule/manage.md#view-the-schedules-in-an-identity-store) topic for more info for additional information.
+The schedule is displayed under Smart Group Update. See the [View the Schedules in an Identity Store ](manage.md#view-the-schedules-in-an-identity-store) topic for more info for additional information.

@@ -18,7 +18,7 @@ This topic lists the hardware requirements and software requirements for Netwrix
 
   - Server roles:
 
-![Software Requirements](/img/product_docs/changetracker/changetracker/requirements/performancecheckbox.webp)
+![Software Requirements](../../../../static/img/product_docs/changetracker/changetracker/requirements/performancecheckbox.webp)
 
 - .NET Hosting Bundle – v8.0
 - Redis
@@ -32,6 +32,6 @@ This topic lists the hardware requirements and software requirements for Netwrix
 
 Disk space based on limited trial implementations only. For production, we size based on an average of 4GB per device, per annum, based on typical change event and report volumes (4 Compliance Reports per month, 200 change events per month)
 
-- See the [Installation](/docs/changetracker/changetracker/install/overview.md) topic for additional information on the installation process.
+- See the [Installation](../install/overview.md) topic for additional information on the installation process.
 
 Please run a Windows Update to ensure all above components are fully up to date.

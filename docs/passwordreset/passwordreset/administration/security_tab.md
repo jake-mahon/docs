@@ -6,7 +6,7 @@ Security Tab
 
 Use the __Security__ tab to configure the inactivity timeout, password reset policies, and the lockout threshold.
 
-![configuring_npr_8](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/configuring_npr_8.webp)
+![configuring_npr_8](../../../../static/img/product_docs/passwordpolicyenforcer/passwordreset/administration/configuring_npr_8.webp)
 
 ### Inactivity Timeout
 

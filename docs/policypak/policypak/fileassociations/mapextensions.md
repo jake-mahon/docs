@@ -1,6 +1,6 @@
 # Quick Start - Mapping Extensions to Applications
 
-__NOTE:__ For some video overviews of Endpoint Policy Manager File Associations Manager, see the [Endpoint Policy Manager Cloud: Managing File Assocations](/docs/policypak/policypak/video/fileassociations/cloud.md) topic for additional information.
+__NOTE:__ For some video overviews of Endpoint Policy Manager File Associations Manager, see the [Endpoint Policy Manager Cloud: Managing File Assocations](../video/fileassociations/cloud.md) topic for additional information.
 
 Even after applications such as Acrobat, Metro Media Player, and Outlook are installed, those applications are not associated by default with the appropriate file extensions.
 
@@ -16,7 +16,7 @@ __Step 1 –__ Create a GPO and link it to where your computers are. For example
 
 __Step 2 –__ In __Computer Configuration__ > __PolicyPak__ > __File Associations Manager__, select __Add__ > __New Policy__.
 
-![about_policypak_file_associations_11](/img/product_docs/policypak/policypak/fileassociations/about_policypak_file_associations_11.webp)
+![about_policypak_file_associations_11](../../../../static/img/product_docs/policypak/policypak/fileassociations/about_policypak_file_associations_11.webp)
 
 __Step 3 –__ The Endpoint Policy Manager File Associations Manager policy editor displays, showing the most common configuration. For this Quickstart, make the following selections:
 
@@ -27,36 +27,36 @@ __Step 3 –__ The Endpoint Policy Manager File Associations Manager policy edit
 
 __Step 4 –__ The Associated Program (ProgID) and Application Name are automatically filled in.
 
-![about_policypak_file_associations_12](/img/product_docs/policypak/policypak/fileassociations/about_policypak_file_associations_12.webp)
+![about_policypak_file_associations_12](../../../../static/img/product_docs/policypak/policypak/fileassociations/about_policypak_file_associations_12.webp)
 
 __Step 5 –__ When you click __OK__ to save the policy, the entry looks like this:
 
-![about_policypak_file_associations_13](/img/product_docs/policypak/policypak/fileassociations/about_policypak_file_associations_13.webp)
+![about_policypak_file_associations_13](../../../../static/img/product_docs/policypak/policypak/fileassociations/about_policypak_file_associations_13.webp)
 
 __Step 6 –__ Create another policy to map MAILTO: to Outlook or Claws Mail (your machine must have Outlook or Claws Mail already installed). Go to __Add__  > __New Policy__. For this policy, choose __Network Protocol__ as the filter type, then type in ```mailto``` (using either lowercase or uppercase) in the __Network Protocol__ field. Click __Select Program__ and locate Claws Mail.
 
-![about_policypak_file_associations_14](/img/product_docs/policypak/policypak/fileassociations/about_policypak_file_associations_14.webp)
+![about_policypak_file_associations_14](../../../../static/img/product_docs/policypak/policypak/fileassociations/about_policypak_file_associations_14.webp)
 
 You now have two entries, one for PDF and one for MAILTO:
 
-![about_policypak_file_associations_15](/img/product_docs/policypak/policypak/fileassociations/about_policypak_file_associations_15.webp)
+![about_policypak_file_associations_15](../../../../static/img/product_docs/policypak/policypak/fileassociations/about_policypak_file_associations_15.webp)
 
 Now we create a map from MP4 to the UWP version of Metro Media Player. You must have the UWP (Windows Universal/Windows store) version of Metro Media Player on your management station for these steps.
 
 __Step 7 –__ Create a new policy to map all videos to the UWP version of Metro Media Player. To do this, click the __Windows 10 Category__ radio button, and then select __Video Player__. Click __Select Program__, find an instance of Metro Media Player (UWP), and select it. When you do, the Associated Program (Progid) and Application Name are automatically filled in.
 
-![about_policypak_file_associations_16](/img/product_docs/policypak/policypak/fileassociations/about_policypak_file_associations_16.webp)
+![about_policypak_file_associations_16](../../../../static/img/product_docs/policypak/policypak/fileassociations/about_policypak_file_associations_16.webp)
 
 Now, you'll have a new entry.
 
-![about_policypak_file_associations_17](/img/product_docs/policypak/policypak/fileassociations/about_policypak_file_associations_17.webp)
+![about_policypak_file_associations_17](../../../../static/img/product_docs/policypak/policypak/fileassociations/about_policypak_file_associations_17.webp)
 
 Make sure the endpoint has the same programs installed as the management station and also has the Endpoint Policy Manager CSE installed.
 
 __Step 8 –__ Run ```GPupdate```. Note that when settings are applied using Group Policy they do not take effect until that user logs off and then logs on again. Also note that after ```GPupdate ```is run there is no discernible change in the icons of the newly registered file types.
 
-![about_policypak_file_associations_18](/img/product_docs/policypak/policypak/fileassociations/about_policypak_file_associations_18.webp)
+![about_policypak_file_associations_18](../../../../static/img/product_docs/policypak/policypak/fileassociations/about_policypak_file_associations_18.webp)
 
 Once you run ```GPupdate``` you should see the PDF icon change. After this, double-clicking on a PDF should open Acrobat Reader, double-clicking on the MP4 should open Metro Media Player, and opening your Wordpad doc, which has a MAILTO: email address, should open Claws Mail (or Outlook).
 
-![about_policypak_file_associations_19](/img/product_docs/policypak/policypak/fileassociations/about_policypak_file_associations_19.webp)
+![about_policypak_file_associations_19](../../../../static/img/product_docs/policypak/policypak/fileassociations/about_policypak_file_associations_19.webp)

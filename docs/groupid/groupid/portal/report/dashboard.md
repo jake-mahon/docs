@@ -4,10 +4,10 @@ The Directory Manager Reports enables you to generate web-based reports for an i
 
 Directory Manager reports are organized into four categories:
 
-- [User Reports](/docs/groupid/groupid/portal/report/user.md)
-- [Group Reports](/docs/groupid/groupid/portal/report/group.md)
-- [Computer Reports](/docs/groupid/groupid/portal/report/computer.md)
-- [Contact Reports](/docs/groupid/groupid/portal/report/contact.md)
+- [User Reports](user.md)
+- [Group Reports](group.md)
+- [Computer Reports](computer.md)
+- [Contact Reports](contact.md)
 
 NOTE: A Microsoft Entra ID based identity store does not support the computer and contact object types.
 
@@ -15,7 +15,7 @@ You can view, edit, and delete the created reports. You can also download them i
 
 The user interface of Reports Dashboard is as follows:
 
-![reportsdashboard](/img/product_docs/groupid/groupid/portal/report/reportsdashboard.jpg)
+![reportsdashboard](../../../../../static/img/product_docs/groupid/groupid/portal/report/reportsdashboard.jpg)
 
 Different elements of the Dashboard are described below:
 
@@ -49,7 +49,7 @@ Different elements of the Dashboard are described below:
 - Look on the left side of the page for the navigation pane, which lists links to the following:
 
   - Dashboard
-  - [User Reports](/docs/groupid/groupid/portal/report/user.md)
-  - [Group Reports](/docs/groupid/groupid/portal/report/group.md)
-  - [Computer Reports](/docs/groupid/groupid/portal/report/computer.md)
-  - [Contact Reports](/docs/groupid/groupid/portal/report/contact.md)
+  - [User Reports](user.md)
+  - [Group Reports](group.md)
+  - [Computer Reports](computer.md)
+  - [Contact Reports](contact.md)

@@ -4,8 +4,8 @@ This connector generates [JSON](https://www.json.org/json-en.html) files for eac
 
 This page is about [
 JSON
-](/docs/usercube_saas/usercube/integration-guide/connectors/references-packages/json/index.md)
+](../../references-packages/json/index.md)
 
-![Package: Custom/JSON](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/json/packages_json_v603.webp)
+![Package: Custom/JSON](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/json/packages_json_v603.webp)
 
 The documentation is not yet available for this page and will be completed in the near future.

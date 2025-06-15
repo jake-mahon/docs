@@ -10,7 +10,7 @@ It is recommended to target the __ONE DOMAIN CONTROLLER PER DOMAIN__ or __Defaul
 
 The AD_CACollection job uses the PowerShell data collector to collect details about Certificate Authorities, templates, and requests.
 
-![Queries for the AD_CACollection Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/certificateauthority/cacollectionqueries.webp)
+![Queries for the AD_CACollection Job](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/certificateauthority/cacollectionqueries.webp)
 
 The queries for the job are:
 
@@ -29,7 +29,7 @@ Navigate to the __Active Directory__ > __7.Certificate Authority__ > __Collectio
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the AD_CACollection Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/certificateauthority/cacollectionanalysis.webp)
+![Analysis Tasks for the AD_CACollection Job](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/certificateauthority/cacollectionanalysis.webp)
 
 The default analysis tasks are:
 

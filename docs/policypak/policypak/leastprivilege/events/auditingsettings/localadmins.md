@@ -6,6 +6,6 @@ An example can be seen here with TreeSize Free (Administrator). When you run the
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/events/auditingsettings/discovery_for_elevated_apps.webp)
+Description automatically generated](../../../../../../static/img/product_docs/policypak/policypak/leastprivilege/events/auditingsettings/discovery_for_elevated_apps.webp)
 
 With the auditing information, you can make a Endpoint Policy Manager (formerly PolicyPak) Least Privilege Manager Elevate rule to overcome this when the user is transitioning from being a local admin to being a standard user.

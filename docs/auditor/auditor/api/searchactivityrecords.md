@@ -1,16 +1,16 @@
 # Search Activity Records
 
-The search functionality in the Netwrix Auditor Integration API reproduces interactive search available in the Netwrix Auditor client. See the [Netwrix Auditor Intelligence Guide](https://www.netwrix.com/download/documents/Netwrix_Auditor_User_Guide.pdf) and [View and Search Collected Data](/docs/auditor/auditor/admin/search/overview.md) topic for detailed instruction on how to search and filter audit data.
+The search functionality in the Netwrix Auditor Integration API reproduces interactive search available in the Netwrix Auditor client. See the [Netwrix Auditor Intelligence Guide](https://www.netwrix.com/download/documents/Netwrix_Auditor_User_Guide.pdf) and [View and Search Collected Data](../admin/search/overview.md) topic for detailed instruction on how to search and filter audit data.
 
-As the interactive search in the Netwrix Auditor client, this REST API endpoint allows you to retrieve Activity Records matching a certain criteria. You can create your own set of filters in the Search parameters file. See the [Search Parameters](/docs/auditor/auditor/api/postdata/searchparameters.md) topic for more information. Activity Records are retrieved according to the account's delegated scope.
+As the interactive search in the Netwrix Auditor client, this REST API endpoint allows you to retrieve Activity Records matching a certain criteria. You can create your own set of filters in the Search parameters file. See the [Search Parameters](postdata/searchparameters.md) topic for more information. Activity Records are retrieved according to the account's delegated scope.
 
 ## Endpoint
 
-To retrieve Activity Records matching a certain criteria, send a POST request containing search parameters (also may include a Continuation mark). See the [Search Parameters](/docs/auditor/auditor/api/postdata/searchparameters.md) topic for more information.
+To retrieve Activity Records matching a certain criteria, send a POST request containing search parameters (also may include a Continuation mark). See the [Search Parameters](postdata/searchparameters.md) topic for more information.
 
 | Method | Endpoint | POST Data |
 | --- | --- | --- |
-| ```POST``` | ```https://{host:port}/netwrix/api/v1/activity_records/search{?format=json}{&count=Number}``` | [Search Parameters](/docs/auditor/auditor/api/postdata/searchparameters.md) |
+| ```POST``` | ```https://{host:port}/netwrix/api/v1/activity_records/search{?format=json}{&count=Number}``` | [Search Parameters](postdata/searchparameters.md) |
 
 ## Request Parameters
 
@@ -33,7 +33,7 @@ Optional parameters (format and count) can be provided in any order. The first p
 
 Follow the steps- to retrieve all Activity Records matching search criteria.
 
-__Step 1 –__ Send a POST request containing search parameters. See the [Search Parameters](/docs/auditor/auditor/api/postdata/searchparameters.md) topic for more information.
+__Step 1 –__ Send a POST request containing search parameters. See the [Search Parameters](postdata/searchparameters.md) topic for more information.
 
 As an example, this request retrieves Activity Records where administrator added new objects to the Active Directory domain. Groups and group policies are not taken into account. Changes could only occur between September 16, 2016 and March 16, 2017.
 
@@ -48,7 +48,7 @@ __Step 2 –__ Receive the response. Activity Records are retrieved according to
 | JSON |
 | ``` { `````` "ActivityRecordList": [ `````` { `````` "Action": "Added", `````` "MonitoringPlan" : { `````` "ID": "{42F64379-163E-4A43-A9C5-4514C5A23798}", `````` "Name": "AD Monitoring" `````` }, `````` "DataSource": "Active Directory", `````` "Item": {"Name": "enterprise.local (Domain)"}, `````` "ObjectType": "user", `````` "RID": "20160215110503420B9451771F5964A9EAC0A5F35307EA155", `````` "What": "\\local\\enterprise\\Users\\Jason Smith", `````` "When": "2017-02-14T15:42:34Z", `````` "Where": "EnterpriseDC1.enterprise.local", `````` "Who": "ENTERPRISE\\Administrator", `````` "Workstation": "EnterpriseDC1.enterprise.local" `````` }, `````` {...}, `````` {...} `````` ], `````` "ContinuationMark": "PG5yPjxuIG49IntFNzA...PjwvYT48L24+PC9ucj4A" `````` } ``` |
 
-__Step 3 –__ Continue retrieving Activity Records. Send a POST request containing your search parameters and this Continuation mark to the same endpoint. [Continuation Mark](/docs/auditor/auditor/api/postdata/continuationmark.md)
+__Step 3 –__ Continue retrieving Activity Records. Send a POST request containing your search parameters and this Continuation mark to the same endpoint. [Continuation Mark](postdata/continuationmark.md)
 
 |  |
 | --- |

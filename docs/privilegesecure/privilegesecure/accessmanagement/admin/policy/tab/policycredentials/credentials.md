@@ -2,11 +2,11 @@
 
 The Credentials tab shows credentials associated with the selected Credential Based access policy.
 
-![Credential based policy credential tab](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/policycredentials/accesspolicycredentialstab.webp)
+![Credential based policy credential tab](../../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/policycredentials/accesspolicycredentialstab.webp)
 
 The Credentials table has the following features:
 
-- Add — Opens the Add Credentials window. See the [Add Credentials Window](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/accesspolicy/addcredentials.md) topic for additional information.
+- Add — Opens the Add Credentials window. See the [Add Credentials Window](../../window/accesspolicy/addcredentials.md) topic for additional information.
 - Remove — Removes the selected item from being associated with the policy
 - Search — Searches the table or list for matches to the search string. When matches are found, the table or list is filtered to the matching results.
 - Type— Provides options to filter results based on a chosen criterion:

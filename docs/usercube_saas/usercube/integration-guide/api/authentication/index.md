@@ -4,7 +4,7 @@ Identity Manager API authentication is based on the [OpenIdConnect protocol](ht
 
 An OpenId client must be previously defined using an [
 OpenIdClient
-](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md) configuration element.
+](../../toolkit/xml-configuration/access-control/openidclient/index.md) configuration element.
 
 The ```client_id``` parameter to use in calls to the OpenIdConnect protocol endpoints must be the concatenation of ```clientId```, ```@``` and the domain of the application.
 

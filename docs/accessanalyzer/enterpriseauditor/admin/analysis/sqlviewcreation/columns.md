@@ -2,7 +2,7 @@
 
 The Result Columns page lists the tables selected on the Input Select page.
 
-![View and Table Creation Analysis Module wizard Result Columns page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/analysis/sqlviewcreation/columns.webp)
+![View and Table Creation Analysis Module wizard Result Columns page](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/analysis/sqlviewcreation/columns.webp)
 
 Expand the table to show its columns. Then, select the checkbox next to the column to include it in the resulting table or view. If two data tables are being joined, the resulting table displays at the bottom of the grid. Use the scroll bar to view any hidden tables or data points.
 
@@ -33,6 +33,6 @@ The grid provides the following options for formatting the resulting table or vi
   - Ascending
   - Descending
 
-__NOTE:__ If at least one columns is sorted by value, the __With ties__ option is enabled on the Result Constraints page. See the [SQLViewCreation: Result Constraints](/docs/accessanalyzer/enterpriseauditor/admin/analysis/sqlviewcreation/resultconstraints.md) topic for additional information.
+__NOTE:__ If at least one columns is sorted by value, the __With ties__ option is enabled on the Result Constraints page. See the [SQLViewCreation: Result Constraints](resultconstraints.md) topic for additional information.
 
 After selecting the columns to include in the resulting table or view, click __Next__ to further filter the sourced data.

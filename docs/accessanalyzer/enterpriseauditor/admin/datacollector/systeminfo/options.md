@@ -12,7 +12,7 @@ __NOTE:__ This is a legacy feature, as it is more efficient to use the __FileSys
 
 For the File Shares and Open File Shares categories:
 
-![System Info Data Collector Wizard Options page for File Shares category](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/systeminfo/optionsfileshares.webp)
+![System Info Data Collector Wizard Options page for File Shares category](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/systeminfo/optionsfileshares.webp)
 
 Select from the following options to control the depth of processing and the amount of information to be returned by the query:
 
@@ -35,7 +35,7 @@ Select from the following options to control the depth of processing and the amo
 
 For the Network Interface (NIC) category:
 
-![System Info Data Collector Wizard Options page for NIC category](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/systeminfo/optionsnic.webp)
+![System Info Data Collector Wizard Options page for NIC category](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/systeminfo/optionsnic.webp)
 
 The configurable option is:
 

@@ -20,7 +20,7 @@ C:\Program Files\PolicyPak\Browser Router\Client
 
 On machines with the CSE (CSE 18.7.1779.937 - 19.12.2283.849)That you CANNOT upgrade to latest CSE for now.
 
-![774_1_img-01](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/clientsideextension/774_1_img-01.jpg)
+![774_1_img-01](../../../../../../static/img/product_docs/policypak/policypak/troubleshooting/browserrouter/clientsideextension/774_1_img-01.jpg)
 
 You can use a variety of methods to get the file copied. Options include:
 
@@ -34,11 +34,11 @@ To show one example, using Group Policy Preferences Files…
 
 Here's the ```Com.policypak.chromehost.json``` file stored in the file in the share called ```\\dc2016\share```
 
-![774_3_img-02_950x542](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/clientsideextension/774_3_img-02_950x542.jpg)
+![774_3_img-02_950x542](../../../../../../static/img/product_docs/policypak/policypak/troubleshooting/browserrouter/clientsideextension/774_3_img-02_950x542.jpg)
 
 Using Group Policy Preferences Files, on the Computer side…
 
-![774_5_img-03_950x650](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/clientsideextension/774_5_img-03_950x650.jpg)
+![774_5_img-03_950x650](../../../../../../static/img/product_docs/policypak/policypak/troubleshooting/browserrouter/clientsideextension/774_5_img-03_950x650.jpg)
 
 #### Specify:
 
@@ -60,4 +60,4 @@ Note that upgrading to modern CSE versions will have a SIMIILARLY named file in 
 
 These two files can sit side by side without issue if you need to use an OLDER CSE for now, then UPGRADE to latest CSE later.
 
-![774_7_img-05_950x675](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/clientsideextension/774_7_img-05_950x675.jpg)
+![774_7_img-05_950x675](../../../../../../static/img/product_docs/policypak/policypak/troubleshooting/browserrouter/clientsideextension/774_7_img-05_950x675.jpg)

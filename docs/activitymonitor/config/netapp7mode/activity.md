@@ -18,7 +18,7 @@ Checklist Item 1: Plan Deployment
   - Names of the vFiler™(s) to be monitored
   - DNS name of the CIFS shares(s) to be monitored
 
-Checklist Item 2: [Provision FPolicy Account](/docs/activitymonitor/config/netapp7mode/provisionactivity.md)
+Checklist Item 2: [Provision FPolicy Account](provisionactivity.md)
 
 - Group membership with a role granting access to the following commands:
 
@@ -51,9 +51,9 @@ Checklist Item 3: Firewall Configuration
 - TCP 135
 - TCP 445
 - Dynamic port range: TCP/UDP 137-139
-- See the [Enable HTTP or HTTPS](/docs/activitymonitor/config/netapp7mode/enablehttp.md) topic for instructions.
+- See the [Enable HTTP or HTTPS](enablehttp.md) topic for instructions.
 
-Checklist Item 4: [Configure FPolicy](/docs/activitymonitor/config/netapp7mode/configurefpolicy.md)
+Checklist Item 4: [Configure FPolicy](configurefpolicy.md)
 
 - If using vFilers:
 

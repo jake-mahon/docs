@@ -8,23 +8,23 @@ __CAUTION:__ You can only save passwords in server mode!
 
 With the setup and login via server mode, the access data can now be added automatically. When visiting a website whose credentials have not yet been stored in Netwrix Password Secure, you get automatically asked whether they should be created.
 
-![new password detected](/img/product_docs/passwordsecure/passwordsecure/configuration/browseradd-ons/how_to_save_passwords/addon-create-password-en.jpg)
+![new password detected](../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/browseradd-ons/how_to_save_passwords/addon-create-password-en.jpg)
 
 By confirming, you will be directly forwarded to the Web Application and registered there.
 If there are less fields in the deposited or selected form than in the login mask, the missing fields are automatically created as web form fields by default.
 
-![WebClient prefilled](/img/product_docs/passwordsecure/passwordsecure/configuration/browseradd-ons/how_to_save_passwords/webclient-prefilled-form-en.jpg)
+![WebClient prefilled](../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/browseradd-ons/how_to_save_passwords/webclient-prefilled-form-en.jpg)
 
 Known access data
 
 If you log in to a login screen with changed access data, you can update this automatically. To do this, log on to the login screen of the changed page as usual. Thereupon a message appears that new access data has been recognized. Now you can optionally decide to create a new dataset or update an already known dataset.
 
-![data was recognized](/img/product_docs/passwordsecure/passwordsecure/configuration/browseradd-ons/how_to_save_passwords/installation_with_parameters_151-en.webp)
+![data was recognized](../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/browseradd-ons/how_to_save_passwords/installation_with_parameters_151-en.webp)
 
 - __Save password__: The password will be exchanged without opening the Web Application.
 - __check changes__: The Web Application is opened and you are logged in. The previous password has been replaced by the new one. However, the storage must be carried out manually.
 
-![data was recognized](/img/product_docs/passwordsecure/passwordsecure/configuration/browseradd-ons/how_to_save_passwords/installation_with_parameters_152-en.webp)
+![data was recognized](../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/browseradd-ons/how_to_save_passwords/installation_with_parameters_152-en.webp)
 
 The following prerequisites apply so that a data record is considered to already exist:
 

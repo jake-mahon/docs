@@ -8,10 +8,10 @@ The Collect Weak Passwords Job uses the PowerShell Data Collector for the follow
 
 __CAUTION:__ Do not modify the query. The query is preconfigured for this job.
 
-![Query Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/usersroles/sqljobgroup24.webp)
+![Query Selection](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/usersroles/sqljobgroup24.webp)
 
 - Collect Weak Passwords – Locate the dictionary file containing the weak passwords and import the passwords
-  - See [PowerShell Data Collector](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/powershell/overview.md) for additional information.
+  - See [PowerShell Data Collector](../../../../admin/datacollector/powershell/overview.md) for additional information.
 
 ## Analysis Tasks for the SQL_PasswordIssues Job
 
@@ -19,14 +19,14 @@ Navigate to the Jobs > __Databases__ > SQL > 3.Users and Roles > SQL_PasswordIs
 
 __CAUTION:__ Most of these analysis tasks are preconfigured and should not be modified and or deselected unless otherwise specified.
 
-![Analysis Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/usersroles/sqlpasswordissuesanalysistasks.webp)
+![Analysis Selection](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/usersroles/sqlpasswordissuesanalysistasks.webp)
 
 The default analysis tasks are:
 
 - Analyze the Weak Passwords – Compare the weak passwords list against the collected password hashes
   - This analysis task has a configurable parameter:
     - @ShowPassword – Set to __0__ by default. Set to __1__ to enable the analysis task to bring back the plain-text password that was found
-    - See the [Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/analysiscustomizableparameters.md) topic for additional information on modifying analysis parameters.
+    - See the [Configure the Customizable Parameters in an Analysis Task](../../../../admin/jobs/job/configure/analysiscustomizableparameters.md) topic for additional information on modifying analysis parameters.
 - Shared Passwords – Highlights SQL Server Logins with shared password hashes
 - No Password – Inserts users that do not have a password set into the details table
 - Summarize the Weak Password Results – Summarizes the data that has been collected by the weak passwords job

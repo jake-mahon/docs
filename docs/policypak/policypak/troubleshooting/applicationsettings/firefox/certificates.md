@@ -17,7 +17,7 @@ Longer troubleshooting (which you absolutely must go thru before we can do anyth
 
 __Step 1 –__ Check the compatibility chart first
 
-[Firefox: What versions of the Endpoint Policy Manager CSE support managing certificates in what versions of Firefox?](/docs/policypak/policypak/requirements/support/applicationsettings/firefox/version.md)
+[Firefox: What versions of the Endpoint Policy Manager CSE support managing certificates in what versions of Firefox?](../../../requirements/support/applicationsettings/firefox/version.md)
 
 __Step 2 –__ Watch the Netwrix Endpoint Policy Manager (formerly PolicyPak) and Firefox cert video for a how-to
 
@@ -31,7 +31,7 @@ If you are UNSURE if your cert is BINARY DER or not, here's what you can do to E
 
 If the CERT is a-ok inside Firefox ALREADY, you can then EXPORT it like this to ensure it is a BINARY DER file.
 
-![214_1_image002](/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/firefox/214_1_image002.jpg)
+![214_1_image002](../../../../../../static/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/firefox/214_1_image002.jpg)
 
 When you save, save it as a .DER extension.
 
@@ -55,7 +55,7 @@ You can also use Firefox's log by being on any page and clicking Ctrl+Shift+J.
 
 In the log below certificates being added to the proper stores. You can also see ERROR CONDITIONS as well which are helpful for troubleshooting.
 
-![214_2_image007](/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/firefox/214_2_image007.jpg)
+![214_2_image007](../../../../../../static/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/firefox/214_2_image007.jpg)
 
 __Step 6 –__ Other reasons your cert just isn't working
 
@@ -66,7 +66,7 @@ __Step 6 –__ Other reasons your cert just isn't working
    \DCShareFabrikam-CA.cer, CA, 2, add  
    In the logs, you would see this transposition error demonstrated as:
 
-![214_3_image008](/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/firefox/214_3_image008.jpg)
+![214_3_image008](../../../../../../static/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/firefox/214_3_image008.jpg)
 
 __Step 7 –__ Send us your cert, and we'll send you ours.
 

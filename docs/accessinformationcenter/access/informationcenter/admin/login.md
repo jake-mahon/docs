@@ -30,7 +30,7 @@ Since the Access Information Center is a browser-based application, it is possib
 
 Depending on your network environment, you may need to use the NetBIOS name, FQDN, or IP Address of the hosting server in the browser. Also, additional configurations by network and system administrators may be necessary to make the web server accessible to remote users (firewall configurations, DNS settings, etc.).
 
-The server name in the URL can be replaced with an alias. See the [Alias Server Host Name](/docs/accessinformationcenter/access/informationcenter/admin/additionalconfig/aliasserver.md) topic for additional information.
+The server name in the URL can be replaced with an alias. See the [Alias Server Host Name](additionalconfig/aliasserver.md) topic for additional information.
 
 ## Login Page
 
@@ -38,26 +38,26 @@ Users login with their domain credentials. If only one domain is known to the Ac
 
 __NOTE:__ The URL may need to be added to the browser’s list of trusted sites.
 
-![AIC Login page](/img/product_docs/accessinformationcenter/access/informationcenter/admin/loginpage.webp)
+![AIC Login page](../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/admin/loginpage.webp)
 
-The Access Information Center login page displays the Netwrix Access Analyzer (formerly Enterprise Auditor) logo at the top and the browser tab is named Access Information Center. Logging in here will take users directly to the Access Information Center. The interface a user arrives at depends upon the assigned role or lack of assigned role. See the [User Landing Page](/docs/accessinformationcenter/access/informationcenter/admin/userlanding.md) topic for information on where different types of users are directed after login.
+The Access Information Center login page displays the Netwrix Access Analyzer (formerly Enterprise Auditor) logo at the top and the browser tab is named Access Information Center. Logging in here will take users directly to the Access Information Center. The interface a user arrives at depends upon the assigned role or lack of assigned role. See the [User Landing Page](userlanding.md) topic for information on where different types of users are directed after login.
 
 ## Web Console Login Page
 
-![Web Console Login page](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/reports/webconsolelogin.webp)
+![Web Console Login page](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/install/application/reports/webconsolelogin.webp)
 
 The Access Analyzer Web Console login page displays the Netwrix Access Analyzer (formerly Enterprise Auditor) logo at the top and the browser tab is named Netwrix Access Analyzer (formerly Enterprise Auditor). In order for a user to log into the Web Console, the user’s account must have the User Principal Name (UPN) attribute populated within Active Directory. Logging in here will take all users to the Access Analyzer Reports home page.
 
 Follow the steps to open the Access Information Center.
 
-![Menu icon on Web Console home page](/img/product_docs/accessinformationcenter/access/informationcenter/admin/accessfromwebconsole.webp)
+![Menu icon on Web Console home page](../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/admin/accessfromwebconsole.webp)
 
 __Step 1 –__ On any page of the Web Console, click the menu icon to the left of the Netwrix Access Analyzer (formerly Enterprise Auditor) logo.
 
-![Apps slide-out menu](/img/product_docs/accessinformationcenter/access/informationcenter/admin/accessfromwebconsoleappsmenu.webp)
+![Apps slide-out menu](../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/admin/accessfromwebconsoleappsmenu.webp)
 
 __Step 2 –__ On the Apps slide-out menu, click Access Information Center.
 
-![AIC opened from the Web Console](/img/product_docs/accessinformationcenter/access/informationcenter/admin/aicfromwebconsole.webp)
+![AIC opened from the Web Console](../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/admin/aicfromwebconsole.webp)
 
-The Access Information Center opens in a new tab in your browser. The interface a user arrives at depends upon the assigned role or lack of assigned role. See the [User Landing Page](/docs/accessinformationcenter/access/informationcenter/admin/userlanding.md) topic for information on where different types of users are directed after login.
+The Access Information Center opens in a new tab in your browser. The interface a user arrives at depends upon the assigned role or lack of assigned role. See the [User Landing Page](userlanding.md) topic for information on where different types of users are directed after login.

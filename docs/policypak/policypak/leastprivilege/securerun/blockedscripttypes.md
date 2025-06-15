@@ -11,4 +11,4 @@ The official list is as follows and might increase without notice.
 - .PS1
 - .JAR (not technically a script; but also blocked)
 
-__NOTE:__  For .PS1, in order to enable Powershell at all, you need to make an express (ALLOW rule for powershell.exe). That rule can be found in [When Endpoint Policy Manager SecureRun(TM) is turned on, PowerShell won't run. How can I re-enable this?](/docs/policypak/policypak/leastprivilege/securerun/enablepowershell.md)
+__NOTE:__  For .PS1, in order to enable Powershell at all, you need to make an express (ALLOW rule for powershell.exe). That rule can be found in [When Endpoint Policy Manager SecureRun(TM) is turned on, PowerShell won't run. How can I re-enable this?](enablepowershell.md)

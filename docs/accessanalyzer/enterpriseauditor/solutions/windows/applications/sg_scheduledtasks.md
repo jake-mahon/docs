@@ -8,7 +8,7 @@ The SG_ScheduledTasks job uses the SystemInfo Data Collector for the following q
 
 __CAUTION:__ The query is preconfigured for this job. Never modify the query.
 
-![Queries for the SG_ScheduledTasks Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/windows/applications/scheduledtasksquery.webp)
+![Queries for the SG_ScheduledTasks Job](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/windows/applications/scheduledtasksquery.webp)
 
 The query for the SG_ScheduledTasks job is:
 
@@ -20,7 +20,7 @@ Navigate to the __Windows__ > __Applications__ > __SG_ScheduledTasks__ > __Confi
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the SG_ScheduledTasks Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/windows/applications/scheduledtasksanalysis.webp)
+![Analysis Tasks for the SG_ScheduledTasks Job](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/windows/applications/scheduledtasksanalysis.webp)
 
 The default analysis tasks are:
 

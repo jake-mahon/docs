@@ -1,6 +1,6 @@
 # Apply on Demand Rules
 
-__NOTE:__ See the [Least Privilege Manager: Apply On Demand](/docs/policypak/policypak/video/leastprivilege/applyondemand.md) video for information on Endpoint Policy ManagerLeast Privilege Manager Apply on Demand.
+__NOTE:__ See the [Least Privilege Manager: Apply On Demand](../../../video/leastprivilege/applyondemand.md) video for information on Endpoint Policy ManagerLeast Privilege Manager Apply on Demand.
 
 The Apply on Demand feature enables advanced users to know when they should self-elevate their own situations and programs. Up until now, each rule was automatically applied when a user tried to run an application.
 
@@ -10,7 +10,7 @@ For this example, re-open and edit the policy that performs automatic elevation 
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/rules/apply/apply_on_demand_rules.webp)
+Description automatically generated](../../../../../../static/img/product_docs/policypak/policypak/leastprivilege/rules/apply/apply_on_demand_rules.webp)
 
 The result of this change (after running GPupdate) is that when the end-user tries to run Procmon, they will see the standard UAC prompt.
 
@@ -18,14 +18,14 @@ Now that you have selected Apply on Demand, when the rule applies, the applicati
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/rules/apply/apply_on_demand_rules.jpg)
+Description automatically generated](../../../../../../static/img/product_docs/policypak/policypak/leastprivilege/rules/apply/apply_on_demand_rules.jpg)
 
 The user will now need to right-click the application and choose __Run with Endpoint Policy Manager On-Demand__.
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/rules/apply/apply_on_demand_rules_1.webp)
+Description automatically generated](../../../../../../static/img/product_docs/policypak/policypak/leastprivilege/rules/apply/apply_on_demand_rules_1.webp)
 
-__NOTE:__ You can change the name of the menu item from __Run with__ Endpoint Policy Manager __On-Demand__ via Global Settings Policy.. See the [Best Practices and Miscellaneous Topics](/docs/policypak/policypak/leastprivilege/bestpractices/overviewmisc.md) topic for additional information on Global Settings Policy.
+__NOTE:__ You can change the name of the menu item from __Run with__ Endpoint Policy Manager __On-Demand__ via Global Settings Policy.. See the [Best Practices and Miscellaneous Topics](../../bestpractices/overviewmisc.md) topic for additional information on Global Settings Policy.
 
 When the user does this, the application launches, bypassing the UAC prompt.

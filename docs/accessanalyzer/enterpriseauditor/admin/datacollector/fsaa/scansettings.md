@@ -5,7 +5,7 @@ The Scan Settings page is where additional scan protocols and settings are confi
 - System Access/Permission Auditing Scan
 - Sensitive Data
 
-![FSAA Data Collector Wizard Scan Settings page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/scansettings.webp)
+![FSAA Data Collector Wizard Scan Settings page](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/scansettings.webp)
 
 In the Scan Protocols section, select the desired checkboxes for including certain types of shared folders:
 
@@ -17,11 +17,11 @@ In the middle section, select the desired checkboxes for additional settings:
 - Enable file system scan streaming – Sends the streamed data directly to the Access Analyzer database. A bulk import query is not required when this option is selected
 - Enable scanning of files protected by Azure Information Protection – Adds additional options to this wizard to scan for protection labels and encrypted files for sensitive data
 
-  - See the [Azure Information Protection Target Requirements](/docs/accessanalyzer/enterpriseauditor/requirements/target/config/azureinformationprotection.md) for additional information.
+  - See the [Azure Information Protection Target Requirements](../../../requirements/target/config/azureinformationprotection.md) for additional information.
 - Use SQL query to manually specify shares – For advanced SQL users. This option provides a least privileged model for enumerating shares. It bypasses share permission requirements and eliminates the need for the Connection Profile credentials to have local Administrator or Power User permissions. Click __Configure Query__ to open the Manual Shares Query window. See the [Enable the Use SQL Query to Manually Specify Shares](#enable-the-use-sql-query-to-manually-specify-shares) topic for additional information.
 - NetApp communication security – This option provides the ability to choose levels of encryption and authentication applied during Access Auditing scans of NetApp devices
 
-  ![NetApp communication security options](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/scansettingsnetapp.webp)
+  ![NetApp communication security options](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/scansettingsnetapp.webp)
 
   - HTTPS – Encrypts communication and verifies the targeted server’s SSL certificate
   - HTTPS, Ignore Certificate Errors – Encrypts communication but ignores certificate errors
@@ -44,7 +44,7 @@ The bottom section is only available for the File System Access/Permission Audit
 
 If desired, enable this feature and click __Configure Query__ to open the Manual Share Query window.
 
-![Maual Shares Query window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/maualsharesquery.webp)
+![Maual Shares Query window](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/maualsharesquery.webp)
 
 The SQL query provided by a user should return a list of all shares in the target environment. The target tables must reside within the Access Analyzer database and contain at least the following columns for all shares in the target environment:
 

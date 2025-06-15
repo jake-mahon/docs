@@ -2,7 +2,7 @@
 
 It is commonly believed doing things faster is more dangerous, and doing things slowly and carefully is safer. In today’s world, slower is simply not an option. Platform Governance for Salesforce realized that __Faster__ can also be __Safer__ and sometimes __Very Fast__ can be __Extremely Safe__.
 
-In [Change Monitoring](/docs/strongpointforsalesforce/tech_debt/tech_debt_change_monitoring.md), we discussed setting up automated change monitoring to deliver instant oversight of your org. [Org Clean Up](/docs/strongpointforsalesforce/tech_debt/tech_debt_org_clean_up.md) described ongoing monitoring of specific changes. Automated Risk Management takes these disciplines and combines them with three goals:
+In [Change Monitoring](tech_debt_change_monitoring.md), we discussed setting up automated change monitoring to deliver instant oversight of your org. [Org Clean Up](tech_debt_org_clean_up.md) described ongoing monitoring of specific changes. Automated Risk Management takes these disciplines and combines them with three goals:
 
 1. __Keep your org safe__ — continuous, comprehensive monitoring of all changes
 2. __Make your team more efficient__ — distribute work based on risk and automate key process steps to ensure speed and reliability

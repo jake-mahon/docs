@@ -6,12 +6,12 @@ This option also configures the Directory Manager Elasticsearch Service as a sla
 
 To configure a Directory Manager server with existing database:
 
-Step 1 – On the Select to create new server or use existing server page of the Configuration Tool, select [Configure a New Directory Manager Server with a New or an Existing Database](/docs/groupid/groupid/install/configure/gidserver.md) option.
-See Step 3 on the [Configuration Tool](/docs/groupid/groupid/install/configure/configure.md) topic.
+Step 1 – On the Select to create new server or use existing server page of the Configuration Tool, select [Configure a New Directory Manager Server with a New or an Existing Database](gidserver.md) option.
+See Step 3 on the [Configuration Tool](configure.md) topic.
 
 Step 2 – Click __Next__.
 
-![database_settings](/img/product_docs/groupid/groupid/install/configure/databasesettings.jpg)
+![database_settings](../../../../../static/img/product_docs/groupid/groupid/install/configure/databasesettings.jpg)
 
 Step 3 – In the SQL Server list, select the SQL Server to use with this new Directory Manager Server. The SQL Server must be the same used with the master node of Directory Manager.
 
@@ -19,8 +19,8 @@ If the required server does not appear in the list, make sure that the SQL Serve
 
 Step 4 – In the Authentication list, select an authentication mode to be used when connecting to the SQL Server database. Modes are:
 
-- SQL Server Authentication - To set SQL Server to work with Directory Manager using an SQL Server account. See the [Authentication Modes](/docs/groupid/groupid/requirements/setupauthentication.md) topic for additional information.
-- Windows Authentication - To set SQL Server to work with Directory Manager using a Windows user account. See the [Authentication Modes](/docs/groupid/groupid/requirements/setupauthentication.md) topic for additional details.
+- SQL Server Authentication - To set SQL Server to work with Directory Manager using an SQL Server account. See the [Authentication Modes](../../requirements/setupauthentication.md) topic for additional information.
+- Windows Authentication - To set SQL Server to work with Directory Manager using a Windows user account. See the [Authentication Modes](../../requirements/setupauthentication.md) topic for additional details.
 
 Step 5 – Depending on the authentication mode selected, do the following:
 
@@ -33,13 +33,13 @@ NOTE:  While configuring a new Directory Manager machine with an existing databa
 
 Step 7 – Click __Next__.
 
-![License page](/img/product_docs/groupid/groupid/install/configure/license_w_existing_db_option.jpg)
+![License page](../../../../../static/img/product_docs/groupid/groupid/install/configure/license_w_existing_db_option.jpg)
 
 Step 8 – On the License page, license information of Directory Manager installed on the master node is displayed. A valid license and key enable the Next button. If the Next button remains disabled, check your entries for errors.
 
 Step 9 – Click __Next__.
 
-![GroupID Service Configurations](/img/product_docs/groupid/groupid/install/configure/servicesconfiguration.jpg)
+![GroupID Service Configurations](../../../../../static/img/product_docs/groupid/groupid/install/configure/servicesconfiguration.jpg)
 
 Step 10 – Directory Manager requires two services:
 
@@ -59,13 +59,13 @@ NOTE: This Directory Manager instance will use Email and Scheduler services of t
 
 Step 11 – Click __Next__.
 
-![Elasticsearch Settings page](/img/product_docs/groupid/groupid/install/configure/elasticsearchsettings.jpg)
+![Elasticsearch Settings page](../../../../../static/img/product_docs/groupid/groupid/install/configure/elasticsearchsettings.jpg)
 
 Step 12 – Directory Manager provides the following two options for Elasticsearch configuration. Select the relevant option:
 
 - Let Directory Managerinstall and manage Elasticsearch: If you select this option, Directory Manager Configuration Tool will install Elasticsearch. It presents you default configuration of Elasticsearch cluster it will create:
 
-  ![Select Elastic Cluster page](/img/product_docs/groupid/groupid/install/configure/select_cluster_w_existing_db_option.webp)
+  ![Select Elastic Cluster page](../../../../../static/img/product_docs/groupid/groupid/install/configure/select_cluster_w_existing_db_option.webp)
 
   1. Cluster Name: lists all the clusters defined so far. Select one to create an Elasticsearch node within the selected cluster.
   2. Port: the default port for Elasticsearch API communication. Modify the port number if the mentioned default port is not available.
@@ -75,7 +75,7 @@ Step 12 – Directory Manager provides the following two options for Elasticsear
 
   I will install and manage Elasticsearch myself: If you select this option, the following page is displayed:
 
-  ![Elasticsearch settings page](/img/product_docs/groupid/groupid/install/configure/elasticsearchsettings-2.jpg)
+  ![Elasticsearch settings page](../../../../../static/img/product_docs/groupid/groupid/install/configure/elasticsearchsettings-2.jpg)
 
   Provide configurations of Elasticsearch you want to use with Directory Manager:
 
@@ -85,7 +85,7 @@ Step 12 – Directory Manager provides the following two options for Elasticsear
 
 Step 13 – Click __Next__.
 
-![Service Account Settings page](/img/product_docs/groupid/groupid/install/configure/service_account_settings_w_existing_db.jpg)
+![Service Account Settings page](../../../../../static/img/product_docs/groupid/groupid/install/configure/service_account_settings_w_existing_db.jpg)
 
 NOTE: If you configure a Group Managed Service Account (gMSA) as an App Pool service account then the Directory ManagerConfiguration tool will add this account in the local administrators and IIS_IUSRS groups.
 
@@ -110,12 +110,12 @@ Step 15 – You can specify a service accounts for the app pool in any of the fo
 
 - Use an existing account: Click __Browse__.
 
-  ![Find Service Account page](/img/product_docs/groupid/groupid/install/configure/findserviceaccount.jpg)
+  ![Find Service Account page](../../../../../static/img/product_docs/groupid/groupid/install/configure/findserviceaccount.jpg)
 
   On the Find Service Account dialog box, search and select the required account and click __OK__.
 - Create a new service account: Click the __Create New__ button on the Service Account Setting page.
 
-  ![Create a new service account page](/img/product_docs/groupid/groupid/install/configure/createserviceaccount.jpg)
+  ![Create a new service account page](../../../../../static/img/product_docs/groupid/groupid/install/configure/createserviceaccount.jpg)
 
   On the Create Service Account dialog box, select the kind of account you want to create. Enter a name, container and password for the account. Click __Create__.
 
@@ -127,14 +127,14 @@ Step 16 – Provide password for the App Pool service account (except for a Grou
 
 Step 17 – Click __Configure__.
 
-![Configuring GroupID ](/img/product_docs/groupid/groupid/install/configure/configuring.jpg)
+![Configuring GroupID ](../../../../../static/img/product_docs/groupid/groupid/install/configure/configuring.jpg)
 
-Step 18 – The next page displays the progress while a Directory Manager server is configured on the machine. While configuring the machine, the Configuration Tool checks the application’s signing key status and update it according to your Directory Manager environment. See the [Update Signing Key](/docs/groupid/groupid/install/configure/signingkeyinfo.md) topic for information how Configuration Tool will update Directory Manager's Signing Key.
+Step 18 – The next page displays the progress while a Directory Manager server is configured on the machine. While configuring the machine, the Configuration Tool checks the application’s signing key status and update it according to your Directory Manager environment. See the [Update Signing Key](signingkeyinfo.md) topic for information how Configuration Tool will update Directory Manager's Signing Key.
 
 Step 19 – This completes the configuration of Directory Manager as a slave node on your machine.   
 Click __Launch GroupID__ to start using Directory Manager. The Sign In pa ge opens:
 
-![GroupID Sign In page](/img/product_docs/groupid/groupid/install/configure/launchgid.jpg)
+![GroupID Sign In page](../../../../../static/img/product_docs/groupid/groupid/install/configure/launchgid.jpg)
 
 To login in to Directory Manager Admin Center for the first time, provide Directory Manager Administrator user name and password.
 

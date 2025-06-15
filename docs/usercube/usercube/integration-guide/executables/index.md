@@ -4,4 +4,4 @@ The documentation is not yet available for this page and will be completed in th
 
 See the [
 Executables
-](/docs/usercube/usercube/integration-guide/executables/index.md) topic for additional information.
+](index.md) topic for additional information.

@@ -7,7 +7,7 @@ November 30, 2023
 - Support links are changing December 1st, the new link is [https://www.netwrix.com/support.html](https://www.netwrix.com/support.html)
 - NetSuite changes, such a moving an account to a different datacenter, are now treated as a Platform change. They do not create a non-compliant Change Log record.
 - Improved handling of custom employee center roles across the Strongpoint spiders.
-- Bundle updates were enabling __Automatic Synchronization__ between Strongpoint and Jira, changing settings where __Automatic Synchronization__ was disabled. __Automatic Synchronization__ defaults to enabled for new installations. Refer to [Jira](/docs/strongpointfornetsuite/integrations/jira_integration.md) topic for more information.
+- Bundle updates were enabling __Automatic Synchronization__ between Strongpoint and Jira, changing settings where __Automatic Synchronization__ was disabled. __Automatic Synchronization__ defaults to enabled for new installations. Refer to [Jira](../integrations/jira_integration.md) topic for more information.
 - Enhanced handling of nonmaterial changes for fields using html coding. Special symbols ( < > & " ) in fields do not generate non-compliant change logs.
 - Improved handling of the __Date Last Used__ script to avoid time limit errors.
 
@@ -40,7 +40,7 @@ September 20, 2023
 
   The button is only available for Object types where Strongpoint can retrieve the __Actual Change Date__ and __Change By__ fields.
 
-  ![Refresh Changed By](/img/product_docs/strongpointfornetsuite/change_management/change_log_refresh.webp)
+  ![Refresh Changed By](../../../static/img/product_docs/strongpointfornetsuite/change_management/change_log_refresh.webp)
 - Removed extraneous Customization record link in Search Clean Up notification emails. Non-Strongpoint users receive the notification and cannot use the link.
 
 ## Core 7.1
@@ -64,7 +64,7 @@ NetSuite will begin pushing release 2023.2 the end of August.
 If you have custom searches, you must update them to support the NetSuite change. To view the list of saved searches in your account that contain code in __Formula(Text)__ fields, open:   
 __Lists__ > __Search__ > __Saved Searches with HTML in Formula(Text)__
 
-![Run the Saved Search to view changes](/img/product_docs/strongpointfornetsuite/release_notes/formulahtml.webp)
+![Run the Saved Search to view changes](../../../static/img/product_docs/strongpointfornetsuite/release_notes/formulahtml.webp)
 
 ## SoD 1.6.2
 
@@ -122,7 +122,7 @@ September 27, 2023
 
 - Added the ability to receive and store images attached in the Jira description by Jira ticket ID.
 
-  ![Strongpoint stores attached Jira images](/img/product_docs/strongpointfornetsuite/release_notes/jira_images.webp)
+  ![Strongpoint stores attached Jira images](../../../static/img/product_docs/strongpointfornetsuite/release_notes/jira_images.webp)
 
 ## Jira 1.2.13
 
@@ -144,7 +144,7 @@ Here are the enhancements for the release:
 Import Customizations from Jira
 
 An __Import Customization__ button has been added to the Jira Strongpoint form. You can import an xml file exported from a Jira ticket.  
-![Jira Strongpoint form](/img/product_docs/strongpointfornetsuite/release_notes/jira_strongpoint_form.webp)
+![Jira Strongpoint form](../../../static/img/product_docs/strongpointfornetsuite/release_notes/jira_strongpoint_form.webp)
 
 Enable Allow NS to Jira Push
 
@@ -154,7 +154,7 @@ This feature must be enabled before you can create tickets from NetSuite to Jira
 2. Open the __Jira Integration__ tab
 3. Check __Allow NS to Jira Push__ to enable pushing NetSuite change requests into Jira.  
 
-   ![Enable Allow NS to Push to Jira](/img/product_docs/strongpointfornetsuite/release_notes/jira_example_integration.webp)
+   ![Enable Allow NS to Push to Jira](../../../static/img/product_docs/strongpointfornetsuite/release_notes/jira_example_integration.webp)
 
 Create Ticket from NetSuite to Jira
 
@@ -164,15 +164,15 @@ Create Ticket from NetSuite to Jira must be enabled before you can create ticket
 2. Add your information and customizations.
 3. Click __Push to Jira__.
 4. Select your Jira project.  
-   ![Select a Jira Project](/img/product_docs/strongpointfornetsuite/release_notes/jira_ns_jira_push2.webp)
+   ![Select a Jira Project](../../../static/img/product_docs/strongpointfornetsuite/release_notes/jira_ns_jira_push2.webp)
 5. Click __Push__. A Change Request Pushed message is displayed. Click __Close__.
 6. Open the __Related Change Records__ tab. The ticket number is added as an __External Change Request Number__. __CM-15__ in this example.  
-   ![The ticket number is on the Related Change Records tab](/img/product_docs/strongpointfornetsuite/release_notes/jira_create_cr_related_change.webp)
+   ![The ticket number is on the Related Change Records tab](../../../static/img/product_docs/strongpointfornetsuite/release_notes/jira_create_cr_related_change.webp)
 7. Open Jira.
 8. Navigate to __CM-15__ ticket.  
-   ![Open the ticket in Jira](/img/product_docs/strongpointfornetsuite/release_notes/jira_ns_jira_push3.webp)
+   ![Open the ticket in Jira](../../../static/img/product_docs/strongpointfornetsuite/release_notes/jira_ns_jira_push3.webp)
 9. Click __Strongpoint NetSuite__. The customizations from the change request are added.  
-   ![Customizations are added to the ticket](/img/product_docs/strongpointfornetsuite/release_notes/jira_ns_jira_push4.webp)
+   ![Customizations are added to the ticket](../../../static/img/product_docs/strongpointfornetsuite/release_notes/jira_ns_jira_push4.webp)
 
 ## Jira 1.2.10
 
@@ -185,19 +185,19 @@ Strongpoint Settings for Jira
 
 The Strongpoint Settings app is accessed through Jira. This is where you create your Token Based Authentication (TBA) credentials for your account. Once created, they are available to you for easy selection when performing your tasks.
 
-Token-Based Authentication is set up through NetSuite. Refer to [Setting up Token-Based Authentication](/docs/strongpointfornetsuite/integrations/jira_integration.md).
+Token-Based Authentication is set up through NetSuite. Refer to [Setting up Token-Based Authentication](../integrations/jira_integration.md).
 
 1. Open __Jira__.
 2. Open your __Projects__ page:
 
-   ![Open your Jira Projects page to find Add-ons](/img/product_docs/strongpointfornetsuite/release_notes/jira_projects_menu.webp)
+   ![Open your Jira Projects page to find Add-ons](../../../static/img/product_docs/strongpointfornetsuite/release_notes/jira_projects_menu.webp)
 3. Expand __Add-ons__.
 4. Select __Strongpoint Settings__.
 
-   ![Jira Strongpoint Settings](/img/product_docs/strongpointfornetsuite/release_notes/jira_strongpoint_settings.webp)
+   ![Jira Strongpoint Settings](../../../static/img/product_docs/strongpointfornetsuite/release_notes/jira_strongpoint_settings.webp)
 5. Click __New Token Based Authentication__ to add your credentials. This needs to be done once for each of your accounts.
 
-   ![Add tokens for Jira](/img/product_docs/strongpointfornetsuite/release_notes/jira_add_token.webp)
+   ![Add tokens for Jira](../../../static/img/product_docs/strongpointfornetsuite/release_notes/jira_add_token.webp)
 6. Enter your credentials and click __Add Token Based Authentication Credential__.
 
 ## ServiceNow Integration 1.1.5
@@ -217,7 +217,7 @@ October 13, 2023
 - Added __GL Impact__ and __Permission Risk Severity__ filters to the Permission Revews lists.
 - Added __GL Impact__ and __Permission Risk Severity__ columns to the Permission Review.
 
-  ![UAR GL Impact](/img/product_docs/strongpointfornetsuite/release_notes/uar_gl_impact.webp)
+  ![UAR GL Impact](../../../static/img/product_docs/strongpointfornetsuite/release_notes/uar_gl_impact.webp)
 - Added new roles and permissions for UAR users:
 
   - Strongpoint UAR Admin

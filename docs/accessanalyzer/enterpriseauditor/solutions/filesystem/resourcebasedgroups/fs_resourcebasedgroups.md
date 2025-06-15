@@ -44,9 +44,9 @@ __Step 7 –__ Analyze and report on action history:
 
 Additional Options
 
-__Step 8 –__ (Optional) Create and apply permissions for traverse groups based on previous resource based groups. See the [FS_TraverseGroups Job](/docs/accessanalyzer/enterpriseauditor/solutions/filesystem/resourcebasedgroups/fs_traversegroups.md) topic for additional information.
+__Step 8 –__ (Optional) Create and apply permissions for traverse groups based on previous resource based groups. See the [FS_TraverseGroups Job](fs_traversegroups.md) topic for additional information.
 
-__Step 9 –__ (Optional) Import resources and access groups from the FS_ResoureBasedGroup Job into the Netwrix Access Information Center. See the [FS_ResourceBasedGroupAICImport Job](/docs/accessanalyzer/enterpriseauditor/solutions/filesystem/resourcebasedgroups/fs_resourcebasedgroupaicimport.md) topic for additional information.
+__Step 9 –__ (Optional) Import resources and access groups from the FS_ResoureBasedGroup Job into the Netwrix Access Information Center. See the [FS_ResourceBasedGroupAICImport Job](fs_resourcebasedgroupaicimport.md) topic for additional information.
 
 ## Model Intended Changes
 
@@ -56,13 +56,13 @@ Prior to executing the actions to apply changes, the proposed changes can be mod
 
 The Analyze Group Permissions analysis task in the FS_ResourceBasedGroups Job contains parameters for group permissions that should be configured and then reviewed in the Change Modeling report. View the analysis tasks by navigating to the __Jobs__ > __FileSystem__ > __ResourceBasedGroups__ > __FS_ResourceBasedGroups__ > __Configure__ node and select __Analysis__.
 
-![Analyze Group Permissions analysis task in the FS_ResourceBasedGroups Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/resourcebasedgroups/rbganalysis.webp)
+![Analyze Group Permissions analysis task in the FS_ResourceBasedGroups Job](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/resourcebasedgroups/rbganalysis.webp)
 
 - Analyze Group Permissions – Creates the FS_ResourceBasedGroups_NewACLs table accessible under the job’s Results node.
 
   - This analysis task contains configurable parameters: #SA_Job_Hosts, @levels_down, @naming_convention, @add_admin_groups, #folders, @activity_filter.
 
-Configure the following parameters. See the [SQLscripting Analysis Module](/docs/accessanalyzer/enterpriseauditor/admin/analysis/sqlscripting.md) topic for additional information.
+Configure the following parameters. See the [SQLscripting Analysis Module](../../../admin/analysis/sqlscripting.md) topic for additional information.
 
 | Analysis Task | Customizable Parameter Name | Default Value | Value Indicates |
 | --- | --- | --- | --- |
@@ -117,7 +117,7 @@ The Active Directory action tasks create and populate resource based groups. The
 
 View the action tasks by navigating to the __Jobs__ > __FileSystem__ > __Resourced Based Groups__ > __FS_ResourceBasedGroups__ > __Configure__ node and select __Actions__.
 
-![Active Directory Action Tasks](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/resourcebasedgroups/rbgactivedirectoryactions.webp)
+![Active Directory Action Tasks](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/resourcebasedgroups/rbgactivedirectoryactions.webp)
 
 There are the following two Active Directory action tasks:
 
@@ -141,7 +141,7 @@ __Step 2 –__ On the Action Properties page, click __Configure Action__.
 
 __Step 3 –__ In the Active Directory Action Module Wizard, navigate to the Create Groups page.
 
-![AD Action Module Wizard Create Groups page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/activedirectory/operations/creategroups.webp)
+![AD Action Module Wizard Create Groups page](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/activedirectory/operations/creategroups.webp)
 
 __Step 4 –__ In the OU box, select the OU where the groups will be created.
 
@@ -163,7 +163,7 @@ __Step 2 –__ On the Action Properties page, click __Configure Action__.
 
 __Step 3 –__ In the Active Directory Action Module Wizard, navigate to the Group Membership page.
 
-![AD Action Module Wizard Groups Membership page](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/resourcebasedgroups/rbggroupsmembership.webp)
+![AD Action Module Wizard Groups Membership page](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/resourcebasedgroups/rbggroupsmembership.webp)
 
 __Step 4 –__ On the Create Groups page, __Target Group by OU__ is selected by default. In the OU box, select the target OU.
 
@@ -203,7 +203,7 @@ The File System actions modify folder permissions and break inheritance. The Mod
 
 View the action tasks by navigating to the __Jobs__ > __FileSystem__ > __Resourced Based Groups__ > __FS_ResourceBasedGroups__ > __Configure__ node and select __Actions__.
 
-![File System action tasks](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/resourcebasedgroups/rbgfilesystemactions.webp)
+![File System action tasks](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/resourcebasedgroups/rbgfilesystemactions.webp)
 
 There are the following two File System action tasks:
 

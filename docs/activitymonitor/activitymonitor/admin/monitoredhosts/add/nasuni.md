@@ -8,8 +8,8 @@ The Activity Monitor can be configured to monitor the following:
 
 It provides the ability to feed activity data to SIEM products. The following dashboards have been specifically created for Activity Monitor event data:
 
-- For IBM® QRadar®, see the [Netwrix File Activity Monitor App for QRadar](/docs/activitymonitor/activitymonitor/siem/qradar/overview.md) for additional information.
-- For Splunk®, see the [File Activity Monitor App for Splunk](/docs/activitymonitor/activitymonitor/siem/splunk/overview.md) for additional information.
+- For IBM® QRadar®, see the [Netwrix File Activity Monitor App for QRadar](../../../siem/qradar/overview.md) for additional information.
+- For Splunk®, see the [File Activity Monitor App for Splunk](../../../siem/splunk/overview.md) for additional information.
 
 It also provides the ability to feed activity data to other Netwrix products:
 
@@ -17,7 +17,7 @@ It also provides the ability to feed activity data to other Netwrix products:
 - Netwrix Threat Prevention
 - Netwrix Threat Manager
 
-Prior to adding a Nasuni Edge Appliance host to the Activity Monitor, the prerequisites for the target environment must be met. See the [Nasuni Edge Appliance Activity Auditing Configuration](/docs/activitymonitor/config/nasuni/activity.md) topic for additional information.
+Prior to adding a Nasuni Edge Appliance host to the Activity Monitor, the prerequisites for the target environment must be met. See the [Nasuni Edge Appliance Activity Auditing Configuration](../../../../config/nasuni/activity.md) topic for additional information.
 
 _Remember,_ the Activity Agent must be deployed to a Windows server that acts as a proxy for monitoring the target environment.
 
@@ -27,15 +27,15 @@ Follow the steps to add a Nasuni Edge Appliance host to be monitored.
 
 __Step 1 –__ In Activity Monitor, go to the Monitored Hosts tab and click Add. The Add New Host window opens.
 
-![Choose Agent page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/chooseagent.webp)
+![Choose Agent page](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/chooseagent.webp)
 
 __Step 2 –__ On the Choose Agent page, select the __Agent__ to monitor the storage device. Click __Next__.
 
-![Add Host page with Nasuni selected](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/addhostnasuni.webp)
+![Add Host page with Nasuni selected](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/addhostnasuni.webp)
 
 __Step 3 –__ On the Add Host page, select the Nasuni radio button and enter the host name or IP Address of the Nasuni Edge Appliance in the Nasuni Filer textbox. If desired, add a __Comment__. Click __Next__.
 
-![Nasuni Options page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/nasunioptions.webp)
+![Nasuni Options page](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/nasunioptions.webp)
 
 __Step 4 –__ On the Nasuni Options page, enter the __API Key Name__ and the __API Key Value__. Click Connect to validate the connection with the Nasuni device.
 
@@ -47,7 +47,7 @@ __Step 4 –__ On the Nasuni Options page, enter the __API Key Name__ and the __
 
 Click __Next__.
 
-![Trusted Server Certificate popup window](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/trustedservercertificate.webp)
+![Trusted Server Certificate popup window](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/trustedservercertificate.webp)
 
 - HTTPS Options – Opens the Trusted server certificate window to customize the certificate verification during a TLS session
   - Import – Click to browse for a trusted server certificate
@@ -65,7 +65,7 @@ __CAUTION:__ Enabling the Suppress subsequent Read operations in the same folder
 
 Click __Next__.
 
-![Configure Basic Options page for Nasuni](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/configurebasicoptionsnasuni.webp)
+![Configure Basic Options page for Nasuni](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/configurebasicoptionsnasuni.webp)
 
 __Step 6 –__ On the Configure Basic Options page, choose which settings to enable. The “Log files” are the activity logs created by the activity agent on the proxy host. Select the desired options:
 
@@ -84,11 +84,11 @@ __Step 6 –__ On the Configure Basic Options page, choose which settings to ena
 
 Click __Next__.
 
-![Where to log the activity page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/wheretologgeneric.webp)
+![Where to log the activity page](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/wheretologgeneric.webp)
 
 __Step 7 –__ On the Where To Log The Activity page, select whether to send the activity to either a __Log File)__ or __Syslog Server__. Click __Next__.
 
-![File Output Page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/fileoutputpage.webp)
+![File Output Page](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/fileoutputpage.webp)
 
 __Step 8 –__ If __Log File__ is selected on the __Where To Log The Activity__ page, the __File Output__ page can be configured.
 
@@ -103,7 +103,7 @@ __Step 8 –__ If __Log File__ is selected on the __Where To Log The Activity__
 
 Click __Next__.
 
-![Syslog Output page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/syslogoutputpage.webp)
+![Syslog Output page](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/syslogoutputpage.webp)
 
 __Step 9 –__ If Syslog Server is selected on the __Where To Log The Activity__ page, the Syslog Output page can be configured.
 
@@ -114,26 +114,26 @@ __Step 9 –__ If Syslog Server is selected on the __Where To Log The Activity__
   - TCP
   - TLS
 
-  The TCP and TLS protocols add the Message framing drop-down menu. See the [Syslog Tab](/docs/activitymonitor/activitymonitor/admin/outputs/syslog.md) topic for additional information.
+  The TCP and TLS protocols add the Message framing drop-down menu. See the [Syslog Tab](../../outputs/syslog.md) topic for additional information.
 - The Test button sends a test message to the Syslog server to check the connection. A green check mark or red will determine whether the test message has been sent or failed to send. Messages vary by Syslog protocol:
   - UDP – Sends a test message and does not verify connection
   - TCP/TLS – Sends test message and verifies connection
   - TLS – Shows error if TLS handshake fails
 
-  See the [Syslog Tab](/docs/activitymonitor/activitymonitor/admin/outputs/syslog.md) topic for additional information.
+  See the [Syslog Tab](../../outputs/syslog.md) topic for additional information.
 
 Click __Finish__.
 
-![Activity Monitor with Nasuni host added](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/activitymonitornasuni.webp)
+![Activity Monitor with Nasuni host added](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/activitymonitornasuni.webp)
 
-The added Nasuni host is displayed in the monitored hosts table. Once a host has been added for monitoring, configure the desired ouptuts. See the [Output for Monitored Hosts](/docs/activitymonitor/activitymonitor/admin/monitoredhosts/output.md) topic for additional information.
+The added Nasuni host is displayed in the monitored hosts table. Once a host has been added for monitoring, configure the desired ouptuts. See the [Output for Monitored Hosts](../output.md) topic for additional information.
 
 ## Host Properties for Nasuni
 
 Configuration settings can be edited through the tabs in the host’s Properties window. The configurable host properties are:
 
-- [Nasuni Tab](/docs/activitymonitor/activitymonitor/admin/monitoredhosts/properties/nasuni.md)
-- [Unix IDs Tab](/docs/activitymonitor/activitymonitor/admin/monitoredhosts/properties/unixids.md)
-- [Inactivity Alerts Tab](/docs/activitymonitor/activitymonitor/admin/monitoredhosts/properties/inactivityalerts.md)
+- [Nasuni Tab](../properties/nasuni.md)
+- [Unix IDs Tab](../properties/unixids.md)
+- [Inactivity Alerts Tab](../properties/inactivityalerts.md)
 
-See the [Host Properties Window](/docs/activitymonitor/activitymonitor/admin/monitoredhosts/properties/overview.md) topic for additional information.
+See the [Host Properties Window](../properties/overview.md) topic for additional information.

@@ -10,21 +10,21 @@ The event filters for the Exchange Lockdown event type are:
 - Exchange Perpetrators
 - Rule Preview
 
-![Policy window - Exchange Lockdown Event Type](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/exchangelockdown.webp)
+![Policy window - Exchange Lockdown Event Type](../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/exchangelockdown.webp)
 
 Each filter tab acts like an "AND" statement for the filter. Any filter tab left blank is treated like an "ALL" for that filter set.
 
 __CAUTION:__ Lockdown/blocking policies with blank filters result in everything being locked down or blocked.
 
-After enabling an Exchange login blocking policy, mail clients with existing connections to Outlook, OWA, PowerShell, EWS, ECP, and ActiveSync will not be blocked while the existing connection remains. See the [Exchange Lockdown Considerations](/docs/threatprevention/threatprevention/troubleshooting/exchangelockdown.md) topic for information on resolving this.
+After enabling an Exchange login blocking policy, mail clients with existing connections to Outlook, OWA, PowerShell, EWS, ECP, and ActiveSync will not be blocked while the existing connection remains. See the [Exchange Lockdown Considerations](../../../troubleshooting/exchangelockdown.md) topic for information on resolving this.
 
-__NOTE:__ There are additional factors to consider in order to block delegations through Outlook. See the [Troubleshooting FAQs](/docs/threatprevention/threatprevention/troubleshooting/overview.md#troubleshooting-faqs) topic for additional information.
+__NOTE:__ There are additional factors to consider in order to block delegations through Outlook. See the [Troubleshooting FAQs](../../../troubleshooting/overview.md#troubleshooting-faqs) topic for additional information.
 
 ## Exchange Event Filter
 
 On the Exchange Event filter for lockdown, select the types of Exchange events to be locked down by the policy.
 
-![Policy window - Exchange Event filter for lockdown](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/exchangeeventlockdown.webp)
+![Policy window - Exchange Event filter for lockdown](../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/exchangeeventlockdown.webp)
 
 Check the __All__ box at the top of the tab to include all operations and permissions or select specific operations and permissions:
 
@@ -43,26 +43,26 @@ Whether these events are blocked or allowed depends on the other filters applied
 
 Use the Exchange Mailbox Objects and Containers filter for lockdown to set the scope of the policy to lockdown changes to specific objects or containers within Exchange or to exclude changes to specific objects or containers from being locked down.
 
-![Policy window - Exchange Mailbox Objects and Containers filter ](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/exchangemailboxobjectsandcontainers.webp)
+![Policy window - Exchange Mailbox Objects and Containers filter ](../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/exchangemailboxobjectsandcontainers.webp)
 
 Select the __Include__ or __Exclude__ button and then edit the list.
 
-- The __Add__ (+) button opens the [Select Exchange Objects from Active Directory Window](/docs/threatprevention/threatprevention/admin/policies/eventtype/window/selectactivedirectory/exchangeobjects.md).
-- The Collection button opens the [List of Collections Window](/docs/threatprevention/threatprevention/admin/configuration/collectionmanager/listcollections.md) to the appropriate Collection category.
+- The __Add__ (+) button opens the [Select Exchange Objects from Active Directory Window](window/selectactivedirectory/exchangeobjects.md).
+- The Collection button opens the [List of Collections Window](../../configuration/collectionmanager/listcollections.md) to the appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
 ## Exchange Trustees Filter
 
 Use the Exchange Trustees filter for lockdown to set the scope of the policy to only lockdown specific Exchange trustees. Trustees are the accounts receiving permissions. For example, if an administrator grants Joe Smith access to Bob Wilson's mailbox, Joe Smith is the trustee that is granted permissions.
 
-![Policy window - Exchange Trustees filter for lockdown](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/exchangetrusteeslockdown.webp)
+![Policy window - Exchange Trustees filter for lockdown](../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/exchangetrusteeslockdown.webp)
 
 Select the __Block__ or __Allow__ option button and then edit the list.
 
 Use the buttons in the Trustees and Collections of Trustees areas to edit the lists.
 
-- The Trustees __Add__ (+) button opens the [Select Active Directory Trustees Window](/docs/threatprevention/threatprevention/admin/policies/eventtype/window/selectactivedirectory/trustees.md).
-- The Collection button opens the [List of Collections Window](/docs/threatprevention/threatprevention/admin/configuration/collectionmanager/listcollections.md) to the appropriate Collection category.
+- The Trustees __Add__ (+) button opens the [Select Active Directory Trustees Window](window/selectactivedirectory/trustees.md).
+- The Collection button opens the [List of Collections Window](../../configuration/collectionmanager/listcollections.md) to the appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
 The other option button options dictate how the Exchange Trustees filter and the Exchange Perpetrators filter relate to each other. They include:
@@ -80,7 +80,7 @@ The other option button options dictate how the Exchange Trustees filter and the
 
 Use the Exchange Perpetrator filter for lockdown to set the scope of the policy to only lock down specific security principals committing changes or to exclude specific security principals committing changes from being locked down.
 
-![Policy window - Exchange Perpetrator filter for lockdown](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/exchangeperpetratorlockdown.webp)
+![Policy window - Exchange Perpetrator filter for lockdown](../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/exchangeperpetratorlockdown.webp)
 
 Options at the top enable you to block or allow user access to mailboxes based on the assigned roles.
 
@@ -106,16 +106,16 @@ Both the checkboxes and the option buttons have their own set of Block or Allow 
 
 Use the buttons in the Perpetrators and Collections of Perpetrators areas to edit the lists.
 
-- The Perpetrators Add (+) button opens the [Select Active Directory Perpetrators Window](/docs/threatprevention/threatprevention/admin/policies/eventtype/window/selectactivedirectory/perpetrators.md).
-- The Collection button opens the [List of Collections Window](/docs/threatprevention/threatprevention/admin/configuration/collectionmanager/listcollections.md) to the appropriate Collection category.
+- The Perpetrators Add (+) button opens the [Select Active Directory Perpetrators Window](window/selectactivedirectory/perpetrators.md).
+- The Collection button opens the [List of Collections Window](../../configuration/collectionmanager/listcollections.md) to the appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
-__NOTE:__ To enable a Dynamic Policy, use the Collection button to select the desired Dynamic Collection. See the [Dynamic Collections](/docs/threatprevention/threatprevention/admin/configuration/collectionmanager/dynamic.md) topic for additional information.
+__NOTE:__ To enable a Dynamic Policy, use the Collection button to select the desired Dynamic Collection. See the [Dynamic Collections](../../configuration/collectionmanager/dynamic.md) topic for additional information.
 
 ## Rule Preview Filter
 
 The Rule Preview filter displays a summary of the selected filter options. This is primarily used for troubleshooting.
 
-![Event Type - Rule Preview filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/rulepreview.webp)
+![Event Type - Rule Preview filter](../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/rulepreview.webp)
 
 The text displayed represents the rules created based on the policy’s selected filters. Each row is a selected filter. Notice the Word Wrap checkox. If checked, a filter statement may cover multiple rows so that all of it is visible.

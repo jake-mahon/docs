@@ -24,4 +24,4 @@ If, after un-selecting the items below, you still want to receive LESS email, th
 
 We at Endpoint Policy Manager have a responsibility for ensuring that some communications get to you, and agree to do our best. It's up to you if you wish to actively block these emails.
 
-![693_1_faq2](/img/product_docs/policypak/policypak/tips/693_1_faq2.jpg)
+![693_1_faq2](../../../../static/img/product_docs/policypak/policypak/tips/693_1_faq2.jpg)

@@ -8,7 +8,7 @@ Follow the steps to enable event filtering.
 
 __Step 1 –__ Click __Configuration__ > __Event Filtering__ on the menu to open the Event Filtering Configuration window.
 
-![Event Filtering Configuration Window](/img/product_docs/threatprevention/threatprevention/admin/configuration/eventfiltering.webp)
+![Event Filtering Configuration Window](../../../../../static/img/product_docs/threatprevention/threatprevention/admin/configuration/eventfiltering.webp)
 
 __Step 2 –__ The filter options are grouped by AD Global Pre Filters, Authentication Global Pre Filters, and Alerts. Check the checkboxes to activate the filters and click __Save__.
 
@@ -59,9 +59,9 @@ When the Exclude AD DNS Events checkbox is unchecked, DNS record events are disp
 
 The Exclude Logins from Machine Accounts option is enabled by default to filter out machine logins. These events can result in a bloating of the database. Click the __configure__ link to open the Edit Collection window.
 
-![Edit Collection window - For Machine Accounts](/img/product_docs/threatprevention/threatprevention/admin/configuration/editcollectionmachineaccounts.webp)
+![Edit Collection window - For Machine Accounts](../../../../../static/img/product_docs/threatprevention/threatprevention/admin/configuration/editcollectionmachineaccounts.webp)
 
-The Exclude Logins from Machine Accounts collection is only accessible through the Event Filtering Configuration window. Either use the __Add__ (+) button to open the [Select Active Directory Perpetrators Window](/docs/threatprevention/threatprevention/admin/policies/eventtype/window/selectactivedirectory/perpetrators.md) to browse for machine accounts or type the account name in the textbox.
+The Exclude Logins from Machine Accounts collection is only accessible through the Event Filtering Configuration window. Either use the __Add__ (+) button to open the [Select Active Directory Perpetrators Window](../policies/eventtype/window/selectactivedirectory/perpetrators.md) to browse for machine accounts or type the account name in the textbox.
 
 Only perpetrators with accounts ending in “$” are considered for this filter. Wild cards (\*) can be used for partial matches to account names.
 
@@ -82,7 +82,7 @@ Windows Server 2012 introduced gMSA (Group Managed Service Accounts). gMSA accou
 
 The Exclude Authentication Events from Selected Hosts option is disabled by default as it requires configuration before it can be enabled. Click the __selected hosts__ link to open the Edit Collection window.
 
-![Edit Collection window - For Hosts](/img/product_docs/threatprevention/threatprevention/admin/configuration/editcollectionhosts.webp)
+![Edit Collection window - For Hosts](../../../../../static/img/product_docs/threatprevention/threatprevention/admin/configuration/editcollectionhosts.webp)
 
 The Exclude Authentication Events from Hosts collection is only accessible through the Event Filtering Configuration window. All three methods of identification for a host (IP address, NETBIOS host name, or DNS host name) must be known in order to effectively exclude authentication from the host. Identify the host to be excluded in the textbox under the IP Address column and hit __Enter__ or select the next row in the grid. Threat Prevention attempts to discover the NETBIOS host name and the DNS host name associated with the supplied IP address. If the host identification is not resolved or is inaccurate, manually type the information.
 
@@ -92,9 +92,9 @@ Repeat the process until all hosts for which authentication event data will not 
 
 The Exclude Authentication Events from Selected Accounts option is disabled by default as it requires configuration before it can be enabled. Click the selected accounts link to open the Edit Collection window.
 
-![Edit Collection window - For Selected Accounts](/img/product_docs/threatprevention/threatprevention/admin/configuration/editcollectionaccounts.webp)
+![Edit Collection window - For Selected Accounts](../../../../../static/img/product_docs/threatprevention/threatprevention/admin/configuration/editcollectionaccounts.webp)
 
-The Exclude Authentication Events from Selected Accounts collection is only accessible through the Event Filtering Configuration window. Use the __Add__ (+) button to open the [Select Active Directory Perpetrators Window](/docs/threatprevention/threatprevention/admin/policies/eventtype/window/selectactivedirectory/perpetrators.md) to browse for the desired accounts. Account names [domain name\account] can also be typed in the textbox. Wild cards (\*) can be used as part of either the domain name or account. An asterisk (\*) appearing anywhere other than as the first character or the last character are treated as a literal character instead of as a wild card. For example: \*\Service1 would exclude all Service1 accounts whether it is a domain or local account, and Example\Service\* would exclude all accounts that start with “Service” for the Example domain.
+The Exclude Authentication Events from Selected Accounts collection is only accessible through the Event Filtering Configuration window. Use the __Add__ (+) button to open the [Select Active Directory Perpetrators Window](../policies/eventtype/window/selectactivedirectory/perpetrators.md) to browse for the desired accounts. Account names [domain name\account] can also be typed in the textbox. Wild cards (\*) can be used as part of either the domain name or account. An asterisk (\*) appearing anywhere other than as the first character or the last character are treated as a literal character instead of as a wild card. For example: \*\Service1 would exclude all Service1 accounts whether it is a domain or local account, and Example\Service\* would exclude all accounts that start with “Service” for the Example domain.
 
 Repeat the process until all accounts to be excluded from Authentication event data have been entered in the list. Then click OK. The Edit Collection window closes, and the Exclude Authentication Events from selected accounts option can be enabled.
 
@@ -102,4 +102,4 @@ Repeat the process until all accounts to be excluded from Authentication event d
 
 The Send Latency Alerts option is disabled by default. It is used to generate alerts if the time delay between when the Agent detects an AD event and the time the Enterprise Manager receives it exceeds the specified latency threshold. This option is helpful for troubleshooting when experiencing slow connection in the environment. These events can result in a bloating of the database especially if the latency threshold is set too low.
 
-Select the Send Latency Alerts checkbox to enable this option. Use the arrows, or type into the textbox, to set the latency threshold in minutes for the time when the Agent detects the event and the Enterprise Manager receives it. When events exceed the timeframe, alerts are displayed in the [Alerts Interface](/docs/threatprevention/threatprevention/admin/alerts/overview.md). Email or SIEM alerts can be generated by selecting the Agent Latency checkbox in the Operations tab of the [System Alerting Window](/docs/threatprevention/threatprevention/admin/configuration/systemalerting/overview.md).
+Select the Send Latency Alerts checkbox to enable this option. Use the arrows, or type into the textbox, to set the latency threshold in minutes for the time when the Agent detects the event and the Enterprise Manager receives it. When events exceed the timeframe, alerts are displayed in the [Alerts Interface](../alerts/overview.md). Email or SIEM alerts can be generated by selecting the Agent Latency checkbox in the Operations tab of the [System Alerting Window](systemalerting/overview.md).

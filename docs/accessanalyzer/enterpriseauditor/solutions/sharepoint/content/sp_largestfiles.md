@@ -8,7 +8,7 @@ Navigate to the __Jobs__ > __SharePoint__ > __4.Content__ > __SP_LargestFiles__ 
 
 __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis task is preconfigured for this job.
 
-![Analysis Tasks for the SP_LargestFiles Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/content/largestfilesanalysis.webp)
+![Analysis Tasks for the SP_LargestFiles Job](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/content/largestfilesanalysis.webp)
 
 The default analysis task is:
 

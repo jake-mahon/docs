@@ -40,7 +40,7 @@ __Step 1 –__ In Access Analyzer navigate to the Exchange Job Group (or any oth
 
 __Step 2 –__ Click __Add Instant Job__ to open the Instant Job Wizard.
 
-__Step 3 –__ Install the EX_RegisterAzureAppAuth Job from the Instant Job Library under the Exchange General library. After installation, the job tree automatically refreshes with the new job available within the selected Job Group. See the [Instant Job Wizard](/docs/accessanalyzer/enterpriseauditor/admin/jobs/instantjobs/overview.md) topic for additional information.
+__Step 3 –__ Install the EX_RegisterAzureAppAuth Job from the Instant Job Library under the Exchange General library. After installation, the job tree automatically refreshes with the new job available within the selected Job Group. See the [Instant Job Wizard](overview.md) topic for additional information.
 
 __Step 4 –__ On the job description page, in the Configuration section, select the edit button for __Name of the app as it will appear in the Azure applications list__ and enter the name you want to apply to the registered Microsoft Entra ID application. Click __Save__.
 
@@ -61,4 +61,4 @@ __Step 9 –__ After the job successfully runs, it opens a browser window to Mic
 
 The Microsoft Entra ID application is now provisioned with the necessary permissions for Exchange Online scans. There will be a new Connection Profile for this Application. Restart the Access Analyzer Console and enter a password to use this Connection Profile.
 
-_Remember,_ the required rights and roles for Exchange Online still need to be configured. See the [Target Exchange Online Requirements, Permissions, and Ports](/docs/accessanalyzer/enterpriseauditor/requirements/target/exchangeonline.md) topic for additional information.
+_Remember,_ the required rights and roles for Exchange Online still need to be configured. See the [Target Exchange Online Requirements, Permissions, and Ports](../../../requirements/target/exchangeonline.md) topic for additional information.

@@ -4,7 +4,7 @@ This connector exports sites, folders, groups and permissions from a [SharePoint
 
 This page is about Storage/SharePoint.
 
-![Package: Storage/SharePoint](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/sharepoint/packages_sharepoint_v603.webp)
+![Package: Storage/SharePoint](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/sharepoint/packages_sharepoint_v603.webp)
 
 ## Overview
 
@@ -230,8 +230,8 @@ Data protection can be ensured through:
 
 See the [
 RSA Encryption
-](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md), [Azure Key Vault](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md), and [CyberArk's AAM Credential Providers
-](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)topics for additional information.
+](../../../network-configuration/agent-configuration/rsa-encryption/index.md), [Azure Key Vault](../../../network-configuration/agent-configuration/azure-key-vault/index.md), and [CyberArk's AAM Credential Providers
+](../../../network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)topics for additional information.
 
 Protected attributes are stored inside a safe in CyberArk, into an account whose identifier can be retrieved by Identity Manager from ```appsettings.cyberark.agent.json```.
 

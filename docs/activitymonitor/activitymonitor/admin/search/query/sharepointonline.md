@@ -2,7 +2,7 @@
 
 You can search SharePoint Online activity that has been monitored and recorded to a File output. When you select __SharePoint Online__ from the magnifying glass drop-down menu, a New Search tab opens with the applicable query filters.
 
-![SharePoint Online - Search Quary Bar](/img/product_docs/activitymonitor/activitymonitor/admin/search/query/sharepointonlinesearchquerybar.webp)
+![SharePoint Online - Search Quary Bar](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/search/query/sharepointonlinesearchquerybar.webp)
 
 The filters are separated into the following categories:
 
@@ -16,7 +16,7 @@ The filters are separated into the following categories:
 
 By default, the query is set to return all event activity for the past day. Configuring query filters will scope results returned.
 
-Set the filters as desired and click __Search__. The application searches through the appropriate activity log files and returns the events that match the filters. You can [Filter](/docs/activitymonitor/activitymonitor/admin/search/overview.md#filter) and [Sort](/docs/activitymonitor/activitymonitor/admin/search/overview.md#sort) the results using the column headers. Below the Search button is the [Export](/docs/activitymonitor/activitymonitor/admin/search/overview.md#export) option.
+Set the filters as desired and click __Search__. The application searches through the appropriate activity log files and returns the events that match the filters. You can [Filter](../overview.md#filter) and [Sort](../overview.md#sort) the results using the column headers. Below the Search button is the [Export](../overview.md#export) option.
 
 Filter Value Entry
 
@@ -33,7 +33,7 @@ When the drop-down menu is in front of a query filter, it is used to show or hid
 
 The General category scopes the query by the most common types of filters. The time frame filter must be configured for every search query.
 
-![SharePoint Online Search - General Filters](/img/product_docs/activitymonitor/activitymonitor/admin/search/query/generalfilters.webp)
+![SharePoint Online Search - General Filters](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/search/query/generalfilters.webp)
 
 This section has the following filters:
 
@@ -50,7 +50,7 @@ This section has the following filters:
 
 The User category scopes the query by the user, or perpetrator of the activity.
 
-![SharePoint Online Search - User Filter](/img/product_docs/activitymonitor/activitymonitor/admin/search/query/user.webp)
+![SharePoint Online Search - User Filter](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/search/query/user.webp)
 
 This section has the following filters:
 
@@ -64,7 +64,7 @@ This section has the following filters:
 
 The Location category scopes the query by the location of the file.
 
-![SharePoint Online Search - Location Filter](/img/product_docs/activitymonitor/activitymonitor/admin/search/query/location.webp)
+![SharePoint Online Search - Location Filter](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/search/query/location.webp)
 
 This section has the following filters:
 
@@ -76,7 +76,7 @@ This section has the following filters:
 
 The Item category scopes the query by the item.
 
-![SharePoint Online Search - Item Filter](/img/product_docs/activitymonitor/activitymonitor/admin/search/query/item.webp)
+![SharePoint Online Search - Item Filter](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/search/query/item.webp)
 
 This section has the following filters:
 
@@ -88,7 +88,7 @@ This section has the following filters:
 
 The Sharing category scopes the query by the type of sharing.
 
-![SharePoint Online Search - Sharing Filter](/img/product_docs/activitymonitor/activitymonitor/admin/search/query/sharing.webp)
+![SharePoint Online Search - Sharing Filter](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/search/query/sharing.webp)
 
 This section has the following filters:
 
@@ -100,7 +100,7 @@ This section has the following filters:
 
 The DLP category scopes the query by the DLP policy.
 
-![SharePoint Online Search - DLP Filter](/img/product_docs/activitymonitor/activitymonitor/admin/search/query/dlp.webp)
+![SharePoint Online Search - DLP Filter](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/search/query/dlp.webp)
 
 This section has the following filters:
 
@@ -110,7 +110,7 @@ This section has the following filters:
 
 The Custom category scopes the query by custom event activity.
 
-![SharePoint Online Search - Custom Filter](/img/product_docs/activitymonitor/activitymonitor/admin/search/query/custom.webp)
+![SharePoint Online Search - Custom Filter](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/search/query/custom.webp)
 
 This section has the following filters:
 

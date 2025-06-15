@@ -1,12 +1,12 @@
 # Mount / Unmount for USB and .DMG Files
 
-__NOTE:__ See the [Endpoint Privilege Manager for Mac: Mount / Unmount Part I](/docs/policypak/policypak/video/leastprivilege/mac/mountunmountpart1.md) video and the [Endpoint Privilege Manager for Mac: Mount / Unmount Part II](/docs/policypak/policypak/video/leastprivilege/mac/mountunmounpart2.md) video for an overview of this section.
+__NOTE:__ See the [Endpoint Privilege Manager for Mac: Mount / Unmount Part I](../../video/leastprivilege/mac/mountunmountpart1.md) video and the [Endpoint Privilege Manager for Mac: Mount / Unmount Part II](../../video/leastprivilege/mac/mountunmounpart2.md) video for an overview of this section.
 
 You might want to manage when USB devices and/or .DMG disk files can be mounted (or unmounted).
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/mac/scenarios/mount_unmount_for_usb_and.webp)
+Description automatically generated](../../../../../static/img/product_docs/policypak/policypak/mac/scenarios/mount_unmount_for_usb_and.webp)
 
 You can perform the following functions:
 
@@ -36,10 +36,10 @@ For a simple demo, let's Block All USB and DMG devices.
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/mac/scenarios/mount_unmount_for_usb_and_1.webp)
+Description automatically generated](../../../../../static/img/product_docs/policypak/policypak/mac/scenarios/mount_unmount_for_usb_and_1.webp)
 
 The result of trying to attach a new device by USB can be seen here, as Endpoint Policy Manager has blocked it.
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/mac/scenarios/mount_unmount_for_usb_and_2.webp)
+Description automatically generated](../../../../../static/img/product_docs/policypak/policypak/mac/scenarios/mount_unmount_for_usb_and_2.webp)

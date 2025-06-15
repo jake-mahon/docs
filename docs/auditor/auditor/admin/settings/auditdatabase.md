@@ -8,7 +8,7 @@ If you want to generate reports and run interactive search queries, you should c
   - Retention settings
 
   Usually, initial global settings are configured when you create a first monitoring plan. They become the defaults and appear on the __Settings__ > __Audit Database__ tab. If you have not specified the default settings before, click Configure.
-- Specific settings for each dedicated database. You can configure specific database storage settings for each monitoring plan individually. For that, use the __Monitoring Plan__ wizard or navigate to the settings. (Global settings appear as default values there, and you can modify them if needed.) See the [Fine-Tune Your Plan and Edit Settings](/docs/auditor/auditor/admin/monitoringplans/finetune.md)  topic for additional information.
+- Specific settings for each dedicated database. You can configure specific database storage settings for each monitoring plan individually. For that, use the __Monitoring Plan__ wizard or navigate to the settings. (Global settings appear as default values there, and you can modify them if needed.) See the [Fine-Tune Your Plan and Edit Settings](../monitoringplans/finetune.md)  topic for additional information.
 
 Follow the steps to review and update global Audit Database settings:
 
@@ -16,7 +16,7 @@ __Step 1 –__  Navigate to __Settings__ > __Audit Database__.
 
 __Step 2 –__ Click __Modify__  to edit the settings.
 
-![audit_db_settings_thumb_0_0](/img/product_docs/auditor/auditor/admin/settings/audit_db_settings_thumb_0_0.webp)
+![audit_db_settings_thumb_0_0](../../../../../static/img/product_docs/auditor/auditor/admin/settings/audit_db_settings_thumb_0_0.webp)
 
 __Step 3 –__  Specify the following database storage settings:
 
@@ -58,5 +58,5 @@ On the Settings > Audit Database tab, review settings and click Modify under the
 | --- | --- |
 | Report Server URL | Specify the Report Server URL. Make sure that the resource is reachable. |
 | Report Manager URL | Specify the Report Manager URL. Make sure that the resource is reachable. |
-| User name | Specify the account to connect to SSRS. Use the following format:  _domain\username_ or _hostname\username_  Workgroup format (_.\username_) is not supported. Use _hostname\username_ instead.  Make sure this account is granted the Content Manager role on the Report Server. See the [SQL Server Reporting Services](/docs/auditor/auditor/requirements/sqlserverreportingservice.md) topic for additional information. |
+| User name | Specify the account to connect to SSRS. Use the following format:  _domain\username_ or _hostname\username_  Workgroup format (_.\username_) is not supported. Use _hostname\username_ instead.  Make sure this account is granted the Content Manager role on the Report Server. See the [SQL Server Reporting Services](../../requirements/sqlserverreportingservice.md) topic for additional information. |
 | Password | Enter a password. |

@@ -2,7 +2,7 @@
 
 This guide shows how to write a PowerShell script used by the [
 PowerShellProv
-](/docs/usercube_saas/usercube/integration-guide/connectors/references-connectors/powershellprov/index.md) connector.
+](../../references-connectors/powershellprov/index.md) connector.
 
 ## Structure of a PowerShell Script
 

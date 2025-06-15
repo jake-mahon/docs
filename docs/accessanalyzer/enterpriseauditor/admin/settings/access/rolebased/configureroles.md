@@ -14,7 +14,7 @@ This is a three-part process:
   - Edit Role Members’ Responsibilities
   - Delete Role Members
 
-__NOTE:__ This configuration process is not required if only using Role Based Access to secure Published Reports. See the [Securing Published Reports Only](/docs/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/securereports.md) topic for additional information.
+__NOTE:__ This configuration process is not required if only using Role Based Access to secure Published Reports. See the [Securing Published Reports Only](securereports.md) topic for additional information.
 
 ## Configure the Installation Account
 
@@ -46,7 +46,7 @@ __NOTE:__ For any SQL Server version prior to 2012, Windows groups cannot be use
 
 To create the roles within the SQL Server database, run the following script.
 
-![Query Window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/sqlcreateroles.webp)
+![Query Window](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/sqlcreateroles.webp)
 
 Be sure to set the context of this query to the Access Analyzer database by selecting the right database from the drop-down window. Alternatively, prefix the script with a ```USE [Access Analyzer DATABASE NAME]``` clause.
 
@@ -97,7 +97,7 @@ Now that the SQL Server database roles have been created the next step is to ass
 
 __Step 1 –__ Connect to the Access Analyzer database through SQL Management Studio.
 
-![Database Roles](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/sqldatabaseroles.webp)
+![Database Roles](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/sqldatabaseroles.webp)
 
 __Step 2 –__ Validate that the roles have been properly created by navigating to __Security__ > __Roles__ > __Database Roles__. The three new roles should be visible:
 
@@ -107,11 +107,11 @@ __Step 2 –__ Validate that the roles have been properly created by navigating 
 
 |  |  |
 | --- | --- |
-| ![New User Option](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/sqlusers.webp) | ![New User Option](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/sqlusersnewuser.webp) |
+| ![New User Option](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/sqlusers.webp) | ![New User Option](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/sqlusersnewuser.webp) |
 
 __Step 3 –__ After confirmation of role creation, the next step is to map users to these roles. Right-click on the __Security__ > __Users__ node and select __New User__.
 
-![Database User Window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/sqluserwindow.webp)
+![Database User Window](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/sqluserwindow.webp)
 
 __Step 4 –__ Enter the user information in the dialog as follows:
 
@@ -120,6 +120,6 @@ __Step 4 –__ Enter the user information in the dialog as follows:
   ___RECOMMENDED:___ Use a descriptive name.
 - Login name – Qualified domain name of the user: ```[DOMAIN]\[Username]```
 - Default Schema – Should be set to ```dbo```
-- Database role membership – Should be set to the appropriate role for this user. See the [Role Definitions](/docs/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/roledefinitions.md) topic for more information.
+- Database role membership – Should be set to the appropriate role for this user. See the [Role Definitions](roledefinitions.md) topic for more information.
 
-When all of the users have been assigned to the appropriate SQL Server database roles, complete the process by assigning users to roles within the Access Analyzer Console. See the [Assign User to Role Members](/docs/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/assignroles.md) topic for additional information.
+When all of the users have been assigned to the appropriate SQL Server database roles, complete the process by assigning users to roles within the Access Analyzer Console. See the [Assign User to Role Members](assignroles.md) topic for additional information.

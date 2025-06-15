@@ -2,7 +2,7 @@
 
 The FS_AzureTenantScan job is designed to collect Storage Account information from the targeted Azure tenant. This job produces a host list containing the storage accounts to target for Azure Files scans.
 
-You can add this job from the Access Analyzer Instant Job Library. See the [Instant Job Wizard](/docs/accessanalyzer/enterpriseauditor/admin/jobs/instantjobs/overview.md) topic for additional information.
+You can add this job from the Access Analyzer Instant Job Library. See the [Instant Job Wizard](../../../admin/jobs/instantjobs/overview.md) topic for additional information.
 
 Before running the FS_AzureTenantScan job, you must ensure all the below prerequisites have been met, and that the required host list and connection profile have been assigned to the job.
 
@@ -41,14 +41,14 @@ The host list must target the Azure tenant name. For example, ```YourTenantName.
 
 The FS_AzureTenantScan job requires a connection profile with the following user credentials:
 
-![User Credentials for FS_AzureTenantScan job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/collection/azuretenantscanusercredentials.webp)
+![User Credentials for FS_AzureTenantScan job](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/collection/azuretenantscanusercredentials.webp)
 
 - Select Account Type – Azure Active Directory
 - Client ID – Application ID for the app registration created in Azure that is assigned to your desired resource group
-- Password Storage – Application (Uses the configured Profile Security setting as selected at the __Settings__ > __Application__ node. See the [Application](/docs/accessanalyzer/enterpriseauditor/admin/settings/application/overview.md) topic for additional information.)
+- Password Storage – Application (Uses the configured Profile Security setting as selected at the __Settings__ > __Application__ node. See the [Application](../../../admin/settings/application/overview.md) topic for additional information.)
 - Key – Client secret value for the app registration
 
-See the [Connection](/docs/accessanalyzer/enterpriseauditor/admin/settings/connection/overview.md) topic for additional information.
+See the [Connection](../../../admin/settings/connection/overview.md) topic for additional information.
 
 ## Query for the FS_AzureTenantScan Job
 
@@ -56,7 +56,7 @@ The Azure Tenant Scan query uses the FSAA Data Collector and has been preconfigu
 
 __CAUTION:__ Do not modify the query. The query is preconfigured for this job.
 
-![Query for the FS_AzureTenantScan Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/collection/azuretenantscanquery.webp)
+![Query for the FS_AzureTenantScan Job](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/collection/azuretenantscanquery.webp)
 
 The job has the following query:
 

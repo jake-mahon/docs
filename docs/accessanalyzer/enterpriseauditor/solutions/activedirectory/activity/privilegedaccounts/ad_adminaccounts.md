@@ -8,7 +8,7 @@ Navigate to the __Jobs__ > __Active Directory__ > __6.Activity__ > __Privileged 
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the AD_AdminAccounts Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/activity/privilegedaccounts/adminaccountsanalysis.webp)
+![Analysis Tasks for the AD_AdminAccounts Job](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/activity/privilegedaccounts/adminaccountsanalysis.webp)
 
 The default analysis tasks are:
 
@@ -29,13 +29,13 @@ Customizable parameters enable you to set the values used to include the NT Acco
 
 __Step 1 –__ Navigate to the __Active Directory__ > __6.Activity__ > __Privileged Accounts__ > __AD_AdminAccounts__ > __Configure__ node and select __Analysis__.
 
-![Summarizes Administrative Account Activity analysis task configuration](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/activity/privilegedaccounts/adminaccountsanalysisconfiguration.webp)
+![Summarizes Administrative Account Activity analysis task configuration](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/activity/privilegedaccounts/adminaccountsanalysisconfiguration.webp)
 
 __Step 2 –__ In the Analysis Selection view, select the __Summarizes Administrative Account Activity__ analysis task and click __Analysis Configuration__. The SQL Script Editor opens.
 
 __CAUTION:__ Do not change any parameters where the Value states ```Created during execution```.
 
-![Summarizes Administrative Account Activity analysis task in the SQL Script Editor](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/activity/privilegedaccounts/adminaccountssqlscripteditor.webp)
+![Summarizes Administrative Account Activity analysis task in the SQL Script Editor](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/activity/privilegedaccounts/adminaccountssqlscripteditor.webp)
 
 __Step 3 –__ In the parameters section at the bottom of the editor, find the Value column. Select the cell for the temporary table called #AdminGroups, and click __Edit Table__ to modify the value.
 

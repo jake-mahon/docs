@@ -10,7 +10,7 @@ As an additional security measure, this section may be protected by an additiona
 
 From this section, you can view, sort, and export the main logs in the system. There are several event types such as User Login, User Logout, AD Import, AD Synchronization, Uninstall Attempt, etc., included in this section. Additionally, the main Device Control logs can be viewed in this section.
 
-![Logs Report Settings](/img/product_docs/endpointprotector/endpointprotector/admin/devicecontrol/logsreport.png)
+![Logs Report Settings](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/devicecontrol/logsreport.png)
 
 __NOTE:__ Use the Filters option to view and sort different log types and then export the result list.
 
@@ -22,7 +22,7 @@ A special mention is given here to the “File Hash” column. Endpoint Protecto
 
 You can export the search results (as an Excel, PDF, or CSV) or Create and Export containing the entire log report as a .CSV ﬁle.
 
-![File Tracing Reports](/img/product_docs/endpointprotector/endpointprotector/admin/reportsanalysis/filetracingreports.png)
+![File Tracing Reports](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/reportsanalysis/filetracingreports.png)
 
 ### File Tracing Events by Direction
 
@@ -62,7 +62,7 @@ Legend:
 
 From this section, you can view Content Aware Logs in the system and detect data incidents corresponding to the Content Aware Policies applied.
 
-![Content Aware Reports](/img/product_docs/endpointprotector/endpointprotector/admin/reportsanalysis/capreports.png)
+![Content Aware Reports](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/reportsanalysis/capreports.png)
 
 When using the latestEndpoint Protector client, you can view log details structured per ﬁle scanned.
 
@@ -75,15 +75,15 @@ Expand each entry from the log report list to view the Log Details expanded sect
 - Matched type – the Policy Denylist type selected
 - Matched items – click the link to view a pop-up window with the list of matched items
 
-![A pop-up window with the list of matched items](/img/product_docs/endpointprotector/endpointprotector/admin/reportsanalysis/capmatcheditems.png)
+![A pop-up window with the list of matched items](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/reportsanalysis/capmatcheditems.png)
 
 - Count – the number of matched items
 
-![Count – the number of matched items](/img/product_docs/endpointprotector/endpointprotector/admin/reportsanalysis/matcheditemscount.png)
+![Count – the number of matched items](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/reportsanalysis/matcheditemscount.png)
 
 From the Filters section, check the __Include old logs prior to 5.7__ upgrade option from the ﬁlter section to include all logs in your searches. If the option is not selected, the ﬁlters will apply only to the new structure of logs.
 
-![Content Aware Protection Filters](/img/product_docs/endpointprotector/endpointprotector/admin/reportsanalysis/capfilters.png)
+![Content Aware Protection Filters](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/reportsanalysis/capfilters.png)
 
 For Mac users, when the Deep Packet Inspection feature is enabled on the Endpoint Protector agent for Mac, there might be certain scenarios where the agent does not provide full destination details for ﬁles being transferred from a network share through monitored applications, such as browsers. In such cases, the destination information may not be fully captured in the monitoring process
 
@@ -95,44 +95,44 @@ You can export Content Aware Logs as an Excel, PDF, or CSV or create and export 
 
 Excel/PDF/CSV – situated above the Content Aware Reports list, this will export only the default columns
 
-![Export Content Aware Reports](/img/product_docs/endpointprotector/endpointprotector/admin/reportsanalysis/exportreports.png)
+![Export Content Aware Reports](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/reportsanalysis/exportreports.png)
 
 Create Export – situated below the Content Aware Reports list, this will create an export containing all data, including the expanded Logs Details section with columns Policy Type, Policy Name, Item type, Matched type, Matched items and Count.
 
-![Creating Export ](/img/product_docs/endpointprotector/endpointprotector/admin/reportsanalysis/createexport.png)
+![Creating Export ](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/reportsanalysis/createexport.png)
 
 After the message that is displayed that A new export has been made and is available on Export List, click View Export List to open the list of Reports, where you can download or delete a report.
 
-![Viewing Export List ](/img/product_docs/endpointprotector/endpointprotector/admin/reportsanalysis/viewexportlist.png)
+![Viewing Export List ](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/reportsanalysis/viewexportlist.png)
 
-![Export List Results ](/img/product_docs/endpointprotector/endpointprotector/admin/reportsanalysis/exportlistresults.png)
+![Export List Results ](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/reportsanalysis/exportlistresults.png)
 
 ## Admin Actions
 
 This section offers an overview of every important action performed in the interface. From the Action column, you can view additional information.
 
-![ An overview of every important action performed in the interface](/img/product_docs/endpointprotector/endpointprotector/admin/reportsanalysis/adminactions.png)
+![ An overview of every important action performed in the interface](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/reportsanalysis/adminactions.png)
 
 ## Online Computers
 
 This section offers an overview of computers registered on the system which have an established connection with the server. If the Refresh Interval for computer X is 1 minute, then computer X was communicating with the server in the last 1 minute.
 
-![Overview of computers registered on the system](/img/product_docs/endpointprotector/endpointprotector/admin/reportsanalysis/onlinecomputers.png)
+![Overview of computers registered on the system](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/reportsanalysis/onlinecomputers.png)
 
 ## Online Users
 
 This section offers an overview of users registered on the system which have an established connection with the server.
 
-![An overview of users registered on the system](/img/product_docs/endpointprotector/endpointprotector/admin/reportsanalysis/onlineusers.png)
+![An overview of users registered on the system](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/reportsanalysis/onlineusers.png)
 
 ## Online Devices
 
 This section provides an overview of devices registered on the system which have an established connection with the server.
 
-![An overview of devices registered on the system](/img/product_docs/endpointprotector/endpointprotector/admin/reportsanalysis/onlinedevices.png)
+![An overview of devices registered on the system](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/reportsanalysis/onlinedevices.png)
 
 ## Statistics
 
 The Statistics module lets you view system activity related to data traffic and device connections. The integrated filter makes generating reports quick and easy; simply select the field of interest and click __Apply Filter__.
 
-![View system activity regarding data traﬃc and device connections](/img/product_docs/endpointprotector/endpointprotector/admin/reportsanalysis/statistics.png)
+![View system activity regarding data traﬃc and device connections](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/reportsanalysis/statistics.png)

@@ -17,7 +17,7 @@ In order for Netwrix Password Secure to address a RADIUS server, the following r
 
 The actual connection of the RADIUS server is simple:
 
-![radius integration](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/activedirectorylink/radius_authentication_1-en.jpg)
+![radius integration](../../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/activedirectorylink/radius_authentication_1-en.jpg)
 
 - __Use RADIUS__ - First, the usage is activated.
 - __Host Address__ - The address of the RADIUS server is stored here.

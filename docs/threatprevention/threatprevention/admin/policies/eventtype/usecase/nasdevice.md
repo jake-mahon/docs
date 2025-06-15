@@ -10,7 +10,7 @@ __Step 1 –__ In Threat Prevention, create a new policy.
 
 __Step 2 –__ On the Event Type tab of the policy, add the __File System Changes__ event type.
 
-__Step 3 –__ In the Event Filters section, go to the Paths filter tab and click the __Add__ button in the Include Paths area to open the [Select File System Objects Window](/docs/threatprevention/threatprevention/admin/policies/eventtype/window/selectfilesystemobjects.md).
+__Step 3 –__ In the Event Filters section, go to the Paths filter tab and click the __Add__ button in the Include Paths area to open the [Select File System Objects Window](../window/selectfilesystemobjects.md).
 
 _Remember,_ any files or folders to be excluded need to be a subset of a folder identified in the Include Paths area.
 

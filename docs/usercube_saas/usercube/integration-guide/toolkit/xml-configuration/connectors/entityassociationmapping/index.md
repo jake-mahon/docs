@@ -2,11 +2,11 @@
 
 Contains all the [
 Entity Association
-](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md) that can be materialized in the Identity Manager physical model.
+](../../metadata/entityassociation/index.md) that can be materialized in the Identity Manager physical model.
 An association mapping can be established between two properties of the same entity type mapping or between two properties of different entity type mappings having the same connector.
 See the [
 Connector
-](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connector/index.md) topic to learn how to configure an EntityAssociationMapping.
+](../connector/index.md) topic to learn how to configure an EntityAssociationMapping.
 
 ## Properties
 

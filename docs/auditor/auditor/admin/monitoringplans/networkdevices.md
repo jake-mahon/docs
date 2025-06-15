@@ -2,10 +2,10 @@
 
 __NOTE:__ Prior to configuring your monitoring plan, please read and complete the instructions in the following topics:
 
-- [Protocols and Ports Required](/docs/auditor/auditor/requirements/ports.md) – To ensure successful data collection and activity monitoring configure necessary protocols and ports for inbound and outbound connections
-- [Data Collecting Account](/docs/auditor/auditor/admin/monitoringplans/dataaccounts.md) – Configure data collecting accounts as required to audit your IT systems
+- [Protocols and Ports Required](../../requirements/ports.md) – To ensure successful data collection and activity monitoring configure necessary protocols and ports for inbound and outbound connections
+- [Data Collecting Account](dataaccounts.md) – Configure data collecting accounts as required to audit your IT systems
 
-- [Network Devices](/docs/auditor/auditor/configuration/networkdevices/overview.md) – Configure data source as required to be monitored
+- [Network Devices](../../configuration/networkdevices/overview.md) – Configure data source as required to be monitored
 
 Complete the following fields:
 

@@ -30,7 +30,7 @@ If your deployment planning reveals that SQL Server Express Edition will be suit
 Netwrix Auditor uses SQL Server databases as operational storages that keep audit data for analysis, search and reporting purposes. Supported versions are SQL Server 2012 and later (Reporting Services versions should be 2012 R2 or later).
 
 - You will be prompted to configure the default SQL Server instance when you create the first monitoring plan; also, you can specify it Netwrix Auditor settings.
-- You can configure Netwrix Auditor to use an existing instance of SQL Server, or deploy a new instance, as described in the [Create a New Monitoring Plan](/docs/auditor/auditor/admin/monitoringplans/create.md) topic.
+- You can configure Netwrix Auditor to use an existing instance of SQL Server, or deploy a new instance, as described in the [Create a New Monitoring Plan](../admin/monitoringplans/create.md) topic.
 
 For evaluation and PoC projects you can deploy Microsoft SQL Server 2016 SP2 Express Edition with Advanced Services (sufficient for report generation).
 
@@ -38,7 +38,7 @@ For production deployment in bigger environments, it is recommended to use Micro
 
 Make your choice based on the size of the environment you are going to monitor, the number of users and other factors. This refers, for example, to Netwrix Auditor for Network Devices: if you need to audit successful logons to these devices, consider that large number of activity records will be produced, so plan for SQL Server Standard or Enterprise edition (Express edition will not fit).
 
-Netwrix Auditor supports automated size calculation for all its databases in total, displaying the result, in particular, in the [Database Statistics](/docs/auditor/auditor/admin/healthstatus/dashboard/databasestatistics.md) of the Health Status dashboard. This feature, however, is supported only for SQL Server 2012 SP3 and later.
+Netwrix Auditor supports automated size calculation for all its databases in total, displaying the result, in particular, in the [Database Statistics](../admin/healthstatus/dashboard/databasestatistics.md) of the Health Status dashboard. This feature, however, is supported only for SQL Server 2012 SP3 and later.
 
 ### Databases
 
@@ -74,7 +74,7 @@ Consider the following:
 
 By the way of example, this section provides instructions on how to:
 
-- [SQL Server Reporting Services](/docs/auditor/auditor/requirements/sqlserverreportingservice.md)
+- [SQL Server Reporting Services](sqlserverreportingservice.md)
 
 For detailed information on installing other versions/editions, refer to Microsoft website.
 
@@ -90,7 +90,7 @@ When planning for SQL Server that will host Auditor databases, consider the foll
 - Both standalone servers and SQL Server clusters are supported, as well as AlwaysOn Availability Groups.
 - You can configure Netwrix Auditor to use an existing SQL Server instance, or create a new one. As an option, you can install SQL Server 2016 Express Edition, using the Audit Database Settings wizard or manually downloading it from Microsoft web site (see Install Microsoft SQL Server and Reporting Services).
 
-__CAUTION:__ It is not recommended to install Netwrix Auditor databases to a production SQL Server instance. Such instances may have a lot of maintenance plans or scripts running that may affect data uploaded by the product. The product databases are designed for reporting and searching and do not require maintenance or backup. For the long-term data storage, Netwrix Auditor uses Long-Term Archive. See [File-Based Repository for Long-Term Archive](/docs/auditor/auditor/requirements/longtermarchive.md) for additional information.
+__CAUTION:__ It is not recommended to install Netwrix Auditor databases to a production SQL Server instance. Such instances may have a lot of maintenance plans or scripts running that may affect data uploaded by the product. The product databases are designed for reporting and searching and do not require maintenance or backup. For the long-term data storage, Netwrix Auditor uses Long-Term Archive. See [File-Based Repository for Long-Term Archive](longtermarchive.md) for additional information.
 
 If you select to set up a new SQL Server instance, the current user account (this should be a member of local Administrators group) will be assigned the _sysadmin_ server role for it.
 
@@ -101,7 +101,7 @@ You will also need to provide a path for storing the SQL Server databases - it i
   1. __Database owner (db_owner)__ database-level role
   2. dbcreator server-level role
 
-  This account can be specified when you configure the [Audit Database](/docs/auditor/auditor/admin/settings/auditdatabase.md) settings.
+  This account can be specified when you configure the [Audit Database](../admin/settings/auditdatabase.md) settings.
 
 ## Database Sizing
 
@@ -112,9 +112,9 @@ For database sizing, it is recommended to estimate:
 - Retention policy for the audit databases
 - Maximum database size supported by different SQL Server versions
 
-To estimate the number of the activity records produced by your data sources, collected and saved by Auditor during the week, you can use the Activity records by date widget of the Health Status dashboard. See the [Activity Records Statistics](/docs/auditor/auditor/admin/healthstatus/dashboard/activityrecordstatistics.md) topic for additional information.
+To estimate the number of the activity records produced by your data sources, collected and saved by Auditor during the week, you can use the Activity records by date widget of the Health Status dashboard. See the [Activity Records Statistics](../admin/healthstatus/dashboard/activityrecordstatistics.md) topic for additional information.
 
-Auditor supports automated size calculation for all its databases in total, displaying the result, in particular, in the Database Statistics widget of the Health Status dashboard. To estimate current capacity and daily growth for each database, you can click View details and examine information in the table. See the [Database Statistics](/docs/auditor/auditor/admin/healthstatus/dashboard/databasestatistics.md) topic for additional information.
+Auditor supports automated size calculation for all its databases in total, displaying the result, in particular, in the Database Statistics widget of the Health Status dashboard. To estimate current capacity and daily growth for each database, you can click View details and examine information in the table. See the [Database Statistics](../admin/healthstatus/dashboard/databasestatistics.md) topic for additional information.
 
 This feature is supported only for SQL Server 2012 SP3 and later.
 
@@ -152,7 +152,7 @@ Follow the steps to change database retention after the product deployment.
 
 __Step 1 –__ In the Auditor main screen, select Settings > Audit Database.
 
-![audit_db_settings](/img/product_docs/auditor/auditor/requirements/audit_db_settings.webp)
+![audit_db_settings](../../../../static/img/product_docs/auditor/auditor/requirements/audit_db_settings.webp)
 
 __Step 2 –__ In the dialog displayed, make sure the Clear stale data when a database retention period is exceeded: is set to ON, then click Modify to specify the required retention period (in days).
 
@@ -162,7 +162,7 @@ This setting also applies to the `Netwrix_Auditor_API` database.
 
 This is the account that Auditor uses to write the collected audit data to the audit databases. Starting with version 9.96, you can use Group Managed Service Account (gMSA) for that purpose.
 
-_Remember,_ gMSA cannot be used to access SSRS. Use a standard account for that. See the [SQL Server Reporting Services](/docs/auditor/auditor/requirements/sqlserverreportingservice.md) topic for additional information.
+_Remember,_ gMSA cannot be used to access SSRS. Use a standard account for that. See the [SQL Server Reporting Services](sqlserverreportingservice.md) topic for additional information.
 
 This account must be granted the __Database owner (`db_owner`)__ role and the __dbcreator__ server role on the SQL Server instance hosting your audit databases.
 
@@ -174,7 +174,7 @@ __Step 4 –__ Connect to the server.
 
 __Step 5 –__ In the left pane, expand the __Security__ node. Right-click the __Logins__ node and select __New Login__ from the pop-up menu.
 
-![manualconfig_ssms_newlogin2016](/img/product_docs/1secure/configuration/sqlserver/manualconfig_ssms_newlogin2016.webp)
+![manualconfig_ssms_newlogin2016](../../../../static/img/product_docs/1secure/configuration/sqlserver/manualconfig_ssms_newlogin2016.webp)
 
 __Step 6 –__ Click __Search__ next to __Login Name__ and specify the user that you want to assign the __`db_owner`__ role to.
 

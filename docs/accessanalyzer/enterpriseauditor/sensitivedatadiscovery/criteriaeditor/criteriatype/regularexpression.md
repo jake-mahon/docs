@@ -2,7 +2,7 @@
 
 Regular Expression criteria are a set of pattern matching rules that provide a concise and flexible means for matching strings of text. This criteria type can be used to verify a series of numbers as potentially valid, for example credit card numbers.
 
-![Regular Expression window](/img/product_docs/accessanalyzer/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/criteriatype/regularexpression.webp)
+![Regular Expression window](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/criteriatype/regularexpression.webp)
 
 The options on the Regular Expression window are:
 
@@ -11,7 +11,7 @@ The options on the Regular Expression window are:
 - Case Sensitive Expression – Select the checkbox for case sensitive Regular Expression pattern matching
 - Validation – Select a validation method from the Validation drop-down. The default value is __No validation required__.
 
-  __NOTE:__ See the [Sensitive Data System Criteria](/docs/accessanalyzer/enterpriseauditor/sensitivedatadiscovery/systemcriteria.md) topic for additional information on validation methods.
+  __NOTE:__ See the [Sensitive Data System Criteria](../../systemcriteria.md) topic for additional information on validation methods.
 - Sample Value – Text entered into the Sample Value text box is used to test pattern matches for the expression in the Expression text box
 - Test Match – Click __Test Match__ to test the expression entered in the Expression text box against the text in the Sample Value text box
 - Match Type – Choose whether pattern matches for the Regular Expression criteria __Must match__ or __Must not match__

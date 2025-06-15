@@ -8,7 +8,7 @@ New Password Resets can be directly added via the ribbon or the keyboard shortcu
 
 The configuration of a new Password Reset comprises four steps. All of the necessary conditions and variables for the configuration are defined in the following areas: "General", "Trigger", "Scripts" and "Linked passwords".
 
-![configuration password reset](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/passwordreset/configuration/configuration_1-en.webp)
+![configuration password reset](../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/passwordreset/configuration/configuration_1-en.webp)
 
 ### General
 
@@ -31,7 +31,7 @@ NOTE: A separate system task within Netwrix Password Secure checks every minute 
 
 A new dialogue appears after the selection in which the type of system "to be reset2 can be defined.
 
-![new script password reset](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/passwordreset/configuration/configuration_2-en.webp)
+![new script password reset](../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/passwordreset/configuration/configuration_2-en.webp)
 
 - __Script type__: You select here from the possible script types.
 - __Password__: The credentials for the record that will ultimately carry out the Password Reset.
@@ -46,4 +46,4 @@ It is not possible to create a Password Reset without an associated script.
 
 All records that should be reset with the Password Reset according to the selected trigger are listed under “Linked passwords”. Multiple objects can be entered. The linked Password Reset is also visible in the footer of the reading pane once it has been successfully configured.
 
-![new script password reset](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/passwordreset/configuration/configuration_2-en.webp)
+![new script password reset](../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/passwordreset/configuration/configuration_2-en.webp)

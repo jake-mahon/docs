@@ -1,13 +1,13 @@
 # Exchange Solution
 
-The core components for Netwrix Access Analyzer (formerly Enterprise Auditor) are the Access Analyzer Console server, SQL Server, and Access Information Center. See the [Requirements](/docs/accessanalyzer/enterpriseauditor/requirements/overview.md) topic for the core requirements.
+The core components for Netwrix Access Analyzer (formerly Enterprise Auditor) are the Access Analyzer Console server, SQL Server, and Access Information Center. See the [Requirements](../overview.md) topic for the core requirements.
 
 In addition to these, integration with either the Netwrix Activity Monitor or the Netwrix Threat Prevention is required for event activity data to be scanned. See the [Netwrix Activity Monitor Documentation](https://helpcenter.netwrix.com/category/activitymonitor) or the [Netwrix Threat Prevention Documentation](https://helpcenter.netwrix.com/category/threatprevention) for installation requirements and information on collecting activity data.
 
 See the following topics for target environment requirements:
 
-- [Target Exchange Servers Requirements, Permissions, and Ports](/docs/accessanalyzer/enterpriseauditor/requirements/target/exchange.md)
-- [Target Exchange Online Requirements, Permissions, and Ports](/docs/accessanalyzer/enterpriseauditor/requirements/target/exchangeonline.md)
+- [Target Exchange Servers Requirements, Permissions, and Ports](../target/exchange.md)
+- [Target Exchange Online Requirements, Permissions, and Ports](../target/exchangeonline.md)
 
 ## Exchange Solution Requirements on the Access Analyzer Console
 
@@ -33,7 +33,7 @@ Permissions to Run Exchange Scans
 The following are additional requirements for the Access Analyzer Console server specific to running the Exchange Solution:
 
 - Outlook should not be installed
-- StealthAUDIT MAPI CDO installed (for MAPI- based data collectors). See the [StealthAUDIT MAPI CDO Installation](/docs/accessanalyzer/stealthaudit/install_guides/mapi_cdo_install/stealthaudit_mapi_cdo_installation.md) topic for additional information.
+- StealthAUDIT MAPI CDO installed (for MAPI- based data collectors). See the [StealthAUDIT MAPI CDO Installation](../../../stealthaudit/install_guides/mapi_cdo_install/stealthaudit_mapi_cdo_installation.md) topic for additional information.
 - Exchange MAPI CDO installed (for MAPI- based data collectors)
 - For targeting Exchange 2010 – Exchange Management Tools 2010 installed on the Access Analyzer Console server
 - For Targeting Exchange Online – PowerShell Execution Policy set to unrestricted for both 64-bit and 32-bit versions

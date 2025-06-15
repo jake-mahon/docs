@@ -22,4 +22,4 @@ __Step 5 –__ Copy each one to the path for the .```DEFAULT profile. HKEY_USERS
 
 You should see the proxy information like what is seen here in the binary value.
 
-![373_1_image005sdfggrt](/img/product_docs/policypak/policypak/troubleshooting/cloud/373_1_image005sdfggrt.webp)
+![373_1_image005sdfggrt](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/cloud/373_1_image005sdfggrt.webp)

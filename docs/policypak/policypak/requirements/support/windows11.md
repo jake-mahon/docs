@@ -28,7 +28,7 @@ If you have an explicit route to a URL and specify Internet Explorer, Endpoint P
 
 An example can be seen below. Note it doesn't matter if the pulldown is set for __Open in standalone IE__ or __Open as IE in Edge tab__ is set. Those settings only matter for Windows 10 and are ignored in Windows 11.
 
-![736_1_image-20220128125242-1](/img/product_docs/policypak/policypak/requirements/support/736_1_image-20220128125242-1.webp)
+![736_1_image-20220128125242-1](../../../../../static/img/product_docs/policypak/policypak/requirements/support/736_1_image-20220128125242-1.webp)
 
 ## Example 2: Using Wildcards (or RegEx or Internet Security Zone) and attempting to set the browser to Internet Explorer
 
@@ -36,7 +36,7 @@ Since there is no IE 11 in Windows 11, existing routes set like what's seen here
 
 Starting with Endpoint Policy Manager CSE 3068 on Windows 11, Endpoint Policy Manager Browser Router will route these to the Default Browser.
 
-![736_2_image-20220128125242-2](/img/product_docs/policypak/policypak/requirements/support/736_2_image-20220128125242-2.webp)
+![736_2_image-20220128125242-2](../../../../../static/img/product_docs/policypak/policypak/requirements/support/736_2_image-20220128125242-2.webp)
 
 ## How are Default Browser Policies handled (With Windows 11)?
 
@@ -44,7 +44,7 @@ Note there is a Endpoint Policy Manager Browser Router policy to set Default Bro
 
 __NOTE:__  Windows 10 will honor the Internet explorer setting, but Windows 11 needs to have a plan.
 
-![736_3_image-20220128125242-3](/img/product_docs/policypak/policypak/requirements/support/736_3_image-20220128125242-3.webp)
+![736_3_image-20220128125242-3](../../../../../static/img/product_docs/policypak/policypak/requirements/support/736_3_image-20220128125242-3.webp)
 
 - If you use Endpoint Policy Manager Browser Router to specify a Default Browser (Edge, Chrome, Firefox, Custom, or User Selectable), you will get what you expect.
 - If you have selected nothing (that is, you have no Endpoint Policy Manager Browser Router Default Browser policy) then the default will be the User's selected browser.

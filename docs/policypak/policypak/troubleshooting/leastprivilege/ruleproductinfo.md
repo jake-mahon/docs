@@ -12,12 +12,12 @@ Workaround:
 
 Add Domain Computers group to NAS share and grant Read access in NTFS permissions.
 
-![1321_1_1545ecff8694864abf6ad7ee336339e2](/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/1321_1_1545ecff8694864abf6ad7ee336339e2.webp)
+![1321_1_1545ecff8694864abf6ad7ee336339e2](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/1321_1_1545ecff8694864abf6ad7ee336339e2.webp)
 
 The screen shot below displays TrueNAS ACL permissions.
 
-![1321_2_89259dc76f65a4f53536105a6aef5806](/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/1321_2_89259dc76f65a4f53536105a6aef5806.webp)
+![1321_2_89259dc76f65a4f53536105a6aef5806](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/1321_2_89259dc76f65a4f53536105a6aef5806.webp)
 
 In Windows Explorer, if you check the NTFS permissions of the folder, it should appear as shown in the screen shot below:
 
-![1321_3_5273a796cdc192f102e32fc389f6bbfc](/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/1321_3_5273a796cdc192f102e32fc389f6bbfc.webp)
+![1321_3_5273a796cdc192f102e32fc389f6bbfc](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/1321_3_5273a796cdc192f102e32fc389f6bbfc.webp)

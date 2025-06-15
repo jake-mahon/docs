@@ -17,7 +17,7 @@ If multiple Enterprise_IDs are to be scanned, it is necessary to duplicate the j
 
 Connection Profile
 
-The Box Solution requires a specific credential for the Connection Profile which has access to the SA Installer location. It is also necessary to authenticate to the target Box environment, which is done through the Box Data Collector query configuration. An Enterprise Admin account (or Co-Admin account with permission to __Run new reports and access existing reports__ enabled) credential is needed to generate an authorization code in the form of an Access Token. This can be done through the query configuration either in the 1-Box_Access Scans Job’ Authentication wizard page or the 1-Box_Activity Scans Job’s Authentication wizard page of the Box Data Collector Wizard. See the [Box Data Collector](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/box/overview.md) topic for additional information.
+The Box Solution requires a specific credential for the Connection Profile which has access to the SA Installer location. It is also necessary to authenticate to the target Box environment, which is done through the Box Data Collector query configuration. An Enterprise Admin account (or Co-Admin account with permission to __Run new reports and access existing reports__ enabled) credential is needed to generate an authorization code in the form of an Access Token. This can be done through the query configuration either in the 1-Box_Access Scans Job’ Authentication wizard page or the 1-Box_Activity Scans Job’s Authentication wizard page of the Box Data Collector Wizard. See the [Box Data Collector](../../admin/datacollector/box/overview.md) topic for additional information.
 
 Access Token
 

@@ -22,7 +22,7 @@ NOTE: A few fields for profile validation are specified in the default portal te
 
 ### Property Validation for Groups
 
-The Directory Manager administrator can enforce group owners to review and validate the attributes and membership of an expiring group before renewing it. See the [Enable Group Attestation](/docs/groupid/groupid/admincenter/identitystore/configure/directoryservice/grouplifecycle.md#enable-group-attestation) topic.
+The Directory Manager administrator can enforce group owners to review and validate the attributes and membership of an expiring group before renewing it. See the [Enable Group Attestation](../../identitystore/configure/directoryservice/grouplifecycle.md#enable-group-attestation) topic.
 
 While attesting a group in the portal, the owner can:
 
@@ -59,8 +59,8 @@ What do you want to do?
    The __Add Profile Validation Attribute__ pane is displayed.
 7. Select an attribute from the __Field__ drop-down list.
 8. In the __Display Name__ box, specify a name to use as the field’s label on the Attest & Renew Group wizard/Validate Profile Properties window of the portal.
-9. Use the __Display Type__ drop-down list to specify the display type to use for rendering the attribute in the portal. The list contains basic display types and custom display types defined on the __Custom Display Types__ page. See the [Display Type Categories](/docs/groupid/groupid/admincenter/portal/displaytype/categories.md) topic.
-10. In the __Visibility Level__ drop-down list, select a security role. The field would be visible to users of this role and roles with a priority value higher than this role. See [Priority](/docs/groupid/groupid/admincenter/securityrole/manage.md).  
+9. Use the __Display Type__ drop-down list to specify the display type to use for rendering the attribute in the portal. The list contains basic display types and custom display types defined on the __Custom Display Types__ page. See the [Display Type Categories](../displaytype/categories.md) topic.
+10. In the __Visibility Level__ drop-down list, select a security role. The field would be visible to users of this role and roles with a priority value higher than this role. See [Priority](../../securityrole/manage.md).  
     Select _Never_ to hide the field from all users.
 11. As mentioned for visibility level, the field is visible to members of the selected role and roles with a priority value higher than the selected role.  
     In the __Exclude Roles__ area, select the check boxes for the higher priority role(s) you want to hide the field from.
@@ -69,7 +69,7 @@ What do you want to do?
 14. Select the __Is Required__ check box to make it mandatory for users to provide a value for the field.
 15. Select the __Is Read Only__ check box to make the field read-only.
 16. Select the __Filter Bad Words__ check box to ensure that users do not enter any bad word in this field.  
-    A value entered for the field is checked against the words listed on the __Bad Words List__ page. Matched values cannot be saved. See the [Manage the Bad Words List](/docs/groupid/groupid/admincenter/portal/design/badwords.md) topic.
+    A value entered for the field is checked against the words listed on the __Bad Words List__ page. Matched values cannot be saved. See the [Manage the Bad Words List](badwords.md) topic.
 17. The __Image Attribute__ list is available when ‘DN’ is selected as the display type. This list supports ‘thumbnailPhoto’ as its value.
 
     - Select the ‘thumbnailPhoto’ attribute in the __Image Attribute__ drop-down list when you want to auto upload an image for the field. Let’s assume you apply this setting while defining the _Primary Manager_ field on the _Validate Profile Properties_ window. In the portal, the primary manager's image will be displayed alongside his or her name on the _Validate Profile Properties_ window.  
@@ -128,5 +128,5 @@ __To update field properties:__
 
 __See Also__
 
-- [Design a Portal with Display Types](/docs/groupid/groupid/admincenter/portal/displaytype/overview.md)
-- [Configure User Profile Validation](/docs/groupid/groupid/admincenter/identitystore/configure/directoryservice/profilevalidation.md)
+- [Design a Portal with Display Types](../displaytype/overview.md)
+- [Configure User Profile Validation](../../identitystore/configure/directoryservice/profilevalidation.md)

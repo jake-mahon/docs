@@ -2,7 +2,7 @@
 
 This section enables you to configure various security settings, including client uninstall passwords, restricted access to sensitive information (limited to super administrators), data protection, and enforcement of password security for all administrators at the next login. Additionally, you can set password expiration policies.
 
-![System Security Settings](/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/systemsecurity.png)
+![System Security Settings](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/systemsecurity.png)
 
 ## Security Password for Uninstall Protection
 
@@ -10,17 +10,17 @@ From this section, you can set a password that will be required when the user pe
 
 __NOTE:__ At the top of the page, you will view a message informing you if a password is set for this action.
 
-![Security Password for Uninstall Protection](/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/uninstallprotectionone.png)
+![Security Password for Uninstall Protection](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/uninstallprotectionone.png)
 
 Define the security password for uninstall protection in the Password box.
 
-![Security Password for Uninstall Protection](/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/uninstallprotectiontwo.png)
+![Security Password for Uninstall Protection](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/uninstallprotectiontwo.png)
 
 ## Data Security Privileges
 
 From this section, you can allow access to sensitive data only to super administrators by selecting the __Restrict Sensitive Data Access only to super administrators__ checkbox.
 
-![Data Security Privileges](/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/datasecurityprivileges.png)
+![Data Security Privileges](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/datasecurityprivileges.png)
 
 ## Additional Security Password for Sensitive Data Protection
 
@@ -28,17 +28,17 @@ From this section, you can set a password for sensitive data to provide addition
 
 __NOTE:__ At the top of the page, you will view a message informing you if a password is set for this action.
 
-![Additional Security Password for Sensitive Data Protection](/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/passwordsensitivedataprotectionone.png)
+![Additional Security Password for Sensitive Data Protection](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/passwordsensitivedataprotectionone.png)
 
 Reset the security password for sensitive data protection password by filling in the current password and then the new password.
 
-![Additional Security Password for Sensitive Data Protection](/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/passwordsensitivedataprotectiontwo.png)
+![Additional Security Password for Sensitive Data Protection](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/passwordsensitivedataprotectiontwo.png)
 
 ## Backend Console Setup Password
 
 This feature enhances security by allowing only authorized users to conﬁgure critical settings in the Backend Console. To activate this safeguard, navigate to Security Conﬁguration, select System Security, and enable Backend Console Setup Password under the Backend Console Setup section. Save your changes to add an extra layer of security, for a more secure and controlled environment.
 
-![Backend Console Setup Password](/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/backendconsolesetuppassword.png)
+![Backend Console Setup Password](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/backendconsolesetuppassword.png)
 
 __CAUTION:__ This feature is designed for Ubuntu 22. With backend password settings enabled and applied:
 
@@ -63,7 +63,7 @@ If enabled, only complex passwords can be deﬁned, complying with the below rul
 
 __CAUTION:__ The Enforce all administrator password security at next login setting will have priority over Advanced User Password Settings as this setting also applies to non-admin, such as Reporter, Read-only users, etc.
 
-![Security Password for System Administrator](/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/securitypasswordsystemadministrator.png)
+![Security Password for System Administrator](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/securitypasswordsystemadministrator.png)
 
 ## Advanced User Password Settings
 
@@ -85,4 +85,4 @@ These are mandatory requirements when creating a new Administrator from the Syst
 
 __CAUTION:__ After you provide all information for the Advanced User Password Settings section, all users are required to change their passwords at the next login, not only admins.
 
-![Advanced User Password Settings](/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/advanceduserpasswordsettings.png)
+![Advanced User Password Settings](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/advanceduserpasswordsettings.png)

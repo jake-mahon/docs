@@ -9,9 +9,9 @@ The type of script determines the nature of the script result:
 
 ## Examples and Language Overview
 
-- For examples of transform scripts, see the [Sample Transform Scripts](/docs/groupid/groupid/portal/synchronize/script/sampletransformscript.md) topic
-- For examples of container scripts, see the [Sample Container Scripts](/docs/groupid/groupid/portal/synchronize/script/samplecontainerscript.md) topic
-- For general information, see [Visual Basic .NET for Directory Manager (formerly GroupID)](/docs/groupid/groupid/portal/synchronize/script/visualbasicnetbasic.md) topic
+- For examples of transform scripts, see the [Sample Transform Scripts](sampletransformscript.md) topic
+- For examples of container scripts, see the [Sample Container Scripts](samplecontainerscript.md) topic
+- For general information, see [Visual Basic .NET for Directory Manager (formerly GroupID)](visualbasicnetbasic.md) topic
 - For general information, see Python for GroupID topic
 
 ## DTM keywords

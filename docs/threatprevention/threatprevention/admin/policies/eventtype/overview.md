@@ -2,13 +2,13 @@
 
 The Event Type tab enables you to define the objects and events that Threat Prevention monitors/blocks.
 
-![Policy - Event Type tab](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/eventtypetab.webp)
+![Policy - Event Type tab](../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/eventtypetab.webp)
 
-Each event type represents what is monitored or blocked. Event filters are used to either narrow or broaden the scope of the monitoring/blocking as desired. Click __Add__ (+) to open the Event Selection window. Your licensed modules determine what event types are available. Event types that are not available or not licensed are grayed-out but visible in the Event Selection window. See the [License Manager Window](/docs/threatprevention/threatprevention/admin/navigation/licensemanager.md) topic for additional information.
+Each event type represents what is monitored or blocked. Event filters are used to either narrow or broaden the scope of the monitoring/blocking as desired. Click __Add__ (+) to open the Event Selection window. Your licensed modules determine what event types are available. Event types that are not available or not licensed are grayed-out but visible in the Event Selection window. See the [License Manager Window](../../navigation/licensemanager.md) topic for additional information.
 
 ## Event Selection Window
 
-![Event Type tab - Event Selection window](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/eventselection.webp)
+![Event Type tab - Event Selection window](../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/eventselection.webp)
 
 Check the box for the desired event type and click __OK__. The corresponding event filters show at the bottom of the Event Type tab. Multiple event types can be assigned to a policy.
 
@@ -22,28 +22,28 @@ Save all changes made to a policy or a template before leaving the configuration
 
 See the following topics for additional details:
 
-- [Active Directory Changes Event Type](/docs/threatprevention/threatprevention/admin/policies/eventtype/activedirectorychanges.md)
-- [Active Directory Lockdown Event Type](/docs/threatprevention/threatprevention/admin/policies/eventtype/activedirectorylockdown.md)
-- [Active Directory Read Monitoring Event Type](/docs/threatprevention/threatprevention/admin/policies/eventtype/activedirectoryreadmonitoring.md)
-- [AD Replication Monitoring Event Type](/docs/threatprevention/threatprevention/admin/policies/eventtype/adreplicationmonitoring.md)
-- [AD Replication Lockdown Event Type](/docs/threatprevention/threatprevention/admin/policies/eventtype/adreplicationlockdown.md)
-- [Authentication Monitoring Event Type](/docs/threatprevention/threatprevention/admin/policies/eventtype/authenticationmonitoring.md)
-- [Authentication Lockdown Event Type](/docs/threatprevention/threatprevention/admin/policies/eventtype/authenticationlockdown.md)
-- [Effective Group Membership Event Type](/docs/threatprevention/threatprevention/admin/policies/eventtype/effectivegroupmembership.md)
-- [Exchange Changes Event Type](/docs/threatprevention/threatprevention/admin/policies/eventtype/exchangechanges.md)
-- [Exchange Lockdown Event Type](/docs/threatprevention/threatprevention/admin/policies/eventtype/exchangelockdown.md)
-- [File System Changes Event Type](/docs/threatprevention/threatprevention/admin/policies/eventtype/filesystemchanges.md)
-- [File System Lockdown Event Type](/docs/threatprevention/threatprevention/admin/policies/eventtype/filesystemlockdown.md)
-- [File System Enterprise Auditor Event Type](/docs/threatprevention/threatprevention/admin/policies/eventtype/filesystementerpriseauditor.md)
-- [FSMO Role Monitoring Event Type](/docs/threatprevention/threatprevention/admin/policies/eventtype/fsmorolemonitoring.md)
-- [GPO Setting Changes Event Type](/docs/threatprevention/threatprevention/admin/policies/eventtype/gposettingchanges.md)
-- [GPO Setting Lockdown Event Type](/docs/threatprevention/threatprevention/admin/policies/eventtype/gposettinglockdown.md)
-- [LSASS Guardian – Monitor Event Type](/docs/threatprevention/threatprevention/admin/policies/eventtype/lsassguardianmonitor.md)
-- [LSASS Guardian – Protect Event Type](/docs/threatprevention/threatprevention/admin/policies/eventtype/lsassguardianprotect.md)
-- [Password Enforcement Event Type](/docs/threatprevention/threatprevention/admin/policies/eventtype/passwordenforcement.md)
-- [LDAP Monitoring Event Type](/docs/threatprevention/threatprevention/admin/policies/eventtype/ldapmonitoring.md)
-- [LDAP Lockdown Event Type](/docs/threatprevention/threatprevention/admin/policies/eventtype/ldaplockdown.md)
-- [LDAP Bind Monitoring Event Type](/docs/threatprevention/threatprevention/admin/policies/eventtype/ldapbindmonitoring.md)
+- [Active Directory Changes Event Type](activedirectorychanges.md)
+- [Active Directory Lockdown Event Type](activedirectorylockdown.md)
+- [Active Directory Read Monitoring Event Type](activedirectoryreadmonitoring.md)
+- [AD Replication Monitoring Event Type](adreplicationmonitoring.md)
+- [AD Replication Lockdown Event Type](adreplicationlockdown.md)
+- [Authentication Monitoring Event Type](authenticationmonitoring.md)
+- [Authentication Lockdown Event Type](authenticationlockdown.md)
+- [Effective Group Membership Event Type](effectivegroupmembership.md)
+- [Exchange Changes Event Type](exchangechanges.md)
+- [Exchange Lockdown Event Type](exchangelockdown.md)
+- [File System Changes Event Type](filesystemchanges.md)
+- [File System Lockdown Event Type](filesystemlockdown.md)
+- [File System Enterprise Auditor Event Type](filesystementerpriseauditor.md)
+- [FSMO Role Monitoring Event Type](fsmorolemonitoring.md)
+- [GPO Setting Changes Event Type](gposettingchanges.md)
+- [GPO Setting Lockdown Event Type](gposettinglockdown.md)
+- [LSASS Guardian – Monitor Event Type](lsassguardianmonitor.md)
+- [LSASS Guardian – Protect Event Type](lsassguardianprotect.md)
+- [Password Enforcement Event Type](passwordenforcement.md)
+- [LDAP Monitoring Event Type](ldapmonitoring.md)
+- [LDAP Lockdown Event Type](ldaplockdown.md)
+- [LDAP Bind Monitoring Event Type](ldapbindmonitoring.md)
 
 ## Event Filters Overview
 

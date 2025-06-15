@@ -1,6 +1,6 @@
 # Target Domains
 
-Target domains include the Active Directory domains that can be added through the [Domains Page](/docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/configuration/domain.md). You can rollback and recover objects in these domains through the [Active Directory Page](/docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/activedirectory/overview.md).
+Target domains include the Active Directory domains that can be added through the [Domains Page](../admin/configuration/domain.md). You can rollback and recover objects in these domains through the [Active Directory Page](../admin/activedirectory/overview.md).
 
 Recovery for Active Directory can backup domains on servers with the Active Directory role on the following operating system versions:
 

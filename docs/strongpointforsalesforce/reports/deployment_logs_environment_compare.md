@@ -46,10 +46,10 @@ Click on any of the report columns to change the sort order. The á or â arrow 
 >
 > __Created Date__: Date of the environment compare. Format is _dd/mm/yyyy_
 
-![Environment Compare Log Report](/img/product_docs/strongpointforsalesforce/reports/report_deploy_env_compare.webp)
+![Environment Compare Log Report](../../../static/img/product_docs/strongpointforsalesforce/reports/report_deploy_env_compare.webp)
 
 ## Sample Environment Compare Log
 
 Click on a __Log Name__ link to open the log.
 
-![Example Environment Compare Log](/img/product_docs/strongpointforsalesforce/reports/deploy_compare_env_log.webp)
+![Example Environment Compare Log](../../../static/img/product_docs/strongpointforsalesforce/reports/deploy_compare_env_log.webp)

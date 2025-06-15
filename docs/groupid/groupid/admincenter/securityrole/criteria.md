@@ -62,6 +62,6 @@ You can specify the Directory Manager clients that this role can access or restr
 
 See Also
 
-- [Security Roles](/docs/groupid/groupid/admincenter/securityrole/overview.md)
-- [Create a Security Role](/docs/groupid/groupid/admincenter/securityrole/create.md)
-- [Manage Security Roles](/docs/groupid/groupid/admincenter/securityrole/manage.md)
+- [Security Roles](overview.md)
+- [Create a Security Role](create.md)
+- [Manage Security Roles](manage.md)

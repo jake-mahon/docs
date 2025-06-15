@@ -1,6 +1,6 @@
 # Configure Local Audit Policies
 
-You can choose to configure local audit policies or advanced audit policies. See the [Configure Advanced Audit Policies](/docs/1secure/configuration/computer/advancedpolicy.md) topic for additional information.
+You can choose to configure local audit policies or advanced audit policies. See the [Configure Advanced Audit Policies](advancedpolicy.md) topic for additional information.
 
 Follow the steps to configure local audit policies.
 
@@ -18,4 +18,4 @@ __Step 3 –__ Configure the following audit policies.
 
 Local audit policy is configured.
 
-![Local Security Policy snap-in](/img/product_docs/1secure/configuration/computer/manualconfig_ws_local_audit_policies2016.webp)
+![Local Security Policy snap-in](../../../../static/img/product_docs/1secure/configuration/computer/manualconfig_ws_local_audit_policies2016.webp)

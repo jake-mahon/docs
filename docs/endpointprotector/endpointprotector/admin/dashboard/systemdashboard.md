@@ -8,9 +8,9 @@ __NOTE:__ Always use the IP address with HTTPS (Hypertext Transfer Protocol Secu
 
 Use the default login credentials for the root account. To obtain the password, submit a support ticket through the [Netwrix Customer Portal](https://www.netwrix.com/sign_in.html?rf=my_products.html).
 
-For detailed information on settings change or creating additional administrators, refer to the [System Configuration](/docs/endpointprotector/endpointprotector/admin/systemconfiguration/overview.md) topic.
+For detailed information on settings change or creating additional administrators, refer to the [System Configuration](../systemconfiguration/overview.md) topic.
 
-![Page for default login credentials for the root account](/img/versioned_docs/threatprevention_7.4/threatprevention/eperestsite/login.png)
+![Page for default login credentials for the root account](../../../../../static/img/versioned_docs/threatprevention_7.4/threatprevention/eperestsite/login.png)
 
 ## Conﬁguration Wizard
 
@@ -20,9 +20,9 @@ The Conﬁguration Wizard is available only if the basic settings for the Endpoi
 
 As an additional security measure, a session timeout is implemented for 300 seconds (5 minutes) of inactivity. If you are not active for this amount of time, you are notiﬁed the session will expire and logged out unless you select to continue the session.
 
-__NOTE:__ You can customize the session timeout and timeout counter from the [System Configuration](/docs/endpointprotector/endpointprotector/admin/systemconfiguration/overview.md) topic.
+__NOTE:__ You can customize the session timeout and timeout counter from the [System Configuration](../systemconfiguration/overview.md) topic.
 
-![The Conﬁguration Wizard provides you with several steps to deﬁne basic settings](/img/versioned_docs/auditor_10.6/auditor/addon/privilegeduserlinux/configwizard.png)
+![The Conﬁguration Wizard provides you with several steps to deﬁne basic settings](../../../../../static/img/versioned_docs/auditor_10.6/auditor/addon/privilegeduserlinux/configwizard.png)
 
 ## General Dashboard
 
@@ -30,31 +30,31 @@ In this section, you can view general information as graphics and charts related
 
 You will view more speciﬁc dashboards on the Device Control, Content Aware Protection and eDiscovery sections.
 
-![View general information as graphics and charts related to the most important activities](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/query/general.png)
+![View general information as graphics and charts related to the most important activities](../../../../../static/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/query/general.png)
 
 ## System Status
 
 In this section you can view general information of the system’s functionality, alerts, and backup status.
 
-![View general information of the system’s functionality, alerts, and backup status](/img/product_docs/endpointprotector/endpointprotector/admin/dashboard/systemstatus.png)
+![View general information of the system’s functionality, alerts, and backup status](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/dashboard/systemstatus.png)
 
 From the System Functionality section, you can enable Endpoint Protector, as well as just speciﬁc modules (Device Control, Content Aware Protection, or eDiscovery).
 
-![Enable EPP , as well as just speciﬁc modules](/img/product_docs/endpointprotector/endpointprotector/admin/dashboard/systemfunctionality.png)
+![Enable EPP , as well as just speciﬁc modules](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/dashboard/systemfunctionality.png)
 
 From the System Status subsection, you can enable the HDD Disk Space and Log Rotation.
 
 __NOTE:__ If this setting is enabled, when the Server’s disk space reaches a certain percentage (starting from 50% up to 90%), old logs will be automatically overwritten by the new ones.
 
-![Enable the HDD Disk Space and Log Rotation.](/img/product_docs/endpointprotector/endpointprotector/admin/dashboard/diskspace.png)
+![Enable the HDD Disk Space and Log Rotation.](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/dashboard/diskspace.png)
 
 From the System Alerts subsection, you can enable important alerts notifying the expiration of the APNS Certiﬁcate, Updates, and Support or Passwords.
 
-![Enable important alerts ](/img/product_docs/endpointprotector/endpointprotector/admin/alerts/systemalerts.png)
+![Enable important alerts ](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/alerts/systemalerts.png)
 
 From the System Backup subsection, you can enable the System Backup.
 
-![Enable the System Backup](/img/product_docs/endpointprotector/endpointprotector/admin/dashboard/systembackup.png)
+![Enable the System Backup](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/dashboard/systembackup.png)
 
 ## Live Update
 
@@ -62,27 +62,27 @@ From this section, you can check and apply the latest security and Endpoint Prot
 
 __NOTE:__ This feature communicates through port 80. Whitelist the liveupdate.endpointprotector.com (IP: 178.63.3.86) domain.
 
-![Check and apply the latest security and  Server updates](/img/product_docs/endpointprotector/endpointprotector/admin/dashboard/liveupdate.png)
+![Check and apply the latest security and  Server updates](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/dashboard/liveupdate.png)
 
 ### Software Update
 
-![Management of software updates](/img/product_docs/endpointprotector/endpointprotector/admin/dashboard/softwareupdate.png)
+![Management of software updates](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/dashboard/softwareupdate.png)
 
 Click __Conﬁgure Live Update__ to select manual or automatic live updates check, the number of retries, and manage the Automatic Reporting to the LiveUpdate Server.
 
-![Configuring Live Updates](/img/product_docs/endpointprotector/endpointprotector/admin/dashboard/configliveupdate.png)
+![Configuring Live Updates](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/dashboard/configliveupdate.png)
 
 Click __Check Now__ to search for the Endpoint Protector Server updates displayed in the Available Updates section. You can select and install an update with __Apply Updates__, or all updates with __Apply all updates__. To view the latest installed updates, click __View Applied Updates__.
 
 You can also schedule an update. Select an entry from the available updates, click __Schedule update__ and then use the calendar to select the date and conﬁrm your selection.
 
-![Checking for available EPP server Updates](/img/product_docs/endpointprotector/endpointprotector/admin/dashboard/availableupdates.png)
+![Checking for available EPP server Updates](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/dashboard/availableupdates.png)
 
 Use the Oﬄine Patch upload option to select the oﬄine patches from your computer and successively install them to the latest Endpoint Protector version.
 
 __NOTE:__ To request the Offline Patch, submit a support ticket through the [Netwrix Customer Portal](https://www.netwrix.com/sign_in.html?rf=my_products.html).
 
-![Select the oﬄine patches from your computer and successively install them to the latest](/img/product_docs/endpointprotector/endpointprotector/admin/dashboard/offlinepatch.png)
+![Select the oﬄine patches from your computer and successively install them to the latest](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/dashboard/offlinepatch.png)
 
 __CAUTION:__ Before upgrading your Endpoint Protector server to the 5.7.0.0 server version from a pre-5206 version and adjacent OS image, you need to enable database partitions. For assistance, submit a support ticket through the [Netwrix Customer Portal](https://www.netwrix.com/sign_in.html?rf=my_products.html).[](https://support.endpointprotector.com/hc/en-us/requests/new)
 
@@ -108,7 +108,7 @@ Select one of the security updates type available and then click __Check Updates
 
 If there are updates available, click __Apply Updates__.
 
-![Applying Backend Security Updates](/img/product_docs/endpointprotector/endpointprotector/admin/dashboard/backendsecurityupdates.png)
+![Applying Backend Security Updates](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/dashboard/backendsecurityupdates.png)
 
 __NOTE:__ For history of applied Backend Updates go to admin action report and choose __Apply Updates__ under Activity ﬁlter.
 

@@ -4,7 +4,7 @@ The SIEM page provides configuration settings for forwarding threat information 
 
 Follow the instructions to enable SIEM notifications.
 
-![siempage](/img/product_docs/threatmanager/threatmanager/administration/configuration/integrations/siempage.webp)
+![siempage](../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/configuration/integrations/siempage.webp)
 
 __Step 1 –__ In the Integrations box, click __SIEM__. The SIEM window opens.
 

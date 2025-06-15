@@ -6,7 +6,7 @@ This job discovers sensitive data in the Db2 databases across all the targeted D
 
 The 1-Db2 Sensitive Data Job uses the SQL Data Collector for the following queries.
 
-![sensitivedatascanquery](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/db2/collection/sensitivedatascanquery.webp)
+![sensitivedatascanquery](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/db2/collection/sensitivedatascanquery.webp)
 
 The query is:
 
@@ -22,33 +22,33 @@ __Step 2 –__ In the Query Selection view, select the SensitiveDataScan query c
 
 __Step 3 –__ Select the Data Source tab, and click Configure. The SQL Data Collector Wizard opens with Sensitive Data Collection category selected.
 
-![Category page](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/db2/collection/sensitivedatacategory.webp)
+![Category page](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/db2/collection/sensitivedatacategory.webp)
 
 __Step 4 –__ Click __Next__. The Sensitive Data Scan Settings view appears.
 
-![Sensitive Data Scan Settings](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/db2/collection/sensitivedatajoboptions.webp)
+![Sensitive Data Scan Settings](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/db2/collection/sensitivedatajoboptions.webp)
 
-__Step 5 –__ To modify sensitive data scan options, select the desired scan options. See the [SQL: Options](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/sql/options.md) page for additional information.
+__Step 5 –__ To modify sensitive data scan options, select the desired scan options. See the [SQL: Options](../../../../admin/datacollector/sql/options.md) page for additional information.
 
 __CAUTION:__ The Sensitive Data Scan Settings are preconfigured for optimal performance for a high-level table scan. Configuring these settings to increase the scope of the sensitive data scan may significantly increase scan time.
 
 __Step 6 –__ Click __Next__. The Select Criteria view appears.
 
-![Select Criteria](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/db2/collection/sensitivedatacriteria.webp)
+![Select Criteria](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/db2/collection/sensitivedatacriteria.webp)
 
 __Step 7 –__ To modify criteria, click on __Use the following selected criteria:__ and select your choices. By default, the Sensitive Data Scan job is set to __Use Global Criteria__.
 
-__NOTE:__  For more information on adding or deleting criteria, navigate to the [SQL: Criteria](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/sql/criteria.md) page or See the [Sensitive Data Criteria Editor](/docs/accessanalyzer/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/overview.md) topic for additional information.
+__NOTE:__  For more information on adding or deleting criteria, navigate to the [SQL: Criteria](../../../../admin/datacollector/sql/criteria.md) page or See the [Sensitive Data Criteria Editor](../../../../sensitivedatadiscovery/criteriaeditor/overview.md) topic for additional information.
 
 __Step 8 –__ Click __Next__. The Filters view appears.
 
-![Filters](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/db2/collection/sensitivedatafilter.webp)
+![Filters](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/db2/collection/sensitivedatafilter.webp)
 
 __Step 9 –__ Click __Connections__ to open the Manage Connections window.
 
 __NOTE:__ SQL databases must be added to the query before they can be scanned. Before you can add a query, you must establish a connection to the database.
 
-![Manage Connections](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/db2/collection/sensitivedataconnection.webp)
+![Manage Connections](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/db2/collection/sensitivedataconnection.webp)
 
 __Step 10 –__ In the Manage Connections window, enter the following information:
 
@@ -63,7 +63,7 @@ __Step 11 –__ After completing the above information fields, click __Test Conn
 
 __Step 12 –__ Navigate to the Filter page. Select Only select database objects or __All database objects__. Collection queries are configured by default to target Only select database objects.
 
-__NOTE:__ For more information on filtering, see the [SQL: Filter](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/sql/filter.md) page.
+__NOTE:__ For more information on filtering, see the [SQL: Filter](../../../../admin/datacollector/sql/filter.md) page.
 
 __Step 13 –__ Click Retrieve. The Available database objects box will populate.
 
@@ -85,7 +85,7 @@ Navigate to the __Databases__ > __0.Collection__ > __Db2__ > __1-Db2_SensitiveDa
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/azuresql/collection/sensitivedatascananalysis.webp)
+![Analysis Selection](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/azuresql/collection/sensitivedatascananalysis.webp)
 
 The default analysis tasks are:
 

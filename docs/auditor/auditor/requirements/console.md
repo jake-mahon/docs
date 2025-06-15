@@ -20,7 +20,7 @@ You can deploy Auditor on a virtual machine running Microsoft Windows guest OS o
 - Microsoft Hyper-V
 - Nutanix AHV
 
-Auditor supports only Windows OS versions listed in the [Software Requirements](/docs/auditor/auditor/requirements/software.md) topic.
+Auditor supports only Windows OS versions listed in the [Software Requirements](software.md) topic.
 
 Netwrix Auditor and SQL Server instance will be deployed on different servers.
 
@@ -33,18 +33,18 @@ Requirements below apply to Netwrix Auditor server.
 | Disk space | 100 GB—System drive  100 GB—Data drive | 100 GB—System drive  400 GB—Data drive | 500 GB—System drive\*\*  1.5 TB—Data drive | Up to 1 TB—System drive\*\*  Up to several TB per year—Data drive |
 | Others | — | — | Network capacity 1 Gbit | Network capacity 1 Gbit |
 
-\* — ARs stands for Activity Records, that is, Netwrix-compatible format for the audit data. See [Activity Records](/docs/auditor/auditor/api/postdata/activityrecords.md)[Activity Records](/docs/auditor/auditor/api/postdata/activityrecords.md) for more details.
+\* — ARs stands for Activity Records, that is, Netwrix-compatible format for the audit data. See [Activity Records](../api/postdata/activityrecords.md)[Activity Records](../api/postdata/activityrecords.md) for more details.
 
 \*\* — By default, the Long-Term Archive and working folder are stored on a system drive. To reduce the impact on the system drive in large and xlarge environments, Netwrix recommends storing your Long-Term Archive and working folder on a data drive and plan for their capacity accordingly. For details, see:
 
-- [File-Based Repository for Long-Term Archive](/docs/auditor/auditor/requirements/longtermarchive.md)
-- [Working Folder](/docs/auditor/auditor/requirements/workingfolder.md)
+- [File-Based Repository for Long-Term Archive](longtermarchive.md)
+- [Working Folder](workingfolder.md)
 
 Netwrix Auditor informs you if you are running out of space on a system disk where the Long-Term Archive is stored by default. You will see related events in the Health log once the free disk space starts approaching the minimum level. When the free disk space is less than 3 GB, the Netwrix services responsible for audit data collection will be stopped.
 
 For detailed information about hardware requirements for a standalone SQL Server, refer to the following Microsoft article: [SQL Server: Hardware and software requirements](https://learn.microsoft.com/en-us/sql/sql-server/install/hardware-and-software-requirements-for-installing-sql-server-2019?view=sql-server-ver16)
 
-__NOTE:__ In larger environments, SQL Server may become underprovisioned on resources. For troubleshooting such cases, refer to the [Sample Deployment Scenarios](/docs/auditor/auditor/requirements/deploymentscenarios.md) topic.
+__NOTE:__ In larger environments, SQL Server may become underprovisioned on resources. For troubleshooting such cases, refer to the [Sample Deployment Scenarios](deploymentscenarios.md) topic.
 
 Additional Sizing Information for File Data Source
 

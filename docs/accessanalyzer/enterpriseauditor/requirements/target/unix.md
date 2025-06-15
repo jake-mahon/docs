@@ -14,8 +14,8 @@ Data Collectors
 
 This solution employs the following data collectors to scan the target environment:
 
-- [NIS Data Collector](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/nis/overview.md)
-- [Unix Data Collector](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/unix/overview.md)
+- [NIS Data Collector](../../admin/datacollector/nis/overview.md)
+- [Unix Data Collector](../../admin/datacollector/unix/overview.md)
 
 ## Permissions
 

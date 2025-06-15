@@ -12,7 +12,7 @@ Local audit policies must be configured on the target servers to get the "Who" a
 - Windows registry
 - Removable media
 
-You can also configure advanced audit policies for same purpose. See the [Configure Advanced Audit Policies](/docs/auditor/auditor/configuration/windowsserver/advancedpolicy.md) topic for more information.
+You can also configure advanced audit policies for same purpose. See the [Configure Advanced Audit Policies](advancedpolicy.md) topic for more information.
 
 ## Manual Configuration
 
@@ -34,4 +34,4 @@ __Step 3 –__ Configure the following audit policies.
 
 Local audit policy is configured.
 
-![Local Security Policy snap-in](/img/product_docs/1secure/configuration/computer/manualconfig_ws_local_audit_policies2016.webp)
+![Local Security Policy snap-in](../../../../../static/img/product_docs/1secure/configuration/computer/manualconfig_ws_local_audit_policies2016.webp)

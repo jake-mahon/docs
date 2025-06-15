@@ -5,5 +5,5 @@ Netwrix Endpoint Policy Manager (formerly PolicyPak) Application Settings Manage
 __NOTE:__ 
 Before heading down this path please watch the backup / restore videos:
 
-- [Endpoint Policy Manager Application Settings Manager: Backup, Restore, Export, Import](/docs/policypak/policypak/video/troubleshooting/backup.md)
-- [Endpoint Policy Manager: Backup and Restore Options to Recover from nearly any problem](/docs/policypak/policypak/video/troubleshooting/backupoptions.md)
+- [Endpoint Policy Manager Application Settings Manager: Backup, Restore, Export, Import](../troubleshooting/backup.md)
+- [Endpoint Policy Manager: Backup and Restore Options to Recover from nearly any problem](../troubleshooting/backupoptions.md)

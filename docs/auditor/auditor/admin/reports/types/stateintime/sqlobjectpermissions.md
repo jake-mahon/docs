@@ -2,9 +2,9 @@
 
 This report shows a detailed list of the effective permissions that accounts have on the selected object. Use this report to review who has access to your SQL Server objects.
 
-Supported object types and attributes are listed in the [SQL Server](/docs/auditor/auditor/configuration/sqlserver/overview.md) section.
+Supported object types and attributes are listed in the [SQL Server](../../../../configuration/sqlserver/overview.md) section.
 
-![objectpermissionssqlserver_thumb_0_0](/img/product_docs/auditor/auditor/admin/reports/types/stateintime/objectpermissionssqlserver_thumb_0_0.webp)
+![objectpermissionssqlserver_thumb_0_0](../../../../../../../static/img/product_docs/auditor/auditor/admin/reports/types/stateintime/objectpermissionssqlserver_thumb_0_0.webp)
 
 ## Reported data
 
@@ -13,7 +13,7 @@ The report has a summary section with general information on the selected SQL Se
 The summary section shows:
 
 - __Object path__ — monitored object path as formatted by Netwrix Auditor in the activity records (see '_What_' field in the reports, search results and activity summaries). For example, if reporting on the database hosted on selected SQL Server, the path will be as follows: _Databases\database_name_.
-- __Object type__ — monitored object type; for the full list of supported object types, refer to [SQL Server](/docs/auditor/auditor/configuration/sqlserver/overview.md) topic.
+- __Object type__ — monitored object type; for the full list of supported object types, refer to [SQL Server](../../../../configuration/sqlserver/overview.md) topic.
 - __Total account count__ — total number of accounts that have access to this object.
 
 The detailed information under summary includes:
@@ -35,7 +35,7 @@ This report has the following filters:
 
 - __Monitoring plan__ — name of the monitoring plan set to collect data from the SQL Server you need.
 - __Time zone__ — time zone where Netwrix Auditor server is located, for example, UTC-08:00. This value is filled in automatically.
-- __Snapshot date__ —select the date of state-in-time snapshot you want to report on. By default, the report includes data obtained during the latest data collection session (_Current Session_). To report on other snapshots, make sure they are available through import. For details, see __Manage historical snapshots__ option description in the [SQL Server](/docs/auditor/auditor/admin/monitoringplans/sqlserver/overview.md) topic.
+- __Snapshot date__ —select the date of state-in-time snapshot you want to report on. By default, the report includes data obtained during the latest data collection session (_Current Session_). To report on other snapshots, make sure they are available through import. For details, see __Manage historical snapshots__ option description in the [SQL Server](../../../monitoringplans/sqlserver/overview.md) topic.
 - __Item__—name of the SQL Server instance monitored with selected monitoring plan.
 - __Object path__ —path to the monitored object, as formatted by Netwrix Auditor in the activity records (see '_What_' field in the reports, search results and activity summaries). Wildcard (\*) is supported. For example, to report on the database hosted on selected SQL Server, specify the path as follows: _Databases\database_name_.
 - __Permissions__ —access permissions which assignment you want to be reported for the selected object.
@@ -59,8 +59,8 @@ This report has the following filters:
 ## Related reports
 
 - Clicking a User account link opens the [Account Permissions in SQL
-  Server](/docs/auditor/auditor/admin/reports/types/stateintime/sqlaccountpermissions.md) report.
-- Clicking a Means granted link opens the[SQL Server Means Granted](/docs/auditor/auditor/admin/reports/types/stateintime/sqlmeansgranted.md) report.
+  Server](sqlaccountpermissions.md) report.
+- Clicking a Means granted link opens the[SQL Server Means Granted](sqlmeansgranted.md) report.
 
 ## Usage example
 

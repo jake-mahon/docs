@@ -41,7 +41,7 @@ These segmentation blocks are what is referred to as rings. An example of this p
 - Fast Ring (10-50%): 5-day delay.
 - Slow Ring (51-100%): 10-day delay.
 
-![71_1_hfkb-1094-img-01](/img/product_docs/policypak/policypak/install/71_1_hfkb-1094-img-01.webp)
+![71_1_hfkb-1094-img-01](../../../../static/img/product_docs/policypak/policypak/install/71_1_hfkb-1094-img-01.webp)
 
 Microsoft updates can be a little complicated because they also deal with channels, or the types of versions you want to install. Additionally, Microsoft's model is more complex than Endpoint Policy Manager's model, because the updates are required and forced. Microsoft Quality Updates (i.e., bugfixes) are required to be performed within 30 days (or they will be installed automatically) and Microsoft Upgrades (i.e., new versions of Windows) are required to be performed within 365 days (or they will be installed automatically).
 
@@ -75,7 +75,7 @@ __Step 4 –__ When ready, simply pick the remaining Endpoint Policy Manager Clo
 
 __Step 5 –__ Alternatively, use the special All group to finish your upgrade and mass upgrade the remaining PCs all at once (again, after you've done some pre-testing.)
 
-See the [Endpoint Policy Manager Cloud Groups CSE and Cloud Client Small-Scale Testing and Updates](/docs/policypak/policypak/video/cloud/groups.md) topic for additional information and a video on this process.
+See the [Endpoint Policy Manager Cloud Groups CSE and Cloud Client Small-Scale Testing and Updates](../video/cloud/groups.md) topic for additional information and a video on this process.
 
 ## Recommendations when using Endpoint Policy Manager with your Active Directory: Rings and Rollouts
 
@@ -118,7 +118,7 @@ To be consistent with the idea of Rings, we have added this capability to the co
 - Ring Type 1: Using specific dates and times to make rings and perform a roll-out. In this style you will set specific dates and times for the machines to get the updates.
 - Ring Type 2: Using relative number of hours to make rings and perform a roll-out. In this style you will set your rings apart with number of hours between updates.
 
-See the [How can I roll out the latest Endpoint Policy Manager CSE with Active Directory in a controlled manner using Rings ?](/docs/policypak/policypak/install/ringsupgrade.md) topic for additional information.
+See the [How can I roll out the latest Endpoint Policy Manager CSE with Active Directory in a controlled manner using Rings ?](ringsupgrade.md) topic for additional information.
 
 ### Active Directory Option 3: Using the Built-in Endpoint Policy Manager CSE Update mechanism in an alternate manner.
 
@@ -136,7 +136,7 @@ __NOTE:__  This is not a best practice, but could work for your situation.
 
 Another way to make rings would be to use Group Policy to deliver a CSE update via Endpoint Policy Manager Remote Work Delivery Manager. You could create the rings using Active Directory groups or any other targeting, then, shoot down a CSE update to specific machines as you saw fit.
 
-See the [How do I use Endpoint Policy Manager Remote Work Delivery Manager to update the Client Side Extension?](/docs/policypak/policypak/remoteworkdelivery/updateclientsideextension.md) and [Using Remote Work Delivery Manager to Update the Endpoint Policy Manager Client Side Extension](/docs/policypak/policypak/video/remoteworkdelivery/updateclientsideextension.md) topics for additional information.
+See the [How do I use Endpoint Policy Manager Remote Work Delivery Manager to update the Client Side Extension?](../remoteworkdelivery/updateclientsideextension.md) and [Using Remote Work Delivery Manager to Update the Endpoint Policy Manager Client Side Extension](../video/remoteworkdelivery/updateclientsideextension.md) topics for additional information.
 
 ## Recommendations when using Endpoint Policy Manager with your MDM: Rings and Rollouts
 

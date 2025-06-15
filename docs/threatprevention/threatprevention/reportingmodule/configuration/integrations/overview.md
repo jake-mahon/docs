@@ -4,16 +4,16 @@ The Integrations interface allows you to configure integrations with a variety o
 
 Use the gear icon in the upper right corner of the console to open the Configuration menu. Then select __Integrations__ to open the Integrations interface.
 
-![Integrations interface displaying Overview page](/img/product_docs/threatprevention/threatprevention/reportingmodule/interface.webp)
+![Integrations interface displaying Overview page](../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/interface.webp)
 
 It contains the following integration pages:
 
-- [Active Directory Sync Page](/docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/activedirectorysync.md)
-- [Authentication Provider Page](/docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/authenticationprovider/page.md)
-- [Credential Profile Page](/docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/credentialprofile.md)
-- [Email Page](/docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/email.md)
-- [Folder Settings Page](/docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/foldersettings.md)
-- [Netwrix Integrations Page](/docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/netwrixintegrations.md)
-- [Tag Management Page](/docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/tagmanagement.md)
+- [Active Directory Sync Page](activedirectorysync.md)
+- [Authentication Provider Page](authenticationprovider/page.md)
+- [Credential Profile Page](credentialprofile.md)
+- [Email Page](email.md)
+- [Folder Settings Page](foldersettings.md)
+- [Netwrix Integrations Page](netwrixintegrations.md)
+- [Tag Management Page](tagmanagement.md)
 
 The Overview page displays a high-level view of all configured integrations. You can return to the Overview page by selecting the __Integrations__ header in the navigation pane.

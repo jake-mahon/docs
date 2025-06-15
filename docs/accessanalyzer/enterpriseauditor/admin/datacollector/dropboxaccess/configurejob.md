@@ -9,10 +9,10 @@ Creating the Connection Profile requires an access token. The access token is ge
 Create a Connection Profile and set the following information on the User Credentials window:
 
 - Select Account Type – Dropbox
-- Password Storage – Application (Uses the configured Profile Security setting as selected at the __Settings__ > __Application__ node. See the [Application](/docs/accessanalyzer/enterpriseauditor/admin/settings/application/overview.md) topic for additional information.)
-- Access Token – Copy and paste the Access Token after it has been generated from the Scan Options page of the Dropbox Access Auditor Data Collector Wizard. See the [DropboxAccess: Scan Options](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/dropboxaccess/scanoptions.md) topic for additional information.
+- Password Storage – Application (Uses the configured Profile Security setting as selected at the __Settings__ > __Application__ node. See the [Application](../../settings/application/overview.md) topic for additional information.)
+- Access Token – Copy and paste the Access Token after it has been generated from the Scan Options page of the Dropbox Access Auditor Data Collector Wizard. See the [DropboxAccess: Scan Options](scanoptions.md) topic for additional information.
 
-See the [Connection](/docs/accessanalyzer/enterpriseauditor/admin/settings/connection/overview.md) topic for additional information.
+See the [Connection](../../settings/connection/overview.md) topic for additional information.
 
 ## Host List
 

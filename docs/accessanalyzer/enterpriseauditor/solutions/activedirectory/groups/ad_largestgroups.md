@@ -8,7 +8,7 @@ Navigate to the __Active Directory__ > __1.Groups__ > __AD_LargestGroups__ > __C
 
 __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis task is preconfigured for this job.
 
-![Analysis Task for the AD_LargestGroups Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/distributionlists/membershipanalysis/largestgroupsanalysis.webp)
+![Analysis Task for the AD_LargestGroups Job](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/distributionlists/membershipanalysis/largestgroupsanalysis.webp)
 
 The default analysis tasks are:
 

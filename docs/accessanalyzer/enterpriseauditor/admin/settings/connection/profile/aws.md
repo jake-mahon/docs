@@ -2,7 +2,7 @@
 
 The information in this section applies to __Select Account Type > Amazon Web Services__ account type in the User Credentials window.
 
-![User Credentials Window - AWS](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/connection/profile/connectionaws.webp)
+![User Credentials Window - AWS](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/connection/profile/connectionaws.webp)
 
 The required credentials for Amazon Web Services are:
 
@@ -21,7 +21,7 @@ __Step 2 –__ Click Add User credential and select the Amazon Web Services acco
 
 __Step 3 –__ Input the Access Key ID into the Username section, and the Secret Access Key into the Access Token section.
 
-_Remember,_ these are obtained from AWS when the permissions are configured. See the [Configure AWS for Scans](/docs/accessanalyzer/enterpriseauditor/requirements/target/config/aws.md) topic for additional information.
+_Remember,_ these are obtained from AWS when the permissions are configured. See the [Configure AWS for Scans](../../../../requirements/target/config/aws.md) topic for additional information.
 
 __Step 4 –__ Click OK in the User Credentials modal, name the Connection Profile, and click Save.
 

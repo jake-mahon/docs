@@ -12,4 +12,4 @@ Now, the next time ILT is attempted to be evaluated, we wait for results for 500
 
 If you want to manipulate how long the ILT timeout occurs, we have a policy setting in the Endpoint Policy Manager ADMX settings here:
 
-![499_1_q15-img1](/img/product_docs/policypak/policypak/grouppolicy/itemleveltargeting/499_1_q15-img1.jpg)
+![499_1_q15-img1](../../../../../static/img/product_docs/policypak/policypak/grouppolicy/itemleveltargeting/499_1_q15-img1.jpg)

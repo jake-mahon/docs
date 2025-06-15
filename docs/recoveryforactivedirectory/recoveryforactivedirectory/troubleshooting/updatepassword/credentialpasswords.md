@@ -8,12 +8,12 @@ Account passwords occasionally need to be updated due to various reasons, such a
 
 ## SQL Server Service Account
 
-The SQL Server service account grants access to the SQL Server database. It can be updated through the Recovery for Active Directory Configuration Utility. See the [Update SQL Server Service Account Password](/docs/recoveryforactivedirectory/recoveryforactivedirectory/troubleshooting/updatepassword/sqlserverserviceaccount.md) topic for additional information.
+The SQL Server service account grants access to the SQL Server database. It can be updated through the Recovery for Active Directory Configuration Utility. See the [Update SQL Server Service Account Password](sqlserverserviceaccount.md) topic for additional information.
 
 ## Recovry Service Account
 
-The Recovery service account is used to run the Recovery Console service and preform the domain backups. It can be updated on the Domains page in the Recovery Console. See the [Edit Domain Configuration](/docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/configuration/domain.md#edit-domain-configuration) topic for additional information.
+The Recovery service account is used to run the Recovery Console service and preform the domain backups. It can be updated on the Domains page in the Recovery Console. See the [Edit Domain Configuration](../../admin/configuration/domain.md#edit-domain-configuration) topic for additional information.
 
 ## Domain Controller Backup Service Account
 
-The backup service account for a domain controller is used to write the backup file of the domain controller to a network share of the destination server. It can be updated on the Forest page in the Recovery Console. See the [Update Domain Controller Backup Account Password](/docs/recoveryforactivedirectory/recoveryforactivedirectory/troubleshooting/updatepassword/serverbackupaccount.md) topic for additional information.
+The backup service account for a domain controller is used to write the backup file of the domain controller to a network share of the destination server. It can be updated on the Forest page in the Recovery Console. See the [Update Domain Controller Backup Account Password](serverbackupaccount.md) topic for additional information.

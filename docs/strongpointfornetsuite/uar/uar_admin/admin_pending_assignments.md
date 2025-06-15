@@ -1,10 +1,10 @@
 # Pending Role Assignments
 
-This view makes it easy to identify roles without owners, and facilitates adding owners. Access your __Pending Role Assignments__ from your menu bar. All changes are captured in the [UAR History](/docs/strongpointfornetsuite/uar/uar_history.md).
+This view makes it easy to identify roles without owners, and facilitates adding owners. Access your __Pending Role Assignments__ from your menu bar. All changes are captured in the [UAR History](../uar_history.md).
 
 Here is an example of the __Pending Role Assignments__:
 
-![Pending role assignments](/img/product_docs/strongpointfornetsuite/uar/uar_admin/pending_role_assignments.webp)
+![Pending role assignments](../../../../static/img/product_docs/strongpointfornetsuite/uar/uar_admin/pending_role_assignments.webp)
 
 ## Filters
 
@@ -47,9 +47,9 @@ You can assign due dates on the __Pending Role Assignments List__.
 1. Open __Pending Role Assignments__ from your menu bar.
 2. Select a Related Review link.
 
-   ![Related review link](/img/product_docs/strongpointfornetsuite/uar/uar_admin/related_review_link.webp)
+   ![Related review link](../../../../static/img/product_docs/strongpointfornetsuite/uar/uar_admin/related_review_link.webp)
 3. Select a single review, or select the box in the table header to select all of the reviews.
 
-   ![Assign due dates for reviews](/img/product_docs/strongpointfornetsuite/uar/uar_admin/assign_due_date.webp)
+   ![Assign due dates for reviews](../../../../static/img/product_docs/strongpointfornetsuite/uar/uar_admin/assign_due_date.webp)
 4. Click in the __Due Date__ box and use the date picker to set a date.
 5. Click __Save__ when your changes are complete.

@@ -2,7 +2,7 @@
 
 The Sensitive data scan options page is where options to be used for discovering sensitive data are configured. It is a wizard page for the Sensitive Data category.
 
-![EWS Mailbox Data Collector Wizard SDD Options page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/sddoptions.webp)
+![EWS Mailbox Data Collector Wizard SDD Options page](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/sddoptions.webp)
 
 Select the applicable Sensitive data scan options:
 

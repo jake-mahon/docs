@@ -11,7 +11,7 @@ After you've configured an AppSet to your preferred settings, and those settings
 
 You can see an example of Item-Level Targeting in Figures 46 and 47.
 
-![policypak_application_settings_2_1](/img/product_docs/policypak/policypak/applicationsettings/extras/itemleveltargeting/policypak_application_settings_2_1.webp)
+![policypak_application_settings_2_1](../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/extras/itemleveltargeting/policypak_application_settings_2_1.webp)
 
 Figure 46. Entering the Pak's Item Level Targeting dialog.
 
@@ -19,11 +19,11 @@ Administrators familiar with Group Policy Preferences' Item-Level Targeting will
 
 You can apply one or more targeting items to an AppSet. You can also logically join together targeting items, as shown in Figure 48. You may also add Targeting Collections, which equates to enclosing equations in parentheses, which groups together targeting items. In this way, you can create fairly complex determinations about which users and computers an AppSet will apply to. Targeting Collections may be set to "And" or "Or" as well as "Is" or "Is Not," as seen in Figure 49.
 
-![policypak_application_settings_2_2](/img/product_docs/policypak/policypak/applicationsettings/extras/itemleveltargeting/policypak_application_settings_2_2.webp)
+![policypak_application_settings_2_2](../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/extras/itemleveltargeting/policypak_application_settings_2_2.webp)
 
 Figure 48. In this example, the Pak would only apply to Windows 10 machines when (1) the machine is portable and (2) the user is in the FABRIKAM\Traveling Sales Users group.
 
-![policypak_application_settings_2_3](/img/product_docs/policypak/policypak/applicationsettings/extras/itemleveltargeting/policypak_application_settings_2_3.webp)
+![policypak_application_settings_2_3](../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/extras/itemleveltargeting/policypak_application_settings_2_3.webp)
 
 Figure 49. In this example, the Pak would only apply to Windows 10 machines when either(1) the machine is portable and (2) the IP address between 192.168.5.1 - 192.168.7.254 OR (1) the machine resides in the Azure Site and (2) has an IP address between 172.16.7.11 - 172.16.9.254.
 
@@ -41,6 +41,6 @@ IP range. In this setup, you can specify different settings for various IP range
 
 When Item-Level Targeting is used, it can be seen in the GPMC reports, as seen in Figure 50.
 
-![policypak_application_settings_2_4](/img/product_docs/policypak/policypak/applicationsettings/extras/itemleveltargeting/policypak_application_settings_2_4.webp)
+![policypak_application_settings_2_4](../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/extras/itemleveltargeting/policypak_application_settings_2_4.webp)
 
 Figure 50. The Item-Level Targeting shows up in the GPMC reports when it is being used.

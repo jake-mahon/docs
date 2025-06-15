@@ -83,4 +83,4 @@ This mass update captures all the bundle components referenced by non bundle com
 8. Check the box for __Removal Scenario 6__
 9. Click __Save__
 
-__Next Step:__ [](/docs/strongpointfornetsuite/bundle_removal/investigating_through_saved_searches.md)[Investigating Through Saved Searches](/docs/strongpointfornetsuite/bundle_removal/investigating_through_saved_searches.md)
+__Next Step:__ [](investigating_through_saved_searches.md)[Investigating Through Saved Searches](investigating_through_saved_searches.md)

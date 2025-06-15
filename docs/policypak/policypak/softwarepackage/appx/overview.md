@@ -6,11 +6,11 @@ __Step 1 –__ Start out on your GPMC management station to create a group polic
 
 __Step 2 –__ Next, within the GPO Editor, go to User Configuration > Endpoint Policy Manager > App Delivery & Patching Pak > Software Package Manager. Right-click on New Windows Store (AppX) Policy.
 
-![appx_policies_and_settings](/img/product_docs/policypak/policypak/softwarepackage/appx/appx_policies_and_settings.webp)
+![appx_policies_and_settings](../../../../../static/img/product_docs/policypak/policypak/softwarepackage/appx/appx_policies_and_settings.webp)
 
 __Step 3 –__ Next, you will need to choose if you want to install a package or remove a package. These options will be explained further in the "AppX: Install Package" and "AppX: Remove Package" sections.
 
-![appx_policies_and_settings_1](/img/product_docs/policypak/policypak/softwarepackage/appx/appx_policies_and_settings_1.webp)
+![appx_policies_and_settings_1](../../../../../static/img/product_docs/policypak/policypak/softwarepackage/appx/appx_policies_and_settings_1.webp)
 
 Get-AppxPackage | Where-Object -Property 'Publisher' -NE -Value 'CN=Microsoft Windows,
 O=Microsoft Corporation, L=Redmond, S=Washington, C=US' | Where-Object -Property 'Publisher'

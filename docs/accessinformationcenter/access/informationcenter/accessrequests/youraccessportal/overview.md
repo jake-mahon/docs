@@ -10,7 +10,7 @@ The Your Access portal is where domain users can view their current access, subm
 
 The Your Access portal displays your current access for resources managed through the Access Information Center.
 
-![Your Access portal interface](/img/product_docs/threatprevention/threatprevention/reportingmodule/interface.webp)
+![Your Access portal interface](../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/interface.webp)
 
 The information displayed in the table includes:
 
@@ -26,10 +26,10 @@ The information displayed in the table includes:
 
 The buttons above and below the table enable you to perform the following actions:
 
-![Your Access portal interface buttons](/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/youraccessportal/interfacebuttons.webp)
+![Your Access portal interface buttons](../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/youraccessportal/interfacebuttons.webp)
 
 | Button | Description |
 | --- | --- |
-| Request Access | Opens the Request Access wizard, which allows you to submit access requests. See the [Request Access Wizard](/docs/accessinformationcenter/access/informationcenter/accessrequests/wizard/requestaccess.md) topic for additional information. |
-| View History | Opens the Request History page, which displays information on all of your pending and processed requests. See the [Request History Page](/docs/accessinformationcenter/access/informationcenter/accessrequests/youraccessportal/requesthistory.md) topic for additional information. |
-| Remove Access | Opens the Remove Access window, which allows you to remove access for yourself for the selected resource. See the [Remove Access Window](/docs/accessinformationcenter/access/informationcenter/accessrequests/window/removeaccess.md) topic for additional information. |
+| Request Access | Opens the Request Access wizard, which allows you to submit access requests. See the [Request Access Wizard](../wizard/requestaccess.md) topic for additional information. |
+| View History | Opens the Request History page, which displays information on all of your pending and processed requests. See the [Request History Page](requesthistory.md) topic for additional information. |
+| Remove Access | Opens the Remove Access window, which allows you to remove access for yourself for the selected resource. See the [Remove Access Window](../window/removeaccess.md) topic for additional information. |

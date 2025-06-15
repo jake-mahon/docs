@@ -2,7 +2,7 @@
 
 Use the Applies To tab to specify the scope for application of the analysis rules. Rules are applied to data collected from all hosts, from specific hosts, or from the specific host running the job (local data). Data is filtered based on a specified time window.
 
-![Edit Rules window Applies To tab](/img/product_docs/accessanalyzer/enterpriseauditor/admin/analysis/businessrules/appliesto.webp)
+![Edit Rules window Applies To tab](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/analysis/businessrules/appliesto.webp)
 
 The Applies To tab provides the following options:
 

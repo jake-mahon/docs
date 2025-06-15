@@ -46,7 +46,7 @@ Follow the steps to customize the email templates.
 
 __NOTE:__ To successfully modify these Notifications email templates, a familiarity with basic HTML is necessary.
 
-![Templates Zip file in the Installation Directory](/img/product_docs/accessinformationcenter/access/informationcenter/admin/additionalconfig/emailtemplateszipfile.webp)
+![Templates Zip file in the Installation Directory](../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/admin/additionalconfig/emailtemplateszipfile.webp)
 
 __Step 1 –__ Navigate to the Access Information Center installation directory:
 
@@ -56,7 +56,7 @@ __Step 2 –__ Unzip the ```Templates.zip``` file and save the contents to a fol
 
 __CAUTION:__ The customized email templates must be in the ```Templates``` folder within the installation directory to be preserved during future application upgrades.
 
-![Unzipped Email Templates in Templates Folder](/img/product_docs/accessinformationcenter/access/informationcenter/admin/additionalconfig/emailtemplatesunzipped.webp)
+![Unzipped Email Templates in Templates Folder](../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/admin/additionalconfig/emailtemplatesunzipped.webp)
 
 __Step 3 –__ Locate the desired HTML message template.
 

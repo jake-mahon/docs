@@ -10,4 +10,4 @@ See the
 
 The Azure SQL database used to store the data is isolated from direct access. We use firewall rules that prevent database access to the API backend services running in Microsoft Entra ID.
 
-All API access happens on behalf of specific user accounts in Microsoft Entra ID. See the [Access Control](/docs/1secure/security/accesscontrol.md) section for additional information.
+All API access happens on behalf of specific user accounts in Microsoft Entra ID. See the [Access Control](accesscontrol.md) section for additional information.

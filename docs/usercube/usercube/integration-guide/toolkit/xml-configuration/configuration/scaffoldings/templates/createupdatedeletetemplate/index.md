@@ -6,28 +6,28 @@ The scaffolding generates the following scaffoldings:
 
 - [
   Create Update Delete Access Control Rules
-  ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/workflows/createupdatedeleteaccesscontrolrules/index.md): Generates execution rights for the create, update, delete workflows.
+  ](../../accesscontrolrules/workflows/createupdatedeleteaccesscontrolrules/index.md): Generates execution rights for the create, update, delete workflows.
 - [
   Create Update Delete Menus
-  ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/entitytypes/workflows/createupdatedeletemenus/index.md): Creates creation, update and delete menus for an entity.
+  ](../../entitytypes/workflows/createupdatedeletemenus/index.md): Creates creation, update and delete menus for an entity.
 - [
   Create Update Delete Workflows
-  ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/entitytypes/workflows/createupdatedeleteworkflows/index.md):
+  ](../../entitytypes/workflows/createupdatedeleteworkflows/index.md):
 - [
   Entity Type Display Name
-  ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/entitytypes/entitytypes/entitytypedisplayname/index.md): Computes a default value for resources' internal display names.
+  ](../../entitytypes/entitytypes/entitytypedisplayname/index.md): Computes a default value for resources' internal display names.
 - [
   Entity Type Display Table
-  ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/entitytypes/entitytypes/entitytypedisplaytable/index.md): Creates a display table for the given entity.
+  ](../../entitytypes/entitytypes/entitytypedisplaytable/index.md): Creates a display table for the given entity.
 - [
   Entity Type Search Bar
-  ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/entitytypes/entitytypes/entitytypesearchbar/index.md): Creates the search bar for the entity without criteria.
+  ](../../entitytypes/entitytypes/entitytypesearchbar/index.md): Creates the search bar for the entity without criteria.
 - [
   View Access Control Rules
-  ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/resources/viewaccesscontrolrules/index.md): Generates the permissions to view an entity type's resources.
+  ](../../accesscontrolrules/resources/viewaccesscontrolrules/index.md): Generates the permissions to view an entity type's resources.
 - [
   Workflow Entity Type
-  ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/entitytypes/workflows/workflowentitytype/index.md): Creates an entity that will be the source of all workflows that manipulate the given entity.
+  ](../../entitytypes/workflows/workflowentitytype/index.md): Creates an entity that will be the source of all workflows that manipulate the given entity.
 
 ## Examples
 

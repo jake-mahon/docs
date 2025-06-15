@@ -11,19 +11,19 @@ Identity Manager is made of two parts:
 
 Agent and server are [ASP.Net](https://docs.microsoft.com/en-us/aspnet/core/) applications running on Windows. Identity Manager's database is a [Microsoft SQLServer](https://www.microsoft.com/en-us/sql-server) relational database.
 
-![Architecture](/img/product_docs/changetracker/changetracker/architecture.webp)
+![Architecture](../../../../../static/img/product_docs/changetracker/changetracker/architecture.webp)
 
 See the [
 SaaS Environment
-](/docs/usercube/usercube/integration-guide/architecture/saas/index.md) topic for additional information on Netwrix Identity Manager (formerly Usercube) recommended architecture when working in a SaaS environment.
+](saas/index.md) topic for additional information on Netwrix Identity Manager (formerly Usercube) recommended architecture when working in a SaaS environment.
 
 See the [
 On-Premises Environment
-](/docs/usercube/usercube/integration-guide/architecture/on-prem/index.md) topic for additional information on Netwrix Identity Manager (formerly Usercube)' recommended architecture when working in an on-premises environment.
+](on-prem/index.md) topic for additional information on Netwrix Identity Manager (formerly Usercube)' recommended architecture when working in an on-premises environment.
 
 See how to [
 Protect Agent/Server Communication
-](/docs/usercube/usercube/integration-guide/architecture/how-tos/protect-agent-server-communication/index.md).
+](how-tos/protect-agent-server-communication/index.md).
 
 ## Isolation Principle
 
@@ -44,7 +44,7 @@ Agents also receive HTTP/HTTPS requests from the browser to allow authenticated 
 ## Authentication
 
 Identity Manager can authenticate users within an Active Directory domain or using an OpenID identity server. For development mode, Identity Manager implements a form-based authentication using a unique password for all users . See the [
-End-User Authentication](/docs/usercube/usercube/integration-guide/network-configuration/server-configuration/end-users-authentication/index.md) topic for additional information.
+End-User Authentication](../network-configuration/server-configuration/end-users-authentication/index.md) topic for additional information.
 
 ## Multi-Agent Capability
 

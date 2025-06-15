@@ -10,7 +10,7 @@ This guide is meant to be read by integrators who configure Identity Manager to
 
 A basic knowledge of Identity and Access Management (IAM) and more precisely of Identity and Governance Administration (IGA) is required to really understand, implement and use Identity Manager's features.
 
-Netwrix Identity Manager (formerly Usercube)strongly recommends starting from the [Introduction Guide](/docs/usercube/usercube/introduction-guide/index.md) to fully benefit from the Integration Guide's content.
+Netwrix Identity Manager (formerly Usercube)strongly recommends starting from the [Introduction Guide](../introduction-guide/index.md) to fully benefit from the Integration Guide's content.
 
 ### Technical skills
 

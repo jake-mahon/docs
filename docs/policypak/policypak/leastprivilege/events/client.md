@@ -4,4 +4,4 @@ There is only one event ID for Endpoint Policy Manager Least Privilege Manager C
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/events/client_events.webp)
+Description automatically generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/events/client_events.webp)

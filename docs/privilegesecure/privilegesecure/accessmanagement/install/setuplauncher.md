@@ -4,7 +4,7 @@ __CAUTION:__ The PostgreSQL database must be installed before installing the app
 
 The Netwrix Setup Launcher checks for and installs missing prerequisites in addition to installing the database and application.
 
-![Netwrix Setup Launcher showing the Prequisites Setup with a green checkmark](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/install/launcherstep2.webp)
+![Netwrix Setup Launcher showing the Prequisites Setup with a green checkmark](../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/install/launcherstep2.webp)
 
 ___RECOMMENDED:___ Antivirus software should be disabled on this computer during the installation.
 
@@ -22,17 +22,17 @@ __Step 1 –__ In the Netwrix Setup Launcher, click __Install PostgreSQL 16__. T
 
 __NOTE:__ If PostgreSQL v16 is already installed, a green checkmark is displayed to the left of the Install PostgreSQL 16 button and you can install the Privilege Secure application.
 
-![Stealthbits PostgreSQL v12 Setup Wizard on the Install page](/img/product_docs/threatprevention/threatprevention/install/upgrade/install.webp)
+![Stealthbits PostgreSQL v12 Setup Wizard on the Install page](../../../../../static/img/product_docs/threatprevention/threatprevention/install/upgrade/install.webp)
 
 __Step 2 –__ On the Install page, click __Install__.
 
-![Stealthbits PostgreSQL v12 Setup Wizard on the License Agreement page](/img/product_docs/threatprevention/threatprevention/install/licenseagreement.webp)
+![Stealthbits PostgreSQL v12 Setup Wizard on the License Agreement page](../../../../../static/img/product_docs/threatprevention/threatprevention/install/licenseagreement.webp)
 
 __Step 3 –__ On the End User License Agreement page, check the __I accept the license agreement__ box and click __Next__.
 
 _Remember,_ it is a best practice to read the agreement before accepting it.
 
-![Stealthbits PostgreSQL v12 Setup Wizard on the Install and Data Folder page](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/install/installfolder.webp)
+![Stealthbits PostgreSQL v12 Setup Wizard on the Install and Data Folder page](../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/install/installfolder.webp)
 
 __Step 4 –__ The default installation location for both the Install Folder and the Data Folder is:
 
@@ -43,7 +43,7 @@ C:\Program Files\Stealthbits\Postgres16
 
 __NOTE:__ The installation process begins and the Setup wizard displays the its Progress. This may take a few moments.
 
-![Stealthbits PostgreSQL v12 Setup Wizard on the Completed Successfully page](/img/product_docs/threatprevention/threatprevention/install/reportingmodule/completed.webp)
+![Stealthbits PostgreSQL v12 Setup Wizard on the Completed Successfully page](../../../../../static/img/product_docs/threatprevention/threatprevention/install/reportingmodule/completed.webp)
 
 __Step 5 –__ When installation is complete, click __Exit__. The Stealthbits PostgeSQL v16 Setup wizard closes.
 
@@ -57,19 +57,19 @@ ___RECOMMENDED:___ Antivirus software should be disabled on this computer during
 
 Follow the steps to install Privilege Secure application.
 
-![Netwrix Setup Launcher showing the PostgreSQL Setup with a green checkmark](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/install/launcherstep3.webp)
+![Netwrix Setup Launcher showing the PostgreSQL Setup with a green checkmark](../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/install/launcherstep3.webp)
 
 __Step 1 –__ If you are using the Netwrix Setup Launcher, it displays a green checkmark for the PostgreSQL Setup. Click Netwrix Privilege Secure Setup.
 
 __NOTE:__ This window remains open in the background while the database is installed.
 
-![Netwrix Privilege Secure Setup wizard on the License Agreement page](/img/product_docs/threatprevention/threatprevention/install/licenseagreement.webp)
+![Netwrix Privilege Secure Setup wizard on the License Agreement page](../../../../../static/img/product_docs/threatprevention/threatprevention/install/licenseagreement.webp)
 
 __Step 2 –__ On the End User License Agreement page, check the __I agree to the license terms and conditions__ box and click __Options__.
 
 _Remember,_ it is a best practice to read the agreement before accepting it.
 
-![Netwrix Privilege Secure Setup wizard on the Setup Options page](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/install/setupoptions.webp)
+![Netwrix Privilege Secure Setup wizard on the Setup Options page](../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/install/setupoptions.webp)
 
 __Step 3 –__ The default installation location for Install Folder is:
 
@@ -82,10 +82,10 @@ __Step 4 –__ You will return to the End User License Agreement page. Click __I
 
 __NOTE:__ The installation process begins and the wizard displays the its Progress. This may take a few moments.
 
-![Netwrix Privilege Secure Setup wizard on the Completed Successfully page](/img/product_docs/threatprevention/threatprevention/install/reportingmodule/completed.webp)
+![Netwrix Privilege Secure Setup wizard on the Completed Successfully page](../../../../../static/img/product_docs/threatprevention/threatprevention/install/reportingmodule/completed.webp)
 
 __Step 5 –__ When installation is complete, click __Close__.
 
 The installer displays a message that it is applying permissions. The application will require a server reboot at the end of the installation.
 
-Once installation is complete, open and walk through the Netwrix Privilege Secure Setup Wizard. The Wizard can be accessed through the Netwrix Privilege Secure desktop icon or locally on the default port. See the [First Launch](/docs/privilegesecure/privilegesecure/accessmanagement/install/firstlaunch.md) topic for additional information.
+Once installation is complete, open and walk through the Netwrix Privilege Secure Setup Wizard. The Wizard can be accessed through the Netwrix Privilege Secure desktop icon or locally on the default port. See the [First Launch](firstlaunch.md) topic for additional information.

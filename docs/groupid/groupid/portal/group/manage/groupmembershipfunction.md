@@ -28,7 +28,7 @@ When the maximum membership limit is hit, the update process will create child g
 
 ## Add members to a group
 
-You can add one or more objects to the membership of one or more groups. These objects would be added as permanent members. You will find them listed as members on the Members tab in [Group Properties](/docs/groupid/groupid/portal/group/properties/overview.md).
+You can add one or more objects to the membership of one or more groups. These objects would be added as permanent members. You will find them listed as members on the Members tab in [Group Properties](../properties/overview.md).
 
 NOTE: In a Microsoft Entra ID based identity store, only user objects can be added as members of an Office 365 group.
 
@@ -36,18 +36,18 @@ Use any of the following methods to add members to groups.
 
 ### Method 1:
 
-1. [Directory Search](/docs/groupid/groupid/portal/search/search.md) the required objects.
+1. [Directory Search](../../search/search.md) the required objects.
 2. Select these objects on the __Search Results__ page and click __Add to Group__ on the toolbar.
-3. The [Find Dialog Box](/docs/groupid/groupid/portal/search/find.md) is displayed, where you can search and select the group(s) to add the objects to.
+3. The [Find Dialog Box](../../search/find.md) is displayed, where you can search and select the group(s) to add the objects to.
 
 ### Method 2:
 
-1. [Directory Search](/docs/groupid/groupid/portal/search/search.md) the group you want to add members to.
+1. [Directory Search](../../search/search.md) the group you want to add members to.
 2. Select this group on the __Search Results__ page and click __Properties__ on the toolbar.
 
-   The group's [Group Properties](/docs/groupid/groupid/portal/group/properties/overview.md) page is displayed.
+   The group's [Group Properties](../properties/overview.md) page is displayed.
 3. On the __Members__ tab, click __Add__.
-4. Enter a search string to locate the objects to add as members, or click __Advanced__ to use the [Find Dialog Box](/docs/groupid/groupid/portal/search/find.md) for performing a search.
+4. Enter a search string to locate the objects to add as members, or click __Advanced__ to use the [Find Dialog Box](../../search/find.md) for performing a search.
 5. Save the changes.
 
 NOTE: These methods for adding members are recommended for static (unmanaged) groups only. For Smart Groups, Directory Manager will discard any manual membership changes when it updates the group through the Smart Group Update job.
@@ -60,10 +60,10 @@ By default, all new members are added as permanent member to a group. However, y
 
 You can also add or remove an object from a group's membership for a temporary period.
 
-1. [Directory Search](/docs/groupid/groupid/portal/search/search.md) a group to change the membership type of its member(s).
+1. [Directory Search](../../search/search.md) a group to change the membership type of its member(s).
 2. Select this group on the __Search Results__ page and click __Properties__ on the toolbar.
 
-   The group's [Group Properties](/docs/groupid/groupid/portal/group/properties/overview.md) page is displayed, where the __Members__ tab lists the
+   The group's [Group Properties](../properties/overview.md) page is displayed, where the __Members__ tab lists the
    group members.
 3. To change the membership type of a member, click anywhere in the respective row to make it editable, and select one of the following options from the __Membership__ list:
 
@@ -111,10 +111,10 @@ Cycle job did not run on the particular days for temporary membership update.
 
 Follow the steps to remove members permanently from a group.
 
-1. [Directory Search](/docs/groupid/groupid/portal/search/search.md) the group you want to remove member(s) from.
+1. [Directory Search](../../search/search.md) the group you want to remove member(s) from.
 2. Select this group on the __Search Results__ page and click __Properties__ on the toolbar.
 
-   The group's [Group Properties](/docs/groupid/groupid/portal/group/properties/overview.md) page is displayed.
+   The group's [Group Properties](../properties/overview.md) page is displayed.
 3. On the __Members__ tab, select the group members you want to remove and click __Remove__.
 4. Save the changes.
 
@@ -129,7 +129,7 @@ Follow the steps to add a group to the membership of another group (nesting).
 1. In Directory Manager portal, click __Groups__ in the left navigation pane, select Groups.
 2. Select the My Groups, __My Memberships__, or __My Expiring Groups__ tab.
 3. Select the group(s) to add to the membership of another group and click __Add to Group__ on the toolbar.
-4. On the [Find Dialog Box](/docs/groupid/groupid/portal/search/find.md), search and select the group to add members to it, and click __OK__.
+4. On the [Find Dialog Box](../../search/find.md), search and select the group to add members to it, and click __OK__.
 
 ## Import members to a group
 
@@ -142,19 +142,19 @@ NOTE: In a Microsoft Entra ID based identity store, only user objects can be add
    The Groups page is displayed with the __My Groups__ tab in view.
 2. Select the group you want to import members to, and click __Properties__ on the toolbar.
 
-   The group's [Group Properties](/docs/groupid/groupid/portal/group/properties/overview.md) page is displayed.
-3. On the [Group properties - Members tab](/docs/groupid/groupid/portal/group/properties/members.md), click __Import__ to launch the __Import Members__ wizard.
-4. See [Import Group Members](/docs/groupid/groupid/portal/group/properties/importmembers.md) for further information and instructions.
+   The group's [Group Properties](../properties/overview.md) page is displayed.
+3. On the [Group properties - Members tab](../properties/members.md), click __Import__ to launch the __Import Members__ wizard.
+4. See [Import Group Members](../properties/importmembers.md) for further information and instructions.
 5. Save the changes.
 
 ## Export group members
 
 You can export members of a group to an external file.
 
-1. [Directory Search](/docs/groupid/groupid/portal/search/search.md) a group to export its members to an external file.
+1. [Directory Search](../../search/search.md) a group to export its members to an external file.
 2. Select this group on the __Search Results__ page and click __Properties__ on the toolbar.
 
-   The group's [Group Properties](/docs/groupid/groupid/portal/group/properties/overview.md) page is displayed.
+   The group's [Group Properties](../properties/overview.md) page is displayed.
 3. On the __Members__ tab, click __Export__ to launch the __Export Members__ wizard.
 4. On the __Attributes__ page:
 
@@ -181,8 +181,8 @@ For a Microsoft Entra ID based identity store, the portal enables you to invite 
 
    Or
 
-   [Directory Search](/docs/groupid/groupid/portal/search/search.md) the group you want to invite a guest user to.
-2. Select the required group from the list and click __Properties__ on the toolbar. The group's [Group Properties](/docs/groupid/groupid/portal/group/properties/overview.md) page is displayed.
+   [Directory Search](../../search/search.md) the group you want to invite a guest user to.
+2. Select the required group from the list and click __Properties__ on the toolbar. The group's [Group Properties](../properties/overview.md) page is displayed.
 3. On the __Members__ tab, click the __Invite User__ button.
 4. On the __Invite User__ dialog box, provide the following information:
 

@@ -32,7 +32,7 @@ All the jobs that match the specified criterion are displayed.
 
 ## Open a Job
 
-When you open a job to view or change its settings, the __Edit Job__ wizard opens, which is virtually identical to the [Create a Job](/docs/groupid/groupid/portal/synchronize/job/create.md) wizard.
+When you open a job to view or change its settings, the __Edit Job__ wizard opens, which is virtually identical to the [Create a Job](../job/create.md) wizard.
 
 Step 1 – On Directory Manager portal, select __Synchronize__ on left pane.
 
@@ -50,7 +50,7 @@ Step 1 – On Directory Manager portal, select __Synchronize__ on left pane.
 
 Step 2 – On the __Synchronize__ portal, click __All Jobs__.
 
-Step 3 – In the jobs list, click ![option](/img/product_docs/groupid/groupid/portal/synchronize/manage/option.webp) on the job that you want to run and click __Run__.
+Step 3 – In the jobs list, click ![option](../../../../../../static/img/product_docs/groupid/groupid/portal/synchronize/manage/option.webp) on the job that you want to run and click __Run__.
 
 Step 4 – If workflow requests are enabled, the request for running the job will go to the approver. If they approve the requests, the job will run. If they deny the requests, you will not be able to run the job.
 
@@ -105,12 +105,12 @@ Step 2 – On Synchronize portal, click __All Jobs__.
 Step 3 – Click the __three vertical dots__ icon of the job and select __Schedule__ from
 the menu.
 
-It will take you to the __Schedule and Job Notifications__ page of [Create a Job](/docs/groupid/groupid/portal/synchronize/job/create.md). Update the schedule and click __Finish__ to save
+It will take you to the __Schedule and Job Notifications__ page of [Create a Job](../job/create.md). Update the schedule and click __Finish__ to save
 the changes.
 
 ## Pin a Job
 
-To pin a job to the [Dashboard](/docs/groupid/groupid/portal/synchronize/dashboard.md) under the pinned job card:
+To pin a job to the [Dashboard](../dashboard.md) under the pinned job card:
 
 Step 1 – On Directory Manager portal, select __Synchronize__ on left pane.
 
@@ -118,7 +118,7 @@ Step 2 – On Synchronize portal, click __All Jobs__.
 
 Step 3 – Click the __three vertical dots__ icon of the job and select __Pin Item__ from the menu.
 
-Step 4 – The job is displayed on __My Pinned Jobs__ card on the [Dashboard](/docs/groupid/groupid/portal/synchronize/dashboard.md).
+Step 4 – The job is displayed on __My Pinned Jobs__ card on the [Dashboard](../dashboard.md).
 
 ## Save as Template
 

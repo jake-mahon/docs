@@ -16,7 +16,7 @@ Here are some guidelines to specific clean up problems:
 >
 > Value-based Clean Up
 
-These guidelines assume you set up your List Views the same way as described [Step 1: Identify and Prioritize Targets](/docs/strongpointforsalesforce/tech_debt/tech_debt_org_clean_up_example.md).
+These guidelines assume you set up your List Views the same way as described [Step 1: Identify and Prioritize Targets](tech_debt_org_clean_up_example.md).
 
 ## Unused, Risky
 
@@ -111,4 +111,4 @@ Points to consider:
 - Search carefully if using multiple terms (refer to this [Salesforce Search guide](https://help.salesforce.com/articleView?id=000247472andtype=1)) - quotes can be useful to enforce just the string you are looking for. __"Search Term"__ (in quotes) finds objects with that phrase whereas __Search Term__ (unquoted) finds anything with __Search__ and __Term__ even if they are in different fields in the List View.
 - Even good searches can result in false positive matches if the same value appears in multiple lists or record types or is a commonly-used term in Salesforce's XML or is a common company-specific term.
 
-__Next Technical Debt Topic:__ [Ongoing Monitoring ](/docs/strongpointforsalesforce/tech_debt/tech_debt_org_ongoing_monitoring.md)
+__Next Technical Debt Topic:__ [Ongoing Monitoring ](tech_debt_org_ongoing_monitoring.md)

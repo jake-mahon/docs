@@ -2,7 +2,7 @@
 
 Use this API to create a new Synchronize job which is a set of sequential commands that run in the background to move data from one data source to another data source.
 
-See the [Create a Job](/docs/groupid/groupid/portal/synchronize/job/create.md) topic for more information about creating a job.
+See the [Create a Job](../../portal/synchronize/job/create.md) topic for more information about creating a job.
 
 ## Endpoint
 

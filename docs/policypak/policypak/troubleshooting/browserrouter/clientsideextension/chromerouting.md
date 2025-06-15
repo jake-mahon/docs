@@ -29,7 +29,7 @@ Q: How would I know if I'm affected byEndpoint Policy Manager being forced to ta
 
 A: We have the list of extensions which ARE VALID (now, it is exactly ONE extension) and which WERE valid (100% of the older ones are now turned off) which are on this list
 
-[What is the Chrome Extension ID for all the published versions of Endpoint Policy Manager Browser Router Client Side Extension?](/docs/policypak/policypak/troubleshooting/browserrouter/clientsideextension/chromeextensionid.md)
+[What is the Chrome Extension ID for all the published versions of Endpoint Policy Manager Browser Router Client Side Extension?](chromeextensionid.md)
 
 Q: What should I now?
 
@@ -41,7 +41,7 @@ A: Our general guidance is, and has always been… please try to stick closely t
 
 Q: I cannot update to the latest extension, but I am using builds CSE 18.7.1779.937 - 19.12.2283.849. What is this workaround of which you speak?
 
-A: We have a KB article about it here: "How can I use the onlyEndpoint Policy Manager published Chrome Extension with my older CSE? (CSE 18.7.1779.937 - 19.12.2283.849)" [How can I use the only remaining Endpoint Policy Manager published Chrome Extension with my older CSE? (CSE 18.7.1779.937 - 19.12.2283.849)](/docs/policypak/policypak/troubleshooting/browserrouter/clientsideextension/chromeextension.md)
+A: We have a KB article about it here: "How can I use the onlyEndpoint Policy Manager published Chrome Extension with my older CSE? (CSE 18.7.1779.937 - 19.12.2283.849)" [How can I use the only remaining Endpoint Policy Manager published Chrome Extension with my older CSE? (CSE 18.7.1779.937 - 19.12.2283.849)](chromeextension.md)
 
 Q: I'm using a CSE before 18.7.1779.937. What is the workaround?
 

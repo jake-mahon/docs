@@ -8,7 +8,7 @@ __NOTE:__  This is already on your DCs, but Netwrix Endpoint Policy Manager (for
 
 On a server, go into Server Manager and select it as a featureto add.
 
-![268_1_img-01_950x550](/img/product_docs/policypak/policypak/install/268_1_img-01_950x550.webp)
+![268_1_img-01_950x550](../../../../static/img/product_docs/policypak/policypak/install/268_1_img-01_950x550.webp)
 
 You can also install the GPMC on a Windows 10 client,which is preferred method. If you want to do this, there are two ways.
 
@@ -18,7 +18,7 @@ This is the most reliable way to get the GPMC installed. First, download them fr
 
 Next, verify that the GPMC gets installed and checked on automatically.
 
-![268_3_img-02](/img/product_docs/policypak/policypak/install/268_3_img-02.webp)
+![268_3_img-02](../../../../static/img/product_docs/policypak/policypak/install/268_3_img-02.webp)
 
 ## 2: Use PowerShell in Windows 10 (Windows 10 1809 and later)
 
@@ -28,8 +28,8 @@ If you install Windows 10 1809 or later, you can install the GPMC with a DISM co
 
 The result will look like this.
 
-![268_5_img-03_950x237](/img/product_docs/policypak/policypak/install/268_5_img-03_950x237.webp)
+![268_5_img-03_950x237](../../../../static/img/product_docs/policypak/policypak/install/268_5_img-03_950x237.webp)
 
 Now you are ready to install the Endpoint Policy Manager Admin Console MSI, which then gets you the Endpoint Policy Manager node within the Group Policy Editor.
 
-![268_7_img-04_950x743](/img/product_docs/policypak/policypak/install/268_7_img-04_950x743.webp)
+![268_7_img-04_950x743](../../../../static/img/product_docs/policypak/policypak/install/268_7_img-04_950x743.webp)

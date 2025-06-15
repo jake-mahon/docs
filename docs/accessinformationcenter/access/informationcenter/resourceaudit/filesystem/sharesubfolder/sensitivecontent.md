@@ -2,7 +2,7 @@
 
 The Sensitive Content report at the share and subfolder levels provides a list of files and a hit count per file where criteria matches were found on the selected resource. This report includes a table with criteria matches visible to Access Information Center users with either Administrator or Security Team roles. The Matches table requires the __store discovered sensitive data__ configuration for the Access Analyzer data collection or it will be blank.
 
-![Sensitive Content report at the share and subfolder levels](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/filesystem/sharesubfolder/sharesensitivecontent.webp)
+![Sensitive Content report at the share and subfolder levels](../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/filesystem/sharesubfolder/sharesensitivecontent.webp)
 
 This report is comprised of the following columns:
 

@@ -58,5 +58,5 @@ NOTE: When additional owners have been added using an earlier version of Directo
 
 __See Also__
 
-- [Security Roles](/docs/groupid/groupid/admincenter/securityrole/overview.md)
-- [Security Role Policies](/docs/groupid/groupid/admincenter/securityrole/policy/overview.md)
+- [Security Roles](../overview.md)
+- [Security Role Policies](overview.md)

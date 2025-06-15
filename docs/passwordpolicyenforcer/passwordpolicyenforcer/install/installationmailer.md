@@ -1,6 +1,6 @@
 # Install Mailer Service
 
-Netwrix Password Policy Enforcer sends email reminders to domain users before their passwords expire. This is especially useful for users who logon infrequently, and for remote users who access the network without logging on to the domain. You must install the Password Policy Enforcer Mailer and configure the email delivery and email message options to send email reminders to users. See the [Notifications](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/configconsole.md#notifications) topic for additional information.
+Netwrix Password Policy Enforcer sends email reminders to domain users before their passwords expire. This is especially useful for users who logon infrequently, and for remote users who access the network without logging on to the domain. You must install the Password Policy Enforcer Mailer and configure the email delivery and email message options to send email reminders to users. See the [Notifications](../administration/configconsole.md#notifications) topic for additional information.
 
 Add your email address to a service account, and the Password Policy Enforcer Mailer reminds you to change the service account password before it expires.
 
@@ -12,6 +12,6 @@ The mailer is a feature package included in the server installation __.msi__ fil
 - Configuration Console – manages policy configuration. Install where ever needed.
 - Mailer Service – sends email reminders. Install on any server.
 
-Follow the procedure in [Install Password Policy Enforcer on a Server](/docs/passwordpolicyenforcer/passwordpolicyenforcer/install/installationserver.md), selecting the __Mailer Service__ feature. You can select the other features if appropriate for the server.
+Follow the procedure in [Install Password Policy Enforcer on a Server](installationserver.md), selecting the __Mailer Service__ feature. You can select the other features if appropriate for the server.
 
-You can also install/uninstall the products using command line [Silent Installation](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/command_line_interface.md#silent-installation).
+You can also install/uninstall the products using command line [Silent Installation](../administration/command_line_interface.md#silent-installation).

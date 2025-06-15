@@ -3,7 +3,7 @@
 Using this API you can retrieve information about a job collection ID of which is given in the endpoint URL.
 
 See the [Create a Job Collection
-](/docs/groupid/groupid/portal/synchronize/collection/create.md)topic for additional information.
+](../../portal/synchronize/collection/create.md)topic for additional information.
 
 ## Endpoint
 

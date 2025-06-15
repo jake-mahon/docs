@@ -6,19 +6,19 @@ It is necessary to make some preparations so that the move can be completed with
 
 #### 1. Installing the SQL server
 
-If the SQL server and the application server are on the same machine, the SQL server should be installed on the new machine first. It is necessary to observe the [MSSQL Server](/docs/passwordsecure/passwordsecure/installation/requirements/mssql_server.md) for this process.
+If the SQL server and the application server are on the same machine, the SQL server should be installed on the new machine first. It is necessary to observe the [MSSQL Server](../installation/requirements/mssql_server.md) for this process.
 
 #### 2. Installing the server
 
-The Netwrix Password Secure application server is installed next (see [Application server](/docs/passwordsecure/passwordsecure/installation/requirements/application_server.md)). The installation itself is described under [Installation Server Manager](/docs/passwordsecure/passwordsecure/installation/installation_server_manager/installation_server_manager.md).
+The Netwrix Password Secure application server is installed next (see [Application server](../installation/requirements/application_server.md)). The installation itself is described under [Installation Server Manager](../installation/installation_server_manager/installation_server_manager.md).
 
 #### 3. Basic configuration
 
-After the server has been installed, the [Basic configuration](/docs/passwordsecure/passwordsecure/configuration/server_manager/baseconfiguration/basic_configuration.md) is completed. A new configuration database will be created on the SQL server as a result. If you want to retain the old SQL server, it is necessary to give the configuration database a new name.
+After the server has been installed, the [Basic configuration](../configuration/server_manager/baseconfiguration/basic_configuration.md) is completed. A new configuration database will be created on the SQL server as a result. If you want to retain the old SQL server, it is necessary to give the configuration database a new name.
 
 #### 4. Deactivating the old server
 
-The license first needs to be deactivated before it can be activated on the new server (see options under [License settings](/docs/passwordsecure/passwordsecure/configuration/server_manager/main_menu/license_settings.md). Now stop the server so that nothing more can be changed in the database.
+The license first needs to be deactivated before it can be activated on the new server (see options under [License settings](../configuration/server_manager/main_menu/license_settings.md). Now stop the server so that nothing more can be changed in the database.
 
 ## Backing up the data
 
@@ -32,11 +32,11 @@ If using a virtual machine, a backup of it should be created. The old version of
 
 In order to transfer the data to the new server, a backup of the database should be created. Although this is also possible via the Server Manager, we recommend carrying out the backup at the SQL level: right click on the database, then on Tasks and Backup. The desired target folder is selected in the following window.
 
-![insert backup](/img/product_docs/passwordsecure/passwordsecure/maintenance/sql-backup-en.webp)
+![insert backup](../../../../static/img/product_docs/passwordsecure/passwordsecure/maintenance/sql-backup-en.webp)
 
 #### 3. Backing up the server certificate
 
-It is essential that the all available [Certificates](/docs/passwordsecure/passwordsecure/configuration/server_manager/certificates/certificates.md) are backed up. Depending on the installation, a different number of certificates are required here.
+It is essential that the all available [Certificates](../configuration/server_manager/certificates/certificates.md) are backed up. Depending on the installation, a different number of certificates are required here.
 
 ## Configuring the new server
 
@@ -46,17 +46,17 @@ After the backed up data (database and certificate) has been transferred to the 
 
 Firstly, a new database is created on the SQL server. This option can be found in the SQL Management Studio after right clicking on Databases. It is usually sufficient to simply enter the database names.
 
-![integrate the database](/img/product_docs/passwordsecure/passwordsecure/maintenance/sql-new-db-en.webp)
+![integrate the database](../../../../static/img/product_docs/passwordsecure/passwordsecure/maintenance/sql-new-db-en.webp)
 
 As soon as the database has been created, the option Restore (under Tasks) can be selected by right clicking on the server. The Database is thus selected here. The backup now needs to be selected. It is also essential to check whether the correct database has been selected in the field "Target".
 
-![restore db](/img/product_docs/passwordsecure/passwordsecure/maintenance/sql-restore-en.webp)
+![restore db](../../../../static/img/product_docs/passwordsecure/passwordsecure/maintenance/sql-restore-en.webp)
 
 NOTE: This method can be also used to import backups that were directly created from the Server Manager.
 
 #### 2. Setting up the server
 
-After the backup has been installed on the new database, you can be start the Server Manager and run the setup wizard. The [Setup wizard](/docs/passwordsecure/passwordsecure/configuration/server_manager/setupwizard/setup_wizard.md) is used for (amongst other things) reactivating the license. It is now possible to enter all of the desired configurations for the server.
+After the backup has been installed on the new database, you can be start the Server Manager and run the setup wizard. The [Setup wizard](../configuration/server_manager/setupwizard/setup_wizard.md) is used for (amongst other things) reactivating the license. It is now possible to enter all of the desired configurations for the server.
 
 #### 3. Importing the certificates
 

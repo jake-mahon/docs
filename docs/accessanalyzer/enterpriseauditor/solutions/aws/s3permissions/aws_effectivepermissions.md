@@ -8,7 +8,7 @@ Navigate to the __AWS__ > __6.S3 Permissions__ > __AWS_EffectivePermissions__ > 
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the AWS_Accounts Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/db2/permissions/effectivepermissionsanalysis.webp)
+![Analysis Tasks for the AWS_Accounts Job](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/db2/permissions/effectivepermissionsanalysis.webp)
 
 The following analysis tasks are selected by default:
 

@@ -6,7 +6,7 @@ This guide shows how to create in the XML configuration profiles and the appropr
 
 Here is the xml configuration to create a profile in Identity Manager. See the [
 Profile
-](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/access-control/profile/index.md) topic for additional information.
+](../../../toolkit/xml-configuration/access-control/profile/index.md) topic for additional information.
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
@@ -16,7 +16,7 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 
 ## Automatically Assign Profiles
 
-To automatically assign profiles it is necessary to manipulate the ProfileRuleContext and ProfileRule. See the [Access Control Rule](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/index.md) and [Profile Rule Context](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/access-control/profilerulecontext/index.md) topics for additional information.
+To automatically assign profiles it is necessary to manipulate the ProfileRuleContext and ProfileRule. See the [Access Control Rule](../../../toolkit/xml-configuration/access-control/accesscontrolrule/index.md) and [Profile Rule Context](../../../toolkit/xml-configuration/access-control/profilerulecontext/index.md) topics for additional information.
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
@@ -28,7 +28,7 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 
 The Identity Manager-Set-InternalUserProfiles task is mandatory to automatically assign the profile. The task can be selected from the Job provisioning list. See the [
 Set Internal User Profiles Task
-](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/setinternaluserprofilestask/index.md) topic for additional information.
+](../../../toolkit/xml-configuration/jobs/tasks/server/setinternaluserprofilestask/index.md) topic for additional information.
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 

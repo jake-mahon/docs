@@ -17,7 +17,7 @@ The Options page provides additional configuration options for the query. Option
 - Deploy or Change Applet Settings
 - Remove Applet Settings
 
-![Exchange Metrics Data Collector Wizard Options page](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/options.webp)
+![Exchange Metrics Data Collector Wizard Options page](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/install/application/options.webp)
 
 Select the checkbox of any of the following options to configure the query:
 

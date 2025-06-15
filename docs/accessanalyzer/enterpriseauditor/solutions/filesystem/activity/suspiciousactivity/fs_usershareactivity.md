@@ -8,7 +8,7 @@ View the analysis tasks by navigating to the __FileSystem__ > __5.Activity__ > _
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the FS_UserShareActivity Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/activity/suspiciousactivity/usershareactivityanalysis.webp)
+![Analysis Tasks for the FS_UserShareActivity Job](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/activity/suspiciousactivity/usershareactivityanalysis.webp)
 
 - Track Latest Activity Per User Per Share – Creates the SA_FS_UserShareActivity_LatestActivity table accessible under the job’s Results node
 - Average days since last Access – Creates the SA_FS_UserShareActivity_ShareSummary table accessible under the job’s Results node

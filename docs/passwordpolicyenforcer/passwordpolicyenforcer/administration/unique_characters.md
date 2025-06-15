@@ -2,7 +2,7 @@
 
 The Unique Characters rule rejects passwords that do not contain a minimum number of unique characters. For example, the password "aaaaaaaa" only contains one unique character (a), whereas "mypassword" contains nine unique characters (mypasword). Increasing the number of unique characters in a password increases password strength by avoiding repetitive sequences that are easily guessed. The Unique Characters rule is case sensitive, so "LoOpHole" contains seven unique characters (LoOpHle).
 
-![Unique characters rule](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/unique.webp)
+![Unique characters rule](../../../../static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/unique.webp)
 
 Select the __Unique characters__ check box to enable the Unique Characters rule.
 

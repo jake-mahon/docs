@@ -1,10 +1,10 @@
 # SAS_ExecutionStatistics Job
 
-The SAS_ExecutionStatistics Job tracks historical performance of Access Analyzer job and analysis functions and highlights when a particular task takes an abnormal length of time to execute. It is available through the Instant Job Library under the Access Analyzer Utilities library. See the [Instant Job Wizard](/docs/accessanalyzer/enterpriseauditor/admin/jobs/instantjobs/overview.md) section for instructions to add this instant job into the Jobs tree. Since this job does not require a host to target, select Local host on the Hosts page of the Instant Job Wizard.
+The SAS_ExecutionStatistics Job tracks historical performance of Access Analyzer job and analysis functions and highlights when a particular task takes an abnormal length of time to execute. It is available through the Instant Job Library under the Access Analyzer Utilities library. See the [Instant Job Wizard](overview.md) section for instructions to add this instant job into the Jobs tree. Since this job does not require a host to target, select Local host on the Hosts page of the Instant Job Wizard.
 
-The job is dependent upon the Job Statistics Retention configuration in the __Settings__ > __Application__ node. See the [Application](/docs/accessanalyzer/enterpriseauditor/admin/settings/application/overview.md) topic for additional information.
+The job is dependent upon the Job Statistics Retention configuration in the __Settings__ > __Application__ node. See the [Application](../../settings/application/overview.md) topic for additional information.
 
-![SAS_ExecutionStatistics job in the Jobs tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.webp)
+![SAS_ExecutionStatistics job in the Jobs tree](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.webp)
 
 Runtime Details:
 
@@ -23,7 +23,7 @@ Navigate to the __Jobs__ > __SAS_ExecutionStatistics__ > __Configure__ node and 
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Default Analysis tasks for the job](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/instantjobs/analysistasks.webp)
+![Default Analysis tasks for the job](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/instantjobs/analysistasks.webp)
 
 The default analysis tasks are:
 

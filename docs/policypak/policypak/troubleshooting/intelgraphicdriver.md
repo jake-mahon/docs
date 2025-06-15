@@ -6,7 +6,7 @@ Symptom
 
 Any updates that you try to install using the Intel DSA console will display as "canceled".
 
-![Intel Driver and Support Assistant Update error](/img/product_docs/policypak/policypak/troubleshooting/inteldsaupdates.webp)
+![Intel Driver and Support Assistant Update error](../../../../static/img/product_docs/policypak/policypak/troubleshooting/inteldsaupdates.webp)
 
 Cause
 
@@ -14,7 +14,7 @@ The Least Privilege Manager Explicit Elevate option is intercepting the elevatio
 
 Resolution 1
 
-See the Scenario 2 section of the [How can I change the behavior of "Run as Admin" with Endpoint Privilege Manager and how has it changed from previous versions?](/docs/policypak/policypak/leastprivilege/runasadmin.md) topic for additional information on how to disable the Explicit Elevate option.
+See the Scenario 2 section of the [How can I change the behavior of "Run as Admin" with Endpoint Privilege Manager and how has it changed from previous versions?](../leastprivilege/runasadmin.md) topic for additional information on how to disable the Explicit Elevate option.
 
 Resolution 2
 
@@ -55,6 +55,6 @@ Alternatively, you can import and use the Endpoint Policy Manager Admin Template
 
 After completing one of the resolutions, try installing the Intel updates to verify the resolution worked.
 
-![Intel Driver and Support Assistant Installer](/img/product_docs/policypak/policypak/troubleshooting/inteldsainstaller.webp)
+![Intel Driver and Support Assistant Installer](../../../../static/img/product_docs/policypak/policypak/troubleshooting/inteldsainstaller.webp)
 
 If the Intel update is still canceled, try both resolutions before reaching out to support.

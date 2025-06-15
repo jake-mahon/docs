@@ -4,7 +4,7 @@ How to Stay Supported
 
 Only the latest client-side extension (CSE) in the Portal or Netwrix Endpoint Policy Manager (formerly PolicyPak) Cloud, the one with the most fixes and features, is fully supported.
 
-__NOTE:__ To better understand Endpoint Policy Manager build and version numbers, see the [What are the Endpoint Policy Manager Build and Version numbers?](/docs/policypak/policypak/troubleshooting/versions.md) topic for additional information.
+__NOTE:__ To better understand Endpoint Policy Manager build and version numbers, see the [What are the Endpoint Policy Manager Build and Version numbers?](../../troubleshooting/versions.md) topic for additional information.
 
 Just because you are unable to stay current (or nearly current) with the Endpoint Policy Manager CSE rollouts, does not mean that you lose support. You are always supported, regardless of the CSE version you have on your machine. However, if you find a bug, problem, inconsistency, or other issue, then Endpoint Policy Manager support will direct you to update (at least) one machine with the very latest CSE on it for investigation. We will also ask for log files from that machine after you have reproduced the issue. In other words, as a general rule, we will typically not begin to investigate your issue unless you can reproduce it on a machine with the latest CSE. There is no value in investigating old CSE behavior because the problem could already be fixed in the latest version, and logging improvements could be present in the latest CSEs. Additionally, if your request involves us investigating the log files, similarly, we will not ask for nor investigate any log files unless the problem is reproducible on the latest CSE.
 

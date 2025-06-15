@@ -22,17 +22,17 @@ __Step 1 –__ Open Privilege Secure in a browser window. The Login screen will
 
 __NOTE:__ Privilege Secure requires a multi-factor authentication (MFA) solution (Authenticator, DUO, Symantec VIP, etc) for all Reviewer accounts unless otherwise configured by an Administrator. If required, first time Reviewers must register with an MFA to use with their login credentials.
 
-![Default Login](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/defaultloginuser.webp)
+![Default Login](../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/defaultloginuser.webp)
 
 __Step 2 –__ Either click the default authentication connector button, or click __Log In with a Different Account__ to display all of the authentication connectors that are registered with Privilege Secure.
 
-![Alternate Login](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/alternatelogin.webp)
+![Alternate Login](../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/alternatelogin.webp)
 
 __Step 3 –__ Login to Privilege Secure with a configured authentication connector, or enter the user credentials.
 
 - When using an authentication connector, there's no 'username' or 'password' field for the user to enter. Instead there's just a single button to login.
 
-![Okta authentication connector](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/oktadefault.webp)
+![Okta authentication connector](../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/oktadefault.webp)
 
 - Clicking the authentication connector will redirect the user to the IdP login screen, which will log the user in (with whatever MFA is set up in the IdP) and then revert the user back to the Privilege Secure dashboard once authenticated. Steps 4-7 will be skipped when using an IdP login.
 
@@ -42,10 +42,10 @@ __Step 5 –__ A QR code will be displayed to register with an authenticator app
 
 __Step 6 –__ Enter the code provided by the registered multi-factor authenticator (MFA).
 
-![Multi Factor Authentication Login](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/mfalogin.webp)
+![Multi Factor Authentication Login](../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/mfalogin.webp)
 
 __Step 7 –__ Click MFA Login. Privilege Secure opens on the Dashboard Interface.
 
-![Dashboard Interface](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/activedashboarduser.webp)
+![Dashboard Interface](../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/activedashboarduser.webp)
 
 Privilege Secure is ready to use.

@@ -6,7 +6,7 @@ The 8.0 API model consists of the following resources:
   Represents an Activity Monitor Agent. API allows you to view existing agents and their status, register, modify, or remove agents. There is no way to install, upgrade, or uninstall agents in the 6.0 API.
   You can list all the agents or the agents of a domain (AD-monitoring agents on the domain controllers).   
   Children: Host, Domain  
-  See the [Agent](/docs/activitymonitor/activitymonitor/restapi/agent.md) topic for additional information.
+  See the [Agent](agent.md) topic for additional information.
 
 - Host
   – Represents a host or platform monitored by the product (Windows, NetApp, SharePoint, SQL Server, etc). It is a Monitored Host in the Console. You can list all the hosts of the agent, or just all the hosts.
@@ -14,12 +14,12 @@ The 8.0 API model consists of the following resources:
   Typical properties include a hostname, credentials to access API, connection settings.
   A Host is associated with at least one Output. Each Host can have multiple child Outputs, and each Output has its own unique filter settings.   
   Children: Output  
-  See the [Host](/docs/activitymonitor/activitymonitor/restapi/host.md) topic for additional information.
+  See the [Host](host.md) topic for additional information.
 
 - Domain –
   It is a Monitored Domain in the Console. The API provides summary information about each monitored domain. Similar to host, the domain also has one or more output. These outputs are common for all AD-monitoring agents of the domain. Each domain controller has the same log file settings, syslog, and AMQP.  
   Children: Output, Agent  
-  See the [Domain](/docs/activitymonitor/activitymonitor/restapi/domain.md) topic for additional information.
+  See the [Domain](domain.md) topic for additional information.
 
 - Output
   – A log file or Syslog or AMQP (DEFEND) destination for the activity data. Typical properties of the __Output__ include log file settings (path, retention etc.), syslog settings (server, UDP/TCP, message template etc.), path filtering (include C:, exclude C:\temp), operations (Write File, Create File, Delete File, Create Share etc.), account filtering (exclude DOMAIN\service-account1), protocol (CIFS, NFS), etc.   
@@ -29,7 +29,7 @@ The 8.0 API model consists of the following resources:
   - Policy
     represents an Active Directory monitoring policy. The API allows you to create new policies, list, modify, and delete existing.
 
-  See the [Output](/docs/activitymonitor/activitymonitor/restapi/output.md) topic for additional information.
+  See the [Output](output.md) topic for additional information.
 
 Data is transmitted as JSON objects or as JSON Merge Patch for PATCH requests. Dates are formatted in UTC using the ```YYYY-MM-DDTHH:MM:SS``` DateTime format. Security-sensitive data like passwords, certificates, and access tokens are not returned by the GET requests but can be set using POST and PATCH requests.
 

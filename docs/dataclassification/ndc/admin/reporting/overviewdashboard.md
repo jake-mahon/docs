@@ -4,13 +4,13 @@ The dashboard provides a top-level overview of the security classifications tagg
 
 __NOTE:__ To review the dashboard a user requires the Access Reports permission and must have at least one Netwrix built-in taxonomy downloaded. See the following sections for more information:
 
-- [User Management](/docs/dataclassification/ndc/security/usermanagement.md)
+- [User Management](../../security/usermanagement.md)
 - [Built-in Taxonomies Overview
-  ](/docs/dataclassification/ndc/admin/taxonomies/builtintaxonomies.md)
+  ](../taxonomies/builtintaxonomies.md)
 
 The dashboard is the home page for the administrative web console.
 
-![sensitive_dashboard_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/reporting/sensitive_dashboard_thumb_0_0.webp)
+![sensitive_dashboard_thumb_0_0](../../../../../static/img/product_docs/dataclassification/ndc/admin/reporting/sensitive_dashboard_thumb_0_0.webp)
 
 If you want to switch to the dashboard page after doing any other tasks in the administrative web console, do the following:
 
@@ -19,7 +19,7 @@ If you want to switch to the dashboard page after doing any other tasks in the a
   _OR_
 - Locate the Data Analysis top level menu and select Reports:
 
-  ![switch_dashboard](/img/product_docs/dataclassification/ndc/admin/reporting/switch_dashboard.webp)
+  ![switch_dashboard](../../../../../static/img/product_docs/dataclassification/ndc/admin/reporting/switch_dashboard.webp)
 - Select the Dashboard tab on the left.
 
 __IMPORTANT!__ The data for the dashboard automatically updates every 15 minutes. Please note that refreshing the page will not update the data.
@@ -32,7 +32,7 @@ The dashboard includes the following sections:
 
   __NOTE:__ Folders are not counted.
 - Sensitive Files – helps you identify how many files have been tagged at least once in any of Netwrix built-in sensitive taxonomies except for the following: File Type, File Size, Language. Review the [Built-in Taxonomies Overview
-  ](/docs/dataclassification/ndc/admin/taxonomies/builtintaxonomies.md) section for the full list of predefined taxonomies.
+  ](../taxonomies/builtintaxonomies.md) section for the full list of predefined taxonomies.
 
   __NOTE:__  Custom taxonomies are not counted.
 - Sensitive Files by Source (Top 5) – shows the top 5 sources that contain most of your sensitive data.
@@ -54,7 +54,7 @@ To apply filters
 
 1. Select Custom view in the upper left corner of the dashboard.
 
-   ![dashboard_filters_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/reporting/dashboard_filters_thumb_0_0.webp)
+   ![dashboard_filters_thumb_0_0](../../../../../static/img/product_docs/dataclassification/ndc/admin/reporting/dashboard_filters_thumb_0_0.webp)
 2. Select a taxonomy(-ies) and/or a source group(s) you want to see real-time data for.
 3. Click Apply Filters to immediately review classified data matching your filtering criteria.
 
@@ -64,7 +64,7 @@ You can build up a few different dashboards for combinations of particular sourc
 
 1. Apply custom filters as described above.
 
-   ![dashboard_filters_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/reporting/dashboard_filters_thumb_0_0.webp)
+   ![dashboard_filters_thumb_0_0](../../../../../static/img/product_docs/dataclassification/ndc/admin/reporting/dashboard_filters_thumb_0_0.webp)
 2. Click Save Configuration.
 
 To review saved configurations

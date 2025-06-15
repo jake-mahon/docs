@@ -4,7 +4,7 @@ The Query Designer enables you to create queries for Smart Groups, Dynasties and
 For example, you can construct a query to retrieve all users having mailboxes on a particular Exchange Server or you can build a query to retrieve all directory objects whose information is present in an external data source, such as Microsoft SQL
 Server.
 
-If the administrator has defined a Query Designer access policy for your role, you can create queries as per the defined policy. A banner is displayed on the Query Designer dialog box indicating that the administrator has implemented a policy for your role. See the [ Query Designer Policy](/docs/groupid/groupid/admincenter/securityrole/policy/querydesigner.md) topic.
+If the administrator has defined a Query Designer access policy for your role, you can create queries as per the defined policy. A banner is displayed on the Query Designer dialog box indicating that the administrator has implemented a policy for your role. See the [ Query Designer Policy](../../../admincenter/securityrole/policy/querydesigner.md) topic.
 
 The query language depends on the identity store type.
 
@@ -65,12 +65,12 @@ View the provider query in the LDAP Query box.
 
 The Query Designer has the following tabs:
 
-- [Query Designer - General tab](/docs/groupid/groupid/portal/group/querydesigner/general.md)
-- [Query Designer - Storage tab](/docs/groupid/groupid/portal/group/querydesigner/storage.md)
-- [Query Designer - Filter Criteria tab](/docs/groupid/groupid/portal/group/querydesigner/filtercriteria.md)
-- [Query Designer - Include/Exclude tab](/docs/groupid/groupid/portal/group/querydesigner/includeexclude.md)
-- [Query Designer - Database tab](/docs/groupid/groupid/portal/group/querydesigner/database.md)
-- [Query Designer - Script tab](/docs/groupid/groupid/portal/group/querydesigner/script.md)
-- [Query Designer - Password Expiry Options tab](/docs/groupid/groupid/portal/group/querydesigner/passwordexpiryoptions.md)[Query Designer - Password Expiry Options tab](/docs/groupid/groupid/portal/group/querydesigner/passwordexpiryoptions.md) (only available for Smart Groups with a password expiry condition)
+- [Query Designer - General tab](general.md)
+- [Query Designer - Storage tab](storage.md)
+- [Query Designer - Filter Criteria tab](filtercriteria.md)
+- [Query Designer - Include/Exclude tab](includeexclude.md)
+- [Query Designer - Database tab](database.md)
+- [Query Designer - Script tab](script.md)
+- [Query Designer - Password Expiry Options tab](passwordexpiryoptions.md)[Query Designer - Password Expiry Options tab](passwordexpiryoptions.md) (only available for Smart Groups with a password expiry condition)
 
 NOTE: The __Storage__ and __Script__ tabs are not available for groups in a Microsoft Entra ID identity store.

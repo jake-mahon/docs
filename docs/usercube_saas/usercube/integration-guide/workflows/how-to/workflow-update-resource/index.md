@@ -6,14 +6,14 @@ This section guides you through the procedure for the creation of a workflow to 
 
 This [
 Workflow
-](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/workflows/workflow/index.md) is made of two activities:
+](../../../toolkit/xml-configuration/workflows/workflow/index.md) is made of two activities:
 
 1. ```Action With Refine```: sends the resource's update request with a possibility of delegation.
 2. ```Persist```: saves the collected data and triggers provisioning.
 
 See the [
 Activity Templates
-](/docs/usercube_saas/usercube/integration-guide/workflows/activity-templates/index.md) topic for additional information.
+](../../activity-templates/index.md) topic for additional information.
 
 The example below creates a workflow to update only the user's ```IsDraft``` attribute.
 
@@ -25,7 +25,7 @@ The example below creates a workflow to update only the user's ```IsDraft``` att
 
 ## Create Forms
 
-The XML configuration below represents the creation of a [Form](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/user-interface/form/index.md) that defines the elements to display in the workflow.
+The XML configuration below represents the creation of a [Form](../../../toolkit/xml-configuration/user-interface/form/index.md) that defines the elements to display in the workflow.
 
 Here we just have one field called ```IsDraft``` to update the corresponding boolean attribute for a given user:
 
@@ -55,7 +55,7 @@ A ```WorkflowEditEntityForm``` requires one child element ```MainControl``` that
 
 ```
 
-![UI Form](/img/product_docs/usercube/usercube/integration-guide/workflows/how-to/workflow-update-resource/howto_resourceupdateno_form_v603.webp)
+![UI Form](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/workflows/how-to/workflow-update-resource/howto_resourceupdateno_form_v603.webp)
 
 ### Add a summary (Optional)
 
@@ -69,14 +69,14 @@ Another child element ```SummaryControl``` can be added to insert a summary part
 
 ```
 
-![UI Summary](/img/product_docs/usercube/usercube/integration-guide/workflows/how-to/workflow-update-resource/howto_resourceupdateno_summary_v603.webp)
+![UI Summary](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/workflows/how-to/workflow-update-resource/howto_resourceupdateno_summary_v603.webp)
 
 ## Assign the Right Permissions
 
 Some profiles must get specific permissions so that the workflow is visible and usable by the right users.
 Read about the [
 Workflow
-](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/workflows/workflow/index.md) permissions.
+](../../../toolkit/xml-configuration/workflows/workflow/index.md) permissions.
 
 Below is an example of an access control rule where the ```Administrator``` profile gets the permissions for the whole update request from the previously created workflow:
 
@@ -90,11 +90,11 @@ Below is an example of an access control rule where the ```Administrator``` prof
 
 [
 Menu Item
-](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/user-interface/menuitem/index.md) must be defined to make the workflow accessible in the UI.
+](../../../toolkit/xml-configuration/user-interface/menuitem/index.md) must be defined to make the workflow accessible in the UI.
 
 Updating an existing resource, this workflow manages one given resource at a time. Hence an interesting location for this workflow could be the individual view page of users.
 
-![Workflow Menu Items - User's Page](/img/product_docs/usercube/usercube/integration-guide/workflows/how-to/workflow-update-mono/menuitems_userview_v603.webp)
+![Workflow Menu Items - User's Page](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/workflows/how-to/workflow-update-mono/menuitems_userview_v603.webp)
 
 To create a menu item here for the new workflow, you can add the following XML configuration to the existing menu items list:
 
@@ -112,4 +112,4 @@ For each workflow, it is possible to add aspects according to the workflow's pur
 
 ## Customize the Display Table (Optional)
 
-To configure a display table different from the default one provided by Identity Manager, see the [Customize Display Tables](/docs/usercube_saas/usercube/integration-guide/ui/how-tos/custom-display-table/index.md) topic for additional information.
+To configure a display table different from the default one provided by Identity Manager, see the [Customize Display Tables](../../../ui/how-tos/custom-display-table/index.md) topic for additional information.

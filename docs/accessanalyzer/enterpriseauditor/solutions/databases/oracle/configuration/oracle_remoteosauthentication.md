@@ -8,7 +8,7 @@ Navigate to the __Jobs > Databases > Oracle > 4.Configuration > Oracle_RemoteOSA
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/oracle/configuration/analysisremoteosauth.webp)
+![Analysis Selection](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/oracle/configuration/analysisremoteosauth.webp)
 
 The default analysis tasks are:
 

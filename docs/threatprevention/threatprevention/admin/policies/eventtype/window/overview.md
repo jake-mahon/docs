@@ -6,7 +6,7 @@ Many event type filters have selections windows for populating filter values. It
 
 On several Select… windows, you must select a server where the Agent has been deployed, as these windows present live information provided by the Agent. If no Agent is found, the window does not open.
 
-![Selection Window - Connect to Agent/Server option](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/window/selectagent.webp)
+![Selection Window - Connect to Agent/Server option](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/window/selectagent.webp)
 
 The following rules can aid in selecting the correct Agent for the Select… window when configuring solution related policies:
 
@@ -19,7 +19,7 @@ The following rules can aid in selecting the correct Agent for the Select… win
 
 Select a server/Agent from the drop-down menu and click __Connect__.
 
-![Selection Window - Browse mode](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/window/adperpetrators.webp)
+![Selection Window - Browse mode](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/window/adperpetrators.webp)
 
 - Select the option button for __Browse Mode__.
 - Expand the domain tree in the Navigation pane to select a container. The Results pane populates with the available items.
@@ -31,7 +31,7 @@ The selection(s) are displayed in the appropriate box of the filter tab from whe
 
 Select a server/Agent from the drop-down menu and click __Connect__.
 
-![Selection Window - Search Mode](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/window/searchmode.webp)
+![Selection Window - Search Mode](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/window/searchmode.webp)
 
 - Select the option button for __Search Mode__.
 - Expand the domain tree in the Navigation pane to select the starting point for the search, which auto-populates the Start in field. Use the following scoping options:

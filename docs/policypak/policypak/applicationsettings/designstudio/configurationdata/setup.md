@@ -2,13 +2,13 @@
 
 When you create a new project (see Book 3: Application Settings Manager), you'll find that in the initial wizard windows, you can choose how the capture process occurs, as shown in Figure 85.
 
-![setting_up_application_configuration](/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationdata/setting_up_application_configuration.webp)
+![setting_up_application_configuration](../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationdata/setting_up_application_configuration.webp)
 
 Figure 85. Choosing how to capture the application.
 
 Choose to start a new project using the Capture Wizard. Then, select your project type, as shown in Figure 86.
 
-![setting_up_application_configuration_1](/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationdata/setting_up_application_configuration_1.webp)
+![setting_up_application_configuration_1](../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationdata/setting_up_application_configuration_1.webp)
 
 Figure 86. Selecting your project type.
 

@@ -8,7 +8,7 @@ The Replication service replicates the attributes of the following objects from 
 - Computers
 - Organizational Unit
 
-For more on the Replication service, see the [Elasticsearch and Replication ](/docs/groupid/groupid/admincenter/replication/overview.md)topic for additional information.
+For more on the Replication service, see the [Elasticsearch and Replication ](../replication/overview.md)topic for additional information.
 
 The service is also responsible for syncing data between the Elasticsearch clusters in your environment.
 
@@ -19,8 +19,8 @@ Follow the steps to view Replication Service details.
 Step 1 – In Admin Center, click __Applications__ in the left pane.
 
 Step 2 – On the __Applications__ page, click the __Service__ tab.  
-The tab displays the default Replication service hosted in native IIS. When multiple Directory Manager instances have been deployed, you will find multiple default Replication services on this tab page, as each instance has its own default Replication service. See the [Elasticsearch Clusters, Nodes, and Directory Manager](/docs/groupid/groupid/admincenter/service/overview.md#elasticsearch-clusters-nodes-and-directory-manager) topic for additional information.  
-For details displayed on a service card, see the table in the [View Data Service Details](/docs/groupid/groupid/admincenter/service/dataservice/manage.md#view-data-service-details) topic.
+The tab displays the default Replication service hosted in native IIS. When multiple Directory Manager instances have been deployed, you will find multiple default Replication services on this tab page, as each instance has its own default Replication service. See the [Elasticsearch Clusters, Nodes, and Directory Manager](overview.md#elasticsearch-clusters-nodes-and-directory-manager) topic for additional information.  
+For details displayed on a service card, see the table in the [View Data Service Details](dataservice/manage.md#view-data-service-details) topic.
 
 You cannot create a Replication Service or delete an existing one from Admin Center.
 
@@ -28,10 +28,10 @@ You cannot create a Replication Service or delete an existing one from Admin Cen
 
 You can manage the following settings for a Replication service.
 
-- [Change a Service’s Display Name](/docs/groupid/groupid/admincenter/service/dataservice/manage.md#change-a-services-display-name)
-- [Start or Stop a Service](/docs/groupid/groupid/admincenter/service/dataservice/manage.md#start-or-stop-a-service)
-- [View the Deployment Settings for a Service](/docs/groupid/groupid/admincenter/service/dataservice/manage.md#view-the-deployment-settings-for-a-service)
-- [Specify Log Settings for a Service](/docs/groupid/groupid/admincenter/service/dataservice/manage.md#specify-log-settings-for-a-service)
+- [Change a Service’s Display Name](dataservice/manage.md#change-a-services-display-name)
+- [Start or Stop a Service](dataservice/manage.md#start-or-stop-a-service)
+- [View the Deployment Settings for a Service](dataservice/manage.md#view-the-deployment-settings-for-a-service)
+- [Specify Log Settings for a Service](dataservice/manage.md#specify-log-settings-for-a-service)
 
 ## Enable Elastic Cluster Syncing
 

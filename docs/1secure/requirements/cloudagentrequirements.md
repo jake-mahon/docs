@@ -33,4 +33,4 @@ To review the security incorporated by the agent in your system, examine the tar
 
 ```C:\ProgramData\Netwrix Cloud Agent\AgentCore\ConfigServer\Configuration.xml```
 
-You must also open the outbound TCP port 443 on the server where the Netwrix Cloud Agent resides. See the [Install Agent](/docs/1secure/install/installagent.md) topic
+You must also open the outbound TCP port 443 on the server where the Netwrix Cloud Agent resides. See the [Install Agent](../install/installagent.md) topic

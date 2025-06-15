@@ -1,6 +1,6 @@
 # Understanding the Customization Record
 
-This topic discusses the new Platform Governance for Salesforce Lightning customization record. It is only available with the Platform Governance for Salesforce Lightning app. Refer to the topic [Old Customization Record](/docs/strongpointforsalesforce/customizations/old_customization_record.md) for the old style customization record.
+This topic discusses the new Platform Governance for Salesforce Lightning customization record. It is only available with the Platform Governance for Salesforce Lightning app. Refer to the topic [Old Customization Record](old_customization_record.md) for the old style customization record.
 
 __NOTE:__ For installed orgs, users must load the Strongpoint Home Page first before opening the __Customization__ tab for the first time after the 6.0 update. The new form assignment happens in the background for the Strongpoint Home page.
 
@@ -19,7 +19,7 @@ Customization record fields include:
 - __Help Text__: Helpful information detailing function and use of each customization. Click __Update Description and Help Text__ to update.
 - __Related Objects__: Links to related objects.
 
-![Strongpoint Lightning Customization Record](/img/product_docs/strongpointforsalesforce/customizations/customization_record_lightning.webp)
+![Strongpoint Lightning Customization Record](../../../static/img/product_docs/strongpointforsalesforce/customizations/customization_record_lightning.webp)
 
 ## Customization Record Tabs
 
@@ -57,13 +57,13 @@ The __Custom__ tab shows the join, scanner and DLU dates.
 
 - __Last Scanner Date__: last date in which the scanner ran and evaluated the current customization.
 - __Make Join Date__: date customization was last passed to Make Join script.
-- __Date Last Used__: date the customization was last used. Refer to [DLU](/docs/strongpointforsalesforce/clean_up/date_last_used.md) for more information.
+- __Date Last Used__: date the customization was last used. Refer to [DLU](../clean_up/date_last_used.md) for more information.
 
 ### DRD
 
-The Dependency Relationship Diagram ([DRD](/docs/strongpointforsalesforce/tools/viewing_drd.md)) displays objects, customizations and their relationships and dependencies.
+The Dependency Relationship Diagram ([DRD](../tools/viewing_drd.md)) displays objects, customizations and their relationships and dependencies.
 
-![DRD Example](/img/product_docs/strongpointforsalesforce/customizations/drd.webp)
+![DRD Example](../../../static/img/product_docs/strongpointforsalesforce/customizations/drd.webp)
 
 ### Change Enablement
 

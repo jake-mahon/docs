@@ -50,7 +50,7 @@ For some accounts, this may result in additional change logs from previous perio
 
 New: Jira On-Prem
 
-Atlassian is discontinuing support for the Jira On-Prem solution. Jira Cloud will be the only supported option. You can use the Strongpoint [Integration API](/docs/strongpointfornetsuite/api/api_overview.md) to create your own integration with your ticketing system.
+Atlassian is discontinuing support for the Jira On-Prem solution. Jira Cloud will be the only supported option. You can use the Strongpoint [Integration API](../api/api_overview.md) to create your own integration with your ticketing system.
 
 __Resolved Issues__
 
@@ -84,5 +84,5 @@ January 25, 2024
 
 - Added __Supervisor__ column to the Membership Review.
 
-  ![UAR Membership Review](/img/product_docs/strongpointfornetsuite/release_notes/uar_review_supervisor.webp)
+  ![UAR Membership Review](../../../static/img/product_docs/strongpointfornetsuite/release_notes/uar_review_supervisor.webp)
 - New filters are available. __Permission Reviews__ now have a __Status__ filter. Membership Reviews now have __Status__ and __Supervisor__ filters.

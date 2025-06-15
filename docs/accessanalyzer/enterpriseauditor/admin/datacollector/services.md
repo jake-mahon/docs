@@ -1,6 +1,6 @@
 # Services Data Collector
 
-The Services Data Collector enumerates status and settings from remote services. The Services Data Collector is a core component of Access Analyzer, but it has been preconfigured within the Windows Solution. While the data collector is available with all Access Analyzer license options, the Windows Solution is only available with a special Access Analyzer license. See the [Windows Solution](/docs/accessanalyzer/enterpriseauditor/solutions/windows/overview.md) topic for additional information.
+The Services Data Collector enumerates status and settings from remote services. The Services Data Collector is a core component of Access Analyzer, but it has been preconfigured within the Windows Solution. While the data collector is available with all Access Analyzer license options, the Windows Solution is only available with a special Access Analyzer license. See the [Windows Solution](../../solutions/windows/overview.md) topic for additional information.
 
 Protocols
 
@@ -20,7 +20,7 @@ Permissions
 
 The Services Data Collector is configured through the Service Browser window.
 
-![Service Browser window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/servicebrowser.webp)
+![Service Browser window](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/servicebrowser.webp)
 
 - Host – Enter a sample host which contains all of the services desired for the query
 - All Services – Select this option to build the query to extract information from all services on the target host

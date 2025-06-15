@@ -2,9 +2,9 @@
 
 The Reporting node is for configuring the global settings for publishing Access Analyzer reports. The Web Console is where any reports which have been published can be viewed outside of the Access Analyzer Console. The Web Console provides a consolidated logon housing both the published reports and the AIC (when applicable).
 
-![Global Settings Reporting page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/reporting.webp)
+![Global Settings Reporting page](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/reporting.webp)
 
-The publishing of reports can be disabled at the global level by selecting __Do not publish reports__ from the Publish Option drop-down menu. It can also be disabled at the job group, job, or report configuration level. See the [Jobs Tree](/docs/accessanalyzer/enterpriseauditor/admin/jobs/overview.md) topic for additional information.
+The publishing of reports can be disabled at the global level by selecting __Do not publish reports__ from the Publish Option drop-down menu. It can also be disabled at the job group, job, or report configuration level. See the [Jobs Tree](../jobs/overview.md) topic for additional information.
 
 The __Cancel__ and __Save__ buttons are in the lower-right corner of the Reporting view. These buttons become enabled when modifications are made to the Reporting global settings. Whenever changes are made at the global level, click __Save__ and then __OK__ to confirm the changes. Otherwise, click __Cancel__ if no changes were intended.
 
@@ -12,7 +12,7 @@ The __Cancel__ and __Save__ buttons are in the lower-right corner of the Reporti
 
 The Website URL field contains address for the hosted website, the Web Console, where the published reports reside.
 
-![Website URL on Global Settings Reporting page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/websiteurl.webp)
+![Website URL on Global Settings Reporting page](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/websiteurl.webp)
 
 The default address is:
 
@@ -28,7 +28,7 @@ __NOTE:__ Any browser used to access the Web Console must have JavaScript allowe
 
 The Publish Option allows you to enable or disable the publishing of reports at the global level.
 
-![Publish Option on Global Settings Reporting page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/publish.webp)
+![Publish Option on Global Settings Reporting page](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/publish.webp)
 
 Select the __Publish reports__ option to publish all Access Analyzer reports or select __Do not publish reports__ to disable the publishing. The inheritance of this setting can be broken at the job group, job, or report levels.
 
@@ -36,13 +36,13 @@ Select the __Publish reports__ option to publish all Access Analyzer reports or 
 
 Configure email reports sent out by Access Analyzer using the Email Report options.
 
-![Email options on Global Settings Reporting page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/email.webp)
+![Email options on Global Settings Reporting page](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/email.webp)
 
 The __E-mail reports__ checkbox enables recipients to receive all published reports, unless inheritance is broken at the job group, job, or report level. Separate multiple recipients with a semicolon. If commas are used as delimiters for email addresses, they will be converted into semicolons when the settings are saved.
 
 ___RECOMMENDED:___ Configure email reporting at a specific level to ensure recipients only receive reports which apply to them.
 
-__NOTE:__ Email reports does not work unless Access Analyzer has been configured to send email notifications through the __Notification__ node. See the [Notification](/docs/accessanalyzer/enterpriseauditor/admin/settings/notification.md) topic for additional information.
+__NOTE:__ Email reports does not work unless Access Analyzer has been configured to send email notifications through the __Notification__ node. See the [Notification](notification.md) topic for additional information.
 
 The __Do Not Email Report If Blank__ checkbox prevents reports from being sent via email if all elements are blank when generated. A blank report can occur if there is an error in data collection or if the report is configured for data which might not always be present (for example, new computer objects created since last scan).
 
@@ -65,11 +65,11 @@ Follow the steps to allow JavaScript on the Web Console in Microsoft Edge.
 
 __Step 1 –__ Open Microsoft Edge Settings.
 
-![javascriptsitepermissions](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/javascriptsitepermissions.webp)
+![javascriptsitepermissions](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/javascriptsitepermissions.webp)
 
 __Step 2 –__ Go to the __Cookies and site permissions__ settings page, and click __JavaScript__ under All permissions.
 
-![javascriptsettings](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/javascriptsettings.webp)
+![javascriptsettings](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/javascriptsettings.webp)
 
 __Step 3 –__ Click  __Add__ in the Allow section. On the Add a site window, enter the URL for the Web Console and click __Add__.
 

@@ -12,7 +12,7 @@ See individual sub-groups and jobs for host list designations.
 
 Connection Profile
 
-The Connection Profile used for this job needs to have local administrator privileges. By default, this job group's Connection Profile is set to __Use Default Profile (Inherit from the parent group, if any, or the global Default setting)__. See the [Connection](/docs/accessanalyzer/enterpriseauditor/admin/settings/connection/overview.md) topic for additional information.
+The Connection Profile used for this job needs to have local administrator privileges. By default, this job group's Connection Profile is set to __Use Default Profile (Inherit from the parent group, if any, or the global Default setting)__. See the [Connection](../../admin/settings/connection/overview.md) topic for additional information.
 
 History Retention
 

@@ -2,13 +2,13 @@
 
 The Security Assertion Markup Language (SAML) is an XML framework for exchanging authentication and authorization information. It provides functions to describe and transmit security-related information. This means that you can use one set of credentials to log in to many different websites. It is much easier to manage one login per user than separate logins for email, Customer Relationship Management (CRM) software, Active Directory, and more.
 
-Once you have added an authentication provider, as discussed in the [Add an Authentication Provider](/docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/authenticationprovider/page.md#add-an-authentication-provider)topic, the next step is to configure the provider for use with a supported authentication provider type, i.e., OpenID, RADIUS, or SAML.
+Once you have added an authentication provider, as discussed in the [Add an Authentication Provider](page.md#add-an-authentication-provider)topic, the next step is to configure the provider for use with a supported authentication provider type, i.e., OpenID, RADIUS, or SAML.
 
 Use the gear icon in the upper right corner of the console to open the Configuration menu. Then select __Integrations__ to open the Integrations interface.
 
 On the Integrations interface, select an authentication provider under the Authentication Provider node in the navigation pane or from the table to configure, view, or modify its details.
 
-![Integrations interface displaying the details for a SAML authneication provider](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/authenticationprovider/saml.webp)
+![Integrations interface displaying the details for a SAML authneication provider](../../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/authenticationprovider/saml.webp)
 
 The details page for a SAML authentication provider has two tabs:
 
@@ -23,7 +23,7 @@ For users to be able to use SAML, "SMTP" must be set up and an email address mus
 
 Configure the following settings for a SAML provider on the Configuration tab:
 
-![Configuration tab for a SAML authneication provider](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/authenticationprovider/configurationsaml.webp)
+![Configuration tab for a SAML authneication provider](../../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/authenticationprovider/configurationsaml.webp)
 
 - Default – The default profile applied when a user is assigned multiple authentication profiles. When off, the profile will be determined in alphabetical order of the profile name. Toggle off and on as desired.
 - Login URI – Login URI is a specific web address where users can authenticate themselves to access a web application or service
@@ -39,7 +39,7 @@ Click Save to commit the configuration settings.
 
 The Users/Groups tab displays users and groups that are currently assigned to this authentication profile. To give access to the application to new users, click the New Access button, which opens the Add Console Access window. To assign this authentication provider to existing users, go to System Settings > User Access Page.
 
-![UserGroups tab for an authneication provider](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/authenticationprovider/usersgroupstab.webp)
+![UserGroups tab for an authneication provider](../../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/authenticationprovider/usersgroupstab.webp)
 
 The table displays the following information:
 
@@ -55,4 +55,4 @@ The table displays the following information:
   - Trash icon – Opens a Warning window to confirm the action of deleting the user or group. Removing a user or group removes console access for it.
   - Reset MFA button – Forces the user or every user in the group to reconfigure MFA on the next login. This option is only available if an MFA authentication type is applied to the user or group.
 
-See the [User Access Page](/docs/threatprevention/threatprevention/reportingmodule/configuration/systemsettings/useraccess.md) topic for additional information.
+See the [User Access Page](../../systemsettings/useraccess.md) topic for additional information.

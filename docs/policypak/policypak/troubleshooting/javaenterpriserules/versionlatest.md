@@ -4,9 +4,9 @@ Problem:
 
 There is a Java Rules Manager (JRM) policy specified for a site to use a specific version of java but the site is ignoring the rule and using the latest version of Java installed on the endpoint instead.
 
-![889_1_image-20210721212259-9_950x45](/img/product_docs/policypak/policypak/troubleshooting/javaenterpriserules/889_1_image-20210721212259-9_950x45.webp)
+![889_1_image-20210721212259-9_950x45](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/javaenterpriserules/889_1_image-20210721212259-9_950x45.webp)
 
-![889_2_image-20210721212259-10](/img/product_docs/policypak/policypak/troubleshooting/javaenterpriserules/889_2_image-20210721212259-10.webp)
+![889_2_image-20210721212259-10](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/javaenterpriserules/889_2_image-20210721212259-10.webp)
 
 Cause:
 
@@ -14,7 +14,7 @@ The URL address specified in Internet Explorer must match exactly the location U
 
 __NOTE:__ If the URLs do not match (case as well) then the PPJRM rule will be ignored and the latest version of java installed on the endpoint will be used instead.
 
-![889_3_image-20210721212259-11](/img/product_docs/policypak/policypak/troubleshooting/javaenterpriserules/889_3_image-20210721212259-11.webp)
+![889_3_image-20210721212259-11](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/javaenterpriserules/889_3_image-20210721212259-11.webp)
 
 Resolution:
 
@@ -24,5 +24,5 @@ __NOTE:__ If any changes are made to the JRM policy then the policy will need to
 
 Once the URLs in both IE and PPJRM match the policy will function as intended and the site will use the required version of java.
 
-![889_4_image-20210721212259-12](/img/product_docs/policypak/policypak/troubleshooting/javaenterpriserules/889_4_image-20210721212259-12.webp)
-![889_5_image-20210721212259-13](/img/product_docs/policypak/policypak/troubleshooting/javaenterpriserules/889_5_image-20210721212259-13.webp)
+![889_4_image-20210721212259-12](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/javaenterpriserules/889_4_image-20210721212259-12.webp)
+![889_5_image-20210721212259-13](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/javaenterpriserules/889_5_image-20210721212259-13.webp)

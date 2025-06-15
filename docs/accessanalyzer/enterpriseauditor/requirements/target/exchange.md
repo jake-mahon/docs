@@ -7,7 +7,7 @@ The Access Analyzer for Exchange Solution is compatible with the following Excha
 - Exchange 2013
 - Exchange 2010 (Limited)
 
-See the [Exchange Support and Permissions Explained](/docs/accessanalyzer/enterpriseauditor/requirements/solutions/exchange/support.md) topic for details on the type of auditing supported by data collector and by job group.
+See the [Exchange Support and Permissions Explained](../solutions/exchange/support.md) topic for details on the type of auditing supported by data collector and by job group.
 
 Domain Controller Requirements
 
@@ -19,21 +19,21 @@ The following are requirements for the Exchange servers to be scanned:
 - WINRM Service installed on all Exchange servers to be targeted as a back up in the event of a remote PowerShell failure
 - Within the Access Analyzer Console, the global __Settings > Exchange__ node must be configured
 
-  __NOTE:__ For Exchange 2013, 2016, and 2019 – If the global Settings have been configured for "MAPI over HTTP," then an actual CAS server name was supplied and will be used by the ExchangePS Data Collector. If the global Settings have been configured for "MAPI over HTTPS," then the global Settings will have a web address instead of an actual server. Therefore, each ExchangePS query requires the CAS server to be set as the specific server on the Category page. See the [ExchangePS Data Collector & Client Access Server](/docs/accessanalyzer/enterpriseauditor/solutions/exchange/recommended.md) topic for a list of queries for which this would apply.
+  __NOTE:__ For Exchange 2013, 2016, and 2019 – If the global Settings have been configured for "MAPI over HTTP," then an actual CAS server name was supplied and will be used by the ExchangePS Data Collector. If the global Settings have been configured for "MAPI over HTTPS," then the global Settings will have a web address instead of an actual server. Therefore, each ExchangePS query requires the CAS server to be set as the specific server on the Category page. See the [ExchangePS Data Collector & Client Access Server](../../solutions/exchange/recommended.md) topic for a list of queries for which this would apply.
 
 Data Collectors
 
 This solution employs the following data collector to scan the target environment:
 
-- [ADInventory Data Collector](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/overview.md)
-- [EWSMailbox Data Collector](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/overview.md)
-- [EWSPublicFolder Data Collector](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/ewspublicfolder/overview.md)
-- [Exchange2K Data Collector](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/exchange2k/overview.md)
-- [ExchangeMailbox Data Collector](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/exchangemailbox/overview.md)
-- [ExchangeMetrics Data Collector](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/exchangemetrics/overview.md)
-- [ExchangePS Data Collector](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/exchangeps/overview.md)
-- [ExchangePublicFolder Data Collector](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/exchangepublicfolder/overview.md)
-- [SMARTLog Data Collector](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/smartlog/overview.md)
+- [ADInventory Data Collector](../../admin/datacollector/adinventory/overview.md)
+- [EWSMailbox Data Collector](../../admin/datacollector/ewsmailbox/overview.md)
+- [EWSPublicFolder Data Collector](../../admin/datacollector/ewspublicfolder/overview.md)
+- [Exchange2K Data Collector](../../admin/datacollector/exchange2k/overview.md)
+- [ExchangeMailbox Data Collector](../../admin/datacollector/exchangemailbox/overview.md)
+- [ExchangeMetrics Data Collector](../../admin/datacollector/exchangemetrics/overview.md)
+- [ExchangePS Data Collector](../../admin/datacollector/exchangeps/overview.md)
+- [ExchangePublicFolder Data Collector](../../admin/datacollector/exchangepublicfolder/overview.md)
+- [SMARTLog Data Collector](../../admin/datacollector/smartlog/overview.md)
 
 ## Permissions
 
@@ -51,7 +51,7 @@ For Exchange Web Services API Permissions with the EWSMailbox Data Collector
 - Application Impersonation Role
 - Exchange Online License
 
-See the [Exchange Web Services API Permissions](/docs/accessanalyzer/enterpriseauditor/requirements/solutions/exchange/webservicesapi.md) topic for additional information.
+See the [Exchange Web Services API Permissions](../solutions/exchange/webservicesapi.md) topic for additional information.
 
 For Exchange Web Services API Permissions with the EWSPublicFolder Data Collector
 
@@ -60,7 +60,7 @@ For Exchange Web Services API Permissions with the EWSPublicFolder Data Collecto
 - Application Impersonation Role
 - Exchange Online License with a mailbox
 
-See the [Exchange Web Services API Permissions](/docs/accessanalyzer/enterpriseauditor/requirements/solutions/exchange/webservicesapi.md) topic for additional information.
+See the [Exchange Web Services API Permissions](../solutions/exchange/webservicesapi.md) topic for additional information.
 
 For Exchange2K Data Collector
 
@@ -78,13 +78,13 @@ For Exchange Mail Flow with ExchangeMetrics Data Collector
 
 - Member of the local Administrator group on the targeted Exchange server(s)
 
-See the [Exchange Mail-Flow Permissions](/docs/accessanalyzer/enterpriseauditor/requirements/solutions/exchange/mailflow.md) topic for additional information.
+See the [Exchange Mail-Flow Permissions](../solutions/exchange/mailflow.md) topic for additional information.
 
 For Exchange Remote Connection with SMARTLog Data Collector
 
 - Member of the local Administrators group
 
-See the [Exchange Remote Connections Permissions](/docs/accessanalyzer/enterpriseauditor/requirements/solutions/exchange/remoteconnections.md) topic for additional information.
+See the [Exchange Remote Connections Permissions](../solutions/exchange/remoteconnections.md) topic for additional information.
 
 For Exchange PowerShell with ExchangePS Data Collector
 
@@ -95,7 +95,7 @@ For Exchange PowerShell with ExchangePS Data Collector
 - Public Folder Management Role Group
 - Mailbox Search Role
 
-See the [Exchange PowerShell Permissions](/docs/accessanalyzer/enterpriseauditor/requirements/solutions/exchange/powershell.md) topic for additional information.
+See the [Exchange PowerShell Permissions](../solutions/exchange/powershell.md) topic for additional information.
 
 For ExchangePublicFolders Data Collector
 

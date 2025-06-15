@@ -8,7 +8,7 @@ View the analysis tasks by navigating to the __Exchange__ > __7. Sensitive Data_
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the EX_SDDResults Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/sensitivedata/sddresultsanalysis.webp)
+![Analysis Tasks for the EX_SDDResults Job](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/sensitivedata/sddresultsanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -24,7 +24,7 @@ __CAUTION:__ Do not select the __Deletes all Stored Data__ option. This analysis
 
 - Deletes all Stored Data - LEAVE UNCHECKED – Clears all historical SDD data
 
-  - See the [Troubleshooting Data Collection](/docs/accessanalyzer/enterpriseauditor/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#troubleshooting-data-collection) topic for additional information
+  - See the [Troubleshooting Data Collection](../hubmetrics/collection/ex_metricscollection.md#troubleshooting-data-collection) topic for additional information
 
 In addition to the tables and views created by the analysis tasks, the EX_SDDResults Job produces the following pre-configured reports.
 

@@ -91,7 +91,7 @@ Sensitive Data Discovery can identify any file type, extract text, and extract m
 | Portable Network Graphic | .webp |
 | Tagged Image File Format | .TIF, .TIFF |
 
-__NOTE:__ The __FileSystem__ > __0.Collection__ > __1-SEEK System Scans__ job can perform Optical Character Recognition (OCR) scans for Raster image files by enabling the option on the SDD Audit Settings page in the File System Access Auditor Data Collector Wizard. This is an option for the Sensitive Data Scan category. See the [1-SEEK System Scans Job](/docs/accessanalyzer/enterpriseauditor/solutions/filesystem/collection/1-seek_system_scans.md) topic for additional information.
+__NOTE:__ The __FileSystem__ > __0.Collection__ > __1-SEEK System Scans__ job can perform Optical Character Recognition (OCR) scans for Raster image files by enabling the option on the SDD Audit Settings page in the File System Access Auditor Data Collector Wizard. This is an option for the Sensitive Data Scan category. See the [1-SEEK System Scans Job](../solutions/filesystem/collection/1-seek_system_scans.md) topic for additional information.
 
 ### Spreadsheet
 

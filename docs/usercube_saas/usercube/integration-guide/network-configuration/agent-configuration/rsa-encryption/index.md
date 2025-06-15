@@ -8,10 +8,10 @@ Sensitive data can be RSA encrypted by using Identity Manager's tools:
 
 - [
   Usercube-Protect-X509JsonValue
-  ](/docs/usercube_saas/usercube/integration-guide/executables/references/protect-x509jsonvalue/index.md) to encrypt given values;
+  ](../../../executables/references/protect-x509jsonvalue/index.md) to encrypt given values;
 - [
   Usercube-Protect-X509JsonFile
-  ](/docs/usercube_saas/usercube/integration-guide/executables/references/protect-x509jsonfile/index.md) to encrypt a whole file.
+  ](../../../executables/references/protect-x509jsonfile/index.md) to encrypt a whole file.
 
   The file encryption tool should be used only on files that contain only plain text values, not already encrypted ones.
 
@@ -27,7 +27,7 @@ The ```appsettings.encrypted.json``` and ```appsettings.encrypted.agent.json``` 
 
 These files follow the exact same structure as the [
 Agent Configuration
-](/docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/index.md).
+](../index.md).
 
 ### Read the Encrypted Files
 

@@ -12,7 +12,7 @@ In this section we configure the homonym search that checks if a resource alread
 
 A [
 Homonym Entity Link
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/workflows/homonymentitylink/index.md) defines a new homonym search to be performed in a workflow form.
+](../../../toolkit/xml-configuration/workflows/homonymentitylink/index.md) defines a new homonym search to be performed in a workflow form.
 It can be defined in different ways.
 
 ### With a default filter
@@ -31,7 +31,7 @@ Configure a Homonym Detection
 
 [
 Homonym Entity Link
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/workflows/homonymentitylink/index.md)filters allow to define customized filters for a homonym search.
+](../../../toolkit/xml-configuration/workflows/homonymentitylink/index.md)filters allow to define customized filters for a homonym search.
 
 #### Simple filter
 
@@ -101,7 +101,7 @@ If English is the main language, the search for homonyms is performed on the ```
 
 ## Create a Display Table _(optional)_
 
-A [Display Table](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/user-interface/displaytable/index.md) is used to define how a list of the same entity type should be displayed.
+A [Display Table](../../../toolkit/xml-configuration/user-interface/displaytable/index.md) is used to define how a list of the same entity type should be displayed.
 
 By default, the homonyms are displayed using the default display table of the related entity type.
 
@@ -113,11 +113,11 @@ To display homonyms in a different way than the default, a specific display tabl
 
 ```
 
-See the [Customize Display Tables](/docs/usercube/usercube/integration-guide/ui/how-tos/custom-display-table/index.md) for additional information.
+See the [Customize Display Tables](../../../ui/how-tos/custom-display-table/index.md) for additional information.
 
 ## Define the Homonym Control in the Workflow Form
 
-The [Form](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/user-interface/form/index.md) where the homonyms are to be checked must contain a layout fieldset control where:
+The [Form](../../../toolkit/xml-configuration/user-interface/form/index.md) where the homonyms are to be checked must contain a layout fieldset control where:
 
 - the properties to check are represented;
 - the ```HomonymEntityLink``` attribute is the identifier of the homonym entity link created above.

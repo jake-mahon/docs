@@ -6,7 +6,7 @@ This guide helps understand the behavior of synchronization and provisioning tas
 
 A managed system is synchronized and provisioned to/from Identity Manager with the following task sequence:
 
-![Synchronization/Provisioning Schema](/img/product_docs/usercube/usercube/integration-guide/tasks-jobs/how-tos/troubleshoot-connector-jobs/troubleshoot_synchroprovschema.webp)
+![Synchronization/Provisioning Schema](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/tasks-jobs/how-tos/troubleshoot-connector-jobs/troubleshoot_synchroprovschema.webp)
 
 ### Export data
 
@@ -18,7 +18,7 @@ In order to spot what was exported or not for the next incremental export, cooki
 
 See the [
 Usercube-Export-Configuration
-](/docs/usercube/usercube/integration-guide/executables/references/export-configuration/index.md) topic for additional information.
+](../../../executables/references/export-configuration/index.md) topic for additional information.
 
 ### Prepare synchronization
 
@@ -30,7 +30,7 @@ The output is stored in ```Work/Collect```, and sent to the server to queue in `
 
 See the [
 Usercube-Export-Configuration
-](/docs/usercube/usercube/integration-guide/executables/references/export-configuration/index.md) topic for additional information on how to prepare the synchronization executable ```Usercube-Prepare-Synchronization```.
+](../../../executables/references/export-configuration/index.md) topic for additional information on how to prepare the synchronization executable ```Usercube-Prepare-Synchronization```.
 
 ### Synchronize
 
@@ -48,7 +48,7 @@ The output is stored in ```UR_ResourceChanges```.
 
 When at least one synchronization [
 Thresholds
-](/docs/usercube/usercube/integration-guide/synchronization/synchro-thresholds/index.md) is exceeded, the change list can be seen in the __Synchronization Changes__ tab, accessible from the job progress screen.
+](../../../synchronization/synchro-thresholds/index.md) is exceeded, the change list can be seen in the __Synchronization Changes__ tab, accessible from the job progress screen.
 
 When the synchronization thresholds are not exceeded, or they are bypassed, the potential preparatory files are consumed and the changes are applied.
 

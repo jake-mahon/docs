@@ -1,8 +1,8 @@
 # Export CyberArk Data via SCIM
 
-This guide shows how to set up a [SCIM](/docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/index.md) connector to extract data from your CyberArk instance into CSV source files that will in turn be fed to the [
+This guide shows how to set up a [SCIM](../../references-connectors/scim/index.md) connector to extract data from your CyberArk instance into CSV source files that will in turn be fed to the [
 Upward Data Synchronization
-](/docs/usercube/usercube/integration-guide/synchronization/upward-data-sync/index.md) task and to your Identity Manager resource repository. It will focus on registering Identity Manager within the target CyberArk instance, configuring the connector, and building the job to perform regularly scheduled synchronization.
+](../../../synchronization/upward-data-sync/index.md) task and to your Identity Manager resource repository. It will focus on registering Identity Manager within the target CyberArk instance, configuring the connector, and building the job to perform regularly scheduled synchronization.
 
 ## Prerequisites
 
@@ -34,7 +34,7 @@ It is strongly recommended that you follow the official __CyberArk SCIM Server I
 
 This step sets up the Identity Manager Agent to use the SCIM connector and access the CyberArk data.
 
-The settings must be entered in the appsettings.agent > Connections section. See the [SCIM](/docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/index.md) topic for additional information.
+The settings must be entered in the appsettings.agent > Connections section. See the [SCIM](../../references-connectors/scim/index.md) topic for additional information.
 
 #### Connect to the target CyberArk instance
 
@@ -110,7 +110,7 @@ Filters are defined in the next part.
 
 An exhaustive list of entities and attributes provided by CyberArk is available in their [technical documentation](https://docs.cyberark.com/Product-Doc/OnlineHelp/Idaptive/Latest/en/Content/Applications/AppsOvw/SCIM-Provisioning.htm) or the SCIM ```Swagger UI```.
 
-The ```Filter``` and ```FilterGroup``` setting syntax is detailed in the [SCIM](/docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/index.md) optional attributes.
+The ```Filter``` and ```FilterGroup``` setting syntax is detailed in the [SCIM](../../references-connectors/scim/index.md) optional attributes.
 
 ```SCIMSyntax``` must also be set to ```CyberArk``` because the CyberArk system doesn't strictly follow all the SCIM rules at the moment.
 
@@ -150,17 +150,17 @@ Notice the ```*``` that separates the entities.
 
 The export generates CSV source files that will be fed to the [
 Upward Data Synchronization
-](/docs/usercube/usercube/integration-guide/synchronization/upward-data-sync/index.md) task.
+](../../../synchronization/upward-data-sync/index.md) task.
 
 The SCIM connector generates one file per entity, the name is generated as: ```EntryFile``` + ```'_'``` + ```FilterEntity``` or ```MembersFile``` + ```'_'``` + ```FilterGroupEntity```.
 
 Moreover, ```SyncCookiesFile``` can be specified to indicate the location of the cookie file for an incremental export.
 
-See the [SCIM](/docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/index.md)topic for additional information.
+See the [SCIM](../../references-connectors/scim/index.md)topic for additional information.
 
 The target directory and file name are chosen freely. However, Netwrix Identity Manager (formerly Usercube) strongly recommends using the [
 Create a Working Directory
-](/docs/usercube/usercube/installation-guide/production-ready/working-directory/index.md) ```Temp/ExportOutput``` folder and choosing file names that start with the ```CyberArk_``` prefix.
+](../../../../installation-guide/production-ready/working-directory/index.md) ```Temp/ExportOutput``` folder and choosing file names that start with the ```CyberArk_``` prefix.
 
 ##### Example
 
@@ -198,11 +198,11 @@ Every file contains the data as CSV, with one column per attribute.
 
 ### Declare a connector
 
-To be used for export tasks, a connector must be declared in the [Toolkit for XML Configuration](/docs/usercube/usercube/integration-guide/toolkit/index.md) and linked to an Agent.
+To be used for export tasks, a connector must be declared in the [Toolkit for XML Configuration](../../../toolkit/index.md) and linked to an Agent.
 
 It is strongly recommended that the applicative configuration be stored the [
 Create a Working Directory
-](/docs/usercube/usercube/installation-guide/production-ready/working-directory/index.md) ```Conf``` folder as a set of ```xml``` files organized by connector.
+](../../../../installation-guide/production-ready/working-directory/index.md) ```Conf``` folder as a set of ```xml``` files organized by connector.
 
 - In the ```Conf``` folder, create a ```SCIMCyberArk``` directory.
 - In the ```SCIMCyberArk``` directory create a ```CyberArk Connector.xml``` file.
@@ -210,11 +210,11 @@ Create a Working Directory
   This file contains the declaration of the connector and the associated Entity Model.
 - Use the [
   Connector
-  ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/connector/index.md) element to declare the connector with the following attributes:
+  ](../../../toolkit/xml-configuration/connectors/connector/index.md) element to declare the connector with the following attributes:
 
-  - __Identifier__ identifies this connector in the [Toolkit for XML Configuration](/docs/usercube/usercube/integration-guide/toolkit/index.md). We recommend using a meaningful name such as ```CyberArk```. If several connections to several CyberArk targets are possible, only one CyberArk Connector per Agent is used.
+  - __Identifier__ identifies this connector in the [Toolkit for XML Configuration](../../../toolkit/index.md). We recommend using a meaningful name such as ```CyberArk```. If several connections to several CyberArk targets are possible, only one CyberArk Connector per Agent is used.
   - __DisplayName_Li, i ? [1..16]__ are used in the UI.
-  - __Agent__ is the identifier of the Agent that will run this connector's export task. The Agent's identifier can be found in the agent's [appsettings.agent](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) \> OpenId \> AgentIdentifier.
+  - __Agent__ is the identifier of the Agent that will run this connector's export task. The Agent's identifier can be found in the agent's [appsettings.agent](../../../network-configuration/agent-configuration/appsettings-agent/index.md) \> OpenId \> AgentIdentifier.
 - Don't forget the ```<?xml>``` and ```<ConfigurationFile>``` elements (see example below).
 
 > This example declares the ```CyberArk``` connector on the ```Local``` agent:
@@ -230,20 +230,20 @@ Create a Working Directory
 
 ### Build the entity model
 
-The exported data to be written to the [Identity Management](/docs/usercube/usercube/introduction-guide/overview/identity-management/index.md) must be aligned with the [Entity Model](/docs/usercube/usercube/integration-guide/entity-model/index.md).
+The exported data to be written to the [Identity Management](../../../../introduction-guide/overview/identity-management/index.md) must be aligned with the [Entity Model](../../../entity-model/index.md).
 
-The [Entity Model](/docs/usercube/usercube/integration-guide/entity-model/index.md) should match as closely as possible the structure of the CyberArk data relevant for Identity Manager. It is designed by analyzing the CyberArk data structure, and describing said data with the [Entity Model](/docs/usercube/usercube/integration-guide/entity-model/index.md) and [Entity Association](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md). Eventually, it is up to the integration team to design the [Entity Model](/docs/usercube/usercube/integration-guide/entity-model/index.md) that best serves the [Assignment Policy](/docs/usercube/usercube/integration-guide/role-model/role-model-rules/index.md) needs. It will most likely be refined iteratively throughout the project integration.
+The [Entity Model](../../../entity-model/index.md) should match as closely as possible the structure of the CyberArk data relevant for Identity Manager. It is designed by analyzing the CyberArk data structure, and describing said data with the [Entity Model](../../../entity-model/index.md) and [Entity Association](../../../toolkit/xml-configuration/metadata/entityassociation/index.md). Eventually, it is up to the integration team to design the [Entity Model](../../../entity-model/index.md) that best serves the [Assignment Policy](../../../role-model/role-model-rules/index.md) needs. It will most likely be refined iteratively throughout the project integration.
 
-A good starting point for the Entity Model is to mirror the shape of the exported CyberArk SCIM objects. This guide provides a few examples that can serve this purpose. Thus, CyberArk SCIM objects such as __Users__ and __Groups__ can be described by [Assignment Policy](/docs/usercube/usercube/integration-guide/role-model/role-model-rules/index.md), and group membership by [Entity Association](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md).
+A good starting point for the Entity Model is to mirror the shape of the exported CyberArk SCIM objects. This guide provides a few examples that can serve this purpose. Thus, CyberArk SCIM objects such as __Users__ and __Groups__ can be described by [Assignment Policy](../../../role-model/role-model-rules/index.md), and group membership by [Entity Association](../../../toolkit/xml-configuration/metadata/entityassociation/index.md).
 
-The [Entity Model](/docs/usercube/usercube/integration-guide/entity-model/index.md) for the CyberArk connector is written in the [Toolkit for XML Configuration](/docs/usercube/usercube/integration-guide/toolkit/index.md). It is strongly recommended to write the entity model to the newly created ```Conf/SCIMCyberArk/CyberArk Connector.xml``` file.
+The [Entity Model](../../../entity-model/index.md) for the CyberArk connector is written in the [Toolkit for XML Configuration](../../../toolkit/index.md). It is strongly recommended to write the entity model to the newly created ```Conf/SCIMCyberArk/CyberArk Connector.xml``` file.
 
 #### Write entity types
 
-Declaring an [Assignment Policy](/docs/usercube/usercube/integration-guide/role-model/role-model-rules/index.md) is achieved with the ```<EntityType>``` tag and the following attributes:
+Declaring an [Assignment Policy](../../../role-model/role-model-rules/index.md) is achieved with the ```<EntityType>``` tag and the following attributes:
 
 - __Identifier__ is the entity type's name. It must be unique among the entity types. It is strongly recommended to prefix this name with the connector's name. An example for CyberArk is ```CyberArk_User```.
-- __DisplayName_Li, i ? [1..16]__ are used in the UI to identify this [Assignment Policy](/docs/usercube/usercube/integration-guide/role-model/role-model-rules/index.md) for the end-user. __DisplayName_L1__ is the name of the entity type in _language number one_. If this language is _English_, a good example value would be ```CyberArk - User```.
+- __DisplayName_Li, i ? [1..16]__ are used in the UI to identify this [Assignment Policy](../../../role-model/role-model-rules/index.md) for the end-user. __DisplayName_L1__ is the name of the entity type in _language number one_. If this language is _English_, a good example value would be ```CyberArk - User```.
 
 ##### Example
 
@@ -255,9 +255,9 @@ Conf/SCIMCyberArk/CyberArk Connector.xml
 ```
                 
 
-The CyberArk SCIM objects attributes are modeled by [Assignment Policy](/docs/usercube/usercube/integration-guide/role-model/role-model-rules/index.md)properties, with the ```<Property>``` tags declared as children of the ```<EntityType>```.
+The CyberArk SCIM objects attributes are modeled by [Assignment Policy](../../../role-model/role-model-rules/index.md)properties, with the ```<Property>``` tags declared as children of the ```<EntityType>```.
 
-Remember that there are several kinds of by [Assignment Policy](/docs/usercube/usercube/integration-guide/role-model/role-model-rules/index.md) (determined by the ```TargetColumnIndex```): scalar and navigation.
+Remember that there are several kinds of by [Assignment Policy](../../../role-model/role-model-rules/index.md) (determined by the ```TargetColumnIndex```): scalar and navigation.
 
 - Scalar properties can be defined to represent scalar attributes such as ```userName```, ```active``` or ```givenName```.
 - Navigation properties represent associations such as group memberships.
@@ -267,7 +267,7 @@ Finally, the main attributes of the ```<Property>``` tag are the following:
 - __Identifier__ identifies the property with a mandatory unique name. It must be unique among the entity properties for this entity type.
 - __DisplayName_Li, i ? [1..16]__ are used in the UI.
 - __Type__ defines the type of property. A scalar property type can be: ```String```, ```Bytes```, ```Int16```, ```Int32```, ```Int64```, ```DateTime```, ```Bool```, ```Guid```, ```Double```, ```Binary```, ```Byte```, or ```Option```. The navigation property type is ```ForeignKey```.
-- __TargetColumnIndex__ defines in which column of the resource table the property is stored. See more details at [Entity Type](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md).
+- __TargetColumnIndex__ defines in which column of the resource table the property is stored. See more details at [Entity Type](../../../toolkit/xml-configuration/metadata/entitytype/index.md).
 
 ##### Example
 
@@ -285,7 +285,7 @@ Notice the omitted __TargetColumnIndex__ attribute and the presence of ```Type="
 
 #### Write entity associations
 
-[Assignment Policy](/docs/usercube/usercube/integration-guide/role-model/role-model-rules/index.md) are associated through their navigation properties with [Entity Association](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md) elements.
+[Assignment Policy](../../../role-model/role-model-rules/index.md) are associated through their navigation properties with [Entity Association](../../../toolkit/xml-configuration/metadata/entityassociation/index.md) elements.
 
 ##### Example
 
@@ -303,19 +303,19 @@ Conf/SCIMCyberArk/CyberArk Connector.xml
 ```
                 
 
-The exact nature of the IDs are described by the associated [Entity Association Mapping](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md).
+The exact nature of the IDs are described by the associated [Entity Association Mapping](../../../toolkit/xml-configuration/connectors/entityassociationmapping/index.md).
 
-Notice the format of the __Property1__ and __Property2__ xml attributes: the name of the entity type followed by ```:``` and the name of an entity property. It is a [Binding](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/metadata/binding/index.md) that describes in one expression both the target entity type and property.
+Notice the format of the __Property1__ and __Property2__ xml attributes: the name of the entity type followed by ```:``` and the name of an entity property. It is a [Binding](../../../toolkit/xml-configuration/metadata/binding/index.md) that describes in one expression both the target entity type and property.
 
 ### Create mapping
 
 The entity type must be mapped property by property to the exported attributes of CyberArk SCIM objects (namely, the columns of the CSV source files generated by the export).
 
-The [Entity Type Mapping](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md), [Entity Association Mapping](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md), and Entity Property Mapping elements serve this purpose.
+The [Entity Type Mapping](../../../toolkit/xml-configuration/connectors/entitytypemapping/index.md), [Entity Association Mapping](../../../toolkit/xml-configuration/connectors/entityassociationmapping/index.md), and Entity Property Mapping elements serve this purpose.
 
 #### Write the entity type mapping
 
-The [Entity Type Mapping](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) element maps scalar properties from the CSV source file to an entity type.
+The [Entity Type Mapping](../../../toolkit/xml-configuration/connectors/entitytypemapping/index.md) element maps scalar properties from the CSV source file to an entity type.
 
 The CSV source file path is written to the __ConnectionTable__ xml attribute. The target entity type name is written to the __Identifier__ xml attribute.
 
@@ -328,7 +328,7 @@ Conf/SCIMCyberArk/CyberArk Connector.xml
 ```
                 
 
-To do so, the entity type mapping uses the [Entity Type Mapping](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) element with the ```<Property>``` tag. This maps the CSV column from ```ConnectionColumn``` to the target EntityType property which is written to the __Identifier__ attribute.
+To do so, the entity type mapping uses the [Entity Type Mapping](../../../toolkit/xml-configuration/connectors/entitytypemapping/index.md) element with the ```<Property>``` tag. This maps the CSV column from ```ConnectionColumn``` to the target EntityType property which is written to the __Identifier__ attribute.
 
 ##### Example
 
@@ -346,9 +346,9 @@ Let's take the example of a new ```CyberArk_User``` which has never been synchro
 
 #### Write the entity association mapping
 
-The [Entity Association Mapping](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md) element maps navigation properties, used in [Entity Association](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md).
+The [Entity Association Mapping](../../../toolkit/xml-configuration/connectors/entityassociationmapping/index.md) element maps navigation properties, used in [Entity Association](../../../toolkit/xml-configuration/metadata/entityassociation/index.md).
 
-An [](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md)[Entity Association Mapping](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md) element refers to an [Entity Association](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md) written to the __Identifier__ xml attribute. Then, just as the [Entity Type Mapping](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) element, it maps columns values from a CSV source file to an EntityType property.
+An [](../../../toolkit/xml-configuration/connectors/entityassociationmapping/index.md)[Entity Association Mapping](../../../toolkit/xml-configuration/connectors/entityassociationmapping/index.md) element refers to an [Entity Association](../../../toolkit/xml-configuration/metadata/entityassociation/index.md) written to the __Identifier__ xml attribute. Then, just as the [Entity Type Mapping](../../../toolkit/xml-configuration/connectors/entitytypemapping/index.md) element, it maps columns values from a CSV source file to an EntityType property.
 
 ##### Example
 
@@ -363,7 +363,7 @@ These associations are exported from the CyberArk system into the ```C:/Usercube
 | 2 | 103 |
 | 3 | 104 |
 
-The following [](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md)[Entity Association Mapping](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md) describes the mapping for the ```CyberArk_Group_Members``` EntityAssociation:
+The following [](../../../toolkit/xml-configuration/connectors/entityassociationmapping/index.md)[Entity Association Mapping](../../../toolkit/xml-configuration/connectors/entityassociationmapping/index.md) describes the mapping for the ```CyberArk_Group_Members``` EntityAssociation:
 
 ```
 Conf/SCIMCyberArk/CyberArk Connector.xml
@@ -379,19 +379,19 @@ Here are a few explanations:
 
 The ```Users``` property in the ```CyberArk_Group``` entity:
 
-- is written to the __Property1__ attribute of the ```CyberArk_Group_Members``` [Entity Association](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md) element.
-- is filled in by values from the ```MemberId``` column (written to the __Column2__ attribute of the ```CyberArk_Group_Members``` [](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md)[Entity Association Mapping](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md) element) in the ```C:/UsercubeDemo/Temp/ExportOutput/CyberArk_members_Groups.csv``` file.
+- is written to the __Property1__ attribute of the ```CyberArk_Group_Members``` [Entity Association](../../../toolkit/xml-configuration/metadata/entityassociation/index.md) element.
+- is filled in by values from the ```MemberId``` column (written to the __Column2__ attribute of the ```CyberArk_Group_Members``` [](../../../toolkit/xml-configuration/connectors/entityassociationmapping/index.md)[Entity Association Mapping](../../../toolkit/xml-configuration/connectors/entityassociationmapping/index.md) element) in the ```C:/UsercubeDemo/Temp/ExportOutput/CyberArk_members_Groups.csv``` file.
 
-These values identify resources of type ```CyberArk_User``` by their ```CyberArk_id``` property (written to the __EntityPropertyMapping2__ attribute of the [](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md)[Entity Association Mapping](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md) element.
+These values identify resources of type ```CyberArk_User``` by their ```CyberArk_id``` property (written to the __EntityPropertyMapping2__ attribute of the [](../../../toolkit/xml-configuration/connectors/entityassociationmapping/index.md)[Entity Association Mapping](../../../toolkit/xml-configuration/connectors/entityassociationmapping/index.md) element.
 
 ###### Groups_CyberArk_User_
 
 The ```Groups``` property in the ```CyberArk_User``` entity:
 
-- is written to the __Property2__ attribute of the ```CyberArk_Group_Members``` [Entity Association](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md) element).
-- is filled in by values from the _value_ column (written to the __Column1__ attribute of the ```CyberArk_Group_Members``` [Entity Association Mapping](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md) element) in the ```C:/UsercubeDemo/Temp/ExportOutput/CyberArk_members_Groups.csv``` file.
+- is written to the __Property2__ attribute of the ```CyberArk_Group_Members``` [Entity Association](../../../toolkit/xml-configuration/metadata/entityassociation/index.md) element).
+- is filled in by values from the _value_ column (written to the __Column1__ attribute of the ```CyberArk_Group_Members``` [Entity Association Mapping](../../../toolkit/xml-configuration/connectors/entityassociationmapping/index.md) element) in the ```C:/UsercubeDemo/Temp/ExportOutput/CyberArk_members_Groups.csv``` file.
 
-These values identify resources of type ```CyberArk_Group``` by their ```CyberArk_id``` property (written to the __EntityPropertyMapping1__ attribute of the [Entity Association Mapping](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md) element).
+These values identify resources of type ```CyberArk_Group``` by their ```CyberArk_id``` property (written to the __EntityPropertyMapping1__ attribute of the [Entity Association Mapping](../../../toolkit/xml-configuration/connectors/entityassociationmapping/index.md) element).
 
 ## Display
 
@@ -399,7 +399,7 @@ This step focuses on configuring a nice display for the synchronized list of res
 
 ### Navigation
 
-A [Menu Item](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/user-interface/menuitem/index.md) can be added to include a link to the resources list in the left menu in the UI home screen.
+A [Menu Item](../../../toolkit/xml-configuration/user-interface/menuitem/index.md) can be added to include a link to the resources list in the left menu in the UI home screen.
 
 #### Parent menu item
 
@@ -431,7 +431,7 @@ Conf/SCIMCyberArk/CyberArk Nav.xml
 
 Adds a new menu item under the ```Nav_Connectors``` menu item declared in the root ```Nav.xml``` file. This new menu item gives access to the list of synchronized CyberArk SCIM objects.
 
-![SCIM CyberArk Menu Items](/img/product_docs/usercube/usercube/integration-guide/connectors/how-tos/scim-cyberark-export/scim_cyberark_export_menu_item_5.1.6.webp)
+![SCIM CyberArk Menu Items](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/connectors/how-tos/scim-cyberark-export/scim_cyberark_export_menu_item_5.1.6.webp)
 
 ### Configuration
 
@@ -439,7 +439,7 @@ It is strongly recommended that the display configuration be written to a new ``
 
 #### Display entity type
 
-The [Display EntityType](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/user-interface/displayentitytype/index.md) describes how a single resource should be displayed.
+The [Display EntityType](../../../toolkit/xml-configuration/user-interface/displayentitytype/index.md) describes how a single resource should be displayed.
 
 ##### Example
 
@@ -453,15 +453,15 @@ Conf/SCIMCyberArk/CyberArk UI.xml
 
 This configuration configures that display for [christian.adam@acme.com](mailto:christian.adam@acme.com):
 
-![SCIM CyberArk Display Entity Type](/img/product_docs/usercube/usercube/integration-guide/connectors/how-tos/scim-cyberark-export/scim_cyberark_export_display_entity_type_5.1.6.webp)
+![SCIM CyberArk Display Entity Type](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/connectors/how-tos/scim-cyberark-export/scim_cyberark_export_display_entity_type_5.1.6.webp)
 
-The scalar properties don't need to be configured: they are automatically displayed. The only information that the [DisplayEntityType](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/user-interface/displayentitytype/index.md) adds here, is that the property ```BasicCollection``` is a navigation property. An eye icon will be displayed to take you directly to the matching page.
+The scalar properties don't need to be configured: they are automatically displayed. The only information that the [DisplayEntityType](../../../toolkit/xml-configuration/user-interface/displayentitytype/index.md) adds here, is that the property ```BasicCollection``` is a navigation property. An eye icon will be displayed to take you directly to the matching page.
 
 #### Display table
 
-The [DisplayTable](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/user-interface/displaytable/index.md) elements describe how a list of resources should be displayed.
+The [DisplayTable](../../../toolkit/xml-configuration/user-interface/displaytable/index.md) elements describe how a list of resources should be displayed.
 
-The [DisplayTable](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/user-interface/displaytable/index.md) contains a list of [DisplayTableColumn](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/user-interface/displaytable/index.md#child-element-column) elements that identify which properties should be included in the list display.
+The [DisplayTable](../../../toolkit/xml-configuration/user-interface/displaytable/index.md) contains a list of [DisplayTableColumn](../../../toolkit/xml-configuration/user-interface/displaytable/index.md#child-element-column) elements that identify which properties should be included in the list display.
 
 ##### Example
 
@@ -475,13 +475,13 @@ Conf/SCIMCyberArk/CyberArk UI.xml
 
 configures the following list display:
 
-![SCIM CyberArk Display Table](/img/product_docs/usercube/usercube/integration-guide/connectors/how-tos/scim-cyberark-export/scim_cyberark_export_display_table_5.1.6.webp)
+![SCIM CyberArk Display Table](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/connectors/how-tos/scim-cyberark-export/scim_cyberark_export_display_table_5.1.6.webp)
 
 #### Internal display name
 
 An ```InternalDisplayName``` can also be declared as an [
 Entity Type
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md). The ```InternalDisplayName``` is used in several UI screens to identify a resource for the user.
+](../../../toolkit/xml-configuration/metadata/entitytype/index.md). The ```InternalDisplayName``` is used in several UI screens to identify a resource for the user.
 
 With no custom ```InternalDisplayName```, a default value is used (instead of the first property of the identity) containing the string _"name"_. If no such property is found, the first declared property of the entity type is used.
 
@@ -501,7 +501,7 @@ adds the ```InternalDisplayName``` to the CyberArk_User entity type to be used b
 
 This step focuses on setting up permissions for Identity Manager's end-users granting them access to the connector.
 
-The [Access Control Rule](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/index.md) and [Access Control Rule](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/index.md) elements define [AccessControlPermission](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/access-control/accesscontrolpermission/index.md) for end-user profiles to read and write the connector's data (such as resources of a given entity type). It used by the UI when displaying data such as resources and available roles.
+The [Access Control Rule](../../../toolkit/xml-configuration/access-control/accesscontrolrule/index.md) and [Access Control Rule](../../../toolkit/xml-configuration/access-control/accesscontrolrule/index.md) elements define [AccessControlPermission](../../../toolkit/xml-configuration/access-control/accesscontrolpermission/index.md) for end-user profiles to read and write the connector's data (such as resources of a given entity type). It used by the UI when displaying data such as resources and available roles.
 
 It is strongly recommended that permissions be written to a new file. For example, the administrator profile permissions can be written to the ```CyberArk Profile Administrator.xml``` file.
 
@@ -529,7 +529,7 @@ It is strongly recommended to write Jobs associated with the ```CyberArk``` conn
 
 ### Components
 
-All the job steps can be found in the [Create Connector Synchro Complete](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/jobs/createconnectorsynchrocomplete/index.md) scaffolding.
+All the job steps can be found in the [Create Connector Synchro Complete](../../../toolkit/xml-configuration/configuration/scaffoldings/jobs/createconnectorsynchrocomplete/index.md) scaffolding.
 
 #### Example
 
@@ -543,24 +543,24 @@ Conf/SCIMCyberArk/SCIM CyberArk Jobs.xml
 
 This job will be executed on CyberArk's connector agent.
 
-Notice the __Identifier__ attribute with the value ```Job``` in the ```OpenIdIdentifier``` tag. It refers to the ```ClientId``` written to the [appsettings.agent](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) technical configuration. The Tasks will authenticate with the profile associated with this ```ClientId``` in the ```<OpenIdClient>``` xml configuration element.
+Notice the __Identifier__ attribute with the value ```Job``` in the ```OpenIdIdentifier``` tag. It refers to the ```ClientId``` written to the [appsettings.agent](../../../network-configuration/agent-configuration/appsettings-agent/index.md) technical configuration. The Tasks will authenticate with the profile associated with this ```ClientId``` in the ```<OpenIdClient>``` xml configuration element.
 
-Incremental synchronization can be configured with the following [Create Connector Synchro Incremental](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/jobs/createconnectorsynchroincremental/index.md).
+Incremental synchronization can be configured with the following [Create Connector Synchro Incremental](../../../toolkit/xml-configuration/configuration/scaffoldings/jobs/createconnectorsynchroincremental/index.md).
 
 ### Permissions
 
 The execution of a Job entails execution of Tasks, reading/writing to the Database and sending files over to the Server. These operations are protected by an authorization mechanism.
 
-To complete a Job, the Agent, via the [Usercube-Invoke-Job](/docs/usercube/usercube/integration-guide/executables/references/invoke-job/index.md) uses:
+To complete a Job, the Agent, via the [Usercube-Invoke-Job](../../../executables/references/invoke-job/index.md) uses:
 
-- A [Profile](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/access-control/profile/index.md) associated with the Job itself to read/write:
+- A [Profile](../../../toolkit/xml-configuration/access-control/profile/index.md) associated with the Job itself to read/write:
   - ```UJ_Jobs``` and ```UJ_Tasks``` tables in a list of tasks
   - ```UJ_JobInstances``` tables in the progress report
 - a Profile for each Task, to read/write ```UJ_TaskInstances``` tables (Progress Report) and perform other operations such as sending export files over to the Server.
 
 Each Profile must be assigned the right permissions for the associated Job or Task to perform.
 
-Every request from Agent to Server within the execution of a Job needs to be authenticated with an [OpenIdClient](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md) Connect /Secret pair, linked to a Profile.
+Every request from Agent to Server within the execution of a Job needs to be authenticated with an [OpenIdClient](../../../toolkit/xml-configuration/access-control/openidclient/index.md) Connect /Secret pair, linked to a Profile.
 
 #### Create a profile
 
@@ -574,11 +574,11 @@ Conf/Profile AgentJob.xml
 ```
                 
 
-As the Principle of Least Privilege states, Netwrix Identity Manager (formerly Usercube)strongly recommends that you create a [Profile](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/access-control/profile/index.md) to be used during the Synchronization jobs which will be different from the one used during the Provisioning job. This contributes to separating access rights. The same principle applied even more rigorously would make Identity Manager create one profile per Task. It isn't necessary as most Synchronization tasks require the same permissions.
+As the Principle of Least Privilege states, Netwrix Identity Manager (formerly Usercube)strongly recommends that you create a [Profile](../../../toolkit/xml-configuration/access-control/profile/index.md) to be used during the Synchronization jobs which will be different from the one used during the Provisioning job. This contributes to separating access rights. The same principle applied even more rigorously would make Identity Manager create one profile per Task. It isn't necessary as most Synchronization tasks require the same permissions.
 
 #### Grant synchronization access rights to the profile
 
-For an Agent to launch server-side Tasks from the Job via the [Usercube-Invoke-Job](/docs/usercube/usercube/integration-guide/executables/references/invoke-job/index.md), the profile linked to these tasks and used by the tool should be authorized to execute said tasks.
+For an Agent to launch server-side Tasks from the Job via the [Usercube-Invoke-Job](../../../executables/references/invoke-job/index.md), the profile linked to these tasks and used by the tool should be authorized to execute said tasks.
 
 Server-side Tasks for a simple Synchronization job usually are:
 
@@ -603,7 +603,7 @@ __Synchronization and Prepare-Synchronization__
 - ```/Connectors/Connector/Query```
 - ```/Connectors/SynchronizeSession```
 
-Granting access can be done via the [Synchronization Access Control Rules](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/synchronizationaccesscontrolrules/index.md) scaffolding and the[Job View Access Control Rules](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/templates/jobviewaccesscontrolrules/index.md) scaffolding.
+Granting access can be done via the [Synchronization Access Control Rules](../../../toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/synchronizationaccesscontrolrules/index.md) scaffolding and the[Job View Access Control Rules](../../../toolkit/xml-configuration/configuration/scaffoldings/templates/jobviewaccesscontrolrules/index.md) scaffolding.
 
 The following examples (or similar) should be written to ```Conf/Profile AgentSychro.xml```.
 
@@ -623,7 +623,7 @@ In addition, for end-users to be able to launch a job from the UI, they must be 
 
 - ```/Jobs/RunJob/Launch```
 
-This can be done via the[Job Execution Access Control Rules](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/templates/jobexecutionaccesscontrolrules/index.md) scaffolding.
+This can be done via the[Job Execution Access Control Rules](../../../toolkit/xml-configuration/configuration/scaffoldings/templates/jobexecutionaccesscontrolrules/index.md) scaffolding.
 
 ##### Example
 
@@ -637,9 +637,9 @@ Conf/Profile AgentSychro.xml
 
 #### Declare usable ClientId/Secret pairs in the configuration
 
-An Agent's [Profile](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/access-control/profile/index.md) is associated with a ```ClientId/Secret``` pair used by the Agent to authenticate to the Server.
+An Agent's [Profile](../../../toolkit/xml-configuration/access-control/profile/index.md) is associated with a ```ClientId/Secret``` pair used by the Agent to authenticate to the Server.
 
-Usable ```ClientId/Secret``` pairs are written to the database from the xml configuration using the [OpenIdClient](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md) xml element.
+Usable ```ClientId/Secret``` pairs are written to the database from the xml configuration using the [OpenIdClient](../../../toolkit/xml-configuration/access-control/openidclient/index.md) xml element.
 
 It is strongly recommended that you write the ```<OpenIdClient>``` xml element to a new or existing ```OpenIdClients.xml``` file in the configuration root folder.
 
@@ -649,7 +649,7 @@ The ```ClientId/Secret``` pair hence created must be associated with the profile
 
 The following example creates a ```ClientId/Secret``` pair to be used by the Agent to authenticate to the Server and complete Jobs. The secret is hashed with the [
 Usercube-New-OpenIDSecret
-](/docs/usercube/usercube/integration-guide/executables/references/new-openidsecret/index.md) tool.
+](../../../executables/references/new-openidsecret/index.md) tool.
 
 ```
 Conf/OpenIdClients.xml
@@ -662,7 +662,7 @@ Conf/OpenIdClients.xml
 
 #### Set up the Agent to use ClientId/Secret pairs
 
-The ```ClientId/Secret``` pairs that the Agent may use are written to the Agent's [appsettings.agent](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) technical configuration set.
+The ```ClientId/Secret``` pairs that the Agent may use are written to the Agent's [appsettings.agent](../../../network-configuration/agent-configuration/appsettings-agent/index.md) technical configuration set.
 
 The ```ClientId``` of such ```ClientId/Secret``` pairs can then be used as a value in a Task __OpenIdClient__ attribute.
 
@@ -692,7 +692,7 @@ Scheduling the job execution can rely either on Identity Manager's scheduler or 
 
 #### With Identity Manager's scheduler
 
-Use the Job [Job](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/jobs/job/index.md) attribute.
+Use the Job [Job](../../../toolkit/xml-configuration/jobs/job/index.md) attribute.
 
 > This example uses Identity Manager's scheduler to execute the ```CyberArk_Synchronize_Complete_Manually``` job every fifteen minutes:
 >
@@ -707,7 +707,7 @@ For more details about checking Crontab expressions, see the [crontab.guru](http
 
 #### With an external scheduler
 
-An external scheduler would rely on the [Usercube-Invoke-Job](/docs/usercube/usercube/integration-guide/executables/references/invoke-job/index.md) tool.
+An external scheduler would rely on the [Usercube-Invoke-Job](../../../executables/references/invoke-job/index.md) tool.
 
 ##### Example
 
@@ -723,7 +723,7 @@ The following command can be scheduled. It executes the ```CyberArk_Synchronize_
 
 ### Deploy configuration
 
-The configuration is written to the database using the [Deploy Configuration Task](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/deployconfigurationtask/index.md).
+The configuration is written to the database using the [Deploy Configuration Task](../../../toolkit/xml-configuration/jobs/tasks/server/deployconfigurationtask/index.md).
 
 ### Test
 

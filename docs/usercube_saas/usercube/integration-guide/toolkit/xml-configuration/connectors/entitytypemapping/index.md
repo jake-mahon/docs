@@ -2,9 +2,9 @@
 
 An entity type mapping links a given [
 Entity Type
-](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)'s properties with the source columns of the corresponding managed system. The entity type mapping specifies the related [
+](../../metadata/entitytype/index.md)'s properties with the source columns of the corresponding managed system. The entity type mapping specifies the related [
 Connector
-](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connector/index.md) and the path to the CSV source file which contains, or will contain, the data exported from the managed system. Each of its 
+](../connector/index.md) and the path to the CSV source file which contains, or will contain, the data exported from the managed system. Each of its 
 Entity Type Mapping
 properties will define the corresponding source column and specific options.
 
@@ -12,7 +12,7 @@ An entity type mapping shares the same identifier as its related entity type.
 
 See the example of a whole [
 Connector
-](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connector/index.md) containing an entity type mapping.
+](../connector/index.md) containing an entity type mapping.
 
 ## Properties
 
@@ -32,7 +32,7 @@ Connector
 
 Contains all the [
 Entity Type
-](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) properties that can be synchronized into Identity Manager physical model. Each mapping share the same id as its corresponding property in the entity type.
+](../../metadata/entitytype/index.md) properties that can be synchronized into Identity Manager physical model. Each mapping share the same id as its corresponding property in the entity type.
 
 ### Properties
 

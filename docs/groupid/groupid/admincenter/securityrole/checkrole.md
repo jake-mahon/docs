@@ -1,7 +1,7 @@
 # Check the Roles of a User
 
-As discussed in the [Assign Distinct Roles to a User in Directory Manager Clients](/docs/groupid/groupid/admincenter/securityrole/overview.md#assign-distinct-roles-to-a-user-in-directory-manager-clients) topic, a user in an identity store can have different security roles assigned
-to it in different Directory Manager clients. Moreover, a user can also have multiple roles in a client, in which case the highest priority role takes precedence when the user logs into that specific client. See [Priority](/docs/groupid/groupid/admincenter/securityrole/manage.md).
+As discussed in the [Assign Distinct Roles to a User in Directory Manager Clients](overview.md#assign-distinct-roles-to-a-user-in-directory-manager-clients) topic, a user in an identity store can have different security roles assigned
+to it in different Directory Manager clients. Moreover, a user can also have multiple roles in a client, in which case the highest priority role takes precedence when the user logs into that specific client. See [Priority](manage.md).
 
 Directory Manager enables you to view the highest priority role of a user in a client. This role identifies the access level of that user in the client. Select a client and specify a user. Directory Manager fetches the highest priority role of the user with respect to the client.
 
@@ -32,5 +32,5 @@ Directory Manager enables you to view the highest priority role of a user in a c
 
 See Also
 
-- [Security Roles](/docs/groupid/groupid/admincenter/securityrole/overview.md)
-- [Manage Security Roles](/docs/groupid/groupid/admincenter/securityrole/manage.md)
+- [Security Roles](overview.md)
+- [Manage Security Roles](manage.md)

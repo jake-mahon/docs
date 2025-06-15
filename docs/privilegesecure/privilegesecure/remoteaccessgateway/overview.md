@@ -2,7 +2,7 @@
 
 The Remote Access Gateway (RAG) may be added to any Netwrix Privilege Secure installation to securely extend access to external users such as remote workers or third-party vendors. VPN-less access is provided via web page with browser-based sessions for RDP and SSH.
 
-![architecture](/img/product_docs/changetracker/changetracker/architecture.webp)
+![architecture](../../../../static/img/product_docs/changetracker/changetracker/architecture.webp)
 
 The RAG is made up of two components:
 

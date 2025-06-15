@@ -28,7 +28,7 @@ Date Last Used (DLU) is a key criterion for clean up, as you generally are not c
 
 > _The last date the Customization, or the data it contains, was created, changed, accessed, processed or used._
 
-[DLU](/docs/strongpointforsalesforce/clean_up/date_last_used.md) is calculated differently for each Customization type.
+[DLU](../clean_up/date_last_used.md) is calculated differently for each Customization type.
 
 For all clean up activities, consider the following items:
 
@@ -39,11 +39,11 @@ For all clean up activities, consider the following items:
 
 Like all Salesforce Date fields, DLU can be filtered using relative date formats (typically what you will want). You can also filter on specific dates.
 
-![DLU Filter](/img/product_docs/strongpointforsalesforce/tech_debt/tech_debt_2.webp)
+![DLU Filter](../../../static/img/product_docs/strongpointforsalesforce/tech_debt/tech_debt_2.webp)
 
 ## Automated Report Clean Up
 
-The most common unused Customizations are Reports. In most orgs, new Reports are created every day. Some are critical to ongoing business processes, others are quick solutions to day-to-day problems. These one-time quick reports accumulate in your orgs, causing confusion and inefficiency. Refer to [Automated Report Clean Up](/docs/strongpointforsalesforce/tools/automated_report_clean_up.md) for more details.
+The most common unused Customizations are Reports. In most orgs, new Reports are created every day. Some are critical to ongoing business processes, others are quick solutions to day-to-day problems. These one-time quick reports accumulate in your orgs, causing confusion and inefficiency. Refer to [Automated Report Clean Up](../tools/automated_report_clean_up.md) for more details.
 
 Automated Report Clean Up safely archives Reports following the rules and criteria you set up. The process is simple:
 
@@ -89,7 +89,7 @@ __Other objects__: There are two strategies for other objects:
 - __Sharing Rules__: Often, you can determine who is using a List View or Dashboard by understanding the shared Users, Roles, and Groups.
 - __Salesforce Shield Event Monitoring__: Employee usage data for Reports, Dashboards, and many other objects, is only available with Salesforce Shield Event Monitoring. It enhances usage metadata to show users who are viewing non-scripted objects and executing or triggering code and workflows. Once you activate _Salesforce Shield Event Monitoring_, data is collected from that point on. It is not retroactive.
 
-__Users referred to in objects__: Fields are not created for everything, but all the metadata is available. You can identify users (and other things) referred to in dashboard filters, formula fields, SOQL, or even code, by searching the raw XML, JSON or code. The [Specific Clean Up Approaches](/docs/strongpointforsalesforce/tech_debt/tech_debt_org_specific_clean_up_approaches.md) section contains examples.
+__Users referred to in objects__: Fields are not created for everything, but all the metadata is available. You can identify users (and other things) referred to in dashboard filters, formula fields, SOQL, or even code, by searching the raw XML, JSON or code. The [Specific Clean Up Approaches](tech_debt_org_specific_clean_up_approaches.md) section contains examples.
 
 ### Owners
 
@@ -99,4 +99,4 @@ The current owner of each Customization is tracked. By default, it is the person
 >
 > You can use the __Change Owner__ button on any Customization List View. For an individual Customization, edit the Owner field on the Customization Record. Best practice if you have a staff change, is to update the Process record, which then updates the owner for all the affected Customizations.
 
-__Next Technical Debt Topic:__[ Org Clean Up Example](/docs/strongpointforsalesforce/tech_debt/tech_debt_org_clean_up_example.md)
+__Next Technical Debt Topic:__[ Org Clean Up Example](tech_debt_org_clean_up_example.md)

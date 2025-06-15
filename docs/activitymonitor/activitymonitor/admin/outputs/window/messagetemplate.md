@@ -2,7 +2,7 @@
 
 The Message Template window is opened from the ellipsis (…) button for the Syslog Message Template field on the Syslog tab of the output Properties window.
 
-![Message Template window](/img/product_docs/activitymonitor/activitymonitor/admin/outputs/window/syslogmessagetemplate.webp)
+![Message Template window](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/outputs/window/syslogmessagetemplate.webp)
 
 You can select a preconfigured template from the drop-down menu or create a custom template. The available preconfigured templates vary based on the type of domain/host selected.
 
@@ -82,8 +82,8 @@ Monitored Hosts Syslog outputs have the following preconfigured Templates:
 - LEEF – Incorporates the LEEF message format
 - LogRhythm
 - McAfee
-- QRadar – Use this template for IBM QRadar integration. See the [Netwrix File Activity Monitor App for QRadar](/docs/activitymonitor/activitymonitor/siem/qradar/overview.md) topic for additional information.
-- Splunk – Use this template for Splunk integration. See the Configure the [File Activity Monitor App for Splunk](/docs/activitymonitor/activitymonitor/siem/splunk/overview.md) topic for additional information.
+- QRadar – Use this template for IBM QRadar integration. See the [Netwrix File Activity Monitor App for QRadar](../../../siem/qradar/overview.md) topic for additional information.
+- Splunk – Use this template for Splunk integration. See the Configure the [File Activity Monitor App for Splunk](../../../siem/splunk/overview.md) topic for additional information.
 - Netwrix Threat Manager (StealthDEFEND) – Use this template for Netwrix Threat Manager integration. This is the only supported template for Threat Manager.
 
 Custom templates can be created. Select the desired template or create a new template by modifying an existing template within the Message Template window. The new message template will be named Custom. Macro variables are also available to customize the Syslog message template.

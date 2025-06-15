@@ -6,7 +6,7 @@ __Step 1 –__ Navigate to the Policy > __Platforms__ > __Schedule Policies__ pa
 
 __Step 2 –__ Click the Edit icon to open the Schedule Policy Editor window.
 
-![schedulepolicyeditor](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/edit/schedulepolicyeditor.webp)
+![schedulepolicyeditor](../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/edit/schedulepolicyeditor.webp)
 
 __Step 3 –__ From the Frequency radio buttons, set the frequency of how often the scheduled task is run:
 

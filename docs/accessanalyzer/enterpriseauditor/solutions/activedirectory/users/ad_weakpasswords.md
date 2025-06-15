@@ -20,13 +20,13 @@ The AD_WeakPasswords Job analyzes user account password hashes to determine how 
 
 The AD_WeakPasswords Job uses the PasswordSecurity Data Collector.
 
-![Query for the AD_WeakPasswords Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/users/weakpasswordsquery.webp)
+![Query for the AD_WeakPasswords Job](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/users/weakpasswordsquery.webp)
 
 The query for this job are:
 
 - Weak Passwords – Collects password hashes to identify weak passwords
 
-  - See the [PasswordSecurity Data Collector](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/passwordsecurity/overview.md) topic for additional information
+  - See the [PasswordSecurity Data Collector](../../../admin/datacollector/passwordsecurity/overview.md) topic for additional information
 
 ### Configure the Weak Passwords Query
 
@@ -38,17 +38,17 @@ __Step 2 –__ In the Query Selection view, select the __Weak Passwords__ query 
 
 __Step 3 –__ Select the Data Source tab, and click __Configure__. The Password Security Data Collector Wizard opens.
 
-![Password Security Data Collection Wizard Scan options page](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/users/optionsweakpassword.webp)
+![Password Security Data Collection Wizard Scan options page](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/users/optionsweakpassword.webp)
 
 __CAUTION:__ Read the warning prior to enabling the cleartext password feature.
 
 __Step 4 –__ On the Options page, configure the scan options by enabling communication with the Active Directory via SSL or returning cleartext password entries.
 
-![Password Security Data Collection Wizard Dictionary options page](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/users/dictionariesweakpassword.webp)
+![Password Security Data Collection Wizard Dictionary options page](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/users/dictionariesweakpassword.webp)
 
 __Step 5 –__ On the Dictionaries page, configure the dictionary options by enabling the Netwrix weak password dictionary or click __Add…__ to upload a custom dictionary with NTLM hashes or plaintext passwords to use during the scan.
 
-- See the [PasswordSecurity: Dictionaries](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/passwordsecurity/dictionaries.md) topic for additional information
+- See the [PasswordSecurity: Dictionaries](../../../admin/datacollector/passwordsecurity/dictionaries.md) topic for additional information
 
 __Step 6 –__ Navigate to the Summary page, click __Finish__ to save any setting modifications or click __Cancel__ if no changes were made. Then click __OK__ to close the Query Properties window.
 
@@ -60,7 +60,7 @@ Navigate to the __Active Directory__ > __2.Users__ > __AD_WeakPasswords__ > __Co
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the AD_WeakPasswords Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/users/weakpasswordsanalysis.webp)
+![Analysis Tasks for the AD_WeakPasswords Job](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/users/weakpasswordsanalysis.webp)
 
 The default analysis tasks are:
 

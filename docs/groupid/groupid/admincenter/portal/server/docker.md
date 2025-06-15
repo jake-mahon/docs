@@ -4,7 +4,7 @@ You can manage various settings for a portal instance deployed in Docker.
 
 ## Start or Stop an Instance
 
-To start or stop a deployment instance, see the [Start or Stop an Instance](/docs/groupid/groupid/admincenter/portal/server/nativeiis.md#start-or-stop-an-instance) topic.
+To start or stop a deployment instance, see the [Start or Stop an Instance](nativeiis.md#start-or-stop-an-instance) topic.
 
 ## View the Deployment Settings for an Instance
 
@@ -28,8 +28,8 @@ __To view the info:__
 
 ## Set File Logging and Windows Logging for an Instance
 
-To set file logging and Windows logging levels for a deployment instance, see the [Manage Log Settings](/docs/groupid/groupid/admincenter/portal/server/log.md) topic.
+To set file logging and Windows logging levels for a deployment instance, see the [Manage Log Settings](log.md) topic.
 
 ## Delete an Instance
 
-To delete a portal’s deployment instance, see the [Delete a Deployment Instance for a Portal](/docs/groupid/groupid/admincenter/portal/delete.md#delete-a-deployment-instance-for-a-portal) topic.
+To delete a portal’s deployment instance, see the [Delete a Deployment Instance for a Portal](../delete.md#delete-a-deployment-instance-for-a-portal) topic.

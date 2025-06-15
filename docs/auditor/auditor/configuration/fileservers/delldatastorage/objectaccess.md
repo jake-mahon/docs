@@ -18,7 +18,7 @@ __Step 5 –__ In the __Group Policy Management Editor__ dialog, expand the __Co
 | --- | --- | --- |
 | Audit Policy | __Audit object access__ | _"Success"_ and _"Failure"_ |
 
-![manualconfig_fileserver_auditpolicy2016](/img/product_docs/auditor/auditor/configuration/fileservers/delldatastorage/manualconfig_fileserver_auditpolicy2016.webp)
+![manualconfig_fileserver_auditpolicy2016](../../../../../../static/img/product_docs/auditor/auditor/configuration/fileservers/delldatastorage/manualconfig_fileserver_auditpolicy2016.webp)
 
 __Step 6 –__ To update the group policies, execute the following command:
 
@@ -35,4 +35,4 @@ __Step 6 –__ To update the group policies, execute the following command:
 
   To update group policies for Dell VNX you must be logged in as the 'nasadmin' user.
 
-You can configure advanced audit policy to narrow the range of events tracked and recorded by the product, thus preventing your AuditArchive and the Security event log from overfilling. See the [Configure Security Event Log Maximum Size](/docs/auditor/auditor/configuration/fileservers/delldatastorage/securityeventlog.md) topic for additional information.
+You can configure advanced audit policy to narrow the range of events tracked and recorded by the product, thus preventing your AuditArchive and the Security event log from overfilling. See the [Configure Security Event Log Maximum Size](securityeventlog.md) topic for additional information.

@@ -10,4 +10,4 @@ A single SQL Server can have multiple instances. Each instance where data is col
 
 The following report is available at the __SQL Server__ node:
 
-- [Sensitive Content Summary Report](/docs/accessinformationcenter/access/informationcenter/resourceaudit/sql/sensitivecontentsummary.md)
+- [Sensitive Content Summary Report](sensitivecontentsummary.md)

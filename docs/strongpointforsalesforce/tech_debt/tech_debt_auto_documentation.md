@@ -4,7 +4,7 @@ Great documentation is easy with Platform Governance for Salesforce. Install the
 
 > __TIP__
 >
-> __Learning About the Scanners__: Review the [Running the Scanner](/docs/strongpointforsalesforce/installing_strongpoint/running_scanner.md) topic or reach out to the Customer Success team. It takes half an hour or so to get set up and on your way.
+> __Learning About the Scanners__: Review the [Running the Scanner](../installing_strongpoint/running_scanner.md) topic or reach out to the Customer Success team. It takes half an hour or so to get set up and on your way.
 >
 > The scanning process is a function of size: smaller orgs index in only a few hours, while large orgs can take up to 5 days.
 >
@@ -28,26 +28,26 @@ Once your orgs are documented, understanding the downstream dependencies of any 
 
 ## Dependency Relationship Diagram (DRD)
 
-The [DRD](/docs/strongpointforsalesforce/tools/viewing_drd.md) is a graphical presentation of an object to help you visualize the dependencies.
+The [DRD](../tools/viewing_drd.md) is a graphical presentation of an object to help you visualize the dependencies.
 
 1. The DRD can be launched from both the Home tab and the Tools menu. Open __Netwrix Dashboard__ > __Tools__ > __Dependency Relationship Diagram__, and select an object from the list.
 
-   ![Opening an item in the DRD](/img/product_docs/strongpointforsalesforce/tech_debt/tech_debt_10.webp)
+   ![Opening an item in the DRD](../../../static/img/product_docs/strongpointforsalesforce/tech_debt/tech_debt_10.webp)
 
    From the __Netwrix Dashboard__ tab, use the __DRD Generator__ to launch the DRD for a particular Customization. You can search by __Name__ or __API Name__.
 
-   ![Opening an item in the DRD](/img/product_docs/strongpointforsalesforce/tech_debt/tech_debt_1.webp)
+   ![Opening an item in the DRD](../../../static/img/product_docs/strongpointforsalesforce/tech_debt/tech_debt_1.webp)
 2. Click an attribute to expand the metadata record and view all the dependencies. Drill down for details so you can fully understand the downstream dependencies.
 
-   ![Viewing dependencies in the DRD](/img/product_docs/strongpointforsalesforce/tech_debt/tech_debt_13.webp)
+   ![Viewing dependencies in the DRD](../../../static/img/product_docs/strongpointforsalesforce/tech_debt/tech_debt_13.webp)
 3. The DRD exposes other critical metadata such as the Owner, API Name, Data Type, and Date Last Used (DLU). This data expedites clean up, enabling you to filter and group Customizations in List Views or Reports.
 
-   ![Drilling into a dependency in the DRD](/img/product_docs/strongpointforsalesforce/tech_debt/tech_debt_11.webp)
+   ![Drilling into a dependency in the DRD](../../../static/img/product_docs/strongpointforsalesforce/tech_debt/tech_debt_11.webp)
 4. Click __Open Record__ to open the full Customization Record with complete access to the detailed metadata and change history for the Customization.
 
 > __PRO TIPS__
 >
-> - Read more about the [Customization Record](/docs/strongpointforsalesforce/customizations/customizations_overview.md).
+> - Read more about the [Customization Record](../customizations/customizations_overview.md).
 > - Click __Show/Hide Standard Fields__ to toggle displaying Standard Fields in the DRD.
 
 ## Customization Record
@@ -67,7 +67,7 @@ If you have Intelligent Change Enablement, you also see:
 
 - Change history
 
-The tabs on each Customization record break out the information you need to fully understand the basic metadata, dependencies by type and change history (requires _Intelligent Change Enablement_ or _Enterprise Compliance_ [license](/docs/strongpointforsalesforce/installing_strongpoint/features_by_license_type.md)). Click __Go To Record__ to open the actual Salesforce record for users with proper access. Customization records can be edited to assist in organizing records for clean up and optimization.
+The tabs on each Customization record break out the information you need to fully understand the basic metadata, dependencies by type and change history (requires _Intelligent Change Enablement_ or _Enterprise Compliance_ [license](../installing_strongpoint/features_by_license_type.md)). Click __Go To Record__ to open the actual Salesforce record for users with proper access. Customization records can be edited to assist in organizing records for clean up and optimization.
 
 Here are five methods to access Customizations to explore:
 
@@ -79,7 +79,7 @@ Here are five methods to access Customizations to explore:
 
 ## Finder
 
-[Finder](/docs/strongpointforsalesforce/tools/finder.md) is another flexible tool for understanding dependencies across objects. You can search for Customizations by:
+[Finder](../tools/finder.md) is another flexible tool for understanding dependencies across objects. You can search for Customizations by:
 
 - Text / API Name
 - Creation Date
@@ -91,10 +91,10 @@ You can __Include__ or __Exclude__ Package Customizations to filter your lists. 
 
 ## Object Exporter
 
-Object Exporter enables exporting information about entire objects, profiles or users into Excel for further research. Read more on [Exporting Objects](/docs/strongpointforsalesforce/tools/export_objects.md), [Exporting Profiles](/docs/strongpointforsalesforce/tools/export_profiles.md) and [Exporting Users](/docs/strongpointforsalesforce/tools/export_users.md).
+Object Exporter enables exporting information about entire objects, profiles or users into Excel for further research. Read more on [Exporting Objects](../tools/export_objects.md), [Exporting Profiles](../tools/export_profiles.md) and [Exporting Users](../tools/export_users.md).
 
 ## Reports and List Views
 
 Platform Governance for Salesforce is fully built into Salesforce so you can take advantage our our libraries of List Views and Reports or build your own.
 
-__Next Technical Debt Topic:__ [Change Monitoring](/docs/strongpointforsalesforce/tech_debt/tech_debt_change_monitoring.md)
+__Next Technical Debt Topic:__ [Change Monitoring](tech_debt_change_monitoring.md)

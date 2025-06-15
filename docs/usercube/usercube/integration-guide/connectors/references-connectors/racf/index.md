@@ -4,9 +4,9 @@ This connector exports users and profiles from a [RACF](https://www.ibm.com/docs
 
 This page is about [
 RACF
-](/docs/usercube/usercube/integration-guide/connectors/references-packages/racf/index.md).
+](../../references-packages/racf/index.md).
 
-![Package: MainFrame/RACF](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/racf/packages_racf_v603.webp)
+![Package: MainFrame/RACF](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/racf/packages_racf_v603.webp)
 
 ## Overview
 
@@ -32,7 +32,7 @@ Be aware that Identity Manager supports only the RACF records represented by th
 
 This process is configured through a [
 Connection
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or the XML configuration, and in the ```appsettings.agent.json > Connections``` section:
+](../../../toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or the XML configuration, and in the ```appsettings.agent.json > Connections``` section:
 
 ```
 appsettings.agent.json
@@ -84,7 +84,7 @@ The identifier of the connection and thus the name of the subsection must:
 
 This connector is meant to generate to the [
 Connection
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) folder one CSV file per record type (0100, 0200, etc.), named ```<connectionIdentifier>_<type>.csv```.
+](../../../toolkit/xml-configuration/connectors/connection/index.md) folder one CSV file per record type (0100, 0200, etc.), named ```<connectionIdentifier>_<type>.csv```.
 
 > For example, consider an export with a connection named ```ExportRacf```, and a source file containing the record types 0100, 0120, 0203. Then we will have three output files named ```ExportRacf_0100.csv```, ```ExportRacf_0120.csv``` and ```ExportRacf_0203.csv```.
 
@@ -102,10 +102,10 @@ This connector does not reset passwords.
 
 This connector has no credential attributes, and therefore does not use [
 Connection
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md), nor a [
+](../../../toolkit/xml-configuration/connectors/connection/index.md), nor a [
 Connection
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md).
+](../../../toolkit/xml-configuration/connectors/connection/index.md).
 
 Still, data protection can be ensured through an [
 Connection
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) safe.
+](../../../toolkit/xml-configuration/connectors/connection/index.md) safe.

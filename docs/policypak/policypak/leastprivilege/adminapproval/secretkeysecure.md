@@ -4,7 +4,7 @@ The secret key of Admin Approval is stored within the XML inside the GPO, as see
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/adminapproval/securing_the_secret_key_when.webp)
+Description automatically generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/adminapproval/securing_the_secret_key_when.webp)
 
 If you look closely, you will see it is not the same key that was used earlier. Indeed, it is re-hashed or re-encrypted before it is placed within the XML within the GPO. Even so, it is best practice to remove the ability for users to be able to read the encrypted key. As you can see, a Standard User can, by default, read the GPO’s contents, because the default rights of a GPO are __Authenticated Users::Read__.
 
@@ -24,13 +24,13 @@ The __Scope__ tab of the GPO, shown here, displays an example of a GPO where onl
 
 ![A screenshot of a computer screen
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/adminapproval/securing_the_secret_key_when_1.webp)
+Description automatically generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/adminapproval/securing_the_secret_key_when_1.webp)
 
 This immediately prevents Standard Users from reading the Computer side of the GPO, as shown in here.
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/adminapproval/securing_the_secret_key_when.jpg)
+Description automatically generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/adminapproval/securing_the_secret_key_when.jpg)
 
 Again, if you choose to place computers into an Active Directory security group, you will need to reboot the computer so it will pick up the new computer group membership and then the GPO.
 
@@ -38,4 +38,4 @@ You can verify the computer got the GPO key by opening an Admin command prompt, 
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/adminapproval/securing_the_secret_key_when_2.webp)
+Description automatically generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/adminapproval/securing_the_secret_key_when_2.webp)

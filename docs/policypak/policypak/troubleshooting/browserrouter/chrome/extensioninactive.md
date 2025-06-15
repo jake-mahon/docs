@@ -2,7 +2,7 @@
 
 From time to time it's possible that the Netwrix Endpoint Policy Manager (formerly PolicyPak) Browser Router extension for Chrome will be installed, but not active, like in this example.
 
-![489_1_dfg_950x593](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/chrome/489_1_dfg_950x593.jpg)
+![489_1_dfg_950x593](../../../../../../static/img/product_docs/policypak/policypak/troubleshooting/browserrouter/chrome/489_1_dfg_950x593.jpg)
 
 This can occur if you are attempting to force deploy the extension via Group Policy or Endpoint Policy Manager Application Manager or if there is some kind of error.
 

@@ -4,7 +4,7 @@ This topic discusses the differences between an Active Directory and Microsoft E
 
 ## Group Expiration Policy
 
-Microsoft Entra ID offers limited options to define a default expiry policy for groups whereas Directory Manager provides a comprehensive Group Life Cycle policy. See the [Manage Group Lifecycle Settings](/docs/groupid/groupid/admincenter/identitystore/configure/directoryservice/grouplifecycle.md) topic.
+Microsoft Entra ID offers limited options to define a default expiry policy for groups whereas Directory Manager provides a comprehensive Group Life Cycle policy. See the [Manage Group Lifecycle Settings](configure/directoryservice/grouplifecycle.md) topic.
 
 Since these policies are not integrated; you should either useMicrosoft Entra ID’s or Directory Manager’s expiration policy settings for groups in an Microsoft Entra ID identity store.
 
@@ -15,7 +15,7 @@ The group naming policy defined in Microsoft Entra ID is not integrated with the
 - Microsoft Entra ID's group naming policy has no impact on groups created using Directory Manager.
 - Using Directory Manager, you cannot modify the prefixes and suffixes that are applied to groups created directly in Microsoft Entra Admin Center.
 
-To use the same prefixes for group names as are defined in Microsoft Entra Admin Center, the administrator should define the same prefixes in Directory Manager. See the [Group Name Prefixes](/docs/groupid/groupid/admincenter/identitystore/configure/directoryservice/prefixes.md) topic.
+To use the same prefixes for group names as are defined in Microsoft Entra Admin Center, the administrator should define the same prefixes in Directory Manager. See the [Group Name Prefixes](configure/directoryservice/prefixes.md) topic.
 
 ## Dynamic Groups in Microsoft Entra ID
 
@@ -47,7 +47,7 @@ To avoid conflicts, Directory Manager administrators should grant permissions to
   - An Office 365 group can only have user objects as its members.
   - Even if the query for an Office 365 group returns different object types, only user objects are added to group membership.
   - The nesting option in the _Out of Bounds_ settings for an identity store will empty the membership of a Smart Group of the Office 365 type, because nested groups cannot be added
-    as group members. See the [Manage Group Membership Settings](/docs/groupid/groupid/admincenter/identitystore/configure/directoryservice/outofbounds.md)topic.
+    as group members. See the [Manage Group Membership Settings](configure/directoryservice/outofbounds.md)topic.
   - A Dynasty cannot be created as an Office 365 group.
 - You can create and manage distribution groups.
 - You can also create teams and channels in MS Teams.

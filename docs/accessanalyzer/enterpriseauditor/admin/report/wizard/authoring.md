@@ -2,17 +2,17 @@
 
 On the Authoring page of the Report Configuration wizard, you can configure the name, header information, and publish settings for the report.
 
-![Report Configuration wizard Authoring page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/report/wizard/authoring.webp)
+![Report Configuration wizard Authoring page](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/report/wizard/authoring.webp)
 
 Configure the following settings as required:
 
-![name](/img/product_docs/accessanalyzer/enterpriseauditor/admin/report/wizard/name.webp)
+![name](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/report/wizard/name.webp)
 
 - Name – The name used for the report in the Access Analyzer console and Web Console.
 
 Header Options
 
-![header](/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/webrequest/header.webp)
+![header](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/webrequest/header.webp)
 
 - Title – The title of the report as displayed at the top of the generated report
 - Author – Name of the person or group who created the report. This is displayed at the top of the generated report.
@@ -22,20 +22,20 @@ Header Options
 Publish Options
 
 - Publish Report – Select an option to configure if the report should be published to the Web Console when it is generated.
-  - Use default setting – Applies the Global report settings, or the settings configured at the job group or job levels if inheritance has been broken. (See the [Publish Option](/docs/accessanalyzer/enterpriseauditor/admin/settings/reporting.md#publish-option), [Reporting Node](/docs/accessanalyzer/enterpriseauditor/admin/jobs/group/reporting.md), and [Report Settings Tab](/docs/accessanalyzer/enterpriseauditor/admin/jobs/job/properties/reportsettings.md) topics for additional information.)
+  - Use default setting – Applies the Global report settings, or the settings configured at the job group or job levels if inheritance has been broken. (See the [Publish Option](../../settings/reporting.md#publish-option), [Reporting Node](../../jobs/group/reporting.md), and [Report Settings Tab](../../jobs/job/properties/reportsettings.md) topics for additional information.)
   - Publish report – Select this option to publish the report
   - Do not publish report – Select this option to not publish the report
 - Publish State – Shows the current publish state of the report. If the report is already published, you can click the link to open the report in the Web Console.
 
 ## Add Tags to a Report
 
-You can add tags to reports to describe the content and use cases of the report (see the [Tags](/docs/accessanalyzer/enterpriseauditor/admin/report/tags.md) topic for additional information). The Tag Editor allows you to select the tags for a report, including creating new ones to select.
+You can add tags to reports to describe the content and use cases of the report (see the [Tags](../tags.md) topic for additional information). The Tag Editor allows you to select the tags for a report, including creating new ones to select.
 
 Follow the steps to select tags using the Tag Editor.
 
 __Step 1 –__ On the Authoring page of the Report Configuration wizard, click the __Edit__ button located next to the Tags text box.
 
-![Tag Editor](/img/product_docs/accessanalyzer/enterpriseauditor/admin/report/wizard/tageditor.webp)
+![Tag Editor](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/report/wizard/tageditor.webp)
 
 __Step 2 –__ In the Tag editor, select the checkbox next to the tags that should be applied to the report.
 

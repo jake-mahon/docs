@@ -14,7 +14,7 @@ __Step 3 –__ In the Actions section, for each of the following, click the Add 
 
 These actions may be paired with a corresponding Pre-Session action.
 
-![addactionwindow](/img/product_docs/threatprevention/threatprevention/admin/policies/actions/addactionwindow.webp)
+![addactionwindow](../../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/actions/addactionwindow.webp)
 
 __Step 4 –__ Complete the following fields:
 
@@ -26,7 +26,7 @@ __Step 4 –__ Complete the following fields:
 - Action Name - Action Name — (Optional) Edit the name of the action.
 - Paired Actions Name - Paired Action's Name — (Optional) Edit the name of the paired action
 
-See the [Action Types](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/activityactiontypes.md) section for detailed descriptions of the fields.
+See the [Action Types](../../activityactiontypes.md) section for detailed descriptions of the fields.
 
 __NOTE:__ The fields will change depending on the selected Action Type.
 
@@ -36,7 +36,7 @@ __Step 6 –__ Continue to create as many actions for each stage of the session 
 
 __NOTE:__  It is not possible to change the Action Type once the action is created. Delete the existing action and then create a new action to get a new Action Type.
 
-__Step 7 –__ If desired, it is possible to automatically run any Protection Policies associated with the resource when the session completes. Simply add the _Invoke Protection Policies_ action to the Post-Session group. See the [Protection Policies Page](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/protectionpolicies.md) topic for additional information.
+__Step 7 –__ If desired, it is possible to automatically run any Protection Policies associated with the resource when the session completes. Simply add the _Invoke Protection Policies_ action to the Post-Session group. See the [Protection Policies Page](../../page/protectionpolicies.md) topic for additional information.
 
 __NOTE:__ It is not necessary to select a protection policy. All protection policies that apply to the session host are executed.
 

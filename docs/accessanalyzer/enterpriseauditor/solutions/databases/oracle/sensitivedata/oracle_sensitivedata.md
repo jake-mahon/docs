@@ -8,7 +8,7 @@ Navigate to the __Oracle > 5.Sensitve Data > Oracle_SensitveData > Configure__ n
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/oracle/sensitivedata/jobgroup44.webp)
+![Analysis Selection](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/oracle/sensitivedata/jobgroup44.webp)
 
 The default analysis tasks are:
 

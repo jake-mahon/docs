@@ -9,4 +9,4 @@ A single MySQL Server can have multiple instances. Each instance where data is c
 
 The following report is available at the __MySQL__ node:
 
-- [Sensitive Content Summary Report](/docs/accessinformationcenter/access/informationcenter/resourceaudit/mysql/sensitivecontentsummary.md)
+- [Sensitive Content Summary Report](sensitivecontentsummary.md)

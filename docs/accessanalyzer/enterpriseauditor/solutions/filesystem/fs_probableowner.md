@@ -2,7 +2,7 @@
 
 The 6.Probable Owner Job Group is designed to report on probable owners of resources from targeted file servers.
 
-![probableownerjobstree](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/probableownerjobstree.webp)
+![probableownerjobstree](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/probableownerjobstree.webp)
 
 The 6.Probable Owner Job Group is comprised of:
 
@@ -14,7 +14,7 @@ View the analysis tasks by navigating to the FileSystem > 6.Probable Owner > FS_
 
 __CAUTION:__ Do not modify or deselect the first and third selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/probableowneranalysis.webp)
+![Analysis Selection](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/probableowneranalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -24,7 +24,7 @@ The following analysis tasks are selected by default:
   - Set to “List ownership as deep into the folder hierarchy as the root share” which is ```@maxlevel``` parameter set to Value0.
   - Value0 = root share, Value1 = 1 folder deep, Value2 = 2 folders deep, etc.
   - Set the variable #FILTERED_TRUSTEES to a CSV file that contains one row for each SID to be excluded. When the job is run, SIDs specified in the #FILTERED_TRUSTEES variable are excluded from the analysis and not reported as probable owners.
-  - See the [Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/analysiscustomizableparameters.md) topic for additional information.
+  - See the [Configure the Customizable Parameters in an Analysis Task](../../admin/jobs/job/configure/analysiscustomizableparameters.md) topic for additional information.
 - Identify Folders with no Owner Found – Creates the SA_FS_ProbableOwner_NoOwnerFound table accessible under the job’s Results node
 
 In addition to the tables and views created by the analysis tasks, the FS_ProbableOwner Job produces the following pre-configured report:

@@ -161,5 +161,5 @@ __To disallow attributes for an object type in an identity store or data source:
 
 __See Also__
 
-- [Security Roles](/docs/groupid/groupid/admincenter/securityrole/overview.md)
-- [Security Role Policies](/docs/groupid/groupid/admincenter/securityrole/policy/overview.md)
+- [Security Roles](../overview.md)
+- [Security Role Policies](overview.md)

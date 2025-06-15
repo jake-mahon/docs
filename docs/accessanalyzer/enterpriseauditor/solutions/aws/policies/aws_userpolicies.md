@@ -8,7 +8,7 @@ Navigate to the __AWS__ > __5.Policies__ > __AWS_UserPolicies__ > __Configure__ 
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the AWS_UserPolicies Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/aws/policies/userpoliciesanalysis.webp)
+![Analysis Tasks for the AWS_UserPolicies Job](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/aws/policies/userpoliciesanalysis.webp)
 
 The following analysis tasks are selected by default:
 

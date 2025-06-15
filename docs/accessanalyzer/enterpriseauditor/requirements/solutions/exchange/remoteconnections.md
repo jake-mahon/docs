@@ -11,7 +11,7 @@ In addition to the permissions required by the SMARTLog Data Collector, the Conn
 
   - Go to ```GPedit.msc```
   - Go to Computer Configuration > Windows Settings > Security Settings > Local Policies > User Rights
-- Permissions required by the ExchangePS Data Collector. See the [Exchange PowerShell Permissions](/docs/accessanalyzer/enterpriseauditor/requirements/solutions/exchange/powershell.md) topic for additional information.
+- Permissions required by the ExchangePS Data Collector. See the [Exchange PowerShell Permissions](powershell.md) topic for additional information.
 
 Applet Permissions
 

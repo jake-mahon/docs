@@ -25,7 +25,7 @@ File System reports fall into the following categories:
   - Report on monitored activity and alerts
   - Data collected by the Access Analyzer File System Activity Auditing collection jobs
   - Display information for a selected date range with local time stamps
-  - Some of the reports also include trend graphs. Trend graphs provide a visual representation of the activity that occurred over the selected date range. See the [Activity Report Results Pane Features](/docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/overview.md#activity-report-results-pane-features) topic for instructions on selecting a date range and filtering the trend graphs.
+  - Some of the reports also include trend graphs. Trend graphs provide a visual representation of the activity that occurred over the selected date range. See the [Activity Report Results Pane Features](../navigate/overview.md#activity-report-results-pane-features) topic for instructions on selecting a date range and filtering the trend graphs.
   - Activity information is represented in two ways:
 
     - Activity Statistics – Statistics reports show the count of operation events performed for the selected resource within the selected date range. These events are normalized into the operations of Reads, Writes, Deletes, and Manages.
@@ -43,7 +43,7 @@ File System reports fall into the following categories:
 
 The following reports are available at the __File System__ node:
 
-- [Activity Summary Report](/docs/accessinformationcenter/access/informationcenter/resourceaudit/filesystem/activitysummary.md)
-- [Exceptions Report](/docs/accessinformationcenter/access/informationcenter/resourceaudit/filesystem/exceptions.md)
-- [Sensitive Content Summary Report](/docs/accessinformationcenter/access/informationcenter/resourceaudit/filesystem/sensitivecontentsummary.md)
-- [Server Summary Report](/docs/accessinformationcenter/access/informationcenter/resourceaudit/filesystem/serversummary.md)
+- [Activity Summary Report](activitysummary.md)
+- [Exceptions Report](exceptions.md)
+- [Sensitive Content Summary Report](sensitivecontentsummary.md)
+- [Server Summary Report](serversummary.md)

@@ -9,10 +9,10 @@ To access the ERD view:
 1. Open __Flashlight__ > __Tools__ > __ERD__
 2. Select a __Record Type__
 
-   ![ERD Filter Options](/img/product_docs/strongpointnetsuiteflashlight/using_flashlight/erd_filters_800x231.webp)
+   ![ERD Filter Options](../../../static/img/product_docs/strongpointnetsuiteflashlight/using_flashlight/erd_filters_800x231.webp)
 3. Click __Show Record ERD__ to generate the diagram.
 
-   ![ERD](/img/product_docs/strongpointnetsuiteflashlight/using_flashlight/erd_800x517.webp)
+   ![ERD](../../../static/img/product_docs/strongpointnetsuiteflashlight/using_flashlight/erd_800x517.webp)
 4. The left panel displays your selected __Record Type__
 5. Click on any field in the ERD to see:
 

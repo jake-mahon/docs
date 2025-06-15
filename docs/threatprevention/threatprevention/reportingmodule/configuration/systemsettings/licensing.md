@@ -6,7 +6,7 @@ Use the gear icon in the upper right corner of the console to open the Configura
 
 Click __Licensing__ in the navigation pane.
 
-![System Settings interface on the Licensing page](/img/product_docs/dataclassification/ndc/configuration/licensing.webp)
+![System Settings interface on the Licensing page](../../../../../../static/img/product_docs/dataclassification/ndc/configuration/licensing.webp)
 
 The License Info section displays the following:
 

@@ -8,14 +8,14 @@ REASON:
 
 The file Info deny rule was created by browsing for a reference file and selecting the WinSCP Setup EXE file (WinSCP-5.17.10-Setup.exe). However, the PRODUCT name contains trailing spaces that are not visible unless you highlight the Product name field, which is why the issue is occurring. If you look in the screenshot below you will see that the Product name is really "WinSCP                                                      ", and not just "WinSCP"
 
-![884_1_image-20210816211638-1](/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/fileinfodeny/884_1_image-20210816211638-1.webp)
+![884_1_image-20210816211638-1](../../../../../../static/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/fileinfodeny/884_1_image-20210816211638-1.webp)
 
 Also, not all versions of WinSCP Setup EXE have a file name:
 
-![884_2_image-20210816211638-2](/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/fileinfodeny/884_2_image-20210816211638-2.webp)
+![884_2_image-20210816211638-2](../../../../../../static/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/fileinfodeny/884_2_image-20210816211638-2.webp)
 
 SOLUTION:
 
 To work around these issues, you can replace the FILE Info name with a wildcard, and add a wildcard to the PRODUCT name "WinSCP" to account for the trailing spaces.
 
-![884_3_image-20210816211638-3](/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/fileinfodeny/884_3_image-20210816211638-3.webp)
+![884_3_image-20210816211638-3](../../../../../../static/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/fileinfodeny/884_3_image-20210816211638-3.webp)

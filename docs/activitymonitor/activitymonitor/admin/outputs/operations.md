@@ -8,7 +8,7 @@ Select an output from the Monitored Hosts tab and click __Edit__ to open the out
 
 The tab contains the following settings and features:
 
-![linux](/img/product_docs/activitymonitor/activitymonitor/admin/outputs/linux.webp)
+![linux](../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/outputs/linux.webp)
 
 Use the options in the Operations tab to filter the list of available audit activities. The options are:
 
@@ -21,7 +21,7 @@ Click __OK__ to commit the modifications. Click __Cancel__ to discard the modifi
 
 The tab contains the following settings and features:
 
-![Host Properties - Azure AD Operations tab](/img/product_docs/activitymonitor/activitymonitor/admin/outputs/azureadoperationstab.webp)
+![Host Properties - Azure AD Operations tab](../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/outputs/azureadoperationstab.webp)
 
 - Monitor Sign-Ins activity – Indicates if user sign-ins activity is monitored
 - Monitor Audit activity – Indicates if audit for all operations is monitored
@@ -52,7 +52,7 @@ Click __OK__ to commit the modifications. Click __Cancel__ to discard the modifi
 
 The tab contains the following settings and features:
 
-![operations](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/operations.webp)
+![operations](../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/operations.webp)
 
 - File Operations – Scope by file operation events: Add, Delete, Rename, Permission change, Read, Update
 - Directory Operations – Scope by directory operation events: Add, Delete, Rename, Permission change
@@ -63,7 +63,7 @@ Click __OK__ to commit the modifications. Click __Cancel__ to discard the modifi
 
 The tab contains the following settings and features:
 
-![qumulooutputproperties](/img/product_docs/activitymonitor/activitymonitor/admin/outputs/qumulooutputproperties.webp)
+![qumulooutputproperties](../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/outputs/qumulooutputproperties.webp)
 
 - File Operations – Scope by file operation events: Add, Delete, Rename, Permission change, Read, Update
 - Directory Operations – Scope by directory operation events: Add, Delete, Rename, Permission change, Read / List
@@ -76,7 +76,7 @@ Click __OK__ to commit the modifications. Click __Cancel__ to discard the modifi
 
 The tab contains the following settings and features:
 
-![Operations Tab for SharePoint](/img/product_docs/activitymonitor/activitymonitor/admin/outputs/sp.webp)
+![Operations Tab for SharePoint](../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/outputs/sp.webp)
 
 - SharePoint operations – Scope by SharePoint operation events: Check-Out, View, Update, Child Delete, Undelete, Copy, Audit Mask Change, Child Move, Custom, Check-In, Delete, Profile Change, Schema Change, Workflow, Move, Search, File Fragment Write
 - Permission Operations – Scope by permission operation events: Creation of a user group, Addition of a new member to a group, creation of a new role, Changing a role, Changing the permissions of a user or group, Turning off inheritance of security settings, Granting App Permissions, Deletion of a group, Deletion of a member from a group, Removal of a role, Turning off inheritance of role, Turning on inheritance of security settings, Deletion of audited events, Revoking App Permissions
@@ -87,7 +87,7 @@ Click __OK__ to commit the modifications. Click __Cancel__ to discard the modifi
 
 The tab contains a subset of tabs. Each tab has a __Select All__ check box to include all events for that tab.
 
-![Operations Tab for SharePoint Online Properties](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/operationstab.webp)
+![Operations Tab for SharePoint Online Properties](../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/operationstab.webp)
 
 You can scope by the following events:
 
@@ -248,7 +248,7 @@ Click __OK__ to commit the modifications. Click __Cancel__ to discard the modifi
 
 The tab contains the following settings and features:
 
-![sql](/img/product_docs/activitymonitor/activitymonitor/admin/outputs/sql.webp)
+![sql](../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/outputs/sql.webp)
 
 - DML operations – Scope by DML operation events: Select, Update, Merge, Insert, Delete, Execute
 - Audit operations – Scope by audit operation events: Login, Logout, Login Failed, Error
@@ -261,7 +261,7 @@ Click __OK__ to commit the modifications. Click __Cancel__ to discard the modifi
 
 The tab contains the following settings and features:
 
-![Operations Tab for File System](/img/product_docs/activitymonitor/activitymonitor/admin/outputs/fs.webp)
+![Operations Tab for File System](../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/outputs/fs.webp)
 
 - Operation Type – Scope events by operation type:
 
@@ -282,4 +282,4 @@ The tab contains the following settings and features:
 
 Click __OK__ to commit the modifications. Click __Cancel__ to discard the modifications. The output Properties window closes.
 
-See[Suppress Windows Explorer Activity](/docs/activitymonitor/activitymonitor/admin/outputs/suppress.md) topic for more information.
+See[Suppress Windows Explorer Activity](suppress.md) topic for more information.

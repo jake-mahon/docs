@@ -24,7 +24,7 @@ Content Aware Protection comes as the second level of data protection available 
 
 __NOTE:__ Any details provided will only be used to ensure the Live Update Server is conﬁgured correctly and that the Content Aware Protection module was enabled successfully.
 
-![The module is displayed but requires a simple activation by pressing the Enable button](/img/product_docs/endpointprotector/endpointprotector/admin/ediscovery/activation.png)
+![The module is displayed but requires a simple activation by pressing the Enable button](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/ediscovery/activation.png)
 
 __NOTE:__ The Content Aware Protection module is separate from Device Control or eDiscovery modules, and requires separate licensing.
 
@@ -32,4 +32,4 @@ __NOTE:__ The Content Aware Protection module is separate from Device Control or
 
 This section offers a quick overview in the form of graphics and charts related to the Content Aware Protection module.
 
-![A quick overview in the form of graphics and charts related to the Content Aware Protection module](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/dashboard.png)
+![A quick overview in the form of graphics and charts related to the Content Aware Protection module](../../../../../static/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/dashboard.png)

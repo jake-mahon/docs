@@ -19,7 +19,7 @@ What do you want to do?
 2. Do the following:
 
    - To send enrollment notifications to all users in all identity stores in Directory Manager, make sure _All_ is selected in the __Identity store__ box. Then click __Notify All Users__.
-   - To send the notification to specific recipients, search for the required users and click __Notify All Users__. See the [Search Users](/docs/groupid/groupid/admincenter/helpdesk/operation/search.md) topic to perform a search.
+   - To send the notification to specific recipients, search for the required users and click __Notify All Users__. See the [Search Users](search.md) topic to perform a search.
 
    Notifications are sent to all users listed on the __Helpdesk Operations__ tab, including those on other pages (use the navigation options at the bottom of the listing to view the pages). To send it to specific users in the listing, select the check boxes for them and click __Notify All Users__.
 3. On clicking __Notify All Users__, the __Compose email__ dialog box is displayed.
@@ -34,5 +34,5 @@ What do you want to do?
 
 __See Also__
 
-- [Helpdesk](/docs/groupid/groupid/admincenter/helpdesk/overview.md)
-- [Helpdesk Operations](/docs/groupid/groupid/admincenter/helpdesk/operation/overview.md)
+- [Helpdesk](../overview.md)
+- [Helpdesk Operations](overview.md)

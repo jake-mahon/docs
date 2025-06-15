@@ -15,7 +15,7 @@ Strongpoint provides predefined reports to help you clean up your Salesforce Ins
 
 ## Using the Reports
 
-- __Filters__ ![filters_icon](/img/product_docs/strongpointsalesforceflashlight/clean_up/filters_icon.webp): Open the filters to see the criteria used for the report. You can modify the unlocked filters to narrow the focus of the results.
+- __Filters__ ![filters_icon](../../../static/img/product_docs/strongpointsalesforceflashlight/clean_up/filters_icon.webp): Open the filters to see the criteria used for the report. You can modify the unlocked filters to narrow the focus of the results.
 - __Column Sort Order__: Use the toggler in the column heads to change the sort order of the results based on the selected column.
 - __Links__: Use the linked fields to open details about the customization or user.
 

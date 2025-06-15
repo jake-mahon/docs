@@ -37,7 +37,7 @@ The Have I Been Pwnd (HIBP) database, which is an optional feature of the Enterp
 
 - Additional 15 GB of disk space to deploy
 
-You can also have the HIBP database deployed on some Agent servers, while other Agent servers work with the copy installed on the Enterprise Manager server. See the [EPE Settings Window](/docs/threatprevention/threatprevention/admin/configuration/epesettings.md) topic for additional information.
+You can also have the HIBP database deployed on some Agent servers, while other Agent servers work with the copy installed on the Enterprise Manager server. See the [EPE Settings Window](../admin/configuration/epesettings.md) topic for additional information.
 
 Additional Server Requirements
 

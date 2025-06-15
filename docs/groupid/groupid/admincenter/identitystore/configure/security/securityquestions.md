@@ -39,5 +39,5 @@ What do you want to do?
 
 __See Also__
 
-- [Manage the Global Question Pool ](/docs/groupid/groupid/admincenter/general/globalpool.md)
-- [Set up Authentication via Security Questions](/docs/groupid/groupid/admincenter/setupauth/securityquestions.md)
+- [Manage the Global Question Pool ](../../../general/globalpool.md)
+- [Set up Authentication via Security Questions](../../../setupauth/securityquestions.md)

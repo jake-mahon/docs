@@ -4,7 +4,7 @@ The AWS_StaleUsers job provides details on the last time each user logged in or 
 
 ## Parameter Configuration
 
-The Configuration section on a Job's overview page allows you to easily modify any customizable parameters used by analysis tasks in the job. See the [Parameter Configuration](/docs/accessanalyzer/enterpriseauditor/admin/jobs/job/overview.md#parameter-configuration) topic for instructions on how to edit parameters on a job overview page.
+The Configuration section on a Job's overview page allows you to easily modify any customizable parameters used by analysis tasks in the job. See the [Parameter Configuration](../../../admin/jobs/job/overview.md#parameter-configuration) topic for instructions on how to edit parameters on a job overview page.
 
 The AWS_StaleUsers job has the following configurable parameter:
 
@@ -18,7 +18,7 @@ Navigate to the __AWS__ > __2.Users__ > __AWS_StaleUsers__ > __Configure__ node 
 
 __CAUTION:__ Do not deselect the selected analysis tasks. The analysis tasks are preconfigured for this job. Only modify the analysis tasks listed in the customizable analysis tasks section.
 
-![Analysis Tasks for the AWS_StaleUsers Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/users/staleusersanalysis.webp)
+![Analysis Tasks for the AWS_StaleUsers Job](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/users/staleusersanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -35,7 +35,7 @@ The default values for parameters that can be customized are:
 | --- | --- | --- | --- |
 | Stale Users | @StaleThreshold | 60 | Number of days before considering a user stale |
 
-See the [Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/analysiscustomizableparameters.md) topic for instructions on how to modify parameters.
+See the [Configure the Customizable Parameters in an Analysis Task](../../../admin/jobs/job/configure/analysiscustomizableparameters.md) topic for instructions on how to modify parameters.
 
 ## Report for the AWS_StaleUsers Job
 

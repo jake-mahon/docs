@@ -6,15 +6,15 @@ This might be required if you are attempting to use Endpoint Policy Manager File
 
 First, be sure you are eligible to use this function by copying the latest Endpoint Policy Manager ADMX files to your Central Store or using Endpoint Policy Manager Cloud.
 
-Directions for Central Store: [Troubleshooting with ADMX files](/docs/policypak/policypak/video/troubleshooting/admxfiles.md)
+Directions for Central Store: [Troubleshooting with ADMX files](../../video/troubleshooting/admxfiles.md)
 
-Directions for Endpoint Policy Manager Cloud (if they are not already pre-placed there): [PolicyPak Cloud: Upload and use your own ADMX files to PolicyPak Cloud](/docs/policypak/policypak/video/cloud/admxfiles.md)
+Directions for Endpoint Policy Manager Cloud (if they are not already pre-placed there): [PolicyPak Cloud: Upload and use your own ADMX files to PolicyPak Cloud](../../video/cloud/admxfiles.md)
 
 Then, the setting you should use if directed by support is entitled:
 
 ```Computer Configuration | Policies | Admin Templates | PolicyPak ADMX Settings | Client-side Extensions | File Associations Manager | Revert to Legacy File Assoc Method & Features``` and set to Enabled to return back to the legacy behavior.
 
-![837_1_image-20201027212337-3](/img/product_docs/policypak/policypak/troubleshooting/fileassociations/837_1_image-20201027212337-3.webp)
+![837_1_image-20201027212337-3](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/fileassociations/837_1_image-20201027212337-3.webp)
 
 ## What does "Revert to Legacy File Assoc Method & Features" mean?
 

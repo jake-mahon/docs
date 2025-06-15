@@ -20,11 +20,11 @@ __Step 5 –__ When you run Endpoint Policy Manager DesignStudio as a standard u
 
 ```%appdata%``` or ```%localappdata%``` variables for you as needed, as shown in Figure 99 and Figure 100.
 
-![discovering_configuration_12](/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationdata/discover/discovering_configuration_12.webp)
+![discovering_configuration_12](../../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationdata/discover/discovering_configuration_12.webp)
 
 Figure 99. DesignStudio detecting the data location.
 
-![discovering_configuration_13](/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationdata/discover/discovering_configuration_13.webp)
+![discovering_configuration_13](../../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationdata/discover/discovering_configuration_13.webp)
 
 Figure 100. DesignStudio detecting the data location.
 
@@ -32,7 +32,7 @@ __NOTE:__ You will not be able to compile your AppSet to a DLL as standard user 
 
 Therefore, capture all the data from your application first as a standard user, then test your compiling as a standard user. You can see the preview of your AppSet by selecting "Show test Endpoint Policy Manager when complete" within the Compilation tab, as shown in Figure 101
 
-![discovering_configuration_14](/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationdata/discover/discovering_configuration_14.webp)
+![discovering_configuration_14](../../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationdata/discover/discovering_configuration_14.webp)
 
 Figure 101. Choosing to preview the AppSet.
 

@@ -2,7 +2,7 @@
 
 The FS_LeastPrivilegedAccess job is designed to report on activity event information that can assist in identifying least privilege from targeted file servers. It identifies where trustees are not leveraging their permissions to resources from targeted file servers. Requires __Access Auditing__ component data collection.
 
-![Least Privileged Access > FS_LeastPrivilegedAccess Job in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/activity/leastprivilegedaccessjobstree.webp)
+![Least Privileged Access > FS_LeastPrivilegedAccess Job in the Jobs Tree](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/activity/leastprivilegedaccessjobstree.webp)
 
 The FS_LeastPrivilegedAccess job is located in the Least Privileged Access job group.
 
@@ -12,7 +12,7 @@ View the analysis tasks by navigating to the __FileSystem__ > __5.Activity__ > _
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the FS_LeastPrivilegedAccess Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/activity/leastprivilegedaccessanalysis.webp)
+![Analysis Tasks for the FS_LeastPrivilegedAccess Job](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/activity/leastprivilegedaccessanalysis.webp)
 
 The following analysis tasks are selected by default:
 

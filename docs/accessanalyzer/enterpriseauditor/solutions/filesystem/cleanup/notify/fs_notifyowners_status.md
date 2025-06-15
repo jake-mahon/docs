@@ -1,6 +1,6 @@
 # FS_NotifyOwners_Status Job
 
-The FS_NotifyOwners_Status job is comprised of analysis and reports that summarize the actions performed by the FS_NotifyOwners job. See the [FS_NotifyOwners Job](/docs/accessanalyzer/enterpriseauditor/solutions/filesystem/cleanup/notify/fs_notifyowners.md) topic for additional information.
+The FS_NotifyOwners_Status job is comprised of analysis and reports that summarize the actions performed by the FS_NotifyOwners job. See the [FS_NotifyOwners Job](fs_notifyowners.md) topic for additional information.
 
 ## Analysis Tasks for the FS_NotifyOwners_Status Job
 
@@ -8,7 +8,7 @@ Navigate to the __FileSystem__ > __Cleanup__ > __2. Notify__ > __FS_NotifyOwners
 
 __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis task is preconfigured for this job.
 
-![Analysis Tasks for the FS_NotifyOwners_Status Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/cleanup/notify/notifyownersstatusanalysis.webp)
+![Analysis Tasks for the FS_NotifyOwners_Status Job](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/cleanup/notify/notifyownersstatusanalysis.webp)
 
 The following analysis tasks are selected by default:
 

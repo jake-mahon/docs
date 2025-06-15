@@ -2,7 +2,7 @@
 
 The Dropbox_GroupMembership job provides insight into group membership within the targeted Dropbox environment, highlighting the largest groups. It is dependent on data collected by the 0.Collection job group. This job processes analysis tasks and generates a report.
 
-![3.Group Membership > Dropbox_GroupMembership Job in the Jobs Tree](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/dropbox/groupmembershipjobstree.webp)
+![3.Group Membership > Dropbox_GroupMembership Job in the Jobs Tree](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/dropbox/groupmembershipjobstree.webp)
 
 The Dropbox_GroupMembership job is located in the 3.Group Membership job group.
 
@@ -12,7 +12,7 @@ View the analysis tasks by navigating to the __Jobs__ > __Dropbox__ > __3.Group 
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the Dropbox_GroupMembership Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/box/groupmembershipanalysis.webp)
+![Analysis Tasks for the Dropbox_GroupMembership Job](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/box/groupmembershipanalysis.webp)
 
 - Get group membership details – Creates an interim processing table in the database for use by downstream analysis and report generation
 - Summarize group membership by team – Creates the SA_Dropbox_GroupMembership_Summary table accessible under the job’s Results node

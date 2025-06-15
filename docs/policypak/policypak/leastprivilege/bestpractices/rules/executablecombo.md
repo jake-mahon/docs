@@ -15,17 +15,17 @@ This can be limiting if, for instance, you want to elevate an application by its
 
 However, you can start off on the right foot by making your own Combo rules.
 
-__NOTE:__ See the [More security with Combo Rules](/docs/policypak/policypak/video/leastprivilege/securitycomborules.md) video for an overview of using Endpoint Policy Manager Least Privilege Manager and Combo rules.
+__NOTE:__ See the [More security with Combo Rules](../../../video/leastprivilege/securitycomborules.md) video for an overview of using Endpoint Policy Manager Least Privilege Manager and Combo rules.
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/bestpractices/rules/creating_and_using_executable.webp)
+Description automatically generated](../../../../../../static/img/product_docs/policypak/policypak/leastprivilege/bestpractices/rules/creating_and_using_executable.webp)
 
 With Combo rules turned on, you can match more than one condition.
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/bestpractices/rules/creating_and_using_executable_1.webp)
+Description automatically generated](../../../../../../static/img/product_docs/policypak/policypak/leastprivilege/bestpractices/rules/creating_and_using_executable_1.webp)
 
 Combo rules are useful in a variety of situations. The most common situation occurs when you want to elevate an application to allow it to run or install. You can do this based on its digital signature and inner product info. You could use all four conditions if you want to make the tightest match possible.
 
@@ -33,22 +33,22 @@ To do this, simply create a Combo rule and select the two (or more) types of cha
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/bestpractices/rules/creating_and_using_executable_2.webp)
+Description automatically generated](../../../../../../static/img/product_docs/policypak/policypak/leastprivilege/bestpractices/rules/creating_and_using_executable_2.webp)
 
 The Combo rule wizard is different from the Simple rule wizard. For this combo rule we will need to complete two steps. As you can see, a specific file as a reference file for Signature Condition.
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/bestpractices/rules/creating_and_using_executable_3.webp)
+Description automatically generated](../../../../../../static/img/product_docs/policypak/policypak/leastprivilege/bestpractices/rules/creating_and_using_executable_3.webp)
 
 In the next step of the wizard for File Info, select the same file. You could also select a different file, but this isn’t normally done.
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/bestpractices/rules/creating_and_using_executable_4.webp)
+Description automatically generated](../../../../../../static/img/product_docs/policypak/policypak/leastprivilege/bestpractices/rules/creating_and_using_executable_4.webp)
 
 Then choose the same actions as before, such as __Run with elevated privileges__. When the wizard is complete, the MMC list will demonstrate the multiple conditions in the __Condition__ column with __Signature, File Info__.
 
 ![A screenshot of a computer
 
-Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/bestpractices/rules/creating_and_using_executable_5.webp)
+Description automatically generated](../../../../../../static/img/product_docs/policypak/policypak/leastprivilege/bestpractices/rules/creating_and_using_executable_5.webp)

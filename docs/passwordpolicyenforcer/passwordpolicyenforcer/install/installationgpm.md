@@ -1,6 +1,6 @@
 # Install with Group Policy Management
 
-An automated installation uses Group Policy to distribute Password Policy Enforcer. This type of installation is recommended when you need to install Password Policy Enforcer on many computers. This section shows you how to install Password Policy Enforcer on domain controllers to enforce domain policies, but you can also use Group Policy to target member servers and workstations if you need to enforce local policies. See the [Domain and Local Policies](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/domain_and_local_policies.md) topic for additional information.
+An automated installation uses Group Policy to distribute Password Policy Enforcer. This type of installation is recommended when you need to install Password Policy Enforcer on many computers. This section shows you how to install Password Policy Enforcer on domain controllers to enforce domain policies, but you can also use Group Policy to target member servers and workstations if you need to enforce local policies. See the [Domain and Local Policies](../administration/domain_and_local_policies.md) topic for additional information.
 
 ## Create a Distribution Point
 
@@ -26,11 +26,11 @@ __Step 2 –__ Expand the forest and domain items in the left pane.
 
 __Step 3 –__ Right-click the __Domain Controllers OU__ in the left pane, and then click __Create a GPO in this domain, and Link it here...__
 
-![GPM installation](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/install/gpm1.webp)
+![GPM installation](../../../../static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/install/gpm1.webp)
 
 __Step 4 –__ Enter __Password Policy Enforcer__ in the provided field, and then press __Enter__.
 
-![GPM Install](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/install/gpm2.webp)
+![GPM Install](../../../../static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/install/gpm2.webp)
 
 ## Edit the Group Policy Object
 
@@ -46,7 +46,7 @@ __NOTE:__ You must enter a UNC path so that other computers can access this file
 
 __Step 5 –__ Click __Open__.
 
-![installing_ppe_2](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/install/installing_ppe_2.webp)
+![installing_ppe_2](../../../../static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/install/installing_ppe_2.webp)
 
 __Step 6 –__ Select __Assigned__ as the deployment method.
 

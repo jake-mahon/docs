@@ -17,7 +17,7 @@ For Netwrix Endpoint Policy Manager (formerly PolicyPak): All Components need a 
 
 Those license files look like this:
 
-![172_1_image001](/img/product_docs/policypak/policypak/license/172_1_image001.webp)
+![172_1_image001](../../../../static/img/product_docs/policypak/policypak/license/172_1_image001.webp)
 
 For PP Group Policy Compliance Reporter:
 
@@ -33,7 +33,7 @@ For PP Group Policy Compliance Reporter:
 
 To enable PPGPCR Endpoints for Microsoft items, this is the right license:
 
-![172_2_image002](/img/product_docs/policypak/policypak/license/172_2_image002.webp)
+![172_2_image002](../../../../static/img/product_docs/policypak/policypak/license/172_2_image002.webp)
 
 Also note what is not required to be licensed:
 

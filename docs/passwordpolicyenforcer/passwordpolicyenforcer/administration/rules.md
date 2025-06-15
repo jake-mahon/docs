@@ -12,7 +12,7 @@ __Step 2 –__ Click on a policy name to open the policy configuration page.
 
 The __Rules__ tab opens by default. A check mark beside a rule indicates that the rule is enabled (being enforced). Click a rule to set the rule's properties.
 
-![Enabled rules are checked](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/enabledrules.webp)
+![Enabled rules are checked](../../../../static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/enabledrules.webp)
 
 Review the sections on __Detecting Character Substitution__ and __Tolerance__ prior to setting up the rules for your policy.
 
@@ -20,18 +20,18 @@ You can __Save__ each rule and use __Test Policy__ as you are setting your rules
 
 Rules:
 
-- [Age (Max) Rule](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/maximum_age_rule.md)
-- [Age (Min) Rule](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/minimum_age_rule.md)
-- [Characters (Complexity) Rule](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/complexity_rule.md)
-- [Character (Granular) Rules](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/character_rules.md)
-- [Compromised Rule](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/compromised_rule.md)
-- [Dictionary Rule](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/dictionary_rule.md)
-- [History Rule](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/history_rule.md)
-- [Length Rule](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/length_rule.md)
-- [Patterns Rule](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/patterns.md)
-- [Repetition Rule](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/repetition.md)
-- [Similarity Rule](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/similarity_rule.md)
-- [Unique Characters Rule](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/unique_characters.md)
+- [Age (Max) Rule](maximum_age_rule.md)
+- [Age (Min) Rule](minimum_age_rule.md)
+- [Characters (Complexity) Rule](complexity_rule.md)
+- [Character (Granular) Rules](character_rules.md)
+- [Compromised Rule](compromised_rule.md)
+- [Dictionary Rule](dictionary_rule.md)
+- [History Rule](history_rule.md)
+- [Length Rule](length_rule.md)
+- [Patterns Rule](patterns.md)
+- [Repetition Rule](repetition.md)
+- [Similarity Rule](similarity_rule.md)
+- [Unique Characters Rule](unique_characters.md)
 
 ## Detecting Character Substitution
 

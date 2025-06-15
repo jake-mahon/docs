@@ -6,7 +6,7 @@ Use the gear icon in the upper right corner of the console to open the Configura
 
 Click __Auditing__ in the navigation pane.
 
-![System Settings interface on the Auditing page](/img/product_docs/threatprevention/threatprevention/reportingmodule/interface.webp)
+![System Settings interface on the Auditing page](../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/interface.webp)
 
 The Audit History table displays the following information:
 

@@ -26,7 +26,7 @@ Some main features of the membership lifecycle policies are:
   remains intact when you remove a policy from a group or OU.
 - __Single policy rule__ - A single policy can be applied to a group or an OU at a time. Hence, a group or OU cannot be set as the target in more than one policy. If you apply a policy to an OU that contains a group with a different policy already applied to it, then the
   group policy would be effective.
-- __Notifications__ - Directory Manager generates notifications when users are temporarily added or removed from a group’s membership. See the [Manage Membership Life Cycle Notifications](/docs/groupid/groupid/admincenter/identitystore/configure/smtpserver.md#manage-membership-life-cycle-notifications) topic.
+- __Notifications__ - Directory Manager generates notifications when users are temporarily added or removed from a group’s membership. See the [Manage Membership Life Cycle Notifications](../smtpserver.md#manage-membership-life-cycle-notifications) topic.
 
 What do you want to do?
 
@@ -185,4 +185,4 @@ To delete a policy:
 
 __See Also__
 
-- [Membership Life Cycle Schedule](/docs/groupid/groupid/admincenter/schedule/membershiplifecycle.md)
+- [Membership Life Cycle Schedule](../../../schedule/membershiplifecycle.md)

@@ -2,7 +2,7 @@
 
 Web policies enable you to copy a file from an HTTP source, like Dropbox or Amazon S3.
 
-__NOTE:__ For a video overview of using Endpoint Policy Manager Remote Work Delivery Manager to install software using web-based shares, see [Install software using web-based shares](/docs/policypak/policypak/video/remoteworkdelivery/webbasedshares.md).
+__NOTE:__ For a video overview of using Endpoint Policy Manager Remote Work Delivery Manager to install software using web-based shares, see [Install software using web-based shares](../../video/remoteworkdelivery/webbasedshares.md).
 
 Web policies provide a specialized functionality that leverages Microsoft Background Intelligent Transfer Service (BITS) to facilitate the efficient transfer of files in the background. Microsoft BITS is a protocol that allows file transfer to start and stop without corrupting the file during the download. So, if you wanted to copy a 2 GB file to a handful of roaming laptop machines, then the BITS protocol works nicely. This is because even if the machines don't download the whole file right away, have very slow connections, or are often totally offline, BITS can handle these scenarios.
 
@@ -19,30 +19,30 @@ The following is a list of file-based web services that Endpoint Policy Manager 
 
 __Step 1 –__ Create a web policy for Endpoint Policy Manager Remote Work Delivery Manager by adding a new policy.
 
-![getting_to_know_policypak_16](/img/product_docs/policypak/policypak/remoteworkdelivery/gettingstarted/getting_to_know_policypak_16.webp)
+![getting_to_know_policypak_16](../../../../../static/img/product_docs/policypak/policypak/remoteworkdelivery/gettingstarted/getting_to_know_policypak_16.webp)
 
 __Step 2 –__ Next, on the Specify the copy source page, add the URL of a file that exists on a compatible web service. In the example below we have a movie file on Amazon S3.
 
-![getting_to_know_policypak_17](/img/product_docs/policypak/policypak/remoteworkdelivery/gettingstarted/getting_to_know_policypak_17.webp)
+![getting_to_know_policypak_17](../../../../../static/img/product_docs/policypak/policypak/remoteworkdelivery/gettingstarted/getting_to_know_policypak_17.webp)
 
 At this point, the file has been validated against the server for full compatibility. Compatibility means that the service reports success in both the Head and Get methods. If the service fails, you will see an error and you are not allowed to continue. If the service reports back as expected, you do not get an error and are able to continue.
 
 __Step 3 –__ You are asked if the file is a single file (which should be copied as a straight file) or a ZIP archive you want to unpack. For this Quickstart, select __File__ and click __Next__.
 
-![getting_to_know_policypak_18](/img/product_docs/policypak/policypak/remoteworkdelivery/gettingstarted/getting_to_know_policypak_18.webp)
+![getting_to_know_policypak_18](../../../../../static/img/product_docs/policypak/policypak/remoteworkdelivery/gettingstarted/getting_to_know_policypak_18.webp)
 
 __Step 4 –__ Select your destination directory and replacement file name.
 
-![getting_to_know_policypak_19](/img/product_docs/policypak/policypak/remoteworkdelivery/gettingstarted/getting_to_know_policypak_19.webp)
+![getting_to_know_policypak_19](../../../../../static/img/product_docs/policypak/policypak/remoteworkdelivery/gettingstarted/getting_to_know_policypak_19.webp)
 
 __Step 5 –__ Complete the remaining pages of the wizard as described earlier. Then, click __Finish__ to see the policy in the editor.
 
-![getting_to_know_policypak_20](/img/product_docs/policypak/policypak/remoteworkdelivery/gettingstarted/getting_to_know_policypak_20.webp)
+![getting_to_know_policypak_20](../../../../../static/img/product_docs/policypak/policypak/remoteworkdelivery/gettingstarted/getting_to_know_policypak_20.webp)
 
 The files should start copying within 10 or 20 seconds. After that, the file size, bandwidth speed, and policy settings regarding BITS usage will determine the final download time.
 
 The success of the web file copy can be seen here:
 
-![getting_to_know_policypak_21](/img/product_docs/policypak/policypak/remoteworkdelivery/gettingstarted/getting_to_know_policypak_21.webp)
+![getting_to_know_policypak_21](../../../../../static/img/product_docs/policypak/policypak/remoteworkdelivery/gettingstarted/getting_to_know_policypak_21.webp)
 
 There is a little more to understanding web policies, which will be explained in the section titled Advanced Web Policies: Unpacking and Using ZIP Archives. There is also a security concern about web policies within GPOs. For more information on this issue, see the section titled Remote Work Delivery Manager Security Concerns.

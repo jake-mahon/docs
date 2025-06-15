@@ -4,7 +4,7 @@
 
 Custom Content denylists are custom-deﬁned lists of terms and expressions detected as sensitive content by Endpoint Protector, available for both Content Aware Protection and eDiscovery modules.
 
-![Denylists Custom Content configuration](/img/product_docs/endpointprotector/endpointprotector/admin/denylistsallowlists/customecontent.png)
+![Denylists Custom Content configuration](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/denylistsallowlists/customecontent.png)
 
 From this section, you can view and add e-mail custom content denylists and from the Actions column, you can edit, delete or export an existing denylist.
 
@@ -14,7 +14,7 @@ __NOTE:__ Dictionaries of under 100 items can be edited, while larger dictionari
 
 Once the denylist is created, it will be displayed on the Custom Content list and will be available when creating or editing a Content Aware Protection or eDiscovery policy.
 
-![Creating a new denylist](/img/product_docs/endpointprotector/endpointprotector/admin/denylistsallowlists/newdenylist.png)
+![Creating a new denylist](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/denylistsallowlists/newdenylist.png)
 
 ## File Name
 
@@ -40,7 +40,7 @@ Once the denylist is created, it will be displayed on the File Name list and wil
 
 __CAUTION:__ For Content Aware Protection, the File Name Denylists work only for Block & Report type Policies. The Case Sensitive and Whole Words Only features do not apply.
 
-![File Name Denylists ](/img/product_docs/endpointprotector/endpointprotector/admin/denylistsallowlists/filename.png)
+![File Name Denylists ](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/denylistsallowlists/filename.png)
 
 ## File Location
 
@@ -48,7 +48,7 @@ File Location Denylists are custom-deﬁned lists of locations identiﬁed by En
 
 File Location Denylists are available for both Content Aware Protection and eDiscovery modules.
 
-![File Location Denylists](/img/product_docs/endpointprotector/endpointprotector/admin/denylistsallowlists/filelocation.png)
+![File Location Denylists](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/denylistsallowlists/filelocation.png)
 
 Enabling the option to Include subfolders for File Location Denylists will affect all other File Location Denylists and Allowlists throughout the system. By default, the File Location Denylists apply to all ﬁles located in the speciﬁc folder but also to any other ﬁles located in containing subfolders.
 
@@ -60,7 +60,7 @@ To create a new denylist, under the list of available denylists, click __Add__, 
 
 __NOTE:__ File Location Denylist will not apply to groups of users, only to groups of computers. File Location Denylist will only apply for the selected computer groups after 15 minutes.
 
-![File Location New Denylist](/img/product_docs/endpointprotector/endpointprotector/admin/denylistsallowlists/filelocationnewdenylists.png)
+![File Location New Denylist](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/denylistsallowlists/filelocationnewdenylists.png)
 
 You can use wildcard patterns in the File Location Denylists to specify wildcard matching. To match a desktop folder on Windows, use the pattern "?:\Users\\*\Desktop\".
 
@@ -75,7 +75,7 @@ Wildcards Usage Examples for File Location
 
 Scan Location Denylists are custom-deﬁned lists of locations identiﬁed by the eDiscovery module. Data at rest within this location are automatically inspected for content, depending on the rules deﬁned in various Policies.
 
-![Scan Location Denylists are custom-deﬁned lists of locations identiﬁed by the eDiscovery module](/img/product_docs/endpointprotector/endpointprotector/admin/denylistsallowlists/scanlocation.png)
+![Scan Location Denylists are custom-deﬁned lists of locations identiﬁed by the eDiscovery module](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/denylistsallowlists/scanlocation.png)
 
 From this section, you can view and add scan location denylists and from the Actions column, you can edit or delete an existing denylist.
 
@@ -86,7 +86,7 @@ When deﬁning a Scan Location, use these special characters to deﬁne the path
 - \* - to replace any word
 - ? - to replace any character
 
-![Scan Location New Denylist](/img/product_docs/endpointprotector/endpointprotector/admin/denylistsallowlists/scanlocationnewdenylist.png)
+![Scan Location New Denylist](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/denylistsallowlists/scanlocationnewdenylist.png)
 
 ## Regex
 
@@ -100,7 +100,7 @@ From this section, you can view and add regex expressions and from the Actions c
 
 To create a new denylist, under the list of available denylists, click __Ad__d, provide a __name__ and __description__ and then add the regex expression.
 
-![You can view and add regex expressions and from the Actions column](/img/product_docs/endpointprotector/endpointprotector/admin/denylistsallowlists/regexdenylists.png)
+![You can view and add regex expressions and from the Actions column](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/denylistsallowlists/regexdenylists.png)
 
 You can test a regular expression for accuracy using the right-side option. Add the content and then click Test. If the Regular Expression has no errors, then the same content should appear into the Matched content box, as shown below:
 
@@ -109,7 +109,7 @@ You can test a regular expression for accuracy using the right-side option. Add 
 
 __NOTE:__ This feature is provided “as is” and requires advanced knowledge of the Regular Expression syntax. No direct support is offered and it is the responsibility of the customers to learn and implement regular expressions and to thoroughly test.
 
-![You can test a regular expression for accuracy using the right-side option](/img/product_docs/endpointprotector/endpointprotector/admin/denylistsallowlists/regexnewdenylist.png)
+![You can test a regular expression for accuracy using the right-side option](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/denylistsallowlists/regexnewdenylist.png)
 
 ## Domain and URL
 
@@ -117,7 +117,7 @@ Domain and URL Denylists are custom-deﬁned lists of web addresses identiﬁed 
 
 __NOTE:__ Domain and URL Denylists are available only for the Content Aware Protection module.
 
-![Domain and URL Denylists ](/img/product_docs/endpointprotector/endpointprotector/admin/denylistsallowlists/domainurldenylists.png)
+![Domain and URL Denylists ](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/denylistsallowlists/domainurldenylists.png)
 
 From this section, you can view and add domain and URL denylists and from the Actions column, you can edit, delete or export an existing denylist.
 
@@ -131,7 +131,7 @@ You can deﬁne the content by adding the ﬁle name, ﬁle name and extension, 
 
 Once the denylist is created, it will be displayed on the Domain and URL list and will be available when creating or editing a Content Aware Protection policy.
 
-![Creating a New Domain URL denylists](/img/product_docs/endpointprotector/endpointprotector/admin/denylistsallowlists/domainurlnewdenylists.png)
+![Creating a New Domain URL denylists](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/denylistsallowlists/domainurlnewdenylists.png)
 
 ## E-mail Domain
 
@@ -141,13 +141,13 @@ __CAUTION:__ This feature blocks the user from sending emails regardless of cont
 
 __NOTE:__ This feature is only available for Content Aware Protection when Deep Packet Inspection is enabled and only impacts applications that retrieve the email recipients and are selected on Content Aware Protection Policy.
 
-![E-mail Domain Denylists](/img/product_docs/endpointprotector/endpointprotector/admin/denylistsallowlists/e-maildomaindenylists.png)
+![E-mail Domain Denylists](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/denylistsallowlists/e-maildomaindenylists.png)
 
 From this section, you can view and add e-mail domain denylists and from the Actions column, you can edit, delete or export an existing e-mail domain denylist.
 
 To create a new denylist, under the list of available denylists, click __Add__, provide a __name__ and __description__, add the items separated by a new line, comma, or semicolon and then select the __groups__ and __computers__. You can import content using the sample ﬁle provided on the form.
 
-![E-mail Domain New Denylists](/img/product_docs/endpointprotector/endpointprotector/admin/denylistsallowlists/e-maildomainnewdenylists.png)
+![E-mail Domain New Denylists](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/denylistsallowlists/e-maildomainnewdenylists.png)
 
 ## Microsoft Information Protection
 
@@ -171,7 +171,7 @@ __NOTE:__ While Endpoint Protector can currently recognize MIP-encrypted files b
 
 __NOTE:__ Endpoint Protector Server in Microsoft Entra (formerly Azure AD) applications is unnecessary. Endpoint Protector relies on information with labeled files. This might change in future releases.
 
-![Confguration for Microsoft Information Protection (MIP) ](/img/product_docs/endpointprotector/endpointprotector/admin/denylistsallowlists/mipclassification.png)
+![Confguration for Microsoft Information Protection (MIP) ](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/denylistsallowlists/mipclassification.png)
 
 ## Applications
 
@@ -193,7 +193,7 @@ __Step 2 –__ Deﬁne your criteria based on the command line arguments used by
 
 __Step 3 –__ Incorporate these criteria into your CAP policies as arguments to ensure precise control and monitoring of application usage.
 
-![Configuring Applications Denylists](/img/product_docs/endpointprotector/endpointprotector/admin/denylistsallowlists/applicationsdenylists.png)
+![Configuring Applications Denylists](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/denylistsallowlists/applicationsdenylists.png)
 
 Follow these steps and leverage CLI commands denylists to enhance your organization's security posture and ensure that applications are used in compliance with your policies and regulations.
 

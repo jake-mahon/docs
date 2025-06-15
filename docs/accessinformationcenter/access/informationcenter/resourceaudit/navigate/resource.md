@@ -4,24 +4,24 @@ The Resource Audit interface is where resource reports are located. Summary and 
 
 Available reports vary based on the type of resource and the level within the resource. See the following topics for specific report details:
 
-- [File System Reports](/docs/accessinformationcenter/access/informationcenter/resourceaudit/filesystem/overview.md)
-- [SharePoint Reports](/docs/accessinformationcenter/access/informationcenter/resourceaudit/sharepoint/overview.md)
-- [Active Directory Reports](/docs/accessinformationcenter/access/informationcenter/resourceaudit/activedirectory/overview.md)
-- [Amazon (AWS) Reports](/docs/accessinformationcenter/access/informationcenter/resourceaudit/aws/overview.md)
-- [Dropbox Reports](/docs/accessinformationcenter/access/informationcenter/resourceaudit/dropbox/overview.md)
-- [Exchange Reports](/docs/accessinformationcenter/access/informationcenter/resourceaudit/exchange/overview.md)
-- [MongoDB Reports](/docs/accessinformationcenter/access/informationcenter/resourceaudit/mongodb/overview.md)
-- [MySQL Reports](/docs/accessinformationcenter/access/informationcenter/resourceaudit/mysql/overview.md)
-- [Oracle Reports](/docs/accessinformationcenter/access/informationcenter/resourceaudit/oracle/overview.md)
-- [PostgreSQL Reports](/docs/accessinformationcenter/access/informationcenter/resourceaudit/postgresql/overview.md)
-- [SQL Server Reports](/docs/accessinformationcenter/access/informationcenter/resourceaudit/sql/overview.md)
-- [Flexible Imports Feature](/docs/accessinformationcenter/access/informationcenter/resourceaudit/flexibleimports/overview.md)
+- [File System Reports](../filesystem/overview.md)
+- [SharePoint Reports](../sharepoint/overview.md)
+- [Active Directory Reports](../activedirectory/overview.md)
+- [Amazon (AWS) Reports](../aws/overview.md)
+- [Dropbox Reports](../dropbox/overview.md)
+- [Exchange Reports](../exchange/overview.md)
+- [MongoDB Reports](../mongodb/overview.md)
+- [MySQL Reports](../mysql/overview.md)
+- [Oracle Reports](../oracle/overview.md)
+- [PostgreSQL Reports](../postgresql/overview.md)
+- [SQL Server Reports](../sql/overview.md)
+- [Flexible Imports Feature](../flexibleimports/overview.md)
 
 ## Resources Pane
 
 The Resources pane, which is unique to the Resource Audit interface, displays a navigation view of available resources. Only those resource environments that have been scanned by Access Analyzer or introduced to the Access Information Center with Flexible Imports are available. Explore the desired resource by expanding the levels.
 
-![Resources pane](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/resourcespane.webp)
+![Resources pane](../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/resourcespane.webp)
 
 Select a resource in the Resources pane and a report in the Reports pane to to view the report data in the Results pane. Hover over any icon in the Access Information Center interface to view its description.
 
@@ -40,4 +40,4 @@ The Explicit Permissions, Exception, and Alert icons can shown next a resource i
 
 These icons are designed to draw attention to resources where potential security concerns may exist.
 
-__NOTE:__ The Domain Group icon is used to indicate both Active Directory groups and Entra ID groups. See the [AIC Icons ](/docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/icons.md)topic for additional information.
+__NOTE:__ The Domain Group icon is used to indicate both Active Directory groups and Entra ID groups. See the [AIC Icons ](icons.md)topic for additional information.

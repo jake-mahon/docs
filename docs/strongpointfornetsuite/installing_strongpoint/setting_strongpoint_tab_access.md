@@ -33,18 +33,18 @@ This procedure makes a copy of the Strongpoint Classic Center tab that is preser
    Leave this window open so you can see all of the categories.  
    This example shows __Engineering__ as the new __Center__
 
-   ![Saving to Engineering Center.](/img/product_docs/strongpointfornetsuite/installing_strongpoint/engineeringexample.webp)
+   ![Saving to Engineering Center.](../../../static/img/product_docs/strongpointfornetsuite/installing_strongpoint/engineeringexample.webp)
 5. Create the Category links:
 
    1. Open __Customization__ > __Centers and Tabs__ > __Center Categories__ in a new window.  
       Click __Edit__ by the Label of your first category __(Strongpoint Support__ in the example) and your selected __Center Type__ (__Engineering__ in the example).
 
-      ![Select Category for New Center.](/img/product_docs/strongpointfornetsuite/installing_strongpoint/copy_categories.webp)
+      ![Select Category for New Center.](../../../static/img/product_docs/strongpointfornetsuite/installing_strongpoint/copy_categories.webp)
    2. Open __Customization__ > __Centers and Tabs__ > __Center Categories__ in a second new window.  
       Click __Edit__ by the Label of the same category and the __Classic Center__ version.
    3. Add each __Link__ and __Label__ in your new __Center__, using the __Classic Center__ version as a guide. A drop down completion list is shown as you type. Click __Add__ after each addition.
 
-      ![Two category windows open to copy links to your new Center.](/img/product_docs/strongpointfornetsuite/installing_strongpoint/copy_categories2.webp)
+      ![Two category windows open to copy links to your new Center.](../../../static/img/product_docs/strongpointfornetsuite/installing_strongpoint/copy_categories2.webp)
    4. When complete, click __Save__ in your new __Center__ and __Cancel__ in the __Classic Center__.
    5. Click __Edit__ by the next __Category__ in your new __Center__ and the corresponding Category in the __Classic Center__ and continue adding the links.
    6. When you are done with all Categories and associated links, continue with __Setting Permissions__.
@@ -57,6 +57,6 @@ This procedure makes a copy of the Strongpoint Classic Center tab that is preser
 4. Assign the audience. This can be role(s) or specific employees.
 5. Click __Save__
 
-   ![Assigning permissions.](/img/product_docs/strongpointfornetsuite/installing_strongpoint/engineeringexample2.webp)
+   ![Assigning permissions.](../../../static/img/product_docs/strongpointfornetsuite/installing_strongpoint/engineeringexample2.webp)
 
-__Next Step:__ [ Setting Role Permissions](/docs/strongpointfornetsuite/installing_strongpoint/setting_permissions.md)
+__Next Step:__ [ Setting Role Permissions](setting_permissions.md)

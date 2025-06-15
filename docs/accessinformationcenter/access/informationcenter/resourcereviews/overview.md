@@ -33,7 +33,7 @@ There are four types of reviews:
 
 __NOTE:__ The Sensitive Data content within reports and reviews is visible to all users and roles. The Matches table in the report will only be populated for Console User with Security Team and Administrator roles. This is also required for Sensitive Data reviews.
 
-See the [Resource Reviews Interface](/docs/accessinformationcenter/access/informationcenter/resourcereviews/interface.md) topic for additional information.
+See the [Resource Reviews Interface](interface.md) topic for additional information.
 
 Ignored Trustees
 
@@ -44,26 +44,26 @@ Trustees added to the SA_AIC_ResourceReviewIgnoredTrustees database table are ex
 Prerequisites:
 
 - Entitlement Reviews License
-- The Access Information Center is configured to send Notifications. See the [Notifications Page](/docs/accessinformationcenter/access/informationcenter/admin/configuration/notifications.md) topic for additional information.
+- The Access Information Center is configured to send Notifications. See the [Notifications Page](../admin/configuration/notifications.md) topic for additional information.
 
   __NOTE:__ By default, the application is configured to send notifications only to the primary owner. However, this can be customized on the Configuration > Notifications page to send notifications to all assigned owners.
-- Owners assigned to resources within the Resource Owners interface. See the [Resource Owners Overview](/docs/accessinformationcenter/access/informationcenter/resourceowners/overview.md) topic for additional information.
-- Sensitive Data reviews have specific requirements for Access Analyzer configuration. See the [Data Collection Prerequisites](/docs/accessinformationcenter/access/informationcenter/resourcereviews/prerequisites.md#data-collection-prerequisites) topic for additional information.
-- Optional: Access Information Center configured to commit AD changes. See the [Automation Prerequisites](/docs/accessinformationcenter/access/informationcenter/resourcereviews/prerequisites.md#automation-prerequisites) topic for additional information.
+- Owners assigned to resources within the Resource Owners interface. See the [Resource Owners Overview](../resourceowners/overview.md) topic for additional information.
+- Sensitive Data reviews have specific requirements for Access Analyzer configuration. See the [Data Collection Prerequisites](prerequisites.md#data-collection-prerequisites) topic for additional information.
+- Optional: Access Information Center configured to commit AD changes. See the [Automation Prerequisites](prerequisites.md#automation-prerequisites) topic for additional information.
 
 Workflow:
 
-___RECOMMENDED:___ When deploying the Access Information Center in an organization to process reviews, owners should be notified prior to launching the first set of reviews. See the [Notification to Owners](/docs/accessinformationcenter/access/informationcenter/resourceowners/overview.md#notification-to-owners) topic for additional information.
+___RECOMMENDED:___ When deploying the Access Information Center in an organization to process reviews, owners should be notified prior to launching the first set of reviews. See the [Notification to Owners](../resourceowners/overview.md#notification-to-owners) topic for additional information.
 
-__Step 1 –__ Review Administrator creates a review or starts a new review instance. See the [Create Review Wizard](/docs/accessinformationcenter/access/informationcenter/resourcereviews/wizard/create.md) topic for additional information.
+__Step 1 –__ Review Administrator creates a review or starts a new review instance. See the [Create Review Wizard](wizard/create.md) topic for additional information.
 
-__Step 2 –__ Owner performs a review. See the [Pending Reviews Page](/docs/accessinformationcenter/access/informationcenter/resourcereviews/pendingreviews.md#pending-reviews-page) topic for additional information.
+__Step 2 –__ Owner performs a review. See the [Pending Reviews Page](pendingreviews.md#pending-reviews-page) topic for additional information.
 
-__Step 3 –__ Review Administrator approves owner recommendations. See the [Approval Process](/docs/accessinformationcenter/access/informationcenter/resourcereviews/approvalprocess.md) topic for additional information.
+__Step 3 –__ Review Administrator approves owner recommendations. See the [Approval Process](approvalprocess.md) topic for additional information.
 
 __Step 4 –__ Implement approved changes in your organization:
 
 - Automatically, if the Access Information Center is configured to commit AD changes and access groups are assigned to the resources (limited to Access Information Center functionality)
 - Manually, export a list of approved changes and deliver it to your IT department
 
-When desired, the Review Administrator runs another instance of the review and the workflow starts again. See the [Review Instances](/docs/accessinformationcenter/access/informationcenter/resourcereviews/reviewinstances.md) topic for additional information.
+When desired, the Review Administrator runs another instance of the review and the workflow starts again. See the [Review Instances](reviewinstances.md) topic for additional information.

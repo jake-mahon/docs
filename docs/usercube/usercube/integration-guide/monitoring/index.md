@@ -4,7 +4,7 @@ Identity Manager uses [Serilog](https://github.com/serilog/), a highly customiz
 
 See the [
 References: Logs
-](/docs/usercube/usercube/integration-guide/monitoring/references/index.md) topic for additional information on the list of existing logs.
+](references/index.md) topic for additional information on the list of existing logs.
 
 ## Introduction
 
@@ -42,7 +42,7 @@ The ```MinimumLevel``` section sets the lowest priority log level that will be d
 - __Default__ sets the minimum log level.
 - ```Override``` allows the user to set a different minimum log level for logs from a specific namespace (See the [
   Monitoring
-  ](/docs/usercube/usercube/integration-guide/monitoring/index.md) topic for additional information.)
+  ](index.md) topic for additional information.)
 
   Within Identity Manager, the following example is a good practice: default logs with a priority lower than ```Error``` are filtered out, except for log messages from the Identity Manager namespace.
 
@@ -108,7 +108,7 @@ In addition to the Microsoft log levels, Serilog provides a [Filters](https://gi
 
 Serilog allows the user to route log messages to a variety of logging destinations. Every destination is referred to as a sink. [Sinks](https://github.com/serilog/serilog/wiki/Provided-Sinks) allows logs to be routed to destination such as standard consoles, files and logging services. See the [
 Monitoring
-](/docs/usercube/usercube/integration-guide/monitoring/index.md) topic for additional information.
+](index.md) topic for additional information.
 
 Identity Manager's supported sinks are:
 
@@ -284,7 +284,7 @@ QRadar is a supported destination for Identity Manager's logs.
 
 See the [
 Export Logs to a Log Management System
-](/docs/usercube/usercube/integration-guide/monitoring/how-tos/qradar-setting/index.md) topic to learn how to send Identity Manager's logs to your QRadar system.
+](how-tos/qradar-setting/index.md) topic to learn how to send Identity Manager's logs to your QRadar system.
 
 Three output formats are available for QRadar-routed logs:
 

@@ -22,11 +22,11 @@ The Quick Start allows you to immediately see that Endpoint Policy Manager Cloud
 
 After you log on you can see the pre-configured examples within the __Computer Groups__ tab.
 
-![policypak_cloud_quickstart_625x186](/img/product_docs/policypak/policypak/cloud/policypak_cloud_quickstart_625x186.webp)
+![policypak_cloud_quickstart_625x186](../../../../static/img/product_docs/policypak/policypak/cloud/policypak_cloud_quickstart_625x186.webp)
 
 You can also see the pre-configured examples within the XML Data Files tab.
 
-![policypak_cloud_quickstart_1_499x241](/img/product_docs/policypak/policypak/cloud/policypak_cloud_quickstart_1_499x241.webp)
+![policypak_cloud_quickstart_1_499x241](../../../../static/img/product_docs/policypak/policypak/cloud/policypak_cloud_quickstart_1_499x241.webp)
 
 Note that the Endpoint Policy Manager Cloud client requires .Net Framework 4.0 or later to be installed first. You can download and install.Net Framework 4.5 for Windows from Microsoft here: [http://www.microsoft.com/en-us/download/details.aspx?id=30653](http://www.microsoft.com/en-us/download/details.aspx?id=30653).
 
@@ -34,7 +34,7 @@ Note that the Endpoint Policy Manager Cloud client requires .Net Framework 4.0 o
 
 Each Endpoint Policy Manager Cloud customer has their own specific Endpoint Policy Manager Cloud client that must be downloaded. This is how your PCs join your Endpoint Policy Manager Cloud instance. You can find the client installer within the __Company Details__ tab.
 
-![policypak_cloud_quickstart_2_623x338](/img/product_docs/policypak/policypak/cloud/policypak_cloud_quickstart_2_623x338.webp)
+![policypak_cloud_quickstart_2_623x338](../../../../static/img/product_docs/policypak/policypak/cloud/policypak_cloud_quickstart_2_623x338.webp)
 
 Select the Endpoint Policy Manager Cloud client that makes sense for you (32-bit or 64-bit) and keep it handy for the next steps.
 
@@ -42,10 +42,10 @@ Select the Endpoint Policy Manager Cloud client that makes sense for you (32-bit
 
 You downloaded the Endpoint Policy Manager Cloud client for your company from the Endpoint Policy Manager Cloud service. Now, you need to install the Endpoint Policy Manager Cloud client to join Endpoint Policy Manager Cloud. To do this, run the Endpoint Policy Manager Cloud MS.
 
-![policypak_cloud_quickstart_3_499x366](/img/product_docs/policypak/policypak/cloud/policypak_cloud_quickstart_3_499x366.webp)
+![policypak_cloud_quickstart_3_499x366](../../../../static/img/product_docs/policypak/policypak/cloud/policypak_cloud_quickstart_3_499x366.webp)
 
 A window displays indicating hte installation is completed. The computer will join Endpoint Policy Manager Cloud and will be part of the special built-in groups named __All__ and __Unassigned__.
 
-![policypak_cloud_quickstart_4_437x361](/img/product_docs/policypak/policypak/cloud/policypak_cloud_quickstart_4_437x361.webp)
+![policypak_cloud_quickstart_4_437x361](../../../../static/img/product_docs/policypak/policypak/cloud/policypak_cloud_quickstart_4_437x361.webp)
 
 The Endpoint Policy Manager Cloud client then immediately downloads any Endpoint Policy Manager XML directives for the computer's groups. All directives should be downloaded and active within 10 seconds after the Endpoint Policy Manager Cloud MSI is installed and the computer has joined Endpoint Policy Manager Cloud.

@@ -1,8 +1,8 @@
 # ExchangeMailbox Data Collector
 
-The ExchangeMailbox Data Collector extracts configuration details from the Exchange Store to provide statistical, content, permission, and sensitive data reporting on mailboxes. This is a MAPI-based data collector which requires the __Settings__ > __Exchange__ node to be enabled and configured. See the [Exchange](/docs/accessanalyzer/enterpriseauditor/admin/settings/exchange.md) topic for additional information.
+The ExchangeMailbox Data Collector extracts configuration details from the Exchange Store to provide statistical, content, permission, and sensitive data reporting on mailboxes. This is a MAPI-based data collector which requires the __Settings__ > __Exchange__ node to be enabled and configured. See the [Exchange](../../settings/exchange.md) topic for additional information.
 
-The ExchangeMailbox Data Collector is available with a special Access Analyzer license. See the [Exchange Solution](/docs/accessanalyzer/enterpriseauditor/solutions/exchange/overview.md) topic for additional information.
+The ExchangeMailbox Data Collector is available with a special Access Analyzer license. See the [Exchange Solution](../../../solutions/exchange/overview.md) topic for additional information.
 
 Protocols
 
@@ -29,16 +29,16 @@ If running Sensitive Data Discovery (SDD) scans, it will be necessary to increas
 The ExchangeMailbox Data Collector is configured through the Exchange Mailbox Data Collector Wizard, which contains the following wizard pages:
 
 - Welcome
-- [ExchangeMailbox: Category](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/exchangemailbox/category.md)
-- [ExchangeMailbox: Scope](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/exchangemailbox/scope.md)
-- [ExchangeMailbox: Properties](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/exchangemailbox/properties.md)
-- [ExchangeMailbox: SDD Criteria](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/exchangemailbox/sddcriteria.md)
-- [ExchangeMailbox: Options](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/exchangemailbox/options.md)
-- [ExchangeMailbox: Summary](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/exchangemailbox/summary.md)
+- [ExchangeMailbox: Category](category.md)
+- [ExchangeMailbox: Scope](scope.md)
+- [ExchangeMailbox: Properties](properties.md)
+- [ExchangeMailbox: SDD Criteria](sddcriteria.md)
+- [ExchangeMailbox: Options](options.md)
+- [ExchangeMailbox: Summary](summary.md)
 
 The query requires special permissions to connect to target Exchange servers. Assign these permissions on the Welcome page.
 
-![Exchange Mailbox Data Collector Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
+![Exchange Mailbox Data Collector Wizard Welcome page](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
 
 Connection Setting
 

@@ -8,11 +8,11 @@ The Oracle_PasswordIssues Job uses the PowerShell Data Collector for the followi
 
 __CAUTION:__ Do not modify the query. The query is preconfigured for this job.
 
-![Query Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/oracle/usersroles/jobgroup20.webp)
+![Query Selection](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/oracle/usersroles/jobgroup20.webp)
 
 - Weak Password Hash – Locates the dictionary file used to compare Oracle passwords to determine if they are weak.
 
-See the [PowerShell Data Collector](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/powershell/overview.md) topic for additional information.
+See the [PowerShell Data Collector](../../../../admin/datacollector/powershell/overview.md) topic for additional information.
 
 ## Analysis Tasks for the Oracle_PasswordIssues Job
 
@@ -20,7 +20,7 @@ Navigate to the __Jobs__ > __Oracle__ > __1.Users and Roles__ > __Oracle_Passwor
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/oracle/usersroles/jobgroup21.webp)
+![Analysis Selection](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/oracle/usersroles/jobgroup21.webp)
 
 The default analysis tasks are:
 

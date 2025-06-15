@@ -20,4 +20,4 @@ True if the credentials are valid.
 
 __See Also__
 
-- [Implement and Deploy a Custom SMS Gateway](/docs/groupid/groupid/admincenter/smsgateway/implementcustom.md)
+- [Implement and Deploy a Custom SMS Gateway](../implementcustom.md)

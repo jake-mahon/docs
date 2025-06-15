@@ -1,10 +1,10 @@
 # FS_DEFEND_SDD Job
 
-The FS_DEFEND_SDD Job exports sensitive data matches collected by the File System Solution Sensitive Data Discovery Auditing jobs to Threat Manager. It is available through the Instant Job Library under the File System library. See the [Instant Job Wizard](/docs/accessanalyzer/enterpriseauditor/admin/jobs/instantjobs/overview.md) topic for instructions to add this instant job into the Jobs tree.
+The FS_DEFEND_SDD Job exports sensitive data matches collected by the File System Solution Sensitive Data Discovery Auditing jobs to Threat Manager. It is available through the Instant Job Library under the File System library. See the [Instant Job Wizard](overview.md) topic for instructions to add this instant job into the Jobs tree.
 
 For installing the job, select __Local host__ on the Hosts page of the Instant Job Wizard. Then set the host list according to the following information.
 
-![FS_DEFEND_SDD job in the Jobs tree](/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.webp)
+![FS_DEFEND_SDD job in the Jobs tree](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostmanagement/jobstree.webp)
 
 Runtime Details:
 
@@ -23,7 +23,7 @@ Runtime Details:
 - Target Hosts – Custom Host List
   - Threat Manager target host is the Threat Manager host name with port, [HOST]:8080
   - Format – [HOST]:8080
-  - Assign host list at the __FS_DEFEND_SDD__ > __Configure__ > __Hosts__ (see the [Hosts Node](/docs/accessanalyzer/enterpriseauditor/admin/jobs/job/configure/hosts.md) topic for additional information)
+  - Assign host list at the __FS_DEFEND_SDD__ > __Configure__ > __Hosts__ (see the [Hosts Node](../job/configure/hosts.md) topic for additional information)
 - Scheduling – This job should be scheduled to run as desired
 - History Retention – Not supported and should be turned off
 - Multi-console Support – Not supported
@@ -34,7 +34,7 @@ The FS_DEFEND_SDD Job runs an analysis task that generates the SA_FSAA_SDD_RESUL
 
 Navigate to the __Jobs__ > __FS_DEFEND_SDD__ > __Configure__ node and select __Analysis__ to view the analysis tasks.
 
-![Default Analysis tasks for the job](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/instantjobs/analysistasks.webp)
+![Default Analysis tasks for the job](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/instantjobs/analysistasks.webp)
 
 The default analysis tasks are:
 
@@ -46,7 +46,7 @@ Navigate to the __Jobs__ > __FS_DEFEND_SDD__ > __Configure__ node and select __A
 
 __CAUTION:__ This action is enabled by default.
 
-![Default Action Tasks for the Job](/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/instantjobs/actiontasks.webp)
+![Default Action Tasks for the Job](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/jobs/instantjobs/actiontasks.webp)
 
 The default action is:
 
@@ -64,4 +64,4 @@ Create a Connection Profile and set the following information on the User Creden
 - Password Storage: Application – Uses Access Analyzer’s configured Profile Security setting as selected at the __Settings__ > __Application__ node
 - Access Token – Copy and paste the Threat Manager App Token
 
-See the [Application](/docs/accessanalyzer/enterpriseauditor/admin/settings/application/overview.md) topic for additional information.
+See the [Application](../../settings/application/overview.md) topic for additional information.

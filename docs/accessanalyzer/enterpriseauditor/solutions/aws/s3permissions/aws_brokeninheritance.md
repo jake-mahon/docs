@@ -8,7 +8,7 @@ Navigate to the __AWS__ > __6.S3 Permissions__ > __AWS_BrokenInheritance__ > __C
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the AWS_BrokenInheritance Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/brokeninheritanceanalysis.webp)
+![Analysis Tasks for the AWS_BrokenInheritance Job](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/brokeninheritanceanalysis.webp)
 
 The following analysis tasks are selected by default:
 

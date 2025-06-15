@@ -4,7 +4,7 @@ This connector exports and fulfills users and roles from/to an [SAP ERP 6.0](htt
 
 This page is about ERP/SAP ERP 6.0.
 
-![Package: ERP/SAP ERP 6.0](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/saperp6/packages_saperp6_v603.webp)
+![Package: ERP/SAP ERP 6.0](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/saperp6/packages_saperp6_v603.webp)
 
 ## Overview
 
@@ -14,7 +14,7 @@ The SAP Enterprise Resource Planning (SAP ERP) software incorporates the core bu
 
 Implementing this connector requires:
 
-- Reading first the appsettings documentation; See the [appsettings.agent](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) topic for additional information.
+- Reading first the appsettings documentation; See the [appsettings.agent](../../../network-configuration/agent-configuration/appsettings-agent/index.md) topic for additional information.
 - An ASE or HANA database with a service account, as a database administrator
 - A service account, as a SAP user with at least the roles for user management
 - The prerequisites for reading should be set up
@@ -88,11 +88,11 @@ To set up the prerequisites for reading follow the steps below.
 
 __Step 1 –__ Copy the DLL ```Sap.Data.Hana.Core.v2.1.dll``` into the Runtime of Identity Manager.
 
-![connectorreadprerequisites1](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/saperp6/connectorreadprerequisites1.webp)
+![connectorreadprerequisites1](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/saperp6/connectorreadprerequisites1.webp)
 
 __Step 2 –__ Unzip the "hdbclient.zip" archive to C: drive and add the path to the Path environment variables.
 
-![connectorreadprerequisites2](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/saperp6/connectorreadprerequisites2.webp)
+![connectorreadprerequisites2](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/saperp6/connectorreadprerequisites2.webp)
 
 __Step 3 –__ Create environment variables: ```HDBADOTNET=C:\hdbclient\ado.net``` and ```HDBADOTNETCORE=C:\hdbclient\dotnetcore```.
 
@@ -106,11 +106,11 @@ __Step 2 –__ Unzip the ```dotnet86.zip``` archive to ```C:\dotnetx86```.
 
 __Step 3 –__ Copy the DLLs icudt50.dll, ```icuin50.dll``` and icuuc50.dll into the Runtime of Identity Manager.
 
-![connectorwriteprerequisites](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/saperp6/connectorwriteprerequisites.webp)
+![connectorwriteprerequisites](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/saperp6/connectorwriteprerequisites.webp)
 
 __Step 4 –__ Disable DLLs search by adding the environment variable ```NLSUI_7BIT_FALLBACK=YES```.
 
-![connectorwriteprerequisites2](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/saperp6/connectorwriteprerequisites2.webp)
+![connectorwriteprerequisites2](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/saperp6/connectorwriteprerequisites2.webp)
 
 __Step 5 –__ Add new environment variable ```USERCUBE_DOTNET32``` containing the path to dotnetx86 (e.g.: ```C: \donetx86\dotnet.exe```).
 
@@ -122,7 +122,7 @@ This connector extracts users, roles, profiles, profile memberships, role member
 
 This process is configured through a connection in the UI and/or the XML configuration, and in the __appsettings.agent.json__ > __Connections__ section. See the [
 Connection
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) topic for additional information.
+](../../../toolkit/xml-configuration/connectors/connection/index.md) topic for additional information.
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
@@ -196,7 +196,7 @@ This connector is meant to generate to the ExportOutput folder the following fil
 - SAPExportFulfillment_groups.csv;
 - SAPExportFulfillment_rolestransactions.csv.
 
-See the [Application Settings](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) topic for additional information.
+See the [Application Settings](../../../network-configuration/agent-configuration/appsettings/index.md) topic for additional information.
 
 ## Fulfill
 
@@ -204,7 +204,7 @@ This connector can provision users, role memberships and group memberships to SA
 
 ### Configuration
 
-Same as for export, fulfill is configured through connections. See the [SAP ERP 6.0 and SAP S4/HANA](/docs/usercube/usercube/integration-guide/connectors/references-connectors/saperp6/index.md) topic for additional information.
+Same as for export, fulfill is configured through connections. See the [SAP ERP 6.0 and SAP S4/HANA](index.md) topic for additional information.
 
 For example:
 
@@ -237,9 +237,9 @@ appsettings.agent.json
 
 ### Password reset
 
-See the [appsettings.agent](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) topic for additional information on how to configure password reset settings.
+See the [appsettings.agent](../../../network-configuration/agent-configuration/appsettings-agent/index.md) topic for additional information on how to configure password reset settings.
 
-When setting a password for an SAP ERP user, the password attribute is defined by the password specified in the corresponding RessourceTypeMapping. See the [Sap Resource Type Mapping](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/resourcetypemappings/sapresourcetypemapping/index.md) topic for additional information.
+When setting a password for an SAP ERP user, the password attribute is defined by the password specified in the corresponding RessourceTypeMapping. See the [Sap Resource Type Mapping](../../../toolkit/xml-configuration/connectors/resourcetypemappings/sapresourcetypemapping/index.md) topic for additional information.
 
 ### Credential protection
 
@@ -265,8 +265,8 @@ Data protection can be ensured through:
 
 See the [
 RSA Encryption
-](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md), [Azure Key Vault](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md), and [CyberArk's AAM Credential Providers
-](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)topics for additional information.
+](../../../network-configuration/agent-configuration/rsa-encryption/index.md), [Azure Key Vault](../../../network-configuration/agent-configuration/azure-key-vault/index.md), and [CyberArk's AAM Credential Providers
+](../../../network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)topics for additional information.
 
 Protected attributes are stored inside a safe in CyberArk, into an account whose identifier can be retrieved by Identity Manager from ```appsettings.cyberark.agent.json```.
 

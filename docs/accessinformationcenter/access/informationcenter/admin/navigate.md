@@ -2,7 +2,7 @@
 
 The Access Information Center has several interfaces for viewing reports and using the available workflows. Upon login, users granted console access are brought to the Home page.
 
-![Administrator user home page](/img/product_docs/accessinformationcenter/access/informationcenter/admin/homeadmin.webp)
+![Administrator user home page](../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/admin/homeadmin.webp)
 
 The signed in user is displayed in the upper-right corner, along with the __Sign out__ link. The options enabled on the Home page change according to what components are licensed as well as the role assigned to the user.
 
@@ -10,7 +10,7 @@ For Administrator Only
 
 The __Configure Console__ link opens the Configuration interface. Configure console access, Active Directory service account, notification settings, database access, and diagnostic logging level. Additionally you can view license details and upload a new license.
 
-This interface is available only to users with the Administrator role. See the [Configuration Interface Overview](/docs/accessinformationcenter/access/informationcenter/admin/configuration/overview.md) topic for additional information.
+This interface is available only to users with the Administrator role. See the [Configuration Interface Overview](configuration/overview.md) topic for additional information.
 
 __NOTE:__ Users with the User Access Administrator role have access only to the Console Access page of the Configuration interface.
 
@@ -20,35 +20,35 @@ The __Resource Owners__ button opens the Resource Owners interface. Manage resou
 
 ___RECOMMENDED:___ Enable notifications when managing resources through the Access Information Center.
 
-This interface is available only to users with either the Security Team or Administrator role. See the [Resource Owners Interface](/docs/accessinformationcenter/access/informationcenter/resourceowners/interface.md) topic for additional information.
+This interface is available only to users with either the Security Team or Administrator role. See the [Resource Owners Interface](../resourceowners/interface.md) topic for additional information.
 
 The __Resource Reviews__ button opens the Manage Reviews interface. Create and manage reviews. There are four types of reviews for resources being managed within the Access Information Center: access, membership, permissions, and sensitive data. This requires the Access Information Center to be configured to send notifications. The __Resource Reviews__ button is associated to the Entitlement Reviews license feature.
 
 ___RECOMMENDED:___ While not required, enabling the Access Information Center to commit changes in Active Directory is an optional component of the Resource Reviews workflow.
 
-This interface is available only to users with either the Security Team or Administrator role. See the [Resource Reviews Interface](/docs/accessinformationcenter/access/informationcenter/resourcereviews/interface.md) topic for additional information.
+This interface is available only to users with either the Security Team or Administrator role. See the [Resource Reviews Interface](../resourcereviews/interface.md) topic for additional information.
 
 The __Access Requests__ button opens the Access Requests interface. View pending and historical access requests and send reminders to owners. This does require the Access Information Center to be configured to send notifications and commit changes in Active Directory. Additionally the Self-Service Access Requests workflow requires that role-based access groups be preconfigured within the target environment for the resources being managed by the Access Information Center. The __Access Requests__ button is associated to the Access Requests license feature.
 
-This interface is available only to users with either the Security Team or Administrator role. See the [Access Requests Interface](/docs/accessinformationcenter/access/informationcenter/accessrequests/interface.md) topic for additional information.
+This interface is available only to users with either the Security Team or Administrator role. See the [Access Requests Interface](../accessrequests/interface.md) topic for additional information.
 
 For Reader, Data Privacy, Security Team, & Administrator
 
-The __Resource Audit__ button opens the Resource Audit interface. View reports for resources, users, groups, computers, and sensitive content. Reports are available for resources scanned by Netwrix Access Analyzer (formerly Enterprise Auditor). It is available to all console users with the minimum of Reader role. Assigned owners without a user role can access this interface through the Owner portal, but it is scoped to only the owned resource. See the [Access Requests Interface](/docs/accessinformationcenter/access/informationcenter/accessrequests/interface.md) topic for additional information.
+The __Resource Audit__ button opens the Resource Audit interface. View reports for resources, users, groups, computers, and sensitive content. Reports are available for resources scanned by Netwrix Access Analyzer (formerly Enterprise Auditor). It is available to all console users with the minimum of Reader role. Assigned owners without a user role can access this interface through the Owner portal, but it is scoped to only the owned resource. See the [Access Requests Interface](../accessrequests/interface.md) topic for additional information.
 
-The Search Features include a __Search__ bar and a __Recent Searches__ box on the Home page. These features will direct you to the reports for the selected object: resource, user, group, computer, or sensitive content. These features are available to all users with an assigned user role. See the [Search Features](/docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/search.md) topic for additional information.
+The Search Features include a __Search__ bar and a __Recent Searches__ box on the Home page. These features will direct you to the reports for the selected object: resource, user, group, computer, or sensitive content. These features are available to all users with an assigned user role. See the [Search Features](../resourceaudit/navigate/search.md) topic for additional information.
 
 For Assigned Owner
 
 The __Manage Your Resources__ link opens the Owner portal. It is only visible on the Home page if the logged in user is also an assigned owner of at least one resource. Assigned owners without a user role are directed to the Owner portal at login. View a list of scanned resources that the logged-in domain user is the assigned owner, access resource reports, access pending and historical access requests, and access resource review information. When enabled for a resource, the owner can make ad hoc access changes. The Owner portal is associated to the Access Requests and Entitlement Reviews license features, as it is part of both the Resource Reviews and the Self-Service Access Requests workflows.
 
-The Owner portal is available to any domain user who has been assigned ownership of a resource or group within the Access Information Center. See the [Owner Portal Overview](/docs/accessinformationcenter/access/informationcenter/resourceowners/ownerportal/overview.md) topic for additional information.
+The Owner portal is available to any domain user who has been assigned ownership of a resource or group within the Access Information Center. See the [Owner Portal Overview](../resourceowners/ownerportal/overview.md) topic for additional information.
 
 For All Domain Users
 
 The __Manage Your Access__ link opens the Your Access portal. Domain users without a user role who have not been assigned ownership are directed to the Your Access portal at login. Users can request access to resources managed through the Access Information Center, view their own entitlements to resources, and view access request history. It is part of the Self-Service Access Requests workflow.
 
-The Your Access portal is available to any domain user in the target environment. See the [Your Access Portal Overview](/docs/accessinformationcenter/access/informationcenter/accessrequests/youraccessportal/overview.md) topic for additional information.
+The Your Access portal is available to any domain user in the target environment. See the [Your Access Portal Overview](../accessrequests/youraccessportal/overview.md) topic for additional information.
 
 ## Interface Quick Reference
 

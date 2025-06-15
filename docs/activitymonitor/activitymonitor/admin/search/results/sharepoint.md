@@ -1,8 +1,8 @@
 # SharePoint Search Results
 
-When a search has been started, the Search Status table at the bottom displays the percentage complete according to the size and quantity of the activity log files being searched per activity agent. You can [Filter](/docs/activitymonitor/activitymonitor/admin/search/overview.md#filter) and [Sort](/docs/activitymonitor/activitymonitor/admin/search/overview.md#sort) the results using the column headers. Below the Search button is the [Export](/docs/activitymonitor/activitymonitor/admin/search/overview.md#export) option.
+When a search has been started, the Search Status table at the bottom displays the percentage complete according to the size and quantity of the activity log files being searched per activity agent. You can [Filter](../overview.md#filter) and [Sort](../overview.md#sort) the results using the column headers. Below the Search button is the [Export](../overview.md#export) option.
 
-![SharePoint Search - Results](/img/product_docs/activitymonitor/activitymonitor/admin/search/results/sharepointsearchresults.webp)
+![SharePoint Search - Results](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/search/results/sharepointsearchresults.webp)
 
 The results data grid columns display the following information for each event:
 

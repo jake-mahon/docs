@@ -30,17 +30,17 @@ Option 1: Microsoft RDS licensing tool
 
 Option 2: Citrix License Admin Console
 
-![154_1_image0021](/img/product_docs/policypak/policypak/license/virtualization/154_1_image0021.jpg)
+![154_1_image0021](../../../../../static/img/product_docs/policypak/policypak/license/virtualization/154_1_image0021.jpg)
 
 If you choose option 1, please take this screenshot and return it to us:
 
-![154_2_image004](/img/product_docs/policypak/policypak/license/virtualization/154_2_image004.webp)
+![154_2_image004](../../../../../static/img/product_docs/policypak/policypak/license/virtualization/154_2_image004.webp)
 
 __NOTE:__ In this example this would be counted as 50 + 50 or, 100 concurrent RDS licenses.
 
 If you choose option 2, please take this screenshot and send it to us
 
-![154_3_image005](/img/product_docs/policypak/policypak/license/virtualization/154_3_image005.jpg)
+![154_3_image005](../../../../../static/img/product_docs/policypak/policypak/license/virtualization/154_3_image005.jpg)
 
 __NOTE:__  In this example the count of licenses would be 10 (Presentation) + 10 (XenDesktop System) + 10 (User), or 30 concurrent licenses.
 
@@ -48,6 +48,6 @@ Therefore, wherever you pay either Microsoft or Citrix, Endpoint Policy Manager 
 
 __NOTE:__ If you purchased or acquired either Microsoft Volume License keys, or got your keys from the Microsoft CSP (Cloud Solution Provider) Program, you might find that these licenses show up as 500 licenses purchased, instead of the actual quantity you purchased. In this case Endpoint Policy Manager License Request Tool (LT) will think you have purchased 500 licenses, where you might have bought only 10, 20, etc.
 
-![154_4_image001_950x198](/img/product_docs/policypak/policypak/license/virtualization/154_4_image001_950x198.webp)
+![154_4_image001_950x198](../../../../../static/img/product_docs/policypak/policypak/license/virtualization/154_4_image001_950x198.webp)
 
 If this is your situation, simply express the raw number of purchased licenses to your sales or renewals person.

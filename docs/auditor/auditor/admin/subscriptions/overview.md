@@ -4,7 +4,7 @@ Subscriptions enable you to schedule email delivery of a variety of reports or s
 
 You can configure subscriptions to reports (including dashboards) risk assessment overview and interactive search.
 
-You can add any elements (a dashboard, report, alert, risk, etc.) to the Auditor Home screen to access them instantly. See the [Navigation](/docs/auditor/auditor/admin/navigation/overview.md) and [Customize Home Screen](/docs/auditor/auditor/admin/navigation/customizehome.md) topics for additional information.
+You can add any elements (a dashboard, report, alert, risk, etc.) to the Auditor Home screen to access them instantly. See the [Navigation](../navigation/overview.md) and [Customize Home Screen](../navigation/customizehome.md) topics for additional information.
 
 ## Subscription to Reports
 
@@ -45,5 +45,5 @@ This subscription type is similar to the predefined reports.
 
 Review the following for additional information:
 
-- [Create Subscriptions](/docs/auditor/auditor/admin/subscriptions/create.md)how to create new subscriptions.
-- [Review and Manage Subscriptions](/docs/auditor/auditor/admin/subscriptions/manage.md)how to manage subscriptions.
+- [Create Subscriptions](create.md)how to create new subscriptions.
+- [Review and Manage Subscriptions](manage.md)how to manage subscriptions.

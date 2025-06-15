@@ -13,7 +13,7 @@ __NOTE:__  Endpoint Policy Manager can only deploy binary/DER type certificates.
 
 Examples of IE certificates are shown in Figure 29.
 
-![ie_appset_tab_by_tab_25](/img/product_docs/policypak/policypak/applicationsettings/preconfigured/internetexplorer/tab/ie_appset_tab_by_tab_25.webp)
+![ie_appset_tab_by_tab_25](../../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/preconfigured/internetexplorer/tab/ie_appset_tab_by_tab_25.webp)
 
 Figure 29. IE Certificates.
 
@@ -34,7 +34,7 @@ or
 Thumbprint, Certificate Store, remove
 ```
 
-![ie_appset_tab_by_tab_26](/img/product_docs/policypak/policypak/applicationsettings/preconfigured/internetexplorer/tab/ie_appset_tab_by_tab_26.webp)
+![ie_appset_tab_by_tab_26](../../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/preconfigured/internetexplorer/tab/ie_appset_tab_by_tab_26.webp)
 
 Figure 30. Adding or removing IE certificates.
 
@@ -66,7 +66,7 @@ __NOTE:__  Non-elevated users are not allowed to remove certificates from the ma
 
 To remove certificates using the IE AppSet, you must know the thumbprint for the certificate you want to remove. You can find the thumbprint within IE by viewing the details for a certificate and selecting the thumbprint, as shown in Figure 31. Then, you can copy and paste it into the AppSet.
 
-![ie_appset_tab_by_tab_27](/img/product_docs/policypak/policypak/applicationsettings/preconfigured/internetexplorer/tab/ie_appset_tab_by_tab_27.webp)
+![ie_appset_tab_by_tab_27](../../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/preconfigured/internetexplorer/tab/ie_appset_tab_by_tab_27.webp)
 
 Figure 31. Details and thumbprints of certificates in IE.
 
@@ -86,12 +86,12 @@ da 8f 1a 48 0b 43 93 01 fe 07 40 dc 9d d5 bb 78 9e 00 81 01, Machine\CA, remove
 
 Endpoint Policy Manager can only work with binary-formatted/DER certificates. If you have a certificate of another type, you may import it first into Internet Explorer. Then you can immediately export it as a DER file, as shown in Figure 32.
 
-![ie_appset_tab_by_tab_28](/img/product_docs/policypak/policypak/applicationsettings/preconfigured/internetexplorer/tab/ie_appset_tab_by_tab_28.webp)
+![ie_appset_tab_by_tab_28](../../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/preconfigured/internetexplorer/tab/ie_appset_tab_by_tab_28.webp)
 
 Figure 32. Exporting a certificate as a DER file.
 
 You can optionally perform the same type of export by finding the file itself in Explorer, navigating to the Details tab, and then clicking on the "Copy to File..." button and selecting "```DER encoded binary X.509 (CER)```," as shown in Figure 33.
 
-![ie_appset_tab_by_tab_29](/img/product_docs/policypak/policypak/applicationsettings/preconfigured/firefox/certificate/certificates_5.webp)
+![ie_appset_tab_by_tab_29](../../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/preconfigured/firefox/certificate/certificates_5.webp)
 
 Figure 33. Exporting a certificate using the "Copy to File..." button.

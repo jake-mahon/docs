@@ -4,7 +4,7 @@ This section identifies software requirements for Identity Manager's server.
 
 ## License Key
 
-The server requires a license key provided by Netwrix Identity Manager (formerly Usercube). See the [Application Settings](/docs/usercube/usercube/integration-guide/network-configuration/server-configuration/general-purpose/index.md) topic for additional information.
+The server requires a license key provided by Netwrix Identity Manager (formerly Usercube). See the [Application Settings](../../../integration-guide/network-configuration/server-configuration/general-purpose/index.md) topic for additional information.
 
 ## Software
 
@@ -37,7 +37,7 @@ The IIS built-in [application pool identity](https://support.microsoft.com/en-us
 
 The agent's service account needs specific permissions presented in the[
 Create a Working Directory
-](/docs/usercube/usercube/installation-guide/production-ready/working-directory/index.md) topic as:
+](../../production-ready/working-directory/index.md) topic as:
 
 - _Read_ and _List folder contents_ on the working directory;
 - _Read & Execute_ and _List folder contents_ on the ```Runtime``` directory, usually ```C:/Usercube<Organization>/Runtime```, in order to run the agent executable;
@@ -46,17 +46,17 @@ Create a Working Directory
 
 See the [
 Create a Working Directory
-](/docs/usercube/usercube/installation-guide/production-ready/working-directory/index.md) and [Application Settings](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) topics for additional information.
+](../../production-ready/working-directory/index.md) and [Application Settings](../../../integration-guide/network-configuration/agent-configuration/appsettings/index.md) topics for additional information.
 
 Other permissions should be denied.
 
-> __FAQ__: How to set up directory permissions in Windows Server? See the [Install the Server](/docs/usercube/usercube/installation-guide/production-ready/server/index.md) topic for additional information.
+> __FAQ__: How to set up directory permissions in Windows Server? See the [Install the Server](../../production-ready/server/index.md) topic for additional information.
 
 ### Database permissions
 
 If Windows' authentication is used for SQL Server, then the server should be able to authenticate to SQL Server with its assigned service account. It means that the server's service account needs to be assigned an SQL Server login with the relevant roles, including necessarily either ```sysadmin``` or ```securityadmin```.
 
-See the [Database](/docs/usercube/usercube/installation-guide/requirements/database-requirements/index.md) and [Install the Server](/docs/usercube/usercube/installation-guide/production-ready/server/index.md) topics for additional information.
+See the [Database](../database-requirements/index.md) and [Install the Server](../../production-ready/server/index.md) topics for additional information.
 
 ## Hostname and DNS
 
@@ -78,7 +78,7 @@ Identity Manager on-premises offering requires the use of an SSL certificate tr
 
 The server needs access to an SMTP server to [
 Send Notifications
-](/docs/usercube/usercube/installation-guide/production-ready/email-server/index.md).
+](../../production-ready/email-server/index.md).
 
 ## Encryption and Identity Server Key Pairs
 
@@ -99,4 +99,4 @@ The key pair can be generated with tools such as [OpenSSL](https://www.openssl.o
 ## What's Next?
 
 Let's move on to Identity Manager's agent requirements. See the [
-Agent ](/docs/usercube/usercube/installation-guide/requirements/agent-requirements/index.md) topic for additional information.
+Agent ](../agent-requirements/index.md) topic for additional information.

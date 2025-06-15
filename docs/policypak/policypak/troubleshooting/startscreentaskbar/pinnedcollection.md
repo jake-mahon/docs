@@ -4,6 +4,6 @@ You will see a group named Netwrix Endpoint Policy Manager (formerly PolicyPak) 
 
 Items which are delivered to the TASK BAR must also have items that exist on the LEFT SIDE. If these items do not exist, we will create a group JUST for the Task Bar. That is configurable, and you can see how to do it in the second screenshot.
 
-![623_1_faq-07-img-01](/img/product_docs/policypak/policypak/troubleshooting/startscreentaskbar/623_1_faq-07-img-01.jpg)
+![623_1_faq-07-img-01](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/startscreentaskbar/623_1_faq-07-img-01.jpg)
 
-![623_2_faq-07-img-02](/img/product_docs/policypak/policypak/troubleshooting/startscreentaskbar/623_2_faq-07-img-02.jpg)
+![623_2_faq-07-img-02](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/startscreentaskbar/623_2_faq-07-img-02.jpg)

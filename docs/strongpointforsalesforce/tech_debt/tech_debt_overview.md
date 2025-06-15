@@ -26,4 +26,4 @@ Salesforce tech debt is normal. It is not a reflection of team aptitude or level
 
 It is time to tackle your tech debt and unleash your team’s innovation on the task of delivering great solutions to your business.
 
-__Next Technical Debt Topic:__ [Managing Orgs in the Real World](/docs/strongpointforsalesforce/tech_debt/tech_debt_managing_orgs.md)
+__Next Technical Debt Topic:__ [Managing Orgs in the Real World](tech_debt_managing_orgs.md)

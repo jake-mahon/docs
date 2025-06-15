@@ -23,7 +23,7 @@ __Step 2 –__ Connect to the SQL Server instance.
 
 __Step 3 –__ In the left pane, expand the Security node. Right-click the Logins node and select __New Login__ from the pop-up menu. The Login - New window is displayed.
 
-![Login - New window](/img/product_docs/1secure/configuration/sqlserver/manualconfig_ssms_newlogin2016.webp)
+![Login - New window](../../../../static/img/product_docs/1secure/configuration/sqlserver/manualconfig_ssms_newlogin2016.webp)
 
 __Step 4 –__ Click __Search__ next to the Login Name box and specify the user you want to assign the sysadmin role.
 

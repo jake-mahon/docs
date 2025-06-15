@@ -130,4 +130,4 @@ __Step 2 –__ In the __Tenant information__ locate the __Primary domain__ field
 
 See the following Microsoft article for additional information on how to obtain tenant name: [Locate important IDs for a user](https://learn.microsoft.com/en-us/partner-center/find-ids-and-domain-names).
 
-Then, create a corresponding monitoring plan in Netwrix Auditor and add an item (Office 365 tenant) to it. See the [Microsoft Entra ID](/docs/auditor/auditor/admin/monitoringplans/microsoftentraid/overview.md) topic for additional information.
+Then, create a corresponding monitoring plan in Netwrix Auditor and add an item (Office 365 tenant) to it. See the [Microsoft Entra ID](../../../admin/monitoringplans/microsoftentraid/overview.md) topic for additional information.

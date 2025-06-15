@@ -2,7 +2,7 @@
 
 The Complexity rule rejects passwords that do not contain characters from a variety of character sets. Using several character types can make passwords more difficult to crack.
 
-![Character Complexity Rule](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/charcomplexity.webp)
+![Character Complexity Rule](../../../../static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/charcomplexity.webp)
 
 Select the __Characters (Complexity)__ checkbox to enable the Character Complexity rule.
 
@@ -10,7 +10,7 @@ Select the number of required character sets. Passwords are rejected if they do 
 
 Select the available character sets. The number of available character sets must be equal to or greater than the number of required character sets.
 
-Select the __Passwords must always comply with this rule__ check box to make the Complexity rule mandatory. Password Policy Enforcer rules are mandatory by default, but can be made optional by changing the Reject passwords that do not comply with value in the Policy Properties page. A mandatory rule can still be disabled when a passphrase is used. See the [Passphrase](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/passphrases.md) topic for additional information.
+Select the __Passwords must always comply with this rule__ check box to make the Complexity rule mandatory. Password Policy Enforcer rules are mandatory by default, but can be made optional by changing the Reject passwords that do not comply with value in the Policy Properties page. A mandatory rule can still be disabled when a passphrase is used. See the [Passphrase](passphrases.md) topic for additional information.
 
 __NOTE:__ The Complexity rule uses custom character set definitions from the Character rules, even if the Character rules are disabled.
 

@@ -17,19 +17,19 @@ Follow the steps to assign roles at the global level.
 
 __Step 1 –__ Navigate to the __Settings__ > __Access__ node.
 
-![Add Access option on the Access page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/addaccess.webp)
+![Add Access option on the Access page](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/addaccess.webp)
 
 __Step 2 –__ On the Access page, click __Add Access__. The Access Type wizard opens.
 
-![Access Type page of the Access Role wizard](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/accesstypeuser.webp)
+![Access Type page of the Access Role wizard](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/accesstypeuser.webp)
 
 __Step 3 –__ Select the __A user or group accessing this console__ option. Click __Next__.
 
-![Console Access page of the Access Role wizard](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/consoleaccess.webp)
+![Console Access page of the Access Role wizard](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/consoleaccess.webp)
 
 __Step 4 –__ On the Console Access page, specify a group or user in the __Name__ field. Use the ellipsis (__…__) to browse for accounts with the Select User or Group window.
 
-![Console Access page with user added](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/consoleaccessfinish.webp)
+![Console Access page with user added](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/consoleaccessfinish.webp)
 
 __Step 5 –__ Select a role for the group or user from the Role list. Click __Finish__. The group or user and role is added to the Role Membership list in the Roles view.
 
@@ -41,8 +41,8 @@ __Step 7 –__ Click __Save__ and then __OK__ to confirm the changes. All applie
 
 Role Based Access is enabled when the first role has been assigned.
 
-![Error message when Administrator role is not specified](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/noadminerror.webp)
+![Error message when Administrator role is not specified](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/noadminerror.webp)
 
 The first role or set of roles saved must include the Administrator role. Clicking __Save__ for the first role or set or roles without including the Administrator generates an error message in the Access Analyzer Console.
 
-When Role Based Access is first enabled, restart the Access Analyzer application to ensure all roles are properly active. The Report Viewer role can be assigned at the job group, job, and report configuration levels. See the [Reporting Node](/docs/accessanalyzer/enterpriseauditor/admin/jobs/group/reporting.md), [Report Roles Tab](/docs/accessanalyzer/enterpriseauditor/admin/jobs/job/properties/reportroles.md), and [Publish Security Page](/docs/accessanalyzer/enterpriseauditor/admin/report/wizard/publishsecurity.md) topics for additional information.
+When Role Based Access is first enabled, restart the Access Analyzer application to ensure all roles are properly active. The Report Viewer role can be assigned at the job group, job, and report configuration levels. See the [Reporting Node](../../../jobs/group/reporting.md), [Report Roles Tab](../../../jobs/job/properties/reportroles.md), and [Publish Security Page](../../../report/wizard/publishsecurity.md) topics for additional information.

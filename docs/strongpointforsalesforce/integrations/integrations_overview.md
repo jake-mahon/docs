@@ -4,7 +4,7 @@ Many customers use ticketing and change approval systems in the management of ch
 
 Integrations with Salesforce include:
 
-- [Jira](/docs/strongpointforsalesforce/change_management/creating_change_request.md)
+- [Jira](../change_management/creating_change_request.md)
 
 ## Jira
 
@@ -13,6 +13,6 @@ Platform Governance for Salesforce’s Change Management capabilities are integr
 - Improved team productivity by automatically detecting objects mentioned in Jira tickets, managing changes to those objects with Change Management, and synchronizing approvals.
 - The ability for auditors to track compliant changes and avoid manually reconciling change tickets to change logs during audit.
 
-![Jira Integration](/img/product_docs/strongpointforsalesforce/integrations/jira_overview.webp)
+![Jira Integration](../../../static/img/product_docs/strongpointforsalesforce/integrations/jira_overview.webp)
 
-__Next Step:__ [ Set Up the Jira Integration](/docs/strongpointforsalesforce/integrations/jira_integration.md)
+__Next Step:__ [ Set Up the Jira Integration](jira_integration.md)

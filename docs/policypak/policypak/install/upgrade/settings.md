@@ -2,7 +2,7 @@
 
 Application Settings Manager has a few extra parts that need updating when Netwrix Endpoint Policy Manager (formerly PolicyPak) the client-side extension (CSE) and tools are updated. We'll discuss those specific parts in the following sections.
 
-For a video overview of this topic, see [Keeping Application Settings Manager and Paks up to date](/docs/policypak/policypak/video/applicationsettings/uptodate.md).
+For a video overview of this topic, see [Keeping Application Settings Manager and Paks up to date](../../video/applicationsettings/uptodate.md).
 
 ## Updating the AppSets
 
@@ -21,7 +21,7 @@ For Endpoint Policy Manager Application Settings Manager, update your Endpoint P
 
 For extra protection within each Endpoint Policy Manager Application Settings Manager definition, you can choose to open the definition and then click the __Options__ button. Then, select __Export XML Settings Data__.
 
-![specific_upgrades_for_application_624x386](/img/product_docs/policypak/policypak/install/upgrade/specific_upgrades_for_application_624x386.webp)
+![specific_upgrades_for_application_624x386](../../../../../static/img/product_docs/policypak/policypak/install/upgrade/specific_upgrades_for_application_624x386.webp)
 
 __NOTE:__ This step is optional but will provide a second backup of your Endpoint Policy Manager Application Settings Manager definitions in case of a mishap and is therefore recommended.
 
@@ -29,4 +29,4 @@ __NOTE:__ This step is optional but will provide a second backup of your Endpoin
 
 Every GPO contains directives with Endpoint Policy Manager Application Settings Manager data, which must be opened and updated. If a GPO contains multiple Endpoint Policy Manager Application Settings Manager directives, each one must be updated, or touched. You can either manually touch a GPO or use Endpoint Policy Manager GPOTouch. It is recommended to use the Endpoint Policy Manager GPOTouch utility to update each GPO automatically with the latest version of the AppSet DLL file.
 
-To see a video overview of how to manually touch a GPO, see [GPOTouch Utility](/docs/policypak/policypak/video/applicationsettings/touchutility.md).
+To see a video overview of how to manually touch a GPO, see [GPOTouch Utility](../../video/applicationsettings/touchutility.md).

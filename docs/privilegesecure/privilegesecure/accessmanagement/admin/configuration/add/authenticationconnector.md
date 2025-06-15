@@ -6,7 +6,7 @@ __Step 1 –__ Navigate to the __Configuration__ > __Authentication__ page.
 
 __Step 2 –__ In the Connectors list, click the __Plus__ icon.
 
-![addauthentication](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/add/addauthentication.webp)
+![addauthentication](../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/add/addauthentication.webp)
 
 __Step 3 –__ Enter the following information:
 
@@ -16,12 +16,12 @@ __Step 3 –__ Enter the following information:
 
 __NOTE:__ Once the Connection Type is selected, additional fields become available. The available fields will change depending on the selection.
 
-__Step 4 –__ Enter the information from the applicable authentication connector provider. See the [Authentication Page](/docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/page/authentication.md) section for detailed descriptions of the fields.
+__Step 4 –__ Enter the information from the applicable authentication connector provider. See the [Authentication Page](../page/authentication.md) section for detailed descriptions of the fields.
 
-- For OpenID Connect, open the [OpenID Connect Configuration Wizard](/docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/wizard/openidconnectconfiguration.md)
-- For SAML, open the [SAML Configuration Wizard](/docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/wizard/samlconfiguration.md)
+- For OpenID Connect, open the [OpenID Connect Configuration Wizard](../wizard/openidconnectconfiguration.md)
+- For SAML, open the [SAML Configuration Wizard](../wizard/samlconfiguration.md)
 
-See the [OpenID Connect Authentication](/docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/integrationdetails/openidconnectauthentication.md) appendices for additional information on how to configure third party Authentication Connectors.
+See the [OpenID Connect Authentication](../integrationdetails/openidconnectauthentication.md) appendices for additional information on how to configure third party Authentication Connectors.
 
 __Step 5 –__ Click __Save__ to create the new authentication connector.
 

@@ -6,7 +6,7 @@ To read more about SQL server-level roles, refer to [this Microsoft article](htt
 
 To instruct Netwrix Auditor to collect data needed for this report, make sure that __Collect data for state-in-time reports__ option is selected in the monitoring plan properties. See Settings for Data Collection in the monitoring plan documentation.
 
-![sqlserverlevelroles](/img/product_docs/auditor/auditor/admin/reports/types/stateintime/sqlserverlevelroles.webp)
+![sqlserverlevelroles](../../../../../../../static/img/product_docs/auditor/auditor/admin/reports/types/stateintime/sqlserverlevelroles.webp)
 
 ## Reported data
 
@@ -44,7 +44,7 @@ This report has the following filters:
 ## Related reports
 
 - Clicking a role member (account) link opens the [Account Permissions in SQL
-  Server](/docs/auditor/auditor/admin/reports/types/stateintime/sqlaccountpermissions.md) report.
+  Server](sqlaccountpermissions.md) report.
 
 ## Usage example
 

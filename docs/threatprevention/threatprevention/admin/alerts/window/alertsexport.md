@@ -8,7 +8,7 @@ __Step 1 –__ Click __Alerts__ in the left pane to launch the Alerts interface.
 
 __Step 2 –__ On the Alerts interface, click the __Export Data__ icon in the top right corner; the Alerts Export window is displayed.
 
-![Alerts Export window](/img/product_docs/threatprevention/threatprevention/admin/navigation/export.webp)
+![Alerts Export window](../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/navigation/export.webp)
 
 __Step 3 –__ Export options include:
 

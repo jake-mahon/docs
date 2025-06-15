@@ -10,7 +10,7 @@ There are many types of hosts or platforms that can be monitored using the Activ
 - Dell PowerStore
 - Dell Unity
 - Hitachi
-- Linux – Configuration of a Linux host is done during agent deployment. See the [Linux Agent Deployment](/docs/activitymonitor/activitymonitor/admin/agents/add/linux.md) topic for additional information.
+- Linux – Configuration of a Linux host is done during agent deployment. See the [Linux Agent Deployment](../agents/add/linux.md) topic for additional information.
 - Nasuni
 - NetApp
 - Nutanix
@@ -22,7 +22,7 @@ There are many types of hosts or platforms that can be monitored using the Activ
 - Exchange Online
 - SQL Server
 
-See the [Add New Host Window](/docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/overview.md) topic for additional information.
+See the [Add New Host Window](add/overview.md) topic for additional information.
 
 Agents
 
@@ -44,7 +44,7 @@ This tab is comprised of a button bar and a table of hosts being monitored. A li
 
 The button bar allows users to take the following actions:
 
-![Activity Monitor with Monitored Hosts tab identified](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/monitoredhoststab.webp)
+![Activity Monitor with Monitored Hosts tab identified](../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/monitoredhoststab.webp)
 
 - Toggle Collapse – Expands and collapses all Monitored Hosts for viewing or hiding host's outputs
 - Add Host – Opens the Add New Host window to configure monitoring of a new host or platform. See the section for instructions on adding the desired target environment.
@@ -82,13 +82,13 @@ The monitored hosts table provides the following information:
 
 Hosts can have more than one output. To view a host's outputs, expand the host by clicking the white arrow to the left of the Monitored Host name.
 
-For integration with Netwrix Access Analyzer (formerly Enterprise Auditor), only one configuration of a 'monitored host' can be set as the Netwrix Access Analyzer (formerly Enterprise Auditor) output. After a 'monitored host' has been added, use the Edit feature to identify the configuration as being for Netwrix Access Analyzer (formerly Enterprise Auditor) on the Log Files tab of the host's Properties window. See the [Log Files Tab](/docs/activitymonitor/activitymonitor/admin/outputs/logfiles.md) topic for additional information.
+For integration with Netwrix Access Analyzer (formerly Enterprise Auditor), only one configuration of a 'monitored host' can be set as the Netwrix Access Analyzer (formerly Enterprise Auditor) output. After a 'monitored host' has been added, use the Edit feature to identify the configuration as being for Netwrix Access Analyzer (formerly Enterprise Auditor) on the Log Files tab of the host's Properties window. See the [Log Files Tab](../outputs/logfiles.md) topic for additional information.
 
 ## Monitoring Status
 
 The Status collapsible section located above the Status Bar of the Activity Monitor provides visibility into a host's monitoring state and history of state changes. Host monitoring status is depicted in the Monitored Hosts table under the Status column. Users can expand the Status section to view more information on various status conditions.
 
-![errorpropogationpopulated](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/errorpropogationpopulated.webp)
+![errorpropogationpopulated](../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/errorpropogationpopulated.webp)
 
 Click the __Down Arrow__ to expand the Status section. The information listed is dependent on which host or output is currently selected in the Monitored Hosts table. Users can find information on the __Current State__ of a host, as well as viewing a history of changes in state.
 

@@ -1,6 +1,6 @@
 # Set up SharePoint's Export and Synchronization
 
-This guide shows how to set up a [SharePoint](/docs/usercube/usercube/integration-guide/connectors/references-connectors/sharepoint/index.md) connector to extract data from your SharePoint instance into CSV source files that will be fed to the Synchronization task and to your Identity Manager resource repository. It will focus on registering Identity Manager within the target SharePoint, configuring the connector, and building the job to perform a regularly scheduled synchronization.
+This guide shows how to set up a [SharePoint](../../references-connectors/sharepoint/index.md) connector to extract data from your SharePoint instance into CSV source files that will be fed to the Synchronization task and to your Identity Manager resource repository. It will focus on registering Identity Manager within the target SharePoint, configuring the connector, and building the job to perform a regularly scheduled synchronization.
 
 ## Prerequisites
 
@@ -15,7 +15,7 @@ This step is designed to grant Identity Manager a service account to authentica
 - Click on the __Add members__ button.
 - Enter the name of the Identity Manager service account or its email address.
 
-![SharePoint Export Add Member](/img/product_docs/usercube/usercube/integration-guide/connectors/how-tos/sharepoint-export/sharepoint_export_add_member.webp)
+![SharePoint Export Add Member](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/connectors/how-tos/sharepoint-export/sharepoint_export_add_member.webp)
 
 The service account is now a member of the site. However, to scan the site, the service account needs to be owner of the site.
 
@@ -23,7 +23,7 @@ The service account is now a member of the site. However, to scan the site, the 
 - Under the name of the Identity Manager service account, click on the arrow.
 - Choose __Owner__.
 
-![SharePoint Export Role Owner](/img/product_docs/usercube/usercube/integration-guide/connectors/how-tos/sharepoint-export/sharepoint_export_role_owner.webp)
+![SharePoint Export Role Owner](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/connectors/how-tos/sharepoint-export/sharepoint_export_role_owner.webp)
 
 ### Configuration
 
@@ -31,9 +31,9 @@ This step sets up the Identity Manager Agent in order to use the SharePoint con
 
 This guide focuses on the[
 Architecture
-](/docs/usercube/usercube/integration-guide/architecture/index.md) method. Remember that settings can also be input through [
+](../../../architecture/index.md) method. Remember that settings can also be input through [
 Architecture
-](/docs/usercube/usercube/integration-guide/architecture/index.md).
+](../../../architecture/index.md).
 
 #### Connect to the SharePoint instance
 
@@ -88,7 +88,7 @@ Netwrix Identity Manager (formerly Usercube) recommends completing this guide on
 
 The export generates CSV source files that will be fed to the [
 Upward Data Synchronization
-](/docs/usercube/usercube/integration-guide/synchronization/upward-data-sync/index.md) task.
+](../../../synchronization/upward-data-sync/index.md) task.
 
 The target path for these files can be set up using the following settings:
 
@@ -165,23 +165,23 @@ You can't use the SharePoint connector to make a user a member of this kind of s
 
 ### Declare a connector
 
-To be used for export and fulfill tasks, a connector has to be declared in the applicative configuration and linked to an Agent. See the [Toolkit for XML Configuration](/docs/usercube/usercube/integration-guide/toolkit/index.md) topic for additional information.
+To be used for export and fulfill tasks, a connector has to be declared in the applicative configuration and linked to an Agent. See the [Toolkit for XML Configuration](../../../toolkit/index.md) topic for additional information.
 
 It is strongly recommended that the applicative configuration be stored in the working directory ```Conf``` folder as a set of ```xml``` files organized by connector. See the[
 Create a Working Directory
-](/docs/usercube/usercube/installation-guide/production-ready/working-directory/index.md) topic for additional information.
+](../../../../installation-guide/production-ready/working-directory/index.md) topic for additional information.
 
 - In the ```Conf``` folder, create a ```SharePoint``` directory.
 - In the ```SharePoint``` directory, create a ```SharePoint Connector.xml``` file.
 
-  This file should contain the declaration of the connector and the associated [Entity Model](/docs/usercube/usercube/integration-guide/entity-model/index.md).
+  This file should contain the declaration of the connector and the associated [Entity Model](../../../entity-model/index.md).
 - Use the [
   Connector
-  ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/connector/index.md)element to declare the connector with the following attributes:
+  ](../../../toolkit/xml-configuration/connectors/connector/index.md)element to declare the connector with the following attributes:
 
-  - __Identifier__ identifies this connector in the applicative configuration. See the [Toolkit for XML Configuration](/docs/usercube/usercube/integration-guide/toolkit/index.md) topic for additional information. It is strongly recommended to use a meaningful name such as ```SharePoint```. If several connections to several SharePoint targets are possible, only one SharePoint Connector per Agent is used.
+  - __Identifier__ identifies this connector in the applicative configuration. See the [Toolkit for XML Configuration](../../../toolkit/index.md) topic for additional information. It is strongly recommended to use a meaningful name such as ```SharePoint```. If several connections to several SharePoint targets are possible, only one SharePoint Connector per Agent is used.
   - __DisplayName_Li, i ? [1..16]__ are used in the UI.
-  - __Agent__ is the identifier of the Agent that runs this connector's export task. The Agent's identifier can be found in the agent's [appsettings.agent](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) configuration set > OpenId > AgentIdentifier setting attribute.
+  - __Agent__ is the identifier of the Agent that runs this connector's export task. The Agent's identifier can be found in the agent's [appsettings.agent](../../../network-configuration/agent-configuration/appsettings-agent/index.md) configuration set > OpenId > AgentIdentifier setting attribute.
 - Don't forget the ```<?xml>``` and ```<ConfigurationFile>``` elements (see example below).
 
 > This example declares the ```SharePoint``` connector on the ```Local``` agent:
@@ -197,31 +197,31 @@ Create a Working Directory
 
 ### Build the entity model
 
-The exported data to be written to the resource repository must be aligned with the [Entity Model](/docs/usercube/usercube/integration-guide/entity-model/index.md). See the[
+The exported data to be written to the resource repository must be aligned with the [Entity Model](../../../entity-model/index.md). See the[
 Identity Management
-](/docs/usercube/usercube/introduction-guide/overview/identity-management/index.md)topic for additional information.
+](../../../../introduction-guide/overview/identity-management/index.md)topic for additional information.
 
-The [Entity Model](/docs/usercube/usercube/integration-guide/entity-model/index.md) should match as closely as possible the structure of the SharePoint data relevant for Identity Manager. It is designed by analyzing the SharePoint data structure, and describing said data with [Entity Model](/docs/usercube/usercube/integration-guide/entity-model/index.md)and [
+The [Entity Model](../../../entity-model/index.md) should match as closely as possible the structure of the SharePoint data relevant for Identity Manager. It is designed by analyzing the SharePoint data structure, and describing said data with [Entity Model](../../../entity-model/index.md)and [
 Entity Association
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md).
+](../../../toolkit/xml-configuration/metadata/entityassociation/index.md).
 
-Eventually, it is up to the integration team to design the [Entity Model](/docs/usercube/usercube/integration-guide/entity-model/index.md) that best serves the [
+Eventually, it is up to the integration team to design the [Entity Model](../../../entity-model/index.md) that best serves the [
 Assignment Policy
-](/docs/usercube/usercube/integration-guide/role-model/role-model-rules/index.md)needs. It will be refined iteratively throughout the project phase.
+](../../../role-model/role-model-rules/index.md)needs. It will be refined iteratively throughout the project phase.
 
 A good starting point for the Entity Model is to mirror the shape of the exported SharePoint objects. This guide provides a few examples that can serve this purpose.
 
 #### Write the entity model
 
-The [Entity Model](/docs/usercube/usercube/integration-guide/entity-model/index.md) for the SharePoint connector is written in the applicative configuration.
-See the [Toolkit for XML Configuration](/docs/usercube/usercube/integration-guide/toolkit/index.md) topic for additional information. It is strongly recommended to write the connector to the newly created ```Conf/SharePoint/SharePoint Connector.xml``` file.
+The [Entity Model](../../../entity-model/index.md) for the SharePoint connector is written in the applicative configuration.
+See the [Toolkit for XML Configuration](../../../toolkit/index.md) topic for additional information. It is strongly recommended to write the connector to the newly created ```Conf/SharePoint/SharePoint Connector.xml``` file.
 
 #### Write entity types
 
-Declaring an [Entity Model](/docs/usercube/usercube/integration-guide/entity-model/index.md) is achieved with the ```<EntityType>``` tag and the following attributes:
+Declaring an [Entity Model](../../../entity-model/index.md) is achieved with the ```<EntityType>``` tag and the following attributes:
 
 - __Identifier__ is the entity type's name. It must be unique among the entity types. It is strongly recommended to prefix this name with the connector's name. An example for SharePoint is ```SharePoint_directoryObject```.
-- __DisplayName_Li, i ? [1..16]__ are used in the UI to identify this [Entity Model](/docs/usercube/usercube/integration-guide/entity-model/index.md)for the end-user. __DisplayName_L1__ is the name of the entity type in _language number one_. If this language is _English_, a good example of value is ```SharePoint - Object```.
+- __DisplayName_Li, i ? [1..16]__ are used in the UI to identify this [Entity Model](../../../entity-model/index.md)for the end-user. __DisplayName_L1__ is the name of the entity type in _language number one_. If this language is _English_, a good example of value is ```SharePoint - Object```.
 
 ##### Example
 
@@ -234,16 +234,16 @@ Declaring an [Entity Model](/docs/usercube/usercube/integration-guide/entity-mod
 ```
                 
 
-The SharePoint object attributes are modeled by [Entity Model](/docs/usercube/usercube/integration-guide/entity-model/index.md), with the ```<Property>``` tags declared as children of the ```<EntityType>```.
+The SharePoint object attributes are modeled by [Entity Model](../../../entity-model/index.md), with the ```<Property>``` tags declared as children of the ```<EntityType>```.
 
-Remember that there are several kinds of properties: scalar and navigation. Scalar properties can be defined to represent scalar attributes such as ```city```, ```country``` or ```companyName```. represent associations such as group memberships. See the [Entity Model](/docs/usercube/usercube/integration-guide/entity-model/index.md) topic for additional information.
+Remember that there are several kinds of properties: scalar and navigation. Scalar properties can be defined to represent scalar attributes such as ```city```, ```country``` or ```companyName```. represent associations such as group memberships. See the [Entity Model](../../../entity-model/index.md) topic for additional information.
 
 The main attributes of the ```<Property>``` tag are the following:
 
 - __Identifier__ identifies the property with a mandatory unique name. It must be unique among the entity properties for this entity type.
 - __DisplayName_Li, i ? [1..16]__ are used in the UI.
 - __Type__ defines the type of the property. A scalar property type is chosen among ```String```, ```Bytes```, ```Int16```, ```Int32```, ```Int64```, ```DateTime```, ```Bool```, ```Guid```, ```Double```, ```Binary```, ```Byte```, and ```Option```. The navigation property type is ```ForeignKey```.
-- __TargetColumnIndex__ defines in which column of the resource table the property is stored. See more details about Target Column Index. See the [Entity Model](/docs/usercube/usercube/integration-guide/entity-model/index.md) topic for additional information.
+- __TargetColumnIndex__ defines in which column of the resource table the property is stored. See more details about Target Column Index. See the [Entity Model](../../../entity-model/index.md) topic for additional information.
 
 ##### Example
 
@@ -260,9 +260,9 @@ In this example, we have created four entity types, each one corresponding to a 
 
 #### Write entity associations
 
-[Entity Model](/docs/usercube/usercube/integration-guide/entity-model/index.md) types are associated through their navigation properties with [
+[Entity Model](../../../entity-model/index.md) types are associated through their navigation properties with [
 Entity Association
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md) elements.
+](../../../toolkit/xml-configuration/metadata/entityassociation/index.md) elements.
 
 ##### Example
 
@@ -277,11 +277,11 @@ Entity Association
 
 The exact nature of the IDs are described by the associated [
 Entity Association Mapping
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md).
+](../../../toolkit/xml-configuration/connectors/entityassociationmapping/index.md).
 
 Notice the format of the __Property1__ and __Property2__ xml attributes: the name of the entity type is followed by ```:``` and the name of an entity property. It is a [
 Binding
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/metadata/binding/index.md) describing in one expression, the target entity type and property.
+](../../../toolkit/xml-configuration/metadata/binding/index.md) describing in one expression, the target entity type and property.
 
 ### Create mapping
 
@@ -289,17 +289,17 @@ The entity type must be mapped property by property to the exported attributes o
 
 The [
 Entity Type Mapping
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md), [
+](../../../toolkit/xml-configuration/connectors/entitytypemapping/index.md), [
 Entity Association Mapping
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md), and [
+](../../../toolkit/xml-configuration/connectors/entityassociationmapping/index.md), and [
 Entity Type Mapping
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) elements serve this purpose.
+](../../../toolkit/xml-configuration/connectors/entitytypemapping/index.md) elements serve this purpose.
 
 #### Entity type mapping
 
 The [
 Entity Type Mapping
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) element maps the scalar properties from the CSV source file to an entity type.
+](../../../toolkit/xml-configuration/connectors/entitytypemapping/index.md) element maps the scalar properties from the CSV source file to an entity type.
 
 The CSV source file path is written to the ```ConnectionTable``` xml attribute. The target entity type name is written to the ```Identifier``` xml attribute.
 
@@ -315,7 +315,7 @@ The CSV source file path is written to the ```ConnectionTable``` xml attribute. 
 
 To do so, the entity type mapping element uses the [
 Entity Type Mapping
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) element with the ```<Property>``` tag. This maps the CSV column from ```ConnectionColumn``` to the target EntityType property which is written to the __Identifier__ attribute.
+](../../../toolkit/xml-configuration/connectors/entitytypemapping/index.md) element with the ```<Property>``` tag. This maps the CSV column from ```ConnectionColumn``` to the target EntityType property which is written to the __Identifier__ attribute.
 
 ##### Example
 
@@ -334,17 +334,17 @@ As a result, after synchronization, the ```UR_Resource``` table will be updated 
 
 The [
 Entity Association Mapping
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md) element maps the navigation properties used in [
+](../../../toolkit/xml-configuration/connectors/entityassociationmapping/index.md) element maps the navigation properties used in [
 Entity Association
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md).
+](../../../toolkit/xml-configuration/metadata/entityassociation/index.md).
 
 An [
 Entity Association Mapping
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md) element refers to an [
+](../../../toolkit/xml-configuration/connectors/entityassociationmapping/index.md) element refers to an [
 Entity Association
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md)written to the ```Identifier``` xml attribute. Then, like [
+](../../../toolkit/xml-configuration/metadata/entityassociation/index.md)written to the ```Identifier``` xml attribute. Then, like [
 Entity Type Mapping
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md), it maps column values from a CSV source file to an EntityType property.
+](../../../toolkit/xml-configuration/connectors/entitytypemapping/index.md), it maps column values from a CSV source file to an EntityType property.
 
 ##### Example
 
@@ -365,7 +365,7 @@ This step focuses on configuring a nice display for the synchronized list of res
 
 A [
 Menu Item
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/user-interface/menuitem/index.md) can be added to include a link to the resources list in the left menu on the UI home screen.
+](../../../toolkit/xml-configuration/user-interface/menuitem/index.md) can be added to include a link to the resources list in the left menu on the UI home screen.
 
 #### Parent menu item
 
@@ -405,7 +405,7 @@ It is strongly recommended that the display configuration be written to a new ``
 
 #### Display entity type
 
-The [Display Entity Type](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/user-interface/displayentitytype/index.md) describes how a single resource should be displayed.
+The [Display Entity Type](../../../toolkit/xml-configuration/user-interface/displayentitytype/index.md) describes how a single resource should be displayed.
 
 ##### Example
 
@@ -418,13 +418,13 @@ The [Display Entity Type](/docs/usercube/usercube/integration-guide/toolkit/xml-
 ```
                 
 
-The scalar properties require no configuration: they are automatically displayed. The only information that the [Display Entity Type](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/user-interface/displayentitytype/index.md) adds here, is that the property ```BasicCollection``` is a navigation property. An eye icon will be displayed to take you directly to the matching page.
+The scalar properties require no configuration: they are automatically displayed. The only information that the [Display Entity Type](../../../toolkit/xml-configuration/user-interface/displayentitytype/index.md) adds here, is that the property ```BasicCollection``` is a navigation property. An eye icon will be displayed to take you directly to the matching page.
 
 #### Display table
 
-[Display Table](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/user-interface/displaytable/index.md) elements describe how a list of resources should be displayed.
+[Display Table](../../../toolkit/xml-configuration/user-interface/displaytable/index.md) elements describe how a list of resources should be displayed.
 
-The [Display Table](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/user-interface/displaytable/index.md) contains a list of display table column elements that identify which properties should be included in the list display.
+The [Display Table](../../../toolkit/xml-configuration/user-interface/displaytable/index.md) contains a list of display table column elements that identify which properties should be included in the list display.
 
 ##### Example
 
@@ -439,7 +439,7 @@ The [Display Table](/docs/usercube/usercube/integration-guide/toolkit/xml-config
 
 #### Internal display name
 
-An ```InternalDisplayName``` can also be declared as an [Entity Model](/docs/usercube/usercube/integration-guide/entity-model/index.md). The ```InternalDisplayName``` is used in several UI screens to identify a resource for the user.
+An ```InternalDisplayName``` can also be declared as an [Entity Model](../../../entity-model/index.md). The ```InternalDisplayName``` is used in several UI screens to identify a resource for the user.
 
 With no custom ```InternalDisplayName```, a default value is used (instead of the first property of the identity) containing the string _"name"_. If no such property is found, the first declared property of the entity type is used.
 
@@ -460,9 +460,9 @@ This example adds the ```InternalDisplayName``` to the ```SharePoint_Entity```, 
 
 This step focuses on setting up permissions for Identity Manager's end-users granting them access to the connector.
 
-The [Access Control Rule](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/index.md) and [Access Control Rule](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/index.md) elements define [
+The [Access Control Rule](../../../toolkit/xml-configuration/access-control/accesscontrolrule/index.md) and [Access Control Rule](../../../toolkit/xml-configuration/access-control/accesscontrolrule/index.md) elements define [
 AccessControlPermission
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/access-control/accesscontrolpermission/index.md) for end-user profiles to read and write the connector's data (such as resources of a given entity type). It is used by the UI when displaying data such as resources and available roles.
+](../../../toolkit/xml-configuration/access-control/accesscontrolpermission/index.md) for end-user profiles to read and write the connector's data (such as resources of a given entity type). It is used by the UI when displaying data such as resources and available roles.
 
 It is strongly recommended that permissions be written to a new file. For example, the administrator profile permissions can be written to the ```SharePoint Profile Administrator.xml``` file.
 
@@ -501,19 +501,19 @@ A job is declared with the ```<Job>``` xml element. It contains Tasks that perfo
 ```
                 
 
-Notice the __Agent__ attribute that contains the name of the Agent which executes the Job. This attribute is mandatory for a Job containing Tasks executed agent-side, even if a unique local Agent exists. See the [appsettings.agent](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) topic for additional information.
+Notice the __Agent__ attribute that contains the name of the Agent which executes the Job. This attribute is mandatory for a Job containing Tasks executed agent-side, even if a unique local Agent exists. See the [appsettings.agent](../../../network-configuration/agent-configuration/appsettings-agent/index.md) topic for additional information.
 
 ### Components
 
 The[
 Upward Data Synchronization
-](/docs/usercube/usercube/integration-guide/synchronization/upward-data-sync/index.md)job includes three steps:
+](../../../synchronization/upward-data-sync/index.md)job includes three steps:
 
 - Export
 - Prepare-Synchro
 - Synchro
 
-These three steps are all contained in a which allows the generation of the Incremental Synchronization configuration. See the [Create Connector Synchro Incremental](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/jobs/createconnectorsynchroincremental/index.md) topic for additional information.
+These three steps are all contained in a which allows the generation of the Incremental Synchronization configuration. See the [Create Connector Synchro Incremental](../../../toolkit/xml-configuration/configuration/scaffoldings/jobs/createconnectorsynchroincremental/index.md) topic for additional information.
 
 #### Example
 
@@ -532,11 +532,11 @@ The execution of a Job entails execution of Tasks, reading/writing to the Databa
 
 To complete a Job, the Agent, via the[
 Usercube-Invoke-Job
-](/docs/usercube/usercube/integration-guide/executables/references/invoke-job/index.md) uses:
+](../../../executables/references/invoke-job/index.md) uses:
 
 - a [
   Profile
-  ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/access-control/profile/index.md) associated with the Job itself, to read/write:
+  ](../../../toolkit/xml-configuration/access-control/profile/index.md) associated with the Job itself, to read/write:
   - ```UJ_Jobs``` and ```UJ_Tasks``` tables in a list of tasks
   - ```UJ_JobInstances``` tables in the progress report
 - a Profile for each Task, to read/write ```UJ_TaskInstances``` tables (Progress Report) and perform other operations such as sending export files over to the Server.
@@ -545,7 +545,7 @@ Each Profile must be assigned the right permissions for the associated Job or Ta
 
 Every request from Agent to Server within the execution of a Job needs to be authenticated with an [
 OpenIdClient
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md) Connect ClientId/Secret pair, linked to a Profile.
+](../../../toolkit/xml-configuration/access-control/openidclient/index.md) Connect ClientId/Secret pair, linked to a Profile.
 
 #### Create a profile
 
@@ -562,14 +562,14 @@ Here, we focus on creating one profile, used by the Job and every Task of the Jo
 
 As the Principle of Least Privilege states, Netwrix Identity Manager (formerly Usercube)strongly recommends that you create a[
 Profile
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/access-control/profile/index.md) to be used during the Synchronization jobs which will be different from the one used during the Provisioning job. This contributes to separating access rights.   
+](../../../toolkit/xml-configuration/access-control/profile/index.md) to be used during the Synchronization jobs which will be different from the one used during the Provisioning job. This contributes to separating access rights.   
 The same principle applied even more rigorously would make Identity Manager create one profile per Task. It isn't necessary as most Synchronization tasks require the same permissions.
 
 #### Grant synchronization access rights to the profile
 
 For an Agent to launch server-side Tasks from the Job via the[
 Usercube-Invoke-Job
-](/docs/usercube/usercube/integration-guide/executables/references/invoke-job/index.md) tool, the profile linked to these tasks and used by the tool should be authorized to execute said tasks.
+](../../../executables/references/invoke-job/index.md) tool, the profile linked to these tasks and used by the tool should be authorized to execute said tasks.
 
 Server-side Tasks for a simple Synchronization job usually are:
 
@@ -596,9 +596,9 @@ __Synchronization and Prepare-Synchronization__
 
 Granting access can be done via the [
 Synchronization Access Control Rules
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/synchronizationaccesscontrolrules/index.md) and the [
+](../../../toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/synchronizationaccesscontrolrules/index.md) and the [
 Job View Access Control Rules
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/templates/jobviewaccesscontrolrules/index.md).
+](../../../toolkit/xml-configuration/configuration/scaffoldings/templates/jobviewaccesscontrolrules/index.md).
 
 The following examples should be written to ```Conf/Profile AgentSychro.xml```.
 
@@ -619,7 +619,7 @@ In addition, for end-users to be able to launch a job from the UI, they must be 
 
 This can be done via the[
 Job Execution Access Control Rules
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/templates/jobexecutionaccesscontrolrules/index.md) scaffolding.
+](../../../toolkit/xml-configuration/configuration/scaffoldings/templates/jobexecutionaccesscontrolrules/index.md) scaffolding.
 
 ##### Example
 
@@ -634,11 +634,11 @@ Job Execution Access Control Rules
 
 An Agent's a[
 Profile
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/access-control/profile/index.md)is associated with a ```ClientId/Secret``` pair used by the Agent to authenticate to the Server.
+](../../../toolkit/xml-configuration/access-control/profile/index.md)is associated with a ```ClientId/Secret``` pair used by the Agent to authenticate to the Server.
 
 Usable ```ClientId/Secret``` pairs are written to the database from the xml configuration using the[
 OpenIdClient
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md) xml element.
+](../../../toolkit/xml-configuration/access-control/openidclient/index.md) xml element.
 
 It is strongly recommended to write the ```<OpenIdClient>``` xml element to a new or existing ```OpenIdClients.xml``` file in the configuration root folder.
 
@@ -648,7 +648,7 @@ The ```ClientId/Secret``` pair hence created must be associated with the profile
 
 The following example creates a ```ClientId/Secret``` pair to be used by the Agent to authenticate to the Server and complete Jobs. The secret is hashed with the[
 Usercube-New-OpenIDSecret
-](/docs/usercube/usercube/integration-guide/executables/references/new-openidsecret/index.md)tool.
+](../../../executables/references/new-openidsecret/index.md)tool.
 
                     ```
 
@@ -671,7 +671,7 @@ Usercube-New-OpenIDSecret
 
 #### Set up the Agent to use ClientId/Secret pairs
 
-The ```ClientId/Secret``` pairs that the Agent may use are written to the Agent's [appsettings.agent](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) technical configuration set.
+The ```ClientId/Secret``` pairs that the Agent may use are written to the Agent's [appsettings.agent](../../../network-configuration/agent-configuration/appsettings-agent/index.md) technical configuration set.
 
 The ```ClientId``` of such ```ClientId/Secret``` pairs can then be used as a value in a Task __OpenIdClient__ attribute.
 
@@ -704,7 +704,7 @@ Scheduling the job execution can rely either on Identity Manager's scheduler or 
 
 Use the Job [
 Job
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/jobs/job/index.md) attribute.
+](../../../toolkit/xml-configuration/jobs/job/index.md) attribute.
 
 > This example uses Identity Manager's scheduler to execute the ```SharePoint_Synchronization_Delta``` job every fifteen minutes:
 >
@@ -722,7 +722,7 @@ For more details about checking Crontab expressions, see the [crontab.guru](http
 
 An external scheduler would rely on the[
 Usercube-Invoke-Job
-](/docs/usercube/usercube/integration-guide/executables/references/invoke-job/index.md) tool.
+](../../../executables/references/invoke-job/index.md) tool.
 
 ##### Example
 
@@ -741,7 +741,7 @@ The following command can be scheduled. It executes the ```SharePoint_Synchroniz
 
 The configuration is written to the database using the [
 Deploy Configuration Task
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/deployconfigurationtask/index.md).
+](../../../toolkit/xml-configuration/jobs/tasks/server/deployconfigurationtask/index.md).
 
 ### Test
 

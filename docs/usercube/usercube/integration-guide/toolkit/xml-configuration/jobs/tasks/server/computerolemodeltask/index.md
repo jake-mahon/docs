@@ -1,6 +1,6 @@
 # Compute Role Model Task
 
-This task applies all rules in the role model of all [Resource Type](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md) whose source entity types are specified as child elements of the task.
+This task applies all rules in the role model of all [Resource Type](../../../../provisioning/resourcetype/index.md) whose source entity types are specified as child elements of the task.
 
 ## Behavior Details
 

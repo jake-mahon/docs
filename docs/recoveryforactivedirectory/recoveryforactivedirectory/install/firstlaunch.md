@@ -13,14 +13,14 @@ Follow the steps to login to Recovery for Active Directory.
 
 __Step 1 –__ Launch the Recovery Console. The Log in page is displayed.
 
-![ Recovery for Active Directory - Login page](/img/product_docs/threatprevention/threatprevention/eperestsite/login.webp)
+![ Recovery for Active Directory - Login page](../../../../static/img/product_docs/threatprevention/threatprevention/eperestsite/login.webp)
 
-__Step 2 –__ Log in with credentials configured on the Administrator Role page of the Recovery for Active Directory Setup wizard during installation. See the [Install the Application](/docs/recoveryforactivedirectory/recoveryforactivedirectory/install/application.md) topic for additional information on the administrator role. The username must be entered in the following format:
+__Step 2 –__ Log in with credentials configured on the Administrator Role page of the Recovery for Active Directory Setup wizard during installation. See the [Install the Application](application.md) topic for additional information on the administrator role. The username must be entered in the following format:
 
 - Domain\Username
 
 __Step 3 –__ Click __Log in__.
 
-Once logged in, the first step is to configure a domain. See the [Domain Backup Configuration Page](/docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/activedirectory/domainbackupconfig.md) topic for additional information.
+Once logged in, the first step is to configure a domain. See the [Domain Backup Configuration Page](../admin/activedirectory/domainbackupconfig.md) topic for additional information.
 
-The administrator must also add users who can access the application. Once these users have access, see the [Log into the Recovery Console](/docs/recoveryforactivedirectory/recoveryforactivedirectory/install/login.md) topic for information on accessing and signing into the Recovery Console.
+The administrator must also add users who can access the application. Once these users have access, see the [Log into the Recovery Console](login.md) topic for information on accessing and signing into the Recovery Console.

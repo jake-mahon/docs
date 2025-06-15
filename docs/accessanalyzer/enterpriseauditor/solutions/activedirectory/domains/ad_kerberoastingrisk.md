@@ -10,7 +10,7 @@ See the Netwrix [Kerberoasting Attack](https://www.netwrix.com/cracking_kerberos
 
 ## Parameter Configuration
 
-The Configuration section on a Job's overview page allows you to easily modify any customizable parameters used by analysis tasks in the job. See the [Parameter Configuration](/docs/accessanalyzer/enterpriseauditor/admin/jobs/job/overview.md#parameter-configuration) topic for instructions on how to edit parameters on a job overview page.
+The Configuration section on a Job's overview page allows you to easily modify any customizable parameters used by analysis tasks in the job. See the [Parameter Configuration](../../../admin/jobs/job/overview.md#parameter-configuration) topic for instructions on how to edit parameters on a job overview page.
 
 The AD_KerberoastingRisk job has the following configurable parameters:
 
@@ -26,7 +26,7 @@ Navigate to the __Active Directory__ > __5.Domains__ > __AD_KerberoastingRisk__ 
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the AD_KerberoastingRisk Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/domains/kerberoastingriskanalysis.webp)
+![Analysis Tasks for the AD_KerberoastingRisk Job](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectory/domains/kerberoastingriskanalysis.webp)
 
 The default analysis tasks are:
 

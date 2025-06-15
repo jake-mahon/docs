@@ -44,15 +44,15 @@ The following tables provide a breakdown of support by job group:
 
 See the following sections for permission requirements according to the job group, data collector, or action module to be used:
 
-- [Exchange Mail-Flow Permissions](/docs/accessanalyzer/enterpriseauditor/requirements/solutions/exchange/mailflow.md)
+- [Exchange Mail-Flow Permissions](mailflow.md)
 
   - ExchangeMetrics Data Collector
   - 1. HUB Metrics Job Group
-- [Exchange Remote Connections Permissions](/docs/accessanalyzer/enterpriseauditor/requirements/solutions/exchange/remoteconnections.md)
+- [Exchange Remote Connections Permissions](remoteconnections.md)
 
   - SMARTLog Data Collector
   - 2. CAS Metrics Job Group
-- [Exchange PowerShell Permissions](/docs/accessanalyzer/enterpriseauditor/requirements/solutions/exchange/powershell.md)
+- [Exchange PowerShell Permissions](powershell.md)
 
   - ExchangePS Data Collector
   - PublicFolder Action Module
@@ -62,12 +62,12 @@ See the following sections for permission requirements according to the job grou
   - 4. Mailboxes Job Group
   - 5. Public Folders Job Group
   - 8. Exchange Online Job Group
-- [Exchange Web Services API Permissions](/docs/accessanalyzer/enterpriseauditor/requirements/solutions/exchange/webservicesapi.md)
+- [Exchange Web Services API Permissions](webservicesapi.md)
 
   - EWSMailbox Data Collector
   - EWSPublicFolder Data Collector
   - 7. Sensitive Data Job Group
-- [MAPI-Based Data Collector Permissions](/docs/accessanalyzer/enterpriseauditor/requirements/solutions/exchange/mapi.md)
+- [MAPI-Based Data Collector Permissions](mapi.md)
 
   - Exchange2K Data Collector
   - ExchangeMailbox Data Collector

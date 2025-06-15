@@ -2,7 +2,7 @@
 
 This section provides a complete overview of your licensing status and allows you to manage licenses for Modules, such as Content Aware Protection and eDiscovery, as well as Endpoints, the computers you protect. You can import licenses, view details, and handle free trials, ensuring efficient and flexible license management.
 
-![System Licensing](/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/systemlicensing.png)
+![System Licensing](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/systemlicensing.png)
 
 __NOTE:__  As of Endpoint Protector Version 5.9.0.0, a new subscription-based licensing system has been introduced. This change removes the licensing restrictions on Premium features, granting unrestricted access to features like Contextual Detection for all customers. This adjustment aligns with the revised licensing model, categorizing all features as standard and accessible to all users.
 
@@ -27,16 +27,16 @@ If one or more licensed endpoints become inactive and need to be reassigned, you
 
 Click __Import Licenses__ to allow browsing for the license ﬁle. It contains all the relevant information in a single ﬁle (modules, number of endpoints, expiry date, type of Support, etc.). Click __View Licenses__ to allow the management of the endpoint licenses.
 
-![Import and Manage Licenses](/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/importmanagelicenses.png)
+![Import and Manage Licenses](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/importmanagelicenses.png)
 
 If one or more licensed endpoints become inactive and need to be reassigned, you can release those licenses, which will automatically be reassigned to other online computers.
 
 By using the Automatic Release Licenses functionality, licenses will be released automatically for endpoints that have not been seen online in a speciﬁc number of days (15 days, 30 days, 90 days, etc. or a custom value).
 
-![Automatic Release Licenses  ](/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/autoreleaselicenses.png)
+![Automatic Release Licenses  ](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/autoreleaselicenses.png)
 
 To streamline license management within System Conﬁguration, navigate to __System Licensing__ and discover the Serial Number ﬁeld under the __View Licenses__ section. In the licensing table, you will ﬁnd a Serial Number column. To customize your view, use the __Show/Hide Columns__ button, including a checkbox for "Serial Number" (defaulted to 'show'). This resolves issues with identical computer names and facilitates more effective management via Serial Number integration, reinforced by MachineUUIDs.
 
 __NOTE:__ If a computer's Serial Number is absent, it will be substituted with MachineUUID to ensure endpoint machine reliability, now featuring in the license page column across all OS platforms.
 
-![Licensing Table](/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/licensingtable.png)
+![Licensing Table](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/licensingtable.png)

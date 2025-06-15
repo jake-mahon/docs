@@ -2,7 +2,7 @@
 
 The Global Settings page is accessible from the Navigation pane under __Configuration__ > __System Settings__. It shows all global RDP session settings.
 
-![globalsettingspage](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/page/globalsettingspage.webp)
+![globalsettingspage](../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/page/globalsettingspage.webp)
 
 The right of the page shows details of the RDP file settings and has the following features:
 
@@ -10,7 +10,7 @@ The right of the page shows details of the RDP file settings and has the followi
 - Name — Name of the selected settings
 - Allowed Resolutions — Check the boxes to enable those resolutions for the RDP session
 - Default Resolution — The resolution the RDP session will use when first connected
-- Certificate Thumbprint — The hexadecimal certificate (or thumbprint) value. See the [Sign RDP Files to Prevent Publisher Warning](/docs/privilegesecure/privilegesecure/accessmanagement/admin/troubleshooting.md#sign-rdpfiles-to-prevent-publisher-warning) topic for additional information.
+- Certificate Thumbprint — The hexadecimal certificate (or thumbprint) value. See the [Sign RDP Files to Prevent Publisher Warning](../../troubleshooting.md#sign-rdpfiles-to-prevent-publisher-warning) topic for additional information.
 - WinRM HTTP Setting– This setting governs the HTTP encryption settings that will be used for WinRM connections. The following options are available:
   - Use HTTP
   - Use HTTPS if available

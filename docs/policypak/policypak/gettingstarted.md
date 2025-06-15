@@ -6,7 +6,7 @@ To help get you started, this topic points you towards videos that will get you 
 
 In order to get the latest Endpoint Policy Manager downloads, you need access to the Endpoint Policy Manager Customer Portal (shown in Figure 1). You can only get access to the portal from a Endpoint Policy Manager sales associate.
 
-![getting_started_right_away](/img/product_docs/policypak/policypak/getting_started_right_away.webp)
+![getting_started_right_away](../../../static/img/product_docs/policypak/policypak/getting_started_right_away.webp)
 
 Figure 1. Inside the Endpoint Policy Manager Customer Portal.
 
@@ -21,7 +21,7 @@ The Endpoint Policy Manager installation files are delivered as both ZIP and ISO
 
 You may also want to utilize the free 7-Zip program to open ZIP or ISO downloads and extract the files. Download 7-Zip from [http://www.7-zip.org/](http://www.7-zip.org/). In Figure 2, you can see the list of files and directories that are inside the Endpoint Policy Manager ZIP or ISO download.
 
-![getting_started_right_away_1](/img/product_docs/policypak/policypak/getting_started_right_away_1.webp)
+![getting_started_right_away_1](../../../static/img/product_docs/policypak/policypak/getting_started_right_away_1.webp)
 
 Figure 2. The folders that are inside the download.
 
@@ -59,21 +59,21 @@ Endpoint Policy Manager Group Policy Compliance Reporter contains the Endpoint P
 
 With the exception of Endpoint Policy Manager Cloud (which is self licensed), Endpoint Policy Manager requires the endpoint to be licensed to work with the components you wish to use. Therefore, for Endpoint Policy Manager to work after you download everything from the portal, you need to do the following:
 
-__Step 1 –__ Request a license and send that key to Sales for processing. You can watch a video on how to request a license at the following link: [How to Request Licenses from Endpoint Policy Manager by Creating a "License Request Key"](/docs/policypak/policypak/video/license/licenserequestkey.md).
+__Step 1 –__ Request a license and send that key to Sales for processing. You can watch a video on how to request a license at the following link: [How to Request Licenses from Endpoint Policy Manager by Creating a "License Request Key"](video/license/licenserequestkey.md).
 
-__Step 2 –__ Receive a license and install it. You can watch a video on how to install the license you receive at the following link:[How to install UNIVERSAL licenses for NEW Customers (via GPO, SCCM or MDM)](/docs/policypak/policypak/video/license/installuniversal.md).
+__Step 2 –__ Receive a license and install it. You can watch a video on how to install the license you receive at the following link:[How to install UNIVERSAL licenses for NEW Customers (via GPO, SCCM or MDM)](video/license/installuniversal.md).
 
 ## Get Started with the GPO Method
 
-Most customers want to use Endpoint Policy Manager with Group Policy. You can watch the getting started video on how to install and run some initial tests at the following link: [Endpoint Policy Manager with Group Policy Method: Getting Started](/docs/policypak/policypak/video/grouppolicy/gettingstarted.md).
+Most customers want to use Endpoint Policy Manager with Group Policy. You can watch the getting started video on how to install and run some initial tests at the following link: [Endpoint Policy Manager with Group Policy Method: Getting Started](video/grouppolicy/gettingstarted.md).
 
 ## GetStarted with the Endpoint Policy Manager Cloud Method
 
-If you want to get started right away with Endpoint Policy Manager Cloud, watch this video for a quick overview: [Endpoint Policy Manager Cloud: QuickStart](/docs/policypak/policypak/video/cloud/quickstart.md).
+If you want to get started right away with Endpoint Policy Manager Cloud, watch this video for a quick overview: [Endpoint Policy Manager Cloud: QuickStart](video/cloud/quickstart.md).
 
 ## Get Started with Your MDM Provider or UEM Tool
 
 Getting started with your mobile device management (MDM) provider or UEM tool takes a few more steps than is covered in one video. In this case, instead of a single video, we recommend you watch each of the videos at the links below in order to get prepared to use Endpoint Policy Manager with your MDM provider.
 
-- For video overviews of using Endpoint Policy Manager with an MDM service see: Getting Started with MDM > [Video Learning Center](/docs/policypak/policypak/mdm/overview/videolearningcenter.md).
-- For video overviews of using Endpoint Policy Manager with a UEM tool like SCCM see: Getting Started with Endpoint Policy Manager (Misc) > [Knowledge Base](/docs/policypak/policypak/gettingstarted/overview/knowledgebase.md).
+- For video overviews of using Endpoint Policy Manager with an MDM service see: Getting Started with MDM > [Video Learning Center](mdm/overview/videolearningcenter.md).
+- For video overviews of using Endpoint Policy Manager with a UEM tool like SCCM see: Getting Started with Endpoint Policy Manager (Misc) > [Knowledge Base](gettingstarted/overview/knowledgebase.md).

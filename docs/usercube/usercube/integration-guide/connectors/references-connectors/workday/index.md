@@ -4,9 +4,9 @@ This connector exports users and groups from a [Workday](https://www.workday.com
 
 This page is about [
 Workday
-](/docs/usercube/usercube/integration-guide/connectors/references-packages/workday/index.md).
+](../../references-packages/workday/index.md).
 
-![Package: ERP/Workday](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/workday/packages_workday_v603.webp)
+![Package: ERP/Workday](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/workday/packages_workday_v603.webp)
 
 ## Prerequisites
 
@@ -26,7 +26,7 @@ This connector exports any entity available in WWS.
 
 This process is configured through a [
 Connection
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or the XML configuration, and in the ```appsettings.agent.json > Connections``` section:
+](../../../toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or the XML configuration, and in the ```appsettings.agent.json > Connections``` section:
 
 ```
 appsettings.agent.json
@@ -108,18 +108,18 @@ The file specified in ```InputFilePath``` must have a specific structure, with a
 
 This connector is meant to generate to the [
 Connection
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) folder:
+](../../../toolkit/xml-configuration/connectors/connection/index.md) folder:
 
 - one CSV file for each entity, named ```<connectionIdentifier>_<entityName>.csv```, with the following columns:
 
   - __Command__: used for [
     Prepare Synchronization Task
-    ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/preparesynchronizationtask/index.md);
+    ](../../../toolkit/xml-configuration/jobs/tasks/agent/preparesynchronizationtask/index.md);
   - one column for each XPath found in the [
     Entity Type Mapping
-    ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md)' connection columns and [
+    ](../../../toolkit/xml-configuration/connectors/entitytypemapping/index.md)' connection columns and [
     Entity Association Mapping
-    ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md)' columns. [See Workday's documentation to compute XPaths](https://community.workday.com/sites/default/files/file-hosting/productionapi/Human_Resources/v34.2/samples/Get_Workers_Response.xml).```
+    ](../../../toolkit/xml-configuration/connectors/entityassociationmapping/index.md)' columns. [See Workday's documentation to compute XPaths](https://community.workday.com/sites/default/files/file-hosting/productionapi/Human_Resources/v34.2/samples/Get_Workers_Response.xml).```
   `connectionIdentifier`_`entityName`.csv
 
   Command,Key_XPath_1,Key_XPath_2,...,Key_XPath_N
@@ -142,7 +142,7 @@ Connection
 >
 > We choose to export only the entity ```workers```, so the output is generated to ```WorkdayExport_workers.csv``` in the directory [
 > Connection
-> ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md).
+> ](../../../toolkit/xml-configuration/connectors/connection/index.md).
 >
 > The CSV file will include three columns: ```Command```; ```bsvc:Worker_Data/bsvc:Worker_ID``` and ```bsvc:Worker_Data/bsvc:User_ID```.
 
@@ -154,10 +154,10 @@ Data protection can be ensured through:
 
 - [
   Connection
-  ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md), configured in the ```appsettings.encrypted.agent.json``` file;
+  ](../../../toolkit/xml-configuration/connectors/connection/index.md), configured in the ```appsettings.encrypted.agent.json``` file;
 - An [
   Connection
-  ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) safe;
+  ](../../../toolkit/xml-configuration/connectors/connection/index.md) safe;
 
 | Attribute | Naming Convention for the Key in Azure Key Vault |
 | --- | --- |
@@ -166,9 +166,9 @@ Data protection can be ensured through:
 | Password | ```Connections--<identifier>--Password``` |
 | Server | ```Connections--<identifier>--Server``` |
 
-- A [](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)[
+- A [](../../../network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)[
   Connection
-  ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) able to store Workday's ```Login```, ```Password``` and ```Server```.
+  ](../../../toolkit/xml-configuration/connectors/connection/index.md) able to store Workday's ```Login```, ```Password``` and ```Server```.
 
 Protected attributes are stored inside a safe in CyberArk, into an account whose identifier can be retrieved by Identity Manager from ```appsettings.cyberark.agent.json```.
 

@@ -31,7 +31,7 @@ Recommendations below refer to deployment in the evaluation lab or small infrast
    | Disk space | 100 GB on system drive  100 GB on data drive (capacity required for SQL Server and Long-Term Archive) |
    | Screen resolution | Minimum 1280x1024  Recommended 1920x1080 or higher |
 2. Download and install Netwrix Auditor on that VM, selecting Full installation to deploy both server and client components.
-3. When prompted to configure the Audit database settings, proceed with installing SQL Server Express Edition with Advanced Services on the same VM. See the [SQL Server Reporting Services](/docs/auditor/auditor/requirements/sqlserverreportingservice.md) topic for additional information.
+3. When prompted to configure the Audit database settings, proceed with installing SQL Server Express Edition with Advanced Services on the same VM. See the [SQL Server Reporting Services](sqlserverreportingservice.md) topic for additional information.
 
 Alternatively, you can install Netwrix Auditor as a virtual appliance on your VMware vSphere or Hyper-V virtualization server. For more information on this deployment option, refer to the [Virtual Appliance page](https://www.netwrix.com/virtual_appliances.html).
 
@@ -53,8 +53,8 @@ Recommendations below refer to the product deployment in a in a regular environm
    | Screen resolution | Minimum 1280x1024  Recommended 1920x1080 or higher |
 2. Download and install Netwrix Auditor on that machine. Deploy the required number of Netwrix Auditor clients on the remote Windows machines.
 
-   Client-server connection requires user sign-in. You can automate this process, as described in [Automate Sign-in to the Client](/docs/auditor/auditor/install/automatelogin.md) of Online Help.
-3. When prompted to configure the Audit database settings, proceed with installing SQL Server Express Edition with Advanced Services. See the [SQL Server Reporting Services](/docs/auditor/auditor/requirements/sqlserverreportingservice.md) topic for additional information.
+   Client-server connection requires user sign-in. You can automate this process, as described in [Automate Sign-in to the Client](../install/automatelogin.md) of Online Help.
+3. When prompted to configure the Audit database settings, proceed with installing SQL Server Express Edition with Advanced Services. See the [SQL Server Reporting Services](sqlserverreportingservice.md) topic for additional information.
 
 Alternatively, you can install Netwrix Auditor as a virtual appliance on your VMware vSphere or Hyper-V virtualization server. For more information on this deployment option, refer to the [Virtual Appliance page](https://www.netwrix.com/virtual_appliances.html).
 
@@ -72,7 +72,7 @@ Recommendations below refer to the product deployment in a large environment (up
 2. Download and install Netwrix Auditor on that machine.
    Deploy the required number of Netwrix Auditor clients on the remote Windows machines.
 
-   Client-server connection requires user sign-in. You can automate this process, as described in the [Automate Sign-in to the Client](/docs/auditor/auditor/install/automatelogin.md) section of Online Help.
+   Client-server connection requires user sign-in. You can automate this process, as described in the [Automate Sign-in to the Client](../install/automatelogin.md) section of Online Help.
 3. Prepare Microsoft SQL Server meeting the following requirements:
    | Hardware component | Requirement |
    | --- | --- |
@@ -99,7 +99,7 @@ Recommendations below refer to the product deployment in an extra-large environm
    | Screen resolution | Minimum 1280 x 1024  Recommended 1920 x 1080 or higher |
 2. Download and install Netwrix Auditor on that machine. Deploy the required number of Netwrix Auditor clients on the remote Windows machines.
 
-   Client-server connection requires user sign-in. You can automate this process, as described in the [Automate Sign-in to the Client](/docs/auditor/auditor/install/automatelogin.md) section.
+   Client-server connection requires user sign-in. You can automate this process, as described in the [Automate Sign-in to the Client](../install/automatelogin.md) section.
 3. Prepare a machine for Microsoft SQL Server meeting the following requirements:
    | Hardware component | Requirement |
    | --- | --- |

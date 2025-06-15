@@ -1,23 +1,23 @@
 # Administrative Templates Manager
 
-__NOTE:__ Before reading this section, please see the [Installation Quick Start](/docs/policypak/policypak/gettingstarted/quickstart/overviewinstall.md) topic  for more information on the following:
+__NOTE:__ Before reading this section, please see the [Installation Quick Start](../gettingstarted/quickstart/overviewinstall.md) topic  for more information on the following:
 
 - Install the Admin MSI on your GPMC machine
 - Install the CSE on a test Windows machine
 - Set up a computer in Trial mode or Licensed mode
 - Set up a common OU structure
 
-Optionally, if you don't want to use Group Policy, see the [Using Endpoint Policy Manager with MDM and UEM Tools](/docs/policypak/policypak/mdm/uemtools.md) topic for more information.
+Optionally, if you don't want to use Group Policy, see the [Using Endpoint Policy Manager with MDM and UEM Tools](../mdm/uemtools.md) topic for more information.
 
 Endpoint Policy Manager Admin Templates Manager enables administrators to harness the existing power of Microsoft's 3000+ Admin Template settings and a lot more.
 
-__NOTE:__ See the [Endpoint Policy Manager Admin Templates: Collections and Item Level Targeting](/docs/policypak/policypak/video/administrativetemplates/collections.md) topic for more in formation on Endpoint Policy Manager Admin Templates Manager.
+__NOTE:__ See the [Endpoint Policy Manager Admin Templates: Collections and Item Level Targeting](../video/administrativetemplates/collections.md) topic for more in formation on Endpoint Policy Manager Admin Templates Manager.
 
-![about_policypak_admin_templates](/img/product_docs/policypak/policypak/adminstrativetemplates/about_policypak_admin_templates.webp)
+![about_policypak_admin_templates](../../../../static/img/product_docs/policypak/policypak/adminstrativetemplates/about_policypak_admin_templates.webp)
 
 Here we can see some of Microsoft's Admin Template settings.
 
-![about_policypak_admin_templates_1](/img/product_docs/policypak/policypak/adminstrativetemplates/about_policypak_admin_templates_1.webp)
+![about_policypak_admin_templates_1](../../../../static/img/product_docs/policypak/policypak/adminstrativetemplates/about_policypak_admin_templates_1.webp)
 
 Endpoint Policy Manager Admin Templates Manager is a node you see within every Group Policy Object (GPO) you create.
 
@@ -28,7 +28,7 @@ Endpoint Policy Manager Admin Templates Manager enables you to perform the follo
 - Deliver user-side policies to computers (without Group Policy Loopback mode)
 - Use either Local Storage or Central Storage when choosing definitions
 - Search for policies that match certain words in their titles or help text
-- Export policies or collections as XML files (available with Endpoint Policy Manager Exporter and Endpoint Policy Manager Cloud). See the [Using Endpoint Policy Manager with MDM and UEM Tools](/docs/policypak/policypak/mdm/uemtools.md) topic for more information on using Endpoint Policy Manager with MDM and UEM Tools.
+- Export policies or collections as XML files (available with Endpoint Policy Manager Exporter and Endpoint Policy Manager Cloud). See the [Using Endpoint Policy Manager with MDM and UEM Tools](../mdm/uemtools.md) topic for more information on using Endpoint Policy Manager with MDM and UEM Tools.
 
 The basic way to use Endpoint Policy Manager Admin Templates Manager is as follows:
 

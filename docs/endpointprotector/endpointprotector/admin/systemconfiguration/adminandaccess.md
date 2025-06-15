@@ -6,7 +6,7 @@ This section allows you to manage system administrators, their roles, and access
 
 From this section you can view, create, manage and delete administrators.
 
-![System Administrators](/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/clientuninstall.png)
+![System Administrators](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/clientuninstall.png)
 
 To create a new Administrator, under the table with existing administrators, click Create and then provide the following information:
 
@@ -38,7 +38,7 @@ Super Administrator Details
 - Managed Departments – assign the Administrator to one or more departments
 - Managed Administrators Groups – assign the Administrator to one or more Administrators Group
 
-![Super Administrator Details](/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/superadministratordetails.png)
+![Super Administrator Details](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/superadministratordetails.png)
 
 ## Administrator Types
 
@@ -84,13 +84,13 @@ You can also add Administrators to an Administrator Group when creating an Admin
 
 __NOTE:__ The Support section will always be available in Endpoint Protector regardless of the role you assign to the Administrator Group.
 
-![Administrators Groups](/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/administratorsgroups.png)
+![Administrators Groups](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/administratorsgroups.png)
 
 ### User Role Matrix
 
 The Endpoint Protector User Role Matrix deﬁnes the many capabilities and permissions that Administrators have based on their role. This matrix ensures that users only have access to the features they need to fulﬁll their duties, boosting security and lowering the chance of unintentional changes or data breaches.
 
-![User Role Matrix](/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/userrolematrix.png)
+![User Role Matrix](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/userrolematrix.png)
 
 Within the Endpoint Protector, there are several different user roles, each with their own set of permissions. The Super Administrator role is the most powerful and has access to all features, whilst other roles have more restricted access based on their job tasks.
 
@@ -100,11 +100,11 @@ __NOTE:__ Each of the aforementioned roles can be assigned to a department. When
 
 The Two Factor Authentication (2FA) allows the login process to include an extra step requesting a temporary code generated via the Google Authenticator app. With the Two Factor Authentication on, once the user creation or edit is saved, the administrator will be redirected to a veriﬁcation screen.
 
-![Two Factor Authentication](/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/twofactorauthentication.png)
+![Two Factor Authentication](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/twofactorauthentication.png)
 
 The Google Authenticator app will ask you to register using a unique code or QR Code. Following the registration process, your account will be added to the list with a validity timer for the unique code that will be used for the second authentication factor.
 
-![Google Authenticator app](/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/googleauthenticator.png)
+![Google Authenticator app](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/googleauthenticator.png)
 
 ## System Departments
 
@@ -116,13 +116,13 @@ The functionality becomes useful mainly in large installations, with a high numb
 
 __CAUTION:__ This functionality should not be confused with Groups of computers and users, nor with administrators’ roles.
 
-![System Departments](/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/systemdepartments.png)
+![System Departments](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/systemdepartments.png)
 
 To create a new department click Create and then provide a name, description and unique code.
 
 __NOTE:__ If you provide a wrong department code or none at all, the department code is considered invalid and that computer will be assigned to the default department (defdep).
 
-![Create a new department click Create and then provide a name, description and unique code](/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/newdepartment.png)
+![Create a new department click Create and then provide a name, description and unique code](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/newdepartment.png)
 
 In terms of terminology, a similarity between Endpoint Protector and Active Directory (or any other Director Service software) would make the Department equivalent to an Organization Unit. Of course, the Organization Unit is not identical to the Department, and again Endpoint Protector leaves the power to the actual Super Administrator to virtually link one or more Organization Units to an Endpoint Protector Department.
 

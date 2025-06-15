@@ -2,7 +2,7 @@
 
 This section covers the Recommendations interface that contains detailed guidance on the Auditor usage patterns. Once you installed the product, configured your IT infrastructure, and prepared Netwrix Service Accounts, you can start collecting data and review it with Netwrix Auditor. The recommendations are based on your current product configuration and help you to experience the Auditor capabilities in earnest.
 
-![recommendations](/img/product_docs/auditor/auditor/admin/navigation/recommendations.webp)
+![recommendations](../../../../../static/img/product_docs/auditor/auditor/admin/navigation/recommendations.webp)
 
 Follow the steps to review the recommendations provided by Netwrix industry experts.
 
@@ -18,33 +18,33 @@ Review the list of the recommendations available in Auditor.
 
 ### Create Your First Monitoring Plan
 
-To start collecting data with Netwrix Auditor, you need to create a monitoring plan that defines data collection, notification, and storage settings and add a source-specific item. This recommendation will appear if you don't have any monitoring plans configured. Clicking the __Add plan__ button opens the New Monitoring Plan wizard. See the [Create a New Plan](/docs/auditor/auditor/admin/monitoringplans/create.md) topic for additional information about plans configuration. Once completed, you will be prompted to add an item to your plan, otherwise the configuration will be incomplete and the product will not be able to collect data. Auditor automatically suggests item types associated with your data source.
+To start collecting data with Netwrix Auditor, you need to create a monitoring plan that defines data collection, notification, and storage settings and add a source-specific item. This recommendation will appear if you don't have any monitoring plans configured. Clicking the __Add plan__ button opens the New Monitoring Plan wizard. See the [Create a New Plan](../monitoringplans/create.md) topic for additional information about plans configuration. Once completed, you will be prompted to add an item to your plan, otherwise the configuration will be incomplete and the product will not be able to collect data. Auditor automatically suggests item types associated with your data source.
 
 ### Start Abandoned Data Source Auditing
 
-If you have a license for several applications, Netwrix suggests enabling each undeployed data source for each purchased application if they were never deployed before. Clicking the __Add plan__ button opens the New Monitoring Plan wizard. Select the data source you want to monitor with Netwrix Auditor and see the [Create a New Plan](/docs/auditor/auditor/admin/monitoringplans/create.md) topic for additional information about further configuration.
+If you have a license for several applications, Netwrix suggests enabling each undeployed data source for each purchased application if they were never deployed before. Clicking the __Add plan__ button opens the New Monitoring Plan wizard. Select the data source you want to monitor with Netwrix Auditor and see the [Create a New Plan](../monitoringplans/create.md) topic for additional information about further configuration.
 
 ### Enable State-in-Time Data Collection
 
-If you want to review the state of your system configuration at a specific moment in time, for example, account permissions or group membership, you need to enable the State-in-Time data collection for your data source. See the [State–in–Time Reports](/docs/auditor/auditor/admin/reports/types/stateintime/overview.md) topic for additional information about the available reports. Clicking the __Go to data source__ button opens the settings page of the data source to which this recommendation applies to. See the [Manage Data Sources](/docs/auditor/auditor/admin/monitoringplans/datasources.md) topic for additional information.
+If you want to review the state of your system configuration at a specific moment in time, for example, account permissions or group membership, you need to enable the State-in-Time data collection for your data source. See the [State–in–Time Reports](../reports/types/stateintime/overview.md) topic for additional information about the available reports. Clicking the __Go to data source__ button opens the settings page of the data source to which this recommendation applies to. See the [Manage Data Sources](../monitoringplans/datasources.md) topic for additional information.
 
 __NOTE:__ This recommendation will not be shown for to the File Servers data sources (Windows-based file shares, NetApp Filers, Dell Data Storage, etc.). Navigate to your file server data source and check the state-in-time data collection settings manually.
 
 ### Subscribe to the Health Summary Email
 
-The Health Summary email includes all statistics on the product operations and health for the last 24 hours; it also notifies you about license status. If you have configured monitoring plans with data sources and items, Netwrix recommends subscribing to Health Summary emails to be notified on the problems that need your attention. See the [Health Summary Email](/docs/auditor/auditor/admin/healthstatus/summaryemail.md) topic for additional information.
+The Health Summary email includes all statistics on the product operations and health for the last 24 hours; it also notifies you about license status. If you have configured monitoring plans with data sources and items, Netwrix recommends subscribing to Health Summary emails to be notified on the problems that need your attention. See the [Health Summary Email](../healthstatus/summaryemail.md) topic for additional information.
 
-Clicking the __Go to Notifications__ button opens the Netwrix Auditor notifications settings page. See the [Notifications](/docs/auditor/auditor/admin/settings/notifications.md) topic for additional information.
+Clicking the __Go to Notifications__ button opens the Netwrix Auditor notifications settings page. See the [Notifications](../settings/notifications.md) topic for additional information.
 
 ### Logon Activity: Start Auditing Item
 
-If you have the monitoring plans with configured Active Directory data source and domain item, Netwrix recommends creating a new monitoring plan for the Logon Activity data source to review details around interactive and non-interactive logons, including failed logon attempts, and users logon and logoff activity on domain controllers in the audited domain. Clicking the __Add plan__ button opens the New Monitoring Plan wizard with the Logon Activity as a selected data source. See the [Create a New Plan](/docs/auditor/auditor/admin/monitoringplans/create.md) topic for additional information about further configuration.
+If you have the monitoring plans with configured Active Directory data source and domain item, Netwrix recommends creating a new monitoring plan for the Logon Activity data source to review details around interactive and non-interactive logons, including failed logon attempts, and users logon and logoff activity on domain controllers in the audited domain. Clicking the __Add plan__ button opens the New Monitoring Plan wizard with the Logon Activity as a selected data source. See the [Create a New Plan](../monitoringplans/create.md) topic for additional information about further configuration.
 
 ### Enable Alerts
 
 For the configured monitoring plans, Netwrix recommends enabling alerts to be immediately notified on the suspicious activity. You can enable predefined alerts or create your custom ones.
 
-Clicking the __Open__ settings button opens the All Alerts wizard. See the [Manage Alerts](/docs/auditor/auditor/admin/alertsettings/overview.md) topic for additional information.
+Clicking the __Open__ settings button opens the All Alerts wizard. See the [Manage Alerts](../alertsettings/overview.md) topic for additional information.
 
 ## Manage Recommendations
 
@@ -58,7 +58,7 @@ __Step 1 –__ On the Auditor home page, click the __Recommendations__ tile.
 
 __Step 2 –__ Click __Settings__ at the bottom.
 
-![managerecommendations](/img/product_docs/auditor/auditor/admin/navigation/managerecommendations.webp)
+![managerecommendations](../../../../../static/img/product_docs/auditor/auditor/admin/navigation/managerecommendations.webp)
 
 __Step 3 –__ In the Manage recommendations dialog, do the following:
 

@@ -2,14 +2,14 @@
 
 About Netwrix Endpoint Policy Manager (formerly PolicyPak) Least Privilege Manager
 
-Before reading this section, please ensure you have read the [Installation Quick Start](/docs/policypak/policypak/gettingstarted/quickstart/overviewinstall.md) topics, which will help you learn to do the following:
+Before reading this section, please ensure you have read the [Installation Quick Start](../gettingstarted/quickstart/overviewinstall.md) topics, which will help you learn to do the following:
 
 - Install the Admin MSI on your GPMC machine
 - Install the CSE on a test Windows machine
 - Set up a computer in Trial or Licensed mode
 - Set up a common OU structure
 
-Optionally, this manual demonstrates how to use on-prem Active Directory and Group Policy to deploy Endpoint Policy Manager Least Privilege Manager directives. If you don't want to use Group Policy, read the [MDM & UEM Tools](/docs/policypak/policypak/mdm/overview.md) topics for additional information on how to deploy your directives.
+Optionally, this manual demonstrates how to use on-prem Active Directory and Group Policy to deploy Endpoint Policy Manager Least Privilege Manager directives. If you don't want to use Group Policy, read the [MDM & UEM Tools](../mdm/overview.md) topics for additional information on how to deploy your directives.
 
 Endpoint Policy Manager Least Privilege Manager enables you to do the following:
 
@@ -21,7 +21,7 @@ Endpoint Policy Manager Least Privilege Manager enables you to do the following:
 
 For instance, you don’t want to block your Standard Users from running applications that throw a UAC prompt. A Standard User doesn’t have the right permissions, and that’s where Endpoint Policy Manager Least Privilege Manager can come in.
 
-__NOTE:__ For more information on this issue, watch the [Kill Local Admin Rights (Run applications with Least Privilege)](/docs/policypak/policypak/video/leastprivilege/localadminrights.md) video.
+__NOTE:__ For more information on this issue, watch the [Kill Local Admin Rights (Run applications with Least Privilege)](../video/leastprivilege/localadminrights.md) video.
 
 The basic way to use Endpoint Policy Manager Least Privilege Manager is as follows:
 
@@ -32,9 +32,9 @@ The basic way to use Endpoint Policy Manager Least Privilege Manager is as follo
 - Alternatively, export the Endpoint Policy Manager Least Privilege Manager rules and deliver them in one of these ways:
 
   - Microsoft SCCM (See theDeploy Endpoint Policy Manager Settings Using SCCM or Other Management System! video overview for additional information.)
-  - Microsoft Intune (See the [Using Least Privilege Manager with your MDM service](/docs/policypak/policypak/video/leastprivilege/mdm.md) video overview for additional information.)
-  - Your own systems management software (PDQ Deploy or similar) (See the [Deploying Apps that Require Admin Rights Using Endpoint Policy Manager and PDQ Deploy](/docs/policypak/policypak/video/leastprivilege/integration/pdqdeploy.md) video overview for additional information.)
-  - Endpoint Policy Manager Cloud service (See the [Use Endpoint Policy Manager Cloud to deploy PP Least Privilege Manager rules](/docs/policypak/policypak/video/leastprivilege/cloudrules.md) video overview for additional information.)
+  - Microsoft Intune (See the [Using Least Privilege Manager with your MDM service](../video/leastprivilege/mdm.md) video overview for additional information.)
+  - Your own systems management software (PDQ Deploy or similar) (See the [Deploying Apps that Require Admin Rights Using Endpoint Policy Manager and PDQ Deploy](../video/leastprivilege/integration/pdqdeploy.md) video overview for additional information.)
+  - Endpoint Policy Manager Cloud service (See the [Use Endpoint Policy Manager Cloud to deploy PP Least Privilege Manager rules](../video/leastprivilege/cloudrules.md) video overview for additional information.)
 
 Then allow the client machine with the Endpoint Policy Manager client-side extension (CSE) to receive the directives and perform the work.
 
@@ -53,13 +53,13 @@ Also available is Endpoint Policy Manager Cloud when you purchase Endpoint Polic
 
 Endpoint Policy Manager Cloud enables you to create Endpoint Policy ManagerLeast Privilege Manager directives using the in-cloud editors and connect endpoints (Windows and Mac) to get Endpoint Policy Manager Least Privilege Manager directives.
 
-![overview1](/img/product_docs/policypak/policypak/leastprivilege/overview1.webp)
+![overview1](../../../../static/img/product_docs/policypak/policypak/leastprivilege/overview1.webp)
 
 While this manual mostly demonstrates concepts using the Group Policy editor, nearly everything can be done using the in-Endpoint Policy Manager-Cloud editors. Additionally, you can take on-prem MMC directives and upload them to Endpoint Policy Manager Cloud, and take in-cloud directives and download them back as MMC directives.
 
 Additionally, you may use Endpoint Policy Manager Least Privilege Manager with any management system you like such as SCCM, Intune, PDQ deploy or anything else. This is because Endpoint Policy Manager Least Privilege Manager directives may be exported as XML and wrapped up using the Endpoint Policy Manager Exporter tool. This is a free utility that lets you take Endpoint Policy Manager Admin Templates Manager and our other products’ XML files and wrap them into a portable MSI file for deployment using Microsoft Endpoint Manager (SCCM and Intune), or your own systems management software.
 
-The [MDM & UEM Tools](/docs/policypak/policypak/mdm/overview.md) topics explain how to use the Endpoint Policy Manager Exporter to wrap up any Endpoint Policy Manager directives and deliver them using Microsoft Endpoint Manager (SCCM and Intune), KACE, your own MDM service, or Endpoint Policy Manager Cloud.
+The [MDM & UEM Tools](../mdm/overview.md) topics explain how to use the Endpoint Policy Manager Exporter to wrap up any Endpoint Policy Manager directives and deliver them using Microsoft Endpoint Manager (SCCM and Intune), KACE, your own MDM service, or Endpoint Policy Manager Cloud.
 
 In other words, you are free to use any delivery methodof your choice with Endpoint Policy Manager Least Privilege Manager.
 

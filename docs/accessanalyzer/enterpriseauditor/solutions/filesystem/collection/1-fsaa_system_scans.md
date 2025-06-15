@@ -6,7 +6,7 @@ The 1-FSAA System Scans job is designed to collect access information from the t
 
 The File System Scan query uses the FSAA Data Collector.
 
-![Query for the 1-FSAA System Scans Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/collection/fsaasystemscansquery.webp)
+![Query for the 1-FSAA System Scans Job](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/collection/fsaasystemscansquery.webp)
 
 The following default configurations are commonly customized:
 
@@ -21,7 +21,7 @@ The following default configurations are commonly customized:
 
   - Set to __Limit subfolder scan depth to 2 level(s)__
 
-See the [Recommended Configuration for the File System Solution](/docs/accessanalyzer/enterpriseauditor/solutions/filesystem/recommended.md) topic for a complete list of customizable settings. See the [Configure the (FSAA) File System Scan Query](#configure-the-fsaa-file-system-scan-query) topic for additional information.
+See the [Recommended Configuration for the File System Solution](../recommended.md) topic for a complete list of customizable settings. See the [Configure the (FSAA) File System Scan Query](#configure-the-fsaa-file-system-scan-query) topic for additional information.
 
 ### Configure the (FSAA) File System Scan Query
 
@@ -35,25 +35,25 @@ __Step 3 –__ Select the __Data Source__ tab, and click __Configure__. The File
 
 __CAUTION:__ Do not make changes to other wizard pages as they have been pre-configured for the purpose of this job.
 
-![Applet Settings](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/collection/fsaaseekappletsettings.webp)
+![Applet Settings](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/collection/fsaaseekappletsettings.webp)
 
-__Step 4 –__ The Applet Settings page applies to the applet and proxy mode scans. If employing proxy servers, see the [FSAA: Applet Settings](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/appletsettings.md) topic for configuration instructions.
+__Step 4 –__ The Applet Settings page applies to the applet and proxy mode scans. If employing proxy servers, see the [FSAA: Applet Settings](../../../admin/datacollector/fsaa/appletsettings.md) topic for configuration instructions.
 
-![Scan Server Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/collection/fsaaseekserverselection.webp)
+![Scan Server Selection](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/collection/fsaaseekserverselection.webp)
 
-__Step 5 –__ On the Scan Server Selection page, select the server that will execute the scan. See the [FSAA: Scan Server Selection](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/scanserverselection.md) topic for additional information.
+__Step 5 –__ On the Scan Server Selection page, select the server that will execute the scan. See the [FSAA: Scan Server Selection](../../../admin/datacollector/fsaa/scanserverselection.md) topic for additional information.
 
-![Scan Settings](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/collection/fsaaseekscansettings.webp)
+![Scan Settings](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/collection/fsaaseekscansettings.webp)
 
-__Step 6 –__ On the Scan Settings page, you can enable streaming. See the [FSAA: Scan Settings](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/scansettings.md) topic for additional information.
+__Step 6 –__ On the Scan Settings page, you can enable streaming. See the [FSAA: Scan Settings](../../../admin/datacollector/fsaa/scansettings.md) topic for additional information.
 
 __NOTE:__ If streaming is enabled, the __2-FSAA Bulk Import__ job is no longer needed as part of the __0.Collection__ job group.
 
-![Azure Tennant Mapping](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/collection/fsaaseekazuretenantmapping.webp)
+![Azure Tennant Mapping](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/collection/fsaaseekazuretenantmapping.webp)
 
-__Step 7 –__ On the Azure Tenant Mapping page, add the AppPrincipalID (App ID) and Tenant ID. See the [FSAA: Azure Tenant Mapping](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/azuretenantmapping.md) topic for additional information.
+__Step 7 –__ On the Azure Tenant Mapping page, add the AppPrincipalID (App ID) and Tenant ID. See the [FSAA: Azure Tenant Mapping](../../../admin/datacollector/fsaa/azuretenantmapping.md) topic for additional information.
 
-![Default Scoping Options](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/collection/fsaadefaultscopingoptions.webp)
+![Default Scoping Options](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/collection/fsaadefaultscopingoptions.webp)
 
 __Step 8 –__ On the Default Scoping Options page, configure the following on the Scan Setting tab:
 
@@ -78,15 +78,15 @@ __Step 8 –__ On the Default Scoping Options page, configure the following on t
     - Force-reset file LAT with warning – The scan will Reset the file's LAT to its original state before processing. A warning will be shown. The scan will proceed to the next file.
     - Abort the scan – FSAA will abort the scan. LAT will be updated for the processed file. No other files will be processed
 
-See the [Scan Settings Tab](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/defaultscopingoptions/scansettings.md) topic for additional information.
+See the [Scan Settings Tab](../../../admin/datacollector/fsaa/defaultscopingoptions/scansettings.md) topic for additional information.
 
-![File Details tab of the Default Scoping Options page](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/collection/fsaadefaultscopingoptionsfiledetails.webp)
+![File Details tab of the Default Scoping Options page](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/collection/fsaadefaultscopingoptionsfiledetails.webp)
 
-__Step 9 –__ On the File Details tab of the Default Scoping Options page, you can enable file-level scans. See the [File Details Tab](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/defaultscopingoptions/filedetails.md)
+__Step 9 –__ On the File Details tab of the Default Scoping Options page, you can enable file-level scans. See the [File Details Tab](../../../admin/datacollector/fsaa/defaultscopingoptions/filedetails.md)
 
 ___RECOMMENDED:___ Carefully consider configuring the following settings. Applying filters when file detail scanning has been enabled reduces the impact on the database.
 
-![File Properties (Folder Summary) tab of the Default Scoping Options page](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/collection/fsaadefaultscopingoptionsfileproperties.webp)
+![File Properties (Folder Summary) tab of the Default Scoping Options page](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/collection/fsaadefaultscopingoptionsfileproperties.webp)
 
 __Step 10 –__ On the File Properties (Folder Summary) tab of the Default Scoping Options page, you can configure the following:
 
@@ -96,13 +96,13 @@ __Step 10 –__ On the File Properties (Folder Summary) tab of the Default Scopi
 - Add collection of tags and keyword
 - Enable return of files with only comma-separated values (CSV files).
 
-See the [File Properties (Folder Summary) Tab](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/defaultscopingoptions/fileproperties.md) topic for additional information.
+See the [File Properties (Folder Summary) Tab](../../../admin/datacollector/fsaa/defaultscopingoptions/fileproperties.md) topic for additional information.
 
-![Scoping Options](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/collection/fsaaseekscopingoptions.webp)
+![Scoping Options](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/collection/fsaaseekscopingoptions.webp)
 
-__Step 11 –__ On the Scoping Options page, add share/folder inclusions and exclusions. See the [FSAA: Scoping Options](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/scopingoptions.md) topic for additional information.
+__Step 11 –__ On the Scoping Options page, add share/folder inclusions and exclusions. See the [FSAA: Scoping Options](../../../admin/datacollector/fsaa/scopingoptions.md) topic for additional information.
 
-![Scoping Queries](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/collection/fsaaseekscopingqueries.webp)
+![Scoping Queries](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/collection/fsaaseekscopingqueries.webp)
 
 __Step 12 –__ On the Scoping Queries page:
 
@@ -110,7 +110,7 @@ __Step 12 –__ On the Scoping Queries page:
 - Add folder/share exclusions
 - Restrict scans to DFS shares or Open shares
 
-See the [FSAA: Scoping Queries](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/scopingqueries.md) topic for additional information.
+See the [FSAA: Scoping Queries](../../../admin/datacollector/fsaa/scopingqueries.md) topic for additional information.
 
 __Step 13 –__ Click __Finish__ to save any setting modifications or click __Cancel__ if no changes were made. Then click __OK__ to close the Query Properties window.
 
@@ -122,7 +122,7 @@ View the analysis task by navigating to the __FileSystem__ > __0.Collection__ > 
 
 __CAUTION:__ Do not modify or deselect the selected analysis task. The analysis task is preconfigured for this job.
 
-![Analysis Task for the 1-FSAA System Scans Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/collection/fsaasystemscansanalysis.webp)
+![Analysis Task for the 1-FSAA System Scans Job](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/collection/fsaasystemscansanalysis.webp)
 
 The following analysis task is selected by default:
 

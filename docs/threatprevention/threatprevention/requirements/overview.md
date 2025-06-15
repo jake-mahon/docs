@@ -18,22 +18,22 @@ Core Component
 
 See the following topics for additional information:
 
-- [Application Server Requirements](/docs/threatprevention/threatprevention/requirements/application.md)
-- [SQL Server Requirements](/docs/threatprevention/threatprevention/requirements/sqlserver.md)
-- [Agent Server Requirements](/docs/threatprevention/threatprevention/requirements/agent.md)
-- [Reporting Module Server Requirements](/docs/threatprevention/threatprevention/requirements/reportingserver.md)
+- [Application Server Requirements](application.md)
+- [SQL Server Requirements](sqlserver.md)
+- [Agent Server Requirements](agent.md)
+- [Reporting Module Server Requirements](reportingserver.md)
 
 Optional Components
 
 - Remote Administration Console Instances – The Administration Console can be deployed remotely on additional machines. As a prerequisite, the Threat Prevention server must already be provisioned.
-- EPE Rest Site – This is an optional web server that third parties can use to integrate with the Threat Prevention Enterprise Password Enforcer (EPE) solution. It allows third-party applications to submit a candidate password to check whether it complies with the current EPE rules defined on the [EPE Settings Window](/docs/threatprevention/threatprevention/admin/configuration/epesettings.md).
+- EPE Rest Site – This is an optional web server that third parties can use to integrate with the Threat Prevention Enterprise Password Enforcer (EPE) solution. It allows third-party applications to submit a candidate password to check whether it complies with the current EPE rules defined on the [EPE Settings Window](../admin/configuration/epesettings.md).
 
   __NOTE:__ This interface does not change the password; it only validates it against the EPE rules.
 
 See the following topics for additional information:
 
-- [Remote Administration Console Machine Requirements](/docs/threatprevention/threatprevention/requirements/adminconsole.md)
-- [EPE Rest Site Requirements](/docs/threatprevention/threatprevention/requirements/eperestsite.md)
+- [Remote Administration Console Machine Requirements](adminconsole.md)
+- [EPE Rest Site Requirements](eperestsite.md)
 
 Target Environment Considerations
 

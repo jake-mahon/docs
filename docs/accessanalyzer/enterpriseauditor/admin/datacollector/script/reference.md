@@ -8,4 +8,4 @@ The Query object provides access to the current query configuration and data. Us
 
 Working Query Object
 
-The Working Query object is identical to the Query object. This object supports the same methods and properties as the Query object but its properties and methods do not access the current query. Think of this object as allowing the ability to create a task on the fly. Use this object to perform queries, while leaving the original task undisturbed. This is valuable when performing compound queries isneeded. See the [Script Example 2: Command Query](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/script/example2.md) topic for additional information.
+The Working Query object is identical to the Query object. This object supports the same methods and properties as the Query object but its properties and methods do not access the current query. Think of this object as allowing the ability to create a task on the fly. Use this object to perform queries, while leaving the original task undisturbed. This is valuable when performing compound queries isneeded. See the [Script Example 2: Command Query](example2.md) topic for additional information.

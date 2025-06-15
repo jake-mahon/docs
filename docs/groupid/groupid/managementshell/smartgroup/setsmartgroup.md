@@ -1,6 +1,6 @@
 # Set-SmartGroup
 
-The Set-SmartGroup commandlet modifies a Smart Group in Directory. Attributes that are common to both Smart Groups and unmanaged groups can also be modified using the [Set-Group](/docs/groupid/groupid/managementshell/group/setgroup.md) commandlet.
+The Set-SmartGroup commandlet modifies a Smart Group in Directory. Attributes that are common to both Smart Groups and unmanaged groups can also be modified using the [Set-Group](../group/setgroup.md) commandlet.
 
 You can view events related to this commandlet in Directory Manager portal, against the History node in the left panel.
 

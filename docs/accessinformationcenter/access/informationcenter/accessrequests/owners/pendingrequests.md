@@ -2,7 +2,7 @@
 
 The Pending Requests tab of the Access Requests page accessed through the Owner portal is where you can view pending requests for your resources.
 
-![Pending Requests tab of the Resource Owners Acces Requests page](/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/owners/pendingrequests.webp)
+![Pending Requests tab of the Resource Owners Acces Requests page](../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/owners/pendingrequests.webp)
 
 The information displayed in the table includes:
 
@@ -23,17 +23,17 @@ The information displayed in the table includes:
 - Resource Name – The icon indicates the type of resource. The resource name includes its location, such as the UNC path for a file system resource, the URL for SharePoint resource, or Group name (e.g., [Domain]\[Group]).
 - Resource Description – Description or explanation of the resource as supplied by either the Ownership Administrator or the assigned owner
 
-The table data grid functions the same way as other table grids. See the [Data Grid Features](/docs/accessinformationcenter/access/general/datagrid.md) topic for additional information.
+The table data grid functions the same way as other table grids. See the [Data Grid Features](../../../general/datagrid.md) topic for additional information.
 
 The buttons at the bottom enable you to perform the following actions:
 
-![Pending Requests interface buttons](/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/owners/pendingrequestsbuttons.webp)
+![Pending Requests interface buttons](../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/owners/pendingrequestsbuttons.webp)
 
 | Button | Function |
 | --- | --- |
-| Accept | Approves the request and triggers the Access Information Center to process the approved request, granting the requested access. The Saving request window displays the action status. Click __OK__ to close the window. The request is visible on the [Access Request History](/docs/accessinformationcenter/access/informationcenter/accessrequests/owners/requesthistory.md). |
-| Decline | Denies the request and opens the Decline Access window. See the [Decline Access Window](/docs/accessinformationcenter/access/informationcenter/accessrequests/window/declineaccess.md) topic for additional information. |
-| More Options | Opens the Select Access window, which allows you to grant an access level other than the one requested. This is only applicable to file system and SharePoint resources. See the [Select Access Window](/docs/accessinformationcenter/access/informationcenter/accessrequests/window/selectaccess.md) topic for additional information. |
+| Accept | Approves the request and triggers the Access Information Center to process the approved request, granting the requested access. The Saving request window displays the action status. Click __OK__ to close the window. The request is visible on the [Access Request History](requesthistory.md). |
+| Decline | Denies the request and opens the Decline Access window. See the [Decline Access Window](../window/declineaccess.md) topic for additional information. |
+| More Options | Opens the Select Access window, which allows you to grant an access level other than the one requested. This is only applicable to file system and SharePoint resources. See the [Select Access Window](../window/selectaccess.md) topic for additional information. |
 | View Notes | Opens the View Notes window for the selected request. Clicking on the Notes icon in the table will also open the View Notes window. Click __OK__ to close the window. |
 
-Once a request has been processed , it is moved from the Pending Request page to the [Access Request History](/docs/accessinformationcenter/access/informationcenter/accessrequests/owners/requesthistory.md).
+Once a request has been processed , it is moved from the Pending Request page to the [Access Request History](requesthistory.md).

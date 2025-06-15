@@ -2,10 +2,10 @@
 
 __NOTE:__ Prior to configuring your monitoring plan, please read and complete the instructions in the following topics:
 
-- [Protocols and Ports Required](/docs/auditor/auditor/requirements/ports.md) – To ensure successful data collection and activity monitoring configure necessary protocols and ports for inbound and outbound connections
-- [Data Collecting Account](/docs/auditor/auditor/admin/monitoringplans/dataaccounts.md) – Configure data collecting accounts as required to audit your IT systems
+- [Protocols and Ports Required](../../../requirements/ports.md) – To ensure successful data collection and activity monitoring configure necessary protocols and ports for inbound and outbound connections
+- [Data Collecting Account](../dataaccounts.md) – Configure data collecting accounts as required to audit your IT systems
 
-- [User Activity](/docs/auditor/auditor/configuration/useractivity/overview.md) – Configure data source as required to be monitored
+- [User Activity](../../../configuration/useractivity/overview.md) – Configure data source as required to be monitored
 
 Complete the following fields:
 
@@ -24,9 +24,9 @@ Complete the following fields:
 | Applications |  |
 | Specify applications you want to track | Select the applications that you want to monitor. You can select All applications or create a list of Specific applications. Certain applications can also be added to Exceptions list. |
 | Monitored Computers |  |
-| For a newly created monitoring plan for User Activity, the list of monitored computers is empty. Add items to your monitoring plan and wait until Netwrix Auditor retrieves all computers within these items. See [Add Items for Monitoring](/docs/auditor/auditor/admin/monitoringplans/datasources.md#add-items-for-monitoring)for more information. The list contains computer name, its current status and last activity time. |  |
+| For a newly created monitoring plan for User Activity, the list of monitored computers is empty. Add items to your monitoring plan and wait until Netwrix Auditor retrieves all computers within these items. See [Add Items for Monitoring](../datasources.md#add-items-for-monitoring)for more information. The list contains computer name, its current status and last activity time. |  |
 
-Review your data source settings and click __Add__ to go back to your plan. The newly created data source will appear in the __Data source__ list. As a next step, click __Add item__ to specify an object for monitoring. See the [Add Items for Monitoring](/docs/auditor/auditor/admin/monitoringplans/datasources.md#add-items-for-monitoring) topic for additional information.
+Review your data source settings and click __Add__ to go back to your plan. The newly created data source will appear in the __Data source__ list. As a next step, click __Add item__ to specify an object for monitoring. See the [Add Items for Monitoring](../datasources.md#add-items-for-monitoring) topic for additional information.
 
 ## How to Include/Exclude Applications
 
@@ -58,10 +58,10 @@ To exclude the Notepad application window with "_Document1_" open, add the follo
 
 - In the Title filter enter "_Document1.txt - Notepad_":
 
-  ![uavr_source_example_1](/img/product_docs/auditor/auditor/admin/monitoringplans/useractivity/uavr_source_example_1.webp)
+  ![uavr_source_example_1](../../../../../../static/img/product_docs/auditor/auditor/admin/monitoringplans/useractivity/uavr_source_example_1.webp)
 - In the Description filter, enter the corresponding value, here it will be "_Notepad_".
 
-![uavr_source_example_2_thumb_0_0](/img/product_docs/auditor/auditor/admin/monitoringplans/useractivity/uavr_source_example_2_thumb_0_0.webp)
+![uavr_source_example_2_thumb_0_0](../../../../../../static/img/product_docs/auditor/auditor/admin/monitoringplans/useractivity/uavr_source_example_2_thumb_0_0.webp)
 
 ## Computer
 
@@ -73,7 +73,7 @@ Complete the following fields:
 | --- | --- |
 | General |  |
 | Specify a computer | Provide a server name by entering its FQDN, NETBIOS or IPv4 address. You can click Browse to select a computer from the list of computers in your network. |
-| Specify the account for collecting data | Select the account that will be used to collect data for this item. If you want to use a specific account (other than the one you specified during monitoring plan creation), select account type you want to use and enter credentials. The following choices are available:   - User/password. The account must be granted the same permissions and access rights as the default account used for data collection. See the [Data Collecting Account](/docs/auditor/auditor/admin/monitoringplans/dataaccounts.md) topic for additional information. - Group Managed Service Account (gMSA). You should specify only the account name in the domain\account$ format. See the [Use Group Managed Service Account (gMSA)](/docs/auditor/auditor/requirements/gmsa.md) topic for additional information. |
+| Specify the account for collecting data | Select the account that will be used to collect data for this item. If you want to use a specific account (other than the one you specified during monitoring plan creation), select account type you want to use and enter credentials. The following choices are available:   - User/password. The account must be granted the same permissions and access rights as the default account used for data collection. See the [Data Collecting Account](../dataaccounts.md) topic for additional information. - Group Managed Service Account (gMSA). You should specify only the account name in the domain\account$ format. See the [Use Group Managed Service Account (gMSA)](../../../requirements/gmsa.md) topic for additional information. |
 
 ## IP Range
 
@@ -83,7 +83,7 @@ Complete the following fields:
 | --- | --- |
 | General |  |
 | Specify IP range | Specify an IP range for the audited computers.  To exclude computers from within the specified range, click __Exclude__. Enter the IP subrange you want to exclude, and click __Add__. |
-| Specify the account for collecting data | Select the account that will be used to collect data for this item. If you want to use a specific account (other than the one you specified during monitoring plan creation), select __Custom account__ and enter credentials. The credentials are case sensitive.  A custom account must be granted the same permissions and access rights as the default account used for data collection. See the [Data Collecting Account](/docs/auditor/auditor/admin/monitoringplans/dataaccounts.md) topic for additional information. |
+| Specify the account for collecting data | Select the account that will be used to collect data for this item. If you want to use a specific account (other than the one you specified during monitoring plan creation), select __Custom account__ and enter credentials. The credentials are case sensitive.  A custom account must be granted the same permissions and access rights as the default account used for data collection. See the [Data Collecting Account](../dataaccounts.md) topic for additional information. |
 
 ## AD Container
 
@@ -93,4 +93,4 @@ Complete the following fields:
 | --- | --- |
 | General |  |
 | Specify AD container | Specify a whole AD domain, OU or container. Click __Browse__ to select from the list of containers in your network. You can also:   - Select a particular computer type to be audited within the chosen AD container: __Domain controllers, Servers (excluding domain controllers)__, or __Workstations__. - Click __Exclude__ to specify AD domains, OUs, and containers you do not want to audit. In the Exclude Containers dialog, click Add and specify an object.   The list of containers does not include child domains of trusted domains. Use other options __(Computer, IP range__ to specify the target computers. |
-| Specify the account for collecting data | Select the account that will be used to collect data for this item. If you want to use a specific account (other than the one you specified during monitoring plan creation), select __Custom account__ and enter credentials. The credentials are case sensitive.  If using a group Managed Service Account (gMSA), you can specify only the account name in the _domain\account$_ format. Password field can be empty.  A custom account must be granted the same permissions and access rights as the default account used for data collection. See the[Data Collecting Account](/docs/auditor/auditor/admin/monitoringplans/dataaccounts.md) topic for additional information. |
+| Specify the account for collecting data | Select the account that will be used to collect data for this item. If you want to use a specific account (other than the one you specified during monitoring plan creation), select __Custom account__ and enter credentials. The credentials are case sensitive.  If using a group Managed Service Account (gMSA), you can specify only the account name in the _domain\account$_ format. Password field can be empty.  A custom account must be granted the same permissions and access rights as the default account used for data collection. See the[Data Collecting Account](../dataaccounts.md) topic for additional information. |

@@ -6,7 +6,7 @@ __NOTE:__ If any customizations have been done by a Netwrix Engineer, please ens
 
 The purpose of this document is to provide the basic steps needed for upgrading Access Analyzer and the stock solutions. Contact [Netwrix Support](https://www.netwrix.com/support.html) for additional information.
 
-See the [What's New](/docs/accessanalyzer/enterpriseauditor/whatsnew.md) topic for release information.
+See the [What's New](../../../whatsnew.md) topic for release information.
 
 ## Considerations
 
@@ -32,7 +32,7 @@ SQL Server Supported Version Change for the Access Analyzer Database
 
 With the release of Access Analyzer v12.0, SQL Server 2016 through SQL Server 2022 are the supported versions for the Access Analyzer database.
 
-To grant access to additional Solutions in an existing Access Analyzer installation, a new license key is required. To update the Access Analyzer license key without installing a new version of the Access Analyzer Console, see the [Update License Key](/docs/accessanalyzer/enterpriseauditor/install/application/updatelicense.md) topic for instructions.
+To grant access to additional Solutions in an existing Access Analyzer installation, a new license key is required. To update the Access Analyzer license key without installing a new version of the Access Analyzer Console, see the [Update License Key](../updatelicense.md) topic for instructions.
 
 License Key Changes
 
@@ -48,4 +48,4 @@ The following changes in licensing requires the organization needing a new key:
 
   - No additional licenses are required for this version
 
-See the [Update License Key](/docs/accessanalyzer/enterpriseauditor/install/application/updatelicense.md) section for instructions on updating the license key.
+See the [Update License Key](../updatelicense.md) section for instructions on updating the license key.

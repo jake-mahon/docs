@@ -1,13 +1,13 @@
 # Scripts & Triggers Manager
 
-__NOTE:__ Before reading this section, please ensure you have read Book 2: [Installation Quick Start](/docs/policypak/policypak/gettingstarted/quickstart/overviewinstall.md), which will help you learn to do the following:
+__NOTE:__ Before reading this section, please ensure you have read Book 2: [Installation Quick Start](../gettingstarted/quickstart/overviewinstall.md), which will help you learn to do the following:
 
 - Install the Admin MSI on your GPMC machine
 - Install the CSE on a test Windows machine
 - Set up a computer in Trial mode or Licensed mode
 - Set up a common OU structure
 
-Optionally, if you don't want to use Group Policy, read the section in Appendix A: [Using Endpoint Policy Manager with MDM and UEM Tools](/docs/policypak/policypak/mdm/uemtools.md) to deploy your directives.
+Optionally, if you don't want to use Group Policy, read the section in Appendix A: [Using Endpoint Policy Manager with MDM and UEM Tools](../mdm/uemtools.md) to deploy your directives.
 
 Netwrix Endpoint Policy Manager (formerly PolicyPak) Scripts & Triggers Manager enables you to perform the following operations on Windows 10:
 
@@ -15,7 +15,7 @@ Netwrix Endpoint Policy Manager (formerly PolicyPak) Scripts & Triggers Manager 
 - Deliver scripts to both User and Computer sides
 - Deliver an "On" script when conditions are true, and an "Off" script when conditions are false.
 
-__NOTE:__ Watch this video for an overview of Endpoint Policy Manager Scripts & Triggers Manager: [Use with on-prem Group Policy](/docs/policypak/policypak/video/scriptstriggers/gettingstarted/onpremise.md)
+__NOTE:__ Watch this video for an overview of Endpoint Policy Manager Scripts & Triggers Manager: [Use with on-prem Group Policy](../video/scriptstriggers/gettingstarted/onpremise.md)
 
 The basic way to use Scripts & Triggers Manager is as follows:
 

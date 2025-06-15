@@ -6,7 +6,7 @@ Most applications' UIs are captured correctly by Endpoint Policy Manager DesignS
 
 Some applications cannot be captured. In the example in Figure 83, the UI elements in Skype are not able to be captured in a useful way.
 
-![crafting_the_user_interface_24](/img/product_docs/policypak/policypak/applicationsettings/designstudio/userinterface/crafting_the_user_interface_24.webp)
+![crafting_the_user_interface_24](../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/designstudio/userinterface/crafting_the_user_interface_24.webp)
 
 Figure 83. Some applications prevent their UI elements from being captured.
 
@@ -16,7 +16,7 @@ In these cases, you have to create the elements by using the toolbar and manuall
 
 Occasionally, during a capture, you might see some captured items that are underlined in the capture but not in the application itself, as shown in Figure 84.
 
-![crafting_the_user_interface_25](/img/product_docs/policypak/policypak/applicationsettings/designstudio/userinterface/crafting_the_user_interface_25.webp)
+![crafting_the_user_interface_25](../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/designstudio/userinterface/crafting_the_user_interface_25.webp)
 
 Figure 84. Some elements appear underlined when captured.
 

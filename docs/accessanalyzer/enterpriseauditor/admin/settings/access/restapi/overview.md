@@ -4,7 +4,7 @@ The Access Analyzer REST API is integrated into the Web Service as an endpoint u
 
 - Read-Only – Read data only
 
-See the [Use the Client Credentials Grant to Obtain an Access Token](/docs/accessanalyzer/enterpriseauditor/admin/settings/access/restapi/obtaintoken.md) topic for additional information.
+See the [Use the Client Credentials Grant to Obtain an Access Token](obtaintoken.md) topic for additional information.
 
 The client provides the access token in the HTTP header in the following format:
 

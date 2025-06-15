@@ -6,7 +6,7 @@ Use the gear icon in the upper right corner of the console to open the Configura
 
 Click __About Threat Manager__ in the navigation pane.
 
-![System Settings interfaces on the About Threat Manager page](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/systemsettings/about.webp)
+![System Settings interfaces on the About Threat Manager page](../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/systemsettings/about.webp)
 
 The About Threat Manager section contains application version information. It also includes the application copyright information.
 

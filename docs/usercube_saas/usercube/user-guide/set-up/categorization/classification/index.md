@@ -2,9 +2,9 @@
 
 How to define [
 Resource Classification Rule
-](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourceclassificationrule/index.md) in order to classify remaining uncorrelated resources, assigning them resource types. See the [
+](../../../../integration-guide/toolkit/xml-configuration/provisioning/resourceclassificationrule/index.md) in order to classify remaining uncorrelated resources, assigning them resource types. See the [
 Create a Resource Type
-](/docs/usercube_saas/usercube/user-guide/set-up/categorization/resource-type-creation/index.md) topic for additional information.
+](../resource-type-creation/index.md) topic for additional information.
 
 ## Overview
 
@@ -12,7 +12,7 @@ Create a Resource Type
 
 Classification is the process of putting on an existing resource a label called resource type, to show its intent and/or purpose within the managed system. See the [
 Entitlement Management
-](/docs/usercube_saas/usercube/introduction-guide/overview/entitlement-management/index.md) topic for additional information.
+](../../../../introduction-guide/overview/entitlement-management/index.md) topic for additional information.
 
 Every resource type can be assigned a set of classification rules.
 
@@ -46,10 +46,10 @@ When the confidence rate is below 100%, correlation and classification reviews a
 
 - on the __Provisioning Review__ page when the owned resource is allowed by the role model, i.e. requested manually or assigned automatically by a resource type rule;
 
-  ![Correlation Review - Provisioning Review Screen](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/categorization_reviewsprovisioningreview_v603.webp)
+  ![Correlation Review - Provisioning Review Screen](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/categorization_reviewsprovisioningreview_v603.webp)
 - on the __Resource Reconciliation__ page when the owned resource is not allowed by the role model, i.e. not requested manually nor assigned by a resource type rule. For example, the creation of a correlation rule without a resource type rule triggers unauthorized accounts on the __Resource Reconciliation__ page.
 
-  ![Correlation Review - Resource Reconciliation Screen](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/categorization_reviewsresourcereconciliation_v603.webp)
+  ![Correlation Review - Resource Reconciliation Screen](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/categorization_reviewsresourcereconciliation_v603.webp)
 
 Broadly speaking, the __Resource Reconciliation__ page displays non-conforming assignments/values (gaps), i.e. resources and property values from the managed systems that are not allowed by a rule in Identity Manager. The __Provisioning Review__ page displays the resource and property changes whose workflows require a manual approval.
 
@@ -71,7 +71,7 @@ For a given managed system, integrators may need the help of the application own
 
 | Input | Output |
 | --- | --- |
-| [ Create a Resource Type ](/docs/usercube_saas/usercube/user-guide/set-up/categorization/resource-type-creation/index.md) (required)   [ Synchronize Data ](/docs/usercube_saas/usercube/user-guide/set-up/synchronization/index.md) (required)   [ Correlate Resources ](/docs/usercube_saas/usercube/user-guide/set-up/categorization/correlation/index.md) (recommended) | Classification rules |
+| [ Create a Resource Type ](../resource-type-creation/index.md) (required)   [ Synchronize Data ](../../synchronization/index.md) (required)   [ Correlate Resources ](../correlation/index.md) (recommended) | Classification rules |
 
 ## Create a Classification Rule
 
@@ -81,26 +81,26 @@ Fill a resource type with a classification rule by proceeding as follows:
 
 1. On the relevant resource type's page, click on __Classification Rules__ and the addition icon.
 
-   ![New Classification Rule](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/resourcetype_newclassifrule_v602.webp)
+   ![New Classification Rule](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/resourcetype_newclassifrule_v602.webp)
 
    Classification rules can also be created through the __Access Rules__ screen (accessible from the home page, in the __Configuration__ section), clicking on the __Classifications__ tab and the addition button at the top right corner.
 
-   ![Home - Access Rules](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/home_rules_v602.webp)
+   ![Home - Access Rules](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/home_rules_v602.webp)
 
-   ![Addition Icon](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/iconadd_v602.svg)
+   ![Addition Icon](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/iconadd_v602.svg)
 2. Fill in the fields.
 
-   ![New Classification Rule Fields](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/resourcetype_newclassifrulefields_v602.webp)
+   ![New Classification Rule Fields](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/resourcetype_newclassifrulefields_v602.webp)
 
    - __Target Object__ > ```Expression```: C# expression based on the resource that needs to be classified.
    - ```Confidence Rate```: rate expressing the rule's reliability, and its priority order..
    > Our overview example would look like:
    >
-   > ![Classification Rule Example](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/classification_example_v602.webp)
+   > ![Classification Rule Example](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/classification_example_v602.webp)
 3. Click on __Create__ and see a line added on the rules page.
 4. On the connector dashboard and in the __Resource Types__ frame, click on __Jobs__ > __Classify Resource Types__ to apply the new classification rules.
 
-![Resource Type Jobs](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/synchro_resourcetype_v602.webp)
+![Resource Type Jobs](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/synchro_resourcetype_v602.webp)
 
 ## Impact of Modifications
 
@@ -114,21 +114,21 @@ This also means that only non-conforming resources (displayed on the __Resource 
 
 Simulations are available in order to anticipate the changes induced by a creation/modification/deletion in classification rules. See the [
 Perform a Simulation
-](/docs/usercube_saas/usercube/user-guide/optimize/simulation/index.md) topic for additional information.
+](../../../optimize/simulation/index.md) topic for additional information.
 
 Any modification in classification rules is taken into account via the classification job: on the connector dashboard and in the __Resource Types__ frame, click on __Jobs__ > __Classify Resource Types__.
 
-![Resource Type Jobs](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/synchro_resourcetype_v602.webp)
+![Resource Type Jobs](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/synchro_resourcetype_v602.webp)
 
 ## Verify Classification
 
 In order to verify the process, analyze samples and check that all objects are classified, and well classified. To do so, click on the target entity type(s) affected by your rule(s) in the left menu of the home page.
 
-![Test Entity Type](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/entitytypecreation_test_v602.webp)
+![Test Entity Type](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/entitytypecreation_test_v602.webp)
 
 The entity type's page can be configured via XML to customize all displayed columns and available filters, especially the __Uncategorized__ filter that spots unclassified resources, and the __Owner / Resource Type__ column that shows the resource type assigned to each resource.
 
-![Owner / Resource Type Column](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/classification_test_v522.webp)
+![Owner / Resource Type Column](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/classification_test_v522.webp)
 
 Therefore, check that all resources show here a resource type. Moreover, a knowledgeable person must analyze a few samples to ensure that resources are classified in the right resource type.
 
@@ -136,7 +136,7 @@ Therefore, check that all resources show here a resource type. Moreover, a knowl
 
 If a resource is not classified (or not correctly), then:
 
-![Unclassified Resource](/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/classification_unclassified_v600.webp)
+![Unclassified Resource](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/classification_unclassified_v600.webp)
 
 - If the resource is correlated, check whether the corresponding correlation rule is in the right resource type.
 - If the resource is not correlated, check the validity of the classification rules.

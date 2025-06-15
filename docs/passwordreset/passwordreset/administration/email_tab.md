@@ -6,7 +6,7 @@ E-mail Tab
 
 Use the __E-mail__ tab to configure how e-mail is sent to users, when it is sent, and also to edit the e-mail templates.
 
-![configuring_npr_3](/img/product_docs/passwordreset/passwordreset/administration/configuring_npr_3.webp)
+![configuring_npr_3](../../../../static/img/product_docs/passwordreset/passwordreset/administration/configuring_npr_3.webp)
 
 ### E-mail Delivery
 
@@ -21,7 +21,7 @@ Triggers define when e-mails are sent. If the trigger for an event is enabled, t
 
 Click the name of an enabled trigger to edit the trigger's e-mail template.
 
-![configuring_npr_4](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/configuring_npr_4.webp)
+![configuring_npr_4](../../../../static/img/product_docs/passwordpolicyenforcer/passwordreset/administration/configuring_npr_4.webp)
 
 Type the name and e-mail address you wish to appear in the e-mail's From field in the __From__ text box. The correct format is "Display Name" `<mailbox@domain.com>`  
 Type the recipient's e-mail address in the __To__ text box. The correct format is "Display Name" `<mailbox@domain.com>`. Separate multiple recipients with a semicolon. You can also use these macros.
@@ -51,8 +51,8 @@ Password Reset stores the user's preferred language every time they successfully
 Use the drop-down list at the bottom of the E-mail template editor to switch between template languages. Changes are preserved as you switch between languages. The __From__, __To__, and __Bcc__ are the same for all languages.  
 A warning icon is shown beside the language drop-down list if an e-mail template is not defined for every language. You should define an e-mail template for every language to ensure that users can understand their e-mail alerts.
 
-![configuring_npr_5](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/configuring_npr_5.webp)
+![configuring_npr_5](../../../../static/img/product_docs/passwordpolicyenforcer/passwordreset/administration/configuring_npr_5.webp)
 
-__CAUTION:__ An attacker may choose a specific language to avoid detection. E-mail alerts are sent in the Web Interface language chosen by the attacker if the target user has not enrolled or changed their password with Password Reset. The target user will receive the e-mail alerts, but they may not understand them. Use the Rest API to remind new users to enroll so their preferred language is known to Password Reset. See the [Enabling the API](/docs/passwordreset/passwordreset/administration/persuading_users_to_enroll.md#enabling-the-api) topic for additional information.
+__CAUTION:__ An attacker may choose a specific language to avoid detection. E-mail alerts are sent in the Web Interface language chosen by the attacker if the target user has not enrolled or changed their password with Password Reset. The target user will receive the e-mail alerts, but they may not understand them. Use the Rest API to remind new users to enroll so their preferred language is known to Password Reset. See the [Enabling the API](persuading_users_to_enroll.md#enabling-the-api) topic for additional information.
 
 

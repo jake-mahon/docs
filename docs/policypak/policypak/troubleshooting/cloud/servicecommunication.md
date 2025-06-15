@@ -2,7 +2,7 @@
 
 To test the connection between the client and service, start by entering the  ```PPCLOUD /SYNC``` command from the command line. If the return message is Could not sync with cloud, the Netwrix Endpoint Policy Manager (formerly PolicyPak) Cloud client cannot communicate with Endpoint Policy Manager Cloud Server.
 
-![256_1_pp-faq-000001](/img/product_docs/policypak/policypak/troubleshooting/cloud/256_1_pp-faq-000001.webp)
+![256_1_pp-faq-000001](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/cloud/256_1_pp-faq-000001.webp)
 
 The main reasons for this connection issue are:
 
@@ -18,12 +18,12 @@ __NOTE:__ If you don't have Telnet on Windows, see this video on [How to Enable 
 
 __Step 2 –__ At a command prompt, type in the following: ```telnet cloud-agent.policypak.com 443```
 
-![Telnet Cloud Agent Script](/img/product_docs/policypak/policypak/troubleshooting/cloud/telnetcloudagent.jpg)
+![Telnet Cloud Agent Script](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/cloud/telnetcloudagent.jpg)
 
 - If the command just hangs and takes a long time to complete, then comes back with Connection failed, then the communication failed i.
 - If the command clears the screen and the cursor goes to the top, then the communication passes. See the image below for example.
 
-![Communication Passes](/img/product_docs/policypak/policypak/troubleshooting/cloud/communicationpasses.webp)
+![Communication Passes](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/cloud/communicationpasses.webp)
 
 __Step 3 –__ You can also try ```telnet cloud-agent.policypak.com 80```
 
@@ -32,5 +32,5 @@ __Step 3 –__ You can also try ```telnet cloud-agent.policypak.com 80```
 
 Additional Considerations
 
-- If the connection fails, that could mean there is some kind of proxy. To configure the proxy for the system, see the [I always use a proxy and the cloud client cannot seem to make contact with the services (see FAQ Item #3 above first.) What else can I try?](/docs/policypak/policypak/troubleshooting/cloud/proxyservices.md) topic for additional information.
-- If the connection passes, that could mean the Date and Time are wrong on the machine. First manually try to correct the date and time. Then run ```PPCLOUD /SYNC``` command and see if it succeeds. If that still fails to work, see the [I am getting an error about "GPSVC failed at sign-in". This error occurs exactly one time. What does this mean?](/docs/policypak/policypak/troubleshooting/error/gpsvcfailed.md) topic for additional information on alternative time fix instructions.
+- If the connection fails, that could mean there is some kind of proxy. To configure the proxy for the system, see the [I always use a proxy and the cloud client cannot seem to make contact with the services (see FAQ Item #3 above first.) What else can I try?](proxyservices.md) topic for additional information.
+- If the connection passes, that could mean the Date and Time are wrong on the machine. First manually try to correct the date and time. Then run ```PPCLOUD /SYNC``` command and see if it succeeds. If that still fails to work, see the [I am getting an error about "GPSVC failed at sign-in". This error occurs exactly one time. What does this mean?](../error/gpsvcfailed.md) topic for additional information on alternative time fix instructions.

@@ -8,7 +8,7 @@ Navigate to the __Active Directory Permissions Analyzer__ > __7.Containers__ > _
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the AD_ContainerPermissions Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/containers/containerpermissionsanalysis.webp)
+![Analysis Tasks for the AD_ContainerPermissions Job](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/containers/containerpermissionsanalysis.webp)
 
 The default analysis tasks are:
 

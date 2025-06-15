@@ -24,4 +24,4 @@ If communication with the SMS gateway is through a proxy server, you can use thi
 
 __See Also__
 
-- [Implement and Deploy a Custom SMS Gateway](/docs/groupid/groupid/admincenter/smsgateway/implementcustom.md)
+- [Implement and Deploy a Custom SMS Gateway](../implementcustom.md)

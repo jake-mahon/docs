@@ -23,22 +23,22 @@ These reports are available from __Flashlight__ > __Reports / List Views__ > __C
 
 These reports are available from __Flashlight__ > __Reports / List Views__ > __Clean Up__.
 
-> [Default Clean Up List View](/docs/strongpointsalesforceflashlight/clean_up/cleanup_reports.md#default-clean-up-list-view)
+> [Default Clean Up List View](../clean_up/cleanup_reports.md#default-clean-up-list-view)
 >
-> [Open Clean Up Status](/docs/strongpointsalesforceflashlight/clean_up/cleanup_reports.md#open-clean-up-status)
+> [Open Clean Up Status](../clean_up/cleanup_reports.md#open-clean-up-status)
 >
-> [Clean Up Waiting for Info](/docs/strongpointsalesforceflashlight/clean_up/cleanup_reports.md#clean-up-waiting-for-info)
+> [Clean Up Waiting for Info](../clean_up/cleanup_reports.md#clean-up-waiting-for-info)
 >
-> [Customizations Excluded from Clean Up](/docs/strongpointsalesforceflashlight/clean_up/cleanup_reports.md#customizations-excluded-from-clean-up)
+> [Customizations Excluded from Clean Up](../clean_up/cleanup_reports.md#customizations-excluded-from-clean-up)
 >
-> [Unused Fields](/docs/strongpointsalesforceflashlight/clean_up/cleanup_reports.md#unused-fields)
+> [Unused Fields](../clean_up/cleanup_reports.md#unused-fields)
 >
-> [Unused Scripts](/docs/strongpointsalesforceflashlight/clean_up/cleanup_reports.md#unused-scripts)
+> [Unused Scripts](../clean_up/cleanup_reports.md#unused-scripts)
 >
-> [Unused Reports](/docs/strongpointsalesforceflashlight/clean_up/cleanup_reports.md#unused-reports)
+> [Unused Reports](../clean_up/cleanup_reports.md#unused-reports)
 >
-> [Customizations with Inactive Owners](/docs/strongpointsalesforceflashlight/clean_up/cleanup_reports.md#customizations-with-inactive-owners)
+> [Customizations with Inactive Owners](../clean_up/cleanup_reports.md#customizations-with-inactive-owners)
 >
-> [Custom Fields without Help Text](/docs/strongpointsalesforceflashlight/clean_up/cleanup_reports.md#custom-fields-without-help-text)
+> [Custom Fields without Help Text](../clean_up/cleanup_reports.md#custom-fields-without-help-text)
 >
-> [Custom Fields without Description](/docs/strongpointsalesforceflashlight/clean_up/cleanup_reports.md#custom-fields-without-description)
+> [Custom Fields without Description](../clean_up/cleanup_reports.md#custom-fields-without-description)

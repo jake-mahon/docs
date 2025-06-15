@@ -11,13 +11,13 @@ The following is a Microsoft-sanctioned way to establish the Start Screen and Ta
 
 The exported file from this process might look something like what's seen in Figure 1.
 
-![about_policypak_start_screen](/img/product_docs/policypak/policypak/startscreentaskbar/insouts/about_policypak_start_screen.webp)
+![about_policypak_start_screen](../../../../../static/img/product_docs/policypak/policypak/startscreentaskbar/insouts/about_policypak_start_screen.webp)
 
 Figure 1. An exported XML file using the Microsoft-sanctioned way to establish the Start Screen and Taskbar for Windows 10.
 
 Next, you would configure the Group Policy setting called "Start Layout," seen in Figure 2.
 
-![about_policypak_start_screen_1](/img/product_docs/policypak/policypak/startscreentaskbar/insouts/about_policypak_start_screen_1.webp)
+![about_policypak_start_screen_1](../../../../../static/img/product_docs/policypak/policypak/startscreentaskbar/insouts/about_policypak_start_screen_1.webp)
 
 Figure 2. Configuring Group Policy settings after establishing the Start Screen and Taskbar using the in-box, Microsoft-sanctioned way.
 

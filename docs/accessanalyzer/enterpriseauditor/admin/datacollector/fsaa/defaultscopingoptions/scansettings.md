@@ -2,7 +2,7 @@
 
 The Scan Settings tab allows configuration of data collection settings.
 
-![FSAA Data Collector Wizard Default Scoping Options page Scan Settings tab](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/scansettings.webp)
+![FSAA Data Collector Wizard Default Scoping Options page Scan Settings tab](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/scansettings.webp)
 
 The Scan Settings tab has the following configurable options:
 
@@ -19,7 +19,7 @@ The Scan Settings tab has the following configurable options:
 
 Selecting the  __Last Access Time (LAT) preservation__ checkbox enables the __Action on failure to enable LAT preservation__ and __Action on changed LAT after scan__ dropdown menus.
 
-![Action on failure to enable LAT preservation dropdown options](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/defaultscopingoptions/actionlatpreservationfailure.webp)
+![Action on failure to enable LAT preservation dropdown options](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/defaultscopingoptions/actionlatpreservationfailure.webp)
 
 - Action on failure to enable LAT Preservation – Before scanning each file, FSAA attempts to enable an operating system feature to preserve the LAT when accessing the file. This operation may fail for a variety of reasons, which include but are not limited to: the operating system or file system where the file is located does not support LAT preservation, or insufficient permissions from the service account trying to access the file. The following configuration addresses a failure to enable the LAT preservation mode:
 
@@ -29,7 +29,7 @@ Selecting the  __Last Access Time (LAT) preservation__ checkbox enables the __Ac
   - Skip file with warning – FSAA will not scan the file. A warning will be shown indicating the file was skipped.
   - Abort the scan – FSAA will abort the scan. No further files will be processed.
 
-![Action on changed LAT after scan dropdown options](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/defaultscopingoptions/actionchangedlat.webp)
+![Action on changed LAT after scan dropdown options](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/defaultscopingoptions/actionchangedlat.webp)
 
 - Action on changed LAT After scan – Before scanning each file, the LAT of the current file is recorded. After scanning, it is verified whether the LAT has changed since then (likely scenarios are either that the LAT preservation mechanism failed to function as intended, or that the file was accessed by someone while the scan was occurring). The following configuration addresses a changed LAT:
 

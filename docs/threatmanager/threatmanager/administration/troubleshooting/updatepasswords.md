@@ -12,11 +12,11 @@ __Step 1 –__ Navigate to the Integrations menu __Settings__ > __Integrations__
 
 __Step 2 –__ Select the account under the __Credential Profile__ drop-down list.
 
-![credentialprofileedit](/img/product_docs/threatmanager/threatmanager/administration/troubleshooting/credentialprofileedit.webp)
+![credentialprofileedit](../../../../../static/img/product_docs/threatmanager/threatmanager/administration/troubleshooting/credentialprofileedit.webp)
 
 __Step 3 –__ Click the __Edit__ icon.
 
-![credentialprofilepasswordupdate](/img/product_docs/threatmanager/threatmanager/administration/troubleshooting/credentialprofilepasswordupdate.webp)
+![credentialprofilepasswordupdate](../../../../../static/img/product_docs/threatmanager/threatmanager/administration/troubleshooting/credentialprofilepasswordupdate.webp)
 
 __Step 4 –__ Enter a new Password for the account.
 

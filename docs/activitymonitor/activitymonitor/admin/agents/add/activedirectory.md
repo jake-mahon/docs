@@ -1,52 +1,52 @@
 # Active Directory Agent Deployment
 
-Before deploying the Active Directory (AD) agent, ensure all [AD Agent Server Requirements](/docs/activitymonitor/activitymonitor/requirements/adagent.md) have been met. To effectively monitor Active Directory, it is necessary to deploy an AD agent to every domain controller, including the read only domain controllers. However, it is possible to deploy the agents in batches. Follow the steps to deploy the AD agents to the domain controllers in the target domain.
+Before deploying the Active Directory (AD) agent, ensure all [AD Agent Server Requirements](../../../requirements/adagent.md) have been met. To effectively monitor Active Directory, it is necessary to deploy an AD agent to every domain controller, including the read only domain controllers. However, it is possible to deploy the agents in batches. Follow the steps to deploy the AD agents to the domain controllers in the target domain.
 
 __NOTE:__ These steps are specific to deploying AD agents for monitoring Active Directory.
 
 __Step 1 –__ On the Agents tab, click Add agent to open the Add New Agent(s) window.
 
-![Install New Agent](/img/product_docs/activitymonitor/activitymonitor/install/agent/installnew.webp)
+![Install New Agent](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/agent/installnew.webp)
 
 __Step 2 –__ Click on the Install agents on Active Directory domain controllers link to deploy activity agents to multiple domain controllers.
 
 __NOTE:__ The Activity Monitor will validate the entered Host Name or IP Address entered in the __Server Name__ text box.
 
-![Specify Agent Port](/img/product_docs/activitymonitor/activitymonitor/install/agent/portdefault.webp)
+![Specify Agent Port](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/agent/portdefault.webp)
 
 __Step 3 –__ Specify the port that should be used by the new agent(s).
 
-![Agent Install Location](/img/product_docs/activitymonitor/activitymonitor/admin/agents/add/locationdefault.webp)
+![Agent Install Location](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/agents/add/locationdefault.webp)
 
 __Step 4 –__ Select the agent installation path.
 
 ___RECOMMENDED:___ Use the default installation path.
 
-![Active Directory Connection page with blank text boxes](/img/product_docs/activitymonitor/activitymonitor/admin/agents/add/adconnectionblank.webp)
+![Active Directory Connection page with blank text boxes](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/agents/add/adconnectionblank.webp)
 
 __Step 5 –__ On the Active Directory Connection page, enter the domain, and specify an account that is a member of BUILTIN\Administrators group on the domain. Then, click __Connect__.
 
-![Example of a successful connection on the Active Directory Connection page](/img/product_docs/activitymonitor/activitymonitor/admin/agents/add/adconnectionsuccessful.webp)
+![Example of a successful connection on the Active Directory Connection page](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/agents/add/adconnectionsuccessful.webp)
 
 When the connection is successful, the Next button is enabled. Click Next to continue.
 
 __NOTE:__ An Administrator’s credentials are required to test the connection to the server. This is the only way to enable the Next button.
 
-![Domains to Monitor page](/img/product_docs/activitymonitor/activitymonitor/admin/agents/add/domainstomonitorpage.webp)
+![Domains to Monitor page](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/agents/add/domainstomonitorpage.webp)
 
 __Step 6 –__ On the Domains To Monitor page, available domains display in a list, checked by default. Check/uncheck the boxes as desired to identify the domains to monitor, then click Next.
 
-![Domain Controllers to Deploy the Agent to page](/img/product_docs/activitymonitor/activitymonitor/admin/agents/add/dcstodeploytheagenttopage.webp)
+![Domain Controllers to Deploy the Agent to page](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/agents/add/dcstodeploytheagenttopage.webp)
 
 __Step 7 –__ On the Domain Controllers to deploy the Agent to page, available domain controllers display in a list, checked by default. Check/uncheck the boxes as desired to identify the domain controllers where the AD agent is to be deployed.
 
 __NOTE:__ Agents can be gradually deployed, but the AD agent needs to be installed on all domain controllers to monitor all activity of the domain.
 
-![Test Connection to Domain Controller](/img/product_docs/activitymonitor/activitymonitor/admin/agents/add/dcsdeployagentconnection.webp)
+![Test Connection to Domain Controller](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/agents/add/dcsdeployagentconnection.webp)
 
 __Step 8 –__ Click the __Test__ button to verify the connection to the domains selected. Once the connection is verified, click __Next__ to continue.
 
-![Windows Agent Settings Page](/img/product_docs/activitymonitor/activitymonitor/admin/agents/add/windowsagentsettingspage.webp)
+![Windows Agent Settings Page](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/agents/add/windowsagentsettingspage.webp)
 
 __Step 9 –__ On the Windows Agent Settings page, there are two settings to configure.
 
@@ -57,6 +57,6 @@ __Step 10 –__ Click __Finish__. The Add New Agent(s) window closes, and the ac
 
 During the installation process, the status will be Installing. If there are any errors, the Activity Monitor stops the installation and lists the errors in the Agent messages box.
 
-![AD Agent Installed](/img/product_docs/activitymonitor/activitymonitor/admin/agents/add/adagentinstalled.webp)
+![AD Agent Installed](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/agents/add/adagentinstalled.webp)
 
-When the AD agent installation is complete, the status changes to __Installed__ and the agent version populates in the AD Module column. The next step is to configure the domains to be monitored. See the [Monitored Domains Tab](/docs/activitymonitor/activitymonitor/admin/monitoreddomains/overview.md) section for additional information.
+When the AD agent installation is complete, the status changes to __Installed__ and the agent version populates in the AD Module column. The next step is to configure the domains to be monitored. See the [Monitored Domains Tab](../../monitoreddomains/overview.md) section for additional information.

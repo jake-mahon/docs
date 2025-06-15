@@ -2,13 +2,13 @@
 
 Control panel items are some of the items you might want to deploy settings to and lock down with Endpoint Policy Manager AppLock™. Control Panel items can be items such as the control panel for mouse, as shown in Figure 203, or items like the Adobe Flash Player Settings Manager or Internet Explorer Settings. These applications are special for Endpoint Policy Manager Application Settings Manager, and as such, there is special procedure in order to lock them down. In short, do not use 64-bit machines to try to capture Control Panel applets. Figure 203 shows that Endpoint Policy Manager DesignStudio sees the process as rundll32.exe when it is running on a 64-bit machine.
 
-![special_applications_and_project_3](/img/product_docs/policypak/policypak/applicationsettings/designstudio/applicationsprojects/special_applications_and_project_3.webp)
+![special_applications_and_project_3](../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/designstudio/applicationsprojects/special_applications_and_project_3.webp)
 
 Figure 203. The Control Panel item when running DesignStudio on a 64-bit machine.
 
 When Endpoint Policy Manager DesignStudio is running on a 32-bit machine, can see that the Control Panel applet's name is being called by a CPL extension (see Figure 204).
 
-![special_applications_and_project_4](/img/product_docs/policypak/policypak/applicationsettings/designstudio/applicationsprojects/special_applications_and_project_4.webp)
+![special_applications_and_project_4](../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/designstudio/applicationsprojects/special_applications_and_project_4.webp)
 
 Figure 204. The Control Panel item when running DesignStudio on a 32-bit machine.
 

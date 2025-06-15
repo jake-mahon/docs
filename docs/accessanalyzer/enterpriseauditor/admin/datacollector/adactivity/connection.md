@@ -4,7 +4,7 @@ The SAM connection page is where the port number is configured to send Active Di
 
 - Import from SAM
 
-![Active Directory Activity DC wizard SAM connection settings page](/img/product_docs/activitymonitor/config/activedirectory/namconnection.webp)
+![Active Directory Activity DC wizard SAM connection settings page](../../../../../../static/img/product_docs/activitymonitor/config/activedirectory/namconnection.webp)
 
 The following connection setting can be configured to connect to the Netwrix Activity Monitor archive via an API Server:
 

@@ -6,7 +6,7 @@ To leverage data collected with the add-on, you can do the following in Auditor:
 
 You might want to apply a filter to narrow down your search results to the Netwrix__API__ data source only.
 
-![screen_results](/img/product_docs/auditor/auditor/addon/nutanixahv/nutanixahv_thumb_0_0.webp)
+![screen_results](../../../../../static/img/product_docs/auditor/auditor/addon/nutanixahv/nutanixahv_thumb_0_0.webp)
 
 - Also, you can click __Tools__ in the upper-right corner and select the command you need. For example:
   - If you want to periodically receive the report on the results of search with the specified criteria, click __Subscribe__. Then specify how you want the report to be delivered – as an email or as a file stored to the file share.
@@ -16,6 +16,6 @@ You might want to apply a filter to narrow down your search results to the Netwr
 
 See the following topics for additional information:
 
-- [Alerts](/docs/auditor/auditor/admin/alertsettings/overview.md)
-- [View and Search Collected Data](/docs/auditor/auditor/admin/search/overview.md)
-- [Subscriptions](/docs/auditor/auditor/admin/subscriptions/overview.md)
+- [Alerts](../../admin/alertsettings/overview.md)
+- [View and Search Collected Data](../../admin/search/overview.md)
+- [Subscriptions](../../admin/subscriptions/overview.md)

@@ -6,7 +6,7 @@ As an __Additional Reviewer__, you can only review Users in the Role Membership 
 
 Reviews open on the __Review__ tab. The __Review Notes__ tab lists the review details for the review.
 
-![Opening a review as an additional user](/img/product_docs/strongpointfornetsuite/uar/uar_additional_reviewer/additional_user_review.webp)
+![Opening a review as an additional user](../../../../static/img/product_docs/strongpointfornetsuite/uar/uar_additional_reviewer/additional_user_review.webp)
 
 ## Membership Review Actions
 
@@ -35,9 +35,9 @@ This display provides a global view of the user's access.
 - __Additional Reviewer__: the additional reviewer assigned to the role.
 
 1. Select the user.  
-   ![Reviewing user roles](/img/product_docs/strongpointfornetsuite/uar/uar_additional_reviewer/additional_user_reviewer_review.webp)
+   ![Reviewing user roles](../../../../static/img/product_docs/strongpointfornetsuite/uar/uar_additional_reviewer/additional_user_reviewer_review.webp)
 2. Review their Global Permissions, Other Roles, and SoD Violations. The links all open the specific records for further review. If the user should retain the role, click __Mark Completed__. The status is updated. You cannot undo this action.  
-   ![Mark your review complete](/img/product_docs/strongpointfornetsuite/uar/uar_additional_reviewer/additional_user_reviewer_complete.webp)
+   ![Mark your review complete](../../../../static/img/product_docs/strongpointfornetsuite/uar/uar_additional_reviewer/additional_user_reviewer_complete.webp)
 3. Click __Submit__ or make additional changes.
 
 ### Remove Users from the Role
@@ -47,15 +47,15 @@ To remove one or more users from the role:
 1. Select the user.
 2. Review their Global Permissions, Other Roles, and SoD Violations. The links all open the specific records for further review. If the user should be removed from the role, click __Remove Role Membership__. The user line is highlighted. Click __Undo__ to cancel changes that have not be submitted.
 3. Click __Submit__ or make additional changes. A Change Request is generated for each user removed from the role. Status is changed to either __Change Request__ and the __Change Request ID__ added, or __Waiting for CR__ if there is an existing change request in progress as part of another review. Click the __Change Request ID__ to open the Change Request.  
-   ![Remove a role](/img/product_docs/strongpointfornetsuite/uar/uar_additional_reviewer/additional_user_review_remove.webp)  
-   If the Change Request is rejected (__CR Rejected status__) or canceled (__CR Cancelled__), the user row is returned to a pending state and can then be reviewed again. ![Remove a user from a role](/img/product_docs/strongpointfornetsuite/uar/uar_owner/remove_user_from_role.webp)  
+   ![Remove a role](../../../../static/img/product_docs/strongpointfornetsuite/uar/uar_additional_reviewer/additional_user_review_remove.webp)  
+   If the Change Request is rejected (__CR Rejected status__) or canceled (__CR Cancelled__), the user row is returned to a pending state and can then be reviewed again. ![Remove a user from a role](../../../../static/img/product_docs/strongpointfornetsuite/uar/uar_owner/remove_user_from_role.webp)  
    If the Change Request is rejected (__CR Rejected status__) or canceled (__CR Cancelled__), the user row is returned to a pending state and can then be reviewed again.
 
 ## Review Notes
 
 Every record has review notes with details about the changes. Only submitted changes are captured. The UAR list opens on the __Review__ tab. Click __Review Notes__ to open the notes tab. You can __Export__ the notes as a CSV or PDF file.
 
-![Open the Review Notes tab](/img/product_docs/strongpointfornetsuite/uar/uar_owner/review_notes_tab.webp)
+![Open the Review Notes tab](../../../../static/img/product_docs/strongpointfornetsuite/uar/uar_owner/review_notes_tab.webp)
 
 The notes have the following fields:
 

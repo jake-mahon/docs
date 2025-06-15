@@ -6,7 +6,7 @@ The Configure page of the Chart Configuration wizard allows you to configure the
 
 The Chart Configuration tab is split into three sections, label column selection, series configuration, and a chart preview. Use this tab to configure the columns from the data source to be shown in the chart.
 
-![Chart Configuration wizard Configure page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/analysis/configure.webp)
+![Chart Configuration wizard Configure page](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/analysis/configure.webp)
 
 The left side shows all the columns from the data source table that can be used for the label axis. For example, the label column is the x-axis on a line chart and the y-axis on a bar chart. Select the checkbox of the desired label column from the list. You can use the search bar to filter this list of columns.
 
@@ -26,13 +26,13 @@ The table on the right is where the data series are configured. For configured d
 
 At the bottom of the page is a preview of the chart as it is currently configured using the available data. See the [Chart Preview](#chart-preview) topic for additional information. Additionally, you can see a preview of the source data table in the Data Preview tab. See the [Data Preview](#data-preview) topic for additional information.
 
-Once you have finished configuring the chart, click __Finish__ to close the wizard. You are returned to the Widgets page of the Report Configuration wizard, where the newly configured chart is shown. You must complete the Report Configuration wizard to save the chart on the report. See the [Widgets Page](/docs/accessanalyzer/enterpriseauditor/admin/report/wizard/widgets.md) topic for additional information.
+Once you have finished configuring the chart, click __Finish__ to close the wizard. You are returned to the Widgets page of the Report Configuration wizard, where the newly configured chart is shown. You must complete the Report Configuration wizard to save the chart on the report. See the [Widgets Page](../wizard/widgets.md) topic for additional information.
 
 ### Add New Series / Edit Series Window
 
 The Add new series and Edit series windows allow you to configure the data series of the chart. The appropriate window is opened by clicking __Add__ to create a new series, or by selecting an existing series and clicking __Edit__.
 
-![Add new series window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/report/chartwizard/addnewseries.webp)
+![Add new series window](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/report/chartwizard/addnewseries.webp)
 
 These windows contain the following options for the data series:
 
@@ -57,7 +57,7 @@ Click __OK__ on the window to save the new or modified series, or click __Cance
 
 At the bottom of the page a preview of the currently configured chart is displayed.
 
-![Chart preview](/img/product_docs/accessanalyzer/enterpriseauditor/admin/report/chartwizard/configurechartpreview.webp)
+![Chart preview](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/report/chartwizard/configurechartpreview.webp)
 
 If the configuration is incomplete or invalid, a message with instructions to fix the configuration is displayed in the preview window instead. The following are possible messages and scenarios that would cause them:
 
@@ -71,7 +71,7 @@ If the configuration is incomplete or invalid, a message with instructions to fi
 
 The Data Preview tab allows you to see and customize the data that is to be shown in the chart.
 
-![Data Preview tab](/img/product_docs/accessanalyzer/enterpriseauditor/admin/report/chartwizard/configuredatapreview.webp)
+![Data Preview tab](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/report/chartwizard/configuredatapreview.webp)
 
 The buttons above the column names provide you the following options for configuring the table arrangement:
 

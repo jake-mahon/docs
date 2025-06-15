@@ -9,13 +9,13 @@ This page is about:
 - Messaging/Slack
 - PAM/CyberArk
 
-![Package: Custom/SCIM](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/packages_scim_v603.webp)
+![Package: Custom/SCIM](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/packages_scim_v603.webp)
 
-![Package: CRM/Salesforce](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/packages_salesforce_v603.webp)
+![Package: CRM/Salesforce](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/packages_salesforce_v603.webp)
 
-![Package: Messaging/Slack](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/packages_slack_v603.webp)
+![Package: Messaging/Slack](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/packages_slack_v603.webp)
 
-![Package: PAM/CyberArk](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/packages_cyberark_v603.webp)
+![Package: PAM/CyberArk](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/packages_cyberark_v603.webp)
 
 ## Overview
 
@@ -43,29 +43,29 @@ To connect to the Salesforce application do the following:
 
 __Step 1 –__ Log into Salesforce using an admin account.
 
-![salesforce-advancesetup](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/salesforce-advancesetup.webp)
+![salesforce-advancesetup](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/salesforce-advancesetup.webp)
 
 __Step 2 –__ Go to __Advanced Setup__.
 
-![salesforce-newconnectedapp](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/salesforce-newconnectedapp.webp)
+![salesforce-newconnectedapp](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/salesforce-newconnectedapp.webp)
 
 __Step 3 –__ Go to __App Manager__ and __Create a Connected App__.
 
-![salesforce-enableoauth](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/salesforce-enableoauth.webp)
+![salesforce-enableoauth](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/salesforce-enableoauth.webp)
 
 __Step 4 –__ Fill in the details of the application: Application Name, API Name, Contact Email, select __Enable OAuth Settings__, and complete the mandatory information as callback URL and OAuth Scopes.
 
 __Step 5 –__ Save the Application.
 
-![salesforce-manageconnectedapps](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/salesforce-manageconnectedapps.webp)
+![salesforce-manageconnectedapps](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/salesforce-manageconnectedapps.webp)
 
 __Step 6 –__ Go to __Manage Connected Apps__ and click on the newly created application.
 
-![salesforce-manageconsumerdetails](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/salesforce-manageconsumerdetails.webp)
+![salesforce-manageconsumerdetails](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/salesforce-manageconsumerdetails.webp)
 
 __Step 7 –__ Click on __Manage Consumer Details__.
 
-![salesforce-consumerkey](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/salesforce-consumerkey.webp)
+![salesforce-consumerkey](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/salesforce-consumerkey.webp)
 
 __Step 8 –__ Copy the Consumer Key and Consumer Secret in your Keypass.
 
@@ -75,11 +75,11 @@ To enable the OAuth authentication do the following:
 
 __Step 1 –__ Log into Salesforce using an admin account.
 
-![salesforce-advancesetup](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/salesforce-advancesetup.webp)
+![salesforce-advancesetup](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/salesforce-advancesetup.webp)
 
 __Step 2 –__ Go to __Advanced Setup__.
 
-![oauthauthentication](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/oauthauthentication.webp)
+![oauthauthentication](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/oauthauthentication.webp)
 
 __Step 3 –__ Go to __OAuth__ and __OpenID Connect Settings__ in the __Identity__ drop-down menu, enable the option to __Allow OAuth Username-Password Flows__.
 
@@ -89,15 +89,15 @@ To reset the user token do the following:
 
 __Step 1 –__ Log into Salesforce using an admin account.
 
-![salesforce-usertoken-settings](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/salesforce-usertoken-settings.webp)
+![salesforce-usertoken-settings](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/salesforce-usertoken-settings.webp)
 
 __Step 2 –__ Click on __Settings__ under the profile details.
 
-![salesforce-resetseuritytoken](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/salesforce-resetseuritytoken.webp)
+![salesforce-resetseuritytoken](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/salesforce-resetseuritytoken.webp)
 
 __Step 3 –__ Click on __Reset My Security Token__.
 
-![salesforce-checkemail](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/salesforce-checkemail.webp)
+![salesforce-checkemail](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/salesforce-checkemail.webp)
 
 __Step 4 –__ An email containing the new token will be sent.
 
@@ -107,15 +107,15 @@ To configure the Salesforce connection do the following:
 
 __Step 1 –__ Log into Identity Manager using an admin account.
 
-![salesforce-connector](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/salesforce-connector.webp)
+![salesforce-connector](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/salesforce-connector.webp)
 
 __Step 2 –__ Create a new Salesforce connector.
 
-![salesforce-connection](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/salesforce-connection.webp)
+![salesforce-connection](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/salesforce-connection.webp)
 
 __Step 3 –__ Add a new Salesforce connection.
 
-![salesforce-agent-settings](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/salesforce-agent-settings.webp)
+![salesforce-agent-settings](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/scim/salesforce-agent-settings.webp)
 
 __Step 4 –__ Fill the fields in the __Connection Settings__ and choose the __Filter__.
 
@@ -126,7 +126,7 @@ The configuration of the Salesforce connector is completed.
 This process is configured through a connection in the UI and/or the XML configuration, and in the __appsettings.agent.json__ > __Connections__ section.   
 See the [
 Connection
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) topic for additional information.
+](../../../toolkit/xml-configuration/connectors/connection/index.md) topic for additional information.
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
@@ -201,9 +201,9 @@ This connector is meant to generate to the ExportOutput folder the following CSV
   - MemberId — ID of the group member
 - One file for each entity named Containers such as CyberArk's privileged data, named ```<connectionIdentifier>_privilegedData_Containers.csv```.
 
-See the [Application Settings](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) and [
+See the [Application Settings](../../../network-configuration/agent-configuration/appsettings/index.md) and [
 Entity Type Mapping
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) topics for additional information.
+](../../../toolkit/xml-configuration/connectors/entitytypemapping/index.md) topics for additional information.
 
 For the connector to work properly, the connection tables must follow the naming conventions too: ```<identifier>_<entity> for entities and <identifier>_members_<entity>``` for links.
 
@@ -301,8 +301,8 @@ Data protection can be ensured through:
 
 See the [
 RSA Encryption
-](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md), [Azure Key Vault](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md), and [CyberArk's AAM Credential Providers
-](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)topics for additional information.
+](../../../network-configuration/agent-configuration/rsa-encryption/index.md), [Azure Key Vault](../../../network-configuration/agent-configuration/azure-key-vault/index.md), and [CyberArk's AAM Credential Providers
+](../../../network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)topics for additional information.
 
 Protected attributes are stored inside a safe in CyberArk, into an account whose identifier can be retrieved by Identity Manager from ```appsettings.cyberark.agent.json```.
 

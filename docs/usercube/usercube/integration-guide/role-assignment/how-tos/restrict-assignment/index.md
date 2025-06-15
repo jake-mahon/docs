@@ -6,7 +6,7 @@ This guide shows how to use filters on dimensions and/or roles to restrict the a
 
 The restriction of resource allocations is done from a filter. To do this, it is necessary to create [
 Dimension
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/metadata/dimension/index.md) to define which EntityTypes the filters will apply to.
+](../../../toolkit/xml-configuration/metadata/dimension/index.md) to define which EntityTypes the filters will apply to.
 
 For the different examples of restrictions, the filters will be based on the EntityType "Organization" and "Title".
 
@@ -20,7 +20,7 @@ For the different examples of restrictions, the filters will be based on the Ent
 
 To be able to filter with the dimensions previously created, it is necessary to first create [
 Single Role
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md) which will serve as a restriction to the assignment of ResourceTypes for a given source.
+](../../../toolkit/xml-configuration/provisioning/singlerole/index.md) which will serve as a restriction to the assignment of ResourceTypes for a given source.
 
 The example below creates a SingleRole for the EntityType Directory_User (source of the ResourceTypes you want to restrict).
 
@@ -32,7 +32,7 @@ The example below creates a SingleRole for the EntityType Directory_User (source
 
 ## Assign the Role Based on the Dimension
 
-We will define a [Single Role Rule](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerolerule/index.md) on the "Title"; dimension with a given value to restrict the allocation of a resource in only one case.
+We will define a [Single Role Rule](../../../toolkit/xml-configuration/provisioning/singlerolerule/index.md) on the "Title"; dimension with a given value to restrict the allocation of a resource in only one case.
 
 ```
 
@@ -52,7 +52,7 @@ The value in property D1 implies that the rule is checked only if the source res
 
 ## Assign a Resource Type Based on the Role
 
-The restriction on the creation of these accounts is integrated directly into the type rule of the [Resource Type](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md). This implies that the ResourceType will only apply if the [Single Role Rule](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerolerule/index.md) are checked.
+The restriction on the creation of these accounts is integrated directly into the type rule of the [Resource Type](../../../toolkit/xml-configuration/provisioning/resourcetype/index.md). This implies that the ResourceType will only apply if the [Single Role Rule](../../../toolkit/xml-configuration/provisioning/singlerolerule/index.md) are checked.
 
 This part will link a SingleRole to a ResourceType. This implies that the allocation of a target resource to a source will only be done if the SingleRole rule(s) are verified.
 
@@ -65,7 +65,7 @@ This part will link a SingleRole to a ResourceType. This implies that the alloca
 
 ### Use a navigation rule instead of a type rule
 
-A [Resource Type](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md) in addition to filling a multi-valued association, also serves as an allocation context for a ResourceType.
+A [Resource Type](../../../toolkit/xml-configuration/provisioning/resourcetype/index.md) in addition to filling a multi-valued association, also serves as an allocation context for a ResourceType.
 
 There are 3 ways to restrict the allocation of the ResourceType with a NavigationRule:
 

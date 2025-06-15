@@ -6,7 +6,7 @@ The 1-FSAC System Scans job is designed to collect activity events from the targ
 
 The Activity Scan query uses the FSAA Data Collector and has been preconfigured to use the File system activity Scan category.
 
-![Query for the 1-FSAC System Scans Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/collection/fsacsystemscansquery.webp)
+![Query for the 1-FSAC System Scans Job](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/collection/fsacsystemscansquery.webp)
 
 - Activity Scan – Scans for File System Activity
 
@@ -20,7 +20,7 @@ The following default configurations are commonly customized:
   - Set scan filter for detailed activity __60__ days
   - Set filter for statistics of activity __120__ days
 
-See the [Recommended Configuration for the File System Solution](/docs/accessanalyzer/enterpriseauditor/solutions/filesystem/recommended.md) topic for a complete list of customizable settings. See the [Configure the Activity Scan Query](#configure-the-activity-scan-query) topic for instructions.
+See the [Recommended Configuration for the File System Solution](../recommended.md) topic for a complete list of customizable settings. See the [Configure the Activity Scan Query](#configure-the-activity-scan-query) topic for instructions.
 
 ### Configure the Activity Scan Query
 
@@ -34,15 +34,15 @@ __Step 3 –__ Select the __Data Source__ tab, and click __Configure__. The File
 
 __CAUTION:__ Do not make changes to other wizard pages as they have been pre-configured for the purpose of this job.
 
-![Applet Settings](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/collection/fsacappletsettings.webp)
+![Applet Settings](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/collection/fsacappletsettings.webp)
 
-__Step 4 –__ The Applet Settings page applies to the applet and proxy mode scans which are selected on the Scan Server Level Page. If employing proxy servers, see the [FSAA: Applet Settings](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/appletsettings.md) topic for configuration instructions.
+__Step 4 –__ The Applet Settings page applies to the applet and proxy mode scans which are selected on the Scan Server Level Page. If employing proxy servers, see the [FSAA: Applet Settings](../../../admin/datacollector/fsaa/appletsettings.md) topic for configuration instructions.
 
-![Scan Server Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/collection/fsacscanserverselection.webp)
+![Scan Server Selection](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/collection/fsacscanserverselection.webp)
 
-__Step 5 –__ The Scan Server Selection page applies to the applet and proxy mode scans. Remember, each mode has different provisioning requirements. See the [FSAA: Scan Server Selection](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/scanserverselection.md) topic for additional information.
+__Step 5 –__ The Scan Server Selection page applies to the applet and proxy mode scans. Remember, each mode has different provisioning requirements. See the [FSAA: Scan Server Selection](../../../admin/datacollector/fsaa/scanserverselection.md) topic for additional information.
 
-![Activity Settings](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/collection/fsacactivitysettings.webp)
+![Activity Settings](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/filesystem/collection/fsacactivitysettings.webp)
 
 __Step 6 –__ On the Activity Settings page:
 
@@ -50,7 +50,7 @@ __Step 6 –__ On the Activity Settings page:
 - Modify the number of days activity statistics are kept
 - Modify log parsing limits
 
-See the [FSAA: Activity Settings](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/activitysettings.md) topic for additional information.
+See the [FSAA: Activity Settings](../../../admin/datacollector/fsaa/activitysettings.md) topic for additional information.
 
 __Step 7 –__ Click __Finish__ to save any setting modifications or click __Cancel__ if no changes were made. Then click __OK__ to close the Query Properties window.
 

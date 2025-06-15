@@ -6,7 +6,7 @@ Reports can be viewed and configured on the Reporting page. Predefined reports a
 
 The reports on the Reporting page are organized into folders in a tree menu. Reports can be added to the Favorites folder or removed from the Favorites folder by clicking the star icon next to the report name. Each report has a Filters tab (which allows the report to be run, downloaded, or configured) and a Subscriptions tab (which allows the Privilege Secure user to Subscribe to the report via email).
 
-![Reports Tree](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/auditreporting/page/reportstree.webp)
+![Reports Tree](../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/auditreporting/page/reportstree.webp)
 
 The Search Reports box will search all report names, both predefined and custom, for the specified report name. The report tree will then be filtered down to the matching reports.
 
@@ -51,7 +51,7 @@ Click the + icon next to the Search Reports field to open a new custom report. E
 
 The Filters tab provides customization options for the new report.
 
-![Reporting Filters Tab](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/auditreporting/page/filterstab.webp)
+![Reporting Filters Tab](../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/auditreporting/page/filterstab.webp)
 
 The Filters tab has the following configuration options:
 
@@ -116,7 +116,7 @@ Any predefined report, platform-based report, or custom report under My Reports 
 
 Customize the desired configuration settings in the Filters tab.
 
-![Reporting Filters Tab](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/auditreporting/page/filterstab.webp)
+![Reporting Filters Tab](../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/auditreporting/page/filterstab.webp)
 
 The Filters tab has the following configuration options:
 
@@ -134,9 +134,9 @@ The Filters tab has the following configuration options:
 
 The Subscriptions tab allows the Privilege Secure user to Subscribe to the report via email.
 
-![Reporting Subscriptions Tab](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/auditreporting/page/subscriptionstab.webp)
+![Reporting Subscriptions Tab](../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/auditreporting/page/subscriptionstab.webp)
 
-The report will be emailed to the Email value for the user, which is populated based on Active Directory attributes and can be confirmed for a given user by checking the Users and Groups page. If a new custom schedule is needed for a Subscription, one can be created under the __Policy__ > __Platforms__ > __Schedule Policies__ menu. All Schedule Policies will show up in the list when you Subscribe to a report. See the [Schedule Policies Page](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/schedulepolicies.md) topic for additional information.
+The report will be emailed to the Email value for the user, which is populated based on Active Directory attributes and can be confirmed for a given user by checking the Users and Groups page. If a new custom schedule is needed for a Subscription, one can be created under the __Policy__ > __Platforms__ > __Schedule Policies__ menu. All Schedule Policies will show up in the list when you Subscribe to a report. See the [Schedule Policies Page](../../policy/page/schedulepolicies.md) topic for additional information.
 
 The Subscriptions tab has the following configuration options:
 

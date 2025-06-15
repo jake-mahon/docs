@@ -2,13 +2,13 @@
 
 The Oracle_SecurityAssessment Job is designed to summarize and categorize the security findings from the Oracle Solution into HIGH, MEDIUM, LOW, and NO FINDING categories base on severity.
 
-![Oracle Security Assessment Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/oracle/jobgroup46.webp)
+![Oracle Security Assessment Job](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/oracle/jobgroup46.webp)
 
 ## Analysis Tasks for the Oracle_SecurityAssessment Job
 
 Navigate to the __Databases__ > __Oracle__ > __Oracle_SecurityAssessment__ > __Configure__ node and select Analysis to view the analysis tasks.
 
-![Analysis Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/oracle/jobgroup47.webp)
+![Analysis Selection](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/oracle/jobgroup47.webp)
 
 The default analysis task is:
 

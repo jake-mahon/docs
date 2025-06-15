@@ -26,7 +26,7 @@ __Step 4 –__ Reboot the endpoint to enforce a new Certiﬁcate.
 
 __NOTE:__ Issuing the Deep Packet Inspection Certificate on Windows is handled automatically and transparently by the Endpoint Protector Client. No additional steps are required.
 
-![Conﬁguring the Deep Packet Inspection - Auto-refresh Certiﬁcate feature](/img/product_docs/endpointprotector/endpointprotector/admin/contentawareprotection/autorefreshcert.png)
+![Conﬁguring the Deep Packet Inspection - Auto-refresh Certiﬁcate feature](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/contentawareprotection/autorefreshcert.png)
 
 ## Deep Packet Inspection Certiﬁcate on macOS
 
@@ -42,21 +42,21 @@ __Step 1 –__ Go to __System Conﬁguration__ >__System Settings__ >__Deep Pack
 
 and download the __CA Certiﬁcate__.
 
-![Deep Packet Inspection Certiﬁcate on macOS](/img/product_docs/endpointprotector/endpointprotector/install/agent/dpicertificate.png)
+![Deep Packet Inspection Certiﬁcate on macOS](../../../../../static/img/product_docs/endpointprotector/endpointprotector/install/agent/dpicertificate.png)
 
 __Step 2 –__ Open the __Keychain Access__ application from your macOS and select __System__.
 
-![Keychain Access application settings on MacOs](/img/product_docs/endpointprotector/endpointprotector/install/agent/keychainaccess.png)
+![Keychain Access application settings on MacOs](../../../../../static/img/product_docs/endpointprotector/endpointprotector/install/agent/keychainaccess.png)
 
 __Step 3 –__ Decompress the downloaded __ClientCerts__ ﬁle.
 
 __Step 4 –__ Select __cacert.pem__ ﬁle and drag and drop it on __System__ > __Keychain Access__.
 
-![Configuring Client Certificate on MacOs](/img/product_docs/endpointprotector/endpointprotector/install/agent/clientcerts.png)
+![Configuring Client Certificate on MacOs](../../../../../static/img/product_docs/endpointprotector/endpointprotector/install/agent/clientcerts.png)
 
 __Step 5 –__ Double click the __X__ from the newly added certiﬁcate and from the Trust section, select __Always Trust__.
 
-![Keychain Access application settings on MacOs](/img/product_docs/endpointprotector/endpointprotector/install/agent/keychainaccesstwo.png)
+![Keychain Access application settings on MacOs](../../../../../static/img/product_docs/endpointprotector/endpointprotector/install/agent/keychainaccesstwo.png)
 
 __Step 6 –__ __Save__ the changes.
 
@@ -118,7 +118,7 @@ From this section, you can correlate the monitored applications with the ports u
 
 By default, the Deep Packet Inspection functionality comes with a list of predeﬁned ports (80, 443, 8080, etc.). You can add ports from this section, if custom ports are used in a speciﬁc network, particularly by one of the monitored applications deﬁned as an Exit Point within a Content Aware Protection Policy.
 
-![Deep Packet Inspection Ports and Settings](/img/product_docs/endpointprotector/endpointprotector/admin/contentawareprotection/dpiports.png)
+![Deep Packet Inspection Ports and Settings](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/contentawareprotection/dpiports.png)
 
 In this section you can also manage the following settings:
 
@@ -149,7 +149,7 @@ In this section you can also manage the following settings:
 
   __CAUTION:__ Endpoint Protector will block access to all Google domains (business and private) used for Gmail, Google Drive, Google Docs, etc. that are not listed here. If the list remains empty, no Google domain will be blocked.
 
-![Allowed domains for Google Business accounts](/img/product_docs/endpointprotector/endpointprotector/admin/contentawareprotection/alloweddomainsgoogle.png)
+![Allowed domains for Google Business accounts](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/contentawareprotection/alloweddomainsgoogle.png)
 
 ### Monitor Webmail JSON Format Parser Usage
 
@@ -182,7 +182,7 @@ Go over the following Syntax examples considering the values used are the defaul
    - Uses only nested arrays
    - The subject here is located at a speciﬁc path inside nested arrays without having to go through all elements of a speciﬁc array and use \[:]
 
-![Monitor Webmail JSON Format Parser Usage](/img/product_docs/endpointprotector/endpointprotector/admin/contentawareprotection/webmailjson.png)
+![Monitor Webmail JSON Format Parser Usage](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/contentawareprotection/webmailjson.png)
 
 ___RECOMMENDED:___ It is advised, that due to recent changes applied by cloud providers, to not apply any changes in the JSON parser, unless Monitor Webmail is not working
 
@@ -200,9 +200,9 @@ From this section, you can enable or disable the Deep Packet Inspection function
 
 __NOTE:__ Only the applications that support Deep Packet Inspection are available in the list below.
 
-![Deep Packet Inspection Applications](/img/product_docs/endpointprotector/endpointprotector/admin/contentawareprotection/dpiapplications.png)
+![Deep Packet Inspection Applications](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/contentawareprotection/dpiapplications.png)
 
-__NOTE:__ The Deep Packet Inspection functionality needs to be ﬁrst enabled from __Device Control__ > __Settings__ (Global, Groups, Computers, etc.). For detailed information on, refer to the [Device Control](/docs/endpointprotector/endpointprotector/admin/devicecontrol/module.md) topic.
+__NOTE:__ The Deep Packet Inspection functionality needs to be ﬁrst enabled from __Device Control__ > __Settings__ (Global, Groups, Computers, etc.). For detailed information on, refer to the [Device Control](../devicecontrol/module.md) topic.
 
 ## Certiﬁcate status matrix
 

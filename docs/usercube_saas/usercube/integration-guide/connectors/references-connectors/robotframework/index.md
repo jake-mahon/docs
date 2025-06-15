@@ -4,9 +4,9 @@ This connector writes to an external system via a [Robot Framework](https://robo
 
 This page is about [
 Robot Framework
-](/docs/usercube_saas/usercube/integration-guide/connectors/references-packages/robot-framework/index.md)
+](../../references-packages/robot-framework/index.md)
 
-![Package: Custom/Robot Framework](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/robotframework/packages_robot_v603.webp)
+![Package: Custom/Robot Framework](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/robotframework/packages_robot_v603.webp)
 
 ## Overview
 
@@ -33,7 +33,7 @@ This connector can create, update and/or delete any entity linked to the managed
 
 This process is configured through a [
 Connection
-](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or the XML configuration, and in the ```appsettings.agent.json > Connections``` section:
+](../../../toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or the XML configuration, and in the ```appsettings.agent.json > Connections``` section:
 
 ```
 appsettings.agent.json
@@ -84,7 +84,7 @@ The identifier of the connection and thus the name of the subsection must:
 
 See how to[
 Write a Robot Framework Script
-](/docs/usercube_saas/usercube/integration-guide/connectors/how-tos/write-fulfill-robotframework-script/index.md) to allow provisioning with this connector.
+](../../how-tos/write-fulfill-robotframework-script/index.md) to allow provisioning with this connector.
 
 ## Authentication
 
@@ -98,10 +98,10 @@ Data protection can be ensured through:
 
 - [
   Connection
-  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md), configured in the ```appsettings.encrypted.agent.json``` file;
+  ](../../../toolkit/xml-configuration/connectors/connection/index.md), configured in the ```appsettings.encrypted.agent.json``` file;
 - an [
   Connection
-  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) safe;
+  ](../../../toolkit/xml-configuration/connectors/connection/index.md) safe;
 
 | Attribute | Naming Convention for the Key in Azure Key Vault |
 | --- | --- |
@@ -111,7 +111,7 @@ Data protection can be ensured through:
 
 - A [
   Connection
-  ](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) able to store the attributes from the ```Options``` section that are compatible with CyberArk.
+  ](../../../toolkit/xml-configuration/connectors/connection/index.md) able to store the attributes from the ```Options``` section that are compatible with CyberArk.
 
 Protected attributes are stored inside a safe in CyberArk, into an account whose identifier can be retrieved by Identity Manager from ```appsettings.cyberark.agent.json```.
 

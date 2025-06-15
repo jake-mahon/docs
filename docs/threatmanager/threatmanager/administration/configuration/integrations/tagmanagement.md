@@ -2,7 +2,7 @@
 
 The Tag Management page displays all tags that are currently managed by the application, including out-of-the-box and custom tags. You can add tags and assign objects to those tags.
 
-![Integrations interface on the Tag Management page](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/systemsettings/page.webp)
+![Integrations interface on the Tag Management page](../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/systemsettings/page.webp)
 
 The out-of-the-box tags include:
 
@@ -20,7 +20,7 @@ The out-of-the-box tags include:
 - Stale – An Active Directory user account marked as stale
 - Watchlist – Watchlist users
 
-__NOTE:__ Any users with the Watchlist tag will be displayed on the Threat Manager [Home Page](/docs/threatmanager/threatmanager/administration/home.md) Watchlist.
+__NOTE:__ Any users with the Watchlist tag will be displayed on the Threat Manager [Home Page](../../home.md) Watchlist.
 
 The table displays the following information for available tags:
 
@@ -38,7 +38,7 @@ __Step 1 –__ Use the gear icon in the upper right corner of the console to ope
 
 __Step 2 –__ On the Integrations interface, click Add New Integration in the navigation pane. The Add New Integration window opens.
 
-![Add New Integration window with Tag type selected](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/tagmanagement.webp)
+![Add New Integration window with Tag type selected](../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/tagmanagement.webp)
 
 __Step 3 –__ In the Type drop-down menu, select Tag.
 
@@ -61,7 +61,7 @@ __Step 7 –__ On the Integrations interface, click __Tag Managemetn__ in the na
 
 __Step 8 –__ Select a tag from the table or the navigation pane to view its details.
 
-![Integrations interface displaying the details for a Tag](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/details.webp)
+![Integrations interface displaying the details for a Tag](../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/details.webp)
 
 This page provides the following information:
 
@@ -79,7 +79,7 @@ On the tag details window, click the Type drop-down menu to apply a filter.
 
 ___RECOMMENDED:___ Apply the desired Type filters when searching for objects to tag.
 
-![Honeypot tag with the Types drop-down menu open](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/typefilters.webp)
+![Honeypot tag with the Types drop-down menu open](../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/typefilters.webp)
 
 The following types are available:
 
@@ -94,7 +94,7 @@ The _tagged items_ and _untagged items_ lists on the window will be filtered to 
 
 Follow the steps to apply tags to objects.
 
-![Tag details page showing search results](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/searchselect.webp)
+![Tag details page showing search results](../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/searchselect.webp)
 
 __Step 1 –__ On the Integrations interface, click __Tag Managemetn__ in the navigation pane to view a list of tags.
 
@@ -114,7 +114,7 @@ The tag is applied to the selected objects.
 
 Follow the steps to remove tags from objects.
 
-![Tag details page showing search results](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/search.webp)
+![Tag details page showing search results](../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/search.webp)
 
 __Step 1 –__ On the Integrations interface, click __Tag Managemetn__ in the navigation pane to view a list of tags.
 

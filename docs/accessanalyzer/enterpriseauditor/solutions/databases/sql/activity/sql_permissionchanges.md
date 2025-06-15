@@ -8,7 +8,7 @@ Navigate to the __Databases__ > SQL > 2.Activity > SQL_PermissionChanges > Conf
 
 __CAUTION:__ Do not modify or deselect the selected analysis task(s). The analysis task(s) are preconfigured for this job.
 
-![Analysis Selection](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/activity/sqljobgroup33.webp)
+![Analysis Selection](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/databases/sql/activity/sqljobgroup33.webp)
 
 The default analysis tasks are:
 

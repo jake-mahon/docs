@@ -2,7 +2,7 @@
 
 ## Netwrix Auditor Activity Records to Event Log Add-on
 
-Auditor Add-on for the SIEM solution runs on any computer in your environment. For example, you can run the add-on on the computer where Auditor is installed or on a remote server. Depending on the execution scenario you choose, you have to define a different set of parameters. See the [Configuration](/docs/auditor/auditor/addon/siem/configure.md) topic for additional information.
+Auditor Add-on for the SIEM solution runs on any computer in your environment. For example, you can run the add-on on the computer where Auditor is installed or on a remote server. Depending on the execution scenario you choose, you have to define a different set of parameters. See the [Configuration](configure.md) topic for additional information.
 
 Netwrix suggests the following execution scenarios:
 
@@ -19,4 +19,4 @@ For security reasons, Netwrix recommends running the script with current user cr
 
 The script will be executed on Auditor Server.
 
-By default, Auditor uses the _LocalSystem_ account to run PowerShell scripts. If you want to use another account, in the alert settings go to __Response Action__, select the __Use custom credentials__ checkbox and specify user name and password. Make sure this account has __Log on as batch job__ privilege. See the [Configure a Response Action for Alert](/docs/auditor/auditor/admin/alertsettings/responseaction.md) topic for additional information.
+By default, Auditor uses the _LocalSystem_ account to run PowerShell scripts. If you want to use another account, in the alert settings go to __Response Action__, select the __Use custom credentials__ checkbox and specify user name and password. Make sure this account has __Log on as batch job__ privilege. See the [Configure a Response Action for Alert](../../admin/alertsettings/responseaction.md) topic for additional information.

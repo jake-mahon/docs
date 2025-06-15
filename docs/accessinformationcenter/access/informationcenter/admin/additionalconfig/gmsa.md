@@ -9,7 +9,7 @@ The following pre-requisites are required before configuring the Access Informat
 
   - On the General page, the __Login name__ should be the ```Domain\Name``` of the gMSA
   - On the Server Roles page, the __public__ and __sysadmin__ checkboxes must be selected
-- Netwrix Access Information Center has been installed using one of the regular authentication methods, and not using the gMSA. See the [Install the Access Information Center](/docs/accessinformationcenter/access/informationcenter/installation/install.md) topic for additional information.
+- Netwrix Access Information Center has been installed using one of the regular authentication methods, and not using the gMSA. See the [Install the Access Information Center](../../installation/install.md) topic for additional information.
 - If the gMSA is to be used to connect to Active Directory or an email server, the gMSA account must have the necessary rights to Active Directory and Exchange
 
 For more information on group Managed Service Accounts, see the Microsoft [Group Managed Service Accounts](https://learn.microsoft.com/en-us/windows-server/security/group-managed-service-accounts/group-managed-service-accounts-overview) article.
@@ -20,7 +20,7 @@ Follow the steps to configure the Netwrix Access Information Center service to r
 
 __Step 1 –__ Open the Services Console. Right-click on the Netwrix Access Information Center service and select __Properties__.
 
-![Netwrix Access Information Center service properties window](/img/product_docs/accessinformationcenter/access/informationcenter/admin/additionalconfig/gmsaserviceproperties.webp)
+![Netwrix Access Information Center service properties window](../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/admin/additionalconfig/gmsaserviceproperties.webp)
 
 __Step 2 –__  On the Log On tab of the properties window, select the __This account__ option. Enter the gMSA account name and leave the password fields blank.
 
@@ -44,7 +44,7 @@ __Step 2 –__ On the Administrator home page, click __Configure Console__and th
 - To configure the connection to Active Directory, select the __Active Directory__ page
 - To configure the connection to your email server, select the __Notifications__ page
 
-![Use the windows account running this service option on Database Configuration page](/img/product_docs/accessinformationcenter/access/informationcenter/admin/additionalconfig/gmsadatabaseconfiguration.webp)
+![Use the windows account running this service option on Database Configuration page](../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/admin/additionalconfig/gmsadatabaseconfiguration.webp)
 
 __Step 3 –__ On the Configuration page, select the __Use the account running this service__ option. Click __Save__.
 

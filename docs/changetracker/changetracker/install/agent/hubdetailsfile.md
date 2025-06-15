@@ -6,7 +6,7 @@ The __HubDetails.xml__ file includes some details unique to your deployment of C
 
 The key tags within the file are as follows:
 
-![AgentHubDetailsFile](/img/product_docs/changetracker/changetracker/install/agent/agenthubdetailsfile.webp)
+![AgentHubDetailsFile](../../../../../static/img/product_docs/changetracker/changetracker/install/agent/agenthubdetailsfile.webp)
 
 _Remember,_ an unencrypted password means the Agent didn’t initialize and suggests a bad installation or .NET Framework issue – remember the Agent on Windows requires .NET Framework V3.5, Linux/Solaris requires the latest NNT Mono runtime. Gen 7 Agent also supports additional nodes – NamePrefix, NameSuffix.
 

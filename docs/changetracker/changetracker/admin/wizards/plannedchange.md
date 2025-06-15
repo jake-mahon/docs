@@ -10,9 +10,9 @@ __NOTE:__ In Step 2, you can re-use rulesets where available or choose to create
 
 In Step 4, the __Edit Schedule__ button allows Groups and/or Devices to be added to the schedule.
 
-![PlannedChangeRulesExample](/img/product_docs/changetracker/changetracker/admin/wizards/plannedchangerulesexample.webp)
+![PlannedChangeRulesExample](../../../../../static/img/product_docs/changetracker/changetracker/admin/wizards/plannedchangerulesexample.webp)
 
 __NOTE:__ If you want to let Netwrix Change Tracker self-learn rules by recording change activity during the schedule, check the __In Event Recording Mode__ box.
 
-![PlannedChangeEventRecordingMode](/img/product_docs/changetracker/changetracker/admin/wizards/plannedchangeeventrecordingmode.webp)
-![page_guide_35](/img/product_docs/changetracker/changetracker/admin/wizards/page_guide_35.webp)
+![PlannedChangeEventRecordingMode](../../../../../static/img/product_docs/changetracker/changetracker/admin/wizards/plannedchangeeventrecordingmode.webp)
+![page_guide_35](../../../../../static/img/product_docs/changetracker/changetracker/admin/wizards/page_guide_35.webp)

@@ -1,8 +1,8 @@
 # Box Solution
 
-The core components for Netwrix Access Analyzer (formerly Enterprise Auditor) are the Access Analyzer Console server, SQL Server, and Access Information Center. See the [Requirements](/docs/accessanalyzer/enterpriseauditor/requirements/overview.md) topic for the core requirements.
+The core components for Netwrix Access Analyzer (formerly Enterprise Auditor) are the Access Analyzer Console server, SQL Server, and Access Information Center. See the [Requirements](../overview.md) topic for the core requirements.
 
-See the [Target Box Requirements, Permissions, and Ports](/docs/accessanalyzer/enterpriseauditor/requirements/target/box.md) topic for target environment requirements.
+See the [Target Box Requirements, Permissions, and Ports](../target/box.md) topic for target environment requirements.
 
 ## Box Solution Requirements on the Access Analyzer Console
 

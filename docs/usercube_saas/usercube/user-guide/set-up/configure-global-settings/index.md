@@ -6,7 +6,7 @@ This topic covers the customization in the application __Settings__.
 
 The Settings interface provides information and management options for the application.
 
-![accesscertificationonlyapprovedenysettings](/img/product_docs/usercube/usercube/user-guide/set-up/configure-global-settings/accesscertificationonlyapprovedenysettings.webp)
+![accesscertificationonlyapprovedenysettings](../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/configure-global-settings/accesscertificationonlyapprovedenysettings.webp)
 
 ### Look and Feel
 
@@ -24,20 +24,20 @@ It presents the languages in which the application can be displayed. In the abov
 
 See the [
 Languages
-](/docs/usercube_saas/usercube/integration-guide/toolkit/languages/index.md) topic for additional information.
+](../../../integration-guide/toolkit/languages/index.md) topic for additional information.
 
 ### Features
 
 The feature __Only allow approving and refusing on access certifications items__ gives the administrator the option to limit the user's option to either __Approve__ or __Deny__ the Access Certification items while making the __More__ button unavailable.
 
-![allowapprovingdenyingaccesscertificationitems](/img/product_docs/usercube/usercube/user-guide/set-up/configure-global-settings/allowapprovingdenyingaccesscertificationitems.webp)
+![allowapprovingdenyingaccesscertificationitems](../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/configure-global-settings/allowapprovingdenyingaccesscertificationitems.webp)
 
 If the feature __Only allow approving and denying on access certification items__ is set to __No__ the following will be visible on the certification screen:
 
-![accesscertificationonlyapprovedeny](/img/product_docs/usercube/usercube/user-guide/set-up/configure-global-settings/accesscertificationonlyapprovedeny.webp)
+![accesscertificationonlyapprovedeny](../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/configure-global-settings/accesscertificationonlyapprovedeny.webp)
 
 If the feature __Only allow approving and denying on access certification items__ is set to __Yes__ the following will be visible on the certification screen:
 
-![accesscertificationonlyapprovedeny-disabled](/img/product_docs/usercube/usercube/user-guide/set-up/configure-global-settings/accesscertificationonlyapprovedeny-disabled.webp)
+![accesscertificationonlyapprovedeny-disabled](../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/configure-global-settings/accesscertificationonlyapprovedeny-disabled.webp)
 
 This is how the user's experience can be customized directly from the UI.

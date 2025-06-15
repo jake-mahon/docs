@@ -15,18 +15,18 @@ All data tables used in Access Analyzer action modules require the presence of c
 The Survey action module is configured through the Survey Action Module Wizard, which contains the following wizard pages:
 
 - Welcome
-- [Survey: Template](/docs/accessanalyzer/enterpriseauditor/admin/action/survey/template.md) (Legacy feature)
-- [Survey: Introduction](/docs/accessanalyzer/enterpriseauditor/admin/action/survey/introduction.md)
-- [Survey: Questions](/docs/accessanalyzer/enterpriseauditor/admin/action/survey/questions.md)
-- [Survey HTML Style](/docs/accessanalyzer/enterpriseauditor/admin/action/survey/htmlstyle.md)
-- [Survey: Web Server](/docs/accessanalyzer/enterpriseauditor/admin/action/survey/webserver.md)
-- [Survey: Mail – Properties](/docs/accessanalyzer/enterpriseauditor/admin/action/survey/mailproperties.md)
-- [Survey: Mail – Message](/docs/accessanalyzer/enterpriseauditor/admin/action/survey/mailmessage.md)
-- [Survey: Test Survey](/docs/accessanalyzer/enterpriseauditor/admin/action/survey/testsurvey.md)
-- [Survey: Summary](/docs/accessanalyzer/enterpriseauditor/admin/action/survey/summary.md)
+- [Survey: Template](template.md) (Legacy feature)
+- [Survey: Introduction](introduction.md)
+- [Survey: Questions](questions.md)
+- [Survey HTML Style](htmlstyle.md)
+- [Survey: Web Server](webserver.md)
+- [Survey: Mail – Properties](mailproperties.md)
+- [Survey: Mail – Message](mailmessage.md)
+- [Survey: Test Survey](testsurvey.md)
+- [Survey: Summary](summary.md)
 
 The Welcome page displays first and gives an overview of the action module. The navigation pane contains links to the pages in the wizard.
 
-![Survey Action Module Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
+![Survey Action Module Wizard Welcome page](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
 
 To proceed, click __Next__ or use the Steps navigation pane to open another page in the wizard.

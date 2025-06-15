@@ -23,7 +23,7 @@ Once in place, policies remind users of the level of change management required 
 
 Platform Governance for Salesforce automatically detects any changes to the customizations in your system and log them. The system finds the relevant Change/Approval Policy and determines the change level required for compliance. It then looks for the relevant change record. For example, if it determines that a script changed and a Full Software Development Lifecycle was required for compliance, it looks for an approved Deployment Record. If it does not find one, it flags the change as non-compliant. An alert is sent to the Object owners notifying them of the non-compliant change.
 
-1. __Detect the Change__: [Automated Scanner](/docs/strongpointforsalesforce/installing_strongpoint/setting_up_initial_scan.md) must be enabled forPlatform Governance for Salesforce to detect a change.
+1. __Detect the Change__: [Automated Scanner](../installing_strongpoint/setting_up_initial_scan.md) must be enabled forPlatform Governance for Salesforce to detect a change.
 2. __Log the Change__: creates a Change Log.
 3. __Locate the Relevant Policy__: locates the correct policy for the object.
 4. __Locate the Relevant Change Record__: determines if the change needs a Change Request.
@@ -31,4 +31,4 @@ Platform Governance for Salesforce automatically detects any changes to the cust
 
    - If Platform Governance for Salesforce finds the appropriate Change Request or if the change is __Log Only__, it marks the change as compliant and attaches the Change Log to the Change Record.
    - If Platform Governance for Salesforce determines the change is non-compliant (does not fall under the relevant policy) it send an alert to IT and Object Owners to investigate the change and document what needs to be done to make the change compliant.
-6. __Change Reporting and Resolution__: Platform Governance for Salesforce provides predefined [reports](/docs/strongpointforsalesforce/change_management/change_management_reports.md) you can review as part of your regular Change Management Process.
+6. __Change Reporting and Resolution__: Platform Governance for Salesforce provides predefined [reports](change_management_reports.md) you can review as part of your regular Change Management Process.

@@ -8,7 +8,7 @@ __Step 2 –__ Did you install the Endpoint Policy Manager CSE on your client ma
 
 __Step 3 –__ If you're trying to deploy a Endpoint Policy Manager Exporter MSI file using Microsoft Endpoint Manager (SCCM and Intune), or a similar program, did you first manually test the installation of the MSI?
 
-__Step 4 –__ Is your computer licensed? All computers must be licensed in order for Endpoint Policy Manager Preferences Manager to work properly (see Book 1: [Introduction and Basic Concepts](/docs/policypak/policypak/basicconcepts.md) for more information). Alternatively, try renaming the computer to "Computer1" (or a similar name) such that "computer" is in the name. When you do this, the Endpoint Policy Manager Preferences Manager CSE will act as if it's fully licensed. If Endpoint Policy Manager Preferences Manager starts to work, you have a licensing issue.
+__Step 4 –__ Is your computer licensed? All computers must be licensed in order for Endpoint Policy Manager Preferences Manager to work properly (see Book 1: [Introduction and Basic Concepts](../../basicconcepts.md) for more information). Alternatively, try renaming the computer to "Computer1" (or a similar name) such that "computer" is in the name. When you do this, the Endpoint Policy Manager Preferences Manager CSE will act as if it's fully licensed. If Endpoint Policy Manager Preferences Manager starts to work, you have a licensing issue.
 
 __Step 5 –__ Does the Group Policy Preference item you created have some Item-Level Targeting that prevents its use? For instance, did you specify "Only when the Operating System is Windows 7," when you're actually trying to apply the file to a Windows 8 system?
 

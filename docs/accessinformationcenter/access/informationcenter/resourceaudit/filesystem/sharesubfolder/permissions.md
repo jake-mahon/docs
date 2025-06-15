@@ -4,7 +4,7 @@ The Permissions report at the share and subfolder levels provides a list of trus
 
 If activity is being monitored for the selected resource, then this report indicates where stale permissions exist. See the Stale Permissions topic for additional information.
 
-![Permissions report at the share and subfolder levels](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/filesystem/sharesubfolder/sharepermissions.webp)
+![Permissions report at the share and subfolder levels](../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/filesystem/sharesubfolder/sharepermissions.webp)
 
 This report is comprised of the following columns:
 
@@ -41,9 +41,9 @@ If the selected trustee in the top section of the report is a group, the Group M
 
 There is one table at the bottom displaying Compared to Parent permissions for the select trustee. It contains information on explicit permissions granted for the selected resource.
 
-![Compared to Parent table](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/filesystem/sharesubfolder/sharepermissionstable.webp)
+![Compared to Parent table](../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/filesystem/sharesubfolder/sharepermissionstable.webp)
 
-This table will be blank unless an Explicit Permissions icon is attached to the resource in the Resources pane. See the [Resources Pane](/docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/resource.md#resources-pane) topic for additional information. This table is comprised of the same columns as the primary report.
+This table will be blank unless an Explicit Permissions icon is attached to the resource in the Resources pane. See the [Resources Pane](../../navigate/resource.md#resources-pane) topic for additional information. This table is comprised of the same columns as the primary report.
 
 ## Stale Permissions
 
@@ -53,14 +53,14 @@ A stale permission is defined as an access level not used to perform an activity
 
 Select the __Highlight active permissionss__ checkbox to show permissions that are in use. When a user or effective member of a group that has permissions to a resource also has activity on the resource, a yellow icon is displayed for the permission type to indicate the access level used to perform the activity. Therefore, access level cells not highlighted when activity is being monitored represent permissions that are identified as stale.
 
-![Stale and active permissions](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/filesystem/sharesubfolder/stalepermissions.webp)
+![Stale and active permissions](../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/filesystem/sharesubfolder/stalepermissions.webp)
 
 In the Permissions report, the yellow icons show permissions that are active, and the green check marks show permissions that are stale. The example shows that Jazmina’s activity has used the List, Write, Delete, and Manage permissions but not the Read permission. It also shows there are at least three other trustees with stale permissions.
 
-![Activity Statistics report](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/filesystem/sharesubfolder/stalepermissionsevents.webp)
+![Activity Statistics report](../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/filesystem/sharesubfolder/stalepermissionsevents.webp)
 
-The Activity Statisticsreport indicates that the trustee Jazmina has performed write, manage, and delete events on the selected resource. See the [Activity Statistics Report](/docs/accessinformationcenter/access/informationcenter/resourceaudit/filesystem/sharesubfolder/activitystatistics.md) topic for additional information.
+The Activity Statisticsreport indicates that the trustee Jazmina has performed write, manage, and delete events on the selected resource. See the [Activity Statistics Report](activitystatistics.md) topic for additional information.
 
-![Effective Access report](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/filesystem/sharesubfolder/stalepermissionsaccess.webp)
+![Effective Access report](../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/filesystem/sharesubfolder/stalepermissionsaccess.webp)
 
-The Effective Access report shows that Jazmina has access to the resource through the Group_Manage group, and the access is directly applied. See the [Effective Access Report](/docs/accessinformationcenter/access/informationcenter/resourceaudit/filesystem/sharesubfolder/effectiveaccess.md) topic for additional information.
+The Effective Access report shows that Jazmina has access to the resource through the Group_Manage group, and the access is directly applied. See the [Effective Access Report](effectiveaccess.md) topic for additional information.

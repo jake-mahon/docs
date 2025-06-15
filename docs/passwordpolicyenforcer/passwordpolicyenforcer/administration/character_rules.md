@@ -2,9 +2,9 @@
 
 Password Policy Enforcer has seven Character rules that reject passwords if they contain, or do not contain certain characters. These rules can increase password strength or ensure password compatibility with other systems.
 
-![Character (Granular) Rule](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/chargranular.webp)
+![Character (Granular) Rule](../../../../static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/chargranular.webp)
 
-All the Character rules work identically, but each has their own default character set. A character set is the collection of characters that each rule searches for when checking a password. You can use the Character rules with their default character sets, or define your own. By default, the Password Policy Enforcer selects the Password Policy Enforcer character on the [Set Priorities](/docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/manage_policies.md#set-priorities) page.
+All the Character rules work identically, but each has their own default character set. A character set is the collection of characters that each rule searches for when checking a password. You can use the Character rules with their default character sets, or define your own. By default, the Password Policy Enforcer selects the Password Policy Enforcer character on the [Set Priorities](manage_policies.md#set-priorities) page.
 
 __NOTE:__ Only Password Policy Enforcer 11 and higher will contain the Windows character set. Password Policy Enforcer 9, Netwrix Password Reset3 and Password Policy Enforcer Web 7 (and older for all products) use the Password Policy Enforcer character set.
 
@@ -22,11 +22,11 @@ Click the + sign by the character set.
 
 Select __In position__.
 
-![Restricting Characters](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/chargranularrestrict.webp)
+![Restricting Characters](../../../../static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/chargranularrestrict.webp)
 
 If you want to restrict this rule to certain character positions, choose the starting position from the first entry box and the ending position from the second entry box. For example, you may want to enforce a rule that requires a numeric character in the second character position to maintain compatibility with some other system.
 
-![Require a number in position 2](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/chargranularrestrict2.webp)
+![Require a number in position 2](../../../../static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/chargranularrestrict2.webp)
 
 Click the + sign by the character set.
 
@@ -42,7 +42,7 @@ __Step 1 –__ Click __Characters__ beside a selected Character set.
 
 __Step 2 –__ Enter a __Name__. This example uses __vowels__.
 
-![Set up custom character set](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/chargranularvowel.webp)
+![Set up custom character set](../../../../static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/chargranularvowel.webp)
 
 __Step 3 –__ Enter the __Characters__. This example uses __AaEeIiOoUu__.
 
@@ -60,8 +60,8 @@ This is done by using two of the Character rules:
 
 Set __Characters (Complexity)__ to require 1 Numeric character.
 
-![Require a numeric value](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/chargranularrestrict3.webp)
+![Require a numeric value](../../../../static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/chargranularrestrict3.webp)
 
 Set __Characters (Granular)__ to not contain numeric values in the first two positions.
 
-![Don't allow numeric values in first two positions](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/chargranularrestrict4.webp)
+![Don't allow numeric values in first two positions](../../../../static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/chargranularrestrict4.webp)

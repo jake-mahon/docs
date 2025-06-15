@@ -4,7 +4,7 @@ The Object Permissions report for a user object provides details on Active Direc
 
 The data within this report is collected by the Access Analyzer Active Directory Permissions Analyzer solution. See the Active Directory Permissions Analyzer Solution topic of the [Netwrix Access Analyzer Documentation](https://helpcenter.netwrix.com/category/accessanalyzer) for additional information.
 
-![Object Permissions report](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/group/objectpermissions.webp)
+![Object Permissions report](../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/group/objectpermissions.webp)
 
 This report is comprised of the following columns:
 

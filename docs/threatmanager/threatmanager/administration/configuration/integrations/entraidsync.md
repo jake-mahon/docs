@@ -1,8 +1,8 @@
 # Entra ID Sync Page
 
-The Entra ID Sync page within the Integrations interface lists all the Entra ID tenants for which the application is configured to sync.See the [Application Permissions for Entra ID Sync](/docs/threatmanager/threatmanager/requirements/permissions/entraidsync.md)topic for additional information about the permissions required for Microsoft Entra ID syncing.
+The Entra ID Sync page within the Integrations interface lists all the Entra ID tenants for which the application is configured to sync.See the [Application Permissions for Entra ID Sync](../../../requirements/permissions/entraidsync.md)topic for additional information about the permissions required for Microsoft Entra ID syncing.
 
-![Entra ID Sync Page](/img/product_docs/threatmanager/threatmanager/administration/configuration/integrations/entraidsync.webp)
+![Entra ID Sync Page](../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/configuration/integrations/entraidsync.webp)
 
 Microsoft Entra ID Sync schedules the Azure service to collect Microsoft Entra ID data for the specified Microsoft Entra ID tenant(s). The Microsoft Entra ID Sync runs continuously, evaluating the USN value of Microsoft Entra ID objects and syncing whenever an object changes.
 
@@ -19,13 +19,13 @@ To view policy details or make modifications, select a tenant from the list or s
 
 ## Add an Entra ID Sync Policy
 
-__NOTE:__ Prior to adding a Microsoft Entra ID Sync policy, you must first configure a Credential Profile with a credential properly provisioned for running Microsoft Entra ID Sync within the Microsoft Entra ID tenant. See the [Application Server Requirements](/docs/threatmanager/threatmanager/requirements/server.md) topic for the permissions. See the [Credential Profile Page](/docs/threatmanager/threatmanager/administration/configuration/integrations/credentialprofile.md) topic for additional information on creating a profile.
+__NOTE:__ Prior to adding a Microsoft Entra ID Sync policy, you must first configure a Credential Profile with a credential properly provisioned for running Microsoft Entra ID Sync within the Microsoft Entra ID tenant. See the [Application Server Requirements](../../../requirements/server.md) topic for the permissions. See the [Credential Profile Page](credentialprofile.md) topic for additional information on creating a profile.
 
 Follow the steps to add a policy Microsoft Entra ID Sync.
 
 __Step 1 –__ On the Integrations interface, click Add New Integration in the navigation pane. The Add New Integration window opens.
 
-![Add New Integration window with Entra ID Sync type selected](/img/product_docs/threatmanager/threatmanager/administration/configuration/integrations/addnewinteg.webp)
+![Add New Integration window with Entra ID Sync type selected](../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/configuration/integrations/addnewinteg.webp)
 
 __Step 2 –__ In the Type drop-down menu, select Entra ID Sync.
 
@@ -46,7 +46,7 @@ The tenant is listed in the Integrations navigation pane. Repeat the process to 
 
 The Microsoft Entra ID Sync policy details can be viewed by selecting the tenant from the table or the navigation pane.
 
-![Tenant Configuration tab](/img/product_docs/threatmanager/threatmanager/administration/configuration/integrations/entraidsync_tenantconfiguration.webp)
+![Tenant Configuration tab](../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/configuration/integrations/entraidsync_tenantconfiguration.webp)
 
 Select the tenant from the list to see modification options:
 
@@ -60,7 +60,7 @@ Select the tenant from the list to see modification options:
 
 The Tenant Configuration tab displays the sync policy settings entered for the selected tenant. With the exception of the Tenant and Azure Cloud fields, these settings can be updated as needed.
 
-![tenantconfigurationtab](/img/product_docs/threatmanager/threatmanager/administration/configuration/integrations/tenantconfigurationtab.webp)
+![tenantconfigurationtab](../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/configuration/integrations/tenantconfigurationtab.webp)
 
 The Tenant Configuration tab displays the following settings:
 
@@ -77,7 +77,7 @@ The Save button is enabled when any settings are modified. Click it to commit th
 
 The Sync History tab displays the information on each synchronization event. This includes general information about user, group, and computer objects within the Entra ID tenant.
 
-![Entra ID Sync details page for a specific Entra ID tenant showing the Sync History tab](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/synchistorytab.webp)
+![Entra ID Sync details page for a specific Entra ID tenant showing the Sync History tab](../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/synchistorytab.webp)
 
 The table provides the following information:
 
@@ -102,7 +102,7 @@ __Step 2 –__ On the Tenant Configuration tab, make the desired modification.
 
 _Remember,_  the Tenant and Azure Cloud fields cannot be modified.
 
-![tenantconfigurationtab](/img/product_docs/threatmanager/threatmanager/administration/configuration/integrations/tenantconfigurationtab.webp)
+![tenantconfigurationtab](../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/configuration/integrations/tenantconfigurationtab.webp)
 
 __Step 3 –__ To modify the Credential Profile, select the Credential Profile by name from the drop-down menu. This was pre-created in the Credential Profiles page.
 

@@ -38,7 +38,7 @@ In a given resource type, there should be scalar rules either for the bitmask pr
 
 > For example, we choose to create a property ```bit_userAccountControl_2``` to represent the second bit of ```userAccountControl```.
 >
-> ![New Property for Bit Provisioning](/img/product_docs/usercube/usercube/integration-guide/connectors/entitypropertymapping-format/bitprov_property_v603.webp)
+> ![New Property for Bit Provisioning](../../../../../../static/img/product_docs/usercube/usercube/integration-guide/connectors/entitypropertymapping-format/bitprov_property_v603.webp)
 >
 > XML configuration looks like the following:
 >
@@ -102,7 +102,7 @@ Netwrix Identity Manager (formerly Usercube) recommends, in the scalar rule's e
 
 In this example, we will export and fulfill the start date of an employee in a ServiceNow instance.
 
-We define an [Entity Model](/docs/usercube_saas/usercube/integration-guide/entity-model/index.md) called ```u_startdate``` with the __Type__```DateTime``` to display it as a date in the UI.
+We define an [Entity Model](../../entity-model/index.md) called ```u_startdate``` with the __Type__```DateTime``` to display it as a date in the UI.
 
 ```
 ServiceNow Connector.xml
@@ -124,4 +124,4 @@ This allows the export of the attribute ```u_startdate``` as a date in Identity 
 
 The fulfillment will use the same format defined in the EntityTypeMapping through the __Binding__ declared in the ResourceType.
 
-![Export and Fulfill Data transformation](/img/product_docs/usercube/usercube/integration-guide/connectors/entitypropertymapping-format/entitypropertymapping-format-flowchart.webp)
+![Export and Fulfill Data transformation](../../../../../../static/img/product_docs/usercube/usercube/integration-guide/connectors/entitypropertymapping-format/entitypropertymapping-format-flowchart.webp)

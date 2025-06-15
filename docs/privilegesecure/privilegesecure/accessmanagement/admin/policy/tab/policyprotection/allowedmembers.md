@@ -2,7 +2,7 @@
 
 The Allowed Members tab shows the configuration options for managing the groups governed by the selected protection policy. Any group member(s) discovered that are not in the list will be removed from the local group on the resource during the next scheduled sync.
 
-![Protection Policy Allowed Member Tab](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/policyprotection/allowedmembers.webp)
+![Protection Policy Allowed Member Tab](../../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/policyprotection/allowedmembers.webp)
 
 The Allowed Members tab has the following features:
 
@@ -24,7 +24,7 @@ __Step 2 –__ In the Protection Policy list, select the name of the protection 
 
 __Step 3 –__ Click Add Group to open the Add Protected Group and Member window.
 
-![Add Protected Group and Member Window](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/policyprotection/addprotectedgroupandmember.webp)
+![Add Protected Group and Member Window](../../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/policyprotection/addprotectedgroupandmember.webp)
 
 __Step 4 –__ Enter the following information:
 
@@ -47,7 +47,7 @@ __Step 2 –__ In the Protection Policy list, select the name of the protection 
 
 __Step 3 –__ Click Edit Members to open the Add Protected Group and Member window.
 
-![Edit Protected Group Members Window](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/policyprotection/editprotectedgroupmembers.webp)
+![Edit Protected Group Members Window](../../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/policyprotection/editprotectedgroupmembers.webp)
 
 __Step 4 –__ Click the Trashcan icon next to a member to remove them from a Protected Group. A confirmation window will appear.
 

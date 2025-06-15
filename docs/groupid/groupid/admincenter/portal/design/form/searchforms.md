@@ -41,7 +41,7 @@ What do you want to do?
 8. In the __Display Name__ box, enter a display name for the field. This name is the field’s label on the search form.
 9. In the __Tooltip__ box, enter the text to appear when a user hovers the mouse over the field.
 10. In the __Display Type__ drop-down list, select the display type to use to render this field in the portal. The list contains basic display types
-    and custom display types defined on the __Custom Display Types__ page. See the [Display Type Categories](/docs/groupid/groupid/admincenter/portal/displaytype/categories.md) topic.
+    and custom display types defined on the __Custom Display Types__ page. See the [Display Type Categories](../../displaytype/categories.md) topic.
 11. Click __OK.__ The field is displayed in the __Fields__ area on the __Edit Search Form__ pane.  
     To rearrange the fields on the search form, click the plus sign for a field and drag to change its position.
 12. Click __OK__.
@@ -83,7 +83,7 @@ __To update a field:__
 
 __See Also__
 
-- [Design a Portal with Display Types](/docs/groupid/groupid/admincenter/portal/displaytype/overview.md)
-- [Display Type Categories](/docs/groupid/groupid/admincenter/portal/displaytype/categories.md)
-- [Customize Search Results](/docs/groupid/groupid/admincenter/portal/design/form/searchresults.md)
-- [Customize Quick Search](/docs/groupid/groupid/admincenter/portal/design/form/quicksearch.md)
+- [Design a Portal with Display Types](../../displaytype/overview.md)
+- [Display Type Categories](../../displaytype/categories.md)
+- [Customize Search Results](searchresults.md)
+- [Customize Quick Search](quicksearch.md)

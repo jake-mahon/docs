@@ -10,17 +10,17 @@ The identity repository is supposed to contain the list of all kinds of identiti
 
 > For example, a user can be represented by an identifier and linked to their position which includes the user's employee id, last name and first name, email, user type, organization, etc.
 >
-> ![Identity Repository Example](/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/identityrepository-example.webp)
+> ![Identity Repository Example](../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/identityrepository-example.webp)
 
 > In Identity Manager, the identity repository can look like the following:
 >
-> ![Identity Repository Result](/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/identityrepository_v602.webp)
+> ![Identity Repository Result](../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/identityrepository_v602.webp)
 >
-> ![Identity Example](/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/identityrepository-person_v602.webp)
+> ![Identity Example](../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/identityrepository-person_v602.webp)
 
 See the [
 Identity Repository
-](/docs/usercube_saas/usercube/integration-guide/identity-management/identity-repository/index.md) topic for additional information..
+](../../../integration-guide/identity-management/identity-repository/index.md) topic for additional information..
 
 The initial workforce repository is going to be the first version of a comprehensive repository containing all users in the organization. This repository is crucial in setting up the identity lifecycle management features and managing assignments of entitlements.
 
@@ -75,18 +75,18 @@ Create the workforce repository by proceeding as follows:
 
 1. [
    Configure Unique Property Generation
-   ](/docs/usercube_saas/usercube/user-guide/set-up/initial-identities-loading/generate-unique-properties/index.md) for all users, pre-existing and new, who do not have them yet.
-2. [Load Identities to Identity Manager](/docs/usercube_saas/usercube/user-guide/set-up/initial-identities-loading/load-identities/index.md) to Identity Manager based on the recommended attributes from the provided organizational model [Template Description](/docs/usercube_saas/usercube/user-guide/set-up/initial-identities-loading/template-description/index.md).
+   ](generate-unique-properties/index.md) for all users, pre-existing and new, who do not have them yet.
+2. [Load Identities to Identity Manager](load-identities/index.md) to Identity Manager based on the recommended attributes from the provided organizational model [Template Description](template-description/index.md).
 3. [
    Adjust the Workforce Data Model
-   ](/docs/usercube_saas/usercube/user-guide/set-up/initial-identities-loading/adjust-datamodel/index.md) following Identity Manager's suggestions.
+   ](adjust-datamodel/index.md) following Identity Manager's suggestions.
 4. Continue with the next steps of this guide, and come back later to fill the organizational model with additional data.
 
 ## Next Steps
 
 Once the initial identities are loaded, integrators can start the User Profile configuration. See the [
 Configure a User Profile
-](/docs/usercube_saas/usercube/user-guide/set-up/user-profile-configuration/index.md) topic for additional information.
+](../user-profile-configuration/index.md) topic for additional information.
 
 From there you will be able to keep your repository up to date:
 

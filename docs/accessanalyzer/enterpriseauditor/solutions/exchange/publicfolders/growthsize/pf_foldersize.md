@@ -8,7 +8,7 @@ View the analysis tasks by navigating to the __Exchange__ > __5. Public Folders_
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the PF_FolderSize Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/publicfolders/growthsize/foldersizeanalysis.webp)
+![Analysis Tasks for the PF_FolderSize Job](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/publicfolders/growthsize/foldersizeanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -16,7 +16,7 @@ The following analysis tasks are selected by default:
 - 02.SET HISTORY RETENTION – Sets retention period in months
 
   - The default is 3 months. It can be modified.
-  - See the [Exchange History Retention](/docs/accessanalyzer/enterpriseauditor/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#exchange-history-retention) topic for additional information
+  - See the [Exchange History Retention](../../hubmetrics/collection/ex_metricscollection.md#exchange-history-retention) topic for additional information
 - 03.Latest Run Per Folder – Creates the SA_PF_FolderSize_Latest table, accessible under the job’s Results node
 - 04.30 Day Growth – Creates the SA_PF_FolderSize_Growth table, accessible under the job’s Results node
 
@@ -25,7 +25,7 @@ The following analysis task clears table data from data collection and analysis 
 __CAUTION:__ Do not select the __00. Delete all Historical Data__ option. This analysis task is for troubleshooting and cleanup only. Data will be deleted from the database.
 
 - 00.Delete all Historical Data
-  - See the [Troubleshooting Data Collection](/docs/accessanalyzer/enterpriseauditor/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#troubleshooting-data-collection) topic for additional information
+  - See the [Troubleshooting Data Collection](../../hubmetrics/collection/ex_metricscollection.md#troubleshooting-data-collection) topic for additional information
 
 In addition to the tables and views created by the analysis tasks, the PF_FolderSize job produces the following pre-configured report:
 

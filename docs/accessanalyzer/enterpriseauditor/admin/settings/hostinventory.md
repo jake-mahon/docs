@@ -2,7 +2,7 @@
 
 The Host Inventory node is for selecting what information to collect from the target host during the host inventory process, for allocating console resources to the host inventory process, and for setting what out-of-the box host lists are visible in the Host Management node.
 
-![Host Inventory Settings page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/hostinventory.webp)
+![Host Inventory Settings page](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/hostinventory.webp)
 
 In the Inventory Items section, there are four program property groups:
 
@@ -41,7 +41,7 @@ In the Performance Tuning section, there are five settings which allocate consol
     - Days
     - Weeks
     - Months
-  - This setting affects the Inventory page options on the Host Discovery Wizard. See the [Host Discovery Wizard](/docs/accessanalyzer/enterpriseauditor/admin/hostdiscovery/wizard/overview.md) topic for additional information.
+  - This setting affects the Inventory page options on the Host Discovery Wizard. See the [Host Discovery Wizard](../hostdiscovery/wizard/overview.md) topic for additional information.
 
 The Desired Host List Views section at the bottom contains all available host lists, both out-of-the-box lists and custom-created lists. There are seven Default Hosts Lists which correspond to the solutions that target them. During the host inventory process, hosts which meet the filter criteria for these default lists are automatically populated into that host list. A checkmark in front of the host list indicates that the list is visible in the __Host Management__ > __All Hosts__ node.
 
@@ -55,7 +55,7 @@ The seven default lists are auto-populated during the host inventory process bas
 
 The __AD__ Host List can be expanded and contains five sub-groups utilized by the Active Directory Solution and the Active Directory Inventory Solution:
 
-![AD Host List](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/ad.webp)
+![AD Host List](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/ad.webp)
 
 The sub-groups are:
 
@@ -69,7 +69,7 @@ The sub-groups are:
 
 The __ALL WINDOWS HOSTS__ Host List is utilized primarily by the Windows Solution.
 
-![ALL WINDOWS HOSTS Host List](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/allwindowshosts.webp)
+![ALL WINDOWS HOSTS Host List](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/allwindowshosts.webp)
 
 There are no sub-groups for ALL WINDOWS HOSTS.
 
@@ -77,7 +77,7 @@ There are no sub-groups for ALL WINDOWS HOSTS.
 
 The __DG__ Host List can be expanded and contains three sub-groups utilized by the Data Access Governance for File System Solution.
 
-![DG Host List](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/dg.webp)
+![DG Host List](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/dg.webp)
 
 The sub-groups are:
 
@@ -89,7 +89,7 @@ The sub-groups are:
 
 The __EXCHANGE__ Host List can be expanded and contains six sub-groups utilized by the Exchange Solution. Four of these sub-groups can also be expand.
 
-![EXCHANGE Host List](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/exchange.webp)
+![EXCHANGE Host List](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/exchange.webp)
 
 The sub-groups are:
 
@@ -106,7 +106,7 @@ The sub-groups are:
 
 The __SQL SERVERS__ Host List is utilized primarily by the SQL Solution.
 
-![SQL Servers Host List](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/sqlservers.webp)
+![SQL Servers Host List](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/sqlservers.webp)
 
 There are no sub-groups for SQL SERVERS.
 
@@ -114,7 +114,7 @@ There are no sub-groups for SQL SERVERS.
 
 The __Windows Server__ Host List can be expanded and contains three sub-groups utilized by the Windows Solution.
 
-![Windows Server Host List](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/windowsserver.webp)
+![Windows Server Host List](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/windowsserver.webp)
 
 The sub-groups are:
 
@@ -126,7 +126,7 @@ The sub-groups are:
 
 The __Work Station__ Host List can be expanded and contains one sub-group utilized by the Windows Solution.
 
-![Work Station Host List](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/workstation.webp)
+![Work Station Host List](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/workstation.webp)
 
 The single sub-group is:
 

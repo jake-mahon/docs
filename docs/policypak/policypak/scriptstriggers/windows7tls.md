@@ -4,7 +4,7 @@ First know that Windows 7 is not officially supported by Netwrix Endpoint Policy
 
 Pre-read the following to know what is known to NOT work in Windows 7 before continuing:
 
-[How does Endpoint Policy Manager support (and not support) Windows 11?](/docs/policypak/policypak/requirements/support/windows11.md)
+[How does Endpoint Policy Manager support (and not support) Windows 11?](../requirements/support/windows11.md)
 
 Then after that, if you still wish to use Endpoint Policy Manager with Windows 7 and Endpoint Policy Manager Cloud, you must update Windows 7 to
 be TLS 1.2 complaint.

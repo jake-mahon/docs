@@ -16,20 +16,20 @@ __Step 2 –__ Under the __Actions__ pane, select __Add Company Admin__.
 
 When adding new administrators, the following dialog displays:
 
-![956_1_image-20230706150906-5_454x421](/img/product_docs/policypak/policypak/cloud/add/956_1_image-20230706150906-5_454x421.webp)
+![956_1_image-20230706150906-5_454x421](../../../../../static/img/product_docs/policypak/policypak/cloud/add/956_1_image-20230706150906-5_454x421.webp)
 
 Once you click __Create Request__, all existing administrators with the Company Admin Manager role will receive an email notifying them of the request.  Any one of these persons can approve or reject the request.
 
 In addition to the email, these administrators can also log into the Cloud Portal to view any pending request and approve/reject from there.
 
-![956_2_image-20230706151053-6_807x369](/img/product_docs/policypak/policypak/cloud/add/956_2_image-20230706151053-6_807x369.webp)
+![956_2_image-20230706151053-6_807x369](../../../../../static/img/product_docs/policypak/policypak/cloud/add/956_2_image-20230706151053-6_807x369.webp)
 
 __Step 3 –__ Locate/select the __New__ request and click __View__.
 
-![956_3_image-20230706151217-7_855x235](/img/product_docs/policypak/policypak/cloud/add/956_3_image-20230706151217-7_855x235.webp)
+![956_3_image-20230706151217-7_855x235](../../../../../static/img/product_docs/policypak/policypak/cloud/add/956_3_image-20230706151217-7_855x235.webp)
 
 __Step 4 –__ Verify the details and either __Accept__ or __Reject__ the request.
 
-![956_4_image-20230706151408-8_663x573](/img/product_docs/policypak/policypak/cloud/add/956_4_image-20230706151408-8_663x573.webp)
+![956_4_image-20230706151408-8_663x573](../../../../../static/img/product_docs/policypak/policypak/cloud/add/956_4_image-20230706151408-8_663x573.webp)
 
 The requester will receive an email indicating if the request was approved or rejected.

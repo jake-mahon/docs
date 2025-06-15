@@ -24,7 +24,7 @@ Step 3 – Click __Save__.
 
 GroupID generates a number of notifications that are, by default, sent to users in the English language. However, a user can opt to receive notifications in a different language by personalizing the language settings from the __User Settings__ panel in the portal.
 
-However, there are a few exceptions to it. See the [Notifications](/docs/groupid/groupid/admincenter/notification/overview.md) topic for more information.
+However, there are a few exceptions to it. See the [Notifications](../../admincenter/notification/overview.md) topic for more information.
 
 Step 1 – Click the __Settings__ icon at the top of the page.
 
@@ -66,7 +66,7 @@ History is displayed if the administrator has enabled history tracking for the i
 
 Set the number of history items to display on the History tab. This tab is displayed when viewing the properties for a User, Group, Contact or Mailbox.
 
-This setting also controls the number of history items displayed on the [My History](/docs/groupid/groupid/portal/history/myhistory.md), [My Direct Reports' History](/docs/groupid/groupid/portal/history/mydirectreport.md), and [My Groups' History](/docs/groupid/groupid/portal/history/mydirectorygroup.md) pages.
+This setting also controls the number of history items displayed on the [My History](../history/myhistory.md), [My Direct Reports' History](../history/mydirectreport.md), and [My Groups' History](../history/mydirectorygroup.md) pages.
 
 Step 1 – Click the __Settings__ icon at the top of the page.
 

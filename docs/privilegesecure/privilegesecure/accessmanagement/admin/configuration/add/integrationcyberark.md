@@ -15,7 +15,7 @@ __Step 1 –__ Navigate to the Configuration > Integration Connectors page.
 
 __Step 2 –__ In the Integration Connectors list, click the Add Integration Connector icon.
 
-![Add CyberArk Connector Integration](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/add/addcyberark.webp)
+![Add CyberArk Connector Integration](../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/add/addcyberark.webp)
 
 __Step 3 –__ Enter the following information:
 

@@ -5,8 +5,8 @@ This is a service account that Auditor uses to collect audit data from the monit
 Select the account that will be used to collect data for this item. If you want to use a specific account (other than the one you specified during monitoring plan creation), select account type you want to use and enter credentials. The following choices are available:
 
 - User/password. The account must be granted the same permissions and access rights as the default account used for data collection. See the Data Collecting Account topic for additional information.
-- Group Managed Service Account (gMSA). You should specify only the account name in the domain\account$ format. See the [Use Group Managed Service Account (gMSA)](/docs/auditor/auditor/requirements/gmsa.md) topic for additional information.
-- Netwrix Privilege Secure. Starting with version 10.7, you can implement the integration between Netwrix Auditor and Netwrix Privilege Secure. See the [Netwrix Privilege Secure](/docs/auditor/auditor/admin/settings/privilegesecure.md) topic for additional information.
+- Group Managed Service Account (gMSA). You should specify only the account name in the domain\account$ format. See the [Use Group Managed Service Account (gMSA)](../../requirements/gmsa.md) topic for additional information.
+- Netwrix Privilege Secure. Starting with version 10.7, you can implement the integration between Netwrix Auditor and Netwrix Privilege Secure. See the [Netwrix Privilege Secure](../settings/privilegesecure.md) topic for additional information.
 
 - Application and secret for Microsoft 365 with modern authentication.
 
@@ -14,30 +14,30 @@ Each data collecting accounts should meet the requirements from the table below,
 
 | Data source | Required rights and permissions: |
 | --- | --- |
-| Active Directory | [Permissions for Active Directory Auditing](/docs/auditor/auditor/configuration/activedirectory/permissions.md) |
-| Active Directory Federation Services | [Permissions for AD FS Auditing](/docs/auditor/auditor/configuration/activedirectoryfederatedservices/permissions.md) |
-| Microsoft Entra ID (formerly Azure AD), Exchange Online, SharePoint Online, MS Teams | [Permissions for Microsoft Entra ID Auditing](/docs/auditor/auditor/configuration/microsoft365/microsoftentraid/permissions.md)  [Permissions for Exchange Online Auditing](/docs/auditor/auditor/configuration/microsoft365/exchangeonline/permissions.md)  [Permissions for SharePoint Online Auditing ](/docs/auditor/auditor/configuration/microsoft365/sharepointonline/permissions.md)  [Permissions for Teams Auditing](/docs/auditor/auditor/configuration/microsoft365/teams/permissions.md) |
-| Exchange | [Permissions for Exchange Auditing](/docs/auditor/auditor/configuration/exchange/permissions.md) |
-| Windows File Servers | [Permissions for Windows File Server Auditing](/docs/auditor/auditor/configuration/fileservers/windows/permissions.md) |
-| Dell Isilon | [Permissions for Dell Isilon/PowerScale Auditing](/docs/auditor/auditor/configuration/fileservers/dellisilon/permissions.md) |
-| Dell VNX/VNXe/Unity | [Permissions for Dell Data Storage Auditing](/docs/auditor/auditor/configuration/fileservers/delldatastorage/permissions.md) |
-| NetApp | [Permissions for NetApp Auditing](/docs/auditor/auditor/configuration/fileservers/netappcmode/permissions.md) |
-| Nutanix Files | [Permissions for Nutanix Files Auditing](/docs/auditor/auditor/configuration/fileservers/nutanix/permissions.md) |
-| Qumulo | [Permissions for Qumulo Auditing](/docs/auditor/auditor/configuration/fileservers/qumulo/permissions.md) |
-| Synology | [Permissions for Synology Auditing](/docs/auditor/auditor/configuration/fileservers/synology/permissions.md) |
-| Network Devices | [Permissions for Network Devices Auditing](/docs/auditor/auditor/configuration/networkdevices/permissions.md) |
-| Oracle Database | [Permissions for Oracle Database Auditing](/docs/auditor/auditor/configuration/oracle/permissions.md) |
-| SharePoint | [Permissions for SharePoint Auditing](/docs/auditor/auditor/configuration/sharepoint/permissions.md) |
-| SQL Server | [Permissions for SQL Server Auditing ](/docs/auditor/auditor/configuration/sqlserver/permissions.md) |
-| VMware | [Permissions for VMware Server Auditing ](/docs/auditor/auditor/configuration/vmware/permissions.md) |
-| Windows Server (including DNS and DHCP) | [Permissions for Windows Server Auditing ](/docs/auditor/auditor/configuration/windowsserver/permissions.md) |
-| Event Log (including IIS)—collected with Event Log Manager | [Permissions for Windows Server Auditing ](/docs/auditor/auditor/configuration/windowsserver/permissions.md) |
-| Group Policy | [Permissions for Group Policy Auditing ](/docs/auditor/auditor/configuration/grouppolicy/permissions.md) |
-| Logon Activity | [Permissions for Logon Activity Auditing ](/docs/auditor/auditor/configuration/logonactivity/permissions.md) |
+| Active Directory | [Permissions for Active Directory Auditing](../../configuration/activedirectory/permissions.md) |
+| Active Directory Federation Services | [Permissions for AD FS Auditing](../../configuration/activedirectoryfederatedservices/permissions.md) |
+| Microsoft Entra ID (formerly Azure AD), Exchange Online, SharePoint Online, MS Teams | [Permissions for Microsoft Entra ID Auditing](../../configuration/microsoft365/microsoftentraid/permissions.md)  [Permissions for Exchange Online Auditing](../../configuration/microsoft365/exchangeonline/permissions.md)  [Permissions for SharePoint Online Auditing ](../../configuration/microsoft365/sharepointonline/permissions.md)  [Permissions for Teams Auditing](../../configuration/microsoft365/teams/permissions.md) |
+| Exchange | [Permissions for Exchange Auditing](../../configuration/exchange/permissions.md) |
+| Windows File Servers | [Permissions for Windows File Server Auditing](../../configuration/fileservers/windows/permissions.md) |
+| Dell Isilon | [Permissions for Dell Isilon/PowerScale Auditing](../../configuration/fileservers/dellisilon/permissions.md) |
+| Dell VNX/VNXe/Unity | [Permissions for Dell Data Storage Auditing](../../configuration/fileservers/delldatastorage/permissions.md) |
+| NetApp | [Permissions for NetApp Auditing](../../configuration/fileservers/netappcmode/permissions.md) |
+| Nutanix Files | [Permissions for Nutanix Files Auditing](../../configuration/fileservers/nutanix/permissions.md) |
+| Qumulo | [Permissions for Qumulo Auditing](../../configuration/fileservers/qumulo/permissions.md) |
+| Synology | [Permissions for Synology Auditing](../../configuration/fileservers/synology/permissions.md) |
+| Network Devices | [Permissions for Network Devices Auditing](../../configuration/networkdevices/permissions.md) |
+| Oracle Database | [Permissions for Oracle Database Auditing](../../configuration/oracle/permissions.md) |
+| SharePoint | [Permissions for SharePoint Auditing](../../configuration/sharepoint/permissions.md) |
+| SQL Server | [Permissions for SQL Server Auditing ](../../configuration/sqlserver/permissions.md) |
+| VMware | [Permissions for VMware Server Auditing ](../../configuration/vmware/permissions.md) |
+| Windows Server (including DNS and DHCP) | [Permissions for Windows Server Auditing ](../../configuration/windowsserver/permissions.md) |
+| Event Log (including IIS)—collected with Event Log Manager | [Permissions for Windows Server Auditing ](../../configuration/windowsserver/permissions.md) |
+| Group Policy | [Permissions for Group Policy Auditing ](../../configuration/grouppolicy/permissions.md) |
+| Logon Activity | [Permissions for Logon Activity Auditing ](../../configuration/logonactivity/permissions.md) |
 | Inactive Users in Active Directory—collected with Inactive User Tracker | In the target domain   - A member of the Domain Admins group |
 | Password Expiration in Active Directory—collected with Password Expiration Notifier | In the target domain   - A member of the Domain Users group |
 | User Activity | On the target server   - A member of the local Administrators group |
-| Sensitive Data Discovery | [Sensitive Data Discovery ](/docs/auditor/auditor/admin/settings/sensitivedatadiscovery.md) |
+| Sensitive Data Discovery | [Sensitive Data Discovery ](../settings/sensitivedatadiscovery.md) |
 
 ## Update Credentials for Account
 
@@ -55,8 +55,8 @@ __Step 4 –__ Select an account you want to update the password for.
 
 __Step 5 –__ Review the account configuration scope and click __Update password__ next to this account.
 
-![Password Management](/img/product_docs/auditor/auditor/admin/monitoringplans/updatecredentials.webp)
+![Password Management](../../../../../static/img/product_docs/auditor/auditor/admin/monitoringplans/updatecredentials.webp)
 
 __Step 6 –__ Save your edits.
 
-See the [General](/docs/auditor/auditor/admin/settings/general.md) topic for additional information.
+See the [General](../settings/general.md) topic for additional information.

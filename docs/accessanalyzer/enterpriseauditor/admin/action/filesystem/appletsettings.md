@@ -2,7 +2,7 @@
 
 Use the Applet Settings page to specify the machines on which to execute the selected operation.
 
-![File System Action Module Wizard Applet Settings page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/appletsettings.webp)
+![File System Action Module Wizard Applet Settings page](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/fsaa/appletsettings.webp)
 
 Specify how the operations will be executed:
 

@@ -20,7 +20,7 @@ To facilitate entitlement management for an Active Directory identity store in D
 - Compute the permissions assigned to directory objects on the shared files and folders on those file server(s), and replicate those permissions to Elasticsearch.
 - View and manage entitlements in the Entitlement section of the Directory Manager portal.
 
-See the [Manage File Servers](/docs/groupid/groupid/admincenter/entitlement/ad/manage.md) topic for additional information.
+See the [Manage File Servers](ad/manage.md) topic for additional information.
 
 ## Entitlement for SharePoint
 
@@ -40,7 +40,7 @@ To facilitate entitlement management for a Microsoft Entra ID identity store in 
 - Compute the permissions assigned to directory objects on the document libraries in those sites, and replicate those permissions to Elasticsearch.
 - View and manage entitlements in the Entitlement section of the Directory Manager portal.
 
-See the [Manage SharePoint Sites](/docs/groupid/groupid/admincenter/entitlement/entraid/manage.md) topic for additional information.
+See the [Manage SharePoint Sites](entraid/manage.md) topic for additional information.
 
 ## Perpetual Entitlements vs Temporary Entitlements
 
@@ -54,10 +54,10 @@ Using Directory Manager, you can manage entitlements in the following ways:
 
 When you add the first server or site for entitlement management, the following three schedules are automatically created in the identity store:
 
-- [GroupID Entitlement Schedule](/docs/groupid/groupid/admincenter/schedule/entitlement.md) - replicates object permissions on file servers and SharePoint sites for an Active Directory and Microsoft Entra ID identity store
+- [GroupID Entitlement Schedule](../schedule/entitlement.md) - replicates object permissions on file servers and SharePoint sites for an Active Directory and Microsoft Entra ID identity store
   respectively. It performs a complete replication.
-- [Entitlement Scope Schedule](/docs/groupid/groupid/admincenter/schedule/entitlementscope.md) - replicates changes made to object permissions on file servers and SharePoint sites using Directory Manager.
-- [Entitlement Temporary Permissions Schedule](/docs/groupid/groupid/admincenter/schedule/entitlementtemporarypermissions.md) - updates the temporary permissions for objects on file servers and SharePoint sites.
+- [Entitlement Scope Schedule](../schedule/entitlementscope.md) - replicates changes made to object permissions on file servers and SharePoint sites using Directory Manager.
+- [Entitlement Temporary Permissions Schedule](../schedule/entitlementtemporarypermissions.md) - updates the temporary permissions for objects on file servers and SharePoint sites.
 
 ## What is Replication?
 
@@ -74,4 +74,4 @@ The GroupID Entitlement schedule auto runs at a set frequency, but you can also 
 You can grant permissions to security roles in an identity store on the Entitlement section in the Directory Manager portal. Based on these permissions, role members can performs different actions, such as navigate file servers and SharePoint sites, grant
 permissions to objects on shared resources, revoke permissions, and more.
 
-Entitlement-related permissions for a security role are discussed in the [Entitlement](/docs/groupid/groupid/admincenter/securityrole/permissions.md#entitlement) topic.
+Entitlement-related permissions for a security role are discussed in the [Entitlement](../securityrole/permissions.md#entitlement) topic.

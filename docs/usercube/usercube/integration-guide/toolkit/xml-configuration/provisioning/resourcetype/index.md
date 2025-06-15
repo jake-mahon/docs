@@ -17,9 +17,9 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 
 This option is used for provisioning orders to compute useful arguments.
 
-Most standard situations use only one workflow per action type on a resource (addition, update, deletion). But in some more complex situations (like using multi records), several workflows are available for one type of action. As the configuration JSON file of an InternalWorkflow connection cannot contain expressions, a resource type can be configured with the ArgumentsExpression attribute to explicit the arguments of provisioning orders, based on conditions and variables. See the [InternalWorkflow](/docs/usercube/usercube/integration-guide/connectors/references-connectors/internalworkflow/index.md), [
+Most standard situations use only one workflow per action type on a resource (addition, update, deletion). But in some more complex situations (like using multi records), several workflows are available for one type of action. As the configuration JSON file of an InternalWorkflow connection cannot contain expressions, a resource type can be configured with the ArgumentsExpression attribute to explicit the arguments of provisioning orders, based on conditions and variables. See the [InternalWorkflow](../../../../connectors/references-connectors/internalworkflow/index.md), [
 Compute a Resource Type's Provisioning Arguments
-](/docs/usercube/usercube/integration-guide/provisioning/how-tos/argumentsexpression/index.md), and [Expressions](/docs/usercube/usercube/integration-guide/toolkit/expressions/index.md) topics for additional information.
+](../../../../provisioning/how-tos/argumentsexpression/index.md), and [Expressions](../../../expressions/index.md) topics for additional information.
 
 The following example computes the identifier of the workflow to launch, based on the provisioning order as a variable (the returned value depends here mostly on the type of change):
 
@@ -108,37 +108,37 @@ Suppose a resource type managing the provisioning of Active Directory nominative
 
 The following scenario is about a user named Cedric Blanc, whose AD's sn property is set by the scalar rule to Blanc.
 
-![Example - State 0](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/discardmanualassignments_state0_v602.webp)
+![Example - State 0](../../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/discardmanualassignments_state0_v602.webp)
 
 Let's see what happens when the user's name is changed manually directly in the AD.
 
 Suppose that we change in the AD the last name to White. As the scalar rule computes the sn value based on the user's data which still states the last name Blanc, such a change induces a difference between the value calculated by the rule and the actual value in the AD. This difference is spotted by the next synchronization, triggering a non-conforming assignment on the Resource Reconciliation page.
 
-![Example - State 1](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/discardmanualassignments_state1_v602.webp)
+![Example - State 1](../../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/discardmanualassignments_state1_v602.webp)
 
-![Example - Step 1](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/discardmanualassignments_step1_v602.webp)
+![Example - Step 1](../../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/discardmanualassignments_step1_v602.webp)
 
-![Example - Step 2](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/discardmanualassignments_step2_v602.webp)
+![Example - Step 2](../../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/discardmanualassignments_step2_v602.webp)
 
 Once this manual new value is confirmed, the property is stated as __Approved__.
 
-![Example - State 2](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/discardmanualassignments_state2_v602.webp)
+![Example - State 2](../../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/discardmanualassignments_state2_v602.webp)
 
 Now suppose that the user's last name is changed to Black via Identity Manager's workflows. As the source data is changed, the scalar rule computes a new value for sn. There are two options:
 
 - The default configuration (DiscardManualAssignments set to false) considers manual assignments, i.e. changes made directly in the managed system, as authoritative. So there will be no provisioning of the newly computed value for sn. The current sn value that was written manually in the AD stays as is, no matter the changes in the source data (here the user's last name). Identity Manager only states the property's value as Questioned.
 
-  ![Example - State 3](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/discardmanualassignments_state3_v602.webp)
+  ![Example - State 3](../../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/discardmanualassignments_state3_v602.webp)
 
   __NOTE:__ No change in the source data can affect the property's value. However, any manual change made in the managed system will trigger a non-conforming assignment. Then, reconciling the property by choosing to keep Identity Manager's suggested value will make the property's value go back to Calculated and thus follow the changes in the source data.
 
   __NOTE:__ If DiscardManualAssignments is changed from False to True, then the state of the property's value does not matter. Identity Manager applies the rules of the role model, and generates a provisioning order to overwrite the manual change White with the newly computed value Black.
 
-  ![Example - State 4](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/discardmanualassignments_state4_v602.webp)
+  ![Example - State 4](../../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/discardmanualassignments_state4_v602.webp)
 
 In this scenario for Cedric Blanc, these behaviors can be summed up like the following:
 
-![Schema for DiscardManualAssignments](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/discardmanualassignments_schema.webp)
+![Schema for DiscardManualAssignments](../../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/discardmanualassignments_schema.webp)
 
 ### Correlate Multiple Resources
 
@@ -146,34 +146,34 @@ With the __Correlation Multiple Resources__ option, Identity Manager can link a 
 
 Below, we illustrate the different scenarios that are possible, taking into consideration whether a resource type has previously been correlated to the owner or not.
 
-![suggestallcorrelations-nnn](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-nnn.webp)
+![suggestallcorrelations-nnn](../../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-nnn.webp)
 
 - The value for both __Correlate Multiple Resources__ and __Suggest All Correlations__ is __No__ there is no Resource already correlated so the first match with the highest confidence rate is __Correlated__ if it is \>100 or __Suggested__ if it is \ `<100`. As for all other matches with lower confidence rate they will be ignored.
 
-  ![suggestallcorrelations-nnn2](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-nnn2.webp)
+  ![suggestallcorrelations-nnn2](../../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-nnn2.webp)
 
   If there are no Resources to be correlated with a confidence rate `>100`, the ones below with confidence rate below 100 are Suggested or Ignored.
 
-  ![suggestallcorrelations-nny](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-nny.webp)
+  ![suggestallcorrelations-nny](../../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-nny.webp)
 - The value for both __Correlate Multiple Resources__ and __Suggest All Correlations__ is __No__ there is one Resource already correlated so due to this all future correlations will be ignored.
 
-  ![suggestallcorrelations-nyn](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-nyn.webp)
+  ![suggestallcorrelations-nyn](../../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-nyn.webp)
 - The value for __Correlate Multiple Resources__ is __No__, __Suggest All Correlations__ is __Yes__ there is no Resource already correlated so all Resource Types will be __Suggested__.
 
-  ![suggestallcorrelations-nyy](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-nyy.webp)
+  ![suggestallcorrelations-nyy](../../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-nyy.webp)
 - The value for __Correlate Multiple Resources__ is __No__, __Suggest All Correlations__ __Yes__ there is one Resource already correlated so the Resource Types that have a confidence rate `>100` will be __Suggested__. As for all other matches with lower confidence rate they will be ignored.
 
-  ![suggestallcorrelations-ynn](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-ynn.webp)
+  ![suggestallcorrelations-ynn](../../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-ynn.webp)
 - The value for __Correlate Multiple Resources__ is __Yes__, __Suggest All Correlations__ __No__, and there is no Resource already correlated so Resource Types that have a confidence rate `>100` will be __Correlated__ and the ones `<100` will be __Suggested__ if there are no higher matches otherwise they will be ignored.
 
-  ![suggestallcorrelations-ynn2](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-ynn2.webp)
+  ![suggestallcorrelations-ynn2](../../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-ynn2.webp)
 
   If there are no Resources to be correlated with a confidence rate `>100`, the ones with confidence rate below 100 are Suggested.
 
-  ![suggestallcorrelations-yny](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-yny.webp)
+  ![suggestallcorrelations-yny](../../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-yny.webp)
 - The value for __Correlate Multiple Resources__ is __Yes__, __Suggest All Correlations__ __No__ there is one Resource already correlated so the matches with confidence rate `>100` will be __Correlated__ and the ones `<100` will be ignored.
 
-  ![suggestallcorrelations-yyny](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-yyny.webp)
+  ![suggestallcorrelations-yyny](../../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-yyny.webp)
 - The value for __Correlate Multiple Resources__ is __Yes__, __Suggest All Correlations__ __Yes__ one Resource could be already correlated or not so the matches with confidence rate `>100` will be __Correlated__ and the ones `<100` will be __Suggested__.
 
 ## Properties
@@ -203,10 +203,10 @@ Below, we illustrate the different scenarios that are possible, taking into cons
 | MaximumInsertPercent   default value: 30 | Int32 | Inserted lines threshold in percent. |
 | MaximumUpdate   default value: 0 | Int32 | Updated lines threshold. Sets the maximum number of resources that can be modified within the resource type when running the provisioning job. |
 | MaximumUpdatePercent   default value: 30 | Int32 | Updated lines threshold in percent. |
-| P0   default value: false | Boolean | True to indicate that the resource type is parametrized, i.e. there is at least one type rule configured to assign the resource type based on the dimension 0 (up to 3V following the base32hex convention). See the [ Base32 Parameter Names ](/docs/usercube/usercube/integration-guide/toolkit/parameter-names/index.md) topic for additional information. |
+| P0   default value: false | Boolean | True to indicate that the resource type is parametrized, i.e. there is at least one type rule configured to assign the resource type based on the dimension 0 (up to 3V following the base32hex convention). See the [ Base32 Parameter Names ](../../../parameter-names/index.md) topic for additional information. |
 | Policy   required | Int64 | Identifier of the policy that the resource type is part of. |
 | ProlongationWithoutApproval   default value: 0 | ProlongationWithoutApproval | Indicates whether the resource type can be extended without any validation.   0 - Inherited: gets the value from the policy.   1 - Enabled.   2 - Disabled. |
-| R0   default value: false | Boolean | True to set the dimension 0 (up to 3V following the base32hex convention) as a required parameter when assigning the resource type. See the [ Base32 Parameter Names ](/docs/usercube/usercube/integration-guide/toolkit/parameter-names/index.md) topic for additional information. |
+| R0   default value: false | Boolean | True to set the dimension 0 (up to 3V following the base32hex convention) as a required parameter when assigning the resource type. See the [ Base32 Parameter Names ](../../../parameter-names/index.md) topic for additional information. |
 | RemoveOrphans   default value: false | Boolean | True to authorize the deprovisioning of this resource when it does not have an owner. Can only be true when AllowRemove property is also true. |
 | SourceEntityType   required | Int64 | Identifier of the source entity type. |
 | SuggestAllCorrelations  optionalAttribute | Boolean | Allows correlation suggestions for rules with a confidence rate below 100, even if other correlations with a confidence rate above 100 have been found. |
@@ -233,7 +233,7 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 | Binding   optional | Int64 | Defines the binding expression to get the file property. |
 | Policy   required | Int64 | Identifier of the policy that the rule is part of. |
 | Property   required | Int64 | Identifier of the property used to represent the file on the target EntityType. |
-| SingleRole   optional | Int64 | Identifier of the single role. The single role must be assigned to the owner so that the file can be provisioned on the resource. See the [ Single Role ](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md) topic for additional information. |
+| SingleRole   optional | Int64 | Identifier of the single role. The single role must be assigned to the owner so that the file can be provisioned on the resource. See the [ Single Role ](../singlerole/index.md) topic for additional information. |
 | TimeOffsetAfterReference   default value: 0 | Int32 | Defines the offset after reference (in minutes). |
 | TimeOffsetBeforeReference   default value: 0 | Int32 | Defines the offset before reference (in minutes). |
 | TimeOffsetReference   default value: 0 | TimeOffsetReference | Offset mode defining which dates to use as references, in order to apply the time offset. The time period for which the rule is applied is adjusted accordingly.   0 - Default: the offset inherited from the type rule.   1 - Around: the offset before reference is applied from the start date of the resource, and the offset after reference is applied from the end date.   2 - Before: the offset before and after reference are both applied from the start date of the resource.   3 - After: the offset before and after reference are both applied from the end date of the resource.  __NOTE:__  in a situation with several binary rules, the order of application is: After, then Before, then Around, then Default. Each rule is able to overwrite those previously applied in case they overlap.  _Remember,_  two offsets of the same mode should never overlap.  Resources' start and end dates can be configured through record sections and/or context rules. |
@@ -248,7 +248,7 @@ __NOTE:__ Both navigation and query rules compute navigation properties. The val
 
 See the [
 Compute a Navigation Property
-](/docs/usercube/usercube/user-guide/set-up/provisioning-rule-creation/navigation-property-computation/index.md) topic for additional information.
+](../../../../../user-guide/set-up/provisioning-rule-creation/navigation-property-computation/index.md) topic for additional information.
 
 ### Examples
 
@@ -274,15 +274,15 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 
 Parametrized roles
 
-The role catalog can be optimized by reducing the number of roles, by configuring parametrized roles. See the [Configure a Parametrized Role](/docs/usercube/usercube/user-guide/optimize/parameterized-role/index.md)topic for additional information.
+The role catalog can be optimized by reducing the number of roles, by configuring parametrized roles. See the [Configure a Parametrized Role](../../../../../user-guide/optimize/parameterized-role/index.md)topic for additional information.
 
 This optimization will simplify the functional understanding of the role catalog, and speed up Identity Manager's calculations.
 
 Supposing that the 10th dimension (dimension A following the base32hex convention) is created for time slots, the following example creates a single role Access/A_Brune_HR for all time slots. Each time-slot-related entitlement will be assigned to users by configuring one navigation rule per entitlement, using the dimension as a required parameter. See the [
 Dimension
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/metadata/dimension/index.md) and [
+](../../metadata/dimension/index.md) and [
 Base32 Parameter Names
-](/docs/usercube/usercube/integration-guide/toolkit/parameter-names/index.md)topics for additional information.
+](../../../parameter-names/index.md)topics for additional information.
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
@@ -307,7 +307,7 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 
 ## Child Element: QueryRule
 
-A query rule computes the value of a given navigation property for target resources, based on the properties of their owners (source resources and entitlements). These properties are to be provisioned, i.e. written to the managed system. Contrary to navigation rules, query rules assign resources to target resources according to a query via a C# expression with conditions, based on the attributes of the source resources. See the [Expressions](/docs/usercube/usercube/integration-guide/toolkit/expressions/index.md) topic for additional information.
+A query rule computes the value of a given navigation property for target resources, based on the properties of their owners (source resources and entitlements). These properties are to be provisioned, i.e. written to the managed system. Contrary to navigation rules, query rules assign resources to target resources according to a query via a C# expression with conditions, based on the attributes of the source resources. See the [Expressions](../../../expressions/index.md) topic for additional information.
 
 A query rule is defined by the child element `<QueryRule>` of the `<ResourceType>` element.
 
@@ -315,7 +315,7 @@ Both navigation and query rules compute navigation properties. The value of one 
 
 See the [
 Compute a Navigation Property
-](/docs/usercube/usercube/user-guide/set-up/provisioning-rule-creation/navigation-property-computation/index.md) topic for additional information.
+](../../../../../user-guide/set-up/provisioning-rule-creation/navigation-property-computation/index.md) topic for additional information.
 
 ### Examples
 
@@ -338,9 +338,9 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 | Policy   required | Int64 | Identifier of the policy that the rule is part of. |
 | Property   required | Int64 | Identifier of the navigation property to be computed. |
 | SourceBinding   optional | Int64 | Binding of the property from the source entity type to be compared with the target binding/expression, in order to find a matching resource to be the value of Property. |
-| SourceExpression   optional | String | C# expression to compare with the target binding/expression in order to compute the value of Property with the matching resource. See the [Expressions](/docs/usercube/usercube/integration-guide/toolkit/expressions/index.md) topic for additional information. |
+| SourceExpression   optional | String | C# expression to compare with the target binding/expression in order to compute the value of Property with the matching resource. See the [Expressions](../../../expressions/index.md) topic for additional information. |
 | TargetBinding   optional | Int64 | Binding of the property from the entity type pointed by Property, which will be the value of Property if it matches the source binding/expression. |
-| TargetExpression   optional | String | C# expression to compare with the source binding/expression in order to compute the value of Property with the matching resource.See the [Expressions](/docs/usercube/usercube/integration-guide/toolkit/expressions/index.md) topic for additional information.  ___RECOMMENDED:___  The TargetExpression must contain at least one target property, it cannot be a literal expression. |
+| TargetExpression   optional | String | C# expression to compare with the source binding/expression in order to compute the value of Property with the matching resource.See the [Expressions](../../../expressions/index.md) topic for additional information.  ___RECOMMENDED:___  The TargetExpression must contain at least one target property, it cannot be a literal expression. |
 | TargetMatchedConfidenceLevel   default value: 0 | Int32 | Percentage rate expressing the confidence in the rule according to data quality and sensitivity. Identity Manager considers the rules in descending order of confidence rate, the first matching rule is applied.   0 to 99: imposes that a resource manager reviews the property computation on the Resource Reconciliation page.   100 to 150: computes the property automatically. |
 | TimeOffsetAfterReference   default value: 0 | Int32 | Time period (in minutes) after the reference end date, which shifts the end of the rule's application.  A negative value for the time offset means that the time period is before the reference date. |
 | TimeOffsetBeforeReference   default value: 0 | Int32 | Time period (in minutes) after the reference start date, which shifts the start of the rule's application.  A negative value for the time offset means that the time period is before the reference date. |
@@ -352,7 +352,7 @@ A scalar rule computes the value of a given scalar property for target resources
 
 A scalar rule is defined by the child element `<ScalarRule>` of the `<ResourceType>` element.
 
-See the [Compute a Scalar Property](/docs/usercube/usercube/user-guide/set-up/provisioning-rule-creation/scalar-property-computation/index.md) topic for additional information.
+See the [Compute a Scalar Property](../../../../../user-guide/set-up/provisioning-rule-creation/scalar-property-computation/index.md) topic for additional information.
 
 ### Examples
 
@@ -381,7 +381,7 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 
 Computation via a literal expression
 
-The following example translates to "the userAccountControl property of a App1_Account of resource type App1_Standard_Account must be equal to 66048. It uses a literal expression. See the [Expressions](/docs/usercube/usercube/integration-guide/toolkit/expressions/index.md) topic for additional information.
+The following example translates to "the userAccountControl property of a App1_Account of resource type App1_Standard_Account must be equal to 66048. It uses a literal expression. See the [Expressions](../../../expressions/index.md) topic for additional information.
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
@@ -395,7 +395,7 @@ Binding
 
 The Binding attribute complies with the binding expression syntax or the calculation expression syntax. So, it can use the C# language to specify a more complex binding. See the [
 Bindings
-](/docs/usercube/usercube/integration-guide/toolkit/bindings/index.md) and [Expressions](/docs/usercube/usercube/integration-guide/toolkit/expressions/index.md) topics for additional information.
+](../../../bindings/index.md) and [Expressions](../../../expressions/index.md) topics for additional information.
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line.
 
@@ -407,9 +407,9 @@ IsMapped
 
 Consider a system that we want to connect to Identity Manager, let's call it SYST, using a title property. Consider also that SYST needs to be provisioned with the value of title, but does not allow any other system to retrieve the said value.
   
-In this case, we set ```IsMapped``` to false so that Identity Manager sends the adequate provisioning order when needed, and then is able to change the provisioning state to __Executed__ without synchronization. See the [Provision](/docs/usercube/usercube/user-guide/administrate/provisioning/index.md) [
+In this case, we set ```IsMapped``` to false so that Identity Manager sends the adequate provisioning order when needed, and then is able to change the provisioning state to __Executed__ without synchronization. See the [Provision](../../../../../user-guide/administrate/provisioning/index.md) [
 Synchronize Data
-](/docs/usercube/usercube/user-guide/set-up/synchronization/index.md) topic for additional information.
+](../../../../../user-guide/set-up/synchronization/index.md) topic for additional information.
 
 The following example computes users' title in a given managed system, based on Identity Manager's ```PersonalTitle``` property without ever retrieving the value:
 
@@ -423,12 +423,12 @@ TimeOffset
 
 A scalar rule is applied according to reference start and end dates (configured through record sections and context rules), usually users' arrival and departure days. It means that, for a user matching the rule's criteria, a property is to be computed, by default, from the user's arrival day until their departure day. See the [
 Record Section
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/recordsection/index.md)
+](../recordsection/index.md)
 and [
 Context Rule
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/contextrule/index.md) topics for additional information.
+](../contextrule/index.md) topics for additional information.
 
-![Schema - Default Application Period](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/datamodel_scalarrule_timeoffsetdefault.webp)
+![Schema - Default Application Period](../../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/datamodel_scalarrule_timeoffsetdefault.webp)
   
 A time offset adjusts the period for which the rule applies and computes a property's value.
 
@@ -445,13 +445,13 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 </ResourceType>
 ```
 
-![Schema - Offset Application Period](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/datamodel_scalarrule_timeoffsetexample.webp)
+![Schema - Offset Application Period](../../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/datamodel_scalarrule_timeoffsetexample.webp)
 
 If the time period of property computation exceeds the limits of the period of resource type assignment, then the period of resource type assignment is extended accordingly.
 
 Note that the rules are applied in a specific order according to their offset reference: After, Before, Around and Default. Each rule overwrites pre-existing values. Thus in case of overlapping rules, Default-offset rules overwrite the values of Around-offset rules, which overwrite the values of Before-offset rules, which overwrite the values of After-offset rules. We could have the following:
 
-![Schema - Overlapping Offsets](/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/datamodel_scalarrule_timeoffsetoverlap.webp)
+![Schema - Overlapping Offsets](../../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/datamodel_scalarrule_timeoffsetoverlap.webp)
 
 ### Properties
 
@@ -459,7 +459,7 @@ Note that the rules are applied in a specific order according to their offset re
 | --- | --- | --- |
 | Binding   optional | Int64 | Defines the binding expression. |
 | ComparisonType   default value: 0 | ComparisonType | Defines the comparison type for the computed value, when Identity Manager retrieves it from the managed system during synchronization, and compares it to the value stored in Identity Manager's database.   0 - CaseSensitive: compares words exactly as they are.   1 - IgnoreCase: ignores the difference between upper and lower case.   2 - IgnoreDiacritics: considers all letters with diacritics (é, à, ç) to be equivalent to their base letters (e, a, c...).   3 - Simplified: ignores diacritics, case and characters which are not letters.   4 - Approximate: does the same as Simplified but also ignores some spelling mistakes. Some letters are considered equivalent (Z and S, Y and I, W and V, K and C, SS and C). All H can be missing. A T, D or S can be missing at the very end. Finally, it ignores all duplicate letters (other than SS).   There is no comparison for unmapped properties (IsMapped set to false). |
-| Expression   optional | String | Expression used to compute the target property specified in Property. See the [Expressions](/docs/usercube/usercube/integration-guide/toolkit/expressions/index.md) topic for additional information.  _Remember,_ for C# expressions, Identity Manager provides an implicit variable called "assignment" that contains basic information about the linked assigned resource type, i.e. StartDate, EndDate and ParametersValues. |
+| Expression   optional | String | Expression used to compute the target property specified in Property. See the [Expressions](../../../expressions/index.md) topic for additional information.  _Remember,_ for C# expressions, Identity Manager provides an implicit variable called "assignment" that contains basic information about the linked assigned resource type, i.e. StartDate, EndDate and ParametersValues. |
 | IsMapped   default value: true | Boolean | True to use the scalar rule's computation to both provision the managed system and synchronize the property back to Identity Manager, thus both create and update.  Otherwise, the scalar rule's computation is used only to provision the managed system and the property will be ignored during synchronization, thus create only. This way the property can never be displayed as non-conforming.  IsMapped is usually set to false in order to adapt the configuration to the constraints of the managed system, when Identity Manager does not retrieve and/or update the property value. |
 | Policy   required | Int64 | Identifier of the policy that the rule is part of. |
 | Property   required | Int64 | Identifier of the scalar property to be computed. |

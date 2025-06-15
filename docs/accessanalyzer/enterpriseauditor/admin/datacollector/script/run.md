@@ -10,8 +10,8 @@ __Step 2 –__ Click __Create Query__ to open the Query Properties window.
 
 __Step 3 –__ Select the __Data Source__ tab, and select __SCRIPT__ in the Data Collector drop-down menu.
 
-![Query Properties window](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/script/querypropertiesstandalone.webp)
+![Query Properties window](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/script/querypropertiesstandalone.webp)
 
 __Step 4 –__ Click __Configure__ or the __Browse Data Source__ button to open the VBScript Editor page and add the script to run.
 
-See the [VBScript Editor](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/script/editor.md) topic for additional information.
+See the [VBScript Editor](editor.md) topic for additional information.

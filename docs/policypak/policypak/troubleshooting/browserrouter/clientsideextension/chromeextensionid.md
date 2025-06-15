@@ -2,7 +2,7 @@
 
 Below is the ID list from Chrome. If you need to, you can force-install an Extension ID via ADMX or Netwrix Endpoint Policy Manager (formerly PolicyPak) Application Manager Pak using this article:
 
-[Endpoint Policy Manager Browser Router removes other Chrome ‘force installed' extensions. How can I work around this?](/docs/policypak/policypak/troubleshooting/browserrouter/chrome/forceinstall.md)
+[Endpoint Policy Manager Browser Router removes other Chrome ‘force installed' extensions. How can I work around this?](../chrome/forceinstall.md)
 
 Note that Endpoint Policy Manager does not guarantee that the version you are using is definitely in the chrome store. We are only allowed to publish 20 items, as such, the oldest items will be removed when the newest items are published.
 
@@ -16,7 +16,7 @@ This will indicate to you if the extension is still published or not.
 
 __NOTE:__  Edge Chromium uses the same PPBR Chrome Extension.You can see the extension ID in Edge Chromium by visiting edge://extensions from within Edge Chromium.
 
-![202_1_image-20220105135628-1](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/clientsideextension/202_1_image-20220105135628-1.webp)
+![202_1_image-20220105135628-1](../../../../../../static/img/product_docs/policypak/policypak/troubleshooting/browserrouter/clientsideextension/202_1_image-20220105135628-1.webp)
 
 | DATE | CSE VERSION | VERSION OF EXTENSION | EXTENSION ID | Still available in Chrome Store? |
 | --- | --- | --- | --- | --- |

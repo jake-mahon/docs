@@ -2,12 +2,12 @@
 
 The Resources Groups page is accessible from the Navigation pane under Resources. It shows the configured all configured resource groups and their details. Resources can be organized into groups to make it easier to manage common settings across them.
 
-![Resource Groups Details Page](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/resourcegroupspage.webp)
+![Resource Groups Details Page](../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/resourcegroupspage.webp)
 
 The pane on the left side of the page displays a list of the configured resource groups. This pane has the following features:
 
 - Search — Searches the table or list for matches to the search string. When matches are found, the table or list is filtered to the matching results.
-- Blue + button — Create a resource group. See the [Add a Resource Group](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/resourcegroup.md) topic for additional information.
+- Blue + button — Create a resource group. See the [Add a Resource Group](../add/resourcegroup.md) topic for additional information.
 - Copy icon — Duplicates the resource group. Icon appears when group is hovered over.
 - Trashcan icon — Deletes the resource group. Icon appears when group is hovered over. A confirmation window will display.
 
@@ -21,7 +21,7 @@ The selected resource group details display at the top of the main pane. The fol
   - Include Child OUs checkbox — Indicates if child OUs of the specified OU are included in the mapping
   - Auto-Onboard checkbox — Indicates if Privilege Secure automatically manages any resources found in the OU
 - Notification Emails — Displays a comma-delimited list email recipients to notify of events on the resources in the selected group
-- Manage Local Administrator Accounts — Indicates whether or not local Administrator accounts on resources in this group should be automatically managed when the resource is on-boarded. The account to be managed will correspond with the Built-in Account field on the resource's platform. See the [Platforms Page](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/platforms/overview.md) topic for additional information.
+- Manage Local Administrator Accounts — Indicates whether or not local Administrator accounts on resources in this group should be automatically managed when the resource is on-boarded. The account to be managed will correspond with the Built-in Account field on the resource's platform. See the [Platforms Page](platforms/overview.md) topic for additional information.
 
   - Off (Do Not Manage Accounts) — Do not manage any Local Administrator accounts on the resources in the selected group
   - On (Manage All Accounts) — Manage all Local Administrator accounts on the resources in the selected group
@@ -32,12 +32,12 @@ If any of these settings are modified, Save and Cancel buttons are displayed. Cl
 The table has the following features:
 
 - Search — Searches the table or list for matches to the search string. When matches are found, the table or list is filtered to the matching results.
-- Add — Opens the Add Resources window. See the [Add Resources Window for Resource Group](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/resources/addresourcestogroup.md) topic for additional information.
+- Add — Opens the Add Resources window. See the [Add Resources Window for Resource Group](../window/resources/addresourcestogroup.md) topic for additional information.
 - Remove — Removes the selected item from the group
 - Manage — Set the selected account to be managed by Privilege Secure. This button is only available when the account Managed Type is Standard or Internal. For an Internal account, a pop up window will display.. Password rotation can be set to automatic or manual for managed accounts.
 - Unmanage — Remove the account from being managed by Privilege Secure
-- Change Platform — Opens the Change Platform window to modify the type of platform for the selected host resource. See the [Change Platform Window](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/resources/changeplatform.md) topic for additional information.
-- Change Service Account — Opens the Change Service Account window to modify the service account associated with the selected host resource. See the [Change Service Account Window](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/resources/changeserviceaccount.md) topic for additional information.
+- Change Platform — Opens the Change Platform window to modify the type of platform for the selected host resource. See the [Change Platform Window](../window/resources/changeplatform.md) topic for additional information.
+- Change Service Account — Opens the Change Service Account window to modify the service account associated with the selected host resource. See the [Change Service Account Window](../window/resources/changeserviceaccount.md) topic for additional information.
 - Schedule Rotation — Add the credential rotation task to the queue. This button is only available when the Method is Automatic managed.
 - Refresh — Reload the information displayed
 

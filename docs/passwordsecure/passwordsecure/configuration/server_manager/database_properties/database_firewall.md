@@ -8,17 +8,17 @@ The database firewall enables you to regulate access to the database. A whitelis
 
 The firewall can be directly activated in the database settings.
 
-![database firewall](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/database_properties/installation_with_parameters_226-en.webp)
+![database firewall](../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/database_properties/installation_with_parameters_226-en.webp)
 
 Access to the firewall is blocked after it has been activated. Login attempts are directly blocked.
 
-![installation_with_parameters_227](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/database_properties/installation_with_parameters_227.webp)
+![installation_with_parameters_227](../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/database_properties/installation_with_parameters_227.webp)
 
 #### Firewall rules
 
-The rules already set are displayed in the section on the right. The icons ![+](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/database_properties/+.webp) and ![-](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/database_properties/-.webp) can be used to add or also delete rules. Rules can be edited by double clicking on them.
+The rules already set are displayed in the section on the right. The icons ![+](../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/database_properties/+.webp) and ![-](../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/database_properties/-.webp) can be used to add or also delete rules. Rules can be edited by double clicking on them.
 
-![firewall rule](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/database_properties/installation_with_parameters_230-en.webp)
+![firewall rule](../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/database_properties/installation_with_parameters_230-en.webp)
 
 The following possibilities exist:
 
@@ -38,7 +38,7 @@ If two or more rules overlap, the rule with the least rights will always be appl
 
 The functionality of the firewall will be explained in more detail using the following rules:
 
-![defined firewall rules](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/database_properties/installation_with_parameters_231-en.webp)
+![defined firewall rules](../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/database_properties/installation_with_parameters_231-en.webp)
 
 Approving an IP range (Rule 1)
 

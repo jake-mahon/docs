@@ -47,7 +47,7 @@ You can provide the Send As setting on any tab of an object’s properties page 
 8. In the __Field__ drop-down list, select the _XAdPermissionExtendedRights_ attribute.
 9. In the __Display Name__ box, provide a label for the field, such as ‘Send As Permissions’. The Send As field will be displayed with this name in the portal.
 10. In the __Display Type__ drop-down list, select ‘DNs’.
-11. In the __Visibility Level__ drop-down list, select a security role. The Send As field would be visible to users of this role and roles with a priority value higher than this role. It would not even be visible to group owners (for their respective groups) and user managers (for their direct reports) if they fall in a lower priority role. See [Priority](/docs/groupid/groupid/admincenter/securityrole/manage.md).
+11. In the __Visibility Level__ drop-down list, select a security role. The Send As field would be visible to users of this role and roles with a priority value higher than this role. It would not even be visible to group owners (for their respective groups) and user managers (for their direct reports) if they fall in a lower priority role. See [Priority](../../securityrole/manage.md).
 
     - Select _Never_ to hide the field from all users.
     - Select _Manager and Owner_ to make the field visible only to the owner (in case of a group) or manager (in case of a mailbox). It would be hidden from other users, such as group members or the mailbox itself. In other words, the field would be visible to group owners for their respective groups and to managers for their respective direct reports in the portal.
@@ -78,7 +78,7 @@ You can provide the Send As setting on any tab of an object’s properties page 
 
 Launch the portal and go to the properties of the target object (group or mailbox) you defined the Send As field for, then click the respective tab. The Send As field is displayed as follows:
 
-![sendas](/img/product_docs/groupid/groupid/admincenter/portal/design/sendas.webp)
+![sendas](../../../../../../static/img/product_docs/groupid/groupid/admincenter/portal/design/sendas.webp)
 
 Use the __Add__ and __Remove__ buttons to add and remove objects in the Send As list. The added objects can send email for the target object in accordance with the Send As functionality.
 
@@ -99,7 +99,7 @@ You can provide the Send on Behalf setting on any tab of an object’s propertie
 8. In the __Field__ drop-down list, select the _publicDelegates_ attribute.
 9. In the __Display Name__ provide a label for the field, such as ‘Send on Behalf Permissions’. The Send on Behalf field will be displayed with this name on the portal.
 10. In the __Display Type__ drop-down list, select ‘DNs’.
-11. In the __Visibility Level__ drop-down list, select a security role. The Send on Behalf field would be visible to users of this role and roles with a priority value higher than this role. It would not be visible to group owners (for their groups) and user managers (for their direct reports) if they fall in a lower priority role. See [Priority](/docs/groupid/groupid/admincenter/securityrole/manage.md).
+11. In the __Visibility Level__ drop-down list, select a security role. The Send on Behalf field would be visible to users of this role and roles with a priority value higher than this role. It would not be visible to group owners (for their groups) and user managers (for their direct reports) if they fall in a lower priority role. See [Priority](../../securityrole/manage.md).
 
     - Select _Never_ to hide the field from all users.
     - Select _Manager and Owner_ to make the field visible only to the owner (in case of a group) or manager (in case of a mailbox). It would be hidden from other users, such as group members or the mailbox itself. In other words, the field would be visible to group owners for their respective groups and to managers for their respective direct reports in the portal.
@@ -130,6 +130,6 @@ You can provide the Send on Behalf setting on any tab of an object’s propertie
 
 Launch the portal and go to the properties of the target object (group or mailbox) you defined the Send on Behalf field for, then click the respective tab. The Send on Behalf field is displayed as follows:
 
-![sendonbehalf](/img/product_docs/groupid/groupid/admincenter/portal/design/sendonbehalf.webp)
+![sendonbehalf](../../../../../../static/img/product_docs/groupid/groupid/admincenter/portal/design/sendonbehalf.webp)
 
 Use the __Add__ and __Remove__ buttons to add and remove objects in the Send on Behalf list. The added objects can send email on behalf of the target object in accordance with the Send on Behalf functionality.

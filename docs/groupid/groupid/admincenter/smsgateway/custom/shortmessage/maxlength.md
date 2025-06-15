@@ -24,4 +24,4 @@ This property stores the maximum length of an SMS message. If you send a message
 
 See Also
 
-- [ShortMessage class](/docs/groupid/groupid/admincenter/smsgateway/custom/shortmessage/class.md)
+- [ShortMessage class](class.md)

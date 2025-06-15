@@ -16,13 +16,13 @@ Follow the steps to view the service details.
 Step 1 – In Admin Center, click __Applications__ in the left pane.
 
 Step 2 – On the __Applications__ page, click the __Security Service__ tab.  
-The tab displays the default Security service created while configuring Directory Manager and any other Security service that you have created. When multiple Directory Manager instances have been deployed, you will find multiple default Security services on this tab page, as each instance has its own default Security service. See the [Elasticsearch Clusters, Nodes, and Directory Manager](/docs/groupid/groupid/admincenter/service/overview.md#elasticsearch-clusters-nodes-and-directory-manager) topic for additional information.  
-For details displayed on a service card, see the table in the [View Data Service Details](/docs/groupid/groupid/admincenter/service/dataservice/manage.md#view-data-service-details) topic.
+The tab displays the default Security service created while configuring Directory Manager and any other Security service that you have created. When multiple Directory Manager instances have been deployed, you will find multiple default Security services on this tab page, as each instance has its own default Security service. See the [Elasticsearch Clusters, Nodes, and Directory Manager](../overview.md#elasticsearch-clusters-nodes-and-directory-manager) topic for additional information.  
+For details displayed on a service card, see the table in the [View Data Service Details](../dataservice/manage.md#view-data-service-details) topic.
 
 ## Manage Security Service Settings
 
 See
-the [Manage Data Service Settings](/docs/groupid/groupid/admincenter/service/dataservice/manage.md) topic to manage settings for a Security service, such as deployment and log settings.
+the [Manage Data Service Settings](../dataservice/manage.md) topic to manage settings for a Security service, such as deployment and log settings.
 
 ## Manage Advanced Settings
 
@@ -33,8 +33,8 @@ Follow the steps to enable communication between multiple Security services.
 Step 1 – In Admin Center, click __Applications__ in the left pane.
 
 Step 2 – On the Applications page, click the __Security Service__ tab.  
-The tab displays the default Security service created while configuring Directory Manager and any other Security service that you have created. When multiple Directory Manager instances have been deployed, you will find multiple default Security services on this tab page, as each instance has its own default Security service. See the [Elasticsearch Clusters, Nodes, and Directory Manager](/docs/groupid/groupid/admincenter/service/overview.md#elasticsearch-clusters-nodes-and-directory-manager) topics for additional information.  
-For details displayed on a service card, see the table in the [View Data Service Details](/docs/groupid/groupid/admincenter/service/dataservice/manage.md#view-data-service-details) topic for additional information.
+The tab displays the default Security service created while configuring Directory Manager and any other Security service that you have created. When multiple Directory Manager instances have been deployed, you will find multiple default Security services on this tab page, as each instance has its own default Security service. See the [Elasticsearch Clusters, Nodes, and Directory Manager](../overview.md#elasticsearch-clusters-nodes-and-directory-manager) topics for additional information.  
+For details displayed on a service card, see the table in the [View Data Service Details](../dataservice/manage.md#view-data-service-details) topic for additional information.
 
 Step 3 – Click the __ellipsis button__ for a Security service and select __Settings__.
 

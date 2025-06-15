@@ -8,7 +8,7 @@ Navigate to the __Jobs__ > __SharePoint__ > __1.Direct Permissions__ > __SP_Doma
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the SP_DomainUsers Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/directpermissions/domainusersanalysis.webp)
+![Analysis Tasks for the SP_DomainUsers Job](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/sharepoint/directpermissions/domainusersanalysis.webp)
 
 The default analysis tasks are:
 

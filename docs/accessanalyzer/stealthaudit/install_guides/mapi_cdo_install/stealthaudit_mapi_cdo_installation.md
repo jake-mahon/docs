@@ -2,11 +2,11 @@
 
 Both the Access Analyzer MAPI CDO and the Microsoft® Exchange MAPI CDO must to be installed in order to enable the Settings > Exchange node.
 
-![exchangenode](/img/product_docs/accessanalyzer/stealthaudit/install_guides/mapi_cdo_install/exchangenode.webp)
+![exchangenode](../../../../../static/img/product_docs/accessanalyzer/stealthaudit/install_guides/mapi_cdo_install/exchangenode.webp)
 
-The Microsoft Exchange MAPI CDO is only required to run the MAPI-based data collectors. See the [Exchange Solution](/docs/accessanalyzer/enterpriseauditor/solutions/exchange/overview.md) topic for additional information.
+The Microsoft Exchange MAPI CDO is only required to run the MAPI-based data collectors. See the [Exchange Solution](../../../enterpriseauditor/solutions/exchange/overview.md) topic for additional information.
 
-The Access Analyzer MAPI CDO can be downloaded from the [Product Downloads](https://www.stealthbits.com/product-downloads) page of the Netwrix website. The Microsoft Exchange MAPI CDO can be downloaded directly from Microsoft. See the [Appendix for the StealthAUDIT MAPI CDO Installation Guide](/docs/accessanalyzer/stealthaudit/install_guides/mapi_cdo_install/appendix.md) for requirements and installation steps to install the Microsoft Exchange MAPI CDO.
+The Access Analyzer MAPI CDO can be downloaded from the [Product Downloads](https://www.stealthbits.com/product-downloads) page of the Netwrix website. The Microsoft Exchange MAPI CDO can be downloaded directly from Microsoft. See the [Appendix for the StealthAUDIT MAPI CDO Installation Guide](appendix.md) for requirements and installation steps to install the Microsoft Exchange MAPI CDO.
 
 __CAUTION:__ The Access Analyzer MAPI CDO must be installed first before installing the Microsoft Exchange MAPI CDO.
 
@@ -21,8 +21,8 @@ Follow the steps to install the Access Analyzer MAPI CDO.
 
 __Step 1 –__ Run the StealthAuditMapiCDO executable.
 
-![stealthaudit_mapi_cdo_installation_1](/img/product_docs/accessanalyzer/stealthaudit/install_guides/mapi_cdo_install/stealthaudit_mapi_cdo_installation_1.webp)
+![stealthaudit_mapi_cdo_installation_1](../../../../../static/img/product_docs/accessanalyzer/stealthaudit/install_guides/mapi_cdo_install/stealthaudit_mapi_cdo_installation_1.webp)
 
 __Step 2 –__ Click OK to confirm the path.
 
-The application will install and the wizard will close automatically when it is finished. See the [Appendix for the StealthAUDIT MAPI CDO Installation Guide](/docs/accessanalyzer/stealthaudit/install_guides/mapi_cdo_install/appendix.md) for information on installing the Microsoft Exchange MAPI CDO.
+The application will install and the wizard will close automatically when it is finished. See the [Appendix for the StealthAUDIT MAPI CDO Installation Guide](appendix.md) for information on installing the Microsoft Exchange MAPI CDO.

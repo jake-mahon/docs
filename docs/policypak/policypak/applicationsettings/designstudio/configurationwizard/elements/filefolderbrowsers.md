@@ -4,7 +4,7 @@ The Endpoint Policy Manager Capture Wizard cannot know if a box is a simple text
 
 In the example below, a working folder item is shown. To configure the dialog as a folder browser, right-click the "…" and select "Change type to…." Then, select "Folder Browser," as shown in Figure 138.
 
-![configuring_elements_using_31](/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationwizard/elements/configuring_elements_using_31.webp)
+![configuring_elements_using_31](../../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationwizard/elements/configuring_elements_using_31.webp)
 
 Figure 138. Configuring a dialog as a folder browser.
 

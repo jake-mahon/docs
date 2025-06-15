@@ -10,11 +10,11 @@ First, Identity Manager recommends reading:
 
 ## Compatible Settings
 
-Every key from appsettings.agent.json that has a string value can be saved as a secret into Microsoft Entra ID (formerly Azure AD) Key Vault. See the [appsettings.agent](/docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) topic for additional information.
+Every key from appsettings.agent.json that has a string value can be saved as a secret into Microsoft Entra ID (formerly Azure AD) Key Vault. See the [appsettings.agent](../appsettings-agent/index.md) topic for additional information.
 
 Check the examples in connectors' credential protection sections. See the [
 ServiceNow
-](/docs/usercube_saas/usercube/integration-guide/connectors/references-connectors/servicenowentitymanagement/index.md) topic for additional information.
+](../../../connectors/references-connectors/servicenowentitymanagement/index.md) topic for additional information.
 
 ## Write Settings to the Vault
 

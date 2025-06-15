@@ -24,7 +24,7 @@ Integrators are able to perform an identity update if they master the new data.
 
 See the [
 Create the Workforce Repository
-](/docs/usercube/usercube/user-guide/set-up/initial-identities-loading/index.md) topic for additional information.
+](../../set-up/initial-identities-loading/index.md) topic for additional information.
 
 ## Modify Identity Data
 
@@ -32,8 +32,8 @@ Modify identity data by proceeding as follows, according to the changes to be ma
 
 - either update data individually by using predefined workflows in the UI; See the [
   Update an Individual Identity
-  ](/docs/usercube/usercube/user-guide/maintain/identity-data-modification/individual-update/index.md) topic for additional information.
+  ](individual-update/index.md) topic for additional information.
 - or perform a same change on several identities simultaneously by using Identity Manager's predefined workflow in the UI; See the [
   Update Identities in Bulk
-  ](/docs/usercube/usercube/user-guide/maintain/identity-data-modification/mass-update/index.md) topic for additional information.
+  ](mass-update/index.md) topic for additional information.
 - or update data on a massive scale by uploading an external file into Identity Manager, as an incremental version of the identity repository.

@@ -2,7 +2,7 @@
 
 The LDAP Monitor tab on a domain’s Configuration window allows users to scope monitoring by adding filters for accounts by name or type.
 
-![Operations Tab in the LDAP Monitor Tab](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/operations.webp)
+![Operations Tab in the LDAP Monitor Tab](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/operations.webp)
 
 After checking the Enable Ldap Monitor box, the following event filters can be modified on the sub-tabs:
 
@@ -18,7 +18,7 @@ Each filter tab acts like an “AND” statement for the filter. Any filter tab 
 
 The Hosts (from) option is where the policy can be scoped to only monitor specific hosts as originators of an authentication event or to exclude specific hosts from being monitored for authentication events.
 
-![Host (From) Tab in the LDAP Monitor Tab](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/hostfrom.webp)
+![Host (From) Tab in the LDAP Monitor Tab](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/hostfrom.webp)
 
 Underneath each section, there are additional Host details:
 
@@ -32,7 +32,7 @@ Double-click the text boxes within the column, then enter all three methods of i
 
 The LDAP option is where query and result objects can be monitored by group type.
 
-![LDAP Tab in the LDAP Monitor Tab](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/ldap.webp)
+![LDAP Tab in the LDAP Monitor Tab](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/ldap.webp)
 
 The Query section is where monitoring can be scoped to those LDAP queries that contain at least one of the user-supplied string as a substring in BaseDN or in Query field of the LDAP Search request. For the Query value, provide the user-supplied string in the text box.
 
@@ -55,7 +55,7 @@ Example Value:
 
 The Operations option filters for successful events, failed events, or both.
 
-![Operations Tab in the LDAP Monitor Tab](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/operations.webp)
+![Operations Tab in the LDAP Monitor Tab](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/operations.webp)
 
 The Monitor These Attempts section is where monitoring is set to filter for successful events, failed events, or both:
 
@@ -66,7 +66,7 @@ The Monitor These Attempts section is where monitoring is set to filter for succ
 
 The Servers option targets servers to be included or excluded when filtering for a LDAP changes.
 
-![Servers Tab in the LDAP Monitor Tab](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/servers.webp)
+![Servers Tab in the LDAP Monitor Tab](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/servers.webp)
 
 In both sections, servers must be specified in the form 'DOMAIN\SERVER', where DOMAIN is NetBIOS Domain name and SERVER is NetBIOS server name.
 
@@ -76,7 +76,7 @@ Double-click the text box beneath Name to enter the desired servers to include o
 
 The Users option is where the policy can be scoped to only monitor specific security principals committing changes within Active Directory or to exclude specific users committing changes from being monitored.
 
-![Users Tab in the LDAP Monitor Tab](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/users.webp)
+![Users Tab in the LDAP Monitor Tab](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/users.webp)
 
 The following details appear beneath both sections:
 

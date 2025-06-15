@@ -53,7 +53,7 @@ The next step is to use the Client ID and Client Secret to obtain an access toke
 
 ## Add Service Account for Enterprise Auditor Connector
 
-Follow the steps to add the service accounts for the Access Analyzer integration connector. See the [Add Service Account](/docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/add/serviceaccount.md) topic for additional information.
+Follow the steps to add the service accounts for the Access Analyzer integration connector. See the [Add Service Account](serviceaccount.md) topic for additional information.
 
 __Step 1 –__ In the Privilege Secure Console, navigate to the Configuration > Service Accounts page.
 
@@ -89,7 +89,7 @@ __Step 1 –__ In the Privilege Secure Console, navigate to the Configuration > 
 
 __Step 2 –__ In the Integration Connector list, click the Add Integration Connector icon.
 
-![Add Enterprise Auditor Integration Connector](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/add/addenterpriseauditor.webp)
+![Add Enterprise Auditor Integration Connector](../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/add/addenterpriseauditor.webp)
 
 __Step 3 –__ Enter the following information:
 
@@ -113,8 +113,8 @@ __Step 1 –__ In the Privilege Secure Console, navigate to the Configuration > 
 
 __Step 2 –__ In the Integration Connector list, select the previously created Enterprise Auditor Import connector.
 
-![enterpriseauditorconnector](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/add/enterpriseauditorconnector.webp)
+![enterpriseauditorconnector](../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/add/enterpriseauditorconnector.webp)
 
 __Step 3 –__ Click __Sync__ __StealthAUDIT__ to begin the data collection. This may take some time.
 
-To view the import progress, navigate to __Service Nodes__ > Action Services. See the [Action Service](/docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/servicetype/action.md) topic for additional information.
+To view the import progress, navigate to __Service Nodes__ > Action Services. See the [Action Service](../servicetype/action.md) topic for additional information.

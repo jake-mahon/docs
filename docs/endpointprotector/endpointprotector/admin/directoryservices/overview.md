@@ -2,13 +2,13 @@
 
 From this section, you can import and synchronize the entities (Users, Computers, and Groups) from the company’s Active Directories.
 
-![Import and synchronize the entities (Users, Computers, and Groups) from the company’s Active Directories](/img/product_docs/endpointprotector/endpointprotector/admin/directoryservices/directoryservices.png)
+![Import and synchronize the entities (Users, Computers, and Groups) from the company’s Active Directories](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/directoryservices/directoryservices.png)
 
 ## Microsoft Active Directory
 
 You can create and manage connections from the Directory Services, Microsoft Active Directory section. The required information includes the Connection Type, Server, Port, Username, and Password.
 
-![Manage connections from the Directory Services](/img/product_docs/endpointprotector/endpointprotector/admin/directoryservices/newconnection.png)
+![Manage connections from the Directory Services](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/directoryservices/newconnection.png)
 
 __NOTE:__ When having to import a very large number of entities, we recommend using the Base Search Path to get only the relevant information displayed. Due to browser limitations, importing the whole AD structure may impede the display of the import tree if it contains a very large number of entities.
 
@@ -18,7 +18,7 @@ Once a new connection has been created, it is available in the synchronization l
 
 For the deﬁned connections, several synchronization options are available. From this section, the connection credentials and synchronization interval can also be changed.
 
-![Change connection credentials and synchronization interval](/img/product_docs/endpointprotector/endpointprotector/admin/directoryservices/testsync.png)
+![Change connection credentials and synchronization interval](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/directoryservices/testsync.png)
 
 The Advanced Groups Filter can be used to import and synchronize only speciﬁc groups, ignoring all other entities.
 
@@ -26,11 +26,11 @@ From the Directory Browser section, you can select the entities that need to be 
 
 __NOTE:__ You can view only Organizational units (OU) and Groups in the Directory Browser.
 
-![From the Directory Browser section, you can select the entities that need to be synced.](/img/product_docs/endpointprotector/endpointprotector/admin/directoryservices/directorybrowser.png)
+![From the Directory Browser section, you can select the entities that need to be synced.](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/directoryservices/directorybrowser.png)
 
 Once the entities have been selected, they can be saved to sync.
 
-![Synchronization Filters](/img/product_docs/endpointprotector/endpointprotector/admin/directoryservices/synchfilters.png)
+![Synchronization Filters](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/directoryservices/synchfilters.png)
 
 ## Microsoft Entra ID
 
@@ -60,7 +60,7 @@ __Step 2 –__ Go to Microsoft Entra ID.
 
 __Step 3 –__ Click App Registrations from the Manage section on the Active Directory menu on the left side, then on New Registration.
 
-![Create the application on Microsoft Entra ID](/img/product_docs/endpointprotector/endpointprotector/admin/directoryservices/appregmsentraid.png)
+![Create the application on Microsoft Entra ID](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/directoryservices/appregmsentraid.png)
 
 __Step 4 –__ On the Registration page enter your __Name__.
 
@@ -70,14 +70,14 @@ __CAUTION:__ Do not ﬁll in the Redirect URI ﬁeld!
 
 __Step 6 –__ Click __Register__.
 
-![Create the application on Microsoft Entra ID](/img/product_docs/endpointprotector/endpointprotector/admin/directoryservices/appregmsentraidtwo.png)
+![Create the application on Microsoft Entra ID](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/directoryservices/appregmsentraidtwo.png)
 
 __Step 7 –__ On the Essentials section save the following information:
 
 - Application (client) ID will be needed for adding it in the Application (client) ID ﬁeld on the Endpoint Protector Server
 - Directory (tenant) ID will be needed for adding it in the Tenant ID ﬁeld on the Endpoint ProtectorEndpoint Protector Server
 
-![Create the Application on Azure Active Directory](/img/product_docs/endpointprotector/endpointprotector/admin/directoryservices/testapplication.png)
+![Create the Application on Azure Active Directory](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/directoryservices/testapplication.png)
 
 #### Create a Secret ID for the Application
 
@@ -85,25 +85,25 @@ The secret ID will be used as an authentication method to gain access to the app
 
 __Step 1 –__ Click __Certiﬁcates & Secrets__ on the side menu from the Manage section.
 
-![Create a Secret ID for the Application](/img/product_docs/endpointprotector/endpointprotector/admin/directoryservices/certsecrets.png)
+![Create a Secret ID for the Application](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/directoryservices/certsecrets.png)
 
 __Step 2 –__ Click __New client secret__ on the Certiﬁcates & secrets page.
 
-![Create a Secret ID for the Application](/img/product_docs/endpointprotector/endpointprotector/admin/directoryservices/certsecretestwo.png)
+![Create a Secret ID for the Application](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/directoryservices/certsecretestwo.png)
 
 __Step 3 –__ Enter a __Description__ for the secret ID.
 
-![Create a Secret ID for the Application](/img/product_docs/endpointprotector/endpointprotector/admin/directoryservices/certsecretsthree.png)
+![Create a Secret ID for the Application](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/directoryservices/certsecretsthree.png)
 
 __Step 4 –__ Click __Add__ and __Add a client__ secret section.
 
-![Create a Secret ID for the Application](/img/product_docs/endpointprotector/endpointprotector/admin/directoryservices/certsecretsfour.png)
+![Create a Secret ID for the Application](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/directoryservices/certsecretsfour.png)
 
 __Step 5 –__ Take note of the Secret ID value and make sure to copy it to the clipboard and also to store it safely because it will be needed further on.
 
 __NOTE:__ Notice that when navigating back, the secret ID will be hidden.
 
-![Create a Secret ID for the Application](/img/product_docs/endpointprotector/endpointprotector/admin/directoryservices/certsecretsfive.png)
+![Create a Secret ID for the Application](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/directoryservices/certsecretsfive.png)
 
 #### Create Users/Groups Using Graph API
 
@@ -111,17 +111,17 @@ Follow the steps to create users/groups using Graph API.
 
 __Step 1 –__ Click __Home__ and then Microsoft Entra ID.
 
-![Create Users/Groups Using Graph API](/img/product_docs/endpointprotector/endpointprotector/admin/directoryservices/certsecretsfivesix.png)
+![Create Users/Groups Using Graph API](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/directoryservices/certsecretsfivesix.png)
 
-![Azure Home Page](/img/product_docs/endpointprotector/endpointprotector/admin/directoryservices/azurehome.png)
+![Azure Home Page](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/directoryservices/azurehome.png)
 
 __Step 2 –__ Click __Add__ from the Default Directory| Overview page
 
-![Default Directory| Overview page](/img/product_docs/endpointprotector/endpointprotector/admin/directoryservices/azureadoverview.png)
+![Default Directory| Overview page](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/directoryservices/azureadoverview.png)
 
 __Step 3 –__ Click __Add User__.
 
-![Overview Add User ](/img/product_docs/endpointprotector/endpointprotector/admin/directoryservices/overviewadduser.png)
+![Overview Add User ](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/directoryservices/overviewadduser.png)
 
 - Select __Create User__.
 - Enter the __Username__ and select the __Domain__.
@@ -130,7 +130,7 @@ __Step 3 –__ Click __Add User__.
 - Add the __Department__.
 - Click __Create__.
 
-![Azure Active Director Create User](/img/product_docs/endpointprotector/endpointprotector/admin/directoryservices/azureadnewuser.png)
+![Azure Active Director Create User](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/directoryservices/azureadnewuser.png)
 
 __Step 4 –__ Repeat Steps 1 and 2, then click __Group__.
 
@@ -139,7 +139,7 @@ __Step 4 –__ Repeat Steps 1 and 2, then click __Group__.
 - Click __No members selected__ to add membership.
 - Search for the newly created user and click __Select__.
 
-![ Default Directory| New Group](/img/product_docs/endpointprotector/endpointprotector/admin/directoryservices/azureadnewgroup.png)
+![ Default Directory| New Group](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/directoryservices/azureadnewgroup.png)
 
 #### Add Permissions to the Application
 
@@ -153,31 +153,31 @@ Make sure the created application is open then:
 
 __Step 1 –__ Click __API Permissions__.
 
-![Add Permissions to the Application](/img/product_docs/endpointprotector/endpointprotector/admin/directoryservices/azureadapipermissionone.png)
+![Add Permissions to the Application](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/directoryservices/azureadapipermissionone.png)
 
 __Step 2 –__ Click __Add a Permission__.
 
-![Add Permissions to the Application](/img/product_docs/endpointprotector/endpointprotector/admin/directoryservices/azureadapipermissiontwo.png)
+![Add Permissions to the Application](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/directoryservices/azureadapipermissiontwo.png)
 
 __Step 3 –__ Click __Microsoft Graph__.
 
-![Add Permissions to the Application](/img/product_docs/endpointprotector/endpointprotector/admin/directoryservices/azureadapipermissionthree.png)
+![Add Permissions to the Application](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/directoryservices/azureadapipermissionthree.png)
 
 __Step 4 –__ Click __Application Permissions__.
 
-![Add Permissions to the Application](/img/product_docs/endpointprotector/endpointprotector/admin/directoryservices/azureadapipermissionfour.png)
+![Add Permissions to the Application](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/directoryservices/azureadapipermissionfour.png)
 
 __Step 5 –__ Search for the permissions mentioned above and check each of the permissions. (Directory.Read.All, Group.Read.All, User.Read.All)
 
-![Add Permissions to the Application](/img/product_docs/endpointprotector/endpointprotector/admin/directoryservices/azureadapipermissionfive.png)
+![Add Permissions to the Application](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/directoryservices/azureadapipermissionfive.png)
 
 __Step 6 –__ Click __Add Permissions__.
 
-![Add Permissions to the Application](/img/product_docs/endpointprotector/endpointprotector/admin/directoryservices/azureadapipermissionsix.png)
+![Add Permissions to the Application](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/directoryservices/azureadapipermissionsix.png)
 
 __Step 7 –__ Click __Grant admin consent for Default Directory__ from the API Permission page.
 
-![Add Permissions to the Application](/img/product_docs/endpointprotector/endpointprotector/admin/directoryservices/azureadapipermissionseven.png)
+![Add Permissions to the Application](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/directoryservices/azureadapipermissionseven.png)
 
 #### Add Graph Application to Server
 
@@ -187,7 +187,7 @@ __Step 1 –__ Open the Endpoint ProtectorServer and navigate to __Directory Ser
 
 __Step 2 –__ Click __Add__ to add an API Consumer – One API Consumer can be used for multiple synchronization jobs.
 
-![Add Graph Application to Endpoint Protector Server](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/outputs/azuread.png)
+![Add Graph Application to Endpoint Protector Server](../../../../../static/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/outputs/azuread.png)
 
 __Step 3 –__ Provide the following details:
 
@@ -197,11 +197,11 @@ __Step 3 –__ Provide the following details:
 - Application (client) ID saved earlier on the Application (Client) ID ﬁeld
 - Secret ID saved earlier in the Client Secret Value ﬁeld
 
-![Add Graph Application to Endpoint Protector Server](/img/product_docs/endpointprotector/endpointprotector/admin/directoryservices/azureadtwo.png)
+![Add Graph Application to Endpoint Protector Server](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/directoryservices/azureadtwo.png)
 
 __Step 4 –__ Click __Test__ and then __Save__.
 
-![Add Graph Application to Endpoint Protector Server](/img/product_docs/endpointprotector/endpointprotector/admin/directoryservices/azureadthree.png)
+![Add Graph Application to Endpoint Protector Server](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/directoryservices/azureadthree.png)
 
 #### Create a Synchronization Job on the Server
 
@@ -209,7 +209,7 @@ Follow the steps to create a synchronization job on the Endpoint Protector serve
 
 __Step 1 –__ Click __Create Sync Job__.
 
-![Create a Synchronization Job on the Endpoint Protector Server](/img/product_docs/endpointprotector/endpointprotector/admin/directoryservices/createsynchjob.png)
+![Create a Synchronization Job on the Endpoint Protector Server](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/directoryservices/createsynchjob.png)
 
 __Step 2 –__ Provide Synchronization information:
 
@@ -220,7 +220,7 @@ __Step 2 –__ Provide Synchronization information:
 
 __Step 3 –__ Click __Save__.
 
-![Create a Synchronization Job on the Endpoint Protector Server](/img/product_docs/endpointprotector/endpointprotector/admin/directoryservices/mapon-premisesusers.png)
+![Create a Synchronization Job on the Endpoint Protector Server](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/directoryservices/mapon-premisesusers.png)
 
 The __Map on-premises users__ switch in the Microsoft Entra ID connector controls how Endpoint Protector retrieves user names in hybrid environments with both a local Active Directory and Microsoft Entra ID. This switch has two states:
 

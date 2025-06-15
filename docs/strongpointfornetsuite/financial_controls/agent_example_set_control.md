@@ -14,7 +14,7 @@ Here is the process to create a control to monitor changes:
 4. Check __Public__
 5. Add filters on the __Criteria__ tab:
 
-   ![Create the Saved Search for the Example](/img/product_docs/strongpointfornetsuite/financial_controls/agent_example1.webp)
+   ![Create the Saved Search for the Example](../../../static/img/product_docs/strongpointfornetsuite/financial_controls/agent_example1.webp)
 
    | Select Filter | What to Set | Resulting   Description | Formula To Set |
    | --- | --- | --- | --- |
@@ -33,7 +33,7 @@ Here is the process to create a control to monitor changes:
    | Internal ID | Group |
 6. Open the __Results__ tab. You can Remove all to clear the defaults. Add the following fields:
 
-   ![Adding the Results columns](/img/product_docs/strongpointfornetsuite/financial_controls/agent_example2.webp)
+   ![Adding the Results columns](../../../static/img/product_docs/strongpointfornetsuite/financial_controls/agent_example2.webp)
 7. __Save__ the search.
 8. Note the assigned __ID__ for your new Search. For example, __customsearch5673__
 
@@ -49,7 +49,7 @@ You can wait until the next AutoSpider run, or manually create the customization
    - __Type__: Select __Search__
    - __Script ID__: Enter the __ID__ from your Saved Search. For example, __customsearch5673__
 
-     ![Create the Customization for the Example](/img/product_docs/strongpointfornetsuite/financial_controls/agent_example3.webp)
+     ![Create the Customization for the Example](../../../static/img/product_docs/strongpointfornetsuite/financial_controls/agent_example3.webp)
 3. __Save__ the customization.
 4. Click __Respider Now__  
    Leave the Customization Record open.
@@ -73,6 +73,6 @@ From the customization record:
 
 5. __Save__ the record.
 
-   ![Designating the customization as a control](/img/product_docs/strongpointfornetsuite/financial_controls/agent_example4.webp)
+   ![Designating the customization as a control](../../../static/img/product_docs/strongpointfornetsuite/financial_controls/agent_example4.webp)
 
 The control is triggered as configured and all instances are logged under __Unresolved Control Incidents__, __Resolved Control Incidents__ or __Pre-approved Control Incidents__.

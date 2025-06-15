@@ -2,12 +2,12 @@
 
 On the Access Certification page, create or review access certification tasks to audit and remediate user access. Only User(s) / group member(s) assigned the Admin Role can create access certification tasks. User(s) / group member(s) with the Reviewer role will see the access certification task(s) assigned to them here.
 
-![Access Certification Page](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/systemsettings/page.webp)
+![Access Certification Page](../../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/systemsettings/page.webp)
 
 On the left of the page, the Access Certification Task list shows the different access certification tasks and has the following features:
 
 - Search – Searches the table or list for matches to the search string. When matches are found, the table or list is filtered to the matching results.
-- Add Access Cert. Task icon – Add an access certification task to the list. See the [Add Access Certification Task](/docs/privilegesecure/privilegesecure/accessmanagement/admin/auditreporting/add/accesscertificationtask.md) topic for additional information.
+- Add Access Cert. Task icon – Add an access certification task to the list. See the [Add Access Certification Task](../add/accesscertificationtask.md) topic for additional information.
 - List of access certification tasks – Select a task from the list to view and edit settings:
 
   - Status – Shows status information for the task
@@ -22,9 +22,9 @@ The right of the page shows details of the selected access certification task an
 
 - Name – Displays the name of the task.
 - Description – (Optional)Description of the policy.
-- Reviewer – The reviewer that the access certification task is assigned to. Only users with the Reviewer role can be assigned as a reviewer. See the [Role Management Page](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/rolemanagement.md) topic for additional information
+- Reviewer – The reviewer that the access certification task is assigned to. Only users with the Reviewer role can be assigned as a reviewer. See the [Role Management Page](../../policy/page/rolemanagement.md) topic for additional information
 - Status – Shows status information for the task
 - Date Started (only visible once review is started) – Date the reviewer begins to review the access entitlements
 - Date Completed – Date the reviewer finished reviewing the access elements
-- [Users Tab for Access Certification](/docs/privilegesecure/privilegesecure/accessmanagement/admin/auditreporting/tab/users.md)
-- [Entitlements Tab for Access Certification](/docs/privilegesecure/privilegesecure/accessmanagement/admin/auditreporting/tab/entitlements.md)
+- [Users Tab for Access Certification](../tab/users.md)
+- [Entitlements Tab for Access Certification](../tab/entitlements.md)

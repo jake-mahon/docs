@@ -6,6 +6,6 @@ When using Group Policy Software Deployment to install the Policy Pak CSE the fo
 "The removal of the assignment of application Policypak Client-Side Extension (32bit) from policy … failed. The error was : %%2"
 ```
 
-![336_1_image-20200111180227-1_950x451](/img/product_docs/policypak/policypak/troubleshooting/336_1_image-20200111180227-1_950x451.webp)
+![336_1_image-20200111180227-1_950x451](../../../../static/img/product_docs/policypak/policypak/troubleshooting/336_1_image-20200111180227-1_950x451.webp)
 
 To resolve this error, uncheck "Make this 32-bit X86 application available to Win64 computers" checkbox for the 32bit Endpoint Policy Manager Client-Side Extension in the Group Policy Software Deployment policy.

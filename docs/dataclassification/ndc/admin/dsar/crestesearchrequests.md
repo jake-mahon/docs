@@ -40,5 +40,5 @@ A search for First name(s) _John Richard_ with the Last name _Smith_ will be sea
 
 See also:
 
-- [View Search Query Results](/docs/dataclassification/ndc/admin/dsar/viewsearchresults.md)
-- [Manage Search Requests](/docs/dataclassification/ndc/admin/dsar/searches.md)
+- [View Search Query Results](viewsearchresults.md)
+- [Manage Search Requests](searches.md)

@@ -4,9 +4,9 @@ This connector exports and fulfills users and groups from/to a [Google Workspace
 
 This page is about [
 Google Workspace
-](/docs/usercube/usercube/integration-guide/connectors/references-packages/googleworkspace/index.md).
+](../../references-packages/googleworkspace/index.md).
 
-![Package: Directory/Google Workspace](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/googleworkspace/packages_workspace_v603.webp)
+![Package: Directory/Google Workspace](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/googleworkspace/packages_workspace_v603.webp)
 
 ## Overview
 
@@ -16,7 +16,7 @@ Google Workspace provides a set of softwares and products developed by Google. T
 
 Implementing this connector requires:
 
-- reading first the [appsettings.agent](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)documentation;
+- reading first the [appsettings.agent](../../../network-configuration/agent-configuration/appsettings-agent/index.md)documentation;
 - a service account impersonating the following permission scopes: [https://www.googleapis.com/auth/admin.directory. user](https://www.googleapis.com/auth/admin.directory.user) and [https://www.googleapis.com/auth/admin.directory.group](https://www.googleapis.com/auth/admin.directory.group).
 
   See [Google's documentation](https://developers.google.com/workspace/guides/create-credentials#googles-documentation) Google's documentation to create the service account with the right impersonation.
@@ -31,7 +31,7 @@ This connector extracts users, groups and user-group memberships from a Google W
 
 This process is configured through a [
 Connection
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or the XML configuration, and in the ```appsettings.agent.json > Connections``` section:
+](../../../toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or the XML configuration, and in the ```appsettings.agent.json > Connections``` section:
 
 ```
 appsettings.agent.json
@@ -87,7 +87,7 @@ The identifier of the connection and thus the name of the subsection must:
 
 This connector is meant to generate to the [
 Connection
-](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) folder the following CSV files:
+](../../../toolkit/xml-configuration/connectors/connection/index.md) folder the following CSV files:
 
 - ```GoogleExportFulfillment_Users.csv``` and ```GoogleExportFulfillment_Groups.csv``` whose headers come from the entity type mapping's ```ConnectionColumn``` and from the entity association mappings' columns which are not _members_ columns;
 - ```GoogleExportFulfillment_Members.csv``` with the following columns:
@@ -149,7 +149,7 @@ This connector does not reset passwords.
 
 This connector has no credential attributes, and therefore does not use [
 RSA Encryption
-](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md), nor a [CyberArk's AAM Credential Providers
-](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)Vault.
+](../../../network-configuration/agent-configuration/rsa-encryption/index.md), nor a [CyberArk's AAM Credential Providers
+](../../../network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)Vault.
 
-Still, data protection can be ensured through an [Azure Key Vault](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md) safe.
+Still, data protection can be ensured through an [Azure Key Vault](../../../network-configuration/agent-configuration/azure-key-vault/index.md) safe.

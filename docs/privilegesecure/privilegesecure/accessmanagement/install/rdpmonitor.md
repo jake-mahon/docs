@@ -2,7 +2,7 @@
 
 The Netwrix Privilege Secure Remote Desktop Monitor service needs to be installed on the target host that users will establish RDP connections to via an Access Policy session. Run the __NPS.TSMon.exe__ on the target host to install and enable this service. The EXE file is located in the Extras folder of the Privilege Secure installation download ZIP file.
 
-The Windows event activity that occurs during an RDP session is then displayed and is searchable within the [Live Session Viewer Window](/docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/window/liveviewer.md) and the [Replay Viewer Window](/docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/window/replayviewer.md) with keystroke details, which are monitored and recorded without this service.
+The Windows event activity that occurs during an RDP session is then displayed and is searchable within the [Live Session Viewer Window](../admin/dashboard/window/liveviewer.md) and the [Replay Viewer Window](../admin/dashboard/window/replayviewer.md) with keystroke details, which are monitored and recorded without this service.
 
 Follow the steps to install the Remote Desktop Monitor service.
 
@@ -24,4 +24,4 @@ __Step 6 –__ Open Services (```services.msc```) to verify the Netwrix Privileg
 
 The service is now listening for terminal services connections.
 
-__NOTE:__ It is necessary for the Record Proxy Sessions option to be enabled on the connection profile for the associated access policy. See the [Connection Profiles Page](/docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/connectionprofiles.md) topic for additional information.
+__NOTE:__ It is necessary for the Record Proxy Sessions option to be enabled on the connection profile for the associated access policy. See the [Connection Profiles Page](../admin/policy/page/connectionprofiles.md) topic for additional information.

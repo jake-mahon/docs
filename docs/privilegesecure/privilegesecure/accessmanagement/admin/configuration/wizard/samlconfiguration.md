@@ -1,8 +1,8 @@
 # SAML Configuration Wizard
 
-The SAML Configuration wizard is opened with the __Configuration Wizard__ button in the Configuration > [Authentication Page](/docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/page/authentication.md) for an SAML Authentication Connector Type.
+The SAML Configuration wizard is opened with the __Configuration Wizard__ button in the Configuration > [Authentication Page](../page/authentication.md) for an SAML Authentication Connector Type.
 
-![configureclient](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/wizard/configureclient.webp)
+![configureclient](../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/wizard/configureclient.webp)
 
 It contains four pages:
 
@@ -39,7 +39,7 @@ __Step 5 –__ Click the browser’s back arrow to return to the Configure Clien
 
 __Step 6 –__ If the Sign In page displayed as expected, click Next.
 
-![SAML Configuration wizard, Test Login page](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/wizard/samlconfigtestlogin.webp)
+![SAML Configuration wizard, Test Login page](../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/wizard/samlconfigtestlogin.webp)
 
 When the SAML provider authenticates a user login, it will optionally sign that authentication using a certificate (available from the SAML provider). Privilege Secure can be configured to validate the authentication using the certificate.
 
@@ -54,7 +54,7 @@ __Step 9 –__ Enter valid credentials for the SAML provider and sign in.
 
 __Step 10 –__ If the sign in was successful, the Provider User Name/Id will display. This is passed to the UserTokenController so that the user information can be extracted. Click Next.
 
-![SAML Configuration Wizard, Retrieved Data](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/wizard/samlconfigidmapping.webp)
+![SAML Configuration Wizard, Retrieved Data](../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/wizard/samlconfigidmapping.webp)
 
 SpPAM will use the access token to retrieve user data from the SAML provider. The SAML provider requires a User Id Field for sign in. It is necessary to specify which field in Active Directory should map to that User Id Field, so that Privilege Secure can automatically fill in the required credentials at login. The value provided is used to sign in to the multi factor authenticator (MFA) when a user logs in to the Privilege Secure Console.
 
@@ -71,13 +71,13 @@ Field values will vary according to the information supplied by the provider. Ex
 
 __Step 11 –__ Select a field to use for the User Id Field and click Select.
 
-![SAML Configuration wizard, Map Id](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/wizard/samlconfigidmapping2.webp)
+![SAML Configuration wizard, Map Id](../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/wizard/samlconfigidmapping2.webp)
 
 __Step 12 –__ The selected Source and User ID fields from the previous table are shown. Now map the applicable AD field to the User Id Field. This is the value that will be used to sign in to the MFA during login. In the Login Format drop-down, select the applicable AD field to map to the User Id Field.
 
 __Step 13 –__ Click __Next__ to proceed.
 
-![SAML Configuration wizard, Test Logout page](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/wizard/samlconfigtestlogout.webp)
+![SAML Configuration wizard, Test Logout page](../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/wizard/samlconfigtestlogout.webp)
 
 __Step 14 –__ On the Test Logout page, enter the following information:
 
@@ -101,7 +101,7 @@ __Step 16 –__ Click the browser’s back arrow to return to the Test Logout wi
 
 __Step 17 –__ If the logout was successful, click Finish. A window will display the updated configuration settings.
 
-![SAML Configuration updating connector settings](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/wizard/samlconfigupdateconnector.webp)
+![SAML Configuration updating connector settings](../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/wizard/samlconfigupdateconnector.webp)
 
 __Step 18 –__ Click Okay to close the wizard and click __Save__ on the Authentication page to accept the changes.
 

@@ -10,27 +10,27 @@ The following information highlights the new and enhanced features introduced in
 
 New: Assigned Roles View
 
-The new Assigned Roles page provides a role-centric view, displaying the list of users with permissions in a specified role category and including a downloadable report. This feature is currently in read-only preview, with additional functionality planned for the next release. See the [Review Assigned Roles](/docs/usercube/usercube/user-guide/administrate/assigned-roles/index.md) topic for additional information.
+The new Assigned Roles page provides a role-centric view, displaying the list of users with permissions in a specified role category and including a downloadable report. This feature is currently in read-only preview, with additional functionality planned for the next release. See the [Review Assigned Roles](../user-guide/administrate/assigned-roles/index.md) topic for additional information.
 
 New: Context-Bound Manual Permissions
 
-Manual permission assignments can now be configured to be tied to a context end date using ‘ManualAssignmentEndDateLockedToContext’. For example, a contractor's manual permissions can be configured to automatically extend when their contact is extended. See the [Create a Role Manually](/docs/usercube/usercube/user-guide/set-up/single-roles-catalog-creation/role-manual-creation/index.md), [Resource Type](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md) and [Remove Redundant Assignments](/docs/usercube/usercube/user-guide/optimize/assignment-automation/remove-redundant-assignments/index.md) topics for additional information.
+Manual permission assignments can now be configured to be tied to a context end date using ‘ManualAssignmentEndDateLockedToContext’. For example, a contractor's manual permissions can be configured to automatically extend when their contact is extended. See the [Create a Role Manually](../user-guide/set-up/single-roles-catalog-creation/role-manual-creation/index.md), [Resource Type](../integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md) and [Remove Redundant Assignments](../user-guide/optimize/assignment-automation/remove-redundant-assignments/index.md) topics for additional information.
 
 New: Suggested Multiple Correlations
 
-A new option allows multi-correlation resource types to propose correlations with less than 100% confidence. This behavior is controlled by the new boolean ‘SuggestAllCorrellations’. The default (false) only suggests correlations with 100% confidence, while setting it to true allows lower-confidence suggestions. See the [Resource Type](/docs/usercube/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md) topic for additional information.
+A new option allows multi-correlation resource types to propose correlations with less than 100% confidence. This behavior is controlled by the new boolean ‘SuggestAllCorrellations’. The default (false) only suggests correlations with 100% confidence, while setting it to true allows lower-confidence suggestions. See the [Resource Type](../integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md) topic for additional information.
 
 Enhancement: Access Control and Workflows
 
-The maximum number of workflow actors is now configurable via the ‘MaxActors’ key in the ‘appsettings.json’ file. The default value of 20 can now be increased up to 50. See the [Application Settings](/docs/usercube/usercube/integration-guide/network-configuration/server-configuration/general-purpose/index.md) topic for additional information.
+The maximum number of workflow actors is now configurable via the ‘MaxActors’ key in the ‘appsettings.json’ file. The default value of 20 can now be increased up to 50. See the [Application Settings](../integration-guide/network-configuration/server-configuration/general-purpose/index.md) topic for additional information.
 
 Enhancement: Certifications and Risks
 
-Extra options on certification screens (visible on the "..." button) can now be hidden by setting __Only allow approving and refusing on access certifications items__ to __Yes__. This will leave only the __Approve__ and __Deny__ buttons visible. The default setting is __No__. See the [Configure Global Settings](/docs/usercube/usercube/user-guide/set-up/configure-global-settings/index.md) topic for additional information.
+Extra options on certification screens (visible on the "..." button) can now be hidden by setting __Only allow approving and refusing on access certifications items__ to __Yes__. This will leave only the __Approve__ and __Deny__ buttons visible. The default setting is __No__. See the [Configure Global Settings](../user-guide/set-up/configure-global-settings/index.md) topic for additional information.
 
 Enhancement: Connectors and Integrations
 
-Two new settings, ‘MaxPageSize’ and ‘DefaultPageSize’, have been introduced to control and optimize API call sizes. See the [Application Settings](/docs/usercube/usercube/integration-guide/network-configuration/server-configuration/general-purpose/index.md) topic for additional information.
+Two new settings, ‘MaxPageSize’ and ‘DefaultPageSize’, have been introduced to control and optimize API call sizes. See the [Application Settings](../integration-guide/network-configuration/server-configuration/general-purpose/index.md) topic for additional information.
 
 Enhancement: Jobs and Policy
 
@@ -38,7 +38,7 @@ Manual correlations for resources with multiple correlations can now be performe
 
 Enhancement: Logs / Performance / Security
 
-Incompatible C# expressions in the configuration will now be flagged during configuration imports. A new tool, ‘Identity Manager-Check-ExpressionsConsistency’, has been introduced to help identify incompatible expressions. See the [Usercube-Check-ExpressionsConsistency](/docs/usercube/usercube/integration-guide/executables/references/check-expressionsconsistency/index.md) topic for additional information.
+Incompatible C# expressions in the configuration will now be flagged during configuration imports. A new tool, ‘Identity Manager-Check-ExpressionsConsistency’, has been introduced to help identify incompatible expressions. See the [Usercube-Check-ExpressionsConsistency](../integration-guide/executables/references/check-expressionsconsistency/index.md) topic for additional information.
 
 Additional logging has been added to the SAP ERP6 provisioning process.
 
@@ -50,6 +50,6 @@ Various user interface improvements, including better tooltips on the Role Revie
 
 Enhancement: Other
 
-The ‘Identity Manager-Export-Bacpac’ tool now allows finer control over data extraction and anonymization options. See the [Usercube-Export-Bacpac](/docs/usercube/usercube/integration-guide/executables/references/export-bacpac/index.md) topic for additional information.
+The ‘Identity Manager-Export-Bacpac’ tool now allows finer control over data extraction and anonymization options. See the [Usercube-Export-Bacpac](../integration-guide/executables/references/export-bacpac/index.md) topic for additional information.
 
 Additionally, the demo license is no longer included in the Runtime zip file. If you need a license, please contact [Netwrix Support](https://www.netwrix.com/support.html).

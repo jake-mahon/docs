@@ -7,7 +7,7 @@ Use to export data from the Audit Database. By default, first 1,000 Activity Rec
 | Method | Endpoint | POST Data |
 | --- | --- | --- |
 | GET | ```https://{host:port}/netwrix/api/v1/activity_records/enum{?format=json}{&count=Number}``` | — |
-| POST | ```https://{host:port}/netwrix/api/v1/activity_records/enum{?format=json}{&count=Number}``` | [Continuation Mark](/docs/auditor/auditor/api/postdata/continuationmark.md) |
+| POST | ```https://{host:port}/netwrix/api/v1/activity_records/enum{?format=json}{&count=Number}``` | [Continuation Mark](postdata/continuationmark.md) |
 
 ## Request Parameters
 
@@ -46,7 +46,7 @@ __Step 2 –__ Receive the response. Activity Records are retrieved according to
 | JSON |
 | ``` { `````` "ActivityRecordList": [ `````` { `````` "Action": "Added", `````` "MonitoringPlan" : { `````` "ID": "{42F64379-163E-4A43-A9C5-4514C5A23798}", `````` "Name": "AD Monitoring" `````` }, `````` "DataSource": "Active Directory", `````` "Item": {"Name": "enterprise.local (Domain)"}, `````` "ObjectType": "user", `````` "RID": "20160215110503420B9451771F5964A9EAC0A5F35307EA155", `````` "What": "\\local\\enterprise\\Users\\Jason Smith", `````` "When": "2017-02-14T15:42:34Z", `````` "Where": "EnterpriseDC1.enterprise.local", `````` "Who": "ENTERPRISE\\Administrator", `````` "Workstation": "EnterpriseDC1.enterprise.local" `````` }, `````` {...}, `````` {...} `````` ], `````` "ContinuationMark": "PG5yPjxuIG49IntFNzA...PjwvYT48L24+PC9ucj4A" `````` } ``` |
 
-__Step 3 –__ Continue retrieving Activity Records. Send a POST request containing this Continuation mark to the same endpoint. See the [Continuation Mark](/docs/auditor/auditor/api/postdata/continuationmark.md) topic for more information. For example:
+__Step 3 –__ Continue retrieving Activity Records. Send a POST request containing this Continuation mark to the same endpoint. See the [Continuation Mark](postdata/continuationmark.md) topic for more information. For example:
 
 |  |
 | --- |

@@ -1,10 +1,10 @@
 # Securing the Access Information Center
 
-There are two options for accessing the Access Information Center. You can either go to the Access Information Center website directly or you can access it via the Web Console. The Web Console uses an embedded website installed with Access Analyzer. It provides a consolidated logon for both Access Analyzer reports and the Access Information Center. See the [URL & Login](/docs/accessinformationcenter/access/informationcenter/admin/login.md) topic for additional information.
+There are two options for accessing the Access Information Center. You can either go to the Access Information Center website directly or you can access it via the Web Console. The Web Console uses an embedded website installed with Access Analyzer. It provides a consolidated logon for both Access Analyzer reports and the Access Information Center. See the [URL & Login](../admin/login.md) topic for additional information.
 
 In order to secure the Access Information Center, it is first necessary to enable SSL for theAccess Information Center website. If you access the Access Information Center via the Web Console, then both websites must have SSL enabled with the same certificate. See the Securing the Web Console topic in the [Netwrix Access Analyzer Documentation](https://helpcenter.netwrix.com/category/accessanalyzer) for additional information.
 
-__NOTE:__ SSL for the Access Information Center can be enabled during installation. See the [Install the Access Information Center](/docs/accessinformationcenter/access/informationcenter/installation/install.md) topic for additional information.
+__NOTE:__ SSL for the Access Information Center can be enabled during installation. See the [Install the Access Information Center](install.md) topic for additional information.
 
 ## Enable SSL for the AIC Website
 
@@ -58,7 +58,7 @@ __Step 1 –__ Open the ```AccessInformationCenter.Service.exeWeb.config``` file
 
 …\Program Files\STEALTHbits\Access Information Center
 
-![AccessInformationCenter.Service.exe config file](/img/product_docs/accessinformationcenter/access/informationcenter/installation/configfilessl.webp)
+![AccessInformationCenter.Service.exe config file](../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/installation/configfilessl.webp)
 
 __Step 2 –__ Change the ```BindingUrl``` key value to ```"https://+:481"``` (ensure the port number matches the port number used in the PowerShell command run to create the SSL Binding).
 
@@ -74,7 +74,7 @@ Follow the steps to update the AIC’s desktop icon's Access Information Center'
 
 __Step 1 –__ Right click on the __Access Information Center__ desktop shortcut and click __Properties__.
 
-![Access Information Center desktop icon properties](/img/product_docs/accessinformationcenter/access/informationcenter/installation/aicproperties.webp)
+![Access Information Center desktop icon properties](../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/installation/aicproperties.webp)
 
 __Step 2 –__ On the __Web Document__ tab, enter the updated __URL__ in the text box to: ```https://[hostname.domain.com]:481/v2/login```
 
@@ -86,17 +86,17 @@ The URL is now updated.
 
 The Access Information Center can be configured for Single Sign-On (SSO) using Windows authentication, to skip the opening login screen and authenticate automatically by passing the Active Directory credentials for the user’s current domain login session directly. If you are accessing the Access Information Center via the Web Console, single sign-on only needs to be configured for the Web Console. See the Enable Single Sign-On topic of the [Netwrix Access Analyzer Documentation](https://helpcenter.netwrix.com/category/accessanalyzer) for additional information.
 
-__NOTE:__ The Access Information Center also supports using Microsoft Entra ID single sign-on. See the [Microsoft Entra ID Single Sign-On](/docs/accessinformationcenter/access/informationcenter/admin/additionalconfig/entraidsso.md) topic for additional information.
+__NOTE:__ The Access Information Center also supports using Microsoft Entra ID single sign-on. See the [Microsoft Entra ID Single Sign-On](../admin/additionalconfig/entraidsso.md) topic for additional information.
 
 Follow the steps to enable SSO for accessing the Access Information Center website directly.
 
-![AccessInformationCenter.Service.exe config file in File Explorer](/img/product_docs/accessinformationcenter/access/informationcenter/installation/configfilelocation.webp)
+![AccessInformationCenter.Service.exe config file in File Explorer](../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/installation/configfilelocation.webp)
 
 __Step 1 –__ Open the ```AccessInformationCenter.Service.exe.config``` file in a text editor, such as Notepad. The file is located in the Access Information Center installation directory:
 
 …\Program Files\STEALTHbits\Access Information Center
 
-![AccessInformationCenter.Service.exe config file](/img/product_docs/accessinformationcenter/access/informationcenter/installation/configfilesso.webp)
+![AccessInformationCenter.Service.exe config file](../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/installation/configfilesso.webp)
 
 __Step 2 –__ Locate the line containing the ```AuthAllowWindowsAuthentication``` parameter. By default, the value will be set to ```False```:
 
@@ -124,15 +124,15 @@ Follow the steps to configure local intranet settings.
 
 __Step 1 –__ Open Windows Internet Properties (__Control Panel__ > __Network and Internet__ > __Internet Options__).
 
-![ConfigureLocalIntranetSettingsforSSO - 1](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/reports/internetproperties.webp)
+![ConfigureLocalIntranetSettingsforSSO - 1](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/install/application/reports/internetproperties.webp)
 
 __Step 2 –__ Go to the Security tab, and select the __Local Intranet__ option. Then, click the __Sites__ button.
 
-![localintranet](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/reports/localintranet.webp)
+![localintranet](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/install/application/reports/localintranet.webp)
 
 __Step 3 –__ Click the __Advanced__ button.
 
-![localintranetadvanced](/img/product_docs/accessanalyzer/enterpriseauditor/install/application/reports/localintranetadvanced.webp)
+![localintranetadvanced](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/install/application/reports/localintranetadvanced.webp)
 
 __Step 4 –__ Enter a domain in the __Add this website in the zone__ field. Ensure the fully qualified domain name is in the following format: ```https://<server>.<domain>.com```
 

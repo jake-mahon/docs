@@ -1,6 +1,6 @@
 # Search Parameters
 
-Send the search parameters in the POST request body to narrow down the search results returned by the [/netwrix/api/v1/activity_records/search](/docs/auditor/auditor/api/searchactivityrecords.md) endpoint. The Search parameters file includes one or more filters with operators and values (e.g., to find entries where _data source_ is _SharePoint_); it may also contain a [Continuation Mark](/docs/auditor/auditor/api/postdata/continuationmark.md). Generally, the Search parameters file looks similar to the following:
+Send the search parameters in the POST request body to narrow down the search results returned by the [/netwrix/api/v1/activity_records/search](../searchactivityrecords.md) endpoint. The Search parameters file includes one or more filters with operators and values (e.g., to find entries where _data source_ is _SharePoint_); it may also contain a [Continuation Mark](continuationmark.md). Generally, the Search parameters file looks similar to the following:
 
 |  |
 | --- |
@@ -15,13 +15,13 @@ Ensure to pass information about transferred data, including ```Content-Type:app
 
 | Format | Schema description |
 | --- | --- |
-| XML | The file must be compatible with the XML schema. On the computer where Auditor Server resides, you can find XSD file under _Netwrix_Auditor_installation_folder\Audit Core\API Schemas_.  The ```ActivityRecordSearch``` root element includes the ```FilterList ```element with one or more ```Filter ```elements inside. The root element may contain a ```ContinuationMark ```element.  Each ```Filter ```specified within the ```FilterList ```must have a value to search for. The element may also include a modifier—a match type operator.  minOccurs="0" indicates that element is optional and may be absent in the Search parameters.  ![filterschema](/img/product_docs/auditor/auditor/api/postdata/filterschema.webp) |
+| XML | The file must be compatible with the XML schema. On the computer where Auditor Server resides, you can find XSD file under _Netwrix_Auditor_installation_folder\Audit Core\API Schemas_.  The ```ActivityRecordSearch``` root element includes the ```FilterList ```element with one or more ```Filter ```elements inside. The root element may contain a ```ContinuationMark ```element.  Each ```Filter ```specified within the ```FilterList ```must have a value to search for. The element may also include a modifier—a match type operator.  minOccurs="0" indicates that element is optional and may be absent in the Search parameters.  ![filterschema](../../../../../static/img/product_docs/auditor/auditor/api/postdata/filterschema.webp) |
 | JSON | The ```FilterList ```object includes with one or more ```Filter ```entries inside. JSON may contain a ```ContinuationMark ```object. Each ```Filter ```specified within the ```FilterList ```must have a value to search for. The entry may also include a modifier—a match type operator. |
 
 Review the following for additional information:
 
-- [Filters](/docs/auditor/auditor/api/filters.md)
-- [Operators](/docs/auditor/auditor/api/filteroperators.md)
+- [Filters](../filters.md)
+- [Operators](../filteroperators.md)
 
 ## Example
 

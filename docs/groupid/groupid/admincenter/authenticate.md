@@ -1,6 +1,6 @@
 # Authenticate your Identity Store Account
 
-To authenticate your identity store account in Directory Manager for multifactor authentication or [Second Factor Authentication](/docs/groupid/groupid/portal/user/authentication/secondfactorauthentication.md), you must use one or more authentication types that you enrolled your account with.
+To authenticate your identity store account in Directory Manager for multifactor authentication or [Second Factor Authentication](../portal/user/authentication/secondfactorauthentication.md), you must use one or more authentication types that you enrolled your account with.
 
 ## Authenticate your identity store account
 

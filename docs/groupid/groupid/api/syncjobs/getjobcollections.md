@@ -3,7 +3,7 @@
 Use this API to retrieve information of job collection(s) based on filters provided in the request syntax.
 
 See the [Create a Job Collection
-](/docs/groupid/groupid/portal/synchronize/collection/create.md)topic for additional information on job collections.
+](../../portal/synchronize/collection/create.md)topic for additional information on job collections.
 
 ## Endpoint
 

@@ -8,7 +8,7 @@ Navigate to the __Jobs__ > __SharePoint__ > __7.Activity__ > __Forensics__ > __S
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the SP_PermissionChanges Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/box/activity/forensics/permissionchangesanalysis.webp)
+![Analysis Tasks for the SP_PermissionChanges Job](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/box/activity/forensics/permissionchangesanalysis.webp)
 
 The default analysis tasks are:
 

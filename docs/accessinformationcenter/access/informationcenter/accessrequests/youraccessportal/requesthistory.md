@@ -2,7 +2,7 @@
 
 The Request History page in the Your Access portal is where you can view the status of previously submitted requests, both pending and processed.
 
-![Your Access portal Request History page](/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/youraccessportal/requesthistory.webp)
+![Your Access portal Request History page](../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/youraccessportal/requesthistory.webp)
 
 The information displayed in the table includes:
 
@@ -33,9 +33,9 @@ The information displayed in the table includes:
 
 The buttons below the table enable you to perform the following actions:
 
-![Request History page buttons](/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/youraccessportal/requesthistorybuttons.webp)
+![Request History page buttons](../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/youraccessportal/requesthistorybuttons.webp)
 
 | Button | Description |
 | --- | --- |
-| Cancel | Opens the Cancel Request window. This button is only enabled for a selected pending requests. See the [Cancel Request Window](/docs/accessinformationcenter/access/informationcenter/accessrequests/window/cancelrequest.md) topic for additional information. |
+| Cancel | Opens the Cancel Request window. This button is only enabled for a selected pending requests. See the [Cancel Request Window](../window/cancelrequest.md) topic for additional information. |
 | View Notes | Opens the View Notes window for the selected request. Clicking on the Notes icon in the table will also open the View Notes window. Click __OK__ to close the window. |

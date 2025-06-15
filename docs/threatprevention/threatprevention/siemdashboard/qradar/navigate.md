@@ -15,7 +15,7 @@ The Netwrix Active Directory App for QRadar (Active Directory tab) contains seve
 
 There is also a Settings interface for configuring the QRadar SEC token.
 
-![Active Directory App for QRadar - Top Ribbon](/img/product_docs/threatprevention/threatprevention/siemdashboard/qradar/topribbon.webp)
+![Active Directory App for QRadar - Top Ribbon](../../../../../static/img/product_docs/threatprevention/threatprevention/siemdashboard/qradar/topribbon.webp)
 
 The User Investigation and Host Investigation dashboards only appear when a search is conducted. This can be done by clicking a hyperlink in the Perpetrator, Affected Object (when it is a user account), Source IP, or Destination IP columns of a table card. Alternatively, type the complete user name or host IP address in the Search box on the right side of the navigation bar.
 

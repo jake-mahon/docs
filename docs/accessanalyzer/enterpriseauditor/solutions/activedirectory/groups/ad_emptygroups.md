@@ -8,7 +8,7 @@ Navigate to the __Active Directory__ > __1.Groups__ > __AD_EmptyGroups__ > __Con
 
 __CAUTION:__ Do not modify or deselect the selected analysis tasks. The analysis tasks are preconfigured for this job.
 
-![Analysis Tasks for the AD_EmptyGroups Job](/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/distributionlists/membershipanalysis/emptygroupsanalysis.webp)
+![Analysis Tasks for the AD_EmptyGroups Job](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/solutions/exchange/distributionlists/membershipanalysis/emptygroupsanalysis.webp)
 
 The default analysis tasks are:
 

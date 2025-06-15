@@ -4,9 +4,9 @@ This connector exports and fulfills user and groups from/to a [Microsoft Entra I
 
 See the[
 Microsoft Entra ID
-](/docs/usercube_saas/usercube/integration-guide/connectors/references-packages/azure-active-directory/index.md)topic for additional information.
+](../../references-packages/azure-active-directory/index.md)topic for additional information.
 
-![Package: Directory/Microsoft Entra ID](/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/microsoftentraid/packages_azuread_v603.webp)
+![Package: Directory/Microsoft Entra ID](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/connectors/references-connectors/microsoftentraid/packages_azuread_v603.webp)
 
 ## Overview
 
@@ -19,7 +19,7 @@ Microsoft Entra ID is Microsoft's cloud-based identity and access management ser
 
 Implementing this connector requires giving Identity Manager [application permissions](https://docs.microsoft.com/en-us/graph/auth/auth-concepts#application-permissions), because Identity Manager does not access the [Microsoft Graph API](https://docs.microsoft.com/en-us/graph/overview?view=graph-rest-1.0) on behalf of a user but with [its own identity](https://docs.microsoft.com/en-us/graph/auth-v2-service), and delegated permissions are not enough. These application permissions require the consent of an administrator of the target Microsoft Entra ID tenant.
 
-See the[Register for Microsoft Entra ID](/docs/usercube_saas/usercube/integration-guide/connectors/how-tos/azuread-register/index.md) topic on how to register Identity Manager as an application with the Microsoft Identity Platform in order to grant Identity Manager a service account which authenticates with the target Microsoft Entra ID.
+See the[Register for Microsoft Entra ID](../../how-tos/azuread-register/index.md) topic on how to register Identity Manager as an application with the Microsoft Identity Platform in order to grant Identity Manager a service account which authenticates with the target Microsoft Entra ID.
 
 ## Export
 
@@ -29,7 +29,7 @@ For a configured set of directory objects on an Microsoft Entra ID instance, thi
 
 This process is configured through a connection in the UI and/or the XML configuration. See the [
 Connection
-](/docs/usercube_saas/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) topic for additional information.
+](../../../toolkit/xml-configuration/connectors/connection/index.md) topic for additional information.
 
 Or in the ```appsettings.agent.json > Connections``` section:
 
@@ -143,13 +143,13 @@ This connector is meant to generate the following files:
     
   A task can use the IgnoreCookieFile boolean property, and a command line (with an executable) can use the option --ignore-cookies.
 
-The CSV files are stored in the Export Output folder, and the cookie file in the Export Cookies folder. See the [Application Settings](/docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) topic for additional information.
+The CSV files are stored in the Export Output folder, and the cookie file in the Export Cookies folder. See the [Application Settings](../../../network-configuration/agent-configuration/appsettings/index.md) topic for additional information.
 
 For more details, see Microsoft's documentation on [columns and attributes synchronized to Microsoft Entra ID](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized).
 
 ## Fulfill
 
-This connector writes to the Microsoft Entra ID, to create, update and delete Microsoft Entra ID objects, initiated manually through the UI or automatically by enforcing the policy. See the [Evaluate Policy](/docs/usercube_saas/usercube/integration-guide/role-assignment/evaluate-policy/index.md) topic for additional information.
+This connector writes to the Microsoft Entra ID, to create, update and delete Microsoft Entra ID objects, initiated manually through the UI or automatically by enforcing the policy. See the [Evaluate Policy](../../../role-assignment/evaluate-policy/index.md) topic for additional information.
 
 ### Configuration
 
@@ -198,7 +198,7 @@ See the following to figure out authentication.
 
 Password reset
 
-See the[appsettings.agent](/docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) topic for additional information on how to configure password reset settings.
+See the[appsettings.agent](../../../network-configuration/agent-configuration/appsettings-agent/index.md) topic for additional information on how to configure password reset settings.
 
 Credential protection
 
@@ -206,8 +206,8 @@ Data protection can be ensured through:
 
 - [
   RSA Encryption
-  ](/docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md), configured in the ```appsettings.encrypted.agent.json``` file
-- An [Azure Key Vault](/docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md) safe;
+  ](../../../network-configuration/agent-configuration/rsa-encryption/index.md), configured in the ```appsettings.encrypted.agent.json``` file
+- An [Azure Key Vault](../../../network-configuration/agent-configuration/azure-key-vault/index.md) safe;
 
 - A [CyberArk's AAM Credential Providers
-  ](/docs/usercube_saas/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md) Vault able to store Microsoft Entra ID's ```ApplicationId``` and ```ApplicationKey```.
+  ](../../../network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md) Vault able to store Microsoft Entra ID's ```ApplicationId``` and ```ApplicationKey```.

@@ -40,6 +40,6 @@ The Schedule Service Account is used to access the Task folders when scheduling 
 
 Do not choose the __Use local System account to schedule tasks__ option. This account does not have the appropriate rights to apply locks on jobs. Therefore, it does not work in conjunction with Role Based Access.
 
-See the [Schedule](/docs/accessanalyzer/enterpriseauditor/admin/settings/schedule.md) topic for additional instructions on configuring the Schedule Service Account.
+See the [Schedule](../../schedule.md) topic for additional instructions on configuring the Schedule Service Account.
 
 _Remember,_  these credentials must be for a user with local Administrator privileges or rights to the Windows Task Folder and the System 32 Task folder on the Access Analyzer Console server.

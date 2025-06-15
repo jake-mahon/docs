@@ -8,8 +8,8 @@ Flashlight by Strongpoint is a SuiteApp integrated into NetSuite. Use this proce
 4. Enter __297487__ in __Keywords__
 5. Click __Search__
 
-   ![advancedinstall_800x411](/img/product_docs/strongpointnetsuiteflashlight/getting_started/advancedinstall_800x411.webp)
+   ![advancedinstall_800x411](../../../static/img/product_docs/strongpointnetsuiteflashlight/getting_started/advancedinstall_800x411.webp)
 6. Click __Flashlight by Strongpoint__
 7. Click __Install__ to start the bundle installation.
 8. Verify the installation is complete. The __Installed Bundles__ list is displayed. The __Flashlight by Strongpoint Status__ is __Pending__ during the installation process. Click __Refresh__ to see installation progress. When complete, the Flashlight bundle is marked with a green check in the __Status__ and the __Flashlight__ tab is available.
-9. Set up a [licensed user](/docs/strongpointnetsuiteflashlight/getting_started/setting_up_licensed_user.md) to complete the installation.
+9. Set up a [licensed user](setting_up_licensed_user.md) to complete the installation.

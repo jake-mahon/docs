@@ -10,21 +10,18 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Documentation',
-  tagline: 'Documentation for Netwrix security products',
+  title: 'Netwrix Product Documentation',
+  tagline: 'Documentation for Netwrix Products',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://static-docs-site.azurewebsites.net',
+  // Use environment variable for dynamic URL configuration
+  url: process.env.RENDER_EXTERNAL_URL || 'http://localhost:3000',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
-
+  // throw on anything that is not configured correctly
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'throw',
   onBrokenAnchors: 'throw',
@@ -60,6 +57,24 @@ const config = {
         },
       },
     ],
+    // 1Secure Product Documentation
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: '1secure',
+        path: 'docs/1secure',
+        routeBasePath: 'docs/1secure',
+        sidebarPath: './sidebars/1secure.js',
+        editUrl:
+          'https://github.com/netwrix/docs/tree/main/packages/create-docusaurus/templates/shared/',
+        exclude: ['**/CLAUDE.md'],
+        versions: {
+          current: {
+            label: 'Current',
+          },
+        },
+      },
+    ],
     // ActivityMonitor Product Documentation
     [
       '@docusaurus/plugin-content-docs',
@@ -69,11 +84,11 @@ const config = {
         routeBasePath: 'docs/activitymonitor',
         sidebarPath: './sidebars/activitymonitor.js',
         editUrl:
-          'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        // Enable versioning
+          'https://github.com/netwrix/docs/tree/main/packages/create-docusaurus/templates/shared/',
+        exclude: ['**/CLAUDE.md'],
         versions: {
           current: {
-            label: 'Current',
+            label: 'Version 8.0',
           },
         },
       },
@@ -87,28 +102,11 @@ const config = {
         routeBasePath: 'docs/changetracker',
         sidebarPath: './sidebars/changetracker.js',
         editUrl:
-          'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        // Enable versioning
+          'https://github.com/netwrix/docs/tree/main/packages/create-docusaurus/templates/shared/',
+        exclude: ['**/CLAUDE.md'],
         versions: {
           current: {
-            label: 'Current',
-          },
-        },
-      },
-    ],
-    // 1Secure Product Documentation
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: '1secure',
-        path: 'docs/1secure',
-        routeBasePath: 'docs/1secure',
-        sidebarPath: './sidebars/1secure.js',
-        editUrl:
-          'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        versions: {
-          current: {
-            label: 'Current',
+            label: 'Version 8.1',
           },
         },
       },
@@ -122,10 +120,11 @@ const config = {
         routeBasePath: 'docs/accessanalyzer',
         sidebarPath: './sidebars/accessanalyzer.js',
         editUrl:
-          'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          'https://github.com/netwrix/docs/tree/main/packages/create-docusaurus/templates/shared/',
+        exclude: ['**/CLAUDE.md'],
         versions: {
           current: {
-            label: 'Current',
+            label: 'Version 12.0',
           },
         },
       },
@@ -139,7 +138,8 @@ const config = {
         routeBasePath: 'docs/accessinformationcenter',
         sidebarPath: './sidebars/accessinformationcenter.js',
         editUrl:
-          'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          'https://github.com/netwrix/docs/tree/main/packages/create-docusaurus/templates/shared/',
+        exclude: ['**/CLAUDE.md'],
         versions: {
           current: {
             label: 'Current',
@@ -156,10 +156,11 @@ const config = {
         routeBasePath: 'docs/auditor',
         sidebarPath: './sidebars/auditor.js',
         editUrl:
-          'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          'https://github.com/netwrix/docs/tree/main/packages/create-docusaurus/templates/shared/',
+        exclude: ['**/CLAUDE.md'],
         versions: {
           current: {
-            label: 'Current',
+            label: 'Version 10.7',
           },
         },
       },
@@ -173,10 +174,11 @@ const config = {
         routeBasePath: 'docs/dataclassification',
         sidebarPath: './sidebars/dataclassification.js',
         editUrl:
-          'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          'https://github.com/netwrix/docs/tree/main/packages/create-docusaurus/templates/shared/',
+        exclude: ['**/CLAUDE.md'],
         versions: {
           current: {
-            label: 'Current',
+            label: 'Version 5.7',
           },
         },
       },
@@ -190,7 +192,8 @@ const config = {
         routeBasePath: 'docs/endpointprotector',
         sidebarPath: './sidebars/endpointprotector.js',
         editUrl:
-          'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          'https://github.com/netwrix/docs/tree/main/packages/create-docusaurus/templates/shared/',
+        exclude: ['**/CLAUDE.md'],
         versions: {
           current: {
             label: 'Current',
@@ -207,10 +210,11 @@ const config = {
         routeBasePath: 'docs/groupid',
         sidebarPath: './sidebars/groupid.js',
         editUrl:
-          'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          'https://github.com/netwrix/docs/tree/main/packages/create-docusaurus/templates/shared/',
+        exclude: ['**/CLAUDE.md'],
         versions: {
           current: {
-            label: 'Current',
+            label: 'Version 11.1',
           },
         },
       },
@@ -224,10 +228,11 @@ const config = {
         routeBasePath: 'docs/passwordpolicyenforcer',
         sidebarPath: './sidebars/passwordpolicyenforcer.js',
         editUrl:
-          'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          'https://github.com/netwrix/docs/tree/main/packages/create-docusaurus/templates/shared/',
+        exclude: ['**/CLAUDE.md'],
         versions: {
           current: {
-            label: 'Current',
+            label: 'Version 11.0',
           },
         },
       },
@@ -241,10 +246,11 @@ const config = {
         routeBasePath: 'docs/passwordreset',
         sidebarPath: './sidebars/passwordreset.js',
         editUrl:
-          'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          'https://github.com/netwrix/docs/tree/main/packages/create-docusaurus/templates/shared/',
+        exclude: ['**/CLAUDE.md'],
         versions: {
           current: {
-            label: 'Current',
+            label: 'Version 3.3',
           },
         },
       },
@@ -258,10 +264,11 @@ const config = {
         routeBasePath: 'docs/passwordsecure',
         sidebarPath: './sidebars/passwordsecure.js',
         editUrl:
-          'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          'https://github.com/netwrix/docs/tree/main/packages/create-docusaurus/templates/shared/',
+        exclude: ['**/CLAUDE.md'],
         versions: {
           current: {
-            label: 'Current',
+            label: 'Version 9.2',
           },
         },
       },
@@ -275,7 +282,8 @@ const config = {
         routeBasePath: 'docs/policypak',
         sidebarPath: './sidebars/policypak.js',
         editUrl:
-          'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          'https://github.com/netwrix/docs/tree/main/packages/create-docusaurus/templates/shared/',
+        exclude: ['**/CLAUDE.md'],
         versions: {
           current: {
             label: 'Current',
@@ -292,10 +300,11 @@ const config = {
         routeBasePath: 'docs/privilegesecure',
         sidebarPath: './sidebars/privilegesecure.js',
         editUrl:
-          'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          'https://github.com/netwrix/docs/tree/main/packages/create-docusaurus/templates/shared/',
+        exclude: ['**/CLAUDE.md'],
         versions: {
           current: {
-            label: 'Current',
+            label: 'Version 25.5',
           },
         },
       },
@@ -309,10 +318,11 @@ const config = {
         routeBasePath: 'docs/recoveryforactivedirectory',
         sidebarPath: './sidebars/recoveryforactivedirectory.js',
         editUrl:
-          'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          'https://github.com/netwrix/docs/tree/main/packages/create-docusaurus/templates/shared/',
+        exclude: ['**/CLAUDE.md'],
         versions: {
           current: {
-            label: 'Current',
+            label: 'Version 2.6',
           },
         },
       },
@@ -326,7 +336,8 @@ const config = {
         routeBasePath: 'docs/strongpointfornetsuite',
         sidebarPath: './sidebars/strongpointfornetsuite.js',
         editUrl:
-          'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          'https://github.com/netwrix/docs/tree/main/packages/create-docusaurus/templates/shared/',
+        exclude: ['**/CLAUDE.md'],
         versions: {
           current: {
             label: 'Current',
@@ -343,7 +354,8 @@ const config = {
         routeBasePath: 'docs/strongpointforsalesforce',
         sidebarPath: './sidebars/strongpointforsalesforce.js',
         editUrl:
-          'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          'https://github.com/netwrix/docs/tree/main/packages/create-docusaurus/templates/shared/',
+        exclude: ['**/CLAUDE.md'],
         versions: {
           current: {
             label: 'Current',
@@ -360,7 +372,8 @@ const config = {
         routeBasePath: 'docs/strongpointnetsuiteflashlight',
         sidebarPath: './sidebars/strongpointnetsuiteflashlight.js',
         editUrl:
-          'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          'https://github.com/netwrix/docs/tree/main/packages/create-docusaurus/templates/shared/',
+        exclude: ['**/CLAUDE.md'],
         versions: {
           current: {
             label: 'Current',
@@ -377,7 +390,8 @@ const config = {
         routeBasePath: 'docs/strongpointsalesforceflashlight',
         sidebarPath: './sidebars/strongpointsalesforceflashlight.js',
         editUrl:
-          'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          'https://github.com/netwrix/docs/tree/main/packages/create-docusaurus/templates/shared/',
+        exclude: ['**/CLAUDE.md'],
         versions: {
           current: {
             label: 'Current',
@@ -394,10 +408,11 @@ const config = {
         routeBasePath: 'docs/threatmanager',
         sidebarPath: './sidebars/threatmanager.js',
         editUrl:
-          'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          'https://github.com/netwrix/docs/tree/main/packages/create-docusaurus/templates/shared/',
+        exclude: ['**/CLAUDE.md'],
         versions: {
           current: {
-            label: 'Current',
+            label: 'Version 3.0',
           },
         },
       },
@@ -411,10 +426,11 @@ const config = {
         routeBasePath: 'docs/threatprevention',
         sidebarPath: './sidebars/threatprevention.js',
         editUrl:
-          'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          'https://github.com/netwrix/docs/tree/main/packages/create-docusaurus/templates/shared/',
+        exclude: ['**/CLAUDE.md'],
         versions: {
           current: {
-            label: 'Current',
+            label: 'Version 7.5',
           },
         },
       },
@@ -428,10 +444,11 @@ const config = {
         routeBasePath: 'docs/usercube',
         sidebarPath: './sidebars/usercube.js',
         editUrl:
-          'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          'https://github.com/netwrix/docs/tree/main/packages/create-docusaurus/templates/shared/',
+        exclude: ['**/CLAUDE.md'],
         versions: {
           current: {
-            label: 'Current',
+            label: 'Version 6.2',
           },
         },
       },
@@ -445,7 +462,8 @@ const config = {
         routeBasePath: 'docs/usercube_saas',
         sidebarPath: './sidebars/usercube_saas.js',
         editUrl:
-          'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          'https://github.com/netwrix/docs/tree/main/packages/create-docusaurus/templates/shared/',
+        exclude: ['**/CLAUDE.md'],
         versions: {
           current: {
             label: 'Current',

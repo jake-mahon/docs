@@ -1,6 +1,6 @@
 # Playbooks
 
-The first step in designating steps to run in response to a threat is to add a playbook. A playbook is used to tie a threat or "trigger type" to the desired step(s) to take in response to that threat. A threat response can be assigned to a playbook on the [Threat Detection Page](/docs/threatmanager/threatmanager/administration/configuration/threatdetection.md). Once a playbook has been created, steps that specify the desired action for the threat response are then added.
+The first step in designating steps to run in response to a threat is to add a playbook. A playbook is used to tie a threat or "trigger type" to the desired step(s) to take in response to that threat. A threat response can be assigned to a playbook on the [Threat Detection Page](../configuration/threatdetection.md). Once a playbook has been created, steps that specify the desired action for the threat response are then added.
 
 ___RECOMMENDED:___ Execute playbooks in a test environment and review the results prior to executing them in the production environment.
 
@@ -10,7 +10,7 @@ When testing or just getting started with playbooks in Threat Manager, trigger p
 
 Follow the steps to add a playbook.
 
-![threatresponse](/img/product_docs/threatmanager/threatmanager/administration/configuration/threatresponse.webp)
+![threatresponse](../../../../../static/img/product_docs/threatmanager/threatmanager/administration/configuration/threatresponse.webp)
 
 __Step 1 –__ In the Threat Response box, click New Playbook. A new playbook called "My Playbook 1" is created. As additional Playbooks are added, sequential numbers are appended to My Playbook.
 
@@ -28,7 +28,7 @@ The new playbook now has the desired name and steps can be added to the playbook
 
 Playbooks are configured using the tabs on the Threat Response page.
 
-![playbooktabs](/img/product_docs/threatmanager/threatmanager/administration/playbooks/playbooktabs.webp)
+![playbooktabs](../../../../../static/img/product_docs/threatmanager/threatmanager/administration/playbooks/playbooktabs.webp)
 
 The Threat Response page contains the following configuration tabs:
 
@@ -41,7 +41,7 @@ The Threat Response page contains the following configuration tabs:
 
 The General Tab contains the Allowed Threats box which allows customization of which threats are applicable for the selected playbook.
 
-![generaltab](/img/product_docs/threatprevention/threatprevention/admin/policies/generaltab.webp)
+![generaltab](../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/generaltab.webp)
 
 The General tab has the following configuration options:
 
@@ -51,11 +51,11 @@ The General tab has the following configuration options:
 
 ### Actions Tab
 
-Once a playbook is created or imported, add steps to the playbook using the Actions tab. Steps are actions that are taken in response to a threat. See the [Preconfigured Actions](/docs/threatmanager/threatmanager/administration/configuration/threatresponse.md#preconfigured-actions) topic for additional information.
+Once a playbook is created or imported, add steps to the playbook using the Actions tab. Steps are actions that are taken in response to a threat. See the [Preconfigured Actions](../configuration/threatresponse.md#preconfigured-actions) topic for additional information.
 
 Follow the instructions to add steps to a Playbook.
 
-![actionstab](/img/product_docs/threatprevention/threatprevention/admin/policies/actions/actionstab.webp)
+![actionstab](../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/actions/actionstab.webp)
 
 __Step 1 –__ Select the playbook from the Playbooks list in the Threat Response box or on the Playbooks overview.
 
@@ -63,10 +63,10 @@ __Step 2 –__ Click the Actions tab and then click __Add Step__ to open a box t
 
 __Step 3 –__ Enter the following information in the box:
 
-![addstep](/img/product_docs/threatmanager/threatmanager/administration/playbooks/addstep.webp)
+![addstep](../../../../../static/img/product_docs/threatmanager/threatmanager/administration/playbooks/addstep.webp)
 
 - Display Name – The desired name for the step
-- Action Type – The type of action to take for the threat response. Select the desired action from the drop-down list. Additional configuration information is required depending upon the type of action selected. See the [Action Configuration for Playbook Steps](/docs/threatmanager/threatmanager/administration/playbooks/action/overview.md) topic for additional information.
+- Action Type – The type of action to take for the threat response. Select the desired action from the drop-down list. Additional configuration information is required depending upon the type of action selected. See the [Action Configuration for Playbook Steps](action/overview.md) topic for additional information.
 - Continue on Error – Select this checkbox to execute the next step if the current step fails
 
 __Step 4 –__ Click Add to add the step to the playbook.
@@ -77,7 +77,7 @@ The step is added to the playbook.
 
 Follow-Up Playbooks can be configured on the Follow-Up tab. Follow-Up playbooks allow additional playbooks to run once the playbook has completed. This allows a (Undefined variable: SD.Product Short Name) administrator to sequence a series of playbooks together as part of a threat response.
 
-![followuptab](/img/product_docs/threatmanager/threatmanager/administration/playbooks/followuptab.webp)
+![followuptab](../../../../../static/img/product_docs/threatmanager/threatmanager/administration/playbooks/followuptab.webp)
 
 The Follow-Up tab has the following configuration options:
 
@@ -91,12 +91,12 @@ Click __Save__ to save the configured settings.
 
 Click the Logs tab to access the Playbook Execution History table. The table lists all playbook executions and also provides the ability to search the table.
 
-![This screenshot displays the Logs tab on the Threat Response page.](/img/product_docs/threatmanager/threatmanager/administration/playbooks/logstab.webp)
+![This screenshot displays the Logs tab on the Threat Response page.](../../../../../static/img/product_docs/threatmanager/threatmanager/administration/playbooks/logstab.webp)
 
 The table provides the following information:
 
 - Threat – The threat type that triggered the playbook
-  - Click the threat link to open the [Threat Details Page](/docs/threatmanager/threatmanager/administration/threatdetails/overview.md) and view information about the threat.
+  - Click the threat link to open the [Threat Details Page](../threatdetails/overview.md) and view information about the threat.
 - Threat Detected – The time that the threat was detected
 - Time Started – The time that the playbook was executed
 - Time Finished – The time that the playbook completed execution
@@ -117,7 +117,7 @@ The Action Log window contains a Logs tab and a Step Details tab.
 
 The Logs tab displays logs for the playbook execution.
 
-![This screenshot displays the Logs tab on the Action Log window.](/img/product_docs/threatmanager/threatmanager/administration/playbooks/logstab.webp)
+![This screenshot displays the Logs tab on the Action Log window.](../../../../../static/img/product_docs/threatmanager/threatmanager/administration/playbooks/logstab.webp)
 
 The Logs tab displays a table with the following columns:
 
@@ -129,7 +129,7 @@ The Logs tab displays a table with the following columns:
 
 The Step Details tab displays information about the action steps in the playbook execution.
 
-![This screenshot displays the Step Details tab on the Action Log window.](/img/product_docs/threatmanager/threatmanager/administration/playbooks/stepdetailstab.webp)
+![This screenshot displays the Step Details tab on the Action Log window.](../../../../../static/img/product_docs/threatmanager/threatmanager/administration/playbooks/stepdetailstab.webp)
 
 The Step Details tab contains a table with the following columns:
 

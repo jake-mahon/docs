@@ -18,14 +18,14 @@ Data Collectors
 
 Successful use of the Access Analyzer Active Directory solution requires the necessary settings and permissions in a Microsoft® Active Directory® environment described in this topic and its subtopics. This solution employs the following data collectors to scan for groups, users, computers, passwords, permissions, group policies, and domain information:
 
-- [ADInventory Data Collector](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/overview.md)
-- [ActiveDirectory Data Collector](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/activedirectory/overview.md)
-- [ADActivity Data Collector](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/adactivity/overview.md)
-- [GroupPolicy Data Collector](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/grouppolicy/overview.md)
-- [LDAP Data Collector](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/ldap.md)
-- [PasswordSecurity Data Collector](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/passwordsecurity/overview.md)
-- [PowerShell Data Collector](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/powershell/overview.md)
-- [Registry Data Collector](/docs/accessanalyzer/enterpriseauditor/admin/datacollector/registry.md)
+- [ADInventory Data Collector](../../enterpriseauditor/admin/datacollector/adinventory/overview.md)
+- [ActiveDirectory Data Collector](../../enterpriseauditor/admin/datacollector/activedirectory/overview.md)
+- [ADActivity Data Collector](../../enterpriseauditor/admin/datacollector/adactivity/overview.md)
+- [GroupPolicy Data Collector](../../enterpriseauditor/admin/datacollector/grouppolicy/overview.md)
+- [LDAP Data Collector](../../enterpriseauditor/admin/datacollector/ldap.md)
+- [PasswordSecurity Data Collector](../../enterpriseauditor/admin/datacollector/passwordsecurity/overview.md)
+- [PowerShell Data Collector](../../enterpriseauditor/admin/datacollector/powershell/overview.md)
+- [Registry Data Collector](../../enterpriseauditor/admin/datacollector/registry.md)
 
 ## Permissions
 

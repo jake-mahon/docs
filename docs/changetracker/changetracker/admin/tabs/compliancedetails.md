@@ -2,7 +2,7 @@
 
 Description
 
-![ComplianceDetailsTab](/img/product_docs/changetracker/changetracker/admin/tabs/compliancedetailstab.webp)
+![ComplianceDetailsTab](../../../../../static/img/product_docs/changetracker/changetracker/admin/tabs/compliancedetailstab.webp)
 
 __Step 1 –__ Adjust Score Filters to view other score ranges.
 
@@ -12,8 +12,8 @@ __Step 3 –__ Compare will show differences between the two report runs being r
 
 ## Compare View
 
-![CompliancePolicyRunChangeDetails](/img/product_docs/changetracker/changetracker/admin/tabs/compliancepolicyrunchangedetails.webp)
+![CompliancePolicyRunChangeDetails](../../../../../static/img/product_docs/changetracker/changetracker/admin/tabs/compliancepolicyrunchangedetails.webp)
 
 ## Full Report
 
-![ComplianceFullReport](/img/product_docs/changetracker/changetracker/admin/tabs/compliancefullreport.webp)
+![ComplianceFullReport](../../../../../static/img/product_docs/changetracker/changetracker/admin/tabs/compliancefullreport.webp)

@@ -14,13 +14,13 @@ __NOTE:__  Any details provided will only be used to ensure the Live Update Serv
 
 __CAUTION:__ The eDiscovery module is separate from Device Control or Content Aware Protection modules, and requires separate licensing.
 
-![eDiscovery Activation](/img/product_docs/endpointprotector/endpointprotector/admin/ediscovery/activation.png)
+![eDiscovery Activation](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/ediscovery/activation.png)
 
 ## Dashboard
 
 This section offers a quick overview in the form of graphics and charts related to the eDiscovery module.
 
-![A quick overview in the form of graphics and charts related to the eDiscovery module](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/dashboard.png)
+![A quick overview in the form of graphics and charts related to the eDiscovery module](../../../../../static/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/dashboard.png)
 
 ## eDiscovery Policies and Scans
 
@@ -47,7 +47,7 @@ eDiscovery Automatic Scanning is also available, allowing you to set an Incremen
 - Weekly – a scan will run every 7 days, from the set date and time
 - Monthly – a scan will run every 30 days, from the set date and time
 
-![eDiscovery Automatic Scanning](/img/product_docs/endpointprotector/endpointprotector/admin/ediscovery/automaticscanning.png)
+![eDiscovery Automatic Scanning](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/ediscovery/automaticscanning.png)
 
 An eDiscovery Scan can be stopped at any time as results can also be automatically cleared. This can be done by using:
 
@@ -60,11 +60,11 @@ __NOTE:__ Use Global Stop and Clear in situations where all the eDiscovery Scans
 
 You can easily create and manage eDiscovery Policies and Scans from the eDiscovery, Policies and Scans section.
 
-![Creating an eDiscovery Policy and Scan](/img/product_docs/endpointprotector/endpointprotector/admin/ediscovery/policiesscans.png)
+![Creating an eDiscovery Policy and Scan](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/ediscovery/policiesscans.png)
 
 To create a new policy click __Create Custom Policy__ and to edit an available policy, double-click it. You need to select a policy to edit, duplicate or delete a policy.
 
-![Creating a new Policy](/img/product_docs/endpointprotector/endpointprotector/install/agent/jamf/newpolicy.png)
+![Creating a new Policy](../../../../../static/img/product_docs/endpointprotector/endpointprotector/install/agent/jamf/newpolicy.png)
 
 When creating a new policy, select the following:
 
@@ -81,7 +81,7 @@ You can use the following thresholds:
 
 You can ﬁnd more details about Thresholds directly in the Endpoint Protector User Interface.
 
-For detailed information on Denylists and Allowlist, refer to the [Denylists and Allowlists](/docs/endpointprotector/endpointprotector/admin/denylistsallowlists/overview.md) chapter.
+For detailed information on Denylists and Allowlist, refer to the [Denylists and Allowlists](../denylistsallowlists/overview.md) chapter.
 
 After the eDiscovery Policy has been created, Scanning Actions can be assigned. These include Start clean scan, Start incremental scan, Stop scan, and Clear logs.
 
@@ -91,16 +91,16 @@ __NOTE:__ Exactly like Content Aware Protection Policies, the eDiscovery Policie
 
 After an eDiscovery Scan starts, you can inspect the items found and apply actions to remediate (e.g., delete on target, encrypt on target, decrypt on target, etc.). All results are displayed in the eDiscovery, Scan Results, and Actions section.
 
-![eDiscovery Scan Result and Actions](/img/product_docs/endpointprotector/endpointprotector/admin/ediscovery/scanresults.png)
+![eDiscovery Scan Result and Actions](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/ediscovery/scanresults.png)
 
 You can also access the Scan Results and Actions section directly from eDiscovery > Policies and Scans by selecting a computer from the eDiscovery Scans list and choosing the Inspect found items action. This will automatically ﬁlter the Scan Results list and display the items only for that speciﬁc computer.
 
-![eDiscovery Scan Result and Actions](/img/product_docs/endpointprotector/endpointprotector/admin/ediscovery/ediscoveryscans.png)
+![eDiscovery Scan Result and Actions](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/ediscovery/ediscoveryscans.png)
 
 ### Viewing Scan Results and Taking Actions
 
 From this section, you can manage the scan results. A list of all the computers that were scanned can be viewed and actions such as deleting, encrypting or decrypting ﬁles can be taken.
 
-![Viewing Scan Results and Taking Actions](/img/product_docs/endpointprotector/endpointprotector/admin/ediscovery/ediscoveryactions.png)
+![Viewing Scan Results and Taking Actions](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/ediscovery/ediscoveryactions.png)
 
 You can apply an action to each item individually or, can select multiple items and apply the action simultaneously by using the Choose action button.

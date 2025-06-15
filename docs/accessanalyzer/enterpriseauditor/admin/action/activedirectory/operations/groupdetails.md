@@ -2,7 +2,7 @@
 
 Use Groups Details page to edit selected group attributes.
 
-![Active Directory Action Module Wizard Group Details page](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/groupdetails.webp)
+![Active Directory Action Module Wizard Group Details page](../../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/groupdetails.webp)
 
 Highlight the attribute to edit. Add or delete attributes using the buttons to the right of Insert field.
 
@@ -23,7 +23,7 @@ The Custom Attributes Import Wizard is used to import a list of custom attribute
 
 __Step 1 –__ On the Group Details page of the Active Directory Action Module Wizard, click __Import__. The Custom Attribute Import Wizard opens.
 
-![Custom Attributes Import Wizard Credentials page](/img/product_docs/activitymonitor/activitymonitor/install/agent/credentials.webp)
+![Custom Attributes Import Wizard Credentials page](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/agent/credentials.webp)
 
 __Step 2 –__ On the Credentials page, identify a domain either by entering one manually or selecting one from the __Domain Name__ drop-down menu which displays a list of domains trusted by the one in which the Access Analyzer Console server resides. Then set the credentials for reading the attributes list from the domain:
 
@@ -32,11 +32,11 @@ __Step 2 –__ On the Credentials page, identify a domain either by entering one
 
 __Step 3 –__ Click __Next__.
 
-![Custom Attributes Import Wizard Attributes page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/activedirectory/operations/attributesgroup.webp)
+![Custom Attributes Import Wizard Attributes page](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/activedirectory/operations/attributesgroup.webp)
 
 __Step 4 –__ The wizard populates available attributes from the domain specified on the Attributes page. Expand the desired object class and select the checkboxes for the custom attributes to be imported. Then click __Next__.
 
-![Custom Attributes Import Wizard Completion page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/activedirectory/operations/completionpage.webp)
+![Custom Attributes Import Wizard Completion page](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/activedirectory/operations/completionpage.webp)
 
 __Step 5 –__ On the Completion page, click __Finish__. On the Completion page, click __Finish__.
 

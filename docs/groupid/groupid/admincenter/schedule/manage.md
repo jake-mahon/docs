@@ -100,7 +100,7 @@ Step 6 – On the Edit Schedule page, the Triggers area displays the trigger(s) 
 - To remove a trigger, click __Remove__ for it.
 
 Follow step 11 in
-the [Group Usage Service Schedule](/docs/groupid/groupid/admincenter/schedule/groupusageservice.md) topic to manage triggers.
+the [Group Usage Service Schedule](groupusageservice.md) topic to manage triggers.
 
 Step 7 – Click __Update Schedule__.
 

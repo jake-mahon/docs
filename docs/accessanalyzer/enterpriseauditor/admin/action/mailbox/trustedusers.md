@@ -5,7 +5,7 @@ Use the Trusted Users page to select delegates to add. Users can be added indivi
 - Add Delegates
 - Remove Delegates
 
-![New Mailbox Action Wizard Trusted Users page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/mailbox/trustedusers.webp)
+![New Mailbox Action Wizard Trusted Users page](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/mailbox/trustedusers.webp)
 
 Select Trusted User delegates using the following options:
 

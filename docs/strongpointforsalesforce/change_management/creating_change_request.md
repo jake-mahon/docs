@@ -2,15 +2,15 @@
 
 Change requests are the method to plan, analyze, track and approve changes. You can create different types of Change Requests to match the change you want to manage. Here are two options:
 
-- __Customization__ Change request is used for Metadata changes, such as [Customizations](/docs/strongpointforsalesforce/customizations/customizations_overview.md).
-- __Data Record__ - Change request is used for Data Changes to Revenue Cloud/ [CPQ](/docs/strongpointforsalesforce/change_management/enhanced_cpq_support.md).
+- __Customization__ Change request is used for Metadata changes, such as [Customizations](../customizations/customizations_overview.md).
+- __Data Record__ - Change request is used for Data Changes to Revenue Cloud/ [CPQ](enhanced_cpq_support.md).
 
 Data Record Change Requests are only available with an Enterprise Compliance license.
 
 1. Open the __Change Requests__ tab.
 2. Click __New__
 
-   ![New Change Request](/img/product_docs/strongpointforsalesforce/change_management/change_request_new_light.webp)
+   ![New Change Request](../../../static/img/product_docs/strongpointforsalesforce/change_management/change_request_new_light.webp)
 3. Enter information as needed.
 
    - __Change Request Name__: add a meaningful name to the change request.
@@ -21,7 +21,7 @@ Data Record Change Requests are only available with an Enterprise Compliance lic
    - __Is Release__: check if this change request represents a release. The customizations from all the child change requests are rolled into this release for deployment.
 4. __Save__ the __Change Request__. A confirmation is displayed when the change request is saved.
 
-   ![Continue with the Change Request](/img/product_docs/strongpointforsalesforce/change_management/change_request_new2_light.webp)
+   ![Continue with the Change Request](../../../static/img/product_docs/strongpointforsalesforce/change_management/change_request_new2_light.webp)
 5. Add or change information as needed:
 
    - __External Change Request Number__ and __External Link__ are used for reference if the change request is coming from an external system.
@@ -32,15 +32,15 @@ Data Record Change Requests are only available with an Enterprise Compliance lic
    - __Release__: search for the parent change request if this change request is part of a release.
 6. Expand the __Customizations__ section. __Customizations__ is selected by default. Click __Customizations__ to access the __Add/Remove__ function.
 
-   ![Expand the Customizations section](/img/product_docs/strongpointforsalesforce/change_management/change_request_new3_light.webp)
+   ![Expand the Customizations section](../../../static/img/product_docs/strongpointforsalesforce/change_management/change_request_new3_light.webp)
 
    - Click __Add/Remove__ to add existing Customizations to the change request.
 
-     ![Add an existing customization to a change request](/img/product_docs/strongpointforsalesforce/change_management/change_request_new4_light.webp)
+     ![Add an existing customization to a change request](../../../static/img/product_docs/strongpointforsalesforce/change_management/change_request_new4_light.webp)
 
      - Enter filters to search for existing customizations. For this example, the __Metadata Type__ is set to __CustomField__. The matching customizations are displayed.
 
-       ![Enter filters to search for customizations](/img/product_docs/strongpointforsalesforce/change_management/change_request_new5_light.webp)
+       ![Enter filters to search for customizations](../../../static/img/product_docs/strongpointforsalesforce/change_management/change_request_new5_light.webp)
    - Select one or more customizations. Use __Search__, __First__, __Previous__, __Next__ and __Last__ to navigate through the list if needed.
    - Click __Add__ to add the customizations to the __Selected Customizations__ list. Continue adding your existing customizations.
    - Click __Save__.
@@ -48,17 +48,17 @@ Data Record Change Requests are only available with an Enterprise Compliance lic
 
    - Click __Add/Remove__.
 
-     ![Add Proposed Customizations to the Change Request](/img/product_docs/strongpointforsalesforce/change_management/change_request_new6_light.webp)
+     ![Add Proposed Customizations to the Change Request](../../../static/img/product_docs/strongpointforsalesforce/change_management/change_request_new6_light.webp)
    - Click __+__ (Add).
 
-     ![Add the information for the proposed customization](/img/product_docs/strongpointforsalesforce/change_management/change_request_new7_light.webp)
+     ![Add the information for the proposed customization](../../../static/img/product_docs/strongpointforsalesforce/change_management/change_request_new7_light.webp)
    - Enter the __API Name__ and __Salesforce Metadata Type__. Click __+__ to add additional proposed customizations. Can be used in conjunction with customizations that already exist. All __Customizations__ and __Proposed Customizations__ are evaluated to determine the change level. The highest change level is used for the change request.
    - Click __Save__.
 8. Click __Save__ on the __Edit Change Request__ form when you are finished. The __Deployment__ section is only applicable after the change request is approved.
 
 Your change request is created.
 
-![Your Change Request is created](/img/product_docs/strongpointforsalesforce/change_management/change_request_new8_light.webp)
+![Your Change Request is created](../../../static/img/product_docs/strongpointforsalesforce/change_management/change_request_new8_light.webp)
 
 ## Preparing the Change Request for Approval
 
@@ -74,7 +74,7 @@ Open the __Impact Analysis__ tab and review the information on the tabs: __Can B
 
 Here is an example of items on the __Cannot Be Safely Deleted or Modified__ tab. The Customizations and Impacted Customizations are links to each customization record.
 
-![Impact Analysis Cannot Be Safely Deleted or Modified tab](/img/product_docs/strongpointforsalesforce/change_management/change_request_new_impact_analysis.webp)
+![Impact Analysis Cannot Be Safely Deleted or Modified tab](../../../static/img/product_docs/strongpointforsalesforce/change_management/change_request_new_impact_analysis.webp)
 
 Use the __Edit__ button to return to the change request and make any required modifications.
 
@@ -82,7 +82,7 @@ Use the __Edit__ button to return to the change request and make any required mo
 
 Open the __DRD__ tab to review the dependency diagram. Use the __Edit__ button to return to the change request and make any required modifications.
 
-![Open the DRD tab to view the dependency diagram](/img/product_docs/strongpointforsalesforce/change_management/change_request_drd.webp)
+![Open the DRD tab to view the dependency diagram](../../../static/img/product_docs/strongpointforsalesforce/change_management/change_request_drd.webp)
 
 ### Send the Change Request for Approval
 
@@ -91,7 +91,7 @@ Change request approvers are automatically assigned based on the policy. In this
 1. Click __Edit__ to modify the change request.
 2. Expand the __Approval__ section.
 
-   ![Expand Approval section](/img/product_docs/strongpointforsalesforce/change_management/change_request_new_approvals.webp)
+   ![Expand Approval section](../../../static/img/product_docs/strongpointforsalesforce/change_management/change_request_new_approvals.webp)
 3. Add the approval information:
 
    - __Approval Status__: updates the status of the change request. Typically used for editing existing change requests. Set the __Approval Status__ to __Pending Approval__ when you are ready.
@@ -100,7 +100,7 @@ Change request approvers are automatically assigned based on the policy. In this
    - __Additional Approvers__: any additional approvers. Mandated approvers are set by the policy. Click __Add/Remove__ and select approvers.
 4. Click __Save__.
 
-   ![Change Request Pending Approval](/img/product_docs/strongpointforsalesforce/change_management/change_request_new_send_approval.webp)
+   ![Change Request Pending Approval](../../../static/img/product_docs/strongpointforsalesforce/change_management/change_request_new_send_approval.webp)
 5. Click __Submit for Approval__ to start the process. Approval notifications are sent to the approvers.
 
 If you created the Change Request in your sandbox to determine the scope of the change, recreate it in your Production environment to enable approvals and ongoing tracking.   

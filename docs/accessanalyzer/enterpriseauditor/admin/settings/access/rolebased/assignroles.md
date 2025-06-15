@@ -6,15 +6,15 @@ __NOTE:__ You must have local administrator rights on the Access Analyzer Consol
 
 Follow the steps to assign roles in the Access Analyzer Console.
 
-![Add Access option on the Access page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/addaccess.webp)
+![Add Access option on the Access page](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/addaccess.webp)
 
 __Step 1 –__ On the Access page, click __Add Access__. The Access Type wizard opens.
 
-![Access Type page of the Access Role wizard](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/accesstypeuser.webp)
+![Access Type page of the Access Role wizard](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/accesstypeuser.webp)
 
 __Step 2 –__ Select the __A user or group accessing this console__ option. Click __Next__.
 
-![Console Access page of the Access Role wizard](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/consoleaccess.webp)
+![Console Access page of the Access Role wizard](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/consoleaccess.webp)
 
 __Step 3 –__ On the Console Access page, specify a group or user in the __Name__ field. Use the ellipsis (__…__) to browse for accounts with the Select User or Group window.
 
@@ -24,7 +24,7 @@ __Step 3 –__ On the Console Access page, specify a group or user in the __Name
   - Add the gMSA name (```gMSAadmin$```), then click __OK__.
   - The Member Type will show as ```msDS-GroupManagedServiceAccount``` on the Access page.
 
-![Console Access page with user added](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/consoleaccessfinish.webp)
+![Console Access page with user added](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/consoleaccessfinish.webp)
 
 __Step 4 –__ Select a role for the group or user from the Role list. Click __Finish__. The group or user and role is added to the Role Membership list in the Roles view.
 
@@ -34,7 +34,7 @@ __Step 6 –__ Click __Save__ and then __OK__ to confirm the changes. All applie
 
 Role Based Access is enabled when the first role has been assigned.
 
-![Error message when Administrator role is not specified](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/noadminerror.webp)
+![Error message when Administrator role is not specified](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/noadminerror.webp)
 
 The first role or set of roles saved must include the Administrator role. Clicking __Save__ for the first role or set or roles without including the Administrator generates an error message in the Access Analyzer Console.
 
@@ -42,7 +42,7 @@ When Role Based Access is first enabled, restart the Access Analyzer application
 
 __NOTE:__ The Web Administrator and Report Viewer roles do not require access to the Access Analyzer console, so users assigned these roles are not added to the NEAUsers group.
 
-![NEAUsers group](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/neausersgroup.webp)
+![NEAUsers group](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/neausersgroup.webp)
 
 There are two separate sets of permissions:
 
@@ -53,11 +53,11 @@ There are two separate sets of permissions:
 
 Follow the steps to edit a Access Analyzer user’s role.
 
-![Edit Member Role](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/editmemberrole.webp)
+![Edit Member Role](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/editmemberrole.webp)
 
 __Step 1 –__ On the Access page, select the desired user and click __Edit Member Role__.
 
-![Edit Console Access wizard page](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/consoleaccessedit.webp)
+![Edit Console Access wizard page](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/consoleaccessedit.webp)
 
 __Step 2 –__ Select a new role for the user from the Roles list.
 
@@ -73,7 +73,7 @@ The changed roles take affect the next time the users logs into the Access Analy
 
 Follow the steps to delete a user from having access to the Access Analyzer Console.
 
-![Delete Role Member](/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/deleterolemember.webp)
+![Delete Role Member](../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/access/rolebased/deleterolemember.webp)
 
 __Step 1 –__ On the Access page, select the desired user and click __Delete Role Member__. The selected user will be removed from the list.
 

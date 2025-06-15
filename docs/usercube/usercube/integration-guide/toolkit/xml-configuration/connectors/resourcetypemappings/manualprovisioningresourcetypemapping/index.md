@@ -15,4 +15,4 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 | Property | Type | Description |
 | --- | --- | --- |
 | Connection   required | String | Identifier of the corresponding connection. |
-| TicketSynchroIsNotAvailable   optional | Boolean | True to set synchronization as unavailable for this resource type. Once the ticket is closed and the resource is created, updated or deleted, then the assignment's status is directly set to Verified.  Only used with the package for tickets. See the [ ServiceNow Ticket ](/docs/usercube/usercube/integration-guide/connectors/references-packages/servicenow-ticket/index.md) topic for additional information. |
+| TicketSynchroIsNotAvailable   optional | Boolean | True to set synchronization as unavailable for this resource type. Once the ticket is closed and the resource is created, updated or deleted, then the assignment's status is directly set to Verified.  Only used with the package for tickets. See the [ ServiceNow Ticket ](../../../../../connectors/references-packages/servicenow-ticket/index.md) topic for additional information. |

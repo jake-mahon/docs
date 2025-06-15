@@ -27,7 +27,7 @@ Follow the steps to create configuration backup.
 
 __Step 1 –__ Go to __Settings__ > __Config__ > __Utilities__.
 
-![utilitiesbackup](/img/product_docs/dataclassification/ndc/admin/utilities/utilitiesbackup.webp)
+![utilitiesbackup](../../../../../static/img/product_docs/dataclassification/ndc/admin/utilities/utilitiesbackup.webp)
 
 __Step 2 –__ From the navigation menu on the left, click __Backup/Restore.__
 

@@ -4,9 +4,9 @@ The database maintenance function grooms the NVMonitorData database to optimize 
 
 If you choose to archive data instead of deleting it, then you have to specify a database for data archiving. For this database, you can also define settings to delete data aged beyond a specified threshold.
 
-_Remember,_ See the Database Maintenance Permission details in the [Database Maintenance Feature Requirements](/docs/threatprevention/threatprevention/requirements/dbmaintenance.md) topic.
+_Remember,_ See the Database Maintenance Permission details in the [Database Maintenance Feature Requirements](../../../requirements/dbmaintenance.md) topic.
 
-See the [Stored Procedures](/docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/storedprocedures.md) topic for additional information on stored procedures Threat Prevention uses on its SQL Server databases.
+See the [Stored Procedures](storedprocedures.md) topic for additional information on stored procedures Threat Prevention uses on its SQL Server databases.
 
 Follow the steps to configure database maintenance.
 
@@ -14,7 +14,7 @@ __Step 1 –__ Click __Configuration__ > __Database__ > __Maintenance__ on the m
 
 This window is only available to Threat Prevention administrators.
 
-![Threat Prevention WinConsole Warning window](/img/product_docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/warning.webp)
+![Threat Prevention WinConsole Warning window](../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/warning.webp)
 
 The database maintenance feature is only available if the SQL Server Agent service is running on the SQL Server host. A warning message displays instead of the Database Maintenance window if this service is not running.
 
@@ -22,7 +22,7 @@ To enable the service, go to __Start__ > __Administrative Tools__ > __Services__
 
 When the SQL Server Agent service is running, the Database Maintenance window opens.
 
-![Database Maintenance window](/img/product_docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/databasemaintenance.webp)
+![Database Maintenance window](../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/databasemaintenance.webp)
 
 The following information is displayed at the top of the window:
 
@@ -45,21 +45,21 @@ The following information is displayed at the top of the window:
 
 The Refresh button in the upper-right corner refreshes this database and job information.
 
-__Step 2 –__  On the Event Type, Analytics, and/or Policy tabs, enable maintenance for all or some of the options. See the [Enable Database Maintenance](/docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/enable.md) topic for additional information.
+__Step 2 –__  On the Event Type, Analytics, and/or Policy tabs, enable maintenance for all or some of the options. See the [Enable Database Maintenance](enable.md) topic for additional information.
 
-__Step 3 –__ On the Schedule tab, set the frequency and time when the database maintenance job runs. See the [Schedule Database Maintenance](/docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/schedule.md) topic for additional information.
+__Step 3 –__ On the Schedule tab, set the frequency and time when the database maintenance job runs. See the [Schedule Database Maintenance](schedule.md) topic for additional information.
 
-__Step 4 –__ To use the Move operation, you must specify a database on the Archive DB tab. You can also define settings to delete data aged beyond a specified threshold from the archive database. See the [Archive Data](/docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/archive.md) topic for additional information.
+__Step 4 –__ To use the Move operation, you must specify a database on the Archive DB tab. You can also define settings to delete data aged beyond a specified threshold from the archive database. See the [Archive Data](archive.md) topic for additional information.
 
 __Step 5 –__ Click __Save__ to save the changes.
 
-___RECOMMENDED:___ The SQL Server databases should be configured to use 'Simple Recovery Mode' in the [SQL Server Requirements](/docs/threatprevention/threatprevention/requirements/sqlserver.md). This configuration has a direct impact on the size of the transaction log during database maintenance delete tasks. If Simple Recovery Mode is not configured on the databases, the transaction log may get quite large during delete tasks.
+___RECOMMENDED:___ The SQL Server databases should be configured to use 'Simple Recovery Mode' in the [SQL Server Requirements](../../../requirements/sqlserver.md). This configuration has a direct impact on the size of the transaction log during database maintenance delete tasks. If Simple Recovery Mode is not configured on the databases, the transaction log may get quite large during delete tasks.
 
 ## Event Type Tab
 
 The Event Type tab is displayed by default when the Database Maintenance window opens.
 
-![Database Maintenance window - Event Type tab](/img/product_docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/eventtype.webp)
+![Database Maintenance window - Event Type tab](../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/eventtype.webp)
 
 Check the __Enabled__ box at the top to set database maintenance by event type. The table contains the following information:
 
@@ -77,7 +77,7 @@ Check the __Enabled__ box at the top to set database maintenance by event type. 
 
 Click the __Analytics__ tab on the Database Maintenance window.
 
-![Database Maintenance window - Analytics tab](/img/product_docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/analytics.webp)
+![Database Maintenance window - Analytics tab](../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/analytics.webp)
 
 Check the __Enabled__ box at the top to set database maintenance by analytic. The table contains the following information:
 
@@ -99,7 +99,7 @@ Above the table is a cumulative count of:
 
 Click the __Policy__ tab on the Database Maintenance window.
 
-![Database Maintenance window - Policy tab](/img/product_docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/policy.webp)
+![Database Maintenance window - Policy tab](../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/policy.webp)
 
 Check the __Enabled__ box at the top to set database maintenance by policy. The table contains the following information:
 

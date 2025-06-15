@@ -2,7 +2,7 @@
 
 The first time the spider is run the entire account is scanned. Subsequent spider runs scan the changes since the last run.
 
-The __Strongpoint__ tab is only available to Administrators unless you specifically add it to other roles. Refer to [Setting Access and Permissions](/docs/strongpointfornetsuite/installing_strongpoint/setting_strongpoint_tab_access.md) for more information.
+The __Strongpoint__ tab is only available to Administrators unless you specifically add it to other roles. Refer to [Setting Access and Permissions](setting_strongpoint_tab_access.md) for more information.
 
 You must keep this window open for the spider to complete. Do not change roles or accounts during this process.
 
@@ -37,7 +37,7 @@ If you track the progress of the scripts, you may see that they fail occasionall
 Open __Strongpoint__ > __Strongpoint Support__ > __Installation
 Settings__ and review the __Spider Status__ tab to confirm the __Last Completed Spider__ shows a date.
 
-![Review the Spider Status tab of the Installation Settings](/img/product_docs/strongpointfornetsuite/installing_strongpoint/install_settings_spider_status.webp)
+![Review the Spider Status tab of the Installation Settings](../../../static/img/product_docs/strongpointfornetsuite/installing_strongpoint/install_settings_spider_status.webp)
 
 - __Strongpoint Record Server Side Spider Scheduled Script__ is no longer running.
 - __Strongpoint Search Customization to Make Join (By Join Proc)__ should not have any results. If there are items in the results, it indicates the __Strongpoint Make Joins Script__ is still running.
@@ -124,4 +124,4 @@ If a schedule is set through the Configuration and Stats page, scheduled spiders
 Spiders that run during off peak hours begin running at the hour set on the script deployment, or 5:00 pm based on the company timezone if not set.  
 Negative Spiders are run sequentially.
 
-__Next Step:__ [ Setting Up the AutoSpider and Alerts](/docs/strongpointfornetsuite/installing_strongpoint/setting_up_auto_spider_alerts.md)
+__Next Step:__ [ Setting Up the AutoSpider and Alerts](setting_up_auto_spider_alerts.md)

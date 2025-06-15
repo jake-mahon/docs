@@ -37,5 +37,5 @@ Under Windows logging, events for Directory Manager clients and services are log
 
 __See Also__
 
-- [Directory Manage Applications](/docs/groupid/groupid/admincenter/portal/applications.md)
-- [Get Logs](/docs/groupid/groupid/admincenter/general/logs.md)
+- [Directory Manage Applications](../../portal/applications.md)
+- [Get Logs](../../general/logs.md)

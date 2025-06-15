@@ -18,7 +18,7 @@ For best results, target the at-risk, sensitive, and suspect objects and activit
 
 Best Practice #2 – Database Maintenance? Use It!
 
-The [Database Maintenance Window](/docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/overview.md) enables you to set options that automatically groom the database to optimize performance.   
+The [Database Maintenance Window](../admin/configuration/databasemaintenance/overview.md) enables you to set options that automatically groom the database to optimize performance.   
 Whether choosing to archive or delete data, this is always a good feature to enable.
 
 Best Practice #3 – Analytics? Turn on One at a Time & Tune
@@ -43,9 +43,9 @@ The Agent has been configured to monitor LSASS after a reboot (triggered by the 
 
 ___RECOMMENDED:___  Reach out to [Netwrix Support](https://www.netwrix.com/support.html) prior to restarting the Agent, as a hotfix may exist which will prevent future issues with that Microsoft Security Bulletin.
 
-Threat Prevention sends the _LSASS process terminated_ alert when the LSASS process stops shortly after a reboot. The Agent stops and all monitoring/blocking by that Agent stops. To resolve the issue, either upgrade to the latest version of the Agent or simply upgrade SI.ActiveDirectoryMonitor.dll - commonly known as ADMonitor DLL (recommended). See the [Upgrade ADMonitor](/docs/threatprevention/threatprevention/admin/agents/management/upgradeadmonitor.md)topic for additional information.
+Threat Prevention sends the _LSASS process terminated_ alert when the LSASS process stops shortly after a reboot. The Agent stops and all monitoring/blocking by that Agent stops. To resolve the issue, either upgrade to the latest version of the Agent or simply upgrade SI.ActiveDirectoryMonitor.dll - commonly known as ADMonitor DLL (recommended). See the [Upgrade ADMonitor](../admin/agents/management/upgradeadmonitor.md)topic for additional information.
 
-___RECOMMENDED:___  Activate an email notification for the _LSASS process terminated_ alert. See the [Enable the 'LSASS Process Terminated' Email Alert](/docs/threatprevention/threatprevention/troubleshooting/lsass.md#enable-the-lsass-process-terminated-email-alert) topic for additional information.
+___RECOMMENDED:___  Activate an email notification for the _LSASS process terminated_ alert. See the [Enable the 'LSASS Process Terminated' Email Alert](lsass.md#enable-the-lsass-process-terminated-email-alert) topic for additional information.
 
 FAQ: The user interface is not displaying correctly and windows are cut off. What should I do?
 
@@ -57,4 +57,4 @@ There are two streams of data with their own memory buffers: one for Active Dire
 
 FAQ: How can I prevent flooding the memory with authentication traffic?
 
-The options in the [Event Filtering Configuration Window](/docs/threatprevention/threatprevention/admin/configuration/eventfilteringconfiguration.md) provide administrators with a method of filtering out authentication event data from selected hosts and/or accounts. These options can be configured to ignore authentication traffic from sources known to be safe. This affects what gets sent to the Agent. It will have a direct impact on scalability for the organization’s environment.
+The options in the [Event Filtering Configuration Window](../admin/configuration/eventfilteringconfiguration.md) provide administrators with a method of filtering out authentication event data from selected hosts and/or accounts. These options can be configured to ignore authentication traffic from sources known to be safe. This affects what gets sent to the Agent. It will have a direct impact on scalability for the organization’s environment.

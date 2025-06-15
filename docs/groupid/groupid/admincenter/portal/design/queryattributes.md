@@ -10,16 +10,16 @@ For an identity store, you can choose whether all or specific schema attributes 
 
   The schema attributes you specify would be available to portal users on the Filter Criteria tab of the Query Designer for building Smart Group/Dynasty queries.
 
-  ![filter_criteria_tab](/img/product_docs/groupid/groupid/admincenter/portal/design/filter_criteria_tab.webp)
+  ![filter_criteria_tab](../../../../../../static/img/product_docs/groupid/groupid/admincenter/portal/design/filter_criteria_tab.webp)
 - The Sub-Manager Query Designer for a Recursive Managerial Dynasty, where you can specify a query for sub-manager selection.
 
-  ![submanagerquery](/img/product_docs/groupid/groupid/admincenter/portal/design/submanagerquery.webp)
+  ![submanagerquery](../../../../../../static/img/product_docs/groupid/groupid/admincenter/portal/design/submanagerquery.webp)
 - The __Add Attributes__ dialog box for Dynasties. The schema attributes you specify would be available in the _Group Items By_ field, which is used to divide the query results into groups. Directory Manager creates a new child group for each unique value of the attribute that users select in the _Group Items By_ field.
 
-  ![addattributes](/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/addattributes.webp)
+  ![addattributes](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/addattributes.webp)
 - The Query Designer for importing members to a group using an external data source. The specified schema attributes would be available on the Filter Criteria tab of the Query Designer for building membership import queries.  
   You can launch this Query Designer using the __Import__ button on the __Members__ tab in group properties (for static groups, Smart Groups and Dynasties).  
-  ![importmembers](/img/product_docs/groupid/groupid/admincenter/portal/design/importmembers.webp)
+  ![importmembers](../../../../../../static/img/product_docs/groupid/groupid/admincenter/portal/design/importmembers.webp)
 - The Query Designer for query-based search, where users can define a query to search the directory.  
   The schema attributes you specify would be available to portal users on the Filter Criteria tab of the Query Designer for building search queries.  
   Users can launch the Query Designer for searches from the portal’s Advanced Search page.
@@ -55,10 +55,10 @@ You can also specify the following for an attribute:
 7. Use the __Fields__ box to select one or more schema attributes. These attributes would be available in the portal, where users can use them for building Smart Group queries and other purposes.
 8. Use the __Display Name__ box to specify a user-friendly name for the attribute. The attribute would be displayed in the portal with this name.  
    This box is not available when multiple attributes have been selected.
-9. Select a security role in the __Visibility Level__ drop-down list. The attribute(s) would be visible to users of the selected role and roles with a priority value higher than the selected role. See [Priority](/docs/groupid/groupid/admincenter/securityrole/manage.md).  
+9. Select a security role in the __Visibility Level__ drop-down list. The attribute(s) would be visible to users of the selected role and roles with a priority value higher than the selected role. See [Priority](../../securityrole/manage.md).  
    Select _Never_ to hide the attribute(s) from all users.
 10. Use the __Display Type__ drop-down list to specify the display type to use for enabling users to provide a value for the attribute(s) in the portal. For example, you can select a text box, drop-down list, or DN as display type. In case of DN, users can search and select a directory object as value for the attribute.  
-    The list contains basic display types and custom display types defined on the __Custom Display Types__ page. See the [Display Type Categories](/docs/groupid/groupid/admincenter/portal/displaytype/categories.md) topic.  
+    The list contains basic display types and custom display types defined on the __Custom Display Types__ page. See the [Display Type Categories](../displaytype/categories.md) topic.  
     When multiple attributes are selected in the __Fields__ box, this display type applies to each of them. You can edit an attribute later to apply a different display type.
 11. In the __ToolTip Text__ box, enter the text to display when a user hovers the mouse over the attribute .
 
@@ -107,4 +107,4 @@ __To update attribute properties:__
 
 See Also
 
-- [Design a Portal with Display Types](/docs/groupid/groupid/admincenter/portal/displaytype/overview.md)
+- [Design a Portal with Display Types](../displaytype/overview.md)

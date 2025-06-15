@@ -12,7 +12,7 @@ Supported log management systems are:
 
 Typically, a Serilog configuration includes three parts: __MinimumLevel__, __Using__ and __WriteTo__. See the [
 Monitoring
-](/docs/usercube/usercube/integration-guide/monitoring/index.md) topic for additional information.
+](../../index.md) topic for additional information.
 
 ### Usercube's DSM in QRadar
 
@@ -20,7 +20,7 @@ Identity Manager's Device Support Module is a plug-in that allows your QRadar sy
 
 Logs can be sent into QRadar without using Identity Manager's DSM in QRadar, but the logs just won't be parsed. Not all Identity Manager's logs can be sent to QRadar. See the [
 References: Logs
-](/docs/usercube/usercube/integration-guide/monitoring/references/index.md) topic for additional information.
+](../../references/index.md) topic for additional information.
 
 In order to get Identity Manager's DSM, import from QRadar the ```Usercube_1.0.0.zip``` file, accessible in the ```Runtime``` folder. Identity Manager's DSM is set to automatically detect the source. This means that, once Serilog is configured to send logs to QRadar, performing a few actions in Identity Manager should make the detection possible.
 
@@ -28,7 +28,7 @@ In order to get Identity Manager's DSM, import from QRadar the ```Usercube_1.0.0
 
 Export logs to a log management system by proceeding as follows:
 
-1. In [Application Settings](/docs/usercube/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md) appsettings. json, make sure to have a __Serilog__ section:
+1. In [Application Settings](../../../network-configuration/agent-configuration/appsettings/index.md) appsettings. json, make sure to have a __Serilog__ section:
 
     ```
     
@@ -45,7 +45,7 @@ Export logs to a log management system by proceeding as follows:
 
 2. In the __Serilog__ section, add a __Using__ section to contain the used sink which depends on the logs' destination, output format, etc. See the list of supported [
    Monitoring
-   ](/docs/usercube/usercube/integration-guide/monitoring/index.md).
+   ](../../index.md).
 
    Concerning QRadar, Netwrix Identity Manager (formerly Usercube) strongly recommends using the JSON format, as it can be parsed by Identity Manager's DSM or easily by a homemade parser.
 
@@ -93,7 +93,7 @@ Export logs to a log management system by proceeding as follows:
 
    > For example, we can define the logs' minimum level to ```Information```. This way, all logs from the [
    > References: Logs
-   > ](/docs/usercube/usercube/integration-guide/monitoring/references/index.md) with ```Information``` level or higher are sent.
+   > ](../../references/index.md) with ```Information``` level or higher are sent.
    >
    > ```
    >
@@ -225,13 +225,13 @@ Export logs to a log management system by proceeding as follows:
    > ```
 5. When needing to restrict the logs sent to the system, add a filter and wrap all __WriteTo__ configuration into a sub-logger, in which case the __Name__ at __WriteTo__'s root must be ```Logger```. See the [
    Monitoring
-   ](/docs/usercube/usercube/integration-guide/monitoring/index.md) topic for additional information.
+   ](../../index.md) topic for additional information.
 
    For all formats, in order to send only the right logs using the specified filter, the __WriteTo__ part must contain a sub-logger with its own filter. Otherwise, the filter will be applied to all sinks.
      
    For example, among Identity Manager's logs, only the logs described in the e [
    References: Logs
-   ](/docs/usercube/usercube/integration-guide/monitoring/references/index.md) can be parsed by QRadar's DSM and should be used by a SIEM system. Hence the importance of having a filter and a sub-logger.
+   ](../../references/index.md) can be parsed by QRadar's DSM and should be used by a SIEM system. Hence the importance of having a filter and a sub-logger.
 
    Never include logs with event ids inferior to 500, in order not to be overwhelmed with logs improper to be used by SIEM systems like QRadar.
 
