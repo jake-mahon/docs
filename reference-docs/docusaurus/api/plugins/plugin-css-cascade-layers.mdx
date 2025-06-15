@@ -5,7 +5,7 @@ slug: /api/plugins/@docusaurus/plugin-css-cascade-layers
 
 # 📦 plugin-css-cascade-layers
 
-import APITable from '@site/src/components/APITable'
+import APITable from '@site/src/components/APITable';
 
 :::caution Experimental
 
@@ -62,7 +62,7 @@ Accepted fields:
 type Layers = Record<
   string, // layer name
   (filePath: string) => boolean // layer matcher
->
+>;
 ```
 
 The `layers` object is defined by:
@@ -90,5 +90,5 @@ const options = {
     'docusaurus.theme-classic': (filePath) =>
       filePath.includes('/node_modules/@docusaurus/theme-classic/lib'),
   },
-}
+};
 ```

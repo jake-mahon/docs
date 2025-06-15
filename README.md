@@ -133,6 +133,137 @@ The deployment process runs `npm run build` and serves the generated static file
 - **Memory allocation**: Increased to 8GB for large documentation builds
 - **Browser support**: Modern browsers (see `browserslist` in package.json)
 
+## Homepage Maintenance Guide
+
+The homepage features several dynamic components that can be easily customized. Here's how to maintain and update them:
+
+### Adding New Products to the Homepage
+
+Products are organized into categories and displayed on the homepage. To add a new product:
+
+1. **Navigate to**: `src/components/HomepageFeatures/index.js`
+2. **Find the `ProductCategories` array** (around line 39)
+3. **Choose the appropriate category** or create a new one
+4. **Add your product** following this structure:
+   ```javascript
+   {
+     name: 'Product Name',
+     description: 'Brief description of what the product does',
+     link: '/docs/productname', // Must match your docs folder
+   }
+   ```
+
+**Example - Adding a new product to Security Administration:**
+```javascript
+{
+  name: 'New Security Tool',
+  description: 'Advanced threat detection and response',
+  link: '/docs/newsecuritytool',
+}
+```
+
+**To create a new category:**
+```javascript
+{
+  title: 'New Category Name',
+  description: 'Category description',
+  icon: '🔒', // Choose an appropriate emoji
+  products: [
+    // Add products here
+  ],
+}
+```
+
+### Customizing the Animated Title
+
+The homepage features a typewriter effect with rotating titles. To customize:
+
+1. **Navigate to**: `src/components/HomepageFeatures/index.js`
+2. **Find the `SECTION_TITLES` array** (around line 15)
+3. **Add/remove/edit titles** as needed:
+   ```javascript
+   const SECTION_TITLES = [
+     "Your New Title Here",
+     "Another Creative Title",
+     "Mix Professional and Fun Titles",
+   ]
+   ```
+
+**Animation settings:**
+- Type speed: 60ms per character
+- Backspace speed: 30ms per character  
+- Pause duration: 2 seconds between titles
+- Loops infinitely with a blinking cursor
+
+### Managing Community Topics
+
+The community carousel fetches live data from Discourse but can be customized:
+
+#### Changing Topic Selection Criteria
+
+1. **Navigate to**: `src/components/CommunityHighlights/index.js`
+2. **Find the engagement scoring logic** (around line 110):
+   ```javascript
+   const scoreA = (a.like_count || 0) * 10 + (a.views || 0) * 0.1 + (a.posts_count || 0) * 2
+   ```
+3. **Adjust the multipliers** to change topic prioritization:
+   - `likes × 10`: High weight for liked topics
+   - `views × 0.1`: Low weight for view count
+   - `posts × 2`: Medium weight for discussion activity
+
+#### Adding New Product Tags
+
+To recognize new products in community topics:
+
+1. **Navigate to**: `src/components/CommunityHighlights/index.js`
+2. **Find the `PRODUCT_TAGS` array** (around line 13)
+3. **Add new tags** in lowercase, hyphenated format:
+   ```javascript
+   const PRODUCT_TAGS = [
+     // existing tags...
+     'new-product-name',
+     'another-product',
+   ]
+   ```
+
+#### Customizing Carousel Behavior
+
+**Timing settings** (around line 158):
+- `delay: 10000`: 10 seconds between slides
+- `speed: 800`: 1.8 seconds for slide transition
+
+**To change these:**
+```javascript
+const interval = setInterval(() => {
+  // Change slide logic
+}, 10000) // Change this number (milliseconds)
+```
+
+**Transition speed** in CSS (`src/components/CommunityHighlights/styles.module.css`):
+```css
+.carouselTrack {
+  transition: transform 1.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+```
+
+### Other Customizations
+
+#### Updating the Hero Section
+
+1. **Navigate to**: `src/pages/index.js`
+2. **Find the `HomepageHeader` function** (around line 10)
+3. **Update title, subtitle, or button text**:
+   ```javascript
+   <h1 className={styles.heroTitle}>Your New Title</h1>
+   <p className={styles.heroSubtitle}>Your new subtitle</p>
+   ```
+
+#### Styling Changes
+
+- **Global styles**: `src/css/custom.css`
+- **Component styles**: Each component has its own `.module.css` file
+- **Homepage styles**: `src/pages/index.module.css`
+
 ## Contributing
 
 1. Make changes to the appropriate documentation files

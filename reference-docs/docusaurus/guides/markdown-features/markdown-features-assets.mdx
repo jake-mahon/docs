@@ -6,9 +6,9 @@ slug: /markdown-features/assets
 
 # Assets
 
-import BrowserWindow from '@site/src/components/BrowserWindow'
-import Tabs from '@theme/Tabs'
-import TabItem from '@theme/TabItem'
+import BrowserWindow from '@site/src/components/BrowserWindow';
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
 Sometimes you want to link to assets (e.g. docx files, images...) directly from Markdown files, and it is convenient to co-locate the asset next to the Markdown file using it.
 
@@ -57,8 +57,8 @@ Display images using inline CommonJS `require` in JSX image tag:
 Display images using ES `import` syntax and JSX image tag:
 
 ```jsx
-import myImageUrl from './assets/docusaurus-asset-example-banner.png'
-;<img src={myImageUrl} alt="Example banner" />
+import myImageUrl from './assets/docusaurus-asset-example-banner.png';
+<img src={myImageUrl} alt="Example banner" />;
 ```
 
 ```mdx-code-block
@@ -115,13 +115,13 @@ If you use the Markdown image or link syntax, all asset paths will be resolved a
 Docusaurus supports inlining SVGs out of the box.
 
 ```jsx
-import DocusaurusSvg from './docusaurus.svg'
-;<DocusaurusSvg />
+import DocusaurusSvg from './docusaurus.svg';
+<DocusaurusSvg />;
 ```
 
 <BrowserWindow>
 
-import DocusaurusSvg from '@site/static/img/docusaurus.svg'
+import DocusaurusSvg from '@site/static/img/docusaurus.svg';
 
 <DocusaurusSvg />
 
@@ -130,8 +130,8 @@ import DocusaurusSvg from '@site/static/img/docusaurus.svg'
 This can be useful if you want to alter the part of the SVG image via CSS. For example, you can change one of the SVG colors based on the current theme.
 
 ```jsx
-import DocusaurusSvg from './docusaurus.svg'
-;<DocusaurusSvg className="themedDocusaurus" />
+import DocusaurusSvg from './docusaurus.svg';
+<DocusaurusSvg className="themedDocusaurus" />;
 ```
 
 ```css
@@ -153,9 +153,9 @@ import DocusaurusSvg from './docusaurus.svg'
 Docusaurus supports themed images: the `ThemedImage` component (included in the themes) allows you to switch the image source based on the current theme.
 
 ```jsx
-import useBaseUrl from '@docusaurus/useBaseUrl'
-import ThemedImage from '@theme/ThemedImage'
-;<ThemedImage
+import useBaseUrl from '@docusaurus/useBaseUrl';
+import ThemedImage from '@theme/ThemedImage';
+<ThemedImage
   alt="Docusaurus themed image"
   // highlight-start
   sources={{
@@ -163,7 +163,7 @@ import ThemedImage from '@theme/ThemedImage'
     dark: useBaseUrl('/img/docusaurus_dark.svg'),
   }}
   // highlight-end
-/>
+/>;
 ```
 
 ```mdx-code-block

@@ -61,7 +61,7 @@ Putting potentially sensitive information in the environment is common practice.
 
 ```js title="docusaurus.config.js"
 // If you are using dotenv (https://www.npmjs.com/package/dotenv)
-import 'dotenv/config'
+import 'dotenv/config';
 
 export default {
   title: '...',
@@ -72,17 +72,17 @@ export default {
     teamEmail: process.env.EMAIL,
   },
   // highlight-end
-}
+};
 ```
 
 ```jsx title="home.jsx"
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 
 export default function Home() {
   const {
     siteConfig: { customFields },
-  } = useDocusaurusContext()
-  return <div>Contact us through {customFields.teamEmail}!</div>
+  } = useDocusaurusContext();
+  return <div>Contact us through {customFields.teamEmail}!</div>;
 }
 ```
 
@@ -161,7 +161,7 @@ export default {
   baseUrl: '/', // Base directory of your site relative to your repo
   // highlight-end
   // ...
-}
+};
 ```
 
 Then, [create your site with Netlify](https://app.netlify.com/start).
@@ -271,7 +271,7 @@ export default {
   trailingSlash: false,
   // highlight-end
   // ...
-}
+};
 ```
 
 :::warning

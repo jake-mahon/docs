@@ -23,7 +23,7 @@ export default {
     'Category A': ['doc1', 'doc2'],
   },
   apiSidebar: ['doc3', 'doc4'],
-}
+};
 ```
 
 When browsing `doc1` or `doc2`, the `tutorialSidebar` will be displayed; when browsing `doc3` or `doc4`, the `apiSidebar` will be displayed.
@@ -38,7 +38,7 @@ export default {
     'Category A': ['doc1', 'doc2', 'commonDoc'],
   },
   apiSidebar: ['doc3', 'doc4', 'commonDoc'],
-}
+};
 ```
 
 How does Docusaurus know which sidebar to display when browsing `commonDoc`? Answer: it doesn't, and we don't guarantee which sidebar it will pick.
@@ -56,7 +56,7 @@ export default {
     'Category A': ['doc1', 'doc2'],
   },
   apiSidebar: ['doc3', 'doc4'],
-}
+};
 ```
 
 And then add a front matter:
@@ -96,7 +96,7 @@ export default {
     },
     'getting-started',
   ],
-}
+};
 ```
 
 The pagination next link on "windows" points to "linux", but that doesn't make sense: you would want readers to proceed to "getting started" after installation. In this case, you can set the pagination manually:
@@ -134,7 +134,7 @@ export default {
     ],
   },
   apiSidebar: ['doc3', 'doc4', 'commonDoc'],
-}
+};
 ```
 
 You can think of the `ref` type as the equivalent to doing the following:

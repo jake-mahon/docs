@@ -148,7 +148,7 @@ module.exports = {
       },
     ],
   ],
-}
+};
 ```
 
 We recommend moving the `docs` folder into the `website` folder and that is also the default directory structure in v2. [Vercel](https://vercel.com) supports [Docusaurus project deployments out-of-the-box](https://github.com/vercel/vercel/tree/main/examples/docusaurus) if the `docs` directory is within the `website`. It is also generally better for the docs to be within the website so that the docs and the rest of the website code are co-located within one `website` directory.
@@ -180,7 +180,7 @@ module.exports = {
       },
     ],
   ],
-}
+};
 ```
 
 Infima uses 7 shades of each color.
@@ -205,7 +205,7 @@ We recommend using [ColorBox](https://www.colorbox.io/) to find the different sh
 
 Alternatively, use the following tool to generate the different shades for your website and copy the variables into `src/css/custom.css`.
 
-import ColorGenerator from '@site/src/components/ColorGenerator'
+import ColorGenerator from '@site/src/components/ColorGenerator';
 
 <ColorGenerator />
 
@@ -228,7 +228,7 @@ module.exports = {
     image: 'img/docusaurus.png',
     // ...
   },
-}
+};
 ```
 
 #### `headerIcon`, `headerLinks` {#headericon-headerlinks}
@@ -270,7 +270,7 @@ module.exports = {
     },
     // ...
   },
-}
+};
 ```
 
 #### `algolia` {#algolia}
@@ -315,7 +315,7 @@ module.exports = {
       },
     ],
   ],
-}
+};
 ```
 
 #### `cname` {#cname}
@@ -354,7 +354,7 @@ module.exports = {
       },
     ],
   ],
-}
+};
 ```
 
 #### `gaTrackingId` {#gatrackingid}
@@ -375,7 +375,7 @@ module.exports = {
       },
     ],
   ],
-}
+};
 ```
 
 #### `gaGtag` {#gagtag}
@@ -396,7 +396,7 @@ module.exports = {
       },
     ],
   ],
-}
+};
 ```
 
 ### Removed fields {#removed-fields}
@@ -463,7 +463,7 @@ module.exports = {
       },
     ],
   ],
-}
+};
 ```
 
 If you want to keep the `.html` extension as the canonical URL of a page, docs can declare a `slug: installation.html` front matter.
@@ -509,7 +509,7 @@ module.exports = {
       },
     },
   },
-}
+};
 ```
 
 ### Pages {#pages}
@@ -529,13 +529,13 @@ You can migrate CommonJS to ES6 imports/exports.
 Here's a typical Docusaurus v2 page:
 
 ```jsx
-import React from 'react'
-import Link from '@docusaurus/Link'
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
-import Layout from '@theme/Layout'
+import React from 'react';
+import Link from '@docusaurus/Link';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import Layout from '@theme/Layout';
 
 const MyPage = () => {
-  const { siteConfig } = useDocusaurusContext()
+  const { siteConfig } = useDocusaurusContext();
   return (
     <Layout title={siteConfig.title} description={siteConfig.tagline}>
       <div className="hero text--center">
@@ -555,10 +555,10 @@ const MyPage = () => {
         </div>
       </div>
     </Layout>
-  )
-}
+  );
+};
 
-export default MyPage
+export default MyPage;
 ```
 
 The following code could be helpful for migration of various pages:

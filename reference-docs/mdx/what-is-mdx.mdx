@@ -1,4 +1,4 @@
-import { Note } from '../_component/note.jsx'
+import { Note } from '../_component/note.jsx';
 
 export const info = {
   author: [
@@ -7,8 +7,8 @@ export const info = {
   ],
   modified: new Date('2025-01-27'),
   published: new Date('2018-08-11'),
-}
-export const navSortSelf = 1
+};
+export const navSortSelf = 1;
 
 # What is MDX?
 
@@ -133,7 +133,7 @@ A paragraph, introducing a thematic break:
 ---
 
 ```js
-some.code()
+some.code();
 ```
 
 a [link](https://example.com), an ![image](./image.png), some _emphasis_,
@@ -261,9 +261,9 @@ MDX supports `import` and `export` statements from JavaScript as well.
 These ESM features can be used within MDX to define things:
 
 ```mdx
-import { External } from './some/place.js'
+import { External } from './some/place.js';
 
-export const Local = (properties) => <span style={{ color: 'red' }} {...properties} />
+export const Local = (properties) => <span style={{ color: 'red' }} {...properties} />;
 
 An <External>external</External> component and a <Local>local one</Local>.
 ```
@@ -271,9 +271,9 @@ An <External>external</External> component and a <Local>local one</Local>.
 ESM can also be used for non-components (data):
 
 ```mdx
-import { Chart } from './chart.js'
-import population from './population.js'
-export const pi = 3.14
+import { Chart } from './chart.js';
+import population from './population.js';
+export const pi = 3.14;
 
 <Chart data={population} label={'Something with ' + pi} />
 ```

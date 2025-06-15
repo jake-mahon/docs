@@ -4,7 +4,7 @@ description: Configuring your site's behavior through docusaurus.config.js and m
 
 # Configuration
 
-import TOCInline from '@theme/TOCInline'
+import TOCInline from '@theme/TOCInline';
 
 :::info
 
@@ -45,7 +45,7 @@ export default {
   title: 'Docusaurus',
   url: 'https://docusaurus.io',
   // your site config ...
-}
+};
 ```
 
 ```js title="docusaurus.config.js"
@@ -53,17 +53,17 @@ module.exports = {
   title: 'Docusaurus',
   url: 'https://docusaurus.io',
   // your site config ...
-}
+};
 ```
 
 ```ts title="docusaurus.config.ts"
-import type { Config } from '@docusaurus/types'
+import type { Config } from '@docusaurus/types';
 
 export default {
   title: 'Docusaurus',
   url: 'https://docusaurus.io',
   // your site config ...
-} satisfies Config
+} satisfies Config;
 ```
 
 ```js title="docusaurus.config.js"
@@ -71,9 +71,9 @@ const config = {
   title: 'Docusaurus',
   url: 'https://docusaurus.io',
   // your site config ...
-}
+};
 
-export default config
+export default config;
 ```
 
 ```js title="docusaurus.config.js"
@@ -82,7 +82,7 @@ export default function configCreator() {
     title: 'Docusaurus',
     url: 'https://docusaurus.io',
     // your site config ...
-  }
+  };
 }
 ```
 
@@ -92,7 +92,7 @@ export default async function createConfigAsync() {
     title: 'Docusaurus',
     url: 'https://docusaurus.io',
     // your site config ...
-  }
+  };
 }
 ```
 
@@ -104,13 +104,13 @@ Using an async config creator can be useful to import ESM-only modules (notably 
 export default async function createConfigAsync() {
   // Use a dynamic import instead of require('esm-lib')
   // highlight-next-line
-  const lib = await import('lib')
+  const lib = await import('lib');
 
   return {
     title: 'Docusaurus',
     url: 'https://docusaurus.io',
     // rest of your site config...
-  }
+  };
 }
 ```
 
@@ -147,7 +147,7 @@ export default {
   // ...
   plugins: ['@docusaurus/plugin-content-blog', '@docusaurus/plugin-content-pages'],
   themes: ['@docusaurus/theme-classic'],
-}
+};
 ```
 
 :::tip
@@ -159,7 +159,7 @@ export default {
   // ...
   plugins: ['content-blog', 'content-pages'],
   themes: ['classic'],
-}
+};
 ```
 
 :::
@@ -167,12 +167,12 @@ export default {
 They can also be loaded from local directories:
 
 ```js title="docusaurus.config.js"
-import path from 'path'
+import path from 'path';
 
 export default {
   // ...
   themes: [path.resolve(__dirname, '/path/to/docusaurus-local-theme')],
-}
+};
 ```
 
 To specify options for a plugin or theme, replace the name of the plugin or theme in the config file with an array containing the name and an options object:
@@ -192,7 +192,7 @@ export default {
     ],
     'content-pages',
   ],
-}
+};
 ```
 
 To specify options for a plugin or theme that is bundled in a preset, pass the options through the `presets` field. In this example, `docs` refers to `@docusaurus/plugin-content-docs` and `theme` refers to `@docusaurus/theme-classic`.
@@ -213,7 +213,7 @@ export default {
       },
     ],
   ],
-}
+};
 ```
 
 :::tip
@@ -240,7 +240,7 @@ export default {
   },
   // highlight-end
   // ...
-}
+};
 ```
 
 ## Accessing configuration from components {#accessing-configuration-from-components}
@@ -250,18 +250,18 @@ Your configuration object will be made available to all the components of your s
 Basic example:
 
 ```jsx
-import React from 'react'
+import React from 'react';
 // highlight-next-line
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 
 const Hello = () => {
   // highlight-start
-  const { siteConfig } = useDocusaurusContext()
+  const { siteConfig } = useDocusaurusContext();
   // highlight-end
-  const { title, tagline } = siteConfig
+  const { title, tagline } = siteConfig;
 
-  return <div>{`${title} · ${tagline}`}</div>
-}
+  return <div>{`${title} · ${tagline}`}</div>;
+};
 ```
 
 :::tip
@@ -285,7 +285,7 @@ Then use the preset in your `babel.config.js` file:
 ```js title="babel.config.js"
 export default {
   presets: ['@docusaurus/babel/preset'],
-}
+};
 ```
 
 Most of the time, the default preset configuration will work just fine. If you want to customize your Babel configuration (e.g. to add support for Flow), you can directly edit this file. For your changes to take effect, you need to restart the Docusaurus dev server.

@@ -6,10 +6,10 @@ slug: /markdown-features/admonitions
 
 # Admonitions
 
-import BrowserWindow from '@site/src/components/BrowserWindow'
-import Tabs from '@theme/Tabs'
-import TabItem from '@theme/TabItem'
-import Admonition from '@theme/Admonition'
+import BrowserWindow from '@site/src/components/BrowserWindow';
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import Admonition from '@theme/Admonition';
 
 In addition to the basic Markdown syntax, we have a special admonitions syntax by wrapping text with a set of 3 colons, followed by a label denoting its type.
 
@@ -218,7 +218,7 @@ import TabItem from '@theme/TabItem';
 Outside of Markdown, you can use the `@theme/Admonition` component to get the same output.
 
 ```jsx title="MyReactPage.jsx"
-import Admonition from '@theme/Admonition'
+import Admonition from '@theme/Admonition';
 
 export default function MyReactPage() {
   return (
@@ -227,7 +227,7 @@ export default function MyReactPage() {
         <p>Some information</p>
       </Admonition>
     </div>
-  )
+  );
 }
 ```
 
@@ -257,15 +257,15 @@ There are two kinds of customizations possible with admonitions: **parsing** and
 You can customize how each individual admonition type is rendered through [swizzling](../../swizzling.mdx). You can often achieve your goal through a simple wrapper. For example, in the follow example, we swap out the icon for `info` admonitions only.
 
 ```jsx title="src/theme/Admonition.js"
-import React from 'react'
-import Admonition from '@theme-original/Admonition'
-import MyCustomNoteIcon from '@site/static/img/info.svg'
+import React from 'react';
+import Admonition from '@theme-original/Admonition';
+import MyCustomNoteIcon from '@site/static/img/info.svg';
 
 export default function AdmonitionWrapper(props) {
   if (props.type !== 'info') {
-    return <Admonition title="My Custom Admonition Title" {...props} />
+    return <Admonition title="My Custom Admonition Title" {...props} />;
   }
-  return <Admonition icon={<MyCustomNoteIcon />} {...props} />
+  return <Admonition icon={<MyCustomNoteIcon />} {...props} />;
 }
 ```
 
@@ -288,7 +288,7 @@ export default {
       },
     ],
   ],
-}
+};
 ```
 
 The plugin accepts the following options:
@@ -321,14 +321,14 @@ export default {
       },
     ],
   ],
-}
+};
 ```
 
 You can provide the corresponding React component for `:::my-custom-admonition` by creating the following file (unfortunately, since it's not a React component file, it's not swizzlable):
 
 ```js title="src/theme/Admonition/Types.js"
-import React from 'react'
-import DefaultAdmonitionTypes from '@theme-original/Admonition/Types'
+import React from 'react';
+import DefaultAdmonitionTypes from '@theme-original/Admonition/Types';
 
 function MyCustomAdmonition(props) {
   return (
@@ -336,7 +336,7 @@ function MyCustomAdmonition(props) {
       <h5 style={{ color: 'blue', fontSize: 30 }}>{props.title}</h5>
       <div>{props.children}</div>
     </div>
-  )
+  );
 }
 
 const AdmonitionTypes = {
@@ -345,9 +345,9 @@ const AdmonitionTypes = {
   // Add all your custom admonition types here...
   // You can also override the default ones if you want
   'my-custom-admonition': MyCustomAdmonition,
-}
+};
 
-export default AdmonitionTypes
+export default AdmonitionTypes;
 ```
 
 Now you can use your new admonition keyword in a Markdown file, and it will be parsed and rendered with your custom logic:

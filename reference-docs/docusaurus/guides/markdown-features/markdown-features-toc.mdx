@@ -4,7 +4,7 @@ description: Customizing headings and table-of-contents in Markdown
 slug: /markdown-features/toc
 ---
 
-import BrowserWindow from '@site/src/components/BrowserWindow'
+import BrowserWindow from '@site/src/components/BrowserWindow';
 
 # Headings and Table of contents
 
@@ -85,7 +85,7 @@ export default {
       // highlight-end
     },
   },
-}
+};
 ```
 
 If you've set the options globally, you can still override them locally via front matter.
@@ -121,10 +121,10 @@ The `toc` global is just a list of heading items:
 
 ```ts
 declare const toc: {
-  value: string
-  id: string
-  level: number
-}[]
+  value: string;
+  id: string;
+  level: number;
+}[];
 ```
 
 Note that the `toc` global is a flat array, so you can easily cut out unwanted nodes or insert extra nodes, and create a new TOC tree.

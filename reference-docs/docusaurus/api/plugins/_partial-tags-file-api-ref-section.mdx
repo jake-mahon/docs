@@ -18,12 +18,12 @@ The YAML content of the provided tags file should respect the following shape:
 
 ```tsx
 type Tag = {
-  label?: string // Tag display label
-  permalink?: string // Tag URL pathname segment
-  description?: string // Tag description displayed in the tag page
-}
+  label?: string; // Tag display label
+  permalink?: string; // Tag URL pathname segment
+  description?: string; // Tag description displayed in the tag page
+};
 
-type TagsFileInput = Record<string, Partial<Tag> | null>
+type TagsFileInput = Record<string, Partial<Tag> | null>;
 ```
 
 ### Example {#tags-file-example}

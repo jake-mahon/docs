@@ -1,8 +1,41 @@
-import clsx from 'clsx'
-import Heading from '@theme/Heading'
-import styles from './styles.module.css'
-import Link from '@docusaurus/Link'
+import clsx from 'clsx';
+import Heading from '@theme/Heading';
+import styles from './styles.module.css';
+import Link from '@docusaurus/Link';
+import { ReactTyped } from 'react-typed';
 
+/**
+ * Rotating section titles with typewriter effect
+ *
+ * To customize the titles:
+ * 1. Add/remove/edit titles in this array
+ * 2. Mix professional and fun IT/gamer terminology as desired
+ * 3. Animation settings: 60ms type speed, 30ms backspace, 2s pause
+ */
+const SECTION_TITLES = [
+  'Explore Security Solutions',
+  'Your Security Adventure Starts Here',
+  'Initialize Your Security Journey',
+  'Level Up Your Security Game',
+  'Spawn the Perfect Security Setup',
+  'Craft Your Security Loadout',
+  'Queue Up Better Security',
+  'Respawn with Stronger Defenses',
+];
+
+/**
+ * Product categories and their associated products for the homepage
+ *
+ * To add a new product:
+ * 1. Find the appropriate category or create a new one
+ * 2. Add the product object with: name, description, link
+ * 3. Link should match the docs URL structure: '/docs/productname'
+ *
+ * To add a new category:
+ * 1. Add a new object with: title, description, icon, products[]
+ * 2. Choose an appropriate emoji icon
+ * 3. Add products following the same structure
+ */
 const ProductCategories = [
   {
     title: 'Security Administration',
@@ -147,8 +180,12 @@ const ProductCategories = [
       },
     ],
   },
-]
+];
 
+/**
+ * Renders a single product category with its products
+ * Displays category info and a grid of product cards
+ */
 function ProductCategory({ title, description, icon, products }) {
   return (
     <div className={styles.categorySection}>
@@ -171,16 +208,28 @@ function ProductCategory({ title, description, icon, products }) {
         ))}
       </div>
     </div>
-  )
+  );
 }
 
+/**
+ * Main homepage features section
+ * Displays animated title and all product categories
+ */
 export default function HomepageFeatures() {
   return (
     <section id="products" className={styles.features}>
       <div className="container">
         <div className={styles.sectionHeader}>
           <Heading as="h2" className={styles.sectionTitle}>
-            Choose Your Security Solution
+            <ReactTyped
+              strings={SECTION_TITLES}
+              typeSpeed={60}
+              backSpeed={30}
+              backDelay={2000}
+              loop
+              showCursor={true}
+              cursorChar="|"
+            />
           </Heading>
           <p className={styles.sectionSubtitle}>
             Explore our comprehensive security products organized by your specific needs and use
@@ -194,5 +243,5 @@ export default function HomepageFeatures() {
         </div>
       </div>
     </section>
-  )
+  );
 }

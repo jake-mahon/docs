@@ -5,7 +5,7 @@ slug: /api/plugins/@docusaurus/plugin-sitemap
 
 # 📦 plugin-sitemap
 
-import APITable from '@site/src/components/APITable'
+import APITable from '@site/src/components/APITable';
 
 This plugin creates sitemaps for your site so that search engine crawlers can crawl your site more accurately.
 
@@ -56,10 +56,10 @@ Accepted fields:
 
 ```ts
 type CreateSitemapItemsFn = (params: {
-  siteConfig: DocusaurusConfig
-  routes: RouteConfig[]
-  defaultCreateSitemapItems: CreateSitemapItemsFn
-}) => Promise<SitemapItem[]>
+  siteConfig: DocusaurusConfig;
+  routes: RouteConfig[];
+  defaultCreateSitemapItems: CreateSitemapItemsFn;
+}) => Promise<SitemapItem[]>;
 ```
 
 :::info
@@ -100,11 +100,11 @@ const config = {
   ignorePatterns: ['/tags/**'],
   filename: 'sitemap.xml',
   createSitemapItems: async (params) => {
-    const { defaultCreateSitemapItems, ...rest } = params
-    const items = await defaultCreateSitemapItems(rest)
-    return items.filter((item) => !item.url.includes('/page/'))
+    const { defaultCreateSitemapItems, ...rest } = params;
+    const items = await defaultCreateSitemapItems(rest);
+    return items.filter((item) => !item.url.includes('/page/'));
   },
-}
+};
 ```
 
 You can find your sitemap at `/sitemap.xml`.

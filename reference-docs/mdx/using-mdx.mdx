@@ -1,11 +1,11 @@
-import { Note } from '../_component/note.jsx'
+import { Note } from '../_component/note.jsx';
 
 export const info = {
   author: [{ github: 'wooorm', name: 'Titus Wormer' }],
   modified: new Date('2025-01-27'),
   published: new Date('2021-09-30'),
-}
-export const navSortSelf = 3
+};
+export const navSortSelf = 3;
 
 # Using MDX
 
@@ -31,7 +31,7 @@ Say we have an MDX document, `example.mdx`:
 
 ```mdx path="input.mdx"
 export function Thing() {
-  return <>World</>
+  return <>World</>;
 }
 
 # Hello <Thing />
@@ -45,7 +45,7 @@ The below might help to form a mental model:
 /* @jsxImportSource react */
 
 export function Thing() {
-  return <>World</>
+  return <>World</>;
 }
 
 export default function MDXContent() {
@@ -53,7 +53,7 @@ export default function MDXContent() {
     <h1>
       Hello <Thing />
     </h1>
-  )
+  );
 }
 ```
 
@@ -68,22 +68,22 @@ The _actual_ output is:
 
 ```js twoslash path="output-actual.js"
 // @noErrors
-import { Fragment as _Fragment, jsx as _jsx, jsxs as _jsxs } from 'react/jsx-runtime'
+import { Fragment as _Fragment, jsx as _jsx, jsxs as _jsxs } from 'react/jsx-runtime';
 
 export function Thing() {
-  return _jsx(_Fragment, { children: 'World' })
+  return _jsx(_Fragment, { children: 'World' });
 }
 
 function _createMdxContent(props) {
-  const _components = { h1: 'h1', ...props.components }
-  return _jsxs(_components.h1, { children: ['Hello ', _jsx(Thing, {})] })
+  const _components = { h1: 'h1', ...props.components };
+  return _jsxs(_components.h1, { children: ['Hello ', _jsx(Thing, {})] });
 }
 
 export default function MDXContent(props = {}) {
-  const { wrapper: MDXLayout } = props.components || {}
+  const { wrapper: MDXLayout } = props.components || {};
   return MDXLayout
     ? _jsx(MDXLayout, { ...props, children: _jsx(_createMdxContent, { ...props }) })
-    : _createMdxContent(props)
+    : _createMdxContent(props);
 }
 ```
 
@@ -136,7 +136,7 @@ Take this example:
 
 ```mdx path="example.mdx"
 export function Thing() {
-  return <>World</>
+  return <>World</>;
 }
 
 # Hello <Thing />
@@ -173,8 +173,8 @@ In [§ What is MDX][what], we showed that JavaScript expressions, inside curly
 braces, can be used in MDX:
 
 ```mdx path="example.mdx"
-import { year } from './data.js'
-export const name = 'world'
+import { year } from './data.js';
+export const name = 'world';
 
 # Hello {name.toUpperCase()}
 
@@ -251,7 +251,7 @@ You don’t have to pass components.
 You can also define or import them within MDX:
 
 ```mdx path="example.mdx"
-import { Box, Heading } from 'rebass'
+import { Box, Heading } from 'rebass';
 
 MDX using imported components!
 
@@ -263,8 +263,8 @@ MDX using imported components!
 Because MDX files _are_ components, they can also import each other:
 
 ```mdx path="example.mdx"
-import License from './license.md' // Assumes an integration is used to compile markdown -> JS.
-import Contributing from './docs/contributing.mdx'
+import License from './license.md'; // Assumes an integration is used to compile markdown -> JS.
+import Contributing from './docs/contributing.mdx';
 
 # Hello world
 
@@ -412,7 +412,7 @@ A layout can be defined from within MDX using a default export:
 
 ```mdx
 export default function Layout({ children }) {
-  return <main>{children}</main>
+  return <main>{children}</main>;
 }
 
 All the things.
@@ -475,8 +475,8 @@ cumbersome.
 Like so:
 
 ```mdx path="post.mdx"
-import License from './license.md' // Assumes an integration is used to compile markdown -> JS.
-import Contributing from './docs/contributing.mdx'
+import License from './license.md'; // Assumes an integration is used to compile markdown -> JS.
+import Contributing from './docs/contributing.mdx';
 
 # Hello world
 

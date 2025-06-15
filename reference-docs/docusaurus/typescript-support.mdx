@@ -46,8 +46,8 @@ Now you can start writing TypeScript theme components.
 It is possible to use a TypeScript config file in Docusaurus.
 
 ```ts title="docusaurus.config.ts"
-import type { Config } from '@docusaurus/types'
-import type * as Preset from '@docusaurus/preset-classic'
+import type { Config } from '@docusaurus/types';
+import type * as Preset from '@docusaurus/preset-classic';
 
 // highlight-next-line
 const config: Config = {
@@ -70,9 +70,9 @@ const config: Config = {
     /* Your theme config here */
     // highlight-next-line
   } satisfies Preset.ThemeConfig,
-}
+};
 
-export default config
+export default config;
 ```
 
 <details>
@@ -114,9 +114,9 @@ const config = {
         /* Your theme config here */
       }
     ),
-}
+};
 
-export default config
+export default config;
 ```
 
 </details>

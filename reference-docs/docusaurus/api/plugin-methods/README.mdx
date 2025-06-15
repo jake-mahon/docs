@@ -25,12 +25,12 @@ The plugin module's default export is a constructor function with the signature 
 
 ```ts
 type LoadContext = {
-  siteDir: string
-  generatedFilesDir: string
-  siteConfig: DocusaurusConfig
-  outDir: string
-  baseUrl: string
-}
+  siteDir: string;
+  generatedFilesDir: string;
+  siteConfig: DocusaurusConfig;
+  outDir: string;
+  baseUrl: string;
+};
 ```
 
 ### `options` {#options}
@@ -129,16 +129,16 @@ export default async function myPlugin(context, opts) {
     async getDefaultCodeTranslationMessages() {
       // return default theme translations here
     },
-  }
+  };
 }
 
 export function validateOptions({ options, validate }) {
-  const validatedOptions = validate(myValidationSchema, options)
-  return validatedOptions
+  const validatedOptions = validate(myValidationSchema, options);
+  return validatedOptions;
 }
 
 export function validateThemeConfig({ themeConfig, validate }) {
-  const validatedThemeConfig = validate(myValidationSchema, options)
-  return validatedThemeConfig
+  const validatedThemeConfig = validate(myValidationSchema, options);
+  return validatedThemeConfig;
 }
 ```

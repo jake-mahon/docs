@@ -4,8 +4,8 @@ description: Deploy a full-featured blog in no time with Docusaurus.
 
 # Blog
 
-import Tabs from '@theme/Tabs'
-import TabItem from '@theme/TabItem'
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
 The blog feature enables you to deploy a full-featured blog in no time.
 
@@ -33,7 +33,7 @@ export default {
       ],
     },
   },
-}
+};
 ```
 
 ## Adding posts {#adding-posts}
@@ -130,7 +130,7 @@ export default {
       },
     ],
   ],
-}
+};
 ```
 
 ## Blog sidebar {#blog-sidebar}
@@ -154,7 +154,7 @@ export default {
       },
     ],
   ],
-}
+};
 ```
 
 ## Blog post date {#blog-post-date}
@@ -487,7 +487,7 @@ export default {
       },
     ],
   ],
-}
+};
 ```
 
 The `readingTime` callback receives the following parameters:
@@ -528,7 +528,7 @@ export default {
       },
     ],
   ],
-}
+};
 ```
 
 Usage:
@@ -567,7 +567,7 @@ export default {
       },
     ],
   ],
-}
+};
 ```
 
 ```mdx-code-block
@@ -578,7 +578,7 @@ export default {
 **Use a custom implementation of reading time:**
 
 ```js title="docusaurus.config.js"
-import myReadingTime from './myReadingTime'
+import myReadingTime from './myReadingTime';
 
 export default {
   presets: [
@@ -592,7 +592,7 @@ export default {
       },
     ],
   ],
-}
+};
 ```
 
 ```mdx-code-block
@@ -607,38 +607,38 @@ export default {
 You can generate RSS / Atom / JSON feed by passing `feedOptions`. By default, RSS and Atom feeds are generated. To disable feed generation, set `feedOptions.type` to `null`.
 
 ```ts
-type FeedType = 'rss' | 'atom' | 'json'
+type FeedType = 'rss' | 'atom' | 'json';
 
 type BlogOptions = {
   feedOptions?: {
-    type?: FeedType | 'all' | FeedType[] | null
-    title?: string
-    description?: string
-    copyright: string
+    type?: FeedType | 'all' | FeedType[] | null;
+    title?: string;
+    description?: string;
+    copyright: string;
 
-    language?: string // possible values: http://www.w3.org/TR/REC-html40/struct/dirlang.html#langcodes
-    limit?: number | false | null // defaults to 20
+    language?: string; // possible values: http://www.w3.org/TR/REC-html40/struct/dirlang.html#langcodes
+    limit?: number | false | null; // defaults to 20
     // XSLT permits browsers to style and render nicely the feed XML files
     xslt?:
       | boolean
       | {
           //
-          rss?: string | boolean
-          atom?: string | boolean
-        }
+          rss?: string | boolean;
+          atom?: string | boolean;
+        };
     // Allow control over the construction of BlogFeedItems
     createFeedItems?: (params: {
-      blogPosts: BlogPost[]
-      siteConfig: DocusaurusConfig
-      outDir: string
+      blogPosts: BlogPost[];
+      siteConfig: DocusaurusConfig;
+      outDir: string;
       defaultCreateFeedItems: (params: {
-        blogPosts: BlogPost[]
-        siteConfig: DocusaurusConfig
-        outDir: string
-      }) => Promise<BlogFeedItem[]>
-    }) => Promise<BlogFeedItem[]>
-  }
-}
+        blogPosts: BlogPost[];
+        siteConfig: DocusaurusConfig;
+        outDir: string;
+      }) => Promise<BlogFeedItem[]>;
+    }) => Promise<BlogFeedItem[]>;
+  };
+};
 ```
 
 Example usage:
@@ -656,12 +656,12 @@ export default {
             type: 'all',
             copyright: `Copyright © ${new Date().getFullYear()} Facebook, Inc.`,
             createFeedItems: async (params) => {
-              const { blogPosts, defaultCreateFeedItems, ...rest } = params
+              const { blogPosts, defaultCreateFeedItems, ...rest } = params;
               return defaultCreateFeedItems({
                 // keep only the 10 most recent blog posts in the feed
                 blogPosts: blogPosts.filter((item, index) => index < 10),
                 ...rest,
-              })
+              });
             },
           },
           // highlight-end
@@ -669,7 +669,7 @@ export default {
       },
     ],
   ],
-}
+};
 ```
 
 The feeds can be found at:
@@ -721,7 +721,7 @@ export default {
       },
     ],
   ],
-}
+};
 ```
 
 :::warning
@@ -773,7 +773,7 @@ export default {
       },
     ],
   ],
-}
+};
 ```
 
 As an example, we host a second blog [here](/tests/blog).

@@ -1,6 +1,6 @@
 {
   "name": "netwrix-docs",
-  "version": "0.0.0",
+  "version": "0.1",
   "private": true,
   "main": "docusaurus.config.js",
   "scripts": {
@@ -25,7 +25,8 @@
     "@mdx-js/react": "^3.0.0",
     "prism-react-renderer": "^2.3.0",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-typed": "^2.0.12"
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "^3.8.1",

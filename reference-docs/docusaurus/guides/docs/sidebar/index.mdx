@@ -28,7 +28,7 @@ export default {
       },
     ],
   ],
-}
+};
 ```
 
 :::important Node.js runtime
@@ -57,7 +57,7 @@ export default {
       dirName: '.', // generate sidebar from the docs folder (or versioned_docs/<version>)
     },
   ],
-}
+};
 ```
 
 You can also define your sidebars explicitly.
@@ -71,7 +71,7 @@ type Sidebar =
   // Normal syntax
   | SidebarItem[]
   // Shorthand syntax
-  | { [categoryLabel: string]: SidebarItem[] }
+  | { [categoryLabel: string]: SidebarItem[] };
 ```
 
 For example:
@@ -109,7 +109,7 @@ export default {
       href: 'https://example.com',
     },
   ],
-}
+};
 ```
 
 This is a sidebars file that exports one sidebar, called `mySidebar`. It has three top-level items: two categories and one external link. Within each category, there are a few doc links.
@@ -118,8 +118,8 @@ A sidebars file can contain [**multiple sidebar objects**](multiple-sidebars.mdx
 
 ```ts
 type SidebarsFile = {
-  [sidebarID: string]: Sidebar
-}
+  [sidebarID: string]: Sidebar;
+};
 ```
 
 ## Theme configuration {#theme-configuration}
@@ -139,7 +139,7 @@ export default {
     },
     // highlight-end
   },
-}
+};
 ```
 
 ### Auto-collapse sidebar categories {#auto-collapse-sidebar-categories}
@@ -157,7 +157,7 @@ export default {
     },
     // highlight-end
   },
-}
+};
 ```
 
 ## Passing custom props {#passing-custom-props}
@@ -196,7 +196,7 @@ export default {
       },
     ],
   ],
-}
+};
 ```
 
 ## Complex sidebars example {#complex-sidebars-example}

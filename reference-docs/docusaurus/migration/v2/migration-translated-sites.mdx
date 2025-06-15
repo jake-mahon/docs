@@ -25,22 +25,22 @@ Each plugin has its own i18n subfolder, like: `website/i18n/fr/docusaurus-plugin
 With Docusaurus v1, you translate your pages with `<translate>`:
 
 ```jsx
-const translate = require('../../server/translate.js').translate
+const translate = require('../../server/translate.js').translate;
 
-;<h2>
+<h2>
   <translate desc="the header description">This header will be translated</translate>
-</h2>
+</h2>;
 ```
 
 On Docusaurus v2, you translate your pages with `<Translate>`
 
 ```jsx
-import Translate from '@docusaurus/Translate'
-;<h2>
+import Translate from '@docusaurus/Translate';
+<h2>
   <Translate id="header.translation.id" description="the header description">
     This header will be translated
   </Translate>
-</h2>
+</h2>;
 ```
 
 :::note

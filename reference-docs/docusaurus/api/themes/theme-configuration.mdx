@@ -7,7 +7,7 @@ toc_max_heading_level: 4
 
 # Theme configuration
 
-import APITable from '@site/src/components/APITable'
+import APITable from '@site/src/components/APITable';
 
 This configuration applies to all [main themes](./overview.mdx).
 
@@ -48,7 +48,7 @@ export default {
     },
     // highlight-end
   },
-}
+};
 ```
 
 :::warning
@@ -85,7 +85,7 @@ export default {
     // highlight-next-line
     image: 'img/docusaurus.png',
   },
-}
+};
 ```
 
 ### Metadata {#metadata}
@@ -114,7 +114,7 @@ export default {
     // highlight-next-line
     metadata: [{ name: 'twitter:card', content: 'summary' }],
   },
-}
+};
 ```
 
 ### Announcement bar {#announcement-bar}
@@ -155,7 +155,7 @@ export default {
     },
     // highlight-end
   },
-}
+};
 ```
 
 ## Plugins
@@ -193,7 +193,7 @@ export default {
       // highlight-end
     },
   },
-}
+};
 ```
 
 ### Blog
@@ -223,7 +223,7 @@ export default {
       // highlight-end
     },
   },
-}
+};
 ```
 
 ## Navbar {#navbar}
@@ -296,7 +296,7 @@ export default {
       // highlight-end
     },
   },
-}
+};
 ```
 
 ### Navbar items {#navbar-items}
@@ -334,7 +334,7 @@ export default {
       // highlight-end
     },
   },
-}
+};
 ```
 
 The items can have different behaviors based on the `type` field. The sections below will introduce you to all the types of navbar items available.
@@ -399,7 +399,7 @@ export default {
       ],
     },
   },
-}
+};
 ```
 
 #### Navbar dropdown {#navbar-dropdown}
@@ -462,7 +462,7 @@ export default {
       ],
     },
   },
-}
+};
 ```
 
 #### Navbar doc link {#navbar-doc-link}
@@ -505,7 +505,7 @@ export default {
       ],
     },
   },
-}
+};
 ```
 
 #### Navbar linked to a sidebar {#navbar-doc-sidebar}
@@ -554,7 +554,7 @@ export default {
       ],
     },
   },
-}
+};
 ```
 
 ```js title="sidebars.js"
@@ -574,7 +574,7 @@ export default {
       dirName: 'api',
     },
   ],
-}
+};
 ```
 
 #### Navbar docs version dropdown {#navbar-docs-version-dropdown}
@@ -608,10 +608,10 @@ Types:
 ```ts
 type DropdownVersion = {
   /** Allows you to provide a custom display label for each version. */
-  label?: string
-}
+  label?: string;
+};
 
-type DropdownVersions = string[] | { [versionName: string]: DropdownVersion }
+type DropdownVersions = string[] | { [versionName: string]: DropdownVersion };
 ```
 
 Example configuration:
@@ -632,7 +632,7 @@ export default {
       ],
     },
   },
-}
+};
 ```
 
 #### Navbar docs version {#navbar-docs-version}
@@ -675,7 +675,7 @@ export default {
       ],
     },
   },
-}
+};
 ```
 
 #### Navbar locale dropdown {#navbar-locale-dropdown}
@@ -724,7 +724,7 @@ export default {
       ],
     },
   },
-}
+};
 ```
 
 #### Navbar search {#navbar-search}
@@ -761,7 +761,7 @@ export default {
       ],
     },
   },
-}
+};
 ```
 
 #### Navbar with custom HTML {#navbar-with-custom-html}
@@ -798,7 +798,7 @@ export default {
       ],
     },
   },
-}
+};
 ```
 
 ### Auto-hide sticky navbar {#auto-hide-sticky-navbar}
@@ -813,7 +813,7 @@ export default {
       hideOnScroll: true,
     },
   },
-}
+};
 ```
 
 ### Navbar style {#navbar-style}
@@ -830,7 +830,7 @@ export default {
       style: 'primary',
     },
   },
-}
+};
 ```
 
 ## CodeBlock {#codeblock}
@@ -856,10 +856,10 @@ Accepted fields:
 
 ```ts
 type MagicCommentConfig = {
-  className: string
-  line?: string
-  block?: { start: string; end: string }
-}
+  className: string;
+  line?: string;
+  block?: { start: string; end: string };
+};
 ```
 
 ```js
@@ -869,7 +869,7 @@ const defaultMagicComments = [
     line: 'highlight-next-line',
     block: { start: 'highlight-start', end: 'highlight-end' },
   },
-]
+];
 ```
 
 ### Theme {#theme}
@@ -879,7 +879,7 @@ By default, we use [Palenight](https://github.com/FormidableLabs/prism-react-ren
 Example configuration:
 
 ```js title="docusaurus.config.js"
-import { themes as prismThemes } from 'prism-react-renderer'
+import { themes as prismThemes } from 'prism-react-renderer';
 
 export default {
   themeConfig: {
@@ -890,7 +890,7 @@ export default {
       // highlight-end
     },
   },
-}
+};
 ```
 
 :::note
@@ -913,7 +913,7 @@ export default {
       defaultLanguage: 'javascript',
     },
   },
-}
+};
 ```
 
 ## Footer {#footer-1}
@@ -955,7 +955,7 @@ export default {
     },
     // highlight-end
   },
-}
+};
 ```
 
 ### Footer Links {#footer-links}
@@ -1041,7 +1041,7 @@ export default {
     ],
     // highlight-end
   },
-}
+};
 ```
 
 A simple footer just has a list of `FooterItem`s displayed in a row.
@@ -1075,7 +1075,7 @@ export default {
     ],
     // highlight-end
   },
-}
+};
 ```
 
 ## Table of Contents {#table-of-contents}
@@ -1107,7 +1107,7 @@ export default {
     },
     // highlight-end
   },
-}
+};
 ```
 
 ## Hooks {#hooks}
@@ -1120,7 +1120,7 @@ Usage example:
 
 ```jsx
 // highlight-next-line
-import { useColorMode } from '@docusaurus/theme-common'
+import { useColorMode } from '@docusaurus/theme-common';
 
 const MyColorModeButton = () => {
   // highlight-start
@@ -1128,20 +1128,20 @@ const MyColorModeButton = () => {
     colorMode, // the "effective" color mode, never null
     colorModeChoice, // the color mode chosen by the user, can be null
     setColorMode, // set the color mode chosen by the user
-  } = useColorMode()
+  } = useColorMode();
   // highlight-end
 
   return (
     <button
       onClick={() => {
-        const nextColorMode = colorModeChoice === 'dark' ? 'light' : 'dark'
-        setColorMode(nextColorMode)
+        const nextColorMode = colorModeChoice === 'dark' ? 'light' : 'dark';
+        setColorMode(nextColorMode);
       }}
     >
       Toggle color mode
     </button>
-  )
-}
+  );
+};
 ```
 
 Attributes:
@@ -1190,12 +1190,12 @@ The correct `colorMode` and `colorModeChoice` values will only be provided in th
 Typically, the following component will lead to **React hydration mismatches**. The label may switch from `light` to `dark` while React hydrates, leading to a confusing user experience.
 
 ```jsx
-import { useColorMode } from '@docusaurus/theme-common'
+import { useColorMode } from '@docusaurus/theme-common';
 
 const DisplayCurrentColorMode = () => {
-  const { colorMode } = useColorMode()
-  return <span>{colorMode}</span>
-}
+  const { colorMode } = useColorMode();
+  return <span>{colorMode}</span>;
+};
 ```
 
 </details>
@@ -1212,7 +1212,7 @@ function ExamplePage() {
     <Layout>
       <Example />
     </Layout>
-  )
+  );
 }
 ```
 

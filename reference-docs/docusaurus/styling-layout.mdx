@@ -2,8 +2,8 @@
 description: A Docusaurus site is a pre-rendered single-page React application. You can style it the way you style React apps.
 ---
 
-import ColorGenerator from '@site/src/components/ColorGenerator'
-import IframeWindow from '@site/src/components/BrowserWindow/IframeWindow'
+import ColorGenerator from '@site/src/components/ColorGenerator';
+import IframeWindow from '@site/src/components/BrowserWindow/IframeWindow';
 
 # Styling and Layout
 
@@ -38,7 +38,7 @@ export default {
       },
     ],
   ],
-}
+};
 ```
 
 Any CSS you write within that file will be available globally and can be referenced directly using string literals.
@@ -55,7 +55,7 @@ function MyComponent() {
     <main>
       <h1 className="purple-text">Purple Heading!</h1>
     </main>
-  )
+  );
 }
 ```
 
@@ -205,7 +205,7 @@ To style your components using [CSS Modules](https://github.com/css-modules/css-
 ```
 
 ```jsx
-import styles from './styles.module.css'
+import styles from './styles.module.css';
 
 function MyComponent() {
   return (
@@ -213,7 +213,7 @@ function MyComponent() {
       <h1 className={styles.heading}>Hello!</h1>
       <article className={styles.contents}>Lorem Ipsum</article>
     </main>
-  )
+  );
 }
 ```
 
@@ -245,7 +245,7 @@ export default {
   // highlight-next-line
   plugins: ['docusaurus-plugin-sass'],
   // ...
-}
+};
 ```
 
 3. Write and import your stylesheets in Sass/SCSS as normal.
@@ -269,7 +269,7 @@ export default {
       },
     ],
   ],
-}
+};
 ```
 
 ### Modules using Sass/SCSS {#modules-using-sassscss}
@@ -287,14 +287,14 @@ Name your stylesheet files with the `.module.scss` suffix (e.g. `welcome.module.
 ```
 
 ```jsx
-import styles from './styles.module.scss'
+import styles from './styles.module.scss';
 
 function MyComponent() {
   return (
     <main className={styles.main}>
       <article>Lorem Ipsum</article>
     </main>
-  )
+  );
 }
 ```
 

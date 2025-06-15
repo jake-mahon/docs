@@ -6,7 +6,7 @@ slug: /api/docusaurus-config
 
 # `docusaurus.config.js`
 
-import APITable from '@site/src/components/APITable'
+import APITable from '@site/src/components/APITable';
 
 :::info
 
@@ -39,7 +39,7 @@ export default {
   title: 'Docusaurus',
   url: 'https://docusaurus.io',
   // your site config ...
-}
+};
 ```
 
 ```js title="docusaurus.config.js"
@@ -48,7 +48,7 @@ export default async function createConfigAsync() {
     title: 'Docusaurus',
     url: 'https://docusaurus.io',
     // your site config ...
-  }
+  };
 }
 ```
 
@@ -69,7 +69,7 @@ Title for your website. Will be used in metadata and as browser tab title.
 ```js title="docusaurus.config.js"
 export default {
   title: 'Docusaurus',
-}
+};
 ```
 
 ### `url` {#url}
@@ -81,7 +81,7 @@ URL for your website. This can also be considered the top-level hostname. For ex
 ```js title="docusaurus.config.js"
 export default {
   url: 'https://docusaurus.io',
-}
+};
 ```
 
 ### `baseUrl` {#baseUrl}
@@ -93,7 +93,7 @@ Base URL for your site. Can be considered as the path after the host. For exampl
 ```js title="docusaurus.config.js"
 export default {
   baseUrl: '/',
-}
+};
 ```
 
 ## Optional fields {#optional-fields}
@@ -107,7 +107,7 @@ Path to your site favicon; must be a URL that can be used in link's href. For ex
 ```js title="docusaurus.config.js"
 export default {
   favicon: '/img/favicon.ico',
-}
+};
 ```
 
 ### `trailingSlash` {#trailingSlash}
@@ -161,7 +161,7 @@ export default {
       },
     },
   },
-}
+};
 ```
 
 - `defaultLocale`: The locale that (1) does not have its name in the base URL (2) gets started with `docusaurus start` without `--locale` option (3) will be used for the `<link hrefLang="x-default">` tag
@@ -217,7 +217,7 @@ export default {
     },
     experimental_router: 'hash',
   },
-}
+};
 ```
 
 - `v4`: Permits to opt-in for upcoming Docusaurus v4 breaking changes and features, to prepare your site in advance for this new version. Use `true` as a shorthand to enable all the flags.
@@ -248,7 +248,7 @@ Example:
 ```js title="docusaurus.config.js"
 export default {
   noIndex: true, // Defaults to `false`
-}
+};
 ```
 
 ### `onBrokenLinks` {#onBrokenLinks}
@@ -298,7 +298,7 @@ The tagline for your website.
 ```js title="docusaurus.config.js"
 export default {
   tagline: 'Docusaurus makes it easy to maintain Open Source documentation websites.',
-}
+};
 ```
 
 ### `organizationName` {#organizationName}
@@ -311,7 +311,7 @@ The GitHub user or organization that owns the repository. You don't need this if
 export default {
   // Docusaurus' organization is facebook
   organizationName: 'facebook',
-}
+};
 ```
 
 ### `projectName` {#projectName}
@@ -323,7 +323,7 @@ The name of the GitHub repository. You don't need this if you are not using the 
 ```js title="docusaurus.config.js"
 export default {
   projectName: 'docusaurus',
-}
+};
 ```
 
 ### `deploymentBranch` {#deploymentBranch}
@@ -335,7 +335,7 @@ The name of the branch to deploy the static files to. You don't need this if you
 ```js title="docusaurus.config.js"
 export default {
   deploymentBranch: 'gh-pages',
-}
+};
 ```
 
 ### `githubHost` {#githubHost}
@@ -347,7 +347,7 @@ The hostname of your server. Useful if you are using GitHub Enterprise. You don'
 ```js title="docusaurus.config.js"
 export default {
   githubHost: 'github.com',
-}
+};
 ```
 
 ### `githubPort` {#githubPort}
@@ -359,7 +359,7 @@ The port of your server. Useful if you are using GitHub Enterprise. You don't ne
 ```js title="docusaurus.config.js"
 export default {
   githubPort: '22',
-}
+};
 ```
 
 ### `themeConfig` {#themeConfig}
@@ -426,7 +426,7 @@ export default {
       copyright: `Copyright © ${new Date().getFullYear()} Facebook, Inc.`, // You can also put own HTML here
     },
   },
-}
+};
 ```
 
 ### `plugins` {#plugins}
@@ -434,7 +434,7 @@ export default {
 - Type: `PluginConfig[]`
 
 ```ts
-type PluginConfig = string | [string, any] | PluginModule | [PluginModule, any]
+type PluginConfig = string | [string, any] | PluginModule | [PluginModule, any];
 ```
 
 See [plugin method references](./plugin-methods/README.mdx) for the shape of a `PluginModule`.
@@ -446,11 +446,11 @@ export default {
     ['docusuarus-plugin-confetti', { fancy: false }],
     () => ({
       postBuild() {
-        console.log('Build finished')
+        console.log('Build finished');
       },
     }),
   ],
-}
+};
 ```
 
 ### `themes` {#themes}
@@ -460,7 +460,7 @@ export default {
 ```js title="docusaurus.config.js"
 export default {
   themes: ['@docusaurus/theme-classic'],
-}
+};
 ```
 
 ### `presets` {#presets}
@@ -468,13 +468,13 @@ export default {
 - Type: `PresetConfig[]`
 
 ```ts
-type PresetConfig = string | [string, any]
+type PresetConfig = string | [string, any];
 ```
 
 ```js title="docusaurus.config.js"
 export default {
   presets: [],
-}
+};
 ```
 
 ### `markdown` {#markdown}
@@ -484,38 +484,38 @@ The global Docusaurus Markdown config.
 - Type: `MarkdownConfig`
 
 ```ts
-type MarkdownPreprocessor = (args: { filePath: string; fileContent: string }) => string
+type MarkdownPreprocessor = (args: { filePath: string; fileContent: string }) => string;
 
 type MDX1CompatOptions =
   | boolean
   | {
-      comments: boolean
-      admonitions: boolean
-      headingIds: boolean
-    }
+      comments: boolean;
+      admonitions: boolean;
+      headingIds: boolean;
+    };
 
 export type ParseFrontMatter = (params: {
-  filePath: string
-  fileContent: string
-  defaultParseFrontMatter: ParseFrontMatter
+  filePath: string;
+  fileContent: string;
+  defaultParseFrontMatter: ParseFrontMatter;
 }) => Promise<{
-  frontMatter: { [key: string]: unknown }
-  content: string
-}>
+  frontMatter: { [key: string]: unknown };
+  content: string;
+}>;
 
 type MarkdownAnchorsConfig = {
-  maintainCase: boolean
-}
+  maintainCase: boolean;
+};
 
 type MarkdownConfig = {
-  format: 'mdx' | 'md' | 'detect'
-  mermaid: boolean
-  preprocessor?: MarkdownPreprocessor
-  parseFrontMatter?: ParseFrontMatter
-  mdx1Compat: MDX1CompatOptions
-  remarkRehypeOptions: object // see https://github.com/remarkjs/remark-rehype#options
-  anchors: MarkdownAnchorsConfig
-}
+  format: 'mdx' | 'md' | 'detect';
+  mermaid: boolean;
+  preprocessor?: MarkdownPreprocessor;
+  parseFrontMatter?: ParseFrontMatter;
+  mdx1Compat: MDX1CompatOptions;
+  remarkRehypeOptions: object; // see https://github.com/remarkjs/remark-rehype#options
+  anchors: MarkdownAnchorsConfig;
+};
 ```
 
 Example:
@@ -526,15 +526,15 @@ export default {
     format: 'mdx',
     mermaid: true,
     preprocessor: ({ filePath, fileContent }) => {
-      return fileContent.replaceAll('{{MY_VAR}}', 'MY_VALUE')
+      return fileContent.replaceAll('{{MY_VAR}}', 'MY_VALUE');
     },
     parseFrontMatter: async (params) => {
-      const result = await params.defaultParseFrontMatter(params)
+      const result = await params.defaultParseFrontMatter(params);
       result.frontMatter.description = result.frontMatter.description?.replaceAll(
         '{{MY_VAR}}',
         'MY_VALUE'
-      )
-      return result
+      );
+      return result;
     },
     mdx1Compat: {
       comments: true,
@@ -545,7 +545,7 @@ export default {
       maintainCase: true,
     },
   },
-}
+};
 ```
 
 ```mdx-code-block
@@ -578,7 +578,7 @@ export default {
     admin: 'endi',
     superman: 'lol',
   },
-}
+};
 ```
 
 Attempting to add unknown fields in the config will lead to errors during build time:
@@ -598,7 +598,7 @@ Example:
 ```js title="docusaurus.config.js"
 export default {
   staticDirectories: ['static'],
-}
+};
 ```
 
 ### `headTags` {#headTags}
@@ -620,7 +620,7 @@ export default {
       },
     },
   ],
-}
+};
 ```
 
 This would become `<link rel="icon" href="img/docusaurus.png" />` in the generated HTML.
@@ -646,7 +646,7 @@ export default {
       async: true,
     },
   ],
-}
+};
 ```
 
 ### `stylesheets` {#stylesheets}
@@ -667,7 +667,7 @@ export default {
       href: 'http://mydomain.com/style.css',
     },
   ],
-}
+};
 ```
 
 :::info
@@ -685,7 +685,7 @@ Example:
 ```js title="docusaurus.config.js"
 export default {
   clientModules: ['./mySiteGlobalJs.js', './mySiteGlobalCss.css'],
-}
+};
 ```
 
 ### `ssrTemplate` {#ssrTemplate}
@@ -725,7 +725,7 @@ export default {
     <%~ it.postBodyTags %>
   </body>
 </html>`,
-}
+};
 ```
 
 ### `titleDelimiter` {#titleDelimiter}
@@ -739,7 +739,7 @@ Example:
 ```js title="docusaurus.config.js"
 export default {
   titleDelimiter: '🦖', // Defaults to `|`
-}
+};
 ```
 
 ### `baseUrlIssueBanner` {#baseUrlIssueBanner}
@@ -753,7 +753,7 @@ Example:
 ```js title="docusaurus.config.js"
 export default {
   baseUrlIssueBanner: true, // Defaults to `true`
-}
+};
 ```
 
 ![A sample base URL issue banner. The style is very raw since the stylesheets failed to load. The text says "Your Docusaurus site did not load properly... Current configured baseUrl = / (default value); We suggest trying baseUrl = /build/](/img/baseUrlIssueBanner.png)

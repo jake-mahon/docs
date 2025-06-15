@@ -1,11 +1,11 @@
-import { Note } from '../_component/note.jsx'
+import { Note } from '../_component/note.jsx';
 
 export const info = {
   author: [{ github: 'wooorm', name: 'Titus Wormer' }],
   modified: new Date('2025-01-27'),
   published: new Date('2021-10-05'),
-}
-export const navSortSelf = 2
+};
+export const navSortSelf = 2;
 
 # Getting started
 
@@ -177,7 +177,7 @@ such as `MDXComponents` which represents the `components` prop.
 You can import them like so:
 
 ```ts twoslash path="example.ts"
-import type { MDXComponents } from 'mdx/types.js'
+import type { MDXComponents } from 'mdx/types.js';
 ```
 
 ### Security
@@ -209,8 +209,8 @@ and make sure processes can be killed when taking too long.
   <summary>Expand example</summary>
 
 ```js twoslash path="example.js"
-import mdx from '@mdx-js/esbuild'
-import esbuild from 'esbuild'
+import mdx from '@mdx-js/esbuild';
+import esbuild from 'esbuild';
 
 await esbuild.build({
   entryPoints: ['index.mdx'],
@@ -221,7 +221,7 @@ await esbuild.build({
       /* jsxImportSource: …, otherOptions… */
     }),
   ],
-})
+});
 ```
 
 </details>
@@ -248,8 +248,8 @@ for more info.
  * @import {RollupOptions} from 'rollup'
  */
 
-import mdx from '@mdx-js/rollup'
-import { babel } from '@rollup/plugin-babel'
+import mdx from '@mdx-js/rollup';
+import { babel } from '@rollup/plugin-babel';
 
 /** @type {RollupOptions} */
 const config = {
@@ -266,9 +266,9 @@ const config = {
       // Other options…
     }),
   ],
-}
+};
 
-export default config
+export default config;
 ```
 
 </details>
@@ -318,9 +318,9 @@ const webpackConfig = {
       },
     ],
   },
-}
+};
 
-export default webpackConfig
+export default webpackConfig;
 ```
 
 </details>
@@ -345,14 +345,14 @@ for more info.
   <summary>Expand example</summary>
 
 ```js twoslash path="vite.config.js"
-import mdx from '@mdx-js/rollup'
-import { defineConfig } from 'vite'
+import mdx from '@mdx-js/rollup';
+import { defineConfig } from 'vite';
 
 const viteConfig = defineConfig({
   plugins: [mdx(/* jsxImportSource: …, otherOptions… */)],
-})
+});
 
-export default viteConfig
+export default viteConfig;
 ```
 
 </details>
@@ -370,9 +370,9 @@ To use more modern JavaScript features than what your users support,
   you must force `@mdx-js/rollup` to run in the `pre` phase before it:
 
 ```js twoslash path="vite.config.js"
-import mdx from '@mdx-js/rollup'
-import react from '@vitejs/plugin-react'
-import { defineConfig } from 'vite'
+import mdx from '@mdx-js/rollup';
+import react from '@vitejs/plugin-react';
+import { defineConfig } from 'vite';
 // ---cut---
 // …
 const viteConfig = defineConfig({
@@ -385,7 +385,7 @@ const viteConfig = defineConfig({
     },
     react({ include: /\.(jsx|js|mdx|md|tsx|ts)$/ }),
   ],
-})
+});
 // …
 ```
 
@@ -412,15 +412,15 @@ This plugin:
  * @import {Plugin} from 'unified'
  */
 
-import parser from '@babel/parser'
-import { compileSync } from '@mdx-js/mdx'
-import estreeToBabel from 'estree-to-babel'
+import parser from '@babel/parser';
+import { compileSync } from '@mdx-js/mdx';
+import estreeToBabel from 'estree-to-babel';
 
 /**
  * Plugin that tells Babel to use a different parser.
  */
 export function babelPluginSyntaxMdx() {
-  return { parserOverride: babelParserWithMdx }
+  return { parserOverride: babelParserWithMdx };
 }
 
 /**
@@ -434,18 +434,18 @@ export function babelPluginSyntaxMdx() {
 function babelParserWithMdx(value, options) {
   /** @type {string | undefined} */
   // @ts-expect-error: babel changed the casing at some point and the types are out of date.
-  const filename = options.sourceFilename || options.sourceFileName
+  const filename = options.sourceFilename || options.sourceFileName;
 
   if (filename && /\.mdx?$/.test(filename)) {
     // Babel does not support async parsers, unfortunately.
     const file = compileSync(
       { value, path: options.sourceFilename },
       { recmaPlugins: [recmaBabel] /* jsxImportSource: …, otherOptions… */ }
-    )
-    return /** @type {ParseResult<File>} */ (file.result)
+    );
+    return /** @type {ParseResult<File>} */ (file.result);
   }
 
-  return parser.parse(value, options)
+  return parser.parse(value, options);
 }
 
 /**
@@ -458,7 +458,7 @@ function babelParserWithMdx(value, options) {
  */
 function recmaBabel() {
   // @ts-expect-error: `Program` is similar enough to a unist node.
-  this.compiler = compiler
+  this.compiler = compiler;
 
   /**
    * @param {Program} tree
@@ -466,7 +466,7 @@ function recmaBabel() {
    */
   function compiler(tree) {
     // @ts-expect-error: TS2349: This expression *is* callable, `estreeToBabel` types are wrong.
-    return estreeToBabel(tree)
+    return estreeToBabel(tree);
   }
 }
 ```
@@ -484,15 +484,15 @@ function recmaBabel() {
  * @import {Plugin} from 'unified'
  */
 
-import parser from '@babel/parser'
-import { compileSync } from '@mdx-js/mdx'
-import estreeToBabel from 'estree-to-babel'
+import parser from '@babel/parser';
+import { compileSync } from '@mdx-js/mdx';
+import estreeToBabel from 'estree-to-babel';
 
 /**
  * Plugin that tells Babel to use a different parser.
  */
 export function babelPluginSyntaxMdx() {
-  return { parserOverride: babelParserWithMdx }
+  return { parserOverride: babelParserWithMdx };
 }
 
 /**
@@ -506,18 +506,18 @@ export function babelPluginSyntaxMdx() {
 function babelParserWithMdx(value, options) {
   /** @type {string | undefined} */
   // @ts-expect-error: babel types are wrong.
-  const filename = options.sourceFilename || options.sourceFileName
+  const filename = options.sourceFilename || options.sourceFileName;
 
   if (filename && /\.mdx?$/.test(filename)) {
     // Babel does not support async parsers, unfortunately.
     const file = compileSync(
       { value, path: options.sourceFilename },
       { recmaPlugins: [recmaBabel] /* jsxImportSource: …, otherOptions… */ }
-    )
-    return /** @type {ParseResult<File>} */ (file.result)
+    );
+    return /** @type {ParseResult<File>} */ (file.result);
   }
 
-  return parser.parse(value, options)
+  return parser.parse(value, options);
 }
 
 /**
@@ -530,7 +530,7 @@ function babelParserWithMdx(value, options) {
  */
 function recmaBabel() {
   // @ts-expect-error: `Program` is similar enough to a unist node.
-  this.compiler = compiler
+  this.compiler = compiler;
 
   /**
    * @param {Program} tree
@@ -538,23 +538,23 @@ function recmaBabel() {
    */
   function compiler(tree) {
     // @ts-expect-error: TS2349: This expression *is* callable, `estreeToBabel` types are wrong.
-    return estreeToBabel(tree)
+    return estreeToBabel(tree);
   }
 }
 // @filename: example.js
 // ---cut---
-import babel from '@babel/core'
-import { babelPluginSyntaxMdx } from './plugin.js'
+import babel from '@babel/core';
+import { babelPluginSyntaxMdx } from './plugin.js';
 
-const document = '# Hello, world!'
+const document = '# Hello, world!';
 
 // Note that a filename must be set for our plugin to know it’s MDX instead of JS.
 const result = await babel.transformAsync(document, {
   filename: 'example.mdx',
   plugins: [babelPluginSyntaxMdx],
-})
+});
 
-console.log(result)
+console.log(result);
 ```
 
 </details>
@@ -602,7 +602,7 @@ See [`gatsby-plugin-mdx`][gatsby-plugin-mdx] on how to use MDX with Gatsby.
   <summary>Expand example</summary>
 
 ```js twoslash path="next.config.js"
-import nextMdx from '@next/mdx'
+import nextMdx from '@next/mdx';
 
 const withMdx = nextMdx({
   // By default only the `.mdx` extension is supported.
@@ -610,14 +610,14 @@ const withMdx = nextMdx({
   options: {
     /* otherOptions… */
   },
-})
+});
 
 const nextConfig = withMdx({
   // Support MDX files as pages:
   pageExtensions: ['md', 'mdx', 'tsx', 'ts', 'jsx', 'js'],
-})
+});
 
-export default nextConfig
+export default nextConfig;
 ```
 
 </details>
@@ -649,9 +649,9 @@ on how to use MDX with Parcel.
   <summary>Expand example</summary>
 
 ```js twoslash path="example.js"
-import { compile } from '@mdx-js/mdx'
+import { compile } from '@mdx-js/mdx';
 
-const js = String(await compile('# hi', { jsxImportSource: '@emotion/react' /* otherOptions… */ }))
+const js = String(await compile('# hi', { jsxImportSource: '@emotion/react' /* otherOptions… */ }));
 ```
 
 </details>
@@ -722,9 +722,9 @@ info.
   <summary>Expand example</summary>
 
 ```js twoslash path="example.js"
-import { compile } from '@mdx-js/mdx'
+import { compile } from '@mdx-js/mdx';
 
-const js = String(await compile('# hi', { jsxImportSource: 'preact' /* otherOptions… */ }))
+const js = String(await compile('# hi', { jsxImportSource: 'preact' /* otherOptions… */ }));
 ```
 
 </details>
@@ -761,9 +761,9 @@ See [`@theme-ui/mdx`][theme-ui-mdx] on how to use MDX with Theme UI.
   <summary>Expand example</summary>
 
 ```js twoslash path="example.js"
-import { compile } from '@mdx-js/mdx'
+import { compile } from '@mdx-js/mdx';
 
-const js = String(await compile('# hi', { jsxImportSource: 'svelte-jsx' /* otherOptions… */ }))
+const js = String(await compile('# hi', { jsxImportSource: 'svelte-jsx' /* otherOptions… */ }));
 ```
 
 </details>
@@ -783,9 +783,9 @@ for more info.
   <summary>Expand example</summary>
 
 ```js twoslash path="example.js"
-import { compile } from '@mdx-js/mdx'
+import { compile } from '@mdx-js/mdx';
 
-const js = String(await compile('# hi', { jsxImportSource: 'vue' /* otherOptions… */ }))
+const js = String(await compile('# hi', { jsxImportSource: 'vue' /* otherOptions… */ }));
 ```
 
 </details>
@@ -805,9 +805,9 @@ for more info.
   <summary>Expand example</summary>
 
 ```js twoslash path="example.js"
-import { compile } from '@mdx-js/mdx'
+import { compile } from '@mdx-js/mdx';
 
-const js = String(await compile('# hi', { jsxImportSource: 'solid-js/h' /* otherOptions… */ }))
+const js = String(await compile('# hi', { jsxImportSource: 'solid-js/h' /* otherOptions… */ }));
 ```
 
 </details>
@@ -842,10 +842,10 @@ preload = ["./bun-mdx.ts"]
 ```ts twoslash path="bun-mdx.ts"
 /// <reference types="bun-types" />
 // ---cut---
-import mdx from '@mdx-js/esbuild'
-import { type BunPlugin, plugin } from 'bun'
+import mdx from '@mdx-js/esbuild';
+import { type BunPlugin, plugin } from 'bun';
 
-await plugin(mdx() as unknown as BunPlugin)
+await plugin(mdx() as unknown as BunPlugin);
 ```
 
 </details>

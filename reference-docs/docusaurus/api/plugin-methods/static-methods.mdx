@@ -33,13 +33,13 @@ export default function myPlugin(context, options) {
   return {
     name: 'docusaurus-plugin',
     // rest of methods
-  }
+  };
 }
 
 // highlight-start
 export function validateOptions({ options, validate }) {
-  const validatedOptions = validate(myValidationSchema, options)
-  return validatedOptions
+  const validatedOptions = validate(myValidationSchema, options);
+  return validatedOptions;
 }
 // highlight-end
 ```
@@ -71,13 +71,13 @@ export default function myPlugin(context, options) {
   return {
     name: 'docusaurus-plugin',
     // rest of methods
-  }
+  };
 }
 
 // highlight-start
 export function validateThemeConfig({ themeConfig, validate }) {
-  const validatedThemeConfig = validate(myValidationSchema, options)
-  return validatedThemeConfig
+  const validatedThemeConfig = validate(myValidationSchema, options);
+  return validatedThemeConfig;
 }
 // highlight-end
 ```

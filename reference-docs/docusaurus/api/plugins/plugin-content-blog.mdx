@@ -5,7 +5,7 @@ slug: /api/plugins/@docusaurus/plugin-content-blog
 
 # 📦 plugin-content-blog
 
-import APITable from '@site/src/components/APITable'
+import APITable from '@site/src/components/APITable';
 
 Provides the [Blog](blog.mdx) feature and is the default blog plugin for Docusaurus.
 
@@ -97,39 +97,39 @@ Accepted fields:
 
 ```ts
 type EditUrlFunction = (params: {
-  blogDirPath: string
-  blogPath: string
-  permalink: string
-  locale: string
-}) => string | undefined
+  blogDirPath: string;
+  blogPath: string;
+  permalink: string;
+  locale: string;
+}) => string | undefined;
 ```
 
 #### `ReadingTimeFn` {#ReadingTimeFn}
 
 ```ts
 type ReadingTimeOptions = {
-  wordsPerMinute: number
-}
+  wordsPerMinute: number;
+};
 
 type ReadingTimeCalculator = (params: {
-  content: string
-  locale: string
-  frontMatter?: BlogPostFrontMatter & Record<string, unknown>
-  options?: ReadingTimeOptions
-}) => number
+  content: string;
+  locale: string;
+  frontMatter?: BlogPostFrontMatter & Record<string, unknown>;
+  options?: ReadingTimeOptions;
+}) => number;
 
 type ReadingTimeFn = (params: {
-  content: string
-  locale: string
-  frontMatter: BlogPostFrontMatter & Record<string, unknown>
-  defaultReadingTime: ReadingTimeCalculator
-}) => number | undefined
+  content: string;
+  locale: string;
+  frontMatter: BlogPostFrontMatter & Record<string, unknown>;
+  defaultReadingTime: ReadingTimeCalculator;
+}) => number | undefined;
 ```
 
 #### `FeedType` {#FeedType}
 
 ```ts
-type FeedType = 'rss' | 'atom' | 'json'
+type FeedType = 'rss' | 'atom' | 'json';
 ```
 
 #### `FeedXSLTOptions` {#FeedXSLTOptions}
@@ -146,26 +146,26 @@ type FeedXSLTOptions =
   | undefined
   | null
   | {
-      rss?: string | boolean | null | undefined
-      atom?: string | boolean | null | undefined
-    }
+      rss?: string | boolean | null | undefined;
+      atom?: string | boolean | null | undefined;
+    };
 ```
 
 #### `CreateFeedItemsFn` {#CreateFeedItemsFn}
 
 ```ts
 type CreateFeedItemsFn = (params: {
-  blogPosts: BlogPost[]
-  siteConfig: DocusaurusConfig
-  outDir: string
-  defaultCreateFeedItemsFn: CreateFeedItemsFn
-}) => Promise<BlogFeedItem[]>
+  blogPosts: BlogPost[];
+  siteConfig: DocusaurusConfig;
+  outDir: string;
+  defaultCreateFeedItemsFn: CreateFeedItemsFn;
+}) => Promise<BlogFeedItem[]>;
 ```
 
 #### `ProcessBlogPostsFn` {#ProcessBlogPostsFn}
 
 ```ts
-type ProcessBlogPostsFn = (params: { blogPosts: BlogPost[] }) => Promise<void | BlogPost[]>
+type ProcessBlogPostsFn = (params: { blogPosts: BlogPost[] }) => Promise<void | BlogPost[]>;
 ```
 
 ### Example configuration {#ex-config}
@@ -220,15 +220,15 @@ const config = {
     copyright: '',
     language: undefined,
     createFeedItems: async (params) => {
-      const { blogPosts, defaultCreateFeedItems, ...rest } = params
+      const { blogPosts, defaultCreateFeedItems, ...rest } = params;
       return defaultCreateFeedItems({
         // keep only the 10 most recent blog posts in the feed
         blogPosts: blogPosts.filter((item, index) => index < 10),
         ...rest,
-      })
+      });
     },
   },
-}
+};
 ```
 
 ## Markdown front matter {#markdown-front-matter}
@@ -269,31 +269,31 @@ Accepted fields:
 ```
 
 ```ts
-type FrontMatterLastUpdate = { date?: string; author?: string }
+type FrontMatterLastUpdate = { date?: string; author?: string };
 
-type Tag = string | { label: string; permalink: string }
+type Tag = string | { label: string; permalink: string };
 
 // An author key references an author from the global plugin authors.yml file
-type AuthorKey = string
+type AuthorKey = string;
 
 // Social platform name -> Social platform link
 // Example: {MyPlatform: 'https://myplatform.com/myusername'}
 // Pre-defined platforms
 // ("x", "github", "twitter", "linkedin", "stackoverflow", "instagram", "bluesky", "mastodon", "threads", "twitch", "youtube") accept handles:
 // Example: {github: 'slorber'}
-type AuthorSocials = Record<string, string>
+type AuthorSocials = Record<string, string>;
 
 type Author = {
-  key?: AuthorKey
-  name: string
-  title?: string
-  url?: string
-  image_url?: string
-  socials?: AuthorSocials
-}
+  key?: AuthorKey;
+  name: string;
+  title?: string;
+  url?: string;
+  image_url?: string;
+  socials?: AuthorSocials;
+};
 
 // The front matter authors field allows various possible shapes
-type Authors = AuthorKey | Author | (AuthorKey | Author)[]
+type Authors = AuthorKey | Author | (AuthorKey | Author)[];
 ```
 
 Example:
@@ -320,7 +320,7 @@ hide_table_of_contents: false
 A Markdown blog post
 ```
 
-import TagsFileApiRefSection from './_partial-tags-file-api-ref-section.mdx'
+import TagsFileApiRefSection from './_partial-tags-file-api-ref-section.mdx';
 
 <TagsFileApiRefSection />
 
@@ -338,20 +338,20 @@ The YAML content of the provided authors file should respect the following shape
 
 ```tsx
 type AuthorsMapInput = {
-  [authorKey: string]: AuthorInput
-}
+  [authorKey: string]: AuthorInput;
+};
 
 type AuthorInput = {
-  name?: string
-  title?: string
-  description?: string
-  imageURL?: string
-  url?: string
-  email?: string
-  page?: boolean | { permalink: string }
-  socials?: Record<string, string>
-  [customAuthorAttribute: string]: unknown
-}
+  name?: string;
+  title?: string;
+  description?: string;
+  imageURL?: string;
+  url?: string;
+  email?: string;
+  page?: boolean | { permalink: string };
+  socials?: Record<string, string>;
+  [customAuthorAttribute: string]: unknown;
+};
 ```
 
 ### Example {#authors-file-example}

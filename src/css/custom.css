@@ -61,7 +61,7 @@ html {
   .navbar__item {
     font-size: 0.9rem;
   }
-  
+
   .navbar__link {
     padding: 0.5rem 0.75rem;
   }
@@ -71,11 +71,11 @@ html {
   .navbar__item {
     font-size: 0.85rem;
   }
-  
+
   .navbar__link {
     padding: 0.5rem 0.5rem;
   }
-  
+
   /* Shorter labels for smaller screens */
   .navbar__link[aria-expanded] {
     white-space: nowrap;
@@ -90,7 +90,7 @@ html {
   .navbar__items--right {
     margin-left: auto;
   }
-  
+
   .navbar__toggle {
     display: block;
   }

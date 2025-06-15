@@ -26,11 +26,11 @@ export default {
           // ...
         },
         /* other lifecycle API */
-      }
+      };
     },
     // highlight-end
   ],
-}
+};
 ```
 
 ### Module definition {#module-definition}
@@ -46,7 +46,7 @@ export default {
     // or with options:
     ['./my-plugin', options],
   ],
-}
+};
 ```
 
 Then in the folder `my-plugin`, you can create an `index.js` such as this:
@@ -63,7 +63,7 @@ export default async function myPlugin(context, options) {
       /* ... */
     },
     /* other lifecycle API */
-  }
+  };
 }
 ```
 
@@ -103,7 +103,7 @@ export default {
   // highlight-next-line
   themes: ['theme-blog'],
   plugins: ['plugin-content-blog'],
-}
+};
 ```
 
 And if you want to use Bootstrap styling, you can swap out the theme with `theme-blog-bootstrap` (another fictitious non-existing theme):
@@ -113,7 +113,7 @@ export default {
   // highlight-next-line
   themes: ['theme-blog-bootstrap'],
   plugins: ['plugin-content-blog'],
-}
+};
 ```
 
 Now, although the theme receives the same data from the plugin, how the theme chooses to _render_ the data as UI can be drastically different.

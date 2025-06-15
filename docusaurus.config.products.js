@@ -26,7 +26,7 @@ const PRODUCTS = {
   threatprevention: false,
   usercube: true,
   usercube_saas: false,
-}
+};
 
 const productConfigs = {
   '1secure': {
@@ -190,15 +190,15 @@ const productConfigs = {
     sidebarPath: './sidebars/usercube_saas.js',
     navLabel: 'UserCube SaaS',
   },
-}
+};
 
 // Generate plugin configurations for enabled products
 function getEnabledPlugins() {
-  const plugins = []
+  const plugins = [];
 
   Object.entries(PRODUCTS).forEach(([product, enabled]) => {
     if (enabled && productConfigs[product]) {
-      const config = productConfigs[product]
+      const config = productConfigs[product];
       plugins.push([
         '@docusaurus/plugin-content-docs',
         {
@@ -214,32 +214,32 @@ function getEnabledPlugins() {
             },
           },
         },
-      ])
+      ]);
     }
-  })
+  });
 
-  return plugins
+  return plugins;
 }
 
 // Generate navbar items for enabled products
 function getEnabledNavItems() {
-  const items = []
+  const items = [];
 
   Object.entries(PRODUCTS).forEach(([product, enabled]) => {
     if (enabled && productConfigs[product]) {
-      const config = productConfigs[product]
+      const config = productConfigs[product];
       items.push({
         label: config.navLabel,
         to: `/${config.routeBasePath}`,
-      })
+      });
     }
-  })
+  });
 
-  return items
+  return items;
 }
 
 module.exports = {
   PRODUCTS,
   getEnabledPlugins,
   getEnabledNavItems,
-}
+};
