@@ -185,7 +185,7 @@ In order to verify both the synchronization configuration and
    synchronized resources, by navigating in the UI from the accounts through a sample of
    associations, via the eye icon:
 
-    ![Eye Icon](../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/synchronization/iconeye_v600.svg)
+    ![Eye Icon](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/synchronization/iconeye_v600.svg)
 
     You should first look for configuration validation, and only later validation of the actual data
     being synchronized.

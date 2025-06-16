@@ -78,7 +78,7 @@ Add or modify properties within the identity data model by proceeding as follows
 
 4. After your changes are complete, click on the Save icon at the top.
 
-    ![Save Icon](../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/user-profile-configuration/iconsave_v602.svg)
+    ![Save Icon](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/user-profile-configuration/iconsave_v602.svg)
 
 5. Click on the **Reload** button to apply the recent changes to the application.
 

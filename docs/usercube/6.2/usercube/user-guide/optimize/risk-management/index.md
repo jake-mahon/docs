@@ -52,7 +52,7 @@ Create a risk by proceeding as follows:
 
 2. On the risks page, click on the addition button at the top right corner.
 
-    ![Addition Icon](../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/iconadd_v602.svg)
+    ![Addition Icon](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/iconadd_v602.svg)
 
 3. Fill in the fields.
 

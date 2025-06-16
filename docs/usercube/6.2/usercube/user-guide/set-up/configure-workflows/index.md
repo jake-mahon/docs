@@ -87,7 +87,7 @@ Configure onboarding workflows by proceeding as follows:
 
 4. Click on **Save** at the top of the page.
 
-    ![Save Icon](../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/user-profile-configuration/iconsave_v602.svg)
+    ![Save Icon](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/user-profile-configuration/iconsave_v602.svg)
 
 ## Verify Workflow Configuration
 

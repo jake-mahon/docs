@@ -80,7 +80,8 @@ Configure a user profile by proceeding as follows:
 2. Check whether the profile to configure is part of the provided list. If not, create it by
    clicking on the addition button at the top right and fill in the fields.
 
-    ![Addition Icon](../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/iconadd_v602.svg)
+    ![Addition Icon](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/iconadd_v602.svg)
+
 
     ![New Profile](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/user-profile-configuration/profiles_creation_v602.webp)
 
@@ -98,7 +99,7 @@ Configure a user profile by proceeding as follows:
 
 5. Click on **Save** at the top of the page.
 
-    ![Save Icon](../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/user-profile-configuration/iconsave_v602.svg)
+    ![Save Icon](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/user-profile-configuration/iconsave_v602.svg)
 
 ## Verify Profile Configuration
 

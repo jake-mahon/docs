@@ -85,7 +85,7 @@ If the request is performed, then a line appears on the **Role Review** screen.
 The workflow state of said request is `Manual`, `Pending approval (risks)` and shows the following
 risk icon.
 
-![Home Page - Role Review](../../../../../../static/img/product_docs/usercube/usercube/integration-guide/governance/risks/risks_riskicon_v522.svg)
+![Home Page - Role Review](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/governance/risks/risks_riskicon_v522.svg)
 
 ### Warning
 
