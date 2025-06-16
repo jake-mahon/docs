@@ -28,7 +28,7 @@ What do you want to do?
 1. On GroupID Portal, select **Synchronize** on left pane.
 2. On the Synchronize portal, click **Job Collections**.
 3. In the **Job Collections** view, click
-   ![option](/img/versioned_docs/groupid_11.0/groupid/portal/synchronize/manage/option.png) on the
+   ![option](/img/versioned_docs/groupid_11.0/groupid/portal/synchronize/manage/option.webp) on the
    job collection you want to save as a template and click **Save As Template**.
 4. Now click **Job Collection Templates** and refresh the page. The newly created job group template
    appears in the **Job Collection Templates** list.

@@ -3,7 +3,7 @@
 Use the Rollback page to enable rollback capabilities for the action. If rollback isn’t selected at
 this step, the applied operations cannot be rolled back after execution of the action module.
 
-![Public Folder Action Module Wizard Rollback page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/filesystem/rollback.png)
+![Public Folder Action Module Wizard Rollback page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/filesystem/rollback.webp)
 
 The options on this page are:
 

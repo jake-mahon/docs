@@ -90,7 +90,7 @@ The following is
 
 To sum up IIS settings:
 
-![IIS Settings](/img/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/server/iis_settings.png)
+![IIS Settings](/img/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/server/iis_settings.webp)
 
 ## Hosting Bundle
 
@@ -219,7 +219,7 @@ The agent service account that was chosen in the previous step:
     5. Select the newly added user name in the **Group or user names** panel at the top of the
        window.
 
-        ![Object Names](/img/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/server/enter-the-object-names-to-select.png)
+        ![Object Names](/img/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/server/enter-the-object-names-to-select.webp)
 
     6. Check the `Allow` column for the
        [relevant permissions](/versioned_docs/usercube_6.1/usercube/installation-guide/requirements/server-requirements/index.md).

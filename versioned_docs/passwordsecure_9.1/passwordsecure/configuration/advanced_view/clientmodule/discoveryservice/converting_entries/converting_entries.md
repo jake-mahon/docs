@@ -6,7 +6,7 @@ discovered **entries** and then creates corresponding **passwords** and **Passwo
 The **Conversion Wizard** is started in the Start ribbon and it is also possible to switch here to
 the **System Tasks**.
 
-![ribbon](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/converting_entries/converting_entries_1-en.png)
+![ribbon](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/converting_entries/converting_entries_1-en.webp)
 
 After the **Discovery Service Task** has been successfully executed, the entries are available in
 the **Discovery Service**. Further processing of the entries is then carried out using the
@@ -27,7 +27,7 @@ In the **Discovery Service** table, the user selects the entries for which he wa
 **Password Reset** or **password**. The user then clicks on the **Conversion Wizard** and the
 **Discovery Service Conversion Wizard** opens for further editing.
 
-![data selection](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/converting_entries/converting_entries_2-en.png)
+![data selection](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/converting_entries/converting_entries_2-en.webp)
 
 1. A **Discovery Service Task** first needs to be selected. This determines the context in which the
    new data will be created (for a new **Password Reset**, the **password for the domain
@@ -47,7 +47,7 @@ NOTE: Logically, **every root node** corresponds to **one user** and all of its 
 
 The following image shows the options **add new password** or retain **existing password**.
 
-![associated password](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/converting_entries/converting_entries_3-en.png)
+![associated password](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/converting_entries/converting_entries_3-en.webp)
 
 In addition, the **organisational unit** in which the existing password is located is displayed.
 
@@ -55,7 +55,7 @@ In addition, the **organisational unit** in which the existing password is locat
 
 The **Password Reset** is configured in the **Settings Ribbon**.
 
-![reset setting](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/converting_entries/converting_entries_4-en.png)
+![reset setting](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/converting_entries/converting_entries_4-en.webp)
 
 The **settings** will be described in more detail below:
 
@@ -76,7 +76,7 @@ and the **passwords changed!**. This also applies to **Windows passwords!**
 If option 1: **Do you also want to add a Password Reset?** is not selected, \*steps 4, 5 and 6 are
 not displayed for configuration.
 
-![password reset option](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/converting_entries/converting_entries_5-en.png)
+![password reset option](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/converting_entries/converting_entries_5-en.webp)
 
 NOTE: After clicking on **Finish**, one or more **passwords will be created** but **no corresponding
 Password Resets will be created!**
@@ -88,7 +88,7 @@ Service entries** is transferred to a password form.
 
 The following images shows the **Assignment (Active Directory user)** Ribbon
 
-![Assignment (Active Directory user)](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/converting_entries/converting_entries_6-en.png)
+![Assignment (Active Directory user)](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/converting_entries/converting_entries_6-en.webp)
 
 ### Description
 
@@ -98,7 +98,7 @@ The following images shows the **Assignment (Active Directory user)** Ribbon
 
 ### "Existing form" selected
 
-![Assignment of the form field](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/converting_entries/converting_entries_7-en.png)
+![Assignment of the form field](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/converting_entries/converting_entries_7-en.webp)
 
 ### Procedure
 
@@ -108,7 +108,7 @@ The following images shows the **Assignment (Active Directory user)** Ribbon
 
 ### "New form" selected
 
-![New Form](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/converting_entries/converting_entries_8-en.png)
+![New Form](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/converting_entries/converting_entries_8-en.webp)
 
 ### Converting Procedure
 
@@ -121,7 +121,7 @@ The following images shows the **Assignment (Active Directory user)** Ribbon
 A brief overview of the actions that will be carried out with the added configuration is displayed
 in the **Summary** Ribbon. These actions will then be carried out if you click on **Finish**.
 
-![summary](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/converting_entries/converting_entries_9-en.png)
+![summary](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/converting_entries/converting_entries_9-en.webp)
 
 ## Confirmation prompt
 
@@ -142,7 +142,7 @@ An **Overview** of which actions will be carried out is displayed for the user t
 note. The user can then still decide to **Cancel** the process. If you click on **OK**, an
 **additional confirmation warning** will be displayed.
 
-![important note](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/converting_entries/converting_entries_10-en.png)
+![important note](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/converting_entries/converting_entries_10-en.webp)
 
 **Security level 2:**
 
@@ -151,7 +151,7 @@ do. It will no longer be possible to reverse the actions afterwards!
 
 **CAUTION:** **Last chance to cancel the execution!**
 
-![securtiy warning](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/converting_entries/converting_entries_11-en.png)
+![securtiy warning](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/converting_entries/converting_entries_11-en.webp)
 
 After **entering the displayed number** and **confirming with OK**, the process is **executed
 immediately** and the **Password Resets** are carried out and the **associated passwords changed**.

@@ -28,7 +28,7 @@ Enablement Toolkit.exe from the **Privilege Secure Installer Package** > **Extr
 account running the toolkit is not a local administrator, Windows will request administrator
 credentials.
 
-![SbPAM Enablement Toolkit - EULA Agreement window](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/sbpamenablementtoolkit_-_1_-_eula_agreement.png)
+![SbPAM Enablement Toolkit - EULA Agreement window](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/sbpamenablementtoolkit_-_1_-_eula_agreement.webp)
 
 **Step 2 –** Click **I Accept** on the Enablement Toolkit EULA window. The Enablement Toolkit window
 opens.
@@ -38,7 +38,7 @@ opens.
 The Enablement Toolkit window fields vary depending on the selected operation. The window has the
 following fields for all operations:
 
-![SbPAM Enablement Toolkit - Default Interface](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/sbpamenablementtoolkit_-_2_-_main_interface.png)
+![SbPAM Enablement Toolkit - Default Interface](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/sbpamenablementtoolkit_-_2_-_main_interface.webp)
 
 - File Menu Options:
 
@@ -85,7 +85,7 @@ Follow the steps to execute an operation.
 **Step 2 –** _Optional_: Open the Help menu for the selected operation by clicking **Help** > **Help
 (Selected Operation)** or pressing **F1**. Click **Close** to close the Help menu.
 
-![Stealthbits Enablement Toolkit - Help Menu](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/sbpamenablementtoolkit_-_3_-_help_window.png)
+![Stealthbits Enablement Toolkit - Help Menu](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/sbpamenablementtoolkit_-_3_-_help_window.webp)
 
 **NOTE:** The Help menu displays key information regarding the selected operation. The Help menu for
 the Enumerate Active Directory Objects operation displays the operation name, required fields,
@@ -94,7 +94,7 @@ for each operation you intend to execute.
 
 **Step 3 –** Configure the fields for the selected operation.
 
-![Stealthbits Enablement Toolkit - Execution Complete](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/sbpamenablementtoolkit_-_4_-_execution_complete.png)
+![Stealthbits Enablement Toolkit - Execution Complete](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/sbpamenablementtoolkit_-_4_-_execution_complete.webp)
 
 **Step 4 –** Click **Execute**. The interface will display the results of the selected operation.
 
@@ -159,14 +159,14 @@ Components** > **Remote Desktop Services** > **Remote Desktop Connection Client*
 
 **NOTE:** Do not expand the Remote Desktop Connection Client folder.
 
-![Troubleshooting - GPO Settings](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/troubleshootinggposettings.png)
+![Troubleshooting - GPO Settings](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/troubleshootinggposettings.webp)
 
 **Step 3 –** Click **Specify SHA1 thumbprints of certificates representing trusted .rdp
 publishers**.
 
 **Step 4 –** Click **Policy Settings** in the upper left-hand corner.
 
-![Troubleshooting - SHA1](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/troubleshootingsha1.png)
+![Troubleshooting - SHA1](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/troubleshootingsha1.webp)
 
 **Step 5 –** Click the **Enabled** radio button.
 

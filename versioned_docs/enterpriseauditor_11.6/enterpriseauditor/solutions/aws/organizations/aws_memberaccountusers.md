@@ -11,7 +11,7 @@ select **Analysis** to view the analysis tasks.
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for the AWS_MemberAccountUsers Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/aws/organizations/memberaccountusersanalysis.png)
+![Analysis Tasks for the AWS_MemberAccountUsers Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/aws/organizations/memberaccountusersanalysis.webp)
 
 The following analysis tasks are selected by default:
 

@@ -54,7 +54,7 @@ version of plink gets installed with the Nmap utility.
 
 The syntax is as follows:
 
-![administratorcommandprompt](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/target/config/administratorcommandprompt.png)
+![administratorcommandprompt](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/target/config/administratorcommandprompt.webp)
 
 Run the following on the command prompt:
 

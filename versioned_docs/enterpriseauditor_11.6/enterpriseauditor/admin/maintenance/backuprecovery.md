@@ -32,11 +32,11 @@ built-in environment variable `%SAINSTALLDIR%`):
 Auditor user. This can be as simple as copying the contents of the tasks folder from the following
 two locations:
 
-![C:\Windows\Tasks](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/maintenance/maintenance_3.png)
+![C:\Windows\Tasks](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/maintenance/maintenance_3.webp)
 
 - C:\Windows\Tasks
 
-![C:\Windows\System32\Tasks](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/maintenance/maintenance_4.png)
+![C:\Windows\System32\Tasks](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/maintenance/maintenance_4.webp)
 
 - C:\Windows\System32\Tasks
 
@@ -87,7 +87,7 @@ Where SA_Node = @OHost;
 
 **Step 7 –** Enable Role Based Access to write the necessary registry keys:
 
-![Role Based Access](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/maintenance/maintenance_5.png)
+![Role Based Access](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/maintenance/maintenance_5.webp)
 
 - Navigate to the **Settings** > **Access** node in the Enterprise Auditor Console and select
   **Access**

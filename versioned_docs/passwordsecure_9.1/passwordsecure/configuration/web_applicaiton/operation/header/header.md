@@ -2,7 +2,7 @@
 
 The header provides the following functions:
 
-![Header](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/web_applicaiton/operation/header/installation_with_parameters_171-en_679x38.png)
+![Header](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/web_applicaiton/operation/header/installation_with_parameters_171-en_679x38.webp)
 
 1. Logo
 

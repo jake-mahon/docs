@@ -3,7 +3,7 @@
 The Configuration interface provides information and management options for advanced configuration
 settings.
 
-![Configuration Interface](/img/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/interface.png)
+![Configuration Interface](/img/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/interface.webp)
 
 Expand the Configuration menu in the Navigation pane for related pages:
 

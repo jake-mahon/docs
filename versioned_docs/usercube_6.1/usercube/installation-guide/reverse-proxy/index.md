@@ -11,19 +11,19 @@ A reverse proxy is usually used when:
 - needing to encrypt the requests from/to end-users on the one hand, and on the other hand to be
   able to monitor plain text requests from/to Usercube's server;
 
-    ![Proxy Purposes: Encryption](/img/versioned_docs/usercube_6.1/usercube/installation-guide/reverse-proxy/proxy_purpose_encryption.png)
+    ![Proxy Purposes: Encryption](/img/versioned_docs/usercube_6.1/usercube/installation-guide/reverse-proxy/proxy_purpose_encryption.webp)
 
 - installing Usercube with an integrated agent on a network isolated from the users' browsers, in
   order to be able to access sensitive systems which are protected by being set up on a network
   isolated from the Internet;
 
-    ![Proxy Installation Example](/img/versioned_docs/usercube_6.1/usercube/installation-guide/reverse-proxy/proxy_example.png)
+    ![Proxy Installation Example](/img/versioned_docs/usercube_6.1/usercube/installation-guide/reverse-proxy/proxy_example.webp)
 
     This installation will be used for the configuration examples below.
 
 - using several Usercube's server instances for load-balancing purposes.
 
-    ![Proxy Purposes: Load Balancing](/img/versioned_docs/usercube_6.1/usercube/installation-guide/reverse-proxy/proxy_purpose_loadbalancing.png)
+    ![Proxy Purposes: Load Balancing](/img/versioned_docs/usercube_6.1/usercube/installation-guide/reverse-proxy/proxy_purpose_loadbalancing.webp)
 
 As Usercube is session-less, working with several servers does not imply the need to synchronize
 sessions between servers, nor the need to guarantee that a particular IP will be processed by a

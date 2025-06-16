@@ -11,7 +11,7 @@ been assigned a user role beyond owner.
 - For an owner without an assigned user role, the Access Information Center will open directly to
   the Owner portal.
 
-![Owner Portal interface with 3 sections identified](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/runninginstances/overview.png)
+![Owner Portal interface with 3 sections identified](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/runninginstances/overview.webp)
 
 The Owner portal has three sections:
 
@@ -34,7 +34,7 @@ The Owner portal has three sections:
 
 The Ownership Status section contains a confirmation chart.
 
-![Ownership Status donut graph](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceowners/ownerportal/ownershipstatus.png)
+![Ownership Status donut graph](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceowners/ownerportal/ownershipstatus.webp)
 
 It displays a graphical representation of the percentage of resources assigned to you that have been
 confirmed.

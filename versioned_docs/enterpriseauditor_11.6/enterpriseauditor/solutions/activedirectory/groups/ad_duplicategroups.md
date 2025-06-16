@@ -11,7 +11,7 @@ and select **Analysis** to view the analysis tasks.
 **CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
 preconfigured for this job.
 
-![Analysis Task for the AD_DuplicateGroups Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/groups/duplicategroupsanalysis.png)
+![Analysis Task for the AD_DuplicateGroups Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/groups/duplicategroupsanalysis.webp)
 
 The default analysis tasks are:
 

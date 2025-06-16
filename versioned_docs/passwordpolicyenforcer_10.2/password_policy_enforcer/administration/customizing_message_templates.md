@@ -14,24 +14,24 @@ Follow the steps below to edit a policy's message templates.
 
 **Step 1 –** Click the **Policies** item to display the Policies view.
 
-![customizing_message_templates_1](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/customizing_message_templates_1.png)
+![customizing_message_templates_1](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/customizing_message_templates_1.webp)
 
 **Step 2 –** Click the **desired policy** in the right pane of the management console.
 
-![customizing_message_templates_2](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/customizing_message_templates_2.png)
+![customizing_message_templates_2](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/customizing_message_templates_2.webp)
 
 **Step 3 –** Right-click the desired policy to display the policy Settings page. Click
 **Properties**.
 
-![customizing_message_templates_3](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/customizing_message_templates_3.png)
+![customizing_message_templates_3](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/customizing_message_templates_3.webp)
 
 **Step 4 –** Click the **Messages** tab.
 
-![customizing_message_templates_4](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/customizing_message_templates_4.png)
+![customizing_message_templates_4](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/customizing_message_templates_4.webp)
 
 **Step 5 –** Choose a language from the Language drop-down list.
 
-![customizing_message_templates_5](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/customizing_message_templates_5.png)
+![customizing_message_templates_5](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/customizing_message_templates_5.webp)
 
 **Step 6 –** Edit the message templates in the Password Policy, Rejection Reason, and Generic
 Rejection text boxes, as needed.
@@ -62,11 +62,11 @@ Password Policy Client messages can be configured to display live feedback to en
 enter their passwords. This feature allows users to see if their passwords meet the requirements of
 the policy set by the organization. The image below illustrates an example of a live policy message.
 
-![livepolicymessageexample](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/livepolicymessageexample.png)
+![livepolicymessageexample](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/livepolicymessageexample.webp)
 
 **NOTE:** The password client needs to be at version 10.2+ to support this capability.
 
 To support password live messages the password policy message must include the [Live_Policy]
 declaration in the Password Policy Message.
 
-![policypropertieswindow](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/policypropertieswindow.png)
+![policypropertieswindow](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/policypropertieswindow.webp)

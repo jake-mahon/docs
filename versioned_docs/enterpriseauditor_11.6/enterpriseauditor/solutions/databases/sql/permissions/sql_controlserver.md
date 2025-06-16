@@ -11,7 +11,7 @@ Analysis to view the analysis tasks.
 **CAUTION:** Do not modify or deselect the selected analysis task(s). The analysis task(s) are
 preconfigured for this job.
 
-![Analysis Selection](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/sql/permissions/sqljobgroup37.png)
+![Analysis Selection](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/sql/permissions/sqljobgroup37.webp)
 
 The default analysis tasks are:
 

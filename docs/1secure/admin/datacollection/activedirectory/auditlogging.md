@@ -1,3 +1,12 @@
+---
+id: configure-exchange-administrator-audit-logging-settings
+title: "Configure Exchange Administrator Audit Logging Settings"
+pagination_label: "Configure Exchange Administrator Audit Logging Settings"
+sidebar_label: "Configure Exchange Administrator Audit Logging Settings"
+sidebar_position: 65
+description: "Learn how to configure Exchange Administrator Audit Logging settings for monitoring changes to Exchange servers."
+---
+
 # Configure Exchange Administrator Audit Logging Settings
 
 To be able to audit and report who made changes to the Exchange servers in your on-premises

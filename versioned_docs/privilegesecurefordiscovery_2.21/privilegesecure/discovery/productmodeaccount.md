@@ -24,7 +24,7 @@ Group Policy Objects. the **_Group Policy Management -> Forest: `<domain>` -> Do
 - `<domain>` is a placeholder for domain name
 - cstest.test used in example below
 
-![mceclip2.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/1500011376402_mceclip2.png)
+![mceclip2.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/1500011376402_mceclip2.webp)
 
 **Step 3 –** Type in name of GPO and click **OK**.
 
@@ -33,23 +33,23 @@ Settings** > **Local Users and Groups**.
 
 **Step 5 –** Right-click **Local Users and Groups**, then click **New** > **Local Group**.
 
-![mceclip0.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/1500011376402_mceclip0.png)
+![mceclip0.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/1500011376402_mceclip0.webp)
 
 **Step 6 –** Make sure that Action is set to **Update**, and select **Administrators (built-in)** in
 the Group Name drop-down menu.
 
-![mceclip1.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/1500011376402_mceclip1.png)
+![mceclip1.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/1500011376402_mceclip1.webp)
 
 **Step 7 –** Add the Privilege Secure protect account, "s1GPOpush" used as and example account
 below:
 
-![mceclip4.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/1500011376402_mceclip4.png)
+![mceclip4.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/1500011376402_mceclip4.webp)
 
-![mceclip6.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/1500011376402_mceclip6.png)
+![mceclip6.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/1500011376402_mceclip6.webp)
 
 **Step 8 –** Ensure that the **Delete** boxes are **not** checked and then click **OK**.
 
-![mceclip7.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/1500011376402_mceclip7.png)
+![mceclip7.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/1500011376402_mceclip7.webp)
 
 **Step 9 –** Close the Group Policy Management Editor for the GPO.
 
@@ -59,13 +59,13 @@ below:
 
 Example linked into OU2:
 
-![mceclip10.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/1500011376402_mceclip10.png)
+![mceclip10.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/1500011376402_mceclip10.webp)
 
 As seen linked in OU2:
 
-![mceclip12.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/1500011376402_mceclip12.png)
+![mceclip12.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/1500011376402_mceclip12.webp)
 
 **Step 11 –** For testing, this can be linked into a OU with a test systems, log into test system
 and run command line update of the Group Policy with:  `gpupdate /force`
 
-![mceclip13.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/1500011376402_mceclip13.png)
+![mceclip13.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/1500011376402_mceclip13.webp)

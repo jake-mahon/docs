@@ -12,7 +12,7 @@ Follow the steps to set a policy's priority.
 **Step 2 –** Click Set Priorities in the right pane of the management console. This option is only
 visible when there is more than one password policy.
 
-![managing_policies_6_363x434](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/managing_policies_6_363x434.png)
+![managing_policies_6_363x434](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/managing_policies_6_363x434.webp)
 
 **Step 3 –** Select the desired policy.
 

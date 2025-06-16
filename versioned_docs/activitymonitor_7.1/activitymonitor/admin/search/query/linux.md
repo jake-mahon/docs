@@ -4,7 +4,7 @@ You can search Linux file server and NAS device activity that has been monitored
 File output. When you select **Linux** from the magnifying glass drop-down menu, a New Search tab
 opens with the applicable query filters.
 
-![Linux Search Query](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/query/linuxsearchquerybar.png)
+![Linux Search Query](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/query/linuxsearchquerybar.webp)
 
 By default, the query is set to return all event activity for the past day. Configuring query
 filters will scope results returned.

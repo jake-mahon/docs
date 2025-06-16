@@ -10,7 +10,7 @@ View the analysis tasks by navigating to the **Exchange** > **4. Mailboxes** >
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for the EX_StoreSizes Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/mailboxes/sizing/storesizesanalysis.png)
+![Analysis Tasks for the EX_StoreSizes Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/mailboxes/sizing/storesizesanalysis.webp)
 
 The following analysis tasks are selected by default:
 

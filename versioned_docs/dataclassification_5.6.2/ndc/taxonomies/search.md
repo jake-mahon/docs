@@ -4,7 +4,7 @@ You can search for documents based on the class clues. For that, click on the na
 clue in the clue list in the management console (or even any suggested clue), go to the **Search**
 tab and configure search settings.
 
-![searchtab](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/searchtab.png)
+![searchtab](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/searchtab.webp)
 
 1. Set up the following properties that will be considered a basis for the search:
 
@@ -31,8 +31,8 @@ tab and configure search settings.
    document movements. As a result, the “movement” of the document since the last classification
    will be shown. Possible scenarios are:
 
-![movementskey](/img/versioned_docs/dataclassification_5.6.2/ndc/taxonomies/movementskey.png)
+![movementskey](/img/versioned_docs/dataclassification_5.6.2/ndc/taxonomies/movementskey.webp)
 
 OR
 
-![documentmovements_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/taxonomies/documentmovements_thumb_0_0.png)
+![documentmovements_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/taxonomies/documentmovements_thumb_0_0.webp)

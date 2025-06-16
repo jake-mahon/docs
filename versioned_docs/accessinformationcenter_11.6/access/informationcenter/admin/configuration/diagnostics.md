@@ -3,7 +3,7 @@
 Download logs and enable debug log level for troubleshooting with Netwrix Support on the Diagnostics
 page of the Configuration interface.
 
-![Configuration interface showing the Diagnostics page](/img/versioned_docs/auditor_10.6/access/reviews/admin/configuration/diagnostics.png)
+![Configuration interface showing the Diagnostics page](/img/versioned_docs/auditor_10.6/access/reviews/admin/configuration/diagnostics.webp)
 
 When requested by [Netwrix Support](https://www.netwrix.com/support.html), click Download Logs to
 download the archive of all application logs.

@@ -6,7 +6,7 @@ Follow the steps to add a Protection policy to the console.
 
 **Step 2 –** In the Protection Policy list, click the Plus icon.
 
-![Add Protection Policy](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/add/addprotectionpolicy.png)
+![Add Protection Policy](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/add/addprotectionpolicy.webp)
 
 **Step 3 –** Enter the following information:
 

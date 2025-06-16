@@ -12,7 +12,7 @@ tasks.
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for AD_DeprovisionComputers_Status Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/cleanup/computers/deprovisioncomputersstatusanalysis.png)
+![Analysis Tasks for AD_DeprovisionComputers_Status Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/cleanup/computers/deprovisioncomputersstatusanalysis.webp)
 
 The default analysis tasks are:
 

@@ -19,4 +19,4 @@ Then specify the following action parameters
 | **Field Name**   | Provide the internal name or ID of the document property field (metadata) that should be updated. | This can be, for example, DocType, URL, Last modified date, etc.                                         |
 | **Value**        | Select where the new field value should be obtained from.                                         | You can use static or crawled value, similarly to SharePoint (as described in the Update Field section). |
 
-![action_advanced_cs_update_field_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/workflows/advanced_window/action_advanced_cs_update_field_thumb_0_0.png)
+![action_advanced_cs_update_field_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/workflows/advanced_window/action_advanced_cs_update_field_thumb_0_0.webp)

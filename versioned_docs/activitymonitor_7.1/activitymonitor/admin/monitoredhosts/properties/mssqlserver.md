@@ -3,7 +3,7 @@
 The MS SQL Server tab on SQL Server host's properties window is used to configure properties for
 SQL activity monitoring on the host.
 
-![MS SQL Server Tab](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/properties/mssqlservertab.png)
+![MS SQL Server Tab](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/properties/mssqlservertab.webp)
 
 The configurable options are:
 

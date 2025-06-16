@@ -31,7 +31,7 @@ article.
 Export format types support archival of Events, Policy, and Planned Changes Only or, to assist
 Netwrix with support, a Full or Support Snapshot export may be requested.
 
-![SystemSettingsExportImport](/img/versioned_docs/changetracker_8.0/changetracker/admin/settings/systemsettingsexportimport.png)
+![SystemSettingsExportImport](/img/versioned_docs/changetracker_8.0/changetracker/admin/settings/systemsettingsexportimport.webp)
 
 ## System Performance
 
@@ -45,4 +45,4 @@ Inspect details for the current license and upload a new license key if required
 license key, just paste the code provided into the **Add New License** field and click **Upload
 License**.
 
-![SystemSettingsLicense](/img/versioned_docs/changetracker_8.0/changetracker/admin/settings/systemsettingslicense.png)
+![SystemSettingsLicense](/img/versioned_docs/changetracker_8.0/changetracker/admin/settings/systemsettingslicense.webp)

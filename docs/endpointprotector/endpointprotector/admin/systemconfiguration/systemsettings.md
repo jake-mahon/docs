@@ -12,7 +12,7 @@ Default Department code - defdep.
 
 **NOTE:** See the System Settings topic for additional information.
 
-![Department Usage](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/departmentusage.png)
+![Department Usage](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/departmentusage.webp)
 
 ## Session Settings
 
@@ -27,21 +27,21 @@ Example: If you deﬁne the Session Timeout to 5 minutes and the Timeout counter
 after 4 minutes of inactivity you will be notiﬁed by the pop-up window that in 60 seconds you will
 be logged out.
 
-![Session Settings](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/sessionsettings.png)
+![Session Settings](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/sessionsettings.webp)
 
 If you remain idle for the deﬁned amount of time, then Endpoint Protector stops responding and
 displays a message that indicates the session will expire in the predeﬁned countdown.
 
 You can choose to log out or continue your session, resetting the session timeout interval.
 
-![Session timeout interval](../../../../../static/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/sessiontimeout.png)
+![Session timeout interval](../../../../../static/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/sessiontimeout.webp)
 
 ## Endpoint Protector Rights Functionality
 
 Set functionality rights for computer, user, or both, in which case you can prioritize user rights
 or computer rights.
 
-![Endpoint Protector Rights Functionality](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/rightsfunctionality.png)
+![Endpoint Protector Rights Functionality](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/rightsfunctionality.webp)
 
 ## Smart Groups
 
@@ -63,7 +63,7 @@ pattern.
 
 **NOTE:** By disabling this setting, you will delete the Default Group for Users.
 
-![Smart Groups](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/smartgroups.png)
+![Smart Groups](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/smartgroups.webp)
 
 ## Client Update Mechanism
 
@@ -77,7 +77,7 @@ and port.
 **NOTE:** Note: Ensure that your specified hostname and port settings comply with your network
 policies and any security requirements.
 
-![Client Update Mechanism](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/clientupdatemechanism.png)
+![Client Update Mechanism](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/clientupdatemechanism.webp)
 
 ## Custom Settings
 
@@ -89,7 +89,7 @@ To display more information in Endpoint Protector, enable the following:
 - MAC Address Priority
 - Show Universal Oﬄine Temporary Password only to Super Admins
 
-![Custom Settings](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/customsettings.png)
+![Custom Settings](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/customsettings.webp)
 
 ## Log Settings
 
@@ -116,7 +116,7 @@ The structure enabled by this setting will also be reﬂected in SIEM.
 
 **NOTE:** You can set a number of reported threats between 100 and 1000.
 
-![Log Settings](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/logsettings.png)
+![Log Settings](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/logsettings.webp)
 
 ### Log Settings Use Case and Terminology
 
@@ -168,7 +168,7 @@ The maximum number of reported threats will be automatically modiﬁed as follow
 |            |               |
 |            |               |
 
-![Content Aware Protection – Ignore Thresholds ](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/capignorethresholds.png)
+![Content Aware Protection – Ignore Thresholds ](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/capignorethresholds.webp)
 
 Limit Reporting Content Aware Protection refers to Report Only policies.
 
@@ -369,14 +369,14 @@ reported threats’ under ‘Ignore Thresholds’ is reached.
 Enable the Virtual Desktop Clones Support setting to allow the Endpoint Protector server to identify
 the virtual desktop clone and interact accordingly with the Endpoint Protector client.
 
-![Virtual Desktop Clones](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/virtualdesktopclones.png)
+![Virtual Desktop Clones](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/virtualdesktopclones.webp)
 
 ## Deep Packet Inspection Certiﬁcate
 
 Disable the Deep Packet Inspection certiﬁcate download to require the Endpoint Protector clients to
 use the legacy certiﬁcate. You can also download the **Client CA Certiﬁcate**.
 
-![Deep Packet Inspection Certiﬁcate ](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/dpinspectioncert.png)
+![Deep Packet Inspection Certiﬁcate ](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/dpinspectioncert.webp)
 
 ## Server Certiﬁcate Stack
 
@@ -404,14 +404,14 @@ as to Linux systems.
 **CAUTION:** Do not use this setting if no instance of macOS 12.0 (or higher) is registered on the
 Endpoint Protector server.
 
-![Server Certiﬁcate Stack](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/servercertstack.png)
+![Server Certiﬁcate Stack](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/servercertstack.webp)
 
 ## Single Sign On
 
 Enable the Single Sign On Login setting to log into Endpoint Protector and then select a **Failover
 Login User** to use when single sign on is not functional.
 
-![Single Sign On](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/singlesignon.png)
+![Single Sign On](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/singlesignon.webp)
 
 **NOTE:** See the [Single Sign On](singlesignon/singlesignon.md) topic for additional information.
 
@@ -444,11 +444,11 @@ part of this AD group will be synced and imported as Super Administrators for En
 Any additional administrators (with different access control levels) can be created manually from
 the System Administrators section.
 
-![Active Directory Authentication](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/activedirectoryauthentication.png)
+![Active Directory Authentication](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/activedirectoryauthentication.webp)
 
 ## E-mail Server Settings
 
-![E-mail Server Settings](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/mailserversettings.png)
+![E-mail Server Settings](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/mailserversettings.webp)
 
 Manage Email server settings based on the email type you use - native or SMTP.
 
@@ -456,9 +456,9 @@ Manage Email server settings based on the email type you use - native or SMTP.
 
 Manage email server settings based on your email type—native or SMTP, with support for TLS 1.3.
 
-![E-mail Server Settings](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/mailserversettingstwo.png)
+![E-mail Server Settings](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/mailserversettingstwo.webp)
 
-![E-mail Server Settings](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/mailserversettingsthree.png)
+![E-mail Server Settings](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/mailserversettingsthree.webp)
 
 ### Proxy Server Settings
 
@@ -474,13 +474,13 @@ Once you provide all the information, click Test to conﬁrm the settings are wo
 **NOTE:** If a Proxy Server is not conﬁgured, Endpoint Protector will connect directly to
 liveupdate.endpointprotector.com.
 
-![Proxy Server Settings](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/proxyserversettings.png)
+![Proxy Server Settings](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/proxyserversettings.webp)
 
 ## Main Administrator Contact Details
 
 Edit contact details for the main administrator and then click Save to keep all modiﬁcations.
 
-![Main Administrator Contact Details](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/mainadministratorcontact.png)
+![Main Administrator Contact Details](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/mainadministratorcontact.webp)
 
 ### Server Display Name
 
@@ -490,4 +490,4 @@ Protector logo on the login page and alongside the logo in the Endpoint Protecto
 customize text and upload a custom logo for further personalization. These visual cues are designed
 to prevent incidents like unintentional modiﬁcations on the wrong environment
 
-![EPP Server Display Name](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/serverdisplayname.png)
+![EPP Server Display Name](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/serverdisplayname.webp)

@@ -1,3 +1,12 @@
+---
+id: custom-reports
+title: "Custom Reports"
+pagination_label: "Custom Reports"
+sidebar_label: "Custom Reports"
+sidebar_position: 53
+description: "Learn how to create and save custom reports with specific filter sets for recurring analysis."
+---
+
 # Custom Reports
 
 You can define a filter set and create a custom report based on the filter so that you will not have
@@ -49,7 +58,7 @@ for additional information on shared reports.
 Your custom report is created under the respective category.
 
 **NOTE:** You may link this report to an alert. See the
-[Add a Custom Alert](../alerts/alerts.md#add-a-custom-alert) topic for additional information.
+[Add a Custom Alert](../alerts/index.md#add-a-custom-alert) topic for additional information.
 
 ## Modify a Custom Report
 

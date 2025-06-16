@@ -3,7 +3,7 @@
 On this step, you will be prompted to email settings for health reporting and select immediate
 health alerts.
 
-![initial_config_health](/img/versioned_docs/dataclassification_5.6.2/ndc/deployment/initial_config_health.png)
+![initial_config_health](/img/versioned_docs/dataclassification_5.6.2/ndc/deployment/initial_config_health.webp)
 
 Complete the following fields:
 

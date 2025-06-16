@@ -12,7 +12,7 @@ select **Analysis** to view the analysis tasks.
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for the AD_DuplicateUsers Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/users/duplicateusersanalysis.png)
+![Analysis Tasks for the AD_DuplicateUsers Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/users/duplicateusersanalysis.webp)
 
 The default analysis tasks are:
 

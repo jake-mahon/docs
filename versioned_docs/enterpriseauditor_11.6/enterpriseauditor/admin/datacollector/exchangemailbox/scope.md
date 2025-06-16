@@ -3,7 +3,7 @@
 The Scope page is used to define which mailboxes are to be queried. It is a wizard page for all of
 the categories.
 
-![Exchange Mailbox Data Collector Wizard Scope page](/img/versioned_docs/activitymonitor_7.1/config/activedirectory/scope.png)
+![Exchange Mailbox Data Collector Wizard Scope page](/img/versioned_docs/activitymonitor_7.1/config/activedirectory/scope.webp)
 
 At the top, configure the mailboxes to be queried. The selected option changes how the mailboxes are
 identified for scoping.
@@ -13,7 +13,7 @@ identified for scoping.
   visible within the **Available mailboxes on connected server** list. The following options
   display:
 
-    ![Scope page with Selected mailboxes from server selected](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchangemailbox/scopeselectedmailboxes.png)
+    ![Scope page with Selected mailboxes from server selected](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchangemailbox/scopeselectedmailboxes.webp)
 
     - Retrieve – Enter the server and select Retrieve to display the list of mailboxes on that
       server
@@ -26,7 +26,7 @@ identified for scoping.
 - Selected table – Populates the **Available tables** list with tables from the Enterprise Auditor
   database
 
-    ![Scope page with Selected table selected](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchangepublicfolder/scopeselectedtable.png)
+    ![Scope page with Selected table selected](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchangepublicfolder/scopeselectedtable.webp)
 
     - Table – Filters this list by tables. Select the table which hosts the list of mailboxes for
       which this query will be scoped.

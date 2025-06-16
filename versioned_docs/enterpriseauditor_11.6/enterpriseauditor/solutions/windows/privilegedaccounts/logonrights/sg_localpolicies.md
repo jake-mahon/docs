@@ -10,7 +10,7 @@ Navigate to the **Windows** > **Privileged Accounts** > **Logon Rights** > **SG_
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for the SG_LocalPolicies Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/windows/privilegedaccounts/logonrights/localpoliciesanalysis.png)
+![Analysis Tasks for the SG_LocalPolicies Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/windows/privilegedaccounts/logonrights/localpoliciesanalysis.webp)
 
 The default analysis tasks are:
 

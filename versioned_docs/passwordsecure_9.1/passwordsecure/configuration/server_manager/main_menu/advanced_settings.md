@@ -4,7 +4,7 @@
 
 Global standard default values are specified in the advanced settings.
 
-![advanced settings](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/server_manager/main_menu/installation_with_parameters_263-en.png)
+![advanced settings](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/server_manager/main_menu/installation_with_parameters_263-en.webp)
 
 #### Database server
 

@@ -34,7 +34,7 @@ store that user belongs to.
 After the History Retention schedule runs, the following information is displayed on the **History**
 page in identity store configurations:
 
-![historyretention](/img/versioned_docs/groupid_11.0/groupid/admincenter/schedule/historyretention.png)
+![historyretention](/img/versioned_docs/groupid_11.0/groupid/admincenter/schedule/historyretention.webp)
 
 You cannot create or delete a History Retention schedule; only update the existing one.
 

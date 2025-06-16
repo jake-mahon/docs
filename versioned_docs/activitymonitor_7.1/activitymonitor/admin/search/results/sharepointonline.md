@@ -9,7 +9,7 @@ results using the column headers. Below the Search button is the
 [Export](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/overview.md#export)
 option.
 
-![SharePoint Online Search Results](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/results/sharepointonlinesearchresults.png)
+![SharePoint Online Search Results](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/results/sharepointonlinesearchresults.webp)
 
 The results data grid columns display the following information for each event:
 

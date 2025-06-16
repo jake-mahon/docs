@@ -12,7 +12,7 @@ more help
   button;
 - Use the ‘Group Name’ box to search and filter Device Groups shown.
 
-![page_guide_27](/img/versioned_docs/changetracker_8.0/changetracker/admin/settings/page_guide_27.png)
+![page_guide_27](/img/versioned_docs/changetracker_8.0/changetracker/admin/settings/page_guide_27.webp)
 
 Click on a Device Group name to configure further attributes for the Group, such as:
 
@@ -21,7 +21,7 @@ Click on a Device Group name to configure further attributes for the Group, such
 - Group Members, with the option to export a list of group Members
 - Define the schedule for [Agent Updates](agentupdates.md)
 
-![page_guide_28](/img/versioned_docs/changetracker_8.0/changetracker/admin/settings/page_guide_28.png)
+![page_guide_28](/img/versioned_docs/changetracker_8.0/changetracker/admin/settings/page_guide_28.webp)
 
 ## Agent Discovery/Registration Process
 
@@ -41,7 +41,7 @@ Tracker , hence it requiring your intervention to make sure settings are as need
 
 The key tags within the file are as follows:
 
-![page_guide_29](/img/versioned_docs/changetracker_8.0/changetracker/admin/settings/page_guide_29.png)
+![page_guide_29](/img/versioned_docs/changetracker_8.0/changetracker/admin/settings/page_guide_29.webp)
 
 \*The **Thumbprint** uniquely identifies the Web Server certificate, see the
 [How to: Retrieve the Thumbprint of a Certificate](<https://msdn.microsoft.com/en-us/library/ms734695(v=vs.110).aspx>)
@@ -84,7 +84,7 @@ possible match (in other words, there must be a group already defined with the G
 referenced). This substituted name is then used as the initial group to register the agent into.
 Note: if there s no match they ll end up in the default New Devices .
 
-![page_guide_30](/img/versioned_docs/changetracker_8.0/changetracker/admin/settings/page_guide_30.png)
+![page_guide_30](/img/versioned_docs/changetracker_8.0/changetracker/admin/settings/page_guide_30.webp)
 
 You can view and edit the Default Registration Report from the **System** page. In conjunction with
 the Registration Report, the optional Registration Script parameters can be used, providing a GUI
@@ -94,4 +94,4 @@ value from the registry, and the custom code reads this value and appends it to 
 So, if the registry value contained **WebServer**, the device would be placed in the
 **CustomWebServer** group if it exists, falling back on New Devices if it doesn t.
 
-![page_guide_31](/img/versioned_docs/changetracker_8.0/changetracker/admin/settings/page_guide_31.png)
+![page_guide_31](/img/versioned_docs/changetracker_8.0/changetracker/admin/settings/page_guide_31.webp)

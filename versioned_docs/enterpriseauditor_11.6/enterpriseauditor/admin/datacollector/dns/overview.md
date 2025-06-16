@@ -27,7 +27,7 @@ contains the following wizard pages:
 - [DNS: Results](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/dns/results.md)
 - [DNS: Summary](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/dns/summary.md)
 
-![Domain Name System Data Collector Wizard Welcome page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/welcome.png)
+![Domain Name System Data Collector Wizard Welcome page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/welcome.webp)
 
 The Welcome page can be hidden by selecting the Do not display this page the next time checkbox when
 the wizard is open and configuration settings are saved.

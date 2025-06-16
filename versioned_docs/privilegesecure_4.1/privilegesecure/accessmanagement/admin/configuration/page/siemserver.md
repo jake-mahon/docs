@@ -10,7 +10,7 @@ template to define the format/data to be sent.
 
 **Step 1 –** Navigate to the **Configuration** > **SIEM** > **SIEM Templates** page.
 
-![siemservers](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/page/siemservers.png)
+![siemservers](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/page/siemservers.webp)
 
 **Step 2 –** Enter the following information:
 
@@ -28,7 +28,7 @@ Events destined for SIEM Servers are sent to a queue. The SIEM service is respon
 events out the queue and processing them. Multiple SIEM services may be used to process high volumes
 of events.
 
-![SIEM Serivce Page](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/page/siemservice.png)
+![SIEM Serivce Page](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/page/siemservice.webp)
 
 Events processed may be viewed by selecting the SIEM service in the Service Node page.
 

@@ -5,7 +5,7 @@ for Modules, such as Content Aware Protection and eDiscovery, as well as Endpoin
 you protect. You can import licenses, view details, and handle free trials, ensuring efficient and
 flexible license management.
 
-![System Licensing](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/systemlicensing.png)
+![System Licensing](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/systemlicensing.webp)
 
 **NOTE:** As of Endpoint Protector Version 5.9.0.0, a new subscription-based licensing system has
 been introduced. This change removes the licensing restrictions on Premium features, granting
@@ -44,7 +44,7 @@ Click **Import Licenses** to allow browsing for the license ﬁle. It contains a
 information in a single ﬁle (modules, number of endpoints, expiry date, type of Support, etc.).
 Click **View Licenses** to allow the management of the endpoint licenses.
 
-![Import and Manage Licenses](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/importmanagelicenses.png)
+![Import and Manage Licenses](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/importmanagelicenses.webp)
 
 If one or more licensed endpoints become inactive and need to be reassigned, you can release those
 licenses, which will automatically be reassigned to other online computers.
@@ -53,7 +53,7 @@ By using the Automatic Release Licenses functionality, licenses will be released
 endpoints that have not been seen online in a speciﬁc number of days (15 days, 30 days, 90 days,
 etc. or a custom value).
 
-![Automatic Release Licenses  ](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/autoreleaselicenses.png)
+![Automatic Release Licenses  ](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/autoreleaselicenses.webp)
 
 To streamline license management within System Conﬁguration, navigate to **System Licensing** and
 discover the Serial Number ﬁeld under the **View Licenses** section. In the licensing table, you
@@ -65,4 +65,4 @@ by MachineUUIDs.
 **NOTE:** If a computer's Serial Number is absent, it will be substituted with MachineUUID to ensure
 endpoint machine reliability, now featuring in the license page column across all OS platforms.
 
-![Licensing Table](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/licensingtable.png)
+![Licensing Table](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/licensingtable.webp)

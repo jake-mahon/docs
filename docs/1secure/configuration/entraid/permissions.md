@@ -1,3 +1,12 @@
+---
+id: microsoft-365-permissions
+title: "Microsoft 365 Permissions"
+pagination_label: "Microsoft 365 Permissions"
+sidebar_label: "Microsoft 365 Permissions"
+sidebar_position: 111
+description: "Learn about the permissions required for applications registered in Microsoft Entra ID to audit Microsoft 365 data sources."
+---
+
 # Microsoft 365 Permissions
 
 This page lists the permissions required for an application you registered in Microsoft Entra ID to

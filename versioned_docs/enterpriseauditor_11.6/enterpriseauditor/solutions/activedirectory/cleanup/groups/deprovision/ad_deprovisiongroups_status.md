@@ -11,7 +11,7 @@ tasks.
 **CAUTION:** Do not modify or deselect the selected analysis task. The analysis tasks is
 preconfigured for this job.
 
-![Analysis Task for the AD_DeprovisionGroups_Status Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/cleanup/groups/deprovision/deprovisiongroupsstatusanalysis.png)
+![Analysis Task for the AD_DeprovisionGroups_Status Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/cleanup/groups/deprovision/deprovisiongroupsstatusanalysis.webp)
 
 The default analysis task is:
 

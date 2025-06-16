@@ -51,7 +51,7 @@ following wizard pages:
 - [SMARTLog: Event Log Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/smartlog/eventlogoptions.md)
 - [SMARTLog: Summary](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/smartlog/summary.md)
 
-![SMART Log DC Wizard Welcome page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/welcome.png)
+![SMART Log DC Wizard Welcome page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/welcome.webp)
 
 There are no configurable settings on the Welcome page. Click **Next** to proceed to the Log Type
 page.

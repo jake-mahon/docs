@@ -6,6 +6,6 @@ on the Input page. See the
 [Change Detection: Input](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/analysis/changedetection/input.md) topic
 for additional information.
 
-![Change Detection Data Analysis Module wizard Unique Key page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/analysis/changedetection/uniquekey.png)
+![Change Detection Data Analysis Module wizard Unique Key page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/analysis/changedetection/uniquekey.webp)
 
 Select one or more fields to form a unique key for the selected table and its columns.

@@ -31,7 +31,7 @@ local Administrators group to run the Netwrix Auditor installation.
 **Step 2 –** Unpack the installation package. The following window will be displayed on successful
 operation completion:
 
-![installationscreen](/img/versioned_docs/auditor_10.6/auditor/install/installationscreen.png)
+![installationscreen](/img/versioned_docs/auditor_10.6/auditor/install/installationscreen.webp)
 
 **Step 3 –** Follow the instructions of the setup wizard. When prompted, accept the license
 agreement.
@@ -64,7 +64,7 @@ the product will start. See the
 [First Launch](/versioned_docs/auditor_10.6/auditor/install/firstlaunch.md) topic for additional
 information on the product navigation.
 
-![welcome_screen](/img/versioned_docs/auditor_10.6/auditor/install/welcome_screen.png)
+![welcome_screen](/img/versioned_docs/auditor_10.6/auditor/install/welcome_screen.webp)
 
 Netwrix looks beyond the traditional on-premises installation and provides Auditor for cloud and
 virtual environments. For example, you can deploy Auditor on a pre-configured Microsoft Azure

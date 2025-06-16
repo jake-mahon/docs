@@ -20,7 +20,7 @@ Below are the different displays of the same Worker service's JIT access granted
 whenever the "Access System" button on the Grant Access page of a system is clicked and a successful
 JIT request is granted for that user.
 
-![mceclip0.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/integrations/siem/7742334174999_mceclip0.png)
+![mceclip0.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/integrations/siem/7742334174999_mceclip0.webp)
 
 Here's the command line "raw" event log for this JIT access granted event, directly from the
 Privilege Secure application.
@@ -79,12 +79,12 @@ Privilege Secure application.
 
 Here's the same event log, from the command line in a screenshot for visual comparison.
 
-![blobid0.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/integrations/siem/7742334174999_blobid0.png)
+![blobid0.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/integrations/siem/7742334174999_blobid0.webp)
 
 Lastly, here's what the event log for the same JIT access granted action looks like in Splunk when
 the JSON message is successfully parsed.
 
-![blobid1.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/integrations/siem/7742334174999_blobid1.png)
+![blobid1.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/integrations/siem/7742334174999_blobid1.webp)
 
 For Splunk parsing, the use of the "_json" Source Type selection is located under the Settings >
 Data Inputs > HTTP Event collector > "SecureONE" token > Source Type drop down list.
@@ -92,7 +92,7 @@ Data Inputs > HTTP Event collector > "SecureONE" token > Source Type drop down l
 **NOTE:** The Token name in the below image is "secureone" but this can be named anything to
 reference the Privilege Secureapplication within Splunk.
 
-![mceclip1.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/integrations/siem/7742334174999_mceclip1.png)
+![mceclip1.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/integrations/siem/7742334174999_mceclip1.webp)
 
 More information on Splunk source types can be viewed here: 
 [https://docs.splunk.com/Documentation/SplunkCloud/8.2.2203/Data/Whysourcetypesmatter](https://docs.splunk.com/Documentation/SplunkCloud/8.2.2203/Data/Whysourcetypesmatter)

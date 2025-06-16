@@ -11,7 +11,7 @@ node. See the
 [Actions Node](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/configure/actions.md)
 topic for additional information on the Action Selection view.
 
-![Action Selection page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/actionselection.png)
+![Action Selection page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/actionselection.webp)
 
 Configure the action through the Action Properties page. Navigate to the job’s **Configure** >
 **Actions** node. Select **Create Action** to add a new action task to a job. Select an existing
@@ -79,7 +79,7 @@ changes to a production environment.
 Use this page to view or specify properties for a selected action, including the name, description,
 action module, and source table. Access this page via the Action Selection view.
 
-![Action Properties page for new action](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/actionproperties.png)
+![Action Properties page for new action](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/actionproperties.webp)
 
 **_RECOMMENDED:_** Provide unique and descriptive names and action task descriptions to all user
 created action tasks.

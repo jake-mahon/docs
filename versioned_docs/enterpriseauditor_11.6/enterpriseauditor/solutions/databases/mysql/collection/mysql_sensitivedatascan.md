@@ -7,7 +7,7 @@ pre-defined or user-defined search criteria.
 
 The MySQL_SensitiveDataScan Job uses the SQL Data Collector for queries.
 
-![Query Selection](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/mysql/collection/sensitivedatascan.png)
+![Query Selection](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/mysql/collection/sensitivedatascan.webp)
 
 The query is:
 
@@ -31,7 +31,7 @@ Properties. The Query Properties window appears.
 **CAUTION:** Do not make changes to other wizard pages as they have been pre-configured for this
 job.
 
-![Sensitive Data Scan Settings](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/mysql/collection/sensitivedatscan_optionspage.png)
+![Sensitive Data Scan Settings](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/mysql/collection/sensitivedatscan_optionspage.webp)
 
 **Step 4 –** To modify sensitive data scan options, select the desired scan options. See the
 [SQL: Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/sql/options.md)
@@ -41,7 +41,7 @@ page for additional information.
 high-level table scan. Configuring these settings to increase the scope of the sensitive data scan
 may significantly increase scan time.
 
-![DLP Criteria for Scan](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/mysql/collection/sensitivedatscan_criteriapage.png)
+![DLP Criteria for Scan](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/mysql/collection/sensitivedatscan_criteriapage.webp)
 
 **Step 5 –** To modify criteria, navigate to the
 [SQL: Criteria](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/sql/criteria.md)
@@ -50,12 +50,12 @@ Global Criteria settings. See the
 [Sensitive Data Criteria Editor](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/overview.md)
 topic for additional information.
 
-![Filters Page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/mysql/collection/sensitivedatscan_filterspage.png)
+![Filters Page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/mysql/collection/sensitivedatscan_filterspage.webp)
 
 **Step 6 –** MySQL databases must be added to the query before they can be scanned. Navigate to the
 **Filter** page and click **Connections** to open the Manage Connections window.
 
-![Manage Connections](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/mysql/collection/manageconnectionsmysql.png)
+![Manage Connections](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/mysql/collection/manageconnectionsmysql.webp)
 
 **Step 7 –** In the Manage Connections window, click **New Connection** and add the following
 information:
@@ -89,7 +89,7 @@ Navigate to the **Databases** > **0.Collection** > **MySQL** > **MySQL_Sensitive
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Selection](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/mysql/collection/analysismysqlsensitivedatascan.png)
+![Analysis Selection](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/mysql/collection/analysismysqlsensitivedatascan.webp)
 
 The default analysis tasks are:
 

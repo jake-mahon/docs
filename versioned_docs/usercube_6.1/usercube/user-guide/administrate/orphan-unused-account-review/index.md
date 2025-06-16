@@ -13,7 +13,7 @@ activity.
 A list of all orphaned accounts can be found on some entity type pages. Said pages can be accessed
 through the menu items on the left of the home page, in the **Connectors** section.
 
-![Home - Entity Types](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/synchronization/home_entitytypes_v602.png)
+![Home - Entity Types](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/synchronization/home_entitytypes_v602.webp)
 
 These entity type pages can be
 [configured via XML](/versioned_docs/usercube_6.1/usercube/integration-guide/ui/how-tos/index.md) to
@@ -21,7 +21,7 @@ customize all displayed columns and available filters, especially the **Orphan**
 uncorrelated resources, and the **Owner / Resource Type** column that shows the owner of each
 resource.
 
-![Owner / Resource Type Column](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/reporting/orphan_entitytype_v523.png)
+![Owner / Resource Type Column](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/reporting/orphan_entitytype_v523.webp)
 
 In the `Orphan` field, select `Yes` to see all existing resources without an owner.
 
@@ -74,7 +74,7 @@ based on said property.
 > The previous example about the AD's `isUnused` property can be complemented in the query module by
 > displaying this property alongside users' `EmployeeId`.
 >
-> ![Query of Unused Accounts](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/orphan-unused-account-review/orphan_unusedquery_v602.png)
+> ![Query of Unused Accounts](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/orphan-unused-account-review/orphan_unusedquery_v602.webp)
 
 ## Participants and Artifacts
 
@@ -91,12 +91,12 @@ Review an orphaned account by proceeding as follows:
 1. Get to the **Resource Reconciliation** page, accessible from the corresponding section on the
    home page.
 
-    ![Home Page - Resource Reconciliation](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/orphan-unused-account-review/home_resourcereconciliation_v523.png)
+    ![Home Page - Resource Reconciliation](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/orphan-unused-account-review/home_resourcereconciliation_v523.webp)
 
 2. Select `Unauthorized account` as the `Workflow State`. Orphaned accounts are those appearing with
    no owner.
 
-    ![Resource Reconciliation Page](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/orphan-unused-account-review/unauth_unauthorizedaccounts_v602.png)
+    ![Resource Reconciliation Page](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/orphan-unused-account-review/unauth_unauthorizedaccounts_v602.webp)
 
 3. Choose the default resource view or the property view with the top right toggle.
 4. Click on the line of an account without an owner.
@@ -104,9 +104,9 @@ Review an orphaned account by proceeding as follows:
     > In the following example, the nominative AD account linked to the email address
     > `nathan.smith@acme.com` has no owner.
     >
-    > ![Select Owner](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/orphan-unused-account-review/orphan_revieworphans_v602.png)
+    > ![Select Owner](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/orphan-unused-account-review/orphan_revieworphans_v602.webp)
     >
-    > ![Owners List](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/orphan-unused-account-review/orphan_revieworphans-owners_v602.png)
+    > ![Owners List](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/orphan-unused-account-review/orphan_revieworphans-owners_v602.webp)
 
 5. Answer the following questions in order to understand the situation.
 
@@ -140,7 +140,7 @@ Review an orphaned account by proceeding as follows:
 
     See the schema below this note.
 
-    ![Schema - Service Accounts](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/orphan-unused-account-review/orphan_serviceaccounts.png)
+    ![Schema - Service Accounts](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/orphan-unused-account-review/orphan_serviceaccounts.webp)
 
 6. Select the appropriate owner or no owner at all, according to the previous analysis.
 
@@ -156,7 +156,7 @@ Review an orphaned account by proceeding as follows:
 By default, non-conforming assignments are listed by resource. It is possible to click on a resource
 and then access the list of all unreconciled properties for said resource.
 
-![Resource View](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/orphan-unused-account-review/orphan_resourceview_v523.png)
+![Resource View](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/orphan-unused-account-review/orphan_resourceview_v523.webp)
 
 It can be helpful to have the non-conforming assignments regrouped by property, as some of the
 changes can be similar, so very likely to be validated by the same user. This is why a property view
@@ -166,7 +166,7 @@ Once enabled, select a resource type to display all unreconciled properties link
 type. In addition, select a property to display only the unreconciled properties linked to said
 resource type and property.
 
-![Property View](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/orphan-unused-account-review/orphan_propertyview_v603.png)
+![Property View](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/orphan-unused-account-review/orphan_propertyview_v603.webp)
 
 The review process is the same with both views. However with property view, reviewers don't click on
 a given line, but choose a decision directly on the left of the property line.
@@ -174,7 +174,7 @@ a given line, but choose a decision directly on the left of the property line.
 In addition, using property view enables bulk reconciliation to approve the proposed values or keep
 the current values for several resources simultaneously.
 
-![Bulk Reconcile](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/orphan-unused-account-review/orphan_bulkreconcile_v603.png)
+![Bulk Reconcile](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/orphan-unused-account-review/orphan_bulkreconcile_v603.webp)
 
 ## Verify Review
 
@@ -184,4 +184,4 @@ In order to verify the process, check that the line for your reviewed item has b
 In addition, if you reconciled an orphaned account with an owner, check the user's permissions to
 see said account.
 
-![View Permissions Tab](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/provisioning-rule-creation/resource-creation/viewpermissions_v602.png)
+![View Permissions Tab](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/provisioning-rule-creation/resource-creation/viewpermissions_v602.webp)

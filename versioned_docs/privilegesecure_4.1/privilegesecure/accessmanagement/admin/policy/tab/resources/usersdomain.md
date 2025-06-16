@@ -2,7 +2,7 @@
 
 The Users tab shows information about the domain users on the selected resource.
 
-![Domian Users Tab](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/resources/usersdomain.png)
+![Domian Users Tab](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/resources/usersdomain.webp)
 
 The Users tab has the following features:
 

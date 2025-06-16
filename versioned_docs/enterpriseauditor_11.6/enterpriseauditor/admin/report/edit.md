@@ -11,7 +11,7 @@ Follow the steps to modify an existing report.
 
 **Step 1 –** Navigate to the Reports node that contains the report.
 
-![Configure Report](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/analysis/configure.png)
+![Configure Report](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/analysis/configure.webp)
 
 **Step 2 –** Click the **Configure** button next to the report you want to modify.
 

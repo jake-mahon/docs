@@ -52,7 +52,7 @@ Interface Icons
 | ![users](../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/users.webp) | Users & Groups      |
 | ![resources](../../../../../static/img/product_docs/strongpointnetsuiteflashlight/getting_started/resources.webp)                            | Resources           |
 | ![credentials](../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/agent/credentials.webp)                        | Credentials         |
-| ![activities](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostdiscovery/activities.webp)                   | Activities          |
+| ![activities](../../../../../static/img/product_docs/accessanalyzer/admin/hostdiscovery/activities.webp)                   | Activities          |
 | ![configuration](../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/configuration.webp)         | Configuration       |
 | ![servicenodes](../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/servicenodes.webp)           | Service Nodes       |
 | ![auditreporting](../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/auditreporting.webp)       | Audit and Reporting |

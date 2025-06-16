@@ -5,7 +5,7 @@
 The password settings can be used to define a diverse range of options. These can be found in the
 ribbon in the subsection “Extras”. The settings open up in a new tab.
 
-![password settings](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/passwords/password_settings_1-en.png)
+![password settings](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/passwords/password_settings_1-en.webp)
 
 ### Category: Browser
 

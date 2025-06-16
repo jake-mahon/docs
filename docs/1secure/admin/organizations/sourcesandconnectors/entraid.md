@@ -1,3 +1,12 @@
+---
+id: add-a-source-and-connectors-for-microsoft-entra-id
+title: "Add a Source and Connectors for Microsoft Entra ID"
+pagination_label: "Add a Source and Connectors for Microsoft Entra ID"
+sidebar_label: "Add a Source and Connectors for Microsoft Entra ID"
+sidebar_position: 43
+description: "Step-by-step guide to add Microsoft Entra ID data sources and connectors to your organization."
+---
+
 # Add a Source and Connectors for Microsoft Entra ID
 
 Follow the steps to add a Microsoft Entra ID data source and connector(s) to your organization.

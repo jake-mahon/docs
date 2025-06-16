@@ -14,7 +14,7 @@ be done at regular intervals:
 - This lists the status of all containers in the docker environment for Privilege Secure. They
   should all be scaled to 1/1 in a production environment. All nodes should be listed
 
-![image.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/maintenance/360053539334_image.png)
+![image.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/maintenance/360053539334_image.webp)
 
 - The manager status should be listed as "Leader" for a single node or "Leader" and "Reachable" as
   above. The Leader is the primary manager node and the Reachable nodes are managers. In the event

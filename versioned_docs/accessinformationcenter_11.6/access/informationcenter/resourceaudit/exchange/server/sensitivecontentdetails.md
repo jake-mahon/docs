@@ -6,7 +6,7 @@ visible to Access Information Center users with either Security Team Member or A
 The Matches table requires the storage of discovered sensitive data within the Enterprise Auditor
 database or it will be blank.
 
-![Sensitive Content Details report at the server level](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/exchange/server/serversensitivecontentdetails.png)
+![Sensitive Content Details report at the server level](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/exchange/server/serversensitivecontentdetails.webp)
 
 This report is comprised of the following columns:
 

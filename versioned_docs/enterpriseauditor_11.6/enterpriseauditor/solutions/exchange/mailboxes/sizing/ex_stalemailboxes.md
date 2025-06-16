@@ -10,7 +10,7 @@ View the analysis tasks by navigating to the **Exchange** > **4. Mailboxes** > *
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for the EX_StaleMailboxes Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/mailboxes/sizing/stalemailboxesanalysis.png)
+![Analysis Tasks for the EX_StaleMailboxes Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/mailboxes/sizing/stalemailboxesanalysis.webp)
 
 The following analysis tasks are selected by default:
 

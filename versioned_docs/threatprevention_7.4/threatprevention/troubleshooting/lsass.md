@@ -76,7 +76,7 @@ notified when the LSASS process terminates. See the
 [Create Message Profiles](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/systemalerting/email.md#create-message-profiles)
 topic for additional information.
 
-![System Alerting window - LSASS Process Terminated alert](/img/versioned_docs/threatprevention_7.4/threatprevention/troubleshooting/lsassprocessterminated.png)
+![System Alerting window - LSASS Process Terminated alert](/img/versioned_docs/threatprevention_7.4/threatprevention/troubleshooting/lsassprocessterminated.webp)
 
 **Step 4 –** On the Email tab, click **Events**, and then click **Operations** in the left pane.
 Check the **LSASS process terminated** event alert and select the Message Profile created in Step 3

@@ -38,7 +38,7 @@ empties it every 100 milliseconds.
 
 Neither the server nor the agent requires a restart after live tracking has been enabled.
 
-![minifilter_767x740](/img/versioned_docs/changetracker_8.0/changetracker/admin/agents/minifilter_767x740.png)
+![minifilter_767x740](/img/versioned_docs/changetracker_8.0/changetracker/admin/agents/minifilter_767x740.webp)
 
 The Change Tracker minifilter doesn't make any alterations to user requests, it only monitors I/O
 activity.

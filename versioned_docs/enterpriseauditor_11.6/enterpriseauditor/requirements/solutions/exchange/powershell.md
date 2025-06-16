@@ -175,12 +175,12 @@ Follow these steps to enable Windows Authentication.
 **Step 1 –** On the server where Remote PowerShell was enabled, open the Internet Information
 Services (IIS) Manager.
 
-![IIS Authentication Open Feature](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/exchange/iismanager.png)
+![IIS Authentication Open Feature](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/exchange/iismanager.webp)
 
 **Step 2 –** Traverse to the **PowerShell** Virtual Directory under the **Default Web Site**. Select
 **Authentication** and click **Open Feature**.
 
-![IIS Enable Windows Authentication](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/exchange/iismanagerauth.png)
+![IIS Enable Windows Authentication](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/exchange/iismanagerauth.webp)
 
 **Step 3 –** Right-click on **Windows Authentication** and select **Enable**.
 
@@ -196,7 +196,7 @@ roles.
 
 **Step 2 –** Add a new role group by clicking on the + button, and the New Role Group window opens.
 
-![New role group window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/exchange/rolegroup.png)
+![New role group window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/exchange/rolegroup.webp)
 
 **Step 3 –** Configure the new role group with the following settings:
 

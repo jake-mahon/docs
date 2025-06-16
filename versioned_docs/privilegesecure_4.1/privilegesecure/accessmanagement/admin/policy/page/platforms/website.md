@@ -2,7 +2,7 @@
 
 The Web Site menu displays the configuration options for Web Site platforms.
 
-![Website Platform Configuration](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/platforms/website.png)
+![Website Platform Configuration](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/platforms/website.webp)
 
 Details for the selected platform are displayed on the right side of the page. Below are the
 configuration options for a Website Platform.

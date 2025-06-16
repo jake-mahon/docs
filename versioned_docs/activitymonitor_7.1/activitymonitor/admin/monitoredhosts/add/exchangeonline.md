@@ -15,24 +15,24 @@ Follow the steps to add an Exchange Online host to be monitored.
 **Step 1 –** In the Activity Monitor, go to the Monitored Hosts tab and click Add. The Add New Host
 window opens.
 
-![Add Host - Choose Agent](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/chooseagent.png)
+![Add Host - Choose Agent](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/chooseagent.webp)
 
 **Step 2 –** On the Choose Agent page, select the Agent to monitor the storage device.
 
-![Add Host Page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/addexchangeonline.png)
+![Add Host Page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/addexchangeonline.webp)
 
 **Step 3 –** On the Add Host page, select the Exchange Online radio button and enter the domain
 name.
 
 _(Optional)_ Enter a comment for the Exchange Online host.
 
-![Azure AD Connection - Exchange Online](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/connection.png)
+![Azure AD Connection - Exchange Online](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/connection.webp)
 
 **Step 4 –** On the Azure AD / Entra ID Connection page, enter Tenant ID, Client ID, Client Secret,
 and Region(optional) then click **Connect** to verify the connection.. Click **Open Instruction...**
 for steps on registering the Activity Monitor with Microsoft Azure. Click **Next**.
 
-![operations](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/operations.png)
+![operations](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/operations.webp)
 
 **Step 5 –** On the Exchange Online Operations page, configure the options found in the following
 tabs:
@@ -46,22 +46,22 @@ These options can be configured again in a Exchange Online host's properties win
 [Operations Tab](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/outputs/operations.md)
 for additional information. Click **Next**.
 
-![Mailboxes to Exclude](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/mailboxesexclude.png)
+![Mailboxes to Exclude](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/mailboxesexclude.webp)
 
 **Step 6 –** Click **Add Mailbox** to display the Select User dialog box. Specify the mailboxes that
 will be filtered during collection. Click **Next**.
 
-![usersexclude](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/usersexclude.png)
+![usersexclude](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/usersexclude.webp)
 
 **Step 7 –** Click **Add User** to display the Select User dialog box. Specify the user or email
 that will be filtered during collection. Click **Next**.
 
-![Where to log activity - Exchange Online](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/wheretologactivity.png)
+![Where to log activity - Exchange Online](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/wheretologactivity.webp)
 
 **Step 8 –** On the Where To Log The Activity page, select whether to send the activity to either a
 **Log File** or **Syslog Server**.
 
-![File Output - Exchange Online](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/fileoutput.png)
+![File Output - Exchange Online](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/fileoutput.webp)
 
 **Step 9 –** If **Log Files** is selected on the **Where To Log The Activity** page, the **File
 Output** page can be configured. The configurable options are:
@@ -83,7 +83,7 @@ Output** page can be configured. The configurable options are:
 
 Click **Next**.
 
-![Syslog Output - Exchange Online](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/syslogoutput.png)
+![Syslog Output - Exchange Online](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/syslogoutput.webp)
 
 **Step 10 –** If Syslog Server is selected on the **Where To Log The Activity** page, the Syslog
 Output page can be configured. The configurable options are:
@@ -118,7 +118,7 @@ Output page can be configured. The configurable options are:
 
 Click **Finish**.
 
-![Exchange Online in Activity Monitor](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/exchangeonline.png)
+![Exchange Online in Activity Monitor](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/exchangeonline.webp)
 
 The added Exchange Online host is displayed in the monitored hosts table. Once a host has been added
 for monitoring, configure the desired outputs. See the

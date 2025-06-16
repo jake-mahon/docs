@@ -11,7 +11,7 @@ View the analysis tasks by navigating to the **FileSystem** > **2.Direct Permiss
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for the FS_NestedShares Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/directpermissions/nestedsharesanalysis.png)
+![Analysis Tasks for the FS_NestedShares Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/directpermissions/nestedsharesanalysis.webp)
 
 The following analysis tasks are selected by default:
 

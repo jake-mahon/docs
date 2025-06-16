@@ -12,7 +12,7 @@ When a DC is unavailable a new one can easily be connected to using the Privileg
 However, when this occurs, if the USN number is lower, Privilege Secure will not be aware of changes
 to groups. This will impact access from changed groups.
 
-![image.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/systemmanagement/4405051526935_image_384x376.png)
+![image.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/systemmanagement/4405051526935_image_384x376.webp)
 
 It is recommended to force a re-sync of Privilege Secure's LDAP information when a DC is changed.
 This is suggested during the next available maintenance window at the end of the day.

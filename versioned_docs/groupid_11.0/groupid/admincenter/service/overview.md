@@ -35,11 +35,11 @@ Docker.
 To launch IIS on a machine, see
 [Opening IIS Manager](<https://docs.microsoft.com/en-us/previous-versions/iis/6.0-sdk/ms525920(v=vs.90)>).
 
-![in_iis](/img/versioned_docs/groupid_11.0/groupid/admincenter/portal/in_iis.png)
+![in_iis](/img/versioned_docs/groupid_11.0/groupid/admincenter/portal/in_iis.webp)
 
 To open Docker Desktop on Windows, search for Docker and select Docker Desktop in the search results
 
-![in_docker](/img/versioned_docs/groupid_11.0/groupid/admincenter/service/in_docker.png)
+![in_docker](/img/versioned_docs/groupid_11.0/groupid/admincenter/service/in_docker.webp)
 
 ## Third-party Services
 
@@ -58,7 +58,7 @@ Third-party services are created as Windows services in Windows Services Manager
 To launch the Services Manager, type ‘ services.msc’ in the Run dialog box and click OK. Here is an
 example of services in Windows Services Manager. You can start, stop, disable, and delay a service.
 
-![in_windows_services_manager](/img/versioned_docs/groupid_11.0/groupid/admincenter/service/in_windows_services_manager.png)
+![in_windows_services_manager](/img/versioned_docs/groupid_11.0/groupid/admincenter/service/in_windows_services_manager.webp)
 
 ## Accounts to Run the Services
 

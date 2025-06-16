@@ -47,7 +47,7 @@ single-bit "sub-properties", not both.
 > For example, we choose to create a property `bit_userAccountControl_2` to represent the second bit
 > of `userAccountControl`.
 >
-> ![New Property for Bit Provisioning](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/entitypropertymapping-format/bitprov_property_v603.png)
+> ![New Property for Bit Provisioning](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/entitypropertymapping-format/bitprov_property_v603.webp)
 >
 > XML configuration looks like the following:
 >
@@ -149,4 +149,4 @@ This allows the export of the attribute `u_startdate` as a date in Usercube's fo
 The fulfillment will use the same format defined in the EntityTypeMapping through the **Binding**
 declared in the ResourceType.
 
-![Export and Fulfill Data transformation](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/entitypropertymapping-format/entitypropertymapping-format-flowchart.png)
+![Export and Fulfill Data transformation](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/entitypropertymapping-format/entitypropertymapping-format-flowchart.webp)

@@ -1,3 +1,12 @@
+---
+id: microsoft-entra-id-auditing
+title: "Microsoft Entra ID Auditing"
+pagination_label: "Microsoft Entra ID Auditing"
+sidebar_label: "Microsoft Entra ID Auditing"
+sidebar_position: 60
+description: "Learn how to configure Microsoft Entra ID auditing for Office 365 organizations with modern authentication."
+---
+
 # Microsoft Entra ID Auditing
 
 The product supports Microsoft Entra ID  (formerly Azure AD) provided within Microsoft Office 365.

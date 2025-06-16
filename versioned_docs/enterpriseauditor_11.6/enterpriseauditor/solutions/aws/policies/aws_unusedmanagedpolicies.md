@@ -27,7 +27,7 @@ select **Analysis** to view the analysis tasks.
 **CAUTION:** Do not deselect the selected analysis tasks. The analysis tasks are preconfigured for
 this job. Only modify the analysis tasks listed in the customizable analysis tasks section.
 
-![Analysis Tasks for the AWS_UnusedManagedPolicies Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/aws/policies/unusedmanagedpoliciesanalysis.png)
+![Analysis Tasks for the AWS_UnusedManagedPolicies Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/aws/policies/unusedmanagedpoliciesanalysis.webp)
 
 The following analysis tasks are selected by default:
 

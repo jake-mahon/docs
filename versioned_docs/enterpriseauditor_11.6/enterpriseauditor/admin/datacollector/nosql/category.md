@@ -3,7 +3,7 @@
 The Category page in the NoSQL Data Collector Wizard lists the following query categories,
 sub-divided by auditing focus:
 
-![NoSQL Data Collector Wizard Category Page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/adinventory/category.png)
+![NoSQL Data Collector Wizard Category Page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/adinventory/category.webp)
 
 The query categories are:
 

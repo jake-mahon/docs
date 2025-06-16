@@ -3,7 +3,7 @@
 The Global Settings page is accessible from the Navigation pane under Configuration > System
 Settings. It shows all global RDP session settings.
 
-![globalsettingspage](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/page/globalsettingspage.png)
+![globalsettingspage](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/page/globalsettingspage.webp)
 
 The right of the page shows details of the RDP file settings and has the following features:
 

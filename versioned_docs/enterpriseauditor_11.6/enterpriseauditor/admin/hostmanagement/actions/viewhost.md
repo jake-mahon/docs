@@ -3,12 +3,12 @@
 Use the **View/Edit Host** option to open the Host Details View. This view displays the collected
 host inventory information for the selected host in an easy-to-read format.
 
-![View/Edit Host option](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/actions/viewedithost.png)
+![View/Edit Host option](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/actions/viewedithost.webp)
 
 Select a host from either the Host Master Table or an individual host list and click **View/Edit
 Host**.
 
-![Host Details View](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/actions/hostdetailsview.png)
+![Host Details View](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/actions/hostdetailsview.webp)
 
 The Host Details View displays in the Results pane, and the rest of the Enterprise Auditor Console
 is unavailable while it is open. You can use the view to manually edit the host inventory

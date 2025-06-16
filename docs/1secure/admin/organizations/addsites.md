@@ -1,3 +1,12 @@
+---
+id: add-sites-to-an-organization
+title: "Add Sites to an Organization"
+pagination_label: "Add Sites to an Organization"
+sidebar_label: "Add Sites to an Organization"
+sidebar_position: 33
+description: "Learn how to add sites to organizations for managing multiple office locations and tracking agent status."
+---
+
 # Add Sites to an Organization
 
 Sites are used to signify physical groupings within the organization. The feature is helpful for
@@ -67,7 +76,7 @@ Follow the steps to view the site for the organization.
 
 **Step 2 –** View the following details:
 
-- Agent status – Agent status in color. See the [Statuses ](../statuses.md)topic for additional
+- Agent status – Agent status in color. See the [Statuses](../../index.md#system-statuses) topic for additional
   information
 - Server name – Server from which the data is collected
 - Last Connected – Last connection time with your agent in UTC

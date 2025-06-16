@@ -3,7 +3,7 @@
 The Event Tracker window, accessible through the right-click menu on a data row, allows you to
 annotate events and incidents after reviewing them. You can change the state and add comments.
 
-![Event Tracker Window](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/recentevents/eventtracker.png)
+![Event Tracker Window](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/recentevents/eventtracker.webp)
 
 **Step 1 –** Events and incidents have a state of New when they are first generated. When a user
 reviews an event, they can use the State drop-down menu to change the state to **Reviewed** or back

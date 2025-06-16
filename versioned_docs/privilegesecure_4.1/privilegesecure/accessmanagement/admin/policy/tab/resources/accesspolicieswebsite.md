@@ -2,7 +2,7 @@
 
 The Access Policies tab shows information about the policies associated with the selected resource.
 
-![websitedetailsaccesspolicytab](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/resources/websitedetailsaccesspolicytab.png)
+![websitedetailsaccesspolicytab](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/resources/websitedetailsaccesspolicytab.webp)
 
 The Access Policies tab has the following features:
 

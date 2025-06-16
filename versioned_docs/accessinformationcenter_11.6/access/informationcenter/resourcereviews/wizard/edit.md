@@ -4,7 +4,7 @@ The Edit Review wizard is opened with the **Edit** button on the Resource Review
 [Manage Reviews Page](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/interface.md#manage-reviews-page)
 topic for additional information.
 
-![Edit Review wizard](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/wizard/reviewtype.png)
+![Edit Review wizard](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/wizard/reviewtype.webp)
 
 It contains four pages:
 
@@ -23,7 +23,7 @@ Follow the steps to edit an active review.
 
 **Step 1 –** On the Manage Reviews page, click **Edit**. The Edit Review wizard opens.
 
-![Edit Review wizard Review Type page](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/wizard/reviewtype.png)
+![Edit Review wizard Review Type page](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/wizard/reviewtype.webp)
 
 **Step 2 –** On the Review Type page, configure the notify review creator option as required. The
 Review Name and type are shown on the page but can not be edited. For Permissions, Access, and
@@ -39,7 +39,7 @@ edited.
 **NOTE:** If creating a Sensitive Data review, continue to Step 3. For all other review types, skip
 to Step 5.
 
-![Edit Review wizard Criteria page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/ewsmailbox/criteria.png)
+![Edit Review wizard Criteria page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/ewsmailbox/criteria.webp)
 
 **Step 3 –** On the Criteria page, you can modify the selected types of sensitive criteria to
 include in the Sensitive Data review if no responses have been received. If responses for one or
@@ -63,7 +63,7 @@ Netwrix Enterprise Auditor for all of the resources selected in Step 5, the “O
 selected have not been scanned” error occurs. The Create Review wizard will not allow the review to
 be created until those resources have been removed or the option unchecked.
 
-![Edit Review wizard Resources page](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/resources.png)
+![Edit Review wizard Resources page](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/resources.webp)
 
 **Step 5 –** On the Resources page, modify the list of resources to be included in the review.
 
@@ -106,12 +106,12 @@ or removing parent resources from the review also adds or removes their children
 
 - Once the desired resources have been selected, click **Next**.
 
-![Edit Review wizard Summary page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/adinventory/summary.png)
+![Edit Review wizard Summary page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/adinventory/summary.webp)
 
 **Step 6 –** On the Summary page, review the updated settings and click **Next**. The Access
 Information Center begins to update the review.
 
-![Edit Review wizard update completed message](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/sensitivedatadiscovery/completed.png)
+![Edit Review wizard update completed message](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/sensitivedatadiscovery/completed.webp)
 
 **Step 7 –** The action status displays on the page. When the review has been updated (100%), click
 **Close**. The Edit Review wizard closes.

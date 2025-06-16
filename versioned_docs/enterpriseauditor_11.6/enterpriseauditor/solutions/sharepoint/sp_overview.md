@@ -4,7 +4,7 @@ The SP_Overview job provides an overview of the SharePoint Environment, providin
 into what makes up a SharePoint Environment and the types of security risks and toxic permissions
 found during scans.
 
-![SP_Overview Job in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/sharepoint/overviewjobstree.png)
+![SP_Overview Job in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/sharepoint/overviewjobstree.webp)
 
 It is dependent on data collected by the
 [SharePoint Access Auditing](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/sharepoint/collection/overview.md#sharepoint-access-auditing),
@@ -24,7 +24,7 @@ Navigate to the **Jobs** > **SharePoint** > **SP_Overview** > **Configure** node
 **CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
 preconfigured for this job.
 
-![Analysis Tasks for the SP_Overview Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/publicfolders/overviewanalysis.png)
+![Analysis Tasks for the SP_Overview Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/publicfolders/overviewanalysis.webp)
 
 The default analysis tasks is:
 

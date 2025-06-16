@@ -32,7 +32,7 @@ located on disk.
 6. In the **Deployment Name** box, enter a deployment name for the service.  
    The application name and deployment name are displayed on the service card. It is as:
 
-    ![ds_card](/img/versioned_docs/groupid_11.0/groupid/admincenter/service/dataservice/ds_card.png)
+    ![ds_card](/img/versioned_docs/groupid_11.0/groupid/admincenter/service/dataservice/ds_card.webp)
 
 7. In the **IIS Application Name** box, enter an IIS deployment name for the service. The name
    should be unique for each Data service deployed in IIS.  

@@ -1,3 +1,12 @@
+---
+id: subscriptions
+title: "Subscriptions"
+pagination_label: "Subscriptions"
+sidebar_label: "Subscriptions"
+sidebar_position: 57
+description: "Learn how to schedule and automatically deliver reports to email addresses or SharePoint Online folders."
+---
+
 # Subscriptions
 
 The Subscriptions feature allows Managed Service Providers (MSPs) to schedule certain reports
@@ -88,7 +97,7 @@ specify the settings for SharePoint Online delivery.
 
 **NOTE:** If you encounter the message, Integration required, you must first configure your
 integration for SharePoint Online. See the
-[SharePoint Online](../../integration/sharepointonline.md) topic for additional information.
+[SharePoint Online](../../integrations/sharepointonline.md) topic for additional information.
 
 Expand the SharePoint Online Settings section and specify the following settings for saving the
 report:

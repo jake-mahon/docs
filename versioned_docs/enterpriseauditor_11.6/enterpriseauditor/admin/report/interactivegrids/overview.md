@@ -8,7 +8,7 @@ filter it as required. Interactive grids allow you to perform the following acti
 - Paging
 - Download data to a CSV file
 
-![Interactive Grid actions bar](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/report/interactivegrids/interactivegridoptions.png)
+![Interactive Grid actions bar](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/report/interactivegrids/interactivegridoptions.webp)
 
 The toolbar in an interactive grid can display the following options:
 
@@ -24,6 +24,6 @@ The toolbar in an interactive grid can display the following options:
 When enumeration is set on an interactive grid, a second download button is displayed. A CSV file
 can be downloaded that contains only data for the selected enumeration.
 
-![Group by loading data](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/report/interactivegrids/groupbyloadingdata.png)
+![Group by loading data](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/report/interactivegrids/groupbyloadingdata.webp)
 
 When grouping data, interactive grids display the percentage of data that has loaded on the page.

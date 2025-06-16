@@ -11,7 +11,7 @@ select **Analysis** to view the analysis tasks.
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for the UX_LocalUsers Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/unix/usersgroups/localusersanalysis.png)
+![Analysis Tasks for the UX_LocalUsers Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/unix/usersgroups/localusersanalysis.webp)
 
 The default analysis tasks are:
 

@@ -47,11 +47,11 @@ As roles and navigation properties are technically bonded together, their review
 > on the **Role Reconciliation** screen, and one item for all changes in the AD account on the
 > **Resource Reconciliation** screen:
 >
-> ![Example - Role Reconciliation](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/non-conforming-assignment-review/property-reconciliation/reviewrole_examplerole_v602.png)
+> ![Example - Role Reconciliation](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/non-conforming-assignment-review/property-reconciliation/reviewrole_examplerole_v602.webp)
 >
-> ![Example - Resource Reconciliation](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/non-conforming-assignment-review/property-reconciliation/reviewrole_exampleresource_v602.png)
+> ![Example - Resource Reconciliation](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/non-conforming-assignment-review/property-reconciliation/reviewrole_exampleresource_v602.webp)
 >
-> ![Example - Resource Reconciliation - Properties](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/non-conforming-assignment-review/property-reconciliation/reviewrole_exampleresourceprop_v602.png)
+> ![Example - Resource Reconciliation - Properties](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/non-conforming-assignment-review/property-reconciliation/reviewrole_exampleresourceprop_v602.webp)
 
 ## Participants and Artifacts
 
@@ -69,20 +69,20 @@ Review an unreconciled property by proceeding as follows:
 1. Ensure that the task for the computation of the role model was launched recently, through the
    complete job on the **Job Execution** page�
 
-    ![Home Page - Job Execution](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/synchronization/home_jobexecution_v602.png)
+    ![Home Page - Job Execution](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/synchronization/home_jobexecution_v602.webp)
 
     � Or through the connector's overview page, **Jobs** > **Compute Role Model**.
 
-    ![Resource Type Jobs](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/classification/synchro_resourcetype_v602.png)
+    ![Resource Type Jobs](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/classification/synchro_resourcetype_v602.webp)
 
 2. Get to the **Resource Reconciliation** page, accessible from the corresponding section on the
    home page.
 
-    ![Home Page - Resource Reconciliation](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/orphan-unused-account-review/home_resourcereconciliation_v523.png)
+    ![Home Page - Resource Reconciliation](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/orphan-unused-account-review/home_resourcereconciliation_v523.webp)
 
 3. Select `Unreconciled properties` as a `Workflow State`.
 
-    ![Unreconciled Property](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/non-conforming-assignment-review/property-reconciliation/reviewprop_unreconciled_v522.png)
+    ![Unreconciled Property](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/non-conforming-assignment-review/property-reconciliation/reviewprop_unreconciled_v522.webp)
 
 4. Choose the default resource view or the property view with the top right toggle.
 5. Select a property to review.
@@ -91,7 +91,7 @@ Review an unreconciled property by proceeding as follows:
     > nominative SAB account associated with his email address. In the **Resource Properties to be
     > Verified** frame, there is one unreconciled property that happens to be `Group`.
     >
-    > ![Unreconciled Property Example](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/non-conforming-assignment-review/property-reconciliation/reviewprop_example_v602.png)
+    > ![Unreconciled Property Example](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/non-conforming-assignment-review/property-reconciliation/reviewprop_example_v602.webp)
 
     - `Name`: unreconciled property name.
     - `Proposed Value`: value proposed by Usercube.
@@ -142,14 +142,14 @@ Review an unreconciled property by proceeding as follows:
    by launching, on the appropriate connector's overview page, **Jobs** > **Generate Provisioning
    Orders**, then, after this first task is done, **Jobs** > **Fulfill**.
 
-    ![Resource Type Jobs](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/classification/synchro_resourcetype_v602.png)
+    ![Resource Type Jobs](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/classification/synchro_resourcetype_v602.webp)
 
 ### Use property view
 
 By default, non-conforming assignments are listed by resource. It is possible to click on a resource
 and then access the list of all unreconciled properties for said resource.
 
-![Resource View](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/orphan-unused-account-review/orphan_resourceview_v523.png)
+![Resource View](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/orphan-unused-account-review/orphan_resourceview_v523.webp)
 
 It can be helpful to have the non-conforming assignments regrouped by property, as some of the
 changes can be similar, so very likely to be validated by the same user. This is why a property view
@@ -159,7 +159,7 @@ Once enabled, select a resource type to display all unreconciled properties link
 type. In addition, select a property to display only the unreconciled properties linked to said
 resource type and property.
 
-![Property View](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/orphan-unused-account-review/orphan_propertyview_v603.png)
+![Property View](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/orphan-unused-account-review/orphan_propertyview_v603.webp)
 
 The review process is the same with both views. However with property view, reviewers don't click on
 a given line, but choose a decision directly on the left of the property line.
@@ -167,7 +167,7 @@ a given line, but choose a decision directly on the left of the property line.
 In addition, using property view enables bulk reconciliation to approve the proposed values or keep
 the current values for several resources simultaneously.
 
-![Bulk Reconcile](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/orphan-unused-account-review/orphan_bulkreconcile_v603.png)
+![Bulk Reconcile](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/orphan-unused-account-review/orphan_bulkreconcile_v603.webp)
 
 ## Verify Property Reconciliation
 

@@ -5,7 +5,7 @@ The Authentication page implements signing into a ServiceNow account.
 A ServiceNow account must be set up and configured to determine which incidents will be visible on
 the Incident Creation page.
 
-![ServiceNow Action Module wizard Authentication page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/box/authentication.png)
+![ServiceNow Action Module wizard Authentication page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/box/authentication.webp)
 
 Use the following options to log into a ServiceNow account:
 

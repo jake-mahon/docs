@@ -5,7 +5,7 @@ user access. Only User(s) / group member(s) assigned the Admin Role can create a
 tasks. User(s) / group member(s) with the Reviewer role will see the access certification task(s)
 assigned to them here.
 
-![Access Certification Page](/img/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/configuration/systemsettings/page.png)
+![Access Certification Page](/img/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/configuration/systemsettings/page.webp)
 
 On the left of the page, the Access Certification Task list shows the different access certification
 tasks and has the following features:

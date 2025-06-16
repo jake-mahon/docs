@@ -3,7 +3,7 @@
 The 6.Probable Owner Job Group is designed to report on probable owners of resources from targeted
 file servers.
 
-![probableownerjobstree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/probableownerjobstree.png)
+![probableownerjobstree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/probableownerjobstree.webp)
 
 The 6.Probable Owner Job Group is comprised of:
 
@@ -18,7 +18,7 @@ Configure node and select Analysis.
 **CAUTION:** Do not modify or deselect the first and third selected analysis tasks. The analysis
 tasks are preconfigured for this job.
 
-![Analysis Selection](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/probableowneranalysis.png)
+![Analysis Selection](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/probableowneranalysis.webp)
 
 The following analysis tasks are selected by default:
 

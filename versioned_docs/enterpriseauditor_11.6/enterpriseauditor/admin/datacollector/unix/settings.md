@@ -2,7 +2,7 @@
 
 The Settings page configures the Unix Data Collector settings.
 
-![Unix Data Collector Wizard Settings page](/img/versioned_docs/activitymonitor_7.1/config/dellpowerscale/settings.png)
+![Unix Data Collector Wizard Settings page](/img/versioned_docs/activitymonitor_7.1/config/dellpowerscale/settings.webp)
 
 The configurable options are:
 

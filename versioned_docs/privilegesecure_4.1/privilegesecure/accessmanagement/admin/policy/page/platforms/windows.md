@@ -2,7 +2,7 @@
 
 The Windows menu displays the configuration options for Windows platforms.
 
-![Windows Platform Configuration](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/properties/windows.png)
+![Windows Platform Configuration](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/properties/windows.webp)
 
 Details for the selected platform are displayed on the right side of the page. Below are the
 configuration options for a Windows Platform.

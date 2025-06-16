@@ -1,3 +1,12 @@
+---
+id: configure-the-manage-auditing-and-security-log-policy
+title: "Configure the Manage Auditing and Security Log Policy"
+pagination_label: "Configure the Manage Auditing and Security Log Policy"
+sidebar_label: "Configure the Manage Auditing and Security Log Policy"
+sidebar_position: 68
+description: "Learn how to configure Manage Auditing and Security Log policy for non-Domain Admin data collection accounts."
+---
+
 # Configure the Manage Auditing and Security Log Policy
 
 Perform this procedure only if the account selected for data collection is not a member of the

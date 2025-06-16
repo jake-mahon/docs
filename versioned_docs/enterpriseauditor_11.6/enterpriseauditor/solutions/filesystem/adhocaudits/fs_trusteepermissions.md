@@ -11,7 +11,7 @@ Configure node and select Analysis.
 **CAUTION:** Do not modify or deselect the second selected analysis task. The analysis task is
 preconfigured for this job.
 
-![Analysis Selection](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/adhocaudits/trusteepermissionsanalysis.png)
+![Analysis Selection](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/adhocaudits/trusteepermissionsanalysis.webp)
 
 The following analysis tasks are selected by default:
 

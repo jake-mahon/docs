@@ -46,7 +46,7 @@ data, through a certification-like process.
 An HR connector is considered an inbound connector, as it writes to the central identity repository
 inside Usercube.
 
-![Inbound System=](/img/versioned_docs/usercube_6.1/usercube/user-guide/optimize/hr-connector-creation/connectorcreation_inbound.png)
+![Inbound System=](/img/versioned_docs/usercube_6.1/usercube/user-guide/optimize/hr-connector-creation/connectorcreation_inbound.webp)
 
 As Usercube is able to feed all managed systems, it can also feed itself thanks to specific
 connections such as the
@@ -74,19 +74,19 @@ Create an HR connector by proceeding as follows:
 2. [Declare an HR connector](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-declaration/index.md)
    using your local agent.
 
-    ![HR Connector Declaration](/img/versioned_docs/usercube_6.1/usercube/user-guide/optimize/hr-connector-creation/hr_connectordeclaration_v602.png)
+    ![HR Connector Declaration](/img/versioned_docs/usercube_6.1/usercube/user-guide/optimize/hr-connector-creation/hr_connectordeclaration_v602.webp)
 
 3. [Create an Export CSV connection](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connection-creation/index.md)
    for each HR file to connect.
 
-    ![HR Connection](/img/versioned_docs/usercube_6.1/usercube/user-guide/optimize/hr-connector-creation/hr_connection_v602.png)
+    ![HR Connection](/img/versioned_docs/usercube_6.1/usercube/user-guide/optimize/hr-connector-creation/hr_connection_v602.webp)
 
 4. [Create the entity types](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md)
    corresponding to your model. For example:
 
-    ![HR Entity Type - Scalar Properties](/img/versioned_docs/usercube_6.1/usercube/user-guide/optimize/hr-connector-creation/hr_entitytypes_v602.png)
+    ![HR Entity Type - Scalar Properties](/img/versioned_docs/usercube_6.1/usercube/user-guide/optimize/hr-connector-creation/hr_entitytypes_v602.webp)
 
-    ![HR Entity Type - Navigation Properties](/img/versioned_docs/usercube_6.1/usercube/user-guide/optimize/hr-connector-creation/hr_entitytypen_v602.png)
+    ![HR Entity Type - Navigation Properties](/img/versioned_docs/usercube_6.1/usercube/user-guide/optimize/hr-connector-creation/hr_entitytypen_v602.webp)
 
 5. Don't forget to
    [reload](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md)
@@ -94,9 +94,9 @@ Create an HR connector by proceeding as follows:
    [synchronize](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/synchronization/index.md)
    to access HR data within Usercube.
 
-    ![Reload](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/key-selection/entitytypecreation_reload_v522.png)
+    ![Reload](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/key-selection/entitytypecreation_reload_v522.webp)
 
-    ![Synchronize Job](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/synchronization/synchro_executionjobs_v602.png)
+    ![Synchronize Job](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/synchronization/synchro_executionjobs_v602.webp)
 
 ## Verify HR Connector Creation
 
@@ -106,11 +106,11 @@ In order to verify the process:
 2. Access the connector's logs (from **Job Results** on the connector's dashboard) to ensure that
    synchronization completed successfully.
 
-    ![Jobs Results](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/synchronization/synchro_results_v603.png)
+    ![Jobs Results](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/synchronization/synchro_results_v603.webp)
 
 3. Check that the entity types have been added to the left menu of the home page.
 
-    ![Test Entity Type](/img/versioned_docs/usercube_6.1/usercube/user-guide/optimize/hr-connector-creation/hr_validatemenu_v600.png)
+    ![Test Entity Type](/img/versioned_docs/usercube_6.1/usercube/user-guide/optimize/hr-connector-creation/hr_validatemenu_v600.webp)
 
 4. Access the relevant entity types (from the menu items on the left of the home page) to check
    synchronized resources, by navigating in the UI from the accounts through a sample of

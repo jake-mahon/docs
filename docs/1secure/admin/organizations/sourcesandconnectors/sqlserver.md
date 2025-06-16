@@ -1,3 +1,12 @@
+---
+id: add-a-source-and-connectors-for-sql-server
+title: "Add a Source and Connectors for SQL Server"
+pagination_label: "Add a Source and Connectors for SQL Server"
+sidebar_label: "Add a Source and Connectors for SQL Server"
+sidebar_position: 46
+description: "Step-by-step guide to add SQL Server data sources and connectors to your organization."
+---
+
 # Add a Source and Connectors for SQL Server
 
 Follow the steps to add a SQL Server data source and connector to your organization.

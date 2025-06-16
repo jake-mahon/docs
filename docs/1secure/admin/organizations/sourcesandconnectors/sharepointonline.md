@@ -1,3 +1,12 @@
+---
+id: add-a-source-and-connectors-for-sharepoint-online
+title: "Add a Source and Connectors for SharePoint Online"
+pagination_label: "Add a Source and Connectors for SharePoint Online"
+sidebar_label: "Add a Source and Connectors for SharePoint Online"
+sidebar_position: 45
+description: "Step-by-step guide to add SharePoint Online data sources and connectors to your organization."
+---
+
 # Add a Source and Connectors for SharePoint Online
 
 Follow the steps to add a SharePoint Online source and connector(s) to your organization.

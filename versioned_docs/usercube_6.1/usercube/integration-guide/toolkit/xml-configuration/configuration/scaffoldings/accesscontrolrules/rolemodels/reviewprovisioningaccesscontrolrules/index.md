@@ -6,7 +6,7 @@ EntityType to be filled in the Scaffolding.
 
 Gives access to a shortcut on the dashboard to access this page.
 
-![Provisioning Review](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/provisioning/provisioning-review/home_provisioningreview_v523.png)
+![Provisioning Review](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/provisioning/provisioning-review/home_provisioningreview_v523.webp)
 
 ## Examples
 

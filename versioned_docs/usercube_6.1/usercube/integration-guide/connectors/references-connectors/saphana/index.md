@@ -7,7 +7,7 @@ instance.
 This page is about
 [ERP/SAP S/4 HANA](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/saphana/index.md).
 
-![Package: ERP/SAP S/4 HANA](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/saphana/packages_sap_v603.png)
+![Package: ERP/SAP S/4 HANA](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/saphana/packages_sap_v603.webp)
 
 ## Overview
 

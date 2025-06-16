@@ -2,7 +2,7 @@
 
 The Profile Type page contains options to select a new or existing profile.
 
-![Command Line Utility Data Collector Wizard Profile Type page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/commandlineutility/profiletype.png)
+![Command Line Utility Data Collector Wizard Profile Type page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/commandlineutility/profiletype.webp)
 
 The options on the Profile Type page are:
 

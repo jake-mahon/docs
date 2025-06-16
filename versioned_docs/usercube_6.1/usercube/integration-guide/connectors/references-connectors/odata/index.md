@@ -5,7 +5,7 @@ This connector exports and fulfills data from/to an [OData](https://www.odata.or
 This page is about
 [Custom/OData](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/odata/index.md).
 
-![Package: Custom/OData](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/odata/packages_odata_v603.png)
+![Package: Custom/OData](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/odata/packages_odata_v603.webp)
 
 ## Overview
 

@@ -34,7 +34,7 @@ on managed endpoints.
             - Deny log on through remote desktop services **or in older** Deny log on through
               terminal service
 
-![image__18_.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/5773725444759_image__18__746x366.png)
+![image__18_.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/5773725444759_image__18__746x366.webp)
 
 ## Appendix
 

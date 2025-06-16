@@ -2,34 +2,34 @@
 
 Follow the steps to view the status of an executed SendMail action:
 
-![Analysis Properties page for SendMail View Status Analysis task](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/sendmail/viewstatusanalysisproperties.png)
+![Analysis Properties page for SendMail View Status Analysis task](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/sendmail/viewstatusanalysisproperties.webp)
 
 **Step 1 –** Create a new SQLViewCreation analysis and choose **Configure Analysis**. The View and
 Table Creation Analysis Module wizard opens.
 
-![Input Source wizard page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/sendmail/viewstatusinputsource.png)
+![Input Source wizard page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/sendmail/viewstatusinputsource.webp)
 
 **Step 2 –** On the Input Source page, choose the original source table for the SendMail action as
 the first table and `tablename_ActionStatus` as the second table. For example, if the source table
 is `MailEnabledPF`, then select `MailEnabledPF_ActionStatus` as the second table.
 
-![Join Columns wizard page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/sendmail/viewstatusjoincolumns.png)
+![Join Columns wizard page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/sendmail/viewstatusjoincolumns.webp)
 
 **Step 3 –** For **Table 1 join property**, specify the column recipient of the SendMail action. For
 example, if sent to SMTP address, specify **SMTPaddress** as the column. For **Table 2 join
 property**, select **srcRowKey**. Leave everything else at the default settings.
 
-![Result Columns wizard page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/sendmail/viewstatusresultcolumns.png)
+![Result Columns wizard page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/sendmail/viewstatusresultcolumns.webp)
 
 **Step 4 –** On the Results Columns page, select the columns to return from each table. Leave all
 other settings at their default.
 
-![Result Type wizard page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/sendmail/viewstatusresulttype.png)
+![Result Type wizard page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/sendmail/viewstatusresulttype.webp)
 
 **Step 5 –** On the Result Type page, leave it as a table and provide a descriptive name, for
 example `SendMailStatus`.
 
-![Results Sample wizard page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/sendmail/viewstatusresultsample.png)
+![Results Sample wizard page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/sendmail/viewstatusresultsample.webp)
 
 **Step 6 –** Click through the rest of the options. On the Result Sample page, click **Show
 Preview** to display the columns selected within the Columns page. Click **Summary** to navigate to

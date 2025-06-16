@@ -95,7 +95,7 @@ Create an entity type by proceeding as follows:
 1. Start by
    [defining the entity type's scalar properties](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/index.md).
 
-    ![Keys](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/key-selection/entitytypecreation_keys_v522.png)
+    ![Keys](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/key-selection/entitytypecreation_keys_v522.webp)
 
 2. In the entity type's **Properties** section, choose the key properties.
 3. Choose the mapping key.
@@ -107,7 +107,7 @@ Every time an entity type mapping is modified and saved, a green pop-up appears 
 should reload the schema to implement the changes. You do not need to click on the button every
 time. It is essential though to reload after the final changes are made.
 
-![Reload](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/key-selection/entitytypecreation_reload_v522.png)
+![Reload](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/key-selection/entitytypecreation_reload_v522.webp)
 
 The **Reload** button mostly enables your changes to appear in the menu items, which configure the
 left menu links on the UI's home page.

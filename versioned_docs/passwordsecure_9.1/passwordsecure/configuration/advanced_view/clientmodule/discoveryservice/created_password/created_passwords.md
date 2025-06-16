@@ -6,7 +6,7 @@ in the following example.
 
 ## Password
 
-![password list](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/created_password/created_passwords_1-en.png)
+![password list](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/created_password/created_passwords_1-en.webp)
 
 1. The name of the created password
 2. General data about the password
@@ -17,7 +17,7 @@ in the following example.
 Another password is created in the **Password Reset module** and is required for an associated
 **Password Reset**.
 
-![password reset list](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/created_password/created_passwords_2-en.png)
+![password reset list](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/created_password/created_passwords_2-en.webp)
 
 Points 1-7 are described below:
 

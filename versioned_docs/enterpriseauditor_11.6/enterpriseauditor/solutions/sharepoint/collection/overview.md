@@ -4,7 +4,7 @@ The **SharePoint** > **0.Collection** Job Group is designed to collect informati
 farms using the SPAA Data Collector. The collected data is then available to other SharePoint
 Solution sub-job groups and the Access Information Center for analysis.
 
-![0.Collection Job Group](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/jobstree.png)
+![0.Collection Job Group](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/jobstree.webp)
 
 The jobs in the 0.Collection Job Group are:
 

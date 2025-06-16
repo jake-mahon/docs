@@ -12,7 +12,7 @@ and
 [SMARTLog: Target Log for File Detection Log Type](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/smartlog/targetlogtype/filedetectionlog.md)
 topics for information on the other versions of this wizard page.
 
-![SMART Log DC Wizard Target Log page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/smartlog/targetlog.png)
+![SMART Log DC Wizard Target Log page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/smartlog/targetlog.webp)
 
 The configurable options are:
 

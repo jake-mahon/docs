@@ -11,7 +11,7 @@ selected.
 
 The tab contains the following settings:
 
-![logfilesactivedirectory](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/outputs/logfilesactivedirectory.png)
+![logfilesactivedirectory](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/outputs/logfilesactivedirectory.webp)
 
 - Log file path – Identifies the full path of the activity log files on the activity agent server.
   The date timestamp is appended to the file name automatically.
@@ -42,7 +42,7 @@ Properties window closes.
 
 The tab contains the following settings:
 
-![Log File Tab - Windows File servers and NAS devices hosts](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/outputs/windowsfilenasdevices.png)
+![Log File Tab - Windows File servers and NAS devices hosts](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/outputs/windowsfilenasdevices.webp)
 
 - Log file path – Identifies the full path of the activity log files on the activity agent server.
   The date timestamp is appended to the file name automatically.
@@ -102,7 +102,7 @@ Properties window closes.
 
 The tab contains the following settings:
 
-![Log Files Tab for Linux Hosts](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/outputs/linux.png)
+![Log Files Tab for Linux Hosts](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/outputs/linux.webp)
 
 - Log file path – Identifies the full path of the activity log files on the activity agent server.
   The date timestamp is appended to the file name automatically.
@@ -144,7 +144,7 @@ Properties window closes.
 
 The tab contains the following settings:
 
-![Log File Tab - Azure Active Directory](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/outputs/azuread.png)
+![Log File Tab - Azure Active Directory](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/outputs/azuread.webp)
 
 - Log file path – Identifies the full path of the activity log files on the activity agent server.
   The date timestamp is appended to the file name automatically.
@@ -170,7 +170,7 @@ Properties window closes.
 
 The tab contains the following settings:
 
-![Log File Tab - SharePoint On-Premises hosts](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/outputs/sharepointonprem.png)
+![Log File Tab - SharePoint On-Premises hosts](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/outputs/sharepointonprem.webp)
 
 - Log file path – Identifies the full path of the activity log files on the activity agent server.
   The date timestamp is appended to the file name automatically.

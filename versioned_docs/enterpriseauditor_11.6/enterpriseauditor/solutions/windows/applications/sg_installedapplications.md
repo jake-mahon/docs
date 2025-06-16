@@ -8,7 +8,7 @@ The SG_InstalledApplications job uses the WMICollector Data Collector for the fo
 
 **CAUTION:** The query is preconfigured for this job. Never modify the query.
 
-![Queries for the SG_InstalledApplications Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/windows/applications/installedapplicationsquery.png)
+![Queries for the SG_InstalledApplications Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/windows/applications/installedapplicationsquery.webp)
 
 The query for the SG_InstalledApplications job are:
 
@@ -23,7 +23,7 @@ and select **Analysis** to view the analysis tasks.
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for the SG_InstalledApplications Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/windows/applications/installedapplicationsanalysis.png)
+![Analysis Tasks for the SG_InstalledApplications Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/windows/applications/installedapplicationsanalysis.webp)
 
 The default analysis tasks are:
 

@@ -3,7 +3,7 @@
 Configure the list of selected sensitive data criteria that will be used within sensitive data scan
 jobs using the Criteria Tab.
 
-![Sensitive Data Criteria tab](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/sensitivedata/criteriatab.png)
+![Sensitive Data Criteria tab](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/sensitivedata/criteriatab.webp)
 
 The options on the Criteria Tab are:
 
@@ -25,11 +25,11 @@ Otherwise, click **Cancel** if no changes were intended.
 
 Follow the steps to add Search Criteria for Sensitive Data scan jobs.
 
-![Add criteria](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/sensitivedata/addcriteria.png)
+![Add criteria](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/sensitivedata/addcriteria.webp)
 
 **Step 1 –** Click **Add** to open the Select Criteria window.
 
-![Select Criteria window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/upgrade/selectcriteria.png)
+![Select Criteria window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/upgrade/selectcriteria.webp)
 
 **Step 2 –** Select the checkbox to select the criteria. Use the **Search Criteria** text field to
 filter the list using keywords or expand each category to view and select individual Sensitive Data

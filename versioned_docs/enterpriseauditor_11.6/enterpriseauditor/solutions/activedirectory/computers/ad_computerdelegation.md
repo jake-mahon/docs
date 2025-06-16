@@ -16,7 +16,7 @@ and select **Analysis** to view the analysis tasks.
 **CAUTION:** Do not modify or deselect the analysis task. The analysis task is preconfigured for
 this job.
 
-![Analysis Task for the AD_ComputerDelegation Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/computers/computerdelegationanalysis.png)
+![Analysis Task for the AD_ComputerDelegation Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/computers/computerdelegationanalysis.webp)
 
 The default analysis tasks are:
 

@@ -35,7 +35,7 @@ pages:
 - [CLU: Results](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/commandlineutility/results.md)
 - [CLU: Summary](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/commandlineutility/summary.md)
 
-![Command Line Utility Data Collector Wizard Welcome page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/welcome.png)
+![Command Line Utility Data Collector Wizard Welcome page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/welcome.webp)
 
 The Welcome page can be hidden by selecting the **Do not display this page the next time** checkbox
 when the wizard is open and configuration settings are saved.

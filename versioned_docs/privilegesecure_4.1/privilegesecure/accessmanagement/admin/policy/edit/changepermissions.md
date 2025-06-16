@@ -6,7 +6,7 @@ Follow the steps to add or remove permission assignments from a custom role.
 
 **Step 2 –** Click a custom role item from the left-hand menu.
 
-![Custome Role Edit Permissions](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/edit/customroleeditpermissions.png)
+![Custome Role Edit Permissions](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/edit/customroleeditpermissions.webp)
 
 **Step 3 –** From the left-hand menu, check the boxes of one or more permissions to add to this
 custom role. Click the add selections Green Arrow.

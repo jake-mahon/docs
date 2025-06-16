@@ -8,7 +8,7 @@ topic for a complete list of application services.
 Use the gear icon in the upper right corner of the console to open the Configuration menu. Then
 select **System Health** to open the System Health interface.
 
-![System Health interface showing the Services page](/img/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/configuration/servicespage.png)
+![System Health interface showing the Services page](/img/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/configuration/servicespage.webp)
 
 The table displays the following information:
 
@@ -21,7 +21,7 @@ The table displays the following information:
 
 Select a service from the table or the navigation pane to view its details.
 
-![System Health interface displaying the details for a Service](/img/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/configuration/servicesdetails.png)
+![System Health interface displaying the details for a Service](/img/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/configuration/servicesdetails.webp)
 
 The page displays the following information:
 

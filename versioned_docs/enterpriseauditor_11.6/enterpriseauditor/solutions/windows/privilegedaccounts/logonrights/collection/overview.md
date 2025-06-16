@@ -4,7 +4,7 @@ The Collection job group collects group policy settings, local users, and local 
 information from Windows servers which will be further analyzed to provide insight into privileged
 users within the environment.
 
-![Collection Job Group in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/databases/collection/collectionjobstree.png)
+![Collection Job Group in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/databases/collection/collectionjobstree.webp)
 
 The jobs in the Collection job group are:
 

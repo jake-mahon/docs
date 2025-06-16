@@ -8,7 +8,7 @@ hence it requiring your intervention to make sure settings are as needed.
 
 The key tags within the file are as follows:
 
-![AgentHubDetailsFile](/img/versioned_docs/changetracker_8.0/changetracker/install/agent/agenthubdetailsfile.png)
+![AgentHubDetailsFile](/img/versioned_docs/changetracker_8.0/changetracker/install/agent/agenthubdetailsfile.webp)
 
 _Remember,_ an unencrypted password means the Agent didn’t initialize and suggests a bad
 installation or .NET Framework issue – remember the Agent on Windows requires .NET Framework V3.5,

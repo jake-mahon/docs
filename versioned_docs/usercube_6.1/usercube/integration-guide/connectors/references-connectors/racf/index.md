@@ -6,7 +6,7 @@ This connector exports users and profiles from a
 This page is about
 [MainFrame/RACF](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/racf/index.md).
 
-![Package: MainFrame/RACF](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/racf/packages_racf_v603.png)
+![Package: MainFrame/RACF](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/racf/packages_racf_v603.webp)
 
 ## Overview
 

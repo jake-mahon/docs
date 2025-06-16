@@ -8,7 +8,7 @@ provide reporting around mailbox logon activity.
 The data collection job requires that Exchange Access Auditing is enabled in the Exchange
 environment.
 
-![Logons Job Group](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/jobstree.png)
+![Logons Job Group](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/jobstree.webp)
 
 The jobs in the Logons Job Group are:
 

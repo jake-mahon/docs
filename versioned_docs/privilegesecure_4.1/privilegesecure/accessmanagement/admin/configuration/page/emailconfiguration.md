@@ -3,7 +3,7 @@
 The Email Configuration page is accessible from the Navigation pane under Configuration > System
 Settings.
 
-![systemsettingsemailconfig](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/page/systemsettingsemailconfig.png)
+![systemsettingsemailconfig](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/page/systemsettingsemailconfig.webp)
 
 The right of the page shows details of the email configuration settings and has the following
 features:
@@ -15,4 +15,4 @@ features:
 
 Example Email
 
-![Emailed link](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/page/emailedlink.png)
+![Emailed link](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/page/emailedlink.webp)

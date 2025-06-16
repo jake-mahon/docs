@@ -10,7 +10,7 @@ constantly enhanced. All of the currently available functions can be viewed in t
 [Functional scope](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/web_applicaiton/functional_scope/functional_scope.md)
 section.
 
-![WebClient](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/web_applicaiton/installation_with_parameters_159.png)
+![WebClient](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/web_applicaiton/installation_with_parameters_159.webp)
 
 **Netwrix Password Secure Web Application** enables platform-independent access to the database via
 a browser. It is irrelevant whether you are using Microsoft Windows, macOS or Linux, it is only

@@ -7,7 +7,7 @@ and enable the Criteria Editor. See the
 [Sensitive Data Discovery Add-On Installation](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/sensitivedatadiscovery/overview.md)
 topic for additional information.
 
-![Exchange Mailbox Data Collector Wizard SDD Criteria page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/sddcriteria.png)
+![Exchange Mailbox Data Collector Wizard SDD Criteria page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/sddcriteria.webp)
 
 Select the checkbox for the criteria to be used to search for sensitive data. Criteria can also be
 selected using the **Select All** and **Select None** buttons.

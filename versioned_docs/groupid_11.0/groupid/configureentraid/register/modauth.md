@@ -20,7 +20,7 @@ To generate a certificate using GroupID PowerShell:
     In Microsoft Entra Admin Center portal, while configuring the GroupID application, upload this
     certificate using the Certificate & secrets node.
 
-    ![certificates_n_secrets](/img/versioned_docs/groupid_11.0/groupid/configureentraid/register/certificates_n_secrets.png)
+    ![certificates_n_secrets](/img/versioned_docs/groupid_11.0/groupid/configureentraid/register/certificates_n_secrets.webp)
 
     On the **Upload certificate** page:
 
@@ -31,7 +31,7 @@ To generate a certificate using GroupID PowerShell:
 3. After uploading the certificate successfully, Certificate Thumbprint is displayed. Copy it and
    keep it safe.
 
-    ![Generated Thumbprint ](/img/versioned_docs/groupid_11.0/groupid/configureentraid/register/thumbprint.png)
+    ![Generated Thumbprint ](/img/versioned_docs/groupid_11.0/groupid/configureentraid/register/thumbprint.webp)
 
     The certificate Thumbprint will be used:
 

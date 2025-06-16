@@ -11,12 +11,12 @@ the user.
 To use multifactor authentication on a database, it must firstly have been activated on the Server
 Manager. In the database module, open the settings for the selected database via the ribbon.
 
-![database settings](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/multifactorauthentication/multifactor_authentication_1-en.png)
+![database settings](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/multifactorauthentication/multifactor_authentication_1-en.webp)
 
 It is possible to separately define in the settings whether it is permitted to use each interface on
 the database.
 
-![multifactor authentication](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/multifactorauthentication/multifactor_authentication_2-en.png)
+![multifactor authentication](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/multifactorauthentication/multifactor_authentication_2-en.webp)
 
 ### Other settings
 
@@ -33,7 +33,7 @@ In the
 [Organisational structure](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/organisational_structure.md)
 module, you select the user and the interface "Multifactor authentication" in the ribbon.
 
-![TOTP](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/multifactorauthentication/multifactor_authentication_3-en.png)
+![TOTP](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/multifactorauthentication/multifactor_authentication_3-en.webp)
 
 The desired type of authentication is selected and given a title. This name is also displayed to the
 user when logging in. The subsequent process differs depending on the desired authentication type.
@@ -44,7 +44,7 @@ The prerequisite for this is that the relevant app has been started on a smartph
 has been assigned for the authentication, you generate a new secret via the corresponding button. A
 QR code is displayed, which must be scanned using the Google Authenticator app on a smartphone.
 
-![google authenticator](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/multifactorauthentication/multifactor_authentication_4-en.png)
+![google authenticator](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/multifactorauthentication/multifactor_authentication_4-en.webp)
 
 Once the Google Authenticator app has detected the QR code, it will return a 6-digit PIN. You must
 then enter it in the appropriate field. Finally, click on **Create** in the ribbon.
@@ -54,7 +54,7 @@ then enter it in the appropriate field. Finally, click on **Create** in the ribb
 To set up multifactor authentication using RSA SecurID, simply enter the RSA user name and click
 **Create** directly in the ribbon.
 
-![RSA SecurID Token](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/multifactorauthentication/multifactor_authentication_5-en.png)
+![RSA SecurID Token](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/multifactorauthentication/multifactor_authentication_5-en.webp)
 
 NOTE: The prerequisite for the use of RSA SecurID token is that the access data has been stored in
 the Database settings on the Server Manager.
@@ -64,7 +64,7 @@ the Database settings on the Server Manager.
 For PKI setup, the **Select** button is used to open the menu for selecting the desired certificate.
 All eligible certificates are displayed.
 
-![Public key infrastructure](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/multifactorauthentication/multifactor_authentication_7-en.png)
+![Public key infrastructure](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/multifactorauthentication/multifactor_authentication_7-en.webp)
 
 Now just select the desired certificate from the list to confirm the process.
 

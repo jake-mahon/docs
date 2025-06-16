@@ -3,7 +3,7 @@
 The Policy report at the web application and web application URL levels provides a list of web
 application policies assigned for the selected SharePoint on-premise farm web application.
 
-![Policy report at the web application and web application URL levels](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/sharepoint/webapplication/webapppolicy.png)
+![Policy report at the web application and web application URL levels](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/sharepoint/webapplication/webapppolicy.webp)
 
 This report is comprised of the following columns:
 

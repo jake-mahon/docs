@@ -12,7 +12,7 @@ the policy to enforce these rules:
 **Step 1 –** Click the **Users** policy in the left pane of the management console to display the
 policy's rules. Rules are displayed in the right pane.
 
-![configuring_policy_rules](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/evaluation/configuring_policy_rules.png)
+![configuring_policy_rules](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/evaluation/configuring_policy_rules.webp)
 
 **Step 2 –** Double-click the **Length** rule.
 

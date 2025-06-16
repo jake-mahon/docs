@@ -8,11 +8,11 @@ To put passwords into the recycle bin there are 2 possible procedures. Select th
 to delete and click on **Move to bin (1)** or right-click on the passwords and select **Move to
 bin(2)**.
 
-![bin_2](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/passwords/bin_2.png)
+![bin_2](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/passwords/bin_2.webp)
 
 You will then be asked if you actually want to perform this action.
 
-![bin_3](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/passwords/bin_3.png)
+![bin_3](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/passwords/bin_3.webp)
 
 ## Managing the Recycle Bin
 

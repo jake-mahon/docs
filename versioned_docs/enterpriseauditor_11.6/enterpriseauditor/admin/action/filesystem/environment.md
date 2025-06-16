@@ -9,7 +9,7 @@ variables to build dynamic file path locations for the selected operation.
 
 **NOTE:** The environment variables from the local system load by default.
 
-![File System Action Module Wizard Environment page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/filesystem/environment.png)
+![File System Action Module Wizard Environment page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/filesystem/environment.webp)
 
 The connection status displays next to the Host field. To browse for another host, click the
 ellipsis (**…**) to open the Browse for Computer window. Once a host name appears in the field,

@@ -1,3 +1,12 @@
+---
+id: assigning-permission-to-read-the-registry-key
+title: "Assigning Permission To Read the Registry Key"
+pagination_label: "Assigning Permission To Read the Registry Key"
+sidebar_label: "Assigning Permission To Read the Registry Key"
+sidebar_position: 70
+description: "Learn how to assign registry key read permissions for data collection accounts on domain controllers."
+---
+
 # Assigning Permission To Read the Registry Key
 
 This permission is required only if the account selected for data collection is not a member of the

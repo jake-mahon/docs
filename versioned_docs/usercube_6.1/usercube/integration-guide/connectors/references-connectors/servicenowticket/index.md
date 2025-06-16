@@ -5,7 +5,7 @@ This connector opens tickets in [ServiceNow](https://www.servicenow.com/) for ma
 This page is about
 [Ticket/ServiceNow](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/servicenow-ticket/index.md).
 
-![Package: Ticket/ServiceNow](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/servicenowticket/packages_servicenowticket_v603.png)
+![Package: Ticket/ServiceNow](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/servicenowticket/packages_servicenowticket_v603.webp)
 
 ## Overview
 

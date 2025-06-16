@@ -39,6 +39,6 @@ following wizard pages:
 The Welcome page displays first and gives an overview of the action module. The navigation pane
 contains links to the pages in the wizard.
 
-![Survey Action Module Wizard Welcome page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/welcome.png)
+![Survey Action Module Wizard Welcome page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/welcome.webp)
 
 To proceed, click **Next** or use the Steps navigation pane to open another page in the wizard.

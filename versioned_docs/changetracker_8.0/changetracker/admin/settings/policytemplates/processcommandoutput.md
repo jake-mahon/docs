@@ -16,14 +16,14 @@ topic for additional information.
 
 cmd /C %systemroot%\system32\inetsrv\appcmd list VDIR /text:VDIR.NAME
 
-![ProcessCommandOutput](/img/versioned_docs/changetracker_8.0/changetracker/admin/settings/policytemplates/processcommandoutput.png)
+![ProcessCommandOutput](/img/versioned_docs/changetracker_8.0/changetracker/admin/settings/policytemplates/processcommandoutput.webp)
 
 - Commands will be executed indirectly by the **Master Proxy Agent** being used and the initial
   baseline stored in the **Proxy Agent** database, with any subsequent changes detected being
   reported back to the Hub. The commands will be run using whichever service account has been used
   in the assigned **Credentials**.
 
-![ProcessCommandOutputCredentials](/img/versioned_docs/changetracker_8.0/changetracker/admin/settings/policytemplates/processcommandoutputcredentials.png)
+![ProcessCommandOutputCredentials](/img/versioned_docs/changetracker_8.0/changetracker/admin/settings/policytemplates/processcommandoutputcredentials.webp)
 
 - **Use of RegEx** – Whether using Agent-based or Agentless Command Output Trackers, a Regular
   Expression can be applied to the command output to filter/match specific keywords/patterns. Note

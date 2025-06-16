@@ -4,7 +4,7 @@ The Collection Manager window enables you to manage all Microsoft Collections. C
 **Configuration** > **Collections** on the menu to launch it. This window is only available to
 Threat Prevention administrators.
 
-![Collection Manager Window](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/collectionmanager/collectionmanager.png)
+![Collection Manager Window](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/collectionmanager/collectionmanager.webp)
 
 Collections are reusable lists of policy filter settings that help streamline the task of
 associating filters with event types on the Event Type tab during

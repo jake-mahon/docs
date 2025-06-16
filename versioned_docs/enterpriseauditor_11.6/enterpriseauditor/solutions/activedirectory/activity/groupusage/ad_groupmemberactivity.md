@@ -9,7 +9,7 @@ logons.
 Navigate to the **Jobs** > **Active Directory** > **6.Activity** > **Group Usage** >
 **AD_GroupMemberActivity** > **Configure** node and select **Analysis** to view the analysis tasks.
 
-![Analysis Tasks for the AD_GroupMemberActivity Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/activity/groupusage/groupmemberactivityanalysis.png)
+![Analysis Tasks for the AD_GroupMemberActivity Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/activity/groupusage/groupmemberactivityanalysis.webp)
 
 The default analysis task is:
 
@@ -32,14 +32,14 @@ bottom of the SQL Script Editor. Follow the steps to customize an analysis task�
 **Step 1 –** Navigate to the **Active Directory** > **6.Activity** > **Group Usage** >
 **AD_GroupMemberActivity** > **Configure** node and select **Analysis**.
 
-![Group Member Activity analysis task configuration](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/activity/groupusage/groupmemberactivityanalysisconfiguration.png)
+![Group Member Activity analysis task configuration](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/activity/groupusage/groupmemberactivityanalysisconfiguration.webp)
 
 **Step 2 –** In the Analysis Selection view, select the Group Member Activity analysis task and
 click on **Analysis Configuration**. The SQL Script Editor opens.
 
 **CAUTION:** Do not change any parameters where the Value states `Created during execution`.
 
-![Group Member Activity Analysis Task in the SQL Script Editor](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/activity/groupusage/groupmemberactivitysqlscripteditor.png)
+![Group Member Activity Analysis Task in the SQL Script Editor](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/activity/groupusage/groupmemberactivitysqlscripteditor.webp)
 
 **Step 3 –** In the parameters section at the bottom of the editor, find the Value column. Select
 the cell for the temporary table called #admingroups, and click **Edit Table** to modify the value.

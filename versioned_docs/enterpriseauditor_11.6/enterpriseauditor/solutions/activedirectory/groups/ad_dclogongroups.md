@@ -13,7 +13,7 @@ select **Analysis** to view the analysis tasks.
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for the AD_DCLogonGroups Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/groups/dclogongroupsanalysis.png)
+![Analysis Tasks for the AD_DCLogonGroups Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/groups/dclogongroupsanalysis.webp)
 
 The default analysis tasks are:
 

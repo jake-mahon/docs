@@ -33,7 +33,7 @@ from the Instant Job Wizard. See the
 [Instant Job Wizard](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/instantjobs/overview.md)
 topic for additional information.
 
-![AnyID Connectors Solution in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/jobstree.png)
+![AnyID Connectors Solution in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/jobstree.webp)
 
 Once installed into the Jobs tree, navigate to the solution: **Jobs** > **AnyID Connectors**.
 
@@ -49,7 +49,7 @@ attributes about potential subjects which are then used by Enterprise Auditor’
 Discovery engine to perform exact data matching against virtually any cloud or on-premises data
 repository.
 
-![AnyID Connectors Solution Overview page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/runninginstances/overviewpage.png)
+![AnyID Connectors Solution Overview page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/runninginstances/overviewpage.webp)
 
 The jobs in the AnyID Connectors Solution are:
 

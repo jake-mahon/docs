@@ -3,7 +3,7 @@
 Use the Options page to specify whether to save history, including a running tally of all changes
 made within a certain time period, or only changes between the last two runs of the source set.
 
-![Change Detection Data Analysis Module wizard Options page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/options.png)
+![Change Detection Data Analysis Module wizard Options page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/options.webp)
 
 Configure the additional options using the following:
 

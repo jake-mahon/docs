@@ -27,7 +27,7 @@ node on the left and navigate to **Policies → Windows Settings → Security Se
 | -------------- | ----------------------- | --------------------------- |
 | Audit Policy   | **Audit object access** | _"Success"_ and _"Failure"_ |
 
-![manualconfig_fileserver_auditpolicy2016](/img/versioned_docs/auditor_10.6/auditor/configuration/fileservers/delldatastorage/manualconfig_fileserver_auditpolicy2016.png)
+![manualconfig_fileserver_auditpolicy2016](/img/versioned_docs/auditor_10.6/auditor/configuration/fileservers/delldatastorage/manualconfig_fileserver_auditpolicy2016.webp)
 
 **Step 6 –** To update the group policies, execute the following command:
 

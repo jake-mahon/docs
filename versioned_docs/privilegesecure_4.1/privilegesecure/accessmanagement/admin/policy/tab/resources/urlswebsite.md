@@ -4,7 +4,7 @@ The URLs tab shows information about the URLs associated to the selected resourc
 `https://company.lightning.force.com` and `https://salesforce.com` are both URLs associated to the
 same website.
 
-![URLs tab for Website Resource](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/resources/websitedetailsurlstab.png)
+![URLs tab for Website Resource](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/resources/websitedetailsurlstab.webp)
 
 The URLs tab has the following features:
 

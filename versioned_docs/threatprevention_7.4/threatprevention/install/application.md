@@ -9,7 +9,7 @@ Follow the steps to install Threat Prevention.
 domain-joined machine. Else the installer runs and completes without errors, though no components
 are installed.
 
-![Threat Prevention Server Setup wizard - Welcome page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/welcome.png)
+![Threat Prevention Server Setup wizard - Welcome page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/welcome.webp)
 
 **Step 2 –** On the Welcome page, click **Next** to begin the installation. One of the following
 happens:
@@ -20,12 +20,12 @@ happens:
   install it. You can either exit the wizard and install it manually or walk through the wizard
   until its last page and install it as part of the Threat Prevention installation process.
 
-![Threat Prevention Server Setup wizard - End-User License Agreement page](/img/versioned_docs/threatprevention_7.4/threatprevention/install/licenseagreement.png)
+![Threat Prevention Server Setup wizard - End-User License Agreement page](/img/versioned_docs/threatprevention_7.4/threatprevention/install/licenseagreement.webp)
 
 **Step 3 –** On the End-User License Agreement page, check the **I accept the terms in the License
 Agreement** box and click **Next**.
 
-![Threat Prevention Server Setup wizard - Custom Setup page](/img/versioned_docs/threatprevention_7.4/threatprevention/install/customsetup.png)
+![Threat Prevention Server Setup wizard - Custom Setup page](/img/versioned_docs/threatprevention_7.4/threatprevention/install/customsetup.webp)
 
 **Step 4 –** The Custom Setup page displays the components that are installed by default. These
 components require the following hard drive space for installation:
@@ -42,7 +42,7 @@ Optionally, you can change the installation directory location for Threat Preven
 _(Optional)_ Click **Browse…** to change the installation location. The Change destination folder
 page opens.
 
-![Threat Prevention Server Setup wizard - Change Destination Folder page](/img/versioned_docs/threatprevention_7.4/threatprevention/install/changedestinationfolder.png)
+![Threat Prevention Server Setup wizard - Change Destination Folder page](/img/versioned_docs/threatprevention_7.4/threatprevention/install/changedestinationfolder.webp)
 
 > - Use the Look in field to select the desired installation folder.
 > - When the Folder name box is set as desired, click **OK**.
@@ -50,7 +50,7 @@ page opens.
 The wizard returns to the Custom Setup page. You can use the **Reset** button to revert to the
 default settings on the Custom Setup page. Click **Next** to proceed.
 
-![Threat Prevention Server Setup wizard - Enterprise Manager Location Information page](/img/versioned_docs/threatprevention_7.4/threatprevention/install/emlocationinfo.png)
+![Threat Prevention Server Setup wizard - Enterprise Manager Location Information page](/img/versioned_docs/threatprevention_7.4/threatprevention/install/emlocationinfo.webp)
 
 **Step 6 –** On the Enterprise Manager Location Information page, the host name or IP address for
 the Enterprise Manager server is pre-populated. Enter the ports for the Enterprise Manager service
@@ -73,7 +73,7 @@ for additional information.
 
 When the settings are configured, click **Next**.
 
-![Threat Prevention Server Setup wizard - Database Login Information page](/img/versioned_docs/threatprevention_7.4/threatprevention/install/databselogininfor.png)
+![Threat Prevention Server Setup wizard - Database Login Information page](/img/versioned_docs/threatprevention_7.4/threatprevention/install/databselogininfor.webp)
 
 **Step 7 –** On the Database Login Information page, provide the SQL Server information for database
 connection.
@@ -105,7 +105,7 @@ connection.
         **Next**. If the credential authentication fails, the setup does not proceed and a pop-up
         window displays failure details.
 
-![Threat Prevention Server Setup wizard – Logon page](/img/versioned_docs/threatprevention_7.4/threatprevention/install/logon.png)
+![Threat Prevention Server Setup wizard – Logon page](/img/versioned_docs/threatprevention_7.4/threatprevention/install/logon.webp)
 
 **Step 8 –** If Windows authentication is selected, the Logon page is displayed.
 
@@ -122,12 +122,12 @@ connection.
     credential authentication fails, the setup does not proceed and a pop-up window displays failure
     details.
 
-![Threat Prevention Server Setup wizard - Ready to Install page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/agent/readytoinstall.png)
+![Threat Prevention Server Setup wizard - Ready to Install page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/agent/readytoinstall.webp)
 
 **Step 9 –** On the Ready to Install Netwrix Threat Prevention Server page, click **Install**. When
 finished, the Completed the Netwrix Threat Prevention Server Setup Wizard page is displayed.
 
-![Threat Prevention Server Setup wizard – Completed page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/complete.png)
+![Threat Prevention Server Setup wizard – Completed page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/complete.webp)
 
 If .NET Framework 4.7 is not installed, the Completed the Netwrix Threat Prevention Server Setup
 Wizard page displays the **Run .NET 4.7 installation package** checkbox. Check it and click
@@ -141,7 +141,7 @@ Administrative command prompt.
 **Step 10 –** The installation process begins and the wizard displays the installation status. When
 installation is complete, click **Finish**.
 
-![Threat Prevention Admin Console desktop icon](/img/versioned_docs/threatprevention_7.4/threatprevention/install/desktopicon.png)
+![Threat Prevention Admin Console desktop icon](/img/versioned_docs/threatprevention_7.4/threatprevention/install/desktopicon.webp)
 
 The selected components have been installed, and the Threat Prevention Console icon is now on the
 desktop. See the

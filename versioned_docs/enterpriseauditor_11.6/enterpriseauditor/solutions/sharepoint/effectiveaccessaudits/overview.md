@@ -3,7 +3,7 @@
 This group returns reports identifying specific trustees’ effective access across the entire
 SharePoint environment.
 
-![Effective Access Audits Job Group in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/jobstree.png)
+![Effective Access Audits Job Group in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/jobstree.webp)
 
 The Effective Access Audits Job Group is comprised of:
 

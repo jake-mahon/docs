@@ -82,7 +82,7 @@ What do you want to do?
 
             NOTE: Image dimensions: 30 x 30 pixels
 
-            Supported formats: .png, .jpg, .jpe, .jpeg
+            Supported formats: .webp, .jpg, .jpe, .jpeg
 
     8. **Visibility Level** – Select a security role. The toolbar button would be visible to users
        of this role and roles with a priority value higher than this role. See

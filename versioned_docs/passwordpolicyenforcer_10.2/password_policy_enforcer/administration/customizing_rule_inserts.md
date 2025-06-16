@@ -8,26 +8,26 @@ Follow the steps below to edit a rule's inserts.
 
 **Step 1 –** Click the **Policies** item to display the Policies view.
 
-![customizing_rule_inserts_1](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/customizing_rule_inserts_1.png)
+![customizing_rule_inserts_1](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/customizing_rule_inserts_1.webp)
 
 **Step 2 –** Click the **desired policy** in the right pane of the management console. In this
 example it is Policy 1.
 
-![customizing_rule_inserts_2](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/customizing_rule_inserts_2.png)
+![customizing_rule_inserts_2](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/customizing_rule_inserts_2.webp)
 
 **Step 3 –** Double-click the **desired rule** to display the Rule Properties page. In this example
 it is a
 [Compromised Rule](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/compromised_rule.md).
 
-![customizing_rule_inserts_3](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/customizing_rule_inserts_3.png)
+![customizing_rule_inserts_3](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/customizing_rule_inserts_3.webp)
 
 **Step 4 –** Click the **Messages** tab.
 
-![customizing_rule_inserts_4](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/customizing_rule_inserts_4.png)
+![customizing_rule_inserts_4](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/customizing_rule_inserts_4.webp)
 
 **Step 5 –** Choose a language from the Language list.
 
-![customizing_rule_inserts_5](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/customizing_rule_inserts_5.png)
+![customizing_rule_inserts_5](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/customizing_rule_inserts_5.webp)
 
 **Step 6 –** Edit the rule inserts in the Policy and Reason text boxes.
 

@@ -11,7 +11,7 @@ the following queries:
 **CAUTION:** Except the first query, do not modify the remaining queries. The remaining queries are
 preconfigured for this job.
 
-![Query Selection](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/domains/collection/domaincontrollersquery.png)
+![Query Selection](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/domains/collection/domaincontrollersquery.webp)
 
 The queries for this job are:
 
@@ -47,11 +47,11 @@ Data Collector. This query can be optionally configured to connect securely with
 **Step 3 –** Select the **Data Source** tab, and click **Configure**. The LDAP template form wizard
 opens.
 
-![LDAP template form](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/domains/collection/ldaptemplate.png)
+![LDAP template form](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/domains/collection/ldaptemplate.webp)
 
 **Step 4 –** Click **Options**.
 
-![Connection Options](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/domains/collection/ldaptemplateoptions.png)
+![Connection Options](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/domains/collection/ldaptemplateoptions.webp)
 
 **Step 5 –** On the Options page, select **Connect Securely with TLS/SSL**. Optionally, select
 **Ignore Certificate Errors** to connect even if certificate errors occur. Use **Server Port** 686

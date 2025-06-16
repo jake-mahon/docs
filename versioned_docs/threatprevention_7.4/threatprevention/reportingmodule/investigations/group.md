@@ -6,7 +6,7 @@ In an investigation report, when you click the Perpetrator (user name) link or T
 link, you land on the User Details page or the Host Details page. Click a group name here to go to
 the Group Details page.
 
-![Group Details page - Members tab](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/activedirectory/operations/groupdetails.png)
+![Group Details page - Members tab](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/activedirectory/operations/groupdetails.webp)
 
 The top of the page displays a group profile card that may contain the following information about
 the group:
@@ -47,7 +47,7 @@ Each sub-tab displays a table with the following columns:
 
 Click the Group Membership tab to open it.
 
-![Group Membership Tab](/img/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/investigations/groupmembershiptab.png)
+![Group Membership Tab](/img/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/investigations/groupmembershiptab.webp)
 
 The Group Membership tab displays the groups that _the group_ is a member of. Here, 'the group'
 refers to the group whose details you are viewing.

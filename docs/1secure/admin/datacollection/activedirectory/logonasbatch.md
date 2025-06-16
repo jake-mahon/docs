@@ -1,3 +1,12 @@
+---
+id: define-log-on-as-a-batch-job-policy
+title: "Define Log On As a Batch Job Policy"
+pagination_label: "Define Log On As a Batch Job Policy"
+sidebar_label: "Define Log On As a Batch Job Policy"
+sidebar_position: 67
+description: "Learn how to configure Log On As a Batch Job policy for Data Processing Account access."
+---
+
 # Define Log On As a Batch Job Policy
 
 During the source addition, the Log on as a batch job policy is automatically defined for the Data

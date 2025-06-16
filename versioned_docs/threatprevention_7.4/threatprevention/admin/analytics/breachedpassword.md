@@ -37,7 +37,7 @@ The Configure Analytics window has two tabs:
 
 Settings Tab
 
-![Breached Password Analytic Type - Settings tab](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/analytics/breachedpasswordsettings.png)
+![Breached Password Analytic Type - Settings tab](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/analytics/breachedpasswordsettings.webp)
 
 Set the Number of Failed Attempts preceding a successful login and the Interval Duration that will
 trigger the incident. The interval duration is set for (Hours:Minutes) and is capped at 23:59. When
@@ -51,7 +51,7 @@ memory once they are more than 24 hours old.
 
 Policy Tab
 
-![Breached Password Analytic Type - Policy tab](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/analytics/policytab.png)
+![Breached Password Analytic Type - Policy tab](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/analytics/policytab.webp)
 
 The **Policy** tab for configuring analytics consists of three sub-tabs:
 
@@ -98,7 +98,7 @@ The **Policy** tab for configuring analytics consists of three sub-tabs:
 
 The data grid on the **Breached Password** node lists one row per incident identified.
 
-![Breached Password Analytic Type window](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/analytics/breachedpassword.png)
+![Breached Password Analytic Type window](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/analytics/breachedpassword.webp)
 
 The data grid can be filtered according to the Event Tracker status: All, New, or Reviewed. See the
 [Event Tracker Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/recentevents/eventtracker.md)

@@ -139,7 +139,7 @@ Find at the bottom a procedure example about modeling the Active Directory.
 
 All templates are detailed with examples and schemas with the following key:
 
-![Schemas' Key](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-modeling/connectormodel_key.png)
+![Schemas' Key](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-modeling/connectormodel_key.webp)
 
 During the technical modeling inside Usercube, these objects will become entity types, their
 attributes will become scalar properties, the links between them will become navigation properties.
@@ -160,7 +160,7 @@ Permissions can be managed:
 
 #### Model
 
-![User Model](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-modeling/connectormodel_user.png)
+![User Model](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-modeling/connectormodel_user.webp)
 
 Thus you need to create one entity type to represent either accounts or other resources.
 
@@ -201,7 +201,7 @@ creating an entity type for users, we can create an entity type for the badges. 
 their attributes their respective access location and time, and an attribute listing authorized
 users.
 
-![User Model - Canteen Badges Example](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-modeling/connectormodel_user-canteen.png)
+![User Model - Canteen Badges Example](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-modeling/connectormodel_user-canteen.webp)
 
 #### Example - Mailboxes
 
@@ -209,7 +209,7 @@ Mailboxes constitute a complex system, but IGA purposes require little informati
 so this system can too be handled with the User model, either through users and their entitlement
 lists, or through mailbox entitlements and their lists of authorized users.
 
-![User Model - Mailboxes Example](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-modeling/connectormodel_user-mailbox.png)
+![User Model - Mailboxes Example](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-modeling/connectormodel_user-mailbox.webp)
 
 ### User-Group
 
@@ -228,7 +228,7 @@ Users are represented by the accounts they own.
 
 #### Model
 
-![User-Group Model](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-modeling/connectormodel_usergroup.png)
+![User-Group Model](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-modeling/connectormodel_usergroup.webp)
 
 Thus you need to create one entity type to represent groups (or roles or profiles) and one for
 accounts.
@@ -260,7 +260,7 @@ We define two entity types `SAB - User` and `SAB - Group`. We fill them with a f
 to manage entitlements in the SAB application. Finally, we add a navigation property in both entity
 types in order to link `User` with `Group` with an "n-to-n" relationship.
 
-![User-Group Example - SAB](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-modeling/connectormodel_sab.png)
+![User-Group Example - SAB](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-modeling/connectormodel_sab.webp)
 
 #### Example - RACF
 
@@ -269,7 +269,7 @@ manage critical entitlements on the mainframe. RACF is a complex system, but IGA
 require information about accounts and groups, as entitlements are given by group membership. Thus
 the system can be simplified to be managed by Usercube following the User-Group model.
 
-![User-Group Example - RACF](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-modeling/connectormodel_racf.png)
+![User-Group Example - RACF](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-modeling/connectormodel_racf.webp)
 
 For RACF, Usercube provisions only the link between accounts and groups.
 
@@ -283,7 +283,7 @@ Usercube manages users (with their accounts) and groups called here profiles. Bo
 profiles are grouped into departments, themselves grouped into partitions. Entitlements are called
 authorizations, and are linked to users through group (profile) membership.
 
-![User-Group Example - TSS](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-modeling/connectormodel_tss.png)
+![User-Group Example - TSS](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-modeling/connectormodel_tss.webp)
 
 For TSS, Usercube provisions only the link between users and profiles.
 
@@ -323,7 +323,7 @@ The object `Group` from the template is called here `Position` (grouped into org
 themselves grouped into organization types). It contains the way an entitlement is given, here
 through a given position and wallet.
 
-![User-Group Example - SDGE](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-modeling/connectormodel_sdge.png)
+![User-Group Example - SDGE](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-modeling/connectormodel_sdge.webp)
 
 For SDGE, Usercube provisions only workers and the link between workers and positions.
 
@@ -347,7 +347,7 @@ basic characteristics:
 
 #### Model
 
-![Account-Profile-Transaction Model](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-modeling/connectormodel_profiletransaction.png)
+![Account-Profile-Transaction Model](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-modeling/connectormodel_profiletransaction.webp)
 
 Thus you need to create one entity type to represent accounts, one for profiles, and one for
 transactions.
@@ -373,7 +373,7 @@ sticks to the real capacity of the technical tool and all use-cases are consider
 
 See the schema below this note.
 
-![Profiles Example](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-modeling/connectormodel_profiles.png)
+![Profiles Example](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-modeling/connectormodel_profiles.webp)
 
 Transactions are not mandatory in a model. Most of the time, the profile packages are predefined
 once and for all, or are the responsibility of the application owner. Then Usercube doesn't need to
@@ -387,7 +387,7 @@ take them into account.
 The TSS connector is actually a mix of the [User-Group](#user-group) and Account-Profile-Transaction
 models. The User-Group part is explained above.
 
-![User-Group Example - TSS](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-modeling/connectormodel_tss-prof-trans.png)
+![User-Group Example - TSS](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-modeling/connectormodel_tss-prof-trans.webp)
 
 Transactions are called here authorizations.
 
@@ -416,7 +416,7 @@ the right criteria altogether (i.e. the right profile and other user parameters)
 
 #### Model
 
-![Star Model](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-modeling/connectormodel_star.png)
+![Star Model](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-modeling/connectormodel_star.webp)
 
 Thus you need to create one entity type to represent accounts, one for each criterion, and another
 one to represent the object linking acounts to criteria.
@@ -448,7 +448,7 @@ Consider an application which manages entitlement assignment with different rule
 users' profiles, attachment areas and sites. Our example shows 4 profiles, 4 attachment areas and 3
 sites. So a user may be assigned a given entitlement for a given profile, attachment area and site.
 
-![Star Model Example](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-modeling/connectormodel_starmodel.png)
+![Star Model Example](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-modeling/connectormodel_starmodel.webp)
 
 For this connector, Usercube provisions only the links between accounts and linking objects, and the
 links between linking objects and each criterion.
@@ -469,19 +469,19 @@ memberships of accounts. In other words, to assign an entitlement to an identity
 account of said identity member of the corresponding AD group. That is exactly what the User-Group
 template is designed to handle.
 
-![User-Group Model](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-modeling/connectormodel_usergroup.png)
+![User-Group Model](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-modeling/connectormodel_usergroup.webp)
 
 **Step 2: adapt the model to your reality.**
 
 We start by renaming the `Account` object as `AD_User` and the `Group` object as `AD_Group`.
 
-![AD Example - Step 1](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-modeling/connectormodel_ad-step1.png)
+![AD Example - Step 1](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-modeling/connectormodel_ad-step1.webp)
 
 **Step 3: define useful data close to your reality.**
 
 We shape these objects with the following attributes:
 
-![AD Example - Step 2](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-modeling/connectormodel_ad.png)
+![AD Example - Step 2](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-modeling/connectormodel_ad.webp)
 
 **Step 4: ensure that all objects have unique keys.**
 
@@ -508,4 +508,4 @@ Beyond avoiding repetition, this makes the model easily adaptable if new element
 > `AD_Computer` and `AD_OU` without merging groups with entries, designing `AD_Entry` with all these
 > attributes provides the means to add objects without creating new entity types.
 >
-> ![AD_Entry Example](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-modeling/connectormodel_adentry.png)
+> ![AD_Entry Example](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-modeling/connectormodel_adentry.webp)

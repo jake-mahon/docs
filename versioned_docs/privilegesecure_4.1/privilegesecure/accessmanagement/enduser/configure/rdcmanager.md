@@ -42,7 +42,7 @@ Netwrix\JonSmith+Local Admin+SQL1.netwrix.com++Server Maintenance
 
 Configuration parameters for PuTTY (SSH).
 
-![appendices_stealthbits_privileged](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/configure/appendices_stealthbits_privileged.png)
+![appendices_stealthbits_privileged](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/configure/appendices_stealthbits_privileged.webp)
 
 Host Name Format:
 
@@ -61,7 +61,7 @@ Port:
 
 Configuration parameters for MobaXterm (SSH).
 
-![MobaXterm SSH configuration](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/configure/appendices_stealthbits_privileged_1.png)
+![MobaXterm SSH configuration](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/configure/appendices_stealthbits_privileged_1.webp)
 
 Remote Host Format:
 
@@ -78,14 +78,14 @@ Port:
 
 Uncheck the checkboxes under Advanced SSH Settings and Bookmark Settings.
 
-| ![appendices_stealthbits_privileged_2](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/configure/appendices_stealthbits_privileged_2.png) | ![appendices_stealthbits_privileged_3](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/configure/appendices_stealthbits_privileged_3.png) |
+| ![appendices_stealthbits_privileged_2](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/configure/appendices_stealthbits_privileged_2.webp) | ![appendices_stealthbits_privileged_3](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/configure/appendices_stealthbits_privileged_3.webp) |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
 ## MobaXterm (RDP)
 
 Configuration parameters for MobaXterm (RDP).
 
-![MobaXtermRDP configuration](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/configure/appendices_stealthbits_privileged_5.png)
+![MobaXtermRDP configuration](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/configure/appendices_stealthbits_privileged_5.webp)
 
 Remote Host:
 
@@ -108,7 +108,7 @@ Port:
 - Port – The RDP listening port on the proxy
 - Default port – 4489
 
-![appendices_stealthbits_privileged_6](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/configure/appendices_stealthbits_privileged_6.png)
+![appendices_stealthbits_privileged_6](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/configure/appendices_stealthbits_privileged_6.webp)
 
 Check the Redirect Clipboard checkbox on the Advanced RDP Settings tab to enable pasting of the 2FA
 token.
@@ -117,7 +117,7 @@ token.
 
 Configuration parameters for Microsoft Remote Desktop Connection (RDP).
 
-![appendices_stealthbits_privileged_4](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/configure/appendices_stealthbits_privileged_4.png)
+![appendices_stealthbits_privileged_4](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/configure/appendices_stealthbits_privileged_4.webp)
 
 Computer:
 
@@ -143,7 +143,7 @@ topic for additional information.
 
 Configure the Microsoft Remote Desktop Connection Manager (RDC Manager).
 
-| ![appendices_stealthbits_privileged_7](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/configure/appendices_stealthbits_privileged_7.png) | ![appendices_stealthbits_privileged_8](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/configure/appendices_stealthbits_privileged_8.png) |
+| ![appendices_stealthbits_privileged_7](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/configure/appendices_stealthbits_privileged_7.webp) | ![appendices_stealthbits_privileged_8](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/configure/appendices_stealthbits_privileged_8.webp) |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
 Server name:
@@ -182,12 +182,12 @@ password.
 **Step 2 –** Navigate to Computer Configuration > Administrative Templates > Windows Components >
 Remote Desktop Services > Remote Desktop Connection Client
 
-![Configure Remote Desktop Connection to Prompt for Password](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/configure/appendices_stealthbits_privileged_9.png)
+![Configure Remote Desktop Connection to Prompt for Password](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/configure/appendices_stealthbits_privileged_9.webp)
 
 **Step 3 –** Right click on Prompt for credentials on the client computer and select Edit from the
 context menu.
 
-![appendices_stealthbits_privileged_10](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/configure/appendices_stealthbits_privileged_10.png)
+![appendices_stealthbits_privileged_10](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/configure/appendices_stealthbits_privileged_10.webp)
 
 **Step 4 –** In the Prompt for Credentials on the Client Computer window, select Enabled.
 

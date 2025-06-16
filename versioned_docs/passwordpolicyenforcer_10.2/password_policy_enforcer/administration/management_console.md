@@ -34,7 +34,7 @@ terms and conditions.
 **Step 8 –** Click the icon beside the Password Policy Server feature, and then click **Entire
 feature will be unavailable**.
 
-![configuring_ppe_0](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/configuring_ppe_0.png)
+![configuring_ppe_0](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/configuring_ppe_0.webp)
 
 **Step 9 –** Click **Next** twice.
 
@@ -45,7 +45,7 @@ feature will be unavailable**.
 Click **Start** > **Netwrix Password Policy Enforcer 10** > **PPE Configuration** to open the
 Password Policy Enforcer management console.
 
-![configuring_ppe_1](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/configuring_ppe_1.png)
+![configuring_ppe_1](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/configuring_ppe_1.webp)
 
 **NOTE:** If you are opening the management console for the first time, click **Yes** when asked if
 you would like to create a new Password Policy Enforcer configuration.

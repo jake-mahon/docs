@@ -11,7 +11,7 @@ additional information.
 
 Follow the steps below to open the PPS Properties page:
 
-![configuring_ppe_6](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/configuring_ppe_6.png)
+![configuring_ppe_6](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/configuring_ppe_6.webp)
 
 **Step 1 –** Click the **Password Policy Server** item to display the Password Policy Server view.
 
@@ -151,7 +151,7 @@ Follow the steps below to disable Password Policy Enforcer.
 
 **Step 2 –** Click **PPS Properties** in the right pane of the management console.
 
-![configuring_ppe_6](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/configuring_ppe_6.png)
+![configuring_ppe_6](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/configuring_ppe_6.webp)
 
 **Step 3 –** Click **Disable**.
 
@@ -168,7 +168,7 @@ Follow the steps below to re-enable Password Policy Enforcer.
 
 **Step 2 –** Click **PPS Properties** in the right pane of the management console.
 
-![configuring_ppe_7](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/configuring_ppe_7.png)
+![configuring_ppe_7](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/configuring_ppe_7.webp)
 
 **Step 3 –** Click **Enable**, then click **OK**.
 
@@ -187,7 +187,7 @@ topic for additional information.
 
 The Email tab allows you to configure the e-mail delivery options.
 
-![emailtab](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/emailtab.png)
+![emailtab](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/emailtab.webp)
 
 - Disable email reminders – Select this option if you prefer not to receive email reminders.
 - Send email to an SMTP server – Select this option if you want receive email reminders.
@@ -210,7 +210,7 @@ The License tab allows you to see the status of your license.
 
 Click the **License** tab to display your Password Policy Enforcer license details.
 
-![licensetab](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/licensetab.png)
+![licensetab](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/licensetab.webp)
 
 Follow the steps to activate license for Netwrix Password Policy Enforcer.
 
@@ -234,7 +234,7 @@ Follow the steps below to view events logs in Windows Event Viewer.
 
 **Step 1 –** Open **Windows Event Viewer**.
 
-![View Event Logs](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/vieweventlogs.png)
+![View Event Logs](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/vieweventlogs.webp)
 
 **Step 2 –** Navigate to **Windows Logs** > **Application**.
 
@@ -247,6 +247,6 @@ The General tab shows details for the selected event. The Details tab shows...
 
 To view Log Properties, navigate to the Actions menu and select **Properties**.
 
-![Log Properties Window](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/vieweventlogslogproperties.png)
+![Log Properties Window](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/vieweventlogslogproperties.webp)
 
 The Log Properties window displays. Settings for this log can be configured from this window.

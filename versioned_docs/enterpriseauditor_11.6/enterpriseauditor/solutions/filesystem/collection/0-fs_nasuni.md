@@ -21,7 +21,7 @@ volume data, and share data from the Nasuni environment.
 
 **CAUTION:** Do not modify the queries. The queries are preconfigured for this job.
 
-![Queries for the 0-FS_Nasuni Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/collection/fsnasuniquery.png)
+![Queries for the 0-FS_Nasuni Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/collection/fsnasuniquery.webp)
 
 The queries for the 0-FS_Nasuni job are:
 

@@ -12,7 +12,7 @@ following areas
 [User Management](/versioned_docs/dataclassification_5.6.2/ndc/security/user_management.md) section
 for more information.
 
-![content_config_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/sources/content_config_thumb_0_0.png)
+![content_config_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/sources/content_config_thumb_0_0.webp)
 
 See next:
 

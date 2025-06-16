@@ -14,7 +14,7 @@ Special Dependency
 
 The ActivityScan Job uses the SQL Data Collector for the following query:
 
-![Query Selection](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/sql/collection/sqljobgroup14.png)
+![Query Selection](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/sql/collection/sqljobgroup14.webp)
 
 - ActivityScan – Collects activity from targeted instances
     - (Optional) This query can be modified to target specific databases/instances. See the
@@ -37,7 +37,7 @@ appears.
 **CAUTION:** Do not make changes to other wizard pages as they have been pre-configured for the
 purpose of this job.
 
-![Options Page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/sql/collection/3sqlactivityscanoptionspage.png)
+![Options Page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/sql/collection/3sqlactivityscanoptionspage.webp)
 
 **Step 4 –** To modify scan options, navigate to the
 [SQL Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/sql/overview.md)
@@ -49,7 +49,7 @@ settings:
 - Collect audits by name – Finds available audits in the database
 - Collect audits by path – Collects audits by a specified path
 
-![Filter Page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/sql/collection/3sqlactivityscanfilterpage.png)
+![Filter Page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/sql/collection/3sqlactivityscanfilterpage.webp)
 
 **Step 5 –** To scope the query for specific database/instance, navigate to the
 [SQL Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/sql/overview.md)
@@ -76,7 +76,7 @@ Analysis to view the analysis tasks.
 **CAUTION:** Do not modify or deselect the selected analysis task(s). The analysis task(s) are
 preconfigured for this job.
 
-![Analysis Selection](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/sql/collection/sqljobgroup17.png)
+![Analysis Selection](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/sql/collection/sqljobgroup17.webp)
 
 The default analysis tasks are:
 

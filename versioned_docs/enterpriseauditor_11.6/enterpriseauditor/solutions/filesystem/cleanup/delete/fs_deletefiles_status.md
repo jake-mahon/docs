@@ -13,7 +13,7 @@ Navigate to the **FileSystem** > **Cleanup** > **4. Delete** > **FS_DeleteFiles_
 **CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
 preconfigured for this job.
 
-![Analysis Tasks for the FS_DeleteFiles_Status Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/cleanup/delete/deletefilesstatusanalysis.png)
+![Analysis Tasks for the FS_DeleteFiles_Status Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/cleanup/delete/deletefilesstatusanalysis.webp)
 
 The following analysis task is selected by default:
 

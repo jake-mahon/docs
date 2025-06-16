@@ -7,7 +7,7 @@ the access rules page and the job execution page.
 
 Gives access to shortcuts on the dashboard to access these pages.
 
-![Connectors](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/synchronization/home_connectors_v602.png)
+![Connectors](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/synchronization/home_connectors_v602.webp)
 
 The scaffolding generates the following scaffoldings:
 

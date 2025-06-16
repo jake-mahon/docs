@@ -19,7 +19,7 @@ can be edited below.
 ![Graphical user interface, application
 
 Description automatically
-generated](/img/versioned_docs/changetracker_8.0/changetracker/admin/settings/page_guide_24.png)
+generated](/img/versioned_docs/changetracker_8.0/changetracker/admin/settings/page_guide_24.webp)
 
 **NOTE:** Click on the ‘burger’ icon alongside any column heading to get a full list of column
 options.
@@ -27,6 +27,6 @@ options.
 ![Graphical user interface, text, application, email
 
 Description automatically
-generated](/img/versioned_docs/changetracker_8.0/changetracker/admin/settings/page_guide_25.png)
+generated](/img/versioned_docs/changetracker_8.0/changetracker/admin/settings/page_guide_25.webp)
 
-![page_guide_26](/img/versioned_docs/changetracker_8.0/changetracker/admin/settings/page_guide_26.png)
+![page_guide_26](/img/versioned_docs/changetracker_8.0/changetracker/admin/settings/page_guide_26.webp)

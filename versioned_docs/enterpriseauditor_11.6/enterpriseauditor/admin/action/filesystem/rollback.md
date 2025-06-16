@@ -6,7 +6,7 @@ left off.
 
 **NOTE:** Not all actions support Rollback.
 
-![File System Action Module Wizard Rollback page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/filesystem/rollback.png)
+![File System Action Module Wizard Rollback page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/filesystem/rollback.webp)
 
 Use the following options:
 

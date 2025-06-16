@@ -16,7 +16,7 @@ Knowing that we have the following properties:
 
 ```
 
-![Display Property Group - Example](/img/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/displaypropertygroup/displaypropertygroup_example_v603.png)
+![Display Property Group - Example](/img/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/displaypropertygroup/displaypropertygroup_example_v603.webp)
 
 Any property without a value is not displayed.
 

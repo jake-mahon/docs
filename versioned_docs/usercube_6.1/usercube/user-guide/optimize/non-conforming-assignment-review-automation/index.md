@@ -44,11 +44,11 @@ topics for additional information.
 
 Create an automation rule by proceeding as follows:
 
-![Home Page - Access Rules](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/classification/home_rules_v602.png)
+![Home Page - Access Rules](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/classification/home_rules_v602.webp)
 
 **Step 1 –** On the home page in the **Configuration** section, click on **Access Rules**.
 
-![Entity Type Choice](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/provrules_entitytype_v602.png)
+![Entity Type Choice](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/provrules_entitytype_v602.webp)
 
 **Step 2 –** In the dropdown menu at the top left, choose the entity type to which the future rule
 will be applied.
@@ -57,7 +57,7 @@ will be applied.
 
 **Step 3 –** Click on the **Automations** tab and on the addition button at the top right corner.
 
-![New Automation Rule](/img/versioned_docs/usercube_6.1/usercube/user-guide/optimize/non-conforming-assignment-review-automation/reviewautomation_newrulefields_v602.png)
+![New Automation Rule](/img/versioned_docs/usercube_6.1/usercube/user-guide/optimize/non-conforming-assignment-review-automation/reviewautomation_newrulefields_v602.webp)
 
 **Step 4 –** Fill in the fields.
 
@@ -92,13 +92,13 @@ assignment.
 
 **Step 2 –** Create an automation rule matching said assignment.
 
-![Home Page - Job Execution](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/synchronization/home_jobexecution_v602.png)
+![Home Page - Job Execution](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/synchronization/home_jobexecution_v602.webp)
 
 **Step 3 –** Compute the role model through the complete job on the **Job Execution** page.
 
 **Step 4 –** Check on the **Role Review** page that the assignment's workflow state changed
 according to the rule's settings.
 
-![New Automation Rule](/img/versioned_docs/usercube_6.1/usercube/user-guide/optimize/non-conforming-assignment-review-automation/reviewautomation_rulemessage_v522.png)
+![New Automation Rule](/img/versioned_docs/usercube_6.1/usercube/user-guide/optimize/non-conforming-assignment-review-automation/reviewautomation_rulemessage_v522.webp)
 
 Any role affected by an automation rule shows a specific message on the **Role Review** page.

@@ -7,7 +7,7 @@ Follow the steps to a lock the session.
 
 **Step 1 –** In the Live Session Viewer, click the **Terminate Session** icon.
 
-![Terminate Session window](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/dashboard/window/terminatesession.png)
+![Terminate Session window](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/dashboard/window/terminatesession.webp)
 
 **Step 2 –** In the Terminate Proxy Session window, select from the following options:
 

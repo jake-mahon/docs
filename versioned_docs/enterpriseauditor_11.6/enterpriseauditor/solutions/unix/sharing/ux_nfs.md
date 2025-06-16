@@ -11,7 +11,7 @@ to view the analysis tasks.
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for the UX_NFS Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/unix/sharing/nfsanalysis.png)
+![Analysis Tasks for the UX_NFS Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/unix/sharing/nfsanalysis.webp)
 
 The default analysis tasks are:
 

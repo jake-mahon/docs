@@ -5,7 +5,7 @@ This connector exports data from a [CSV file](https://en.wikipedia.org/wiki/Comm
 This page is about
 [File/CSV](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/csv/index.md).
 
-![Package: File/CSV](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/csv/packages_csv_v603.png)
+![Package: File/CSV](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/csv/packages_csv_v603.webp)
 
 ## Overview
 

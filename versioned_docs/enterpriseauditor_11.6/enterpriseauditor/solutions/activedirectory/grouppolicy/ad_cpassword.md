@@ -16,7 +16,7 @@ The AD_CPassword Job uses the PowerShell Data Collector for the following query:
 
 **CAUTION:** Do not modify the query. The query is preconfigured for this job
 
-![Query for the AD_CPassword Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/grouppolicy/cpasswordquery.png)
+![Query for the AD_CPassword Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/grouppolicy/cpasswordquery.webp)
 
 The queries for this job are:
 

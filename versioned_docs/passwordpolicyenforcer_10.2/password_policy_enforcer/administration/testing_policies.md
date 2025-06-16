@@ -11,7 +11,7 @@ Follow the steps below to test your configuration.
 
 **Step 2 –** Click **Test Policies** in the right pane of the management console.
 
-![passwordtest](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/passwordtest.png)
+![passwordtest](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/passwordtest.webp)
 
 **Step 3 –** Select the **Password** Test tab.
 
@@ -32,11 +32,11 @@ which rules the new password complied with.
 
 | Rule                                                                                                                                                    | Status of Password Compliance with Rule           |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------- |
-| ![testing_the_password_policy_1](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/evaluation/testing_the_password_policy_1.png) | Rule disabled or not tested.                      |
-| ![testing_the_password_policy_2](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/evaluation/testing_the_password_policy_2.png) | Rule enabled, password complies with rule         |
-| ![testing_the_password_policy_3](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/evaluation/testing_the_password_policy_3.png) | Rule enabled, password does not comply with rule. |
+| ![testing_the_password_policy_1](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/evaluation/testing_the_password_policy_1.webp) | Rule disabled or not tested.                      |
+| ![testing_the_password_policy_2](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/evaluation/testing_the_password_policy_2.webp) | Rule enabled, password complies with rule         |
+| ![testing_the_password_policy_3](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/evaluation/testing_the_password_policy_3.webp) | Rule enabled, password does not comply with rule. |
 
-![managing_policies_12](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/managing_policies_12.png)
+![managing_policies_12](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/managing_policies_12.webp)
 
 **Step 7 –** Click the **Log** tab to view Password Policy Enforcer's internal event log. The event
 log can help you to understand why Password Policy Enforcer accepted or rejected a password. For
@@ -52,7 +52,7 @@ example, you can use the event log to see which:
 Bulk Password Test feature allows to check a large number of passwords against a selected policy and
 a get a report of the accepted and rejected passwords.
 
-![bulkpasswordtest](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/bulkpasswordtest.png)
+![bulkpasswordtest](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/bulkpasswordtest.webp)
 
 Follow the steps below to test your configuration.
 

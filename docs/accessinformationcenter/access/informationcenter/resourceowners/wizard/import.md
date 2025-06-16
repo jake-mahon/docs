@@ -72,7 +72,7 @@ exclamation icon. You can not continue with the import if any row contains an in
 owner. To remove a resource from the table, select the row and click **Remove**. The row is removed
 from the table.
 
-![Import Owners wizard 2. Options page](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/install/application/options.webp)
+![Import Owners wizard 2. Options page](../../../../../../static/img/product_docs/accessanalyzer/install/application/options.webp)
 
 **Step 4 –** On the Options page, configure the available options as required.
 

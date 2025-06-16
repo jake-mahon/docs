@@ -48,7 +48,7 @@ Create a risk by proceeding as follows:
 
 1. On the home page in the **Configuration** section, click on **Risks**.
 
-    ![Home Page - Risks](/img/versioned_docs/usercube_6.1/usercube/user-guide/optimize/risk-management/home_risks_v602.png)
+    ![Home Page - Risks](/img/versioned_docs/usercube_6.1/usercube/user-guide/optimize/risk-management/home_risks_v602.webp)
 
 2. On the risks page, click on the addition button at the top right corner.
 
@@ -56,7 +56,7 @@ Create a risk by proceeding as follows:
 
 3. Fill in the fields.
 
-    ![New Risk](/img/versioned_docs/usercube_6.1/usercube/user-guide/optimize/risk-management/riskmanagement_newrisk_v602.png)
+    ![New Risk](/img/versioned_docs/usercube_6.1/usercube/user-guide/optimize/risk-management/riskmanagement_newrisk_v602.webp)
 
     - `Identifier`: must be unique among risks and without any whitespace.
     - `Name`: will be displayed in the UI to identify the risk.
@@ -86,7 +86,7 @@ Create a risk by proceeding as follows:
     [**Role Review**](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/non-conforming-assignment-review/role-reconciliation/index.md)
     screen with a specific workflow state. See below this note.
 
-    ![Risk Icon](/img/versioned_docs/usercube_6.1/usercube/user-guide/optimize/risk-management/riskmanagement_workflowstate_v523.png)
+    ![Risk Icon](/img/versioned_docs/usercube_6.1/usercube/user-guide/optimize/risk-management/riskmanagement_workflowstate_v523.webp)
 
     ### Write risk rules
 
@@ -119,7 +119,7 @@ Create a risk by proceeding as follows:
 
     > The group `DL-INTERNET-Restricted` in our example.
 
-    ![Risk Item Example](/img/versioned_docs/usercube_6.1/usercube/user-guide/optimize/risk-management/riskmanagement_newriskitem_v602.png)
+    ![Risk Item Example](/img/versioned_docs/usercube_6.1/usercube/user-guide/optimize/risk-management/riskmanagement_newriskitem_v602.webp)
 
     This final value is an entitlement, linked to the owner identity through the navigation property
     and the ownership relationship.
@@ -145,9 +145,9 @@ Create a risk by proceeding as follows:
 After creating at least one risk and computing risk scores, identified risks are listed on the
 **Identified Risks** screen, accessible from the home page in the **Administration** section.
 
-![Home Page - Identified Risks](/img/versioned_docs/usercube_6.1/usercube/user-guide/optimize/risk-management/home_identifiedrisks_v602.png)
+![Home Page - Identified Risks](/img/versioned_docs/usercube_6.1/usercube/user-guide/optimize/risk-management/home_identifiedrisks_v602.webp)
 
-![Identified Risks](/img/versioned_docs/usercube_6.1/usercube/user-guide/optimize/risk-management/riskmanagement_identifiedrisks_v522.png)
+![Identified Risks](/img/versioned_docs/usercube_6.1/usercube/user-guide/optimize/risk-management/riskmanagement_identifiedrisks_v522.webp)
 
 For a given identity in the list, user information can be viewed and accessed by clicking
 respectively on the eye and arrow buttons on the right-hand side.

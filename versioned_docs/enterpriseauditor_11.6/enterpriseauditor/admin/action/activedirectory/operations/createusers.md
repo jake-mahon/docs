@@ -2,7 +2,7 @@
 
 Use the Create Users page to create users on the selected target.
 
-![Active Directory Action Module Wizard Create Users page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/activedirectory/operations/createusers.png)
+![Active Directory Action Module Wizard Create Users page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/activedirectory/operations/createusers.webp)
 
 Use the following options to configure the action:
 

@@ -10,7 +10,7 @@ topic for additional information.
 and the
 [SharePoint Solution](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/sharepoint/overview.md).
 
-![Sensitive Data settings](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/upgrade/sensitivedata.png)
+![Sensitive Data settings](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/upgrade/sensitivedata.webp)
 
 The tabs in the Sensitive Data node are:
 

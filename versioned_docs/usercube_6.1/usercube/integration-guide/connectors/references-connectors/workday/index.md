@@ -6,7 +6,7 @@ This connector exports users and groups from a
 This page is about
 [ERP/Workday](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/workday/index.md).
 
-![Package: ERP/Workday](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/workday/packages_workday_v603.png)
+![Package: ERP/Workday](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/workday/packages_workday_v603.webp)
 
 ## Prerequisites
 

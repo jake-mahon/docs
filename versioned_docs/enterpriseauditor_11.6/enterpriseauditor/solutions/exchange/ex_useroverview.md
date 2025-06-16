@@ -5,7 +5,7 @@ information for each user about their mailbox size, mailbox access rights, mail 
 remote connectivity to the Exchange environment. These reports provide user impact analysis on the
 environment.
 
-![EX_UserOverview Job in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/mailflowuseroverviewjobstree.png)
+![EX_UserOverview Job in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/mailflowuseroverviewjobstree.webp)
 
 Dependencies
 
@@ -32,7 +32,7 @@ and select **Analysis**.
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for the EX_Mailflow_UserOverview Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/mailflowuseroverviewanalysis.png)
+![Analysis Tasks for the EX_Mailflow_UserOverview Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/mailflowuseroverviewanalysis.webp)
 
 The following analysis tasks are selected by default:
 

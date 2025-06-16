@@ -3,7 +3,7 @@
 This group will highlight deletions, group membership changes, permission changes, and activity
 around sensitive data.
 
-![Forensics Job Group in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/sharepoint/activity/forensics/forensicsjobstree.png)
+![Forensics Job Group in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/sharepoint/activity/forensics/forensicsjobstree.webp)
 
 The jobs in the Forensics Job Group are:
 

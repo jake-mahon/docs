@@ -6,14 +6,14 @@ an enabled policy.
 
 Follow the steps to add a .NET Script action to a policy/template.
 
-![Actions tab - Actions Configurations area](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/actions/actionsconfigurationsarea.png)
+![Actions tab - Actions Configurations area](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/actions/actionsconfigurationsarea.webp)
 
 **Step 1 –** On a policy or template **Actions** tab, click **Add** (+) to open the Add Action
 window.
 
 **Step 2 –** In the left pane, select the radio button for **.NET Script**.
 
-![Policy > Actions tab > Add Actions window for .Net Script](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/actions/addactionwindowfornetscript.png)
+![Policy > Actions tab > Add Actions window for .Net Script](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/actions/addactionwindowfornetscript.webp)
 
 **Step 3 –** Configure the .NET Script action:
 
@@ -26,7 +26,7 @@ window.
     - C#
 - Click **Edit…** to open the Threat Prevention Script Editor window and provide the script
 
-![Script Editor for .Net Scripts](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/actions/scripteditorfornet.png)
+![Script Editor for .Net Scripts](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/actions/scripteditorfornet.webp)
 
 **Step 4 –** Create or copy/paste a custom script in the Threat Prevention Script Editor. See the
 [Threat Prevention Script Editor Tools](#threat-prevention-script-editor-tools) topic for additional
@@ -40,7 +40,7 @@ information about the compiling of scripts.
 
 **Step 6 –** Click Save to close the Add Action window and apply changes.
 
-![Actions tab - .Net Script Action Created](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/actions/netscriptaction.png)
+![Actions tab - .Net Script Action Created](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/actions/netscriptaction.webp)
 
 The Actions tab now displays the configured settings for the specified .NET Script action. The
 action configuration can be directly edited through this display as well.
@@ -50,7 +50,7 @@ action configuration can be directly edited through this display as well.
 On the Add Action window, the **Edit...** button opens the Threat Prevention Script Editor. The top
 bar includes the Tools dropdown menu that provides several useful tools.
 
-![Tools Menu in the Script Editor](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/actions/toolsmenu.png)
+![Tools Menu in the Script Editor](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/actions/toolsmenu.webp)
 
 The Tools menu contains the following options:
 

@@ -32,7 +32,7 @@ The Host Management process consists of the following phases:
   [Hosts Lists](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/lists.md)
   topic for additional information.
 
-![Host Management Node in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/jobstree.png)
+![Host Management Node in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/jobstree.webp)
 
 The nodes under the Host Management node are:
 

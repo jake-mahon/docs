@@ -4,7 +4,7 @@ The Select Exchange Objects from Active Directory window provides a list of Acti
 that have mailboxes configured, to either include or exclude. Selected objects are added to the
 filter from where you clicked the **Add** (+) button to open this window.
 
-![Select Exchange Objects from Active Directory Window](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/window/selectactivedirectory/exchangeobjectsfromad.png)
+![Select Exchange Objects from Active Directory Window](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/window/selectactivedirectory/exchangeobjectsfromad.webp)
 
 - Select an Agent from the drop-down menu and click **Connect**.
 - Navigate through the domain tree and check the desired item(s) in the **Results** pane on the

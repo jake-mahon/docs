@@ -24,14 +24,14 @@ permissions in a Microsoft® Active Directory® environment described in this to
 subtopics. This solution employs the following data collectors to scan for groups, users, computers,
 passwords, permissions, group policies, and domain information:
 
-- [ADInventory Data Collector](../../enterpriseauditor/admin/datacollector/adinventory/overview.md)
-- [ActiveDirectory Data Collector](../../enterpriseauditor/admin/datacollector/activedirectory/overview.md)
-- [ADActivity Data Collector](../../enterpriseauditor/admin/datacollector/adactivity/overview.md)
-- [GroupPolicy Data Collector](../../enterpriseauditor/admin/datacollector/grouppolicy/overview.md)
-- [LDAP Data Collector](../../enterpriseauditor/admin/datacollector/ldap.md)
-- [PasswordSecurity Data Collector](../../enterpriseauditor/admin/datacollector/passwordsecurity/overview.md)
-- [PowerShell Data Collector](../../enterpriseauditor/admin/datacollector/powershell/overview.md)
-- [Registry Data Collector](../../enterpriseauditor/admin/datacollector/registry.md)
+- [ADInventory Data Collector](../../admin/datacollector/adinventory/overview.md)
+- [ActiveDirectory Data Collector](../../admin/datacollector/activedirectory/overview.md)
+- [ADActivity Data Collector](../../admin/datacollector/adactivity/overview.md)
+- [GroupPolicy Data Collector](../../admin/datacollector/grouppolicy/overview.md)
+- [LDAP Data Collector](../../admin/datacollector/ldap.md)
+- [PasswordSecurity Data Collector](../../admin/datacollector/passwordsecurity/overview.md)
+- [PowerShell Data Collector](../../admin/datacollector/powershell/overview.md)
+- [Registry Data Collector](../../admin/datacollector/registry.md)
 
 ## Permissions
 

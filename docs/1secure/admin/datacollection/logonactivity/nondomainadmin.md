@@ -1,3 +1,12 @@
+---
+id: configure-non-administrative-account-to-collect-logon-activity
+title: "Configure Non-Administrative Account to Collect Logon Activity"
+pagination_label: "Configure Non-Administrative Account to Collect Logon Activity"
+sidebar_label: "Configure Non-Administrative Account to Collect Logon Activity"
+sidebar_position: 74
+description: "Learn how to configure non-administrative accounts with minimum rights for logon activity collection."
+---
+
 # Configure Non-Administrative Account to Collect Logon Activity
 
 This section contains instructions on how to configure an account to collect Logon Activity with

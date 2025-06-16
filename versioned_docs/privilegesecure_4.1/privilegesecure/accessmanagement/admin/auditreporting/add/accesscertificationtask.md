@@ -7,7 +7,7 @@ steps to add an access certification task.
 
 **Step 2 –** In the Access Certification Task list, click the Add Access Cert. Task icon.
 
-![addtask](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/auditreporting/add/addtask.png)
+![addtask](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/auditreporting/add/addtask.webp)
 
 **Step 3 –** Enter the following information:
 

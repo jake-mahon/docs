@@ -7,7 +7,7 @@ provisioning.
 This page is about
 [Ticket/EasyVista](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/easyvistaticket/index.md).
 
-![Package: Ticket/EasyVista](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/easyvistaticket/packages_easyvistaticket_v603.png)
+![Package: Ticket/EasyVista](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/easyvistaticket/packages_easyvistaticket_v603.webp)
 
 ## Overview
 

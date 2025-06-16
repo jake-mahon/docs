@@ -9,10 +9,10 @@ for the following:
   filtering the data grid view
 - Individual host – Select a host from the current view
 
-![Refresh Hosts option on Activities pane](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/actions/refreshhosts.png)
+![Refresh Hosts option on Activities pane](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/actions/refreshhosts.webp)
 
 Select the hosts or host list to inventory and then click **Refresh Hosts** in the Activities pane.
 
-![Refresh Hosts Confirm dialog](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/actions/refreshhostsconfirm.png)
+![Refresh Hosts Confirm dialog](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/actions/refreshhostsconfirm.webp)
 
 When only particular hosts are selected in a list, a dialog box asks for confirmation of the action.

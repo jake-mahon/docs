@@ -54,7 +54,7 @@ contains the following wizard pages:
 - [AzureADInventory: Results](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/azureadinventory/results.md)
 - [AzureADInventory: Summary](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/azureadinventory/summary.md)
 
-![Entra ID Inventory Data Collector Wizard Welcome page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/welcome.png)
+![Entra ID Inventory Data Collector Wizard Welcome page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/welcome.webp)
 
 Hide the Welcome page the next time this data collected is accessed by selecting the **Do not
 display this page the next time** checkbox.

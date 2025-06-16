@@ -20,7 +20,7 @@ details.
 [User Management](/versioned_docs/dataclassification_5.6.2/ndc/security/user_management.md) section
 for more information.
 
-![taxonomyclues_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/taxonomies/taxonomyclues_thumb_0_0.png)
+![taxonomyclues_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/taxonomies/taxonomyclues_thumb_0_0.webp)
 
 See also:
 

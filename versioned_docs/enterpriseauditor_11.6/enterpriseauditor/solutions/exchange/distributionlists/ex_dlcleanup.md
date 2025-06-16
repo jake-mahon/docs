@@ -12,7 +12,7 @@ View the analysis task by navigating to the **Exchange** > **6. Distribution Lis
 **CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
 preconfigured for this job.
 
-![Analysis Tasks for the EX_DLCleanup Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/distributionlists/dlcleanupanalysis.png)
+![Analysis Tasks for the EX_DLCleanup Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/distributionlists/dlcleanupanalysis.webp)
 
 The following analysis task is selected by default:
 

@@ -42,15 +42,15 @@ Create a policy by proceeding as follows:
 1. Access the policies screen by clicking on **Access Policies** on the home page in the
    **Configuration** section.
 
-![Home - Access Policies](/img/versioned_docs/usercube_6.1/usercube/user-guide/optimize/policy-creation/home_accesspolicies_v602.png)
+![Home - Access Policies](/img/versioned_docs/usercube_6.1/usercube/user-guide/optimize/policy-creation/home_accesspolicies_v602.webp)
 
 2. Click on **+ New policy** at the top right corner.
 
-![New Policy](/img/versioned_docs/usercube_6.1/usercube/user-guide/optimize/policy-creation/policycreation_policies_v602.png)
+![New Policy](/img/versioned_docs/usercube_6.1/usercube/user-guide/optimize/policy-creation/policycreation_policies_v602.webp)
 
 3. Fill in the information fields.
 
-    ![New Policy Fields](/img/versioned_docs/usercube_6.1/usercube/user-guide/optimize/policy-creation/policycreation_newpolicy_v602.png)
+    ![New Policy Fields](/img/versioned_docs/usercube_6.1/usercube/user-guide/optimize/policy-creation/policycreation_newpolicy_v602.webp)
 
     - `Identifier`: must be unique among policies and without any whitespace.
     - `Name`: will be displayed in the UI to identify the resource type.

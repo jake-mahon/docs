@@ -69,7 +69,7 @@ SharePointAccess (SPAA) Data Collector. See the corresponding
 [Standard Reference Tables & Views for the SPAA Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/spaa/standardtables.md)
 topic for database table information.
 
-![SharePoint Job Group](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/sharepoint/sharepointjobgroup.png)
+![SharePoint Job Group](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/sharepoint/sharepointjobgroup.webp)
 
 The following types of auditing can be conducted with the SharePoint Solution:
 

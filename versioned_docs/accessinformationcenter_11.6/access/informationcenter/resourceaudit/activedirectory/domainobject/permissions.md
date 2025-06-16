@@ -3,7 +3,7 @@
 The Permissions report at the domain object level provides the trustees that have rights on the
 selected Active Directory object.
 
-![Permissions report at the domain object level](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/mailbox/permissions.png)
+![Permissions report at the domain object level](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/mailbox/permissions.webp)
 
 This report is comprised of the following columns:
 

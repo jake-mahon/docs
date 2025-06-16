@@ -37,12 +37,12 @@ Follow the steps to register a new Microsoft Entra ID application.
    Administrator_ or _Cloud Application Administrator_ account).
 2. Search for and select **Microsoft Entra ID**.
 
-    ![entraidportal](/img/versioned_docs/dataclassification_5.6.2/ndc/config_infrastructure/entraidportal.png)
+    ![entraidportal](/img/versioned_docs/dataclassification_5.6.2/ndc/config_infrastructure/entraidportal.webp)
 
 3. Under the Microsoft Entra ID select the **App registrations** section.
 4. Select **New registration**:
 
-![mfa_o365_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/config_infrastructure/mfa_o365_thumb_0_0.png)
+![mfa_o365_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/config_infrastructure/mfa_o365_thumb_0_0.webp)
 
 5. In the Name field, enter the application name.
 6. In the Supported account types, select who can use this application – use the **Accounts in this
@@ -51,7 +51,7 @@ Follow the steps to register a new Microsoft Entra ID application.
 
     **NOTE:** Application redirect URl is optional, you can leave it blank on this step.
 
-    ![mfa_0365_2](/img/versioned_docs/dataclassification_5.6.2/ndc/config_infrastructure/mfa_0365_2.png)
+    ![mfa_0365_2](/img/versioned_docs/dataclassification_5.6.2/ndc/config_infrastructure/mfa_0365_2.webp)
 
 8. Copy your application ID from the Overview section it to a safe location.
 
@@ -90,7 +90,7 @@ relevant set of permissions therein.
         - Sites.FullControl.All (Crawling)
         - TermStore.ReadWrite.All (Term Set access)
 
-    ![mfa_0365_3](/img/versioned_docs/dataclassification_5.6.2/ndc/config_infrastructure/mfa_0365_3.png)
+    ![mfa_0365_3](/img/versioned_docs/dataclassification_5.6.2/ndc/config_infrastructure/mfa_0365_3.webp)
 
     **NOTE:** For taxonomy manager to full operate you must also make the user “app@sharepoint” a
     taxonomy admin (or group admin).

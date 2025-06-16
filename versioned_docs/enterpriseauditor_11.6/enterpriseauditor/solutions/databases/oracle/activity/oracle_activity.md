@@ -11,7 +11,7 @@ Navigate to the **Oracle** > **2.Activity** > **Oracle_Activity** > **Configure*
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Selection](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/oracle/activity/jobgroup26.png)
+![Analysis Selection](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/oracle/activity/jobgroup26.webp)
 
 The default analysis tasks are:
 

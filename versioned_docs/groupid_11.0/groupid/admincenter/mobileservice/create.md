@@ -39,7 +39,7 @@ located on disk.
    deployments, for example, one in IIS and another in Docker. The application name and deployment
    name are displayed on the service card, as shown below:
 
-    ![ms_card](/img/versioned_docs/groupid_11.0/groupid/admincenter/mobileservice/ms_card.png)
+    ![ms_card](/img/versioned_docs/groupid_11.0/groupid/admincenter/mobileservice/ms_card.webp)
 
 7. In the **IIS Application Name** box, enter an IIS deployment name for the service. The name
    should be unique for each Mobile service deployed in IIS.
@@ -180,7 +180,7 @@ a shared setting propagates to all deployment instances of the service.
 5. After entering the required information, click **Deploy Instance**.  
    The new instance is created and displayed on the service’s card.
 
-    ![ms_instance_deployed](/img/versioned_docs/groupid_11.0/groupid/admincenter/mobileservice/ms_instance_deployed.png)
+    ![ms_instance_deployed](/img/versioned_docs/groupid_11.0/groupid/admincenter/mobileservice/ms_instance_deployed.webp)
 
 ## Create a Mobile Service by Copying an Existing Service
 
@@ -234,7 +234,7 @@ To launch a service or a service instance:
    When multiple deployments of a service are available, select a deployment instance on the card
    and click **Launch Application** to launch that instance.
 
-    ![mobileservice](/img/versioned_docs/groupid_11.0/groupid/admincenter/mobileservice/mobileservice.png)
+    ![mobileservice](/img/versioned_docs/groupid_11.0/groupid/admincenter/mobileservice/mobileservice.webp)
 
 Provide the URL of the GroupIDMobileService page to your users so they can use the QR code or the
 server URL to set up the GroupID app on their mobile phone while binding it to the respective

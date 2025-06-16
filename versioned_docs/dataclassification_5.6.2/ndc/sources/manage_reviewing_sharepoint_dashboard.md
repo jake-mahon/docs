@@ -14,4 +14,4 @@ Here you can examine:
 - **Classification coverage** diagram that identifies the percentage of content that has had
   classifications applied, and the percentage that has not.
 
-<!-- Image removed: sharepointdashboard.png not found -->
+<!-- Image removed: sharepointdashboard.webp not found -->

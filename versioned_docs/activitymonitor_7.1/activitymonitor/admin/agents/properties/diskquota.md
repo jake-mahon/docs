@@ -2,7 +2,7 @@
 
 The **Disk Quota Tab** is used to limit the size of logs to save disk space.
 
-![diskquotatab](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/agents/properties/diskquotatab.png)
+![diskquotatab](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/agents/properties/diskquotatab.webp)
 
 The configurable options are:
 

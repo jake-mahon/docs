@@ -61,7 +61,7 @@ When
 [getting Usercube data in Power BI](/versioned_docs/usercube_6.1/usercube/integration-guide/governance/reporting/how-tos/connect-powerbi/index.md),
 we see the following:
 
-![Universe (ExcludedProperty)](/img/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/universedatamodel/universe_excluded.png)
+![Universe (ExcludedProperty)](/img/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/universedatamodel/universe_excluded.webp)
 
 ### MappingPath
 

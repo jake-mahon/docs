@@ -26,7 +26,7 @@ Please note the following rebranding limitations and requirements to the logo fi
    rebranding.
 2. Since Netwrix applies company's logo as is, keep in mind reasonable limitations of your logo
    dimensions. You can find examples of appropriate logo files in the rebranding archive (file
-   Logo.png). Re-size your logo and verify that subscriptions emails and pdf files look fine after
+   Logo.webp). Re-size your logo and verify that subscriptions emails and pdf files look fine after
    rebranding.
 3. Only PNG images can be used as logo files.
 4. Endure that image file is located in the default directory or custom folder. Consider the
@@ -64,7 +64,7 @@ To restore original look and feel, run the script and replace"_True_" with "_Fal
 
 By default, Netwrix Auditor reports look as follows:
 
-![All Logon Activity](/img/versioned_docs/auditor_10.6/auditor/admin/settings/report_rebranding.png)
+![All Logon Activity](/img/versioned_docs/auditor_10.6/auditor/admin/settings/report_rebranding.webp)
 
 Report branding is customized on Netwrix Auditor Server side that means that all clients connected
 to this server will have the same look and feel for reports.
@@ -97,7 +97,7 @@ db_owner role on the Netwrix_CommonDB database.
 After running the script, start the Netwrix Auditor client and generate a report. The branding will
 be updated.
 
-![report_rebranding_result](/img/versioned_docs/auditor_10.6/auditor/admin/settings/report_rebranding_result.png)
+![report_rebranding_result](/img/versioned_docs/auditor_10.6/auditor/admin/settings/report_rebranding_result.webp)
 
 Follow the steps to restore original look.
 

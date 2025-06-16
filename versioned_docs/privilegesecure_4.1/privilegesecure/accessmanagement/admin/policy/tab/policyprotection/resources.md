@@ -2,7 +2,7 @@
 
 The Resources tab shows the resources associated with the selected protection policy.
 
-![Protection policy resources tab](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/resources.png)
+![Protection policy resources tab](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/resources.webp)
 
 The Resources table has the following features:
 

@@ -3,7 +3,7 @@
 The Error Logging page is used to configure how long to keep the PowerShell logs. It is a wizard
 page for all of the categories.
 
-![ExchangePS Data Collector Wizard Error Logging page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchangeps/errorlogging.png)
+![ExchangePS Data Collector Wizard Error Logging page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchangeps/errorlogging.webp)
 
 Select from the following options:
 

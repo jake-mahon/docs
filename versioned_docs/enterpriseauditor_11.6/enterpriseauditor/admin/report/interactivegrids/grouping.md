@@ -10,7 +10,7 @@ The following example shows an interactive grid in which grouping has been enabl
 [Grid](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/report/wizard/widgets.md#grid)
 topic for additional information.
 
-![Group by option](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/report/interactivegrids/groupby.png)
+![Group by option](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/report/interactivegrids/groupby.webp)
 
 The drop-down list to the right of the Group by field can be accessed by clicking the down arrow.
 Click an item from the drop-down list to group the report by that category.

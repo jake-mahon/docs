@@ -4,7 +4,7 @@ Generates the rights to access the report view.
 
 Gives access to a shortcut on the navigation to access this page.
 
-![Reports](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/reporting/home_reports_v602.png)
+![Reports](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/reporting/home_reports_v602.webp)
 
 ## Examples
 

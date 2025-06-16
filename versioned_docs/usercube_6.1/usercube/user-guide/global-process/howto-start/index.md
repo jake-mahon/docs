@@ -38,7 +38,7 @@ gain. Be aware that you can go through the process options simultaneously.
 NETWRIX recommends the option 1 to be able to start IGA without waiting for the installation of an
 agent in your network, and go through the option 2 simultaneously.
 
-![Process Schema - How to Start with Usercube](/img/versioned_docs/usercube_6.1/usercube/user-guide/global-process/howto-start/globalprocess_schemastart.png)
+![Process Schema - How to Start with Usercube](/img/versioned_docs/usercube_6.1/usercube/user-guide/global-process/howto-start/globalprocess_schemastart.webp)
 
 ## Process Details
 

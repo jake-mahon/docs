@@ -3,7 +3,7 @@
 The Authentication Attacks dashboard contains information on triggered authentication attack
 incidents within the past week. It contains the following cards:
 
-![Authentication Attacks Dashboard](/img/versioned_docs/threatprevention_7.4/threatprevention/siemdashboard/qradar/dashboard/authenticationattacks.png)
+![Authentication Attacks Dashboard](/img/versioned_docs/threatprevention_7.4/threatprevention/siemdashboard/qradar/dashboard/authenticationattacks.webp)
 
 - All Attacks (past week) – Timeline of all authentication attacks that started within the last
   week. See the

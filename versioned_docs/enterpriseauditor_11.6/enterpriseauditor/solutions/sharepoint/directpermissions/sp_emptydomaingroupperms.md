@@ -13,7 +13,7 @@ tasks.
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for the SP_EmptyDomainGroupPerms Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/sharepoint/directpermissions/emptydomaingrouppermsanalysis.png)
+![Analysis Tasks for the SP_EmptyDomainGroupPerms Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/sharepoint/directpermissions/emptydomaingrouppermsanalysis.webp)
 
 The default analysis tasks are:
 

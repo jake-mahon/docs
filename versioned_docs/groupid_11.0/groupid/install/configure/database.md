@@ -95,7 +95,7 @@ To configure a GroupID server with existing database:
       Configuration Tool will install Elasticsearch. It presents you default configuration of
       Elasticsearch cluster it will create:
 
-        ![Select Elastic Cluster page](/img/versioned_docs/groupid_11.0/groupid/install/configure/select_cluster_w_existing_db_option.png)
+        ![Select Elastic Cluster page](/img/versioned_docs/groupid_11.0/groupid/install/configure/select_cluster_w_existing_db_option.webp)
 
         1. **Cluster Name**: lists all the clusters defined so far. Select one to create an
            Elasticsearch node within the selected cluster.

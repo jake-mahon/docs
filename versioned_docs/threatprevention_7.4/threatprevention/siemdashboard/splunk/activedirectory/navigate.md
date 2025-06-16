@@ -11,7 +11,7 @@ The Netwrix Active Directory App for Splunk contains several predefined dashboar
 - Policy Reporting
 - User Behavior Analytics
 
-![Active Directory App for Splunk - Top Ribbon](/img/versioned_docs/threatprevention_7.4/threatprevention/siemdashboard/qradar/topribbon.png)
+![Active Directory App for Splunk - Top Ribbon](/img/versioned_docs/threatprevention_7.4/threatprevention/siemdashboard/qradar/topribbon.webp)
 
 The Timeframe interval is identified in the upper-left corner of each dashboard and uses the default
 Splunk search features. The drop-down menu provides additional options. To search within a different

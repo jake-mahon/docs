@@ -6,7 +6,7 @@ report includes a table with criteria matches visible to Access Information Cent
 Security Team Member or Administrator roles. The Matches table requires the storage of discovered
 sensitive data within the Enterprise Auditor database or it will be blank.
 
-![Sensitive Content report at the Team Member, Resource, and Subfolder level](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/dropbox/teammemberresource/teammembersensitivecontent.png)
+![Sensitive Content report at the Team Member, Resource, and Subfolder level](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/dropbox/teammemberresource/teammembersensitivecontent.webp)
 
 This report is comprised of the following columns:
 

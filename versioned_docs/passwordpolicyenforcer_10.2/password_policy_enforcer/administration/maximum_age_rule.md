@@ -4,7 +4,7 @@ The Maximum Age rule forces users to change their passwords regularly. This decr
 of an attacker discovering a password before it changes. This rule can only be enforced by domain
 policies.
 
-![ppe_rules](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/ppe_rules.png)
+![ppe_rules](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/ppe_rules.webp)
 
 ## Settings Tab
 

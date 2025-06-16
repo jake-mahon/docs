@@ -57,7 +57,7 @@ The AWS solution is a comprehensive set of pre-configured audit jobs and report
 visibility into IAM users, groups, roles, and policies, as well as S3 permissions, content, and
 sensitive data from target AWS accounts.
 
-![AWS Solution Overview page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/runninginstances/overviewpage.png)
+![AWS Solution Overview page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/runninginstances/overviewpage.webp)
 
 The AWS Solution is comprised of the following job groups:
 

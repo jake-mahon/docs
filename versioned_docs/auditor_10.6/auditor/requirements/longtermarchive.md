@@ -23,7 +23,7 @@ viewing the Long-Term Archive widget of the Health Status dashboard, click Open 
 
 **Step 2 –** Click Modify.
 
-![archive_modify_settings](/img/versioned_docs/auditor_10.6/auditor/requirements/archive_modify_settings.png)
+![archive_modify_settings](/img/versioned_docs/auditor_10.6/auditor/requirements/archive_modify_settings.webp)
 
 **Step 3 –** Enter new path or browse for the required folder.
 
@@ -56,7 +56,7 @@ If the retention period is set to **0**, the following logic will be applied:
 To examine the repository capacity and daily growth, use the Long-Term Archive Capacity of the
 Health Status dashboard.
 
-![healthstatusdashboard](/img/versioned_docs/auditor_10.6/auditor/admin/healthstatus/dashboard/healthstatusdashboard.png)hboard.png)
+![healthstatusdashboard](/img/versioned_docs/auditor_10.6/auditor/admin/healthstatus/dashboard/healthstatusdashboard.webp)hboard.webp)
 
 To estimate the amount of activity records collected and stored to the repository day by day, use
 the

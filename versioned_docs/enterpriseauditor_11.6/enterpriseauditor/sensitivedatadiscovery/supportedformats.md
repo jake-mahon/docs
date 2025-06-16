@@ -92,7 +92,7 @@ attachment as well.
 | Graphics Interchange Format (GIF)       | .GIF, .GIFF                          |
 | Joint Photographic Experts Group (JPEG) | .JFI, .JFIF, .JIF, .JPE, .JPEG, .JPG |
 | Microsoft Windows Bitmap                | .BMP, .DIB                           |
-| Portable Network Graphic                | .PNG                                 |
+| Portable Network Graphic                | .webp                                 |
 | Tagged Image File Format                | .TIF, .TIFF                          |
 
 **NOTE:** The **FileSystem** > **0.Collection** > **1-SEEK System Scans** job can perform Optical
@@ -140,7 +140,7 @@ multimedia. The following file formats are supported as metadata only formats.
 
 | Document Format                            | Extension              |
 | ------------------------------------------ | ---------------------- |
-| Favicon                                    | .GIF, .ICO, .JPG, .PNG |
+| Favicon                                    | .GIF, .ICO, .JPG, .webp |
 | GIMP eXperimental Computing Facility (XCF) | .XCF                   |
 | OpenDocument: Graphics / Image Document    | .ODG, .ODI, .OTG, .OTI |
 | Wireless Bitmap File Format                | .WBMP                  |

@@ -69,11 +69,11 @@ Follow the steps to login to the Web Console.
 
 **NOTE:** The URL that is used may need to be added to the browser’s list of trusted sites.
 
-![Web Console Login page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/reports/webconsolelogin.png)
+![Web Console Login page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/reports/webconsolelogin.webp)
 
 **Step 2 –** Enter your **User Name** and **Password**. Click **Login**.
 
-![Web Console Home page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/reports/webconsolehome.png)
+![Web Console Home page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/reports/webconsolehome.webp)
 
 The home page shows the solutions with published reports available. See the
 [Web Console](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/report/view.md#web-console)

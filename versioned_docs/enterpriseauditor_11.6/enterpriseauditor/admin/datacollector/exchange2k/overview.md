@@ -45,7 +45,7 @@ contains the following wizard pages:
 - [Exchange2K: Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchange2k/options.md)
 - [Exchange2K: Summary](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchange2k/summary.md)
 
-![Exchange 2K+ Data Collector Wizard Welcome page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/welcome.png)
+![Exchange 2K+ Data Collector Wizard Welcome page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/welcome.webp)
 
 The Welcome page can be hidden by selecting the **Do not show this page the next time** checkbox
 when the wizard is open and configuration settings are saved.

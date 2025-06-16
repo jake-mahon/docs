@@ -13,7 +13,7 @@ The event filters for the LDAP Monitoring event type are:
 - Hosts (from)
 - Rule Preview
 
-![Policy window - LDAP Lockdown Event Type](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/ldaplockdown.png)
+![Policy window - LDAP Lockdown Event Type](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/ldaplockdown.webp)
 
 Each filter tab acts like an "AND" statement for the filter. Any filter tab left blank is treated
 like an "ALL" for that filter set.
@@ -33,7 +33,7 @@ that:
 Use the LDAP filter to set the scope of the policy to include one or more communication security
 types.
 
-![New Policy - LDAP filter](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/ldap.png)
+![New Policy - LDAP filter](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/ldap.webp)
 
 The operation selected affects what options are available on this filter and what other filters are
 available for the event type:
@@ -61,7 +61,7 @@ available for the event type:
 Use the Domains/Servers filter to set the scope of the policy to specific domains and/or servers or
 to exclude specific domains and/or servers.
 
-![Event Type - Domains/Servers Monitoring filter](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/domainsserversmonitoring.png)
+![Event Type - Domains/Servers Monitoring filter](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/domainsserversmonitoring.webp)
 
 Use the buttons in the Include and Exclude areas to edit the lists.
 
@@ -83,7 +83,7 @@ Use the AD Perpetrator filter for lockdown to set the scope of the policy to loc
 security principals committing changes or to exclude specific security principals committing changes
 from being locked down.
 
-![AD Perpetrator Protect filter](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/adperpetratorprotect.png)
+![AD Perpetrator Protect filter](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/adperpetratorprotect.webp)
 
 Select the **Block** or **Allow** option button and then edit the list.
 
@@ -112,7 +112,7 @@ topic for additional information.
 Use the LDAP Query filter for lockdown to set the scope of the policy to lockdown specific LDAP
 queries or to exclude specific queries from being locked down.
 
-![Policy window - LDAP Query filter](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/ldapquerylockdown.png)
+![Policy window - LDAP Query filter](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/ldapquerylockdown.webp)
 
 Select the **Block** or **Allow** option button and then edit the list.
 
@@ -137,7 +137,7 @@ buttons in the respective sections.
 Use the Hosts (from) filter for lockdown to set the scope of the policy to only lockdown specific
 hosts as originators of an event.
 
-![Policy window - Hosts (from) filter](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/hostsfromlockdown.png)
+![Policy window - Hosts (from) filter](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/hostsfromlockdown.webp)
 
 Select the **Block** or **Allow** option button and then edit the list.
 
@@ -161,7 +161,7 @@ Use the buttons in the Include Hosts area to edit the list.
 The Rule Preview filter displays a summary of the selected filter options. This is primarily used
 for troubleshooting.
 
-![Event Type - Rule Preview filter](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/rulepreview.png)
+![Event Type - Rule Preview filter](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/rulepreview.webp)
 
 The text displayed represents the rules created based on the policy’s selected filters. Each row is
 a selected filter. Notice the Word Wrap checkox. If checked, a filter statement may cover multiple

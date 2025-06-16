@@ -11,7 +11,7 @@ topic for options to display this data.
 
 Click **Alerts** in the left pane to launch the Alerts interface.
 
-![Alerts interface](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/alerts/alertsinterface.png)
+![Alerts interface](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/alerts/alertsinterface.webp)
 
 The following options are available on the toolbar:
 

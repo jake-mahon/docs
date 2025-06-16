@@ -3,7 +3,7 @@
 The Inactivity Alerts tab on a host's Properties window is used to configure alerts that are sent
 when monitored hosts receive no events for a specified period of time.
 
-![inactivityalertstab](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/properties/inactivityalertstab.png)
+![inactivityalertstab](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/properties/inactivityalertstab.webp)
 
 The configurable options are:
 
@@ -19,7 +19,7 @@ The configurable options are:
 
 Configure Syslog alerts using the Syslog Alerts Tab.
 
-![Syslog Alerts Tab](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/properties/syslogalertstab.png)
+![Syslog Alerts Tab](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/properties/syslogalertstab.webp)
 
 The configurable options are:
 
@@ -53,7 +53,7 @@ The configurable options are:
 
 Configure Email alerts using the Email Alerts Tab.
 
-![Email Alerts Tab](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/properties/emailalertstab.png)
+![Email Alerts Tab](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/properties/emailalertstab.webp)
 
 The configurable options are:
 

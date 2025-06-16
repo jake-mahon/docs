@@ -33,12 +33,12 @@ And with the following form for the data that groups records together:
 The contents of `MainControl`, `RecordControl`, `RecordSlaveUniqueItemControl` and
 `RecordSlaveControl` are visible during the workflow's execution:
 
-![Form Example - Manage a User's Positions](/img/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/workflows/forms/workflowupdateseveralrecordsentityform/formexample_workflowupdateseveralrecordsentityform_v603.png)
+![Form Example - Manage a User's Positions](/img/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/workflows/forms/workflowupdateseveralrecordsentityform/formexample_workflowupdateseveralrecordsentityform_v603.webp)
 
 When adding a new position, we decide to make `Title` available, in addition to the fields used to
 update existing records:
 
-![Form Example - Manage a User's Positions - New Record](/img/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/workflows/forms/workflowupdateseveralrecordsentityform/formexample_workflowupdateseveralrecordsentityform_newrecord_v603.png)
+![Form Example - Manage a User's Positions - New Record](/img/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/workflows/forms/workflowupdateseveralrecordsentityform/formexample_workflowupdateseveralrecordsentityform_newrecord_v603.webp)
 
 The content of `RecordUniqueItemControl` is not visible. The user's records that have the same
 values for all the properties in `RecordUniqueItemControl` will be displayed, and potentially

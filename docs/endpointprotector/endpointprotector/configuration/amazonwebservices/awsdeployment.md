@@ -10,11 +10,11 @@ Follow the steps to launch the EC2 image.
 **Step 2 –** Go to Images: AMIs and select the type of the Private image and search for Endpoint
 Protector.
 
-![Launching AMISs](../../../../../static/img/product_docs/endpointprotector/endpointprotector/configuration/amazonwebservices/imagesamis.png)
+![Launching AMISs](../../../../../static/img/product_docs/endpointprotector/endpointprotector/configuration/amazonwebservices/imagesamis.webp)
 
 **Step 3 –** Right-click and select **Launch Instance from AMI**.
 
-![Launching Private Image](../../../../../static/img/product_docs/endpointprotector/endpointprotector/configuration/amazonwebservices/privateimage.png)
+![Launching Private Image](../../../../../static/img/product_docs/endpointprotector/endpointprotector/configuration/amazonwebservices/privateimage.webp)
 
 **Step 4 –** Enter the Name and Create tags as per your policies.
 
@@ -30,11 +30,11 @@ If you choose to use a key pair, you may need to share it with our Support Team 
 requests. Ensure that the key pair is used exclusively for this instance to maintain security. We
 recommend selecting **Proceed without a Key Pair** and then clicking **Launch Instances**.
 
-![Launching AMI instances ](../../../../../static/img/product_docs/endpointprotector/endpointprotector/configuration/amazonwebservices/launchinstance.png)
+![Launching AMI instances ](../../../../../static/img/product_docs/endpointprotector/endpointprotector/configuration/amazonwebservices/launchinstance.webp)
 
 **Step 7 –** Configure the Network section.
 
-![Configuring the Network section](../../../../../static/img/product_docs/endpointprotector/endpointprotector/configuration/amazonwebservices/networksettings.png)
+![Configuring the Network section](../../../../../static/img/product_docs/endpointprotector/endpointprotector/configuration/amazonwebservices/networksettings.webp)
 
 **Step 8 –** Edit Network Section and provide the following information:
 
@@ -47,17 +47,17 @@ recommend selecting **Proceed without a Key Pair** and then clicking **Launch In
     - Type HTTPS, Protocol TCP, Port range 443, Source type Custom, Source 0.0.0.0/0 (mandatory)
     - Type HTTP, Protocol TCP, Port range 80, Source type Custom, Source 0.0.0.0/0 (optional)
 
-![Editing the Network Section ](../../../../../static/img/versioned_docs/changetracker_8.0/changetracker/admin/settings/policytemplates/editnetwork.png)
+![Editing the Network Section ](../../../../../static/img/versioned_docs/changetracker_8.0/changetracker/admin/settings/policytemplates/editnetwork.webp)
 
 **Step 9 –** The Storage section does not require any changes.
 
-![Configuring the storage section](../../../../../static/img/product_docs/endpointprotector/endpointprotector/configuration/amazonwebservices/configurestorage.png)
+![Configuring the storage section](../../../../../static/img/product_docs/endpointprotector/endpointprotector/configuration/amazonwebservices/configurestorage.webp)
 
 **Step 10 –** On the Summary section click **Launch Instance**.
 
-![Summary section ](../../../../../static/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/adinventory/summary.png)
+![Summary section ](../../../../../static/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/adinventory/summary.webp)
 
 **Step 11 –** Wait for the instance to start; this might take a few minutes while the Status Checks
 appear as Initializing.
 
-![Initiating Instance](../../../../../static/img/product_docs/endpointprotector/endpointprotector/configuration/amazonwebservices/instancestarting.png)
+![Initiating Instance](../../../../../static/img/product_docs/endpointprotector/endpointprotector/configuration/amazonwebservices/instancestarting.webp)

@@ -3,7 +3,7 @@
 Use the Results page to select which properties are gathered out of those available for the
 category. It is a wizard page for all of the categories.
 
-![EWS Mailbox Data Collector Wizard Results page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/adinventory/results.png)
+![EWS Mailbox Data Collector Wizard Results page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/adinventory/results.webp)
 
 Select criteria using the following options:
 

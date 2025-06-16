@@ -6,7 +6,7 @@ ServiceNow Action Module. See the
 [ServiceNow Action Module](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/servicenow/overview.md)
 topic for additional information.
 
-![ServiceNow node](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/servicenow.png)
+![ServiceNow node](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/servicenow.webp)
 
 Provide ServiceNow authentication information to your ServiceNow instance.
 

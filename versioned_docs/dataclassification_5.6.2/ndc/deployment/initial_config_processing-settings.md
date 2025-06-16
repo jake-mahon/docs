@@ -2,7 +2,7 @@
 
 On the Processing Settings step, select options for data processing and classification.
 
-![processing_settings](/img/versioned_docs/dataclassification_5.6.2/ndc/deployment/processing_settings.png)
+![processing_settings](/img/versioned_docs/dataclassification_5.6.2/ndc/deployment/processing_settings.webp)
 
 Review the following for additional information:
 

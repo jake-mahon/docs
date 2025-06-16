@@ -25,20 +25,20 @@ Review an unauthorized account by proceeding as follows:
    [`ComputeRoleModelTask`](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md)
    was launched recently, through the complete job on the **Job Execution** page�
 
-    ![Home Page - Job Execution](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/synchronization/home_jobexecution_v602.png)
+    ![Home Page - Job Execution](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/synchronization/home_jobexecution_v602.webp)
 
     � Or through the connector's overview page, **Jobs** > **Compute Role Model**.
 
-    ![Resource Type Jobs](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/classification/synchro_resourcetype_v602.png)
+    ![Resource Type Jobs](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/classification/synchro_resourcetype_v602.webp)
 
 2. Get to the **Resource Reconciliation** page, accessible from the corresponding section on the
    home page.
 
-    ![Home Page - Resource Reconciliation](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/orphan-unused-account-review/home_resourcereconciliation_v523.png)
+    ![Home Page - Resource Reconciliation](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/orphan-unused-account-review/home_resourcereconciliation_v523.webp)
 
 3. Select `Unauthorized account` as the `Workflow State`. Orphaned accounts appear with no owner.
 
-    ![Resource Reconciliation Page](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/orphan-unused-account-review/unauth_unauthorizedaccounts_v602.png)
+    ![Resource Reconciliation Page](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/orphan-unused-account-review/unauth_unauthorizedaccounts_v602.webp)
 
 4. Choose the default resource view or the property view with the top right toggle.
 5. Click on the line of an account with an owner.
@@ -47,7 +47,7 @@ Review an unauthorized account by proceeding as follows:
     `U40897 / Internal Users / acme / com` has the owner `Maxime Guillot` with an 80% confidence
     rate.
 
-    ![Select Decision](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/non-conforming-assignment-review/unauthorized-account-review/unauth_reviewunauthorized_v602.png)
+    ![Select Decision](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/non-conforming-assignment-review/unauthorized-account-review/unauth_reviewunauthorized_v602.webp)
 
     The displayed confidence rate means that a rule actually assigned the account to the identity,
     but with a
@@ -58,7 +58,7 @@ Review an unauthorized account by proceeding as follows:
     [updated](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/non-conforming-assignment-review/property-reconciliation/index.md)
     by clicking on the edit button.
 
-    ![Edit Button](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/non-conforming-assignment-review/unauthorized-account-review/unauth_updateprop_v522.png)
+    ![Edit Button](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/non-conforming-assignment-review/unauthorized-account-review/unauth_updateprop_v522.webp)
 
 6. Select the appropriate decision.
 
@@ -71,14 +71,14 @@ Review an unauthorized account by proceeding as follows:
    by launching, on the appropriate connector's overview page, **Jobs** > **Generate Provisioning
    Orders**, then, after this first task is done, **Jobs** > **Fulfill**.
 
-    ![Resource Type Jobs](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/classification/synchro_resourcetype_v602.png)
+    ![Resource Type Jobs](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/classification/synchro_resourcetype_v602.webp)
 
 ### Use property view
 
 By default, non-conforming assignments are listed by resource. It is possible to click on a resource
 and then access the list of all unreconciled properties for said resource.
 
-![Resource View](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/orphan-unused-account-review/orphan_resourceview_v523.png)
+![Resource View](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/orphan-unused-account-review/orphan_resourceview_v523.webp)
 
 It can be helpful to have the non-conforming assignments regrouped by property, as some of the
 changes can be similar, so very likely to be validated by the same user. This is why a property view
@@ -88,7 +88,7 @@ Once enabled, select a resource type to display all unreconciled properties link
 type. In addition, select a property to display only the unreconciled properties linked to said
 resource type and property.
 
-![Property View](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/orphan-unused-account-review/orphan_propertyview_v603.png)
+![Property View](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/orphan-unused-account-review/orphan_propertyview_v603.webp)
 
 The review process is the same with both views. However with property view, reviewers don't click on
 a given line, but choose a decision directly on the left of the property line.
@@ -96,7 +96,7 @@ a given line, but choose a decision directly on the left of the property line.
 In addition, using property view enables bulk reconciliation to approve the proposed values or keep
 the current values for several resources simultaneously.
 
-![Bulk Reconcile](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/orphan-unused-account-review/orphan_bulkreconcile_v603.png)
+![Bulk Reconcile](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/orphan-unused-account-review/orphan_bulkreconcile_v603.webp)
 
 Bulk keeping non-authorized accounts, by clicking on **Bulk Reconcile** then **Approve Current
 Values**, does not approve their unreconciled properties which will still be displayed on this
@@ -107,4 +107,4 @@ screen.
 In order to verify the process, check that the changes you ordered appear on the corresponding
 user's **View Permissions** tab.
 
-![View Permissions Tab](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/provisioning-rule-creation/resource-creation/viewpermissions_v602.png)
+![View Permissions Tab](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/provisioning-rule-creation/resource-creation/viewpermissions_v602.webp)

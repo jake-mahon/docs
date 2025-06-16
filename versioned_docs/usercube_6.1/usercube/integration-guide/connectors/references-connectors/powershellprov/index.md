@@ -6,7 +6,7 @@ This connector writes to an external system via a
 This page is about
 [Custom/PowerShellProv](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/powershellprov/index.md).
 
-![Package: Custom/PowerShellProv](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/powershellprov/packages_powershellprov_v603.png)
+![Package: Custom/PowerShellProv](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/powershellprov/packages_powershellprov_v603.webp)
 
 ## Overview
 

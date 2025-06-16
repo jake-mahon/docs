@@ -26,11 +26,11 @@ https://<IP_add_of_SecureONE_box>/api/v1/ping
 The response coming back should simply be “pong” if the API connection is intact. Modify the POST
 string in the URL field to read the following:
 
-![Register_device_URL.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/systemmanagement/360022103414_register_device_url_632x71.png)
+![Register_device_URL.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/systemmanagement/360022103414_register_device_url_632x71.webp)
 
 Select the “Body” option beneath the URL field, and create the keys pictured below:
 
-![Register_keyvalues.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/systemmanagement/360022103414_register_keyvalues_680x330.png)
+![Register_keyvalues.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/systemmanagement/360022103414_register_keyvalues_680x330.webp)
 
 - system – The name of the Linux system being registered to the Privilege Secure interface.
 - username/password – The name/password of the service account currently on the Linux endpoint which

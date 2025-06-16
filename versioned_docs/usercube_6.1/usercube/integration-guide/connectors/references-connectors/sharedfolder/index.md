@@ -5,7 +5,7 @@ This connector exports users and permissions from Windows shared folders.
 This page is about
 [Storage/Shared Folders](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/shared-folders/index.md).
 
-![Package: Storage/Shared Folders](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/sharedfolder/packages_sharedfolders_v603.png)
+![Package: Storage/Shared Folders](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/sharedfolder/packages_sharedfolders_v603.webp)
 
 ## Overview
 
@@ -21,7 +21,7 @@ Implementing this connector requires an account with the permissions:
 - **Log on as a batch job** in the local group policy, when the connector's authentication mode is
   batch.
 
-    ![SharedFolder - Permission for Batch Authentication](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/sharedfolder/sharedfolder_permission.png)
+    ![SharedFolder - Permission for Batch Authentication](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/sharedfolder/sharedfolder_permission.webp)
 
 ## Export
 

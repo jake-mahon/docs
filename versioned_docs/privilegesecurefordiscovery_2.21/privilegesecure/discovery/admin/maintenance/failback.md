@@ -66,14 +66,14 @@ that this environment is not "active" with AD and LDAP, which can cause conflict
 environment’s data. The API service in the screenshot is scaled to 0/0 status but can be left at 1/1
 status if preferred.
 
-![blobid3.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/maintenance/1500001380942_blobid3.png)
+![blobid3.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/maintenance/1500001380942_blobid3.webp)
 
 PROD (non-active Privilege Secure environment)
 
 **NOTE:** All services are showing a 1/1 replicas status, which is the expected display in a active
 Privilege Secure environment.
 
-![blobid2.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/maintenance/1500001380942_blobid2.png)
+![blobid2.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/maintenance/1500001380942_blobid2.webp)
 
 ### Step #3: (Scale down the scanner, worker, and ldapsync services)
 

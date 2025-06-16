@@ -42,7 +42,7 @@ generated.
 **NOTE:** Issuing the Deep Packet Inspection Certificate on Windows is handled automatically and
 transparently by the Endpoint Protector Client. No additional steps are required.
 
-![Conﬁguring the Deep Packet Inspection - Auto-refresh Certiﬁcate feature](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/contentawareprotection/autorefreshcert.png)
+![Conﬁguring the Deep Packet Inspection - Auto-refresh Certiﬁcate feature](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/contentawareprotection/autorefreshcert.webp)
 
 ## Deep Packet Inspection Certiﬁcate on macOS
 
@@ -63,22 +63,22 @@ Certiﬁcate**,
 
 and download the **CA Certiﬁcate**.
 
-![Deep Packet Inspection Certiﬁcate on macOS](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/install/agent/dpicertificate.png)
+![Deep Packet Inspection Certiﬁcate on macOS](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/install/agent/dpicertificate.webp)
 
 **Step 2 –** Open the **Keychain Access** application from your macOS and select **System**.
 
-![Keychain Access application settings on MacOs](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/install/agent/keychainaccess.png)
+![Keychain Access application settings on MacOs](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/install/agent/keychainaccess.webp)
 
 **Step 3 –** Decompress the downloaded **ClientCerts** ﬁle.
 
 **Step 4 –** Select **cacert.pem** ﬁle and drag and drop it on **System** > **Keychain Access**.
 
-![Configuring Client Certificate on MacOs](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/install/agent/clientcerts.png)
+![Configuring Client Certificate on MacOs](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/install/agent/clientcerts.webp)
 
 **Step 5 –** Double click the **X** from the newly added certiﬁcate and from the Trust section,
 select **Always Trust**.
 
-![Keychain Access application settings on MacOs](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/install/agent/keychainaccesstwo.png)
+![Keychain Access application settings on MacOs](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/install/agent/keychainaccesstwo.webp)
 
 **Step 6 –** **Save** the changes.
 
@@ -152,7 +152,7 @@ By default, the Deep Packet Inspection functionality comes with a list of prede�
 particularly by one of the monitored applications deﬁned as an Exit Point within a Content Aware
 Protection Policy.
 
-![Deep Packet Inspection Ports and Settings](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/contentawareprotection/dpiports.png)
+![Deep Packet Inspection Ports and Settings](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/contentawareprotection/dpiports.webp)
 
 In this section you can also manage the following settings:
 
@@ -206,7 +206,7 @@ In this section you can also manage the following settings:
     used for Gmail, Google Drive, Google Docs, etc. that are not listed here. If the list remains
     empty, no Google domain will be blocked.
 
-![Allowed domains for Google Business accounts](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/contentawareprotection/alloweddomainsgoogle.png)
+![Allowed domains for Google Business accounts](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/contentawareprotection/alloweddomainsgoogle.webp)
 
 ### Monitor Webmail JSON Format Parser Usage
 
@@ -245,7 +245,7 @@ Endpoint Protector Server UI:
     - The subject here is located at a speciﬁc path inside nested arrays without having to go
       through all elements of a speciﬁc array and use \[:]
 
-![Monitor Webmail JSON Format Parser Usage](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/contentawareprotection/webmailjson.png)
+![Monitor Webmail JSON Format Parser Usage](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/contentawareprotection/webmailjson.webp)
 
 **_RECOMMENDED:_** It is advised, that due to recent changes applied by cloud providers, to not
 apply any changes in the JSON parser, unless Monitor Webmail is not working
@@ -272,7 +272,7 @@ application that is subject to this functionality.
 
 **NOTE:** Only the applications that support Deep Packet Inspection are available in the list below.
 
-![Deep Packet Inspection Applications](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/contentawareprotection/dpiapplications.png)
+![Deep Packet Inspection Applications](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/contentawareprotection/dpiapplications.webp)
 
 **NOTE:** The Deep Packet Inspection functionality needs to be ﬁrst enabled from **Device
 Control** > **Settings** (Global, Groups, Computers, etc.). For detailed information on, refer to

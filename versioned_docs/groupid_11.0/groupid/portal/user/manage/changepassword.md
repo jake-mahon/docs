@@ -11,7 +11,7 @@ identity store.
 NOTE: Microsoft Entra ID users with multifactor authentication enabled cannot change their passwords
 in GroupID. The following message is displayed:
 
-![Change Password error message for Entra ID user](/img/versioned_docs/groupid_11.0/groupid/portal/user/manage/changepasswordentraiduser.png)
+![Change Password error message for Entra ID user](/img/versioned_docs/groupid_11.0/groupid/portal/user/manage/changepasswordentraiduser.webp)
 
 If the user's account is a master account, password of its child accounts also cannot be changed in
 GroupID.

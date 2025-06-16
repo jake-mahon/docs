@@ -11,7 +11,7 @@ Navigate to the **Jobs** > **SharePoint** > **1.Direct Permissions** > **SP_High
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for the SP_HighRiskPermissions Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/sharepoint/directpermissions/highriskpermissionsanalysis.png)
+![Analysis Tasks for the SP_HighRiskPermissions Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/sharepoint/directpermissions/highriskpermissionsanalysis.webp)
 
 The default analysis tasks are:
 

@@ -2,7 +2,7 @@
 
 The Options page provides format options for returned data.
 
-![Password Security Data Collection Wizard Scan options page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/options.png)
+![Password Security Data Collection Wizard Scan options page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/options.webp)
 
 The configurable scan options are:
 

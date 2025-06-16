@@ -1,3 +1,12 @@
+---
+id: add-users
+title: "Add Users"
+pagination_label: "Add Users"
+sidebar_label: "Add Users"
+sidebar_position: 31
+description: "Learn how to add users to your organization and assign administrator, editor, or viewer roles."
+---
+
 # Add Users
 
 After you added the organization to your system, you may want to add users as part of your
@@ -9,7 +18,7 @@ include:
 - Viewer
 
 You can add users both in Managing Organization and in Managed Organization. See the
-[Manage Organizations](overview.md) topic for additional information.
+[Manage Organizations](index.md) topic for additional information.
 
 Image keys:
 

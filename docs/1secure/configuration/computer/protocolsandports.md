@@ -1,3 +1,12 @@
+---
+id: protocols-and-ports-required-for-monitoring-file-servers
+title: "Protocols and Ports Required for Monitoring File Servers"
+pagination_label: "Protocols and Ports Required for Monitoring File Servers"
+sidebar_label: "Protocols and Ports Required for Monitoring File Servers"
+sidebar_position: 137
+description: "Review the complete list of protocols and ports required for Netwrix 1Secure file server monitoring."
+---
+
 # Protocols and Ports Required for Monitoring File Servers
 
 Review a full list of protocols and ports required for Netwrix 1Secure for File Servers.

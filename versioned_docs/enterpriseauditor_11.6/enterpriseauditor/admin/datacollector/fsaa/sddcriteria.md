@@ -8,7 +8,7 @@ Auditor Console to define the criteria and enable the Sensitive Data Criteria Ed
 [Sensitive Data Discovery Add-On Installation](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/sensitivedatadiscovery/overview.md)
 topic for additional information.
 
-![FSAA Data Collector Wizard SDD Criteria Settings page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/sddcriteria.png)
+![FSAA Data Collector Wizard SDD Criteria Settings page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/sddcriteria.webp)
 
 The options on the SDD Criteria Settings page are:
 

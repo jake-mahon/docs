@@ -28,14 +28,14 @@ knowledge base article.
 **Step 2 –** Right-click on the installer and select Run as administrator. The Netwrix Privilege
 Secure Proxy Service Setup wizard opens.
 
-![Netwrix Privileged Secure Proxy Service Setup wizard on the EULA page](/img/versioned_docs/threatprevention_7.4/threatprevention/install/licenseagreement.png)
+![Netwrix Privileged Secure Proxy Service Setup wizard on the EULA page](/img/versioned_docs/threatprevention_7.4/threatprevention/install/licenseagreement.webp)
 
 **Step 3 –** On the End User License Agreement page, check the I agree to the license terms and
 conditions box and click Options.
 
 _Remember,_ it is a best practice to read the agreement before accepting it.
 
-![Netwrix Privileged Secure Proxy Service Setup wizard on the Setup Options page](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/install/setupoptions.png)
+![Netwrix Privileged Secure Proxy Service Setup wizard on the Setup Options page](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/install/setupoptions.webp)
 
 **Step 4 –** The default installation location for Install Folder is:
 
@@ -49,7 +49,7 @@ C:\Program Files\Netwrix\Netwrix Privilege Secure Proxy Service
 **NOTE:** The installation process begins and the wizard displays the its Progress. This may take a
 few moments.
 
-![Netwrix Privileged Secure Proxy Service Setup wizard on the Successfully Completed page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/sensitivedatadiscovery/completed.png)
+![Netwrix Privileged Secure Proxy Service Setup wizard on the Successfully Completed page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/sensitivedatadiscovery/completed.webp)
 
 **Step 6 –** When installation is complete, click Close.
 

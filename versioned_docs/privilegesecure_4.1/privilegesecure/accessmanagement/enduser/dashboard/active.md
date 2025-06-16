@@ -4,7 +4,7 @@ The Active sessions dashboard shows all currently active sessions. Create an Act
 grant temporary privileges and gain access to the resources defined by a previously created Access
 Policy.
 
-![End User Active Dashboard](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/activedashboarduser.png)
+![End User Active Dashboard](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/activedashboarduser.webp)
 
 The Active Sessions table has the following features:
 

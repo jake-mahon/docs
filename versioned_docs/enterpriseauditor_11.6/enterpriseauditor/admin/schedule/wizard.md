@@ -22,7 +22,7 @@ and close the window. The task is visible in the Schedule Actions view, at the S
 The Schedule page is for setting the schedule of when and how often the task will run. This tab
 needs to be properly configured for every scheduled task.
 
-![Schedule wizard page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/schedule.png)
+![Schedule wizard page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/schedule.webp)
 
 The options on the Schedule page are:
 
@@ -30,7 +30,7 @@ The options on the Schedule page are:
 - Edit – Edits the selected Trigger in the Schedule view
 - Delete – Deletes the selected trigger
 
-![Trigger window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/schedule/triggerwindow.png)
+![Trigger window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/schedule/triggerwindow.webp)
 
 The options in the Trigger window are:
 
@@ -57,7 +57,7 @@ Enterprise Auditor task scheduling. See the Microsoft
 [Task Scheduler Overview](https://technet.microsoft.com/en-us/library/cc721871.aspx) article for
 additional information.
 
-![Trigger window Advanced settings](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/schedule/triggerwindowadvancedsettings.png)
+![Trigger window Advanced settings](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/schedule/triggerwindowadvancedsettings.webp)
 
 The options in the Advanced settings section are:
 
@@ -70,7 +70,7 @@ The options in the Advanced settings section are:
 The Host List page identifies the host list the task being scheduled queries. Customizations to the
 configuration of this tab is optional.
 
-![Host List wizard page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/schedule/hostlist.png)
+![Host List wizard page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/schedule/hostlist.webp)
 
 Choose the desired setting from the following options:
 
@@ -87,7 +87,7 @@ All** and **Clear All** links provide for quick selection and deselection.
 The Connection page identifies the Connection Profile that is applied to the targeted hosts being
 queried by the task being scheduled. Customizations to the configuration of this tab is optional.
 
-![Connection wizard page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/connection.png)
+![Connection wizard page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/connection.webp)
 
 Choose the desired setting from the following options:
 
@@ -108,7 +108,7 @@ edit Schedule Service accounts, go to the **Settings** > **Schedule** node. See 
 [Schedule](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/schedule.md)
 topic for additional information.
 
-![Run as wizard page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/schedule/runas.png)
+![Run as wizard page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/schedule/runas.webp)
 
 The options on the Run as wizard page are:
 
@@ -128,7 +128,7 @@ The options on the Run as wizard page are:
 
 Configure additional options for the task on the Options wizard page.
 
-![Options wizard page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/options.png)
+![Options wizard page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/options.webp)
 
 The configurable options are:
 

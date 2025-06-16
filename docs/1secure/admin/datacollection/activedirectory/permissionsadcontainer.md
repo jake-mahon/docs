@@ -1,3 +1,12 @@
+---
+id: granting-permissions-for-deleted-objects-container
+title: "Granting Permissions for 'Deleted Objects' Container"
+pagination_label: "Granting Permissions for 'Deleted Objects' Container"
+sidebar_label: "Granting Permissions for 'Deleted Objects' Container"
+sidebar_position: 69
+description: "Learn how to grant permissions for the Deleted Objects container for non-Domain Admin data collection accounts."
+---
+
 # Granting Permissions for 'Deleted Objects' Container
 
 Perform this procedure only if the account selected for data collection is not a member of the

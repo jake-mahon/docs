@@ -2,7 +2,7 @@
 
 The Oracle menu displays the configuration options for Oracle platforms.
 
-![Oracle Platform Configuration](../../../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/connection/profile/oracle.webp)
+![Oracle Platform Configuration](../../../../../../../../static/img/product_docs/accessanalyzer/admin/settings/connection/profile/oracle.webp)
 
 Details for the selected platform are displayed on the right side of the page. Below are the
 configuration options for an Oracle Platform.

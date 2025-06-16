@@ -6,7 +6,7 @@ globally, to all Endpoint Protector entities.
 **NOTE:** If device rights or other settings will be conﬁgured granularly for entities, the priority
 order, starting with the highest, will be as follows:
 
-![priortyorder](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/devicecontrol/priortyorder.png)
+![priortyorder](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/devicecontrol/priortyorder.webp)
 
 This section relates to the entire system, allowing you to specify what Device Types and Speciﬁc
 Devices can be accessible. While Standard Rights Policies are the default ones, Outside Hours or
@@ -20,7 +20,7 @@ breaches. These devices can be authorized, which makes it possible for the users
 modify their content and for administrators to view the data transferred to and from the authorized
 devices.
 
-![Standard supported Devices](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/devicecontrol/standarddevices.png)
+![Standard supported Devices](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/devicecontrol/standarddevices.webp)
 
 - Removable Storage Devices
 - Normal USB Flash Drives, U3 and Autorun Drives, Disk on Key, etc.
@@ -66,13 +66,13 @@ the wired network is not present.
 **NOTE:** On macOS version 14 (Sonoma) and higher, Bluetooth devices are managed only when the
 device is connected and visible under ‘My Devices’ in the Bluetooth section of ‘System settings’.
 
-![Bluetooth Device Management on Mac](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/devicecontrol/macbluetooth.png)
+![Bluetooth Device Management on Mac](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/devicecontrol/macbluetooth.webp)
 
 By default, the majority of device types are blocked. However, as a working internet connection or
 wireless keyboards are needed during the conﬁguration process, several devices are set to Allow
 Access. These include Wi-Fi, Bluetooth, Network Share, Additional Keyboard, and USB Modem.
 
-![Device Type configuration](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/devicecontrol/devicetypes.png)
+![Device Type configuration](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/devicecontrol/devicetypes.webp)
 
 ### VM USB Device Usage
 
@@ -91,7 +91,7 @@ different VID, PID and device code, but they all have the same serial number.
 **NOTE:** The Endpoint Protector Client does not distinguish between USB devices (e.g. USB hard
 drive vs USB Webcam) by Device name/VID/PID.
 
-![Manage USB access through the virtual environment.](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/devicecontrol/vmusb.png)
+![Manage USB access through the virtual environment.](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/devicecontrol/vmusb.webp)
 
 ## Speciﬁc Devices (Standard)
 
@@ -100,7 +100,7 @@ From this section, you can manage access rights for a speciﬁc device.
 Device rights can be set either Globally or, per Group, User, or Computer, by using the Manage
 Rights action from each section/entity.
 
-![Manage access rights for a speciﬁc device.](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/devicecontrol/specificdevices.png)
+![Manage access rights for a speciﬁc device.](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/devicecontrol/specificdevices.webp)
 
 To add a new device click **Add** and provide the mandatory information. There are multiple ways of
 adding devices:
@@ -108,18 +108,18 @@ adding devices:
 - New Device (VID, PID, Serial Number) – will allow at Step 2 to add new devices based on Vendor ID,
   Product ID, and Serial Number.
 
-![Device Wizard - Adding New Device](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/devicecontrol/newdevicestep.png)
+![Device Wizard - Adding New Device](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/devicecontrol/newdevicestep.webp)
 
 - Existing Device (Wizard) – will allow at Step 2 to add devices previously connected to protected
   computers and already in the Endpoint Protector database.
 
-![Add devices previously connected to protected computers and already in the database.](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/devicecontrol/existingdevice.png)
+![Add devices previously connected to protected computers and already in the database.](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/devicecontrol/existingdevice.webp)
 
 - Device Serial Number Range – will allow at Step 2 to add multiple devices at the same time, by
   specifying the ﬁrst and last Serial Number in the range. The recommended use for this feature is
   for devices that have a consecutive range, with a clear, noticeable pattern.
 
-![ Add multiple devices at the same time.](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/devicecontrol/multipledevices.png)
+![ Add multiple devices at the same time.](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/devicecontrol/multipledevices.webp)
 
 **NOTE:** Although this feature can work in situations where the Serial Number range does not follow
 a noticeable pattern, this is not recommended. In this type of situation, some devices will be
@@ -128,7 +128,7 @@ ignored by Endpoint Protector and will not have the expected effect.
 - Bulk List of Devices – will allow at Step 2 to add up to 1000 devices at the same time. There are
   two methods to choose from, either importing a list or simply pasting the information.
 
-![Add up to 1000 devices at the same time](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/devicecontrol/bulkdevices.png)
+![Add up to 1000 devices at the same time](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/devicecontrol/bulkdevices.webp)
 
 The File Allowlist feature is also available for USB storage devices that have allowed access. For
 detailed information on using the File Allowlist, refer to the File
@@ -142,7 +142,7 @@ topic.
 From this section, you can deﬁne fallback policies that will apply when outside the network. All of
 the functionalities are identical to the Standard section.
 
-![Deﬁne fallback policies that will apply when outside the network](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/devicecontrol/outsidenetwork.png)
+![Deﬁne fallback policies that will apply when outside the network](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/devicecontrol/outsidenetwork.webp)
 
 ## Outside Hours
 
@@ -151,4 +151,4 @@ the functionalities are identical to the Standard section.
 From this section, you can deﬁne fallback policies that will apply when outside working hours. All
 of the functionalities are identical to the Standard section.
 
-![ Deﬁne fallback policies that will apply when outside working hours](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/devicecontrol/outsidehours.png)
+![ Deﬁne fallback policies that will apply when outside working hours](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/devicecontrol/outsidehours.webp)

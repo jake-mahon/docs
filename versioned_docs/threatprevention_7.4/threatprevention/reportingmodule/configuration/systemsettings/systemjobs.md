@@ -8,7 +8,7 @@ select **System Settings** to open the System Settings interface.
 
 Click **System Jobs** in the navigation pane.
 
-![System Settings interface on the System Jobs page](/img/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/configuration/systemsettings/page.png)
+![System Settings interface on the System Jobs page](/img/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/configuration/systemsettings/page.webp)
 
 The table lists the system maintenance jobs:
 
@@ -19,7 +19,7 @@ The table lists the system maintenance jobs:
 The Report Maintenance job details page has two tabs that provide configuration options and job
 health details.
 
-![System Settings interface on the System Jobs page showing the Report Maintenance job Settings tab](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/properties/reportsettings.png)
+![System Settings interface on the System Jobs page showing the Report Maintenance job Settings tab](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/properties/reportsettings.webp)
 
 Settings Tab
 
@@ -41,7 +41,7 @@ Health Tab
 
 The Health tab displays the following information:
 
-![Health tab of the Report Maintenance job details page](/img/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/configuration/systemsettings/reporthealth.png)
+![Health tab of the Report Maintenance job details page](/img/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/configuration/systemsettings/reporthealth.webp)
 
 - Size of Reports Directory – Displays the size of the directory where reports are stored
 - Next Run Time – Date timestamp for the next time the job will run

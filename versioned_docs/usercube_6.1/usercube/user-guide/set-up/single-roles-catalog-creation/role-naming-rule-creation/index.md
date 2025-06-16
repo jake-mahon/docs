@@ -48,12 +48,12 @@ Create a role naming rule by proceeding as follows:
 
 1. On the home page, click on **Access Rules** in the **Configuration** section.
 
-    ![Home Page - Access Rules](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/classification/home_rules_v602.png)
+    ![Home Page - Access Rules](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/classification/home_rules_v602.webp)
 
 2. In the dropdown menu at the top left, choose the entity type to which the future naming rule will
    be applied.
 
-    ![Entity Type Choice](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/provrules_entitytype_v602.png)
+    ![Entity Type Choice](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/provrules_entitytype_v602.webp)
 
 3. Click on the **Role Naming Conventions** tab and on the addition button at the top right corner.
 
@@ -61,7 +61,7 @@ Create a role naming rule by proceeding as follows:
 
 4. Fill in the fields.
 
-    ![Create a Naming Rule](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/namingrulecreation_newrule_v602.png)
+    ![Create a Naming Rule](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/namingrulecreation_newrule_v602.webp)
 
     - `Policy`:
       [policy](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/policy/index.md)
@@ -129,7 +129,7 @@ Create a role naming rule by proceeding as follows:
     - `Comment Management on Permission Review`: to change if different from the role policy.
         > Our example would look like:
         >
-        > ![Example - Naming Rule](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/namingrulecreation_example_v602.png)
+        > ![Example - Naming Rule](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/namingrulecreation_example_v602.webp)
 
 5. Click on **Create** and see a line added on the rules page.
 
@@ -146,31 +146,31 @@ In order to verify the process:
 1. to take the changes into account, on the appropriate connector's overview page click on
    **Jobs** > **Apply Naming Conventions**;
 
-    ![Resource Type Jobs](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/classification/synchro_resourcetype_v602.png)
+    ![Resource Type Jobs](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/classification/synchro_resourcetype_v602.webp)
 
 2. check that the correct roles and rules were created.
 
 For roles, click on **Access Roles** on the home page in the **Configuration** section.
 
-![Home Page - Access Roles](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/resource-type-creation/home_roles_v602.png)
+![Home Page - Access Roles](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/resource-type-creation/home_roles_v602.webp)
 
 Select single roles and find the role(s) you created inside the right category and with the right
 parameters.
 
-![Access Single Roles](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/namingrulecreation_testroles_v602.png)
+![Access Single Roles](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/namingrulecreation_testroles_v602.webp)
 
 > Our example would look like:
 >
-> ![Example - Generated Role](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/namingrulecreation_exampleroleresult_v602.png)
+> ![Example - Generated Role](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/namingrulecreation_exampleroleresult_v602.webp)
 
 For rules, click on **Access Rules** on the home page in the **Configuration** section.
 
-![Home Page - Access Rules](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/classification/home_rules_v602.png)
+![Home Page - Access Rules](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/classification/home_rules_v602.webp)
 
 Select navigation rules and find the rule(s) you created with the right parameters.
 
-![Access Navigation Rules](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/namingrulecreation_testrules_v602.png)
+![Access Navigation Rules](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/namingrulecreation_testrules_v602.webp)
 
 > Our example would look like:
 >
-> ![Example - Generated Rule](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/namingrulecreation_exampleruleresult_v523.png)
+> ![Example - Generated Rule](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/namingrulecreation_exampleruleresult_v523.webp)

@@ -3,7 +3,7 @@
 The Select Computer window provides a list of available computers. Selected objects are added to the
 filter from where you clicked the **Add** (+) button to open this window.
 
-![Select Computer Window](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/deploy/selectcomputers.png)
+![Select Computer Window](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/deploy/selectcomputers.webp)
 
 - Select either Browse Mode or Search Mode.
 

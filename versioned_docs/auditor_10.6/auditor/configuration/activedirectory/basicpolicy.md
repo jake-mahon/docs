@@ -22,7 +22,7 @@ for additional information.
     | **Audit directory service access** | _"Success"_  |
     | **Audit logon events**             | _"Success"_  |
 
-    ![manualconfig_ad_localpolicy_winserver2016](/img/versioned_docs/auditor_10.6/auditor/configuration/activedirectory/manualconfig_ad_localpolicy_winserver2016.png)
+    ![manualconfig_ad_localpolicy_winserver2016](/img/versioned_docs/auditor_10.6/auditor/configuration/activedirectory/manualconfig_ad_localpolicy_winserver2016.webp)
 
     The Audit logon events policy is only required to collect the information on the originating
     workstation, i.e., the computer from which a change was made. This functionality is optional and

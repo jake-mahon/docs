@@ -2,7 +2,7 @@
 
 Description
 
-![ComplianceDetailsTab](/img/versioned_docs/changetracker_8.0/changetracker/admin/tabs/compliancedetailstab.png)
+![ComplianceDetailsTab](/img/versioned_docs/changetracker_8.0/changetracker/admin/tabs/compliancedetailstab.webp)
 
 **Step 1 –** Adjust Score Filters to view other score ranges.
 
@@ -12,8 +12,8 @@ Description
 
 ## Compare View
 
-![CompliancePolicyRunChangeDetails](/img/versioned_docs/changetracker_8.0/changetracker/admin/tabs/compliancepolicyrunchangedetails.png)
+![CompliancePolicyRunChangeDetails](/img/versioned_docs/changetracker_8.0/changetracker/admin/tabs/compliancepolicyrunchangedetails.webp)
 
 ## Full Report
 
-![ComplianceFullReport](/img/versioned_docs/changetracker_8.0/changetracker/admin/tabs/compliancefullreport.png)
+![ComplianceFullReport](/img/versioned_docs/changetracker_8.0/changetracker/admin/tabs/compliancefullreport.webp)

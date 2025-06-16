@@ -7,7 +7,7 @@ Enterprise Auditor SQL database.
 
 The 6-SPAC_BulkImport Job uses the SharePoint Access Data Collector for the following query:
 
-![Query Selection](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/sharepoint/collection/spacbulkimportquery.png)
+![Query Selection](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/sharepoint/collection/spacbulkimportquery.webp)
 
 The query for the 6-SPAC_BulkImport Job is:
 
@@ -28,7 +28,7 @@ displays.
 
 **Step 3 –** Select the **Data Source** tab, and click **Configure**.
 
-![Bulk Import Settings](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/spaa/bulkimportsettings.png)
+![Bulk Import Settings](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/spaa/bulkimportsettings.webp)
 
 **Step 4 –** On the
 [SPAA: Bulk Import Settings](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/spaa/bulkimportsettings.md)
@@ -54,7 +54,7 @@ node and select **Analysis** to view the analysis tasks.
 **CAUTION:** The analysis tasks are preconfigured for this job. Never modify or deselect the
 selected analysis tasks.
 
-![Analysis Selection](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/sharepoint/collection/spacbulkimportanalysis.png)
+![Analysis Selection](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/sharepoint/collection/spacbulkimportanalysis.webp)
 
 The default analysis tasks are:
 

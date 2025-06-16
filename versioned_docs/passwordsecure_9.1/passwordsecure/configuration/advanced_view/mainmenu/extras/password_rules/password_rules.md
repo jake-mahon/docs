@@ -7,7 +7,7 @@ complex and be automatically created. Rules set guidelines that can be made bind
 meaning that the use of passwords with a certain level of complexity is enforced. Existing rules can
 also be reused in other areas.
 
-![Password rules](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/mainmenu/extras/password_rules/installation_with_parameters_97-en.png)
+![Password rules](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/mainmenu/extras/password_rules/installation_with_parameters_97-en.webp)
 
 ## Relevant right
 
@@ -22,7 +22,7 @@ User right
 If “Password rules” is selected under Main menu/Extras, the available password rules will appear in
 a separate tab in the currently active module.
 
-![installation_with_parameters_98](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/mainmenu/extras/password_rules/installation_with_parameters_98.png)
+![installation_with_parameters_98](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/mainmenu/extras/password_rules/installation_with_parameters_98.webp)
 
 In this screenshot, a total of 3 password rules are shown. As the rule “Very secure password” has
 been selected in
@@ -57,13 +57,13 @@ default. This means that the default will always be used when a new password is 
 way, it is possible to ensure that the required level of complexity is maintained for certain
 passwords.
 
-![installation_with_parameters_99](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/mainmenu/extras/password_rules/installation_with_parameters_99.png)
+![installation_with_parameters_99](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/mainmenu/extras/password_rules/installation_with_parameters_99.webp)
 
 If one of these password rules is defined for a form, it is only possible to define a new random
 value for the password if a new password is created. The icon on the right hand side of the password
 field is used for this purpose.
 
-![installation_with_parameters_100](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/mainmenu/extras/password_rules/installation_with_parameters_100.png)
+![installation_with_parameters_100](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/mainmenu/extras/password_rules/installation_with_parameters_100.webp)
 
 ## Defining standard rules for user passwords
 

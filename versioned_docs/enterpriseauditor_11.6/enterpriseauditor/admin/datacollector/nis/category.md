@@ -2,7 +2,7 @@
 
 The Category page is used to identify which type of NIS information to retrieve.
 
-![NIS Data Collector Wizard Category page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/adinventory/category.png)
+![NIS Data Collector Wizard Category page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/adinventory/category.webp)
 
 The NIS Data Collector contains two query categories:
 

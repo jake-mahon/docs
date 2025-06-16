@@ -25,7 +25,7 @@ Permissions
 
 The Services Data Collector is configured through the Service Browser window.
 
-![Service Browser window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/servicebrowser.png)
+![Service Browser window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/servicebrowser.webp)
 
 - Host – Enter a sample host which contains all of the services desired for the query
 - All Services – Select this option to build the query to extract information from all services on

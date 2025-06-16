@@ -15,8 +15,8 @@ Cumulatively, there is a 24 hour maximum for initial JITA session and extensions
 Navigate to **Configure** > **Server** > **Additional Options** > **Default/maximum JITA session
 duration**.
 
-![mceclip0.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/1500002908881_mceclip0.png)
+![mceclip0.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/1500002908881_mceclip0.webp)
 
-![mceclip1.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/1500002908881_mceclip1.png)
+![mceclip1.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/1500002908881_mceclip1.webp)
 
 There is no need to restart any services.

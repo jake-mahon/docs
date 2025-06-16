@@ -48,7 +48,7 @@ The Enterprise Auditor Db2 Solution is a comprehensive set of preconfigured audi
 that provide visibility into various aspects of a Db2 Databases: Sensitive Data Discovery and
 Objects Permissions.
 
-![Db2 Overview](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/runninginstances/overview.png)
+![Db2 Overview](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/runninginstances/overview.webp)
 
 The following comprises the Db2 solution:
 

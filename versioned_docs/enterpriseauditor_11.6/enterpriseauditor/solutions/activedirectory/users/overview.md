@@ -3,7 +3,7 @@
 The 2.Users Job Group identifies user conditions and pinpoint potential areas of administrative
 concern such as weak passwords, user token size, or stale users.
 
-![2.Users Job Group in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/jobstree.png)
+![2.Users Job Group in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/jobstree.webp)
 
 The following components comprise the 2.Users Job Group:
 

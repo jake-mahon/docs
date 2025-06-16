@@ -23,7 +23,7 @@ Step 3 – Let`s fill out the website form in this example.
 
 - Set a description for your stored password.
 
-![description](../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/servicenow/description.webp)
+![description](../../../../static/img/product_docs/accessanalyzer/admin/action/servicenow/description.webp)
 
 - Enter the username or email address needed for login.
 
@@ -42,7 +42,7 @@ password.
 
 - Enter the website URL that leads to the login.
 
-![websiteurl](../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/websiteurl.webp)
+![websiteurl](../../../../static/img/product_docs/accessanalyzer/admin/settings/websiteurl.webp)
 
 - Add one or more tags to categorize your password and find it easier (i.e., "HR" or "Internet").
 

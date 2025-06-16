@@ -108,7 +108,7 @@ new-PSSession –ComputerName <computer name>
 This command creates a remote session on the local computer and returns an object that represents
 the session. The output should look as shown in the following snapshot:
 
-![Management Shell Remote session](/img/versioned_docs/groupid_11.0/groupid/managementshell/pssessioncommand.png)
+![Management Shell Remote session](/img/versioned_docs/groupid_11.0/groupid/managementshell/pssessioncommand.webp)
 
 ### Access GroupID Management Shell Remotely
 

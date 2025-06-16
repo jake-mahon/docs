@@ -5,7 +5,7 @@ growth, and trends.
 
 **_RECOMMENDED:_** Schedule the Sizing job group to run daily at 4 AM.
 
-![Sizing Job Group in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/jobstree.png)
+![Sizing Job Group in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/jobstree.webp)
 
 The jobs in the Sizing job group are:
 

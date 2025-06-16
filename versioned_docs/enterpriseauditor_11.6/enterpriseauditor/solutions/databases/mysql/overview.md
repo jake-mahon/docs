@@ -74,7 +74,7 @@ content for sensitive data.
 The Enterprise Auditor MySQL Solution Set is a set of pre-configured audit jobs and reports that
 provides visibility into MySQL Sensitive Data.
 
-![MySQL Job Group Overview](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/mysql/mysqljobgroupoverview.png)
+![MySQL Job Group Overview](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/mysql/mysqljobgroupoverview.webp)
 
 The job groups in the MySQL Solution are:
 

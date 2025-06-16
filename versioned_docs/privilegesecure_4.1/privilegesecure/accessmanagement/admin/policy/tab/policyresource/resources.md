@@ -2,7 +2,7 @@
 
 The Resources tab shows the resources associated with the selected access policy.
 
-![Resource based policy resources tab](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/policyresource/resourcestab.png)
+![Resource based policy resources tab](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/policyresource/resourcestab.webp)
 
 The Resources table has the following features:
 

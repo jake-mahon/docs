@@ -11,7 +11,7 @@ services and their states.
 Any non-necessary Services or Services you are generally unconcerned about should be marked as
 **Ignore State**.
 
-![PolicyTemplatesProcessesServices](/img/versioned_docs/changetracker_8.0/changetracker/admin/settings/policytemplates/policytemplatesprocessesservices2.png)
+![PolicyTemplatesProcessesServices](/img/versioned_docs/changetracker_8.0/changetracker/admin/settings/policytemplates/policytemplatesprocessesservices2.webp)
 
 - _**_Uncategorized Process/Service Action__** - Use this option if you want to be alerted to
   the presence of any new, uncategorized processes or services. This is an option as in some

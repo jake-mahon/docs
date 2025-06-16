@@ -3,7 +3,7 @@
 The 3. Databases Job Group is comprised of data collection, analyses, and reports that focus on
 database sizing, growth, and trends.
 
-![3.Databases Job Group in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/jobstree.png)
+![3.Databases Job Group in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/jobstree.webp)
 
 The following comprise the 3. Databases Job Group:
 

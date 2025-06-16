@@ -6,7 +6,7 @@ This page is about Usercube/Workflow. See the
 [ Workflow ](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/workflow/index.md)
 topic for additional information.
 
-![Package: Usercube/Workflow](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/internalworkflow/packages_workflow_v603.png)
+![Package: Usercube/Workflow](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/internalworkflow/packages_workflow_v603.webp)
 
 ## Overview
 

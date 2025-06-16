@@ -7,7 +7,7 @@ mailbox.
 
 The EX_MBRights job uses the ExchangePS Data Collector.
 
-![Queries for the EX_MBRights Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/mailboxes/permissions/collection/mbrightsquery.png)
+![Queries for the EX_MBRights Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/mailboxes/permissions/collection/mbrightsquery.webp)
 
 The following query is included in the EX_MBRights Job:
 

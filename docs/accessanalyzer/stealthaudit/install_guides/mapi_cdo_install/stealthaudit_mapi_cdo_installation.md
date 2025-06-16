@@ -6,7 +6,7 @@ order to enable the Settings > Exchange node.
 ![exchangenode](../../../../../static/img/product_docs/accessanalyzer/stealthaudit/install_guides/mapi_cdo_install/exchangenode.webp)
 
 The Microsoft Exchange MAPI CDO is only required to run the MAPI-based data collectors. See the
-[Exchange Solution](../../../enterpriseauditor/solutions/exchange/overview.md) topic for additional
+[Exchange Solution](../../../solutions/exchange/overview.md) topic for additional
 information.
 
 The Access Analyzer MAPI CDO can be downloaded from the

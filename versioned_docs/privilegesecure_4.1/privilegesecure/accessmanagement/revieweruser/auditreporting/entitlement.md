@@ -3,7 +3,7 @@
 The Entitlements tab shows the activities associated with the users in the selected access
 certification task.
 
-![Access Certification](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/revieweruser/auditreporting/accesscertification.png)
+![Access Certification](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/revieweruser/auditreporting/accesscertification.webp)
 
 - Search – Searches the table or list for matches to the search string. When matches are found, the
   table or list is filtered to the matching results.
@@ -46,7 +46,7 @@ Entitlements tab.
 
 **Step 3 –** Click Review to open the Review Activity Details window.
 
-![Review Entitlements window](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/revieweruser/auditreporting/reviewentitlements.png)
+![Review Entitlements window](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/revieweruser/auditreporting/reviewentitlements.webp)
 
 The Review Activity Details window has the following features:
 

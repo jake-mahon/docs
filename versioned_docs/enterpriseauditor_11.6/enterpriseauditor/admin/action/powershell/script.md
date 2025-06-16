@@ -3,7 +3,7 @@
 The Script page enables you to input the PowerShell script that will be used to perform the
 requested action. Built-in variables are available for use in the script.
 
-![PowerShell Action Module Wizard Script page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/powershell/script.png)
+![PowerShell Action Module Wizard Script page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/powershell/script.webp)
 
 The PowerShell script can be entered manually into the Script window at the top of the Script page.
 To open a pre-existing PowerShell script from a file, click **Open** to select the script file.
@@ -19,12 +19,12 @@ further. The tabs are:
 
 Use the Columns tab to select the available columns.
 
-![Columns tab](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/powershell/scriptcolumns.png)
+![Columns tab](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/powershell/scriptcolumns.webp)
 
 The table in the Columns tab displays the Columns that can be used for the PowerShell script. To use
 a Column, select the checkbox under the **Use** column.
 
-![Right-click menu](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/powershell/scriptrightclickoption.png)
+![Right-click menu](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/powershell/scriptrightclickoption.webp)
 
 Right-clicking any of the variable names brings up a **Copy variable name** option that enables
 users to paste the variable name into the PowerShell script.
@@ -33,7 +33,7 @@ users to paste the variable name into the PowerShell script.
 
 The Parameters tab contains options to add, edit, or delete user-made PowerShell parameters.
 
-![Parameters tab](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/powershell/scriptparamters.png)
+![Parameters tab](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/powershell/scriptparamters.webp)
 
 The options are:
 
@@ -52,7 +52,7 @@ The options are:
 
 Configure options for a new or existing parameter using the Add/Edit Variable window.
 
-![Add/Edit Variable Window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/powershell/addeditvariable.png)
+![Add/Edit Variable Window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/powershell/addeditvariable.webp)
 
 The options are:
 
@@ -73,7 +73,7 @@ The options are:
 
 Preview how the input data will look in the Input Data tab.
 
-![Input Data tab](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/powershell/scriptinputdata.png)
+![Input Data tab](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/powershell/scriptinputdata.webp)
 
 Information in the Input Data tab varies depending on which source table the PowerShell action
 module is configured to pull data from.

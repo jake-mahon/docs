@@ -3,7 +3,7 @@
 The Attribute Changes report for a computer object provides specific details for every attribute
 change to the audited computer that was logged during the selected date range.
 
-![Attribute Changes report](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/group/attributechanges.png)
+![Attribute Changes report](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/group/attributechanges.webp)
 
 This report is comprised of the following columns:
 

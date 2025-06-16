@@ -12,7 +12,7 @@ The AD_TimeSync Job uses the Registry Data Collector for the following query:
 
 **CAUTION:** Do not modify this query. The query is preconfigured for this job.
 
-![Query Selection](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/domains/collection/dsrmquery.png)
+![Query Selection](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/domains/collection/dsrmquery.webp)
 
 The queries for this job are:
 

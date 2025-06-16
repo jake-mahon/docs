@@ -2,12 +2,12 @@
 
 Follow the steps to create a new job.
 
-![Create Job from Jobs Tree context menu](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/createjob.png)
+![Create Job from Jobs Tree context menu](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/createjob.webp)
 
 **Step 1 –** Select the Jobs tree or the desired job group to add the new job to. Right-click and
 select **Create Job**.
 
-![New Job added to Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/navigate/newjob.png)
+![New Job added to Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/navigate/newjob.webp)
 
 **Step 2 –** Provide a unique, descriptive name for the job. The default name is `NewJob`. Some
 considerations for naming conventions:

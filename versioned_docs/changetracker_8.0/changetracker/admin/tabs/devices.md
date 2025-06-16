@@ -14,7 +14,7 @@ collated into a single screen.
   report**’ button.
 - Device inventory information and group membership.
 
-![DevicesTab](/img/versioned_docs/changetracker_8.0/changetracker/admin/tabs/devicestab.png)
+![DevicesTab](/img/versioned_docs/changetracker_8.0/changetracker/admin/tabs/devicestab.webp)
 
 **NOTE:** Go to **Tracking Configuration** tab to see a ‘read-only’ representation of the tracking
 template assigned, note that this will be a merged version of all Policy Templates inherited by the

@@ -6,7 +6,7 @@ Policy. See the
 [Access Policy Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/accesspolicy.md)
 topic for additional information.
 
-![Active Dashboard page](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/dashboard/active.png)
+![Active Dashboard page](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/dashboard/active.webp)
 
 The dashboard has the following features:
 

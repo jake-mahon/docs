@@ -2,7 +2,7 @@
 
 Use the **View Query** option to open the Host Discovery Queries pane.
 
-![View Query option on Activities pane](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/actions/viewquery.png)
+![View Query option on Activities pane](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/actions/viewquery.webp)
 
 Click **View Query** to go to the Host Discovery Queries pane. See the
 [Host Discovery Queries](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostdiscovery/queries.md)

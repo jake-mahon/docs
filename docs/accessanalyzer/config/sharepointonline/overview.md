@@ -8,7 +8,7 @@ Analyzer Activity Auditing (SPAC) scans.
 ## Access & Sensitive Data Auditing Permissions
 
 - Permissions vary based on the Scan Mode selected and target environment. See the
-  [SharePoint Support](../../enterpriseauditor/requirements/target/sharepoint.md) topic for
+  [SharePoint Support](../../requirements/target/sharepoint.md) topic for
   additional information.
 
 See the [SharePoint Online Access & Sensitive Data Auditing Configuration](access.md) topic for
@@ -17,13 +17,13 @@ instructions.
 **NOTE:** You can use the **SP_RegisterAzureAppAuth** instant job to make the configuration for
 SharePoint Online easier. This job registers the necessary Microsoft Entra ID application and
 provisions it with the required permissions. See the
-[SP_RegisterAzureAppAuth Job](../../enterpriseauditor/admin/jobs/instantjobs/sp_registerazureappauth.md)
+[SP_RegisterAzureAppAuth Job](../../admin/jobs/instantjobs/sp_registerazureappauth.md)
 topic for additional information.
 
 ## Access & Sensitive Data Auditing Port Requirements
 
 - Ports vary based on the Scan Mode selected and target environment. See the
-  [SharePoint Scan Options](../../enterpriseauditor/requirements/solutions/sharepoint/scanoptions.md)
+  [SharePoint Scan Options](../../requirements/solutions/sharepoint/scanoptions.md)
   topic for additional information.
 
 ## Activity Auditing Permissions

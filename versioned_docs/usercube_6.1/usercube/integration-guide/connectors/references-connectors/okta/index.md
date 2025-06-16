@@ -2,7 +2,7 @@
 
 This connector exports and fulfills entries from/to Okta application.
 
-![okta](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/okta/okta.png)
+![okta](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/okta/okta.webp)
 
 ## Overview
 

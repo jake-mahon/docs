@@ -7,7 +7,7 @@ varies based on the type of agent selected.
 
 The Additional Properties tab for the Activity Agent has the following configuration options:
 
-![Agent Additional Properties Tab](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/agents/properties/additionalpropertiestab.png)
+![Agent Additional Properties Tab](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/agents/properties/additionalpropertiestab.webp)
 
 - Comment – Create an annotation for the agent in the **Comment** text box. Annotations entered here
   will appear in the Comment column in the table on the Agents tab.
@@ -50,7 +50,7 @@ Properties window closes.
 
 The Additional Properties tab for the Linux Agent has the following configuration options:
 
-![Linux Agent Additional Properties Tab](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/agents/properties/linuxagentadditionalpropertiestab.png)
+![Linux Agent Additional Properties Tab](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/agents/properties/linuxagentadditionalpropertiestab.webp)
 
 - Comment – Create an annotation for the agent in the **Comment** text box. Annotations entered here
   will appear in the Comment column in the table on the Agents tab.

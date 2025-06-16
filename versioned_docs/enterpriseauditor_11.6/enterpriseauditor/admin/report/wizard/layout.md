@@ -2,7 +2,7 @@
 
 The Layout page allows you to configure the layout of the report's content.
 
-![layout](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/report/wizard/layout.png)
+![layout](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/report/wizard/layout.webp)
 
 Follow the steps to select the layout:
 
@@ -21,7 +21,7 @@ page of the Report Configuration wizard.
 If you are editing an existing report and you select a layout that has fewer elements than the
 number of already configured widgets, then the Element Downgrade Editor automatically displays.
 
-![Element Downgrade Editor](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/report/wizard/elementdowngradeeditor.png)
+![Element Downgrade Editor](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/report/wizard/elementdowngradeeditor.webp)
 
 The maximum number of elements allowed by the correctly selected layout is specified at the top of
 the editor. Select the checkboxes next to the title of all the configured widgets you want to keep

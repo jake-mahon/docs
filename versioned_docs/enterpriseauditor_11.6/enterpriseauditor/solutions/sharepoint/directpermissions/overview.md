@@ -11,7 +11,7 @@ components of the
 The jobs which comprise the 1.Direct Permissions Job Group process analysis tasks and generate
 reports.
 
-![1.Direct Permissions Job Group in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/jobstree.png)
+![1.Direct Permissions Job Group in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/jobstree.webp)
 
 The 1.Direct Permissions Job Group is comprised of:
 

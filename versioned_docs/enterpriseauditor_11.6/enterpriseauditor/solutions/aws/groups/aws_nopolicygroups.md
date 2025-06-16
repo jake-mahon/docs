@@ -10,7 +10,7 @@ Navigate to the **AWS** > **3.Groups** > **AWS_NoPolicyGroups** > **Configure** 
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for the AWS_NoPolicyGroups Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/aws/groups/nopolicygroupsanalysis.png)
+![Analysis Tasks for the AWS_NoPolicyGroups Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/aws/groups/nopolicygroupsanalysis.webp)
 
 The following analysis tasks are selected by default:
 

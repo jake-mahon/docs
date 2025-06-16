@@ -5,7 +5,7 @@ which features have been enabled or disabled on Mailboxes, such as ActiveSync, I
 
 **_RECOMMENDED:_** Schedule the Features Job Group to run weekly on any desired recurrence.
 
-![Features > EX_Features Job in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/mailboxes/featuresjobstree.png)
+![Features > EX_Features Job in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/mailboxes/featuresjobstree.webp)
 
 The EX_Features job is located in the Features job group.
 
@@ -13,7 +13,7 @@ The EX_Features job is located in the Features job group.
 
 The EX_Features Job uses the ExchangePS Data Collector.
 
-![Queries for the EX_Features Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/mailboxes/featuresquery.png)
+![Queries for the EX_Features Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/mailboxes/featuresquery.webp)
 
 The following query is included with the EX_Features Job:
 

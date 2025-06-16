@@ -56,12 +56,12 @@ the owners:
   Tool-tips display when hovering over the icons indicating whether the resource ownership has been
   confirmed, declined, pending response, or that a confirmation has not been requested.
 
-![Add new resource wizard showing 3. Description page](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/servicenow/description.webp)
+![Add new resource wizard showing 3. Description page](../../../../../../static/img/product_docs/accessanalyzer/admin/action/servicenow/description.webp)
 
 **Step 5 –** On the Description page, optionally add a description for the resource in the textbox.
 Then click **Next**.
 
-![Add new resource wizard showing 4. Summary page](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/summary.webp)
+![Add new resource wizard showing 4. Summary page](../../../../../../static/img/product_docs/accessanalyzer/admin/datacollector/adinventory/summary.webp)
 
 **Step 6 –** On the Summary page, review the settings and click Finish. The Access Reviews
 application begins to process the ownership configuration.

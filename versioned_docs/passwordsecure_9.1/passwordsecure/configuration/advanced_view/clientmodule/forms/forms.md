@@ -9,7 +9,7 @@ which have to be stored. Nevertheless, their use as an effective filter criterio
 ignored! Forms have a lasting impact on working withNetwrix Password Secure v8 and must be managed
 and maintained with the necessary care by the administration.
 
-![form module](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/forms/forms_1-en.png)
+![form module](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/forms/forms_1-en.webp)
 
 ## Relevant rights
 
@@ -26,7 +26,7 @@ Netwrix Password Secure is supplied with a series of standard forms – these sh
 all standard requirements. Naturally, it is still possible to adapt the standard forms to your
 individual requirements.
 
-![forms](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/forms/forms_2-em.png)
+![forms](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/forms/forms_2-em.webp)
 
 The associated preview for the form selected in
 [List view](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/operation_and_setup/listview/list_view.md)
@@ -44,7 +44,7 @@ the example of the field type "Password". The sequence in which form fields are 
 creating new records corresponds to the sequence within the form. This can be adapted using the
 relevant buttons in the ribbon.
 
-![Creating new forms](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/forms/forms_3-en.png)
+![Creating new forms](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/forms/forms_3-en.webp)
 
 The following field settings thus appear for the field type "Password": "Mandatory field, reveal
 only with reason, check only generated passwords and password policy". These can now be defined as
@@ -70,7 +70,7 @@ Every record displays other information underneath the obligatory name of the re
 In the following example, the user name is also displayed in addition to the name of the password.
 The name of the form is displayed in between in a blue font.
 
-![Configuring the info field](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/forms/forms_4-en.png)
+![Configuring the info field](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/forms/forms_4-en.webp)
 
 The name of the record (192.168.150.236) and the form (password) cannot be adjusted – these are
 always displayed. The user (Administrator) that is still saved for the record is currently
@@ -79,7 +79,7 @@ define for each form what information for a record can be directly seen in list 
 module, the info field is configured by opening the form which has to be edited in editing mode by
 double clicking on it and then pressing the \*Configure info field” button in the ribbon.
 
-![Configuring the info field](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/forms/forms_5-en.png)
+![Configuring the info field](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/forms/forms_5-en.webp)
 
 This will open a separate tab that enables you to design the info section via drag & drop. The
 fields that are available on the right can be "dragged" onto the configuration window on the left.
@@ -87,12 +87,12 @@ In the following example, "Start RDP session2 will be made visible in the info s
 the word "RDP" is assigned a function – namely to start the RDP manager. A preview is shown in the
 top section.
 
-![preview form](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/forms/forms_6-en.png)
+![preview form](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/forms/forms_6-en.webp)
 
 The info field for the form is now updated. It is now possible to start the RDP session directly in
 the RDP session.
 
-![updated form](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/forms/forms_7-en.png)
+![updated form](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/forms/forms_7-en.webp)
 
 NOTE: The **forms module** is based on the
 [Web Application](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/web_applicaiton/web_application.md)
@@ -105,8 +105,8 @@ There are two possible ways to define a standard form.
 
 ### Via the “standard form” user setting
 
-![settings form](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/forms/forms_8-en.png)
+![settings form](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/forms/forms_8-en.webp)
 
 ### Via the form selection
 
-![default form](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/forms/forms_9-en.png)
+![default form](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/forms/forms_9-en.webp)

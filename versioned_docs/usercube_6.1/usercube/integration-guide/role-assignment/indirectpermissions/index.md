@@ -102,7 +102,7 @@ Although Indirect Permissions are marked as `Non-conforming`, they can be neithe
 deleted. They also won't appear in Access certification campaigns.
 
 Indirect Permissions are always indicated by the following icon:
-![Indirect Permission Icon](/img/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/indirectpermissions/ic_fluent_flow_20_regular.png)
+![Indirect Permission Icon](/img/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/indirectpermissions/ic_fluent_flow_20_regular.webp)
 
 ## Disabling the Indirect Permission Computation
 

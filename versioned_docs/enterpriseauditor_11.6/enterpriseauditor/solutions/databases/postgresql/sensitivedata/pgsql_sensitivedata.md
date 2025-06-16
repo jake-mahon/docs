@@ -11,7 +11,7 @@ node and select Analysis to view the analysis tasks.
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![pgsqlsensitivedataanalysis](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/postgresql/sensitivedata/pgsqlsensitivedataanalysis.png)
+![pgsqlsensitivedataanalysis](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/postgresql/sensitivedata/pgsqlsensitivedataanalysis.webp)
 
 The default analysis tasks are:
 

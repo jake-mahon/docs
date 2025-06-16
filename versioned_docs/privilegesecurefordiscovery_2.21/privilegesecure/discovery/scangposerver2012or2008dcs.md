@@ -59,7 +59,7 @@ GPO:
 The SID in the “Value data” field above will need to be updated with SID of the SecureONE domain
 service account being used for scanning.
 
-![image.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/360022419033_image.png)
+![image.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/360022419033_image.webp)
 
 The SID in the “Value data” field above will need to be updated with SID of the SecureONE domain
 service account being used for scanning.

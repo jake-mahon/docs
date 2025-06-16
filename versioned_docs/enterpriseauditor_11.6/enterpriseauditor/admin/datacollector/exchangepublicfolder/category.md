@@ -2,7 +2,7 @@
 
 The Category page is used to select the objects to search.
 
-![Exchange Public Folder Data Collector Wizard Category page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/adinventory/category.png)
+![Exchange Public Folder Data Collector Wizard Category page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/adinventory/category.webp)
 
 The ExchangePublicFolder Data Collector contains the following query categories:
 

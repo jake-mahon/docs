@@ -3,7 +3,7 @@
 The Sensitive Data Job Group is designed to provide insight into where sensitive data exists and who
 has access to it across all the targeted MongoDB databases.
 
-![Sensitive Data Job Group](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/postgresql/sensitivedata/sensitivedatajobgroup.png)
+![Sensitive Data Job Group](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/postgresql/sensitivedata/sensitivedatajobgroup.webp)
 
 The job in the Sensitive Data Job Group is:
 
@@ -18,7 +18,7 @@ and select Analysis to view the analysis tasks.
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Selection](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/mongodb/analysismongodbsensitivedatajob.png)
+![Analysis Selection](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/mongodb/analysismongodbsensitivedatajob.webp)
 
 The default analysis tasks are:
 

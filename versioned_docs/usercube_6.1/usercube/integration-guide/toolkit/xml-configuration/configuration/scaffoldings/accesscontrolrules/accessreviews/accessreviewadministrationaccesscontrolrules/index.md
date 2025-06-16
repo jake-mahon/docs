@@ -4,7 +4,7 @@ Scaffolding to generate the rights to administrate campaign creation.
 
 Gives access to a shortcut on the dashboard to access this page.
 
-![Access Certification Campaigns](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/access-certification/certification-campaign-scheduling/home_accesscertificationcampaigns_v602.png)
+![Access Certification Campaigns](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/access-certification/certification-campaign-scheduling/home_accesscertificationcampaigns_v602.webp)
 
 ## Examples
 

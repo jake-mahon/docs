@@ -3,7 +3,7 @@
 The Dashboard interface displays an overview of activity sessions, users, resources and related
 information.
 
-![Dashboard Interface](/img/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/interface.png)
+![Dashboard Interface](/img/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/interface.webp)
 
 The overview section shows information for the following:
 

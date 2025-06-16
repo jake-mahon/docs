@@ -5,7 +5,7 @@ Monitor creates Trace Logs that aid in troubleshooting issues. The Trace level o
 drop-down list in the lower right corner of the Activity Monitor Console determines the kind of
 information kept in the activity agent and monitored hosts logs.
 
-![Activity Monitor with location of trace logs](/img/versioned_docs/activitymonitor_7.1/activitymonitor/troubleshooting/tracelogs.png)
+![Activity Monitor with location of trace logs](/img/versioned_docs/activitymonitor_7.1/activitymonitor/troubleshooting/tracelogs.webp)
 
 The selected log level applies to all hosts added to the **Agents** list (if not specified in agent
 properties). Select from the following trace log levels:
@@ -25,13 +25,13 @@ applied immediately to all of the activity agents that do not have custom trace 
 [Archiving Tab](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/agents/properties/archiving.md)
 topic for additional information.
 
-![Collect Logs button](/img/versioned_docs/activitymonitor_7.1/activitymonitor/troubleshooting/collectlogsbutton.png)
+![Collect Logs button](/img/versioned_docs/activitymonitor_7.1/activitymonitor/troubleshooting/collectlogsbutton.webp)
 
 The Activity Monitor Console has a function to copy Trace Logs from the activity agents to the
 Console machine. Click the Collect Logs button to open the log collection dialog and select Start to
 begin the log collection.
 
-![Copying the log files popup window](/img/versioned_docs/activitymonitor_7.1/activitymonitor/troubleshooting/collectlogswindow.png)
+![Copying the log files popup window](/img/versioned_docs/activitymonitor_7.1/activitymonitor/troubleshooting/collectlogswindow.webp)
 
 Specific agents or console can be selected. After log collection is successful the logs are
 compressed into a zip file and file explorer opens with the zip file selected.

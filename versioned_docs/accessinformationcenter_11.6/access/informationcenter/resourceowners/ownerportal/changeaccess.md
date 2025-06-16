@@ -4,7 +4,7 @@ The **Change Access** button on the Owner portal opens the Change Resource Acces
 selected resource. You can make ad hoc changes to resource access when this feature is enabled for
 the resource by the Ownership Administrators.
 
-![Change Resource Access wizard showing 1. Select Change page](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceowners/ownerportal/selectchangeadd.png)
+![Change Resource Access wizard showing 1. Select Change page](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceowners/ownerportal/selectchangeadd.webp)
 
 This wizard has four pages, but you will only be directed to the pages applicable to your selection
 on the first page:
@@ -29,13 +29,13 @@ Follow the steps to add new user access to the selected resource.
 **Step 1 –** Select the desired resource in the Owner portal and click **Change Access**. The Change
 Resource Access wizard opens.
 
-![Change Resource Access wizard showing 1. Select Change page](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceowners/ownerportal/selectchangeadd.png)
+![Change Resource Access wizard showing 1. Select Change page](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceowners/ownerportal/selectchangeadd.webp)
 
 **Step 2 –** On the Select Change page, select the **Add access for a new user** option. If
 selected, the **Notify users about their change in access** option will send an email to the users
 who have been granted access to the resource. Click **Next**.
 
-![Change Resource Access wizard showing 2. Add Access page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/access/rolebased/addaccess.png)
+![Change Resource Access wizard showing 2. Add Access page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/access/rolebased/addaccess.webp)
 
 **Step 3 –** On the Add Access page, indicate the new users. Entering a name or email address in the
 search field to find and select users from Active Directory, which populate in a drop-down menu as
@@ -56,7 +56,7 @@ menu.
 
 **Step 5 –** Click **Next** to continue. The wizard advances to the Add Notes page.
 
-![Change Resource Access wizard showing the 4. Add Notes page](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceowners/ownerportal/addnotesadd.png)
+![Change Resource Access wizard showing the 4. Add Notes page](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceowners/ownerportal/addnotesadd.webp)
 
 **Step 6 –** On the Add Notes page, optionally enter the following information:
 
@@ -71,7 +71,7 @@ menu.
 _Remember,_ Notes are included in the notification sent to the user (if selected) and recorded with
 the historical record of this change.
 
-![Change Resource Access wizard completed updates message](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/sensitivedatadiscovery/completed.png)
+![Change Resource Access wizard completed updates message](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/sensitivedatadiscovery/completed.webp)
 
 **Step 8 –** The action status displays on the page. When the update has completed (100%), click
 **Finish**. The Change Resource Access wizard closes.
@@ -88,7 +88,7 @@ Requests page via the **Access Requests** link on the Actions panel.
 
 A CSV file can be created to import a list of users.
 
-![Example CSV File for adding user access imports](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/systemalerting/importfile.png)
+![Example CSV File for adding user access imports](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/systemalerting/importfile.webp)
 
 The CSV file must contain one user per row. Use the NTAccount [Domain\SamAccountName] format for the
 user name, for example `NWXTECH\JSmith`.
@@ -100,13 +100,13 @@ Follow the steps to change or remove access for the selected resource.
 **Step 1 –** Select the desired resource in the Owner portal and click **Change Access**. The Change
 Resource Access wizard opens.
 
-![Change Resource Access wizard with the 1. Select Change page with Change access for an existing user option selected](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceowners/ownerportal/selectchangechange.png)
+![Change Resource Access wizard with the 1. Select Change page with Change access for an existing user option selected](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceowners/ownerportal/selectchangechange.webp)
 
 **Step 2 –** On the Select Change page, select the **Change access for an existing user** option. If
 checked, the **Notify users about their change in access** option will send an email to the users
 having access to the resource changed. Click **Next**.
 
-![Change Resource Access wizard 3. Change Access page](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceowners/ownerportal/changeaccess.png)
+![Change Resource Access wizard 3. Change Access page](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceowners/ownerportal/changeaccess.webp)
 
 **Step 3 –** On the Change Access page, select the users from the list and click **Select**. Use the
 Windows ctrl-left-click key command to select multiple users. The **View Selections** button shows a
@@ -122,7 +122,7 @@ drop-down menu.
 
 **Step 5 –** Click **Next** to continue.
 
-![Change Resource Access wizard 4. Add Notes page](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceowners/ownerportal/addnoteschange.png)
+![Change Resource Access wizard 4. Add Notes page](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceowners/ownerportal/addnoteschange.webp)
 
 **Step 6 –** On the Add Notes page, optionally enter any useful tracking information or description
 explaining the reason for the change. Click **Next**. The Access Information Center will begin to
@@ -131,7 +131,7 @@ process the updates.
 _Remember,_ Notes are included in the notification sent to the user (if selected) and recorded with
 the historical record of this change.
 
-![Change Resource Access wizard completed updates message](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/sensitivedatadiscovery/completed.png)
+![Change Resource Access wizard completed updates message](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/sensitivedatadiscovery/completed.webp)
 
 **Step 7 –** The action status displays on the page. When the update has completed (100%), click
 **Finish**. The Change Resource Access wizard closes.

@@ -2,7 +2,7 @@
 
 Use the settings page to specify the settings for the web request.
 
-![Web Request Action Module Wizard Settings page](/img/versioned_docs/activitymonitor_7.1/config/dellpowerscale/settings.png)
+![Web Request Action Module Wizard Settings page](/img/versioned_docs/activitymonitor_7.1/config/dellpowerscale/settings.webp)
 
 Establish the settings using the following options:
 

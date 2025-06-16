@@ -1,3 +1,12 @@
+---
+id: settings-for-non-owner-mailbox-access-audit-using-application
+title: "Settings for Non-Owner Mailbox Access Audit: Using Application"
+pagination_label: "Settings for Non-Owner Mailbox Access Audit: Using Application"
+sidebar_label: "Settings for Non-Owner Mailbox Access Audit: Using Application"
+sidebar_position: 113
+description: "This page explains how to configure Microsoft Entra ID app permissions for non-owner mailbox access auditing in Exchange Online."
+---
+
 # Settings for Non-Owner Mailbox Access Audit: Using Application
 
 To prepare for non-owner mailbox access auditing in the Exchange Online organization, you will need

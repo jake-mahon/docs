@@ -6,7 +6,7 @@ criteria matches visible to Access Information Center users with either Security
 Administrator roles. The Matches table requires the storage of discovered sensitive data within the
 Enterprise Auditor database or it will be blank.
 
-![Sensitive Content report at the Databases node](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/sql/databases/databasessensitivecontent.png)
+![Sensitive Content report at the Databases node](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/sql/databases/databasessensitivecontent.webp)
 
 This report is comprised of the following columns:
 

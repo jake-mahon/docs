@@ -7,7 +7,7 @@ SQL Server where Enterprise Auditor stores data.
 
 The 4-SPSEEK Bulk Import Job uses the SharePoint Access Data Collector for the following query:
 
-![Query Selection](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/sharepoint/collection/spseekbulkimportquery.png)
+![Query Selection](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/sharepoint/collection/spseekbulkimportquery.webp)
 
 The query for the 4-SPSEEK Bulk Import Job is:
 
@@ -28,7 +28,7 @@ displays.
 
 **Step 3 –** Select the **Data Source** tab, and click **Configure**.
 
-![Bulk Import Settings](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/spaa/bulkimportsettings.png)
+![Bulk Import Settings](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/spaa/bulkimportsettings.webp)
 
 **Step 4 –** On the
 [SPAA: Bulk Import Settings](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/spaa/bulkimportsettings.md)
@@ -54,7 +54,7 @@ Navigate to the **Jobs** > **SharePoint** > **0.Collection** > **4-SPSEEK_BulkIm
 **CAUTION:** The analysis tasks are preconfigured for this job. Never modify or deselect the
 selected analysis tasks.
 
-![Analysis Selection](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/sharepoint/collection/spseekbulkimportanalysis.png)
+![Analysis Selection](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/sharepoint/collection/spseekbulkimportanalysis.webp)
 
 The default analysis tasks are:
 

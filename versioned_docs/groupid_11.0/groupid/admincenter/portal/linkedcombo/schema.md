@@ -14,7 +14,7 @@ Do the following:
    Expressions in the **Type binding expression** list are auto generated with respect to the number
    of sheets in the source Excel workbook and the number of columns in a sheet. It is as:
 
-    ![binding_expressions_examples](/img/versioned_docs/groupid_11.0/groupid/admincenter/portal/linkedcombo/binding_expressions_examples.png)
+    ![binding_expressions_examples](/img/versioned_docs/groupid_11.0/groupid/admincenter/portal/linkedcombo/binding_expressions_examples.webp)
 
     In an expression, worksheet names are enclosed in brackets while the names of the data columns
     in the worksheets are without brackets. The expressions in the figure above indicate that the
@@ -29,7 +29,7 @@ Do the following:
 
     1. Click **Add** to add a row.
 
-        ![child_fields](/img/versioned_docs/groupid_11.0/groupid/admincenter/portal/linkedcombo/child_fields.png)
+        ![child_fields](/img/versioned_docs/groupid_11.0/groupid/admincenter/portal/linkedcombo/child_fields.webp)
 
     2. In the **Linked Field** drop-down list, select a field (for example, Country). This field
        will be linked to the data column represented by the binding expression you select in the
@@ -50,7 +50,7 @@ Do the following:
     0-Company, 1-Country, and 2-City. (You can also create two linked combos to manage the
     relationship between these three fields.)
 
-    ![schema](/img/versioned_docs/groupid_11.0/groupid/admincenter/portal/linkedcombo/schema.png)
+    ![schema](/img/versioned_docs/groupid_11.0/groupid/admincenter/portal/linkedcombo/schema.webp)
 
     The relationship formed between fields can be explained as:
 

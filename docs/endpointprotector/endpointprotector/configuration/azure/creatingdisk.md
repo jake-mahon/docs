@@ -5,15 +5,15 @@ Machine. To create a disk, follow these steps.
 
 **Step 1 –** From the top right side of the page, go to All resources and click +Create;
 
-![createdisk](../../../../../static/img/product_docs/endpointprotector/endpointprotector/configuration/azure/createdisk.png)
+![createdisk](../../../../../static/img/product_docs/endpointprotector/endpointprotector/configuration/azure/createdisk.webp)
 
 **Step 2 –** Search the marketplace for Managed Disks;
 
-![marketplace](../../../../../static/img/product_docs/endpointprotector/endpointprotector/configuration/azure/marketplace.png)
+![marketplace](../../../../../static/img/product_docs/endpointprotector/endpointprotector/configuration/azure/marketplace.webp)
 
 **Step 3 –** Go to Managed Disks and select Create;
 
-![manageddisk](../../../../../static/img/product_docs/endpointprotector/endpointprotector/configuration/azure/manageddisk.png)
+![manageddisk](../../../../../static/img/product_docs/endpointprotector/endpointprotector/configuration/azure/manageddisk.webp)
 
 **Step 4 –** To create a managed disk, provide the following information
 
@@ -37,7 +37,7 @@ displayed.
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../static/img/product_docs/endpointprotector/endpointprotector/configuration/azure/createmanageddisk.png)
+generated](../../../../../static/img/product_docs/endpointprotector/endpointprotector/configuration/azure/createmanageddisk.webp)
 
 ## Creating the Virtual Machine
 
@@ -45,7 +45,7 @@ To start the Endpoint Protector Virtual Machine in Azure, follow these steps:
 
 **Step 6 –** Go to the All resources page, select the newly created disks and then click Create VM
 
-![createvm](../../../../../static/img/product_docs/endpointprotector/endpointprotector/configuration/azure/createvm.png)
+![createvm](../../../../../static/img/product_docs/endpointprotector/endpointprotector/configuration/azure/createvm.webp)
 
 **Step 7 –** To create the Virtual Machine, provide the following information:
 
@@ -60,7 +60,7 @@ To start the Endpoint Protector Virtual Machine in Azure, follow these steps:
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../static/img/product_docs/endpointprotector/endpointprotector/configuration/azure/newvm.png)
+generated](../../../../../static/img/product_docs/endpointprotector/endpointprotector/configuration/azure/newvm.webp)
 
 - On the Networking tab, fill in the following:
 
@@ -75,12 +75,12 @@ payments for an unused SSD attached to the Virtual Machine.
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../static/img/product_docs/endpointprotector/endpointprotector/configuration/azure/publicip.png)
+generated](../../../../../static/img/product_docs/endpointprotector/endpointprotector/configuration/azure/publicip.webp)
 
 **Step 9 –** Once the deployment has finished, go to Virtual Machines on the right side and select
 the Endpoint Protector image.
 
-![connetctip](../../../../../static/img/product_docs/endpointprotector/endpointprotector/configuration/azure/connetctip.png)
+![connetctip](../../../../../static/img/product_docs/endpointprotector/endpointprotector/configuration/azure/connetctip.webp)
 
 **Step 10 –** Open a web browser and connect to the Public IP address assigned to the Endpoint
 Protector image.

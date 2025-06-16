@@ -11,14 +11,14 @@ Follow the steps to create an additional password policy.
 **Step 1 –** Click the **Policies** item in the left pane of the management console, then click
 **New Policy** in the right pane.
 
-![managing_policies](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/evaluation/managing_policies.png)
+![managing_policies](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/evaluation/managing_policies.webp)
 
 **Step 2 –** Enter **Admins** in the New Policy name text box, then choose the **Users** policy from
 the **Copy Settings From:** drop-down.
 
 **Step 3 –** Click **OK** to create the policy, then click the **Assigned To** tab.
 
-![enforcing_multiple_policies_1](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/evaluation/enforcing_multiple_policies_1.png)
+![enforcing_multiple_policies_1](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/evaluation/enforcing_multiple_policies_1.webp)
 
 **Step 4 –** Click the **Add...** button beside the Groups list and type "**domain admins**" in the
 provided field.
@@ -28,7 +28,7 @@ provided field.
 
 **Step 5 –** Click OK.
 
-![enforcing_multiple_policies_2](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/evaluation/enforcing_multiple_policies_2.png)
+![enforcing_multiple_policies_2](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/evaluation/enforcing_multiple_policies_2.webp)
 
 **Step 6 –** Click **OK** to close the Policy Properties page.
 

@@ -4,7 +4,7 @@ The Password Reset Client allows users to securely reset their password or unloc
 the Windows Logon and Unlock Computer screens. Users click **Reset Password** to access the Password
 Reset system.
 
-![the_password_reset_client_1](/img/versioned_docs/passwordreset_3.23/password_reset/evaluation/the_password_reset_client_1.png)
+![the_password_reset_client_1](/img/versioned_docs/passwordreset_3.23/password_reset/evaluation/the_password_reset_client_1.webp)
 
 The Password Reset Client does not modify any Windows system files.
 
@@ -48,7 +48,7 @@ registry for the evaluation.
 
 **Step 3 –** Right-click **PRC_Config.reg**, then click **Edit**.
 
-![the_password_reset_client_1_1](/img/versioned_docs/passwordreset_3.23/password_reset/evaluation/the_password_reset_client_1_1.png)
+![the_password_reset_client_1_1](/img/versioned_docs/passwordreset_3.23/password_reset/evaluation/the_password_reset_client_1_1.webp)
 
 **Step 4 –** Replace **127.0.0.1** in the .reg file with the IP address or hostname of your
 evaluation server.

@@ -16,12 +16,12 @@ Step 1 – Every time you login to a website now and your browser wants to autof
 Secure Pop-up will appear, asking you if you would like to save your secret in Netwrix Password
 Secure. Just click **Create new**. See the screenshot below.
 
-![createnew](/img/versioned_docs/passwordsecure_9.1/passwordsecure/enduser/createnew.png)
+![createnew](/img/versioned_docs/passwordsecure_9.1/passwordsecure/enduser/createnew.webp)
 
 Step 2 – Now the Web Application will open and automatically transfer the recognized login data,
 including URL to a new data set.
 
-![createpassword](/img/versioned_docs/passwordsecure_9.1/passwordsecure/enduser/createpassword.png)
+![createpassword](/img/versioned_docs/passwordsecure_9.1/passwordsecure/enduser/createpassword.webp)
 
 Step 3 – Choose an organizational unit in which you want to save it and give your new data set a
 meaningful name to find it again quickly. (You now also have the option to add further information
@@ -38,7 +38,7 @@ checks the strength of your password and much more.
 Step 1 – Paste your password in the password field. See the box to the right of the Password field
 in the screenshot below.
 
-![passwordfield](/img/versioned_docs/passwordsecure_9.1/passwordsecure/enduser/passwordfield.png)
+![passwordfield](/img/versioned_docs/passwordsecure_9.1/passwordsecure/enduser/passwordfield.webp)
 
 Step 2 – If it is not classified as "strong" (green), we strongly recommend using the integrated
 password generator to assign a new, secure password: Therefore, just click on the white password
@@ -47,7 +47,7 @@ generator icon to the right of the password field. See the Strong button in the 
 Step 3 – The password generator will open. A secure password is created automatically just click
 “Apply”. (Learn more about the possibilities of our password manager in the next chapter.)
 
-![passwordgenerator](/img/versioned_docs/passwordsecure_9.1/passwordsecure/enduser/passwordgenerator.png)
+![passwordgenerator](/img/versioned_docs/passwordsecure_9.1/passwordsecure/enduser/passwordgenerator.webp)
 
 Step 4 – Now don't forget to replace your password in the target application as well.
 
@@ -63,11 +63,11 @@ The password generator offers three possibilities to create a secure password. T
 Step 1 – Create a user defined password which gives you the most options such as including and
 excluding special characters or defining the length of the password.
 
-![userdefined](/img/versioned_docs/passwordsecure_9.1/passwordsecure/enduser/userdefined.png)
+![userdefined](/img/versioned_docs/passwordsecure_9.1/passwordsecure/enduser/userdefined.webp)
 
 Step 2 – Create a phonetic password that is easier to pronounce, but still complex.
 
-![phonetic](/img/versioned_docs/passwordsecure_9.1/passwordsecure/enduser/phonetic.png)
+![phonetic](/img/versioned_docs/passwordsecure_9.1/passwordsecure/enduser/phonetic.webp)
 
 NOTE: This option is best suited for passwords that must be read and typed in, such as operating
 machines without an internet connection.
@@ -75,4 +75,4 @@ machines without an internet connection.
 Step 3 – Create a password according to a set password rule in your company: If your IT has already
 stored password guidelines for you, you can select them here and simply click on apply.
 
-![rule](/img/versioned_docs/passwordsecure_9.1/passwordsecure/enduser/rule.png)
+![rule](/img/versioned_docs/passwordsecure_9.1/passwordsecure/enduser/rule.webp)

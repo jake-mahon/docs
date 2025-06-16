@@ -2,7 +2,7 @@
 
 Use this page to test a survey and verify proper configuration.
 
-![Survey Action Module Wizard Test Survey page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/survey/testsurvey.png)
+![Survey Action Module Wizard Test Survey page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/survey/testsurvey.webp)
 
 The configurable options are:
 

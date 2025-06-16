@@ -3,7 +3,7 @@
 Stealthbits File Activity Monitor App for Splunk contains several predefined dashboards: File
 Activity (Overview), Ransomware, Permission Changes, and Deletions.
 
-![file_activity_monitor_app](/img/versioned_docs/activitymonitor_7.1/activitymonitor/siem/qradar/file_activity_monitor_app.png)
+![file_activity_monitor_app](/img/versioned_docs/activitymonitor_7.1/activitymonitor/siem/qradar/file_activity_monitor_app.webp)
 
 The date time search feature uses the default Splunk search features.
 

@@ -2,7 +2,7 @@
 
 Use the Result Type page to choose a SQL database table or view for the result’s output.
 
-![View and Table Creation Analysis Module wizard Result Type page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/analysis/sqlviewcreation/resulttype.png)
+![View and Table Creation Analysis Module wizard Result Type page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/analysis/sqlviewcreation/resulttype.webp)
 
 The options on this page determine the visual representation and name of the combined data from the
 two sourced tables. Select from the following two options:

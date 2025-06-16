@@ -43,7 +43,7 @@ the **Integration Connectors** submenu.
   the Checkin Script Block or Skip the Certificate Check.
 - Skip Certificate Check – Select the checkbox
 
-![BYOV Connector for Privilege Secure](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/add/byovconnectornps.png)
+![BYOV Connector for Privilege Secure](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/add/byovconnectornps.webp)
 
 **Step 4 –** Copy and paste the following script into the "Checkout Script Block" field. (The
 "Checkin Script Block" field may be left blank.)
@@ -177,12 +177,12 @@ Follow the steps to create a manually-managed user.
 
 **Step 1 –** Navigate to **Dashboard** > **Credentials** tab.
 
-![Select a User to manage account](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/add/byovmanageuser.png)
+![Select a User to manage account](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/add/byovmanageuser.webp)
 
 **Step 2 –** Search or scroll to find the user you wish to manage. Once identified, check the box
 next to the account name.
 
-![Select Manual manage account](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/add/byovmanualmanageaccount.png)
+![Select Manual manage account](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/add/byovmanualmanageaccount.webp)
 
 **Step 3 –** Click on the **Manage** button that becomes available above the list, and select
 **Manual**.
@@ -204,11 +204,11 @@ Follow the steps to set an account password.
 **Step 1 –** Navigate to **Dashboard** > **Credentials** tab and locate the manually managed
 account.
 
-![Managed User Wrench Icon](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/add/byovmanageuserwrench.png)
+![Managed User Wrench Icon](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/add/byovmanageuserwrench.webp)
 
 **Step 2 –** Click on the **Wrench** icon to set the password.
 
-![Set password for the credential window](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/add/byovsetpassword.png)
+![Set password for the credential window](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/add/byovsetpassword.webp)
 
 **Step 3 –** Enter a password to match the AD password, then click **Save**.
 
@@ -245,7 +245,7 @@ Follow the steps to create an activity.
 created. Also, you may apply domain or other local accounts managed by Netwrix Privilege Secure, but
 the password must be rotated once prior to use with an activity.
 
-![BYOV create an Activity](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/add/byovconnectoractivity.png)
+![BYOV create an Activity](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/add/byovconnectoractivity.webp)
 
 **Step 4 –** Click Save to create the Activity.
 
@@ -264,7 +264,7 @@ Follow the steps to create a Policy.
 
 **Step 1 –** Navigate to the **Policy** tab > **Access Policy**.
 
-![Create a new policy for the BYOV Connector](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/add/byovconnectorpolicy.png)
+![Create a new policy for the BYOV Connector](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/add/byovconnectorpolicy.webp)
 
 **Step 2 –** Click the **Plus** icon and create a new Policy. See the
 [Add Access Policy](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/add/accesspolicy.md)
@@ -296,7 +296,7 @@ outlined in the policy. This setup is ideal for scenarios where a single account
 multiple resources but needs to be managed through Privilege Secure for enhanced security and
 management.
 
-![My Activities BYOV Connector](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/add/byovconnectormyactivities.png)
+![My Activities BYOV Connector](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/add/byovconnectormyactivities.webp)
 
 _Remember,_ Always verify configurations and permissions, especially when integrating with systems
 like AD and using specific user accounts for critical operations.

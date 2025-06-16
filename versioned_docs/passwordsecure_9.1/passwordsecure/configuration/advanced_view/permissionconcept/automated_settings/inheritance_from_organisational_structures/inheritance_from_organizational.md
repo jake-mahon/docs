@@ -12,7 +12,7 @@ equivalent to granting permissions based on **affiliations to a folder**. When c
 record, the record receives the permissions in accordance with the defined permissions for the
 organisational unit.
 
-![explanation of authorization](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/permissionconcept/automated_settings/inheritance_from_organisational_structures/inheritance-1-en.png)
+![explanation of authorization](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/permissionconcept/automated_settings/inheritance_from_organisational_structures/inheritance-1-en.webp)
 
 ## Relevant user settings
 
@@ -25,7 +25,7 @@ organisational structures
 Inherit permissions for new objects (without rights template) This setting is relevant for newly
 created records.
 
-![setting inherit permission](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/permissionconcept/automated_settings/inheritance_from_organisational_structures/inheritance-2-en.png)
+![setting inherit permission](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/permissionconcept/automated_settings/inheritance_from_organisational_structures/inheritance-2-en.webp)
 
 The following values can be configured:
 
@@ -40,7 +40,7 @@ permissions for the user.
 
 Existing passwords inherit changes to the permissions for organisational units
 
-![setting inherit from OU to password](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/permissionconcept/automated_settings/inheritance_from_organisational_structures/inheritance-3-en.png)
+![setting inherit from OU to password](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/permissionconcept/automated_settings/inheritance_from_organisational_structures/inheritance-3-en.webp)
 
 This option means that changes to permissions for an organisational unit will be inherited by all
 passwords for this organisational unit. This setting is active by default. When inheriting
@@ -60,16 +60,16 @@ should be inherited by new objects in accordance with the organisational structu
 
 The permissions for the organisational unit “marketing” are shown below:
 
-![example of permissions](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/permissionconcept/automated_settings/inheritance_from_organisational_structures/inheritance-4-en.png)
+![example of permissions](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/permissionconcept/automated_settings/inheritance_from_organisational_structures/inheritance-4-en.webp)
 
 A new password is now created in the organisational unit “marketing”.
 
-![new password](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/permissionconcept/automated_settings/inheritance_from_organisational_structures/inheritance-5-en.png)
+![new password](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/permissionconcept/automated_settings/inheritance_from_organisational_structures/inheritance-5-en.webp)
 
 It is important that no preset is defined for this organisational unit. The permissions for the
 record just created are now shown.
 
-![permissions example](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/permissionconcept/automated_settings/inheritance_from_organisational_structures/inheritance-6-en.png)
+![permissions example](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/permissionconcept/automated_settings/inheritance_from_organisational_structures/inheritance-6-en.webp)
 
 ## Conclusion
 
@@ -81,4 +81,4 @@ There must be no
 [Predefining rights](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/predefining_rights.md)
 for the affected organisational structure This process is illustrated in the following diagram:
 
-![process for inheritance of permissions](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/permissionconcept/automated_settings/inheritance_from_organisational_structures/inheritance-7-en.png)
+![process for inheritance of permissions](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/permissionconcept/automated_settings/inheritance_from_organisational_structures/inheritance-7-en.webp)

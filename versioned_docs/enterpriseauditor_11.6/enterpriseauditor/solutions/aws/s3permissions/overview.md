@@ -3,7 +3,7 @@
 The 6.S3 Permissions job group provides details on permissions assigned to AWS S3 buckets,
 highlighting specific threats like broken inheritance and open buckets.
 
-![6.S3 Permissions Job Group in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/jobstree.png)
+![6.S3 Permissions Job Group in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/jobstree.webp)
 
 The 6.S3 Permissions job group is comprised of:
 

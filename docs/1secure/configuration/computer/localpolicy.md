@@ -1,3 +1,12 @@
+---
+id: configure-local-audit-policies
+title: "Configure Local Audit Policies"
+pagination_label: "Configure Local Audit Policies"
+sidebar_label: "Configure Local Audit Policies"
+sidebar_position: 135
+description: "Learn how to configure local audit policies using the Local Security Policy snap-in."
+---
+
 # Configure Local Audit Policies
 
 You can choose to configure local audit policies or advanced audit policies. See the

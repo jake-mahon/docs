@@ -4,7 +4,7 @@ The jobs in the 2. Activity Job Group provides insight into user login activity,
 changes, unusual database activity, SQL and Azure SQL activities against sensitive data, and SQL and
 Azure SQL activities against selected or all database objects.
 
-![2.Activity Job Group](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/sql/activity/sqljobgroup30.png)
+![2.Activity Job Group](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/sql/activity/sqljobgroup30.webp)
 
 The jobs in the 2.Activity Job Group are:
 

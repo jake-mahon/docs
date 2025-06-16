@@ -45,14 +45,14 @@ not included in the Permissions list.
 
 Follow the steps to protect policies.
 
-![Policy folder - Permissions page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/mailbox/permissions.png)
+![Policy folder - Permissions page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/mailbox/permissions.webp)
 
 **Step 1 –** Select a folder under the Policies node in the Navigation pane. The Policies interface
 is displayed.
 
 **Step 2 –** In the Permissions ribbon, click the **Add** (+) button.
 
-![Select User window](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/selectuser.png)
+![Select User window](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/selectuser.webp)
 
 **Step 3 –** On the Select User window, select the user to be granted permission on this folder and
 the policies within it.
@@ -83,14 +83,14 @@ Events tab and the Investigate interface.
 
 Follow the steps to protect objects.
 
-![Policy folder - Permissions page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/mailbox/permissions.png)
+![Policy folder - Permissions page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/mailbox/permissions.webp)
 
 **Step 6 –** Select a folder under the Policies node in the Navigation pane. The Policies interface
 is displayed.
 
 **Step 7 –** In the Protected Objects ribbon, click the **Add** (+) button.
 
-![Select Active Directory Contexts window](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/adcontexts.png)
+![Select Active Directory Contexts window](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/adcontexts.webp)
 
 **Step 8 –** On the Select Active Directory Contexts window, select an Agent from the drop-down menu
 and click **Connect**. Expand the domain tree in the Navigation pane. Select an item in the Results

@@ -2,7 +2,7 @@
 
 Use the Notification Type page to specify one or more notification types.
 
-![Notification Data Analysis Module wizard Notification Type page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/analysis/notification/type.png)
+![Notification Data Analysis Module wizard Notification Type page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/analysis/notification/type.webp)
 
 The following options are available:
 

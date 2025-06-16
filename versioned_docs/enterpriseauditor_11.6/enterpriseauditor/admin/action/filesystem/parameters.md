@@ -14,7 +14,7 @@ wizard. Click on an operation to view its associated Parameters page.
 - [Remove Tags](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/filesystem/parameters/removetags.md)
 - [Change Owner](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/filesystem/parameters/changeowner.md)
 
-![File System Action Module Wizard Change File Attributes Parameters page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/filesystem/changeattributes.png)
+![File System Action Module Wizard Change File Attributes Parameters page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/filesystem/changeattributes.webp)
 
 The Navigation pane will list this as the Parameters page, but the title for each version indicates
 the type of parameter to be configured.

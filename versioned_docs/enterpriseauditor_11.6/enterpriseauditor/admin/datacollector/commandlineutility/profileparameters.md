@@ -4,7 +4,7 @@ The Profile Parameters page provides settings to configure the parameters for th
 wizard page for the **Edit Profile** or **Create a New Profile** selections on the Profile Type
 page.
 
-![Command Line Utility Data Collector Wizard Profile Parameters page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/commandlineutility/profileparameters.png)
+![Command Line Utility Data Collector Wizard Profile Parameters page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/commandlineutility/profileparameters.webp)
 
 Profile parameters include:
 

@@ -11,8 +11,8 @@ The following table contains icons for resource types:
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------- |
 | ![File System icon](../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/filesystem.webp)                             | File System               |
 | ![Windows Server icon](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/properties/windows.webp)                        | Windows Server            |
-| ![Server icon](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/server.webp)                                                 | Server                    |
-| ![Policies icon](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/requirements/target/config/policies.webp)                                 | Policies                  |
+| ![Server icon](../../../../../../static/img/product_docs/accessanalyzer/admin/settings/server.webp)                                                 | Server                    |
+| ![Policies icon](../../../../../../static/img/product_docs/accessanalyzer/requirements/target/config/policies.webp)                                 | Policies                  |
 | ![Shares icon](../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/shares.webp)                         | Shares                    |
 | ![Share icon](../../../../../../static/img/product_docs/activitymonitor/config/activedirectory/share.webp)                                                            | Share                     |
 | ![Folder icon](../../../../../../static/img/product_docs/threatprevention/threatprevention/install/reportingmodule/folder.webp)                                       | Folder                    |
@@ -28,11 +28,11 @@ The following table contains icons for resource types:
 | ![Library icon](../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/library.webp)                       | Library                   |
 | ![List icon](../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/list.webp)                             | List                      |
 | ![Unknown custom node icon](../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/unknowncustom.webp)     | Unknown, custom node      |
-| ![Active Directory icon](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/hostdiscovery/wizard/activedirectory.webp)                  | Active Directory          |
+| ![Active Directory icon](../../../../../../static/img/product_docs/accessanalyzer/admin/hostdiscovery/wizard/activedirectory.webp)                  | Active Directory          |
 | ![Domain icon](../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/domain.webp)                         | Domain                    |
 | ![Box icon](../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/box.webp)                               | Box                       |
 | ![Google Drive icon](../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/googledrive.webp)              | Google Drive              |
-| ![Exchange icon](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/exchange.webp)                                             | Exchange                  |
+| ![Exchange icon](../../../../../../static/img/product_docs/accessanalyzer/admin/settings/exchange.webp)                                             | Exchange                  |
 | ![SQL Server/Azure SQL icon](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/outputs/sql.webp)                                        | SQL Server or Azure SQL   |
 | ![Microsoft Teams icon](../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/teams.webp)                 | Microsoft Teams           |
 | ![MongoDB icon](../../../../../../static/img/product_docs/changetracker/changetracker/install/mongodb.webp)                                                           | MongoDB                   |
@@ -41,10 +41,10 @@ The following table contains icons for resource types:
 | ![VMware icon](../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/vmware.webp)                         | VMware                    |
 | ![Hyper-V icon](../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/hyperv.webp)                        | Hyper-V                   |
 | ![Amazon icon](../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/amazon.webp)                         | Amazon                    |
-| ![Dropbox icon](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/connection/profile/dropbox.webp)                            | Dropbox                   |
+| ![Dropbox icon](../../../../../../static/img/product_docs/accessanalyzer/admin/settings/connection/profile/dropbox.webp)                            | Dropbox                   |
 | ![PostgreSQL icon](../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/postgresql.webp)                 | PostgreSQL                |
 | ![MySQL icon](../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/mysql.webp)                           | MySQL                     |
-| ![Oracle SQL icon](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/connection/profile/oracle.webp)                          | Oracle SQL                |
+| ![Oracle SQL icon](../../../../../../static/img/product_docs/accessanalyzer/admin/settings/connection/profile/oracle.webp)                          | Oracle SQL                |
 | ![GitHub icon](../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/github.webp)                         | GitHub                    |
 | ![Snowflake icon](../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/snowflake.webp)                   | Snowflake                 |
 | ![Administrative icon](../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/administrative.webp)         | Administrative            |
@@ -52,7 +52,7 @@ The following table contains icons for resource types:
 | ![Group icon](../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/groupresource.webp)                   | Group                     |
 | ![Server/Virtual Machine icon](../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/servervm.webp)       | Server or Virtual Machine |
 | ![Instance/Database icon](../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/instancedatabase.webp)    | Instance or Database      |
-| ![Table icon](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/report/wizard/table.webp)                                              | Table                     |
+| ![Table icon](../../../../../../static/img/product_docs/accessanalyzer/admin/report/wizard/table.webp)                                              | Table                     |
 | ![Function/Procedure icon](../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/functionprocedure.webp)  | Function or Procedure     |
 | ![View icon](../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/view.webp)                             | View                      |
 | ![Index icon](../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/index.webp)                           | Index                     |

@@ -6,7 +6,7 @@ When working in a SaaS environment, Usercube needs a specific architecture.
 
 NETWRIX recommends the following architecture:
 
-![SaaS Recommended Architecture](/img/versioned_docs/usercube_6.1/usercube/integration-guide/architecture/saas/architecture_saas.png)
+![SaaS Recommended Architecture](/img/versioned_docs/usercube_6.1/usercube/integration-guide/architecture/saas/architecture_saas.webp)
 
 ### Agent(s)
 

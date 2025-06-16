@@ -25,7 +25,7 @@ enables the creation of independently existing departments within a database. Th
 structure for the SAP form can be seen below. It shows that only the sales manager and the
 administrators are currently permitted to create new records of type SAP.
 
-![example permissions on a form](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/visibility/visibility-en.png)
+![example permissions on a form](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/visibility/visibility-en.webp)
 
 In general, each department can independently use forms, create passwords and manage hierarchies in
 this way. Especially in very sensitive areas of a company, this type of compartmentalization is

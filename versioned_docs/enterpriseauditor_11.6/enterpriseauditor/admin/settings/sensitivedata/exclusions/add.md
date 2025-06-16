@@ -2,11 +2,11 @@
 
 Follow the steps to add a False Positive Exclusion Filter.
 
-![Add Filter on False Positives tab](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/sensitivedata/exclusions/addfilter.png)
+![Add Filter on False Positives tab](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/sensitivedata/exclusions/addfilter.webp)
 
 **Step 1 –** Click **Add Filter** to open the Add False Positive Exclusion Filter window.
 
-![Add False Positive Exclusion Filter window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/sensitivedata/exclusions/addexclusionfilterwindow.png)
+![Add False Positive Exclusion Filter window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/sensitivedata/exclusions/addexclusionfilterwindow.webp)
 
 **Step 2 –** Enter the **File Path** according to the type of format for the repository.
 

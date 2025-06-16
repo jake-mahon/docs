@@ -7,12 +7,12 @@ option.
 it re-imports the host list. Therefore, deleting, renaming, or moving the import source file causes
 the query to fail.
 
-![Host Discovery Wizard Source page for CSV import](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostdiscovery/wizard/source.png)
+![Host Discovery Wizard Source page for CSV import](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostdiscovery/wizard/source.webp)
 
 **Step 1 –** Open the Host Discovery Wizard. On the Source page, select the **Import from a CSV
 file** option on the Source page. Click **Next**.
 
-![Host Discovery Wizard Query page for CSV import](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/nis/query.png)
+![Host Discovery Wizard Query page for CSV import](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/nis/query.webp)
 
 **Step 2 –** On the Query page, name the query and select the credentials used to access the source.
 
@@ -37,7 +37,7 @@ file** option on the Source page. Click **Next**.
 
 Click **Next** to continue.
 
-![Host Discovery Wizard CSV File Import page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostdiscovery/wizard/fileimport.png)
+![Host Discovery Wizard CSV File Import page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostdiscovery/wizard/fileimport.webp)
 
 **Step 3 –** On the CSV File Import page, identify the CSV file to import and the column from within
 the file where the host names are located:
@@ -52,7 +52,7 @@ the file where the host names are located:
 
 Click **Next** to continue.
 
-![Host Discovery Wizard Options page for CSV import](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/options.png)
+![Host Discovery Wizard Options page for CSV import](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/options.webp)
 
 **Step 4 –** On the Options page, configure the query options as required.
 
@@ -73,7 +73,7 @@ Click **Next** to continue.
 
 Click **Next** to continue.
 
-![Host Discovery Wizard Inventory page for CSV import](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostdiscovery/wizard/inventory.png)
+![Host Discovery Wizard Inventory page for CSV import](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostdiscovery/wizard/inventory.webp)
 
 **Step 5 –** On the Inventory page, the host inventory process can be automatically included with
 the discovery query.
@@ -98,13 +98,13 @@ the discovery query.
 
 Click **Next** to continue.
 
-![Host Discovery Wizard Summary page for CSV import](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/adinventory/summary.png)
+![Host Discovery Wizard Summary page for CSV import](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/adinventory/summary.webp)
 
 **Step 6 –** The Summary page displays all the selected query configuration settings. To make
 changes, click **Back** to navigate to the relevant wizard page. Click Finish to complete the
 configuration process.
 
-![Confirm dialog box](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostdiscovery/wizard/wizardconfirmdialog.png)
+![Confirm dialog box](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostdiscovery/wizard/wizardconfirmdialog.webp)
 
 **Step 7 –** A Confirm dialog box opens. Click **Yes** to run the query now or **No** to run the
 query at another time.

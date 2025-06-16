@@ -10,7 +10,7 @@ Auditor. The two parts of the Top Navigation section are:
 
 Users can access various Enterprise Auditor functions and actions in the Menu Bar.
 
-![Menu Bar on Console](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/navigate/menubar.png)
+![Menu Bar on Console](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/navigate/menubar.webp)
 
 The Menu Bar options are:
 
@@ -133,21 +133,21 @@ The Menu Bar options are:
 
 The Button bar provides quick links to various actions and functions in Enterprise Auditor.
 
-![Button Bar](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/buttonbar.png)
+![Button Bar](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/buttonbar.webp)
 
 The options in the Button Bar are:
 
 | Icon                                                                                                                  | Icon Description            | Name                                                |
 | --------------------------------------------------------------------------------------------------------------------- | --------------------------- | --------------------------------------------------- |
-| ![selectinstantjob](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/navigate/selectinstantjob.png) | Paper with plus sign        | Select an Instant Job                               |
-| ![newjob](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/navigate/newjob.png)                     | Paper with pencil           | Create a new job (Ctrl + Alt + A)                   |
-| ![newgroup](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/navigate/newgroup.png)                 | Folder with plus sign       | Create a new group                                  |
-| ![newquery](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/navigate/newquery.png)                 | Puzzle piece with plus sign | Create a new query and add it to the selected table |
-| ![addreport](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/navigate/addreport.png)               | Graph with plus sign        | Add a report                                        |
-| ![addquery](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/navigate/addquery.png)                 | Book with plus sign         | Add a query from a library                          |
-| ![cut](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/navigate/cut.png)                           | Scissors                    | Cut the selected query to the clipboard (Ctrl + X)  |
-| ![copy](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/navigate/copy.png)                         | Duplicate papers            | Copy the selected query to the clipboard (Ctrl + C) |
-| ![paste](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/navigate/paste.png)                       | Clipboard with paper        | Paste the query from the clipboard (Ctrl + V)       |
-| ![delete](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/query/delete.png)                      | Red X                       | Delete the selected query                           |
+| ![selectinstantjob](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/navigate/selectinstantjob.webp) | Paper with plus sign        | Select an Instant Job                               |
+| ![newjob](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/navigate/newjob.webp)                     | Paper with pencil           | Create a new job (Ctrl + Alt + A)                   |
+| ![newgroup](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/navigate/newgroup.webp)                 | Folder with plus sign       | Create a new group                                  |
+| ![newquery](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/navigate/newquery.webp)                 | Puzzle piece with plus sign | Create a new query and add it to the selected table |
+| ![addreport](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/navigate/addreport.webp)               | Graph with plus sign        | Add a report                                        |
+| ![addquery](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/navigate/addquery.webp)                 | Book with plus sign         | Add a query from a library                          |
+| ![cut](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/navigate/cut.webp)                           | Scissors                    | Cut the selected query to the clipboard (Ctrl + X)  |
+| ![copy](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/navigate/copy.webp)                         | Duplicate papers            | Copy the selected query to the clipboard (Ctrl + C) |
+| ![paste](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/navigate/paste.webp)                       | Clipboard with paper        | Paste the query from the clipboard (Ctrl + V)       |
+| ![delete](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/query/delete.webp)                      | Red X                       | Delete the selected query                           |
 
 Select a button for the desired action.

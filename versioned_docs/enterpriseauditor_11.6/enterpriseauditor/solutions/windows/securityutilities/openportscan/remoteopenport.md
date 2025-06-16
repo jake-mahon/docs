@@ -9,7 +9,7 @@ The RemoteOpenPort job uses the Script Data Collector for the following query:
 
 **CAUTION:** The query is preconfigured for this job. Never modify the query.
 
-![Queries for the RemoteOpenPort Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/windows/securityutilities/openportscan/remoteopenportquery.png)
+![Queries for the RemoteOpenPort Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/windows/securityutilities/openportscan/remoteopenportquery.webp)
 
 The query for the RemoteOpenPort job is:
 
@@ -24,7 +24,7 @@ Navigate to the **Windows** > **Security Utilities** > **OpenPortScan** > **Remo
 **CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
 preconfigured for this job.
 
-![Analysis Tasks for the RemoteOpenPort Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/windows/securityutilities/openportscan/remoteopenportanalysis.png)
+![Analysis Tasks for the RemoteOpenPort Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/windows/securityutilities/openportscan/remoteopenportanalysis.webp)
 
 The default analysis task is:
 

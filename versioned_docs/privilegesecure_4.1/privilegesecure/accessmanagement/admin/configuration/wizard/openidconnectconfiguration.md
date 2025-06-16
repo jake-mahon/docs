@@ -5,7 +5,7 @@ Configuration >
 [Authentication Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/page/authentication.md)
 for an OpenID Connect Authentication Connector Type.
 
-![configureclient](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/wizard/configureclient.png)
+![configureclient](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/wizard/configureclient.webp)
 
 It contains three pages:
 
@@ -56,7 +56,7 @@ page in the browser. Do not sign in.
 
 **Step 6 –** If the Sign In page displayed as expected, click Next.
 
-![OpenID Connection wizard, Test Login page](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/wizard/chapter_4_configuration_interface_5.png)
+![OpenID Connection wizard, Test Login page](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/wizard/chapter_4_configuration_interface_5.webp)
 
 **Step 7 –** On the Test Login page, click Login. The Sign In page opens in the browser.
 
@@ -67,7 +67,7 @@ to the UserTokenController so that the user information can be extracted. Click 
 
 **Step 10 –** On the Configure ID Mapping page, click **Get User Data**.
 
-![chapter_4_configuration_interface_6](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/wizard/chapter_4_configuration_interface_6.png)
+![chapter_4_configuration_interface_6](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/wizard/chapter_4_configuration_interface_6.webp)
 
 SpPAM will use the access token to retrieve user data from the OpenId Connect provider. The OpenID
 Connect provider requires a User Id Field for sign in. It is necessary to specify which field in
@@ -111,7 +111,7 @@ from the provider and will vary:
 
 **Step 11 –** Select a field to use for the User Id Field and click Select.
 
-![chapter_4_configuration_interface_7](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/wizard/chapter_4_configuration_interface_7.png)
+![chapter_4_configuration_interface_7](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/wizard/chapter_4_configuration_interface_7.webp)
 
 **Step 12 –** The selected Source and User ID fields from the previous table are shown. Now map the
 applicable AD field to the User Id Field. This is the value that will be used to sign in to the MFA
@@ -120,7 +120,7 @@ Field.
 
 **Step 13 –** Click Finish. A window will display the updated configuration settings.
 
-![chapter_4_configuration_interface_8](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/wizard/chapter_4_configuration_interface_8.png)
+![chapter_4_configuration_interface_8](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/wizard/chapter_4_configuration_interface_8.webp)
 
 **Step 14 –** Click Okay to close the wizard and click **Save** on the Authentication page to accept
 the changes.

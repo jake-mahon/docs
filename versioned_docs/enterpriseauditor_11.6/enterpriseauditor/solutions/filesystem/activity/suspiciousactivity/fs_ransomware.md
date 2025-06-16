@@ -13,7 +13,7 @@ Activity** > **FS_Ransomware** > **Configure** node and select **Analysis**.
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for the FS_Ransomeware Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/activity/suspiciousactivity/ransomewareanalysis.png)
+![Analysis Tasks for the FS_Ransomeware Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/activity/suspiciousactivity/ransomewareanalysis.webp)
 
 The following analysis tasks are selected by default:
 

@@ -22,7 +22,7 @@ Maintenance window is displayed.
 
 This window is only available to Threat Prevention administrators.
 
-![Threat Prevention WinConsole Warning window](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/databasemaintenance/warning.png)
+![Threat Prevention WinConsole Warning window](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/databasemaintenance/warning.webp)
 
 The database maintenance feature is only available if the SQL Server Agent service is running on the
 SQL Server host. A warning message displays instead of the Database Maintenance window if this
@@ -33,7 +33,7 @@ the SQL Server Agent (MSSQLSERVER).
 
 When the SQL Server Agent service is running, the Database Maintenance window opens.
 
-![Database Maintenance window](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/databasemaintenance/databasemaintenance.png)
+![Database Maintenance window](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/databasemaintenance/databasemaintenance.webp)
 
 The following information is displayed at the top of the window:
 
@@ -82,7 +82,7 @@ transaction log may get quite large during delete tasks.
 
 The Event Type tab is displayed by default when the Database Maintenance window opens.
 
-![Database Maintenance window - Event Type tab](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/databasemaintenance/eventtype.png)
+![Database Maintenance window - Event Type tab](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/databasemaintenance/eventtype.webp)
 
 Check the **Enabled** box at the top to set database maintenance by event type. The table contains
 the following information:
@@ -111,7 +111,7 @@ the following information:
 
 Click the **Analytics** tab on the Database Maintenance window.
 
-![Database Maintenance window - Analytics tab](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/databasemaintenance/analytics.png)
+![Database Maintenance window - Analytics tab](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/databasemaintenance/analytics.webp)
 
 Check the **Enabled** box at the top to set database maintenance by analytic. The table contains the
 following information:
@@ -136,7 +136,7 @@ Above the table is a cumulative count of:
 
 Click the **Policy** tab on the Database Maintenance window.
 
-![Database Maintenance window - Policy tab](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/databasemaintenance/policy.png)
+![Database Maintenance window - Policy tab](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/databasemaintenance/policy.webp)
 
 Check the **Enabled** box at the top to set database maintenance by policy. The table contains the
 following information:

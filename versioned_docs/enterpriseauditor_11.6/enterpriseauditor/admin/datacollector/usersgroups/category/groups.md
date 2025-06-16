@@ -2,7 +2,7 @@
 
 The Groups Query category collects information for groups in different contexts.
 
-![Users and Groups Browser wizard Results page for Groups category](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/usersgroups/category/groups.png)
+![Users and Groups Browser wizard Results page for Groups category](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/usersgroups/category/groups.webp)
 
 In the Groups section, select from the following options:
 
@@ -32,7 +32,7 @@ offline.
 Clicking the ellipses for the **All groups containing the following users** and the **These groups**
 options opens the Find a Group or Find a User browser.
 
-![Find a group window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/usersgroups/category/findagroup.png)
+![Find a group window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/usersgroups/category/findagroup.webp)
 
 The Find a Group and Find a User browsers display a list of groups or users, depending on which one
 is being used, that can be selected for the option. Select from a specific host using the Sample

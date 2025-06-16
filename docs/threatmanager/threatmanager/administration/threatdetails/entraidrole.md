@@ -3,7 +3,7 @@
 The Role Details page provides information about a role including its description and role
 membership.
 
-![Roles Page](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/requirements/target/config/roles.webp)
+![Roles Page](../../../../../static/img/product_docs/accessanalyzer/requirements/target/config/roles.webp)
 
 The top of the page displays a profile card which may contain the following information about the
 role:

@@ -33,7 +33,7 @@ following wizard pages:
 - [WMICollector: Properties](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/wmicollector/properties.md)
 - [WMICollector: Summary (Results)](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/wmicollector/summary.md)
 
-![WMI Browser wizard Welcome page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/welcome.png)
+![WMI Browser wizard Welcome page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/welcome.webp)
 
 The Welcome page can be hidden by selecting the **Do not display this page the next time** checkbox
 when the wizard is open and configuration settings are saved.

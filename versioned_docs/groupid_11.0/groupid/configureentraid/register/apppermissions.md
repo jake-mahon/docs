@@ -13,24 +13,24 @@ topic for additional information on GroupID licensing.
 
 The following application permissions are required.
 
-![Microsoft Entra ID Application Permissions - Channel](/img/versioned_docs/groupid_11.0/groupid/configureentraid/register/channel.png)
+![Microsoft Entra ID Application Permissions - Channel](/img/versioned_docs/groupid_11.0/groupid/configureentraid/register/channel.webp)
 
-![Microsoft Entra ID Application Permissions - Directory](/img/versioned_docs/groupid_11.0/groupid/configureentraid/register/directory.png)
+![Microsoft Entra ID Application Permissions - Directory](/img/versioned_docs/groupid_11.0/groupid/configureentraid/register/directory.webp)
 
-![Microsoft Entra ID Application Permissions - Group](/img/versioned_docs/groupid_11.0/groupid/configureentraid/register/group.png)
+![Microsoft Entra ID Application Permissions - Group](/img/versioned_docs/groupid_11.0/groupid/configureentraid/register/group.webp)
 
-![Microsoft Entra ID Application Permissions - Mail](/img/versioned_docs/groupid_11.0/groupid/configureentraid/register/mail.png)
+![Microsoft Entra ID Application Permissions - Mail](/img/versioned_docs/groupid_11.0/groupid/configureentraid/register/mail.webp)
 
-![Microsoft Entra ID Application Permissions - Mail](/img/versioned_docs/groupid_11.0/groupid/configureentraid/register/role.png)
+![Microsoft Entra ID Application Permissions - Mail](/img/versioned_docs/groupid_11.0/groupid/configureentraid/register/role.webp)
 
-![Microsoft Entra ID Application Permissions - User](/img/versioned_docs/groupid_11.0/groupid/configureentraid/register/user.png)
+![Microsoft Entra ID Application Permissions - User](/img/versioned_docs/groupid_11.0/groupid/configureentraid/register/user.webp)
 
-![Microsoft Entra ID Application Permissions - User Password and Phone](/img/versioned_docs/groupid_11.0/groupid/configureentraid/register/user-pw-phone.png)
+![Microsoft Entra ID Application Permissions - User Password and Phone](/img/versioned_docs/groupid_11.0/groupid/configureentraid/register/user-pw-phone.webp)
 
 ## Office 365 Exchange Online Permissions
 
-![Microsoft Entra ID Office 365 Exchange Online Permissions - ExchangeManageAsApp](/img/versioned_docs/groupid_11.0/groupid/configureentraid/register/exchange.png)
+![Microsoft Entra ID Office 365 Exchange Online Permissions - ExchangeManageAsApp](/img/versioned_docs/groupid_11.0/groupid/configureentraid/register/exchange.webp)
 
 ## SharePoint Delegated Permissions
 
-![allsites](/img/versioned_docs/groupid_11.0/groupid/configureentraid/register/allsites.png)
+![allsites](/img/versioned_docs/groupid_11.0/groupid/configureentraid/register/allsites.webp)

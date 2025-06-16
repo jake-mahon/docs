@@ -3,7 +3,7 @@
 The Command Line properties page is available when the Command-line Executable notification type is
 selected on the Type page.
 
-![Notification Data Analysis Module wizard Command Line properties page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/analysis/notification/commandline.png)
+![Notification Data Analysis Module wizard Command Line properties page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/analysis/notification/commandline.webp)
 
 The following options are available:
 

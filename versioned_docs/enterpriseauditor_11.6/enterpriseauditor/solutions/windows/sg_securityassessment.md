@@ -5,7 +5,7 @@ proactively identify critical security configurations that leave the environment
 attack. The result is a report which provides a listing of findings by severity and category with
 corresponding details that can be used to prioritize and remediate security issues.
 
-![SG_SecurityAssessment Job in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/securityassessmentjobstree.png)
+![SG_SecurityAssessment Job in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/securityassessmentjobstree.webp)
 
 ## Recommended Configurations for the SG_SecurityAssessment Job
 
@@ -60,7 +60,7 @@ to view the analysis tasks.
 **CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
 preconfigured for this job.
 
-![Analysis Tasks for the SG_SecurityAssessment Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/securityassessmentanalysis.png)
+![Analysis Tasks for the SG_SecurityAssessment Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/securityassessmentanalysis.webp)
 
 The default analysis task is:
 

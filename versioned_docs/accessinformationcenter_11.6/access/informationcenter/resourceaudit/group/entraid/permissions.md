@@ -7,7 +7,7 @@ permissions unless modified by the Access Information Center user. See the
 [Results Pane](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/navigate/overview.md#results-pane)
 topic for information on filter options.
 
-![Permissions report](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/group/entraid/permissionsentraid.png)
+![Permissions report](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/group/entraid/permissionsentraid.webp)
 
 This report is comprised of the following columns:
 

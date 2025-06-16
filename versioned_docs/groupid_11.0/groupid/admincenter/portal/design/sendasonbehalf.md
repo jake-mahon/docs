@@ -232,7 +232,7 @@ Launch the portal and go to the properties of the target object (group or mailbo
 Send on Behalf field for, then click the respective tab. The Send on Behalf field is displayed as
 follows:
 
-![sendonbehalf](/img/versioned_docs/groupid_11.0/groupid/admincenter/portal/design/sendonbehalf.png)
+![sendonbehalf](/img/versioned_docs/groupid_11.0/groupid/admincenter/portal/design/sendonbehalf.webp)
 
 Use the **Add** and **Remove** buttons to add and remove objects in the Send on Behalf list. The
 added objects can send email on behalf of the target object in accordance with the Send on Behalf

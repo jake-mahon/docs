@@ -11,7 +11,7 @@ and select **Analysis** to view the analysis tasks.
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for the AWS_Accounts Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/db2/permissions/effectivepermissionsanalysis.png)
+![Analysis Tasks for the AWS_Accounts Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/db2/permissions/effectivepermissionsanalysis.webp)
 
 The following analysis tasks are selected by default:
 

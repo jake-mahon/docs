@@ -11,7 +11,7 @@ select **Analysis** to view the analysis tasks.
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for the AWS_BrokenInheritance Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/brokeninheritanceanalysis.png)
+![Analysis Tasks for the AWS_BrokenInheritance Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/brokeninheritanceanalysis.webp)
 
 The following analysis tasks are selected by default:
 

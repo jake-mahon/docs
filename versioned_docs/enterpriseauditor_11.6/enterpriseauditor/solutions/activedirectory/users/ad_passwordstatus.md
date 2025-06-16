@@ -11,7 +11,7 @@ select **Analysis** to view the analysis tasks.
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigure for this job.
 
-![Analysis Tasks for the AD_PasswordStatus Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/users/passwordstatusanalysis.png)
+![Analysis Tasks for the AD_PasswordStatus Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/users/passwordstatusanalysis.webp)
 
 The default analysis tasks are:
 

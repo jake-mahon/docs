@@ -16,9 +16,9 @@ allowing selection of all Policy Templates to include in the report. Often an au
 details of configuration attributes being tracked and this report provides a convenient way to
 extract these on a scheduled basis.
 
-![ReportTemplateQuerySettings](/img/versioned_docs/changetracker_8.0/changetracker/admin/tabs/reporttemplatequerysettings.png)
+![ReportTemplateQuerySettings](/img/versioned_docs/changetracker_8.0/changetracker/admin/tabs/reporttemplatequerysettings.webp)
 
 **NOTE:** The **Table of Contents** treatment for the output. Links to sections are only supported
 in the exported PDF, not the Web Browser-rendered report.
 
-![ReportTemplateTOC](/img/versioned_docs/changetracker_8.0/changetracker/admin/tabs/reporttemplatetoc.png)
+![ReportTemplateTOC](/img/versioned_docs/changetracker_8.0/changetracker/admin/tabs/reporttemplatetoc.webp)

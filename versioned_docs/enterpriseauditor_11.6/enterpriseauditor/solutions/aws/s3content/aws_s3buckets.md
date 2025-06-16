@@ -10,7 +10,7 @@ Navigate to the **AWS** > **7.S3 Content** > **AWS_S3Buckets** > **Configure** n
 **CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
 preconfigured for this job.
 
-![Analysis Task for the AWS_S3Buckets Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/aws/s3content/s3bucketsanalysis.png)
+![Analysis Task for the AWS_S3Buckets Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/aws/s3content/s3bucketsanalysis.webp)
 
 The following analysis task is selected by default:
 

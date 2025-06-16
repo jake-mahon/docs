@@ -11,7 +11,7 @@ View the analysis tasks by navigating to the **Box** > **1.Activity** > **Suspic
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for the Box_FirstTimeFolderAccess Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/box/activity/suspiciousactivity/firsttimefolderaccessanalysis.png)
+![Analysis Tasks for the Box_FirstTimeFolderAccess Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/box/activity/suspiciousactivity/firsttimefolderaccessanalysis.webp)
 
 The following analysis tasks are selected by default:
 

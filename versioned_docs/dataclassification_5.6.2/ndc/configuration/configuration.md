@@ -3,7 +3,7 @@
 The Config administration area allows you to specify global system configuration settings. The
 default screen shows the most commonly amended settings.
 
-![core_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/configuration/core_thumb_0_0.png)
+![core_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/configuration/core_thumb_0_0.webp)
 
 The most frequently used settings are displayed by default. Some configuration options are hidden
 and can be shown by selecting the Advanced Settings ("wrench" icon). Note that they will be only

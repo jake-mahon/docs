@@ -3,17 +3,17 @@
 Once the Enterprise Auditor installation process is complete, and before performing actions within
 Enterprise Auditor, the initial settings for the Enterprise Auditor Console must be configured.
 
-![Newrix Access Governance shortcut](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/shortcut.png)
+![Newrix Access Governance shortcut](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/shortcut.webp)
 
 **Step 1 –** Launch the Enterprise Auditor application. The installation wizard places the
 Enterprise Auditor icon on the desktop.
 
-![Configuration Wizard Welcome page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/welcome.png)
+![Configuration Wizard Welcome page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/welcome.webp)
 
 **Step 2 –** On the Welcome page of the Enterprise Auditor Configuration Wizard, click **Next** to
 continue.
 
-![Configuration Wizard Version Selection page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/versionselection.png)
+![Configuration Wizard Version Selection page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/versionselection.webp)
 
 **Step 3 –** On the Version Selection page, select the **I have no previous versions to migrate data
 from** and click **Next** to continue.
@@ -23,7 +23,7 @@ StealthAUDIT root folder path to copy from**. See the
 [Enterprise Auditor Console Upgrade](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/upgrade/overview.md)
 topic for additional information.
 
-![SQL Server Settings page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/sqlserver.png)
+![SQL Server Settings page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/sqlserver.webp)
 
 **Step 4 –** Configure the options on the SQL Server Settings page.
 
@@ -66,7 +66,7 @@ topic for additional information on creating a SQL Server database for Enterpris
 - If Windows Server authentication is used, the **Schedule Account** page is enabled for
   configuration. Continue to Step 6.
 
-![Schedule Account Configuration page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/scheduleaccount.png)
+![Schedule Account Configuration page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/scheduleaccount.webp)
 
 **Step 6 –** (Windows Authentication Only) Configure the schedule service account on the Scheduling
 page. The account configured here must be an Active Directory account and must have rights to the
@@ -85,7 +85,7 @@ There are two options that can be selected:
     - Password – The password for the service account
     - Confirm – Re-enter the password for the service account
 
-![Configuration wizard Options page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/options.png)
+![Configuration wizard Options page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/options.webp)
 
 **Step 7 –** On the Options page, select whether to send usage statistics to Netwrix to help us
 improve our product. After the Usage Statistics option is set as desired, click **Next** to
@@ -104,7 +104,7 @@ continue.
 
 - If cleared, no usage statistics are collected or sent to Netwrix
 
-![Progress page when upgrade process has completed](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/sensitivedatadiscovery/completed.png)
+![Progress page when upgrade process has completed](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/sensitivedatadiscovery/completed.webp)
 
 **Step 8 –** After the Enterprise Auditor Configuration Wizard finishes configuring your
 installation, click **Finish** to open the Enterprise Auditor Console.
@@ -115,7 +115,7 @@ the log after exiting the wizard, it is located in the installation directory at
 [Troubleshooting](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/maintenance/troubleshooting.md)
 topic for more information about logs.
 
-![Netwrix Acces Governance Settings Node](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/settingsnode.png)
+![Netwrix Acces Governance Settings Node](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/settingsnode.webp)
 
 The Enterprise Auditor Console is now ready for custom configuration and use. There are a few
 additional steps to complete in order to begin collecting data, such as configuring a Connection

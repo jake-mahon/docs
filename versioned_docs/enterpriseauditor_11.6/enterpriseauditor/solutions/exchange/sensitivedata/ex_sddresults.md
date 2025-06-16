@@ -11,7 +11,7 @@ View the analysis tasks by navigating to the **Exchange** > **7. Sensitive Data*
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for the EX_SDDResults Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/sensitivedata/sddresultsanalysis.png)
+![Analysis Tasks for the EX_SDDResults Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/sensitivedata/sddresultsanalysis.webp)
 
 The following analysis tasks are selected by default:
 

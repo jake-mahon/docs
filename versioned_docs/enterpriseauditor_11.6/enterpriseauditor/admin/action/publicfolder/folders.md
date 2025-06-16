@@ -2,7 +2,7 @@
 
 The Folders page identifies which public folders are targeted by this action.
 
-![Public Folder Action Module Wizard Folders page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/publicfolder/folders.png)
+![Public Folder Action Module Wizard Folders page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/publicfolder/folders.webp)
 
 The options on this page are:
 

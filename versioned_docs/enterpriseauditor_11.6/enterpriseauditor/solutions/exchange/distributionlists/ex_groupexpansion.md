@@ -2,7 +2,7 @@
 
 The EX_GroupExpansion job expands the direct membership of distribution groups in the environment.
 
-![Effective Membership > EX_GroupExpansion Job in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/distributionlists/effectivemembershipjobstree.png)
+![Effective Membership > EX_GroupExpansion Job in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/distributionlists/effectivemembershipjobstree.webp)
 
 The EX_GroupExpansion job is located in the Effective Membership job group.
 
@@ -14,7 +14,7 @@ Membership** > **EX_GroupExpansion** > **Configure** node and select **Analysis*
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for the EX_GroupExpansion Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/distributionlists/groupexpansionanalysis.png)
+![Analysis Tasks for the EX_GroupExpansion Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/distributionlists/groupexpansionanalysis.webp)
 
 The following analysis tasks are selected by default:
 

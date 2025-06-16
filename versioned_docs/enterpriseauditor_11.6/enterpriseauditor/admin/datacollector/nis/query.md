@@ -5,7 +5,7 @@ wizard page for the category of:
 
 - Custom NIS Scan
 
-![NIS Data Collector Wizard NIS Query page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/nis/query.png)
+![NIS Data Collector Wizard NIS Query page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/nis/query.webp)
 
 The Data Source configuration options are:
 

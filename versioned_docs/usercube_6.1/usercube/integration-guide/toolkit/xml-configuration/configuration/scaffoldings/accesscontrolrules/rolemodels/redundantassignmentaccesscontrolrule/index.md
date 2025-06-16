@@ -5,7 +5,7 @@ redundant assignments.
 
 Gives access to a shortcut on the dashboard to access this page.
 
-![Redundant Assignments](/img/versioned_docs/usercube_6.1/usercube/user-guide/optimize/assignment-automation/remove-redundant-assignments/home_redundantassignments_v602.png)
+![Redundant Assignments](/img/versioned_docs/usercube_6.1/usercube/user-guide/optimize/assignment-automation/remove-redundant-assignments/home_redundantassignments_v602.webp)
 
 ## Examples
 

@@ -11,7 +11,7 @@ View the analysis tasks by navigating to the **FileSystem** > **4.Content** > **
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for the FS_FileTags Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/content/tags/filetagsanalysis.png)
+![Analysis Tasks for the FS_FileTags Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/content/tags/filetagsanalysis.webp)
 
 The following analysis task is selected by default:
 

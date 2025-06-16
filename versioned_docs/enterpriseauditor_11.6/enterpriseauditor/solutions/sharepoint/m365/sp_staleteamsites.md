@@ -23,7 +23,7 @@ for additional information.
 Navigate to the **Jobs** > **SharePoint** > **8.M365** > **SP_StaleTeamSites** >**Configure** node
 and select **Analysis** to view the analysis tasks.
 
-![Analysis Tasks for the SP_StaleTeamSites Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/sharepoint/m365/staleteamsitesanalysis.png)
+![Analysis Tasks for the SP_StaleTeamSites Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/sharepoint/m365/staleteamsitesanalysis.webp)
 
 The default analysis task is:
 

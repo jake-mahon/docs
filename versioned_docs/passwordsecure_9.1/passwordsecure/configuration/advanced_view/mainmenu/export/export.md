@@ -18,7 +18,7 @@ The export function is accessed via the Main menu/Export. There are two fundamen
 – the WebViewer export and the export wizard. However, the latter is divided into four
 subcategories.
 
-![installation_with_parameters_63](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/mainmenu/export/installation_with_parameters_63.png)
+![installation_with_parameters_63](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/mainmenu/export/installation_with_parameters_63.webp)
 
 The
 [HTML WebViewer export](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/mainmenu/export/html_webviewer-export/html_webviewer_export.md)
@@ -34,7 +34,7 @@ rights
 - **The permissions for the record:** The permissions for the record define whether a record can be
   exported
 
-![Export in the ribbon](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/mainmenu/export/installation_with_parameters_64-en.png)
+![Export in the ribbon](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/mainmenu/export/installation_with_parameters_64-en.webp)
 
 In this example, the marked role IT employee does not have the required permissions to export the
 record. In contrast, the IT manager does have the required permissions. In addition, the

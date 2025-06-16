@@ -14,7 +14,7 @@ move it to the new folder.
 
 The example custom report results apply to AD or Group Policy modifications by administrator.
 
-![customreport](/img/versioned_docs/auditor_10.6/auditor/admin/reports/types/customreport.png)
+![customreport](/img/versioned_docs/auditor_10.6/auditor/admin/reports/types/customreport.webp)
 
 Review the following for additional information:
 

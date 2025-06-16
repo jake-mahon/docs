@@ -6,7 +6,7 @@ wizard page for the Sensitive Data Collection category.
 It is necessary to populate the available Mongo databases/instances before the query can be scoped.
 See the [Manage Connections Window](#manage-connections-window) topic for additional information.
 
-![NoSQL Data Collector Wizard Filter page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/ewsmailbox/filter.png)
+![NoSQL Data Collector Wizard Filter page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/ewsmailbox/filter.webp)
 
 The Filter page has the following buttons:
 
@@ -47,7 +47,7 @@ The configurable filter options are:
 The Manage Connections window enables users to add MongoDB database instances to search for
 sensitive data. Click **Connections** to open the window.
 
-![Manage Connections window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/nosql/manageconnections.png)
+![Manage Connections window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/nosql/manageconnections.webp)
 
 The Manage Connections table lists the previously added database instances and their attributes.
 
@@ -88,7 +88,7 @@ The Manage Connections window has the following buttons:
 
 The Build / Edit Pattern window enables users to apply a custom scoping filter to the query.
 
-![Edit Existing Pattern window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/nosql/editpattern.png)
+![Edit Existing Pattern window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/nosql/editpattern.webp)
 
 The Build / Edit Pattern window has the following features:
 

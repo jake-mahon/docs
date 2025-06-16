@@ -2,7 +2,7 @@
 
 The Sizing job group is designed to report on file sizing information from targeted file servers.
 
-![Sizing Job Group in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/content/sizing/sizingjobstree.png)
+![Sizing Job Group in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/content/sizing/sizingjobstree.webp)
 
 The Sizing job group is comprised of:
 

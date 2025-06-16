@@ -2,7 +2,7 @@
 
 The Performance tab provides options that can be used to improve job performance and runtime.
 
-![Performance tab of Job Properties](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/properties/performance.png)
+![Performance tab of Job Properties](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/properties/performance.webp)
 
 Adjust the following settings by sliding the needle up and down the line:
 

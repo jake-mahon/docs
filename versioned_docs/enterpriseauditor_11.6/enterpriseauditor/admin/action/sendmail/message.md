@@ -2,7 +2,7 @@
 
 Use the Message page to specify the text of the email.
 
-![Send Mail Action Module Wizard Message page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/sendmail/message.png)
+![Send Mail Action Module Wizard Message page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/sendmail/message.webp)
 
 Use the following fields to specify the text of the email:
 
@@ -73,7 +73,7 @@ The Messaging Team
 The Messages Preview window displays a preview of the email, including any dynamic fields. This
 window displays after clicking the **Preview** button.
 
-![Messages preview window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/survey/messagespreview.png)
+![Messages preview window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/survey/messagespreview.webp)
 
 - Blue arrow buttons – Click to view other recipients
 - Send – Sends a single message to the addresses in the Recipients field

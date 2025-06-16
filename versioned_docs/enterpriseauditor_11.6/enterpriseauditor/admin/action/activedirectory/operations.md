@@ -3,7 +3,7 @@
 Use Operations page to select one or more operations for the action to perform on the targeted
 Active Directory objects. Some operations have wizard pages to specify the configuration settings.
 
-![Active Directory Action Module Wizard Operations page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/operations.png)
+![Active Directory Action Module Wizard Operations page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/operations.webp)
 
 The Operations drop-down menu contains the following operations:
 

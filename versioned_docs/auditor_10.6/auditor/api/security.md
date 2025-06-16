@@ -8,7 +8,7 @@ The automatically generated Netwrix API certificate is located in the Personal s
 trust on remote computers, install this certificate in the Trusted Root Certification Authorities
 store.
 
-![certificatestore](/img/versioned_docs/auditor_10.6/auditor/api/certificatestore.png)
+![certificatestore](/img/versioned_docs/auditor_10.6/auditor/api/certificatestore.webp)
 
 To manage API security settings with APIAdminTool.exe
 

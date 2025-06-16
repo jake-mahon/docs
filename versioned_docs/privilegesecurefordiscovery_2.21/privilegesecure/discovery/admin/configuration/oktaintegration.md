@@ -22,17 +22,17 @@ If distinguishedName attribute is already configured for Okta users, skip this s
 
     - Click on Okta > User (default)
 
-![mceclip2.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip2.png)
+![mceclip2.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip2.webp)
 
 Click on +Add Attribute on the Profile Editor
 
-![mceclip3.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip3.png)
+![mceclip3.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip3.webp)
 
 Click on +Add Attribute on the Profile Editor.
 
 Example settings, adjust as required for environment:
 
-![mceclip4.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip4.png)
+![mceclip4.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip4.webp)
 
 ## Okta: Active Directory (AD) Mappings
 
@@ -40,15 +40,15 @@ Directory > Profile Editor
 
 On the desired domain, click Mappings
 
-![mceclip1.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip1.png)
+![mceclip1.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip1.webp)
 
 Under ‘`<domain>` to Okta User’ scroll down and set “appuser.dn” for “dn”
 
-![mceclip5.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip5.png)
+![mceclip5.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip5.webp)
 
 (removed section to compact this image for display)
 
-![mceclip6.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip6.png)
+![mceclip6.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip6.webp)
 
 Save and apply mappings.
 
@@ -56,54 +56,54 @@ Save and apply mappings.
 
 Navigate to directory to import .
 
-- ![mceclip7.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip7.png)
+- ![mceclip7.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip7.webp)
 
 Click the Import Now button.
 
-![mceclip8.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip8.png)
+![mceclip8.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip8.webp)
 
 Full Import.
 
-- ![mceclip9.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip9.png)
+- ![mceclip9.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip9.webp)
 
 This can take a few minutes to complete, do not refresh page. Example status and results:
 
-![mceclip10.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip10.png)
+![mceclip10.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip10.webp)
 
-- ![mceclip18.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip18.png)
+- ![mceclip18.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip18.webp)
 
 Assign any new users appropriately and confirm, example:
 
-![mceclip13.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip13.png)
+![mceclip13.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip13.webp)
 
 ## Okta (Optional): Test Authentication with AD Credentials
 
-**![mceclip14.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip14.png)**
+**![mceclip14.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip14.webp)**
 
 Scroll down to bottom
 
-![mceclip15.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip15.png)
+![mceclip15.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip15.webp)
 
-![mceclip16.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip16.png)
+![mceclip16.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip16.webp)
 
 ## Okta: Add Privilege Secure Application
 
-![mceclip19.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip19.png)
+![mceclip19.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip19.webp)
 
-![mceclip20.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip20.png)
+![mceclip20.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip20.webp)
 
-![mceclip21.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip21.png)
+![mceclip21.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip21.webp)
 
 Note in the example below
 
 - The URL format is: `https://<Privilege Secure URL>/api/login/`
 - The "Audience URI" should be the base URL only, leave off "/api/login/"
 
-![mceclip23.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip23.png)
+![mceclip23.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip23.webp)
 
 **NOTE:** An ‘Application username’ may be required by the Okta environment.
 
-- ![mceclip26.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip26.png)
+- ![mceclip26.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip26.webp)
 
 **NOTE:** user.dn may not appear in drop down list, it can be manually entered.
 
@@ -111,33 +111,33 @@ Note in the example below
 - Provide answer to Feedback question and Finish.
 - Configure Sign On
 
-![mceclip28.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip28.png)
+![mceclip28.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip28.webp)
 
 Settings
 
-![mceclip37.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip37.png)
+![mceclip37.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip37.webp)
 
 User authentication policy  Examples uses "Any two factors" ploicy.
 
-![mceclip29.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip29.png)
+![mceclip29.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip29.webp)
 
 ## Okta: Assign Okta People/Groups to Privilege Secure Application
 
-**![mceclip31.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip31.png)**
+**![mceclip31.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip31.webp)**
 
-![mceclip32.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip32.png)
+![mceclip32.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip32.webp)
 
 ## Okta: Retrieve SAML/SSO Information for Privilege Secure
 
-**![mceclip33.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip33.png)**
+**![mceclip33.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip33.webp)**
 
-**![mceclip34.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip34.png)**
+**![mceclip34.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip34.webp)**
 
 ## Privilege Secure: Enter SAML/SSO Information
 
-![blobid2.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_blobid2.png)
+![blobid2.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_blobid2.webp)
 
-![blobid3.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_blobid3.png)
+![blobid3.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_blobid3.webp)
 
 ## Enable SSO in Privilege Secure and Login Example
 
@@ -147,6 +147,6 @@ appropriate:
 - When logging into Privilege Secure, you will either be automatically directed to Okta for
   authentication, or presented with a Privilege Secure SSO Login Screen Example:
 
-![mceclip36.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip36.png)
+![mceclip36.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360048120774_mceclip36.webp)
 
 - Click [SSO Login] button to log in via Okta.

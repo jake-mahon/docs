@@ -8,7 +8,7 @@ in the client, we refer you at this point to the
 [List view](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/operation_and_setup/listview/list_view.md)
 section.
 
-![installation_with_parameters_176](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/web_applicaiton/operation/list_view/installation_with_parameters_176.png)
+![installation_with_parameters_176](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/web_applicaiton/operation/list_view/installation_with_parameters_176.webp)
 
 #### Special features
 

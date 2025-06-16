@@ -8,7 +8,7 @@ activity with the scan.
 
 The 1-AAD_Scan job uses the AzureADInventory Data Collector for the following query:
 
-![Query Selection page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/entraidinventory/scanqueryselection.png)
+![Query Selection page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/entraidinventory/scanqueryselection.webp)
 
 - AAD Inventory – Targets Microsoft Entra tenants to collect inventory data for user group objects
     - _(Optional)_ This query can be modified to specify scan options and to collect custom
@@ -23,17 +23,17 @@ ID. Follow the steps to customize configurations.
 **Step 1 –** Navigate to the **.Entra ID Inventory** > **1-AAD_Scan** > **Configure** node and
 select **Queries**.
 
-![Query Properties button on Query Selection page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/entraidinventory/scanqueryselectionproperties.png)
+![Query Properties button on Query Selection page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/entraidinventory/scanqueryselectionproperties.webp)
 
 **Step 2 –** In the Query Selection view, click on **Query Properties** to open the Query Properties
 window.
 
-![Query Properties window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/entraidinventory/scanqueryproperties.png)
+![Query Properties window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/entraidinventory/scanqueryproperties.webp)
 
 **Step 3 –** Select the **Data Source** tab, and click **Configure** to open the Entra ID Inventory
 DC Wizard.
 
-![Entra ID Inventory DC Wizard Options page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectoryinventory/scandcwizardoptions.png)
+![Entra ID Inventory DC Wizard Options page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectoryinventory/scandcwizardoptions.webp)
 
 **Step 4 –** On the Options page, select the different Scan Options as needed:
 
@@ -46,7 +46,7 @@ DC Wizard.
   objects. A message will alert users that deselecting this option will disable this function.
 - Collect Directory Audit Events – Collect Microsoft Entra ID audit logs
 
-![Entra ID Inventory DC Wizard Custom Attributes page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectoryinventory/scandcwizardcustomattributes.png)
+![Entra ID Inventory DC Wizard Custom Attributes page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectoryinventory/scandcwizardcustomattributes.webp)
 
 **Step 5 –** On the Custom Attributes page, click **Add** or **Import** to add or import custom
 attributes.
@@ -74,7 +74,7 @@ Navigate to the **.Entra ID Inventory** > **1-AAD_Scan** > **Configure** node an
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for 1-AAD_Scan Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/entraidinventory/scananalysistasks.png)
+![Analysis Tasks for 1-AAD_Scan Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/entraidinventory/scananalysistasks.webp)
 
 The default analysis tasks are:
 

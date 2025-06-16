@@ -40,12 +40,12 @@ Follow the steps to add a NetApp Data ONTAP host to be monitored.
 **Step 1 –** In Activity Monitor, go to the Monitored Hosts tab and click Add. The Add New Host
 window opens.
 
-![Add New Host - Choose Agent page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/chooseagent.png)
+![Add New Host - Choose Agent page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/chooseagent.webp)
 
 **Step 2 –** On the Choose Agent page, select the Agent to monitor the storage device. Click
 **Next**.
 
-![Add New Host - Add Host page with NetApp selected](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/addhostnetapp.png)
+![Add New Host - Add Host page with NetApp selected](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/addhostnetapp.webp)
 
 **Step 3 –** On the Add Host page, select the NetApp radio button. Then, in the NetApp Filer/SVM
 textbox, enter the following information:
@@ -56,7 +56,7 @@ textbox, enter the following information:
 
 Click **Next**.
 
-![NetApp Host Connection Page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/netappconnection.png)
+![NetApp Host Connection Page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/netappconnection.webp)
 
 **CAUTION:** Cluster-Mode is case sensitive. The case of the Filer or SVM name must match exactly to
 how it is in NetApp's FPolicy configuration.
@@ -77,7 +77,7 @@ how it is in NetApp's FPolicy configuration.
 
 Click **Next**.
 
-![Trusted Server Certificate popup window](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/trustedservercertificate.png)
+![Trusted Server Certificate popup window](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/trustedservercertificate.webp)
 
 - HTTPS Options – Opens the Trusted server certificate window to customize the certificate
   verification during a TLS session
@@ -87,7 +87,7 @@ Click **Next**.
       connects to matches the name in the certificate (CN name)
     - Click OK to close the window and save the modifications.
 
-![NetApp FPolicy Configuration page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/netappfpolicyconfiguration.png)
+![NetApp FPolicy Configuration page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/netappfpolicyconfiguration.webp)
 
 **Step 5 –** On the NetApp Mode FPolicy Configuration page, choose whether or not to automatically
 configure FPolicy through Activity Monitor. If that is desired, check the Configure FPolicy option.
@@ -114,7 +114,7 @@ If automatic configuration is selected, proceed to the
 [Configure Privileged Access](#configure-privileged-access) section after successfully adding the
 host.
 
-![NetApp FPolicy Enable and Connect window](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/netappfpolicyenableconnect.png)
+![NetApp FPolicy Enable and Connect window](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/netappfpolicyenableconnect.webp)
 
 The options on the Configure Operations page require the provisioned user account to have, at a
 minimum, the less privileged permissions. For Cluster-mode devices, the credentials are identified
@@ -138,7 +138,7 @@ availability file monitoring, use this option.
 
 Click **Next**.
 
-![protocolspage](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/protocolspage.png)
+![protocolspage](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/protocolspage.webp)
 
 **Step 6 –** On the Protocols page, select which protocols to monitor. The protocols that can be
 monitored are:
@@ -149,7 +149,7 @@ monitored are:
 
 Click **Next**.
 
-![Configure Operations window for NetApp](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/configureoperationsnetapp.png)
+![Configure Operations window for NetApp](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/configureoperationsnetapp.webp)
 
 **Step 7 –** On the Configure Operations page, select the File Operations and Directory Operations
 to be monitored.
@@ -177,7 +177,7 @@ in Read events not being monitored.
 
 Click **Next**.
 
-![Configure Basic Options page for NetApp](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/configurebasicoptionsnetapp.png)
+![Configure Basic Options page for NetApp](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/configurebasicoptionsnetapp.webp)
 
 **Step 8 –** On the Configure Basic Options page, choose which settings to enable. The “Log files”
 are the activity logs created by the activity agent on the proxy host. Select the desired options:
@@ -203,12 +203,12 @@ are the activity logs created by the activity agent on the proxy host. Select th
 
 Click **Next**.
 
-![wheretologgeneric](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/wheretologgeneric.png)
+![wheretologgeneric](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/wheretologgeneric.webp)
 
 **Step 9 –** On the Where To Log The Activity page, select whether to send the activity to either a
 **Log File** or **Syslog Server**. Click **Next**.
 
-![fileoutput](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/fileoutput.png)
+![fileoutput](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/fileoutput.webp)
 
 **Step 10 –** If **Log File)** is selected on the **Where To Log The Activity** page, the **File
 Output** page can be configured.
@@ -232,7 +232,7 @@ Output** page can be configured.
 
 Click **Next**.
 
-![syslogoutput](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/syslogoutput.png)
+![syslogoutput](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/syslogoutput.webp)
 
 **Step 11 –** If Syslog Server is selected on the **Where To Log The Activity** page, the Syslog
 Output page can be configured.
@@ -267,7 +267,7 @@ Output page can be configured.
 
 Click **Finish**.
 
-![Activity Monitor with NetApp Host added](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/activitymonitornetapp.png)
+![Activity Monitor with NetApp Host added](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/activitymonitornetapp.webp)
 
 The added NetApp host is displayed in the monitored hosts table. Once a host has been added for
 monitoring, configure the desired ouptuts. See the
@@ -287,7 +287,7 @@ this requires the provisioned user account to have full permissions, identified 
 **Step 1 –** On to the Monitored Hosts tab, select the desired host and click Edit. The host’s
 Properties window opens.
 
-![NetApp Host Properties FPolicy Tab](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/netappfpolicytab.png)
+![NetApp Host Properties FPolicy Tab](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/netappfpolicytab.webp)
 
 **Step 2 –** On the FPolicy tab, select the **Privileged Access** tab. Select the Allow privileged
 access checkbox and provide the Privileged user name in the textbox.

@@ -21,7 +21,7 @@ And with the following form for the record data's content and summary, and for t
 
 The contents of `MainControl` and `RecordControl` are visible during the workflow's execution:
 
-![Form Example - Update Position](/img/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/workflows/forms/workflowaddandendrecordentityform/formexample_workflowaddandendrecordentityform_v603.png)
+![Form Example - Update Position](/img/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/workflows/forms/workflowaddandendrecordentityform/formexample_workflowaddandendrecordentityform_v603.webp)
 
 The content of `RecordUniqueItemControl` is not visible. The user's records that have the same
 values for all the properties in `RecordUniqueItemControl` will be displayed, and potentially
@@ -30,7 +30,7 @@ modified, as one.
 The contents of `MainSummaryControl` and `RecordSummaryControl` are visible after the workflow's
 execution:
 
-![Summary Form Example - Update Position](/img/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/workflows/forms/workflowaddandendrecordentityform/formexample_workflowaddandendrecordentityform_summary_v603.png)
+![Summary Form Example - Update Position](/img/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/workflows/forms/workflowaddandendrecordentityform/formexample_workflowaddandendrecordentityform_summary_v603.webp)
 
 ## Properties
 

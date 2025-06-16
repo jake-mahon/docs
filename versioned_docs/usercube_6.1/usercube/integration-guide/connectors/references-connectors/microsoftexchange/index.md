@@ -7,7 +7,7 @@ instance.
 This page is about
 [Server/Microsoft Exchange](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/microsoft-exchange/index.md).
 
-![Package: Server/Microsoft Exchange](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/microsoftexchange/packages_exchange_v603.png)
+![Package: Server/Microsoft Exchange](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/microsoftexchange/packages_exchange_v603.webp)
 
 ## Overview
 

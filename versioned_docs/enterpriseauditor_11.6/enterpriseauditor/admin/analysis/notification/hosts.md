@@ -2,7 +2,7 @@
 
 Use the Select Hosts page to scope hosts and to select specific hosts to target.
 
-![Notification Data Analysis Module wizard Select Hosts page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/analysis/notification/hosts.png)
+![Notification Data Analysis Module wizard Select Hosts page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/analysis/notification/hosts.webp)
 
 The following options are available:
 

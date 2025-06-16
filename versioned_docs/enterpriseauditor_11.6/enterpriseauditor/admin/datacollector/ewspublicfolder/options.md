@@ -2,7 +2,7 @@
 
 The Scan options page provides general scan options. It is a wizard page for all of the categories.
 
-![options](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/options.png)
+![options](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/options.webp)
 
 Select any desired scan options:
 

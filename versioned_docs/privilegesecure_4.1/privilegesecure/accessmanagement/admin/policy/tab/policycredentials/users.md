@@ -2,7 +2,7 @@
 
 The Users tab shows the users and groups associated with the selected access policy.
 
-![Credential based policy users tab](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/policycredentials/userstabcredentials.png)
+![Credential based policy users tab](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/policycredentials/userstabcredentials.webp)
 
 The Users tab has the following features:
 

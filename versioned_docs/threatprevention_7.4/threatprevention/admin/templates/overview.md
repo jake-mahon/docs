@@ -3,7 +3,7 @@
 The Templates interface provides a list of all the pre-created policy templates in Threat
 Prevention. Click **Temaples** in the Navigation pane to launch the Templates interface.
 
-![Templates Interface](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/templates/templates.png)
+![Templates Interface](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/templates/templates.webp)
 
 The following is displayed for a template:
 
@@ -38,7 +38,7 @@ topic for additional information.
 Each template listed in the Templates interface has a right-click menu. Select a template and
 right-click to open this menu.
 
-![Templates interface - Right-Click Menu](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/rightclickmenu.png)
+![Templates interface - Right-Click Menu](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/rightclickmenu.webp)
 
 It contains the following options:
 

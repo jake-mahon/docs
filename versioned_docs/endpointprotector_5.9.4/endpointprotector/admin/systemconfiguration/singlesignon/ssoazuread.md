@@ -18,7 +18,7 @@ steps below to activate Single Sign-On with Azure AD.
 **Step 2 –** Upon the activation, select a **Failover Login User** from the drop-down; root user
 will be selected by default.
 
-![Single Sign On Conﬁguration with Microsoft Entra ID ](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/singlesignon/ssomicrosoftentraid.png)
+![Single Sign On Conﬁguration with Microsoft Entra ID ](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/singlesignon/ssomicrosoftentraid.webp)
 
 After the above steps have been completed, a Single Sign On subsection is displayed in the System
 Conﬁguration section.
@@ -28,7 +28,7 @@ while it is selected. Single Sign On cannot be activated without a Failover Logi
 
 **Step 3 –** Select the **Provider** to view Single Sign On subsections.
 
-![Single Sign On Conﬁguration with Microsoft Entra ID](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/singlesignon/ssomicrosoftentraidtwo.png)
+![Single Sign On Conﬁguration with Microsoft Entra ID](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/singlesignon/ssomicrosoftentraidtwo.webp)
 
 **Step 4 –** Navigate to portal.azure.com and login.
 
@@ -36,32 +36,32 @@ while it is selected. Single Sign On cannot be activated without a Failover Logi
 
 **Step 6 –** Create a **New Enterprise Application**:
 
-![Microsoft Entra ID](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/singlesignon/entraidenterpriseapplication.png)
+![Microsoft Entra ID](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/singlesignon/entraidenterpriseapplication.webp)
 
 - Click **Create your own application** to add an new application.
 
-![Create Your Own Application](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/singlesignon/entraidcreateapplication.png)
+![Create Your Own Application](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/singlesignon/entraidcreateapplication.webp)
 
 - Give the application a name.
 - Select **Integrate any other application you don’t ﬁnd in the gallery**.
 - Click **Create**.
 
-![Integrate any other application you don’t ﬁnd in the gallery](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/singlesignon/entraidintergrateapplication.png)
+![Integrate any other application you don’t ﬁnd in the gallery](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/singlesignon/entraidintergrateapplication.webp)
 
 **Step 7 –** From the left-hand menu Navigate to Single sign-on and then select the **SAML** method.
 
-![Entra ID  Single Sign On](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/singlesignon/entraidsso.png)
+![Entra ID  Single Sign On](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/singlesignon/entraidsso.webp)
 
 **Step 8 –** To edit Basic SAML Conﬁguration, open the Single Sign On page from the Endpoint
 Protector Server and copy/paste the data from the Single Sign On page on the **Basic SAML
 Conﬁguration** page.
 
-![Entra ID SAML](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/singlesignon/entraidsaml.png)
+![Entra ID SAML](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/singlesignon/entraidsaml.webp)
 
 **Step 9 –** On the Basic SAML Conﬁguration page, delete the data that is by default completed for
 Identiﬁer (Entity Edit).
 
-![Basic SAML Conﬁguration page](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/singlesignon/entraidbasicsamlconf.png)
+![Basic SAML Conﬁguration page](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/singlesignon/entraidbasicsamlconf.webp)
 
 **Step 10 –** From the Single Sign On page on the Endpoint Protector Server:
 
@@ -69,38 +69,38 @@ Identiﬁer (Entity Edit).
   (Entity ID) and Reply URL (Assertion Consumer Service URL) fields on the Basic SAML Configuration
   page in Microsoft Azure. Finally, set it as Default.
 
-![On the Endpoint Protector Server Copy the data from Endpoint Protector Service Provider](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/singlesignon/entraidbasicsamlconftwo.png)
+![On the Endpoint Protector Server Copy the data from Endpoint Protector Service Provider](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/singlesignon/entraidbasicsamlconftwo.webp)
 
 - Copy the Login URL from the Single Sign-On and paste it into the Sign-On URL field on the Basic
   SAML Configuration page in Microsoft Azure.
 
-![On the Endpoint Protector Server Copy the data from Endpoint Protector Service Provider](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/singlesignon/entraidbasicsamlconfthree.png)
+![On the Endpoint Protector Server Copy the data from Endpoint Protector Service Provider](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/singlesignon/entraidbasicsamlconfthree.webp)
 
 - Copy the Logout URL from the Single Sign-On and paste it into the Logout URL field on the Basic
   SAML Configuration page in Microsoft Azure.
 
-![On the Endpoint Protector Server Copy the data from Endpoint Protector Service Provider](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/singlesignon/entraidbasicsamlconffour.png)
+![On the Endpoint Protector Server Copy the data from Endpoint Protector Service Provider](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/singlesignon/entraidbasicsamlconffour.webp)
 
 **Step 11 –** Click **Save** to save the settings without testing Single Sign On yet.
 
 **Step 12 –** Navigate to Step 3 on the SAML Signing Certificate page and click **Edit**.
 
-![Edit SAML Signing Certiﬁcate](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/singlesignon/editsamlsigningcert.png)
+![Edit SAML Signing Certiﬁcate](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/singlesignon/editsamlsigningcert.webp)
 
 **Step 13 –** Change the Signing Algorithm to SHA-1 and click **Save**.
 
-![Edit SAML Signing Certiﬁcate](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/singlesignon/editsamlsigningcerttwo.png)
+![Edit SAML Signing Certiﬁcate](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/singlesignon/editsamlsigningcerttwo.webp)
 
 **Step 14 –** In Step 3 of the SAML Signing Certificate, download the **Certificate (Base64)**.
 
-![Download Certiﬁcate (Base64).](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/singlesignon/entraidownloadcert.png)
+![Download Certiﬁcate (Base64).](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/singlesignon/entraidownloadcert.webp)
 
 **Step 15 –** Open the downloaded certiﬁcate with a text editor and copy the content inside it.
 
 **Step 16 –** Paste the content into the **Security Certificate** field under the Single Sign-On
 section in the System Configuration of the Endpoint Protector Server.
 
-![Open the downloaded certiﬁcate with a text editor and copy the content inside it](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/singlesignon/pastesecuritycert.png)
+![Open the downloaded certiﬁcate with a text editor and copy the content inside it](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/singlesignon/pastesecuritycert.webp)
 
 **Step 17 –** Return to the Azure **SAML-based Sign-On** page, proceed to Step 4 ("Set up your
 application"), and copy the Azure AD Identifier.
@@ -108,7 +108,7 @@ application"), and copy the Azure AD Identifier.
 **Step 18 –** Navigate to the Endpoint Protector Server **System Conﬁguration > Single Sign On >
 Identity Provider, Azure AD Identiﬁer** and paste the data from the previous step.
 
-![Microsoft Entra ID Identifier](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/singlesignon/entraidindetifier.png)
+![Microsoft Entra ID Identifier](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/singlesignon/entraidindetifier.webp)
 
 **Step 19 –** Return to Azure SAML-based Sign On page and reach Step 4, Set up “your application”
 and copy Login URL.
@@ -116,31 +116,31 @@ and copy Login URL.
 **Step 20 –** Switch to the Endpoint Protector Server, **System Conﬁguration** > **Single Sign
 On** > **Identity Provider** > Login URL and paste the data from the previous step.
 
-![ Login URL](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/singlesignon/entraidloginurl.png)
+![ Login URL](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/singlesignon/entraidloginurl.webp)
 
-![Logout URL](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/singlesignon/entraidlogouturl.png)
+![Logout URL](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/singlesignon/entraidlogouturl.webp)
 
 **Step 21 –** Generate the Failover Login URL from Endpoint Protector Server **System
 Configuration** > **Single Sign-On** > **Failover Login URL** and **Save** it.
 
-![Failover Login URL](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/singlesignon/failoverloginurl.png)
+![Failover Login URL](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/singlesignon/failoverloginurl.webp)
 
 **Step 22 –** **Save** the settings on the Single Sign On page from the Endpoint Protector Server.
 
 **Step 23 –** Switch to Azure, Select **Users and groups** from the left menu.
 
-![Users and groups](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/singlesignon/entraidusergroups.png)
+![Users and groups](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/singlesignon/entraidusergroups.webp)
 
 **Step 24 –** Go to **Add user/group** > **none Selected**, search for the Azure User, then
 **Select**, and **Assign**.
 
-![Add user/group](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/singlesignon/entraidaddusergroup.png)
+![Add user/group](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/singlesignon/entraidaddusergroup.webp)
 
-![Add user/group](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/singlesignon/entraidusergroupstwo.png)
+![Add user/group](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/singlesignon/entraidusergroupstwo.webp)
 
-![Add user/group](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/singlesignon/entraidusergroupsthree.png)
+![Add user/group](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/singlesignon/entraidusergroupsthree.webp)
 
-![Add user/group](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/singlesignon/entraidusergroupsfour.png)
+![Add user/group](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/singlesignon/entraidusergroupsfour.webp)
 
 **Step 25 –** The user is assigned to the application, and logging into Endpoint Protector with
 Azure is now possible.

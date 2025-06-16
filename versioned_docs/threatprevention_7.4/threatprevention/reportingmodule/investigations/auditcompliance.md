@@ -8,7 +8,7 @@ Click **Investigate** in the application header bar to open the Investigations i
 investigations for Audit and Compliance. To get this list in the adjacent pane, hover your mouse
 over the Audit and Compliance option and click the icon that is displayed.
 
-![Investigations interface on the Audit and Compliance page](/img/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/investigations/auditcompliance.png)
+![Investigations interface on the Audit and Compliance page](/img/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/investigations/auditcompliance.webp)
 
 The table displays the list of investigations with the following columns:
 

@@ -4,7 +4,7 @@
 
 There are a total of four different export wizards.
 
-![installation_with_parameters_74_548x283](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/mainmenu/export/export_wizard/installation_with_parameters_74_548x283.png)
+![installation_with_parameters_74_548x283](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/mainmenu/export/export_wizard/installation_with_parameters_74_548x283.webp)
 
 The functionality of these wizards only differs based on the data to be exported. A distinction is
 made between passwords, organisational structures, forms and applications. **As all four wizards are
@@ -31,7 +31,7 @@ The export wizard can be accessed in a variety of different ways:
   [Passwords](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/passwords/passwords.md)
   module.
 
-![Export ribbon](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/mainmenu/export/export_wizard/installation_with_parameters_75-en.png)
+![Export ribbon](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/mainmenu/export/export_wizard/installation_with_parameters_75-en.webp)
 
 The password export wizard can be started via the ribbon in two ways. **Selected passwords** exports
 only those passwords marked in list view, whereby **Passwords based on the filter** uses the
@@ -42,7 +42,7 @@ The wizard
 A diverse range of variables for the export and the storage location can be defined in the wizard. A
 corresponding preview is also provided.
 
-![installation_with_parameters_76](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/mainmenu/export/export_wizard/installation_with_parameters_76.png)
+![installation_with_parameters_76](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/mainmenu/export/export_wizard/installation_with_parameters_76.webp)
 
 Once the wizard has been completed, the desired export is created and saved to the defined storage
 location.

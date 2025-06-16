@@ -2,7 +2,7 @@
 
 View information on permissions changes on the through the Permission Changes Dashboard for Splunk.
 
-![Permission Changes Dashboard for Stealthbits Activivty Monitor App for Splunk](/img/versioned_docs/activitymonitor_7.1/activitymonitor/siem/qradar/dashboard/permissionchangesdashboard.png)
+![Permission Changes Dashboard for Stealthbits Activivty Monitor App for Splunk](/img/versioned_docs/activitymonitor_7.1/activitymonitor/siem/qradar/dashboard/permissionchangesdashboard.webp)
 
 The Permission Changes dashboard contains the following cards:
 

@@ -4,12 +4,12 @@ In the portal, the names of directory objects are displayed as links. When a use
 over this link, a card is displayed, showcasing information about the object. For a user object, for
 example, the card displays the name, email address and phone number. It is as:
 
-![usercard](/img/versioned_docs/groupid_11.0/groupid/admincenter/portal/design/usercard.png)
+![usercard](/img/versioned_docs/groupid_11.0/groupid/admincenter/portal/design/usercard.webp)
 
 For each object type, you can specify a different set of attributes to display on this card. For a
 group, the card is as:
 
-![groupcard](/img/versioned_docs/groupid_11.0/groupid/admincenter/portal/design/groupcard.png)
+![groupcard](/img/versioned_docs/groupid_11.0/groupid/admincenter/portal/design/groupcard.webp)
 
 Notice that the card has three sections, namely:
 

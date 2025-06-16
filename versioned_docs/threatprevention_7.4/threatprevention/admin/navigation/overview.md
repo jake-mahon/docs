@@ -20,7 +20,7 @@ The Administration Console has the following components:
 - Policy Center
 - Status Bar
 
-![Threat Prevention Administration Console – Components](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/navigation/adminconsole.png)
+![Threat Prevention Administration Console – Components](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/navigation/adminconsole.webp)
 
 There are also right-click commands available within different sections of the
 [Policy Center](#policy-center).
@@ -33,7 +33,7 @@ topic for information.
 
 The Menu contains the following selections:
 
-![Administration Console - Menu](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/navigation/menu.png)
+![Administration Console - Menu](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/navigation/menu.webp)
 
 | Menu Item     | Option                                                 | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | ------------- | ------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -61,7 +61,7 @@ The Menu contains the following selections:
 The Policy Center is the primary interface of the Administration Console. It is divided into two
 sections: the Navigation pane and the Display area.
 
-![Administration Console – Policy Center](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/navigation/policycenter.png)
+![Administration Console – Policy Center](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/navigation/policycenter.webp)
 
 The Navigation pane provides interface options while the Display area displays the selected
 interface. The following interface options are available:
@@ -138,6 +138,6 @@ node.
 
 The Status Bar is located at the bottom of the Administration Console.
 
-![statusbar](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/navigation/statusbar.png)
+![statusbar](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/navigation/statusbar.webp)
 
 It displays the current user account logged into Threat Prevention and current session details.

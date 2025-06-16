@@ -71,7 +71,7 @@ To display the AD FS option as an image, you have to upload an image for it. On 
 Provider** page, use the **Browse** button under **Identity Provider Image** to upload an image for
 AD FS.
 
-NOTE: Supported image formats are: .jpg, .bmp, .png, and .gif.  
+NOTE: Supported image formats are: .jpg, .bmp, .webp, and .gif.  
 Required dimensions for the image file are: 210 x 60 pixels.
 
 If you do not upload an image, AD FS authentication will be shown as a button. This button would

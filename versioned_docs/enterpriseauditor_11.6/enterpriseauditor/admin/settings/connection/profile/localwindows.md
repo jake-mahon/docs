@@ -3,7 +3,7 @@
 The information in this topic applies to **Select Account Type** > **Local Windows Account** in the
 User Credentials window.
 
-![User Credentials - Local Windows Account](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/profile/localwindowsaccount.png)
+![User Credentials - Local Windows Account](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/profile/localwindowsaccount.webp)
 
 The required credentials for the Local Windows Account are:
 

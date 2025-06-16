@@ -9,7 +9,7 @@ Auditor Console to define the criteria and enable the Criteria Editor. See the
 [Sensitive Data Discovery Add-On Installation](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/sensitivedatadiscovery/overview.md)
 topic for additional information.
 
-![AWS Query SDD Criteria](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/ewsmailbox/criteria.png)
+![AWS Query SDD Criteria](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/ewsmailbox/criteria.webp)
 
 Default criteria is set at the **Global Settings** > **Sensitive Data** node. Choose between the
 **Use Global Criteria** Selection and the **Use the Following Selected Criteria** radio buttons.

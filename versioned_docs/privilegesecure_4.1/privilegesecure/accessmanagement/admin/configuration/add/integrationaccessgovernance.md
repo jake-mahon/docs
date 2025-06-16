@@ -110,7 +110,7 @@ Configuration > Integration Connectors page.
 
 **Step 2 –** In the Integration Connector list, click the Add Integration Connector icon.
 
-![Add Enterprise Auditor Integration Connector](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/add/addenterpriseauditor.png)
+![Add Enterprise Auditor Integration Connector](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/add/addenterpriseauditor.webp)
 
 **Step 3 –** Enter the following information:
 
@@ -139,7 +139,7 @@ page in the menu.
 **Step 2 –** In the Integration Connector list, select the previously created Enterprise Auditor
 Import connector.
 
-![enterpriseauditorconnector](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/add/enterpriseauditorconnector.png)
+![enterpriseauditorconnector](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/add/enterpriseauditorconnector.webp)
 
 **Step 3 –** Click **Sync** **StealthAUDIT** to begin the data collection. This may take some time.
 

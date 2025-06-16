@@ -176,11 +176,11 @@ against the target domain.
 **Step 3 –** On the Data Source tab, select **Configure**. The Active Directory Activity DC wizard
 opens.
 
-![Active Directory Activity DC wizard Category page](/img/versioned_docs/activitymonitor_7.1/config/activedirectory/categoryimportfromnam.png)
+![Active Directory Activity DC wizard Category page](/img/versioned_docs/activitymonitor_7.1/config/activedirectory/categoryimportfromnam.webp)
 
 **Step 4 –** On the Category page, choose **Import from SAM** option and click **Next**.
 
-![Active Directory Activity DC wizard SAM connection settings page](/img/versioned_docs/activitymonitor_7.1/config/activedirectory/namconnection.png)
+![Active Directory Activity DC wizard SAM connection settings page](/img/versioned_docs/activitymonitor_7.1/config/activedirectory/namconnection.webp)
 
 **Step 5 –** On the SAM connection page, the **Port** is set to the default 4494. This needs to
 match the port configured for the Activity Monitor API Server agent.
@@ -194,7 +194,7 @@ last step.
 
 **Step 8 –** Click **Next**.
 
-![Active Directory Activity DC wizard Scoping and Retention page](/img/versioned_docs/activitymonitor_7.1/config/activedirectory/scope.png)
+![Active Directory Activity DC wizard Scoping and Retention page](/img/versioned_docs/activitymonitor_7.1/config/activedirectory/scope.webp)
 
 **Step 9 –** On the Scope page, set the Timespan as desired. There are two options:
 

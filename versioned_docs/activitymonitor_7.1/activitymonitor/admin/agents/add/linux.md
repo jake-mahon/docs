@@ -23,17 +23,17 @@ Follow the steps to deploy the agent to the Linux host.
 
 **Step 1 –** On the Agents tab, click Add agent to open the Add New Agent(s) window.
 
-![Install New Agent page of the Add New Agent(s) Wizard](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/agent/installnew.png)
+![Install New Agent page of the Add New Agent(s) Wizard](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/agent/installnew.webp)
 
 **Step 2 –** On the Install New Agent page, enter the server name for the Linux host. Click
 **Next**.
 
-![Specify Agent Port](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/agent/portdefault.png)
+![Specify Agent Port](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/agent/portdefault.webp)
 
 **Step 3 –** On the Agent Port page, specify the port to be used by the new agent. The default port
 is **4498**. Click **Next**.
 
-![Credentials to Connect](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/agents/add/credentialsservers.png)
+![Credentials to Connect](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/agents/add/credentialsservers.webp)
 
 **Step 4 –** On the Credentials To Connect To The Server(s) page, connect to the Linux Server using
 either a **User name** and **Password**, or a Public Key.
@@ -43,14 +43,14 @@ The options for connecting with a Password are:
 - User name
 - Password
 
-![Public Key Credentials](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/agents/add/publickey.png)
+![Public Key Credentials](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/agents/add/publickey.webp)
 
 The options for connecting with a Public Key are:
 
 - User name
 - Private Key
 
-![Client Certificate Credentials](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/agents/add/clientcertificate.png)
+![Client Certificate Credentials](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/agents/add/clientcertificate.webp)
 
 To connect with a Client Certificate, select the **Client Certificate** (for already installed
 agents) option. Run the following commands on the Linux machine:
@@ -88,7 +88,7 @@ cat ~/.ssh/id_ecdsa
 **Next**. If the connection is unsuccessful, see the status message that appears for information on
 the failed connection.
 
-![Linux Agent Options](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/agent/linuxagentoptions.png)
+![Linux Agent Options](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/agent/linuxagentoptions.webp)
 
 **Step 6 –** On the Linux Agent Options page, select which user name to use to run the daemon. To
 use root, leave the **Service user name** field blank. Click **Test** to test the connection.
@@ -99,7 +99,7 @@ deployed to and installed on the target host.
 During the installation process, the status will be **Installing**. If there are any errors,
 Activity Monitor stops the installation and lists the errors in the **Agent messages** box.
 
-![Linux Agent Installed](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/agents/add/activitymonitorwithlinuxagentinstalled.png)
+![Linux Agent Installed](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/agents/add/activitymonitorwithlinuxagentinstalled.webp)
 
 When the Linux agent installation is complete, the status changes to **Installed**. The Monitored
 Host is also configured, and the added Linux host is displayed in the monitored hosts table. See the

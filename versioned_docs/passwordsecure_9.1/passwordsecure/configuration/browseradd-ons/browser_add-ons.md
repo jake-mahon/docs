@@ -14,7 +14,7 @@ Currently, add-ons are available for the following browsers:
 - Mozilla Firefox
 - Safari
 
-![Add-on Browser](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/browseradd-ons/addon-connections-en.png)
+![Add-on Browser](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/browseradd-ons/addon-connections-en.webp)
 
 ## Installation
 
@@ -27,7 +27,7 @@ browser. A window appears in which the security of the connection is confirmed. 
 with a simple click. A new icon will also be displayed in the desired browser from this point
 onwards:
 
-![Icon Add-on](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/browseradd-ons/addon-icon-en.png)
+![Icon Add-on](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/browseradd-ons/addon-icon-en.webp)
 
 If the icon is displayed as shown, it means that although the add-on has been installed.
 
@@ -90,7 +90,7 @@ The subscript number mentioned in the previous section is only available with ac
 therefore already says a lot about the “Number of possible entries”. For example, if the number “2”
 is shown, you can directly select the account you want to log in with.
 
-![Addon list](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/browseradd-ons/addon-records-list.png)
+![Addon list](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/browseradd-ons/addon-records-list.webp)
 
 Previously, the prerequisite was that you had to navigate manually to the precise website via the
 browser that you actually wanted to use. This navigation can now also be handled by Netwrix Password
@@ -103,7 +103,7 @@ automatically enter login data. This way of working is possible but is not conve
 add-on can be used in a similar way to bookmarks. The search field can be used to search for the
 record in the database. The prerequisite is again that the record contains a URL.
 
-![Record usage](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/browseradd-ons/addon-records-usage-en.png)
+![Record usage](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/browseradd-ons/addon-records-usage-en.webp)
 
 The screenshot shows that the URL and the name of the record (Wikipedia) are searched. The results
 for the search are displayed and can be selected using the arrow buttons or the mouse. The selected
@@ -115,7 +115,7 @@ If a user opens a page and multiple passwords with the autofill function are pos
 website, no entries will be made unlike in older versions. Instead, the following message appears in
 a pop-up:
 
-![Multiple entries](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/browseradd-ons/addon-multiple-passwords-en.png)
+![Multiple entries](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/browseradd-ons/addon-multiple-passwords-en.webp)
 
 However, if the autofill function is only activated for one password but multiple passwords are
 possible, the password with the autofill function is entered. If the user clicks on a record in the

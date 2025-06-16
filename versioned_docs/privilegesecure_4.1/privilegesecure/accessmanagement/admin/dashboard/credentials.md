@@ -7,7 +7,7 @@ the application. This includes managed user accounts created by activity session
 dashboard displays the same information as the
 [Credentials Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/credentials.md).
 
-![Credentials Dashboard Page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/agent/credentials.png)
+![Credentials Dashboard Page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/agent/credentials.webp)
 
 The dashboard has the following features:
 

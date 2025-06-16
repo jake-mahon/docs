@@ -6,7 +6,7 @@ be easily recognized by the **blue arrow** symbol on the **Discovery Service Tas
 corresponding message is also shown in the General display. Once the **Discovery Service Task** has
 been completed, the data will be shown in the **Discovery Service module**.
 
-![new discovery service task](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/discovered_entries/discovered_entries_1-en.png)
+![new discovery service task](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/discovered_entries/discovered_entries_1-en.webp)
 
 The **Discovery Service Task** needs to be carefully configured. The configurable sections are
 described below.
@@ -30,7 +30,7 @@ The successful execution of a **Discovery Service Task** is a requirement for th
 Service entries**. The discovered data is listed in table form in the **Discovery Service module**
 and can be correspondingly organized using the **Discovery Service System Task** filter.
 
-![discovery service entries](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/discovered_entries/discovered_entries_2-en.png)
+![discovery service entries](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/discovered_entries/discovered_entries_2-en.webp)
 
 In this section, the **Discovery Service entries** that were discovered by the **Discovery Service
 Task** and selected for the **Conversion Wizard** are displayed.
@@ -42,12 +42,12 @@ and **Password Resets** need to be added in the **Conversion Wizard**. Depending
 selected (service, Active Directory user, user account), it is necessary to carry out corresponding
 **assignments** in the **Conversion Wizard** for the **passwords**.
 
-![Discovery service conversion wizard ](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/discovered_entries/discovered_entries_3-en.png)
+![Discovery service conversion wizard ](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/discovered_entries/discovered_entries_3-en.webp)
 
 Every line must be connected to a **password** in the end. Therefore, it is necessary to carry out
 an assignment process in the **Conversion Wizard** for every entry.
 
-![Discovery service conversion wizard ](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/discovered_entries/discovered_entries_4-en.png)
+![Discovery service conversion wizard ](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/discovered_entries/discovered_entries_4-en.webp)
 
 For **Active Directory users**, it is possible to assign an existing **password**.
 
@@ -60,7 +60,7 @@ A good filter is required for processing the discovered data. A **filter that ha
 this purpose** is available for processing the entries in the **Discovery Service module**. The
 options in the **filter** are described below:
 
-![Filter for discovered data](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/discovered_entries/discovered_entries_5-en.png)
+![Filter for discovered data](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/discovered_entries/discovered_entries_5-en.webp)
 
 Description of the **filter with the special options for the Discovery Service entries**:
 

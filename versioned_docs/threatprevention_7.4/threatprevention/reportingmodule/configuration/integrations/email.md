@@ -8,7 +8,7 @@ select **Integrations** to open the Integrations interface.
 
 Click **Email** in the navigation pane.
 
-![Integrations interface on the Email page](/img/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/configuration/systemsettings/page.png)
+![Integrations interface on the Email page](/img/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/configuration/systemsettings/page.webp)
 
 The page has the following information:
 
@@ -38,7 +38,7 @@ menu. Then select **Integrations** to open the Integrations interface.
 
 **Step 2 –** On the Integrations interface, click **Email** in the navigation pane.
 
-![Integrations interface on the Email page showing details](/img/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/configuration/integrations/details.png)
+![Integrations interface on the Email page showing details](/img/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/configuration/integrations/details.webp)
 
 **Step 3 –** Toggle the Enabled button to **ON**, which enables the Send Test Email button.
 

@@ -10,7 +10,7 @@ license has expired.
 Click **Help > License Manager** on the menu. The Netwrix Threat Prevention License Manager window
 is displayed.
 
-![License Manager window](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/navigation/licensemanager.png)
+![License Manager window](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/navigation/licensemanager.webp)
 
 This window lists the modules that you are licensed for. Each module is linked to a Threat
 Prevention solution.

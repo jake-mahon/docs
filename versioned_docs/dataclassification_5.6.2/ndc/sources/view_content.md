@@ -14,17 +14,17 @@ content (_Size_), status, etc.
 To browse the whole structure of the crawled content, click on the items in the list. It is also
 possible to filter the list by any field.
 
-![pages_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/sources/pages_thumb_0_0.png)
+![pages_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/sources/pages_thumb_0_0.webp)
 
 - Each document has an associated status (shown as the ID). Click the numeric ID to read the status
   description:
 
-![status](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/status.png)
+![status](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/status.webp)
 
 - Click the "Info" icon for the document/item to view its **Properties**, including summary,
   classifications (if any), etc.:
 
-![classifications](/img/versioned_docs/dataclassification_5.6.2/ndc/sources/classifications.png)
+![classifications](/img/versioned_docs/dataclassification_5.6.2/ndc/sources/classifications.webp)
 
 - For content sources that support writing the classifications back to the source system, i.e.
   "_tagging_" (e.g. such as writing classifications to SharePoint managed metadata fields):

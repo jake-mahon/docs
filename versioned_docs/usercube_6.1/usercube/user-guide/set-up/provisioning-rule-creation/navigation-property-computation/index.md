@@ -33,7 +33,7 @@ entity type itself). Let's call this entity type the "other" one.
   rule when there is the need to use variables from among users' attributes to select the resource
   to assign.**
 
-![Schema - Scalar Rule](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/provisioning-rule-creation/navigation-property-computation/provrules_schemanavigation.png)
+![Schema - Scalar Rule](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/provisioning-rule-creation/navigation-property-computation/provrules_schemanavigation.webp)
 
 > A **navigation rule** could add the AD group `SG_APP_SQL` to the `memberOf` navigation property to
 > all AD nominative accounts provided that the user has the single role `SQL Server Administration`.
@@ -141,12 +141,12 @@ Fill an entity type with a navigation rule by proceeding as follows:
 
 1. Click on **Access Rules** on the home page in the **Configuration** section.
 
-    ![Home - Access Rules](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/classification/home_rules_v602.png)
+    ![Home - Access Rules](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/classification/home_rules_v602.webp)
 
 2. In the dropdown menu at the top left, choose the source entity type for the future navigation
    rule.
 
-    ![Entity Type Choice](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/provrules_entitytype_v602.png)
+    ![Entity Type Choice](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/provrules_entitytype_v602.webp)
 
 3. Click on the **Navigations** tab and on the addition button at the top right corner.
 
@@ -154,7 +154,7 @@ Fill an entity type with a navigation rule by proceeding as follows:
 
 4. Fill in the fields.
 
-    ![Create a Navigation Rule](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/role-manual-creation/singlerolescatalog_createnavrule_v602.png)
+    ![Create a Navigation Rule](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/role-manual-creation/singlerolescatalog_createnavrule_v602.webp)
 
     - `Join`: navigation property from the target entity type, whose value is to be impacted.
     - `Resource`: resource from the entity type pointed by the `Join`, which is to be added to the
@@ -169,7 +169,7 @@ Fill an entity type with a navigation rule by proceeding as follows:
     - **Criteria**: conditions that, if met, trigger the rule application.
         > Our example would look like:
         >
-        > ![Scalar Rule Example](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/provisioning-rule-creation/navigation-property-computation/provrules_examplenav_v602.png)
+        > ![Scalar Rule Example](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/provisioning-rule-creation/navigation-property-computation/provrules_examplenav_v602.webp)
 
 5. Click on **Create** and see a line added on the rules page.
 
@@ -179,11 +179,11 @@ Fill an entity type with a query rule by proceeding as follows:
 
 1. Click on **Access Rules** on the home page in the **Configuration** section.
 
-    ![Home - Access Rules](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/classification/home_rules_v602.png)
+    ![Home - Access Rules](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/classification/home_rules_v602.webp)
 
 2. In the dropdown menu at the top left, choose the source entity type for the future query rule.
 
-    ![Entity Type Choice](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/provrules_entitytype_v602.png)
+    ![Entity Type Choice](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/provrules_entitytype_v602.webp)
 
 3. Click on the **Queries** tab and on the addition button at the top right corner.
 
@@ -191,11 +191,11 @@ Fill an entity type with a query rule by proceeding as follows:
 
 4. Fill in the fields.
 
-    ![Create Query Rule](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/provisioning-rule-creation/navigation-property-computation/provrules_queryrule_v522.png)
+    ![Create Query Rule](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/provisioning-rule-creation/navigation-property-computation/provrules_queryrule_v522.webp)
 
     Once the `Resource Type` is provided, more fields appear.
 
-    ![Query Rule Fields](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/provisioning-rule-creation/navigation-property-computation/provrules_queryrulefields_v602.png)
+    ![Query Rule Fields](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/provisioning-rule-creation/navigation-property-computation/provrules_queryrulefields_v602.webp)
 
     - **Target Object** > `Property to fill`: navigation property from the target entity type, whose
       value is to be impacted.
@@ -214,9 +214,9 @@ Fill an entity type with a query rule by proceeding as follows:
       [See the detailed explanation](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/classification/index.md).
         > Our examples would look like:
         >
-        > ![Query Rule Example](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/provisioning-rule-creation/navigation-property-computation/provrules_examplequery_v602.png)
+        > ![Query Rule Example](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/provisioning-rule-creation/navigation-property-computation/provrules_examplequery_v602.webp)
         >
-        > ![Query Rule Example 2](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/provisioning-rule-creation/navigation-property-computation/provrules_examplequerybis_v602.png)
+        > ![Query Rule Example 2](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/provisioning-rule-creation/navigation-property-computation/provrules_examplequerybis_v602.webp)
 
 5. Click on **Create** and see a line added on the rules page.
 
@@ -226,7 +226,7 @@ Any modification in a navigation or query rule is taken into account when launch
 computation task, in the **Resource Types** frame of the corresponding connector's overview page,
 via **Jobs** > **Compute Role Model**.
 
-![Resource Type Jobs](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/classification/synchro_resourcetype_v602.png)
+![Resource Type Jobs](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/classification/synchro_resourcetype_v602.webp)
 
 This task applies the rules and computes new properties. Therefore, if a given rule's criterion is
 modified, then all corresponding assignments are computed again. If a resource was created
@@ -248,7 +248,7 @@ In order to verify the process:
 1. On the corresponding connector's overview page, in the **Resource Types** frame click on
    **Jobs** > **Compute Role Model** to apply all rules.
 
-    ![Resource Type Jobs](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/classification/synchro_resourcetype_v602.png)
+    ![Resource Type Jobs](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/classification/synchro_resourcetype_v602.webp)
 
 2. Review
    [unauthorized accounts](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/non-conforming-assignment-review/unauthorized-account-review/index.md)

@@ -2,7 +2,7 @@
 
 The Update resource wizard is opened with the **Update** button in the Resource Owners interface.
 
-![Update Resource wizard showing 1. Select Owners page](/img/versioned_docs/auditor_10.6/access/reviews/resourceowners/wizard/selectowners.png)
+![Update Resource wizard showing 1. Select Owners page](/img/versioned_docs/auditor_10.6/access/reviews/resourceowners/wizard/selectowners.webp)
 
 It contains three pages:
 
@@ -20,7 +20,7 @@ Follow the steps to update ownership configuration for a resource.
 **Step 1 –** In the Resource Owners interface, select the desired resource and click **Update**. The
 Update resource wizard opens.
 
-![Update resource wizard showing 1. Select Owners page](/img/versioned_docs/auditor_10.6/access/reviews/resourceowners/wizard/selectowners.png)
+![Update resource wizard showing 1. Select Owners page](/img/versioned_docs/auditor_10.6/access/reviews/resourceowners/wizard/selectowners.webp)
 
 **Step 2 –** The Select Owners page lists the currently assigned owner(s). Modify as desired and
 click **Next** to continue.
@@ -43,18 +43,18 @@ information on the owners:
   Tool-tips display when hovering over the icons indicating whether the resource ownership has been
   confirmed, declined, pending response, or that a confirmation has not been requested.
 
-![Update resource wizard showing 2. Description page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/servicenow/description.png)
+![Update resource wizard showing 2. Description page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/servicenow/description.webp)
 
 **Step 3 –** The Description page displays any description that has been provided by either the
 Ownership Administrator or the assigned owner(s) for the resource. Modify as desired by typing in
 the textbox. Then click **Next** to continue.
 
-![Update resource wizard showing 3. Summary page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/adinventory/summary.png)
+![Update resource wizard showing 3. Summary page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/adinventory/summary.webp)
 
 **Step 4 –** On the Summary page, review the settings and click Finish. The Access Reviews
 application begins to process the ownership changes.
 
-![Update resource wizard with 3. Summary page showing action status 100% complete](/img/versioned_docs/auditor_10.6/access/reviews/resourceowners/wizard/summarytaskcompleted.png)
+![Update resource wizard with 3. Summary page showing action status 100% complete](/img/versioned_docs/auditor_10.6/access/reviews/resourceowners/wizard/summarytaskcompleted.webp)
 
 **Step 5 –** The action status displays on the page. When the update has completed (100%), click
 **Close**. The Update resource wizard closes.

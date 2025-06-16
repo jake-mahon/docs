@@ -13,7 +13,7 @@ and select **Analysis** to view the analysis tasks.
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis tasks for AAD_NestedGroups Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/distributionlists/membershipanalysis/nestedgroupsanalysis.png)
+![Analysis tasks for AAD_NestedGroups Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/distributionlists/membershipanalysis/nestedgroupsanalysis.webp)
 
 The default analysis tasks are:
 

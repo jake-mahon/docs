@@ -49,7 +49,7 @@ Follow the steps to review a diagram:
 
 The example below applies to Enterprise.
 
-![dashboard](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/dashboard.png)
+![dashboard](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/dashboard.webp)
 
 Each report has a set of filters which help organize audit data in the most convenient way. See the
 [View Reports](/versioned_docs/auditor_10.6/auditor/admin/reports/view.md) topic for additional

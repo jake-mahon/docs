@@ -4,7 +4,7 @@ The Add Policies window provides a list of Policies that have been created. Poli
 the
 [ Policy Interface](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/interface.md).
 
-![Add Policies to a Custom Role Window](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/window/usersgroups/addaccounttopolicies.png)
+![Add Policies to a Custom Role Window](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/window/usersgroups/addaccounttopolicies.webp)
 
 The window has the following features:
 

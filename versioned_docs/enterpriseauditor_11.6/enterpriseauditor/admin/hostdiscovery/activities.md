@@ -2,7 +2,7 @@
 
 The Activities pane provides several options for managing Host Discovery queries.
 
-![Activities pane](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostdiscovery/activities.png)
+![Activities pane](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostdiscovery/activities.webp)
 
 The options are:
 

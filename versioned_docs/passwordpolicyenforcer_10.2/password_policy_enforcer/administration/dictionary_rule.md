@@ -4,7 +4,7 @@ The Dictionary rule rejects passwords that are vulnerable to guessing, hybrid, a
 attacks. These attacks can crack weak passwords in seconds, and they can be very effective if
 passwords are based on common words.
 
-![ppe_rules_5](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/ppe_rules_5.png)
+![ppe_rules_5](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/ppe_rules_5.webp)
 
 There are two Dictionary rules in each password policy. You can use the second rule with a different
 dictionary file, or to enforce a more tolerant policy for passphrases by disabling the primary rule

@@ -22,12 +22,12 @@ access them instantly. See the
 topics for additional information.
 
 1. In Netwrix Auditor Home screen, click
-   ![reports_tile](/img/versioned_docs/auditor_10.6/auditor/admin/reports/reports_tile.png)on the
+   ![reports_tile](/img/versioned_docs/auditor_10.6/auditor/admin/reports/reports_tile.webp)on the
    left, and in the tree on the left select the report you need.
 
 To speed up the process, you can use the **Search** field, entering the keyword to search by.
 
-![searchreports](/img/versioned_docs/auditor_10.6/auditor/admin/reports/searchreports.png)
+![searchreports](/img/versioned_docs/auditor_10.6/auditor/admin/reports/searchreports.webp)
 
 2. Click View button in the right pane.
 
@@ -77,9 +77,9 @@ of the report. The filters may vary slightly depending on the audited system and
 
 The report without filtering:
 
-![allchangesserver](/img/versioned_docs/auditor_10.6/auditor/admin/reports/allchangesserver.png)
+![allchangesserver](/img/versioned_docs/auditor_10.6/auditor/admin/reports/allchangesserver.webp)
 
 The report below displays changes for all audited systems made by the CORP\Administrator user on the
 ROOTDC2 domain controller for a month sorted by the action type.
 
-![allchangesserverfiltered](/img/versioned_docs/auditor_10.6/auditor/admin/reports/allchangesserverfiltered.png)
+![allchangesserverfiltered](/img/versioned_docs/auditor_10.6/auditor/admin/reports/allchangesserverfiltered.webp)

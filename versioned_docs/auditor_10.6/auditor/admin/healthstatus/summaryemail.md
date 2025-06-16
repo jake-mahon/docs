@@ -13,7 +13,7 @@ red means there were some problems that require your attention.
 
 The email looks like shown below:
 
-![email](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/email.png)
+![email](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/email.webp)
 
 The Monitoring Overview section of the email provides detail information only for the monitoring
 plans with issues. Successfully completed monitoring plans are not included.

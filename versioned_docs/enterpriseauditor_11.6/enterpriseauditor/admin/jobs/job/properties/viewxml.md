@@ -3,7 +3,7 @@
 At the bottom of the Job Properties window is the **View XML** button. To view the XML file, click
 **View** XML.
 
-| ![View XML button on Job Properties window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/properties/viewxmlbutton.png) | ![XML Text window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/properties/viewxml.png) |
+| ![View XML button on Job Properties window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/properties/viewxmlbutton.webp) | ![XML Text window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/properties/viewxml.webp) |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
 | Job Properties Window                                                                                                                                 | Job XML File                                                                                                           |
 

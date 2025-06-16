@@ -32,7 +32,7 @@ Major benefits:
 The add-on is implemented as a Syslog service that collects activity data from Qumulo Cluster and
 sends it to Auditor using the Integration API.
 
-![diagram](/img/versioned_docs/auditor_10.6/auditor/addon/cyberark/diagram.png)
+![diagram](/img/versioned_docs/auditor_10.6/auditor/addon/cyberark/diagram.webp)
 
 On a high level, the solution works as follows:
 

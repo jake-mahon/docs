@@ -13,14 +13,14 @@ can be managed by individual domain.
 
 In order to access the OAM password configuration open the Config, Server screen.
 
-![Screen_Shot_2022-06-28_at_3.09.40_PM.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/7098780929815_screen_shot_2022-06-28_at_3.09.40_pm_213x189.png)
+![Screen_Shot_2022-06-28_at_3.09.40_PM.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/7098780929815_screen_shot_2022-06-28_at_3.09.40_pm_213x189.webp)
 
 Open the domain configuration by clicking the chevron to expose the details.
 
 The configuration details for the OAM password settings are detailed in the right hand side of the
 screen at the bottom:
 
-![Screen_Shot_2022-08-15_at_12.40.42_PM.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/7098780929815_screen_shot_2022-08-15_at_12.40.42_pm.png)
+![Screen_Shot_2022-08-15_at_12.40.42_PM.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/7098780929815_screen_shot_2022-08-15_at_12.40.42_pm.webp)
 
 The frequency can be adjusted to avoid the scanner from setting the password on each scan (this
 action is to ensure that the password remains the same as stored in Privilege Secure). This boosts

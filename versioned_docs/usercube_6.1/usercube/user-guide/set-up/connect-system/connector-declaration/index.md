@@ -29,7 +29,7 @@ Create a connector container by proceeding as follows:
 
 1. On the home page in the **Configuration** section, click on the **Connectors** button.
 
-    ![Home page - Connectors](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/synchronization/home_connectors_v602.png)
+    ![Home page - Connectors](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/synchronization/home_connectors_v602.webp)
 
     You will see all existing connectors.
 
@@ -37,7 +37,7 @@ Create a connector container by proceeding as follows:
 
     ![Addition Icon](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/classification/iconadd_v602.svg)
 
-    ![Connector creation](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-declaration/connectorcreation_declaration_v602.png)
+    ![Connector creation](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-declaration/connectorcreation_declaration_v602.webp)
 
     - `Identifier`: must be unique among connectors, without any whitespace, start with a letter,
       and contain only letters, numbers, `.` and/or `-`.
@@ -61,11 +61,11 @@ Create a connector container by proceeding as follows:
 
 3. Click on **+ Create** to get on the connector's overview page:
 
-    ![Connector page](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-declaration/connectorcreation_connectorpage_v602.png)
+    ![Connector page](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-declaration/connectorcreation_connectorpage_v602.webp)
 
 ## Verify the Connector Declaration
 
 In order to verify the process, check that the connector has been added to the connectors list with
 the right name and identifier.
 
-![Test Connector](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-declaration/connectorcreation_test_v602.png)
+![Test Connector](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-declaration/connectorcreation_test_v602.webp)

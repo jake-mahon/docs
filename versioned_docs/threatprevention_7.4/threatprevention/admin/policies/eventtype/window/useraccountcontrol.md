@@ -6,12 +6,12 @@ the policy.
 The User Account Control window is accessible if the userAccountControl attribute is included or
 excluded in the policy through the AD Attributes filter.
 
-![AD Attributes filter - serAccountControl attribute selected](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/window/useraccountcontrolattribute.png)
+![AD Attributes filter - serAccountControl attribute selected](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/window/useraccountcontrolattribute.webp)
 
 In the Include Attributes or Exclude Attributes boxes, click the Operation menu that displays **Any
 Value** for the userAccountControl attribute to open the User Account Control Window window.
 
-![User Account Control Window](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/window/useraccountcotrol.png)
+![User Account Control Window](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/window/useraccountcotrol.webp)
 
 This window displays a list of UAC flags for additional scoping. Select specific userAccountControl
 flags using the **Attribute Set** and/or **Attribute Clear** checkboxes. When the selected attribute

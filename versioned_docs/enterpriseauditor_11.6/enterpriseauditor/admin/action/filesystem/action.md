@@ -3,7 +3,7 @@
 On the Action page, select the type of action to be configured, define a new action, and additional
 capabilities.
 
-![File System Action Module Wizard Action page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/filesystem/action.png)
+![File System Action Module Wizard Action page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/filesystem/action.webp)
 
 The following options are available:
 

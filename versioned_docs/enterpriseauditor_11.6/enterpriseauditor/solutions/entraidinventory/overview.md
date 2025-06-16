@@ -29,7 +29,7 @@ of the Jobs tree.
 
 ## Jobs
 
-![.Entra ID Inventory overview page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/runninginstances/overviewpage.png)
+![.Entra ID Inventory overview page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/runninginstances/overviewpage.webp)
 
 The jobs in the .Entra ID Inventory Solution are:
 

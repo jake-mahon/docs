@@ -4,7 +4,7 @@ The Length rule rejects passwords that contain too few or too many characters. L
 generally stronger, so only specify a maximum password length if password compatibility must be
 maintained with a system that cannot accept long passwords.
 
-![ppe_rules_3](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/ppe_rules_3.png)
+![ppe_rules_3](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/ppe_rules_3.webp)
 
 Select the **Enabled** check box to enable the Length rule.
 

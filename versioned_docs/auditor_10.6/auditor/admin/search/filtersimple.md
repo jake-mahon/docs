@@ -25,7 +25,7 @@ Follow the steps to add a filter to your search.
 
 **Step 1 –** Click a filter type icon. Enter a value you want to search for.
 
-![Account specification](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/add/add.png)
+![Account specification](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/add/add.webp)
 
 Alternatively, you can type a value directly into the Search field.
 
@@ -34,7 +34,7 @@ Alternatively, you can type a value directly into the Search field.
   To search across all columns in the results view (everywhere—Who, What, Where, Action, etc.),
   leave it as is.
 
-![Filter](/img/versioned_docs/auditor_10.6/auditor/admin/search/addsuggestions.png)
+![Filter](/img/versioned_docs/auditor_10.6/auditor/admin/search/addsuggestions.webp)
 
 **Step 2 –** Click Search to apply your filters. By default, all entries that contain the filter
 value are shown.
@@ -43,7 +43,7 @@ value are shown.
 
 | To...         | Do...                                                                                                                                                                                                                                                                                                     |
 | ------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Modify filter | Double-click the filter and type a new value. ![Filter new value](/img/versioned_docs/auditor_10.6/auditor/admin/search/search_modify_filter.png) If you need to modify the When filter, delete it and add a new value, or navigate to the Advanced mode (Simple mode does not support its modification). |
+| Modify filter | Double-click the filter and type a new value. ![Filter new value](/img/versioned_docs/auditor_10.6/auditor/admin/search/search_modify_filter.webp) If you need to modify the When filter, delete it and add a new value, or navigate to the Advanced mode (Simple mode does not support its modification). |
 | Remove filter | Click the **Close** icon next to it.                                                                                                                                                                                                                                                                      |
 
 ## Exporting and Importing Filters

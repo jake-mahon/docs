@@ -14,7 +14,7 @@ Follow the steps to enable single sign-on for the Web Console.
 **Step 1 –** Open the **WebServer.exe.config** file with a text editor, for example Notepad. It is
 located within the Web folder of the Enterprise Auditor installation directory.
 
-![WebServer.exe.config file in Notepad](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/reports/webserverexeconfigsso.png)
+![WebServer.exe.config file in Notepad](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/reports/webserverexeconfigsso.webp)
 
 **Step 2 –** Change the value for the `WindowsAuthentication` parameter to:
 
@@ -40,16 +40,16 @@ Follow the steps to configure local intranet settings.
 **Step 1 –** Open Windows Internet Properties (**Control Panel** > **Network and
 Internet** > **Internet Options**).
 
-![ConfigureLocalIntranetSettingsforSSO - 1](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/reports/internetproperties.png)
+![ConfigureLocalIntranetSettingsforSSO - 1](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/reports/internetproperties.webp)
 
 **Step 2 –** Go to the Security tab, and select the **Local Intranet** option. Then, click the
 **Sites** button.
 
-![localintranet](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/reports/localintranet.png)
+![localintranet](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/reports/localintranet.webp)
 
 **Step 3 –** Click the **Advanced** button.
 
-![localintranetadvanced](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/reports/localintranetadvanced.png)
+![localintranetadvanced](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/reports/localintranetadvanced.webp)
 
 **Step 4 –** Enter a domain in the **Add this website in the zone** field. Ensure the fully
 qualified domain name is in the following format: `https://<server>.<domain>.com`

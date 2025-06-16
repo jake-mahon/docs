@@ -101,7 +101,7 @@ adjacent pane displays the domain controllers in that domain.
 **Step 1 –** Enable the Backup toggle button for a domain controller to launch the Server Backup
 Configuration wizard.
 
-![Server Backup Configuration wizard - Server page](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/server.webp)
+![Server Backup Configuration wizard - Server page](../../../../../static/img/product_docs/accessanalyzer/admin/settings/server.webp)
 
 **Step 2 –** In the Server field, the domain controller to be backed up is displayed as read-only in
 the following format: server.domain.com.
@@ -130,7 +130,7 @@ default time is 12:00 AM.
 
 **Step 7 –** Click **Next**.
 
-![Server Backup Configuration wizard - Options page](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/install/application/options.webp)
+![Server Backup Configuration wizard - Options page](../../../../../static/img/product_docs/accessanalyzer/install/application/options.webp)
 
 **Step 8 –** In the Specify where you would like to store the backup data field, enter a path to a
 network share on the domain controller to store the backup data.

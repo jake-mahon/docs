@@ -8,7 +8,7 @@ select **System Settings** to open the System Settings interface.
 
 Click **About Threat Manager** in the navigation pane.
 
-![System Settings interfaces on the About Threat Manager page](/img/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/configuration/systemsettings/about.png)
+![System Settings interfaces on the About Threat Manager page](/img/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/configuration/systemsettings/about.webp)
 
 The About Threat Manager section contains application version information. It also includes the
 application copyright information.

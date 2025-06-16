@@ -3,7 +3,7 @@
 On the Monitored Domains tab, select the domain and click **Edit** to open the AD Monitoring
 Configuration window.
 
-![AD Monitoring Configuration - Global Filters Tab](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/globalfilterstab.png)
+![AD Monitoring Configuration - Global Filters Tab](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/globalfilterstab.webp)
 
 This initially configured when the AD Agent is deployed to a domain controller. However, the
 monitoring configuration can be edited after that. Use the following tabs to modify monitoring of AD

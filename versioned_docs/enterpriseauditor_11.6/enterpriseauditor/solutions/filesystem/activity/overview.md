@@ -3,7 +3,7 @@
 The 5.Activity job group is designed to report on activity event information from targeted file
 servers.
 
-![5.Activity Job Group in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/jobstree.png)
+![5.Activity Job Group in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/jobstree.webp)
 
 The 5.Activity job group is comprised of:
 

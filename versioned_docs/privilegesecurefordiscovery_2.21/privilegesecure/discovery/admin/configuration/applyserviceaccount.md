@@ -31,7 +31,7 @@ Here we can see a service account that exists within the Domain Admins group. Th
 is an interactive group that should only have a very small set of admin accounts that are used
 specifically for administering the domain.
 
-![1.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/4995338773655_1_452x510.png)
+![1.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/4995338773655_1_452x510.webp)
 
 All machines that have the Domain Admins group within the local administrators group will need to
 have this applied directly to support the software or process using this specific account. If
@@ -45,7 +45,7 @@ Tip: Ensure that any nested groups are also reviewed for service accounts.
 The machine can be updated via the UI to add the account directly to the inventory (Privilege Secure
 will apply this during the next scan cycle or immediately if a rescan is initiated).
 
-![3.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/4995338773655_3.png)
+![3.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/4995338773655_3.webp)
 
 Obviously, this is not suitable for updating a large amount of machines that would likely be
 involved in a Privilege Secure rollout. In this case Quickstart is utilized.
@@ -60,7 +60,7 @@ The Quickstart report script is likely to be different for the specific install.
 
 This produces an Excel file with two tabs, _Computer Data_ and _Admin List_.
 
-![2.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/4995338773655_2.png)
+![2.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/4995338773655_2.webp)
 
 ### Updating the Quickstart File
 

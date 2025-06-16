@@ -1,3 +1,12 @@
+---
+id: organization-groups
+title: "Organization Groups"
+pagination_label: "Organization Groups"
+sidebar_label: "Organization Groups"
+sidebar_position: 37
+description: "Learn how to create and manage organization groups for designated user access control."
+---
+
 # Organization Groups
 
 An organization group allows designated users to access and manage only the specific organizations

@@ -9,7 +9,7 @@ default until removed. See the
 [Results Pane](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/navigate/overview.md#results-pane)
 topic for information on changing this option.
 
-![Sensitive Content report for imported data](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/sharepoint/sensitivecontent.png)
+![Sensitive Content report for imported data](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/sharepoint/sensitivecontent.webp)
 
 This report is comprised of the following columns:
 

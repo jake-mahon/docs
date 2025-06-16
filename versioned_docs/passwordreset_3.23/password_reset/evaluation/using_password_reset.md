@@ -22,7 +22,7 @@ Follow the steps below to manually enroll into Password Reset.
 
 **Step 1 –** Click the **Enroll** item in the menu.
 
-![using_apr_1_1](/img/versioned_docs/passwordreset_3.23/password_reset/evaluation/using_apr_1_1.png)
+![using_apr_1_1](/img/versioned_docs/passwordreset_3.23/password_reset/evaluation/using_apr_1_1.webp)
 
 **Step 2 –** Enter a **Username**, **Domain**, and **Password** in the respective fields.
 

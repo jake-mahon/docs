@@ -9,11 +9,11 @@ To create a user in Microsoft Entra ID:
 1. In the Microsoft Entra Admin Center, go to Microsoft Entra ID> Users and click **New User** >
    **Create new user**.
 
-    ![create_user](/img/versioned_docs/groupid_11.0/groupid/configureentraid/register/create_user.png)
+    ![create_user](/img/versioned_docs/groupid_11.0/groupid/configureentraid/register/create_user.webp)
 
 2. On the **User** page:
 
-    ![create_new_user_page](/img/versioned_docs/groupid_11.0/groupid/configureentraid/register/create_new_user_page.png)
+    ![create_new_user_page](/img/versioned_docs/groupid_11.0/groupid/configureentraid/register/create_new_user_page.webp)
 
     - The **Basics** tab contains the core fields required to create a new user.
 

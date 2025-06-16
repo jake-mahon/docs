@@ -4,7 +4,7 @@ Password manager can be used to automatically schedule password changes, for ser
 are being used to access external systems. This is particularly useful when there are business
 policies in place to change passwords on a rolling basis.
 
-![passwordmanager_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/security/passwordmanager_thumb_0_0.png)
+![passwordmanager_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/security/passwordmanager_thumb_0_0.webp)
 
 To amend the passwords for a username record first select Passwords from the main display. Then
 either click Edit on a particular password row, or, click Add Password to add a new password for the

@@ -1,3 +1,12 @@
+---
+id: manage-risk-metrics
+title: "Manage Risk Metrics"
+pagination_label: "Manage Risk Metrics"
+sidebar_label: "Manage Risk Metrics"
+sidebar_position: 78
+description: "Learn how to view, modify, and manage risk thresholds for security metrics within risk profiles."
+---
+
 # Manage Risk Metrics
 
 A risk profile includes a set of risk metrics, each with preconfigured risk thresholds. A risk

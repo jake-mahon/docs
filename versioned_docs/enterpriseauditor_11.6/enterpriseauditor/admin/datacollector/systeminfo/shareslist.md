@@ -3,7 +3,7 @@
 On the Shares List page, configure the shares to include and exclude. It is a wizard page for the
 category of File Shares.
 
-![System Info Data Collector Wizard Shares List page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/systeminfo/shareslist.png)
+![System Info Data Collector Wizard Shares List page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/systeminfo/shareslist.webp)
 
 Select from the following options to exclude system or hidden shared folders from enumeration:
 

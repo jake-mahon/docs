@@ -6,7 +6,7 @@ This connector exports and fulfills users and groups from/to a
 This page is about
 [Directory/Google Workspace](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/googleworkspace/index.md).
 
-![Package: Directory/Google Workspace](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/googleworkspace/packages_workspace_v603.png)
+![Package: Directory/Google Workspace](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/googleworkspace/packages_workspace_v603.webp)
 
 ## Overview
 

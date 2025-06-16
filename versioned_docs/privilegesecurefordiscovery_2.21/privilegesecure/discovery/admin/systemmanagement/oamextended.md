@@ -97,13 +97,13 @@ administrators have access to configure these settings.
 Below is a screenshot when the policy has not yet been applied, or has been set to disabled AKA
 “Unmanaged”.
 
-![OAM-UI-test-Unmanaged-default.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/systemmanagement/360043745553_oam-ui-test-unmanaged-default.png)
+![OAM-UI-test-Unmanaged-default.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/systemmanagement/360043745553_oam-ui-test-unmanaged-default.webp)
 
 As an example of seeing most of the options in action, the screenshot below show a custom strategy
 setting by selecting “Advanced...”. In the case shown, this is just “Best Practice” plus the added
 feature of randomizing the Alt-Admin name.
 
-![OAM-grant-access-overview2.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/systemmanagement/360043745553_oam-grant-access-overview2.png)
+![OAM-grant-access-overview2.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/systemmanagement/360043745553_oam-grant-access-overview2.webp)
 
 Note that if the “Best Practice” option is selected, no “Offline Access Policy Options” dialog will
 be displayed. All options will be set automatically with the exception that any previously set
@@ -122,30 +122,30 @@ On the right, a JITA or persistent non-admin user’s view. When the option is c
 user will see “key” icon indicating that a current password is available, and the action menu items
 to reveal it as well as to access the password history.
 
-![jita-or-persistent-modal.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/systemmanagement/360043745553_jita-or-persistent-modal.png)
+![jita-or-persistent-modal.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/systemmanagement/360043745553_jita-or-persistent-modal.webp)
 
 When the option is not selected by the administrator, access to the password will no longer exist.
 
-![jit-modal-2.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/systemmanagement/360043745553_jit-modal-2.png)
+![jit-modal-2.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/systemmanagement/360043745553_jit-modal-2.webp)
 
 In the event that an S1 administrator deselect that option while a non-admin’s browser is open, the
 API protects password visibility and returns a “forbidden” error.
 
-![jit-modal-api-smart-alert.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/systemmanagement/360043745553_jit-modal-api-smart-alert.png)
+![jit-modal-api-smart-alert.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/systemmanagement/360043745553_jit-modal-api-smart-alert.webp)
 
 ## UI - Domain Configuration Page
 
 In a very similar process as on the Grant Access page, default settings may be saved so that any
 newly discovered system will have those policy settings automatically applied
 
-![OAM-S1-1043_copy.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/systemmanagement/360043745553_oam-s1-1043_copy.png)
+![OAM-S1-1043_copy.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/systemmanagement/360043745553_oam-s1-1043_copy.webp)
 
 The domain level OAM default policy settings are persisted to the
 `default_system_config.policies.offline_access_management` object in the `ldap_config` collection in
 the database as shown below. If “Best Practice” is selected, even though the dialog is not
 displayed, all options will be saves as displayed in the bottom of the image.
 
-![OAM_domain_config_to_DB.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/systemmanagement/360043745553_oam_domain_config_to_db.png)
+![OAM_domain_config_to_DB.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/systemmanagement/360043745553_oam_domain_config_to_db.webp)
 
 ## QuickStart Utility
 
@@ -157,7 +157,7 @@ The image below shows the column structure of the excel spreadsheet that has bee
 in blue is the system data that had been exported, while the data in yellow has been entered by a
 user to be imported to Privilege Secure.
 
-![OAM-S1-1824.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/systemmanagement/360043745553_oam-s1-1824.png)
+![OAM-S1-1824.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/systemmanagement/360043745553_oam-s1-1824.webp)
 
 The following policy options will be displayed for the computer's OAM Policy if it exists.
 
@@ -191,7 +191,7 @@ Default Settings by Strategy
 If an invalid combination of settings is entered, the API end-point will protect against sending
 invalid options.
 
-![OAM-S1-2343-validate_paramts_dont_conflic_using_quickstart.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/systemmanagement/360043745553_oam-s1-2343-validate_paramts_dont_conflic_using_quickstart.png)
+![OAM-S1-2343-validate_paramts_dont_conflic_using_quickstart.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/systemmanagement/360043745553_oam-s1-2343-validate_paramts_dont_conflic_using_quickstart.webp)
 
 For example, if the following settings are entered:
 
@@ -209,7 +209,7 @@ Response Body:
 Policies can be set using the Privilege Secure API.  
 The screenshot below shows access using Postman to test access to the API end-point.
 
-![OAM_postman.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/systemmanagement/360043745553_oam_postman.png)
+![OAM_postman.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/systemmanagement/360043745553_oam_postman.webp)
 
 ## Querying the database by OAM policy settings
 
@@ -306,7 +306,7 @@ variables, a restart of the service would be required to take effect.
 If the database contains a `managed_sids` entry in the `ldap_config` record in the
 `discovery_config` collection, then any specified value will take precedence.
 
-![password_rotation_config.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/systemmanagement/360043745553_password_rotation_config.png)
+![password_rotation_config.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/systemmanagement/360043745553_password_rotation_config.webp)
 
 If a database entry is not specified for any value, then the following environment variables will be
 checked. If neither a database value nor an environment variable is specified, the default value
@@ -355,7 +355,7 @@ There are several mechanisms that can trigger a password rotation:
 - or, on demand via the Grant Access page as shown below. This requires a Rescan to perform the
   process right away.
 
-![S1-911_rotate_password_menu_item.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/systemmanagement/360043745553_s1-911_rotate_password_menu_item.png)
+![S1-911_rotate_password_menu_item.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/systemmanagement/360043745553_s1-911_rotate_password_menu_item.webp)
 
 ## Logging
 

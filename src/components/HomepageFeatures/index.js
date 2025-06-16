@@ -38,49 +38,66 @@ const SECTION_TITLES = [
  */
 const ProductCategories = [
   {
-    title: 'Security Administration',
-    description: 'Comprehensive security monitoring and threat detection for your infrastructure',
-    icon: '🛡️',
+    title: 'Identity Management',
+    description: 'Comprehensive identity and user management solutions',
+    icon: '👤',
     products: [
       {
-        name: '1Secure',
-        description: 'Cloud-based security monitoring and compliance',
-        link: '/docs/1secure',
+        name: 'UserCube',
+        description: 'User provisioning and management',
+        link: '/docs/usercube',
       },
       {
-        name: 'Access Analyzer',
-        description: 'Analyze and audit file system permissions',
-        link: '/docs/accessanalyzer',
+        name: 'UserCube SaaS',
+        description: 'Cloud-based user management',
+        link: '/docs/usercube_saas',
       },
       {
-        name: 'Activity Monitor',
-        description: 'Track user activities across IT infrastructure',
-        link: '/docs/activitymonitor',
+        name: 'GroupID',
+        description: 'Active Directory group management',
+        link: '/docs/groupid',
       },
+      {
+        name: 'StrongPoint',
+        description: 'Platform governance and compliance',
+        link: '/docs/strongpointfornetsuite',
+      },
+    ],
+  },
+  {
+    title: 'Privileged Access Management (PAM)',
+    description: 'Control and monitor privileged access to critical systems',
+    icon: '🔐',
+    products: [
+      {
+        name: 'Privilege Secure',
+        description: 'Privileged access management',
+        link: '/docs/privilegesecure',
+      },
+      {
+        name: 'Endpoint Privilege Manager',
+        description: 'Endpoint privilege management',
+        link: '/docs/policypak',
+      },
+      {
+        name: 'Password Secure',
+        description: 'Secure password management',
+        link: '/docs/passwordsecure',
+      },
+    ],
+  },
+  {
+    title: 'Directory Management',
+    description: 'Active Directory management and password policy enforcement',
+    icon: '📁',
+    products: [
       {
         name: 'Auditor',
         description: 'Comprehensive IT infrastructure auditing',
         link: '/docs/auditor',
       },
       {
-        name: 'Threat Manager',
-        description: 'Advanced threat detection and response',
-        link: '/docs/threatmanager',
-      },
-    ],
-  },
-  {
-    title: 'Identity & Access Management',
-    description: 'Secure user identities, passwords, and access controls',
-    icon: '🔐',
-    products: [
-      {
-        name: 'Access Information Center',
-        description: 'Centralized access information management',
-        link: '/docs/accessinformationcenter',
-      },
-      {
-        name: 'Group ID',
+        name: 'GroupID',
         description: 'Active Directory group management',
         link: '/docs/groupid',
       },
@@ -89,32 +106,108 @@ const ProductCategories = [
         description: 'Enforce strong password policies',
         link: '/docs/passwordpolicyenforcer',
       },
-      {
-        name: 'Password Reset',
-        description: 'Self-service password reset solution',
-        link: '/docs/passwordreset',
-      },
-      {
-        name: 'Password Secure',
-        description: 'Secure password management',
-        link: '/docs/passwordsecure',
-      },
-      {
-        name: 'Privilege Secure',
-        description: 'Privileged access management',
-        link: '/docs/privilegesecure',
-      },
     ],
   },
   {
-    title: 'Change & Compliance',
-    description: 'Monitor changes and maintain compliance across your environment',
-    icon: '📊',
+    title: 'Endpoint Management',
+    description: 'Comprehensive endpoint protection and policy management',
+    icon: '💻',
     products: [
+      {
+        name: 'Endpoint Protector',
+        description: 'Comprehensive endpoint security',
+        link: '/docs/endpointprotector',
+      },
+      {
+        name: 'PolicyPak',
+        description: 'Group Policy management and enforcement',
+        link: '/docs/policypak',
+      },
       {
         name: 'Change Tracker',
         description: 'Real-time change monitoring and alerts',
         link: '/docs/changetracker',
+      },
+    ],
+  },
+  {
+    title: 'Data Security Posture Management (DSPM)',
+    description: 'Protect and classify your organization\'s sensitive data',
+    icon: '🛡️',
+    products: [
+      {
+        name: '1Secure',
+        description: 'Cloud-based security monitoring and compliance',
+        link: '/docs/1secure',
+      },
+      {
+        name: 'Auditor',
+        description: 'Comprehensive IT infrastructure auditing',
+        link: '/docs/auditor',
+      },
+      {
+        name: 'Access Analyzer',
+        description: 'Analyze and audit file system permissions',
+        link: '/docs/accessanalyzer',
+      },
+      {
+        name: 'Data Classification',
+        description: 'Classify and protect sensitive data',
+        link: '/docs/dataclassification',
+      },
+    ],
+  },
+  {
+    title: 'Identity Threat Detection & Response (ITDR)',
+    description: 'Advanced threat detection and incident response capabilities',
+    icon: '🚨',
+    products: [
+      {
+        name: 'PingCastle',
+        description: 'Active Directory security assessment',
+        link: '/docs/pingcastle',
+      },
+      {
+        name: 'Access Analyzer',
+        description: 'Analyze and audit file system permissions',
+        link: '/docs/accessanalyzer',
+      },
+      {
+        name: 'Threat Manager',
+        description: 'Advanced threat detection and response',
+        link: '/docs/threatmanager',
+      },
+      {
+        name: 'Threat Prevention',
+        description: 'Proactive threat prevention',
+        link: '/docs/threatprevention',
+      },
+      {
+        name: 'Recovery for Active Directory',
+        description: 'Active Directory backup and recovery',
+        link: '/docs/recoveryforactivedirectory',
+      },
+    ],
+  },
+  {
+    title: 'Other',
+    description: 'Additional security and management tools',
+    icon: '🔧',
+    products: [
+      {
+        name: 'Access Information Center',
+        description: 'Centralized access information management',
+        link: '/docs/accessinformationcenter',
+      },
+      {
+        name: 'Activity Monitor',
+        description: 'Track user activities across IT infrastructure',
+        link: '/docs/activitymonitor',
+      },
+      {
+        name: 'Password Reset',
+        description: 'Self-service password reset solution',
+        link: '/docs/passwordreset',
       },
       {
         name: 'StrongPoint for NetSuite',
@@ -135,48 +228,6 @@ const ProductCategories = [
         name: 'StrongPoint Salesforce Flashlight',
         description: 'Lightweight Salesforce documentation and analysis',
         link: '/docs/strongpointsalesforceflashlight',
-      },
-      {
-        name: 'Data Classification',
-        description: 'Classify and protect sensitive data',
-        link: '/docs/dataclassification',
-      },
-      {
-        name: 'Recovery for Active Directory',
-        description: 'Active Directory backup and recovery',
-        link: '/docs/recoveryforactivedirectory',
-      },
-    ],
-  },
-  {
-    title: 'Endpoint & Policy',
-    description: 'Secure endpoints and enforce organizational policies',
-    icon: '💻',
-    products: [
-      {
-        name: 'Endpoint Protector',
-        description: 'Comprehensive endpoint security',
-        link: '/docs/endpointprotector',
-      },
-      {
-        name: 'PolicyPak',
-        description: 'Group Policy management and enforcement',
-        link: '/docs/policypak',
-      },
-      {
-        name: 'Threat Prevention',
-        description: 'Proactive threat prevention',
-        link: '/docs/threatprevention',
-      },
-      {
-        name: 'UserCube',
-        description: 'User provisioning and management',
-        link: '/docs/usercube',
-      },
-      {
-        name: 'UserCube SaaS',
-        description: 'Cloud-based user management',
-        link: '/docs/usercube_saas',
       },
     ],
   },

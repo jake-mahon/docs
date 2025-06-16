@@ -18,7 +18,7 @@ the category selected. It is a wizard page for the categories of:
 - Deploy or Change Applet Settings
 - Remove Applet Settings
 
-![Exchange Metrics Data Collector Wizard Options page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/options.png)
+![Exchange Metrics Data Collector Wizard Options page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/options.webp)
 
 Select the checkbox of any of the following options to configure the query:
 

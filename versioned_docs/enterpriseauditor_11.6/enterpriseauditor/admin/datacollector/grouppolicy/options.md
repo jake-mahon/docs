@@ -3,7 +3,7 @@
 The Options page is used to configure how to return multi-valued properties and how policy results
 are presented. It is a wizard page for all categories.
 
-![Group Policy Data Collector Wizard Options page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/options.png)
+![Group Policy Data Collector Wizard Options page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/options.webp)
 
 The configurable options are:
 

@@ -33,7 +33,7 @@ configure modern authentication for SharePoint Online. It requires:
 - Microsoft Graph API PowerShell module to be installed on targeted hosts
 
 See the
-[SP_RegisterAzureAppAuth Job](../../enterpriseauditor/admin/jobs/instantjobs/sp_registerazureappauth.md)
+[SP_RegisterAzureAppAuth Job](../../admin/jobs/instantjobs/sp_registerazureappauth.md)
 topic for additional information.
 
 ## Permissions
@@ -294,5 +294,5 @@ list.
 **Step 3 –** Save this value in a text file.
 
 This is needed for the Access Analyzer Connection Profile. See the
-[Azure Active Directory for User Credentials](../../enterpriseauditor/admin/settings/connection/profile/entraid.md)
+[Azure Active Directory for User Credentials](../../admin/settings/connection/profile/entraid.md)
 topic for additional information.

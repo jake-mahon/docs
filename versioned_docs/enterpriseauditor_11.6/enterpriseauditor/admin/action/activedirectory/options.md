@@ -3,7 +3,7 @@
 The Options page provides the option to select to use the default domain or specific a domain to
 use.
 
-![Active Directory Action Module Wizard Options page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/options.png)
+![Active Directory Action Module Wizard Options page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/options.webp)
 
 Use the following options to configure the action:
 

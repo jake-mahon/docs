@@ -3,7 +3,7 @@
 The Complexity rule rejects passwords that do not contain characters from a variety of character
 sets. Using several character types can make passwords more difficult to crack.
 
-![ppe_rules_4](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/ppe_rules_4.png)
+![ppe_rules_4](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/ppe_rules_4.webp)
 
 Select the **Enabled** check box to enable the Complexity rule.
 

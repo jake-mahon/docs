@@ -12,7 +12,7 @@ search functions for records.
 The (marked) records are moved either via the ribbon or via the context menu that is accessed using
 the right mouse button.
 
-![moving password](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/passwords/moving_passwords_1-en.png)
+![moving password](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/passwords/moving_passwords_1-en.webp)
 
 Multiple records can also be marked and moved. The selected permissions are then valid for all
 records in this case.
@@ -22,11 +22,11 @@ records in this case.
 No special user rights/settings are required in order to move records. The “move” right for the
 record is the only deciding factor.
 
-![required permissions](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/passwords/moving_passwords_2-en.png)
+![required permissions](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/passwords/moving_passwords_2-en.webp)
 
 ## Effects on existing permissions
 
-![effects on existing permissions](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/passwords/moving_passwords_3-en.png)
+![effects on existing permissions](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/passwords/moving_passwords_3-en.webp)
 
 - **Retain permissions**: The permissions for the record are not changed by moving it and are
   retained

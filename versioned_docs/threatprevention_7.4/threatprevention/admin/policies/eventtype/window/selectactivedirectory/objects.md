@@ -3,7 +3,7 @@
 The Select Active Directory Objects window provides a list of available AD objects. Selected objects
 are added to the filter from where you clicked the **Add** (+) button to open this window.
 
-![Select Active Directory Objects Window](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/adobjects.png)
+![Select Active Directory Objects Window](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/adobjects.webp)
 
 - Select either Browse Mode or Search Mode.
 

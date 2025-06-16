@@ -6,7 +6,7 @@ Follow the steps below to edit a managed account in a secret vault.
 
 **Step 2 –** Click **Edit**.
 
-![Edit a Managed Account for Resources](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/window/resources/editmanagedaccount.png)
+![Edit a Managed Account for Resources](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/window/resources/editmanagedaccount.webp)
 
 **Step 3 –** Enter the following information:
 

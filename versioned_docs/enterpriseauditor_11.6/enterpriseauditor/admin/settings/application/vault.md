@@ -34,7 +34,7 @@ be met in the order listed:
 
 - The Profile Security section of the Application node must be set to **Vault**
 
-    ![Vault Security](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/application/vaultrbaerror.png)
+    ![Vault Security](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/application/vaultrbaerror.webp)
 
     If the previous prerequisites have not been met, then one of the following errors will occur
     when attempting to save the Vault Profile Security setting:

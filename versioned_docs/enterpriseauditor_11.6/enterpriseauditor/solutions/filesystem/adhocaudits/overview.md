@@ -8,7 +8,7 @@ the required information before job execution.
 
 **_RECOMMENDED:_** Run these jobs independently of the solution.
 
-![Ad Hoc Audits Job Group](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/jobstree.png)
+![Ad Hoc Audits Job Group](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/jobstree.webp)
 
 The Ad Hoc Audits Job Group is comprised of:
 

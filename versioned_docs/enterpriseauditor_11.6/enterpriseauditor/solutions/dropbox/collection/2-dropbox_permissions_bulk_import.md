@@ -11,7 +11,7 @@ environment.
 The 2-Dropbox_Permissions Bulk Import job has been preconfigured to run with the default settings
 with the category of Bulk Import Access Scan Results.
 
-![Queries for the 2-Dropbox_Permissions Bulk Import Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/dropbox/collection/permissionsbulkimportquery.png)
+![Queries for the 2-Dropbox_Permissions Bulk Import Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/dropbox/collection/permissionsbulkimportquery.webp)
 
 The query for the 2-Dropbox_Permissions Bulk Import job is:
 

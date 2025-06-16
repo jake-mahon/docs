@@ -1,3 +1,12 @@
+---
+id: add-organizations
+title: "Add Organizations"
+pagination_label: "Add Organizations"
+sidebar_label: "Add Organizations"
+sidebar_position: 32
+description: "Follow step-by-step instructions to add new organizations to your 1Secure system."
+---
+
 # Add Organizations
 
 Follow the steps to add an organization.
@@ -34,7 +43,7 @@ organization:
 - Exchange Online
 - SharePoint Online
 
-**NOTE:** See the [Sources and Connectors ](sourcesandconnectors/overview.md) topic for detailed
+**NOTE:** See the [Sources and Connectors](sourcesandconnectors/index.md) topic for detailed
 information.
 
 ![addorganizationssites](../../../../static/img/product_docs/1secure/admin/organizations/addorganizationssites.webp)
@@ -49,7 +58,7 @@ See the [Add Sites to an Organization](addsites.md) topic for additional informa
 ![addorganizationsagent](../../../../static/img/product_docs/1secure/admin/organizations/addorganizationsagent.webp)
 
 **Step 5 –** On the Configure source details (Step 3 of 4) window, follow the instructions to
-install the agent. Please go to the [Install Agent](../../install/installagent.md)topic of the
+install the agent. Please go to the [Install Agent](../../install/installagent.md) topic of the
 online help. Click **Next**.
 
 **NOTE:** Install the agent only for on-prem sources - Active Directory and Computer. This step is
@@ -58,12 +67,12 @@ displayed only when adding these sources.
 ![addorganizationssourcedetails](../../../../static/img/product_docs/1secure/admin/organizations/addorganizationssourcedetails.webp)
 
 **Step 6 –** On the Configure source details (Step 3 of 4) window, specify your source settings. See
-the [Sources and Connectors ](sourcesandconnectors/overview.md) topic for additional information.
+the [Sources and Connectors](sourcesandconnectors/index.md) topic for additional information.
 
 ![addorganizationssourcesandconnectors](../../../../static/img/product_docs/1secure/admin/organizations/addorganizationssourcesandconnectors.webp)
 
 **Step 7 –** On the Choose new connector (Step 4 of 4) window, add the connectors for your sources
-on. See the [Sources and Connectors ](sourcesandconnectors/overview.md) topic for additional
+on. See the [Sources and Connectors](sourcesandconnectors/index.md) topic for additional
 information.
 
 **Step 8 –** Click **Finish** or **Save & Add another source** to add a source for your

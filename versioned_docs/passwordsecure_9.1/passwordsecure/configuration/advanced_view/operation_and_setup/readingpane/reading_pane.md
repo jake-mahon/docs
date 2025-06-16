@@ -7,7 +7,7 @@ selected record in the list view and can be completely deactivated via the ribbo
 can configure here the arrangement of the reading pane – either on the right, or underneath the
 [List view](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/operation_and_setup/listview/list_view.md).
 
-![Reading area](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/operation_and_setup/readingpane/installation_with_parameters_34-en.png)
+![Reading area](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/operation_and_setup/readingpane/installation_with_parameters_34-en.webp)
 
 ## Structure of the reading pane
 
@@ -16,7 +16,7 @@ The reading pane is divided into two areas:
 1. **Details area**
 2. Footer area
 
-![installation_with_parameters_35](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/operation_and_setup/readingpane/installation_with_parameters_35.png)
+![installation_with_parameters_35](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/operation_and_setup/readingpane/installation_with_parameters_35.webp)
 
 1. Details area
 
@@ -37,7 +37,7 @@ In the footer area of the reading pane, it is possible to display various inform
 currently selected record. The button can be activated via the button provided. It is hidden by
 default.
 
-![Footer area](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/operation_and_setup/readingpane/installation_with_parameters_36-en.png)
+![Footer area](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/operation_and_setup/readingpane/installation_with_parameters_36-en.webp)
 
 The logbook, linked documents, history, notifications and password resets can be accessed separately
 here via the tabs. The individual elements can be viewed with a double-click, as well as by using
@@ -47,7 +47,7 @@ a modal window
 Visibility of the individual tabs within the footer section is secured via separate
 [User rights](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/mainmenu/user_rights/user_rights.md):
 
-![installation_with_parameters_37](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/operation_and_setup/readingpane/installation_with_parameters_37.png)
+![installation_with_parameters_37](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/operation_and_setup/readingpane/installation_with_parameters_37.webp)
 
 The same options can also be found in the settings. A tab is only displayed if it has been activated
 both in the rights and also in the settings. This makes it possible to specify (for example via the

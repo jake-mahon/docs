@@ -5,7 +5,7 @@ the
 [Manage Reviews Page](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/interface.md#manage-reviews-page)
 topic for additional information.
 
-![Create Review wizard](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/wizard/reviewtype.png)
+![Create Review wizard](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/wizard/reviewtype.webp)
 
 It contains four pages:
 
@@ -48,7 +48,7 @@ Follow the steps to create a review.
 
 **Step 1 –** On the Manage Reviews page, click Create. The Create Review wizard opens.
 
-![Create Review wizard Review Type page](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/wizard/reviewtype.png)
+![Create Review wizard Review Type page](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/wizard/reviewtype.webp)
 
 **Step 2 –** On the Review Type page, provide the following information and click **Next**:
 
@@ -80,7 +80,7 @@ Follow the steps to create a review.
 **NOTE:** If creating a Sensitive Data review, continue to Step 3. For all other review types, skip
 to Step 5.
 
-![Create Review wizard Criteria page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/ewsmailbox/criteria.png)
+![Create Review wizard Criteria page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/ewsmailbox/criteria.webp)
 
 **Step 3 –** On the Criteria page, select the types of sensitive criteria to include in the
 Sensitive Data review from the list on the left and click **Add**. Multiple items can be selected
@@ -100,7 +100,7 @@ Netwrix Enterprise Auditor for all of the resources selected in Step 5, the One 
 selected have not been scanned error occurs. The Create Review wizard will not allow the review to
 be created until those resources have been removed or the option unchecked.
 
-![Create Review wizard Resources page](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/resources.png)
+![Create Review wizard Resources page](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/resources.webp)
 
 **Step 5 –** On the Resources page, select the resources to be included in the review. The Search
 feature is available to filter the list of available resource that match the type of review being
@@ -142,12 +142,12 @@ created.
 
 - Once the desired resources have been selected, click **Next**.
 
-![Create Review wizard Summary page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/adinventory/summary.png)
+![Create Review wizard Summary page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/adinventory/summary.webp)
 
 **Step 6 –** On the Summary page, review the settings and click **Next**. The Access Information
 Center begins to create the review.
 
-![Create Review wizard review created message](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/wizard/created.png)
+![Create Review wizard review created message](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/wizard/created.webp)
 
 **Step 7 –** The action status displays on the page. When the review has been created (100%), click
 **Close**. The Create Review wizard closes.

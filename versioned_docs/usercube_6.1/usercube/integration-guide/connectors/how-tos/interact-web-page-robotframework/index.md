@@ -50,7 +50,7 @@ which can be opened by pressing the F12 key on most browsers. For Selenium, we w
 information on specific parts of the page. Inspecting an element can be done by right clicking the
 element, and clicking **Inspect**.
 
-![Inspect Tool](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/how-tos/interact-web-page-robotframework/robotframeworkselenium_inspecttool.png)
+![Inspect Tool](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/how-tos/interact-web-page-robotframework/robotframeworkselenium_inspecttool.webp)
 
 Suppose the goal of the script is to copy the content of the code block, and paste it to a file, to
 ensure that the file is up to date with the documentation. To do this, the Robot Framework has to
@@ -74,7 +74,7 @@ Each element on the web page has an XPath, and each XPath uniquely identifies an
 that we can always use an XPath locator. To get the XPath of an element, inspect the element, then
 right click it in the HTML, and click on **Copy** > **Full XPath**.
 
-![Copy Full XPath](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/how-tos/interact-web-page-robotframework/robotframeworkselenium_copyfullxpath.png)
+![Copy Full XPath](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/how-tos/interact-web-page-robotframework/robotframeworkselenium_copyfullxpath.webp)
 
 For the `copy to clipboard` button, the XPath is
 `/html/body/section/div[2]/div[3]/div[1]/pre[4]/span`.

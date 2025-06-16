@@ -42,14 +42,14 @@ showcasing the following information:
 - You can view the files and folders within a document library till the nth level. Double-click a
   folder card to view its direct child files and folders. Continue till the nth level.
 
-    ![sitesfolders](/img/versioned_docs/groupid_11.0/groupid/portal/entitlement/sitesfolders.png)
+    ![sitesfolders](/img/versioned_docs/groupid_11.0/groupid/portal/entitlement/sitesfolders.webp)
 
 ## View levels and permissions on a library
 
 On clicking a library card or even a file/folder card, all users and groups with permission on it
 are listed in the right pane.
 
-![sitesrightpane](/img/versioned_docs/groupid_11.0/groupid/portal/entitlement/sitesrightpane.png)
+![sitesrightpane](/img/versioned_docs/groupid_11.0/groupid/portal/entitlement/sitesrightpane.webp)
 
 Information includes:
 
@@ -81,7 +81,7 @@ Information includes:
 
     You can update the permissions and click **Save** icon.
 
-    ![sitespermissions](/img/versioned_docs/groupid_11.0/groupid/portal/entitlement/sitespermissions.png)
+    ![sitespermissions](/img/versioned_docs/groupid_11.0/groupid/portal/entitlement/sitespermissions.webp)
 
     Permissions are displayed as **Explicit permissions** which list the effective permissions set
     the user/group has on the file/folder.
@@ -92,7 +92,7 @@ Use the search bar to search for specific files and folders in the site. You can
 file or folder in a particular folder. Click the card for that folder and search for the required
 child file/folder.
 
-![sitessearch](/img/versioned_docs/groupid_11.0/groupid/portal/entitlement/sitessearch.png)
+![sitessearch](/img/versioned_docs/groupid_11.0/groupid/portal/entitlement/sitessearch.webp)
 
 **Search filter**
 

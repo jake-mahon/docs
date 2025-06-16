@@ -2,7 +2,7 @@
 
 Use the Computers Details page to select computer attributes to change.
 
-![Active Directory Action Module Wizard Computer Details page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/activedirectory/operations/computerdetails.png)
+![Active Directory Action Module Wizard Computer Details page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/activedirectory/operations/computerdetails.webp)
 
 Highlight the attribute to edit:
 
@@ -30,7 +30,7 @@ to use the Custom Attributes Import Wizard.
 **Step 1 –** On the Computer Details page of the Active Directory Action Module Wizard, click
 **Import**. The Custom Attribute Import Wizard opens.
 
-![Custom Attributes Import Wizard Credentials page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/agent/credentials.png)
+![Custom Attributes Import Wizard Credentials page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/agent/credentials.webp)
 
 **Step 2 –** On the Credentials page, identify a domain either by entering one manually or selecting
 one from the **Domain Name** drop-down menu which displays a list of domains trusted by the one in
@@ -43,13 +43,13 @@ attributes list from the domain:
 
 **Step 3 –** Click **Next**.
 
-![Custom Attributes Import Wizard Attributes page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/activedirectory/operations/attributescomputer.png)
+![Custom Attributes Import Wizard Attributes page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/activedirectory/operations/attributescomputer.webp)
 
 **Step 4 –** The wizard populates available attributes from the domain specified on the Attributes
 page. Expand the desired object class and select the checkboxes for the custom attributes to be
 imported. Then click **Next**.
 
-![Custom Attributes Import Wizard Completion page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/activedirectory/operations/completionpage.png)
+![Custom Attributes Import Wizard Completion page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/activedirectory/operations/completionpage.webp)
 
 **Step 5 –** On the Completion page, click **Finish**.
 

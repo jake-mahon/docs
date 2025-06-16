@@ -3,7 +3,7 @@
 The Activity Details report for a user object provides details on every activity event logged by the
 audited user during the selected date range. This report includes a Permission Changes table.
 
-![Activity Details report](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/user/activitydetails.png)
+![Activity Details report](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/user/activitydetails.webp)
 
 This report is comprised of the following columns:
 
@@ -27,7 +27,7 @@ This report is comprised of the following columns:
 There is one table at the bottom of the report displaying Permission Changes for the selected event.
 It contains details on the trustee whose permissions were updated, added, or removed.
 
-![Permission Changes table](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/user/activitydetailstable.png)
+![Permission Changes table](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/user/activitydetailstable.webp)
 
 This table is comprised of the following columns:
 

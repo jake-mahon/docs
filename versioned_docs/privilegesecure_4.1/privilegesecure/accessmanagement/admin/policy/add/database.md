@@ -12,7 +12,7 @@ include:
 
 **Step 3 –** In the Enter Database Name box, enter a unique name to identify the database.
 
-![Add Database](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/add/adddatabase.png)
+![Add Database](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/add/adddatabase.webp)
 
 **Step 4 –** Select **Microsoft SQL Server** or **Oracle** from the Platform drop-down list.
 

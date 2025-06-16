@@ -8,7 +8,7 @@ Follow the steps to test the host resource connectivity:
 
 **Step 3 –** Click the **Test** button.
 
-![Test Resource Connectivity Window](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/window/resources/testresourceconnectivity.png)
+![Test Resource Connectivity Window](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/window/resources/testresourceconnectivity.webp)
 
 **Step 4 –** Review the test status and messages (if any).
 

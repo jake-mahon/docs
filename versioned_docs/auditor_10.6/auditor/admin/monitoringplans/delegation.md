@@ -8,7 +8,7 @@ To keep the monitoring process secure, Netwrix suggests configuring role-based a
 control ensures that only appropriate users can modify the product configuration or view audit data,
 based on your company policies and the user's job responsibilities.
 
-![rbac-01](/img/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/rbac-01.png)
+![rbac-01](/img/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/rbac-01.webp)
 
 Roles are described briefly in the table below and explained in detail in the next topic.
 
@@ -95,7 +95,7 @@ Do one of the following:
 | To...                    | Do...                                                                                                                      |
 | ------------------------ | -------------------------------------------------------------------------------------------------------------------------- |
 | Assign a role            | 1. Select Add User. 2. In the dialog that opens, specify a user (or a group) and a role.                                   |
-| Revoke a role assignment | - Click ![delete](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/query/delete.png) next to the user. |
+| Revoke a role assignment | - Click ![delete](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/query/delete.webp) next to the user. |
 
 **Step 4 –** Click **Save** or **Save&Close**.
 
@@ -143,7 +143,7 @@ Netwrix Auditor Client Users group.
 
 Specify users you want to be included in this group.
 
-![Roles_Groups](/img/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/roles_groups.png)
+![Roles_Groups](/img/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/roles_groups.webp)
 
 **NOTE:** For additional information about User Activity video access management, see the
 [Configure Video Recordings Playback Settings](/versioned_docs/auditor_10.6/auditor/configuration/useractivity/videorecordings.md)

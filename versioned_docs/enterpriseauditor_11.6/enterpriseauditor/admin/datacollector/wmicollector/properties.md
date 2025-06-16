@@ -2,7 +2,7 @@
 
 On the Properties page, select the properties to extract.
 
-![WMI Browser wizard Properties page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/agent/properties.png)
+![WMI Browser wizard Properties page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/agent/properties.webp)
 
 If the **Extract only selected instances** checkbox is not selected, data is returned from all
 process instances displayed in the **Instances of `<namespace>\<class>`** box. To return data from a

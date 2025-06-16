@@ -11,7 +11,7 @@ Access Auditor Data Collector Wizard when opened from within this job.
 
 **CAUTION:** Do not modify the query. The query is preconfigured for this job.
 
-![Query Selection](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/sharepoint/collection/spacsystemscansquery.png)
+![Query Selection](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/sharepoint/collection/spacsystemscansquery.webp)
 
 The query for the 3-SPAC_SystemScans Job is:
 

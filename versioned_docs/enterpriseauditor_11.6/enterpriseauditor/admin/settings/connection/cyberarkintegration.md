@@ -39,12 +39,12 @@ Password Vault, the following prerequisites must be completed:
         [Generate an application hash value](https://docs.cyberark.com/credential-providers/Latest/en/Content/CP%20and%20ASCP/Generating-Application-Hash-Value.htm) article
         for additional information.
 
-        ![Application Details page for the CyberArk Application](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/applicationidhash.png)
+        ![Application Details page for the CyberArk Application](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/applicationidhash.webp)
 
         Add the generated hash value in the Authentication tab of the Application Details page for
         the CyberArk Application.
 
-        ![Allowed Machines list for the  CyberArk application](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/allowedmachines.png)
+        ![Allowed Machines list for the  CyberArk application](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/allowedmachines.webp)
 
     - The machine name for the Enterprise Auditor console needs to be added on the Allowed Machines
       list for the CyberArk application
@@ -55,7 +55,7 @@ Password Vault, the following prerequisites must be completed:
   automatically during the Secrets Manager installation, as well as the account created
   automatically as a result of the application creation.
 
-    ![Owners window for the Safe containing the credentials](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/vaultownerswindow.png)
+    ![Owners window for the Safe containing the credentials](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/vaultownerswindow.webp)
 
     - The account created during the AIM installation is under the naming convention
       `Prov_[COMPUTERNAME]`, where `COMPUTERNAME` is the name of the computer on which AIM is
@@ -78,7 +78,7 @@ Notepad.
 
 **CAUTION:** Ensure Enterprise Auditor is closed when modifying this file.
 
-![GlobalOptions.xml file in Notepad](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/globaloptions.png)
+![GlobalOptions.xml file in Notepad](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/globaloptions.webp)
 
 **Step 2 –** Find the `<CYBERARKAPPLICATION>` section of the `GlobalOptions.xml` file. Add the
 Application Id of the configured CyberArk application for the integration in the `<APPID>` tag. If
@@ -118,7 +118,7 @@ If the Connection Profile with a Local Windows Account credential using CyberArk
 used to target multiple hosts, then the local credential on each host needs to have the exact same
 username and password combination.
 
-![Connection view with CyberArk credentials](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/usercredentials.png)
+![Connection view with CyberArk credentials](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/usercredentials.webp)
 
 The Connection view displays `CyberArk` in the Source column of the User Credentials list for the
 selected Connection Profile.
@@ -128,7 +128,7 @@ selected Connection Profile.
 Match the User Credentials window settings in Enterprise Auditor with the privilege account
 properties in CyberArk. These values are case-sensitive, and must be an exact match.
 
-![User Credentials window for Active Directory Account](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/usercredentialsad.png)
+![User Credentials window for Active Directory Account](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/usercredentialsad.webp)
 
 The table below shows the values from your CyberArk configuration that the User Credentials window
 should be populated with:
@@ -146,7 +146,7 @@ Match the User Credentials window settings in Enterprise Auditor with the privil
 properties in CyberArk. These values are case-sensitive, and must be an exact match. The Enterprise
 Auditor Domain value is `<HOST>` and the CyberArk Address property value is the server address.
 
-![User Credentials window for Local Windows Account](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/usercredentialslocal.png)
+![User Credentials window for Local Windows Account](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/usercredentialslocal.webp)
 
 The table below shows the values from your CyberArk configuration that the User Credentials window
 should be populated with:

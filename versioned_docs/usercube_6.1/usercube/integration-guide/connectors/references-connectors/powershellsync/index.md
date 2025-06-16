@@ -6,7 +6,7 @@ This connector exports data from an external system via a
 This page is about
 [Custom/PowerShellSync](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/powershellsync/index.md).
 
-![Package: Custom/PowerShellSync](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/powershellsync/packages_powershellsync_v603.png)
+![Package: Custom/PowerShellSync](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/powershellsync/packages_powershellsync_v603.webp)
 
 ## Overview
 

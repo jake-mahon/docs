@@ -10,7 +10,7 @@ Navigate to the **Jobs** > **SharePoint** > **7.Activity** > **Forensics** > **S
 **CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
 preconfigured for this job.
 
-![Analysis Tasks for the SP_Deletions Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/box/activity/forensics/deletionsanalysis.png)
+![Analysis Tasks for the SP_Deletions Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/box/activity/forensics/deletionsanalysis.webp)
 
 The default analysis task is:
 

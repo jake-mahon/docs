@@ -1,3 +1,12 @@
+---
+id: view-tabs-and-dashboards-for-the-organization
+title: "View Tabs and Dashboards for the Organization"
+pagination_label: "View Tabs and Dashboards for the Organization"
+sidebar_label: "View Tabs and Dashboards for the Organization"
+sidebar_position: 39
+description: "Learn how to navigate and view available tabs and dashboards for managed organizations."
+---
+
 # View Tabs and Dashboards for the Organization
 
 After adding an organization, you can view available tabs for the organization on the **Managed
@@ -10,10 +19,10 @@ The Managed organizations page has the following tabs:
 ![tabsview](../../../../static/img/product_docs/1secure/admin/organizations/tabsview.webp)
 
 - Sources – Add, edit, or delete sources for your organization, review its statuses, and so on. See
-  the [Sources and Connectors ](sourcesandconnectors/overview.md) topic for additional information.
+  the [Sources and Connectors](sourcesandconnectors/index.md) topic for additional information.
 - Sites – View the sites and status of your Netwrix Cloud Agent. See the
   [Add Sites to an Organization](addsites.md) and
-  [Update Netwrix Cloud Agent](../updatenetwrixcloudagent.md) topic for additional information.
+  [Update Netwrix Cloud Agent](../../index.md#updating-netwrix-cloud-agent) topic for additional information.
 - Credentials – Review and edit the credentials of your organization. See
   the[ Manage Credentials ](managingcredentials.md)topic for additional information.
 - Users – Review or add Business Viewers or Co-managing Administrators to the audited organization.

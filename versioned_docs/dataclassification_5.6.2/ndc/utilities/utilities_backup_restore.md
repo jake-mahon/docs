@@ -27,7 +27,7 @@ destination URL. The following configuration options are available for import / 
     - SharePoint Excluded
     - Text Patterns
 
-![utilitiesbackup](/img/versioned_docs/dataclassification_5.6.2/ndc/utilities/utilitiesbackup.png)
+![utilitiesbackup](/img/versioned_docs/dataclassification_5.6.2/ndc/utilities/utilitiesbackup.webp)
 
 To create a backup simply select Create Backup and select the elements that you wish to include. The
 backup password will be required if you export a backup to XML and re-import to a different

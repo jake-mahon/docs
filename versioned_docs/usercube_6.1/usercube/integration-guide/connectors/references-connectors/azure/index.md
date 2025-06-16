@@ -7,7 +7,7 @@ resources, role definitions and assignments.
 This page is about
 [Cloud/Azure](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/azure/index.md).
 
-![Package: Cloud/Azure](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/azure/packages_azure_v603.png)
+![Package: Cloud/Azure](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/azure/packages_azure_v603.webp)
 
 ## Prerequisites
 

@@ -8,7 +8,7 @@ data.
 
 **Step 1 –** Create a new job and assign a query using the **ADInventory** Data Collector.
 
-![Remove Tables task selected on Active Directory Inventory DC Wizard Category page ](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/adinventory/categoryremovetables.png)
+![Remove Tables task selected on Active Directory Inventory DC Wizard Category page ](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/adinventory/categoryremovetables.webp)
 
 **Step 2 –** In the Active Directory Inventory DC Wizard on the Category page, select the **Remove
 Tables** category task.

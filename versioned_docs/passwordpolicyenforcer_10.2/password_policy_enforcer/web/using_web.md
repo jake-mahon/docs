@@ -31,11 +31,11 @@ Follow the steps below to change a password with Password Policy Enforcer/Web.
 
 **Step 1 –** Click **Change Password** on the Welcome page.
 
-![using_ppe_web](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/web/using_ppe_web.png)
+![using_ppe_web](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/web/using_ppe_web.webp)
 
 **Step 2 –** Enter a **Username** and **Domain**, then click **Next**.
 
-![introduction_4](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/web/introduction_4.png)
+![introduction_4](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/web/introduction_4.webp)
 
 **Step 3 –** Enter the **Old Password**, **New Password**, and **Confirm Password**, then click
 **Next**.
@@ -50,13 +50,13 @@ Validation errors are shown in a yellow box below the page instructions. Validat
 normally caused by invalid user input. They can often be overcome by changing the value of one or
 more input fields and resubmitting the form.
 
-![using_ppe_web_1](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/web/using_ppe_web_1.png)
+![using_ppe_web_1](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/web/using_ppe_web_1.webp)
 
 Critical errors are shown on their own page. These errors are mostly a result of configuration or
 system errors. Users can sometimes overcome a critical error by following the instructions in the
 error message, but most critical errors are beyond the user's control.
 
-![using_ppe_web_2](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/web/using_ppe_web_2.png)
+![using_ppe_web_2](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/web/using_ppe_web_2.webp)
 
 Validation and critical error messages are stored in the HTML templates. You can modify the default
 messages by editing the templates. See the

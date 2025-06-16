@@ -27,7 +27,7 @@ View the analysis tasks by navigating to the **Exchange** > **8. Exchange Online
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for the EX_Mailflow_Mailbox Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/online/mailflow/mailflowmailboxanalysis.png)
+![Analysis Tasks for the EX_Mailflow_Mailbox Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/online/mailflow/mailflowmailboxanalysis.webp)
 
 The following analysis tasks are selected by default:
 

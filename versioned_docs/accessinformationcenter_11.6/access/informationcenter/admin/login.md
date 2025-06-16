@@ -55,7 +55,7 @@ Access Information Center, then the username needs to be entered in the `domain\
 
 **NOTE:** The URL may need to be added to the browser’s list of trusted sites.
 
-![AIC Login page](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/admin/loginpage.png)
+![AIC Login page](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/admin/loginpage.webp)
 
 The Access Information Center login page displays the Netwrix Enterprise Auditor logo at the top and
 the browser tab is named Access Information Center. Logging in here will take users directly to the
@@ -66,7 +66,7 @@ topic for information on where different types of users are directed after login
 
 ## Web Console Login Page
 
-![Web Console Login page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/reports/webconsolelogin.png)
+![Web Console Login page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/reports/webconsolelogin.webp)
 
 The Enterprise Auditor Web Console login page displays the Netwrix Enterprise Auditor logo at the
 top and the browser tab is named Netwrix Enterprise Auditor. In order for a user to log into the Web
@@ -75,16 +75,16 @@ Active Directory. Logging in here will take all users to the Enterprise Auditor�
 
 Follow the steps to open the Access Information Center.
 
-![Menu icon on Web Console home page](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/admin/accessfromwebconsole.png)
+![Menu icon on Web Console home page](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/admin/accessfromwebconsole.webp)
 
 **Step 1 –** On any page of the Web Console, click the menu icon to the left of the Netwrix
 Enterprise Auditor logo.
 
-![Apps slide-out menu](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/admin/accessfromwebconsoleappsmenu.png)
+![Apps slide-out menu](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/admin/accessfromwebconsoleappsmenu.webp)
 
 **Step 2 –** On the Apps slide-out menu, click Access Information Center.
 
-![AIC opened from the Web Console](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/admin/aicfromwebconsole.png)
+![AIC opened from the Web Console](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/admin/aicfromwebconsole.webp)
 
 The Access Information Center opens in a new tab in your browser. The interface a user arrives at
 depends upon the assigned role or lack of assigned role. See the

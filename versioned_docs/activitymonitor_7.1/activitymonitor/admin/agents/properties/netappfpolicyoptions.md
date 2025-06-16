@@ -3,7 +3,7 @@
 The NetApp FPolicy Options tab provides options to configure FPolicy server settings for monitoring
 a NetApp Data ONTAP Cluster-Mode device.
 
-![Agent Properties - NetApp FPolicy Options page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/agents/properties/netappfpolicyoptions.png)
+![Agent Properties - NetApp FPolicy Options page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/agents/properties/netappfpolicyoptions.webp)
 
 The available options are:
 

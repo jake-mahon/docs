@@ -2,7 +2,7 @@
 
 The 4.Roles job group provides details on roles in the AWS IAM environment.
 
-![4.Roles Job Group in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/jobstree.png)
+![4.Roles Job Group in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/jobstree.webp)
 
 The 4.Roles job group is comprised of:
 

@@ -5,7 +5,7 @@ categories when the **Select mailboxes from list** option is selected on the
 [EWSMailbox: Scope](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/ewsmailbox/scope.md)
 page.
 
-![EWS Mailbox Data Collector Wizard Scope select page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/ewsmailbox/scopeselect.png)
+![EWS Mailbox Data Collector Wizard Scope select page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/ewsmailbox/scopeselect.webp)
 
 Use the following options to scope the scan to specific mailboxes:
 

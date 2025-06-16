@@ -61,7 +61,7 @@ Server-Client communication before the Transfer Limit Reset Time Interval has ex
 Depending on the options selected from the drop-down menus, the Oﬄine Temporary Password (or OTP)
 can be generated for an exact device, all devices, or all ﬁle transfers.
 
-![Generating the Oﬄine Temporary Password](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/offlinetemporarypassword/offlinetemporarypassword.png)
+![Generating the Oﬄine Temporary Password](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/offlinetemporarypassword/offlinetemporarypassword.webp)
 
 When generating an Oﬄine Temporary Password for a Device, you can either introduce the Device Code
 communicated by the user or search the Endpoint Protector database for an existing device.

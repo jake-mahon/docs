@@ -6,13 +6,13 @@ privileges users have to your resource. When the Review Administrator creates a 
 a new instance of an existing review, you receive an email notification that includes a link to the
 your pending reviews.
 
-![Email notification of pending review](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/newreview.png)
+![Email notification of pending review](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/newreview.webp)
 
 Use the **Sign in** link at the bottom to open the Owner portal in the Access Information Center.
 
 _Remember,_ Your company domain credentials are used to log in.
 
-![Reviews link on the Ownership portal](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/ownershipportal.png)
+![Reviews link on the Ownership portal](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/ownershipportal.webp)
 
 The Owner portal displays a number next to the **Reviews**link to indicate how many of your
 resources are included in pending reviews. Click the link to open the Reviews interface. The Reviews
@@ -25,7 +25,7 @@ topics for additional information.
 
 The Pending Reviews page lists all of your resources included in pending reviews.
 
-![Pending Reviews page of the Reviews interface](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/pendingreviews.png)
+![Pending Reviews page of the Reviews interface](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/pendingreviews.webp)
 
 The information displayed in the table includes:
 
@@ -65,7 +65,7 @@ recommendation and processes those changes.
 
 The **Begin Review** button opens the Resource Review page to start the review.
 
-![Resource Review page for an Access review](/img/versioned_docs/auditor_10.6/access/reviews/entitlementreviews/reviewpageaccess.png)
+![Resource Review page for an Access review](/img/versioned_docs/auditor_10.6/access/reviews/entitlementreviews/reviewpageaccess.webp)
 
 The Resource Review page varies based on the type of review; however, there are several common
 features:

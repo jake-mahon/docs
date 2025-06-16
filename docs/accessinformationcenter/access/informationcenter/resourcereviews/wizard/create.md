@@ -77,7 +77,7 @@ Follow the steps to create a review.
 **NOTE:** If creating a Sensitive Data review, continue to Step 3. For all other review types, skip
 to Step 5.
 
-![Create Review wizard Criteria page](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/criteria.webp)
+![Create Review wizard Criteria page](../../../../../../static/img/product_docs/accessanalyzer/admin/datacollector/ewsmailbox/criteria.webp)
 
 **Step 3 –** On the Criteria page, select the types of sensitive criteria to include in the
 Sensitive Data review from the list on the left and click **Add**. Multiple items can be selected
@@ -137,7 +137,7 @@ created.
 
 - Once the desired resources have been selected, click **Next**.
 
-![Create Review wizard Summary page](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/summary.webp)
+![Create Review wizard Summary page](../../../../../../static/img/product_docs/accessanalyzer/admin/datacollector/adinventory/summary.webp)
 
 **Step 6 –** On the Summary page, review the settings and click **Next**. The Access Information
 Center begins to create the review.

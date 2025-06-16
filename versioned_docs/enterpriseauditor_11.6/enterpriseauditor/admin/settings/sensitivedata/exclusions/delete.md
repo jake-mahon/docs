@@ -2,7 +2,7 @@
 
 Follow the steps to delete a False Positive Exclusion Filter.
 
-![Delete Filter on False Positives tab](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/sensitivedata/exclusions/deletefilter.png)
+![Delete Filter on False Positives tab](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/sensitivedata/exclusions/deletefilter.webp)
 
 **Step 1 –** Select a filter from the list and click **Delete Filter**.
 

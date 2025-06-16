@@ -15,7 +15,7 @@ See the
 [Azure Information Protection Target Requirements](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/target/config/azureinformationprotection.md)
 topic for additional information on configuring the File System solution to scan for AIP labels.
 
-![FSAA Data Collector Wizard Azure Tenant Mapping page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/azuretenantmapping.png)
+![FSAA Data Collector Wizard Azure Tenant Mapping page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/azuretenantmapping.webp)
 
 Populate this page with the App ID (created during prerequisites) and a domain name or Tenant ID for
 an Azure environment. These values must be associated with each application ID in the Azure

@@ -8,7 +8,7 @@ used for cross platform activities such as granting local administrator access. 
 [Activities Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/activities.md)
 topic for additional information.
 
-![addactivitygroup](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/addactivitygroup.png)
+![addactivitygroup](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/addactivitygroup.webp)
 
 The pane on the left side of the page displays a list of the configured activity group. This pane
 has the following features:

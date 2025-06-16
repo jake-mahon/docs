@@ -17,7 +17,7 @@ Netwrix Password Secure generally differentiates between multiple methods for se
 The following diagram deals with the question: **How do users or roles receive the intended
 permissions?**
 
-![manual vs automated settings](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/permissionconcept/automated_settings/automated-setting-of-permissions-1-en.png)
+![manual vs automated settings](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/permissionconcept/automated_settings/automated-setting-of-permissions-1-en.webp)
 
 NOTE: Inheritance from organisational structures is defined by default in the system. This can be
 configured in the settings. The relevant setting is “Inherit permissions for new objects (without

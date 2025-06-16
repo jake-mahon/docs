@@ -29,7 +29,7 @@ The Change Detection Data Analysis Module wizard has the following pages:
 The Welcome page gives an overview of the action module. The navigation pane contains links to the
 pages in the wizard.
 
-![Change Detection Data Analysis Module wizard Welcome page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/welcome.png)
+![Change Detection Data Analysis Module wizard Welcome page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/welcome.webp)
 
 There are no configurable settings on the Welcome page. To proceed, click **Next** or use the Steps
 navigation pane to open another page in the wizard.

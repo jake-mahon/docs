@@ -32,6 +32,6 @@ the following wizard pages:
 The Welcome page displays first and gives an overview of the action module. The navigation pane
 contains links to the pages in the wizard.
 
-![Send Mail Action Module Wizard Welcome page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/runninginstances/overview.png)
+![Send Mail Action Module Wizard Welcome page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/runninginstances/overview.webp)
 
 To proceed, click **Next** or use the Steps navigation pane to open another page in the wizard.

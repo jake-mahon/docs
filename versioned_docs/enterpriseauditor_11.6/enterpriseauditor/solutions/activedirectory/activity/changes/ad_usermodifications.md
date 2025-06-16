@@ -10,7 +10,7 @@ Navigate to the **Jobs** > **Active Directory** > **6.Activity** > **Changes** >
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for the AD_UserModifications Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/activity/changes/usermodificationsanalysis.png)
+![Analysis Tasks for the AD_UserModifications Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/activity/changes/usermodificationsanalysis.webp)
 
 The following non-configurable analysis tasks are selected by default:
 

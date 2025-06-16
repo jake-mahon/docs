@@ -17,7 +17,7 @@ resources as a simple table filled with several columns.
 
 Here is the visualization of this display table on the interface:
 
-![DisplayTable(Table)](/img/versioned_docs/usercube_6.1/usercube/integration-guide/ui/how-tos/custom-display-table/displaytablestable.png)
+![DisplayTable(Table)](/img/versioned_docs/usercube_6.1/usercube/integration-guide/ui/how-tos/custom-display-table/displaytablestable.webp)
 
 Ergonomically, it is recommended to hide the search symbol in a column header (in a list displayed
 like a table) if a criterion linked to this column is already displayed in a searchbar. This avoids
@@ -37,7 +37,7 @@ the owner of the resource.
 
 Here is the visualization of this resource table on the interface:
 
-![ResourceTable](/img/versioned_docs/usercube_6.1/usercube/integration-guide/ui/how-tos/custom-display-table/displaytablesresourcetable.png)
+![ResourceTable](/img/versioned_docs/usercube_6.1/usercube/integration-guide/ui/how-tos/custom-display-table/displaytablesresourcetable.webp)
 
 ## Display Table with Tiles
 
@@ -57,4 +57,4 @@ If the display table uses tiles, then you can't use bindings.
 
 Here is the visualization of this display table on the interface:
 
-![DisplayTable with Tiles](/img/versioned_docs/usercube_6.1/usercube/integration-guide/ui/how-tos/custom-display-table/displaytablestiles.png)
+![DisplayTable with Tiles](/img/versioned_docs/usercube_6.1/usercube/integration-guide/ui/how-tos/custom-display-table/displaytablestiles.webp)

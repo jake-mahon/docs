@@ -9,7 +9,7 @@ The UX_CriticalFIles job uses the Unix Data Collector for the following query:
 
 **CAUTION:** The query is preconfigured for this job. Never modify the query.
 
-![Queries for the UX_CriticalFiles Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/unix/privilegedaccess/criticalfilesquery.png)
+![Queries for the UX_CriticalFiles Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/unix/privilegedaccess/criticalfilesquery.webp)
 
 The query for the UX_CriticalFiles job is:
 
@@ -23,7 +23,7 @@ select **Analysis** to view the analysis tasks.
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for the UX_CriticalFiles Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/unix/privilegedaccess/criticalfilesanalysis.png)
+![Analysis Tasks for the UX_CriticalFiles Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/unix/privilegedaccess/criticalfilesanalysis.webp)
 
 The default analysis task is:
 

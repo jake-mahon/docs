@@ -8,7 +8,7 @@ policy.
 
 The Policy Reporting dashboard contains the following cards:
 
-![Policy Reporting Dashboard](/img/versioned_docs/threatprevention_7.4/threatprevention/siemdashboard/qradar/dashboard/policyreporting.png)
+![Policy Reporting Dashboard](/img/versioned_docs/threatprevention_7.4/threatprevention/siemdashboard/qradar/dashboard/policyreporting.webp)
 
 - Activity (Successful/Blocked) – Timeline of successful/failed/blocked events related to the
   selected policy that have been recorded in the specified timeframe

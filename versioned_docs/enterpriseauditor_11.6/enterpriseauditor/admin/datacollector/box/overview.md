@@ -45,7 +45,7 @@ The Welcome page gives an overview of the data collector. To proceed through the
 **Next** or use the Steps navigation pane to open another page in the wizard. Review the
 introductory and caution information about the Box Data Collector before proceeding.
 
-![Box DC Wizard Welcome page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/welcome.png)
+![Box DC Wizard Welcome page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/welcome.webp)
 
 The Welcome page can be hidden by checking the **Do not display this page the next time** box when
 the wizard is open and configuration settings are saved.

@@ -6,7 +6,7 @@ Netwrix Password Secure provides a diverse range of supporting features that do 
 added value but mostly build on existing approaches and expand their functionalities. They are
 work-saving features that in total simplify the process of working with Netwrix Password Secure.
 
-![installation_with_parameters_77_517x414](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/mainmenu/extras/installation_with_parameters_77_517x414.png)
+![installation_with_parameters_77_517x414](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/mainmenu/extras/installation_with_parameters_77_517x414.webp)
 
 - [Password rules](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/mainmenu/extras/password_rules/password_rules.md)
 - [Password generator](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/mainmenu/extras/password_generator/password_generator.md)

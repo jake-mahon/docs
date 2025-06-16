@@ -37,7 +37,7 @@ edited.
 **NOTE:** If creating a Sensitive Data review, continue to Step 3. For all other review types, skip
 to Step 5.
 
-![Edit Review wizard Criteria page](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/ewsmailbox/criteria.webp)
+![Edit Review wizard Criteria page](../../../../../../static/img/product_docs/accessanalyzer/admin/datacollector/ewsmailbox/criteria.webp)
 
 **Step 3 –** On the Criteria page, you can modify the selected types of sensitive criteria to
 include in the Sensitive Data review if no responses have been received. If responses for one or
@@ -103,7 +103,7 @@ or removing parent resources from the review also adds or removes their children
 
 - Once the desired resources have been selected, click **Next**.
 
-![Edit Review wizard Summary page](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/summary.webp)
+![Edit Review wizard Summary page](../../../../../../static/img/product_docs/accessanalyzer/admin/datacollector/adinventory/summary.webp)
 
 **Step 6 –** On the Summary page, review the updated settings and click **Next**. The Access
 Information Center begins to update the review.

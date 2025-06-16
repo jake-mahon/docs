@@ -14,7 +14,7 @@ The event filters for the Authentication Monitoring event type are:
 - Hosts (from)
 - Hosts (to)
 
-![Policy window - Authentication Monitoring Event Type](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/authenticationmonitoring.png)
+![Policy window - Authentication Monitoring Event Type](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/authenticationmonitoring.webp)
 
 Each filter tab acts like an "AND" statement for the filter. Any filter tab left blank is treated
 like an "ALL" for that filter set.
@@ -31,7 +31,7 @@ Use the Authentication Protocol filter for monitoring to set the scope of the po
 specific authentication event protocols or to exclude specific authentication event protocols from
 being monitored.
 
-![Policy window - Authentication Protocol filter for monitoring](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/authenticationprotocolmonitoring.png)
+![Policy window - Authentication Protocol filter for monitoring](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/authenticationprotocolmonitoring.webp)
 
 - In the Monitor These Protocols section, check the **All** box to include all protocols or select
   specific protocols:
@@ -60,7 +60,7 @@ being monitored.
     **Windows Settings** > **Security Settings** > **Account Policies** > **Password Policy** (shown
     in the example GPO > Default DomainPolicy).
 
-    ![Default Domain Policy](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/gpo.png)
+    ![Default Domain Policy](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/gpo.webp)
 
 - When enabled, the **Exclude failed authentications with expired passwords** option allows the
   Authentication or Analytic policy to ignore failed authentications with a newly expired password
@@ -72,7 +72,7 @@ being monitored.
 Use the Domains/Servers filter to set the scope of the policy to specific domains and/or servers or
 to exclude specific domains and/or servers.
 
-![Event Type - Domains/Servers Monitoring filter](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/domainsserversmonitoring.png)
+![Event Type - Domains/Servers Monitoring filter](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/domainsserversmonitoring.webp)
 
 Use the buttons in the Include and Exclude areas to edit the lists.
 
@@ -93,7 +93,7 @@ topic for additional information.
 The Success filter is where the policy is set to only monitor successful events, failed events, or
 both.
 
-![Event Type – Success filter](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/agent/success.png)
+![Event Type – Success filter](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/agent/success.webp)
 
 Select the radio button for the desired monitoring filter:
 
@@ -108,7 +108,7 @@ Use the AD Perpetrator filter for monitoring to set the scope of the policy to o
 security principals committing changes or to exclude specific security principals committing changes
 from being monitored.
 
-![Event Type - AD Perpetrator Monitoring filter](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/adperpetratormonitoring.png)
+![Event Type - AD Perpetrator Monitoring filter](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/adperpetratormonitoring.webp)
 
 Use the buttons in the Include Perpetrators, Include Collections, Exclude Perpetrators, and Exclude
 Collections areas to edit the lists.
@@ -127,7 +127,7 @@ topic for additional information.
 
 Sub Tree
 
-![Sub-Tree option in event type filters](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/subtree.png)
+![Sub-Tree option in event type filters](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/subtree.webp)
 
 When contexts are added, a Sub-Tree checkbox displays. Check it to apply the filter to the parent
 and all child contexts. Uncheck it to apply the filter to the listed context only.
@@ -137,7 +137,7 @@ and all child contexts. Uncheck it to apply the filter to the listed context onl
 Use the IP Addresses (from) filter to set the scope of the policy to specific IP addresses as
 originators of an event or to exclude specific IP addresses.
 
-![Event Type – IP Addresses (from) filter](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/ipaddressesfrom.png)
+![Event Type – IP Addresses (from) filter](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/ipaddressesfrom.webp)
 
 Use the buttons in the Include IP Addresses, Include Collections, Exclude IP Addresses, and Exclude
 Collections areas to edit the lists.
@@ -159,7 +159,7 @@ topic for additional information.
 Use the IP Addresses (to) filter to set the scope of the policy to specific IP addresses as target
 hosts of an event or to exclude specific IP addresses.
 
-![ipaddressesto](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/ipaddressesto.png)
+![ipaddressesto](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/ipaddressesto.webp)
 
 Use the buttons in the Include IP Addresses, Include Collections, Exclude IP Addresses, and Exclude
 Collections areas to edit the lists.
@@ -181,7 +181,7 @@ topic for additional information.
 Use the Hosts (from) filter for monitoring to set the scope of the policy to only monitor specific
 hosts as originators of an event or to exclude specific hosts from being monitored.
 
-![Event Type – Hosts (from) filter](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/hostsfrom.png)
+![Event Type – Hosts (from) filter](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/hostsfrom.webp)
 
 Use the buttons in the Include Hosts, Include Collections, Exclude Hosts, and Exclude Collections
 areas to edit the lists.
@@ -203,7 +203,7 @@ topic for additional information.
 Use the Hosts (to) filter for monitoring the scope of the policy to only monitor specific hosts as
 target hosts of an event or to exclude specific hosts from being monitored.
 
-![Policy window - Hosts (to) filter for monitoring](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/hoststo.png)
+![Policy window - Hosts (to) filter for monitoring](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/hoststo.webp)
 
 Use the buttons in the Include Hosts, Include Collections, Exclude Hosts, and Exclude Collections
 areas to edit the lists.

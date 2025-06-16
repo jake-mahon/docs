@@ -3,7 +3,7 @@
 The Event Log Options page is used to configure additional options. It is a wizard page for all log
 types.
 
-![SMART Log DC Wizard Event Log Options page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/smartlog/eventlogoptions.png)
+![SMART Log DC Wizard Event Log Options page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/smartlog/eventlogoptions.webp)
 
 The following additional options can be selected:
 

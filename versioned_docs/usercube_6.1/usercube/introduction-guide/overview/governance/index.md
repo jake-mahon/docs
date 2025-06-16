@@ -12,7 +12,7 @@ Rules and roles define a policy. By definition, assignments not supported by a r
 with the policy. These assignments are identified as non-conforming in order to be acted upon by
 knowledgeable users who can decide whether the assignment is warranted, such as security officers.
 
-![Non-Conforming Assignments](/img/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/assignments-of-entitlements/governance_nonconforming.png)
+![Non-Conforming Assignments](/img/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/assignments-of-entitlements/governance_nonconforming.webp)
 
 A non-conforming assignment must be reviewed in Usercube by a knowledgeable user, and is therefore:
 

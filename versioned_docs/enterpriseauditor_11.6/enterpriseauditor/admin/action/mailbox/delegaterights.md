@@ -4,7 +4,7 @@ Use the Delegate Rights page to specify folder permissions for the selected dele
 level can be specified for each folder on the page. It is a wizard page for the Add Delegates
 operation.
 
-![New Mailbox Action Wizard Delegate Rights page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/mailbox/delegaterights.png)
+![New Mailbox Action Wizard Delegate Rights page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/mailbox/delegaterights.webp)
 
 Set delegate rights using the following options:
 

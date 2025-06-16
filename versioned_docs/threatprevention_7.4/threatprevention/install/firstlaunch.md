@@ -16,7 +16,7 @@ This warning always displays when the organization’s license is within 14 days
 [Import the License](/versioned_docs/threatprevention_7.4/threatprevention/install/licenseimport.md)
 topic for licensing the product.
 
-![Import Templates dialog box](/img/versioned_docs/threatprevention_7.4/threatprevention/install/importtemplates.png)
+![Import Templates dialog box](/img/versioned_docs/threatprevention_7.4/threatprevention/install/importtemplates.webp)
 
 **Step 2 –** On the Import Templates dialog box, you can choose to import policy templates now or
 later.
@@ -36,7 +36,7 @@ You can import the policy templates any time later. See the
 [Import Templates](/versioned_docs/threatprevention_7.4/threatprevention/admin/templates/folder/overview.md#import-templates)
 topic for additional information.
 
-![Install Agent dialog box](/img/versioned_docs/changetracker_8.0/changetracker/install/agent/installagent.png)
+![Install Agent dialog box](/img/versioned_docs/changetracker_8.0/changetracker/install/agent/installagent.webp)
 
 **Step 3 –** On the Install Agents dialog box, you can choose to install the Agent on servers now or
 later.

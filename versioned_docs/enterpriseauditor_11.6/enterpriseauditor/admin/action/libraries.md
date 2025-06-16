@@ -14,7 +14,7 @@ preconfigured with table input, script body, and parameters. This helps you:
 On the job's **Configure** > **Action** node, the **Add from Library** option opens the Libraries
 window with the available Action Libraries and operations:
 
-![Libraries window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/libraries.png)
+![Libraries window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/libraries.webp)
 
 When a specific operation within a library is chosen, the action is added in the disabled state to
 the job. The Action Properties page opens, which has a description, action module, and source table
@@ -22,7 +22,7 @@ with relevant filters applied.
 
 When you click the **Configure Action** link, the action module's wizard opens.
 
-![PowerShell Action Module Wizard](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/powershellmodulewizard.png)
+![PowerShell Action Module Wizard](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/powershellmodulewizard.webp)
 
 The following Action Libraries and Templates leverage the PowerShell Action module for running
 actions within the specific environment:
@@ -49,11 +49,11 @@ right-click and copy the task.
 
 **Step 3 –** Click the green plus sign on the top left to add a new library.
 
-![Add custom library on Libraries window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/librariescustom.png)
+![Add custom library on Libraries window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/librariescustom.webp)
 
 **Step 4 –** In the pop-up window, specify a name for the library and click **OK**.
 
-![Libraries window paste button](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/librariescustompaste.png)
+![Libraries window paste button](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/librariescustompaste.webp)
 
 **Step 5 –** Select the new library and paste the copied action task.
 

@@ -8,7 +8,7 @@ categories of:
 - File System Access/Permission Auditing Scan
 - Sensitive Data Scan
 
-![FSAA Data Collector Wizard Default Scoping Options page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/scansettings.png)
+![FSAA Data Collector Wizard Default Scoping Options page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/scansettings.webp)
 
 See the Scoping Options tab setting topics to target individual resources for the scan:
 

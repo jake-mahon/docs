@@ -11,7 +11,7 @@ negatively impact Active Directory.
 **_RECOMMENDED:_** Run the actions in a test environment before making changes to a production
 environment.
 
-![Cleanup Job Group Overview page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/runninginstances/overviewpage.png)
+![Cleanup Job Group Overview page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/runninginstances/overviewpage.webp)
 
 The job groups in the Cleanup Job Group are:
 

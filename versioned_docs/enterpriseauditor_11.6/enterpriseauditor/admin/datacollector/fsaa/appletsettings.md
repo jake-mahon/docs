@@ -11,7 +11,7 @@ is a wizard page for the categories of:
 [File System Scan Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/filesystem/scanoptions.md)
 topic for additional information.
 
-![FSAA Data Collector Wizard Applet Settings page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/appletsettings.png)
+![FSAA Data Collector Wizard Applet Settings page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/appletsettings.webp)
 
 In the Applet Launch Mechanism section, choose one of three radio buttons:
 
@@ -32,7 +32,7 @@ In the Applet Launch Mechanism section, choose one of three radio buttons:
       applet can’t start** option. This option allows the scan to run in local mode when an applet
       cannot be deployed or the service is not running.
 
-![Applet Settings section of the Applet Settings page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/appletsettingsappletsettings.png)
+![Applet Settings section of the Applet Settings page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/appletsettingsappletsettings.webp)
 
 In the Applet Settings section, configure the following options:
 
@@ -97,7 +97,7 @@ In the Applet Settings section, configure the following options:
 - Scan cancellation timeout: [number] minute(s) – When checked, this option will timeout the applet
   if there is an attempt to pause the scan and the applet does not respond
 
-![Certificate Exchange Options section of the Applet Settings page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/appletsettingscertificateexchangeoptions.png)
+![Certificate Exchange Options section of the Applet Settings page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/appletsettingscertificateexchangeoptions.webp)
 
 In the Certificate Exchange Options section, configure the following options:
 

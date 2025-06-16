@@ -14,7 +14,7 @@ To configure Core Audit for Qumulo file servers
       be a third-party Syslog forward service or the machine where Netwrix Auditor is installed.
     - Port Number – use the default value (_514_).
 
-    ![qumulo_web_ui](/img/versioned_docs/auditor_10.6/auditor/configuration/fileservers/qumulo/qumulo_web_ui.png)
+    ![qumulo_web_ui](/img/versioned_docs/auditor_10.6/auditor/configuration/fileservers/qumulo/qumulo_web_ui.webp)
 
 When you see the green line “_Connected_”, the environment is ready.
 

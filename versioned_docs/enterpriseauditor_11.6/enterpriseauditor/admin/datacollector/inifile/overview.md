@@ -28,7 +28,7 @@ following wizard pages:
 - [INIFile: Properties](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/inifile/properties.md)
 - [INIFile: Summary](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/inifile/summary.md)
 
-![INI File Data Collector Wizard Welcome page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/welcome.png)
+![INI File Data Collector Wizard Welcome page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/welcome.webp)
 
 The Welcome page can be hidden by selecting the **Do not display this page the next time** box when
 the wizard is open and configuration settings are saved.

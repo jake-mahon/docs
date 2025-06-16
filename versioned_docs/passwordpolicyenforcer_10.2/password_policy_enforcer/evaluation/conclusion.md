@@ -20,4 +20,4 @@ Unlock screens.
 The [Web](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/web/web_overview.md)
 application allows users to change their password from a web browser.
 
-![conclusion_1](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/evaluation/conclusion_1.png)
+![conclusion_1](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/evaluation/conclusion_1.webp)

@@ -32,7 +32,7 @@ To use the authentication forms:
 
     All other authentication methods should be disabled.
 
-    ![iis_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/security/iis_thumb_0_0.png)
+    ![iis_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/security/iis_thumb_0_0.webp)
 
 3.  If you wish to allow anonymous access to the conceptQS, edit the conceptQS web.config file and
     delete (or comment out) three lines:
@@ -73,7 +73,7 @@ see Advanced options can enable this by:
 More users can be added at any time from the default Users screen, as well as allowing for users to
 be removed.
 
-![adduser](/img/versioned_docs/dataclassification_5.6.2/ndc/security/adduser.png)
+![adduser](/img/versioned_docs/dataclassification_5.6.2/ndc/security/adduser.webp)
 
 Additional Windows users can be validated using Integrated Windows Authentication. Additional
 non-Windows users can only be added if the Non-Windows Authentication mode is enabled.
@@ -101,11 +101,11 @@ When an area is enabled there are typically more granular permissions that can b
   viewed by selecting the View Taxonomy Permissions button (shown below).
 - Within the Sources area it is possible to restrict a user’s access to specific source groups, as
   shown
-  below.![userpermissions_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/security/userpermissions_thumb_0_0.png)
+  below.![userpermissions_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/security/userpermissions_thumb_0_0.webp)
 
 Taxonomy Permissions Summary:
 
-![viewtaxonomypermissionssummary_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/security/viewtaxonomypermissionssummary_thumb_0_0.png)
+![viewtaxonomypermissionssummary_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/security/viewtaxonomypermissionssummary_thumb_0_0.webp)
 
 You can restrict permissions for a user to the following areas:
 

@@ -22,17 +22,17 @@ have the group policy management console available.
 **Step 2 –** Go to Password Policy Enforcer install directory (C:\Program Files (x86)\Password
 Policy Enforcer) and copy the following two files (highlighted in yellow):
 
-![ppc_configuration](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/ppc_configuration.png)
+![ppc_configuration](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/ppc_configuration.webp)
 
 **Step 3 –** Go to C:\Windows\Policy Definitions and paste the .admx file in the root of this
 folder.
 
-![ppc_configuration2](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/ppc_configuration2.png)
+![ppc_configuration2](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/ppc_configuration2.webp)
 
 **Step 4 –** Go to C:\Windows\Policy Definitions\en-US and paste the .adml file in the root of this
 folder.
 
-![ppc_configuration1](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/ppc_configuration1.png)
+![ppc_configuration1](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/ppc_configuration1.webp)
 
 **Step 5 –** Open **Group Policy Management** console and check if you have a GPO created for
 Client. If not, see the
@@ -47,19 +47,19 @@ it here.
 
 Once the GPO was configured, it will have the following view:
 
-![ppc_configuration3](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/ppc_configuration3.png)
+![ppc_configuration3](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/ppc_configuration3.webp)
 
 **Step 7 –** Right-click the newly created GPO and select **Edit** from the pop-up menu.
 
 **Step 8 –** Expand **Computer Configuration** > **Policies** > **Administrative Templates** >
 **Netwrix Password Policy Enforcer**
 
-![ppc_configuration4](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/ppc_configuration4.png)
+![ppc_configuration4](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/ppc_configuration4.webp)
 
 **Step 9 –** Click on **Netwrix Password Policy Client** to open a list of modification settings
 with brief descriptions of each.
 
-![ppc_configuration5](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/ppc_configuration5.png)
+![ppc_configuration5](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/ppc_configuration5.webp)
 
 **Step 10 –** Select the one you need, then modify and save it.
 

@@ -13,19 +13,19 @@ This page is about:
 - [Database/PostgreSQL](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/postgresql/index.md);
 - [Database/SAP ASE](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/sapase/index.md).
 
-![Package: Directory/Database/Generic SQL](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/sql/packages_sqlgeneric_v603.png)
+![Package: Directory/Database/Generic SQL](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/sql/packages_sqlgeneric_v603.webp)
 
-![Package: Directory/Database/Microsoft SQL Server](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/sql/packages_sqlserver_v603.png)
+![Package: Directory/Database/Microsoft SQL Server](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/sql/packages_sqlserver_v603.webp)
 
-![Package: Directory/Database/MySQL](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/sql/packages_sqlmy_v603.png)
+![Package: Directory/Database/MySQL](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/sql/packages_sqlmy_v603.webp)
 
-![Package: Directory/Database/ODBC](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/sql/packages_sqlodbc_v603.png)
+![Package: Directory/Database/ODBC](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/sql/packages_sqlodbc_v603.webp)
 
-![Package: Directory/Database/Oracle](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/sql/packages_sqloracle_v603.png)
+![Package: Directory/Database/Oracle](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/sql/packages_sqloracle_v603.webp)
 
-![Package: Directory/Database/PostgreSQL](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/sql/packages_sqlpostgre_v603.png)
+![Package: Directory/Database/PostgreSQL](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/sql/packages_sqlpostgre_v603.webp)
 
-![Package: Directory/Database/SAP ASE](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/sql/packages_sqlsap_v603.png)
+![Package: Directory/Database/SAP ASE](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/sql/packages_sqlsap_v603.webp)
 
 ## Overview
 
@@ -121,7 +121,7 @@ Connect to a DBMS other than Microsoft SQL Server by proceeding as follows:
 1. Download and extract the package.
     > For MySQL, download the package from [MySql.Data](https://www.nuget.org/packages/MySql.Data/).
     >
-    > ![MySQL: Download Package](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/sql/sql_downloadpackage.png)
+    > ![MySQL: Download Package](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/sql/sql_downloadpackage.webp)
 2. Copy the DLL file (corresponding to the correct .Net version) to the `Runtime` folder.
     > For MySQL, the DLL is `MySql.Data.dll`.
 3. Get the value required for `ProviderClassFullName` and `ProviderDllName`:
@@ -131,7 +131,7 @@ Connect to a DBMS other than Microsoft SQL Server by proceeding as follows:
 
         > For MySQL:
         >
-        > ![Package Characteristics Example](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/sql/sql_packagecharacteristics.png)
+        > ![Package Characteristics Example](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/sql/sql_packagecharacteristics.webp)
 
     - for another DBMS, by accessing the DBMS' documentation for .Net and finding a class with
       **Factory** in its name.

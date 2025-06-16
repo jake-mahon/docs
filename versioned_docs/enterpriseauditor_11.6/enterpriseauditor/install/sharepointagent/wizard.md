@@ -21,31 +21,31 @@ Administration component of the targeted SharePoint farms.
 **Step 1 –** Run the `SharePointAgent.exe` executable to open the Netwrix Enterprise Auditor
 SharePoint Agent Setup Wizard.
 
-![SharePoint Agent Setup Wizard Welcome page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/welcome.png)
+![SharePoint Agent Setup Wizard Welcome page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/welcome.webp)
 
 **Step 2 –** On the Welcome page, click **Next** to begin the installation.
 
-![SharePoint Agent Setup Wizard End-User License Agreement page](/img/versioned_docs/changetracker_8.0/changetracker/install/eula.png)
+![SharePoint Agent Setup Wizard End-User License Agreement page](/img/versioned_docs/changetracker_8.0/changetracker/install/eula.webp)
 
 **Step 3 –** On the End-User License Agreement page, select the **I accept the terms in the License
 Agreement** checkbox and click **Next**.
 
-![SharePoint Agent Setup Wizard Destination Folder page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/filesystemproxy/destination.png)
+![SharePoint Agent Setup Wizard Destination Folder page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/filesystemproxy/destination.webp)
 
 **Step 4 –** On the Destination Folder page, click **Next** to install to the default folder or
 click **Change** to select a different location.
 
-![SharePoint Agent Setup Wizard Configure Service Security page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/filesystemproxy/configureservice.png)
+![SharePoint Agent Setup Wizard Configure Service Security page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/filesystemproxy/configureservice.webp)
 
 **Step 5 –** On the Configure Service Security page, enter the **User Name** and **Password** for
 the SharePoint Service Account. Click **Next**.
 
-![SharePoint Agent Setup Wizard Ready to install page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/ready.png)
+![SharePoint Agent Setup Wizard Ready to install page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/ready.webp)
 
 **Step 6 –** On the Ready to install Netwrix Enterprise Auditor SharePoint Agent page, click
 **Install** to start the installation.
 
-![SharePoint Agent Setup Wizard Completed page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/sensitivedatadiscovery/completed.png)
+![SharePoint Agent Setup Wizard Completed page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/sensitivedatadiscovery/completed.webp)
 
 **Step 7 –** When the installation has completed, click **Finish** to exit the wizard.
 

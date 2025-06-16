@@ -8,7 +8,7 @@ the following categories:
 - Mailbox permissions
 - Mailbox sensitive data discovery
 
-![Exchange Mailbox Data Collector Wizard Options page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/options.png)
+![Exchange Mailbox Data Collector Wizard Options page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/options.webp)
 
 The following options can be configured:
 

@@ -9,7 +9,7 @@ accessing the application. See the
 [Authentication Connector Tab](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/usersgroups/authenticationconnector.md)
 topic for additional information.
 
-![authenticationpage](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/page/authenticationpage.png)
+![authenticationpage](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/page/authenticationpage.webp)
 
 The pane on the left side of the page displays a list of the configured authentication connectors.
 This pane has the following features:

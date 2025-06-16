@@ -209,7 +209,7 @@ Follow the steps to set a custom account in the monitored item properties.
 **Step 2 –** On the **General** tab, under **Specify account for collecting data**, select **Custom
 account**.
 
-![item_general_gmsa](/img/versioned_docs/auditor_10.6/auditor/requirements/item_general_gmsa.png)
+![item_general_gmsa](/img/versioned_docs/auditor_10.6/auditor/requirements/item_general_gmsa.webp)
 
 See the
 [Add Items for Monitoring](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/datasources.md#add-items-for-monitoring) topic

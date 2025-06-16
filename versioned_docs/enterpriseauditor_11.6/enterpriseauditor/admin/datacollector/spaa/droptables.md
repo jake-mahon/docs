@@ -16,7 +16,7 @@ the analysis tasks.
 
 **CAUTION:** Applying these analysis tasks will result in the deletion of collected data.
 
-![SP_DropTables Job Analysis tasks](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/spaa/droptablesanalysis.png)
+![SP_DropTables Job Analysis tasks](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/spaa/droptablesanalysis.webp)
 
 The default analysis tasks are:
 

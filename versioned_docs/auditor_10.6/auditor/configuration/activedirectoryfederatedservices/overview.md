@@ -76,12 +76,12 @@ need to configure audit settings manually, as described later in this section.
 **Step 1 –** Select the AD FS data source in this monitoring plan (top row under the header), click
 **Edit data source** to open its settings.
 
-![mp_adfs_listing](/img/versioned_docs/auditor_10.6/auditor/configuration/activedirectoryfederatedservices/mp_adfs_listing.png)
+![mp_adfs_listing](/img/versioned_docs/auditor_10.6/auditor/configuration/activedirectoryfederatedservices/mp_adfs_listing.webp)
 
 **Step 2 –** In the **Configure audit settings** section, select **Adjust audit settings
 automatically** check box.
 
-![mp_data_source_ad_fs](/img/versioned_docs/auditor_10.6/auditor/configuration/activedirectoryfederatedservices/mp_data_source_ad_fs.png)ringplans/mp_data_source_ad_fs.png)
+![mp_data_source_ad_fs](/img/versioned_docs/auditor_10.6/auditor/configuration/activedirectoryfederatedservices/mp_data_source_ad_fs.webp)ringplans/mp_data_source_ad_fs.webp)
 
 **Step 3 –** Save the settings.
 

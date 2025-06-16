@@ -11,7 +11,7 @@
     - Login/Logout
     - VPN Tunneling
 
-    ![manual_config_pulse_1](/img/versioned_docs/auditor_10.6/auditor/configuration/networkdevices/manual_config_pulse_1.png)
+    ![manual_config_pulse_1](/img/versioned_docs/auditor_10.6/auditor/configuration/networkdevices/manual_config_pulse_1.webp)
 
 6. Under the Syslog Servers, complete the following fields:
 

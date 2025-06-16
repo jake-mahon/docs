@@ -3,7 +3,7 @@
 The **Host Discovery** > **Discovery Log** node lists host discovery logs. These logs house
 transactions that transpire during the running of host discovery and host inventory tasks.
 
-![Discovery Log](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostdiscovery/discoverylog.png)
+![Discovery Log](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostdiscovery/discoverylog.webp)
 
 The Discovery Log logging level is configured within the **Settings** > **Host Discovery** node. See
 the

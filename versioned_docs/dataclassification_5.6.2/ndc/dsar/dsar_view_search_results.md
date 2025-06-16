@@ -10,7 +10,7 @@ following:
 
     The following window appears:
 
-    ![dsar_view_results](/img/versioned_docs/dataclassification_5.6.2/ndc/dsar/dsar_view_results.png)
+    ![dsar_view_results](/img/versioned_docs/dataclassification_5.6.2/ndc/dsar/dsar_view_results.webp)
 
     Review the following for additional information:
 

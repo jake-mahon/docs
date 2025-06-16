@@ -28,18 +28,18 @@ This article explains how the deployment can be done by group.
 
 The desired state of a machine managed by Privilege Secure is shown below:
 
-![Screenshot_2022-03-30_205811.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/4412001676439_screenshot_2022-03-30_205811_915x409.png)
+![Screenshot_2022-03-30_205811.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/4412001676439_screenshot_2022-03-30_205811_915x409.webp)
 
 The machine is in Protect Mode JITA.
 
-![Screenshot_2022-03-30_210054.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/4412001676439_screenshot_2022-03-30_210054_233x33.png)
+![Screenshot_2022-03-30_210054.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/4412001676439_screenshot_2022-03-30_210054_233x33.webp)
 
 This means that any user requiring privileged access to the machine must go through Privilege
 Secure.
 
 Service accounts are set as persistent.
 
-![Screenshot_2022-03-30_210309.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/4412001676439_screenshot_2022-03-30_210309_385x111.png)
+![Screenshot_2022-03-30_210309.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/4412001676439_screenshot_2022-03-30_210309_385x111.webp)
 
 This means that they will stay on the machine and not be impacted by Privilege Secure (these should
 be set to non-interactive in AD). Only Service Accounts (including the Privilege Secure service
@@ -47,25 +47,25 @@ accounts) are set as persistent.
 
 The built in Administrator (RID500) account is locked and password is managed.
 
-![Screenshot_2022-03-30_210530.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/4412001676439_screenshot_2022-03-30_210530_344x54.png)
+![Screenshot_2022-03-30_210530.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/4412001676439_screenshot_2022-03-30_210530_344x54.webp)
 
 The
-![Screenshot_2022-03-30_210620.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/4412001676439_screenshot_2022-03-30_210620_48x46.png)symbol
+![Screenshot_2022-03-30_210620.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/4412001676439_screenshot_2022-03-30_210620_48x46.webp)symbol
 denotes that the account is locked
 
 The
-![Screenshot_2022-03-30_210557.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/4412001676439_screenshot_2022-03-30_210557_49x50.png)symbol
+![Screenshot_2022-03-30_210557.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/4412001676439_screenshot_2022-03-30_210557_49x50.webp)symbol
 denotes that the account password is being rotated by Privilege Secure.
 
 An alternative local administrator account has been created for Offline Access Management (OAM).
 
-![Screenshot_2022-03-30_210643.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/4412001676439_screenshot_2022-03-30_210643_257x36.png)
+![Screenshot_2022-03-30_210643.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/4412001676439_screenshot_2022-03-30_210643_257x36.webp)
 
 The password for this account is also being managed by Privilege Secure.
 
 Groups requiring privileged access are not set to persistent.
 
-![Screenshot_2022-03-30_210715.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/4412001676439_screenshot_2022-03-30_210715_284x43.png)
+![Screenshot_2022-03-30_210715.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/4412001676439_screenshot_2022-03-30_210715_284x43.webp)
 
 ## Freeze Mode
 
@@ -75,13 +75,13 @@ approval) of existing access.
 
 Below shows a machine in Freeze Mode
 
-![Screenshot_2022-03-30_210750.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/4412001676439_screenshot_2022-03-30_210750.png)
+![Screenshot_2022-03-30_210750.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/4412001676439_screenshot_2022-03-30_210750.webp)
 
 In this case the machine is in Protect Mode, but, all accounts are set as persistent. Any account
 that is persistent remains on the machine and a user does not need to use Privilege Secure to use
 this account for admin access.
 
-![Screenshot_2022-03-30_210819.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/4412001676439_screenshot_2022-03-30_210819_473x123.png)
+![Screenshot_2022-03-30_210819.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/4412001676439_screenshot_2022-03-30_210819_473x123.webp)
 
 Any new accounts or groups added to the machine will be ingested into Privilege Secure and will not
 be persistent. These groups or accounts would require users to access Privilege Secure.
@@ -92,11 +92,11 @@ As with all Privilege Secure functionality, changes can be made via the UI or in
 Quickstart. Setting a machine to freeze mode in the UI is done by setting all accounts to persistent
 using the action button:
 
-![Screenshot_2022-03-30_210852.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/4412001676439_screenshot_2022-03-30_210852_189x104.png)
+![Screenshot_2022-03-30_210852.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/4412001676439_screenshot_2022-03-30_210852_189x104.webp)
 
 Then adding the machine to Protect Mode JITA
 
-![Screenshot_2022-03-30_210915.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/4412001676439_screenshot_2022-03-30_210915_261x95.png)
+![Screenshot_2022-03-30_210915.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/4412001676439_screenshot_2022-03-30_210915_261x95.webp)
 
 Current access is not impacted by Freeze Mode.
 
@@ -116,20 +116,20 @@ The resultant spreadsheet should be filtered to show the machines that are not i
 have a scan date. These are the machines to be targeted for protect mode (this would be further
 restricted if just looking for workstations or servers).
 
-![Screenshot_2022-03-30_211054.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/4412001676439_screenshot_2022-03-30_211054_255x145.png)
+![Screenshot_2022-03-30_211054.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/4412001676439_screenshot_2022-03-30_211054_255x145.webp)
 
-![Screenshot_2022-03-30_211126.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/4412001676439_screenshot_2022-03-30_211126_267x142.png)
+![Screenshot_2022-03-30_211126.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/4412001676439_screenshot_2022-03-30_211126_267x142.webp)
 
 The spreadsheet should now be updated to apply freeze mode, i.e. add protect mode JITA and add
 persistence to all accounts. Here we have one target machine WINCOMP1
 
 Computer Data Tab
 
-![Screenshot_2022-03-30_211156.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/4412001676439_screenshot_2022-03-30_211156_253x163.png)
+![Screenshot_2022-03-30_211156.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/4412001676439_screenshot_2022-03-30_211156_253x163.webp)
 
 Admin List Tab
 
-![Screenshot_2022-03-30_211225.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/4412001676439_screenshot_2022-03-30_211225.png)
+![Screenshot_2022-03-30_211225.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/4412001676439_screenshot_2022-03-30_211225.webp)
 
 Filtered to the target machines and persistence set to true for all accounts (i.e. freeze mode)
 
@@ -143,7 +143,7 @@ python reports_2.9.py --insecure --protect-mode-file Freeze_Mode_Upload.xlsx --d
 
 Use the –dry-run option to check what is going to be uploaded
 
-![Screenshot_2022-03-30_211254.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/4412001676439_screenshot_2022-03-30_211254.png)
+![Screenshot_2022-03-30_211254.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/4412001676439_screenshot_2022-03-30_211254.webp)
 
 Once suitable, remove the –dry-run flag to run the update
 
@@ -166,17 +166,17 @@ With this implementation approach, persistence should be removed on a group by g
 
 (__Project Management__) Notifications should now be sent to the members of the AD group that is being targeted. The example we will use in this case is the group DBA_Admins. The notification should also include the relevant training resources (cheat sheets, videos, URL for access to Privilege Secure), the date of change and any contact info in case of issues.
 
-![Screenshot_2022-03-30_211410.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/4412001676439_screenshot_2022-03-30_211410.png)
+![Screenshot_2022-03-30_211410.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/4412001676439_screenshot_2022-03-30_211410.webp)
 
 We can update to remove persistence on a single machine through the UI by using the action button to remove persistence.
 
-![Screenshot_2022-03-30_211436.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/4412001676439_screenshot_2022-03-30_211436_199x110.png)
+![Screenshot_2022-03-30_211436.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/4412001676439_screenshot_2022-03-30_211436_199x110.webp)
 
 This only forces the users of the DBA group to go through Privilege Secure on this ONE server. This would leave this group (the DBA administrators) in a mix of using Privilege Secure for some server and not others. It is better to remove persistence for ALL machines that have the DBA_Admins group. This can easily be achieved using Quickstart. Once this is done all the DBA Administrators will go through Privilege Secure for the servers that they need access to. Optionally a review and approval of the users who exist in the targeted group can also be carried out in conjunction with the owner of the group (machines that this group applies to can be shared with group and machine owners as required)
 
 The updates to the Quickstart spreadsheet would be as follows:
 
-![Screenshot_2022-03-30_211501.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/4412001676439_screenshot_2022-03-30_211501.png)
+![Screenshot_2022-03-30_211501.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/4412001676439_screenshot_2022-03-30_211501.webp)
 
 Here we have filtered on the DBA_Admins group. We the return the persistence to FALSE. This should be for ALL machines that have DBA_Admins.
 
@@ -184,15 +184,15 @@ Again store the upload spreadsheet file with a suitable name, in the Privilege S
 
 reports_2.9.py --insecure --protect-mode-file DBA_Admins_COMPLETED.xlsx --dry-run
 
-![Screenshot_2022-03-30_211527.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/4412001676439_screenshot_2022-03-30_211527.png)
+![Screenshot_2022-03-30_211527.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/4412001676439_screenshot_2022-03-30_211527.webp)
 
 reports_2.9.py --insecure --protect-mode-file DBA_Admins_COMPLETED.xlsx
 
-![Screenshot_2022-03-30_211553.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/4412001676439_screenshot_2022-03-30_211553.png)
+![Screenshot_2022-03-30_211553.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/4412001676439_screenshot_2022-03-30_211553.webp)
 
 (__Project Management__) Users within the DBA_Admins group should now be informed of the change, along with the training and issue resolution information again. Through the UI we can see the effect on one of the machines, WINCOMP1 in this case.
 
-![Screenshot_2022-03-30_211625.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/4412001676439_screenshot_2022-03-30_211625.png)
+![Screenshot_2022-03-30_211625.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/4412001676439_screenshot_2022-03-30_211625.webp)
 
 The DBA_Admins users are now forced to request elevated access through Privilege Secure. This would be the case for ALL machines that the group has access to. In this case it was a single machine.
 

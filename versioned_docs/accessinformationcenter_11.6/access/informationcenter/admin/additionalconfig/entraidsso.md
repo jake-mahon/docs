@@ -62,7 +62,7 @@ table, and then click **Save**.
 
 Once configured they should show under Additional claims as below:
 
-![Claims configured](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/reports/entraidssoclaims.png)
+![Claims configured](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/reports/entraidssoclaims.webp)
 
 **Step 7 –** In the **Manage** > **Users and groups** section for your application, add any required
 users or groups to give permission to access the application.
@@ -85,7 +85,7 @@ Notepad. The file is located in the Access Information Center installation direc
 
 …\Program Files\STEALTHbits\Access Information Center
 
-![Parameters in the config file](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/admin/additionalconfig/configfileentrasso.png)
+![Parameters in the config file](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/admin/additionalconfig/configfileentrasso.webp)
 
 **Step 2 –** Locate the **WsFederationMetaData**, **WsFederationRealm**, and **WsFederationReply**
 parameters in the config file. If these are not present, then manually add them to your config file

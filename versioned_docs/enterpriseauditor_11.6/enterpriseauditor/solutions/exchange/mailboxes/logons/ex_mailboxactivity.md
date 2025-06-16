@@ -3,7 +3,7 @@
 The EX_MailboxActivity job collects logs of Native Mailbox Access Auditing from Exchange to provide
 reporting around mailbox logon activity.
 
-![0.Collection > EX_MailboxActivity Job in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/databases/collection/collectionjobstree.png)
+![0.Collection > EX_MailboxActivity Job in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/databases/collection/collectionjobstree.webp)
 
 The EX_MailboxActivity job is located in the 0.Collection job group.
 
@@ -13,7 +13,7 @@ The EX_MailboxActivity job is located in the 0.Collection job group.
 
 The EX_MailboxActivity Job uses the ExchangePS Data Collector.
 
-![Queries for the EX_MailboxActivity Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/mailboxes/logons/mailboxactivityquery.png)
+![Queries for the EX_MailboxActivity Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/mailboxes/logons/mailboxactivityquery.webp)
 
 The following query is included with the EX_MailboxActivity job:
 

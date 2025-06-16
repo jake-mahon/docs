@@ -4,7 +4,7 @@ Configure False Positive exclusion filters using the options in the False Positi
 Positives Filters listed here as False Positives results in the corresponding matches being removed
 from Enterprise Auditor and Access Information Center reports.
 
-![False Positives tab](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/sensitivedata/exclusions/falsepositivestab.png)
+![False Positives tab](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/sensitivedata/exclusions/falsepositivestab.webp)
 
 The options under the False Positives Tab are:
 

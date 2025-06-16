@@ -6,7 +6,7 @@ Server page. See the
 topic for additional information. The introductory text appears on the landing page when recipients
 click on the survey link in the email.
 
-![Survey Action Module Wizard Introduction Page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/survey/introduction.png)
+![Survey Action Module Wizard Introduction Page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/survey/introduction.webp)
 
 The configurable options are:
 

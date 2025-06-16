@@ -12,7 +12,7 @@ relevant solution topic in the
 [Netwrix Enterprise Auditor Documentation](https://helpcenter.netwrix.com/category/enterpriseauditor)
 for additional information on the data collection options.
 
-![Sensitive Content Audit Interface](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/navigate/files.png)
+![Sensitive Content Audit Interface](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/navigate/files.webp)
 
 The criterion being audited is identified at the top of the interface as part of the interface
 breadcrumb. See the

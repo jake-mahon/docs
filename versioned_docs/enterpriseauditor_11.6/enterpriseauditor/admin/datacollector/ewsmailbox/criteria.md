@@ -8,7 +8,7 @@ Auditor Console to define the criteria and enable the Criteria Editor. See the
 [Sensitive Data Discovery Add-On Installation](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/sensitivedatadiscovery/overview.md)
 topic for additional information.
 
-![EWS Mailbox Data Collector Wizard Criteria page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/ewsmailbox/criteria.png)
+![EWS Mailbox Data Collector Wizard Criteria page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/ewsmailbox/criteria.webp)
 
 The options on the Criteria page are:
 

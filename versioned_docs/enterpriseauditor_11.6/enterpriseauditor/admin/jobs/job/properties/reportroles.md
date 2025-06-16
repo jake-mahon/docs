@@ -7,7 +7,7 @@ table is blank. See the
 [Role Based Access](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/access/rolebased/overview.md)
 topic for additional information.
 
-![Report Roles tab of Job Properties](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/properties/reportroles.png)
+![Report Roles tab of Job Properties](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/properties/reportroles.webp)
 
 On the Report Roles tab, report role inheritance cannot be broken. Access to reports is inherited
 from the global level to job groups to jobs to report configuration. All user roles configured at

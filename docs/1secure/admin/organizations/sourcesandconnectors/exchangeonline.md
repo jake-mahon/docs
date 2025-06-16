@@ -1,3 +1,12 @@
+---
+id: add-a-source-and-connectors-for-exchange-online
+title: "Add a Source and Connectors for Exchange Online"
+pagination_label: "Add a Source and Connectors for Exchange Online"
+sidebar_label: "Add a Source and Connectors for Exchange Online"
+sidebar_position: 44
+description: "Step-by-step guide to add Exchange Online data sources and connectors to your organization."
+---
+
 # Add a Source and Connectors for Exchange Online
 
 Follow the steps to add an Exchange Online data source and connector(s) to your organization.

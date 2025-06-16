@@ -4,7 +4,7 @@ The AnyID_Salesforce job collects Salesforce contact details including phone, ad
 date of birth. This job requires API access to Salesforce in order to collect this information. The
 list of collected attributes can be adjusted as necessary.
 
-![AnyID_Salesforce Job in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/anyid/salesforcejoblocation.png)
+![AnyID_Salesforce Job in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/anyid/salesforcejoblocation.webp)
 
 The AnyID_Salesforce job is located in the **Jobs** > **AnyID Connectors** job group.
 
@@ -72,7 +72,7 @@ Workflow
 
 The AnyID_Salesforce job uses the PowerShell Data Collector for the query.
 
-![Query for the AnyID_Salesforce Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/anyid/salesforcequeries.png)
+![Query for the AnyID_Salesforce Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/anyid/salesforcequeries.webp)
 
 The query is:
 
@@ -93,7 +93,7 @@ Properties**. The Query Properties window opens.
 **Step 3 –** Select the **Data Source** tab, and click **Configure**. The PowerShell Data Collector
 Wizard opens.
 
-![Edit Query Page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/anyid/salesforcequeryeditquery.png)
+![Edit Query Page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/anyid/salesforcequeryeditquery.webp)
 
 **Step 4 –** Navigate to the Edit Query page. Click the **Parameters** tab on the right-hand side of
 the page to expand the Parameters window. See the
@@ -132,7 +132,7 @@ select **Analysis** to view the analysis tasks.
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for the AnyID_Salesforce Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/anyid/salesforceanalyses.png)
+![Analysis Tasks for the AnyID_Salesforce Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/anyid/salesforceanalyses.webp)
 
 The default analysis tasks are:
 

@@ -23,7 +23,7 @@ Based on this model, Power BI will be able to:
 - generate customized graphic reports
 - publish the reports with Power BI Service (SaaS) or Power BI Report Server (on premises)
 
-![Process Schema](/img/versioned_docs/usercube_6.1/usercube/integration-guide/governance/reporting/how-tos/analyze-powerbi/powerbi_process.png)
+![Process Schema](/img/versioned_docs/usercube_6.1/usercube/integration-guide/governance/reporting/how-tos/analyze-powerbi/powerbi_process.webp)
 
 ## Prerequisites
 

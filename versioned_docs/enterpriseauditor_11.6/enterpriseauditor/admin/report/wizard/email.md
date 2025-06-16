@@ -3,7 +3,7 @@
 The E-mail page of the Report Configuration wizard gives you the option to break inheritance and
 select report specific settings for emailing the report.
 
-![Report Configuration wizard E-mail page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/email.png)
+![Report Configuration wizard E-mail page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/email.webp)
 
 The default setting for new and included reports is **Use default setting**, which keeps the
 inheritance from the global, job group, or job settings (see the
@@ -31,7 +31,7 @@ following options:
   report. If it is selected, you must then configure the additional fields below.
 - Do not email this report – Select this option to not email the report
 
-![Settings configured to email the report](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/report/wizard/emailconfigured.png)
+![Settings configured to email the report](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/report/wizard/emailconfigured.webp)
 
 If the **Email this report** setting is selected, then the following fields are enabled for you to
 configure:

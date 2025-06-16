@@ -17,7 +17,7 @@ adjacent pane displays the domain controllers in that domain.
 **Step 3 –** Click the **Edit** button for a domain controller, which is available in the far right
 of the domain controller row. The Server Backup Configuration wizard opens.
 
-![Server Backup Configuration Wizard - Server page](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/server.webp)
+![Server Backup Configuration Wizard - Server page](../../../../../static/img/product_docs/accessanalyzer/admin/settings/server.webp)
 
 **Step 4 –** On the Server page, the fields are populated with the information you provided when
 configuring the domain controller backup. See the
@@ -31,7 +31,7 @@ into account the new password.
 
 **Step 5 –** Modify the schedule if needed, then click **Next**.
 
-![Server Backup Configuration wizard - Options page](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/install/application/options.webp)
+![Server Backup Configuration wizard - Options page](../../../../../static/img/product_docs/accessanalyzer/install/application/options.webp)
 
 **Step 6 –** Modify the options if needed, then click **Next**.
 

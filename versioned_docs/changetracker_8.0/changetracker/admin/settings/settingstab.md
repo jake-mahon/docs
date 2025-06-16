@@ -39,4 +39,4 @@ additional information.
 ![Graphical user interface, website
 
 Description automatically
-generated](/img/versioned_docs/changetracker_8.0/changetracker/admin/settings/page_guide_23.png)
+generated](/img/versioned_docs/changetracker_8.0/changetracker/admin/settings/page_guide_23.webp)

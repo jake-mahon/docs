@@ -13,31 +13,31 @@ installation package. The default location is:
 
 **Step 3 –** Click the Activity Monitor agent installation package and the Wizard opens.
 
-![Activity Monitor Agent Setup Wizard - Welcome Page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/welcome.png)
+![Activity Monitor Agent Setup Wizard - Welcome Page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/welcome.webp)
 
 **Step 4 –** On the welcome page click **Next**.
 
-![End-User License Agreement Page](/img/versioned_docs/changetracker_8.0/changetracker/install/eula.png)
+![End-User License Agreement Page](/img/versioned_docs/changetracker_8.0/changetracker/install/eula.webp)
 
 **Step 5 –** On the End-User License Agreement page, select the **I accept the terms in the License
 Agreement** option and click **Next**.
 
-![Destination Folder Page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/destinationfolder.png)
+![Destination Folder Page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/destinationfolder.webp)
 
 **Step 6 –** (Optional) On the Destination Folder page, click **Change** to change the installation
 directory location.
 
-![Change Destination Folder Page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/agent/changedestination.png)
+![Change Destination Folder Page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/agent/changedestination.webp)
 
 **Step 7 –** Click **OK** on the Change destination folder page to return to the Destination folder
 page. Click **Next**.
 
-![Ready to install Netwrix Activity Monitor Agent 64-bit Page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/agent/readyinstall.png)
+![Ready to install Netwrix Activity Monitor Agent 64-bit Page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/agent/readyinstall.webp)
 
 **Step 8 –** On the Ready to install page, click **Install**. The installation process begins. The
 Setup wizard displays the installation status.
 
-![Completion Page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/complete.png)
+![Completion Page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/complete.webp)
 
 **Step 9 –** When installation is complete, click Finish.
 
@@ -101,18 +101,18 @@ Follow the steps to deploy the activity agent to a single Windows server.
 
 **Step 2 –** On the Agents tab, click **Add Agent**. The Add New Agent(s) window opens.
 
-![Install New Agent Page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/agent/installnew.png)
+![Install New Agent Page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/agent/installnew.webp)
 
 **Step 3 –** Specify the server name where the agent will be deployed. To add multiple server names,
 see the
 [Multiple Activity Agents Deployment](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/agents/add/multiple.md)
 topic for additional information. Click **Next**.
 
-![Agent Port Configuration](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/agent/portdefault.png)
+![Agent Port Configuration](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/agent/portdefault.webp)
 
 **Step 4 –** Specify the port to be used for the agent. Click **Next**.
 
-![Credentials to connect to servers](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/agent/credentials.png)
+![Credentials to connect to servers](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/agent/credentials.webp)
 
 **Step 5 –** On the Credentials to Connect to the Server(s) page, specify the credentials for the
 server to which the agent is deployed. See the
@@ -127,12 +127,12 @@ installed.
 **Step 6 –** Regardless of the warning messages that the agent cannot be installed or upgraded,
 click **Next**. The console will automatically detect the agent as it is already installed.
 
-![Agent Install Location](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/agent/installlocation.png)
+![Agent Install Location](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/agent/installlocation.webp)
 
 **Step 7 –** Specify the path of the Activity Monitor Agent, that has already been installed. Click
 **Next**.
 
-![Windows Agent Settings](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/agent/windowsagent.png)
+![Windows Agent Settings](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/agent/windowsagent.webp)
 
 **Step 8 –** Specify the Activity Monitor Agent Management Group (if desired). Click Finish.
 
@@ -144,7 +144,7 @@ The Agent is now added to the Activity Monitor.
 During the installation process of the agent, the status will display Installing. If there are any
 errors, the Activity Monitor stops the installation and lists the errors in the Agent messages box.
 
-![Activity Monitor Agent Installed](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/agent/consolewithagent.png)
+![Activity Monitor Agent Installed](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/agent/consolewithagent.webp)
 
 When the Activity Monitor agent installation is complete, the status changes to **Installed** and
 the activity agent version populates. The next step is to add hosts to be monitored.

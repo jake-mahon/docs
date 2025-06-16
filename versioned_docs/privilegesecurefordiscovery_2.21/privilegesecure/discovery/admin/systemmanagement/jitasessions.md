@@ -15,19 +15,19 @@ To delegate access to another user the following steps should be taken:
 - Open the grant access screen for the required machined click the JITA Session button above the
   inventory
 
-![Screen_Shot_2022-03-07_at_7.01.28_PM.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/systemmanagement/4623118195479_screen_shot_2022-03-07_at_7.01.28_pm.png)
+![Screen_Shot_2022-03-07_at_7.01.28_PM.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/systemmanagement/4623118195479_screen_shot_2022-03-07_at_7.01.28_pm.webp)
 
 - Search for the required user and select the amount of elevated time desired (slide bar, radio
   button or minute entry), then click the start button. Note: access is only available to users that
   already have access via the inventory
 
-![Screen_Shot_2022-03-07_at_7.02.26_PM.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/systemmanagement/4623118195479_screen_shot_2022-03-07_at_7.02.26_pm.png)
+![Screen_Shot_2022-03-07_at_7.02.26_PM.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/systemmanagement/4623118195479_screen_shot_2022-03-07_at_7.02.26_pm.webp)
 
 - The person requesting the access, as well as the person the access is delegated to is captured:
 
-![Screen_Shot_2022-03-07_at_7.05.22_PM.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/systemmanagement/4623118195479_screen_shot_2022-03-07_at_7.05.22_pm.png)
+![Screen_Shot_2022-03-07_at_7.05.22_PM.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/systemmanagement/4623118195479_screen_shot_2022-03-07_at_7.05.22_pm.webp)
 
-![Screen_Shot_2022-03-07_at_7.05.48_PM.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/systemmanagement/4623118195479_screen_shot_2022-03-07_at_7.05.48_pm.png)
+![Screen_Shot_2022-03-07_at_7.05.48_PM.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/systemmanagement/4623118195479_screen_shot_2022-03-07_at_7.05.48_pm.webp)
 
 ## Extended Details
 
@@ -45,4 +45,4 @@ Version Requirements
 The "JITA Session" button will not be available on Linux systems where Directory Bridging is set to
 Privilege Secure. This is intentional.
 
-![Screenshot_2022-12-08_at_1.14.16_PM.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/systemmanagement/4623118195479_screenshot_2022-12-08_at_1.14.16_pm.png)
+![Screenshot_2022-12-08_at_1.14.16_PM.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/systemmanagement/4623118195479_screenshot_2022-12-08_at_1.14.16_pm.webp)

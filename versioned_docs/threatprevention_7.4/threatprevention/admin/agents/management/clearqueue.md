@@ -13,7 +13,7 @@ reconnection. This option is for diagnostic and troubleshooting purposes only.
 
 **Step 2 –** Right-click a server/Agent and select **Clear SQLite Agent Queue** on the menu.
 
-![Enter Credentials window](/img/versioned_docs/threatprevention_7.4/threatprevention/install/upgrade/entercredentials.png)
+![Enter Credentials window](/img/versioned_docs/threatprevention_7.4/threatprevention/install/upgrade/entercredentials.webp)
 
 **Step 3 –** On the Enter Credentials window, enter a username and password with sufficient rights
 to connect to the target machine and query information about shares. A local Administrator account

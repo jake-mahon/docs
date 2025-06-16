@@ -3,7 +3,7 @@
 The Permissions report at the **Instance Permissions** node shows the instance permissions for the
 trustee.
 
-![Permissions report at the Instance Permissions node](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/sql/instancepermissions/instancepermissions.png)
+![Permissions report at the Instance Permissions node](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/sql/instancepermissions/instancepermissions.webp)
 
 This report is comprised of the following columns:
 

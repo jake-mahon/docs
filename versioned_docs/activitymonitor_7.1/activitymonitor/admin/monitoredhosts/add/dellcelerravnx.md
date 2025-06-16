@@ -37,12 +37,12 @@ Follow the steps to add a Dell Celerra or VNX host to be monitored.
 
 **Step 1 –** Navigate to the Monitored Hosts tab and click Add. The Add New Host window opens.
 
-![Choose Agent Page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/chooseagent.png)
+![Choose Agent Page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/chooseagent.webp)
 
 **Step 2 –** On the Choose Agent page, select the **Agent** to monitor the storage device. Click
 **Next**.
 
-![Add Dell VNX or Celerra Host](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/addhostemcvnxcelerra.png)
+![Add Dell VNX or Celerra Host](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/addhostemcvnxcelerra.webp)
 
 **Step 3 –** On the Add Host page, select the Dell VNX/Celerra radio button and enter the **CIFS
 Server NetBIOS Name** for the device. If desired, add a **Comment**. Click **Next**.
@@ -54,12 +54,12 @@ machine, manual configuration is required. See the
 [Dell CEE Options Tab](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/agents/properties/dellceeoptions.md)
 topic for additional information.
 
-![Protocol Monitoring Options](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/isilonprotocols.png)
+![Protocol Monitoring Options](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/isilonprotocols.webp)
 
 **Step 4 –** On the Protocols page, select which protocols to monitor. The list of protocols that
 can be monitored are All, CIFS, or NIFS. Click **Next**.
 
-![Configure Operations Page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/configureoperationsforemcisilon.png)
+![Configure Operations Page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/configureoperationsforemcisilon.webp)
 
 **Step 5 –** On the Configure Operations page, select the **File Operations** and **Directory
 Operations** to be monitored. Additional options include:
@@ -71,7 +71,7 @@ feature may delay reporting of activity.
 
 Click **Next**.
 
-![Configure Basic Options Page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/configurebasicoptions.png)
+![Configure Basic Options Page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/configurebasicoptions.webp)
 
 **Step 6 –** On the Configure Basic Options page, choose which settings to enable. The “Log files”
 are the activity logs created by the activity agent on the proxy host. Select the desired options:
@@ -100,12 +100,12 @@ are the activity logs created by the activity agent on the proxy host. Select th
 
 Click **Next**.
 
-![Where to Log the Activity Page Generic](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/wheretologgeneric.png)
+![Where to Log the Activity Page Generic](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/wheretologgeneric.webp)
 
 **Step 7 –** On the Where To Log The Activity page, select whether to send the activity to either a
 **Log File** or **Syslog Server**. Click **Next**.
 
-![File Output Page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/fileoutputpage.png)
+![File Output Page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/fileoutputpage.webp)
 
 **Step 8 –** If **Log File** is selected on the **Where To Log The Activity** page, the **File
 Output** page can be configured.
@@ -129,7 +129,7 @@ Output** page can be configured.
 
 Click **Next**.
 
-![Syslog Output Page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/syslogoutput.png)
+![Syslog Output Page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/syslogoutput.webp)
 
 **Step 9 –** If Syslog Server is selected on the **Where To Log The Activity** page, the Syslog
 Output page can be configured.
@@ -199,7 +199,7 @@ Output page can be configured.
 
 Click **Finish**.
 
-![activitymonitoremcvnxcelerra](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/activitymonitoremcvnxcelerra.png)
+![activitymonitoremcvnxcelerra](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/activitymonitoremcvnxcelerra.webp)
 
 The added Dell Celerra or VNX host is displayed in the Monitored Hosts table. Once a host has been
 added for monitoring, configure the desired ouptuts. See the

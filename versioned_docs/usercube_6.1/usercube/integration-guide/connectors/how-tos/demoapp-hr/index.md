@@ -7,12 +7,12 @@ This guide shows how to set up and run the HR demo application.
 The HR application is a demo application that represents a web based external system. The HR
 application contains an employee list.
 
-![Users list](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/how-tos/demoapp-hr/demoapps_hr_userslist.png)
+![Users list](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/how-tos/demoapp-hr/demoapps_hr_userslist.webp)
 
 Each employee also has their own page, with the possibility to edit their profile or delete them. It
 is also possible to add a new employee.
 
-![User details](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/how-tos/demoapp-hr/demoapps_hr_userdetails.png)
+![User details](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/how-tos/demoapp-hr/demoapps_hr_userdetails.webp)
 
 The HR application uses csv files as data sources. When a user is added, deleted, or edited, the csv
 file will be modified, and the changes will be saved.

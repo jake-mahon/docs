@@ -3,7 +3,7 @@
 The Resource Owners interface opened by the Resource Owners tab is where Ownership Administrators
 perform many operations around assigning and managing ownership.
 
-![Resource Owners Tab in Netwrix Access Information Center](/img/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/interface.png)
+![Resource Owners Tab in Netwrix Access Information Center](/img/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/interface.webp)
 
 The information displayed in the table includes:
 
@@ -42,7 +42,7 @@ information.
 
 The buttons at the bottom enable you to conduct the following actions:
 
-![Action buttons in the Resource Owners Interface](/img/versioned_docs/auditor_10.6/access/reviews/resourceowners/interfacebuttons.png)
+![Action buttons in the Resource Owners Interface](/img/versioned_docs/auditor_10.6/access/reviews/resourceowners/interfacebuttons.webp)
 
 | Button               | Function                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | -------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

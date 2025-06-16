@@ -89,7 +89,7 @@ The next step is to assign permissions on the physical folder that binds to your
 
 3. Open the **appsettings.json** file and add the highlighted script at the end of the file:
 
-    ![Script for appsettings.json file](/img/versioned_docs/groupid_11.0/groupid/admincenter/portal/appsettings-full.png)
+    ![Script for appsettings.json file](/img/versioned_docs/groupid_11.0/groupid/admincenter/portal/appsettings-full.webp)
 
 4. The script to be added is given below:
 
@@ -128,15 +128,15 @@ To connect to the API, an access key is required. Follow the steps below to gene
    used.
 2. Click **ACCESS KEYS**.
 
-    ![Access Keys](/img/versioned_docs/groupid_11.0/groupid/admincenter/portal/accesskeys.png)
+    ![Access Keys](/img/versioned_docs/groupid_11.0/groupid/admincenter/portal/accesskeys.webp)
 
 3. Click **Create Access Key** to generate an access key and provide the following information:
 
-    ![Access Key Purpose window](/img/versioned_docs/groupid_11.0/groupid/admincenter/portal/accesskeyspurpose.png)
+    ![Access Key Purpose window](/img/versioned_docs/groupid_11.0/groupid/admincenter/portal/accesskeyspurpose.webp)
 
 4. On clicking **Create**, the access key is generated.
 
-    ![Access Token window](/img/versioned_docs/groupid_11.0/groupid/admincenter/portal/accesstoken.png)
+    ![Access Token window](/img/versioned_docs/groupid_11.0/groupid/admincenter/portal/accesstoken.webp)
 
 **See Also**
 

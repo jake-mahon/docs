@@ -6,7 +6,7 @@ This connector exports entries from an
 This page is about
 [Directory/LDIF](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/ldif/index.md).
 
-![Package: Directory/LDIF](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/ldif/packages_ldif_v603.png)
+![Package: Directory/LDIF](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/ldif/packages_ldif_v603.webp)
 
 ## Overview
 

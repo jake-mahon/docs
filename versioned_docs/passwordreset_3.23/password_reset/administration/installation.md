@@ -30,7 +30,7 @@ The Password Reset Server is the component that performs requests on behalf of u
 requests from the Web Interface, checks the user's credentials, and performs the requested task if
 the credentials are valid.
 
-![installing_apr](/img/versioned_docs/passwordreset_3.23/password_reset/evaluation/installing_apr_1.png)
+![installing_apr](/img/versioned_docs/passwordreset_3.23/password_reset/evaluation/installing_apr_1.webp)
 
 **NOTE:** Microsoft SQL Server Compact is installed with the Password Reset Server. SQL Server
 Compact is free to use, and should only be removed if you move the database to SQL Server. SQL
@@ -200,7 +200,7 @@ Reset**, and **3.0** registry keys.
 **Step 12 –** Set the **ServerIP** registry value to the IP address of the computer that you
 installed the Password Reset Server onto.
 
-![installing_apr_1](/img/versioned_docs/passwordreset_3.23/password_reset/evaluation/installing_apr_1.png)
+![installing_apr_1](/img/versioned_docs/passwordreset_3.23/password_reset/evaluation/installing_apr_1.webp)
 
 The Password Reset Setup wizard only installs one Web Interface on each server, but you can copy the
 files to another directory and publish several Web Interfaces from one server. This allows you to

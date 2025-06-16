@@ -2,7 +2,7 @@
 
 Use the Parameters page to enter the parameter values.
 
-![Web Request Action Module Wizard Parameters page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/webrequest/parameters.png)
+![Web Request Action Module Wizard Parameters page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/webrequest/parameters.webp)
 
 Enter parameter values using the following options:
 
@@ -38,7 +38,7 @@ Enter parameter values using the following options:
 Use the Custom Attribute Editor window to create a custom attribute using the existing attributes
 and advanced functions.
 
-![Custom Attribute Editor Window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/webrequest/customattributeeditor.png)
+![Custom Attribute Editor Window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/webrequest/customattributeeditor.webp)
 
 Create custom attributes using the following options:
 

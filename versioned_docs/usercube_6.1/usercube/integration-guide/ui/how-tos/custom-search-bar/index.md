@@ -17,7 +17,7 @@ To search on a resource list for an entity, you must enter a SearchBar tag for t
 
 Here is the visualization of this searchbar on the interface:
 
-![SearchBarWithoutFilters](/img/versioned_docs/usercube_6.1/usercube/integration-guide/ui/how-tos/custom-search-bar/searchbarwithoutfilter.png)
+![SearchBarWithoutFilters](/img/versioned_docs/usercube_6.1/usercube/integration-guide/ui/how-tos/custom-search-bar/searchbarwithoutfilter.webp)
 
 Ergonomically, it is recommended to hide the search symbol in a column header (in a list displayed
 like a table) if a criterion linked to this column is already displayed in a searchbar. This avoids
@@ -40,7 +40,7 @@ To add a default filter, you must add both of the following properties to a
 
 Here is the visualization of this criterion on the interface:
 
-![SearchBarFilter](/img/versioned_docs/usercube_6.1/usercube/integration-guide/ui/how-tos/custom-search-bar/searchbarfilters.png)
+![SearchBarFilter](/img/versioned_docs/usercube_6.1/usercube/integration-guide/ui/how-tos/custom-search-bar/searchbarfilters.webp)
 
 ## Search Bar Menu
 

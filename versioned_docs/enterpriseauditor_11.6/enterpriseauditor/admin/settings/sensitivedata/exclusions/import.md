@@ -6,17 +6,17 @@ scoped to a single solution and a criteria set.
 
 Follow the steps to import a list of False Positive Exclusion Filter.
 
-![Import on False Positives tab](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/sensitivedata/exclusions/importfilter.png)
+![Import on False Positives tab](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/sensitivedata/exclusions/importfilter.webp)
 
 **Step 1 –** Click **Import** to open the Select False Positive Exclusion Filter file to import
 window.
 
-![Select False Positive Exclusion Filter file to import window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/sensitivedata/exclusions/importfileexplorer.png)
+![Select False Positive Exclusion Filter file to import window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/sensitivedata/exclusions/importfileexplorer.webp)
 
 **Step 2 –** Navigate to the file that will be imported. Select the file and click **Open**. The
 Configure Imported False Positive Exclusion Filters window opens.
 
-![Configure Imported False Positive Exclusion Filters window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/sensitivedata/exclusions/configureexclusionfilterwindow.png)
+![Configure Imported False Positive Exclusion Filters window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/sensitivedata/exclusions/configureexclusionfilterwindow.webp)
 
 **Step 3 –** Select the repository type from the **Source** drop-down menu.
 

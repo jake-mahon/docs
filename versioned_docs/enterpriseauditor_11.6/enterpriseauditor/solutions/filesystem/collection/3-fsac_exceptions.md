@@ -21,7 +21,7 @@ Exceptions** > **Configure** node and select **Analysis**.
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for the 3-FSAC Exceptions Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/collection/fsacexceptionsanalysis.png)
+![Analysis Tasks for the 3-FSAC Exceptions Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/collection/fsacexceptionsanalysis.webp)
 
 The following analysis tasks are selected by default:
 

@@ -43,7 +43,7 @@ systems.
 A connection table is used in the definition of an entity type as `Source`, while the available
 columns of the selected table are used for the mapping as `Source Columns`.
 
-![connectiontables_ui_v60](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/configuration-details/connections/connectiontables_ui_v60.png)
+![connectiontables_ui_v60](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/configuration-details/connections/connectiontables_ui_v60.webp)
 
 ## Refresh Schema
 
@@ -56,23 +56,23 @@ Usercube refreshes a connection's schema:
 - when clicking on **Refresh Schema** on the connection's page: only the schema of the current
   connection is refreshed;
 
-    ![Refresh Schema of One Connection](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connection-creation/connectioncreation_refreshschema_v522.png)
+    ![Refresh Schema of One Connection](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connection-creation/connectioncreation_refreshschema_v522.webp)
 
 - when clicking on **Refresh all schemas** on the connector's page: all schemas of the connector are
   refreshed.
 
-    ![Refresh all Schemas](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connection-creation/connectioncreation_refreshall_v602.png)
+    ![Refresh all Schemas](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connection-creation/connectioncreation_refreshall_v602.webp)
 
 In the **Connections** frame, either the last successful schema update is indicated or an icon is
 shown if the refresh schema failed.
 
-![Failed Refresh Schemas](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connection-creation/connectioncreation_failedindicator_v602.png)
+![Failed Refresh Schemas](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connection-creation/connectioncreation_failedindicator_v602.webp)
 
 Some packages don't generate a schema. For these packages, the **Refresh Schema** button isn't
 displayed on the connection's page. On the connector's page, a connection without schema is
 indicated by the sentence "_There is no schema for this connection_".
 
-![No Schema](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connection-creation/connectioncreation_noschema_v522.png)
+![No Schema](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connection-creation/connectioncreation_noschema_v522.webp)
 
 The connections' schemas must be refreshed before editing the connector's entity types via the UI,
 whether the connections were created via the UI or XML configuration. Otherwise, there will be no

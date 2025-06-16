@@ -2,7 +2,7 @@
 
 The 2.Users Job Group provides a workflow to deprovision stale and unused user accounts.
 
-![2.Users Job Group in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/cleanup/users/usersjobtree.png)
+![2.Users Job Group in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/cleanup/users/usersjobtree.webp)
 
 The jobs in the 2.Users Job Group are:
 

@@ -11,7 +11,7 @@ and select **Analysis** to view the analysis tasks.
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis tasks for AAD_GroupDirSync Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/entraid/groups/groupdirsyncanalysis.png)
+![Analysis tasks for AAD_GroupDirSync Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/entraid/groups/groupdirsyncanalysis.webp)
 
 The default analysis tasks are:
 

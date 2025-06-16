@@ -67,7 +67,7 @@ the owners:
   Tool-tips display when hovering over the icons indicating whether the resource ownership has been
   confirmed, declined, pending response, or that a confirmation has not been requested.
 
-![Add new resource wizard showing 3. Description page](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/servicenow/description.webp)
+![Add new resource wizard showing 3. Description page](../../../../../../static/img/product_docs/accessanalyzer/admin/action/servicenow/description.webp)
 
 **Step 5 –** On the Description page, optionally add a description for the resource in the textbox.
 Then click **Next**.
@@ -95,7 +95,7 @@ group appears in the table. Repeat this step for each access level desired. See 
 
 **Step 8 –** Click **Next** to continue.
 
-![Add new resource wizard showing 5. Summary page](../../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/datacollector/adinventory/summary.webp)
+![Add new resource wizard showing 5. Summary page](../../../../../../static/img/product_docs/accessanalyzer/admin/datacollector/adinventory/summary.webp)
 
 **Step 9 –** On the Summary page, review the settings and click **Next**. The Access Information
 Center begins to process the ownership configuration.

@@ -37,7 +37,7 @@ settings** on the left.
 **Step 3 –** In the Windows Firewall with Advanced Security dialog, select **Inbound Rules** on the
 left.
 
-![manualconfig_nla_inbound_connections2016](/img/versioned_docs/auditor_10.6/auditor/configuration/fileservers/windows/manualconfig_nla_inbound_connections2016.png)
+![manualconfig_nla_inbound_connections2016](/img/versioned_docs/auditor_10.6/auditor/configuration/fileservers/windows/manualconfig_nla_inbound_connections2016.webp)
 
 **Step 4 –** Enable the following inbound connection rules:
 

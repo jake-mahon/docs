@@ -11,7 +11,7 @@ Blocking content based on URL categories can lead to data loss if not used corre
 restrict a policy to a few domain names. Policies must be constantly updated as new URLs need to be
 added to the categories lists.
 
-![URL Categories](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/denylistsallowlists/urlcategories.png)
+![URL Categories](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/denylistsallowlists/urlcategories.webp)
 
 You can add a new URL category or edit, delete or export from the Actions column.
 
@@ -23,4 +23,4 @@ then select the option based on the number of uploaded items.
 Once the URL category is created, it will be displayed on the URL category list and will be
 available when creating or editing a Content Aware Protection policy.
 
-![ Creating a new URL category](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/denylistsallowlists/newurlcategory.png)
+![ Creating a new URL category](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/denylistsallowlists/newurlcategory.webp)

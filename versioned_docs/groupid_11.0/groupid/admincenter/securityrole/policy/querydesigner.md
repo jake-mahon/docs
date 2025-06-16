@@ -21,7 +21,7 @@ security role:
   members for building queries for Smart Groups and Dynasties. For each attribute, you can also
   specify the operators that role members can apply to it.
 
-![querydesigner](/img/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/policy/querydesigner.png)
+![querydesigner](/img/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/policy/querydesigner.webp)
 
 You can also specify a default filter criterion, involving an attribute, an operator, and a value,
 that will be displayed to users on the Filter Criteria tab of the Query Designer. Role members can

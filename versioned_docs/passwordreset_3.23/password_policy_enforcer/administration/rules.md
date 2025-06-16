@@ -82,7 +82,7 @@ The Maximum Age rule forces users to change their passwords regularly. This decr
 of an attacker discovering a password before it changes. This rule can only be enforced by domain
 policies.
 
-![ppe_rules](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/ppe_rules.png)
+![ppe_rules](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/ppe_rules.webp)
 
 Select the **Enabled** check box to enable the Maximum Age rule.
 
@@ -150,7 +150,7 @@ rule is in a Transitional mode.
 The Minimum Age rule stops users from quickly cycling through a series of passwords in order to
 evade the History and Similarity rules. This rule can only be enforced by domain policies.
 
-![ppe_rules_2](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/ppe_rules_2.png)
+![ppe_rules_2](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/ppe_rules_2.webp)
 
 Select the **Enabled** check box to enable the Minimum Age rule.
 
@@ -180,7 +180,7 @@ The Length rule rejects passwords that contain too few or too many characters. L
 generally stronger, so only specify a maximum password length if password compatibility must be
 maintained with a system that cannot accept long passwords.
 
-![ppe_rules_3](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/ppe_rules_3.png)
+![ppe_rules_3](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/ppe_rules_3.webp)
 
 Select the **Enabled** check box to enable the Length rule.
 
@@ -201,7 +201,7 @@ Click the **Messages** tab to customize the Password Policy Client rule inserts.
 The Complexity rule rejects passwords that do not contain characters from a variety of character
 sets. Using several character types can make passwords more difficult to crack.
 
-![ppe_rules_4](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/ppe_rules_4.png)
+![ppe_rules_4](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/ppe_rules_4.webp)
 
 Select the **Enabled** check box to enable the Complexity rule.
 
@@ -228,7 +228,7 @@ The Dictionary rule rejects passwords that are vulnerable to guessing, hybrid, a
 attacks. These attacks can crack weak passwords in seconds, and they can be very effective if
 passwords are based on common words.
 
-![ppe_rules_5](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/ppe_rules_5.png)
+![ppe_rules_5](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/ppe_rules_5.webp)
 
 There are two Dictionary rules in each password policy. You can use the second rule with a different
 dictionary file, or to enforce a more tolerant policy for passphrases by disabling the primary rule
@@ -325,7 +325,7 @@ scheduled task to copy the file to a local folder.
 The Compromised rule rejects passwords from prior breaches. These passwords should not be used as
 they are vulnerable to credential stuffing attacks.
 
-![ppe_rules_6](/img/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/ppe_rules_6.png)
+![ppe_rules_6](/img/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/ppe_rules_6.webp)
 
 Select the **Enabled** check box to enable the Compromised rule.
 
@@ -385,7 +385,7 @@ should be avoided because it defeats the purpose of regular password changes. Pa
 Enforcer can stop users from reusing passwords for a specified number of password changes or a
 number of days.
 
-![ppe_rules_7](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/ppe_rules_7.png)
+![ppe_rules_7](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/ppe_rules_7.webp)
 
 Select the **Enabled** check box to enable the History rule.
 
@@ -486,7 +486,7 @@ Replacing the last parameter with your domain's DN.
 
 **Step 4 –** Press **ENTER** and check the output for errors.
 
-![ppe_rules_8](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/ppe_rules_8.png)
+![ppe_rules_8](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/ppe_rules_8.webp)
 
 ### Using an Existing Attribute for the Password History
 
@@ -524,7 +524,7 @@ similarity may indicate that a user is serializing their passwords. For example,
 "password2", "password3", etc. Password serialization should be avoided because it may allow an
 attacker to guess the new password.
 
-![ppe_rules_9](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/ppe_rules_9.png)
+![ppe_rules_9](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/ppe_rules_9.webp)
 
 Select the **Enabled** check box to enable the Similarity rule.
 
@@ -550,7 +550,7 @@ password hashes.
 The User Logon Name rule rejects passwords that are similar to a user's logon name (user name).
 Passwords that are similar to a user's logon name are not desirable because they are easily guessed.
 
-![ppe_rules_10](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/ppe_rules_10.png)
+![ppe_rules_10](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/ppe_rules_10.webp)
 
 - Select the Enabled check box to enable the User Logon Name rule.
 - Select the Detect character substitution check box if Password Policy Enforcer should reject
@@ -574,7 +574,7 @@ The User Display Name rule rejects passwords that are similar to a user's Active
 name (full name for local accounts). Passwords that are similar to a user's display name are not
 desirable because they are easily guessed.
 
-![ppe_rules_11](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/ppe_rules_11.png)
+![ppe_rules_11](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/ppe_rules_11.webp)
 
 - Select the **Enabled** check box to enable the User Display Name rule.
 - Select the Detect character substitution check box if Password Policy Enforcer should reject
@@ -597,7 +597,7 @@ Password Policy Enforcer has seven Character rules that reject passwords if they
 contain certain characters. These rules can increase password strength or ensure password
 compatibility with other systems.
 
-![ppe_rules_12](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/ppe_rules_12.png)
+![ppe_rules_12](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/ppe_rules_12.webp)
 
 All the Character rules work identically, but each has their own default character set. A character
 set is the collection of characters that each rule searches for when checking a password. You can
@@ -658,7 +658,7 @@ in the first two positions.
 
 |                                                                                                                           |                                                                                                                           |
 | ------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
-| ![ppe_rules_13](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/ppe_rules_13.png) | ![ppe_rules_14](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/ppe_rules_14.png) |
+| ![ppe_rules_13](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/ppe_rules_13.webp) | ![ppe_rules_14](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/ppe_rules_14.webp) |
 
 Password Policy Enforcer has only one Numeric rule, so the second requirement must be enforced by
 one of the other rules. Any unused Character rule can be used for this purpose by changing its name
@@ -672,7 +672,7 @@ character. These rules are typically used to ensure password compatibility with 
 
 |                                                                                                                           |                                                                                                                           |
 | ------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
-| ![ppe_rules_15](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/ppe_rules_15.png) | ![ppe_rules_16](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/ppe_rules_16.png) |
+| ![ppe_rules_15](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/ppe_rules_15.webp) | ![ppe_rules_16](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/ppe_rules_16.webp) |
 
 Select the **Enabled** check box to enable the First or Last Character rule.
 
@@ -694,7 +694,7 @@ The Keyboard Pattern rule rejects passwords that contain keyboard patterns such 
 Passwords should not contain keyboard patterns because they are vulnerable to cracking attacks and
 shoulder surfing (observing users as they enter their password).
 
-![ppe_rules_17](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/ppe_rules_17.png)
+![ppe_rules_17](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/ppe_rules_17.webp)
 
 The examples for this rule are taken from a US keyboard layout. These patterns may not exist on
 other keyboard layouts.
@@ -739,7 +739,7 @@ patterns because of these differences. Please report any missed patterns to
 The Character Pattern rule rejects passwords that contain character patterns such as "abcde".
 Passwords should not contain character patterns because they can weaken the password.
 
-![ppe_rules_19](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/ppe_rules_19.png)
+![ppe_rules_19](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/ppe_rules_19.webp)
 
 - Select the **Enabled** check box to enable the Character Pattern rule.
 - Select the Detect character substitution check box if Password Policy Enforcer should reject
@@ -765,7 +765,7 @@ The Repeating Pattern rule rejects passwords that contain repeating character se
 use repetition to artificially increase the length of a short password. This should be avoided as it
 can weaken the password.
 
-![ppe_rules_17](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/ppe_rules_17.png)
+![ppe_rules_17](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/ppe_rules_17.webp)
 
 - Select the **Enabled** check box to enable the Repeating Pattern rule.
 - Select the Detect character substitution check box if Password Policy Enforcer should reject
@@ -788,7 +788,7 @@ Reducing character repetition can increase resistance to both brute-force and di
 algorithms. The Repeating Characters rule is not case sensitive, so "mypaSssSword" contains four
 consecutive repeating characters (SssS).
 
-![ppe_rules_21](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/ppe_rules_21.png)
+![ppe_rules_21](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/ppe_rules_21.webp)
 
 - Select the **Enabled** check box to enable the Repeating Characters rule.
 - Choose the maximum number of consecutive repeating characters that passwords can contain from the
@@ -804,7 +804,7 @@ in a password can increase password strength by avoiding repetitive sequences th
 guessed. The Unique Characters rule is case sensitive, so "LoOpHole" contains seven unique
 characters (LoOpHle).
 
-![ppe_rules_22](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/ppe_rules_22.png)
+![ppe_rules_22](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/ppe_rules_22.webp)
 
 - Select the **Enabled** check box to enable the Unique Characters rule.
 - Choose the minimum number of unique characters that passwords must contain from the **unique

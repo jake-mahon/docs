@@ -11,7 +11,7 @@ Navigate to the **AWS** > **5.Policies** > **AWS_SensitivePolicies** > **Configu
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for the AWS_SensitivePolicies Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/aws/policies/sensitivepoliciesanalysis.png)
+![Analysis Tasks for the AWS_SensitivePolicies Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/aws/policies/sensitivepoliciesanalysis.webp)
 
 The following analysis tasks are selected by default:
 

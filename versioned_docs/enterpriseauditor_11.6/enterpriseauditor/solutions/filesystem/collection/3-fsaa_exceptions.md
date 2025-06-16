@@ -26,7 +26,7 @@ Exceptions** > **Configure** node and select **Analysis**.
 **CAUTION:** Most of these analysis tasks are preconfigured and should not be modified and or
 deselected. While it is possible to deselect particular tasks as specified, it is not recommended.
 
-![Analysis Tasks for the 3-FSAA Exceptions Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/collection/fsaaexceptionsanalysis.png)
+![Analysis Tasks for the 3-FSAA Exceptions Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/collection/fsaaexceptionsanalysis.webp)
 
 The following analysis tasks are selected by default:
 

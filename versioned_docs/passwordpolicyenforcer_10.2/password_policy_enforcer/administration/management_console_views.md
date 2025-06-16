@@ -5,7 +5,7 @@ the management console to select a view.
 
 ## Password Policy Enforcer View
 
-![configuring_ppe_2](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/configuring_ppe_2.png)
+![configuring_ppe_2](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/configuring_ppe_2.webp)
 
 Click Netwrix Password Policy Enforcer in the left pane to display this view. With this view, you
 can perform the following actions:
@@ -17,7 +17,7 @@ can perform the following actions:
 
 ## Password Policy Server View
 
-![configuring_ppe_3](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/configuring_ppe_3.png)
+![configuring_ppe_3](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/configuring_ppe_3.webp)
 
 Click **Password Policy Server** in the left pane to display this view. With this view, you can
 perform the following actions:
@@ -41,7 +41,7 @@ time, not only during a password change or reset.
 
 #### General
 
-#### ![cpcgeneral](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/cpcgeneral.png)
+#### ![cpcgeneral](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/cpcgeneral.webp)
 
 - **Enable** – select this checkbox if you want to perform one of the following operations:
 
@@ -56,7 +56,7 @@ time, not only during a password change or reset.
 - **Schedule** – Click this link to open the "Schedule task" window. Choose date and time when the
   scan will start and configure the scan frequency.
 
-    ![supporttoolswindowpasswordcheckerschedule](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/supporttoolswindowpasswordcheckerschedule.png)
+    ![supporttoolswindowpasswordcheckerschedule](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/supporttoolswindowpasswordcheckerschedule.webp)
 
     Setup the desired schedule to run Password Checker. You may choose to run it once, or
     periodically on a defined schedule.
@@ -68,11 +68,11 @@ time, not only during a password change or reset.
         - **Daily** – Select the time of day at which you want to run Password Checker.
         - **Weekly** – Select the day of the week on which you want to run Password Checker.
 
-            ![supporttoolswindowpasswordcheckerscheduleweekly](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/supporttoolswindowpasswordcheckerscheduleweekly.png)
+            ![supporttoolswindowpasswordcheckerscheduleweekly](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/supporttoolswindowpasswordcheckerscheduleweekly.webp)
 
         - **Monthly** – Select the day of the month on which you want to run Password Checker.
 
-            ![supporttoolswindowpasswordcheckerschedulemonthly](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/supporttoolswindowpasswordcheckerschedulemonthly.png)
+            ![supporttoolswindowpasswordcheckerschedulemonthly](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/supporttoolswindowpasswordcheckerschedulemonthly.webp)
 
     - **When** – Select the start date and time when you to run Password Checker.
 
@@ -83,7 +83,7 @@ time, not only during a password change or reset.
 
 #### Report Recipient
 
-![cpcreportrecipient](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/cpcreportrecipient.png)
+![cpcreportrecipient](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/cpcreportrecipient.webp)
 
 - **To** – Type the email address of the administrator receiving the full report.
 - **From** – Type the name and email address you wish to appear. The correct format is
@@ -91,7 +91,7 @@ time, not only during a password change or reset.
 
 #### User Notification
 
-![cpcusernotification](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/cpcusernotification.png)
+![cpcusernotification](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/cpcusernotification.webp)
 
 - **From** – Type the name and email address you wish to appear. The correct format is
   `"Display Name" <mailbox@domain.com>`
@@ -105,7 +105,7 @@ passwords.
 
 ## Policies View
 
-![configuring_ppe_4](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/configuring_ppe_4.png)
+![configuring_ppe_4](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/configuring_ppe_4.webp)
 
 Click **Password Policy Server** in the left pane to display this view. With this view, you can
 perform the following actions:
@@ -121,7 +121,7 @@ perform the following actions:
 
 ## Rules View
 
-#### ![configuring_ppe_5](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/configuring_ppe_5.png)
+#### ![configuring_ppe_5](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/configuring_ppe_5.webp)
 
 Click a **policy name** in the left pane to display this view. Use this view to configure the rules
 for a policy.

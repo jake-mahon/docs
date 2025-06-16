@@ -12,7 +12,7 @@ node and select **Analysis** to view the analysis tasks.
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for the AAD_DirectMembership Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/users/directmembershipanalysis.png)
+![Analysis Tasks for the AAD_DirectMembership Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/users/directmembershipanalysis.webp)
 
 The default analysis tasks are:
 

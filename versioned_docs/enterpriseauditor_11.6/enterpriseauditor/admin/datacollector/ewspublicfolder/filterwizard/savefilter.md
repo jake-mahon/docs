@@ -2,7 +2,7 @@
 
 Use the Save Filter Page to name and describe the custom filter created in the wizard.
 
-![Filter Wizard Save Filter page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/ewsmailbox/filterwizard/savefilter.png)
+![Filter Wizard Save Filter page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/ewsmailbox/filterwizard/savefilter.webp)
 
 Label the custom filter using the following options:
 

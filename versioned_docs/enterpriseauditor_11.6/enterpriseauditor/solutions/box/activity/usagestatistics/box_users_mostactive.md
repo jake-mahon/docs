@@ -11,7 +11,7 @@ Navigate to **Box** > **1.Activity** > **Usage Statistics** > **Box_Users_MostAc
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for the Box_Users_MostActive Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/box/activity/usagestatistics/usersmostactiveanalysis.png)
+![Analysis Tasks for the Box_Users_MostActive Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/box/activity/usagestatistics/usersmostactiveanalysis.webp)
 
 The default analysis task is:
 

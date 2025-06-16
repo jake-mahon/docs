@@ -4,7 +4,7 @@ You must save the QRadar SEC token to the Settings interface of the Active Direc
 
 Click the gear icon next to the Search box to open the Settings interface.
 
-![Settings interface](/img/versioned_docs/activitymonitor_7.1/config/dellpowerscale/settings.png)
+![Settings interface](/img/versioned_docs/activitymonitor_7.1/config/dellpowerscale/settings.webp)
 
 The More information link opens the IBM Knowledge Center with information on generating the QRadar
 SEC token. Once the token is generated, copy and paste it here and click Save.

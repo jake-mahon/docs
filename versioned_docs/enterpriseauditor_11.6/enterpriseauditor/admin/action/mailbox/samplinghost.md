@@ -3,7 +3,7 @@
 Use the Sampling Host page to specify the Exchange server to target. It is a wizard page for all
 operation types.
 
-![New Mailbox Action Wizard Sampling Host page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/mailbox/samplinghost.png)
+![New Mailbox Action Wizard Sampling Host page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/mailbox/samplinghost.webp)
 
 Select an Exchange server to target using the following options:
 

@@ -10,9 +10,9 @@ above).
 
 **Step 2 –** Configure rule inserts for each enabled rule (see Customizing Rule Inserts above).
 
-![the_password_policy_client_6](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/the_password_policy_client_6.png)
+![the_password_policy_client_6](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/the_password_policy_client_6.webp)
 
-![the_password_policy_client_7](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/the_password_policy_client_7.png)
+![the_password_policy_client_7](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/the_password_policy_client_7.webp)
 
 The Password Policy Client uses the Windows client language settings to determine which language to
 display.

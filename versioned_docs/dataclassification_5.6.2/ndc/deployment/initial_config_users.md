@@ -2,7 +2,7 @@
 
 On this step, you are prompted to restrict access to administrative web console by adding users.
 
-![initial_config_users](/img/versioned_docs/dataclassification_5.6.2/ndc/deployment/initial_config_users.png)
+![initial_config_users](/img/versioned_docs/dataclassification_5.6.2/ndc/deployment/initial_config_users.webp)
 
 - Enable user management – select to add super users and prevent unauthorized access to
   administrative web console. By default, any authenticated users have access to the console.

@@ -7,7 +7,7 @@ The Sensitive Data Discovery Add-on is required to use the sensitive data collec
 [Sensitive Data Discovery Add-On Installation](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/sensitivedatadiscovery/overview.md)
 topic for additional information.
 
-![EWS Mailbox Data Collector Wizard SDD Options page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/ewsmailbox/sddoptions.png)
+![EWS Mailbox Data Collector Wizard SDD Options page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/ewsmailbox/sddoptions.webp)
 
 Select the applicable Sensitive data scan options:
 

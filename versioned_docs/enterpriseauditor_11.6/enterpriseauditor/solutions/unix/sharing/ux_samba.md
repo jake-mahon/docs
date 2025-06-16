@@ -11,7 +11,7 @@ node and select **Analysis**.
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for the UX_Samba Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/unix/sharing/sambaanalysis.png)
+![Analysis Tasks for the UX_Samba Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/unix/sharing/sambaanalysis.webp)
 
 The default analysis tasks are:
 

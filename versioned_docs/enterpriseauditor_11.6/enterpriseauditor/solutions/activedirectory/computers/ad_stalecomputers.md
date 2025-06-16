@@ -26,7 +26,7 @@ and select **Analysis** to view the analysis tasks.
 **CAUTION:** Do not modify or deselect the **2. Summarize by Domain** analysis task. This analysis
 task is preconfigured for this job.
 
-![Analysis Tasks for the AD_StaleComputers Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/computers/stalecomputersanalysis.png)
+![Analysis Tasks for the AD_StaleComputers Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/computers/stalecomputersanalysis.webp)
 
 The default analysis tasks are:
 

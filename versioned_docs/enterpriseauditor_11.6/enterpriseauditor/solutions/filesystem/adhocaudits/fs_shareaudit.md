@@ -11,7 +11,7 @@ node and select Analysis.
 **CAUTION:** Do not modify or deselect the last three selected analysis tasks. The analysis tasks
 are preconfigured for this job.
 
-![Analysis Selection](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/adhocaudits/shareauditanalysis.png)
+![Analysis Selection](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/adhocaudits/shareauditanalysis.webp)
 
 The following analysis tasks are selected by default:
 

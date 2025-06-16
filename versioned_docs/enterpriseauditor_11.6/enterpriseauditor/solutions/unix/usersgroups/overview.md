@@ -3,7 +3,7 @@
 The jobs within the 1.Users and Groups job group provide visibility into users and groups, helping
 to pinpoint potential areas of administrative concern.
 
-![1.Users and Groups Job Group in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/jobstree.png)
+![1.Users and Groups Job Group in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/jobstree.webp)
 
 The jobs in the 1.Users and Groups job group are:
 

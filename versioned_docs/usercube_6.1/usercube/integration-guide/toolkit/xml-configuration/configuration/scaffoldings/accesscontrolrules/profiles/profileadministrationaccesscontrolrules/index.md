@@ -4,9 +4,9 @@ Gives to a given profile the rights to create, update and delete profiles.
 
 Profiles are listed on the **Profiles** screen, from **Settings** in the **Configuration** section.
 
-![Settings](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/user-profile-configuration/home_settings_v523.png)
+![Settings](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/user-profile-configuration/home_settings_v523.webp)
 
-![Profiles](/img/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/profiles/profileadministrationaccesscontrolrules/accesscontrol_profiles_v603.png)
+![Profiles](/img/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/profiles/profileadministrationaccesscontrolrules/accesscontrol_profiles_v603.webp)
 
 [See more details on profiles' APIs](/versioned_docs/usercube_6.1/usercube/integration-guide/api/server/accesscontrol/index.md).
 

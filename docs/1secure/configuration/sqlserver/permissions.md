@@ -1,3 +1,12 @@
+---
+id: permissions-for-sql-server-auditing
+title: "Permissions for SQL Server Auditing"
+pagination_label: "Permissions for SQL Server Auditing"
+sidebar_label: "Permissions for SQL Server Auditing"
+sidebar_position: 142
+description: "Learn about the account permissions required for SQL Server auditing and data collection."
+---
+
 # Permissions for SQL Server Auditing
 
 Before you create a monitoring plan to audit your SQL Server, make sure the account to be used for

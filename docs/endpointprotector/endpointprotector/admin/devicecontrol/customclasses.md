@@ -9,7 +9,7 @@ double-clicking on it.
 
 You can edit, duplicate or delete a policy after selecting the policy.
 
-![Provides you with the option to create new classes of devices for easier management](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/devicecontrol/customclasses.png)
+![Provides you with the option to create new classes of devices for easier management](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/devicecontrol/customclasses.webp)
 
 Before adding devices to a Custom Class, the Name, Description, Device Type (USB Storage Devices,
 Cameras, etc.), Device Right (Allow Access, Block Access, etc.) must be provided. Once this is done,
@@ -18,18 +18,18 @@ there are multiple ways of adding devices to a Custom Class:
 - New Device (VID, PID, Serial Number) – will allow at Step 2 to add new devices based on Vendor ID,
   Product ID, and Serial Number.
 
-![Multiple ways of adding devices to a Custom Class](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/devicecontrol/newdevice.png)
+![Multiple ways of adding devices to a Custom Class](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/devicecontrol/newdevice.webp)
 
 - Existing Device (Wizard) – will allow at Step 2 to add devices previously connected to protected
   computers and already in the Endpoint Protector database.
 
-![Add devices previously connected to protected computers](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/devicecontrol/existingdevice.png)
+![Add devices previously connected to protected computers](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/devicecontrol/existingdevice.webp)
 
 - Device Serial Number Range – will allow at Step 2 to add multiple devices at the same time, by
   specifying the ﬁrst and last Serial Number in the range. The recommended use for this feature is
   for devices that have a consecutive range, with a clear, noticeable pattern.
 
-![Add multiple devices at the same time, by specifying the ﬁrst and last Serial Number in the range](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/devicecontrol/multipledevices.png)
+![Add multiple devices at the same time, by specifying the ﬁrst and last Serial Number in the range](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/devicecontrol/multipledevices.webp)
 
 > **NOTE:** Although this feature can work in situations where the Serial Number range does not
 > follow a noticeable pattern, this is not recommended. In this type of situation, some devices will
@@ -38,7 +38,7 @@ there are multiple ways of adding devices to a Custom Class:
 - Bulk List of Devices – will allow at Step 2 to add up to 1000 devices at the same time. There are
   two methods to choose from, either importing a list or simply pasting the information.
 
-![Allow at Step 2 to add up to 1000 devices at the same time](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/devicecontrol/bulkdevices.png)
+![Allow at Step 2 to add up to 1000 devices at the same time](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/devicecontrol/bulkdevices.webp)
 
 - Device Class (Device Type) – will allow at Step 2 to add a speciﬁc right to a Device Type. This
   option is intended to be used in scenarios when a very fast way to change all device types in the
@@ -75,7 +75,7 @@ You can also view the Default Department code - defdep.
 **NOTE:** For detailed information, refer to the
 [System Configuration](../systemconfiguration/overview.md) topic.
 
-![Select an option to grant access for clients based on the Department Code](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/departmentusage.png)
+![Select an option to grant access for clients based on the Department Code](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/departmentusage.webp)
 
 ### Session Settings
 
@@ -90,18 +90,18 @@ For example; If you deﬁne the Session Timeout to 5 minutes and the Timeout cou
 then after 4 minutes of inactivity you will be notiﬁed by the pop-up window that in 60 seconds you
 will be logged out.
 
-![Modify session timeout settings](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/sessionsettings.png)
+![Modify session timeout settings](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/sessionsettings.webp)
 
 If you remain idle for the deﬁned amount of time, then Endpoint Protector stops responding and
 displays a message that indicates the session will expire in the predeﬁned countdown.
 
 You can choose to log out or continue your session, resetting the session timeout interval.
 
-![Choose to log out or continue your session, resetting the session timeout interval](../../../../../static/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/sessiontimeout.png)
+![Choose to log out or continue your session, resetting the session timeout interval](../../../../../static/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/sessiontimeout.webp)
 
 Endpoint Protector Rights Functionality
 
-![Rights Functionality ](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/rightsfunctionality.png)
+![Rights Functionality ](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/rightsfunctionality.webp)
 
 For example; Device X is allowed from Global Rights. If in the Computer Rights section, the same
 device does not have permission to be used, the device will not be usable. Same applies vice-versa:
@@ -123,4 +123,4 @@ Custom Classes rights.
 The Oﬄine Temporary Password rights allow the creation of exceptions from applied rules. These
 rights surpass all others.
 
-![Priorities for Device Control Policies](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/devicecontrol/prioritiesdevicecontrol.png)
+![Priorities for Device Control Policies](../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/devicecontrol/prioritiesdevicecontrol.webp)

@@ -16,7 +16,7 @@ You can configure GroupID immediately after installing it or later.
 
 2. Read the welcome message and click **Next**.
 
-    ![Create new server page](/img/versioned_docs/groupid_11.0/groupid/install/configure/select_to_create_a_new_server-new.png)
+    ![Create new server page](/img/versioned_docs/groupid_11.0/groupid/install/configure/select_to_create_a_new_server-new.webp)
 
 3. To configure a GroupID server or a GroupID client, select the relevant option.
 

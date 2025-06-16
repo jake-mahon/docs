@@ -23,7 +23,7 @@ In order to upgrade only the sever do the following:
 
 **Step 3 –** Rename the `Runtime` folder to create a backup, for example `RuntimeOld`.
 
-![Extranet Artifacts](/img/versioned_docs/usercube_6.1/usercube/migration-guide/extranet_v601.png)
+![Extranet Artifacts](/img/versioned_docs/usercube_6.1/usercube/migration-guide/extranet_v601.webp)
 
 **Step 4 –** Extract the content of the new runtime to the same folder as `RuntimeOld`, inside a new
 `Runtime` folder.

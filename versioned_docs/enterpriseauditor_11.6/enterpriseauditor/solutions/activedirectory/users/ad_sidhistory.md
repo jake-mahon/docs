@@ -13,7 +13,7 @@ select **Analysis** to view the analysis tasks.
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for the AD_SIDHistory Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/users/sidhistoryanalysis.png)
+![Analysis Tasks for the AD_SIDHistory Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/users/sidhistoryanalysis.webp)
 
 The default analysis tasks are:
 

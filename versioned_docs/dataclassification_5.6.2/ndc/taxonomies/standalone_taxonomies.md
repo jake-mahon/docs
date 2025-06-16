@@ -196,7 +196,7 @@ To specify sensitive taxonomy:
 2. Navigate to Taxonomies →Global Settings → Edit. The **Edit** panel displays.
 3. Select Sensitive Taxonomy.
 
-    ![standalonetaxonomies_sensitive](/img/versioned_docs/dataclassification_5.6.2/ndc/taxonomies/standalonetaxonomies_sensitive.png)
+    ![standalonetaxonomies_sensitive](/img/versioned_docs/dataclassification_5.6.2/ndc/taxonomies/standalonetaxonomies_sensitive.webp)
 
 4. Select **Save**.
 

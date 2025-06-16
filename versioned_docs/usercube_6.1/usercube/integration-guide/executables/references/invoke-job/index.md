@@ -8,7 +8,7 @@ The
 [Usercube-Invoke-Job.exe](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/index.md)
 tool is a state machine.
 
-![Schematization](/img/versioned_docs/usercube_6.1/usercube/integration-guide/executables/references/invoke-job/job_operation.png)
+![Schematization](/img/versioned_docs/usercube_6.1/usercube/integration-guide/executables/references/invoke-job/job_operation.webp)
 
 When a job is launched, the state machine starts by computing all the tasks that must be launched in
 the job.

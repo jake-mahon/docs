@@ -10,7 +10,7 @@ View the analysis tasks by navigating to the **FileSystem** > **4.Content** > **
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for the FS_EmptyResources Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/content/sizing/emptyresourcesanalysis.png)
+![Analysis Tasks for the FS_EmptyResources Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/content/sizing/emptyresourcesanalysis.webp)
 
 The following analysis tasks are selected by default:
 

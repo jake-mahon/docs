@@ -57,7 +57,7 @@ generates reports.
 
 The Exchange Solution is divided into categories based upon what is being audited.
 
-![Exchange Job Group Overview page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/runninginstances/overviewpage.png)
+![Exchange Job Group Overview page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/runninginstances/overviewpage.webp)
 
 The following job groups comprise the Exchange Solution:
 

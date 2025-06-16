@@ -39,7 +39,7 @@ Follow the steps to upgrade.
 5. Click **Next**.
 6. If you have an Microsoft Entra ID based identity store in GroupID 10, the following page appears.
 
-    ![Microsoft Entra ID Store Upgrade page](/img/versioned_docs/groupid_11.0/groupid/install/upgrade/entraidstore.png)
+    ![Microsoft Entra ID Store Upgrade page](/img/versioned_docs/groupid_11.0/groupid/install/upgrade/entraidstore.webp)
 
     Provide the following information:
 
@@ -56,7 +56,7 @@ Follow the steps to upgrade.
    Entra ID based identity store or in an AD identity store, the Upgrade wizard displays the
    following page.
 
-    ![ Upgrade wizard Microsoft Entra ID Messaging System page](/img/versioned_docs/groupid_11.0/groupid/install/upgrade/entraidmessagingsystem.png)
+    ![ Upgrade wizard Microsoft Entra ID Messaging System page](/img/versioned_docs/groupid_11.0/groupid/install/upgrade/entraidmessagingsystem.webp)
 
     Provide the following information:
 
@@ -81,7 +81,7 @@ Follow the steps to upgrade.
       auto populated but you can change them.) All jobs with destination provider for that forest
       domain or any of its child domains will be moved to the new identity store.
 
-        ![synchronize_upgrade](/img/versioned_docs/groupid_11.0/groupid/install/upgrade/synchronize_upgrade.png)
+        ![synchronize_upgrade](/img/versioned_docs/groupid_11.0/groupid/install/upgrade/synchronize_upgrade.webp)
 
         NOTE: The service account you provide here should have at least _read_ permission in the
         entire forest, so that all objects from the forest can be replicated to Elasticsearch.
@@ -95,7 +95,7 @@ Follow the steps to upgrade.
     messaging provider will be listed on the wizard page. Expand each job and provide the PFX
     certificate along with its password.
 
-    ![Upgrade wizard Synchronize Messaging System page](/img/versioned_docs/groupid_11.0/groupid/install/upgrade/entraidsynmessagingsystem.png)
+    ![Upgrade wizard Synchronize Messaging System page](/img/versioned_docs/groupid_11.0/groupid/install/upgrade/entraidsynmessagingsystem.webp)
 
     Provide the following information:
 
@@ -116,7 +116,7 @@ Follow the steps to upgrade.
       for it. It must essentially be an Active Directory identity store. The wizard will bind the
       reports generated in GroupID 10 to the identity store, so you will be able to view them in
       GroupID 11.  
-      ![reports_upgrade](/img/versioned_docs/groupid_11.0/groupid/install/upgrade/reports_upgrade.png)
+      ![reports_upgrade](/img/versioned_docs/groupid_11.0/groupid/install/upgrade/reports_upgrade.webp)
 
     NOTE: If no report has been generated in GroupID 10, the page related to reports upgrade will
     not be displayed.
@@ -137,7 +137,7 @@ Follow the steps to upgrade.
       wizard will display the following page that will list all such schedules. Select an identity
       store for each schedule, so that the schedule moves to that identity store.
 
-        ![store_selection_for_schedules](/img/versioned_docs/groupid_11.0/groupid/install/upgrade/store_selection_for_schedules.png)
+        ![store_selection_for_schedules](/img/versioned_docs/groupid_11.0/groupid/install/upgrade/store_selection_for_schedules.webp)
 
     - The rules stated above also apply to schedules with job collections added to them.
 

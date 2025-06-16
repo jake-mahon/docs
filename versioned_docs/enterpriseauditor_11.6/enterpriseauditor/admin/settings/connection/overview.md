@@ -3,7 +3,7 @@
 The Connection node contains objects referred to as Connection Profiles. A Connection Profile houses
 the information Enterprise Auditor uses to connect to the target hosts during job execution.
 
-![Connection](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/connectionpage.png)
+![Connection](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/connectionpage.webp)
 
 There are two methods for authentication to a targeted host:
 
@@ -65,12 +65,12 @@ enterprise IT environment. See the
 [CyberArk Integration](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/cyberarkintegration.md)
 topic for additional information.
 
-![Cancel and Save options](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/cancelsavebuttons.png)
+![Cancel and Save options](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/cancelsavebuttons.webp)
 
 The **Cancel** and **Save** buttons are in the lower-right corner of the Connection view. These
 buttons become enabled when modifications are made to the Connection global setting.
 
-![Information update message box](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/settingssavedmessage.png)
+![Information update message box](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/settingssavedmessage.webp)
 
 Whenever changes are made at the global level, click **Save** and then **OK** to confirm the
 changes. Otherwise, click **Cancel** if no changes were intended.

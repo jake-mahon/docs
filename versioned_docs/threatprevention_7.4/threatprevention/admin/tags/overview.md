@@ -6,7 +6,7 @@ have been imported into the Administration Console. A template can have multiple
 template is displayed in the folder for each tag. If a new tag is added, Refresh the TAGS node to
 view its folder.
 
-![Tags node](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/tags/tags.png)
+![Tags node](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/tags/tags.webp)
 
 Adding tags to a template does not create a duplicate template, but rather multiple places to access
 the template from. A modification made to a template within a folder under the TAGS node is a

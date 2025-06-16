@@ -33,7 +33,7 @@ additional detail.
 
 |                                                                                                                                                                             |                                                                                                                                                                             |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![appendix_for_the_stealthaudit_3](../../../../../static/img/product_docs/accessanalyzer/stealthaudit/install_guides/mapi_cdo_install/appendix_for_the_stealthaudit_3.webp) | ![appendix_for_the_stealthaudit_4](../../../../../static/img/product_docs/accessanalyzer/stealthaudit/install_guides/mapi_cdo_install/appendix_for_the_stealthaudit_4.webp) |
+| ![appendix_for_the_stealthaudit_3](../../../../../static/img/product_docs/accessanalyzer/stealthaudit/install_guides/mapi_cdo_install/appendix_for_the_stealthaudit_4.webp) |
 
 **Step 5 –** On the Welcome page of the Installation Wizard, click Next. Accept the license
 agreement and click Next.

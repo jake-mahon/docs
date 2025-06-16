@@ -8,7 +8,7 @@ wizard page for the following categories:
 - Custom SQL Query
 - Custom Db2LUW Query
 
-![SQL Data Collector Wizard Custom SQL Query Page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/sql/customsqlquery.png)
+![SQL Data Collector Wizard Custom SQL Query Page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/sql/customsqlquery.webp)
 
 The configurable options are:
 

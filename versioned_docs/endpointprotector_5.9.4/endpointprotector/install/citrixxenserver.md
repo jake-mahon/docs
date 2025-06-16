@@ -13,41 +13,41 @@ Follow the steps to get started with your deployment process.
 
 **Step 2 –** Start XenCenter.
 
-![Starting XenCenter](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/install/startingxencenter.png)
+![Starting XenCenter](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/install/startingxencenter.webp)
 
 **Step 3 –** Go to File and select **Appliance Import**.
 
-![Selecting Appliance Import under files](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/install/fileapplianceimport.png)
+![Selecting Appliance Import under files](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/install/fileapplianceimport.webp)
 
 **Step 4 –** Select the OVF ﬁle and then click **Next**.
 
-![Selecting the OVF ﬁle for import](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/install/xenapplianceimport.png)
+![Selecting the OVF ﬁle for import](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/install/xenapplianceimport.webp)
 
 **Step 5 –** Read and accept the EULA, then click **Next**.
 
 **Step 6 –** Select the target for the Virtual Appliance.
 
-![Select the target for the Virtual Appliance.](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/install/xenselecttarget.png)
+![Select the target for the Virtual Appliance.](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/install/xenselecttarget.webp)
 
 **Step 7 –** Select the storage location.
 
-![Select the storage location](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/install/xenselectstorage.png)
+![Select the storage location](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/install/xenselectstorage.webp)
 
 **Step 8 –** Select the network (keep default values).
 
-![Selecting the network](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/install/xenselectnetwork.png)
+![Selecting the network](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/install/xenselectnetwork.webp)
 
 **Step 9 –** On the Security screen, click **Next**.
 
-![Selecting Import Security Settings](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/install/xensecuritysettings.png)
+![Selecting Import Security Settings](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/install/xensecuritysettings.webp)
 
 **Step 10 –** On the Advanced Options screen, click **Next**.
 
-![Advanced setting for Appliance Import](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/install/xenadnvancedoptions.png)
+![Advanced setting for Appliance Import](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/install/xenadnvancedoptions.webp)
 
 **Step 11 –** On the Finish screen, review the conﬁguration, click **Finish** and wait for the
 import to be completed.
 
-![ Reviewing the conﬁguration and Import progress](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/install/xenimportprogress.png)
+![ Reviewing the conﬁguration and Import progress](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/install/xenimportprogress.webp)
 
 The virtual machine is ready to be started.

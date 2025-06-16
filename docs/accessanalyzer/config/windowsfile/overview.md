@@ -8,7 +8,7 @@ Analyzer Activity Auditing (FSAC) scans.
 ## Access & Sensitive Data Auditing Permissions
 
 - Permissions vary based on the Scan Mode Option selected. See the
-  [File System Supported Platforms](../../enterpriseauditor/requirements/target/filesystems.md)
+  [File System Supported Platforms](../../requirements/target/filesystems.md)
   topic for additional information.
 
 Windows File System Cluster Requirements
@@ -25,7 +25,7 @@ instructions.
 
 The firewall ports required by Access Analyzer for Access Auditing (FSAA) and/or Sensitive Data
 Discovery Auditing scans are based on the File System scan mode to be used. See the
-[File System Scan Options](../../enterpriseauditor/requirements/solutions/filesystem/scanoptions.md)
+[File System Scan Options](../../requirements/solutions/filesystem/scanoptions.md)
 topic for additional information.
 
 ## Activity Auditing Permissions

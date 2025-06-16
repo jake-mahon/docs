@@ -2,7 +2,7 @@
 
 The Update resource wizard is opened with the **Update** button in the Resource Owners interface.
 
-![Update Resource wizard showing 1. Select Owners page](/img/versioned_docs/auditor_10.6/access/reviews/resourceowners/wizard/selectowners.png)
+![Update Resource wizard showing 1. Select Owners page](/img/versioned_docs/auditor_10.6/access/reviews/resourceowners/wizard/selectowners.webp)
 
 It contains four pages:
 
@@ -32,7 +32,7 @@ Follow the steps to update ownership configuration for a resource.
 **Step 1 –** In the Resource Owners interface, select the desired resource and click **Update**. The
 Update resource wizard opens.
 
-![Update Resource wizard showing 1. Select Owners page](/img/versioned_docs/auditor_10.6/access/reviews/resourceowners/wizard/selectowners.png)
+![Update Resource wizard showing 1. Select Owners page](/img/versioned_docs/auditor_10.6/access/reviews/resourceowners/wizard/selectowners.webp)
 
 **Step 2 –** The Select Owners page lists the currently assigned owner(s). Modify as desired and
 click **Next** to continue.
@@ -55,13 +55,13 @@ information on the owners:
   Tool-tips display when hovering over the icons indicating whether the resource ownership has been
   confirmed, declined, pending response, or that a confirmation has not been requested.
 
-![Update resource wizard showing 2. Description page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/servicenow/description.png)
+![Update resource wizard showing 2. Description page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/servicenow/description.webp)
 
 **Step 3 –** The Description page displays any description that has been provided by either the
 Ownership Administrator or the assigned owner(s) for the resource. Modify as desired by typing in
 the textbox. Then click **Next** to continue.
 
-![Update resource wizard showing 3. Access Groups page](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceowners/wizard/accessgroups.png)
+![Update resource wizard showing 3. Access Groups page](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceowners/wizard/accessgroups.webp)
 
 **Step 4 –** The Access Groups page indicates whether or not the resource is available for Access
 Requests or Owner Ad Hoc changes. Modify as desired and click **Next** to continue.
@@ -80,12 +80,12 @@ desired. See the
 [Select Group Window](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceowners/window/selectgroup.md)
 topic for additional information.
 
-![Update resource wizard showing 4. Summary page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/adinventory/summary.png)
+![Update resource wizard showing 4. Summary page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/adinventory/summary.webp)
 
 **Step 5 –** On the Summary page, review the settings and click **Next**. The Access Information
 Center begins to process the ownership configuration.
 
-![Update resource wizard completed page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/sensitivedatadiscovery/completed.png)
+![Update resource wizard completed page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/sensitivedatadiscovery/completed.webp)
 
 **Step 6 –** The action status displays on the page. When the update has completed (100%), click
 **Close**. The Update resource wizard closes.

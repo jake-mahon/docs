@@ -40,7 +40,7 @@ actions are in progress. If this wizard is hidden by clicking outside of the dia
 blue link displays on the upper right corner of the interface with the action name displayed. Click
 this link to bring back the focus to the wizard.
 
-![Access Verification window](/img/versioned_docs/threatprevention_7.4/threatprevention/install/upgrade/accessverification.png)
+![Access Verification window](/img/versioned_docs/threatprevention_7.4/threatprevention/install/upgrade/accessverification.webp)
 
 **Step 5 –** The Access Verification window displays one of the following statuses:
 
@@ -53,7 +53,7 @@ this link to bring back the focus to the wizard.
 **NOTE:** Closing the Administration Console while this action is in process causes problems with
 data collection.
 
-![Upgrade Agent window](/img/versioned_docs/threatprevention_7.4/threatprevention/install/upgrade/upgradeagent.png)
+![Upgrade Agent window](/img/versioned_docs/threatprevention_7.4/threatprevention/install/upgrade/upgradeagent.webp)
 
 **Step 6 –** On the Upgrade Agent window, the old Agent will be uninstalled and the newer version of
 the Agent installed. One of two status messages display:

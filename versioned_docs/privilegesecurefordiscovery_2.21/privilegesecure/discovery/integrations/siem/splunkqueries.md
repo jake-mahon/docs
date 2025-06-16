@@ -301,7 +301,7 @@ s1 logs --tail 50 | grep -i "statusCode"
 
 Example:
 
-![blobid0.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/integrations/siem/360048705953_blobid0.png)
+![blobid0.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/integrations/siem/360048705953_blobid0.webp)
 
 ## Non-Splunk Queries
 
@@ -330,7 +330,7 @@ Example:
 
 **UI Error__**:__ User not found.
 
-![blobid1.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/integrations/siem/360048705953_blobid0.png)
+![blobid1.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/integrations/siem/360048705953_blobid0.webp)
 
 1. **Key String:** User not found
 2. **Command line use/syntax:**
@@ -362,7 +362,7 @@ Example:
 
 1. **UI Error__**:__ Invalid username/password
 
-![blobid2.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/integrations/siem/360048705953_blobid2.png)
+![blobid2.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/integrations/siem/360048705953_blobid2.webp)
 
 1. **Key String:** Password failed for
 2. **Command Line Use/Syntax:**
@@ -387,7 +387,7 @@ Example:
 
 1. **UI Error__**:__ Invalid token.
 
-![blobid3.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/integrations/siem/360048705953_blobid3.png)
+![blobid3.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/integrations/siem/360048705953_blobid3.webp)
 
 1. **Key String__**:__ Invalid token
 2. **Command Line Use/Syntax:**

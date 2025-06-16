@@ -3,7 +3,7 @@
 The 3.Computers Job Group help to pinpoint potential areas of administrative concern related to
 computer accounts, including stale computers and computers that have been trusted for delegation.
 
-![3.Computers Job Group in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/jobstree.png)
+![3.Computers Job Group in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/jobstree.webp)
 
 The following jobs comprise the 3.Computers Job Group:
 

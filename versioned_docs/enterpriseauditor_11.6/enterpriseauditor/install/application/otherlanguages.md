@@ -44,7 +44,7 @@ Follow the steps to change the collation at the database level.
 
 **Step 1 –** Access the Database Properties in SQL Server Management Studio.
 
-![SQL Server Management Studio Database Properties window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/databasepropertiescollation.png)
+![SQL Server Management Studio Database Properties window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/databasepropertiescollation.webp)
 
 **Step 2 –** Select **Options** and set the collation.
 
@@ -54,7 +54,7 @@ Now that the collations match, proceed with Enterprise Auditor installation.
 
 Follow the steps to change the collation at the SQL Server level.
 
-![SQL Server Configuration Manager](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/sqlserverconfigurationmanager.png)
+![SQL Server Configuration Manager](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/sqlserverconfigurationmanager.webp)
 
 **Step 1 –** Stop the SQL Server service from the Configuration Manager.
 

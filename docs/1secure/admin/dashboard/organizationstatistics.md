@@ -1,3 +1,12 @@
+---
+id: organization-statistics
+title: "Organization Statistics"
+pagination_label: "Organization Statistics"
+sidebar_label: "Organization Statistics"
+sidebar_position: 21
+description: "View detailed statistics and security insights for client organizations including health status and risk assessments."
+---
+
 # Organization Statistics
 
 You can view various statistics related to an organization, such as health status, risk level,
@@ -12,51 +21,51 @@ organization name in the Organizations list to open the Statistics page for it.
 
 You can view the following insights for an organization.
 
-Organization
+## Organization
 
 This drop-down displays the name of the organization. You can choose a different organization from
 here to view the statistics for that Organization.
 
-Users
+## Users
 
 This link displays the total number of users in the organization along with their percentage share
 with respect to the total number of users in the managed organizations (tenant) in 1Secure. Click
 the value to navigate to the Billable Users page. See the
 [System Reports](../searchandreports/system.md) topic for additional information.
 
-Health Status
+## Health Status
 
 This link displays the current health status of the organization, which can be: Healthy, Trial in
 Progress, New, Update Recommended, Needs Attention, Experiencing Issues, Offline, Disabled, Not
 Configured, and Pending Deletion. Click the health status to navigate to the configuration page of
 the organization.
 
-New Investigation
+## New Investigation
 
 Click the **New Investigation** card to navigate to the New Investigation page where you can create
 a new investigation (custom report). See the [ Custom Reports](../searchandreports/customreports.md)
 topic for additional information.
 
-Risk Assessment
+## Risk Assessment
 
 This card displays the risk level for the organization, such as high, medium, or low. Click the card
 to navigate to the Risk Assessment page for the selected organization. See the
 [Risk Assessment Dashboard](../riskprofiles/riskassessmentdashboard.md) topic for additional
 information.
 
-Saved Custom Reports
+## Saved Custom Reports
 
 This card displays a list of custom reports created for the organization. See the
 [ Custom Reports](../searchandreports/customreports.md) topic for additional information.
 
-Alerts Timeline
+## Alerts Timeline
 
 This card displays a line chart illustrating the number of alerts triggered during the past three
 months. Hover over a point on the chart to view the exact number of alerts triggered on any specific
 date. Click a point on the chart to navigate to the Alerts Timeline page. See the
-[Alerts Timeline](alertstimeline.md) topic for additional information.
+[Alerts Timeline](../alerts/timeline.md) topic for additional information.
 
-Changes By Date
+## Changes By Date
 
 This card displays a line chart illustrating the number of changes made to monitored objects during
 the past three months. Hover over a point on the chart to view the exact number of changes made on
@@ -64,7 +73,7 @@ any specific date. Click a point on the chart to navigate to the Activity page, 
 the complete Changes by Date report. See the [Activity Reports](../searchandreports/activity.md)
 topic for additional information on the Changes by Date report.
 
-Failed Logon Activity Trend
+## Failed Logon Activity Trend
 
 This card displays a line chart illustrating the number of failed logon attempts to the environment
 during the past 3 months. Hover over a point on the chart to view the exact number of failed logon
@@ -73,7 +82,7 @@ you can view the complete Failed Logons report. See the
 [Activity Reports](../searchandreports/activity.md) topic for additional information on the Failed
 Logons report.
 
-Accounts with Most Logon Activity (Past 7 Days)
+## Accounts with Most Logon Activity (Past 7 Days)
 
 This card displays a bar chart highlighting the accounts with the highest number of logon attempts
 to the environment during the past 7 days. Each account is represented by a bar. Hover over a bar to
@@ -82,7 +91,7 @@ page, where you can view the complete All Logon Activity report. See the
 [Activity Reports](../searchandreports/activity.md) topic for additional information on the All
 Logon Activity report.
 
-Who Made Most Changes (Past 7 Days)
+## Who Made Most Changes (Past 7 Days)
 
 This card displays a bar chart highlighting the users who made the most changes to the environment
 during the past 7 days. Each user account is represented by a bar. Hover over a bar to view the
@@ -91,6 +100,6 @@ you can view the complete Changes by User report. See the
 [Activity Reports](../searchandreports/activity.md) topic for additional information on the Changes
 by User report.
 
-Organization Configuration
+## Organization Configuration
 
 Click the Configure button to navigate to the configuration page of the organization.

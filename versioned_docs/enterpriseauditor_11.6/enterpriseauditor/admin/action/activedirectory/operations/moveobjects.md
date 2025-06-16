@@ -2,7 +2,7 @@
 
 Use the Move Objects page to specify the OU in which to move objects.
 
-![Active Directory Action Module Wizard Move Objects page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/activedirectory/operations/moveobject.png)
+![Active Directory Action Module Wizard Move Objects page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/activedirectory/operations/moveobject.webp)
 
 Use the following options to configure the action:
 

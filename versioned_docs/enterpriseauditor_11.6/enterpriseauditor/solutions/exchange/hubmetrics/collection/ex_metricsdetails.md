@@ -10,7 +10,7 @@ collection does not return.
 
 The EX_MetricsDetails Job uses the ExchangeMetrics Data Collector.
 
-![Queries for the EX_MetricsDetails Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/hubmetrics/collection/metricsdetailsquery.png)
+![Queries for the EX_MetricsDetails Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/hubmetrics/collection/metricsdetailsquery.webp)
 
 The following query is included in the EX_MetricsDetails Job:
 
@@ -38,7 +38,7 @@ Collector Wizard opens.
 
 **CAUTION:** Do not modify other wizard pages. The wizard pages are pre-configured for this job.
 
-![Exchange Metrics Data Collector Wizard Message Activity Filter page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/hubmetrics/collection/exchangemetricsmessageactivityfilter.png)
+![Exchange Metrics Data Collector Wizard Message Activity Filter page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/hubmetrics/collection/exchangemetricsmessageactivityfilter.webp)
 
 **Step 4 –** Navigate to the
 [ExchangeMetrics: Message Activity Filter](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchangemetrics/messageactivityfilter.md)
@@ -58,7 +58,7 @@ View the analysis tasks by navigating to the **Exchange** > **1. HUB Metrics** >
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for the EX_MetricsDetails Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/hubmetrics/collection/metricsdetailsanalysis.png)
+![Analysis Tasks for the EX_MetricsDetails Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/hubmetrics/collection/metricsdetailsanalysis.webp)
 
 The following analysis tasks are selected by default:
 

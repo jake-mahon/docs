@@ -5,7 +5,7 @@ membership. This allows Access Information Center users to see what steps must b
 access or group membership, and see what impact these changes would have on access across the
 targeted file systems.
 
-![Modeled Access Changes report](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/runninginstances/overview.png)
+![Modeled Access Changes report](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/runninginstances/overview.webp)
 
 The change modeling process is a feature of the Group Membership pane. You should begin by reviewing
 a trustee's effective access to a File System resource in

@@ -3,7 +3,7 @@
 Use the Input Selection page to scope the source data tables. This option affects the tables
 available for selection on the subsequent pages.
 
-![View and Table Creation Analysis Module wizard Input Selection page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/analysis/sqlviewcreation/inputscope.png)
+![View and Table Creation Analysis Module wizard Input Selection page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/analysis/sqlviewcreation/inputscope.webp)
 
 Select the source data to be used from the following options:
 

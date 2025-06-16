@@ -11,7 +11,7 @@ node and select Analysis to view the analysis tasks.
 **CAUTION:** Do not modify or deselect the selected first analysis task. The first analysis task is
 preconfigured for this job.
 
-![Analysis Tasks for the AD_OverlappingGPOs Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/grouppolicy/overlappinggposanalysis.png)
+![Analysis Tasks for the AD_OverlappingGPOs Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/grouppolicy/overlappinggposanalysis.webp)
 
 The default analysis tasks are:
 

@@ -3,12 +3,12 @@
 Use the configuration pane to view sub-criteria information for System Criteria and to view, add,
 edit, and remove sub-criteria information for User Criteria.
 
-![Configuration Pane](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/configurationpanesystemcriteria.png)
+![Configuration Pane](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/configurationpanesystemcriteria.webp)
 
 The information in the configuration pane changes based on the criteria currently selected in the
 navigation pane.
 
-![Options at the top of the configuration pane](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/configurationpanetop.png)
+![Options at the top of the configuration pane](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/configurationpanetop.webp)
 
 The options at the top of the Configuration Pane are:
 
@@ -40,7 +40,7 @@ The options at the top of the Configuration Pane are:
     - Minimum Matches – Minimum number of match hits required for a sub-criteria match hit
     - Match Type – Displays whether the sub-criteria **Must match** or **Must not match**
 
-![Options at the bottom of the configuration pane](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/configurationpanebottom.png)
+![Options at the bottom of the configuration pane](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/configurationpanebottom.webp)
 
 The options at the bottom of the configuration pane are:
 
@@ -94,7 +94,7 @@ The options at the bottom of the configuration pane are:
 
 Use the Criteria Tester window to test current criteria configurations.
 
-![Criteria Tester window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/criteriatester.png)
+![Criteria Tester window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/criteriatester.webp)
 
 The options in the Criteria Tester are:
 

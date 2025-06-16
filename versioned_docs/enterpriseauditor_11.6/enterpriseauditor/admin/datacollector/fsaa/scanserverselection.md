@@ -7,7 +7,7 @@ wizard page for the categories of:
 - File System Activity Scan
 - Sensitive Data Scan
 
-![FSAA Data Collector Wizard Scan Server Selection page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/scanserverselection.png)
+![FSAA Data Collector Wizard Scan Server Selection page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/scanserverselection.webp)
 
 Using the radio buttons, select where the execution of the applet will take place:
 
@@ -34,7 +34,7 @@ Using the radio buttons, select where the execution of the applet will take plac
       [File System Proxy Service Installation](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/filesystemproxy/wizard.md)
       topic for additional information
 
-    ![Select Host Lists window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/selecthostlists.png)
+    ![Select Host Lists window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/selecthostlists.webp)
 
 - Select Host Lists – Opens the Select Host Lists window displaying all the available hosts to
   choose from. If more than one list is selected, scanning is distributed across each host.

@@ -20,7 +20,7 @@ to create a new report.
 
 **Step 1 –** Navigate to **Jobs** > **[Job]** > **Configure** and select the **Reports** node.
 
-![Create report option](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/report/create.png)
+![Create report option](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/report/create.webp)
 
 **Step 2 –** On the Reports page, click Create.
 
@@ -31,7 +31,7 @@ topic for instructions. Click **Finish** on the final page of the wizard to crea
 
 The new report is added to the Reports table.
 
-![Generate report](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/report/generate.png)
+![Generate report](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/report/generate.webp)
 
 **Step 4 –** Click the vertical ellipsis menu next to the report and select Generate.
 
@@ -45,12 +45,12 @@ You can create a new report by copying an existing report and pasting it in a jo
 You can then optionally customize the report as required. Follow the steps to create a copy of an
 existing report.
 
-![Copy Report](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/navigate/copy.png)
+![Copy Report](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/navigate/copy.webp)
 
 **Step 1 –** Navigate to the Reports node where the desired report to copy is located. Click the
 vertical ellipsis menu next to the report and select Copy.
 
-![Paste Report](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/navigate/paste.png)
+![Paste Report](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/navigate/paste.webp)
 
 **Step 2 –** Navigate to the Reports node in the desired destination for the new report. Click the
 vertical ellipsis menu in the header row of the Reports table and select Paste.

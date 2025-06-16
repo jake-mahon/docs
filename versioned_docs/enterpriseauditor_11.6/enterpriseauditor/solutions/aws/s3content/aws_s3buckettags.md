@@ -11,7 +11,7 @@ Navigate to the **AWS** > **7.S3 Content** > **AWS_S3BucketTags** > **Configure*
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for the AWS_S3BucketTagsJob](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/aws/s3content/s3buckettagsanalysis.png)
+![Analysis Tasks for the AWS_S3BucketTagsJob](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/aws/s3content/s3buckettagsanalysis.webp)
 
 The following analysis tasks are selected by default:
 

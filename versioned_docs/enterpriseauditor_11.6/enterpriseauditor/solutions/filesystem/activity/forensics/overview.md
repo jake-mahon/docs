@@ -3,7 +3,7 @@
 The Forensics job group is designed to report on forensic related activity event information from
 targeted file servers.
 
-![Forensics Job Group in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/jobstree.png)
+![Forensics Job Group in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/jobstree.webp)
 
 The Forensics job group is comprised of:
 

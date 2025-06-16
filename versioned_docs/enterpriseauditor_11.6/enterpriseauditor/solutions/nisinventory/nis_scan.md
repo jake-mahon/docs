@@ -11,7 +11,7 @@ The NIS Scan Job uses the NIS Data Collector for the following query:
 **CAUTION:** This query must be modified. See the
 [Configure the NIS Scan Query](#configure-the-nis-scan-query) topic for additional information.
 
-![Query for the NIS Scan Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/nisinventory/nisscanquery.png)
+![Query for the NIS Scan Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/nisinventory/nisscanquery.webp)
 
 - Inventory Scan – Targets a NIS server to collect inventory data for user and group objects
 
@@ -33,7 +33,7 @@ opens.
 **CAUTION:** Do not make changes to other wizard pages as they have been pre-configured for the
 purpose of this job.
 
-![NIS Settings page](/img/versioned_docs/activitymonitor_7.1/config/dellpowerscale/settings.png)
+![NIS Settings page](/img/versioned_docs/activitymonitor_7.1/config/dellpowerscale/settings.webp)
 
 **Step 4 –** On the NIS Settings page, enter the **NIS Domain Name** for the targeted NIS domain.
 This step is required prior to running this query. See the
@@ -42,7 +42,7 @@ topic for additional information.
 
 - Optional: Test the connection to the domain using the Sample NIS Server section of the page
 
-![SID Mappings page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/nis/sidmappings.png)
+![SID Mappings page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/nis/sidmappings.webp)
 
 **Step 5 –** On the SID Mappings page, you can add multiple SID mapping entries. See the
 [NIS: SID Mappings](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/nis/sidmappings.md)
@@ -61,7 +61,7 @@ and select **Analysis**.
 **CAUTION:** Most of these analysis tasks are preconfigured and should not be modified or
 deselected. There is one that is deselected by default, as it is for troubleshooting purposes.
 
-![Analysis Tasks for the NIS Scan Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/nisinventory/nisscananalysis.png)
+![Analysis Tasks for the NIS Scan Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/nisinventory/nisscananalysis.webp)
 
 The following analysis tasks are selected by default:
 

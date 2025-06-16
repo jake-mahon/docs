@@ -4,7 +4,7 @@ The Activity Token Complexity Policy page is accessible from the Navigation pane
 underPolicyPolicies>Activity Token ComplexityAccess Policies. It shows the configuration options for
 managing the complexity of activity tokens for connection profiles.
 
-![Activity Token Complexity Page](/img/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/configuration/systemsettings/page.png)
+![Activity Token Complexity Page](/img/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/configuration/systemsettings/page.webp)
 
 The pane on the left side of the page displays a list of the configured activity token complexity
 policies. This pane has the following features:

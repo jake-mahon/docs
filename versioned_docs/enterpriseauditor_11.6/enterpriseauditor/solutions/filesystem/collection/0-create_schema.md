@@ -16,7 +16,7 @@ Schema** > **Configure** node and select **Analysis**.
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Selection for the 0-Create Schema Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/collection/createschemaanalysis.png)
+![Analysis Selection for the 0-Create Schema Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/collection/createschemaanalysis.webp)
 
 The following analysis tasks are selected by default:
 

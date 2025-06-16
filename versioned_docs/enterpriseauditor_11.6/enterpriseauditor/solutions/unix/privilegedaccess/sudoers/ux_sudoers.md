@@ -11,7 +11,7 @@ node and select **Analysis** to view the analysis tasks.
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for the UX_Sudoers Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/unix/privilegedaccess/sudoers/sudoersanalysis.png)
+![Analysis Tasks for the UX_Sudoers Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/unix/privilegedaccess/sudoers/sudoersanalysis.webp)
 
 The default analysis tasks are:
 

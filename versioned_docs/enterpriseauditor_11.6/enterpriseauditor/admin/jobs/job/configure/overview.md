@@ -6,7 +6,7 @@ job’s Description page.
 
 |                                                                                                                            |                                                                                                                                                           |
 | -------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Configure Node](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/configure/configurenode.png) | ![Configure link on job description page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/configure/configurelinkjobpage.png) |
+| ![Configure Node](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/configure/configurenode.webp) | ![Configure link on job description page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/configure/configurelinkjobpage.webp) |
 | Configure Node                                                                                                             | Configure link on job description page                                                                                                                    |
 
 The sub-nodes under the **[Job]** > **Configure** node are:
@@ -27,7 +27,7 @@ The sub-nodes under the **[Job]** > **Configure** node are:
 The job's Configure Page provides an overview with shortcuts for options that are configured in the
 job's Configure Node.
 
-![Configure page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/configure/configurepage.png)
+![Configure page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/configure/configurepage.webp)
 
 The options on the Configure Page are:
 

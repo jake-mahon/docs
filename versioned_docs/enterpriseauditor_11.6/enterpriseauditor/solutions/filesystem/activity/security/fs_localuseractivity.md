@@ -11,7 +11,7 @@ View the analysis tasks by navigating to the **FileSystem** > **5.Activity** > *
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for the LocalUserActivity Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/activity/security/localuseractivityanalysis.png)
+![Analysis Tasks for the LocalUserActivity Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/activity/security/localuseractivityanalysis.webp)
 
 -   1. Local User Activity Details – Creates the SA_FS_LocalUserActivity_Details table accessible
        under the job’s Results node

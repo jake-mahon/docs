@@ -13,13 +13,13 @@ entitlement assignments.
 > For example, a user can be represented by an identifier and linked to their position which
 > includes the user's employee id, last name and first name, email, user type, organization, etc.
 >
-> ![Identity Repository Example](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/initial-identities-loading/identityrepository-example.png)
+> ![Identity Repository Example](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/initial-identities-loading/identityrepository-example.webp)
 
 > In Usercube, the identity repository can look like the following:
 >
-> ![Identity Repository Result](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/initial-identities-loading/identityrepository_v602.png)
+> ![Identity Repository Result](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/initial-identities-loading/identityrepository_v602.webp)
 >
-> ![Identity Example](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/initial-identities-loading/identityrepository-person_v602.png)
+> ![Identity Example](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/initial-identities-loading/identityrepository-person_v602.webp)
 
 The identity repository can be created and updated by:
 

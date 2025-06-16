@@ -11,7 +11,7 @@ View the analysis tasks by navigating to the **Exchange** > **5. Public Folders*
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for the PF_EntitlementScans Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/publicfolders/permissions/entitlementsanalysis.png)
+![Analysis Tasks for the PF_EntitlementScans Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/publicfolders/permissions/entitlementsanalysis.webp)
 
 The following analysis tasks are selected by default:
 

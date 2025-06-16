@@ -16,4 +16,4 @@ can be used to **export** the current configuration (to a XML files set).
 The Usercube project's integration cycle consists in developing a configuration by successive
 imports in a test instance.
 
-![Integration cycle](/img/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/configurationcycle.png)
+![Integration cycle](/img/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/configurationcycle.webp)

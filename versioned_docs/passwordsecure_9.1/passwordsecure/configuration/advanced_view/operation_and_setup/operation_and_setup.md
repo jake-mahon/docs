@@ -7,9 +7,9 @@ place. Although the module selection gives access to the various areas of Netwri
 the control elements always remain at the positions specified for this purpose. This intuitive
 operating concept ensures efficient work and a minimum of training time.
 
-![Operation](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/operation_and_setup/operation-and-setup-1-en.png)
+![Operation](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/operation_and_setup/operation-and-setup-1-en.webp)
 
-![Dashboard](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/operation_and_setup/operation-and-setup-2-en.png)
+![Dashboard](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/operation_and_setup/operation-and-setup-2-en.webp)
 
 1. [Ribbon](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/operation_and_setup/ribbon/ribbon.md)
 
@@ -36,14 +36,14 @@ when a new filter is applied. In parallel, detailed information about records ca
 their own tabs. It is of course possible to adjust the order of the tabs via drag & drop according
 to your individual requirements.
 
-![Dashboard](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/operation_and_setup/installation_with_parameters_2-en.png)
+![Dashboard](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/operation_and_setup/installation_with_parameters_2-en.webp)
 
 #### Standard tab
 
 Depending on the active module, the All passwords tab will be renamed to the corresponding module by
 default. (All documents, all forms, etc.)
 
-![Standard tab](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/operation_and_setup/standard-tab-en.png)
+![Standard tab](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/operation_and_setup/standard-tab-en.webp)
 
 Although the name suggests that all records in the database are displayed, the records displayed in
 list view correspond to the criteria that have been defined in the filter. The tab closes and can be
@@ -59,7 +59,7 @@ information.
 - Feedback in case connection is insecure
 - Last name, first name (user name) of the logged-in user
 
-![installation_with_parameters_4](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/operation_and_setup/installation_with_parameters_4.png)
+![installation_with_parameters_4](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/operation_and_setup/installation_with_parameters_4.webp)
 
 ## Orientation
 

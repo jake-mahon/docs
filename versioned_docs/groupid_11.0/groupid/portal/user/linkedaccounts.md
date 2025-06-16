@@ -66,7 +66,7 @@ The Entra ID account(s) that you want to link with must be logged into the Entra
 same browser. Use the Sign in with a different account option in the Entra ID portal for logging
 into multiple accounts.
 
-![Entra ID Sign In with a different account option](/img/versioned_docs/groupid_11.0/groupid/portal/user/linkntraidacc.png)
+![Entra ID Sign In with a different account option](/img/versioned_docs/groupid_11.0/groupid/portal/user/linkntraidacc.webp)
 
 1. In GroupID portal, click **Users** in the left pane and select **Linked Account**.
 2. On the **My Linked Accounts** page, select the account you want to link and click **Link
@@ -74,7 +74,7 @@ into multiple accounts.
 3. On the **GroupID Authenticate** window, click the SAML button or image for the configured SAML
    provider in GroupID. The following window is displayed:
 
-    ![Multiple Signed in users in Entra ID portal](/img/versioned_docs/groupid_11.0/groupid/portal/user/entraidsigninusers.png)
+    ![Multiple Signed in users in Entra ID portal](/img/versioned_docs/groupid_11.0/groupid/portal/user/entraidsigninusers.webp)
 
 4. Select the account you want to link to. You will be redirected back to the GroupID portal’s My
    Linked Account page and a message **Account has been successfully linked** is displayed.

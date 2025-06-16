@@ -2,7 +2,7 @@
 
 The Open Access job group identifies instances of open access in the audited environment.
 
-![Open Access Job Group in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/jobstree.png)
+![Open Access Job Group in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/jobstree.webp)
 
 The job in the Open Access job group is:
 

@@ -133,7 +133,7 @@ text_short classes are used in page instructions to tailor content to the screen
 Validation error messages are shown in a red box below the page instructions. Validation errors are
 normally caused by invalid user input.
 
-![using_apr_10](/img/versioned_docs/passwordreset_3.23/password_reset/administration/using_apr_10.png)
+![using_apr_10](/img/versioned_docs/passwordreset_3.23/password_reset/administration/using_apr_10.webp)
 
 Validation error messages are defined in the relevant template (en_enroll.htm, en_reset.htm,
 en_unlock.htm, or en_change.htm). The error messages are in the resource strings section near the
@@ -156,7 +156,7 @@ All the critical error messages are defined in en_error.htm. The messages are in
 strings section near the end of the file. See the [Resource Strings](#resource-strings) topic for
 more information.
 
-![using_apr_11](/img/versioned_docs/passwordreset_3.23/password_reset/administration/using_apr_11.png)
+![using_apr_11](/img/versioned_docs/passwordreset_3.23/password_reset/administration/using_apr_11.webp)
 
 You may see placeholders like %1 and %2 in some error messages. These are replaced with more
 information about the error. You should keep these, but you can delete them if you do not want them.
@@ -181,7 +181,7 @@ Finished messages are shown after users successfully complete an enroll, reset, 
 These messages are defined in the Resource Strings section near the end of `en_finished.htm`. See
 the [Resource Strings](#resource-strings) topic for more information.
 
-![using_apr_7](/img/versioned_docs/passwordreset_3.23/password_reset/administration/using_apr_7.png)
+![using_apr_7](/img/versioned_docs/passwordreset_3.23/password_reset/administration/using_apr_7.webp)
 
 `en_finished.htm` has two resource strings for password changes (RES_FINISHED_CHANGE and
 RES_FINISHED_CHANGE_INVITE). The first is shown when a user who has enrolled into APR changes their

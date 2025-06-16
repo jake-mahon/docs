@@ -122,7 +122,7 @@ note.
 
 ```
 
-![UI Form](/img/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/how-to/workflow-create-multi/howto_resourcecreationmulti_form_v603.png)
+![UI Form](/img/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/how-to/workflow-create-multi/howto_resourcecreationmulti_form_v603.webp)
 
 ## Assign the Right Permissions
 
@@ -152,7 +152,7 @@ must be defined to make the workflow accessible in the UI.
 
 Creating a new resource, an interesting location for this workflow could be the users list page.
 
-![Workflow Menu Items - Users List](/img/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/how-to/workflow-create-multi/menuitems_userslist_v603.png)
+![Workflow Menu Items - Users List](/img/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/how-to/workflow-create-multi/menuitems_userslist_v603.webp)
 
 To create a menu item here for the new workflow, you can add the following XML configuration to the
 existing
@@ -204,7 +204,7 @@ Partial form for user data:
 
 ```
 
-![UI Homonym Detection](/img/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/how-to/workflow-create-multi/howto_resourcecreationmono_homonym_v603.png)
+![UI Homonym Detection](/img/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/how-to/workflow-create-multi/howto_resourcecreationmono_homonym_v603.webp)
 
 ## Customize the Display Table (Optional)
 

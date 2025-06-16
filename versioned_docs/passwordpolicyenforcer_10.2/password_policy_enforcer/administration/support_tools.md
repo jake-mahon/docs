@@ -14,7 +14,7 @@ Follow the steps below to create a Configuration Report.
 
 **Step 2 –** Click **Support Tools** in the right pane of the management console.
 
-![Support Tools Window - Configuration Report tab](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/supporttoolswindow.png)
+![Support Tools Window - Configuration Report tab](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/supporttoolswindow.webp)
 
 **Step 3 –** Click **Save Configuration Report...**
 
@@ -76,7 +76,7 @@ Follow the steps below to open and configure the Property Editor.
 
 **Step 2 –** Click **Support Tools** in the right pane of the management console.
 
-![Support Tools Window - Property Editor tab](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/supporttoolswindowpropertyeditor.png)
+![Support Tools Window - Property Editor tab](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/supporttoolswindowpropertyeditor.webp)
 
 **Step 3 –** Click the **Property Editor** tab.
 

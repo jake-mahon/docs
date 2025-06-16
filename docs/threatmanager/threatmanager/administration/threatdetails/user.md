@@ -76,7 +76,7 @@ export the current rows displayed on the page into a CSV file.
 
 The Group Membership tab displays groups in which the user is a member.
 
-![groupmembership](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/action/activedirectory/operations/groupmembership.webp)
+![groupmembership](../../../../../static/img/product_docs/accessanalyzer/admin/action/activedirectory/operations/groupmembership.webp)
 
 ![Group Membership Indirect Member of Page](../../../../../static/img/product_docs/threatmanager/threatmanager/administration/threatdetails/groupmembershipindirect.webp)
 

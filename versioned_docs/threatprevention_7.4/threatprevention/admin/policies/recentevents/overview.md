@@ -5,7 +5,7 @@ blocked by the selected policy. See the
 [Investigate Interface](/versioned_docs/threatprevention_7.4/threatprevention/admin/investigate/overview.md)
 for recent events monitored or blocked by all policies.
 
-![Policy - Recent Events tab](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/recentevents/recenteventstab.png)
+![Policy - Recent Events tab](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/recentevents/recenteventstab.webp)
 
 The Recent Events tab has the following options on the toolbar:
 
@@ -109,7 +109,7 @@ below in the default order of the data grid columns:
 
 Select an event to view additional information about it.
 
-![Recent Events tab - Additional Information for an event](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/recentevents/recenteventdetails.png)
+![Recent Events tab - Additional Information for an event](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/recentevents/recenteventdetails.webp)
 
 The following information (as applicable to the event) is displayed:
 
@@ -126,7 +126,7 @@ topic for additional information.
 
 Right-click on a row in the data grid to open the right-click menu.
 
-![Recent Events tab - Right-Click menu](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/rightclickmenu.png)
+![Recent Events tab - Right-Click menu](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/rightclickmenu.webp)
 
 - Copy – Copies the selected data cell to clipboard
 - Event Viewer – Opens the

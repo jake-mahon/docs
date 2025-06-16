@@ -5,7 +5,7 @@ page for the category of:
 
 - Office 365 > Mail Flow Metrics
 
-![ExchangePS Data Collector Wizard Mail Flow page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchangeps/mailflow.png)
+![ExchangePS Data Collector Wizard Mail Flow page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchangeps/mailflow.webp)
 
 Select and configure a date range from the following options:
 

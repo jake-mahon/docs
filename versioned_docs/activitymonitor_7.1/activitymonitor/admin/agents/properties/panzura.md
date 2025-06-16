@@ -2,7 +2,7 @@
 
 The Panzura Tab provides features to configure settings for monitoring Panzura devices.
 
-![Agent Properties - Panzura Tab](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/agents/properties/panzuratab.png)
+![Agent Properties - Panzura Tab](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/agents/properties/panzuratab.webp)
 
 The available options are:
 

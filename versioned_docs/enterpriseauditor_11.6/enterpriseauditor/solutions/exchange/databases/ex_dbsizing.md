@@ -11,7 +11,7 @@ View the analysis tasks by navigating to the **Exchange** > **3. Databases** > *
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for the EX_DBSizing Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/databases/dbsizinganalysis.png)
+![Analysis Tasks for the EX_DBSizing Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/databases/dbsizinganalysis.webp)
 
 The following analysis tasks are selected by default:
 

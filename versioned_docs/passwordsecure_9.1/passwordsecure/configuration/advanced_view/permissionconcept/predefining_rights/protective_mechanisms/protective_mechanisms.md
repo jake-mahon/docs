@@ -28,7 +28,7 @@ requirements.
 The following diagram shows a summary of how the existing protective mechanisms are integrated into
 the authorization concept.
 
-![protective mechanism diagram](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/protective_mechanisms-en.png)
+![protective mechanism diagram](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/protective_mechanisms-en.webp)
 
 In the interplay of the
 [Authorization and protection mechanisms](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/web_applicaiton/authorization_and_protection/authorization_and_protection_mechanisms.md),

@@ -11,7 +11,7 @@ Navigate to the **AWS** > **2.Users** > **AWS_AccessKeys** > **Configure** node 
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for the AWS_AccessKeys Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/aws/users/accesskeysanalysis.png)
+![Analysis Tasks for the AWS_AccessKeys Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/aws/users/accesskeysanalysis.webp)
 
 The following analysis tasks are selected by default:
 

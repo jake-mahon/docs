@@ -13,7 +13,7 @@ Follow the steps to set log levels.
 **Step 1 –** Click **Agents** in the left pane to launch the Agents interface. Then click **Update
 Logging Levels** on the top bar to launch the Log Level Configuration window.
 
-![Log Level Configuration Window](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/window/loglevelconfiguration.png)
+![Log Level Configuration Window](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/window/loglevelconfiguration.webp)
 
 **Step 2 –** To update the logging level for an Agent:
 
@@ -57,12 +57,12 @@ Logging Levels** on the top bar to launch the Log Level Configuration window.
 
 Follow the steps to access the Agent log files.
 
-![Get Agent Log icon](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/window/getagentlog.png)
+![Get Agent Log icon](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/window/getagentlog.webp)
 
 **Step 1 –** Click **Agents** in the left pane to launch the Agents interface. Select a server/Agent
 and click **Get Agent Log** .
 
-![Save As window for Agent logs](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/window/saveaswindow.png)
+![Save As window for Agent logs](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/window/saveaswindow.webp)
 
 **Step 2 –** The Save As window opens with the selected Agent’s log already selected from its
 original location. Select the new location and click **Save**.
@@ -79,7 +79,7 @@ Log files are stored in the following locations:
 
 Enterprise Manager Log Files
 
-![Enterprise Manager Log File Location](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/window/emlogs.png)
+![Enterprise Manager Log File Location](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/window/emlogs.webp)
 
 The default location is:
 
@@ -87,7 +87,7 @@ The default location is:
 
 Administration Console Log Files
 
-![Administration Console Log File Location](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/window/consolelogs.png)
+![Administration Console Log File Location](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/window/consolelogs.webp)
 
 The default location is:
 

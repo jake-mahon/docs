@@ -5,7 +5,7 @@ when searching for threats. Wildcard characters (%) are allowed.
 
 The Perpetrator Hunting option contains the following cards:
 
-![Perpetrator Hunting](/img/versioned_docs/threatprevention_7.4/threatprevention/siemdashboard/splunk/threathunting/dashboard/perpetratorhunting.png)
+![Perpetrator Hunting](/img/versioned_docs/threatprevention_7.4/threatprevention/siemdashboard/splunk/threathunting/dashboard/perpetratorhunting.webp)
 
 - Status of Last Ten Authentications – Shows the status of the last ten authentications recorded in
   the specified timeframe. The values are either Successful, Failed, or Blocked.

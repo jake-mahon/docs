@@ -11,7 +11,7 @@ analysis tasks.
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for the Box_GroupMembership Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/box/groupmembershipanalysis.png)
+![Analysis Tasks for the Box_GroupMembership Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/box/groupmembershipanalysis.webp)
 
 The following analysis task is selected by default:
 

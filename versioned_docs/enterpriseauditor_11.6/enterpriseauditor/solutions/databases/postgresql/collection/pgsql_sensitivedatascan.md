@@ -7,7 +7,7 @@ on pre-defined or user-defined search criteria.
 
 The PgSQL_SensitiveDataScan Job uses the SQL Data Collector.
 
-![Query Selection](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/postgresql/collection/sensitivedataquery.png)
+![Query Selection](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/postgresql/collection/sensitivedataquery.webp)
 
 The query is:
 
@@ -31,7 +31,7 @@ The Query Properties window appears.
 **CAUTION:** Do not make changes to other wizard pages as they have been pre-configured for this
 job.
 
-![Sensitive Data Scan Settings](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/postgresql/collection/datascanjobsettings.png)
+![Sensitive Data Scan Settings](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/postgresql/collection/datascanjobsettings.webp)
 
 **Step 4 –** To modify sensitive data scan options, navigate to the
 [SQL Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/sql/overview.md)
@@ -41,7 +41,7 @@ page. Select the desired scan options.
 high-level table scan. Configuring these settings to increase the scope of the sensitive data scan
 may significantly increase scan time.
 
-![Select DLP Criteria](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/postgresql/collection/sensitivedatascancriteria.png)
+![Select DLP Criteria](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/postgresql/collection/sensitivedatascancriteria.webp)
 
 **Step 5 –** To modify criteria, navigate to the
 [SQL Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/sql/overview.md)
@@ -50,12 +50,12 @@ Global Criteria settings. See the
 [Sensitive Data Criteria Editor](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/overview.md)
 topic for additional information.
 
-![Filters page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/postgresql/collection/sensitivedatascanfilter.png)
+![Filters page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/postgresql/collection/sensitivedatascanfilter.webp)
 
 **Step 6 –** PostgreSQL databases must be added to the query before they can be scanned. Navigate to
 the **Filter** page and click **Connections** to open the Manage Connections window.
 
-![Manage Connections](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/postgresql/collection/manageconnectionspgsql.png)
+![Manage Connections](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/postgresql/collection/manageconnectionspgsql.webp)
 
 **Step 7 –** In the Manage Connections window, click **New Connection** and add the following
 information:
@@ -90,7 +90,7 @@ Navigate to the **Databases** > **0.Collection** > **PostgreSQL** > **PgSQL_Sen
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Selection](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/postgresql/collection/sensitivedataanalysis.png)
+![Analysis Selection](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/postgresql/collection/sensitivedataanalysis.webp)
 
 The default analysis tasks are:
 

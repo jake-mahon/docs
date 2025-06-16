@@ -44,7 +44,7 @@ and
 - Locate the database name dropdown, next to the **Execute** button in the top left section of the
   screen.
 
-![Execute Query](/img/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/database/execute_query.png)
+![Execute Query](/img/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/database/execute_query.webp)
 
 - From the dropdown, select the newly created database.
 - Click **Execute**.

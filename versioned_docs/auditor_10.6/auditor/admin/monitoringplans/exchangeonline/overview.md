@@ -68,7 +68,7 @@ Follow the steps to configure Microsoft 365 tenant as a monitored item.
 
 **Step 3 –** Click the **Add** button.
 
-![Add Office 365 Item window](/img/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/item_o365_basic_auth.png)
+![Add Office 365 Item window](/img/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/item_o365_basic_auth.webp)
 
 You can use a single account to collect audit data for different Microsoft 365 services (Microsoft
 Entra ID, Exchange Online, SharePoint Online); however, Netwrixrecommends that you specify

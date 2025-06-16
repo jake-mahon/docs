@@ -14,7 +14,7 @@ Navigate to the **Active Directory > 5.Domains > AD_DSRMSettings > Configure** n
 **CAUTION:** Do not modify or deselect the selected analysis task(s). The analysis task(s) are
 preconfigured for this job.
 
-![dsrmsettingsanalysis](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/domains/dsrmsettingsanalysis.png)
+![dsrmsettingsanalysis](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/domains/dsrmsettingsanalysis.webp)
 
 The default analysis tasks are:
 

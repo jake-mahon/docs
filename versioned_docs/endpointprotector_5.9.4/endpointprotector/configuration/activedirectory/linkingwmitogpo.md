@@ -7,4 +7,4 @@ and on the WMI Filtering section, select 32-bit Windows filter;
 
 **Step 2 –** Repeat this step for Endpoint Protector 64-bit GPO.
 
-![Linking the Windows Management Instrument filters to Group Policy Objects](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/configuration/activedirectory/wmitogpolinking.png)
+![Linking the Windows Management Instrument filters to Group Policy Objects](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/configuration/activedirectory/wmitogpolinking.webp)

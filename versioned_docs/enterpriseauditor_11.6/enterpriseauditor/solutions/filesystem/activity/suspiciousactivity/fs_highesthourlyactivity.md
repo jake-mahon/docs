@@ -11,7 +11,7 @@ Activity** > **FS_HighestHourlyActivity** > **Configure** node and select **Anal
 **CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
 preconfigured for this job.
 
-![Analysis Tasks for the FS_HighestHourlyActivity Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/activity/suspiciousactivity/highesthourlyactivityanalysis.png)
+![Analysis Tasks for the FS_HighestHourlyActivity Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/activity/suspiciousactivity/highesthourlyactivityanalysis.webp)
 
 The following analysis task is selected by default:
 

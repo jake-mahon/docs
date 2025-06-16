@@ -2,7 +2,7 @@
 
 The Computers tab shows information about the domain computer objects on the selected resource.
 
-![Domain Resource Computers Tab](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/resources/computersdomain.png)
+![Domain Resource Computers Tab](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/resources/computersdomain.webp)
 
 The Computers tab has the following features:
 

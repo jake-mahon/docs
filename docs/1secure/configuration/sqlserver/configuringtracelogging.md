@@ -1,3 +1,12 @@
+---
+id: configure-trace-logging
+title: "Configure Trace Logging"
+pagination_label: "Configure Trace Logging"
+sidebar_label: "Configure Trace Logging"
+sidebar_position: 141
+description: "Learn how to configure and change the default location for SQL Server trace logs."
+---
+
 # Configure Trace Logging
 
 By default, the SQL Server trace logs are stored to the predefined location (depending on the SQL

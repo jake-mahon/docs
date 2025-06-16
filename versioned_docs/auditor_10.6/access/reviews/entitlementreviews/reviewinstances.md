@@ -6,7 +6,7 @@ review. Each instance is identified by date timestamps indicating its start and 
 **_RECOMMENDED:_** Prior to running another review instance, ensure the most up to date information
 is available to owners for review.
 
-![Entitlement Reviews interface showing the Manage Review page](/img/versioned_docs/auditor_10.6/access/reviews/entitlementreviews/managereviewspage.png)
+![Entitlement Reviews interface showing the Manage Review page](/img/versioned_docs/auditor_10.6/access/reviews/entitlementreviews/managereviewspage.webp)
 
 On the Manage Reviews page in the Entitlement Reviews interface, a review with a Completed status
 can be started again. Select the review and click **Run Again**. The Create Review wizard opens

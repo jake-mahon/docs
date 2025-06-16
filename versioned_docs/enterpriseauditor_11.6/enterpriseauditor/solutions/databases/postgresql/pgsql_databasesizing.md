@@ -3,7 +3,7 @@
 The Configuration Job Group is designed to provide insight into details about the
 PostgreSQL environment and potential vulnerabilities related to instance configuration settings.
 
-![Configuration Job Group - PostgreSQL](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/postgresql/configurationjobgroup.png)
+![Configuration Job Group - PostgreSQL](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/postgresql/configurationjobgroup.webp)
 
 The job in the Configuration Job Groups is:
 
@@ -17,7 +17,7 @@ node and select Analysis to view the analysis tasks.
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Selection](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/postgresql/pssqldatabasesizinganalysistasks.png)
+![Analysis Selection](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/postgresql/pssqldatabasesizinganalysistasks.webp)
 
 The default analysis tasks are:
 

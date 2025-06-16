@@ -24,7 +24,7 @@ This setting is used to customize the application display.
 
 ```
 
-    <AppDisplaySetting PrimaryColor="#009597" SecondaryColor="#00553F" ApplicationName="Usercube" LogoFile="Images/logo.png" FaviconFile="Images/favicon.ico" />
+    <AppDisplaySetting PrimaryColor="#009597" SecondaryColor="#00553F" ApplicationName="Usercube" LogoFile="Images/logo.webp" FaviconFile="Images/favicon.ico" />
 
 ```
 
@@ -79,14 +79,14 @@ to navigate to the defined URI addresses.
 
 ```
 
-![CustomLinksUserMenu.png](/img/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/settings/customlinksusermenu_v523.png)
+![CustomLinksUserMenu.webp](/img/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/settings/customlinksusermenu_v523.webp)
 
 ## DashboardItemNumber
 
 Some sections on the dashboard contain multiple links. These links are quick links with counters to
 the review page filtered by entity type. The links are sorted by entity type priority.
 
-![DashboardItemNumber.png](/img/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/settings/dashboarditemnumber.png)
+![DashboardItemNumber.webp](/img/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/settings/dashboarditemnumber.webp)
 
 By default, 3 links are displayed. If more than 3 entity type links exist, a link "Others" is
 displayed with the concatenation of remaining counters.

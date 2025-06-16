@@ -2,7 +2,7 @@
 
 The Groups tab shows information about the local groups on the selected resource.
 
-![groupshost](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/resources/groupshost.png)
+![groupshost](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/resources/groupshost.webp)
 
 The table has the following columns:
 

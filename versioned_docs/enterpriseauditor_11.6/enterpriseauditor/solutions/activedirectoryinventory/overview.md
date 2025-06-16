@@ -49,7 +49,7 @@ collection is conducted by the ADInventory Data Collector. See the
 [Standard Reference Tables & Views for the ADInventory Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/adinventory/standardtables.md)
 topic for database table information.
 
-![.Active Directory Inventory Solution Overview page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/runninginstances/overview.png)
+![.Active Directory Inventory Solution Overview page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/runninginstances/overview.webp)
 
 The .Active Directory Inventory Solution has the following jobs:
 

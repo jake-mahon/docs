@@ -26,9 +26,9 @@ After the reboot command runs, the next screen will either show the “STOPPED�
 “No Signal” screen, or will jump directly to the “No Signal” screen before loading the "Dell"
 trademarked screen.
 
-![blobid0.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/maintenance/360056509814_blobid0.png)
+![blobid0.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/maintenance/360056509814_blobid0.webp)
 
-![blobid1.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/maintenance/360056509814_blobid1.png)
+![blobid1.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/maintenance/360056509814_blobid1.webp)
 
 After the shutdown is completed, the boot up process will start with the below “Dell” trademarked
 screen. This screen will show with a “loading bar” at the bottom as it loads the different system
@@ -37,25 +37,25 @@ configurations.
 **NOTE:** The IP address for the iDrac will likely be different or not display at all in reference
 to the screenshot below.
 
-![blobid2.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/maintenance/360056509814_blobid2.png)
+![blobid2.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/maintenance/360056509814_blobid2.webp)
 
 **Step 3 –** After the above “Dell” screen is cycled through twice, the next screen should show the
 boot menu with the options below through the “F” keys. At this screen choose the F2 = System Setup
 option.
 
-![blobid4.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/maintenance/360056509814_blobid4.png)
+![blobid4.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/maintenance/360056509814_blobid4.webp)
 
 The next screen will show the highlighted text below of “Entering System Setup”.
 
-![blobid5.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/maintenance/360056509814_blobid5.png)
+![blobid5.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/maintenance/360056509814_blobid5.webp)
 
 **Step 4 –** Select the “iDRAC Settings” option on the System Setup page.
 
-![mceclip0.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/maintenance/360056509814_mceclip0.png)
+![mceclip0.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/maintenance/360056509814_mceclip0.webp)
 
 **Step 5 –** Select “Network” on the iDRAC Settings screen.
 
-![blobid7.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/maintenance/360056509814_blobid7.png)
+![blobid7.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/maintenance/360056509814_blobid7.webp)
 
 **Step 6 –** Under the iDRAC Settings > Network page. Here is where the iDRAC NIC selection, static
 IP address/gateway/subnet mask, and DNS servers will be set for remote iDRAC access through a
@@ -66,7 +66,7 @@ images in bullets.
 - Enable NIC: Enabled
 - NIC Selection: LOM1
 
-![blobid8.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/maintenance/360056509814_blobid8.png)
+![blobid8.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/maintenance/360056509814_blobid8.webp)
 
 ---
 
@@ -78,14 +78,14 @@ images in bullets.
 - Static Preferred DNS Server: Set to the organizations DNS server
 - Static Alternative DNS Server: Set to the organizations DNS server
 
-![blobid9.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/maintenance/360056509814_blobid9.png)
+![blobid9.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/maintenance/360056509814_blobid9.webp)
 
 **Step 7 –** Once the specific networking details have been enter, click **Back**, click **Finish**,
 and then click **Yes**. The network information is saved, and the system reboots.
 
-![blobid10.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/maintenance/360056509814_blobid10_336x254.png)
+![blobid10.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/maintenance/360056509814_blobid10_336x254.webp)
 
-![blobid11.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/maintenance/360056509814_blobid11_336x252.png)
+![blobid11.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/maintenance/360056509814_blobid11_336x252.webp)
 
 DRAC configuration is now completed.
 

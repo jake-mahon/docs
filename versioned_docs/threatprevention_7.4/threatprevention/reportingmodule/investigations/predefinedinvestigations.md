@@ -10,7 +10,7 @@ containing predefined investigations. Expand a folder to view the investigations
 list of all the predefined investigations in the adjacent pane, hover your mouse over the Predefined
 Investigations option and click the icon that is displayed.
 
-![Investigations interface on the Predefined Investigations page](/img/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/investigations/predefinedinvestigations.png)
+![Investigations interface on the Predefined Investigations page](/img/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/investigations/predefinedinvestigations.webp)
 
 The table displays the list of investigations with the following columns:
 

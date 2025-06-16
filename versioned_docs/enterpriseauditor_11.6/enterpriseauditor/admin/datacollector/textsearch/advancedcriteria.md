@@ -5,7 +5,7 @@ criteria)** checkbox is selected on the Search Criteria page. This page provides
 options to specify the text to search for across the entire row of each file or within the specified
 column in each row.
 
-![Text Search Data Collector Wizard Advanced Criteria page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/textsearch/advancedcriteria.png)
+![Text Search Data Collector Wizard Advanced Criteria page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/textsearch/advancedcriteria.webp)
 
 The configurable options are:
 
@@ -15,7 +15,7 @@ The configurable options are:
   of time it takes to load the data.
 - Customize – Click this button to open the Filter builder
 
-    ![Filter builder window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/textsearch/filterbuilder.png)
+    ![Filter builder window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/textsearch/filterbuilder.webp)
 
     See the
     [Filtration Dialog](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/navigate/datagrid.md#filtration-dialog)

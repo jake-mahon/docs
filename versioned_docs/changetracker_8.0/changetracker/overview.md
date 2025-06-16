@@ -15,7 +15,7 @@ manufacturer such as Microsoft, Red Hat, Oracle or Cisco, for example. Complianc
 supported by Change Tracker include PCI DSS, DISA STIG, NERC CIP, ISO 27001, GLBA), FISMA), HIPAA
 HITECH, S-OX, NIST 800-53/171 and GPG 13.
 
-![TechnicalOverview](/img/versioned_docs/changetracker_8.0/changetracker/technicaloverview.png)
+![TechnicalOverview](/img/versioned_docs/changetracker_8.0/changetracker/technicaloverview.webp)
 
 Devices are then monitored continuously using either a Change Tracker Agent installed directly onto
 the device, or using a periodically scheduled agentless interaction with the device. Any changes
@@ -52,7 +52,7 @@ in particular disk I/O performance, are critical. (missing or bad snippet)
 - [Installing Gen 7 Agent for Windows](/versioned_docs/changetracker_8.0/changetracker/install/agent/windows.md)
 - [Installing Gen 7 Agent for Linux](/versioned_docs/changetracker_8.0/changetracker/install/agent/linuxos.md)
 
-![Architecture](/img/versioned_docs/changetracker_8.0/changetracker/architecture.png)
+![Architecture](/img/versioned_docs/changetracker_8.0/changetracker/architecture.webp)
 
 For a full list of supported operating systems see
 [OS Support Matrix](/versioned_docs/changetracker_8.0/changetracker/requirements/ossupportmatrix.md).

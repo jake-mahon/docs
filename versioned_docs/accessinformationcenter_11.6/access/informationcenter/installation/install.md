@@ -5,16 +5,16 @@ Once the prerequisites have been met, follow the steps to install the Access Inf
 **Step 1 –** Run the `AccessInformationCenter.exe` executable and the Netwrix Access Information
 Center Setup wizard opens.
 
-![Netwrix Access Information Center Setup Wizard Welcome page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/welcome.png)
+![Netwrix Access Information Center Setup Wizard Welcome page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/welcome.webp)
 
 **Step 2 –** On the Welcome page, click the Next button to begin the installation process.
 
-![AIC Setup Wizard End-User License Agreement page](/img/versioned_docs/changetracker_8.0/changetracker/install/eula.png)
+![AIC Setup Wizard End-User License Agreement page](/img/versioned_docs/changetracker_8.0/changetracker/install/eula.webp)
 
 **Step 3 –** On the End-User License Agreement page, check the **I accept the terms in the License
 Agreement** box and click **Next**.
 
-![AIC Setup Wizard Destination Folder page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/destinationfolder.png)
+![AIC Setup Wizard Destination Folder page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/destinationfolder.webp)
 
 **Step 4 –** On the Destination Folder page, you can choose between the default destination folder
 and a custom folder. Click Change to browse for a different location. When the destination is set as
@@ -23,7 +23,7 @@ desired, click **Next**.
 **NOTE:** The default location is `C:\Program Files\STEALTHbits\Access Information Center\`. There
 are no specific requirements for changing the path.
 
-![AIC Setup Wizard SQL Server Connection page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/sqlserver.png)
+![AIC Setup Wizard SQL Server Connection page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/sqlserver.webp)
 
 **Step 5 –** On the SQL Server Connection page, provide the required database information. Click
 Next to test the connection to the SQL Server. If there are no errors, the next wizard page will
@@ -52,17 +52,17 @@ installation. See the
 [Database Page](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/admin/configuration/database.md)
 topic for additional information.
 
-![AIC Setup Wizard Configure Web Server page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/survey/webserver.png)
+![AIC Setup Wizard Configure Web Server page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/survey/webserver.webp)
 
 **Step 6 –** On the Configure Web Server page, you can choose between the default port and a custom
 port on which the application will be accessible. To change the port, enter a new port number in the
 field. When the port is set as desired, click **Next**.
 
-![AIC Setup Wizard Ready to install page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/ready.png)
+![AIC Setup Wizard Ready to install page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/ready.webp)
 
 **Step 7 –** On the Ready to install page, click Install to begin the process.
 
-![AIC Setup Wizard Completed page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/sensitivedatadiscovery/completed.png)
+![AIC Setup Wizard Completed page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/sensitivedatadiscovery/completed.webp)
 
 **Step 8 –** Once the installation has successfully completed, click Finish to exit the wizard.
 

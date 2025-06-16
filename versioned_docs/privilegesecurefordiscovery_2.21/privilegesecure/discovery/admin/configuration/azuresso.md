@@ -18,7 +18,7 @@ Within the claim for the single sign-on application, the attribute **dn** must b
 
 Manage Claim Example
 
-![basicsamlconfiguration](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/basicsamlconfiguration.png)
+![basicsamlconfiguration](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/basicsamlconfiguration.webp)
 
 - Name – dn
 - Namespace (Optional) – Enter a namespace URI
@@ -28,7 +28,7 @@ Manage Claim Example
 **NOTE:** Refer to the "Attributes & Claims" area in the screenshot example within the Azure SSO
 configuration.
 
-![managedclaim](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/managedclaim.png)
+![managedclaim](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/managedclaim.webp)
 
 **NOTE:** Do not manually enter or copy/paste the attribute. Select it from the drop-down list in
 the Source Attribute field. Typing part of the name will narrow down the search options.
@@ -41,30 +41,30 @@ application.
 
 IdP-Initiated SSO
 
-![npsd_saml](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/npsd_saml.png)
+![npsd_saml](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/npsd_saml.webp)
 
 The Reply URL (Assertion Consumer Service URL) in Azure must follow the following format:
 
 - `https://<address>/api/login`
 
-![npsd_properties](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/npsd_properties.png)
+![npsd_properties](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/npsd_properties.webp)
 
 The Entrypoint value in NPS-D must match the User Access URL in Azure SSO under **Manage** >
 **Properties**.
 
 SP-Initiated SSO
 
-![npsd_saml_two](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/npsd_saml_two.png)
+![npsd_saml_two](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/npsd_saml_two.webp)
 
 The Reply URL (Assertion Consumer Service URL) must follow the following format:
 
 - `https://<address>/api/v1/login`
 
-![setupnpsd](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/setupnpsd.png)
+![setupnpsd](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/setupnpsd.webp)
 
 The Entrypoint value in NPS-D must match the **Login URL** in the Azure SSO Application.
 
-![samlconfigurationtion](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/samlconfigurationtion.png)
+![samlconfigurationtion](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/samlconfigurationtion.webp)
 
 The Sign-on URL in the Azure SSO Application must follow this format:
 
@@ -87,7 +87,7 @@ For both IdP and SP-initiated configurations:
   Base64 version, and copy the certificate text (excluding the ----BEGIN CERTIFICATE---- and ----END
   CERTIFICATE---- lines). Paste this into the relevant field in the NPS-D application.
 
-![samlcerts](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/samlcerts.png)
+![samlcerts](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/samlcerts.webp)
 
 ## Troubleshooting
 
@@ -95,6 +95,6 @@ Versions 2.22 and later – For SSO to work as expected, both signed SAML assert
 options must be enabled. Failure to do so will result in an "Invalid signature" error in the UI
 during login attempts.
 
-![signsaml_assertion](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/signsaml_assertion.png)
+![signsaml_assertion](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/signsaml_assertion.webp)
 
-![signsaml_response](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/signsaml_response.png)
+![signsaml_response](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/signsaml_response.webp)

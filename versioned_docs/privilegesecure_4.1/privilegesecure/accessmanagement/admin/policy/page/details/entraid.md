@@ -4,7 +4,7 @@ The Microsoft Entra ID (formerly Azure AD) Details page shows additional informa
 selected Microsoft Entra ID Tenant resource. This page is opened from any linked resource within the
 various interfaces.
 
-![Azure AD Details page](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/details/azureaddetailspage.png)
+![Azure AD Details page](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/details/azureaddetailspage.webp)
 
 The details page shows the following information:
 

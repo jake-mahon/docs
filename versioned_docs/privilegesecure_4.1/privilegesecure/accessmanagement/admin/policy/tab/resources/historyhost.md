@@ -2,7 +2,7 @@
 
 The History tab shows information about the session history of the selected resource.
 
-![History Tab for Host Resource](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/resources/historyhost.png)
+![History Tab for Host Resource](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/resources/historyhost.webp)
 
 The History tab has the following features:
 

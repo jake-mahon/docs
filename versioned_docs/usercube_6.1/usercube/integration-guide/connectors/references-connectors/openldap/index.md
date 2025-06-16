@@ -6,7 +6,7 @@ directory.
 This page is about
 [Directory/Open LDAP](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/open-ldap/index.md).
 
-![Package: Directory/Open LDAP](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/openldap/packages_ldapopen_v603.png)
+![Package: Directory/Open LDAP](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/openldap/packages_ldapopen_v603.webp)
 
 ## Overview
 

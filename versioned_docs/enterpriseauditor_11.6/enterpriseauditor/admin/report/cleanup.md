@@ -6,25 +6,25 @@ job group that contains published reports.
 
 **CAUTION:** Deleted objects cannot be restored.
 
-![Delete Group on right-click menu](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/jobstree.png)
+![Delete Group on right-click menu](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/jobstree.webp)
 
 **Step 1 –** In the Jobs tree, right-click on the job or group that you want to delete and select
 **Delete Job/Group**.
 
-![Delete Group wizard page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/report/deletegroup.png)
+![Delete Group wizard page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/report/deletegroup.webp)
 
 **Step 2 –** On the Delete Job/Group page of the wizard, confirm it shows the correct job or group
 that you want to delete, then click **Next**.
 
 **NOTE:** If there are no published reports, clicking **Next** starts the deletion (skip to step 4).
 
-![Delete Published Reports wizard page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/report/reporttree.png)
+![Delete Published Reports wizard page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/report/reporttree.webp)
 
 **Step 3 –** The Delete Published Reports page of the wizard shows the tree of published reports.
 Select the checkboxes next to all the reports you want to delete. You can also select reports by job
 group or job. Click **Next** to proceed with the deletion.
 
-![Progress wizard page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/upgrade/progress.png)
+![Progress wizard page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/upgrade/progress.webp)
 
 **Step 4 –** The Progress page shows you the status of the deletion process. When it has completed,
 click **Finish** to exit the wizard.
@@ -34,7 +34,7 @@ to delete any of the published reports contained in any of the deleted jobs, the
 reports can still be viewed in the Web Console, even though the parent has been removed from the
 Enterprise Auditor Console.
 
-![Delete Published Reports page with a report from previous deletion](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/report/reportfrompreviousdeletion.png)
+![Delete Published Reports page with a report from previous deletion](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/report/reportfrompreviousdeletion.webp)
 
 The remaining published reports that weren't deleted are shown in the wizard if you are deleting the
 parent group of the previously deleted job or group.

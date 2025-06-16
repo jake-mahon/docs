@@ -13,7 +13,7 @@ Activity** > **FS_WeekendActivity** > **Configure** node and select **Analysis**
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for the FS_WeekendActivity Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/box/activity/suspiciousactivity/weekendactivityanalysis.png)
+![Analysis Tasks for the FS_WeekendActivity Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/box/activity/suspiciousactivity/weekendactivityanalysis.webp)
 
 The following analysis tasks are selected by default:
 

@@ -1,6 +1,6 @@
 # The Basic view
 
-![light-client-en](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/basic_view/light-client-en.png)
+![light-client-en](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/basic_view/light-client-en.webp)
 
 ## What is the Basic view about?
 
@@ -10,7 +10,7 @@ intuitively and without previous knowledge or training by any user. The Basic vi
 up to 50 passwords. The Basic view introduces to professional password management. It is also the
 ideal tool for the daily handling of passwords.
 
-![image1](/img/versioned_docs/groupid_11.0/groupid/admincenter/portal/linkedcombo/image1.png)
+![image1](/img/versioned_docs/groupid_11.0/groupid/admincenter/portal/linkedcombo/image1.webp)
 
 ## Requirements & required rights
 

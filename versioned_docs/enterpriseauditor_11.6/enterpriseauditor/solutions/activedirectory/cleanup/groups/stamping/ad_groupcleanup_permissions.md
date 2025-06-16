@@ -12,7 +12,7 @@ tasks.
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for the AD_GroupCleanup_Permissions Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/cleanup/groups/stamping/groupcleanuppermissionsanalysis.png)
+![Analysis Tasks for the AD_GroupCleanup_Permissions Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/cleanup/groups/stamping/groupcleanuppermissionsanalysis.webp)
 
 The default analysis tasks are:
 

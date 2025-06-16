@@ -12,7 +12,7 @@ Navigate to **Box** > **1.Activity** > **Suspicious Activity** > **Box_WeekendAc
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for the Box_WeekendActivity Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/box/activity/suspiciousactivity/weekendactivityanalysis.png)
+![Analysis Tasks for the Box_WeekendActivity Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/box/activity/suspiciousactivity/weekendactivityanalysis.webp)
 
 The following analysis tasks are selected by default:
 

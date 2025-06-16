@@ -18,13 +18,13 @@ The following example builds a universe called `Universe1`:
 
 ```
 
-![Universe - Basic Example](/img/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/business-intelligence/universe/bi_universeexampledisplaynames.png)
+![Universe - Basic Example](/img/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/business-intelligence/universe/bi_universeexampledisplaynames.webp)
 
 When
 [getting Usercube data in Power BI](/versioned_docs/usercube_6.1/usercube/integration-guide/governance/reporting/how-tos/connect-powerbi/index.md),
 we see the following:
 
-![Universe (Display Names)](/img/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/business-intelligence/universe/universe_columnnamedisplayname.png)
+![Universe (Display Names)](/img/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/business-intelligence/universe/universe_columnnamedisplayname.webp)
 
 ##### Basic universe with identifiers instead of display names
 
@@ -37,13 +37,13 @@ display names:
 
 ```
 
-![Universe - Basic Example](/img/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/business-intelligence/universe/bi_universeexample.png)
+![Universe - Basic Example](/img/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/business-intelligence/universe/bi_universeexample.webp)
 
 When
 [getting Usercube data in Power BI](/versioned_docs/usercube_6.1/usercube/integration-guide/governance/reporting/how-tos/connect-powerbi/index.md),
 we see the following:
 
-![Universe (Identifiers)](/img/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/business-intelligence/universe/universe_columnnameidentifier.png)
+![Universe (Identifiers)](/img/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/business-intelligence/universe/universe_columnnameidentifier.webp)
 
 ## Properties
 

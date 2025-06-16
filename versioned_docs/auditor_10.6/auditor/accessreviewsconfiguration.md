@@ -16,11 +16,11 @@ Follow the steps to configure Access Reviews in the Netwrix Auditor.
 
 **Step 1 –** Go to **Settings > General > Access Reviews**.
 
-![senddataar](/img/versioned_docs/auditor_10.6/auditor/senddataar.png)
+![senddataar](/img/versioned_docs/auditor_10.6/auditor/senddataar.webp)
 
 **Step 2 –** Click **Manage**.
 
-![manageaccessreviews](/img/versioned_docs/auditor_10.6/auditor/manageaccessreviews.png)
+![manageaccessreviews](/img/versioned_docs/auditor_10.6/auditor/manageaccessreviews.webp)
 
 **Step 3 –** Select the desired data sources to review.
 
@@ -41,7 +41,7 @@ Follow the steps to configure Access Reviews in the Netwrix Auditor.
 
 **Step 3 –** Click **Edit data source** button on the left.
 
-![enablear](/img/versioned_docs/auditor_10.6/auditor/enablear.png)
+![enablear](/img/versioned_docs/auditor_10.6/auditor/enablear.webp)
 
 **Step 4 –** Navigate to the Send data for Access Reviews and select the checkbox.
 

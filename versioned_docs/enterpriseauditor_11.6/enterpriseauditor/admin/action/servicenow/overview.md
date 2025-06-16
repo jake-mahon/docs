@@ -38,7 +38,7 @@ The following permissions are required to utilize Enterprise Auditor’s Service
 The following instructions can only be performed with a ServiceNow admin account and access to the
 ServiceNow Action Module XML file.
 
-![ServiceNow Action Module XML file in Windows file explorer](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/servicenow/actionmodulexmlfile.png)
+![ServiceNow Action Module XML file in Windows file explorer](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/servicenow/actionmodulexmlfile.webp)
 
 **Step 1 –** Navigate to the file path …\STEALTHbits\StealthAUDIT\Actions to access the
 `STEALTHbits SN Action Module v1.0_merged_rev2.0` file to use on ServiceNow’s website.
@@ -89,6 +89,6 @@ contains the following wizard pages:
 The Welcome page displays first in the ServiceNow Action Module Wizard. Review the introductory and
 caution information about the ServiceNow Action Module.
 
-![ServiceNow Action Module wizard Welcome page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/welcome.png)
+![ServiceNow Action Module wizard Welcome page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/welcome.webp)
 
 To proceed, click **Next** or use the Steps navigation pane to open another page in the wizard.

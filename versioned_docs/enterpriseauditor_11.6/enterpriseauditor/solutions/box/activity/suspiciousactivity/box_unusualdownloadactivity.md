@@ -12,7 +12,7 @@ Navigate to **Box** > **1.Activity** > **Suspicious Activity** > **Box_UnusualDo
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Task for the Box_UnusualDownloadActivity Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/box/activity/suspiciousactivity/unusualdownloadactivityanalysis.png)
+![Analysis Task for the Box_UnusualDownloadActivity Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/box/activity/suspiciousactivity/unusualdownloadactivityanalysis.webp)
 
 The following analysis task is selected by default:
 

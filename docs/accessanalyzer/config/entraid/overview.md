@@ -19,7 +19,7 @@ are required to be assigned to the registered application. This includes creatin
 the required resource manager permissions.
 
 See the
-[Microsoft Entra Roles Auditing Configuration](../../enterpriseauditor/requirements/solutions/entraid/entraroles.md)
+[Microsoft Entra Roles Auditing Configuration](../../requirements/solutions/entraid/entraroles.md)
 topic for additional information.
 
 ## Auditing Port Requirements

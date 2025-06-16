@@ -13,26 +13,26 @@ on the following pages in the portal:
     The schema attributes you specify would be available to portal users on the Filter Criteria tab
     of the Query Designer for building Smart Group/Dynasty queries.
 
-    ![filter_criteria_tab](/img/versioned_docs/groupid_11.0/groupid/admincenter/portal/design/filter_criteria_tab.png)
+    ![filter_criteria_tab](/img/versioned_docs/groupid_11.0/groupid/admincenter/portal/design/filter_criteria_tab.webp)
 
 - The Sub-Manager Query Designer for a Recursive Managerial Dynasty, where you can specify a query
   for sub-manager selection.
 
-    ![sub-manager_query](/img/versioned_docs/groupid_11.0/groupid/admincenter/portal/design/sub-manager_query.png)
+    ![sub-manager_query](/img/versioned_docs/groupid_11.0/groupid/admincenter/portal/design/sub-manager_query.webp)
 
 - The **Add Attributes** dialog box for Dynasties. The schema attributes you specify would be
   available in the _Group Items By_ field, which is used to divide the query results into groups.
   GroupID creates a new child group for each unique value of the attribute that users select in the
   _Group Items By_ field.
 
-    ![add_attributes](/img/versioned_docs/groupid_11.0/groupid/admincenter/portal/design/add_attributes.png)
+    ![add_attributes](/img/versioned_docs/groupid_11.0/groupid/admincenter/portal/design/add_attributes.webp)
 
 - The Query Designer for importing members to a group using an external data source. The specified
   schema attributes would be available on the Filter Criteria tab of the Query Designer for building
   membership import queries.  
   You can launch this Query Designer using the **Import** button on the **Members** tab in group
   properties (for static groups, Smart Groups and Dynasties).  
-  ![importmembers](/img/versioned_docs/groupid_11.0/groupid/admincenter/portal/design/importmembers.png)
+  ![importmembers](/img/versioned_docs/groupid_11.0/groupid/admincenter/portal/design/importmembers.webp)
 - The Query Designer for query-based search, where users can define a query to search the
   directory.  
   The schema attributes you specify would be available to portal users on the Filter Criteria tab of

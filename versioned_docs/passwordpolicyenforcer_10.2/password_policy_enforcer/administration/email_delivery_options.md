@@ -11,7 +11,7 @@ Follow the steps below to configure the email delivery options.
 
 **Step 3 –** Click the **Email** tab.
 
-![the_ppe_mailer](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/the_ppe_mailer.png)
+![the_ppe_mailer](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/the_ppe_mailer.webp)
 
 **Step 4 –** Select the **Disable email reminders** option to disable email delivery.
 

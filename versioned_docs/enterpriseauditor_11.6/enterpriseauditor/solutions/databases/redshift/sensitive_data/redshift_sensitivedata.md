@@ -11,7 +11,7 @@ Navigate to the **Jobs** > **Databases** > **Redshift** >  **Sensitive Data** >
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Selection](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/redshift/sensitive_data/analysissensitivedata.png)
+![Analysis Selection](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/redshift/sensitive_data/analysissensitivedata.webp)
 
 The default analysis tasks are:
 

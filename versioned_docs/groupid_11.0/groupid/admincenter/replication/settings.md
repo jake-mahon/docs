@@ -61,7 +61,7 @@ is intact. It also checks the health of each index.
 1. In Admin Center, click **Replication** in the left pane.
 2. On the **Replication** page, click **Elasticsearch Health Monitor**.
 
-    ![es_health_monitor](/img/versioned_docs/groupid_11.0/groupid/admincenter/replication/es_health_monitor.png)
+    ![es_health_monitor](/img/versioned_docs/groupid_11.0/groupid/admincenter/replication/es_health_monitor.webp)
 
     This dialog box lists the Elasticsearch clusters in your environment, with the following
     information for each cluster:
@@ -82,7 +82,7 @@ is intact. It also checks the health of each index.
 3. To refresh the information displayed, click the **Refresh** icon.
 4. Click a cluster name to view it in detail.
 
-    ![cluster_info](/img/versioned_docs/groupid_11.0/groupid/admincenter/replication/cluster_info.png)
+    ![cluster_info](/img/versioned_docs/groupid_11.0/groupid/admincenter/replication/cluster_info.webp)
 
     This dialog box displays the total number of nodes in the cluster. Each node is represented by a
     card, that displays the following for the node:

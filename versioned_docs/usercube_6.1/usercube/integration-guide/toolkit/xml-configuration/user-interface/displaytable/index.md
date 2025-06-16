@@ -16,7 +16,7 @@ The following example displays sites as a table.
 
 ```
 
-![Example - DisplayTableDesignElement Set to Table](/img/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/displaytable/displaytabledesignelement_table_v602.png)
+![Example - DisplayTableDesignElement Set to Table](/img/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/displaytable/displaytabledesignelement_table_v602.webp)
 
 #### list
 
@@ -28,7 +28,7 @@ The following example displays users as a list.
 
 ```
 
-![Example - DisplayTableDesignElement Set to List](/img/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/displaytable/displaytabledesignelement_list_v602.png)
+![Example - DisplayTableDesignElement Set to List](/img/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/displaytable/displaytabledesignelement_list_v602.webp)
 
 For resources to be displayed as a list, the display table must also be configured with tiles.
 
@@ -42,7 +42,7 @@ The following example displays AD entries as a table, with an "Owner/Type" colum
 
 ```
 
-![Example - DisplayTableDesignElement Set to ResourceTable](/img/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/displaytable/displaytabledesignelement_resourcetable_v602.png)
+![Example - DisplayTableDesignElement Set to ResourceTable](/img/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/displaytable/displaytabledesignelement_resourcetable_v602.webp)
 
 ## Properties
 

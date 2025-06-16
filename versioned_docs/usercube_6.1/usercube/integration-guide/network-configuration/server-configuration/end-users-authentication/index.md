@@ -37,11 +37,11 @@ For each authentication method, one or several authentication providers can be s
 authentication providers are set up, end-users will be prompted to choose their preferred method of
 authentication.
 
-![authent_1](/img/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/end-users-authentication/authent_1.png)
+![authent_1](/img/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/end-users-authentication/authent_1.webp)
 
 #### Internal Method & Test Mode Form
 
-![authent_2](/img/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/end-users-authentication/authent_2.png)
+![authent_2](/img/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/end-users-authentication/authent_2.webp)
 
 #### External Method Prompt
 

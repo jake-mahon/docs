@@ -13,16 +13,16 @@ is run in Administrative/privilege mode.
 **Step 1 –** Run the **NetwrixEnterpriseAuditor.exe** executable to open the Enterprise Auditor
 Setup Wizard.
 
-![Setup Wizard Welcome page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/welcome.png)
+![Setup Wizard Welcome page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/welcome.webp)
 
 **Step 2 –** On the Welcome page, click **Next** to begin the installation.
 
-![ End User License Agreement](/img/versioned_docs/changetracker_8.0/changetracker/install/eula.png)
+![ End User License Agreement](/img/versioned_docs/changetracker_8.0/changetracker/install/eula.webp)
 
 **Step 3 –** On the End-User License Agreement page, read the End User License Agreement, then check
 the **I accept the terms in the License Agreement** box and click **Next**.
 
-![Destinations Folder page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/filesystemproxy/destination.png)
+![Destinations Folder page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/filesystemproxy/destination.webp)
 
 **Step 4 –** On the Destination Folder page, click **Change** to select the folder location to
 install Enterprise Auditor. The default destination folder is
@@ -30,7 +30,7 @@ install Enterprise Auditor. The default destination folder is
 
 |                                                                                                         |     |                                                                                                                                           |
 | ------------------------------------------------------------------------------------------------------- | --- | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| ![License File page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/agent/license.png) |     | ![License File page with mapped file](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/licensemapped.png) |
+| ![License File page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/agent/license.webp) |     | ![License File page with mapped file](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/licensemapped.webp) |
 | Default License File Page                                                                               |     | Mapped License File                                                                                                                       |
 
 **Step 5 –** On the License File page, click **Browse** and navigate to your **StealthAUDIT.lic**
@@ -39,18 +39,18 @@ file. When the path to the file is visible in the textbox, click **Next**.
 **NOTE:** The license file must be stored on the Enterprise Auditor Console server before the
 installation begins.
 
-![License Features page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/licensefeatures.png)
+![License Features page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/licensefeatures.webp)
 
 **Step 6 –** The License Features page displays a list of all features covered by the imported
 license. It also displays the name of the organization which owns the license, the expiration date,
 and the host limit. These are the features that will be installed. Click **Next**.
 
-![Ready to install Netwrix Access Governance page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/ready.png)
+![Ready to install Netwrix Access Governance page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/ready.webp)
 
 **Step 7 –** On the Ready to install Enterprise Auditor page, click **Install** to begin the
 installation.
 
-![Setup Wizard Completed page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/sensitivedatadiscovery/completed.png)
+![Setup Wizard Completed page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/sensitivedatadiscovery/completed.webp)
 
 **Step 8 –** When the installation has completed, click **Finish** to exit the wizard.
 

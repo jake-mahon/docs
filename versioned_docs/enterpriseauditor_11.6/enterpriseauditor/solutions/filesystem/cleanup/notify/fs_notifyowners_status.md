@@ -13,7 +13,7 @@ Navigate to the **FileSystem** > **Cleanup** > **2. Notify** > **FS_NotifyOwners
 **CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
 preconfigured for this job.
 
-![Analysis Tasks for the FS_NotifyOwners_Status Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/cleanup/notify/notifyownersstatusanalysis.png)
+![Analysis Tasks for the FS_NotifyOwners_Status Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/cleanup/notify/notifyownersstatusanalysis.webp)
 
 The following analysis tasks are selected by default:
 

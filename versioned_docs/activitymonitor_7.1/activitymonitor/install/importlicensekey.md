@@ -7,26 +7,26 @@ license information from the Enterprise Auditor installation directory.
 
 Follow the steps to import a license key file.
 
-![Activity Monitor Installation with Trial License](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/triallicense.png)
+![Activity Monitor Installation with Trial License](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/triallicense.webp)
 
 **Step 1 –** Click the **Licensed to: &lt;Trial User&gt;** hyperlink in the lower-left corner of the
 Console. Alternatively, click the **View License** link in the yellow warning bar at the top. The
 License Information window opens.
 
-![Trial License Information](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/triallicenseinfo.png)
+![Trial License Information](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/triallicenseinfo.webp)
 
 **Step 2 –** Click Load New License File and navigate to where the key is located. A Windows file
 explorer opens.
 
-![Open Dialog Box to load New License File](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/loadlicense.png)
+![Open Dialog Box to load New License File](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/loadlicense.webp)
 
 **Step 3 –** Select the `.lic` file and click Open. The selected license key is then read.
 
-![Activity Monitor License Information](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/licenseinfo.png)
+![Activity Monitor License Information](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/licenseinfo.webp)
 
 **Step 4 –** In the License Information window, click **Apply** to import the License Key.
 
-![Activity Monitor with License](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/licenseadded.png)
+![Activity Monitor with License](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/licenseadded.webp)
 
 **Step 5 –** The organization's license key is now imported into the Activity Monitor. The Console
 returns to the Agents tab and is ready to deploy activity agents.

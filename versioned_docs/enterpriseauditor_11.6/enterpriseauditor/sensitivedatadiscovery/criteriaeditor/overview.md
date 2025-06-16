@@ -8,7 +8,7 @@ inherit Sensitive Data Criteria settings from the **Settings** > **Sensitive Da
 [Sensitive Data](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/sensitivedata/overview.md)
 topic for additional information.
 
-![Sensitive Data Criteria Editor](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/sensitivdatacriteriaeditor.png)
+![Sensitive Data Criteria Editor](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/sensitivdatacriteriaeditor.webp)
 
 The Sensitive Data Criteria Editor contains two sections:
 
@@ -24,7 +24,7 @@ The Sensitive Data Criteria Editor contains two sections:
 
 The navigation pane lists all user-created and pre-configured Sensitive Data criteria.
 
-![Navigation Pane](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/navigationpane.png)
+![Navigation Pane](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/navigationpane.webp)
 
 The options in the Navigation Pane are:
 

@@ -23,7 +23,7 @@ topic for additional information.
 View the analysis tasks by navigating to the **Exchange** > **8. Exchange Online** >
 **EX_OrgOverview_Mailbox** > **Configure** node and select **Analysis**.
 
-![Analysis Tasks for the EX_Mailflow_OrgOverview Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/online/mailflow/mailfloworgoverviewanalysis.png)
+![Analysis Tasks for the EX_Mailflow_OrgOverview Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/online/mailflow/mailfloworgoverviewanalysis.webp)
 
 The following analysis task is selected by default:
 

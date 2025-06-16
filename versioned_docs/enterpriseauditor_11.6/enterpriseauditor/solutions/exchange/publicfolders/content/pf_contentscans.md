@@ -3,7 +3,7 @@
 The PF_ContentScans job is comprised of data collection that focuses on public folder content aging
 within each public folder.
 
-![Collection > PF_ContentScans Job in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/databases/collection/collectionjobstree.png)
+![Collection > PF_ContentScans Job in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/databases/collection/collectionjobstree.webp)
 
 The PF_ContentScans job is located in the 0.Collection job group.
 
@@ -11,7 +11,7 @@ The PF_ContentScans job is located in the 0.Collection job group.
 
 The PF_ContentScans job uses the ExchangePS Data Collector.
 
-![Queries for the PF_ContentScans Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/publicfolders/content/contentscansquery.png)
+![Queries for the PF_ContentScans Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/publicfolders/content/contentscansquery.webp)
 
 The following query is included in the PF_ContentScans job:
 
@@ -30,7 +30,7 @@ View the analysis task by navigating to the **Exchange** > **5. Public Folders**
 **CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
 preconfigured for this job.
 
-![Analysis Tasks for the PF_ContentScans Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/publicfolders/content/contentscansanalysis.png)
+![Analysis Tasks for the PF_ContentScans Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/publicfolders/content/contentscansanalysis.webp)
 
 The following analysis task is selected by default:
 

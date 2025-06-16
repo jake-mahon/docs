@@ -1,3 +1,12 @@
+---
+id: generate-a-self-audit-report
+title: "Generate a Self-Audit Report"
+pagination_label: "Generate a Self-Audit Report"
+sidebar_label: "Generate a Self-Audit Report"
+sidebar_position: 50
+description: "Learn how to generate self-audit reports to track changes to 1Secure configuration and monitoring scope."
+---
+
 # Generate a Self-Audit Report
 
 Built-in Netwrix 1Secure self-audit allows you to track changes to the product configuration,

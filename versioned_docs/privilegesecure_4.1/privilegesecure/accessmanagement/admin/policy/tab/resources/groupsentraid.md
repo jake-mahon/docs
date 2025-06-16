@@ -3,7 +3,7 @@
 The Groups tab for Microsoft Entra ID (formerly Azure AD) shows information about the groups on the
 selected resource.
 
-![Groups Tab Azure AD](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/resources/groupsazuread.png)
+![Groups Tab Azure AD](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/resources/groupsazuread.webp)
 
 The table has the following columns:
 

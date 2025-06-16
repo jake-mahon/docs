@@ -42,7 +42,7 @@ The Database Solution license includes all supported database platforms supporte
 Auditor. Additionally, the Sensitive Data Discovery Add-On enables the solution to search database
 content for sensitive data.
 
-![SQL Job Group](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/sql/sqljobgroup.png)
+![SQL Job Group](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/sql/sqljobgroup.webp)
 
 The SQL Job Group includes:
 

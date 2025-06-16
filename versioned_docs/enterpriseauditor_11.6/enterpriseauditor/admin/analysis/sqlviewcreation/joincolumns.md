@@ -10,7 +10,7 @@ predicates, use the SQLscripting analysis module. See the
 [SQLscripting Analysis Module](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/analysis/sqlscripting.md) topic
 for additional information.
 
-![View and Table Creation Analysis Module wizard Join Columns page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/analysis/sqlviewcreation/joincolumns.png)
+![View and Table Creation Analysis Module wizard Join Columns page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/analysis/sqlviewcreation/joincolumns.webp)
 
 Use the **Table 1 join property** and **Table 2 join property** fields to select join predicates
 from both tables. Join predicates are columns containing analogous values that are used to match

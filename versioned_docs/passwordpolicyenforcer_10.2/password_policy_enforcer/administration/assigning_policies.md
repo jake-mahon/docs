@@ -18,14 +18,14 @@ Managers OUs are children of the Info Tech OU, then any policy assigned to the I
 applies to the two child OUs. If this behavior is not desired, then you can assign a different
 policy to a child OU.
 
-![managing_policies_3](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/managing_policies_3.png)
+![managing_policies_3](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/managing_policies_3.webp)
 
 **NOTE:** When a domain policy is assigned to a user or group, Password Policy Enforcer stores the
 user or group SID in the configuration. The assignment remains valid even if the user or group is
 renamed. When a local policy is assigned to a user, Password Policy Enforcer stores the username in
 the configuration. The assignment is invalidated if the user is renamed.
 
-![managing_policies_4](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/managing_policies_4.png)
+![managing_policies_4](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/managing_policies_4.webp)
 
 ## Assign a Password Policy
 
@@ -91,4 +91,4 @@ a diagrammatic representation of this algorithm.
 Use the Log tab in the Test Policies page to quickly determine which policy Password Policy Enforcer
 will enforce for a particular user.
 
-![managing_policies_5](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/managing_policies_5.png)
+![managing_policies_5](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/managing_policies_5.webp)

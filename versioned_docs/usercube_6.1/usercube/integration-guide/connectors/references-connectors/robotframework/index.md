@@ -6,7 +6,7 @@ script.
 This page is about
 [Custom/Robot Framework](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/robot-framework/index.md).
 
-![Package: Custom/Robot Framework](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/robotframework/packages_robot_v603.png)
+![Package: Custom/Robot Framework](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/robotframework/packages_robot_v603.webp)
 
 ## Overview
 

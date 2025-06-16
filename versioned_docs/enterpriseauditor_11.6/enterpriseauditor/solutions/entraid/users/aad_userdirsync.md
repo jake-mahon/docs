@@ -11,7 +11,7 @@ select **Analysis** to view the analysis tasks.
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for the AAD_UserDirSync Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/entraid/users/userdirsyncanalysis.png)
+![Analysis Tasks for the AAD_UserDirSync Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/entraid/users/userdirsyncanalysis.webp)
 
 The default analysis tasks are:
 

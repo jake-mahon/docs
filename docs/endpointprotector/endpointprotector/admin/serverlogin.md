@@ -15,7 +15,7 @@ password. If you are logging in for the first time, use the default credentials:
 
 **NOTE:** Please ensure to update your login credentials after the first login to enhance security.
 
-![ Input your assigned username and password to log in to the Server](../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/serverlogin.png)
+![ Input your assigned username and password to log in to the Server](../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/serverlogin.webp)
 
 Upon successful log in, the **Dashboard** > **General Dashboard** window will be displayed (see
 below image). This window is intended to provide a high-level overview of endpoints under management
@@ -25,7 +25,7 @@ Your available modules are displayed in the left-side navigation pane. These can
 further manage module-specific policies. Ultimately, policies define the actions allowed /
 disallowed on the endpoint.
 
-![High-level overview of endpoints under management as well as activity](../../../../static/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/dashboard.png)
+![High-level overview of endpoints under management as well as activity](../../../../static/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/dashboard.webp)
 
 Before deploying any agents, each module’s policy should be reviewed. If agents have already been
 delivered to systems, a review of the configuration(s) can be accomplished by verifying active

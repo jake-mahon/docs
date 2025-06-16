@@ -7,7 +7,7 @@ to use default passwords.
 
 The 4-Oracle_DefaultPasswordUsers Job uses the SQL Data Collector for the following query:
 
-![Query Selection](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/oracle/collection/jobgroup17.png)
+![Query Selection](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/oracle/collection/jobgroup17.webp)
 
 - Users with Default Passwords – Collects usernames of users whose passwords have not been updated
   since the database creation
@@ -29,7 +29,7 @@ Query Properties. The Query Properties window opens.
 **CAUTION:** Do not make changes to wizard pages not listed in these steps. They have been
 pre-configured for this job.
 
-![Filters Page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/oracle/collection/4oracledefaultpasswordsfilterpage.png)
+![Filters Page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/oracle/collection/4oracledefaultpasswordsfilterpage.webp)
 
 **Step 4 –** To query for specific databases/instances, navigate to the Filter page. The default
 query target is All Databases. The default query scope is Only select database objects. Click

@@ -3,7 +3,7 @@
 At the job group level, the History node identifies data retention and log retention periods
 assigned for the job group.
 
-![Job Group History Settings](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/history.png)
+![Job Group History Settings](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/history.webp)
 
 By default, all job groups are set to inherit **Use Default Setting** option from the global level
 (**Settings** > **History**) or a parent job group. See the

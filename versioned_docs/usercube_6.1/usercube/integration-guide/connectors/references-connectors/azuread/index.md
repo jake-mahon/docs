@@ -7,7 +7,7 @@ This connector exports and fulfills user and groups from/to an
 This page is about
 [Directory/Microsoft Entra ID](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/azure-active-directory/index.md).
 
-![Package: Directory/Microsoft Entra ID](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/azuread/packages_azuread_v603.png)
+![Package: Directory/Microsoft Entra ID](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/azuread/packages_azuread_v603.webp)
 
 ## Overview
 

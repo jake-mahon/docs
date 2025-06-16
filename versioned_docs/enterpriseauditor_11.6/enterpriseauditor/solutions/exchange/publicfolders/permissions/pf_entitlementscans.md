@@ -3,7 +3,7 @@
 The PF_EntitlementScans job is comprised of data collection that focuses on public folder
 permissions.
 
-![Collection > PF_EntitlementScans Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/databases/collection/collectionjobstree.png)
+![Collection > PF_EntitlementScans Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/databases/collection/collectionjobstree.webp)
 
 The PF_EntitlementScans job is located in the Collection job group.
 
@@ -11,7 +11,7 @@ The PF_EntitlementScans job is located in the Collection job group.
 
 The PF_EntitlementScans job uses the ExchangePS Data Collector.
 
-![Queries for the PF_EntitlementScans Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/publicfolders/permissions/entitlementscansquery.png)
+![Queries for the PF_EntitlementScans Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/publicfolders/permissions/entitlementscansquery.webp)
 
 The following query is included in the PF_EntitlementScans job:
 
@@ -31,7 +31,7 @@ View the analysis tasks by navigating to the **Exchange** > **5. Public Folders*
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for the PF_EntitlementScans Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/publicfolders/permissions/entitlementscansanalysis.png)
+![Analysis Tasks for the PF_EntitlementScans Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/publicfolders/permissions/entitlementscansanalysis.webp)
 
 The following analysis tasks are selected by default:
 

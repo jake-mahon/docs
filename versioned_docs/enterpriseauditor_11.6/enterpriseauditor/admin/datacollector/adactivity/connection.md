@@ -5,7 +5,7 @@ Netwrix Activity Monitor. It is a wizard page for the category of:
 
 - Import from SAM
 
-![Active Directory Activity DC wizard SAM connection settings page](/img/versioned_docs/activitymonitor_7.1/config/activedirectory/namconnection.png)
+![Active Directory Activity DC wizard SAM connection settings page](/img/versioned_docs/activitymonitor_7.1/config/activedirectory/namconnection.webp)
 
 The following connection setting can be configured to connect to the Netwrix Activity Monitor
 archive via an API Server:

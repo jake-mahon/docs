@@ -43,7 +43,7 @@ The Configure Analytics window has two tabs:
 
 Settings Tab
 
-![File System Attacks (by User) Analytic Type - Settings tab](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/analytics/filesystemattackssettings.png)
+![File System Attacks (by User) Analytic Type - Settings tab](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/analytics/filesystemattackssettings.webp)
 
 Set the Number of Accessed Files and the Interval Duration that will trigger the incident. The
 interval duration is set for (Hours:Minutes) and is capped at 1:00. When a particular user causes
@@ -69,7 +69,7 @@ list and blocked from initiating future events.
 
 Policy Tab for Monitoring Only
 
-![File System Attacks (by User) Analytic Type - Policy tab for Monitoring Only](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/analytics/policytabfsmonitoring.png)
+![File System Attacks (by User) Analytic Type - Policy tab for Monitoring Only](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/analytics/policytabfsmonitoring.webp)
 
 The **Policy** tab for configuring analytics consists of the following sub-tabs:
 
@@ -112,7 +112,7 @@ The **Policy** tab for configuring analytics consists of the following sub-tabs:
 
 Policy Tab for Monitoring & Lockdown
 
-![File System Attacks (by User) Analytic Type - Policy tab for Monitoring and Lockdown](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/analytics/policytabfsmonitoringlockdown.png)
+![File System Attacks (by User) Analytic Type - Policy tab for Monitoring and Lockdown](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/analytics/policytabfsmonitoringlockdown.webp)
 
 When the **Enable Automatic Lockdown** option is selected on the **Settings** tab, the **Policy**
 tab > **Event Type** tab includes both the File System Lockdown Event Type and the File System
@@ -157,7 +157,7 @@ The **Policy** tab for configuring analytics consists of the following sub-tabs:
 
 The data grid on the **File System Attacks (by user)** node lists one row per incident identified.
 
-![File System Attacks (by User) Analytic Type window](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/analytics/fsattacks.png)
+![File System Attacks (by User) Analytic Type window](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/analytics/fsattacks.webp)
 
 The data grid can be filtered according to the Event Tracker status: All, New, or Reviewed. See the
 [Event Tracker Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/recentevents/eventtracker.md)

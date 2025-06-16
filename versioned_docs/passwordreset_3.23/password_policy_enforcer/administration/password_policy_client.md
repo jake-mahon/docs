@@ -73,7 +73,7 @@ and conditions.
 **Step 4 –** Right-click the **PPEClt912.msi** icon, click **Copy**, and then paste the file into
 the distribution point.
 
-![the_password_policy_client](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/the_password_policy_client.png)
+![the_password_policy_client](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/the_password_policy_client.webp)
 
 **Step 5 –** Give the **Domain Computers** security group read access to the PPEClt912.msi file in
 the distribution point.
@@ -93,7 +93,7 @@ this domain, and Link it here...**.
 
 **Step 4 –** Enter **Password Policy Client** in the provided field, then press **ENTER**.
 
-![the_password_policy_client_1](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/the_password_policy_client_1.png)
+![the_password_policy_client_1](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/the_password_policy_client_1.webp)
 
 ### Edit the Group Policy Object
 
@@ -115,7 +115,7 @@ For example, `\\file server\distribution point share\PPEClt912.msi`
 
 **Step 6 –** Select the **Assigned deployment method**, then click **OK**.
 
-![the_password_policy_client_2](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/the_password_policy_client_2.png)
+![the_password_policy_client_2](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/the_password_policy_client_2.webp)
 
 **Step 7 –** Close the **Group Policy Management Editor**.
 
@@ -162,15 +162,15 @@ the Domain Controllers OU.
 **Step 4 –** Click **Domain Profile** in the left pane then double-click **Windows Firewall: Define
 inbound port exceptions** in the right pane.
 
-![the_password_policy_client_3](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/the_password_policy_client_3.png)
+![the_password_policy_client_3](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/the_password_policy_client_3.webp)
 
 **Step 5 –** Select the **Enabled** option, and then click **Show...**.
 
-![the_password_policy_client_4](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/the_password_policy_client_4.png)
+![the_password_policy_client_4](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/the_password_policy_client_4.webp)
 
 **Step 6 –** Select the **Enabled** option, and then click **Show...**.
 
-![the_password_policy_client_5](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/the_password_policy_client_5.png)
+![the_password_policy_client_5](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/the_password_policy_client_5.webp)
 
 **Step 7 –** Click **OK** until you return to the Group Policy Management Editor.
 
@@ -280,9 +280,9 @@ above).
 
 **Step 2 –** Configure rule inserts for each enabled rule (see Customizing Rule Inserts above).
 
-![the_password_policy_client_6](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/the_password_policy_client_6.png)
+![the_password_policy_client_6](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/the_password_policy_client_6.webp)
 
-![the_password_policy_client_7](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/the_password_policy_client_7.png)
+![the_password_policy_client_7](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/the_password_policy_client_7.webp)
 
 The Password Policy Client uses the Windows client language settings to determine which language to
 display.
@@ -332,7 +332,7 @@ Templates...** button.
 
 **Step 7 –** Select **PPEClt.adm**, then click **Open**.
 
-![the_password_policy_client_8](/img/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/the_password_policy_client_8.png)
+![the_password_policy_client_8](/img/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/the_password_policy_client_8.webp)
 
 **Step 8 –** Click **Close**.
 
@@ -354,14 +354,14 @@ the domain level.
 Templates**, **Classic Administrative Templates** (**ADM**), **Password Policy Enforcer**, and
 **Password Policy Client** items.
 
-![the_password_policy_client_9](/img/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/the_password_policy_client_9.png)
+![the_password_policy_client_9](/img/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/the_password_policy_client_9.webp)
 
 **Step 4 –** Double-click one of the settings in the right pane, and then configure the available
 options.
 
 **NOTE:** Information about each option is shown in the Help box.
 
-![the_password_policy_client_10](/img/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/the_password_policy_client_10.png)
+![the_password_policy_client_10](/img/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/the_password_policy_client_10.webp)
 
 **Step 5 –** Click **OK**.
 

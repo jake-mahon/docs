@@ -12,7 +12,7 @@ Follow the steps to add a script.
 **Step 3 –** Select the **Data Source** tab and select the desired data collector in the Data
 Collector drop-down menu.
 
-![Query Properties window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/script/querypropertiesexisting.png)
+![Query Properties window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/script/querypropertiesexisting.webp)
 
 **Step 4 –** Click the **Browse Data Source** button to open the VBScript Editor page and add the
 script to run after data collection.

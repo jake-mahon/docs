@@ -6,7 +6,7 @@ proceed to create a new Virtual Machine Instance:
 **Step 1 –** In the Google Cloud Platform Console, go to the VM Instances page and click Create
 instance.
 
-![Creating Virtual Machine instance.](../../../../../static/img/product_docs/endpointprotector/endpointprotector/configuration/googlecloudplatform/createinstance.png)
+![Creating Virtual Machine instance.](../../../../../static/img/product_docs/endpointprotector/endpointprotector/configuration/googlecloudplatform/createinstance.webp)
 
 **Step 2 –** In the Boot disk section, click Change to begin configuring your boot disk and on the
 Custom Images tab, fill in the following:
@@ -16,12 +16,12 @@ Custom Images tab, fill in the following:
 - Size – add a size larger than the Endpoint Protector image size received
 - Click Select to confirm the boot disk configuration.
 
-![Boot disk Configuration](../../../../../static/img/product_docs/endpointprotector/endpointprotector/configuration/googlecloudplatform/bootdisk.png)
+![Boot disk Configuration](../../../../../static/img/product_docs/endpointprotector/endpointprotector/configuration/googlecloudplatform/bootdisk.webp)
 
 **Step 3 –** On the Firewall section, select Allow HTTP traffic and Allow HTTPS traffic, and then
 click Create.
 
-![Firewall configuration](../../../../../static/img/product_docs/endpointprotector/endpointprotector/configuration/googlecloudplatform/firewall.png)
+![Firewall configuration](../../../../../static/img/product_docs/endpointprotector/endpointprotector/configuration/googlecloudplatform/firewall.webp)
 
 ## Requesting a Static IP
 
@@ -33,7 +33,7 @@ restarted and the Endpoint Protector Clients have to be reinstalled.
 
 To request a Static IP, go to IP addresses and select the External IP addresses tab.
 
-![Requesting a static IP](../../../../../static/img/product_docs/endpointprotector/endpointprotector/configuration/googlecloudplatform/externalip.png)
+![Requesting a static IP](../../../../../static/img/product_docs/endpointprotector/endpointprotector/configuration/googlecloudplatform/externalip.webp)
 
 ## Create Firewall Rules
 
@@ -41,11 +41,11 @@ To create a Firewall rule, on the Google Cloud Platform Console, follow these st
 
 **Step 4 –** Go to the Firewall page and select default-allow-ssh;
 
-![Creating firewall rules](../../../../../static/img/versioned_docs/threatprevention_7.4/threatprevention/install/reportingmodule/firewallrules.png)
+![Creating firewall rules](../../../../../static/img/versioned_docs/threatprevention_7.4/threatprevention/install/reportingmodule/firewallrules.webp)
 
 **Step 5 –** Click Edit and on the Protocols and ports section provide the following information:
 
 - select Specified protocols and ports
 - check the tcp box and enter 64848
 
-![Editing firewall rules](../../../../../static/img/product_docs/endpointprotector/endpointprotector/configuration/googlecloudplatform/editrules.png)
+![Editing firewall rules](../../../../../static/img/product_docs/endpointprotector/endpointprotector/configuration/googlecloudplatform/editrules.webp)

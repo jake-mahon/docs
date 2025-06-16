@@ -5,7 +5,7 @@ users and groups who are effectively granted or denied access to the SharePoint 
 application through a particular web application policy with the rights being either granted or
 denied.
 
-![Effective Policy report at the web application and web application URL levels](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/sharepoint/webapplication/webappeffectivepolicy.png)
+![Effective Policy report at the web application and web application URL levels](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/sharepoint/webapplication/webappeffectivepolicy.webp)
 
 This report is comprised of the following columns:
 

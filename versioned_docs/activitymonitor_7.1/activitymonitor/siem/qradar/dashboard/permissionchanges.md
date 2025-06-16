@@ -3,7 +3,7 @@
 The Permission Changes Dashboard for QRadar shows information on changes made to permissions using
 various metrics.
 
-![Permission Changes Dashboard for Stealthbits Activivty Monitor App for QRadar](/img/versioned_docs/activitymonitor_7.1/activitymonitor/siem/qradar/dashboard/permissionchangesdashboard.png)
+![Permission Changes Dashboard for Stealthbits Activivty Monitor App for QRadar](/img/versioned_docs/activitymonitor_7.1/activitymonitor/siem/qradar/dashboard/permissionchangesdashboard.webp)
 
 The Permission Changes dashboard contains the following cards:
 

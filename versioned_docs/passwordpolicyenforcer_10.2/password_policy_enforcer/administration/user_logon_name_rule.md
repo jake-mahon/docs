@@ -3,7 +3,7 @@
 The User Logon Name rule rejects passwords that are similar to a user's logon name (user name).
 Passwords that are similar to a user's logon name are not desirable because they are easily guessed.
 
-![ppe_rules_10](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/ppe_rules_10.png)
+![ppe_rules_10](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/ppe_rules_10.webp)
 
 - Select the Enabled check box to enable the User Logon Name rule.
 - Select the Detect character substitution check box if Password Policy Enforcer should reject

@@ -2,7 +2,7 @@
 
 Use the Search Filter page to choose a filter template for the search.
 
-![Filter Wizard Search Filter page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/ewsmailbox/searchfilter.png)
+![Filter Wizard Search Filter page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/ewsmailbox/searchfilter.webp)
 
 Customize folder search conditions using the following options:
 
@@ -31,7 +31,7 @@ Use the MessageClasses window to alter criteria related to message class. The Me
 opens if **Ipm.Note** or **Ipm.Appointment** is clicked in the Edit Conditions box on the Search
 Filter page.
 
-![MessagesClasses window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/ewsmailbox/filterwizard/messageclassessearchfilter.png)
+![MessagesClasses window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/ewsmailbox/filterwizard/messageclassessearchfilter.webp)
 
 Determine MessageClass-related criteria using the following options:
 
@@ -54,7 +54,7 @@ Use the Date Range Selection window to select a time period or range for the sea
 Selection window opens if **over 90 Day ago** is clicked in the Edit Conditions box on the Search
 Filter page.
 
-![Date Range Selection window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/ewsmailbox/filterwizard/daterangeselectionsearchfilter.png)
+![Date Range Selection window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/ewsmailbox/filterwizard/daterangeselectionsearchfilter.webp)
 
 Determine the time period or range of the search using the following options:
 

@@ -2,7 +2,7 @@
 
 Use the Disable/Enable Users page to enable or disable target users.
 
-![Active Directory Action Module Wizard Disable/Enable Users page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/activedirectory/operations/disableenableusers.png)
+![Active Directory Action Module Wizard Disable/Enable Users page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/activedirectory/operations/disableenableusers.webp)
 
 Select the radio button for the desired option:
 

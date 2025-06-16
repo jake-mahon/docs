@@ -27,7 +27,7 @@ selection dropdown of the following administration screens:
 By default, the entity type with the highest priority is selected first. The end user can later
 change the selection using the top-left dropdown.
 
-![Change Selection](/img/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/displayentitytype/ui_displaypriorities_changeselection_v521beta.png)
+![Change Selection](/img/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/displayentitytype/ui_displaypriorities_changeselection_v521beta.webp)
 
 Priorities are integer values, positive or negative. The most important priority is assigned to the
 lowest value.

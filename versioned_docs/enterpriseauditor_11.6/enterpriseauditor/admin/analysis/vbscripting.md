@@ -3,7 +3,7 @@
 Use the VBscripting analysis module to access the VBScript Editor and apply VB scripting to the
 current analysis.
 
-![VBScript Editor](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/script/vbscripteditor.png)
+![VBScript Editor](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/script/vbscripteditor.webp)
 
 The VBScript Editor has the following options:
 

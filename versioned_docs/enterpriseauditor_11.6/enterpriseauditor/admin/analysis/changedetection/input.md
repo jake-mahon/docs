@@ -2,7 +2,7 @@
 
 Use the Input Data Source page to choose a data source to analyze for changes.
 
-![Change Detection Data Analysis Module wizard Input Data Source page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/unix/input.png)
+![Change Detection Data Analysis Module wizard Input Data Source page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/unix/input.webp)
 
 The configurable option is:
 

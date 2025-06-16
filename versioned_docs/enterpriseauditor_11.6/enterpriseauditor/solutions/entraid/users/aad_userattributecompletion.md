@@ -12,7 +12,7 @@ Navigate to the **Jobs** > **Entra ID** > **2.Users** > **AAD_UserAttributeCompl
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for the AAD_UserAttributeCompletion Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/users/userattributecompletionanalysis.png)
+![Analysis Tasks for the AAD_UserAttributeCompletion Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/users/userattributecompletionanalysis.webp)
 
 The default analysis tasks are:
 

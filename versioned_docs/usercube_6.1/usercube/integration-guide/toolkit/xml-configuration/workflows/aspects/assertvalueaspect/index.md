@@ -72,7 +72,7 @@ topic for additional information.
 
 The position of the pointcut is specified by an activity state and a mode (before or after).
 
-![pointcut Schema](/img/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/workflows/aspects/addchangeaspect/pointcut.png)
+![pointcut Schema](/img/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/workflows/aspects/addchangeaspect/pointcut.webp)
 
 | Property               | Type         | Description                                                                                                                                                                                                                                                                                                                                    |
 | ---------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

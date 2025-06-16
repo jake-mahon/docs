@@ -7,7 +7,7 @@ select **System Settings** to open the System Settings interface.
 
 Click **Licensing** in the navigation pane.
 
-![System Settings interface on the Licensing page](/img/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/configuration/systemsettings/licensing.png)
+![System Settings interface on the Licensing page](/img/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/configuration/systemsettings/licensing.webp)
 
 The License Info section displays the following:
 

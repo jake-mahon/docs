@@ -2,7 +2,7 @@
 
 The Permissions report for imported data shows the permissions for trustees on the resource.
 
-![Permissions report for imported data](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/mailbox/permissions.png)
+![Permissions report for imported data](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/mailbox/permissions.webp)
 
 This report is comprised of the following columns:
 

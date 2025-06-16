@@ -7,7 +7,7 @@ Console.
 
 **Step 2 –** Click **Add** > **New Microsoft Enter ID (formerly Azure AD) Tenant**
 
-![Add Azure AD Tenant](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/add/addazureadtenant.png)
+![Add Azure AD Tenant](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/add/addazureadtenant.webp)
 
 **Step 3 –** Enter the following information:
 

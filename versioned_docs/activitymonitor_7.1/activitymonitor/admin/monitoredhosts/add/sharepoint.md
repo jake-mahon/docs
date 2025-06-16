@@ -36,17 +36,17 @@ Follow the steps to add a SharePoint host to be monitored.
 **Step 1 –** In Activity Monitor, go to the Monitored Hosts tab and click Add. The Add New Host
 window opens.
 
-![Choose Agent page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/chooseagent.png)
+![Choose Agent page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/chooseagent.webp)
 
 **Step 2 –** On the Choose Agent page, select the Agent deployed on the SharePoint Application
 server that hosts the “Central Administration” component. Click **Next**.
 
-![Add Host page with SharePoint selected](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/addhostsharepoint.png)
+![Add Host page with SharePoint selected](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/addhostsharepoint.webp)
 
 **Step 3 –** On the Add Host page, select the SharePoint radio button. If desired, add a Comment.
 Click **Next**.
 
-![Add Host - SharePoint Options page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/sharepointoptions.png)
+![Add Host - SharePoint Options page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/sharepointoptions.webp)
 
 **Step 4 –** On the SharePoint Options page, choose to audit all sites or scope the monitoring to
 specific site(s):
@@ -68,17 +68,17 @@ specific site(s):
 
 Click **Next**.
 
-![Configure Operations page for SharePoint](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/configureoperationssharepoint.png)
+![Configure Operations page for SharePoint](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/configureoperationssharepoint.webp)
 
 **Step 5 –** On the Configure Operations page, select the SharePoint Operations and Permissions
 Operations to be monitored. Click **Next**.
 
-![Where to log the activity page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/wheretologgeneric.png)
+![Where to log the activity page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/wheretologgeneric.webp)
 
 **Step 6 –** On the Where To Log The Activity page, select whether to send the activity to either a
 **Log File)** or **Syslog Server**. Click **Next**.
 
-![File Output Page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/fileoutputpage.png)
+![File Output Page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/fileoutputpage.webp)
 
 **Step 7 –** If **Log File** is selected on the **Where To Log The Activity** page, the **File
 Output** page can be configured.
@@ -101,7 +101,7 @@ Output** page can be configured.
 
 Click **Next**.
 
-![Syslog Output Page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/syslogoutputpage.png)
+![Syslog Output Page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/syslogoutputpage.webp)
 
 **Step 8 –** If Syslog Server is selected on the **Where To Log The Activity** page, the Syslog
 Output page can be configured. The configurable options are:
@@ -136,7 +136,7 @@ Output page can be configured. The configurable options are:
 
 Click Finish.
 
-![Activity Monitor with SharePoint host added](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/activitymonitorsharepoint.png)
+![Activity Monitor with SharePoint host added](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/activitymonitorsharepoint.webp)
 
 The added SharePoint host is displayed in the monitored hosts table. Once a host has been added for
 monitoring, configure the desired ouptuts. See the

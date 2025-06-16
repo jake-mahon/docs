@@ -3,7 +3,7 @@
 The information in this section applies to Select Account Type > Task (Local) or Task (Domain) in
 the User Credentials window.
 
-| ![User Credentials - Task (Local)](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/profile/tasklocal.png) | ![User Credentials - Task (Domain)](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/profile/taskdomain.png) |
+| ![User Credentials - Task (Local)](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/profile/tasklocal.webp) | ![User Credentials - Task (Domain)](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/profile/taskdomain.webp) |
 | ------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
 | _Task (Local)_                                                                                                                                   | _Task (Domain)_                                                                                                                                    |
 

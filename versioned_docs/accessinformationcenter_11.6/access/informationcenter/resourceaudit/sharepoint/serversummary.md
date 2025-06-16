@@ -4,7 +4,7 @@ The Server Summary report at the **SharePoint** node provides a top-level view o
 instances that are representative of the targeted SharePoint on-premise farms and SharePoint Online
 instances.
 
-![Server Summary report](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/filesystem/serversummary.png)
+![Server Summary report](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/filesystem/serversummary.webp)
 
 This report is comprised of the following columns:
 

@@ -29,7 +29,7 @@ and select **Analysis** to view the analysis tasks.
 **CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
 preconfigured for this job. Only the `@stale` parameter can be configured for the analysis task.
 
-![Analysis Tasks for the SP_StaleFiles Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/sharepoint/content/stalefilesanalysis.png)
+![Analysis Tasks for the SP_StaleFiles Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/sharepoint/content/stalefilesanalysis.webp)
 
 The default analysis task is:
 

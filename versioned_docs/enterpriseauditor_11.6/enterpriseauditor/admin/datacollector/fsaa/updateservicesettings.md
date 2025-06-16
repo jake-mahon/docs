@@ -5,7 +5,7 @@ updated on hosts where the service has already been installed. It requires the F
 Service to be v8.0 or later prior to using this feature. It is a wizard page for the category of
 Update Proxy Service.
 
-![FSAA Data Collector Wizard FSAA Update Service Setting page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/updateservice.png)
+![FSAA Data Collector Wizard FSAA Update Service Setting page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/updateservice.webp)
 
 Configure the settings for the targeted File System Proxy Service:
 

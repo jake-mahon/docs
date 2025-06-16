@@ -2,7 +2,7 @@
 
 The Result Columns page lists the tables selected on the Input Select page.
 
-![View and Table Creation Analysis Module wizard Result Columns page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/analysis/sqlviewcreation/columns.png)
+![View and Table Creation Analysis Module wizard Result Columns page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/analysis/sqlviewcreation/columns.webp)
 
 Expand the table to show its columns. Then, select the checkbox next to the column to include it in
 the resulting table or view. If two data tables are being joined, the resulting table displays at

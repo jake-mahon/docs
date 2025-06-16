@@ -9,38 +9,38 @@ This section discusses the GroupID application registration and permission assig
 2. In the Microsoft Entra Admin Center, go to Microsoft Entra ID > App registration and click **New
    registration**.
 
-    ![App registeration page](/img/versioned_docs/groupid_11.0/groupid/configureentraid/register/app_registeration.png)
+    ![App registeration page](/img/versioned_docs/groupid_11.0/groupid/configureentraid/register/app_registeration.webp)
 
 3. On the **Register an application** page, specify a name for the app. Select **Supported account
    types** as _Accounts in any organizational directory (Any Microsoft Entra ID – Multitenant_).
    Leave the Redirect URI as is and click **Register**.
 
-    ![Register an application](/img/versioned_docs/groupid_11.0/groupid/configureentraid/register/register_an_application.png)
+    ![Register an application](/img/versioned_docs/groupid_11.0/groupid/configureentraid/register/register_an_application.webp)
 
 4. The **Overview** page is displayed. Copy the Application (client) ID and keep it safe.
 
-    ![Overview page](/img/versioned_docs/groupid_11.0/groupid/configureentraid/register/app_registeration_overview.png)
+    ![Overview page](/img/versioned_docs/groupid_11.0/groupid/configureentraid/register/app_registeration_overview.webp)
 
 5. Go to the **Authentication** node and set it as follows:
 
-    ![Authenticate node](/img/versioned_docs/groupid_11.0/groupid/configureentraid/register/authenticate_node.png)
+    ![Authenticate node](/img/versioned_docs/groupid_11.0/groupid/configureentraid/register/authenticate_node.webp)
 
 6. Click **Save**.
 7. Click **Roles and administrators** node.
 
-    ![Roles and Administration page](/img/versioned_docs/groupid_11.0/groupid/configureentraid/register/roles_and_administration.png)
+    ![Roles and Administration page](/img/versioned_docs/groupid_11.0/groupid/configureentraid/register/roles_and_administration.webp)
 
 8. On the **All roles** page, add your registered application to a directory role.
 
     - **Global administrator**: For Global administrator, type global to filter out the Global
       administrator role. Click **Global administrator**.
 
-        ![All roles page](/img/versioned_docs/groupid_11.0/groupid/configureentraid/register/all_roles.png)
+        ![All roles page](/img/versioned_docs/groupid_11.0/groupid/configureentraid/register/all_roles.webp)
 
         Click **Add assignments**. On the Add assignment page, search your application and select
         it. Click the **Add** button. The application will be listed on the Assignments page.
 
-        ![Add assignment page](/img/versioned_docs/groupid_11.0/groupid/configureentraid/register/add_assignment.png)
+        ![Add assignment page](/img/versioned_docs/groupid_11.0/groupid/configureentraid/register/add_assignment.webp)
 
     - For any role other than Global administrator, add the registered application to the following
       two directory roles:
@@ -61,15 +61,15 @@ This section discusses the GroupID application registration and permission assig
 9. Click **Add**.
 10. Go to the **API permissions** node and select **Add a permission**.
 
-    ![API Permission page](/img/versioned_docs/groupid_11.0/groupid/configureentraid/register/add_a_permission.png)
+    ![API Permission page](/img/versioned_docs/groupid_11.0/groupid/configureentraid/register/add_a_permission.webp)
 
 11. The Request API permissions page opens. Click the **Microsoft Graph** API tab.
 
-    ![Request API permissions page](/img/versioned_docs/groupid_11.0/groupid/configureentraid/register/request_api_permissions.png)
+    ![Request API permissions page](/img/versioned_docs/groupid_11.0/groupid/configureentraid/register/request_api_permissions.webp)
 
 12. Click the **Application permissions** tab:
 
-    ![Application permissions tab](/img/versioned_docs/groupid_11.0/groupid/configureentraid/register/application_permission.png)
+    ![Application permissions tab](/img/versioned_docs/groupid_11.0/groupid/configureentraid/register/application_permission.webp)
 
     Permissions get listed on the page. See the
     [Microsoft Entra ID Permissions](/versioned_docs/groupid_11.0/groupid/configureentraid/register/apppermissions.md)
@@ -81,17 +81,17 @@ This section discusses the GroupID application registration and permission assig
 
     Follow the steps shown on the following snapshot:
 
-    ![Office 365 Exchange Online API](/img/versioned_docs/groupid_11.0/groupid/configureentraid/register/office365_permission.png)
+    ![Office 365 Exchange Online API](/img/versioned_docs/groupid_11.0/groupid/configureentraid/register/office365_permission.webp)
 
 14. [Optional] To access the SharePoint API for Entitlement management, click the **Add a
     permission** button (before the Grant admin consent for `<username>` button in the snapshot
     given in point # 14). Select the SharePoint API:
 
-    ![SharePoint API card](/img/versioned_docs/groupid_11.0/groupid/configureentraid/register/sharepoint_api_card.png)
+    ![SharePoint API card](/img/versioned_docs/groupid_11.0/groupid/configureentraid/register/sharepoint_api_card.webp)
 
 15. Select the Delegated permissions tab:
 
-    ![SharePoint Delegated permissions](/img/versioned_docs/groupid_11.0/groupid/configureentraid/register/sharepoint_delegated_permissions.png)
+    ![SharePoint Delegated permissions](/img/versioned_docs/groupid_11.0/groupid/configureentraid/register/sharepoint_delegated_permissions.webp)
 
     See
     [SharePoint Delegated Permissions](/versioned_docs/groupid_11.0/groupid/configureentraid/register/apppermissions.md#sharepoint-delegated-permissions)

@@ -2,7 +2,7 @@
 
 Use the gear icon in the upper right corner of the console to open the Configuration menu.
 
-![Configuration menu](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/navigation/menu.png)
+![Configuration menu](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/navigation/menu.webp)
 
 It contains the following options:
 

@@ -8,7 +8,7 @@ protected policies the current user has rights to view are selected, and the oth
 are blank. Filters can be applied using any combination of the filter categories. Use the Refresh
 button to repopulate the data grid with the current information for the selected filter(s).
 
-![Investigate Interface - Filter Categories](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/investigate/filtercategories.png)
+![Investigate Interface - Filter Categories](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/investigate/filtercategories.webp)
 
 Filter categories are discussed below.
 

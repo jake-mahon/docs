@@ -8,7 +8,7 @@ Analyzer Activity Auditing (SPAC) scans.
 ## Access & Sensitive Data Auditing Permissions
 
 - Permissions vary based on the Scan Mode selected and target environment. See the
-  [SharePoint Support](../../enterpriseauditor/requirements/target/sharepoint.md) topic for
+  [SharePoint Support](../../requirements/target/sharepoint.md) topic for
   additional information.
 
 See the [SharePoint Access & Sensitive Data Auditing Configuration](access.md) topic for
@@ -17,7 +17,7 @@ instructions.
 ## Access & Sensitive Data Auditing Port Requirements
 
 - Ports vary based on the Scan Mode selected and target environment. See the
-  [SharePoint Scan Options](../../enterpriseauditor/requirements/solutions/sharepoint/scanoptions.md)
+  [SharePoint Scan Options](../../requirements/solutions/sharepoint/scanoptions.md)
   topic for additional information.
 
 ## Activity Auditing Permissions

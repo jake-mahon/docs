@@ -36,13 +36,13 @@ Authentication Connector that is set as the default.
 DUO, Symantec VIP, etc) for all Reviewer accounts unless otherwise configured by an Administrator.
 If required, first time Reviewers must register with an MFA to use with their login credentials.
 
-![Default Login](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/defaultloginuser.png)
+![Default Login](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/defaultloginuser.webp)
 
 **Step 2 –** Either click the default authentication connector button, or click **Log In with a
 Different Account** to display all of the authentication connectors that are registered with
 Privilege Secure.
 
-![Alternate Login](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/alternatelogin.png)
+![Alternate Login](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/alternatelogin.webp)
 
 **Step 3 –** Login to Privilege Secure with a configured authentication connector, or enter the user
 credentials.
@@ -50,7 +50,7 @@ credentials.
 - When using an authentication connector, there's no 'username' or 'password' field for the user to
   enter. Instead there's just a single button to login.
 
-![Okta authentication connector](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/oktadefault.png)
+![Okta authentication connector](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/oktadefault.webp)
 
 - Clicking the authentication connector will redirect the user to the IdP login screen, which will
   log the user in (with whatever MFA is set up in the IdP) and then revert the user back to the
@@ -62,10 +62,10 @@ credentials.
 
 **Step 6 –** Enter the code provided by the registered multi-factor authenticator (MFA).
 
-![Multi Factor Authentication Login](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/mfalogin.png)
+![Multi Factor Authentication Login](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/mfalogin.webp)
 
 **Step 7 –** Click MFA Login. Privilege Secure opens on the Dashboard Interface.
 
-![Dashboard Interface](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/activedashboarduser.png)
+![Dashboard Interface](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/activedashboarduser.webp)
 
 Privilege Secure is ready to use.

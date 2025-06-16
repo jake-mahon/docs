@@ -3,7 +3,7 @@
 When the Enterprise Auditor Console and applicable solutions are upgraded, it is necessary to also
 upgrade the Sensitive Data Discovery Add-On.
 
-![Windows Control Panel Uninstall or change a program window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/sensitivedatadiscovery/uninstall.png)
+![Windows Control Panel Uninstall or change a program window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/sensitivedatadiscovery/uninstall.webp)
 
 **Step 1 –** From Programs and Features (**Control Panel** > **Programs** > **Programs and
 Features**). Uninstall the previous version of Enterprise Auditor Sensitive Data Discovery Add-on.

@@ -6,7 +6,7 @@ This connector exports datasheets from a
 This page is about
 [File/Microsoft Excel](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/excel/index.md).
 
-![Package: File/Microsoft Excel](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/excel/packages_excel_v603.png)
+![Package: File/Microsoft Excel](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/excel/packages_excel_v603.webp)
 
 ## Overview
 

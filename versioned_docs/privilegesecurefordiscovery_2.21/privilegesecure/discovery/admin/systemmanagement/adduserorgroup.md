@@ -13,16 +13,16 @@ require the accounts to be persisted, e.g service accounts.
 
 **Step 2 –** Click the **+Add** **Account** button in the upper right corner of the window.
 
-![mceclip0.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/systemmanagement/10899393268503_mceclip0.png)
+![mceclip0.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/systemmanagement/10899393268503_mceclip0.webp)
 
 **Step 3 –** Use a string to search for the AD user/group and click on the desired AD user/group.
 
-![mceclip1.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/systemmanagement/10899393268503_mceclip1.png)
+![mceclip1.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/systemmanagement/10899393268503_mceclip1.webp)
 
 **Step 4 –** **Windows**: Select **Just-In-Time** or **Persistent** and either the **Save** or
 **Save and add another** button.
 
-![mceclip2.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/systemmanagement/10899393268503_mceclip2.png)
+![mceclip2.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/systemmanagement/10899393268503_mceclip2.webp)
 
 **Step 5 –** **Linux**: Select **All Sudo permission allowed** or **Specify Sudo permissions**.
 
@@ -31,7 +31,7 @@ require the accounts to be persisted, e.g service accounts.
 - If specifying specific sudo permission, use sudo file syntax, example provided before editing
   field.
 
-![mceclip3.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/systemmanagement/10899393268503_mceclip3.png)
+![mceclip3.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/systemmanagement/10899393268503_mceclip3.webp)
 
 **Step 6 –** Click either the **Save** or **Save and add another** button.
 

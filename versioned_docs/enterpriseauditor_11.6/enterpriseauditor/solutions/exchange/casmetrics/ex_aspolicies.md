@@ -6,7 +6,7 @@ The EX_ASPolicies Job provides insight into what policies are enabled for which 
 
 The EX_ASPolicies Job uses the ExchangePS Data Collector.
 
-![Queries for the EX_ASPolicies Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/casmetrics/aspoliciesquery.png)
+![Queries for the EX_ASPolicies Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/casmetrics/aspoliciesquery.webp)
 
 The following query is included in the EX_ASPolicies Job.
 
@@ -32,7 +32,7 @@ Wizard opens.
 
 **CAUTION:** Do not modify other wizard pages. The wizard pages are pre-configured for this job.
 
-![ExchangePS Data Collector Wizard Scope page](/img/versioned_docs/activitymonitor_7.1/config/activedirectory/scope.png)
+![ExchangePS Data Collector Wizard Scope page](/img/versioned_docs/activitymonitor_7.1/config/activedirectory/scope.webp)
 
 **Step 4 –** Navigate to the Scope page, and select the desired scoping method from those available.
 See the
@@ -67,7 +67,7 @@ View the analysis tasks by navigating to the **Exchange** > **2. CAS Metrics** >
 **CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
 preconfigured for this job.
 
-![Analysis Tasks for the EX_ASPolicies Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/casmetrics/aspoliciesanalysis.png)
+![Analysis Tasks for the EX_ASPolicies Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/casmetrics/aspoliciesanalysis.webp)
 
 The following analysis task is selected by default:
 

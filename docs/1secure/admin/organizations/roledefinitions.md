@@ -1,3 +1,12 @@
+---
+id: permissions-by-role
+title: "Permissions by Role"
+pagination_label: "Permissions by Role"
+sidebar_label: "Permissions by Role"
+sidebar_position: 38
+description: "Reference guide for user permissions and role-based access control across different 1Secure screens and actions."
+---
+
 # Permissions by Role
 
 The following tables describe permissions by role for each type of screen or action.

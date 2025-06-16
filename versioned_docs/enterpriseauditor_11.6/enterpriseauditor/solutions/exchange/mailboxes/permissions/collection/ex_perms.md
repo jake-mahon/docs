@@ -7,7 +7,7 @@ mailboxes.
 
 The EX_Perms job uses the EWSMailbox Data Collector.
 
-![Queries for the EX_Perms Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/mailboxes/permissions/collection/permsquery.png)
+![Queries for the EX_Perms Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/mailboxes/permissions/collection/permsquery.webp)
 
 The following query is included in the EX_Perms job.
 

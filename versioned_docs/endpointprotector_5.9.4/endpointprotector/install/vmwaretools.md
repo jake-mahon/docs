@@ -19,39 +19,39 @@ Follow the steps to set up your virtual machine.
 
 **Step 2 –** Start vSphere.
 
-![Using the VMware vShpere](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/install/startvsphere.png)
+![Using the VMware vShpere](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/install/startvsphere.webp)
 
 **Step 3 –** Go to File and select **Deploy OVF Template**.
 
-![Selecting Deploy OVF Template.](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/install/ovftemplate.png)
+![Selecting Deploy OVF Template.](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/install/ovftemplate.webp)
 
 **Step 4 –** Click **Browse**.
 
-![Browsing the location of the tenplate](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/install/sourcelocation.png)
+![Browsing the location of the tenplate](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/install/sourcelocation.webp)
 
 **Step 5 –** Select the OVF ﬁle from the extracted zip ﬁle.
 
-![Selecting the OVF ﬁle from the extracted zip ﬁle](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/install/selectovffile.png)
+![Selecting the OVF ﬁle from the extracted zip ﬁle](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/install/selectovffile.webp)
 
 **Step 6 –** Click **Next**.
 
-![Selecting the Source Location](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/install/ofvsourceselect.png)
+![Selecting the Source Location](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/install/ofvsourceselect.webp)
 
 **Step 7 –** Check the OVF Template Details and then click **Next**.
 
-![Checking the OVF Template Details ](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/install/ovftemplatedetails.png)
+![Checking the OVF Template Details ](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/install/ovftemplatedetails.webp)
 
 **Step 8 –** Specify the name of the OVF template and click **Next**.
 
-![Specifying the name of the OVF template ](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/install/templatenaming.png)
+![Specifying the name of the OVF template ](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/install/templatenaming.webp)
 
 **Step 9 –** Select the Thin provision Disk Format option and click **Next**.
 
-![Selecting the Thin provision Disk Format](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/install/diskformat.png)
+![Selecting the Thin provision Disk Format](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/install/diskformat.webp)
 
 **Step 10 –** Click **Finish** to complete the installation.
 
-![Completing the installation](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/instantjobs/installationcomplete.png)
+![Completing the installation](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/instantjobs/installationcomplete.webp)
 
 ### VMware Workstation
 
@@ -65,15 +65,15 @@ to the path where your virtual machines are stored.
 
 **Step 2 –** Open VMWare Workstation.
 
-![Opening VMWare Workstation](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/install/vmwareworkstation.png)
+![Opening VMWare Workstation](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/install/vmwareworkstation.webp)
 
 **Step 3 –** Select **Open Existing VM** or **Team**.
 
-![ Opening Existing VM or Team](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/install/vmorteam.png)
+![ Opening Existing VM or Team](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/install/vmorteam.webp)
 
 **Step 4 –** After the Virtual Appliance is in your inventory power on the Virtual Appliance.
 
-![ Powering on the Virtual Appliance](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/install/poweron.png)
+![ Powering on the Virtual Appliance](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/install/poweron.webp)
 
 **Step 5 –** If asked if the Virtual Machine was copied or moved, select **I moved it** (if it is
 the only Endpoint Protector Virtual Appliance in your network).
@@ -96,16 +96,16 @@ to the path where your virtual machines are stored.
 
 **Step 2 –** Open your VMware Server web interface and log in.
 
-![Opening VMware Server web interface](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/install/vmwareserver.png)
+![Opening VMware Server web interface](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/install/vmwareserver.webp)
 
 **Step 3 –** Select **Add Virtual Machine to inventory**.
 
-![Adding Virtual Machine to inventory](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/install/vmwaretoinventory.png)
+![Adding Virtual Machine to inventory](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/install/vmwaretoinventory.webp)
 
 **Step 4 –** Browse in the inventory for Endpoint Protector Virtual Appliance and select the **VMX
 ﬁle** and click **OK**.
 
-![Adding Existing Virtual Machine](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/install/addexistingvm.png)
+![Adding Existing Virtual Machine](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/install/addexistingvm.webp)
 
 At this point, the Virtual Machine is ready to be started.
 
@@ -119,16 +119,16 @@ to the path where your virtual machines are stored.
 
 **Step 2 –** Open VMware Player.
 
-![Opening VMware Player](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/install/vmwareplayer.png)
+![Opening VMware Player](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/install/vmwareplayer.webp)
 
 **Step 3 –** Select **Open a Virtual Machine** and select the VMX ﬁle from the location where you
 extracted it and then click **Open**.
 
-![Selecting the VMX ﬁle from the location where it was extracted](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/install/vmwareopenvm.png)
+![Selecting the VMX ﬁle from the location where it was extracted](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/install/vmwareopenvm.webp)
 
 **Step 4 –** After the Virtual Machine is in your inventory click **Play Virtual Machine**.
 
-![Initiating VM Play on VMware Player](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/install/vmwareplaymachine.png)
+![Initiating VM Play on VMware Player](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/install/vmwareplaymachine.webp)
 
 **Step 5 –** If asked if the Virtual Machine was copied or moved, select **I moved it** (if it is
 the only Endpoint Protector Virtual Appliance in your network).

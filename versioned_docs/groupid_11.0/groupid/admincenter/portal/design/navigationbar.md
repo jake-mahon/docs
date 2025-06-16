@@ -16,7 +16,7 @@ nodes are:
 On expanding a node, its sub-nodes are displayed. On clicking a sub-node, users are redirected to a
 page that contains tabs under that sub-node. It is as:
 
-![navigation_bar](/img/versioned_docs/groupid_11.0/groupid/admincenter/portal/design/navigation_bar.png)
+![navigation_bar](/img/versioned_docs/groupid_11.0/groupid/admincenter/portal/design/navigation_bar.webp)
 
 GroupID enables you to customize the nodes, sub-nodes, and their respective tabs.
 
@@ -93,7 +93,7 @@ Note the following:
       replace the existing image with a new one.
 
         NOTE: Image dimensions: 30 x 30 pixels  
-         Supported formats: .png, .jpg, .jpe, .jpeg
+         Supported formats: .webp, .jpg, .jpe, .jpeg
 
 11. Click **OK**.
 12. Click **Save** on the **Navigation Bar** page.

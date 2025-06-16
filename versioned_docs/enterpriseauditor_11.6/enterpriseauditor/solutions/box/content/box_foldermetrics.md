@@ -14,7 +14,7 @@ Navigate to **Box** > **2.Content** > **Box_FolderMetrics** > **Configure** node
 
 **CAUTION:** Most of these analysis tasks should never be modified and never be deselected.
 
-![Analysis Tasks for the Box_FolderMetrics Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/box/content/foldermetricsanalysis.png)
+![Analysis Tasks for the Box_FolderMetrics Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/box/content/foldermetricsanalysis.webp)
 
 The following analysis tasks are selected by default:
 

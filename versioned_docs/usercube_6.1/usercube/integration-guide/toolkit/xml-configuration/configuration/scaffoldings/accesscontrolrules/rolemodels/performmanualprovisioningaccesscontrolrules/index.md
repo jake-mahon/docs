@@ -5,7 +5,7 @@ profile.
 
 Gives access to a shortcut on the dashboard to access this page.
 
-![Manual Provisioning](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/provisioning/manual-provisioning/home_manualprovisioning_v523.png)
+![Manual Provisioning](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/provisioning/manual-provisioning/home_manualprovisioning_v523.webp)
 
 The connector connected to the entity type must have the manual type as the provisioning type,
 otherwise the information of the entity type cannot be displayed on this screen.

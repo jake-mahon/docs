@@ -18,9 +18,9 @@ the migration mode is enabled!
 
 **CAUTION:** Only certificate backups made through the Server Manager are valid!
 
-![Certificates](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/server_manager/ecc_migration/certificates-ac-1-en.png)
+![Certificates](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/server_manager/ecc_migration/certificates-ac-1-en.webp)
 
-![Export certificates](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/server_manager/ecc_migration/certificates-ac-2-en.png)
+![Export certificates](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/server_manager/ecc_migration/certificates-ac-2-en.webp)
 
 - Delete or restore all non “permanent deleted” users  
   If you have deactivated or non “permanent deleted“ users it would make sense to delete them
@@ -41,18 +41,18 @@ from the database, but it is not possible to add new or edit existing records.
 
 Clicking on the icon **“Start migration”** in the databases' module to start the migration process
 
-![start migration](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/server_manager/ecc_migration/start-migration-en.png)
+![start migration](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/server_manager/ecc_migration/start-migration-en.webp)
 
 Select the database you want to migrate and enter the code-word.
 
 Remember, The code word is “Start”. Please make sure that you have read the whole documentation.
 Otherwise, data loss might occur!
 
-![select database](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/server_manager/ecc_migration/start-migration-2-en.png)
+![select database](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/server_manager/ecc_migration/start-migration-2-en.webp)
 
 You should see the message, that the selected databases are now in migration mode:
 
-![start migration](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/server_manager/ecc_migration/start-migration-3-en.png)
+![start migration](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/server_manager/ecc_migration/start-migration-3-en.webp)
 
 As written in the message, export all required certificates via the Netwrix Password Secure Server
 Manager. If you have multiple servers in use import the certificates via the Server Manager at the
@@ -65,9 +65,9 @@ end of the migration process.
 In the migration process you find all information about the current process, what is already
 migrated and what still needs to be migrated
 
-![migration progress](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/server_manager/ecc_migration/migration-progress-en.png)
+![migration progress](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/server_manager/ecc_migration/migration-progress-en.webp)
 
 After each user has logged into the database and has been successfully migrated, the migration is
 complete.
 
-![migration finished](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/server_manager/ecc_migration/migration-finished-en.png)
+![migration finished](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/server_manager/ecc_migration/migration-finished-en.webp)

@@ -10,7 +10,7 @@ reports.
 
 _Remember,_ this job group requires the Active Directory Activity license.
 
-![6.Activity Job Group in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/jobstree.png)
+![6.Activity Job Group in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/jobstree.webp)
 
 The 6.Activity Job Group is comprised of the following jobs:
 

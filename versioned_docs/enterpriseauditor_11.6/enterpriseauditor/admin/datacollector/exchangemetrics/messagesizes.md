@@ -5,7 +5,7 @@ by server. It is a wizard page for the category of:
 
 - Message Size Statistics Custom.
 
-![Exchange Metrics Data Collector Wizard Message Sizes page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchangemetrics/messagesizes.png)
+![Exchange Metrics Data Collector Wizard Message Sizes page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchangemetrics/messagesizes.webp)
 
 Configure the desired message size frames using the following options:
 

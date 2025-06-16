@@ -13,7 +13,7 @@ is carried out separately for each database in the database view in the Server M
 “General settings” (right click on the database). This is also possible to do when the database is
 initially created.
 
-![Properties](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/offlineclient/setup/installation_with_parameters_265-en.png)
+![Properties](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/offlineclient/setup/installation_with_parameters_265-en.webp)
 
 You will find further information on this subject in the
 sections:[ Creating databases](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/server_manager/creatingdatabase/creating_databases.md)
@@ -25,7 +25,7 @@ User rights
 The user requires the “offline mode” right. In addition, how long offline mode can be used without a
 server connection can be defined in the user rights.
 
-![User rights](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/offlineclient/setup/installation_with_parameters_266-en.png)
+![User rights](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/offlineclient/setup/installation_with_parameters_266-en.webp)
 
 Creating an offline database
 
@@ -33,7 +33,7 @@ The synchronization with the offline database can generally be carried out autom
 **the first synchronization must be carried out manually**. The synchronization is started via the
 Main menu/Account.
 
-![account-en](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/offlineclient/setup/account-en.png)
+![account-en](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/offlineclient/setup/account-en.webp)
 
 NOTE: The offline databases are stored locally under the following path: %appdata%\MATESO\Password
 Safe and Repository Client\OfflineDB
@@ -55,17 +55,17 @@ Backstage via “Account”.
 A running synchronization is displayed in the icon in the task bar as well as by a status bar in the
 client:
 
-![progress icon](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/offlineclient/setup/progress-icon-en_64x53.png)
+![progress icon](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/offlineclient/setup/progress-icon-en_64x53.webp)
 
-![installation_with_parameters_269](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/offlineclient/setup/installation_with_parameters_269.png)
+![installation_with_parameters_269](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/offlineclient/setup/installation_with_parameters_269.webp)
 
 As soon as the synchronization is completed, this is indicated by a hint.
 
-![notification "offline sync completed"](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/offlineclient/setup/offline-sync-completed-en_383x75.png)
+![notification "offline sync completed"](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/offlineclient/setup/offline-sync-completed-en_383x75.webp)
 
 #### Relevant settings
 
-![installation_with_parameters_271](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/offlineclient/setup/installation_with_parameters_271.png)
+![installation_with_parameters_271](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/offlineclient/setup/installation_with_parameters_271.webp)
 
 Offline mode can be configured and personalized using the four settings mentioned:
 

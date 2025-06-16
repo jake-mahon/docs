@@ -60,7 +60,7 @@ Click **Configuration > EPE Settings** on the menu to open the EPE Settings wind
 
 **NOTE:** The EPE Settings window is only available to Threat Prevention administrators.
 
-![EPE Settings window](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/epesettings.png)
+![EPE Settings window](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/epesettings.webp)
 
 The window displays current hash database information and has the following configuration settings,
 displayed in sections on the window.
@@ -189,7 +189,7 @@ The User Feedback Module section has the following checkboxes:
   Messages Editor window, where you can customize EPE User Feedback module password rejection
   messages.
 
-![Custom Messages Editor window](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/custommessageseditor.png)
+![Custom Messages Editor window](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/custommessageseditor.webp)
 
 By default, messages are available in the English language.
 
@@ -210,7 +210,7 @@ The following windows are global settings for the EPE Password Rules filter with
 window. Whatever is configured in these windows is applied across all EPE Password Rules filter(s)
 in the Administration Console.
 
-![EPE Settings window - Rules area](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/rules.png)
+![EPE Settings window - Rules area](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/rules.webp)
 
 You can monitor or block an event with these global settings:
 
@@ -233,7 +233,7 @@ password in the Password Dictionary list.
 Click the **Modify Passwords Dictionary** button in the Rules area on the EPE Settings window. The
 Password Dictionary window is displayed.
 
-![Password Dictionary window](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/passworddictionary.png)
+![Password Dictionary window](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/passworddictionary.webp)
 
 The buttons on the right have the following functions:
 
@@ -260,7 +260,7 @@ password matches a substitution rule, it is blocked.
 Click the **Modify List of Words for Character Substitution** button in the Rules area on the EPE
 Settings window. The Words List Dictionary window is displayed.
 
-![Words List Dictionary window](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/wordslistdictionary.png)
+![Words List Dictionary window](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/wordslistdictionary.webp)
 
 You can add, remove, and modify passwords here. The buttons on the right have the following
 functions:
@@ -290,7 +290,7 @@ substitutions editor, then the pending passwords of “Go@l” and “G0al” wi
 Click the Modify Character Substitution Mapping button in the Rules area on the EPE Settings window.
 The Substitution Editor window is displayed.
 
-![Substitution Editor window](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/substitutioneditor.png)
+![Substitution Editor window](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/substitutioneditor.webp)
 
 The Substitutions Editor has the following options:
 
@@ -350,7 +350,7 @@ Follow the steps to install the Pwnd Passwords Downloader.
 dotnet tool install --global haveibeenpwned-downloader
 ```
 
-![hibp_installation_0](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/passwordsecurity/hibp_installation_0.png)
+![hibp_installation_0](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/passwordsecurity/hibp_installation_0.webp)
 
 **Step 3 –** Close the command prompt.
 
@@ -366,7 +366,7 @@ Follow the steps to update an installed Pwnd Passwords Downloader.
 dotnet tool update --global haveibeenpwned-downloader
 ```
 
-![hibp_installation_1](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/passwordsecurity/hibp_installation_1.png)
+![hibp_installation_1](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/passwordsecurity/hibp_installation_1.webp)
 
 Download NTML Hashes with the Pwnd Passwords Downloader
 
@@ -383,7 +383,7 @@ Run:
 haveibeenpwned-downloader.exe -n pwnedpasswords_ntlm
 ```
 
-![hibp_installation_3](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/passwordsecurity/hibp_installation_3.png)
+![hibp_installation_3](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/passwordsecurity/hibp_installation_3.webp)
 
 This screenshot shows the completed download.
 

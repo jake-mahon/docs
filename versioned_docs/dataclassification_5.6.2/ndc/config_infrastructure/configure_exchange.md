@@ -31,7 +31,7 @@ Review the related procedure that corresponds to your Exchange deployment:
 5. On the **Add Permission** step, select ApplicationImpersonation and Mailbox Search permissions.
    Select **Next**.
 
-    ![exchange_assign_roles](/img/versioned_docs/dataclassification_5.6.2/ndc/config_infrastructure/exchange_assign_roles.png)
+    ![exchange_assign_roles](/img/versioned_docs/dataclassification_5.6.2/ndc/config_infrastructure/exchange_assign_roles.webp)
 
 6. Select the users to assign to this role group. They will have permissions to manage the roles
    that you assigned in the previous step.

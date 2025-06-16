@@ -45,12 +45,12 @@ Administration Console.
 **Step 1 –** Navigate to the **Access** tab, and select **Membership & Roles** for the System Access
 Zone.
 
-![Groups tab](/img/versioned_docs/enterpriseauditor_11.6/config/dellpowerscale/groupstab.png)
+![Groups tab](/img/versioned_docs/enterpriseauditor_11.6/config/dellpowerscale/groupstab.webp)
 
 **Step 2 –** On the **Groups** tab, set the Providers to **LOCAL: System**. Then select **View /
 Edit** for the Administrators group. The View Group Details window opens.
 
-![Edit Group window](/img/versioned_docs/enterpriseauditor_11.6/config/dellpowerscale/editgroup.png)
+![Edit Group window](/img/versioned_docs/enterpriseauditor_11.6/config/dellpowerscale/editgroup.webp)
 
 **Step 3 –** Click **Edit Group** and the Edit Group window opens. Click **Add Members**, and enter
 the User Name and Provider in the Select a User window. Click **Select**, and then click **Save
@@ -67,12 +67,12 @@ Administration Console.
 
 **Step 1 –** Navigate to the **Access** tab > **Membership & Roles** for the System Access Zone.
 
-![One FS Dashboard](/img/versioned_docs/enterpriseauditor_11.6/config/dellpowerscale/rolestab.png)
+![One FS Dashboard](/img/versioned_docs/enterpriseauditor_11.6/config/dellpowerscale/rolestab.webp)
 
 **Step 2 –** On the Roles tab, select **View / Edit** for the BackupAdmin role. The View Role
 Details window opens.
 
-![One FS Role Details Window](/img/versioned_docs/enterpriseauditor_11.6/config/dellpowerscale/viewroledetails.png)
+![One FS Role Details Window](/img/versioned_docs/enterpriseauditor_11.6/config/dellpowerscale/viewroledetails.webp)
 
 **Step 3 –** Click **Edit** role and the Edit role details window opens.
 

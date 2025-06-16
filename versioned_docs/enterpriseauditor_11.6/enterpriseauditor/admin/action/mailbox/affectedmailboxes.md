@@ -8,7 +8,7 @@ page for the following operations:
 - Add Delegates, Remove Delegates
 - Remove Stale SIDs
 
-![New Mailbox Action Wizard Affected Mailboxes page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/mailbox/affectedmailboxes.png)
+![New Mailbox Action Wizard Affected Mailboxes page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/mailbox/affectedmailboxes.webp)
 
 Select mailboxes to process using the following options:
 

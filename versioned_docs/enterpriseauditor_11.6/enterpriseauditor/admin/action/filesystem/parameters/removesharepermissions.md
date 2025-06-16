@@ -3,7 +3,7 @@
 Use the Remove Share Permissions Parameters page to specify whose share permissions the action
 removes.
 
-![File System Action Module Wizard Remove Share Permissions Parameters page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/filesystem/parameters/removesharepermissions.png)
+![File System Action Module Wizard Remove Share Permissions Parameters page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/filesystem/parameters/removesharepermissions.webp)
 
 Use the options to enter the Permissions:
 

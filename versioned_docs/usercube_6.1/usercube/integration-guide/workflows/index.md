@@ -154,9 +154,9 @@ make workflows accessible from the UI.
 Usercube's UI is configured so that workflows are accesible from:
 
 - the list of users accessible from the **Directory** section on the home page;
-  ![Workflow Menu Items - Users List](/img/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/how-to/workflow-create-multi/menuitems_userslist_v603.png)
+  ![Workflow Menu Items - Users List](/img/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/how-to/workflow-create-multi/menuitems_userslist_v603.webp)
 - the view page of a given user. In this case, the workflows manipulate the selected user.
-  ![Workflow Menu Items - User's Page](/img/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/how-to/workflow-update-mono/menuitems_userview_v603.png)
+  ![Workflow Menu Items - User's Page](/img/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/how-to/workflow-update-mono/menuitems_userview_v603.webp)
 
 ## Aspects
 

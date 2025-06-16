@@ -18,14 +18,14 @@ additional information.
 **NOTE:** These permissions are in addition to those needed to either deploy applet scans for
 running scans in proxy mode with applet or installing the File System Proxy Service Permissions for
 running scans in proxy mode as a service. See the
-[File System Scan Options](../../enterpriseauditor/requirements/solutions/filesystem/scanoptions.md)
+[File System Scan Options](../../requirements/solutions/filesystem/scanoptions.md)
 topic for additional information.
 
 ## Access & Sensitive Data Auditing Port Requirements
 
 The firewall ports required by Access Analyzer for Access Auditing (FSAA) and/or Sensitive Data
 Discovery Auditing scans are based on the File System scan mode to be used. See the
-[File System Scan Options](../../enterpriseauditor/requirements/solutions/filesystem/scanoptions.md)
+[File System Scan Options](../../requirements/solutions/filesystem/scanoptions.md)
 topic for additional information.
 
 ## Activity Auditing Permissions

@@ -88,7 +88,7 @@ sent immediately to the specified recipients.
 
 Review the example of the MessageOpened event in the XML view:
 
-![eventmessageopen](/img/versioned_docs/auditor_10.6/auditor/admin/alertsettings/eventmessageopen.png)
+![eventmessageopen](/img/versioned_docs/auditor_10.6/auditor/admin/alertsettings/eventmessageopen.webp)
 
 Depending on the event, the strings in the description may vary. The first eight strings are common
 for all events:
@@ -146,4 +146,4 @@ In the example below, the following information has been added:
 - String 8 with the description
 - String 9 with the description
 
-![editnotificationtemplate](/img/versioned_docs/auditor_10.6/auditor/admin/alertsettings/editnotificationtemplate.png)
+![editnotificationtemplate](/img/versioned_docs/auditor_10.6/auditor/admin/alertsettings/editnotificationtemplate.webp)

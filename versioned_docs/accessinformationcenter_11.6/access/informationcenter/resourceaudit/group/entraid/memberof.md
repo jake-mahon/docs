@@ -4,7 +4,7 @@ The Member Of report for a group object provides a list of all Entra Id (formerl
 Directory) groups of which the audited group is a member. This report includes a Membership Paths
 table.
 
-![Member Of report](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/group/entraid/memberofentraid.png)
+![Member Of report](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/group/entraid/memberofentraid.webp)
 
 This report is comprised of the following columns:
 
@@ -23,7 +23,7 @@ This report is comprised of the following columns:
 Since this report is a list of Entra ID groups, the Group Membership pane displays the group
 membership, including nested groups.
 
-![Membership Paths table](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/group/entraid/memberofentraidtable.png)
+![Membership Paths table](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/group/entraid/memberofentraidtable.webp)
 
 There is one table at the bottom displaying Membership Paths for the selected Entra ID group. It
 contains all of the ways the audited group has been granted membership to the selected group.

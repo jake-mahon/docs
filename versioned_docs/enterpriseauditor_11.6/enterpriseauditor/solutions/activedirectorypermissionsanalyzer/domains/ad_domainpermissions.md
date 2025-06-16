@@ -11,7 +11,7 @@ Navigate to the **Active Directory Permissions Analyzer** > **8.Domains** >
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for the AD_DomainPermissions Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/domains/domainpermissionsanalysis.png)
+![Analysis Tasks for the AD_DomainPermissions Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/domains/domainpermissionsanalysis.webp)
 
 The default analysis tasks are:
 

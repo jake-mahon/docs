@@ -5,7 +5,7 @@ range. The **Include Subfolders** option is active by default until removed. See
 [Results Pane](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/navigate/overview.md#results-pane)
 topic for information on changing this option.
 
-![Activity report for imported data](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/flexibleimports/activity.png)
+![Activity report for imported data](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/flexibleimports/activity.webp)
 
 This report is comprised of the following columns:
 

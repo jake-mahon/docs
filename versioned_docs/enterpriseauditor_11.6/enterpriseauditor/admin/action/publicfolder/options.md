@@ -4,7 +4,7 @@ Use the Options page to edit the thread settings.
 
 **CAUTION:** Increasing the thread count increases the processing load on the servers.
 
-![Public Folder Action Module Wizard Options page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/options.png)
+![Public Folder Action Module Wizard Options page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/options.webp)
 
 Use the following options to configure the operations:
 

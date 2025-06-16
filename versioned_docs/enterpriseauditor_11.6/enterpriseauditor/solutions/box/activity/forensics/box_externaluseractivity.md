@@ -13,7 +13,7 @@ node and select **Analysis**.
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis for the Box_ExternalUserActivity Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/box/activity/forensics/externaluseractivityanalysis.png)
+![Analysis for the Box_ExternalUserActivity Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/box/activity/forensics/externaluseractivityanalysis.webp)
 
 The following analysis tasks are selected by default:
 

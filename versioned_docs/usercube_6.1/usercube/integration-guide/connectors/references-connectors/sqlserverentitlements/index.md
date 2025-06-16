@@ -6,7 +6,7 @@ This connector exports entitlements from
 This page is about
 [Database/Microsoft SQL Server Entitlements](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/sql-server-entitlements/index.md).
 
-![Package: Database/Microsoft SQL Server Entitlements](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/sqlserverentitlements/packages_sqlservermanagement_v603.png)
+![Package: Database/Microsoft SQL Server Entitlements](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/sqlserverentitlements/packages_sqlservermanagement_v603.webp)
 
 ## Overview
 

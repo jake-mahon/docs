@@ -8,7 +8,7 @@ group types. See the
 [Members Report for a Built-in Group](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/group/membersbuiltin.md) topic
 for additional information.
 
-![Members report](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/group/members.png)
+![Members report](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/group/members.webp)
 
 This report is comprised of the following columns:
 

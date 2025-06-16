@@ -4,7 +4,7 @@ You can search SharePoint activity that has been monitored and recorded to a Fil
 select **SharePoint** from the magnifying glass drop-down menu, a New Search tab opens with the
 applicable query filters.
 
-![SharePoint New Search Tab](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/query/sharepointnewsearchtab.png)
+![SharePoint New Search Tab](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/query/sharepointnewsearchtab.webp)
 
 The filters are separated into the following categories:
 
@@ -47,7 +47,7 @@ The General category addresses who, what, where, and when an object, user, host,
 controller is affected by the events selected in the other categories. The time frame filter must be
 configured for every search query.
 
-![General Category - SharePoint](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/query/generalfilters.png)
+![General Category - SharePoint](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/query/generalfilters.webp)
 
 This section has the following filters:
 
@@ -92,7 +92,7 @@ This section has the following filters:
 
 The Audit category scopes the query by audit mask activity.
 
-![SharePoint Search - Audit filter section](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/query/auditmask.png)
+![SharePoint Search - Audit filter section](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/query/auditmask.webp)
 
 This section has the following filters:
 
@@ -104,7 +104,7 @@ This section has the following filters:
 
 The Move/Delete/Copy/Checkin category scopes the query by file move and version activity.
 
-![SharePoint Search Query - Move/Delete/Copy/Checkin Filters](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/query/movedeletecopycheckinfilters.png)
+![SharePoint Search Query - Move/Delete/Copy/Checkin Filters](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/query/movedeletecopycheckinfilters.webp)
 
 This section has the following filters:
 
@@ -116,7 +116,7 @@ This section has the following filters:
 
 The Delete category scopes the query by type of delete activity.
 
-![SharePoint Search Query - Delete FIlters](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/query/delete.png)
+![SharePoint Search Query - Delete FIlters](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/query/delete.webp)
 
 This section has the following filters:
 
@@ -126,7 +126,7 @@ This section has the following filters:
 
 The Search category scopes the query by search activity.
 
-![SharePoint Search Query - Search Filters](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/query/searchfilters.png)
+![SharePoint Search Query - Search Filters](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/query/searchfilters.webp)
 
 This section has the following filters:
 
@@ -137,7 +137,7 @@ This section has the following filters:
 
 The Permissions category scopes the query by permission change activity.
 
-![SharePoint Search Query - Permissions Filters](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/query/permissionsfilters.png)
+![SharePoint Search Query - Permissions Filters](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/query/permissionsfilters.webp)
 
 This section has the following filters:
 

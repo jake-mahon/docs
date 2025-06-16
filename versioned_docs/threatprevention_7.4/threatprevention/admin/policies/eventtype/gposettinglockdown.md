@@ -9,7 +9,7 @@ The event filters for the GPO Setting Lockdown event type are:
 - Domains/Servers
 - AD Perpetrator
 
-![New Policy window - GPO Setting Lockdown Event Type](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/ggposettinglockdown.png)
+![New Policy window - GPO Setting Lockdown Event Type](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/ggposettinglockdown.webp)
 
 Each filter tab acts like an "AND" statement for the filter. Any filter tab left blank is treated
 like an "ALL" for that filter set.
@@ -25,7 +25,7 @@ blocked.
 
 Use the AD Group Policy Object filter to set the scope of the policy to lockdown specific GPOs.
 
-![Policy window - AD Group Policy Object filter](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/adgrouppolicyobject.png)
+![Policy window - AD Group Policy Object filter](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/adgrouppolicyobject.webp)
 
 In the GPO File Operations section, select the **All** checkbox to include all operations or select
 specific operations:
@@ -48,7 +48,7 @@ In the Group Policy Objects section, scope to specific GPOs:
 Use the Domains/Servers filter to set the scope of the policy to specific domains and/or servers or
 to exclude specific domains and/or servers.
 
-![Event Type - Domains/Servers Monitoring filter](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/domainsserversmonitoring.png)
+![Event Type - Domains/Servers Monitoring filter](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/domainsserversmonitoring.webp)
 
 Use the buttons in the Include and Exclude areas to edit the lists.
 
@@ -70,7 +70,7 @@ Use the AD Perpetrator filter for lockdown to set the scope of the policy to loc
 security principals committing changes or to exclude specific security principals committing changes
 from being locked down.
 
-![AD Perpetrator Protect filter](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/adperpetratorprotect.png)
+![AD Perpetrator Protect filter](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/adperpetratorprotect.webp)
 
 Select the **Block** or **Allow** option button and then edit the list.
 

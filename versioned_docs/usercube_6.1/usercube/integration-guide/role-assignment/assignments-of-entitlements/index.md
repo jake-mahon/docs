@@ -68,7 +68,7 @@ have a provisioning state, unlike assigned resource types, scalars and navigatio
 
 The following schema sums up the usual progress of an assignment's provisioning state:
 
-![Provisioning State Schema](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/provisioning/prov_stateschema_v523.png)
+![Provisioning State Schema](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/provisioning/prov_stateschema_v523.webp)
 
 All provisioning states are detailed in the database schema of assigned resource types, etc.
 
@@ -104,7 +104,7 @@ found in the systems.
 A simple comparison between these two lists defines the non-conforming assignments, i.e. the list of
 all assignments that do not comply with the policy.
 
-![Non-Conforming Assignments](/img/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/assignments-of-entitlements/governance_nonconforming.png)
+![Non-Conforming Assignments](/img/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/assignments-of-entitlements/governance_nonconforming.webp)
 
 A non-conforming assignment must be reviewed in Usercube by a knowledgeable user, and is therefore:
 

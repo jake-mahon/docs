@@ -7,7 +7,7 @@ Gives access to a shortcut on the dashboard to access this page.
 Also create the rights to view the TargetEntityTypes of all ResourceTypes whose source is the
 EntityType to be filled in the Scaffolding.
 
-![Resource Reconciliation](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/orphan-unused-account-review/home_resourcereconciliation_v523.png)
+![Resource Reconciliation](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/orphan-unused-account-review/home_resourcereconciliation_v523.webp)
 
 ## Examples
 

@@ -39,7 +39,7 @@ The Configure Analytics window has two tabs:
 
 Settings Tab
 
-![Forged PAC Analytic Type - Settings tab](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/analytics/forgedpacsettings.png)
+![Forged PAC Analytic Type - Settings tab](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/analytics/forgedpacsettings.webp)
 
 Remember, the Forged PAC analytic is monitoring for when the user is not a member of a group that is
 listed in the PAC section of the user’s Kerberos ticket. This analytic can be scoped to monitor
@@ -57,7 +57,7 @@ for a mismatch to trigger the incident.
 
 Policy Tab
 
-![Forged PAC Analytic Type - Policy tab](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/analytics/policytab.png)
+![Forged PAC Analytic Type - Policy tab](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/analytics/policytab.webp)
 
 The **Policy** tab for configuring analytics consists of three sub-tabs:
 
@@ -105,7 +105,7 @@ The **Policy** tab for configuring analytics consists of three sub-tabs:
 
 The data grid on the **Forged PAC** node lists one row per incident identified.
 
-![Forged PAC Analytic Type window](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/forgedpac.png)
+![Forged PAC Analytic Type window](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/forgedpac.webp)
 
 The data grid can be filtered according to the Event Tracker status: All, New, or Reviewed. See the
 [Event Tracker Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/recentevents/eventtracker.md)

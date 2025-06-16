@@ -2,7 +2,7 @@
 
 The Import Owners wizard is opened with the **Import** button in the Resource Owners interface.
 
-![Import Owners wizard showing 1. Select File page](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceowners/wizard/selectfile.png)
+![Import Owners wizard showing 1. Select File page](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceowners/wizard/selectfile.webp)
 
 It contains two pages:
 
@@ -17,7 +17,7 @@ The CSV file should list one resource per row using the following format:
 
 [ResourcePath],[Owner1];[Owner2];[Owner3],[Description]
 
-![Example CSV File showing file system, SharePoint, and group resource formats](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceowners/wizard/csvfileformat.png)
+![Example CSV File showing file system, SharePoint, and group resource formats](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceowners/wizard/csvfileformat.webp)
 
 - Resource Formats:
 
@@ -58,12 +58,12 @@ interface.
 
 **Step 1 –** In the Resource Owners interface, click **Import**. The Import Owners wizard opens.
 
-![Import Owners wizard showing 1. Select File page](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceowners/wizard/selectfile.png)
+![Import Owners wizard showing 1. Select File page](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceowners/wizard/selectfile.webp)
 
 **Step 2 –** On the Select Files page, click **Add**.Navigate to the CSV file to be imported and
 click **Open**.
 
-![Import Owners wizard with the 1. Select File page showing resources with assigned owners to be imported](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceowners/wizard/selectfilepreview.png)
+![Import Owners wizard with the 1. Select File page showing resources with assigned owners to be imported](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceowners/wizard/selectfilepreview.webp)
 
 **Step 3 –** A preview of the resources and owners appears in the table. The Status column indicates
 whether or not there is a problem (invalid resource or owner). Ensure all resources in the table
@@ -74,7 +74,7 @@ exclamation icon. You can not continue with the import if any row contains an in
 owner. To remove a resource from the table, select the row and click **Remove**. The row is removed
 from the table.
 
-![Import Owners wizard 2. Options page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/options.png)
+![Import Owners wizard 2. Options page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/options.webp)
 
 **Step 4 –** On the Options page, configure the available options as required.
 
@@ -91,7 +91,7 @@ from the table.
 
 **Step 5 –** Click **Next**. The Access Information Center will begin to process the import.
 
-![Import Owners wizard completed import page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/sensitivedatadiscovery/completed.png)
+![Import Owners wizard completed import page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/sensitivedatadiscovery/completed.webp)
 
 **Step 6 –** The action status displays on the page. When the update has completed (100%), click
 **Close**. The Import Owners wizard closes.

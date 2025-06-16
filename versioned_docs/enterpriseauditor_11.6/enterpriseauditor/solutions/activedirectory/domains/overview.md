@@ -3,7 +3,7 @@
 The 5.Domains Job Group provides details on domains, sites, and trusts, and highlight domain level
 configurations that may leave your environment at risk.
 
-![Domains Job Group](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/jobstree.png)
+![Domains Job Group](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/jobstree.webp)
 
 The following components comprises the 5.Domains Job Group:
 

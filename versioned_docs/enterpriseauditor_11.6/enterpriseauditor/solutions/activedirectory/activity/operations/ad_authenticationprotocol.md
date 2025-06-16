@@ -12,7 +12,7 @@ tasks.
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for the AD_AuthenticationProtocol Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/activity/operations/authenticationprotocolanalysis.png)
+![Analysis Tasks for the AD_AuthenticationProtocol Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/activity/operations/authenticationprotocolanalysis.webp)
 
 The default analysis tasks are:
 

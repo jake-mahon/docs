@@ -27,19 +27,19 @@ Perform multiple updates by proceeding as follows:
 
 1. Click on **Multiple Updates**, accessible from the directory on the home page.
 
-    ![Home Page - Multiple Updates](/img/versioned_docs/usercube_6.1/usercube/user-guide/maintain/identity-data-modification/multiple-update/home_multipleupdates_v523.png)
+    ![Home Page - Multiple Updates](/img/versioned_docs/usercube_6.1/usercube/user-guide/maintain/identity-data-modification/multiple-update/home_multipleupdates_v523.webp)
 
 2. Follow the workflow's instructions to perform the change, assign new entitlements if needed, and
    send the request.
 
-    ![Multiple Updates Form](/img/versioned_docs/usercube_6.1/usercube/user-guide/maintain/identity-data-modification/multiple-update/datamodif_multipleform_v602.png)
+    ![Multiple Updates Form](/img/versioned_docs/usercube_6.1/usercube/user-guide/maintain/identity-data-modification/multiple-update/datamodif_multipleform_v602.webp)
 
     If the workflow has been configured in this way, the update request may require a review. In
     this case, sending the request triggers the display of said request on the **My Tasks** screen
     for the reviewer, while the state of the request is pending. In this case, the requested updates
     will be displayed in Usercube only after the request has been reviewed.
 
-    ![Request - Review Pending](/img/versioned_docs/usercube_6.1/usercube/user-guide/maintain/identity-data-modification/individual-update/datamodif_reviewpending_v523.png)
+    ![Request - Review Pending](/img/versioned_docs/usercube_6.1/usercube/user-guide/maintain/identity-data-modification/individual-update/datamodif_reviewpending_v523.webp)
 
 ## Verify Data Update
 
@@ -48,14 +48,14 @@ In order to verify the process:
 - Check manually a sample in the `User` directory accessible from the home page. You should verify
   at least your own sheet and the sheets assigned to your hierarchy.
 
-    ![Home - Directory User](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/configure-workflows/home_directoryuser_v523.png)
+    ![Home - Directory User](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/configure-workflows/home_directoryuser_v523.webp)
 
 - Check that every organization still has a manager. Organizations are accessible in the
   `Department` directory on the home page.
 
-    ![Home - Directory Department](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/initial-identities-loading/load-identities/home_directorydepartment_v523.png)
+    ![Home - Directory Department](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/initial-identities-loading/load-identities/home_directorydepartment_v523.webp)
 
-    ![List of Departments](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/initial-identities-loading/load-identities/initialload_departments_v602.png)
+    ![List of Departments](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/initial-identities-loading/load-identities/initialload_departments_v602.webp)
 
     If the system contains numerous organizations, it is also possible to list them with their
     managers through the

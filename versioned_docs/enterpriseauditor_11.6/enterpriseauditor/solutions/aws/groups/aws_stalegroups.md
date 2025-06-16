@@ -26,7 +26,7 @@ Navigate to the **AWS** > **3.Groups** > **AWS_StaleGroups** > **Configure** nod
 **CAUTION:** Do not deselect the selected analysis tasks. The analysis tasks are preconfigured for
 this job. Only modify the analysis tasks listed in the customizable analysis tasks section.
 
-![Analysis Tasks for the AWS_StaleGroups Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/distributionlists/membershipanalysis/stalegroupsanalysis.png)
+![Analysis Tasks for the AWS_StaleGroups Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/distributionlists/membershipanalysis/stalegroupsanalysis.webp)
 
 The following analysis tasks are selected by default:
 

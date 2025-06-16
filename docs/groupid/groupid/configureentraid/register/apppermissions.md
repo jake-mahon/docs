@@ -29,7 +29,7 @@ The following application permissions are required.
 
 ## Office 365 Exchange Online Permissions
 
-![Microsoft Entra ID Office 365 Exchange Online Permissions - ExchangeManageAsApp](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/exchange.webp)
+![Microsoft Entra ID Office 365 Exchange Online Permissions - ExchangeManageAsApp](../../../../../static/img/product_docs/accessanalyzer/admin/settings/exchange.webp)
 
 ## SharePoint Delegated Permissions
 

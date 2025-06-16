@@ -6,7 +6,7 @@ algorithm built into the public folder data collector that is determined based o
 content posted, and size of content posted. Modifications can be made to the data collector to
 change the way the Most Probable Owner is determined.
 
-![Collection > PF_FolderOwnership Job in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/databases/collection/collectionjobstree.png)
+![Collection > PF_FolderOwnership Job in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/databases/collection/collectionjobstree.webp)
 
 The PF_FolderOwnership job is located in the Collection job group.
 
@@ -14,7 +14,7 @@ The PF_FolderOwnership job is located in the Collection job group.
 
 The PF_FolderOwnership job uses the ExchangePublicFolder Data Collector.
 
-![Queries for the PF_FolderOwnership Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/publicfolders/ownership/folderownershipquery.png)
+![Queries for the PF_FolderOwnership Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/publicfolders/ownership/folderownershipquery.webp)
 
 The following queries are included in the PF_FolderOwnership job:
 
@@ -52,7 +52,7 @@ Data Collector Wizard opens.
 
 **CAUTION:** Do not modify other wizard pages. The wizard pages are pre-configured for this job.
 
-![Exchange Public Folder Data Collector Wizard Scope page](/img/versioned_docs/activitymonitor_7.1/config/activedirectory/scope.png)
+![Exchange Public Folder Data Collector Wizard Scope page](/img/versioned_docs/activitymonitor_7.1/config/activedirectory/scope.webp)
 
 **Step 4 –** To modify the scope of the search, navigate to the Scope page. The scope is configured
 using the following settings:
@@ -84,7 +84,7 @@ See the
 [ExchangePublicFolder: Scope](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchangepublicfolder/scope.md)
 topic for additional information.
 
-![Exchange Public Folder Data Collector Wizard Probable Owner Settings page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/publicfolders/ownership/dcwizardprobableownersettings.png)
+![Exchange Public Folder Data Collector Wizard Probable Owner Settings page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/publicfolders/ownership/dcwizardprobableownersettings.webp)
 
 **Step 5 –** To modify the probable owner calculation, navigate to the Probable Owner page. The
 calculation is configured with the following defaults:
@@ -110,7 +110,7 @@ View the analysis task by navigating to the **Exchange** > **5. Public Folders**
 **CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
 preconfigured for this job.
 
-![Analysis Tasks for the PF_FolderOwnership Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/publicfolders/ownership/folderownershipanalysis.png)
+![Analysis Tasks for the PF_FolderOwnership Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/publicfolders/ownership/folderownershipanalysis.webp)
 
 The following analysis task is selected by default:
 

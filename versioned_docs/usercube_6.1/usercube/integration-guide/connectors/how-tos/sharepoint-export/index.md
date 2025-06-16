@@ -21,7 +21,7 @@ sites. It includes the following substeps:
 - Click on the **Add members** button.
 - Enter the name of the Usercube service account or its email address.
 
-![SharePoint Export Add Member](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/how-tos/sharepoint-export/sharepoint_export_add_member.png)
+![SharePoint Export Add Member](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/how-tos/sharepoint-export/sharepoint_export_add_member.webp)
 
 The service account is now a member of the site. However, to scan the site, the service account
 needs to be owner of the site.
@@ -30,7 +30,7 @@ needs to be owner of the site.
 - Under the name of the Usercube service account, click on the arrow.
 - Choose **Owner**.
 
-![SharePoint Export Role Owner](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/how-tos/sharepoint-export/sharepoint_export_role_owner.png)
+![SharePoint Export Role Owner](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/how-tos/sharepoint-export/sharepoint_export_role_owner.webp)
 
 ### Usercube configuration
 

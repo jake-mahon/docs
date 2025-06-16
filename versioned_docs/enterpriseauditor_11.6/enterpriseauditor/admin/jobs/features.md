@@ -42,11 +42,11 @@ section for additional features.
 The Export Job to Zip Archive window opens from the **Export** option in the right-click menu from
 the selected job group or job node.
 
-![Export from Jobs Tree menu](/img/versioned_docs/groupid_11.0/groupid/portal/export.png)
+![Export from Jobs Tree menu](/img/versioned_docs/groupid_11.0/groupid/portal/export.webp)
 
 Select **Export** from the right-click menu to open the Export Group to Zip Archive window.
 
-![Export Group to Zip Archive window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/exportgrouptoziparchive.png)
+![Export Group to Zip Archive window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/exportgrouptoziparchive.webp)
 
 The **Include all job components** option will zip the job’s directory, the reports, the job log,
 and the SA_Debug log. The **Select specific components to export** option allows Enterprise Auditor
@@ -61,7 +61,7 @@ There are two options for where to save the ZIP file:
 The **Email this archive**checkbox provides the opportunity to send an email notification with the
 attached ZIP file.
 
-![Support Email window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/supportemail.png)
+![Support Email window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/supportemail.webp)
 
 When the archive has been created, the Enterprise Auditor Support Email window opens. By default,
 the recipient is set to [Netwrix Support](https://www.netwrix.com/support.html) but it can be
@@ -80,7 +80,7 @@ Follow the steps to publish the reports.
 
 **Step 1 –** Right-click on a job group or job and select **Publish** from the drop-down list.
 
-![Publish Reports wizard Action Type page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/publishreportsactiontype.png)
+![Publish Reports wizard Action Type page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/publishreportsactiontype.webp)
 
 **Step 2 –** On the Action Type page, select the type of action to be performed on the reports and
 click **Next**:
@@ -88,7 +88,7 @@ click **Next**:
 - Publish Reports
 - Delete Reports
 
-![Publish Reports wizard Report Tree page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/publishreportsreporttree.png)
+![Publish Reports wizard Report Tree page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/publishreportsreporttree.webp)
 
 **Step 3 –** On the Report Tree page, select the reports to be published or removed (depending on
 the Action Type selected in the previous step). Click **Next** to proceed with the action.

@@ -41,7 +41,7 @@ username needs to be entered in the `domain\username` format.
 
 **NOTE:** The URL may need to be added to the browser’s list of trusted sites.
 
-![Access Information Center Login page](/img/versioned_docs/threatprevention_7.4/threatprevention/eperestsite/login.png)
+![Access Information Center Login page](/img/versioned_docs/threatprevention_7.4/threatprevention/eperestsite/login.webp)
 
 The interface a user arrives at depends upon the assigned role or lack of assigned role.
 
@@ -59,7 +59,7 @@ topic for additional information.
 
 Users granted the Administrator role are directed to the Resource Owners interface upon login.
 
-![Resource Owners interface as the landing page for an Administrator user](/img/versioned_docs/auditor_10.6/access/reviews/admin/landingadmin.png)
+![Resource Owners interface as the landing page for an Administrator user](/img/versioned_docs/auditor_10.6/access/reviews/admin/landingadmin.webp)
 
 Administrators are the only ones with access to the Configuration interface. The My Reviews
 interface is available if the logged in user is also assigned ownership of a resource.
@@ -68,7 +68,7 @@ interface is available if the logged in user is also assigned ownership of a res
 
 Users granted the Security Team role are directed to the Resource Owners interface upon login.
 
-![Resource Owners interface as the landing page for a Security Team user](/img/versioned_docs/auditor_10.6/access/reviews/admin/landingsecurityteam.png)
+![Resource Owners interface as the landing page for a Security Team user](/img/versioned_docs/auditor_10.6/access/reviews/admin/landingsecurityteam.webp)
 
 Security Team members only lack access to the Configuration interface, which is only available to
 Administrators. The My Reviews interface is available if the logged in user is also assigned
@@ -79,6 +79,6 @@ ownership of a resource.
 Users assigned ownership of a resource but not granted a user role are directed to the My Reviews
 interface upon login.
 
-![My Reviews interface as the landing page for an Owner without a user role](/img/versioned_docs/auditor_10.6/access/reviews/admin/landingowner.png)
+![My Reviews interface as the landing page for an Owner without a user role](/img/versioned_docs/auditor_10.6/access/reviews/admin/landingowner.webp)
 
 Owners can view pending reviews and view historical reviews.

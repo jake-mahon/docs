@@ -1,3 +1,12 @@
+---
+id: configure-windows-firewall-inbound-connection-rules
+title: "Configure Windows Firewall Inbound Connection Rules"
+pagination_label: "Configure Windows Firewall Inbound Connection Rules"
+sidebar_label: "Configure Windows Firewall Inbound Connection Rules"
+sidebar_position: 123
+description: "Learn how to configure Windows Firewall inbound connection rules for successful Logon Activity data collection."
+---
+
 # Configure Windows Firewall Inbound Connection Rules
 
 For successful data collection, Netwrix 1Secure may have to create inbound Firewall rules. If you do

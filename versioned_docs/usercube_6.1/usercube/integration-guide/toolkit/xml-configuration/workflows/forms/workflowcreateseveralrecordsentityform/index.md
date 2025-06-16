@@ -24,7 +24,7 @@ And with the following form for the data specific to each record:
 The contents of `MainControl`, `RecordControl` and `RecordUniqueItemControl` are visible during the
 workflow's execution:
 
-![Form Example - New User from Helpdesk](/img/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/workflows/forms/workflowcreateseveralrecordsentityform/formexample_workflowcreateseveralrecordsentityform_v603.png)
+![Form Example - New User from Helpdesk](/img/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/workflows/forms/workflowcreateseveralrecordsentityform/formexample_workflowcreateseveralrecordsentityform_v603.webp)
 
 ## Properties
 

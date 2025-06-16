@@ -5,7 +5,7 @@ for specific terms to be selected and managed. The dropdown list shows all avail
 
 **NOTE:** For the SharePoint Terms, they will be grouped by the SharePoint Term Group.
 
-![treeview](/img/versioned_docs/dataclassification_5.6.2/ndc/taxonomies/treeview.png)
+![treeview](/img/versioned_docs/dataclassification_5.6.2/ndc/taxonomies/treeview.webp)
 
 Right-clicking the tree view nodes provides a number of management options at both the term and
 termset level including:
@@ -40,7 +40,7 @@ A search facility is provided to locate terms that contains specified text:
 Click the magnifying glass icon to the right of the taxonomy dropdown and a new edit box appears
 where search text may be entered:
 
-![taxonomysearch](/img/versioned_docs/dataclassification_5.6.2/ndc/taxonomies/taxonomysearch.png)
+![taxonomysearch](/img/versioned_docs/dataclassification_5.6.2/ndc/taxonomies/taxonomysearch.webp)
 
 ## "Sync Enabled" Treeview Filter
 
@@ -49,7 +49,7 @@ for synchronisation (configured on the term Settings screen).
 
 This setting is session specific and applicable only to the current user:
 
-![treeviewsyncfilter](/img/versioned_docs/dataclassification_5.6.2/ndc/taxonomies/treeviewsyncfilter.png)
+![treeviewsyncfilter](/img/versioned_docs/dataclassification_5.6.2/ndc/taxonomies/treeviewsyncfilter.webp)
 
 [See Taxonomy Settings for more information.](/versioned_docs/dataclassification_5.6.2/ndc/taxonomies/taxonomy_settings.md)
 
@@ -58,6 +58,6 @@ This setting is session specific and applicable only to the current user:
 A filter facility is also provided to restrict all search/browse results to a specific source. Click
 the source filter link in the top right of the display, then, select a source:
 
-![sourcefilter](/img/versioned_docs/dataclassification_5.6.2/ndc/taxonomies/sourcefilter.png)
+![sourcefilter](/img/versioned_docs/dataclassification_5.6.2/ndc/taxonomies/sourcefilter.webp)
 
 The filter setting can be stored for the session, or just maintained for the browser window.

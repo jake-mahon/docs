@@ -123,11 +123,11 @@ Example of the services (aka "container_name"), being forward, from different SI
 **NOTE:** This view sort by top 10 values based on event count per "container_name", which is why
 all the SecureONE listed services are not displaying.
 
-![360063180233_mceclip0](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/integrations/siem/360063180233_mceclip0.png)
+![360063180233_mceclip0](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/integrations/siem/360063180233_mceclip0.webp)
 
 ### Humio
 
-![360063180233_mceclip1](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/integrations/siem/360063180233_mceclip1.png)
+![360063180233_mceclip1](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/integrations/siem/360063180233_mceclip1.webp)
 
 ## Troubleshooting
 

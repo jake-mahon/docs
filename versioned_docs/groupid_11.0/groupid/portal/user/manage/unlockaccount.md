@@ -32,7 +32,7 @@ What do you want to do?
 While logging on GroupID portal you provide wrong password on the **GroupID Authenticate** window
 for the specified number of times, the following message appears:
 
-![GroupID Authenticate](/img/versioned_docs/groupid_11.0/groupid/portal/user/manage/locked.png)
+![GroupID Authenticate](/img/versioned_docs/groupid_11.0/groupid/portal/user/manage/locked.webp)
 
 Now you cannot login to portal unless you unlock your identity store account. Follow the
 instructions given below to unlock your account:

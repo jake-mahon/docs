@@ -5,7 +5,7 @@ The Users and Roles page displays the accounts with access to Recovery for Activ
 Click **Configuration** in the left pane. Then click the **Users and Roles tab** on the
 Configuration page to open the Users and Roles page.
 
-![Users and Roles page](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/requirements/target/config/roles.webp)
+![Users and Roles page](../../../../../static/img/product_docs/accessanalyzer/requirements/target/config/roles.webp)
 
 The table displays the following information:
 

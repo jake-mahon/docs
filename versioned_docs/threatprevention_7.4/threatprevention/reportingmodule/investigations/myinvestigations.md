@@ -9,7 +9,7 @@ Click **Investigate** in the application header bar to open the Investigations i
 investigations created by the application users. To get this list in the adjacent pane, hover your
 mouse over the My Investigations option and click the icon that is displayed.
 
-![Investigations interface on the My Investigations page](/img/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/investigations/myinvestigations.png)
+![Investigations interface on the My Investigations page](/img/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/investigations/myinvestigations.webp)
 
 The table displays the list of investigations with the following columns:
 

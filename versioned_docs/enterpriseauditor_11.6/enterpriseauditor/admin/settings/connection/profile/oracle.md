@@ -3,7 +3,7 @@
 The information in this section applies to Select Account Type > Oracle in the User Credentials
 window.
 
-![User Credentials - Oracle](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/profile/oracle.png)
+![User Credentials - Oracle](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/profile/oracle.webp)
 
 The required credentials for Oracle are:
 

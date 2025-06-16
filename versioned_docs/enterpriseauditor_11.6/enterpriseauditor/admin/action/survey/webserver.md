@@ -2,7 +2,7 @@
 
 Use this page to specify information about the web server hosting the survey website.
 
-![Survey Action Module Wizard Web Server page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/survey/webserver.png)
+![Survey Action Module Wizard Web Server page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/survey/webserver.webp)
 
 The configurable options are:
 

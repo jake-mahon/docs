@@ -11,7 +11,7 @@ Navigate to the **Oracle > 5.Sensitve Data > Oracle_SensitveData > Configure** n
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Selection](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/oracle/sensitivedata/jobgroup44.png)
+![Analysis Selection](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/oracle/sensitivedata/jobgroup44.webp)
 
 The default analysis tasks are:
 

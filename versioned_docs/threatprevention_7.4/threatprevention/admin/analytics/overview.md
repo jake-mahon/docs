@@ -17,7 +17,7 @@ along with definitions and examples to better understand each analytic.
 
 Click **Analytics** in the left pane to launch the Analytics interface.
 
-![Analytics interface](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/analytics/analyticsinterface.png)
+![Analytics interface](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/analytics/analyticsinterface.webp)
 
 At the top of the interface is a graphical display of incidents monitored by Threat Prevention. Use
 the color key on the left to toggle off and on results for desired analytics. In the upper-right
@@ -45,7 +45,7 @@ data are protected from any user not included in the permissions list. See the
 [Protect Policies](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/dataprotection.md#protect-policies)
 topic for instructions on how to protect analytic policies.
 
-![Analytics node](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/analytics/analyticslist.png)
+![Analytics node](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/analytics/analyticslist.webp)
 
 Directly under the Analytics node are the individual analytics nodes for accessing information on
 the monitored incidents and configuring the analytic type:

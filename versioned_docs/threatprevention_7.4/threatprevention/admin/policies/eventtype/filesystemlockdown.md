@@ -59,7 +59,7 @@ Use the File System filter for lockdown to select the types of file system event
 by the policy. It is also where the policy is scoped to only lockdown specific file system paths or
 to exclude specific file system paths from being locked down.
 
-![Policy window - File System filter for lockdown](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/filesystemlockdown.png)
+![Policy window - File System filter for lockdown](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/filesystemlockdown.webp)
 
 Access Operations area
 
@@ -111,7 +111,7 @@ topic for additional information.
 
 Sub Folder
 
-![Paths filter - Sub Folder checkbox](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/subfolder.png)
+![Paths filter - Sub Folder checkbox](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/subfolder.webp)
 
 When paths are added, a Sub-Folder checkbox displays. If checked, the filter is applied to the
 parent and all child content (files and folders). If unchecked, the filter is only applied to the
@@ -121,7 +121,7 @@ listed folder and its first-level contents.
 
 Use the Additional Agents filter to set the scope of the policy to specific Agents and/or domains.
 
-![Policy window - Additional Agents filter](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/additionalagents.png)
+![Policy window - Additional Agents filter](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/additionalagents.webp)
 
 The Agents/Domains list on the left displays available Agents and domains. The Selected
 Agents/Domains list on the right displays Agents and domains included in the policy.
@@ -144,7 +144,7 @@ Use the AD Perpetrator filter for lockdown to set the scope of the policy to loc
 security principals committing changes or to exclude specific security principals committing changes
 from being locked down.
 
-![AD Perpetrator Protect filter](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/adperpetratorprotect.png)
+![AD Perpetrator Protect filter](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/adperpetratorprotect.webp)
 
 Select the **Block** or **Allow** option button and then edit the list.
 
@@ -173,7 +173,7 @@ topic for additional information.
 The Rule Preview filter displays a summary of the selected filter options. This is primarily used
 for troubleshooting.
 
-![Event Type - Rule Preview filter](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/rulepreview.png)
+![Event Type - Rule Preview filter](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/rulepreview.webp)
 
 The text displayed represents the rules created based on the policy’s selected filters. Each row is
 a selected filter. Notice the Word Wrap checkox. If checked, a filter statement may cover multiple

@@ -7,7 +7,7 @@ and fix errors.
 
 A managed system is synchronized and provisioned to/from Usercube with the following task sequence:
 
-![Synchronization/Provisioning Schema](/img/versioned_docs/usercube_6.1/usercube/integration-guide/tasks-jobs/how-tos/troubleshoot-connector-jobs/troubleshoot_synchroprovschema.png)
+![Synchronization/Provisioning Schema](/img/versioned_docs/usercube_6.1/usercube/integration-guide/tasks-jobs/how-tos/troubleshoot-connector-jobs/troubleshoot_synchroprovschema.webp)
 
 ### Export data
 

@@ -6,7 +6,7 @@ When working in an on-premises environment, Usercube needs a specific architectu
 
 NETWRIX recommends the following architecture:
 
-![On-Premises Recommended Architecture](/img/versioned_docs/usercube_6.1/usercube/integration-guide/architecture/on-prem/architecture_onprem.png)
+![On-Premises Recommended Architecture](/img/versioned_docs/usercube_6.1/usercube/integration-guide/architecture/on-prem/architecture_onprem.webp)
 
 Most situations do not need Usercube so much that they need a fail-over system, i.e. installing
 several Usercube instances in order to prevent breakdowns. In most situations, a single Usercube

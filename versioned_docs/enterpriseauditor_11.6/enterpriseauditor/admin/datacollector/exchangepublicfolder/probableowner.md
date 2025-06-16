@@ -5,7 +5,7 @@ when the Probable Owner property is selected on the Properties page. See the
 [ExchangePublicFolder: Properties](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchangepublicfolder/properties.md) topic
 for additional information.
 
-![Exchange Public Folder Data Collector Wizard Probable Owner page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchangepublicfolder/probableowner.png)
+![Exchange Public Folder Data Collector Wizard Probable Owner page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchangepublicfolder/probableowner.webp)
 
 In the Determine owner section, select the desired option to specify what setting to use to
 determine an owner:
@@ -19,7 +19,7 @@ determine an owner:
 - Use custom weights – Select to enable the **Result weights** option to assign custom weights to
   the ownership categories
 
-    ![Probable Owner Settings window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchangepublicfolder/probableownersettingswindow.png)
+    ![Probable Owner Settings window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchangepublicfolder/probableownersettingswindow.webp)
 
 - Result weights – This option is enabled when the **Use custom weights** option is selected. Click
   the ellipses to open the Probable Owner Settings window and assign ownership weights to distribute

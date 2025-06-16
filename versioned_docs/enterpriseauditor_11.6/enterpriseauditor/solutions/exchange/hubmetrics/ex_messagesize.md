@@ -10,7 +10,7 @@ View the analysis task by navigating to the **Exchange** > **1. HUB Metrics** > 
 **CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
 preconfigured for this job.
 
-![Analysis Tasks for the EX_MessageSize Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/hubmetrics/messagesizeanalysis.png)
+![Analysis Tasks for the EX_MessageSize Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/hubmetrics/messagesizeanalysis.webp)
 
 The following analysis task is selected by default:
 

@@ -2,7 +2,7 @@
 
 The Permissions report at the **Roles** node shows the permissions for the instance’s SQL roles.
 
-![Permissions report at the Roles node](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/sql/roles/rolespermissions.png)
+![Permissions report at the Roles node](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/sql/roles/rolespermissions.webp)
 
 This report is comprised of the following columns:
 

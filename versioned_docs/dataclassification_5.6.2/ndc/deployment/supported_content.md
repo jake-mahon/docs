@@ -21,7 +21,7 @@ Content Type Extraction Methods.
 | .mpp              | Project          |
 | .msg              | Message          |
 | .pdf              | PDF              |
-| .png              | png              |
+| .webp              | png              |
 | .ppt              | Powerpoint       |
 | .pptx             | Powerpoint Xml   |
 | .pub              | Publisher        |

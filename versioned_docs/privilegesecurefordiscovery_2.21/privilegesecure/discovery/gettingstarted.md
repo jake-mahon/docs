@@ -51,7 +51,7 @@ Prerequisites
 These need to be added to Privilege Secure in the server configuration screen (Config, Server
 Configuration). This is domain specific and is opened by clicking the > sign next to the domain:
 
-![blobid0.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/360048268793_blobid0.png)
+![blobid0.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/360048268793_blobid0.webp)
 
 - The scan mode account should then be used to rollout a GPO change to ensure all Windows machines
   are able to be scanned. The details on how to make this GPO change are detailed in this article:
@@ -77,7 +77,7 @@ protect mode is rolled out users that would require privileged access should be 
 Secure. This is typically done by means of an AD group. The Config/Users and Groups page is used to
 add the group:
 
-![blobid1.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/360048268793_blobid1.png)
+![blobid1.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/360048268793_blobid1.webp)
 
 ## Adding the Protect Account to Local Administrator Group
 
@@ -100,13 +100,13 @@ protected status:
 The accounts with access to a machine can be viewed from the Insight/Computer page in Privilege
 Secure:
 
-![blobid2.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/360048268793_blobid2.png)
+![blobid2.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/360048268793_blobid2.webp)
 
 Here all the accounts groups are listed over several pages.  
 Once the access has been determined, and Active Directory cleaned up, the machine can be added to
 protect mode JITA. This can be done from the Access/Grant Access page.
 
-![blobid3.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/360048268793_blobid3.png)
+![blobid3.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/360048268793_blobid3.webp)
 
 Placing the server into protect mode removes the accounts, that are not persistent, from the server
 and adds them to Privilege Secure. These remain available for use, but they are now available for

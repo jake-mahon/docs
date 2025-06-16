@@ -7,7 +7,7 @@ navigation bar.
 
 The Host Investigation dashboard contains the following cards:
 
-![Host Investigation Dashboard](/img/versioned_docs/threatprevention_7.4/threatprevention/siemdashboard/qradar/dashboard/hostinvestigation.png)
+![Host Investigation Dashboard](/img/versioned_docs/threatprevention_7.4/threatprevention/siemdashboard/qradar/dashboard/hostinvestigation.webp)
 
 - Total Events from Host – Number of all events associated with the host over the specified time
   interval

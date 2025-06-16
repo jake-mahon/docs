@@ -38,7 +38,7 @@ Follow the steps below to manually enroll into Password Reset.
 
 **Step 1 –** Click the **Enroll** item in the menu.
 
-![using_apr](/img/versioned_docs/passwordreset_3.23/password_reset/evaluation/using_apr_1_1.png)
+![using_apr](/img/versioned_docs/passwordreset_3.23/password_reset/evaluation/using_apr_1_1.webp)
 
 **Step 2 –** Type a **Username**, **Domain**, and **Password**.
 
@@ -64,7 +64,7 @@ Follow the steps below to reset an account password.
 
 **Step 1 –** Click the **Reset** item in the menu.
 
-![using_apr_1](/img/versioned_docs/passwordreset_3.23/password_reset/administration/using_apr_1.png)
+![using_apr_1](/img/versioned_docs/passwordreset_3.23/password_reset/administration/using_apr_1.webp)
 
 **Step 2 –** Type a **Username** and **Domain**, and then click **Next**.
 
@@ -73,16 +73,16 @@ Follow the steps below to reset an account password.
 **Step 3 –** Type the **Answer** to the first question, and then click **Next**. Repeat until all
 questions are answered correctly.
 
-![using_apr_2](/img/versioned_docs/passwordreset_3.23/password_reset/evaluation/introduction_1_1.png)
+![using_apr_2](/img/versioned_docs/passwordreset_3.23/password_reset/evaluation/introduction_1_1.webp)
 
 **Step 4 –** You may be asked to enter a verification code. The verification code is sent to your
 phone by e-mail or SMS. Type the **Code**, and then click **Next**.
 
-![using_apr_3](/img/versioned_docs/passwordreset_3.23/password_reset/administration/using_apr_3.png)
+![using_apr_3](/img/versioned_docs/passwordreset_3.23/password_reset/administration/using_apr_3.webp)
 
 **Step 5 –** Type the new **Password** into both text boxes, and then click **Next**.
 
-![using_apr_4](/img/versioned_docs/passwordreset_3.23/password_reset/administration/using_apr_4.png)
+![using_apr_4](/img/versioned_docs/passwordreset_3.23/password_reset/administration/using_apr_4.webp)
 
 **Step 6 –** Click **OK** to return to the menu.
 
@@ -95,7 +95,7 @@ Follow the steps below to unlock an account.
 
 **Step 1 –** Click the **Unlock** item in the menu.
 
-![using_apr_5](/img/versioned_docs/passwordreset_3.23/password_reset/administration/using_apr_5.png)
+![using_apr_5](/img/versioned_docs/passwordreset_3.23/password_reset/administration/using_apr_5.webp)
 
 **Step 2 –** Type a **Username** and **Domain**, and then click **Next**.
 
@@ -104,12 +104,12 @@ Follow the steps below to unlock an account.
 **Step 3 –** Type the **Answer** to the first question, and then click **Next**. Repeat until all
 questions are answered correctly.
 
-![using_apr_6](/img/versioned_docs/passwordreset_3.23/password_reset/administration/using_apr_6.png)
+![using_apr_6](/img/versioned_docs/passwordreset_3.23/password_reset/administration/using_apr_6.webp)
 
 **Step 4 –** You may be asked to enter a verification code. The verification code is sent to your
 phone by e-mail or SMS. Type the **Code**, and then click **Next**.
 
-![using_apr_7](/img/versioned_docs/passwordreset_3.23/password_reset/administration/using_apr_7.png)
+![using_apr_7](/img/versioned_docs/passwordreset_3.23/password_reset/administration/using_apr_7.webp)
 
 **Step 5 –** Click **OK** to return to the menu.
 
@@ -126,11 +126,11 @@ Follow the steps below to change an account password.
 
 **Step 1 –** Click the **Change** item in the menu.
 
-![using_apr_8](/img/versioned_docs/passwordreset_3.23/password_reset/administration/using_apr_8.png)
+![using_apr_8](/img/versioned_docs/passwordreset_3.23/password_reset/administration/using_apr_8.webp)
 
 **Step 2 –** Type a **Username** and **Domain**, and then click **Next**.
 
-![using_apr_9](/img/versioned_docs/passwordreset_3.23/password_reset/administration/using_apr_9.png)
+![using_apr_9](/img/versioned_docs/passwordreset_3.23/password_reset/administration/using_apr_9.webp)
 
 **Step 3 –** Type the **Old Password**, **New Password**, and **Confirm Password**, and then click
 **Next**.
@@ -147,7 +147,7 @@ Validation errors are shown in a red box below the page instructions. Validation
 caused by invalid user input. They can often be overcome by changing the value of one or more input
 fields and resubmitting the form.
 
-![using_apr_10](/img/versioned_docs/passwordreset_3.23/password_reset/administration/using_apr_10.png)
+![using_apr_10](/img/versioned_docs/passwordreset_3.23/password_reset/administration/using_apr_10.webp)
 
 Critical errors are shown on their own page. These errors are mostly a result of configuration or
 system errors. An event may be written to the Windows Application event log on the Password Reset
@@ -155,7 +155,7 @@ Server computer when a critical error occurs. Users can sometimes overcome a cri
 following the instructions in the error message, but most critical errors are beyond the user's
 control.
 
-![using_apr_11](/img/versioned_docs/passwordreset_3.23/password_reset/administration/using_apr_11.png)
+![using_apr_11](/img/versioned_docs/passwordreset_3.23/password_reset/administration/using_apr_11.webp)
 
 Validation and critical error messages are stored in the HTML templates. You can modify the default
 messages by editing the templates. See the

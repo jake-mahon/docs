@@ -12,7 +12,7 @@ select **Analysis** to view the analysis tasks.
 **CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
 preconfigured for this job.
 
-![Analysis Task for the AD_LargestGroups Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/distributionlists/membershipanalysis/largestgroupsanalysis.png)
+![Analysis Task for the AD_LargestGroups Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/distributionlists/membershipanalysis/largestgroupsanalysis.webp)
 
 The default analysis tasks are:
 

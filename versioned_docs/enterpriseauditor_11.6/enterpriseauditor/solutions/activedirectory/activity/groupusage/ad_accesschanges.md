@@ -12,7 +12,7 @@ Navigate to the **Jobs** > **Active Directory** > **6.Activity** > **Group Usage
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for the AD_AccessChanges Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/activity/groupusage/accesschangesanalysis.png)
+![Analysis Tasks for the AD_AccessChanges Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/activity/groupusage/accesschangesanalysis.webp)
 
 The following non-configurable analysis tasks are selected by default:
 

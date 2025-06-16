@@ -22,7 +22,7 @@ The Object Rollback wizard opens.
 **Step 4 –** In the Backup Date section, select a backup to use for the rollback operation. Then
 select the checkbox(es) for the attributes you want to roll back. Click **Next**.
 
-![Object Rollback wizard - Options page](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/install/application/options.webp)
+![Object Rollback wizard - Options page](../../../../../static/img/product_docs/accessanalyzer/install/application/options.webp)
 
 **Step 5 –** Select a domain controller where the rollback changes will get affected. Options are:
 

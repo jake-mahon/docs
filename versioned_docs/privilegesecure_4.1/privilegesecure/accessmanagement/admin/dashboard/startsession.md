@@ -4,7 +4,7 @@ On the Active Sessions dashboard, when the status Available is shown, the activi
 To begin the activity session, click the Connection icon in the Status column for the applicable
 session to be automatically connected to the resource.
 
-![Connecto to remote session](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/dashboard/startsession.png)
+![Connecto to remote session](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/dashboard/startsession.webp)
 
 Also note the icons to view and copy the password for the session as plain text, if the option is
 enabled in the access policy Connection Profiles.
@@ -34,11 +34,11 @@ profile that allow a session to be extended by the user, in increments.
 If Session Extension is enabled, the session extension option appears for users when the remaining
 time is 5 minutes or less.
 
-![Extend Activity Session](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/dashboard/extendsession.png)
+![Extend Activity Session](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/dashboard/extendsession.webp)
 
 For RDP, a pop-up message is displayed in the session window.
 
-![extendsessionssh](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/dashboard/extendsessionssh.png)
+![extendsessionssh](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/dashboard/extendsessionssh.webp)
 
 For SSH the user can extend by typing **Ctrl+X** when prompted.
 
@@ -64,7 +64,7 @@ topic for additional information.
 RDP DirectConnect now supports the prompting of users for password, removing the old requirement to
 modify group/local policy to force RDP password prompts.
 
-![Direct Connect password prompt](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/dashboard/directconnect.png)
+![Direct Connect password prompt](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/dashboard/directconnect.webp)
 
 If a password is entered outside of the RDP session, this will be automatically be used and the
 inline password prompt will not display, unless there is an authentication error.

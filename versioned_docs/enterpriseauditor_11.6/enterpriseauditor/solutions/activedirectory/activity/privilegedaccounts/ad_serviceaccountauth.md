@@ -11,7 +11,7 @@ Navigate to the **Jobs** > **Active Directory** > **6.Activity** > **Operations*
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Task for the AD_ServiceAccountAuth Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/activity/privilegedaccounts/serviceaccountauthanalysis.png)
+![Analysis Task for the AD_ServiceAccountAuth Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/activity/privilegedaccounts/serviceaccountauthanalysis.webp)
 
 The following non-configurable analysis task is selected by default:
 

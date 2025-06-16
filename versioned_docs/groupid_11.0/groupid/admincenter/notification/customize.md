@@ -105,7 +105,7 @@ will show the email address of the requester, and so on.
 1. In the Source Code view, click the **Dictionary** tile to view the recommended tags to replace
    the default tags with.
 
-    ![tag_dictionary](/img/versioned_docs/groupid_11.0/groupid/admincenter/notification/tag_dictionary.png)
+    ![tag_dictionary](/img/versioned_docs/groupid_11.0/groupid/admincenter/notification/tag_dictionary.webp)
 
     Each notification template has its own set of recommended tags.
 

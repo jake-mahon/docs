@@ -4,7 +4,7 @@ The Policies interface lists all policies that you have defined in Threat Preven
 
 Click **Policies** in the Navigation pane to open the Policies interface.
 
-![Policies Interface](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/policiesinterface.png)
+![Policies Interface](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/policiesinterface.webp)
 
 You can sort the list of policies alphanumerically ascending or descending by clicking on a column
 header. An arrow appears in the right corner of the column header indicating the type of sorting.
@@ -38,7 +38,7 @@ topic for additional information.
   topic for additional information.
 - An enabled policy is identified within the Navigation pane by the green dot over the policy icon.
 
-![Enabled and Disabled Policies in the Navogation pane](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/enableddisabledpolicies.png)
+![Enabled and Disabled Policies in the Navogation pane](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/enableddisabledpolicies.webp)
 
 See the
 [Policy Configuration](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/configuration.md)
@@ -49,7 +49,7 @@ topic for additional information on creating policies.
 Each policy listed in the Policies interface has a right-click menu. Select a policy and right-click
 to open this menu.
 
-![Right-Click Menu for a Policy](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/policyrightclickkmenu.png)
+![Right-Click Menu for a Policy](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/policyrightclickkmenu.webp)
 
 It contains the following options:
 

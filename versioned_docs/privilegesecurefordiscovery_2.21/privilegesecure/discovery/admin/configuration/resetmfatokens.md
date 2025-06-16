@@ -11,7 +11,7 @@ Users and Groups" section.  Click the "Modify" button selected in the right-han
 "Reset 2-Factor Token" from the available options, and the user will be prompted to set up their MFA
 token at next login.
 
-![Screen_Shot_2019-04-15_at_10.25.04_AM.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360021670893_screen_shot_2019-04-15_at_10.25.04_am.png)
+![Screen_Shot_2019-04-15_at_10.25.04_AM.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360021670893_screen_shot_2019-04-15_at_10.25.04_am.webp)
 
 Please see the Privilege Secure User Guide - First Time Logging In for setting new MFA:
 
@@ -35,7 +35,7 @@ single user, and instead inherits its access to Privilege Secure via an AD group
 the "Add Username or Group" pane, select the account, and select the "Add" button to the right of
 the pane:
 
-![Screen_Shot_2019-04-15_at_10.33.53_AM.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360021670893_screen_shot_2019-04-15_at_10.33.53_am.png)
+![Screen_Shot_2019-04-15_at_10.33.53_AM.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360021670893_screen_shot_2019-04-15_at_10.33.53_am.webp)
 
 Once added, the account will appear in the existing configured accounts pane, where it can be
 located and the "Modify" button selected in the right-hand column.  Select "Reset 2-Factor Token"
@@ -44,7 +44,7 @@ login.  The Privilege Secure Administrator can then remove the individual accou
 which will return the organization of the pane to its prior state, while correctly resetting the
 appropriate user's MFA token:
 
-![Screen_Shot_2019-04-15_at_10.25.04_AM.png](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360021670893_screen_shot_2019-04-15_at_10.25.04_am.png)
+![Screen_Shot_2019-04-15_at_10.25.04_AM.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360021670893_screen_shot_2019-04-15_at_10.25.04_am.webp)
 
 Please see the Privilege Secure User Guide - First Time Logging In for setting new MFA:
 

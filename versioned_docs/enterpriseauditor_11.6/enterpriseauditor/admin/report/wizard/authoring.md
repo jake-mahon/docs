@@ -3,17 +3,17 @@
 On the Authoring page of the Report Configuration wizard, you can configure the name, header
 information, and publish settings for the report.
 
-![Report Configuration wizard Authoring page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/report/wizard/authoring.png)
+![Report Configuration wizard Authoring page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/report/wizard/authoring.webp)
 
 Configure the following settings as required:
 
-![name](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/report/wizard/name.png)
+![name](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/report/wizard/name.webp)
 
 - Name – The name used for the report in the Enterprise Auditor console and Web Console.
 
 Header Options
 
-![header](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/webrequest/header.png)
+![header](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/webrequest/header.webp)
 
 - Title – The title of the report as displayed at the top of the generated report
 - Author – Name of the person or group who created the report. This is displayed at the top of the
@@ -52,7 +52,7 @@ Follow the steps to select tags using the Tag Editor.
 **Step 1 –** On the Authoring page of the Report Configuration wizard, click the **Edit** button
 located next to the Tags text box.
 
-![Tag Editor](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/report/wizard/tageditor.png)
+![Tag Editor](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/report/wizard/tageditor.webp)
 
 **Step 2 –** In the Tag editor, select the checkbox next to the tags that should be applied to the
 report.

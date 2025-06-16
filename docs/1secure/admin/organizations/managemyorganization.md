@@ -1,3 +1,12 @@
+---
+id: manage-my-organization
+title: "Manage My Organization"
+pagination_label: "Manage My Organization"
+sidebar_label: "Manage My Organization"
+sidebar_position: 35
+description: "Learn how to review and edit your organization profile settings and manage deletion requests."
+---
+
 # Manage My Organization
 
 After you added your organization, you can review or edit your profile on Configuration > My

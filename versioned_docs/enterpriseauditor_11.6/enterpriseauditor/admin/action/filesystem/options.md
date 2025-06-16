@@ -4,7 +4,7 @@ The Options page provides access to additional options for the action. Based on 
 Operation page and other choices made within the wizard, not all options on this page may be
 available.
 
-![File System Action Module Wizard Options page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/options.png)
+![File System Action Module Wizard Options page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/options.webp)
 
 Select from the following additional operations:
 

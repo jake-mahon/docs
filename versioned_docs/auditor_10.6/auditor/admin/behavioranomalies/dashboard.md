@@ -14,10 +14,10 @@ topics for additional information.
 To review the Behavior Anomalies dashboard:
 
 On the main Auditor page, click
-![ba_tile](/img/versioned_docs/auditor_10.6/auditor/admin/behavioranomalies/ba_tile.png) on the
+![ba_tile](/img/versioned_docs/auditor_10.6/auditor/admin/behavioranomalies/ba_tile.webp) on the
 left.
 
-![dashboard](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/dashboard.png)
+![dashboard](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/dashboard.webp)
 
 The dashboards includes the following sections:
 

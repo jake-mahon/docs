@@ -3,7 +3,7 @@
 The 2.Direct Permissions job group is designed to report on Direct Permissions information from
 targeted file servers.
 
-![2.Direct Permissions Job Group in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/jobstree.png)
+![2.Direct Permissions Job Group in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/jobstree.webp)
 
 The 2.Direct Permissions job group is comprised of:
 

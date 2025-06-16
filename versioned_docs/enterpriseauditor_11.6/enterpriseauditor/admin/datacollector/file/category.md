@@ -2,7 +2,7 @@
 
 Use the Category page to identify the type of information to retrieve in this query.
 
-![File Search Wizard Category page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/adinventory/category.png)
+![File Search Wizard Category page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/adinventory/category.webp)
 
 The categories are:
 

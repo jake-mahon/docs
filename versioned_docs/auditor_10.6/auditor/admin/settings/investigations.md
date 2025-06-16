@@ -8,7 +8,7 @@ data stored in the Long-Term Archive. Netwrix Auditor allows importing data from
 Archive to a special "investigation" database. Having imported data there, you can run searches and
 generate reports with your past data.
 
-![investigate](/img/versioned_docs/auditor_10.6/auditor/admin/settings/investigate.png)
+![investigate](/img/versioned_docs/auditor_10.6/auditor/admin/settings/investigate.webp)
 
 To import audit data with the Archive Data Investigation wizard
 

@@ -25,13 +25,13 @@ this, log on to the login screen of the changed page as usual. Thereupon a messa
 access data has been recognized. Now you can optionally decide to create a new dataset or update an
 already known dataset.
 
-![data was recognized](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/browseradd-ons/how_to_save_passwords/installation_with_parameters_151-en.png)
+![data was recognized](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/browseradd-ons/how_to_save_passwords/installation_with_parameters_151-en.webp)
 
 - **Save password**: The password will be exchanged without opening the Web Application.
 - **check changes**: The Web Application is opened and you are logged in. The previous password has
   been replaced by the new one. However, the storage must be carried out manually.
 
-![data was recognized](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/browseradd-ons/how_to_save_passwords/installation_with_parameters_152-en.png)
+![data was recognized](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/browseradd-ons/how_to_save_passwords/installation_with_parameters_152-en.webp)
 
 The following prerequisites apply so that a data record is considered to already exist:
 

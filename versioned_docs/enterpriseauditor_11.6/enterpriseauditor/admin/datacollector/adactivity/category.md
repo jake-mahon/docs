@@ -2,7 +2,7 @@
 
 Use the Category page to identify how activity data is retrieved or removed.
 
-![Active Directory Activity DC wizard Category page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/adinventory/category.png)
+![Active Directory Activity DC wizard Category page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/adinventory/category.webp)
 
 The ADActivity Data Collector Category page contains three query categories:
 

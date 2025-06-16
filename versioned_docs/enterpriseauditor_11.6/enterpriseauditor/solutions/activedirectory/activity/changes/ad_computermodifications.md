@@ -10,7 +10,7 @@ Navigate to the **Active Directory** > **6.Activity** > **Changes** > **AD_Compu
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for the AD_ComputerModifications Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/activity/changes/computermodificationsanalysis.png)
+![Analysis Tasks for the AD_ComputerModifications Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/activity/changes/computermodificationsanalysis.webp)
 
 The following non-configurable analysis tasks are selected by default:
 

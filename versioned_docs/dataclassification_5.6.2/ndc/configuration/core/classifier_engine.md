@@ -5,7 +5,7 @@ By default, only basic options are displayed. To view advanced options, click th
 
 Each option has an associated “**i**” which describes the nature of the setting.
 
-![core_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/configuration/core_thumb_0_0.png)
+![core_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/configuration/core_thumb_0_0.webp)
 
 **NOTE:** To view a complete list of the **Config** settings, click the Details tab. The list also
 has an indication of the values that have been changed from the default setting.

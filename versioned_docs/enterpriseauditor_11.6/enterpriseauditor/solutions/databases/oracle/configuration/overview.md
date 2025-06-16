@@ -3,7 +3,7 @@
 The SQL > 4.Configuration Job Group Is designed to provide insight into potential vulnerabilities
 related to Oracle Database Instance configuration settings.
 
-![Configuration Job Group - Oracle](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/oracle/configuration/configoverview.png)
+![Configuration Job Group - Oracle](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/oracle/configuration/configoverview.webp)
 
 The jobs in the 4.Configuration Job Group are:
 

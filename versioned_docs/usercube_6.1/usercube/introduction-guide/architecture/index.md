@@ -22,11 +22,11 @@ Usercube can be installed:
 
 - SaaS so that the server dwells in the cloud and is provided as a service;
 
-    ![Architecture: SaaS](/img/versioned_docs/usercube_6.1/usercube/integration-guide/architecture/saas/architecture_saas.png)
+    ![Architecture: SaaS](/img/versioned_docs/usercube_6.1/usercube/integration-guide/architecture/saas/architecture_saas.webp)
 
 - on-premises so that the server is installed on an isolated network within the company.
 
-    ![Architecture: On-Premises](/img/versioned_docs/usercube_6.1/usercube/integration-guide/architecture/on-prem/architecture_onprem.png)
+    ![Architecture: On-Premises](/img/versioned_docs/usercube_6.1/usercube/integration-guide/architecture/on-prem/architecture_onprem.webp)
 
 ## Next Steps
 

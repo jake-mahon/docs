@@ -59,7 +59,7 @@ Category selected:
 - [SPAA: Results](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/spaa/results.md)
 - [SPAA: Summary Page](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/spaa/summary.md)
 
-![SPAA Data Collector Wizard Welcome Page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/spaa/welcomepage.png)
+![SPAA Data Collector Wizard Welcome Page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/spaa/welcomepage.webp)
 
 The Welcome page can be hidden by checking the **Do not display this page the next time** box when
 the wizard is open and configuration settings are saved.

@@ -4,7 +4,7 @@ The Host Investigation dashboard only appears when a search is conducted. This c
 clicking a hyperlink within the Destination IP column of a table card. Alternatively, type the
 complete host IP Address in the Search box on the right side of the navigation bar.
 
-![Home Investigation Dashboard for Stealthbits Activivty Monitor App for QRadar](/img/versioned_docs/activitymonitor_7.1/activitymonitor/siem/qradar/dashboard/userinvestigationdashboard.png)
+![Home Investigation Dashboard for Stealthbits Activivty Monitor App for QRadar](/img/versioned_docs/activitymonitor_7.1/activitymonitor/siem/qradar/dashboard/userinvestigationdashboard.webp)
 
 The Host Investigation dashboard contains the following cards:
 

@@ -109,7 +109,7 @@ no contract or vice versa. Usercube offers the possibility to choose whether an 
 to be extended to the period without context. And in case we decide to use another context and
 extend its values, which context should it be?
 
-![Schema - ExtensionKind](/img/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/recordsection/recordsection_extensionkind.png)
+![Schema - ExtensionKind](/img/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/recordsection/recordsection_extensionkind.webp)
 
 Here, we decide to extend an existing contract to the gap, for example because users' email
 addresses are built using the contract type to add `-ext` for external users. And we decide to not

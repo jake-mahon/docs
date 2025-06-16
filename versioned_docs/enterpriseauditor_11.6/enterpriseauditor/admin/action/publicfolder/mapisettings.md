@@ -2,7 +2,7 @@
 
 Use the MAPI Settings page to specify the proper MAPI settings.
 
-![Public Folder Action Module Wizard MAPI Settings page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchange2k/mapisettings.png)
+![Public Folder Action Module Wizard MAPI Settings page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchange2k/mapisettings.webp)
 
 Use the following options to configure the action:
 

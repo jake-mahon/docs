@@ -50,7 +50,7 @@ Administration page.
 **Step 1 –** Click the **Add Shell Credential (SSH/Telnet/Windows)** button to open the credential
 creation form.
 
-![credential_creation](/img/versioned_docs/changetracker_8.0/changetracker/admin/agentlesscis/credential_creation.png)
+![credential_creation](/img/versioned_docs/changetracker_8.0/changetracker/admin/agentlesscis/credential_creation.webp)
 
 **Step 2 –** Name the credential. **Remote Windows Test1** has been used in this example.
 
@@ -59,7 +59,7 @@ for proxied devices.
 
 The credential will now be listed in the grid.
 
-![credential_grid](/img/versioned_docs/changetracker_8.0/changetracker/admin/agentlesscis/credential_grid.png)
+![credential_grid](/img/versioned_docs/changetracker_8.0/changetracker/admin/agentlesscis/credential_grid.webp)
 
 ### Configure the Proxied Windows Device
 
@@ -77,11 +77,11 @@ the proxied devices.
 
 **Step 5 –** Add the RemoteTest group to the group list.
 
-![proxide_device_configuration](/img/versioned_docs/changetracker_8.0/changetracker/admin/agentlesscis/proxide_device_configuration.png)
+![proxide_device_configuration](/img/versioned_docs/changetracker_8.0/changetracker/admin/agentlesscis/proxide_device_configuration.webp)
 
 The proxied Windows device will now be present in the detail grid of the master proxy device.
 
-![device_grid](/img/versioned_docs/changetracker_8.0/changetracker/admin/agentlesscis/device_grid.png)
+![device_grid](/img/versioned_docs/changetracker_8.0/changetracker/admin/agentlesscis/device_grid.webp)
 
 ### Windows Compliance Reports
 
@@ -89,18 +89,18 @@ The steps to create or configure a compliance report is out of scope for this gu
 report must be configured to run against the RemoteTest group to ensure the proxied device, created
 in the previous step, is included in the report.
 
-![compliance_report_configuration](/img/versioned_docs/changetracker_8.0/changetracker/admin/agentlesscis/compliance_report_configuration.png)
+![compliance_report_configuration](/img/versioned_docs/changetracker_8.0/changetracker/admin/agentlesscis/compliance_report_configuration.webp)
 
 Execute the compliance report in the standard way.
 
-![running_compliance_report](/img/versioned_docs/changetracker_8.0/changetracker/admin/agentlesscis/running_compliance_report.png)
+![running_compliance_report](/img/versioned_docs/changetracker_8.0/changetracker/admin/agentlesscis/running_compliance_report.webp)
 
 Completed compliance report:
 
-![completed_compliance_report](/img/versioned_docs/changetracker_8.0/changetracker/admin/agentlesscis/completed_compliance_report.png)
+![completed_compliance_report](/img/versioned_docs/changetracker_8.0/changetracker/admin/agentlesscis/completed_compliance_report.webp)
 
 The Windows compliance report will look the just the same as a report executed on Windows devices
 with agents. The details of the report will contain all passed and failed checks for the proxied
 Windows device.
 
-![compliance_report](/img/versioned_docs/changetracker_8.0/changetracker/admin/agentlesscis/compliance_report.png)
+![compliance_report](/img/versioned_docs/changetracker_8.0/changetracker/admin/agentlesscis/compliance_report.webp)

@@ -28,7 +28,7 @@ generate reports on the collected data.
 
 ## Job Groups
 
-![Entra ID Job Group Overview page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/runninginstances/overviewpage.png)
+![Entra ID Job Group Overview page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/runninginstances/overviewpage.webp)
 
 The job groups in the Entra ID Solution are:
 

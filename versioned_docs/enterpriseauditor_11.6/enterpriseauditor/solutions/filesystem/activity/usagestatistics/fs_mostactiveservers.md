@@ -10,7 +10,7 @@ Statistics** > **FS_MostActiveServers** > **Configure** node and select **Analys
 **CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
 preconfigured for this job.
 
-![Analysis Task for the FS_MostActiveServers Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/activity/usagestatistics/mostactiveserversanalysis.png)
+![Analysis Task for the FS_MostActiveServers Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/activity/usagestatistics/mostactiveserversanalysis.webp)
 
 The following analysis task is selected by default:
 

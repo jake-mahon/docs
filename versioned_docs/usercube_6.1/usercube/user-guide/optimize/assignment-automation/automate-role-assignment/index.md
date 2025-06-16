@@ -29,11 +29,11 @@ Create a role assignment rule by proceeding as follows:
 1. Access the rules page by clicking on **Access Rules** on the home page in the **Configuration**
    section.
 
-    ![Home Page - Access Rules](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/classification/home_rules_v602.png)
+    ![Home Page - Access Rules](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/classification/home_rules_v602.webp)
 
 2. In the dropdown menu at the top left, choose the source entity type for the future scalar rule.
 
-    ![Entity Type Choice](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/provrules_entitytype_v602.png)
+    ![Entity Type Choice](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/provrules_entitytype_v602.webp)
 
 3. Click on the **Composite Roles** or **Single Roles** tab and on the addition button at the top
    right corner.
@@ -42,7 +42,7 @@ Create a role assignment rule by proceeding as follows:
 
 4. Fill in the fields.
 
-    ![Create an Assignment Rule](/img/versioned_docs/usercube_6.1/usercube/user-guide/optimize/assignment-automation/automate-role-assignment/assignmentrules_newsrolerule_v602.png)
+    ![Create an Assignment Rule](/img/versioned_docs/usercube_6.1/usercube/user-guide/optimize/assignment-automation/automate-role-assignment/assignmentrules_newsrolerule_v602.webp)
 
     - `Single Role`: single role to be automatically assigned in a single role rule.
       `Composite Role` for a composite role rule.
@@ -103,15 +103,15 @@ Then, you can:
 
 1. Select a test user in the directory, accessible from the home page.
 
-    ![Home Page - Directory User](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/configure-workflows/home_directoryuser_v523.png)
+    ![Home Page - Directory User](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/configure-workflows/home_directoryuser_v523.webp)
 
 2. Create a role assignment rule for a role that said user doesn't already have, and based on
    criteria which the selected user satisfies.
 3. Trigger the computation of the role model through the complete job on the **Job Execution** page
    in the **Administration** section.
 
-    ![Home - Job Execution](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/synchronization/home_jobexecution_v602.png)
+    ![Home - Job Execution](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/synchronization/home_jobexecution_v602.webp)
 
 4. See the new permission in the user's **View Permissions** tab.
 
-    ![View Permissions Tab](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/provisioning-rule-creation/resource-creation/viewpermissions_v602.png)
+    ![View Permissions Tab](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/provisioning-rule-creation/resource-creation/viewpermissions_v602.webp)

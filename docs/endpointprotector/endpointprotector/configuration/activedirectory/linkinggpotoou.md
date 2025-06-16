@@ -11,4 +11,4 @@ these steps:
 
 **NOTE:** The new policies will be applied only when the target computers are rebooted.
 
-![Linking Group Policy Objects to Organization Units ](../../../../../static/img/product_docs/endpointprotector/endpointprotector/configuration/activedirectory/gpotooulinking.png)
+![Linking Group Policy Objects to Organization Units ](../../../../../static/img/product_docs/endpointprotector/endpointprotector/configuration/activedirectory/gpotooulinking.webp)

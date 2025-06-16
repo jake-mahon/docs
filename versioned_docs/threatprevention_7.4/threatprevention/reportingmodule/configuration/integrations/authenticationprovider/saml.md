@@ -17,7 +17,7 @@ select **Integrations** to open the Integrations interface.
 On the Integrations interface, select an authentication provider under the Authentication Provider
 node in the navigation pane or from the table to configure, view, or modify its details.
 
-![Integrations interface displaying the details for a SAML authneication provider](/img/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/configuration/integrations/authenticationprovider/saml.png)
+![Integrations interface displaying the details for a SAML authneication provider](/img/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/configuration/integrations/authenticationprovider/saml.webp)
 
 The details page for a SAML authentication provider has two tabs:
 
@@ -33,7 +33,7 @@ respective users.
 
 Configure the following settings for a SAML provider on the Configuration tab:
 
-![Configuration tab for a SAML authneication provider](/img/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/configuration/integrations/authenticationprovider/configurationsaml.png)
+![Configuration tab for a SAML authneication provider](/img/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/configuration/integrations/authenticationprovider/configurationsaml.webp)
 
 - Default – The default profile applied when a user is assigned multiple authentication profiles.
   When off, the profile will be determined in alphabetical order of the profile name. Toggle off and
@@ -60,7 +60,7 @@ profile. To give access to the application to new users, click the New Access bu
 the Add Console Access window. To assign this authentication provider to existing users, go to
 System Settings > User Access Page.
 
-![UserGroups tab for an authneication provider](/img/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/configuration/integrations/authenticationprovider/usersgroupstab.png)
+![UserGroups tab for an authneication provider](/img/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/configuration/integrations/authenticationprovider/usersgroupstab.webp)
 
 The table displays the following information:
 

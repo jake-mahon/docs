@@ -11,7 +11,7 @@ Navigate to the **Jobs** > **SharePoint** > **7.Activity** > **Usage Statistics*
 **CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
 preconfigured for this job.
 
-![Analysis Tasks for the SP_MostActiveUsers Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/activity/usagestatistics/mostactiveusersanalysis.png)
+![Analysis Tasks for the SP_MostActiveUsers Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/activity/usagestatistics/mostactiveusersanalysis.webp)
 
 The default analysis task is:
 

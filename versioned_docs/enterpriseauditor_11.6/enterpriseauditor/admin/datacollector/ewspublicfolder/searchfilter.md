@@ -5,7 +5,7 @@ a wizard page for the category of:
 
 - PublicFolder search
 
-![EWS Public Folder Data Collector Wizard Search Filter page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/ewsmailbox/searchfilter.png)
+![EWS Public Folder Data Collector Wizard Search Filter page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/ewsmailbox/searchfilter.webp)
 
 Click **Add Filter** to open the Filter Wizard
 

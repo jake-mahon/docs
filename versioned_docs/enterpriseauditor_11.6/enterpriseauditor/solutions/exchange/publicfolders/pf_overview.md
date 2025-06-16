@@ -12,7 +12,7 @@ View the analysis tasks by navigating to the **Exchange** > **5. Public Folders*
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for the PF_Overview Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/publicfolders/overviewanalysis.png)
+![Analysis Tasks for the PF_Overview Job](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/publicfolders/overviewanalysis.webp)
 
 The following analysis tasks are selected by default:
 

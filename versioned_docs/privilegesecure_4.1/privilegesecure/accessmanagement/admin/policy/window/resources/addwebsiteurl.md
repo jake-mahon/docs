@@ -13,7 +13,7 @@ Follow the steps to add or edit a Website URL used by a resource.
 
 - To add a new URL, click **Add**.
 
-![addwebsiteurl](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/window/resources/addwebsiteurl.png)
+![addwebsiteurl](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/window/resources/addwebsiteurl.webp)
 
 **Step 4 –** Enter the following information:
 

@@ -7,11 +7,11 @@ Gives access to a shortcut on the dashboard and on the top bar to access this pa
 
 Top bar shortcut:
 
-![Tasks in Top Bar](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/configure-workflows/home_topbar_v601.png)
+![Tasks in Top Bar](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/configure-workflows/home_topbar_v601.webp)
 
 DashBoard shortcut:
 
-![Task in Dashboard](/img/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/workflows/workflowaccesscontrolrules/home_mytasks_v523.png)
+![Task in Dashboard](/img/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/workflows/workflowaccesscontrolrules/home_mytasks_v523.webp)
 
 ## Examples
 

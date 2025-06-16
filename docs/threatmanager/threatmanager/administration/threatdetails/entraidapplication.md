@@ -3,7 +3,7 @@
 The Application Details page provides information about an application registered in Microsoft Entra
 ID.
 
-![Entra ID Application Page](../../../../../static/img/product_docs/accessanalyzer/enterpriseauditor/admin/settings/application/application.webp)
+![Entra ID Application Page](../../../../../static/img/product_docs/accessanalyzer/admin/settings/application/application.webp)
 
 The top of the page displays a profile card which may contain the following information about the
 application:

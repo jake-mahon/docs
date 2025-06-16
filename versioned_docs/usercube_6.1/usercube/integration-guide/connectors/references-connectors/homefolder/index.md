@@ -5,7 +5,7 @@ This connector exports [home folders](https://en.wikipedia.org/wiki/Home_directo
 This page is about
 [Storage/Home Folders](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/home-folders/index.md).
 
-![Package: Storage/Home Folders](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/homefolder/packages_homefolders_v603.png)
+![Package: Storage/Home Folders](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/homefolder/packages_homefolders_v603.webp)
 
 ## Overview
 

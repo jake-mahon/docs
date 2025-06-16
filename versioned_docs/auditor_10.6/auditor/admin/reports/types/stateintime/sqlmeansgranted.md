@@ -10,7 +10,7 @@ Supported object types and attributes are listed in the
 To instruct Netwrix Auditor to collect data needed for this report, make sure that **Collect data
 for state-in-time reports** option is selected in the monitoring plan properties.
 
-![sqlservermeansgranted](/img/versioned_docs/auditor_10.6/auditor/admin/reports/types/stateintime/sqlservermeansgranted.png)
+![sqlservermeansgranted](/img/versioned_docs/auditor_10.6/auditor/admin/reports/types/stateintime/sqlservermeansgranted.webp)
 
 ## Reported data
 
@@ -92,4 +92,4 @@ _Corp_ organization discovered that the accounts with Contractor job title has a
 **SQL Server Means Granted** report for that account by clicking the link in the **Means granted**
 field for that account.
 
-![sqlservermeansgranteddetails](/img/versioned_docs/auditor_10.6/auditor/admin/reports/types/stateintime/sqlservermeansgranteddetails.png)
+![sqlservermeansgranteddetails](/img/versioned_docs/auditor_10.6/auditor/admin/reports/types/stateintime/sqlservermeansgranteddetails.webp)
