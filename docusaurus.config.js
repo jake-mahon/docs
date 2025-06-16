@@ -5,8 +5,77 @@
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
 import { themes as prismThemes } from 'prism-react-renderer';
+import fs from 'fs';
+import path from 'path';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
+
+/**
+ * Dynamically discover products and versions from the docs directory structure
+ */
+function discoverProducts() {
+  const docsPath = path.join(__dirname, 'docs');
+  const products = [];
+
+  try {
+    // Read all directories in docs/
+    const productDirs = fs.readdirSync(docsPath, { withFileTypes: true })
+      .filter(dirent => dirent.isDirectory())
+      .map(dirent => dirent.name);
+
+    for (const productId of productDirs) {
+      const productPath = path.join(docsPath, productId);
+      
+      // Check if there are version directories
+      const versionDirs = fs.readdirSync(productPath, { withFileTypes: true })
+        .filter(dirent => dirent.isDirectory())
+        .filter(dirent => /^\d+\./.test(dirent.name)) // Match version patterns like "1.0", "2.1", etc.
+        .map(dirent => dirent.name)
+        .sort((a, b) => b.localeCompare(a, undefined, { numeric: true })); // Sort versions descending
+
+      // Determine the label for the current version
+      let currentLabel = 'Current';
+      if (versionDirs.length > 0) {
+        currentLabel = `Version ${versionDirs[0]}`; // Use the latest version as label
+      }
+
+      products.push({
+        id: productId,
+        label: currentLabel,
+        hasVersions: versionDirs.length > 0,
+        versions: versionDirs
+      });
+    }
+  } catch (error) {
+    console.error('Error discovering products:', error);
+  }
+
+  return products;
+}
+
+/**
+ * Generate sidebar path based on product and version
+ */
+function getSidebarPath(productId, version) {
+  if (version) {
+    const sidebarFile = `./sidebars/${productId}/${version}/sidebar.js`;
+    // Check if version-specific sidebar exists
+    if (fs.existsSync(path.join(__dirname, 'sidebars', productId, version, 'sidebar.js'))) {
+      return sidebarFile;
+    }
+  }
+  
+  // Check if product-specific sidebar exists
+  const productSidebarFile = `./sidebars/${productId}/sidebar.js`;
+  if (fs.existsSync(path.join(__dirname, 'sidebars', productId, 'sidebar.js'))) {
+    return productSidebarFile;
+  }
+  
+  // Fallback to generic sidebar
+  return './sidebars/sidebar.js';
+}
+
+const discoveredProducts = discoverProducts();
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -75,420 +144,23 @@ const config = {
         },
       },
     ],
-    // 1Secure Product Documentation
-    [
+    // Product configurations
+    ...discoveredProducts.map(product => [
       '@docusaurus/plugin-content-docs',
       {
-        id: '1secure',
-        path: 'docs/1secure',
-        routeBasePath: 'docs/1secure',
-        sidebarPath: './sidebars/1secure.js',
-        editUrl:
-          'https://github.com/netwrix/docs/tree/main/packages/create-docusaurus/templates/shared/',
+        id: product.id,
+        path: `docs/${product.id}`,
+        routeBasePath: `docs/${product.id}`,
+        sidebarPath: getSidebarPath(product.id, product.versions.length > 0 ? product.versions[0] : null),
+        editUrl: 'https://github.com/netwrix/docs/tree/main/packages/create-docusaurus/templates/shared/',
         exclude: ['**/CLAUDE.md'],
         versions: {
           current: {
-            label: 'Current',
+            label: product.label,
           },
         },
       },
-    ],
-    // ActivityMonitor Product Documentation
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'activitymonitor',
-        path: 'docs/activitymonitor',
-        routeBasePath: 'docs/activitymonitor',
-        sidebarPath: './sidebars/activitymonitor.js',
-        editUrl:
-          'https://github.com/netwrix/docs/tree/main/packages/create-docusaurus/templates/shared/',
-        exclude: ['**/CLAUDE.md'],
-        versions: {
-          current: {
-            label: 'Version 8.0',
-          },
-        },
-      },
-    ],
-    // ChangeTracker Product Documentation
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'changetracker',
-        path: 'docs/changetracker',
-        routeBasePath: 'docs/changetracker',
-        sidebarPath: './sidebars/changetracker.js',
-        editUrl:
-          'https://github.com/netwrix/docs/tree/main/packages/create-docusaurus/templates/shared/',
-        exclude: ['**/CLAUDE.md'],
-        versions: {
-          current: {
-            label: 'Version 8.1',
-          },
-        },
-      },
-    ],
-    // Access Analyzer Product Documentation
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'accessanalyzer',
-        path: 'docs/accessanalyzer',
-        routeBasePath: 'docs/accessanalyzer',
-        sidebarPath: './sidebars/accessanalyzer.js',
-        editUrl:
-          'https://github.com/netwrix/docs/tree/main/packages/create-docusaurus/templates/shared/',
-        exclude: ['**/CLAUDE.md'],
-        versions: {
-          current: {
-            label: 'Version 12.0',
-          },
-        },
-      },
-    ],
-    // Access Information Center Product Documentation
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'accessinformationcenter',
-        path: 'docs/accessinformationcenter',
-        routeBasePath: 'docs/accessinformationcenter',
-        sidebarPath: './sidebars/accessinformationcenter.js',
-        editUrl:
-          'https://github.com/netwrix/docs/tree/main/packages/create-docusaurus/templates/shared/',
-        exclude: ['**/CLAUDE.md'],
-        versions: {
-          current: {
-            label: 'Current',
-          },
-        },
-      },
-    ],
-    // Auditor Product Documentation
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'auditor',
-        path: 'docs/auditor',
-        routeBasePath: 'docs/auditor',
-        sidebarPath: './sidebars/auditor.js',
-        editUrl:
-          'https://github.com/netwrix/docs/tree/main/packages/create-docusaurus/templates/shared/',
-        exclude: ['**/CLAUDE.md'],
-        versions: {
-          current: {
-            label: 'Version 10.7',
-          },
-        },
-      },
-    ],
-    // Data Classification Product Documentation
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'dataclassification',
-        path: 'docs/dataclassification',
-        routeBasePath: 'docs/dataclassification',
-        sidebarPath: './sidebars/dataclassification.js',
-        editUrl:
-          'https://github.com/netwrix/docs/tree/main/packages/create-docusaurus/templates/shared/',
-        exclude: ['**/CLAUDE.md'],
-        versions: {
-          current: {
-            label: 'Version 5.7',
-          },
-        },
-      },
-    ],
-    // Endpoint Protector Product Documentation
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'endpointprotector',
-        path: 'docs/endpointprotector',
-        routeBasePath: 'docs/endpointprotector',
-        sidebarPath: './sidebars/endpointprotector.js',
-        editUrl:
-          'https://github.com/netwrix/docs/tree/main/packages/create-docusaurus/templates/shared/',
-        exclude: ['**/CLAUDE.md'],
-        versions: {
-          current: {
-            label: 'Current',
-          },
-        },
-      },
-    ],
-    // Group ID Product Documentation
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'groupid',
-        path: 'docs/groupid',
-        routeBasePath: 'docs/groupid',
-        sidebarPath: './sidebars/groupid.js',
-        editUrl:
-          'https://github.com/netwrix/docs/tree/main/packages/create-docusaurus/templates/shared/',
-        exclude: ['**/CLAUDE.md'],
-        versions: {
-          current: {
-            label: 'Version 11.1',
-          },
-        },
-      },
-    ],
-    // Password Policy Enforcer Product Documentation
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'passwordpolicyenforcer',
-        path: 'docs/passwordpolicyenforcer',
-        routeBasePath: 'docs/passwordpolicyenforcer',
-        sidebarPath: './sidebars/passwordpolicyenforcer.js',
-        editUrl:
-          'https://github.com/netwrix/docs/tree/main/packages/create-docusaurus/templates/shared/',
-        exclude: ['**/CLAUDE.md'],
-        versions: {
-          current: {
-            label: 'Version 11.0',
-          },
-        },
-      },
-    ],
-    // Password Reset Product Documentation
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'passwordreset',
-        path: 'docs/passwordreset',
-        routeBasePath: 'docs/passwordreset',
-        sidebarPath: './sidebars/passwordreset.js',
-        editUrl:
-          'https://github.com/netwrix/docs/tree/main/packages/create-docusaurus/templates/shared/',
-        exclude: ['**/CLAUDE.md'],
-        versions: {
-          current: {
-            label: 'Version 3.3',
-          },
-        },
-      },
-    ],
-    // Password Secure Product Documentation
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'passwordsecure',
-        path: 'docs/passwordsecure',
-        routeBasePath: 'docs/passwordsecure',
-        sidebarPath: './sidebars/passwordsecure.js',
-        editUrl:
-          'https://github.com/netwrix/docs/tree/main/packages/create-docusaurus/templates/shared/',
-        exclude: ['**/CLAUDE.md'],
-        versions: {
-          current: {
-            label: 'Version 9.2',
-          },
-        },
-      },
-    ],
-    // PolicyPak Product Documentation
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'policypak',
-        path: 'docs/policypak',
-        routeBasePath: 'docs/policypak',
-        sidebarPath: './sidebars/policypak.js',
-        editUrl:
-          'https://github.com/netwrix/docs/tree/main/packages/create-docusaurus/templates/shared/',
-        exclude: ['**/CLAUDE.md'],
-        versions: {
-          current: {
-            label: 'Current',
-          },
-        },
-      },
-    ],
-    // Privilege Secure Product Documentation
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'privilegesecure',
-        path: 'docs/privilegesecure',
-        routeBasePath: 'docs/privilegesecure',
-        sidebarPath: './sidebars/privilegesecure.js',
-        editUrl:
-          'https://github.com/netwrix/docs/tree/main/packages/create-docusaurus/templates/shared/',
-        exclude: ['**/CLAUDE.md'],
-        versions: {
-          current: {
-            label: 'Version 25.5',
-          },
-        },
-      },
-    ],
-    // Recovery for Active Directory Product Documentation
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'recoveryforactivedirectory',
-        path: 'docs/recoveryforactivedirectory',
-        routeBasePath: 'docs/recoveryforactivedirectory',
-        sidebarPath: './sidebars/recoveryforactivedirectory.js',
-        editUrl:
-          'https://github.com/netwrix/docs/tree/main/packages/create-docusaurus/templates/shared/',
-        exclude: ['**/CLAUDE.md'],
-        versions: {
-          current: {
-            label: 'Version 2.6',
-          },
-        },
-      },
-    ],
-    // StrongPoint for NetSuite Product Documentation
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'strongpointfornetsuite',
-        path: 'docs/strongpointfornetsuite',
-        routeBasePath: 'docs/strongpointfornetsuite',
-        sidebarPath: './sidebars/strongpointfornetsuite.js',
-        editUrl:
-          'https://github.com/netwrix/docs/tree/main/packages/create-docusaurus/templates/shared/',
-        exclude: ['**/CLAUDE.md'],
-        versions: {
-          current: {
-            label: 'Current',
-          },
-        },
-      },
-    ],
-    // StrongPoint for Salesforce Product Documentation
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'strongpointforsalesforce',
-        path: 'docs/strongpointforsalesforce',
-        routeBasePath: 'docs/strongpointforsalesforce',
-        sidebarPath: './sidebars/strongpointforsalesforce.js',
-        editUrl:
-          'https://github.com/netwrix/docs/tree/main/packages/create-docusaurus/templates/shared/',
-        exclude: ['**/CLAUDE.md'],
-        versions: {
-          current: {
-            label: 'Current',
-          },
-        },
-      },
-    ],
-    // StrongPoint NetSuite Flashlight Product Documentation
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'strongpointnetsuiteflashlight',
-        path: 'docs/strongpointnetsuiteflashlight',
-        routeBasePath: 'docs/strongpointnetsuiteflashlight',
-        sidebarPath: './sidebars/strongpointnetsuiteflashlight.js',
-        editUrl:
-          'https://github.com/netwrix/docs/tree/main/packages/create-docusaurus/templates/shared/',
-        exclude: ['**/CLAUDE.md'],
-        versions: {
-          current: {
-            label: 'Current',
-          },
-        },
-      },
-    ],
-    // StrongPoint Salesforce Flashlight Product Documentation
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'strongpointsalesforceflashlight',
-        path: 'docs/strongpointsalesforceflashlight',
-        routeBasePath: 'docs/strongpointsalesforceflashlight',
-        sidebarPath: './sidebars/strongpointsalesforceflashlight.js',
-        editUrl:
-          'https://github.com/netwrix/docs/tree/main/packages/create-docusaurus/templates/shared/',
-        exclude: ['**/CLAUDE.md'],
-        versions: {
-          current: {
-            label: 'Current',
-          },
-        },
-      },
-    ],
-    // Threat Manager Product Documentation
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'threatmanager',
-        path: 'docs/threatmanager',
-        routeBasePath: 'docs/threatmanager',
-        sidebarPath: './sidebars/threatmanager.js',
-        editUrl:
-          'https://github.com/netwrix/docs/tree/main/packages/create-docusaurus/templates/shared/',
-        exclude: ['**/CLAUDE.md'],
-        versions: {
-          current: {
-            label: 'Version 3.0',
-          },
-        },
-      },
-    ],
-    // Threat Prevention Product Documentation
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'threatprevention',
-        path: 'docs/threatprevention',
-        routeBasePath: 'docs/threatprevention',
-        sidebarPath: './sidebars/threatprevention.js',
-        editUrl:
-          'https://github.com/netwrix/docs/tree/main/packages/create-docusaurus/templates/shared/',
-        exclude: ['**/CLAUDE.md'],
-        versions: {
-          current: {
-            label: 'Version 7.5',
-          },
-        },
-      },
-    ],
-    // UserCube Product Documentation
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'usercube',
-        path: 'docs/usercube',
-        routeBasePath: 'docs/usercube',
-        sidebarPath: './sidebars/usercube.js',
-        editUrl:
-          'https://github.com/netwrix/docs/tree/main/packages/create-docusaurus/templates/shared/',
-        exclude: ['**/CLAUDE.md'],
-        versions: {
-          current: {
-            label: 'Version 6.2',
-          },
-        },
-      },
-    ],
-    // UserCube SaaS Product Documentation
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'usercube_saas',
-        path: 'docs/usercube_saas',
-        routeBasePath: 'docs/usercube_saas',
-        sidebarPath: './sidebars/usercube_saas.js',
-        editUrl:
-          'https://github.com/netwrix/docs/tree/main/packages/create-docusaurus/templates/shared/',
-        exclude: ['**/CLAUDE.md'],
-        versions: {
-          current: {
-            label: 'Current',
-          },
-        },
-      },
-    ],
+    ]),
   ].filter(Boolean),
 
   themeConfig:
