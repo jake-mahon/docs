@@ -1,0 +1,28 @@
+# Database properties
+
+The properties of a database can be opened by double-clicking on the database. No login to the
+database is required.
+
+![installation_with_parameters_225](../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/database_properties/installation_with_parameters_225.webp)
+
+#### Properties
+
+The following options can be edited:
+
+- [General settings](../main_menu/general_settings.md)
+- [Syslog](syslog.md)
+- [Database firewall](database_firewall.md)
+
+General Settings
+
+The following can be defined in the General Settings:
+
+- **Database server** – here the SQL instance can be specified again.
+- **SystemTask check interval** – specifies the time interval in which the check interval for
+  SystemTasks should run (**default set to 60 minutes**)
+- **Enable offline access** – Activate/deactivate the Offline Add-on
+- **Activate access via web client** – Activate/deactivate the web client (**active by default**)
+- **Allow mobile synchronization** – Activate/deactivate synchronization with mobile devices
+- **Lock clients if login is incorrect (IP address)** – Lock IP if login is incorrect
+- **Enable real-time update** – Enables/disables real-time update between clients **(default is
+  active)**
